@@ -1,0 +1,62 @@
+---
+jcr-language: en_us
+title: Administratoren
+description: Lesen Sie weiter, um mehr über die Learning Manager-Funktionen und häufig gestellte Fragen zur Administratorrolle zu erfahren.
+contentowner: manochan
+preview: true
+source-git-commit: 0fabd369e70e15ba22fead0177a24aafd851d88d
+workflow-type: tm+mt
+source-wordcount: '125'
+ht-degree: 0%
+
+---
+
+
+
+# Administratoren
+
+<table> 
+ <tbody>
+  <tr> 
+   <td><img src="assets/administrator2.png"></td> 
+   <td><p>Lesen Sie weiter, um mehr über die Learning Manager-Funktionen und häufig gestellte Fragen zur Administratorrolle zu erfahren. </p></td> 
+  </tr> 
+ </tbody>
+</table>
+
+## Empfohlene Vorgehensweisen für Administratoren {#bestpracticesguideforadministrators}
+
+[Empfohlene Vorgehensweisen für Administratoren zum Einrichten und zu den ersten Schritten mit Learning Manager](administrators/getting-started.md)
+
+## Häufig gestellte Fragen (FAQ) {#frequentlyaskedquestionsfaq}
+
+[Häufig gestellte Fragen zur Administratorrolle](administrators/frequently-asked-questions-for-administrators.md)
+
+## Funktionen {#features}
+
+* [Farbdesigns und Branding](administrators/feature-summary/themes.md)
+* [Integration mit Adobe Connect](administrators/feature-summary/adobeconnect-integration.md)
+* [Teilnehmertranskripte](/help/migrated/administrators/feature-summary/learner-transcripts.md)
+* [Gamification](administrators/feature-summary/gamification.md)
+* [Benutzer/Benutzergruppen hinzufügen](administrators/feature-summary/add-users-user-groups.md)
+* [Abzeichen](administrators/feature-summary/badges.md)
+* [Abrechnungsverwaltung](administrators/feature-summary/billing-management.md)
+* [Kataloge](administrators/feature-summary/catalogs.md)
+* [Zertifikationen](administrators/feature-summary/certifications.md)
+* [Kurse](administrators/feature-summary/courses.md)
+* [E-Mail-Vorlagen](administrators/feature-summary/email-templates.md)
+* [Fluidic Player](administrators/feature-summary/fluidic-player.md)
+* [Benutzer von iPad- und Android-Tablets](administrators/feature-summary/ipad-android-tablet-users.md)
+* [Lernpläne](administrators/feature-summary/learning-plans.md)
+* [Lernprogramme](administrators/feature-summary/learning-programs.md)
+* [Berichte](administrators/feature-summary/reports.md)
+* [Einstellungen](administrators/feature-summary/settings.md)
+* [Kenntnisse und Stufen](administrators/feature-summary/skills-levels.md)
+* [Anmeldung für Benutzer](administrators/feature-summary/user-login.md)
+* [Benutzerbenachrichtigungen](administrators/feature-summary/user-notifications.md)
+* [Verwaltung von Wartelisten und Anwesenheit](administrators/feature-summary/waitlist-attendance-management.md)
+* [Peer-Konten](administrators/feature-summary/peer-account.md)
+
+## Technische Referenz {#technicalreference}
+
+[Sie können das Adobe Learning Manager Technical Reference-Handbuch hier herunterladen.](assets/technicaloverview.pdf)

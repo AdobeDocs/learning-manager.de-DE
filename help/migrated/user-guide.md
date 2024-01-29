@@ -1,0 +1,59 @@
+---
+title: Willkommen beim Benutzerhandbuch für den Adobe Learning Manager
+description: Informieren Sie sich über das neueste Angebot im Adobe Learning Manager (früher Adobe Captivate Prime). Beginnen Sie am Anfang, besuchen Sie die einzelnen Abschnitte nacheinander oder bearbeiten Sie ein Projekt gemeinsam mit der Community.
+contentowner: dhv
+source-git-commit: 73a1fe972eb8d399dd9ae53b6b1128bb11561924
+workflow-type: tm+mt
+source-wordcount: '126'
+ht-degree: 0%
+
+---
+
+
+# Willkommen beim Benutzerhandbuch für den Adobe Learning Manager
+
+Lesen Sie weiter, um zu erfahren, was das neueste Angebot im Adobe Learning Manager (früher Adobe Captivate Prime) ist. Beginnen Sie am Anfang, besuchen Sie die einzelnen Abschnitte nacheinander oder bearbeiten Sie ein Projekt gemeinsam mit der Community.
+
+## Diskutieren Sie mit {#jointheconversation}
+
+Auf der Seite [Adobe Learning Manager-Benutzer-Community](https://community.adobe.com/t5/adobe-learning-manager/ct-p/ct-captivate-prime?page=1&amp;sort=latest_replies&amp;lang=all&amp;tabid=all) um sich inspirieren zu lassen und Antworten auf die wichtigsten Fragen zu erhalten.
+
+## Beliebte Themen {#populartopics}
+
+<table style="table-layout:fixed">
+ <tbody>
+  <tr>
+   <td>
+    <a href="whats-new.md">
+    <img alt="Neue Funktionen" src="assets/prime-new.jpeg">
+    </a>
+    <div>
+    <a href="whats-new.md"><strong>Überblick über neue Funktionen</strong></a>
+    </div>
+   </td>
+   <td>
+    <a href="system-requirements.md">
+    <img alt="Systemanforderungen" src="assets/prime-reqs.jpeg">
+    </a>
+    <a href="whats-new.md"><strong>Systemanforderungen </strong></a>
+    </p>
+   </td>
+   <td>
+    <a href="integration-admin/feature-summary/connectors.md">
+    <img alt="Verbindungsstück" src="assets/prime-connector.jpeg">
+    </a>
+    <div>
+    <a href="integration-admin/feature-summary/connectors.md"><strong>Learning Manager-Connectors</strong></a>
+    </div>
+   </td>
+   <td>
+    <a href="accessibility-learning-manager.md">
+    <img alt="Zugänglichkeit" src="assets/prime-accessibility.jpeg">
+    </a>
+    <div>
+    <a href="accessibility-learning-manager.md"><strong>Barrierefreiheit im Adobe Learning Manager</strong></a>
+    </div>
+   </td>
+  </tr>
+ </tbody>
+</table>

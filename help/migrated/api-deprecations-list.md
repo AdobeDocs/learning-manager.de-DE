@@ -1,0 +1,149 @@
+---
+jcr-language: en_us
+title: API-Veraltungen im Adobe Learning Manager
+description: Wenn sich die APIs im Adobe Learning Manager weiterentwickeln, werden APIs regelmäßig neu organisiert oder aktualisiert. Wenn sich APIs weiterentwickeln, wird die alte API verworfen und schließlich entfernt. Diese Seite enthält Informationen, die Sie benötigen, wenn Sie von veralteten API-Versionen zu neueren und stabileren API-Versionen migrieren.
+contentowner: saghosh
+source-git-commit: 83fdd06aed823a50458d50c8ac240d56af873a6d
+workflow-type: tm+mt
+source-wordcount: '1005'
+ht-degree: 0%
+
+---
+
+
+# API-Veraltungen im Adobe Learning Manager
+
+## API-Veraltungen in der Version März 2024 von Adobe Learning Manager
+
+### Änderungen bei den Zinsgrenzen
+
+Mit der nächsten Version von Adobe Learning Manager ändern wir die API-Ratenlimits für neue Konten. Bei vorhandenen Konten sind nur die Admin-APIs ratenbegrenzt. Nach 90 Tagen (ca. 3 Monaten) werden wir die Gebührenlimits für alle APIs umstrukturieren, aber bestehende Konten werden entsprechend der aktuellen Nutzung auf die Positivliste gesetzt. Bestehende Konten müssen ihre Teilnehmer-API-Nutzung erneut aufrufen.
+
+Wenn neue Konten die Ratenlimits erhöhen möchten, müssen sie sich an das Customer Success Team von ALM wenden.
+
+#### Welche APIs sind kostenpflichtig?
+
+Für neue Konten haben alle Admin-, Teilnehmer- und Such-APIs Ratenlimits und Burst erzwungen.
+
+Die API-Burstrate bzw. das API-Burstlimit bezieht sich auf die maximale Anzahl von Anforderungen, die in einem kurzen Burst innerhalb eines begrenzten Zeitraums an eine API gestellt werden dürfen.
+
+In der folgenden Tabelle sind die Rate und die Burst-Limits für die APIs aufgeführt.
+
+<table>
+    <tr>
+        <th>API</th>
+        <th>Anzahl der Anforderungen - RPM</th>
+        <th>Anzahl der Anforderungen - Burst</th>
+    </tr>
+    <tr>
+        <td>Administrator</td>
+        <td>5</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>Teilnehmer</td>
+        <td>20</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>Suchen</td>
+        <td>50</td>
+        <td>5</td>
+    </tr>
+</table>
+
+### Änderungen an den Versatzgrenzen
+
+Aufgrund der hohen Anzahl von Datensätzen, die durch den Offsetwert abgerufen werden, und der sich verschlechternden Gesamtleistung erzwingen wir eine Beschränkung der **500** Datensätze. In der nächsten Version für Admin und Teilnehmer wird das Dialogfeld &quot; **GET Users** API gibt maximal Folgendes zurück: **500** Datensätze.
+
+Wenn Sie weitere Datensätze abrufen müssen, verwenden Sie den Katalog **GET Jobs** API.
+
+Die Änderung der Verrechnungslimits gilt für alle Neukunden. Für Bestandskunden gilt die 90-Tage-Regel.
+
+### Ausschließen von Pfaden
+
+Derzeit folgen Learning Manager-APIs einer Diagrammdatenstruktur, mit der Sie Daten abrufen können, indem Sie das API-Modell durch Includes durchlaufen. Auch wenn Sie eine API auf bis zu sieben Ebenen durchlaufen könnten, ist das Abrufen der Daten mit einem einzigen API-Aufruf rechnerisch kostspielig.
+
+Wir empfehlen allen bestehenden und neuen Kunden, mehrmals anstatt eines einzigen großen Anrufs kleine Anrufe zu tätigen. Dadurch wird verhindert, dass unerwünschte Daten in den Aufruf geladen werden.
+
+Wir möchten diese Einschränkungen für neue Konten durchsetzen und eine Positivliste der bestehenden Konten führen.
+
+#### Welche Pfade veraltet sind
+
+Die folgenden Pfade sind veraltet:
+
+* /learningObjects
+   * Veraltete Pfade:
+      * enrollment.loInstance.loResources.resources
+      * instances.loResources.resources
+   * Neue Pfade:
+      * enrollment.loInstance.loResources
+      * instances.loResources
+
+* /learningObjects/{id}
+   * Veralteter Pfad:
+      * enrollment.instances.subLoInstances.learningObject
+   * Neuer Pfad:
+      * enrollment.instances.subLoInstances
+
+* /enrollments
+   * Veralteter Pfad:
+      * loInstance.learningObject.enrollment
+   * Neuer Pfad:
+      * loInstance.learningObject
+
+* /learningObjects/{id}
+   * Veralteter Pfad:
+      * instance.subLoInstances.learningObject.enrollment.loResourceGrades
+   * Neuer Pfad:
+      * instance.subLoInstances
+
+### Änderungen an der Instanzzusammenfassungsanzahl
+
+Derzeit wird im Endpunkt der LO-Zusammenfassung die Anzahl aller möglichen Instanzen abgerufen. Beispielsweise können Sie für einen Kurs die Anzahl der Registrierungen und Wartelisten in der Antwort für **GET /learningObjects/{loId}/instances/{loInstanceId}/summary**. Anschließend können Sie in der Antwort die Ergebnisse &quot;completeCount&quot; und &quot;enrollmentCount&quot; anzeigen. Wenn es sich bei dem Kurs um einen VC oder ein Klassenzimmer handelt, können Sie auch die Sitzplatzbeschränkung und die Wartelistenbeschränkung anzeigen.
+
+Der Abruf der Abschlusses- und Registrierungszahlen ist rechnerisch aufwändig, sodass die Berechnung auf Anforderungsbasis erfolgt. Wenn die Daten nicht im Cache vorhanden sind, werden die Daten neu geladen, was rechenintensiv ist. Wenn sich viele Benutzer für einen Kurs registrieren, ist die Anzahl groß und wirkt sich effektiv auf die CPU-Leistung aus.
+
+In der nächsten Version von Adobe Learning Manager werden im zusammenfassenden Endpunkt der LO-Instanz die Werte &quot;completeCount&quot;, &quot;enrollmentCount&quot;, &quot;seatLimit&quot; und &quot;waitlistCount&quot; zwischengespeichert. Die zwischengespeicherten Informationen bleiben erhalten, bis sich Registrierungen oder Aufhebung der Registrierung ändern. Bei einer Anzahl von mehr als 1000 Registrierungen übernehmen wir die geschätzte Anzahl und annullieren die Ergebnisse für alle bestehenden und neuen Konten.
+
+>[!NOTE]
+>
+>Bei Zählern (z. B. completeCount, enrollmentCount, seatLimit und waitlistCount über 1000) sollten diese als Schätzungen und nicht als präzise Zahlen interpretiert werden, da diese aus dem Cache abgerufen werden.
+
+### Nach Name sortieren
+
+In der nächsten Version des Adobe-Lernmanagers werden name und -name im Sortierfeld der folgenden APIs veraltet sein:
+
+* GET /userGroups/{userGroupId}/users
+* GET /users
+
+>[!NOTE]
+>
+>Bei allen vorhandenen und neuen Konten ist die Sortierung nach Name und -name veraltet.
+
+
+## API-Veraltungen in der Version November 2023 von Adobe Learning Manager
+
+### Kennzeichen überschreiben
+
+In der Adobe Learning Manager-Version vom November 2023 haben wir das Überschreiben-Flag in den APIs eingestellt. Das override-Flag ist nicht Teil der öffentlichen API-Spezifikation und ist für Backend-Tests vorgesehen. Das Flag wird jetzt für Teilnehmer-APIs eingestellt. Das Flag ist jedoch weiterhin für Admin-APIs gültig.
+
+Der Grund, warum wir das Flag für Teilnehmer-APIs verwerfen, ist, dass das Überschreibungsflag eine große Datenmenge über die Teilnehmer-APIs abgerufen hat.
+
+In Zukunft wird die folgende Teilnehmer-API nicht mehr funktionieren, da sie das Überschreibungs-Flag aufweist.
+
+<code>https://captivateprime.adobe.com/primeapi/v2/users?page[Offset]=0&amp;page[begrenzen]=10&amp;sort=id&amp;override=TRUE</code>
+
+### API-Änderungen für kompetenzbasierte neue Empfehlungen
+
+Adobe Learning Manager verbessert die Empfehlungen für Kunden- und Partnerkonten. Diese Verbesserung des Empfehlungsalgorithmus durch die Änderung des Einstufungsalgorithmus für den Kurs, den Lernpfad und die Zertifizierung verbessert die Benutzererfahrung bei der Suche nach Inhalten.
+
+Der Algorithmus lässt keine Peer-basierten Empfehlungen mehr zu. Die Änderung wirkt sich nicht auf die vorhandenen Benutzer aus, aber die Option &quot;Branchenspezifisch&quot; ist weiterhin vorhanden. Bei der Option &quot;Benutzerdefiniert&quot; lässt der Adobe-Lern-Manager eine benutzerdefinierte Peer-basierte Auswahl nicht mehr zu.
+
+Die Peer-Gruppe wird jetzt zu einem Konto, und die Teilnehmer sehen eine Zeichenfolge, die die aktuellen Themen in der Gruppe anzeigt. Alle Empfehlungen sind erklärbar. Wenn Sie beispielsweise etwas zu einem Thema anzeigen, wird auf der Karte auf dem Streifen der Grund für den Kurs angezeigt.
+
+### Änderungen am Bericht für Benachrichtigungen
+
+In früheren Versionen des Adobe-Lernmanagers verfügte der Bericht &quot;Benachrichtigungsankündigung&quot; nicht über Filter. Adobe Learning Manager hat alle Benachrichtigungen im Konto heruntergeladen.
+
+In der Version vom November 2023 haben wir einen Datumsfilter hinzugefügt, mit dem Sie die Benachrichtigungen innerhalb eines bestimmten Zeitraums herunterladen können.  Sie können den Bericht jedoch nur für die letzten sechs Monate herunterladen.
