@@ -1,7 +1,7 @@
 ---
 title: Neue Funktionen in dieser Version
 description: Erfahren Sie mehr über die neuen Funktionen und Verbesserungen im Adobe-Lernmanager
-source-git-commit: 95ab7a13a7f3e9815785134bc1d1675c002ab64b
+source-git-commit: 655c94f0faaa6c025e07b11d3d9bfac4f221f899
 workflow-type: tm+mt
 source-wordcount: '2372'
 ht-degree: 0%
@@ -170,11 +170,48 @@ Wenn die Benutzerberechtigung oder die Benutzergruppe &quot;Alle&quot; ausgewäh
 
 Ein benutzerdefinierter Administrator kann entsprechend dem definierten Umfang auf die folgenden Berichte zugreifen:
 
-| Bericht | Verfügbar | Umfang |
+<table>
+    <tbody>
+        <tr>
+            <td>
+    <p style="text-align: left;"><b>Bericht</b></p></td>
+   <td>
+    <p style="text-align: left;"><b>Verfügbar</b></p></td>
+   <td>
+    <p style="text-align: left;"><b>Umfang</b></p></td>
+        </tr>
+    <tr>
+   <td>
+    <p>Inhaltsprüfpfad</p></td>
+   <td>
+    <p>Ja</p></td>
+   <td>
+    <p>Vollständiger Katalog</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Benutzerprüfpfad</p></td>
+   <td>
+    <p>Ja</p></td>
+   <td>
+    <p>Vollbenutzer</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Anmeldezugriff</p></td>
+   <td>
+    <p>Ja</p></td>
+   <td>
+    <p>Vollbenutzer</p></td>
+  </tr>
+    </tbody>
+</table>
+
+<!--| Report | Available | Scope |
 |--- |--- |
-| Inhaltsprüfpfad | Ja | Vollständiger Katalog |
-| Benutzerprüfpfad | Ja | Vollbenutzer |
-| Anmeldezugriff | Ja | Vollbenutzer |
+| Content Audit Trail | Yes | Full Catalog |
+| User Audit Trail | Yes | Full User |
+|Login Access | Yes | Full User |-->
 
 ## Verbesserte Connect-Integration
 
