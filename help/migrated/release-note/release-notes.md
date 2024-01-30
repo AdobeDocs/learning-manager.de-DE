@@ -3,7 +3,7 @@ description: Informationen über die neuen Funktionen und Verbesserungen in Adob
 jcr-language: en_us
 title: Zusammenfassung der neuen Funktionen
 contentowner: jayakarr
-source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
+source-git-commit: 35dc1f0880793a3f26ee70a3e9993d7520866b44
 workflow-type: tm+mt
 source-wordcount: '26196'
 ht-degree: 72%
@@ -1345,7 +1345,7 @@ Weitere Informationen finden Sie unter  [***Neue Funktionen in der Version Augus
 
 **Ankündigungen**
 
-* Wenn eine Ankündigung das Tag <a>klicken, wird die Ankündigung nicht wie erwartet erstellt.
+* Wenn eine Ankündigung das Tag `<a>`klicken, wird die Ankündigung nicht wie erwartet erstellt.
 
 **Konto**
 
