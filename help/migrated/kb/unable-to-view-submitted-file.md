@@ -1,26 +1,26 @@
 ---
 jcr-language: en_us
-title: Anzeigen von Dateiübermittlungen im Adobe Learning Manager nicht möglich
+title: Dateiübermittlungen können nicht in Adobe Learning Manager angezeigt werden
 description: Kursleiter können keine Dateien anzeigen, die die Teilnehmer im Modul für Übermittlungsaktivitäten hochgeladen haben.
 contentowner: nluke
 source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
 workflow-type: tm+mt
 source-wordcount: '205'
-ht-degree: 0%
+ht-degree: 50%
 
 ---
 
 
 
-# Anzeigen von Dateiübermittlungen im Adobe Learning Manager nicht möglich
+# Dateiübermittlungen können nicht in Adobe Learning Manager angezeigt werden
 
-## Problem
+## Ein Problem
 
-Ein Kursleiter kann die Dateiübermittlungen, die ein Teilnehmer hochgeladen hat, nicht anzeigen.
+Ein Ausbilder kann die von einem Teilnehmer hochgeladenen Dateien nicht anzeigen.
 
 ## Beschreibung
 
-Kursleiter können keine Dateien anzeigen, die Teilnehmer in die **Modul für Übermittlungsaktivitäten**.
+Ausbilder können keine Dateien anzeigen, die Teilnehmer im **Einreichungsaktivitätsmodul** hochgeladen haben.
 
 Beispielsweise hatte sich ein Teilnehmer für eine Instanz mit dem Namen **Testinstanz** eines Kurses, wie unten gezeigt:
 
@@ -30,7 +30,7 @@ Beispielsweise hatte sich ein Teilnehmer für eine Instanz mit dem Namen **Testi
 
 Der Teilnehmer öffnet dann den Kurs und lädt eine Datei im Aktivitätsmodul hoch.
 
-Wenn der Kursleiter versucht, die Einreichung zu genehmigen, kann der Kursleiter dies nicht tun.
+Wenn der Ausbilder versucht, die Übermittlung zu genehmigen, kann der Ausbilder dies nicht tun.
 
 ![](assets/activity.png)
 
@@ -42,7 +42,7 @@ Wenn es in der Kursinstanz keinen Kursleiter gibt, bei dem sich der Teilnehmer r
 
 ## Auflösung
 
-Um zu überprüfen, ob ein Kursleiter zur Kursinstanz hinzugefügt wurde, führen Sie die folgenden Schritte aus:
+Um zu überprüfen, ob der Kursinstanz ein Ausbilder hinzugefügt wurde, führen Sie die folgenden Schritte aus:
 
 1. Navigieren Sie zu den Kurseinstellungen.
 1. Im Dialogfeld &quot; **Verwalten** klicken Sie auf **[!UICONTROL Instanzen].**

@@ -1,19 +1,19 @@
 ---
 jcr-language: en_us
-title: Design für AEM Komponenten anpassen
-description: Design für AEM Komponenten anpassen
+title: Anpassen des Designs für AEM-Komponenten
+description: Anpassen des Designs für AEM-Komponenten
 contentowner: saghosh
 preview: true
 source-git-commit: ccdb222228f76fdae63ebb0a808824ad6ac1db7f
 workflow-type: tm+mt
 source-wordcount: '24'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
 
 
-# Design für AEM Komponenten anpassen
+# Anpassen des Designs für AEM-Komponenten
 
 Verwenden Sie die JSON-Datei unten, um das Katalog-Widget anzupassen.
 

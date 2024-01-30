@@ -1,24 +1,24 @@
 ---
 jcr-language: en_us
-title: Learning Manager mit AEM integrieren
-description: Learning Manager ist ein Learning Management System mit einem integrierten Learning Content Management System. Benutzer verwalten ihre Lerninhalte, indem sie sie in den Lern-Manager hochladen, sodass der Lern-Manager die Versionierung, die Zuweisung zu Kursen, die Definition der Sichtbarkeit für Teilnehmer, die Verfolgung der Nutzung und die Berichterstattung an Administratoren durchführt.
+title: Integration von Learning Manager in AEM
+description: Learning Manager ist ein Learning Management System mit einem integrierten Learning Content Management System. Benutzer verwalten ihre Lerninhalte, indem sie sie auf Learning Manager hochladen, sodass Learning Manager die Versionierung, die Zuweisung zu Kursen, die Definition der Sichtbarkeit für Teilnehmer, die Verfolgung der Nutzung und die Berichterstattung an Administratoren durchführt.
 contentowner: saghosh
 source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
 workflow-type: tm+mt
 source-wordcount: '1077'
-ht-degree: 0%
+ht-degree: 45%
 
 ---
 
 
 
-# Learning Manager mit AEM integrieren
+# Integration von Learning Manager in AEM
 
-Learning Manager ist ein Learning Management System mit einem integrierten Learning Content Management System. Benutzer verwalten ihre Lerninhalte, indem sie sie in den Lern-Manager hochladen, sodass der Lern-Manager die Versionierung, die Zuweisung zu Kursen, die Definition der Sichtbarkeit für Teilnehmer, die Verfolgung der Nutzung und die Berichterstattung an Administratoren durchführt.
+Learning Manager ist ein Learning Management System mit einem integrierten Learning Content Management System. Benutzer verwalten ihre Lerninhalte, indem sie sie auf Learning Manager hochladen, sodass Learning Manager die Versionierung, die Zuweisung zu Kursen, die Definition der Sichtbarkeit für Teilnehmer, die Verfolgung der Nutzung und die Berichterstattung an Administratoren durchführt.
 
-Es gibt jedoch Benutzer, die ihre Inhalte auf Asset-Management-Systemen speichern und verwalten. Der Inhalt wird dann für verschiedene andere Funktionen neu verwendet.
+Es gibt jedoch Benutzer, die ihre Inhalte auf Asset Management-Systemen speichern und verwalten. Der Inhalt wird dann für verschiedene andere Funktionen neu verwendet.
 
-Die verschiedenen Streifen in der Teilnehmer-App können in die AEM eingebettet werden. Jeder Teilnehmer, der sich bei der AEM anmeldet, sieht seine spezifischen Schulungsdaten in diesen Streifen.
+Die verschiedenen Streifen in der Teilnehmer-App können in die AEM-Sites eingebettet werden. Jeder Teilnehmer, der sich bei der AEM-Site anmeldet, wird seine spezifischen Schulungsdaten in diesen Streifen sehen.
 
 ## Herunterladen des Inhaltspakets {#downloadthecontentpackage}
 
@@ -26,7 +26,7 @@ Das Installationsprogramm wird als AEM-Inhaltspaket geliefert. [***Paket herunte
 
 Das Inhaltspaket ist als ZIP-Datei verfügbar und ist mit AEM 6.4 und AEM 6.5 kompatibel.
 
-## Installieren der Lern-Manager-Komponente {#installcaptivateprimecomponent}
+## Installieren der Learning Manager-Komponente {#installcaptivateprimecomponent}
 
 Installieren Sie das Learning Manager-Inhaltspaket mit dem AEM Package Manager:
 
@@ -34,21 +34,21 @@ Installieren Sie das Learning Manager-Inhaltspaket mit dem AEM Package Manager:
 >
 >Informationen zum Installieren von Paketen finden Sie unter  [***Mit Paketen arbeiten***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages).
 
-1. Öffnen Sie als AEM den AEM Package Manager.
+1. Öffnen Sie als AEM-Autor den AEM Package Manager.
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Paket hochladen]**.
 1. Klicken **[!UICONTROL Durchsuchen]** und laden Sie das Inhaltspaket hoch.
-1. Klicken **[!UICONTROL Hochladen]**.
-1. Nachdem das Paket hochgeladen wurde, installieren Sie das Inhaltspaket, indem Sie es auswählen und auf **[!UICONTROL Installieren]**.
+1. Klicken Sie auf **[!UICONTROL Hochladen]**.
+1. Nachdem das Paket hochgeladen wurde, installieren Sie das Inhaltspaket, indem Sie es auswählen und auf **[!UICONTROL Installieren]** klicken.
 
    ![](assets/install-package.jpg)
 
    *Installieren des Inhaltspakets*
 
-## Generieren des Aktualisierungstokens {#generatetherefreshtoken}
+## Generieren des Aktualisierungstoken {#generatetherefreshtoken}
 
-Der AEM benötigt ein Aktualisierungstoken aus dem Learning Manager-Konto. Der Learning Manager-Integrationsadministrator generiert das Aktualisierungstoken.
+Der AEM-Administrator benötigt ein Aktualisierungstoken aus dem Learning Manager-Konto. Der Learning Manager-Integrationsadministrator generiert das Aktualisierungstoken.
 
-1. Genehmigen Sie die empfohlene AEM Sites-App.
+1. Genehmigen Sie die empfohlene AEM-Sites-App.
 
    Klicken **[!UICONTROL Anwendungen]** > **[!UICONTROL Highlights]** > **[!UICONTROL Adobe Experience Manager - Sites]**.
 
@@ -68,38 +68,38 @@ Der AEM benötigt ein Aktualisierungstoken aus dem Learning Manager-Konto. Der L
 
 1. Geben Sie die folgenden Details ein:
 
-   * Client-ID, die Anwendungs-ID.
-   * Client-Geheimnis, das in der Beschreibung vorhanden ist.
+   * Client-ID, gleichzeitig Anwendungs-ID.
+   * Client-Geheimnis aus der Beschreibung.
 
 1. Abrufen des OAuth-Codes Sie müssen die v2-API im Umleitungs-URI verwenden.
 1. Klicken **[!UICONTROL Senden]** und rufen Sie das Aktualisierungstoken ab.
 
-## Konfigurieren Sie das Widget in AEM {#configurethewidgetinaem}
+## Konfigurieren des Widgets in AEM {#configurethewidgetinaem}
 
 Für die Widgetkonfiguration benötigt der AEM nur das Aktualisierungstoken, das vom Learning Manager-Integrationsadministrator bereitgestellt wird.
 
 Sie können auch mehrere Kontokonfigurationen auf mehreren Seiten festlegen.
 
 1. Klicken **[!UICONTROL Tools]** > **[!UICONTROL Cloud Service]** > **[!UICONTROL Lern-Manager-Widget-Konfiguration]**.
-1. Klicken **[!UICONTROL Erstellen]**.
-1. Geben Sie hier das Aktualisierungstoken ein. Richten Sie die anderen Einstellungen ein.
+1. Klicken Sie auf **[!UICONTROL Erstellen]**.
+1. Geben Sie das Aktualisierungstoken hier ein. Richten Sie die anderen Einstellungen ein.
 1. Der Hostname sollte für EU-Regionen in &quot;learningManagereu&quot; geändert werden.
 1. Speichern und schließen Sie die Konfiguration.
 1. Wählen Sie eine Konfiguration aus und veröffentlichen Sie die Konfiguration.
 
-## Autor AEM {#aemauthor}
+## AEM-Autor {#aemauthor}
 
-Der AEM muss zuerst die Komponente in AEM Vorlage hinzufügen.
+Der AEM-Autor muss zuerst die Komponente in der AEM-Vorlage hinzufügen.
 
 Der AEM-Autor kann dann die Adobe Learning Manager-Komponente per Drag &amp; Drop ziehen und entsprechend konfigurieren.
 
-Für die Lern-Manager-Komponente muss die im obigen Schritt erstellte Konfiguration der Seite zugeordnet werden.  Der Autor kann die Konfiguration zuordnen, indem er unter Seiteneigenschaften bearbeiten **[!UICONTROL Erweitert]** > **[!UICONTROL Konfiguration]** > **[!UICONTROL Cloud-Konfiguration]** und geben Sie den Konfigurationspfad an. Auf diese Weise kann der Autor Konfigurationen für mehrere Learning Manager-Konten erstellen und jedes Konto verschiedenen Sites zuordnen. Wenn eine Konfiguration nicht der Seite zugeordnet ist, liest die Komponente die Konfiguration von der übergeordneten Seite rekursiv, bis sie eine findet.
+Für die Lern-Manager-Komponente muss die im obigen Schritt erstellte Konfiguration der Seite zugeordnet werden.  Der Autor kann die Konfiguration zuordnen, indem er unter Seiteneigenschaften bearbeiten **[!UICONTROL Erweitert]** > **[!UICONTROL Konfiguration]** > **[!UICONTROL Cloud-Konfiguration]** und geben Sie den Konfigurationspfad an. Auf diese Weise kann der Autor Konfigurationen für mehrere Learning Manager-Konten erstellen und jedes einzelne einer anderen Siteseite zuordnen. Wenn eine Konfiguration nicht der Seite zugeordnet ist, liest die Komponente die Konfiguration von der übergeordneten Seite rekursiv, bis sie eine findet.
 
 ## Teilnehmer {#learner}
 
 Der Teilnehmer kann die Kurse von der Seite aus absolvieren.
 
-Um auf das Lern-Manager-Widget zugreifen zu können, sollte der Teilnehmer ein angemeldeter AEM Benutzer sein. Auch Eigenschaft **email** muss im Knoten &quot;/profile&quot; des Knoten rep:User des Teilnehmers vorhanden sein. Diese E-Mail-Adresse muss genau mit der im Learning Manager-Konto vorhandenen übereinstimmen.
+Um auf das Learning Manager-Widget zugreifen zu können, muss der Teilnehmer als AEM-Benutzer angemeldet sein. Auch Eigenschaft **email** muss im Knoten &quot;/profile&quot; des Knoten rep:User des Teilnehmers vorhanden sein. Diese E-Mail-Adresse muss exakt der E-Mail-Adresse im Learning Manager-Konto entsprechen.
 
 Der Teilnehmer kann die Kurse von der Seite aus absolvieren.
 
@@ -113,12 +113,12 @@ Die folgenden Widgets werden bereitgestellt:
 1. Katalog-Widget
 1. Eigenes Lernen
 1. Empfehlung auf der Grundlage von Peer Learning
-1. Recommendations durch Administrator
+1. Empfehlungen des Administrators
 1. Auf den Interessen der Teilnehmer basierende Empfehlung
 
 Wenn keine Empfehlungen vorliegen, wird das Widget leer angezeigt.
 
-## Unterstützung für Skyline
+## Support für Skyline
 
 Skyline ist die Cloud-Version von AEM. Sie müssen zuerst Skyline über den Paketmanager installieren. Um die Skyline-Komponente in AEM zu verwenden, muss ein Benutzer im Learning Manager-Konto vorhanden sein. Mit anderen Worten, die E-Mail-Adresse des Benutzers muss im Konto vorhanden sein.
 
@@ -187,4 +187,4 @@ Die Einstellung wird dann auf das Widget angewendet.
 
 ### Sicherheit
 
-Die Felder &quot;Client-ID&quot; und &quot;Client-Geheimnis&quot; werden hinzugefügt. Darüber hinaus wird das Aktualisierungstoken maskiert. Wenn ein Benutzer die gesamte Konfiguration erstellt hat und der Benutzer die Konfiguration erneut öffnet, um sie zu bearbeiten, oder wenn ein anderer Benutzer diese Konfiguration öffnet, wird das Aktualisierungstoken maskiert.
+Die Felder „Client-ID“ und „Client-Geheimnis“ werden hinzugefügt. Zusätzlich dazu wird das Aktualisierungs-Token maskiert. Wenn ein Benutzer die gesamte Konfiguration erstellt hat und der Benutzer die Konfiguration erneut öffnet, um sie zu bearbeiten, oder wenn ein anderer Benutzer diese Konfiguration öffnet, wird das Aktualisierungstoken maskiert.

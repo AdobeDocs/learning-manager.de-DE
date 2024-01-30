@@ -6,7 +6,7 @@ contentowner: manochan
 source-git-commit: 53c1a5283295b56424d697bc26c5db31c2edca0f
 workflow-type: tm+mt
 source-wordcount: '190'
-ht-degree: 0%
+ht-degree: 57%
 
 ---
 
@@ -26,14 +26,14 @@ Um zu den Lern- und Katalogfunktionen zu navigieren, tippen Sie auf das **Menü*
 
 ## Offline auf die App zugreifen {#accesstheappoffline}
 
-Sie können offline auf die Learning Manager-App in iPad und Google Nexus 9 Android-Tablets zugreifen. Laden Sie Kurse herunter, absolvieren Sie sie im Offline-Modus und synchronisieren Sie den Inhalt mit der Online-App, wenn Sie eine Verbindung zum Netzwerk herstellen.
+Sie können offline auf die Learning Manager-App in iPad und Google Nexus 9 Android-Tablets zugreifen. Laden Sie Kurse herunter und bearbeiten Sie sie im Offlinemodus. Wenn Sie wieder mit dem Netzwerk verbunden sind, synchronisieren Sie sie mit der Online-App.
 
-1. Tippen **Menü** oben und tippen Sie auf **Lernressourcen** aus. Eine Liste aller verfügbaren Kurse wird in Kacheln angezeigt.
-1. Tippen Sie auf das Downloadsymbol unten auf jeder Lernobjektkachel, um die Lerninhalte herunterzuladen.
+1. Tippen **Menü** oben und tippen Sie auf **Lernressourcen** aus. Eine Liste aller verfügbaren Kurse wird in Form von Kacheln angezeigt.
+1. Tippen Sie auf das Download-Symbol unten auf jeder Lernobjekt-Kachel, um die Lerninhalte herunterzuladen.
 
    <!--![](assets/download-ipad.png)-->
 
-1. Wenn Sie online sind, wird in einer Leiste oben in der App eine Eingabeaufforderung angezeigt, um zu überprüfen, ob Sie Ihre Inhalte online synchronisieren möchten. Tippen Sie auf den roten Balken, wenn Ihre Antwort &quot;Ja&quot; ist. Ein grüner Balken zeigt an, dass Ihre Inhalte mit der Online-App synchronisiert sind.
+1. Wenn Sie online sind, wird am oberen Rand der App in einer Leiste eine Eingabeaufforderung angezeigt und nachgefragt, ob Sie Ihre Inhalte online synchronisieren möchten. Tippen Sie auf die rote Leiste, wenn Ihre Antwort „Ja“ ist. Eine grüne Leiste zeigt an, dass Ihr Inhalt mit der Online-App synchron ist.
 
 <!--## Track device storage {#trackdevicestorage}
 

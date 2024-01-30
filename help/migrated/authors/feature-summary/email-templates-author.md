@@ -1,11 +1,11 @@
 ---
-description: In diesem Artikel erfahren Sie, wie Sie E-Mail-Vorlagen für Ereignisse konfigurieren, die sich auf alle Lernobjekte beziehen.
+description: Lesen Sie den Artikel zum Konfigurieren von E-Mail-Vorlagen für die Ereignisse, die sich auf alle Lernobjekte beziehen.
 jcr-language: en_us
 title: E-Mail-Vorlagen
 source-git-commit: fda58bc18bee6d21ee904a442884e4759587d053
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 0%
+ht-degree: 89%
 
 ---
 
@@ -13,32 +13,32 @@ ht-degree: 0%
 
 # E-Mail-Vorlagen
 
-In diesem Artikel erfahren Sie, wie Sie E-Mail-Vorlagen für Ereignisse konfigurieren, die sich auf alle Lernobjekte beziehen.
+Lesen Sie den Artikel zum Konfigurieren von E-Mail-Vorlagen für die Ereignisse, die sich auf alle Lernobjekte beziehen.
 
-Die Learning Manager-Anwendung sendet E-Mail-Benachrichtigungen ereignisgesteuert an mehrere Benutzerrollen.
+Learning Manager verschickt E-Mail-Benachrichtigungen ereignisgesteuert an mehrere Benutzerrollen.
 
-Als Autor können Sie E-Mail-Vorlagen anpassen, indem Sie Inhalte hinzufügen oder ändern und Benachrichtigungen für verschiedene Ereignisse, die von Teilnehmern, Managern und Autorenaktivitäten ausgelöst werden, an Benutzer senden. Beispielsweise können Sie eine benutzerdefinierte E-Mail senden, wenn sich ein Teilnehmer für Ihren Kurs registriert. Nach der Registrierung erhält der Teilnehmer die kursspezifische E-Mail automatisch.
+Als Autor können Sie E-Mail-Vorlagen anpassen, indem Sie Inhalte hinzufügen oder modifizieren und Benachrichtigungen an Benutzer für verschiedene Ereignisse, die von Teilnehmern, Managern und Autoraktivitäten ausgelöst wurden, senden. Beispielsweise können Sie eine E-Mail senden, wenn sich ein Teilnehmer bei Ihren Kurs anmeldet. Bei Anmeldung erhält der Teilnehmer die kurzspezifische E-Mail automatisch.
 
-Sie können auch festlegen, dass bei bestimmten Ereignissen keine E-Mail-Benachrichtigungen gesendet werden, indem Sie die Option &quot;E-Mail-Vorlage&quot; deaktivieren.
+Die Administratoren können auch festlegen, dass bei bestimmten Ereignissen keine E-Mail-Benachrichtigungen gesendet werden.
 
-## E-Mail-Benachrichtigungen festlegen {#settingemailnotifications}
+## Einrichten von E-Mail-Benachrichtigungen {#settingemailnotifications}
 
-1. Klicken Sie in der Autoren-App auf das Lernobjekt, für das Sie die E-Mail-Vorlage konfigurieren möchten. Beispiel: Kurse.
-1. Klicken Sie auf der Lernobjektseite auf den Kurs, die Zertifizierung oder das Lernprogramm, für den bzw. das Sie die E-Mail-Einstellungen konfigurieren möchten.
-1. Klicken Sie auf der Seite mit den Lernobjektdetails auf E-Mail-Vorlagen.
+1. Klicken Sie in der Autor-App auf das Lernobjekt, für das Sie die E-Mail-Vorlage konfigurieren möchten. Beispiel: Kurse.
+1. Klicken Sie auf der Lernobjektseite auf den Kurs, die Zertifizierung oder das Lernprogramm, für den/die/das Sie die E-Mail-Vorlage konfigurieren möchten.
+1. Klicken Sie auf der Lernobjektseite auf „E-Mail-Vorlagen“.
 
-   Sie können die Liste der Vorlagen anzeigen, die für das ausgewählte Lernobjekt verfügbar sind.
+   Sie können die Liste der Vorlagen sehen, die für das von Ihnen gewählte Lernobjekt verfügbar sind.
 
    ![](assets/email-templates-forlearningprograms.png)
    *Vorlagenliste*
 
-1. Klicken Sie auf den Ereignisnamen, um die Vorlage im Vorschaumodus anzuzeigen.
+1. Klicken Sie auf den Namen eines Ereignisses, um die Vorlage im Vorschaumodus anzuzeigen.
 
    ![](assets/preview-the-emailtemplateforyourlearningobject.png)
 
    *Vorschau der Vorlage anzeigen*
 
-   Sie können jede Vorlage anpassen, indem Sie auf den Text im Hauptteil der Vorlage klicken. Sie können Variablen in den Text einfügen, indem Sie auf die entsprechenden Symbole klicken (siehe Abbildung). Bewegen Sie die Maus über jedes Symbol, um die Namen anzuzeigen.
+   Sie können die Vorlagen ändern, indem Sie in ihrem Hauptteil auf den Text klicken. Sie können in den Text Variablen einfügen, indem Sie auf die entsprechenden Symbole klicken (siehe Abbildung). Um die Namen der Symbole anzuzeigen, zeigen Sie mit der Maus darauf.
 
    ![](assets/insert-variable.png)
    *Einfügen von Variablen*
@@ -55,16 +55,16 @@ Sie können auch festlegen, dass bei bestimmten Ereignissen keine E-Mail-Benachr
    * CourseSkillDetails
    * CourseBadge
 
-   Sie können die Nachricht auf den Standardinhalt zurücksetzen, indem Sie über der Vorlage auf den Link Auf Original zurücksetzen klicken.
+   Sie können den Inhalt der Benachrichtigungen zurücksetzen, indem Sie über der Vorlage auf den Link „Original wiederherstellen“ klicken.
 
    Wie Sie oben in der Vorlage sehen, können Sie die Vorlage je nach Typ der E-Mail-Benachrichtigung für mehrere Rollen (Manager, Teilnehmer usw.) anpassen.
 
-1. Klicken Sie unten auf der Vorlagenseite auf Speichern .
-1. Klicken Sie auf der Seite mit den E-Mail-Vorlagen auf die kreisförmige Ja/Nein-Schaltfläche, um die Benachrichtigung zu senden oder zu deaktivieren.
+1. Klicken Sie am unteren Rand der Seite „Vorlagen“ auf „Speichern“.
+1. Klicken Sie auf der Seite mit der E-Mail-Vorlage auf die Kreisschaltfläche „Ja/Nein“, um die Benachrichtigung zu senden bzw. zu deaktivieren.
 
 ![](assets/email-notification-e1437624109719.png)
 *E-Mail-Benachrichtigung aktivieren oder deaktivieren*
 
-Wenn der Kreis in der Benachrichtigungsschaltfläche für jeden Ereignisnamen neben &quot;Ja&quot; steht (mit blauem Hintergrund), ist die Benachrichtigung aktiviert. Wenn es grau dargestellt wird und der Kreis an &quot;Nein&quot; angrenzt, ist die Benachrichtigung deaktiviert.
+Wenn der Kreis in der Benachrichtigungsschaltfläche für den Namen eines Ereignisses bei „Ja“ steht und die Schaltfläche blau dargestellt wird, ist die Benachrichtigung aktiviert. Wenn sie grau dargestellt wird und der Kreis bei „Nein“ steht, ist die Benachrichtigung deaktiviert.
 
-Wenn Sie eine E-Mail-Vorlage auf Kursebene konfigurieren, hat diese Vorrang vor den Einstellungen auf Administratorebene für diesen bestimmten Kurs.
+Wenn Sie eine E-Mail-Vorlage auf Kursebene konfigurieren, erhält diese Vorrang über die Einstellungen auf Administratorebene für diesen Kurs.

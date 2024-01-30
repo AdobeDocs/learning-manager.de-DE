@@ -1,12 +1,12 @@
 ---
 jcr-language: en_us
 title: Kataloge
-description: Kataloge sind eine Sammlung von Lernkursen, Lernprogrammen und Zertifizierungen. Verwenden Sie Kataloge, um Teilnehmern den Zugriff auf einen benutzerdefinierten Lernsatz zu ermöglichen. Sie können Lernprogramme während der Erstellung eines neuen Katalogs mit einem Katalog verknüpfen.
+description: Kataloge sind eine Sammlung von Lernkursen, Lernprogrammen und Zertifizierungen. Verwenden Sie Kataloge, um den Teilnehmern den Zugriff auf einen benutzerdefinierten Lernsatz zu ermöglichen. Sie können Lernprogramme während der Erstellung eines neuen Katalogs einem Katalog zuordnen.
 contentowner: manochan
 source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
 workflow-type: tm+mt
 source-wordcount: '2371'
-ht-degree: 0%
+ht-degree: 77%
 
 ---
 
@@ -14,29 +14,29 @@ ht-degree: 0%
 
 # Kataloge
 
-Kataloge sind eine Sammlung von Lernkursen, Lernprogrammen und Zertifizierungen. Verwenden Sie Kataloge, um Teilnehmern den Zugriff auf einen benutzerdefinierten Lernsatz zu ermöglichen. Sie können Lernprogramme während der Erstellung eines neuen Katalogs mit einem Katalog verknüpfen.
+Kataloge sind eine Sammlung von Lernkursen, Lernprogrammen und Zertifizierungen. Verwenden Sie Kataloge, um den Teilnehmern den Zugriff auf einen benutzerdefinierten Lernsatz zu ermöglichen. Sie können Lernprogramme während der Erstellung eines neuen Katalogs einem Katalog zuordnen.
 
-Als Administrator können Sie benutzerdefinierte Kataloge erstellen, wenn Sie selektive Kurse für verschiedene Teilnehmer in Ihrem Konto oder über Konten hinweg verfügbar machen möchten.
+Als Administrator können Sie benutzerdefinierte Kataloge erstellen, wenn Sie selektive Kurse für verschiedene Teilnehmern in Ihrem Konto oder über Konten hinweg verfügbar machen möchten.
 
 ## Katalog erstellen {#createacatalog}
 
 Um einen Katalog zu erstellen, führen Sie die folgenden Schritte aus:
 
 1. Klicken Sie als Administrator im linken Bereich auf Kataloge. Auf dieser Seite befindet sich ein Standardkatalog, der automatisch erstellt wird, wenn Sie ein Learning Manager-Konto erstellen. Standardmäßig werden alle Lernobjekte in diesem Katalog für alle Teilnehmer freigegeben.
-1. Klicken Sie in der rechten oberen Ecke der Seite auf **[!UICONTROL Erstellen]**. Optional können Sie auch auf **[!UICONTROL Katalog erstellen]**, der sich unter der Liste der Kataloge befindet.
-1. Im Fenster &quot; **[!UICONTROL Katalog erstellen]** den Namen und die Beschreibung des Katalogs ein, den Sie erstellen möchten.
+1. Klicken Sie in der rechten oberen Ecke der Seite auf **[!UICONTROL Erstellen]**. Optional können Sie auch auf die Option **[!UICONTROL Katalog erstellen]** klicken, die sich unterhalb der Liste der Kataloge befindet.
+1. Geben Sie auf der Seite **[!UICONTROL Katalog erstellen]** den Namen und die Beschreibung des Katalogs ein, den Sie erstellen möchten.
 
    ![](assets/create-catalog.png)
 
    Klicken Sie zum Fortfahren auf **[!UICONTROL Weiter]**.
 
-   Die Miniaturansichten können nur in der immersiven Benutzeroberfläche angezeigt werden, nicht in der klassischen Benutzeroberfläche.
+   Die Miniaturen können nur in der immersiven Benutzeroberfläche und nicht in der klassischen Benutzeroberfläche angezeigt werden.
 
 1. Auf der Katalogseite können Sie dem neuen Katalog Folgendes hinzufügen:
 
    * [Kurse](catalogs.md#course)
    * [Lernprogramme](catalogs.md#lp)
-   * [Zertifikationen](catalogs.md#cert)
+   * [Zertifizierungen](catalogs.md#cert)
    * [Arbeitshilfen](catalogs.md#job)
 
 ## Kurs zum Katalog hinzufügen {#course}
@@ -49,27 +49,27 @@ Um einen Katalog zu erstellen, führen Sie die folgenden Schritte aus:
 
    Sie können dem Katalog mehrere Kurse hinzufügen.
 
-1. Speichern Sie die Änderungen. Gehen Sie zurück zur Liste der Kataloge und klicken Sie auf den neuen Katalog in der Liste.
+1. Speichern Sie das Änderungen. Kehren Sie zur Liste der Kataloge zurück und klicken Sie auf den neuen Katalog in der Liste.
 1. Klicken Sie auf der Seite für den neuen Katalog im linken Bereich auf **[!UICONTROL Inhalt]**.
 
    ![](assets/click-content-inthecatalog.png)
 
    *Kurs auswählen, der dem Katalog hinzugefügt werden soll*
 
-   Der von Ihnen hinzugefügte Kurs wird im Dialogfeld &quot; **[!UICONTROL Kurse]** &quot; ändern.
+   Der von Ihnen hinzugefügte Kurs wird auf der Registerkarte **[!UICONTROL Kurse]** angezeigt.
 
 ## Lernprogramm zum Katalog hinzufügen {#lp}
 
-1. Wählen Sie aus der Liste der Lernprogramme ein Lernprogramm aus, das Sie dem Katalog hinzufügen möchten.
-1. Speichern Sie die Änderungen. Gehen Sie zurück zur Liste der Kataloge und klicken Sie auf den neuen Katalog in der Liste.
+1. Wählen Sie in der Liste der Lernprogramme ein Lernprogramm aus, das Sie dem Katalog hinzufügen möchten.
+1. Speichern Sie das Änderungen. Kehren Sie zur Liste der Kataloge zurück und klicken Sie auf den neuen Katalog in der Liste.
 1. Klicken Sie auf der Seite für den neuen Katalog im linken Bereich auf **[!UICONTROL Inhalt]**.
 
    Das von Ihnen hinzugefügte Lernprogramm wird im Dialogfeld &quot; **[!UICONTROL Lernprogramme]** &quot; ändern.
 
 ## Zertifizierung zum Katalog hinzufügen {#cert}
 
-1. Wählen Sie in der Liste der Zertifizierungen eine Zertifizierung aus, die Sie dem Katalog hinzufügen möchten.
-1. Speichern Sie die Änderungen. Gehen Sie zurück zur Liste der Kataloge und klicken Sie auf den neuen Katalog in der Liste.
+1. Wählen Sie aus der Liste der Zertifizierungen eine Zertifizierung aus, den Sie dem Katalog hinzufügen möchten.
+1. Speichern Sie das Änderungen. Kehren Sie zur Liste der Kataloge zurück und klicken Sie auf den neuen Katalog in der Liste.
 1. Klicken Sie auf der Seite für den neuen Katalog im linken Bereich auf **[!UICONTROL Inhalt]**.
 
    Die Zertifizierung, die Sie hinzugefügt haben, wird im Dialogfeld &quot; **[!UICONTROL Zertifikationen]** &quot; ändern.
@@ -77,12 +77,12 @@ Um einen Katalog zu erstellen, führen Sie die folgenden Schritte aus:
 ## Arbeitshilfe zum Katalog hinzufügen {#job}
 
 1. Wählen Sie aus der Liste der Arbeitshilfen eine Arbeitshilfe aus, die Sie dem Katalog hinzufügen möchten.
-1. Speichern Sie die Änderungen. Gehen Sie zurück zur Liste der Kataloge und klicken Sie auf den neuen Katalog in der Liste.
+1. Speichern Sie das Änderungen. Kehren Sie zur Liste der Kataloge zurück und klicken Sie auf den neuen Katalog in der Liste.
 1. Klicken Sie auf der Seite für den neuen Katalog im linken Bereich auf **[!UICONTROL Inhalt]**.
 
    Die Arbeitshilfe, die Sie hinzugefügt haben, wird im Dialogfeld &quot; **[!UICONTROL Arbeitshilfen]** &quot; ändern.
 
-Der Inhalt wird auf jeder dieser Registerkarten angezeigt, wenn er bereits im Konto verfügbar ist. Andernfalls müssen Sie den Inhalt zuerst erstellen. Wenn Sie beispielsweise noch keine Kurse oder Lernprogramme in der Learning Manager-Anwendung hinzugefügt haben, müssen Sie diese zunächst erstellen.
+Der Inhalt wird auf jeder dieser Registerkarten angezeigt, wenn er bereits im Konto vorhanden ist. Andernfalls müssen Sie den Inhalt zunächst erstellen. Wenn Sie beispielsweise noch keine Kurse oder Lernprogramme in der Learning Manager-Anwendung hinzugefügt haben, müssen Sie diese zunächst erstellen.
 
 ## Deep-Link zum Katalog für Teilnehmer {#deep-link}
 
@@ -96,13 +96,13 @@ Im Fenster &quot; **[!UICONTROL Kataloge]** &quot; mit der Maus auf den Katalog,
 
 ## Katalog aktivieren {#enablethecatalog}
 
-Nachdem Sie einen Katalog erstellt und Lernobjekte hinzugefügt haben, müssen Sie den Katalog aktivieren, um den Katalog für die Teilnehmer sichtbar zu machen.
+Nachdem Sie einen Katalog erstellt und Lernobjekte hinzugefügt haben, müssen Sie den Katalog aktivieren, damit der Katalog für die Teilnehmer sichtbar wird.
 
 Um den Katalog zu aktivieren,
 
-1. Aktivieren Sie in der Liste der Kataloge die Option neben dem Katalog, den Sie aktivieren möchten. Alternativ können Sie das Kontrollkästchen neben dem Katalog aktivieren, klicken Sie auf **[!UICONTROL Aktionen]** oben rechts, und klicken Sie auf **[!UICONTROL Aktivieren]**.
+1. Aktivieren Sie in der Liste der Kataloge die Option neben dem Katalog, den Sie aktivieren möchten. Alternativ können Sie das Kontrollkästchen neben dem Katalog aktivieren, klicken Sie oben rechts auf **[!UICONTROL Aktionen]** und dann auf **[!UICONTROL Aktivieren]**.
 
-1. Sie können auch mehrere Kataloge in der Liste aktivieren. Wählen Sie die Kataloge aus und aus der Dropdown-Liste **[!UICONTROL Aktion]** die Option **[!UICONTROL Aktivieren]**.
+1. Sie können auch mehrere Kataloge in der Liste aktivieren. Wählen Sie die Kataloge aus und aus dem Menü **[!UICONTROL Aktion]** wählen Sie die Option **[!UICONTROL Aktivieren]**.
 
 ## Katalog deaktivieren {#disablethecatalog}
 
@@ -120,7 +120,7 @@ Sie können auch mehrere Kataloge löschen.
 
 ## Katalog freigeben {#shared}
 
-Ein Administrator kann die Kataloge mit internen Benutzern eines Unternehmens oder mit externen Benutzern teilen. Teilen ist jedoch exklusiv. Das heißt, dass ein intern freigegebener Katalog nicht für externe Gruppen freigegeben werden kann und umgekehrt.
+Administratoren können die Kataloge mit internen Benutzern eines Unternehmens oder mit externen Benutzer teilen. Allerdings ist Teilen exklusiv. Das heißt, dass ein intern freigegebenen Katalog nicht mit externen Gruppen geteilt werden kann und umgekehrt.
 
 Kurse, Lernprogramme, Arbeitshilfen und Zertifizierungen sind die unterstützten Lernobjekte in einem Katalog, den Sie freigeben möchten.
 
@@ -128,65 +128,65 @@ Kurse, Lernprogramme, Arbeitshilfen und Zertifizierungen sind die unterstützten
 
 Wählen Sie einen Katalog aus, den Sie intern freigeben möchten.
 
-Klicken Sie im linken Teilfenster auf **[!UICONTROL Intern freigeben]**.
+Klicken Sie im linken Bereich auf **[!UICONTROL Intern freigeben]**.
 
 Wenn keine Gruppen vorhanden sind, müssen Sie eine interne Benutzergruppe hinzufügen.
 
-Klicken Sie zum Hinzufügen einer internen Benutzergruppe auf **[!UICONTROL Benutzergruppen hinzufügen]**.
+Um eine interne Benutzergruppe hinzuzufügen, klicken Sie auf **[!UICONTROL Benutzergruppen hinzufügen]**.
 
 ![](assets/internal-usergroups.png)
 
 *Teilen eines Katalogs intern*
 
-Es ist keine Option zum Aktivieren/Deaktivieren einer freigegebenen Benutzergruppe verfügbar. Zum Deaktivieren müssen Sie die Benutzergruppe löschen. Zum Löschen bewegen Sie die Maus über die drei Punkte und klicken Sie auf das Symbol &quot;Löschen&quot;. Alternativ dazu können Sie in der rechten oberen Ecke der Seite auf das Dropdownmenü &quot;Aktionen&quot; und dann auf &quot;Löschen&quot; klicken.
+Sie können eine freigegebene Benutzergruppe nicht aktivieren/deaktivieren. Für die Deaktivierung müssen Sie die Benutzergruppe löschen. Zum Löschen bewegen Sie der Mauszeiger über den drei Punkten und klicken Sie auf das Symbol „Löschen“. Alternativ dazu können Sie im Dropdownmenü auf „Aktionen“ in der rechten oberen Ecke der Seite klicken.
 
 ## Teilen Sie den Katalog extern {#ext}
 
-Klicken Sie auf der Seite &quot;Kataloge&quot; auf den Katalog, den Sie freigeben möchten. Klicken Sie im linken Bereich auf **[!UICONTROL Extern freigeben]**.
+Klicken Sie auf der Seite „Kataloge“ auf den Katalog, den Sie freigeben möchten. Klicken Sie im linken Bereich auf **[!UICONTROL Extern freigeben]**.
 
 ![](assets/shared-catalog-external.png)
 
 *Teilen eines Katalogs extern*
 
-Geben Sie die Subdomäne ein, die mit Ihrem Learning Manager-Konto verknüpft ist. Klicken **[!UICONTROL Wie erhalte ich eine Subdomäne?]** , um mehr über die Verwendung der Subdomäne zu erfahren. Sie können auch auf **[!UICONTROL Branding]** im linken Bereich auf der Administratorstartseite, um die Subdomäne anzuzeigen, die mit Ihrem Unternehmenskonto verknüpft ist.
+Geben Sie die Subdomäne ein, die mit Ihrem Learning Manager-Konto verknüpft ist. Klicken Sie auf **[!UICONTROL Wie erhalte ich eine Subdomäne?]** , um mehr über die Verwendung der Subdomäne zu erfahren. Sie können auch auf **[!UICONTROL Branding]** im linken Bereich auf der Administratorstartseite, um die Subdomäne anzuzeigen, die mit Ihrem Unternehmenskonto verknüpft ist.
 
-**Registrierungslimit**
+**Einschränkungen für die Registrierung** 
 
-Sie können den Grenzwert für die Anzahl der Registrierungen pro Kurs im freigegebenen Katalog festlegen, indem Sie die Anzahl der Registrierungen im **Feld &quot;Registrierungen zulässig&quot;**. Der Empfänger des freigegebenen Katalogs kann die Kurse mit einem Registrierungslimit in Lernplänen nicht verwenden.
+Sie können den Grenzwert für die Anzahl der Registrierung pro Kurs im freigegebenen Katalog festlegen, indem Sie die Anzahl der Registrierungen im Feld **Zugelassene Registrierungen** hinzufügen. Der Empfänger des freigegebenen Katalogs kann die Kurse mit Registrierungseinschränkungen in Lernplänen nicht verwenden.
 
 **Ablauf**
 
-Sie können die Gültigkeit des freigegebenen Katalogs festlegen, indem Sie ein Ablaufdatum in der Datei **[!UICONTROL Ablauf]** ein. Nach dem Ablaufdatum des freigegebenen Katalogs, sind Registrierungen für Kurse nicht mehr zulässig. Bestehende Teilnehmer können weiterhin auf die Inhalte zugreifen. Lernobjekte werden eingestellt, aber die Abzeichen und Kenntnisse sind aktiv. In diesem Status kann der freigegebene Katalogempfänger die Einstellung für die Lernobjekte nicht aufheben.
+Sie können die Gültigkeit des freigegebenen Katalogs festlegen, indem Sie ein Ablaufdatum in der Datei **[!UICONTROL Ablauf]** ein. Nach dem Ablaufdatum des freigegebenen Katalogs, sind Registrierungen für die Kurse nicht mehr zulässig. Vorhandene Teilnehmer können immer noch Zugriff auf die Inhalte haben. Lernobjekte werden eingestellt, aber die Abzeichen und Qualifikationen sind aktiv. In diesem Status kann der freigegebene Katalogempfänger die Einstellung für die Lernobjekte nicht aufheben.
 
-Klicken **[!UICONTROL Speichern]** nach dem Hinzufügen aller erforderlichen Informationen. Klicken **[!UICONTROL Aktionen]** in der rechten oberen Ecke der Seite und klicken Sie auf **[!UICONTROL Freigeben]** , um den Katalog mit externen Konten zu teilen.
+Klicken Sie auf **[!UICONTROL Speichern]**, nachdem alle erforderlichen Informationen hinzugefügt wurden. Klicken **[!UICONTROL Aktionen]** in der rechten oberen Ecke der Seite und klicken Sie auf **[!UICONTROL Freigeben]** , um den Katalog mit externen Konten zu teilen.
 
-Die Kataloge, die dem freigebenden Kontoinhaber gehören, dürfen nur mit externen Konten geteilt werden. Sie können die Kataloge nicht freigeben, die bereits von anderen Konten für Sie freigegeben wurden.
+Die Kataloge, die dem freigebenden Kontoinhaber gehören, können nur mit externen Konten geteilt werden. Sie können die Kataloge nicht freigeben, die bereits von anderen Konten für Sie freigegeben wurden.
 
-Der Administrator des externen freigegebenen Kontos erhält eine Benachrichtigung in der Anwendung und in der E-Mail. Der Empfänger muss auf die eindeutige URL klicken, die in der E-Mail bereitgestellt wurde, oder auf die Benachrichtigung klicken und die freigegebene Kataloganforderung akzeptieren. In der Anwendung kann der Empfänger auf &quot;Akzeptieren&quot; oder &quot;Ablehnen&quot; klicken. Bevor Sie den freigegebenen Katalog akzeptieren, kann der Empfänger die Katalogdetails, z. B. von wem freigegeben, wann freigegeben, Ablaufdatum usw. anzeigen.
+Der Administrator des externen freigegebenen Kontos erhält eine Benachrichtigung in der Anwendung und in der E-Mail. Der Empfänger muss auf die eindeutige URL klicken, die in der E-Mail bereitgestellt wurde oder er muss auf die Benachrichtigung klicken und die freigegebene Kataloganforderung akzeptieren. In der Anwendung kann der Empfänger auf „Akzeptieren“ oder „Ablehnen“ klicken. Bevor Sie den freigegebenen Katalog akzeptieren, kann der Empfänger die Katalogdetails, z. B. von wem freigegeben, wann freigegeben, Ablaufdatum etc. anzeigen.
 
-Der freigegebene Katalog wird im Empfängerkonto angezeigt. Die Lernobjekte, die mit dem freigegebenen Katalog verknüpft sind, werden in den jeweiligen Administrator- und Autorenrollen der Anwendung angezeigt. Sie können die freigegebenen Kataloge, die von Ihnen erhalten wurden, unterscheiden, indem Sie das &lt;— Pfeilsymbol suchen, das für die Kataloge angezeigt wird, die von Ihnen erworben wurden.
+Der freigegebene Katalog wird im Empfängerkonto angezeigt. Die Lernobjekte, die mit dem freigegebenen Katalog verknüpft sind, werden in den jeweiligen Administrator- und Autorenrollen der Anwendung angezeigt. Sie können die freigegebenen Kataloge, die von Ihnen erhalten wurden, unterscheiden, indem Sie das &lt;-- Pfeilsymbol suchen, dass für die Kataloge, die von Ihnen erworben wurden, angezeigt wird.
 
 Die Lernobjekte mit offenem/aktivem Status für die Registrierung werden nur den freigegebenen Katalogen hinzugefügt.
 
-**Freigabe von Katalogen aufheben**
+**Freigabe für Kataloge aufheben**
 
-Die Aufhebung der Freigabe eines Katalogs ist die Deaktivierung eines externen Kontos in der Anwendung. Um die Freigabe für einen Katalog aufzuheben, klicken Sie auf **[!UICONTROL Aktionen]** in der oberen rechten Ecke der Seite und klicken Sie auf **[!UICONTROL Freigabe aufheben]**. Sie können die Freigabe für einen Katalog jederzeit aufheben. Wenn die Freigabe für einen Katalog aufgehoben wurde, wechseln alle Lernobjekte in diesem freigegebenen Katalog in den Status &quot;Eingestellt&quot;. Die deaktivierten Kataloge werden in der Anwendung des Empfängers als eingestellt angezeigt.
+Die Aufhebung der Freigabe eines Katalogs ist die Deaktivierung eines externen Kontos in der Anwendung. Um die Freigabe für einen Katalog aufzuheben, klicken Sie auf **[!UICONTROL Aktionen]** in der oberen rechten Ecke der Seite und klicken Sie auf **[!UICONTROL Freigabe aufheben]**. Sie können die Freigabe für einen Katalog jederzeit aufheben. Wenn die Freigabe für einen Katalog aufgehoben wurde, wechseln alle Lernobjekte in diesem freigegebenen Katalog in den Status „Eingestellt“. Die deaktivierten Kataloge werden in der Anwendung des Empfängers als eingestellt angezeigt.
 
-Sie können ein externes Konto aus einer freigegebenen Liste nur entfernen, bevor der Empfänger die Anforderung annimmt.
+Sie können ein externes Konto aus einer freigegebenen Liste nur entfernen, bevor der Empfänger die Anforderung akzeptiert.
 
 **Kataloge löschen**
 
 Um einen freigegebenen Katalog zu löschen, klicken Sie auf **[!UICONTROL Aktionen]** und klicken Sie auf **[!UICONTROL Löschen]**.
 
 * Sie können einen Standardkatalog mit externen Konten nicht freigeben.
-* Sie können einen Katalog nicht löschen, der extern von Ihnen freigegeben wurde.
-* Sie können einen Katalog nicht löschen, der für Sie von anderen Konten aus freigegeben wurde.
+* Sie können einen Katalog nicht löschen, der von Ihnen extern freigegeben wurde.
+* Sie können einen Katalog nicht löschen, der mit Ihnen von anderen Konten aus geteilt wurde.
 
-## Aktivieren der vollständigen Kontrolle über den freigegebenen Katalog {#enablefullcontrolofsharedcatalog}
+## Aktivieren Sie die vollständige Kontrolle über den freigegebenen Katalog {#enablefullcontrolofsharedcatalog}
 
 Sie können externen Konten vollen Zugriff auf Ihren Katalog gewähren. Der Administrator des Kontos kann dann den Katalog akzeptieren und dementsprechend Lerninhalte oder Module hinzufügen oder löschen.
 
-Weitere Informationen finden Sie unter [Vollständige Kontrolle über den freigegebenen Katalog](shared-catalog-full-control.md).
+Weitere Informationen finden Sie unter [Vollzugriff auf den freigegebenen Katalog](shared-catalog-full-control.md).
 
 ## Eigenschaften von freigegebenen Katalog-Lernobjekten {#sharedcataloglearningobjectsproperties}
 
@@ -214,7 +214,7 @@ Alle Änderungen, die für Lernobjekte in der Besitzeranwendung durchgeführt we
   </tr>
   <tr>
    <td>
-    <p><strong>Ausweis</strong></p></td>
+    <p><strong>Abzeichen</strong></p></td>
    <td>
     <p>Name und Ausscheiden aus dem Abonnement</p></td>
   </tr>
@@ -241,43 +241,43 @@ Alle Änderungen, die für Lernobjekte in der Besitzeranwendung durchgeführt we
 
 ## Freigegebene Katalogfunktionen in der Empfängeranwendung {#sharedcatalogfeaturesinreceiverapplication}
 
-* Lernobjekte aus dem freigegebenen Katalog werden in der Autoren- und Admin-Anwendung angezeigt, aber die Module werden nicht aufgelistet. Sie sind ausgeblendet.
-* Freigegebene Lernobjekte können für alle Workflows im Konto des Empfängers verwendet werden. Beispielsweise Hinzufügen von freigegebenen Kursen zu Lernprogrammen, Zertifizierungen, Katalogen, aber diese Lernprogramme, Zertifizierungen und Kataloge können nicht erneut freigegeben werden (da sie bereits ein freigegebenes Lernobjekt von einem anderen Konto haben).
+* Lernobjekte des freigegebenen Katalogs werden in der Autoren- und Admin-Anwendung angezeigt, aber die Module werden nicht aufgelistet. Sie sind ausgeblendet.
+* Freigegebene Lernobjekte können für alle Arbeitsabläufe in dem Konto des Empfängers verwendet werden. Beispielsweise Hinzufügen von freigegebenen Kursen zu Lernprogrammen, Katalogen, Zertifizierungen, aber jene Lernprogramme, Zertifizierungen und Kataloge können nicht erneut freigegeben werden (weil sie bereits ein freigegebenes Lernobjekt von einem anderen Konto haben).
 * Alle Arbeitshilfen, die mit dem Kurs/Lernprogramm/der Zertifizierung verknüpft, aber kein Teil des Katalogs sind, werden in das Konto des Empfängers kopiert.
 * Freigegebene Katalogempfängern dürfen Lernobjekte nicht zum freigegebenen Katalog hinzufügen.
 * Der freigegebene Katalogempfänger kann Module von freigegebenen Lernobjekten nicht ändern.
-* Der freigegebene Katalogempfänger kann Kurse nicht zum freigegebenen Lernprogramm/zur Zertifizierung hinzufügen.
+* Der freigegebene Katalogempfänger kann Kurse nicht hinzufügen, um das Lernprogramm/die Zertifizierung hinzuzufügen.
 * Duplizierung oder erneute Freigabe von freigegebenen Lernobjekten ist nicht zulässig.
 * Neu hinzugefügte Assets zum freigegebenen Katalog werden automatisch für den Empfänger sichtbar.
-* Die mit Lernobjekten verknüpften Kenntnisse werden in die freigegebenen Katalogempfängerkonten kopiert.
+* Die Qualifikationen, die mit Lernobjekten verknüpft sind, werden in die freigegebenen Katalogempfängerkonten kopiert.
 
 * Wenn das freigegebene Katalogempfängerkonto bereits denselben Qualifikationsnamen hatte, wird eine neue Qualifikation erstellt, indem &#42; nach dem Namen.
 * Daten (z. B. Abzeichen L1, L3, Benachrichtigungen) in den Standardinstanzen von Kursen und Lernprogrammen werden ebenfalls in das Konto des Empfängers zusammen mit den Kursen und Lernprogrammen kopiert.
 
 Wiederkehrende Zertifizierungen können nicht Teil eines extern freigegebenen Katalogs sein. Der Empfänger kann erworbene Lernobjekte in wiederkehrenden Zertifizierungen nicht verwenden, wenn sie Registrierungseinschränkungen oder ein Ablaufdatum im Katalog haben.
 
-## Weitergabe von freigegebenen Katalogfunktionen {#propagation}
+## Weitergabe von geteilten Katalogfunktionen {#propagation}
 
-Administratoren auf allen Konten in einem Unternehmen können die Kataloge für mehrere Konten freigeben. Die Empfänger der freigegebenen Kataloge können die Lernobjekte erwerben, die mit den freigegebenen Katalogen verknüpft sind. Zusätzlich zu dieser Funktion können die Empfänger ab der November 2016-Version von Learning Manager die Eigenschaften von Lernobjekten erwerben, die über die Kataloge freigegeben wurden.
+Administratoren auf allen Konten in einem Unternehmen können die Kataloge auf mehrere Konten teilen. Die Empfänger der gemeinsam genutzten Kataloge können die Lernobjekte erwerben, die mit den geteilten Katalogen verknüpft sind. Abgesehen von dieser Funktion können die Empfänger ab der November 2016-Version von Learning Manager die Eigenschaften von Lernobjekten, die über Kataloge geteilt werden, erwerben.
 
-Wenn ein Administrator eines Kontos Änderungen an den Lernobjekten vornimmt, werden nach dem Freigeben der Kataloge dieselben Änderungen an alle Lernobjekten weitergegeben, die vom Empfänger der freigegebenen Kataloge erworben wurden.
+Wenn ein Administrator eines Kontos Änderungen an den Lernobjekten vornimmt, werden nach dem Teilen der Kataloge dieselben Änderungen für alle Lernobjekten weitergegeben, die vom Empfänger der geteilten Kataloge erworben wurden.
 
 Die Lernobjekte, die im Rahmen dieser Weitergabefunktion unterstützt werden, lauten wie folgt:
 
 * Kenntnisse
 * Kurse
 * Lernprogramme
-* Zertifikationen
+* Zertifizierungen
 * Arbeitshilfen
 * Standardinstanzen von Kursen und Lernprogrammen
 
-Wenn die Empfänger freigegebener Kataloge eines der empfangenen Lernobjektfelder in der Lernobjektanwendung ändern, findet keine weitere Weitergabe von Updates für diese Lernobjekte in diese Felder statt. Wenn der Empfänger beispielsweise die Kursfelder wie Kursname oder Kurzbeschreibung bearbeitet, findet keine Weitergabe statt, wenn der Eigentümer diese Felder ändert. Mit anderen Worten, solche bearbeiteten Lernobjektfelder werden lokal für das Learning Manager-Konto des Empfängers.
+Wenn die Empfänger geteilter Kataloge eines der empfangenen Lernobjektfelder in der Learning Manager-Anwendung ändern, findet keine weitere Weitergabe von Updates für diese Lernobjekte in diese Felder statt. Wenn beispielsweise der Empfänger die Kursfelder z. B. Kursname oder Kurzbeschreibung bearbeitet, findet keine Weitergabe statt, wenn der Eigentümer diese Felder ändert. Das heißt, derartig bearbeitete Lernobjektfelder werden für das Learning Manager-Konto des Empfängers lokal.
 
 ## Häufig gestellte Fragen {#frequentlyaskedquestions}
 
 +++Wie füge ich einem Katalog Kurse, LP und Zertifizierungen hinzu?
 
-Informationen zum Hinzufügen von Kursen, Zertifizierungen und Lernprogrammen zum Katalog finden Sie unter [steps](catalogs.md#q1) , um diese in den Katalog aufzunehmen.
+Informationen zum Hinzufügen von Kursen, Zertifizierungen und Lernprogrammen zum Katalog finden Sie in den [Schritten](catalogs.md#q1), um diese in den Katalog aufzunehmen.
 
 +++
 
@@ -295,24 +295,24 @@ Informationen zum internen oder externen Freigeben des Katalogs finden Sie in de
 Kataloge können für Teilnehmer in Ihrem Unternehmen über die Benutzergruppen freigegeben werden. Führen Sie die folgenden Schritte aus, damit Teilnehmer die Kataloge anzeigen können, zu denen sie gehören:
 
 1. Öffnen Sie einen Katalog und klicken Sie auf **[!UICONTROL Intern freigeben]**.
-1. Um Teilnehmer hinzuzufügen, klicken Sie in der oberen rechten Ecke der Seite auf **[!UICONTROL Hinzufügen]**.
-1. Im Fenster &quot; **[!UICONTROL Benutzergruppen]** , beginnen Sie mit dem Hinzufügen von Teilnehmern.
-1. Klicken **[!UICONTROL Speichern]**.
+1. Klicken Sie in der rechten oberen Ecke der Seite auf **[!UICONTROL Hinzufügen]**, um Teilnehmer hinzuzufügen.
+1. Im Dialogfeld **[!UICONTROL Benutzergruppen]**, beginnen Sie Teilnehmer hinzuzufügen.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-Wenn sich ein Teilnehmer beim Learning Manager anmeldet, hat er Zugriff auf die Kataloge, die für ihn freigegeben wurden.
+Wenn sich Teilnehmende bei Learning Manager anmelden, haben sie Zugriff auf die Kataloge, die für sie freigegeben wurden.
 
 +++
 
 +++Wie erstelle und verwende ich Katalogbeschriftungen?
 
-Katalogbezeichnungen ermöglichen es Ihnen, Lernobjekte mit relevanten Feldwertinformationen zu verknüpfen. Katalogbezeichnungen und -werte sind nur für Administratoren und Autoren sichtbar. Weitere Informationen finden Sie unter [***Katalogbeschriftungen***](/help/migrated/administrators/feature-summary/catalog-labels.md).
+Katalogbezeichnungen ermöglichen es Ihnen, Lernobjekte mit relevanten Feldwertinformationen zu verknüpfen. Katalogbezeichnungen und -werte sind nur für Administratoren und Autoren sichtbar. Weitere Informationen finden Sie unter [***Katalogbezeichnungen***](/help/migrated/administrators/feature-summary/catalog-labels.md).
 
-Nachdem Sie Katalogbeschriftungen erstellt haben, können Sie sie auf bestimmte Kataloge anwenden, indem Sie die folgenden Schritte ausführen:
+Nachdem Sie Katalogbeschriftungen erstellt haben, können Sie sie mithilfe der folgenden Schritte auf bestimmte Kataloge anwenden:
 
 1. Öffnen Sie im linken Bereich &quot;Kataloge&quot;.
 1. Wählen Sie den Katalog aus und wenden Sie ihn auf die Beschriftung an.
-1. Öffnen Sie im linken Bereich &quot;Katalogbeschriftungen&quot;.
-1. Klicken **[!UICONTROL Bearbeiten]** in der oberen rechten Ecke. Die Seite zeigt die Liste der verfügbaren Katalogbeschriftungen an.
+1. Öffnen Sie im linken Bereich „Katalogbeschriftungen“.
+1. Klicken **[!UICONTROL Bearbeiten]** in der oberen rechten Ecke. Die Seite zeigt die Liste der verfügbaren „Katalogbeschriftungen“.
 1. Um eine Beschriftung zum Katalog hinzuzufügen, klicken Sie auf **[!UICONTROL Zum Katalog hinzufügen]**.
 1. Um vorhandene Beschriftungen, die einem Katalog hinzugefügt wurden, zu entfernen, klicken Sie auf **[!UICONTROL Entfernen]**.
 
@@ -322,7 +322,7 @@ Nachdem Sie Katalogbeschriftungen erstellt haben, können Sie sie auf bestimmte 
 
 1. Wählen Sie als Administrator den Katalog aus, auf den Sie einem externen Benutzerprofil Zugriff gewähren möchten.
 1. Intern freigeben > Weitere hinzufügen > Entsprechendes externes Benutzerprofil auswählen
-1. Aktivieren Sie die Option, um den Katalog zu aktivieren.
+1. Schalten Sie die Option um, um den Katalog zu aktivieren.
 
 +++
 

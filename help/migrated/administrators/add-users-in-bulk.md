@@ -6,7 +6,7 @@ contentowner: saghosh
 source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
 workflow-type: tm+mt
 source-wordcount: '286'
-ht-degree: 0%
+ht-degree: 33%
 
 ---
 
@@ -16,17 +16,17 @@ ht-degree: 0%
 
 Ja, Sie können mehrere Benutzer gleichzeitig hinzufügen, indem Sie die folgenden Schritte ausführen:
 
-1. Klicken **[!UICONTROL Benutzer]** im linken Bereich bei der Administratoranmeldung und klicken Sie dann auf **[!UICONTROL Hinzufügen]** > **[!UICONTROL CSV hochladen]**. Ein Popup-Dialogfeld wird angezeigt.
+1. Klicken **[!UICONTROL Benutzer]** im linken Bereich bei der Administratoranmeldung und klicken Sie dann auf **[!UICONTROL Hinzufügen]** > **[!UICONTROL CSV hochladen]**. Ein Popup-Fenster wird angezeigt.
 
-1. Sie können mehrere Benutzer mithilfe einer CSV-Datei hinzufügen. Klicken **[!UICONTROL Importieren]** und wählen Sie die CSV-Datei auf Ihrem Computer aus bzw. öffnen Sie sie.
+1. Mithilfe einer CSV-Datei können Sie mehrere Benutzer gleichzeitig hinzufügen. Klicken **[!UICONTROL Importieren]** und wählen Sie die CSV-Datei auf Ihrem Computer aus bzw. öffnen Sie sie.
 
-1. Nachdem Sie die Datei importiert haben, ordnen Sie den Inhalt der CSV-Datei den Anwendungsbezeichnungen zu, wenn Sie die CSV-Datei zum ersten Mal hochladen.
+1. Nachdem Sie die Datei importiert haben, müssen Sie den Inhalt der CSV-Datei den Anwendungsbezeichnungen zuordnen, wenn Sie die CSV-Datei zum ersten Mal hochladen.
 
-   Für alle nachfolgenden Uploads werden die vorherigen Einstellungen für Beschriftungen berücksichtigt. Klicken **[!UICONTROL Speichern]** nach Abschluss der Datenzuordnung und klicken Sie auf **[!UICONTROL Hinzufügen]** , um die zugeordnete CSV-Datei hochzuladen.
+   Bei allen nachfolgenden Uploads werden die vorherigen Einstellungen für die Beschriftungen beachtet. Klicken **[!UICONTROL Speichern]** nach Abschluss der Datenzuordnung und klicken Sie auf **[!UICONTROL Hinzufügen]** , um die zugeordnete CSV-Datei hochzuladen.
 
 1. Klicken **[!UICONTROL Speichern]** nach Abschluss der Datenzuordnung und klicken Sie auf **[!UICONTROL Hinzufügen]** , um die zugeordnete CSV-Datei hochzuladen.
 
-## CSV-Upload mit obligatorischen Feldern {#csvuploadwithmandatoryfields}
+## CSV-Upload mit Pflichtfeldern {#csvuploadwithmandatoryfields}
 
 Es ist nicht zwingend erforderlich, das Profil des Benutzers und die E-Mail-ID des Managers zur CSV hinzuzufügen. Der Benutzername und die E-Mail-ID des Benutzers sind die einzigen obligatorischen Felder.
 
@@ -39,7 +39,7 @@ Beispiel-CSV für Learning Manager ist unten mit Pflichtfeldern verfügbar.
 
 ## CSV-Upload mit allen Feldern {#csvuploadwithallthefields}
 
-Bevor Sie die E-Mail-ID des Managers für einen Mitarbeiter hinzufügen, stellen Sie sicher, dass der Manager zuerst als Mitarbeiter in der CSV-Datei hinzugefügt wird. Verweisen Sie z. B. in der Momentaufnahme unten auf den Namen des Mitarbeiters, Howard Walters:
+Bevor Sie die E-Mail-ID des Managers für einen Mitarbeiter hinzufügen, stellen Sie sicher, dass der Manager zuerst als Mitarbeiter in der CSV-Datei hinzugefügt wird. In der Momentaufnehme unten sehen Sie beispielsweise den Namen Howard Walters:
 
 ![](assets/csv-example.png)
 

@@ -1,26 +1,26 @@
 ---
 jcr-language: en_us
-title: Kurs kann im Learning Manager nicht gesucht werden
-description: Ein Teilnehmer kann einen Kurs im Lern-Manager nicht suchen.
+title: Suche nach Kurs in Learning Manager nicht möglich
+description: Ein Teilnehmer kann in Learning Manager einen Kurs nicht finden.
 contentowner: nluke
 source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
 workflow-type: tm+mt
 source-wordcount: '307'
-ht-degree: 0%
+ht-degree: 55%
 
 ---
 
 
 
-# Kurs kann im Learning Manager nicht gesucht werden
+# Suche nach Kurs in Learning Manager nicht möglich
 
 ## Problem
 
-Ein Teilnehmer kann einen Kurs im Lern-Manager nicht suchen.
+Ein Teilnehmer kann in Learning Manager einen Kurs nicht finden.
 
 ## Szenario 1: Die Registrierung erfolgt über ein höheres Lernobjekt
 
-### Zusammenfassung
+### Übersicht
 
 Es gibt Szenarien, in denen ein Teilnehmer einen Kurs sucht und der Kurs nicht aufgeführt wird. Wenn sich der Teilnehmer jedoch für ein Lernprogramm/eine Zertifizierung registriert hat, kann der Teilnehmer den Kurs innerhalb des Lernobjekts anzeigen.
 
@@ -28,22 +28,22 @@ Es gibt Szenarien, in denen ein Teilnehmer einen Kurs sucht und der Kurs nicht a
 
 Wenn sich ein Teilnehmer im Lern-Manager über ein Lernprogramm/eine Zertifizierung registriert, erfolgt die Registrierung für diesen Kurs über das Lernprogramm/die Zertifizierung.
 
-Daher kann der Teilnehmer nicht nach eigenständigen Kursen suchen, die unter **Eigenes Lernen**.
+Daher kann der Teilnehmer unter **Eigenes Lernen** nicht nach eigenständigen Kursen suchen.
 
 Der Teilnehmer kann die Kurse jedoch nicht innerhalb des Lernprogramms/der Zertifizierung anzeigen.
 
 ## Szenario 2: Der Teilnehmer hat keinen Zugriff auf den Katalog, der den Kurs enthält.
 
-### Zusammenfassung
+### Übersicht
 
 Ein Teilnehmer kann keine Kurse im Katalog oder im Lern-Dashboard suchen.
 
 ### Warum passiert das?
 
-Dieses Problem tritt in folgenden Fällen auf:
+Dieses Problem tritt in folgenden Situationen auf:
 
 * Der Teilnehmer ist kein Teil des Katalogs, der den Kurs enthält. **ODER**
-* Der Kurs ist nicht Teil des Katalogs, auf den der Teilnehmer Zugriff hat.
+* Der Kurs ist nicht Teil des Katalogs, auf den der Teilnehmer zugreifen kann.
 
 ### Auflösung
 
@@ -60,7 +60,7 @@ Dieses Problem tritt in folgenden Fällen auf:
 
    * Teilnehmer ist nicht Teil des Katalogs
 
-     Klicken Sie auf **[!UICONTROL Hinzufügen]** und fügen Sie die Benutzergruppe hinzu, zu der der Benutzer gehört. Klicken **[!UICONTROL Speichern]**.
+     Klicken Sie auf **[!UICONTROL Hinzufügen]** und fügen Sie die Benutzergruppe hinzu, zu der der Benutzer gehört. Klicken Sie auf **[!UICONTROL Speichern]**.
 
      ![](assets/cp-add-user-group.png)
 

@@ -1,12 +1,12 @@
 ---
-description: Melden Sie sich als Teilnehmer beim Learning Manager an.
+description: Melden Sie sich als Teilnehmer bei Learning Manager an.
 jcr-language: en_us
 title: Anmelden
 contentowner: manochan
 source-git-commit: b6ee04d062bf6df477a1e8782cfec8fa3700d744
 workflow-type: tm+mt
 source-wordcount: '148'
-ht-degree: 0%
+ht-degree: 58%
 
 ---
 
@@ -14,21 +14,21 @@ ht-degree: 0%
 
 # Anmelden
 
-Melden Sie sich als Teilnehmer beim Learning Manager an.
+Melden Sie sich als Teilnehmer bei Learning Manager an.
 
-Wenn Sie Adobe Learning Manager zum ersten Mal verwenden, müssen Sie Ihr Konto erstellen, indem Sie die folgenden Schritte ausführen:
+Wenn Sie Adobe Learning Manager zum ersten Mal verwenden, müssen Sie ein Konto erstellen, indem Sie die unten angeführten Schritte befolgen:
 
-1. Starten Sie den Adobe Learning Manager über den sicheren Link, den Sie per Begrüßungs-E-Mail von Ihrem Administrator erhalten haben.
+1. Starten Sie Adobe Learning Manager über den sicheren Link, den Sie von Ihrem Administrator mit Ihrer Begrüßungs-E-Mail erhalten haben.
 
    Der Anmeldebildschirm wird angezeigt.
 
-1. Klicken Sie auf Anmelden.
+1. Klicken Sie auf „Anmelden“.
 
    ![](assets/adobeid-signin.png)
 
    *Mit Benutzername und Kennwort anmelden*
 
-1. Geben Sie Adobe ID und Ihr Kennwort ein und klicken Sie auf Anmelden.
+1. Geben Sie die Adobe-ID und das Kennwort ein und klicken Sie auf „Anmelden“.
 
    Wenn Sie Ihr Kennwort vergessen haben, klicken Sie auf Kennwort vergessen? und geben Sie Ihre E-Mail-ID ein, die Sie zum Erstellen von Adobe ID verwendet haben.
 
@@ -40,4 +40,4 @@ Wenn Sie Adobe Learning Manager zum ersten Mal verwenden, müssen Sie Ihr Konto 
 
 >[!NOTE]
 >
->Sobald Sie sich zum ersten Mal anmelden, wird Ihre Adobe ID mit Ihrem Unternehmenskonto verknüpft. Für alle nachfolgenden Anmeldungen können Sie Ihre Konto-URL (zweite URL), die Sie in der Begrüßungs-E-Mail erhalten haben, mit einem Lesezeichen versehen.
+>Sobald Sie sich zum ersten Mal anmelden, wird Ihre Adobe ID mit Ihrem Unternehmenskonto verknüpft. Für alle folgenden Anmeldungen können Sie Ihre Konto-URL (zweite URL), die Sie in der Begrüßungs-E-Mail erhalten haben, als Lesezeichen setzen.

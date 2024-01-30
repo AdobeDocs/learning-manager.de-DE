@@ -6,7 +6,7 @@ contentowner: manochan
 source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
 workflow-type: tm+mt
 source-wordcount: '1442'
-ht-degree: 0%
+ht-degree: 62%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 Die Ereignisse in Ihrer Schulungsaktivität lösen E-Mails aus, die an Teilnehmer gesendet werden. Sie als Administrator können diese E-Mail-Vorlagen einfach aktivieren, deaktivieren oder ändern.
 
-Die Learning Manager-Anwendung sendet E-Mail-Benachrichtigungen ereignisgesteuert an mehrere Benutzerrollen.
+Learning Manager verschickt E-Mail-Benachrichtigungen ereignisgesteuert an mehrere Benutzerrollen.
 
 Als Administrator können Sie E-Mail-Vorlagen anpassen, indem Sie Inhalte hinzufügen oder ändern und Benachrichtigungen für verschiedene Ereignisse, die von Teilnehmern, Managern und Autoren ausgelöst wurden, an Benutzer senden.
 
-Administratoren können auch festlegen, dass bei bestimmten Ereignissen keine E-Mail-Benachrichtigungen gesendet werden.
+Die Administratoren können auch festlegen, dass bei bestimmten Ereignissen keine E-Mail-Benachrichtigungen gesendet werden.
 
-## Konfigurieren von E-Mail-Vorlagen {#configureemailtemplates}
+## Konfigurieren Sie E-Mail-Vorlagen {#configureemailtemplates}
 
 Sie als Administrator können diese E-Mail-Vorlagen einfach aktivieren, deaktivieren oder ändern.
 
@@ -40,42 +40,42 @@ Sie als Administrator können diese E-Mail-Vorlagen einfach aktivieren, deaktivi
 
    Sie können diese E-Mail-Benachrichtigungen einfach aktivieren oder deaktivieren, indem Sie auf die Umschaltfläche klicken.
 
-1. Um den Inhalt der Vorlage zu ändern, klicken Sie auf den Vorlagennamen. Hier können Sie sehen, dass Sie für verschiedene Benutzertypen unterschiedliche Vorlagen haben.
+1. Um den Inhalt der Vorlage zu ändern, klicken Sie auf den Vorlagennamen. Hier sehen Sie, dass Sie für verschiedene Benutzertypen unterschiedliche Vorlagen haben.
 
    ![](assets/preview-of-an-emailtemplate.png)
 
    *Vorlage für eine E-Mail anzeigen*
 
-1. Um den Inhalt dieser E-Mail-Vorlage zu ändern, klicken Sie auf den Text der E-Mail. Nehmen Sie nun die Änderungen an der Vorlage vor. Sie können den Text ändern und eine dieser Variablen in Ihrer E-Mail verwenden. Die am Textabschnitt vorgenommenen Änderungen können nur auf diese E-Mail-Vorlage angewendet werden. Wenn Sie jedoch Änderungen an der Signatur dieser E-Mail vornehmen, kann diese global auf alle Vorlagen angewendet werden.
+1. Klicken Sie auf den Text der E-Mail, um den Inhalt dieser E-Mail-Vorlage zu ändern. Nehmen Sie nun die Änderungen an der Vorlage vor. Sie können den Text ändern und eine dieser Variablen in Ihrer E-Mail verwenden. Die am Textabschnitt vorgenommenen Änderungen können nur auf diese E-Mail-Vorlage angewendet werden. Wenn Sie jedoch Änderungen an der Signatur dieser E-Mail vornehmen, kann diese global auf alle Vorlagen angewendet werden.
 
-   Bewegen Sie die Maus über jedes Symbol, um die Namen anzuzeigen.
+   Um die Namen der Symbole anzuzeigen, zeigen Sie mit der Maus darauf.
 
    ![](assets/modify-the-emailtemplate.png)
 
    *E-Mail-Vorlage ändern*
 
-   Sie können den Hauptteil der Nachricht auf den Standardinhalt zurücksetzen, indem Sie auf den Link klicken **[!UICONTROL Auf Original zurücksetzen]** über der Vorlage.
+   Sie können durch Klicken auf den Link **[!UICONTROL Zurück zum Original]** über der Vorlage, den Hauptteil der Nachricht auf den Standardtext zurückgesetzt.
 
-1. Klicken Sie auf &quot;Speichern&quot;, um die an dieser Vorlage vorgenommenen Änderungen zu bestätigen. Jetzt können Benutzer mithilfe der geänderten E-Mail-Vorlage E-Mail-Benachrichtigungen erhalten.
+1. Klicken Sie auf „Speichern“, um die an dieser Vorlage vorgenommenen Änderungen zu bestätigen. Jetzt können Benutzer mithilfe der geänderten E-Mail-Vorlage E-Mail-Benachrichtigungen erhalten.
 
 ## Einstellungen einer E-Mail-Vorlage anpassen {#customizesettingsofanemailtemplate}
 
-1. Um die Einstellungsseite zu öffnen, klicken Sie auf **[!UICONTROL Einstellungen]**. Sie können jetzt Ihre E-Mail-Vorlagen anpassen.
+1. Um die Seite „Einstellungen“ zu öffnen, klicken Sie auf **[!UICONTROL Einstellungen]**. Sie können jetzt Ihre E-Mail-Vorlagen Ihren Erfordernissen anpassen.
 1. Um den Namen und die E-Mail-ID anzupassen von denen die Teilnehmer E-Mails erhalten, bearbeiten Sie die Datei **[!UICONTROL Name und Adresse des Absenders].**
 
    Kontakt [***Adobe-Unterstützung***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager) , um diese Details zu konfigurieren oder zu ändern.
 
 1. Passen Sie Ihr E-Mail-Banner im Fenster &quot; **[!UICONTROL Email Banner]** aus. Ändern Sie die Farbe des Banners, indem Sie **[!UICONTROL Banner-Hintergrund]**.
 
-   Sie können ein benutzerdefiniertes Bild als Banner verwenden, indem Sie die Option **[!UICONTROL Benutzerdefiniertes Bild]** aus. Klicken **[!UICONTROL Speichern]** nachdem Sie die Änderungen vorgenommen haben.
+   Sie können ein benutzerdefiniertes Bild als Banner verwenden, indem Sie die Option **[!UICONTROL Benutzerdefiniertes Bild]** aus. Nach Abschluss der Änderungen klicken Sie auf **[!UICONTROL Speichern]**.
 
    ![](assets/solid-color-banner.png) ![](assets/custom-image-banner.png)
 
    *Bild eines Banners anpassen*
 
-   Die benutzerdefinierte Bildgröße muss 1240 x 200 px betragen und .jpg, .jpeg und .png unterstützen.
+   Die benutzerdefinierte Bildgröße muss 1240x200px sein und .jpg, .jpeg und.png unterstützen.
 
-1. E-Mail-Signatur bearbeiten, indem Sie auf **[!UICONTROL Bearbeiten]**. Nehmen Sie die erforderlichen Änderungen vor und speichern Sie die Änderung.
+1. Bearbeiten Sie Ihre E-Mail-Signatur, indem Sie auf **[!UICONTROL Bearbeiten]** klicken. Nehmen Sie die erforderlichen Änderungen vor, und speichern Sie die Änderung.
 
    ![](assets/customize-email-signature.png)
 
@@ -83,7 +83,7 @@ Sie als Administrator können diese E-Mail-Vorlagen einfach aktivieren, deaktivi
 
 1. Bearbeiten Sie Ihre Konto-URL, indem Sie bei der Option auf Bearbeiten klicken. **[!UICONTROL Konto-URL]**.
 
-   Der Konto-URL-Link wird in allen E-Mails unmittelbar vor der Signatur angezeigt. Geben Sie die gewünschte URL ein und klicken Sie auf **[!UICONTROL Speichern]**. Beachten Sie, dass diese URL nur für interne Benutzer sichtbar ist.
+   Der Konto URL-Link wird in allen E-Mails unmittelbar vor der Signatur angezeigt. Geben Sie die gewünschte URL ein und klicken Sie auf **[!UICONTROL Speichern]**. Beachten Sie, dass diese URL für interne Benutzer sichtbar ist.
 
    ![](assets/customize-accounturl.png)
 
@@ -95,7 +95,7 @@ Sie als Administrator können diese E-Mail-Vorlagen einfach aktivieren, deaktivi
 
 Im Fenster &quot; **[!UICONTROL E-Mail-Vorlagen]** > **[!UICONTROL Einstellungen]** kann der Administrator die Häufigkeit ändern, mit der Auswahl-E-Mails an Teilnehmer gesendet werden.
 
-Im Dialogfeld &quot; **[!UICONTROL Einstellungen für Auswahl-E-Mail]** klicken Sie auf **[!UICONTROL Bearbeiten]**.
+Klicken Sie im Abschnitt **[!UICONTROL Einstellungen für Auswahl-E-Mail]** auf **[!UICONTROL Bearbeiten]**.
 
 Wählen Sie in der Dropdown-Liste entweder **[!UICONTROL zweiwöchig]** oder **[!UICONTROL Monatlich]**.
 
@@ -111,9 +111,9 @@ Wenn Sie diese Option aktivieren, wird die Häufigkeit auf **[!UICONTROL zweiwö
 
 ### DND-Liste der Teilnehmer
 
-Teilnehmer in einer DND-Liste können die Benutzereinstellungen für Auswahl-E-Mails nicht sehen. Die Option bleibt deaktiviert und die Teilnehmer erhalten keine E-Mails.
+In einer DND-Liste enthaltene Teilnehmer können die Benutzereinstellungen für Auswahl-E-Mails nicht sehen. Die Option bleibt deaktiviert und die Teilnehmer erhalten keine E-Mails.
 
-## Beispiel für Auswahl-E-Mail an Teilnehmer {#digest-email}
+## Beispiel für eine an Teilnehmer gesendete Auswahl-E-Mail {#digest-email}
 
 Die folgenden Beispiele zeigen die E-Mail, die ein Teilnehmer erhält.
 
@@ -153,11 +153,11 @@ Sie können den E-Mail-Zugriffsbericht herunterladen, indem Sie auf das Symbol *
 
 Um die E-Mail-Domäne und die E-Mail-ID anzupassen, von denen die Teilnehmer Benachrichtigungen erhalten, wenden Sie sich an den [***Learning Manager-Unterstützung***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager) und geben Sie die Details der Domäne, die Sie hinzufügen möchten, und Ihre neue E-Mail-ID an.
 
-Ihre Anfrage wird bearbeitet und eine E-Mail mit Bestätigungslink wird an Sie unter der neuen E-Mail-Adresse gesendet, die Sie angeben. Klicken Sie auf den Bestätigungslink in der E-Mail, um den Überprüfungsprozess zu bestätigen und abzuschließen.
+Ihre Anforderung wird bearbeitet und eine E-Mail mit Bestätigungs-Link wird an Sie unter der neuen E-Mail-Adresse gesendet. Klicken Sie auf den Bestätigungslink in der E-Mail, um den Überprüfungsprozess zu bestätigen und abzuschließen.
 
 ## Konfigurieren Sie E-Mail nicht stören {#dnd}
 
-Als Administrator können Sie Benutzer auswählen, die E-Mails vom Learning Manager erhalten können und keine.
+Als Administrator können Sie auswählen, wer E-Mails von Learning Manager erhält und wer nicht.
 
 Sie können dies mit dem Dialogfeld &quot; **[!UICONTROL Bitte nicht stören]** unter der Option **[!UICONTROL Einstellungen]** &quot; ändern. Benutzer können dieser Liste mit ihrem Namen, ihrer E-Mail-ID oder ihrer eindeutigen Benutzer-ID hinzugefügt werden.
 
@@ -174,30 +174,30 @@ Im Fenster &quot; **Gesperrte E-Mails** &quot; für jeden Benutzer die E-Mail-Ty
 Die folgenden Optionen sind verfügbar:
 
 * **Direkte E-Mail an Teilnehmer:** Diese Option beschränkt oder erlaubt das Senden von E-Mails an den Teilnehmer.
-* **Eskalations-E-Mails an Manager des Teilnehmers:** Diese Option beschränkt oder erlaubt das Senden von E-Mails an den Manager des Teilnehmers.
-* **Über direkte Berichte:** Diese Option beschränkt oder erlaubt eingehende Eskalations-E-Mails, die an die Benutzer über ihre direkten Berichte gesendet werden.
-* **Über Berichte zum Überspringen von Stufen:** Diese Option beschränkt oder erlaubt eingehende Eskalations-E-Mails, die an die Benutzer über ihre Berichte der zweiten Ebene gesendet werden.
+* **Eskalation von E-Mails an Manager des Teilnehmers**: Diese Option beschränkt oder erlaubt das Senden von E-Mails an den Lerner-Manager.
+* **Über direkte Berichte**: Diese Option beschränkt oder erlaubt eingehende Eskalations-E-Mails, die an die Benutzer über ihre direkten Berichte gesendet werden.
+* **Über Berichte zum Überspringen eines Levels**: Diese Option beschränkt oder erlaubt eingehende Eskalations-E-Mails, die an die Benutzer über ihre Berichte der zweiten Ebene gesendet werden.
 
 Wenn Sie einen Benutzer aus der Liste löschen möchten, können Sie die Löschoption verwenden, die auf der Registerkarte Benutzer für jeden Benutzer einzeln verfügbar ist.
 
-Sie können Benutzer mithilfe von CSVs zur DND-Liste hinzufügen. Geben Sie für jede der folgenden Spalten den Wert &quot;true&quot;, &quot;false&quot; oder &quot;blank&quot; an:
+Sie können Benutzer mithilfe von CSV-Dateien der Liste „Bitte nicht stören“ hinzufügen. Geben Sie für jede der folgenden Spalten den Wert &quot;true&quot;, &quot;false&quot; oder &quot;blank&quot; an:
 
 * Direkte E-Mails blockieren
-* Benutzereskalationen blockieren
+* Benutzer-Eskalationen blockieren
 * Eingehende direkte Eskalationen blockieren
-* Eingehende Übersprungeskalationen blockieren
+* Eingehende Eskalationen der übernächsten Stufe blockieren
 
-Geben Sie im Wertefeld &quot;true&quot; ein, um zu verhindern, dass Benutzer E-Mails für die ausgewählte Option erhalten. Wenn als Wert &quot;false&quot; eingegeben wird, wird die Blockierung für blockierte Benutzer aufgehoben. Wenn die Spalte leer bleibt, werden keine Änderungen an der vorherigen Auswahl vorgenommen.
+Geben Sie im Wertefeld &quot;true&quot; ein, um zu verhindern, dass Benutzer E-Mails für die ausgewählte Option erhalten. Wenn Sie den Wert „false“ eingeben, wird eine bestehende Blockierung für den Benutzer aufgehoben. Wenn Sie die Spalte leer lassen, bleibt die bisherige Auswahl unverändert.
 
 ## Flexibilität bei der Anpassung der Vorlagen
 
 E-Mail-Vorlagen im Learning Manager enthalten jetzt vollständig bearbeitbare Abschnitte, was eine größere Flexibilität bei der Anpassung der E-Mail-Kommunikation basierend auf Messaging- und Branding-Präferenzen bietet.
 
-Die wichtigsten Verbesserungen beim Anpassen von E-Mail-Vorlagen sind die folgenden:
+Die wichtigsten Verbesserungen beim Anpassen von E-Mail-Vorlagen sind:
 
 ### E-Mail-Anrede auf Kontoebene anpassen
 
-Auswählen **[!UICONTROL E-Mail-Vorlagen]** > **[!UICONTROL Einstellungen]**. Auswählen **[!UICONTROL Bearbeiten]** in der &quot; **[!UICONTROL E-Mail Anrede]** Abschnitt.
+Auswählen **[!UICONTROL E-Mail-Vorlagen]** > **[!UICONTROL Einstellungen]**. Wählen Sie **[!UICONTROL Bearbeiten]** im Abschnitt **[!UICONTROL E-Mail-Anrede]** aus.
 
 ![E-Mail anpassen](assets/email-salutation.png)
 
@@ -205,10 +205,10 @@ Auswählen **[!UICONTROL E-Mail-Vorlagen]** > **[!UICONTROL Einstellungen]**. Au
 
 Sie können außerdem Folgendes anpassen:
 
-* E-Mail-Banner und E-Mail-Signatur auf Kursebene und auf Instanzebene
+* E-Mail-Banner und E-Mail-Signatur auf Kursebene und Instanzebene
 * E-Mail-Fußzeile bearbeiten Der Fußzeilenbereich enthält vordefinierte Variablen für die Konto-URL, die Signatur und beliebigen freien Text, den der Benutzer hinzufügt.
 
-Die Vorlagen unterstützen auch erweiterte Bearbeitungsfunktionen, die sicherstellen, dass die Formatierung beim Kopieren und Einfügen von Inhalten aus Microsoft Word und in Word erhalten bleibt.
+Die Vorlagen unterstützen auch erweiterte Bearbeitungsfunktionen, etwa dass die Formatierung erhalten bleibt, wenn Inhalte kopiert und in Microsoft Word eingefügt werden.
 
 ## Inline-Einladungen {#inlineinvitations}
 
@@ -220,15 +220,15 @@ Learning Manager-Benutzer erhalten jetzt Inline-E-Mail-Einladungen. ICS-Anhänge
 
 +++Wie deaktiviere ich die Hilfe in E-Mail-Vorlagen?
 
-Derzeit ist es im Learning Manager nicht möglich, **Hilfe** in E-Mail-Vorlagen.
+Derzeit ist es in Learning Manager nicht möglich, **Hilfe** in E-Mail-Vorlagen zu deaktivieren.
 
 +++
 
 +++Wie ändere ich E-Mail-Vorlagen?
 
-1. Melden Sie sich als Administrator bei Ihrem Learning Manager-Konto an.
-1. Klicken Sie im linken Teilfenster auf **[!UICONTROL E-Mail-Vorlagen]** und wählen Sie die E-Mail-Vorlage aus, die Sie ändern möchten.
-1. Um jede Vorlage anzupassen, klicken Sie auf den Text im Hauptteil der Vorlage. Sie können Variablen in den Text einfügen, indem Sie auf die entsprechenden Symbole klicken (siehe Abbildung). Bewegen Sie den Mauszeiger über jedes Symbol, um die Namen anzuzeigen und auf die Vorlage anzuwenden.
+1. Melden Sie sich bei Ihrem Learning Manager-Konto als Administrator an.
+1. Auf der linken Seite, klicken Sie auf **[!UICONTROL E-Mail-Vorlagen]** und wählen die E-Mail-Vorlage, die Sie ändern möchten.
+1. Klicken Sie zum Anpassen der einzelnen Vorlagen auf den Text im Hauptteil der Vorlage. Sie können in den Text Variablen einfügen, indem Sie auf die entsprechenden Symbole klicken (siehe Abbildung). Bewegen Sie den Mauszeiger über jedes Symbol, um die Namen anzuzeigen und auf die Vorlage anzuwenden.
 1. Nachdem Sie die Vorlage geändert haben, klicken Sie auf **[!UICONTROL Speichern]**.
 
 

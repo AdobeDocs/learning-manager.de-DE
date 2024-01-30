@@ -6,7 +6,7 @@ contentowner: saghosh
 source-git-commit: 8635072782253cbac3f913953797cae7c0bc5ef4
 workflow-type: tm+mt
 source-wordcount: '446'
-ht-degree: 0%
+ht-degree: 67%
 
 ---
 
@@ -18,9 +18,9 @@ Benutzerdefinierte Domänen werden in einer Azure-Instanz von Learning Manager n
 
 ## Übersicht {#overview}
 
-Mit der Unterstützung benutzerdefinierter Domänen erhalten Kunden die vollständige Kontrolle über den Domänennamen, den sie für ihr Konto in Learning Manager verwenden können. Ein Kunde muss die benutzerdefinierte Domäne separat erwerben und mit dem Adobe-Team zusammenarbeiten, um sie als Anmelde-URL für seine Lernplattform einzurichten.
+Die Unterstützung benutzerdefinierter Domänen ermöglicht den Kunden, die vollständige Kontrolle über den Domänennamen zu erhalten, den sie für ihr Konto in Learning Manager verwenden können. Ein Kunde muss die benutzerdefinierte Domäne separat erwerben und mit dem Adobe-Team zusammenarbeiten, um sie als Anmelde-URL für seine Lernplattform einzurichten.
 
-Dadurch kann der Kunde die Anmelde- und Zugriffsbenutzeroberfläche mit einem White Label versehen, sodass keine Adobe oder Adobe Learning Manager vorhanden sind.
+Dadurch kann der Kunde die Anmelde- und Zugriffsbenutzeroberfläche mit einem White Label versehen, sodass Adobe oder Adobe Learning Manager für Benutzende unsichtbar bleibt.
 
 Sie möchten beispielsweise Ihre Domäne so anpassen, dass die Benutzererfahrung der in der Adobe-Domäne entspricht. Wenn ABC Inc ihre Kunden schulen möchte, sollen sie auf einer Domäne mit dem Namen `abc.com/mylearning`statt `learningmanager.adobe.com/abc-inc/mylearning`.
 
@@ -40,11 +40,11 @@ Die Funktion für benutzerdefinierte Domänen ist gegen einen Aufpreis verfügba
 
 Voraussetzung dafür ist, dass ein Kunde einen Domänennamen besitzt und die Domäne von einem Anbieter kauft.
 
-Nehmen wir an, ein Kunde besitzt eine fiktive Domäne. **acme.com**. Der Kunde wünscht, dass Learning Manager-Inhalte von **learning.acme.com**.
+Nehmen wir an, ein Kunde besitzt eine fiktive Domäne **acme.com**. Der Kunde wünscht, dass Learning Manager-Inhalte von **learning.acme.com** bereitgestellt werden.
 
 Führen Sie die folgenden Schritte aus, um eine benutzerdefinierte Domäne einzurichten.
 
-1. Der Kunde muss **drei CNAME hinzufügen** Datensätze in der Domäne:
+1. Der Kunde muss **drei CNAME-Datensätze** in der Domäne hinzufügen:
 
    * **learning.acme.com:** Öffentlicher ALB-Endpunkt des Learning Managers, der von Adobe freigegeben wird
    * **lrs.learning.acme.com:** Öffentlicher ALB-Endpunkt, auf den learning.acme.com verweist
@@ -60,7 +60,7 @@ Führen Sie die folgenden Schritte aus, um eine benutzerdefinierte Domäne einzu
 1. Adobe fügt learning.acme.com in ihr SAN-Zertifikat ein.
 1. Adobe generiert die SP-Metadaten für den Kunden, da die Metadaten die benutzerdefinierten Domänen-URLs enthalten.
 
-   * Wenn der Kunde eine Anmeldung per Social Media wünscht, muss der Adobe die Umleitungs-URL-Muster der Social-Media-Websites in die Liste der zulässigen URLs aufnehmen.
-   * Wenn der Kunde SSO aktiviert hat, muss er mit seinem IDP zusammenarbeiten, um seine Domänen in die Umleitungs-URLs aufzunehmen. Der Kunde muss die IDP-Metadaten-XML-Datei für Adobe freigeben. Adobe muss dann die SSO-Einstellungen des Kundenkontos aktualisieren.
+   * Wenn der Kunde eine Anmeldung mittels sozialer Medien wünscht, muss Adobe die Umleitungs-URL-Muster der sozialen Medien in die Liste der zulässigen URLs aufnehmen.
+   * Wenn der Kunde SSO aktiviert hat, muss er mit seinem IDP zusammenarbeiten, um seine Domänen in die Umleitungs-URLs aufzunehmen. Der Kunde muss die IDP-Metadaten-XML-Datei mit Adobe teilen. Adobe muss dann die SSO-Einstellungen des Kundenkontos aktualisieren.
 
 1. Adobe ändert dann die S3 CORS-Regeln, um die Domäne des Kunden einzubeziehen.

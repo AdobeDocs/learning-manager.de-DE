@@ -6,7 +6,7 @@ contentowner: dvenkate
 source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
 workflow-type: tm+mt
 source-wordcount: '2224'
-ht-degree: 0%
+ht-degree: 64%
 
 ---
 
@@ -16,19 +16,19 @@ ht-degree: 0%
 
 Mit dieser Funktion können Sie benutzerdefinierte Rollen definieren und bestimmten Benutzergruppen bestimmte Verantwortlichkeiten zuweisen. Mit dieser Funktion können Sie Verantwortlichkeiten zuweisen, die nicht in den Bereich der bestehenden Rolle der Person fallen.
 
-Sie können eine benutzerdefinierte Rolle erstellen, um Authoring-Funktionen bereitzustellen, die auf einen bestimmten Katalog beschränkt sind. Sie können auch eine dedizierte Rolle erstellen, um Berichte zu verwalten. Solche Rollen können dann Personen zugewiesen werden, die diese spezifischen Aufgaben übernehmen sollen.
+Sie können eine benutzerdefinierte Rolle erstellen, um Authoring-Funktionen für einen bestimmten Katalog bereitzustellen. Sie können auch eine dedizierte Rolle erstellen, um Berichterstellung zu verwalten. Solche Rollen können dann Personen zugeordnet werden, die diese spezifischen Aufgaben übernehmen sollen.
 
-## Erstellen einer benutzerdefinierten Rolle {#create-role}
+## Benutzerdefinierte Rolle erstellen {#create-role}
 
-1. Melden Sie sich als Administrator an. Öffnen **[!UICONTROL Benutzer]** > **[!UICONTROL Benutzerdefinierte Rolle]**.
-1. Auswählen **[!UICONTROL Rolle erstellen]**. Die **[!UICONTROL Neue Rolle erstellen]** &quot; wird geöffnet.
+1. Melden Sie sich als ein Administrator an. Öffnen **[!UICONTROL Benutzer]** > **[!UICONTROL Benutzerdefinierte Rolle]**.
+1. Auswählen **[!UICONTROL Rolle erstellen]**. Die Registerkarte **[!UICONTROL Neue Rolle erstellen]** wird geöffnet.
 
    ![](assets/create-new-role.png)
 
    *Erstellen einer benutzerdefinierten Rolle*
 
 1. Geben Sie den Namen in das Feld **[!UICONTROL Name der Rolle]** ein.
-1. **[!UICONTROL Kontoberechtigungen]**: Mit diesen Berechtigungen erhalten die Rolleneigentümer Zugriff auf bestimmte Systemkonfigurationsaspekte, die für das gesamte Konto gelten. Wählen Sie die Zugriffsberechtigungen aus. Der Benutzer erhält die volle Kontrolle über die zugewiesenen Berechtigungen.
+1. **[!UICONTROL Kontoberechtigungen]**: Mit diesen Berechtigungen erhalten die Rolleneigentümer Zugriff auf bestimmte Systemkonfigurationsaspekte, die für das gesamte Konto gelten. Wählen Sie die Zugriffsberechtigungen. Der Benutzer hat die volle Kontrolle über die zugewiesenen Berechtigungen.
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ Sie können eine benutzerdefinierte Rolle erstellen, um Authoring-Funktionen ber
 
 *Festlegen des Suchbereichs*
 
-1. **Funktionsberechtigungen - Kernfunktionen**: Wird verwendet, um Zugriff auf bestimmte Funktionen zum Verwalten von Lernaktivitäten zu gewähren. Mit dieser Option können Berechtigungen für die folgenden Funktionen erteilt werden.
+1. **Funktionsberechtigungen - Kernfunktionen**: Wird verwendet, um Zugriff auf bestimmte Funktionen zum Verwalten von Lernaktivitäten zu gewähren. Über diese Option können Berechtigungen für die folgenden Funktionen erteilt werden.
 
    * Kataloge
    * Berichte
@@ -51,7 +51,7 @@ Sie können eine benutzerdefinierte Rolle erstellen, um Authoring-Funktionen ber
 
 1. **Funktionsberechtigungen - Lernobjekte:**  Verwenden Sie diese Option, um Zugriff auf Funktionen in Bezug auf LOs zu gewähren. Sie können Zugriff auf die folgenden LOs gewähren.
 
-   * Zertifikationen
+   * Zertifizierungen
    * Kurse
    * Arbeitshilfen
    * Lernprogramme
@@ -59,7 +59,7 @@ Sie können eine benutzerdefinierte Rolle erstellen, um Authoring-Funktionen ber
    Sie können auch eine bestimmte Vorgangskontrolle für die LOs gewähren. Die Berechtigung kann eine der folgenden sein:
 
    * Vollständige Kontrolle
-   * Bearbeiten und Löschen
+   * Bearbeiten und löschen
    * Registrierung
    * Bericht
 
@@ -69,15 +69,15 @@ Sie können eine benutzerdefinierte Rolle erstellen, um Authoring-Funktionen ber
 
 1. **Umfang für Funktionsberechtigungen:** Der Umfang der dieser Rolle zugewiesenen Funktionsberechtigungen kann auf eine bestimmte Benutzergruppe oder einen oder mehrere Kataloge beschränkt werden.
 
-   Kataloge: Verwenden Sie das Optionsfeld, um die Steuerung der **[!UICONTROL Alle Kataloge]** , oder verwenden Sie den Katalog **[!UICONTROL Zugriff pro Katalog festlegen]** , um den Zugriff auf bestimmte Kataloge zu ermöglichen. Sie können auch mehrere Kataloge auswählen.
+   Kataloge: Verwenden Sie das Optionsfeld, um die Kontrolle über **[!UICONTROL Alle Kataloge]** bereitzustellen, oder verwenden Sie die Option **[!UICONTROL Zugriff über Katalog festlegen]**, um den Zugriff auf bestimmte Kataloge zu ermöglichen. Sie können auch mehrere Kataloge auswählen.
 
-   Benutzergruppen: Ermöglicht den Zugriff auf **[!UICONTROL Alle Benutzergruppen]** , oder verwenden Sie den Katalog **[!UICONTROL Zugriff pro Benutzergruppe festlegen]** , um Zugriff auf bestimmte Benutzergruppen zu gewähren. Es kann nur eine einzelne Benutzergruppe angegeben werden.
+   Benutzergruppen: Gewähren Sie Zugriff auf **[!UICONTROL Alle Benutzergruppen]** oder verwenden Sie die Option **[!UICONTROL Zugriff auf Benutzergruppe festlegen]**, um den Zugriff auf bestimmte Benutzergruppen zu ermöglichen. Es kann nur eine einzige Benutzergruppe angegeben werden.
 
    >[!NOTE]
    >
    >Wenn Sie &quot;Ankündigung&quot;, &quot;Gamifizierung&quot;, &quot;E-Mail-Vorlagen&quot;, &quot;Kenntnisse&quot; und &quot;Benutzer&quot; unter &quot;Kontoberechtigungen&quot; ausgewählt haben, wird der Benutzergruppenzugriff standardmäßig für alle Benutzergruppen bereitgestellt, und diese Option ist deaktiviert.
 
-   Wenn Sie unter &quot;Kontoberechtigungen&quot; die Option &quot;Lernpläne&quot; ausgewählt haben, wird standardmäßig der Zugriff auf alle Kataloge und Benutzergruppen bereitgestellt, und diese Optionen sind unter &quot;Umfang&quot; deaktiviert.
+   Wenn Sie unter „Kontoberechtigungen“ „Lernpläne“ ausgewählt haben, wird standardmäßig der Zugriff auf alle Kataloge und Benutzergruppen bereitgestellt, und diese Optionen sind unter „Umfang“ deaktiviert.
 
    ![](assets/define-scope-of-privileges.png)
 
@@ -91,7 +91,7 @@ Sie können eine benutzerdefinierte Rolle erstellen, um Authoring-Funktionen ber
 Führen Sie die folgenden Schritte aus, um den Katalogen verschiedene Berechtigungen zu erteilen:
 
 1. Klicken Sie auf die Option **[!UICONTROL Zugriff pro Katalog festlegen]**.
-1. Wählen Sie die Kataloge aus, und Sie können die Berechtigungsstufe für jeden Katalog anzeigen. Die Berechtigungen lauten wie folgt:
+1. Wählen Sie die Kataloge aus, und Sie können die Berechtigungsstufe für jeden Katalog anzeigen. Folgende Berechtigung stehen zur Verfügung:
 
    <table>
         <tbody>
@@ -111,7 +111,7 @@ Führen Sie die folgenden Schritte aus, um den Katalogen verschiedene Berechtigu
           <td>
           <p>Bericht</p></td>
           <td>
-          <p>Erteilt nur Zugriff auf die Registerkarte "Berichte" des Lernobjekts.</p></td>
+          <p>Erteilt nur Zugriff auf die Registerkarte „Berichte“ des Lernobjekts.</p></td>
         </tr>
         <tr>
           <td>
@@ -129,25 +129,25 @@ Führen Sie die folgenden Schritte aus, um den Katalogen verschiedene Berechtigu
       </table>
 
 1. Aktivieren oder deaktivieren Sie die Berechtigungen gemäß Ihren Anforderungen.
-1. Klicken Sie zum Speichern der Änderungen auf **[!UICONTROL OK]**. Um die Änderungen für die benutzerdefinierte Rolle zu speichern, klicken Sie anschließend auf **[!UICONTROL Speichern]**.
+1. Um die Änderungen zu speichern, klicken Sie auf **[!UICONTROL OK]**. Klicken Sie anschließend auf **[!UICONTROL Speichern]**, um die Änderungen für die benutzerdefinierte Rolle zu speichern.
 
 Betrachten Sie beispielsweise das folgende Szenario.
 
 Die resultierende Berechtigung, die ein benutzerdefinierter Benutzer für ein Lernobjekt haben würde, ist eine Schnittmenge aus der Berechtigung für Lernobjekte und der Katalogberechtigung.
 
-Ein benutzerdefinierter Benutzer verfügt über die vollständige Berechtigung für Kurse und nur über den schreibgeschützten Zugriff auf Katalog A, aber über die vollständige Berechtigung für Katalog B. Die Ergebnisse sind ein Zugriff &quot;Schreibgeschützt&quot; auf die Kurse von Katalog A und vollständige Kontrolle über die Kurse von Katalog B.
+Ein benutzerdefinierter Benutzer verfügt über die vollständige Berechtigung für Kurse und nur über den schreibgeschützten Zugriff auf Katalog A, aber über die vollständige Berechtigung für Katalog B. Die Ergebnisse sind ein Zugriff „Schreibgeschützt“ auf die Kurse von Katalog A und volle Kontrolle über die Kurse von Katalog B.
 
 Ein Benutzer mit einer benutzerdefinierten Rolle kann Folgendes:
 
 * Nur Inhalte aus den Katalogen anzeigen, auf die er Zugriff hat.
 * Greifen Sie auf jedes Lernobjekt zu, basierend auf den Berechtigungen des Katalogs, zu dem das Lernobjekt gehört.
 
-Als Administrator haben Sie folgende Möglichkeiten:
+Als Administrator können Sie Folgendes:
 
-* Wählen Sie mehr als einen Katalog für eine benutzerdefinierte Rolle aus.
+* Wählen Sie mehr als einen Katalog für eine benutzerdefinierte Rolle.
 * Ändern Sie die Berechtigungen eines Katalogs jederzeit.
 * Entfernen Sie die Kataloge aus einem Bereich, für den Sie keine Berechtigungen mehr erteilen möchten.
-* Erteilen Sie einem Katalog implizit die Berechtigung &quot;Schreibgeschützt&quot;, wenn Sie Berechtigungen für den Katalog erteilen.
+* Erteilen Sie einem Katalog implizit die Berechtigung „Schreibgeschützt“, wenn Sie Berechtigungen für den Katalog erteilen.
 
 Die folgende Tabelle zeigt, wie Berechtigungen erteilt werden.
 
@@ -229,17 +229,17 @@ Die folgende Tabelle zeigt, wie Berechtigungen erteilt werden.
 CustomRole columnNote:
 
 * Sie können keine Benutzergruppen durchsuchen.
-* Sie können keine Benutzer suchen, denen bereits eine Administratorrolle zugewiesen wurde.
+* Sie können nicht nach Benutzern suchen, denen bereits eine Administratorrolle zugewiesen wurde.
 * Die Zuweisung einer neuen benutzerdefinierten Rolle zu einem Benutzer überschreibt die vorherige benutzerdefinierte Rolle des Benutzers.
 
 <!--![](assets/users.png)-->
 
 * Ein benutzerdefinierter Administrator, der die Berechtigung für Einstellungen hat, kann den Zeitplan für die Synchronisierung oder die Synchronisierung von Benutzern aus der Datenquelle konfigurieren, auch wenn er keine Berechtigung für die Entität &quot;Benutzer&quot; hat.
-* Wenn ein benutzerdefinierter Administrator über Berechtigungen für die Entität &quot;Benutzer&quot; verfügt, können Sie ihm eine Administratorrolle zuweisen und ein Standardadministrator werden.
+* Wenn ein benutzerdefinierter Administrator über Berechtigungen für die Entität „Benutzer“ verfügt, können Sie ihm eine Administratorrolle zuweisen und ein Standardadministrator werden.
 
 ## Ordnerzugriff für benutzerdefinierte Autoren einschränken {#folder-custom-author}
 
-Learning Manager unterstützt bereits die Möglichkeit, mithilfe benutzerdefinierter Rollen Zugriff auf die Inhaltsbibliothek zu gewähren. Alle benutzerdefinierten Autoren, die bereits Zugriff auf die Inhaltsbibliothek haben, haben weiterhin Zugriff auf alle Inhaltsdateien, selbst wenn Inhaltsordner konfiguriert sind. Dies dient dazu, das alte Verhalten beizubehalten. Administratoren müssen keine Änderungen vornehmen, wenn sie das aktuelle Verhalten fortsetzen möchten.
+Learning Manager unterstützt bereits die Möglichkeit, mithilfe benutzerdefinierter Rollen Zugriff auf die Inhaltsbibliothek zu gewähren. Alle benutzerdefinierten Autoren, die bereits Zugriff auf die Inhaltsbibliothek haben, haben weiterhin Zugriff auf alle Inhaltsdateien, selbst wenn Inhaltsordner konfiguriert sind. So wird das alte Verhalten beibehalten. Administratoren müssen keine Änderungen vornehmen, wenn sie das aktuelle Verhalten fortsetzen möchten.
 
 Wenn sie den Zugriff auf diese benutzerdefinierten Autoren einschränken möchten, müssen Administratoren die vorhandene benutzerdefinierte Rolle bearbeiten und konfigurieren, indem sie nur Zugriff auf bestimmte Inhaltsordner gewähren.
 
@@ -279,9 +279,9 @@ Wenn einem Benutzer eine Rolle mit einer bestimmten Entität zugewiesen wird, ka
  <tbody>
   <tr>
    <th>Zugriffstyp</th>
-   <th>Entitätsberechtigung, die vom Administrator erteilt wurde</th>
+   <th>Entitätsberechtigung, die von Admin erteilt wurde</th>
    <th>Implizite Entitätsberechtigung</th>
-   <th>Impliziter Zugriff</th>
+   <th>Implizierter Zugriff</th>
   </tr>
   <tr>
    <td>Verwalten</td>
@@ -312,7 +312,7 @@ Wenn einem Benutzer eine Rolle mit einer bestimmten Entität zugewiesen wird, ka
      Kenntnisse<br>
      Ausweis<br>
      Arbeitshilfe</td>
-   <td>Weiterlesen</td>
+   <td>Alles lesen</td>
   </tr>
   <tr>
    <td>Erstellen</td>
@@ -350,7 +350,7 @@ Wenn einem Benutzer eine Rolle mit einer bestimmten Entität zugewiesen wird, ka
   <tr>
    <td>*</td>
    <td>Benutzer</td>
-   <td>Abrechnung</td>
+   <td>Rechnungen</td>
    <td>Lesen</td>
   </tr>
   <tr>
@@ -387,21 +387,21 @@ Wenn einem Benutzer eine Rolle mit einer bestimmten Entität zugewiesen wird, ka
 
 Wenn ein Administrator eine benutzerdefinierte Rolle zuweist, erhalten Sie eine E-Mail-Benachrichtigung.
 
-Hinweis: Wenn Sie bereits beim Lern-Manager unter einer benutzerdefinierten Rolle angemeldet sind, müssen Sie sich erneut beim Lern-Manager anmelden, um auf die neue Rolle zuzugreifen.
+Hinweis: Wenn Sie bereits bei Learning Manager unter einer benutzerdefinierten Rolle angemeldet sind, müssen Sie sich erneut bei Learning Manager anmelden, um auf die neue Rolle zugreifen zu können.
 
-Um zwischen Rollen zu wechseln, klicken Sie auf Ihr Profilsymbol in der oberen rechten Ecke des Lern-Managers und wählen Sie die Rolle aus.
+Um zwischen den Rollen zu wechseln, klicken Sie auf Ihr Profilsymbol in der oberen rechten Ecke von Learning Manager und wählen Sie die Rolle aus.
 
 ## Lernpläne nach konfigurierbaren Rollen {#scopeconfigure}
 
-In früheren Versionen des Lern-Managers konnte jede benutzerdefinierte Rolle mit der Berechtigung zum Erstellen von Lernplänen den Lernplan für alle Arten von Benutzergruppen und Lernobjekten anzeigen.
+In früheren Versionen von Learning Manager konnte jede benutzerdefinierte Rolle mit der Berechtigung zum Erstellen von Lernplänen den Lernplan für alle Arten von Benutzergruppen und Lernobjekten anzeigen.
 
 Die Umfangseinstellung war früher deaktiviert, als der Zugriff auf den Lernplan gewährt wurde, wodurch der Benutzer standardmäßig auf alle Kataloge und alle Benutzergruppen zugreifen konnte.
 
 Alle von einem Administrator erstellten Lernpläne gelten standardmäßig für alle Benutzer. Benutzern können auch beliebige Lernobjekte zugewiesen werden. Auf der anderen Seite haben Benutzer mit benutzerdefinierten Rollen Zugriff auf vollständige Bereiche, z. B. alle Kataloge, Lernobjekte oder Benutzergruppen. Dies bedeutete, dass Administratoren nicht wie erwartet benutzerdefinierte Rollen erstellen konnten, die Benutzern mit begrenztem Umfang den Zugriff auf Lernpläne ermöglichten.
 
-In diesem Update des Lern-Managers können Sie benutzerdefinierte Rollen für Lernpläne erstellen, die den Umfang für Benutzer und Lernobjekte festlegen. Mit anderen Worten, Lernpläne können mit einem begrenzten Umfang erstellt werden, der vom Rollenbereich eines benutzerdefinierten Administrators abgeleitet wird.
+In diesem Update von Learning Manager können Sie benutzerdefinierte Rollen für Lernpläne erstellen, um den Umfang für alle Benutzer und Lernobjekte festzulegen. Mit anderen Worten, Lernpläne können mit einem begrenzten Bereich erstellt werden, der vom Rollenbereich eines benutzerdefinierten Administrators abgeleitet wird.
 
-Jetzt kann ein Administrator den Umfang definieren oder einschränken, während er Zugriff auf die Lernplanverwaltung gewährt.
+Jetzt kann ein Administrator den Bereich definieren oder einschränken, während er Zugriff auf die Lernplanverwaltung gewährt.
 
 Benutzerdefinierte Administratoren können Lernpläne mit einem begrenzten Umfang erstellen, der vom Umfang der konfigurierbaren Rolle des benutzerdefinierten Administrators abhängt. Solche Lernpläne sind nur für benutzerdefinierte Administratoren mit derselben Rolle zugänglich, außerdem für reguläre Administratoren. Darüber hinaus können die benutzerdefinierten Administratoren keine anderen Lernpläne im Konto sehen.
 
@@ -409,7 +409,7 @@ Bestehende benutzerdefinierte Administratoren, die Zugriff auf Lernpläne haben,
 
 Von Administratoren erstellte Lernpläne und benutzerdefinierte Administratoren mit vollem Umfang werden wie gewohnt erstellt und sind nicht durch den Umfang beschränkt.
 
-Im Abschnitt **Umfang für Funktionsberechtigungen** Zugriff auf Benutzergruppen und/oder den Katalog für die benutzerdefinierte Rolle zu gewähren.
+Im Abschnitt **Umfang für Funktionsberechtigungen** gewähren Sie Zugriff auf Benutzergruppen und/oder den Katalog für die benutzerdefinierte Rolle.
 
 ![](assets/scope-for-featureprivileges.png)
 
@@ -421,13 +421,13 @@ Weisen Sie einen Benutzer der benutzerdefinierten Rolle zu.
 
 *Benutzer einer benutzerdefinierten Rolle zuweisen*
 
-Der Benutzer meldet sich jetzt als benutzerdefinierter Administrator beim Learning Manager an und fügt einen Lernplan hinzu.
+Der Benutzer meldet sich jetzt als benutzerdefinierter Administrator bei Learning Manager an und fügt einen Lernplan hinzu.
 
 Wenn ein neuer Teilnehmer hinzugefügt wird, kann der benutzerdefinierte Administrator eine Schulung nur aus den Katalogen der konfigurierbaren Rolle auswählen.
 
 Dieser Lernplan gilt jetzt nur für den Teilnehmer, wenn der Benutzer auch der Gruppe innerhalb der Benutzergruppe mit dem Umfang des Lernplans hinzugefügt wird. Alle anderen Teilnehmer werden von diesem Lernplan ausgenommen.
 
-## Der Teilnehmer wird der Gruppe hinzugefügt {#learnergetsaddedtothegroup}
+## Teilnehmer wird zu der Gruppe hinzugefügt {#learnergetsaddedtothegroup}
 
 <!--![](assets/add-learner-to-thegroup.png)-->
 
@@ -437,39 +437,39 @@ Wenn ein Benutzer zur angegebenen Gruppe hinzugefügt wird, wird nur Benutzern d
 
 ## Änderung des Umfangs {#changeinscope}
 
-Wenn der Administrator den Umfang der benutzerdefinierten Rolle ändert, wird die Änderung auch auf den benutzerdefinierten Administrator übertragen. Wenn der benutzerdefinierte Administrator einen Lernplan auswählt, der bereits im Umfang einer vorherigen benutzerdefinierten Rolle enthalten ist, wird eine Meldung angezeigt, wie unten gezeigt:
+Wenn der Administrator den Umfang der benutzerdefinierten Rolle ändert, wird die Änderung auch auf den benutzerdefinierten Administrator übertragen. Wenn der benutzerdefinierte Administrator einen Lernplan auswählt, der bereits im Umfang einer vorherigen benutzerdefinierten Rolle enthalten ist, wird eine Meldung wie die unten abgebildete angezeigt:
 
 ![](assets/change-scope.png)
 
 *Meldung nach Bereichsänderungen*
 
-Der benutzerdefinierte Administrator muss jetzt den früheren Bereich auf den neuen Bereich aktualisieren bzw. aktualisieren.
+Der benutzerdefinierte Administrator muss jetzt den früheren Umfang auf den neuen ändern oder die Seite aktualisieren.
 
-Klicken **[!UICONTROL Umfang aktualisieren]** aktualisiert den Umfang. Es wird eine Warnmeldung angezeigt.
+Durch Klicken auf **[!UICONTROL Umfang aktualisieren]** wird der Umfang aktualisiert. Es wird eine Warnmeldung angezeigt.
 
 ![](assets/refresh-scope-message.png)
 
 *Warnmeldung nach Aktualisieren eines Bereichs*
 
-Klicken **[!UICONTROL Ja]** aktualisiert den Umfang.
+Durch Klicken auf **[!UICONTROL Ja]** wird der Umfang aktualisiert.
 
 ## Gamification-Bericht zu einer benutzerdefinierten Rolle hinzufügen {#gamification-custom}
 
 Ein Administrator kann Gamification-Berichte für einen benutzerdefinierten Benutzer aktivieren.
 
-1. Im Dialogfeld &quot; **[!UICONTROL Benutzerdefinierte Rollen]** den Namen der benutzerdefinierten Rolle ein.
+1. Geben Sie auf der Seite **[!UICONTROL Benutzerdefinierte Rollen]** den Namen der benutzerdefinierten Rolle ein.
 1. Im Dialogfeld &quot; **[!UICONTROL Funktionsberechtigungen: Kernfunktionen]** die Option **[!UICONTROL Vollständige Kontrolle]** für die Kategorie **[!UICONTROL Berichte]**.
 
-1. Im Abschnitt **[!UICONTROL Benutzer]** den Benutzer aus, dem die neu erstellte benutzerdefinierte Rolle zugewiesen werden soll.
-1. Klicken **[!UICONTROL Speichern]**.
+1. Wählen Sie im Abschnitt **[!UICONTROL Benutzer]** den Benutzer aus, dem die neu erstellte benutzerdefinierte Rolle zugewiesen werden soll.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-Wenn sich ein Benutzer als benutzerdefinierter Administrator anmeldet und auf **[!UICONTROL Berichte]** im linken Bereich werden die Transkripte wie folgt angezeigt:
+Wenn sich ein Benutzer als benutzerdefinierter Administrator anmeldet und im linken Bereich auf **[!UICONTROL Berichte]** klickt, werden die Transkripte wie folgt angezeigt:
 
 ![](assets/download-gamificationtranscripts.png)
 
 *Gamification-Transkripte herunterladen*
 
-Klicken **[!UICONTROL Gamification-Protokolle]**, wählen Sie einen Benutzer aus und generieren Sie den Bericht.
+Klicken Sie auf **[!UICONTROL Gamification-Transkripte]**, wählen Sie einen Benutzer aus und erstellen Sie den Bericht.
 
 Wenn ein Administrator die Stufenpunkte ändert, werden in den Berichten die Stufen entsprechend den aktuellen Punkten angezeigt.
 
@@ -479,7 +479,7 @@ Durch das Zurücksetzen von Gamification wird die erreichte Stufe nicht zurückg
 
 +++Wie erstelle ich eine benutzerdefinierte Rolle?
 
-Eine benutzerdefinierte Rolle ist wie eine Untergruppe einer Autoren- oder Administratorrolle. Lassen Sie eine oder mehrere Berechtigungen zu, definieren Sie den Umfang und weisen Sie die Rolle einem Benutzer zu.
+Eine benutzerdefinierte Rolle ist wie eine Untergruppe einer Autor- oder Administratorrolle. Erteilen Sie eine oder mehrere Berechtigungen, definieren Sie den Umfang und weisen Sie die Rolle einem Benutzer zu.
 
-Klicken **[!UICONTROL Benutzer]** > **[!UICONTROL Benutzerdefinierte Rollen]**. Klicken Sie auf der Seite Benutzerdefinierte Rollen auf **[!UICONTROL Rolle erstellen]**. Geben Sie den Namen der benutzerdefinierten Rolle ein und legen Sie die Berechtigungen für die Rolle fest. Weitere Informationen finden Sie unter [Erstellen einer benutzerdefinierten Rolle](custom-role.md#create-role).
+Klicken **[!UICONTROL Benutzer]** > **[!UICONTROL Benutzerdefinierte Rollen]**. Klicken Sie auf der Seite „Benutzerdefinierte Rollen“ auf **[!UICONTROL Rolle erstellen]**. Geben Sie den Namen der benutzerdefinierten Rolle ein und legen Sie die Berechtigungen für die Rolle fest. Weitere Informationen finden Sie unter [Benutzerdefinierte Rolle erstellen](custom-role.md#create-role).
 +++

@@ -1,11 +1,11 @@
 ---
 title: Neue Funktionen in dieser Version (April 2023)
-description: Erfahren Sie mehr über die neuen Funktionen und Verbesserungen im Adobe-Lernmanager
+description: Informationen über die neuen Funktionen und Verbesserungen in Adobe Learning Manager
 hidefromtoc: true
 source-git-commit: 1da0911a4d0c2ae5cb01bbb2b7955675b0dfcdde
 workflow-type: tm+mt
 source-wordcount: '3158'
-ht-degree: 0%
+ht-degree: 62%
 
 ---
 
@@ -13,20 +13,20 @@ ht-degree: 0%
 
 ## Adobe Learning Manager-App für Microsoft Teams
 
-Die neue Adobe Learning Manager-App für Microsoft Teams wurde entwickelt, um das Lernen im Arbeitsfluss zu fördern und das soziale Lernen zu fördern. Teilnehmer können auf der Microsoft Teams-Plattform auf die Lerninhalte zugreifen, ohne zu einem Browser wechseln zu müssen. Wenden Sie sich an Ihren CSAM, um die Betaversion der Adobe Learning Manager-App auf MS Teams zu erhalten.
+Die neue Adobe Learning Manager-App für Microsoft Teams soll das Lernen im Arbeitsfluss fördern und das soziale Lernen steigern. Teilnehmende können auf der Microsoft Teams-Plattform auf die Lerninhalte zugreifen, ohne zu einem Browser wechseln zu müssen. Wenden Sie sich an Ihren CSAM, um die Betaversion der Adobe Learning Manager-App für MS Teams zu erhalten.
 
 Weitere Informationen finden Sie unter [Adobe Learning Manager-App für Microsoft Teams](/help/migrated/adobe-learning-manager-app-microsoft-teams.md).
 
 ## Verbesserungen der ILT-Erfahrung (Instructor-Led Training)
 
-Mehrere Verbesserungen wurden an der ILT-Schulung (Instructor Led Training) vorgenommen. Zu den wichtigsten Verbesserungen gehören die Möglichkeit, Sitzungen basierend auf dem Standort zu filtern, die Möglichkeit, Instanzen zu wechseln (VILT), ohne den Fortschritt zu verlieren, ein neuer &quot;Planungsassistent&quot; zum Verwalten von Konflikten in Buchungssitzungen, die Möglichkeit, &quot;Kenntnisse&quot; an Kursleiter anzuhängen und Kursleiter basierend auf Kenntnissen auszuwählen.
+Mehrere Verbesserungen wurden an der ILT-Erfahrung (Instructor Led Training) vorgenommen. Zu den wichtigsten Verbesserungen gehören die Möglichkeit, Sitzungen basierend auf dem Standort zu filtern, die Möglichkeit, Instanzen zu wechseln (VILT), ohne den Fortschritt zu verlieren, ein neuer &quot;Planungsassistent&quot; zum Verwalten von Konflikten in Buchungssitzungen, die Möglichkeit, &quot;Kenntnisse&quot; an Kursleiter anzuhängen und Kursleiter basierend auf Kenntnissen auszuwählen.
 
-### Änderungen
+### Was hat sich verändert
 
-* Die Seite &quot;Kenntnisse&quot; der Admin-App bietet die Möglichkeit, eine Kenntnisse-Kursleiter-Zuordnung hochzuladen.
+* Die Seite &quot;Kenntnisse&quot; der Admin-App bietet die Möglichkeit, eine Kenntnisse-Kursleiter(in)-Zuordnung hochzuladen.
 * Auf der Seite &quot;Kenntnisse&quot; gibt es eine neue Spalte &quot;Kursleiter&quot;. Die Spalte zeigt die Anzahl der Kursleiter für die Kenntnisse an. Wenn Sie auf die Nummer in der Spalte &quot;Kursleiter&quot; klicken, werden Sie zu einem Popup-Fenster weitergeleitet, in dem die Anzahl der Kursleiter angezeigt wird, die Kenntnissen zugewiesen sind.
 
-Weitere Informationen finden Sie unter [Zuweisen von Kenntnissen zu Ausbildern](/help/migrated/administrators/feature-summary/skills-levels.md#assign-skills-to-instructors).
+Weitere Informationen finden Sie unter [Kursleiter(innen) Kenntnisse zuweisen](/help/migrated/administrators/feature-summary/skills-levels.md#assign-skills-to-instructors).
 
 ![Kursleiter-CSV](assets/instructor-csv-new.png)
 
@@ -34,13 +34,13 @@ Weitere Informationen finden Sie unter [Zuweisen von Kenntnissen zu Ausbildern](
 
 Konflikte bei der Buchung von Kursleitern und Klassenzimmern oder virtuellen Klassenzimmern bewältigen. Wenn Sie wissen möchten, zu welcher Zeit und zu welchem Datum ein Kursleiter verfügbar ist, bevor Sie ihn dem Kurs zuweisen, verwenden Sie den Scheduling Assistant.
 
-Autoren, Administratoren und benutzerdefinierte Administratoren/Autoren können den Planungsassistenten verwenden.
+Autor(inn)en, Administrator(inn)en und benutzerdefinierte Administrator(inn)en/Autor(inn)en können den Planungs-Assistenten verwenden.
 
-Weitere Informationen finden Sie unter [Terminplanungs-Assistent](/help/migrated/authors/feature-summary/courses.md#scheduling-assistant).
+Weitere Informationen finden Sie unter [Planungs-Assistent](/help/migrated/authors/feature-summary/courses.md#scheduling-assistant).
 
-## Neue Adobe Learning Manager-Mobilanwendung
+## Neue mobile Adobe Learning Manager-App
 
-Eine brandneue mobile Adobe Learning Manager-App für Android und iOS, die Teilnehmern einen reibungslosen Zugriff auf das Lernen unterwegs bietet. Mit der App können Teilnehmer Schulungen auf ihren Mobilgeräten absolvieren und später auf ihren Desktops fortsetzen. Mit Unterstützung für Benachrichtigungen, Hochladen von Dateien, einfaches Bookmarking und Freigeben von Lerninhalten, Soziales Lernen und mehr bietet die mobile App Teilnehmern zusätzliche Flexibilität und unterstützt Just-in-Time-Lernen.
+Eine brandneue mobile Adobe Learning Manager-App für Android und iOS, die Teilnehmenden einen reibungslosen Zugang zum Lernen unterwegs bietet. Mit der App können Teilnehmende Schulungen auf ihren Mobilgeräten absolvieren und später auf ihren Desktops fortsetzen. Mit Unterstützung für Benachrichtigungen, Hochladen von Dateien, einfaches Bookmarking und Freigeben von Lerninhalten, soziales Lernen und mehr bietet die mobile App Teilnehmenden zusätzliche Flexibilität und unterstützt Just-in-Time-Lernen.
 
 ![Neues Bild der Benutzeroberfläche der mobilen Map](assets/mobile-app.png)
 
@@ -48,37 +48,37 @@ Laden Sie das Mobilgerät aus dem Google Play Store und der Apple App Store heru
 
 In dieser Version unterstützt die App die folgenden Funktionen:
 
-Die neue mobile App unterstützt die folgenden Schlüsselfunktionen in dieser Version:
+Die neue mobile App unterstützt die folgenden Hauptfunktionen in dieser Version:
 
-* Verbesserte Suche, einschließlich der Anzeige aktueller Suchen durch den Teilnehmer und beliebter Suchen in der Organisation im Sucheingabefeld.
+* Verbesserte Suche, einschließlich der Anzeige aktueller Suchen durch Teilnehmende und beliebter Suchen in der Organisation im Sucheingabefeld.
 * Möglichkeit zum Herunterladen von Teilnehmertranskripten.
 * Verbessertes Benachrichtigungscenter - stellt wichtige Aktualisierungen für Teilnehmer als Benachrichtigungen in der App bereit
-* Möglichkeit zum Sortieren und Filtern von Lernobjekten auf den Seiten Katalog/Meine Lernprogramme
+* Möglichkeit zum Sortieren und Filtern von Lernobjekten auf den Seiten „Katalog/Eigenes Lernen“
 * Möglichkeit, Lesezeichen für Lernobjekte (LOs) zu setzen - mit Lesezeichen versehene LOs sind im Abschnitt &quot;Gespeichert von mir&quot; auf der Teilnehmer-Startseite verfügbar.
 * Unterstützung für erweiterte LPs
-* Möglichkeit, die Sprache der mobilen Benutzeroberfläche in eine beliebige Sprache zu ändern, die vom Adobe Learning Manager unterstützt wird.
+* Möglichkeit, die Sprache der mobilen Benutzeroberfläche in eine beliebige von Adobe Learning Manager unterstützte Sprache zu ändern.
 * Unterstützung für Datei-Uploads in externen Zertifizierungen, CR/VC-Sitzungen und Aktivitätsmodulen.
 * Möglichkeit, L1-Kursfeedback innerhalb der App einzureichen.
-* Unterstützung für Deep Links.
-* Unterstützung für Soziales Lernen.
+* Unterstützung für Deep-Links.
+* Unterstützung für soziales Lernen.
 * Unterstützung für Abzeichen.
-* Unterstützung für die externe Benutzeranmeldung.
+* Unterstützung für die Anmeldung als externe Benutzende.
 
 **Was in dieser Version nicht unterstützt wird**
 
 * Unterstützung für mehrere Versuche, ein Quizmodul in einem Kurs zu erstellen, wenn der Kurs von der mobilen App aus absolviert wird.
 * Suchoptionen, mit denen Sie Suchparameter wie Kurs-Metadaten, Tags und Kenntnisse zum Festlegen des Suchbereichs angeben können.
-* Benutzerdefinierte Ankündigungen mit Administratorfunktion, die dem Benutzer in der mobilen App als Popup angezeigt werden.
+* Benutzerdefinierte Ankündigungen mit Administratorfunktion, die Benutzenden in der mobilen App als Popup angezeigt werden.
 * Sie können auf der Kenntnisseite in der App keine Kenntnisse hinzufügen.
 * Absolvieren von Kursen, während Sie offline sind.
 
-Weitere Informationen finden Sie unter [Adobe Learning Manager-Mobilanwendung](/help/migrated/learners/feature-summary/ipad-android-tablet-users.md).
+Weitere Informationen finden Sie in der [Adobe Learning Manager-Mobile App](/help/migrated/learners/feature-summary/ipad-android-tablet-users.md).
 
 ## QR-Code-Scan-App verwenden, um QR-Codes von Learning Manager zu scannen
 
-Adobe Learning Manager unterstützt jetzt eine benutzerintuitivere Art des Scannens von QR-Codes mithilfe der nativen Kamera-App, ohne eine App herunterladen zu müssen, die einen QR-Code scannt.
+Adobe Learning Manager unterstützt jetzt eine benutzerfreundlichere Methode zum Scannen von QR-Codes mithilfe der nativen Kamera-App, sodass keine App zum Scannen eines QR-Codes heruntergeladen werden muss.
 
-Um den vorherigen Arbeitsablauf zu unterstützen, bei dem Sie einen QR-Code über das Menü der ALM-App scannen konnten, haben wir in dieser Version Informationen zum Wechseln zum neuen Arbeitsablauf bereitgestellt.
+Um den vorherigen Arbeitsablauf zu unterstützen, bei dem Sie einen QR-Code über das Menü der ALM-App scannen konnten, haben wir in dieser Version Informationen über den Wechsel zum neuen Arbeitsablauf bereitgestellt.
 
 Mit Verbesserungen an QR-Code-basierten Workflows werden alte QR-Codes, die vor dieser Version generiert wurden, nicht mehr unterstützt. Wenn Sie also einen QR-Code mit einer älteren Version von Learning Manager für eine Klassenzimmer- oder VC-Sitzung generiert haben, die nach dieser Version durchgeführt wird, müssen Sie einen neuen QR-Code generieren.
 
@@ -90,22 +90,22 @@ Administratoren können bestimmte Kurse oder Schulungen auf Teilnehmer basierend
 
 **Änderungen**
 
-Auf der Seite &quot;Ankündigung&quot; gibt es eine Option, die einem Teilnehmer zeigt, warum ihm dieser Kurs oder diese Schulung empfohlen wurde.
+Auf der Ankündigungsseite wird einem Teilnehmer über eine Option angezeigt, warum ihm dieser Kurs oder diese Schulung empfohlen wurde.
 
 ![Ankündigung erstellen](assets/create-announcement.png)
 
 ### Neue Administratoreinstellung
 
-Der Administrator hat eine neue Option namens Gruppen in Einstellungen > Filterfelder anzeigen. Wenn Gruppen aktiviert ist, wird der Gruppenfilter auf der Teilnehmer-Startseite angezeigt. Der Teilnehmer kann dann die Kurse basierend auf den Benutzergruppen anzeigen.
+Der Administrator hat eine neue Option namens &quot;Gruppen&quot; in &quot;Einstellungen“ > &quot;Filterfelder anzeigen&quot;. Wenn &quot;Gruppen&quot; aktiviert ist, wird der Gruppenfilter auf der Teilnehmer-Startseite angezeigt. Der Teilnehmer kann dann die Kurse basierend auf den Benutzergruppen anzeigen.
 
 |   | Wenn die Option aktiviert ist | Wenn die Option deaktiviert ist |
 |--- |--- |--- |
-| Die Option Gruppen ist aktiviert. | <ul><li> Zeigt die Benutzergruppe auf der Kachel zusammen mit dem Link zur Katalogseite an.</li><li> Die Benutzergruppe wird im Katalogfilter angezeigt.</li></ul> | <ul><li>Der Name der Benutzergruppe wird nicht auf der Kachel angezeigt.</li><li>Die Benutzergruppe wird nicht im Katalogfilter aufgeführt.</li></ul> |
+| Die Option &quot;Gruppen&quot; ist aktiviert. | <ul><li> Zeigt die Benutzergruppe auf der Kachel zusammen mit dem Link zur Katalogseite an.</li><li> Die Benutzergruppe wird im Katalogfilter angezeigt.</li></ul> | <ul><li>Der Name der Benutzergruppe wird nicht auf der Kachel angezeigt.</li><li>Die Benutzergruppe wird nicht im Katalogfilter aufgeführt.</li></ul> |
 | Gruppenoption ist deaktiviert | <ul><li>Zeigt den Namen der Benutzergruppe auf der Kurskachel als reinen Text an.</li><li>Die Benutzergruppe wird nicht im Katalogfilter aufgeführt.</li></ul> | <ul><li>Auf der Kurskachel wird weder der Text noch der Name der Benutzergruppe angezeigt.</li><li>Die Benutzergruppe wird nicht im Katalogfilter aufgeführt.</li></ul> |
 
 **Und so funktioniert&#39;s**
 
-Der Administrator erstellt eine Ankündigung, indem er den Kurs für eine beliebige Benutzergruppe hinzufügt und diese veröffentlicht.
+Administrator(inn)en erstellen eine Ankündigung, indem sie den Kurs für eine beliebige Benutzergruppe hinzufügen und ihn veröffentlichen.
 
 Was ein Teilnehmer sieht, ist ein Streifen mit empfohlenen Kursen auf der Startseite und einem Link zum Kurs auf der Kachel.
 
@@ -115,19 +115,19 @@ Wenn der Teilnehmer auf den Link oder die Schaltfläche &quot;Zum Katalog&quot; 
 
 ![Suchergebnisse](assets/search-results.png)
 
-## Suchen von Sitzungen mithilfe von Speicherorten
+## Sitzungen über Standorte suchen
 
-### Verwalten von Speicherorten für Klassenzimmer
+### Verwalten von Standorte für Klassenzimmer
 
-Manchmal möchten Sie, dass ein Teilnehmer eine Sitzung im Kalender nach dem Standort filtert. Nach dem Hinzufügen eines Speicherorts über das Dialogfeld &quot;Speicherorte für Klassenzimmer&quot; oder die CSV-Datei kann der Teilnehmer dann filtern.
+Manchmal möchten Sie, dass Teilnehmende eine Sitzung im Kalender nach dem Standort filtern. Nach dem Hinzufügen eines Standorts über das Dialogfeld &quot;Standorte für Klassenzimmer&quot; oder die CSV-Datei können Teilnehmende dann filtern.
 
 ![Fügen Sie Speicherorte für Klassenzimmer hinzu](assets/add-classroom-locations.png)
 
-Weitere Informationen finden Sie unter [Fügen Sie Speicherorte für Klassenzimmer hinzu](/help/migrated/administrators/feature-summary/settings.md#classroom-locations).
+Weitere Informationen finden Sie unter [Standorte für Klassenzimmer hinzufügen](/help/migrated/administrators/feature-summary/settings.md#classroom-locations).
 
 ### Kalender-Widget
 
-Als Teilnehmer können Sie Sitzungen filtern, die Ihnen nach Ort zugewiesen sind. Navigieren Sie zum Kalender-Widget, wählen Sie &quot;Sitzungen filtern&quot; und wählen Sie den Speicherort.
+Als Teilnehmer(in) können Sie Sitzungen filtern, die Ihnen nach Standort zugewiesen sind. Navigieren Sie zum Kalender-Widget, wählen Sie „Sitzungen filtern“ und wählen Sie den Standort.
 
 ![Keine Filter angewendet](assets/no-filters-applied.png)
 
@@ -141,11 +141,11 @@ Außerdem wird der Schulungsort jetzt auf der Kursübersichtsseite angezeigt, we
 
 ### Administrator
 
-Als Administrator können Sie steuern, ob ein Teilnehmer Kurse nach Standorten filtern kann. Aktivieren oder deaktivieren Sie unter Einstellungen > Allgemein die Option Schulungsstandorte.
+Als Administrator(in) können Sie steuern, ob Teilnehmende Kurse nach Standorten filtern können. Aktivieren oder deaktivieren Sie unter „Einstellungen > Allgemein“ die Option „Schulungsorte“.
 
 Weitere Informationen finden Sie unter [Administratoreinstellungen](/help/migrated/administrators/feature-summary/settings.md).
 
-## Änderungen am Testerlebnis
+## Änderungen an der Testversion
 
 Nachdem das Testkonto erstellt wurde, werden die Kurse im Inhalts-Marketplace unverzüglich verfügbar.
 
@@ -153,36 +153,36 @@ Nachdem das Testkonto erstellt wurde, werden die Kurse im Inhalts-Marketplace un
 
 Chatten Sie mit einem Agenten oder mehreren Agenten, die einen Chatbot verwenden. Nur Administratoren und benutzerdefinierte Administratoren von Testkonten können diese Funktion verwenden.
 
-Der Chatbot hat folgende Vorteile:
+Der Chatbot macht Folgendes:
 
-* Willkommen mit einer Nachricht.
+* Er begrüßt Sie mit einer Nachricht.
 * Bieten eine Option für Produktinformationen oder eine Produktdemo.
-* Übertragen Sie den Chat an einen Live-Agenten.
-* Bewahren Sie den Chat-Verlauf.
+* Er übergibt den Chat einem Live-Agenten.
+* Er speichert Ihren Chat-Verlauf.
 
 ![Chatbot](assets/chatbot-new.png)
 
-## Verbesserungen an der Beobachtungs-Checkliste
+## Verbesserungen der Beobachtungs-Checkliste
 
-Autoren können jetzt Manager und Speicher-/Standortmanager als Prüfer für Checklisten auswählen. Manager und Store-/Location Manager können, sofern sie als Reviewer ausgewählt wurden, auch die Checklisten ihrer Teams anzeigen und abschließen, ohne zu den Kursleiterrollen wechseln zu müssen. Die Kursleiter überprüfen weiterhin die Checklisten. Eine neue Benachrichtigung &quot;Checkliste überprüfen&quot; wird an die Reviewer (Kursleiter/Manager) einer Instanz für die Checkliste für Registrierungen gesendet.
+Autoren können jetzt Manager und Filial-/Standortmanager als Reviewer für Checklisten auswählen. Manager und Filial-/Standortmanager können, sofern sie als Reviewer ausgewählt wurden, auch die Checklisten ihrer Teams anzeigen und abschließen, ohne zu den Kursleiterrollen wechseln zu müssen. Die Kursleiter überprüfen weiterhin die Checklisten. Eine neue Benachrichtigung &quot;Checkliste überprüfen&quot; wird an die Reviewer (Kursleiter/Manager) einer Instanz für die Checkliste für Registrierungen gesendet.
 
-Wenn ein Manager als Überprüfer im Checklistenmodul hinzugefügt wird, kann er die Checkliste in der Manager-App überprüfen. Die Kursleiter überprüfen die Checkliste weiterhin wie erwartet.
+Wenn ein Manager als Reviewer im Checklistenmodul hinzugefügt wird, kann er die Checkliste in der Manager-App überprüfen. Die Kursleiter überprüfen die Checkliste wie erwartet.
 
 Weitere Informationen finden Sie unter [Beobachtungs-Checkliste](/help/migrated/authors/feature-summary/courses.md#observation-checklist).
 
-## Weitere Verbesserungen
+## Sonstige Verbesserungen
 
-### Teilnehmersuche
+### Teilnehmendensuche
 
-Die Suchergebnisse werden auch als:
+Die Suchergebnisse werden auch wie folgt kategorisiert:
 
 * Zuletzt von Ihnen gesuchte Dateien
 * Beliebte Suchvorgänge in Ihrer Organisation
 
-Die Suchfunktion wurde auch für Teilnehmer verbessert. Teilnehmer können jetzt doppelte Anführungszeichen &quot;...&quot; sowie die Operatoren &quot;+&quot; und &quot;-&quot; und &quot;-&quot; verwenden, um relevante Ergebnisse schneller zu finden und eine Google-Suche durchzuführen.
+Die Suchfunktion wurde auch für Teilnehmende verbessert. Teilnehmer können jetzt doppelte Anführungszeichen &quot;...&quot; sowie die Operatoren &quot;+&quot; und &quot;-&quot; und &quot;-&quot; verwenden, um relevante Ergebnisse schneller zu finden und eine Google-Suche durchzuführen.
 
-* Verwenden Sie doppelte Anführungszeichen (&quot;...&quot;), um nach Kursen zu suchen, die den genauen Ausdruck oder das Wort enthalten. Bei der Eingabe von &quot;Datenwissenschaft&quot; werden beispielsweise Kurse zurückgegeben, die mit dem Begriff &quot;Datenwissenschaft&quot; beginnen.
-* Verwenden Sie den Operator +, um sicherzustellen, dass nur die Ergebnisse angezeigt werden, die den spezifischen Ausdruck oder das spezifische Wort enthalten. Mit Computer-Programmierung +python werden beispielsweise nur die Computerprogrammierkurse angezeigt, die das Wort &quot;python&quot; enthalten.
+* Verwenden Sie doppelte Anführungszeichen (&quot;...&quot;), um nach Kursen zu suchen, die den genauen Ausdruck oder das Wort enthalten. Bei der Eingabe von &quot;Data Science&quot; werden beispielsweise Kurse angezeigt, die mit dem Begriff &quot;Data Science&quot; beginnen.
+* Verwenden Sie den Operator &quot;+&quot;, um sicherzustellen, dass nur die Ergebnisse angezeigt werden, die den spezifischen Ausdruck oder das spezifische Wort enthalten. Mit Computer-Programmierung +python werden beispielsweise nur die Computerprogrammierkurse angezeigt, die das Wort &quot;python&quot; enthalten.
 * Verwenden Sie den Operator -, um sicherzustellen, dass nur die Ergebnisse angezeigt werden, die den spezifischen Ausdruck oder das spezifische Wort nicht enthalten. Computer Programming -python zeigt z. B. alle Computerprogrammierkurse an, mit Ausnahme der Kurse, die das Wort &quot;python&quot; enthalten.
 
 ### Widersprüchliches Popup für Lernobjekte
@@ -195,25 +195,25 @@ Beachten Sie, dass diese Meldung nur eine Warnung ist. Sie können sich weiterhi
 
 ### Neue Vorlage
 
-Wir haben eine neue E-Mail-Vorlage mit dem Namen Sitzung abgebrochen aufgrund der Aufhebung der Registrierung hinzugefügt. Wenn ein Benutzer die Registrierung für eine Schulung widerrufen hat, erhält er die Stornierungs-E-Mail.
+Wir haben eine neue E-Mail-Vorlage mit dem Namen „Sitzung wegen Aufhebung der Registrierung storniert“ hinzugefügt. Wenn die Registrierung von Benutzenden für eine Schulung aufgehoben wird, erhalten sie die Stornierungs-E-Mail.
 
 ### Neue Preisfunktion für Kurse
 
-Administratoren können jetzt die Währung für das Konto im Abschnitt Administratoreinstellungen > Grundlegende Informationen festlegen. Administratoren können sowohl das Symbol als auch den ISO-Währungscode angeben, beispielsweise USD, GBP usw. Der Standardwert für alle neuen Konten ist $. Diese Änderung gilt nur für Nicht-Teilnehmer-Apps. Administratoren können die Änderung sehen, wenn sie den Kurs als Teilnehmer in der Vorschau anzeigen. Das Währungssymbol wird auch in Teilnehmertranskripten und Schulungsberichten angezeigt.
+Administrator(inn)en können jetzt die Währung für das Konto im Abschnitt „Administratoreinstellungen > Grundlegende Informationen“ festlegen. Administrator(inn)en können sowohl das Symbol als auch den ISO-Währungscode angeben, z. B. USD, GBP usw. Der Standardwert für alle neuen Konten ist $. Diese Änderung gilt nur für Nicht-Teilnehmer-Apps. Administratoren können die Änderung sehen, wenn sie den Kurs als Teilnehmer in der Vorschau anzeigen. Das Währungssymbol wird auch in Teilnehmertranskripten und Schulungsberichten angezeigt.
 
 Weitere Informationen finden Sie unter [Administratoreinstellungen](/help/migrated/administrators/feature-summary/settings.md).
 
 ### Instanzen wechseln
 
-Ein Teilnehmer, der in einer bestimmten Instanz eines Kurses registriert ist, kann eine Liste aller verfügbaren Instanzen des Kurses anzeigen und zu einer anderen Instanz wechseln, die besser für ihn geeignet ist. Der Grund für den Wechsel könnte sein, dass der Teilnehmer die Teilnahme an der vorherigen Instanz verpasst hat, oder der Sitzungszeitpunkt für die neue Instanz ist geeigneter oder es kann etwas Anderes sein.
+Teilnehmende, die in einer bestimmten Instanz eines Kurses registriert sind, können eine Liste aller verfügbaren Instanzen des Kurses anzeigen und zu einer anderen Instanz wechseln, die für sie besser geeignet ist. Der Grund für den Wechsel könnte sein, dass Teilnehmende die Teilnahme an der vorherigen Instanz verpasst haben, der Sitzungszeitpunkt für die neue Instanz geeigneter ist, oder etwas anderes.
 
-Alle Fortschritte, die der Teilnehmer im Rahmen des Kurses, der Teilnehmer-Quizergebnisse usw. erzielt hat, werden auf die neue Instanz übertragen. Diese Funktion ist in erster Linie für Klassenzimmer- und gemischte Kurse gedacht, aber wir unterstützen alle Arten von Kursen, einschließlich Kursen zum Selbststudium.
+Alle Fortschritte, die Teilnehmende im Rahmen des Kurses, der Teilnehmenden-Quizergebnisse usw. erzielt haben, werden auf die neue Instanz übertragen. Diese Funktion ist in erster Linie für Klassenzimmer- und gemischte Kurse gedacht, aber wir unterstützen alle Arten von Kursen, einschließlich Kursen zum Selbststudium.
 
-Die Option Alle Instanzen anzeigen wird unabhängig von den Einstellungen für den Instanzwechsel angezeigt. Teilnehmer können jetzt alle Instanzen anzeigen, wenn mehrere Instanzen eines Kurses vorhanden sind.
+Die Option &quot;Alle Instanzen anzeigen&quot; wird unabhängig von den Einstellungen für den Instanzwechsel angezeigt. Teilnehmer können jetzt alle Instanzen anzeigen, wenn mehrere Instanzen eines Kurses vorhanden sind.
 
 Wenn die Option &quot;Instanz-Wechsel&quot; aktiviert ist, können Teilnehmer zu verschiedenen Instanzen wechseln, bis sie den Kurs abgeschlossen haben. Wenn die Option deaktiviert ist, können Teilnehmer die Instanzen anzeigen, sich aber nicht für den Kurs registrieren.
 
-Wenn der Teilnehmer **Alle Instanzen anzeigen** klicken, kann der Teilnehmer alle Kursinstanzen sehen.
+Wenn Teilnehmende **Alle Instanzen anzeigen** auswählen, können sie alle Kursinstanzen sehen.
 
 ![Alle Instanzen anzeigen](assets/view-all-instances-new.png)
 
@@ -225,13 +225,13 @@ Ein Administrator kann die Instanzen für Teilnehmer wechseln.
 
 Sie können die Instanzen erst wechseln, wenn eine Instanz des Kurses über die Teilnehmer- oder Admin-App abgeschlossen wurde.
 
-Autoren können beim Erstellen eines Kurses zwischen dem Aktivieren oder Deaktivieren des &quot;Instanzwechsels&quot; wechseln. Der Instanzschalter ist nur für kostenlose Kurse verfügbar.
+Autoren können beim Erstellen eines Kurses zwischen dem Aktivieren oder Deaktivieren des &quot;Instanzwechsels&quot; wechseln. Der Instanzwechsel ist nur für kostenlose Kurse verfügbar.
 
 Weitere Informationen finden Sie unter [Instanzkonfiguration](/help/migrated/authors/feature-summary/courses.md).
 
 **Teilnehmer**
 
-Teilnehmer können von einer auf die Warteliste gesetzten Kursinstanz zu einer anderen Instanz wechseln. Sie können auch eine Kursinstanz in einem Lernpfad oder einer Zertifizierung wechseln.
+Teilnehmende können von einer auf die Warteliste gesetzten Kursinstanz zu einer anderen Instanz wechseln. Sie können auch eine Kursinstanz in einem Lernpfad oder einer Zertifizierung wechseln.
 
 Nach der Registrierung für den Lernpfad oder die Zertifizierung können sie auf der Kursseite auf &quot;Instanzen anzeigen&quot; klicken und dann eine Instanz wechseln.
 
@@ -247,11 +247,11 @@ Der Bericht &quot;Benutzerprüfpfad&quot; erfasst Informationen über Teilnehmer
 
 ![Benutzerprüfprotokollbericht anzeigen](assets/user-audit-trail.png)
 
-Weitere Informationen finden Sie unter [Bericht zu Benutzerprüfpfaden](/help/migrated/administrators/feature-summary/reports.md#useraudittrailreports).
+Weitere Informationen finden Sie unter [Bericht &quot;Benutzerprüfpfad&quot;](/help/migrated/administrators/feature-summary/reports.md#useraudittrailreports).
 
 ### Auslastungsbericht des Kursleiters
 
-Dieser Bericht erfasst die Zeit (in Minuten), die ein Kursleiter täglich mit zugewiesenen Sitzungen verbringt. Der Bericht kann für einen Zeitraum von drei Monaten ab dem ausgewählten Startdatum heruntergeladen werden.
+Dieser Bericht erfasst die Zeit (in Minuten), die Kursleiter(innen) täglich mit zugewiesenen Sitzungen verbringen. Der Bericht kann für einen Zeitraum von drei Monaten ab dem ausgewählten Startdatum heruntergeladen werden.
 
 Weitere Informationen finden Sie unter [Bericht zur Auslastung der Kursleiter](/help/migrated/administrators/feature-summary/reports.md#instructor-utilization-report).
 
@@ -259,25 +259,25 @@ Weitere Informationen finden Sie unter [Bericht zur Auslastung der Kursleiter](/
 
 ### Bericht zu Arbeitshilfen
 
-Ein neuer Bericht, in dem die im Konto vorhandenen Arbeitshilfen und verschiedene Informationen zu den Arbeitshilfen, z. B. Sprache, Typ, Dauer, Autor, Tags usw., erfasst werden.
+Ein neuer Bericht, in dem die im Konto vorhandenen Arbeitshilfen und verschiedene Informationen zu den Arbeitshilfen, z. B. Sprache, Typ, Dauer, Autor, Tags usw. erfasst werden.
 
 Weitere Informationen finden Sie unter [Bericht zur Registrierung von Arbeitshilfen](/help/migrated/administrators/feature-summary/reports.md).
 
-### Gezielte Ad-hoc-E-Mails an Teilnehmer, die sich für eine bestimmte Kursinstanz registriert haben
+### Gezieltes Senden von Ad-hoc-E-Mails an Teilnehmende, die sich für eine bestimmte Kursinstanz registriert haben
 
-Administratoren und Autoren können gezielte Ad-hoc-E-Mail-Kommunikation an Teilnehmer senden, die sich für eine bestimmte Instanz eines Kurses registriert haben. Die Option zum Senden von E-Mails auf Instanzebene wurde für Kurse und Lernprogramme hinzugefügt.
+Administrator(inn)en und Autor(inn)en können gezielte Ad-hoc-E-Mail-Kommunikation an Teilnehmende senden, die sich für eine bestimmte Instanz eines Kurses registriert haben. Die Option zum Senden von E-Mails gemäß Instanzebene wurde für Kurse und Lernprogramme hinzugefügt.
 
 ![E-Mails auf Instanzebene senden](assets/adhoc-email.png)
 
 *E-Mails auf Instanzebene senden*
 
-Im Dialogfeld Ankündigung erstellen sind die Optionen Typ als E-Mail und Schulung zusammen mit der Instanz standardmäßig ausgewählt. Geben Sie den Betreff an, geben Sie die Nachricht ein und klicken Sie auf Speichern.
+Im Dialogfeld &quot;Ankündigung erstellen&quot; sind die Optionen &quot;Als E-Mail-Adresse eingeben&quot; und &quot;Schulung&quot; zusammen mit der Instanz standardmäßig ausgewählt. Geben Sie den Betreff an, geben Sie die Nachricht ein und klicken Sie auf Speichern.
 
 Weitere Informationen finden Sie unter [E-Mails auf Instanzebene](/help/migrated/administrators/feature-summary/courses.md#send-instance-level-emails).
 
 ### Ad-hoc-E-Mails an Teilnehmer über Ankündigungen durch den Administrator
 
-Für Administratoren wurde ein neuer Ankündigungstyp hinzugefügt: &quot;Als E-Mail senden&quot;. Dies kann verwendet werden, um zielgerichtete Ad-hoc-E-Mails an Teilnehmer einer ausgewählten Benutzergruppe oder an Teilnehmer zu senden, die sich für eine bestimmte Schulung registriert haben.
+Für Administrator(inn)en wurde ein neuer Ankündigungstyp hinzugefügt: &quot;Als E-Mail senden&quot;. So können zielgerichtete Ad-hoc-E-Mails an Teilnehmende einer ausgewählten Benutzergruppe oder Teilnehmende, die sich für eine bestimmte Schulung registriert haben, gesendet werden.
 
 Benutzerdefinierte Administratoren und Autoren können diese Option auch auf Instanzebene anzeigen, wenn sie über den erforderlichen Zugriff verfügen.
 
@@ -285,14 +285,14 @@ Weitere Informationen finden Sie unter [Ankündigungen](/help/migrated/administr
 
 ### Neue E-Mail-Vorlagen
 
-In dieser Version haben wir E-Mail-Vorlagen für Skip-Level-Manager hinzugefügt. Diese Vorlagen sind für den Fall vorgesehen, dass Manager E-Mails zu ihren Berichten der zweiten Ebene erhalten, in denen Kurse, Lernpfade oder Zertifizierungstermine fehlen. Darüber hinaus erhalten sie E-Mails, wenn ihre Berichte der zweiten Ebene die Abschlussfristen für diese Kurse, Lernpfade oder Zertifizierungen erreichen.
+In dieser Version haben wir E-Mail-Vorlagen für Stufe-überspringen-Manager hinzugefügt. Diese Vorlagen sind für den Fall vorgesehen, dass Manager(innen) E-Mails zu ihren Berichten der zweiten Ebene erhalten, in denen Fristen für Kurse, Lernpfade oder Zertifizierungen fehlen. Darüber hinaus erhalten sie E-Mails, wenn ihre Berichte der zweiten Ebene die Abschlussfristen für diese Kurse, Lernpfade oder Zertifizierungen erreichen.
 
-* Eskalation der Ebene für Kursabschluss überspringen - vor Ablauf der Frist
+* Stufe-überspringen-Eskalation für Kursabschluss – vor Ablauf der Frist
 * Eskalation der Stufe für versäumte Kursfrist überspringen
-* Eskalation der Stufe für Abschluss des Lernplans überspringen - vor Ablauf der Frist
-* Eskalation der Stufe für versäumten Lernpfad-Termin überspringen
-* Eskalation der Zertifizierungsstufe für Abschluss der Zertifizierung überspringen - vor Ablauf der Frist
-* Eskalation der Stufe für versäumte Zertifizierungstermin überspringen
+* Stufe-überspringen-Eskalation für Abschluss des Lernpfads – vor Ablauf der Frist
+* Stufe-überspringen-Eskalation für versäumte Lernpfadfrist
+* Stufe-überspringen-Eskalation für Abschluss der Zertifizierung – vor Ablauf der Frist
+* Stufe-überspringen-Eskalation für versäumte Zertifizierungsfrist
 
 Die Optionen sind standardmäßig aktiviert.
 
@@ -387,9 +387,9 @@ generateInstructorUtilisationReport-Antwort:
 } 
 ```
 
-Weitere Informationen finden Sie unter [API-Referenzdokument](https://captivateprime.adobe.com/docs/primeapi/v2/).
+Weitere Informationen finden Sie in der [Dokumentation zur API-Referenz](https://captivateprime.adobe.com/docs/primeapi/v2/).
 
-### Schalter für Teilnehmerinstanz
+### Teilnehmerinstanzwechsel
 
 Mit der Teilnehmer-API für die Registrierung können Sie auf alle verfügbaren Instanzen zugreifen und zu einer anderen Instanz eines Kurses wechseln. Die neue Instanz erbt alle Eigenschaften des vorherigen Kurses.
 
@@ -400,11 +400,11 @@ Wir haben einen neuen Abfrageparameter, &quot;enrollmentID&quot;, hinzugefügt, 
 >Der Textkörper ist nur in den folgenden Szenarien erforderlich:
 >
 >1. Flexibler Lernplan
->1. Kursinstanzschalter
+>1. Kursinstanzwechsel
 
 ### Konten
 
-Die Antwort enthält das neue Attribut currencyCode.
+Die Antwort enthält ein neues Attribut, „currencyCode“.
 
 **Endpunkt**: GET /primeapi/v2/account
 
@@ -430,9 +430,9 @@ Die folgenden Attribute werden hinzugefügt:
 | Lernobjekt zum Filtern von Städten | filter.cityName=city_name <br> Unterstützt auch eine durch Kommas getrennte Liste von Städten. | GET /primeapi/v2/learningObjects |
 | Städtebedienfeld hinzufügen | Die Antwort enthält ein neues Attribut, filterPanelSetting=true/false. | GET /primeapi/v2/account |
 
-### Teilnehmersitzungen, bei denen ein Konflikt vorliegt
+### Konfliktbehaftete Teilnehmersitzungen
 
-Abrufen einer Liste aller in Konflikt stehenden Sitzungen für eine Instanz.
+Rufen Sie eine Liste aller in Konflikt stehenden Sitzungen für eine Instanz ab.
 
 Wir haben diese Felder hinzugefügt:
 
@@ -441,7 +441,7 @@ Wir haben diese Felder hinzugefügt:
 
 **Endpunkt**: `GET /primeapi/v2/learningObjects/{loId}/instances/loInstanceId/conflictingSessions?page[offset]=0&page[limit]=10`
 
-### Classroom in VC
+### Klassenzimmer in VC
 
 Führen Sie eine standortbasierte Suche nach VC-Kursen durch. Im Ressourcenmodell ist ein neues Attribut roomLocation vorhanden, das den beim Erstellen eines VC-Kurses angegebenen Freiformspeicherort angibt.
 
@@ -449,27 +449,27 @@ Wir haben die folgenden Änderungen vorgenommen:
 
 **LO**
 
-Ein neuer Abfrageparameter, filter.loFormat=Virtuelles Klassenzimmer für die learningObjects-API.
+Ein neuer Abfrageparameter filter.loFormat=Virtuelles Klassenzimmer für die learningObjects-API.
 
 **Endpunkt**: GET /primeapi/v2/learningObjects
 
 **Kalender**
 
-Ein neuer Abfrageparameter, filter.allSessions=false für die Kalender-API. Der Standardwert des Parameters ist false. Wenn dieser Wert auf &quot;true&quot; gesetzt ist, gibt die API alle Kalendersitzungen eines Teilnehmers zurück.
+Ein neuer Abfrageparameter filter.allSessions=false für die Kalender-API. Der Standardwert des Parameters ist „false“. Wenn dieser Wert auf &quot;true&quot; gesetzt ist, gibt die API alle Kalendersitzungen von Teilnehmenden zurück.
 
 **Endpunkt**: `GET /primeapi/v2/users/<id>/calendar?filter.allSessions=false`
 
 ### Verlauf der Teilnehmersuche
 
-**Suchen**
+**Suche**
 
-Ein neuer Abfrageparameter, persistSearchHistory. Der Standardwert ist true, mit dem die Abfrage für die Suchvorschläge beibehalten wird.
+Ein neuer Abfrageparameter persistSearchHistory. Der Standardwert ist „true“, mit dem die Abfrage für die Suchvorschläge beibehalten wird.
 
 **Endpunkt**: GET /primeapi/v2/search?persistSearchHistory=true
 
 **Vorschläge**
 
-Ein neuer Abfrageparameter, suggestionType. Folgende Werte werden akzeptiert:
+Ein neuer Abfrageparameter suggestionType. Folgende Werte werden akzeptiert:
 
 * learnerHistory (Standard)
 * accountHistory
@@ -482,11 +482,11 @@ Lernobjekt- und Such-APIs bieten Filter, um alle Lernobjekte, die zur Benutzergr
 
 Wir haben einen neuen Filter bereitgestellt, filter.lo.announcementGroups, um alle LOs abzurufen, die zu den angegebenen Benutzergruppenfiltern gehören.
 
-Dies kann eine durch Kommas getrennte Liste mit mehreren Werten für Flexibilität sein, und die Verarbeitung würde auf dem Vorgang &quot;ODER&quot; zwischen den mehreren Gruppen basieren. d. h. alle LOs abrufen, die unter die angegebenen Benutzergruppen fallen.
+Dies kann der Flexibilität wegen eine durch Kommas getrennte Liste mit mehreren Werten sein, und die Verarbeitung würde auf dem &quot;OR&quot;-Vorgang zwischen mehreren Gruppen basieren. d. h. Abrufen aller LOs, die unter die angegebenen Benutzergruppen fallen.
 
 ### Benutzerdefinierte Gruppe
 
-Sie können externe Benutzer über die API zu benutzerdefinierten Gruppen hinzufügen und aus diesen entfernen.
+Sie können externe Benutzende über die API benutzerdefinierten Gruppen hinzufügen und aus diesen entfernen.
 
 **POST**
 
@@ -520,7 +520,7 @@ DELETE /userGroups/{id}/users
 
 ### Ankündigungsbenutzergruppenfilterung für Verluste in der Teilnehmer-App
 
-* Die GET /users/{userId}Die /userGroups-API verfügt über einen neuen Parameter, filter.announcementGroupsOnly, der einen booleschen Wert (true/false) annimmt. Dadurch werden nur Benutzergruppen gefiltert, die der Administrator ankündigt. Der Standardwert dieses Parameters ist false.
+* Die GET /users/{userId}Die /userGroups-API verfügt über einen neuen Parameter, filter.announcementGroupsOnly, der einen booleschen Wert (true/false) annimmt. Dadurch werden nur Benutzergruppen gefiltert, die der Administrator ankündigt. Der Standardwert des Parameters ist &quot;false&quot;.
 * Die GET/learningObjects-API verfügt über einen neuen Parameter, filter.announcementGroups, der Ankündigungsgruppen-IDs zum Filtern der Ergebnisse akzeptiert.
 * Die GET/search-API verfügt über einen neuen Parameter, filter.announcementGroups, der Ankündigungsgruppen-IDs zum Filtern der Ergebnisse akzeptiert.
 

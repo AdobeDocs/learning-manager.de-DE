@@ -1,34 +1,34 @@
 ---
-description: Microsoft Teams-Connector im Adobe Learning Manager installieren
+description: Installieren des Microsoft Teams-Connectors in Adobe Learning Manager
 jcr-language: en_us
-title: Microsoft Teams-Connector im Adobe Learning Manager installieren
+title: Installieren des Microsoft Teams-Connectors in Adobe Learning Manager
 contentowner: saghosh
 source-git-commit: ab6737e8b43222a6538921b0628a504a5f15859d
 workflow-type: tm+mt
 source-wordcount: '1258'
-ht-degree: 0%
+ht-degree: 24%
 
 ---
 
 
 
-# Microsoft Teams-Connector im Adobe Learning Manager installieren
+# Installieren des Microsoft Teams-Connectors in Adobe Learning Manager
 
 ## Übersicht
 
-Microsoft® Teams® ist eine beständige Chat-basierte Plattform für die Zusammenarbeit, die die Freigabe von Dokumenten, Online-Meetings und andere Funktionen für die Geschäftskommunikation vollständig unterstützt.
+Microsoft® Teams® ist eine kontinuierliche, chatbasierte Plattform für die Zusammenarbeit, die die gemeinsame Nutzung von Dokumenten, Online-Besprechungen und andere Funktionen für die Unternehmenskommunikation vollständig unterstützt.
 
 Adobe Learning Manager verwendet einen Connector für virtuelle Klassenzimmer, mit dem Microsoft Teams-Meetings mit Learning Manager integriert werden können.
 
-Der Microsoft Teams-Connector verbindet Learning Manager- und Microsoft Teams-Systeme, um die automatische Synchronisierung virtueller Meetings zu ermöglichen. In der folgenden Liste werden die Funktionen des Microsoft Teams-Connectors beschrieben:
+Der Microsoft Teams-Connector verbindet Learning Manager und Microsoft Teams-Systeme, um eine automatische Synchronisierung virtueller Besprechungen zu ermöglichen. Die folgende Liste beschreibt die Funktionen des Microsoft Teams-Connectors:
 
 **Einrichten virtueller Sitzungen mit Microsoft Teams**
 
-Dieser Connector unterstützt Sie bei der Integration Ihres Adobe Learning Manager-Kontos in Ihr Microsoft Teams-Konto. Nach der Integration ermöglicht der Connector es einem Autor in Learning Manager, Microsoft Teams als Technologiedienstleister für die in Learning Manager erstellten virtuellen Klassenzimmermodule zu verwenden.
+Mit diesem Connector können Sie Ihr Adobe Learning Manager-Konto in Ihr Microsoft Teams-Konto integrieren. Nach der Integration ermöglicht der Connector einem Autoren in Learning Manager, Microsoft Teams als Technologiedienstleister für die in Learning Manager erstellten Module vom Typ „Virtuelles Klassenzimmer“ zu verwenden.
 
 **Microsoft Teams die Authentifizierung von Teilnehmern beim Betreten eines virtuellen Klassenzimmers erlauben**
 
-Dieser Connector unterstützt Sie beim Einrichten des Microsoft Teams-Meetingveranstalters über den Lernmanager beim Erstellen eines Meetings. Der Meetingveranstalter kann die Lobby verwalten, um den Zugang zu einem Meeting einzuschränken oder zuzulassen, sowie andere Meetingoptionen von Microsoft Teams steuern.
+Dieser Connector unterstützt Sie beim Einrichten des Microsoft Teams-Meetingveranstalters über den Lernmanager beim Erstellen eines Meetings. Der Besprechungsorganisator kann die Lobby verwalten, um den Zutritt zu einer Besprechung einzuschränken oder zuzulassen, sowie andere von Microsoft Teams bereitgestellte Besprechungsoptionen steuern.
 
 **Verwendung der automatisierten Benutzerabschlusssynchronisation**
 
@@ -81,7 +81,7 @@ Sie können auf den Microsoft Teams-Connector zugreifen, wenn Sie Office 365 E3 
 1. Klicken **[!UICONTROL Neuer Client-Schlüssel]** und fügen Sie die folgenden Details hinzu:
 
    1. **Beschreibung** - Geben Sie einen beliebigen Namen ein.
-   1. **Läuft ab** - Beliebiger Wert (empfohlener Wert: 24 Monate). Stellen Sie sicher, dass neue Clientanmeldeinformationen generiert werden, sobald die vorherige abläuft.)
+   1. **Läuft ab** - Beliebiger Wert (empfohlener Wert: 24 Monate). Stellen Sie sicher, dass neue Client-Anmeldeinformationen generiert werden, sobald die vorherige abläuft).
 
 Beachten Sie den Client-Schlüssel, der während der Integration weiter verwendet wird.
 
@@ -91,7 +91,7 @@ Beachten Sie den Client-Schlüssel, der während der Integration weiter verwende
 1. Melden Sie sich mit der Microsoft E5 an, die Sie zuvor erstellt haben.
 1. Suchen nach **Azure Active Directory**.
 1. Klicken **[!UICONTROL App-Registrierungen]**.
-1. Klicken Sie auf die Applikation, die Sie im vorherigen Abschnitt erstellt haben.
+1. Klicken Sie auf die App, die Sie im vorherigen Abschnitt erstellt haben.
 1. Klicken **[!UICONTROL API-Berechtigungen]**.
 1. Klicken **[!UICONTROL Berechtigung hinzufügen]**.
 1. Auswählen **[!UICONTROL Microsoft Graph]** > **[!UICONTROL Anwendungsrechte]** und die folgenden Berechtigungen hinzufügen:
@@ -123,7 +123,7 @@ Beachten Sie den Client-Schlüssel, der während der Integration weiter verwende
 
 Um die Anwendungszugriffsrichtlinie für den Microsoft Teams-Connector zu konfigurieren, indem Sie PowerShell-Skripte ausführen, führen Sie die folgenden Schritte aus:  [Dokument](https://docs.microsoft.com/en-us/graph/cloud-communication-online-meeting-application-access-policy).
 
-Dadurch kann der Connector auf Microsoft Teams-Online-Meetings zugreifen.
+Dadurch kann der Connector auf Microsoft Teams-Onlinemeetings zugreifen.
 
 >[!NOTE]
 >
@@ -155,17 +155,17 @@ Dadurch kann der Connector auf Microsoft Teams-Online-Meetings zugreifen.
 1. Klicken **[!UICONTROL Produktlizenzen verwalten]**.
 1. Lizenz für Office 365 E5 ohne Audiokonferenzen aktivieren.
 
-## Eine Session aufzeichnen
+## Eine Sitzung aufzeichnen
 
-Die zum Aufzeichnen einer Sitzung verwendete API ist eine geschützte API. Um auf die API zugreifen zu können, müssen Sie den Zugriff von Microsoft anfordern. Weitere Informationen finden Sie in diesem  [Dokument](https://docs.microsoft.com/en-us/graph/teams-protected-apis).
+Die für die Aufzeichnung einer Sitzung verwendete API ist eine geschützte API. Um auf die API zuzugreifen, müssen Sie den Zugang bei Microsoft beantragen. Weitere Informationen finden Sie in diesem  [Dokument](https://docs.microsoft.com/en-us/graph/teams-protected-apis).
 
-Im Dokument
+In dem Dokument,
 
-*&quot;Um den Zugriff auf diese geschützten APIs anzufordern, führen Sie die folgenden Schritte aus:  [Antragsformular](https://aka.ms/teamsgraph/requestaccess). Wir überprüfen Zugriffsanfragen jeden Mittwoch und stellen Genehmigungen jeden Freitag bereit, außer während großer Feiertagswochen in den USA. Einreichungen in diesen Wochen werden in der folgenden Woche ohne Feiertage bearbeitet. Um zu überprüfen, ob Ihre Anforderung genehmigt wurde, testen Sie Ihren Anwendungszugriff am nächsten entsprechenden Montag.&quot;*
+*&quot;Um den Zugriff auf diese geschützten APIs anzufordern, führen Sie die folgenden Schritte aus:  [Antragsformular](https://aka.ms/teamsgraph/requestaccess). Wir prüfen Zugriffsanfragen jeden Mittwoch und erteilen Genehmigungen jeden Freitag, außer während der wichtigsten Feiertage in den USA. Einreichungen in diesen Wochen werden in der folgenden Woche bearbeitet, in der kein Feiertag ist. Um zu überprüfen, ob Ihre Anforderung genehmigt wurde, testen Sie Ihren Anwendungszugriff am nächsten entsprechenden Montag.&quot;*
 
-Für Teilnehmer wird die Aufzeichnungs-URL auf der VC-Kursübersichtsseite angezeigt.
+Für Teilnehmer wird die URL der Aufzeichnung auf der VC-Kursübersichtsseite angezeigt.
 
-Nach 30 Minuten nach Abschluss eines Kurses wird die Anwesenheit für den Teilnehmer markiert.
+Nach 30 Minuten nach Abschluss eines Kurses wird die Anwesenheit für den Lernenden markiert.
 
 ## Häufig gestellte Fragen
 
@@ -177,7 +177,7 @@ In den  [Dokumentation](https://support.microsoft.com/en-us/office/roles-in-a-te
 
 +++Sollte ein Organisator ein registrierter Benutzer sowohl im Lernmanager als auch in den Microsoft Teams sein?
 
-Ja, der Organisator sollte auch Teil des Lernmanagers und der Microsoft Teams sein. Darüber hinaus muss der Organisator Teil desselben Microsoft-Mandanten sein, der in der Integrationsadministrator-App konfiguriert ist.
+Ja, der Organisator sollte auch Teil von Learning Manager und Microsoft Teams sein. Darüber hinaus muss der Organisator Teil desselben Microsoft-Mandanten sein, der in der Integrationsadministrator-App konfiguriert ist.
 
 +++
 
@@ -187,7 +187,7 @@ Ja, der Moderator sollte auch Teil des Lernmanagers und des Microsoft Teams sein
 
 +++
 
-+++Microsoft Teams bietet Meetings, Webinare und Live-Veranstaltungen. Welche Formate unterstützt der Teams-Connector?
++++Microsoft Teams bietet Meetings, Webinare und Live-Veranstaltungen. Welches unterstützt der Teams-Connector?
 
 Derzeit unterstützt der Teams-Connector nur Meetings in Microsoft Teams. Weitere Informationen finden Sie in diesem  [Dokument](https://docs.microsoft.com/en-us/microsoftteams/quick-start-meetings-live-events).
 

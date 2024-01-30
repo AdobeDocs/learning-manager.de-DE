@@ -6,7 +6,7 @@ contentowner: saghosh
 source-git-commit: 83fdd06aed823a50458d50c8ac240d56af873a6d
 workflow-type: tm+mt
 source-wordcount: '1005'
-ht-degree: 0%
+ht-degree: 19%
 
 ---
 
@@ -36,7 +36,7 @@ In der folgenden Tabelle sind die Rate und die Burst-Limits für die APIs aufgef
         <th>Anzahl der Anforderungen - Burst</th>
     </tr>
     <tr>
-        <td>Administrator</td>
+        <td>Administration</td>
         <td>5</td>
         <td>5</td>
     </tr>
@@ -124,23 +124,23 @@ In der nächsten Version des Adobe-Lernmanagers werden name und -name im Sortier
 
 ## API-Veraltungen in der Version November 2023 von Adobe Learning Manager
 
-### Kennzeichen überschreiben
+### Überschreiben-Flag
 
-In der Adobe Learning Manager-Version vom November 2023 haben wir das Überschreiben-Flag in den APIs eingestellt. Das override-Flag ist nicht Teil der öffentlichen API-Spezifikation und ist für Backend-Tests vorgesehen. Das Flag wird jetzt für Teilnehmer-APIs eingestellt. Das Flag ist jedoch weiterhin für Admin-APIs gültig.
+In der Adobe Learning Manager-Version vom November 2023 haben wir das Überschreiben-Flag in den APIs eingestellt. Das Überschreiben-Flag ist kein Teil der öffentlichen API-Spezifikation und für Backend-Tests vorgesehen. Das Flag wird jetzt für Teilnehmer-APIs eingestellt. Das Flag ist jedoch weiterhin für Admin-APIs gültig.
 
 Der Grund, warum wir das Flag für Teilnehmer-APIs verwerfen, ist, dass das Überschreibungsflag eine große Datenmenge über die Teilnehmer-APIs abgerufen hat.
 
-In Zukunft wird die folgende Teilnehmer-API nicht mehr funktionieren, da sie das Überschreibungs-Flag aufweist.
+In Zukunft wird die folgende Teilnehmer-API nicht mehr funktionieren, da sie das Überschreiben-Flag aufweist.
 
 <code>https://captivateprime.adobe.com/primeapi/v2/users?page[Offset]=0&amp;page[begrenzen]=10&amp;sort=id&amp;override=TRUE</code>
 
 ### API-Änderungen für kompetenzbasierte neue Empfehlungen
 
-Adobe Learning Manager verbessert die Empfehlungen für Kunden- und Partnerkonten. Diese Verbesserung des Empfehlungsalgorithmus durch die Änderung des Einstufungsalgorithmus für den Kurs, den Lernpfad und die Zertifizierung verbessert die Benutzererfahrung bei der Suche nach Inhalten.
+Adobe Learning Manager verbessert die Empfehlungen für Kunden- und Partnerkonten. Diese Verbesserung des Empfehlungsalgorithmus durch die Änderung des Ranglistenalgorithmus für Kurs, Lernpfad und Zertifizierung verbessert die Benutzererfahrung bei der Suche nach Inhalten.
 
-Der Algorithmus lässt keine Peer-basierten Empfehlungen mehr zu. Die Änderung wirkt sich nicht auf die vorhandenen Benutzer aus, aber die Option &quot;Branchenspezifisch&quot; ist weiterhin vorhanden. Bei der Option &quot;Benutzerdefiniert&quot; lässt der Adobe-Lern-Manager eine benutzerdefinierte Peer-basierte Auswahl nicht mehr zu.
+Der Algorithmus lässt keine Empfehlungen auf Peer-Basis mehr zu. Die Änderung wirkt sich nicht auf die bestehenden Benutzer(innen) aus, aber die Option “Branchenspezifisch“ ist weiterhin vorhanden. Bei der Option “Benutzerdefiniert“ lässt Adobe-Lern-Manager keine benutzerdefinierte Peer-basierte Auswahl mehr zu.
 
-Die Peer-Gruppe wird jetzt zu einem Konto, und die Teilnehmer sehen eine Zeichenfolge, die die aktuellen Themen in der Gruppe anzeigt. Alle Empfehlungen sind erklärbar. Wenn Sie beispielsweise etwas zu einem Thema anzeigen, wird auf der Karte auf dem Streifen der Grund für den Kurs angezeigt.
+Die Peer-Gruppe wird jetzt zu einem Konto, und die Teilnehmenden sehen eine Zeichenfolge, die die aktuellen Themen in der Gruppe anzeigt. Alle Empfehlungen sind erklärbar. Wenn Sie beispielsweise etwas zu einem Thema anzeigen, wird auf der Karte auf dem Streifen der Grund für den Kurs angezeigt.
 
 ### Änderungen am Bericht für Benachrichtigungen
 

@@ -1,11 +1,11 @@
 ---
 title: Neue Funktionen in dieser Version (November 2022)
-description: Erfahren Sie mehr über die neuen Funktionen und Verbesserungen im Adobe-Lernmanager
+description: Informationen über die neuen Funktionen und Verbesserungen in Adobe Learning Manager
 hidefromtoc: true
 source-git-commit: 1da0911a4d0c2ae5cb01bbb2b7955675b0dfcdde
 workflow-type: tm+mt
 source-wordcount: '1994'
-ht-degree: 0%
+ht-degree: 77%
 
 ---
 
@@ -17,67 +17,67 @@ IN-PROGRESS
 <https://helpx.adobe.com/learning-manager/whats-new-nov-2022.html>
 -->
 
-## Konfiguration mehrerer SSO
+## Konfiguration mehrerer SSO-Methoden
 
-Adobe Learning Manager unterstützt derzeit eine Anmeldemethode für interne und eine Anmeldemethode für externe Benutzer. Dies führt zu Einschränkungen in Fällen, in denen Kunden ihre Mitarbeiter und ihre eigenen Kunden und Vertriebspartner im gleichen Konto haben.
+Adobe Learning Manager unterstützt derzeit eine Anmeldemethode für interne und eine Anmeldemethode für externe Benutzer. Dies führt zu Einschränkungen in Fällen, in denen Kunden ihre Mitarbeiter und ihre eigenen Kunden und Vertriebspartner in demselben Konto verwalten.
 
-Mit der Absicht, mehrere Arten von Benutzergruppen zu unterstützen, die sich bei der Plattform anmelden, unterstützt Adobe Learning Manager jetzt mehrere Anmeldemethoden über mehrere SSO-Konfigurationen sowohl für interne als auch für externe Benutzer.
+Mit der Ziel, mehrere Typen von Benutzergruppen zu unterstützen, die sich bei der Plattform anmelden, unterstützt Adobe Learning Manager jetzt sowohl für interne als auch für externe Benutzer mehrere Anmeldemethoden über mehrere SSO-Konfigurationen.
 
 Weitere Informationen finden Sie unter [Mehrere SSO-Anmeldungen](/help/migrated/administrators/feature-summary/multiple-sso-logins.md).
 
-## Unterstützung für nicht angemeldete Funktionen
+## Unterstützung für die Funktion ohne Anmeldung
 
-Das native Portal des Adobe Learning Managers unterstützt jetzt nicht angemeldete Zugriffe auf ein Schulungsportal.
+Das native Portal von Adobe Learning Manager unterstützt jetzt Zugriffe ohne Anmeldung auf ein Schulungsportal.
 
-Die Teilnehmer können sich jetzt auf der Schulungsseite informieren und darauf zugreifen, verschiedene verfügbare Kurse und Inhalte auschecken und sich anmelden, um die Kurse zu nutzen.
+Die Teilnehmer können sich jetzt auf der Schulungsseite informieren und darauf zugreifen, verschiedene verfügbare Kurse und Inhalte ansehen und sich dann anmelden, um die Kurse zu nutzen.
 
 Diese Funktion erleichtert die Erstellung eines kundenseitigen Lernportals, in dem Teilnehmer verschiedene Kurse durchsuchen können, ohne sich zunächst anmelden zu müssen.
 
-Weitere Informationen finden Sie unter [Nicht angemeldete Benutzer für Teilnehmer](/help/migrated/administrators/feature-summary/non-logged-in-experience-learners.md).
+Weitere Informationen finden Sie unter [Oberfläche für nicht angemeldete Teilnehmer](/help/migrated/administrators/feature-summary/non-logged-in-experience-learners.md).
 
 ## Verbesserungen der Schulungsübersichtsseite
 
-Auf der Seite Schulungsübersicht wird jetzt eine aktualisierte Benutzeroberfläche angezeigt, sodass die Teilnehmer während der Bearbeitung eines Kurses über ein verbessertes Benutzererlebnis verfügen.
+Die Benutzeroberfläche der Seite „Schulungsübersicht“ wurde aktualisiert, damit die Teilnehmer während der Bearbeitung eines Kurses von einem verbesserten Benutzererlebnis profitieren.
 
 Weitere Verbesserungen:
 
-* Versehen Sie eine Schulung mit einem Lesezeichen.
-* Empfehlung verwandter Kurse.
+* Lesezeichen für Schulungen
+* Empfehlung verwandter Kurse
 * Lernpfadinformationen für Kurse und Lernpfade.
-* Klickbare Autorennamen.
-* Breadcrumbs für einfachere Navigation.
+* Klickbare Autorennamen
+* Breadcrumbs für einfachere Navigation
 
 ## Verbesserungen der Schulungsübersichtsseite
 
-Auf der Seite Schulungsübersicht wird jetzt eine aktualisierte Benutzeroberfläche angezeigt, sodass die Teilnehmer während der Bearbeitung eines Kurses über ein verbessertes Benutzererlebnis verfügen.
+Die Benutzeroberfläche der Seite „Schulungsübersicht“ wurde aktualisiert, damit die Teilnehmer während der Bearbeitung eines Kurses von einem verbesserten Benutzererlebnis profitieren.
 
 Weitere Verbesserungen:
 
-* Versehen Sie eine Schulung mit einem Lesezeichen.
-* Empfehlung verwandter Kurse.
+* Lesezeichen für Schulungen
+* Empfehlung verwandter Kurse
 * Lernpfadinformationen für Kurse und Lernpfade.
-* Klickbare Autorennamen.
-* Breadcrumbs für einfachere Navigation.
+* Klickbare Autorennamen
+* Breadcrumbs für einfachere Navigation
 
 ## Autorenprofilseite
 
-Auf der Seite mit dem Autorenprofil werden alle Schulungen angezeigt, die von einem bestimmten Autor erstellt werden.
+Auf der Seite mit dem Autorenprofil werden alle Schulungen angezeigt, die von einem bestimmten Autor erstellt wurden.
 
-Teilnehmer können autorenspezifische Informationen und alle vom Autor erstellten Schulungen leicht finden.
+So können Teilnehmer autorenspezifische Informationen und alle vom Autor erstellten Schulungen leicht finden.
 
 ## Mit Lesezeichen versehene Schulungen
 
-Teilnehmer können Schulungen speichern (über die Schaltfläche &quot;Speichern&quot;) oder ein Lesezeichen dafür über die Kurskachel oder die Übersichtsseite einfügen. Alle mit einem Lesezeichen versehenen Kurse sind auf der Teilnehmer-Startseite verfügbar.
+Teilnehmer können Schulungen über die Kurskachel oder die Übersichtsseite speichern (mithilfe der Schaltfläche „Speichern“) oder mit Lesezeichen versehen. Alle mit einem Lesezeichen versehenen Kurse stehen auf der Teilnehmerstartseite zur Verfügung.
 
 ## Player-Anpassung
 
-In dieser Version können Sie den Fluidic Player an die Branding-Anforderungen eines Kurses anpassen.
+In dieser Version können Sie den Fluidic Player an die Markenanforderungen eines Kurses anpassen.
 
-Sie können verschiedene Player-Einstellungen und -Optionen je nach Inhaltsanforderung ein- und ausblenden und Teilnehmern basierend auf dem Inhaltstyp die Kontrolle gewähren. Sie können diese Änderung sowohl auf native als auch auf Headless-Implementierungen anwenden.
+Sie können je nach Inhaltsanforderung verschiedene Player-Einstellungen und -Optionen ein- und ausblenden und Teilnehmern basierend auf dem Inhaltstyp Steuerungsmöglichkeiten erteilen. Sie können diese Änderung sowohl auf native als auch auf Headless-Implementierungen anwenden.
 
 Folgende Optionen können geändert werden:
 
-* Umschalten des Inhaltsverzeichnisses
+* Ein-/Ausschalten des Inhaltsverzeichnisses
 * Hinweise
 * Sprache
 * Geschwindigkeit
@@ -85,107 +85,107 @@ Folgende Optionen können geändert werden:
 * Lautstärke
 * Steuerelemente für die Wiedergabe
 
-## Identitätswechsel des Teilnehmers und Managers
+## Annehmen der Identität eines Teilnehmers und Managers
 
-Administratoren können eine Sitzung starten, für die sie die Identität eines beliebigen Benutzers in ihrem Konto in der Teilnehmer- und Managerrolle übernehmen können.
+Administratoren können eine Sitzung starten, in der sie die Identität eines beliebigen Benutzers in ihrem Konto in der Teilnehmer- und Manager-Rolle übernehmen können.
 
-Weitere Informationen finden Sie unter [Identitätswechsel des Teilnehmers und Managers](/help/migrated/administrators/feature-summary/impersonation-learner-manager.md).
+Weitere Informationen finden Sie unter [Annehmen der Identität eines Teilnehmers und Managers](/help/migrated/administrators/feature-summary/impersonation-learner-manager.md).
 
-## Weitere Verbesserungen
+## Sonstige Verbesserungen
 
 ### Überwachungsprotokoll von E-Mails
 
-Administratoren können jetzt über einen Bericht zum E-Mail-Prüfprotokoll auf alle vom System gesendeten E-Mail-Protokolle zugreifen.
+Administratoren können jetzt über einen Bericht zur E-Mail-Überwachung auf alle vom System gesendeten E-Mail-Protokolle zugreifen.
 
-Dieses Protokoll erfasst alle Daten in Bezug auf E-Mails, die in den letzten 30 Tagen gesendet wurden, und wird täglich aktualisiert. Darüber hinaus enthält der Bericht Informationen wie den Status der zugestellten Datei, den Absender, den Empfänger, den Betreff und Inhaltsmetadaten.
+Dieses Protokoll erfasst alle Daten zu E-Mails, die in den letzten 30 Tagen gesendet wurden, und wird täglich aktualisiert. Darüber hinaus enthält der Bericht Informationen wie den Zustellungsstatus, den Absender, den Empfänger, den Betreff sowie Inhaltsmetadaten.
 
 Laden Sie den Bericht unter Berichte > Benutzerdefinierte Berichte > Excel-Berichte > E-Mail-Bericht herunter. Eine Benachrichtigung wird angezeigt, über die Sie den Bericht herunterladen können.
 
-Dieser Bericht enthält die folgenden Felder:
+Dieser Bericht enthält Felder mit den folgenden Informationen:
 
-* Trigger-Zeit für E-Mails (UTC TimeZone)
+* E-Mail-Auslösezeit (UTC-Zeitzone)
 * Zeit des letzten Ereignisstatus (UTC-Zeitzone)
-* Lieferstatus
+* Zustellungsstatus
 * Empfänger-E-Mail
 * Benutzer-ID des Absenders
-* Email Subject
+* E-Mail-Betreff
 * Entitätstyp
-* Name der Entität
+* Entitätsname
 * Entitäts-ID
 
-### Benachrichtigung der Teilnehmer auf Warteliste
+### Benachrichtigung von Teilnehmern auf Wartelisten
 
-Wenn ein Autor eine neue Instanz hinzufügt, kann der Autor eine E-Mail auslösen, um Teilnehmer auf der Warteliste über andere Instanzen zu benachrichtigen. Die Teilnehmer erhalten eine E-Mail der Änderung.
+Wenn ein Autor eine neue Instanz hinzufügt, kann er eine E-Mail auslösen, um Teilnehmer auf der Warteliste über weitere Instanzen zu informieren. Die Teilnehmer erhalten eine E-Mail zur Änderung.
 
 ### E-Mail-Vorlagen auf Instanzebene
 
 Sie können E-Mails für jede Instanz einer Schulung anpassen.
 
-Überall dort, wo der Autor oder Administrator eine neue Instanz hinzufügen kann, kann die Vorlage für eine einzelne Instanz bearbeitet werden.
+Wo immer der Autor oder Administrator eine neue Instanz hinzufügen kann, kann die Vorlage für eine einzelne Instanz bearbeitet werden.
 
-Wenn ein Kurs beispielsweise unterschiedliche Zielgruppentypen hat, können Sie die E-Mail-Vorlage entsprechend ändern.
+Wenn ein Kurs beispielsweise über unterschiedliche Arten von Zielgruppen verfügt, können Sie die E-Mail-Vorlage entsprechend ändern.
 
 ![E-Mail-Vorlagen](assets/email-template.png)
 
 Die Priorität der Vorlage ist unten aufgeführt:
 
 1. Vorlage auf Instanzebene
-2. Vorlage für Schulungsstufen
+2. Vorlage auf Schulungsebene
 3. Vorlage auf Kontoebene
 
 ### Kursleiterkommentare beim Annehmen von Einreichungen
 
-Kursleiter können jetzt Kommentare hinzufügen, während sie die von den Teilnehmern eingereichten Beiträge akzeptieren. Der Teilnehmer erhält eine E-Mail-Benachrichtigung und eine In-App-Benachrichtigung (sofern aktiviert), sobald die Einreichung vom Kursleiter genehmigt wurde. Die übermittlungsbezogenen Kommentare sind in den Teilnehmertranskripten sowohl für den Administrator als auch für die Teilnehmer vorhanden.
+Kursleiter können jetzt Kommentare hinzufügen, wenn sie die von den Teilnehmern eingereichten Beiträge akzeptieren. Der Teilnehmer erhält eine E-Mail-Benachrichtigung und eine In-App-Benachrichtigung (sofern aktiviert), sobald die Einreichung vom Kursleiter genehmigt wurde. Die übermittlungsbezogenen Kommentare sind in den Teilnehmertranskripten sowohl für den Administrator als auch für die Teilnehmer vorhanden.
 
 ### Verbesserte Suchfunktionen
 
-Der aktuelle Suchverlauf eines Teilnehmers wird angezeigt, damit er alle früheren Suchvorgänge anzeigen kann.
+Der aktuelle Suchverlauf eines Teilnehmers wird angezeigt, sodass er alle früheren Suchvorgänge sehen kann.
 
-Die Suchergebnisse sind jetzt konsistent über das gesamte formelle und informelle Lernen (soziales Lernen) hinweg. Die Ergebnisse umfassen Schulungen, soziales Lernen und Matches auf dem Marktplatz für Inhalte.
+Die Suchergebnisse sind jetzt für alle formellen und informellen Schulungen (soziales Lernen) konsistent. Die Ergebnisse umfassen Schulungen, soziales Lernen und Übereinstimmungen auf dem Inhalts-Marketplace.
 
-Die Suche ist fokussierter und zielgerichteter, wo Sie die Suchergebnisse an drei Stellen anzeigen können: formales Lernen, soziales Lernen und Inhalts-Marketplace.
+Die Suche ist fokussierter und zielgerichteter, und Sie können die Suchergebnisse an drei Stellen einsehen: beim formellen Lernen, beim sozialen Lernen und auf dem Inhalts-Marketplace.
 
 ![Recherche](assets/search-image.png)
 
 #### Ausdrucksgesteuerte Suche
 
-In dieser Version von Adobe Learning Manager haben wir die Typeahead-Suche durch die Phrasenbasierte Suche ersetzt.
+In dieser Version von Adobe Learning Manager haben wir die Typeahead-Suche durch die ausdrucksgesteuerte Suche ersetzt.
 
-#### Zuletzt verwendete Suchvorgänge
+#### Letzte Suchvorgänge
 
 Ein Teilnehmer kann seine zuletzt durchgeführten Suchvorgänge nur in der aktuellen Sitzung anzeigen.
 
-### Katalog für kostenlose Kurse für Content Marketplace
+### Katalog für kostenlose Kurse auf dem Inhalts-Marketplace
 
-Auf dem Inhalts-Marketplace für Teilnehmer steht jetzt ein Satz von kuratierten, hochwertigen, kostenlosen Katalogen mit 50 kostenlosen Kursen sofort zur Verfügung.
+Auf dem Inhalts-Marketplace für Teilnehmer steht jetzt eine Reihe von 50 kuratierten, hochwertigen, kostenlosen Katalogen zu Gratiskursen zur Verfügung.
 
-### Unterstützung für die indonesische Sprache
+### Unterstützung für Indonesisch
 
-Bahasa Indonesia wurde jetzt als Benutzeroberflächensprache in den Teilnehmer- und Manager-Apps hinzugefügt.
+Indonesisch wurde jetzt als Benutzeroberflächensprache in den Teilnehmer- und Manager-Apps hinzugefügt.
 
-### Pflichtfeld &quot;Autor&quot;
+### Pflichtfeld „Autor“
 
-Beim Erstellen eines Kurses ist das Feld &quot;Autor&quot; obligatorisch.
+Beim Erstellen eines Kurses ist das Feld „Autor“ obligatorisch.
 
-### Änderungen am Content Marketplace
+### Änderungen am Inhalts-Marketplace
 
 * Neu erstellte Testkonten listen einen neuen Katalog für 50 kostenlose Kurse im Inhalts-Marketplace auf, die für Benutzer verfügbar sind.
 * Ein Teilnehmer kann jetzt die Anzahl der Suchergebnisse sehen und eingebettete Links verknüpfen, um zum Inhalts-Marketplace weitergeleitet zu werden.
 
-### Immersive Änderungen für Mobilgeräte
+### Änderungen für immersive Web-Umgebung auf Mobilgeräten
 
-In dieser Version können immersive mobile Webbenutzer die unten aufgeführten Aufgaben ausführen:
+In dieser Version können Benutzer der immersiven Web-Umgebung auf Mobilgeräten die unten aufgeführten Aufgaben ausführen:
 
-* Erstellen - Abstimmungsposten
-* Beitrag bearbeiten - alle Typen, RTE
+* Erstellen – Umfragebeiträge.
+* Beitrag bearbeiten – alle Typen, RTE.
 * E-Commerce-Workflow.
 * Vorschau eines Moduls: Teilnehmer verfügen über die Modulvorschau-Funktion in der immersiven Mobilanwendung. Diese Änderung ermöglicht es Teilnehmern, vor der Registrierung für einen Kurs eine Vorschau des Moduls anzuzeigen.
-* Kopieren Sie eine URL.
-* Löschen Sie ein Board.
+* Kopieren einer URL.
+* Löschen eines Boards.
 
-### Änderungen am Zoom-Connector
+### Änderungen am Zoom-Connector.
 
-Der JWT-App-Typ wird im Juni 2023 veraltet sein. Es wird empfohlen, dass Sie Server-zu-Server-OAuth- oder OAuth-Apps erstellen, um die Funktionalität einer JWT-App in Ihrem Konto zu ersetzen.
+Der JWT-App-Typ wird im Juni 2023 veraltet sein. Es empfiehlt sich, Server-zu-Server-OAuth oder OAuth-Apps zu erstellen, um die Funktionalität einer JWT-App in Ihrem Konto zu ersetzen.
 
 ### Bericht für Gamification
 
@@ -195,46 +195,46 @@ In dieser Version erhalten Sie Zugriff auf einen Bericht, der verschiedene Kurse
 
 Beim Importieren einer CSV-Datei enthält die CSV-Datei die Felder &quot;Interface Language&quot;, &quot;Content Language&quot; und &quot;Time Zone&quot;.
 
-Der Administrator kann auch den Bericht exportieren, der die gleichen Felder wie oben enthält.
+Der Administrator kann auch einen Bericht exportieren, der die gleichen Felder wie oben enthält.
 
-* Benutzeroberflächensprache
+* Sprache der Benutzeroberfläche
 * Inhaltssprache
 * Zeitzone
 
-Neben Administratoren kann ein benutzerdefinierter Administrator diesen Bericht auch exportieren.
+Außer Administratoren kann auch ein benutzerdefinierter Administrator diesen Bericht exportieren.
 
 ![Sprachenbericht](assets/language-report.png)
 
 #### Auswirkungen auf die Lokalisierung
 
-* Die Spaltennamen können nicht lokalisiert werden und müssen unverändert sein (Schnittstellensprache, Inhaltssprache, Zeitzone).
+* Die Spaltennamen können nicht lokalisiert werden und müssen unverändert bleiben („Interface Language“, „Content Language“, „Timezone“).
 * Bei den Gebietsschemacodes wird nicht zwischen Groß- und Kleinschreibung unterschieden.
 * Obwohl es keine Einschränkung für die Angabe des Ländercodes gibt, können Sie nur den Sprachcode angeben. Zum Beispiel sind sowohl &quot;it_IT&quot; als auch &quot;it&quot; gültig.
-* Wenn der Bericht aufgrund eines falschen Gebietsschemacodes Diskrepanzen enthält, wird die CSV-Verarbeitung wie gewohnt fortgesetzt und wirkt sich nicht auf die anderen Datensätze in der CSV-Datei aus. Die Gebietsschemaeinstellung des Benutzers mit einem falschen Gebietsschema wird nicht aktualisiert. Der Rest der Daten wird aktualisiert.
+* Wenn der Bericht aufgrund eines falschen Gebietsschemacodes Diskrepanzen enthält, wird die CSV-Verarbeitung wie gewohnt fortgesetzt und der Fehler wirkt sich nicht auf die anderen Datensätze in der CSV-Datei aus. Die Gebietsschemavoreinstellung des Benutzers mit einem falschen Gebietsschema wird nicht aktualisiert. Der Rest der Daten wird aktualisiert.
 
-## API-Änderungen und Verbesserungen
+## Änderungen und Verbesserungen der API
 
-### VC-Anschlüsse
+### VC-Connectors
 
-Wenn eine Administrator-E-Mail-ID zum Konfigurieren des VC-Connectors verwendet wird, muss dieser bestimmte Administrator über die Berechtigung für Folgendes verfügen:
+Wenn eine Administrator-E-Mail-ID zum Konfigurieren des VC-Connectors verwendet wird, muss der entsprechende Administrator über die Berechtigung für folgende Aufgaben verfügen:
 
 * Erstellen eines Meetings
 * Aktualisieren eines Meetings
-* Anwesenheitsbericht wird abgerufen
+* Abrufen eines Anwesenheitsberichts
 
 Beim Erstellen oder Aktualisieren des VC-Meetings müssen die Kursleiter das Meeting innerhalb von 30 Minuten nach der geplanten Endzeit des Meetings BEENDEN.
 
 ### Lesezeichen
 
-Die folgenden APIs werden hinzugefügt, um einen Kurs auf der Seite Schulungsübersicht mit einem Lesezeichen zu versehen:
+Die folgenden APIs wurden hinzugefügt, um einen Kurs auf der Seite „Schulungsübersicht“ mit einem Lesezeichen zu versehen:
 
 * Alle Lesezeichen abrufen: `primeapi/v2/bookmarks`
 * Erstellen eines Lesezeichens: `primeapi/v2/learningObjects/{id}/bookmark`
 * Lesezeichen löschen: `primeapi/v2/learningObjects/{id}/bookmark`
 
-### Unterstützung von Metadaten und Inhalten mit mehreren Gebietsschemas durch Migration
+### Unterstützung für Metadaten und Inhalte aus mehreren Gebietsschemata durch Migration
 
-Für alle Arten von Schulungen, die auf der Plattform unterstützt werden (Kurse, Lernpfade, Module, Zertifizierungen und Arbeitshilfen), kann die Migration mehrerer Sprachen jetzt über CSV-Dateien unterstützt werden, wobei zusätzliche Spalten für zusätzliche Sprachen verwendet werden.
+Für alle Arten von Schulungen, die auf der Plattform unterstützt werden (Kurse, Lernpläne, Module, Zertifizierungen und Arbeitshilfen), kann die Migration in mehreren Sprachen jetzt über CSV-Dateien unterstützt werden, wobei für weitere Sprachen zusätzliche Spalten verwendet werden.
 
 #### Voraussetzungen
 
@@ -252,20 +252,20 @@ Erstellen Sie das Migrationsprojekt als Integrations-Admin und geben Sie dann di
 
 #### CSV-Spezifikation
 
-Der Adobe Learning Manager bietet Ihnen eine Reihe von CSV-Standardspezifikationen für die Migration, die für mehrere Gebietsschemas aktiviert ist. Es empfiehlt sich, diese CSV-Spezifikationen vor Beginn des Migrationsvorgangs durchzugehen. Der Integrationsadministrator Ihres Unternehmens kann die vorhandenen Datenformate analysieren und den entsprechenden vom Learning Manager bereitgestellten CSV-Vorlagenelementen zuordnen.
+Adobe Learning Manager bietet Ihnen eine Reihe von CSV-Standardspezifikationen für die Migration in Verbindung mit mehreren Gebietsschemata. Es empfiehlt sich, diese CSV-Spezifikationen vor Beginn des Migrationsvorgangs durchzugehen. Der Integrationsadministrator des Unternehmens kann die vorhandenen Datenformate analysieren und den entsprechenden von Learning Manager bereitgestellten CSV-Vorlagenelementen zuordnen.
 
-#### Änderungen mit Unterstützung mehrerer Gebietsschemas
+#### Änderungen mit Unterstützung mehrerer Gebietsschemata
 
-* Die Spalte &quot;module_version&quot; wird in &quot;module_version.csv&quot; und &quot;course_module.csv&quot; nicht unterstützt.
-* Die Version &quot;module_version&quot; kann nicht im selben Run aktualisiert werden (in demselben Run kann das Modul nicht mit zwei Versionen mit demselben Modul migriert werden).
-* Die Aktualisierung von Inhalten oder Metadaten wird als Modulversionsupdate von module_version.csv betrachtet.
-* Das Update &quot;Job_Aid_Version&quot; kann nicht über job_aid_version.csv unterstützt werden
+* Die Spalte module_version wird in module_version.csv und course_module.csv nicht unterstützt.
+* Die Aktualisierung von module_version ist nicht in derselben Ausführung möglich (das Modul kann nicht in derselben Ausführung mit zwei Versionen migriert werden).
+* Das Inhalts- oder Metadatenupdate wird als Modulversionsupdate von module_version.csv betrachtet.
+* Das Job_Aid_Version-Update kann nicht über job_aid_version.csv unterstützt werden.
 
 ### Authentifizierungstoken und Cookies widerrufen
 
-Eine Headless-LMS-Anwendung erhält bei der ersten Anmeldung das refresh_token . Anschließend wird das refresh_token zum Generieren des access_token für seine Clientanwendungen zum Durchführen von API-Aufrufen verwendet. In ähnlicher Weise verwendet die Inhaltswiedergabe den OAuth-Endpunkt zum Generieren von Cookies für die Verwaltung der Wiedergabe, die mehrere Inhaltsdateien und API-Aufrufe umfasst, die von diesen Dateien mithilfe von Cookies aufgerufen werden. Das Cookie, das von oauth generiert wird, hat die gleiche Gültigkeit wie das access_token, die sieben Tage beträgt. Sobald das Cookie generiert ist, gibt es keine Möglichkeit, es anders als bei der typischen Abmeldung von Webanwendungen zu löschen. Das OAuth-Cookie und das Webanwendungs-Cookie sind zwei unterschiedliche Cookies, die einander nicht kennen.
+Eine Headless-LMS-Anwendung erhält das refresh_token bei der ersten Anmeldung. Anschließend wird das refresh_token zum Generieren des access_token verwendet, damit die zugehörigen Clientanwendungen API-Aufrufe durchführen können. In ähnlicher Weise verwendet die Inhaltswiedergabe den OAuth-Endpunkt zum Generieren von Cookies für die Verwaltung der Wiedergabe. Dies umfasst mehrere Inhaltsdateien sowie API-Aufrufe, die von diesen Dateien mithilfe von Cookies aufgerufen werden. Cookies, die von OAuth generiert werden, besitzen genau wie das access_token eine Gültigkeitsdauer von sieben Tagen. Nachdem ein Cookie generiert wurde, gibt es, anders als bei der typischen Abmeldung von Web-Anwendungen, keine Möglichkeit, es zu löschen. Das OAuth-Cookie und das Web-Anwendungs-Cookie sind zwei unterschiedliche Cookies, die voneinander unabhängig sind.
 
-Zum Löschen des Cookies haben wir einen neuen Endpunkt eingeführt, der &quot;refresh_token&quot;, &quot;cookie&quot; und &quot;cookie&quot; sowie das Aktualisierungstoken widerruft.
+Zum Löschen des Cookies haben wir daher einen neuen Endpunkt eingeführt, der refresh_token und Cookie sowohl einzeln als auch zusammen widerruft.
 
 **Details**
 
@@ -280,7 +280,7 @@ Zum Löschen des Cookies haben wir einen neuen Endpunkt eingeführt, der &quot;r
 
 **Textkörper anfordern**
 
-Body erforderlich für das Widerrufen von refresh_token oder (refresh_token und Cookie)
+Text, der für das Widerrufen von refresh_token oder (refresh_token und Cookie) erforderlich ist
 
 ```
 {
@@ -294,19 +294,19 @@ Body required for revoking oauth cookie only
 }
 ```
 
-### APIs veröffentlicht
+### Veröffentlichte APIs
 
 In dieser Version haben wir einige APIs veröffentlicht.
 
 | API | Typ | Beschreibung |
 |---|---|---|
-| /social/search | GET | In Social Media suchen. |
+| /social/search | GET | Hiermit wird eine Suche in sozialen Netzwerken durchgeführt. |
 | /Ankündigungen | GET | Rufen Sie detaillierte Informationen zur Ankündigung auf dem Mastertitel ab, der dem Teilnehmer zugewiesen ist. |
 | /Ankündigungen/`{id}` | GET | Rufen Sie detaillierte Informationen zur Ankündigung auf dem Mastertitel ab, der dem Teilnehmer zugewiesen ist. |
 | /learningObjects/`{id}`/loResources/{loResourcesId} | GET | Laden Sie die URL der Datei für loResource vom Typ &#39;Aktivität&#39; hoch, wenn die Dateiübermittlung erforderlich ist. |
 | /jobAid/`{jobAidId}`/jobAidDownloaded | GET | Bericht zum Herunterladen der Arbeitshilfe festlegen |
-| /bulkimport/startrun | POST | Führen Sie den Massenimport aus. |
-| /bulkimport/cansync | GET | Synchronisierung des Massenimport. |
+| /bulkimport/startrun | POST | Hiermit wird ein Massenimport ausgeführt. |
+| /bulkimport/cansync | GET | Hiermit wird der Massenimport synchronisiert. |
 | /search | GET | DELETEMEBOB |
 | /uploadInfo | GET | Informationen zu Inhaltsaktualisierungen abrufen. |
 | /uploadSigner | GET | Unterschrift des To_Sign-Inhalts einholen |
@@ -323,29 +323,29 @@ In dieser Version haben wir APIs bereitgestellt, um einen Player anzupassen. Sie
 
 * Starten oder laden Sie den Player.
 * Navigieren Sie zu einem bestimmten Modul.
-* Inhaltsverzeichnis ein-/ausschalten.
+* Schalten Sie das Inhaltsverzeichnis ein-/aus.
 * Ändern Sie die Sprache.
 * Schließen Sie den Player.
-* Sie können die Wiedergabe, Pause, Vorwärts- oder Rückwärtswiedergabe, die Suche, die Lautstärke oder die Geschwindigkeit ändern.
-* Vom Player ausgegebene Ereignisse erfassen.
+* Nutzen Sie die Funktionen Wiedergabe, Pause, Vor- oder Zurückspulen, Suchen, Lautstärkeregelung oder Geschwindigkeitsänderung.
+* Erfassen Sie vom Player ausgegebene Ereignisse.
 
 ### Anzeigen der Wartelistenposition eines Teilnehmers
 
-Die GET /enrollments/{id}/waitlistPosition API ruft unter der LO-API die Wartelistenposition eines Benutzers für eine angegebene Registrierung ab.
+Die GET /enrollments/{id}/waitlistPosition-API unter der LO-API ruft die Wartelistenposition eines Benutzers für eine angegebene Registrierung ab.
 
-### Abschlussdatum Einreichung in externen Zertifizierungen
+### Einreichung des Abschlussdatums in externen Zertifizierungen
 
-Die /primeapi/v2/learningObjects/certification:xxxxx-API verfügt über das Attribut &quot;completeDateSameAsApprovalDate&quot;, um anzugeben, dass für das Zertifikat &quot;Abschlussdatum der Zertifizierung&quot; für den Teilnehmer aktiviert ist oder nicht, zusammen mit dem Flag &quot;true/false&quot;.
+Die /primeapi/v2/learningObjects/certification:xxxxx-API verfügt über das Attribut &quot;completeDateSameAsApprovalDate&quot;, um anzugeben, dass für das Zertifikat zusammen mit dem &quot;true/false&quot;-Flag&quot; Abschlussdatum der Zertifizierung&quot; für den Teilnehmer aktiviert ist oder nicht.
 
-### LO-Vorschaudaten abrufen
+### Abrufen von LO-Vorschaudaten
 
 Die GET /preview/learningObjects/{id} API wird hinzugefügt, um Vorschauinformationen zu einem Lernobjekt abzurufen.
 
-### Externe Benutzer innerhalb von Profilen verschieben
+### Verschieben externer Benutzer innerhalb von Profilen
 
 Die `PUT primeapi/v2/externalProfiles/{currentep}/users/{userid}?` hilft, einen Benutzer zu einem anderen externen Profil zu verschieben, indem eine neue externalProfile-ID angegeben wird.
 
-### Benutzer zu externen Profilen hinzufügen
+### Hinzufügen von Benutzern zu externen Profilen
 
 Die `POST /externalProfiles/{id}/users` fügt externe Benutzer dem externen Profil hinzu.
 

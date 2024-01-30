@@ -1,20 +1,20 @@
 ---
-title: Nicht angemeldete Benutzer für Teilnehmer
-description: Das native Adobe Learning Manager-Portal unterstützt einen nicht protokollierten Zugriff auf die Schulungswebsite. Wenn dieser Modus aktiviert ist, können Teilnehmer die Schulungswebsite entdecken und darauf zugreifen und verschiedene verfügbare Kurse und Inhalte auschecken. Das nicht angemeldete Erlebnis ermöglicht es Teilnehmern, Kurse zu durchsuchen, ohne bei einem Portal angemeldet zu sein.
+title: Oberfläche für nicht angemeldete Teilnehmer
+description: Das native Adobe Learning Manager-Portal unterstützt einen nicht protokollierten Zugriff auf die Schulungswebsite. Wenn dieser Modus aktiviert ist, können Teilnehmer die Schulungswebsite entdecken und darauf zugreifen und verschiedene verfügbare Kurse und Inhalte auschecken. Auf der Oberfläche ohne Anmeldung können Teilnehmer Kurse durchsuchen, ohne bei einem Portal angemeldet zu sein.
 source-git-commit: aef2dfe9d6f49dcccaf1f71b57ffa25a3075efe8
 workflow-type: tm+mt
 source-wordcount: '441'
-ht-degree: 0%
+ht-degree: 54%
 
 ---
 
-# Nicht angemeldete Benutzer für Teilnehmer
+# Oberfläche für nicht angemeldete Teilnehmer
 
 Das native Adobe Learning Manager-Portal unterstützt einen nicht protokollierten Zugriff auf die Schulungswebsite. Wenn dieser Modus aktiviert ist, können Teilnehmer die Schulungswebsite entdecken und darauf zugreifen und verschiedene verfügbare Kurse und Inhalte auschecken.
 
-Das nicht angemeldete Erlebnis ermöglicht es Teilnehmern, Kurse zu durchsuchen, ohne bei einem Portal angemeldet zu sein.
+Auf der Oberfläche ohne Anmeldung können Teilnehmer Kurse durchsuchen, ohne bei einem Portal angemeldet zu sein.
 
-Damit die nicht angemeldete Startseite aktiviert wird, muss der Integrationsadministrator die Option [Trainingsdaten-Connector](/help/migrated/integration-admin/feature-summary/connectors.md#training-data-access).
+Damit die Startseite ohne Anmeldung aktiviert wird, muss der Integrationsadministrator die Option [Schulungsdaten-Connector](/help/migrated/integration-admin/feature-summary/connectors.md#training-data-access) aktivieren und konfigurieren.
 
 Die Schulung kann dann aus dem Connector exportiert werden.
 
@@ -32,9 +32,9 @@ Wählen Sie auf der Startseite des Adobe-Lern-Managers **Branding**. Wählen Sie
 
 *Wählen Sie die Option Nicht angemeldete Startseite aus.*
 
-## Banner hinzufügen
+## Hinzufügen eines Banners
 
-Füge ein Banner für jede Marketing-Ankündigung oder das aktuelle Thema hinzu. Auswählen **Banner hinzufügen**.
+Fügen Sie ein Banner hinzu, um Marketing-Ankündigungen anzuzeigen oder das Trendthema des Tages vorzustellen. Auswählen **Banner hinzufügen**.
 
 ![Spruchband](assets/add-banner-image.png)
 
@@ -44,7 +44,7 @@ Navigieren Sie zum Speicherort des Bildes, das als Banner verwendet werden soll.
 
 ## Kategorien hinzufügen
 
-Diese Komponente kann verwendet werden, um den Katalog nach Tags, Kenntnissen und Katalog zu filtern. Dieser Abschnitt enthält eine Kopfzeile und eine Beschreibung für jede Kategorie. Wenn der Benutzer auf die Schaltfläche klickt, wird er zur Katalogseite mit den angewendeten Filtern weitergeleitet.
+Diese Komponente kann verwendet werden, um den Katalog nach Tags, Kenntnissen und Katalog zu filtern. Dieser Abschnitt enthält einen Titel und eine Beschreibung für jede Kategorie. Durch Klicken wird der Benutzer zu der Katalogseite mit den angewendeten Filtern weitergeleitet.
 
 Auswählen **[!UICONTROL Kategorie hinzufügen]**. Geben Sie dann die Details für die Kategorie ein.
 
@@ -54,7 +54,7 @@ Auswählen **[!UICONTROL Kategorie hinzufügen]**. Geben Sie dann die Details f�
 
 Speichern Sie die Kategorie. Die Kategorie wird dem Abschnitt hinzugefügt.
 
-## Katalog hinzufügen
+## Hinzufügen eines Katalogs
 
 Fügen Sie einen Katalog für nicht angemeldete Benutzer hinzu, damit sie die gesamte Schulung auf der Plattform durchsuchen können.
 
@@ -62,7 +62,7 @@ Fügen Sie einen Katalog für nicht angemeldete Benutzer hinzu, damit sie die ge
 
 *Katalog hinzufügen*
 
-Alle exportierten Schulungen sind vorhanden.
+Alle exportierten Schulungen werden aufgeführt.
 
 ## Nicht unterstützte Funktionen
 
@@ -71,7 +71,7 @@ Alle exportierten Schulungen sind vorhanden.
 * Standardeinstellung für die Anzeige in der Admin-App (Einstellungen > Allgemein > Listenansicht)
 * Sternebewertung/Wirksamkeit.
 * Einstellungen für das Kartensymbol.
-* Relevante Einstellung der Kenntnisse und Tags.
+* Einstellungen für relevante Kenntnisse und Tags.
 * Teilnehmer-App-Ansicht, die katalogweise angezeigt wird.
-* Schulungsübersichtsseiten - Wenn Sie auf die Karte klicken, werden Sie zur Anmeldung weitergeleitet, woraufhin ein Benutzer zur Schulungsübersichtsseite/Instanzseite weitergeleitet wird.
-* Alle aktivierten Kataloge werden angezeigt. Jeder Teilnehmer, der keinen Zugriff auf einen Katalog hat, kann den Katalog und die Schulung nicht sehen, nachdem er sich angemeldet hat.
+* Schulungsübersichtsseiten: Wenn ein Benutzer auf die Karte klickt, wird er zur Registrierung und anschließend zur Schulungsübersichtsseite/Instanzseite weitergeleitet.
+* Alle aktivierten Kataloge werden angezeigt. Ein Teilnehmer, der keinen Zugriff auf einen Katalog besitzt, kann den Katalog und die darin enthaltene Schulung nach der Anmeldung nicht anzeigen.

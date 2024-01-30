@@ -6,7 +6,7 @@ contentowner: nluke
 source-git-commit: 6abc118c6ad7e66e3ded5bd26b9167c3a0b99e4b
 workflow-type: tm+mt
 source-wordcount: '328'
-ht-degree: 0%
+ht-degree: 50%
 
 ---
 
@@ -32,7 +32,7 @@ Es gibt Szenarien, in denen ein Benutzer sich nicht bei einem externen Profil re
 
 ## Ursache
 
-Dieses Problem tritt in einem der folgenden Szenarien auf:
+Dieses Problem tritt bei einem der folgenden Szenarien auf:
 
 * Der Benutzer ist bereits bei einem anderen externen Profil registriert.
 * Der Benutzer ist bereits ein interner Teilnehmer.
@@ -42,9 +42,9 @@ Dieses Problem tritt in einem der folgenden Szenarien auf:
 
 **Szenario 1:** Der Benutzer ist bereits bei einem anderen externen Profil registriert.
 
-1. Melden Sie sich als Administrator an.
+1. Melden Sie sich als ein Administrator an.
 1. Unter **Verwalten** auf **[!UICONTROL Benutzer]** > **[!UICONTROL Extern]**.
-1. Öffnen Sie das Profil, zu dem der Benutzer bereits gehört, indem Sie auf Verwendete Lizenzen klicken.
+1. Öffnen Sie das Profil, zu dem der Benutzer bereits gehört, indem Sie auf „Verwendete Lizenzen“ klicken
 
    ![](assets/cp-seats-used.png)
 
@@ -56,7 +56,7 @@ Dieses Problem tritt in einem der folgenden Szenarien auf:
 
    *Benutzerprofil ändern*
 
-   Daraufhin wird ein Fenster geöffnet, in dem Sie wie unten beschrieben ein neues Profil auswählen können.
+   Daraufhin wird ein Fenster geöffnet, in dem Sie ein neues Profil auswählen können, wie unten zu sehen.
 
    ![](assets/cp-select-profiles.png)
 
@@ -66,9 +66,9 @@ Dieses Problem tritt in einem der folgenden Szenarien auf:
 
 **Szenario 2:** Der Benutzer ist als interner Teilnehmer vorhanden.
 
-1. Melden Sie sich als Administrator an.
+1. Melden Sie sich als ein Administrator an.
 1. Unter **Verwalten** auf **[!UICONTROL Benutzer]** > **[!UICONTROL Intern]**.
-1. Klicken Sie, um ein Teilnehmerprofil zu öffnen, und klicken Sie auf das Symbol &quot;Bearbeiten&quot;.
+1. Klicken Sie, um ein Teilnehmerprofil zu öffnen, und klicken Sie auf das Symbol „Bearbeiten“.
 
    ![](assets/cp-internal-learner.png)
 
@@ -82,9 +82,9 @@ Dieses Problem tritt in einem der folgenden Szenarien auf:
 
 **Szenario 3**: Der Benutzer befindet sich in einem gelöschten Status.
 
-1. Melden Sie sich als Administrator an.
+1. Melden Sie sich als ein Administrator an.
 1. Unter **Verwalten** auf **[!UICONTROL Benutzer]** > **[!UICONTROL Benutzerbereinigung]**.
-1. Wählen Sie den Teilnehmer aus und klicken Sie auf das Symbol &quot;Bearbeiten&quot;.
+1. Wählen Sie den Teilnehmer aus und klicken Sie auf das Symbol „Bearbeiten“.
 
    ![](assets/cp-deleted-learner.png)
 

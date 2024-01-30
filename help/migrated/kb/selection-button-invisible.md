@@ -1,26 +1,26 @@
 ---
 jcr-language: en_us
-title: Auswahlschaltflächen werden im Lern-Manager nicht angezeigt
+title: Auswahlschaltflächen werden in Learning Manager nicht angezeigt
 description: Aufgrund fehlender Optionsfelder kann ein Administrator keine Rollen zuweisen oder entfernen, keine Willkommens-E-Mail senden oder Benutzer löschen.
 contentowner: nluke
 source-git-commit: 6abc118c6ad7e66e3ded5bd26b9167c3a0b99e4b
 workflow-type: tm+mt
 source-wordcount: '134'
-ht-degree: 0%
+ht-degree: 55%
 
 ---
 
 
 
-# Auswahlschaltflächen werden im Lern-Manager nicht angezeigt
+# Auswahlschaltflächen werden in Learning Manager nicht angezeigt
 
 ## Problem
 
 Aufgrund fehlender Optionsfelder kann ein Administrator Folgendes nicht ausführen (keine vollständige Liste):
 
-* Rollen zuweisen oder entfernen.
-* Begrüßungs-E-Mail senden
-* Löschen Sie einen Benutzer.
+* Zuweisen oder Entfernen von Rollen
+* Senden einer Willkommens-E-Mail
+* Löschen eines Benutzers
 
 ## Ursache
 
@@ -42,5 +42,5 @@ Laden Sie die Designs neu und korrigieren Sie das Erscheinungsbild der Optionsfe
 
    *Beliebiges Design auswählen*
 
-1. Wechseln Sie zum vorherigen Design zurück und speichern Sie die Änderungen.
-1. Melden Sie sich vom Adobe-Lernmanager ab und melden Sie sich erneut an.
+1. Kehren Sie zum vorherigen Design zurück und speichern Sie die Änderungen.
+1. Melden Sie sich von Adobe Learning Manager ab und melden Sie sich erneut an.

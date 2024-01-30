@@ -6,7 +6,7 @@ contentowner: manochan
 source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
 workflow-type: tm+mt
 source-wordcount: '85'
-ht-degree: 0%
+ht-degree: 8%
 
 ---
 
@@ -23,4 +23,4 @@ Anzeigen Ihrer Profilinformationen, Hinzufügen/Ändern von Profilfotos und Änd
 1. Klicken Sie in der rechten oberen Ecke neben Ihrem Foto/Konto auf die Dropdownliste und wählen Sie **Profileinstellungen**.
 1. Im Popup-Dialogfeld können Sie ein Foto hinzufügen/ändern, indem Sie mit der Maus darauf zeigen und auf **Bearbeiten** im Bereich &quot;Profilfoto&quot;.
 1. Hinzufügen/Ändern **Über mich** Inhalte zu erstellen, indem Sie auf den Textbereich darunter klicken.
-1. Klicken **[!UICONTROL Speichern]**.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.

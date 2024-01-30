@@ -1,54 +1,54 @@
 ---
 jcr-language: en_us
-title: Erste Schritte in Captivate Prime als Teilnehmer
+title: Einstieg in Captivate Prime als Teilnehmer
 description: Verwenden Sie die Seite "Erste Schritte", um die wichtigsten Lernpfade des Adobe Learning Managers zu durchlaufen.
 contentowner: manochan
 source-git-commit: 8635072782253cbac3f913953797cae7c0bc5ef4
 workflow-type: tm+mt
 source-wordcount: '666'
-ht-degree: 0%
+ht-degree: 77%
 
 ---
 
 
 
-# Erste Schritte in Captivate Prime als Teilnehmer
+# Einstieg in Captivate Prime als Teilnehmer
 
-Erste Schritte mit der Teilnehmer-App im Learning Manager
+Erste Schritte mit der Teilnehmer-App in Learning Manager.
 
-Die Teilnehmer-App im Lern-Manager ist vollständig Widget-basiert, sodass Sie die verschiedenen Funktionen mit einem oder zwei Klicks durchlaufen können.
+Die Teilnehmer-App in Learning Manager basiert vollkommen auf Widgets, sodass Sie mit nur einem oder zwei Klicks zu den verschiedenen Funktionen wechseln können.
 
-Nachdem Sie sich als Teilnehmer angemeldet haben, werden auf der Startseite in der Learning Manager-Webanwendung die folgenden Widgets angezeigt:
+Nachdem Sie sich als Teilnehmer angemeldet haben, können Sie die folgenden Widgets auf der Startseite der Learning Manager-Webanwendung anzeigen:
 
 ![](assets/l-1.png)
 
 *Anzeigen von Widgets für Lernressourcen*
 
-**Eigenes Lernen**: Sie können die Lernobjekte nach Typ und nach Termin anzeigen und darauf klicken. Klicken Sie auf den Kreis im Widget &quot;Eigenes Lernen&quot;, um direkt zum Lernobjekttyp zu wechseln oder um die Lernobjekte nach Termin anzuzeigen.
+**„Eigenes Lernen“**: Sie können die Lernobjekte nach Typ und nach Termin anzeigen und darauf klicken. Klicken Sie auf den Kreis in dem Widget „Eigenes Lernen“, um direkt zum Lernobjekttyp zu navigieren, oder um die Lernobjekte nach Termin anzuzeigen.
 
-**Eigene Kenntnisse**: Sie können den Kenntnisdiagramm auch in der oberen rechten Ecke der Seite anzeigen. Siehe  [Kenntnisdiagramm](skills-levels.md)finden Sie weitere Informationen.
+**Eigene Kenntnisse**:Sie können das Diagramm mit den Qualifikationen auch in der rechten oberen Ecke der Seite abrufen. Siehe  [Kenntnisdiagramm](skills-levels.md)finden Sie weitere Informationen.
 
-**Lernobjekt-Widget**: Dies befindet sich direkt unter &quot;Eigenes Lernen&quot; und es werden die Lernobjekte für den Benutzer angezeigt. Unter &quot;Eigenes Lernen&quot; können Sie alle  [Kurse](courses.md),  [Lernprogramme](learning-programs.md) und  [Zertifizierungen](certifications.md) die von Ihnen registriert wurden oder Ihnen zugewiesen wurden. Sie können direkt mit der Nutzung eines Lernobjekts beginnen oder ein Lernobjekt aus diesem Widget erneut aufrufen.
+**Lernobjekt-Widget**: Dies befindet sich rechts unterhalb von „Eigenes Lernen“ und es zeigt die Lernobjekte für den Benutzer an. Unter &quot;Eigenes Lernen&quot; können Sie alle  [Kurse](courses.md),  [Lernprogramme](learning-programs.md) und  [Zertifizierungen](certifications.md) die von Ihnen registriert wurden oder Ihnen zugewiesen wurden. Sie können Lernobjekte direkt nutzen oder sie von diesem Widget aus verwenden.
 
-**Lernkalender**: Dieses Widget zeigt die Liste der bevorstehenden und geplanten Schulungen in Ihrem Unternehmen für jedes Quartal an. Der Registrierungsstatus für ist Registriert, wenn Sie sich für einen bestimmten Kurs registriert haben.
+**Lernkalender**: Dieses Widget zeigt eine Liste der bevorstehenden und geplanten Lernprogramme in Ihrem Unternehmen für jedes Quartals an. Der Registrierungsstatus ist „Registriert“, wenn Sie sich für einen bestimmten Kurs registriert haben.
 
-**Empfohlene Lerninhalte**: In diesem Widget können Sie alle Kurse anzeigen, die vom Administrator/Manager Ihres Unternehmens für Ihr Profil empfohlen werden. Sie können auf diese Links klicken, um zu den Kursseiten zu navigieren.
+**Empfohlene Lernprogramme**: In diesem Widget sehen Sie alle Kurse, die vom Administrator/Manager Ihres Unternehmens für Ihr Profil empfohlen werden. Sie können auf diese Links klicken, um zu den Kursseiten zu navigieren.
 
-**Meine Leistungen**: Nach Abschluss der Kurse erhalten Sie Abzeichen. Diese Abzeichen werden neben Ihrem Profil oben auf der Seite angezeigt. Klicken Sie auf Abzeichen, um spezifische Informationen zu erhalten. Weitere Informationen zu Abzeichen finden Sie unter  [Ausweise](badges.md) Funktion.
+**Eigene Leistungen**: Sie erhalten Abzeichen, wenn Sie Kurse absolviert haben. Diese Abzeichen werden neben Ihrem Profil oben auf der Seite angezeigt. Klicken Sie auf „Abzeichen“, um genauere Informationen zu erhalten. Weitere Informationen zu Abzeichen finden Sie unter  [Ausweise](badges.md) Funktion.
 
-Dieses Widget zeigt auch die Gamification-Punkte für den Teilnehmer an. Klicken Sie auf den Gamification-Link, um die detaillierten Punkte und andere Funktionen in Gamification anzuzeigen. Weitere Informationen zu Gamification-Punkten und dem Leaderboard finden Sie unter  [Gamification](gamification.md) Funktion.
+Dieses Widget zeigt außerdem die Gamification-Punkte für den Benutzer an. Klicken Sie auf den Gamification-Link, um die detaillierten Punkte und andere Funktionen in Gamification anzuzeigen. Weitere Informationen zu Gamification-Punkten und dem Leaderboard finden Sie unter  [Gamification](gamification.md) Funktion.
 
-Wenn Sie mit einem iPad- oder Android-Tablet auf den Lernmanager zugreifen, lesen Sie den Themenabschnitt iPad- und Android-Registerkarten-App auf dieser Seite.
+Wenn Sie mit einem iPad- oder Android-Tablet auf Learning Manager zugreifen, lesen Sie die Themen zu iPad- oder Android-Tablet-Apps unten auf dieser Seite.
 
 ## Lernzeitleiste {#learningtimeline}
 
-Die Lernzeitleiste zeigt den Zeitplan der Teilnehmer mit den Kursen an, die sie abschließen müssen. In diesem Abschnitt können Sie die Warnungen für alle Ihre Kurse, Zertifizierungen und Lernprogramme in aufsteigender Reihenfolge der Fristen anzeigen. Die Fristen für jede Ihrer Lernaktivitäten werden im linken Bereich angezeigt.
+Die Lernzeitleiste zeigt den Zeitplan des Teilnehmers mit den Kursen, die er zu absolvieren hat. In diesem Bereich sehen Sie Alarme für all Ihre Kurse, Zertifizierungen und Lernprogramme in ansteigender Reihenfolge der Fristen. Die Fristen für Ihre Lernaktivitäten werden im linken Bereich angezeigt.
 
-Klicken Sie auf jedes Lernobjekt auf der linken Kachel, um die entsprechenden Informationen als Kurskarte im rechten Bereich anzuzeigen. Sie können auf die Kachel &quot;Kurs/Lernprogramm/Zertifizierung&quot; klicken, um die vollständigen Informationen zu jedem Lernobjekt anzuzeigen.
+Klicken Sie bei den Lernobjekten auf die linke Kachel, um die entsprechenden Informationen als Kurskarte im rechten Bereich aufzurufen. Sie können auf die Kachel &quot;Kurs/Lernprogramm/Zertifizierung&quot; klicken, um die vollständigen Informationen zu jedem Lernobjekt anzuzeigen.
 
-Bewegen Sie die Maus auf den Bereich der Zeitleiste, um die Bildlaufleiste auf der rechten Seite anzuzeigen. Verwenden Sie die Bildlaufleiste, um nach oben oder unten zu wechseln und weitere Warnmeldungen anzuzeigen.
+Bewegen Sie die Maus auf den Bereich der Zeitleiste, um die Bildlaufleiste auf der rechten Seite zu sehen. Verwenden Sie die Bildlaufleiste, um sich nach oben oder unten zu bewegen und mehr Alarme zu sehen.
 
-## iPad- und Android-App-Benutzer {#ipadandandroidappusers}
+## Benutzer der iPad- und Android-Anwendung {#ipadandandroidappusers}
 
 In der Learning Manager-App auf iPad- oder Android-Tablet können Sie, nachdem Sie sich als Teilnehmer angemeldet haben, die Informationen wie folgt auf der Registerkarte &quot;Startseite&quot; sehen:
 
@@ -64,16 +64,16 @@ Um zu den Lern- und Katalogfunktionen zu navigieren, tippen Sie auf das **Menü*
 
 ### Offline auf die App zugreifen
 
-Sie können offline auf die Lernmanager-App auf iPad- und Android-Tablets zugreifen. Laden Sie Kurse herunter, absolvieren Sie sie im Offline-Modus und synchronisieren Sie den Inhalt mit der Online-App, wenn Sie eine Verbindung zum Netzwerk herstellen.
+Sie können auf iPad- und Android-Tablets auch offline auf die Learning Manager-App zugreifen. Laden Sie Kurse herunter und bearbeiten Sie sie im Offlinemodus. Wenn Sie wieder mit dem Netzwerk verbunden sind, synchronisieren Sie sie mit der Online-App.
 
-1. Tippen Sie oben auf das Dropdown-Menü und dann auf die Option Lernen . Eine Liste aller verfügbaren Kurse wird in Kacheln angezeigt.
-1. Tippen Sie auf das Downloadsymbol unten auf jeder Lernobjektkachel, um die Lerninhalte herunterzuladen.
+1. Tippen Sie oben auf das Dropdown-Menü und dann auf die Option Lernen . Eine Liste aller verfügbaren Kurse wird in Form von Kacheln angezeigt.
+1. Tippen Sie auf das Download-Symbol unten auf jeder Lernobjekt-Kachel, um die Lerninhalte herunterzuladen.
 
 ![](assets/download-ipad.png)
 
 *Kurse herunterladen*
 
-1. Wenn Sie online sind, wird in einer Leiste oben in der App eine Eingabeaufforderung angezeigt, um zu überprüfen, ob Sie Ihre Inhalte online synchronisieren möchten. Tippen Sie auf den roten Balken, wenn Ihre Antwort &quot;Ja&quot; ist. Ein grüner Balken zeigt an, dass Ihre Inhalte mit der Online-App synchronisiert sind.
+1. Wenn Sie online sind, wird am oberen Rand der App in einer Leiste eine Eingabeaufforderung angezeigt und nachgefragt, ob Sie Ihre Inhalte online synchronisieren möchten. Tippen Sie auf die rote Leiste, wenn Ihre Antwort „Ja“ ist. Eine grüne Leiste zeigt an, dass Ihr Inhalt mit der Online-App synchron ist.
 
 <!--### Track device storage
 

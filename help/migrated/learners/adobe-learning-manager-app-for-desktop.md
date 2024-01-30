@@ -1,96 +1,96 @@
 ---
-description: Erfahren Sie, wie Sie die Desktopanwendung des Adobe Learning Manager verwenden, um Inhalte zu erstellen und anzureichern, die in Soziales Lernen freigegeben werden können.
+description: Erfahren Sie, wie Sie die Desktop-Anwendung von Adobe Learning Manager verwenden, um Inhalte zu erstellen und anzureichern, die für Soziales Lernen freigegeben werden können.
 jcr-language: en_us
-title: Adobe Learning Manager Desktop-Anwendung
+title: Adobe Learning Manager-Desktop-Anwendung
 contentowner: kuppan
 source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
 workflow-type: tm+mt
 source-wordcount: '1689'
-ht-degree: 0%
+ht-degree: 76%
 
 ---
 
 
 
-# Adobe Learning Manager Desktop-Anwendung
+# Adobe Learning Manager-Desktop-Anwendung
 
-Erfahren Sie, wie Sie die Desktopanwendung des Adobe Learning Manager verwenden, um Inhalte zu erstellen und anzureichern, die in Soziales Lernen freigegeben werden können.
+Erfahren Sie, wie Sie die Desktop-Anwendung von Adobe Learning Manager verwenden, um Inhalte zu erstellen und anzureichern, die für Soziales Lernen freigegeben werden können.
 
-Die Adobe Learning Manager-Desktopanwendung ist in erster Linie für Teilnehmer gedacht, die Learning Manager Social Learning verwenden. Nach der Installation auf einem Desktop ermöglicht die Anwendung Teilnehmern, Inhalte zu erstellen und in Boards in Learning Manager zu posten, um informelle, gemeinsame und soziale Lernerfahrungen unter Kollegen zu erleichtern. Darüber hinaus stellt die Desktop-Anwendung auch sicher, dass Teilnehmer Social-Learning-Benachrichtigungen auf ihrem Desktop erhalten, auch wenn sie nicht unbedingt in der Web-Anwendung des Lern-Managers angemeldet sind.
+Die Adobe Learning Manager-Desktop-Anwendung ist in erster Linie für Teilnehmende gedacht, die Soziales Lernen von Learning Manager verwenden. Nach der Installation auf einem Desktop können Teilnehmende Inhalte erstellen und diese in Learning Manager posten, um informelles, kollaboratives und soziales Lernen zwischen Kollegen zu erleichtern. Darüber hinaus stellt die Desktop-Anwendung auch sicher, dass Teilnehmende Benachrichtigungen für Soziales Lernen auf ihrem Desktop erhalten, auch wenn sie nicht unbedingt in der Webanwendung von Learning Manager angemeldet sind.
 
-Teilnehmer können umfangreiche Inhalte wie Videos, Audio und Screenshots erstellen und sie mit anderen Teilnehmern teilen. Dabei kann es sich um alles handeln - eine Software-Demo oder einen Kurzüberblick, eine Präsentation, einen Podcast oder einen kommentierten Screenshot von etwas, das geteilt werden kann.
+Teilnehmer können umfangreiche Inhalte wie Video, Audio und Screenshots erstellen und mit anderen Teilnehmern teilen. Dabei kann es sich um alles handeln - eine Software-Demo oder einen Kurzüberblick, eine Präsentation, einen Podcast oder einen kommentierten Screenshot von etwas, das geteilt werden kann.
 
-Klicken Sie auf der Seite &quot;Soziales Lernen&quot; des Lernmanagers auf &quot;Neuer Beitrag&quot; und wählen Sie &quot;Video aufzeichnen&quot; oder &quot;Audio aufzeichnen&quot; oder nehmen Sie einen Screenshot auf bzw. klicken Sie auf &quot;Lernmanager-Galerie&quot;, um die Desktop-Anwendung zu starten. Weitere Informationen zu Social Learning finden Sie unter [hier klicken](feature-summary/social-learning-web-user.md).
+Klicken Sie auf der Learning Manager-Webseite für Soziales Lernen auf „Neuer Beitrag“ und wählen Sie Videoaufzeichnung, Audioaufzeichnung, Erstellen eines Screenshots oder Learning Manager-Galerie, um die Desktop-Anwendung zu starten. Für weitere Informationen über Soziales Lernen [klicken Sie hier](feature-summary/social-learning-web-user.md).
 
-Wenn Benutzer nicht über die Desktopanwendung verfügen, können Sie sie von der Adobe Learning Manager-Desktopseite herunterladen. Wenn Sie das Programm nicht herunterladen können, [hier klicken](../kb/troubleshooting-issues-with-adobe-learning-manager-desktop-app.md).
+Wenn Benutzende nicht über die Desktop-Anwendung verfügen, können Sie sie von der Adobe Learning Manager-Desktop-Seite herunterladen. Wenn Sie nicht den Download nicht durchführen können, [klicken Sie hier](../kb/troubleshooting-issues-with-adobe-learning-manager-desktop-app.md).
 
-Sobald der Benutzer die Installation der Anwendung abgeschlossen hat, muss er sich mit seinen Lern-Manager-Teilnehmeranmeldeinformationen anmelden. Die Startseite wird wie im folgenden Screenshot angezeigt.
+Nachdem die Benutzenden die Installation der Anwendung abgeschlossen haben, müssen sie sich mit ihren Learning Manager-Teilnehmer-Anmeldedaten anmelden. Die Startseite sieht wie der folgende Screenshot aus.
 
 >[!NOTE]
 >
->Teilnehmer können die Desktop-Anwendung nicht verwenden, wenn Soziales Lernen für ihr Konto deaktiviert ist.
+>Teilnehmer können die Desktop-Anwendung nicht verwenden, wenn für ihr Konto Soziales Lernen deaktiviert ist.
 
 <!--![](assets/homepage-13.png)-->
 <!--*Home page*-->
 
-## Erstellen eines Videos {#creatingavideo}
+## Video erstellen {#creatingavideo}
 
 Die Desktop-Anwendung ermöglicht es einem Benutzer, Web, Bildschirm und beides aufzuzeichnen.
 
 <!--![](assets/video-recordings-08.png)-->
 <!--*Record web, screen, or both*-->
 
-Gehen Sie wie folgt vor, um ein Video aufzunehmen und es auf der Social-Learning-Web-Plattform zu posten:
+Führen Sie folgende Schritte aus, um ein Video aufzuzeichnen und auf der Web-Plattform für Soziales Lernen zu veröffentlichen:
 
-1. Stellen Sie sicher, dass die Hardware- und Softwareanforderungen erfüllt sind. Siehe [Systemanforderungen](../system-requirements.md) für weitere Informationen.
-1. Um eine Aufzeichnung aus Soziales Lernen zu starten, wählen Sie das Symbol für den Videoaufzeichnungsdatensatz (Web, Bildschirm, beide) aus, über das die Learning Manager-Desktop-Anwendung geöffnet wird. In der Desktop-Anwendung, in der der Benutzer angemeldet ist, kann der Inhalt erstellt und dann veröffentlicht werden.
-1. Um die Aufzeichnung von der Desktop-Anwendung aus zu starten, melden Sie sich mit Ihren Learning Manager-Anmeldedaten als Teilnehmer bei der Anwendung an.
+1. Stellen Sie sicher, dass die Hardware- und Softwareanforderungen erfüllt sind. Siehe [Systemvoraussetzungen](../system-requirements.md) für Informationen.
+1. Um eine Aufzeichnung über Soziales Lernen zu starten, wählen Sie das Symbol für die Videoaufzeichnung (Web, Bildschirm, beides), wodurch die Learning Manager-Desktop-Anwendung geöffnet wird. In der Desktop-Anwendung, bei der der Benutzer angemeldet ist, kann der Inhalt erstellt und anschließend veröffentlicht werden.
+1. Um die Aufnahme von der Desktop-Anwendung aus zu starten, melden Sie sich mit Ihren Teilnehmer-Anmeldedaten für Learning Manager bei der Anwendung an.
 1. Die Startseite wird angezeigt.
-1. Um einen Beitrag zu erstellen, können Sie eine der drei Optionen auf der Startseite auswählen. Um das Aufzeichnungsfenster zu starten, klicken Sie auf das Symbol Video aufzeichnen .
-1. Entsprechend den Anforderungen können Sie Webcam, Bildschirm oder beides auswählen.
+1. Um einen Beitrag zu erstellen, können Sie eine der drei Optionen auf der Startseite auswählen. Um das Aufnahmefenster zu starten, klicken Sie auf das Symbol „Video aufzeichnen“.
+1. Wählen Sie wie gewünscht die Webcam, den Bildschirm oder beides.
 
    **Webcam** Die Webcam erfasst den Erzähler, der ein Projekt oder eine Anwendung einschließlich Audio vorführt oder präsentiert. Wählen Sie aus den oben genannten Optionen das Webcam-Symbol aus, damit das Live-Fenster angezeigt wird.
 
-   **Bildschirm** Zeichnen Sie Aktionen auf, die auf dem Bildschirm ausgeführt werden. Durch Auswahl des Bildschirmsymbols wird der Bildschirm mit einem Datensatzdialog in der Mitte des Bildschirms hervorgehoben.
+   **Bildschirm** Zeichnen Sie Aktionen auf, die auf dem Bildschirm ausgeführt werden. Durch Auswahl des Bildschirmsymbols erscheint ein Aufzeichnungsdialogfeld in der Mitte des Bildschirms.
 
    **Beide** Zeichnet sowohl den Erzähler als auch die Bildschirmaktionen auf. Wenn Sie das letzte Symbol auswählen, wird der Bildschirm hervorgehoben und der Benutzer erhält ein Live-Fenster mit diesem Symbol.
 
-1. Festlegen von Aufzeichnungseinstellungen.
+1. Aufzeichnungseinstellungen festlegen
 
-   **Kamera auswählen** Klicken Sie auf das Videokamerasymbol am unteren Rand des Fensters &quot;Video aufzeichnen&quot;. Wählen Sie aus den angegebenen Optionen eine Kamera aus, die der Benutzer verwenden möchte.
+   **Kamera wählen** Klicken Sie auf das Videokamerasymbol unten im Videoaufzeichnungsfenster. Wählen Sie aus den angegebenen Optionen eine Kamera aus, die der Benutzer verwenden möchte.
 
    **Mikrofon auswählen** Klicken Sie auf das Mikrofonsymbol unten im Video- oder Audiofenster und wählen Sie aus den angegebenen Optionen ein Mikrofon aus, das der Benutzer verwenden möchte.
 
    >[!NOTE]
    >
-   >Wenn der Benutzer kein Audio mit Bildschirm oder Video aufzeichnen möchte, wählen Sie die Option **Ohne** aus der Dropdown-Liste aus, die beim Klicken auf das Audiosymbol angezeigt wird.
+   >Wenn der Benutzer kein Audio mit Bildschirm oder Video aufnehmen möchte, wählen Sie die Option **Keine** aus der Dropdown-Liste aus, die beim Klicken auf das Audiosymbol angezeigt wird.
    >
-   >Wenn Benutzer beginnen, ihren Bildschirm oder sich selbst aufzuzeichnen, wird ein Popup-Dialogfeld angezeigt, in dem sie aufgefordert werden, zu bestätigen, ob sie die Aufnahme ohne Audiounterstützung fortsetzen möchten. Klicken Sie auf Ja, um fortzufahren.
+   >Wenn Benutzer mit der Aufzeichnung ihres Bildschirms oder sich selbst beginnen, wird ein Popup-Dialogfeld mit der Frage angezeigt, ob sie ohne Audiounterstützung weiter aufnehmen möchten. Klicken Sie auf „Ja“, um fortzufahren.
 
-1. Verwenden Sie die Aufnahmetaste, um die Aufnahme zu starten. Die Aufzeichnung beginnt nach dem Countdown (3 Sekunden).
-1. Klicken Sie auf die Schaltfläche &quot;Anhalten&quot; oder &quot;Fortsetzen&quot;, um die Aufzeichnung anzuhalten und bei Bedarf fortzufahren. Informationen zum Bearbeiten der Aufzeichnung finden Sie unter [Bearbeiten einer Aufzeichnung](adobe-learning-manager-app-for-desktop.md#Editing) und zur Veröffentlichung siehe [Veröffentlichen einer Aufzeichnung](adobe-learning-manager-app-for-desktop.md#Publishing).
+1. Verwenden Sie die Aufnahmetaste, um die Aufnahme zu starten. Die Aufnahme beginnt nach dem Countdown (3 Sekunden).
+1. Klicken Sie auf die Schaltfläche „Pause“ oder „Fortsetzen“, um die Aufnahme anzuhalten und bei Bedarf fortzusetzen. Informationen zum Bearbeiten der Aufnahme finden Sie unter [Bearbeiten einer Aufnahme](adobe-learning-manager-app-for-desktop.md#Editing) und zum Veröffentlichen siehe [Veröffentlichen einer Aufnahme](adobe-learning-manager-app-for-desktop.md#Publishing).
 
-## Erstellen von Audiodaten {#creatinganaudio}
+## Audio erstellen {#creatinganaudio}
 
 <!--![](assets/record-audio-2x.png)-->
 *Audio aufzeichnen*
 
-Um ein Audio aufzuzeichnen, gehen Sie wie folgt vor:
+So nehmen Sie Audio auf:
 
-1. Klicken Sie im Startfenster der Learning Manager-Desktop-Anwendung auf das Symbol &quot;Audio aufzeichnen&quot;.
+1. Klicken Sie im Startfenster der Learning Manager-Desktop-Anwendung auf das Symbol zur Audioaufzeichnung.
 1. Stellen Sie sicher, dass die Mikrofonlautstärke aktiviert ist, indem Sie auf das Symbol für die Mikrofonlautstärke klicken und die Lautstärke anpassen.
-1. Klicken Sie auf die Aufnahmeschaltfläche, um die Aufnahme zu starten.
-1. Sobald die Benutzer die Audioaufnahme abgeschlossen haben, klicken Sie auf die Schaltfläche &quot;Anhalten&quot;, um die Aufnahme anzuhalten.
-1. Um eine Vorschau der Aufnahme anzuzeigen, klicken Sie auf die Schaltfläche &quot;Wiedergabe&quot;.
-1. Wenn Benutzer ein zusätzliches Audio in derselben Datei aufzeichnen möchten, klicken Sie auf **[!UICONTROL Fortsetzen]**. Sobald die gewünschte Aufnahme erreicht ist, klicken Sie auf **[!UICONTROL Weiter]** , um die Datei an einem gewünschten Speicherort zu speichern. Die Aufzeichnung wird in der Adobe Learning Manager-App für die Desktopgalerie gespeichert, in der Benutzer ihre Aufzeichnungen und Screenshots anzeigen können.
-1. Informationen zum Bearbeiten der Aufzeichnung finden Sie unter [Bearbeiten einer Aufzeichnung](adobe-learning-manager-app-for-desktop.md#Editing) und zur Veröffentlichung siehe [Veröffentlichen einer Aufzeichnung](adobe-learning-manager-app-for-desktop.md#Publishing).
+1. Verwenden Sie die Schaltfläche „Aufzeichnen“, um die Aufnahme zu starten.
+1. Wenn Sie mit der Audioaufnahme fertig sind, klicken Sie auf die Schaltfläche „Pause“, um die Aufnahme zu beenden.
+1. Klicken Sie auf „Wiedergabe“, um eine Vorschau der Aufnahme anzuzeigen.
+1. Wenn Benutzer zusätzliches Audio in derselben Datei aufnehmen möchten, klicken Sie auf **[!UICONTROL Fortsetzen]**. Sobald die gewünschte Aufnahme erreicht ist, klicken Sie auf **[!UICONTROL Weiter]** , um die Datei an einem gewünschten Speicherort zu speichern. Die Aufzeichnung wird in der Adobe Learning Manager-App für die Desktop-Galerie gespeichert, in der Benutzer ihre Aufzeichnungen und Screenshots anzeigen können.
+1. Informationen zum Bearbeiten der Aufnahme finden Sie unter [Bearbeiten einer Aufnahme](adobe-learning-manager-app-for-desktop.md#Editing) und zum Veröffentlichen siehe [Veröffentlichen einer Aufnahme](adobe-learning-manager-app-for-desktop.md#Publishing).
 
-## Erstellen eines Screenshots {#creatingascreenshot}
+## Screenshot erstellen {#creatingascreenshot}
 
-Gehen Sie wie folgt vor, um einen Screenshot zu erstellen:
+So machen Sie einen Screenshot:
 
-1. Klicken Sie auf das Screenshot-Symbol auf der Startseite der Learning Manager-Desktop-Anwendung.
-1. Um nur einen Teil des Bildschirms zu erfassen, klicken Sie auf das Symbol &quot;Ausschnitt - Teilbildschirm&quot; . Um den gesamten Bildschirm zu erfassen, klicken Sie auf das Symbol für den Vollbildmodus.
+1. Klicken Sie auf der Startseite der Learning Manager-Desktop-Anwendung auf das Screenshotsymbol.
+1. Um nur einen Teil des Bildschirms zu erfassen, klicken Sie auf das Symbol für den Bildschirmausschnitt. Um den gesamten Bildschirm zu erfassen, klicken Sie auf das Symbol für den Vollbildmodus.
 
    <!--![](assets/capture-screenshot.png)
    *Capture a screenshot*-->
@@ -98,32 +98,32 @@ Gehen Sie wie folgt vor, um einen Screenshot zu erstellen:
 1. Damit andere Teilnehmer die Präsentation oder den statischen Inhalt besser verstehen und beibehalten können, fügen Sie Anmerkungen zum Inhalt hinzu.
 1. Um den Screenshot zu bearbeiten, [hier klicken](adobe-learning-manager-app-for-desktop.md#Editing), und um einen Screenshot zu veröffentlichen [hier klicken](adobe-learning-manager-app-for-desktop.md#Publishing).
 
-## Bearbeiten von Video, Audio und Screenshot {#editing}
+## Bearbeiten eines Videos, eines Audios und eines Screenshots {#editing}
 
-Nachdem eine Datei gespeichert wurde, wird das Bearbeitungsfenster sofort auf einem System angezeigt, in dem Aufzeichnungen mithilfe der folgenden Optionen perfekt und professionell aussehen können:
+Sobald eine Datei gespeichert ist, wird das Bearbeitungsfenster sofort auf dem System angezeigt, in dem Aufnahmen mit den folgenden Optionen perfekt und professionell aussehen können:
 
-## Anmerkungen (Videoaufzeichnungen und Screenshots) {#annotationsvideorecordingsandscreenshots}
+## Anmerkungen (Videoaufnahmen und Screenshots) {#annotationsvideorecordingsandscreenshots}
 
-Anmerkungen können für Videoaufzeichnungen und Screenshots verwendet werden, um bestimmte Details hervorzuheben oder Text für die anderen Benutzer zu schreiben.
+Anmerkungen können für Videoaufnahmen und Screenshots verwendet werden, um bestimmte Details hervorzuheben oder Text zu schreiben, den andere Benutzer lesen können.
 
 >[!NOTE]
 >
->Bei Videos können Benutzer nur am oberen Rand des Bildschirms Anmerkungen hinzufügen.
+>Für Video können Benutzer nur auf dem Bildschirm Anmerkungen hinzufügen.
 
-* Die verschiedenen Anmerkungen, die ausgewählt werden können, sind **Ellipse**, **Falte**, **Pfeil**, **hervorheben** und **Text**.
+* Die verschiedenen Annotationen, die ausgewählt werden können, sind **Ellipse**, **Line**, **Pfeil**, **Hervorheben** und **Text**.
 
 * Wählen Sie eine Farbe für jede Anmerkung im Farbbedienfeld im Eigenschaftenbedienfeld der Anmerkung.
-* Für **Text**&quot; die folgenden Eigenschaften aus: Schriftart, Fett, Kursiv, Überschrift, Ausrichtung, Farbe und Hintergrundfarbe.
+* Für **Text**, wählen Sie die folgenden Eigenschaften: Schriftart, fett, kursiv, Überschrift, Ausrichtung, Farbe und Hintergrundfarbe.
 
 >[!NOTE]
 >
->Um die Hintergrundfarbe für Text anzuzeigen, aktivieren Sie die Hintergrundfarbe &quot;Ja&quot;.
+>Um die Hintergrundfarbe für Text anzuzeigen, aktivieren Sie die Hintergrundfarbe, indem Sie „Ja“ wählen.
 
-## Zuschneiden (alle Arten von Video- und Audioaufzeichnungen) {#trimalltypesofvideoandaudiorecordings}
+## Zuschneiden (alle Arten von Video- und Audioaufnahmen) {#trimalltypesofvideoandaudiorecordings}
 
-Mit dem Zuschneidewerkzeug können Sie Teile eines Video- oder Audioinhalts zuschneiden oder entfernen, die nicht benötigt werden.
+Verwenden Sie zum Zuschneiden oder Entfernen von Teilen eines Videos oder Audio, Teile, die nicht erforderlich sind, indem Sie das Zuschneidewerkzeug verwenden.
 
-Klicken Sie zum Zuschneiden auf **[!UICONTROL Trim starten]** oder klicken Sie auf das Pluszeichen in der Zeitleiste, um mit dem Zuschneiden zu beginnen. Klicken Sie dann auf die Pause-Schaltfläche im Player, um das Zuschneiden zu beenden. Klicken Sie auf **[!UICONTROL Bestätigen]** , um das Zuschneiden abzuschließen.
+Klicken Sie zum Zuschneiden auf **[!UICONTROL Trim starten]** oder klicken Sie auf das Pluszeichen in der Zeitleiste, um mit dem Zuschneiden zu beginnen. Klicken Sie dann auf die „Schaltfläche „Pause“ auf dem Player, um das Zuschneiden zu stoppen. Klicken Sie auf die Schaltfläche **[!UICONTROL Bestätigen]**, um das Zuschneiden abzuschließen.
 
 Aufzeichnungen können zugeschnitten werden, indem Sie die Zeit in das Feld **[!UICONTROL Startzeit]** und **[!UICONTROL Endzeit]** Eingabefelder nach der Aktivierung **[!UICONTROL Timing ändern]**.
 
@@ -133,45 +133,45 @@ Aufzeichnungen können zugeschnitten werden, indem Sie die Zeit in das Feld **[!
 ![](assets/confirm-trim-06.png)
 *Zuschneiden bestätigen*
 
-## Schwenken und Zoomen (jede Videoaufzeichnung) {#panampzoomanyvideorecording}
+## Schwenk/Zoom (beliebige Videoaufnahme) {#panampzoomanyvideorecording}
 
-Die Aktion &quot;Schwenken und Zoomen&quot; kann nur auf dem **Beide** (Webcam und Bildschirm) Videoaufzeichnungen. Standardmäßig ist die gesamte Webcam oder der gesamte Bildschirm ausgewählt. Wählen Sie den Eckgriff aus, und ziehen Sie, um den Teil des Bildschirms auszuwählen, der angezeigt oder fokussiert werden soll. Doppelklicken Sie auf das Fenster, um den Vollbildmodus zu aktivieren.
+Die Aktion &quot;Schwenken und Zoomen&quot; kann nur auf dem **Beide** (Webcam und Bildschirm) Videoaufzeichnungen. Standardmäßig ist die gesamte Webcam oder der gesamte Bildschirm ausgewählt. Wählen Sie den Eckpunkt und ziehen Sie, um den Teil des Bildschirms auszuwählen, der angezeigt oder fokussiert werden soll. Doppelklicken Sie auf das Fenster, um den Vollbildmodus zu aktivieren.
 
 ![](assets/pan-zoom-artboard10.png)
 *Schwenken und Zoomen*
 
-## Branding (alle Arten von Videoaufzeichnungen) {#brandingalltypesofvideorecordings}
+## Branding (alle Arten von Videoaufnahmen) {#brandingalltypesofvideorecordings}
 
-Um einen eindeutigen Namen für ein Video zusammen mit einem einheitlichen Design zu erstellen, wählen Sie das Branding-Tool aus. Das Branding zielt darauf ab, eine bedeutende und differenzierte Präsenz im Learning-Management-System herzustellen, die Teilnehmer dazu anzieht und hält, das gesamte Video anzusehen.
+Um einen eindeutigen Namen für ein Video mit einem konsistenten Thema zu erstellen, wählen Sie das Branding-Tool aus. Das Branding zielt darauf ab, eine signifikante und differenzierte Präsenz im Lernmanagementsystem zu etablieren, durch die die Teilnehmer angezogen werden, um das gesamte Video zu schauen.
 
-Gehen Sie wie folgt vor, um einem Video ein Branding oder ein Design hinzuzufügen:
+So fügen Sie einem Video ein Branding oder ein Thema hinzu:
 
-1. Klicken Sie im linken Navigationsfenster des Bearbeitungsfensters auf das Branding-Symbol.
+1. Klicken Sie im Bearbeitungsfenster im linken Navigationsbereich auf das Branding-Symbol.
 1. Wählen Sie ein **Design** aus den angegebenen Optionen auswählen oder Benutzer können ihr eigenes Design anpassen, indem sie ein **anlassen**, **Hintergrund,** und **Ende** von ihrem System importieren.
 
    >[!NOTE]
    >
-   >Klicken Sie auf das Symbol **Weitere Elemente abrufen** klicken.
+   >Um weitere Themen herunterzuladen, klicken Sie auf die Schaltfläche **Weiter Assets abrufen**.
 
-1. Fügen Sie einen Videotiteltext hinzu und wählen Sie im Fenster &quot; **Anzeigen unter** -Raster angezeigt werden.
+1. Fügen Sie einen Videotiteltext hinzu und wählen Sie im Raster **Anzeigen unter** einen Speicherort aus, an dem er angezeigt werden soll.
 
    >[!NOTE]
    >
-   >Titeltext kann nur als Teil eines Branding-Videos hinzugefügt werden. Bevor Sie dem Branding-Video einen Titel verleihen, ist ein Design erforderlich.
+   >Titeltext kann nur als Teil eines Branding-Videos hinzugefügt werden. Bevor Sie dem Branding-Video einen Titel geben können, ist ein Thema erforderlich.
 
-1. Fügen Sie bei Bedarf einen Namen und einen Titel für den Moderator hinzu. Geben Sie im Feld Anzeige am Abspielkopf eine Zahl innerhalb des Video-Zeitbereichs für den Namen und Titel des Moderators ein, der während der Wiedergabe des Videos angezeigt werden soll.
-1. Fügen Sie bei Bedarf ein Branding-Symbol auf der linken oder rechten Seite des Videobildschirms hinzu. Um ein Branding-Symbol auszuwählen, klicken Sie auf **[!UICONTROL Auswählen]** > **[!UICONTROL Vom System aus suchen]**.
-1. Um eine Vorschau des Videos anzuzeigen, klicken Sie im Vorschaubildschirm auf die Schaltfläche &quot;Abspielen&quot;.
+1. Fügen Sie dem Video gegebenenfalls einen Moderatorennamen und einen Moderatorentitel hinzu. Geben Sie im Feld „Anzeige im Abspielkopf“ eine Nummer innerhalb des Videozeitbereichs ein, die den Namen und den Titel des Moderators während der Wiedergabe des Videos anzeigt.
+1. Fügen Sie ggf. ein Branding-Symbol auf der linken oder rechten Seite des Videobildschirms hinzu. Um ein Branding-Symbol auszuwählen, klicken Sie auf **[!UICONTROL Auswählen]** > **[!UICONTROL Vom System aus suchen]**.
+1. Um eine Vorschau des Videos anzuzeigen, klicken Sie auf die Wiedergabeschaltfläche im Vorschaubildschirm.
 
    ![](assets/branding-options.png)
 
    *Branding*
 
-## Aufzeichnen zusätzlicher Clips (alle Arten von Video- und Audioaufzeichnungen) {#recordingadditionalclipsalltypesofvideoandaudiorecordings}
+## Aufzeichnen zusätzlicher Clips (alle Arten von Video- und Audioaufnahmen) {#recordingadditionalclipsalltypesofvideoandaudiorecordings}
 
-Zusätzliche Audio- und Video-Clips können in einer vorhandenen Video- oder Audiodatei aufgezeichnet werden.
+Zusätzliche Audio- und Videoclips können in eine vorhandene Video- oder Audiodatei aufgenommen werden.
 
-Um eine neue Aufzeichnung zu starten, klicken Sie auf das Symbol &quot;Zusätzlichen Clip aufzeichnen&quot;. Die neue Aufnahme wird an der Abspielkopfposition in der Aufnahme eingefügt, die bearbeitet wird.
+Um eine neue Aufnahme zu starten, klicken Sie auf das Symbol zum Aufzeichnen zusätzlicher Clips. Die neue Aufnahme wird an der Abspielkopfposition in der Aufnahme eingefügt, die bearbeitet wird.
 
 ## Veröffentlichen einer Videoaufnahme, einer Audioaufnahme und eines Screenshots {#publishing}
 
@@ -182,31 +182,31 @@ Nachdem alle Änderungen und Änderungen vorgenommen wurden, klicken Sie auf **[
 
 ## Durchsuchen der Desktopgalerie von Learning Manager {#browsingcaptivateprimedesktopgallery}
 
-Alle Aufzeichnungen und Screenshots werden in der Adobe Learning Manager-Desktopanwendung gespeichert. Zum Durchsuchen dieser Dateien klicken Sie auf **[!UICONTROL Galerie]** im linken Navigationsbereich auf der Startseite.
+Alle Aufnahmen und Screenshots werden in der Adobe Learning Manager-Desktop-Anwendung gespeichert. Zum Durchsuchen dieser Dateien klicken Sie auf **[!UICONTROL Galerie]** im linken Navigationsbereich auf der Startseite.
 
 >[!NOTE]
 >
 >Die Galerie kann auch über Soziales Lernen gestartet werden, indem Sie auf das Symbol **Learning Manager-Galerie** Symbol beim Erstellen eines Beitrags.
 
-Geben Sie im Galeriefenster den Namen der gesuchten Datei in das Suchfeld ein.
+Geben Sie im Galerie-Fenster den Namen der gesuchten Datei in das Suchfeld ein.
 
-Um eine neue Aufnahme über das Galeriefenster zu erstellen, klicken Sie auf das Symbol **Neu aufzeichnen** klicken.
+Um eine neue Aufnahme im Galeriefenster zu erstellen, klicken Sie auf die Schaltfläche **Neu aufzeichnen**.
 
-Um eine Datei in der Galerie zu bearbeiten oder zu löschen, klicken Sie unten in der Datei auf die drei Punkte und wählen Sie die entsprechende Option in der Popup-Liste aus.
+Um eine Datei aus der Galerie zu bearbeiten oder zu löschen, klicken Sie auf die drei Punkte unten in der Datei und wählen Sie Ihre Option aus der Popup-Liste aus.
 
 ## Benachrichtigungen {#notifications}
 
-Benachrichtigungen im Lern-Manager werden im Benachrichtigungsfenster angezeigt, unabhängig davon, ob der Teilnehmer bei der Lern-Manager-Webanwendung angemeldet ist. Benachrichtigungen umfassen Beiträge oder Boards, die Benutzer erstellt haben, denen sie folgen oder an denen sie teilgenommen haben. Durch Klicken auf die Benachrichtigung navigiert der Benutzer zum Learning Manager Social Learning-Web.
+Benachrichtigungen in Learning Manager werden im Benachrichtigungsfenster angezeigt, unabhängig davon, ob die Teilnehmenden bei der Learning Manager-Webanwendung angemeldet sind. Benachrichtigungen umfassen Beiträge oder Foren, die von Benutzern erstellt wurden oder denen sie folgen oder an denen sie teilgenommen haben. Durch Klicken auf die Benachrichtigung werden die Benutzenden zum Soziales Lernen-Web von Learning Manager weitergeleitet.
 
 Um Benachrichtigungen stummzuschalten, klicken Sie auf **[!UICONTROL Profilmenü*]* > **[!UICONTROL Einstellungen] > **[!UICONTROL Benachrichtigungen stummschalten]**.
 
-## Einstellungen in der Adobe Learning Manager-Desktopanwendung {#settingsinadobecaptivateprimedesktopapplication}
+## Einstellungen in der Adobe Learning Manager-Desktop-Anwendung {#settingsinadobecaptivateprimedesktopapplication}
 
-Im Dialogfeld &quot; **Einstellungen** &quot; die folgenden Einstellungen:
+Ändern Sie auf der Seite **Einstellungen** die folgenden Einstellungen:
 
-Stummschalten von Benachrichtigungen, Anwendung für den automatischen Start, Anwendung für automatische Aktualisierung, Produktverbesserung aktivieren
+Benachrichtigungen stummschalten, Anwendung automatisch starten, Anwendung automatisch aktualisieren, Produktverbesserung aktivieren.
 
-Benutzer können den Speicherort der Galerie auch ändern, indem sie auf das Symbol **Ändern** Hyperlink.
+Benutzer können den Speicherort der Galerie auch ändern, indem Sie auf den Hyperlink **Ändern** klicken.
 
 ![](assets/app-settings.png)
 *Adobe Learning Manager-App-Einstellungen*

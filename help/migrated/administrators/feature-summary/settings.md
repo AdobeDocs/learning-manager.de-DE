@@ -1,12 +1,12 @@
 ---
-description: Erfahren Sie mehr über die Learning Manager-Kontoeinstellungen, die Sie als Administrator konfigurieren können.
+description: Erfahren Sie mehr über Learning Manager-Kontoeinstellungen, die Sie als Administrator konfigurieren können.
 jcr-language: en_us
 title: Einstellungen
 contentowner: manochan
 source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
 workflow-type: tm+mt
 source-wordcount: '3791'
-ht-degree: 0%
+ht-degree: 70%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Einstellungen
 
-Erfahren Sie mehr über die Learning Manager-Kontoeinstellungen, die Sie als Administrator konfigurieren können.
+Erfahren Sie mehr über Learning Manager-Kontoeinstellungen, die Sie als Administrator konfigurieren können.
 
 Sie können Ihre Administratorprofileinstellungen ändern und Ihre Kontoeinstellungen aktualisieren. Anzeigen Ihrer Profilinformationen, Hinzufügen/Ändern von Profilfotos und Ändern von **[!UICONTROL Über mich]** Inhalt. Aktualisieren Sie Ihre Unternehmensinformationen, richten Sie Anmeldungsmethoden für Benutzer ein und richten Sie Connect-Integration über die Kontoeinstellungen ein.
 
@@ -26,9 +26,9 @@ Um die Kontoeinstellungen Ihrer Organisation zu aktualisieren, klicken Sie auf *
 
 Klicken **[!UICONTROL Ändern]** auf der Seite und bearbeiten Sie Land, Zeitzone, Gebietsschema und Geschäftsjahr.
 
-**Administrator kontaktieren konfigurieren**
+**Konfigurieren Sie „Administrator kontaktieren“**
 
-Wenn Sie die E-Mail-Adressen für den Support-Administrator für Ihr Unternehmen ändern oder hinzufügen möchten, können Sie diese konfigurieren, indem Sie auf **[!UICONTROL Allgemein]** im linken Bereich. Klicken **[!UICONTROL Ändern]** angrenzend an **[!UICONTROL Support-E-Mail-ID]** und die E-Mail-IDs hinzufügen. E-Mail wird an diese Administratoren gesendet, wenn Teilnehmer klickt **[!UICONTROL Administrator kontaktieren]** &quot; oben auf der Seite.
+Wenn Sie die E-Mail-Adressen für den Support-Administrator für Ihr Unternehmen ändern oder hinzufügen möchten, können Sie diese konfigurieren, indem Sie auf **[!UICONTROL Support]** im linken Bereich klicken. Klicken **[!UICONTROL Ändern]** angrenzend an **[!UICONTROL Support-E-Mail-ID]** und die E-Mail-IDs hinzufügen. E-Mail wird an diese Administratoren gesendet, wenn Teilnehmer klickt **[!UICONTROL Administrator kontaktieren]** &quot; oben auf der Seite.
 
 Fügen Sie zusätzliche E-Mails mit Semikolon als Trennzeichen hinzu.
 
@@ -41,13 +41,13 @@ Wenn Sie die Lern-Manager-ID wählen, können sich externe Benutzer bei diesem K
 
 >[!NOTE]
 >
->Wenn es mehrere externe Profilsätze gibt, können alle Profile einen beliebigen Login-Typ haben. Wenn der Anmeldetyp beispielsweise Adobe ID ist, müssen sich alle Profile nur mit Adobe ID anmelden. Jedes Profil kann nicht seinen eigenen Anmeldetyp haben.
+>Wenn es mehrere externe Profilsätze gibt, können alle Profile einen beliebigen Login-Typ haben. Wenn der Anmeldetyp beispielsweise Adobe ID ist, können sich alle Profile nur mit der Adobe ID anmelden. Jedes Profil kann nicht seinen einzelnen Anmeldetyp haben.
 
-Sie können über Adobe ID oder Single Sign-on auf die Learning Manager-Anwendung zugreifen. Die einmalige Anmeldung (SSO) ist ein Verfahren, mit dem ein Benutzer sich einmal authentifizieren kann und mehrmals auf mehrere Anwendungen zugreifen kann. Diese Konfiguration ist für das Unternehmen nicht obligatorisch. Wenn Ihre Organisation über einen SAML 2.0-basierten SSO-Anbieter verfügt, können Sie diesen zum Konfigurieren der Learning Manager-Anwendung verwenden. Die Konfiguration ist auf Organisationsebene und für die Learning Manager-Anwendung erforderlich. Wenn Sie SSO verwenden möchten, wenden Sie sich an den Adobe-Support, um Konfigurationsanweisungen zu erhalten.
+Sie können mit der Adobe ID oder über einmalige Anmeldung (SSO) auf die Learning Manager-Anwendung zugreifen. Die einmalige Anmeldung (SSO) ist ein Verfahren, über das ein Benutzer einmal authentifiziert wird und mehrmals auf mehrere Anwendungen zugreifen kann. Diese Konfiguration ist für das Unternehmen nicht zwingend erforderlich. Wenn Ihr Unternehmen über einen auf SAML 2.0 basierten SSO-Anbieter verfügt, können Sie diesen für die Konfiguration der Learning Manager-Anwendung verwenden. Die Konfiguration ist auf Unternehmensebene und für die Learning Manager-Anwendung erforderlich. Wenn Sie SSO verwenden möchten, wenden Sie sich zwecks Konfigurationsanweisungen an den Support von Adobe
 
 **Feedback**
 
-Klicken **[!UICONTROL Feedback]** auf der linken Seite, um den Fragebogen einzurichten, um Feedback von Teilnehmern zu erhalten, nachdem Sie einen Kurs absolviert haben. Siehe [Kursfunktionshilfe](courses.md) zum Erstellen von Feedback L1 und L3.
+Klicken Sie auf **[!UICONTROL Feedback]** im linken Bereich, um den Fragebogen einzurichten, um Feedback von Teilnehmern zu erhalten, nachdem Sie einen Kurs absolviert haben. Siehe [Kursfunktionshilfe](courses.md) zum Erstellen von Feedback L1 und L3.
 
 **Mehrere Versuche**
 
@@ -61,23 +61,23 @@ Wenn Sie das Kontrollkästchen &quot;Mehrere Versuche&quot; aktivieren, können 
 
 **Kursmoderation**
 
-Klicken **[!UICONTROL Allgemein]** im linken Teilfenster und wählen Sie die Option &quot;Kursmoderation&quot;, um die Funktion &quot;Kursmoderation&quot; zu aktivieren. Weitere Informationen zu dieser Funktion finden Sie unter [Kursmoderation](courses.md#main-pars_header_1879001177).
+Klicken Sie im linken Teilfenster auf **[!UICONTROL Allgemein]** und aktivieren Sie die Funktion „Kursmoderation“. Weitere Informationen zu dieser Funktion finden Sie unter [Kursmoderation](courses.md#main-pars_header_1879001177).
 
-**Diskussionsforum**
+**Diskussions-Dashboard**
 
-Wenn Sie das Kontrollkästchen &quot;Diskussions-Dashboard&quot; aktivieren, können Teilnehmer und Kursleiter in der Teilnehmer-App auf der Seite &quot;Kurse&quot; auf der Registerkarte &quot;Diskussionen&quot; Kommentare zu Kursen veröffentlichen. Wenn diese Funktion jedoch auf Kursebene nicht aktiviert ist, haben die Einstellungen auf Kursebene Vorrang vor Administratoreinstellungen.
+Wenn Sie das Kontrollkästchen „Diskussions-Dashboard“ aktivieren, können Teilnehmer und Kursleiter in der Teilnehmer-App auf der Seite „Kurse“ über die Registerkarte „Diskussionen“ Kommentare für Kurse veröffentlichen. Wenn diese Funktion jedoch auf Kursebene nicht aktiviert ist, haben die Einstellungen auf Kursebene Vorrang vor Administratoreinstellungen.
 
 **Teilnehmer-Dashboard**
 
-Klicken Sie im linken Teilfenster auf Teilnehmer-Dashboard. Auf dieser Seite können Sie Widgets auswählen, die auf der Teilnehmerseite angezeigt werden sollen. Wählen Sie die Widgets, die Sie auf der Teilnehmerseite aktivieren möchten. Die nicht ausgewählten Widgets werden nicht auf der Teilnehmerseite angezeigt.
+Klicken Sie im linken Teilfenster auf „Teilnehmer-Dashboard“. Auf dieser Seite können Sie Widgets wählen, die auf der Teilnehmerseite angezeigt werden sollen. Wählen Sie die Widgets, die Sie auf der Teilnehmerseite aktivieren möchten. Die nicht ausgewählten Widgets werden nicht auf der Teilnehmerseite angezeigt.
 
 **Adobe Connect**
 
-Klicken **[!UICONTROL Adobe Connect]** im linken Bereich, um das Adobe Connect-Konto zum Hosten von virtuellen Klassenzimmersitzungen zu konfigurieren. Weitere Informationen finden Sie unter  [Adobe Connect](adobeconnect-integration.md) Feature-Hilfe.
+Klicken Sie auf **[!UICONTROL Adobe Connect]** im linken Bereich, um das Adobe Connect-Konto zu konfigurieren, um virtuelle Klassenzimmersitzungen zu hosten. Weitere Informationen finden Sie unter  [Adobe Connect](adobeconnect-integration.md) Feature-Hilfe.
 
 ## Allgemeine Einstellungen {#general}
 
-Aktivieren oder deaktivieren Sie die folgenden Einstellungen:
+Aktivieren oder Deaktivieren der folgenden Einstellungen:
 
 <table>
  <tbody>
@@ -98,27 +98,27 @@ Aktivieren oder deaktivieren Sie die folgenden Einstellungen:
    <td>Wenn diese Option aktiviert ist, müssen alle Änderungen an Kursen vom Administrator genehmigt werden, bevor die Kurse für die Teilnehmer sichtbar sind.</td>
   </tr>
   <tr>
-   <td>Diskussionsforum</td>
-   <td>Wenn Sie das Kontrollkästchen "Diskussions-Dashboard" aktivieren, können Teilnehmer und Kursleiter in der Teilnehmer-App auf der Seite "Kurse" auf der Registerkarte "Diskussionen" Kommentare zu Kursen veröffentlichen. Wenn diese Funktion jedoch auf Kursebene nicht aktiviert ist, haben die Einstellungen auf Kursebene Vorrang vor Administratoreinstellungen.</td>
+   <td>Diskussions-Dashboard</td>
+   <td>Wenn Sie das Kontrollkästchen „Diskussions-Dashboard“ aktivieren, können Teilnehmer und Kursleiter in der Teilnehmer-App auf der Seite „Kurse“ über die Registerkarte „Diskussionen“ Kommentare für Kurse veröffentlichen. Wenn diese Funktion jedoch auf Kursebene nicht aktiviert ist, haben die Einstellungen auf Kursebene Vorrang vor Administratoreinstellungen.</td>
   </tr>
   <tr>
    <td>Mehrere Versuche</td>
-   <td>Wenn diese Option aktiviert ist, kann der Autor mehrere Versuche für Kursmodule konfigurieren.</td>
+   <td>Wenn aktiviert, kann der Autor mehrere Versuche für Kursmodule konfigurieren.</td>
   </tr>
   <tr>
    <td>Neue Kenntnisse entdecken</td>
-   <td>Wenn diese Option aktiviert ist, können die Teilnehmer Peer- und Führungskenntnisse entdecken und die Kenntnisse ihrer Wahl abonnieren.</td>
+   <td>Wenn diese Funktion aktiviert ist, können die Teilnehmer Peer- und Führungskenntnisse entdecken und nach eigener Wahl Kenntnisse abonnieren.</td>
   </tr>
   <tr>
    <td>Sichtbarkeit für Kenntnisse/Tags</td>
-   <td>Zeigen Sie Teilnehmern alle Kenntnisse und Tags an. Sie können entweder alle Kenntnisse und Tags anzeigen oder Kenntnisse und Tags, die zugewiesen sind, oder die Teil der Kataloge sind, die für den Teilnehmer sichtbar sind.</td>
+   <td>Zeigen Sie Teilnehmern alle Kenntnisse und Tags an Sie können entweder alle Kenntnisse und Tags anzeigen oder Kenntnisse und Tags, die zugewiesen sind, oder solche, die Teil der Kataloge sind, die für den Teilnehmer sichtbar sind.</td>
   </tr>
   <tr>
    <td>Eindeutige Lernobjekt-IDs</td>
-   <td>Wenn diese Option aktiviert ist, kann ein Administrator oder ein Autor eine eindeutige ID für jedes Lernobjekt hinzufügen.</td>
+   <td>Wenn aktiviert, kann ein Admin oder ein Autor eine eindeutige ID für jedes Lernobjekt hinzufügen.</td>
   </tr>
   <tr>
-   <td>Filterfelder anzeigen</td>
+   <td>Filterbereiche anzeigen</td>
    <td>
     <p><a id="filter-panels"></a>Legen Sie fest, welche Filterfelder Benutzern in der Teilnehmer-Anwendung zur Verbesserung ihrer Suchergebnisse zur Verfügung stehen Folgende Optionen stehen zur Verfügung:</p>
     <ul>
@@ -130,28 +130,28 @@ Aktivieren oder deaktivieren Sie die folgenden Einstellungen:
      <li>Qualifikationsstufen</li>
      <li>Tags</li>
     </ul>
-    <p>Wenn der Teilnehmer die Teilnehmer-App in den Abschnitten "Meine Lernprogramme" und "Katalog" startet, kann der Teilnehmer die Filter in den entsprechenden Fenstern sehen.</p>
-    <p><b>Hinweis: </b>Die Filter <b>Format </b>und <b>Dauer </b>sind standardmäßig deaktiviert und werden den Teilnehmern nicht unmittelbar nach der Veröffentlichung angezeigt. Der Administrator sollte sie aktivieren. <br></p></td>
+    <p>Wenn der Teilnehmer die Teilnehmer-App in den Abschnitten „Meine Lernprogramme“ und „Katalog“ startet, kann der Teilnehmer die Filter in den entsprechenden Fenstern sehen.</p>
+    <p><b>Hinweis: </b>Die Filter <b>Format </b>und <b>Dauer </b>werden standardmäßig deaktiviert und den Teilnehmern nicht unmittelbar nach der Veröffentlichung angezeigt. Der Administrator sollte sie aktivieren. <br></p></td>
   </tr>
   <tr>
    <td>Katalogliste anzeigen</td>
-   <td>Wenn diese Option aktiviert ist, können die Teilnehmer eine Liste aller für sie verfügbaren Kataloge anzeigen. Teilnehmer können dies verwenden, um die Anzeige der Lernobjekte zu verfeinern.</td>
+   <td>Wenn diese Option aktiviert ist, können die Teilnehmer eine Liste aller für sie verfügbaren Kataloge anzeigen. Die Teilnehmer können dies verwenden, um die Anzeige der Lernobjekte zu verfeinern.</td>
   </tr>
   <tr>
    <td>Produktterminologie</td>
-   <td>Learning Manager verfügt über eine Standardterminologie, die im gesamten Produkt verwendet wird. Passen Sie die Terminologie an die Anforderungen Ihres Unternehmens an.</td>
+   <td>Learning Manager verfügt über eine Standardterminologie, die im gesamten Produkt verwendet wird. Passen Sie die Terminologie an die Anforderungen Ihrer Organisation an.</td>
   </tr>
   <tr>
-   <td>Modulversionsupdate</td>
+   <td>Modulversions-Update</td>
    <td>Konfigurieren Sie die Standardeinstellung zum Aktualisieren von Inhalten. Die Einstellungen können für jeden Inhalt auf der Kursseite geändert werden.</td>
   </tr>
   <tr>
    <td>Benutzer automatisch registrieren</td>
-   <td>Wenn diese Option aktiviert ist, werden neu importierte Benutzer automatisch registriert. Standardmäßig müssen Benutzer manuell registriert werden, bevor sie den Lern-Manager verwenden können.</td>
+   <td>Wenn aktiviert, werden neu importierte Benutzer automatisch registriert. Standardmäßig müssen Benutzer manuell registriert werden, bevor sie Learning Manager verwenden können.</td>
   </tr>
   <tr>
    <td><a id="autodelete"></a>Interne Benutzer automatisch löschen</td>
-   <td>Wenn diese Option aktiviert ist, werden interne Benutzer automatisch gelöscht, wenn sie für eine bestimmte Anzahl von Tagen nicht auf das System zugreifen. Diese Funktion gilt für Benutzer, die nur die Rolle haben. <b>Teilnehmer</b>. Um den Zugriff wiederherzustellen, müssen Benutzer sich an den Administrator wenden.<br></td>
+   <td>Wenn diese Option aktiviert ist, werden interne Benutzer automatisch gelöscht, wenn sie für eine bestimmte Anzahl von Tagen nicht auf das System zugreifen. Diese Funktion gilt für Benutzer, die nur die Rolle <b>Teilnehmer</b> haben. Um den Zugriff wiederherzustellen, müssen Benutzer sich an den Administrator wenden.<br></td>
   </tr>
   <tr>
    <td>Katalogbeschriftungen anzeigen</td>
@@ -159,15 +159,15 @@ Aktivieren oder deaktivieren Sie die folgenden Einstellungen:
   </tr>
   <tr>
    <td>Teilnehmer können ihre Punktzahl anzeigen</td>
-   <td>Wenn diese Option aktiviert ist, können die Teilnehmer ihre Punktzahl im Teilnehmertranskript anzeigen.</td>
+   <td>Wenn diese Option aktiviert ist, können die Teilnehmer ihre Ergebnisse in der Lernendenabschrift einsehen.</td>
   </tr>
   <tr>
    <td>Auswahl-E-Mail</td>
    <td>
     <p>Ein Administrator kann das Senden einer E-Mail an Teilnehmer aktivieren oder deaktivieren. Der Administrator kann auch die Häufigkeit der gesendeten E-Mails steuern.</p>
     <ul>
-     <li>Für <b>Kontokorrentkonto</b>, Auswahl-E-Mails sind standardmäßig deaktiviert, sodass sie vom Administrator manuell aktiviert werden können.</li>
-     <li>Für <b>Testkonten</b>, die Option für Auswahl-E-Mails bleibt deaktiviert und der Administrator kann die Option nicht aktivieren.</li>
+     <li>Bei <b>aktiven Konten</b> sind Auswahl-E-Mails standardmäßig deaktiviert, sodass sie vom Administrator manuell aktiviert werden können.</li>
+     <li>Bei <b>Testkonten</b> bleibt die Option für Auswahl-E-Mails deaktiviert und der Administrator kann die Option nicht aktivieren.</li>
     </ul>
     <p>Wenn die Funktion deaktiviert ist, gilt:</p>
     <ul>
@@ -176,8 +176,8 @@ Aktivieren oder deaktivieren Sie die folgenden Einstellungen:
     </ul>
     <p> Wenn die Funktion aktiviert ist, gilt:</p>
     <ul>
-     <li>Der Administrator kann die Option "Auswahl-E-Mail" aktivieren und ändern.</li>
-     <li>Im Fenster " <b>Profileinstellungen </b>in der Teilnehmer-App kann ein Teilnehmer (nicht in der DND-Liste) die Auswahl-E-Mail abonnieren/abbestellen.</li>
+     <li>Der Administrator kann die Option „Auswahl-E-Mail“ aktivieren und ändern.</li>
+     <li>Über die <b>Profileinstellungen </b>in der Teilnehmer-App kann ein Teilnehmer (nicht in der DND-Liste) die Auswahl-E-Mail abonnieren/abbestellen.</li>
     </ul></td>
   </tr>
   <tr>
@@ -188,16 +188,16 @@ Aktivieren oder deaktivieren Sie die folgenden Einstellungen:
    <td>Links für Fußzeile</td>
    <td>
     <p>Fügen Sie Links oder E-Mail-IDs hinzu, die als Fußzeilen angezeigt werden. Sie können maximal drei Fußzeilenlinks hinzufügen.</p>
-    <p>Um die Links in der Fußzeile anzupassen, führen Sie die folgenden Schritte aus:</p>
+    <p>Führen Sie die folgenden Schritte aus, um die Links in der Fußzeile anzupassen:</p>
     <ol>
-     <li>Klicken <b>Mehr hinzufügen</b>den Namen und die URL oder E-Mail-ID in die angegebenen Felder ein. Stellen Sie der URL http:// oder https:// voran.</li>
-     <li>Um die Änderung in alle Ländereinstellungen zu übertragen, klicken Sie auf <b>Replizieren</b>. Dadurch wird sichergestellt, dass alle Sprachen den Namen und die URL erhalten.</li>
-     <li>Klicken Sie zum Speichern der Änderungen auf <b>Speichern</b>. Sie können eine Popup-Nachricht sehen, die die Änderung bestätigt. Nachdem Sie auf "OK" geklickt haben, wird die Fußzeile mit den neu hinzugefügten Links ausgefüllt.</li>
+     <li>Klicken Sie auf <b>Mehr hinzufügen</b>, geben Sie den Namen und die URL oder E-Mail-ID in die angegebenen Felder ein. Stellen Sie der URL http:// oder https:// voran.</li>
+     <li>Klicken Sie auf <b>Replizieren</b>, um die Änderung in alle Ländereinstellungen zu übertragen. Dies stellt sicher, dass alle Sprachen den Namen und die URL erhalten.</li>
+     <li>Um die Änderungen zu speichern, klicken Sie auf <b>Speichern</b>. Sie können eine Popup-Nachricht sehen, die die Änderung bestätigt. Nachdem Sie auf „OK“ geklickt haben, wird die Fußzeile mit den neu hinzugefügten Links gefüllt.</li>
     </ol>
-    <p>Darüber hinaus haben Sie folgende Möglichkeiten:</p>
+    <p>Zusätzlich können Sie:</p>
     <ul>
      <li>Klicken Sie auf <b>Zurücksetzen</b> , um die Standardwerte im Dialogfeld " <b>Hilfe</b> und <b>Administrator kontaktieren</b> Felder.</li>
-     <li>Passen Sie den Link in der Fußzeile für alle Sprachen an. Klicken Sie auf <b>Sprache</b> " die Sprache aus und fügen Sie das Dialogfeld " <b>Name</b> und <b>URL</b> in die angegebenen Felder ein. Nachdem Sie die Änderungen gespeichert haben, werden die aktualisierten Links in der Fußzeile angezeigt.<br></li>
+     <li>Passen Sie den Link in der Fußzeile für alle Sprachen an. Klicken Sie auf die Dropdown-Liste <b>Sprache</b>, wählen Sie die Sprache aus und fügen Sie den <b>Namen</b> und die <b>URL</b> in die angegebenen Felder ein. Nachdem Sie die Änderungen gespeichert haben, werden die aktualisierten Links in der Fußzeile angezeigt.<br></li>
     </ul></td>
   </tr>
   <tr>
@@ -222,34 +222,34 @@ Aktivieren oder deaktivieren Sie die folgenden Einstellungen:
   </tr>
   <tr>
    <td height="20">Kurseffektivität anzeigen</td>
-   <td>Wenn diese Option aktiviert ist, können Teilnehmer die aktuelle Kurseffektivität auf der Kurskachel sehen.</td>
+   <td>Teilnehmer können aktuelle Kurseffizienz im Kurstitel sehen, wenn die Option aktiviert ist.</td>
   </tr>
   <tr>
    <td height="20">Kursmoderation</td>
    <td>Wenn diese Option aktiviert ist, müssen alle Änderungen an Kursen vom Administrator genehmigt werden, bevor die Kurse für die Teilnehmer sichtbar sind.</td>
   </tr>
   <tr>
-   <td height="20">Diskussionsforum</td>
-   <td>Wenn Sie das Kontrollkästchen "Diskussions-Dashboard" aktivieren, können Teilnehmer und Kursleiter in der Teilnehmer-App auf der Seite "Kurse" auf der Registerkarte "Diskussionen" Kommentare zu Kursen veröffentlichen. Wenn diese Funktion jedoch auf Kursebene nicht aktiviert ist, haben die Einstellungen auf Kursebene Vorrang vor Administratoreinstellungen.</td>
+   <td height="20">Diskussions-Dashboard</td>
+   <td>Wenn Sie das Kontrollkästchen „Diskussions-Dashboard“ aktivieren, können Teilnehmer und Kursleiter in der Teilnehmer-App auf der Seite „Kurse“ über die Registerkarte „Diskussionen“ Kommentare für Kurse veröffentlichen. Wenn diese Funktion jedoch auf Kursebene nicht aktiviert ist, haben die Einstellungen auf Kursebene Vorrang vor Administratoreinstellungen.</td>
   </tr>
   <tr>
    <td height="20">Mehrere Versuche</td>
-   <td>Wenn diese Option aktiviert ist, kann der Autor mehrere Versuche für Kursmodule konfigurieren.</td>
+   <td>Wenn aktiviert, kann der Autor mehrere Versuche für Kursmodule konfigurieren.</td>
   </tr>
   <tr>
    <td height="20">Neue Kenntnisse entdecken</td>
-   <td>Wenn diese Option aktiviert ist, können die Teilnehmer Peer- und Führungskenntnisse entdecken und die Kenntnisse ihrer Wahl abonnieren.</td>
+   <td>Wenn diese Funktion aktiviert ist, können die Teilnehmer Peer- und Führungskenntnisse entdecken und nach eigener Wahl Kenntnisse abonnieren.</td>
   </tr>
   <tr>
    <td height="20">Sichtbarkeit für Kenntnisse/Tags</td>
-   <td>Zeigen Sie Teilnehmern alle Kenntnisse und Tags an. Sie können entweder alle Kenntnisse und Tags anzeigen oder Kenntnisse und Tags, die zugewiesen sind, oder die Teil der Kataloge sind, die für den Teilnehmer sichtbar sind.</td>
+   <td>Zeigen Sie Teilnehmern alle Kenntnisse und Tags an Sie können entweder alle Kenntnisse und Tags anzeigen oder Kenntnisse und Tags, die zugewiesen sind, oder solche, die Teil der Kataloge sind, die für den Teilnehmer sichtbar sind.</td>
   </tr>
   <tr>
    <td height="20">Eindeutige Lernobjekt-IDs</td>
-   <td>Wenn diese Option aktiviert ist, kann ein Administrator oder ein Autor eine eindeutige ID für jedes Lernobjekt hinzufügen.</td>
+   <td>Wenn aktiviert, kann ein Admin oder ein Autor eine eindeutige ID für jedes Lernobjekt hinzufügen.</td>
   </tr>
   <tr>
-   <td rowspan="10" height="191">Filterfelder anzeigen</td>
+   <td rowspan="10" height="191">Filterbereiche anzeigen</td>
    <td>Legen Sie fest, welche Filterfelder Benutzern in der Teilnehmer-Anwendung zur Verbesserung ihrer Suchergebnisse zur Verfügung stehen Folgende Optionen stehen zur Verfügung:</td>
   </tr>
   <tr>
@@ -274,26 +274,26 @@ Aktivieren oder deaktivieren Sie die folgenden Einstellungen:
    <td height="19">Tags</td>
   </tr>
   <tr>
-   <td height="19">Wenn der Teilnehmer die Teilnehmer-App in den Abschnitten "Meine Lernprogramme" und "Katalog" startet, kann der Teilnehmer die Filter in den entsprechenden Fenstern sehen.</td>
+   <td height="19">Wenn der Teilnehmer die Teilnehmer-App in den Abschnitten „Meine Lernprogramme“ und „Katalog“ startet, kann der Teilnehmer die Filter in den entsprechenden Fenstern sehen.</td>
   </tr>
   <tr>
    <td height="20">Hinweis: Die Filter Format und Dauer werden standardmäßig deaktiviert und den Teilnehmern nicht unmittelbar nach der Veröffentlichung angezeigt. Der Administrator sollte sie aktivieren. </td>
   </tr>
   <tr>
    <td height="20">Katalogliste anzeigen</td>
-   <td>Wenn diese Option aktiviert ist, können die Teilnehmer eine Liste aller für sie verfügbaren Kataloge anzeigen. Teilnehmer können dies verwenden, um die Anzeige der Lernobjekte zu verfeinern.</td>
+   <td>Wenn diese Option aktiviert ist, können die Teilnehmer eine Liste aller für sie verfügbaren Kataloge anzeigen. Die Teilnehmer können dies verwenden, um die Anzeige der Lernobjekte zu verfeinern.</td>
   </tr>
   <tr>
    <td height="20">Produktterminologie</td>
-   <td>Learning Manager verfügt über eine Standardterminologie, die im gesamten Produkt verwendet wird. Passen Sie die Terminologie an die Anforderungen Ihres Unternehmens an.</td>
+   <td>Learning Manager verfügt über eine Standardterminologie, die im gesamten Produkt verwendet wird. Passen Sie die Terminologie an die Anforderungen Ihrer Organisation an.</td>
   </tr>
   <tr>
-   <td height="20">Modulversionsupdate</td>
+   <td height="20">Modulversions-Update</td>
    <td>Konfigurieren Sie die Standardeinstellung zum Aktualisieren von Inhalten. Die Einstellungen können für jeden Inhalt auf der Kursseite geändert werden.</td>
   </tr>
   <tr>
    <td height="20">Benutzer automatisch registrieren</td>
-   <td>Wenn diese Option aktiviert ist, werden neu importierte Benutzer automatisch registriert. Standardmäßig müssen Benutzer manuell registriert werden, bevor sie den Lern-Manager verwenden können.</td>
+   <td>Wenn aktiviert, werden neu importierte Benutzer automatisch registriert. Standardmäßig müssen Benutzer manuell registriert werden, bevor sie Learning Manager verwenden können.</td>
   </tr>
   <tr>
    <td height="20">Interne Benutzer automatisch löschen</td>
@@ -305,7 +305,7 @@ Aktivieren oder deaktivieren Sie die folgenden Einstellungen:
   </tr>
   <tr>
    <td height="20">Teilnehmer können ihre Punktzahl anzeigen</td>
-   <td>Wenn diese Option aktiviert ist, können die Teilnehmer ihre Punktzahl im Teilnehmertranskript anzeigen.</td>
+   <td>Wenn diese Option aktiviert ist, können die Teilnehmer ihre Ergebnisse in der Lernendenabschrift einsehen.</td>
   </tr>
   <tr>
    <td rowspan="9" height="172">Auswahl-E-Mail</td>
@@ -330,7 +330,7 @@ Aktivieren oder deaktivieren Sie die folgenden Einstellungen:
    <td height="19"> Wenn die Funktion aktiviert ist, gilt:</td>
   </tr>
   <tr>
-   <td height="19">Der Administrator kann die Option "Auswahl-E-Mail" aktivieren und ändern.</td>
+   <td height="19">Der Administrator kann die Option „Auswahl-E-Mail“ aktivieren und ändern.</td>
   </tr>
   <tr>
    <td height="20">Über die Profileinstellungen in der Teilnehmer-App kann ein Teilnehmer (nicht in der DND-Liste) die Auswahl-E-Mail abonnieren/abbestellen.</td>
@@ -344,19 +344,19 @@ Aktivieren oder deaktivieren Sie die folgenden Einstellungen:
    <td>Fügen Sie Links oder E-Mail-IDs hinzu, die als Fußzeilen angezeigt werden. Sie können maximal drei Fußzeilenlinks hinzufügen.</td>
   </tr>
   <tr>
-   <td height="19">Um die Links in der Fußzeile anzupassen, führen Sie die folgenden Schritte aus:</td>
+   <td height="19">Führen Sie die folgenden Schritte aus, um die Links in der Fußzeile anzupassen:</td>
   </tr>
   <tr>
    <td height="19">1. Klicken Sie auf Mehr hinzufügen, geben Sie den Namen und die URL oder E-Mail-ID in die angegebenen Felder ein. Stellen Sie der URL http:// oder https:// voran.</td>
   </tr>
   <tr>
-   <td height="19">2. Klicken Sie auf "Replizieren", um die Änderung in alle Ländereinstellungen zu übertragen. Dadurch wird sichergestellt, dass alle Sprachen den Namen und die URL erhalten.</td>
+   <td height="19">2. Klicken Sie auf "Replizieren", um die Änderung in alle Ländereinstellungen zu übertragen. Dies stellt sicher, dass alle Sprachen den Namen und die URL erhalten.</td>
   </tr>
   <tr>
-   <td height="19">3. Um die Änderungen zu speichern, klicken Sie auf "Speichern". Sie können eine Popup-Nachricht sehen, die die Änderung bestätigt. Nachdem Sie auf "OK" geklickt haben, wird die Fußzeile mit den neu hinzugefügten Links ausgefüllt.</td>
+   <td height="19">3. Um die Änderungen zu speichern, klicken Sie auf "Speichern". Sie können eine Popup-Nachricht sehen, die die Änderung bestätigt. Nachdem Sie auf „OK“ geklickt haben, wird die Fußzeile mit den neu hinzugefügten Links gefüllt.</td>
   </tr>
   <tr>
-   <td height="19">Darüber hinaus haben Sie folgende Möglichkeiten:</td>
+   <td height="19">Zusätzlich können Sie:</td>
   </tr>
   <tr>
    <td height="19">Klicken Sie auf das Symbol Zurücksetzen , um die Standardwerte in den Feldern Hilfe und Administrator kontaktieren zurückzusetzen.</td>
@@ -382,15 +382,15 @@ Aktivieren oder deaktivieren Sie die folgenden Einstellungen:
   </tr>
   <tr>
    <td height="19">Badgr-Integration</td>
-   <td>Wenn diese Option aktiviert ist, können die Teilnehmer ihre Abzeichen auf die Badgr-Website hochladen. In Kundenschulungsszenarien möchten Unternehmen ihre Kunden "zertifizieren" und ihnen die Möglichkeit geben, diese Anmeldedaten über soziale Medien anzuzeigen. Dies motiviert den Teilnehmer, eine Schulung zu absolvieren und seine Leistungen mit anderen zu teilen. </td>
+   <td>Wenn diese Option aktiviert ist, können die Teilnehmer ihre Abzeichen auf die Badgr-Website hochladen. In Kundenschulungsszenarien möchten Unternehmen ihre Kunden „zertifizieren“ und ihnen die Möglichkeit geben, diese Anmeldedaten über soziale Netzwerke anzuzeigen. Dies motiviert den Teilnehmer, eine Schulung zu absolvieren und seine Leistungen mit anderen zu teilen. </td>
   </tr>
   <tr>
    <td height="135">
     <p>Bewertung anzeigen</p></td>
    <td>
     <ul>
-     <li>Wenn die Option <b>Kurseffektivität</b> aktiviert ist, können die Teilnehmer nur den Wert der Kurseffektivität sehen.</li>
-     <li>Wenn die Option <b>Sternebewertung</b> aktiviert ist, können Teilnehmer nur die durchschnittliche Sternebewertung sehen sowie die Anzahl der Teilnehmer, die den Kurs bewertet haben.<br></li>
+     <li>Wenn die Option <b>Kurseffektivität</b> aktiviert ist, können Teilnehmer nur den Wert der Kurseffektivität sehen.</li>
+     <li>Wenn die Option <b>Bewertungssterne</b> aktiviert ist, können Teilnehmer nur die durchschnittliche Sternebewertung sehen sowie die Anzahl der Teilnehmer, die den Kurs bewertet haben.<br></li>
     </ul>
     <p>Diese Funktion ist nur für Kurse verfügbar. Die Sternebewertung wird für Lernprogramme oder Zertifikate nicht unterstützt.<br><br><b>Hinweis: </b>Diese Änderung betrifft nur die Teilnehmer-App. </p>
     <p>In allen anderen Apps (Admin, Autor, Manager, benutzerdefinierter Administrator, benutzerdefinierter Autor) haben Änderungen an den Einstellungen (Sternebewertung/Kurseffektivität/Deaktivierung der Bewertungsanzeige) keine Auswirkungen. </p>
@@ -404,15 +404,15 @@ Aktivieren oder deaktivieren Sie die folgenden Einstellungen:
  <tbody>
   <tr>
    <td>
-    <p>Lernpfade</p></td>
+    <p>Lernpläne</p></td>
    <td>
-    <p>Wenn die Option <b>Erweiterte Funktionen des Lernplans aktivieren</b> aktiviert ist, können Administratoren Lernpläne in Lernpläne aufnehmen und diese Lernpläne mit Kursen kombinieren. Diese Option ist unumkehrbar.<br></p></td>
+    <p>Wenn die Option <b>Erweiterte Funktionen des Lernplans aktivieren</b> aktiviert ist, können Administratoren Lernpläne in andere Lernpläne aufnehmen und diese Lernpläne mit Kursen kombinieren. Die Aktivierung dieser Option kann nicht rückgängig gemacht werden.<br></p></td>
   </tr>
   <tr>
    <td>
-    <p>Kursleiter-Management<br></p></td>
+    <p>Kursleiterverwaltung<br></p></td>
    <td>
-    <p>Aktivieren Sie diese Einstellung, um die Liste der Kursleiter einzuschränken, die beim Erstellen von Klassenzimmer-/virtuellen Klassenzimmersitzungen ausgewählt werden können. Alle Benutzer, für die der Kursleiter Berechtigungen hat, können nur als Kursleiter einer Sitzung zugewiesen werden. Diese Einschränkung gilt nicht für Migrationsarbeitsabläufe.<br></p></td>
+    <p>Aktivieren Sie diese Einstellung, um die Liste der Kursleiter einzuschränken, die beim Erstellen von Sitzungen für Klassenzimmer/virtuelle Klassenzimmer ausgewählt werden können. Alle Benutzer mit Kursleiterberechtigung können einer beliebigen Sitzung nur als Kursleiter zugewiesen werden. Diese Einschränkung gilt nicht für Migrationsarbeitsabläufe.<br></p></td>
   </tr>
  </tbody>
 </table>
@@ -423,19 +423,19 @@ Der Lern-Manager enthält eine brandneue Teilnehmer-Startseite, die modern, inha
 
 Der Empfehlungsalgorithmus ist darauf ausgelegt, mehrere Eingabequellen zu verwenden, einschließlich Branchendaten zu Arbeitsrollen, Titeln und Beschreibungen, die Adobe von seinen Partnern bezogen hat. Diese Daten werden dann verwendet, um die AI-Algorithmen der Adobe zu trainieren, sodass der Learning Manager eine Karte erstellen kann, die branchenorientierte Kenntnisse mit Tätigkeitsbezeichnungen und/oder -bezeichnungen verbindet. Dies wird dann zu einer einzigen Eingabe in den Empfehlungsalgorithmus.
 
-Learning Manager analysiert dann mithilfe von Themenmodellierungsalgorithmen die Schulungsinhalte innerhalb eines Kontos und ordnet sie den Kenntnissen zu.
+Learning Manager analysiert dann mit Themenmodellierungsalgorithmen die Schulungsinhalte innerhalb eines Kontos und ordnet sie den Kenntnissen zu.
 
 Learning Manager verwendet Peer-Aktivitätsdaten als ein weiteres Signal, um den Empfehlungsalgorithmus personalisiert zu steuern. Hier werden Aktivitäten wie Registrierung, Abschluss und explizites Feedback der Teilnehmer verwendet.
 
-Darüber hinaus verwendet der Lern-Manager explizite und implizite Informationen, die von einzelnen Teilnehmern gesammelt wurden, um Empfehlungen weiter zu personalisieren. Ein Teilnehmer kann seine Interessensbereiche explizit über Registrierungen angeben, und der Lern-Manager erhält diese Informationen implizit basierend darauf, wie der Teilnehmer am Ende die Schulungen absolviert.
+Darüber hinaus verwendet Learning Manager von einzelnen Teilnehmern gesammelte explizite und implizite Informationen, um Empfehlungen weiter zu personalisieren. Teilnehmende können ihre Interessensbereiche explizit über Registrierungen angeben, und Learning Manager erhält diese Informationen implizit basierend darauf, wie die Teilnehmenden am Ende die Schulungen absolvieren.
 
-Schließlich kann der Administrator auch den Empfehlungsalgorithmus mithilfe von Teilnehmerattributen beeinflussen, die Learning Manager beim Definieren von Peer-Gruppen berücksichtigen sollte, und indem er Schulungen für bestimmte Benutzergruppen hervorhebt.
+Schließlich kann der Administrator den Empfehlungsalgorithmus auch mithilfe von Teilnehmerattributen beeinflussen, die Learning Manager beim Definieren von Peer-Gruppen berücksichtigen sollte, und indem er Schulungen für bestimmte Benutzergruppen hervorhebt.
 
-## Umbenennen von Lernobjekten {#renaminglearningobjects}
+## Umbenennung von Lernobjekten {#renaminglearningobjects}
 
 Diese Funktion ist nur in englischer Sprache verfügbar.
 
-Administratoren können jetzt Lernobjekte im Lern-Manager umbenennen. Die folgenden Begriffe können umbenannt werden.
+Administratoren können jetzt in Learning Manager Lernobjekte umbenennen. Die folgenden Begriffe können umbenannt werden.
 
 Modul\
 Kurs\
@@ -445,22 +445,22 @@ Lernplan\
 Arbeitshilfe\
 Katalog\
 Kenntnisse\
-Ausweis\
+Abzeichen\
 Ankündigung\
 Eigenes Lernen\
 Leaderboard\
 Effektivität\
 Voraussetzung\
-Vorarbeit\
-Kerninhalt\
+Vorbereitung\
+Grundlegender Inhalt\
 Testout\
 Selbststudium\
-Überblendet\
+Gemischt\
 Klassenzimmer\
 Virtuelles Klassenzimmer\
 Aktivität
 
-Führen Sie die folgenden Schritte aus, um die Begriffe umzubenennen.
+Um die Begriffe umzubenennen, folgen Sie diesen Schritten.
 
 1. Klicken Sie als Administrator auf **[!UICONTROL Einstellungen]** > **[!UICONTROL Allgemein]** > **[!UICONTROL Produktterminologie]**. Die Option &quot;Produktterminologie&quot; wird geöffnet.
 
@@ -471,7 +471,7 @@ Führen Sie die folgenden Schritte aus, um die Begriffe umzubenennen.
 1. Änderungen können durch Hochladen einer modifizierten Produktterminologievorlage und Herunterladen der Beispiel-CSV-Datei vorgenommen werden. Um die Beispiel-CSV-Datei herunterzuladen, klicken Sie auf das Symbol **[!UICONTROL Hier herunterladen]** aus.
 1. Die heruntergeladene CSV-Datei enthält den Namen der Objekte in Spalte A. Wählen Sie in Spalte B den Namen aus, den Sie dem jeweiligen Objekt zuweisen möchten. Beachten Sie, dass Sie die Singular- und Pluralform des Namens, getrennt durch ein (|), aktualisieren müssen.
 1. Sie können eine oder mehrere Zeilen ändern. Sie können entweder die nicht geänderten Zeilen beibehalten oder sie vor dem Hochladen aus der CSV-Datei entfernen.
-1. Laden Sie die geänderte CSV-Datei hoch und klicken Sie auf **[!UICONTROL Speichern]**. Der Learning Manager wird entsprechend Ihren Änderungen aktualisiert.
+1. Laden Sie die geänderte CSV-Datei hoch und klicken Sie auf **[!UICONTROL Speichern]**. Learning Manager zeigt Ihre Änderungen entsprechend an.
 1. Um auf die Standardbegriffe zurückzusetzen, klicken Sie auf **[!UICONTROL Produktterminologie zurücksetzen]**.
 
    ![](assets/with-reset-option.png)
@@ -499,24 +499,24 @@ Um einen Inhaltsordner hinzuzufügen, klicken Sie in der Administrator-App auf *
 
 ### Ordner
 
-Ein Ordner ist ein Repository mit Inhalten, das eine Teilmenge der gesamten Inhaltsbibliothek ist, die in einem Konto mit den folgenden Eigenschaften verfügbar ist:
+Ein Ordner ist ein Repository mit Inhalten, die einer Teilmenge der gesamten Inhaltsbibliothek in einem Konto entsprechen, und verfügt über die folgenden Eigenschaften:
 
 * Nur ein Administrator kann einen Ordner erstellen, bearbeiten oder löschen.
 * Ein Administrator kann den Zugriff auf Ordner steuern, indem er Rollen nur für benutzerdefinierte Administratoren definiert.
-* Inhalt **muss jederzeit mit mindestens einem Ordner verknüpft sein**. Zunächst werden alle Inhalte mit dem öffentlichen Ordner verknüpft, was später geändert werden kann.
-* Der Inhalt kann zum Zeitpunkt der Erstellung mit mehreren Ordnern verknüpft werden, was auch durch einen Kopiervorgang möglich ist
-* Alle Ordnernamen müssen innerhalb des Kontos eindeutig sein, andernfalls tritt ein Fehler beim Benennen eines Ordners auf.
+* Der Inhalt **muss jederzeit mit mindestens einem Ordner verknüpft sein**. Zunächst werden alle Inhalte mit dem öffentlichen Ordner verknüpft, was später geändert werden kann.
+* Der Inhalt kann zum Zeitpunkt der Erstellung mit mehreren Ordnern verknüpft werden, was auch durch einen Kopiervorgang möglich ist.
+* Alle Ordnernamen müssen innerhalb des Kontos eindeutig sein, da andernfalls ein Fehler beim Benennen eines Ordners auftritt.
 
 Ordner steuern nur die Sichtbarkeit von Inhalten und erstellen keine Kopien von Inhalten. Daher wird die Bearbeitung des Inhalts in allen zugehörigen Ordnern widergespiegelt.
 
 ### Öffentlicher Ordner
 
-Ein öffentlicher Ordner ist immer in einem Konto vorhanden, und zunächst wird der gesamte Inhalt Teil dieses Ordners sein. Später können Autoren Inhalte aus diesem Ordner in andere Ordner verschieben. Ein öffentlicher Ordner verfügt über die folgenden Eigenschaften:
+Jedes Konto enthält einen öffentlichen Ordner. Anfänglich befinden sich alle Inhalte in diesem Ordner. Später können Autoren Inhalte aus diesem Ordner in andere Ordner verschieben. Ein öffentlicher Ordner verfügt über die folgenden Eigenschaften:
 
-* Alle Inhalte, die mit diesem Ordner verknüpft sind, sind standardmäßig für alle Arten von Autoren zugänglich.
-* Inhalte, die Teil eines öffentlichen Ordners sind, können nicht Teil eines anderen Ordners sein. Das Gegenteil trifft auch zu.
+* Alle Inhalte, die mit diesem Ordner verknüpft sind, sind standardmäßig für alle Arten von Autoren verfügbar.
+* Inhalte, die Teil eines öffentlichen Ordners sind, können nicht Teil eines anderen Ordners sein. Das Gleiche gilt auch umgekehrt.
 
-Dieser Ordner kann nicht Teil einer konfigurierbaren Rollendefinition sein. Wenn also ein öffentlicher Ordner nicht in einer konfigurierbaren Rollendefinition enthalten ist, wird der Zugriff auf einen öffentlichen Ordner nicht eingeschränkt.
+Dieser Ordner kann nicht Teil einer konfigurierbaren Rollendefinition sein. Wenn also ein öffentlicher Ordner nicht in einer konfigurierbaren Rollendefinition enthalten ist, wird der Zugriff auf den öffentlichen Ordner nicht eingeschränkt.
 
 ### Privater Ordner
 
@@ -538,19 +538,19 @@ Sie können auch einen Ordner löschen. Wählen Sie den zu löschenden Ordner au
 
 ## Standorte für Klassenzimmer
 
-Administratoren können mit dieser Einstellung eine Bibliothek mit Speicherorten für Klassenzimmer erstellen und konfigurieren. Autoren können einen vorkonfigurierten Speicherort auswählen, um ihr Klassenzimmerereignis einzurichten. Wählen Sie einen Speicherort aus der Bibliothek aus, um die Standortinformationen, die URL und die Lizenzbeschränkung automatisch auszufüllen.
+Administrator(inn)en können diese Einstellung verwenden, um eine Bibliothek mit Standorten für Klassenzimmer zu erstellen und zu konfigurieren. Autor(inn)en können einen vorkonfigurierten Standort auswählen, um ihr Klassenzimmerereignis einzurichten. Wählen Sie einen Speicherort aus der Bibliothek aus, um die Standortinformationen, die URL und die Lizenzbeschränkung automatisch auszufüllen.
 
-Als Administrator haben Sie folgende Möglichkeiten:
+Als Administrator(in) haben Sie folgende Möglichkeiten:
 
 ### Speicherorte in CSV importieren
 
-Fügen Sie Ihrem Konto Speicherorte hinzu, indem Sie eine CSV-Datei mit Speicherorten importieren. Die CSV-Datei muss die Spalte City enthalten.
+Fügen Sie Ihrem Konto Standorte hinzu, indem Sie eine CSV-Datei mit Standorten importieren. Die CSV-Datei muss die Spalte „City“ enthalten.
 
-### Hinzufügen eines Speicherorts
+### Standort hinzufügen
 
 Fügen Sie Folgendes hinzu:
 
-1. Name des Standorts: Geben Sie den Namen des Klassenzimmers ein.
+1. Name des Speicherorts: Geben Sie den Namen des Klassenzimmers ein.
 2. Standortinformationen: Geben Sie die Informationen zum Standort ein.
 3. Region: Der eingegebene Wert wird als Filter &quot;Schulungsstandorte&quot; für Teilnehmer angezeigt.
 4. URL des Speicherorts: Geben Sie die URL des Speicherorts ein.
@@ -563,9 +563,9 @@ Fügen Sie Folgendes hinzu:
 Sie können den Speicherort auch mithilfe einer CSV-Datei hinzufügen. Die CSV-Datei muss die folgenden Felder enthalten:
 
 * name
-* Info
+* info
 * url
-* Sitzplatzbeschränkung
+* seatlimit
 * Region
 
 <!--![Add classroom locations](assets/add-classroom-csv.png)-->

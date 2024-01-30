@@ -1,19 +1,19 @@
 ---
 jcr-language: en_us
-title: Standardzuweisung von Kursleiterrollen zu Benutzergruppen im Lern-Manager
-description: Standardzuweisung von Kursleiterrollen zu Benutzergruppen im Lern-Manager
+title: Standardzuweisung von Kursleiterrollen zu Benutzergruppen in Learning Manager
+description: Standardzuweisung von Kursleiterrollen zu Benutzergruppen in Learning Manager
 contentowner: nluke
 preview: true
 source-git-commit: 66dfaaaf723382eada39e2be29dfd49b795107a0
 workflow-type: tm+mt
 source-wordcount: '300'
-ht-degree: 0%
+ht-degree: 48%
 
 ---
 
 
 
-# Standardzuweisung von Kursleiterrollen zu Benutzergruppen im Lern-Manager
+# Standardzuweisung von Kursleiterrollen zu Benutzergruppen in Learning Manager
 
 ## Problem
 
@@ -31,12 +31,12 @@ Da Rollen während der Massenzuweisung von Benutzern in einer Benutzergruppe nic
 
 Erstellen Sie benutzerdefinierte Benutzergruppen, um die Benutzerrollen zu filtern, die einer Sitzung zugewiesen sind. Führen Sie die folgenden Schritte aus, um die zugewiesenen Kursleiterrollen in einer Benutzergruppe zu entfernen:
 
-1. Melden Sie sich als Administrator an. Klicken Sie im linken Bedienfeld auf **[!UICONTROL E-Mail-Vorlagen]**.
+1. Melden Sie sich als ein Administrator an. Klicken Sie im linken Bedienfeld auf **[!UICONTROL E-Mail-Vorlagen]**.
 1. Um E-Mail-Trigger für die vorzunehmenden Änderungen zu vermeiden, klicken Sie auf **[!UICONTROL Alle deaktivieren]**.
 
    ![](assets/instructor-disable-all.png)
 
-1. Navigieren Sie zu **Benutzer** > **Benutzergruppe**. Klicken **[!UICONTROL Hinzufügen]**.
+1. Navigieren Sie zu **Benutzer** > **Benutzergruppe**. Klicken Sie auf **[!UICONTROL Hinzufügen]**.
 
    ![](assets/instructor-usergroups.png)
 

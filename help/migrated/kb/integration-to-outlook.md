@@ -1,13 +1,13 @@
 ---
-description: Erfahren Sie, wie ein Administrator und ein Kursleiter die Antwort eines Teilnehmers auf eine Kalendereinladung anzeigen können.
+description: Erfahren Sie, wie ein Administrator und ein Kursleiter die Antwort des Teilnehmers auf eine Kalendereinladung anzeigen können.
 jcr-language: en_us
-title: Antwort des Teilnehmers auf eine Outlook-Kalendereinladung auf Learning Manager anzeigen
+title: Anzeigen der Antwort der Teilnehmer auf eine Einladung zum Outlook-Kalender in Learning Manager
 contentowner: kuppan
 preview: true
 source-git-commit: 0ec031398f93c8396c0c9d49d172d62b2711481b
 workflow-type: tm+mt
 source-wordcount: '510'
-ht-degree: 0%
+ht-degree: 36%
 
 ---
 
@@ -15,24 +15,24 @@ ht-degree: 0%
 
 # Antwort des Teilnehmers auf eine Outlook-Kalendereinladung anzeigen am [!DNL Learning Manager]
 
-Erfahren Sie, wie ein Administrator und ein Kursleiter die Antwort eines Teilnehmers auf eine Kalendereinladung anzeigen können.
+Erfahren Sie, wie ein Administrator und ein Kursleiter die Antwort des Teilnehmers auf eine Kalendereinladung anzeigen können.
 
-Wenn sich ein Teilnehmer im Lern-Manager für eine virtuelle Klassen-/Klassenzimmersitzung in einem Kurs registriert, erhält der Teilnehmer eine detaillierte Einladung zu einem Outlook-Kalender.
+Wenn in Learning Manager ein Teilnehmer zu einem virtuellen Klassen-/Klassenzimmer in einem Kurs angemeldet wird, erhält der Teilnehmer eine detaillierte Einladung zum Outlook-Kalender.
 
 Die Antwort eines Teilnehmers auf die Sitzungseinladung wird im Lern-Manager aufgezeichnet, und der Administrator und der Kursleiter können die Details anzeigen.
 
-Wenn ein Teilnehmer mehrmals auf dieselbe Einladung antwortet, wird die neueste Antwort berücksichtigt und die vorherige überschrieben. Wenn die Sitzungszeiten geändert werden, werden alle Einladungsantworten gelöscht und die Teilnehmer müssen die Anfrage erneut beantworten.
+Wenn ein Teilnehmer auf dieselbe Einladung mehr als einmal antwortet, wird die letzte Antwort berücksichtigt und die vorherige überschrieben. Wenn die Sitzungszeiten geändert werden, werden alle Einladungsantworten gelöscht und die Teilnehmer müssen die Anfrage erneut beantworten.
 
-## Aktivieren der Funktion zum Verfolgen von Einladungen und Antworten {#enablingtheinvitereplytrackingfeature}
+## Aktivieren der Funktion zum Einladen der Antwortverfolgung {#enablingtheinvitereplytrackingfeature}
 
 * Wenden Sie sich an den Adobe Learning Manager Support , um die Funktion zum Nachverfolgen der Einladungen und Antworten zu aktivieren.
-* Sobald die Funktion für das Konto aktiviert ist, können alle zukünftigen virtuellen Klassen-/Klassenzimmersitzungen, die von einem Autor erstellt werden, die Antwort des Teilnehmers auf die Kalendereinladung aufzeichnen.
+* Sobald die Funktion für das Konto aktiviert ist, können alle von einem Autor erstellten zukünftigen Virtuellen Klassen-/Klassenraumsitzungen die Antwort des Teilnehmers auf die Kalendereinladung aufzeichnen.
 
-Wenn Teilnehmer für eine virtuelle Klassen-/Klassenzimmersitzung registriert sind, die vor der Aktivierung der Funktion zum Verfolgen der Einladungs-Antwort erstellt wurde, werden die Antworten des Teilnehmers auf die Kalendereinladung nicht aufgezeichnet.
+Wenn die Teilnehmer für eine Sitzung im virtuellen Klassen-/Klassenraum angemeldet sind, die vor der Aktivierung der Funktion zum Einladen und Beantworten der Antwort erstellt wurde, werden die Antworten der Teilnehmer auf die Kalendereinladung nicht aufgezeichnet.
 
-## Anzeigen von Einladungsantworten als Administrator {#viewinginviteresponsesasanadmin}
+## Einladungsantworten als Administrator anzeigen {#viewinginviteresponsesasanadmin}
 
-Wenn für eine virtuelle Klassen-/Klassenzimmersitzung die Funktion zum Verfolgen von Einladungen und Antworten aktiviert ist, kann der Administrator die Antworten des Teilnehmers auf die Einladung zusammen mit anderen Berechtigungen wie folgt anzeigen:
+Wenn in einer Sitzung für virtuelle Klassen/Klassenräume die Funktion zum Einladen und Antworten-Verfolgen aktiviert ist, kann der Administrator die Antworten des Teilnehmers auf die Einladung zusammen mit anderen Berechtigungen wie folgt anzeigen:
 
 1. Klicken **[!UICONTROL Kurs]** im linken Navigationsbereich und zeigen Sie den Kurs an, der nach der Aktivierung der Funktion &quot;Einladungs-Antwort-Tracking&quot; erstellt wurde.
 1. Klicken **[!UICONTROL Anwesenheit und Punktzahl]** im linken Navigationsbereich.

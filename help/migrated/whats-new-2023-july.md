@@ -1,11 +1,11 @@
 ---
 title: Neue Funktionen in dieser Version (Juli 2023)
-description: Erfahren Sie mehr über die neuen Funktionen und Verbesserungen im Adobe-Lernmanager
+description: Informationen über die neuen Funktionen und Verbesserungen in Adobe Learning Manager
 hidefromtoc: true
 source-git-commit: c55f9448082c9971c065eec95b59992db95e53dc
 workflow-type: tm+mt
 source-wordcount: '2052'
-ht-degree: 0%
+ht-degree: 67%
 
 ---
 
@@ -13,23 +13,23 @@ ht-degree: 0%
 
 ## Verbesserte Empfehlungen
 
-Der Adobe Learning Manager hat ein neues und überarbeitetes Empfehlungssystem für Kurse eingeführt. Diese Empfehlungsfunktion nutzt KI-Algorithmen und Nutzerinteressen wie Produkte, Rollen und Stufen, um personalisierte Inhaltsempfehlungen bereitzustellen.
+Adobe Learning Manager hat ein neues und überarbeitetes Empfehlungssystem für Kurse eingeführt. Diese Empfehlungsfunktion nutzt KI-Algorithmen und Nutzerinteressen wie Produkte, Rollen und Stufen, um personalisierte Inhaltsempfehlungen bereitzustellen.
 
-Weitere Informationen finden Sie unter [Recommendations im Adobe-Lernmanager](recommendations-adobe-learning-manager.md).
+Weitere Informationen finden Sie unter [Empfehlungen in Adobe Learning Manager](recommendations-adobe-learning-manager.md).
 
-## Mehrfacheinschreibung
+## Mehrfachregistrierung
 
-In dieser Version des Adobe-Lernmanagers führen wir eine Multi-Registrierung für Teilnehmer ein, die es Teilnehmern ermöglicht, sich in mehr als einer Instanz eines Kurses zu einem oder verschiedenen Zeitpunkten zu registrieren.
+In dieser Version von Adobe Learning Manager führen wir eine Mehrfachregistrierung für Teilnehmende ein, die Teilnehmenden ermöglicht, sich in mehr als einer Instanz eines Kurses in einem oder verschiedenen Zeiträumen zu registrieren.
 
 Weitere Informationen finden Sie unter [Mehrere Registrierungen](/help/migrated/authors/feature-summary/courses.md).
 
-### Mehrere Registrierungen in der mobilen App oder immersive Kurse
+### Mehrfachregistrierungen in der mobilen App oder immersiv
 
-Teilnehmer können sich nicht für mehrere Instanzen über eine mobile App/in einer immersiven App registrieren. Die Mehrfacheinschreibung wird in der mobilen App und im immersiven mobilen Web nicht unterstützt.
+Teilnehmende können sich nicht über eine mobile App/immersiv für mehrere Instanzen registrieren. Die Mehrfacheinschreibung wird in der mobilen App und im immersiven mobilen Web nicht unterstützt.
 
 >[!NOTE]
 >
->Wenn Sie die Mehrfacheinschreibung aktivieren, werden dem Teilnehmertranskriptbericht für jeden Kurs mehrere Zeilen hinzugefügt (eine Zeile für jede Instanz).
+>Wenn Sie die Mehrfachregistrierung aktivieren, werden dem Teilnehmertranskriptbericht für jeden Kurs mehrere Zeilen hinzugefügt (eine Zeile für jede Instanz).
 >
 >Wenn Sie die Berichtsautomatisierung eingerichtet haben, die nur eine Zeile pro Kurs vorwegnimmt, müssen Sie die erforderlichen Anpassungen an der Berichtsautomatisierung vornehmen, bevor Sie die Funktion zur Mehrfacheinschreibung aktivieren.
 
@@ -39,7 +39,7 @@ Um Abzeichen in einer Instanz mit mehreren Registrierungen zu unterstützen, wir
 
 ### Starten des Players mit mehreren Registrierungen mithilfe eines Headless-Modus
 
-In dieser Version haben wir die Bibliothek geändert, die für die Kommunikation mit dem Headless Player verwendet wird.
+In dieser Version haben wir die Bibliothek geändert, die für die Kommunikation mit dem Headless-Player verwendet wird.
 
 Bei der Mehrfachregistrierung müssen Sie die Argumente übergeben, die in ein Objekt eingeschlossen sind.
 
@@ -55,7 +55,7 @@ argument_object=
 
 Diese Version von Adobe Learning Manager enthält einen neuen Connector, der das SFTP-Protokoll der AWS Transfer-Familie verwendet.
 
-Diese Änderung ersetzt auch den ExaVault-Connector, der neuen Benutzern nicht mehr zur Verfügung steht. Sie können jeden Open-Source-FTP-Client als Ersatz für ExaVault verwenden. Weitere Informationen finden Sie unter [Übergang vom Adobe FTP Manager](transition-from-ftp-manager.md).
+Diese Änderung ersetzt auch den ExaVault-Connector, der neuen Benutzer(inne)n nicht mehr zur Verfügung steht. Sie können jeden Open-Source-FTP-Client als Ersatz für ExaVault verwenden. Weitere Informationen finden Sie unter [Übergang vom Adobe FTP Manager](transition-from-ftp-manager.md).
 
 ## Erinnerungen in Outlook für Unterrichtsräume und virtuelle Sitzungen
 
@@ -63,27 +63,27 @@ Von Adobe Learning Manager erstellte Klassenzimmer- und virtuelle Klassenzimmers
 
 ## Verbesserungen beim Zuweisen von Kenntnissen zu Kursen
 
-Wir haben den Arbeitsablauf für die Zuweisung von Kenntnissen für Autoren verbessert. Die Liste der Qualifikationsvorschläge auf der Seite &quot;Kurseinstellungen&quot; enthält jetzt eine Typeahead-Suchfunktion. Autoren können jetzt nach Kenntnissen suchen, indem sie die ersten Zeichen eingeben, und Vorschläge werden basierend auf der Eingabe in der Dropdown-Liste Kenntnisse angezeigt. Dank dieser Verbesserung müssen Autoren nicht durch die vollständige Liste blättern, um Kenntnisse zu Kursen zu suchen und zuzuweisen.
+Wir haben den Arbeitsablauf für die Zuweisung von Kenntnissen für Autoren verbessert. Die Liste der Kenntnissevorschläge auf der Kurseinstellungen-Seite enthält jetzt eine Typeahead-Suchfunktion. Autoren können jetzt nach Kenntnissen suchen, indem sie die ersten Zeichen eingeben, und Vorschläge werden basierend auf der Eingabe in der Kenntnisse-Dropdown-Liste angezeigt. Dank dieser Verbesserung müssen Autor(inn)en nicht durch die vollständige Liste blättern, um Kenntnisse zu suchen und sie Kursen zuzuweisen.
 
 ## Verbesserungen des vom Manager genehmigten Kursarbeitsablaufs
 
-Von einem Manager genehmigte Kurse stellen jetzt sowohl Managern als auch Teilnehmern geeignete Fehlerinformationen zur Verfügung.
+Von einem Manager genehmigte Kurse stellen jetzt sowohl Manager(inne)n als auch Teilnehmenden geeignete Fehlerinformationen zur Verfügung.
 
 ![Fehlermeldungen](assets/error-messages.png)
 
-Manager können jetzt relevante Fehlermeldungen mit Informationen anzeigen (z. B. wenn die Registrierungsfrist verstrichen ist), wenn sie eine Kursanforderung nicht genehmigen können. Teilnehmern werden der Fehler und die Abhilfemaßnahme angezeigt.
+Manager(innen) können jetzt relevante Fehlermeldungen mit Informationen anzeigen (z. B., das die Registrierungsfrist abgelaufen ist), wenn sie eine Kursanforderung nicht genehmigen können. Teilnehmenden werden der Fehler und die Abhilfemaßnahme angezeigt.
 
 ## Neuer Lernplanbericht
 
-Administratoren/benutzerdefinierte Administratoren können jetzt eine Liste aller Lernpläne im Konto und Metadaten wie Status, anwendbare Benutzergruppen, Triggerinformationen, Kurse/Lernpfade im Lernplan und Erinnerungsinformationen exportieren.
+Administrator(inn)en/benutzerdefinierte Administrator(inn)en können jetzt eine Liste aller Lernpläne im Konto und Metadaten wie Status, relevante Benutzergruppen, Auslöserinformationen, Kurse/Lernpfade im Lernplan und Erinnerungsinformationen exportieren.
 
 ## Bericht zum Verfolgen anstehender eingestellter Instanzen
 
-Der Schulungsbericht enthält eine zusätzliche Spalte, in der der Ausfülltermin der in den Kursen oder Lernpfaden vorhandenen Instanzen angezeigt wird, sodass Administratoren und Autoren wissen, welche Instanzen eingestellt werden, und die erforderlichen Maßnahmen ergreifen können.
+Der Schulungsbericht enthält eine zusätzliche Spalte, in der der Fristablauf der in den Kursen oder Lernpfaden vorhandenen Instanzen angezeigt wird, sodass Administrator(inn)en und Autor(inn)en wissen, welche Instanzen eingestellt werden, und die erforderlichen Maßnahmen ergreifen können.
 
 ## Verbesserungen zum Erfassen von Kursbewertungen von Teilnehmern
 
-Ein Popup-Fenster zum Erfassen der Sternebewertung für einen Kurs wird angezeigt, sobald der Benutzer das letzte Modul im Kurs abgeschlossen hat.
+Ein Popup-Fenster zum Erfassen der Sternebewertung für einen Kurs wird angezeigt, sobald die/der Benutzer(in) das letzte Modul im Kurs abgeschlossen hat.
 
 ![Einschaltquote](assets/ratings.png)
 
@@ -101,7 +101,7 @@ Weitere Informationen finden Sie unter [Benutzergruppenfilter im Planungsassiste
 
 ## Verbesserungen am Arbeitsablauf für das Einstellen von Lernobjekten
 
-Autoren können jetzt ein **Automatische Einstellung** Datum für einen Kurs. Dadurch wird eine Kataloginflation im Laufe der Zeit verhindert, und die Kurse müssen manuell zurückgesetzt werden.
+Autor(inn)en können jetzt ein **Automatisch einstellen**-Datum für einen Kurs angeben. Dies hilft, eine Kataloginflation im Laufe der Zeit und die Notwendigkeit, Kurse manuell einstellen zu müssen, zu verhindern.
 
 Administratoren können auch auf Kontoebene die Art des Zugriffs auf eingestellte Lernobjekte festlegen.
 
@@ -109,35 +109,35 @@ Der Schulungsbericht enthält eine neue Spalte, **Automatisches Abgangsdatum**, 
 
 ## Katalogbeschriftungswerte nach Autoren
 
-Autoren können jetzt ihre Werte für Katalogbeschriftungen beim Erstellen oder Bearbeiten eines Kurses hinzufügen. Administratoren können diese Funktion auf Kontoebene aktivieren. Nachdem ein Autor einen neuen Katalogbeschriftungswert hinzugefügt hat, wird er Teil der Typeahead-Suche.
+Autor(inn)en können jetzt ihre Werte für Katalogbeschriftungen beim Erstellen oder Bearbeiten eines Kurses hinzufügen. Administrator(inn)en können diese Funktion auf Kontoebene aktivieren. Nachdem ein(e) Autor(in) einen neuen Katalogbeschriftungswert hinzugefügt hat, wird er Teil der Typeahead-Suche.
 
 ![Katalog auswählen](assets/select-catalog.png)
 
 ## Verbesserungen an der Kurssuche für Administrator-, Autoren- und Managerrollen
 
-Es wurden Suchverbesserungen für Administrator-, Autoren- und Managerrollen vorgenommen. Sie können jetzt mit Stichwörtern nach den Titeln suchen. Dies gilt für Kurse, Lernpfade und Zertifizierungen.
+Es wurden Suchverbesserungen für Administrator-, Autor- und Manager-Rollen vorgenommen. Sie können jetzt mit Stichwörtern nach den Titeln suchen. Dies gilt für Kurse, Lernpfade und Zertifizierungen.
 
 ## Benachrichtigungen für Migrationsfehler
 
-Integrations-Administratoren werden per E-Mail benachrichtigt, wenn Import- oder Exportvorgänge während der Migration oder bei Verwendung von Daten-Connectors wie PowerBI, FTP, Box usw. fehlschlagen.
+Integrations-Administrator(inn)en werden per E-Mail benachrichtigt, wenn bei Import- oder Exportvorgängen während der Migration oder bei Verwendung von Daten-Connectors wie PowerBI, FTP, Box usw. Fehler auftreten.
 
 ## Konfiguration mehrerer Manager über APIs
 
-Der Gruppe von APIs für verwaltete Büros wurde eine neue API zur Unterstützung der Konfiguration mit mehreren Managern hinzugefügt.
+Der “Verwaltetes Büro“-Gruppe von APIs wurde eine neue API zur Unterstützung der Konfiguration mehrerer Manager(innen) hinzugefügt.
 
 ## Verbesserungen an der Registrierungs-API
 
-Die Enrollment API wurde verbessert, um Massenanmeldungen in großem Umfang zu unterstützen und zu optimieren.
+Die Registrierungs-API wurde verbessert, um Massenregistrierungen in großem Umfang zu unterstützen und zu optimieren.
 
 ## Mobile App - Anzeigen von Inhalten offline
 
-Teilnehmer können Inhalte im Offline-Modus herunterladen und nutzen. Verschachtelte und flexible Lernpfade werden für die Offline-Anzeige nicht unterstützt.
+Teilnehmer können Inhalte im Offline-Modus herunterladen und nutzen. Verschachtelte und flexible Lernpfade werden für die Offline-Ansicht nicht unterstützt.
 
 *In dieser Version wird die Offline-Inhaltsanzeige nur für englische Inhalte unterstützt.*
 
-## Barrierefreiheit
+## Eingabehilfen
 
-Es wurden mehrere Verbesserungen zur Verbesserung der Barrierefreiheit implementiert, einschließlich Verbesserungen zur Optimierung der Lesbarkeit für Bildschirmleseprogramme.
+Es wurden mehrere Verbesserungen der Barrierefreiheit implementiert, einschließlich Verbesserungen zur Optimierung der Lesbarkeit für Bildschirmleseprogramme.
 
 ## Unterstützung für mobile Apps
 
@@ -145,38 +145,38 @@ Mit der nächsten Hauptversion unterstützt die mobile Adobe Learning Manager-Ap
 
 ## Inhalte auf LinkedIn
 
-LinkedIn-Inhalte werden in der immersiven App im Safari-Browser nicht wie erwartet geladen. Um dieses Problem zu umgehen, führen Sie die folgenden Schritte aus:
+LinkedIn-Inhalte werden in der Immersive-App im Safari-Browser nicht wie erwartet geladen. Um dieses Problem zu umgehen, führen Sie die folgenden Schritte aus:
 
 1. Wählen Sie auf dem Gerät **[!UICONTROL Einstellungen]** > **[!UICONTROL Safari]**.
-1. Deaktivieren **Cross-Site-Tracking verhindern**.
-1. Deaktivieren **Alle Cookies blockieren**.
-1. Melden Sie sich bei der Immersive App an.
+1. Deaktivieren Sie **Site-übergreifendes Tracking verhindern**.
+1. Deaktivieren Sie **Alle Cookies blockieren**.
+1. Melden Sie sich bei der Immersive-App an.
 1. Spielen Sie den Inhalt ab.
 1. Lassen Sie die Popups zu.
 
-## Weitere Verbesserungen
+## Sonstige Verbesserungen
 
 ### Wechseln von Instanzen in MS Teams
 
-Ein Teilnehmer kann bis zu seinem Abschluss zu einer anderen Kursinstanz wechseln und den Kursfortschritt beibehalten.
+Teilnehmende können bis zu deren Abschluss zu einer anderen Kursinstanz wechseln und den Kursfortschritt beibehalten.
 
 ### Unterstützung mehrerer Anmeldungen in MS Teams
 
-Ein Teilnehmer kann sich in einer anderen Kursinstanz registrieren, unabhängig vom Abschlussstatus in allen vorherigen Instanzen. Dadurch kann sich der Teilnehmer in mehreren Instanzen desselben Kurses registrieren.
+Teilnehmende können sich unabhängig vom Abschlussstatus in allen vorherigen Instanzen in einer anderen Kursinstanz registrieren. So können sich Teilnehmende in mehreren Instanzen desselben Kurses registrieren.
 
-### Kurshinweise unterstützen die Mehrfacheinschreibung in MS Teams
+### Kurshinweise unterstützen die Mehrfachregistrierung in MS Teams
 
-Kurshinweise sind auf Kursinstanzebene verfügbar, um die Mehrfacheinschreibung zu unterstützen.
+Kurshinweise sind auf Kursinstanzebene verfügbar, um die Mehrfachregistrierung zu unterstützen.
 
 ## API-Änderungen
 
-Weitere Informationen zu den API-Änderungen finden Sie unter [Adobe Learning Manager-API-Referenz](https://captivateprime.adobe.com/docs/primeapi/v2/).
+Weitere Informationen zu den API-Änderungen finden Sie unter [API-Referenz für Adobe Learning Manager](https://captivateprime.adobe.com/docs/primeapi/v2/).
 
 ### API-Unterstützung für neue Empfehlungen
 
 **GET /account**
 
-Gibt zurück, wenn prlRecommendations aktiviert ist.
+Gibt zurück, ob prlRecommendations aktiviert ist.
 
 **Anfrage**
 
@@ -184,7 +184,7 @@ Gibt zurück, wenn prlRecommendations aktiviert ist.
 
 **GET /data?filter.recommendationCriteria=product**
 
-Gibt die Liste der Produkte/Themen zurück. Die Ergebnisse hängen von den Kontoeinstellungen ab, die bestätigen, ob alle Produkte für den Teilnehmer oder den Katalog sichtbar sind, der für Produkte/Themen sichtbar ist.
+Gibt die Liste der Produkte/Themen zurück. Die Ergebnisse hängen von den Kontoeinstellungen ab, die bestätigen, ob alle Produkte für die/den Teilnehmende(n) oder den Katalog sichtbar sind, die/der für Produkte/Themen sichtbar ist.
 
 **Anfrage**
 
@@ -208,7 +208,7 @@ Gibt die Liste der empfohlenen Rollen zurück.
 
 **POST /search/query**
 
-Die Suche umfasst auch Produkte und Rollenparameter in der Abfrage. Es gibt keine Änderungen in Abfrage und Text. Wir werden neue Sortieroptionen hinzufügen.
+Die Suche umfasst auch Produkte und Rollenparameter in der Abfrage. Abfrage und Text werden nicht geändert. Wir werden neue Sortieroptionen hinzufügen.
 
 **Anfrage**
 
@@ -302,7 +302,7 @@ Die folgenden Attribute werden im Hauptteil des Abfrageaufrufs unterstützt:
 
 **GET /recommendationProducts**
 
-Ruft das PRL-Produkt nach recommendationProduct Id ab.
+Ruft das PRL-Produkt nach recommendationProduct-Id ab.
 
 **Anforderungs-URL**
 
@@ -310,7 +310,7 @@ Ruft das PRL-Produkt nach recommendationProduct Id ab.
 
 GET /recommendationRoles
 
-Ruft das PRL-Produkt nach recommendationProduct Id ab. Es werden nur sichtbare Rollen von (Lernobjekte) zurückgegeben.
+Ruft das PRL-Produkt nach recommendationProduct-Id ab. Es werden nur sichtbare Rollen von (Lernobjekten) zurückgegeben.
 
 **Anforderungs-URL**
 
@@ -318,7 +318,7 @@ Ruft das PRL-Produkt nach recommendationProduct Id ab. Es werden nur sichtbare R
 
 `POST /users/{id}/recommendationPreferences`
 
-Erstellt PRL-Empfehlungsvoreinstellungen/erstellt diese neu (Override). Beispiel-Nutzlast:
+Erstellen/Neuerstellen (Überschreiben) von PRL-Empfehlungsvoreinstellungen Beispiel-Nutzlast:
 
 ```javascript {line-numbers="true"}
 {
@@ -380,7 +380,7 @@ Löscht die Benutzereinstellungen für PRL-Empfehlungen für ein Produkt oder ei
 
 `https://learningmanagerstage1.adobe.com/primeapi/v2/users/123/recommendationPreferences?ids=recommendationRole:123,recommendationRole:234`
 
-Parameter :
+Parameter:
 
 IDs = Liste der zu löschenden IDs
 
@@ -454,11 +454,11 @@ Die Kursinstanz-ID wurde in Benachrichtigungen im neuen Metadatenattribut hinzug
 
 **GET /learningObjects**
 
-In der Registrierungsbeziehung wird nur die primäre Registrierung angezeigt, d. h. die zuerst registrierte oder die zuerst abgeschlossene Registrierung.
+In der Registrierungsbeziehung wird nur die primäre Registrierung angezeigt, d. h. die zuerst registrierte oder zuerst abgeschlossene Registrierung.
 
 **`GET /learningObjects/{id}`**
 
-In der Registrierungsbeziehung wird nur die primäre Registrierung angezeigt, d. h. die zuerst registrierte oder die zuerst abgeschlossene Registrierung.
+In der Registrierungsbeziehung wird nur die primäre Registrierung angezeigt, d. h. die zuerst registrierte oder zuerst abgeschlossene Registrierung.
 
 **`GET /learningObjects/{loId}/instances/{loInstanceId}`**
 
@@ -466,7 +466,7 @@ Dem LO-Instanzmodell wird eine neue Beziehung hinzugefügt.
 
 **`GET /enrollments/{id}`**
 
-Abrufen der Registrierung für mehrere Kurse.
+Abrufen der Registrierung für Kurse mit mehreren Registrierungen.
 
 **`DELETE /enrollments/{id}`**
 
@@ -482,15 +482,15 @@ Ruft Registrierungen nur für primäre Registrierungen für das Lernobjekt ab.
 
 **`GET /learningObjects/{id}/note`**
 
-Ruft eine Liste mit Anmerkungen für einen Kurs ab.
+Ruft eine Liste mit Notizen für einen Kurs ab.
 
 **`GET /learningObjects/{lo_id}/instances/{loi_id}/note`**
 
-Ruft eine Liste mit Anmerkungen für einen Kurs und die Instanz ab.
+Ruft eine Liste mit Notizen für einen Kurs und die Instanz ab.
 
 **`GET /learningObjects/{id}/resources/{loResourceId}/note`**
 
-Ruft eine Liste mit Anmerkungen für eine Ressource in einem Kurs ab.
+Ruft eine Liste mit Notizen für eine Ressource in einem Kurs ab.
 
 **`POST /learningObjects/{id}/resources/{loResourceId}/note`**
 
@@ -506,7 +506,7 @@ Ruft eine bestimmte Notiz in einem Modul in einem Kurs für eine bestimmte Insta
 
 **`PATCH /learningObjects/{id}/resources/{loResourceId}/note/{noteId}`**
 
-Aktualisiert bestimmte Anmerkungen aus einem gegebenen Modul für eine bestimmte Instanz (Teil der loResource-ID).
+Aktualisiert bestimmte Notizen aus einem gegebenen Modul für eine bestimmte Instanz (Teil der loResource-ID).
 
 **Änderungen an der Admin-API**
 
@@ -526,15 +526,15 @@ Beispielanforderung
 
 ### API-Änderungen in der Stemmingimplementierung für die Suche (englisches Gebietsschema)
 
-Wortstamm ist der Prozess, bei dem ein Wort auf seine Grundform reduziert wird. Dadurch werden die Varianten einer Wortübereinstimmung während einer Suche sichergestellt. Gehen und Gehen können beispielsweise auf das gleiche Wort wie im Stamm zurückgeführt werden: Gehen. Nach dem Wortstamm würde ein Vorkommen eines der Wörter dem anderen in einer Suche entsprechen.
+Wortstamm ist der Prozess, bei dem ein Wort auf seine Grundform reduziert wird. Dadurch wird sichergestellt, dass die Varianten eines Wortes bei einer Suche übereinstimmen. Gehen und Gehen können beispielsweise auf das gleiche Wort wie im Stamm zurückgeführt werden: Gehen. Nach dem Wortstamm würde ein Vorkommen eines der Wörter dem anderen in einer Suche entsprechen.
 
 In dieser Version haben wir Stemming für englische Gebietsschemas hinzugefügt, der die folgenden Varianten enthält: en_US, en_AU, en_GB.
 
-Das Attribut stemmed gibt an, ob stemming in den Suchergebnissen erforderlich ist. Dies ist standardmäßig auf False festgelegt.
+Das Attribut „stemmed“ gibt an, ob Stemming in den Suchergebnissen erforderlich ist. Dies ist standardmäßig auf False festgelegt.
 
 ### Entfernen von V1-Endpunkten
 
-V1-APIs funktionieren mit dieser Version nicht mehr. Weitere Informationen finden Sie unter [Entwicklerhandbuch](/help/migrated/integration-admin/feature-summary/developer-manual.md).
+V1-APIs funktionieren ab dieser Version nicht mehr. Weitere Informationen finden Sie im [Entwicklerhandbuch](/help/migrated/integration-admin/feature-summary/developer-manual.md).
 
 ### Benachrichtigungen für die Kursregistrierung oder -abmeldung
 
@@ -542,11 +542,11 @@ Diese Version bietet Unterstützung für die Kursinstanzen-ID mit Benachrichtigu
 
 ### L1-Feedback-Unterstützung
 
-Ermöglicht es dem Teilnehmer, Feedback auf jeder Instanzebene der Funktion für mehrere Registrierungen abzugeben.
+Ermöglicht den Teilnehmenden, auf jeder Instanzebene des Features Mehrfachregistrierung Feedback zu geben.
 
 **API:** `POST /enrollments/{id}/l1Feedback`
 
-### LO erzwungene Feldliste
+### LO-erzwungene Feldliste
 
 In dieser Version müssen Sie Abschnitte, prequisiteConstraints, prerequisiteLOs, subLOs, additionalResources, additionalLOs, Instanzen, catalogLabels explizit an das learningObject senden.
 
@@ -554,9 +554,9 @@ Beispiel:
 
 `enforcedFields[learningObject]=prerequisiteLOs,instances`
 
-### Hinweis zur Aufhebung der Registrierung für die nächste Version
+### Hinweis zum Verwerfen für die nächste Version
 
-* Überschreiben-Flag für Teilnehmer-APIs.
+* Überschreiben-Flag für Teilnehmenden-APIs.
 * Wir ändern den Standardwert für highlightResults=false. Außerdem ändern wir den Standard von snippetType=courseName.
 * Wir verwerfen matchType=bool im Suchendpunkt.
 * autoCompleteMode verfügt über das Attribut [Veraltet] -Tag und um dieselbe Funktionalität von autoCompleteMode =false bereitzustellen, wurde ein matchType mit dem Namen Match hinzugefügt.
@@ -575,11 +575,11 @@ Im Folgenden sind die Einschränkungen dieser Version aufgeführt:
 
 ### Anzeigen von Offline-Inhalten in der mobilen App
 
-Folgendes wird beim Anzeigen von Offlineinhalten in der App nicht unterstützt:
+Folgendes wird beim Anzeigen von Offline-Inhalten in der App nicht unterstützt:
 
-* Flex-Kurse, Lernpläne oder Zertifizierungen.
+* Flexible Kurse, Lernpläne oder Zertifizierungen.
 * Erweiterte Kurse, Lernpläne oder Zertifizierungen.
-* Mehrere Quiz aktiviert - Kurse, Lernpläne oder Zertifizierungen.
+* Für mehrere Quiz aktivierte Kurse, Lernpläne oder Zertifizierungen.
 * Harvard Manage Mentor, Content Marketplace, GetAbstract oder LinkedIn Courses, Learning Plans oder Certifications.
 * Lernpläne und Zertifikate mit aktivierten Voraussetzungen.
 * Eingestellte Kurse, Lernpläne oder Zertifizierungen.
@@ -591,17 +591,17 @@ Bei den folgenden Lernpfaden, Kursen oder Zertifizierungen gibt es einige Proble
 
 * Alle Lernpfade.
 * Alle internen Zertifikate.
-* Content mit POST.
+* Inhalt mit POST-Aufrufen.
 
-### Recommendations
+### Empfehlungen
 
-Folgende Elemente werden im neuen Empfehlungssystem nicht für &quot;Produkt/Rolle/Ebene&quot; unterstützt:
+Folgende Komponenten werden im neuen Empfehlungssystem nicht für Produkt/Rolle/Ebene unterstützt:
 
-* Adobe Experience Manager, Teams, SFDC und Nicht angemeldet.
-* Die mobile App unterstützt das Bearbeiten von Produkten und Rollen auf der Seite &quot;Empfehlung&quot; nicht.
+* Adobe Experience Manager, Teams, SFDC und Teilnehmende ohne Anmeldung.
+* Die mobile App unterstützt nicht das Bearbeiten von Produkten und Rollen auf der Empfehlungsseite.
 * Die Zuordnung ist während der Migration nicht möglich.
 * Automatisches Tagging von LinkedIn, Inhalts-Marketplace und anderen externen Kursen, Lernplänen oder Zertifizierungen.
-* Wiederherstellen der Option &quot;Kenntnisbasiert&quot; oder &quot;Klassisch&quot; nach dem Livestream.
+* Rückkehr zu „Kenntnisbasiert“ oder „Klassisch“ nach der Live-Schaltung.
 * Das Suchmenü für Produkte und Rollen in der Teilnehmer-App.
 * Massen-Zuordnung von Kursen, Lernplänen oder Zertifizierungen und Benutzern in der Admin-App.
 

@@ -6,7 +6,7 @@ contentowner: manochan
 source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
 workflow-type: tm+mt
 source-wordcount: '1718'
-ht-degree: 0%
+ht-degree: 80%
 
 ---
 
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 Erstellen, Zuweisen und Ändern von Kenntnissen und Stufen.
 
-Die Qualifikationskarte ist eine Gruppierung von Qualifikationen, Kenntnissen und Eigenschaften eines Mitarbeiters in einem Unternehmen. Diese Kompetenzzuweisungen helfen Unternehmen/Organisationen dabei, die Leistungserwartungen für ihre Mitarbeiter festzulegen oder zu erhöhen. Kenntnisse ermöglichen es den Mitarbeitern, ihr Verhalten an den Erwartungen des Unternehmens auszurichten.
+In einem Kenntnisdiagramm werden die Fachkenntnisse, das Wissen und die Eigenschaften eines Unternehmensmitarbeiters zusammengefasst. Diese Kenntnisdiagramme helfen Firmen/Unternehmen dabei, die Leistungserwartungen für ihre Mitarbeiter festzusetzen oder zu erhöhen. Durch Kenntnisse können Mitarbeiter ihr Verhalten auf die Erwartungen des Unternehmens hin ausrichten.
 
-Mit dem Adobe-Lernmanager können Sie die Leistung der Teilnehmer anhand ihrer Kenntnisse mithilfe der Kenntniskarte zuordnen. Wenn Teilnehmer einige Kurse absolviert haben, können sie ihren Stand zu jeder Qualifikation erkennen, indem sie die Qualifikationsdiagramme anzeigen.
+In Adobe Learning Manager können Sie mithilfe von Kenntnisdiagrammen die Leistungen von Teilnehmern anhand ihrer Kenntnisse zuordnen. Wenn Teilnehmer einige Kurse absolviert haben, können sie ihren Stand zu jeder Qualifikation erkennen, indem sie die Qualifikationsdiagramme anzeigen.
 
-Der grundlegende Zweck von Skills in the Learning Manager LMS besteht darin, dem Administrator ein Tool zur Verfügung zu stellen, das das Lernen an den Geschäftszielen ausrichtet.
+Der grundlegende Zweck von Kenntnissen im Learning Manager LMS ist, dem Administrator ein Tool zur Verfügung zu stellen, das das Lernen an den Geschäftszielen ausrichtet.
 
-## Kenntnisse hinzufügen {#addaskill}
+## Qualifikation hinzufügen {#addaskill}
 
 Als Administrator können Sie Folgendes ausführen:
 
@@ -30,7 +30,7 @@ Als Administrator können Sie Folgendes ausführen:
 * Fügen Sie mehrere Stufen Kenntnissen hinzu.
 * Fügen Sie ein Abzeichen zu einer Stufe hinzu.
 
-Um Kenntnisse hinzuzufügen, führen Sie die folgenden Schritte aus:
+Um Kenntnisse hinzuzufügen, gehen Sie wie folgt vor:
 
 1. Klicken Sie im linken Teilfenster auf **[!UICONTROL Kenntnisse]**. Geben Sie den Kenntnissen einen Namen und eine Beschreibung.
 
@@ -38,19 +38,19 @@ Um Kenntnisse hinzuzufügen, führen Sie die folgenden Schritte aus:
 
    *Namen und Beschreibung von Kenntnissen hinzufügen*
 
-1. Weisen Sie den Kenntnissen eine Domäne zu. Beim Erstellen von Kenntnissen können Sie sie den relevantesten von Learning Manager unterstützten Kenntnisdomänen zuordnen. Weitere Informationen finden Sie unter [***Kenntnisse Domänen zuordnen***](/help/migrated/administrators/feature-summary/curation-skills.md).
+1. Weisen Sie den Kenntnissen eine Domäne zu. Beim Erstellen von Kenntnissen können Sie sie den relevantesten von Learning Manager unterstützten Kenntnisdomänen zuordnen. Weitere Informationen finden Sie unter [***Kenntnisse Kenntnisdomänen zuordnen***](/help/migrated/administrators/feature-summary/curation-skills.md).
 
-   Beginnen Sie mit der Eingabe der Domäne in das Feld, und Sie können Empfehlungen sehen. Wählen Sie die Option(en) aus, die für die Kenntnisse relevant sind.
+   Geben Sie die Domäne in das Feld ein und Sie können Empfehlungen sehen. Wählen Sie die Option(en) aus, die für die Kenntnisse relevant sind.
 
    ![](assets/map-domain-with-skills.png)
 
    *Domäne hinzufügen*
 
-1. Ordnen Sie die Ebenen Kenntnissen zu. Um eine Stufe hinzuzufügen, klicken Sie auf **[!UICONTROL Hinzufügen]**.
+1. Ordnen Sie die Ebenen den Kenntnissen zu. Um eine Stufe hinzuzufügen, klicken Sie auf **[!UICONTROL Hinzufügen]**.
 
    Sie können Kenntnisse für Mitarbeiter erstellen und zuweisen. Es gibt verschiedene Stufen für Kenntnisse und für jede Stufe muss eine bestimmte Anzahl von Credits erworben werden.
 
-   Sie können Kenntnissen maximal drei Stufen zuweisen. Der Lernpfad besteht darin, Teilnehmer für verschiedene Lernobjekte zu registrieren, die dann in eine bestimmte Anzahl von Credits übersetzt werden, die die Anforderungen für die verschiedenen Stufen von Kenntnissen erfüllen.
+   Sie können Kenntnisse maximal drei Stufen zuweisen. Der Lernpfad besteht darin, Teilnehmer für verschiedene Lernobjekte einzuschreiben, die dann in eine bestimmte Anzahl von Credits übersetzt werden, die die Anforderungen für die verschiedenen Stufen von Kenntnissen erfüllen.
 
    Sobald diese Lernobjekte und -stufen erreicht wurden, kann der Teilnehmer auf einer produktiveren Stufe arbeiten.
 
@@ -60,24 +60,24 @@ Um Kenntnisse hinzuzufügen, führen Sie die folgenden Schritte aus:
 
    Wenn Sie Kenntnisse hinzufügen, können Sie Credits Dezimalstellen zuweisen. Die Credits werden mit bis zu zwei Dezimalstellen angezeigt.
 
-   Dezimalunterstützung ist nur auf Englisch verfügbar.
+   Dezimalunterstützung ist nur in englischer Sprache verfügbar.
 
-1. Wählen Sie ein Abzeichen für die Stufe aus. Im Fenster &quot; **[!UICONTROL Ausweis]** ein Bild aus, das als Abzeichen für diese Stufe verwendet werden soll.
-1. Klicken Sie zum Speichern der Änderungen auf **[!UICONTROL Speichern]**.
+1. Wählen Sie ein Abzeichen für die Stufe. Wählen Sie in der Dropdown-Liste **[!UICONTROL Abzeichen]** ein Bild aus, das als Abzeichen für diese Stufe verwendet werden soll.
+1. Um die Änderungen zu speichern, klicken Sie auf **[!UICONTROL Speichern]**.
 
-   Sobald Kenntnisse erstellt wurden, können Sie die neu erstellten Kenntnisse im Fenster &quot; **[!UICONTROL Kenntnisse]** angezeigt. Sie können auch die Domänen und die kurze Beschreibung der Kenntnisse anzeigen. Sie können auch die Stufen und die Credits anzeigen, die jeder Stufe zugewiesen wurden.
+   Sobald Kenntnisse erstellt wurden, können Sie die neu erstellten Kenntnisse auf der Seite **[!UICONTROL Kenntnisse]** finden. Sie können auch die Domänen und die kurze Beschreibung von Kenntnissen anzeigen. Sie können außerdem die Stufen und die Credits anzeigen, die jeder Stufe zugewiesen wurden.
 
    ![](assets/list-of-skills.png)
 
    *Liste der Kenntnisse anzeigen*
 
-## Weisen Sie die Kenntnisse Teilnehmern zu {#assigntheskilltolearners}
+## Einem Teilnehmer Kenntnisse zuordnen {#assigntheskilltolearners}
 
-Administratoren können Teilnehmern Kenntnisse zuweisen.
+Administratoren können Teilnehmern Kenntnisse zuordnen.
 
-Nachdem Sie Ihre Kenntnisse erstellt und gespeichert haben, werden sie auf der Kenntnisseite aufgeführt. Jetzt können Sie diese Qualifikationen Teilnehmern wie folgt zuweisen:
+Nachdem Sie Ihre Kenntnisse erstellt und gespeichert haben, werden diese auf der Kenntnisseite angezeigt. Nun können Sie diese Qualifikationen Teilnehmern wie folgt zuordnen:
 
-1. Im Fenster &quot; **[!UICONTROL Kenntnisse]** auf den Hyperlink mit der Anzahl der für die Kenntnisse eingeschriebenen Teilnehmer. Für neu erstellte Kenntnisse beträgt die Anzahl der Teilnehmer für alle Stufen null.
+1. Klicken Sie auf der Seite **[!UICONTROL Kenntnisse]** auf den Hyperlink mit der Anzahl der für die Kenntnisse eingeschriebenen Teilnehmer. Für neu erstellte Kenntnisse beträgt die Anzahl der Teilnehmer für alle Stufen null.
 
    ![](assets/number-of-learnersenrolledtoaskill.png)
 
@@ -85,7 +85,7 @@ Nachdem Sie Ihre Kenntnisse erstellt und gespeichert haben, werden sie auf der K
 
    Fügen Sie für dieses Beispiel Teilnehmer für Stufe 1 hinzu. Klicken Sie auf den Hyperlink neben Stufe 1.
 
-1. Klicken Sie im Dialogfeld Teilnehmer auf **[!UICONTROL Teilnehmer hinzufügen]**.
+1. Klicken Sie im Dialogfeld „Teilnehmer“ auf **[!UICONTROL Teilnehmer hinzufügen]**.
 
    ![](assets/add-learners.png)
 
@@ -97,9 +97,9 @@ Nachdem Sie Ihre Kenntnisse erstellt und gespeichert haben, werden sie auf der K
 
    *Teilnehmer suchen und hinzufügen*
 
-1. Klicken Sie zum Speichern der Änderungen auf **[!UICONTROL Speichern]**.
+1. Um die Änderungen zu speichern, klicken Sie auf **[!UICONTROL Speichern]**.
 
-   Nachdem Sie die Teilnehmer zugewiesen haben, werden alle Teilnehmer in einer Benutzergruppe, sofern vorhanden, standardmäßig automatisch für die Kenntnisse registriert. Sie können die Teilnehmer von der automatischen Registrierung ausschließen lassen, indem Sie auf das Symbol **[!UICONTROL Automatische Registrierung]** klicken.
+   Nachdem Sie die Teilnehmer zugewiesen haben, werden alle Teilnehmer in einer Benutzergruppe, sofern vorhanden, standardmäßig automatisch für die Kenntnisse registriert. Sie können die Teilnehmer von der automatischen Anmeldung ausschließen lassen, indem Sie auf die Schaltfläche **[!UICONTROL Automatische Registrierung]** klicken.
 
    ![](assets/turn-off-auto-enrollment.png)
 
@@ -107,7 +107,7 @@ Nachdem Sie Ihre Kenntnisse erstellt und gespeichert haben, werden sie auf der K
 
    Einzelne Teilnehmer können sich selbst oder vom Administrator für ein Lernprogramm automatisch registrieren.
 
-1. Nachdem Sie auf **[!UICONTROL Schließen]** können Sie die Gesamtzahl der Teilnehmer anzeigen, die der von Ihnen erstellten Kenntnis zugewiesen wurden.
+1. Nachdem Sie auf **[!UICONTROL Schließen]** geklickt haben, wird die Gesamtzahl der Teilnehmer angezeigt, die der von Ihnen erstellten Kenntnisse zugewiesen wurden.
 
    In diesem Beispiel befinden sich zwei einzelne Teilnehmer und drei Teilnehmer in einer Benutzergruppe.
 
@@ -115,7 +115,7 @@ Nachdem Sie Ihre Kenntnisse erstellt und gespeichert haben, werden sie auf der K
 
    *Anzahl der Teilnehmer, die Kenntnissen zugewiesen sind*
 
-## Weisen Sie Kenntnisse einem Kurs zu {#assignskilltocourse}
+## Ordnen Sie Kenntnisse einem Kurs zu {#assignskilltocourse}
 
 Sobald Sie Kenntnisse erstellt haben, kann ein Autor einen Kurs erstellen und Kenntnisse dem Kurs zuweisen.
 
@@ -123,7 +123,7 @@ Sobald Sie Kenntnisse erstellt haben, kann ein Autor einen Kurs erstellen und Ke
 
 *Zuweisen von Kenntnissen zu einem Kurs*
 
-Nachdem der Autor den Kurs veröffentlicht hat, klicken Sie auf der Registerkarte &quot; **[!UICONTROL Kenntnisse]** können Sie die Anzahl der Kurse anzeigen, die einer Kenntnisstufe zugeordnet sind. Diese wird erhöht, wenn Sie die Kenntnisse einem neuen Kurs zuweisen.
+Nachdem der Autor den Kurs veröffentlicht hat, können Sie auf der Seite **[!UICONTROL Kenntnisse]** die Anzahl der Kurse anzeigen, die einer Kenntnisstufe zugeordnet sind. Diese wird erhöht, wenn Sie die Kenntnisse einem neuen Kurs zuweisen.
 
 ![](assets/skill-assigned-tothecourse.png)
 
@@ -131,15 +131,15 @@ Nachdem der Autor den Kurs veröffentlicht hat, klicken Sie auf der Registerkart
 
 ## Weisen Sie den Kenntnissen eine Arbeitshilfe zu {#assignajobaidtotheskill}
 
-Arbeitshilfen sind Schulungsmaterialien, auf die ein Teilnehmer zugreifen kann, ohne sich für spezifische Lernobjekte wie beispielsweise für einen Kurs oder ein Lernprogramm zu registrieren.
+Arbeitshilfen sind Schulungsmaterialien, auf die ein Teilnehmer zugreifen kann, ohne dass sie sich für spezifische Lernobjekte wie beispielsweise für einen Kurs oder ein Lernprogramm registrieren müssen.
 
-Beim Erstellen einer Arbeitshilfe kann ein Autor eine Kenntnisstufe damit verknüpfen. Das Erstellen einer Arbeitshilfe ohne Kenntnisse und das Verknüpfen dieser mit einem Kurs mit Kenntnissen verknüpft die Kenntnisse nicht mit der Arbeitshilfe.
+Während der Erstellung einer Arbeitshilfe kann ein Autor eine Kenntnisstufe damit verknüpfen. Das Erstellen einer Arbeitshilfe ohne Kenntnisse und das Verknüpfen dieser mit einem Kurs mit Kenntnissen verknüpft die Kenntnisse nicht mit der Arbeitshilfe.
 
 ![](assets/create-a-job-aid.png)
 
 *Erstellen einer Arbeitshilfe*
 
-Im Fenster &quot; **[!UICONTROL Kenntnisse]** können Sie die Anzahl der mit dieser Kenntnisstufe verknüpften Arbeitshilfen anzeigen.
+Auf der Seite **[!UICONTROL Kenntnisse]** können Sie die Anzahl der mit dieser Kenntnisstufe verknüpften Arbeitshilfen anzeigen.
 
 ![](assets/job-aid-assignedtotheskill.png)
 
@@ -147,16 +147,16 @@ Im Fenster &quot; **[!UICONTROL Kenntnisse]** können Sie die Anzahl der mit die
 
 ## Kenntnisse suchen {#searchskill}
 
-Suchen Sie nach Kenntnissen, indem Sie den Namen der Kenntnisse eingeben und diese aus den vorhandenen Optionen auswählen. Die Type-Ahead-Suchfunktion ist auch hier verfügbar.
+Suchen Sie nach Kenntnissen, indem Sie den Namen der Kenntnisse eingeben und diese aus den vorhandenen Optionen auswählen. Die Type-Ahead-Suchfunktion ist hier ebenfalls verfügbar.
 
-Sie können nach Kenntnissen in beiden **[!UICONTROL Aktiv]** und **[!UICONTROL Rentner]** auf der Seite Kenntnisse .
+Sie können in den Abschnitten **[!UICONTROL Aktiv]** und **[!UICONTROL Eingestellt]** auf der Seite „Kenntnisse“ nach Kenntnissen suchen.
 
 ## Kenntnisse bearbeiten {#editaskill}
 
-Im Fenster &quot; **[!UICONTROL Kenntnisse]** klicken Sie auf die Kenntnisse, die Sie ändern möchten. Im Dialogfeld &quot; **[!UICONTROL Kenntnisse bearbeiten]** &quot; die erforderlichen Änderungen vor, z. B.
+Klicken Sie auf der Seite **[!UICONTROL Kenntnisse]** auf die Kenntnisse, die Sie ändern möchten. Im Dialogfeld &quot; **[!UICONTROL Kenntnisse bearbeiten]** &quot; die erforderlichen Änderungen vor, z. B.
 
 * Hinzufügen oder Löschen einer Kenntnisdomäne.
-* Bearbeiten des Namens und der Beschreibung der Kenntnisse.
+* Geben Sie den Namen und die Beschreibung des Dashboards ein.
 * Hinzufügen einer Kenntnisstufe oder Ändern einer vorhandenen Stufe.
 * Hinzufügen oder Löschen eines Abzeichens für Kenntnisse.
 
@@ -164,9 +164,9 @@ Nachdem Sie die Änderungen vorgenommen haben, klicken Sie auf **[!UICONTROL Spe
 
 ## Kenntnisse einstellen {#retireaskill}
 
-Um Kenntnisse zu beenden, klicken Sie auf der Registerkarte &quot; **[!UICONTROL Kenntnisse]** die Kenntnisse aus, die Sie einstellen möchten.
+Um Kenntnisse zu beenden, wählen Sie auf der Seite **[!UICONTROL  Kenntnisse]** die Kenntnisse aus, die Sie beenden möchten.
 
-Im Fenster &quot; **[!UICONTROL Aktionen]** in der rechten oberen Ecke der Seite auf **[!UICONTROL Ruhestand]**.
+Klicken Sie in der rechten oberen Ecke des Menüs **[!UICONTROL Aktionen]** auf **[!UICONTROL Einstellen]**.
 
 Wenn Sie Kenntnisse einstellen, werden sie nicht mehr im Kurs angezeigt.
 
@@ -174,34 +174,34 @@ Wenn Kenntnisse eingestellt sind, können sie nicht mehr mit Kursen oder Arbeits
 
 ## Kenntnisse erneut veröffentlichen {#republishaskill}
 
-Sobald Sie Kenntnisse eingestellt haben, werden die eingestellten Kenntnisse in der **[!UICONTROL Rentner]** &quot; ändern. Auf der Registerkarte wird die Liste aller Kenntnisse angezeigt, die eingestellt sind.
+Sobald Sie Kenntnisse eingestellt haben, werden die eingestellten Kenntnisse auf der Registerkarte **[!UICONTROL Eingestellt]** angezeigt. Auf der Registerkarte wird die Liste aller Kenntnisse angezeigt, die eingestellt sind.
 
-Um eingestellte Kenntnisse erneut zu veröffentlichen, wählen Sie die Kenntnisse und wählen Sie im Menü &quot; **[!UICONTROL Aktionen]** auf **[!UICONTROL Neu veröffentlichen]**.
+Um eingestellte Kenntnisse erneut zu veröffentlichen, wählen Sie die Kenntnisse und wählen Sie aus dem Menü **[!UICONTROL Aktion]** **[!UICONTROL Neu veröffentlichen]**.
 
-Dies stellt die Kenntnisse wieder her und Sie können sie erneut im Fenster &quot; **[!UICONTROL Aktiv]** &quot; ändern.
+Dies stellt die Kenntnisse wieder her und Sie können sie erneut auf der Registerkarte **[!UICONTROL Aktiv]** anzeigen.
 
 ## Kenntnisse löschen {#deleteaskill}
 
 Sie können nur Kenntnisse löschen, die zuvor eingestellt wurden.
 
-Im Dialogfeld &quot; **[!UICONTROL Rentner]** die Kenntnisse aus, die Sie löschen möchten, und wählen Sie im Dialogfeld &quot; **[!UICONTROL Aktionen]** auf **[!UICONTROL Löschen]**.
+Wählen Sie auf der Registerkarte **[!UICONTROL Eingestellt]** die Kenntnisse aus, die Sie löschen möchten, und klicken Sie im Menü **[!UICONTROL Aktionen]** auf **[!UICONTROL Löschen]**.
 
 Sie können Kenntnisse nur löschen, wenn sie keinem Teilnehmer, Kurs oder keiner Arbeitshilfe zugeordnet sind.
 
-## Zuweisen von Kenntnissen zu Ausbildern
+## Kursleiter(innen) Kenntnisse zuweisen
 
-Fügen Sie eine CSV-Datei hinzu, die die Kenntnisse der Kursleiter enthält. Diese Kenntnisse werden dann der Liste der Kenntnisse hinzugefügt.
+Fügen Sie eine CSV-Datei hinzu, die die Kenntnisse von Kursleiter(inn)en enthält. Diese Kenntnisse werden dann der Liste der Kenntnisse hinzugefügt.
 
 1. Wählen Sie in der oberen rechten Ecke des Bildschirms **[!UICONTROL Hinzufügen]** > **[!UICONTROL Weisen Sie dem Kursleiter Kenntnisse zu]**.
 1. CSV-Datei hochladen. Die Spalten in der CSV-Datei lauten:
 
-   * Qualifikationsname
-   * Kenntnisstand
+   * Name der Kenntnisse
+   * Kenntnisstufen
    * Kursleiter-E-Mail oder Kursleiter-UUID
 
    Bei UUID-aktivierten Konten ersetzen Sie die Spalte &quot;E-Mail-Adresse des Kursleiters&quot; durch die UUID des Kursleiters.
 
-   Klicken Sie auf Speichern.
+   Klicken Sie auf „Speichern“.
 
    ![CSV-Datei &quot;Kursleiterkenntnisse hinzufügen&quot;](assets/instructor-skills.png)
 
@@ -215,7 +215,7 @@ Fügen Sie eine CSV-Datei hinzu, die die Kenntnisse der Kursleiter enthält. Die
 
    *Fehlermeldung für falsche Felder*
 
-### Seite &quot;Kenntnisse&quot;
+### Kenntnisseite
 
 Auf der Seite &quot;Kenntnisse&quot; befindet sich die Spalte &quot;Kursleiter&quot;, die die Anzahl der Kursleiter angibt, die Kenntnissen zugewiesen sind. Wenn Sie auf die Anzahl der Kursleiter klicken, wird ein Popup-Fenster angezeigt, in dem die Kursleiter angezeigt werden, die den Kenntnissen zugewiesen sind.
 
@@ -237,28 +237,28 @@ Auf der Seite &quot;Kenntnisse&quot; befindet sich die Spalte &quot;Kursleiter&q
 
 +++Wie kann ich einen Teilnehmer aus Kenntnissen entfernen?
 
-Sie können einen Teilnehmer nicht aus Kenntnissen entfernen. Sie können Kenntnisse jedoch um neue Teilnehmer oder Benutzergruppen erweitern.
+Sie können einen Teilnehmer nicht aus Kenntnissen entfernen. Sie können Kenntnissen jedoch neue Teilnehmer oder Benutzergruppen hinzufügen.
 +++
 
 +++Wie kann ich Teilnehmer für Kenntnisse automatisch registrieren?
 
-Die Funktion zur automatischen Registrierung ist nur für Benutzergruppen verfügbar. Wenn Sie eine Benutzergruppe, z. B. &quot;Alle Autoren&quot;, für Kenntnisse registrieren und speichern, ist die automatische Registrierung standardmäßig aktiviert. Allen neuen Benutzer der Benutzergruppe &quot;Alle Autoren&quot; werden also auch die Kenntnisse zugewiesen.
+Die automatische Registrierung ist nur für Benutzergruppen verfügbar. Wenn Sie eine Benutzergruppe, z. B. „Alle Autoren“, für Kenntnisse registrieren und speichern, ist die automatische Registrierung standardmäßig aktiviert. Allen neuen Benutzer der Benutzergruppe „Alle Autoren“ werden also auch die Kenntnisse zugewiesen.
 
-Wenn Sie die automatische Registrierung für diese Kenntnisstufe für &quot;Alle Autoren&quot; beenden, werden allen neuen Benutzern, die der Benutzergruppe &quot;Alle Autoren&quot; hinzugefügt werden, die Kenntnisse nicht zugewiesen.
+Wenn Sie die automatische Registrierung für diese Kenntnisstufe für „Alle Autoren“ beenden, werden allen neuen Benutzern, die der Benutzergruppe „Alle Autoren“ hinzugefügt werden, die Kenntnisse nicht zugewiesen.
 +++
 
 +++Wie starte ich die automatische Registrierung neu?
 
 Registrieren Sie dieselbe Benutzergruppe erneut für die Kenntnisstufe, für die die automatische Registrierung beendet wurde.
 
-Dadurch wird die automatische Registrierung neu gestartet, und auch den Teilnehmern, die der Gruppe hinzugefügt wurden, als diese Funktion deaktiviert war, werden die Kenntnisse jetzt zugewiesen.
+Dadurch wird die automatische Registrierung neu gestartet, und auch Teilnehmern, die der Gruppe hinzugefügt wurden, als diese Funktion deaktiviert war, werden die Kenntnisse jetzt zugewiesen.
 
 Das heißt, wenn Sie eine Benutzergruppe erneut registrieren, um die automatische Registrierung zu starten, werden die Benutzergruppenmitglieder aktualisiert und die Kenntnisse allen aktuellen Mitgliedern zugewiesen.
 +++
 
 +++Wie kann ich einem Kurs Kenntnisse zuweisen?
 
-Siehe Abschnitt [Zuweisen von Kenntnissen zu einem Kurs](skills-levels.md#assignskilltocourse) für weitere Informationen über das Verfahren.
+Weitere Informationen zum Verfahren finden Sie im Abschnitt [Zuweisen von Kenntnissen zu einem Kurs](skills-levels.md#assignskilltocourse).
 +++
 
 +++Wie ändere ich Kenntnisstufen?
@@ -268,18 +268,18 @@ Um eine oder mehrere Stufen in Kenntnissen zu ändern, bearbeiten Sie die Kenntn
 
 +++Wie aktiviere ich Abzeichen und Kenntnisse, damit sie an den Kursabschluss gebunden sind?
 
-Kenntnisse können mit dem Kursabschluss verknüpft werden, während Sie als Autor einen Kurs erstellen. Im Bereich &quot;Einstellungen&quot; können Sie die Kenntniskriterien für den Kursabschluss festlegen.
+Kenntnisse können mit dem Kursabschluss verbunden werden, während Sie als Autor einen Kurs erstellen. Im Bereich „Einstellungen“ können Sie die Kenntniskriterien für den Abschluss des Kurses festlegen.
 
 ![](assets/course-skills.png)
 
-Um Abzeichen für den Kursabschluss zu aktivieren, klicken Sie im Dialogfeld &quot; **[!UICONTROL Instanzen]** in der Autoren-App das gewünschte Abzeichen aktivieren.
+Um Abzeichen für den Abschluss des Kurses zu aktivieren, aktivieren Sie im Abschnitt **[!UICONTROL Instanzen]** der Autoren-App das gewünschte Abzeichen.
 +++
 
 +++Kann ein Administrator ein Abzeichen als abgeschlossen markieren, auch wenn das Abzeichen &quot;In Bearbeitung&quot; anzeigt?
 
-Ein Administrator kann ein Lernobjekt als abgeschlossen markieren. Kenntnisse und Abzeichen sind mit dem Lernobjekt verknüpft und können nicht markiert werden **[!UICONTROL Vollständig]** getrennt.
+Ein Administrator kann ein Lernobjekt als abgeschlossen markieren. Kenntnisse und Abzeichen sind mit dem Lernobjekt verknüpft und können nicht separat als **[!UICONTROL Abgeschlossen]** gekennzeichnet werden.
 
-Mit anderen Worten, um das Abzeichen zu erreichen, **muss das zugehörige Lernobjekt abgeschlossen werden**.
+Mit anderen Worten, um das Abzeichen zu erreichen, **muss man das dazugehörige Lernobjekt abschließen**.
 +++
 
 ### Ähnliche Themen

@@ -1,28 +1,28 @@
 ---
-description: In diesem Dokument können Sie die SSO-Authentifizierung konfigurieren, um sich bei Ihrem Learning Manager-Konto anzumelden.
+description: Dieses Dokument hilft Ihnen bei der Konfiguration der SSO-Authentifizierung für die Anmeldung bei Ihrem Learning Manager-Konto.
 jcr-language: en_us
-title: Anmelden beim Learning Manager mit SSO-Authentifizierung
+title: Anmelden bei Learning Manager über die SSO-Authentifizierung
 contentowner: dvenkate
 source-git-commit: a186a600e632e9a564c4ff30d1897c2cdf0d5aac
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 0%
+ht-degree: 70%
 
 ---
 
 
 
-# Anmelden beim Learning Manager mit SSO-Authentifizierung
+# Anmelden bei Learning Manager über die SSO-Authentifizierung
 
-In diesem Dokument können Sie die SSO-Authentifizierung konfigurieren, um sich bei Ihrem Learning Manager-Konto anzumelden.
+Dieses Dokument hilft Ihnen bei der Konfiguration der SSO-Authentifizierung für die Anmeldung bei Ihrem Learning Manager-Konto.
 
-Zum Konfigurieren der SSO-Authentifizierung führen Sie die folgenden Schritte aus:
+Führen Sie für die Konfiguration der SSO-Authentifizierung folgende Schritte durch:
 
-1. Öffnen **[!UICONTROL Einstellungen]** > **[!UICONTROL Anmeldemethoden.]**
+1. Öffnen Sie **[!UICONTROL Einstellungen]** > **[!UICONTROL Anmeldungs-Methoden.]**
 
    ![](assets/login-methods.png)
 
-1. Auswählen **[!UICONTROL Interne Benutzer]** oder **[!UICONTROL Externe Benutzer]** je nach Ihren Anforderungen.
+1. Wählen Sie je nach benötigter Option **[!UICONTROL Interne Benutzer]** oder **[!UICONTROL Externe Benutzer]**.
 1. Klicken Sie auf die Dropdown-Liste neben  **[!UICONTROL Anmeldung]** und wählen Sie **[!UICONTROL Single Sign-on]**.
 
    ![](assets/single-sign-on.png)
@@ -35,7 +35,7 @@ Zum Konfigurieren der SSO-Authentifizierung führen Sie die folgenden Schritte a
 
    ![](assets/sso-configuration.png)
 
-   Das SSO, das Sie im Lernmanager konfigurieren, sollte SAML 2.0 unterstützen.
+   Die SSO, die Sie in Learning Manager konfigurieren, muss SAML 2.0 unterstützen.
 
-   Sie können sich jetzt mit Ihrer SSO-Authentifizierung beim Learning Manager anmelden.
+   Jetzt können Sie sich über die SSO-Authentifizierung bei Learning Manager anmelden.
 

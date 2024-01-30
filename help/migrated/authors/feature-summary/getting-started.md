@@ -6,7 +6,7 @@ contentowner: manochan
 source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
 workflow-type: tm+mt
 source-wordcount: '161'
-ht-degree: 0%
+ht-degree: 54%
 
 ---
 
@@ -16,26 +16,26 @@ ht-degree: 0%
 
 ## Erste Schritte {#gettingstarted}
 
-Auf der Seite &quot;Erste Schritte&quot; können Sie die wichtigsten Funktionen der Anwendung durchlaufen.
+Die Seite „Erste Schritte“ hilft Ihnen, sich mit den wichtigsten Funktionen der Anwendung vertraut zu machen.
 
 Nachdem Sie sich als Autor angemeldet haben, können Sie das Popup-Fenster mit einer Liste von Videos anzeigen.
 
-## Beispielvideos anzeigen {#viewsamplevideos}
+## Videobeispiele anzeigen {#viewsamplevideos}
 
-Durchsuchen Sie die Beispielvideotutorials, um die wichtigsten Funktionen Ihrer Rolle als Autor zu verstehen. Wenn Sie dieses Popup-Fenster nicht während der Anmeldung anzeigen möchten, können Sie es deaktivieren, indem Sie in der unteren rechten Ecke des Popup-Fensters auf die Option &quot;Bei Anmeldung nicht anzeigen&quot; klicken.
+Durchsuchen Sie die Beispiele in den Videolehrgängen, um die wichtigsten Funktionen für Ihre Rolle als Autor kennenzulernen. Wenn Sie dieses Popup-Fenster nicht während der Anmeldung anzeigen möchten, können Sie es deaktivieren, indem Sie in der unteren rechten Ecke des Popup-Fensters auf die Option &quot;Bei Anmeldung nicht anzeigen&quot; klicken.
 
 Klicken Sie auf &#39;Fenster schließen&#39;, um das Popup-Fenster zu schließen.
 
 ![](assets/welcome-videos.png)
 
-## Seite Erste Schritte {#gettingstartedpage}
+## Seite „Erste Schritte“ {#gettingstartedpage}
 
-Auf der Seite &quot;Erste Schritte&quot; können Sie die folgenden Aktivitäten ausführen:
+Auf der Seite „Erste Schritte“ können Sie die folgenden Aktivitäten ausführen:
 
 * Module erstellen
 * Kurse erstellen
 
-Sie können auch mehr über die Learning Manager-Anwendung erfahren, indem Sie Tutorial-Videos und Hilfeinhalte anzeigen und Informationen zu verschiedenen Rollen erhalten.
+Sie können auch mehr über die Anwendung Learning Manager erfahren, indem Sie sich Videolehrgänge und Hilfeinhalte ansehen und Informationen über die verschiedenen Rollen abrufen.
 
 ![](assets/author-experienceprime.png)
 

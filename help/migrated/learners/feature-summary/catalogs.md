@@ -1,12 +1,12 @@
 ---
-description: Erfahren Sie, wie Sie Kataloge im Lern-Manager verwenden, um die entsprechenden Lernobjekte anzuzeigen
+description: Erfahren Sie, wie Sie Kataloge in Learning Manager verwenden, um die entsprechenden Lernobjekte in Learning Manager anzuzeigen.
 jcr-language: en_us
 title: Kataloge
 contentowner: manochan
 source-git-commit: b77a43100521aa35096c6a6b4d417630cb9293b3
 workflow-type: tm+mt
 source-wordcount: '280'
-ht-degree: 0%
+ht-degree: 23%
 
 ---
 
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # Kataloge
 
-Erfahren Sie, wie Sie Kataloge im Lern-Manager verwenden, um die entsprechenden Lernobjekte anzuzeigen
+Erfahren Sie, wie Sie Kataloge in Learning Manager verwenden, um die entsprechenden Lernobjekte in Learning Manager anzuzeigen.
 
 **Katalog** besteht aus allen Kursen, Lernprogrammen, Zertifizierungen und Arbeitshilfen, die für eine Teilnehmerrolle im Unternehmenskonto verfügbar sind.
 
 Teilnehmer können alle zugewiesenen und verfügbaren Lernobjekte (Lernprogramme, Kurse und Zertifizierungen) im Fenster &quot; **Standardkatalog**. Diese Lernobjekte sind für jeden Teilnehmer basierend auf seiner Rolle, Bezeichnung, Benutzergruppe, seinem Profil usw. einzigartig.
 
-Sie können die Liste der Lernobjekte anhand der Kenntnisse und des Typs der Lernobjekte (Selbststudium, gemischt, Klassenzimmer, virtuelles Klassenzimmer, Aktivität) filtern. Sie können auch mithilfe der Optionen im linken Bereich filtern: nach Lernobjekten, nach Kenntnissen und nach Abschlussstatus.
+Sie können die Liste der Lernobjekte nach Qualifikationen und nach Art der Lernobjekte filtern (Selbststudium, gemischt, Präsenzkurs, virtuelles Klassenzimmer, Aktivität). Sie können auch mithilfe der Optionen im linken Bereich filtern: nach Lernobjekten, nach Kenntnissen und nach Abschlussstatus.
 
 Verwenden Sie die Suchleiste oben auf der Seite, um die Namen Ihrer vertrauten Lernobjekte einzugeben.
 

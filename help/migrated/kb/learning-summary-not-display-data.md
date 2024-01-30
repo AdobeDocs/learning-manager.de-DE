@@ -6,7 +6,7 @@ contentowner: saghosh
 source-git-commit: ec79aa3dd6225cc424721afb50702963c1b125eb
 workflow-type: tm+mt
 source-wordcount: '150'
-ht-degree: 0%
+ht-degree: 48%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Übersicht zu Lernprogrammen zeigt keine aktuellen Daten an
 
-## Problem
+## Ein Problem
 
 Im Adobe-Lernmanager zeigt die Übersicht zu Lernprogrammen keine aktuellen Daten für Registrierung, Abschluss oder Fortschritte an.
 

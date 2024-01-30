@@ -7,7 +7,7 @@ preview: true
 source-git-commit: 9325abb9cda8c8a019c9d72c1944a8284f38f83e
 workflow-type: tm+mt
 source-wordcount: '210'
-ht-degree: 0%
+ht-degree: 70%
 
 ---
 
@@ -21,17 +21,17 @@ Rich Text besteht aus HTML-Markup. Wenn Sie das Markup unverändert rendern, wir
 
 ## Standardstil
 
-Das angehängte CSS-Stylesheet enthält den Stil, der vom Lern-Manager angewendet wird. Das Styling wurde unter Berücksichtigung der meisten Anwendungsfälle optimiert. Laden Sie die angehängte CSS-Datei herunter und importieren Sie sie entsprechend Ihren Konventionen und Ihrem Build-System in Ihre Webanwendung. Die definierten CSS-Klassen werden unter der ql-editor-Klasse mit einem Namensraum versehen und beeinträchtigen nicht die vorhandenen Stile.
+Das angehängte CSS-Stylesheet enthält den Stil, der von Learning Manager angewendet wird. Das Styling wurde unter Berücksichtigung der häufigsten Anwendungsfälle optimiert. Laden Sie die angehängte CSS-Datei herunter und importieren Sie sie entsprechend Ihren Konventionen und Ihrem Build-System in Ihre Webanwendung. Die definierten CSS-Klassen werden unter der ql-editor-Klasse mit einem Namensraum versehen und beeinträchtigen nicht die vorhandenen Stile.
 
 ## Stile anpassen
 
-Der Standardstil erfüllt möglicherweise nicht alle Anforderungen. Die Anpassungen können durch Überschreiben des bereitgestellten CSS vorgenommen werden. Der gesamte Stil wird als Nachfahren-Selektoren unter ql-editor eingeschlossen. Die folgenden Klassen werden verwendet:
+Der Standardstil erfüllt möglicherweise nicht alle Anforderungen. Die Anpassungen können durch Überschreiben des bereitgestellten CSS vorgenommen werden. Der Stil wird als Nachfahren-Selektoren unter ql-editor eingeschlossen. Folgende Klassen werden verwendet:
 
 * **Einzug**: li.ql-indent-$number. $number variiert von 1 bis 9
 * **Umfang**: ql-size-small, ql-size-large, ql-size-huge
 * **Ausrichtung**: ql-align-center, ql-align-justify, ql-align-right
-* **Farbe**: ql-color-$color. $color = weiß, rot, orange, gelb, grün, blau, lila
-* **Hintergrund**: ql-bg-$color. $color = schwarz, rot, orange, gelb, grün, blau, lila
+* **Farbe**: ql-color-$color. $color = white, red, orange, yellow, green, blue, purple
+* **Hintergrund**: ql-bg-$color. $color = black, red, orange, yellow, green, blue, purple
 * **html-Tags**: p, ol, ul, pre, blockquote, h1, h2, h3, h4, h5, h6
 
-[CSS-Datei, die für die Anpassung verwendet wird.](assets/ql-headless.css)
+[CSS-Datei für die Anpassung.](assets/ql-headless.css)

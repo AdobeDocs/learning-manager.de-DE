@@ -1,36 +1,36 @@
 ---
 jcr-language: en_us
-title: Barrierefreiheit im Adobe Learning Manager
-description: In diesem Dokument wird beschrieben, wie das Learning Manager-Lernmanagementsystem die Barrierefreiheit für Teilnehmer mit Behinderungen unterstützt. Es enthält auch Informationen zu Navigationsoptionen und Barrierefreiheitsfunktionen der Plattform.
+title: Barrierefreiheit in Adobe Learning Manager
+description: In diesem Dokument wird beschrieben, wie das Learning Manager-Learning Management System die Barrierefreiheit für Teilnehmer mit Behinderungen unterstützt. Es enthält auch Informationen zu Navigationsoptionen und Barrierefreiheit-Funktionen der Plattform.
 contentowner: saghosh
 preview: true
 source-git-commit: 92b3c83ec04de927f9066db6b79e8b19872d2b46
 workflow-type: tm+mt
 source-wordcount: '932'
-ht-degree: 0%
+ht-degree: 71%
 
 ---
 
 
 
-# Barrierefreiheit im Adobe Learning Manager
+# Barrierefreiheit in Adobe Learning Manager
 
-In diesem Dokument wird beschrieben, wie das Learning Manager-Lernmanagementsystem die Barrierefreiheit für Teilnehmer mit Behinderungen unterstützt. Es enthält auch Informationen zu Navigationsoptionen und Barrierefreiheitsfunktionen der Plattform.
+In diesem Dokument wird beschrieben, wie das Learning Manager-Learning Management System die Barrierefreiheit für Teilnehmer mit Behinderungen unterstützt. Es enthält auch Informationen zu Navigationsoptionen und Barrierefreiheit-Funktionen der Plattform.
 
 Der Learning Manager entspricht den W3C-Standards WCAG 2.1 Level A und AA für Barrierefreiheit für die Plattform.
 
 Mit der Teilnehmerrolle des Adobe-Lern-Managers können Teilnehmer durch die Plattform navigieren und die folgenden Eingabehilfen nutzen:
 
-* Bildschirm-Reader
+* Sprachausgabe
 * Tastatur
 * Untertitel
-* Andere
+* Sonstiges
 
-## Unterstützung für Screen-Reader {#supportforscreenreaders}
+## Unterstützung für Sprachausgabe {#supportforscreenreaders}
 
 Adobe Learning Manager unterstützt Sprachausgabe-Programme wie NVDA, JAWS und Voice-Over auf dem Desktop, Talkback und Voice-Over auf Mobilgeräten, mit denen Teilnehmer den Text auf der Learning Manager-Plattform lesen und entsprechend navigieren können.
 
-Die folgenden Kombinationen von Sprachausgabe und Browser werden auf Desktops unterstützt:
+Die folgenden Kombinationen von Sprachausgabe und Browser wird auf Desktops unterstützt:
 
 <table> 
  <tbody>
@@ -69,9 +69,9 @@ Die folgenden Kombinationen von Sprachausgabe und Browser werden auf Desktops un
 
 ## Unterstützung für die Tastaturnavigation {#supportforkeyboardnavigation}
 
-Teilnehmer können Standardtasten verwenden, um mit oder ohne Sprachausgabe auf den Seiten zu navigieren. Dies hilft den Teilnehmern, mithilfe einer Bildschirmlesesoftware durch Elemente auf der Seite zu navigieren und Inhalte zu lesen.
+Teilnehmer können Standardtasten verwenden, um mit oder ohne Sprachausgabe auf den Seiten zu navigieren. Dies hilft den Teilnehmern, mithilfe einer Sprachausgabe durch Elemente auf der Seite zu navigieren und Inhalte zu lesen.
 
-Darüber hinaus unterstützt der Lern-Manager die folgenden Tastaturbefehle:
+Zusätzlich unterstützt Learning Manager die folgenden Tastaturbefehle:
 
 <table> 
  <tbody>
@@ -113,7 +113,7 @@ Darüber hinaus unterstützt der Lern-Manager die folgenden Tastaturbefehle:
  </tbody>
 </table>
 
-## Player-Steuerelemente
+## Player-Steuerung
 
 <table> 
  <tbody>
@@ -129,12 +129,12 @@ Darüber hinaus unterstützt der Lern-Manager die folgenden Tastaturbefehle:
   </tr> 
   <tr> 
    <td><p>Alt+V</p></td> 
-   <td><p>Wahl+V</p></td> 
+   <td><p>Option+V</p></td> 
    <td><p>Lautstärke</p></td> 
   </tr> 
   <tr> 
    <td><p>Alt+M</p></td> 
-   <td><p>Wahl+M</p></td> 
+   <td><p>Option+M</p></td> 
    <td><p>Vollbild</p></td> 
   </tr> 
  </tbody>
@@ -142,11 +142,11 @@ Darüber hinaus unterstützt der Lern-Manager die folgenden Tastaturbefehle:
 
 ## Weitere Unterstützung {#supportforcolorcontrast}
 
-Die Teilnehmerrolle des Lern-Managers unterstützt mehrere andere Funktionen für Barrierefreiheit, darunter:
+Die Teilnehmerrolle von Learning Manager unterstützt mehrere zusätzliche Funktionen für Barrierefreiheit, darunter Folgende:
 
 1. Semantische Struktur der Teilnehmerrollen, einschließlich Überschrift, Listenmarkierung, beschreibende Titel usw. wird bereitgestellt.
-1. Die Unterstützung für das Vergrößern des Browsers auf bis zu 200 % ohne Verlust von Inhalten oder Funktionen wird über die Teilnehmerrolle hinweg beibehalten.
-1. Der Farbkontrast für Text- und Nicht-Text-Elemente wird in der Teilnehmerrolle beibehalten. Für eine bessere Erfahrung verwenden Sie den Katalog [lebhaft](/help/migrated/administrators/feature-summary/themes.md) Design.
+1. Die Unterstützung für das Vergrößern des Browsers auf bis zu 200 % ohne Verlust von Inhalt oder Funktionalität wird über die Teilnehmerrolle hinweg beibehalten.
+1. Der Farbkontrast für Text- und Nicht-Text-Inhalte wird in der Teilnehmerrolle beibehalten. Für eine bessere Erfahrung verwenden Sie das [Lebhaft](/help/migrated/administrators/feature-summary/themes.md)-Design.
 1. Unterstützung von WAI ARIA-Designmustern des W3C, um Konsistenz und Best Practices der Branche zu erhalten.
 
 Weitere Informationen finden Sie unter:
@@ -158,12 +158,12 @@ Weitere Informationen finden Sie unter:
 
 Sehen wir uns an, wie Sie mit den Eingabehilfen durch einige wichtige Funktionen für Teilnehmer im Lern-Manager navigieren können.
 
-Verwenden Sie die `kbd Tab`-Taste, um durch die Elemente auf der Seite zu navigieren. Verwenden Sie die `kbd Shift + Tab` drücken, um die Navigationsrichtung umzukehren. Der Tastaturfokus wird durch eine blaue Umrandung um ein Element angezeigt. Eine Bildschirmlesesoftware sollte den Text des fokussierten Elements vorlesen.
+Verwenden Sie die `kbd Tab`-Taste, um durch die Elemente auf der Seite zu navigieren. Verwenden Sie die `kbd Shift + Tab` drücken, um die Navigationsrichtung umzukehren. Der Tastaturfokus wird durch einen blauen Umriss um ein Element angezeigt. Eine Sprachausgabe sollte den Text des fokussierten Elements vorlesen.
 
 ## Suchen Sie nach einer Schulung im Lernmanager {#searchforatrainingincaptivateprime}
 
 1. Verwenden Sie diese Hinweise, um zum Suchfeld oben rechts auf der Startseite zu navigieren.
-1. Geben Sie Text über die Tastatur ein. Die Suchergebnisse werden angezeigt.
+1. Geben Sie Text über die Tastatur ein. Suchergebnisse werden angezeigt.
 1. Verwenden der Tastatur `kbd Up/Down` Navigieren durch die Ergebnisse oder Drücken der `kbd ENTER`, um alle Ergebnisse anzuzeigen.
 
 1. Sobald die Schulung gefunden wurde, klicken Sie auf `kbd ENTER`, um zur Schulungsseite zu navigieren.
@@ -177,13 +177,13 @@ Verwenden Sie die `kbd Tab`-Taste, um durch die Elemente auf der Seite zu navigi
 
    * Inhaltsverzeichnis
    * Hinweise
-   * Schaltfläche &quot;Abspielen/Anhalten&quot;
+   * Schaltfläche „Abspielen/Anhalten“
    * Vollbild
-   * Schaltfläche Schließen
+   * Schaltfläche „Schließen“
    * Einstellungen
-   * Modulnamenbeschriftung
+   * Modulbezeichnung
 
-1. Im Folgenden sind die Steuerelemente aufgeführt, die basierend auf dem Inhaltstyp angezeigt werden:
+1. Im Folgenden sind die Steuerelemente aufgeführt, die unabhängig vom Inhaltstyp angezeigt werden:
 
    * VIDEO-Inhalt - Vorwärts- und Rückwärtssteuerung, Schieberegler.
    * DOKUMENT-Inhalt - Seitenzahl, Seite nach oben, Seite nach unten, Vergrößern, Verkleinern.
@@ -193,36 +193,36 @@ Verwenden Sie die `kbd Tab`-Taste, um durch die Elemente auf der Seite zu navigi
 
 1. Verwenden Sie für den Typ DOKUMENT Pfeilsteuerelemente wie `kbd UP/DOWN` , um durch das Dokument zu scrollen.
 
-## Barrierefreiheitsunterstützung für spezifische Bedürfnisse
+## Unterstützte Eingabehilfen für spezielle Bedürfnisse
 
 Schauen wir uns die Barrierefreiheitsfunktionen an, die Teilnehmer je nach ihren spezifischen Anforderungen nutzen können.
 
-### Benutzer, die taub oder hörgeschädigt sind
+### Benutzer, die gehörlos oder hörgeschädigt sind
 
-* Verwenden Sie Bilduntertitel in Inhalten, die mit dem Adobe Captivate-Authoring-Tool erstellt wurden.
-* Bei Videos können Autoren die Videos mit Untertiteltext codieren. In solche Videos sind Untertitel eingebettet, die von den Teilnehmern genutzt werden können.
-* Learning Manager unterstützt die Möglichkeit, WebVTT-Dateien mit Untertiteln für Videoinhalte hochzuladen. Weitere Informationen finden Sie unter  [*WebVTT-Datei für Bilduntertitel hochladen*](/help/migrated/authors/feature-summary/content-library.md).
+* Verwenden Sie Untertitel, die in Inhalten verfügbar sind, die mit dem Adobe Captivate-Authoring-Tool erstellt wurden.
+* Bei Videos können Autoren die Videos mit Untertiteltext codieren. In solche Videos sind Untertitel eingebettet, die von den Teilnehmer verwendet werden können.
+* Learning Manager unterstützt die Möglichkeit, WebVTT-Untertiteldateien für Videoinhalte hochzuladen. Weitere Informationen finden Sie unter  [*WebVTT-Datei für Bilduntertitel hochladen*](/help/migrated/authors/feature-summary/content-library.md).
 
 ### Benutzer, die blind oder sehbehindert sind
 
-* Verwenden Sie die Standard-Tastaturbefehle und -befehle, um die Seite zu durchsuchen.
-* Verwenden Sie die Sprachausgabe, wie oben erwähnt, um die Informationen auf der Webseite auszulesen.
-* Verwenden Sie Bildschirmlupen zum Vergrößern des Bildschirms, um die Lesbarkeit zu verbessern, und zoomen Sie den Browser auf 200 %, um den Inhalt zu lesen.
+* Verwenden Sie die Standard-Tastenkombinationen und -befehle, um die Seite zu durchsuchen.
+* Verwenden Sie die Sprachausgabe (wie oben beschrieben), um sich die Informationen auf der Webseite vorlesen zu lassen.
+* Verwenden Sie Bildschirmlupen zum Vergrößern des Bildschirms für eine bessere Lesbarkeit. Zoomen Sie den Browser auf 200 %, um den Inhalt zu lesen.
 
-### Benutzer, die Schwierigkeiten mit der Farbauswahl haben
+### Benutzer, die Schwierigkeiten mit der Farbwahrnehmung haben
 
-Die Teilnehmerrolle des Adobe-Lernmanagers bemüht sich, den Benutzern eine Benutzeroberfläche zur Verfügung zu stellen, die klar und lesbar ist und den WCAG 2.1-Standards entspricht.
+Die Teilnehmerrolle von Adobe Learning Manager ist bestrebt, Benutzern eine Benutzeroberfläche zur Verfügung zu stellen, die klar und lesbar ist und den WCAG 2.1-Standards entspricht.
 
-Für eine bessere Erfahrung auf der Teilnehmerseite verwenden Sie das [Lebhaftes Design](/help/migrated/administrators/feature-summary/themes.md).
+Für eine bessere Erfahrung auf der Teilnehmerseite verwenden Sie das [Lebhaft-Design](/help/migrated/administrators/feature-summary/themes.md).
 
 ### Benutzer mit eingeschränkter Mobilität und Reichweite
 
-Adobe Learning Manager konzentriert sich weiterhin auf Barrierefreiheit und plant, die aktuellen Funktionen zu verbessern, damit die Teilnehmer des Systems besser durch die Rolle &quot;Teilnehmer&quot; navigieren können.
+Adobe Learning Manager konzentriert sich weiterhin auf Barrierefreiheit und plant, die aktuellen Funktionen zu verbessern, damit die Teilnehmer des Systems besser durch die Rolle „Teilnehmer“ navigieren können.
 
 ### Untertitelunterstützung für Videos
 
-Beim Erstellen eines Kurses können Autoren WebVTT-Dateien zusammen mit den Videodateien hochladen. Teilnehmer können dann die Untertitel anzeigen, wenn sie sich die Videos ansehen.
+Beim Erstellen eines Kurses können Autoren WebVTT-Dateien zusammen mit den Videodateien hochladen. Teilnehmer können dann die Untertitel anzeigen, wenn sie sich Videos ansehen.
 
-## Was wird in einer zukünftigen Version behandelt? {#whatwillbeaddressedinafuturerelease}
+## Was wird in einer zukünftigen Version enthalten sein {#whatwillbeaddressedinafuturerelease}
 
-* Untertitelunterstützung für Videos. Autoren sollten die Möglichkeit erhalten, SRT-Dateien zusammen mit den Videodateien hochzuladen. Teilnehmer sollten in der Lage sein, Untertitel für Videos anzuzeigen.
+* Untertitelunterstützung für Videos. Autoren sollten die Möglichkeit erhalten, SRT-Dateien zusammen mit den Videodateien hochzuladen. Die Teilnehmer sollten in der Lage sein, Untertitel für Videos anzuzeigen.

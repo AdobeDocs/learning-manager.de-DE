@@ -1,12 +1,12 @@
 ---
 jcr-language: en_us
 title: Autoren
-description: Lesen Sie weiter, um mehr über die Learning Manager-Funktionen und häufig gestellte Fragen zur Autorenrolle zu erfahren.
+description: Im Folgenden erhalten Sie Informationen zu den Funktionen und häufig gestellten Fragen zur Autorenrolle in Learning Manager.
 contentowner: manochan
 source-git-commit: ccdb222228f76fdae63ebb0a808824ad6ac1db7f
 workflow-type: tm+mt
 source-wordcount: '62'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 0%
  <tbody>
   <tr> 
    <td><img src="assets/authors2.png"></td> 
-   <td><p>Lesen Sie weiter, um mehr über die Learning Manager-Funktionen und häufig gestellte Fragen zur Autorenrolle zu erfahren. </p></td> 
+   <td><p>Im Folgenden erhalten Sie Informationen zu den Funktionen und häufig gestellten Fragen zur Autorenrolle in Learning Manager. </p></td> 
   </tr> 
  </tbody>
 </table>

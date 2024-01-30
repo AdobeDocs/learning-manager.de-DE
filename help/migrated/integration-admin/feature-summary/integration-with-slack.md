@@ -1,47 +1,47 @@
 ---
 jcr-language: en_us
-title: Learning Manager-Integration mit Slack
-description: Learning Manager-Integration mit Slack
+title: Learning Manager-Integration in Slack
+description: Learning Manager-Integration in Slack
 contentowner: dvenkate
 source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
 workflow-type: tm+mt
 source-wordcount: '468'
-ht-degree: 0%
+ht-degree: 44%
 
 ---
 
 
 
-# Learning Manager-Integration mit Slack
+# Learning Manager-Integration in Slack
 
 Wir haben **entfernt** **Slack** als Connector in Learning Manager. Sie haben keinen Zugriff mehr auf den Slack-Connector.
 
-Als Slack-Benutzer können Sie die Adobe Learning Manager-App aus dem Slack-App-Verzeichnis in Ihren Slack-Teams installieren und Learning Manager-Inhalte direkt auf dem Slack erkunden. Sie können mit Primebot interagieren, um nach neuen Kursen zu suchen, Empfehlungen anzuzeigen und über bevorstehende Fristen im Learning Manager benachrichtigt zu werden. Sie können sich auch direkt von Slack aus registrieren und zu Ihren Lerninhalten springen.
+Als Slack-Benutzer können Sie die Adobe Learning Manager-App aus dem Slack-App-Verzeichnis für Ihre Slack-Teams installieren und Learning Manager-Inhalte direkt in Slack öffnen. Sie können mit Primebot interagieren, um nach neuen Kursen zu suchen, Empfehlungen anzuzeigen und über bevorstehende Fristen im Learning Manager benachrichtigt zu werden. Sie können sich auch direkt in Slack für einen Kurs registrieren und zu Ihren Lerninhalten springen.
 
 Die Learning Manager-App für Slack wird in einer Azure-Instanz von Learning Manager nicht unterstützt.
 
 ## Installieren der Adobe Learning Manager-App {#installingadobecaptivateprimeapp}
 
-Als Teilnehmer können Sie die CP Prime-App in Ihrem Slack-Konto installieren. Um die App zu installieren, öffnen Sie in Ihrem Slack-Konto das App-Verzeichnis und suchen Sie nach dem Learning Manager. Laden Sie die App herunter und installieren Sie sie. Wenn die App in Ihrem Konto nicht genehmigt wurde, wenden Sie sich zur Genehmigung an Ihren Integrationsadministrator. Wenn es bereits genehmigt ist, können Sie sich anmelden.
+Als Kursteilnehmer können Sie die CP Prime-App in Ihrem Slack-Konto installieren. Um die App zu installieren, öffnen Sie in Ihrem Slack-Konto das App-Verzeichnis und suchen Sie nach Learning Manager. Laden Sie die App herunter und installieren Sie sie. Wenn die App in Ihrem Konto nicht genehmigt wurde, wenden Sie sich zur Genehmigung an Ihren Integrationsadministrator. Wenn sie bereits genehmigt ist, können Sie sich anmelden.
 
-## Genehmigen der Anmeldung von Teilnehmern als Integrationsadministrator {#approvinglearnersigninasanintegrationadmin}
+## Integrations-Admin-Genehmigung der Anmeldung eines Kursteilnehmers {#approvinglearnersigninasanintegrationadmin}
 
 Um als Integrationsadministrator einem Teilnehmer die Berechtigung zur Verwendung der Prime-Anwendung auf dem Slack zu erteilen, führen Sie die folgenden Schritte aus.
 
-1. Auswählen **[!UICONTROL Anwendungen]** aus dem linken Bereich und klicken Sie auf die Schaltfläche **[!UICONTROL Highlights]** &quot; ändern.
+1. Wählen Sie im linken Teilfenster **[!UICONTROL Apps]** aus und klicken Sie auf die Registerkarte **[!UICONTROL Empfohlene Apps]**.
 
    ![](assets/featuredapps.jpg)
 
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Slack]** Kachel > die Slack-Integrationsseite wird geöffnet. Klicken **[!UICONTROL Genehmigen]** in der oberen rechten Ecke, um die Anwendung zu genehmigen.
+1. Klicken Sie auf die Kachel **[!UICONTROL Slack]** > die Slack-Integrationsseite wird geöffnet. Klicken **[!UICONTROL Genehmigen]** in der oberen rechten Ecke, um die Anwendung zu genehmigen.
 
    ![](assets/approval.png)
 
 1. Gehen Sie zurück zur **[!UICONTROL Anwendungen]** angezeigt. Nach der Genehmigung sollte Slack im **[!UICONTROL Externe Apps]** &quot; ändern.
-1. Teilnehmer können sich jetzt über den Slack bei ihrem Prime-Konto anmelden.
+1. Kursteilnehmer können sich jetzt mit Slack bei ihrem Prime-Konto anmelden.
 
 ## Primebot-Funktionen {#primebotfunctionalities}
 
-Sie können jetzt mit dem Primebot interagieren. Im Folgenden sind die Funktionen des Bots aufgeführt.
+Sie können jetzt mit dem Primebot interagieren. Der Bot bietet folgende Funktionen.
 
 1 - Befehl
 
@@ -51,25 +51,25 @@ Die verfügbaren Unterbefehle sind:
 
 &quot;/prime find&quot; `<query>` - nach Kursen, Zertifizierungen usw. suchen
 
-&quot;/prime recommendation&quot; - Empfehlungen anzeigen
+„/prime recommend“ – Empfehlungen anzeigen
 
-&quot;/prime terms&quot; - überfällige und bevorstehende Fristen anzeigen
+„/prime deadlines“ – überfällige und bevorstehende Fristen anzeigen
 
-&quot;/prime enrollments&quot; - Registrierungen anzeigen
+„/prime enrollments“ – Registrierungen anzeigen
 
-&quot;/prime skills&quot; - Kenntnisse anzeigen
+„/prime skills“ – Fähigkeiten anzeigen
 
-&quot;/prime notifications&quot; - Benachrichtigungen anzeigen
+„/prime notifications“ – Benachrichtigungen anzeigen
 
-&quot;/prime catalogs&quot; - Kataloge anzeigen
+„/prime catalogs“ – Kataloge anzeigen
 
 &quot;/prime invite&quot; [Nur Administrator] Slack-Benutzer im aktuellen Team einladen, den primebot auszuprobieren
 
-&quot;/prime profile&quot; - Profil anzeigen
+„/prime profile“ – Profil anzeigen
 
-&quot;/prime logout&quot; - Abmelden von Ihrem Prime-Konto in diesem Slack-Team
+„/prime logout“ – in diesem Slack-Team vom Prime-Konto abmelden
 
-&quot;/prime help&quot; - Hilfe anzeigen
+„/prime help“ – Hilfetext anzeigen
 
 2 - Empfehlungen
 

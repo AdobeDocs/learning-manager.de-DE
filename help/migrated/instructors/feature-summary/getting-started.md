@@ -1,37 +1,37 @@
 ---
-description: Lesen Sie diesen Artikel, um zu erfahren, wie Sie als Kursleiter im Learning Manager beginnen.
+description: In diesem Artikel erfahren Sie, wie Sie als Kursleiter mit Learning Manager beginnen.
 jcr-language: en_us
-title: Erste Schritte als Kursleiter im Learning Manager
+title: Erste Schritte als Kursleiter in Learning Manager
 source-git-commit: 8635072782253cbac3f913953797cae7c0bc5ef4
 workflow-type: tm+mt
 source-wordcount: '162'
-ht-degree: 0%
+ht-degree: 93%
 
 ---
 
 
 
-# Erste Schritte als Kursleiter im Learning Manager
+# Erste Schritte als Kursleiter in Learning Manager
 
-Lesen Sie diesen Artikel, um zu erfahren, wie Sie als Kursleiter im Learning Manager beginnen.
+In diesem Artikel erfahren Sie, wie Sie als Kursleiter mit Learning Manager beginnen.
 
-## Melden Sie sich als Kursleiter an {#loginasaninstructor}
+## Melden Sie sich als Administrator an {#loginasaninstructor}
 
-Wenn ein Autor Sie als Kursleiter für ein Modul in einem Kurs hinzufügt, erhalten Sie eine E-Mail in Ihrer registrierten E-Mail. Die E-Mail enthält einen Link zur Kursleiter-App. Klicken Sie auf den Link, um zur Anmeldeseite des Lern-Managers zu gelangen.
+Wenn ein Autor Sie als Kursleiter für ein Modul in einem Kurs hinzufügt, erhalten Sie eine E-Mail an Ihre registrierte E-Mail-Adresse. Die E-Mail enthält einen Link zur Kursleiter-App (ACI). Klicken Sie auf den Link, um zur Learning Manager-Anmeldeseite zu wechseln.
 
 1. Melden Sie sich bei Learning Manager an.
 
-   Auf dem Bildschirm wird die Startseite der Kursleiter-App angezeigt. Sie können die Details zu Ihren bevorstehenden Sitzungen sehen.
+   Der Bildschirm zeigt die Startseite der Kursleiter-App an. Sie können die Details über die bevorstehenden Sitzungen sehen.
 
    ![](assets/instructor-upcomingsession.png)
 
    *Startseite der Kursleiter-App anzeigen*
 
-Administratoren können einem Modul auch einen Benutzer als Autor hinzufügen, während sie Sitzungsdaten für eine Kursinstanz hinzufügen.
+Administratoren können außerdem einen Benutzer als Autor zum Modul hinzufügen, wenn sie Sitzungsinformationen für eine Kursinstanz eingeben.
 
 ## Verwalten von Modulen als Kursleiter {#managingmodulesasaninstructor}
 
-Sehen Sie sich die folgende Abbildung an, um den Kursleiter-Arbeitsablauf im Lern-Manager zu verstehen:
+Sehen Sie sich das folgende Bild an, um den Arbeitsablauf für den Kursleiter in Learning Manager zu verstehen:
 
 ![](assets/instructor.jpg)
 

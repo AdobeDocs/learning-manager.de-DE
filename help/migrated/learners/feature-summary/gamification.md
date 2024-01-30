@@ -1,12 +1,12 @@
 ---
-description: Interagieren Sie mit Benutzern mithilfe von Gamification-Techniken im Learning Manager.
+description: Bieten Sie den Benutzenden Gamification-Techniken in Learning Manager.
 jcr-language: en_us
 title: Gamification
 contentowner: manochan
 source-git-commit: a8dec2a5e91b6d989a7fb9161e84fcb1f8de752d
 workflow-type: tm+mt
 source-wordcount: '1464'
-ht-degree: 0%
+ht-degree: 70%
 
 ---
 
@@ -14,50 +14,50 @@ ht-degree: 0%
 
 # Gamification
 
-Interagieren Sie mit Benutzern mithilfe von Gamification-Techniken im Learning Manager.
+Bieten Sie den Benutzenden Gamification-Techniken in Learning Manager.
 
-Gamification ist der Einsatz von Spieldenken und Spielmechanik in Nicht-Spiel-Kontexten, um Benutzer beim Lernen in Ertragspunkte einzubinden.
+Gamification bedeutet, spieltypische Ideen und Prozesse in einen spielfremden Kontext einzubetten. So werden die Teilnehmenden animiert, durch Lernen Punkte zu sammeln.
 
 ## Übersicht {#overview}
 
-Um Teilnehmer mithilfe von Spieltechniken zu motivieren, ihre Ziele zu erreichen, verwenden Sie die Gamification-Funktion im Lern-Manager. Teilnehmer können mit ihren Kollegen konkurrieren, um Punkte für verschiedene Lernaktivitäten zu sammeln und Bronze-, Silber-, Gold- und Platinlevel zu erreichen.
+Motivieren Sie Teilnehmende mit der Gamification-Funktion in Learning Manager, ihre Ziele zu erreichen, indem sie die Spiele-Techniken verwenden. Teilnehmer können sich mit ihren Peers messen, um Punkte für verschiedene Lernaktivitäten zu sammeln und die Stufen Bronze, Silber, Gold und Platin erreichen.
 
-Die Teilnehmer können die Leistungsstufe auch basierend auf den Punkten sehen, die sie gesammelt haben. Die Stufen beinhalten schnelle Teilnehmer, selbstgesteuerte Teilnehmer usw. **Interne und externe Teilnehmer können auf diese Funktion zugreifen.**
+Die Teilnehmer können außerdem die Leistungsstufe, basierend auf den Punkten, die sie erworben haben, sehen. Die Stufen beinhalten schnellere Teilnehmer, selbständige Teilnehmer usw. **Internen und externe Teilnehmer können auf diese Funktion zugreifen.**
 
 ## Leaderboard {#leaderboard}
 
-Leaderboard ist eine Gamification-Funktion, die als Anzeigetafel dient, um die Ranglistenwerte führender Konkurrenten zu präsentieren. Teilnehmer können ihre Gamification-Punkte mithilfe des Leaderboards anzeigen.
+Das Leaderboard ist eine Gamification-Funktion. Hier werden die Punktzahlen der führenden Teilnehmer auf einer Anzeigetafel dargestellt. Die Teilnehmer können ihre Gamification-Punkte auf dem Leaderboard einsehen.
 
-Klicken Sie auf der Teilnehmer-Startseite auf **[!UICONTROL Gamification]** im linken Bereich. Um das Leaderboard anzuzeigen, klicken Sie auf den Link &quot;Leaderboard&quot;. Mit dieser Funktion können die Teilnehmer nachvollziehen, wie es ihnen mit einem bestimmten Teammitglied ergeht. Es zeigt auch ihre Rangliste im Vergleich zu anderen Teammitgliedern an.
+Klicken Sie auf der Teilnehmer-Startseite auf **[!UICONTROL Gamification]** im linken Bereich. Um das Leaderboard anzuzeigen, klicken Sie auf den Link „Leaderboard“. Durch diese Funktion können die Teilnehmer erkennen, wie sie im Vergleich zu einem bestimmten Teammitglied stehen. Sie zeigt auch ihre Rangposition relativ zu anderen Mitgliedern des Teams.
 
-Einige der Funktionen des Leaderboards für Teilnehmer:
+Hier einige Teilnehmerfunktionen des Leaderboards:
 
 * Teilnehmer, die bei einer Lernprogramminstanz registriert sind, können die Punkte des anderen sehen, wenn Gamification für diese Instanz aktiviert ist.
-* Klicken **[!UICONTROL Kollegen hinzufügen]** , um Teammitglieder einzubeziehen, mit denen Sie sich vergleichen möchten. Das Profilbild Ihres Teammitglieds wird der Zeitleistenskala oben auf der Leaderboard-Seite hinzugefügt. Diese Zeitleistenskala zeigt Ihre Anfangspunkte an und verschiebt Ihre Position nach rechts, wenn Sie mehr Punkte als Ihre Teammitglieder erzielt haben. Sie können es nur mit anderen Mitgliedern derselben Gruppe vergleichen.
+* Klicken Sie auf **[!UICONTROL Kollegen hinzufügen]**, um Teammitglieder hinzuzufügen, mit denen Sie sich vergleichen möchten. Das Profilbild Ihres Teammitglieds wird der Zeitleistenskala oben auf der Leaderboard-Seite hinzugefügt. Die Zeitleiste zeigt Ihre Anfangspunkte an. Ihre Position wird nach rechts verschoben, wenn Sie mehr Punkte als andere Teammitglieder erzielt haben. Sie können sie nur mit anderen Mitgliedern der gleichen Gruppe vergleichen.
 * **Benutzergruppen:** Sie können jederzeit die Profile Ihrer Team-Mitglieder auswählen, mit denen Sie Ihren Rang vergleichen möchten, indem Sie die **[!UICONTROL Rank Me With]** aus. Geben Sie im Feld Benutzergruppen auswählen die Gruppe ein und wählen Sie sie aus. Die Liste aller Team-Mitglieder mit den neuesten Punkten finden Sie unten. Interne und externe Benutzer können die Liste anzeigen, aber nur interne Benutzer können andere interne Teilnehmer suchen.
 
-* Außerdem werden im Dialogfeld &quot;Personen in Ihrem Rang&quot; die Namen der Team-Mitglieder angezeigt, die sich über, unter oder auf derselben Ebene wie Sie befinden.
-* Wenn ein externer Benutzer in einen internen Benutzer konvertiert, wird die Zeitleiste automatisch aktualisiert.
+* Das Dialogfeld „Teilnehmer mit ähnlichem Rang“ zeigt die Namen der Team-Mitglieder an, die sich direkt oberhalb oder unterhalb desselben Rangs wie Sie befinden.
+* Wenn ein externer Benutzer in einen internen Benutzer konvertiert wird, wird die Zeitleiste automatisch aktualisiert.
 
-## Punkte für konsistentes Lernen
+## Punkte für beständiges Lernen
 
-Adobe Learning Manager führt eine neue Gamification-Aufgabe ein, die Benutzer dazu ermutigt, konsistent auf die Lernplattform zuzugreifen und sich an den Lernaktivitäten zu beteiligen. Zur Unterstützung dieser Aufgabe kann der Administrator jetzt eine neue Regel einrichten, die Punkte vergibt, wenn der Teilnehmer Lernaktivitäten für 1, 2, 3 oder 4 Tage in einer Woche, einem Monat oder einem Quartal ausführt.
+Adobe Learning Manager führt eine neue Gamification-Aufgabe ein, die Benutzer motiviert, stetig auf die Lernplattform zuzugreifen und sich an den Lernaktivitäten zu beteiligen. Zur Unterstützung dieser Aufgabe kann der Administrator jetzt eine neue Regel einrichten, die Punkte vergibt, wenn der Teilnehmer Lernaktivitäten für 1, 2, 3 oder 4 Tage in einer Woche, einem Monat oder einem Quartal ausführt.
 
-Beachten Sie, dass die Gamification-Punkte für diese Regel alle 24 Stunden einmal vergeben werden. Wenn ein Teilnehmer beispielsweise heute um 8 Uhr PST (Pacific Standard Time) eine Lernaktivität ausführt und Gamification-Punkte für heute erhalten hat, wird er morgen nur dann für Gamification-Punkte berücksichtigt, wenn er eine Lernaktivität nach 8 Uhr PST ausführt.
+Beachten Sie, dass die Gamification-Punkte für diese Regel alle 24 Stunden einmal vergeben werden. Wenn ein Teilnehmer beispielsweise heute um 8 Uhr mitteleuropäischer Zeit eine Lernaktivität ausführt und Gamification-Punkte für den heutigen Tag erhalten hat, wird er am nächsten Tag nur dann für Gamification-Punkte berücksichtigt, wenn er eine Lernaktivität nach 8 Uhr mitteleuropäischer Zeit ausführt.
 
 Die folgenden Aktivitäten werden als Lernaktivitäten betrachtet:
 
-* Einen Kurs, einen Lernpfad oder eine Zertifizierung im Fluidic Player absolvieren.
-* Arbeitshilfe wird heruntergeladen.
-* Anlage wird heruntergeladen.
-* Notizen hinzufügen.
-* Zugriff auf das Dashboard für soziales Lernen.
-* Kommentieren im Dashboard für soziales Lernen.
-* Posten im Dashboard für soziales Lernen.
+* Absolvieren eines Kurses, eines Lernpfads oder einer Zertifizierung im Fluidic Player
+* Herunterladen einer Arbeitshilfe
+* Herunterladen einer Anlage
+* Hinzufügen von Notizen
+* Zugreifen auf das Dashboard für soziales Lernen
+* Kommentieren im Dashboard für soziales Lernen
+* Posten im Dashboard für soziales Lernen
 
 **Gamification-Punkte für L1- und L3-Feedback und Sternebewertung**
 
-Mit dem Adobe Learning Manager kann ein Administrator jetzt ein Gamification-Kriterium aktivieren, das Benutzern Punkte zuweist, wenn sie ein L1-Feedback, L3-Feedback und eine Sternebewertung abgeben.
+Adobe Learning Manager ermöglicht einem Administrator jetzt, ein Gamification-Kriterium zu aktivieren, das Punkte an Benutzer vergibt, wenn diese ein L1-Feedback, ein L3-Feedback und eine Sternebewertung abgeben.
 
 ![](assets/feedback-rating.png)
 
@@ -67,66 +67,66 @@ Diese Funktion ermutigt die Benutzer, aktiv Feedback zu geben, was den Teilnehme
 
 ## Aufgaben {#tasks}
 
-Es gibt fünf Gamification-Aufgaben für Teilnehmer. Sie können Gamification-Punkte innerhalb des Kreises in der oberen rechten Ecke des Fensters auf der Teilnehmer-Startseite anzeigen. Um die Zuweisung für jede Aufgabe anzuzeigen, klicken Sie auf Gamification.
+Für die Teilnehmer gibt es fünf Gamification-Aufgaben. Sie können die Gamification-Punkte im Kreis in der rechten oberen Fensterecke auf der Teilnehmerstartseite anzeigen. Um die Zuweisung für jede Aufgabe anzuzeigen, klicken Sie auf Gamification.
 
-Das System zeigt die Gamification-Seite an, auf der alle Aufgaben und Punkte der Teilnehmer angezeigt werden. Diese Seite ist unten dargestellt:
+Das System zeigt die Gamification-Seite mit allen Teilnehmeraufgaben und Punkten; siehe unten:
 
 >[!NOTE]
 >
->Gamification-Punkte innerhalb einer bestimmten Aufgabe werden nicht kumuliert. Aber die Punkte werden dem Teilnehmerkonto kumulativ hinzugefügt, wenn die Teilnehmer diese Punkte bei verschiedenen Aufgaben erreichen.
+>Die Gamification-Punkte einer bestimmten Aufgabe werden nicht addiert. Allerdings werden die Punkte für das Konto des Teilnehmers zusammengezählt, wenn dieser die Punkte in verschiedenen Aufgaben erzielt.
 >
->Beim Zuweisen von Kursen zu Punkten muss der Administrator sicherstellen, dass die Teilnehmer die Punkte schrittweise erhalten.
+>Beim Zuweisen von Punkten und Kursen muss der Administrator sicherstellen, dass die Teilnehmer nach und nach mehr Punkte sammeln können.
 
 **Für schnelle Teilnehmer**
 
-Diese Aufgabe ist relevant, wenn ein Teilnehmer einige Kurse innerhalb eines Monats/Quartals/Jahres abschließt. Diese Aufgabe ist es, schnelle Teilnehmer zu ermutigen.
+Diese Aufgabe ist anwendbar, wenn ein Teilnehmer eine bestimmte Anzahl von Kursen innerhalb eines Monats/eines Quartals/eines Jahres absolviert. Diese Aufgabe soll schnelle Teilnehmer motivieren.
 
 Sie können die folgenden möglichen Szenarien sehen:
 
-1. Wenn Teilnehmer innerhalb eines Monats/Quartals/Jahres zwei Kurse absolvieren, erhalten sie 20 Punkte.
-1. Wenn Teilnehmer innerhalb eines Monats/Quartals/Jahres vier Kurse absolvieren, erhalten sie 100 Punkte.
-1. Wenn die Teilnehmer acht Kurse absolvieren, erhalten sie 300 Punkte.
-1. Wenn Teilnehmer zehn Kurse abschließen, erhalten sie 500 Punkte.
+1. Wenn Teilnehmer innerhalb eines Monats/Quartals/Jahres zwei Kurse absolvieren, erhalten sie 20 Punkte.
+1. Wenn Teilnehmer innerhalb eines Monats/Quartals/Jahres vier Kurse absolvieren, erhalten sie 100 Punkte.
+1. Wenn Teilnehmer acht Kurse absolvieren, erhalten sie 300 Punkte.
+1. Wenn die Teilnehmer zehn Kurse abschließen, erhalten sie 500 Punkte.
 
 >[!NOTE]
 >
->Der Administrator kann den Zeitraum und die Anzahl der Kurse ändern, die absolviert werden müssen, um die entsprechenden Punkte zu erhalten.
+>Der Administrator kann die Zeitspanne und die Anzahl der Kurse ändern, die absolviert werden müssen, um die entsprechenden Punkte zu erhalten.
 >
->Innerhalb einer Aufgabe werden den Teilnehmern keine Punkte kumulativ zugewiesen. Nehmen wir beispielsweise an, dass ein Teilnehmer einen einzelnen Kurs abschließt und 20 Punkte erhält. Wenn Teilnehmer zwei Kurse absolvieren, erhalten sie 100 Punkte, aber die vorhandenen 20 Punkte werden nicht berücksichtigt.
+>Innerhalb einer Aufgabe werden die Punkte für die Teilnehmer nicht kumulativ vergeben. Beispiel: Ein Teilnehmer hat einen einzelnen Kurs abgeschlossen und dafür 20 Punkte erhalten. Wenn der Teilnehmer zwei Kurse abschließt, erhält er 100 Punkte, aber die vorhandenen 20 Punkte werden nicht berücksichtigt.
 
-**Für selbstständige Teilnehmer (a)**
+**Für selbständige Teilnehmer (a)**
 
 Diese Aufgabe ist für Teilnehmer relevant, die sich für die vorgeschriebene Anzahl von Kursen registrieren und diese innerhalb eines Monats/Quartals/Jahres abschließen. In diesem Fall kann der Administrator diese Aufgabe aktivieren, um Punkte zuzuweisen und sie zu ermutigen.
 
 Mögliche Szenarien:
 
-1. Wenn Teilnehmer sich innerhalb eines Monats/Quartals/Jahres für einen Kurs registrieren, erhalten sie 50 Punkte.
+1. Wenn Teilnehmer sich innerhalb eines Monats/Quartals/Jahres für einen Kurs registrieren, erhalten sie 50 Punkte.
 1. Wenn Teilnehmer sich innerhalb eines Monats/Quartals/Jahres für zwei Kurse registrieren, erhalten sie 150 Punkte.
 
 >[!NOTE]
 >
 >Der Administrator kann den Zeitraum und die Anzahl der Kurse ändern.
 
-**Für selbstständige Teilnehmer (b)**
+**Für selbständige Teilnehmer (b)**
 
-Diese Aufgabe ist für Teilnehmer relevant, die sich in einem Monat/Quartal/Jahr für mehr Kurse registriert und mehr Kurse abgeschlossen haben, als für deren Abschluss erforderlich sind. In solchen Fällen kann der Administrator diese Aufgabe aktivieren, um Punkte zuzuweisen und sie zu ermutigen.
+Diese Aufgabe ist für Teilnehmer relevant, die sich in einem Monat/Quartal/Jahr für mehr als die vorgeschriebene Anzahl von Kursen registriert und diese abgeschlossen haben.  In diesem Fall kann der Administrator die Aufgabe so einrichten, dass zur Motivation Punkte vergeben werden.
 
 Mögliche Szenarien für die Registrierung von Teilnehmern für Kurse zusätzlich zu den ihnen zugeteilten Kursen:
 
-1. Wenn Teilnehmer sich innerhalb eines Monats/Quartals/Jahres für einen Kurs registrieren, erhalten sie 20 Punkte.
+1. Wenn Teilnehmer sich innerhalb eines Monats/Quartals/Jahres für einen Kurs registrieren, erhalten sie 20 Punkte.
 1. Wenn Teilnehmer sich innerhalb eines Monats/Quartals/Jahres für zwei Kurse registrieren, erhalten sie 100 Punkte.
-1. Wenn Teilnehmer sich innerhalb eines Monats/Quartals/Jahres für drei Kurse registrieren, erhalten sie 300 zusätzliche Punkte.
-1. Wenn Teilnehmer sich innerhalb eines Monats/Quartals/Jahres für vier Kurse registrieren, erhalten sie 500 zusätzliche Punkte.
+1. Wenn die Teilnehmer sich innerhalb eines Monats/Quartals/Jahres für drei Kurse registrieren, erhalten sie 300 zusätzliche Punkte.
+1. Wenn die Teilnehmer sich innerhalb eines Monats/Quartals/Jahres für vier Kurse registrieren, erhalten sie 500 zusätzliche Punkte.
 
 >[!NOTE]
 >
->Der Administrator kann den Zeitraum und die Anzahl der Kurse ändern. Beispielsweise kann das dritte Szenario auf fünf Kurse statt auf drei geändert werden, um 80 Punkte zu erhalten.
+>Der Administrator kann den Zeitraum und die Anzahl der Kurse ändern. Das dritte Szenario kann zum Beispiel auf fünf Kurse statt auf drei geändert werden, für die der Teilnehmer dann 80 Punkte erhält.
 
-**Für Weiterbildung (a)**
+**Zur Kompetenzverbesserung (a)**
 
-Diese Aufgabe ist für Teilnehmer relevant, die eine Reihe von Kompetenzen erwerben. Der Administrator kann diese Aufgabe wählen, um Teilnehmer zu ermutigen, so viele Kompetenzen wie möglich zu erwerben.
+Diese Aufgabe ist für Teilnehmer relevant, die eine bestimmte Anzahl von Kompetenzen erwerben sollen. Der Administrator kann diese Aufgabe wählen, um Teilnehmer dazu zu motivieren, so viele Kompetenzen wie möglich zu erlangen.
 
-Mögliche Szenarien für die Kompetenzverbesserung:
+Mögliche Szenarien der Kompetenzverbesserung:
 
 1. Wenn die Teilnehmer eine Kompetenz erwerben, erhalten sie 100 Punkte.
 1. Wenn Teilnehmer zwei Kompetenzen erwerben, erhalten sie 300 Punkte.
@@ -137,11 +137,11 @@ Mögliche Szenarien für die Kompetenzverbesserung:
 >
 >Der Zeitraum ist für diese Aufgabe nicht relevant. Der Administrator kann die Anzahl der Kurse für jedes Szenario ändern.
 
-**Für Weiterbildung (b)**
+**Zur Kompetenzverbesserung (b)**
 
-Diese Aufgabe ist für alle Teilnehmer relevant, die eine höhere Stufe innerhalb einer Kompetenz absolvieren.
+Diese Aufgabe ist für die Teilnehmer relevant, die innerhalb einer Kompetenz höhere Stufen erreichen sollen.
 
-Mögliche Szenarien für die Weiterbildung in Stufen innerhalb einer bestimmten Kompetenz:
+Mögliche Szenarien zu den Stufen der Kompetenzverbesserung innerhalb einer bestimmten Kompetenz:
 
 1. Wenn die Teilnehmer eine Stufe erreichen, erhalten sie 100 Punkte.
 1. Wenn Teilnehmer zwei Stufen erreichen, erhalten sie 200 Punkte.
@@ -153,21 +153,21 @@ Mögliche Szenarien für die Weiterbildung in Stufen innerhalb einer bestimmten 
 
 **Punkte für frühzeitigen Abschluss**
 
-Diese Aufgabe ist für Teilnehmer relevant, die als erste N Teilnehmer den Kurs abschließen.
+Diese Aufgabe ist für die Teilnehmer relevant, die unter den ersten n Teilnehmern sind, die den Kurs abschließen.
 
 Mögliche Szenarien:\
 Wenn ein Teilnehmer einer der ersten 10 Teilnehmer wird, die den Kurs abschließen, erhält er 100 Punkte.
 
-**Punkte für rechtzeitigen Abschluss**
+**Punkte für termingerechten Abschluss**
 
-Diese Aufgabe ist für Teilnehmer relevant, die einen Kurs innerhalb einer festgelegten Anzahl von Tagen vor dem Kursabschlussdatum abschließen.
+Diese Aufgabe ist für die Teilnehmer relevant, die den Kurs innerhalb einer festgelegten Anzahl von Tagen vor dem Fristablauf abschließen.
 
 Mögliche Szenarien:\
 Wenn Teilnehmer einen Kurs innerhalb von 10 Tagen nach Kursbeginn abschließen, erhalten sie 100 Punkte.
 
 **Stufen erreichen**
 
-Der Teilnehmerstatus der Stufe wird in der rechten oberen Ecke der Seite in einem Kreis auf der Seite &quot;Meine Kurse&quot; angezeigt. Die Teilnehmer können die folgenden verschiedenen Stufen basierend auf der Anzahl der Punkte erreichen, die während des Lernzeitraums erreicht wurden:
+Der Stand der vom Teilnehmer erreichten Stufe wird auf der Seite „Eigene Kurse“ rechts oben in einem Kreis angezeigt. Die Teilnehmer können je nach den im Lernzeitraum erreichten Punkten die folgenden Stufen erreichen:
 
 1. Bronze: Teilnehmer, die 1500 Punkte erreicht haben.
 1. Silber - wenn der Teilnehmer 2500 Punkte erreicht.
@@ -178,4 +178,4 @@ Der Teilnehmerstatus der Stufe wird in der rechten oberen Ecke der Seite in eine
 
 **1. Wie sieht das Leaderboard als Teilnehmer aus?**
 
-Klicken Sie in der Teilnehmer-App im linken Bereich auf **[!UICONTROL Social Learning]**. Sie können das soziale Leaderboard in der unteren rechten Ecke der Seite sehen.
+Klicken Sie in der Teilnehmer-App im linken Bereich auf **[!UICONTROL Soziales Lernen]**. Sie können das soziale Leaderboard in der rechten unteren Ecke der Seite sehen.

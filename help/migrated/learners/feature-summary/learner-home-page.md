@@ -6,7 +6,7 @@ contentowner: saghosh
 source-git-commit: 021a5eaa979be241faa2cf2b372731afc157ea9b
 workflow-type: tm+mt
 source-wordcount: '828'
-ht-degree: 0%
+ht-degree: 57%
 
 ---
 
@@ -48,21 +48,21 @@ Das Erscheinungsbild der Symbole auf jeder Schulungskarte wird vom Administrator
 
 **Zu meiner Lernliste hinzufügen**
 
-Wenn Sie den Mauszeiger auf eine Kurskarte im **Empfohlen basierend auf Ihren Interessenbereichen** und **Empfohlen basierend auf Peer-Aktivitätslisten** wird eine Option angezeigt, mit der Sie den Kurs zum **Meine Lernliste**. Klicken **[!UICONTROL +]** auf der Kurskarte und der Kurs wird zur Kurskarte **Meine Lernliste**.
+Wenn Sie den Mauszeiger in **Empfehlungen basierend auf Ihren Interessenbereichen** und **Empfehlungen basierend auf Peer-Aktivitätslisten** auf eine Kurskarte bewegen, wird eine Option angezeigt, um den Kurs zu **Meine Lernliste** hinzuzufügen. Klicken **[!UICONTROL +]** auf der Kurskarte und der Kurs wird zur Kurskarte **Meine Lernliste**.
 
 ![](assets/add-my-learning.png)
 
 *Zu meiner Lernliste hinzufügen*
 
-## Auswählen von Kenntnisstufen {#chooseskilllevels}
+## Auswählen von Qualifikationsstufen {#chooseskilllevels}
 
 Als Teilnehmer können Sie den Kurskatalog nach folgenden Stufen filtern:
 
-* Einsteiger
+* Anfänger
 * Fortgeschrittene
-* Erweitert
+* Experten
 
-Wenn Sie eine Option auswählen, wird der Kurskatalog entsprechend der Auswahl angezeigt.
+Wenn Sie eine Option auswählen, können Sie den Kurskatalog entsprechend der Auswahl anzeigen.
 
 ![](assets/skill-levels.png)
 
@@ -76,7 +76,7 @@ Zeigt Ihre geplanten Sitzungen und Schulungen an. Durchsuchen Sie den Kalender, 
 
 *Kalender für geplante Sitzungen anzeigen*
 
-Das Kalender-Widget verfügt über die folgenden Funktionen. Sie können Folgendes anzeigen:
+Das Kalender-Widget bietet die folgenden Funktionen. Sie können Folgendes anzeigen:
 
 * Schulung nach Monat. Scrollen Sie nach links oder rechts.
 * Bevorstehende Schulung im Schulungsraum oder VC-Schulung, für die Sie sich registrieren können.
@@ -91,21 +91,21 @@ Das Kalender-Widget verfügt über die folgenden Funktionen. Sie können Folgend
 
 Sehen Sie, worüber andere Benutzer sprechen.
 
-Das Widget fasst die Aktivität für einen Zeitraum zusammen. Sie:
+Das Widget fasst die Aktivität für einen Zeitraum zusammen. Im Einzelnen:
 
-* Zeigt aktive Benutzer und deren Aktivitäten der Benutzer an, die sich in Ihrem Bereich oder in Ihrer Gruppe befinden.
-* Zeigt Beiträge an, die in den letzten zwei Wochen erstellt wurden.
+* Es zeigt aktive Benutzer und Aktivitäten der Benutzer an, die sich in Ihrem Bereich oder Ihrer Gruppe befinden.
+* Es zeigt Beiträge an, die in den letzten zwei Wochen erstellt wurden.
 
 ## Profilkenntnisse {#profileskills}
 
-Profilkenntnisse werden für Kursempfehlungen verwendet. Wenn der Administrator einem Benutzer oder einer Gruppe von Benutzern Kenntnisse zuweist, werden die Kenntnisse den Profilkenntnissen des Teilnehmers hinzugefügt. Wenn der Teilnehmer seinem Profil Kenntnisse hinzufügt, werden alle Stufen der Kenntnisse den Profilkenntnissen des Teilnehmers hinzugefügt. Wenn ein Teilnehmer den Mauszeiger über eine Qualifikation bewegt, kann er den Namen der Qualifikation, die Methode zum Hinzufügen der Qualifikation, die Stufe, den Prozentsatz des Abschlusses der Qualifikation und Credits sehen.
+Profilkenntnisse werden für Kursempfehlungen verwendet. Wenn der Administrator einem Benutzer oder einer Gruppe von Benutzern Kenntnisse zuweist, werden die Kenntnisse den Profilkenntnissen des Teilnehmers hinzugefügt. Wenn der Teilnehmer seinem Profil eine Kenntnis hinzufügt, werden alle Stufen der Kenntnis den Profilkenntnissen des Teilnehmers hinzugefügt. Wenn ein Teilnehmer den Mauszeiger über eine Kenntnis bewegt, kann er den Namen der Kenntnis, die Methode zum Hinzufügen der Kenntnis, die Stufe, den Prozentsatz der Durchführung des Kenntniserwerbs und Credits sehen.
 
 ![](assets/profile-skills.png)
 *Profilkenntnisse anzeigen*
 
 Wenn sich ein Teilnehmer für einen Kurs registriert, werden nur die externen Kenntnisse, die auf einer Punktzahl basieren, den Profilkenntnissen hinzugefügt. Darüber hinaus kann ein Teilnehmer sein Profil durchsuchen, auswählen und ihm externe Kenntnisse hinzufügen. Wenn sich ein Teilnehmer zum ersten Mal bei der Teilnehmer-App angemeldet hat und die Kenntnisse des Teilnehmers bereits vorhanden sind, werden die Kenntnisse in &quot;Mein Profil&quot; angezeigt.
 
-## Empfehlung basierend auf Ihrem Interessenbereich {#recommendationbasedonyourareaofinterest}
+## Empfehlung basierend auf Ihrem Interessensbereich {#recommendationbasedonyourareaofinterest}
 
 Zeigt Schulungen basierend auf Ihrem ausgewählten Interessensbereich an. Die Empfehlung basiert auf einem Machine Learning-Algorithmus.
 
@@ -115,9 +115,9 @@ Zeigt Schulungen basierend auf Ihrem ausgewählten Interessensbereich an. Die Em
 
 Für zielgerichtetere Empfehlungen können Sie Ihre Kenntnisse aktualisieren, indem Sie auf **Anzeigen/Aktualisieren**.
 
-Nachdem Sie Kenntnisse hinzugefügt haben, werden zukünftige Empfehlungen zielgerichteter und auf Ihre Präferenzen konzentriert sein.
+Nachdem Sie Kenntnisse hinzugefügt haben, werden zukünftige Empfehlungen zielgerichteter und auf Ihre Voreinstellungen konzentriert sein.
 
-Wenn der Administrator die Option **Kenntnisse entdecken**, Sie könnten Ihre Fähigkeiten interessanter gestalten.
+Wenn der Administrator die Option **Neue Fähigkeiten erschließen** deaktiviert hat, können Sie Ihren Kenntnissen Interesse hinzufügen.
 
 Die empfohlenen Kurse werden als Karten angezeigt. Wenn Sie mit der Maus auf eine Karte zeigen, werden weitere Details zum Kurs angezeigt.
 
@@ -125,11 +125,11 @@ Produktterminologie wird ebenfalls unterstützt.
 
 **Branchenspezifische Qualifikationen**
 
-Wenn der Administrator die Option aktiviert hat, wird das Netzwerkdiagramm der Kenntnisse angezeigt. **Branchenspezifisch** in der Admin-App.
+Wenn der Administrator in der Admin-App die Option **Branchenspezifisch** aktiviert hat, wird das Netzwerkdiagramm angezeigt.
 
-Diese Kenntnisse können nur angezeigt werden, wenn der Administrator für den Schulungstyp &quot;Branchenspezifisch&quot; festlegt.
+Diese Kenntnis kann nur angezeigt werden, wenn der Administrator für den Schulungstyp „Branchenspezifisch“ festlegt.
 
-In der Kenntnisdiagramm-Visualisierung können Sie nach Kenntnissen oder Kenntnissen suchen und diese hinzufügen.
+In der Kenntnisdiagramm-Visualisierung können Sie nach einer Qualifikation oder Qualifikationen suchen und diese hinzufügen.
 
 ![](assets/learner-add-industry-skills.png)
 
@@ -137,16 +137,16 @@ In der Kenntnisdiagramm-Visualisierung können Sie nach Kenntnissen oder Kenntni
 
 Option aktivieren **Kenntnisse anzeigen, für die Schulungen in meinem Konto vorhanden sind**, wenn Sie alle Kenntnisse anzeigen möchten, die in Ihrem Konto vorhanden sind.
 
-Nachdem Sie eine Qualifikation hinzugefügt haben, können Sie das ausgerichtete Diagramm mit der ausgewählten Qualifikation als primärem Scheitelpunkt und den zugehörigen Qualifikationen als kleinere Scheitelpunkte sehen.
+Nachdem Sie eine Qualifikation hinzugefügt haben, können Sie das ausgerichtete Diagramm mit der ausgewählten Qualifikation als primärem Scheitelpunkt und den zugehörigen Kenntnissen als kleinere Scheitelpunkte sehen.
 
-Die ausgewählten Kenntnisse werden auch im Dialogfeld &quot; **Ausgewählte Kenntnisse** Abschnitt.
+Die ausgewählten Kenntnisse werden auch im Abschnitt **Ausgewählte Kenntnisse** angezeigt.
 
 ![](assets/learner-add-industry-skills-1.png)
 
 *Ausgewählte Kenntnisse*
 
-Um Kenntnisse hinzuzufügen, klicken Sie auf **[!UICONTROL Hinzufügen]**.
+Um die Qualifikationen hinzuzufügen, klicken Sie auf **[!UICONTROL Hinzufügen]**.
 
-## Auf Peer-Aktivität basierende Empfehlung {#recommendationbasedonpeeractivity}
+## Empfehlung auf der Grundlage von Peer-Aktivitäten {#recommendationbasedonpeeractivity}
 
 Zeigt Schulungen basierend auf den Aktivitäten Ihrer Kollegen an. Dies wird wiederum von einem Machine Learning-Algorithmus gesteuert. Die Empfehlungen basieren sowohl auf Schulungen für &quot;Benutzerdefiniert&quot;- als auch &quot;Branchenspezifisch&quot;-Teilnehmer.

@@ -2,7 +2,7 @@
 source-git-commit: 705de17630a5db7f43536f870e8760a4d22427e6
 workflow-type: tm+mt
 source-wordcount: '281'
-ht-degree: 0%
+ht-degree: 3%
 
 ---
 # Mitwirkend
@@ -13,7 +13,7 @@ Im Folgenden finden Sie einige Richtlinien, die bei der Mitarbeit an diesem Proj
 
 ## Verhaltenskodex
 
-Dieses Projekt entspricht der Adobe [Verhaltenskodex](code-of-conduct.md). Durch Ihre Teilnahme stimmen Sie zu, diesen Kodex einzuhalten. Melden Sie unangemessenes Verhalten bei
+Dieses Projekt unterliegt dem [Verhaltenskodex](code-of-conduct.md) von Adobe. Durch Ihre Teilnahme stimmen Sie zu, diesen Kodex einzuhalten. Melden Sie unangemessenes Verhalten bei
 [Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
 
 ## Leitfaden für Mitwirkende - Dokumentation
@@ -30,7 +30,7 @@ Allen Beiträgen Dritter zu diesem Projekt muss eine signierte Lizenzvereinbarun
 
 ## Codeüberprüfungen
 
-Alle Einreichungen sollten in Form von Pull-Requests erfolgen und müssen von den Committern des Projekts überprüft werden. Lesen [Dokumentation der Pull-Request-Anforderung von GitHub](https://help.github.com/articles/about-pull-requests/)
+Alle Einreichungen sollten in Form von Pull-Requests erfolgen und müssen von den Committern des Projekts überprüft werden. Lesen [Dokumentation der Pull-Request-Anforderung von GitHub](https://help.github.com/de/github/collaborating-with-issues-and-pull-requests/about-pull-requests)
 für weitere Informationen zum Senden von Pull-Requests.
 
 <!--

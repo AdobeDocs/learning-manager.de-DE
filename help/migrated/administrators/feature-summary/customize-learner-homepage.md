@@ -6,7 +6,7 @@ contentowner: saghosh
 source-git-commit: 2dd741a9e0e49986df34bd415ea57f9e64f3b26a
 workflow-type: tm+mt
 source-wordcount: '1132'
-ht-degree: 0%
+ht-degree: 47%
 
 ---
 
@@ -22,25 +22,25 @@ Der personalisierte Ansatz bietet die Möglichkeit, eine Teilnehmer-Startseite m
 
 Die Erfahrung basiert auf personalisierten Schulungsempfehlungen eines AI-basierten Algorithmus, der Inhalte von Drittanbietern für Branchenkenntnisse analysiert, Peer-Aktivitäten einbezieht und Interessensbereiche von Teilnehmern mithilfe expliziter und impliziter Daten berücksichtigt.
 
-## Konfigurieren der Teilnehmer-Startseite {#configurethelearnerhomepage}
+## Konfigurieren der Startseite des Teilnehmers {#configurethelearnerhomepage}
 
 Im Fenster &quot; **Branding** > **Startseite für Teilnehmer** kann ein Administrator das Startseitenerlebnis eines Teilnehmers anpassen, sodass der Teilnehmer bei der Anmeldung bei der Teilnehmer-App ein völlig neues Erscheinungsbild erlebt.
 
 Administratoren können die Benutzeroberfläche (Erscheinungsbild) in der Admin-App festlegen (**Branding** > **Teilnehmer-Startseite** &quot;).
 
-Administratoren können zur Ansicht &quot;Widget für immersive Benutzeroberfläche&quot; wechseln, Widgets/Funktionen entsprechend anpassen und dann die immersive Benutzeroberfläche aktivieren.
+Administratoren können zur Ansicht „Widget für immersive Benutzeroberfläche“ wechseln, Widgets/Funktionen entsprechend anpassen und dann die immersive Benutzeroberfläche aktivieren.
 
 Die **Startseite für Teilnehmer** enthält die folgenden Abschnitte:
 
 ## Option für immersives Layout {#immersivelayoutoption}
 
-Um das Layout einer immersiven Seite anzuzeigen, aktivieren Sie die Option **Immersiv**. Sie können diese Option in **Branding > Allgemein**.
+Um das Layout einer immersiven Seite anzuzeigen, aktivieren Sie die Option **Immersiv**. Sie können diese Option unter **Branding > Allgemein** umschalten.
 
 In früheren Versionen wurden die Optionen für die Teilnehmer-Startseite in den Einstellungen angezeigt.
 
-Folgende Optionen können festgelegt werden:
+Diese Optionen können Sie festlegen:
 
-**Startseitenerlebnis:** Aktivieren Sie eine der folgenden Optionen **Klassisch** oder **Immersiv**. Wenn Sie &quot;Immersiv&quot; wählen, werden die folgenden Optionen angezeigt:
+**Startseitenerlebnis:** Aktivieren Sie eine der folgenden Optionen **Klassisch** oder **Immersiv**. Wenn Sie „Immersiv“ wählen, werden folgende Optionen angezeigt:
 
 * **Schulungstyp:** Wählen Sie eine der beiden **Branche** oder **Benutzerdefiniert ausgerichtet**. Benutzerdefinierte Schulungen werden intern erstellt. Branchenspezifische Schulungen beinhalten Standardinhalte von Drittanbietern.
 
@@ -54,7 +54,7 @@ Die Option **Teilnehmern das Erkunden von Interessensbereichen ermöglichen** is
  <tbody>
   <tr>
    <td>
-    <p><b>Wenn Sie Benutzerdefiniert auswählen...</b></p></td>
+    <p><b>Wenn Sie „Benutzerdefiniert“ auswählen...</b></p></td>
    <td>
     <p><b>Wenn Sie Branchenspezifisch auswählen...</b><br></p></td>
   </tr>
@@ -62,12 +62,12 @@ Die Option **Teilnehmern das Erkunden von Interessensbereichen ermöglichen** is
    <td>
     <p>Sie können maximal ein internes und ein externes aktives Feld auswählen.</p></td>
    <td>
-    <p>Sie können höchstens fünf Felder und mindestens ein Feld auswählen. Standardmäßig ist die Option <b>Profil </b>ausgewählt ist.</p></td>
+    <p>Sie können höchstens fünf Felder und müssen mindestens ein Feld auswählen. Standardmäßig ist die Option <b>Profil </b>ausgewählt.</p></td>
   </tr>
  </tbody>
 </table>
 
-Wenn weniger als 1000 Teilnehmer vorhanden sind, wird das gesamte Konto als ein einziger Bereich betrachtet. Dies gilt speziell für den benutzerdefinierten Schulungstyp. Wenn das Konto weniger als 1000 Benutzer hat, wird das gesamte Konto als sein Bereich betrachtet.
+Bei weniger als 1.000 Teilnehmern wird das gesamte Konto als ein einziger Bereich betrachtet. Dies gilt speziell für den benutzerdefinierten Schulungstyp. Wenn das Konto weniger als 1000 Benutzer hat, wird das gesamte Konto als sein Bereich betrachtet.
 
 >[!NOTE]
 >
@@ -108,8 +108,8 @@ Bei vorhandenen Konten kann die Option **Immersiv** wird **AUS**. Es wird für e
     <p>So lädt ein Administrator ein Banner hoch:</p>
     <ol>
      <li>Klicken Sie im linken Teilfenster auf <b>Ankündigungen</b>.<br></li>
-     <li>Klicken Sie oben rechts auf der Seite auf <b>Hinzufügen</b>.</li>
-     <li>Im Fenster " <b>Typ </b>Dropdown-Liste wählen Sie <b>Als Mastertitel</b>.</li>
+     <li>Klicken Sie in der rechten oberen Ecke der Seite auf <b>Hinzufügen</b>.</li>
+     <li>Wählen Sie in der Dropdownliste <b>Typ </b>die Option <b>Als Mastertitel</b>.</li>
      <li>Schreiben Sie eine Nachricht, die im Mastertitel angezeigt wird.</li>
      <li>Laden Sie ein Bild oder Video hoch.</li>
      <li>Wählen Sie die Zielgruppe. Wählen Sie eine Benutzergruppe oder Schulung aus, in der der Mastertitel angezeigt werden soll.</li>
@@ -126,23 +126,23 @@ Bei vorhandenen Konten kann die Option **Immersiv** wird **AUS**. Es wird für e
    <td>
     <p>Kalender</p></td>
    <td>
-    <p>Zeigt den Teilnehmern verschiedene bevorstehende Schulungen im Klassenzimmer und virtuellen Klassenzimmer nach Monaten sortiert an. Es werden die Schulungen angezeigt, bei denen sich der Teilnehmer anmelden kann oder bereits angemeldet hat, einschließlich von Managern genehmigter Schulungen. </p></td>
+    <p>Zeigt den Teilnehmern verschiedene bevorstehende Schulungen im Schulungsraum und virtuellen Schulungsraum nach Monaten sortiert an. Es werden die Schulungen angezeigt, bei denen sich der Teilnehmer anmelden kann oder bereits angemeldet hat, einschließlich von Managern genehmigter Schulungen. </p></td>
   </tr>
   <tr>
    <td>
     <p>Gamification</p></td>
    <td>
-    <p>Zeigt das Leaderboard basierend auf Lernaktivitäten an.</p></td>
+    <p>Zeigt das Leaderboard auf Lernaktivitäten basierend an.</p></td>
   </tr>
   <tr>
    <td>
-    <p>Social Learning</p></td>
+    <p>Soziales Lernen</p></td>
    <td>
     <p>Listet Aktivitäten und Beiträge von Benutzern auf, die sich im selben Benutzerbereich wie Teilnehmer befinden. </p></td>
   </tr>
   <tr>
    <td>
-    <p>Empfehlungen der Organisation</p></td>
+    <p>Empfohlen von der Organisation</p></td>
    <td>
     <p>Wenn diese Option aktiviert ist, empfiehlt dieses Widget Schulungen für bestimmte Benutzergruppen. Jede Benutzergruppe kann auf eine oder mehrere Schulungen ausgerichtet werden, und der Zielplan würde auf einem Zeitrahmen basieren. <br></p>
     <ul>
@@ -162,11 +162,11 @@ Bei vorhandenen Konten kann die Option **Immersiv** wird **AUS**. Es wird für e
    <td>
     <p>Nach Katalog durchsuchen<br></p></td>
    <td>
-    <p>Zeigt Kataloge als Kacheln auf der Homepage an. </p></td>
+    <p>Zeigt Kataloge als Kacheln auf der Startseite an. </p></td>
   </tr>
   <tr>
    <td>
-    <p>Auf Peer-Aktivität basierende Empfehlung<br></p></td>
+    <p>Empfehlung auf der Grundlage von Peer-Aktivitäten<br></p></td>
    <td>
     <p>Zeigt Schulungen basierend auf den Aktivitäten der Kollegen eines Teilnehmers an. Dies wird wiederum von einem Machine Learning-Algorithmus gesteuert.</p></td>
   </tr>
@@ -192,7 +192,7 @@ Wenn sich der Teilnehmer über einen Browser bei der Teilnehmer-App anmeldet, ka
 
 *Anzeigen des immersiven Layouts für verschiedene Abschnitte auf der Startseite*
 
-## Option &quot;Klassisches Layout&quot; {#classiclayoutoption}
+## Option „Klassisches Layout“ {#classiclayoutoption}
 
 Das bisher immer vorhandene Layout der Benutzeroberfläche wird jetzt als klassisches Layout bezeichnet. Wenn Sie diese Option auswählen, wird die Teilnehmer-Startseitenansicht auf das klassische Layout zurückgesetzt.
 
@@ -210,7 +210,7 @@ Im Fenster &quot; **Allgemein** &quot; haben Sie die folgenden Optionen:
  <tbody>
   <tr>
    <td>
-    <p>Name der Organisation</p></td>
+    <p>Unternehmensname</p></td>
    <td>
     <p>Der Name des Unternehmens, zu dem der Teilnehmer gehört.</p></td>
   </tr>
@@ -218,11 +218,11 @@ Im Fenster &quot; **Allgemein** &quot; haben Sie die folgenden Optionen:
    <td>
     <p>Unterdomäne</p></td>
    <td>
-    <p>Die Unterdomäne der Organisation.</p></td>
+    <p>Die Unterdomäne des Unternehmens.</p></td>
   </tr>
   <tr>
    <td>
-    <p>Logostile</p></td>
+    <p>Logo-Gestaltung</p></td>
    <td>
     <p>So werden Ihr Logo und Ihr Firmenname auf Learning Manager angezeigt.<br></p></td>
   </tr>
@@ -230,7 +230,7 @@ Im Fenster &quot; **Allgemein** &quot; haben Sie die folgenden Optionen:
    <td>
     <p>Designs</p></td>
    <td>
-    <p>Das auf den Lern-Manager angewendete Design.</p></td>
+    <p>Das auf Learning Manager angewendete Design.</p></td>
   </tr>
   <tr>
    <td>
@@ -242,29 +242,29 @@ Im Fenster &quot; **Allgemein** &quot; haben Sie die folgenden Optionen:
    <td>
     <p>Startseite für Teilnehmer</p></td>
    <td>
-    <p>Wählen Sie eine der beiden <b>Klassisch </b>oder <b>Immersiv</b>. Wenn Sie "Immersiv" wählen, werden andere Optionen angezeigt.</p></td>
+    <p>Wählen Sie entweder <b>Klassisch </b>oder <b>Immersiv</b>. Wenn Sie „Immersiv“ wählen, werden andere Optionen angezeigt.</p></td>
   </tr>
   <tr>
    <td>
     <p>Schulungstyp<br></p></td>
    <td>
-    <p>Wählen Sie eine der beiden <b>Benutzerdefiniert </b>oder <b>Branchenspezifisch</b>. Wenn weniger als 1000 Teilnehmer vorhanden sind, wird das gesamte Konto als ein einziger Bereich betrachtet. Die Empfehlung basiert auf allen Teilnehmern.<br></p></td>
+    <p>Wählen Sie entweder <b>Benutzerdefiniert </b>oder <b>Branchenspezifisch</b>. Bei weniger als 1.000 Teilnehmern wird das gesamte Konto als ein einziger Bereich betrachtet. Die Empfehlung basiert auf allen Teilnehmern.<br></p></td>
   </tr>
   <tr>
    <td>
     <p>Einstellung des Empfehlungsumfangs<br></p></td>
    <td>
-    <p>Wählen Sie mindestens ein aktives Feld aus. Für <b>Benutzerdefiniert</b>können Sie maximal ein aktives Feld auswählen. Für <b>Branchenspezifisch</b>können Sie maximal fünf aktive Felder auswählen.<br></p></td>
+    <p>Wählen Sie mindestens ein aktives Feld aus. Für <b>Benutzerdefiniert</b> können Sie maximal ein aktives Feld auswählen. Für <b>Branchenspezifisch</b>können Sie maximal fünf aktive Felder auswählen.<br></p></td>
   </tr>
   <tr>
    <td>
     <p>Teilnehmern das Erkunden von Interessensbereichen ermöglichen</p></td>
    <td>
-    <p>Nur für klassische Benutzeroberfläche. Auswählen <b>Ja </b>oder <b>Nein</b>.<br></p></td>
+    <p>Nur für klassisches Benutzeroberfläche. Auswählen <b>Ja </b>oder <b>Nein</b>.<br></p></td>
   </tr>
   <tr>
    <td>
-    <p>Benutzer auffordern, Interessensbereiche (Kenntnisse) auszuwählen <br></p></td>
+    <p>Benutzer zum Auswählen von Interessenbereichen (Kenntnissen) auffordern <br></p></td>
    <td>
     <p>Nur für immersive Benutzeroberfläche. Auswählen <b>Ja</b> oder <b>Nein</b>. <br></p></td>
   </tr>

@@ -1,10 +1,10 @@
 ---
 title: Neue Funktionen in dieser Version
-description: Erfahren Sie mehr über die neuen Funktionen und Verbesserungen im Adobe-Lernmanager
+description: Informationen über die neuen Funktionen und Verbesserungen in Adobe Learning Manager
 source-git-commit: 655c94f0faaa6c025e07b11d3d9bfac4f221f899
 workflow-type: tm+mt
 source-wordcount: '2372'
-ht-degree: 0%
+ht-degree: 70%
 
 ---
 
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ## Überarbeitete Benutzeroberfläche
 
-Die Benutzeroberfläche des Adobe Learning Manager wurde einigen Aktualisierungen unterzogen, um ein saubereres und moderneres Erlebnis zu bieten. Die Zielseiten für die Rollen &quot;Administrator&quot; und &quot;Autor&quot; wurden überarbeitet und die Designs der Benutzeroberfläche wurden für alle Rollen aktualisiert. Es wurden jedoch keine Änderungen an der Position von Menüs, Schaltflächen oder Links vorgenommen, und Sie können diese genau dort finden, wo sie sich zuvor befunden haben.
+Die Benutzeroberfläche des Adobe Learning Manager wurde einigen Aktualisierungen unterzogen, um ein saubereres und moderneres Erlebnis zu bieten. Die Landingpages für die Rollen “Administrator(in)“ und “Autor(in)“ wurden überarbeitet und die Designs der Benutzeroberfläche für alle Rollen aktualisiert. Es wurden jedoch keine Änderungen an der Position von Menüs, Schaltflächen oder Links vorgenommen, und Sie können diese genau dort finden, wo sie sich zuvor befunden haben.
 
-Die Designaktualisierungen gelten automatisch für Konten, die das Standarddesign verwenden. Die Aktualisierungen des UI-Designs wirken sich nicht auf Konten aus, die Änderungen zur Verwendung eines benutzerdefinierten Designs vorgenommen haben. Solche Konten müssen zurück zum Standarddesign wechseln, um die neuen Designaktualisierungen zu erhalten.
+Die Designaktualisierungen gelten automatisch für Konten, die das Standarddesign verwenden. Die Aktualisierungen des Designs der Benutzeroberfläche wirken sich nicht auf Konten aus, die Änderungen zur Verwendung eines benutzerdefinierten Designs vorgenommen haben. Solche Konten müssen zurück zum Standarddesign wechseln, um die neuen Designaktualisierungen zu erhalten.
 
 ![UI-Bild](assets/refreshed-ui.png)
 
@@ -22,17 +22,17 @@ Die Designaktualisierungen gelten automatisch für Konten, die das Standarddesig
 
 ### Über diese Änderung
 
-**Welche Änderungen gibt es in dieser Version?**
+**Änderungen in dieser Version**
 
-Es gibt eine neue Vorlage in der Kopfzeile, die die Größe des Logos automatisch auf eine feste Größe und Position anpasst, während das Seitenverhältnis des Logos beibehalten wird. Mit der Änderung soll die visuelle Attraktivität des Lernerlebnisses verbessert werden.
+Eine neue Vorlage in der Kopfzeile stellt automatisch Größe und Position des Logos ein, während das Seitenverhältnis des Logos beibehalten wird. Mit der Änderung soll die visuelle Attraktivität des Teilnehmererlebnisses verbessert werden.
 
-Der Name der Organisation in der Kopfzeile wird für Teilnehmer auch automatisch auf 336 (Minimum) x 680 (Maximum) px geändert.
+Der Name der Organisation in der Kopfzeile wird für Teilnehmende auch automatisch auf 336 (Minimum) x 680 (Maximum) px geändert.
 
 **Welche Größe wird für das Logo empfohlen?**
 
 Die maximale Breite des Logos beträgt 210 px. Logos mit einer Breite von mehr als 210 px oder einer Höhe von mehr als 42 px werden auf 42 x 210 px skaliert.
 
-Wenn die Logogröße kleiner als die empfohlene Größe ist, wird das Logo unverändert hochgeladen und zentriert ausgerichtet.
+Wenn die Logogröße die empfohlene Größe unterschreitet, wird das Logo unverändert hochgeladen und zentriert ausgerichtet.
 
 **Welche Auswirkungen hat das?**
 
@@ -40,16 +40,16 @@ Längere Firmennamen werden zugeschnitten, und der Bereich wird mit einem Auslas
 
 **Was empfehlen wir?**
 
-* Ändere die Bildgröße, ohne das Seitenverhältnis zu ändern. Die empfohlene maximale Logogröße beträgt 42 px (vertikal) x 210 px (horizontal).
-* Bei vielen Konten würde dies automatisch gelten; Änderungen sind nicht erforderlich.
+* Beim Ändern der Bildgröße wird das Seitenverhältnis beibehalten. Die empfohlene maximale Logogröße beträgt 42 px (vertikal) x 210 px (horizontal).
+* Bei vielen Konten würde dies automatisch angewandt; Änderungen sind nicht erforderlich.
 
-## Native Erweiterbarkeit.
+## Native Erweiterbarkeit
 
-Richten Sie benutzerdefinierte Erlebnisse in der nativen Version von Adobe Learning Manager ein, sodass Sie Headless nicht für weniger komplizierte Fälle verwenden können. Sie können auch benutzerdefinierte Apps erstellen und sie an verschiedenen Punkten in der nativen Version der Workflows für Teilnehmer, Manager, Administrator, Autor oder Kursleiter platzieren.
+Richten Sie benutzerdefinierte Erfahrungen in der nativen Version von Adobe Learning Manager ein, sodass Sie für weniger komplizierte Fälle nicht Headless nutzen müssen. Sie können auch benutzerdefinierte Apps erstellen und sie an verschiedenen Punkten in der nativen Version der Workflows für Teilnehmende, Manager(innen), Administrator(inn)en, Autor(inn)en oder Kursleiter(inn)en platzieren.
 
 Ein Teilnehmer kann eine benutzerdefinierte App oder eine Erweiterung verwenden, die ein Administrator erstellt hat.
 
-Anzeigen [Native Erweiterbarkeit.](/help/migrated/administrators/feature-summary/native-extensibility.md) Weitere Informationen.
+Weitere Informationen finden Sie unter [Native Erweiterbarkeit](/help/migrated/administrators/feature-summary/native-extensibility.md).
 
 ## Quizerstellungswerkzeug
 
@@ -57,11 +57,11 @@ Sie können jetzt mit dem neuen Quizerstellungstool auf der Seite &quot;Inhaltsb
 
 Anzeigen [Quiz erstellen](/help/migrated/authors/feature-summary/content-library.md) Weitere Informationen.
 
-## Berichte zu Änderungen in dieser Version erstellen
+## Berichten von Änderungen in dieser Version
 
 ### Änderungen am Registrierungsbericht für Arbeitshilfe
 
-In früheren Versionen des Adobe-Lernmanagers verfügte der Bericht zur Registrierung der Arbeitshilfe über keine Filter. Adobe Learning Manager hat alle Daten eines Kontos heruntergeladen.
+In früheren Versionen von Adobe Learning Manager verfügte der Bericht zur Registrierung der Arbeitshilfe nicht über Filter. Adobe Learning Manager hat alle Daten eines Kontos heruntergeladen.
 
 In dieser Version haben wir eine Dropdown-Liste im Dialogfeld Bericht zu Arbeitshilfen hinzugefügt.
 
@@ -73,37 +73,37 @@ In dieser Version haben wir einen Datumsfilter hinzugefügt, mit dem Sie Benachr
 
 ### Änderungen an den Kursüberprüfungsdaten im Registrierungsbericht
 
-In dieser Version können Sie die Kursbesuchsinformationen in einem Registrierungsbericht herunterladen, indem Sie eine Zeit angeben. Für Konten mit mehr als fünf Millionen Registrierungen ist der Downloadzeitraum auf sechs Monate begrenzt. Für alle anderen Konten beträgt der Zeitraum 15 Monate.
+In dieser Version können Sie die Informationen zum erneuten Kursaufruf in einem Registrierungsbericht herunterladen, indem Sie eine Zeit angeben. Für Konten mit mehr als fünf Millionen Registrierungen ist der Downloadzeitraum auf sechs Monate begrenzt. Für alle anderen Konten beträgt der Zeitraum 15 Monate.
 
 Sie können den Bericht von der Seite **[!UICONTROL Berichte]** > **[!UICONTROL Benutzerdefinierte Berichte]** > **[!UICONTROL Historische Berichte]** > **[!UICONTROL Kurszugriffsbericht]**.
 
 ### Änderungen am Teilnehmertranskript
 
-In früheren Versionen des Adobe-Lernmanagers enthielt das Teilnehmertranskript die gelöschten Benutzer, wenn ein benutzerdefinierter Administrator einen Benutzerbereich hatte. In dieser Version enthält das Teilnehmertranskript die gelöschten Benutzer, wenn der benutzerdefinierte Administrator entweder über den Benutzerbereich oder den Zugriff auf alle Benutzergruppen verfügt.
+In früheren Versionen von Adobe Learning Manager enthielt das Teilnehmertranskript die gelöschten Benutzer(innen), wenn ein benutzerdefinierter Administrator einen Benutzerbereich hatte. In dieser Version enthält das Teilnehmertranskript die gelöschten Benutzer(innen), wenn die/der benutzerdefinierte Administrator(in) entweder über den Benutzerbereich oder den Zugriff auf alle Benutzergruppen verfügt.
 
 ### Änderungen im Anwesenheitsbericht
 
-Der Anwesenheitsbericht auf der Anwesenheitsseite von Kursen in der Admin-App und auf der Seite der Sitzungsteilnehmer der Kursleiter-App wurde synchron heruntergeladen. In dieser Version wird dieser Bericht asynchron über eine Benachrichtigung heruntergeladen.
+Der Anwesenheitsbericht auf der Anwesenheitsseite von Kursen in der Admin-App und auf der Seite „Teilnehmer der Sitzung“ der Kursleiter-App wurde synchron heruntergeladen. In dieser Version wird dieser Bericht asynchron über eine Benachrichtigung heruntergeladen.
 
 Weitere Informationen zu Berichten finden Sie unter [Berichte](/help/migrated/administrators/feature-summary/reports.md) im Adobe-Lernmanager.
 
-## Außerbetriebnahme des Content Marketplace
+## Außerbetriebnahme des Inhalts-Marketplace
 
-Die Kurse, die im importierten Inhalts-Marktplatzkatalog (Unternehmensschulung) abgelaufen sind, werden automatisch gelöscht, sobald sie ablaufen. Die Kurse werden eingestellt, um eingestellt zu werden, wenn der Inhalt für die Stilllegung markiert wird. Bestehende registrierte Teilnehmer können sie innerhalb eines begrenzten Zeitraums nutzen. Danach werden sie gelöscht. Dadurch bleibt der Katalog sauber und es werden den Benutzern keine abgelaufenen Kurse angezeigt.
+Die Kurse, die im importierten Inhalts-Marktplatzkatalog (Unternehmensschulung) abgelaufen sind, werden automatisch gelöscht, sobald sie ablaufen. Die Kurse werden eingestellt, wenn der Inhalt für die Außerbetriebnahme markiert wird. Bestehende registrierte Teilnehmende können sie innerhalb eines begrenzten Zeitraums nutzen. Danach werden sie gelöscht. Damit wird der Katalog bereinigt und Benutzer(inne)n werden keine abgelaufenen Kurse angezeigt.
 
-## Neue kompetenzbasierte Empfehlungen
+## Neue kenntnisbasierte Empfehlungen
 
-Adobe Learning Manager verbessert die Empfehlungen für Kunden- und Partnerkonten. Diese Verbesserung des Empfehlungsalgorithmus durch die Änderung des Einstufungsalgorithmus für den Kurs, den Lernpfad und die Zertifizierung verbessert die Benutzererfahrung bei der Suche nach Inhalten.
+Adobe Learning Manager verbessert die Empfehlungen für Kunden- und Partnerkonten. Diese Verbesserung des Empfehlungsalgorithmus durch die Änderung des Ranglistenalgorithmus für Kurs, Lernpfad und Zertifizierung verbessert die Benutzererfahrung bei der Suche nach Inhalten.
 
-Der Algorithmus lässt keine Peer-basierten Empfehlungen mehr zu. Die Änderung wirkt sich nicht auf die vorhandenen Benutzer aus, aber die Option &quot;Branchenspezifisch&quot; ist weiterhin vorhanden. Bei der Option &quot;Benutzerdefiniert&quot; lässt der Adobe-Lern-Manager eine benutzerdefinierte Peer-basierte Auswahl nicht mehr zu.
+Der Algorithmus lässt keine Empfehlungen auf Peer-Basis mehr zu. Die Änderung wirkt sich nicht auf die bestehenden Benutzer(innen) aus, aber die Option “Branchenspezifisch“ ist weiterhin vorhanden. Bei der Option “Benutzerdefiniert“ lässt Adobe-Lern-Manager keine benutzerdefinierte Peer-basierte Auswahl mehr zu.
 
-Die Peer-Gruppe wird jetzt zu einem Konto, und die Teilnehmer sehen eine Zeichenfolge, die die aktuellen Themen in der Gruppe anzeigt. Alle Empfehlungen sind erklärbar. Wenn Sie beispielsweise etwas zu einem Thema anzeigen, wird auf der Karte auf dem Streifen der Grund für den Kurs angezeigt.
+Die Peer-Gruppe wird jetzt zu einem Konto, und die Teilnehmenden sehen eine Zeichenfolge, die die aktuellen Themen in der Gruppe anzeigt. Alle Empfehlungen sind erklärbar. Wenn Sie beispielsweise etwas zu einem Thema anzeigen, wird auf der Karte auf dem Streifen der Grund für den Kurs angezeigt.
 
-## Verbesserungen am Arbeitsablauf für benutzerdefinierte Administratoren
+## Verbesserungen am Arbeitsablauf für benutzerdefinierte Administrator(inn)en
 
-Benutzerdefinierte Administratoren haben jetzt mehr Parität mit Administratorrollen in Bezug auf den Zugriff auf Berichte. Administratoren können den Berichtszugriff mit besserer Kontrolle konfigurieren.
+Benutzerdefinierte Administrator(inn)en haben jetzt mehr Parität mit Administratorrollen in Bezug auf den Zugriff auf Berichte. Administrator(inn)en haben bessere Kontrolle beim Konfigurieren des Berichtszugriffs.
 
-Im Adobe-Lern-Manager stehen einem benutzerdefinierten Administrator nur das Lernaktranskript und das Gamification-Transkript zur Verfügung. In dieser Version kann ein benutzerdefinierter Administrator auf alle benutzerdefinierten Berichte mit Ausnahme von xAPI- und E-Mail-Berichten zugreifen, die weiterhin nur für den Administrator verfügbar sind. Der Zugriff auf alle Berichte hängt vom Katalog und dem Benutzerbereich ab, über den der benutzerdefinierte Administrator verfügt. Es gibt nur wenige Berichte, die nur in vollem Umfang verfügbar sind. Sie sind:
+In Adobe Learning Manager stehen benutzerdefinierten Administrator(inn)en nur das Teilnehmertranskript und das Gamification-Transkript zur Verfügung. In dieser Version können benutzerdefinierte Administrator(inn)en auf alle benutzerdefinierten Berichte mit Ausnahme von xAPI- und E-Mail-Berichten zugreifen, die weiterhin nur für die/den Administrator(in) verfügbar sind. Der Zugriff auf alle Berichte hängt vom Katalog und dem Benutzerbereich ab, über den die/der benutzerdefinierte Administrator(in) verfügt. Nur wenige Berichte sind nur in vollem Umfang verfügbar. Sie sind:
 
 <table>
     <tbody>
@@ -129,7 +129,7 @@ Im Adobe-Lern-Manager stehen einem benutzerdefinierten Administrator nur das Ler
    <td>
     <p>Ja</p></td>
    <td>
-    <p>Vollbenutzer</p></td>
+    <p>Standardbenutzer(in)</p></td>
   </tr>
   <tr>
    <td>
@@ -137,7 +137,7 @@ Im Adobe-Lern-Manager stehen einem benutzerdefinierten Administrator nur das Ler
    <td>
     <p>Ja</p></td>
    <td>
-    <p>Vollbenutzer</p></td>
+    <p>Standardbenutzer(in)</p></td>
   </tr>
     </tbody>
 </table>
@@ -148,11 +148,11 @@ Auf der Seite &quot;Benutzerdefinierte Rollen&quot; haben wir die folgenden Schr
 
 **Benutzer**:
 
-Wenn Sie Schreibgeschützt auswählen, kann der benutzerdefinierte Administrator alle Benutzer anzeigen, aber keine Benutzerdaten bearbeiten und ein Selbstregistrierungsportal für Benutzer erstellen.
+Wenn Sie „Schreibgeschützt“ auswählen, kann die/der benutzerdefinierte Administrator(in) alle Benutzer(innen) anzeigen, aber keine Benutzerdaten bearbeiten, und ein Selbstregistrierungsportal für Benutzer(innen) erstellen.
 
 **Lernpläne**:
 
-Wenn Sie Schreibgeschützt wählen, kann ein benutzerdefinierter Administrator keinen Lernplan hinzufügen oder bearbeiten. Sie können einen Lernplanbericht herunterladen und seine Details anzeigen. Aber sie können die Kursdetails nicht ändern.
+Wenn Sie „Schreibgeschützt“ wählen, kann ein(e) benutzerdefinierte(r) Administrator(in) keinen Lernplan hinzufügen oder bearbeiten. Sie/er kann einen Lernplanbericht herunterladen und seine Details anzeigen. Aber sie/er kann die Kursdetails nicht ändern.
 
 >[!NOTE]
 >
@@ -160,7 +160,7 @@ Wenn Sie Schreibgeschützt wählen, kann ein benutzerdefinierter Administrator k
 
 **E-Mail-Vorlagen**
 
-Wenn Sie Schreibgeschützt auswählen, kann ein benutzerdefinierter Administrator die E-Mail-Vorlagen anzeigen. E-Mail-Vorlageneinstellungen können nicht aktiviert oder deaktiviert werden, aber E-Mail-Zugriffsberichte können heruntergeladen werden.
+Wenn Sie „Schreibgeschützt“ wählen, kann ein(e) benutzerdefinierte(r) Administrator(in) die E-Mail-Vorlagen anzeigen. Sie/er kann E-Mail-Vorlageneinstellungen nicht aktivieren oder deaktivieren, aber E-Mail-Zugriffsberichte herunterladen.
 
 ### Teilnehmertranskripte
 
@@ -194,7 +194,7 @@ Ein benutzerdefinierter Administrator kann entsprechend dem definierten Umfang a
    <td>
     <p>Ja</p></td>
    <td>
-    <p>Vollbenutzer</p></td>
+    <p>Standardbenutzer(in)</p></td>
   </tr>
   <tr>
    <td>
@@ -202,7 +202,7 @@ Ein benutzerdefinierter Administrator kann entsprechend dem definierten Umfang a
    <td>
     <p>Ja</p></td>
    <td>
-    <p>Vollbenutzer</p></td>
+    <p>Standardbenutzer(in)</p></td>
   </tr>
     </tbody>
 </table>
@@ -215,32 +215,32 @@ Ein benutzerdefinierter Administrator kann entsprechend dem definierten Umfang a
 
 ## Verbesserte Connect-Integration
 
-Kursleiter können ihre Sitzungserfahrung personalisieren, indem sie lehrerspezifische Räume auswählen. In dieser Version haben wir die folgenden Verbesserungen vorgenommen:
+Kursleiter(innen) können ihre Sitzungserfahrung personalisieren, indem sie besondere Räume für Kursleiter(innen) auswählen. In dieser Version haben wir die folgenden Verbesserungen vorgenommen:
 
-### Transkripte importieren
+### Importieren von Transkripten
 
-Sie können Sitzungstranskripte aus Connect importieren und die Transkripte analysieren. Teilnehmer erhalten das Transkript nach der Aufzeichnung, das sie später herunterladen können.
+Sie können Sitzungstranskripte aus Connect importieren und die Transkripte analysieren. Teilnehmende erhalten nach der Aufzeichnung das Transkript, das sie später herunterladen können.
 
 ### Bearbeiten von Videos
 
-Kursleiter können das Video bearbeiten und das Anwendererlebnis der Teilnehmer verbessern. Kursleiter sehen einen Link auf der Seite &quot;Sitzungsübersicht&quot;, über den sie zur Anmeldeseite von Adobe Connect gelangen. Nach der Anmeldung wird dem Kursleiter der Aufzeichnungslink angezeigt. Wenn sie auf den Link klicken, werden sie zum Video weitergeleitet, wo sie zugeschnitten werden können.
+Kursleiter können das Video bearbeiten und das Anwendererlebnis der Teilnehmer verbessern. Kursleiter(innen) sehen einen Link auf der Seite &quot;Sitzungsübersicht&quot;, über den sie zur Anmeldeseite von Adobe Connect gelangen. Nach der Anmeldung wird der/dem Kursleiter(in) der Aufzeichnungslink angezeigt. Wenn sie auf den Link klicken, werden sie zum Video weitergeleitet, das sie zuschneiden können.
 
 ## Dashboard-Berichte auf Benutzer mit Managerrolle beschränken
 
 Administratoren können in Dashboard-Berichten nur nach Managern suchen.
 
-## Veraltete Dashboard-Berichtsverarbeitung einschränken
+## Beschränken veralteter Dashboard-Berichtsverarbeitung
 
 Wenn ein Administrator versucht, einen Dashboard-Bericht zu zeichnen, und der Bericht zu lange dauert (mehr als 2,5 Minuten), zeigt Adobe Learning Manager die folgende Meldung an:
 
 ![Veraltetes Berichtsbild](assets/error-message.png)
 *Fehlermeldung, wenn der Bericht zu lange dauert*
 
-Berichte dieser Größenordnung können nicht auf der Benutzeroberfläche angezeigt werden, aber der Administrator kann sie herunterladen.
+Berichte dieser Größenordnung können nicht auf der Benutzeroberfläche angezeigt werden, aber die/der Administrator(in) kann sie herunterladen.
 
 ## Migrationsunterstützung für Katalogbeschriftungen
 
-Der Migrationsarbeitsablauf unterstützt jetzt Katalogbeschriftungen. Migrations-CSVs können verwendet werden, um Katalogbeschriftungsschlüssel und Katalogbeschriftungswerte zu importieren und sie an Kurse, Lernpfade, Zertifizierungen und Arbeitshilfen anzuhängen. Der Workflow kann auch verwendet werden, um falsche Werte und Schlüssel zu löschen, falls erforderlich.
+Der Migrationsarbeitsablauf unterstützt jetzt Katalogbeschriftungen. Migrations-CSVs können verwendet werden, um Katalogbeschriftungs-Schlüssel und Katalogbeschriftungs-Werte zu importieren und sie Kursen, Lernpfaden, Zertifizierungen und Arbeitshilfen anzuhängen. Falls erforderlich, können mit dem Arbeitsablauf auch falsche Werte und Schlüssel gelöscht werden.
 
 ## API-Verbesserungen für die komplexe Kursfilterung
 
@@ -254,25 +254,25 @@ Wenn in dieser Version der Bericht zu Arbeitshilfen 10 Millionen überschreitet,
 
 ### Benachrichtigung über einen gelöschten Beitrag
 
-Wenn in früheren Versionen von Adobe Learning Manager ein Kurs, eine Zertifizierung oder ein Lernplan gelöscht wurde und die entsprechende Benachrichtigung vorhanden ist, können Sie weiterhin auf den Kurs, die Zertifizierung oder den Lernplan zugreifen, indem Sie die entsprechende Benachrichtigung besuchen.
+Wenn in früheren Versionen von Adobe Learning Manager ein Kurs, eine Zertifizierung oder ein Lernplan gelöscht wurde und die entsprechende Benachrichtigung vorhanden ist, können Sie weiterhin auf den Kurs, die Zertifizierung oder den Lernplan zugreifen, indem Sie die entsprechende Benachrichtigung aufrufen.
 
 In dieser Version stellen wir sicher, dass nicht mehr auf einen gelöschten Beitrag zugegriffen werden kann. Wenn Sie die ID in der Datei /posts/{id} API verfügbar ist und die ID für den Beitrag nicht mehr verfügbar ist, zeigt die API die Meldung &quot;Beitrag für die angegebene Ressource nicht gefunden&quot; an.
 
-### Frist für API-Abschluss für Teilnehmer
+### Teilnehmer-API-Abschlussfrist
 
-In früheren Versionen holte Adobe Learning Manager den Abgabetermin aus der Registrierungstabelle. In dieser Version berechnet der Adobe Learning Manager den Fristablauf aus der Kursinstanztabelle. Wenn der Termin nicht verfügbar ist, wird er auf die Registrierungstabelle zurückgesetzt.
+In früheren Versionen rief Adobe Learning Manager die Frist aus der Registrierungstabelle ab. In dieser Version berechnet Adobe Learning Manager die Frist aus der Kursinstanztabelle. Wenn die nicht verfügbar ist, wird auf die Registrierungstabelle zurückgegriffen.
 
-### Kennzeichen überschreiben
+### Überschreiben-Flag
 
-In der Adobe Learning Manager-Version vom November 2023 stellen wir das Überschreiben-Flag in den APIs ein. Das override-Flag ist nicht Teil der öffentlichen API-Spezifikation und ist für Backend-Tests vorgesehen. Das Flag wird jetzt für Teilnehmer-APIs eingestellt. Das Flag ist jedoch weiterhin für Admin-APIs gültig.
+In der November 2023-Version von Adobe Learning Manager stellen wir das Überschreiben-Flag in den APIs ein. Das Überschreiben-Flag ist kein Teil der öffentlichen API-Spezifikation und für Backend-Tests vorgesehen. Das Flag wird jetzt für Teilnehmer-APIs eingestellt. Das Flag ist jedoch weiterhin für Admin-APIs gültig.
 
 Der Grund, warum wir das Flag für Teilnehmer-APIs verwerfen, ist, dass das Überschreibungsflag eine große Datenmenge über die Teilnehmer-APIs abgerufen hat.
 
-In Zukunft wird die folgende Teilnehmer-API nicht mehr funktionieren, da sie das Überschreibungs-Flag aufweist.
+In Zukunft wird die folgende Teilnehmer-API nicht mehr funktionieren, da sie das Überschreiben-Flag aufweist.
 
 `https://captivateprime.adobe.com/primeapi/v2/users?page[offset]=0&page[limit]=10&sort=id&override=TRUE`
 
-### Ergebnisse hervorheben
+### Hervorheben von Ergebnissen
 
 In der kommenden Version von Adobe Learning Manager, beispielsweise in der API &quot;/search&quot;, ändern wir den Standardwert für highlightResults in &quot;false&quot;.
 
@@ -282,10 +282,10 @@ Außerdem ändern wir die Standardeinstellung von &quot;snippetTypes&quot; in &q
 
 Die `instances.loResources.resources` Endpunkt wird zurückgegeben `ResourceContentType` mit Quiz.
 
-## Hinweis zur Aufhebung
+## Hinweis zum Verwerfen
 
 Am 30. November 2023 stellt LinkedIn Learning die Verwendung der HTTP-GET-Methode zum Abrufen eines OAuth-Tokens ein. Nach der Deaktivierung können Sie nur noch ein OAuth-Token mit der HTTP-POST generieren.
-Adobe Learning Manager wird BlueJeans im Februar 2024 einstellen. Alle neuen Konten nach Februar 2024 enthalten nicht den BlueJeans-Connector.
+Adobe Learning Manager wird BlueJeans im Februar 2024 einstellen. Alle neuen Konten nach Februar 2024 werden den BlueJeans-Connector nicht enthalten.
 
 ## Versionshinweise
 
@@ -293,28 +293,28 @@ Weitere Informationen zu aktuellen und früheren Versionen der Learning Manager-
 
 ## In dieser Version behobene Fehler
 
-* Eine Miniaturansicht für einen Kurs, die eine Voraussetzung für einen Lernpfad oder einen anderen Kurs ist, wird nicht angezeigt, wenn ein Teilnehmer die Vorschauseite des Lernpfads oder des Kurses öffnet.
-* Wenn die Optionen Kalender, Gamification und Soziales Lernen nicht ausgewählt sind, wird die nächste Einstellung in der Teilnehmer-Dashboard-Einstellung nicht beibehalten. Optionen wie &quot;Empfohlen&quot; in den Interessenbereichen und &quot;Nach Katalog durchsuchen&quot; werden nicht als ausgewählt angezeigt, sondern in der Vorschau angezeigt.
+* Eine Miniaturansicht für einen Kurs, die eine Voraussetzung für einen Lernpfad oder einen anderen Kurs ist, wird nicht angezeigt, wenn ein(e) Teilnehmer(in) die Vorschauseite des Lernpfads oder Kurses öffnet.
+* Wenn die Optionen „Kalender“, „Gamification“ und „Soziales Lernen“ nicht ausgewählt sind, wird die nächste Einstellung in der Teilnehmenden-Dashboard-Einstellung nicht beibehalten. Optionen wie “Empfohlen“ in Ihren Interessenbereichen und „Nach Katalog durchsuchen“ werden nicht als ausgewählt angezeigt, aber in der Vorschau angezeigt.
 * Auch nachdem ein Teilnehmer einen VC-Kurs abgeschlossen hat, erhält er eine Erinnerungs-E-Mail, um den Kurs abzuschließen.
-* Bei Peer-Konten können Sie keine Dashboard-Berichte herunterladen.
+* Für Peer-Konten können Sie keine Dashboard-Berichte herunterladen.
 * Das Löschen und Hinzufügen eines Checklistenmoduls in einem Kurs führt zu einem internen Fehler.
 * Bei Vorlagen für Sitzungseinladungen enthält die E-Mail-ID des Absenders den Text captivatePrime anstelle von AdobeLearningManager.
-* Wenn Sie die Kurseffektivität als sekundäre Y-Achse verwenden, schlägt der Berichtsdownload mit einer Nullzeigerausnahme fehl.
-* Wenn einem Teilnehmer eine benutzerdefinierte Administratorrolle zugewiesen ist, navigieren er standardmäßig zum Profil &quot;Benutzerdefinierter Administrator&quot;. Wenn jedoch für das Konto eine Teilnehmerumleitungs-URL festgelegt ist, wird der benutzerdefinierte Administrator zu einem anderen Ziel geleitet und nicht zum Profil der benutzerdefinierten Administratorrolle.
+* Wenn Sie für die Kurseffektivität die sekundäre Y-Achse verwenden, tritt beim Berichtsdownload mit einer Nullzeigerausnahme ein Fehler auf.
+* Wenn Teilnehmenden eine benutzerdefinierte Administratorrolle zugewiesen ist, navigieren sie standardmäßig zum Profil “Benutzerdefinierter Administrator“. Wenn jedoch für das Konto eine Teilnehmenden-Weiterleitungs-URL festgelegt ist, wird die/der benutzerdefinierte Administrator(in) zu einem anderen Ziel geleitet und nicht zum Profil der benutzerdefinierten Administratorrolle.
 * Der Gamification-Bereich funktioniert nicht wie erwartet, wenn disabled_sub_groups auf eine große Anzahl festgelegt ist.
 * In einigen Fällen lösen gelöschte Benutzer eine Migration aus.
-* Ein Teilnehmer kann keine LinkedIn-Kurse in der MS Teams-App abspielen.
+* Teilnehmende können keine LinkedIn-Kurse in der MS Teams-App abspielen.
 * Die Registrierungs-API gibt die Registrierungen für einen Flex-Lernplan oder einen eingebetteten Lernplan nicht wie erwartet zurück.
 * In der mobilen App werden die Namen eines Kurses, einer Zertifizierung oder eines Lernplans in Kleinbuchstaben angezeigt.
-* Wenn in früheren Versionen von Adobe Learning Manager ein Kurs, eine Zertifizierung oder ein Lernplan gelöscht wurde und die entsprechende Benachrichtigung vorhanden ist, können Sie weiterhin auf den Kurs, die Zertifizierung oder den Lernplan zugreifen, indem Sie die entsprechende Benachrichtigung besuchen. In dieser Version stellen wir sicher, dass nicht mehr auf einen gelöschten Beitrag zugegriffen werden kann. Wenn Sie die ID in der Datei /posts/{id} API verfügbar ist und die ID für den Beitrag nicht mehr verfügbar ist, zeigt die API die Meldung &quot;Beitrag für die angegebene Ressource nicht gefunden&quot; an.
-* In der Teilnehmer-API wird das Feld &quot;Abschlussdatum&quot; nicht in der Antwort der Registrierungs-API angezeigt.
-* In der &quot;Get Enrollment API for Learners&quot; (Registrierungs-API für Teilnehmer abrufen) werden die Registrierungsdetails angezeigt, selbst wenn Sie eine falsche Instanz-ID angegeben haben.
+* Wenn in früheren Versionen von Adobe Learning Manager ein Kurs, eine Zertifizierung oder ein Lernplan gelöscht wurde und die entsprechende Benachrichtigung vorhanden ist, können Sie weiterhin auf den Kurs, die Zertifizierung oder den Lernplan zugreifen, indem Sie die entsprechende Benachrichtigung aufrufen. In dieser Version stellen wir sicher, dass nicht mehr auf einen gelöschten Beitrag zugegriffen werden kann. Wenn Sie die ID in der Datei /posts/{id} API verfügbar ist und die ID für den Beitrag nicht mehr verfügbar ist, zeigt die API die Meldung &quot;Beitrag für die angegebene Ressource nicht gefunden&quot; an.
+* In der Teilnehmer-API wird das Abschlussfristfeld nicht in der Antwort der Registrierungs-API angezeigt.
+* In der API zum Abrufen der Registrierung für Teilnehmende werden die Registrierungsdetails angezeigt, selbst wenn Sie eine falsche Instanz-ID angegeben haben.
 
 ## Bekannte Probleme in dieser Version
 
-* Eine neue Registrierung oder Aktualisierung einer Registrierung schlägt fehl, wenn sich ein Flex-Lernplan in einem anderen Flex-Lernplan befindet.
+* Bei einer neuen Registrierung oder Aktualisierung einer Registrierung tritt ein Fehler auf, wenn sich ein Flex-Lernplan in einem anderen Flex-Lernplan befindet.
 * Die Transkript-URL zeigt die Sitzungsaufzeichnungen in Adobe Connect-Sitzungen nicht an.
-* Ein Teilnehmer kann ein Offline-Quiz in der mobilen App absolvieren, auch wenn er es nicht besteht.
+* Teilnehmende können ein Offline-Quiz in der mobilen App absolvieren, und es macht nichts aus, wenn sie nicht bestehen.
 
 ## Systemanforderungen
 

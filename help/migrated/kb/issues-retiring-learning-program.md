@@ -6,13 +6,13 @@ contentowner: nluke
 source-git-commit: 66dfaaaf723382eada39e2be29dfd49b795107a0
 workflow-type: tm+mt
 source-wordcount: '231'
-ht-degree: 0%
+ht-degree: 55%
 
 ---
 
 
 
-# Probleme beim Einstellen eines Lernprogramms
+# Probleme mit dem Einstellen eines Lernprogramms
 
 ## Problem
 
@@ -30,7 +30,7 @@ Um den Kurs zu überprüfen, der eine eingestellte Instanz enthält, führen Sie
 
 1. Melden Sie sich als Administrator an und starten Sie das entsprechende Lernprogramm.
 
-1. Klicken **[!UICONTROL Instanzen]** > **CKurse**. Auf der Seite werden alle Kurse aufgelistet, die Teil dieses Lernprogramms sind. Sie können den Kurs sehen, der eine eingestellte Instanz enthält.
+1. Klicken **[!UICONTROL Instanzen]** > **CKurse**. Auf der Seite werden alle Kurse aufgeführt, die Teil dieses Lernprogramms sind. Sie können den Kurs sehen, der eine eingestellte Instanz enthält.
 
    ![](assets/retired-instance.png)
 
@@ -44,7 +44,7 @@ Um den Kurs zu überprüfen, der eine eingestellte Instanz enthält, führen Sie
 
    *Bearbeiten des Abschlussdatums eines Kurses*
 
-1. Klicken Sie nach Abschluss auf das Dropdown-Menü, wie in der Abbildung unten gezeigt. Klicken Sie anschließend auf **[!UICONTROL Instanz erneut öffnen]**.
+1. Klicken Sie nach Abschluss auf das Dropdown-Menü, wie in der Abbildung unten gezeigt. Klicken Sie dann auf **[!UICONTROL Instanz erneut öffnen]**.
 
    ![](assets/re-open-instance.png)
 

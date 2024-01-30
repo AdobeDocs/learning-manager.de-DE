@@ -1,12 +1,12 @@
 ---
-description: Lesen Sie diesen Artikel, um zu erfahren, wie Sie als Teilnehmer Kenntnisse im Learning Manager erwerben.
+description: Lesen Sie den Artikel zum Erreichen von Kenntnissen in Learning Manager als Teilnehmer.
 jcr-language: en_us
 title: Kenntnisse und Stufen
 contentowner: manochan
 source-git-commit: ed7e28720cf521b629333dc48e530e0aa16b0ae1
 workflow-type: tm+mt
 source-wordcount: '313'
-ht-degree: 0%
+ht-degree: 90%
 
 ---
 
@@ -14,32 +14,32 @@ ht-degree: 0%
 
 # Kenntnisse und Stufen
 
-Lesen Sie diesen Artikel, um zu erfahren, wie Sie als Teilnehmer Kenntnisse im Learning Manager erwerben.
+Lesen Sie den Artikel zum Erreichen von Kenntnissen in Learning Manager als Teilnehmer.
 
-Die Qualifikationskarte ist eine Gruppierung von Qualifikationen, Kenntnissen und Eigenschaften eines Mitarbeiters in einem Unternehmen. Diese Qualifikationen helfen Unternehmen/Organisationen, die Leistungserwartungen für ihre Mitarbeiter festzulegen oder zu erhöhen. Kenntnisse ermöglichen es den Mitarbeitern, ihr Verhalten an den Erwartungen des Unternehmens auszurichten.
+In einem Kenntnisdiagramm werden die Fachkenntnisse, das Wissen und die Eigenschaften eines Unternehmensmitarbeiters zusammengefasst. Diese Kenntnisse helfen Firmen/Unternehmen dabei, die Leistungserwartungen für ihre Mitarbeiter festzusetzen oder zu erhöhen. Durch Kenntnisse können Mitarbeiter ihr Verhalten auf die Erwartungen des Unternehmens hin ausrichten.
 
-Mit dem Adobe-Lern-Manager können Sie die Leistung der Teilnehmer anhand ihrer Kenntnisse mithilfe des Widgets &quot;Kenntnisse&quot; zuordnen. Wenn die Teilnehmer einige Kurse absolviert haben, können sie ihren Stand bezüglich der jeweiligen Kenntnisse feststellen, indem sie auf der Teilnehmer-Startseite auf Kenntnisse klicken.
+In Adobe Learning Manager können Sie mithilfe des Widgets &quot;Kenntnisse&quot; die Leistungen von Teilnehmern anhand ihrer Kenntnisse zuordnen. Wenn die Teilnehmer einige Kurse absolviert haben, können sie ihren Stand bezüglich der jeweiligen Kenntnisse feststellen, indem sie auf der Teilnehmer-Startseite auf Kenntnisse klicken.
 
 ## Kenntnisse anzeigen {#viewskills}
 
-Um Kenntnisse anzuzeigen, klicken Sie auf der Teilnehmerseite auf einen der Kenntnisnamen im Widget &quot;Kenntnisse&quot;. Kenntnisse werden zusammen mit ihren Stufen angezeigt.
+Um Kenntnisse anzuzeigen, klicken Sie auf der Teilnehmerseite im Widget „Kenntnisse“ auf einen der Kenntnisnamen. Die Kenntnisse werden gemeinsam mit ihren Stufen angezeigt.
 
 ![](assets/learner-skills1.png)
 
 *Alle Kenntnisse anzeigen*
 
-Der Prozentsatz der Fertigstellung für jede Qualifikation ist neben der Qualifikation im Widget verfügbar. Wenn Sie auf eine Qualifikation klicken, leitet die App Sie zur Seite &quot;Qualifikationen&quot;, auf der Sie die Details der Qualifikation anzeigen können, auf die Sie geklickt haben.
+Der Prozentsatz der Bearbeitung für Kenntnisse befindet sich neben den Kenntnissen im Widget. Wenn Sie auf Kenntnisse klicken, werden Sie von der App zur Kenntnisseite weitergeleitet, auf der Sie die Details der Kenntnisse, auf die Sie geklickt haben, anzeigen können.
 
-Die Seite &quot;Kenntnisse&quot; zeigt den Status der Kenntnisse an, auf die Sie geklickt haben. Beispiel: Java. Auf der Seite Kenntnisse werden der Status angezeigt - z. B. &quot;In Bearbeitung&quot; und die Credits - z. B. &quot;2 von 10 erreicht&quot;.
+Die Seite „Kenntnisse“ zeigt den Status der Kenntnisse an, auf die Sie geklickt haben. Beispiel: Java. Die Seite „Kenntnisse“ zeigt den Status an, z. B. „Wird ausgeführt“ und die Punktzahl z. B. „2 von 10 erreicht“.
 
-Auf dieser Seite können Sie auf die einzelnen Kenntnisse klicken, um die entsprechenden Daten anzuzeigen.
+Von dieser Seite aus können Sie auf alle Kenntnisse klicken, um die entsprechenden Daten anzuzeigen.
 
 ![](assets/learner-skills2.png)
 
 *Jede Qualifikation anzeigen*
 
-Nur Administratoren können Kenntnisse für Teilnehmer erstellen und zuweisen. Teilnehmer werden automatisch Kenntnissen zugewiesen, die den Kursen/Lernprogrammen entsprechen, für die sie registriert sind.
+Nur Administratoren können Qualifikationen für Teilnehmer erstellen und zuweisen. Hinweis Nur Administratoren können Qualifikationen für Teilnehmer erstellen und zuweisen. Die Teilnehmer werden den Qualifikationen entsprechend den Kursen/Lernprogrammen, für die sie registriert sind, automatisch zugewiesen.
 
-## Kenntnisse erwerben {#achieveskill}
+## Qualifikationen erzielen {#achieveskill}
 
-Ein Teilnehmer kann Kenntnisse erwerben, wenn er die zugewiesenen Kurse/Lernprogramme mit den ihm zugewiesenen Kenntniskrediten abschließt. Teilnehmer können Kenntnisse auch erwerben, indem sie sich für die Kurse, die zu einer bestimmten Kenntnis gehören, selbst registrieren und diese abschließen.
+Ein Teilnehmer erwirbt eine Qualifikation, indem er die zugewiesenen Kurse/Lernprogramme mit den dazugehörigen Credits abschließt. Die Teilnehmer können Qualifikationen auch erwerben, indem sie sich für die zu einer bestimmten Qualifikation erforderlichen Kurse selbst registrieren und diese abschließen.

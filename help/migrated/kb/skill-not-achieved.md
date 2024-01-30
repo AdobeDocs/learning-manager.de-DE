@@ -1,22 +1,22 @@
 ---
 jcr-language: en_us
-title: Kenntnisse können nach Abschluss eines Kurses nicht erreicht werden
-description: Ein Teilnehmer erhält auch nach Abschluss eines Kurses keine Kenntnisse. Die Qualifikationen, die diesem Kurs zugewiesen sind, bleiben für den Teilnehmer als In Bearbeitung erhalten.
+title: Eine Kenntnis kann nach Abschluss eines Kurses nicht abgerufen werden
+description: Ein Teilnehmer erhält auch nach Abschluss eines Kurses keinen Kenntnisnachweis. Die Qualifikationen, die diesem Kurs zugewiesen sind, bleiben für den Teilnehmer als In Bearbeitung erhalten.
 contentowner: nluke
 source-git-commit: 6abc118c6ad7e66e3ded5bd26b9167c3a0b99e4b
 workflow-type: tm+mt
 source-wordcount: '258'
-ht-degree: 0%
+ht-degree: 52%
 
 ---
 
 
 
-# Kenntnisse können nach Abschluss eines Kurses nicht erreicht werden
+# Eine Kenntnis kann nach Abschluss eines Kurses nicht abgerufen werden
 
 ## Problem
 
-Ein Teilnehmer erhält auch nach Abschluss eines Kurses keine Kenntnisse. Die Kenntnisse, die diesem Kurs zugewiesen sind, bleiben erhalten als **In Bearbeitung** für den Teilnehmer auswählen.
+Ein Teilnehmer erhält auch nach Abschluss eines Kurses keinen Kenntnisnachweis. Die Kenntnisse, die diesem Kurs zugewiesen sind, bleiben erhalten als **In Bearbeitung** für den Teilnehmer auswählen.
 
 ## Ursache
 
@@ -24,9 +24,9 @@ Dieses Problem tritt auf, wenn das **Erforderliche Credits** um diese Fähigkeit
 
 ## Lösung
 
-Aktuelle überprüfen **Qualifikationsnachweise** und **Punkt** erforderliche Informationen, um die Kenntnisse zu erwerben. Führen Sie die folgenden Schritte aus:
+Aktuelle überprüfen **Qualifikationsnachweise** und **Punkt** erforderliche Informationen, um die Kenntnisse zu erwerben. Führen Sie die unten genannten Schritte aus:
 
-1. Für den Teilnehmer generieren Sie eine **Teilnehmertranskript** -Bericht.
+1. Generieren Sie für den Teilnehmer einen Bericht **Teilnehmertranskript**.
 1. Klicken Sie beim Generieren des Teilnehmertranskripts auf **[!UICONTROL Erweiterte Optionen]** und aktivieren Sie die Option **[!UICONTROL Qualifikationsdaten und Zusammenfassungsblätter einschließen]**.
 
    ![](assets/advanced-options.png)
@@ -34,15 +34,15 @@ Aktuelle überprüfen **Qualifikationsnachweise** und **Punkt** erforderliche In
    *Wählen Sie die Option Qualifikationsdaten und Zusammenfassungsblätter einschließen.*
 
 1. Öffnen Sie den heruntergeladenen Teilnehmertranskriptbericht.
-1. Navigieren Sie zur Registerkarte **[!UICONTROL Kompetenzprotokoll]** Tabelle. Hier können Sie die **[!UICONTROL Erforderliche Credits]** und **[!UICONTROL Verdiente Credits]** durch den Teilnehmer ändern.
+1. Navigieren Sie zur Seite **[!UICONTROL Kenntnistranskript]**. Hier können Sie die **[!UICONTROL Erforderliche Credits]** und **[!UICONTROL Verdiente Credits]** durch den Teilnehmer ändern.
 
-   Im folgenden Beispiel beträgt der zum Erlangen der Kenntnisse für einen Kurs erforderliche Credits 50. Aber der Lernende hat nur eine Ehre erreicht.
+   Im folgenden Beispiel sind zum Erlangen des Kenntnisnachweises für einen Kurs 50 Credits erforderlich. Der Teilnehmer hat jedoch nur einen Credit erzielt.
 
    ![](assets/skill-transcript.png)
 
    *Erforderliche Credits anzeigen*
 
-1. Um Credits zu überprüfen, die bestimmten Kenntnissen zugewiesen sind, melden Sie sich als Administrator an und navigieren Sie zu **Kenntnisse** &quot; an, wie unten gezeigt:
+1. Um Credits zu überprüfen, die bestimmten Kenntnissen zugewiesen sind, melden Sie sich als Administrator an und navigieren Sie zur Registerkarte **Kenntnisse**, wie unten gezeigt:
 
    ![](assets/skill.png)
 

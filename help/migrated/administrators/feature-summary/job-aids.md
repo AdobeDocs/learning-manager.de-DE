@@ -1,12 +1,12 @@
 ---
-description: Arbeitshilfen für Administratoren im Learning Manager.
+description: Arbeitshilfen für Administratoren in Learning Manager.
 jcr-language: en_us
 title: Arbeitshilfen
 contentowner: jayakarr
 source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
 workflow-type: tm+mt
 source-wordcount: '309'
-ht-degree: 0%
+ht-degree: 39%
 
 ---
 
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # Arbeitshilfen
 
-Arbeitshilfen für Administratoren im Learning Manager.
+Arbeitshilfen für Administratoren in Learning Manager.
 
-Arbeitshilfen sind ein Repository mit Schulungsinhalten, das den Teilnehmern ohne Registrierung oder Abschlusskriterien zur Verfügung steht. Die Teilnehmer können auf diese Arbeitshilfen zurückgreifen, um Unterstützung für Aktivitäten oder Aufgaben in einem Unternehmen zu erhalten.
+Arbeitshilfen sind ein Repository mit Schulungsinhalten, das den Teilnehmern ohne Registrierung oder Abschlusskriterien zur Verfügung steht. Die Teilnehmer können auf diese Arbeitshilfen zurückgreifen, wenn sie bei Aktivitäten oder Aufgaben im Unternehmen Unterstützung benötigen.
 
-Arbeitshilfen können unabhängig oder zusammen mit der Kursnutzung in Learning Manager genutzt werden.
+Arbeitshilfen können unabhängig oder zusammen mit Kursen in Learning Manager genutzt werden.
 
-Administratoren in einem Unternehmen können die Zuweisung von Arbeitshilfen zu Teilnehmern verwalten und Arbeitshilfen zurückziehen oder erneut veröffentlichen.
+Administratoren in einem Unternehmen können die Zuweisung von Arbeitshilfen zu Teilnehmern verwalten sowie Arbeitshilfen zurücknehmen oder erneut veröffentlichen.
 
 ## Arbeitshilfen zurücknehmen/erneut veröffentlichen {#withdrawrepublishjobaids}
 
@@ -32,9 +32,9 @@ Sie können eine veröffentlichte Arbeitshilfe zurückziehen, indem Sie auf das 
 
 *Arbeitshilfen verwalten*
 
-Zeigen Sie zurückgenommene Arbeitshilfen an, indem Sie auf die Registerkarte &quot;Zurückgenommen&quot; klicken. Sie können die zurückgenommenen Aufträge erneut veröffentlichen, indem Sie auf das Einstellungssymbol klicken und &quot;Veröffentlichen&quot; auswählen. Klicken Sie auf Vorschau in den Einstellungen , um eine Vorschau der Arbeitshilfe im Player anzuzeigen.
+Zeigen Sie zurückgenommene Arbeitshilfen an, indem Sie auf die Registerkarte &quot;Zurückgenommen&quot; klicken. Sie können die zurückgenommenen Aufträge erneut veröffentlichen, indem Sie auf das Einstellungssymbol klicken und &quot;Veröffentlichen&quot; auswählen. Klicken Sie in den Einstellungen auf „Vorschau“, um eine Vorschau der Arbeitshilfe im Player anzuzeigen.
 
-## Verwalten von Arbeitshilfezuweisungen {#managejobaidassignments}
+## Arbeitshilfen-Zuweisungen verwalten {#managejobaidassignments}
 
 1. Klicken Sie auf der Registerkarte Veröffentlicht auf das Symbol &quot;Einstellungen&quot; neben einer Arbeitshilfe.
 
@@ -49,7 +49,7 @@ Zeigen Sie zurückgenommene Arbeitshilfen an, indem Sie auf die Registerkarte &q
 
 1. Im Dialogfeld &quot; **[!UICONTROL Teilnehmer]** beginnen Sie mit der Eingabe des Namens der Teilnehmer und wählen Sie die Teilnehmer aus der Dropdown-Liste. Sie können Teilnehmer auch nach Namen, Profil usw. suchen.
 1. Klicken **[!UICONTROL Hinzufügen].**
-1. Klicken **[!UICONTROL Speichern]**.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 ## Häufig gestellte Fragen {#frequentlyaskedquestions}
 
@@ -61,12 +61,12 @@ Klicken Sie in der oberen rechten Ecke des Bildschirms auf **[!UICONTROL Aktione
 
 +++Wie kann ich Arbeitshilfezuweisungen verwalten?
 
-In **[!UICONTROL Veröffentlicht]** &quot; auf das Symbol &quot;Einstellungen&quot; neben einer Arbeitshilfe. Teilnehmer hinzufügen und auf **[!UICONTROL Hinzufügen]**.
+In **[!UICONTROL Veröffentlicht]** &quot; auf das Symbol &quot;Einstellungen&quot; neben einer Arbeitshilfe. Fügen Sie einen Teilnehmer hinzu und klicken Sie auf **[!UICONTROL Hinzufügen]**.
 
 +++
 
 +++Wie kann ich eine Arbeitshilfe zurücknehmen?
 
-In **[!UICONTROL Veröffentlicht]** &quot; auf das Symbol &quot;Einstellungen&quot; neben einer Arbeitshilfe. Klicken **[!UICONTROL zurückziehen]**. Die Arbeitshilfe wird jetzt nicht mehr auf der Registerkarte &quot;Veröffentlicht&quot; angezeigt. Um die zurückgenommene Arbeitshilfe anzuzeigen, klicken Sie auf die Registerkarte &quot;Zurückgenommen&quot;.
+In **[!UICONTROL Veröffentlicht]** &quot; auf das Symbol &quot;Einstellungen&quot; neben einer Arbeitshilfe. Klicken Sie auf **[!UICONTROL Zurücknehmen]**. Die Arbeitshilfe wird jetzt nicht mehr auf der Registerkarte „Veröffentlicht“ angezeigt. Um die zurückgenommene Arbeitshilfe anzuzeigen, klicken Sie auf die Registerkarte „Zurückgenommen“.
 
 +++

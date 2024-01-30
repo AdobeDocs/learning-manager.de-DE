@@ -1,141 +1,141 @@
 ---
-description: Erfahren Sie, wie Sie Benutzer oder Benutzergruppen in der Learning Manager-Anwendung hinzufügen.
+description: Erfahren Sie, wie Sie Benutzende oder Benutzendengruppen in der Learning Manager-Anwendung hinzufügen.
 jcr-language: en_us
-title: Benutzer hinzufügen und Benutzergruppen erstellen
+title: Hinzufügen von Benutzern und Erstellen von Benutzergruppen
 contentowner: manochan
 source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
 workflow-type: tm+mt
 source-wordcount: '3913'
-ht-degree: 0%
+ht-degree: 65%
 
 ---
 
 
 
-# Benutzer hinzufügen und Benutzergruppen erstellen
+# Hinzufügen von Benutzern und Erstellen von Benutzergruppen
 
-Erfahren Sie, wie Sie Benutzer oder Benutzergruppen in der Learning Manager-Anwendung hinzufügen.
+Erfahren Sie, wie Sie Benutzende oder Benutzendengruppen in der Learning Manager-Anwendung hinzufügen.
 
 <!--![](assets/user-mgmt-new.png)-->
 
 ## Übersicht {#overview}
 
-Im Adobe-Lern-Manager können Sie die folgenden Rollen übernehmen:
+In Adobe Learning Manager können Sie die folgenden Rollen übernehmen:
 
-* **Administrator:** Ein Administrator definiert die Schulungsstrategie für das Unternehmen. Ein Administrator kann Teilnehmer hinzufügen, nach erforderlichen Kenntnissen für Teilnehmer suchen, Kurse verwalten und zuweisen, Lernpläne, Zertifizierungen und Lernprogramme erstellen und Berichte für das gesamte Unternehmen verwalten.
-* **Autor:** Autoren sind Entwickler didaktischer Konzepte und Ersteller von Inhalten. Ein Autor kann Module und Kurse zum Learning Manager hinzufügen.
-* **Manager:** Ein Manager verwaltet die Lernaktivitäten eines Teams. Ein Manager kann Teammitglieder für einen Kurs nominieren, Anfragen von Teammitgliedern genehmigen und Feedback zur Leistung ihrer Teammitglieder nach Abschluss der Schulung geben. Manager können auch Berichte für ihr Team anzeigen, um ihre Leistung zu verfolgen.
-* **Teilnehmer:** Teilnehmer können auf Kurse, Lernprogramme und Zertifizierungen zugreifen, die ihnen zugewiesen wurden. Teilnehmer können auch alle verfügbaren Kurse mithilfe eines Katalogs durchsuchen und sich selbst für Kurse, Lernprogramme oder Zertifizierungen registrieren.
+* **Administrator:** Ein Administrator definiert die Trainingsstrategie für die Organisation. Ein Administrator kann Teilnehmer hinzufügen, nach Teilnehmern suchen, Kurse verwalten und zuweisen, Lernpläne, Zertifizierungen und Lernprogramme erstellen und Berichte für die gesamte Organisation verwalten.
+* **Autor:** Autoren sind Unterrichts-Designer und Ersteller von Inhalten. Ein Autor kann Module und Kurse zu Learning Manager hinzufügen.
+* **Manager:** Ein Manager verwaltet die Lernaktivitäten eines Teams. Ein Manager kann Teammitglieder für einen Kurs vorschlagen, Anforderungen von Teammitgliedern genehmigen und Feedback zur Leistung ihrer Teammitglieder nach Abschluss der Schulung geben. Manager können auch Berichte für ihr Team anzeigen, um ihre Leistung zu verfolgen.
+* **Teilnehmer:** Teilnehmer können auf Kurse, Lernprogramme und ihnen zugewiesene Zertifizierungen zugreifen. Die Teilnehmer können auch alle verfügbaren Kurse mithilfe eines Katalogs durchsuchen und sich entweder für Kurse, Lernprogramme oder Zertifizierungen anmelden.
 
 Als Administrator können Sie Benutzer auf drei Arten hinzufügen:
 
-* Intern
+* interne
 * Extern
 * Benutzergruppen
 
-## Einen einzelnen Benutzer hinzufügen {#addasingleuser}
+## Einzelnen Benutzer hinzufügen {#addasingleuser}
 
 Um Benutzer hinzuzufügen,
 
 1. Melden Sie sich bei Adobe Learning Manager als Administrator an.
-1. Klicken Sie auf der Homepage auf **[!UICONTROL Benutzer hinzufügen]**. Auf dieser Seite können Sie mithilfe einer CSV-Datei einen einzelnen Benutzer oder mehrere Benutzer gleichzeitig hinzufügen. Sie können auch einen Link zur Selbstregistrierung für interne Mitarbeiter oder ein externes Teilnehmerprofil erstellen.
-1. Um einen einzelnen Benutzer hinzuzufügen, klicken Sie auf **[!UICONTROL Hinzufügen]** oben rechts, und wählen Sie die Option **[!UICONTROL Einzelbenutzer]**.
+1. Klicken Sie auf der Startseite auf **[!UICONTROL Benutzer hinzufügen]**. Auf dieser Seite können Sie mit einer CSV einen einzelnen Benutzer oder mehrere Benutzer gleichzeitig hinzufügen. Sie können auch einen Selbstregistrierungslink für interne Mitarbeiter erstellen oder ein externes Lernprofil erstellen.
+1. Um einen einzelnen Benutzer hinzuzufügen, klicken Sie oben rechts auf **[!UICONTROL Hinzufügen]** und wählen Sie die Option **[!UICONTROL Einzelner Benutzer]**.
 
    ![](assets/single-user.png)
    *Einen einzelnen internen Benutzer hinzufügen*
 
-1. Im Fenster &quot; **[!UICONTROL Benutzer hinzufügen]** &quot; die Details des Teilnehmers ein. Für das Feld **[!UICONTROL Managername]** den Namen eines vorhandenen Benutzers im System aus.
+1. Geben Sie im Dialogfeld **[!UICONTROL Benutzer hinzufügen]** die Details des Teilnehmers ein. Wählen Sie für das Feld **[!UICONTROL Name des Managers]** den Namen eines vorhandenen Benutzers im System aus.
 
    ![](assets/manager.png)
    *Dialogfeld &quot;Benutzer hinzufügen&quot;*
 
-1. Um den neuen Benutzer im Learning Manager hinzuzufügen, klicken Sie auf **[!UICONTROL Hinzufügen]**. Nachdem der Benutzer hinzugefügt wurde, erhält er eine Bestätigungs-E-Mail. Der Teilnehmer aktiviert dann das Konto und verwendet Learning Manager. Dieser Arbeitsablauf ist hilfreich, wenn Sie eine begrenzte Anzahl von Teilnehmern zu Ihrem Learning Manager-Konto hinzufügen müssen. Wenn Sie jedoch alle Mitarbeiter eines großen Unternehmens registrieren möchten, können Sie sie in einem einzigen Versuch hinzufügen. Weitere Informationen finden Sie im nächsten Abschnitt.
+1. Um den neuen Benutzer in Learning Manager hinzuzufügen, klicken Sie auf **[!UICONTROL Hinzufügen]**. Nachdem der Benutzer hinzugefügt wurde, erhält der Benutzer eine Bestätigungs-E-Mail. Die Teilnehmenden aktivieren dann das Konto und verwenden Learning Manager. Dieser Arbeitsablauf ist hilfreich, wenn Sie eine begrenzte Anzahl von Teilnehmern zu Ihrem Learning Manager-Konto hinzufügen müssen. Wenn Sie jedoch vorhaben, alle Mitarbeiter einer großen Organisation einzuschreiben, können Sie sie in einem einzigen Versuch hinzufügen. Weitere Informationen finden Sie im folgenden Abschnitt:
 
-## Gleichzeitiges Hinzufügen mehrerer Benutzer {#addusersinbulk}
+## Hinzufügen von mehreren Benutzern gleichzeitig {#addusersinbulk}
 
-In der Regel arbeiten die meisten Organisationen mit einem HR Management System (HRMS), das alle Mitarbeiterdatensätze verwaltet, z. B. Bezeichnung, Standort, Beitrittsdatum oder Mitarbeiterhierarchie. Sie können diese Daten in einem CSV-Format exportieren. Führen Sie die folgenden Schritte aus, um eine CSV-Datei zu importieren:
+In der Regel arbeiten die meisten Organisationen mit einem HR-Management-System (HRMS), das alle Mitarbeiterdatensätze wie Bezeichnung, Standort, Beitrittsdatum oder Mitarbeiterhierarchie verwaltet. Sie können diese Daten in ein CSV-Format exportieren. Um einen Kurs zu erstellen, führen Sie die unten genannten Schritte aus:
 
-1. Klicken **[!UICONTROL Hinzufügen]** in der oberen rechten Ecke und wählen Sie die Option **[!UICONTROL CSV hochladen]**.
+1. Klicken Sie oben rechts auf **[!UICONTROL Hinzufügen]** und wählen Sie die Option **[!UICONTROL CSV hochladen]**.
 
    ![](assets/upload-a-csv.png)
    *CSV hochladen, um mehrere Benutzer gleichzeitig hinzuzufügen*
 
-1. Die CSV-Datei, die Sie hochladen, besteht aus den Feldern, wie unten gezeigt:
+1. Die von Ihnen hochgeladene CSV besteht aus den folgenden Feldern:
 
    ![](assets/csv.png)
    *Struktur der CSV-Datei*
 
-   Sie müssen eine Master-CSV-Datei verwalten und alle Ergänzungen und Löschungen in der Master-CSV durchführen. Die Master-CSV-Datei enthält die folgenden Felder:
+   Sie müssen eine Master-CSV-Datei verwalten und alle Ergänzungen und Löschungen in der Master-CSV durchführen. Die heruntergeladene CSV-Datei enthält die folgenden Felder:
 
    * name &#42;
    * email &#42;
-   * Profil
-   * Betriebsleiter
+   * profile
+   * und vom Manager
 
    (&#42;) Erforderliches Feld.
 
-1. Nachdem Sie auf die Option **[!UICONTROL CSV hochladen]** wird das folgende Dialogfeld angezeigt.
+1. Nachdem Sie auf die Option **[!UICONTROL CSV hochladen]** geklickt haben, wird das folgende Dialogfeld angezeigt.
 
    ![](assets/upload-a-csv-dialog.png)
    *Dialogfeld &quot;CSV hochladen&quot;*
 
-1. Wählen Sie die CSV-Datei aus oder ziehen Sie die Datei per Drag &amp; Drop. Nachdem Sie die Datei ausgewählt haben, ordnen Sie die Datenfelder den Feldern in der CSV-Datei zu. Klicken Sie auf die gewünschte Dropdownliste und wählen Sie das richtige Feld aus.
+1. Wählen Sie die CSV oder ziehen Sie die Datei per Drag &amp; Drop. Nachdem Sie die Datei ausgewählt haben, ordnen Sie die Datenfelder den Feldern in der CSV-Datei zu. Klicken Sie auf das gewünschte Dropdown-Menü und wählen Sie das richtige Feld aus.
 
    ![](assets/map-data-fields.png)
    *Zuordnungsfelder in CSV-Datei*
 
-1. Um den Import der Benutzer zu starten, klicken Sie auf **[!UICONTROL Speichern]**. Eine Bestätigungsmeldung wird angezeigt.
+1. Klicken Sie auf **[!UICONTROL Speichern]**, um den Import der Benutzer zu starten. Sie können eine Bestätigungsnachricht sehen.
 
    ![](assets/save-csv.png)
    *Bestätigungsmeldung für erfolgreichen Upload der CSV-Datei*
 
-1. Die neuen Benutzer werden jetzt Ihrem Adobe Learning Manager-Konto hinzugefügt. Um die neuen Benutzer auszuwählen, aktivieren Sie das Kontrollkästchen neben den Namen, sodass alle ausgewählt sind.
+1. Die neuen Benutzenden werden jetzt Ihrem Adobe Learning Manager-Konto hinzugefügt. Um die neuen Benutzer auszuwählen, aktivieren Sie das Kontrollkästchen neben den Namen, sodass alle ausgewählt sind.
 
    ![](assets/select-new-users.png)
    *Neue Benutzer hinzugefügt*
 
 >[!NOTE]
 >
->Weitere Informationen finden Sie in den häufig gestellten Fragen, [Gleichzeitiges Hinzufügen mehrerer Benutzer](../add-users-in-bulk.md).
+>Weitere Informationen finden Sie in den häufig gestellten Fragen (FAQ) unter [Benutzer in großen Mengen hinzufügen](../add-users-in-bulk.md).
 
 Nachdem Sie die Benutzer ausgewählt haben, können Sie Folgendes ausführen:
 
-## Registrieren eines Benutzers {#registerauser}
+## Benutzer registrieren {#registerauser}
 
-Klicken Sie bei ausgewähltem Benutzer auf **[!UICONTROL Aktionen]** oben rechts, und klicken Sie auf **[!UICONTROL Registrieren]**.
+Klicken Sie bei ausgewähltem Benutzer oben rechts auf **[!UICONTROL Aktionen]** und dann auf **[!UICONTROL Registrieren]**.
 
-Die ausgewählten Benutzer erhalten eine Begrüßungs-E-Mail. Wenn die Teilnehmer bereits über eine Adobe ID verfügen, können sie auf diesen Link klicken. Wenn sie keine Adobe ID haben, können sie auf den Begrüßungslink klicken, um eine Adobe ID zu erstellen und sie mit ihrem Learning Manager-Konto zu verknüpfen.
+Die ausgewählten Benutzer erhalten eine Begrüßungs-E-Mail. Wenn die Teilnehmer über eine vorhandene Adobe ID verfügen, können sie auf diesen Link klicken. Wenn sie keine Adobe ID haben, können sie auf den Begrüßungslink klicken, um eine Adobe ID zu erstellen und sie mit ihrem Learning Manager-Konto zu verknüpfen.
 
 ## Rolle zuweisen {#assignarole}
 
-Wenn Sie nach dem Hinzufügen von Teilnehmern zum Adobe-Lern-Manager-Konto ihre Rollen ändern möchten, klicken Sie oben rechts auf der Seite auf &quot;Aktionen&quot;. Wählen Sie die Option **[!UICONTROL Rolle zuweisen]**. Hier können Sie entscheiden, ob Sie dem Teilnehmer Zugriff auf den Autor oder den Administrator gewähren möchten. Nachdem Sie eine Rolle zugewiesen haben, hat dieser Teilnehmer Autorenzugriff auf das Konto und kann Module hinzufügen und Kurse erstellen.
+Wenn Sie nach dem Hinzufügen von Teilnehmenden zum Adobe Learning Manager-Konto ihre Rollen ändern möchten, klicken Sie oben rechts auf der Seite auf „Aktionen“. Wählen Sie die Option **[!UICONTROL Rolle zuweisen]**. Hier können Sie entscheiden, ob Sie dem Teilnehmer Autorenzugriff oder Administratorzugriff gewähren möchten. Nachdem Sie eine Rolle zugewiesen haben, hat dieser Teilnehmer Autorenzugriff auf das Konto und kann Module hinzufügen und Kurse erstellen.
 
 ![](assets/assign-a-role.png)
 *Zuweisen einer Rolle zu einem Benutzer*
 
-## Entfernen einer Rolle {#removearole}
+## Entfernen Sie eine Rolle {#removearole}
 
-Sie können den Autoren- oder Administratorzugriff für die Benutzer auch entfernen. Wählen Sie einen oder mehrere Teilnehmer aus und klicken Sie auf **[!UICONTROL Aktionen]** und wählen Sie **[!UICONTROL Rolle entfernen]**. Wählen Sie eine Option aus, z. B. **[!UICONTROL Autor entfernen]** und der Autorenzugriff wird für diesen Teilnehmer widerrufen.
+Sie können auch den Autor- oder Administratorzugriff für die Benutzer entfernen. Wählen Sie einen oder mehrere Teilnehmer, klicken Sie auf **[!UICONTROL Aktionen]**, und wählen Sie **[!UICONTROL Rolle entfernen]**. Wählen Sie eine Option aus, z. B. **[!UICONTROL Autor entfernen]** und der Autorenzugriff wird für diesen Teilnehmer widerrufen.
 
 >[!NOTE]
 >
->Sie können einer Person im System nicht manuell eine Manager-Rolle zuweisen. Sie erhalten automatisch Zugriff auf das Manager-Dashboard, wenn ein oder mehrere Mitarbeiter unter ihnen hinzugefügt werden.
+>Sie können niemandem im System manuell eine Manager-Rolle zuweisen. Sie erhalten automatisch Zugriff auf das Manager-Dashboard, wenn ihnen ein oder mehrere Mitarbeiter hinzugefügt werden.
 
 ## Benutzer löschen {#deleteauser}
 
-Klicken Sie zum Löschen eines Benutzers auf **[!UICONTROL Aktionen]** und wählen Sie **[!UICONTROL Benutzer löschen]**. Klicken Sie im Bestätigungsdialogfeld auf **[!UICONTROL Ja]** und der Teilnehmer wird gelöscht.
+Um einen Benutzer zu löschen, klicken Sie auf **[!UICONTROL Aktionen]** und wählen Sie **[!UICONTROL Benutzer löschen]**. Klicken Sie im Bestätigungsdialogfeld auf **[!UICONTROL Ja]** und der Teilnehmer wird gelöscht.
 
 ![](assets/delete-a-role.png)
 *Bestätigungsmeldung zum Löschen eines Benutzers*
 
 ## Benutzer bearbeiten {#editauser}
 
-Wählen Sie in der Benutzerliste einen Benutzer aus und klicken Sie auf den Benutzer. Klicken Sie in den Benutzerdetails auf das Symbol **[!UICONTROL Bearbeiten]** ( ![](assets/edit-pen.png)) klicken. Im Fenster &quot; **[!UICONTROL Benutzer bearbeiten]** &quot; die erforderlichen Änderungen vor und klicken Sie auf **[!UICONTROL Speichern]**.
+Wählen Sie in der Liste der Benutzer einen Benutzer aus und klicken Sie auf den Benutzer. Klicken Sie in den Benutzerdetails auf das Symbol **[!UICONTROL Bearbeiten]** ( ![](assets/edit-pen.png)) klicken. Nehmen Sie im Dialogfeld **[!UICONTROL Benutzer bearbeiten]** die notwendigen Änderungen vor und speichern Sie die Änderungen unter **[!UICONTROL Speichern]**.
 
 ![](assets/edit-user.png)
 *Dialogfeld &quot;Benutzer bearbeiten&quot;*
 
-## Workflows für aktive Felder und aktive Feldwerte unter Beachtung der Groß- und Kleinschreibung
+## Arbeitsabläufe für aktive Felder und aktive Feldwerte unter Beachtung der Groß- und Kleinschreibung
 
 In dieser Version beachtet Learning Manager die Groß- und Kleinschreibung des Benutzerattributs und seines Werts. **Beispiel**, die Groß- und Kleinschreibung des Benutzerattributs &quot;location&quot; und der Wert &quot;PARIS&quot; werden beibehalten und auf die gleiche Weise angezeigt. Bei Problemen kann der Administrator jetzt den Attributnamen und die Attributwerte bearbeiten, um Fehler bei der Groß- und Kleinschreibung zu korrigieren.
 
@@ -145,29 +145,29 @@ Der Administrator kann zulässige Attributwerte für einen Teilnehmer über die 
 
 Typen aktiver Felder:
 
-* Gruppierbar: Teilnehmer werden anhand der Werte gruppiert.
-* Berichtsfähig: Berichte für Benutzergruppen werden basierend auf den aktiven Feldern erstellt.
-* Exportfähig: Die Felder werden im exportierten Benutzergruppenbericht angezeigt.
+* Gruppierbar: Teilnehmer werden anhand der Werte gruppiert
+* Berichtsfähig: Berichte für Benutzergruppen werden anhand der aktiven Felder erstellt
+* Exportierbar: Die Felder werden im exportierten Benutzergruppenbericht angezeigt.
 
-## Link für die Selbstregistrierung erstellen {#createaselfregistrationlink}
+## Erstellen Sie einen Selbstregistrierungslink {#createaselfregistrationlink}
 
-Sie können auch Mitarbeitern in Ihrem Unternehmen die Möglichkeit geben, sich selbst als Teilnehmer beim Adobe des Learning Manager-Kontos zu registrieren, ohne die Hilfe von Ihnen als Administrator zu nutzen. Der Administrator kann einen Link für die Selbstregistrierung erstellen und ihn für die Mitarbeiter freigeben, die sich mithilfe ihrer Adobe-Anmeldedaten weiter beim Learning Manager registrieren können.
+Sie können Mitarbeitenden in Ihrer Organisation auch die Möglichkeit geben, sich als Teilnehmende für Adobe Learning Manager Account zu registrieren, ohne Ihre Hilfe als Administrator in Anspruch zu nehmen. Der Administrator kann einen Link für die Selbstregistrierung erstellen und ihn für die Mitarbeiter freigeben, die sich mithilfe ihrer Adobe-Anmeldedaten weiter beim Learning Manager registrieren können.
 
-Klicken Sie oben rechts auf der Seite auf **[!UICONTROL Hinzufügen]** und wählen Sie **[!UICONTROL Selbstregistrierung]**.
+Klicken Sie in der rechten oberen Ecke der Seite auf **[!UICONTROL Hinzufügen]** und wählen Sie **[!UICONTROL Selbstregistrierung]**.
 
 ![](assets/self-registration.png)
 *Link zur Selbstregistrierung als Teilnehmer erstellen*
 
-Die **[!UICONTROL Selbstregistrierungsprofil hinzufügen]** &quot; wird angezeigt. Geben Sie diesem Profil einen Namen. Fügen Sie dann den Namen des Managers hinzu. Es ist wichtig zu wissen, dass der Manager bereits als Teilnehmer im Learning Manager registriert sein muss.
+Das Dialogfeld **[!UICONTROL Selbstregistrierungsprofil hinzufügen]** wird angezeigt. Geben Sie diesem Profil einen Namen. Fügen Sie dann den Namen des Managers hinzu. Es ist wichtig zu wissen, dass der Manager bereits als Teilnehmer im Learning Manager registriert sein muss.
 
 ![](assets/add-self-registrationprofile.png)
 *Profil für Selbstregistrierung hinzufügen*
 
-Nachdem Sie auf **[!UICONTROL Speichern]**, wird eine URL generiert, die Sie den Teilnehmern zur Verfügung stellen können, damit diese auf die URL klicken und sich selbst registrieren können.
+Nachdem Sie auf **[!UICONTROL Speichern ]** geklickt haben, wird eine URL generiert, die Sie den Teilnehmern zur Verfügung stellen können, damit diese auf die URL klicken und sich selbst registrieren können.
 
 ## Externe Teilnehmer registrieren {#enrollexternallearners}
 
-Im Adobe Learning Manager können Sie auch Registrierungs-Links für externe Partner oder Agenturen mit eingeschränktem Zugriff auf Ihr Konto erstellen und ihnen Lernmaterial zur Verfügung stellen.
+In Adobe Learning Manager können Sie auch Registrierungslinks für externe Partner oder Agenturen mit eingeschränktem Zugriff auf Ihr Konto erstellen und ihnen Lernmaterial bereitstellen.
 
 Es gibt einige Unterschiede zwischen internen und externen Registrierungen.
 
@@ -181,7 +181,7 @@ Es gibt einige Unterschiede zwischen internen und externen Registrierungen.
   </tr>
   <tr>
    <td>
-    <p>Melden Sie sich mit Ihren Adobe ID- oder SSO-Anmeldeinformationen an.</p></td>
+    <p>Melden Sie sich mit der Adobe ID oder SSO-Anmeldeinformationen an.</p></td>
    <td>
     <p>Melden Sie sich mit einer beliebigen E-Mail-ID an.</p></td>
   </tr>
@@ -193,7 +193,7 @@ Es gibt einige Unterschiede zwischen internen und externen Registrierungen.
   </tr>
   <tr>
    <td>
-    <p>Es sind Teilnehmerhierarchien verfügbar.</p></td>
+    <p>Teilnehmerhierarchien sind verfügbar.</p></td>
    <td>
     <p>Teilnehmerhierarchien sind nicht verfügbar.</p></td>
   </tr>
@@ -208,13 +208,13 @@ Führen Sie die folgenden Schritte aus, um externe Benutzer zu registrieren:
 
    *Externe Benutzer registrieren*
 
-1. Klicken Sie oben rechts auf der Seite auf **[!UICONTROL Hinzufügen]**.
-1. Im Fenster &quot; **[!UICONTROL Externes Registrierungsprofil hinzufügen]** &quot; die folgenden Details hinzu:
+1. Klicken Sie in der rechten oberen Ecke der Seite auf **[!UICONTROL Hinzufügen]**.
+1. Fügen Sie im Dialogfeld **[!UICONTROL Externes Registrierungsprofil hinzufügen]** die folgenden Details hinzu:
 
    * Der Profilname der Partnerorganisation.
    * Die E-Mail-Adresse des Managers der Partnerorganisation.
    * Maximale Anzahl Lizenzen für die externe Registrierung für diesen Partner.
-   * Ablaufdatum, um eine Frist festzulegen, nach der keine neuen Registrierungen für diese Gruppe mehr zulässig sind. Nach dem Ablaufdatum können nur die vorhandenen registrierten Benutzer auf diese Schulung zugreifen.
+   * Ablaufdatum, um eine Frist festzulegen, nach der keine neuen Registrierungen für diese Gruppe mehr zulässig sind. Nach dem Ablaufdatum können nur die bereits registrierten Benutzer auf diese Schulung zugreifen.
 
    ![](assets/map-data-fields-2.png)
 
@@ -222,7 +222,7 @@ Führen Sie die folgenden Schritte aus, um externe Benutzer zu registrieren:
 
    * Im Dialogfeld &quot; **[!UICONTROL Erweiterte Einstellungen]** geben Sie Folgendes ein:
 
-      * **[!UICONTROL Anmeldeanforderung]:** Geben Sie einen Wert in Tagen an. Teilnehmer werden gelöscht, wenn sie sich nicht für die oben genannte Dauer anmelden.
+      * **[!UICONTROL Anmeldeanforderung]:** Geben Sie einen Wert in Tagen an. Teilnehmer werden gelöscht, wenn sie sich für den oben genannten Zeitraum nicht anmelden.
       * **[!UICONTROL Zulässige Domänen]:** Eine durch Kommas getrennte Liste von auf die Positivliste gesetzten E-Mail-Domänennamen.
       * **[!UICONTROL E-Mail-Verifizierung erforderlich]:** Wählen Sie diese Option, um die E-Mail-Verifizierung für einen Teilnehmer verbindlich zu machen.
 
@@ -230,40 +230,40 @@ Führen Sie die folgenden Schritte aus, um externe Benutzer zu registrieren:
 
    *Geben Sie die Details im Abschnitt Erweiterte Einstellungen ein.*
 
-1. Nachdem Sie auf **[!UICONTROL Speichern]** klicken, wird die folgende Bestätigungsmeldung angezeigt. Sie müssen die URL für Ihren externen Partner freigeben.
+1. Nachdem Sie auf **[!UICONTROL Speichern ]** geklickt haben, wird die folgende Bestätigungsmeldung angezeigt. Sie müssen die URL mit Ihrem externen Partner teilen.
 
    ![](assets/save-and-share-urlwithexternalusers.png)
 
-## Externes Profil aktivieren {#enableanexternalprofile}
+## Aktivieren Sie ein externes Profil {#enableanexternalprofile}
 
-Nachdem ein externes Profil erstellt wurde, müssen Sie seinen Status aktivieren. Wählen Sie aus der Liste der externen Profile das gewünschte Profil aus und klicken Sie auf die Statusschaltfläche.
+Nachdem ein externes Profil erstellt wurde, müssen Sie dessen Status aktivieren. Wählen Sie aus der Liste der externen Profile das gewünschte Profil aus und wechseln Sie die Statusschaltfläche.
 
 ![](assets/choose-required-profiles.png)
 *Externes Profil aktivieren*
 
-Dadurch wird der Link Externe Registrierung aktiviert. Eine Begrüßungs-E-Mail wird automatisch an den Partner gesendet. Sie können den Link auch kopieren und für sie freigeben, indem Sie auf das Symbol URL kopieren () klicken. Sie können auch die Begrüßungs-E-Mail erneut an die Partnerorganisation senden, indem Sie auf das Symbol E-Mail klicken ().
+Dadurch wird der Link „Externe Registrierung“ aktiviert. Eine Willkommens-E-Mail wird automatisch an den Partner gesendet. Sie können den Link auch kopieren und mit ihnen teilen, indem Sie auf das Symbol URL kopieren () klicken, oder Sie können die Begrüßungs-E-Mail erneut an die Partnerorganisation senden, indem Sie auf das Mail-Symbol () klicken.
 
-Der Partner-Manager kann den Link mit den Mitarbeitern teilen, die die Schulung in PrLearning Manager absolvieren müssen. Wenn sie auf den Link klicken, können sie sich selbst registrieren, nachdem sie einige Details ausgefüllt haben, um ihr Profil in Learning Manager zu erstellen. Diese Benutzer werden nicht zusammen mit den internen Mitarbeitern auf der Registerkarte &quot;Teilnehmer&quot; angezeigt. Sie können ihre Namen unter dem **[!UICONTROL Externe Teilnehmer]** &quot; ändern.
+Der Partner-Manager kann den Link mit den Mitarbeitern teilen, die die Schulung in PrLearning Manager absolvieren müssen. Wenn sie auf den Link klicken, können sie sich selbst registrieren, nachdem sie einige Details ausgefüllt haben, um ihr Profil auf Learning Manager zu erstellen. Diese Benutzer werden nicht zusammen mit den internen Mitarbeitern auf der Registerkarte „Teilnehmer“ angezeigt. Sie können ihre Namen auf der Registerkarte **[!UICONTROL Externe Teilnehmer]** sehen.
 
-## Externes Profil anhalten {#pause}
+## Halten Sie ein externes Profil an {#pause}
 
-Nachdem Sie dem Lern-Manager eine externe Benutzergruppe hinzugefügt haben, können Sie auch den Registrierungsprozess der externen Benutzer anhalten. Wenn Sie die Wiedergabe anhalten, wird der Registrierungsprozess für externe Benutzer blockiert. Dieser Vorgang funktioniert jedoch nur, wenn die Benutzer sich noch nicht registriert haben, indem sie die Einladung annehmen.
+Nachdem Sie dem Lern-Manager eine externe Benutzergruppe hinzugefügt haben, können Sie auch den Registrierungsprozess der externen Benutzer anhalten. Wenn Sie die Wiedergabe anhalten, wird der Registrierungsprozess für externe Benutzer blockiert. Allerdings funktioniert dieses Vorgangs nur dann, wenn sich die Benutzer noch nicht registriert und die Einladung akzeptiert haben.
 
-Um die externen Benutzergruppen anzuhalten, wählen Sie eine Gruppe oder mehrere Gruppen aus und klicken Sie auf **[!UICONTROL Aktionen]** in der rechten oberen Ecke der Seite und klicken Sie auf **[!UICONTROL Anhalten]**.
+Um die externen Benutzergruppen anzuhalten, wählen Sie eine Gruppe oder Gruppen, klicken Sie auf **[!UICONTROL Aktionen]** in der oberen rechten Ecke der Seite und wählen Sie **[!UICONTROL Anhalten]**.
 
-## Fortsetzen eines externen Profils {#resumeanexternalprofile}
+## Setzen Sie ein externes Profil fort {#resumeanexternalprofile}
 
-Sie können jederzeit den angehaltenen Status eines externen Partners widerrufen und die normalen Dienste wieder aufnehmen. Klicken **[!UICONTROL Aktionen]** in der oberen rechten Ecke der Seite und wählen Sie **[!UICONTROL Fortsetzen]**.
+Sie können jederzeit den angehaltenen Status eines externen Partners widerrufen und die normalen Dienste wieder aufnehmen. Klicken Sie in der rechten oberen Ecke der Seite auf **[!UICONTROL Aktionen]** und wählen Sie **[!UICONTROL Fortsetzen]**.
 
-Die folgenden Zustände gelten für externe Benutzer:
+Die folgenden Status für externe Benutzer gelten: 
 
-* **Inaktiver Zustand** - In diesem Status ist die Registrierung der externen Benutzer abgelaufen. Administratoren legen das Ablaufdatum für die externen Benutzer fest, während sie sie über den Arbeitsablauf zum Hinzufügen von Benutzern hinzufügen.
-* **Aktiver Zustand** - In diesem Status können sich die externen Benutzer bei der Learning Manager-Anwendung registrieren und bei der Anwendung anmelden.
-* **Anhalten** - In diesem Status ist der Registrierungsprozess für externe Benutzer blockiert. Die vorhandenen Benutzer können sich jedoch weiterhin anmelden.
+* **Inaktiver Zustand** - In diesem Status ist die Registrierung der externen Benutzer abgelaufen. Administratoren legen das Ablaufdatum für externe Benutzer fest und fügen sie über den Arbeitsablauf „Benutzer hinzufügen“ hinzu.
+* **Aktiver Status** In diesem Status können sich die externen Benutzenden bei der Learning Manager-Anwendung registrieren und sich außerdem bei der Anwendung anmelden.
+* **Anhalten** - In diesem Status ist der Registrierungsprozess für externe Benutzer gesperrt. Die vorhandenen Benutzer können sich aber weiterhin anmelden.
 
-## Verwendete Lizenzen prüfen {#checkusedseats}
+## Überprüfen Sie die benutzten Lizenzen {#checkusedseats}
 
-Klicken Sie in der Liste der externen Profile auf **[!UICONTROL Verwendete Sitzplätze]**. Sie können die Anzahl der Teilnehmer in der Partnerorganisation anzeigen, die hinzugefügt wurden.
+Klicken Sie in der Liste der externen Profile auf **[!UICONTROL Verwendete Lizenzen]**. Sie können die Anzahl der hinzugefügten Teilnehmer in der Partnerorganisation anzeigen.
 
 ![](assets/seats-used.png)
 *Verwendete Lizenzen prüfen*
@@ -280,51 +280,51 @@ Um einen Benutzer in ein anderes externes Profil zu verschieben, wählen Sie ein
 
 Wählen Sie einen Benutzer aus und klicken Sie in der rechten oberen Ecke auf **[!UICONTROL Aktionen]** > **[!UICONTROL Rolle zuweisen]** > **Erstellen`<role>`**. Der Benutzer erhält eine neue Rolle.
 
-## Entfernen einer Rolle {#Removearole-1}
+## Entfernen Sie eine Rolle {#Removearole-1}
 
 Wählen Sie einen Benutzer aus und klicken Sie in der rechten oberen Ecke auf **[!UICONTROL Aktionen]** > **[!UICONTROL Rolle entfernen]** > **Entfernen`<role>`**. Die ausgewählte Rolle wird aus der Liste der Rollen entfernt, die dem Benutzer zugewiesen wurden.
 
 ## Benutzergruppen erstellen {#createusergroups}
 
-Eine Benutzergruppe ist eine Gruppe von Benutzern, die mit einer Kategorie verknüpft sind. Benutzergruppen helfen Administratoren dabei, Teilnehmer in ihrer Organisation auf der Grundlage ihrer Attribute auszuwählen, und weisen Sie ihnen dann Lerninhalte zu. Außerdem können Administratoren mit diesen Benutzergruppen Teilnehmern benutzerdefinierte Logos und Kataloge zuweisen und benutzerdefinierte Fortschrittsberichte anzeigen.
+Eine Benutzergruppe ist eine Gruppe von Benutzern, die einer Kategorie zugeordnet sind. Mithilfe von Benutzergruppen können Administratoren Teilnehmer in ihrer Organisation anhand ihrer Attribute auswählen und ihnen dann Lerninhalte zuweisen. Diese Benutzergruppen helfen den Administratoren auch dabei, Teilnehmern benutzerdefinierte Logos und Kataloge zuzuweisen und benutzerdefinierte Berichte zu deren Fortschritten anzuzeigen.
 
 Um auf Benutzergruppen zuzugreifen, klicken Sie im linken Navigationsbereich auf **[!UICONTROL Benutzergruppen]**.
 
 ![](assets/user-groups.png)
 *Benutzergruppen erstellen*
 
-Es gibt zwei Arten von Gruppen im Adobe-Lern-Manager: &quot;Benutzerdefiniert&quot; und &quot;Automatisch generiert&quot;. Wenn Sie Teilnehmer Ihrem Konto hinzufügen, werden einige Gruppen automatisch basierend auf ihren gemeinsamen Eigenschaften erstellt.
+In Adobe Learning Manager gibt es zwei Arten von Gruppen: Benutzerdefiniert und automatisch generiert. Wenn Sie Ihrem Konto Teilnehmer hinzufügen, werden einige Gruppen automatisch anhand ihrer gemeinsamen Eigenschaften erstellt.
 
 Um die automatisch erstellten Gruppen anzuzeigen, klicken Sie auf die Registerkarte **[!UICONTROL Automatisch generiert]**.
 
 ![](assets/auto-generated.png)
 *Automatisch generierte Gruppen anzeigen*
 
-Sie können sehen, dass es verschiedene Gruppen gibt, wie &quot;Alle internen Benutzer&quot;, &quot;Alle Manager&quot;, Gruppen, die auf der Kostenstelle basieren, die auf der Abteilung basieren und die auf den Teams der Manager basieren.
+Sie können sehen, dass es verschiedene Gruppen gibt, z. B. Alle internen Benutzer, Alle Manager, Gruppen basierend auf der Kostenstelle, basierend auf der Abteilung und basierend auf den Teams der Manager.
 
 Zusätzlich zu automatisch generierten Gruppen können Sie benutzerdefinierte Gruppen erstellen. Um eine neue benutzerdefinierte Gruppe hinzuzufügen, klicken Sie oben rechts auf **[!UICONTROL Hinzufügen]**.
 
-1. Geben Sie den Namen und die Beschreibung für die Gruppe ein.
-1. Geben Sie den Benutzernamen oder das Profil in das Suchfeld ein, während Sie tippen, und wählen Sie aus der Dropdown-Liste aus, um Benutzer hinzuzufügen.
+1. Geben Sie den Namen und die Beschreibung der Gruppe ein.
+1. Geben Sie den Benutzernamen oder das Profil in das Textfeld ein und wählen Sie ihn aus der Dropdown-Liste aus, die während des Tippens erscheint, um einen Benutzer hinzuzufügen.
 1. Um weitere Teilnehmer hinzuzufügen, klicken Sie **[!UICONTROL Weitere Benutzer hinzufügen].**
 1. Klicken Sie zum Erstellen der Benutzergruppe auf **[!UICONTROL Speichern]**.
 
-Diese benutzerdefinierte Gruppe wird jetzt erstellt und dem Profil hinzugefügt. Die von Ihnen erstellten Benutzergruppen sind dynamischer Natur. Wenn neue Benutzer mit ähnlichen Attributen hinzugefügt werden, werden sie automatisch der Benutzergruppe hinzugefügt.
+Diese benutzerdefinierte Gruppe wird nun erstellt und dem Profil hinzugefügt. Die von Ihnen erstellten Benutzergruppen sind dynamischer Natur. Wenn neue Benutzer mit ähnlichen Attributen hinzugefügt werden, werden sie automatisch der Benutzergruppe hinzugefügt.
 
 ## Ausschluss von Benutzergruppen
 
-Es kann vorkommen, dass Sie eine kleine Benutzergruppe aus einer großen Benutzergruppe ausschließen möchten. Dies ist erforderlich, um diese bestimmte Benutzergruppe für Schulungen über Lernpläne zu registrieren oder um die richtige Sichtbarkeit von Katalogen einzurichten. In dieser Version des Lern-Managers können Sie Teilnehmer oder Benutzergruppen ausschließen, wenn Sie eine benutzerdefinierte Benutzergruppe erstellen. Im Dialogfeld &quot;Benutzergruppe hinzufügen&quot; können Sie dies im Abschnitt &quot;Teilnehmer ausschließen&quot; tun.
+Es kann vorkommen, dass Sie eine kleine Benutzergruppe aus einer großen Benutzergruppe ausschließen möchten. Dies ist erforderlich, um diese bestimmte Benutzergruppe für Schulungen über Lernpläne zu registrieren oder um die richtige Sichtbarkeit von Katalogen einzurichten. In dieser Version des Lern-Managers können Sie Teilnehmer oder Benutzergruppen ausschließen, wenn Sie eine benutzerdefinierte Benutzergruppe erstellen. Im Dialogfeld „Benutzergruppe hinzufügen“ können Sie dies im Abschnitt „Teilnehmer ausschließen“ tun.
 
 ![](assets/exclude-user-groups.png)
 *Benutzergruppen ausschließen*
 
-Wenn Sie beispielsweise einen Lernplan einrichten möchten, bei dem alle Benutzer mit dem Attribut &quot;Ort&quot; = Kalifornien registriert werden, mit Ausnahme von Store-5 (in Kalifornien).
+Wenn Sie z. B. einen Lernplan erstellen möchten, bei dem alle Benutzer mit dem Attribut „Ort“ und dem Feldwert „Kalifornien“ registriert werden, mit Ausnahme von „Store-5“ (ebenfalls in Kalifornien).
 
 ## Erweiterte Einstellungen {#advancedsettings}
 
 ## Datenquellen {#datasources}
 
-Sie können diese Funktion verwenden, wenn Sie die Benutzer oder Lerndaten aus der Datenbank Ihres Unternehmens in die Learning Manager-Anwendung importieren/synchronisieren möchten. Sie können auch die Häufigkeit dieser Synchronisierung einrichten.
+Sie können diese Funktion verwenden, wenn Sie die Benutzer oder Lerndaten aus der Datenbank Ihres Unternehmens in die Learning Manager-Anwendung importieren/synchronisieren möchten. Sie können außerdem die Häufigkeit der Synchronisierung einrichten.
 
 Klicken **[!UICONTROL Datenquellen]** im linken Bereich unter **[!UICONTROL Erweitert]** Abschnitt.
 
@@ -338,7 +338,7 @@ Sie können mehrere Datenquellen hinzufügen.
 
 ## Aktive Felder {#activefields}
 
-Mit dieser Funktion können Administratoren weitere aktive Felder hinzufügen, zusätzlich zu dem, was während der Benutzerregistrierung bereitgestellt wurde.
+Mit dieser Funktion können Administratoren weitere aktive Felder hinzufügen, zusätzlich zu dem, was bei der Benutzerregistrierung bereitgestellt wurde.
 
 Klicken **Aktive Felder** auf der Seite &quot;Benutzer&quot; verfügbar. Teilnehmer können nur aus den Werten wählen, die in benutzerdefinierten Werten angegeben sind.
 
@@ -363,10 +363,10 @@ Führen Sie die folgenden Schritte aus, um benutzerdefinierte Werte hinzuzufüge
    ![](assets/values-in-customfields.png)
    *Werte im Dialogfeld &quot;Benutzerdefinierte Felder&quot;*
 
-1. Wählen Sie den hinzuzufügenden Wert aus der Liste **[!UICONTROL Feld auswählen]** Dropdown-Menü.
+1. Wählen Sie den hinzuzufügenden Wert aus der Dropdown-Liste **[!UICONTROL Ausgewähltes Feld]**.
 1. Geben Sie neue Werte in das Feld **[!UICONTROL Neuer Wert]** ein.
-1. Klicken **[!UICONTROL Fertig]**.
-1. Klicken Sie in der rechten oberen Ecke auf Speichern , um **[!UICONTROL Speichern]** Änderungen.
+1. Klicken Sie auf **[!UICONTROL Fertig]**.
+1. Klicken Sie in der oberen rechten Ecke auf **[!UICONTROL Speichern]**, um die Änderungen zu speichern.
 
 **Externe Benutzer**
 
@@ -384,21 +384,21 @@ Wenn die Option **Nur nicht ausgefüllte Felder bei der Teilnehmeranmeldung anze
 ![](assets/settings-tab.png)
 *Nicht ausgefüllte Felder anzeigen*
 
-Mit dieser Option kann ein Administrator entscheiden, ob er die Felder ein- oder ausblenden möchte, nachdem diese ausgefüllt wurden.
+Mit dieser Option kann ein Administrator entscheiden, ob er die Felder anzeigen oder ausblenden möchte, sobald diese ausgefüllt wurden.
 
-## Aktive Felder in Berichten einschränken {#restrictactivefields}
+## Beschränken Sie aktive Felder in Berichten {#restrictactivefields}
 
 Learning Manager 27.7 bietet zwei neue Optionen: **[!UICONTROL meldepflichtig]** und **[!UICONTROL Exportfähig]**, für aktive Felder.
 
 ![](assets/options-in-activefields.png)
 *Optionen in aktiven Feldern*
 
-Für CSV-Felder und manuell hinzugefügte Felder, wenn ein aktives Feld als **[!UICONTROL meldepflichtig]** klicken, kann das aktive Feld in einem Filter in einem Dashboard-Bericht gesucht werden.
+Wenn für CSV-Felder und manuell hinzugefügte Felder ein aktives Feld als **[!UICONTROL Bericht]** markiert ist, kann das aktive Feld in einem Filter in einem Dashboard-Bericht gesucht werden.
 
 ![](assets/filters-in-a-dashboardreport.png)
 *Filter in einem Dashboard-Bericht*
 
-Wenn ein aktives Feld als **[!UICONTROL Exportfähig]** klicken, wird das aktive Feld in der Excel-Datei angezeigt, wenn ein Excel-Bericht heruntergeladen wird.
+Wenn ein aktives Feld als **[!UICONTROL Exportfähig]** markiert ist, wird das aktive Feld in der Excel-Datei angezeigt, wenn ein Excel-Bericht heruntergeladen wird.
 
 Diese Optionen werden sowohl für interne als auch für externe aktive Felder angezeigt.
 
@@ -429,20 +429,20 @@ Es kann vorkommen, dass ein Benutzer einem in der CSV-Datei angegebenen Feld kei
 
 Fügen Sie ein beliebiges Feld als Teil Ihrer Benutzerinformationen hinzu und klicken Sie auf **[!UICONTROL Speichern]**. Nachdem Sie die Felder hinzugefügt haben, können Sie auch die Verfügbarkeit der Felder im Dialogfeld &quot; **[!UICONTROL Benutzer bearbeiten]** &quot; ändern.
 
-Nachdem Sie die Felder hinzugefügt haben, können Sie feststellen, dass die mit einem Häkchen markierten Felder aus der Datenquelle oder CSV stammen, wie in der Momentaufnahme unten beschrieben. Der Administrator kann diese Felder bearbeiten, indem er die Felder aktiviert oder deaktiviert.
+Nachdem Sie die Felder hinzugefügt haben, können Sie feststellen, dass die Felder, die mit einem Häkchen markiert sind, aus der Datenquelle oder CSV stammen, wie in der Momentaufnahme unten gezeigt. Der Administrator kann diese Felder bearbeiten, indem er die Felder aktiviert bzw. deaktiviert.
 
 **Werte für aktive Felder im Lern-Manager**
 
 Die Werte für aktive Felder werden wie folgt abgerufen:
 
-1. Die Learning Manager-Anwendung importiert Metadaten aus Datenquellen, die mit Ihrem Konto verknüpft sind.
-1. Metadaten, die aus der manuell importierten CSV-Datei erfasst werden.
-1. Teilnehmer füllen bei der Anmeldung Metadaten auf
-1. Der Administrator gibt Daten für die Benutzer ein.
+1. Die Learning Manager-Anwendung importiert Metadaten aus Datenquellen, die mit Ihrem Konto verbunden sind.
+1. Metadaten, die von den manuell importierten CSV-Datei erfasst wurden.
+1. Teilnehmer füllen Metadaten auf, wenn sie sich anmelden.
+1. Administrator gibt Daten für Benutzer ein.
 
 >[!NOTE]
 >
->Die Learning Manager-Anwendung erstellt Benutzergruppen automatisch aus diesen Metadaten.
+>Learning Manager-Anwendung erstellt Benutzergruppen automatisch aus diesen Metadaten.
 
 **Benutzerdefinierten Wert hinzufügen**
 
@@ -450,35 +450,35 @@ Sie können benutzerdefinierte Werte für Benutzerfelder in den internen und ext
 
 Führen Sie die folgenden Schritte aus, um benutzerdefinierte Werte hinzuzufügen:
 
-Benutzerdefinierte Felder können hinzugefügt und gelöscht werden und gelten für alle Benutzer. CSV-Felder können aktiviert oder deaktiviert werden und werden nur wirksam, wenn Sie CSV hochladen, nachdem Sie die Änderungen in aktiven Feldern vorgenommen haben. Alle internen aktiven Felder gelten für alle Arten von internen Benutzern. Externe Felder gelten nur für externe Benutzer. Wenn ein benutzerdefiniertes Feld in CSV vorhanden ist, wird es beim nächsten Upload automatisch in ein CSV-Feld konvertiert und aktiviert.
+Benutzerdefinierte Felder können hinzugefügt und gelöscht werden und sind auf alle Benutzer anwendbar. CSV-Felder können aktiviert oder deaktiviert werden und werden nur gültig, wenn Sie CSV hochladen, nachdem die Änderungen in den aktiven Feldern vorgenommen wurden. Alle interne aktive Felder sind für alle Typen von internen Benutzern anwendbar. Externe Felder sind nur für externe Benutzer anwendbar. Wenn ein benutzerdefiniertes Feld in CSV vorhanden ist, wird es beim nächsten Upload automatisch in ein CSV-Feld konvertiert und aktiviert.
 
 ## Werte für CSV-Felder {#valuesforcsvfields}
 
-Benutzer können nur aus vordefinierten Feldern für CSV-Felder auswählen, wenn das Attribut **[!UICONTROL Auswahl einschränken]** ist aktiviert.
+Benutzer können nur aus vordefinierten Feldern für CSV-Felder auswählen, wenn das Kontrollkästchen **[!UICONTROL Auswahl einschränken]** aktiviert ist.
 
 ![](assets/value-field-for-csv.png)
 *Kontrollkästchen &quot;Auswahl einschränken&quot;*
 
 ## Protokolle importieren {#importlogs}
 
-In diesem Bereich können Sie den CSV-Importverlauf für die Benutzer anzeigen, die der Administrator mithilfe der Massenimportfunktion hinzugefügt hat. Sie können auch auf **Hinzufügen** in der oberen rechten Ecke der Seite, um Benutzer mit der CSV-Upload-Funktion hinzuzufügen.
+In diesem Bereich können Sie den CSV-Importverlauf für die Benutzer, die der Administrator als Massen-Import hinzugefügt hat, anzeigen. Sie können auch auf **Hinzufügen** in der oberen rechten Ecke der Seite, um Benutzer mit der CSV-Upload-Funktion hinzuzufügen.
 
 ## Aktive Felder mit mehreren Werten
 
-Mit dieser Funktion können Sie mehr als ein Feld für ein aktives Feld verwenden. In einem Konto können maximal drei mehrwertige aktive Felder vorhanden sein. Die mehrwertigen aktiven Felder sind sowohl für externe als auch für interne Benutzer verfügbar.
+Mit dieser Funktion können Sie mehrere Felder als aktives Feld verwenden. In einem Konto können maximal drei mehrwertige aktive Felder vorhanden sein. Die mehrwertigen aktiven Felder sind sowohl für externe als auch für interne Benutzende verfügbar.
 
-Nachdem Sie ein aktives Feld als mehrwertig markiert haben, können Sie es nicht mehr zurück in einen einzelnen Wert konvertieren. Das ist unumkehrbar.
+Nachdem Sie ein aktives Feld als mehrwertig markiert haben, können Sie es nicht mehr als einzelwertig zurückkonvertieren. Das ist unumkehrbar.
 
-Ein vorhandenes einzelnes Wertfeld kann nicht als mehrwertiges Feld markiert werden.
+Ein vorhandenes Einzelwertfeld kann nicht als mehrwertiges Feld markiert werden.
 
-Führen Sie die folgenden Schritte aus, um ein aktives Feld mit mehreren Werten zu erstellen:
+Führen Sie die folgenden Schritte aus, um ein aktives mehrwertiges Feld zu erstellen:
 
 1. Fügen Sie ein aktives Feld hinzu.
 
    ![Aktives Feld hinzufügen](assets/add-active-field.png)
    *Aktives Feld hinzufügen*
 
-1. Klicken Sie auf Hinzufügen.
+1. Klicken Sie auf „Hinzufügen“.
 1. Markieren Sie auf der Registerkarte Einstellungen das neue Feld als mehrwertig.
 
    ![Als mehrwertig markieren](assets/mark-multi-valued.png)
@@ -491,7 +491,7 @@ Führen Sie die folgenden Schritte aus, um ein aktives Feld mit mehreren Werten 
    ![Werte hinzufügen.](assets/add-values.png)
    *Werte hinzufügen.*
 
-1. Klicken [!UICONTROL **Fertig**].
+1. Klicken Sie auf [!UICONTROL **Fertig**].
 
 >[!NOTE]
 >
@@ -499,7 +499,7 @@ Führen Sie die folgenden Schritte aus, um ein aktives Feld mit mehreren Werten 
 
 ### Aktives Feld mit mehreren Werten über CSV hinzufügen
 
-Führen Sie die folgenden Schritte aus:
+Führen Sie die unten genannten Schritte aus:
 
 1. Erstellen Sie eine CSV-Datei mit den neuen aktiven Feldern als Spalten (durch Kommas getrennte oder einzelne Werte).
 1. Importieren Sie die CSV-Datei.
@@ -533,7 +533,7 @@ Nachdem Sie einen Benutzer hinzugefügt und dem Benutzer eine Rolle zugewiesen h
 
 1. Klicken Sie im Popup-Fenster auf **[!UICONTROL Ja]**.
 
-Die ausgewählten Benutzer erhalten eine Willkommens-E-Mail. Wenn die Teilnehmer bereits über eine Adobe ID verfügen, können sie auf diesen Link klicken. Wenn sie keine Adobe ID haben, können sie auf den Begrüßungslink klicken, um eine Adobe ID zu erstellen und sie mit ihrem Learning Manager-Konto zu verknüpfen.
+Die ausgewählten Benutzer erhalten eine Begrüßungs-E-Mail. Wenn die Teilnehmer über eine vorhandene Adobe ID verfügen, können sie auf diesen Link klicken. Wenn sie keine Adobe ID haben, können sie auf den Begrüßungslink klicken, um eine Adobe ID zu erstellen und sie mit ihrem Learning Manager-Konto zu verknüpfen.
 
 Das Klicken auf einen dieser Links in der E-Mail ist für die Teilnehmer obligatorisch, da es dem Lern-Manager hilft, das Konto des Teilnehmers zu überprüfen.
 
@@ -541,14 +541,14 @@ Das Klicken auf einen dieser Links in der E-Mail ist für die Teilnehmer obligat
 
 +++Benutzerdaten bearbeiten
 
-Um einen Benutzer zu bearbeiten, führen Sie die folgenden Schritte aus:
+Um Benutzer zu bearbeiten, gehen Sie wie folgt vor:
 
-1. Klicken Sie in der Benutzerliste auf den Benutzer, für den Sie die Daten bearbeiten möchten.
-1. Klicken Sie auf das Stiftsymbol, wie unten gezeigt.
+1. Klicken Sie in der Liste der Benutzer auf den Benutzer, für den Sie die Daten bearbeiten möchten.
+1. Klicken Sie auf das Stiftsymbol.
 
 ![](assets/edit-user-data.png)
 
-Im Dialogfeld &quot; **[!UICONTROL Benutzer bearbeiten]** &quot; die Felder entsprechend aktualisieren. Klicken Sie zum Speichern der Änderungen auf **[!UICONTROL Speichern]**.
+Aktualisieren Sie im Dialogfeld **[!UICONTROL Benutzer bearbeiten]** die Felder entsprechend. Um die Änderungen zu speichern, klicken Sie auf **[!UICONTROL Speichern]**.
 
 +++
 
@@ -556,15 +556,15 @@ Im Dialogfeld &quot; **[!UICONTROL Benutzer bearbeiten]** &quot; die Felder ents
 
 Wählen Sie in der Liste der externen Benutzer den Benutzer aus, den Sie löschen möchten. Klicken Sie oben rechts auf **[!UICONTROL Aktionen]** > **[!UICONTROL Anhalten]**.
 
-Weitere Informationen finden Sie unter [Externes Profil anhalten](add-users-user-groups.md#pause).
+Weitere Informationen finden Sie unter [Halten Sie ein externes Profil an](add-users-user-groups.md#pause).
 
-Nachdem Sie ein Profil angehalten haben, wird für das externe Profil der Status ***Angehalten***.
+Nachdem Sie ein Profil angehalten haben, wird für das externe Profil der Status ***Angehalten*** angezeigt.
 
 +++
 
 +++Wie sende ich eine Begrüßungs-E-Mail an ein neu erstelltes externes Profil?
 
-Wenn Sie einen externen Benutzer hinzufügen, wählen Sie im Dialogfeld &quot; **[!UICONTROL Externes Registrierungsprofil hinzufügen]** die E-Mail-Adresse des externen Managers ein. Wenn Sie auf &quot;Speichern&quot; klicken, wird auch eine Begrüßungs-E-Mail an die von Ihnen angegebene E-Mail-Adresse gesendet. Wenn Sie die Begrüßungs-E-Mail erneut senden möchten, klicken Sie auf das Briefumschlag-Symbol, wie unten gezeigt:
+Wenn Sie einen externen Benutzer hinzufügen, wählen Sie im Dialogfeld &quot; **[!UICONTROL Externes Registrierungsprofil hinzufügen]** die E-Mail-Adresse des externen Managers ein. Wenn Sie auf „Speichern“ klicken, wird auch eine Willkommens-E-Mail an die von Ihnen angegebene E-Mail-Adresse gesendet. Wenn Sie die Willkommens-E-Mail erneut senden möchten, klicken Sie auf das Briefumschlag-Symbol, wie unten gezeigt:
 
 ![](assets/send-welcome-mail.png)
 
@@ -572,7 +572,7 @@ Wenn Sie einen externen Benutzer hinzufügen, wählen Sie im Dialogfeld &quot; *
 
 +++Wie kann ich benutzerdefinierte Benutzergruppen erstellen?
 
-Klicken **[!UICONTROL Benutzer]** > **[!UICONTROL Benutzergruppen]** auf der Seite Benutzergruppen auf **[!UICONTROL Hinzufügen]**. Fügen Sie im Dialogfeld &quot;Benutzergruppe hinzufügen&quot; die Benutzer sowohl einzeln als auch als Team hinzu.
+Klicken **[!UICONTROL Benutzer]** > **[!UICONTROL Benutzergruppen]** auf der Seite Benutzergruppen auf **[!UICONTROL Hinzufügen]**. Fügen Sie im Dialogfeld „Benutzergruppe hinzufügen“ die Benutzer sowohl einzeln als auch als Team hinzu.
 
 ![](assets/custom-user-group.png)
 
@@ -580,30 +580,30 @@ Klicken **[!UICONTROL Benutzer]** > **[!UICONTROL Benutzergruppen]** auf der Sei
 
 +++Wie kann ich bereits ausgefüllte aktive Felder deaktivieren?
 
-Wenn Sie möchten, dass Teilnehmer nur die aktiven Felder sehen, die nicht von ihnen ausgefüllt werden, führen Sie die folgenden Schritte aus:
+Wenn Sie möchten, dass Teilnehmer nur die aktiven, nicht von ihnen ausgefüllten Felder sehen können, führen Sie die folgenden Schritte aus:
 
 1. Klicken **[!UICONTROL Benutzer]** > **[!UICONTROL Aktive Felder]**.
 
 1. Klicken **[!UICONTROL Einstellungen]** und aktivieren Sie die Option **[!UICONTROL Nur nicht ausgefüllte Felder bei der Teilnehmeranmeldung anzeigen]**.
 
-1. Klicken **[!UICONTROL Speichern]**.
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 +++
 
 +++Wie kann ich verhindern, dass Teilnehmer zufällige Werte in die aktiven Felder eingeben?
 
-Sie können die Auswahl für Teilnehmer einschränken, sodass sie nur die vordefinierten Werte auswählen und keine zufälligen Werte eingeben können. Führen Sie die folgenden Schritte aus:
+Sie können die Auswahl für Teilnehmer einschränken, sodass sie nur die vordefinierten Werte auswählen und keine willkürlichen Werte eingeben können. Führen Sie die unten genannten Schritte aus:
 
 1. Klicken **[!UICONTROL Benutzer]** > **[!UICONTROL Aktive Felder]**.
-1. Im Abschnitt **[!UICONTROL Felder konfigurieren]** auf **[!UICONTROL Werte ändern]**.
+1. Klicken Sie im Abschnitt **[!UICONTROL Felder konfigurieren]** auf **[!UICONTROL Werte ändern]**.
 
-1. Option aktivieren **[!UICONTROL Auswahl einschränken]**.
-1. Klicken **[!UICONTROL Fertig]**.
+1. Aktivieren Sie die Option **[!UICONTROL Auswahl einschränken]**.
+1. Klicken Sie auf **[!UICONTROL Fertig]**.
 
 +++
 
 +++Wie kann ich zwischen aktiven CSV-Feldern und benutzerdefinierten aktiven Feldern unterscheiden?
 
-Sie können CSV-aktive Felder nur aktivieren oder deaktivieren, aber nicht löschen. Andererseits können Sie benutzerdefinierte aktive Felder nicht aktivieren oder deaktivieren.
+Sie können CSV-aktive Felder nur aktivieren oder deaktivieren, nicht jedoch löschen. Ebenfalls können Sie benutzerdefinierte aktive Felder nicht aktivieren oder deaktivieren.
 
 +++

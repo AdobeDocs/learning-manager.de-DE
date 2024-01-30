@@ -1,12 +1,12 @@
 ---
 jcr-language: en_us
 title: Handbuch für Anwendungsentwickler
-description: Die Lern-Manager V1-API ist jetzt veraltet. Die V1-APIs funktionieren ab dem 28. Februar 2021 nicht mehr. Wir empfehlen Ihnen, V2-APIs zu verwenden, um mit dem Learning Manager zu interagieren.
+description: Die Learning Manager V1-API ist jetzt veraltet. Die V1-APIs funktionieren ab dem 28. Februar 2021 nicht mehr. Wir empfehlen Ihnen, V2-APIs zu verwenden, um mit dem Learning Manager zu interagieren.
 contentowner: jayakarr
 source-git-commit: ab6737e8b43222a6538921b0628a504a5f15859d
 workflow-type: tm+mt
 source-wordcount: '3279'
-ht-degree: 0%
+ht-degree: 65%
 
 ---
 
@@ -14,45 +14,45 @@ ht-degree: 0%
 
 # Handbuch für Anwendungsentwickler
 
-Die Lern-Manager V1-API ist jetzt veraltet. Die V1-APIs funktionieren ab dem 28. Februar 2021 nicht mehr. Wir empfehlen Ihnen, V2-APIs zu verwenden, um mit dem Learning Manager zu interagieren.
+Die Learning Manager V1-API ist jetzt veraltet. Die V1-APIs funktionieren ab dem 28. Februar 2021 nicht mehr. Wir empfehlen Ihnen, V2-APIs zu verwenden, um mit dem Learning Manager zu interagieren.
 
 ## Übersicht {#overview}
 
-[Adobe Learning Manager](http://www.adobe.com/in/products/learningmanager.html) ist eine in der Cloud gehostete, auf die Kursteilnehmer zugeschnittene Selfservice-Lösung für Learning Management. Kunden können über die Learning Manager-API programmgesteuert auf Learning Manager-Ressourcen zugreifen, um sie mit anderen Unternehmensanwendungen zu integrieren. Die API kann auch von Adobe-Partnern verwendet werden, um das Wertversprechen von Learning Manager zu verbessern, indem die Funktionen erweitert oder in andere Anwendungen oder Services integriert werden.
+[Adobe Learning Manager](http://www.adobe.com/in/products/learningmanager.html) ist eine in der Cloud gehostete, auf die Kursteilnehmer zugeschnittene Selfservice-Lösung für Learning Management. Kunden können über die Learning Manager-API programmatisch auf Learning Manager-Ressourcen zugreifen, um sie in andere Unternehmensanwendungen zu integrieren. Die API kann auch von Adobes Partnern verwendet werden, um den Wertbeitrag von Learning Manager zu steigern, entweder durch Erweitern von dessen Funktionsumfang oder durch Integration in gängige Anwendungen oder Dienste.
 
 ### Anwendungsszenario {#usagescenario}
 
-Mithilfe der Learning Manager-API können Entwickler eigenständige Anwendungen erstellen, die die Funktionalität von Learning Manager erweitern oder Learning Manager mit anderen Workflows für Unternehmensanwendungen integrieren. Sie können eine Webanwendung, einen Desktop-Client oder eine mobile App mit einer beliebigen Technologie Ihrer Wahl entwickeln. Als Entwickler können Sie über Learning Manager auf Ihre Anwendungsdaten zugreifen. Die Bereitstellung der von Ihnen entwickelten Anwendung erfolgt außerhalb der Learning Manager-Plattform, und Sie haben die vollständige Kontrolle über den Lebenszyklus der Softwareentwicklung, während die Anwendung weiterentwickelt wird. Anwendungen werden in der Regel von einer Kundenorganisation zur Verwendung mit ihrem Learning Manager-Konto entwickelt und diese Anwendungen sind für diese spezifische Kundenorganisation privat. Darüber hinaus können Adobe-Partner mit der Learning Manager-API generische Anwendungen erstellen, die von einer großen Gruppe von Learning Manager-Kunden verwendet werden können.
+Mithilfe der Learning Manager-API können Entwickler eigenständige Anwendungen herstellen, die den Funktionsumfang von Learning Manager erweitern oder Learning Manager in Arbeitsabläufe in anderen Unternehmensanwendungen integrieren. Sie können eine Webanwendung, einen Desktop-Client oder eine mobile App mit einer beliebigen Technologie Ihrer Wahl entwickeln. Als Entwickler können Sie über Learning Manager auf Ihre Anwendungsdaten zugreifen. Die Bereitstellung der von Ihnen entwickelten Anwendung erfolgt außerhalb der Learning Manager-Plattform, und Sie haben die vollständige Kontrolle über den Lebenszyklus der Softwareentwicklung, während die Anwendung weiterentwickelt wird. Anwendungen werden üblicherweise im Unternehmen des Kunden zur Verwendung mit dessen Learning Manager-Konto entwickelt und diese Anwendungen sind „privat“, d. h. nur für dieses Kundenunternehmen verfügbar. Außerdem können Adobe-Partner mit der Learning Manager-API generische Anwendungen erstellen, die von einem breiten Spektrum von Learning Manager-Kunden verwendet werden können.
 
-## Learning Manager API {#apidescription}
+## Learning Manager-API {#apidescription}
 
-Die Learning Manager-API basiert auf den Prinzipien von REST und stellt wichtige Elemente des Learning Manager-Objektmodells Anwendungsentwicklern über HTTP zur Verfügung. Bevor Entwickler die Details der API-Endpunkte und der HTTP-Methoden kennen, können sie sich mit den verschiedenen Lern-Manager-Objekten, ihren Attributen und Beziehungen vertraut machen. Sobald die Modelle verstanden wurden, ist es hilfreich, ein grundlegendes Verständnis der Struktur von API-Anfragen und -Antworten sowie einige gängige Programmierbegriffe zu erlangen, die wir in der API allgemein verwenden.
+Die Learning Manager-API basiert auf den Prinzipien von REST und stellt wichtige Elemente des Objektmodells von Learning Manager über HTTP für Anwendungsentwickler bereit. Entwickler können sich mit den verschiedenen Learning Manager-Objekten, ihren Attributen und Beziehungen vertraut machen, bevor sie die Details zu den API-Endpunkten und den HTTP-Methoden kennen. Nachdem ein zuverlässiges Verständnis der Modelle vorhanden ist, empfiehlt es sich, Grundkenntnisse der Struktur von API-Anfragen und -Antworten zu erwerben und einige häufig vorkommende Programmierungsbegriffe zu erlernen, die in der gesamten API unterstützt werden.
 
 Ausführliche Informationen zu den verschiedenen API-Endpunkten und -Methoden finden Sie unter  [Dokumentation zur Learning Manager-API](https://learningmanager.adobe.com/docs/primeapi/v2/).
 
 ## API-Authentifizierung {#apiauthentication}
 
-Wenn Sie eine Anwendung schreiben, die API-Aufrufe an Learning Manager ausführt, müssen Sie Ihre Anwendung mithilfe der Integrations-Admin-App registrieren.
+Wenn Sie eine Anwendung entwickeln, die API-Aufrufe an Learning Manager sendet, müssen Sie Ihre Anwendung mithilfe der Integrations-Admin-App registrieren.
 
 Learning Manager-APIs verwenden das OAuth 2.0-Framework zum Authentifizieren und Autorisieren Ihrer Clientanwendungen.
 
-**Vorgehensweise**
+**Vorgehensweise** 
 
 **1. Anwendung einrichten**
 
-Sie können die Anwendung mit der Client-ID und dem Client-Secret einrichten, um die richtigen Endpunkte zu verwenden. Nachdem Sie die Anwendung registriert haben, können Sie clientId und clientSecret abrufen. Die Get-URL sollte im Browser verwendet werden, da sie die Learning Manager-Benutzer mit ihren vorkonfigurierten Konten wie SSO, Adobe ID usw. authentifiziert.
+Sie können die Anwendung mit der Client-ID und dem Client-Secret einrichten, um die richtigen Endpunkte zu verwenden. Nachdem Sie die Anwendung registriert haben, können Sie clientId und clientSecret abrufen. Die GET-URL sollte im Browser verwendet werden, da sie zur Authentifizierung der Learning Manager-Benutzer mit ihren vorkonfigurierten Konten wie SSO, Adobe ID usw. genutzt wird.
 
 ```
 GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your clientId>&redirect_uri=<Enter a url to redirect to>&state=<Any String data>&scope=<one or more comma separated scopes>&response_type=CODE.
 ```
 
-Nach erfolgreicher Authentifizierung leitet Ihr Browser zu dem in der oben genannten URL angegebenen redirect_uri weiter. Ein Parameter **Kodex** und dem Umleitungs-URI angehängt.
+Nach erfolgreicher Authentifizierung leitet Ihr Browser Sie zu dem in der oben genannten URL angegebenen redirect_uri weiter. Ein **Parametercode** wird zusammen mit dem Umleitungs-URI angehängt.
 
 **2. Aktualisierungstoken aus dem Code abrufen**
 
 `POST https://learningmanager.adobe.com/oauth/token Content-Type: application/x-www-form-urlencoded`
 
-Hauptteil der Stellenanforderung:
+Hauptteil der Post-Anforderung:
 
 ```
 client_id: 
@@ -73,7 +73,7 @@ URL zum Abrufen des Zugriffstokens:
 
 POST [https://learningmanager.adobe.com/oauth/token/refresh](https://learningmanager.adobe.com/oauth/token/refresh) Content-Type: application/x-www-form-urlencoded
 
-Hauptteil der Stellenanforderung:
+Hauptteil der Post-Anforderung:
 
 ```
 client_id: 
@@ -96,53 +96,53 @@ client_id:
 
 **Nutzungsbeschränkung**
 
-Ein Zugriffstoken ist sieben Tage lang gültig. Nach einem Tag müssen Sie mithilfe des Aktualisierungstokens ein neues Zugriffstoken generieren. Wenn Sie ein neues Zugriffstoken aus dem Aktualisierungstoken generieren, während ein vorhandenes Zugriffstoken noch gültig ist, wird das vorhandene Token zurückgegeben.
+Ein Zugriffstoken ist sieben Tage lang gültig. Nach einem Tag müssen Sie mithilfe des Aktualisierungstokens ein neues Zugriffstoken erstellen. Wenn Sie ein neues Zugriffstoken aus dem Aktualisierungstoken generieren, während ein vorhandenes Zugriffstoken noch gültig ist, wird das vorhandene Token zurückgegeben.
 
-Einige der häufig verwendeten Begriffe in der Learning Manager-API werden unten als Referenz erläutert.
+Als Referenz werden weiter unten einige in der Learning Manager-API häufig verwendete Begriffe erklärt.
 
-**Umfasst**
+**Includes**
 
-Entwickler können auf ein einzelnes API-Objektmodell sowie auf mehrere mit diesem Modell verknüpfte Modelle zugreifen. Um auf die nachfolgenden verwandten Modelle zugreifen zu können, müssen Sie die Beziehung jedes Modells zu anderen Modellen kennen. **Umfasst** ermöglicht Entwicklern den Zugriff auf die abhängigen Modelle. Sie können mehrere Modelle durch Kommas trennen. Beispiele zur Verwendung und weitere Informationen zu **umfasst** finden Sie weitere Informationen im Abschnitt zum Beispiel-API-Modell auf dieser Seite.
+Entwickler können sowohl auf ein einzelnes API-Objektmodell als auch auf mehrere mit diesem Modell verknüpfte Modelle zugreifen. Um auf die nachfolgenden verknüpften Modelle zuzugreifen, müssen Sie die Beziehung jedes Modells zu anderen Modellen kennen. **Umfasst** ermöglicht Entwicklern den Zugriff auf die abhängigen Modelle. Sie können mehrere Modelle durch Kommas trennen. Beispiele zur Verwendung und weitere Informationen zu **umfasst** finden Sie weitere Informationen im Abschnitt zum Beispiel-API-Modell auf dieser Seite.
 
-**API-Anfrage**
+**API-Anforderung**
 
-Die API-Anforderungen können durch eine HTTP-Anforderung gestellt werden. Abhängig vom Endpunkt und der Methode kann der Entwickler verschiedene HTTP-Verben wie GET, PUT, POST, DELETE, PATCH usw. wählen. Für einige Anforderungen können Abfrageparameter übergeben werden. Wenn der Benutzer eine Anforderung für ein bestimmtes Datenmodell sendet, kann er auch die entsprechenden Modelle anfordern, wie in den JSON API-Spezifikationen beschrieben. Die Struktur einer typischen API-Anforderung wird unter [Beispielmodellverwendung](#main-pars_header_1415780624).
+Die API-Anfragen können über eine HTTP-Anfrage gestellt werden. Je nach Endpunkt und Methode stehen eventuell verschiedene HTTP-Verben wie GET, PUT, POST, DELETE, PATCH usw. zur Verfügung. Bei manchen Anforderungen können Abfrageparameter übergeben werden. Wenn der Benutzer eine Anforderung für ein bestimmtes Datenmodell sendet, kann er auch verknüpfte Modelle anfordern wie in den Spezifikationen für die JSON-API beschrieben. Die Struktur einer typischen API-Anforderung wird unter [Nutzungsbeispiel für Modell](#main-pars_header_1415780624) beschrieben.
 
 **API-Antwort**
 
-Wenn eine API-Anforderung von einem Client gestellt wird, wird ein SON-Dokument gemäß der JSON-API-Spezifikation abgerufen. Die Antwort enthält außerdem den HTTP-Statuscode, den der Entwickler überprüfen kann, um die entsprechenden nächsten Schritte in seiner Anwendungslogik auszuführen. Die Struktur einer typischen API-Antwort wird unter  [Beispielmodellverwendung](#main-pars_header_1415780624).
+Bei einer API-Anforderung durch einen Client wird ein JSON-Dokument gemäß der JSON-API-Spezifikation abgerufen. Die Antwort enthält außerdem den HTTP-Statuscode, den der Entwickler überprüfen kann, um die entsprechenden nächsten Schritte in seiner Anwendungslogik auszuführen. Die Struktur einer typischen API-Antwort wird unter  [Beispielmodellverwendung](#main-pars_header_1415780624).
 
 **Fehler**
 
-Wenn eine API-Anforderung fehlschlägt, wird eine Fehlerantwort abgerufen. Der in der Antwort zurückgegebene HTTP-Statuscode gibt die Art des Fehlers an. Fehlercodes werden in der API-Referenz für jedes Modell mit Zahlen dargestellt. 200, 204, 400 und 404 sind einige der häufigsten Fehler, die in APIs angezeigt werden und auf HTTP-Zugriffsprobleme hinweisen.
+Wenn eine API-Anforderung fehlschlägt, geht eine Fehlerantwort ein. Der in der Antwort zurückgegebene HTTP-Statuscode gibt die Art des Fehlers an. Fehlercodes werden für jedes Modell in der API-Referenz mit Zahlen dargestellt. 200, 204, 400 und 404 sind einige der häufigsten Fehler, die in APIs angezeigt werden und auf HTTP-Zugriffsprobleme hinweisen.
 
-**Felder**
+**Fields**
 
-Die Attribute des API-Objekts und seine Beziehungen werden zusammen als Felder bezeichnet. Siehe [JSON-API für weitere Informationen.](http://jsonapi.org/format/#document-resource-object-fields) Sie können Felder als Parameter verwenden, während Sie API-Aufrufe durchführen, um ein oder mehrere bestimmte Attribute aus dem Modell abzurufen. Wenn der Fields-Parameter fehlt, ruft der API-Aufruf alle verfügbaren Attribute aus dem Modell ab. Im folgenden API-Aufruf werden z. B. Felder[Fertigkeit]=name ruft nur das Namensattribut des Kenntnismodells ab.
+Die Attribute des API-Objekts und seine Beziehungen werden zusammenfassend als Felder bezeichnet. Weitere Informationen finden Sie unter [JSON API.](http://jsonapi.org/format/#document-resource-object-fields) Sie können Felder als Parameter verwenden, während Sie API-Aufrufe durchführen, um ein oder mehrere bestimmte Attribute aus dem Modell abzurufen. Wenn der Fields-Parameter fehlt, ruft der API-Aufruf alle verfügbaren Attribute aus dem Modell ab. Im folgenden API-Aufruf werden z. B. Felder[Fertigkeit]=name ruft nur das Namensattribut des Kenntnismodells ab.
 
 https://learningmanager.adobe.com/primeapi/v2/users/{userId}/userSkills/{id}?include=skillLevel.skill&amp;fields[skill]=name
 
-**Seitenumbruch**
+**Paginierung**
 
-Manchmal führt eine API-Anforderung zu einer langen Liste von Objekten, die in der Antwort zurückgegeben werden. In solchen Fällen ermöglicht das Seitenumbruchattribut dem Entwickler, die Ergebnisse sequenziell in Form mehrerer Seiten abzurufen, wobei jede Seite einen Bereich von Datensätzen enthält. Beispielsweise können Sie mit dem Seitenumbruchattribut im Lern-Manager die maximale Anzahl von Datensätzen festlegen, die auf einer Seite angezeigt werden sollen. Außerdem können Sie den Bereichswert von Datensätzen definieren, die auf der Seite angezeigt werden sollen.
+Manchmal wird in der Antwort auf eine API-Anforderung eine lange Liste von Objekten zurückgegeben. In solchen Fällen ermöglicht das Paginierungsattribut dem Entwickler, die Ergebnisse nacheinander in Form mehrerer Seiten abzurufen, wobei jede Seite einen Bereich von Datensätzen enthält. Sie können beispielsweise mit dem Paginierungsattribut in Learning Manager festlegen, wie viele Datensätze maximal auf einer Seite angezeigt werden können. Außerdem können Sie den Bereichswert von Datensätzen definieren, die auf der Seite angezeigt werden sollen.
 
-**Sortieren**
+**Paginierung**
 
-Das Sortieren ist in API-Modellen zulässig. Wählen Sie basierend auf dem Modell die Art der Sortierung aus, die auf die Ergebnisse angewendet werden soll. Die Sortierung kann in aufsteigender oder absteigender Reihenfolge angewendet werden. Wenn Sie beispielsweise `code sort=name`aufsteigend sortiert nach Namen. Wenn Sie `code sort=-name`, es wird absteigend nach Name sortiert. Siehe [JSON-API-Spezifikation für weitere Informationen](http://jsonapi.org/format/#fetching-sorting).
+Die Sortierung ist in API-Modellen zulässig. Wählen Sie basierend auf dem Modell die Art der Sortierung aus, die auf die Ergebnisse angewendet werden soll. Die Sortierung kann in aufsteigender oder absteigender Reihenfolge angewendet werden. Wenn Sie beispielsweise `code sort=name`aufsteigend sortiert nach Namen. Wenn Sie `code sort=-name`, es wird absteigend nach Name sortiert. Siehe [JSON-API-Spezifikation für weitere Informationen](http://jsonapi.org/format/#fetching-sorting).
 
-## Abbildung: API-Verwendung {#samplemodel}
+## Abbildung: Verwendung der API {#samplemodel}
 
 Lassen Sie uns ein Szenario in Betracht ziehen, in dem ein Entwickler den Namen der Kenntnisse, die für die Kenntnisstufe zugewiesenen Höchstpunkte und die vom Teilnehmer für diese Kenntnisse gesammelten Punkte abrufen möchte.
 
-Ein userSkill-Modell in Learning Manager-APIs besteht aus den Standardattributen id, type, dateAchieved, dateCreated, pointsEarned. Wenn ein Entwickler also die GET-Methode verwendet, um Details des userSkill-Modells abzurufen, werden die aktuellen Daten zu den Standardattributen in der Antwortausgabe angezeigt.
+Ein userSkill-Modell in Learning Manager-APIs umfasst standardmäßig die Attribute id, type, dateAchieved, dateCreated und pointsEarned. Wenn ein Entwickler die GET-Methode verwendet, um Details des userSkill-Modells abzurufen, werden die aktuellen Daten für die Standardattribute in der Antwortausgabe angezeigt.
 
-In diesem Szenario möchte der Entwickler jedoch den Namen der Qualifikation und die Punkte der Qualifikationsstufe für den Benutzer abrufen. Mit der Learning Manager-API können Sie mithilfe von Beziehungsfeldern und Include-Parametern auf diese verknüpften Informationen zugreifen. Die verknüpften Modelle für userSkill werden im Beziehungs-Tag abgerufen. Sie können die Details der einzelnen verknüpften Modelle abrufen, indem Sie diese Modelle zusammen mit userSkill aufrufen. Um diese Informationen abzurufen, verwenden Sie **`code include`** Parameter mit durch Punkte (Punkte) getrennten Werten für jedes der zugehörigen Modelle. Sie können Komma als Trennzeichen verwenden, um ein anderes Modell anzufordern, z. B. user include=skillLevel.skill,course
+In diesem Szenario möchte der Entwickler jedoch den Kenntnisnamen und die Punkte des Teilnehmers für eine Kenntnisstufe abrufen. In der Learning Manager-API können Sie auf diese verknüpften Informationen über Beziehungsfelder und Include-Parameter zugreifen. Die verknüpften Modelle für userSkill werden im Beziehungs-Tag abgerufen. Sie können die Details aller verknüpften Modelle abrufen, indem Sie diese Modelle zusammen mit userSkill aufrufen. Um diese Informationen abzurufen, verwenden Sie **`code include`** Parameter mit durch Punkte (Punkte) getrennten Werten für jedes der zugehörigen Modelle. Sie können Komma als Trennzeichen verwenden, um ein anderes Modell anzufordern, z. B. user include=skillLevel.skill,course
 
 **API-Aufruf**
 
 `https://learningmanagerqe1.adobe.com/primeapi/v1/users/%7buserId%7d/userSkills/%7bid%7d?include=skillLevel.skill&fields%5bskill%5d=name&fields%5bskillLevel%5d=maxCredits&fields%5buserSkill%5d=pointsEarned`
 
-Beispielsweise kann userId 746783 werden und userSkills id: 746783_4426_1.
+Beispiel: userId könnte den Wert 746783 annehmen, userSkills id: 746783_4426_1.
 
 **Antwort des API-Aufrufs**
 
@@ -173,11 +173,11 @@ Beispielsweise kann userId 746783 werden und userSkills id: 746783_4426_1.
 
 ## Learning Manager-Modelle {#models}
 
-Mit der Lern-Manager-API können Entwickler auf Lern-Manager-Objekte als RESTful-Ressourcen zugreifen. Jeder API-Endpunkt stellt eine Ressource dar, in der Regel eine Objektinstanz wie ein Abzeichen oder eine Auflistung solcher Objekte. Die Entwickler verwenden dann die HTTP-Verben wie PUT, GET, POST und DELETE, um die CRUD-Vorgänge für diese Objekte (Auflistungen) auszuführen.
+Mit der Learning Manager-API können Entwickler auf Learning Manager-Objekte als RESTful-Ressourcen zugreifen. Jeder API-Endpunkt stellt eine Ressource dar, typischerweise eine Instanz eines Objekts, etwa ein Abzeichen, oder eine Gruppe solcher Objekte. Die Entwickler können dann mithilfe von HTTP-Verben wie PUT, GET, POST und DELETE die CRUD-Operationen für diese Objekte bzw. Gruppen durchführen.
 
 +++V1-API
 
-Das folgende Diagramm stellt die verschiedenen Elemente des Lern-Manager-Objektmodells in der V1-API dar.
+Die folgende Grafik zeigt die verschiedenen Elemente des Learning Manager-Objektmodells in V1 API.
 
 ![](assets/er-diag-primemodels.png)
 
@@ -189,7 +189,7 @@ In der folgenden Tabelle werden verschiedene Elemente des Lern-Manager V1-Objekt
    <td>
     <p><strong>Seriennummer</strong></p></td>
    <td>
-    <p><strong>Lern-Manager-Objekt</strong></p></td>
+    <p><strong>Learning Manager-Objekt</strong></p></td>
    <td>
     <p><strong>Beschreibung</strong></p></td>
   </tr>
@@ -197,57 +197,57 @@ In der folgenden Tabelle werden verschiedene Elemente des Lern-Manager V1-Objekt
    <td>
     <p>1.      </p></td>
    <td>
-    <p>Anwender</p></td>
+    <p>Benutzer</p></td>
    <td>
-    <p>Der Benutzer ist das Schlüsselmodell im Lern-Manager. Benutzer sind in der Regel die internen oder externen Teilnehmer eines Unternehmens, die Lernobjekte nutzen. Sie können jedoch zusammen mit der Teilnehmerrolle einige andere Rollen wie Autor und Manager spielen. Benutzer-ID, Typ und E-Mail sind einige der Inline-Attribute. </p></td>
+    <p>Der Benutzer (user) ist das wichtigste Modell in Learning Manager. Die Benutzer sind typischerweise die internen oder externen Teilnehmer in einer Organisation und nutzen Lernobjekte. Sie können jedoch außer der Teilnehmerrolle auch andere Rollen wie z. B. Autor oder Manager haben. „User id“, „type“ und „email“ gehören zu den Inline-Attributen. </p></td>
   </tr>
   <tr>
    <td>
     <p>2.      </p></td>
    <td>
-    <p>Bahn</p></td>
+    <p>Kurs</p></td>
    <td>
-    <p>Kurs ist eines der Lernobjekte, die im Lern-Manager unterstützt werden und aus einem oder mehreren Modulen bestehen. </p></td>
+    <p>Ein Kurs (course) ist eines der in Learning Manager unterstützten Lernobjekte. Er besteht aus einem oder mehreren Modulen. </p></td>
   </tr>
   <tr>
    <td>
     <p>3.      </p></td>
    <td>
-    <p>Modul</p></td>
+    <p>module</p></td>
    <td>
-    <p>Ein Modul ist ein Baustein zum Erstellen von Lernobjekten im Lern-Manager. Module können vier verschiedene Typen aufweisen, z. B. Klassenzimmer, virtueller Klassenzimmer, Aktivität und Selbststudium. Verwenden Sie dieses Modulmodell, um die Details aller Module in einem Konto abzurufen. </p></td>
+    <p>Ein Modul (module) ist ein Baustein zum Erstellen von Lernobjekten in Learning Manager. Es gibt vier verschiedene Typen von Modulen: wie Klassenzimmer, virtuelles Klassenzimmer, Aktivität und Selbststudium. Verwenden Sie dieses Modulmodell, um Details aller Module in einem Konto abzurufen. </p></td>
   </tr>
   <tr>
    <td>
     <p>4.      </p></td>
    <td>
-    <p>Beglaubigung</p></td>
+    <p>certification</p></td>
    <td>
-    <p>Die Zertifizierung wird Teilnehmern basierend auf dem erfolgreichen Abschluss von Kursen erteilt. Kurse sind in der Anwendung erforderlich, bevor Sie Zertifizierungen verwenden. </p></td>
+    <p>Die Zertifizierung (certification) wird den Teilnehmern nach erfolgreichem Abschluss eines Kurses verliehen. In der Anwendung müssen Kurse vorhanden sein, bevor Sie Zertifizierungen verwenden können. </p></td>
   </tr>
   <tr>
    <td>
     <p>5.      </p></td>
    <td>
-    <p>Lernprogramm</p></td>
+    <p>learning program</p></td>
    <td>
-    <p>Lernprogramme sind individuell gestaltete Kurse, die den spezifischen Lernanforderungen der Benutzer entsprechen. In der Regel werden Lernprogramme verwendet, um Lernziele zu fördern, die sich über einzelne Kurse erstrecken. </p></td>
+    <p>Lernprogramme (learning program) sind speziell entwickelte Kurse für den spezifischen Lernbedarf von Benutzern. In der Regel werden Lernprogramme verwendet, um Lernziele zu erreichen, die mehrere einzelne Kurse umfassen. </p></td>
   </tr>
   <tr>
    <td>
     <p>6.      </p></td>
    <td>
-    <p>Ausweis</p></td>
+    <p>badge</p></td>
    <td>
-    <p>Ein Abzeichen ist ein Leistungsnachweis, den Teilnehmer erhalten, wenn sie bestimmte Meilensteine erreichen, während sie innerhalb eines Kurses fortschreiten. </p></td>
+    <p>Ein Abzeichen (badge) erhalten Teilnehmer als Anerkennung, wenn sie während der Arbeit an einem Kurs bestimmte Meilensteine erreichen. </p></td>
   </tr>
   <tr>
    <td>
     <p>7.      </p></td>
    <td>
-    <p>Fertigkeit</p></td>
+    <p>skill</p></td>
    <td>
-    <p>Das Qualifikationsmodell besteht aus Stufen und Credits. Kenntnisse können von den Teilnehmern nach Abschluss des entsprechenden Kurses erworben werden. </p></td>
+    <p>Das Modell für Kenntnisse (skill) setzt sich aus Stufen und Punktzahlen zusammen. Die Teilnehmer erwerben Kenntnisse durch Abschließen der relevanten Kurse. </p></td>
   </tr>
   <tr>
    <td>
@@ -293,15 +293,15 @@ In der folgenden Tabelle werden verschiedene Elemente des Lern-Manager V1-Objekt
     <p>13.  </p></td>
    <td>learningProgramInstance</td>
    <td>
-    <p>Ein Lernprogramm kann aus mehreren Instanzen bestehen, die ähnliche Eigenschaften eines Lernprogramms annehmen, oder aus benutzerdefinierten Instanzen. </p></td>
+    <p>Ein Lernprogramm kann aus mehreren Instanzen bestehen, die ähnliche Eigenschaften eines Lernprogramms aufnehmen oder benutzerdefiniert sein können. </p></td>
   </tr>
   <tr>
    <td>
     <p>14.  </p></td>
    <td>
-    <p>Arbeitshilfe</p></td>
+    <p>job aid</p></td>
    <td>
-    <p>Die Arbeitshilfe ist ein Lerninhalt, der Teilnehmern ohne Registrierung oder Abschlusskriterien zur Verfügung steht. Sie können Informationen zu Datum, Status, ID sowie zu zugehörigen Modellen wie Version der Arbeitshilfe, Autoren und Kenntnisstand abrufen und aktualisieren. </p></td>
+    <p>Die Arbeitshilfen (job aid) sind Lerninhalte, die Teilnehmern ohne Registrierung oder Abschlusskriterien zur Verfügung stehen. Sie können Informationen zu Aktualisierungsdatum, Status und ID sowie verknüpfte Modelle wie die Version der Arbeitshilfe, Autoren und Kenntnisstufe abrufen. </p></td>
   </tr>
   <tr>
    <td>
@@ -309,7 +309,7 @@ In der folgenden Tabelle werden verschiedene Elemente des Lern-Manager V1-Objekt
    <td>
     <p>jobAidVersion</p></td>
    <td>
-    <p>Der Arbeitshilfe können eine oder mehrere Versionen zugeordnet sein, basierend auf der Anzahl der Überarbeitungen des Inhalts und der Anzahl der Uploads. Dieses Modell enthält Details zu einer einzelnen Arbeitshilfeversion. </p></td>
+    <p>Zu einer Arbeitshilfe können je nach Anzahl der Überarbeitungen ihre Inhalts und der Anzahl der Uploads eine oder mehrere Versionen gehören. Dieses Modell enthält Details einer einzelnen Version der Arbeitshilfe. </p></td>
   </tr>
   <tr>
    <td>
@@ -317,7 +317,7 @@ In der folgenden Tabelle werden verschiedene Elemente des Lern-Manager V1-Objekt
    <td>
     <p>learningProgramInstanceEnrollment</p></td>
    <td>
-    <p>Das Lernprogramm besteht aus einer oder mehreren Instanzen. Teilnehmer können sich für eine Lernprogramminstanz selbst registrieren oder vom Administrator zugewiesen werden. Dieses Modell enthält Details zur Registrierung eines Benutzers für eine einzelne Lernprogramminstanz. </p></td>
+    <p>Ein Lernprogramm besteht aus einer oder mehreren Instanzen. Teilnehmer können sich selbst zu einer Lernprogramminstanz anmelden oder vom Administrator zugewiesen werden. Dieses Modell enthält Details zur Registrierung eines Benutzers für eine einzelne Lernprogramminstanz. </p></td>
   </tr>
   <tr>
    <td>
@@ -325,7 +325,7 @@ In der folgenden Tabelle werden verschiedene Elemente des Lern-Manager V1-Objekt
    <td>
     <p>moduleVersion</p></td>
    <td>
-    <p>Ein Modul kann eine oder mehrere Versionen enthalten, basierend auf den Uploads überarbeiteter Inhalte. Verwenden Sie dieses Modell, um spezifische Informationen zu einer einzelnen Modulversion zu erhalten. </p></td>
+    <p>Für ein Modul können eine oder mehrere Versionen vorhanden sein, je nachdem, wie oft überarbeiteter Inhalt hochgeladen wurde. Verwenden Sie dieses Modell, um spezifische Informationen zu einer einzelnen Modulversion zu erhalten. </p></td>
   </tr>
   <tr>
    <td>
@@ -333,7 +333,7 @@ In der folgenden Tabelle werden verschiedene Elemente des Lern-Manager V1-Objekt
    <td>
     <p>skillLevel</p></td>
    <td>
-    <p>Eine Kenntnisstufe umfasst einen oder mehrere Kurse, die genutzt werden müssen, um eine Stufe zusammen mit den zugehörigen Credits zu erwerben. </p></td>
+    <p>Eine Kenntnisstufe besteht aus einem oder mehreren Kursen, die bearbeitet werden müssen, um die Stufe und die dazugehörige Punktzahl zu erreichen. </p></td>
   </tr>
   <tr>
    <td>
@@ -341,7 +341,7 @@ In der folgenden Tabelle werden verschiedene Elemente des Lern-Manager V1-Objekt
    <td>
     <p>userBadge</p></td>
    <td>
-    <p>UserBadge verknüpft ein einzelnes Abzeichen mit einem einzelnen Benutzer. Es enthält Details wie den Zeitpunkt, zu dem es erreicht wurde, assertionUrl usw. </p></td>
+    <p>UserBadge verbindet ein einzelnes Abzeichen mit einem einzelnen Benutzer. Es enthält Details wie etwa den Zeitpunkt, zu dem es erreicht wurde, assertionUrl usw. </p></td>
   </tr>
   <tr>
    <td>
@@ -365,18 +365,18 @@ Im Folgenden sind die verschiedenen Elemente des Learning Manager-Klassendiagram
 <table>
  <tbody>
   <tr>
-   <th><b>Lern-Manager-Objekt</b></th>
+   <th><b>Learning Manager-Objekt</b></th>
    <th><b>Beschreibung</b></th>
   </tr>
   <tr>
-   <td>Bericht</td>
+   <td>account</td>
    <td>Kapselt die Details eines Learning Manager-Kunden.</td>
   </tr>
   <tr>
    <td><code>
      badge
     </code></td>
-   <td>Ein Abzeichen ist ein Leistungsnachweis, den Teilnehmer erhalten, wenn sie bestimmte Meilensteine erreichen, während sie innerhalb eines Kurses fortschreiten. <br></td>
+   <td>Ein Abzeichen (badge) erhalten Teilnehmer als Anerkennung, wenn sie während der Arbeit an einem Kurs bestimmte Meilensteine erreichen. <br></td>
   </tr>
   <tr>
    <td><code>
@@ -388,11 +388,11 @@ Im Folgenden sind die verschiedenen Elemente des Learning Manager-Klassendiagram
    <td><code>
      user
     </code></td>
-   <td>Der Benutzer ist das Schlüsselmodell im Lern-Manager. Benutzer sind in der Regel die internen oder externen Teilnehmer eines Unternehmens, die Lernobjekte nutzen. Sie können jedoch zusammen mit der Teilnehmerrolle einige andere Rollen wie Autor und Manager spielen. Benutzer-ID, Typ und E-Mail sind einige der Inline-Attribute. </td>
+   <td>Der Benutzer (user) ist das wichtigste Modell in Learning Manager. Die Benutzer sind typischerweise die internen oder externen Teilnehmer in einer Organisation und nutzen Lernobjekte. Sie können jedoch außer der Teilnehmerrolle auch andere Rollen wie z. B. Autor oder Manager haben. „User id“, „type“ und „email“ gehören zu den Inline-Attributen. </td>
   </tr>
   <tr>
-   <td>Hilfsmittel</td>
-   <td>Dies wird verwendet, um jede Inhaltsressource zu modellieren, die ein Modul kapseln möchte. Alle Ressourcen, die in <code>
+   <td>resource</td>
+   <td>Dies wird verwendet, um jede Inhaltsressource zu modellieren, die ein Modul einbeziehen will. Alle Ressourcen, die in <code>
      an
     </code> <code>
      loResource
@@ -415,16 +415,16 @@ Im Folgenden sind die verschiedenen Elemente des Learning Manager-Klassendiagram
     </code> usw. <br></td>
   </tr>
   <tr>
-   <td>Fertigkeit</td>
-   <td>Das Qualifikationsmodell besteht aus Stufen und Credits. Kenntnisse können von den Teilnehmern nach Abschluss des entsprechenden Kurses erworben werden. <br></td>
+   <td>skill</td>
+   <td>Das Modell für Kenntnisse (skill) setzt sich aus Stufen und Punktzahlen zusammen. Die Teilnehmer erwerben Kenntnisse durch Abschließen der relevanten Kurse. <br></td>
   </tr>
   <tr>
    <td>skillLevel</td>
-   <td>Eine Kenntnisstufe umfasst einen oder mehrere Kurse, die genutzt werden müssen, um eine Stufe zusammen mit den zugehörigen Credits zu erwerben. <br></td>
+   <td>Eine Kenntnisstufe besteht aus einem oder mehreren Kursen, die bearbeitet werden müssen, um die Stufe und die dazugehörige Punktzahl zu erreichen. <br></td>
   </tr>
   <tr>
    <td>learningObject</td>
-   <td>Ein Lernobjekt ist eine Abstraktion für verschiedene Arten von Objekten, bei denen sich Benutzer anmelden und von denen sie lernen können. Derzeit verfügt der Lern-Manager über die vier Typen von Lernobjekten - Kurs, Zertifizierung, Lernprogramm <code>
+   <td>Ein Lernobjekt ist ein Abstrakt für verschiedene Arten von Objekten, bei denen sich Benutzer anmelden und von denen sie lernen können. Derzeit verfügt der Lern-Manager über die vier Typen von Lernobjekten - Kurs, Zertifizierung, Lernprogramm <code>
      and
     </code> Arbeitshilfe.<br></td>
   </tr>
@@ -444,7 +444,7 @@ Im Folgenden sind die verschiedenen Elemente des Learning Manager-Klassendiagram
   </tr>
   <tr>
    <td>loResourceGrade<br></td>
-   <td>Dies umfasst das Ergebnis des Benutzers, der eine bestimmte Ressource im Kontext eines Lernobjekts nutzt, bei dem er registriert ist. Es enthält Informationen wie die von <code>
+   <td>Dies umfasst das Ergebnis des Benutzers, der eine bestimmte Ressource im Kontext eines Lernobjekts konsumiert, bei dem er angemeldet ist. Es enthält Informationen wie die von <code>
      user
     </code> in der Ressource den prozentualen Fortschritt des Benutzers, den Status "Bestanden/Nicht bestanden" und die Punktzahl, die der Benutzer in einem zugeordneten Quiz erzielt hat.<br></td>
   </tr>
@@ -456,25 +456,25 @@ Im Folgenden sind die verschiedenen Elemente des Learning Manager-Klassendiagram
   </tr>
   <tr>
    <td>l1FeedbackInfo<br></td>
-   <td>L1-Feedback umfasst die Antworten eines Teilnehmers auf die Feedback-Fragen zu Lernobjekten. In der Regel wird dies erfasst, nachdem der Benutzer ein Lernobjekt abgeschlossen hat, wenn konfiguriert, um ein solches Feedback von Teilnehmern zu erfassen.<br></td>
+   <td>L1 Feedback enthält die Antworten, die von einem Teilnehmer für die Feedbackfragen gegeben werden, die Lernobjekten zugeordnet sind. In der Regel wird dies erfasst, nachdem der Benutzer ein Lernobjekt abgeschlossen hat, wenn konfiguriert, um ein solches Feedback von Teilnehmern zu erfassen.<br></td>
   </tr>
   <tr>
-   <td>Einschreibung<br></td>
-   <td>Diese Abstraktion umfasst die Details der Transaktion, die die Zuweisung eines bestimmten Benutzers zu einer bestimmten Lernobjektinstanz darstellt.<br></td>
+   <td>Registrierung<br></td>
+   <td>Dieses Abstrakt umfasst die Einzelheiten der Transaktion, die die Zuordnung eines bestimmten Benutzers zu einer bestimmten Lernobjektinstanz darstellt.<br></td>
   </tr>
  </tbody>
 </table>
 
 +++
 
-Liste der Objektattribute und Beziehungen.
+Liste der Objektattribute und -beziehungen
 
 +++account
 
 **Attribute**
 dateCreated\
 gamificationEnabled\
-id\
+-ID\
 Gebietsschema\
 loginUrl\
 logoUrl\
@@ -507,7 +507,7 @@ Status
 dateCreated\
 dateUpdated\
 Beschreibung\
-id\
+-ID\
 isDefault\
 isInternallySearchable\
 isListable\
@@ -542,7 +542,7 @@ datePublished\
 dateUpdated\
 effectivenessIndex\
 enrollmentType\
-id\
+-ID\
 imageUrl\
 isExternal\
 isSubLoOrderEnforce\
@@ -568,7 +568,7 @@ additionalResources(resource)
 completeDeadline\
 dateCreated\
 enrollmentCount\
-id\
+-ID\
 isDefault\
 seatLimit\
 Status\
@@ -591,9 +591,9 @@ dateCompleted\
 dateEnrolled\
 dateStarted\
 hasPassed\
-id\
+-ID\
 progressPercent\
-Partitur\
+Ergebnis\
 Status
 
 **Beziehungen**
@@ -609,7 +609,7 @@ loResourceGrades(learningObjectResourceGrade)
 
 **Attribute**
 externalReporting\
-id\
+-ID\
 loResourceType\
 resourceType\
 Version
@@ -630,9 +630,9 @@ dateStarted\
 dateSuccess\
 Dauer\
 hasPassed\
-id\
+-ID\
 progressPercent\
-Partitur
+Ergebnis
 
 **Beziehungen**
 loResource(learningObjectResource)
@@ -643,7 +643,7 @@ loResource(learningObjectResource)
 
 **Attribute**
 Abspann\
-id\
+-ID\
 **Beziehungen**
 learningObject(learningObject)\
 skillLevel(skillLevel)
@@ -677,7 +677,7 @@ downloadUrl\
 extraData\
 hasQuiz\
 hasToc\
-id\
+-ID\
 instructorNames\
 isDefault\
 Gebietsschema\
@@ -694,7 +694,7 @@ seatLimit
 
 **Attribute**
 Beschreibung\
-id\
+-ID\
 name\
 Status
 
@@ -722,13 +722,13 @@ skill(skill)
 avatarUrl\
 Biografie\
 contentLocale\
-email\
+E-Mail\
 Felder\
-id\
+-ID\
 name\
 pointsEarned\
-Profil\
-Rollen\
+profile\
+|||ROLE|||\
 Status\
 timeZoneCode\
 uiLocale
@@ -744,7 +744,7 @@ manager(user)
 **Attribute**
 assertionUrl\
 dateAchieved\
-id\
+-ID\
 modelType
 
 **Beziehungen**
@@ -761,7 +761,7 @@ Bahn\
 courseType\
 dateStart\
 eingeschrieben\
-id\
+-ID\
 Monat\
 Vierteljahr
 
@@ -777,13 +777,13 @@ course(learningObject)
 actionTaken\
 Rinne\
 dateCreated\
-id\
+-ID\
 Nachricht\
 modelIds\
 modelNames\
 modelTypes\
 vorlesen\
-Rolle
+||ROLE||
 
 +++
 
@@ -792,7 +792,7 @@ Rolle
 **Attribute**
 dateAchieved\
 dateCreated\
-id\
+-ID\
 pointsEarned
 
 **Beziehungen**
@@ -807,9 +807,9 @@ user(user)
 
 ## Voraussetzungen {#prerequisites}
 
-Als Entwickler müssen Sie ein Testkonto auf Learning Manager erstellen, damit Sie vollen Zugriff auf alle Rollen in diesem Konto haben. Um eine Anwendung schreiben zu können, muss ein Entwickler einige Benutzer und Kurse erstellen und das Konto in einen angemessenen Zustand versetzen, damit die zu entwickelnde Anwendung auf einige Beispieldaten zugreifen kann.
+Als Entwickler müssen Sie ein Testkonto bei Learning Manager erstellen, damit Sie vollen Zugriff auf alle Rollen in diesem Konto haben. Um eine Anwendung entwickeln zu können, muss ein Entwickler einige Benutzer und Kurse erstellen und das Konto in einen funktionsfähigen Zustand versetzen, damit Beispieldaten vorhanden sind, auf die die zu entwickelnde Anwendung zugreifen kann.
 
-## Client-ID und Geheimnis erstellen {#createclientidandsecret}
+## Client-ID und Secret erstellen {#createclientidandsecret}
 
 1. In **Integrationsadministrator** Anmeldung klicken Sie auf **[!UICONTROL Anwendungen]** im linken Bereich.
 
@@ -823,17 +823,17 @@ Als Entwickler müssen Sie ein Testkonto auf Learning Manager erstellen, damit S
 
    *Registrieren Sie die Anwendung*
 
-   Es ist zwingend erforderlich, alle Felder auf dieser Seite auszufüllen.
+   Alle Felder auf dieser Seite müssen ausgefüllt werden.
 
-   **Anwendungsname**: Geben Sie Ihren Anwendungsnamen ein. Es ist nicht zwingend erforderlich, denselben Anwendungsnamen zu verwenden. Es kann sich um einen beliebigen gültigen Namen handeln.
+   **Anwendungsname**: Geben Sie den Namen Ihrer Anwendung ein. Es ist nicht zwingend erforderlich, denselben Anwendungsnamen zu verwenden. Es kann sich um einen beliebigen gültigen Namen handeln.
 
-   **URL**: Wenn Sie die genaue URL kennen, unter der die Anwendung gehostet wird, können Sie sie erwähnen. Wenn Sie es nicht wissen, können Sie Ihre Unternehmens-URL erwähnen. Ein gültiger URL-Name ist in diesem Feld obligatorisch.
+   **URL**: Wenn Sie die genaue URL kennen, auf der die Anwendung gehostet wird, können Sie sie angeben. Wenn Sie sie nicht kennen, können Sie Ihre Firmen-URL angeben. Ein gültiger URL-Name ist in diesem Feld obligatorisch.
 
-   **Domänen umleiten**: Geben Sie den Domänennamen der Anwendung ein, zu der die Learning Manager-Anwendung nach der OAuth-Authentifizierung umgeleitet werden soll. Sie können hier mehrere URLs erwähnen, Sie müssen jedoch die gültigen URLs verwenden, z. B. `http://google.com`, `http://yahoo.com` usw.
+   **Domänen umleiten**: Geben Sie den Domänennamen der Anwendung ein, zu der die Learning Manager-Anwendung nach der OAuth-Authentifizierung umleiten soll. Sie können hier mehrere URLs erwähnen, Sie müssen jedoch die gültigen URLs verwenden, z. B. `http://google.com`, `http://yahoo.com` usw.
 
    **Beschreibung:** Geben Sie eine kurze Beschreibung für Ihre Anwendung ein.
 
-   **Umfang:** Wählen Sie eine der vier verfügbaren Optionen, um den Umfang der Anwendung zu definieren. Basierend auf Ihrer hier genannten Auswahl sind die Learning Manager-API-Endpunkte für Ihre Anwendung zugänglich. Wenn Sie z. B. **Lesezugriff auf Teilnehmerrolle**&quot; sind alle Teilnehmer-API-Endpunkte des Lern-Managers schreibgeschützt für Ihre Anwendung.
+   **Umfang:** Wählen Sie eine der vier verfügbaren Optionen, um den Umfang der Anwendung zu definieren. Die hier von Ihnen gewählte Option bestimmt, wie Ihre Anwendung auf die Learning Manager-API-Endpunkte zugreifen kann. Wenn Sie z. B. **Lesezugriff auf Teilnehmerrolle**&quot; sind alle Teilnehmer-API-Endpunkte des Lern-Managers schreibgeschützt für Ihre Anwendung.
 
    **Nur für dieses Konto?**\
    **Ja** - Wenn Sie &quot;Ja&quot; wählen, ist die Anwendung für andere Kontoadministratoren nicht sichtbar.\
@@ -841,19 +841,19 @@ Als Entwickler müssen Sie ein Testkonto auf Learning Manager erstellen, damit S
 
    Wenn Sie **Lese- und Schreibzugriff auf Administratorrollen** als Geltungsbereich bei der Registrierung der Anwendung an und wählen Sie **Lesezugriff auf Administratorrolle** Beim Erstellen der APIs können Sie weiterhin Schreibzugriff auf die Anwendung haben, da der Registrierungsbereich der Anwendung den Autorisierungs-Workflow ersetzt.
 
-1. Klicken **[!UICONTROL Registrieren]** rechts oben, nachdem Sie die Details auf der Registrierungsseite ausgefüllt haben.
+1. Klicken Sie oben rechts auf **[!UICONTROL Registrieren]**, nachdem Sie die Details auf der Registrierungsseite ausgefüllt haben.
 
-## Anwendungsentwicklung und -tests {#applicationdevelopmentandtesting}
+## Anwendungsentwicklung und Tests {#applicationdevelopmentandtesting}
 
-Die Learning Manager-API kann von Entwicklern zum Erstellen beliebiger Anwendungen verwendet werden. Entwickler müssen sicherstellen, dass ihre Konten aus einigen gültigen Benutzern und Kursen bestehen. Sie können einige Dummy-Benutzer und -Kurse erstellen und Aktivitäten im Testkonto simulieren, sodass sie die Funktionalität der Anwendung testen können.
+Mithilfe der Learning Manager-API können Entwickler beliebige Anwendungen erstellen. Entwickler müssen sicherstellen, dass ihre Konten aus einigen gültigen Benutzern und Kursen bestehen. Sie können einige Testbenutzer und -kurse erstellen und Aktivitäten im Testkonto simulieren, um die Funktionsfähigkeit der Anwendung zu prüfen.
 
 ## Anwendungsbereitstellung {#applicationdeployment}
 
-Wir empfehlen, dass der Learning Manager-Administrator oder ein Integrationsadministrator für das Produktionskonto die Verantwortung dafür übernimmt, die Anwendung Benutzern in ihrem Unternehmen zur Verfügung zu stellen. Nachdem die Anwendung getestet wurde und als produktionsbereit gilt, informieren Sie den Administrator über das Produktionskonto. Idealerweise möchten die Administratoren eine neue Client-ID und ein neues Client-Secret für die Anwendung im Produktionskonto generieren und die erforderlichen Schritte ausführen, um sie auf sichere Weise in die Anwendung zu integrieren. Das tatsächliche Verfahren für die Bereitstellung von Anwendungen ist von Unternehmen zu Unternehmen unterschiedlich, und der Learning Manager-Administrator Ihres Unternehmens muss die IT-/IS-Abteilung Ihres Unternehmens um Unterstützung bitten, um die Bereitstellung abzuschließen.
+Wir empfehlen, dass der Learning Manager-Administrator oder ein Integrationsadministrator für das Produktionskonto die Verantwortung für die Bereitstellung der Anwendung für die Benutzer im Unternehmen übernimmt. Sobald die Anwendung getestet wurde und als produktionsbereit betrachtet wird, informieren Sie den Administrator bezüglich des Produktionskontos. Im Idealfall entscheiden die Administratoren, im Produktionskonto eine neue Client-ID und ein neues Client-Secret für die Anwendung zu generieren, und führen die nötigen Schritte aus, um sie auf sichere Weise in die Anwendung zu integrieren. In der Praxis ist das Verfahren zum Bereitstellen von Anwendungen in jedem Unternehmen unterschiedlich, und der Learning Manager-Administrator in Ihrem Unternehmen benötigt für die Bereitstellung Unterstützung durch die IT/IS-Abteilung.
 
 ## Genehmigung externer Anwendungen {#externalapplicationapproval}
 
-Sie können externe Anwendungen hinzufügen, indem Sie auf **Genehmigen** in der oberen rechten Ecke des Fensters **Anwendungen** angezeigt. Geben Sie die ID der externen Anwendung an und klicken Sie auf **Speichern.**
+Sie können externe Anwendungen hinzufügen, indem Sie auf **Genehmigen** in der oberen rechten Ecke des Fensters **Anwendungen** angezeigt. Geben Sie die ID der externen Anwendung an und klicken Sie auf **Speichern**.
 
 ![](assets/add-external-application.png)
 
@@ -863,5 +863,5 @@ Sie können externe Anwendungen hinzufügen, indem Sie auf **Genehmigen** in der
 
 +++Verfügt Learning Manager über eine E-Commerce-Integration?
 
-Adobe Learning Manager verfügt nicht über eine E-Commerce-Integration. Wir bieten jedoch APIs an, damit Sie Ihr eigenes Headless LMS erstellen und E-Commerce-Funktionen implementieren können.
+Adobe Learning Manager verfügt über keine E-Commerce-Integration. Wir bieten jedoch APIs an, damit Sie Ihr eigenes Headless-LMS erstellen und E-Commerce-Funktionen implementieren können.
 +++

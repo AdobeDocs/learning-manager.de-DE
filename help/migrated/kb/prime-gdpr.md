@@ -1,26 +1,26 @@
 ---
 jcr-language: en_us
-title: Learning Manager - Konformität mit der DSGVO
+title: Learning Manager – Konformität mit der DSGVO
 description: Adobe Learning Manager-Konformität mit der DSGVO
 contentowner: dvenkate
 source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
 workflow-type: tm+mt
 source-wordcount: '581'
-ht-degree: 0%
+ht-degree: 39%
 
 ---
 
 
 
-# Learning Manager - Konformität mit der DSGVO
+# Learning Manager – Konformität mit der DSGVO
 
 >[!IMPORTANT]
 >
->Der Inhalt dieses Dokuments ist keine Rechtsberatung und soll keine Rechtsberatung ersetzen. Für Hinweise zur DSGVO wenden Sie sich bitte an die Rechtsabteilung Ihres Unternehmens.
+>Der Inhalt dieses Dokuments ist keine Rechtsberatung und soll keine Rechtsberatung ersetzen. Bitte wenden Sie sich an die Rechtsabteilung Ihres Unternehmens bezüglich Beratung zur DS-GVO.
 
 +++Was ist die DSGVO?
 
-Die DSGVO ist eine neue Verordnung der Europäischen Union, die am 25. Mai 2018 in Kraft tritt. Sie bietet eine umfassende Kontrolle über den Datenschutz und ermöglicht es Endbenutzern, die Verantwortung für ihre eigenen personenbezogenen Daten zu übernehmen.
+Die DSGVO ist eine neue Verordnung der Europäischen Union, die am 25. Mai 2018 in Kraft tritt. Sie bietet eine starke Datenschutzkontrolle und ermöglicht es den Endbenutzern, ihre personenbezogenen Daten zu verwalten.
 
 +++
 
@@ -40,15 +40,15 @@ Unternehmen, die Daten im Auftrag von Datenverantwortlichen verarbeiten, werden 
 
 +++Wie unterstützt Learning Manager Sie bei der Einhaltung der DSGVO?
 
-Learning Manager verfügt über die folgenden Tools und Prozesse, die Sie bei der Einhaltung der DSGVO unterstützen. Um Prozesse zu unterstützen, die über die vollständige Konformität des Produkts mit der Verordnung hinausgehen, müssen Sie möglicherweise trotzdem mit Ihrem Compliance-Team eine Bewertung vornehmen.
+Learning Manager verfügt über die folgenden Tools und Prozesse, die Sie bei der Einhaltung der DS-GVO unterstützen. Um Prozesse zu unterstützen, die über die vollständige Konformität des Produkts mit der Verordnung hinausgehen, müssen Sie möglicherweise trotzdem mit Ihrem Compliance-Team eine Bewertung vornehmen.
 
-**Das Recht auf Vergessenwerden - in Bezug auf den Datenverantwortlichen:** Laut DSGVO müssen Datenverantwortliche eine Funktion für das Recht auf Vergessenwerden unterstützen, die ihren Benutzern zur Verfügung steht. Dies bedeutet, dass jeder Benutzer das Recht hat, den für die Verarbeitung Verantwortlichen aufzufordern, alle für diesen Benutzer gespeicherten personenbezogenen Daten unwiderruflich zu löschen. Wenn Sie eine solche Anforderung erhalten und die Anfrage als gültig bewerten, wird diese Funktion jetzt im Lern-Manager über die [Benutzer bereinigen](../administrators/feature-summary/purge-users.md) -Funktionalität. Mit dieser Funktion kann der Administrator auf Anfrage der Einzelpersonen eine permanente Löschung aller Daten in Bezug auf eine bestimmte Person initiieren. Anschließend löscht Learning Manager die Daten sofort unwiderruflich aus seiner Datenbank und bereinigt außerdem automatisch die Backup-Protokolle (die für die Wiederherstellung des Systems vorgesehen sind).
+**Das Recht auf Vergessenwerden - in Bezug auf den Datenverantwortlichen:** Laut DSGVO müssen Datenverantwortliche eine Funktion für das Recht auf Vergessenwerden unterstützen, die ihren Benutzern zur Verfügung steht. Dies bedeutet, dass jeder Benutzer das Recht hat, den für die Verarbeitung Verantwortlichen aufzufordern, alle für diesen Benutzer gespeicherten personenbezogenen Daten unwiderruflich zu löschen. Wenn Sie eine solche Anfrage erhalten und deren Gültigkeit bestätigen, wird diese Funktion nun in Learning Manager über die Funktion [Benutzer bereinigen](../administrators/feature-summary/purge-users.md) bereitgestellt. Mit dieser Funktion kann der Administrator ein permanentes Löschen der mit einer bestimmten Person in Verbindung stehenden Daten veranlassen, sodass Learning Manager die Daten umgehend aus der zugehörigen Datenbank löscht. Die Bereinigung der Sicherungsprotokolle (die zur Wiederherstellung des Systems dienen) erfolgt ebenfalls automatisch.
 
-**Das Recht auf Vergessenwerden - in Bezug auf den Datenverarbeiter:** Der Endbenutzer kann sich auch unabhängig an das Adobe wenden, um seine personenbezogenen Daten zu löschen. In diesem Fall erkennt der Lern-Manager automatisch, welche Konten Eigentümer der persönlichen Informationen für diesen Benutzer sind, und der Adobe benachrichtigt den Administrator sofort über eine solche Anforderung. Der Administrator kann dann die Gültigkeit der Anforderung bewerten und die Anforderung über die Funktion &quot;Benutzer bereinigen&quot; anrufen.
+**Recht auf Vergessen - Kontaktieren des Datenverarbeiters**: Der Endbenutzer kann auch selbst Adobe kontaktieren, um seine personenbezogenen Daten zu löschen. In diesem Fall erkennt Learning Manager automatisch, welche Konten die Daten für diesen Benutzer besitzen, und Adobe benachrichtigt den Administrator sofort über eine solche Anfrage. Der Administrator kann dann die Gültigkeit der Anforderung bewerten und die Anforderung über die Funktion &quot;Benutzer bereinigen&quot; anrufen.
 
 **Auskunftsrecht:** Die DSGVO gibt dem Endbenutzer das Recht, Daten anzufordern, die ein Datenverantwortlicher möglicherweise für diesen Endbenutzer gespeichert hat. Um diese Anforderung zu unterstützen, ermöglicht der Lern-Manager dem Administrator, selbst ein Teilnehmertranskript zu generieren, das dem Benutzer freigegeben werden kann.
 
-**Datenschutz durch Design, Datenverschlüsselung:** Wir verarbeiten Daten sowohl während der Übertragung als auch im Ruhezustand mithilfe erstklassiger Verschlüsselungsstandards, um die Datensicherheit zu gewährleisten. Als Verschlüsselungsalgorithmen werden SHA-256 verwendet. Dies stellt sicher, dass alle von Ihnen gespeicherten Daten angemessen geschützt sind, sodass sie nicht in die falschen Hände geraten.
+**Datenschutz durch Design, Datenverschlüsselung:** Wir verarbeiten Daten sowohl während der Übertragung als auch im Ruhezustand mithilfe erstklassiger Verschlüsselungsstandards, um die Datensicherheit zu gewährleisten. Als Verschlüsselungsalgorithmen werden SHA-256 verwendet. Dies stellt sicher, dass alle Daten, die Sie speichern, ausreichend geschützt sind, damit sie nicht in falsche Hände geraten.
 
 +++
 

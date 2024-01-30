@@ -1,65 +1,65 @@
 ---
-description: Administratoren können eine Sitzung starten, bei der sie anstelle eines anderen Benutzers in ihrem Konto eine Anmeldung in ihren Teilnehmer- und Managerrollen vornehmen können.
+description: Administratoren können eine Sitzung starten, in der sie die Identität eines beliebigen Benutzers in ihrem Konto in der Teilnehmer- und Manager-Rolle übernehmen können.
 jcr-language: en_us
-title: Identitätswechsel des Teilnehmers und Managers
+title: Annehmen der Identität eines Teilnehmers und Managers
 contentowner: saghosh
 source-git-commit: d59e748472c77527c22b286aea5412f776f6441b
 workflow-type: tm+mt
 source-wordcount: '538'
-ht-degree: 0%
+ht-degree: 71%
 
 ---
 
 
 
-# Identitätswechsel des Teilnehmers und Managers {#impersonation-of-learner-and-manager}
+# Annehmen der Identität eines Teilnehmers und Managers {#impersonation-of-learner-and-manager}
 
 In großen Unternehmen benötigen Mitarbeiter des Kunden-Supports Identitätswechsel, um Probleme der Teilnehmer zu beheben.
 
 Mit dieser Möglichkeit, die Identität anderer Benutzer anzunehmen, können Administratoren und benutzerdefinierte Administratoren alle Aktivitäten von Teilnehmern und Managern ihres Unternehmens identifizieren und ausführen.
 
-## Und so funktioniert&#39;s
+## Funktionsweise
 
-Administratoren (und/oder benutzerdefinierte Administratoren) können nach einem Benutzer suchen (intern oder extern) und dann die Identität eines Benutzers annehmen. Der Administrator wird dann zur Seite des Benutzers (Manager-App, falls zutreffend, oder zur Teilnehmer-App) umgeleitet und meldet den Administrator dann von seiner Sitzung ab. Der Administrator wird dann zur Seite Profil abschließen weitergeleitet, falls diese für den Benutzer eingerichtet wurde, für den der Administrator die Identität eines anderen Administrators übernommen hat.
+Administratoren (und/oder benutzerdefinierte Administratoren) können nach einem Benutzer suchen (intern oder extern) und dann die Identität eines Benutzers annehmen. Der Administrator wird dann zur Seite des Benutzers (Manager-App, falls zutreffend, ansonsten Teilnehmer-App) umgeleitet und von seiner eigenen Sitzung abgemeldet. Der Administrator wird dann zur Seite „Profil abschließen“ weitergeleitet, falls diese für den Benutzer eingerichtet wurde, dessen Identität der Administrator übernommen hat.
 
 Wenn ein benutzerdefinierter Administrator über die Berechtigung verfügt, auf die Seite eines Benutzers zuzugreifen, kann er nach Benutzern suchen, für die er sich ausgeben möchte.
 
 Das müssen Sie beim Nachahmen der Identität eines Benutzers beachten:
 
-* Alle Administratoren sehen diese Funktion standardmäßig.
-* Nur aktive Benutzer im Konto können die Identität annehmen.
-* Ein Administrator kann sich nicht selbst als Administrator ausgeben.
-* Ein benutzerdefinierter Administrator, der Zugriff auf die Seite &quot;Benutzer&quot; hat, kann die Identität eines Benutzers annehmen.
+* Diese Funktion wird allen Administratoren standardmäßig angezeigt.
+* Es kann nur die Identität von aktiven Benutzern im Konto angenommen werden.
+* Ein Administrator kann nicht seine eigene Identität annehmen.
+* Ein benutzerdefinierter Administrator, der über Zugriff auf die Seite „Benutzer“ verfügt, kann die Identität eines Benutzers annehmen.
 * Ein Administrator/benutzerdefinierter Administrator kann die Identität nur 60 Minuten lang annehmen.
 
-## Die Identität eines Benutzers annehmen
+## Annehmen der Identität eines Benutzers
 
-Um die Identität eines Benutzers zu übernehmen, führen Sie die folgenden Schritte aus:
+Um die Identität eines Benutzers anzunehmen, gehen Sie wie folgt vor:
 
 1. Melden Sie sich bei der App als Administrator an.
 1. Wählen Sie Profil > Identität eines Benutzers annehmen.
 
    Sie können jeweils nur die Identität eines Benutzers annehmen.
 
-1. Suchen Sie im Suchfeld des Modals nach einem Benutzer (intern/extern). Sie können jeweils nur die Identität eines Benutzers annehmen. Wählen Sie Fortfahren.
+1. Suchen Sie im Suchfeld des modalen Fensters nach einem Benutzer (intern/extern). Sie können nur die Identität von jeweils einem Benutzer annehmen. Wählen Sie „Fortfahren“.
 
    Sie können auch mit Benutzer-E-Mail, UUID usw. suchen.
 
 1. Es wird eine Meldung mit der Bestätigung angezeigt, dass Sie die Identität eines Benutzers annehmen.
 
-   Wählen Sie Fortfahren.
+   Wählen Sie „Fortfahren“.
 
    Eine Bestätigungsmeldung mit dem Titel &quot;Identitätswechsel-Modus: Sie sind als &quot;Benutzername (Benutzer-E-Mail-Adresse)&quot; angemeldet. &quot;Abmelden&quot; wird in der Kopfzeile der Seite angezeigt.
 
 **Eine imitierte Sitzung dauert 60 Minuten.**
 
-Beim Wechsel zu einer Teilnehmer- oder Managerrolle wird eine Meldung angezeigt, die darauf hinweist, dass sich der Administrator/benutzerdefinierte Administrator in einem Identitätswechselmodus des Benutzers befindet.
+Beim Wechsel zu einer Teilnehmer- oder Manager-Rolle wird eine Meldung angezeigt, die darauf hinweist, dass sich der Administrator/benutzerdefinierte Administrator in einem Identitätswechselmodus für den Benutzer befindet.
 
 ## Anmelde- und Zugriffsbericht
 
-Die Anmeldung und der Zugriff eines Administrators werden im Anmelde- und Zugriffsbericht erfasst. Für jeden Benutzer, für den der Administrator die Identität eines Benutzers annehmen kann, wird im Bericht ein Datensatz erstellt.
+Die Anmeldung und der Zugriff eines Administrators werden im Anmelde- und Zugriffsbericht erfasst. Für jeden Benutzer, dessen Identität der Administrator annimmt, wird im Bericht ein Eintrag erstellt.
 
-Die Spalten, die Teil dieser Funktion sind:
+Folgende Spalten gehören zu dieser Funktion:
 
 * Identitätswechsel durch Benutzername
 * Identitätswechsel durch Benutzer-E-Mail
@@ -68,12 +68,12 @@ Diese Spalten werden am Ende des Berichts hinzugefügt.
 
 Jede Anmeldung wird im Bericht separat gezählt.
 
-## Was nicht unterstützt wird
+## Nicht unterstützte Vorgänge
 
-* Die Identität von AEM Komponenten.
-* Identitätswechsel in der Mobile App.
-* Immersive Imitation für Mobilgeräte.
-* Imitation von immersiven Apps. Sie gilt nur für ALM-Apps.
+* Annahme der Identität von AEM-Komponenten.
+* Identitätswechsel in der mobilen App.
+* Identitätswechsel in der immersiven Umgebung für Mobilgeräte.
+* Annahme der Identität immersiver Apps. Gilt nur für ALM-Apps.
 
 ## Häufig gestellte Fragen
 
@@ -89,5 +89,5 @@ Ja, jeder Anmeldezugriff/Besuch durch den Administrator während des Identitäts
 
 +++Was ist das Zeitlimit für Identitätswechsel?
 
-Es sind 60 Minuten. Wenn ein Benutzer, der die Identität annehmen möchte, das Browser-Fenster schließt und dann innerhalb von 60 Minuten zu einer beliebigen Prime-URL navigiert, wird die Identitätswechselaktivität fortgesetzt und die Banner-Meldung muss angezeigt werden.
+60 Minuten. Wenn ein Benutzer, der eine andere Identität annimmt, das Browser-Fenster schließt und dann innerhalb von 60 Minuten zu einer beliebigen Prime-URL navigiert, wird die Identitätswechselaktivität fortgesetzt und die Banner-Meldung muss angezeigt werden.
 +++

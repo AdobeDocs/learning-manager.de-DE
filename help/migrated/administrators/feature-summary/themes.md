@@ -1,12 +1,12 @@
 ---
-description: Farbthemen und Branding im Learning Manager
+description: Farbdesigns und Branding in Learning Manager
 jcr-language: en_us
 title: Farbdesigns
 contentowner: jayakarr
 source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
 workflow-type: tm+mt
 source-wordcount: '844'
-ht-degree: 0%
+ht-degree: 63%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Farbdesigns
 
-Farbthemen und Branding im Learning Manager
+Farbdesigns und Branding in Learning Manager
 
-Mit Learning Manager können Sie das Erscheinungsbild der Anwendung ändern, um sie mit dem Branding Ihres Unternehmens in Einklang zu bringen.
+Mit Learning Manager können Sie das Aussehen der Anwendung ändern, um sie dem Branding Ihres Unternehmens anzupassen.
 
 ## Branding {#branding}
 
@@ -26,13 +26,13 @@ Klicken **[!UICONTROL Branding]** im linken Bereich, um Ihren Organisationsnamen
 
 Klicken **[!UICONTROL Bearbeiten]** , um das Erscheinungsbild Ihres Logos und Firmennamens in der Learning Manager-Anwendung festzulegen.
 
-Klicken **[!UICONTROL Neues Logo hochladen]** und wählen Sie das Logo von Ihrem Computer, das Sie hochladen möchten. Sie können das Erscheinungsbild des Logos und den Unternehmensnamen unten in der Vorschau anzeigen. Wählen Sie den Kopfzeilenstil und klicken Sie auf **[!UICONTROL Speichern]**.
+Klicken Sie auf **[!UICONTROL Neues Logo hochladen]** und wählen Sie das Logo von Ihrem Computer. Sie können das Erscheinungsbild des Logos und den Unternehmensnamen nachstehend in der Vorschau anzeigen. Wählen Sie den Kopfzeilenstil und klicken Sie auf **[!UICONTROL Speichern]**.
 
 ## Designs {#themes}
 
-Ein Satz von fünf repräsentativen Bildern wird bereitgestellt, um Ihre Farbdesignänderungen in der Vorschau anzuzeigen, bevor Sie sie auf Ihre Anwendung anwenden. Durchsuchen Sie diese Bilder, indem Sie auf die Symbole &lt; und > auf der linken bzw. rechten Seite der Bilder klicken, um eine Vorschau anzuzeigen. Alternativ können Sie auch auf die Navigationskreise am unteren Rand dieser Bilder klicken, um den Satz von Vorschaumomentaufnahmen zu durchsuchen.
+Ein Set mit fünf repräsentativen Bildern wird bereitgestellt, um Ihre Farbdesignänderungen in der Vorschau anzuzeigen, bevor Sie sie in Ihre Anwendung übernehmen. Navigieren Sie durch diese Bilder, indem Sie auf die Symbole &lt; und > auf der rechten Seite der Bilder klicken, um sie in der Vorschau anzuzeigen. Alternativ dazu können Sie auch mit der rechten Maustaste auf die Navigationskreise am unteren Rand dieser Bilder klicken, um den Satz von Vorschaumomentaufnahmen zu durchsuchen.
 
-**Design auswählen**
+**Wählen Sie ein Design aus** 
 
 Klicken Sie auf **[!UICONTROL Hinweise anzeigen]** unterhalb dieses Abschnitts, um die Hinweise auf dem Bild wie unten gezeigt anzuzeigen.
 
@@ -43,11 +43,11 @@ Klicken Sie auf **[!UICONTROL Hinweise anzeigen]** unterhalb dieses Abschnitts, 
 Die Lern-Manager-Anwendung bietet fünf Farbdesignoptionen für ihre Benutzer:
 
 * Prime-Standard
-* Kieselsteine
+* Kieselseine
 * Fasching
 * Herbst
 * Winterhimmel
-* lebhaft
+* Lebhaft
 
 ![](assets/prime-customize-theme.png)
 
@@ -57,25 +57,25 @@ Sie können die Farbe der oberen Leiste, die Akzentfarbe (z. B. Symbolfarbe im l
 
 Im Dialogfeld &quot; **[!UICONTROL Primärfarbe]** können Sie die Farbe auswählen, die für die immersive Benutzeroberfläche verwendet wird.
 
-Wählen Sie zum Anpassen den Designtyp im linken Bereich aus und klicken Sie auf die Quadrate neben der Markenfarbe und Seitenleistensymbolfarben. Klicken Sie in der Seitenleistenhelligkeit auf die Seitenleiste, ziehen Sie den Regler vorwärts oder rückwärts, um die Helligkeit anzupassen. Sehen Sie sich die Vorschau in den oben genannten Bildern an, wenn Sie diese Optionen ändern.
+Für die Anpassung wählen Sie den Designtyp im linken Bereich aus und klicken Sie auf die Quadrate neben der Markenfarbe und Seitenleistensymbolfarben. Klicken Sie in der Seitenleiste auf Seitenleistenhelligkeit, ziehen Sie den Regler vorwärts oder rückwärts, um die Helligkeit anzupassen. Sehen Sie sich die Vorschau in den oben genannten Bildern an, wenn Sie diese Optionen ändern.
 
 Klicken **[!UICONTROL Design zurücksetzen]** , um die ursprünglichen Einstellungen des Designs wiederherzustellen. Klicken **[!UICONTROL Speichern]** nach Abschluss der Änderungen.
 
-**Live-Vorschau**
+**Live-Vorschau** 
 
-Klicken **[!UICONTROL Live-Vorschau]** in der linken unteren Ecke des Designabschnitts. Ein Popupfenster wird wie folgt angezeigt:
+Klicken Sie auf die **[!UICONTROL Live-Vorschau]** in der unteren linken Ecke des Designabschnitts. Ein Popupfenster wird wie folgt angezeigt:
 
 ![](assets/live-theme-preview.png)
 
 *Das Popupmenü &quot;Live-Vorschau&quot;*
 
-Wählen Sie das gewünschte Design aus der Dropdownliste aus, passen Sie die Einstellungen an und klicken Sie auf **[!UICONTROL Vorschau]** , um die Änderungen anzuzeigen, die in Ihrer Anwendung live sind. Jetzt können Sie alle Funktionen der Anwendung ausführen und die Änderungen ansehen. Sie können auch Ihre Rollen ändern, wenn Sie durch die Live-Vorschau navigieren. Wenn Sie mit den Änderungen zufrieden sind, können Sie zur Live-Designvorschau zurückkehren und auf **[!UICONTROL Design anwenden]**.
+Wählen Sie das gewünschte Design aus der Dropdownliste aus, passen Sie die Einstellungen an und klicken Sie auf **[!UICONTROL Vorschau]**, um die Änderungen anzuzeigen, die in Ihrer Anwendung live sind. Jetzt können Sie alle Funktionen der Anwendung ausführen und die Änderungen ansehen. Sie können auch Ihre Rollen ändern, wenn Sie durch die Live-Vorschau navigieren. Wenn Sie mit den Änderungen zufrieden sind, können Sie zur Live-Designvorschau zurückkehren und auf **[!UICONTROL Design anwenden]**.
 
-Während Sie die Änderungen in der Vorschau live anzeigen, wird das Popupmenü &quot;Live-Designvorschau&quot; immer noch am unteren Rand des Bildschirms angezeigt. Sie können das Popup-Fenster minimieren.
+Während Sie die Änderungen in der Vorschau live anzeigen, wird das Popupmenü „Live-Design-Vorschau“ immer noch am unteren Fensterrand angezeigt. Sie können das Popupmenü minimieren.
 
 ## Konto anpassen {#customize}
 
-Mit dem Adobe Learning Manager können Sie Ihr Konto anpassen, um eine verbesserte Benutzererfahrung zu bieten.
+Mit Adobe Learning Manager können Sie Ihr Konto anpassen, um ein besseres Benutzererlebnis zu bieten.
 
 In der folgenden Liste werden die Komponenten angezeigt, die angepasst werden können. Wenden Sie sich zum Anpassen des Kontos an den Lern-Manager  [Stütze](mailto:captivateprimesupport@adobe.com).
 
@@ -89,7 +89,7 @@ In der folgenden Liste werden die Komponenten angezeigt, die angepasst werden k�
   </tr>
   <tr>
    <td>
-    <p>Farben der Schulungskarte anpassen</p></td>
+    <p>Passen Sie die Farben der Schulungskarten an</p></td>
    <td>
     <p> </p>
     <ul>
@@ -132,7 +132,7 @@ In der folgenden Liste werden die Komponenten angezeigt, die angepasst werden k�
     <p>Hintergrundbild</p></td>
    <td>
     <p>Ein Hintergrundbild ist nur in der Teilnehmerrolle sichtbar. </p>
-    <p>Sie müssen über das Bild verfügen, das Sie auf den Hintergrund des Teilnehmers anwenden müssen.</p>
+    <p>Sie benötigen das Bild, das Sie auf den Hintergrund des Teilnehmers anwenden müssen.</p>
     <ul>
      <li><b>Empfohlenes Bildformat:</b> PNG, JPG, JPEG</li>
      <li><b>Empfohlene Größe: </b>1400 x 908 px</li>
@@ -153,29 +153,29 @@ Im Fenster &quot; **Allgemein** &quot; haben Sie die folgenden Optionen:
    <td>
     <p>Startseite für Teilnehmer</p></td>
    <td>
-    <p>Wählen Sie eine der beiden <strong>Klassisch </strong>oder <strong>Immersiv</strong>. Wenn Sie "Immersiv" wählen, werden andere Optionen angezeigt.</p></td>
+    <p>Wählen Sie entweder <strong>Klassisch </strong>oder <strong>Immersiv</strong>. Wenn Sie „Immersiv“ wählen, werden andere Optionen angezeigt.</p></td>
   </tr>
   <tr>
    <td>
     <p>Schulungstyp<br></p></td>
    <td>
-    <p>Wählen Sie eine der beiden <strong>Benutzerdefiniert </strong>oder <strong>Branchenspezifisch</strong>. Wenn weniger als 1000 Teilnehmer vorhanden sind, wird das gesamte Konto als ein einziger Bereich betrachtet. Die Empfehlung basiert auf allen Teilnehmern.<br></p></td>
+    <p>Wählen Sie entweder <strong>Benutzerdefiniert </strong>oder <strong>Branchenspezifisch</strong>. Bei weniger als 1.000 Teilnehmern wird das gesamte Konto als ein einziger Bereich betrachtet. Die Empfehlung basiert auf allen Teilnehmern.<br></p></td>
   </tr>
   <tr>
    <td>
     <p>Einstellung des Empfehlungsumfangs<br></p></td>
    <td>
-    <p>Wählen Sie mindestens ein aktives Feld aus. Für <strong>Benutzerdefiniert</strong>können Sie maximal ein aktives Feld auswählen. Für <strong>Branchenspezifisch</strong>können Sie maximal fünf aktive Felder auswählen.<br></p></td>
+    <p>Wählen Sie mindestens ein aktives Feld aus. Für <strong>Benutzerdefiniert</strong> können Sie maximal ein aktives Feld auswählen. Für <strong>Branchenspezifisch</strong>können Sie maximal fünf aktive Felder auswählen.<br></p></td>
   </tr>
   <tr>
    <td>
     <p>Teilnehmern das Erkunden von Interessensbereichen ermöglichen</p></td>
    <td>
-    <p>Nur für klassische Benutzeroberfläche. Auswählen <strong>Ja </strong>oder <strong>Nein</strong>.<br></p></td>
+    <p>Nur für klassisches Benutzeroberfläche. Auswählen <strong>Ja </strong>oder <strong>Nein</strong>.<br></p></td>
   </tr>
   <tr>
    <td>
-    <p>Benutzer auffordern, Interessensbereiche (Kenntnisse) auszuwählen <br></p></td>
+    <p>Benutzer zum Auswählen von Interessenbereichen (Kenntnissen) auffordern <br></p></td>
    <td>
     <p>Nur für immersive Benutzeroberfläche. Auswählen <strong>Ja</strong> oder <strong>Nein</strong>. </p></td>
   </tr>

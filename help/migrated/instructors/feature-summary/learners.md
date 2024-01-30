@@ -1,12 +1,12 @@
 ---
-description: Lesen Sie diesen Artikel, um zu erfahren, wie Sie die Teilnehmer verwalten, E-Mails zum Kurs senden und Erinnerungen für Ihre Sitzungen senden.
+description: Lesen Sie den folgenden Artikel, um zu erfahren, wie Sie die Teilnehmer verwalten, kursbezogene E-Mail senden und Erinnerungen für Sitzungen senden können.
 jcr-language: en_us
 title: Verwalten der Teilnehmer für Ihre Sitzung
 contentowner: shhivkum
 source-git-commit: c4ea252656bfbe86a0d69ffdb21dba46783d5848
 workflow-type: tm+mt
 source-wordcount: '925'
-ht-degree: 0%
+ht-degree: 91%
 
 ---
 
@@ -14,97 +14,97 @@ ht-degree: 0%
 
 # Verwalten der Teilnehmer für Ihre Sitzung
 
-Lesen Sie diesen Artikel, um zu erfahren, wie Sie die Teilnehmer verwalten, E-Mails zum Kurs senden und Erinnerungen für Ihre Sitzungen senden.
+Lesen Sie den folgenden Artikel, um zu erfahren, wie Sie die Teilnehmer verwalten, kursbezogene E-Mail senden und Erinnerungen für Sitzungen senden können.
 
-## Sitzungen oder Module mit ausstehenden Überprüfungen anzeigen {#pending}
+## Siehe Sitzungen oder Module mit ausstehenden Überprüfungen {#pending}
 
 Als Kursleiter können Sie die Sitzungen oder Module mit ausstehenden Überprüfungen anzeigen.
 
 Auf der Seite &quot;Sessions/Module&quot; wird eine Spalte angezeigt **Ausstehende Überprüfungen** , der die Anzahl der ausstehenden Überprüfungen für die entsprechende Sitzung/Aktivität anzeigt.
 
-## Warteliste für Ihre Sitzung verwalten {#managewaitlistforyoursession}
+## Verwalten der Warteliste für die Sitzung {#managewaitlistforyoursession}
 
-Wenn sich die Teilnehmer für Ihr Modul registrieren, können Sie den aktuellen Status der Registrierung und Warteliste auf der Seite Warteliste sehen.
+Wenn sich die Teilnehmer für Ihr Modul anmelden, können Sie den aktuellen Status der Einschreibung und die Warteliste auf der Seite „Warteliste“ sehen.
 
-1. Wählen Sie in der Kursleiter-App im linken Navigationsbereich Bevorstehende Sitzungen > Warteliste aus.
+1. Wählen Sie in der Kursleiter-App im linken Navigationsbereich „Geplante Sitzungen“ > „Warteliste“.
 
-   Sie können die maximale Anzahl von Lizenzen, die Anzahl der derzeit besetzten Plätze und die Anzahl der freien Plätze anzeigen. In einer Tabelle werden auch die Teilnehmer aufgeführt, die auf die Warteliste gesetzt wurden. Diese Spalte ist leer, wenn keine Warteschlangen auf der Warteliste vorhanden sind.
+   Sie können die maximale Anzahl von Lizenzen, die Anzahl der Lizenzen, die gerade verwendet werden und die freien Lizenzen sehen. In der Tabelle werden außerdem Teilnehmer aufgeführt, die sich auf der Warteliste befinden. Sie ist leer, wenn es keine Warteschlangen auf der Warteliste gibt.
 
    ![](assets/waitlist.png)
    *Teilnehmer auf Warteliste anzeigen*
 
-1. Wählen Sie in der Warteliste-Tabelle den oder die Teilnehmer aus, den bzw. die Sie bestätigen möchten.
-1. Wählen Sie Aktionen > Teilnehmer bestätigen.
+1. Wählen Sie in der Warteliste-Tabelle den/die Teilnehmer, den/die Sie bestätigten möchten.
+1. Wählen Sie „Aktionen“ > „Teilnehmer bestätigen“.
 
-   Die Teilnehmer, die Sie bestätigt haben, werden der Liste Bestätigte Teilnehmer hinzugefügt.
+   Die Teilnehmer, die Sie bestätigt haben, werden der Liste „Bestätigte Teilnehmer“ hinzugefügt.
 
-Kursleiter haben die Möglichkeit, die Registrierung von Teilnehmern für Sitzungen aufzuheben. Dadurch wird auch die Registrierung für die entsprechenden Lernaktivitäten aufgehoben. Auswählen **[!UICONTROL Warteliste]** &quot; ändern. Wählen Sie mithilfe des Kontrollkästchens die Teilnehmer aus, deren Registrierung aufgehoben werden soll. Um die Registrierung aufzuheben, wählen Sie **[!UICONTROL Aktionen]** > **[!UICONTROL Registrierung von Teilnehmern aufheben]**.
+Kursleiter haben die Möglichkeit, die Registrierung von Teilnehmern für Sitzungen aufzuheben. Dadurch wird auch die Registrierung bei den dazugehörigen Lernprogrammen aufgehoben. Wählen Sie die Registerkarte **[!UICONTROL Warteliste]**. Wählen Sie mithilfe der Kontrollkästchen die Teilnehmer aus, deren Registrierung aufgehoben werden soll. Um die Registrierung aufzuheben, wählen Sie **[!UICONTROL Aktionen]** > **[!UICONTROL Registrierung von Teilnehmern aufheben]**.
 
 ![](assets/unenroll-learners.png)
 *Registrierung der Teilnehmer aufheben*
 
-## Anwesenheit für Ihre Sitzung markieren {#markattendanceforyoursession}
+## Vermerken der Teilnahme an Ihrer Sitzung {#markattendanceforyoursession}
 
-Sie können die Anzahl der bestätigten Teilnehmer, die an der Sitzung teilnehmen, deren Namen, den Teilnahmestatus der Teilnehmer und andere Details auf der Seite &quot;Teilnehmer&quot; anzeigen.
+Sie können die Anzahl der bestätigten Teilnehmer, die an der Sitzung teilnehmen, deren Namen, deren Teilnahmestatus sowie andere Details auf der Seite „Teilnehmer“ sehen.
 
-1. Klicken Sie im linken Navigationsbereich auf &quot;Bevorstehende Sitzungen&quot; > &quot;Teilnehmer&quot;.
-1. Wählen Sie den Teilnehmer oder die Teilnehmer aus der Teilnehmerliste aus und führen Sie einen der folgenden Schritte aus:
+1. Klicken Sie im linken Navigationsbereich auf „Geplante Sitzungen“ > „Teilnehmer“.
+1. Wählen Sie den/die Teilnehmer aus der Teilnehmerliste aus und führen Sie einen der folgenden Schritte aus:
 
-   * Um die Anwesenheit zu vermerken, klicken Sie auf Aktionen > Anwesenheit vermerken. Sobald der Status als &quot;Teilgenommen&quot; markiert wurde, können Sie den Status nicht mehr ändern.
-   * Um die Nichtteilnahme zu vermerken, klicken Sie auf Aktionen > Nicht teilgenommen.
+   * Um die Teilnahme zu vermerken, klicken Sie auf „Aktionen“ > „Teilnahme vermerken“. Sobald der Status als „Teilgenommen“ vermerkt wurde, können Sie den Status nicht mehr ändern.
+   * Um den Status als „Nicht-teilgenommen“ zu vermerken, klicken Sie auf „Aktionen“ > „Nicht-teilgenommen“.
    * Um einen Teilnehmer aufgrund einer Absage oder aus anderen Gründen zu löschen, klicken Sie auf &quot;Aktionen&quot; > &quot;Teilnehmer löschen&quot;.
 
-   Ein Teilnehmer kann ein Modul erst abschließen, wenn der Anwesenheitsstatus &quot;Teilgenommen&quot; lautet.
+   Ein Teilnehmer kann ein Modul erst abschließen, wenn der Teilnahmestatus „Teilgenommen“ lautet.
 
    ![](assets/markattendance.png)
    *Anwesenheit der Teilnehmer vermerken*
 
-## E-Mails an Teilnehmer senden {#sendemailstolearners}
+## Senden Sie eine E-Mail an die Teilnehmer {#sendemailstolearners}
 
-Sie können E-Mails an bestimmte oder alle Teilnehmer Ihrer Sitzung senden. Die Funktion &quot;E-Mail senden&quot; ist sehr nützlich, wenn Sie die Anwesenheit von Teilnehmern bestätigen möchten oder wenn Sie Kommunikation bezüglich der Sitzung senden möchten. Sie können auch die Option &quot;E-Mail an alle senden&quot; verwenden, um das Aufgaben- und Sitzungsmaterial per E-Mail zu versenden oder allgemeine Kommunikation an alle Teilnehmer zu senden.
+Sie können die E-Mails an bestimmte oder alle Teilnehmer der Sitzung senden. Die Funktion „E-Mail senden“ ist sehr nützlich, wenn Sie die Teilnahme von Teilnehmern bestätigen möchten oder wenn Sie Informationen zu den Sitzungen senden möchten. Sie können auch die Option „E-Mail an alle senden“ nutzen, um Aufgaben- oder Sitzungsmaterial per E-Mail oder allgemeine Informationen an alle Teilnehmer zu schicken.
 
-Um E-Mails von der Teilnehmerseite in der Kursleiter-App an Teilnehmer zu senden, führen Sie einen der folgenden Schritte aus:
+Um E-Mails von der Teilnehmerseite in der Kursleiter-App an die Teilnehmer zu senden, führen Sie einen der folgenden Schritte aus:
 
-* Um E-Mails an bestimmte Teilnehmer zu senden, wählen Sie den Teilnehmer aus und klicken Sie auf Aktionen > E-Mail an ausgewählte senden.
-* Um E-Mails an alle Teilnehmer zu senden, um ein Kursmaterial oder eine Aufgabe zu senden, klicken Sie auf Aktionen > E-Mail an alle senden.
+* Um E-Mails an bestimmte Teilnehmer der Sitzung zu senden, wählen Sie den Teilnehmer aus und klicken Sie auf „Aktionen“ > „Senden“ > „E-Mail an Ausgewählte“.
+* Um eine E-Mail an alle Teilnehmer zu senden, um Kursmaterial oder eine Aufgabe zu senden, klicken Sie auf „Aktionen“ > „E-Mail an alle senden“.
 
 ## Exportieren der Teilnehmerliste {#exportinglearnerslist}
 
-Als Kursleiter können Sie die Anwesenheit für alle Ihre Teilnehmer einfach markieren, indem Sie die Teilnehmerliste als PDF exportieren. Um die Teilnehmerliste zu exportieren, klicken Sie im linken Teilfenster auf &quot;Teilnehmer&quot;. Klicken Sie auf Aktionen > Teilnehmerliste exportieren (PDF).
+Als Kursleiter können Sie die Teilnahme für alle Ihre Teilnehmer ganz einfach vermerke, indem Sie die Liste der eingeladenen Teilnehmer als PDF exportieren. Die Funktion zum Exportieren der Teilnehmerliste finden Sie auf der Seite „Teilnehmer“ im linken Teilfenster. Klicken Sie auf „Aktionen“ > „Teilnehmerliste exportieren (PDF)“.
 
-Nachdem die Teilnehmerliste für Ihre Sitzung bestätigt wurde, können Sie die Liste als PDF exportieren. In dieser druckfreundlichen PDF-Datei werden die Teilnehmer als Tabelle angezeigt. Sie können dann die Teilnahme vermerken oder Punktzahlen bereitstellen und Anmerkungen für den Teilnehmer erstellen oder bereitstellen, alles auf derselben PDF.
+Nachdem die Teilnehmerliste für Ihre Sitzung bestätigt wurde, können Sie die Liste als PDF-Datei exportieren. In dieser druckerfreundlichen PDF-Datei werden die Teilnehmer als Tabelle angezeigt. Sie können dann die Teilnahme vermerken oder Punktzahlen bereitstellen und Hinweise für Teilnehmer in einer PDF erstellen oder vergeben.
 
-Beachten Sie den QR-Code rechts oben auf diesem PDF. Mit dieser Funktion können einzelne Teilnehmer den Code mit der mobilen Learning Manager-App scannen, damit Teilnehmer ihre Anwesenheit vermerken können.
+Achten Sie auf den QR-Code in der oberen rechten Ecke dieses PDF-Dokuments. Mit dieser Funktion können einzelne Teilnehmer den Code mithilfe der Learning Manager-Mobilanwendung scannen, damit Teilnehmer ihre Teilnahme vermerken können.
 
 ![](assets/exportpdf.png)
 *QR-Code scannen, um Anwesenheit zu markieren*
 
-## Einreichungen genehmigen oder ablehnen {#approveorrejectsubmissions}
+## Übertragungen genehmigen oder ablehnen {#approveorrejectsubmissions}
 
-Wenn Teilnehmer Dokumente wie Aufgaben, Berichte oder Bewertungen für Ihre Sitzung hochgeladen haben, können Sie die Dokumente auf der Seite &quot;Einreichungen&quot; anzeigen. Sie können die Materialien verwenden, um den Teilnehmer zu bewerten, und die Einreichung entweder genehmigen oder ablehnen.
+Wenn Teilnehmer Dokumente wie Aufgaben, Berichte oder Bewertungen für Ihre Sitzung hochgeladen haben, können Sie die Dokumente auf der Seite „Übertragungen“ sehen. Sie können die Materialien für die Bewertung des Teilnehmers verwenden und die Übermittlung genehmigen oder. ablehnen.
 
-1. Klicke im linken Teilfenster auf &quot;Bevorstehende Sitzungen&quot; oder &quot;Ältere Sitzungen&quot;, je nach Zeitplan deiner Sitzung.
-1. Klicken Sie auf den Kurs, für den Sie die Einreichungen anzeigen möchten.
+1. Klicken Sie im linken Bereich entweder auf „Bevorstehende Sitzungen“ oder auf „Letzte Sitzungen“, basierend auf den bereits geplanten Sitzungen.
+1. Klicken Sie auf den Kurs, für den Sie die Übertragungen sehen möchten.
 
-   Klicken Sie im linken Teilfenster auf &quot;Einreichungen&quot;.
+   Klicken Sie im linken Teilfenster auf „Übertragungen“.
 
-1. Sie können die Übertragungen von Teilnehmern für die ausgewählte Sitzung anzeigen. Wählen Sie die Übermittlung aus, die Sie genehmigen oder ablehnen möchten, und klicken Sie auf &quot;Genehmigen&quot; oder &quot;Ablehnen&quot;.
+1. Sie können die Übertragungen von Teilnehmern für diese Sitzung, die Sie ausgewählt haben, ansehen. Wählen Sie die Übertragung aus, die Sie genehmigen oder ablehnen möchten und klicken Sie auf „Genehmigen“ oder „Ablehnen“.
 
-   Der Status der Übermittlung ändert sich basierend auf Ihrer Aktion in Genehmigt oder Abgelehnt.
+   Der Status der Übertragungen ändert sich je nach Aktion auf „Genehmigen“ oder „Ablehnen“.
 
-## Konfigurieren Sie Erinnerungen für Ihre Sitzung {#configureremindersforyoursession}
+## Konfigurierungserinnerungen für Ihre Sitzung {#configureremindersforyoursession}
 
-1. Klicken Sie im linken Teilfenster auf &quot;Bevorstehende Sitzungen&quot;.
-1. Klicken Sie auf den Kurs, für den Sie die Erinnerung festlegen möchten. Klicken Sie im linken Teilfenster auf Erinnerungen.
-1. Klicken Sie auf der Kachel &quot;Erinnerung auswählen&quot; auf &quot;Erinnerung festlegen&quot;.
+1. Klicken Sie im linken Teilfenster auf „Bevorstehende Sitzungen“.
+1. Klicken Sie auf den Kurs, für den Sie die Erinnerungen festlegen möchten. Klicken Sie im linken Teilfenster auf „Erinnerungen“.
+1. Klicken Sie auf der Kachel „Erinnerung auf „Erinnerung festlegen“.
 
    ![](assets/setreminder.png)
    *Konfigurieren Sie Erinnerungen für Ihre Sitzung*
 
 1. Führen Sie folgende Schritte aus:
 
-   * Legen Sie im Dialogfeld &quot;Erinnerungseinstellungen&quot; die Option fest, wann die Erinnerung an die Teilnehmer gesendet werden soll: Vor dem Termin, Am Termin oder Nach dem Termin.
-   * Legen Sie im Feld Tage vor dem Termin die Anzahl der Tage vor dem Termin fest, wann Sie die Erinnerung an Teilnehmer senden möchten.
+   * Legen Sie im Dialogfenster „Erinnerungseinstellungen“ die Option fest, wann die Erinnerung an die Teilnehmer gesendet werden soll: Vor dem Termin, Zum Termin oder Nach dem Termin.
+   * Legen Sie im Feld „Tage vor dem Termin“ die Anzahl der Tage vor dem Termin fest, wann Sie die Erinnerung an die Teilnehmer senden möchten.
    * Legen Sie die Wiederholung für Ihre Erinnerung fest.
 
    ![](assets/remindersettings.png)
@@ -112,11 +112,11 @@ Wenn Teilnehmer Dokumente wie Aufgaben, Berichte oder Bewertungen für Ihre Sitz
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Klicken Sie auf das Häkchen, um die Erinnerung zu speichern.
+   * Speichern Sie die Erinnerung, indem Sie das Kontrollkästchen anhaken.
    * Klicken Sie auf das Kreuz, um die Erinnerung abzubrechen.
 
-   Eine automatisierte Kurserinnerung wird an alle Teilnehmer zu dem Termin gesendet, den Sie in Ihren Erinnerungseinstellungen angegeben haben.
+   Eine automatisierte Kurserinnerung wird an alle Teilnehmer zu dem Datum gesendet, das Sie in den Einstellungen für Ihre Erinnerungen angegeben haben.
 
-   Wenn Sie bereits Erinnerungen für Ihre Sitzungen festgelegt haben, können Sie diese unter den Kacheln &quot;Vorhandene Erinnerungen&quot; anzeigen. Darüber hinaus können Sie Ihren vorhandenen Erinnerungen weitere Erinnerungen hinzufügen.
+   Wenn Sie bereits Erinnerungen zu Ihren Sitzungen festgelegt haben, können Sie diese in den Kacheln „Vorhandene Erinnerungen“ sehen. Darüber hinaus können Sie zusätzliche Erinnerungen Ihren vorhandenen Erinnerungen hinzufügen.
 
-   Um eine vorhandene Erinnerung zu löschen, klicken Sie auf die Erinnerung. Klicken Sie im angezeigten Popup-Fenster auf das Symbol &quot;Löschen&quot; (Papierkorb), um die Erinnerung zu löschen.
+   Um eine vorhandene Erinnerung zu löschen, klicken Sie auf die Erinnerung. Klicken Sie im angezeigten Popup-Menü auf das Symbol „Löschen“ (Papierkorbsymbol), um die Erinnerung zu löschen.

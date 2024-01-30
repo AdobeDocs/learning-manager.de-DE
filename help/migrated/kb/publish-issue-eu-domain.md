@@ -1,22 +1,22 @@
 ---
 jcr-language: en_us
-title: Veröffentlichung in der EU-Domäne des Learning Managers nicht möglich
+title: Veröffentlichen in der Learning Manager-EU-Domäne nicht möglich
 description: Veröffentlichung von Adobe Captivate auf Adobe Learning Manager EU-Domäne im Adobe Learning Manager nicht möglich.
 contentowner: nluke
 source-git-commit: 69ac8f8ce5a0c077f31569571f9d9fbf16ecb943
 workflow-type: tm+mt
 source-wordcount: '246'
-ht-degree: 0%
+ht-degree: 83%
 
 ---
 
 
 
-# Veröffentlichung in der EU-Domäne des Learning Managers nicht möglich {#unable-to-publish-to-learning-manager-eu-domain}
+# Veröffentlichen in der Learning Manager-EU-Domäne nicht möglich {#unable-to-publish-to-learning-manager-eu-domain}
 
 ## Problem
 
-Veröffentlichung von Adobe Captivate auf der EU-Domäne des Adobe Learning Manager nicht möglich.
+Veröffentlichen aus Adobe Captivate in der Adobe Learning Manager-EU-Domäne nicht möglich.
 
 ## Fehler
 
@@ -24,18 +24,18 @@ Keine Konten gefunden
 
 ## Beschreibung
 
-Es gibt Szenarien, in denen Autoren versuchen, einen Kurs von Adobe Captivate auf den Adobe Learning Manager zu veröffentlichen. Dies ist jedoch nicht möglich, da die Fehlermeldung &quot;Kein Konto gefunden&quot; angezeigt wird.
+Es gibt Szenarien, in denen Autoren versuchen, einen Kurs von Adobe Captivate in Adobe Learning Manager zu veröffentlichen. Dies ist jedoch nicht möglich, da die Fehlermeldung „Kein Konto gefunden“ angezeigt wird.
 
 ## Ursache
 
-Dieses Problem tritt auf, weil Adobe Captivate standardmäßig so konfiguriert ist, dass Inhalte in der US-Domäne von Adobe Learning Manager veröffentlicht werden.
+Dieses Problem tritt auf, weil Adobe Captivate standardmäßig für die Veröffentlichung von Inhalten in der US-Domäne von Adobe Learning Manager konfiguriert ist.
 
 ## Lösung:
 
-Hinweise:
+Zu beachtende Punkte:
 
-* Wenn Sie geöffnet sind, schließen Sie die Adobe Captivate-Anwendung.
-* Sie benötigen Administratorzugriff auf Ihrem Computer, um die folgenden Schritte auszuführen. Falls Sie keinen Administratorzugriff haben, wenden Sie sich an Ihr IT-Team, um Unterstützung zu erhalten.
+* Wenn Sie geöffnet ist, schließen Sie die Adobe Captivate-Anwendung.
+* Sie benötigen Administratorzugriff auf Ihrem Computer, um die folgenden Schritte auszuführen. Wenn Sie keinen Administratorzugriff haben, wenden Sie sich an Ihr IT-Team, um Hilfe zu erhalten.
 
 Führen Sie die folgenden Schritte aus:
 
@@ -43,7 +43,7 @@ Führen Sie die folgenden Schritte aus:
 
    Beispiel:  `kbd C:\\Program Files\\Adobe\\Adobe Captivate 2019 x64` (2019 ist die Captivate-Version. Sie weicht ab, wenn Sie eine andere Version von Adobe Captivate verwenden).
 
-1. Konfigurationsdatei kopieren **AdobeCaptivate.ini** an Ihren Desktop senden.
+1. Kopieren Sie die Konfigurationsdatei **AdobeCaptivate.ini** auf Ihren Desktop.
 
    ![](assets/cp-captivate.ini.png)
    *Konfigurationsdatei anzeigen*
@@ -56,4 +56,4 @@ Führen Sie die folgenden Schritte aus:
 
 1. Speichern Sie die im Notepad vorgenommenen Änderungen.
 1. Kopieren Sie die bearbeitete gespeicherte Datei und fügen Sie sie wieder in den Dateipfad ein. Ersetzen Sie die Originaldatei in  `kbd C:\\Program Files\\Adobe\\Adobe Captivate 2019 x64`
-1. Starten Sie anschließend Adobe Captivate und versuchen Sie, die Veröffentlichung auf Adobe Learning Manager durchzuführen.
+1. Starten Sie danach Adobe Captivate und versuchen Sie, die Veröffentlichung in Adobe Learning Manager durchzuführen.

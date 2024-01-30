@@ -6,7 +6,7 @@ contentowner: saghosh
 source-git-commit: fba5e5ddc1964b485be473bf356806f234688cf4
 workflow-type: tm+mt
 source-wordcount: '203'
-ht-degree: 0%
+ht-degree: 90%
 
 ---
 
@@ -14,32 +14,32 @@ ht-degree: 0%
 
 # Bestimmter Kurs kann beim Erstellen eines Lernprogramms nicht im Katalog angezeigt werden
 
-## Problem
+## Ein Problem
 
 Wenn Sie nach einem bestimmten Kurs suchen, um ihn einem Lernprogramm hinzuzufügen, können Sie den Kurs nicht im Katalog anzeigen.
 
 ## Registrierungstypen
 
-Es gibt drei Registrierungstypen im Lern-Manager:
+In Learning Manager gibt es drei Registrierungstypen:
 
 * Selbstregistriert
-* Vom Manager ernannt
-* Vom Manager genehmigt
+* Von Manager nominiert
+* Von Manager genehmigt
 
 ## Selbstregistriert
 
-Teilnehmer können sich für diese Kurse selbst direkt registrieren.
+Teilnehmer können sich selbst direkt für diese Kurse registrieren.
 
-## Vom Manager genehmigt
+## Von Manager genehmigt
 
 Diese Kurse müssen von Managern genehmigt werden. Teilnehmer können sich für diese Kurse anmelden, aber sie werden für diese Art von Kursen nicht direkt registriert, ohne dass dies von einem Manager genehmigt wurde. Wenn sich Teilnehmer für Kurse dieser Art anmelden, erhält der Manager eine Benachrichtigung. Nach Genehmigung des Managers werden diese Kurse für die Teilnehmer als registriert angeführt.
 
-## Vom Manager ernannt
+## Von Manager nominiert
 
-Diese Kurse können nur von Managern nominiert werden. Teilnehmer können sich für diese Kurse nicht selbst registrieren.
+Für diese Kurse können Teilnehmer nur von einem Manager nominiert werden. Teilnehmer können sich für diese Art von Kursen nicht selbst registrieren.
 
-## Was kommt als Nächstes?
+## Nächste Schritte
 
 In einem Lernprogramm können Sie nur selbstregistrierte Kurse hinzufügen, nicht jedoch Kurse, die vom Manager nominiert oder vom Manager genehmigt wurden.
 
-Dies ist ein Standardverhalten im Lern-Manager.
+Dies ist ein Standardverhalten in Learning Manager.

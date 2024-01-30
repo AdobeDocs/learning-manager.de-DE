@@ -1,5 +1,5 @@
 ---
-description: Klicken Sie auf die Links in diesem Thema, um mehr über Kursleiter im Learning Manager zu erfahren.
+description: Klicken Sie auf die Links in diesem Thema, um mehr über die Kursleiter in Learning Manager zu erfahren
 jcr-language: en_us
 title: Kursleiter
 contentowner: shhivkum
@@ -7,7 +7,7 @@ preview: true
 source-git-commit: ccdb222228f76fdae63ebb0a808824ad6ac1db7f
 workflow-type: tm+mt
 source-wordcount: '55'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # Kursleiter
 
-Klicken Sie auf die Links in diesem Thema, um mehr über Kursleiter im Learning Manager zu erfahren.
+Klicken Sie auf die Links in diesem Thema, um mehr über die Kursleiter in Learning Manager zu erfahren
 
 <table> 
  <tbody>

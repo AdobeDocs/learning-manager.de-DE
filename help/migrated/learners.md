@@ -7,7 +7,7 @@ preview: true
 source-git-commit: ccdb222228f76fdae63ebb0a808824ad6ac1db7f
 workflow-type: tm+mt
 source-wordcount: '62'
-ht-degree: 0%
+ht-degree: 88%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
  <tbody>
   <tr> 
    <td><img src="assets/learner2.png"></td> 
-   <td><p>Lesen Sie weiter, um mehr über die Funktionen des Learning Managers und häufig gestellte Fragen zur Teilnehmerrolle zu erfahren. </p></td> 
+   <td><p>Im Folgenden erhalten Sie Informationen zu den Funktionen und häufig gestellten Fragen zur Teilnehmerrolle in Learning Manager. </p></td> 
   </tr> 
  </tbody>
 </table>
@@ -35,7 +35,7 @@ ht-degree: 0%
 * [Gamification](learners/feature-summary/gamification.md)
 * [Abzeichen](learners/feature-summary/badges.md)
 * [Kataloge](learners/feature-summary/catalogs.md)
-* [Zertifikationen](learners/feature-summary/certifications.md)
+* [Zertifizierungen](learners/feature-summary/certifications.md)
 * [Kurse](learners/feature-summary/courses.md)
 * [Fluidic Player](learners/feature-summary/fluidic-player.md)
 * [Benutzer von Smartphones und Tablets](learners/feature-summary/ipad-android-tablet-users.md)
@@ -44,4 +44,4 @@ ht-degree: 0%
 * [Kenntnisse und Stufen](learners/feature-summary/skills-levels.md)
 * [Anmeldung für Benutzer](learners/feature-summary/user-login.md)
 * [Benutzerbenachrichtigungen](learners/feature-summary/user-notifications.md)
-* [Verwaltung von Wartelisten und Anwesenheit](learners/feature-summary/waitlist-attendance-management.md)
+* [Warteliste und Verwaltung der Anwesenheit](learners/feature-summary/waitlist-attendance-management.md)

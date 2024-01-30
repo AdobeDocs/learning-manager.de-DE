@@ -6,7 +6,7 @@ contentowner: manochan
 source-git-commit: 3d5cc91c8973385b5b13244df026667009fc88f7
 workflow-type: tm+mt
 source-wordcount: '162'
-ht-degree: 0%
+ht-degree: 66%
 
 ---
 
@@ -14,27 +14,27 @@ ht-degree: 0%
 
 # Erste Schritte als Administrator
 
-Auf der Seite &quot;Erste Schritte&quot; können Sie die wichtigsten Funktionen der Anwendung durchlaufen.
+Die Seite „Erste Schritte“ hilft Ihnen, sich mit den wichtigsten Funktionen der Anwendung vertraut zu machen.
 
-Sobald Sie sich als Administrator angemeldet haben, können Sie das Popup-Fenster mit einer Liste von Videos anzeigen.
+Wenn Sie sich als Administrator anmelden, sehen Sie ein Popup-Fenster mit einer Liste von Videos.
 
-## Beispielvideos anzeigen {#viewsamplevideos}
+## Videobeispiele anzeigen {#viewsamplevideos}
 
-Durchsuchen Sie die Video-Tutorials, um die wichtigsten Funktionen Ihrer Administratorrolle kennenzulernen. Wenn dieses Popup-Fenster bei der Anmeldung nicht angezeigt werden soll, können Sie es deaktivieren, indem Sie auf **[!UICONTROL Bei Anmeldung nicht anzeigen]** in der rechten unteren Ecke des Popup-Fensters.
+Durchsuchen Sie die Videoeinführungen, um die wichtigsten Funktionen Ihrer Rolle als Administrator kennenzulernen. Wenn dieses Popup-Fenster bei der Anmeldung nicht angezeigt werden soll, können Sie es deaktivieren, indem Sie auf **[!UICONTROL Bei Anmeldung nicht anzeigen]** in der rechten unteren Ecke des Popup-Fensters.
 
 Klicken **[!UICONTROL Fenster schließen]** , um das Popup zu schließen.
 
 <!--![](assets/welcome-videos-e1439961904106.png)-->
 
-## Seite Erste Schritte {#gettingstartedpage}
+## Seite „Erste Schritte“ {#gettingstartedpage}
 
-Auf der Seite &quot;Erste Schritte&quot; können Sie die folgenden Aktivitäten ausführen:
+Von der Seite „Erste Schritte“ aus können Sie die folgenden Aktivitäten ausführen:
 
 * Kurse erstellen
 * Benutzer hinzufügen
-* Anwender verwalten.
+* Benutzer verwalten
 * Berichte anzeigen
 
-Sie können auch mehr über die Learning Manager-Anwendung erfahren, indem Sie Tutorial-Videos und Hilfeinhalte anzeigen und Informationen zu verschiedenen Rollen erhalten.
+Sie können auch mehr über die Anwendung Learning Manager erfahren, indem Sie sich Videolehrgänge und Hilfeinhalte ansehen und Informationen über die verschiedenen Rollen abrufen.
 
 <!--![](assets/admin-landing-page-300x204.png)-->

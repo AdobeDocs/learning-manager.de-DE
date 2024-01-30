@@ -6,7 +6,7 @@ contentowner: dvenkate
 source-git-commit: 1b90528ec5675c67dcc9b8d86f2a5b8b82f7f5e4
 workflow-type: tm+mt
 source-wordcount: '611'
-ht-degree: 0%
+ht-degree: 65%
 
 ---
 
@@ -27,24 +27,24 @@ macOS X 10.12, 10.13, 10.14, 10.15
 
 ## Anzeige
 
-Unterstützte Mindestauflösung: 1024 x 720.
+Unterstützte Mindestauflösung: 1024 x 720.
 
 ## Festplattenspeicher
 
-Mindestens 5 GB freier Festplattenspeicher.
+Mindestens 5 GB verfügbarer Festplattenspeicher.
 
 ## Aufzeichnen
 
-* Mikrofon für die Audioaufzeichnung erforderlich.
-* Webcam für Videoaufzeichnung erforderlich.
+* Mikrofon für Audioaufzeichnungen erforderlich.
+* Webcam für Videoaufzeichnungen erforderlich.
 
-## Verschiedenes
+## Diverses
 
-Für die Verwendung der Anwendung sind eine aktive Internetverbindung und ein Teilnehmerkonto für den Adobe-Learning-Manager erforderlich.
+Für die Verwendung der Anwendung sind eine aktive Internetverbindung und ein Teilnehmerkonto für Adobe Learning Manager erforderlich.
 
 ## Browserspezifikationen
 
-Die Startseite für immersive Layouts wird in IE 11-Browsern nicht unterstützt.
+Die Startseite für immersives Layout wird in IE 11-Browsern nicht unterstützt.
 
 * Google Chrome-Version 43 und höher.
 * Neueste Versionen von Edge, Safari (Version 13 und höher) und Firefox.
@@ -52,10 +52,10 @@ Die Startseite für immersive Layouts wird in IE 11-Browsern nicht unterstützt.
 
 ## Empfohlene Bildgröße {#recommendedsizeofimages}
 
-* Mastertitel: 1280 x 360 px.
+* Mastertitel: 1.280 x 360 px.
 * Bild auf der Katalogkarte: 280 x 100 px
 * Größe der Schulungskarte: 300 x 240 px
-* Soziales Banner: 1600 x 240 px
+* Soziales Banner: 1.600 x 240 px
 
 ## Desktop
 
@@ -73,15 +73,15 @@ Mindestens 8 GB erforderlich.
 
 ### Bildschirmauflösung
 
-1366 x 768 Pixel
+1.366 x 768 Pixel
 
 ### Festplattenspeicher
 
-Mindestens 5 GB freier Festplattenspeicher.
+Mindestens 5 GB verfügbarer Festplattenspeicher.
 
 ### Aufzeichnen
 
-Für die Audioaufnahme wird ein Mikrofon und für die Videoaufnahme eine Webcam benötigt.
+Für die Audioaufzeichnung ist ein Mikrofon erforderlich. Für die Videoaufzeichnung ist eine Webcam erforderlich.
 
 ## Mobile App
 
@@ -93,11 +93,11 @@ Für die Audioaufnahme wird ein Mikrofon und für die Videoaufnahme eine Webcam 
 ### Browser
 
 * Chrome auf Android.
-* Safari auf dem iOS.
+* Safari auf iOS.
 
 ### Netzwerkgeschwindigkeit
 
-* 1 Mbit/s
+* 1 Mbit/s
 
 ### CPU, Speicher (min) Geräte
 
@@ -105,7 +105,7 @@ Für die Audioaufnahme wird ein Mikrofon und für die Videoaufnahme eine Webcam 
 
 ### QR-Code-Scanner/Festplattenspeicher erforderlich
 
-* 250 MB
+* 250 MB
 
 >[!NOTE]
 >
@@ -113,7 +113,7 @@ Für die Audioaufnahme wird ein Mikrofon und für die Videoaufnahme eine Webcam 
 
 >[!NOTE]
 >
->Die mobile Learning Manager-App unterstützt nur die Teilnehmerrolle.
+>Die Learning Manager-Mobilanwendung unterstützt nur die Teilnehmerrolle.
 
 ## Maximale Inhaltsgröße {#maximumcontentsize}
 
@@ -121,7 +121,7 @@ Die maximale Dateigröße, die hochgeladen werden kann, beträgt 600 MB.
 
 >[!NOTE]
 >
->Wenn die Größe der *user.csv* -Datei 100 MB überschreitet, kann das Importieren dieser Datei zu einem unerwarteten Verhalten des Browsers führen. Das Problem tritt auf, weil dem Browser der Arbeitsspeicher ausgeht.
+>Wenn die Größe der Datei *user.csv* 100 MB überschreitet, kann das Importieren dieser Datei zu einem unerwarteten Verhalten des Browsers führen. Das Problem tritt auf, weil dem Browser der Arbeitsspeicher ausgeht.
 
 Wir empfehlen, große Dateien zu importieren. *user.csv* -Dateien mithilfe des automatisierten Box/Exavault-Workflows. Weitere Informationen finden Sie unter [Migrieren von Dateien](/help/migrated/integration-admin/feature-summary/migration-manual.md).
 
@@ -205,7 +205,7 @@ Wir empfehlen, große Dateien zu importieren. *user.csv* -Dateien mithilfe des a
   </tr>
   <tr>
    <td>
-    <p><strong>Firmenlogo</strong></p></td>
+    <p><strong>Unternehmenslogo</strong></p></td>
    <td>
     <p>"png", "jpg", "jpeg", "bmp", "gif"</p></td>
   </tr>
@@ -238,7 +238,7 @@ Wir empfehlen, große Dateien zu importieren. *user.csv* -Dateien mithilfe des a
    <td>
     <p>Abzeichen auf dem Dashboard für Teilnehmerleistungen</p></td>
    <td>
-    <p>40x40 Pixel</p></td>
+    <p> 40x40 Pixel</p></td>
   </tr>
   <tr>
    <td>
@@ -254,7 +254,7 @@ Wir empfehlen, große Dateien zu importieren. *user.csv* -Dateien mithilfe des a
   </tr>
   <tr>
    <td>
-    <p>Benutzerprofilfoto auf Abmeldungs-Dropdownliste</p></td>
+    <p>Benutzerprofilfoto auf Abmeldungs-Dropdownmenü</p></td>
    <td>
     <p>42x42 Pixel</p></td>
   </tr>
@@ -273,7 +273,7 @@ Wir empfehlen, große Dateien zu importieren. *user.csv* -Dateien mithilfe des a
  </tbody>
 </table>
 
-## Barrierefreiheit
+## Eingabehilfen
 
 ### Unterstützte Browser und Bildschirmleseprogramme
 
@@ -288,7 +288,7 @@ Die folgenden Kombinationen werden unterstützt:
 Folgende werden unterstützt:
 
 * Android + Talkback
-* iOS+voiceOver
+* iOS + VoiceOver
 
 ## Netzwerkanforderungen {#networkrequirements}
 
@@ -314,7 +314,7 @@ Stellen Sie sicher, dass die folgenden Domänen von Drittanbietern auf die weiß
  <tbody>
   <tr>
    <th>Funktion</th>
-   <th>Verwendete Dienste</th>
+   <th>Verwendete Dienstleistungen</th>
   </tr>
   <tr>
    <td>FTP-Connector</td>
@@ -329,15 +329,15 @@ Stellen Sie sicher, dass die folgenden Domänen von Drittanbietern auf die weiß
    <td><a href="https://www.box.com/" target="_blank">www.box.com</a><br><a href="https://www.exavault.com/" target="_blank">www.exavault.com</a><br><a href="https://www.lynda.com/" target="_blank">www.lynda.com</a></td>
   </tr>
   <tr>
-   <td>Harvard ManageMentor-Connector</td>
+   <td>Harvard ManageMentor Connector</td>
    <td><a href="https://www.exavault.com/" target="_blank">www.exavault.com</a><br><a href="https://myhbp.org" target="_blank">www.myhbp.org</a></td>
   </tr>
   <tr>
-   <td>GetAbstracts-Connector</td>
-   <td><a href="https://www.exavault.com/" target="_blank">www.exavault.com</a><br><a href="https://www.getabstract.com/en/" target="_blank">www.getabstract.com  </a></td>
+   <td>GetAbstracts Connector</td>
+   <td><a href="https://www.exavault.com/" target="_blank">www.exavault.com</a><br><a href="https://www.getabstract.com/de/" target="_blank">www.getabstract.com  </a></td>
   </tr>
   <tr>
-   <td>Box-Connector</td>
+   <td>Box Connector</td>
    <td>Box Zones in Frankfurt</td>
   </tr>
   <tr>

@@ -1,24 +1,24 @@
 ---
-title: Mehrere Registrierungen für den Adobe Learning Manager
-description: Als Kontoadministrator ist es eine Ihrer Hauptaufgaben, verschiedene Instanzen von VILT-Sitzungen in verschiedenen Zeitzonen zu erstellen und möglicherweise Sitzungen für bestimmte Benutzergruppen zu erstellen.
+title: Mehrere Registrierungen in Adobe Learning Manager
+description: Als Kontoadministrator(in) ist es eine Ihrer Hauptaufgaben, verschiedene Instanzen von VILT-Sitzungen in verschiedenen Zeitzonen zu erstellen und möglicherweise Sitzungen für bestimmte Benutzer(innen)gruppen zu erstellen.
 source-git-commit: fc5b5afd8dd42ac3aa0e5190d6f421035df41a89
 workflow-type: tm+mt
 source-wordcount: '559'
-ht-degree: 0%
+ht-degree: 68%
 
 ---
 
-# Mehrere Registrierungen für den Adobe Learning Manager
+# Mehrere Registrierungen in Adobe Learning Manager
 
-Im Adobe-Lernmanager kann jeder Kurs verschiedene Instanzen haben. Als Kontoadministrator ist es eine Ihrer Hauptaufgaben, verschiedene Instanzen von VILT-Sitzungen in verschiedenen Zeitzonen zu erstellen und möglicherweise Sitzungen für bestimmte Benutzergruppen zu erstellen.
+Im Adobe Learning Manager kann jeder Kurs verschiedene Instanzen haben. Als Kontoadministrator(in) ist es eine Ihrer Hauptaufgaben, verschiedene Instanzen von VILT-Sitzungen in verschiedenen Zeitzonen zu erstellen und möglicherweise Sitzungen für bestimmte Benutzer(innen)gruppen zu erstellen.
 
-Wenn ein Administrator einen Teilnehmer vor der Version vom Juli 2023 registriert hat, konnten sie sich nur in einer Instanz registrieren. Wenn ein Teilnehmer einen Kurs in verschiedenen Instanzen absolvieren möchte, erstellt der Administrator viele Kurse, einen für jede Instanz.
+Wenn vor der Version vom Juli 2023 ein(e) Administrator(in) Teilnehmende registrierte, konnten sie nur bei einer einzigen Instanz registriert werden. Wenn Teilnehmende einen Kurs in verschiedenen Instanzen absolvieren möchte, erstellt die/der Administrator(in) viele Kurse, einen für jede Instanz.
 
-Die Funktion für mehrere Registrierungen des Adobe Learning Managers hilft einem Administrator, solche Szenarien zu vermeiden.
+Die Funktion für mehrere Registrierungen in Adobe Learning Manager hilft Administrator(innen), solche Szenarien zu vermeiden.
 
-## Was ist Mehrfacheinschreibung?
+## Was ist Mehrfachregistrierung?
 
-Mehrere Registrierungen registrieren einen Teilnehmer mehrmals in einem Kurs über verschiedene verfügbare Instanzen.  Ein Teilnehmer kann sich in mehreren Kursinstanzen registrieren, unabhängig davon, in welchem Status er sich registriert, abgeschlossen oder noch nicht gestartet hat. Wenn der Autor die Option [!UICONTROL Mehrfachregistrierung] umschalten, kann sich ein Teilnehmer dann für mehrere Instanzen des Kurses registrieren.
+Mehrere Registrierungen registrieren Teilnehmende mehrmals in einem Kurs über verschiedene verfügbare Instanzen.  Ein Teilnehmer kann sich in mehreren Kursinstanzen registrieren, unabhängig davon, in welchem Status er sich registriert, abgeschlossen oder noch nicht gestartet hat. Wenn Autor(inn)en die Option [!UICONTROL Mehrfachregistrierung] umschalten, kann sich ein(e) Teilnehmende(r) für mehrere Instanzen des Kurses registrieren.
 
 ![Bild mit mehreren Registrierungen](assets/multi-enrollment-author.png)
 *Starten der Mehrfachregistrierung über die Einstellungen*
@@ -28,10 +28,10 @@ Der Fortschritt jeder Instanz kann einzeln verfolgt werden, und ein Bericht kann
 ## Wichtige Aspekte
 
 * Eine Mehrfachregistrierung ist nur bei einem Kurs mit mehreren Instanzen möglich.
-* Sobald die Option für mehrere Registrierungen aktiviert ist und Benutzer in mehreren Instanzen registriert sind, werden neue Zeilen für jeden Kurs im Teilnehmertranskriptbericht erstellt (eine Zeile für jede Instanz und jeden Teilnehmer).
-* Wenn die Berichtsautomatisierung eingerichtet ist, die nur eine Zeile pro Kurs vorwegnimmt, müssen Sie die erforderlichen Anpassungen an der Berichtsautomatisierung vornehmen, bevor Sie die Funktion zur Mehrfacheinschreibung aktivieren.
+* Sobald die Option für Mehrfachregistrierungen aktiviert ist und Benutzende in mehreren Instanzen registriert sind, werden neue Zeilen für jeden Kurs im Teilnehmertranskriptbericht erstellt (eine Zeile für jede Instanz und jede(n) Teilnehmende(n)).
+* Wenn die Berichtsautomatisierung eingerichtet ist, die nur eine Zeile pro Kurs vorwegnimmt, müssen Sie die erforderlichen Anpassungen an der Berichtsautomatisierung vornehmen, bevor Sie die Funktion zur Mehrfachregistrierung aktivieren.
 
-## Aktivieren der Mehrfacheinschreibung
+## Aktivieren der Mehrfachregistrierung
 
 1. Melden Sie sich bei Ihrem Adobe Learning Manager-Konto als Autor an.
 1. Wählen Sie den Kurs aus, für den sich die Teilnehmer mehrmals registrieren sollen.
@@ -44,11 +44,11 @@ Der Fortschritt jeder Instanz kann einzeln verfolgt werden, und ein Bericht kann
 >
 >Als Autor können Sie nicht gleichzeitig den Instanzwechsel und die Mehrfacheinschreibung aktivieren.
 
-## Teilnehmeransicht
+## Teilnehmendenansicht
 
-Mehrere Registrierungen sind hilfreich, wenn sich ein Teilnehmer für einen Klassenzimmer- oder VC-Kurs anmelden oder einen Kurs erneut abschließen möchte, bevor er zu einem anderen Kurs wechselt.
+Mehrfachregistrierungen sind hilfreich, wenn Teilnehmende sich für einen Klassenzimmer- oder VC-Kurs registrieren oder einen Kurs erneut abschließen möchte, bevor sie zu einem anderen Kurs wechseln.
 
-Wenn Teilnehmer sich nicht registriert haben und einen Kurs auswählen, wird der Bildschirm unter dem Kurs mit mehreren Instanzen angezeigt. Dann können sie jede Instanz auswählen und sich registrieren.
+Für Teilnehmende, die sich nicht registriert haben und einen Kurs auswählen, wird der Bildschirm unter dem Kurs mit mehreren Instanzen angezeigt. Dann können sie jede Instanz auswählen und sich registrieren.
 
 ![Bild der Teilnehmeransicht](assets/learner-view.png)
 *Instanzen anzeigen*
@@ -63,13 +63,13 @@ Der Fortschritt jeder Instanz kann wie folgt verfolgt werden:
 ![Bearbeitungsstatus verfolgen](assets/check-progress.png)
 *Status jeder Instanz verfolgen.*
 
-## Änderungen an mehreren Registrierungen im Administrator
+## Änderungen an Mehrfachregistrierungen im Administrator
 
 **Registrierung:**
 
-Während der Registrierung der Teilnehmer können Sie das folgende Kontrollkästchen aktivieren:
+Während der Registrierung der Teilnehmenden können Sie das folgende Kontrollkästchen aktivieren:
 
-*&quot;Ausgewählte Teilnehmer sind möglicherweise bereits bei anderen Instanzen dieses Kurses registriert. Lassen Sie zu, dass diese Teilnehmer auch für die Instanz registriert werden ...&quot;*
+*&quot;Ausgewählte Teilnehmer sind möglicherweise bereits bei anderen Instanzen dieses Kurses registriert. Ermöglichen Sie diesen Teilnehmenden, auch bei der Instanz registriert zu sein ...“*
 
 ![Änderungen des Administrators](assets/admin-changes.png)
 *Registrierungsoption für Administratoren*
@@ -78,4 +78,4 @@ Wenn der Teilnehmer bereits in einer Instanz registriert ist und Sie als Adminis
 
 ## Berichte
 
-Für einen Teilnehmer, der sich für zwei Instanzen desselben Kurses registriert, werden für jede Kursinstanz zwei Zeilen erstellt. Der Bericht zeigt auch den Fortschritt der Instanzen an.
+Für Teilnehmende, die für zwei Instanzen desselben Kurses registriert sind, werden für jede Kursinstanz zwei Zeilen erstellt. Der Bericht zeigt auch den Fortschritt der Instanzen an.

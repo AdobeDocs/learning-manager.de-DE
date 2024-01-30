@@ -6,7 +6,7 @@ contentowner: kuppan
 source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
 workflow-type: tm+mt
 source-wordcount: '1474'
-ht-degree: 0%
+ht-degree: 68%
 
 ---
 
@@ -16,19 +16,19 @@ ht-degree: 0%
 
 Erfahren Sie, wie Sie Lernergebnisse über das Manager-Dashboard anzeigen und verfolgen können.
 
-Führungskräfte spielen eine wichtige Rolle bei den Lerninitiativen eines Teams. Um sie besser zu führen, bietet die Lernplattform dem Manager eine Dashboard-Ansicht, um die Lernergebnisse in seinem Team zu verfolgen.
+Führungskräfte spielen eine wichtige Rolle bei den Lerninitiativen eines Teams. Zur besseren Orientierung bietet die Lernplattform dem Manager eine Dashboard-Ansicht, um die Lernergebnisse in seinem Team zu verfolgen.
 
 ![](assets/dashboard-final.png)
 
 *Dashboard-Bericht für einen Manager*
 
-Um die Details eines Diagramms anzuzeigen, klicken Sie auf das Diagramm oder auf **[!UICONTROL Details]** Hyperlink.
+Um die Details eines Diagramms anzuzeigen, klicken Sie auf das Diagramm oder auf den Hyperlink **[!UICONTROL Details]**.
 
 ## Übersicht zu Lernprogrammen {#learningsummary}
 
-Ein Manager kann die Zusammenfassung der Lernaktivitäten für sein Team über einen ausgewählten Zeitraum anzeigen. Wählen Sie im Dropdown-Menü die Option Monat, Quartal oder Jahr aus.
+Ein Manager kann die Zusammenfassung der Lernaktivitäten für sein Team über einen ausgewählten Zeitraum anzeigen. Wählen Sie Monat, Quartal oder Jahr aus dem Dropdown-Menü aus.
 
-&quot;Monat&quot; und &quot;Jahr&quot; basieren auf dem Kalenderjahr, während &quot;Quartal&quot; auf dem Geschäftsjahr basiert, wie vom Administrator in den Kontoeinstellungen konfiguriert.
+„Monat“ und „Jahr“ basieren auf dem Kalenderjahr, während „Quartal“ auf dem Geschäftsjahr basiert, das vom Administrator in den Kontoeinstellungen konfiguriert wurde.
 
 ![](assets/learning-summarydashboard.png)
 
@@ -36,7 +36,7 @@ Ein Manager kann die Zusammenfassung der Lernaktivitäten für sein Team über e
 
 ## Teamansicht {#teamview}
 
-In der Team-Ansicht werden die Teams, ihre Mitglieder sowie die jeweiligen Registrierungen, Fortschritte und Abschlüsse für Lernobjekte angezeigt.
+In der Teamansicht werden die Teams, ihre Mitglieder und ihre jeweiligen Registrierungen, Fortschritte und Abschlüsse für Lernobjekte angezeigt.
 
 ![](assets/ls-team-view.png)
 
@@ -48,13 +48,13 @@ Wenn Sie auf die Teamnamen klicken, z. B. &quot;Venkatesh&#39;s Team&quot;, kön
 
 *Team-Mitglied auswählen*
 
-Um die Übersicht zu Lernprogrammen für jedes Teammitglied anzuzeigen, klicken Sie in der entsprechenden Spalte auf die Nummer, die dem Teammanager entspricht. Es wird eine Tabelle geöffnet, in der die Liste der Lernobjekte mit Informationen zum Registrierungsdatum, Fälligkeitsdatum und Fortschritt angezeigt wird.
+Um die Lernzusammenfassung für jedes Teammitglied anzuzeigen, klicken Sie auf die Nummer in der jeweiligen Spalte, die dem Teammanager entspricht. Eine Tabelle wird geöffnet, in der die Liste der Lernobjekte mit Informationen zum Registrierungsdatum, Fälligkeitsdatum und Fortschritt angezeigt wird.
 
 ![](assets/ls-click-on-valuestogetlearningsofamember.png)
 
 *Team-Manager auswählen*
 
-Ebenso können Sie die Lernobjekte zusammen mit der Anzahl der Registrierungen, Fortschritte oder Abschlüsse anzeigen, indem Sie auf die Werte unter den entsprechenden Spalten klicken.
+Auf ähnliche Weise können Sie die Lernobjekte zusammen mit der Anzahl der Registrierungen, Fortschritte oder Abschlüsse anzeigen, indem Sie auf die Werte unter den entsprechenden Spalten klicken.
 
 ![](assets/ls-on-clicking-valuesinteamviewforateam.png)
 
@@ -68,11 +68,11 @@ Wenn Sie weiter auf die Anzahl der Registrierungen, Fortschritte oder Abschlüss
 
 ## Lernansicht {#learningsview}
 
-Die Lernobjektansicht zeigt die Anzahl der Registrierungen, Fortschritte und Abschlüsse für ein Lernobjekt an.
+Die Lernansicht zeigt die Anzahl der Registrierungen, Fortschritte und Abschlüsse für ein Lernobjekt an.
 
 ![](assets/ls-learning-view.png)
 
-Um Details anzuzeigen, einschließlich Personen, Registrierungsdaten, Fälligkeitsdaten und Fortschritt für die jeweiligen Lernobjekte, klicken Sie auf die entsprechenden Werte in den Spalten &quot;Registrierungen&quot;, &quot;Fortschritte&quot; und &quot;Abschlüsse&quot;.
+Klicken Sie auf die entsprechenden Werte in den Spalten „Registrierung“, „Fortschritt“ und „Abschluss“, um Details wie Personen, Datum der Registrierung, Fälligkeitsdatum und Fortschritt der jeweiligen Lernobjekte anzuzeigen.
 
 ![](assets/ls-learnings-view-onfurtherclickingvalues.png)
 
@@ -82,29 +82,29 @@ Um Details anzuzeigen, einschließlich Personen, Registrierungsdaten, Fälligkei
 
 Um einen Excel-Bericht zu erstellen, klicken Sie auf **[!UICONTROL Aktionen] > [!UICONTROL Bericht]**
 
-## Konformitätsstatus {#compliancestatus}
+## Compliance-Status {#compliancestatus}
 
-Manager können den allgemeinen Konformitätsstatus des Teams für konfigurierte Lernaktivitäten im Kompatibilitäts-Dashboard anzeigen. Die Lernliste ist konfigurierbar, und der Manager kann die Lernergebnisse auswählen, um den Konformitätsstatus zu verfolgen.
+Manager können den allgemeinen Konformitätsstatus des Teams für konfigurierte Lernaktivitäten im Kompatibilitäts-Dashboard anzeigen. Die Lernliste ist konfigurierbar und der Manager kann die Lernergebnisse auswählen, um den Compliance-Status zu verfolgen.
 
-Auf diesem Dashboard können Manager auch die Teilnehmer anzeigen, die mit einem sicheren Termin, einem nahenden Termin und nicht mit einem ausgewählten Lernobjekt konform sind.
+Auf diesem Dashboard können Manager auch die Teilnehmer anzeigen, die konform sind, sich in einer sicheren Frist befinden, kurz vor dem Ablauf der Frist stehen und für ein ausgewähltes Lernobjekt nicht den Anforderungen entsprechen.
 
-Lernobjekte mit Abschlussfristen können im Kompatibilitäts-Dashboard für die Verfolgung konfiguriert werden.
+Lernobjekte mit Abschlussfristen können im Compliance-Dashboard zur Nachverfolgung konfiguriert werden.
 
-**konform**: Zeigt die Anzahl der Teilnehmer an, die das Lernobjekt innerhalb des Abschlusszeitraums abgeschlossen haben.
+**Konform**: Zeigt die Anzahl der Teilnehmer an, die das Lernobjekt innerhalb der Bearbeitungsfrist abgeschlossen haben.
 
-**Sichere Frist**: Zeigt die Anzahl der Teilnehmer an, für die weniger als 30 Tage zur Verfügung stehen, um ein Lernobjekt abzuschließen.
+**Sichere Frist**: Zeigt die Anzahl der Teilnehmer an, denen weniger als 30 Tage zur Verfügung stehen, um ein Lernobjekt fertigzustellen.
 
-**Bevorstehende Frist**: Zeigt die Anzahl der Teilnehmer an, für die mehr als 30 Tage verfügbar sind, um ein Lernobjekt abzuschließen.
+**Bevorstehende Frist**: Zeigt die Anzahl der Teilnehmer an, denen mehr als 30 Tage zur Verfügung stehen, um ein Lernobjekt fertigzustellen.
 
-**Nicht konform**: Zeigt die Anzahl der Teilnehmer an, die das Lernobjekt nicht innerhalb der Abschlussfrist abgeschlossen haben.
+**Nicht konform**: Zeigt die Anzahl der Teilnehmer an, die das Lernobjekt innerhalb der Abschlussfrist nicht abgeschlossen haben.
 
 ![](assets/cs-dashboard.png)
 
 *Kompatibilitäts-Dashboard anzeigen*
 
-## Team-Ansicht {#TeamView-1}
+## Teamansicht {#TeamView-1}
 
-Zeigt den Konformitätsstatus eines Kurses für die jeweiligen Teams an. &quot;Kompatibel&quot;, &quot;Sichere Frist&quot;, &quot;Bevorstehende Frist&quot; und &quot;Nicht kompatibel&quot; sind Spalten in der Tabelle &quot;Teamansicht&quot;.
+Zeigt den Compliance-Status eines Kurses für die jeweiligen Teams an. Konform, sichere Frist, bevorstehende Frist und nicht konform sind Spalten in der Teamansicht-Tabelle.
 
 ![](assets/cs-team-view.png)
 
@@ -116,7 +116,7 @@ Um die Namen der Mitglieder in einem Team und die individuelle Anzahl der Kurse 
 
 *Einzelne Teams auswählen*
 
-Wenn Sie weiter auf die Werte in der Spalte für den konformen, sicheren Termin, den bevorstehenden Termin und den nicht konformen Zeitraum klicken, werden die entsprechenden Kursdetails angezeigt: Name des Lernobjekts, Anmelde-/Abschlussdatum, Fälligkeitsdatum und Fortschritt in Prozent.
+Wenn Sie auf die Werte in der Spalte „Konform“, „Sicherer Termin“, „Anstehender Termin“ und „Nicht konform“ klicken, werden die entsprechenden Kursdetails angezeigt: Name des Lernobjekts, Anmeldungs-/Abschlussdatum, Fälligkeitsdatum und Fortschritt in Prozent.
 
 ![](assets/cs-team-view-on-furtherclickingvaluesincompliantstatus.png) ![](assets/cs-team-view-on-furtherclickingvaluesinsafedeadlinestatus.png)
 
@@ -124,13 +124,13 @@ Wenn Sie weiter auf die Werte in der Spalte für den konformen, sicheren Termin,
 
 ## Lernansicht {#LearningsView-1}
 
-In der Ansicht &quot;Compliance-Status - Lernergebnisse&quot; wird die Liste der Lernobjekte und die entsprechende Anzahl von Teammitgliedern, die innerhalb einer sicheren Frist konform sind, eine bevorstehende Frist haben oder nicht konform sind, angezeigt.
+In der Ansicht „Compliance-Status“ wird die Liste der Lernobjekte und die entsprechende Anzahl der Teammitglieder angezeigt, die innerhalb einer sicheren Frist, einer bevorstehenden Frist oder nicht konform sind.
 
 ![](assets/cs-learnings-view.png)
 
 *Abgabetermin und Konformitätsstatus anzeigen*
 
-Wenn Sie weiter auf die Werte in den Spalten für den konformen, sicheren Termin, den bevorstehenden Termin und den nicht konformen Zeitraum klicken, werden die folgenden Daten angezeigt: Personen, Registrierungsdatum, Abschlussdatum und Fortschritt.
+Wenn Sie auf die Werte in den Spalten „Konform“, „Sichere Frist“, „Anstehender Termin“ und „Nicht konform“ klicken, werden folgende Daten angezeigt: Personen, Registrierungsdatum, Abschlussdatum und Fortschritt.
 
 ![](assets/cs-learnings-view-onfurtherclickingvalues.png)
 
@@ -146,13 +146,13 @@ Wenn Sie weiter auf die Werte in den Spalten für den konformen, sicheren Termin
 
 *Exportieren und E-Mail-Daten*
 
-## Teamkompetenzen {#teamskills}
+## Team-Kenntnisse {#teamskills}
 
-Manager können das Diagramm für den Abschluss von Kenntnissen anzeigen und eine Prognose für den Abschluss von Kenntnissen auf verschiedenen Ebenen konfigurieren. In der Dropdown-Liste &quot;Kenntnisse&quot; sind fünf Kenntnisse aufgeführt. Der Manager lernt die von den Teammitgliedern erworbenen Fachkenntnisse kennen und erkennt starke Talente in bestimmten Fähigkeiten.
+Manager können das Kenntnis-Abschlussdiagramm anzeigen und eine Kenntnis-Abschlussprognose auf verschiedenen Ebenen konfigurieren. Fünf Kenntnisse werden in der Dropdown-Liste für Kenntnisse aufgeführt. Der Manager lernt die von den Teammitgliedern erworbene Expertise kennen und identifiziert starke Talente für bestimmte Kenntnisse.
 
-Manager können auch bestimmte Fähigkeiten in einem Team fördern, indem sie ein Ziel festlegen und vorhersagen, wie lange es dauern würde, eine Qualifikation für bestimmte Prozent eines Teams innerhalb einer Timeline zu erreichen.
+Manager können auch bestimmte Kenntnisse in einem Team verbessern, indem sie ein Ziel festlegen und vorhersagen, wie lange es dauern würde, um Kenntnisse für einen bestimmten Prozentsatz eines Teams innerhalb einer Zeitleiste zu erreichen.
 
-Diese Prognose basiert auf Systemberechnungen, die einen Ausblick auf den Fortschritt dieser spezifischen Fähigkeiten in der Zukunft geben.
+Diese Prognose basiert auf Systemberechnungen, die einen Ausblick auf den Fortschritt dieser spezifischen Kenntnisse geben.
 
 ![](assets/ts-dashboard-02.png)
 
@@ -161,19 +161,19 @@ Diese Prognose basiert auf Systemberechnungen, die einen Ausblick auf den Fortsc
 Um den Kenntnisstatus eines Teams anzuzeigen, führen Sie die folgenden Schritte aus:
 
 1. Klicken **[!UICONTROL Teamkompetenzen]** im linken Bereich unter dem Abschnitt Ansicht &quot;Mein Team&quot;.
-1. Um die angezeigten Qualifikationen anzuzeigen, klicken Sie auf den Qualifikationsfilter und wählen Sie eine Qualifikation aus der Dropdown-Liste aus.
-1. Um eine Ebene (Ebene 1, Ebene 2 oder Ebene 3) auszuwählen, klicken Sie auf das Dropdown-Menü &quot;Ebene&quot;.
-1. Basierend auf den ausgewählten Kenntnissen und Stufen wird ein Diagramm mit dem Kenntnisstatus angezeigt. Wenn Sie den Mauszeiger über das Diagramm bewegen, können Sie die folgenden Prozentwerte des Kenntnisstatus anzeigen: **In Bearbeitung** und **Erreicht**.
+1. Um die Kenntnisse anzuzeigen, klicken Sie auf den Filter für Kenntnisse und wählen Sie einen aus der Dropdown-Liste aus.
+1. Um eine Ebene auszuwählen (Ebene 1, Ebene 2 oder Ebene 3), klicken Sie auf das Dropdown-Menü der Ebene.
+1. Basierend auf den ausgewählten Kenntnissen und der ausgewählten Ebene wird eine Grafik mit ihrem Kenntnisstatus angezeigt. Wenn Sie mit der Maus über das Diagramm fahren, können Sie die folgenden Prozentsätze des Kenntnisstatus anzeigen: **In Bearbeitung** und **Erreicht**.
 
    ![](assets/first-graph.png)
 
    *Prozentsatz des Kenntnisstatus anzeigen*
 
-## Vorhersage des Teamabschlusses in % für Kenntnisse {#howtoforecasttheteamcompletionforaskill}
+## Wie man den Teamabschluss in % für Kenntnisse voraussagt {#howtoforecasttheteamcompletionforaskill}
 
-Um den Teamabschluss in % für Kenntnisse vorherzusagen, führen Sie die folgenden Schritte aus:
+Folgen Sie den nachstehenden Schritten, um den Teamabschluss in % für Kenntnisse vorauszusagen
 
-1. Klicken Sie auf den Hyperlink zum Konfigurieren, um den configure-Tracker anzuzeigen.
+1. Um den Konfigurations-Tracker anzuzeigen, klicken Sie auf den Hyperlink zum Konfigurieren.
 
    ![](assets/configure.png)
 
@@ -185,65 +185,65 @@ Um den Teamabschluss in % für Kenntnisse vorherzusagen, führen Sie die folgend
 
    *Zielabschlussprozentsatz eingeben*
 
-1. Um die Ausgabe für Ihre Prognose anzuzeigen, klicken Sie auf das Symbol **Kostenvoranschlag** klicken. Die Ausgabe sieht wie im folgenden Screenshot aus.
+1. Klicken Sie auf die Schaltfläche **Schätzen**, um die Ausgabe für Ihre Prognose anzuzeigen . Die Ausgabe sieht wie im folgenden Screenshot aus.
 
    ![](assets/skill-tracker-output.png)
 
    *Ausgabe des Qualifikationstraktors anzeigen*
 
-## Qualifikationsstufen-Abschlussvorhersage {#skilllevelcompletionforecast}
+## Prognose für Kenntnisstufenabschluss {#skilllevelcompletionforecast}
 
-Der Manager eines Teams kann den Teamabschlussprozentsatz einer Qualifikation für einen bestimmten Zeitraum basierend auf dem Zielabschlussprozentsatz und der Datumszeit, die im Qualifikationstracker angegeben sind, anzeigen und konfigurieren.
+Der Manager eines Teams kann den Prozentsatz des Team-Abschlusses von Kenntnissen für einen bestimmten Zeitraum anzeigen und konfigurieren, basierend auf dem Ziel-Abschluss-Prozentsatz und der im Kenntnis-Tracker angegebenen Datumszeit. 
 
-Im Prognosediagramm gibt es zwei Arten von Linien (durchgehende und gepunktete Linie) mit jeweils drei Scheitelpunkten.
+Im Prognosediagramm gibt es zwei Arten von Linien (durchgezogene und gepunktete Linie) mit jeweils drei Scheitelpunkten.
 
-Auf der durchgezogenen Linie zeigt der erste Punkt das Datum für die erste Registrierung für eine Kenntnisstufe an.
+In der durchgezogenen Linie zeigt der erste Punkt das Datum für die erste Registrierung für eine Kenntnisstufe an.
 
 ![](assets/1-dotted-line.png)
 
 *Erste Registrierung für Kenntnisstufe anzeigen*
 
-Der zweite Punkt zeigt das aktuelle Datum und den Teamabschluss in % der Kenntnisstufe an.
+Der zweite Punkt zeigt das aktuelle Datum und den Abschlussgrad von Kenntnissen in % an.
 
 ![](assets/2-solid-line.png)
 
 *Aktuelles Datum und Teamabschluss % Stufe der Kenntnisse anzeigen*
 
-Der dritte Punkt in der Zeile zeigt den erwarteten Zielabschluss in % und das Zielabschlussdatum an.
+Der dritte Punkt in der Zeile zeigt den erwarteten Abschlussgrad und den Abschlusszeitpunkt.
 
 ![](assets/3-solid-line.png)
 
 *Erwartete Zielabschlussrate % und Zielabschlussdatum anzeigen*
 
-## Vorhersageposition {#forecastline}
+## Prognoselinie {#forecastline}
 
-Die gepunktete Linie ist die Vorhersagelinie, die die Vorhersage in Abhängigkeit vom aktuellen Teamabschlussprozentsatz für Kenntnisse in einem bestimmten Zeitraum anzeigt.
+Die gepunktete Linie ist die Prognoselinie, in der die Prognose für Kenntnisse in einem bestimmten Zeitraum in Abhängigkeit vom aktuellen Teamabschluss in % angezeigt wird.
 
-Der erste Punkt auf der gepunkteten Linie stellt den Teamabschluss in % und den voraussichtlichen Teamabschluss in % für eine Qualifikation an diesem Datum dar.
+Der erste Punkt auf der gepunkteten Linie repräsentiert den Team-Abschluss in % und den voraussichtlichen Team-Abschluss in % für Kenntnisse an diesem Datum.
 
 ![](assets/1-dotted-line.png)
 
 *Teamabschluss % und voraussichtlicher Teamabschluss % für Kenntnisse anzeigen*
 
-Der zweite Punkt zeigt das Datum an, an dem der projizierte Teamabschluss in % für eine Qualifikation erreicht wurde.
+Der zweite Punkt zeigt das Datum, an dem der geplante Teamabschluss in % für Kenntnisse erreicht wurde.
 
 ![](assets/2-dotted-line.png)
 
 *Das Datum anzeigen, an dem der projizierte Teamabschluss in % für Kenntnisse erreicht wurde*
 
-Der dritte Punkt in der Vorhersagezeile zeigt den Teamabschluss in % an, der am Zieldatum erreicht wurde, das in der Kenntnisverfolgung angegeben ist.
+Der dritte Punkt in der Prognoselinie zeigt den Teamabschluss in % an, der am Stichtag im Kenntnis-Tracker erreicht wurde.
 
 ![](assets/3-dotted-line.png)
 
 *Teamabschluss in % anzeigen, der am Zieldatum im Kenntnistracker erreicht wird*
 
-Unter dem Diagramm wird eine Tabelle mit der Ansicht des Teams und der Anzahl der Kenntnisse angezeigt, die registriert, erreicht und in Bearbeitung sind. Wenn ein Lernen ein Abschlussdatum hat, wird auch das erwartete Abschlussdatum angezeigt.
+Unter dem Diagramm wird eine Tabelle mit der Teamansicht und der Anzahl der registrierten, erreichten und in Bearbeitung befindlichen Kenntnisse angezeigt. Wenn ein Lernprogramm ein Abschlussdatum hat, wird auch das erwartete Abschlussdatum angezeigt.
 
 ![](assets/ts-details.png)
 
 *Tabelle mit der Ansicht des Teams und der Anzahl der Kenntnisse, die angemeldet, erreicht und in Bearbeitung sind*
 
-Wenn Sie auf den Teamnamen klicken, wird die Liste der Mitglieder, die sich für die Kenntnisse registriert haben, der Kenntnisstatus und das Abschlussdatum angezeigt.
+Wenn Sie auf den Teamnamen klicken, werden die Liste der Mitglieder, die sich für die Kenntnisse angemeldet haben, sowie deren Status und Abschlussdatum angezeigt.
 
 ![](assets/ts-click-the-teamnames.png)
 
@@ -255,7 +255,7 @@ Wenn Sie auf das Team klicken, können Sie die darin enthaltenen Mitglieder und 
 
 *Kenntnisse der Mitglieder anzeigen*
 
-Wenn Sie die Werte für ein Team in der Spalte &quot;Registrierung, erreicht&quot; und &quot;In Bearbeitung&quot; auswählen, können Sie die Anzahl der Benutzer anzeigen, die sich für die Kenntnisse registriert haben. Sie können auch das Datum anzeigen, an dem sich der Benutzer für Kenntnisse registriert hat, den Status und das Abschlussdatum, wenn die Kenntnisse vom Benutzer abgeschlossen wurden.
+Bei der Auswahl der Werte für ein Team in den Spalten „Registrierung“, „Erreicht“ und „In Bearbeitung“ können Sie die Anzahl der Benutzer anzeigen, die sich für die Kenntnisse registriert haben. Sie können auch das Datum anzeigen, an dem sich der Benutzer für die Kenntnisse angemeldet hat, den Status und das Abschlussdatum, wenn die Kenntnisse vom Benutzer abgeschlossen wurden.
 
 <!--![](assets/ts-click-on-valuesunderskillstatus.png) ![](assets/1-solid-line.png)-->
 

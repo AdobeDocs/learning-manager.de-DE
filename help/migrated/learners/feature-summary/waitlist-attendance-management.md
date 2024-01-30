@@ -6,16 +6,16 @@ contentowner: manochan
 source-git-commit: 9325abb9cda8c8a019c9d72c1944a8284f38f83e
 workflow-type: tm+mt
 source-wordcount: '63'
-ht-degree: 0%
+ht-degree: 79%
 
 ---
 
 
 
-# Verwaltung von Wartelisten und Anwesenheit
+# Warteliste und Verwaltung der Anwesenheit
 
-Administratoren können die Anwesenheit und Warteliste von Kursen für Teilnehmer verwalten.
+Administratoren können die Anwesenheit und Wartelisten von Kursteilnehmern verwalten.
 
 ## Verwaltung der Warteliste {#waitlistmanagement}
 
-Teilnehmer werden für jeden Klassenzimmerkurs auf die Warteliste gesetzt, wenn die Lizenzen begrenzt sind, basierend auf der Reihenfolge ihrer Registrierung. Die Teilnehmer werden für den Kurs registriert, sobald der Administrator ihnen eine Lizenz zuweist.
+Wenn die Teilnehmerplätze eines Präsenzkurses begrenzt sind, werden die Teilnehmer in der Reihenfolge ihrer Registrierung auf eine Warteliste gesetzt. Die Teilnehmer werden für den Kurs registriert, wenn der Administrator ihnen einen Platz zuweist.

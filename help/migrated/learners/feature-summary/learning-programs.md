@@ -1,12 +1,12 @@
 ---
-description: Erfahren Sie, wie Sie Lernprogramme mit der Teilnehmer-App im Lernmanager anzeigen und nutzen.
+description: Erfahren Sie, wie Sie Lernprogramme mit der Teilnehmer-App in Learning Manager anzeigen und nutzen.
 jcr-language: en_us
 title: Lernprogramme
 contentowner: manochan
 source-git-commit: fba5e5ddc1964b485be473bf356806f234688cf4
 workflow-type: tm+mt
 source-wordcount: '776'
-ht-degree: 0%
+ht-degree: 84%
 
 ---
 
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # Lernprogramme
 
-Erfahren Sie, wie Sie Lernprogramme mit der Teilnehmer-App im Lernmanager anzeigen und nutzen.
+Erfahren Sie, wie Sie Lernprogramme mit der Teilnehmer-App in Learning Manager anzeigen und nutzen.
 
-Lernprogramme sind eine Reihe einzigartig gestalteter Kurse, die bestimmte Teilnehmerziele erfüllen. Administratoren erstellen diese Lernprogramme für Teilnehmer. Sie können diese Lernprogramme als Teilnehmer anzeigen.
+Lernprogramme umfassen einen Satz von Kursen, die im Hinblick auf bestimmte Ziele für die Teilnehmer entwickelt wurden. Administratoren erstellen diese Lernprogramme für Teilnehmer. Diese Lernprogramme können Sie als Teilnehmer anzeigen.
 
 ## Übersicht {#overview}
 
-Mit dem Adobe-Lernmanager können Teilnehmer auf die Kurse und Lernprogramme zugreifen. Teilnehmer können über den Katalog alle verfügbaren Lernprogramme durchsuchen oder sich selbst für Lernprogramme ihrer Wahl registrieren. Teilnehmer können alle Kurse, für die sie registriert sind, und die Kurse, die ihnen zugewiesen wurden, in &quot;Kurse&quot; anzeigen.
+Mit Adobe Learning Manager können Teilnehmende auf Kurse und Lernprogramme zugreifen. Teilnehmer können über den Katalog alle verfügbaren Lernprogramme durchsuchen oder sich selbst für Lernprogramme ihrer Wahl registrieren. Teilnehmer können alle Kurse, für die sie registriert sind, und die Kurse, die ihnen zugewiesen wurden, in „Kurse“ anzeigen.
 
 >[!NOTE]
 >
@@ -28,45 +28,45 @@ Mit dem Adobe-Lernmanager können Teilnehmer auf die Kurse und Lernprogramme zug
 
 ## Lernprogramm {#learningprogram}
 
-Lernprogramme sind eine Reihe einzigartig gestalteter Kurse, die bestimmte Teilnehmerziele erfüllen. Sie können die Lernprogramme, die Ihnen zugewiesen wurden, unter &quot;Meine Lernprogramme&quot; anzeigen.
+Lernprogramme umfassen einen Satz von Kursen, die im Hinblick auf bestimmte Teilnehmerziele entwickelt wurden. Sie können die Lernprogramme, die Ihnen zugewiesen wurden, unter „Eigene Lernprogramme“ anzeigen.
 
 Autor und Administrator können Lernprogramme erstellen.
 
 ## Anzeigen von Lernprogrammen {#viewinglearningprograms}
 
-Sie können als Teilnehmer eine Liste aller verfügbaren Lernprogramme anzeigen. Das Lernobjekt-Widget zeigt einem Teilnehmer alle registrierten und zugewiesenen Lernprogramme an. Klicken Sie im linken Teilfenster auf &quot;Katalog&quot; und filtern Sie die Lernprogramme, um alle verfügbaren Lernprogramme anzuzeigen.
+Sie können als Teilnehmer eine Liste aller verfügbaren Lernprogramme anzeigen. Das Lernobjekt-Widget zeigt einem Teilnehmer alle registrierten und zugewiesenen Lernprogramme an. Klicken Sie im linken Teilfenster auf „Katalog“ und wählen Sie die Filteroption „Lernprogramme“, um alle verfügbaren Lernprogramme anzuzeigen.
 
 Im Fenster &quot; **Eigenes Lernen** können Sie die Schulung, für die Sie registriert sind, nach **Dauer** der Ausbildung und der **formatieren** der Schulung.
 
-Sie können den Prozentsatz der Kurseffektivität jedes Kurses auf der Katalogseite anzeigen. Es kann für einen Kurs/ein Lernprogramm mehrere Instanzen/Sitzungen geben. Klicken Sie auf den Kurs oder das Lernprogramm, um ausführliche Informationen dazu abzurufen. Sie können auch das Datum der Deadline für jede Instanz des Kurses/Lernprogramms sehen.
+Sie sehen den Prozentsatz der Kurseffektivität von Kursen auf der Katalogseite. Es kann für einen Kurs/ein Lernprogramm mehrere Instanzen/Sitzungen geben. Klicken Sie auf den Kurs bzw. das Lernprogramm, um ausführliche Informationen dazu abzurufen. Sie können außerdem den Termin für jede Instanz des Lernprogramms/Kurses sehen.
 
 ## Kurse und Lernprogramme suchen {#searchingcoursesandlearningprograms}
 
-Adobe Learning Manager erleichtert Ihnen das schnelle Auffinden von Kursen Ihrer Wahl. Sie können Ihre Lernprogramme auf folgende Weise suchen:
+Mit Adobe Learning Manager fällt es Ihnen leichter, Kurse Ihrer Wahl schnell zu finden. Sie können Ihre Lernprogramme auf die folgenden Arten suchen:
 
-1. Verwenden des Suchfelds. Klicken Sie auf die Suchleiste oben auf der Seite. Geben Sie den Namen des Kurses/Lernprogramms oder zu Ihrem Kurs passende Schlüsselwörter ein, um Ihre Lernprogramme zu finden. Sie können auch mit vordefinierten Tags wie Captivate, C, Java, HTML usw. suchen. Nach Tags können Sie im Suchfeld suchen, was bedeutet, dass die Tags im Suchfeld angezeigt werden, während Sie tippen.
-1. Teilnehmer können nach Lernobjekten suchen, basierend auf dem Kursabschlussstatus: Alle, noch nicht gestartet, abgeschlossen, in Bearbeitung.
-1. Der Teilnehmer kann über die Katalogseite mit Filtern, &quot;Sortieren nach&quot;, &quot;Kompetenz&quot; und &quot;Typ&quot; suchen.
+1. Über das Suchfeld. Klicken Sie in der Suchleiste, die auf der Seite angezeigt wird. Geben Sie den Namen des Kurses/Lernprogramms oder zu Ihrem Kurs passende Schlüsselwörter ein, um Ihre Lernprogramme zu finden. Sie können auch mit vordefinierten Tags wie Captivate, C, Java, HTML usw. suchen. Nach Tags können Sie im Suchfeld suchen, was bedeutet, dass die Tags im Suchfeld angezeigt werden, während Sie tippen.
+1. Teilnehmer können nach Lernobjekten suchen, die auf dem Kursabschlussstatus basieren: Alle, noch nicht begonnen, abgeschlossen, noch nicht fertig.
+1. Der Teilnehmer kann mit Filtern, „Sortieren nach“, „Kompetenz“ und „Typ“ auf der Katalogseite suchen.
 
-Sie können nach Kompetenzen suchen, indem Sie auf &quot;Kompetenzen&quot; klicken und diese auswählen. Sie können die Kurse sortieren, indem Sie auf &quot;Sortieren nach&quot; klicken und eine der verfügbaren Optionen auswählen.
+Sie können basierend auf Kompetenzen suchen, indem Sie die Kompetenzen anklicken und auswählen. Sie können die Kurse sortieren, indem Sie auf „Sortieren nach“ klicken und eine der verfügbaren Optionen auswählen.
 
-## Registrierung für Lernprogramme {#enrollingforlearningprograms}
+## Registrieren für Lernprogramme {#enrollingforlearningprograms}
 
 Die Registrierung von Teilnehmern für Lernprogramme ist auf folgende Arten möglich:
 
-1. Der Administrator/Manager registriert einige Teilnehmer gemäß den Anforderungen des Unternehmens für obligatorische Lernprogramme.
-1. Teilnehmer können sich selbst direkt für einen Kurs/ein Lernprogramm registrieren. Wenn es sich um einen Kurs/ein Lernprogramm mit Selbstregistrierung handelt, wird der Teilnehmer sofort registriert.
+1. Der Administrator/Manager registriert einige Teilnehmer gemäß den Anforderungen des Unternehmens für verpflichtende Lernprogramme.
+1. Teilnehmer können sich selbst direkt für einen Kurs/ein Lernprogramm registrieren. Wenn es sich um einen Kurs/ein Lernprogramm mit Selbstregistrierung handelt, wird der Teilnehmer unverzüglich registriert.
 
-Teilnehmer können sich nach ihren eigenen Wünschen für eine breite Palette an Lernprogrammen registrieren. Widget für empfohlene Lernprogramme zeigt alle Ihre registrierten/zugewiesenen Kurse, Lernprogramme, Arbeitshilfen oder Zertifizierungen an. Sie können auf &quot;Durchsuchen&quot; klicken und die Lernobjektseite eingeben, um sich selbst zu registrieren.
+Teilnehmer können sich nach ihren eigenen Wünschen für eine breite Palette an Lernprogrammen registrieren. Empfohlenes Lernwidget zeigt alle Ihre registrierten/zugewiesenen Kurse, Lernprogramme, Arbeitshilfen oder Zertifizierungen an. Sie können auf „Durchsuchen“ klicken und die Lernobjektseite eingeben, um sich selbst zu registrieren.
 
-Sie haben auch die Möglichkeit, alle Lernprogramme, die auf der Katalogseite aufgeführt sind, zu durchsuchen, indem Sie auf &quot;Durchsuchen&quot; klicken. Die Registrierungsseite wird angezeigt. Klicken Sie in der rechten oberen Ecke der Seite auf &quot;Registrieren&quot;, um die Liste der Kurse in die Kurse aufzunehmen.
+Sie haben auch die Möglichkeit, alle Lernprogramme, die auf der Katalogseite aufgeführt sind, zu durchsuchen, indem Sie auf &quot;Durchsuchen&quot; klicken. Die Registrierungsseite wird angezeigt. Klicken Sie auf „Registrieren“ in der rechten oberen Ecke der Seite, damit der Kurs in die Liste der Kurse einbezogen wird.
 
-Es kann für einen Kurs/ein Lernprogramm mehrere Instanzen/Sitzungen geben. Klicken Sie im Katalog auf den Namen der Kachel für den Kurs/das Lernprogramm, um ausführliche Informationen dazu abzurufen. Sie sehen die Registrierung für die Instanz des Kurses/Lernprogramms basierend auf dem Datum, an dem die Frist für jede Instanz des Kurses/Lernprogramms abläuft.
+Es kann für einen Kurs/ein Lernprogramm mehrere Instanzen/Sitzungen geben. Klicken Sie im Katalog auf Namen der Kachel für den Kurs/das Lernprogramm, um ausführliche Informationen dazu abzurufen. Sie sehen die Registrierung für die Instanz des Kurses/Lernprogramms anhand des Datums, zu dem die Frist für die jeweilige Kurs-/Lernprogramminstanz abläuft.
 
 ## Abschließen von Lernprogrammen {#completinglearningprograms}
 
-Als Teilnehmer können Sie Lernprogramme basierend auf den Einstellungen für das jeweilige Lernprogramm abschließen. Sie müssen alle Kurse abschließen, um einige Lernprogramme abzuschließen, während die Abschlusskriterien die X Anzahl der Kurse von Y sein können, um ein Lernprogramm abzuschließen.
+Als Teilnehmer können Sie Lernprogramme gemäß den Einstellungen für das jeweilige Lernprogramm abschließen. Bei einigen Lernprogrammen müssen Sie zum Abschließen alle Kurse abschließen, während die Abschlusskriterien für andere Lernprogramme lauten können, X von Y Kursen abzuschließen.
 
-Wenn die &quot;2 von 4&quot; die Abschlusskriterien sind, die vom Administrator festgelegt werden, zeigt die Fortschrittsleiste den Abschlussstatus von 50 % an, wenn Sie einen der beiden erforderlichen Kurse abschließen. Nach Abschluss von zwei Kursen wird der erfolgreiche Abschluss des Lernprogramms angezeigt.
+Wenn vom Administrator als Abschlusskriterium festgelegt wurde, dass 2 von 4 Kursen benötigt werden, wird nach Abschluss eines der beiden erforderlichen Kurse der Fortschritt als 50 % abgeschlossen angezeigt. Nach Abschluss von zwei Kursen wird das Lernprogramm erfolgreich abgeschlossen angezeigt.
 
-Sie können das Lernprogramm jederzeit erneut aufrufen, um auch die optionalen Kurse zu belegen.
+Sie können das Lernprogramm jederzeit erneut aufrufen, um auch die optionalen Kurse zu absolvieren.

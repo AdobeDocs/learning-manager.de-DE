@@ -1,18 +1,18 @@
 ---
-description: Learning Manager führt Inhaltskatalog ein
+description: Learning Manager führt den Inhaltskatalog ein
 jcr-language: en_us
-title: Inhaltskatalog für Learning Manager
+title: Learning Manager-Inhaltskatalog
 contentowner: dvenkate
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 6ab762701908a280325fd6a60bf49f87a2a60da7
 workflow-type: tm+mt
 source-wordcount: '246'
-ht-degree: 0%
+ht-degree: 32%
 
 ---
 
 
 
-# Inhaltskatalog für Learning Manager
+# Learning Manager-Inhaltskatalog
 
 <!--Learning Manager introduces Content Catalog-->
 
@@ -23,15 +23,15 @@ Der Inhaltskatalog wird in einer Azure-Instanz von Learning Manager nicht unters
 
 Learning Manager führt den Inhaltskatalog ein, eine Reihe gebrauchsfertiger Inhaltsdatenbanken, die Sie erwerben können. In unserem Marktplatz für kuratierte Inhalte können Sie Standardkurse wie Business Skills, Compliance am Arbeitsplatz, Adobe Creative Cloud und Technologie erwerben.
 
-Klicken Sie im linken Bereich auf Content Marketplace und dann auf **[!UICONTROL Creative Cloud-Schulung]**.
+Klicken Sie im linken Bereich auf Content Marketplace und dann auf **[!UICONTROL Creative Cloud Training]**.
 
 <!--![](assets/content-catalog.png)-->
 
-Um die Katalogdetails und Kurse in jedem der Kataloge anzuzeigen, klicken Sie auf **[!UICONTROL Anzeigen]**. Das neue Fenster zeigt alle Kurse an.
+Um die Katalogdetails und Kurse in jedem Katalog anzuzeigen, klicken Sie auf **[!UICONTROL Ansicht]**. Das neue Fenster zeigt alle Kurse an.
 
 <!--![](assets/course-details.png)-->
 
-Um die Details des Kurses anzuzeigen, klicken Sie auf **[!UICONTROL Besuchen]**. Verwenden Sie die Kontrollkästchen, um die Kurse auszuwählen, die Sie interessieren.
+Um die Details des Kurses anzuzeigen, klicken Sie auf **[!UICONTROL Besuchen]**. Verwenden Sie die Kontrollkästchen, um die Kurse auszuwählen, an denen Sie interessiert sind.
 
 * Sie können die ausgewählten Kurse für Ihre Kollegen freigeben, indem Sie  **[!UICONTROL Freigeben]**.
 * Sie können Adobe kontaktieren, indem Sie  **[!UICONTROL Adobe kontaktieren]**.

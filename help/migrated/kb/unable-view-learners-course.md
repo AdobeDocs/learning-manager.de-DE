@@ -1,12 +1,12 @@
 ---
 jcr-language: en_us
 title: Teilnehmer in einem Kurs können nicht angezeigt werden
-description: Auf der Registerkarte "Teilnehmer" eines Kurses werden keine Teilnehmer angezeigt, die im Adobe-Lernmanager registriert sind. Wenn Sie jedoch einen Bericht generieren, können Sie die registrierten Teilnehmer im Bericht anzeigen.
+description: Auf der Registerkarte "Teilnehmer" eines Kurses werden keine Teilnehmer angezeigt, die im Adobe-Lernmanager registriert sind. Wenn Sie jedoch einen Bericht generieren, können Sie die registrierten Teilnehmer im Bericht anzeigen lassen.
 contentowner: saghosh
 source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
 workflow-type: tm+mt
 source-wordcount: '212'
-ht-degree: 0%
+ht-degree: 58%
 
 ---
 
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 ## Problem
 
-Sie können die Teilnehmer, die für einen Kurs registriert sind, nicht anzeigen.
+Sie können die Teilnehmer, die für einen Kurs registriert sind, nicht anzeigen lassen.
 
 ## Beschreibung
 
-Auf der Registerkarte &quot;Teilnehmer&quot; eines Kurses werden keine registrierten Teilnehmer angezeigt. Wenn Sie jedoch einen Bericht generieren, können Sie die registrierten Teilnehmer im Bericht anzeigen.
+Die Registerkarte „Teilnehmer“ eines Kurses zeigt keine registrierten Teilnehmer an. Wenn Sie jedoch einen Bericht generieren, können Sie die registrierten Teilnehmer im Bericht anzeigen lassen.
 
 ![](assets/no-learners.png)
 
@@ -32,13 +32,13 @@ Wenn sich ein Teilnehmer über ein höheres Lernobjekt (Lernprogramm oder Zertif
 
 **Wie kann ich sehen, bei welchem höheren Lernobjekt der Teilnehmer registriert ist?**
 
-Sie können diese Informationen im Teilnehmertranskriptbericht überprüfen. Um ein Teilnehmertranskript zu generieren, führen Sie die folgenden Schritte aus:
+Sie können diese Informationen im Teilnehmertranskript überprüfen. Um das Teilnehmertranskript zu generieren, führen Sie die folgenden Schritte aus:
 
-1. Melden Sie sich als Administrator an.
+1. Melden Sie sich als ein Administrator an.
 1. Klicken **[!UICONTROL Berichte]** > **[!UICONTROL Benutzerdefinierte Berichte]** > **[!UICONTROL Excel-Berichte]** > **[!UICONTROL Teilnehmertranskript]**.
 
 1. Geben Sie den Namen des **[!UICONTROL Teilnehmer]** und geben Sie den Befehl **[!UICONTROL Datum]** Bereich.
-1. Erweitern Sie den Abschnitt **[!UICONTROL Erweiterte Optionen]** und wählen Sie die Option **[!UICONTROL Modulebeneninformationen aktivieren]**.
-1. Klicken **[!UICONTROL Generieren]**.
+1. Erweitern Sie den Abschnitt **[!UICONTROL Erweiterte Optionen]** und wählen Sie die Option **[!UICONTROL Modulebeneninformationen aktivieren]** aus.
+1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 
-   Im Teilnehmertranskript können Sie sehen, bei welchem höheren Lernobjekt der Teilnehmer registriert ist.
+   Anhand des Teilnehmertranskripts können Sie sehen, bei welchem höheren Lernobjekt der Teilnehmer registriert ist.

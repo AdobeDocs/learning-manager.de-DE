@@ -1,12 +1,12 @@
 ---
 jcr-language: en_us
-title: Systemanforderungen | Adobe Learning Manager Desktop-Anwendung
+title: Systemanforderungen | Adobe Learning Manager-Desktop-Anwendung
 description: Systemanforderungen für die Adobe Learning Manager-Desktopanwendung
 contentowner: kuppan
 source-git-commit: 69ac8f8ce5a0c077f31569571f9d9fbf16ecb943
 workflow-type: tm+mt
 source-wordcount: '145'
-ht-degree: 0%
+ht-degree: 70%
 
 ---
 
@@ -18,27 +18,27 @@ ht-degree: 0%
 
 ### Authoring
 
-* Betriebssystem: Windows 7, Windows 8.1 und Windows 10 (nur in 64-Bit-Versionen)
+* Betriebssystem: Windows 7, Windows 8.1 und Windows 10 (nur auf 64-Bit-Versionen)
 * Prozessor: Intel® CoreTM i5 und höher
-* RAM: mindestens 8 GB
-* Anzeige: Mindestauflösung von 1024 x 768 Punkt, empfohlen: 1366 x 768 Punkt
-* Speicher: mindestens 5 GB freier Festplattenspeicher
+* Ram: Minimum 8 GB
+* Anzeige: Mindestauflösung 1024 x 768, Empfohlen - 1366 x 768
+* Speicher: Mindestens 5 GB verfügbarer Festplattenspeicher
 * Internetverbindung
 
-## MAC OS {#macos}
+## Mac OS {#macos}
 
 ### Authoring
 
 * Betriebssystem: Mac OSX 10.12, 10.13, 10.14 (nur 64-Bit-Version)
 * Prozessor: Intel® CoreTM i5 und höher
-* RAM: mindestens 8 GB
-* Anzeige: Mindestauflösung von 1024 x 768 Punkt, empfohlen: 1366 x 768 Punkt
-* Speicher: mindestens 5 GB freier Festplattenspeicher
+* Ram: Minimum 8 GB
+* Anzeige: Mindestauflösung 1024 x 768, Empfohlen - 1366 x 768
+* Speicher: Mindestens 5 GB verfügbarer Festplattenspeicher
 * Internetverbindung
 
-## Sprachversion {#languageversions}
+## Sprachversionen {#languageversions}
 
-Diese Anwendung ist in den folgenden Sprachen verfügbar:
+Diese Anwendung ist in den folgenden Sprachen verfügbar: 
 
 * Englisch
 * Französisch
@@ -52,4 +52,4 @@ Diese Anwendung ist in den folgenden Sprachen verfügbar:
 ## Empfohlene Kameras und Mikrofone {#recommendedcamerasandmicrophones}
 
 * Blaue Mikrofone (Yeti/Snowball/Snowflake)
-* Logitech HD Webcams (930/920/910)
+* Logitech HD-Webcams (930/920/910)

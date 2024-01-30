@@ -1,11 +1,11 @@
 ---
-description: Erfahren Sie, wie Sie Inhalte zum Selbststudium erstellen können, die Kursen zugeordnet werden können.
+description: Erfahren Sie, wie Sie Inhalt zum Selbststudium erstellen können, der Kursen zugeordnet werden kann.
 jcr-language: en_us
 title: Inhaltsbibliothek
 source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
 workflow-type: tm+mt
 source-wordcount: '3113'
-ht-degree: 0%
+ht-degree: 65%
 
 ---
 
@@ -13,15 +13,15 @@ ht-degree: 0%
 
 # Inhaltsbibliothek
 
-Erfahren Sie, wie Sie Inhalte zum Selbststudium erstellen können, die Kursen zugeordnet werden können.
+Erfahren Sie, wie Sie Inhalt zum Selbststudium erstellen können, der Kursen zugeordnet werden kann.
 
 ## Inhaltsbibliothek {#contentlibrary}
 
-Der Inhalt ist der Baustein eines Kurses. Autoren erstellen eine Bibliothek von Inhalten, die Kursen als Module zum Selbststudium hinzugefügt werden können. Auf diese Inhaltsbibliothek haben nur Autoren Zugriff.
+Inhalte sind die Bausteine eines Kurses. Autoren erstellen eine Bibliothek von Inhalten, die Kursen als Module zum Selbststudium hinzugefügt werden können. Auf diese Inhaltsbibliothek haben nur Autoren Zugriff.
 
 ## Unterstützte Inhaltstypen {#supported}
 
-Sie können sowohl interaktive als auch statische Inhalte in die Bibliothek hochladen.
+Sie können interaktive und statische Inhalte in der Bibliothek hochladen.
 
 Die folgende Tabelle zeigt den Typ der interaktiven und statischen Dateitypen, die Sie in die Bibliothek hochladen können.
 
@@ -29,7 +29,7 @@ Die folgende Tabelle zeigt den Typ der interaktiven und statischen Dateitypen, d
  <tbody>
   <tr>
    <td>
-    <p><b>Interaktive Inhalte.</b></p></td>
+    <p><b>Interaktive Inhalte</b></p></td>
    <td>
     <p><b>Inhaltstyp</b></p></td>
    <td>
@@ -48,7 +48,7 @@ Die folgende Tabelle zeigt den Typ der interaktiven und statischen Dateitypen, d
     </ul>
     <p></p></td>
    <td>
-    <p>fliegen</p></td>
+    <p>zip</p></td>
   </tr>
   <tr>
    <td>
@@ -80,7 +80,7 @@ Die folgende Tabelle zeigt den Typ der interaktiven und statischen Dateitypen, d
    <td>
     <p>PDF</p></td>
    <td>
-    <p>pdf</p></td>
+    <p>PDF</p></td>
   </tr>
   <tr>
    <td>
@@ -109,59 +109,59 @@ Die folgende Tabelle zeigt den Typ der interaktiven und statischen Dateitypen, d
  </tbody>
 </table>
 
-## Neuen Inhalt zur Bibliothek hinzufügen {#addnewcontentinthelibrary}
+## Fügen Sie der Bibliothek neuen Inhalt hinzu {#addnewcontentinthelibrary}
 
 Wie im vorherigen Abschnitt erwähnt, können Sie der Bibliothek sowohl interaktiven als auch statischen Inhalt hinzufügen.
 
 ## Statischen Inhalt hinzufügen {#addstaticcontent}
 
-1. Melden Sie sich als Autor an und klicken Sie dann im linken Teilfenster auf Inhaltsbibliothek und dann auf Hinzufügen.
+1. Melden Sie sich als Autor an und klicken Sie dann im linken Teilfenster auf „Inhaltsbibliothek“ und dann auf „Hinzufügen“. 
 
-   Alternativ können Sie auf der Seite &quot;Erste Schritte&quot; auf &quot;Inhalt erstellen&quot; klicken.
+   Alternativ dazu können Sie auf der Seite „Erste Schritte“ auf „Inhalt erstellen“ klicken.
 
-1. Geben Sie im Feld Name einen Namen für den Inhalt ein, den Sie hochladen möchten.
-1. Geben Sie im Feld &quot;Beschreibung&quot; die Beschreibung für den Inhalt ein. Stellen Sie sicher, dass die Beschreibung, die Sie eingeben möchten, aussagekräftig ist. Die Zeichenbegrenzung beträgt 400 Zeichen.
-1. Um den Inhalt hinzuzufügen, klicken Sie auf Inhaltsdatei hinzufügen und laden Sie Ihre Ressourcendatei hoch. Wenn Sie Inhalte für mehrere Sprachen hinzufügen, können Sie nicht statische und interaktive Inhalte in einer Gruppe kombinieren. Entweder sollte der gesamte Inhalt in allen Sprachen statisch sein, oder der gesamte Inhalt sollte interaktiv sein.
+1. Geben Sie im Feld „Name“ einen Namen für den Inhalt ein, den Sie hochladen möchten.
+1. Geben Sie im Feld „Beschreibung“ die Beschreibung für den Inhalt ein. Stellen Sie sicher, dass die Beschreibung, die Sie eingeben möchten, aussagekräftig ist. Die Zeichenbegrenzung beträgt 400 Zeichen.
+1. Um den Inhalt hinzuzufügen, klicken Sie auf „Inhaltsdatei hinzufügen“ und laden Sie Ihre Ressourcendatei hoch. Wenn Sie Inhalte für verschiedene Sprachen hinzufügen, können Sie nicht statische und interaktive Inhalte in einer Gruppe kombinieren. Entweder sollte der gesamte Inhalt in allen Sprachen statisch sein, oder der gesamte Inhalt sollte interaktiv sein.
 
-   Wenn Sie den Inhalt ersetzen möchten, können Sie einen statischen Inhalt durch einen anderen statischen Inhalt ersetzen. Dasselbe gilt für interaktive Inhalte.
+   Wenn Sie den Inhalt ersetzen möchten, können Sie einen statischen Inhalt durch einen anderen statischen Inhalt ersetzen. Gleiches gilt für interaktive Inhalte.
 
-1. Im Feld &quot;Dauer&quot; können Sie optional die geschätzte Zeit, die ein Teilnehmer in diesem Modul verbringen würde, eingeben. Die Dauer ist in Minuten.
+1. Im Feld „Dauer“ können Sie optional die geschätzte Zeit, die ein Teilnehmer in diesem Modul verbringen würde, ein. Es dauert nur Minuten.
 
-   Die vom Teilnehmer aufgewendete Lernzeit wird basierend auf der angegebenen Dauer berechnet, wenn der Teilnehmer einen Kurs als abgeschlossen markiert hat. Wenn der Teilnehmer den Inhalt des Players verwendet, wird die im Player verbrachte Zeit zur aufgewendeten Lernzeit hinzugefügt. Wenn die tatsächliche Inhaltszeit kürzer als die angegebene Dauer ist, geschieht nichts, da der Player die Inhaltszeit für die Anzeige immer einhält.
+   Die vom Teilnehmer aufgewendete Lernzeit wird anhand der angegebenen Dauer berechnet, wenn der Teilnehmer einen Kurs als abgeschlossen markiert hat. Wenn der Teilnehmer den Inhalt des Players verwendet, wird die im Player verbrachte Zeit zur aufgewendeten Lernzeit addiert. Wenn die tatsächliche Inhaltszeit kürzer als die angegebene Dauer ist, geschieht nichts, da der Player die Inhaltszeit für die Anzeige immer einhält.
 
-1. Geben Sie im Feld &quot;Inhalts-Tags&quot; die Tags für den hochgeladenen Inhalt ein, damit Ihr Inhalt sichtbar wird.
+1. Geben Sie im Feld „Inhalts-Tags“ die Tags für den hochgeladenen Inhalt ein, damit Ihr Inhalt sichtbar wird.
 
    Ein Autor kann diese Tags verwenden, um nach dem Inhalt zu suchen, während er den Inhalt zum Kurs hinzufügt.
 
 ### Versionierung {#versioning}
 
-Die Inhaltsbibliothek verwaltet auch die Versionierung Ihrer hochgeladenen Inhalte. Wenn Sie Änderungen am Inhalt vornehmen, z. B. eine PowerPoint-Präsentation, und die PPT-Datei erneut in die Bibliothek hochladen, wird die Versionsnummer um eins erhöht. Dies hilft Ihnen, Änderungen an Ihren Inhalten zu verfolgen.
+Die Inhaltsbibliothek verwaltet auch die Versionierung Ihrer hochgeladenen Inhalte. Wenn Sie Änderungen am Inhalt vornehmen, beispielsweise eine PowerPoint-Präsentation, und die PPT-Datei erneut in die Bibliothek hochladen, wird die Versionsnummer um eins erhöht. Auf diese Weise können Sie Änderungen an Ihren Inhalten nachverfolgen.
 
-## Interaktive Inhalte hinzufügen. {#addinteractivecontent}
+## Hinzufügen von interaktiven Inhalten {#addinteractivecontent}
 
-1. Melden Sie sich als Autor an und klicken Sie dann im linken Teilfenster auf Inhaltsbibliothek und dann auf Hinzufügen.
+1. Melden Sie sich als Autor an und klicken Sie dann im linken Teilfenster auf „Inhaltsbibliothek“ und dann auf „Hinzufügen“. 
 
-   Alternativ können Sie auf der Seite &quot;Erste Schritte&quot; auf &quot;Inhalt erstellen&quot; klicken.
+   Alternativ dazu können Sie auf der Seite „Erste Schritte“ auf „Inhalt erstellen“ klicken.
 
-1. Geben Sie im Feld Name einen Namen für den Inhalt ein, den Sie hochladen möchten.
-1. Geben Sie im Feld &quot;Beschreibung&quot; die Beschreibung für den Inhalt ein. Stellen Sie sicher, dass die Beschreibung, die Sie eingeben möchten, aussagekräftig ist. Die Zeichenbegrenzung beträgt 245 Zeichen.
-1. Um den Inhalt hinzuzufügen, klicken Sie auf Inhaltsdatei hinzufügen und laden Sie Ihre Ressourcendatei hoch. Wenn Sie Inhalte für mehrere Sprachen hinzufügen, können Sie nicht statische und interaktive Inhalte in einer Gruppe kombinieren. Entweder sollte der gesamte Inhalt in allen Sprachen statisch sein, oder der gesamte Inhalt sollte interaktiv sein.
+1. Geben Sie im Feld „Name“ einen Namen für den Inhalt ein, den Sie hochladen möchten.
+1. Geben Sie im Feld „Beschreibung“ die Beschreibung für den Inhalt ein. Stellen Sie sicher, dass die Beschreibung, die Sie eingeben möchten, aussagekräftig ist. Die Zeichenbegrenzung beträgt 245 Zeichen.
+1. Um den Inhalt hinzuzufügen, klicken Sie auf „Inhaltsdatei hinzufügen“ und laden Sie Ihre Ressourcendatei hoch. Wenn Sie Inhalte für verschiedene Sprachen hinzufügen, können Sie nicht statische und interaktive Inhalte in einer Gruppe kombinieren. Entweder sollte der gesamte Inhalt in allen Sprachen statisch sein, oder der gesamte Inhalt sollte interaktiv sein.
 
 * [Unterstützte Dateitypen](content-library.md#supported)*
 
-  Der interaktive Inhalt kann ein SCORM-, AICC- oder ein Captivate-Projekt sein. Die Datei muss eine ZIP-Datei sein.
+  Der interaktive Inhalt kann ein von SCORM, AICC oder Captivate veröffentlichtes Projekt sein. Die Datei muss eine Zip-Datei sein.
 
-  Sie können auch HTML-Inhalte hinzufügen, die von Captivate, Presenter oder Presenter Video Express generiert wurden.
+  Sie können auch HTML-Inhalte hinzufügen, die aus Captivate, Presenter oder Presenter Video Express generiert wurden.
 
 [Unterstützte Dateitypen](content-library.md#supported)
 
-1. Learning Manager unterstützt Untertitel für Videoinhalte, die in Learning Manager hochgeladen werden. Jetzt können Autoren die Datei mit den Untertiteln zusammen mit der Videodatei hochladen.
+1. Learning Manager unterstützt Untertitel für in Learning Manager hochgeladene Videoinhalte. Jetzt können Autoren die Datei mit den Untertiteln zusammen mit der Videodatei hochladen.
 
    Anschließend können die Teilnehmer die Untertitel während der Wiedergabe des Videomoduls anzeigen.
 
    Das unterstützte Format ist  [Web Video Text Tracks (webVTT)](https://www.w3.org/TR/webvtt1/).
 
-   Untertitelunterstützung ist für Videoinhalte verfügbar, die in die Inhaltsbibliothek in Learning Manager hochgeladen wurden.
+   Untertitelunterstützung ist für Videoinhalte verfügbar, die in die Learning Manager-Inhaltsbibliothek hochgeladen werden.
 
    Wenn Sie als Autor Video- oder Audioinhalte hochladen, können Sie auch die VTT-Datei hochladen, die die Untertitel enthält.
 
@@ -175,7 +175,7 @@ Die Inhaltsbibliothek verwaltet auch die Versionierung Ihrer hochgeladenen Inhal
 
    Die hochgeladene VTT-Datei entspricht der vorhandenen Version des Inhalts. Daher wird die hochgeladene webVTT-Datei nicht mit der älteren Version des Inhalts verknüpft.
 
-   Wenn Sie den Inhalt in verschiedenen Sprachen erstellen, können Sie für jede Sprache eine andere webVTT-Datei hochladen. Die Teilnehmer können die Untertitel sehen, die der während der Wiedergabe ausgewählten Sprache entsprechen.
+   Wenn Sie den Inhalt in verschiedenen Sprachen erstellen, können Sie für jede Sprache eine andere webVTT-Datei hochladen. Die Teilnehmer können die Beschriftungen sehen, die der während der Wiedergabe ausgewählten Sprache entsprechen.
 
    >[!NOTE]
    >
@@ -185,22 +185,22 @@ Die Inhaltsbibliothek verwaltet auch die Versionierung Ihrer hochgeladenen Inhal
 
    Nachdem Sie diesen Inhalt einem Kurs hinzugefügt haben und wenn Sie den Kurs als Teilnehmer in der Vorschau anzeigen, können Sie die Untertitel im Video sehen.
 
-   Aktivieren Sie im Player die CC-Schaltfläche im Fluidic Player, um die Untertitel ein- oder auszublenden.
+   Schalten Sie auf dem Player die CC-Schaltfläche im Fluidic Player ein, um die Beschriftungen ein- oder auszublenden.
 
-   Die gleiche Ansicht ist auch im **Teilnehmer-App** sowie in **Vorschau als Teilnehmer**.
+   Die gleiche Ansicht ist sowohl in der **Teilnehmer-App** als auch in der **Vorschau als Teilnehmer** vorhanden.
 
    Wenn Sie **Hinzufügen, Aktualisieren oder Löschen** der VTT-Datei erhalten Sie eine Benachrichtigung.
 WebVTT-Unterstützung ist nicht verfügbar für:
 
    1. Videoankündigungen.
-   1. Video, das innerhalb des Lerninhalts abgespielt wird. Dies hängt vom Inhalt ab.
+   1. Video, das innerhalb des Lerninhalts abgespielt wird. Das hängt vom Inhalt ab.
    1. In Soziales Lernen hochgeladenes Video.
-   1. Video, das in der Learning Manager-Desktop-Applikation erstellt wurde.
-   1. Mit dem Migrationsvorgang erstellte Videoinhalte.
+   1. In der Learning Manager-Desktop-App erstelltes Video.
+   1. Mithilfe des Migrationsvorgangs erstellte Videoinhalte.
    1. Videowiedergabe in der mobilen App im Offlinemodus.
 
-1. Im Feld &quot;Dauer&quot; können Sie optional die geschätzte Zeit, die ein Teilnehmer in diesem Modul verbringen würde, eingeben. Die Dauer ist in Minuten.
-1. Geben Sie im Feld &quot;Inhalts-Tags&quot; die Tags für den hochgeladenen Inhalt ein, damit Ihr Inhalt sichtbar wird.
+1. Im Feld „Dauer“ können Sie optional die geschätzte Zeit, die ein Teilnehmer in diesem Modul verbringen würde, ein. Es dauert nur Minuten.
+1. Geben Sie im Feld „Inhalts-Tags“ die Tags für den hochgeladenen Inhalt ein, damit Ihr Inhalt sichtbar wird.
 
 ### Unterstützung für freigegebenen Katalog
 
@@ -208,41 +208,41 @@ Wenn ein Händlerkonto einen Katalog mit den Kursen teilt und die Kurse die Modu
 
 Die Modulweitergabe sollte vom Verkäufer- zum Käuferkonto korrekt funktionieren. Dies kann Bearbeiten/Löschen/Hinzufügen der VTT-Datei im Modul beinhalten.
 
-Nachdem Sie den Inhalt hochgeladen haben, können Sie eine Benachrichtigung anzeigen, indem Sie auf das Glockensymbol in der oberen rechten Ecke der Seite klicken. Jedes Mal, wenn Sie einen Inhalt ändern und erneut hochladen, erhalten Sie eine Benachrichtigung. Wenn Sie die Änderungen vornehmen, erhalten nur Sie die Benachrichtigung, nicht andere Autoren.
+Sobald Sie den Inhalt hochgeladen haben, können Sie eine Benachrichtigung anzeigen, indem Sie oben rechts auf der Seite auf das Glockensymbol klicken. Jedes Mal, wenn Sie einen Inhalt ändern und erneut hochladen, erhalten Sie eine Benachrichtigung. Wenn Sie die Änderungen vornehmen, erhalten nur Sie die Benachrichtigung, nicht andere Autoren.
 
-## Quiz erstellen
+## Erstellen Sie ein Quiz
 
-Erstellen Sie Bewertungen im Adobe Learning Manager mit dem neuen Quizerstellungstool auf der Seite &quot;Inhaltsbibliothek&quot;. Die erstellten Bewertungen werden Teil der Inhaltsbibliothek und können zu einem &quot;öffentlichen&quot; Ordner hinzugefügt werden, um die Wiederverwendbarkeit von Kursen zu gewährleisten.
+Erstellen Sie Bewertungen im Adobe Learning Manager mit dem neuen Quizerstellungstool auf der Seite „Inhaltsbibliothek“. Die erstellten Bewertungen werden Teil der Inhaltsbibliothek und können zu einem &quot;öffentlichen&quot; Ordner hinzugefügt werden, um die Wiederverwendbarkeit von Kursen zu gewährleisten.
 
 1. Wählen Sie im linken Bereich Inhaltsbibliothek aus.
 1. Wählen Sie in der oberen rechten Ecke des Bildschirms **Hinzufügen > Quiz**.
 1. Geben Sie auf der Seite &quot;Quiz erstellen&quot; den Namen und die Beschreibung des Quiz ein.
-1. Wählen Sie im Abschnitt &quot;Quizinhalt&quot; die Option **Quizfrage hinzufügen**.
+1. Wählen Sie im Abschnitt „Quizinhalt“ die Option **Quizfrage hinzufügen**.
 1. Wählen Sie im Dialogfeld &quot;Quizfrage&quot; den Fragentyp aus. Es gibt drei Arten von Fragen:
    * Multiple-Choice-Frage
-   * True oder False
+   * Richtig oder falsch
    * Lückentext
 1. Geben Sie die Frage ein und wählen Sie die richtige Antwort aus.
 1. Legen Sie die Punkte für das Quiz fest.
-1. Aktivieren Sie das Kontrollkästchen, wenn die Frage zum Bestehen des Quiz richtig beantwortet werden soll. **Sie müssen richtig antworten, um das Quiz zu bestehen**.
-1. Auswählen **Speichern und Schließen**.
+1. Wenn die Frage zum Bestehen des Quiz richtig beantwortet werden muss, aktivieren Sie das Kontrollkästchen **Muss richtig beantwortet werden, um das Quiz zu bestehen**.
+1. Wählen Sie **Speichern und Schließen**.
 1. Geben Sie die Punkte zum Bestehen des Quiz im **Bestehen der Kriterien** ein.
 1. Wenn ein Teilnehmer eine richtige Antwort anzeigen soll, aktivieren Sie den Umschalter. **Richtige Antworten anzeigen** um Teilnehmer nach dem Quiz anzusprechen.
 1. Wenn die Fragen und Antworten zufällig angezeigt werden sollen, aktivieren Sie die Umschalter:
-   * Zufällige Fragenreihenfolge
-   * Reihenfolge der Antwortoptionen zufällig bestimmen
+   * Fragen zufällig anordnen
+   * Antwortoptionen zufällig anordnen
 1. Geben Sie einen Ordner an, um das Quiz hinzuzufügen und es so allen Autoren zur Verfügung zu stellen.
 1. Im Dialogfeld &quot; **Dauer** die Zeit an, die der Teilnehmer für das Quiz verbringen muss.
 1. Geben Sie ein Tag aus der Liste der bereits erstellten Tags an.
 1. Fügen Sie dem Quiz ein Logo und einen Hintergrund hinzu.
 1. Wählen Sie in der rechten oberen Ecke der Seite **Veröffentlichen**.
 
-Das Quiz wird der Inhaltsbibliothek hinzugefügt. Wie alle Inhalte in der Inhaltsbibliothek können Sie ein Quiz einstellen und dann löschen.
+Das Quiz wird der Inhaltsbibliothek hinzugefügt. Wie alle Inhalte in der Inhaltsbibliothek können Sie ein Quiz außer Betrieb nehmen und dann löschen.
 
 
 ## Dem Ordner hinzufügen {#add-folder}
 
-Nachdem ein Administrator die Inhaltsordner erstellt hat, können Sie, ein Autor, einen Inhalt in einen Inhaltsordner hochladen, sodass der Inhalt nur für Sie oder eine ausgewählte Gruppe von Autoren im Konto sichtbar ist. Sie können den Inhalt auch veröffentlichen und für alle Autoren im Konto sichtbar machen.
+Nachdem ein Administrator die Inhaltsordner erstellt hat, können Sie, ein Autor, einen Inhalt in einen Inhaltsordner hochladen, sodass der Inhalt nur für Sie oder eine bestimmte Gruppe von Autoren im Konto sichtbar ist. Sie können den Inhalt auch veröffentlichen und für alle Autoren im Konto sichtbar machen.
 
 **Beispielverwendung**
 
@@ -310,7 +310,7 @@ Wenn Sie einen Ordner kopieren, fügen Sie dem Ordner ein Tag hinzu. Beim Kopier
 
 *Ordner kopieren*
 
-## Ordner trennen {#unlinkfolder}
+## Verknüpfung des Ordners aufheben {#unlinkfolder}
 
 Das Aufheben der Verknüpfung bedeutet, dass der Inhalt aus dem ausgewählten Ordner entfernt wird.
 
@@ -318,13 +318,13 @@ Die Verknüpfung von Inhalt mit einem angegebenen Ordner kann aufgehoben werden.
 
 >[!NOTE]
 >
->Das Menü &quot;Organisieren&quot; unter &quot;Aktionen&quot; ist zunächst deaktiviert. Um dies zu verwenden, müssen Sie zunächst einen Ordner in der Dropdown-Liste Ordner auswählen.
+>Das Menü &quot;Organisieren&quot; unter &quot;Aktionen&quot; ist zunächst deaktiviert. Um dies zu verwenden, müssen Sie zunächst einen Ordner in der Dropdownliste „Ordner“ auswählen.
 
 ![](assets/unlink-a-folder.png)
 
 *Verknüpfung eines Ordners aufheben*
 
-## Inhalte für verschiedene Sprachen hinzufügen {#addcontentfordifferentlanguages}
+## Fügen Sie Inhalte für verschiedene Sprachen hinzu {#addcontentfordifferentlanguages}
 
 1. Um den Inhalt für verschiedene Sprachen hinzuzufügen, klicken Sie auf die Schaltfläche **Neue Sprache hinzufügen** und wählen Sie die gewünschten Sprachen aus. Mit diesem Ansatz können Sie mehrsprachige Unterstützung für Ihre Inhalte hinzufügen.
 
@@ -333,7 +333,7 @@ Die Verknüpfung von Inhalt mit einem angegebenen Ordner kann aufgehoben werden.
    *Neue Sprache für einen Inhalt hinzufügen*
 
 1. Wiederholen Sie den Vorgang zum Hochladen von Inhalten für die neuen Sprachen.
-1. Wenn Sie eine Sprache entfernen möchten, klicken Sie auf die Registerkarte &quot;Neue Sprache hinzufügen&quot; und deaktivieren Sie Ihre Auswahl.
+1. Wenn Sie eine Sprache entfernen möchten, klicken Sie auf die Registerkarte „Neue Sprache hinzufügen“, und deaktivieren Sie Ihre Auswahl.
 
    Nachdem Sie die Änderungen vorgenommen haben, klicken Sie auf Speichern. In der Bibliothek kann der neue Inhalt jetzt verwendet werden.
 
@@ -345,20 +345,20 @@ Die Verknüpfung von Inhalt mit einem angegebenen Ordner kann aufgehoben werden.
    <td>
     <p><b>Statische Inhalte</b></p></td>
    <td>
-    <p><b>Interaktive Inhalte.</b></p></td>
+    <p><b>Interaktive Inhalte</b></p></td>
   </tr>
   <tr>
    <td>
-    <p>Sie können nur die Option <b>Abschluss</b> Kriterien für den Inhalt für die folgenden Optionen:</p>
+    <p>Sie können nur für die folgenden Optionen die <b> Abschluss</b>-Kriterien für den Inhalt festlegen:</p>
     <ul>
-     <li>Beim Starten von Inhalten</li>
-     <li>Basierend auf dem erforderlichen Mindestprozentsatz</li>
+     <li>Bei Inhaltsaufruf</li>
+     <li>Basierend auf erforderlichem Mindestergebnis (in Prozent)</li>
     </ul></td>
    <td>
-    <p>Sie können beide <b>Abschluss</b> und <b>Erfolgreich</b> Kriterien für den Inhalt für die folgenden Optionen:</p>
+    <p>Sie können <b>Abschluss</b>- und <b>Erfolgs</b>-Kriterien für den Inhalt für die folgenden Optionen festlegen:</p>
     <ul>
-     <li>Beim Starten von Inhalten</li>
-     <li>Basierend auf dem erforderlichen Mindestprozentsatz</li>
+     <li>Bei Inhaltsaufruf</li>
+     <li>Basierend auf erforderlichem Mindestergebnis (in Prozent)</li>
      <li>Optionen für Quiz bestanden oder Quizversuch</li>
     </ul>
     <p><b>HINWEIS:</b> Es können nur HTML-Inhalte von Captivate, Presenter Video Express oder Presenter bearbeitet werden.</p></td>
@@ -370,19 +370,19 @@ Nachdem Sie den Inhalt hinzugefügt haben, können Sie die Abschlusskriterien f�
 
 Im Learning Manager werden Abzeichen und Kenntnisse basierend auf Erfolg und Abschluss vergeben. Wenn der Teilnehmer einen Kurs abgeschlossen hat, aber nicht erfolgreich ist, erhält der Teilnehmer nicht das Abzeichen und die Kenntnisse, die dem LO entsprechen.
 
-Wenn Sie beispielsweise Adobe Captivate verwendet haben, um Ihren Kurs zu erstellen und die Lernparameter im Dialogfeld &quot;Voreinstellungen&quot; festzulegen, werden dieselben Einstellungen in den Optionen für die Abschlusskriterien zum Lern-Manager migriert.
+Wenn Sie beispielsweise Adobe Captivate zum Erstellen Ihres Kurses und zum Festlegen der Lernparameter im Dialogfeld „Voreinstellungen“ verwendet haben, werden dieselben Einstellungen in den Abschlusskriterienoptionen zu Learning Manager migriert.
 
-Im Abschnitt &quot;Abschlusskriterien&quot; können Sie die folgenden Optionen festlegen:
+Im Abschnitt „Abschlusskriterien“ können Sie die folgenden Optionen festlegen:
 
 **Beim Starten von Inhalten:** Wenn Sie diese Option aktivieren, definieren Sie die Abschlusskriterien für den Inhalt, wenn ein Teilnehmer den Inhalt öffnet.
 
-**Basierend auf dem erforderlichen Mindestprozentsatz:** Legen Sie einen Wert als Mindestprozentsatz für die Nutzung durch den Teilnehmer fest. Wenn Sie beispielsweise den Prozentsatz auf 50 festlegen, kann der Teilnehmer 50 % des Inhalts verwenden und trotzdem die Abschlusskriterien erfüllen.
+**Basierend auf dem erforderlichen Mindestprozentsatz:** Legen Sie einen Wert als Mindestprozentsatz für die Verwendung vom Teilnehmer fest. Wenn Sie beispielsweise den Prozentsatz auf 50 festlegen, kann der Teilnehmer 50 % des Inhalts verwenden und trotzdem die Abschlusskriterien erfüllen.
 
-**Test:** Wählen Sie eines der folgenden Kriterien aus:
+**Quiz:** Sie können eines der folgenden Kriterien auswählen:
 
-* **Quiz bestanden:** Der Status wird nur als &quot;Vollständig&quot; übermittelt, wenn der Teilnehmer das Quiz besteht.
-* **Quiz durchgeführt:** Der Status wird als &quot;Abgeschlossen&quot; übermittelt, wenn Teilnehmer das Quiz durchführen, unabhängig davon, ob sie es bestehen oder nicht.
-* **Quiz bestanden oder Limit erreicht:** Der Status wird als &quot;Abgeschlossen&quot; übermittelt, wenn die Teilnehmer das Quiz bestehen oder alle Versuche unternommen haben. Wenn die Anzahl der Versuche im Kurs beispielsweise auf zwei festgelegt ist und:
+* **Quiz bestanden:** In diesem Fall wird der Status nur als „Vollständig“ übermittelt, wenn die Benutzer das Quiz bestehen. 
+* **Quiz durchgeführt**: In diesem Fall wird der Status als „Vollständig“ übermittelt, wenn Benutzer das Quiz durchführen, unabhängig davon, ob sie es bestehen oder nicht. 
+* **Quiz bestanden oder Limit erreicht:** Der Status wird als „Abgeschlossen“ gemeldet, wenn die Teilnehmer das Quiz bestehen oder alle Versuche unternommen haben. Wenn die Anzahl der Versuche im Kurs beispielsweise auf 2 festgelegt ist und:
 
    * Wenn Teilnehmer den ersten Versuch unternehmen und das Quiz bestehen, wird der Status als &quot;Vollständig&quot; und &quot;Bestanden&quot; übermittelt.
    * Wenn Teilnehmer den ersten Versuch unternehmen und das Quiz nicht bestehen, wird der Status als &quot;Unvollständig&quot; und &quot;Fehlgeschlagen&quot; übermittelt, da die erlaubte Anzahl der Versuche noch immer nicht erreicht wurde.
@@ -391,17 +391,17 @@ Im Abschnitt &quot;Abschlusskriterien&quot; können Sie die folgenden Optionen f
 
 ## Erfolgskriterien festlegen {#setsuccesscriteria}
 
-Ebenso können Sie die Erfolgskriterien für den Kurs definieren. Ein Erfolgskriterium gibt die Leistung eines Teilnehmers als bestanden oder nicht bestanden an. Wenn Sie auf dem Captivate einen Kurs erstellt haben, können Sie die Erfolgskriterien für den Kurs im Dialogfeld &quot;Voreinstellungen&quot; wie folgt festlegen:
+Ebenso können Sie die Erfolgskriterien für den Kurs definieren. Ein Erfolgskriterium gibt die Leistung eines Teilnehmers als bestanden oder nicht bestanden an. Wenn Sie einen Kurs in Captivate erstellt haben, können Sie die Erfolgskriterien für den Kurs im Dialogfeld „Voreinstellungen“ wie folgt festlegen:
 
-Sie haben beispielsweise ein Modul hochgeladen, in dem sich ein Quiz befindet. Jetzt haben Sie die Abschlusskriterien für dieses Modul auf &quot;Beim Starten von Inhalten&quot; und die Erfolgskriterien auf &quot;Bestanden&quot; gesetzt.
+Sie haben beispielsweise ein Modul hochgeladen, in dem sich ein Quiz befindet. Jetzt haben Sie die Abschlusskriterien für dieses Modul auf „Beim Starten von Inhalten“ und die Erfolgskriterien auf „Bestanden“ gesetzt.
 
 Wenn der Teilnehmer den Kurs gestartet hat und das Quiz nicht bestanden hat, wird der Kurs als abgeschlossen markiert. Die Erfolgskriterien werden jedoch nur erfüllt, wenn der Teilnehmer das Quiz besteht.
 
-## Inhaltsfilteroptionen {#contentfilteroptions}
+## Inhalts-Filteroptionen {#contentfilteroptions}
 
 ### Nach Datum sortieren {#sortaccordingtodate}
 
-Sortieren Sie den Inhalt nach dem Zeitpunkt der letzten Änderung. Sie können den Inhalt entweder in aufsteigender oder absteigender Reihenfolge sortieren.
+Sortieren Sie den Inhalt nach den letzten Änderungen. Sie können den Inhalt entweder in aufsteigender oder absteigender Reihenfolge sortieren.
 
 ![](assets/according-to-date.png)
 
@@ -409,13 +409,13 @@ Sortieren Sie den Inhalt nach dem Zeitpunkt der letzten Änderung. Sie können d
 
 ### Nach Verwendung sortieren {#sortaccordingtousage}
 
-Sortieren Sie den Inhalt entsprechend der Verwendung des Inhalts in einem Kurs. Wählen Sie in der Dropdown-Liste &quot;Typ&quot; die Option &quot;Wird verwendet&quot; oder &quot;Nicht verwendet&quot;.
+Sortieren Sie den Inhalt entsprechend der Verwendung des Inhalts in einem Kurs. Wählen Sie in der Dropdown-Liste „Typ“ die Option „Wird verwendet“ oder „Nicht verwendet“.
 
 ![](assets/according-to-usage.png)
 
 *Inhalte nach Nutzung sortieren*
 
-## Nach Inhalten suchen {#searchforcontent}
+## Nach Inhalt suchen {#searchforcontent}
 
 In der Inhaltsbibliothek können Sie nach Inhalten suchen, indem Sie entweder den Namen des Inhalts oder die mit dem Inhalt verknüpften Tags auswählen.
 
@@ -425,32 +425,32 @@ Geben Sie in der Suchleiste den Namen eines Kurses oder eines Tags ein, um die E
 
 ## Inhalt zurückziehen {#retirecontent}
 
-Nachdem Sie einen Inhalt veröffentlicht haben, können Sie ihn nicht mehr löschen. Sie müssen den Inhalt zuerst zurückziehen. Wenn Sie einen Inhalt als &quot;Eingestellt&quot; markieren, ist er für die Teilnehmer nicht mehr sichtbar. Der Inhalt wird auch in den Bereich &quot;Zurückgezogen&quot; verschoben. Sie können den Inhalt auch später in den Status &quot;Veröffentlicht&quot; verschieben.
+Sobald Sie einen Inhalt veröffentlicht haben, können Sie ihn nicht mehr löschen. Sie müssen den Inhalt zuerst zurückziehen. Wenn Sie einen Inhalt als „Zurückgezogen“ markieren, ist er für die Teilnehmer nicht mehr sichtbar. Der Inhalt wird auch in den Bereich „Zurückgezogen“ verschoben. Sie können den Inhalt auch später in den Status „Veröffentlicht“ ändern.
 
-Führen Sie die folgenden Schritte aus, um Inhalte einzustellen:
+Um Inhalt zurückzuziehen, führen Sie die folgenden Schritte aus:
 
-* Wählen Sie in der Inhaltsbibliothek den Inhalt aus, den Sie einstellen möchten.
-* Wählen Sie Aktion > Einstellen.
+* Wählen Sie in der Inhaltsbibliothek die Inhalte aus, die zurückgezogen werden sollen.
+* Wählen Sie „Aktionen“ > „Einstellen“.
 
-Inhalte, die in Lernobjekten verwendet werden, werden nicht beeinflusst. Teilnehmer können weiterhin auf die Inhalte zugreifen.
+Inhalte, die in Lernobjekten verwendet werden, werden nicht beeinflusst. Die Teilnehmenden können weiterhin auf die Inhalte zugreifen.
 
 ## Veröffentlichen Sie zurückgezogene Inhalte erneut {#republishretiredcontent}
 
-Sobald Sie einen Inhalt zurückgezogen haben, können Sie ihn erneut veröffentlichen und ihn in der Liste &quot;Veröffentlicht&quot; anzeigen. Wenn Sie beispielsweise Version 1 eines Inhalts zurückgezogen haben und diese durch Version 2 ersetzen möchten, können Sie beispielsweise version1.pptx in die Liste &quot;Veröffentlicht&quot; verschieben und die Datei mit version2.pptx aktualisieren. Die neue Datei kann in verschiedenen Kursen verwendet werden.
+Sobald Sie einen Inhalt zurückgezogen haben, können Sie ihn erneut veröffentlichen und ihn in der Liste „Veröffentlicht“ anzeigen. Wenn Sie beispielsweise Version 1 eines Inhalts zurückgezogen haben und diese durch Version 2 ersetzen möchten, können Sie beispielsweise version1.pptx in die Liste „Veröffentlicht“ verschieben und die Datei mit version2.pptx aktualisieren. Die neue Datei kann in verschiedenen Kursen verwendet werden.
 
-So veröffentlichen Sie den eingestellten Inhalt erneut:
+So veröffentlichen Sie den zurückgezogenen Inhalt erneut:
 
-1. Navigieren Sie zur Registerkarte **Rentner** und wählen Sie den Inhalt aus, den Sie erneut veröffentlichen möchten.
+1. Navigieren Sie zur Registerkarte **Zurückgezogen** und wählen Sie den Inhalt aus, den Sie erneut veröffentlichen möchten.
 1. Auswählen **Aktion** > **Neu veröffentlichen**.
 
-Der Inhalt wird jetzt in der Liste &quot;Veröffentlicht&quot; angezeigt.
+Der Inhalt wird jetzt in der Liste „Veröffentlicht“ angezeigt.
 
 ## Inhalte löschen {#deletecontent}
 
 Nachdem Sie einen Inhalt zurückgezogen haben, können Sie ihn löschen.
 
-* Navigieren Sie zur Registerkarte Eingestellt und wählen Sie den Inhalt aus, den Sie löschen möchten.
-* Wählen Sie Aktion > Löschen.
+* Navigieren Sie zur Registerkarte „Zurückgezogen“ und wählen Sie den Inhalt aus, den Sie löschen möchten.
+* Wählen Sie Aktionen > Löschen.
 
 Beachten Sie, dass vorhandene Kurse, die den Inhalt verwenden und aus der Inhaltsbibliothek gelöscht werden, den Inhalt weiterhin verwenden.
 
@@ -463,11 +463,11 @@ Erstellen Sie einen SCORM-kompatiblen eLearning-Kurs in einem beliebigen Tool, z
 
 +++Wie lade ich eine neue Version desselben Inhalts zum Learning Manager hoch?
 
-In Learning Manager verwaltet die Inhaltsbibliothek auch Versionen Ihrer hochgeladenen Inhalte. Wenn Sie Änderungen am Inhalt vornehmen, z. B. eine PowerPoint-Präsentation, und die Präsentation erneut in die Bibliothek hochladen, wird die Versionsnummer um eins erhöht. Dies hilft Ihnen, Änderungen an Ihren Inhalten zu verfolgen. Eine neue Version des Inhalts kann gleichzeitig auf alle Lernobjekte angewendet werden, oder Sie können für jeden Kurs einzelne Updates anwenden.
+In Learning Manager verwaltet die Inhaltsbibliothek auch Versionen Ihrer hochgeladenen Inhalte. Wenn Sie Änderungen am Inhalt vornehmen, z. B. eine PowerPoint-Präsentation, und die Präsentation erneut in die Bibliothek hochladen, wird die Versionsnummer um eins erhöht. Auf diese Weise können Sie Änderungen an Ihren Inhalten nachverfolgen. Eine neue Version des Inhalts kann gleichzeitig auf alle Lernobjekte angewendet werden, oder Sie können für jeden Kurs einzelne Aktualisierungen anwenden.
 +++
 
 +++Wie kann ich die Details eines Kurses in einer anderen Sprache bearbeiten?
-Nachdem Sie eine Sprache/Sprachen wie in einem früheren Abschnitt beschrieben hinzugefügt haben, klicken Sie auf jede Sprachenregisterkarte und fügen die Kursinformationen hinzu bzw. bearbeiten sie.
+Nachdem Sie eine Sprache/Sprachen wie in einem früheren Abschnitt beschrieben hinzugefügt haben, klicken Sie auf die jeweilige Sprachenregisterkarte und fügen die Kursinformationen hinzu bzw. bearbeiten sie.
 
 &lt;!--![](assets/edit-course-language.png)--->
 +++
