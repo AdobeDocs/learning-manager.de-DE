@@ -3,10 +3,10 @@ jcr-language: en_us
 title: Benutzer wird automatisch in Learning Manager gelöscht
 description: Ein Benutzer wird aus Learning Manager gelöscht, der Administrator hat jedoch nie eine solche Aktion ausgeführt.
 contentowner: nluke
-source-git-commit: 3242a293fc4b2707044e11c342c984cbfb2fc434
+source-git-commit: 99c4df44388667efdd162f74918bc3daf907a0f3
 workflow-type: tm+mt
 source-wordcount: '234'
-ht-degree: 55%
+ht-degree: 61%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 55%
 
 ## Problem
 
-A **Anwender** wird aus dem Lern-Manager gelöscht, der Administrator hat jedoch nie eine solche Aktion ausgeführt.
+Ein Benutzer wird aus Learning Manager gelöscht, der Administrator hat jedoch nie eine solche Aktion ausgeführt.
 
 ## Ursache
 
