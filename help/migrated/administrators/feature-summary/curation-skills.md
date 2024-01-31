@@ -3,7 +3,7 @@ jcr-language: en_us
 title: Kenntnisse Kenntnisdomänen zuordnen
 description: Um einen Beitrag, der von einem Benutzer der KI-fähigen Kurations-Engine für eine bestimmte Kenntnisdomäne gepostet wurde, automatisch zu kuratieren, müssen die benutzerdefinierten Kenntnisse des Benutzers den unterstützten Kenntnisdomänen im Learning Manager-LMS zugeordnet werden.
 contentowner: kuppan
-source-git-commit: 3d5cc91c8973385b5b13244df026667009fc88f7
+source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 95%
