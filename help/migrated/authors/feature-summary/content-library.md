@@ -2,7 +2,7 @@
 description: Erfahren Sie, wie Sie Inhalt zum Selbststudium erstellen können, der Kursen zugeordnet werden kann.
 jcr-language: en_us
 title: Inhaltsbibliothek
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+source-git-commit: 5a8f1af4af180e04fced782ff58111269e005a20
 workflow-type: tm+mt
 source-wordcount: '3113'
 ht-degree: 65%
@@ -147,7 +147,7 @@ Die Inhaltsbibliothek verwaltet auch die Versionierung Ihrer hochgeladenen Inhal
 1. Geben Sie im Feld „Beschreibung“ die Beschreibung für den Inhalt ein. Stellen Sie sicher, dass die Beschreibung, die Sie eingeben möchten, aussagekräftig ist. Die Zeichenbegrenzung beträgt 245 Zeichen.
 1. Um den Inhalt hinzuzufügen, klicken Sie auf „Inhaltsdatei hinzufügen“ und laden Sie Ihre Ressourcendatei hoch. Wenn Sie Inhalte für verschiedene Sprachen hinzufügen, können Sie nicht statische und interaktive Inhalte in einer Gruppe kombinieren. Entweder sollte der gesamte Inhalt in allen Sprachen statisch sein, oder der gesamte Inhalt sollte interaktiv sein.
 
-* [Unterstützte Dateitypen](content-library.md#supported)*
+* [Unterstützte Dateitypen](content-library.md#supported)
 
   Der interaktive Inhalt kann ein von SCORM, AICC oder Captivate veröffentlichtes Projekt sein. Die Datei muss eine Zip-Datei sein.
 
