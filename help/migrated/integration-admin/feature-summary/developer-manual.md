@@ -728,7 +728,7 @@ Felder\
 name\
 pointsEarned\
 profile\
-ROLE\
+Rollen\
 Status\
 timeZoneCode\
 uiLocale
@@ -783,7 +783,7 @@ modelIds\
 modelNames\
 modelTypes\
 vorlesen\
-ROLE
+Rolle
 
 +++
 
