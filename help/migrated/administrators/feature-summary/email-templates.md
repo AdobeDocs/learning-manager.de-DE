@@ -3,10 +3,10 @@ description: Die Ereignisse in Ihrer Schulungsaktivität lösen E-Mails aus, die
 jcr-language: en_us
 title: E-Mail-Vorlagen
 contentowner: manochan
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 91066c86891f8efbd34fc96178decdd9ee120d1e
 workflow-type: tm+mt
-source-wordcount: '1442'
-ht-degree: 62%
+source-wordcount: '1478'
+ht-degree: 60%
 
 ---
 
@@ -21,6 +21,16 @@ Learning Manager verschickt E-Mail-Benachrichtigungen ereignisgesteuert an mehre
 Als Administrator können Sie E-Mail-Vorlagen anpassen, indem Sie Inhalte hinzufügen oder ändern und Benachrichtigungen für verschiedene Ereignisse, die von Teilnehmern, Managern und Autoren ausgelöst wurden, an Benutzer senden.
 
 Die Administratoren können auch festlegen, dass bei bestimmten Ereignissen keine E-Mail-Benachrichtigungen gesendet werden.
+
+## Einführung in E-Mail-Vorlagen
+
+In dieser Schulung erfahren Sie, wie Sie einzelne E-Mail-Vorlagen anpassen und Einstellungen auf Kurs- und Kontoebene für E-Mail-Vorlagen anpassen.
+
+[![Knopf](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QYL4NT4P&amp;mv=display&amp;mv2=display#/course/8318925)
+
+<!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
+
+Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.com>.
 
 ## Konfigurieren Sie E-Mail-Vorlagen {#configureemailtemplates}
 
