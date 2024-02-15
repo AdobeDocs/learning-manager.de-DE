@@ -3,10 +3,10 @@ jcr-language: en_us
 title: Kataloge
 description: Kataloge sind eine Sammlung von Lernkursen, Lernprogrammen und Zertifizierungen. Verwenden Sie Kataloge, um den Teilnehmern den Zugriff auf einen benutzerdefinierten Lernsatz zu ermöglichen. Sie können Lernprogramme während der Erstellung eines neuen Katalogs einem Katalog zuordnen.
 contentowner: manochan
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+source-git-commit: 192e68c115b7d38682e4214c0f8d14fa91e4bd3c
 workflow-type: tm+mt
-source-wordcount: '2371'
-ht-degree: 77%
+source-wordcount: '2397'
+ht-degree: 76%
 
 ---
 
@@ -17,6 +17,15 @@ ht-degree: 77%
 Kataloge sind eine Sammlung von Lernkursen, Lernprogrammen und Zertifizierungen. Verwenden Sie Kataloge, um den Teilnehmern den Zugriff auf einen benutzerdefinierten Lernsatz zu ermöglichen. Sie können Lernprogramme während der Erstellung eines neuen Katalogs einem Katalog zuordnen.
 
 Als Administrator können Sie benutzerdefinierte Kataloge erstellen, wenn Sie selektive Kurse für verschiedene Teilnehmern in Ihrem Konto oder über Konten hinweg verfügbar machen möchten.
+
+## Einführung in Kataloge
+
+In dieser Schulung erfahren Sie, wie Sie Kataloge erstellen und verwalten.
+
+[![Knopf](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QTV3NXVQ&amp;mv=display&amp;mv2=display#/course/8318922)
+
+Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.com>.
+
 
 ## Katalog erstellen {#createacatalog}
 
