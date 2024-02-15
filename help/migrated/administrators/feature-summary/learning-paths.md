@@ -3,10 +3,10 @@ jcr-language: en_us
 title: Lernpläne
 description: Erstellen von Lernplänen für Administratoren in Learning Manager.
 contentowner: saghosh
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: f3e751215d0bcf65be4fbca59d5373011f195366
 workflow-type: tm+mt
-source-wordcount: '1894'
-ht-degree: 43%
+source-wordcount: '1940'
+ht-degree: 42%
 
 ---
 
@@ -21,6 +21,14 @@ Oft sind Administratoren daran interessiert, einen detaillierten Lehrplan zu ers
 Hier kommt der Lernpfad ins Spiel. Ein Lernpfad ist eine Reise, die ein Teilnehmer durchlaufen muss, um ein Thema im Laufe der Zeit zu meistern. Die Teilnehmer haben die Kontrolle über ihre Schulungserfahrung und können mit größerer Effektivität Kenntnisse auf selbstständige Weise erwerben und behalten.
 
 Wenn ein Unternehmen beispielsweise neue Mitarbeiter einbaut, führt es Schulungen zu Richtlinien und Verfahren, Kultur, Geschichte usw. durch. Ein Lernplan richtet die Kurse entsprechend den Bedürfnissen der Mitarbeiter ein, damit Mitarbeiter sich gemäß dem Lernplan für die Kurse registrieren können. und Sie können Benutzer für diesen Pfad registrieren, damit sie von Kurs zu Kurs fortschreiten können.
+
+## Erstellen und Konfigurieren von Lernpfaden
+
+In dieser Schulung erfahren Sie, wie Sie einen Lernpfad erstellen, ihm einen Kurs hinzufügen, einen Lernpfad veröffentlichen und einstellen und Instanzen in einem Lernpfad konfigurieren.
+
+[![Knopf](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QQ42P2LR&amp;mv=display&amp;mv2=display#/course/8318919)
+
+Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.com>.
 
 ## Vorteile eines Lernplans
 
