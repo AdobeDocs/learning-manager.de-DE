@@ -3,9 +3,9 @@ description: Erfahren Sie, wie Sie Benutzende oder Benutzendengruppen in der Lea
 jcr-language: en_us
 title: Hinzufügen von Benutzern und Erstellen von Benutzergruppen
 contentowner: manochan
-source-git-commit: 25c618a8f288562e3dd409d6ec666f33ac715e46
+source-git-commit: 9b7966d3dd88e61dc1b2467a9469b12b8bda4afc
 workflow-type: tm+mt
-source-wordcount: '3984'
+source-wordcount: '3982'
 ht-degree: 64%
 
 ---
@@ -24,30 +24,7 @@ In dieser Schulung erfahren Sie, wie Sie eine Benutzergruppe anhand von Namen, E
 
 <!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
 
-<style>
-   button {
-    background-color: #1373E6; /* Blue */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 30px;
-}
-
-button:hover {
-  background-color: #008CBA;
-  color: white;
-}
-</style>
-
-<a href="https://learningmanager.adobe.com/app/learner?accountId=98632#/course/7555694">
-   <button type="button">Einführungsschulung</button>
-</a>
-
-<br/>
+[![Knopf](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QLD1P6BS&amp;mv=display&amp;mv2=display#/course/7555694)
 
 Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.com>.
 
@@ -70,30 +47,7 @@ Als Administrator können Sie Benutzer auf drei Arten hinzufügen:
 
 Fügen Sie dem Adobe-Lernmanager interne Teilnehmer mit einer Einzelbenutzeroption hinzu.
 
-<style>
-   button {
-    background-color: #1373E6; /* Blue */
-    border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    border-radius: 30px;
-}
-
-button:hover {
-  background-color: #008CBA;
-  color: white;
-}
-</style>
-
-<a href="https://learningmanager.adobe.com/app/learner?accountId=98632#/course/7555534">
-   <button type="button">Einführungsschulung</button>
-</a>
-
-<br/>
+[![Knopf](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QGMZPB2T&amp;mv=display&amp;mv2=display#/course/7555534)
 
 Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.com>.
 
