@@ -3,9 +3,9 @@ description: Informieren Sie sich über die Berichte, die mit der Administratorr
 jcr-language: en_us
 title: Berichte
 contentowner: manochan
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+source-git-commit: 275e019d077104445e7f5489e6cd07ac9f3c9084
 workflow-type: tm+mt
-source-wordcount: '6441'
+source-wordcount: '6502'
 ht-degree: 65%
 
 ---
@@ -25,6 +25,14 @@ Berichte für Administratoren und Manager werden auf ähnliche Weise erstellt. M
 Berichte werden in einem Dashboard generiert. Ein Bericht muss sich in einem Dashboard befinden. A **[!UICONTROL Standard-Dashboard]** ist standardmäßig auf der Berichtsseite vorhanden. Alle Berichte, die Sie hinzufügen, werden in dieses Standard-Dashboard verschoben. Um einem einzelnen Dashboard einen Bericht hinzuzufügen, wählen Sie in der Dropdownliste **[!UICONTROL Bericht hinzufügen]**. Genauere Informationen über das Erstellen von Dashboards finden Sie im Bereich „Dashboards“ auf dieser Seite.
 
 ## Dashboards für Lernzusammenfassungen {#dashboards}
+
+### Dashboard-Berichte erstellen
+
+In dieser Schulung erfahren Sie, wie Sie Dashboard-Berichte aus der Datenbank generieren.
+
+[![Knopf](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=R3B5NPDN&amp;mv=display&amp;mv2=display#/course/8318854)
+
+Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.com>.
 
 Sehen Sie sich einen zusammenfassenden Bericht über alle Lernaktivitäten in der Plattform an. Auf dieser Seite können Sie die folgenden Zusammenfassungsinformationen für das Team des ausgewählten Stammbenutzers und die externen Profile sehen. Der Zeitbereich kann auch ausgewählt werden:
 
@@ -502,6 +510,14 @@ Wenn Ihnen mehrere Manager unterstellt sind, können Sie die Berichte für jeden
 >Die Managerwerte, die Sie verwenden, um den Bericht anzuzeigen, sind temporär. Wenn Sie die Option „Herunterladen“ wählen, wird diese Berichtsansicht nicht heruntergeladen. Es handelt sich dabei nur um eine temporäre Ansicht.
 
 ## Kursberichte anzeigen {#viewcoursereports}
+
+### Kursberichte generieren
+
+In dieser Schulung erfahren Sie, wie Sie Kursberichte exportieren und E-Mail-Abonnements für diese Berichte einrichten.
+
+[![Knopf](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=R726NKNM&amp;mv=display&amp;mv2=display#/course/8318904)
+
+Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.com>.
 
 Sie können zu jedem Kurs spezifische Berichte anzeigen.
 
