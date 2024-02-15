@@ -3,10 +3,10 @@ description: Farbdesigns und Branding in Learning Manager
 jcr-language: en_us
 title: Farbdesigns
 contentowner: jayakarr
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 5fd6f5bff1a2863239f1ff5a1625147d0e26119d
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 63%
+source-wordcount: '881'
+ht-degree: 61%
 
 ---
 
@@ -17,6 +17,14 @@ ht-degree: 63%
 Farbdesigns und Branding in Learning Manager
 
 Mit Learning Manager können Sie das Aussehen der Anwendung ändern, um sie dem Branding Ihres Unternehmens anzupassen.
+
+## Anpassen der Benutzeroberfläche
+
+In dieser Schulung lernen Sie, wie Sie das Erscheinungsbild der Benutzeroberfläche an die Branding-Anforderungen eines Unternehmens anpassen können.
+
+[![Knopf](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QBWYPFSV&amp;mv=display&amp;mv2=display#/course/8318823)
+
+Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.com>.
 
 ## Branding {#branding}
 
