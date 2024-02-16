@@ -3,10 +3,10 @@ description: Farbdesigns und Branding in Learning Manager
 jcr-language: en_us
 title: Farbdesigns
 contentowner: jayakarr
-source-git-commit: 5fd6f5bff1a2863239f1ff5a1625147d0e26119d
+source-git-commit: bab53a170e74a9825bb8530bbf1b64b06e6a1cf7
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 61%
+source-wordcount: '887'
+ht-degree: 60%
 
 ---
 
@@ -56,6 +56,11 @@ Die Lern-Manager-Anwendung bietet fünf Farbdesignoptionen für ihre Benutzer:
 * Herbst
 * Winterhimmel
 * Lebhaft
+
+>[!NOTE]
+>
+>Das Lebhaft -Design ist barrierefrei.
+
 
 ![](assets/prime-customize-theme.png)
 
