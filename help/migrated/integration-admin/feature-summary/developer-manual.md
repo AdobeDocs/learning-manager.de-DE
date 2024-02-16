@@ -3,10 +3,10 @@ jcr-language: en_us
 title: Handbuch für Anwendungsentwickler
 description: Die Learning Manager V1-API ist jetzt veraltet. Die V1-APIs funktionieren ab dem 28. Februar 2021 nicht mehr. Wir empfehlen Ihnen, V2-APIs zu verwenden, um mit dem Learning Manager zu interagieren.
 contentowner: jayakarr
-source-git-commit: ab6737e8b43222a6538921b0628a504a5f15859d
+source-git-commit: efb9772aac1359601ae988d9a081d395786b44fe
 workflow-type: tm+mt
-source-wordcount: '3279'
-ht-degree: 65%
+source-wordcount: '3383'
+ht-degree: 63%
 
 ---
 
@@ -14,7 +14,10 @@ ht-degree: 65%
 
 # Handbuch für Anwendungsentwickler
 
-Die Learning Manager V1-API ist jetzt veraltet. Die V1-APIs funktionieren ab dem 28. Februar 2021 nicht mehr. Wir empfehlen Ihnen, V2-APIs zu verwenden, um mit dem Learning Manager zu interagieren.
+>[!NOTE]
+>
+>Die Learning Manager V1-API ist jetzt veraltet. Wir empfehlen Ihnen, V2-APIs zu verwenden, um mit dem Learning Manager zu interagieren.
+
 
 ## Übersicht {#overview}
 
@@ -29,6 +32,10 @@ Mithilfe der Learning Manager-API können Entwickler eigenständige Anwendungen 
 Die Learning Manager-API basiert auf den Prinzipien von REST und stellt wichtige Elemente des Objektmodells von Learning Manager über HTTP für Anwendungsentwickler bereit. Entwickler können sich mit den verschiedenen Learning Manager-Objekten, ihren Attributen und Beziehungen vertraut machen, bevor sie die Details zu den API-Endpunkten und den HTTP-Methoden kennen. Nachdem ein zuverlässiges Verständnis der Modelle vorhanden ist, empfiehlt es sich, Grundkenntnisse der Struktur von API-Anfragen und -Antworten zu erwerben und einige häufig vorkommende Programmierungsbegriffe zu erlernen, die in der gesamten API unterstützt werden.
 
 Ausführliche Informationen zu den verschiedenen API-Endpunkten und -Methoden finden Sie unter  [Dokumentation zur Learning Manager-API](https://learningmanager.adobe.com/docs/primeapi/v2/).
+
+>[!IMPORTANT]
+>
+>Mit den Adobe Learning Manager-Teilnehmer-APIs können Sie ein benutzerdefiniertes Lernerlebnis für Ihre Benutzer erstellen. Die Verwendung dieser APIs erfordert ein gültiges Benutzertoken und darf nur für Arbeitsabläufe mit einem vollständig lizenzierten/registrierten Teilnehmer verwendet werden. Sie dürfen nicht, wie es der Fall ist, für irgendeine Art von Datenabruf verwendet werden, um nicht angemeldete Benutzer/freigegebene Benutzer oder andere solche Fälle zu unterstützen. Nicht angemeldete Nutzungsszenarien erfordern eine besondere Handhabung. Wenden Sie sich an das Team für Lösungsarchitekturen, falls Sie Fragen zur geeigneten Verwendung dieser APIs haben, und vergewissern Sie sich, dass ein Lösungsarchitekt eine Lösung überprüft hat, bevor Sie sie bereitstellen.
 
 ## API-Authentifizierung {#apiauthentication}
 
@@ -763,7 +770,7 @@ dateStart\
 eingeschrieben\
 -ID\
 Monat\
-Vierteljahr
+Quartal
 
 **Beziehungen**
 containerLO(learningObject)\
