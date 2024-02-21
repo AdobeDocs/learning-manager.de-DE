@@ -3,9 +3,9 @@ description: Erfahren Sie, wie Sie verschiedene Connectors in Learning Manager i
 jcr-language: en_us
 title: Learning Manager-Connectors
 contentowner: jayakarr
-source-git-commit: ab6737e8b43222a6538921b0628a504a5f15859d
+source-git-commit: 3ed216c1754d8393647e50892ab9ca4d122099f6
 workflow-type: tm+mt
-source-wordcount: '15880'
+source-wordcount: '15898'
 ht-degree: 65%
 
 ---
@@ -2112,6 +2112,11 @@ Der Kurs oder Lernpfad kann erst erworben werden, wenn die Daten in Adobe Commer
 ### Exportieren des Kurses nach Adobe Commerce
 
 Nachdem ein Autor die Preise für verschiedene Kurse, Lernpfade oder Zertifizierungen festgelegt hat, exportieren Sie als Integrationsadministrator die Kurse, Lernpfade oder Zertifizierungen in Adobe Commerce.
+
+>[!NOTE]
+>
+>In der Version März 2024 von Adobe Learning Manager haben wir Unterstützung für [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=en).
+
 
 1. Klicken **[!UICONTROL Schulungsmetadaten exportieren]** > **[!UICONTROL On Demand]**.
 
