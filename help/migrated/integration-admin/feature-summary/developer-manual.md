@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Handbuch für Anwendungsentwickler
 description: Die Learning Manager V1-API ist jetzt veraltet. Die V1-APIs funktionieren ab dem 28. Februar 2021 nicht mehr. Wir empfehlen Ihnen, V2-APIs zu verwenden, um mit dem Learning Manager zu interagieren.
 contentowner: jayakarr
-source-git-commit: efb9772aac1359601ae988d9a081d395786b44fe
+source-git-commit: 956c119a5650b535a906157dc4d36f2ff075cf01
 workflow-type: tm+mt
-source-wordcount: '3383'
+source-wordcount: '3385'
 ht-degree: 63%
 
 ---
@@ -33,9 +33,17 @@ Die Learning Manager-API basiert auf den Prinzipien von REST und stellt wichtige
 
 Ausführliche Informationen zu den verschiedenen API-Endpunkten und -Methoden finden Sie unter  [Dokumentation zur Learning Manager-API](https://learningmanager.adobe.com/docs/primeapi/v2/).
 
+## Teilnehmer-APIs
+
+Adobe Learning Manager : Mit Teilnehmer-APIs können Sie ein benutzerdefiniertes Lernerlebnis für Ihre Benutzer erstellen. Die Verwendung dieser APIs erfordert ein gültiges Benutzertoken und darf nur für Arbeitsabläufe mit einem vollständig lizenzierten/registrierten Teilnehmer verwendet werden.
+
 >[!IMPORTANT]
 >
->Mit den Adobe Learning Manager-Teilnehmer-APIs können Sie ein benutzerdefiniertes Lernerlebnis für Ihre Benutzer erstellen. Die Verwendung dieser APIs erfordert ein gültiges Benutzertoken und darf nur für Arbeitsabläufe mit einem vollständig lizenzierten/registrierten Teilnehmer verwendet werden. Sie dürfen nicht, wie es der Fall ist, für irgendeine Art von Datenabruf verwendet werden, um nicht angemeldete Benutzer/freigegebene Benutzer oder andere solche Fälle zu unterstützen. Nicht angemeldete Nutzungsszenarien erfordern eine besondere Handhabung. Wenden Sie sich an das Team für Lösungsarchitekturen, falls Sie Fragen zur geeigneten Verwendung dieser APIs haben, und vergewissern Sie sich, dass ein Lösungsarchitekt eine Lösung überprüft hat, bevor Sie sie bereitstellen.
+>Sie dürfen nicht, wie es der Fall ist, für irgendeine Art von Datenabruf verwendet werden, um nicht angemeldete Benutzer/freigegebene Benutzer oder andere solche Fälle zu unterstützen.
+
+Die nicht angemeldeten Nutzungsszenarien erfordern eine besondere Behandlung.
+
+**Wenden Sie sich an das Team für Lösungsarchitekturen, falls Sie Fragen zur geeigneten Verwendung dieser APIs haben, und stellen Sie sicher, dass ein Lösungsarchitekt eine Lösung vor der Bereitstellung überprüft hat.**.
 
 ## API-Authentifizierung {#apiauthentication}
 
