@@ -3,10 +3,10 @@ jcr-language: en_us
 title: Gleichzeitiges Hinzufügen mehrerer Benutzer
 description: Erfahren Sie, wie Sie mehrere Benutzer gleichzeitig hinzufügen.
 contentowner: saghosh
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 33%
+source-wordcount: '316'
+ht-degree: 25%
 
 ---
 
@@ -14,7 +14,15 @@ ht-degree: 33%
 
 # Gleichzeitiges Hinzufügen mehrerer Benutzer
 
-Ja, Sie können mehrere Benutzer gleichzeitig hinzufügen, indem Sie die folgenden Schritte ausführen:
+In dieser Schulung erfahren Sie, wie Sie mehrere Benutzer gleichzeitig über eine CSV-Datei hinzufügen.
+
+[![Knopf](feature-summary/assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=51TC8QS1&amp;mv=display&amp;mv2=display#/course/7555555)
+
+Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.com>.
+
+## Mehrere Benutzer hinzufügen
+
+Sie können mehrere Benutzer gleichzeitig hinzufügen, indem Sie die folgenden Schritte ausführen:
 
 1. Klicken **[!UICONTROL Benutzer]** im linken Bereich bei der Administratoranmeldung und klicken Sie dann auf **[!UICONTROL Hinzufügen]** > **[!UICONTROL CSV hochladen]**. Ein Popup-Fenster wird angezeigt.
 

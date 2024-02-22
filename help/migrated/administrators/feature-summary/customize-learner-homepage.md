@@ -3,10 +3,10 @@ jcr-language: en_us
 title: Anpassen der Teilnehmer-Startseite
 description: Ein Administrator kann die Startseite des Teilnehmers anpassen und sie moderner, inhaltsorientierter und für einen Teilnehmer personalisiert gestalten.
 contentowner: saghosh
-source-git-commit: 2dd741a9e0e49986df34bd415ea57f9e64f3b26a
+source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
 workflow-type: tm+mt
-source-wordcount: '1132'
-ht-degree: 47%
+source-wordcount: '1158'
+ht-degree: 46%
 
 ---
 
@@ -18,9 +18,17 @@ ht-degree: 47%
 
 Ein Administrator kann die Startseite des Teilnehmers anpassen und sie moderner, inhaltsorientierter und für einen Teilnehmer personalisiert gestalten.
 
-Der personalisierte Ansatz bietet die Möglichkeit, eine Teilnehmer-Startseite mit Widgets zu erstellen, die der Administrator des Unternehmens in der Admin-Benutzeroberfläche WYSIWYG konfigurieren kann.
+Der personalisierte Ansatz bietet eine Widget-basierte Möglichkeit, eine Teilnehmer-Startseite zu erstellen, die der Administrator des Unternehmens in der Admin-Benutzeroberfläche WYSIWYG konfigurieren kann.
 
 Die Erfahrung basiert auf personalisierten Schulungsempfehlungen eines AI-basierten Algorithmus, der Inhalte von Drittanbietern für Branchenkenntnisse analysiert, Peer-Aktivitäten einbezieht und Interessensbereiche von Teilnehmern mithilfe expliziter und impliziter Daten berücksichtigt.
+
+### Anpassen der Teilnehmer-Startseite
+
+In dieser Schulung lernen Sie, wie Sie die Teilnehmerseite anpassen können.
+
+[![Knopf](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=4SC98Z83&amp;mv=display&amp;mv2=display#/course/8318825)
+
+Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.com>.
 
 ## Konfigurieren der Startseite des Teilnehmers {#configurethelearnerhomepage}
 

@@ -3,10 +3,10 @@ description: Erfahren Sie, wie Sie Benutzende oder Benutzendengruppen in der Lea
 jcr-language: en_us
 title: Hinzufügen von Benutzern und Erstellen von Benutzergruppen
 contentowner: manochan
-source-git-commit: 9b7966d3dd88e61dc1b2467a9469b12b8bda4afc
+source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
 workflow-type: tm+mt
-source-wordcount: '3982'
-ht-degree: 64%
+source-wordcount: '4000'
+ht-degree: 63%
 
 ---
 
@@ -155,13 +155,21 @@ Wählen Sie in der Liste der Benutzer einen Benutzer aus und klicken Sie auf den
 ![](assets/edit-user.png)
 *Dialogfeld &quot;Benutzer bearbeiten&quot;*
 
-## Arbeitsabläufe für aktive Felder und aktive Feldwerte unter Beachtung der Groß- und Kleinschreibung
+## Aktive Felder
 
-In dieser Version beachtet Learning Manager die Groß- und Kleinschreibung des Benutzerattributs und seines Werts. **Beispiel**, die Groß- und Kleinschreibung des Benutzerattributs &quot;location&quot; und der Wert &quot;PARIS&quot; werden beibehalten und auf die gleiche Weise angezeigt. Bei Problemen kann der Administrator jetzt den Attributnamen und die Attributwerte bearbeiten, um Fehler bei der Groß- und Kleinschreibung zu korrigieren.
+### Benutzerattribute verwalten
+
+In dieser Schulung erfahren Sie, wie Sie aktive Felder hinzufügen, anpassen und konfigurieren.
+
+[![Knopf](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=55KD8M1Z&amp;mv=display&amp;mv2=display#/course/7555741)
+
+Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.com>.
+
+Adobe Learning Manager behält die Groß- und Kleinschreibung des Benutzerattributs und seines Werts bei. **Beispiel**, die Groß- und Kleinschreibung des Benutzerattributs &quot;location&quot; und der Wert &quot;PARIS&quot; werden beibehalten und auf die gleiche Weise angezeigt. Bei Problemen kann der Administrator jetzt den Attributnamen und die Attributwerte bearbeiten, um Fehler bei der Groß- und Kleinschreibung zu korrigieren.
 
 Der Administrator kann das tun, indem er den &quot; **[!UICONTROL Admin-App]** > **[!UICONTROL Benutzer]** > **[!UICONTROL Benutzergruppen]** und klicken Sie auf den Gruppennamen.
 
-Der Administrator kann zulässige Attributwerte für einen Teilnehmer über die Benutzeroberfläche hinzufügen und aktualisieren.
+Ein Administrator kann zulässige Attributwerte für einen Teilnehmer über die Benutzeroberfläche hinzufügen und aktualisieren.
 
 Typen aktiver Felder:
 

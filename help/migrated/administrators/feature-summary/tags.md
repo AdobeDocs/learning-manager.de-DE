@@ -3,10 +3,10 @@ description: Erfahren Sie, wie Sie Tags in Learning Manager verwalten.
 jcr-language: en_us
 title: Tags
 contentowner: dvenkate
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 67%
+source-wordcount: '762'
+ht-degree: 63%
 
 ---
 
@@ -19,6 +19,14 @@ Administratoren können jetzt Tags in Learning Manager verwalten. Verwenden Sie 
 Die Liste der Lernobjekte, die mit dem Tag verknüpft sind, kann durch Klicken auf die Anzahl neben jedem Tag angezeigt werden. Die Liste enthält die Anzahl der Kurse, Lernprogramme, Zertifikate, Arbeitshilfen und Inhaltsgruppen. Klicken Sie auf eine dieser Optionen, um die Liste anzuzeigen.
 
 Sie können die Tags anhand der Nutzung oder in alphabetischer Reihenfolge mit der Option **[!UICONTROL Sortieren nach]** sortieren.
+
+## Einführung in Tags
+
+In dieser Schulung erfahren Sie, wie Sie Tags hinzufügen, bearbeiten, ersetzen, anhängen und löschen. Außerdem erfahren Sie, wie Sie Berechtigungseinstellungen ändern und Tag-Filter verwenden.
+
+[![Knopf](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=5S7K7ZCT&amp;mv=display&amp;mv2=display#/course/8318920)
+
+Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.com>.
 
 ## Hinzufügen/Löschen/Bearbeiten von Tags {#adddeleteedittags}
 

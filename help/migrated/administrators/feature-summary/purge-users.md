@@ -3,10 +3,10 @@ description: Erfahren Sie mehr über das Bereinigen von Benutzerdaten in Learnin
 jcr-language: en_us
 title: Benutzer bereinigen
 contentowner: dvenkate
-source-git-commit: 53c1a5283295b56424d697bc26c5db31c2edca0f
+source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
 workflow-type: tm+mt
-source-wordcount: '849'
-ht-degree: 75%
+source-wordcount: '887'
+ht-degree: 72%
 
 ---
 
@@ -27,6 +27,16 @@ Das Bereinigen eines Benutzers kann diese Folgen haben:
 * Wenn Kursleiter bereinigt werden, werden sie aus den Sitzungen entfernt. Der Administrator muss Kursleiter für solche Sitzungen ersetzen/hinzufügen.
 * Durch das Bereinigen eines Benutzers in Learning Manager wird der Benutzer nicht in externen Anwendungen (von Drittanbietern oder anderen von Ihnen geschriebenen Anwendungen) entfernt. Wenden Sie sich an die Eigentümer der externen Anwendung, um die Benutzer daraus zu entfernen.
 * Wenn ein bereinigter Benutzer in den Konfigurationseinstellungen eines Connectors referenziert wird, wird der Connector deaktiviert. Der Connector muss vom Administrator neu konfiguriert werden, um fortzufahren.
+
+### Benutzer verwalten
+
+In dieser Schulung erfahren Sie, wie Sie Rollen zuweisen und entfernen, eine Begrüßungs-E-Mail senden und Benutzer löschen und bereinigen.
+
+[![Knopf](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=4X3B8VJ2&amp;mv=display&amp;mv2=display#/course/7555586)
+
+Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.com>.
+
+## Benutzer bereinigen
 
 Führen Sie die folgenden Schritte aus, um Benutzer zu bereinigen:
 
