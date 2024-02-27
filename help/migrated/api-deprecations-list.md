@@ -3,54 +3,55 @@ jcr-language: en_us
 title: API-Veraltungen im Adobe Learning Manager
 description: Wenn sich die APIs im Adobe Learning Manager weiterentwickeln, werden APIs regelmäßig neu organisiert oder aktualisiert. Wenn sich APIs weiterentwickeln, wird die alte API verworfen und schließlich entfernt. Diese Seite enthält Informationen, die Sie benötigen, wenn Sie von veralteten API-Versionen zu neueren und stabileren API-Versionen migrieren.
 contentowner: saghosh
-source-git-commit: 83fdd06aed823a50458d50c8ac240d56af873a6d
+source-git-commit: 24c886fcd9448b7f1d71526794a3c46a0f91d017
 workflow-type: tm+mt
-source-wordcount: '1005'
-ht-degree: 19%
+source-wordcount: '845'
+ht-degree: 21%
 
 ---
 
 
-# API-Veraltungen im Adobe Learning Manager
+# API-Veraltungen und Änderungen im Adobe Learning Manager
 
 ## API-Veraltungen in der Version März 2024 von Adobe Learning Manager
 
-### Änderungen bei den Zinsgrenzen
+<!-- ### Changes in Rate Limits
 
-Mit der nächsten Version von Adobe Learning Manager ändern wir die API-Ratenlimits für neue Konten. Bei vorhandenen Konten sind nur die Admin-APIs ratenbegrenzt. Nach 90 Tagen (ca. 3 Monaten) werden wir die Gebührenlimits für alle APIs umstrukturieren, aber bestehende Konten werden entsprechend der aktuellen Nutzung auf die Positivliste gesetzt. Bestehende Konten müssen ihre Teilnehmer-API-Nutzung erneut aufrufen.
+With the next release of Adobe Learning Manager, we're restructuring API rate limits for new accounts. For existing accounts, only the Admin APIs will be rate-limited. After 90 days (about 3 months), we will restructure rate limits for all APIs, but existing accounts will be whitelisted according to current usage. Existing accounts need to revisit their learner API usage. 
 
-Wenn neue Konten die Ratenlimits erhöhen möchten, müssen sie sich an das Customer Success Team von ALM wenden.
+For new accounts, if they want to increase the rate limits, they must contact the Customer Success team of ALM. 
 
-#### Welche APIs sind kostenpflichtig?
+#### Which APIs will be rate limited 
 
-Für neue Konten haben alle Admin-, Teilnehmer- und Such-APIs Ratenlimits und Burst erzwungen.
+For new accounts, all Admin, Learner, and Search APIs will have rate limits and burst enforced.  
 
-Die API-Burstrate bzw. das API-Burstlimit bezieht sich auf die maximale Anzahl von Anforderungen, die in einem kurzen Burst innerhalb eines begrenzten Zeitraums an eine API gestellt werden dürfen.
+The API burst rate or burst limit refers to the maximum number of requests allowed to be made to an API in a short burst within a limited timeframe. 
 
-In der folgenden Tabelle sind die Rate und die Burst-Limits für die APIs aufgeführt.
+The following table lists the rate and burst limits for the APIs.
 
 <table>
     <tr>
         <th>API</th>
-        <th>Anzahl der Anforderungen - RPM</th>
-        <th>Anzahl der Anforderungen - Burst</th>
+        <th>Number of requests-RPM</th>
+        <th>Number of requests-Burst</th>
     </tr>
     <tr>
-        <td>Administration</td>
+        <td>Admin</td>
         <td>5</td>
         <td>5</td>
     </tr>
     <tr>
-        <td>Teilnehmer</td>
+        <td>Learner</td>
         <td>20</td>
         <td>5</td>
     </tr>
     <tr>
-        <td>Suchen</td>
+        <td>Search</td>
         <td>50</td>
         <td>5</td>
     </tr>
 </table>
+-->
 
 ### Änderungen an den Versatzgrenzen
 
