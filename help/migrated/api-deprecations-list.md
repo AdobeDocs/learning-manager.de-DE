@@ -3,9 +3,9 @@ jcr-language: en_us
 title: API-Veraltungen im Adobe Learning Manager
 description: Wenn sich die APIs im Adobe Learning Manager weiterentwickeln, werden APIs regelmäßig neu organisiert oder aktualisiert. Wenn sich APIs weiterentwickeln, wird die alte API verworfen und schließlich entfernt. Diese Seite enthält Informationen, die Sie benötigen, wenn Sie von veralteten API-Versionen zu neueren und stabileren API-Versionen migrieren.
 contentowner: saghosh
-source-git-commit: 24c886fcd9448b7f1d71526794a3c46a0f91d017
+source-git-commit: 01cdcd816fe101af55adf0902f4e3660a1a098ce
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '847'
 ht-degree: 21%
 
 ---
@@ -133,7 +133,7 @@ Der Grund, warum wir das Flag für Teilnehmer-APIs verwerfen, ist, dass das Übe
 
 In Zukunft wird die folgende Teilnehmer-API nicht mehr funktionieren, da sie das Überschreiben-Flag aufweist.
 
-<code>https://captivateprime.adobe.com/primeapi/v2/users?page[Offset]=0&amp;page[begrenzen]=10&amp;sort=id&amp;override=TRUE</code>
+_/primeapi/v2/users?page[Offset]=0&amp;page[begrenzen]=10&amp;sort=id&amp;override=TRUE_
 
 ### API-Änderungen für kompetenzbasierte neue Empfehlungen
 
