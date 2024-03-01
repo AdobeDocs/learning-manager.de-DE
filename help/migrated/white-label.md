@@ -3,9 +3,9 @@ jcr-language: en_us
 title: API-Veraltungen im Adobe Learning Manager
 description: White Labels sind eine Praxis, bei der Sie eine App oder einen Service mit Ihrem eigenen Branding umbenennen und so anpassen, als wären Sie der ursprüngliche Ersteller. Im Adobe-Lernmanager können Sie eine weiße Beschriftung auf die mobile App anwenden, sodass Sie die App mit einem neuen Branding versehen und den Benutzern die App unter Ihrem eigenen Branding zur Verfügung stellen können.
 contentowner: saghosh
-source-git-commit: c5ad960861adada9bf65c462d883d1d85ef53ee9
+source-git-commit: 959df7fd0a32bc09082d3de877213084b9d458fd
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1051'
 ht-degree: 0%
 
 ---
@@ -97,7 +97,7 @@ Folgende Elemente können angepasst werden:
 
   <td>
 
-  <p>Der Name, mit dem das Betriebssystem die App identifiziert. Das übliche Format ist "- com".<company-name>`.<product-name>`.</p></td>
+  <p>Der Name, mit dem das Betriebssystem die App identifiziert. Üblicherweise wird das Format com.company-name.product-name verwendet.</p></td>
 
   </tr>
 
@@ -121,7 +121,7 @@ Folgende Elemente können angepasst werden:
 
   <td>
 
-  <p>Das App-Symbol als png. Dieses Symbol wird in Ihrer App angezeigt. Das zu benennende Format ist `<account-id>`_appIcon.png.</p></td>
+  <p>Das App-Symbol als png. Dieses Symbol wird in Ihrer App angezeigt. Das zu benennende Format ist account-id_appIcon.png.</p></td>
 
   </tr>
 
@@ -133,7 +133,7 @@ Folgende Elemente können angepasst werden:
 
   <td>
 
-  <p>Geben Sie für den Spalsh-Bildschirm Ihrer App ein Bild (png) an, das angezeigt wird, wenn Ihre Benutzer die App starten. Das zu benennende Format ist `<account-id>`_splashIcon.png.</p></td>
+  <p>Geben Sie für den Begrüßungsbildschirm Ihrer App ein Bild (png) an, das angezeigt wird, wenn die Benutzer die App starten. Das zu benennende Format ist account-id_splashIcon.png.</p></td>
 
   </tr>
 
@@ -145,7 +145,9 @@ Folgende Elemente können angepasst werden:
 
   <td>
 
-  <p>Der Integrations-Admin Ihres Kontos stellt die Details bereit, während Sie die App registrieren. Der Integrationsadministrator muss Folgendes verwenden:<ul><li>"learner:read,learner:write" als Rolle.</li><li>`<internal app name>`://redirect as redirect URL. </li></ul> </p></td>
+  <p>Der Integrations-Admin Ihres Kontos stellt die Details bereit, während Sie die App registrieren. Der Integrationsadministrator muss die folgenden Optionen verwenden: * Teilnehmer:Lesen,Teilnehmer:Schreiben als Rolle * Interne App name://redirect als Umleitungs-URL
+
+  </p></td>
 
   </tr>
 
