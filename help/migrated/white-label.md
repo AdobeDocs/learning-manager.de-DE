@@ -3,9 +3,9 @@ jcr-language: en_us
 title: API-Veraltungen im Adobe Learning Manager
 description: White Labels sind eine Praxis, bei der Sie eine App oder einen Service mit Ihrem eigenen Branding umbenennen und so anpassen, als wären Sie der ursprüngliche Ersteller. Im Adobe-Lernmanager können Sie eine weiße Beschriftung auf die mobile App anwenden, sodass Sie die App mit einem neuen Branding versehen und den Benutzern die App unter Ihrem eigenen Branding zur Verfügung stellen können.
 contentowner: saghosh
-source-git-commit: 959df7fd0a32bc09082d3de877213084b9d458fd
+source-git-commit: 7bd9877aa32c78988a5195116d2a0f25ded05c90
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1049'
 ht-degree: 0%
 
 ---
@@ -294,7 +294,7 @@ sh""" ~/Library/Android/sdk/build-tools/30.0.3/apksigner sign --ks $storeFile --
 
 ## Wie werden die Änderungen angewendet?
 
-Der Kunde sendet die erforderlichen Elemente und Dateien an das CSM-Team. Das CSM-Team füllt dann die [Form](https://forms.office.com/r/bJRRaRBvSh) mit den erforderlichen Änderungen und fügt die erforderlichen Assets an. Das Team überprüft dann die Änderungen und informiert die technischen Teams darüber. Das Engineering-Team generiert dann einen Build und gibt diesen an das CSM-Team weiter.
+Sendet die erforderlichen Elemente und Dateien an das CSM-Team. Das CSM-Team füllt dann die [Form](https://forms.office.com/r/bJRRaRBvSh) mit den erforderlichen Änderungen und fügt die erforderlichen Assets an. Das Team überprüft dann die Änderungen und informiert die technischen Teams darüber. Das Engineering-Team generiert dann einen Build und gibt diesen an das CSM-Team weiter.
 
 Das CSM-Team gibt die Version für den Kunden frei.
 
