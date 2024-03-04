@@ -3,9 +3,9 @@ description: Erfahren Sie mehr über die neuen Funktionen und Verbesserungen in 
 jcr-language: en_us
 title: Zusammenfassung der neuen Funktionen
 contentowner: jayakarr
-source-git-commit: 83623b7466ea13fbb2cefcbdefe3582f4866e214
+source-git-commit: 80530741702f2658e76b4dc4cf94a4b09cc616e2
 workflow-type: tm+mt
-source-wordcount: '3102'
+source-wordcount: '3105'
 ht-degree: 2%
 
 ---
@@ -39,7 +39,7 @@ Anzeigen [Mehrere benutzerdefinierte Brandings](administrators/feature-summary/t
 
 ### Admin- Seiten Kurs- oder Lernpfad
 
-Wenn sich viele Teilnehmer für den Kurs registriert haben, z. B. mehr als 50.000, wird die Liste der Teilnehmer nicht angezeigt. Sie können entweder im *Teilnehmer suchen* Suchleiste oder wählen Sie die Option **Herunterladen** über der Suchleiste, um die Liste der Teilnehmer herunterzuladen.
+Wenn sich viele Teilnehmer für den Kurs registriert haben, z. B. mehr als 50.000, wird die Liste der Teilnehmer nicht angezeigt. Sie können entweder im *Teilnehmer suchen* Suchleiste oder wählen Sie die Option **Herunterladen** oben in der Suchleiste, um die Liste der Teilnehmer herunterzuladen.
 
 ### Admin: Seite &quot;Teilnehmer&quot;
 
