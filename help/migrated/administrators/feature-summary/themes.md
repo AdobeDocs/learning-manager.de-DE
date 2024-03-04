@@ -3,10 +3,10 @@ description: Farbdesigns und Branding in Learning Manager
 jcr-language: en_us
 title: Farbdesigns
 contentowner: jayakarr
-source-git-commit: bab53a170e74a9825bb8530bbf1b64b06e6a1cf7
+source-git-commit: 83623b7466ea13fbb2cefcbdefe3582f4866e214
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 60%
+source-wordcount: '1195'
+ht-degree: 45%
 
 ---
 
@@ -85,6 +85,39 @@ Klicken Sie auf die **[!UICONTROL Live-Vorschau]** in der unteren linken Ecke de
 Wählen Sie das gewünschte Design aus der Dropdownliste aus, passen Sie die Einstellungen an und klicken Sie auf **[!UICONTROL Vorschau]**, um die Änderungen anzuzeigen, die in Ihrer Anwendung live sind. Jetzt können Sie alle Funktionen der Anwendung ausführen und die Änderungen ansehen. Sie können auch Ihre Rollen ändern, wenn Sie durch die Live-Vorschau navigieren. Wenn Sie mit den Änderungen zufrieden sind, können Sie zur Live-Designvorschau zurückkehren und auf **[!UICONTROL Design anwenden]**.
 
 Während Sie die Änderungen in der Vorschau live anzeigen, wird das Popupmenü „Live-Design-Vorschau“ immer noch am unteren Fensterrand angezeigt. Sie können das Popupmenü minimieren.
+
+## Mehrfaches Branding. {#multiple-branding}
+
+So implementieren Sie mehrere Branding-Elemente:
+
+1. Wählen Sie in der Admin-App **Branding** im linken Bereich.
+1. Auswählen **Bearbeiten** im Abschnitt &quot;Mehrfaches Branding&quot;.
+1. Wählen Sie die Umschaltfläche aus und aktivieren Sie sie.
+
+### Interne Benutzer
+
+1. Wählen Sie ein aktives Feld aus der Dropdownliste aus.
+1. Je nach Auswahl können Sie den Namen der Organisation ändern und ein neues Logo für die Benutzer hochladen.
+
+### Externe Benutzer
+
+1. Wählen Sie ein aktives Feld aus der Dropdownliste aus.
+1. Je nach Auswahl können Sie den Namen der Organisation ändern und ein neues Logo für die Benutzer hochladen.
+
+>[!NOTE]
+>
+>Interne Benutzer können aktive Felder wie &quot;Externe Benutzer&quot; haben (z. B. muss der Administrator das Multi-Branding für die internen Benutzer und die externen Benutzer separat hinzufügen, indem er die Werte der aktiven Felder separat auswählt).
+
+#### Wichtige Anmerkungen
+
+* Ein Administrator kann das Branding auf mehreren Ebenen für diesen aktiven Feldwert hinzufügen, und der externe Benutzer kann sich mit verschiedenen Mechanismen anmelden (SSO Single (Okta, Mini Orange), Social Login) und überprüfen, ob das Multi-Branding anwendbar ist.
+* Ein externer Benutzer hat ein aktives Feld und einen aktiven Feldwert, wie der interne Benutzer: Obwohl er freigegeben ist, muss er vom Administrator separat im Multi-Branding angegeben werden. Nach der Anwendung kann sich ein externer Benutzer mit verschiedenen Mechanismen anmelden (SSO Single (Okta, Mini Orange), Social Login) und überprüfen, ob das Multi-Branding anwendbar ist.
+* Ein externer Benutzer, der von einem Profil in ein anderes verschoben wurde: Das Verschieben des externen Benutzers von einem Profil in ein anderes Profil hat keine Auswirkungen auf den Wert des aktiven Felds für den Benutzer, es sei denn, der Wert des aktiven Felds wird vom Administrator oder vom externen Benutzer während der Anmeldung oder Registrierung bearbeitet/gelöscht.
+
+>[!NOTE]
+>
+>Wenn mehrere Brandings für interne und externe Benutzer festgelegt sind, mit demselben aktiven Feldnamen, mit demselben aktiven Feldwert, aber mit unterschiedlicher Konfiguration. In diesem Fall wäre es empfehlenswert, dieselbe Konfigurationseinstellung (Logo, Thema, Name der Organisation) zu verwenden, um Diskrepanzen zu vermeiden.
+
 
 ## Konto anpassen {#customize}
 
