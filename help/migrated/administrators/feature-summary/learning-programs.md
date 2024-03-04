@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Lernprogramme
 contentowner: manochan
 preview: true
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: 6d313e62b029f50aa77950e00b97f5c278c03b53
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1479'
 ht-degree: 75%
 
 ---
@@ -14,6 +14,11 @@ ht-degree: 75%
 
 
 # Lernprogramme
+
+>[!WARNING]
+>
+>Lernprogramme sind im Adobe-Lernmanager veraltet.
+
 
 In diesem Artikel erfahren Sie, wie Sie Lernprogramme in Learning Manager erstellen und verwalten
 
