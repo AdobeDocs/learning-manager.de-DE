@@ -3,10 +3,10 @@ description: Erfahren Sie mehr über die neuen Funktionen und Verbesserungen in 
 jcr-language: en_us
 title: Zusammenfassung der neuen Funktionen
 contentowner: jayakarr
-source-git-commit: 557293ac1c57790044d5e15d5da8e8caf3ca46c3
+source-git-commit: 2cd495d86c4652068df7235567b11706928a5754
 workflow-type: tm+mt
-source-wordcount: '3125'
-ht-degree: 2%
+source-wordcount: '3259'
+ht-degree: 1%
 
 ---
 
@@ -276,13 +276,33 @@ Anzeigen [Übermittlungsstatus](instructors/feature-summary/learners.md#filter-f
 
 In aktuellen Versionen des Adobe-Lern-Managers war der Fortschritt eines Moduls für eine Checkliste zulässig, selbst wenn ein Reviewer die Module als &quot;Fehlgeschlagen&quot; markiert hat. In dieser Version kann ein Autor so konfigurieren, dass der Fortschritt eines Teilnehmers, der die Checkliste nicht besteht, verhindert wird.
 
-Weitere Informationen finden Sie unter [Verbesserungen der Checkliste](authors/feature-summary/courses.md#mandatory-checklist) im Adobe-Lernmanager.
+#### Neubewertung der Checkliste
+
+Im selben Arbeitsablauf können Sie als Autor einen Teilnehmer, der eine Checkliste nicht bestanden hat, erneut bewerten. Wählen Sie das **Aktivieren** im Abschnitt &quot;Neubewertung&quot; beim Erstellen einer Checkliste ein.
+
+Anzeigen [Erstellen einer Checkliste](authors/feature-summary/courses.md#checklist-fail) für weitere Informationen.
 
 ## Sonstige Verbesserungen
 
-### Änderungen an der Checkliste
+### Sitzungsbezogene E-Mail-Benachrichtigungen
 
-Beim Erstellen einer Checkliste können Sie die Option **Obligatorische Checkliste** ein. Dadurch wird verhindert, dass das Modul oder der Kurs fortfährt, wenn ein Teilnehmer die Checkliste nicht besteht.
+In früheren Versionen des Adobe Learning Manager hat ein Teilnehmer keine sitzungsbezogenen E-Mails, Sitzungsdetails aktualisiert, Sitzungseinladung und Sitzungserinnerung erhalten, wenn:
+
+* Teilnehmer haben einen Kurs abgeschlossen,
+* Neue Sitzungen werden einem Kurs hinzugefügt oder
+* Es gibt Änderungen an vorhandenen Sitzungen.
+
+In der Version März 2024 von Adobe Learning Manager wurden folgende Änderungen vorgenommen:
+
+* Sitzungsdetails aktualisiert und Sitzungseinladung (für Teilnehmer und Kursleiter)
+   * Für zukünftige Sitzungen, E-Mails für **Sitzungsdetails aktualisiert**, **Einladung zur Sitzung** für registrierte Teilnehmer und aktuelle Kursleiter werden verworfen. Bei früheren Sitzungen wurden E-Mails für **Sitzungsdetails aktualisiert** und **Einladung zur Sitzung** für registrierte Teilnehmer und aktuelle Kursleiter bleiben unverändert.
+* Erinnerungs-E-Mails (für Administrator und Teilnehmer)
+   * Nur für zukünftige Sitzungen **Sitzungserinnerung** E-Mails werden versendet.
+
+>[!NOTE]
+>
+>Die E-Mails hängen nicht von der Sitzung und dem Kursabschluss ab.
+
 
 ### AEM Änderungen am Referenzstandort
 
