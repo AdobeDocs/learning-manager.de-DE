@@ -3,9 +3,9 @@ description: Erfahren Sie mehr über die neuen Funktionen und Verbesserungen in 
 jcr-language: en_us
 title: Zusammenfassung der neuen Funktionen
 contentowner: jayakarr
-source-git-commit: 80530741702f2658e76b4dc4cf94a4b09cc616e2
+source-git-commit: 557293ac1c57790044d5e15d5da8e8caf3ca46c3
 workflow-type: tm+mt
-source-wordcount: '3105'
+source-wordcount: '3125'
 ht-degree: 2%
 
 ---
@@ -425,6 +425,10 @@ Mit dieser Version wird der Anmeldezugriffsbericht für die Job-API bis zu fünf
 ```
 
 Wenn Sie versuchen, die Datei **Anmeldezugriff** -Bericht, der über fünf Quartale hinausgeht, wird eine Fehlermeldung angezeigt. Eine ähnliche Fehlermeldung wird angezeigt, wenn Sie versuchen, die Datei **Benutzerüberwachung** Bericht, der mehr als sechs Monate dauert.
+
+### Veraltete APIs
+
+Anzeigen [API-Veraltungen im Adobe Learning Manager](api-deprecations-list.md) für eine kumulative Liste aller veralteten APIs im Produkt.
 
 ## In diesem Update behobene Fehler {#bug-fixes}
 
