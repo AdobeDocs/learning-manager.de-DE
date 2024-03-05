@@ -3,9 +3,9 @@ description: Erfahren Sie mehr über die neuen Funktionen und Verbesserungen in 
 jcr-language: en_us
 title: Zusammenfassung der neuen Funktionen
 contentowner: jayakarr
-source-git-commit: 2cd495d86c4652068df7235567b11706928a5754
+source-git-commit: b4121fa6d064131c0e63e32bc4ee74b06946c08e
 workflow-type: tm+mt
-source-wordcount: '3259'
+source-wordcount: '3261'
 ht-degree: 1%
 
 ---
@@ -272,11 +272,13 @@ Als Kursleiter können Sie jetzt Dateiübermittlungen von Teilnehmern nach Statu
 
 Anzeigen [Übermittlungsstatus](instructors/feature-summary/learners.md#filter-file-submissions) für weitere Informationen.
 
-### Verbesserungen der Checkliste
+## Verbesserungen der Checkliste
+
+### Obligatorische Checkliste
 
 In aktuellen Versionen des Adobe-Lern-Managers war der Fortschritt eines Moduls für eine Checkliste zulässig, selbst wenn ein Reviewer die Module als &quot;Fehlgeschlagen&quot; markiert hat. In dieser Version kann ein Autor so konfigurieren, dass der Fortschritt eines Teilnehmers, der die Checkliste nicht besteht, verhindert wird.
 
-#### Neubewertung der Checkliste
+### Neubewertung der Checkliste
 
 Im selben Arbeitsablauf können Sie als Autor einen Teilnehmer, der eine Checkliste nicht bestanden hat, erneut bewerten. Wählen Sie das **Aktivieren** im Abschnitt &quot;Neubewertung&quot; beim Erstellen einer Checkliste ein.
 
