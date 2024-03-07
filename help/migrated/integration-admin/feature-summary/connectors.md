@@ -3,7 +3,7 @@ description: Erfahren Sie, wie Sie verschiedene Connectors in Learning Manager i
 jcr-language: en_us
 title: Learning Manager-Connectors
 contentowner: jayakarr
-source-git-commit: 4c102f932a09071996b551d352426edd681e7e9b
+source-git-commit: dfed4c72476066aa2446542f3cc50c01fbe8e02b
 workflow-type: tm+mt
 source-wordcount: '15183'
 ht-degree: 64%
@@ -774,7 +774,7 @@ Der Administrator kann Planungsaufgaben einrichten, wie sie für das Unternehmen
 
 >[!NOTE]
 >
->   Learning Manager verwendet Version 28.1 der Workday API.
+>   Learning Manager verwendet Version 40.1 der Workday API.
 
 
 ![](assets/configure-connector.png)
