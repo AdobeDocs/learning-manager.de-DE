@@ -3,9 +3,9 @@ description: Erfahren Sie mehr über die neuen Funktionen und Verbesserungen in 
 jcr-language: en_us
 title: Zusammenfassung der neuen Funktionen
 contentowner: jayakarr
-source-git-commit: 9258eb87b77618d4862749c7e3ae4b52adc67d0c
+source-git-commit: c58ebebeb671bdb47a752b8f3a9ab673a638dd80
 workflow-type: tm+mt
-source-wordcount: '3332'
+source-wordcount: '3528'
 ht-degree: 1%
 
 ---
@@ -274,13 +274,32 @@ Anzeigen [Übermittlungsstatus](instructors/feature-summary/learners.md#filter-f
 
 ## Verbesserungen der Checkliste
 
-### Obligatorische Checkliste
+In der Version März 2024 von Adobe Learning Manager wurden folgende Verbesserungen am Arbeitsablauf für Checklisten vorgenommen:
 
-In aktuellen Versionen des Adobe-Lern-Managers war der Fortschritt eines Moduls für eine Checkliste zulässig, selbst wenn ein Reviewer die Module als &quot;Fehlgeschlagen&quot; markiert hat. In dieser Version kann ein Autor so konfigurieren, dass der Fortschritt eines Teilnehmers, der die Checkliste nicht besteht, verhindert wird.
+### Fortschritt bei nicht bestandener Checkliste verhindern
 
-### Neubewertung der Checkliste
+Beim Erstellen einer Checkliste kann ein Autor **Aktivieren** im Abschnitt Obligatorische Checkliste . Dadurch wird verhindert, dass ein Teilnehmer das Modul fortsetzt, wenn er die Checkliste nicht besteht. Sie können nur fortfahren, wenn sie die Checkliste bestehen.
 
-Im selben Arbeitsablauf können Sie als Autor einen Teilnehmer, der eine Checkliste nicht bestanden hat, erneut bewerten. Wählen Sie das **Aktivieren** im Abschnitt &quot;Neubewertung&quot; beim Erstellen einer Checkliste ein.
+Die Prüflistenprüfer, d. h. Kursleiter oder Manager, können dann den Status der Prüfliste überprüfen. Reviewer können die Checkliste eines Teilnehmers auch ungeordnet durchsehen.
+
+### Neubewertung einer Checkliste
+
+Beim Erstellen einer Checkliste kann ein Autor **Aktivieren** im Abschnitt &quot;Neubewertung&quot;. Dadurch kann ein Manager oder Kursleiter einen Teilnehmer neu bewerten, bis er die Checkliste besteht.
+
+Wenn das Modul obligatorisch ist, ist das Kontrollkästchen für die Neubewertung standardmäßig aktiviert.
+
+Ein Kursleiter oder Manager kann auch den Status einer Checkliste von &quot;Nicht bestanden&quot; in &quot;Bestanden&quot; ändern, wenn die Neubewertung aktiviert ist.
+
+Auf der Seite Checkliste kann ein Kursleiter die Anzahl der Teilnehmer mit dem Status &quot;Ausstehend&quot; anzeigen. Als Kursleiter können Sie einen Teilnehmer bewerten und ihn bestehen oder durchfallen lassen. Wenn ein Teilnehmer den Status &quot;Fehlgeschlagen&quot; aufweist, können Sie die Checkliste nur anzeigen, wenn die Neubewertung nicht aktiviert ist.
+
+Dies bedeutet, dass die **Aktivieren** Das Kontrollkästchen wurde beim Erstellen der Checkliste im Abschnitt &quot;Neubewertung&quot; nicht aktiviert. Wenn dieses Kontrollkästchen aktiviert ist, wird die Schaltfläche &quot;Anzeigen/Erneut bewerten&quot; auf der Seite &quot;Kursleiter-Checkliste&quot; angezeigt.
+
+Wenn Sie die Schaltfläche auswählen, können Sie einen Teilnehmer neu bewerten und ihn als bestanden oder als abgelehnt markieren.
+
+>[!NOTE]
+>
+>Beide Funktionen - Neubewertung und Checkliste als obligatorisch festlegen - gelten nur für neu erstellte Module. Sobald ein Kurs veröffentlicht wurde, können diese nicht mehr aktiviert/deaktiviert werden.
+
 
 Anzeigen [Erstellen einer Checkliste](authors/feature-summary/courses.md#checklist-fail) für weitere Informationen.
 
