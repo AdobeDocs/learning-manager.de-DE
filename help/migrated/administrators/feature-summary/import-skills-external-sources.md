@@ -3,13 +3,13 @@ jcr-language: en_us
 title: Kenntnisse aus externen Quellen importieren
 description: Importieren Sie Kenntnisse von Inhaltsanbietern wie LinkedIn und Go1 mithilfe der entsprechenden Connectors.  Die importierten Kenntnisse werden den vom Administrator definierten Kenntnissen im Lern-Manager hinzugefügt und stehen den Autoren während des Workflows zur Kurserstellung zur Verfügung.
 contentowner: saghosh
-source-git-commit: fc77dad8f39d6d29c8ec74eb5ba137bf12ab7f8c
+exl-id: 3bcd8fc6-16e4-4f66-a5c6-15b3d606f0c2
+source-git-commit: 3047145d9f6940c2d941fdf2c8e878369c858b0f
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 0%
+source-wordcount: '452'
+ht-degree: 1%
 
 ---
-
 
 # Kenntnisse aus externen Quellen importieren
 
@@ -23,6 +23,23 @@ Führen Sie die Schritte im Verfahren aus, um den Kenntnisimport in das Konto zu
 1. Auswählen **Allgemein**.
 1. Im Dialogfeld &quot; **Import von Kenntnissen** Abschnitt, wählen Sie **Aktivieren**. Wenn aktiviert, können Sie eine externe Quelle für den Import auswählen **Kenntnisse**. Die Kenntnisse für vorhandene Lernressourcen werden während der ersten Ausführung einmal in das Kompetenz-Repository importiert. Bei allen nachfolgenden Importen von Lernressourcen werden die Kenntnisse nur für neu importierte Elemente in das Kenntnisrepository importiert.
 1. Wählen Sie einen Inhaltsanbieter aus der Dropdown-Liste aus.
+
+Als Administrator können Sie nur eine Qualifikation als Quelle importieren.
+
+### Standardkenntnisstufe
+
+Die standardmäßige Kenntnisstufe ist eins und &quot;Credits&quot; ist 10, nachdem die Kenntnisse migriert wurden. Ein späterer Administrator kann das Guthaben ändern.
+
+Sie können den Namen der Kenntnisse, die Beschreibung und die Stufen externer Kenntnisse nicht bearbeiten. Sie können jedoch Domänen und Abzeichen hinzufügen und Credits bearbeiten.
+
+#### Änderungen bei Berichten
+
+Wir haben eine neue Spalte hinzugefügt **Source** mit Werten: Intern, LinkedIn Learning, Go1, was die Quelle des Kenntnisimports angibt.
+
+Die kürzlich hinzugefügten Kenntnisse werden ganz oben auf der Liste stehen.
+
+Auf der Seite mit den Kurseinstellungen haben wir eine neue Spalte hinzugefügt **Zugewiesen von** mit Werten wie &quot;Intern&quot; und &quot;Inhaltsanbieter&quot;.
+
 
 ## Integration Admin-Arbeitsablauf
 

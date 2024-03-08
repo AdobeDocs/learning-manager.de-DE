@@ -3,14 +3,13 @@ description: Erfahren Sie mehr über Learning Manager-Kontoeinstellungen, die Si
 jcr-language: en_us
 title: Einstellungen
 contentowner: manochan
-source-git-commit: 063f0f469d40a929d109624c3303ba26f5dd1ad3
+exl-id: a563d955-f67e-4218-88df-625cde673601
+source-git-commit: 3047145d9f6940c2d941fdf2c8e878369c858b0f
 workflow-type: tm+mt
-source-wordcount: '3815'
-ht-degree: 69%
+source-wordcount: '3980'
+ht-degree: 66%
 
 ---
-
-
 
 # Einstellungen
 
@@ -421,10 +420,26 @@ Aktivieren oder Deaktivieren der folgenden Einstellungen:
    <td>
     <p>Kursleiterverwaltung<br></p></td>
    <td>
-    <p>Aktivieren Sie diese Einstellung, um die Liste der Kursleiter einzuschränken, die beim Erstellen von Sitzungen für Klassenzimmer/virtuelle Klassenzimmer ausgewählt werden können. Alle Benutzer mit Kursleiterberechtigung können einer beliebigen Sitzung nur als Kursleiter zugewiesen werden. Diese Einschränkung gilt nicht für Migrationsarbeitsabläufe.<br></p></td>
+    <p>Aktivieren Sie diese Einstellung, um die Liste der Kursleiter einzuschränken, die beim Erstellen von Sitzungen für Klassenzimmer/virtuelle Klassenzimmer ausgewählt werden können. Alle Benutzer mit Kursleiterberechtigung können einer beliebigen Sitzung nur als Kursleiter zugewiesen werden. Diese Einschränkung gilt nicht für Migrationsarbeitsabläufe.<br></p>
+  </td>
+  <tr>
+    <td>
+      <p>Import von Kenntnissen</p>
+    </td>
+    <td>
+      <p>Wenn diese Option aktiviert ist, können Sie eine externe Quelle auswählen, um Kenntnisse zu importieren. Die Kenntnisse für vorhandene Lernressourcen werden während der ersten Ausführung einmal in das Kompetenz-Repository importiert. Bei allen nachfolgenden Importen von Lernressourcen werden die Kenntnisse nur für neu importierte Elemente in das Kenntnisrepository importiert.
+      Sobald die Option aktiviert ist, kann die Aktion nicht mehr rückgängig gemacht werden. Sie können später nicht deaktivieren oder zu einer anderen Quelle wechseln.
+      </p>
+    </td>
+  </tr>
   </tr>
  </tbody>
 </table>
+
+>[!NOTE]
+>
+>Sobald die Importeinstellung für Kenntnisse aktiviert ist, kann das Kontolayout nicht mehr auf &quot;Klassisch&quot; umgestellt werden. Das heißt, der Wechsel zum klassischen Konto ist deaktiviert, nachdem der Kenntnisimport aktiviert wurde.
+
 
 ## AI-basierte Empfehlung
 
@@ -578,6 +593,13 @@ Sie können den Speicherort auch mithilfe einer CSV-Datei hinzufügen. Die CSV-D
 * Region
 
 <!--![Add classroom locations](assets/add-classroom-csv.png)-->
+
+### Einstellungen {#admin-classroom-settings}
+
+Auswählen **Bearbeiten** , um Folgendes zu ändern:
+
+* **Autoren das Erstellen von Speicherorten erlauben**: Nach der Aktivierung werden alle von Autoren erstellten Speicherorte auf der Registerkarte &quot;Alle Speicherorte&quot; aufgeführt. Teilnehmer sehen diese Speicherorte auch unter Katalog- und Kalenderfilter.
+* **Autoren das Ändern und Löschen von Speicherorten erlauben**: Nach der Aktivierung können Autoren alle Speicherorte in Klassenzimmern ändern und löschen. Die Änderungen durch Autoren werden in der gesamten Plattform widergespiegelt, einschließlich Berichten.
 
 ## Häufig gestellte Fragen {#frequentlyaskedquestions}
 
