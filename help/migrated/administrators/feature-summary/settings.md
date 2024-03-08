@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Einstellungen
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: 3047145d9f6940c2d941fdf2c8e878369c858b0f
+source-git-commit: b6228ff242d9fe483de8ea31d7a40935405bda90
 workflow-type: tm+mt
-source-wordcount: '3980'
+source-wordcount: '3983'
 ht-degree: 66%
 
 ---
@@ -438,7 +438,7 @@ Aktivieren oder Deaktivieren der folgenden Einstellungen:
 
 >[!NOTE]
 >
->Sobald die Importeinstellung für Kenntnisse aktiviert ist, kann das Kontolayout nicht mehr auf &quot;Klassisch&quot; umgestellt werden. Das heißt, der Wechsel zum klassischen Konto ist deaktiviert, nachdem der Kenntnisimport aktiviert wurde.
+>Sobald die Kenntnisimporteinstellung aktiviert ist, kann das Kontolayout nicht mehr auf Klassisch umgestellt werden, d. h. der Wechsel zu einem klassischen Konto ist nach dem **Kenntnisimport** aktiviert ist.
 
 
 ## AI-basierte Empfehlung

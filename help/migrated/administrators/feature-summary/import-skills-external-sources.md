@@ -4,10 +4,10 @@ title: Kenntnisse aus externen Quellen importieren
 description: Importieren Sie Kenntnisse von Inhaltsanbietern wie LinkedIn und Go1 mithilfe der entsprechenden Connectors.  Die importierten Kenntnisse werden den vom Administrator definierten Kenntnissen im Lern-Manager hinzugefügt und stehen den Autoren während des Workflows zur Kurserstellung zur Verfügung.
 contentowner: saghosh
 exl-id: 3bcd8fc6-16e4-4f66-a5c6-15b3d606f0c2
-source-git-commit: 3047145d9f6940c2d941fdf2c8e878369c858b0f
+source-git-commit: b6228ff242d9fe483de8ea31d7a40935405bda90
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 1%
+source-wordcount: '445'
+ht-degree: 0%
 
 ---
 
@@ -32,13 +32,13 @@ Die standardmäßige Kenntnisstufe ist eins und &quot;Credits&quot; ist 10, nach
 
 Sie können den Namen der Kenntnisse, die Beschreibung und die Stufen externer Kenntnisse nicht bearbeiten. Sie können jedoch Domänen und Abzeichen hinzufügen und Credits bearbeiten.
 
-#### Änderungen bei Berichten
+#### Berichte
 
-Wir haben eine neue Spalte hinzugefügt **Source** mit Werten: Intern, LinkedIn Learning, Go1, was die Quelle des Kenntnisimports angibt.
+Die Spalte **Source** mit Werten: Intern, LinkedIn Learning, Go1, was die Quelle des Kenntnisimports angibt.
 
 Die kürzlich hinzugefügten Kenntnisse werden ganz oben auf der Liste stehen.
 
-Auf der Seite mit den Kurseinstellungen haben wir eine neue Spalte hinzugefügt **Zugewiesen von** mit Werten wie &quot;Intern&quot; und &quot;Inhaltsanbieter&quot;.
+Auf der Seite mit den Kurseinstellungen wird die Spalte **Zugewiesen von** mit Werten wie &quot;Intern&quot; und &quot;Inhaltsanbieter&quot;.
 
 
 ## Integration Admin-Arbeitsablauf
