@@ -3,14 +3,13 @@ description: Dieses Dokument enthält Hilfethemen, um Kursmodule, Instanzen und 
 jcr-language: en_us
 title: Erstellen von Kursmodulen, Instanzen und Lernprogrammen
 contentowner: manochan
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: aba7417b-26a0-4160-878c-5814f84e5155
+source-git-commit: f98b053e1d63841c232380de74170f8a14067473
 workflow-type: tm+mt
-source-wordcount: '4544'
+source-wordcount: '4604'
 ht-degree: 65%
 
 ---
-
-
 
 # Erstellen von Kursmodulen, Instanzen und Lernprogrammen
 
@@ -23,6 +22,16 @@ Autoren erstellen Kurse. Teilnehmer können Kurse absolvieren und Administratore
 Autoren erstellen Kurse. Teilnehmer können Kurse absolvieren und Administratoren können die Leistung der Teilnehmer basierend darauf, ob und wie die Kurse konsumiert werden, verfolgen. Administratoren können von Autoren erstellte Kurse anzeigen und die in diesem Abschnitt beschriebenen Aktivitäten ausführen. Als Administrator können Sie aus einem vordefinierten Satz von Kursen für die Teilnehmer spezielle Lernprogramme erstellen.
 
 ## Instanz eines Kurses erstellen {#createinstanceofacourse}
+
+### Instanzen verwalten
+
+In dieser Schulung lernen Sie, wie Sie Instanzdetails und Instanzeigenschaften bearbeiten.
+
+[![Knopf](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=P79NQK8R&amp;mv=display&amp;mv2=display#/course/8318912)
+
+Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.com>.
+
+### Instanz erstellen
 
 Nachdem ein Autor einen Kurs erstellt hat, können Sie Instanzen des Kurses erstellen. Indem Sie Instanzen eines Kurses erstellen, können Sie Ihren Teilnehmern denselben Kurs zu verschiedenen Zeiten anbieten. Teilnehmer können eine beliebige Instanz auswählen und sich registrieren. Sie können jede Instanz so konfigurieren, dass sie über einen eigenen Satz von Ausweisen, Rückmeldungen und anderen Einstellungen verfügt.
 
@@ -105,6 +114,14 @@ So senden Sie E-Mails auf Instanzebene an registrierte Teilnehmende:
 1. Nachdem Sie auf **[!UICONTROL Speichern]** geklickt haben, wird eine Bestätigungsmeldung zur erfolgreichen Erstellung der Ankündigung angezeigt. Um die Ankündigung zu veröffentlichen, klicken Sie auf **[!UICONTROL Jetzt veröffentlichen]**.
 
    ![Ankündigung erfolgreich erstellt](assets/announcement-successful.png)
+
+### Registrieren Sie Teilnehmer für Kurse
+
+In dieser Schulung erfahren Sie, wie Sie Teilnehmer registrieren, die Registrierung aufheben und sich erneut registrieren.
+
+[![Knopf](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PC1PQFJQ&amp;mv=display&amp;mv2=display#/course/8318916)
+
+Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.com>.
 
 ### Teilnehmende in verschiedenen Instanzen registrieren
 

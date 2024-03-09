@@ -3,14 +3,13 @@ description: Informieren Sie sich über die Berichte, die mit der Administratorr
 jcr-language: en_us
 title: Berichte
 contentowner: manochan
-source-git-commit: 275e019d077104445e7f5489e6cd07ac9f3c9084
+exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
+source-git-commit: f98b053e1d63841c232380de74170f8a14067473
 workflow-type: tm+mt
-source-wordcount: '6502'
-ht-degree: 65%
+source-wordcount: '6624'
+ht-degree: 64%
 
 ---
-
-
 
 # Berichte
 
@@ -580,6 +579,14 @@ Wenn bei der Erstellung eines Peer-Kontos die Option „Freigegebene Kataloge“
 
 Sie erhalten Ihre wichtigsten Berichte per E-Mail, indem Sie sie abonnieren.
 
+### E-Mail-Abonnements einrichten
+
+In dieser Schulung erfahren Sie, wie Sie E-Mail-Abonnements für Dashboard-Berichte einrichten.
+
+[![Knopf](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PLHRQ62N&amp;mv=display&amp;mv2=display#/course/8318927)
+
+Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.com>.
+
 In **[!UICONTROL Berichte]** &quot; auf die Schaltfläche  **[!UICONTROL Abonnement]** &quot; ändern. Die Seite zum Abonnieren von Berichten erscheint.
 
 Beginnen Sie mit der Eingabe des Berichtnamens in das Feld &quot;Berichte&quot;, um den Namen des Berichts aus der Dropdownliste auszuwählen. Wählen Sie die E-Mail-Häufigkeit aus der Dropdown-Liste aus. Sie können den Betreff der E-Mail hinzufügen und eine alternative E-Mail-ID angeben.
@@ -600,6 +607,7 @@ Die folgenden Berichtstypen können heruntergeladen werden.
 * Benutzerprüfpfad
 * Anmelde-/Zugriffsbericht
 * Gamification-Transkripte
+* Gamification-Prüfpfad
 
 ## Teilnehmertranskripte {#learnertranscripts}
 
@@ -841,6 +849,33 @@ Administratoren können das Gamification-Transkript im CSV-Format herunterladen.
 
    Wenn der Administrator die Gamification zurücksetzt, werden alle Punkte des Teilnehmers entsprechend zurückgesetzt.
 
+## Gamification-Audit-Bericht {#gamification-audit-trail}
+
+Dieser Bericht enthält den Verlauf und die Gründe für die Gamification-Punkte der Teilnehmer, die für jede Regel gesammelt wurden.
+
+### Bericht herunterladen
+
+1. Wählen Sie die Gamification-Prüfprotokoll-URL aus.
+1. Im Fenster &quot; **Gamification-Prüfprotokoll** den Datumsbereich aus.
+1. Auswählen **Generieren**.
+
+Der Bericht wird als CSV-Datei heruntergeladen. Die Datei enthält die folgenden Spalten:
+
+* Name
+* E-Mail/UUID,
+* Status
+* Aktion
+* Punkte,
+* Ausgleichspunkte
+* Regel/Aufgabe
+* Regel-/Teilaufgabe,
+* Regel-/Aufgabendetails
+* Typ,
+* Name
+* InstanznameErreichtes Datum (UTC-Zeitzone)
+* Regel-/Vorgangsstartzeit
+* Regel-/Vorgangsendzeit
+
 ## Bericht zur Registrierung und Aufhebung der Registrierung {#enrollmentandunenrollmentreport}
 
 Administratoren und Manager können einen Bericht der Teilnehmer extrahieren, die sich registriert bzw. ihre Registrierung aufgehoben haben. Als Administrator können Sie alle Teilnehmer, Administrator oder Manager sehen, die von einer Instanz eines Kurses des Lernprogramms oder der Zertifizierung registriert wurden oder deren Registrierung aufgehoben wurde und Sie können den Bericht exportieren. Als Manager können Sie jedoch nur einen Bericht Ihrer Teammitglieder abrufen. Als Manager können Sie nicht die gelöschten Teilnehmer oder Ihren eigenen Namen in der Manager-Anwendung als registrierter oder nicht registrierter Teilnehmer sehen.
@@ -900,7 +935,7 @@ Der Bericht enthält folgende Felder:
 ![](assets/more-options.png)
 *Weitere Optionen*
 
-## Sitzungsübersicht – Bericht
+## Sitzungsübersicht – Bericht {#session-summary-report}
 
 Der Sitzungsübersichtsbericht enthält alle Sitzungen, die für einen Teilnehmer innerhalb eines bestimmten Datums geplant sind.
 
@@ -925,17 +960,17 @@ Die heruntergeladene CSV-Datei enthält die folgenden Felder:
 * Sitzanzahl
 * Standort
 * Instanzname
-
 * Kursname
 * Kurs-ID
 * Kursleitername
 * Kursleiter-E-Mail
 * Anzahl der Registrierungen
-
 * Sitzungstyp
 * Limit für Warteliste
 * Warteliste – Anzahl
 * Warteliste – Benutzer-E-Mail-Adressen
+* Standortinformationen
+* Standortregion
 
 ## Bericht zur Auslastung von Kursleiter(innen)
 

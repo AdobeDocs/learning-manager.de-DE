@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Kataloge
 description: Kataloge sind eine Sammlung von Lernkursen, Lernprogrammen und Zertifizierungen. Verwenden Sie Kataloge, um den Teilnehmern den Zugriff auf einen benutzerdefinierten Lernsatz zu ermöglichen. Sie können Lernprogramme während der Erstellung eines neuen Katalogs einem Katalog zuordnen.
 contentowner: manochan
-source-git-commit: 192e68c115b7d38682e4214c0f8d14fa91e4bd3c
+exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
+source-git-commit: f98b053e1d63841c232380de74170f8a14067473
 workflow-type: tm+mt
-source-wordcount: '2397'
-ht-degree: 76%
+source-wordcount: '2429'
+ht-degree: 75%
 
 ---
-
-
 
 # Kataloge
 
@@ -132,6 +131,14 @@ Sie können auch mehrere Kataloge löschen.
 Administratoren können die Kataloge mit internen Benutzern eines Unternehmens oder mit externen Benutzer teilen. Allerdings ist Teilen exklusiv. Das heißt, dass ein intern freigegebenen Katalog nicht mit externen Gruppen geteilt werden kann und umgekehrt.
 
 Kurse, Lernprogramme, Arbeitshilfen und Zertifizierungen sind die unterstützten Lernobjekte in einem Katalog, den Sie freigeben möchten.
+
+### Kataloge freigeben
+
+In dieser Schulung erfahren Sie, wie Sie Kataloge für interne Benutzergruppen und externe Adobe Learning Manager-Konten freigeben.
+
+[![Knopf](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PGRQQ9SP&amp;mv=display&amp;mv2=display#/course/8318924)
+
+Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.com>.
 
 ## Teilen Sie den Katalog intern {#int}
 
@@ -340,4 +347,3 @@ Nachdem Sie Katalogbeschriftungen erstellt haben, können Sie sie mithilfe der f
 Deaktivieren Sie den Standardkatalog und aktivieren Sie nur den Katalog, der erstellt wurde und für den externen Benutzern Zugriff gewährt wurde.
 
 +++
-
