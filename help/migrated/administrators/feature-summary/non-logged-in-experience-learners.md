@@ -1,10 +1,11 @@
 ---
 title: Oberfläche für nicht angemeldete Teilnehmer
 description: Das native Adobe Learning Manager-Portal unterstützt einen nicht protokollierten Zugriff auf die Schulungswebsite. Wenn dieser Modus aktiviert ist, können Teilnehmer die Schulungswebsite entdecken und darauf zugreifen und verschiedene verfügbare Kurse und Inhalte auschecken. Auf der Oberfläche ohne Anmeldung können Teilnehmer Kurse durchsuchen, ohne bei einem Portal angemeldet zu sein.
-source-git-commit: 956c119a5650b535a906157dc4d36f2ff075cf01
+exl-id: 12260cca-d2d2-4e7c-991d-9b09690d4c0a
+source-git-commit: 1d36ad7f4b50d76f73eb1d24313ada78264e6ad3
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 43%
+source-wordcount: '581'
+ht-degree: 41%
 
 ---
 
@@ -30,7 +31,7 @@ Adobe Learning Manager : Mit Teilnehmer-APIs können Sie ein benutzerdefiniertes
 
 >[!IMPORTANT]
 >
->Sie dürfen nicht, wie es der Fall ist, für irgendeine Art von Datenabruf verwendet werden, um nicht angemeldete Benutzer/freigegebene Benutzer oder andere solche Fälle zu unterstützen.
+>Sie dürfen nicht, wie es der Fall ist, für irgendeine Art von Datenabruf verwendet werden, um nicht angemeldete Benutzer/freigegebene Benutzer oder andere solche Fälle zu unterstützen. Wenn Sie ein Headless- oder AEM-basiertes, nicht angemeldetes Erlebnis erstellen möchten, wenden Sie sich bitte an uns. Wir werden Ihnen den richtigen Ansatz auf der Grundlage Ihrer Anforderungen vorschlagen.
 
 Die nicht angemeldeten Nutzungsszenarien erfordern eine besondere Behandlung.
 

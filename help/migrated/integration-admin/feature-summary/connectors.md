@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Learning Manager-Connectors
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: d857ee5d17156e47d20deba22ae88739f82ac3e8
+source-git-commit: 1d36ad7f4b50d76f73eb1d24313ada78264e6ad3
 workflow-type: tm+mt
-source-wordcount: '15183'
+source-wordcount: '15243'
 ht-degree: 64%
 
 ---
@@ -1946,15 +1946,22 @@ Weitere Informationen finden Sie unter  [**Microsoft Teams-Connector im Adobe Le
 
 ## Zugriff auf Schulungsdaten
 
+
+>[!IMPORTANT]
+>
+>Diese spezifische Funktion ist nur verfügbar, wenn der Adobe Learning Manager als Add-on zu Adobe Experience Manager verkauft wird. Die Kursdaten wären in 24 Stunden veraltet.
+
+
 >[!NOTE]
 >
->**Diese spezifische Funktion ist nur verfügbar, wenn Adobe Learning Manager als Add-On zu Adobe Experience Manager verkauft wird.**
+>In diesem Abschnitt wird die Funktionsweise der Infrastruktur beschrieben. Wenn Sie jedoch ein Headless- oder AEM-basiertes, nicht angemeldetes Erlebnis erstellen möchten, wenden Sie sich bitte an uns. Wir werden Ihnen den richtigen Ansatz für Ihren Fall vorschlagen. Diese Funktion ist derzeit nicht als Self-Service verfügbar.
+
 
 Mit dem Connector für den Zugriff auf Schulungsdaten kann Ihre auf AEM-Sites basierende benutzerdefinierte Benutzeroberfläche Schulungsinformationen abrufen und für die Teilnehmenden rendern und einfach und schneller eine Suche durchführen.
 
 Der Connector exportiert Schulungsmetadaten in eine Datenspeicher- und Abruflösung. Sie können dann Ihre auf AEM-Sites basierende benutzerdefinierte Benutzeroberfläche so konfigurieren, dass diese beiden Dienste verwendet werden können, um Schulungsdaten abzurufen, Webseiten zu rendern und den Teilnehmenden eine optimierte Schulungssuchfunktion zu bieten.
 
-Beispielsweise kann eine nicht angemeldete, auf AEM Sites basierende Benutzeroberfläche die exportierten Metadaten verwenden, um einem Teilnehmer beim Suchen, Durchsuchen und Zugreifen auf Schulungsseiten zu helfen, die Schulungsinformationen anzeigen
+Der Artikel beschreibt die Funktionsweise der Infrastruktur. Wenn Sie jedoch ein Headless- oder AEM-basiertes, nicht angemeldetes Erlebnis erstellen möchten, wenden Sie sich bitte an uns. Wir werden Ihnen den richtigen Ansatz für Ihren Fall vorschlagen. Diese Funktion ist derzeit nicht als Self-Service verfügbar.
 
 Aktivieren Sie diesen Connector, um Ihre auf AEM-Sites basierenden Webseiten zu erstellen und zu rendern und Ihren Teilnehmenden benutzerdefinierte Erlebnisse aus AEM zu bieten, wobei die Kursinformationen mithilfe einer öffentlichen API (Headless-LMS) abgerufen werden.
 
