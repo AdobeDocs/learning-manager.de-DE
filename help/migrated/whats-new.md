@@ -3,14 +3,13 @@ description: Erfahren Sie mehr über die neuen Funktionen und Verbesserungen in 
 jcr-language: en_us
 title: Zusammenfassung der neuen Funktionen
 contentowner: jayakarr
-source-git-commit: c58ebebeb671bdb47a752b8f3a9ab673a638dd80
+exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
+source-git-commit: e1ef2082329a061fc8297a791c080185488b165b
 workflow-type: tm+mt
-source-wordcount: '3528'
+source-wordcount: '3600'
 ht-degree: 1%
 
 ---
-
-
 
 # Zusammenfassung der neuen Funktionen {#new-features-summary}
 
@@ -376,6 +375,14 @@ Ein Teilnehmer kann sein Feedback in der Adobe Learning Manager-App abgeben, um 
 Wir möchten Sie darüber informieren, dass Bluejeans am Februar 2024 sein Lebensende (EOL) erreicht hat. Nach Februar 2024 erhält Bluejeans keine Updates und keinen Support mehr. Unsere CSAM- und Support-Teams unterstützen Sie bei Fragen oder Bedenken, die Sie während dieser Übergangszeit haben.
 
 Anzeigen [Connectors im Adobe Learning Manager](integration-admin/feature-summary/connectors.md) für weitere Informationen zum Konfigurieren von Konnektoren.
+
+### Änderungen am Anmeldezugriffsbericht
+
+Der Bericht über den Anmeldezugriff ist nur für die letzten fünf Quartale verfügbar. Wenn ein Integrations-Admin den On Demand-Download des einheitlichen Exports mit **Anmeldezugriff** aktiviert ist, zeigt der Adobe-Lernmanager eine Fehlermeldung an. Es gibt jedoch keine Auswirkungen auf andere Berichte.
+
+### ADFS-Änderungen
+
+Die Felder &quot;Mitarbeitertyp&quot; und &quot;Mitarbeiter-ID&quot; aus ADFS sind jetzt auf der Grundlage der Zuordnungen im Adobe Learning Manager verfügbar.
 
 ## API-Änderungen in dieser Version
 
