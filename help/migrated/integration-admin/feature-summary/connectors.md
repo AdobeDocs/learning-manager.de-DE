@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Learning Manager-Connectors
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 1d36ad7f4b50d76f73eb1d24313ada78264e6ad3
+source-git-commit: 59d5e166747b332833ca68344691008670219366
 workflow-type: tm+mt
-source-wordcount: '15243'
-ht-degree: 64%
+source-wordcount: '15334'
+ht-degree: 63%
 
 ---
 
@@ -745,6 +745,12 @@ Mit dem Export für die Benutzerkenntnisse können Benutzer Kenntnisse in Workda
 >[!NOTE]
 >
 >Kenntnisse von mehreren Learning Manager-Konten können nicht gleichzeitig mit demselben Workday-Konto exportiert werden.
+
+#### Wichtige Anmerkungen
+
+* Stellen Sie sicher, dass UUID, E-Mail-Adresse und Name des Mitarbeiters in mehreren Workday-Integrationen eindeutig sind. Falsche Werte führen zu einem Verbindungsfehler.
+* Das UUID-Feld, das einmal über Workday auf ausgefüllt wurde, kann von keinem Client-LMS-Administrator gelöscht werden. Wenn Sie den Wert ändern möchten, wenden Sie sich an das Onboarding- oder Support-Team des Adobe-Lernmanagers.
+* Die Option Benutzerbereinigung funktioniert möglicherweise auch nicht, da die Benutzerbereinigung nur 50 Benutzer unterstützt, die pro Ausführung bereinigt werden sollen. Gehen Sie beim Hochladen der Benutzer über die UUIDs äußerst vorsichtig vor.
 
 ### Planung {#Scheduling-1}
 
