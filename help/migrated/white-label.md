@@ -1,15 +1,15 @@
 ---
 jcr-language: en_us
-title: API-Veraltungen im Adobe Learning Manager
+title: White Labels in der mobilen Adobe Learning Manager-App
 description: White Labels sind eine Praxis, bei der Sie eine App oder einen Service mit Ihrem eigenen Branding umbenennen und so anpassen, als wären Sie der ursprüngliche Ersteller. Im Adobe-Lernmanager können Sie eine weiße Beschriftung auf die mobile App anwenden, sodass Sie die App mit einem neuen Branding versehen und den Benutzern die App unter Ihrem eigenen Branding zur Verfügung stellen können.
 contentowner: saghosh
-source-git-commit: 7bd9877aa32c78988a5195116d2a0f25ded05c90
+exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
+source-git-commit: 8fe01ca3c0e11d5d62645f4fa7695fce504e0da2
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1051'
 ht-degree: 0%
 
 ---
-
 
 # White Labels in der mobilen Adobe Learning Manager-App
 
