@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Zusammenfassung der neuen Funktionen
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: e1ef2082329a061fc8297a791c080185488b165b
+source-git-commit: 08721247d60f3c35f04aa4434c6b0a795be59b2e
 workflow-type: tm+mt
-source-wordcount: '3600'
+source-wordcount: '3661'
 ht-degree: 1%
 
 ---
@@ -365,6 +365,23 @@ In dieser Version ändert sich der Status in **Noch zu markieren**.
 Die mobile Adobe Learning Manager-App unterstützt jetzt die Beschriftung auf weißem Hintergrund, d. h., Sie können die App jetzt unter Ihrem eigenen Branding veröffentlichen.
 
 Ansicht Weiße Beschriftung in [Adobe Learning Manager-Mobilanwendung](white-label.md) für weitere Informationen.
+
+### Neue Spalte in Migrations-CSVs
+
+In dieser Version gibt es eine neue Spalte (optional), uniqueLoId, in den folgenden Migrations-CSVs.
+
+* certification.csv
+* course.csv
+* learning_program.csv
+
+Die Spalte &quot;uniqueLoId&quot; gilt nicht für die CSV-Datei &quot;Arbeitshilfe&quot;.
+
+>[!IMPORTANT]
+>
+>Die Spaltenwerte müssen im Konto eindeutig sein. Sie können nicht denselben Wert für einen Kurs oder eine Zertifizierung verwenden.
+
+Laden Sie die CSV-Dateien von der Seite [Migrationshandbuch](integration-admin/feature-summary/migration-manual.md#csv-specifications-and-sample-csvs).
+
 
 ### App-Bewertung
 
