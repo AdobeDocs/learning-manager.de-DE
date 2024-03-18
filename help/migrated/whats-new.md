@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Zusammenfassung der neuen Funktionen
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: 08721247d60f3c35f04aa4434c6b0a795be59b2e
+source-git-commit: 42d595e167663cb368e3597cfc4d9a49313ff46d
 workflow-type: tm+mt
 source-wordcount: '3661'
 ht-degree: 1%
@@ -368,7 +368,7 @@ Ansicht Weiße Beschriftung in [Adobe Learning Manager-Mobilanwendung](white-lab
 
 ### Neue Spalte in Migrations-CSVs
 
-In dieser Version gibt es eine neue Spalte (optional), uniqueLoId, in den folgenden Migrations-CSVs.
+In dieser Version ist die neue, optionale Spalte &quot;uniqueLoId&quot; in den folgenden Migrations-CSVs enthalten.
 
 * certification.csv
 * course.csv
