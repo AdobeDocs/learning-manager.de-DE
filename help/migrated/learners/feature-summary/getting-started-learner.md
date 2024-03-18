@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Einstieg in Captivate Prime als Teilnehmer
 description: Verwenden Sie die Seite "Erste Schritte", um die wichtigsten Lernpfade des Adobe Learning Managers zu durchlaufen.
 contentowner: manochan
-source-git-commit: 8635072782253cbac3f913953797cae7c0bc5ef4
+exl-id: e8f8dced-0772-415f-8021-6c1b63fec7a0
+source-git-commit: bd050c0b0cf2bb7da66d0f2ce3af1cf0d8be4f64
 workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 77%
 
 ---
-
-
 
 # Einstieg in Captivate Prime als Teilnehmer
 
@@ -26,7 +25,7 @@ Nachdem Sie sich als Teilnehmer angemeldet haben, können Sie die folgenden Widg
 
 **„Eigenes Lernen“**: Sie können die Lernobjekte nach Typ und nach Termin anzeigen und darauf klicken. Klicken Sie auf den Kreis in dem Widget „Eigenes Lernen“, um direkt zum Lernobjekttyp zu navigieren, oder um die Lernobjekte nach Termin anzuzeigen.
 
-**Eigene Kenntnisse**:Sie können das Diagramm mit den Qualifikationen auch in der rechten oberen Ecke der Seite abrufen. Siehe  [Kenntnisdiagramm](skills-levels.md)finden Sie weitere Informationen.
+**Eigene Kenntnisse**:Sie können das Diagramm mit den Qualifikationen auch in der rechten oberen Ecke der Seite abrufen. Siehe  [Kenntnisdiagramm](skills-levels.md) finden Sie weitere Informationen.
 
 **Lernobjekt-Widget**: Dies befindet sich rechts unterhalb von „Eigenes Lernen“ und es zeigt die Lernobjekte für den Benutzer an. Unter &quot;Eigenes Lernen&quot; können Sie alle  [Kurse](courses.md),  [Lernprogramme](learning-programs.md) und  [Zertifizierungen](certifications.md) die von Ihnen registriert wurden oder Ihnen zugewiesen wurden. Sie können Lernobjekte direkt nutzen oder sie von diesem Widget aus verwenden.
 
