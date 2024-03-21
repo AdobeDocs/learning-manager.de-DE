@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Learning Manager-Connectors
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 04ebf3d2c894588767ab80855325f77acfcc5a85
+source-git-commit: 70d0d6acbcb84ea49539e3a295277cbc342b3246
 workflow-type: tm+mt
-source-wordcount: '15326'
-ht-degree: 63%
+source-wordcount: '15302'
+ht-degree: 64%
 
 ---
 
@@ -1559,89 +1559,89 @@ Voraussetzungen zum Einrichten eines ADFS-Connectors:
 
 ## Schritte zum Registrieren Ihrer Anwendung {#stepstoregisteryourapplication}
 
-1. Klicken Sie auf Azure Active Directory. Klicken **[!UICONTROL Hinzufügen]** > **[!UICONTROL App-Registrierung]**.
+* Klicken Sie auf Azure Active Directory. Klicken **[!UICONTROL Hinzufügen]** > **[!UICONTROL App-Registrierung]**.
 
-   <!--![](assets/add-app-registration.png)-->
-   *App-Registrierung hinzufügen*
+  <!--![](assets/add-app-registration.png)-->
+  <!-- *Add app registration*-->
 
-1. Geben Sie den Namen der Anwendung ein.
+* Geben Sie den Namen der Anwendung ein.
 
-   <!--![](assets/register-app.png)-->
-   *Geben Sie den Namen der Anwendung ein*
+  <!--![](assets/register-app.png)-->
+  <!--*Enter the name of the application*-->
 
-   Klicken Sie auf **[!UICONTROL Registrieren]**.
+  Klicken Sie auf **[!UICONTROL Registrieren]**.
 
-1. Wählen Sie im rechten Bereich **[!UICONTROL Zertifikate und Geheimnisse]**.
+* Wählen Sie im rechten Bereich **[!UICONTROL Zertifikate und Geheimnisse]**.
 
-   <!--![](assets/add-client-secret.png)-->
+  <!--![](assets/add-client-secret.png)-->
 
-   *Zertifikate und Schlüssel auswählen*
+  <!--*Select Certificates and Secrets*-->
 
-1. Fügen Sie ein Client-Geheimnis hinzu.
+* Fügen Sie ein Client-Geheimnis hinzu.
 
-   <!--![](assets/add-description.png)-->
+  <!--![](assets/add-description.png)-->
 
-   *Clientschlüssel hinzufügen*
+  <!--*Add a client secret*-->
 
-1. Fügen Sie dem Geheimnis eine Beschreibung hinzu und legen Sie dessen Ablauf auf 24 Monate fest.
+* Fügen Sie dem Geheimnis eine Beschreibung hinzu und legen Sie dessen Ablauf auf 24 Monate fest.
 
-<!-- ![](assets/copy-values.png)-->
+  <!-- ![](assets/copy-values.png)-->
 
-*Beschreibung hinzufügen*
+  <!--*Add description*-->
 
-1. Kopieren Sie den Wert und das Geheimnis, beispielsweise in Notepad.
+* Kopieren Sie den Wert und das Geheimnis, beispielsweise in Notepad.
 
-<!-- ![](assets/copy-secret.png)-->
+  <!-- ![](assets/copy-secret.png)-->
 
-*Wert und geheimen Schlüssel kopieren*
+  <!--*Copy value and secret key*-->
 
-1. Wählen Sie **API-Berechtigungen**.
+* Wählen Sie **API-Berechtigungen**.
 
-   <!--![](assets/click-api-permission.png)-->
+  <!--![](assets/click-api-permission.png)-->
 
-<!-- *Left pane containing API Permissions*-->
+  <!-- *Left pane containing API Permissions*-->
 
-1. Wählen Sie **API-Berechtigungen**. Aktivieren Sie außerdem die Option **Administratorzustimmung erteilen**.
+* Wählen Sie **API-Berechtigungen**. Aktivieren Sie außerdem die Option **Administratorzustimmung erteilen**.
 
-   ![](assets/add-permission.png)
+  ![](assets/add-permission.png)
 
-   *Berechtigungen hinzufügen*
+  *Berechtigungen hinzufügen*
 
-1. Wählen Sie **Microsoft Graph**.
+* Wählen Sie **Microsoft Graph**.
 
-   <!--![](assets/ms-graph.png)-->
+  <!--![](assets/ms-graph.png)-->
 
-   <!--*Select Microsoft Graph*-->
+  <!--*Select Microsoft Graph*-->
 
-1. Wählen Sie **Anwendungsberechtigungen**.
+* Wählen Sie **Anwendungsberechtigungen**.
 
-   ![](assets/request-api-permission.png)
+  ![](assets/request-api-permission.png)
 
-   *Anwendungsberechtigungen auswählen*
+  *Anwendungsberechtigungen auswählen*
 
-1. Suchen Sie nach *Verzeichnis* und wählen Sie **Verzeichnisdaten lesen**.
+* Suchen Sie nach *Verzeichnis* und wählen Sie **Verzeichnisdaten lesen**.
 
-   ![](assets/read-directory-data.png)
+  ![](assets/read-directory-data.png)
 
-   *Wählen Sie Verzeichnisdaten lesen .*
+  *Wählen Sie Verzeichnisdaten lesen .*
 
-1. Geben Sie *Benutzer* als Suchbegriff ein.
+* Geben Sie *Benutzer* als Suchbegriff ein.
 
-   ![](assets/search-user.png)
+  ![](assets/search-user.png)
 
-   *Suchbegriff eingeben*
+  *Suchbegriff eingeben*
 
-1. Wählen Sie **Vollständige Profile aller Benutzer lesen**.
+* Wählen Sie **Vollständige Profile aller Benutzer lesen**.
 
-   ![](assets/select-read-all.png)
+  ![](assets/select-read-all.png)
 
-   *Wählen Sie Vollständige Profile aller Benutzer lesen aus.*
+  *Wählen Sie Vollständige Profile aller Benutzer lesen aus.*
 
-1. Wählen Sie **Berechtigungen hinzufügen**.
+* Wählen Sie **Berechtigungen hinzufügen**.
 
-   <!--![](assets/select-add-permission.png)-->
+  <!--![](assets/select-add-permission.png)-->
 
-<!-- *Select Add Permissions*-->
+  <!-- *Select Add Permissions*-->
 
 ### ADFS-Konfigurationsseite
 
