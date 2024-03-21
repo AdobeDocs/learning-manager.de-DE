@@ -3,14 +3,13 @@ description: Informationen über die neuen Funktionen und Verbesserungen in Adob
 jcr-language: en_us
 title: Zusammenfassung der neuen Funktionen
 contentowner: jayakarr
-source-git-commit: 35dc1f0880793a3f26ee70a3e9993d7520866b44
+exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
+source-git-commit: 8f7793ff878a13560ac556440fa1c18dc7675db9
 workflow-type: tm+mt
-source-wordcount: '26196'
+source-wordcount: '26225'
 ht-degree: 72%
 
 ---
-
-
 
 # Zusammenfassung der neuen Funktionen
 
@@ -24,13 +23,22 @@ ht-degree: 72%
  </tbody>
 </table>-->
 
-+++Update 95: Die Version November 2023 von Adobe Learning Manager
++++Update 96: Die Version März 2024 von Adobe Learning Manager
 
 **Freigabedatum:** 18. November 2023
 
 ## Neue Funktionen in dieser Version
 
 Unter [Neue Funktionen in Adobe Learning Manager](/help/migrated/whats-new.md) finden Sie weitere Informationen.
++++
+
++++Update 95: Die Version November 2023 von Adobe Learning Manager
+
+**Freigabedatum:** 18. November 2023
+
+## Neue Funktionen in dieser Version
+
+Unter [Neue Funktionen in Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/whats-new-november-2023) finden Sie weitere Informationen.
 +++
 
 +++Update 94
