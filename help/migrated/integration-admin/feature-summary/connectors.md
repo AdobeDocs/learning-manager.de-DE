@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Learning Manager-Connectors
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 59d5e166747b332833ca68344691008670219366
+source-git-commit: 04ebf3d2c894588767ab80855325f77acfcc5a85
 workflow-type: tm+mt
-source-wordcount: '15334'
+source-wordcount: '15326'
 ht-degree: 63%
 
 ---
@@ -1561,45 +1561,45 @@ Voraussetzungen zum Einrichten eines ADFS-Connectors:
 
 1. Klicken Sie auf Azure Active Directory. Klicken **[!UICONTROL Hinzufügen]** > **[!UICONTROL App-Registrierung]**.
 
-   ![](assets/add-app-registration.png)
+   <!--![](assets/add-app-registration.png)-->
    *App-Registrierung hinzufügen*
 
 1. Geben Sie den Namen der Anwendung ein.
 
-   ![](assets/register-app.png)
+   <!--![](assets/register-app.png)-->
    *Geben Sie den Namen der Anwendung ein*
 
    Klicken Sie auf **[!UICONTROL Registrieren]**.
 
 1. Wählen Sie im rechten Bereich **[!UICONTROL Zertifikate und Geheimnisse]**.
 
-   ![](assets/add-client-secret.png)
+   <!--![](assets/add-client-secret.png)-->
 
    *Zertifikate und Schlüssel auswählen*
 
 1. Fügen Sie ein Client-Geheimnis hinzu.
 
-   ![](assets/add-description.png)
+   <!--![](assets/add-description.png)-->
 
    *Clientschlüssel hinzufügen*
 
 1. Fügen Sie dem Geheimnis eine Beschreibung hinzu und legen Sie dessen Ablauf auf 24 Monate fest.
 
-   ![](assets/copy-values.png)
+<!-- ![](assets/copy-values.png)-->
 
-   *Beschreibung hinzufügen*
+*Beschreibung hinzufügen*
 
 1. Kopieren Sie den Wert und das Geheimnis, beispielsweise in Notepad.
 
-   ![](assets/copy-secret.png)
+<!-- ![](assets/copy-secret.png)-->
 
-   *Wert und geheimen Schlüssel kopieren*
+*Wert und geheimen Schlüssel kopieren*
 
 1. Wählen Sie **API-Berechtigungen**.
 
-   ![](assets/click-api-permission.png)
+   <!--![](assets/click-api-permission.png)-->
 
-   *Linker Bereich mit API-Berechtigungen*
+<!-- *Left pane containing API Permissions*-->
 
 1. Wählen Sie **API-Berechtigungen**. Aktivieren Sie außerdem die Option **Administratorzustimmung erteilen**.
 
@@ -1609,9 +1609,9 @@ Voraussetzungen zum Einrichten eines ADFS-Connectors:
 
 1. Wählen Sie **Microsoft Graph**.
 
-   ![](assets/ms-graph.png)
+   <!--![](assets/ms-graph.png)-->
 
-   *Microsoft Graph auswählen*
+   <!--*Select Microsoft Graph*-->
 
 1. Wählen Sie **Anwendungsberechtigungen**.
 
@@ -1639,9 +1639,11 @@ Voraussetzungen zum Einrichten eines ADFS-Connectors:
 
 1. Wählen Sie **Berechtigungen hinzufügen**.
 
-   ![](assets/select-add-permission.png)
+   <!--![](assets/select-add-permission.png)-->
 
-   *Wählen Sie Berechtigungen hinzufügen .*
+<!-- *Select Add Permissions*-->
+
+### ADFS-Konfigurationsseite
 
 1. Geben Sie auf der ADFS-Konfigurationsseite in Adobe Learning-Manager die Client-ID und das Client-Geheimnis ein, die Sie zuvor bezogen haben.
 
