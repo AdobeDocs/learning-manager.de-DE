@@ -4,7 +4,7 @@ title: White Labels in der mobilen Adobe Learning Manager-App
 description: White Labels sind eine Praxis, bei der Sie eine App oder einen Service mit Ihrem eigenen Branding umbenennen und so anpassen, als wären Sie der ursprüngliche Ersteller. Im Adobe-Lernmanager können Sie eine weiße Beschriftung auf die mobile App anwenden, sodass Sie die App mit einem neuen Branding versehen und den Benutzern die App unter Ihrem eigenen Branding zur Verfügung stellen können.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 8228a6b78362925f63575098602b33d3ee645812
+source-git-commit: c3d1deef5809fca8c1a6b482be4159d02ebaf701
 workflow-type: tm+mt
 source-wordcount: '1177'
 ht-degree: 0%
@@ -217,9 +217,8 @@ Wenn Sie eine benutzerdefinierte Domäne oder einen Learning Manager\*.adobe.com
 
 Weitere Informationen finden Sie unter den folgenden Links:
 
-- [Android](https://learningmanager.adobe.com/.well-known/assetlinks.json)
-
-- [iOS](https://learningmanager.adobe.com/.well-known/apple-app-site-association)
+* [Android](https://learningmanager.adobe.com/.well-known/assetlinks.json)
+* [iOS](https://learningmanager.adobe.com/.well-known/apple-app-site-association)
 
 ## Push-Benachrichtigungen generieren
 
@@ -257,6 +256,7 @@ Gehen Sie folgendermaßen vor:
 
 - openssl s_client -connect gateway.sandbox.push.apple.com:2195 -cert myapnsappcert.pem -key myapnappkey.pem 
 ```
+
 Wenn Sie eine Verbindung zum Server herstellen können, ist das von Ihnen erstellte Zertifikat gültig. Kopieren Sie aus der Datei myapnappkey.pem die Werte für das Zertifikat und den privaten Schlüssel.
 
 ### Push-Benachrichtigungen unter Android
@@ -324,5 +324,5 @@ Das CSM-Team gibt die Version für den Kunden frei.
 
 ## Was nicht angepasst werden kann
 
-- Bildschirm &quot;Kennwort aktualisieren&quot;
-- Seite &quot;Konto erstellen&quot;
+* Bildschirm &quot;Kennwort aktualisieren&quot;
+* Seite &quot;Konto erstellen&quot;
