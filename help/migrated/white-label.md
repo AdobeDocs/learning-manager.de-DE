@@ -4,9 +4,9 @@ title: White Labels in der mobilen Adobe Learning Manager-App
 description: White Labels sind eine Praxis, bei der Sie eine App oder einen Service mit Ihrem eigenen Branding umbenennen und so anpassen, als wären Sie der ursprüngliche Ersteller. Im Adobe-Lernmanager können Sie eine weiße Beschriftung auf die mobile App anwenden, sodass Sie die App mit einem neuen Branding versehen und den Benutzern die App unter Ihrem eigenen Branding zur Verfügung stellen können.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 5e4008c0811305db86e94f8105ae778fa2cfac83
+source-git-commit: 8228a6b78362925f63575098602b33d3ee645812
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1177'
 ht-degree: 0%
 
 ---
@@ -201,10 +201,19 @@ Folgende Elemente können angepasst werden:
 
 </table>
 
+>[!NOTE]
+>
+>Geben Sie die Daten an Ihre CSAMs weiter, damit sie sie in Ihre benutzerdefinierte App-Binärdatei einfügen können.
 
-#### Websitezuordnung aktualisieren
+
+#### Sitezuordnung zur Verarbeitung benutzerdefinierter Deplinks aktualisieren
 
 Wenn Sie eine benutzerdefinierte Domäne oder einen Learning Manager\*.adobe.com als Veranstalter verwenden, müssen Sie nichts unternehmen. Wenn Sie jedoch eine benutzerdefinierte Lösung oder einen bestimmten Hostnamen für die URLs verwenden, fügen Sie die Site-Zuordnungsdateien hinzu.
+
+>[!CAUTION]
+>
+>Wenn die Dateien nicht vorhanden sind, funktionieren die Deeplinks nicht. Stellen Sie sicher, dass die Dateien vorhanden sind.
+
 
 Weitere Informationen finden Sie unter den folgenden Links:
 
@@ -212,9 +221,16 @@ Weitere Informationen finden Sie unter den folgenden Links:
 
 - [iOS](https://learningmanager.adobe.com/.well-known/apple-app-site-association)
 
-## Push-Benachrichtigungszertifikat generieren
+## Push-Benachrichtigungen generieren
 
-### Push-Benachrichtigungszertifikat in iOS
+Das Senden von Push-Benachrichtigungen an Android- und iOS-Apps erfordert zwei verschiedene Mechanismen.
+
+* Generieren Sie für iOS die Push-Benachrichtigungszertifikate.
+* Geben Sie für Android einen aus dem Firebase-Projekt generierten Serverschlüssel an.
+
+Befolgen Sie die folgenden Anweisungen, um die Projekte in Firebase einzurichten:
+
+### Push-Benachrichtigungen in iOS
 
 Bei der Entwicklung von iOS-Anwendungen ist ein Push-Benachrichtigungszertifikat ein von Apple ausgestelltes kryptografisches Anmeldezertifikat, mit dem ein Server Push-Benachrichtigungen über die Push-Benachrichtigungsdienste (APNs) von Apple sicher an ein iOS-Gerät senden kann.
 
@@ -241,19 +257,24 @@ Gehen Sie folgendermaßen vor:
 
 - openssl s_client -connect gateway.sandbox.push.apple.com:2195 -cert myapnsappcert.pem -key myapnappkey.pem 
 ```
-
 Wenn Sie eine Verbindung zum Server herstellen können, ist das von Ihnen erstellte Zertifikat gültig. Kopieren Sie aus der Datei myapnappkey.pem die Werte für das Zertifikat und den privaten Schlüssel.
 
-1. Wenden Sie sich an das CSM-Team und rufen Sie die Dateien auf, die den SNS-Diensten in AWS hinzugefügt wurden. Benutzer müssen den Eintrag für die Push-Benachrichtigung im SNS-Dienst registrieren lassen, sodass sie die oben generierten Zertifikate für die Validierung freigeben müssen.
+### Push-Benachrichtigungen unter Android
+
+Richten Sie ein Projekt in Firebase ein und geben Sie den Serverschlüssel für das CSAM frei.
+
+Wenden Sie sich an das CSM-Team und rufen Sie die Dateien auf, die den SNS-Diensten in AWS hinzugefügt wurden. Benutzer müssen den Eintrag für die Push-Benachrichtigung im SNS-Dienst registrieren lassen, sodass sie die oben generierten Zertifikate für die Validierung freigeben müssen.
 
 >[!NOTE]
 >
 >Für Android muss der Benutzer den Serverschlüssel aus dem für Android erstellten Firebase-Projekt angeben, um den Eintrag zum SNS-Dienst hinzuzufügen.
 
 
-## Projekt zu Firebase hinzufügen
+## Erstellen eines Projekts in Firebase
 
 ### Android
+
+Verwenden Sie dasselbe Projekt, das Sie in den Schritten oben erstellt haben, für Push-Benachrichtigungen erneut.
 
 [Projekt hinzufügen](https://learn.microsoft.com/en-us/xamarin/android/data-cloud/google-messaging/firebase-cloud-messaging) in Firebase und rufen Sie die ***google-services.json*** -Datei.
 
@@ -261,19 +282,24 @@ Wenn Sie eine Verbindung zum Server herstellen können, ist das von Ihnen erstel
 
 [Projekt hinzufügen](https://firebase.google.com/docs/ios/setup) zu Firebase und rufen Sie die ***GoogleService-Info.plist*** -Datei.
 
+>[!IMPORTANT]
+>
+>Senden Sie die Dateien an das Adobe Learning Manager CSAM-Team, um sie in den Build Ihrer App-Binärdatei aufzunehmen.
+
+
 ## Signierte Binärdateien generieren
 
 ### iOS
 
 ```
-sh""" xcodebuild -exportArchive -archivePath ./mobile-app-embedding-immersive/build/ios/archive/Runner.xcarchive -exportPath "ipa_path/" -exportOptionsPlist ./deviceAppBuildScripts/${ExportFile} 
+sh""" xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath "ipa_path/" -exportOptionsPlist ./deviceAppBuildScripts/${ExportFile} 
 
 mv ipa_path/*.ipa "${env.AppName}_signed.ipa" """ 
 ```
 
 >[!NOTE]
 >
->Sie benötigen XCode 14.2 oder höher, um die signierten Binärdateien zu erstellen.
+>Sie benötigen XCode 15.2 oder höher, um die signierten Binärdateien zu erstellen.
 
 
 ## Android
