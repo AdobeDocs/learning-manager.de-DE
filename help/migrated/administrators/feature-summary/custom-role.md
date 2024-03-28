@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Benutzerdefinierte Rollen
 description: Mit der Lernpfadfunktion können Sie benutzerdefinierte Rollen definieren und einer Gruppe von Benutzern bestimmte Verantwortlichkeiten zuweisen. Mit dieser Funktion können Sie Verantwortlichkeiten zuweisen, die nicht in den Bereich der bestehenden Rolle der Person fallen.
 contentowner: dvenkate
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
+source-git-commit: 3af4224f82f14342a298ce39088be874a2372817
 workflow-type: tm+mt
-source-wordcount: '2224'
-ht-degree: 64%
+source-wordcount: '2223'
+ht-degree: 65%
 
 ---
-
-
 
 # Benutzerdefinierte Rollen
 
@@ -142,16 +141,16 @@ Ein Benutzer mit einer benutzerdefinierten Rolle kann Folgendes:
 * Nur Inhalte aus den Katalogen anzeigen, auf die er Zugriff hat.
 * Greifen Sie auf jedes Lernobjekt zu, basierend auf den Berechtigungen des Katalogs, zu dem das Lernobjekt gehört.
 
-Als Administrator können Sie Folgendes:
+  Als Administrator können Sie Folgendes:
 
 * Wählen Sie mehr als einen Katalog für eine benutzerdefinierte Rolle.
 * Ändern Sie die Berechtigungen eines Katalogs jederzeit.
 * Entfernen Sie die Kataloge aus einem Bereich, für den Sie keine Berechtigungen mehr erteilen möchten.
 * Erteilen Sie einem Katalog implizit die Berechtigung „Schreibgeschützt“, wenn Sie Berechtigungen für den Katalog erteilen.
 
-Die folgende Tabelle zeigt, wie Berechtigungen erteilt werden.
+  Die folgende Tabelle zeigt, wie Berechtigungen erteilt werden.
 
-<table>
+  <table>
     <tbody>
      <tr>
       <td>
@@ -222,17 +221,17 @@ Die folgende Tabelle zeigt, wie Berechtigungen erteilt werden.
      </tr>
     </tbody>
    </table>
-1. **Benutzer:** Verwenden Sie diese Option, um zu bestimmen, welchen Benutzern diese Rolle zugewiesen ist. Sie können einen oder mehrere Benutzer über das Suchfeld auswählen.
+1. **Benutzer:** Verwenden Sie diese Option, um festzulegen, welche Benutzer dieser Rolle zugewiesen sind. Sie können einen oder mehrere Benutzer über das Suchfeld auswählen.
 
-**Benutzer zum CSV-Upload für benutzerdefinierte Rollen hinzufügen:** Um Benutzer über ein CSV-Update hinzuzufügen, fügen Sie der CSV-Datei eine Spalte &quot;CustomRole&quot; hinzu, die der Administrator zum Importieren von Benutzern verwendet hat. Geben Sie die Rolle des Benutzers in der Spalte Benutzerdefinierte Rolle für die Benutzer ein, denen Sie eine benutzerdefinierte Rolle zuweisen möchten. Zum Hochladen der CSV-Datei klicken Sie auf  **[!UICONTROL Hinzufügen > CSV hochladen]**.
+   **Benutzer zum CSV-Upload für benutzerdefinierte Rollen hinzufügen:** Um Benutzer über ein CSV-Update hinzuzufügen, fügen Sie der CSV-Datei eine Spalte &quot;CustomRole&quot; hinzu, die der Administrator zum Importieren von Benutzern verwendet hat. Geben Sie die Rolle des Benutzers in der Spalte Benutzerdefinierte Rolle für die Benutzer ein, denen Sie eine benutzerdefinierte Rolle zuweisen möchten. Zum Hochladen der CSV-Datei klicken Sie auf  **[!UICONTROL Hinzufügen > CSV hochladen]**.
 
-CustomRole columnNote:
+   CustomRole columnNote:
 
 * Sie können keine Benutzergruppen durchsuchen.
 * Sie können nicht nach Benutzern suchen, denen bereits eine Administratorrolle zugewiesen wurde.
 * Die Zuweisung einer neuen benutzerdefinierten Rolle zu einem Benutzer überschreibt die vorherige benutzerdefinierte Rolle des Benutzers.
 
-<!--![](assets/users.png)-->
+  <!--![](assets/users.png)-->
 
 * Ein benutzerdefinierter Administrator, der die Berechtigung für Einstellungen hat, kann den Zeitplan für die Synchronisierung oder die Synchronisierung von Benutzern aus der Datenquelle konfigurieren, auch wenn er keine Berechtigung für die Entität &quot;Benutzer&quot; hat.
 * Wenn ein benutzerdefinierter Administrator über Berechtigungen für die Entität „Benutzer“ verfügt, können Sie ihm eine Administratorrolle zuweisen und ein Standardadministrator werden.

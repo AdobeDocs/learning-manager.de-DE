@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Zusammenfassung der neuen Funktionen
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: 8dcfdc7336e5be7f327626d2973671ca56ec58ce
+source-git-commit: 1bdbabfd0b2e365c713d9beb393e7413cd15a9fd
 workflow-type: tm+mt
 source-wordcount: '3764'
 ht-degree: 1%
@@ -261,6 +261,7 @@ Wählen Sie auf der Admin-Seite **Administrator** > **Kenntnisse** > **Kenntniss
 ## Änderungen an der Erstellung von Klassenzimmern
 
 Basierend auf [Administratoreinstellungen](administrators/feature-summary/classroom.md#classroom-settings)können Sie als Autor [Erstellen, Ändern und Löschen von Speicherorten](administrators/feature-summary/classroom.md#add-classroom-location).
+
 >[!NOTE]
 >
 >Beim Hinzufügen von Speicherort- und Katalogbeschriftungen sehen Autoren (auf der Kurserstellungsseite) und Administratoren (auf der Instanzseite) eine automatisch ausgefüllte Liste von Speicherorten bzw. Katalogbeschriftungen.

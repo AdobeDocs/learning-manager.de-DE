@@ -3,14 +3,13 @@ description: Gamification bedeutet, spieltypische Ideen und Prozesse in einen sp
 jcr-language: en_us
 title: Gamification
 contentowner: manochan
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: c7871a50-3f7c-46e0-8f9d-afc83b0032d6
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '1418'
+source-wordcount: '1419'
 ht-degree: 70%
 
 ---
-
-
 
 # Gamification
 
@@ -76,7 +75,7 @@ Um die Teilnehmerpunktzahl und Konfiguration zurückzusetzen, klicken Sie auf �
 
 ## Gamification deaktivieren {#disablegamification}
 
-Klicken [!UICONTROL **Gamification**] > [!UICONTROL **Gamification-Funktion**]. Dies ermöglicht es Ihnen, die Gamification-Funktion und das Leaderboard separat für Ihre Teilnehmer zu aktivieren. Wählen Sie zwischen „für interne Teilnehmer aktivieren“ und „Für externe Teilnehmer aktivieren“ und klicken Sie auf „OK“. Alle Punkte werden beibehalten, wenn Sie die Gamification wieder aktivieren.
+Klicken [!UICONTROL **Gamification**] > **[!UICONTROL Einstellungen]** > [!UICONTROL **Gamification-Funktion**]. Dies ermöglicht es Ihnen, die Gamification-Funktion und das Leaderboard separat für Ihre Teilnehmer zu aktivieren. Wählen Sie zwischen „für interne Teilnehmer aktivieren“ und „Für externe Teilnehmer aktivieren“ und klicken Sie auf „OK“. Alle Punkte werden beibehalten, wenn Sie die Gamification wieder aktivieren.
 
 ![](assets/gamification-feature.png)
 

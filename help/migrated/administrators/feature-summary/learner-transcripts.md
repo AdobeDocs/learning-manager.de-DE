@@ -3,14 +3,13 @@ description: Laden Sie Teilnehmertranskripte herunter und verwalten Sie Berichte
 jcr-language: en_us
 title: Teilnehmertranskripte
 contentowner: jayakarr
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: f88ad02c-6d36-41e7-9d83-0ebc70d98d63
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '1910'
-ht-degree: 67%
+source-wordcount: '1912'
+ht-degree: 66%
 
 ---
-
-
 
 # Teilnehmertranskripte
 
@@ -22,7 +21,7 @@ Mit Adobe Learning Manager können die Administratoren eines Unternehmens die Tr
 
 1. Um Teilnehmertranskripte zu erstellen, klicken Sie auf **[!UICONTROL Berichte]** im linken Bereich in der Administratoranmeldung.
 
-   Der Administrator navigiert auf der Seite **[!UICONTROL Berichte]** zur Registerkarte „Excel-Berichte“.
+   Der Administrator navigiert zum **[!UICONTROL Benutzerdefinierte Berichte]** > **[!UICONTROL Excel-Berichte]** &quot; im Dialogfeld &quot; **[!UICONTROL Berichte]** angezeigt.
 
 1. Klicken Sie auf den Link **[!UICONTROL Teilnehmertranskripte]**.
 

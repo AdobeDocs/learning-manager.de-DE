@@ -3,14 +3,13 @@ description: Erstellen, Zuweisen und Ändern von Kenntnissen und Stufen.
 jcr-language: en_us
 title: Erstellen und Ändern von Kenntnissen und Stufen
 contentowner: manochan
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: b1461900-43e8-4e9d-bef1-a55c44d3bc8b
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '1718'
-ht-degree: 80%
+source-wordcount: '1721'
+ht-degree: 79%
 
 ---
-
-
 
 # Erstellen und Ändern von Kenntnissen und Stufen
 
@@ -32,7 +31,7 @@ Als Administrator können Sie Folgendes ausführen:
 
 Um Kenntnisse hinzuzufügen, gehen Sie wie folgt vor:
 
-1. Klicken Sie im linken Teilfenster auf **[!UICONTROL Kenntnisse]**. Geben Sie den Kenntnissen einen Namen und eine Beschreibung.
+1. Wählen Sie im linken Bereich **[!UICONTROL Kenntnisse]** > **[!UICONTROL Hinzufügen]** > **[!UICONTROL SKills hinzufügen]**. Geben Sie den Kenntnissen einen Namen und eine Beschreibung.
 
    ![](assets/add-skill-name-anddescription.png)
 

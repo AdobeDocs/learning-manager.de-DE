@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Berichte
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: f98b053e1d63841c232380de74170f8a14067473
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '6624'
+source-wordcount: '6629'
 ht-degree: 64%
 
 ---
@@ -46,7 +46,7 @@ Wenn es interne Stammebenen-Manager gibt, werden diese nacheinander angezeigt.
 
 Alle externen Profile werden nach internen Profilen aufgelistet (interne Stammbenutzer).
 
-Wenn ein externes Profil über einen Manager verfügt, wird die Managerhierarchie in der **[!UICONTROL Daten werden angezeigt für]** Dropdown-Liste. - Benutzer wird in der Managerhierarchie auf allen Detailseiten aufgeführt (Lernzusammenfassung, Compliance und Kenntnisstatus)
+Wenn ein externes Profil über einen Manager verfügt, wird die Managerhierarchie in der **[!UICONTROL Daten werden angezeigt für]** Dropdown-Liste. Der Benutzer wird auf allen Detailseiten in der Managerhierarchie aufgeführt (Lernzusammenfassung, Compliance und Kenntnisstatus).
 
 Andernfalls werden alle individuellen Benutzerdetails in der Liste angezeigt.
 
@@ -58,9 +58,9 @@ Um detailliertere Informationen zu den Registrierungen für verschiedene interne
 Wenn Sie auf eine Registrierung klicken, können Sie die Teilnehmer für jeden Manager sehen und die Registrierung für welche Lernobjekte. Sie können auch die Details der einzelnen Teilnehmer zu Fortschritt und Abschluss sehen.
 
 ![](assets/learners-for-a-manager.png)
-*Aee-Teilnehmer, die einem Manager zugewiesen sind*
+*Teilnehmer, die einem Manager zugewiesen sind*
 
-Klicken Sie auf ein beliebiges Team und exportieren Sie seinen Bericht als CSV-Datei. Ein Administrator kann den Bericht für jede Benutzergruppe oder jeden einzelnen Benutzer exportieren, indem er die Benutzergruppe oder den einzelnen Benutzer auswählt und dann Details aus der Dropdownliste &quot;Aktion&quot; exportiert.
+Klicken Sie auf ein beliebiges Team und exportieren Sie seinen Bericht als CSV-Datei. Ein Administrator kann den Bericht für jede Benutzergruppe oder jeden einzelnen Benutzer exportieren, indem er die Benutzergruppe oder den einzelnen Benutzer auswählt und dann die Details aus dem Fenster &quot; **[!UICONTROL Aktion]** Dropdown-Liste.
 
 Sie können auch ein Balkendiagramm mit den Qualifikationen anzeigen, die gerade erworben wurden. Sie können Kenntnisse hinzufügen/entfernen, die Sie im Diagramm verwenden möchten.
 
@@ -69,7 +69,7 @@ Sie können auch ein Balkendiagramm mit den Qualifikationen anzeigen, die gerade
 
 In der endgültigen Visualisierung können Sie den Konformitätsstatus der Teilnehmer überprüfen und geeignete Maßnahmen ergreifen.
 
-Außerdem kann ein Administrator einzelne Schulungsdaten im Kompatibilitäts-Dashboard anzeigen.
+Außerdem kann ein Administrator einzelne Schulungsdaten im Fenster &quot; **[!UICONTROL Kompatibilitäts-Dashboard]**.
 
 Der Administrator hat beispielsweise drei Schulungen zur Überwachung der Konformität identifiziert. Learning Manager bietet die Kompatibilitäts-Momentaufnahme für alle drei Schulungen gleichzeitig.
 
@@ -617,7 +617,7 @@ In den Teilnehmertranskripten in Excel-Berichten werden die Spalten „Benötigt
 
 Als Administrator können Sie Berichte für Kurse herunterladen. Führen Sie die folgenden Schritte aus:
 
-1. Öffnen **[!UICONTROL Berichte]** > **[!UICONTROL Excel-Berichte]** > **[!UICONTROL Kursberichte]**.
+1. Öffnen **[!UICONTROL Berichte]** > **[!UICONTROL Benutzerdefinierte Berichte]** > **[!UICONTROL Excel-Berichte]** > **[!UICONTROL Kursberichte]**.
 1. Das Dialogfeld **[!UICONTROL Kursbericht]** wird angezeigt. Wählen Sie den Kurs aus, von dem Sie den Bericht abrufen möchten, und klicken Sie auf **[!UICONTROL Anzeigen]**.
 
    ![](assets/course-reports.png)
@@ -657,13 +657,13 @@ Als Administrator können Sie einen Bericht aller Ankündigungen generieren, die
 
 Um einen Bericht herunterzuladen, führen Sie einen der folgenden Schritte aus:
 
-1. Öffnen **[!UICONTROL Berichte]** > **[!UICONTROL Excel-Berichte]** > **[!UICONTROL Bericht für Ankündigungen]**. Das Dialogfeld **[!UICONTROL Erstellen einer Berichtsanforderung]** wird geöffnet. Klicken Sie auf OK.
+1. Öffnen **[!UICONTROL Berichte]** > **[!UICONTROL Benutzerdefinierte Berichte]** > **[!UICONTROL Excel-Berichte]** > **[!UICONTROL Bericht für Ankündigungen]**. Das Dialogfeld **[!UICONTROL Erstellen einer Berichtsanforderung]** wird geöffnet. Klicken Sie auf OK.
 1. [!UICONTROL **Ankündigungen**] > [!UICONTROL **Aktionen**] > [!UICONTROL **Bericht exportieren**].
 
    ![](assets/announcements.png)
    *Bericht für Ankündigungen*
 
-1. Sie können einen Bericht für eine bestimmte Ankündigung extrahieren, indem Sie auf Bericht exportieren unter dem Symbol &quot;Einstellungen&quot; klicken.
+1. Sie können einen Bericht für eine bestimmte Ankündigung extrahieren, indem Sie auf **[!UICONTROL Bericht exportieren]** unter dem Symbol &quot;Einstellungen&quot;.
 
    ![](assets/announcements-specific-report.png)
    *Bericht für bestimmte Ankündigungen*
@@ -686,7 +686,7 @@ Der extrahierte Bericht enthält Informationen zu folgenden Themen:
 
 Führen Sie eine der folgenden Schritte aus, um einen Bericht herunterzuladen:
 
-* Öffnen  **[!UICONTROL Berichte]** > **[!UICONTROL Excel-Berichte]** > **[!UICONTROL Arbeitshilfeberichte]**. Das Dialogfeld **[!UICONTROL Erstellen einer Berichtsanforderung]** wird geöffnet. Klicken Sie auf **[!UICONTROL OK]**.
+* Öffnen  **[!UICONTROL Berichte]** > **[!UICONTROL Benutzerdefinierte Berichte]** > **[!UICONTROL Excel-Berichte]** > **[!UICONTROL Arbeitshilfeberichte]**. Das Dialogfeld **[!UICONTROL Erstellen einer Berichtsanforderung]** wird geöffnet. Klicken Sie auf **[!UICONTROL OK]**.
 * Öffnen **[!UICONTROL Arbeitshilfe]** > **[!UICONTROL Aktionen]** > **[!UICONTROL Bericht exportieren]**.
 
 ![](assets/job-aids.png)

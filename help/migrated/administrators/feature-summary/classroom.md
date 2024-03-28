@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Standorte für Klassenzimmer hinzufügen
 description: Administratoren können jetzt eine Bibliothek mit Standorten für Klassenzimmern einrichten. Für jeden Klassenraum können die Administratoren die Metadaten festlegen, die den Namen des Standorts, das Sitzplatzlimit sowie zusätzliche Informationen wie die URL des Standorts enthalten. Autoren und Administratoren können diese vorkonfigurierten Klassenzimmer dann für die Einrichtung von Schulungsveranstaltungen mit Kursleitern (Klassenzimmermodule) verwenden.
 contentowner: saghosh
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: 51a1e38f-d4e2-4c19-bbf7-6696505c0dfd
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '1222'
-ht-degree: 78%
+source-wordcount: '1240'
+ht-degree: 77%
 
 ---
-
-
 
 # Klassenzimmer
 
@@ -26,13 +25,14 @@ Sie können einen Speicherort für ein Klassenzimmer hinzufügen, indem Sie die 
 
 1. Klicken Sie in der Admin-App (der Benutzeroberfläche für Administratorrollen) auf **[!UICONTROL Einstellungen]** > **[!UICONTROL Standorte für Klassenzimmer]**.
 
-1. Klicken Sie auf **[!UICONTROL Mehr hinzufügen]** klicken.
+1. Klicken **[!UICONTROL Hinzufügen]** > **[!UICONTROL Neuer Speicherort]**.
 
 1. Geben Sie im Dialogfeld **[!UICONTROL Klassenzimmerstandort]** die folgenden Details ein:
 
-   * Geben Sie den **[!UICONTROL Name des Klassenzimmers]** ein. Verwenden Sie einen eindeutigen Namen. Andernfalls zeigt Learning Manager eine Fehlermeldung an.
+   * Geben Sie die **[!UICONTROL Name des Speicherorts]**. Verwenden Sie einen eindeutigen Namen. Andernfalls zeigt Learning Manager eine Fehlermeldung an.
    * Geben Sie die Positionsbeschreibung in das Feld **[!UICONTROL Standortinformationen]** ein. Dieses Feld ist optional.
    * Geben Sie die **[!UICONTROL URL des Standorts]** an. Der Teilnehmer kann diese Informationen in den Details des Klassenzimmers sehen. Bei Bedarf kann die URL auch eine URL für den Kartenstandort sein. Dies ist ein optionales Feld.
+   * Geben Sie das **[!UICONTROL Standortbereich]**. Dieses Feld ist optional.
    * Geben Sie die Anzahl der verfügbaren Lizenzen in das Feld **[!UICONTROL Sitzplatzlimit]** ein. Dies gibt die Sitzplatzkapazität des Klassenzimmers an. Dieser Wert kann beim Erstellen des tatsächlichen Schulungsereignisses mit dem Kursleiter geändert werden.
 
    ![](assets/add-classroom-location.png)
@@ -59,6 +59,8 @@ Im Dialogfeld werden die Details jeder Sitzung angezeigt, einschließlich des Na
 
 Die **[!UICONTROL Künftige Sitzungen]** Feldanzeigen **Null** wenn das Klassenzimmer nicht für eine Sitzung verwendet wird oder wenn das Klassenzimmer mit früheren Sitzungen verknüpft ist.
 
+**[!UICONTROL Sitzplatzbeschränkung]** - Zeigt die Sitzplatzkapazität des Klassenzimmers an.
+
 **URL der Position** - URL, die Sie beim Erstellen des Klassenzimmerspeicherorts angegeben haben.
 
 **Standortinformationen** - die Informationen zum Klassenzimmer, die Sie beim Erstellen des Klassenzimmers angegeben haben.
@@ -67,7 +69,7 @@ Die **[!UICONTROL Künftige Sitzungen]** Feldanzeigen **Null** wenn das Klassenz
 
 Alternativ können Sie einen oder mehrere Standorte für Klassenzimmer hinzufügen, indem Sie eine CSV-Datei importieren, die die Informationen zum Klassenzimmer enthält.
 
-In **[!UICONTROL Admin-App]** > **[!UICONTROL Einstellungen]** > **[!UICONTROL Standorte für Klassenzimmer]** auf die Schaltfläche **[!UICONTROL Speicherorte in CSV importieren]** klicken. Navigieren Sie zum Speicherort der CSV-Datei und wählen Sie die Datei aus.
+In **[!UICONTROL Admin-App]** > **[!UICONTROL Einstellungen]** > **[!UICONTROL Standorte für Klassenzimmer]** > **[!UICONTROL Hinzufügen]** auf die Schaltfläche **[!UICONTROL Speicherorte für Massenimport]** klicken. Navigieren Sie zum Speicherort der CSV-Datei und wählen Sie die Datei aus.
 
 In der CSV-Datei werden diese Felder verwendet, um Details zu einem oder mehreren Standorten für Klassenzimmer zu speichern:
 

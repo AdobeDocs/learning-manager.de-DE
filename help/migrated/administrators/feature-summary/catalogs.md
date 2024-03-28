@@ -4,7 +4,7 @@ title: Kataloge
 description: Kataloge sind eine Sammlung von Lernkursen, Lernprogrammen und Zertifizierungen. Verwenden Sie Kataloge, um den Teilnehmern den Zugriff auf einen benutzerdefinierten Lernsatz zu ermöglichen. Sie können Lernprogramme während der Erstellung eines neuen Katalogs einem Katalog zuordnen.
 contentowner: manochan
 exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
-source-git-commit: f98b053e1d63841c232380de74170f8a14067473
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
 source-wordcount: '2429'
 ht-degree: 75%
@@ -238,7 +238,7 @@ Alle Änderungen, die für Lernobjekte in der Besitzeranwendung durchgeführt we
    <td>
     <p><strong>Kategorie </strong></p></td>
    <td>
-    <p>Name, Beschreibung, Farbe und Einstellung der Kategorie, Hinzufügen einer neuen Ebene</p></td>
+    <p>Name, Beschreibung, Farbe und Einstellung der Kategorie, Hinzufügen der neuen Ebene</p></td>
   </tr>
   <tr>
    <td>

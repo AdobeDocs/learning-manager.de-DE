@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Erstellen von Kursmodulen, Instanzen und Lernprogrammen
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: f98b053e1d63841c232380de74170f8a14067473
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '4604'
+source-wordcount: '4613'
 ht-degree: 65%
 
 ---
@@ -53,6 +53,7 @@ Instanz erstellen
    * Klicken **[!UICONTROL Weitere Optionen anzeigen]** , um andere Fristoptionen anzuzeigen.
    * **[!UICONTROL Registrierungsfrist]:** An diesem Datum wird erwartet, dass sich ein Teilnehmer bei Selbstregistrierung in ein Lernobjekt einschreibt.
    * **[!UICONTROL Abmeldefrist]:** Sie können die Abmeldung durch den Teilnehmer selbst einschränken, indem Sie eine Abmeldefrist haben.
+   * **[!UICONTROL Zeitzone]:** Suchen Sie und wählen Sie dann das Element **[!UICONTROL Zeitzone]** aus der Dropdown-Liste.
 
    Ein Administrator kann sich entscheiden, die Abschlussfristen für einen Kurs oder ein Lernprogramm je nach Bedarf festzulegen. Es wird jedoch empfohlen, eine für Schulungen im Klassenzimmer/virtuellen Klassenzimmer vorzusehen.
 
@@ -99,13 +100,13 @@ Führen Sie die folgenden Schritte aus, um eine eingestellte Instanz in einen ak
 
 So senden Sie E-Mails auf Instanzebene an registrierte Teilnehmende:
 
-1. Wählen Sie auf der Seite &quot;Instanzen&quot; die Optionen für eine beliebige Instanz aus und klicken Sie dann auf **[!UICONTROL E-Mail an registrierte Teilnehmende senden]**.
+1. Im Fenster &quot; **[!UICONTROL Instanzen]** &quot; die Optionen auf einer beliebigen Instanz aus und klicken Sie dann auf **[!UICONTROL Registrierte E-Mail-Teilnehmer]**.
 
 ![E-Mails auf Instanzebene](assets/adhoc-email.png)
 
 *E-Mail-Teilnehmer, die sich für die Instanz registriert haben*
 
-1. Wählen Sie im Dialogfeld Ankündigung erstellen die Option Als E-Mail eingeben. Geben Sie den Betreff an, geben Sie die Nachricht ein und klicken Sie auf Speichern. Die Schulung wird automatisch ausgewählt.
+1. Im Fenster &quot; **[!UICONTROL Ankündigung erstellen]** &quot; Typ als E-Mail aus. Geben Sie Betreff und Nachricht ein und klicken Sie auf **[!UICONTROL Speichern]**. Die Schulung wird automatisch ausgewählt.
 
    ![Ankündigung als E-Mail erstellen](assets/email-announcement.png)
 
@@ -178,7 +179,7 @@ Die Excel-Datei enthält Arbeitsblätter für jede Instanz. Ein Arbeitsblatt bes
 
 >[!NOTE]
 >
->Hinweis: Wenn Sie &quot;Multi-Enrollment&quot; aktivieren, werden dem Teilnehmertranskriptbericht für jeden Kurs mehrere Zeilen hinzugefügt (eine Zeile für jede Instanz).
+>Wenn Sie die Mehrfachregistrierung aktivieren, werden dem Teilnehmertranskriptbericht für jeden Kurs mehrere Zeilen hinzugefügt (eine Zeile für jede Instanz).
 >
 >Wenn Sie die Berichtsautomatisierung eingerichtet haben, die nur eine Zeile pro Kurs vorwegnimmt, müssen Sie die erforderlichen Anpassungen an der Berichtsautomatisierung vornehmen, bevor Sie die Funktion zur Mehrfacheinschreibung aktivieren.
 

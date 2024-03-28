@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Lernpläne
 description: Erstellen von Lernplänen für Administratoren in Learning Manager.
 contentowner: saghosh
-source-git-commit: f3e751215d0bcf65be4fbca59d5373011f195366
+exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '1940'
+source-wordcount: '1941'
 ht-degree: 42%
 
 ---
-
-
 
 # Lernpläne
 
@@ -132,9 +131,9 @@ Die **[!UICONTROL Teilnehmern das Auswählen von Instanzen ermöglichen (flexibl
 
 Es gibt drei Optionen:
 
-1. **[!UICONTROL Alle Stufen Kurse und Lernpfade (standardmäßig ausgewählt)]:** Der Teilnehmer erhält Benachrichtigungen für unvollständige Kurse, unabhängig von der Ebene in einem Lernpfad.
+1. **[!UICONTROL Alle Qualifikationsstufen Kurse und Lernpfade (standardmäßig ausgewählt)]:** Der Teilnehmer erhält Benachrichtigungen für unvollständige Kurse, unabhängig von der Ebene in einem Lernpfad.
 1. **[!UICONTROL Stammlernpfad]:** Der Teilnehmer erhält Benachrichtigungen für alle unvollständigen Kurse, die zu einem übergeordneten Lernpfad gehören.
-1. **[!UICONTROL Nur Lernpfad und untergeordnete Elemente der ersten Ebene]:** Der Teilnehmer erhält Benachrichtigungen über alle unvollständigen Kurse, die ein erstes untergeordnetes Element eines übergeordneten Lernpfads sind.
+1. **[!UICONTROL Lernpfad + nur die ersten untergeordneten Kenntnisstufen]:** Der Teilnehmer erhält Benachrichtigungen über alle unvollständigen Kurse, die ein erstes untergeordnetes Element eines übergeordneten Lernpfads sind.
 
 Die Benachrichtigungserinnerungen werden basierend auf der Option ausgelöst. Standardmäßig ist die Option **[!UICONTROL Alle Stufen von Kursen und Lernpfaden]** für eine Instanz aktiviert ist.
 

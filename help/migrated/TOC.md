@@ -2,9 +2,9 @@
 user-guide-title: Leitfaden für Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Dokumentation für Adobe Learning Manager
-source-git-commit: fc77dad8f39d6d29c8ec74eb5ba137bf12ab7f8c
+source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '588'
 ht-degree: 90%
 
 ---
@@ -69,7 +69,6 @@ ht-degree: 90%
    * [Einstellungen](administrators/feature-summary/settings.md)
    * [Benachrichtigungen](administrators/feature-summary/user-notifications.md)
    * [Benutzer von iPad- und Android-Tablets](administrators/feature-summary/ipad-android-tablet-users.md)
-   * [Erste Schritte als Administrator](administrators/feature-summary/getting-started.md)
    * [Benutzer bereinigen](administrators/feature-summary/purge-users.md)
    * [Tags](administrators/feature-summary/tags.md)
    * [Learning Manager-Inhaltskatalog](administrators/feature-summary/content-catalogs.md)
