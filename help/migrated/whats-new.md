@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Zusammenfassung der neuen Funktionen
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: df56839b761ec3ab5354b5ea84b805608c36451c
+source-git-commit: 8dcfdc7336e5be7f327626d2973671ca56ec58ce
 workflow-type: tm+mt
-source-wordcount: '3666'
+source-wordcount: '3764'
 ht-degree: 1%
 
 ---
@@ -230,11 +230,24 @@ Wenn die Anzahl der Benutzer in einer Benutzergruppe groß ist, wird das Dialogf
 In dieser Version haben wir die Sucherfahrung verbessert. Die Suchergebnisse werden nicht nur anhand der Metadaten, sondern auch semantisch und inhaltlich abgerufen, um Ergebnisse auf der Grundlage von Genauigkeit, Aktualität und relevantem Inhalt abzuleiten.
 
 Diese Änderung spiegelt Folgendes wider:
+
 * Katalog und Meine Lernseite: Die Hover-Aktion auf Kurs, Lernpfad und Zertifizierung wurde entfernt.
 * Das Erscheinungsbild der Suchleiste.
 * In der Lern-App wurden Filter-Tags hinzugefügt.
 
 Um die Suchfunktionen zu aktivieren, wenden Sie sich an das CSAM-Team des Adobe Learning Managers.
+
+## Änderungen in der Benutzeroberfläche {#ui-changes}
+
+### Seite zur Kurserstellung
+
+Beim Zuordnen der Kurse zu einer Kenntnisstufe wird die Liste der Kenntnisse zuerst durchsucht. Mit anderen Worten, suchen Sie nach Kenntnissen, und Sie sehen eine Liste von Kenntnissen, die dem gesuchten Begriff entsprechen.
+
+### Benutzergruppen
+
+#### Admin: Seite &quot;Teilnehmer&quot;
+
+Wenn Sie nach einem Benutzer suchen, wird das Dialogfeld &quot; **Teilnehmer herunterladen** und **Exportieren** Optionen laden den gleichen Bericht herunter. In der Zwischenzeit können Sie beim Suchen nach einer Benutzergruppe jetzt gefilterte Benutzer aus dieser Benutzergruppe herunterladen. Wenn Sie eine Benutzergruppe suchen, wird das Dialogfeld &quot; **Teilnehmerliste herunterladen** Änderungen an **Teilnehmerliste für Benutzergruppe herunterladen** Die **Exportieren** lädt die gesamte Liste erneut herunter.
 
 ## Änderungen an Berichten
 
