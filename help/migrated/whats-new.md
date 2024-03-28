@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Zusammenfassung der neuen Funktionen
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: 1bdbabfd0b2e365c713d9beb393e7413cd15a9fd
+source-git-commit: 5828af43214a643b64153ed33c2858c13d9aca10
 workflow-type: tm+mt
 source-wordcount: '3764'
 ht-degree: 1%
@@ -245,7 +245,7 @@ Beim Zuordnen der Kurse zu einer Kenntnisstufe wird die Liste der Kenntnisse zue
 
 ### Benutzergruppen
 
-#### Admin: Seite &quot;Teilnehmer&quot;
+#### Admin: Teilnehmerseite
 
 Wenn Sie nach einem Benutzer suchen, wird das Dialogfeld &quot; **Teilnehmer herunterladen** und **Exportieren** Optionen laden den gleichen Bericht herunter. In der Zwischenzeit können Sie beim Suchen nach einer Benutzergruppe jetzt gefilterte Benutzer aus dieser Benutzergruppe herunterladen. Wenn Sie eine Benutzergruppe suchen, wird das Dialogfeld &quot; **Teilnehmerliste herunterladen** Änderungen an **Teilnehmerliste für Benutzergruppe herunterladen** Die **Exportieren** lädt die gesamte Liste erneut herunter.
 
