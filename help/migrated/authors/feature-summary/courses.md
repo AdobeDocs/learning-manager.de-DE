@@ -3,14 +3,13 @@ description: In diesem Artikel erfahren Sie, wie Sie Kurse, Zertifizierungen und
 jcr-language: en_us
 title: Kurse erstellen, ändern und veröffentlichen
 contentowner: manochan
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
+source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
 workflow-type: tm+mt
 source-wordcount: '6843'
 ht-degree: 75%
 
 ---
-
-
 
 # Erstellen, Ändern und Veröffentlichen von Kursen
 
@@ -70,6 +69,7 @@ Um einen Kurs zu erstellen, führen Sie die unten genannten Schritte aus:
    HINWEIS: Diese Option ist nur aktiviert, wenn der Adobe Commerce-Connector konfiguriert ist.
 
 1. Wenn Sie die Möglichkeit geben, für die Teilnehmer, sich von Ihrem Kurs abzumelden, aktivieren Sie das Kontrollkästchen **Teilnehmer können sich selbst abmelden**.
+
 1. **Instanzkonfiguration**
 
    Wenn Sie diese Option aktivieren, können Teilnehmer mit dem Status In Bearbeitung andere Instanzen besuchen und sich dort registrieren. Teilnehmende können dann den Fortschritt der vorherigen Instanz beibehalten.
@@ -898,4 +898,3 @@ Weitere Informationen finden Sie im [Abschnitt zu mehreren Versuchen](courses.m
 Nein, der auf den Learning Manager hochgeladene Inhalt ist eine veröffentlichte ZIP-Datei und nicht die Quelldatei. Daher kann der Inhalt auch dann nicht in einem Authoring-Tool bearbeitet werden, wenn er heruntergeladen wird. Sie benötigen eine Quelldatei, um den Inhalt zu bearbeiten.
 
 +++
-

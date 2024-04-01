@@ -3,14 +3,13 @@ description: Lesen Sie die folgenden Artikel, um zu erfahren, wie Sie Kurse in L
 jcr-language: en_us
 title: Kurse
 contentowner: manochan
-source-git-commit: 6abc118c6ad7e66e3ded5bd26b9167c3a0b99e4b
+exl-id: 2c62d36c-c500-40d6-b79f-d3cc8b3b756a
+source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
 workflow-type: tm+mt
 source-wordcount: '2736'
-ht-degree: 65%
+ht-degree: 64%
 
 ---
-
-
 
 # Kurse
 
@@ -170,7 +169,7 @@ Erst nach der Registrierung für einen Kurs kann ein Teilnehmer dem Kurs ein Ste
 
 Ein Teilnehmer kann einen bestimmten Stern auswählen (von 5) und die Bewertung senden. Der Teilnehmer kann die Auswahl auch bearbeiten, indem er auf einen anderen Stern klickt. Nach der Übermittlung wird die Meldung &quot;Vielen Dank für Ihr Feedback!&quot; angezeigt.
 
-Wenn der Teilnehmer das Feedback erneut senden möchte, klickt er dazu auf die Meldung. Die Schaltfläche **Senden **wird erneut aktiviert. Ein Teilnehmer kann nach der Registrierung für einen Kurs mehrmals eine Sternebewertung abgeben. Es wird immer die neueste Bewertung berücksichtigt.
+Wenn der Teilnehmer das Feedback erneut senden möchte, klickt er dazu auf die Meldung. Die **Senden** wird wieder aktiviert. Ein Teilnehmer kann nach der Registrierung für einen Kurs mehrmals eine Sternebewertung abgeben. Es wird immer die neueste Bewertung berücksichtigt.
 
 Sobald der Teilnehmer eine Bewertung abgegeben hat, werden die durchschnittliche Sternebewertung und die Anzahl der Teilnehmer, die die Sternebewertung abgegeben haben, in der **Kursübersicht** angezeigt.
 
@@ -211,7 +210,7 @@ Alle Filter und andere Optionen werden im folgenden Video gezeigt.
 
 ### Inhaltsvorschau
 
-Sie können den Kurs durchsuchen und in der Vorschau anzeigen und prüfen, ob er Ihren Lernanforderungen entspricht. Klicken Sie auf die Schaltfläche **Vorschau **und die Kursvorschau wird angezeigt. Die Vorschau ist zwei Minuten lang verfügbar.
+Sie können den Kurs durchsuchen und in der Vorschau anzeigen und prüfen, ob er Ihren Lernanforderungen entspricht. Klicken Sie auf **Vorschau** &quot; und sehen Sie die Kursvorschau. Die Vorschau ist zwei Minuten lang verfügbar.
 
 ![](assets/content-marketplace-learner.gif)
 *Content-Vorschau auf dem Marktplatz.*
@@ -272,7 +271,7 @@ Als Teilnehmer können Sie über die Registerkarte „Diskussionen“ mit andere
 
 Sobald Sie auf die Registerkarte „Diskussionen“ klicken, sehen Sie die vorhandenen Beiträge und Kommentare zu diesem Kurs. Wenn Sie sich bereits für den Kurs registriert haben, können Sie auch Beiträge oder Kommentare eingeben, die dann für andere Benutzer sichtbar sind. Nachdem Sie die Nachricht eingegeben, klicken Sie auf „Veröffentlichen“. Ihr Beitrag muss mindestens 10 Zeichen enthalten.
 
-Der Beitrag wird sofort auf der Registerkarte „Diskussionen“ angezeigt. Sie können die Beiträge nach „Neueste zuerst“ oder „Älteste zuerst“ sortieren. Auch nachdem Sie die Registrierung für den Kurs widerrufen haben, können Sie weiterhin alle Beiträge anzeigen und Ihre eigenen Beiträge löschen.
+Der Beitrag wird sofort auf der Registerkarte „Diskussionen“ angezeigt. Sie können die Beiträge nach &quot;Neueste zuerst&quot; oder &quot;Älteste zuerst&quot; sortieren und die Beiträge löschen, die Sie geschrieben haben. Auch nachdem Sie die Registrierung für den Kurs widerrufen haben, können Sie weiterhin alle Beiträge anzeigen und Ihre eigenen Beiträge löschen.
 
 ![](assets/learner-discussion.png)
 *Teilnehmerdiskussionen anzeigen*

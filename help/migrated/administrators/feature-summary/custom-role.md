@@ -4,7 +4,7 @@ title: Benutzerdefinierte Rollen
 description: Mit der Lernpfadfunktion können Sie benutzerdefinierte Rollen definieren und einer Gruppe von Benutzern bestimmte Verantwortlichkeiten zuweisen. Mit dieser Funktion können Sie Verantwortlichkeiten zuweisen, die nicht in den Bereich der bestehenden Rolle der Person fallen.
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: 3af4224f82f14342a298ce39088be874a2372817
+source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
 workflow-type: tm+mt
 source-wordcount: '2223'
 ht-degree: 65%
@@ -221,6 +221,7 @@ Ein Benutzer mit einer benutzerdefinierten Rolle kann Folgendes:
      </tr>
     </tbody>
    </table>
+
 1. **Benutzer:** Verwenden Sie diese Option, um festzulegen, welche Benutzer dieser Rolle zugewiesen sind. Sie können einen oder mehrere Benutzer über das Suchfeld auswählen.
 
    **Benutzer zum CSV-Upload für benutzerdefinierte Rollen hinzufügen:** Um Benutzer über ein CSV-Update hinzuzufügen, fügen Sie der CSV-Datei eine Spalte &quot;CustomRole&quot; hinzu, die der Administrator zum Importieren von Benutzern verwendet hat. Geben Sie die Rolle des Benutzers in der Spalte Benutzerdefinierte Rolle für die Benutzer ein, denen Sie eine benutzerdefinierte Rolle zuweisen möchten. Zum Hochladen der CSV-Datei klicken Sie auf  **[!UICONTROL Hinzufügen > CSV hochladen]**.

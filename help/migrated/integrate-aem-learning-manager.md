@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Integration von Learning Manager in AEM
 description: Learning Manager ist ein Learning Management System mit einem integrierten Learning Content Management System. Benutzer verwalten ihre Lerninhalte, indem sie sie auf Learning Manager hochladen, sodass Learning Manager die Versionierung, die Zuweisung zu Kursen, die Definition der Sichtbarkeit für Teilnehmer, die Verfolgung der Nutzung und die Berichterstattung an Administratoren durchführt.
 contentowner: saghosh
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
+source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1078'
 ht-degree: 45%
 
 ---
-
-
 
 # Integration von Learning Manager in AEM
 
@@ -136,7 +135,7 @@ Das Katalog-Widget enthält die folgenden Optionen:
 
 * **[!UICONTROL Katalog-ID]:** Durch Kommas getrennte Katalog-IDs, für die die Schulung angezeigt werden muss.
 * **[!UICONTROL Sortieren]:** Sortierreihenfolge für die Schulung Die Optionen sind: Name, Datum, dateCreated, dateEnrolled usw.
-* **[!UICONTROL Teilnehmerstatus]:** Gibt alle Schulungen zurück, die die folgenden Filter verwenden: Registriert, Begonnen, Abgeschlossen und Nicht registriert. Die Suchergebnisse werden nicht angezeigt, wenn die Sortieroption dateEnrolled, dueDate oder dateEnrolled lautet.
+* **[!UICONTROL Teilnehmerstatus]:** Gibt alle Schulungen zurück, die die folgenden Filter verwenden: Registriert, Begonnen, Abgeschlossen und nicht Registriert. Die Suchergebnisse werden nicht angezeigt, wenn die Sortieroption dateEnrolled, dueDate oder dateEnrolled lautet.
 * **[!UICONTROL Kenntnisname]:** Die Fähigkeit, die zum Filtern der exakten Schulung verwendet wird.
 * **[!UICONTROL Tag-Name]:** Das zum Filtern der genauen Ergebnisse verwendete Tag.
 

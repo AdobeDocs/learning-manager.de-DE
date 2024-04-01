@@ -1,7 +1,8 @@
 ---
 title: Neue Funktionen in dieser Version
 description: Erfahren Sie mehr über die neuen Funktionen und Verbesserungen in der Version November 2023 von Adobe Learning Manager.
-source-git-commit: 1b0a89bf14ed4e48c3da925686d5e2becd94e320
+exl-id: d670dc47-d57f-464a-bee8-064cc16e59f9
+source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
 workflow-type: tm+mt
 source-wordcount: '2373'
 ht-degree: 70%
@@ -168,11 +169,48 @@ Wenn die Benutzerberechtigung oder die Benutzergruppe &quot;Alle&quot; ausgewäh
 
 Ein benutzerdefinierter Administrator kann entsprechend dem definierten Umfang auf die folgenden Berichte zugreifen:
 
-| Bericht | Verfügbar | Umfang |
+<table>
+    <tbody>
+        <tr>
+            <td>
+    <p style="text-align: left;"><b>Bericht</b></p></td>
+   <td>
+    <p style="text-align: left;"><b>Verfügbar</b></p></td>
+   <td>
+    <p style="text-align: left;"><b>Umfang</b></p></td>
+        </tr>
+    <tr>
+   <td>
+    <p>Inhaltsprüfpfad</p></td>
+   <td>
+    <p>Ja</p></td>
+   <td>
+    <p>Vollständiger Katalog</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Benutzerprüfpfad</p></td>
+   <td>
+    <p>Ja</p></td>
+   <td>
+    <p>Standardbenutzer(in)</p></td>
+  </tr>
+  <tr>
+   <td>
+    <p>Anmeldezugriff</p></td>
+   <td>
+    <p>Ja</p></td>
+   <td>
+    <p>Standardbenutzer(in)</p></td>
+  </tr>
+    </tbody>
+</table>
+
+<!--| Report | Available | Scope |
 |--- |--- |
-| Inhaltsprüfpfad | Ja | Vollständiger Katalog |
-| Benutzerprüfpfad | Ja | Standardbenutzer(in) |
-| Anmeldezugriff | Ja | Standardbenutzer(in) |
+| Content Audit Trail | Yes | Full Catalog |
+| User Audit Trail | Yes | Full User |
+|Login Access | Yes | Full User |-->
 
 ## Verbesserte Connect-Integration
 
