@@ -1,7 +1,7 @@
 ---
-description: Adobe Learning Manager - Versionshinweise
+description: Versionshinweise zu Adobe Learning Manager
 jcr-language: en_us
-title: Adobe Learning Manager - Versionshinweise
+title: Versionshinweise zu Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 source-git-commit: 5525aa6f5b4c795e4ffbd008e9fe865abfbe4980
@@ -11,7 +11,7 @@ ht-degree: 72%
 
 ---
 
-# Adobe Learning Manager - Versionshinweise
+# Versionshinweise zu Adobe Learning Manager
 
 <!--<table>
  <tbody>
@@ -145,7 +145,7 @@ Ein neuer Bericht zur Auslastung von Kursleitern, ein Bericht zu Schulungsübera
 
 **Unterstützung für &quot;Hybrid&quot;-Sitzungen**
 
-Adobe Learning Manager unterstützt jetzt die Möglichkeit, &quot;hybride&quot; ILT-Schulungssitzungen (Instructor Led Training) zu erstellen. Virtuelle ILT-Sitzungen können mit optionalen Standortinformationen erstellt werden, sodass Teilnehmende die Sitzung auch persönlich besuchen können, wenn sie vor Ort sind.
+Adobe Learning Manager unterstützt jetzt die Möglichkeit, &quot;hybride&quot; ILT-Sitzungen (Instructor Led Training) zu erstellen. Virtuelle ILT-Sitzungen können mit optionalen Standortinformationen erstellt werden, sodass Teilnehmende die Sitzung auch persönlich besuchen können, wenn sie vor Ort sind.
 
 **Bessere Fortschrittsverfolgung für Klassenzimmer und virtuelles ILT**
 
@@ -371,7 +371,7 @@ Für den LinkedIn Learning-Connector gibt es ein neues Kontrollkästchen auf der
 * Benutzer wurden während der Teilnahme an Zoom-/BJ VC-Sitzungen falsch identifiziert.
 +++
 
-+++Update 81 - Version von Adobe Learning Manager vom November 2022
++++Update 81 - Version von Adobe Learning Manager von November 2022
 
 **Freigabedatum:** 05. November 2022
 
@@ -472,7 +472,7 @@ Weitere Informationen finden Sie unter [Neue Funktionen in Version November 202
 
 Dies ist ein Update zu einer bevorstehenden Änderung und hilft Ihnen, sich darauf vorzubereiten.
 
-**Adobe Learning Manager als Produkt wird im Juli 2022 in Adobe Learning Manager umbenannt.**. Dies ist eine strategische Maßnahme, um die Ausrichtung des Produkts auf bestimmte geschäftliche Prioritäten genauer widerzuspiegeln.
+**Adobe Learning Manager als Produkt wird im Juli 2022 in Adobe Learning Manager umbenannt**. Dies ist eine strategische Maßnahme, um die Ausrichtung des Produkts auf bestimmte geschäftliche Prioritäten genauer widerzuspiegeln.
 
 Das Produktteam stellt mit allen erforderlichen Maßnahmen sicher, dass Ihre Nutzung der Plattform nicht beeinträchtigt wird. Sie können das Produkt weiterhin wie gewohnt verwenden. Den Administratoren der Plattform wird der neue Markenname im Juli möglicherweise in bestimmten Bildschirmen auffallen.
 
@@ -627,7 +627,7 @@ For more information, see What's new in the [**January 2022 release of Adobe Lea
 
 **Veröffentlichen**
 
-* In der europäischen Instanz von Learning Manager wurden Inhalte, die direkt auf Adobe Learning Manager von Adobe Captivate veröffentlicht wurden, standardmäßig im deutschen Gebietsschema veröffentlicht. Dieses Problem wurde nun behoben.
+* In der europäischen Instanz von Learning Manager wurden Inhalte, die direkt von Adobe Captivate aus in Adobe Learning Manager veröffentlicht wurden, standardmäßig im deutschen Gebietsschema veröffentlicht. Dieses Problem wurde nun behoben.
 
 **API**
 
@@ -779,7 +779,7 @@ Mit diesem Update wird eine neue Instanz von Azure eingeführt.
 
 +++Update 66 - Version von August 2021 von Learning Manager
 
-Die **August 2021** **Version von Adobe Learning Manager** konzentriert sich auf die Verbesserung der Teilnehmererfahrung, der Berichterstattung und der Administrator-Workflows. Zu den Highlights gehören:
+Die **August 2021** **Adobe Learning Manager-Version** konzentriert sich auf die Verbesserung der Teilnehmererfahrung, der Berichterstattung und der Administrator-Workflows. Zu den Highlights gehören:
 
 * **Content Marketplace:** Learning Manager bietet jetzt mehr als 70000 Kurse aus verschiedenen Bereichen wie Technologie, Management, Führung usw.
 * **Verbesserte Barrierefreiheit:** Die Barrierefreiheit für die Teilnehmerrolle wird durch verbesserte Tastaturnavigation, Bildschirmlesehilfen und Einhaltung der Kontrastverhältnisvorgaben verbessert.
