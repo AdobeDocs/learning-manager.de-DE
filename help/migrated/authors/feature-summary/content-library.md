@@ -2,14 +2,13 @@
 description: Erfahren Sie, wie Sie Inhalt zum Selbststudium erstellen können, der Kursen zugeordnet werden kann.
 jcr-language: en_us
 title: Inhaltsbibliothek
-source-git-commit: 5a8f1af4af180e04fced782ff58111269e005a20
+exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
+source-git-commit: 0a096888ab9913bb38391f9dc7b21fad3d90e91d
 workflow-type: tm+mt
-source-wordcount: '3113'
-ht-degree: 65%
+source-wordcount: '3145'
+ht-degree: 53%
 
 ---
-
-
 
 # Inhaltsbibliothek
 
@@ -115,21 +114,26 @@ Wie im vorherigen Abschnitt erwähnt, können Sie der Bibliothek sowohl interakt
 
 ## Statischen Inhalt hinzufügen {#addstaticcontent}
 
-1. Melden Sie sich als Autor an und klicken Sie dann im linken Teilfenster auf „Inhaltsbibliothek“ und dann auf „Hinzufügen“. 
+1. Wählen Sie das **[!UICONTROL Inhaltsbibliothek]** im linken Bereich, nachdem Sie sich als **Autor** und wählen Sie **[!UICONTROL Hinzufügen]** > **[!UICONTROL Inhalt]**.
 
-   Alternativ dazu können Sie auf der Seite „Erste Schritte“ auf „Inhalt erstellen“ klicken.
+>[!NOTE]
+>
+>Auswählen **[!UICONTROL Hinzufügen]** werden zwei Optionen angezeigt. **[!UICONTROL Inhalt]** und **[!UICONTROL Quiz]**: Siehe [Quiz erstellen](content-library.md#createaquiz) für weitere Informationen.
 
-1. Geben Sie im Feld „Name“ einen Namen für den Inhalt ein, den Sie hochladen möchten.
-1. Geben Sie im Feld „Beschreibung“ die Beschreibung für den Inhalt ein. Stellen Sie sicher, dass die Beschreibung, die Sie eingeben möchten, aussagekräftig ist. Die Zeichenbegrenzung beträgt 400 Zeichen.
-1. Um den Inhalt hinzuzufügen, klicken Sie auf „Inhaltsdatei hinzufügen“ und laden Sie Ihre Ressourcendatei hoch. Wenn Sie Inhalte für verschiedene Sprachen hinzufügen, können Sie nicht statische und interaktive Inhalte in einer Gruppe kombinieren. Entweder sollte der gesamte Inhalt in allen Sprachen statisch sein, oder der gesamte Inhalt sollte interaktiv sein.
+
+Alternativ können Sie **[!UICONTROL Inhalt erstellen]** im Fenster &quot; **[!UICONTROL Erste Schritte]** angezeigt.
+
+1. Im Dialogfeld &quot; **[!UICONTROL Name]** einen Namen für den Inhalt ein, den Sie hochladen möchten.
+1. Im Dialogfeld &quot; **[!UICONTROL Beschreibung]** die Beschreibung für den Inhalt ein. Stellen Sie sicher, dass die Beschreibung, die Sie eingeben möchten, aussagekräftig ist. Die Zeichenbegrenzung beträgt 400 Zeichen.
+1. Um den Inhalt hinzuzufügen, wählen Sie **[!UICONTROL Inhaltsdatei hinzufügen]**, und laden Sie Ihre Ressourcendatei hoch. Wenn Sie Inhalte für verschiedene Sprachen hinzufügen, können Sie nicht statische und interaktive Inhalte in einer Gruppe kombinieren. Entweder sollte der gesamte Inhalt in allen Sprachen statisch sein, oder der gesamte Inhalt sollte interaktiv sein.
 
    Wenn Sie den Inhalt ersetzen möchten, können Sie einen statischen Inhalt durch einen anderen statischen Inhalt ersetzen. Gleiches gilt für interaktive Inhalte.
 
-1. Im Feld „Dauer“ können Sie optional die geschätzte Zeit, die ein Teilnehmer in diesem Modul verbringen würde, ein. Es dauert nur Minuten.
+1. Im Dialogfeld &quot; **[!UICONTROL Dauer]** können Sie optional die erwartete Zeit eingeben, die ein Teilnehmer in diesem Modul verbringen würde. Es dauert nur Minuten.
 
-   Die vom Teilnehmer aufgewendete Lernzeit wird anhand der angegebenen Dauer berechnet, wenn der Teilnehmer einen Kurs als abgeschlossen markiert hat. Wenn der Teilnehmer den Inhalt des Players verwendet, wird die im Player verbrachte Zeit zur aufgewendeten Lernzeit addiert. Wenn die tatsächliche Inhaltszeit kürzer als die angegebene Dauer ist, geschieht nichts, da der Player die Inhaltszeit für die Anzeige immer einhält.
+   Die vom Teilnehmer aufgewendete Lernzeit wird anhand der angegebenen Dauer berechnet, wenn der Teilnehmer einen Kurs als abgeschlossen markiert hat. Wenn der Teilnehmer den Inhalt des Players verwendet, wird die im Player verbrachte Zeit zur aufgewendeten Lernzeit hinzugefügt. Wenn die tatsächliche Inhaltszeit kürzer als die angegebene Dauer ist, geschieht nichts, da der Player die Inhaltszeit für die Anzeige immer einhält.
 
-1. Geben Sie im Feld „Inhalts-Tags“ die Tags für den hochgeladenen Inhalt ein, damit Ihr Inhalt sichtbar wird.
+1. Im Dialogfeld &quot; **[!UICONTROL Tags]** die Tags für den hochgeladenen Inhalt ein, damit Ihr Inhalt sichtbar wird.
 
    Ein Autor kann diese Tags verwenden, um nach dem Inhalt zu suchen, während er den Inhalt zum Kurs hinzufügt.
 
@@ -139,23 +143,25 @@ Die Inhaltsbibliothek verwaltet auch die Versionierung Ihrer hochgeladenen Inhal
 
 ## Hinzufügen von interaktiven Inhalten {#addinteractivecontent}
 
-1. Melden Sie sich als Autor an und klicken Sie dann im linken Teilfenster auf „Inhaltsbibliothek“ und dann auf „Hinzufügen“. 
+1. Auswählen **[!UICONTROL Inhaltsbibliothek]** im linken Bereich, nachdem Sie sich als **Autor** und wählen Sie **[!UICONTROL Hinzufügen]** > **[!UICONTROL Inhalt]**.
 
-   Alternativ dazu können Sie auf der Seite „Erste Schritte“ auf „Inhalt erstellen“ klicken.
+>[!NOTE]
+>
+>Auswählen **[!UICONTROL Hinzufügen]** werden zwei Optionen angezeigt. **[!UICONTROL Inhalt]** und **[!UICONTROL Quiz]**: Siehe [Quiz erstellen](content-library.md#createaquiz) für weitere Informationen.
 
-1. Geben Sie im Feld „Name“ einen Namen für den Inhalt ein, den Sie hochladen möchten.
-1. Geben Sie im Feld „Beschreibung“ die Beschreibung für den Inhalt ein. Stellen Sie sicher, dass die Beschreibung, die Sie eingeben möchten, aussagekräftig ist. Die Zeichenbegrenzung beträgt 245 Zeichen.
-1. Um den Inhalt hinzuzufügen, klicken Sie auf „Inhaltsdatei hinzufügen“ und laden Sie Ihre Ressourcendatei hoch. Wenn Sie Inhalte für verschiedene Sprachen hinzufügen, können Sie nicht statische und interaktive Inhalte in einer Gruppe kombinieren. Entweder sollte der gesamte Inhalt in allen Sprachen statisch sein, oder der gesamte Inhalt sollte interaktiv sein.
+Alternativ können Sie **[!UICONTROL Inhalt erstellen]** im Fenster &quot; **[!UICONTROL Erste Schritte]** angezeigt.
+
+1. Im Dialogfeld &quot; **[!UICONTROL Name]** einen Namen für den Inhalt ein, den Sie hochladen möchten.
+1. Im Dialogfeld &quot; **[!UICONTROL Beschreibung]** die Beschreibung für den Inhalt ein. Stellen Sie sicher, dass die Beschreibung, die Sie eingeben möchten, aussagekräftig ist. Die Zeichenbegrenzung beträgt 245 Zeichen.
+1. Um den Inhalt hinzuzufügen, wählen Sie **[!UICONTROL Inhaltsdatei hinzufügen]**, und laden Sie Ihre Ressourcendatei hoch. Wenn Sie Inhalte für verschiedene Sprachen hinzufügen, können Sie nicht statische und interaktive Inhalte in einer Gruppe kombinieren. Entweder sollte der gesamte Inhalt in allen Sprachen statisch sein, oder der gesamte Inhalt sollte interaktiv sein.
 
 * [Unterstützte Dateitypen](content-library.md#supported)
 
   Der interaktive Inhalt kann ein von SCORM, AICC oder Captivate veröffentlichtes Projekt sein. Die Datei muss eine Zip-Datei sein.
 
-  Sie können auch HTML-Inhalte hinzufügen, die aus Captivate, Presenter oder Presenter Video Express generiert wurden.
+Sie können auch HTML-Inhalte hinzufügen, die aus Captivate, Presenter oder Presenter Video Express generiert wurden.
 
-[Unterstützte Dateitypen](content-library.md#supported)
-
-1. Learning Manager unterstützt Untertitel für in Learning Manager hochgeladene Videoinhalte. Jetzt können Autoren die Datei mit den Untertiteln zusammen mit der Videodatei hochladen.
+1. **Learning Manager** unterstützt Untertitel für in Learning Manager hochgeladene Videoinhalte. Jetzt können Autoren die Datei mit den Untertiteln zusammen mit der Videodatei hochladen.
 
    Anschließend können die Teilnehmer die Untertitel während der Wiedergabe des Videomoduls anzeigen.
 
@@ -167,7 +173,7 @@ Die Inhaltsbibliothek verwaltet auch die Versionierung Ihrer hochgeladenen Inhal
 
    Die Untertitel werden dann im Fluidic Player angezeigt. Die Untertitel entsprechen auch den [WCAG2.0-Standards](https://www.w3.org/TR/WCAG20/).
 
-   Wenn Sie der Bibliothek einen Videoinhalt hinzufügen, können Sie auch die VTT-Datei hinzufügen, die **müssen** muss eine gültige Datei sein.
+   Wenn Sie der Bibliothek einen Videoinhalt hinzufügen, können Sie auch die VTT-Datei hinzufügen, die eine gültige Datei sein muss.
 
    ![](assets/webvtt.png)
 
@@ -185,7 +191,7 @@ Die Inhaltsbibliothek verwaltet auch die Versionierung Ihrer hochgeladenen Inhal
 
    Nachdem Sie diesen Inhalt einem Kurs hinzugefügt haben und wenn Sie den Kurs als Teilnehmer in der Vorschau anzeigen, können Sie die Untertitel im Video sehen.
 
-   Schalten Sie auf dem Player die CC-Schaltfläche im Fluidic Player ein, um die Beschriftungen ein- oder auszublenden.
+   Aktivieren Sie im Player die CC-Schaltfläche im Fluidic Player, um die Untertitel ein- oder auszublenden.
 
    Die gleiche Ansicht ist sowohl in der **Teilnehmer-App** als auch in der **Vorschau als Teilnehmer** vorhanden.
 
@@ -193,14 +199,14 @@ Die Inhaltsbibliothek verwaltet auch die Versionierung Ihrer hochgeladenen Inhal
 WebVTT-Unterstützung ist nicht verfügbar für:
 
    1. Videoankündigungen.
-   1. Video, das innerhalb des Lerninhalts abgespielt wird. Das hängt vom Inhalt ab.
+   1. Video, das innerhalb des E-Learning-Inhalts abgespielt wird. Das hängt vom Inhalt ab.
    1. In Soziales Lernen hochgeladenes Video.
    1. In der Learning Manager-Desktop-App erstelltes Video.
    1. Mithilfe des Migrationsvorgangs erstellte Videoinhalte.
    1. Videowiedergabe in der mobilen App im Offlinemodus.
 
-1. Im Feld „Dauer“ können Sie optional die geschätzte Zeit, die ein Teilnehmer in diesem Modul verbringen würde, ein. Es dauert nur Minuten.
-1. Geben Sie im Feld „Inhalts-Tags“ die Tags für den hochgeladenen Inhalt ein, damit Ihr Inhalt sichtbar wird.
+1. Im Dialogfeld &quot; **[!UICONTROL Dauer]** können Sie optional die erwartete Zeit eingeben, die ein Teilnehmer in diesem Modul verbringen würde. Es dauert nur Minuten.
+1. Im Dialogfeld &quot; **[!UICONTROL Tags]** die Tags für den hochgeladenen Inhalt ein, sodass Ihr Inhalt sichtbar wird.
 
 ### Unterstützung für freigegebenen Katalog
 
@@ -208,17 +214,17 @@ Wenn ein Händlerkonto einen Katalog mit den Kursen teilt und die Kurse die Modu
 
 Die Modulweitergabe sollte vom Verkäufer- zum Käuferkonto korrekt funktionieren. Dies kann Bearbeiten/Löschen/Hinzufügen der VTT-Datei im Modul beinhalten.
 
-Sobald Sie den Inhalt hochgeladen haben, können Sie eine Benachrichtigung anzeigen, indem Sie oben rechts auf der Seite auf das Glockensymbol klicken. Jedes Mal, wenn Sie einen Inhalt ändern und erneut hochladen, erhalten Sie eine Benachrichtigung. Wenn Sie die Änderungen vornehmen, erhalten nur Sie die Benachrichtigung, nicht andere Autoren.
+Nachdem Sie den Inhalt hochgeladen haben, können Sie eine Benachrichtigung anzeigen, indem Sie die Option **Klingel** oben rechts auf der Seite. Jedes Mal, wenn Sie einen Inhalt ändern und erneut hochladen, erhalten Sie eine Benachrichtigung. Wenn Sie die Änderungen vornehmen, erhalten nur Sie die Benachrichtigung, nicht andere Autoren.
 
-## Erstellen Sie ein Quiz
+## Erstellen Sie ein Quiz {#createaquiz}
 
-Erstellen Sie Bewertungen im Adobe Learning Manager mit dem neuen Quizerstellungstool auf der Seite „Inhaltsbibliothek“. Die erstellten Bewertungen werden Teil der Inhaltsbibliothek und können zu einem &quot;öffentlichen&quot; Ordner hinzugefügt werden, um die Wiederverwendbarkeit von Kursen zu gewährleisten.
+Erstellen Sie Bewertungen in Adobe Learning Manager mit dem neuen Quizerstellungstool auf der **[!UICONTROL Inhaltsbibliothek]** angezeigt. Die erstellten Bewertungen werden Teil der **Inhaltsbibliothek** und können zu einem &quot;öffentlichen&quot; Ordner hinzugefügt werden, um die Wiederverwendbarkeit von Kursen zu gewährleisten.
 
-1. Wählen Sie im linken Bereich Inhaltsbibliothek aus.
+1. Wählen Sie **[!UICONTROL Inhaltsbibliothek]** im linken Bereich aus.
 1. Wählen Sie in der oberen rechten Ecke des Bildschirms **Hinzufügen > Quiz**.
-1. Geben Sie auf der Seite &quot;Quiz erstellen&quot; den Namen und die Beschreibung des Quiz ein.
-1. Wählen Sie im Abschnitt „Quizinhalt“ die Option **Quizfrage hinzufügen**.
-1. Wählen Sie im Dialogfeld &quot;Quizfrage&quot; den Fragentyp aus. Es gibt drei Arten von Fragen:
+1. Im Dialogfeld &quot; **[!UICONTROL Test erstellen]** &quot; den Namen und die Beschreibung des Quiz ein.
+1. Im Dialogfeld &quot; **[!UICONTROL Quizinhalt]** Abschnitt, wählen Sie **Quizfrage hinzufügen**.
+1. Im Dialogfeld &quot; **[!UICONTROL Quizfrage]** den Fragentyp aus. Es gibt drei Arten von Fragen:
    * Multiple-Choice-Frage
    * Richtig oder falsch
    * Lückentext
@@ -242,17 +248,17 @@ Das Quiz wird der Inhaltsbibliothek hinzugefügt. Wie alle Inhalte in der Inhalt
 
 ## Dem Ordner hinzufügen {#add-folder}
 
-Nachdem ein Administrator die Inhaltsordner erstellt hat, können Sie, ein Autor, einen Inhalt in einen Inhaltsordner hochladen, sodass der Inhalt nur für Sie oder eine bestimmte Gruppe von Autoren im Konto sichtbar ist. Sie können den Inhalt auch veröffentlichen und für alle Autoren im Konto sichtbar machen.
+Nachdem ein Administrator die Inhaltsordner erstellt hat, können Sie, ein Autor, einen Inhalt in einen Inhaltsordner hochladen, sodass der Inhalt nur für Sie oder eine ausgewählte Gruppe von Autoren im Konto sichtbar ist. Sie können den Inhalt auch veröffentlichen und für alle Autoren im Konto sichtbar machen.
 
 **Beispielverwendung**
 
 So möchten Agenturen beispielsweise die vollständige Kontrolle über die Inhalte behalten und jemand, der den Überblick über die Inhalte hat, muss Zugriff auf alle Inhalte haben. Gleichzeitig müssen Content-Ersteller in Agenturen nur Zugriff auf ihre eigenen Inhalte haben und in einigen Fällen auch auf die Inhalte einer anderen Person.
 
-Inhaltsbibliothek mit vorhandenem Inhalt (d. h. Inhalt, der vor dem Konfigurieren von Inhaltsordnern hochgeladen wurde) wird als **Öffentlicher Ordner**. Dieser Ordner kann nicht eingestellt oder gelöscht werden. Inhalte, die Teil des öffentlichen Ordners sind, sind für alle Arten von Autoren zugänglich. Sobald die Inhaltsordner konfiguriert sind, sollten Standardautoren und benutzerdefinierte Autoren beim Hochladen neuer Inhalte den Ordner auswählen, in dem der Inhalt platziert werden soll.
+Inhaltsbibliothek mit vorhandenem Inhalt (d. h. Inhalt, der vor dem Konfigurieren von Inhaltsordnern hochgeladen wurde) wird als **Öffentlicher Ordner**. Dieser Ordner kann nicht eingestellt oder gelöscht werden. Inhalte, die Teil eines öffentlichen Ordners sind, sind für alle Arten von Autoren zugänglich. Sobald die Inhaltsordner konfiguriert sind, sollten Standardautoren und benutzerdefinierte Autoren beim Hochladen neuer Inhalte den Ordner auswählen, in dem der Inhalt platziert werden soll.
 
 >[!NOTE]
 >
->Öffentliche Ordner und private Ordner schließen sich gegenseitig aus. Dies bedeutet, dass der Inhalt **kann** mit dem öffentlichen Ordner und dem privaten Ordner gleichzeitig verknüpft werden. Sie können entweder mit dem öffentlichen Ordner verknüpft werden, **oder** Sie kann jederzeit mit einem oder mehreren privaten Ordnern verknüpft werden.
+>Öffentliche Ordner und private Ordner schließen sich gegenseitig aus. Dies bedeutet, dass der Inhalt **kann** gleichzeitig mit dem öffentlichen Ordner und dem privaten Ordner verknüpft werden. Sie können entweder mit dem öffentlichen Ordner verknüpft werden, **oder** Sie kann jederzeit mit einem oder mehreren privaten Ordnern verknüpft werden.
 
 Wenn Sie einen Inhalt hinzufügen, können Sie den Ordner auswählen, in dem sich der Inhalt befindet.
 
@@ -294,13 +300,13 @@ So verschieben Sie den Inhalt eines öffentlichen Ordners in einen privaten Ordn
 
    *Alle hochgeladenen Inhalte anzeigen*
 
-1. Wählen Sie den Inhalt aus, den Sie in einen Ordner verschieben möchten. Klicken Sie anschließend auf **[!UICONTROL Aktionen]** > **[!UICONTROL Inhalte organisieren.]** > **[!UICONTROL Inhalt in Ordner verschieben]**.
+1. Wählen Sie den Inhalt aus, den Sie in einen Ordner verschieben möchten. Wählen Sie dann **[!UICONTROL Aktionen]** > **[!UICONTROL Inhalte organisieren.]** > **[!UICONTROL Inhalt in Ordner verschieben]**.
 
    ![](assets/move-content-to-folder.png)
 
    *Ausgewählten Inhalt in Ordner verschieben*
 
-1. Wählen Sie den Ordner aus, in den Sie den Inhalt verschieben möchten. Klicken **[!UICONTROL Verschieben]**.
+1. Wählen Sie den Ordner aus, in den Sie den Inhalt verschieben möchten. Auswählen **[!UICONTROL Verschieben]**.
 
 ## Inhalt in Ordner kopieren {#copycontenttofolder}
 
@@ -326,14 +332,14 @@ Die Verknüpfung von Inhalt mit einem angegebenen Ordner kann aufgehoben werden.
 
 ## Fügen Sie Inhalte für verschiedene Sprachen hinzu {#addcontentfordifferentlanguages}
 
-1. Um den Inhalt für verschiedene Sprachen hinzuzufügen, klicken Sie auf die Schaltfläche **Neue Sprache hinzufügen** und wählen Sie die gewünschten Sprachen aus. Mit diesem Ansatz können Sie mehrsprachige Unterstützung für Ihre Inhalte hinzufügen.
+1. Um den Inhalt für verschiedene Sprachen hinzuzufügen, wählen Sie die Option **Neue Sprache hinzufügen** und wählen Sie die gewünschten Sprachen aus. Mit diesem Ansatz können Sie mehrsprachige Unterstützung für Ihre Inhalte hinzufügen.
 
    ![](assets/add-new-languagetab.png)
 
    *Neue Sprache für einen Inhalt hinzufügen*
 
 1. Wiederholen Sie den Vorgang zum Hochladen von Inhalten für die neuen Sprachen.
-1. Wenn Sie eine Sprache entfernen möchten, klicken Sie auf die Registerkarte „Neue Sprache hinzufügen“, und deaktivieren Sie Ihre Auswahl.
+1. Wenn Sie eine Sprache entfernen möchten, wählen Sie die Option **[!UICONTROL Neue Sprache hinzufügen]** und deaktivieren Sie Ihre Auswahl.
 
    Nachdem Sie die Änderungen vorgenommen haben, klicken Sie auf Speichern. In der Bibliothek kann der neue Inhalt jetzt verwendet werden.
 
@@ -456,7 +462,7 @@ Beachten Sie, dass vorhandene Kurse, die den Inhalt verwenden und aus der Inhalt
 
 ## Häufig gestellte Fragen {#frequentlyaskedquestions}
 
-+++ Wie lade ich SCORM-Inhalte im Adobe Learning Manager hoch?
++++ Wie lade ich SCORM-Inhalte in Adobe Learning Manager hoch?
 
 Erstellen Sie einen SCORM-kompatiblen eLearning-Kurs in einem beliebigen Tool, z. B. Adobe Captivate, und veröffentlichen Sie den Inhalt als ZIP-Datei. Laden Sie dann im Lern-Manager die ZIP-Datei in den Katalog hoch und legen Sie die Abschluss- und Erfolgskriterien fest.
 +++
