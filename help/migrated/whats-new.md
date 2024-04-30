@@ -1,12 +1,12 @@
 ---
-description: Erfahren Sie mehr über die neuen Funktionen und Verbesserungen in der Version März 2024 von Adobe Learning Manager.
+description: Erfahren Sie mehr über die neuen Funktionen und Verbesserungen in der Version März 2024 von Adobe Learning Manager
 jcr-language: en_us
 title: Zusammenfassung der neuen Funktionen
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: 5828af43214a643b64153ed33c2858c13d9aca10
+source-git-commit: 68c5bad63c997162d5a8bab3003543d89e3959ad
 workflow-type: tm+mt
-source-wordcount: '3764'
+source-wordcount: '3861'
 ht-degree: 1%
 
 ---
@@ -66,7 +66,7 @@ Auf der Seite Benutzerbereinigung haben wir für gelöschte Benutzer die Sortier
 
 #### Kurs oder Lernpfad
 
-Wenn die Anzahl der Registrierungen groß ist, zeigt der Adobe Learning Manager die Anzahl der Teilnehmer nicht an. Stattdessen wird ein Symbol angezeigt, das Sie auswählen können, die Anzahl der Teilnehmer anzeigen und zur Seite &quot;Teilnehmer&quot; navigieren können.
+Wenn die Anzahl der Registrierungen groß ist, zeigt Adobe Learning Manager nicht die Anzahl der Teilnehmer an. Stattdessen wird ein Symbol angezeigt, das Sie auswählen können, die Anzahl der Teilnehmer anzeigen und zur Seite &quot;Teilnehmer&quot; navigieren können.
 
 Die Anzahl der Teilnehmer wird als ungefährer Wert angezeigt. Wenn beispielsweise die Anzahl der Teilnehmer mehr als 50.000 beträgt, wird der Wert als 50.000+ angezeigt.
 
@@ -86,7 +86,7 @@ Wenn die Anzahl der Benutzer in der Benutzergruppe weniger als 10.000 beträgt, 
 
 ### Seite &quot;Admin- Zertifizierungen&quot;
 
-Wenn in den aktuellen Versionen des Adobe-Lernmanagers eine große Anzahl von Benutzern für eine Zertifizierung registriert ist, können Sie die nicht registrierten Teilnehmer nicht anzeigen, seit der **Status** &quot; deaktiviert ist.
+Wenn in den aktuellen Versionen von Adobe Learning Manager eine große Anzahl von Benutzern für eine Zertifizierung registriert ist, können Sie die nicht registrierten Teilnehmer nicht anzeigen, seit der **Status** &quot; deaktiviert ist.
 
 In dieser Version des Adobe-Lernmanagers wird bei einer großen Anzahl von registrierten Benutzern das Dialogfeld &quot; **Status** Dropdown zeigt nur zwei Optionen an: **Registriert** und **Nicht registriert**. Die Option **Registriert** ist standardmäßig ausgewählt. Wenn Sie **Nicht registriert** wird die Liste der nicht registrierten Teilnehmer angezeigt.
 
@@ -235,7 +235,7 @@ Diese Änderung spiegelt Folgendes wider:
 * Das Erscheinungsbild der Suchleiste.
 * In der Lern-App wurden Filter-Tags hinzugefügt.
 
-Um die Suchfunktionen zu aktivieren, wenden Sie sich an das CSAM-Team des Adobe Learning Managers.
+Wenden Sie sich zum Aktivieren der Suchfunktionen an das CSAM-Team von Adobe Learning Manager.
 
 ## Änderungen in der Benutzeroberfläche {#ui-changes}
 
@@ -287,7 +287,7 @@ Anzeigen [Übermittlungsstatus](instructors/feature-summary/learners.md#filter-f
 
 ## Verbesserungen der Checkliste
 
-In der Version März 2024 von Adobe Learning Manager wurden folgende Verbesserungen am Arbeitsablauf für Checklisten vorgenommen:
+In der Version März 2024 von Adobe Learning Manager wurden folgende Verbesserungen am Checklisten-Arbeitsablauf vorgenommen:
 
 ### Fortschritt bei nicht bestandener Checkliste verhindern
 
@@ -320,13 +320,13 @@ Anzeigen [Erstellen einer Checkliste](authors/feature-summary/courses.md#checkli
 
 ### Sitzungsbezogene E-Mail-Benachrichtigungen
 
-In früheren Versionen des Adobe Learning Manager hat ein Teilnehmer keine sitzungsbezogenen E-Mails, Sitzungsdetails aktualisiert, Sitzungseinladung und Sitzungserinnerung erhalten, wenn:
+In früheren Versionen von Adobe Learning Manager hat ein Teilnehmer keine sitzungsbezogenen E-Mails, Sitzungsdetails aktualisiert, Sitzungseinladung und Sitzungserinnerung erhalten, wenn:
 
 * Teilnehmer haben einen Kurs abgeschlossen,
 * Neue Sitzungen werden einem Kurs hinzugefügt oder
 * Es gibt Änderungen an vorhandenen Sitzungen.
 
-In der Version März 2024 von Adobe Learning Manager wurden folgende Änderungen vorgenommen:
+In der Adobe Learning Manager-Version vom März 2024 wurden folgende Änderungen vorgenommen:
 
 * Sitzungsdetails aktualisiert und Sitzungseinladung (für Teilnehmer und Kursleiter)
    * Für zukünftige Sitzungen, E-Mails für **Sitzungsdetails aktualisiert**, **Einladung zur Sitzung** für registrierte Teilnehmer und aktuelle Kursleiter werden verworfen. Bei früheren Sitzungen wurden E-Mails für **Sitzungsdetails aktualisiert** und **Einladung zur Sitzung** für registrierte Teilnehmer und aktuelle Kursleiter bleiben unverändert.
@@ -344,7 +344,7 @@ Auf einer AEM haben wir Unterstützung für das Hinzufügen eines Admin-Aktualis
 
 ### Einreichungen von Kursleitern ausblenden
 
-Wenn ein Kursleiter nach dem Hochladen seiner Dateien mithilfe des Arbeitsablaufs für die Dateiübermittlung keine Aktion (Genehmigen oder Ablehnen) für die Übermittlung ausführt, wird die Übermittlungs-URL nach einer vordefinierten Anzahl von Tagen aus der Ansicht ausgeblendet. Wenden Sie sich an die CSAM-Teams des Adobe Learning Manager, um die Anzahl der Tage festzulegen oder zu ändern.
+Wenn ein Kursleiter nach dem Hochladen seiner Dateien mithilfe des Arbeitsablaufs für die Dateiübermittlung keine Aktion (Genehmigen oder Ablehnen) für die Übermittlung ausführt, wird die Übermittlungs-URL nach einer vordefinierten Anzahl von Tagen aus der Ansicht ausgeblendet. Wenden Sie sich an die CSAM-Teams von Adobe Learning Manager, um die Anzahl der Tage festzulegen oder zu ändern.
 
 ### Änderungen an der Produktterminologie
 
@@ -370,15 +370,15 @@ Wenn ein Teilnehmer eine Checkliste für die Salesforce-App nicht abschließt, w
 
 ### Änderungen in Connect VC
 
-In aktuellen Versionen des Adobe-Lernmanagers wird ein Teilnehmer als **Nicht besucht** wenn sie für eine Connect VC-Sitzung registriert sind, aber die Abschlusskriterien nicht erfüllt haben.
+In aktuellen Versionen von Adobe Learning Manager wird ein Teilnehmer als **Nicht besucht** wenn sie für eine Connect VC-Sitzung registriert sind, aber die Abschlusskriterien nicht erfüllt haben.
 
 In dieser Version ändert sich der Status in **Noch zu markieren**.
 
-### Weiße Beschriftung im Adobe-Lernmanager
+### Weißetikettierung in Adobe Learning Manager
 
-Die mobile Adobe Learning Manager-App unterstützt jetzt die Beschriftung auf weißem Hintergrund, d. h., Sie können die App jetzt unter Ihrem eigenen Branding veröffentlichen.
+Die mobile Adobe Learning Manager-App unterstützt jetzt die weiße Beschriftung, d. h., Sie können die App jetzt unter Ihrem eigenen Branding veröffentlichen.
 
-Ansicht Weiße Beschriftung in [Adobe Learning Manager-Mobilanwendung](white-label.md) für weitere Informationen.
+Ansicht Weiße Beschriftung in [Adobe Learning Manager-App](white-label.md) für weitere Informationen.
 
 ### Neue Spalte in Migrations-CSVs
 
@@ -388,7 +388,21 @@ In dieser Version ist die neue, optionale Spalte &quot;uniqueLoId&quot; in den f
 * course.csv
 * learning_program.csv
 
-Die Spalte &quot;uniqueLoId&quot; gilt nicht für die CSV-Datei &quot;Arbeitshilfe&quot;.
+>[!NOTE]
+>
+>Die **uniqueLoId** Spalte ist optional.
+
+
+Wenn Sie eine Migration durchführen, um einen vorhandenen Kurs, einen Lernplan oder eine Zertifizierung zu aktualisieren, wird der Kurs, der Lernplan oder die Zertifizierung mit dem **uniqueLOId** s werden der Autoren-App hinzugefügt.
+
+Während der Migration müssen Sie die **uniqueLOId** Werte in den CSVs für den Kurs, den Lernplan oder die Zertifizierung an, obwohl es sich um eine optionale Spalte handelt.
+
+Wenn die Option **uniqueLoId** wird nicht hinzugefügt, bevor Sie die Migration durchführen, während Sie den vorhandenen Kurs oder Lernplan oder die Zertifizierung mit **uniqueLOId** s, dann nach der Migration die **uniqueLOId** -Werte werden mit NULL-Werten überschrieben.
+
+>[!NOTE]
+>
+>Die Spalte &quot;uniqueLoId&quot; gilt nicht für die CSV-Datei &quot;Arbeitshilfe&quot;.
+
 
 >[!IMPORTANT]
 >
@@ -399,21 +413,21 @@ Laden Sie die CSV-Dateien von der Seite [Migrationshandbuch](integration-admin/f
 
 ### App-Bewertung
 
-Ein Teilnehmer kann sein Feedback in der Adobe Learning Manager-App abgeben, um das App-Erlebnis weiter zu verbessern. Wenn der Teilnehmer die Bewertung vier Sterne oder mehr hat, wird ein Popup angezeigt, in dem der Teilnehmer aufgefordert wird, die App im Play Store oder auf App Store zu bewerten.
+Ein Teilnehmer kann sein Feedback zur Adobe Learning Manager-App abgeben, um das App-Erlebnis weiter zu verbessern. Wenn der Teilnehmer die Bewertung vier Sterne oder mehr hat, wird ein Popup angezeigt, in dem der Teilnehmer aufgefordert wird, die App im Play Store oder auf App Store zu bewerten.
 
 ### Bluejeans hat im Februar 2024 das Ende seiner Lebensdauer erreicht.
 
 Wir möchten Sie darüber informieren, dass Bluejeans am Februar 2024 sein Lebensende (EOL) erreicht hat. Nach Februar 2024 erhält Bluejeans keine Updates und keinen Support mehr. Unsere CSAM- und Support-Teams unterstützen Sie bei Fragen oder Bedenken, die Sie während dieser Übergangszeit haben.
 
-Anzeigen [Connectors im Adobe Learning Manager](integration-admin/feature-summary/connectors.md) für weitere Informationen zum Konfigurieren von Konnektoren.
+Anzeigen [Connectors in Adobe Learning Manager](integration-admin/feature-summary/connectors.md) für weitere Informationen zum Konfigurieren von Konnektoren.
 
 ### Änderungen am Anmeldezugriffsbericht
 
-Der Bericht über den Anmeldezugriff ist nur für die letzten fünf Quartale verfügbar. Wenn ein Integrations-Admin den On Demand-Download des einheitlichen Exports mit **Anmeldezugriff** aktiviert ist, zeigt der Adobe-Lernmanager eine Fehlermeldung an. Es gibt jedoch keine Auswirkungen auf andere Berichte.
+Der Bericht über den Anmeldezugriff ist nur für die letzten fünf Quartale verfügbar. Wenn ein Integrations-Admin den On Demand-Download des einheitlichen Exports mit **Anmeldezugriff** aktiviert ist, zeigt Adobe Learning Manager eine Fehlermeldung an. Es gibt jedoch keine Auswirkungen auf andere Berichte.
 
 ### ADFS-Änderungen
 
-Die Felder &quot;Mitarbeitertyp&quot; und &quot;Mitarbeiter-ID&quot; aus ADFS sind jetzt auf der Grundlage der Zuordnungen im Adobe Learning Manager verfügbar.
+Die Felder &quot;Mitarbeitertyp&quot; und &quot;Mitarbeiter-ID&quot; aus ADFS sind jetzt basierend auf den Zuordnungen in der Adobe Learning Manager verfügbar.
 
 ## API-Änderungen in dieser Version
 
@@ -513,7 +527,7 @@ Wenn Sie versuchen, die Datei **Anmeldezugriff** -Bericht, der über fünf Quart
 
 ### Veraltete APIs
 
-Anzeigen [API-Veraltungen im Adobe Learning Manager](api-deprecations-list.md) für eine kumulative Liste aller veralteten APIs im Produkt.
+Anzeigen [API-Veraltungen in Adobe Learning Manager](api-deprecations-list.md) für eine kumulative Liste aller veralteten APIs im Produkt.
 
 ## In diesem Update behobene Fehler {#bug-fixes}
 
