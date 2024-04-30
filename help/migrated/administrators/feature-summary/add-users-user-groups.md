@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Hinzufügen von Benutzern und Erstellen von Benutzergruppen
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: 11bdb71c7d584a69ce1bb5acafa7dbcebcdbfe85
 workflow-type: tm+mt
 source-wordcount: '4000'
 ht-degree: 62%
@@ -15,15 +15,22 @@ ht-degree: 62%
 
 Erfahren Sie, wie Sie Benutzende oder Benutzendengruppen in der Learning Manager-Anwendung hinzufügen.
 
+
 <!--![](assets/user-mgmt-new.png)-->
 
 ## Verwalten von Benutzergruppen
 
-In dieser Schulung erfahren Sie, wie Sie eine Benutzergruppe anhand von Namen, E-Mail-IDs und dem Kombinieren mehrerer automatisch generierter Benutzergruppen erstellen.
+>[!INFO]
+>
+>In dieser Schulung erfahren Sie, wie Sie eine Benutzergruppe anhand von Namen, E-Mail-IDs und dem Kombinieren mehrerer automatisch generierter Benutzergruppen erstellen.<br><br>
+[![Knopf](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QLD1P6BS&amp;mv=display&amp;mv2=display#/course/7555694)
+
+
+<!--[Launch training](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
 
 <!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
 
-[![Knopf](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QLD1P6BS&amp;mv=display&amp;mv2=display#/course/7555694)
+<!--[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
 
 Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.com>.
 
@@ -44,7 +51,7 @@ Als Administrator können Sie Benutzer auf drei Arten hinzufügen:
 
 ## Einzelnen Benutzer hinzufügen {#addasingleuser}
 
-Fügen Sie dem Adobe-Lernmanager interne Teilnehmer mit einer Einzelbenutzeroption hinzu.
+Fügen Sie der Adobe Learning Manager interne Teilnehmer mit einer Einzelbenutzeroption hinzu.
 
 [![Knopf](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QGMZPB2T&amp;mv=display&amp;mv2=display#/course/7555534)
 
