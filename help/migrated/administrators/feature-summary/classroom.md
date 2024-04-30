@@ -4,10 +4,10 @@ title: Standorte für Klassenzimmer hinzufügen
 description: Administratoren können jetzt eine Bibliothek mit Standorten für Klassenzimmern einrichten. Für jeden Klassenraum können die Administratoren die Metadaten festlegen, die den Namen des Standorts, das Sitzplatzlimit sowie zusätzliche Informationen wie die URL des Standorts enthalten. Autoren und Administratoren können diese vorkonfigurierten Klassenzimmer dann für die Einrichtung von Schulungsveranstaltungen mit Kursleitern (Klassenzimmermodule) verwenden.
 contentowner: saghosh
 exl-id: 51a1e38f-d4e2-4c19-bbf7-6696505c0dfd
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: 8cb8a95812c97b0b59a2ae5188500cfafe09bd27
 workflow-type: tm+mt
-source-wordcount: '1240'
-ht-degree: 77%
+source-wordcount: '1315'
+ht-degree: 54%
 
 ---
 
@@ -65,6 +65,18 @@ Die **[!UICONTROL Künftige Sitzungen]** Feldanzeigen **Null** wenn das Klassenz
 
 **Standortinformationen** - die Informationen zum Klassenzimmer, die Sie beim Erstellen des Klassenzimmers angegeben haben.
 
+### Bearbeiten der Speicherorte der Klassenzimmer
+
+Um die Speicherorte der Klassenzimmer zu bearbeiten, führen Sie die folgenden Schritte aus:
+
+1. Wählen Sie in der Admin-App (der Benutzeroberfläche für Administratorrollen) **[!UICONTROL Einstellungen]** > **[!UICONTROL Standorte für Klassenzimmer]**.
+
+1. Bewegen Sie den Mauszeiger über den gewünschten Speicherort des Klassenzimmers, den Sie bearbeiten möchten.
+
+1. Auswählen **[!UICONTROL Speicherort des Klassenzimmers bearbeiten]** Symbol.
+
+1. Ändern Sie den Speicherort des Klassenzimmers und wählen Sie **[!UICONTROL Speichern]**.
+
 ## Klassenzimmer über CSV hinzufügen
 
 Alternativ können Sie einen oder mehrere Standorte für Klassenzimmer hinzufügen, indem Sie eine CSV-Datei importieren, die die Informationen zum Klassenzimmer enthält.
@@ -76,6 +88,7 @@ In der CSV-Datei werden diese Felder verwendet, um Details zu einem oder mehrere
 * name
 * info
 * url
+* Region
 * seatLimit
 
 Sie können die Kopfzeilen anpassen.
@@ -86,7 +99,7 @@ Nachdem das System die CSV-Datei importiert hat, werden die Standorte der Biblio
 
 ## Nach Klassenzimmern suchen
 
-Ein Autor oder Administrator kann mit der Eingabe des Standortnamens beginnen, um die relevanten Ergebnisse anzuzeigen, die angezeigt werden. Ein Autor oder Administrator kann dann einen Standort aus den angezeigten Ergebnissen auswählen. Wenn in den Typeahead-Ergebnissen kein Standort angezeigt wird, kann der Benutzer dennoch den neuen Klassenzimmerstandortnamen hinzufügen. Beachten Sie, dass der Name des Standorts, der mit dem Arbeitsablauf für die Sitzungserstellung erstellt wurde, nicht der vom Administrator erstellten Standortbibliothek hinzugefügt wird.
+Um nach Klassenzimmern zu suchen, wählen Sie den Kurs für das virtuelle Klassenzimmer aus und gehen Sie zu **[!UICONTROL Instanzen]** > **[!UICONTROL Sessions]**. Ein Autor oder Administrator kann mit der Eingabe des Standortnamens beginnen, um die relevanten Ergebnisse anzuzeigen, die angezeigt werden. Sie können dann einen Speicherort aus den angezeigten Ergebnissen auswählen. Wenn in den Ergebnissen des vorausgehenden Typs kein Speicherort angezeigt wird, kann der Benutzer dennoch den Namen des Speicherorts für das neue Klassenzimmer hinzufügen. Beachten Sie, dass der Name des Standorts, der mit dem Arbeitsablauf für die Sitzungserstellung erstellt wurde, nicht der vom Administrator erstellten Standortbibliothek hinzugefügt wird.
 
 Wenn ein Klassenzimmer hinzugefügt wird, zeigt die Lernplattform auch an, ob das Klassenzimmer bereits für den genannten Zeitraum gebucht ist. Es bietet sogar alternative Zeitfenster als Vorschläge an. Dadurch kann der Autor die Besprechungszeit anpassen, wenn er beschließt, denselben Standort für das Klassenzimmer zu verwenden.
 
@@ -94,32 +107,60 @@ Wenn ein Klassenzimmer hinzugefügt wird, zeigt die Lernplattform auch an, ob da
 
 *Klassenzimmer suchen*
 
-## Auf vordefinierte Liste von Kursleitern beschränken
-
-Derzeit können die Benutzer jeden registrierten Benutzer als Kursleiter hinzufügen, wenn sie ein Klassenzimmer oder eine virtuelle Klassenzimmersitzung erstellen. Diese Funktionalität bleibt in dieser Version unverändert.
-
-Administratoren haben jetzt jedoch eine zusätzliche Option, um zu steuern, wer als Kursleiter auf der Lernplattform zugewiesen wird. Dadurch wird verhindert, dass beim Erstellen einer Sitzung versehentlich ein neuer Kursleiter hinzugefügt wird.
-
 ## Administrator
 
-Ein Administrator kann die Option **[!UICONTROL Kursleiter-Management]** (verfügbar unter **[!UICONTROL Admin-App]** > **[!UICONTROL Einstellungen]** > **[!UICONTROL Allgemein]**), um sicherzustellen, dass nur die Benutzer, die vordefinierte Kursleiter sind, als Kursleiter für eine Sitzung hinzugefügt werden können.
+Als Administrator können Sie die Kursleiter und die Kursinstanzen verwalten.
 
-Um einen Kursleiter einzurichten, können Administratoren **[!UICONTROL VERWALTEN]** > **[!UICONTROL Benutzer]** , um die Benutzerverwaltungsseite zu öffnen, wählen Sie einen Benutzer aus und weisen Sie dann dem Benutzer die Kursleiterrolle zu (mit **[!UICONTROL Aktionen]** > **[!UICONTROL Rolle zuweisen]**).
+### Einrichten von Kursleitern:
+
+In der Admin-App unter **[!UICONTROL Einstellungen]** > **[!UICONTROL Allgemein]** finden Administratoren die **[!UICONTROL Kursleiter-Management]** aus. Diese Funktion stellt sicher, dass nur vorab genehmigte Benutzer, die als Kursleiter zugewiesen wurden, zu Durchführungsveranstaltungen hinzugefügt werden können.
+
+Um einen Kursleiter zuzuweisen, führen Sie die folgenden Schritte aus:
+
+1. Wechseln Sie zur Registerkarte **[!UICONTROL Erste Schritte]** und wählen Sie **[!UICONTROL Benutzer]** im linken Bereich.
+
+1. Wählen Sie den gewünschten Benutzer aus.
+
+1. Weisen Sie dem Benutzer die Kursleiterrolle zu, indem Sie auf **[!UICONTROL Aktionen]** > **[!UICONTROL Rolle zuweisen]**.
+
+### Sitzungen abbrechen:
+
+Im Fenster &quot; **[!UICONTROL Kursinstanz]** können Administratoren eine oder mehrere Sitzungen abbrechen. Wenn Sitzungen abgebrochen werden, entfernt das System alle Sitzungsdetails, behält aber die Sitzplatzbeschränkung bei.
+
+Darüber hinaus können Administratoren:
+
+* **[!UICONTROL Registrierung anzeigen]**: Erhalten Sie Informationen zu registrierten und auf die Warteliste gesetzten Teilnehmern für jede Sitzung.
+* **[!UICONTROL Registrierung von Teilnehmern aufheben]**: Entfernen Sie Teilnehmer aus einem Kurs mit abgebrochenen Sitzungen, ohne ihren Registrierungsstatus zu ändern.
+* **[!UICONTROL Anwesenheitsverwaltung]**: Teilnahme an Sitzungen markieren, auch wenn die Sitzungen abgebrochen werden.
+* **[!UICONTROL Kursabschluss]**: Administratoren können einen Kurs als abgeschlossen markieren, selbst wenn Sitzungen abgebrochen wurden.
+* **[!UICONTROL Umschuldung]**: Planen Sie abgebrochene Sitzungen für spätere Termine und fügen Sie während der Neuplanung einen Kursleiter hinzu.
+
+Beachten Sie, dass die Teilnehmer nach der Kündigung für die Schulungsinstanz registriert bleiben. Ihr Registrierungsstatus - wie bestätigte Registrierung, Warteliste und Genehmigung durch den Manager - bleibt unverändert. Dies ist hilfreich, da der Administrator die abgebrochene Sitzung in Zukunft einrichten und neu planen kann.
 
 ## Autor
 
-Wenn der Administrator die Option **[!UICONTROL Kursleiter-Verwaltung]** auswählt, kann ein Autor nur nach Benutzern mit der Rolle „Kursleiter“ suchen und diese zu den Unterrichtssitzungen, virtuellen Unterrichtssitzungen, Checklisten und den Modulen zur Dateiübermittlung hinzufügen
+Wenn der Administrator die Option **[!UICONTROL Kursleiter-Management]** können Autoren nur nach Benutzern mit Kursleiterrolle suchen und sie den Klassenzimmersitzungen, virtuellen Klassenzimmersitzungen, Checklisten und Dateiübermittlungsmodulen hinzufügen.
 
 Darüber hinaus kann ein Autor:
 
 * Kursleiter zu den bestehenden Sitzungen hinzufügen oder aus ihnen entfernen.
 * den bestehenden Sitzungen, die bereits einen oder mehrere Kursleiter haben, Kursleiter hinzufügen.
 
-Nachdem ein Administrator also die **[!UICONTROL Kursleiter-Verwaltung]** aktiviert hat, können daher nur Benutzer mit der Rolle Kursleiter als Kursleiter hinzugefügt werden.
+Nachdem ein Administrator also das **[!UICONTROL Kursleiter-Management]** können nur Benutzer mit der Kursleiterrolle als Kursleiter hinzugefügt werden.
 
 >[!NOTE]
 >
 >Dies gilt nicht, wenn Sie Sitzungen mithilfe der CSV-Datei der Sitzungen migrieren. In diesem Fall kann ein Benutzer, der nicht über die Kursleiterrolle verfügt, als Kursleiter hinzugefügt werden.
+
+Im Fenster &quot; **[!UICONTROL Kursinstanz]** können Autoren eine oder mehrere Sitzungen abbrechen. Wenn Sitzungen abgebrochen werden, entfernt das System alle Sitzungsdetails, behält aber die Sitzplatzbeschränkung bei.
+
+Daher kann ein Autor die **[!UICONTROL Sitzung abbrechen]** Links zum Stornieren einer oder mehrerer Sitzungen im Schulungsraum oder virtueller Sitzungen, die in derselben oder in verschiedenen Kursinstanzen verfügbar sind.
+
+## Auf vordefinierte Liste von Kursleitern beschränken
+
+Derzeit können die Benutzer jeden registrierten Benutzer als Kursleiter hinzufügen, wenn sie ein Klassenzimmer oder eine virtuelle Klassenzimmersitzung erstellen. Diese Funktionalität bleibt in dieser Version unverändert.
+
+Administratoren haben jetzt jedoch eine zusätzliche Option, um zu steuern, wer als Kursleiter auf der Lernplattform zugewiesen wird. Dadurch wird verhindert, dass beim Erstellen einer Sitzung versehentlich ein neuer Kursleiter hinzugefügt wird.
 
 ## Bestehende Sitzung abbrechen
 
@@ -149,24 +190,3 @@ Das System löscht auch die folgenden Details, nachdem eine Sitzung abgebrochen 
 * URL des virtuellen Klassenzimmers
 * Standort/Ort der Sitzung hinzugefügt
 * Wartelistengrenze, die vom Kursleiter hinzugefügt wurde
-
-## Administrator
-
-Auf der Seite **[!UICONTROL Kursinstanz]** kann ein Administrator eine oder mehrere Sitzungen abbrechen. Nachdem der Administrator eine Sitzung abgebrochen hat, löscht das System alle Sitzungsdetails mit Ausnahme der Sitzplatzbeschränkung.
-
-Darüber hinaus kann ein Administrator:
-
-* die eingeschriebenen Teilnehmer und die Teilnehmer auf der Warteliste einer Sitzung einsehen.
-* die Einschreibung von Teilnehmern aus einem Kurs mit einer oder mehreren abgesagten Sitzungen aufheben.
-* die Teilnahme an Sitzungen, die abgesagt wurden, kennzeichnen.
-* einen Kurs als abgeschlossen markieren, der eine oder mehrere abgesagte Sitzungen enthält.
-* eine abgesagte Sitzung neu ansetzen.
-* einen Kursleiter zu einer abgesagten Sitzung hinzufügen, wenn diese neu geplant wird.
-
-Beachten Sie, dass auch nach einem Abbruch die in der Kursinstanz eingeschriebenen Teilnehmer weiterhin eingeschrieben bleiben. Ihr Registrierungsstatus - einschließlich bestätigter Registrierung, Warteliste und Genehmigung durch den Manager - ändert sich nicht. Dies ist nützlich, da der Administrator die abgebrochene Sitzung in Zukunft einrichten und neu planen kann.
-
-## Autor
-
-Auf der Seite **[!UICONTROL Kursinstanz]** kann ein Autor eine oder mehrere Sitzungen abbrechen. Nachdem der Autor eine Sitzung abgebrochen hat, löscht das System alle Sitzungsdetails mit Ausnahme der Sitzplatzbeschränkung.
-
-Daher kann ein Autor die **[!UICONTROL Sitzung abbrechen]** Links zum Stornieren einer oder mehrerer Sitzungen im Schulungsraum oder virtueller Sitzungen, die in derselben oder in verschiedenen Kursinstanzen verfügbar sind.
