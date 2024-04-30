@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Einstellungen
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: fb2d642c90fa36d3db15d7da99fe9c97908ce0e8
+source-git-commit: b72a838ede9fb299e5735539931fba2b85f59ef1
 workflow-type: tm+mt
-source-wordcount: '3985'
+source-wordcount: '3992'
 ht-degree: 66%
 
 ---
@@ -17,11 +17,16 @@ Erfahren Sie mehr über Learning Manager-Kontoeinstellungen, die Sie als Adminis
 
 Sie können Ihre Administratorprofileinstellungen ändern und Ihre Kontoeinstellungen aktualisieren. Anzeigen Ihrer Profilinformationen, Hinzufügen/Ändern von Profilfotos und Ändern von **[!UICONTROL Über mich]** Inhalt. Aktualisieren Sie Ihre Unternehmensinformationen, richten Sie Anmeldungsmethoden für Benutzer ein und richten Sie Connect-Integration über die Kontoeinstellungen ein.
 
-## Konfigurieren Sie Ihren Adobe Learning Manager
+## Adobe Learning Manager konfigurieren
 
 In dieser Schulung werden die Grundlagen der Einstellungen auf Kontoebene erfasst.
 
 [![Knopf](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PYPVPSZY&amp;mv=display&amp;mv2=display#/course/7476018)
+
+>[!NOTE]
+>
+>Dies ist eine Beispielschaltfläche <br>[![Knopf](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PYPVPSZY&amp;mv=display&amp;mv2=display#/course/7476018)</br>
+
 
 
 Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.com>.
