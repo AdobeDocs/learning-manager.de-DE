@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Zusammenfassung der neuen Funktionen
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: 68c5bad63c997162d5a8bab3003543d89e3959ad
+source-git-commit: e21eb23c9b99ef5737ca105edede0eea7186ed02
 workflow-type: tm+mt
 source-wordcount: '3861'
 ht-degree: 1%
@@ -401,7 +401,7 @@ Wenn die Option **uniqueLoId** wird nicht hinzugefügt, bevor Sie die Migration 
 
 >[!NOTE]
 >
->Die Spalte &quot;uniqueLoId&quot; gilt nicht für die CSV-Datei &quot;Arbeitshilfe&quot;.
+>Die Spalte **uniqueLoId** gilt nicht für die CSV-Datei &quot;Arbeitshilfe&quot;.
 
 
 >[!IMPORTANT]
