@@ -2,14 +2,13 @@
 jcr-language: en_us
 title: Arbeitshilfen
 description: Arbeitshilfen sind ein Repository mit Schulungsinhalten, das den Teilnehmern ohne Registrierung oder Abschlusskriterien zur Verfügung steht. Die Teilnehmer können auf diese Arbeitshilfen zurückgreifen, wenn sie bei Aktivitäten oder Aufgaben im Unternehmen Unterstützung benötigen.
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+exl-id: c8e925ee-2e40-4a71-9b8e-42a1b49d01bc
+source-git-commit: c006f4e231a2249acb53fdd915f0130fbed200f8
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 73%
+source-wordcount: '590'
+ht-degree: 66%
 
 ---
-
-
 
 # Arbeitshilfen
 
@@ -35,6 +34,19 @@ Autoren können Arbeitshilfe für Teilnehmer erstellen. Verwenden Sie Arbeitshil
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
    Die Arbeitshilfe wird veröffentlicht.
+
+## Arbeitshilfe in verschiedenen Sprachen hinzufügen {#addcontentfordifferentlanguages}
+
+1. Um die Arbeitshilfe in verschiedenen Sprachen hinzuzufügen, wählen Sie die Option **Neue Sprache hinzufügen** und wählen Sie die gewünschten Sprachen aus. Mit diesem Ansatz können Sie mehrsprachige Unterstützung für Ihre Inhalte hinzufügen.
+
+   ![](assets/add-new-languagetab.png)
+
+   *Neue Sprache für einen Inhalt hinzufügen*
+
+1. Wiederholen Sie den Upload-Vorgang für die Arbeitshilfe für die neuen Sprachen.
+1. Wenn Sie eine Sprache entfernen möchten, klicken Sie auf die Registerkarte &quot;Neue Sprache hinzufügen&quot; und deaktivieren Sie Ihre Auswahl.
+
+   Nachdem Sie die Änderungen vorgenommen haben, wählen Sie Speichern.
 
 ## Typen unterstützter Arbeitshilfen {#typesofsupportedjobaids}
 

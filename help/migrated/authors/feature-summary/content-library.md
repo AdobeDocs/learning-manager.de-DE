@@ -3,10 +3,10 @@ description: Erfahren Sie, wie Sie Inhalt zum Selbststudium erstellen können, d
 jcr-language: en_us
 title: Inhaltsbibliothek
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: c1231f48c87c14f7b3acd23b0c0d5e93f0cc692c
+source-git-commit: c006f4e231a2249acb53fdd915f0130fbed200f8
 workflow-type: tm+mt
-source-wordcount: '3124'
-ht-degree: 57%
+source-wordcount: '3239'
+ht-degree: 56%
 
 ---
 
@@ -234,7 +234,20 @@ Erstellen Sie Bewertungen im Adobe Learning Manager mit dem neuen Quizerstellung
 1. Fügen Sie dem Quiz ein Logo und einen Hintergrund hinzu.
 1. Wählen Sie in der rechten oberen Ecke der Seite **Veröffentlichen**.
 
-Das Quiz wird der Inhaltsbibliothek hinzugefügt. Wie alle Inhalte in der Inhaltsbibliothek können Sie ein Quiz außer Betrieb nehmen und dann löschen.
+Um die Tests in verschiedenen Sprachen hinzuzufügen, führen Sie die folgenden Schritte aus:
+
+1. Um das Quiz für verschiedene Sprachen hinzuzufügen, wählen Sie die Option **Neue Sprache hinzufügen** und wählen Sie die gewünschten Sprachen aus. Mit diesem Ansatz können Sie mehrsprachige Unterstützung für Ihre Inhalte hinzufügen.
+
+   ![](assets/add-new-languagetab.png)
+
+   *Neue Sprache für einen Inhalt hinzufügen*
+
+1. Wiederholen Sie den Vorgang zum Hochladen von Inhalten für die neuen Sprachen.
+1. Wenn Sie eine Sprache entfernen möchten, wählen Sie die Option **[!UICONTROL Neue Sprache hinzufügen]** und deaktivieren Sie Ihre Auswahl.
+
+   Nachdem Sie die Änderungen vorgenommen haben, klicken Sie auf **[!UICONTROL Speichern]**. In der Bibliothek kann der neue Inhalt jetzt verwendet werden.
+
+Das Quiz wird der **[!UICONTROL Inhaltsbibliothek]**. Wie alle Inhalte in der Inhaltsbibliothek können Sie ein Quiz außer Betrieb nehmen und dann löschen.
 
 
 ## Dem Ordner hinzufügen {#add-folder}
@@ -430,6 +443,11 @@ Um Inhalt zurückzuziehen, führen Sie die folgenden Schritte aus:
 * Wählen Sie „Aktionen“ > „Einstellen“.
 
 Inhalte, die in Lernobjekten verwendet werden, werden nicht beeinflusst. Die Teilnehmenden können weiterhin auf die Inhalte zugreifen.
+
+>[!NOTE]
+>
+>Sie können auch Inhalte aus dem Katalog **[!UICONTROL Rentner]** Abschnitt, navigieren Sie zu **[!UICONTROL Inhaltsbibliothek]** > **[!UICONTROL Rentner]** und wählen Sie **[!UICONTROL Inhalt hinzufügen]**. Weitere Informationen finden Sie unter [Statischen Inhalt hinzufügen](content-library.md#addstaticcontent).
+
 
 ## Veröffentlichen Sie zurückgezogene Inhalte erneut {#republishretiredcontent}
 

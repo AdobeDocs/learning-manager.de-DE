@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Einstellungen
 description: Zeigen Sie Ihre Profilinformationen an, fügen Sie ein Profilfoto hinzu bzw. ändern Sie es und ändern Sie den Inhalt von "Über mich".
 contentowner: manochan
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+exl-id: 30a571de-22fc-4ce7-99c0-08e17665c340
+source-git-commit: c006f4e231a2249acb53fdd915f0130fbed200f8
 workflow-type: tm+mt
-source-wordcount: '85'
-ht-degree: 8%
+source-wordcount: '148'
+ht-degree: 4%
 
 ---
-
-
 
 # Einstellungen
 
@@ -20,7 +19,13 @@ Anzeigen Ihrer Profilinformationen, Hinzufügen/Ändern von Profilfotos und Änd
 
 ## Kontoeinstellungen {#accountsettings}
 
-1. Klicken Sie in der rechten oberen Ecke neben Ihrem Foto/Konto auf die Dropdownliste und wählen Sie **Profileinstellungen**.
-1. Im Popup-Dialogfeld können Sie ein Foto hinzufügen/ändern, indem Sie mit der Maus darauf zeigen und auf **Bearbeiten** im Bereich &quot;Profilfoto&quot;.
+1. Wählen Sie den Dropdown-Pfeil in der oberen rechten Ecke neben Ihrem Foto/Konto und wählen Sie **Profileinstellungen**.
+1. Im Popup-Dialogfeld können Sie ein Foto hinzufügen/ändern, indem Sie mit der Maus darauf zeigen und **Bearbeiten** im Bereich &quot;Profilfoto&quot;.
 1. Hinzufügen/Ändern **Über mich** Inhalte zu erstellen, indem Sie auf den Textbereich darunter klicken.
+1. Ändern Sie die folgenden Einstellungen:
+   * **Benutzeroberflächensprache**: Sie können die Sprache der ALM-Benutzeroberfläche aus dem Dropdown-Menü auswählen.
+   * **Inhaltssprache**: Sie können die Standardsprache auswählen, in der der Inhalt im Player angezeigt wird. Sie können die verfügbaren Sprachen im Player anzeigen.
+   * **Zeitzone**: Zeitzone auswählen
+   * **[!UICONTROL Voreinstellungen]**: Durch Klicken auf das Modul wird die Schulung registriert und gestartet.
+   * Transkript: Sie können Ihre Lerntranskripte herunterladen.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
