@@ -3,7 +3,7 @@ title: Neue Funktionen in dieser Version (Juli 2023)
 description: Informationen über die neuen Funktionen und Verbesserungen in Adobe Learning Manager
 hidefromtoc: true
 exl-id: c6f192b6-f377-47b2-9151-516ac8179543
-source-git-commit: f9b8fbb8ae2ac1a197ccc3e7766a645c7d9e8078
+source-git-commit: ebf4ea065ba799b957b8ce275fd1690f18b26556
 workflow-type: tm+mt
 source-wordcount: '2059'
 ht-degree: 67%
@@ -535,7 +535,8 @@ Das Attribut „stemmed“ gibt an, ob Stemming in den Suchergebnissen erforderl
 
 API-Abfrageparameter:
 
-matchType=phrase_and_match stemmed=true
+* matchType=phrase_and_match
+* stemmed=true
 
 ### Entfernen von V1-Endpunkten
 
