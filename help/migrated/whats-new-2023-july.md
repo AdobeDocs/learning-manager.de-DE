@@ -2,9 +2,10 @@
 title: Neue Funktionen in dieser Version (Juli 2023)
 description: Informationen über die neuen Funktionen und Verbesserungen in Adobe Learning Manager
 hidefromtoc: true
-source-git-commit: c55f9448082c9971c065eec95b59992db95e53dc
+exl-id: c6f192b6-f377-47b2-9151-516ac8179543
+source-git-commit: f9b8fbb8ae2ac1a197ccc3e7766a645c7d9e8078
 workflow-type: tm+mt
-source-wordcount: '2052'
+source-wordcount: '2059'
 ht-degree: 67%
 
 ---
@@ -59,7 +60,7 @@ Diese Änderung ersetzt auch den ExaVault-Connector, der neuen Benutzer(inne)n n
 
 ## Erinnerungen in Outlook für Unterrichtsräume und virtuelle Sitzungen
 
-Von Adobe Learning Manager erstellte Klassenzimmer- und virtuelle Klassenzimmersitzungen, die dem Outlook-Kalender des Teilnehmers hinzugefügt wurden, unterstützen jetzt Erinnerungen aus Outlook konsistent (ähnlich wie Meetingerinnerungen in Outlook).
+In Adobe Learning Manager erstellte Klassenzimmer- und virtuelle Klassenzimmersitzungen, die dem Outlook-Kalender des Teilnehmers hinzugefügt wurden, unterstützen jetzt Erinnerungen aus Outlook konsistent (ähnlich wie Erinnerungen in Outlook).
 
 ## Verbesserungen beim Zuweisen von Kenntnissen zu Kursen
 
@@ -530,7 +531,11 @@ Wortstamm ist der Prozess, bei dem ein Wort auf seine Grundform reduziert wird. 
 
 In dieser Version haben wir Stemming für englische Gebietsschemas hinzugefügt, der die folgenden Varianten enthält: en_US, en_AU, en_GB.
 
-Das Attribut „stemmed“ gibt an, ob Stemming in den Suchergebnissen erforderlich ist. Dies ist standardmäßig auf False festgelegt.
+Das Attribut „stemmed“ gibt an, ob Stemming in den Suchergebnissen erforderlich ist. Dieser Wert ist standardmäßig auf &quot;False&quot; festgelegt.
+
+API-Abfrageparameter:
+
+matchType=phrase_and_match stemmed=true
 
 ### Entfernen von V1-Endpunkten
 
