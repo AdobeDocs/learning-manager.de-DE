@@ -3,14 +3,13 @@ description: Erfahren Sie, wie Sie Kataloge in Learning Manager verwenden, um di
 jcr-language: en_us
 title: Kataloge
 contentowner: manochan
-source-git-commit: b77a43100521aa35096c6a6b4d417630cb9293b3
+exl-id: 5e62995c-6471-47e9-9e6c-06ac5c5586bc
+source-git-commit: 2a841234cd829d2a477d44e9cca095370ee25e51
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 23%
+source-wordcount: '294'
+ht-degree: 22%
 
 ---
-
-
 
 # Kataloge
 
@@ -22,7 +21,7 @@ Teilnehmer können alle zugewiesenen und verfügbaren Lernobjekte (Lernprogramme
 
 Sie können die Liste der Lernobjekte nach Qualifikationen und nach Art der Lernobjekte filtern (Selbststudium, gemischt, Präsenzkurs, virtuelles Klassenzimmer, Aktivität). Sie können auch mithilfe der Optionen im linken Bereich filtern: nach Lernobjekten, nach Kenntnissen und nach Abschlussstatus.
 
-Verwenden Sie die Suchleiste oben auf der Seite, um die Namen Ihrer vertrauten Lernobjekte einzugeben.
+Verwenden Sie die Suchleiste oben auf der Seite, um die Namen Ihrer vertrauten Lernobjekte einzugeben. Teilnehmer können zwischen dem Raster und der Listenansicht wechseln, indem sie dieses ![](assets/icon-list.png) Symbol.
 
 ![](assets/catalogs.png)
 *Anzeigen von Katalogen*

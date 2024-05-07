@@ -3,16 +3,16 @@ jcr-language: en_us
 title: Arbeitshilfen
 description: Arbeitshilfen sind ein Repository mit Schulungsinhalten, das den Teilnehmern ohne Registrierung oder Abschlusskriterien zur Verfügung steht. Die Teilnehmer können auf diese Arbeitshilfen zurückgreifen, wenn sie bei Aktivitäten oder Aufgaben im Unternehmen Unterstützung benötigen.
 exl-id: c8e925ee-2e40-4a71-9b8e-42a1b49d01bc
-source-git-commit: c006f4e231a2249acb53fdd915f0130fbed200f8
+source-git-commit: 2a841234cd829d2a477d44e9cca095370ee25e51
 workflow-type: tm+mt
 source-wordcount: '590'
-ht-degree: 66%
+ht-degree: 65%
 
 ---
 
 # Arbeitshilfen
 
-Arbeitshilfen sind ein Repository mit Schulungsinhalten, das den Teilnehmern ohne Registrierung oder Abschlusskriterien zur Verfügung steht. Die Teilnehmer können auf diese Arbeitshilfen zurückgreifen, wenn sie bei Aktivitäten oder Aufgaben im Unternehmen Unterstützung benötigen.
+**Arbeitshilfen** ist ein Repository mit Schulungsinhalten, das den Teilnehmern ohne Registrierung oder Abschlusskriterien zur Verfügung steht. Die Teilnehmer können auf diese Arbeitshilfen zurückgreifen, wenn sie bei Aktivitäten oder Aufgaben im Unternehmen Unterstützung benötigen.
 
 Arbeitshilfen können unabhängig oder zusammen mit Kursen in Learning Manager genutzt werden.
 
@@ -20,9 +20,9 @@ Autoren können Arbeitshilfe für Teilnehmer erstellen. Verwenden Sie Arbeitshil
 
 ## Arbeitshilfe erstellen {#createjobaid}
 
-1. Klicken Sie in der Autorenanmeldung im linken Bereich auf &quot;Arbeitshilfen&quot;.
-1. Klicken Sie in der rechten oberen Ecke der angezeigten Seite auf Erstellen .
-1. Geben Sie den Namen, die Beschreibung und Tags ein. Wählen Sie die Fertigkeiten und die dazugehörigen Ebenen. Wählen Sie den Inhalt als privaten Inhalt aus, wenn keine anderen Autoren auf die Arbeitshilfe zugreifen und sie ihren eigenen Kursen zuweisen sollen.
+1. Wählen Sie in der Autorenanmeldung **[!UICONTROL Arbeitshilfen]** im linken Bereich.
+1. Auswählen **[!UICONTROL Erstellen]** in der oberen rechten Ecke der angezeigten Seite.
+1. Geben Sie den Namen, die Beschreibung und die Tags ein. Wählen Sie die Fertigkeiten und die dazugehörigen Ebenen. Wählen Sie den Inhalt als privaten Inhalt aus, wenn keine anderen Autoren auf die Arbeitshilfe zugreifen und sie ihren eigenen Kursen zuweisen sollen.
 
    Nur vorhandene Kenntnisse können für Arbeitshilfen verwendet werden. Kenntnisse sind nicht zwingend erforderlich.
 
@@ -44,7 +44,7 @@ Autoren können Arbeitshilfe für Teilnehmer erstellen. Verwenden Sie Arbeitshil
    *Neue Sprache für einen Inhalt hinzufügen*
 
 1. Wiederholen Sie den Upload-Vorgang für die Arbeitshilfe für die neuen Sprachen.
-1. Wenn Sie eine Sprache entfernen möchten, klicken Sie auf die Registerkarte &quot;Neue Sprache hinzufügen&quot; und deaktivieren Sie Ihre Auswahl.
+1. Wenn Sie eine Sprache entfernen möchten, wählen Sie die Option **[!UICONTROL Neue Sprache hinzufügen]** und deaktivieren Sie Ihre Auswahl.
 
    Nachdem Sie die Änderungen vorgenommen haben, wählen Sie Speichern.
 
