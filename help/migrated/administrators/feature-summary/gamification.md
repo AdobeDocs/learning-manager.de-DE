@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Gamification
 contentowner: manochan
 exl-id: c7871a50-3f7c-46e0-8f9d-afc83b0032d6
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: 6f23c53b14d2c787e1c6ecb4eea9a3dc06f8e584
 workflow-type: tm+mt
-source-wordcount: '1419'
-ht-degree: 70%
+source-wordcount: '1646'
+ht-degree: 56%
 
 ---
 
@@ -17,7 +17,7 @@ Gamification bedeutet, spieltypische Ideen und Prozesse in einen spielfremden Ko
 
 ## Übersicht {#overview}
 
-Mit Learning Manager können Sie eine strukturelle Gamification-Ebene auf den Inhalt anwenden, um Teilnehmende zu motivieren, ihre Lernziele zu erreichen. So können die Teilnehmenden Punkte für verschiedene Lernaktivitäten sammeln und die Bronze-, Silber-, Gold- und Platinstufe erreichen.
+Die Adobe Learning Manager enthält eine Funktion namens Gamification, die entwickelt wurde, um Teilnehmer zu motivieren und das Lernen durch interaktive Spielelemente zu fördern. Es fördert das gewünschte Verhalten der Teilnehmer durch Belohnungen und ermöglicht es den Teilnehmern, Punkte zu sammeln und sich im Wettbewerb mit ihren Kollegen zu behaupten. Diese Funktion erhöht die Interaktion und Motivation der Benutzer innerhalb der Lernplattform.
 
 In der Voreinstellung sind einige Gamification-Punkte und -Daten für Benutzer verfügbar, um das Prinzip zu verdeutlichen. Sie können die Punkte entsprechend ändern.
 
@@ -32,57 +32,6 @@ Führen Sie die folgenden Schritte aus, um auf die Einstellungen zuzugreifen:
 1. Melden Sie sich als Administrator an und klicken Sie im linken Bereich auf **[!UICONTROL Gamification]**.
 1. Wenn Sie ein neues Learning Manager-Konto erstellen, ist Gamification standardmäßig deaktiviert. Klicken Sie zum Aktivieren oben rechts auf der Seite auf **[!UICONTROL Aktivieren]**.
 
-## Aktionen von Administratoren {#administratoractions}
-
-Administratoren können eine Liste von vertraulichen Benutzern erstellen, die Gamification-Punkte zurücksetzen und die Gamification-Funktion für Teilnehmer aktivieren/deaktivieren. Klicken Sie auf die Dropdown-Liste „Aktionen“ in der rechten oberen Ecke der Seite, um die Aktionen aufzurufen, wie in der Abbildung unten gezeigt.
-
-![](assets/gamification-actions.png)
-
-*Gamification-Optionen für einen Administrator*
-
-## Vertraulichkeitseinstellungen {#confidentialitysettings}
-
-Falls erforderlich, können Sie einige Führungskräfte als vertrauliche Benutzer einstellen. Die Gamification-Aktivitäten vertraulicher Benutzer sind für andere Teilnehmer nicht im Leaderboard sichtbar.
-
-Vertraulichkeitseinstellungen können für interne und externe Benutzer angewendet werden.
-
-1. Klicken **[!UICONTROL Gamification]** > **[!UICONTROL Einstellungen]** > **[!UICONTROL Vertraulichkeitseinstellungen]**.
-
-![](assets/confidentiality-settings.png)
-
-*Vertraulichkeitseinstellungen anzeigen*
-
-1. Klicken Sie in der Benutzerliste das Kontrollkästchen neben dem Benutzernamen an und klicken Sie auf „Ausblenden“, um den Benutzer als vertraulichen Benutzer einzustellen.
-
-   >[!NOTE]
-   >
-   >Sie können die vertraulichen Benutzer in der Liste durch das Häkchen im Kontrollkästchen neben dem Benutzernamen identifizieren.
-
-1. Klicken Sie auf die Registerkarte „Vertrauliche Benutzer“, um eine Liste der vertraulichen Benutzer abzurufen. Diese sind standardmäßig nicht sichtbar. Klicken Sie auf das Dropdown-Pfeilsymbol, um die Liste anzuzeigen.
-1. Klicken Sie auf das Kontrollkästchen beim Benutzernamen in der Liste der vertraulichen Benutzer und klicken Sie auf „Hinzufügen“, um Benutzernamen aus der Liste der vertraulichen Benutzer zu entfernen.
-
-## Gamification zurücksetzen {#resetgamification}
-
-Sie können die vom Teilnehmer gesammelten Gamification-Punkte und sowie die Konfigurationseinstellungen zurücksetzen. Wenn Sie die Punktzahlen der Benutzer zurücksetzen, werden alle Punkte, die von Benutzern gesammelt wurden, gelöscht und auf Null zurückgesetzt. Wenn Sie Benutzerpunktzahlen und Konfigurationseinstellungen zurücksetzen, werden alle Punkte, die standardmäßig den Stufen und Aufgaben zugewiesen waren, auf Null zurückgesetzt.
-
-Die Einstellungen zum Zurücksetzen der Gamification können sowohl für interne als auch für externe Benutzer angewendet werden.
-
-Um die Teilnehmerpunktzahl und Konfiguration zurückzusetzen, klicken Sie auf „Gamification zurücksetzen“ gemäß Ihren Anforderungen auf eine Option. Sie können zwischen „Nur Teilnehmerpunktzahl“ und „Teilnehmerpunktzahlzurücksetzen“ und „Konfigurationseinstellungen“ wählen. Nachdem Sie gewählt haben, klicken Sie auf „OK“.
-
-![](assets/reset-gamification.png)
-
-*Gamification-Punkte zurücksetzen*
-
-## Gamification deaktivieren {#disablegamification}
-
-Klicken [!UICONTROL **Gamification**] > **[!UICONTROL Einstellungen]** > [!UICONTROL **Gamification-Funktion**]. Dies ermöglicht es Ihnen, die Gamification-Funktion und das Leaderboard separat für Ihre Teilnehmer zu aktivieren. Wählen Sie zwischen „für interne Teilnehmer aktivieren“ und „Für externe Teilnehmer aktivieren“ und klicken Sie auf „OK“. Alle Punkte werden beibehalten, wenn Sie die Gamification wieder aktivieren.
-
-![](assets/gamification-feature.png)
-
-*Gamification deaktivieren*
-
-Sie können Lernprogrammen für interne und externe Benutzer deaktivieren.
-
 ## Punkte einrichten {#setuppoints}
 
 Administratoren können Gamification-Punkte für Teilnehmer festsetzen, indem sie die folgenden Schritte ausführen:
@@ -92,6 +41,8 @@ Administratoren können Gamification-Punkte für Teilnehmer festsetzen, indem si
 1. Klicken Sie auf das Symbol „Bearbeiten“ neben jeder Aufgabe, um die Punkte festzusetzen.
 1. Ändern Sie die Häufigkeit des Auftretens von Aufgaben, wie zum Beispiel, dass eine bestimmte Anzahl an Kursen pro Monat , Quartal oder Jahr absolviert werden muss.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
+
+![](assets/set-up-points.png)
 
 ## Aufgaben {#tasks}
 
@@ -177,9 +128,15 @@ Mögliche Szenarien zu den Stufen der Kompetenzverbesserung innerhalb einer best
 >
 >Der Zeitraum ist für diese Aufgabe nicht relevant. Wenn der Teilnehmer eine höhere Stufe und danach eine niedrigere Stufe einer Fähigkeit erreicht, dann erhält er nur Punkte für die höhere Stufe.
 
+**Zur Referenz**
+
+Diese Aufgabe gilt für Teilnehmer, die innerhalb von N Tagen nach Abschluss auf ihren abgeschlossenen Kurs zurückverweisen.
+
+Mögliches Szenario: Wenn sich ein Teilnehmer auf den abgeschlossenen Kurs innerhalb von 30 Tagen nach Abschluss bezieht, erhält er 50 Punkte.
+
 **Punkte für frühzeitigen Abschluss**
 
-Diese Aufgabe ist für die Teilnehmer relevant, die unter den ersten n Teilnehmern sind, die den Kurs abschließen.
+Diese Aufgabe ist für Teilnehmer relevant, die innerhalb von N Tagen zum Abschluss des Kurses auf einen mit einem Lesezeichen versehenen Kurs zurückverweisen.
 
 Mögliche Szenarien:\
 Wenn ein Teilnehmer einer der ersten 10 Teilnehmer wird, die den Kurs abschließen, erhält er 100 Punkte.
@@ -190,6 +147,87 @@ Diese Aufgabe ist für Teilnehmer relevant, die einen Kurs innerhalb einer festg
 
 Mögliche Szenarien:\
 Wenn Teilnehmer einen Kurs innerhalb von 10 Tagen nach Kursbeginn abschließen, erhalten sie 100 Punkte.
+
+**Umfassender Teilnehmer**
+
+Diese Aufgabe gilt für Teilnehmer, die optionales Lernmaterial wie Vorarbeit, Ressourcen und Arbeitshilfen pro Monat nutzen.
+
+Mögliche Szenarien:
+
+1. Wenn Teilnehmer eine Schulung pro Monat abschließen, erhält er 20 Punkte.
+1. Wenn die Teilnehmer zwei Lernaktivitäten pro Monat absolvieren, erhalten sie 40 Punkte.
+1. Wenn die Teilnehmer drei Lernaktivitäten pro Monat absolvieren, erhalten sie 80 Punkte.
+
+**Konsistentes Lernen**
+
+Diese Aufgabe ist für Teilnehmer relevant, die eine bestimmte Anzahl von Tagen pro Woche, Monat oder Quartal an Lernaktivitäten teilnehmen. Zu den Aktivitäten gehören die Verwendung von Lerninhalten, das Herunterladen von Ressourcen und Arbeitshilfen.
+
+Mögliche Szenarien:
+
+1. Wenn Teilnehmer an Lernaktivitäten für einen Tag pro Woche teilnehmen, erhalten sie 20 Punkte.
+1. Wenn die Teilnehmer zwei Tage die Woche an Lernaktivitäten teilnehmen, erhalten sie 40 Punkte.
+1. Wenn Teilnehmer an Lernaktivitäten für einen Tag pro Woche teilnehmen, erhalten sie 80 Punkte.
+
+**Feedback**
+
+Dies gilt für Teilnehmer, die Feedback zu Kursen geben.
+
+Mögliche Szenarien:
+
+1. Für Feedback zur Startbewertung erhalten sie 20 Punkte.
+1. Für Reaktionsfeedback erhalten sie 20 Punkte.
+1. Für Manager-Feedback erhalten sie 20 Punkte.
+
+## Aktionen von Administratoren {#administratoractions}
+
+Administratoren können eine Liste von vertraulichen Benutzern erstellen, die Gamification-Punkte zurücksetzen und die Gamification-Funktion für Teilnehmer aktivieren/deaktivieren. Wählen Sie das **[!UICONTROL Einstellungen]** auf der Gamification-Seite, um die Aktionen anzuzeigen, wie in der Momentaufnahme unten gezeigt.
+
+![](assets/gamification-actions.png)
+
+*Gamification-Optionen für einen Administrator*
+
+## Vertraulichkeitseinstellungen {#confidentialitysettings}
+
+Falls erforderlich, können Sie einige Führungskräfte als vertrauliche Benutzer einstellen. Die Gamification-Aktivitäten vertraulicher Benutzer sind für andere Teilnehmer nicht im Leaderboard sichtbar.
+
+Vertraulichkeitseinstellungen können für interne und externe Benutzer angewendet werden.
+
+1. Klicken **[!UICONTROL Gamification]** > **[!UICONTROL Einstellungen]** > **[!UICONTROL Vertraulichkeitseinstellungen]**.
+
+![](assets/confidentiality-settings.png)
+
+*Vertraulichkeitseinstellungen anzeigen*
+
+1. Klicken Sie in der Benutzerliste das Kontrollkästchen neben dem Benutzernamen an und klicken Sie auf „Ausblenden“, um den Benutzer als vertraulichen Benutzer einzustellen.
+
+   >[!NOTE]
+   >
+   >Sie können die vertraulichen Benutzer in der Liste durch das Häkchen im Kontrollkästchen neben dem Benutzernamen identifizieren.
+
+1. Klicken Sie auf die Registerkarte „Vertrauliche Benutzer“, um eine Liste der vertraulichen Benutzer abzurufen. Diese sind standardmäßig nicht sichtbar. Klicken Sie auf das Dropdown-Pfeilsymbol, um die Liste anzuzeigen.
+1. Klicken Sie auf das Kontrollkästchen beim Benutzernamen in der Liste der vertraulichen Benutzer und klicken Sie auf „Hinzufügen“, um Benutzernamen aus der Liste der vertraulichen Benutzer zu entfernen.
+
+## Gamification zurücksetzen {#resetgamification}
+
+Sie können die vom Teilnehmer gesammelten Gamification-Punkte und sowie die Konfigurationseinstellungen zurücksetzen. Wenn Sie die Punktzahlen der Benutzer zurücksetzen, werden alle Punkte, die von Benutzern gesammelt wurden, gelöscht und auf Null zurückgesetzt. Wenn Sie Benutzerpunktzahlen und Konfigurationseinstellungen zurücksetzen, werden alle Punkte, die standardmäßig den Stufen und Aufgaben zugewiesen waren, auf Null zurückgesetzt.
+
+Die Einstellungen zum Zurücksetzen der Gamification können sowohl für interne als auch für externe Benutzer angewendet werden.
+
+Um die Teilnehmerpunktzahl und Konfiguration zurückzusetzen, klicken Sie auf „Gamification zurücksetzen“ gemäß Ihren Anforderungen auf eine Option. Sie können zwischen „Nur Teilnehmerpunktzahl“ und „Teilnehmerpunktzahlzurücksetzen“ und „Konfigurationseinstellungen“ wählen. Nachdem Sie gewählt haben, klicken Sie auf „OK“.
+
+![](assets/reset-gamification.png)
+
+*Gamification-Punkte zurücksetzen*
+
+## Gamification deaktivieren {#disablegamification}
+
+Klicken [!UICONTROL **Gamification**] > **[!UICONTROL Einstellungen]** > [!UICONTROL **Gamification-Funktion**]. Dies ermöglicht es Ihnen, die Gamification-Funktion und das Leaderboard separat für Ihre Teilnehmer zu aktivieren. Wählen Sie zwischen „für interne Teilnehmer aktivieren“ und „Für externe Teilnehmer aktivieren“ und klicken Sie auf „OK“. Alle Punkte werden beibehalten, wenn Sie die Gamification wieder aktivieren.
+
+![](assets/gamification-feature.png)
+
+*Gamification deaktivieren*
+
+Sie können Lernprogrammen für interne und externe Benutzer deaktivieren.
 
 ## Gamification für Gruppen {#grouplevelgamification}
 

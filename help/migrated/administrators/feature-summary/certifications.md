@@ -3,14 +3,13 @@ description: Erfahren Sie, wie Sie Zertifizierungen erstellen, Teilnehmer regist
 jcr-language: en_us
 title: Zertifizierungen
 contentowner: manochan
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: 406d1c33-aac3-47e1-9b32-83874976ce54
+source-git-commit: 6f23c53b14d2c787e1c6ecb4eea9a3dc06f8e584
 workflow-type: tm+mt
-source-wordcount: '991'
-ht-degree: 70%
+source-wordcount: '1020'
+ht-degree: 68%
 
 ---
-
-
 
 # Zertifizierungen
 
@@ -103,6 +102,10 @@ Als Administrator können Sie ein Zertifizierungsprogramm entweder intern gehost
  </tbody>
 </table>
 
+Wählen Sie die Produkt-, Rollen- und Rollenebene im Dialogfeld &quot; **[!UICONTROL Für]** , um den Benutzern, die Interesse an diesen Produkten und Rollen bekundet haben, diesen Lernpfad vorzuschlagen.
+
+![](assets/recommend-for.png)
+
 Wählen Sie die Kurse aus, die der Zertifizierung hinzugefügt werden sollen **[!UICONTROL Kurse]** > **[!UICONTROL Katalog]** &quot; ändern.
 
 Bewegen Sie die Maus über jede Kurskachel und klicken Sie auf &quot;+&quot;, um sie zur Zertifizierung hinzuzufügen. Klicken **[!UICONTROL Vorschau]** , um den Kurs als Teilnehmer anzuzeigen, bevor Sie ihn hinzufügen.
@@ -165,6 +168,8 @@ Eine Zertifizierung kann von einem Administrator in einem veröffentlichten Stat
 Um eine veröffentlichte Zertifizierung zu bearbeiten, klicken Sie auf die Zertifizierungskarte und dann auf **[!UICONTROL Bearbeiten]** oben rechts auf der Seite.
 
 Wenn die Seite beim Bearbeiten der Abschnitte einer Zertifizierung verlassen müssen, müssen Sie die Zertifizierung erneut veröffentlichen. Es wird ein Dialogfeld für die Bestätigung zur erneuten Veröffentlichung der Zertifizierung angezeigt.
+
+![](assets/edit-a-certificate.png)
 
 ## Abonnement {#subscription}
 

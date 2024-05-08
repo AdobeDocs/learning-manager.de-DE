@@ -4,9 +4,9 @@ title: Lernpläne
 description: Erstellen von Lernplänen für Administratoren in Learning Manager.
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: 6f23c53b14d2c787e1c6ecb4eea9a3dc06f8e584
 workflow-type: tm+mt
-source-wordcount: '1941'
+source-wordcount: '1970'
 ht-degree: 42%
 
 ---
@@ -56,6 +56,10 @@ Sie können Kenntnisse hinzufügen und dem Lernplan ein Abzeichen zuweisen. Um K
 ![](assets/add-skills.png)
 
 Weisen Sie dem Lernplan ein Abzeichen zu. Wählen Sie ein Abzeichen aus der Liste der verfügbaren Abzeichen aus.
+
+Wählen Sie die Produkt-, Rollen- und Rollenebene im Dialogfeld &quot; **[!UICONTROL Für]** , um den Benutzern, die Interesse an diesen Produkten und Rollen bekundet haben, diesen Lernpfad vorzuschlagen.
+
+![](assets/recommend-for.png)
 
 Wählen Sie den Sequenzierungstyp für die Abschnitte und die Schulung &quot;Geordnet&quot; oder &quot;Ungeordnet&quot;.
 
