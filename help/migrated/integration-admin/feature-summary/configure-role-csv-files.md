@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Verwalten benutzerdefinierter Rollen über CSV-Dateien
 description: Der Integrationsadministrator kann seinem Konto mehrere benutzerdefinierte Rollen gleichzeitig über CSV hinzufügen und diese verschiedenen Benutzern zuweisen. Dieser Ansatz automatisiert den Prozess der Erstellung von benutzerdefinierte Rollen.
 contentowner: saghosh
-source-git-commit: ab6737e8b43222a6538921b0628a504a5f15859d
+exl-id: fce2f457-2834-491a-8331-64086f5a51b5
+source-git-commit: 0d318715e120b20b27f4876ad47868bef47bdb7c
 workflow-type: tm+mt
-source-wordcount: '908'
-ht-degree: 86%
+source-wordcount: '907'
+ht-degree: 83%
 
 ---
-
-
 
 # Verwalten benutzerdefinierter Rollen über CSV-Dateien
 
@@ -18,7 +17,7 @@ Der Integrationsadministrator kann seinem Konto mehrere benutzerdefinierte Rolle
 
 Sie können Rollen über die FTP- und Box-Connectors von Learning Manager konfigurieren.
 
-Nachdem Sie sich bei Ihrem Box- oder ExaVault-Speicherkonto angemeldet haben, kann der Integrationsadministrator die folgenden CSVs zum Konto hinzufügen:
+Nachdem Sie sich bei Ihrem Box-Speicherkonto angemeldet haben, kann der Integrationsadministrator die folgenden CSV-Dateien zum Konto hinzufügen:
 
 * role.csv
 * user_role.csv
@@ -26,7 +25,8 @@ Nachdem Sie sich bei Ihrem Box- oder ExaVault-Speicherkonto angemeldet haben, ka
 Laden Sie zunächst die CSV-Dateien herunter und ändern Sie die Werte entsprechend Ihren Anforderungen.
 
 **role.csv**
-[Beispieldatei: role.csv](assets/role.csv) [Beispieldatei: user_role.csv](assets/user-role.csv)
+* Beispieldatei: [role.csv](assets/role.csv)
+* Beispieldatei: [user_role.csv](assets/user_role.csv)
 
 <table>
  <tbody>
@@ -143,7 +143,7 @@ Wenn in der CSV Katalognamen oder Benutzergruppennamen angegeben sind, werden di
 * Lernpläne
 * E-Mail-Vorlagen
 
-## Fügen Sie die Rollen-CSVs zum Konto hinzu {#addtherolecsvsintheaccount}
+## Hinzufügen der Rollen-CSVs zum Konto {#addtherolecsvsintheaccount}
 
 Wählen Sie in Ihrem Box-Konto **Importieren > Benutzer > Intern** und laden Sie die Dateien „role.csv“ und „user_role.csv“ hoch.
 
