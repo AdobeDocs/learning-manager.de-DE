@@ -4,9 +4,9 @@ title: Kataloge
 description: Kataloge sind eine Sammlung von Lernkursen, Lernprogrammen und Zertifizierungen. Verwenden Sie Kataloge, um den Teilnehmern den Zugriff auf einen benutzerdefinierten Lernsatz zu ermöglichen. Sie können Lernprogramme während der Erstellung eines neuen Katalogs einem Katalog zuordnen.
 contentowner: manochan
 exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: 037619bb6157f6b4fc3a739571f4766b2d634900
 workflow-type: tm+mt
-source-wordcount: '2429'
+source-wordcount: '2453'
 ht-degree: 75%
 
 ---
@@ -56,7 +56,7 @@ Um einen Katalog zu erstellen, führen Sie die folgenden Schritte aus:
    *Katalog erstellen*
 
    Sie können dem Katalog mehrere Kurse hinzufügen.
-
+1. Sie können die Kurse nach Kenntnissen, Rollen und Sprache filtern. Der ausgewählte Kurs wird Teilnehmern empfohlen, die sich für diese Fähigkeiten und Rollen interessieren.
 1. Speichern Sie das Änderungen. Kehren Sie zur Liste der Kataloge zurück und klicken Sie auf den neuen Katalog in der Liste.
 1. Klicken Sie auf der Seite für den neuen Katalog im linken Bereich auf **[!UICONTROL Inhalt]**.
 

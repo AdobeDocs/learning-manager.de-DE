@@ -3,59 +3,15 @@ jcr-language: en_us
 title: Systemanforderungen
 description: Systemanforderungen für Adobe Learning Manager
 contentowner: dvenkate
-source-git-commit: 1b90528ec5675c67dcc9b8d86f2a5b8b82f7f5e4
+exl-id: 3bf9818a-4b86-47e9-9b86-1c32b8bfee3a
+source-git-commit: 037619bb6157f6b4fc3a739571f4766b2d634900
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '565'
 ht-degree: 65%
 
 ---
 
-
 # Systemanforderungen für Adobe Learning Manager
-
-## Windows {#windows}
-
-Microsoft Windows 7, 8, 10 (nur 64 Bit)
-
-## macOS {#macos}
-
-macOS X 10.12, 10.13, 10.14, 10.15
-
-## RAM
-
-8 GB RAM.
-
-## Anzeige
-
-Unterstützte Mindestauflösung: 1024 x 720.
-
-## Festplattenspeicher
-
-Mindestens 5 GB verfügbarer Festplattenspeicher.
-
-## Aufzeichnen
-
-* Mikrofon für Audioaufzeichnungen erforderlich.
-* Webcam für Videoaufzeichnungen erforderlich.
-
-## Diverses
-
-Für die Verwendung der Anwendung sind eine aktive Internetverbindung und ein Teilnehmerkonto für Adobe Learning Manager erforderlich.
-
-## Browserspezifikationen
-
-Die Startseite für immersives Layout wird in IE 11-Browsern nicht unterstützt.
-
-* Google Chrome-Version 43 und höher.
-* Neueste Versionen von Edge, Safari (Version 13 und höher) und Firefox.
-* Internet Explorer-Version 11 und höher
-
-## Empfohlene Bildgröße {#recommendedsizeofimages}
-
-* Mastertitel: 1.280 x 360 px.
-* Bild auf der Katalogkarte: 280 x 100 px
-* Größe der Schulungskarte: 300 x 240 px
-* Soziales Banner: 1.600 x 240 px
 
 ## Desktop
 
@@ -114,6 +70,25 @@ Für die Audioaufzeichnung ist ein Mikrofon erforderlich. Für die Videoaufzeich
 >[!NOTE]
 >
 >Die Learning Manager-Mobilanwendung unterstützt nur die Teilnehmerrolle.
+
+## Diverses
+
+Für die Verwendung der Anwendung sind eine aktive Internetverbindung und ein Teilnehmerkonto für Adobe Learning Manager erforderlich.
+
+## Browserspezifikationen
+
+Die Startseite für immersives Layout wird in IE 11-Browsern nicht unterstützt.
+
+* Google Chrome-Version 43 und höher.
+* Neueste Versionen von Edge, Safari (Version 13 und höher) und Firefox.
+* Internet Explorer-Version 11 und höher
+
+## Empfohlene Bildgröße {#recommendedsizeofimages}
+
+* Mastertitel: 1.280 x 360 px.
+* Bild auf der Katalogkarte: 280 x 100 px
+* Größe der Schulungskarte: 300 x 240 px
+* Soziales Banner: 1.600 x 240 px
 
 ## Maximale Inhaltsgröße {#maximumcontentsize}
 
