@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Erstellen von Kursmodulen, Instanzen und Lernprogrammen
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: d13c8ffc2168d51cc6961ad8d502de36955024b7
 workflow-type: tm+mt
 source-wordcount: '4613'
 ht-degree: 65%
@@ -25,9 +25,10 @@ Autoren erstellen Kurse. Teilnehmer können Kurse absolvieren und Administratore
 
 ### Instanzen verwalten
 
-In dieser Schulung lernen Sie, wie Sie Instanzdetails und Instanzeigenschaften bearbeiten.
+>[!INFO]
+>
+>In dieser Schulung lernen Sie, wie Sie Instanzdetails und Instanzeigenschaften bearbeiten.<br><br>[![Knopf](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=P79NQK8R&amp;mv=display&amp;mv2=display#/course/8318912)</br></br>
 
-[![Knopf](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=P79NQK8R&amp;mv=display&amp;mv2=display#/course/8318912)
 
 Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.com>.
 
@@ -638,7 +639,7 @@ Ein typischer Lebenszyklus von Kursen sieht wie folgt aus:
 
 **Rentner** - Nach der Veröffentlichung kann der Autor den Kurs wieder einstellen, wenn er ihn aus dem Kurskatalog für die Teilnehmer entfernen möchte. Sie können einen Kurs in diesem Status erneut veröffentlichen oder löschen.
 
-**Gelöscht** - Ein Kurs hat den Status &quot;Gelöscht&quot;, wenn er vollständig aus der Adobe Learning Manager-Anwendung entfernt wurde. Kurse können von Autoren nur gelöscht werden, wenn sie den Status „Entwurf“ haben. Sie können auch Kurse im Status &quot;Eingestellt&quot; löschen.
+**Gelöscht** - Ein Kurs hat den Status &quot;Gelöscht&quot;, wenn er vollständig aus der Anwendung Adobe Learning Manager entfernt wurde. Kurse können von Autoren nur gelöscht werden, wenn sie den Status „Entwurf“ haben. Sie können auch Kurse im Status &quot;Eingestellt&quot; löschen.
 
 ![](assets/lifecycle-03.png)
 
