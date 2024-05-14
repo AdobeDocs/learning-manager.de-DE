@@ -1,17 +1,17 @@
 ---
 jcr-language: en_us
-title: API-Veraltungen im Adobe Learning Manager
-description: Wenn sich die APIs im Adobe Learning Manager weiterentwickeln, werden APIs regelmäßig neu organisiert oder aktualisiert. Wenn sich APIs weiterentwickeln, wird die alte API verworfen und schließlich entfernt. Diese Seite enthält Informationen, die Sie benötigen, wenn Sie von veralteten API-Versionen zu neueren und stabileren API-Versionen migrieren.
+title: API-Veraltungen in Adobe Learning Manager
+description: Wenn sich die APIs in Adobe Learning Manager weiterentwickeln, werden APIs regelmäßig neu organisiert oder aktualisiert. Wenn sich APIs weiterentwickeln, wird die alte API verworfen und schließlich entfernt. Diese Seite enthält Informationen, die Sie benötigen, wenn Sie von veralteten API-Versionen zu neueren und stabileren API-Versionen migrieren.
 contentowner: saghosh
-source-git-commit: 01cdcd816fe101af55adf0902f4e3660a1a098ce
+exl-id: 0fe9a3cb-9114-42d6-81ae-1a4f28c984fa
+source-git-commit: dd0b8aecbe54d6aecf17e4d9acec5769e7302ecd
 workflow-type: tm+mt
-source-wordcount: '847'
-ht-degree: 21%
+source-wordcount: '897'
+ht-degree: 20%
 
 ---
 
-
-# API-Veraltungen und Änderungen im Adobe Learning Manager
+# API-Veraltungen und -Änderungen in Adobe Learning Manager
 
 ## API-Veraltungen in der Version März 2024 von Adobe Learning Manager
 
@@ -113,7 +113,7 @@ In der nächsten Version von Adobe Learning Manager werden im zusammenfassenden 
 
 ### Nach Name sortieren
 
-In der nächsten Version des Adobe-Lernmanagers werden name und -name im Sortierfeld der folgenden APIs veraltet sein:
+In der nächsten Version von Adobe Learning Manager sind name und -name im Sortierfeld der folgenden APIs veraltet:
 
 * GET /userGroups/{userGroupId}/users
 * GET /users
@@ -127,7 +127,7 @@ In der nächsten Version des Adobe-Lernmanagers werden name und -name im Sortier
 
 ### Überschreiben-Flag
 
-In der Adobe Learning Manager-Version vom November 2023 haben wir das Überschreiben-Flag in den APIs eingestellt. Das Überschreiben-Flag ist kein Teil der öffentlichen API-Spezifikation und für Backend-Tests vorgesehen. Das Flag wird jetzt für Teilnehmer-APIs eingestellt. Das Flag ist jedoch weiterhin für Admin-APIs gültig.
+In der Adobe Learning Manager-Version vom November 2023 haben wir das Überschreibungs-Flag für die APIs eingestellt. Das Überschreiben-Flag ist kein Teil der öffentlichen API-Spezifikation und für Backend-Tests vorgesehen. Das Flag wird jetzt für Teilnehmer-APIs eingestellt. Das Flag ist jedoch weiterhin für Admin-APIs gültig.
 
 Der Grund, warum wir das Flag für Teilnehmer-APIs verwerfen, ist, dass das Überschreibungsflag eine große Datenmenge über die Teilnehmer-APIs abgerufen hat.
 
@@ -145,6 +145,11 @@ Die Peer-Gruppe wird jetzt zu einem Konto, und die Teilnehmenden sehen eine Zeic
 
 ### Änderungen am Bericht für Benachrichtigungen
 
-In früheren Versionen des Adobe-Lernmanagers verfügte der Bericht &quot;Benachrichtigungsankündigung&quot; nicht über Filter. Adobe Learning Manager hat alle Benachrichtigungen im Konto heruntergeladen.
+In früheren Versionen von Adobe Learning Manager verfügte der Bericht zur Benachrichtigungsankündigung über keine Filter. Adobe Learning Manager hat alle Benachrichtigungen im Konto heruntergeladen.
 
 In der Version vom November 2023 haben wir einen Datumsfilter hinzugefügt, mit dem Sie die Benachrichtigungen innerhalb eines bestimmten Zeitraums herunterladen können.  Sie können den Bericht jedoch nur für die letzten sechs Monate herunterladen.
+
+### Abschaffung der hohen Versatzwerte im Endpunkt GET /users
+
+Um die Systemleistung zu verbessern und die Ressourcennutzung effektiver zu verwalten, verfügt der Adobe über veraltete hohe Versatzwerte im Endpunkt GET /users für beide **ADMINISTRATOR** und **TEILNEHMER** Geltungsbereiche. Wir empfehlen, die **Jobs-API** , um die Datensätze mit einem Offsetwert abzurufen.
+
