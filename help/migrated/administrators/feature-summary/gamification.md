@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Gamification
 contentowner: manochan
 exl-id: c7871a50-3f7c-46e0-8f9d-afc83b0032d6
-source-git-commit: 6f23c53b14d2c787e1c6ecb4eea9a3dc06f8e584
+source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
 workflow-type: tm+mt
-source-wordcount: '1646'
+source-wordcount: '1649'
 ht-degree: 56%
 
 ---
@@ -43,6 +43,8 @@ Administratoren können Gamification-Punkte für Teilnehmer festsetzen, indem si
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 ![](assets/set-up-points.png)
+
+*Punkte einrichten.*
 
 ## Aufgaben {#tasks}
 
@@ -103,7 +105,7 @@ Mögliche Szenarien für die Registrierung von Teilnehmern für Kurse zusätzlic
 
 Diese Aufgabe ist für Teilnehmer relevant, die eine bestimmte Anzahl von Kompetenzen erwerben sollen. Der Administrator kann diese Aufgabe wählen, um Teilnehmer dazu zu motivieren, so viele Kompetenzen wie möglich zu erlangen.
 
-Mögliche Szenarien der Kompetenzverbesserung:
+Mögliche Szenarien für Kompetenzverbesserung:
 
 1. Wenn der Teilnehmer eine Kompetenz erlangt, erhält er 100 Punkte.
 1. Wenn ein Teilnehmer zwei Kompetenzen erlangt, erhält er 300 Punkte.

@@ -4,10 +4,10 @@ title: Lernpläne
 description: Erstellen von Lernplänen für Administratoren in Learning Manager.
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: 6f23c53b14d2c787e1c6ecb4eea9a3dc06f8e584
+source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
 workflow-type: tm+mt
-source-wordcount: '1970'
-ht-degree: 42%
+source-wordcount: '1329'
+ht-degree: 37%
 
 ---
 
@@ -49,17 +49,27 @@ Im Dialogfeld &quot; **[!UICONTROL Lernpfad]** klicken Sie auf **[!UICONTROL Hin
 
 *Neuen Lernpfad hinzufügen*
 
+Im Dialogfeld &quot; **Registrierungstyp** wählen Sie **Selbstregistrierung** oder **Registrierung durch Administrator**.
+
+>[!NOTE]
+>
+>Wenn Sie die Option **Registrierung durch Administrator** können Teilnehmer nur Kurse sehen, die vom Manager nominiert oder vom Manager genehmigt wurden. Teilnehmer können den Lernpfad im Abschnitt &quot;Empfehlungen&quot; nicht sehen.
+
 Nachdem Sie den Lernplan erstellt haben, wählen Sie den neu erstellten Lernplan aus und fügen Sie die Kurse in dem Plan hinzu.
 
 Sie können Kenntnisse hinzufügen und dem Lernplan ein Abzeichen zuweisen. Um Kenntnisse hinzuzufügen, wählen Sie die erforderlichen Kenntnisse aus der Liste &quot; **[!UICONTROL Kenntnisse auswählen]** Dropdown-Liste. Wählen Sie auch die Ebene für die Kenntnis bzw. Kenntnisse aus.
 
 ![](assets/add-skills.png)
 
+*Kenntnisse hinzufügen*
+
 Weisen Sie dem Lernplan ein Abzeichen zu. Wählen Sie ein Abzeichen aus der Liste der verfügbaren Abzeichen aus.
 
 Wählen Sie die Produkt-, Rollen- und Rollenebene im Dialogfeld &quot; **[!UICONTROL Für]** , um den Benutzern, die Interesse an diesen Produkten und Rollen bekundet haben, diesen Lernpfad vorzuschlagen.
 
 ![](assets/recommend-for.png)
+
+*Empfehlung*
 
 Wählen Sie den Sequenzierungstyp für die Abschnitte und die Schulung &quot;Geordnet&quot; oder &quot;Ungeordnet&quot;.
 
@@ -141,6 +151,20 @@ Es gibt drei Optionen:
 
 Die Benachrichtigungserinnerungen werden basierend auf der Option ausgelöst. Standardmäßig ist die Option **[!UICONTROL Alle Stufen von Kursen und Lernpfaden]** für eine Instanz aktiviert ist.
 
+## Abonnements
+
+Sie können die einzelnen Lernpfade abonnieren, um umfassende Daten einschließlich Quizpunktzahlen und Teilnehmerstatus direkt in Ihrem Posteingang zu erhalten.
+
+Führen Sie die folgenden Schritte aus:
+
+1. Navigieren Sie zu einem beliebigen Lernpfad > Abonnements.
+1. Wählen Sie Weitere hinzufügen.
+1. Wählen Sie die Details aus und geben Sie die E-Mail-ID ein, die die Berichte erhalten soll.
+
+![](assets/subscriptions.png)
+
+*Abonnieren Sie einen individuellen Lernpfad*
+
 ## Wichtiger Hinweis
 
 Bitte beachten Sie, dass die vorhandene Funktion von Lernprogrammen unmittelbar nach der Veröffentlichung in Lernpfad umbenannt wird. Wenn Sie es weiterhin als Lernprogramme anrufen möchten, empfehlen wir Ihnen, die Funktion &quot;Terminologien&quot; zu verwenden, um die erforderliche Terminologie anzuwenden. Auf diese Weise können Sie weiterhin den Begriff „Lernprogramm“ verwenden.
@@ -151,76 +175,76 @@ Teilnehmer können weiterhin Lernprogramme (jetzt &quot;Lernpfade&quot; genannt)
 
 Die **[!UICONTROL Einstellungen]** > **[!UICONTROL Allgemein]** eine neue Option zum Aktivieren von Lernpfaden. Wenn diese Option aktiviert ist, können Sie Kurse und Lernprogramme in einem Lernplan hinzufügen. Sie können die Option nicht mehr ändern, nachdem sie aktiviert wurde.
 
-## Weitere Informationen zu Lernpfaden
+<!-- ## Other Learning Path-related details 
 
-### Option „Lernplan“ wird in den Admin-Einstellungen deaktiviert/deaktiviert
+### Learning Path option is disabled/unchecked in Admin Settings
 
-**Konten mit systemeigenen Web-Apps**
+**Accounts using Native Web apps**
 
-**Teilnehmer**
+**Learners**
 
-* Standardmäßig werden die Teilnehmer eine Änderung der Terminologie von &quot;Lernprogramm&quot; in &quot;Lernpfad&quot; bemerken. Dadurch wird die Benutzeroberfläche intuitiver. Wenn Sie diese Änderung nicht wünschen, lesen Sie die folgenden Punkte.
+* By default, learners will notice a change in terminology from "Learning Program" to Learning Path". This has been done to make the interface more intuitive. If you do not want this change, refer to the below points.  
 
-* Diese Änderung wird jedoch nicht in der Benutzeroberfläche widergespiegelt, wenn Sie bereits die Funktion &quot;Benutzerdefinierte Terminologie&quot; verwendet haben, um die Terminologie &quot;Lernprogramme&quot; durch einen benutzerdefinierten Text zu ersetzen.
-* Falls Sie die Funktion &quot;Benutzerdefinierte Terminologie&quot; noch nicht verwendet haben, jetzt aber &quot;Lernprogramme&quot; als Terminologie beibehalten möchten, können Sie dies über die Funktion &quot;Benutzerdefinierte Terminologie&quot; nach der Veröffentlichung tun.
+* This change however will not be reflected in the UI if you have already used the 'Custom Terminology" function to replace the terminology "Learning Programs" with some custom text. 
+* In case you had not used the Custom Terminology function yet but now wish to retain "Learning Programs" as the terminology, you can do so via the 'Custom Terminology' feature post the release.
 
-* Das gesamte kosmetische Erscheinungsbild einstiger &quot;Lernprogramme&quot; wird auf ein visuell reichhaltigeres Erscheinungsbild aktualisiert.
+* The overall cosmetic look and feel of erstwhile 'Learning Programs' will get updated to a more visually rich look and feel.
 
-**Autoren und Administratoren**
+**Authors and Admins**
 
-* Die Terminologie innerhalb der Admin-/Autor-Apps entspricht der der Teilnehmer.
-* Die Benutzeroberfläche für Autoren und Administratoren zum Erstellen und Aktualisieren der ehemaligen Lernobjekte wird jetzt auf die neue Benutzeroberfläche aktualisiert. Es gibt keinen Funktionsverlust, nur dass die Benutzeroberfläche für das Verfahren viel intuitiver sein wird. Diese Änderungen an der Benutzeroberfläche werden in Ihrem Konto widergespiegelt, auch wenn Sie sich entschieden haben, die erweiterten Funktionen des Lernpfads nicht zu aktivieren, ohne dass es zu Funktionseinbußen kommt.
+* The terminology within the Admin/Author apps is the same as that of learners.
+* The UI for Authors and Admins to create, update the erstwhile 'Learning Program' objects will now be updated to the new UI. There is no loss of functionality, just that the User Interface to do the operation will be much more intuitive. These UI changes will reflect in your account, even if you have chosen not to enable 'Extended Features of Learning Path', with no loss in functionality. 
 
-* Beachten Sie, dass sich vorhandene Lernprogrammobjekte nicht ändern, sodass keine Auswirkungen auf Teilnehmer (außer dem oben genannten Punkt im Zusammenhang mit der Terminologie) bestehen. Autoren/Administratoren stellen möglicherweise eine Standardgruppierung mit dem Namen &quot;Abschnitt&quot; in ihren vorhandenen Objekten fest, die keine wesentlichen Auswirkungen auf die Funktionalität hat. Autoren/Administratoren werden außerdem zusätzliche Funktionen wie Kenntnisse, Arbeitshilfen usw. vorfinden. Da Sie es jedoch noch nicht verwendet haben, wird es keine Auswirkungen auf die Teilnehmerseite haben, bis Sie tatsächlich mit der Verwendung beginnen.
+* Note that any existing Learning Program objects will not change so there is no impact on learners (other than the terminology point noted above). Authors/Admins might notice a default grouping called "Section" within their existing objects, which would be of no material impact as far as functionality goes. Authors/Admins will also see added functionalities like Skills, Job Aids etc. But as you haven't used it yet, it will not create any impact on the learner side till you actually start using it.
 
-**Berichte**
+**Reporting**
 
-* Wenn Sie die Option Lernpfad nicht aktivieren, enthält die Struktur des Teilnehmertranskriptberichts aufgrund des Lernpfads keine Änderungen. Wie jedoch in früheren Mitteilungen mitgeteilt (siehe Tabelle in früheren Mitteilungen), wird unmittelbar nach der Veröffentlichung eine neue Spalte rechts neben dem Teilnehmertranskript hinzugefügt.
+* If you do not enable the option, Learning Path , there are no changes in the Learner Transcript report structure due to Learning Path. But as communicated in earlier notice (refer to the table shared in earlier communication); one new column will get added to the extreme right of the Learner Transcript immediately after the release.
 
-**Kunden, die Headless LMS verwenden**
+**Accounts using Headless LMS**
 
-**Teilnehmer**
+**Learners**
 
-* Es gibt keine Änderungen für Teilnehmer in der Headless-Benutzeroberfläche. Auch APIs, die zum Generieren der Berichte verwendet werden, unterliegen keinen unmittelbaren Änderungen.
+* There are no changes for learners in headless interface. APIs as well that are used to generate the reports does not have immediate changes. 
 
-**Autoren und Administratoren**
+**Authors and Admins**
 
-* Die gleichen Änderungen wie oben für Autoren/Administratoren.
+* Same changes as that of Authors/Admins stated above.
 
-**Berichte**
+**Reporting**
 
-* Es gelten die gleichen Änderungen wie die oben genannten für Berichte.
+* Same changes as that of Reporting stated above.
 
-### Option „Lernpläne“ wird in den Admin-Einstellungen aktiviert/aktiviert
+### Learning Paths option is enabled/checked in Admin Settings
 
-**Konten mit systemeigenen Web-Apps**
+**Accounts using Native Web apps**
 
-**Teilnehmer**
+**Learners**
 
-* Es gelten die gleichen Änderungen wie für Teilnehmer, wenn die Option deaktiviert ist.
-* Wenn Sie mit der erweiterten Funktionalität von Lernpfaden beginnen, profitieren die Teilnehmer von aufwändigeren Pfaden mit eingebetteten Pfaden und Abschnitten, Kenntnissen und Abzeichen, die bei Pfadabschluss erworben werden, Ressourcen auf Pfadebene und anderen Vorteilen.
+* Same changes as that of Learners when the option is disabled.
+* As you start using the extended functionality of Learning Paths, Learners will benefit from seeing more elaborate paths with embedded paths and sections, Skills and badges being earned on path completion, resources at path level, and other benefits.
 
-**Autoren und Administratoren**
+**Authors and Admins**
 
-* Es gelten die gleichen Änderungen wie für Autoren und Administratoren, wenn die Option deaktiviert ist.
+* Same changes as that of Authors and Admins when the option is disabled.
 
-* Benutzer erhalten mehr Funktionalität bei der Erstellung ausgefeilter Pläne. Sie können Kenntnisstufen definieren, die automatisch von einem Teilnehmer nach Abschluss des Pfads erreicht werden (müssen sich nicht auf die Berechnung der Credits für die Stufen konzentrieren). Ressourcen können auf Planebene hinzugefügt werden (momentan noch nicht möglich). Abschnitte können erstellt werden, wobei für jeden Abschnitt die Möglichkeit besteht, über X von Y Optionen zu verfügen. Sie können einen Lernplan in einen anderen Lernplan einbetten (nur eine Ebene der Hierarchie wird unterstützt)
+* Users will get more functionality in crafting elaborate paths. You can define Skill-Levels that would automatically be achieved by a learner on completion of path (not have to focus on the arithmetic of Credits for the levels). Resources can be added at the path level (Not possible as of today). Sections can be created with each section having the ability to have X of Y options. One can embed a Learning Path within another Learning Path (one level of hierarchy supported)
 
-**Berichte**
+**Reporting**
 
-* Es werden einige neue Spalten zu den Strukturen &quot;Teilnehmertranskript&quot; und &quot;Inhaltsbericht&quot; hinzugefügt, um die neue Funktion zum Einbetten von Pfaden in Pfade zu integrieren. Dies kann sich auf den Integrationscode auswirken, den Sie möglicherweise geschrieben haben, um diese Daten in Ihre benutzerdefinierte Datenbank/DB außerhalb von Learning Manager zu exportieren. Diese Informationen werden in der Tabelle in einer früheren Mitteilung übermittelt.
+* A few new columns will get added to the 'Learner Transcript' and 'Content Report' structures to incorporate the new feature of embedding of paths within paths. This may impact integration code that you may have written to export this data to your custom data warehouse/DB outside Learning Manager. This information is communicated in the table provided in earlier communication.
 
-**Kunden, die Headless LMS verwenden**
+**Accounts using Headless LMS**
 
-**Teilnehmer**
+**Learners**
 
-* Es gibt keine Änderung für die Teilnehmer, es sei denn, Sie nehmen Änderungen an Ihrer Headless-LMS-Implementierung vor, da sich die APIs, auf denen Sie Ihre Headless-Schnittstelle erstellt haben, nicht ändern.
-* Wenn Sie die erweiterten Funktionen von „Lernplänen“ verwenden, indem Sie neue Lernpläne erstellen, müssen Sie jedoch Änderungen an der Headless-LMS-Implementierung vornehmen, um die Funktionen in Ihre Teilnehmer-App zu übernehmen. Die Learning Manager-APIs ermöglichen Ihnen dies.
+* There is no change for your learners, unless you make changes to your headless LMS implementation, as the APIs on which you have built your headless interface will not be changing.
+* If you do start using the extended features of Learning Paths by creating new Learning Paths, however you will have to make changes to the headless LMS implementation to reflect those on your learner app. The Learning Manager APIs will allow you to do that.
 
-**Autoren und Administratoren**
+**Authors and Admins**
 
-* Die gleichen Änderungen wie oben für Autoren/Administratoren.
+* Same changes as that of Authors/Admins stated above.
 
-**Berichte**
+**Reporting**
 
-* Es gelten die gleichen Änderungen wie die oben genannten für Berichte.
+* Same changes as that of Reporting stated above. -->

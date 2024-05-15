@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Zertifizierungen
 contentowner: manochan
 exl-id: 406d1c33-aac3-47e1-9b32-83874976ce54
-source-git-commit: 6f23c53b14d2c787e1c6ecb4eea9a3dc06f8e584
+source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1024'
 ht-degree: 68%
 
 ---
@@ -106,6 +106,8 @@ Wählen Sie die Produkt-, Rollen- und Rollenebene im Dialogfeld &quot; **[!UICON
 
 ![](assets/recommend-for.png)
 
+*Empfehlung*
+
 Wählen Sie die Kurse aus, die der Zertifizierung hinzugefügt werden sollen **[!UICONTROL Kurse]** > **[!UICONTROL Katalog]** &quot; ändern.
 
 Bewegen Sie die Maus über jede Kurskachel und klicken Sie auf &quot;+&quot;, um sie zur Zertifizierung hinzuzufügen. Klicken **[!UICONTROL Vorschau]** , um den Kurs als Teilnehmer anzuzeigen, bevor Sie ihn hinzufügen.
@@ -170,6 +172,8 @@ Um eine veröffentlichte Zertifizierung zu bearbeiten, klicken Sie auf die Zerti
 Wenn die Seite beim Bearbeiten der Abschnitte einer Zertifizierung verlassen müssen, müssen Sie die Zertifizierung erneut veröffentlichen. Es wird ein Dialogfeld für die Bestätigung zur erneuten Veröffentlichung der Zertifizierung angezeigt.
 
 ![](assets/edit-a-certificate.png)
+
+*Bearbeiten eines Zertifikats*
 
 ## Abonnement {#subscription}
 

@@ -2,14 +2,13 @@
 jcr-language: en_us
 title: Ankündigungen
 description: Eine Ankündigung ist eine Multimedia-Nachricht (Text, Bild oder Video), die ein Administrator an eine definierte Gruppe von Benutzern übermittelt.
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: 313ac2c6-05c0-4941-8d71-9c664099bb5c
+source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
 workflow-type: tm+mt
-source-wordcount: '1018'
-ht-degree: 70%
+source-wordcount: '1021'
+ht-degree: 69%
 
 ---
-
-
 
 # Ankündigungen
 
@@ -29,6 +28,11 @@ Es gibt vier Arten von Ankündigungen:
 1. Klicken Sie als Administrator im linken Bereich auf &quot;Ankündigungen&quot;.
 1. Klicken Sie in der rechten oberen Ecke der Seite auf „Hinzufügen“.
 1. Wählen Sie in der Dropdown-Liste „Typ“ die Option **Als Benachrichtigung**.
+
+![](assets/as-notofocation.png)
+
+*Benachrichtigung anpassen*
+
 1. Fügen Sie im Feld „Meldung“ den Text für die Ankündigung ein. Hier können Sie auch eine Ankündigungs-URL hinzufügen. Die URL müssen Sie jedoch in der HTML-Form hinzufügen,
 
    Beispiel:  `code <a href="http://www.w3schools.com" target="_blank">Visit W3Schools</a>.`

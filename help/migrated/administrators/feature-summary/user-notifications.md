@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Benachrichtigungen
 description: Die Benachrichtigungsfunktion gilt für alle Benutzer von Adobe Learning Manager. Jeder Benutzer erhält jedoch basierend auf seiner Rolle in verschiedenen Szenarien unterschiedliche Arten von Benachrichtigungen.
 contentowner: manochan
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+exl-id: 27eb3830-ff4f-44e6-9f63-096d9444378e
+source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
 workflow-type: tm+mt
-source-wordcount: '703'
-ht-degree: 69%
+source-wordcount: '733'
+ht-degree: 66%
 
 ---
-
-
 
 # Benachrichtigungen
 
@@ -42,7 +41,11 @@ Die folgende Abbildung zeigt das Beispiel eines Benachrichtigungsfensters für d
 
 In diesem Popupfenster werden Markierungen aller Benachrichtigungen zusammen mit dem Zeitpunkt des Auftretens und einer Bildlaufleiste angezeigt. Die Anzahl der neuen Benachrichtigungen wird durch die markierte Zahl oben am Benachrichtigungssymbol angezeigt. Wenn beispielsweise seit Ihrer letzten Anmeldung fünf Benachrichtigungen neu eingegangen sind, wird über dem Benachrichtigungssymbol die Zahl 5 angezeigt. Wenn Sie die neuesten Benachrichtigungen gelesen haben, wird diese Zahl ausgeblendet.
 
-Klicken **[!UICONTROL Alle Benachrichtigungen anzeigen]** am unteren Rand des Benachrichtigungs-Popup-Fensters, um alle Benachrichtigungen auf einer separaten Seite anzuzeigen.
+Klicken **[!UICONTROL Alle Benachrichtigungen anzeigen]** am unteren Rand des Benachrichtigungs-Popup-Fensters, um alle Benachrichtigungen auf einer separaten Seite anzuzeigen. Auf der Benachrichtigungsseite sehen Sie Folgendes:
+
+* **Alle Benachrichtigungen**: Alle Benachrichtigungen hier anzeigen
+* **Ausstehend**: Ausstehende Benachrichtigungen hier anzeigen
+* **Diskussion**: Suchen Sie nach Kursen, um zu sehen, welche Diskussionen stattfinden.
 
 ## Richten Sie mehrstufige Eskalationsbenachrichtigungen ein {#setupmultilevelescalationnotifications}
 

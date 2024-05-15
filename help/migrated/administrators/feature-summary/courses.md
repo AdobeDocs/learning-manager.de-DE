@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Erstellen von Kursmodulen, Instanzen und Lernprogrammen
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: d13c8ffc2168d51cc6961ad8d502de36955024b7
+source-git-commit: dee0b611b2c3bae05bfabfb7a6df82b8bcb81b6c
 workflow-type: tm+mt
-source-wordcount: '4613'
-ht-degree: 65%
+source-wordcount: '4659'
+ht-degree: 64%
 
 ---
 
@@ -96,6 +96,18 @@ Führen Sie die folgenden Schritte aus, um eine eingestellte Instanz in einen ak
    *Instanz wiederherstellen*
 
 1. Die Instanz wird nun in einen aktiven Modus wiederhergestellt.
+
+## Instanz löschen
+
+Administratoren können die Instanz mit **Instanz löschen** direkt nach der Erstellung auswählen. Sie können keine Instanzen löschen, wenn eine Sitzung damit verknüpft ist oder wenn sich Teilnehmer dafür registriert haben.
+
+![](assets/delete-this-instance.png)
+
+*Instanz löschen*
+
+>[!NOTE]
+>
+>Sie können die Standardinstanz nicht löschen.
 
 ## E-Mails auf Instanzebene senden
 
