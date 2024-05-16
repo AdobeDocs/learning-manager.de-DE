@@ -2,7 +2,7 @@
 title: Neue Funktionen in dieser Version
 description: Erfahren Sie mehr über die neuen Funktionen und Verbesserungen in der Version November 2023 von Adobe Learning Manager.
 exl-id: d670dc47-d57f-464a-bee8-064cc16e59f9
-source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
+source-git-commit: 2d74bc46e8b4aa5f443e34dc48929a807c1d8924
 workflow-type: tm+mt
 source-wordcount: '2373'
 ht-degree: 70%
@@ -13,7 +13,7 @@ ht-degree: 70%
 
 ## Überarbeitete Benutzeroberfläche
 
-Die Benutzeroberfläche des Adobe Learning Manager wurde einigen Aktualisierungen unterzogen, um ein saubereres und moderneres Erlebnis zu bieten. Die Landingpages für die Rollen “Administrator(in)“ und “Autor(in)“ wurden überarbeitet und die Designs der Benutzeroberfläche für alle Rollen aktualisiert. Es wurden jedoch keine Änderungen an der Position von Menüs, Schaltflächen oder Links vorgenommen, und Sie können diese genau dort finden, wo sie sich zuvor befunden haben.
+Die Adobe Learning Manager-Benutzeroberfläche wurde einigen Aktualisierungen unterzogen, um ein saubereres und moderneres Erlebnis zu bieten. Die Landingpages für die Rollen “Administrator(in)“ und “Autor(in)“ wurden überarbeitet und die Designs der Benutzeroberfläche für alle Rollen aktualisiert. Es wurden jedoch keine Änderungen an der Position von Menüs, Schaltflächen oder Links vorgenommen, und Sie können diese genau dort finden, wo sie sich zuvor befunden haben.
 
 Die Designaktualisierungen gelten automatisch für Konten, die das Standarddesign verwenden. Die Aktualisierungen des Designs der Benutzeroberfläche wirken sich nicht auf Konten aus, die Änderungen zur Verwendung eines benutzerdefinierten Designs vorgenommen haben. Solche Konten müssen zurück zum Standarddesign wechseln, um die neuen Designaktualisierungen zu erhalten.
 
@@ -66,7 +66,7 @@ In dieser Version haben wir eine Dropdown-Liste im Dialogfeld Bericht zu Arbeits
 
 ### Änderungen am Bericht zur Ankündigung von Benachrichtigungen
 
-In früheren Versionen des Adobe-Lernmanagers verfügte der Bericht &quot;Benachrichtigungsankündigung&quot; nicht über Filter. Adobe Learning Manager hat alle Benachrichtigungen im Konto heruntergeladen.
+In früheren Versionen von Adobe Learning Manager verfügte der Bericht zur Benachrichtigungsankündigung über keine Filter. Adobe Learning Manager hat alle Benachrichtigungen im Konto heruntergeladen.
 
 In dieser Version haben wir einen Datumsfilter hinzugefügt, mit dem Sie Benachrichtigungen innerhalb eines bestimmten Zeitraums herunterladen können.  Sie können den Bericht jedoch nur für die letzten sechs Monate herunterladen.
 
@@ -84,7 +84,7 @@ In früheren Versionen von Adobe Learning Manager enthielt das Teilnehmertranskr
 
 Der Anwesenheitsbericht auf der Anwesenheitsseite von Kursen in der Admin-App und auf der Seite „Teilnehmer der Sitzung“ der Kursleiter-App wurde synchron heruntergeladen. In dieser Version wird dieser Bericht asynchron über eine Benachrichtigung heruntergeladen.
 
-Weitere Informationen zu Berichten finden Sie unter [Berichte](/help/migrated/administrators/feature-summary/reports.md) im Adobe-Lernmanager.
+Weitere Informationen zu Berichten finden Sie unter [Berichte](/help/migrated/administrators/feature-summary/reports.md) in Adobe Learning Manager.
 
 ## Außerbetriebnahme des Inhalts-Marketplace
 
@@ -273,7 +273,7 @@ In Zukunft wird die folgende Teilnehmer-API nicht mehr funktionieren, da sie das
 
 ### Hervorheben von Ergebnissen
 
-In der kommenden Version von Adobe Learning Manager, beispielsweise in der API &quot;/search&quot;, ändern wir den Standardwert für highlightResults in &quot;false&quot;.
+In der kommenden Version von Adobe Learning Manager beispielsweise in der API &quot;/search&quot; ändern wir den Standardwert für highlightResults in &quot;false&quot;.
 
 Außerdem ändern wir die Standardeinstellung von &quot;snippetTypes&quot; in &quot;courseName&quot;. Dadurch werden die Kursnamen in der Suche nur hervorgehoben, wenn highlightResults auf True festgelegt ist.
 
@@ -324,3 +324,5 @@ Weitere Informationen zu aktuellen und früheren Versionen der Learning Manager-
 * [Version Juli 2023](whats-new-2023-july.md)
 * [Version April 2023](whats-new-2023-april.md)
 * [Version November 2022](whats-new-2022-november.md)
+
+<!-- [ALM Whitepaper](assets/alm-security-whitepaper.pdf) -->
