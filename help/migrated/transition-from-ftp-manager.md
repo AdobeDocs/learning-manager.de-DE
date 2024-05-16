@@ -1,13 +1,13 @@
 ---
 title: Übergang vom Adobe FTP Manager
-description: Adobe Learning Manager unterstützt einen neuen Connector mit dem SFTP-Protokoll der AWS Transfer-Familie. Sie können jeden Open-Source-FTP-Client durch Adobe FTP Manager ersetzen.
-source-git-commit: aa8030e7e1d0ad72b76fb48a34e7b15ddf178a0b
+description: Adobe Learning Manager unterstützt einen neuen Connector, der das SFTP-Protokoll der AWS Transfer-Familie verwendet. Sie können jeden Open-Source-FTP-Client durch Adobe FTP Manager ersetzen.
+exl-id: c5674e61-9e3d-45e5-9f3c-e0aa15ec2dac
+source-git-commit: 521b71f87545c513f844b6e216fa3ffc1fac95a0
 workflow-type: tm+mt
 source-wordcount: '1041'
 ht-degree: 68%
 
 ---
-
 
 # Übergang vom Adobe FTP Manager
 
@@ -172,3 +172,5 @@ Wenn eine Migration ausgeführt wird, schließen Sie den aktuellen Sprint, der E
 
 * Die Kurs-ID-Zuordnung erfolgt im aktuellen Projekt für Kurse, die von externen älteren Systemen zu Adobe Learning Manager migriert werden. Dies ist nur möglich, wenn Sie dieselben Kurse in demselben Projekt aktualisieren möchten. Nachdem Sie das Projekt geschlossen haben, können Sie die zugehörigen Details nicht mehr ändern.
 * Für API-basierte Migrationsprojekte, bei denen Sie ein Projekt nicht schließen dürfen.
+
+<!--[ALM Whitepaper](assets/alm-security-whitepaper.pdf) -->

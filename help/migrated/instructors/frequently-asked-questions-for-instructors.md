@@ -3,14 +3,13 @@ description: Lesen Sie die häufig gestellten Fragen für Kursleiter in Learning
 jcr-language: en_us
 title: Häufig gestellte Fragen für Kursleiter
 contentowner: shhivkum
-source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
+exl-id: 1120516c-461a-498d-a5ae-cacc1e87e081
+source-git-commit: fe51f56d0528b469ea13f3fb780886d6dd6f2e3d
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 85%
 
 ---
-
-
 
 # Häufig gestellte Fragen für Kursleiter
 
@@ -49,4 +48,3 @@ Ja, ein Autor kann einem Modul mehrere Kursleiter zuweisen. In diesem Fall kann 
 Als Kursleiter können Sie nur die Details von denjenigen Sitzungen anzeigen und bearbeiten, denen Sie zugewiesen wurden. Sitzungen oder Teilnehmerlisten anderer Sitzungen können Sie nicht ändern.
 
 +++
-
