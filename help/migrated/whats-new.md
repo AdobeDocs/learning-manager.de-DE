@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Zusammenfassung der neuen Funktionen
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: e21eb23c9b99ef5737ca105edede0eea7186ed02
+source-git-commit: 90ebde8049357a4798aa9b23edfa57b8667d6232
 workflow-type: tm+mt
-source-wordcount: '3861'
+source-wordcount: '3903'
 ht-degree: 1%
 
 ---
@@ -14,6 +14,18 @@ ht-degree: 1%
 # Zusammenfassung der neuen Funktionen {#new-features-summary}
 
 Erfahren Sie mehr über die neuen Funktionen und Verbesserungen in der Version März 2024 von Adobe Learning Manager.
+
+Entdecken Sie einige der neuesten Funktionen von Adobe Learning Manager, darunter:
+
+1. Kenntnisse aus externen Quellen importieren
+1. Unterstützung mehrerer Brandings
+1. Checklisten-Neuauswertungs-Aktivitätsmodul
+1. Mobile Lern-App mit weißem Etikett
+
+>[!NOTE]
+>
+>Zum Beispiel: [Webinar](https://learningmanager.adobe.com/app/learner?accountId=98632#/course/9212121) , um mehr über die neuen Funktionen in dieser Version zu erfahren.
+
 
 ## Neue Funktionen in dieser Version {#whatsnewandchanged}
 
@@ -88,7 +100,7 @@ Wenn die Anzahl der Benutzer in der Benutzergruppe weniger als 10.000 beträgt, 
 
 Wenn in den aktuellen Versionen von Adobe Learning Manager eine große Anzahl von Benutzern für eine Zertifizierung registriert ist, können Sie die nicht registrierten Teilnehmer nicht anzeigen, seit der **Status** &quot; deaktiviert ist.
 
-In dieser Version des Adobe-Lernmanagers wird bei einer großen Anzahl von registrierten Benutzern das Dialogfeld &quot; **Status** Dropdown zeigt nur zwei Optionen an: **Registriert** und **Nicht registriert**. Die Option **Registriert** ist standardmäßig ausgewählt. Wenn Sie **Nicht registriert** wird die Liste der nicht registrierten Teilnehmer angezeigt.
+Wenn die Anzahl der registrierten Benutzer in dieser Version von Adobe Learning Manager groß ist, wird das Dialogfeld &quot; **Status** Dropdown zeigt nur zwei Optionen an: **Registriert** und **Nicht registriert**. Die Option **Registriert** ist standardmäßig ausgewählt. Wenn Sie **Nicht registriert** wird die Liste der nicht registrierten Teilnehmer angezeigt.
 
 #### Änderungen an Benutzergruppen
 

@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Anpassen der Teilnehmer-Startseite
 description: Ein Administrator kann die Startseite des Teilnehmers anpassen und sie moderner, inhaltsorientierter und für einen Teilnehmer personalisiert gestalten.
 contentowner: saghosh
-source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
+exl-id: 1551d240-fa07-4b7b-a06e-61b2bd3bff74
+source-git-commit: 90ebde8049357a4798aa9b23edfa57b8667d6232
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1157'
 ht-degree: 46%
 
 ---
-
-
 
 # Anpassen der Teilnehmer-Startseite
 
@@ -85,7 +84,7 @@ Diese Option wird aktiviert und ausgegraut, wenn die immersive Benutzeroberfläc
 
 ![](assets/option-immersive.png)
 
-*Auswahl für klassische Benutzeroberfläche*
+*Einstellungen für die Teilnehmer-Startseite*
 
 Das immersive Layout ist die Standardeinstellung für alle neuen Konten. Das Layout wird durch Widgets gesteuert, die ein Administrator aktivieren oder deaktivieren kann. Die Positionierung der Widgets wird auf der Teilnehmer-Startseite widergespiegelt.
 
@@ -244,7 +243,7 @@ Im Fenster &quot; **Allgemein** &quot; haben Sie die folgenden Optionen:
    <td>
     <p>Anpassen</p></td>
    <td>
-    <p>Mit dem Adobe Learning Manager können Sie Ihr Konto anpassen, um Ihren Benutzern ein besseres Lernerlebnis zu bieten.<br></p></td>
+    <p>Mit Adobe Learning Manager können Sie Ihr Konto anpassen, um Ihren Benutzern ein besseres Lernerlebnis zu bieten.<br></p></td>
   </tr>
   <tr>
    <td>

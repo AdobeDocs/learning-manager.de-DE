@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Erstellen von Kursmodulen, Instanzen und Lernprogrammen
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: dee0b611b2c3bae05bfabfb7a6df82b8bcb81b6c
+source-git-commit: 90ebde8049357a4798aa9b23edfa57b8667d6232
 workflow-type: tm+mt
-source-wordcount: '4659'
-ht-degree: 64%
+source-wordcount: '4746'
+ht-degree: 63%
 
 ---
 
@@ -206,6 +206,14 @@ Zum Senden der E-Mail-Benachrichtigungen muss ein Administrator explizit die Esk
 ![](assets/escalation-notification.png)
 
 *Eskalationsstufe festlegen*
+
+## Warteliste
+
+Im Abschnitt &quot;Warteliste&quot; können Teilnehmer auf die Warteliste für Klassenzimmerkurse gesetzt werden, wenn die Lizenzen begrenzt sind, basierend auf ihrer Reihenfolge der Registrierung. Administratoren können dies verwalten, indem sie Teilnehmer auf der Warteliste auswählen und Lizenzen zuweisen, die über das ursprüngliche Limit hinausgehen. Sobald der Administrator eine Lizenz zugewiesen hat, wird der Teilnehmer sofort für den Kurs registriert.
+
+## Diskussions-Dashboard
+
+Mit der Diskussions-Dashboard-Funktion können Teilnehmer die Kursdiskussionen anzeigen. Als Administrator haben Sie die Möglichkeit, Kommentare nach Bedarf zu löschen. Administratoren können diese Option in den Kurseinstellungen aktivieren.
 
 ## Kursmoderation {#coursemoderation}
 
