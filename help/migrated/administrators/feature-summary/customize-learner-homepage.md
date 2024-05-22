@@ -4,9 +4,9 @@ title: Anpassen der Teilnehmer-Startseite
 description: Ein Administrator kann die Startseite des Teilnehmers anpassen und sie moderner, inhaltsorientierter und für einen Teilnehmer personalisiert gestalten.
 contentowner: saghosh
 exl-id: 1551d240-fa07-4b7b-a06e-61b2bd3bff74
-source-git-commit: 90ebde8049357a4798aa9b23edfa57b8667d6232
+source-git-commit: f09c93374673a3da92199d5bbc858f934d6cbba2
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1139'
 ht-degree: 46%
 
 ---
@@ -137,6 +137,12 @@ Bei vorhandenen Konten kann die Option **Immersiv** wird **AUS**. Es wird für e
   </tr>
   <tr>
    <td>
+    <p>Registrierungen mit Frist</p></td>
+   <td>
+    <p>Zeigt Anmeldungen an, die überfällig sind, anstehende Fristen haben oder planmäßig verlaufen. </p></td>
+  </tr>
+  <tr>
+   <td>
     <p>Gamification</p></td>
    <td>
     <p>Zeigt das Leaderboard auf Lernaktivitäten basierend an.</p></td>
@@ -159,24 +165,24 @@ Bei vorhandenen Konten kann die Option **Immersiv** wird **AUS**. Es wird für e
       <p>Zweitens kann der Administrator auch entscheiden, ob die Empfehlungen sofort oder zu einem bestimmten Zeitpunkt eintreffen.</p></li>
     </ul></td>
   </tr>
-  <tr>
+  <!--<tr>
    <td>
-    <p>Auf dem Interessensbereich basierende Empfehlung</p></td>
+    <p>Recommendation based on area of interest</p></td>
    <td>
-    <p>Zeigt Lernobjekte basierend auf dem ausgewählten Interessensbereich des Teilnehmers an. Die Empfehlung basiert auf einem Machine Learning-Algorithmus.</p></td>
-  </tr>
+    <p>Displays Learning Objects based on the learner's chosen area of interest. The recommendation is driven by a Machine Learning algorithm.</p></td>
+  </tr>-->
   <tr>
    <td>
     <p>Nach Katalog durchsuchen<br></p></td>
    <td>
     <p>Zeigt Kataloge als Kacheln auf der Startseite an. </p></td>
   </tr>
-  <tr>
+  <!--<tr>
    <td>
-    <p>Empfehlung auf der Grundlage von Peer-Aktivitäten<br></p></td>
+    <p>Recommendation based on peer activity<br></p></td>
    <td>
-    <p>Zeigt Schulungen basierend auf den Aktivitäten der Kollegen eines Teilnehmers an. Dies wird wiederum von einem Machine Learning-Algorithmus gesteuert.</p></td>
-  </tr>
+    <p>Displays training based on what a learner's peers are taking. This is again driven by a Machine Learning algorithm.</p></td>
+  </tr>-->
  </tbody>
 </table>
 
@@ -277,3 +283,8 @@ Im Fenster &quot; **Allgemein** &quot; haben Sie die folgenden Optionen:
   </tr>
  </tbody>
 </table>
+
+>[!NOTE]
+>
+>Für das neue Konto sind die Einstellungen Teilnehmer-Startseite, Schulungstyp und Empfehlungsumfang nicht sichtbar.
+
