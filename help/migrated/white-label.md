@@ -1,19 +1,19 @@
 ---
 jcr-language: en_us
 title: White Labels in der mobilen Adobe Learning Manager-App
-description: White Labels sind eine Praxis, bei der Sie eine App oder einen Service mit Ihrem eigenen Branding umbenennen und so anpassen, als wären Sie der ursprüngliche Ersteller. Im Adobe-Lernmanager können Sie eine weiße Beschriftung auf die mobile App anwenden, sodass Sie die App mit einem neuen Branding versehen und den Benutzern die App unter Ihrem eigenen Branding zur Verfügung stellen können.
+description: White Labels sind eine Praxis, bei der Sie eine App oder einen Service mit Ihrem eigenen Branding umbenennen und so anpassen, als wären Sie der ursprüngliche Ersteller. In Adobe Learning Manager kannst du die Mobile App mit einer weißen Beschriftung versehen, sodass du ein Rebranding der App vornehmen und die App deinen Benutzern unter deinem eigenen Branding zur Verfügung stellen kannst.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 3af4224f82f14342a298ce39088be874a2372817
+source-git-commit: 73d908674e6c32dafa4f9502634c42ec73fc3b6c
 workflow-type: tm+mt
-source-wordcount: '1177'
+source-wordcount: '1205'
 ht-degree: 0%
 
 ---
 
 # White Labels in der mobilen Adobe Learning Manager-App
 
-Die mobile Adobe Learning Manager-App unterstützt jetzt die Beschriftung auf weißem Hintergrund, d. h., Sie können die App jetzt unter Ihrem eigenen Branding veröffentlichen.
+Die mobile Adobe Learning Manager-App unterstützt jetzt die weiße Beschriftung, d. h., Sie können die App jetzt unter Ihrem eigenen Branding veröffentlichen.
 
 ## Wie Sie mit der Vorbereitung auf den Start Ihrer App mit weißem Etikett beginnen sollten
 
@@ -29,7 +29,7 @@ Führen Sie die folgenden Schritte aus, um Ihre eigene App mit weißem Etikett b
 
 ## Übersicht
 
-White Labels sind eine Praxis, bei der Sie eine App oder einen Service mit Ihrem eigenen Branding umbenennen und so anpassen, als wären Sie der ursprüngliche Ersteller. Im Adobe-Lernmanager können Sie eine weiße Beschriftung auf die mobile App anwenden, sodass Sie die App mit einem neuen Branding versehen und den Benutzern die App unter Ihrem eigenen Branding zur Verfügung stellen können.
+White Labels sind eine Praxis, bei der Sie eine App oder einen Service mit Ihrem eigenen Branding umbenennen und so anpassen, als wären Sie der ursprüngliche Ersteller. In Adobe Learning Manager kannst du die Mobile App mit einer weißen Beschriftung versehen, sodass du ein Rebranding der App vornehmen und die App deinen Benutzern unter deinem eigenen Branding zur Verfügung stellen kannst.
 
 ## Was kann angepasst werden
 
@@ -121,7 +121,7 @@ Folgende Elemente können angepasst werden:
 
   <td>
 
-  <p>Das App-Symbol als png. Dieses Symbol wird in Ihrer App angezeigt. Das zu benennende Format ist account-id_appIcon.png.</p></td>
+  <p>Das App-Symbol als png. Dieses Symbol wird in Ihrer App angezeigt. Das zu benennende Format ist account-id_appIcon.png. Die Abmessungen des App-Symbols sind 512 × 512 Pixel.</p></td>
 
   </tr>
 
@@ -133,7 +133,7 @@ Folgende Elemente können angepasst werden:
 
   <td>
 
-  <p>Geben Sie für den Begrüßungsbildschirm Ihrer App ein Bild (png) an, das angezeigt wird, wenn die Benutzer die App starten. Das zu benennende Format ist account-id_splashIcon.png.</p></td>
+  <p>Geben Sie für den Begrüßungsbildschirm Ihrer App ein Bild (png) an, das angezeigt wird, wenn die Benutzer die App starten. Das zu benennende Format ist account-id_splashIcon.png. Die Abmessungen der quadratischen Splashscreens betragen 1052 × 1052 Pixel und der kreisförmigen Splashscreens 768 x 768 Pixel.</p></td>
 
   </tr>
 
@@ -284,7 +284,7 @@ Verwenden Sie dasselbe Projekt, das Sie in den Schritten oben erstellt haben, f�
 
 >[!IMPORTANT]
 >
->Senden Sie die Dateien an das Adobe Learning Manager CSAM-Team, um sie in den Build Ihrer App-Binärdatei aufzunehmen.
+>Senden Sie die Dateien an das Adobe Learning Manager CSAM-Team, damit sie in den Build der Binärdatei Ihrer App aufgenommen werden.
 
 
 ## Signierte Binärdateien generieren
