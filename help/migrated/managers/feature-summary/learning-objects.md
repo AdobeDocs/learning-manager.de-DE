@@ -2,26 +2,30 @@
 description: Dieses Dokument enthält Informationen zu Lernobjekten für Manager.
 jcr-language: en_us
 title: Lernobjekte
-source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
+exl-id: b633751c-9e88-4ffe-8055-b3d6bc63c422
+source-git-commit: 6862dc1958a34a369f0e0e7218f28151a47beb3b
 workflow-type: tm+mt
-source-wordcount: '1698'
-ht-degree: 72%
+source-wordcount: '1725'
+ht-degree: 60%
 
 ---
-
-
 
 # Lernobjekte
 
 Dieses Dokument enthält Informationen zu Lernobjekten für Manager.
 
-Ein Manager kann die ihm unterstellten Teilnehmer für Kurse, Lernprogramme und Zertifizierungen registrieren. Weitere Informationen und Anweisungen zu den Schritten für die Registrierung finden Sie unter [Registrieren von Teilnehmern](../../administrators/feature-summary/courses.md#main-pars_header_1058138132).
+Ein Manager kann die ihm unterstellten Teilnehmer für Kurse, Lernpfade und Zertifizierungen registrieren. Weitere Informationen und Anweisungen zu den Schritten für die Registrierung finden Sie unter [Registrieren von Teilnehmern](../../administrators/feature-summary/courses.md#main-pars_header_1058138132).
 
 ## Kurse {#courses}
 
 ## Anzeigen von Kursen {#viewingcourses}
 
 Als Manager können Sie eine Liste aller verfügbaren Kurse anzeigen. Klicken **[!UICONTROL Kurse]** im linken Teilfenster, um die Liste der Kurse mit Such- und Filteroptionen anzuzeigen. In den Kursminiaturansichten können Sie darüber hinaus die Effektivität der einzelnen Kurse als Prozentwert anzeigen. Beachten Sie, dass Sie Teammitglieder nur zu Kursen anmelden können, die für Sie unter der Lernanwendung sichtbar sind.
+
+![](assets/view-course.png)
+
+*Kurse anzeigen*
+
 
 >[!NOTE]
 >
@@ -46,6 +50,10 @@ Als Manager können Sie die Teilnehmerliste für Ihre Teammitglieder verwalten.
 ![](assets/courses-learners.png)
 
 *Teilnehmeraktion auswählen*
+
+>[!NOTE]
+>
+>**Ausstehende Genehmigungen exportieren** können Sie in der Teilnehmer-App ausführen.
 
 Sie können die folgenden Aktionen auf der Seite „Teilnehmer“ durchführen:
 
@@ -98,20 +106,30 @@ Im Beispiel dieser Abbildung hat 1 von 1 Benutzer alle drei Feedbacks erhalten
 
 Wie aus dem obigen Kreisdiagramm hervorgeht, wird das L3-Feedback des Managers am höchsten gewichtet.
 
-## Kurse, Lernprogramme und Zertifizierungen durchsuchen {#searchingcourseslearningprogramsandcertifications}
+## Kurse, Lernpfade und Zertifizierungen suchen {#searchingcourseslearningprogramsandcertifications}
 
-Mit Adobe Learning Manager fällt es Ihnen leichter, schnell Kurse/Lernprogramme Ihrer Wahl zu finden. Für die Suche nach Kursen haben Sie zwei Möglichkeiten:
+Adobe Learning Manager erleichtert Ihnen das schnelle Auffinden der Kurse/Lernpfade Ihrer Wahl. Für die Suche nach Kursen haben Sie zwei Möglichkeiten:
 
-1. Über das Suchfeld. Klicken Sie auf das Suchsymbol in der rechten oberen Ecke. Ein Suchfeld erscheint. Geben Sie den Kursnamen oder beliebige zu Ihren Kursen passende Schlüsselwörter ein, um nach Ihren Kursen/Lernprogrammen zu suchen. Sie können auch mit vordefinierten Tags wie Captivate, C, Java und HTML suchen. Nach Tags können Sie im Suchfeld suchen, was bedeutet, dass die Tags im Suchfeld angezeigt werden, während Sie tippen. Die Suche kann kann auch mit einer eindeutigen ID ausgeführt werden.
-1. Indem Sie die Liste der Kurse bzw. Lernprogramme oder Zertifizierungen mit den angebotenen Filtern filtern. Sie können die Kurse nach Status filtern, z. B. Alle, Veröffentlicht und Eingestellt.
+1. Über das Suchfeld. Klicken Sie auf das Suchsymbol in der rechten oberen Ecke. Ein Suchfeld erscheint. Geben Sie den Kursnamen oder zu Ihren Kursen passende Schlüsselwörter ein, um Ihre Kurse/Lernpfade zu finden. Sie können auch mit vordefinierten Tags wie Captivate, C, Java und HTML suchen. Nach Tags können Sie im Suchfeld suchen, was bedeutet, dass die Tags im Suchfeld angezeigt werden, während Sie tippen. Die Suche kann kann auch mit einer eindeutigen ID ausgeführt werden.
+1. Filtern Sie die Liste der Kurse/Lernpfade/Zertifizierungen mithilfe der Filter. Sie können die Kurse nach Status filtern, z. B. Alle, Veröffentlicht und Eingestellt.
 
-Sie können basierend auf Kompetenzen suchen, indem Sie die Kompetenzen anklicken und auswählen. Als Manager können Sie die Kurse auf vier Arten sortieren, um den gewünschten Kurs besser zu finden. Klicken Sie auf „Sortieren nach“ und wählen Sie alphabetisch aufsteigende bzw. absteigende Reihenfolge, „Datum der Kursaktualisierung“ oder „Kurseffektivität“:
+Sie können nach Kompetenzen suchen, indem Sie **Kompetenzen** und die gewünschten Bilder auswählen. Als Manager können Sie die Kurse auf vier Arten sortieren, um den gewünschten Kurs besser zu finden. Klicken Sie auf Sortieren nach und wählen Sie alphabetisch aufsteigende Reihenfolge, alphabetisch absteigende Reihenfolge, Datum der Kursaktualisierung, Erstellungsdatum des Kurses oder Kurseffektivität:
 
-![](assets/admin-sortby.png)
+* Name (a - z)
+* Name (z - a)
+* Datum der Aktualisierung
+* Datum der Erstellung
+* Kurseffektivität
 
-*Suche auf der Grundlage von Kompetenzen*
+![](assets/filter-courses.png)
 
-Sie können Lernprogramme auf drei Arten sortieren: in alphabetisch aufsteigender Reihenfolge, in alphabetisch absteigender Reihenfolge und nach dem Datum der Kursaktualisierung.
+*Kurse filtern*
+
+Sie können Lernpfade auf drei Arten sortieren: in alphabetisch aufsteigender Reihenfolge, in alphabetisch absteigender Reihenfolge und basierend auf dem aktualisierten Datum.
+
+![](assets/filter-learning-paths.png)
+
+*Lernpfad filtern*
 
 ## Registrieren von Teilnehmern in Kurse {#enrollinglearnersintocourses}
 
@@ -128,28 +146,28 @@ Gemäß den Vorgaben des Unternehmens registriert der Manager einige Teilnehmer 
 >
 >Sie können nur Teilnehmer registrieren, die Ihrem Team angehören.
 
-## Lernprogramme {#learningprograms}
+## Lernpläne {#learningprograms}
 
 Der Manager kann nur die ihm unterstellten Teilnehmer registrieren, ihre Quizergebnisse und ihr L1- und L3-Feedback anzeigen und ihre Registrierung aufheben.
 
-## Teilnehmer zu Lernprogramm hinzufügen {#addlearnerstoalearningprogram}
+## Hinzufügen von Teilnehmern zu einem Lernpfad {#addlearnerstoalearningprogram}
 
-1. Klicken Sie im Managermodus im linken Teilfenster auf „Lernprogramme“.
-1. Wählen Sie in der Kachelliste das veröffentlichte Lernprogramm, dem Sie Teilnehmer hinzufügen möchten.
+1. Klicken Sie im Manager-Modus im linken Teilfenster auf &quot;Lernpfade&quot;.
+1. Wählen Sie den veröffentlichten Lernpfad aus der Liste der Kacheln aus, denen Sie Teilnehmer hinzufügen möchten.
 1. Klicken Sie im linken Teilfenster unter der Kategorie „Programmberichte“ auf „Teilnehmer“. Hinweis: Bevor dem Lernprogramm Teilnehmer hinzugefügt werden können, muss es veröffentlicht werden.
 1. Klicken Sie auf der Seite auf den Link „Registrieren“.
 1. Beginnen Sie mit der Eingabe der Teilnehmernamen oder -profile und wählen Sie die Teilnehmer aus der Dropdownliste mit Teilnehmern aus. Klicken Sie auf „Speichern“.
 
 ## Punktzahl für Quiz anzeigen {#Viewquizscores-1}
 
-1. Klicken Sie auf eine beliebige Lernprogrammkachel.
+1. Klicken Sie auf eine beliebige Lernpfadkachel.
 1. Klicken Sie im linken Fensterbereich auf „Punktzahl für Quiz“.
 
-Sie können die Quizpunktzahlen eines bestimmten Lernprogramms nach Benutzernamen oder Frage anzeigen. Wählen Sie dafür die Registerkarten „Nach Benutzer“ oder „Nach Frage“. Die Quizpunktzahlen werden jeweils nur für einen Kurs angezeigt. Um die Quizpunktzahlen für andere Kurse anzuzeigen, ändern Sie den Kursnamen in der Dropdownliste. Sie können die Quizpunktzahlen der Kurse auch exportieren. Wählen Sie hierfür in der Dropdownliste den Instanzentyp, um die Ergebnisse für die einzelnen Instanzen des Lernprogramms anzuzeigen.
+Sie können die Quizpunktzahlen eines bestimmten Lernpfads basierend auf dem Benutzernamen oder basierend auf jeder Frage anzeigen. Wählen Sie dafür die Registerkarten „Nach Benutzer“ oder „Nach Frage“. Die Quizpunktzahlen werden jeweils nur für einen Kurs angezeigt. Um die Quizpunktzahlen für andere Kurse anzuzeigen, ändern Sie den Kursnamen in der Dropdownliste. Sie können die Quizpunktzahlen der Kurse auch exportieren. Wählen Sie den Instanztyp aus der Dropdown-Liste aus, um die Ergebnisse basierend auf jeder Instanz des Lernpfads anzuzeigen.
 
-## Registrierung für Teilnehmer widerrufen {#unenrollmentforlearners}
+## Registrierung für Teilnehmer aufheben {#unenrollmentforlearners}
 
-Der Manager kann einen Teilnehmer abmelden, wenn der Teilnehmer das Lernprogramm noch nicht gestartet hat.
+Der Manager kann einen Teilnehmer abmelden, wenn der Teilnehmer den Lernpfad noch nicht gestartet hat.
 
 ## Als abgeschlossen markieren {#markcompletion}
 

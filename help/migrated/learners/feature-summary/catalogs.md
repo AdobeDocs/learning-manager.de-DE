@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Kataloge
 contentowner: manochan
 exl-id: 5e62995c-6471-47e9-9e6c-06ac5c5586bc
-source-git-commit: 2a841234cd829d2a477d44e9cca095370ee25e51
+source-git-commit: 6862dc1958a34a369f0e0e7218f28151a47beb3b
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 22%
+source-wordcount: '244'
+ht-degree: 12%
 
 ---
 
@@ -19,14 +19,14 @@ Erfahren Sie, wie Sie Kataloge in Learning Manager verwenden, um die entsprechen
 
 Teilnehmer können alle zugewiesenen und verfügbaren Lernobjekte (Lernprogramme, Kurse und Zertifizierungen) im Fenster &quot; **Standardkatalog**. Diese Lernobjekte sind für jeden Teilnehmer basierend auf seiner Rolle, Bezeichnung, Benutzergruppe, seinem Profil usw. einzigartig.
 
-Sie können die Liste der Lernobjekte nach Qualifikationen und nach Art der Lernobjekte filtern (Selbststudium, gemischt, Präsenzkurs, virtuelles Klassenzimmer, Aktivität). Sie können auch mithilfe der Optionen im linken Bereich filtern: nach Lernobjekten, nach Kenntnissen und nach Abschlussstatus.
+Sie können die Lernobjekte anhand verschiedener Kategorien wie Produkte, Arbeitsrollen, Typen, Benötigte Zeit, Kenntnisse und Stichwörter sortieren. Sie können auch mithilfe der Optionen im linken Bereich filtern: nach Lernobjekten, nach Kenntnissen und nach Abschlussstatus.
 
 Verwenden Sie die Suchleiste oben auf der Seite, um die Namen Ihrer vertrauten Lernobjekte einzugeben. Teilnehmer können zwischen dem Raster und der Listenansicht wechseln, indem sie dieses ![](assets/icon-list.png) Symbol.
 
 ![](assets/catalogs.png)
 *Anzeigen von Katalogen*
 
-Als Teilnehmer können Sie Schulungen basierend auf dem Schulungsformat filtern, z. B. Klassenzimmer, Selbststudium oder virtuelles Klassenzimmer. Darüber hinaus kann der Teilnehmer die Schulungen auch nach der Schulungsdauer filtern. Der bereits verfügbare Qualifikationsstufen-Filter kann jetzt vom Administrator aktiviert/deaktiviert werden.
+<!--As a learner, you can  filter training based on the format of training, for example, Classroom, Self-paced, or Virtual Classroom. In addition, the learner can also filter the trainings based on Training Duration. Skill Levels filter which is already available, can now be enabled/disabled by Administrator. -->
 
 ![](assets/image014.png)
 

@@ -4,16 +4,18 @@ jcr-language: en_us
 title: Überwachung und Moderation von Soziales Lernen als Administrator
 contentowner: kuppan
 exl-id: 83f0b494-d129-4fdf-a204-b5efeaaa168a
-source-git-commit: 3af4224f82f14342a298ce39088be874a2372817
+source-git-commit: 6862dc1958a34a369f0e0e7218f28151a47beb3b
 workflow-type: tm+mt
-source-wordcount: '3604'
-ht-degree: 63%
+source-wordcount: '3756'
+ht-degree: 62%
 
 ---
 
 # Überwachung und Moderation von Soziales Lernen als Administrator
 
 Als Administrator können Sie im Sozialen Lernen durchgeführte Aktivitäten aktivieren, deaktivieren und überwachen. Sobald die Soziales Lernen-Funktion aktiviert ist, können die Teilnehmer sie anzeigen und mit dem Sozialen Lernen beginnen.
+
+Mit Soziales Lernen können Teilnehmer von überall aus lernen und Inhalte mit ihren Kollegen teilen. Mit dieser Funktion können Teilnehmer interagieren, Ideen austauschen und zusammenarbeiten und so ihr gesamtes Lernerlebnis verbessern.
 
 ## Aktivieren und konfigurieren Sie Einstellungen für das Soziale Lernen {#enableandconfiguresettingsinsociallearning}
 
@@ -32,7 +34,7 @@ Führen Sie folgende Schritte aus, um die Funktion für Soziales Lernen zu aktiv
 
 Der Administrator kann Einstellungen für Soziales Lernen konfigurieren. Einstellungen umfassen Typen von Inhaltskurationen wie **[!UICONTROL Manuelle Kuratierung]** und **[!UICONTROL Keine Kuration]**. Die Bereichseinstellungen können auf einen anderen Bereich festgelegt werden, z. B. auf den Benutzertyp (intern/extern) oder andere aktive Felder im Konto. Der Administrator kann den URL-Pfad festlegen, über den die Teilnehmenden die Adobe Learning Manager-Desktop-Anwendung herunterladen können.
 
-## Inhaltskuration {#contentcuration}
+### Inhaltskuration {#contentcuration}
 
 Da Soziales Lernen ein informelles Lernen ist, ähnelt seine Funktionalität anderen Social-Media-Plattformen. Social-Media-Posts stören oft, weil sie oft irrelevante Inhalte konsumieren, die ihre Produktivität beeinträchtigen. Dieser Gedanke kann durch inhaltliche Moderation und Kuration erfüllt werden.
 
@@ -40,11 +42,163 @@ Da Soziales Lernen ein informelles Lernen ist, ähnelt seine Funktionalität and
 
 **[!UICONTROL Automatische Unterstützung für manuelle Kuratierung]:** Learning Manager verfügt über eine auf künstlicher Intelligenz basierende Auto-Kuration-Engine, mit der Sie die Essenz des Inhalts jedes beliebigen Formats intelligent herausfinden können, das später den gewünschten Teilnehmern bereitgestellt werden kann. Es kann auch Inhalte genehmigen oder ablehnen, die auf der Grundlage des angegebenen Confidence-Scores veröffentlicht werden.
 
-Zum Beispiel ist Adarsh ein Lerner und er fand einen Blog interessant, also postet er ihn auf der Social Learning Plattform des Adobe Learning Managers. Der Beitrag wird dann an die KI-gestützte Content Curation Engine weitergeleitet, die die im Inhalt vorhandenen Kenntnisse vorhersagt und diese mit den entsprechenden Board-Kenntnissen vergleicht. Wenn eine der Qualifikationen übereinstimmt, wird der Inhalt veröffentlicht, andernfalls wird er zur manuellen Kuration gesendet.
+Beispielsweise ist Adarsh ein Lerner und er fand einen Blog interessant, also postet er ihn auf Adobe Learning Managers Social-Learning-Plattform. Der Beitrag wird dann an die KI-gestützte Content Curation Engine weitergeleitet, die die im Inhalt vorhandenen Kenntnisse vorhersagt und diese mit den entsprechenden Board-Kenntnissen vergleicht. Wenn eine der Qualifikationen übereinstimmt, wird der Inhalt veröffentlicht, andernfalls wird er zur manuellen Kuration gesendet.
 
 Der Mindestwert für die Vertrauenswürdigkeit, der für die Buchung erforderlich ist, ist 50 %.
 
 **[!UICONTROL Manuelle Kuratierung]:** Um die Authentizität des Inhalts zu überprüfen, bevor er live geschaltet wird, kann der Administrator die Einstellung &quot;Manuelle Kuratierung&quot; aktivieren. Sobald die Einstellung der manuellen Kuration aktiviert ist, wird sie zur Kuration an die Top-SMEs (maximal 3) weitergeleitet. Basierend auf der durchschnittlichen Antwort wird die Stelle entsprechend genehmigt/abgelehnt. Gibt es mehr als 50 Prozent, wird der Beitrag live gesendet, andernfalls abgelehnt. Weitere Informationen über die SMEs [finden Sie hier](social-learning-configurations-as-an-admin.md#SubjectMatterExpertsSMEs).
+
+
+Im neuen Bereich erhält er/sie Punkte für Aktivitäten auf allen Ebenen.
+
+In den Bereichen der Bestenliste für soziale Netzwerke kann ein Benutzer alle Benutzer seines Bereichs zusammen mit speziellen Benutzern anzeigen.
+
+Wenn Sie spezielle Benutzerrechte erhalten haben, können Sie alle Benutzer im Konto in Ihrer Bestenliste anzeigen, unabhängig vom Bereich der Benutzer.
+
+Wenn spezielle Benutzer durch ausreichende Punktzahl zu SME werden, werden sie im **[!UICONTROL Top-Fachexperten]** im sozialen Leaderboard.
+
+Warten Sie 60 Minuten, bis die Änderungen wirksam werden.
+
+### Bereichseinstellungen {#scopesettings}
+
+Beim Sozialen Lernen bestimmt ein Bereich die von Ihnen angezeigten Boards, die die Sichtbarkeit des Inhalts steuern. Wenn ein Benutzer einen Bereich hat, z. B. ***Vendor_A***, er kann nur Boards und zugehörige Beiträge sehen, die von anderen erstellt wurden, die demselben Bereich angehören ***Vendor_A***.
+
+Auf diese Weise können Administratoren eine Gruppe von Benutzern verwalten, z. B. Lieferanten, Partner oder Abteilungen in einer Organisation.
+
+Aktivieren Sie Soziales Lernen und Ranglisten für interne und externe Benutzer.
+
+Es gibt separate Abschnitte, um interne und externe Benutzer zu aktivieren.
+
+**Für interne Teilnehmer aktivieren**
+
+In diesem Abschnitt können Sie die Benutzereigenschaft auswählen, um den Umfang des sozialen Lernens für interne Benutzer zu definieren. Benutzer mit den gleichen Merkmalen **Wert** Teilen Sie den gleichen Bereich für Soziales Lernen.
+
+Im Fenster &quot; **Benutzermerkmal** die gewünschte Option aus.
+
+![](assets/choose-value-of-usercharacteristic.png)
+
+*Wählen Sie die Benutzereigenschaften aus, um den Bereich zu definieren.*
+
+Standardmäßig ist die Option **[!UICONTROL Alle internen Benutzer]** in der Dropdown-Liste Benutzermerkmal ist immer ausgewählt.
+
+Sie können interne Benutzer basierend auf ihren aktiven Feldern erfassen.
+
+**Für externe Teilnehmer aktivieren**
+
+Verwenden Sie ein externes Profil, um den Lernumfang für externe Benutzer zu definieren. Teilnehmer mit demselben externen Profil teilen sich einen gemeinsamen Bereich für Soziales Lernen.
+
+![](assets/choose-an-externalprofile.png)
+
+*Bereich für externe Teilnehmer aktivieren*
+
+Externe Benutzer erhalten einen Bereich basierend auf ihren externen Profilen.
+
+Wenn Sie in der obigen Liste beispielsweise **[!UICONTROL Acme Corp]** aktivieren, können alle Teilnehmer, die zu Acme Corp gehören, die von ihnen erstellten Boards sehen. Wenn Sie die Option **Henry Cavill** deaktivieren, können die Teilnehmer keine von Henry Cavill erstellten Boards sehen.
+
+Der Administrator kann die Sichtbarkeit des Inhalts basierend auf dem aktiven Feld im Feld **[!UICONTROL Benutzereigenschaft]** festlegen.
+
+Zum Beispiel kann der Administrator den Bereich auf **[!UICONTROL Benutzertyp (intern/extern)]** Benutzer festlegen. Wenn Sie als Suchbereich &quot;Benutzertyp&quot; festlegen, ist der von einem internen Teilnehmer auf der Plattform für soziales Lernen freigegebene Inhalt nur für andere interne Teilnehmer in der Organisation und nicht für die externen Benutzer sichtbar und umgekehrt.
+
+Nachdem ein Benutzermerkmal vom Administrator ausgewählt wurde, kann er die Funktion für soziales Lernen auf die Gruppen von Teilnehmern und Teilnehmer beschränken, indem Sie das Kontrollkästchen unter dem Feld „Benutzermerkmal“ aktivieren. Klicken Sie auf das Wertfeld, um die Teilnehmer oder Teilnehmergruppen auszuwählen, für die Sie die Funktion für das Soziale Lernen aktivieren möchten.
+
+Standardmäßig wird der Umfang durch das Attribut **[!UICONTROL Benutzertyp]** die interne oder externe Teilnehmer sind.
+
+Wenn das aktive Feld keinen Wert enthält, ist die Dropdown-Liste für das Feld **[!UICONTROL Wert]** für den Administrator nicht sichtbar.
+
+<!--![](assets/scope-settings.png) ![](assets/scope-settings1-png.jpg)-->
+
+Die Benutzer können ihre Inhalte auch über den Adobe Learning Manager-Client veröffentlichen. Klicken Sie je nachdem, ob Sie ein Mac- oder Windows-Benutzer sind, auf die angegebenen Links, um die Desktop-Anwendung herunterzuladen, und führen Sie die angegebenen Schritte aus, um sie auf Ihrem System zu installieren. Wenn Sie Schwierigkeiten bei der Installation haben, [klicken Sie hier](../../kb/troubleshooting-issues-with-adobe-learning-manager-desktop-app.md).
+
+### Download-Konfigurationen {#downloadconfigurations}
+
+<!--![](assets/download-config.png)-->
+
+Bei Enterprise-Servern kann der Administrator den Ort ändern, von dem aus die Teilnehmer die Desktopanwendung für Windows und Mac herunterladen können.
+
+![](assets/enterprise-servers.png)
+
+*Download-Speicherort ändern*
+
+Die Enterprise Server-URL muss öffentlich gehostet werden.
+
+### Berechtigungen für Board-Erstellung {#permission}
+
+Um die Erstellung von Boards durch alle Teilnehmer einzuschränken und die Boards effektiv zu moderieren, kann ein Administrator einer ausgewählten Gruppe von Benutzern Berechtigungen zum Erstellen von Boards erteilen.
+
+![](assets/grant-permissiontocreateboards.png)
+
+*Berechtigungen zum Erstellen eines Boards festlegen*
+
+Standardmäßig ist die Option **[!UICONTROL Alle Teilnehmer]** aktiviert.
+
+**[!UICONTROL Alle Teilnehmer]:** Wenn Sie diese Option auswählen, können alle internen und externen Benutzer Boards erstellen.
+
+**Eine Gruppe von Teilnehmer:** Wenn Sie diese Option auswählen, werden nur Benutzer mit der Berechtigung zum Erstellen eines Boards unter dem Link **[!UICONTROL Neues Board erstellen]** in Soziales Lernen angezeigt. Wählen Sie die Benutzergruppe aus, der die Berechtigung zum Erstellen eines Boards erteilt werden muss. Sie können auch automatisch generierte sowie benutzerdefinierte Benutzergruppen hinzufügen.
+
+<!--![](assets/grant-permissiontoausergroup.png)-->
+
+Benutzer mit demselben Bereich können nur das Board sehen. Für Benutzer, die keine Berechtigung haben, bleibt der Link **[!UICONTROL Neues Board erstellen]** unsichtbar.
+
+Warten Sie 60 Minuten, bis die Änderungen wirksam werden.
+
+## Spezielle Benutzer {#privilege}
+
+Ein Administrator kann einer Benutzergruppe spezielle Berechtigungen erteilen, mit denen Mitglieder der Gruppe an allen Boards teilnehmen können. Alle Einschränkungen, die im Abschnitt Bereichseinstellungen festgelegt wurden, werden von der speziellen Benutzergruppe umgangen.
+
+Die Benutzergruppe kann entweder automatisch generiert oder benutzerdefiniert sein.
+
+Ein Benutzer, dem diese Berechtigung gewährt wurde, hat Zugriff auf alle Boards mit Ausnahme von **Privaten Boards**.
+
+![](assets/special-users.png)
+
+*Besondere Rechte gewähren*
+
+Wenn der Administrator eine Benutzergruppe auswählt, können standardmäßig alle Benutzer in der Gruppe auf alle Boards zugreifen, unabhängig vom Bereich des Benutzers. Jeder Benutzer mit diesen erweiterten Rechten kann alle internen und externen Boards anzeigen und daran teilnehmen.
+
+Spezielle Benutzer erhalten über alle Bereiche hinweg Kurationsanfragen, wenn sie über ausreichende KMU-Punkte für diese Kenntnisse verfügen.
+
+Wenn der Benutzer nicht über die erforderlichen SME-Punkte verfügt, werden die Kuratierungsrechte an die drei besten SME dieser Kenntnisse weitergegeben.
+
+Im neuen Bereich erhält er/sie Punkte für Aktivitäten auf allen Ebenen.
+
+In den Bereichen der Bestenliste für soziale Netzwerke kann ein Benutzer alle Benutzer seines Bereichs zusammen mit speziellen Benutzern anzeigen.
+
+Wenn Sie spezielle Benutzerrechte erhalten haben, können Sie alle Benutzer im Konto in Ihrer Bestenliste anzeigen, unabhängig vom Bereich der Benutzer.
+
+Wenn spezielle Benutzer durch ausreichende Punktzahl zu SME werden, werden sie im **[!UICONTROL Top-Fachexperten]** im sozialen Leaderboard.
+
+Warten Sie 60 Minuten, bis die Änderungen wirksam werden.
+
+### Anpassen des sozialen Banners {#customize-social-banner}
+
+Der Administrator kann den Titel und den Untertitel anpassen, die auf der Sozialen Lernen-Startseite im Headerbild angezeigt werden. Alles was der Administrator als Titel und Untertitel eingibt, wird auf der Startseite des Teilnehmers angezeigt.
+
+1. Klicken Sie in der Admin-App auf **[!UICONTROL Social Learning]** > **[!UICONTROL Einstellungen]**.
+1. Klicken **[!UICONTROL Anpassen]**.
+1. Ändern Sie das Bannerbild. Die Abmessungen des Bildes müssen mindestens **1.600 px x 240 px**.
+1. Schalten Sie die Option zum Ausblenden oder Anzeigen der **[!UICONTROL Weitere Infos]** auf dem Banner.
+1. Geben Sie den Titel und den Untertitel in die unten angegebenen Felder ein:
+
+   ![](assets/image012.png)
+
+   *Anpassen des sozialen Banners*
+
+Es gibt noch einige weitere Optionen:
+
+* **[!UICONTROL Sprache]:** Wählen Sie aus der Dropdown-Liste die Sprache aus, in die Titel und Untertitel übersetzt werden sollen. Sie können auch benutzerdefinierten Text für verschiedene Sprachen hinzufügen.
+* **[!UICONTROL Replizieren]:** Klicken Sie auf diese Schaltfläche, um Titel und Untertitel in allen Sprachen zu replizieren.
+* **[!UICONTROL Zurücksetzen]:** Klicken Sie auf diese Schaltfläche, um zum ursprünglichen Titel und Untertitel zurückzukehren.
+
+  Auf der Soziales Lernen-Startseite werden die vom Administrator bereitgestellten Informationen als Kopfzeile der Seite angezeigt.
+
+  <!--![](assets/banner-learner.png)-->
+
+### Ansicht für Soziales Lernen
+
+Ein Administrator kann die Ansicht für soziales Lernen aus den folgenden Einstellungen auswählen:
+
+* Beitragsansicht - Wenn Sie diese Option auswählen, werden die einzelnen Beiträge aller Boards angezeigt.
+* Board-Ansicht - Wenn Sie diese Option auswählen, werden alle verfügbaren Boards angezeigt.
 
 ## Automatische Kuration des Inhalts {#autocuration}
 
@@ -146,128 +300,6 @@ Werden diese 50 % nach einem Tag nicht erreicht, wird der Antrag an die nächste
 
 +++
 
-## Bereichseinstellungen {#scopesettings}
-
-Beim Sozialen Lernen bestimmt ein Bereich die von Ihnen angezeigten Boards, die die Sichtbarkeit des Inhalts steuern. Wenn ein Benutzer einen Bereich hat, z. B. ***Vendor_A***, er kann nur Boards und zugehörige Beiträge sehen, die von anderen erstellt wurden, die demselben Bereich angehören ***Vendor_A***.
-
-Auf diese Weise können Administratoren eine Gruppe von Benutzern verwalten, z. B. Lieferanten, Partner oder Abteilungen in einer Organisation.
-
-Aktivieren Sie Soziales Lernen und Ranglisten für interne und externe Benutzer.
-
-Es gibt separate Abschnitte, um interne und externe Benutzer zu aktivieren.
-
-**Für interne Teilnehmer aktivieren**
-
-In diesem Abschnitt können Sie die Benutzereigenschaft auswählen, um den Umfang des sozialen Lernens für interne Benutzer zu definieren. Benutzer mit den gleichen Merkmalen **Wert** Teilen Sie den gleichen Bereich für Soziales Lernen.
-
-Im Fenster &quot; **Benutzermerkmal** die gewünschte Option aus.
-
-![](assets/choose-value-of-usercharacteristic.png)
-
-*Wählen Sie die Benutzereigenschaften aus, um den Bereich zu definieren.*
-
-Standardmäßig ist die Option **[!UICONTROL Alle internen Benutzer]** in der Dropdown-Liste Benutzermerkmal ist immer ausgewählt.
-
-Sie können interne Benutzer basierend auf ihren aktiven Feldern erfassen.
-
-**Für externe Teilnehmer aktivieren**
-
-Verwenden Sie ein externes Profil, um den Lernumfang für externe Benutzer zu definieren. Teilnehmer mit demselben externen Profil teilen sich einen gemeinsamen Bereich für Soziales Lernen.
-
-![](assets/choose-an-externalprofile.png)
-
-*Bereich für externe Teilnehmer aktivieren*
-
-Externe Benutzer erhalten einen Bereich basierend auf ihren externen Profilen.
-
-Wenn Sie in der obigen Liste beispielsweise **[!UICONTROL Acme Corp]** aktivieren, können alle Teilnehmer, die zu Acme Corp gehören, die von ihnen erstellten Boards sehen. Wenn Sie die Option **Henry Cavill** deaktivieren, können die Teilnehmer keine von Henry Cavill erstellten Boards sehen.
-
-Der Administrator kann die Sichtbarkeit des Inhalts basierend auf dem aktiven Feld im Feld **[!UICONTROL Benutzereigenschaft]** festlegen.
-
-Zum Beispiel kann der Administrator den Bereich auf **[!UICONTROL Benutzertyp (intern/extern)]** Benutzer festlegen. Wenn Sie als Suchbereich &quot;Benutzertyp&quot; festlegen, ist der von einem internen Teilnehmer auf der Plattform für soziales Lernen freigegebene Inhalt nur für andere interne Teilnehmer in der Organisation und nicht für die externen Benutzer sichtbar und umgekehrt.
-
-Nachdem ein Benutzermerkmal vom Administrator ausgewählt wurde, kann er die Funktion für soziales Lernen auf die Gruppen von Teilnehmern und Teilnehmer beschränken, indem Sie das Kontrollkästchen unter dem Feld „Benutzermerkmal“ aktivieren. Klicken Sie auf das Wertfeld, um die Teilnehmer oder Teilnehmergruppen auszuwählen, für die Sie die Funktion für das Soziale Lernen aktivieren möchten.
-
-Standardmäßig wird der Umfang durch das Attribut **[!UICONTROL Benutzertyp]** die interne oder externe Teilnehmer sind.
-
-Wenn das aktive Feld keinen Wert enthält, ist die Dropdown-Liste für das Feld **[!UICONTROL Wert]** für den Administrator nicht sichtbar.
-
-<!--![](assets/scope-settings.png) ![](assets/scope-settings1-png.jpg)-->
-
-Benutzer können ihre Inhalte auch mithilfe der Adobe Learning Manager-Desktopanwendung veröffentlichen. Klicken Sie je nachdem, ob Sie ein Mac- oder Windows-Benutzer sind, auf die angegebenen Links, um die Desktop-Anwendung herunterzuladen, und führen Sie die angegebenen Schritte aus, um sie auf Ihrem System zu installieren. Wenn Sie Schwierigkeiten bei der Installation haben, [klicken Sie hier](../../kb/troubleshooting-issues-with-adobe-learning-manager-desktop-app.md).
-
-## Berechtigungen für Board-Erstellung {#permission}
-
-Um die Erstellung von Boards durch alle Teilnehmer einzuschränken und die Boards effektiv zu moderieren, kann ein Administrator einer ausgewählten Gruppe von Benutzern Berechtigungen zum Erstellen von Boards erteilen.
-
-![](assets/grant-permissiontocreateboards.png)
-
-*Berechtigungen zum Erstellen eines Boards festlegen*
-
-Standardmäßig ist die Option **[!UICONTROL Alle Teilnehmer]** aktiviert.
-
-**[!UICONTROL Alle Teilnehmer]:** Wenn Sie diese Option auswählen, können alle internen und externen Benutzer Boards erstellen.
-
-**Eine Gruppe von Teilnehmer:** Wenn Sie diese Option auswählen, werden nur Benutzer mit der Berechtigung zum Erstellen eines Boards unter dem Link **[!UICONTROL Neues Board erstellen]** in Soziales Lernen angezeigt. Wählen Sie die Benutzergruppe aus, der die Berechtigung zum Erstellen eines Boards erteilt werden muss. Sie können auch automatisch generierte sowie benutzerdefinierte Benutzergruppen hinzufügen.
-
-<!--![](assets/grant-permissiontoausergroup.png)-->
-
-Benutzer mit demselben Bereich können nur das Board sehen. Für Benutzer, die keine Berechtigung haben, bleibt der Link **[!UICONTROL Neues Board erstellen]** unsichtbar.
-
-Warten Sie 60 Minuten, bis die Änderungen wirksam werden.
-
-## Spezielle Benutzer {#privilege}
-
-Ein Administrator kann einer Benutzergruppe spezielle Berechtigungen erteilen, mit denen Mitglieder der Gruppe an allen Boards teilnehmen können. Alle Einschränkungen, die im Abschnitt Bereichseinstellungen festgelegt wurden, werden von der speziellen Benutzergruppe umgangen.
-
-Die Benutzergruppe kann entweder automatisch generiert oder benutzerdefiniert sein.
-
-Ein Benutzer, dem diese Berechtigung gewährt wurde, hat Zugriff auf alle Boards mit Ausnahme von **Privaten Boards**.
-
-![](assets/special-users.png)
-
-*Besondere Rechte gewähren*
-
-Wenn der Administrator eine Benutzergruppe auswählt, können standardmäßig alle Benutzer in der Gruppe auf alle Boards zugreifen, unabhängig vom Bereich des Benutzers. Jeder Benutzer mit diesen erweiterten Rechten kann alle internen und externen Boards anzeigen und daran teilnehmen.
-
-Spezielle Benutzer erhalten über alle Bereiche hinweg Kurationsanfragen, wenn sie über ausreichende KMU-Punkte für diese Kenntnisse verfügen.
-
-Wenn der Benutzer nicht über die erforderlichen SME-Punkte verfügt, werden die Kuratierungsrechte an die drei besten SME dieser Kenntnisse weitergegeben.
-
-Im neuen Bereich erhält er/sie Punkte für Aktivitäten auf allen Ebenen.
-
-In den Bereichen der Bestenliste für soziale Netzwerke kann ein Benutzer alle Benutzer seines Bereichs zusammen mit speziellen Benutzern anzeigen.
-
-Wenn Sie spezielle Benutzerrechte erhalten haben, können Sie alle Benutzer im Konto in Ihrer Bestenliste anzeigen, unabhängig vom Bereich der Benutzer.
-
-Wenn spezielle Benutzer durch ausreichende Punktzahl zu SME werden, werden sie im **[!UICONTROL Top-Fachexperten]** im sozialen Leaderboard.
-
-Warten Sie 60 Minuten, bis die Änderungen wirksam werden.
-
-## Anpassen des sozialen Banners {#customize-social-banner}
-
-Der Administrator kann den Titel und den Untertitel anpassen, die auf der Sozialen Lernen-Startseite im Headerbild angezeigt werden. Alles was der Administrator als Titel und Untertitel eingibt, wird auf der Startseite des Teilnehmers angezeigt.
-
-1. Klicken Sie in der Admin-App auf **[!UICONTROL Social Learning]** > **[!UICONTROL Einstellungen]**.
-1. Klicken **[!UICONTROL Anpassen]**.
-1. Ändern Sie das Bannerbild. Die Abmessungen des Bildes müssen mindestens **1.600 px x 240 px**.
-1. Schalten Sie die Option zum Ausblenden oder Anzeigen der **[!UICONTROL Weitere Infos]** auf dem Banner.
-1. Geben Sie den Titel und den Untertitel in die unten angegebenen Felder ein:
-
-   ![](assets/image012.png)
-
-   *Anpassen des sozialen Banners*
-
-Es gibt noch einige weitere Optionen:
-
-* **[!UICONTROL Sprache]:** Wählen Sie aus der Dropdown-Liste die Sprache aus, in die Titel und Untertitel übersetzt werden sollen. Sie können auch benutzerdefinierten Text für verschiedene Sprachen hinzufügen.
-* **[!UICONTROL Replizieren]:** Klicken Sie auf diese Schaltfläche, um Titel und Untertitel in allen Sprachen zu replizieren.
-* **[!UICONTROL Zurücksetzen]:** Klicken Sie auf diese Schaltfläche, um zum ursprünglichen Titel und Untertitel zurückzukehren.
-
-  Auf der Soziales Lernen-Startseite werden die vom Administrator bereitgestellten Informationen als Kopfzeile der Seite angezeigt.
-
-  <!--![](assets/banner-learner.png)-->
-
 ## Trends {#trends}
 
 Die Trends der sozialen Aktivität des Teilnehmers können auf der Registerkarte Aktivität im Abschnitt Trends angezeigt und verfolgt werden. Diese Daten können für verschiedene Zeiträume wie die letzten sieben Tage, den letzten Monat, die letzten drei Monate und alle Zeiten angezeigt werden.
@@ -363,7 +395,7 @@ Der Administrator kann den Aktivitätsfaktor, die Anzahl der Beiträge, Boards, 
 
 ## Kompetenzdomäne {#skilldomain}
 
-Basierend auf den hauptsächlich von Lernmanager-Endbenutzern verwendeten Kenntnissen hat Adobe Learning Manager eine Liste von 25 Kenntnisdomänen kategorisiert, die das automatische Kurationssystem zum Kuratieren von Inhalten verwendet. Der Administrator muss die konfigurierten Enterprise-Kenntnisse den von Prime bereitgestellten Kenntnisdomänen zuordnen. Die Zuordnung von Kenntnissen kann auf der Seite &quot;Administratorkenntnisse&quot; erfolgen, während Sie Kenntnisse erstellen oder vorhandene Kenntnisse ändern. Weitere Informationen zum Zuordnen oder Hinzufügen von Kenntnissen: [hier klicken](skills-levels.md#Createaskillandalevel).
+Basierend auf den hauptsächlich von Lern-Manager-Endbenutzern verwendeten Kenntnissen hat Adobe Learning Manager eine Liste von 25 Kenntnisdomänen kategorisiert, die das automatische Kurationssystem zum Kuratieren von Inhalten verwendet. Der Administrator muss die konfigurierten Enterprise-Kenntnisse den von Prime bereitgestellten Kenntnisdomänen zuordnen. Die Zuordnung von Kenntnissen kann auf der Seite &quot;Administratorkenntnisse&quot; erfolgen, während Sie Kenntnisse erstellen oder vorhandene Kenntnisse ändern. Weitere Informationen zum Zuordnen oder Hinzufügen von Kenntnissen: [hier klicken](skills-levels.md#Createaskillandalevel).
 
 +++Liste der Kenntnisdomänen, die vom Kurationssystem des Lern-Managers verwendet werden
 
@@ -449,18 +481,6 @@ Führen Sie die folgenden Schritte aus, um SMEs zu Kenntnissen hinzuzufügen:
 **SME erhalten auch eine Anzahl von Punkten basierend auf Kurationsaktivitäten für Folgendes:**
 
 * Wenn ein Beitrag zur manuellen Kuration gesendet wird, weil die automatische Kuration nicht sicher ist, ob der Inhalt relevant ist oder nicht, erhält der SME beim Senden der Moderation 5 Punkte.
-
-## Download-Konfigurationen {#downloadconfigurations}
-
-<!--![](assets/download-config.png)-->
-
-Bei Enterprise-Servern kann der Administrator den Ort ändern, von dem aus die Teilnehmer die Desktopanwendung für Windows und Mac herunterladen können.
-
-![](assets/enterprise-servers.png)
-
-*Download-Speicherort ändern*
-
-Die Enterprise Server-URL muss öffentlich gehostet werden.
 
 ## Soziale Aktivitäten für den monatlichen Abrechnungsplan für aktive Benutzer {#socialactivitiesformonthlyactiveusersbillingplan}
 

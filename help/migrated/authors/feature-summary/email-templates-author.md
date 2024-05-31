@@ -2,14 +2,13 @@
 description: Lesen Sie den Artikel zum Konfigurieren von E-Mail-Vorlagen für die Ereignisse, die sich auf alle Lernobjekte beziehen.
 jcr-language: en_us
 title: E-Mail-Vorlagen
-source-git-commit: fda58bc18bee6d21ee904a442884e4759587d053
+exl-id: 3b17f889-52be-4073-ab91-7c76dd79f1d2
+source-git-commit: 6862dc1958a34a369f0e0e7218f28151a47beb3b
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 89%
+source-wordcount: '475'
+ht-degree: 72%
 
 ---
-
-
 
 # E-Mail-Vorlagen
 
@@ -21,11 +20,13 @@ Als Autor können Sie E-Mail-Vorlagen anpassen, indem Sie Inhalte hinzufügen od
 
 Die Administratoren können auch festlegen, dass bei bestimmten Ereignissen keine E-Mail-Benachrichtigungen gesendet werden.
 
-## Einrichten von E-Mail-Benachrichtigungen {#settingemailnotifications}
+## Konfigurieren von E-Mail-Benachrichtigungen {#settingemailnotifications}
 
-1. Klicken Sie in der Autor-App auf das Lernobjekt, für das Sie die E-Mail-Vorlage konfigurieren möchten. Beispiel: Kurse.
+1. Wählen Sie in der Autoren-App das Lernobjekt aus, für das Sie die E-Mail-Vorlage konfigurieren möchten. Beispiel: Kurse.
+
 1. Klicken Sie auf der Lernobjektseite auf den Kurs, die Zertifizierung oder das Lernprogramm, für den/die/das Sie die E-Mail-Vorlage konfigurieren möchten.
-1. Klicken Sie auf der Lernobjektseite auf „E-Mail-Vorlagen“.
+
+1. Wählen Sie auf der Lernobjektdetailseite **E-Mail-Vorlagen** > **Alle Vorlagen**. E-Mail-Vorlagen sind verfügbar für **Standardinstanz** und **Aktueller Kurs**. Sie können zwischen ihnen wechseln, indem Sie das Dropdown-Menü in der oberen rechten Ecke verwenden.
 
    Sie können die Liste der Vorlagen sehen, die für das von Ihnen gewählte Lernobjekt verfügbar sind.
 
@@ -68,3 +69,11 @@ Die Administratoren können auch festlegen, dass bei bestimmten Ereignissen kein
 Wenn der Kreis in der Benachrichtigungsschaltfläche für den Namen eines Ereignisses bei „Ja“ steht und die Schaltfläche blau dargestellt wird, ist die Benachrichtigung aktiviert. Wenn sie grau dargestellt wird und der Kreis bei „Nein“ steht, ist die Benachrichtigung deaktiviert.
 
 Wenn Sie eine E-Mail-Vorlage auf Kursebene konfigurieren, erhält diese Vorrang über die Einstellungen auf Administratorebene für diesen Kurs.
+
+## Einstellungen für E-Mail-Vorlagen
+
+Der Autor kann in den E-Mail-Vorlageneinstellungen Folgendes einrichten:
+
+* **Email Banner**: Ermöglicht Ihnen, das E-Mail-Banner zu ändern.
+
+* **E-Mail-Signatur**: Ermöglicht Ihnen, die E-Mail-Signatur hinzuzufügen oder zu bearbeiten.
