@@ -4,7 +4,7 @@ title: Benutzerdefinierte Rollen
 description: Mit der Lernpfadfunktion können Sie benutzerdefinierte Rollen definieren und einer Gruppe von Benutzern bestimmte Verantwortlichkeiten zuweisen. Mit dieser Funktion können Sie Verantwortlichkeiten zuweisen, die nicht in den Bereich der bestehenden Rolle der Person fallen.
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: 6862dc1958a34a369f0e0e7218f28151a47beb3b
+source-git-commit: 890775dafffd3b9d717c39507490977f51f163d4
 workflow-type: tm+mt
 source-wordcount: '2223'
 ht-degree: 65%
@@ -224,7 +224,7 @@ Ein Benutzer mit einer benutzerdefinierten Rolle kann Folgendes:
 
 1. **Benutzer:** Verwenden Sie diese Option, um festzulegen, welche Benutzer dieser Rolle zugewiesen sind. Sie können einen oder mehrere Benutzer über das Suchfeld auswählen.
 
-   **Benutzer zum CSV-Upload für benutzerdefinierte Rollen hinzufügen:** Um Benutzer über CSV-Upload hinzuzufügen, fügen Sie der CSV-Datei eine Spalte &quot;CustomRole&quot; hinzu, die der Administrator zum Importieren von Benutzern verwendet hat. Geben Sie die Rolle des Benutzers in der Spalte Benutzerdefinierte Rolle für die Benutzer ein, denen Sie eine benutzerdefinierte Rolle zuweisen möchten. Zum Hochladen der CSV-Datei klicken Sie auf  **[!UICONTROL Hinzufügen > CSV hochladen]**.
+   **Benutzer zum CSV-Upload für benutzerdefinierte Rollen hinzufügen:** Um Benutzer über ein CSV-Update hinzuzufügen, fügen Sie der CSV-Datei eine Spalte &quot;CustomRole&quot; hinzu, die der Administrator zum Importieren von Benutzern verwendet hat. Geben Sie die Rolle des Benutzers in der Spalte Benutzerdefinierte Rolle für die Benutzer ein, denen Sie eine benutzerdefinierte Rolle zuweisen möchten. Zum Hochladen der CSV-Datei klicken Sie auf  **[!UICONTROL Hinzufügen > CSV hochladen]**.
 
    CustomRole columnNote:
 
@@ -483,3 +483,4 @@ Eine benutzerdefinierte Rolle ist wie eine Untergruppe einer Autor- oder Adminis
 
 Klicken **[!UICONTROL Benutzer]** > **[!UICONTROL Benutzerdefinierte Rollen]**. Klicken Sie auf der Seite „Benutzerdefinierte Rollen“ auf **[!UICONTROL Rolle erstellen]**. Geben Sie den Namen der benutzerdefinierten Rolle ein und legen Sie die Berechtigungen für die Rolle fest. Weitere Informationen finden Sie unter [Benutzerdefinierte Rolle erstellen](custom-role.md#create-role).
 +++
+
