@@ -4,7 +4,7 @@ title: White Labels in der mobilen Adobe Learning Manager-App
 description: White Labels sind eine Praxis, bei der Sie eine App oder einen Service mit Ihrem eigenen Branding umbenennen und so anpassen, als wären Sie der ursprüngliche Ersteller. In Adobe Learning Manager kannst du die Mobile App mit einer weißen Beschriftung versehen, sodass du ein Rebranding der App vornehmen und die App deinen Benutzern unter deinem eigenen Branding zur Verfügung stellen kannst.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 73d908674e6c32dafa4f9502634c42ec73fc3b6c
+source-git-commit: f25edb0883b71ed9807c347e0ae6733e7b55d40c
 workflow-type: tm+mt
 source-wordcount: '1205'
 ht-degree: 0%
@@ -23,9 +23,9 @@ Führen Sie die folgenden Schritte aus, um Ihre eigene App mit weißem Etikett b
 
 1. Weisen Sie eine technische Ressource zu, die Folgendes kann:
 
-* Push-Benachrichtigungszertifikatdateien werden generiert.
-* Signieren der vom ALM-Team bereitgestellten Anwendungsbinärdateien.
-* Hochladen und Verwalten des Veröffentlichungsprozesses. Der Veröffentlichungsprozess erfordert die Kommunikation zwischen Ihrem App-Manager und den Teams im App/Play Store, sodass Ihre App alle Veröffentlichungsrichtlinien erfüllt. Von ALM erhalten Sie eine vollständig kompatible App-Binärdatei.
+   * Push-Benachrichtigungszertifikatdateien werden generiert.
+   * Signieren der vom ALM-Team bereitgestellten Anwendungsbinärdateien.
+   * Hochladen und Verwalten des Veröffentlichungsprozesses. Der Veröffentlichungsprozess erfordert die Kommunikation zwischen Ihrem App-Manager und den Teams im App/Play Store, sodass Ihre App alle Veröffentlichungsrichtlinien erfüllt. Von ALM erhalten Sie eine vollständig kompatible App-Binärdatei.
 
 ## Übersicht
 
@@ -39,165 +39,211 @@ Folgende Elemente können angepasst werden:
 
 <table>
 
-    <tbody>
-
-    <tr>
-
-   <td>
-
-    <p>Konto-ID</p></td>
-
-   <td>
-
-    <p>Die ID Ihres Kontos. Beachten Sie, dass Teilnehmer, die zu einem anderen Konto gehören, nicht auf die App mit weißer Beschriftung zugreifen können.</p></td>
-
-  </tr>
+ <tbody>
 
   <tr>
 
    <td>
 
-    <p>Zusätzliche Konto-IDs</p></td>
+    <p>Konto-ID</p>
+
+   </td>
 
    <td>
 
-    <p>Fügen Sie bei Bedarf mehrere Konten (Unterdomänen) hinzu. Fügen Sie die Unterdomänen durch Kommas getrennt ohne Leerzeichen hinzu. Beispiel: acc01, acc02, acc03 usw.<br> <b>Hinweis:</b> Sie müssen die Konto-ID hinzufügen, wenn Sie die Unterdomänen angeben.</br> </p></td>
+    <p>Die ID Ihres Kontos. Beachten Sie, dass Teilnehmer, die zu einem anderen Konto gehören, nicht auf die App mit weißer Beschriftung zugreifen können.</p>
+
+   </td>
 
   </tr>
 
   <tr>
 
-  <td>
+   <td>
 
-  <p>App-Name</p></td>
+    <p>Zusätzliche Konto-IDs</p>
 
-  <td>
+   </td>
 
-  <p>Der Name, den Sie für die App verwenden möchten.</p></td>
+   <td>
 
-  </tr>
+    <p>Fügen Sie bei Bedarf mehrere Konten (Unterdomänen) hinzu. Fügen Sie die Unterdomänen durch Kommas getrennt ohne Leerzeichen hinzu. Beispiel: acc01, acc02, acc03 usw.<br> <b>Hinweis:</b> Sie müssen die Konto-ID hinzufügen, wenn Sie die Unterdomänen angeben.</br> </p>
 
-  <tr>
-
-  <td>
-
-  <p>App-Kurzname</p></td>
-
-  <td>
-
-  <p>Wenn der Name der App lang ist, geben Sie der App einen kurzen Namen, der auf dem Gerät angezeigt wird.</p></td>
-
-  </tr>
-
-   <tr>
-
-  <td>
-
-  <p>Name der internen App</p></td>
-
-  <td>
-
-  <p>Der Name, mit dem das Betriebssystem die App identifiziert. Üblicherweise wird das Format com.company-name.product-name verwendet.</p></td>
+   </td>
 
   </tr>
 
   <tr>
 
-  <td>
+   <td>
 
-  <p>Name der internen App - iOS</p></td>
+    <p>App-Name</p></td>
 
-  <td>
+   <td>
 
-  <p>Benennen Sie die App anders, wenn sich Ihre Benutzer in iOS befinden. Es wird empfohlen, für iOS und Android denselben Namen zu verwenden.</p></td>
+    <p>Der Name, den Sie für die App verwenden möchten.</p>
 
-  </tr>
-
-  <tr>
-
-  <td>
-
-  <p>App-Symbol</p></td>
-
-  <td>
-
-  <p>Das App-Symbol als png. Dieses Symbol wird in Ihrer App angezeigt. Das zu benennende Format ist account-id_appIcon.png. Die Abmessungen des App-Symbols sind 512 × 512 Pixel.</p></td>
+   </td>
 
   </tr>
 
   <tr>
 
-  <td>
+   <td>
 
-  <p>Startbildschirm der App</p></td>
+    <p>App-Kurzname</p>
 
-  <td>
+   </td>
 
-  <p>Geben Sie für den Begrüßungsbildschirm Ihrer App ein Bild (png) an, das angezeigt wird, wenn die Benutzer die App starten. Das zu benennende Format ist account-id_splashIcon.png. Die Abmessungen der quadratischen Splashscreens betragen 1052 × 1052 Pixel und der kreisförmigen Splashscreens 768 x 768 Pixel.</p></td>
+   <td>
 
-  </tr>
+    <p>Wenn der Name der App lang ist, geben Sie der App einen kurzen Namen, der auf dem Gerät angezeigt wird.</p>
 
-  <tr>
-
-  <td>
-
-  <p>Client-ID und geheimer Clientschlüssel</p></td>
-
-  <td>
-
-  <p>Der Integrations-Admin Ihres Kontos stellt die Details bereit, während Sie die App registrieren. Der Integrationsadministrator muss Folgendes verwenden:<ul><li>Teilnehmer:lesen,Teilnehmer:als Rolle schreiben</li><li>Interne App name://redirect als Umleitungs-URL</li></ul></p></td>
+   </td>
 
   </tr>
 
   <tr>
 
-  <td>
+   <td>
 
-  <p>Kontenlogo</p></td>
+    <p>Name der internen App</p></td>
 
-  <td>
+   <td>
 
-  <p>Die URL, über die das Logo Ihres Unternehmens gehostet wird. Geben Sie einen cpcontents-Link als Logo für das Konto an. Die URL muss webcodiert sein.</p></td>
+    <p>Der Name, mit dem das Betriebssystem die App identifiziert. Üblicherweise wird das Format com.company-name.product-name verwendet.</p>
 
-  </tr>
-
-  <tr>
-
-  <td>
-
-  <p>App Store-ID für die App (iOS)</p></td>
-
-  <td>
-
-  <p>Die für die Implementierung der Force-Aktualisierung erforderliche ID. Die App muss wissen, dass der Teilnehmer zum App Store weitergeleitet werden sollte, um die App zu aktualisieren.</p></td>
-
-  </tr>
-
-   <tr>
-
-  <td>
-
-  <p>Google Play Store-ID für die App (Android)</p></td>
-
-  <td>
-
-  <p>Die für die Implementierung der Force-Aktualisierung erforderliche ID.</p></td>
+   </td>
 
   </tr>
 
   <tr>
 
-  <td>
+   <td>
 
-  <p>Hostname für Deep-Linking</p></td>
+    <p>Name der internen App - iOS</p>
 
-  <td>
+   </td>
 
-  <p>Um Ihre Deep Links zu hosten, verwenden Sie den Learning Manager. Wenn Sie eine andere URL für den Hostnamen als Deep-Link verwenden möchten, geben Sie die URL des Hosts an. Beispiel: learningmanager.adobe.com.</p></td>
+   <td>
+
+    <p>Benennen Sie die App anders, wenn sich Ihre Benutzer in iOS befinden. Es wird empfohlen, für iOS und Android denselben Namen zu verwenden.</p>
+
+   </td>
 
   </tr>
 
-    </tbody>
+  <tr>
+
+   <td>
+
+    <p>App-Symbol</p>
+
+   </td>
+
+   <td>
+
+    <p>Das App-Symbol als png. Dieses Symbol wird in Ihrer App angezeigt. Das zu benennende Format ist account-id_appIcon.png. Die Abmessungen des App-Symbols sind 512 × 512 Pixel.</p>
+
+   </td>
+
+  </tr>
+
+  <tr>
+
+   <td>
+
+    <p>Startbildschirm der App</p></td>
+
+   <td>
+
+    <p>Geben Sie für den Begrüßungsbildschirm Ihrer App ein Bild (png) an, das angezeigt wird, wenn die Benutzer die App starten. Das zu benennende Format ist account-id_splashIcon.png. Die Abmessungen der quadratischen Splashscreens betragen 1052 × 1052 Pixel und der kreisförmigen Splashscreens 768 x 768 Pixel.</p>
+
+   </td>
+
+  </tr>
+
+  <tr>
+
+   <td>
+
+    <p>Client-ID und geheimer Clientschlüssel</p>
+
+   </td>
+
+   <td>
+
+    <p>Der Integrations-Admin Ihres Kontos stellt die Details bereit, während Sie die App registrieren. Der Integrationsadministrator muss Folgendes verwenden:<ul><li>Teilnehmer:lesen,Teilnehmer:als Rolle schreiben</li><li>Interne App name://redirect als Umleitungs-URL</li></ul></p>
+
+   </td>
+
+  </tr>
+
+  <tr>
+
+   <td>
+
+    <p>Kontenlogo</p>
+
+   </td>
+
+   <td>
+
+    <p>Die URL, über die das Logo Ihres Unternehmens gehostet wird. Geben Sie einen cpcontents-Link als Logo für das Konto an. Die URL muss webcodiert sein.</p>
+
+   </td>
+
+  </tr>
+
+  <tr>
+
+   <td>
+
+    <p>App Store-ID für die App (iOS)</p>
+
+   </td>
+
+   <td>
+
+    <p>Die für die Implementierung der Force-Aktualisierung erforderliche ID. Die App muss wissen, dass der Teilnehmer zum App Store weitergeleitet werden sollte, um die App zu aktualisieren.</p>
+
+   </td>
+
+  </tr>
+
+  <tr>
+
+   <td>
+
+    <p>Google Play Store-ID für die App (Android)</p>
+
+   </td>
+
+   <td>
+
+    <p>Die für die Implementierung der Force-Aktualisierung erforderliche ID.</p>
+
+   </td>
+
+  </tr>
+
+  <tr>
+
+   <td>
+
+    <p>Hostname für Deep-Linking</p>
+
+   </td>
+
+   <td>
+
+    <p>Um Ihre Deep Links zu hosten, verwenden Sie den Learning Manager. Wenn Sie eine andere URL für den Hostnamen als Deep-Link verwenden möchten, geben Sie die URL des Hosts an. Beispiel: learningmanager.adobe.com.</p>
+
+   </td>
+
+  </tr>
+
+ </tbody>
 
 </table>
 
