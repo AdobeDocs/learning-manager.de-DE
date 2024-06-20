@@ -4,9 +4,9 @@ title: White Labels in der mobilen Adobe Learning Manager-App
 description: White Labels sind eine Praxis, bei der Sie eine App oder einen Service mit Ihrem eigenen Branding umbenennen und so anpassen, als wären Sie der ursprüngliche Ersteller. In Adobe Learning Manager kannst du die Mobile App mit einer weißen Beschriftung versehen, sodass du ein Rebranding der App vornehmen und die App deinen Benutzern unter deinem eigenen Branding zur Verfügung stellen kannst.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: f25edb0883b71ed9807c347e0ae6733e7b55d40c
+source-git-commit: c056c126a61f16198d42b3a73a3b009a58bd641c
 workflow-type: tm+mt
-source-wordcount: '1205'
+source-wordcount: '1349'
 ht-degree: 0%
 
 ---
@@ -307,16 +307,31 @@ Wenn Sie eine Verbindung zum Server herstellen können, ist das von Ihnen erstel
 
 ### Push-Benachrichtigungen unter Android
 
-Richten Sie ein Projekt in Firebase ein und geben Sie den Serverschlüssel für das CSAM frei.
+Für Android muss der Benutzer die Datei services.json aus dem Firebase-Projekt bereitstellen, um den Eintrag zum SNS-Dienst hinzuzufügen.
 
-Wenden Sie sich an das CSM-Team und rufen Sie die Dateien auf, die den SNS-Diensten in AWS hinzugefügt wurden. Benutzer müssen den Eintrag für die Push-Benachrichtigung im SNS-Dienst registrieren lassen, sodass sie die oben generierten Zertifikate für die Validierung freigeben müssen.
+Erstellen Sie ein Projekt in Firebase und geben Sie die Datei services.json für das CSM-Team frei. Diese Datei wird für den tokenbasierten Eintrag im SNS benötigt. Beachten Sie, dass der Serverschlüssel nicht mehr verwendet wird. Siehe [Erstellen eines Projekts in Firebase](#create-project-in-firebase).
 
->[!NOTE]
->
->Für Android muss der Benutzer den Serverschlüssel aus dem für Android erstellten Firebase-Projekt angeben, um den Eintrag zum SNS-Dienst hinzuzufügen.
+Führen Sie die folgenden Schritte aus, um die Datei services.json herunterzuladen:
 
+1. Melden Sie sich bei der **Firebase** Konsole.
+1. Wechseln zu **Projekteinstellungen** und wählen Sie **Cloud Messaging**.
+1. Suchen **Firebase Cloud Messaging-API** und wählen Sie **Verwalten von Dienstkonten**.
+1. Im Dialogfeld &quot; **Service-Konten** &quot; die Option **Dienstkonten** im linken Bereich.
+1. Suchen Sie Ihren Projekteintrag und wählen Sie **Details verwalten** in Aktionen.
 
-## Erstellen eines Projekts in Firebase
+   >[!NOTE]
+   >
+   >   Das Projekteintragsformat lautet &lt;-accountname->@appspot.gserviceaccount.com.
+
+1. Wechseln Sie zur Registerkarte **Tasten** und wählen Sie **Schlüssel hinzufügen**.
+1. Wenn keine Taste vorhanden ist, wählen Sie **Neuen Schlüssel erstellen** und wählen Sie **JSON** als Schlüsseltyp fest. Dadurch wird die JSON-Datei generiert und heruntergeladen.
+1. Wenn bereits ein Schlüssel vorhanden ist, wählen Sie **Vorhandenen Schlüssel hochladen**, fügen Sie den Schlüssel ein und laden Sie ihn hoch. Dadurch wird die JSON-Datei generiert und heruntergeladen.
+
+<!-- Set up a project in Firebase and share the server key with the CSAM.-->
+
+Wenden Sie sich an das CSM-Team und geben Sie die JSON-Datei frei, um den Eintrag den SNS-Diensten in AWS hinzuzufügen. Benutzer müssen den Eintrag für die Push-Benachrichtigung im SNS-Dienst registrieren lassen, sodass sie die oben generierten Zertifikate für die Validierung freigeben müssen.
+
+## Erstellen eines Projekts in Firebase {#create-project-in-firebase}
 
 ### Android
 
