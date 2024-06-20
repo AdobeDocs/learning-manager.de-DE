@@ -4,9 +4,9 @@ title: Kenntnisse aus externen Quellen importieren
 description: Importieren Sie Kenntnisse von Inhaltsanbietern wie LinkedIn und Go1 mithilfe der entsprechenden Connectors.  Die importierten Kenntnisse werden den vom Administrator definierten Kenntnissen im Lern-Manager hinzugefügt und stehen den Autoren während des Workflows zur Kurserstellung zur Verfügung.
 contentowner: saghosh
 exl-id: 3bcd8fc6-16e4-4f66-a5c6-15b3d606f0c2
-source-git-commit: 64d63c46fc0f9e5daada1eb391e720dc45fbab89
+source-git-commit: 260b413b7bb739dc57504df57a6bd2d6a35df161
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Sie können den Namen der Kenntnisse, die Beschreibung und die Stufen externer K
 
 ### Standardkurskenntnisse und Credits
 
-Nachdem Sie Kenntnisse importiert haben, werden sie den Lernressourcen hinzugefügt, die aus der Quelle importiert wurden, die als Kenntnisquelle ausgewählt wurde. Wenn Ihre Kenntnisquelle beispielsweise &quot;LinkedIn Learning&quot; war, verfügen alle aus LinkedIn Learning importierten Lernressourcen über die Kenntnisse, die darin bereitgestellt werden. Beim Import in Lernressourcen weist jede Lernressource einen Standardwert von 10 Credits auf. Wenn Sie dies ändern möchten, wenden Sie sich an Ihren CSM.
+Nachdem Sie Kenntnisse importiert haben, werden sie den Lernressourcen hinzugefügt, die aus der Quelle importiert wurden, die als Kenntnisquelle ausgewählt wurde. Wenn Ihre Kenntnisquelle beispielsweise &quot;LinkedIn Learning&quot; war, verfügen alle aus LinkedIn Learning importierten Lernressourcen über die Kenntnisse, die darin bereitgestellt werden. Beim Import in Lernressourcen weist jede Lernressource einen Standardwert von 10 Credits auf.
 
 #### Berichte
 
