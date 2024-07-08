@@ -4,9 +4,9 @@ title: Installieren des Salesforce-Pakets
 description: Learning Manager bietet ein Salesforce-App-Paket. Nach der Installation und Konfiguration in SFDC können Vertriebsmitarbeiter ihre Schulungen im SFDC-Portal durchführen. Mit dieser App können SFDC-Benutzer neue Schulungen durchsuchen, Empfehlungen anzeigen und diese direkt im SFDC-Portal nutzen. Anwender erhalten die Benachrichtigungen von Administratoren auch in Form von Briefköpfen direkt in der App innerhalb des SFDC-Portals.
 contentowner: saghosh
 exl-id: 2b1c32e7-81af-4c13-a2bd-66684cde084e
-source-git-commit: dffa765061b35d4559388e4120e51943768c8db8
+source-git-commit: fb946ae98dce45156e2f4c1cf992319405403ea9
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1055'
 ht-degree: 47%
 
 ---
@@ -87,7 +87,7 @@ Um die Adobe-Domain zu vertrauenswürdigen URLs hinzuzufügen, führe die folgen
 1. Über die Salesforce-Konsole kannst du setup **** > **[!UICONTROL Quick Find (Schnellsuche) aufrufen]**.
 1. Suche nach **[!UICONTROL vertrauenswürdigen URLs]**, und wähle &quot;Neue vertrauenswürdige URL ]**&quot;**[!UICONTROL .
 1. Gib einen Namen in das **[!UICONTROL Feld &quot;API Name&quot;]** ein.
-1. Füge die URL als `{}.adobe.com{*}`hinzu.
+1. Tippe `*.adobe.com` in das Feld &quot;URL&quot;.
 1. Wähle alle Kontrollkästchen in **CSP-Richtlinien aus, und speichere** die Änderungen.
 1. Bearbeite das Aktualisierungstoken der Salesforce-App, und speichere es.
 1. Salesforce-App neu starten.
