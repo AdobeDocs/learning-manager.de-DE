@@ -3,20 +3,19 @@ description: Benutzerbenachrichtigungen für Teilnehmende in Learning Manager.
 jcr-language: en_us
 title: Benutzerbenachrichtigungen
 contentowner: manochan
-source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
+exl-id: 2c775635-1e86-4bef-9ca1-b56fbc353ea8
+source-git-commit: de57d96488851c31c380b34672767a803379842e
 workflow-type: tm+mt
-source-wordcount: '417'
-ht-degree: 81%
+source-wordcount: '464'
+ht-degree: 72%
 
 ---
-
-
 
 # Benutzerbenachrichtigungen
 
 <!--User notifications for Learners in Learning Manager.-->
 
-Die Benachrichtigungsfunktion gilt für alle Benutzer des Adobe Learning Manager. Jeder Benutzer erhält jedoch basierend auf seiner Rolle in verschiedenen Szenarien unterschiedliche Benachrichtigungen. Alle Warnungen und Benachrichtigungen an Benutzer werden über das Popup-Dialogfeld für Benachrichtigungen angezeigt.
+Die Benachrichtigungsfunktion gilt für alle Benutzer von Adobe Learning Manager. Jeder Benutzer erhält jedoch basierend auf seiner Rolle in verschiedenen Szenarien unterschiedliche Benachrichtigungen. Alle Warnungen und Benachrichtigungen an Benutzer werden über das Popup-Dialogfeld für Benachrichtigungen angezeigt.
 
 ## Zugriff auf Benachrichtigungen {#accessnotifications}
 
@@ -34,9 +33,13 @@ Die Anzahl der neuen Benachrichtigungen wird durch die markierte Zahl oben am Be
 
 Ein Teilnehmer kann einen Kurs, der ihm von einem Manager zugewiesen wurde, ablehnen, indem er im Benachrichtigungs-Popup-Fenster auf „Ablehnen“ klickt.
 
+## Push-Benachrichtigung planen
+
+Teilnehmer erhalten Push-Benachrichtigungen, wenn sie einen Kurstermin verpassen. Teilnehmer haben die Möglichkeit, entweder 24 Stunden lang eine Erinnerung zu schreiben oder nächste Woche an jede überfällige Erinnerung erinnert zu werden. Dies gilt nur für fristüberfällige Benachrichtigungen.
+
 ## Alle Benachrichtigungen anzeigen {#showallnotifications}
 
-Klicken **[!UICONTROL Alle Benachrichtigungen anzeigen]** am unteren Rand des Benachrichtigungs-Popup-Fensters, um alle Benachrichtigungen auf einer separaten Seite anzuzeigen.
+Klicke **[!UICONTROL unten im Popup-Fenster &quot;Benachrichtigungen&quot; auf &quot;Alle Benachrichtigungen]** anzeigen&quot;, um alle Benachrichtigungen auf einer separaten Seite anzuzeigen.
 
 ![](assets/notifications-page.png)
 
@@ -58,7 +61,7 @@ Teilnehmer erhalten Benachrichtigungen, wenn die folgenden Ereignisse eintreten:
 1. Der Teilnehmer hat eine Nominierung abgelehnt.
 1. Für von Managern genehmigte Kurse: Der Manager hat einen Antrag auf Registrierung für einen Kurs genehmigt/abgelehnt.
 1. Die Teilnehmer-Warteliste wurde geleert.
-1. Der Teilnehmer wurde automatisch für einen Kurs, ein Lernprogramm oder eine Zertifizierung registriert
+1. Der Teilnehmer wurde automatisch für einen Kurs oder ein Lernprogramm oder eine Zertifizierung angemeldet.
 1. Der Teilnehmer hat eine Zertifizierung abgeschlossen.
 1. Ein Manager genehmigt einen Zertifizierungsnachweis/lehnt einen Zertifizierungsnachweis ab, der von einem Teilnehmer hochgeladen wurde.
 1. Wenn die Frist für eine bestimmte Kursinstanz bald abläuft. (Der Administrator kann das Datum festsetzen, ab dem Erinnerungen für Teilnehmer erscheinen.)
@@ -69,8 +72,8 @@ Teilnehmer können nach Abschluss von Kursen, die eine Feedback-Option haben, L1
 
 ![](assets/feedback.png)
 
-*Kursfeedback*
+*Feedback zu Kursen bereitstellen*
 
 >[!NOTE]
 >
->Teilnehmer erhalten die Feedback-Option für Kurse nur, wenn ein Administrator sie für einen bestimmten Kurs aktiviert.
+>Teilnehmer erhalten die Feedback-Option für Kurse nur dann, wenn ein Administrator dies für einen bestimmten Kurs ermöglicht.

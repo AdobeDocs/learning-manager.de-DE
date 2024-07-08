@@ -1,577 +1,340 @@
 ---
-description: Erfahren Sie mehr über die neuen Funktionen und Verbesserungen in der Version März 2024 von Adobe Learning Manager
+description: Weitere Informationen zu den neuen Funktionen und Verbesserungen im Juli 2024-Release von Adobe Learning Manager
 jcr-language: en_us
-title: Zusammenfassung der neuen Funktionen
-contentowner: jayakarr
-exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: 90ebde8049357a4798aa9b23edfa57b8667d6232
+title: Neue Funktionen in dieser Version
+source-git-commit: 7be69e68f3b8970e090c8eccd25771cd2e5e99f1
 workflow-type: tm+mt
-source-wordcount: '3903'
-ht-degree: 1%
+source-wordcount: '2170'
+ht-degree: 3%
 
 ---
 
-# Zusammenfassung der neuen Funktionen {#new-features-summary}
 
-Erfahren Sie mehr über die neuen Funktionen und Verbesserungen in der Version März 2024 von Adobe Learning Manager.
+# Neue Funktionen in dieser Version {#whatsnewandchanged}
 
-Entdecken Sie einige der neuesten Funktionen von Adobe Learning Manager, darunter:
+Erfahrt mehr über die neuen Funktionen und Verbesserungen im Juli 2024 Release von Adobe Learning Manager.
 
-1. Kenntnisse aus externen Quellen importieren
-1. Unterstützung mehrerer Brandings
-1. Checklisten-Neuauswertungs-Aktivitätsmodul
-1. Mobile Lern-App mit weißem Etikett
+## Verbesserung im Compliance-Dashboard
 
->[!NOTE]
->
->Zum Beispiel: [Webinar](https://learningmanager.adobe.com/app/learner?accountId=98632#/course/9212121) , um mehr über die neuen Funktionen in dieser Version zu erfahren.
+### Was ist ein Compliance-Dashboard? {#whatiscompliancedashboard}
 
+Das **[!UICONTROL Compliance-Dashboard]** in **Adobe Learning Manager** ermöglicht es Managern, den Fortschritt der Teilnehmer in Bezug auf ihre Lernziele zu überwachen und zu überwachen. Sie können überprüfen, ob Die Team-Mitglieder Termine einhalten und mit ihrem Lernprozess Schritt halten, um die Compliance zu gewährleisten. Der Administrator kann das Compliance-Dashboard einrichten und an die Manager weitergeben.
 
-## Neue Funktionen in dieser Version {#whatsnewandchanged}
+Um auf das Compliance-Dashboard in der Admin-Applikation zuzugreifen, wähle **[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]** > **[!UICONTROL Compliance Dashboard aus]**.
 
-### Kenntnisse aus externen Quellen importieren
+### Änderungen im Release
 
-Importieren Sie Kenntnisse von Inhaltsanbietern wie LinkedIn und Go1 mithilfe der entsprechenden Connectors. Diese Verbesserung ist Teil des Ziels, Learning Manager in die Lage zu versetzen, sich in externe Skills Clouds und Talent Management Systeme zu integrieren. Die importierten Kenntnisse werden den vom Administrator definierten Kenntnissen im Lern-Manager hinzugefügt und stehen den Autoren während des Workflows zur Kurserstellung zur Verfügung. Darüber hinaus wurden Verbesserungen an der Funktionalität zur Kenntnissuche in der gesamten Plattform vorgenommen, um eine bessere Sucherfahrung zu bieten, wenn das Konto über eine große Anzahl von Kenntnissen verfügt.
+Mit dem erweiterten Compliance-Dashboard können Administratoren und Manager Kurse, Lernpfade oder Zertifizierungen in Bezug auf ihre spezifische Kategorie (z. B. Vertrieb, Marketing und Rechtsabteilung) anzeigen. Administratoren können benutzerdefinierte Compliance-Kurse in bestimmte Kategorien kategorisieren. Benutzerdefinierte Compliance-Kategorien basieren auf Katalog-Labels.  Administratoren können ein Kurs-Dashboard erstellen und an Manager weitergeben. Manager können dann dasselbe Dashboard für ihre jeweiligen Instanzen anzeigen. Verbessert wurden auch die Benutzeroberfläche des Compliance-Dashboards und E-Mail-Benachrichtigungen zur Compliance.![](assets/compliance-dashboard-admin.png)
 
-Anzeigen [Kenntnisse importieren](administrators/feature-summary/import-skills-external-sources.md) , um mehr zu erfahren.
+#### Workflow
 
-### Benutzerdefiniertes Branding
+Die folgenden Schritte für die Verwendung des erweiterten Compliance-Dashboards:
 
-Sie können jetzt bestimmte Benutzeroberflächenelemente anpassen - den Organisationsnamen, das Logo und das UI-Design basierend auf den im Konto verfügbaren Benutzergruppen. Beispielsweise kann eine Organisation mit mehreren Abteilungen ein benutzerdefiniertes Logo und ein UI-Thema einrichten, die für jede Abteilung angezeigt werden.
+| Rolle | Aufgabe | Zusatzinformation |
+|---|---|---|
+| Administration | Benutzerdefinierte Compliance-Labels erstellen | In diesem Artikel [erstellst du benutzerdefinierte Compliance-Labels](/help/migrated/administrators/feature-summary/reports.md#compliance-dashboard) für weitere Informationen. |
+| Autor | Beschriftungen zu Kursen hinzufügen | Weitere Informationen findest du in diesem Artikel [. Füge Compliance-Labels zu Kursen, Lernpfaden und Zertifizierungen](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification) hinzu. |
+| Administration | Erstellt das Dashboard mit dem Compliance-Kurs, und gebt es an Manager weiter. | Weitere Informationen findest du in diesem Artikel [. Erstelle und teile ein Compliance-Dashboard](/help/migrated/administrators/feature-summary/reports.md#create-and-share-a-compliance-dashboard) . |
+| Manager | Compliance-Dashboard anzeigen | Weitere Informationen findest du in diesem Artikel [zum Compliance-Status](/help/migrated/managers/feature-summary/manager-dashboard.md#compliance-status) . |
 
->[!NOTE]
->
->Diese Funktion für mehrere Brandings gilt nicht für die Ansicht des Administrators. Das Branding auf Organisationsebene ist in jedem Account sichtbar. Dies liegt daran, dass dies eine Teilnehmerfunktion ist und die Administratoren diese möglicherweise nicht in ihrem Konto haben möchten.
-
-Anzeigen [Mehrere benutzerdefinierte Brandings](administrators/feature-summary/themes.md#multiple-branding) für weitere Informationen.
-
-
-## Änderungen für Konten mit großer Benutzerbasis
-
-### Admin- Seiten Kurs- oder Lernpfad
-
-Wenn sich viele Teilnehmer für den Kurs registriert haben, z. B. mehr als 50.000, wird die Liste der Teilnehmer nicht angezeigt. Sie können entweder im *Teilnehmer suchen* Suchleiste oder wählen Sie die Option **Herunterladen** oben in der Suchleiste, um die Liste der Teilnehmer herunterzuladen.
-
-### Admin: Seite &quot;Teilnehmer&quot;
-
-Wenn Sie nach einem Benutzer suchen, wird das Dialogfeld &quot; **Teilnehmer herunterladen** und **Exportieren** Optionen laden den gleichen Bericht herunter. In der Zwischenzeit können Sie beim Suchen nach einer Benutzergruppe jetzt gefilterte Benutzer aus dieser Benutzergruppe herunterladen. Wenn Sie eine Benutzergruppe suchen, wird das Dialogfeld &quot; **Teilnehmerliste herunterladen** Änderungen an **Teilnehmerliste für Benutzergruppe herunterladen** Die **Exportieren** lädt die gesamte Liste erneut herunter.
-
-### Admin: Seite &quot;Benutzer&quot;
-
-#### Interne Benutzer
-
-Wenn die Anzahl der Benutzer z. B. 50.000 übersteigt, wird eine Meldung angezeigt, in der Sie die Daten herunterladen können, um später eine detailliertere Analyse durchzuführen. Die Suchleiste ist jetzt hervorgehoben und zeigt einen Benutzer im Format *Name, E-Mail | UUID*.
-
->[!NOTE]
->
->Die UUID wird nur angezeigt, wenn UUID für das Konto aktiviert ist.
-
-#### Externe Benutzer
-
-Für externe Benutzer gilt dasselbe Verhalten. Wenn die Anzahl der Benutzer groß ist, können Sie die Benutzer herunterladen und auch die Details eines Benutzers nach einer Suche im Format abrufen. *Name, E-Mail | UUID*.
-
-#### Seite &quot;Benutzerbereinigung&quot;
-
-Auf der Seite Benutzerbereinigung haben wir für gelöschte Benutzer die Sortierfunktion entfernt für **Löschdatum**. Sie können nur nach UUIDs sortieren.
-
-### Admin- Instanzseiten
-
-#### Kurs oder Lernpfad
-
-Wenn die Anzahl der Registrierungen groß ist, zeigt Adobe Learning Manager nicht die Anzahl der Teilnehmer an. Stattdessen wird ein Symbol angezeigt, das Sie auswählen können, die Anzahl der Teilnehmer anzeigen und zur Seite &quot;Teilnehmer&quot; navigieren können.
-
-Die Anzahl der Teilnehmer wird als ungefährer Wert angezeigt. Wenn beispielsweise die Anzahl der Teilnehmer mehr als 50.000 beträgt, wird der Wert als 50.000+ angezeigt.
-
-### Admin- L1/L3-Seiten
-
-Wenn die Anzahl der Kursregistrierungen groß ist, wird auf der Seite L1-Feedback die Liste der Teilnehmer nicht angezeigt. Stattdessen können Sie die Benutzerliste exportieren, um später eine detailliertere Analyse durchzuführen.
-
-Die Suche unterstützt Type-Ahead und die Ergebnisse sind auf die ausgewählte Instanz beschränkt.
-
-#### Seite Anwesenheit und Punktzahl
-
-Wenn Sie auf der Seite nach einem Benutzer suchen, wird die Suche in allen verfügbaren Instanzen ausgeführt. Das Ergebnis gilt jedoch für die ausgewählte Instanz.
-
-Wenn Sie auf der Seite Anwesenheit nach einer Benutzergruppe suchen und die Anzahl der Benutzer in der Benutzergruppe 10.000 überschreitet, unabhängig von der Registrierung, können Sie nur Aktionen auf Massenebene ausführen. Sie können die Benutzerliste nicht anzeigen.
-
-Wenn die Anzahl der Benutzer in der Benutzergruppe weniger als 10.000 beträgt, können Sie einzelne Aktionen auf Benutzerebene zusammen mit Aktionen auf Massenebene ausführen. In diesem Fall ist die Benutzerliste nicht deaktiviert.
-
-### Seite &quot;Admin- Zertifizierungen&quot;
-
-Wenn in den aktuellen Versionen von Adobe Learning Manager eine große Anzahl von Benutzern für eine Zertifizierung registriert ist, können Sie die nicht registrierten Teilnehmer nicht anzeigen, seit der **Status** &quot; deaktiviert ist.
-
-Wenn die Anzahl der registrierten Benutzer in dieser Version von Adobe Learning Manager groß ist, wird das Dialogfeld &quot; **Status** Dropdown zeigt nur zwei Optionen an: **Registriert** und **Nicht registriert**. Die Option **Registriert** ist standardmäßig ausgewählt. Wenn Sie **Nicht registriert** wird die Liste der nicht registrierten Teilnehmer angezeigt.
-
-#### Änderungen an Benutzergruppen
-
-Wenn die Anzahl der Benutzer in einer Benutzergruppe weniger als z. B. 50.000 beträgt, wird das Dialogfeld **Status** &quot; werden alle Optionen angezeigt - &quot;Zertifiziert&quot;, &quot;Zugewiesen&quot; und &quot;Ablaufend&quot;.
-
-Wenn die Anzahl der Benutzer in einer Benutzergruppe groß ist, wird das Dialogfeld &quot; **Status** Dropdown zeigt nur zwei Optionen an: **Registriert** und **Nicht registriert**, nach dem neuen Design.
-
-### Vergleichstabelle
-
-<table>
-    <tbody>
-        <tr>
-            <td><b>Seite</b></td>
-            <td><b>Vor der Schwellenwertänderung</b></td>
-            <td><b>Nach Änderung des Schwellenwerts</b></td>
-        </tr>
-        <tr>
-            <td>Admin- Kursinstanz</td>
-            <td>Instanzen werden wie folgt angezeigt:
-            <ul>
-                <li>Module</li>
-                <li>Registrierte Teilnehmer</li>
-                <li>Sitzungen</li>
-                <li>Abzeichen</li>
-                <li>L1-Feedback aktiviert</li>
-                <li>Benachrichtigungswarnungen</li>
-                <li>Gamification-Punkte</li>
-                <li>QR-Code</li>
-                <li>Learning Path-Erweiterung</li>
-            </ul>
-            <td>
-                <ul>
-                    <li>Wenn die Anzahl der Registrierungen den vordefinierten Schwellenwert überschreitet, zeigt ALM die Anzahl nicht an. Die Anzahl wird durch ein Symbol ersetzt. Wenn darauf geklickt wird, wird die tatsächliche Anzahl der Teilnehmer und ein Link angezeigt, über den Sie zur Seite "Teilnehmer" gelangen.</li>
-                    <li>Die Anzahl der Registrierungen wird in einem ungefähren Format angezeigt. Wenn die Anzahl beispielsweise mehr als 50.000 beträgt, wird die Anzahl auf Kursebene als 50K+ angezeigt.</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>Admin: Seite "Teilnehmer"</td>
-            <td>
-                    <ul>
-                        <li>Die Liste der Teilnehmer wird für jede Instanz angezeigt.</li>
-                        <li>Sie können einen Benutzer oder eine Benutzergruppe suchen, der bzw. die für einen Kurs registriert ist.</li>
-                        <li>Der exportierte Bericht enthält keine Filter für Benutzergruppe.</li>
-                    </ul>
-            </td>
-            <td>
-                <ul>
-                    <li>Die Auswahl der Instanz ist deaktiviert.</li>
-                    <li>Die Teilnehmerliste herunterladen lädt außerdem dieselben Daten herunter, mit Ausnahme einer Anfrage. Wenn Sie nach einer Benutzergruppe suchen und dann die Option "Teilnehmerliste herunterladen" auswählen, werden die Benutzergruppendaten heruntergeladen.</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>Admin-L1/L3-Feedback-Seite</td>
-            <td>
-                <p>Keine Änderung des bestehenden Verhaltens</p>
-            </td>
-            <td>
-                <ul>
-                    <li>Die Auswahl der Instanz ist deaktiviert.</li>
-                    <li>Wenn die Registrierung für einen Kurs über 50 KB liegt, listet ALM die Teilnehmer nicht auf und zeigt nur die Suchleiste an. Wenn die Registrierung weniger als 50.000 beträgt, zeigt ALM sowohl die Teilnehmerliste als auch die Suchleiste an.</li>
-                    <li>Das Auflisten ist standardmäßig deaktiviert.</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>Admin- Seite Anwesenheit und Punktzahl</td>
-            <td>
-                <p>Keine Änderung des bestehenden Verhaltens</p>
-            </td>
-            <td>
-                <ul>
-                    <li>Die Auswahl der Instanz ist beim Suchen eines Benutzers deaktiviert.</li>
-                    <li>Wenn die Anzahl der Benutzer z. B. 50.000 übersteigt, wird eine zusätzliche Nachricht angezeigt, in der die Daten für eine detailliertere Analyse heruntergeladen werden. Die Suchleiste ist jetzt hervorgehoben und zeigt einen Benutzer im Format Name, E-Mail an. | UUID.</li>
-                    <li>Wenn die Anzahl der Benutzer in der Benutzergruppe unabhängig von der Registrierung weniger als 10.000 beträgt, können Sie einzelne Aktionen auf Benutzerebene zusammen mit Aktionen auf Massenebene ausführen. In diesem Fall ist die Benutzerliste nicht deaktiviert.</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>Seite "Admin- L2 Quizpunktzahl"</td>
-            <td>
-                    <ul>
-                        <li>Die Benutzersuche ist ebenfalls implementiert.</li>
-                    </ul>
-            </td>
-            <td>
-                <ul>
-                    <li>Die Benutzersuche ist ebenfalls implementiert. Während die Voraustippung auf LO-Ebene sucht, wird die Liste nach der aktuell ausgewählten Instanz gefiltert.</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>Admin- Seite "Benutzer" (intern, extern)</td>
-            <td>
-                    <ul>
-                        <li>Die E-Mail-ID wird bei der Suche nach einem Benutzer angezeigt.</li>
-                    </ul>
-            </td>
-            <td>
-                <ul>
-                    <li>Wenn die Anzahl der Benutzer z. B. 50.000 übersteigt, wird eine zusätzliche Nachricht angezeigt, in der die Daten für eine detailliertere Analyse heruntergeladen werden. Die Suchleiste ist jetzt hervorgehoben und zeigt einen Benutzer im Format Name, E-Mail an. | UUID.</li>
-                    <li>Auf der Seite Benutzerbereinigung haben wir für gelöschte Benutzer die Sortierfunktion zum **Datum gelöscht** entfernt. Sie können nur nach UUIDs sortieren.</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>Kursleiter - Einreichung</td>
-            <td>
-                    <ul>
-                        <li>Paginierung der zu sendenden Module.</li>
-                        <li>Als Kursleiter können Sie jetzt Dateiübermittlungen von Teilnehmern nach Status, beendeter Überprüfung, ausstehender Übermittlung, bestanden und fehlgeschlagen filtern. </li>
-                    </ul>
-            </td>
-            <td>
-                <ul>
-                    <li>Sie können nur nach Benutzern suchen, nicht nach Benutzergruppen in dieser Instanz.</li>
-                </ul>
-            </td>
-        </tr>
-        <tr>
-            <td>Auf Vorschau als Teilnehmerseite zählen</td>
-            <td>
-                    <ul>
-                        <li>Die Anzahl enthält die Daten aus der Registrierung mit höherer Reihenfolge.</li>
-                    </ul>
-            </td>
-            <td>
-                <ul>
-                    <li>Die Anzahl schließt Daten aus Registrierungen mit höherer Reihenfolge aus.</li>
-                </ul>
-            </td>
-        </tr>
-    </tbody>
-</table>
-
-## Erweiterte Suchfunktionen
-
-In dieser Version haben wir die Sucherfahrung verbessert. Die Suchergebnisse werden nicht nur anhand der Metadaten, sondern auch semantisch und inhaltlich abgerufen, um Ergebnisse auf der Grundlage von Genauigkeit, Aktualität und relevantem Inhalt abzuleiten.
-
-Diese Änderung spiegelt Folgendes wider:
-
-* Katalog und Meine Lernseite: Die Hover-Aktion auf Kurs, Lernpfad und Zertifizierung wurde entfernt.
-* Das Erscheinungsbild der Suchleiste.
-* In der Lern-App wurden Filter-Tags hinzugefügt.
-
-Wenden Sie sich zum Aktivieren der Suchfunktionen an das CSAM-Team von Adobe Learning Manager.
-
-## Änderungen in der Benutzeroberfläche {#ui-changes}
-
-### Seite zur Kurserstellung
-
-Beim Zuordnen der Kurse zu einer Kenntnisstufe wird die Liste der Kenntnisse zuerst durchsucht. Mit anderen Worten, suchen Sie nach Kenntnissen, und Sie sehen eine Liste von Kenntnissen, die dem gesuchten Begriff entsprechen.
-
-### Benutzergruppen
-
-#### Admin: Teilnehmerseite
-
-Wenn Sie nach einem Benutzer suchen, wird das Dialogfeld &quot; **Teilnehmer herunterladen** und **Exportieren** Optionen laden den gleichen Bericht herunter. In der Zwischenzeit können Sie beim Suchen nach einer Benutzergruppe jetzt gefilterte Benutzer aus dieser Benutzergruppe herunterladen. Wenn Sie eine Benutzergruppe suchen, wird das Dialogfeld &quot; **Teilnehmerliste herunterladen** Änderungen an **Teilnehmerliste für Benutzergruppe herunterladen** Die **Exportieren** lädt die gesamte Liste erneut herunter.
-
-## Änderungen an Berichten
-
-* Die Spalten &quot;Tag(s)&quot; und &quot;Kenntnisse(s)&quot; im Schulungsbericht wurden in &quot;Tag und Kenntnisse&quot; geändert.
-* Bericht hinzugefügt [Gamification-Prüfprotokoll](administrators/feature-summary/reports.md#gamification-audit-trail).
-* Wenn ein Konto mehr als 280000 Teilnehmer enthält, die Kenntnissen zugewiesen sind, wird der Bericht zu Kenntnissen und Teilnehmern als gezippte CSV-Datei heruntergeladen.
-Wenn das Konto weniger als 250000 Teilnehmer hat, wird derselbe Bericht als CSV heruntergeladen.
-Wählen Sie auf der Admin-Seite **Administrator** > **Kenntnisse** > **Kenntnisse** > **Teilnehmer**. Der Bericht wird als CSV heruntergeladen.
-* Die [Sitzungsübersicht - Bericht](administrators/feature-summary/reports.md#session-summary-report) hat zwei neue Spalten: &quot;Standortinformationen&quot; und &quot;Standortbereich&quot;.
-
-## Änderungen an der Erstellung von Klassenzimmern
-
-Basierend auf [Administratoreinstellungen](administrators/feature-summary/classroom.md#classroom-settings)können Sie als Autor [Erstellen, Ändern und Löschen von Speicherorten](administrators/feature-summary/classroom.md#add-classroom-location).
-
->[!NOTE]
->
->Beim Hinzufügen von Speicherort- und Katalogbeschriftungen sehen Autoren (auf der Kurserstellungsseite) und Administratoren (auf der Instanzseite) eine automatisch ausgefüllte Liste von Speicherorten bzw. Katalogbeschriftungen.
-
-Als Administrator können Sie Einschränkungen für einen Autor erzwingen, einen Speicherort für einen Klassenzimmer zu ändern oder zu löschen. Anzeigen [Einstellungen für Klassenzimmer](administrators/feature-summary/classroom.md#classroom-settings) für weitere Informationen.
-
-## Änderungen am flexiblen Lernpfad
-
-Alle Konten (alt und neu) in werden gestartet, einschließlich Registrierungsfrist, Registrierungsfrist für Aufhebung der Registrierung und Sitzplatzbeschränkung in der Teilnehmer-App für einen flexiblen Lernpfad.
-Teilnehmer können sich jetzt für einen flexiblen Lernpfad registrieren, ohne eine Instanz des Kurses auszuwählen.
-
-## Neuer Trigger für Lernpläne
-
-Ein neuer Trigger wurde der Lernplan-Einrichtungsseite hinzugefügt. Autoren und Administratoren können jetzt Aktionen auslösen, wenn ein Teilnehmer ein Modul eines Kurses nicht besteht.
-
-Anzeigen [Lernpläne](administrators/feature-summary/learning-plans.md) für weitere Informationen.
-
-## Neuer Übermittlungsstatus
-
-Als Kursleiter können Sie jetzt Dateiübermittlungen von Teilnehmern nach Status, beendeter Überprüfung, ausstehender Übermittlung, bestanden und fehlgeschlagen filtern.
-
-Anzeigen [Übermittlungsstatus](instructors/feature-summary/learners.md#filter-file-submissions) für weitere Informationen.
-
-## Verbesserungen der Checkliste
-
-In der Version März 2024 von Adobe Learning Manager wurden folgende Verbesserungen am Checklisten-Arbeitsablauf vorgenommen:
-
-### Fortschritt bei nicht bestandener Checkliste verhindern
-
-Beim Erstellen einer Checkliste kann ein Autor **Aktivieren** im Abschnitt Obligatorische Checkliste . Dadurch wird verhindert, dass ein Teilnehmer das Modul fortsetzt, wenn er die Checkliste nicht besteht. Sie können nur fortfahren, wenn sie die Checkliste bestehen.
-
-Die Prüflistenprüfer, d. h. Kursleiter oder Manager, können dann den Status der Prüfliste überprüfen. Reviewer können die Checkliste eines Teilnehmers auch ungeordnet durchsehen.
-
-### Neubewertung einer Checkliste
-
-Beim Erstellen einer Checkliste kann ein Autor **Aktivieren** im Abschnitt &quot;Neubewertung&quot;. Dadurch kann ein Manager oder Kursleiter einen Teilnehmer neu bewerten, bis er die Checkliste besteht.
-
-Wenn das Modul obligatorisch ist, ist das Kontrollkästchen für die Neubewertung standardmäßig aktiviert.
-
-Ein Kursleiter oder Manager kann auch den Status einer Checkliste von &quot;Nicht bestanden&quot; in &quot;Bestanden&quot; ändern, wenn die Neubewertung aktiviert ist.
-
-Auf der Seite Checkliste kann ein Kursleiter die Anzahl der Teilnehmer mit dem Status &quot;Ausstehend&quot; anzeigen. Als Kursleiter können Sie einen Teilnehmer bewerten und ihn bestehen oder durchfallen lassen. Wenn ein Teilnehmer den Status &quot;Fehlgeschlagen&quot; aufweist, können Sie die Checkliste nur anzeigen, wenn die Neubewertung nicht aktiviert ist.
-
-Dies bedeutet, dass die **Aktivieren** Das Kontrollkästchen wurde beim Erstellen der Checkliste im Abschnitt &quot;Neubewertung&quot; nicht aktiviert. Wenn dieses Kontrollkästchen aktiviert ist, wird die Schaltfläche &quot;Anzeigen/Erneut bewerten&quot; auf der Seite &quot;Kursleiter-Checkliste&quot; angezeigt.
-
-Wenn Sie die Schaltfläche auswählen, können Sie einen Teilnehmer neu bewerten und ihn als bestanden oder als abgelehnt markieren.
-
->[!NOTE]
->
->Beide Funktionen - Neubewertung und Checkliste als obligatorisch festlegen - gelten nur für neu erstellte Module. Sobald ein Kurs veröffentlicht wurde, können diese nicht mehr aktiviert/deaktiviert werden.
-
-
-Anzeigen [Erstellen einer Checkliste](authors/feature-summary/courses.md#checklist-fail) für weitere Informationen.
-
-## Sonstige Verbesserungen
-
-### Sitzungsbezogene E-Mail-Benachrichtigungen
-
-In früheren Versionen von Adobe Learning Manager hat ein Teilnehmer keine sitzungsbezogenen E-Mails, Sitzungsdetails aktualisiert, Sitzungseinladung und Sitzungserinnerung erhalten, wenn:
-
-* Teilnehmer haben einen Kurs abgeschlossen,
-* Neue Sitzungen werden einem Kurs hinzugefügt oder
-* Es gibt Änderungen an vorhandenen Sitzungen.
-
-In der Adobe Learning Manager-Version vom März 2024 wurden folgende Änderungen vorgenommen:
-
-* Sitzungsdetails aktualisiert und Sitzungseinladung (für Teilnehmer und Kursleiter)
-   * Für zukünftige Sitzungen, E-Mails für **Sitzungsdetails aktualisiert**, **Einladung zur Sitzung** für registrierte Teilnehmer und aktuelle Kursleiter werden verworfen. Bei früheren Sitzungen wurden E-Mails für **Sitzungsdetails aktualisiert** und **Einladung zur Sitzung** für registrierte Teilnehmer und aktuelle Kursleiter bleiben unverändert.
-* Erinnerungs-E-Mails (für Administrator und Teilnehmer)
-   * Nur für zukünftige Sitzungen **Sitzungserinnerung** E-Mails werden versendet.
-
->[!NOTE]
->
->Die E-Mails hängen nicht von der Sitzung und dem Kursabschluss ab.
-
-
-### AEM Änderungen am Referenzstandort
-
-Auf einer AEM haben wir Unterstützung für das Hinzufügen eines Admin-Aktualisierungstokens zu einem Teilnehmerzugriffstoken hinzugefügt.
-
-### Einreichungen von Kursleitern ausblenden
-
-Wenn ein Kursleiter nach dem Hochladen seiner Dateien mithilfe des Arbeitsablaufs für die Dateiübermittlung keine Aktion (Genehmigen oder Ablehnen) für die Übermittlung ausführt, wird die Übermittlungs-URL nach einer vordefinierten Anzahl von Tagen aus der Ansicht ausgeblendet. Wenden Sie sich an die CSAM-Teams von Adobe Learning Manager, um die Anzahl der Tage festzulegen oder zu ändern.
-
-### Änderungen an der Produktterminologie
-
-Wir haben die Spalten hinzugefügt. *Instanz* und *Teilnehmer* in das Produktterminologie-Vokabular ein.
-
-### Änderungen an mobilen Apps
-
-In dieser Version der mobilen App können Teilnehmer überfällige Kurserinnerungen planen und verwalten. Wenn Sie auf eine Benachrichtigung bei einer überfälligen Erinnerung klicken, können Sie auf die folgenden Optionen zugreifen:
-
-* Abbrechen
-* Zum Kurs
-* In 3 Tagen wieder erinnern
-* Erinnere mich in einer Woche wieder.
-
-Unter Android: Wenn Sie auf die Push-Benachrichtigung klicken, werden Sie zum **Kursübersicht** angezeigt.
-Auf iOS: Durch Klicken auf die Push-Benachrichtigung werden Sie zur Startseite der App geleitet. Dies ist eine bekannte Einschränkung in iOS.
-
-### Änderungen an der Checkliste in der Teilnehmer-App in Salesforce
-
-Wenn ein Teilnehmer eine Checkliste nicht besteht, kann er nicht zum nächsten Modul oder Kurs übergehen. Wenn das Kontrollkästchen &quot;Obligatorische Checkliste&quot; aktiviert ist, kann der Teilnehmer einen Kurs nicht fortsetzen, wenn er die Checkliste nicht besteht.
-
-Wenn ein Teilnehmer eine Checkliste für die Salesforce-App nicht abschließt, wird wie bei der Web-App eine Meldung angezeigt und der Vorgang wird nicht fortgesetzt.
-
-### Änderungen in Connect VC
-
-In aktuellen Versionen von Adobe Learning Manager wird ein Teilnehmer als **Nicht besucht** wenn sie für eine Connect VC-Sitzung registriert sind, aber die Abschlusskriterien nicht erfüllt haben.
-
-In dieser Version ändert sich der Status in **Noch zu markieren**.
-
-### Weißetikettierung in Adobe Learning Manager
-
-Die mobile Adobe Learning Manager-App unterstützt jetzt die weiße Beschriftung, d. h., Sie können die App jetzt unter Ihrem eigenen Branding veröffentlichen.
-
-Ansicht Weiße Beschriftung in [Adobe Learning Manager-App](white-label.md) für weitere Informationen.
-
-### Neue Spalte in Migrations-CSVs
-
-In dieser Version ist die neue, optionale Spalte &quot;uniqueLoId&quot; in den folgenden Migrations-CSVs enthalten.
-
-* certification.csv
-* course.csv
-* learning_program.csv
-
->[!NOTE]
->
->Die **uniqueLoId** Spalte ist optional.
-
-
-Wenn Sie eine Migration durchführen, um einen vorhandenen Kurs, einen Lernplan oder eine Zertifizierung zu aktualisieren, wird der Kurs, der Lernplan oder die Zertifizierung mit dem **uniqueLOId** s werden der Autoren-App hinzugefügt.
-
-Während der Migration müssen Sie die **uniqueLOId** Werte in den CSVs für den Kurs, den Lernplan oder die Zertifizierung an, obwohl es sich um eine optionale Spalte handelt.
-
-Wenn die Option **uniqueLoId** wird nicht hinzugefügt, bevor Sie die Migration durchführen, während Sie den vorhandenen Kurs oder Lernplan oder die Zertifizierung mit **uniqueLOId** s, dann nach der Migration die **uniqueLOId** -Werte werden mit NULL-Werten überschrieben.
-
->[!NOTE]
->
->Die Spalte **uniqueLoId** gilt nicht für die CSV-Datei &quot;Arbeitshilfe&quot;.
-
+## Benutzeroberfläche des Teilnehmers wird überarbeitet.
 
 >[!IMPORTANT]
 >
->Die Spaltenwerte müssen im Konto eindeutig sein. Sie können nicht denselben Wert für einen Kurs oder eine Zertifizierung verwenden.
+>Die neue Benutzeroberfläche für Teilnehmer wird in Phasen veröffentlicht.
 
-Laden Sie die CSV-Dateien von der Seite [Migrationshandbuch](integration-admin/feature-summary/migration-manual.md#csv-specifications-and-sample-csvs).
+Die **Benutzeroberfläche** der Teilnehmer wurde mit einem eleganteren und moderneren Design aktualisiert. Die **[!UICONTROL Landingpages &quot;Learner Home]**&quot;, **[!UICONTROL &quot;My Learning&quot;, &quot;My Learning]**&quot;, **[!UICONTROL &quot;Catalog]**&quot; und **[!UICONTROL &quot;Course Overview]** &quot; erhalten einen neuen und modernen Look. Kurskarten haben auch ein neues Design, um Details auf moderne Weise anzuzeigen. Die Mauszeiger auf einer Kurskarte zeigen die Kursbeschreibung und das Veröffentlichungsdatum an.
 
+>[!NOTE]
+>
+>Die überarbeitete Benutzeroberfläche gilt nur für das immersive Layout. Diese Änderungen werden im Mobilen Web oder in der App noch nicht unterstützt und in einem zukünftigen Release aktualisiert.
 
-### App-Bewertung
+![](assets/old-ui.png)
+_Alte Benutzeroberfläche_
 
-Ein Teilnehmer kann sein Feedback zur Adobe Learning Manager-App abgeben, um das App-Erlebnis weiter zu verbessern. Wenn der Teilnehmer die Bewertung vier Sterne oder mehr hat, wird ein Popup angezeigt, in dem der Teilnehmer aufgefordert wird, die App im Play Store oder auf App Store zu bewerten.
+![](assets/new-ui.png)
+_Neue Benutzeroberfläche_
 
-### Bluejeans hat im Februar 2024 das Ende seiner Lebensdauer erreicht.
+### Was sich in dieser Version ändert
 
-Wir möchten Sie darüber informieren, dass Bluejeans am Februar 2024 sein Lebensende (EOL) erreicht hat. Nach Februar 2024 erhält Bluejeans keine Updates und keinen Support mehr. Unsere CSAM- und Support-Teams unterstützen Sie bei Fragen oder Bedenken, die Sie während dieser Übergangszeit haben.
+**Look-and-Feel modernisieren.**
 
-Anzeigen [Connectors in Adobe Learning Manager](integration-admin/feature-summary/connectors.md) für weitere Informationen zum Konfigurieren von Konnektoren.
+Die neuen, aufgefrischten visuellen Elemente passen sich an moderne Design-Trends an, sodass das Produkt intuitiv und ansprechend wirkt. Dazu gehören ein neuer Kopf, ein Seitenfenster und moderne Widgets.
 
-### Änderungen am Anmeldezugriffsbericht
+**Verbessertes Anwendererlebnis.**
 
-Der Bericht über den Anmeldezugriff ist nur für die letzten fünf Quartale verfügbar. Wenn ein Integrations-Admin den On Demand-Download des einheitlichen Exports mit **Anmeldezugriff** aktiviert ist, zeigt Adobe Learning Manager eine Fehlermeldung an. Es gibt jedoch keine Auswirkungen auf andere Berichte.
+Teilnehmer erhalten nun eine ähnliche Kartenansicht auf den Seiten Homepage, Katalog, Mein Lernen und Kursüberblick, die ein einheitliches Erlebnis bieten.
 
-### ADFS-Änderungen
+Weitere [Informationen findest du auf der Startseite](/help/migrated/learners/feature-summary/learner-home-page.md) der Teilnehmer.
 
-Die Felder &quot;Mitarbeitertyp&quot; und &quot;Mitarbeiter-ID&quot; aus ADFS sind jetzt basierend auf den Zuordnungen in der Adobe Learning Manager verfügbar.
+**Änderungen an Kursveröffentlichungsterminen**
+
+Mit dieser Erweiterung werden die Veröffentlichungsdaten für LinkedIn- und Go1-Kurse, die in Adobe Learning Manager importiert wurden, die tatsächlichen Veröffentlichungsdaten an LinkedIn und Go1 sein. Sie können auch die tatsächlich veröffentlichten Termine für die LinkedIn- und Go1-Kurse auf der Benutzeroberfläche anzeigen. Weitere [Informationen findest du auf Kurskarten](/help/migrated/learners/feature-summary/learner-home-page.md#course-cards) .
+
+## Updates für nicht angemeldete Erlebnisse
+
+Das nicht angemeldete Erlebnis ermöglicht die Erstellung eines Echtzeiterlebnisses für nicht angemeldete Kunden. Dies dient als Landingpage für ihre Marketing-Kampagnen und bietet genügend Informationen, um Anmeldungen zu fördern.
+
+### Was ändert sich in dieser Version?
+
+Kunden können ein Premium-Abo erwerben, um diese hochgradig skalierbaren, nicht angemeldeten Erlebnisse zu erstellen. Dieses nicht protokollierte Erlebnis auf Basis des Schulungsdatenzugriffs](/help/migrated/integration-admin/feature-summary/connectors.md#training-data-access) bietet Mithilfe von [Adobe Learning Manager-APIs Echtzeitdaten zu Sitzbeschränkungen, Lizenzen, Wartezeiten und Wartelistenzählungen. Mit diesen APIs können Kunden nicht angemeldete Teilnehmer Such- und Filterfunktionen sowie eine vollständige Kursübersicht anbieten.
+
+>[!NOTE]
+>
+>Bitte wende dich an das Support-Team oder CSAM, um das Premium-Abo zu erwerben.
+
+## Unterstützung mehrerer Stock-Keeping Units (SKUs)
+
+Teilnehmer können nun mehrere Kurse, Lernpfade oder Zertifizierungen in den Warenkorb legen und sie gemeinsam erwerben.
+
+### Änderungen im Release
+
+Früher konnten Teilnehmer jeweils nur einen Kurs kaufen. In dieser Version von **Adobe Learning Manager** können sie mit dem Warenkorb mehrere Kurse, Lernpfade oder Zertifizierungen gleichzeitig erwerben.
+
+Diese Funktion ist nur in den Programmen der Teilnehmer (vorhandene Benutzeroberfläche, neue Benutzeroberfläche für Teilnehmer und immersive App für Smartphones und Tablets) verfügbar.
+
+Warenkorb mit mehreren Artikeln in ALM anzeigen [](/help/migrated/learners/feature-summary/multi-item-cart.md)
+
+## Unterstützung von HTML5-Inhalten in Fluidic Player
+
+**Adobe Learning Manager** unterstützt jetzt das Hochladen von HTML5-Inhalten als .zip datei in die Content-Bibliothek. Nach dem Upload können diese Dateien als Module in einem Kurs enthalten sein. Autoren können auch die Abschlusskriterien für selbstgesteuerte HTML5-Module definieren, sodass der Abschluss entweder vom Teilnehmer markiert oder beim Start automatisch abgeschlossen werden kann.
+
+### Was ändert sich in dieser Version?
+
+Adobe Learning Manager unterstützt jetzt HTML5-gestützte Inhalte in kursbasierten Kursen. Autoren können HTML5-Inhalte als .zip datei zu selbst erstellten Inhalten hinzufügen. Teilnehmer können die HTML5-Inhalte im Fluidic Player anzeigen. Mit der neuen Funktion können Teilnehmer den Kurs nun direkt im Fluidic Player markieren, um kurse mit Selbststudium durchzuführen. Ansicht [. Füge html5-Dateitypen in der Inhaltsbibliothek](/help/migrated/authors/feature-summary/content-library.md#add-html5-file-type-in-the-content-library) hinzu, um weitere Informationen zu erhalten.
+
+Mit der neuen Erweiterung wird der Kurs mit dem externen Link automatisch als abgeschlossen markiert, wenn der URL besucht wird, solange der Autor die Abschlusskriterien auf die neue Option **[!UICONTROL &quot;Inhalte]** starten&quot; gesetzt hat. Die neue Option **[!UICONTROL Abschlusskriterien]** wurde auf der Seite Aktivitätsmodul hinzugefügt, auf der der Autor die Abschlusskriterien für die externen Links festlegen kann. Ansicht [. Füge im Aktivitätsmodul](/help/migrated/authors/feature-summary/courses.md#add-html-link-in-the-activity-module) HTML Link hinzu, um weitere Informationen zu erfahren.
+
+![](assets/completion-criteria-activity-module.png)
+_Abschlusskriterien – Option-Aktivitätsmodul_
+
+## Überfällige Push-Benachrichtigungen über die Mobile App
+
+Teilnehmer erhalten Push-Benachrichtigungen, wenn sie einen Kurstermin verpassen. Mit dieser neuen Verbesserung haben Teilnehmer jetzt die Möglichkeit, eine Erinnerung entweder 24 Stunden lang zu noozieren oder nächste Woche für jede überfällige Erinnerung erinnert zu werden. Dies gilt nur für fristüberfällige Benachrichtigungen. Ansicht [Push-Benachrichtigung planen](/help/migrated/learners/feature-summary/user-notifications.md#schedule-the-push-notification)
 
 ## API-Änderungen in dieser Version
 
-### Teilnehmer-APIs
+### API durchsuchen
 
-In dieser Version haben wir API-Unterstützung für Teilnehmer hinzugefügt, um das Branding-Logo und personalisierte Themen auf Benutzergruppenebene anzuzeigen.
+Der Such-API umfasst die folgenden Änderungen:
 
-Die APIs /account und /user?include=account geben vier Felder zurück, die speziell für das aktive Feld des Benutzers überschrieben wurden, das zu logoUrl, logoStyling und themeData gehört.
+Teilnehmer können über die API innerhalb von ```GET /search``` Katalogfiltern nach Tags suchen. Teilnehmer können die Tags durchsuchen, indem sie ```tag``` den Wert für ```filter.loTypes``` den Parameter auswählen.
 
-### Neue Attribute
+**Curl-Beispiel**
 
-Ein neues Attribut ist &quot;ExpiredSubmission&quot; in &quot;learningObjectResource&quot;, das anzeigt, ob die Übermittlung in der Ressource abgelaufen ist.
+```
+curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth 5a858f23924f4feafa38ae8d6c4d97b6' 'https://example.com/primeapi/v2/search?page[limit]=10&query=Business&autoCompleteMode=true&filter.loTypes=tag&sort=relevance&filter.ignoreEnhancedLP=true&matchType=phrase&persistSearchHistory=true&stemmed=false&highlightResults=true'
+```
 
-* GET /account API: Gibt neues Attribut zurück **expireSubmissionDuration** X, wobei X die eingestellte Anzahl der Tage ist. Wenn nicht festgelegt, wird 0 zurückgegeben.
-* GET/LO-API mit Ressource enthält neues Attribut **isExpiredSubmission**&quot;True oder False.
-   * True, wenn die Übermittlung abgelaufen ist und &quot;submissionUrl&quot; nicht angezeigt wird.
-   * Wenn der Wert auf &quot;False&quot; gesetzt ist, ist die Übermittlung nicht abgelaufen und &quot;submissionUrl&quot; wird abgerufen.
+Die neuen Filter, die verfügbaren Plätze, die Warteliste und der Zeitbereichsfilter wurden zu den folgenden APIs hinzugefügt: ```GET /search``` und `GET /learningObjects`.
 
-### API-Änderungen in der Checkliste
+Die neuen Filter `filter.session.includeEnrollmentDeadline` wurden zu den folgenden API ```GET /search```hinzugefügt.
 
-Ein Kurs kann aus mehreren Modulen bestehen, von denen die Checkliste ein Modultyp ist. Dieses Checklistenmodul wird vom Kursleiter ausgewertet und kann basierend auf der Auswertung als &quot;Fehlgeschlagen&quot; oder &quot;Erfolg&quot; markiert werden.
+### Konto-API
 
-In beiden Fällen wird der Status der Checkliste jedoch als Abgeschlossen und auf diese Weise als Abgeschlossen gekennzeichnet.
+Die neue Spalte `custom_injections``showComplianceLabel`, und `complianceLabelDefaultID` wurden im ```GET /account``` API hinzugefügt, um Kontodaten des Benutzerendpunkts zu erhalten.
 
-In dieser Version enthält die LO-API den Parameter *isChecklistObligatory*. Wenn der Wert &quot;True&quot; ist, ist die Checkliste obligatorisch.
+### Lernobjekt-API
 
-### Unterstützung für mehrere Gebietsschemas
+Die folgenden Änderungen am Lernobjekt API in diesem Update:
 
-Ein Administrator kann jetzt den L1-Feedbackbericht in der Sprache seiner Wahl herunterladen. Sie können jedoch noch keine L1-Feedbackberichte für den Power BI herunterladen. Verwenden Sie in der API-Anforderung den Parameter &quot;preferLocale&quot;, um das gewünschte Gebietsschema anzugeben.
+Die neue Antwort-Author-ID und weitere Details, die `GET /learningObjects` im `authorDetails` API hinzugefügt wurden. Außerdem wurde ein neuer Filter hinzugefügt, `filter.authors`um ältere Autoren und ihre Kurse zu filtern.
 
-### Änderungen an der Zusammenfassung der Instanzenanzahl
+Das neue Attribut namens `effectivenessIndex` hilft Ihnen, die Kurseffektivitätsdaten zu erhalten.
 
-Dies gilt für Konten, bei denen die Registrierungen für einen Klassenzimmer-/VC-Kurs mehr als 1000 betragen.
+**Curl-Beispiel**
 
-Wenn die Anzahl kleiner als 1000 ist, wird der Cache durch die Registrierungen ungültig und die aktualisierten Werte werden in einem API-Aufruf für die GET-Übersicht zurückgegeben, z. B. Anzahl der Registrierungen, Abschluss und seatLimit.
+```
+curl --location 'https://example.com/primeapi/v2/learningObjects/course%3A9790045?enforcedFields%5BlearningObject%5D=effectivenessData' \
+--header 'Accept: application/vnd.api+json' \
+--header 'Authorization: oauth 598665ab5c8a99bea0e774d9faf7f3ca'
+```
 
-Wenn das Konto für diese Funktion aktiviert ist und die Anzahl der Registrierungen mehr als 1000 beträgt, werden die Werte aus dem Cache abgerufen.
+Die neue Antwort `whoShouldTake`, die Details darüber enthält, wer diesen Kurs belegen sollte, wurde den folgenden APIs hinzugefügt: `POST /learningObjects/query`, , `GET /learningObjects/{id}`und `GET /learningObjects`.
 
-### Veraltete Pfade
+**Curl-Beispiel**
 
-Derzeit folgen Learning Manager-APIs einer Diagrammdatenstruktur, mit der Sie Daten abrufen können, indem Sie das API-Modell durch Includes durchlaufen. Auch wenn Sie eine API auf bis zu sieben Ebenen durchlaufen könnten, ist das Abrufen der Daten mit einem einzigen API-Aufruf rechnerisch kostspielig.
+```
+curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth 28a83fb8c87579af8ebc4434cc80f0c0' 'https://example.com/primeapi/v2/learningObjects/course%3A1131255' 
+```
 
-Wir empfehlen allen bestehenden und neuen Kunden, mehrmals anstatt eines einzigen großen Anrufs kleine Anrufe zu tätigen. Dadurch wird verhindert, dass unerwünschte Daten in den Aufruf geladen werden.
+Die neue Antwort `waitlistLimit`, die Details zur Einschränkung der Warteliste enthält, wurde dem `GET /learningObjects` API hinzugefügt.
 
-#### Welche Pfade veraltet sind
+Die neue Antwort `count` , die die Gesamtzahl der Lernobjekte ergibt, wurde zu den APIs `GET/ learningObjects` und `POST/ learningObjects/query`hinzugefügt.
 
-Die folgenden Pfade sind veraltet:
+Die neuen Antworten `catalogFieldId` `fieldValueId` und wurden in `GET/ learningObjects` API hinzugefügt`catalogLabels`.
 
-* /learningObjects
-   * Veraltete Pfade:
-      * enrollment.loInstance.loResources.resources
-      * instances.loResources.resources
-   * Bestehende Pfade:
-      * enrollment.loInstance
-      * instances.loResources
-* /learningObjects/{id}
-   * Veralteter Pfad:
-      * enrollment.instances.subLoInstances.learningObject
-   * Vorhandener Pfad:
-      * enrollment.instances.subLoInstances
-* /enrollments
-   * Veralteter Pfad:
-      * loInstance.learningObject.enrollment
-   * Neuer Pfad:
-      * loInstance.learningObject
-* /learningObjects/{id}
-   * Veralteter Pfad:
-      * instance.subLoInstances.learningObject.enrollment.loResourceGrades
-   * Neuer Pfad:
-      * instance.subLoInstances
+Teilnehmer können die Katalogetikettenwerte in der API `GET /preview/learningObjects`abrufen.
 
-### Änderungen an der Archivierung des Anmeldezugriffs und Benutzerprüfungsberichts für die Job-API
+### Neue API für die Anzahl der Marketplace-Erlebnisse
 
-Mit dieser Version wird der Anmeldezugriffsbericht für die Job-API bis zu fünf Quartale und der Benutzerprüfbericht sechs Monate lang gespeichert. Wenn Sie die Daten herunterladen möchten, die älter als dieser Zeitraum sind, müssen Sie den Archivparameter übergeben und Quartal und Jahr angeben. Siehe die Beispiel-Nutzlast.
+In dieser Version wurde eine neue API `GET /search/marketplace/count` hinzugefügt. So erhaltet ihr die Zählung der verfügbaren Lernobjekte auf dem Content-Markt.
+
+**Curl-Beispiel**
+
+```
+curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth d8631c7b0e3b5d2ae00422ef30aaecfc' 'https://example.com/primeapi/v2/search/marketplace/count?query=course'
+```
+
+**Beispielantwort**
 
 ```
 {
-    "data": {
-        "type": "job",
-        "attributes": {
-            "description": "description of your choice",
-            "jobType": "generateLoginAccessReport",
-            "payload": {
-                "fromDate": "2023-04-01T18:30:00.000Z",
-                "toDate": "2023-04-30T18:30:00.000Z",
-                "archive": {
-                    "quarter": "4",
-                    "year": "2021"
-                }
-            }
-        }
-    }
+  "count": 54910
 }
 ```
 
-Wenn Sie versuchen, die Datei **Anmeldezugriff** -Bericht, der über fünf Quartale hinausgeht, wird eine Fehlermeldung angezeigt. Eine ähnliche Fehlermeldung wird angezeigt, wenn Sie versuchen, die Datei **Benutzerüberwachung** Bericht, der mehr als sechs Monate dauert.
+### Lernobjektinstanzen API
+
+Die folgenden Änderungen an der Lernobjektinstanz API in diesem Update:
+
+In dieser Version wurde der Lernobjektinstanz `GET /learningObjects/{loId}/instances/{loInstanceId}`API ein neuer Schlüssel namens `gamificationEnabled` hinzugefügt.
+
+**Curl-Beispiel**
+
+```
+curl --location 'http://example.com/acapapi/primeapi/v2/learningObjects/learningProgram:12756/instances/learningProgram:12756_15644' 
+```
+
+Das neue `gamificationSettings` Attribut zu den obigen API, um die Details der Gamification-Einstellungen zu erhalten. Beispiel: `GET /learningObjects/{loId}/instances/{loInstanceId}/gamificationSettings`.
+
+**Curl-Beispiel**
+
+```
+curl --location 'http://example.com/acapapi/primeapi/v2/learningObjects/learningProgram:103852/instances/learningProgram:103852_103526/gamificationSettings'
+```
+
+Das neue `leaderboard` Attribut zu den obigen API, um die Details der Gamification-Einstellungen zu erhalten. Beispiel: `GET /learningObjects/{loId}/instances/{loInstanceId}/leaderboard`.
+
+**Curl-Beispiel**
+
+```
+curl --location 'https://example.com/primeapi/v2/learningObjects/learningProgram:106339/instances/learningProgram:106339_105775/leaderboard' \
+--header 'Accept: application/vnd.api+json' \
+--header 'Authorization: oauth de4b5ee6efdd42375130db27ff503dd4'
+```
+
+### Änderungen an Versatzgrenzen
+
+Um die Systemleistung zu verbessern und die Ressourcennutzung effektiver zu verwalten, hat Adobe hohe Offset-Werte im Endpunkt &quot;GET/Anwender&quot; sowohl für ADMIN als auch für TEILNEHMER deaktiviert. Wir empfehlen, die Jobs-API zu verwenden, um die Datensätze mit einem Versatzwert abzurufen.
 
 ### Veraltete APIs
 
-Anzeigen [API-Veraltungen in Adobe Learning Manager](api-deprecations-list.md) für eine kumulative Liste aller veralteten APIs im Produkt.
+Eine [kumulative Liste aller veralteten APIs im Produkt API-Deprecations in Adobe Learning Manager](/help/migrated/api-deprecations-list.md) anzeigen.
 
-## In diesem Update behobene Fehler {#bug-fixes}
+## Änderungen am Reporting
 
-* Wenn ein Teilnehmer für einen Kurs registriert wird und dann versucht, sich für einen anderen Kurs zu registrieren, wird eine Warnmeldung angezeigt.
-* Eine Benutzergruppe ist auch nach dem Löschen in der Suche sichtbar.
-* Wenn Benutzer viele Teilnehmertranskripte mit einer großen Datenmenge auslösen, wird die Warteschlange für Teilnehmertranskripte blockiert und eine neue Anforderung wird verhindert.
-* Wenn ein untergeordnetes Konto sein übergeordnetes Konto auffordert, einen Bericht freizugeben, ist das übergeordnete Konto nicht in der Lage, dies zu tun.
-* Die URLs eines Kurses und eines Lernpfads werden an falsche Speicherorte umgeleitet.
-* Ein Teilnehmer zeigt gelegentlich die Kursinstanz eines anderen Kurses an, wenn er auf den Kurslink auf der Katalogseite klickt.
-* Die **Registrierung aufheben** wird nach der ersten Registrierung nicht wie erwartet angezeigt, aber die Schaltfläche wird nach einer Aktualisierung angezeigt.
-* Sie können Inhalt oder ein Quiz, dessen Name einen Leerraum enthält, nicht speichern.
-* Bei vom Manager genehmigten Kursen können Sie Teilnehmer in einer Benutzergruppe erneut registrieren.
-* Wenn Sie versuchen, ein zusätzliches aktives Feld hinzuzufügen, wird in einigen Fällen die Fehlermeldung &quot;Aktive Felder konnten nicht gespeichert werden.&quot; angezeigt.
-* Der Text im Namen eines Kurses innerhalb einer Kurskarte im Abschnitt &quot;Verwandte Kurse&quot; fließt über.
-* Nachdem Sie eine Instanz gewechselt und einen Teilnehmer für die Instanz registriert haben, sind die alten Instanzen weiterhin im Outlook-Kalender vorhanden.
-* Wenn ein Teilnehmer aus einem Peer-Konto versucht, die Miniaturansicht eines Kurses auszuwählen, wird eine Fehlermeldung angezeigt.
-* Wenn Teilnehmer sich für einen Kurs registrieren, erhalten sie mehrere Benachrichtigungen zur Registrierung.
-* Wenn ein Benutzer den Namen der in einem Connector erstellten Kataloge manuell ändert, werden neue Kataloge erstellt und die Kurse in den falschen Katalogen veröffentlicht.
-* Benutzer mit inaktiven Konten erhalten weiterhin Abonnement-E-Mails.
+### Kompatibilitäts-Dashboard
 
-### API-bezogene Fehlerbehebungen
+In dieser Version enthält der Bericht zum Compliance-Dashboard zwei neue Spalten:
 
-* API-GET rufen die Details zu einem Manager nicht ab.
-* In einem Konto wurden Benutzer während einer geplanten Ausfallzeit durch einen geplanten FTP-Benutzerimport erstellt.
-* Wenn Sie in der mobilen App oder im immersiven Modus eine Kursinstanz löschen oder einstellen und die nächste aktive Instanz auswählen, wird das Dialogfeld &quot; **Interesse registrieren** wird anstelle von **Registrieren**.
-* Wenn ein Teilnehmer aus einem Peer-Konto versucht, die Miniaturansicht eines Kurses mithilfe der Lernobjekt-API auszuwählen, wird der Fehler 403 Verboten angezeigt.
+* Status
+* Kompatibilitätstyp
+
+Dies ist zusätzlich zu den bereits vorhandenen Spalten:
+
+* Benutzername
+* Benutzer-E-Mail
+* LP/Zertifizierung/Kurs
+* Typ
+* Registrierungsdatum (UTC-Zeitzone)
+* Termin (UTC-Zeitzone)
+* Abschlussdatum (UTC-Zeitzone)
+* Fortschritt %
+
+### Schulungsbericht
+
+Der Schulungsbericht in **Admin** > **Reports** > **Benutzerdefinierte Berichte** und die Jobs API **früher Spalten mit den** Bezeichnungen **Skill(s)** und **Tag(s) enthalten**. Diese Spalten werden jetzt in **&quot;Skills and Tags&quot; (Skills** and **Tags**) umbenannt.
+
+### Content-Audit-Bericht
+
+In dieser Version enthält der **[!UICONTROL Bericht &quot;Content Audit Trail]** &quot; jetzt die folgenden neuen Attribute in der Spalte &quot;Modifikationstyp&quot;:
+
+* Anwendergruppe hinzufügen
+* Benutzergruppe entfernen
+* Eigenes Label hinzufügen
+* Benutzerdefiniertes Etikett entfernen
+* Freigegebener Katalog hinzufügen
+* Freigegebener Katalog entfernen
+* Aktualisierung freigegebener Kataloge
+
+## Fehler in diesem Update behoben
+
+**Einreichung von Aktivitäten**
+
+* Der Versuch, eine Datei erneut in das Modul für die Einreichung von Aktivitäten hochzuladen, schlägt mit der Fehlermeldung 500 im Netzwerkaufruf fehl.
+
+**API**
+
+* Die Erstellung eines Connect VC-Meetings schlägt fehl, wenn mehrere Lehrkräfte dieselbe E-Mail-Adresse haben.
+* Nach der Anmeldung für einen Lernpfad zeigt die MS Teams VC auf der Übersichtsseite eine falsche URL an.
+* Der vorsignierte Anwenderbericht URL, der im Rahmen des Auftrags API Antwort bereitgestellt wird, endet nach sechs Stunden.
+* Während der Erstellung eines Anmeldeberichts für einen Kurs wird in der Spalte &quot;Kursname&quot; ein falscher Kursname angezeigt.
+* Der Migrationsmitarbeiter sendet beim Aufruf des Großteils der API nicht die eindeutige Lo-ID für den Kurs, aber die ID wird entfernt.
+* Wenn ein Kurs in einem bestimmten Katalog enthalten ist, auf den ein Anwender zugreifen kann (während der Standardkatalog deaktiviert ist), kannst du trotz der Einstellung, die verhindert, dass nicht abgerollte Teilnehmer den Kurs anzeigen, die Metadaten des Kurses über den Endpunkt &quot;LearningObject/ID&quot; abrufen.
+* Der Skills-Filter funktioniert nicht wie erwartet, wenn der Skillname im Namen im GET/learningObject API Kommas hat.
+* Im Datenspeicherungs-Worker für SFTP gibt es Inkonsistenzen in den Zeitstempel-Metadaten der Datei.
+* Wenn ein Connector entfernt und neu konfiguriert wurde, scheint der Projektmigrationsstatus geschlossen zu sein.
+* Der Schulungsbericht hat &quot;Tag(s)&quot; als Spaltenüberschrift anstelle von &quot;Tags&quot;.
+* Der Commerce-Connector-Export schlägt fehl, wenn der Katalog deaktiviert wurde und wenn einer der exportierten Kurse nur Teil des deaktivierten Katalogs ist.
+
+**Zertifizierung**
+
+* Manchmal schlägt die erneute Anmeldung eines Anwenders für eine wiederkehrende Zertifizierung fehl.
+
+**Benutzerdefinierte Rolle**
+
+* In einigen Fällen wird Fehler 403 angezeigt, wenn ein benutzerdefinierter Administrator versucht, in eine Lehrerrolle zu wechseln.
+
+**E-Mail-Vorlage und Benachrichtigung**
+
+* Die E-Mail-Benachrichtigungen, nachdem eine Sitzung abgebrochen wurde, werden nicht an die letzte Gruppe von Kursleitern gesendet, wenn die Kursleiter aus der Sitzung entfernt wurden.
+* Der Organisator erhält keine E-Mail-Benachrichtigungen für MS Teams nach der Erstellung einer virtuellen Schulung mit Kursleiter. Erst nach Veröffentlichung des Kurses und aktivierten E-Mail-Vorlagen werden die E-Mails ausgelöst.
+* Manchmal besteht eine E-Mail-Vorlage aus einem falschen Datumsformat und einer falschen Übersetzung.
+
+**Teilnehmer**
+
+* Wenn ein Teilnehmer an mehreren Instanzen eines Kurses angemeldet ist und sie den Anwesenheitsbericht herunterladen, enthält der Bericht falsche Informationen.
+* Ein Anwender kann die privaten Posts eines anderen Benutzers anzeigen, wenn er zu einer öffentlichen Story hinzugefügt wurde.
+* In einigen Fällen ist es Ihnen nicht möglich, Teilnehmer aus einer Zertifizierung abwickeln zu können. Beim Abrollen wird eine Fehlermeldung angezeigt.
+* Eine Zertifizierung wird auch nach der Auswahl eines Kurses als abgeschlossen gekennzeichnet.
+* Ein Administrator ist nicht in der Lage, einen VC als abgeschlossen zu markieren, wenn die Endzeit der Sitzung in ein vorheriges Datum geändert wurde.
+* Der Sitzungsteilnahmebericht wird für Teilnehmer, die auf einer Warteliste stehen, als &quot;Nicht berücksichtigt&quot; angezeigt.
+
+**Teilnehmer-App**
+
+* Nachdem du die Kursnotizen als PDF heruntergeladen hast, werden die Notizen zufällig angezeigt. Sie befolgen nicht die Reihenfolge.
+
+**Lernpfad**
+
+* Nachdem du eine Fertigkeit in einem Lernpfad ausgewählt hast, wird das Dropdown-Menü nicht wie erwartet angezeigt, wenn du das Textfeld auswählst.
+* In einigen Fällen ist es nicht möglich, Fähigkeiten aus einem Lernpfad zu entfernen.
+
+**Lernprogramm**
+
+* Wenn ein flexibles Lernprogramm über viele Kurse verfügt, wird der Lernplan auch dann nicht abgeschlossen, nachdem ein Administrator ihn markiert hat.
+* Die Spalte last_modified_by im Anmeldebericht wird nicht aktualisiert, wenn ein Teilnehmer Instanzen ändert.
+
+**Bericht**
+
+* In einigen Fällen kann ein Administrator den Schulungsbericht nicht exportieren.
+* Wenn ein SCORM-Inhalt Fragen oder Antworten mit mehr als 32.767 Zeichen enthält, ist es nicht möglich, den Kurs-Testbericht in Excel herunterzuladen.
+* Nachdem du &quot;Gamification zurücksetzen&quot; ausgewählt hast, wird das Datum der erreichten Stufe nicht zurückgesetzt.
+
+**Suche**
+
+* Nach dem Exportieren aller Benutzergruppen sind gelöschte Benutzergruppen derzeit auch in der Ausgabe verfügbar.
+* Aufgrund gelegentlicher Suchprobleme ist die Suche nach einer Zertifizierung nicht möglich.
+
+## Bekanntes Problem in dieser Version
+
+Der Offline-Player für Mobilgeräte lädt den HTML5-Inhalt nicht.
 
 ## Systemanforderungen
 
-Anzeigen [Systemanforderungen für Adobe Learning Manager](system-requirements.md).
+Systemanforderungen für](/help/migrated/system-requirements.md) Adobe Learning Manager anzeigen[.
 
 ## Frühere Versionen von Adobe Learning Manager
 
-* [Version November 2023](whats-new-november-2023.md)
-* [Version Juli 2023](whats-new-2023-july.md)
+* [Release März 2024](/help/migrated/whats-new-march-2024.md)
+* [Release November 2024](/help/migrated/whats-new-november-2023.md)

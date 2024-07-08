@@ -3,14 +3,13 @@ description: In diesem Artikel finden Sie Informationen zum Herunterladen der Le
 jcr-language: en_us
 title: Teilnehmer-App für Smartphones und Tablets
 contentowner: manochan
-source-git-commit: ed7e28720cf521b629333dc48e530e0aa16b0ae1
+exl-id: 94c2b54c-a5e2-4262-bc3c-bd21d52e1f09
+source-git-commit: de57d96488851c31c380b34672767a803379842e
 workflow-type: tm+mt
-source-wordcount: '2635'
-ht-degree: 67%
+source-wordcount: '2702'
+ht-degree: 65%
 
 ---
-
-
 
 # Teilnehmer-App für Smartphones und Tablets
 
@@ -20,42 +19,42 @@ In diesem Artikel finden Sie Informationen zum Herunterladen der Learning Manage
 
 Die Learning Manager-App für Teilnehmer ist sowohl für Android-Smartphones als auch für iPhones erhältlich. Laden Sie die Learning Manager-App aus dem Google Play Store (Android OS) bzw. von iTunes (macOS) herunter.
 
-Nach dem Herunterladen und Installieren dieser App können Sie sich mit Ihren Teilnehmer-Anmeldedaten anmelden. Wenn Sie die mobile Learning Manager-App öffnen, wird standardmäßig der folgende Bildschirm angezeigt.
+Nach dem Herunterladen und Installieren dieser App können Sie sich mit Ihren Teilnehmer-Anmeldedaten anmelden. Wenn du die Mobile App von Learning Manager öffnest, wird standardmäßig der folgende Bildschirm angezeigt.
 
 ![](assets/1.png)
 
-*Die Startseite der Learning Manager-App*
+*Die Homepage der Learning Manager-App*
 
 ## Startseite {#homepage}
 
-Für alle Konten, für die die Option &quot;Immersives Layout&quot; aktiviert ist, gibt es eine brandneue Startseite, auf der die Konfiguration des immersiven Layouts unterstützt wird. Die Startseite ist als eine Liste mit Karten für Folgendes angeordnet:
+Für alle Konten, die die Option &quot;Immersives Layout&quot; aktiviert haben, gibt es eine brandneue Homepage, die die Konfiguration immersiver Layouts unterstützt. Die Homepage ist als Kartenliste für die folgenden Themen geordnet:
 
 | ![](assets/image002.png) | ![](assets/image005.png) |
 |---|---|
 | ![](assets/image006.png) | ![](assets/image008.png) |
 
-*Liste der Karten auf der Startseite*
+*Liste der Karten auf der Homepage*
 
 ![](assets/image010.png)
 
-*Sozialer Feed des Teilnehmers*
+*Social-Feed des Teilnehmers*
 
 ## Feedback-Bewertung {#feedbackrating}
 
-Learning Manager fordert den Teilnehmer auf, Feedback zu seiner Erfahrung mit der Mobilanwendung abzugeben. Dieses Feedback erscheint einmal im Monat und gibt Benutzern genügend Zeit, Erfahrungen mit der App zu sammeln und anschließend Feedback zu geben.
+Learning Manager fordert den Teilnehmer auf, Feedback zu seiner Erfahrung mit der Mobilanwendung abzugeben. Dieses Feedback wird einmal im Monat angezeigt und bietet genügend Zeit, damit Benutzer die App erleben und dann feedback geben können.
 
 <!--
 | ![](assets/image013.png) | ![](assets/image014.png)|
 |---|---|
 -->
 
-Bei vorhandenen Benutzern wird das Popup-Fenster für Feedback angezeigt, sobald sie den Player nach der Aktualisierung der App auf die neueste Version zum ersten Mal schließen.
+Bestehende Anwender sollten das Feedback-Popup sehen, sobald sie den Player nach dem Aktualisieren der App auf die neueste Version zum ersten Mal schließen.
 
-Beachten Sie, dass die Feedback-Sammlung anonym erfolgt und nur für Benutzer angezeigt wird, die die Option aktiviert haben. **Nutzungsdaten freigeben** über eine Konfiguration in den App-Einstellungen.
+Hinweis: Die Erfassung von Feedback ist anonym und wird nur für Benutzer angezeigt, die die Option **Nutzungsdaten** über eine Konfiguration in den App-Einstellungen freigeben aktiviert haben.
 
 ## Abzeichen herunterladen {#downloadbadge}
 
-Teilnehmer können ihre Abzeichen im PDF- und Bildformat herunterladen. Scrollen Sie im Abschnitt Benutzerprofil nach unten und klicken Sie auf einen beliebigen Link, um ein Abzeichen herunterzuladen. Das heruntergeladene Abzeichen wird im Ordner des Standardgeräts gespeichert. Mit der App können Sie den Ordner oder die Datei direkt nach Abschluss des Downloads öffnen.
+Teilnehmer können ihre Abzeichen im PDF- und Bildformat herunterladen. Scrolle im Profilbereich &quot;Benutzer&quot; nach unten, und klicke auf einen Link, um ein Abzeichen herunterzuladen. Das heruntergeladene Abzeichen wird im Standard-Geräteordner gespeichert. Mit der App kannst du den Ordner oder die Datei unmittelbar nach dem Download öffnen.
 
 | ![](assets/image016.png) |
 |---|
@@ -64,7 +63,7 @@ Teilnehmer können ihre Abzeichen im PDF- und Bildformat herunterladen. Scrollen
 
 ## Layout mit automatischer Anpassung für Mobilgeräte {#responsive}
 
-Eine Mobilgerät-Benutzererfahrung mit vollständiger automatischer Anpassung, die sicherstellt, dass Teilnehmer ihre Geräte verwenden, um Schulungen selbst dann zu nutzen, wenn sie die mobile App nicht installiert haben.
+Ein vollständig responsives Mobile-Web-Erlebnis, das sicherstellt, dass Teilnehmer ihre Geräte nutzen, um Schulungen zu absolvieren, selbst wenn sie die Mobile App nicht installiert haben.
 
 Wenn Sie sich zum ersten Mal über den Browser auf Ihrem Gerät bei der Teilnehmer-App anmelden, wird die Teilnehmer-App in Form eines für Mobilgeräte geeigneten Layouts mit automatischer Anpassung angezeigt.
 
@@ -91,6 +90,13 @@ Die Benutzeroberfläche mit automatischer Anpassung für Mobilgeräte ist nur ve
 </table>
 -->
 
+## Aufforderung zum Herunterladen im ALM-Web
+
+Wenn Anwender einen ALM-Link öffnen oder das ALM-Web auf ihren Mobilgeräten nutzen, sollten sie aufgefordert werden, die App herunterzuladen, um ein besseres Erlebnis zu bieten.
+
+![](assets/download-prompt.png)
+_ALM-App herunterladen_
+
 ## In immersiven Mobilgeräte-Benutzeroberflächen nicht unterstützte Funktionen {#unsupportedfeaturesinmobileimmersiveexperience}
 
 Die folgenden Arbeitsabläufe werden in der klassischen Benutzeroberflächen für einen Teilnehmer angezeigt:
@@ -113,31 +119,31 @@ Social Learning unterstützt jetzt immersive Web-Erlebnisse für Mobilgeräte.
 
 Es gibt einige Funktionen, die von der Mobile Immersive App nicht unterstützt werden. Dies sind:
 
-| **Bereich** | **Nicht unterstützt** |
+| **Fläche** | **Nicht unterstützt** |
 |---|---|
-| Board | Board-Erstellung, Board-Bearbeitung, URL kopieren, Löschen, Bericht, Sortieren, Filter |
-| Veröffentlichen | Abstimmungstyp nach Erstellung, Bearbeitung , Mehrere Anhänge zum Beitrag, URL kopieren, Nach oben anheften |
-| Kommentar/Antwort | Bearbeiten, Als richtige Antwort markieren, Hochladen von Bild, Video oder Audio in Kommentar oder Antwort |
+| Board | Vorstandserstellung, Vorstandsbearbeitung, Text URL, Löschen, Bericht, Sortieren, Filter |
+| Veröffentlichen | Erstellung von Abstimmungstypen, Bearbeiten, Mehrere Anhänge, URL kopieren, nach oben anheften |
+| Kommentieren/Antworten | Bearbeiten, Als antworte rechts markieren, Bild/Video/Audio als Kommentar oder Antwort hochladen |
 | Medien | Audio erfassen; nur Hochladen von Audiodateien |
 | Sonstiges | Benachrichtigungen, Beitragsansicht, Soziale Rangliste, Personen, denen ich folge, Benutzerprofil |
 
 ## Teilnehmern das Herunterladen der Arbeitshilfe ermöglichen {#download-job-aid}
 
-Im immersiven Modus für Mobilgeräte kann ein Teilnehmer eine Arbeitshilfe herunterladen. Tippen **Einstellungen** und dann auf **Kataloge**. Laden Sie eine Arbeitshilfe aus der angezeigten Liste herunter.
+Im immersiven Modus für Mobilgeräte kann ein Teilnehmer eine Arbeitshilfe herunterladen. Tippe auf **&quot;Einstellungen&quot;** und dann auf &quot;Kataloge **&quot;**. Lade eine Arbeitshilfe von der angezeigten Liste herunter.
 
 | ![](assets/image018.jpg) |
 |---|
 
-*Arbeitshilfe herunterladen*
+*Job Aid herunterladen*
 
 ## Teilnehmern das Herunterladen des Teilnehmertranskripts ermöglichen {#download-learner-transcript}
 
-Im immersiven Modus für Mobilgeräte kann ein Teilnehmer die Teilnehmertranskripte herunterladen.
+Im immersiven Mobile-Modus können Teilnehmer die Teilnehmerprotokolle herunterladen.
 
 | ![](assets/image021.jpg) | ![](assets/image022.jpg) |
 |---|---|
 
-*Teilnehmertranskripte herunterladen*
+*Teilnehmerprotokolle herunterladen*
 
 ## Abzeichen und Kenntnisse anzeigen {#viewbadgesandskills}
 
@@ -153,11 +159,11 @@ Tippen Sie auf einen Kurs, um dessen Details sowie (falls zutreffend) Ihr Abschl
 
 ![](assets/2.png)
 
-*Ausstehende Lernergebnisse anzeigen*
+*Ausstehende Schulungen anzeigen*
 
 **Anzeigen von Katalogen**
 
-Tippen Sie unten auf dem Bildschirm auf das Symbol neben dem Buchsymbol. Sie können sofort den Katalog mit allen zugeordneten Lernobjekten anzeigen. Sie können sie entweder im Rasterlayout oder in der Detailansicht anzeigen. Wählen Sie Empfehlungen aus, um Kursempfehlungen basierend auf Ihrem Lernverlauf anzuzeigen.
+Tippen Sie unten auf dem Bildschirm auf das Symbol neben dem Buchsymbol. Sie können sofort den Katalog mit allen zugeordneten Lernobjekten anzeigen. Du kannst sie im Raster-Layout anzeigen oder die Detailansicht auswählen. Wählt Empfehlungen aus, um Kursempfehlungen basierend auf eurem Lernverlauf einsehen zu können.
 
 ![](assets/4.png)
 
@@ -175,29 +181,29 @@ Oben rechts auf dem Bildschirm sehen Sie ein Suchsymbol. Tippen Sie auf dieses S
 
 **Verwalten von Profil, Einstellungen und Benachrichtigung**
 
-Tippen ![](assets/hamburger.jpg) in der oberen linken Ecke des Bildschirms, um Ihr Profil, Ihre Benachrichtigungen sowie Ihre Kontoeinstellungen anzuzeigen.
+Tippe ![](assets/hamburger.jpg) oben links auf das Menü, um dein Profil, deine Benachrichtigungen und Kontoeinstellungen anzuzeigen.
 
 In diesem Menü können Sie außerdem den QR-Code scannen, um Ihre Teilnahme an Kursen zu vermerken.
 
-Tippen Sie dazu einfach auf das Symbol **QR-Code scannen** und scannen Sie den Code.
+Tippe einfach auf die **Option &quot;QR-Code** scannen&quot; und scanne den Code.
 
 **Offline-Nutzung von Kursen**
 
-Wenn Sie heruntergeladene Kurse nutzen, während Sie online sind, greift Learning Manager auf den heruntergeladenen Kurs zu, anstatt Serveranrufe zu tätigen.
+Wenn ihr während des Online-Geschäfts heruntergeladene Kurse konsumiert, greift Learning Manager auf den heruntergeladenen Kurs zu, anstatt Server-Aufrufe zu tätigen.
 
 ## QR-Code zum Registrieren scannen {#qrcode}
 
 Sie können einen QR-Code scannen und sich für einen Kurs anmelden. Nachdem der Lern-Administrator einen QR-Code generiert hat, können Sie den QR-Code aus der App scannen und sich für einen Kurs anmelden. 
 
-1. Tippen Sie zum Scannen des QR-Codes auf ![](assets/hamburger.jpg) in der linken oberen Ecke des Bildschirms.
+1. Tippe oben links auf den Bildschirm, ![](assets/hamburger.jpg) um den QR-Code einzuscannen.
 1. Tippen Sie auf **QR-Code scannen**.
 
 Die Scan-QR-Funktion ermöglicht es einem Teilnehmer, eine der unten genannten Aktionen durchzuführen, abhängig vom QR-Code, der vom Lern-Administrator generiert wird:
 
-* **Registrierung:** Auf diese Weise kann sich der Teilnehmer durch Scannen des QR-Codes für einen Kurs registrieren.
+* **Anmeldung:** Dadurch kann sich der Teilnehmer durch Scannen des QR-Codes für einen Kurs anmelden.
 * **Abschluss:** Auf diese Weise kann der Teilnehmer die Schulung durch Scannen des QR-Codes als abgeschlossen markieren.
 * **Registrierung und Abschluss:** Dies ermöglicht es dem Teilnehmer, sich anzumelden und gleichzeitig den Abschluss zu markieren, indem er den QR-Code scannt.
-* **Anwesenheit vermerken:** Auf diese Weise kann der Teilnehmer die Teilnahme an einer bestimmten Sitzung durch Scannen des QR-Codes markieren.
+* **Teilnahme markieren:** Die Teilnehmer können die Teilnahme an einer bestimmten Session durch Scannen des QR-Codes markieren.
 
 ## Umbenennen von Lernobjekten {#renaminglearningobjects}
 
@@ -209,8 +215,8 @@ In diesem Update werden die folgenden Funktionen nicht unterstützt. Folgendes i
 
 * ein Board erstellen oder einem Board folgen
 * eine URL in einen Beitrag kopieren
-* einen Beitrag als Story hinzufügen oder als Beitrag als Favorit oder Pin oben hinzufügen
-* Zeigen Sie ein soziales Leaderboard an.
+* Füge Post als Story hinzu, oder füge sie als Favoriten hinzu, oder füge sie als Pin nach oben hinzu.
+* Social Leader Board ansehen.
 
 Soziales Lernen ist eine Plattform in der Learning Manager-App, auf der Benutzer Ideen und wichtige Erkenntnisse in einer informellen Umgebung austauschen können. Es ist eine Methodik, die die Idee des traditionellen Lernens ergänzt.
 
@@ -228,19 +234,19 @@ Tippen Sie beim Starten der App auf das Symbol **Sozial**.
 
 ![](assets/home.png)
 
-*Soziales Lernen anzeigen*
+*Social Learning ansehen*
 
 ## Erstellen Sie einen Beitrag in einem Board {#createapostinaboard}
 
 Wie bei jeder anderen sozialen Plattform können Sie in der mobilen Learning Manager-App einen Beitrag in einem Forum erstellen, sodass alle Teilnehmenden, die Teil desselben Forums sind, Ihren Beitrag anzeigen, kommentieren und eine Datei zusammen mit dem Kommentar hochladen können.
 
-Tippen Sie auf das Symbol ![Symbol hinzufügen](/help/migrated/learners/feature-summary/assets/prime-add.png) unten rechts auf dem Bildschirm.
+Tippe rechts unten auf das ![Symbol](/help/migrated/learners/feature-summary/assets/prime-add.png) zum Hinzufügen, um einen Post zu erstellen.
 
 Der folgende Bildschirm wird angezeigt:
 
 ![](assets/add-post.png)
 
-*Beitrag hinzufügen*
+*Post hinzufügen*
 
 <table>
  <tbody>
@@ -328,7 +334,7 @@ Der folgende Bildschirm wird angezeigt:
 
 Wählen Sie nach dem Erstellen eines Beitrags das Forum aus, in das Sie den Beitrag hochladen möchten. Tippen Sie auf „Board auswählen“ und suchen Sie nach dem gewünschten Board.
 
-Nachdem Sie einen Beitrag erstellt haben, tippen Sie auf Veröffentlichen und geben Sie Ihren Kommentar ein, damit andere Teilnehmer Ihren Beitrag sehen können.
+Nachdem du einen Beitrag erstellt hast, tippe auf &quot;Posten&quot; und poste deinen Kommentar, damit andere Teilnehmer deinen Beitrag anzeigen können.
 
 In der mobilen App können Sie kein Board erstellen. Um ein Board zu erstellen, müssen Sie sich als Teilnehmer bei der Web-App anmelden. Weitere Informationen zum Sozialen Lernen in Learning Manager finden Sie unter [Learning Manager](/help/migrated/learners/feature-summary/social-learning-web-user.md).
 
@@ -338,8 +344,8 @@ In der mobilen App können Sie kein Board erstellen. Um ein Board zu erstellen, 
 * Kommentare in einem Board bearbeiten oder löschen.
 * Bearbeiten oder löschen Sie einen Beitrag basierend auf Berechtigungen.
 * Melde Sie einen Missbrauch eines Beitrags, wenn er gegen die Privatsphäre verstößt oder sein Inhalt unangemessen ist. Sobald ein Beitrag gemeldet wurde, wird eine Benachrichtigung an den Board-Administrator und die Moderatoren für weitere Aktionen gesendet.
-* Like  ![](assets/prime-like.png)  oder  ![](assets/prime-dislike.png)   einen Beitrag.
-* Like  ![](assets/prime-like.png) oder ![](assets/prime-dislike.png) einen Kommentar zu erstellen.
+* Post  ![](assets/prime-like.png)  mag oder magst du nicht  ![](assets/prime-dislike.png)   .
+* Kommentare  ![](assets/prime-like.png) mögen oder missfallen ![](assets/prime-dislike.png) .
 
 ## Erstellen Sie einen Beitrag in anderen Boards {#createapostinotherboards}
 
@@ -349,7 +355,7 @@ Tippen Sie auf **Alle Boards** und Sie können die Aktivitäten anderer Teilnehm
 
 ![](assets/all-boards-1.png)
 
-*Alle Board-Aktivitäten anzeigen*
+*Alle Vorstandsaktivitäten anzeigen*
 
 Navigieren Sie zum gewünschten Board und veröffentlichen Sie Ihren Kommentar.
 
@@ -359,10 +365,10 @@ Navigieren Sie zum gewünschten Board und veröffentlichen Sie Ihren Kommentar.
 
 Teilen Sie Bilder, Dokumente oder Audio- oder Videodateien auf einem beliebigen Board, damit andere Board-Mitglieder Ihren Beitrag sehen und eine Interaktion starten können. Teilen von Medien:
 
-1. Öffnen Sie die Medien, die Sie freigeben möchten.
-1. Tippen Sie auf die Schaltfläche &quot;Teilen&quot; und wählen Sie &quot;Lernmanager&quot;.
-1. Wählen Sie das Board aus, in dem Sie die Medien freigeben möchten.
-1. Tippen **Post**.
+1. Öffne die Medien, die du teilen möchtest.
+1. Tippe auf den Freigabe-Button, und wähle &quot;Learning Manager&quot;.
+1. Wähle den Vorstand aus, in dem du die Medien teilen möchtest.
+1. Tippe auf **&quot;Posten&quot;**.
 
 Sie können auch Inhalte aus einer externen App veröffentlichen. Sie können beispielsweise einen Kommentar von Reddit oder Quora teilen.
 
@@ -373,11 +379,12 @@ Führen Sie die unten genannten Schritte aus: 
 1. Melden Sie sich mit Ihren Teilnehmerdetails bei der Geräte-App an.
 1. Suchen Sie nach dem Zertifikat, das der Autor erstellt hat.
 1. Wählen Sie aus der Liste der externen Zertifikate das gewünschte Zertifikat aus und registrieren Sie sich für das Zertifikat.
-1. Tippen **Abschlussnachweis** und laden Sie eine Datei hoch, z. B. eine PDF-Datei oder ein Bild.
+1. Tippe auf **&quot;Abschlussnachweis&quot;** , und lade eine Datei hoch, z. B. eine PDF-Datei oder ein Bild.
 
    | ![](assets/screenshot-3.png) | ![](assets/screenshot-4.png) |
    |---|---|
-   *Abschlussnachweis hochladen*
+
+*Nachweis der Fertigstellung hochladen*
 
 1. Nach dem Hochladen einer Datei, tippen Sie auf **Einreichen**. Eine Bestätigungsnachricht erscheint.
 
@@ -400,12 +407,12 @@ Wenn der Manager die Übermittlung ablehnt, ändert sich der Status in **Abgeleh
 | ![](assets/screenshot-7.png) | ![](assets/screenshot-9.png) | ![](assets/screenshot-8.png) |
 |---|---|---|
 
-*Übermittlungsstatus anzeigen*
+*Bewerbungsstatus anzeigen*
 
 Nach der Ablehnung können Sie eine Datei als Nachweis der Fertigstellung hochladen.
 
-* Sie können eine Datei nur übermitteln, wenn der Status **&quot;Ausstehend&quot; und &quot;Abgelehnt&quot;**.
-* Sie können keine Datei übermitteln, wenn der Status **Genehmigung ausstehend und genehmigt**.
+* Du kannst eine Datei nur einreichen, wenn der Status &quot;Ausstehender Antrag auf Einreichung&quot; und &quot;Abgelehnt&quot; lautet ****.
+* Du kannst keine Datei einreichen, wenn der Status &quot;Ausstehend&quot; und &quot;Genehmigt&quot;**ist**.
 
 ## Aufrufen von Kursen aus LinkedIn Learning {#linkedin}
 
@@ -413,40 +420,40 @@ Learning Manager unterstützt bereits LinkedIn Learning-Kurse innerhalb der Lern
 
 Wenn Sie die LinkedIn-App bereits installiert haben, wird der Kurs in der App geöffnet. Andernfalls wird der Kurs im Standardbrowser geöffnet, in dem Sie sich mit Ihren LinkedIn-Anmeldedaten anmelden müssen.
 
-Wenn Sie den Kurs über die LinkedIn-App aufrufen, wird Ihr Fortschritt nicht im Lernmanager verfolgt. Daher wird empfohlen, den Kurs im Browser anstatt in der LinkedIn Learning-App zu starten.
+Wenn du den Kurs über die LinkedIn-App teilnehmst, wird dein Fortschritt nicht in Learning Manager verfolgt. Daher wird empfohlen, den Kurs im Browser anstelle der LinkedIn Lern-App zu starten.
 
 >[!NOTE]
 >
->Sie können die Kurse nur aufrufen, wenn Sie über eine aktive Internetverbindung verfügen.
+>Sie können die Kurse nur mit einer aktiven Internet-Verbindung absolvieren.
 
 | ![](assets/start-course.jpg) | ![](assets/enroll-course.jpg) | ![](assets/sign-in.jpg) |
 |---|---|---|
 
-*Registrieren Sie Kurse in LinkedIn Learning*
+*Kurse für LinkedIn Learning anmelden*
 
 Die in LinkedIn-Lernkursen verbrachte Lernzeit wird von der LinkedIn-Plattform content/LinkedIn an die Learning Manager-Lernplattform übermittelt.
 
-Wenn LinkedIn Learning die Lernzeit nicht sendet, kann sie nicht von unserer Lernplattform aufgezeichnet werden. In diesem Fall beträgt die vom Lern-Manager angezeigte Lernzeit null.
+Wenn LinkedIn Learning die Lernzeit nicht sendet, kann sie nicht von unserer Lernplattform aufgezeichnet werden. In einem solchen Fall ist die von Learning Manager verbrachte Lernzeit null.
 
 ## Datei für Unterrichts- und Aktivitätsmodule einreichen {#submitfile}
 
 Als Teilnehmer können Sie Ihrem Kursleiter Dateien als Nachweis für die Vervollständigung des Kurses senden. Der Kursleiter kann dann Ihre Einreichung basierend auf dem Inhalt der Datei genehmigen oder ablehnen.
 
-Ein Autor kann nur Klassenzimmer- und Aktivitätsmodule erstellen, die ein Teilnehmer in der mobilen App nutzen kann.
+Ein Autor kann nur Unterrichts- und Aktivitätsmodule erstellen, die ein Teilnehmer in der Mobile App verwenden kann.
 
-Nachdem der Teilnehmer einen Kurs gestartet hat, kann der Teilnehmer den Status sehen **Dateiübermittlung** als &quot;ausstehend&quot; zusammen mit dem Link zum Hochladen der Datei auf dem Bildschirm, wie im Screenshot unten gezeigt.
+NachDem der Teilnehmer einen Kurs begonnen hat, kann der Teilnehmer den Status **&quot;Einreichung** von Dateien&quot; sowie den Link zum Hochladen der Datei auf dem Bildschirm sehen, wie im unten stehenden Screenshot zu sehen.
 
 ![](assets/pending-approval.png)
 
-*Status der Dateiübermittlung*
+*Status der Einreichung von Dateien*
 
 Klicken Sie zum Hochladen der Datei auf **Datei hochladen**.
 
-Laden Sie eine beliebige Datei hoch und klicken Sie auf **Senden** klicken.
+Lade eine beliebige Datei hoch, und klicke auf &quot; **Absenden** &quot;.
 
 ![](assets/upload-file.png) ![](assets/pending-file-approval.png)
 
-*Datei senden*
+*Datei einreichen*
 
 ## Unterstützte Dateitypen für den Upload {#supportedfiletypesforupload}
 
@@ -487,13 +494,13 @@ Laden Sie eine beliebige Datei hoch und klicken Sie auf **Senden** klicken.
 
 ## Genehmigung oder Ablehnung der Einreichung {#approvalorrejectionofsubmission}
 
-Nachdem Sie die Datei hochgeladen haben, ändert sich der Status in **Genehmigung ausstehend.**. Der Kursleiter zeigt dann die Liste der [anhängige Anträge](/help/migrated/instructors/feature-summary/learners.md) und genehmigt die Einreichung über die Kursleiter Web-App oder lehnt sie ab.
+Nachdem du die Datei hochgeladen hast, ändert sich der Status in &quot; **Ausstehende Genehmigung&quot;.**. Der Kursleiter betrachtet dann die Liste [der ausstehenden Anträge](/help/migrated/instructors/feature-summary/learners.md) und genehmigt oder weist den Antrag über die Web-App des Instructors ab.
 
 Wenn der Kursleiter die Einreichung genehmigt, ändert sich der Status in der Teilnehmer-Mobilanwendung in **Genehmigt**.
 
 <!--![](assets/approved.jpg)-->
 
-Wenn der Kursleiter die Einreichung ablehnt, ändert sich der Status in der Teilnehmer-Mobilanwendung in **abgelehnt**.
+Wenn der Kursleiter die Bewerbung abweist, ändert sich der Status der Teilnehmer-App in **&quot;Abgelehnt**&quot;.
 
 <!--![](assets/rejected.jpg)-->
 
@@ -501,11 +508,11 @@ Um die Datei erneut zu senden, klicken Sie auf den Link **Datei hochladen**.
 
 ## Learning Manager für iPad und Tablets {#captivateforipadandtablets}
 
-In der Learning Manager-App auf dem iPad oder Android-Tablet sehen Sie, nachdem Sie sich als Teilnehmer angemeldet haben: **Startseite** angezeigt:
+In der Learning Manager-App auf dem iPad oder dem Android-Tablet kannst du nach der Anmeldung als Teilnehmer den folgenden **Startbildschirm** anzeigen:
 
 <!--![](assets/screenshot-2015-08-07-12-24-40-e1439211134842.png)-->
 
-Um zu den Lern- und Katalogfunktionen zu navigieren, tippen Sie auf das **Menü** &quot; und wählen Sie die entsprechende Option aus.
+Um zu den Lern- und Katalogfunktionen zu navigieren, tippe auf das **** Dropdown-Menü, und wähle die passende Option aus.
 
 <!--![](assets/menu-ipad.png)-->
 
@@ -515,19 +522,23 @@ Sie haben die Möglichkeit, einen Satz von Kursen in einer Listenansicht anstatt
 
 Sie können auf iPad- und Android-Tablets auch offline auf die Learning Manager-App zugreifen. Sie können Kurse und Lernprogramme herunterladen. Nehmen Sie an Kursen teil, absolvieren Sie die Lernprogramme im Offlinemodus und synchronisieren Sie den Inhalt mit der Online-App, wenn Sie eine Verbindung mit dem Netzwerk herstellen.
 
-1. Tippen **Menü** oben und tippen Sie auf **Lernressourcen** aus. Eine Liste aller verfügbaren Kurse wird in Form von Kacheln angezeigt.
+1. Tippe **oben auf &quot;Menü** &quot;, und tippe auf **&quot;Lernen** &quot;. Eine Liste aller verfügbaren Kurse wird in Form von Kacheln angezeigt.
 1. Tippen Sie auf das Download-Symbol unten auf jeder Lernobjekt-Kachel, um die Lerninhalte herunterzuladen.
 
    ![](assets/download-cards.png)
 
-   *Inhalt herunterladen*
+   *Inhalte herunterladen*
 
    Am oberen Rand der App wird in einer Leiste eine Eingabeaufforderung mit dem Netzwerkstatus des Geräts angezeigt.
 
-   * Rote Leiste zeigt an, dass das Netzwerk für das Gerät nicht verfügbar ist.
-   * Grüne Leiste zeigt an, dass das Netzwerk wieder online ist.
+   * Der rote Balken zeigt an, dass das Netzwerk für das Gerät nicht verfügbar ist.
+   * Die grüne Leiste gibt an, dass das Netzwerk wieder online ist.
 
-Der Benutzer kann wieder in den Online-Modus wechseln, indem er auf **Onlineinhalt anzeigen** auf der grünen Leiste. Der Inhalt auf dem Gerät wird synchronisiert, wenn der Benutzer in den Online-Modus wechselt.
+Der Anwender kann zum Online-Modus zurückkehren, indem er auf die Schaltfläche &quot;Online-Inhalte **anzeigen&quot; auf der grünen Leiste klickt**. Die Inhalte im Gerät werden synchronisiert, wenn der Anwender in den Online-Modus wechselt.
+
+## Multi-Item-Warenkorb-Unterstützung auf Mobilgeräten
+
+Teilnehmer können nun mehrere Kurse, Lernpfade oder Zertifizierungen in den Warenkorb legen und sie gemeinsam erwerben. Warenkorb mit mehreren Artikeln in ALM anzeigen [](/help/migrated/learners/feature-summary/multi-item-cart.md)
 
 <!--## Track device storage {#trackdevicestorage}
 

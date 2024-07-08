@@ -2,35 +2,36 @@
 user-guide-title: Leitfaden für Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Dokumentation für Adobe Learning Manager
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+source-git-commit: 5769b88c430cc5c0cfccaa75ceaca4862ee7e52e
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 90%
+source-wordcount: '599'
+ht-degree: 88%
 
 ---
 
 
-# Learning Manager-Handbuch {#using}
+# Learning Manager Guide {#using}
 
 * [Benutzerhandbuch für Learning Manager](user-guide.md)
-* Einführung {#introduction}
+* Einleitung {#introduction}
    * [Zusammenfassung der neuen Funktionen](whats-new.md)
+   * [Neue Funktionen März 2024](whats-new-march-2024.md)
    * [Neue Funktionen November 2023](whats-new-november-2023.md)
    * [Neue Funktionen Juli 2023](whats-new-2023-july.md)
    * [Neue Funktionen April 2023](whats-new-2023-april.md)
    * [Neue Funktionen November 2022](whats-new-2022-november.md)
    * [Versionshinweise](release-note/release-notes.md)
    * [Systemanforderungen](system-requirements.md)
-   * [ALM-Referenzsite-Paket für AEM Sites](adobe-learning-manager-integration-aem.md)
+   * [ALM-Referenz-Site-Paket für AEM Sites](adobe-learning-manager-integration-aem.md)
    * [Adobe Learning Manager-App für Microsoft Teams](adobe-learning-manager-app-microsoft-teams.md)
    * [Learning Manager – Konformität mit der DSGVO](kb/prime-gdpr.md)
    * [Barrierefreiheit in Learning Manager](accessibility-learning-manager.md)
    * [Unterstützung für benutzerdefinierte Domäne](custom-domain.md)
    * [Empfehlungen in Adobe Learning Manager](recommendations-adobe-learning-manager.md)
    * [Übergang vom Adobe FTP Manager](transition-from-ftp-manager.md)
-   * [API-Veraltungen und Änderungen im Adobe Learning Manager](api-deprecations-list.md)
-   * [Whitelabeling im Adobe-Lernmanager](white-label.md)
-* Erste Schritte {#get-started}
+   * [API Deprecations und Änderungen in Adobe Learning Manager](api-deprecations-list.md)
+   * [White-Optionen in Adobe Learning Manager](white-label.md)
+* Loslegen {#get-started}
    * [Erste Schritte als Administrator](administrators/feature-summary/getting-started-admin.md)
    * [Erste Schritte als Autor](authors/feature-summary/getting-started-author.md)
    * [Einstieg in Captivate Prime als Teilnehmer](learners/feature-summary/getting-started-learner.md)
@@ -55,7 +56,7 @@ ht-degree: 90%
    * [Peer-Konten](administrators/feature-summary/peer-account.md)
    * [Erstellen und Ändern von Kenntnissen und Stufen](administrators/feature-summary/skills-levels.md)
    * [AI-basierte Kursempfehlung](ai-based-recommendations.md)
-   * [Kenntnisse importieren](administrators/feature-summary/import-skills-external-sources.md)
+   * [Skills importieren](administrators/feature-summary/import-skills-external-sources.md)
    * [Gamification](administrators/feature-summary/gamification.md)
    * [Anpassen der Teilnehmer-Startseite](administrators/feature-summary/customize-learner-homepage.md)
    * [Abzeichen](administrators/feature-summary/badges.md)
@@ -79,12 +80,13 @@ ht-degree: 90%
    * [Aktivieren der vollständigen Kontrolle über den freigegebenen Katalog](administrators/feature-summary/shared-catalog-full-control.md)
    * [Kenntnisse Kenntnisdomänen zuordnen](administrators/feature-summary/curation-skills.md)
    * [Native Erweiterbarkeit](administrators/feature-summary/native-extensibility.md)
-   * [Mehrfachregistrierung](administrators/feature-summary/multiple-enrollment.md)
+   * [Mehrere Anmeldungen](administrators/feature-summary/multiple-enrollment.md)
    * [Oberfläche für nicht angemeldete Teilnehmer](administrators/feature-summary/non-logged-in-experience-learners.md)
    * [Lernprogramme](administrators/feature-summary/learning-programs.md)
 * Integrationsadministrator {#integration}
    * [Migrationshandbuch](integration-admin/feature-summary/migration-manual.md)
    * [Learning Manager-Connectors](integration-admin/feature-summary/connectors.md)
+   * [Nicht angemeldete APIs](integration-admin/feature-summary/non-logged-in-apis.md)
    * [Integration von Learning Manager in AEM](integrate-aem-learning-manager.md)
    * [Installieren des Salesforce-Pakets in Learning Manager](integration-admin/feature-summary/install-salesforce-package.md)
    * [Installieren des Microsoft Teams-Connectors](integration-admin/feature-summary/install-microsoft-teams-connector.md)
@@ -105,10 +107,10 @@ ht-degree: 90%
    * [So wählen Sie ein Kursmodul](authors/how-to-choose-modules.md)
    * [Vorschau als Teilnehmer](authors/feature-summary/fluidic-player.md)
    * [Einstellungen](authors/feature-summary/settings.md)
-* Kursleiter {#instructor}
+* Lehrer {#instructor}
    * [Module](instructors/feature-summary/modules.md)
    * [Verwalten der Teilnehmer für Ihre Sitzung](instructors/feature-summary/learners.md)
-* Teilnehmer {#learner}
+* Lernender {#learner}
    * [Anmelden](learners/feature-summary/user-login.md)
    * [Profileinstellungen](learners/feature-summary/settings.md)
    * [Kataloge](learners/feature-summary/catalogs.md)
@@ -117,6 +119,7 @@ ht-degree: 90%
    * [Lernprogramme](learners/feature-summary/learning-programs.md)
    * [Zertifizierungen](learners/feature-summary/certifications.md)
    * [Arbeitshilfen](learners/feature-summary/job-aids.md)
+   * [Warenkorb mit mehreren Artikeln in ALM](learners/feature-summary/multi-item-cart.md)
    * [Abzeichen](learners/feature-summary/badges.md)
    * [Kenntnisse und Stufen](learners/feature-summary/skills-levels.md)
    * [Gamification](learners/feature-summary/gamification.md)
