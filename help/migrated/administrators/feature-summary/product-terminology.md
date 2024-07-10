@@ -1,12 +1,12 @@
 ---
-description: Lesen Sie diesen Artikel, um zu erfahren, wie Sie Begriffe auf der Benutzeroberfläche festlegen.
+description: Adobe Learning Manager verwendet einen Terminologie-Standardsatz auf der Benutzeroberfläche. Als Administrator(in) können Sie die Terminologie den Anforderungen Ihres Unternehmens anpassen.
 jcr-language: en_us
 title: Produktterminologie
 contentowner: chandrum
-source-git-commit: c62701848790d39a16826b11919f69c48a96e38a
+source-git-commit: b48e97151c95c55db72f91a2b187189c786d43ae
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 65%
+source-wordcount: '278'
+ht-degree: 72%
 
 ---
 
@@ -80,6 +80,5 @@ Die Terminologie wird auf ihren ursprünglichen Namen zurückgesetzt.
 Die Terminologieänderungen gelten nicht für:
 
 * E-Mail-Vorlagen (**[!UICONTROL Administrator]** > **[!UICONTROL E-Mail-Vorlagen]**)
-
 * Berichte (**[!UICONTROL Administrator]** > **[!UICONTROL Berichte]**)
 
