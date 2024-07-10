@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Erstellen von Kursmodulen, Instanzen und Lernprogrammen
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: 90ebde8049357a4798aa9b23edfa57b8667d6232
+source-git-commit: f328076016d8c41455cad71f00d1dc9a1531e007
 workflow-type: tm+mt
-source-wordcount: '4746'
-ht-degree: 63%
+source-wordcount: '4868'
+ht-degree: 61%
 
 ---
 
@@ -62,7 +62,7 @@ Instanz erstellen
 
    *Fertigstellungstermin festlegen*
 
-## Eigenschaften der Instanz anzeigen {#viewpropertiesoftheinstance}
+### Eigenschaften der Instanz anzeigen {#viewpropertiesoftheinstance}
 
 ![](assets/properties-of-aninstance.png)
 
@@ -73,7 +73,11 @@ Instanz erstellen
 1. **Sitzungen:** Die Anzahl der virtuellen Klassenräume und Klassenraummodule im Kurs.
 1. **Feedback aktiviert:** Zeigt an, ob L1-, L2- und L3-Feedbacks für diesen Kurs aktiviert sind.
 
-## Instanz einstellen {#retireaninstance}
+>[!NOTE]
+>
+>Der Administrator bricht die Sitzungen ab, indem er zu Instanzen > Sitzungen geht und Sitzung abbrechen auswählt.
+
+### Instanz einstellen {#retireaninstance}
 
 Führen Sie die folgenden Schritte aus, um eine Instanz einzustellen.
 
@@ -85,7 +89,7 @@ Führen Sie die folgenden Schritte aus, um eine Instanz einzustellen.
 
 1. Um alle eingestellten Instanzen zu suchen, klicken Sie auf der Seite „Instanzen“ auf die Registerkarte **[!UICONTROL Eingestellt]**.
 
-## Instanz wiederherstellen {#restoreaninstance}
+### Instanz wiederherstellen {#restoreaninstance}
 
 Führen Sie die folgenden Schritte aus, um eine eingestellte Instanz in einen aktivierten Zustand zu versetzen:
 
@@ -97,7 +101,7 @@ Führen Sie die folgenden Schritte aus, um eine eingestellte Instanz in einen ak
 
 1. Die Instanz wird nun in einen aktiven Modus wiederhergestellt.
 
-## Instanz löschen
+### Instanz löschen
 
 Administratoren können die Instanz mit **Instanz löschen** direkt nach der Erstellung auswählen. Sie können keine Instanzen löschen, wenn eine Sitzung damit verknüpft ist oder wenn sich Teilnehmer dafür registriert haben.
 
@@ -109,7 +113,7 @@ Administratoren können die Instanz mit **Instanz löschen** direkt nach der Ers
 >
 >Sie können die Standardinstanz nicht löschen.
 
-## E-Mails auf Instanzebene senden
+### E-Mails auf Instanzebene senden
 
 So senden Sie E-Mails auf Instanzebene an registrierte Teilnehmende:
 
@@ -129,7 +133,7 @@ So senden Sie E-Mails auf Instanzebene an registrierte Teilnehmende:
 
    ![Ankündigung erfolgreich erstellt](assets/announcement-successful.png)
 
-### Registrieren Sie Teilnehmer für Kurse
+## Registrieren Sie Teilnehmer für Kurse
 
 In dieser Schulung erfahren Sie, wie Sie Teilnehmer registrieren, die Registrierung aufheben und sich erneut registrieren.
 
@@ -145,7 +149,7 @@ Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.
 
    ![Registrieren von Teilnehmern](assets/enroll-learners-new.png)
 
-   *Kurs veröffentlichen*
+   *Publish starten.*
 
 1. Im Dialogfeld [!UICONTROL **Registrierung von Kursteilnehmern**] können Sie Folgendes tun:
 
@@ -196,42 +200,57 @@ Die Excel-Datei enthält Arbeitsblätter für jede Instanz. Ein Arbeitsblatt bes
 >
 >Wenn Sie die Berichtsautomatisierung eingerichtet haben, die nur eine Zeile pro Kurs vorwegnimmt, müssen Sie die erforderlichen Anpassungen an der Berichtsautomatisierung vornehmen, bevor Sie die Funktion zur Mehrfacheinschreibung aktivieren.
 
-## Eskalationsstufe festlegen {#escalation}
+### Verwalten der Teilnehmerliste für einen Kurs {#managelearnerslistforacourse}
 
-Zum Senden der E-Mail-Benachrichtigungen muss ein Administrator explizit die Eskalationsstufe auswählen:
+1. Klicken Sie in der Kursminiaturansicht auf den Kursnamen.
+1. Klicken Sie im linken Teilfenster auf **[!UICONTROL Teilnehmer]**.
 
-* Manager
-* Allgemeiner Manager und Manager zum Überspringen einer Stufe
+![](assets/courses-learners.png)
 
-![](assets/escalation-notification.png)
+*Teilnehmer in einem Kurs auswählen*
 
-*Eskalationsstufe festlegen*
+Sie können die folgenden Aktionen auf der Seite „Teilnehmer“ durchführen:
+
+* Wählen Sie den Teilnehmer aus, den Sie entfernen möchten, und klicken Sie auf [!UICONTROL **Aktionen**] > [!UICONTROL **Entfernen**].
+* Wählen Sie den Teilnehmer aus, dessen Anwesenheit Sie markieren möchten, und klicken Sie auf [!UICONTROL **Aktionen**] > [!UICONTROL **Als abgeschlossen markieren**].
+
+Damit Teilnehmer ein Modul zurücksetzen und erneut nutzen können, klicken Sie auf [!UICONTROL **Zurücksetzen**]. Klicken Sie im angezeigten Dialogfeld auf „Ja“, um das Zurücksetzen zu bestätigen. Module, die abgeschlossen wurden, können nicht zurückgesetzt werden. Nur fehlgeschlagene oder unvollständige Module können zurückgesetzt werden.
+
+Sie können die Teilnehmerliste auch in ein Excel-Arbeitsblatt exportieren. Klicken Sie zum Exportieren der Teilnehmerliste auf [!UICONTROL **Aktionen**] > [!UICONTROL **Exportieren**].
+
+>[!NOTE]
+>
+>Wenn es mehrere Instanzen eines Kurses gibt, wird die Excel-Teilnehmerliste jeweils auf getrennten Registerkarten angezeigt. Die Teilnehmerliste enthält Namen, Status und Auswahlkriterien der Teilnehmer. Der Teilnehmerstatus kann **Nicht gestartet** oder **In Bearbeitung** oder **Abgeschlossen**.
+
+### Teilnehmer mit dem Status „Genehmigung ausstehend“ exportieren
+
+Ein Administrator, Manager oder benutzerdefinierter Administrator kann Daten von Teilnehmern mit dem Registrierungsstatus „Genehmigung ausstehend“ exportieren. Sie können die Daten über die Registerkarte **Kurs > Teilnehmer** exportieren und auf die Dropdown-Liste „Aktion“ klicken.
+
+Die Option ist vorhanden, wenn kein Teilnehmer für den vom Manager genehmigten Kurs registriert wurde bzw. die Genehmigung aussteht, und ein leerer Bericht wird generiert. Sie können auch exportieren, wenn Teilnehmer den Status &quot;Genehmigung ausstehend&quot;, &quot;Registriert&quot;, &quot;Ausstehend&quot; und &quot;Nicht registriert&quot; aufweisen.
+
+Der Bericht enthält Daten von aktiven, gelöschten und gesperrten Benutzern, wenn die Genehmigung aussteht. Der Bericht enthält auch Daten von internen und externen Benutzern mit dem Status &quot;Genehmigung ausstehend&quot;.
+
+Wenn ein Teilnehmer, der zuvor den Status „Genehmigung ausstehend“ aufwies, seine Registrierung löscht, wird sein Datensatz im Bericht nicht angezeigt. Wenn ein Teilnehmer, der zuvor den Status „Genehmigung ausstehend“ aufwies, von einem Administrator/Manager/benutzerdefinierten Administrator für den Kurs registriert wird, ist sein Datensatz im Bericht vorhanden.
 
 ## Warteliste
 
 Im Abschnitt &quot;Warteliste&quot; können Teilnehmer auf die Warteliste für Klassenzimmerkurse gesetzt werden, wenn die Lizenzen begrenzt sind, basierend auf ihrer Reihenfolge der Registrierung. Administratoren können dies verwalten, indem sie Teilnehmer auf der Warteliste auswählen und Lizenzen zuweisen, die über das ursprüngliche Limit hinausgehen. Sobald der Administrator eine Lizenz zugewiesen hat, wird der Teilnehmer sofort für den Kurs registriert.
 
-## Diskussions-Dashboard
+## Teilnehmeranwesenheit exportieren {#attendance}
 
-Mit der Diskussions-Dashboard-Funktion können Teilnehmer die Kursdiskussionen anzeigen. Als Administrator haben Sie die Möglichkeit, Kommentare nach Bedarf zu löschen. Administratoren können diese Option in den Kurseinstellungen aktivieren.
+Für jeden Klassenzimmer- und VC-Kurs können Sie die Liste der anwesenden Teilnehmer herunterladen.
 
-## Kursmoderation {#coursemoderation}
+Klicken Sie auf der Kurs-Detailseite auf **[!UICONTROL Anwesenheit und Punktzahl]** auf der rechten Seite.
 
-Jedes Mal, wenn ein Autor Module hinzufügt, aktualisiert oder löscht und einen Kurs neu veröffentlicht, erhalten alle Administratoren Benachrichtigungen darüber. Als Administrator können Sie anschließend die Änderungen anzeigen, alte und neue Inhalte mithilfe des Links vergleichen sowie die Änderungen entweder genehmigen oder ablehnen.
+Klicken Sie rechts oben auf der Seite auf die Dropdown-Liste **[!UICONTROL Aktionen]**. Klicken Sie dann auf die Option **[!UICONTROL Teilnehmerliste exportieren (PDF)]**.
 
-Klicken Sie zum Aktivieren der Kursmoderation auf **[!UICONTROL Einstellungen]** > **[!UICONTROL Allgemein]**. Aktivieren Sie das Kontrollkästchen **[!UICONTROL Kursmoderation]**.
+![](assets/export-list-of-learners.png)
 
-![](assets/2.png)
+*Teilnehmerliste als PDF exportieren*
 
-*Kursmoderation aktivieren*
+In der PDF-Datei können Sie dieselbe Gruppe von Teilnehmern anzeigen wie ein Kursleiter.
 
-Klicken Sie auf die Benachrichtigung, um die Änderungen anzuzeigen, die der Autor an einem Kurs vorgenommen hat. Genehmigen Sie die Änderungen, die vom Autor gemacht wurden oder lehnen Sie diese ab. Wenn Sie die Änderungen genehmigen, wird der Kurs erneut veröffentlicht. Wenn Sie die Updates ablehnen, wird die vorherige Version des Kurses weiterhin vorhanden sein. In beiden Fällen wird eine Benachrichtigung an den Autor gesendet.
-
-![](assets/1.png)
-
-*Anfragen von Autoren für Kursaktualisierungen*
-
-Wenn es mehrere Autoren gibt, die denselben Kurs aktualisieren, wird die letzte oder zuletzt ausgeführte Änderung in der Benachrichtigung des Administrators angezeigt. Sie können dann die zuletzt vorgenommenen Änderungen genehmigen oder ablehnen.
+Wenn Sie das PDF herunterladen, sehen Sie die Zeitzone (in UTC), die beim Erstellen des Kurses verwendet wurde.
 
 ## L1- und L3-Feedback hinzufügen {#addl1andl3feedback}
 
@@ -243,7 +262,7 @@ Während der Kurserstellung können Sie L1- und L3-Feedbackoptionen hinzufügen:
 1. Um L1-Feedback oder L3-Feedback auszuwählen, klicken Sie auf der Umschaltfläche neben der betreffenden Option auf den Kreis.
 1. Fügen Sie die L3-Feedbackfrage im Textbereich unter „L3-Frage“ hinzu.
 
-## Obligatorisches L1-Feedback {#mandatory-l1-feedback}
+### Obligatorisches L1-Feedback {#mandatory-l1-feedback}
 
 Sie können alle Fragen oder die erste Frage in einem L1-Feedback als Pflichtfragen definieren.
 
@@ -269,7 +288,7 @@ Auf der Seite &quot;Standardwerte für Instanz&quot;, wenn Sie **[!UICONTROL All
 
 *Seite &quot;Standardwerte für Instanz&quot; anzeigen*
 
-## L1-Feedback auf Kursebene {#l1-feedback-course-level}
+### L1-Feedback auf Kursebene {#l1-feedback-course-level}
 
 In früheren Versionen von Learning Manager konnte ein Administrator L1-Feedback für das Lernprogramm aktivieren.
 
@@ -293,7 +312,7 @@ In dieser Version von Learning Manager kann der Administrator L1-Feedback für a
 
    Wenn L1-Feedback für alle Kurse aktiviert, aber in der Lernprogramminstanz deaktiviert ist, wird das L1-Feedback für die Kurse nicht ausgelöst.
 
-## Sprachspezifische Quizberichte
+### Sprachspezifische Quizberichte
 
 Quizberichte helfen bei der Bewertung der Leistung eines Teilnehmers nach Abschluss eines Lernprogramms oder Kurses.
 
@@ -303,7 +322,7 @@ Quizberichte zeigen Daten in verschiedenen Sprachen an, sofern der Kurs in mehre
 
 Dies wurde nun behoben, da der Administrator jetzt alle Berichte in der jeweiligen Sprache anzeigen kann, die der Teilnehmer verwendet hat, und zwar unabhängig vom gewählten Inhaltsgebietsschema. Quizversuche in verschiedenen Sprachen werden als zusätzliche Spalten im Quizbericht hinzugefügt.
 
-## L1-Feedback auf Kontoebene aktivieren {#l1-feedback-account-level}
+### L1-Feedback auf Kontoebene aktivieren {#l1-feedback-account-level}
 
 *L1-Feedback auf Kontoebene aktivieren*
 
@@ -329,7 +348,7 @@ Sie können das L1-Feedback auch deaktivieren, indem Sie die **[!UICONTROL Aktiv
 
 *L1-Feedback aktivieren oder deaktivieren*
 
-## Fügen Sie beschreibende Fragen für L1- und L3-Feedback hinzu {#descriptive}
+### Fügen Sie beschreibende Fragen für L1- und L3-Feedback hinzu {#descriptive}
 
 Als Teil der November-Version von Learning Manager wurde eine Option zum Hinzufügen beschreibender Fragen bereitgestellt. Administratoren haben die Möglichkeit, diese Fragen Teilnehmer hinzuzufügen. Dies ergänzt den Standardsatz der Fragen von Learning Manager. Sie können sie bei Bedarf auch obligatorisch machen, indem Sie die Option unter der Frage auswählen.
 
@@ -363,7 +382,7 @@ Eine Beispielausgabe des L3-Fragebogens wird als Referenz zur Verfügung gestell
 
 *L3-Feedbackausgabe anzeigen*
 
-## L1- und L3-Feedbackfragebogen einrichten {#setupl1andl3feedbackquestionnaire}
+### L1- und L3-Feedbackfragebogen einrichten {#setupl1andl3feedbackquestionnaire}
 
 Auf Kontoebene können Sie L1- und L3-Feedbackfragebogen einrichten und Erinnerungen festlegen.
 
@@ -379,6 +398,36 @@ Auf Kontoebene können Sie L1- und L3-Feedbackfragebogen einrichten und Erinneru
 1. Klicken **[!UICONTROL Speichern]** oben rechts auf der Seite.
 
 Beim L1-Feedback sehen Sie zwei Fragebogen-Sets sowie eine Standardfrage. Das erste Fragebogen-Set bezieht sich auf Kurse zum Selbststudium, kann aber auch für aktivitätsorientierte Kurse verwendet werden. Das zweite Fragebogen-Set ist für Präsenzkurse und für Kurse im virtuellen Klassenzimmer vorgesehen.
+
+## L1- und L3-Feedback anzeigen {#viewl1andl3feedback}
+
+Sie können das L1-Feedback der Teilnehmer zu einem Kurs und das L3-Feedback der Manager an die Teilnehmer anzeigen.
+
+1. Klicken Sie auf eine beliebige Kurskachel der Kursliste.
+1. Klicken Sie im linken Teilfenster auf L1-Feedback oder L3-Feedback, um das erhaltene Feedback anzuzeigen.
+1. Wählen Sie in der Dropdownliste die Instanz aus, für die Sie Feedback anzeigen möchten.
+
+## Diskussions-Dashboard
+
+Mit der Diskussions-Dashboard-Funktion können Teilnehmer die Kursdiskussionen anzeigen. Als Administrator haben Sie die Möglichkeit, Kommentare nach Bedarf zu löschen. Administratoren können diese Option in den Kurseinstellungen aktivieren.
+
+## Kursmoderation {#coursemoderation}
+
+Jedes Mal, wenn ein Autor Module hinzufügt, aktualisiert oder löscht und einen Kurs neu veröffentlicht, erhalten alle Administratoren Benachrichtigungen darüber. Als Administrator können Sie anschließend die Änderungen anzeigen, alte und neue Inhalte mithilfe des Links vergleichen sowie die Änderungen entweder genehmigen oder ablehnen.
+
+Klicken Sie zum Aktivieren der Kursmoderation auf **[!UICONTROL Einstellungen]** > **[!UICONTROL Allgemein]**. Aktivieren Sie das Kontrollkästchen **[!UICONTROL Kursmoderation]**.
+
+![](assets/2.png)
+
+*Kursmoderation aktivieren*
+
+Klicken Sie auf die Benachrichtigung, um die Änderungen anzuzeigen, die der Autor an einem Kurs vorgenommen hat. Genehmigen Sie die Änderungen, die vom Autor gemacht wurden oder lehnen Sie diese ab. Wenn Sie die Änderungen genehmigen, wird der Kurs erneut veröffentlicht. Wenn Sie die Updates ablehnen, wird die vorherige Version des Kurses weiterhin vorhanden sein. In beiden Fällen wird eine Benachrichtigung an den Autor gesendet.
+
+![](assets/1.png)
+
+*Anfragen von Autoren für Kursaktualisierungen*
+
+Wenn es mehrere Autoren gibt, die denselben Kurs aktualisieren, wird die letzte oder zuletzt ausgeführte Änderung in der Benachrichtigung des Administrators angezeigt. Sie können dann die zuletzt vorgenommenen Änderungen genehmigen oder ablehnen.
 
 ## Checklistendaten exportieren {#export-checklist-data}
 
@@ -429,61 +478,26 @@ Sie können die Quiz-Punktzahlen eines bestimmten Kurses nach Benutzernamen oder
 
 Wählen Sie den Instanzentyp aus der Dropdownliste, um die Ergebnisse nach den Instanzen des Kurses anzuzeigen.
 
-## Verwalten der Teilnehmerliste für einen Kurs {#managelearnerslistforacourse}
+## Standardinstanz
 
-1. Klicken Sie in der Kursminiaturansicht auf den Kursnamen.
-1. Klicken Sie im linken Teilfenster auf **[!UICONTROL Teilnehmer]**.
+Administratoren können Standard-Abzeichen, Gamification-Einstellungen und Erinnerungen in **[!UICONTROL Standardinstanz]** angezeigt. Um die Standardeinstellungen für die Instanz zu ändern, wählen Sie **[!UICONTROL Standardinstanz]** > **[!UICONTROL Bearbeiten]**.
 
-![](assets/courses-learners.png)
+* **[!UICONTROL Ausweis]**: Wählen Sie die Standard-Abzeichen aus dem Dropdown-Menü aus.
+* **[!UICONTROL Gamification]**: Konfigurieren Sie die Gamification-Einstellungen, einschließlich der Punkte für den Abschluss, den vorzeitigen Abschluss und den rechtzeitigen Abschluss. Administratoren haben die Möglichkeit, Einstellungen auf Kontoebene auszuwählen oder die Gamification-Punkte für diese Instanz anzupassen.
+* **[!UICONTROL L1-Reaktionsfeedback]**: Aktivieren Sie vordefinierte Fragen für Teilnehmer-Feedback nach Kursabschluss, mit Optionen zum Pflichtfragen machen.
+***[!UICONTROL Feedback zu Verhaltensänderungen L3]**: Aktivieren Sie Feedback-Fragen für den Manager des Teilnehmers nach Kursabschluss.
+***[!UICONTROL Erinnerungseinstellungen]**: Legen Sie Terminerinnerungen mit Optionen für die Eskalation fest und verwalten Sie diese.
 
-*Teilnehmer in einem Kurs auswählen*
+### Eskalationsstufe festlegen {#escalation}
 
-Sie können die folgenden Aktionen auf der Seite „Teilnehmer“ durchführen:
+Zum Senden der E-Mail-Benachrichtigungen muss ein Administrator explizit die Eskalationsstufe auswählen:
 
-* Wählen Sie den Teilnehmer aus, den Sie entfernen möchten, und klicken Sie auf [!UICONTROL **Aktionen**] > [!UICONTROL **Entfernen**].
-* Wählen Sie den Teilnehmer aus, dessen Anwesenheit Sie markieren möchten, und klicken Sie auf [!UICONTROL **Aktionen**] > [!UICONTROL **Als abgeschlossen markieren**].
+* Manager
+* Allgemeiner Manager und Manager zum Überspringen einer Stufe
 
-Damit Teilnehmer ein Modul zurücksetzen und erneut nutzen können, klicken Sie auf [!UICONTROL **Zurücksetzen**]. Klicken Sie im angezeigten Dialogfeld auf „Ja“, um das Zurücksetzen zu bestätigen. Module, die abgeschlossen wurden, können nicht zurückgesetzt werden. Nur fehlgeschlagene oder unvollständige Module können zurückgesetzt werden.
+![](assets/escalation-notification.png)
 
-Sie können die Teilnehmerliste auch in ein Excel-Arbeitsblatt exportieren. Klicken Sie zum Exportieren der Teilnehmerliste auf [!UICONTROL **Aktionen**] > [!UICONTROL **Exportieren**].
-
->[!NOTE]
->
->Wenn es mehrere Instanzen eines Kurses gibt, wird die Excel-Teilnehmerliste jeweils auf getrennten Registerkarten angezeigt. Die Teilnehmerliste enthält Namen, Status und Auswahlkriterien der Teilnehmer. Der Teilnehmerstatus kann **Nicht gestartet** oder **In Bearbeitung** oder **Abgeschlossen**.
-
-## Teilnehmeranwesenheit exportieren {#attendance}
-
-Für jeden Klassenzimmer- und VC-Kurs können Sie die Liste der anwesenden Teilnehmer herunterladen.
-
-Klicken Sie auf der Kurs-Detailseite auf **[!UICONTROL Anwesenheit und Punktzahl]** auf der rechten Seite.
-
-Klicken Sie rechts oben auf der Seite auf die Dropdown-Liste **[!UICONTROL Aktionen]**. Klicken Sie dann auf die Option **[!UICONTROL Teilnehmerliste exportieren (PDF)]**.
-
-![](assets/export-list-of-learners.png)
-
-*Teilnehmerliste als PDF exportieren*
-
-In der PDF-Datei können Sie dieselbe Gruppe von Teilnehmern anzeigen wie ein Kursleiter.
-
-Wenn Sie das PDF herunterladen, sehen Sie die Zeitzone (in UTC), die beim Erstellen des Kurses verwendet wurde.
-
-## Teilnehmer mit dem Status „Genehmigung ausstehend“ exportieren
-
-Ein Administrator, Manager oder benutzerdefinierter Administrator kann Daten von Teilnehmern mit dem Registrierungsstatus „Genehmigung ausstehend“ exportieren. Sie können die Daten über die Registerkarte **Kurs > Teilnehmer** exportieren und auf die Dropdown-Liste „Aktion“ klicken.
-
-Die Option ist vorhanden, wenn kein Teilnehmer für den vom Manager genehmigten Kurs registriert wurde bzw. die Genehmigung aussteht, und ein leerer Bericht wird generiert. Sie können auch exportieren, wenn Teilnehmer den Status &quot;Genehmigung ausstehend&quot;, &quot;Registriert&quot;, &quot;Ausstehend&quot; und &quot;Nicht registriert&quot; aufweisen.
-
-Der Bericht enthält Daten von aktiven, gelöschten und gesperrten Benutzern, wenn die Genehmigung aussteht. Der Bericht enthält auch Daten von internen und externen Benutzern mit dem Status &quot;Genehmigung ausstehend&quot;.
-
-Wenn ein Teilnehmer, der zuvor den Status „Genehmigung ausstehend“ aufwies, seine Registrierung löscht, wird sein Datensatz im Bericht nicht angezeigt. Wenn ein Teilnehmer, der zuvor den Status „Genehmigung ausstehend“ aufwies, von einem Administrator/Manager/benutzerdefinierten Administrator für den Kurs registriert wird, ist sein Datensatz im Bericht vorhanden.
-
-## L1- und L3-Feedback anzeigen {#viewl1andl3feedback}
-
-Sie können das L1-Feedback der Teilnehmer zu einem Kurs und das L3-Feedback der Manager an die Teilnehmer anzeigen.
-
-1. Klicken Sie auf eine beliebige Kurskachel der Kursliste.
-1. Klicken Sie im linken Teilfenster auf L1-Feedback oder L3-Feedback, um das erhaltene Feedback anzuzeigen.
-1. Wählen Sie in der Dropdownliste die Instanz aus, für die Sie Feedback anzeigen möchten.
+*Eskalationsstufe festlegen*
 
 ## Kursvorschau {#previewcourses}
 

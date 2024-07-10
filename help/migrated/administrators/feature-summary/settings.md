@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Einstellungen
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: fbab332b92dd6d017c2517d7df09a4c37ce3f6bf
+source-git-commit: c62701848790d39a16826b11919f69c48a96e38a
 workflow-type: tm+mt
-source-wordcount: '3985'
-ht-degree: 66%
+source-wordcount: '3836'
+ht-degree: 68%
 
 ---
 
@@ -483,24 +483,6 @@ Gemischt\
 Klassenzimmer\
 Virtuelles Klassenzimmer\
 Aktivität
-
-Um die Begriffe umzubenennen, folgen Sie diesen Schritten.
-
-1. Klicken Sie als Administrator auf **[!UICONTROL Einstellungen]** > **[!UICONTROL Allgemein]** > **[!UICONTROL Produktterminologie]**. Die Option &quot;Produktterminologie&quot; wird geöffnet.
-
-   ![](assets/product-terminology.png)
-
-   *Produktterminologie umbenennen*
-
-1. Änderungen können durch Hochladen einer modifizierten Produktterminologievorlage und Herunterladen der Beispiel-CSV-Datei vorgenommen werden. Um die Beispiel-CSV-Datei herunterzuladen, klicken Sie auf das Symbol **[!UICONTROL Hier herunterladen]** aus.
-1. Die heruntergeladene CSV-Datei enthält den Namen der Objekte in Spalte A. Wählen Sie in Spalte B den Namen aus, den Sie dem jeweiligen Objekt zuweisen möchten. Beachten Sie, dass Sie die Singular- und Pluralform des Namens, getrennt durch ein (|), aktualisieren müssen.
-1. Sie können eine oder mehrere Zeilen ändern. Sie können entweder die nicht geänderten Zeilen beibehalten oder sie vor dem Hochladen aus der CSV-Datei entfernen.
-1. Laden Sie die geänderte CSV-Datei hoch und klicken Sie auf **[!UICONTROL Speichern]**. Learning Manager zeigt Ihre Änderungen entsprechend an.
-1. Um auf die Standardbegriffe zurückzusetzen, klicken Sie auf **[!UICONTROL Produktterminologie zurücksetzen]**.
-
-   ![](assets/with-reset-option.png)
-
-   *Produktterminologien zurücksetzen*
 
 ## Profileinstellungen {#profilesettings}
 

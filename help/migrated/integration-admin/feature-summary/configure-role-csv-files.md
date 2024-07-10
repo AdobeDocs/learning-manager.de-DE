@@ -4,10 +4,10 @@ title: Verwalten benutzerdefinierter Rollen über CSV-Dateien
 description: Der Integrationsadministrator kann seinem Konto mehrere benutzerdefinierte Rollen gleichzeitig über CSV hinzufügen und diese verschiedenen Benutzern zuweisen. Dieser Ansatz automatisiert den Prozess der Erstellung von benutzerdefinierte Rollen.
 contentowner: saghosh
 exl-id: fce2f457-2834-491a-8331-64086f5a51b5
-source-git-commit: 5f2b5fb60856b77b53edaea014639087eb1a8fcf
+source-git-commit: f328076016d8c41455cad71f00d1dc9a1531e007
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 83%
+source-wordcount: '905'
+ht-degree: 81%
 
 ---
 
@@ -19,14 +19,16 @@ Sie können Rollen über die FTP- und Box-Connectors von Learning Manager konfig
 
 Nachdem Sie sich bei Ihrem Box-Speicherkonto angemeldet haben, kann der Integrationsadministrator die folgenden CSV-Dateien zum Konto hinzufügen:
 
+* user.csv
 * role.csv
 * user_role.csv
 
 Laden Sie zunächst die CSV-Dateien herunter und ändern Sie die Werte entsprechend Ihren Anforderungen.
 
-**role.csv**
 * Beispieldatei: [role.csv](assets/role.csv)
 * Beispieldatei: [user_role.csv](assets/user_role.csv)
+
+**role.csv**
 
 <table>
  <tbody>
@@ -147,10 +149,10 @@ Wenn in der CSV Katalognamen oder Benutzergruppennamen angegeben sind, werden di
 
 Wählen Sie in Ihrem Box-Konto **Importieren > Benutzer > Intern** und laden Sie die Dateien „role.csv“ und „user_role.csv“ hoch.
 
-* Die CSVs der benutzerdefinierten Rolle müssen in den Ordner &quot;import->user->internal->user_role&quot; kopiert werden.
-* Die Benutzer-CSV muss in den Ordner &quot;import->user->internal&quot; kopiert werden.
+* Die Dateien role.csv und user_role.csv müssen in den Ordner kopiert werden **Importieren** > **Anwender** > **intern** > **Benutzerrolle**.
+* Die Datei &quot;user.csv&quot; muss in den Ordner kopiert werden **Importieren** > **Anwender** > **intern**.
 
-Beide CSVs müssen nur über Box oder FTP hochgeladen werden und können nicht über die Benutzeroberfläche hochgeladen werden.
+Beide CSV müssen nur über Box hochgeladen werden und können nicht über die Benutzeroberfläche hochgeladen werden.
 
 >[!NOTE]
 >

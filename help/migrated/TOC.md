@@ -2,18 +2,18 @@
 user-guide-title: Leitfaden für Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Dokumentation für Adobe Learning Manager
-source-git-commit: 5769b88c430cc5c0cfccaa75ceaca4862ee7e52e
+source-git-commit: 6b26c48e3195b76b30bb837b37a40a1484d72c5d
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '601'
 ht-degree: 88%
 
 ---
 
 
-# Learning Manager Guide {#using}
+# Learning Manager-Handbuch {#using}
 
 * [Benutzerhandbuch für Learning Manager](user-guide.md)
-* Einleitung {#introduction}
+* Einführung {#introduction}
    * [Zusammenfassung der neuen Funktionen](whats-new.md)
    * [Neue Funktionen März 2024](whats-new-march-2024.md)
    * [Neue Funktionen November 2023](whats-new-november-2023.md)
@@ -22,16 +22,16 @@ ht-degree: 88%
    * [Neue Funktionen November 2022](whats-new-2022-november.md)
    * [Versionshinweise](release-note/release-notes.md)
    * [Systemanforderungen](system-requirements.md)
-   * [ALM-Referenz-Site-Paket für AEM Sites](adobe-learning-manager-integration-aem.md)
+   * [ALM-Referenzsite-Paket für AEM Sites](adobe-learning-manager-integration-aem.md)
    * [Adobe Learning Manager-App für Microsoft Teams](adobe-learning-manager-app-microsoft-teams.md)
    * [Learning Manager – Konformität mit der DSGVO](kb/prime-gdpr.md)
    * [Barrierefreiheit in Learning Manager](accessibility-learning-manager.md)
    * [Unterstützung für benutzerdefinierte Domäne](custom-domain.md)
    * [Empfehlungen in Adobe Learning Manager](recommendations-adobe-learning-manager.md)
    * [Übergang vom Adobe FTP Manager](transition-from-ftp-manager.md)
-   * [API Deprecations und Änderungen in Adobe Learning Manager](api-deprecations-list.md)
-   * [White-Optionen in Adobe Learning Manager](white-label.md)
-* Loslegen {#get-started}
+   * [API-Veraltungen und -Änderungen in Adobe Learning Manager](api-deprecations-list.md)
+   * [Etikettieren in Adobe Learning Manager](white-label.md)
+* Erste Schritte {#get-started}
    * [Erste Schritte als Administrator](administrators/feature-summary/getting-started-admin.md)
    * [Erste Schritte als Autor](authors/feature-summary/getting-started-author.md)
    * [Einstieg in Captivate Prime als Teilnehmer](learners/feature-summary/getting-started-learner.md)
@@ -56,7 +56,7 @@ ht-degree: 88%
    * [Peer-Konten](administrators/feature-summary/peer-account.md)
    * [Erstellen und Ändern von Kenntnissen und Stufen](administrators/feature-summary/skills-levels.md)
    * [AI-basierte Kursempfehlung](ai-based-recommendations.md)
-   * [Skills importieren](administrators/feature-summary/import-skills-external-sources.md)
+   * [Kenntnisse importieren](administrators/feature-summary/import-skills-external-sources.md)
    * [Gamification](administrators/feature-summary/gamification.md)
    * [Anpassen der Teilnehmer-Startseite](administrators/feature-summary/customize-learner-homepage.md)
    * [Abzeichen](administrators/feature-summary/badges.md)
@@ -80,9 +80,10 @@ ht-degree: 88%
    * [Aktivieren der vollständigen Kontrolle über den freigegebenen Katalog](administrators/feature-summary/shared-catalog-full-control.md)
    * [Kenntnisse Kenntnisdomänen zuordnen](administrators/feature-summary/curation-skills.md)
    * [Native Erweiterbarkeit](administrators/feature-summary/native-extensibility.md)
-   * [Mehrere Anmeldungen](administrators/feature-summary/multiple-enrollment.md)
+   * [Mehrfachregistrierung](administrators/feature-summary/multiple-enrollment.md)
    * [Oberfläche für nicht angemeldete Teilnehmer](administrators/feature-summary/non-logged-in-experience-learners.md)
    * [Lernprogramme](administrators/feature-summary/learning-programs.md)
+   * [Produktterminologie](administrators/feature-summary/product-terminology.md)
 * Integrationsadministrator {#integration}
    * [Migrationshandbuch](integration-admin/feature-summary/migration-manual.md)
    * [Learning Manager-Connectors](integration-admin/feature-summary/connectors.md)
@@ -107,10 +108,10 @@ ht-degree: 88%
    * [So wählen Sie ein Kursmodul](authors/how-to-choose-modules.md)
    * [Vorschau als Teilnehmer](authors/feature-summary/fluidic-player.md)
    * [Einstellungen](authors/feature-summary/settings.md)
-* Lehrer {#instructor}
+* Kursleiter {#instructor}
    * [Module](instructors/feature-summary/modules.md)
    * [Verwalten der Teilnehmer für Ihre Sitzung](instructors/feature-summary/learners.md)
-* Lernender {#learner}
+* Teilnehmer {#learner}
    * [Anmelden](learners/feature-summary/user-login.md)
    * [Profileinstellungen](learners/feature-summary/settings.md)
    * [Kataloge](learners/feature-summary/catalogs.md)
