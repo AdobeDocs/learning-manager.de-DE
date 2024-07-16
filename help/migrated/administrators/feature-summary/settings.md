@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Einstellungen
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: c62701848790d39a16826b11919f69c48a96e38a
+source-git-commit: a0dcc5b0a0a9f1ef0248c1e853067c1cc57b60e1
 workflow-type: tm+mt
-source-wordcount: '3836'
-ht-degree: 68%
+source-wordcount: '3595'
+ht-degree: 67%
 
 ---
 
@@ -15,35 +15,37 @@ ht-degree: 68%
 
 Erfahren Sie mehr über Learning Manager-Kontoeinstellungen, die Sie als Administrator konfigurieren können.
 
-Sie können Ihre Administratorprofileinstellungen ändern und Ihre Kontoeinstellungen aktualisieren. Anzeigen Ihrer Profilinformationen, Hinzufügen/Ändern von Profilfotos und Ändern von **[!UICONTROL Über mich]** Inhalt. Aktualisieren Sie Ihre Unternehmensinformationen, richten Sie Anmeldungsmethoden für Benutzer ein und richten Sie Connect-Integration über die Kontoeinstellungen ein.
+Sie können Ihre Administratorprofileinstellungen ändern und Ihre Kontoeinstellungen aktualisieren. Zeigen Sie Ihre Profilinformationen an, fügen Sie ein Profilfoto hinzu bzw. ändern Sie es, und ändern Sie den Inhalt von **[!UICONTROL Über mich]**. Aktualisieren Sie Ihre Unternehmensinformationen, richten Sie Anmeldungsmethoden für Benutzer ein und richten Sie Connect-Integration über die Kontoeinstellungen ein.
+
+![](assets/settings-admin.png)
 
 ## Adobe Learning Manager konfigurieren
 
 In dieser Schulung werden die Grundlagen der Einstellungen auf Kontoebene erfasst.
 
-[![Knopf](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PYPVPSZY&amp;mv=display&amp;mv2=display#/course/7476018)
+[![Schaltfläche](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PYPVPSZY&amp;mv=display&amp;mv2=display#/course/7476018)
 
 
 Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.com>.
 
 ## Kontoeinstellungen {#accountsettings}
 
-Um die Kontoeinstellungen Ihrer Organisation zu aktualisieren, klicken Sie auf **[!UICONTROL Einstellungen]** im linken Bereich.
+Um die Kontoeinstellungen Ihres Unternehmens zu aktualisieren, klicken Sie auf **[!UICONTROL Einstellungen]** im linken Bereich.
 
 **Grundlegende Informationen (Unternehmensinformationen)**
 
-Klicken **[!UICONTROL Ändern]** auf der Seite und bearbeiten Sie Land, Zeitzone, Gebietsschema und Geschäftsjahr.
+Klicken Sie auf der Seite auf **[!UICONTROL Ändern]** und bearbeiten Sie Land, Zeitzone, Gebietsschema und Geschäftsjahr.
 
 **Konfigurieren Sie „Administrator kontaktieren“**
 
-Wenn Sie die E-Mail-Adressen für den Support-Administrator für Ihr Unternehmen ändern oder hinzufügen möchten, können Sie diese konfigurieren, indem Sie auf **[!UICONTROL Support]** im linken Bereich klicken. Klicken **[!UICONTROL Ändern]** angrenzend an **[!UICONTROL Support-E-Mail-ID]** und die E-Mail-IDs hinzufügen. E-Mail wird an diese Administratoren gesendet, wenn Teilnehmer klickt **[!UICONTROL Administrator kontaktieren]** &quot; oben auf der Seite.
+Wenn Sie die E-Mail-Adressen für den Support-Administrator für Ihr Unternehmen ändern oder hinzufügen möchten, können Sie diese konfigurieren, indem Sie auf **[!UICONTROL Support]** im linken Bereich klicken. Klicken Sie auf **[!UICONTROL Ändern]** neben **[!UICONTROL Support-E-Mail-ID]** und fügen Sie die E-Mail-IDs hinzu. E-Mail wird an diese Administratoren gesendet, wenn der Teilnehmer auf **[!UICONTROL Administrator kontaktieren]** am unteren Rand der Seite klickt.
 
 Fügen Sie zusätzliche E-Mails mit Semikolon als Trennzeichen hinzu.
 
-**Anmeldemethoden** - Administratoren können den Modus auswählen, über den Ihre internen oder externen Benutzer auf das Konto zugreifen können.
+**Anmeldungsmethoden** - Administratoren können den Modus auswählen, über den Ihre internen oder externen Benutzer auf das Konto zugreifen können.
 
-* **Interne Benutzer:** Für interne Benutzer können Sie die Adobe ID oder die SSO als Anmeldemodus festlegen.
-* **Externe Benutzer:** Für externe Benutzer können Sie die Adobe ID oder die SSO oder die Lernmanager-ID festlegen.
+* **Interne Benutzer:** Für interne Benutzer können Sie Adobe ID oder Single Sign-on als Anmeldemodus festlegen.
+* **Externe Benutzer:** Für externe Benutzer können Sie die Adobe ID oder die SSO oder die Lern-Manager-ID festlegen.
 
 Wenn Sie die Lern-Manager-ID wählen, können sich externe Benutzer bei diesem Konto anmelden, nachdem sie ihren Lern-Manager-Benutzernamen und ihr Kennwort erstellt haben.
 
@@ -55,17 +57,17 @@ Sie können mit der Adobe ID oder über einmalige Anmeldung (SSO) auf die Learni
 
 **Feedback**
 
-Klicken Sie auf **[!UICONTROL Feedback]** im linken Bereich, um den Fragebogen einzurichten, um Feedback von Teilnehmern zu erhalten, nachdem Sie einen Kurs absolviert haben. Siehe [Kursfunktionshilfe](courses.md) zum Erstellen von Feedback L1 und L3.
+Klicken Sie auf **[!UICONTROL Feedback]** im linken Bereich, um den Fragebogen einzurichten, um Feedback von Teilnehmern zu erhalten, nachdem Sie einen Kurs absolviert haben. Weitere Informationen zum Erstellen von L1- und L3-Feedback finden Sie im Hilfeinhalt für die [Kursfunktion ](/help/migrated/administrators/feature-summary/courses.md#add-l1-and-l3-feedback).
 
 **Mehrere Versuche**
 
-Auswählen **[!UICONTROL Einstellungen]** > **[!UICONTROL Allgemein]** > **[!UICONTROL Mehrere Versuche]**.
+Wählen Sie **[!UICONTROL Einstellungen]** > **[!UICONTROL Allgemein]** > **[!UICONTROL Mehrere Versuche]**.
 
 Wenn Sie das Kontrollkästchen &quot;Mehrere Versuche&quot; aktivieren, können die Autoren &quot;Mehrere Versuche&quot; für interaktive E-Learning-Kurse oder -Module festlegen. Wenn Sie das zweite Kontrollkästchen auswählen, können Administratoren &quot;Unendliche Versuche&quot; standardmäßig für alle neu erstellten interaktiven E-Learning-Kurse festlegen.
 
 ![](assets/admin-config.png)
 
-*Aktivieren Sie das Kontrollkästchen &quot;Mehrere Versuche&quot;*
+*Kontrollkästchen &quot;Mehrere Versuche&quot; aktivieren*
 
 **Kursmoderation**
 
@@ -81,7 +83,7 @@ Klicken Sie im linken Teilfenster auf „Teilnehmer-Dashboard“. Auf dieser Sei
 
 **Adobe Connect**
 
-Klicken Sie auf **[!UICONTROL Adobe Connect]** im linken Bereich, um das Adobe Connect-Konto zu konfigurieren, um virtuelle Klassenzimmersitzungen zu hosten. Weitere Informationen finden Sie unter  [Adobe Connect](adobeconnect-integration.md) Feature-Hilfe.
+Klicken Sie auf **[!UICONTROL Adobe Connect]** im linken Bereich, um das Adobe Connect-Konto zu konfigurieren, um virtuelle Klassenzimmersitzungen zu hosten. Weitere Informationen finden Sie in der Hilfe zur [Adobe Connect](adobeconnect-integration.md)-Funktion.
 
 ## Allgemeine Einstellungen {#general}
 
@@ -204,7 +206,7 @@ Aktivieren oder Deaktivieren der folgenden Einstellungen:
     </ol>
     <p>Zusätzlich können Sie:</p>
     <ul>
-     <li>Klicken Sie auf <b>Zurücksetzen</b> , um die Standardwerte im Dialogfeld " <b>Hilfe</b> und <b>Administrator kontaktieren</b> Felder.</li>
+     <li>Klicken Sie auf das Symbol <b>Zurücksetzen</b>, um die Standardwerte in den Feldern <b>Hilfe</b> und <b>Administrator kontaktieren</b> zurückzusetzen.</li>
      <li>Passen Sie den Link in der Fußzeile für alle Sprachen an. Klicken Sie auf die Dropdown-Liste <b>Sprache</b>, wählen Sie die Sprache aus und fügen Sie den <b>Namen</b> und die <b>URL</b> in die angegebenen Felder ein. Nachdem Sie die Änderungen gespeichert haben, werden die aktualisierten Links in der Fußzeile angezeigt.<br></li>
     </ul></td>
   </tr>
@@ -402,8 +404,8 @@ Aktivieren oder Deaktivieren der folgenden Einstellungen:
     </ul>
     <p>Diese Funktion ist nur für Kurse verfügbar. Die Sternebewertung wird für Lernprogramme oder Zertifikate nicht unterstützt.<br><br><b>Hinweis: </b>Diese Änderung betrifft nur die Teilnehmer-App. </p>
     <p>In allen anderen Apps (Admin, Autor, Manager, benutzerdefinierter Administrator, benutzerdefinierter Autor) haben Änderungen an den Einstellungen (Sternebewertung/Kurseffektivität/Deaktivierung der Bewertungsanzeige) keine Auswirkungen. </p>
-    <p>Bei neuen Konten wird der " <b>Bewertungen anzeigen</b> Abschnitt hat die Möglichkeit, <b>Sternebewertung</b> standardmäßig aktiviert ist.</p>
-    <p>Wenn das Konto zuvor die Option <b>Kurseffektivität</b> aktiviert ist, wird die Schaltfläche <b>Bewertungen anzeigen</b> wird mit der Option Kurseffektivität aktiviert. Wenn die Option <b>Kurseffektivität</b>s deaktiviert ist, wird das Dialogfeld <b>Bewertungen anzeigen</b> wird ebenfalls deaktiviert. Wenn die Option <b>Bewertungen anzeigen</b> aktiviert ist, wird die Option <b>Sternebewertung</b> ist standardmäßig aktiviert.</p></td>
+    <p>Für neue Konten ist im Abschnitt <b>Bewertungen anzeigen</b> die Option <b>Sternebewertung</b> standardmäßig aktiviert.</p>
+    <p>Wenn für vorhandene Konten zuvor die Option <b>Kurseffektivität</b> aktiviert war, wird der Abschnitt <b>Bewertungen anzeigen</b> mit der Option "Kurseffektivität" aktiviert. Wenn die Option <b>Kurseffektivität</b>s deaktiviert ist, wird der Abschnitt <b>Bewertungen anzeigen</b> ebenfalls deaktiviert. Wenn der Abschnitt <b>Bewertungen anzeigen</b> aktiviert ist, wird die Option <b>Sternebewertung</b> standardmäßig aktiviert.</p></td>
   </tr>
  </tbody>
 </table>
@@ -438,22 +440,7 @@ Aktivieren oder Deaktivieren der folgenden Einstellungen:
 
 >[!NOTE]
 >
->Sobald die Qualifikationsimporteinstellung aktiviert ist, kann das Kontolayout nicht mehr in die klassische Ansicht umgeschaltet werden, d. h. der Wechsel zu einem klassischen Konto ist nach dem **Kenntnisimport** aktiviert ist.
-
-
-## AI-basierte Empfehlung
-
-Der Lern-Manager enthält eine brandneue Teilnehmer-Startseite, die modern, inhaltsorientierter und den Wünschen des Teilnehmers entsprechend personalisiert ist. AI-basierte Lernempfehlungen zielen darauf ab, das Engagement der Teilnehmer zu verbessern, Lernlücken zu erkennen und sie zu beheben.
-
-Der Empfehlungsalgorithmus ist darauf ausgelegt, mehrere Eingabequellen zu verwenden, einschließlich Branchendaten zu Arbeitsrollen, Titeln und Beschreibungen, die Adobe von seinen Partnern bezogen hat. Diese Daten werden dann verwendet, um die AI-Algorithmen der Adobe zu trainieren, sodass der Learning Manager eine Karte erstellen kann, die branchenorientierte Kenntnisse mit Tätigkeitsbezeichnungen und/oder -bezeichnungen verbindet. Dies wird dann zu einer einzigen Eingabe in den Empfehlungsalgorithmus.
-
-Learning Manager analysiert dann mit Themenmodellierungsalgorithmen die Schulungsinhalte innerhalb eines Kontos und ordnet sie den Kenntnissen zu.
-
-Learning Manager verwendet Peer-Aktivitätsdaten als ein weiteres Signal, um den Empfehlungsalgorithmus personalisiert zu steuern. Hier werden Aktivitäten wie Registrierung, Abschluss und explizites Feedback der Teilnehmer verwendet.
-
-Darüber hinaus verwendet Learning Manager von einzelnen Teilnehmern gesammelte explizite und implizite Informationen, um Empfehlungen weiter zu personalisieren. Teilnehmende können ihre Interessensbereiche explizit über Registrierungen angeben, und Learning Manager erhält diese Informationen implizit basierend darauf, wie die Teilnehmenden am Ende die Schulungen absolvieren.
-
-Schließlich kann der Administrator den Empfehlungsalgorithmus auch mithilfe von Teilnehmerattributen beeinflussen, die Learning Manager beim Definieren von Peer-Gruppen berücksichtigen sollte, und indem er Schulungen für bestimmte Benutzergruppen hervorhebt.
+>Sobald die Einstellung für den Kenntnisimport aktiviert ist, kann das Kontolayout nicht mehr in die klassische Ansicht umgeschaltet werden, d. h. das Umschalten auf das klassische Konto ist deaktiviert, nachdem die Option **Kenntnisse importieren** aktiviert wurde.
 
 ## Umbenennung von Lernobjekten {#renaminglearningobjects}
 
@@ -486,10 +473,10 @@ Aktivität
 
 ## Profileinstellungen {#profilesettings}
 
-1. Klicken Sie in der rechten oberen Ecke neben Ihrem Foto/Konto auf die Dropdownliste und wählen Sie **[!UICONTROL Profileinstellungen]**.
-1. Im Popup-Dialogfeld können Sie ein Foto hinzufügen/ändern, indem Sie mit der Maus darauf zeigen und auf **[!UICONTROL Bearbeiten]** im Bereich &quot;Profilfoto&quot;.
-1. Hinzufügen/Ändern **[!UICONTROL Über]** Inhalt durch Klicken auf **[!UICONTROL Bearbeiten]** direkt daneben.
-1. Klicken **[!UICONTROL Speichern].**
+1. Klicken Sie in der rechten oberen Ecke neben Ihrem Foto/Konto auf den Dropdownpfeil und wählen Sie **[!UICONTROL Profileinstellungen]** aus.
+1. Im Popup-Dialogfeld können Sie ein Foto hinzufügen/ändern, indem Sie mit der Maus darauf zeigen und im Bereich &quot;Profilfoto&quot; auf **[!UICONTROL Bearbeiten]** klicken.
+1. Fügen Sie **[!UICONTROL Über]** Inhalt hinzu/ändern Sie ihn, indem Sie auf **[!UICONTROL Bearbeiten]** daneben klicken.
+1. Klicken Sie auf **[!UICONTROL Speichern].**.
 
 ## Inhaltsordner {#content-folder}
 
@@ -532,11 +519,11 @@ Dieser Ordner kann nicht Teil einer konfigurierbaren Rollendefinition sein. Wenn
 
 **Ordner hinzufügen**
 
-Um einen Ordner hinzuzufügen, klicken Sie auf **[!UICONTROL Hinzufügen]** oben rechts im Fenster.
+Um einen Ordner hinzuzufügen, klicken Sie in der oberen rechten Ecke des Fensters auf **[!UICONTROL Hinzufügen]**.
 
 **Ordner löschen**
 
-Sie können auch einen Ordner löschen. Wählen Sie den zu löschenden Ordner aus, klicken Sie auf das Menü &quot;Aktionen&quot; und dann auf **[!UICONTROL Ordner löschen]**.
+Sie können auch einen Ordner löschen. Wählen Sie den zu löschenden Ordner aus, klicken Sie auf das Menü &quot;Aktionen&quot;, und klicken Sie auf **[!UICONTROL Ordner löschen]**.
 
 >[!NOTE]
 >
@@ -562,9 +549,9 @@ Fügen Sie Folgendes hinzu:
 4. URL des Speicherorts: Geben Sie die URL des Speicherorts ein.
 5. Sitzplatzbeschränkung: Geben Sie die Sitzplatzkapazität des Raumes ein.
 
-![Klassenzimmerposition](assets/location-alm.gif)
+![Speicherort des Klassenzimmers](assets/location-alm.gif)
 
-*Fügen Sie Speicherorte für Klassenzimmer hinzu*
+*Klassenzimmerspeicherorte hinzufügen*
 
 Sie können den Speicherort auch mithilfe einer CSV-Datei hinzufügen. Die CSV-Datei muss die folgenden Felder enthalten:
 
@@ -578,16 +565,17 @@ Sie können den Speicherort auch mithilfe einer CSV-Datei hinzufügen. Die CSV-D
 
 ### Einstellungen {#admin-classroom-settings}
 
-Auswählen **Bearbeiten** , um Folgendes zu ändern:
+Wählen Sie **Bearbeiten**, um Folgendes zu ändern:
 
 * **Autoren das Erstellen von Speicherorten erlauben**: Nach der Aktivierung werden alle von Autoren erstellten Speicherorte auf der Registerkarte &quot;Alle Speicherorte&quot; aufgeführt. Teilnehmer sehen diese Speicherorte auch unter Katalog- und Kalenderfilter.
-* **Autoren das Ändern und Löschen von Speicherorten erlauben**: Nach der Aktivierung können Autoren alle Speicherorte in Klassenzimmern ändern und löschen. Die Änderungen durch Autoren werden in der gesamten Plattform widergespiegelt, einschließlich Berichten.
+* **Autoren erlauben, Speicherorte zu ändern und zu löschen**:
+Nach der Aktivierung können Autoren alle Speicherorte in Klassenzimmern ändern und löschen. Die Änderungen durch Autoren werden in der gesamten Plattform widergespiegelt, einschließlich Berichten.
 
 ## Häufig gestellte Fragen {#frequentlyaskedquestions}
 
 +++Wie kann ich unterschiedliche Ordner für die Inhaltsbibliothek erstellen?
 
-Klicken **[!UICONTROL Einstellungen]** > **[!UICONTROL Inhaltsordner]**. Um einen Ordner hinzuzufügen, klicken Sie auf **[!UICONTROL Hinzufügen]** in der oberen rechten Ecke und geben Sie im Dialogfeld den Namen und die Beschreibung des Ordners ein.
+Klicken Sie auf **[!UICONTROL Einstellungen]** > **[!UICONTROL Inhaltsordner]**. Um einen Ordner hinzuzufügen, klicken Sie in der oberen rechten Ecke auf **[!UICONTROL Hinzufügen]** und geben Sie im Dialogfeld den Namen und die Beschreibung des Ordners ein.
 
 Inhaltsordner können von Administratoren konfiguriert werden. Erst nach der Konfiguration werden Inhaltsordner für Autoren sichtbar und sie erhalten die Möglichkeit, den Inhalt in einem oder mehreren Ordnern zu platzieren.
 
@@ -596,5 +584,5 @@ Weitere Informationen finden Sie im Abschnitt [Inhaltsordner](settings.md#conten
 
 +++Wie kann ich das Geschäftsjahr für das Konto hinzufügen?
 
-In **[!UICONTROL Einstellungen]** > **[!UICONTROL Grundlegende Informationen]** auf **[!UICONTROL Ändern]**. Im Fenster &quot; **[!UICONTROL Geschäftsjahr beginnt am]** den Monat aus.
+Klicken Sie in **[!UICONTROL Einstellungen]** > **[!UICONTROL Grundlegende Informationen]** auf **[!UICONTROL Ändern]**. Wählen Sie in der Dropdownliste **[!UICONTROL Geschäftsjahr beginnt mit]** den Monat aus.
 +++
