@@ -33,13 +33,13 @@ Die Anzahl der neuen Benachrichtigungen wird durch die markierte Zahl oben am Be
 
 Ein Teilnehmer kann einen Kurs, der ihm von einem Manager zugewiesen wurde, ablehnen, indem er im Benachrichtigungs-Popup-Fenster auf „Ablehnen“ klickt.
 
-## Push-Benachrichtigung planen
+## Planen der Push-Benachrichtigung
 
-Teilnehmer erhalten Push-Benachrichtigungen, wenn sie einen Kurstermin verpassen. Teilnehmer haben die Möglichkeit, entweder 24 Stunden lang eine Erinnerung zu schreiben oder nächste Woche an jede überfällige Erinnerung erinnert zu werden. Dies gilt nur für fristüberfällige Benachrichtigungen.
+Teilnehmer erhalten Push-Benachrichtigungen, wenn sie einen Termin für einen Kurs verpassen. Teilnehmer haben die Möglichkeit, entweder eine Erinnerung 24 Stunden lang zu versenden oder nächste Woche für jede überfällige Erinnerung, die sie erhalten, erinnert zu werden. Dies gilt nur für Benachrichtigungen über überfällige Fristen.
 
 ## Alle Benachrichtigungen anzeigen {#showallnotifications}
 
-Klicke **[!UICONTROL unten im Popup-Fenster &quot;Benachrichtigungen&quot; auf &quot;Alle Benachrichtigungen]** anzeigen&quot;, um alle Benachrichtigungen auf einer separaten Seite anzuzeigen.
+Klicken Sie auf den Link **[!UICONTROL Alle Benachrichtigungen anzeigen]** am unteren Rand des Benachrichtigungs-Popup-Fensters, um alle Benachrichtigungen auf einer separaten Seite anzuzeigen.
 
 ![](assets/notifications-page.png)
 
@@ -61,7 +61,7 @@ Teilnehmer erhalten Benachrichtigungen, wenn die folgenden Ereignisse eintreten:
 1. Der Teilnehmer hat eine Nominierung abgelehnt.
 1. Für von Managern genehmigte Kurse: Der Manager hat einen Antrag auf Registrierung für einen Kurs genehmigt/abgelehnt.
 1. Die Teilnehmer-Warteliste wurde geleert.
-1. Der Teilnehmer wurde automatisch für einen Kurs oder ein Lernprogramm oder eine Zertifizierung angemeldet.
+1. Der Teilnehmer wurde automatisch für einen Kurs, ein Lernprogramm oder eine Zertifizierung registriert
 1. Der Teilnehmer hat eine Zertifizierung abgeschlossen.
 1. Ein Manager genehmigt einen Zertifizierungsnachweis/lehnt einen Zertifizierungsnachweis ab, der von einem Teilnehmer hochgeladen wurde.
 1. Wenn die Frist für eine bestimmte Kursinstanz bald abläuft. (Der Administrator kann das Datum festsetzen, ab dem Erinnerungen für Teilnehmer erscheinen.)
@@ -72,8 +72,8 @@ Teilnehmer können nach Abschluss von Kursen, die eine Feedback-Option haben, L1
 
 ![](assets/feedback.png)
 
-*Feedback zu Kursen bereitstellen*
+*Kursfeedback bereitstellen*
 
 >[!NOTE]
 >
->Teilnehmer erhalten die Feedback-Option für Kurse nur dann, wenn ein Administrator dies für einen bestimmten Kurs ermöglicht.
+>Teilnehmer erhalten die Feedback-Option für Kurse nur, wenn ein Administrator sie für einen bestimmten Kurs aktiviert.

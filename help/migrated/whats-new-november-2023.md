@@ -17,7 +17,7 @@ Die Adobe Learning Manager-Benutzeroberfläche wurde einigen Aktualisierungen un
 
 Die Designaktualisierungen gelten automatisch für Konten, die das Standarddesign verwenden. Die Aktualisierungen des Designs der Benutzeroberfläche wirken sich nicht auf Konten aus, die Änderungen zur Verwendung eines benutzerdefinierten Designs vorgenommen haben. Solche Konten müssen zurück zum Standarddesign wechseln, um die neuen Designaktualisierungen zu erhalten.
 
-![UI-Bild](assets/refreshed-ui.png)
+![Benutzeroberflächenbild](assets/refreshed-ui.png)
 
 ### Über diese Änderung
 
@@ -33,7 +33,7 @@ Die maximale Breite des Logos beträgt 210 px. Logos mit einer Breite von mehr a
 
 Wenn die Logogröße die empfohlene Größe unterschreitet, wird das Logo unverändert hochgeladen und zentriert ausgerichtet.
 
-**Welche Auswirkungen hat das?**
+**Welche Auswirkungen haben Sie?**
 
 Längere Firmennamen werden zugeschnitten, und der Bereich wird mit einem Auslassungszeichen gefüllt.
 
@@ -54,7 +54,7 @@ Weitere Informationen finden Sie unter [Native Erweiterbarkeit](/help/migrated/a
 
 Sie können jetzt mit dem neuen Quizerstellungstool auf der Seite &quot;Inhaltsbibliothek&quot; Bewertungen im Learning Manager erstellen. Die erstellten Bewertungen werden Teil der Inhaltsbibliothek und können zu einem &quot;öffentlichen&quot; Ordner hinzugefügt werden, um die Wiederverwendbarkeit von Kursen zu gewährleisten.
 
-Anzeigen [Quiz erstellen](/help/migrated/authors/feature-summary/content-library.md) Weitere Informationen.
+Weitere Informationen finden Sie unter [Quiz erstellen](/help/migrated/authors/feature-summary/content-library.md).
 
 ## Berichten von Änderungen in dieser Version
 
@@ -74,7 +74,7 @@ In dieser Version haben wir einen Datumsfilter hinzugefügt, mit dem Sie Benachr
 
 In dieser Version können Sie die Informationen zum erneuten Kursaufruf in einem Registrierungsbericht herunterladen, indem Sie eine Zeit angeben. Für Konten mit mehr als fünf Millionen Registrierungen ist der Downloadzeitraum auf sechs Monate begrenzt. Für alle anderen Konten beträgt der Zeitraum 15 Monate.
 
-Sie können den Bericht von der Seite **[!UICONTROL Berichte]** > **[!UICONTROL Benutzerdefinierte Berichte]** > **[!UICONTROL Historische Berichte]** > **[!UICONTROL Kurszugriffsbericht]**.
+Sie können den Bericht von **[!UICONTROL Berichte]** > **[!UICONTROL Benutzerdefinierte Berichte]** > **[!UICONTROL Historische Berichte]** > **[!UICONTROL Kurszugriffsbericht]** herunterladen.
 
 ### Änderungen am Teilnehmertranskript
 
@@ -255,7 +255,7 @@ Wenn in dieser Version der Bericht zu Arbeitshilfen 10 Millionen überschreitet,
 
 Wenn in früheren Versionen von Adobe Learning Manager ein Kurs, eine Zertifizierung oder ein Lernplan gelöscht wurde und die entsprechende Benachrichtigung vorhanden ist, können Sie weiterhin auf den Kurs, die Zertifizierung oder den Lernplan zugreifen, indem Sie die entsprechende Benachrichtigung aufrufen.
 
-In dieser Version stellen wir sicher, dass nicht mehr auf einen gelöschten Beitrag zugegriffen werden kann. Wenn Sie die ID in der Datei /posts/{id} API verfügbar ist und die ID für den Beitrag nicht mehr verfügbar ist, zeigt die API die Meldung &quot;Beitrag für die angegebene Ressource nicht gefunden&quot; an.
+In dieser Version stellen wir sicher, dass nicht mehr auf einen gelöschten Beitrag zugegriffen werden kann. Wenn Sie die ID in der /posts/{id}-API angeben und die ID für den Beitrag nicht mehr verfügbar ist, zeigt die API die Meldung &quot;Beitrag für die angegebene Ressource nicht gefunden&quot; an.
 
 ### Teilnehmer-API-Abschlussfrist
 
@@ -279,7 +279,7 @@ Außerdem ändern wir die Standardeinstellung von &quot;snippetTypes&quot; in &q
 
 ### Neuer Ressourcentyp für Quiz
 
-Die `instances.loResources.resources` Endpunkt wird zurückgegeben `ResourceContentType` mit Quiz.
+Der Endpunkt &quot;`instances.loResources.resources`&quot; gibt &quot;`ResourceContentType`&quot; mit Quiz zurück.
 
 ## Hinweis zum Verwerfen
 
@@ -288,7 +288,7 @@ Adobe Learning Manager wird BlueJeans im Februar 2024 einstellen. Alle neuen Kon
 
 ## Versionshinweise
 
-Weitere Informationen zu aktuellen und früheren Versionen der Learning Manager-Webanwendung und -Geräte-App finden Sie unter [Versionshinweise](release-note/release-notes.md).
+Weitere Informationen zu aktuellen und früheren Versionen der Learning Manager-Webanwendung und -Geräte-App finden Sie in den [Versionshinweisen](release-note/release-notes.md).
 
 ## In dieser Version behobene Fehler
 
@@ -305,7 +305,7 @@ Weitere Informationen zu aktuellen und früheren Versionen der Learning Manager-
 * Teilnehmende können keine LinkedIn-Kurse in der MS Teams-App abspielen.
 * Die Registrierungs-API gibt die Registrierungen für einen Flex-Lernplan oder einen eingebetteten Lernplan nicht wie erwartet zurück.
 * In der mobilen App werden die Namen eines Kurses, einer Zertifizierung oder eines Lernplans in Kleinbuchstaben angezeigt.
-* Wenn in früheren Versionen von Adobe Learning Manager ein Kurs, eine Zertifizierung oder ein Lernplan gelöscht wurde und die entsprechende Benachrichtigung vorhanden ist, können Sie weiterhin auf den Kurs, die Zertifizierung oder den Lernplan zugreifen, indem Sie die entsprechende Benachrichtigung aufrufen. In dieser Version stellen wir sicher, dass nicht mehr auf einen gelöschten Beitrag zugegriffen werden kann. Wenn Sie die ID in der Datei /posts/{id} API verfügbar ist und die ID für den Beitrag nicht mehr verfügbar ist, zeigt die API die Meldung &quot;Beitrag für die angegebene Ressource nicht gefunden&quot; an.
+* Wenn in früheren Versionen von Adobe Learning Manager ein Kurs, eine Zertifizierung oder ein Lernplan gelöscht wurde und die entsprechende Benachrichtigung vorhanden ist, können Sie weiterhin auf den Kurs, die Zertifizierung oder den Lernplan zugreifen, indem Sie die entsprechende Benachrichtigung aufrufen. In dieser Version stellen wir sicher, dass nicht mehr auf einen gelöschten Beitrag zugegriffen werden kann. Wenn Sie die ID in der /posts/{id}-API angeben und die ID für den Beitrag nicht mehr verfügbar ist, zeigt die API die Meldung &quot;Beitrag für die angegebene Ressource nicht gefunden&quot; an.
 * In der Teilnehmer-API wird das Abschlussfristfeld nicht in der Antwort der Registrierungs-API angezeigt.
 * In der API zum Abrufen der Registrierung für Teilnehmende werden die Registrierungsdetails angezeigt, selbst wenn Sie eine falsche Instanz-ID angegeben haben.
 

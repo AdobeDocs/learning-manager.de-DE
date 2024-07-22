@@ -1,7 +1,7 @@
 ---
 jcr-language: en_us
 title: Häufig gestellte Fragen für Teilnehmer
-description: Häufig gestellte Fragen für Teilnehmer des Adobe Learning Manager
+description: Häufig gestellte Fragen für Teilnehmer von Adobe Learning Manager
 contentowner: admin
 preview: true
 source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
@@ -32,7 +32,7 @@ Sie können sich jedoch alle Kurse, die im Katalog angezeigt werden, folgenderma
 
 Ja, Sie können über iPads, Android-Geräte und Smartphones auf Offline-Inhalte zugreifen.
 
-Weitere Informationen zum Offline-Zugriff finden Sie unter  [Benutzer von iPad- und Android-Tablets](feature-summary/ipad-android-tablet-users.md) Funktion.
+Weitere Informationen zum Offline-Zugriff finden Sie unter [Benutzer von iPad- und Android-Tablets](feature-summary/ipad-android-tablet-users.md).
 
 +++
 
@@ -48,7 +48,7 @@ Klicken Sie auf das Suchfeld. In diesem Feld werden die Suchergebnisse angezeigt
 
 Ja, Sie können Ihre Lernpunkte mit denen Ihrer Kollegen vergleichen. Bewegen Sie die Maus über den Profilkreis. Hier können Sie Ihre eigenen Punkte sehen. Um das Dialogfeld &quot;Leaderboard&quot; anzuzeigen, klicken Sie auf Zu Leaderboard wechseln. In diesem Dialogfeld sehen Sie eine Liste Ihrer Kollegen, die sich ungefähr auf derselben Stufe befinden wie Sie.
 
-Weitere Informationen finden Sie unter  [Leaderboard](feature-summary/gamification.md)Funktion.
+Weitere Informationen finden Sie unter [Leaderboard](feature-summary/gamification.md)Funktion.
 
 +++
 
@@ -68,7 +68,7 @@ Klicken Sie in der rechten unteren Ecke des Popupmenüs auf den Abwärtspfeil, u
 
 +++Was ist der Unterschied zwischen Lernen und Katalog?
 
-Auf der Registerkarte &quot;Lernen&quot; können Sie alle  [Kurse](feature-summary/courses.md),  [Lernprogramme](feature-summary/learning-programs.md) und  [Zertifizierungen](feature-summary/certifications.md) die von Ihnen registriert wurden oder Ihnen zugewiesen wurden. Sie können auch zur Registerkarte &quot;Lernen&quot; wechseln, indem Sie auf den Link Zum Lernen klicken.
+Auf der Registerkarte Lernen können Sie alle [Kurse](feature-summary/courses.md), [Lernprogramme](feature-summary/learning-programs.md) und [Zertifizierungen](feature-summary/certifications.md) anzeigen, die von Ihnen registriert wurden oder Ihnen zugewiesen wurden. Sie können auch zur Registerkarte &quot;Lernen&quot; wechseln, indem Sie auf den Link Zum Lernen klicken.
 
 Auf der Registerkarte Katalog können Sie alle Kurse, Lernprogramme und Zertifizierungen anzeigen, die für Ihre Rolle im Unternehmenskonto verfügbar sind. Sie können auch zur Registerkarte &quot;Katalog&quot; wechseln, indem Sie auf den Link &quot;Katalog aufrufen&quot; klicken.
 
@@ -94,7 +94,7 @@ Wenn Teilnehmer einige Kurse absolviert haben, können sie ihren Stand zu jeder 
 
 Um Kenntnisse anzuzeigen, klicken Sie in der rechten oberen Ecke der Einstiegsseite im Bereich Kenntnisdiagramme auf einen der Qualifikationsnamen. Die Kenntnisse werden gemeinsam mit ihren Stufen angezeigt.
 
-Weitere Informationen finden Sie unter  [Kenntnisse und Stufen](feature-summary/skills-levels.md) Funktion.
+Weitere Informationen finden Sie unter [Kenntnisse und Stufen](feature-summary/skills-levels.md).
 
 +++
 
@@ -102,7 +102,7 @@ Weitere Informationen finden Sie unter  [Kenntnisse und Stufen](feature-summary/
 
 Ja, Sie können über Smartphones, iPads oder ein anderes Android-Tablet auf den Learning Manager zugreifen.
 
-Weitere Informationen zu dieser Funktion finden Sie unter  [iPad- und Android-App-Benutzer](feature-summary/ipad-android-tablet-users.md) Funktion.
+Weitere Informationen zu dieser Funktion finden Sie unter [Benutzer der iPad- und Android-App](feature-summary/ipad-android-tablet-users.md).
 
 +++
 
@@ -110,19 +110,19 @@ Weitere Informationen zu dieser Funktion finden Sie unter  [iPad- und Android-Ap
 
 Ja, Sie können mit dem iPad auf Learning Manager zugreifen. Sie können die Anwendung vom App Store oder von Google Play herunterladen.
 
-Mit einem iPad- oder Android-Tablet kann allerdings nur auf Funktionen der Teilnehmerrolle zugegriffen werden. Sie können die Kurse auch offline absolvieren und sie mit der Anwendung synchronisieren, wenn Sie wieder online sind. Weitere Informationen finden Sie unter  [iPad- und Android-App-Benutzer](feature-summary/ipad-android-tablet-users.md) Charakteristik
+Mit einem iPad- oder Android-Tablet kann allerdings nur auf Funktionen der Teilnehmerrolle zugegriffen werden. Sie können die Kurse auch offline absolvieren und sie mit der Anwendung synchronisieren, wenn Sie wieder online sind. Weitere Informationen finden Sie unter [Benutzer der iPad- und Android-App](feature-summary/ipad-android-tablet-users.md)-Funktion
 
 +++
 
 +++Anmeldung beim Learning Manager nicht möglich. Was soll ich tun?
 
-Wenn Sie eine Adobe-ID haben, können Sie sich bei Learning Manager anmelden. Befolgen Sie die Anweisungen unter  [Benutzeranmeldung](feature-summary/user-login.md) für weitere Informationen zur Anmeldung bei der Anwendung. Falls das Problem weiterhin besteht, kontaktieren Sie bitte unser Supportteam.
+Wenn Sie eine Adobe-ID haben, können Sie sich bei Learning Manager anmelden. Befolgen Sie die Anweisungen unter [Benutzeranmeldung](feature-summary/user-login.md) Funktion, um weitere Informationen zur Anmeldung bei der Anwendung zu erhalten. Falls das Problem weiterhin besteht, kontaktieren Sie bitte unser Supportteam.
 
 +++
 
 +++Wie erreiche ich ein Kenntnisstand?
 
-Jedes Mal, wenn Sie eine neue Kenntnisstufe erreichen, erhalten Sie Credits. Credits sind Kenntnisstufen zugeordnet. Weitere Informationen zu Kenntnissen und Stufen finden Sie unter  [Qualifikationen und Stufen](feature-summary/skills-levels.md) Funktion.
+Jedes Mal, wenn Sie eine neue Kenntnisstufe erreichen, erhalten Sie Credits. Credits sind Kenntnisstufen zugeordnet. Weitere Informationen zu Kenntnissen und Stufen finden Sie in der Funktion [Kenntnisse und Stufen](feature-summary/skills-levels.md).
 
 +++
 
@@ -140,9 +140,9 @@ Sie können Interesse an der Teilnahme an Präsenzkursen anmelden, für die kein
 
 +++Was ist der Unterschied zwischen Credits und Gamification-Punkten?
 
-Jedes Mal, wenn Sie eine neue Kenntnisstufe erreichen, erhalten Sie Credits. Credits sind Kenntnisstufen zugeordnet. Weitere Informationen zu Credits, Kenntnissen und Stufen finden Sie unter  [Qualifikationen und Stufen](feature-summary/skills-levels.md) Funktion.
+Jedes Mal, wenn Sie eine neue Kenntnisstufe erreichen, erhalten Sie Credits. Credits sind Kenntnisstufen zugeordnet. Weitere Informationen zu Credits, Kenntnissen und Stufen finden Sie unter [Kenntnisse und Stufen](feature-summary/skills-levels.md)-Funktion.
 
-Sie erhalten Gamification-Punkte, wenn Sie eine Aufgabe abschließen. Derzeit sind im Learning Manager sechs Gamification-Aufgaben verfügbar. Nach Abschluss jeder Aufgabe erhalten Sie eine bestimmte Anzahl von Punkten, die mit dieser Aufgabe verknüpft sind. Weitere Informationen finden Sie unter  [Gamification](feature-summary/gamification.md) Funktion.
+Sie erhalten Gamification-Punkte, wenn Sie eine Aufgabe abschließen. Derzeit sind im Learning Manager sechs Gamification-Aufgaben verfügbar. Nach Abschluss jeder Aufgabe erhalten Sie eine bestimmte Anzahl von Punkten, die mit dieser Aufgabe verknüpft sind. Weitere Informationen finden Sie unter [Gamification](feature-summary/gamification.md)-Funktion.
 
 +++
 
@@ -154,7 +154,7 @@ Eine Liste der Abzeichen, die der Teilnehmer erworben hat, erscheint oben auf de
 
 Abzeichen werden Teilnehmern anhand bestimmter Kriterien zuerkannt, die von Ihrem Unternehmen definiert werden. Normalerweise ist dies der erfolgreiche Abschluss eines Kurses oder irgendeines Lernobjektes.
 
-Weitere Informationen finden Sie unter  [Ausweise](feature-summary/badges.md) Funktion.
+Weitere Informationen finden Sie unter [Abzeichen](feature-summary/badges.md).
 
 +++
 
@@ -164,7 +164,7 @@ Lernprogramme umfassen eine Gruppe von Kursen, die speziell im Hinblick auf best
 
 Um mit der Arbeit an einem Lernprogramm zu beginnen, klicken Sie auf das Programm, das Ihnen zugewiesen wurde. Sie können ausführliche Informationen zu diesem Programm abrufen.
 
-A **Programm starten** in der oberen rechten Ecke der Lernprogrammseite angezeigt. Klicken **[!UICONTROL Programm starten]** um den Kurs zu belegen.
+In der rechten oberen Ecke der Lernprogrammseite wird die Schaltfläche **Programm** starten angezeigt. Klicken Sie auf **[!UICONTROL Programm starten]**, um mit der Bearbeitung des Kurses zu beginnen.
 
 +++
 
@@ -181,7 +181,7 @@ Basierend auf den Punkten, die Sie durch das Absolvieren der Kurse erreicht habe
 
 Sie können Ihre aktuellen Stufenpunkte in Ihrem Profil und Ihr Ziel anzeigen, um bei Bedarf höhere Punkte zu erzielen.
 
-Siehe  [Gamification-Funktion](feature-summary/gamification.md) für weitere Informationen.
+Weitere Informationen finden Sie unter [Gamification-Funktion](feature-summary/gamification.md).
 
 +++
 
@@ -189,7 +189,7 @@ Siehe  [Gamification-Funktion](feature-summary/gamification.md) für weitere Inf
 
 Alle Kurse im Learning Manager werden in Browsern wiedergegeben. Sie können die Kurse mit dem Fluidic Player des Learning Managers im Vollbildmodus anzeigen.
 
-Siehe  [Fluidic Player-Funktion](feature-summary/fluidic-player.md) für weitere Informationen zu Player.
+Weitere Informationen zum Player finden Sie unter [Fluidic Player-Funktion](feature-summary/fluidic-player.md).
 
 [Kann ich meine persönlichen Anmerkungen exportieren?](frequently-asked-questions-for-learners.md)
 
@@ -225,10 +225,10 @@ Während Sie die Kursinhalte lesen, können Sie sich wie folgt Notizen machen:
 Sie haben die Möglichkeit, Ihre Kursnotizen herunterzuladen oder per E-Mail zu versenden, indem Sie die folgenden Schritte ausführen:
 
 1. Klicken Sie auf die Kurskachel, für die Sie die Anmerkungen abrufen möchten.
-1. Klicken Sie auf **Hinweise** neben dem **Module** &quot; ändern.
+1. Klicken Sie auf die Registerkarte **Hinweise** neben der Registerkarte **Module**.
 
-1. Klicken **[!UICONTROL Hinweise zum Herunterladen]** , um sie als PDF herunterzuladen.
-1. Klicken **[!UICONTROL E-Mail]** , um die Anmerkungen als E-Mail an Ihr E-Mail-Konto zu erhalten.
+1. Klicken Sie auf **[!UICONTROL Hinweise herunterladen]**, um das Dokument als PDF herunterzuladen.
+1. Klicken Sie auf **[!UICONTROL E-Mail-Hinweise]**, um die Anmerkungen als E-Mail an Ihr E-Mail-Konto zu erhalten.
 
 +++
 
@@ -259,7 +259,7 @@ Sie erhalten eine Benachrichtigung darüber, dass Sie einen Kurs abgeschlossen h
 
 Als Teil der Belohnung und Anerkennung der Leistungen des Teilnehmers führt der Learning Manager Online-Abzeichen für Teilnehmer ein. Abzeichen werden auf der Grundlage festgelegter Kriterien vergeben und dann im Profil eines Teilnehmers oben auf der Teilnehmer-Startseite angezeigt.
 
-Siehe  [Zertifizierungsfunktion](feature-summary/certifications.md) für weitere Informationen zu Zertifizierungen für Teilnehmer.
+Weitere Informationen zu Zertifizierungen für Teilnehmer finden Sie unter [Zertifizierungsfunktion](feature-summary/certifications.md).
 
 +++
 
@@ -308,8 +308,8 @@ Sie können die gefilterte Liste der Kurse entsprechend Ihrer Wahl abrufen und d
 
 +++Wie greife ich im Lern-Manager auf meine Kurse zu?
 
-1. Melden Sie sich bei Learning Manager als Teilnehmer an. Wenn Sie das Kennwort vergessen haben, klicken Sie auf **[!UICONTROL Kennwort vergessen?]** Link auf der Anmeldeseite, um ihn zurück zu Ihrer E-Mail-ID zu erhalten.
-1. Sobald Sie sich anmelden, sehen Sie oben auf der Seite die Registerkarte KURSE. Klicken **[!UICONTROL KURSE]** &quot; die Liste der Kurse an, die Ihnen zugewiesen wurden.
+1. Melden Sie sich bei Learning Manager als Teilnehmer an. Wenn Sie das Kennwort vergessen haben, klicken Sie auf den Link **[!UICONTROL Kennwort vergessen]** auf der Anmeldeseite, um es an Ihre E-Mail-ID zurückzugeben.
+1. Sobald Sie sich anmelden, sehen Sie oben auf der Seite die Registerkarte KURSE. Klicken Sie auf die Registerkarte **[!UICONTROL KURSE]**, um die Liste der Ihnen zugewiesenen Kurse anzuzeigen.
 
 +++
 

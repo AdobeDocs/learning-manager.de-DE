@@ -2,14 +2,13 @@
 jcr-language: en_us
 title: Ankündigungen
 description: Eine Ankündigung ist eine Multimedia-Nachricht (Text, Bild oder Video), die ein Administrator an eine definierte Gruppe von Benutzern übermittelt.
-source-git-commit: ed7e28720cf521b629333dc48e530e0aa16b0ae1
+exl-id: 303cba0e-d654-41a6-87b4-a28bfc91d8c8
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 61%
 
 ---
-
-
 
 # Ankündigungen
 
@@ -37,5 +36,4 @@ Unten wird eine Beispielankündigung als Referenz gezeigt.
 
 ![](assets/announcement-details.png)
 
-*Anzeigen von Details zu einer Ankündigung*
-
+*Details einer Ankündigung anzeigen*

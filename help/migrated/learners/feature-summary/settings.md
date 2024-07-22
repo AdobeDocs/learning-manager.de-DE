@@ -31,7 +31,7 @@ In diesem Artikel erfahren Sie, wie Sie als Teilnehmer Ihre Profileinstellungen 
    * Laden Sie das Teilnehmertranskript mit Ihren Daten herunter.
 
    ![](assets/learner-preferences.png)
-   *Anzeigen der Teilnehmervoreinstellungen*
+   *Teilnehmervoreinstellungen anzeigen*
 
    Wenn Sie auf den Link „,Eigenes Lernen‘-Transkript (XLS) herunterladen“ klicken, wird ein Excel-Arbeitsblatt auf Ihr System heruntergeladen. Dieses Excel-Arbeitsblatt enthält Details zu den von Ihnen genutzten Lernobjekten und zum Abschlussstatus der einzelnen Lernobjekte sowie zu den entsprechenden Fälligkeitsdaten, den erworbenen Kenntnissen usw. Laden Sie dieses Arbeitsblatt herunter, um schnell ein paar Übersichtsdaten für Ihr Lernprofil abzurufen.
 
@@ -39,7 +39,7 @@ In diesem Artikel erfahren Sie, wie Sie als Teilnehmer Ihre Profileinstellungen 
 
 **1. Wie kann ich ein Teilnehmertranskript als Teilnehmer herunterladen?**
 
-Klicken Sie oben rechts auf Ihre **[!UICONTROL Benutzerprofil]** > **[!UICONTROL Profileinstellungen]**. Klicken Sie im angezeigten Dialogfeld auf **Eigenes Lernprotokoll (XLS) herunterladen**.
+Klicken Sie in der oberen rechten Ecke auf Ihr **[!UICONTROL Benutzerprofil]** > **[!UICONTROL Profileinstellungen]**. Klicken Sie im angezeigten Dialogfeld auf **Eigenes Lerntranskript (XLS) herunterladen**.
 
 ![](assets/dowload-lt.png)
 *Teilnehmertranskript herunterladen*

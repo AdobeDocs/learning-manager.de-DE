@@ -23,7 +23,7 @@ Nachdem Sie sich als Manager angemeldet haben, können Sie das Popupfenster mit 
 
 Durchsuchen Sie die Beispiele in den Videolehrgängen, um die wichtigsten Funktionen für Ihre Managerrolle kennenzulernen. Wenn Sie dieses Popup-Fenster nicht während der Anmeldung anzeigen möchten, können Sie es deaktivieren, indem Sie in der rechten unteren Ecke des Popup-Fensters auf die Option Bei Anmeldung nicht anzeigen klicken.
 
-Klicken **[!UICONTROL Fenster schließen]** , um das Popup zu schließen.
+Klicken Sie auf **[!UICONTROL Fenster schließen]**, um das Popup zu schließen.
 
 ![](assets/welcome-videos.png)
 

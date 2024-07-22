@@ -2,7 +2,8 @@
 title: Neue Funktionen in dieser Version (April 2023)
 description: Informationen über die neuen Funktionen und Verbesserungen in Adobe Learning Manager
 hidefromtoc: true
-source-git-commit: 1da0911a4d0c2ae5cb01bbb2b7955675b0dfcdde
+exl-id: 0f9d73e8-da7f-4895-b4fa-54f52668cd4e
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '3158'
 ht-degree: 62%
@@ -28,7 +29,7 @@ Mehrere Verbesserungen wurden an der ILT-Erfahrung (Instructor Led Training) vor
 
 Weitere Informationen finden Sie unter [Kursleiter(innen) Kenntnisse zuweisen](/help/migrated/administrators/feature-summary/skills-levels.md#assign-skills-to-instructors).
 
-![Kursleiter-CSV](assets/instructor-csv-new.png)
+![CSV für Kursleiter](assets/instructor-csv-new.png)
 
 ### Planungsassistent
 
@@ -42,7 +43,7 @@ Weitere Informationen finden Sie unter [Planungs-Assistent](/help/migrated/autho
 
 Eine brandneue mobile Adobe Learning Manager-App für Android und iOS, die Teilnehmenden einen reibungslosen Zugang zum Lernen unterwegs bietet. Mit der App können Teilnehmende Schulungen auf ihren Mobilgeräten absolvieren und später auf ihren Desktops fortsetzen. Mit Unterstützung für Benachrichtigungen, Hochladen von Dateien, einfaches Bookmarking und Freigeben von Lerninhalten, soziales Lernen und mehr bietet die mobile App Teilnehmenden zusätzliche Flexibilität und unterstützt Just-in-Time-Lernen.
 
-![Neues Bild der Benutzeroberfläche der mobilen Map](assets/mobile-app.png)
+![Neues Bild der mobilen Kartenschnittstelle](assets/mobile-app.png)
 
 Laden Sie das Mobilgerät aus dem Google Play Store und der Apple App Store herunter. Benutzer der älteren Version der Applikation werden aufgefordert, die neue Applikation herunterzuladen und zu installieren.
 
@@ -64,7 +65,7 @@ Die neue mobile App unterstützt die folgenden Hauptfunktionen in dieser Version
 * Unterstützung für Abzeichen.
 * Unterstützung für die Anmeldung als externe Benutzende.
 
-**Was in dieser Version nicht unterstützt wird**
+**Was wird in dieser Version nicht unterstützt**
 
 * Unterstützung für mehrere Versuche, ein Quizmodul in einem Kurs zu erstellen, wenn der Kurs von der mobilen App aus absolviert wird.
 * Suchoptionen, mit denen Sie Suchparameter wie Kurs-Metadaten, Tags und Kenntnisse zum Festlegen des Suchbereichs angeben können.
@@ -103,13 +104,13 @@ Der Administrator hat eine neue Option namens &quot;Gruppen&quot; in &quot;Einst
 | Die Option &quot;Gruppen&quot; ist aktiviert. | <ul><li> Zeigt die Benutzergruppe auf der Kachel zusammen mit dem Link zur Katalogseite an.</li><li> Die Benutzergruppe wird im Katalogfilter angezeigt.</li></ul> | <ul><li>Der Name der Benutzergruppe wird nicht auf der Kachel angezeigt.</li><li>Die Benutzergruppe wird nicht im Katalogfilter aufgeführt.</li></ul> |
 | Gruppenoption ist deaktiviert | <ul><li>Zeigt den Namen der Benutzergruppe auf der Kurskachel als reinen Text an.</li><li>Die Benutzergruppe wird nicht im Katalogfilter aufgeführt.</li></ul> | <ul><li>Auf der Kurskachel wird weder der Text noch der Name der Benutzergruppe angezeigt.</li><li>Die Benutzergruppe wird nicht im Katalogfilter aufgeführt.</li></ul> |
 
-**Und so funktioniert&#39;s**
+**Funktionsweise**
 
 Administrator(inn)en erstellen eine Ankündigung, indem sie den Kurs für eine beliebige Benutzergruppe hinzufügen und ihn veröffentlichen.
 
 Was ein Teilnehmer sieht, ist ein Streifen mit empfohlenen Kursen auf der Startseite und einem Link zum Kurs auf der Kachel.
 
-![Teststreifen-Teilnehmer](assets/recommendation-strip-learner.png)
+![Empfehlungs-Strip für Teilnehmer](assets/recommendation-strip-learner.png)
 
 Wenn der Teilnehmer auf den Link oder die Schaltfläche &quot;Zum Katalog&quot; klickt, wird der Teilnehmer zur Kurskatalogseite umgeleitet. Der Teilnehmer zeigt dann die Liste der Benutzergruppen an, die basierend auf den Benutzergruppen im Katalog und auf der Seite &quot;Meine Lernprogramme&quot; gefiltert werden sollen.
 
@@ -121,7 +122,7 @@ Wenn der Teilnehmer auf den Link oder die Schaltfläche &quot;Zum Katalog&quot; 
 
 Manchmal möchten Sie, dass Teilnehmende eine Sitzung im Kalender nach dem Standort filtern. Nach dem Hinzufügen eines Standorts über das Dialogfeld &quot;Standorte für Klassenzimmer&quot; oder die CSV-Datei können Teilnehmende dann filtern.
 
-![Fügen Sie Speicherorte für Klassenzimmer hinzu](assets/add-classroom-locations.png)
+![Klassenzimmerspeicherorte hinzufügen](assets/add-classroom-locations.png)
 
 Weitere Informationen finden Sie unter [Standorte für Klassenzimmer hinzufügen](/help/migrated/administrators/feature-summary/settings.md#classroom-locations).
 
@@ -129,13 +130,13 @@ Weitere Informationen finden Sie unter [Standorte für Klassenzimmer hinzufügen
 
 Als Teilnehmer(in) können Sie Sitzungen filtern, die Ihnen nach Standort zugewiesen sind. Navigieren Sie zum Kalender-Widget, wählen Sie „Sitzungen filtern“ und wählen Sie den Standort.
 
-![Keine Filter angewendet](assets/no-filters-applied.png)
+![Es wurden keine Filter angewendet](assets/no-filters-applied.png)
 
-![Sessions im Kalender ohne angewendete Filter](assets/sessions-on-calendar-no-filters.png)
+![Sitzungen im Kalender ohne angewendete Filter](assets/sessions-on-calendar-no-filters.png)
 
-![Filter, die auf Speicherorte angewendet werden](assets/location-filter-applied.png)
+![Filter angewendet auf Speicherorte](assets/location-filter-applied.png)
 
-![Sessions im Kalender mit angewendeten Positionsfiltern](assets/session-with-location-filters-applied.png)
+![Sitzungen im Kalender mit angewendeten Standortfiltern](assets/session-with-location-filters-applied.png)
 
 Außerdem wird der Schulungsort jetzt auf der Kursübersichtsseite angezeigt, wenn der Ort vom Autor beim Erstellen des Kurses hinzugefügt wird.
 
@@ -189,7 +190,7 @@ Die Suchfunktion wurde auch für Teilnehmende verbessert. Teilnehmer können jet
 
 Auf der Seite &quot;Übersicht&quot; wird ein Popup-Fenster zur Registrierung angezeigt, wenn ein Teilnehmer in Konflikt stehende Sitzungen hat. Wenn Sie sich von der Katalogseite oder der Übersichtsseite aus registrieren und ein Teilnehmer bereits Sitzungen hat, die Konflikte verursachen, wird ein Popup-Fenster mit Details zu konfliktverursachenden Sitzungen ausgelöst. Auch wenn ein Teilnehmer eine Sitzung hat, die einen Konflikt verursacht, können sie sich für die neue Sitzung registrieren.
 
-![Vorwarnung](assets/learner-pop-up.png)
+![Warnung](assets/learner-pop-up.png)
 
 Beachten Sie, dass diese Meldung nur eine Warnung ist. Sie können sich weiterhin für einen Kurs registrieren.
 
@@ -221,7 +222,7 @@ Ein Administrator kann die Instanzen für Teilnehmer wechseln.
 
 ![Instanzen wechseln](assets/switch-instances.png)
 
-![Switch-Instanzen auswählen](assets/switch-instances-select.png)
+![Instanzen wechseln: ](assets/switch-instances-select.png) auswählen
 
 Sie können die Instanzen erst wechseln, wenn eine Instanz des Kurses über die Teilnehmer- oder Admin-App abgeschlossen wurde.
 
@@ -253,9 +254,9 @@ Weitere Informationen finden Sie unter [Bericht &quot;Benutzerprüfpfad&quot;](/
 
 Dieser Bericht erfasst die Zeit (in Minuten), die Kursleiter(innen) täglich mit zugewiesenen Sitzungen verbringen. Der Bericht kann für einen Zeitraum von drei Monaten ab dem ausgewählten Startdatum heruntergeladen werden.
 
-Weitere Informationen finden Sie unter [Bericht zur Auslastung der Kursleiter](/help/migrated/administrators/feature-summary/reports.md#instructor-utilization-report).
+Weitere Informationen finden Sie unter [Bericht zur Kursleiterauslastung](/help/migrated/administrators/feature-summary/reports.md#instructor-utilization-report).
 
-![Ausbilder-Nutzungsbericht](assets/instructor-utilization.png)
+![Bericht zur Auslastung des Kursleiters](assets/instructor-utilization.png)
 
 ### Bericht zu Arbeitshilfen
 
@@ -302,7 +303,7 @@ Die Optionen sind standardmäßig aktiviert.
 
 Wir haben der Jobs-API das neue Attribut jobType hinzugefügt. Das Attribut akzeptiert die folgenden Werte:
 
-* **generateInstructorUtilisationReport**: Gibt den Auslastungsbericht eines Kursleiters zurück.
+* **generateInstructorUtilisationReport**: Gibt den Nutzungsbericht eines Kursleiters zurück.
 * **generateJobAidMetadataReport**: Gibt die Metadaten eines Arbeitshilfeberichts zurück.
 
 **Endpunkt**: POST /primeapi/v2/jobs
@@ -417,14 +418,14 @@ Die folgenden Attribute werden hinzugefügt:
 * instructorSkills
 * instructorSkillLevel
 
-**Endpunkt**: GET /primeapi/v2/account /&lt;account_id>/instructorskill/search
+**Endpunkt**: GET /primeapi/v2/account /&lt;Konto-ID>/instructorskill/search
 
 ### ILT-Änderungen
 
 | Beschreibung | Neuer Parameter/neue Antwort | Endpunkt |
 |--- |--- |--- |
 | Alle Städte auflisten | filter.cityName=true/false | GET /primeapi/v2/data |
-| Städte suchen und filtern | filter.cityName=city_name<br>Unterstützt auch eine durch Kommas getrennte Liste von Städten |
+| Städte suchen und filtern | filter.cityName=city_name<br>Unterstützt außerdem eine durch Kommas getrennte Liste von Städten |
 | GET /primeapi/v2/search |
 | Details zum Rückgaberaum | include=room | GET /primeapi/v2/users/`<id>`/calendar |
 | Lernobjekt zum Filtern von Städten | filter.cityName=city_name <br> Unterstützt auch eine durch Kommas getrennte Liste von Städten. | GET /primeapi/v2/learningObjects |
@@ -492,7 +493,7 @@ Sie können externe Benutzende über die API benutzerdefinierten Gruppen hinzuf�
 
 POST /userGroups/{id}/users
 
-**Body**
+**Haupttext**
 
 ```javascript {line-numbers="true"}
 "data": [ 
@@ -507,7 +508,7 @@ POST /userGroups/{id}/users
 
 DELETE /userGroups/{id}/users
 
-**Body**
+**Haupttext**
 
 ```javascript {line-numbers="true"}
 "data": [  
@@ -520,7 +521,7 @@ DELETE /userGroups/{id}/users
 
 ### Ankündigungsbenutzergruppenfilterung für Verluste in der Teilnehmer-App
 
-* Die GET /users/{userId}Die /userGroups-API verfügt über einen neuen Parameter, filter.announcementGroupsOnly, der einen booleschen Wert (true/false) annimmt. Dadurch werden nur Benutzergruppen gefiltert, die der Administrator ankündigt. Der Standardwert des Parameters ist &quot;false&quot;.
+* Die GET /users/{userId}/userGroups-API verfügt über einen neuen Parameter, filter.announcementGroupsOnly, der einen booleschen Wert (true/false) annimmt. Dadurch werden nur Benutzergruppen gefiltert, die der Administrator ankündigt. Der Standardwert des Parameters ist &quot;false&quot;.
 * Die GET/learningObjects-API verfügt über einen neuen Parameter, filter.announcementGroups, der Ankündigungsgruppen-IDs zum Filtern der Ergebnisse akzeptiert.
 * Die GET/search-API verfügt über einen neuen Parameter, filter.announcementGroups, der Ankündigungsgruppen-IDs zum Filtern der Ergebnisse akzeptiert.
 
@@ -631,11 +632,11 @@ Beispielantwort unten:
 
 ## Versionshinweise
 
-Weitere Informationen zu aktuellen und früheren Versionen der Learning Manager-Webanwendung und -Geräte-App finden Sie unter [Versionshinweise](/help/migrated/release-note/release-notes.md).
+Weitere Informationen zu aktuellen und früheren Versionen der Learning Manager-Webanwendung und -Geräte-App finden Sie in den [Versionshinweisen](/help/migrated/release-note/release-notes.md).
 
 ## Fehlerbehebungen
 
-Um die Fehler anzuzeigen, die in diesem Update behoben wurden, lesen Sie die [Liste der behobenen Fehler](release-note/release-notes.md#bugs-fixed-in-this-release).
+Um die Fehler anzuzeigen, die in diesem Update behoben wurden, lesen Sie die Liste [Behobene Fehler](release-note/release-notes.md#bugs-fixed-in-this-release).
 
 ## Systemanforderungen
 

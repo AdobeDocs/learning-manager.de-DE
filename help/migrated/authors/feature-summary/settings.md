@@ -15,17 +15,17 @@ ht-degree: 4%
 
 ## Einstellungen {#Settings-1}
 
-Anzeigen Ihrer Profilinformationen, Hinzufügen/Ändern von Profilfotos und Ändern von **Über mich** Inhalt.
+Zeigen Sie Ihre Profilinformationen an, fügen Sie ein Profilfoto hinzu bzw. ändern Sie es, und ändern Sie den Inhalt von **Über mich**.
 
 ## Kontoeinstellungen {#accountsettings}
 
-1. Wählen Sie den Dropdown-Pfeil in der oberen rechten Ecke neben Ihrem Foto/Konto und wählen Sie **Profileinstellungen**.
-1. Im Popup-Dialogfeld können Sie ein Foto hinzufügen/ändern, indem Sie mit der Maus darauf zeigen und **Bearbeiten** im Bereich &quot;Profilfoto&quot;.
-1. Hinzufügen/Ändern **Über mich** Inhalte zu erstellen, indem Sie auf den Textbereich darunter klicken.
+1. Wählen Sie den Dropdown-Pfeil in der oberen rechten Ecke neben Ihrem Foto/Konto aus und wählen Sie **Profileinstellungen**.
+1. Im Popup-Dialogfeld können Sie ein Foto hinzufügen/ändern, indem Sie mit der Maus darauf zeigen und im Bereich &quot;Profilfoto&quot; **Bearbeiten** auswählen.
+1. Fügen Sie Inhalt von **Über mich** hinzu/ändern Sie diesen, indem Sie auf den Textbereich darunter klicken.
 1. Ändern Sie die folgenden Einstellungen:
    * **Benutzeroberflächensprache**: Sie können die Sprache der ALM-Benutzeroberfläche aus dem Dropdown-Menü auswählen.
    * **Inhaltssprache**: Sie können die Standardsprache auswählen, in der der Inhalt im Player angezeigt wird. Sie können die verfügbaren Sprachen im Player anzeigen.
-   * **Zeitzone**: Zeitzone auswählen
+   * **Zeitzone**: Wählen Sie Ihre Zeitzone aus
    * **[!UICONTROL Voreinstellungen]**: Durch Klicken auf das Modul wird die Schulung registriert und gestartet.
-   * **Transkript**: Sie können Ihre Lernprotokolle herunterladen.
+   * **Transkript**: Sie können Ihre Lerntranskripte herunterladen.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.

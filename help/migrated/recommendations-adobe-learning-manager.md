@@ -1,14 +1,13 @@
 ---
 title: Empfehlungen in Adobe Learning Manager
 description: Der Kern der Empfehlungs-Engine basiert auf dem neuen Kurs-Ranking-Algorithmus von Learning Manager. Der Algorithmus verwendet 50 Millionen Datenpunkte und fünf Jahre aggregierter Lerndaten über Millionen von Benutzern, um Kurse basierend auf ihrer Wahrscheinlichkeit einer Registrierung zu bewerten. Diese Einstufung stellt sicher, dass die Kurse mit den meisten Registrierungen den Teilnehmenden als erste angezeigt werden.
-source-git-commit: 40f6732147b7babeb1f11ce52045e6baf6338ce1
+exl-id: 42083095-60a0-4e20-9097-3344d290da1a
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '1435'
 ht-degree: 60%
 
 ---
-
-
 
 # Empfehlungen in Adobe Learning Manager
 
@@ -22,24 +21,24 @@ Um mit dieser Funktion zu beginnen, müssen Sie die Funktion in der Admin-App ak
 
 1. Laden Sie die Kurs- und Benutzerdaten hoch (optional).
 1. Aktivieren Sie die Änderungen.
-1. Laden Sie nach dem Aktivieren und Konfigurieren der Empfehlungen die Daten in den Adobe Learning Manager hoch, damit die Empfehlungen funktionieren. Diese Daten umfassen:
+1. Nachdem Sie die Empfehlungen aktiviert und konfiguriert haben, laden Sie die Daten in Adobe Learning Manager hoch, damit die Empfehlungen funktionieren. Diese Daten umfassen:
 
    * Kursdaten
    * Benutzerdaten (optional)
 
 ## Algorithmus für die Kursrangliste
 
-Der Kern der Empfehlungs-Engine basiert auf den neuen **[!UICONTROL Algorithmus für die Kursrangfolge]**. Der Algorithmus verwendet 50 Millionen Datenpunkte und fünf Jahre aggregierter Lerndaten über Millionen von Benutzern, um Kurse basierend auf ihrer Wahrscheinlichkeit einer Registrierung zu bewerten. Diese Einstufung stellt sicher, dass die Kurse mit den meisten Registrierungen den Teilnehmenden als erste angezeigt werden.
+Der Kern der Empfehlungs-Engine basiert auf dem neuen **[!UICONTROL Kursranking-Algorithmus des Learning Managers]**. Der Algorithmus verwendet 50 Millionen Datenpunkte und fünf Jahre aggregierter Lerndaten über Millionen von Benutzern, um Kurse basierend auf ihrer Wahrscheinlichkeit einer Registrierung zu bewerten. Diese Einstufung stellt sicher, dass die Kurse mit den meisten Registrierungen den Teilnehmenden als erste angezeigt werden.
 
 ## Schlüsselbegriffe
 
 Die neue AI-basierte Empfehlungs-Engine von Learning Manager bietet Lernenden ein konfigurierbares, parameterbasiertes Empfehlungssystem für die Erstellung eines personalisierten Erlebnisses für Teilnehmer.
 
-Die Parameter sind: **Produkte/Themen**, **Rollen** und **Stufen**. Darüber hinaus können diese Parameter Ihren Anforderungen entsprechend umbenannt werden. So können &quot;Produkte&quot; zu &quot;Themen&quot; oder &quot;Rollen&quot; zu &quot;Region&quot; werden.
+Die Parameter sind: **Produkte/Themen**, **Rollen** und **Ebenen**. Darüber hinaus können diese Parameter Ihren Anforderungen entsprechend umbenannt werden. So können &quot;Produkte&quot; zu &quot;Themen&quot; oder &quot;Rollen&quot; zu &quot;Region&quot; werden.
 
 ## Einrichten des Empfehlungssystems
 
-Die neue Empfehlungs-Engine von Adobe Learning Manager vereinfacht den Admin-Arbeitsablauf beim Einrichten personalisierter Empfehlungen, da Daten zu Produkten und Rollen, die mit einem Kunden/Partner verknüpft sind, in der Regel Administratoren zur Verfügung stehen (z. B. aus Kaufunterlagen).
+Die neue Empfehlungs-Engine von Adobe Learning Manager vereinfacht den Admin-Arbeitsablauf beim Einrichten personalisierter Empfehlungen, da Daten zu Produkten und Rollen, die mit einem Kunden/Partner verknüpft sind, in der Regel für Administratoren verfügbar sind (z. B. aus Kaufdatensätzen).
 
 Bei der Einrichtung der neuen Empfehlungs-Engine gibt es hauptsächlich drei Arbeitsabläufe:
 
@@ -51,11 +50,11 @@ Die Parameterwerte für Produkte, Rollen und Stufen des Kontos werden durch die 
 
 Administratoren erhalten in Learning Manager einen geführten Arbeitsablauf, mit dem sie die Empfehlungs-Engine optimal einrichten und die Engine basierend auf dem Anwendungsfall des Kontos anpassen können. Darüber hinaus hat die Administration auch die Möglichkeit, PRL-Empfehlungen über einen einmaligen CSV-Upload einzurichten.
 
-1. Auswählen **[!UICONTROL Recommendations]** in der Admin-App.
+1. Wählen Sie in der Admin-App **[!UICONTROL Recommendations]** aus.
 
-   ![Wählen Sie Recommendations in der Admin-App aus.](assets/image831538.png)
+   ![Recommendations in der Admin-App auswählen](assets/image831538.png)
 
-   *Wählen Sie die Option Recommendations*
+   *Recommendations-Option auswählen*
 
 1. Klicken Sie auf **[!UICONTROL Aktualisieren]**.
 
@@ -70,8 +69,8 @@ Administratoren erhalten in Learning Manager einen geführten Arbeitsablauf, mit
 
 1. Erstellen Sie die Empfehlungsparameter für Produkte und Rollen.
 
-   ![Erstellen der Parameter](assets/image43406.png)
-   *Erstellen von Parametern für Empfehlungen*
+   ![Parameter erstellen](assets/image43406.png)
+   *Parameter für Empfehlung erstellen*
 
 1. Klicken Sie auf **[!UICONTROL Weitere Werte hinzufügen]**.
 1. Fügen Sie die Produkte hinzu. Geben Sie den Namen eines Produkts ein und drücken Sie die Eingabetaste.
@@ -129,7 +128,7 @@ Im Folgenden finden Sie ein Beispiel für Datensätze in der CSV-Datei:
 
 **RecLO.csv**
 
-* Kurs/Lernpfad
+* Schulung
 * Schulungstyp
 * Schulungsname
 * Produkte
@@ -152,7 +151,7 @@ Füllen Sie diese CSVs aus und wenden Sie sich an Ihr Customer Success Team, um 
 Nachdem beide CSV hochgeladen wurden, klicken Sie auf &quot;Go live&quot; (Live loslegen). Dadurch wird das neue Empfehlungssystem für die Teilnehmenden sichtbar.
 
 ![live gehen](assets/computerdescription-automatically.png)
-*Empfehlungen live schalten.*
+*Empfehlungen live schalten*
 
 Das Empfehlungssystem ist jetzt für Ihre Teilnehmenden verfügbar.
 
@@ -171,15 +170,15 @@ Das Empfehlungssystem ist jetzt für Ihre Teilnehmenden verfügbar.
 
 1. Wählen Sie in der Parameterliste das Drei-Punkte-Symbol und dann **[!UICONTROL Parameter löschen]**.
 
-![Löschparameter](assets/delete-parameter.png)
+![Parameter löschen](assets/delete-parameter.png)
 *Parameter löschen*
 
 ## Seite &quot;Kurseinstellungen&quot;
 
 Auf der Einstellungsseite eines Kurses werden die Empfehlungen für Produkte und Rollen aufgeführt. Teilnehmenden wird dieser Kurs empfohlen, wenn sie Interesse an diesen Produkten und Rollen gezeigt haben.
 
-![Einstellbild](assets/course-settings-image.png)
-*Seite &quot;Kurseinstellungen&quot;*
+![Bild einstellen](assets/course-settings-image.png)
+*Seite mit Kurseinstellungen*
 
 ## Teilnehmendenansicht
 
@@ -203,12 +202,12 @@ Nachdem Teilnehmende im linken Bereich „Empfehlungen“ ausgewählt haben, wir
 
 Durch Klicken auf &quot;Empfehlungen einrichten&quot; gelangen die Teilnehmenden zum Popup für die Produktauswahl.
 
-![Popup-Fenster für Produktauswahl](assets/product-selection-popup.png)
+![Popup zur Produktauswahl](assets/product-selection-popup.png)
 *Produkte auswählen*
 
 Im nächsten Popup können die Teilnehmenden die Rolle auswählen.
 
-![auserwählte Rolle](assets/image270860.png)
+![Rolle auswählen](assets/image270860.png)
 *Rollen auswählen*
 
 Die Teilnehmenden können dann die Stufen hinzufügen.
@@ -232,7 +231,7 @@ Teilnehmende können die folgenden Streifen in der App sehen:
 
 ### Karten auf meinem Lernstreifen
 
-![Lernstreifen-Karten](assets/image770606.png)
+![Lernstreifenkarten](assets/image770606.png)
 *Karten auf dem Lernstreifen*
 
 Jede Karte verfügt über die Schaltflächen „Bewertung“, „Kartenbild“, „Titel“, „Kenntnisse“, „Veröffentlichungsdatum“, „Autor“, „Dauer“, „Fortschrittsleiste“ und „Fortfahren“ oder „Entdecken“.
@@ -248,11 +247,11 @@ Es gibt keine Fortschrittsleiste auf der Karte, nachdem Teilnehmende den Kurs ge
 
 ### Karten auf superrelevantem Streifen
 
-![superrelevante Streifenkarten](assets/super-relevant-cards.png)
+![super relevante Streifenkarten](assets/super-relevant-cards.png)
 *Relevante Karten*
 
 Jede Karte verfügt über die Schaltflächen „Bewertung“, „Kartenbild“, „Titel“, „Kenntnisse“, „Veröffentlichungsdatum“, „Autor“, „Dauer“, „Fortschrittsleiste“ und „Start“ oder „Entdecken“ oder „Fortfahren“ oder „Erneut aufrufen“.
 
 Es gibt keine Fortschrittsleiste auf der Karte, nachdem Teilnehmende den Kurs gestartet haben.
 
-Das Menü enthält zwei Optionen: **[!UICONTROL Speichern]** und **[!UICONTROL Empfehlen Sie das nicht]**. Wenn der Teilnehmer auf **[!UICONTROL Speichern]**, der Kurs wird im Streifen &quot;Gespeichert von mir&quot; gespeichert. Wenn der Teilnehmer auf **[!UICONTROL Empfehlen Sie das nicht]** klicken, wird die empfohlene Schulung aus der Liste entfernt.
+Im Menü gibt es zwei Optionen: **[!UICONTROL Speichern]** und **[!UICONTROL Nicht empfehlen]**. Wenn der Teilnehmer auf **[!UICONTROL Speichern]** klickt, wird der Kurs im Streifen &quot;Von mir gespeichert&quot; gespeichert. Wenn der Teilnehmer auf **[!UICONTROL Nicht empfehlen]** klickt, wird die empfohlene Schulung aus der Liste entfernt.

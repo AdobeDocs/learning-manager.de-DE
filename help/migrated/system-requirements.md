@@ -65,7 +65,7 @@ Für die Audioaufzeichnung ist ein Mikrofon erforderlich. Für die Videoaufzeich
 
 >[!NOTE]
 >
->Der mobile Browser unterstützt nur die Teilnehmerrolle in **immersive Gestaltung**.
+>Der mobile Browser unterstützt nur die Teilnehmerrolle in **immersivem Layout**.
 
 >[!NOTE]
 >
@@ -98,7 +98,7 @@ Die maximale Dateigröße, die hochgeladen werden kann, beträgt 600 MB.
 >
 >Wenn die Größe der Datei *user.csv* 100 MB überschreitet, kann das Importieren dieser Datei zu einem unerwarteten Verhalten des Browsers führen. Das Problem tritt auf, weil dem Browser der Arbeitsspeicher ausgeht.
 
-Wir empfehlen, große Dateien zu importieren. *user.csv* -Dateien mithilfe des automatisierten Box/Exavault-Workflows. Weitere Informationen finden Sie unter [Migrieren von Dateien](/help/migrated/integration-admin/feature-summary/migration-manual.md).
+Es wird empfohlen, große *user.csv*-Dateien mithilfe des automatisierten Box/Exavault-Workflows zu importieren. Weitere Informationen finden Sie unter [Dateien migrieren](/help/migrated/integration-admin/feature-summary/migration-manual.md).
 
 
 ## Unterstützte Inhaltsformate
@@ -309,7 +309,7 @@ Stellen Sie sicher, dass die folgenden Domänen von Drittanbietern auf die weiß
   </tr>
   <tr>
    <td>GetAbstracts Connector</td>
-   <td><a href="https://www.exavault.com/" target="_blank">www.exavault.com</a><br><a href="https://www.getabstract.com/de/" target="_blank">www.getabstract.com  </a></td>
+   <td><a href="https://www.exavault.com/" target="_blank">www.exavault.com</a><br><a href="https://www.getabstract.com/de/" target="_blank">www.getabstract.com </a></td>
   </tr>
   <tr>
    <td>Box Connector</td>

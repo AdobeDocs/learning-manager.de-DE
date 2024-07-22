@@ -28,10 +28,10 @@ Das angehängte CSS-Stylesheet enthält den Stil, der von Learning Manager angew
 Der Standardstil erfüllt möglicherweise nicht alle Anforderungen. Die Anpassungen können durch Überschreiben des bereitgestellten CSS vorgenommen werden. Der Stil wird als Nachfahren-Selektoren unter ql-editor eingeschlossen. Folgende Klassen werden verwendet:
 
 * **Einzug**: li.ql-indent-$number. $number variiert von 1 bis 9
-* **Umfang**: ql-size-small, ql-size-large, ql-size-huge
+* **Größe**: ql-size-small, ql-size-large, ql-size-huge
 * **Ausrichtung**: ql-align-center, ql-align-justify, ql-align-right
-* **Farbe**: ql-color-$color. $color = white, red, orange, yellow, green, blue, purple
+* **color**: ql-color-$color. $color = white, red, orange, yellow, green, blue, purple
 * **Hintergrund**: ql-bg-$color. $color = black, red, orange, yellow, green, blue, purple
-* **html-Tags**: p, ol, ul, pre, blockquote, h1, h2, h3, h4, h5, h6
+* **HTML-Tags**: p, ol, ul, pre, blockquote, h1, h2, h3, h4, h5, h6
 
 [CSS-Datei für die Anpassung.](assets/ql-headless.css)

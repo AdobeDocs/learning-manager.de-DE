@@ -19,7 +19,7 @@ In der Learning Manager-App auf iPad- oder Android-Tablet sehen Sie, nachdem Sie
 
 ![](assets/screenshot-2015-08-07-12-24-40-e1439211134842.png)
 
-Um zu den Lern- und Katalogfunktionen zu navigieren, tippen Sie auf das **Menü** &quot; und wählen Sie die entsprechende Option aus.
+Um zu den Lern- und Katalogfunktionen zu navigieren, tippen Sie auf das Dropdown-Menü **Menü** und wählen Sie die entsprechende Option aus.
 
 ![](assets/menu-ipad.png)
 
@@ -36,7 +36,7 @@ Sie können auf iPad- und Android-Tablets auch offline auf die Learning Manager-
 
 Sie können Ihren Gerätespeicher regelmäßig überprüfen.
 
-Tippen Sie auf das Profilsymbol in der rechten oberen Ecke der App und tippen Sie auf **Gerätespeicher** aus.
+Tippen Sie auf das Profilsymbol in der rechten oberen Ecke der App und tippen Sie auf die Menüoption **Gerätespeicher**.
 
 ![](assets/app-device-storage.png)
 

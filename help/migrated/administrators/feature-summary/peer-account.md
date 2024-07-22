@@ -3,14 +3,13 @@ description: In diesem Artikel erfahren Sie, wie Sie Peer-Konten in Learning Man
 jcr-language: en_us
 title: Peer-Konten
 contentowner: shhivkum
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: 251d0eeb-f5e8-4f70-a36c-dcecb4834042
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '576'
 ht-degree: 62%
 
 ---
-
-
 
 # Peer-Konten
 
@@ -27,7 +26,7 @@ Learning Manager bietet jetzt die Möglichkeit, erworbene Lizenzen mithilfe der 
 
    *Peer-Konto hinzufügen*
 
-1. Im Dialogfeld &quot; **[!UICONTROL Konto-Unterdomäne]** die Unterdomäne an, mit der Sie ein Peer-Konto einrichten möchten.
+1. Geben Sie im Feld **[!UICONTROL Konto-Unterdomäne]** die Unterdomäne an, mit der Sie ein Peer-Konto einrichten möchten.
 
    ![](assets/addpeer.png)
 
@@ -73,9 +72,9 @@ Der Administrator kann den Benutzerbericht des Peer-Kontos anzeigen. Der überge
 
 ![](assets/image034.png)
 
-*Anzeigen des Benutzerberichts eines Peer-Kontos*
+*Benutzerbericht eines Peer-Kontos anzeigen*
 
-Um die Berichte für Peer-Konten herunterzuladen, klicken Sie auf **[!UICONTROL Herunterladen]**.
+Klicken Sie auf **[!UICONTROL Herunterladen]**, um die Berichte für Peer-Konten herunterzuladen.
 
 ## Häufig gestellte Fragen {#frequentlyaskedquestions}
 

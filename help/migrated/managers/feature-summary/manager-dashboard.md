@@ -15,7 +15,7 @@ ht-degree: 49%
 
 Erfahren Sie, wie Sie Lernergebnisse über das Manager-Dashboard anzeigen und verfolgen können.
 
-Manager spielen eine wichtige Rolle bei den Lerninitiativen eines Teams. Zur besseren Orientierung bietet die Lernplattform dem Manager eine Dashboard-Ansicht, um die Lernergebnisse in seinem Team zu verfolgen.
+Führungskräfte spielen eine wichtige Rolle bei den Lerninitiativen eines Teams. Zur besseren Orientierung bietet die Lernplattform dem Manager eine Dashboard-Ansicht, um die Lernergebnisse in seinem Team zu verfolgen.
 
 ![](assets/dashboard-final.png)
 
@@ -31,7 +31,7 @@ Ein Manager kann die Zusammenfassung der Lernaktivitäten für sein Team über e
 
 ![](assets/learning-summarydashboard.png)
 
-*Lernaktivitäten im Laufe einer Zeit ansehen*
+*Anzeigen von Lernaktivitäten über einen bestimmten Zeitraum*
 
 ## Teamansicht {#teamview}
 
@@ -39,9 +39,9 @@ In der Teamansicht werden die Teams, ihre Mitglieder und ihre jeweiligen Registr
 
 ![](assets/ls-team-view.png)
 
-*In der Team-Ansicht werden die Teams, ihre Mitglieder und ihre anmeldungen angezeigt.*
+*In der Team-Ansicht werden die Teams, ihre Mitglieder und ihre jeweiligen Registrierungen angezeigt*
 
-Wenn du auf die Namen des Teams klickst, z. B. das Team von Venkatesh, siehst du die Mitglieder im Team von Venkatesh zusammen mit der Gesamtzahl der Anmeldungen, Fortschritte und Fertigstellungen für ein Lernobjekt.
+Wenn Sie auf die Teamnamen klicken, z. B. &quot;Venkatesh&#39;s Team&quot;, können Sie die Mitglieder im Team von Venkatesh zusammen mit der Gesamtzahl der Registrierungen, Fortschritte und Abschlüsse für ein Lernobjekt anzeigen.
 
 ![](assets/ls-click-team-names.png)
 
@@ -57,13 +57,13 @@ Auf ähnliche Weise können Sie die Lernobjekte zusammen mit der Anzahl der Regi
 
 ![](assets/ls-on-clicking-valuesinteamviewforateam.png)
 
-*Kurs- und Lernzusammenfassung anzeigen*
+*Kurse und Lernzusammenfassung anzeigen*
 
-Wenn du weiter auf die Anzahl der Anmeldungen, Fortschritte oder Abgeschlossenheiten für die einzelnen Schulungen klickst, siehst du die folgenden Details: Personen, Anmeldung/Abschlussdatum, Fälligkeitsdatum und erzielter Fortschritt.
+Wenn Sie weiter auf die Anzahl der Registrierungen, Fortschritte oder Abschlüsse für jedes Lernen klicken, können Sie die folgenden Details anzeigen: Personen, Anmelde-/Abschlussdatum, Fälligkeitsdatum und Fortschritt.
 
 ![](assets/ls-team-view-on-furtherclickingthevaluesforalearning.png)
 
-*Anmeldung/Abschlussdatum, Fälligkeitsdatum und erzielter Fortschritt anzeigen*
+*Anmelde-/Abschlussdatum, Fälligkeitsdatum und erreichter Fortschritt anzeigen*
 
 ## Lernansicht {#learningsview}
 
@@ -75,64 +75,64 @@ Klicken Sie auf die entsprechenden Werte in den Spalten „Registrierung“, „
 
 ![](assets/ls-learnings-view-onfurtherclickingvalues.png)
 
-*Ansicht &quot;Lerninhalte&quot;.*
+*Lernaktivitäten*
 
 ## Bericht exportieren {#exportreport}
 
-Um einen Excel-Bericht zu generieren, wähle &quot;Aktionen] > [!UICONTROL Report&quot; **[!UICONTROL aus.]**
+Um einen Excel-Bericht zu generieren, wählen Sie **[!UICONTROL Aktionen] > [!UICONTROL Bericht]**
 
 ## Compliance-Status {#compliancestatus}
 
-Im Compliance-Dashboard können Manager den Compliance-Status des Teams für konfigurierte Schulungen in verschiedenen Kategorien (z. B. Vertrieb, Marketing und Rechtsabteilung) anzeigen. Administratoren können ein Dashboard mit Compliance-Kursen, Lernpfaden oder Zertifizierungen erstellen und an Manager weitergeben. Manager können das Vom Administrator freigegebene Dashboard in ihren Instanzen anzeigen.
+Im Kompatibilitäts-Dashboard können Manager den allgemeinen Konformitätsstatus des Teams für konfigurierte Lernergebnisse für bestimmte Kategorien (z. B. Vertrieb, Marketing und Rechtsabteilung) anzeigen. Administratoren können ein Dashboard mit Compliance-Kursen, Lernpfaden oder Zertifizierungen erstellen und diese an die Manager weitergeben. Manager können das vom Administrator freigegebene Dashboard in ihren Instanzen anzeigen.
 
 ### Dashboard anzeigen
 
-Um das Dashboard anzuzeigen, wähle **[!UICONTROL &quot;Compliance-Dashboard]** &quot; aus der Manager-App aus.
+Um das Dashboard anzuzeigen, wählen Sie **[!UICONTROL Kompatibilitäts-Dashboard]** in der Manager-App.
 
 ![](assets/compliance-dashboard-manager.png)
-_Compliance Dashboard-Manager-App_
+_Kompatibilitäts-Dashboard-Manager-App_
 
-Das Compliance-Dashboard umfasst die folgenden Compliance-Status:
+Das Kompatibilitäts-Dashboard umfasst die folgenden Kompatibilitätsstatus:
 
-* **[!UICONTROL Nicht konforme Teilnehmer]**: Zeigt die Anzahl der Teilnehmer an, die Termine verpasst haben.
-* **[!UICONTROL Teilnehmer, die sich einem Stichtag]** nähern: Zeigt die Anzahl der Teilnehmer mit Stichtagsterminen in weniger als 30 Tagen an.
-* **[!UICONTROL Teilnehmer mit sicheren Deadlines]**: Zeigt die Anzahl der Teilnehmer an, wobei die Termine weiter aus sind (mehr als 30 Tage).
-* **[!UICONTROL Vollständig konforme Teilnehmer]**: Zeigt die Anzahl der vollständig standardkonformen Teilnehmer an.
-* **[!UICONTROL Teilnehmer, die nirgends]** angemeldet sind: Zeigt die Anzahl der Teilnehmer an, die nicht an Kursen, Lernpfaden oder Zertifizierungen angemeldet sind.
+* **[!UICONTROL Nicht konforme Teilnehmer]**: Anzahl der Teilnehmer, die Fristen nicht eingehalten haben.
+* **[!UICONTROL Teilnehmer nähern sich Fristen]**: Zeigt die Anzahl der Teilnehmer mit Fristen in weniger als 30 Tagen an.
+* **[!UICONTROL Teilnehmer mit sicheren Fristen]**: Zeigt die Anzahl der Teilnehmer mit weiter entfernten Fristen (mehr als 30 Tage) an.
+* **[!UICONTROL Vollständig kompatible Teilnehmer]**: Zeigt die Anzahl der vollkompatiblen Teilnehmer an.
+* **[!UICONTROL Teilnehmer nirgendwo registriert]**: Zeigt die Anzahl der Teilnehmer an, die nicht für Kurse, Lernpfade oder Zertifizierungen registriert sind.
 
 ### E-Mail-Manager und Teilnehmer
 
-**Verwaltung mehrerer Teams**
+**Mehrere Teams verwalten**
 
-Wenn ihr mehrere Teams verwaltet, könnt ihr eure Manager über den Lernstatus ihrer Team-Mitglieder informieren, indem ihr die **[!UICONTROL Option &quot;E-Mail-Manager]** &quot; in der **[!UICONTROL Team-Ansicht]** auswählt.
+Wenn Sie mehrere Teams verwalten, können Sie Ihre Manager über den Lernstatus ihrer Teammitglieder benachrichtigen, indem Sie die Option **[!UICONTROL E-Mail-Manager]** auswählen, die im Abschnitt **[!UICONTROL Teamansicht]** verfügbar ist.
 
 ![](assets/email-managers.png)
 _E-Mail-Manager_
 
-Die **[!UICONTROL E-Mail-Manager]** bieten Ihnen die folgenden Optionen:
+Der **[!UICONTROL E-Mail-Manager]** bietet Ihnen die folgenden Optionen:
 
-* **[!UICONTROL E-Mail-Manager nicht konformer]** Teilnehmer: Benachrichtigung von Managern, deren Team-Mitglieder Termine verpasst haben.
-* **[!UICONTROL E-Mail-Manager von Teilnehmern, die sich an Termine]** nähern: Benachrichtigung von Managern, deren Team-Mitglieder anstehende Termine haben.
+* **[!UICONTROL E-Mail-Manager von nicht konformen Teilnehmern]**: Benachrichtigen Sie Manager, deren Teammitglieder Fristen versäumt haben.
+* **[!UICONTROL E-Mail-Manager von Teilnehmern erreichen Fristen]**: Benachrichtigen Sie Manager, deren Teammitglieder bevorstehende Fristen haben.
 
-**Verwaltung eines einzelnen Teams**
+**Einzelnes Team verwalten**
 
-Wenn ihr ein einzelnes Team verwaltet, könnt ihr die Teilnehmer über ihren Lernstatus benachrichtigen, indem ihr die **[!UICONTROL Option &quot;E-Mail-Teilnehmer]** &quot; auswählt, die **[!UICONTROL im Team-Ansichtsabschnitt verfügbar ist]** .
+Wenn Sie ein einzelnes Team verwalten, können Sie die Teilnehmer über ihren Lernstatus benachrichtigen, indem Sie die Option **[!UICONTROL E-Mail-Teilnehmer]** auswählen, die im Abschnitt **[!UICONTROL Teamansicht]** verfügbar ist.
 
 ![](assets/email-learners.png)
-_E-Mail-Teilnehmer_
+_E-Mail an Teilnehmer_
 
-Die **[!UICONTROL Option &quot;E-Mail-Teilnehmer&quot;]** bietet Ihnen die folgenden Optionen:
+Die Option **[!UICONTROL E-Mail-Teilnehmer]** bietet Ihnen die folgenden Optionen:
 
-* **[!UICONTROL E-Mail an nicht konforme Teilnehmer]**: Teilnehmer benachrichtigen, die Termine verpasst haben.
-* **[!UICONTROL E-Mail-Teilnehmer, die sich an Termine]** nähern: Benachrichtigung von Teilnehmern, die anstehende Termine haben.
+* **[!UICONTROL Nicht konforme Teilnehmer per E-Mail benachrichtigen]**: Benachrichtigen Sie Teilnehmer, die Fristen versäumt haben.
+* **[!UICONTROL E-Mail-Teilnehmer, die Fristen erreichen]**: Benachrichtigen Sie Teilnehmer, die bevorstehende Fristen haben.
 
 ### Bericht herunterladen
 
-So ladest du den Report herunter:
+Führen Sie die folgenden Schritte aus, um den Bericht herunterzuladen:
 
-1. In der Manager-App kannst du zur **[!UICONTROL Ansicht &quot;Compliance Dashboard]** > **[!UICONTROL Team&quot;]** gehen.
-1. Wähle **[!UICONTROL &quot;Bericht]** herunterladen&quot;, um das Dashboard als Bericht zu speichern.
-So könnt ihr den Lernfortschritt eures Teams verfolgen.
+1. Wechseln Sie in der Manager-App zu **[!UICONTROL Kompatibilitäts-Dashboard]** > **[!UICONTROL Teamansicht]**.
+1. Wählen Sie **[!UICONTROL Bericht herunterladen]**, um Ihr Dashboard als Bericht zu speichern.
+Auf diese Weise können Sie den allgemeinen Lernfortschritt Ihres Teams verfolgen.
 
 ![](assets/download-report.png)
 _Berichte herunterladen_
@@ -199,26 +199,26 @@ On further clicking the values in the compliant, safe deadline, upcoming deadlin
 
 ## Team-Kenntnisse {#teamskills}
 
-Manager können das Kenntnis-Abschlussdiagramm anzeigen und eine Kenntnis-Abschlussprognose auf verschiedenen Ebenen konfigurieren. Die Dropdown-Liste &quot;Skills&quot; umfasst fünf Skills. Der Manager lernt das Know-how der Team-Mitglieder kennen und identifiziert starke Talente in bestimmten Bereichen.
+Manager können das Kenntnis-Abschlussdiagramm anzeigen und eine Kenntnis-Abschlussprognose auf verschiedenen Ebenen konfigurieren. Die Dropdown-Liste &quot;Kenntnisse&quot; enthält fünf Kenntnisse. Der Manager lernt die von den Teammitgliedern erworbenen Fachkenntnisse kennen und identifiziert starke Talente in bestimmten Fähigkeiten.
 
-Manager können auch bestimmte Kompetenzen in einem Team fördern, indem sie ein Ziel festlegen und prognostizieren, wie lange es dauert, um innerhalb einer Zeitleiste eine Fertigkeit für einen bestimmten Prozentsatz eines Teams zu erreichen.
+Manager können auch bestimmte Fähigkeiten in einem Team fördern, indem sie ein Ziel festlegen und vorhersagen, wie lange es dauern würde, eine Qualifikation für einen bestimmten Prozentsatz eines Teams innerhalb einer Timeline zu erreichen.
 
 Diese Prognose basiert auf Systemberechnungen, die einen Ausblick auf den Fortschritt dieser spezifischen Kenntnisse geben.
 
 ![](assets/ts-dashboard-02.png)
 
-*Kompetenzprognose anzeigen*
+*Qualifikationsvorhersage anzeigen*
 
-Um den Status eines Teams anzuzeigen, führe die folgenden Schritte aus:
+Um den Kenntnisstatus eines Teams anzuzeigen, führen Sie die folgenden Schritte aus:
 
-1. Klicke **[!UICONTROL im Bedienfeld &quot;Teamfähigkeiten]** &quot; links unter &quot;Teamansicht&quot;.
+1. Klicken Sie im linken Teilfenster im Abschnitt &quot;Ansicht &quot;Mein Team&quot; auf **[!UICONTROL Team-Kenntnisse]**.
 1. Um die Kenntnisse anzuzeigen, klicken Sie auf den Filter für Kenntnisse und wählen Sie einen aus der Dropdown-Liste aus.
 1. Um eine Ebene auszuwählen (Ebene 1, Ebene 2 oder Ebene 3), klicken Sie auf das Dropdown-Menü der Ebene.
 1. Basierend auf den ausgewählten Kenntnissen und der ausgewählten Ebene wird eine Grafik mit ihrem Kenntnisstatus angezeigt. Wenn Sie mit der Maus über das Diagramm fahren, können Sie die folgenden Prozentsätze des Kenntnisstatus anzeigen: **In Bearbeitung** und **Erreicht**.
 
    ![](assets/first-graph.png)
 
-   *Prozentsatz des Kompetenzstatus anzeigen*
+   *Prozentsatz des Kenntnisstatus anzeigen*
 
 ## Wie man den Teamabschluss in % für Kenntnisse voraussagt {#howtoforecasttheteamcompletionforaskill}
 
@@ -228,19 +228,19 @@ Folgen Sie den nachstehenden Schritten, um den Teamabschluss in % für Kenntniss
 
    ![](assets/configure.png)
 
-   *Hyperlink konfigurieren*
+   *Wählen Sie den Hyperlink &quot;Konfigurieren&quot; aus*
 
-1. Gib im Popup-Dialogfeld &quot;Konfigurieren&quot; für die zu konfigurierenden Kompetenzen einen Prozentwert im **Feld &quot;Target-Fertigstellung %&quot; ein und gib im Feld &quot;Zieldatum**&quot;**einen Prozentwert ein, bis wann du die** Zielerledigung % erreichen willst.***
+1. Geben Sie im Popup-Dialogfeld &quot;Konfigurieren&quot; für die Kenntnisse, die Sie konfigurieren möchten, einen Prozentwert in das Feld **Zielabschluss %** und das Datum ein, bis zu dem Sie den Zielabschluss % im Feld **Zieldatum** erreichen möchten.****
 
    ![](assets/configure-tracker.png)
 
-   *Prozentsatz der Zielerledigung eingeben*
+   *Zielabschlussprozentsatz eingeben*
 
-1. Klicken Sie auf die Schaltfläche **Schätzen**, um die Ausgabe für Ihre Prognose anzuzeigen . Die Ausgabe sieht wie der folgende Screenshot aus.
+1. Klicken Sie auf die Schaltfläche **Schätzen**, um die Ausgabe für Ihre Prognose anzuzeigen . Die Ausgabe sieht wie im folgenden Screenshot aus.
 
    ![](assets/skill-tracker-output.png)
 
-   *Skill-Tracxker-Ausgabe anzeigen*
+   *Ausgabe des Qualifikationsnachzeichners anzeigen*
 
 ## Prognose für Kenntnisstufenabschluss {#skilllevelcompletionforecast}
 
@@ -252,19 +252,19 @@ In der durchgezogenen Linie zeigt der erste Punkt das Datum für die erste Regis
 
 ![](assets/1-dotted-line.png)
 
-*Erste Anmeldung für ein Kompetenzniveau anzeigen*
+*Erste Registrierung für Kenntnisstufe anzeigen*
 
 Der zweite Punkt zeigt das aktuelle Datum und den Abschlussgrad von Kenntnissen in % an.
 
 ![](assets/2-solid-line.png)
 
-*Aktuelles Datum und Abschluss des Teams anzeigen – Kompetenzniveau*
+*Aktuelles Datum und Teamabschluss % Stufe der Kenntnisse anzeigen*
 
 Der dritte Punkt in der Zeile zeigt den erwarteten Abschlussgrad und den Abschlusszeitpunkt.
 
 ![](assets/3-solid-line.png)
 
-*Anzeigen des erwarteten Zielabschlusses in % und des geplanten Fertigstellungsdatums*
+*Erwartetes Zielabschlussdatum % und Zielabschlussdatum anzeigen*
 
 ## Prognoselinie {#forecastline}
 
@@ -274,37 +274,37 @@ Der erste Punkt auf der gepunkteten Linie repräsentiert den Team-Abschluss in %
 
 ![](assets/1-dotted-line.png)
 
-*Anzeige des Team-Abschlusses % und der prognostizierten Team-Fertigstellung % für eine Qualifikation*
+*Teamabschluss % und voraussichtlicher Teamabschluss % für Kenntnisse anzeigen*
 
 Der zweite Punkt zeigt das Datum, an dem der geplante Teamabschluss in % für Kenntnisse erreicht wurde.
 
 ![](assets/2-dotted-line.png)
 
-*Datum anzeigen, an dem die voraussichtliche Team-Fertigstellung % für eine Fachkompetenz erreicht wurde*
+*Datum anzeigen, an dem der projizierte Teamabschluss % für Kenntnisse erreicht wurde*
 
 Der dritte Punkt in der Prognoselinie zeigt den Teamabschluss in % an, der am Stichtag im Kenntnis-Tracker erreicht wurde.
 
 ![](assets/3-dotted-line.png)
 
-*Überblick über den Team-Abschluss % am Zieldatum, der im Kompetenz-Tracker bereitgestellt wird*
+*Teamabschluss % anzeigen, der am Zieldatum erreicht wurde, das im Kenntnistracker angegeben ist*
 
 Unter dem Diagramm wird eine Tabelle mit der Teamansicht und der Anzahl der registrierten, erreichten und in Bearbeitung befindlichen Kenntnisse angezeigt. Wenn ein Lernprogramm ein Abschlussdatum hat, wird auch das erwartete Abschlussdatum angezeigt.
 
 ![](assets/ts-details.png)
 
-*Übersicht über die Sicht des Teams und die Anzahl der angemeldeten, erreichten und laufenden Kompetenzen*
+*Tabelle mit der Ansicht des Teams und der Anzahl der Kenntnisse, die registriert, erreicht und in Bearbeitung sind*
 
 Wenn Sie auf den Teamnamen klicken, werden die Liste der Mitglieder, die sich für die Kenntnisse angemeldet haben, sowie deren Status und Abschlussdatum angezeigt.
 
 ![](assets/ts-click-the-teamnames.png)
 
-*Mitgliederliste anzeigen*
+*Liste der Mitglieder anzeigen*
 
-Wenn du auf das Team klickst, siehst du die Mitglieder darin und die entsprechenden Details für die ausgewählte Fertigkeit, z. B. wenn sie angemeldet wurden, den Status (in Bearbeitung oder erreicht) und den Abschlusstermin, falls festgelegt.
+Wenn Sie auf das Team klicken, können Sie die darin enthaltenen Mitglieder und die entsprechenden Details zu den ausgewählten Kenntnissen anzeigen, z. B. ob registriert, der Status (ob in Bearbeitung oder erreicht) und das Abschlussdatum, sofern festgelegt.
 
 ![](assets/on-clicking-the-teamnames.png)
 
-*Kenntnisse von Mitgliedern anzeigen*
+*Kenntnisse der Mitglieder anzeigen*
 
 Bei der Auswahl der Werte für ein Team in den Spalten „Registrierung“, „Erreicht“ und „In Bearbeitung“ können Sie die Anzahl der Benutzer anzeigen, die sich für die Kenntnisse registriert haben. Sie können auch das Datum anzeigen, an dem sich der Benutzer für die Kenntnisse angemeldet hat, den Status und das Abschlussdatum, wenn die Kenntnisse vom Benutzer abgeschlossen wurden.
 
@@ -312,7 +312,7 @@ Bei der Auswahl der Werte für ein Team in den Spalten „Registrierung“, „E
 
 ## Bericht exportieren {#Exportreport-1}
 
-* Klicke auf **[!UICONTROL Aktionen]** > **[!UICONTROL Exportieren]** , um die Daten als Excel-Datei zu exportieren.
+* Klicken Sie auf **[!UICONTROL Aktionen]** > **[!UICONTROL Exportieren]**, um die Daten als Excel-Datei zu exportieren.
 
 ![](assets/export-report.png)
 

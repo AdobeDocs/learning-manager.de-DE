@@ -2,14 +2,13 @@
 jcr-language: en_us
 title: Adobe Connect-Integration
 description: Autoren können während der Erstellung von Kursen Kurse für das virtuelle Klassenzimmer über Adobe Connect erstellen. Um Adobe Connect für Ihr Learning Manager-Konto zu aktivieren, müssen Sie den Administrator Ihres Unternehmens kontaktieren.
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+exl-id: 3386ab89-fe13-42fc-9943-b7ff278ed7e9
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 94%
 
 ---
-
-
 
 # Adobe Connect-Integration
 
@@ -18,11 +17,11 @@ Autoren können während der Erstellung von Kursen Kurse für das virtuelle Klas
 ## Kurs für virtuelles Klassenzimmer (VC) mit Adobe Connect erstellen {#createvirtualclassroomvccoursewithadobeconnect}
 
 1. Klicken Sie auf der Seite „Eigene Kurse“ auf „Module hinzufügen“ und wählen Sie „Virtuelles Klassenzimmer“. Das Dialogfeld „Virtuelles Klassenzimmer erstellen“ wird angezeigt.
-1. Im Dialogfeld &quot; **Konferenzsystem** wählen Sie Adobe Connect aus.
+1. Wählen Sie in der Option **Konferenzsystem** die Option &quot;Adobe Connect&quot; aus.
 
    ![](assets/create-vc-author.png)
 
-   *Erstellen eines virtuellen Klassenzimmers*
+   *Virtuelles Klassenzimmer erstellen*
 
 1. Geben Sie den Titel, die Beschreibung, das Datum für das VC sowie Start- und Endzeit ein.
 

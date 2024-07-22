@@ -1,14 +1,14 @@
 ---
-description: Adobe Learning Manager unterstützt mehrere Anmeldemethoden über mehrere SSO-Konfigurationen für interne und externe Benutzer.
+description: Adobe Learning Manager unterstützt mehrere Anmeldemethoden über mehrere SSO-Konfigurationen sowohl für interne als auch für externe Benutzer.
 title: Mehrere SSO-Anmeldungen
 contentowner: saghosh
-source-git-commit: d59e748472c77527c22b286aea5412f776f6441b
+exl-id: 398816e8-a144-459b-8c39-6517ce4573b4
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '782'
 ht-degree: 39%
 
 ---
-
 
 # Mehrere SSO-Anmeldungen {#multiple-sso-logins}
 
@@ -24,7 +24,7 @@ Einem Konto können bis zu 20 SSO-Konfigurationen hinzugefügt werden. Diese kö
 
 ## Aktivieren mehrerer SSO-Methoden
 
-Um mehrere SSO zu aktivieren, wählen Sie **Einstellungen** > **Anmeldemethoden**.
+Um mehrere SSO zu aktivieren, wählen Sie **Einstellungen** > **Anmeldungsmethoden**.
 
 Aktivieren Sie auf der Einrichtungsseite das Kontrollkästchen &quot;Mehrere Single Sign-On (SSO) aktivieren&quot; für interne oder externe Benutzer.
 

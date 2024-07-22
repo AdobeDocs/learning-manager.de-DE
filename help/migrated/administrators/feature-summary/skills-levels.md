@@ -31,7 +31,7 @@ Als Administrator können Sie Folgendes ausführen:
 
 Um Kenntnisse hinzuzufügen, gehen Sie wie folgt vor:
 
-1. Wählen Sie im linken Bereich **[!UICONTROL Kenntnisse]** > **[!UICONTROL Hinzufügen]** > **[!UICONTROL SKills hinzufügen]**. Geben Sie den Kenntnissen einen Namen und eine Beschreibung.
+1. Wählen Sie im linken Teilfenster **[!UICONTROL Kenntnisse]** > **[!UICONTROL Hinzufügen]** > **[!UICONTROL Kenntnisse hinzufügen]**. Geben Sie den Kenntnissen einen Namen und eine Beschreibung.
 
    ![](assets/add-skill-name-anddescription.png)
 
@@ -136,7 +136,7 @@ Während der Erstellung einer Arbeitshilfe kann ein Autor eine Kenntnisstufe dam
 
 ![](assets/create-a-job-aid.png)
 
-*Erstellen einer Arbeitshilfe*
+*Arbeitshilfe erstellen*
 
 Auf der Seite **[!UICONTROL Kenntnisse]** können Sie die Anzahl der mit dieser Kenntnisstufe verknüpften Arbeitshilfen anzeigen.
 
@@ -152,7 +152,7 @@ Sie können in den Abschnitten **[!UICONTROL Aktiv]** und **[!UICONTROL Eingeste
 
 ## Kenntnisse bearbeiten {#editaskill}
 
-Klicken Sie auf der Seite **[!UICONTROL Kenntnisse]** auf die Kenntnisse, die Sie ändern möchten. Im Dialogfeld &quot; **[!UICONTROL Kenntnisse bearbeiten]** &quot; die erforderlichen Änderungen vor, z. B.
+Klicken Sie auf der Seite **[!UICONTROL Kenntnisse]** auf die Kenntnisse, die Sie ändern möchten. Nehmen Sie im Dialogfeld **[!UICONTROL Kenntnisse bearbeiten]** die erforderlichen Änderungen vor, z. B.
 
 * Hinzufügen oder Löschen einer Kenntnisdomäne.
 * Geben Sie den Namen und die Beschreibung des Dashboards ein.
@@ -191,7 +191,7 @@ Sie können Kenntnisse nur löschen, wenn sie keinem Teilnehmer, Kurs oder keine
 
 Fügen Sie eine CSV-Datei hinzu, die die Kenntnisse von Kursleiter(inn)en enthält. Diese Kenntnisse werden dann der Liste der Kenntnisse hinzugefügt.
 
-1. Wählen Sie in der oberen rechten Ecke des Bildschirms **[!UICONTROL Hinzufügen]** > **[!UICONTROL Weisen Sie dem Kursleiter Kenntnisse zu]**.
+1. Wählen Sie in der oberen rechten Ecke des Bildschirms **[!UICONTROL Hinzufügen]** > **[!UICONTROL Kenntnisse dem Kursleiter zuweisen]**.
 1. CSV-Datei hochladen. Die Spalten in der CSV-Datei lauten:
 
    * Name der Kenntnisse
@@ -202,7 +202,7 @@ Fügen Sie eine CSV-Datei hinzu, die die Kenntnisse von Kursleiter(inn)en enthä
 
    Klicken Sie auf „Speichern“.
 
-   ![CSV-Datei &quot;Kursleiterkenntnisse hinzufügen&quot;](assets/instructor-skills.png)
+   ![CSV-Qualifikationen für Kursleiter hinzufügen](assets/instructor-skills.png)
 
    *Kursleiterkenntnisse aus einer CSV-Datei hinzufügen*
 
@@ -218,13 +218,13 @@ Fügen Sie eine CSV-Datei hinzu, die die Kenntnisse von Kursleiter(inn)en enthä
 
 Auf der Seite &quot;Kenntnisse&quot; befindet sich die Spalte &quot;Kursleiter&quot;, die die Anzahl der Kursleiter angibt, die Kenntnissen zugewiesen sind. Wenn Sie auf die Anzahl der Kursleiter klicken, wird ein Popup-Fenster angezeigt, in dem die Kursleiter angezeigt werden, die den Kenntnissen zugewiesen sind.
 
-![Den Ausbildern zugewiesene Kenntnisse](assets/instructor-skill-assigned.png)
+![Den Kursleitern zugewiesene Kenntnisse](assets/instructor-skill-assigned.png)
 
-*Seite &quot;Kenntnisse&quot;*
+*Kenntnisseite*
 
 ### CSV-Qualifikationszuweisung herunterladen
 
-1. Klicken Sie auf der Seite Kenntnisse auf **[!UICONTROL Hinzufügen]** > **[!UICONTROL Weisen Sie dem Kursleiter Kenntnisse zu]**.
+1. Klicken Sie auf der Seite &quot;Kenntnisse&quot; auf **[!UICONTROL Hinzufügen]** > **[!UICONTROL Kenntnisse dem Kursleiter zuweisen]**.
 1. Klicken Sie im Dialogfeld auf **[!UICONTROL Zuvor hinzugefügte Aufgabe]**.
 1. Die CSV-Datei, die Sie zuletzt hochgeladen haben, wird heruntergeladen.
 

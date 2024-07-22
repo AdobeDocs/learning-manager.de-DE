@@ -3,14 +3,13 @@ description: Beim Hochladen einer CSV-Datei wird ein Fehler angezeigt. Lesen Sie
 jcr-language: en_us
 title: CSV-Datei kann nicht hochgeladen werden
 contentowner: saghosh
-source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
+exl-id: 10458499-1038-4c62-971f-f950d383e970
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '541'
 ht-degree: 71%
 
 ---
-
-
 
 # CSV-Datei kann nicht hochgeladen werden
 
@@ -38,7 +37,7 @@ Sie können keine CSV-Datei hochladen, da in der ersten Spalte beim Zuordnen der
 
 ![](assets/csv-2.png)
 
-*Sonderzeichen in der Spalte &quot;Name&quot;*
+*Sonderzeichen in der Namensspalte*
 
 ## Ursache
 
@@ -72,11 +71,11 @@ Dieses Problem tritt auf, wenn ein Benutzer im System bereits mit derselben E-Ma
 
 ### Szenario 1
 
-**Konten, für die die UUID nicht aktiviert ist.**
+**Konten, für die UUID nicht aktiviert ist.**
 
 In diesem Szenario gibt es zwei Ursachen für diesen Fehler:
 
-1. Der Benutzer, den Sie hinzufügen möchten, ist ein Manager eines externen Profils. Um dieses Problem zu beheben, öffnen Sie das externe Profil, zu dem der Benutzer gehört, wählen Sie den Benutzer aus und klicken Sie auf **[!UICONTROL Aktionen]** > **[!UICONTROL Rolle zuweisen]** > **[!UICONTROL Manager]** und ändern Sie den Manager des Profils.
+1. Der Benutzer, den Sie hinzufügen möchten, ist ein Manager eines externen Profils. Um dieses Problem zu beheben, öffnen Sie das externe Profil, zu dem der Benutzer gehört, wählen Sie den Benutzer aus, klicken Sie auf **[!UICONTROL Aktionen]** > **[!UICONTROL Rolle zuweisen]** > **[!UICONTROL Manager]** und ändern Sie den Manager des Profils.
 1. Der Benutzer, den Sie hinzufügen möchten, wurde gelöscht. In diesem Szenario können Sie den Benutzer erst dann mit derselben E-Mail-Adresse hinzufügen, wenn der Bereinigungsvorgang abgeschlossen ist. Fügen Sie den Benutzer als ** mit ** sekundären E-Mail-Adresse hinzu, um Zugriff auf die Plattform zu gewähren. Sobald der Bereinigungsprozess abgeschlossen ist, bearbeiten Sie den Benutzer und ändern Sie die E-Mail-Adresse in die richtige E-Mail-Adresse.
 
 ### Szenario 2
@@ -85,11 +84,10 @@ In diesem Szenario gibt es zwei Ursachen für diesen Fehler:
 
 Bei UUID-fähigen Konten kann dieses Problem auftreten, wenn einem Benutzer eine UUID zugewiesen wurde, die bereits von einem anderen Benutzer im Konto verwendet wird, oder wenn der Benutzer eine andere E-Mail-Adresse hat.
 
-Es sind beispielsweise zwei Benutzer, A und B, mit E-Mail-Adressen zulässig.  <a@xyz.com> und <b@xyz.com> mit UUID 1 bzw. 2.
+Es sind beispielsweise zwei Benutzer, A und B, mit den E-Mail-Adressen &quot;<a@xyz.com>&quot; und &quot;<b@xyz.com>&quot; mit der UUID 1 bzw. 2 vorhanden.
 
 Wenn Sie jetzt eine CSV-Datei hochladen, die 3 als UUID des Benutzers A und 2 als UUID des Benutzers B aufweist, wird ein Fehler angezeigt.
 
 >[!TIP]
 >
->Um dieses Problem zu beheben, **Sie müssen dieselbe E-Mail-Adresse und UUID für den Benutzer in der CSV-Datei und im System haben.**
-
+>Um dieses Problem zu beheben, **müssen dieselbe E-Mail-Adresse und UUID für den Benutzer in der CSV-Datei und im System vorhanden sein.**

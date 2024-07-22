@@ -36,7 +36,7 @@ Führen Sie die folgenden Schritte aus, um auf die Einstellungen zuzugreifen:
 
 Administratoren können Gamification-Punkte für Teilnehmer festsetzen, indem sie die folgenden Schritte ausführen:
 
-1. Klicken **[!UICONTROL Gamification]** nachdem Sie sich als Administrator angemeldet haben.\
+1. Klicken Sie auf **[!UICONTROL Gamification]**, nachdem Sie sich als Administrator angemeldet haben.\
    Es erscheint eine Seite mit einer Liste der Bronze-, Silber-, Gold- und Platin-Stufen und den für jede Stufe erforderlichen Punkten. Eine Liste mit Aufgaben und entsprechenden Punkten wird angezeigt.
 1. Klicken Sie auf das Symbol „Bearbeiten“ neben jeder Aufgabe, um die Punkte festzusetzen.
 1. Ändern Sie die Häufigkeit des Auftretens von Aufgaben, wie zum Beispiel, dass eine bestimmte Anzahl an Kursen pro Monat , Quartal oder Jahr absolviert werden muss.
@@ -44,7 +44,7 @@ Administratoren können Gamification-Punkte für Teilnehmer festsetzen, indem si
 
 ![](assets/set-up-points.png)
 
-*Punkte einrichten.*
+*Punkte einrichten*
 
 ## Aufgaben {#tasks}
 
@@ -130,11 +130,12 @@ Mögliche Szenarien zu den Stufen der Kompetenzverbesserung innerhalb einer best
 >
 >Der Zeitraum ist für diese Aufgabe nicht relevant. Wenn der Teilnehmer eine höhere Stufe und danach eine niedrigere Stufe einer Fähigkeit erreicht, dann erhält er nur Punkte für die höhere Stufe.
 
-**Zur Referenz**
+**Für Referenz**
 
 Diese Aufgabe gilt für Teilnehmer, die innerhalb von N Tagen nach Abschluss auf ihren abgeschlossenen Kurs zurückverweisen.
 
-Mögliches Szenario: Wenn sich ein Teilnehmer auf den abgeschlossenen Kurs innerhalb von 30 Tagen nach Abschluss bezieht, erhält er 50 Punkte.
+Mögliche Szenarien:
+Wenn sich ein Teilnehmer innerhalb von 30 Tagen nach Abschluss auf den abgeschlossenen Kurs bezieht, erhält er 50 Punkte.
 
 **Punkte für frühzeitigen Abschluss**
 
@@ -182,7 +183,7 @@ Mögliche Szenarien:
 
 ## Aktionen von Administratoren {#administratoractions}
 
-Administratoren können eine Liste von vertraulichen Benutzern erstellen, die Gamification-Punkte zurücksetzen und die Gamification-Funktion für Teilnehmer aktivieren/deaktivieren. Wählen Sie das **[!UICONTROL Einstellungen]** auf der Gamification-Seite, um die Aktionen anzuzeigen, wie in der Momentaufnahme unten gezeigt.
+Administratoren können eine Liste von vertraulichen Benutzern erstellen, die Gamification-Punkte zurücksetzen und die Gamification-Funktion für Teilnehmer aktivieren/deaktivieren. Wählen Sie die **[!UICONTROL Einstellungen]** auf der Gamification-Seite aus, um die Aktionen anzuzeigen, wie in der Momentaufnahme unten gezeigt.
 
 ![](assets/gamification-actions.png)
 
@@ -194,7 +195,7 @@ Falls erforderlich, können Sie einige Führungskräfte als vertrauliche Benutze
 
 Vertraulichkeitseinstellungen können für interne und externe Benutzer angewendet werden.
 
-1. Klicken **[!UICONTROL Gamification]** > **[!UICONTROL Einstellungen]** > **[!UICONTROL Vertraulichkeitseinstellungen]**.
+1. Klicken Sie auf **[!UICONTROL Gamification]** > **[!UICONTROL Einstellungen]** > **[!UICONTROL Vertraulichkeitseinstellungen]**.
 
 ![](assets/confidentiality-settings.png)
 
@@ -223,7 +224,7 @@ Um die Teilnehmerpunktzahl und Konfiguration zurückzusetzen, klicken Sie auf �
 
 ## Gamification deaktivieren {#disablegamification}
 
-Klicken [!UICONTROL **Gamification**] > **[!UICONTROL Einstellungen]** > [!UICONTROL **Gamification-Funktion**]. Dies ermöglicht es Ihnen, die Gamification-Funktion und das Leaderboard separat für Ihre Teilnehmer zu aktivieren. Wählen Sie zwischen „für interne Teilnehmer aktivieren“ und „Für externe Teilnehmer aktivieren“ und klicken Sie auf „OK“. Alle Punkte werden beibehalten, wenn Sie die Gamification wieder aktivieren.
+Klicken Sie auf [!UICONTROL **Gamification**] > **[!UICONTROL Einstellungen]** > [!UICONTROL **Gamification Feature**]. Dies ermöglicht es Ihnen, die Gamification-Funktion und das Leaderboard separat für Ihre Teilnehmer zu aktivieren. Wählen Sie zwischen „für interne Teilnehmer aktivieren“ und „Für externe Teilnehmer aktivieren“ und klicken Sie auf „OK“. Alle Punkte werden beibehalten, wenn Sie die Gamification wieder aktivieren.
 
 ![](assets/gamification-feature.png)
 
@@ -235,8 +236,8 @@ Sie können Lernprogrammen für interne und externe Benutzer deaktivieren.
 
 Administratoren können den Umfang der Gamification definieren, indem sie die Bereichseinstellungen ändern. Sie können die Gamification selektiv für Benutzer, Gruppen oder Standorte mit ähnlichem Profil aktivieren.
 
-1. Klicken Sie in der Administratoranmeldung auf **[!UICONTROL Gamification]** im linken Bereich.
-1. Öffnen **[!UICONTROL Gamifications]** > **[!UICONTROL Einstellungen]** > **[!UICONTROL Bereichseinstellungen]**. Die [!UICONTROL Gamification-Bereichseinstellungen] &quot; wird angezeigt.
+1. Klicken Sie in der Administratoranmeldung im linken Bereich auf **[!UICONTROL Gamification]**.
+1. Öffnen Sie **[!UICONTROL Gamifications]** > **[!UICONTROL Einstellungen]** > **[!UICONTROL Bereichseinstellungen]**. Das Dialogfeld [!UICONTROL Gamification-Bereichseinstellungen] wird angezeigt.
 
    ![](assets/scope-settings.png)
 
@@ -252,4 +253,4 @@ Administratoren können den Umfang der Gamification definieren, indem sie die Be
 
    <!--![](assets/value.png)-->
 
-1. Klicken **[!UICONTROL Speichern].**
+1. Klicken Sie auf **[!UICONTROL Speichern].**.

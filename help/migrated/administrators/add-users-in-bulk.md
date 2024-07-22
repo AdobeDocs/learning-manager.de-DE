@@ -3,20 +3,19 @@ jcr-language: en_us
 title: Gleichzeitiges Hinzufügen mehrerer Benutzer
 description: Erfahren Sie, wie Sie mehrere Benutzer gleichzeitig hinzufügen.
 contentowner: saghosh
-source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
+exl-id: c3309ce5-8764-452e-82d5-5637c23c661b
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 25%
 
 ---
 
-
-
 # Gleichzeitiges Hinzufügen mehrerer Benutzer
 
 In dieser Schulung erfahren Sie, wie Sie mehrere Benutzer gleichzeitig über eine CSV-Datei hinzufügen.
 
-[![Knopf](feature-summary/assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=51TC8QS1&amp;mv=display&amp;mv2=display#/course/7555555)
+[![Schaltfläche](feature-summary/assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=51TC8QS1&amp;mv=display&amp;mv2=display#/course/7555555)
 
 Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.com>.
 
@@ -24,15 +23,15 @@ Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.
 
 Sie können mehrere Benutzer gleichzeitig hinzufügen, indem Sie die folgenden Schritte ausführen:
 
-1. Klicken **[!UICONTROL Benutzer]** im linken Bereich bei der Administratoranmeldung und klicken Sie dann auf **[!UICONTROL Hinzufügen]** > **[!UICONTROL CSV hochladen]**. Ein Popup-Fenster wird angezeigt.
+1. Klicken Sie auf **[!UICONTROL Benutzer]** im linken Bereich in der Administratoranmeldung und klicken Sie dann auf **[!UICONTROL Hinzufügen]** > **[!UICONTROL CSV hochladen]**. Ein Popup-Fenster wird angezeigt.
 
-1. Mithilfe einer CSV-Datei können Sie mehrere Benutzer gleichzeitig hinzufügen. Klicken **[!UICONTROL Importieren]** und wählen Sie die CSV-Datei auf Ihrem Computer aus bzw. öffnen Sie sie.
+1. Mithilfe einer CSV-Datei können Sie mehrere Benutzer gleichzeitig hinzufügen. Klicken Sie auf **[!UICONTROL Importieren]** und wählen/öffnen Sie die CSV-Datei von Ihrem Computer aus.
 
 1. Nachdem Sie die Datei importiert haben, müssen Sie den Inhalt der CSV-Datei den Anwendungsbezeichnungen zuordnen, wenn Sie die CSV-Datei zum ersten Mal hochladen.
 
-   Bei allen nachfolgenden Uploads werden die vorherigen Einstellungen für die Beschriftungen beachtet. Klicken **[!UICONTROL Speichern]** nach Abschluss der Datenzuordnung und klicken Sie auf **[!UICONTROL Hinzufügen]** , um die zugeordnete CSV-Datei hochzuladen.
+   Bei allen nachfolgenden Uploads werden die vorherigen Einstellungen für die Beschriftungen beachtet. Klicken Sie auf **[!UICONTROL Speichern]**, nachdem Sie die Datenzuordnung abgeschlossen haben, und klicken Sie auf **[!UICONTROL Hinzufügen]**, um die zugeordnete CSV-Datei hochzuladen.
 
-1. Klicken **[!UICONTROL Speichern]** nach Abschluss der Datenzuordnung und klicken Sie auf **[!UICONTROL Hinzufügen]** , um die zugeordnete CSV-Datei hochzuladen.
+1. Klicken Sie auf **[!UICONTROL Speichern]**, nachdem Sie die Datenzuordnung abgeschlossen haben, und klicken Sie auf **[!UICONTROL Hinzufügen]**, um die zugeordnete CSV-Datei hochzuladen.
 
 ## CSV-Upload mit Pflichtfeldern {#csvuploadwithmandatoryfields}
 
@@ -43,7 +42,7 @@ In diesem Fall wird der Administrator Ihres Unternehmens standardmäßig als Man
 **Beispiel-CSV**
 
 Beispiel-CSV für Learning Manager ist unten mit Pflichtfeldern verfügbar.
-[Sample-CSV-name-email.zip](assets/sample-csv-name-email.zip)
+[Beispiel-CSV-Name-email.zip](assets/sample-csv-name-email.zip)
 
 ## CSV-Upload mit allen Feldern {#csvuploadwithallthefields}
 
@@ -60,4 +59,4 @@ Außerdem können Administratoren eines Unternehmens sich selbst als Mitarbeiter
 Die Beispiel-CSV für den Learning Manager ist unten mit allen Feldern verfügbar.
 [learning-manager-sample-csv.zip](assets/learning-manager-sample-csv.zip).
 
-Siehe  [CSV-Upload verwenden](/help/migrated/administrators/feature-summary/add-users-user-groups.md) Weitere Informationen finden Sie in der Hilfe.
+Weitere Informationen finden Sie unter [Verwenden des CSV-Uploads](/help/migrated/administrators/feature-summary/add-users-user-groups.md).

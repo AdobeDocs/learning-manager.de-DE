@@ -33,7 +33,7 @@ Sie können über eine einzige Kreditkartenbestellung ein Abonnement für maxima
 
    *Adobe Learning Manager-Abrechnung starten*
 
-1. Im Fenster &quot; **[!UICONTROL Rechnungsinformationen]** die Anzahl der Benutzer in der **[!UICONTROL Benutzer hinzufügen]** ein. Wenn Sie eine Kreditkarte für Prepaid-Abonnements verwenden, können Sie die Anzahl der Benutzer anzeigen, die Sie für das Abonnement hinzufügen können. Die Anzahl der Benutzer, die Sie hinzufügen können, darf die im Abschnitt &quot;Übrige&quot; angegebene Anzahl nicht überschreiten.1.
+1. Fügen Sie auf der Seite **[!UICONTROL Rechnungsinformationen]** die Anzahl der Benutzer im Feld **[!UICONTROL Benutzer hinzufügen]** hinzu. Wenn Sie eine Kreditkarte für Prepaid-Abonnements verwenden, können Sie die Anzahl der Benutzer anzeigen, die Sie für das Abonnement hinzufügen können. Die Anzahl der Benutzer, die Sie hinzufügen können, darf die im Abschnitt &quot;Übrige&quot; angegebene Anzahl nicht überschreiten.1.
 
    ![](assets/billing-page-to-manageyoursubscriptionandorders.png)
 
@@ -59,7 +59,7 @@ Sie können über eine einzige Kreditkartenbestellung ein Abonnement für maxima
 
    ![](assets/payment-details.png)
 
-   *Rechnungsangaben anzeigen*
+   *Zahlungsdetails anzeigen*
 
    Sie können das Gebietsschema auch ändern, indem Sie das Land aus der Dropdown-Liste auswählen.
 
@@ -68,7 +68,7 @@ Sie können über eine einzige Kreditkartenbestellung ein Abonnement für maxima
    *Abrechnungsland auswählen*
 
 1. Geben Sie Ihre Kontaktinformationen ein, wählen Sie den Kreditkartentyp und geben Sie die Details der Kreditkarte an. Nachdem Sie die erforderlichen Details eingegeben haben, klicken Sie auf **[!UICONTROL Bestellung abschließen]**.
-1. Nachdem Sie die Bestellung aufgegeben haben, klicken Sie auf die Schaltfläche **[!UICONTROL Bestellungsverlauf]** &quot; auf der Registerkarte &quot; **[!UICONTROL Abrechnung]** angezeigt.
+1. Nachdem Sie die Bestellung aufgegeben haben, klicken Sie auf der Seite **[!UICONTROL Abrechnung]** auf die Registerkarte **[!UICONTROL Bestellverlauf]**, um die kürzlich bestellten Pakete anzuzeigen.
 
    ![](assets/order-history.png)
 
@@ -107,7 +107,7 @@ Alle Bestellungen können einen der vier Status haben:
 So stornieren Sie eine Bestellung:
 
 1. Klicken Sie im linken Bereich der Administrator-Seite auf „Abrechnung“.
-1. Wählen Sie auf der Seite &quot;Abrechnung&quot; in der oberen rechten Ecke **[!UICONTROL Aktionen]** > **[!UICONTROL Konto deaktivieren]**.
+1. Wählen Sie auf der Abrechnungsseite in der oberen rechten Ecke **[!UICONTROL Aktionen]** > **[!UICONTROL Konto deaktivieren]**.
 1. Sobald der Administrator das Konto deaktiviert hat, werden alle bestehenden Bestellungen auf dem Konto ab dem nächsten Abrechnungszyklus storniert.
 
 Wenn ein Konto vom Kunden deaktiviert wird, befindet es sich für die nächsten 30 Tage in einem Teststatus. Der Kontoinhaber erhält drei Erinnerungs-E-Mails, um das Konto wieder zu aktivieren. Wenn der Eigentümer das Konto nicht neu aktiviert, kann außer dem Eigentümer keiner der Benutzer auf Learning Manager zugreifen.
@@ -126,8 +126,8 @@ Als alternative Zahlungsmethode können Sie das Bestellverfahren wählen. Voraus
 Nachdem ein Konto aktiviert wurde, kann sich das Konto in einem der folgenden Status befinden:
 
 * **Testversion** - Sie können ein Adobe Learning Manager-Konto erstellen und es für einen Zeitraum von 30 Tagen kostenlos verwenden. Es gibt während dieses Testzeitraums keine Beschränkung der Anzahl der Teilnehmer.
-* **Aktiv** - In diesem Status sind aktive Teilnehmerabonnements mit wiederkehrenden monatlichen Zahlungen gemäß Abonnementbestellung im Konto vorhanden.
-* **Inaktiv** - Ein Konto erhält den Status &quot;inaktiv&quot;, wenn eines der folgenden Szenarien eintritt:
+* **Aktiv** - In diesem Status sind aktive Teilnehmerabonnements mit wiederkehrenden monatlichen Zahlungen gemäß Abonnementauftrag im Konto vorhanden.
+* **Inaktiv** - Ein Konto erhält in den folgenden Szenarien den Status &quot;inaktiv&quot;:
 
    * Nach Ablauf des Testzeitraums, wenn keine aktiven Abonnementbestellungen für das Konto vorhanden sind.
    * Der Administrator deaktiviert das Konto, was dazu führt, dass alle vorhandenen Bestellungen in einem Konto ab dem nächsten Abrechnungszyklus des Abonnements storniert werden.
@@ -186,7 +186,7 @@ Jeder Benutzer, der die folgenden Aktionen ausführt oder aufgrund von Aktionen,
 
 1. Auf der angezeigten Seite können Sie Folgendes anzeigen:
 
-   * **Allgemeine Verwendung:** Sie können die Gesamtzahl der aktiven Benutzer, der Benutzer, die den Learning Manager in einem Monat nutzen, und der Benutzer, die sich noch nicht für einen Kurs angemeldet haben, überprüfen.
+   * **Allgemeine Nutzung:** Sie können die Gesamtzahl der aktiven Benutzer, der Benutzer, die Learning Manager in einem Monat nutzen, und der Benutzer, die sich noch nicht für einen Kurs angemeldet haben, überprüfen.
 
    * **Monatliche Nutzung:** Sie können eine Tabelle mit eindeutigen aktiven Benutzern pro Monat anzeigen.
 
@@ -198,7 +198,7 @@ Geben Sie im Dialogfeld **Berichtsanforderung generieren** die erforderlichen Mo
 
 ![](assets/generate-report-request.png)
 
-*Bericht über die aktive Nutzung herunterladen*
+*Bericht über aktive Nutzung herunterladen*
 
 Wenn Sie den Browser schließen, wird der Download gestartet, sobald Sie Learning Manager das nächste Mal nutzen.
 
@@ -219,7 +219,7 @@ Um ein aktives Abonnement zu entfernen, wenden Sie sich an das Learning Manager-
 
 +++Wie lässt sich die Kreditkarte für Abonnements ändern?
 
-Im Dialogfeld &quot; **[!UICONTROL Bestellungsverlauf]** &quot; für ein aktives Konto auf **[!UICONTROL Bearbeiten]**. Klicken Sie dann auf der Seite mit den Abonnementdetails auf **[!UICONTROL Abonnement bearbeiten]**. Geben Sie Ihre neuen Kreditkarteninformationen ein und klicken Sie auf **[!UICONTROL Zahlungsmethode aktualisieren]**.
+Klicken Sie auf der Registerkarte **[!UICONTROL Bestellverlauf]** für ein aktives Konto auf **[!UICONTROL Bearbeiten]**. Klicken Sie dann auf der Seite mit den Abonnementdetails auf **[!UICONTROL Abonnement bearbeiten]**. Geben Sie Ihre neuen Kreditkarteninformationen ein und klicken Sie auf **[!UICONTROL Zahlungsmethode aktualisieren]**.
 
 ![](assets/credit-card-details.png)
 
@@ -230,13 +230,13 @@ Im Dialogfeld &quot; **[!UICONTROL Bestellungsverlauf]** &quot; für ein aktives
 
 Um die Rechnungsinformationen zu aktualisieren, führen Sie die folgenden Schritte aus:
 
-1. Anmelden als **Administrator** und klicken Sie auf **[!UICONTROL Abrechnung]**.
+1. Melden Sie sich als **Administrator** an und klicken Sie auf **[!UICONTROL Abrechnung]**.
 1. Klicken Sie in der Auftragsliste auf **[!UICONTROL Bearbeiten]**.
 1. Klicken Sie auf der Seite mit den Abonnementdetails auf **[!UICONTROL Abonnement bearbeiten]**.
 
 Wählen Sie das Element aus, das Sie bearbeiten möchten:
 
-1. **[!UICONTROL Zahlungsweise]:** Verwenden Sie diese Option, um Zahlungsdetails wie die Kreditkarte zu aktualisieren.
+1. **[!UICONTROL Zahlungsmethode]:** Verwenden Sie diese Option, um Zahlungsdetails wie Kreditkarte zu aktualisieren.
 1. **[!UICONTROL Adresse]:** Verwenden Sie diese Option, um die Adressdetails zu aktualisieren.
 +++
 
@@ -249,6 +249,6 @@ Nein, Sie können ein Abonnement nicht teilweise kündigen. Wenn Sie die Anzahl 
 
 Wenden Sie sich an [FastSpring](https://fastspring.com/), um eine Rechnung für Ihre Zahlungen zu erhalten, indem Sie eine der folgenden Methoden verwenden:
 
-* Serviceanfrage mit FastSpring über den Link erstellen `https://questionacharge.com`.
-* Senden Sie eine E-Mail an FastSpring am `orders@fastspring.com` die Rechnungsstellung anfordern.
+* Erstellen Sie eine Serviceanforderung mit FastSpring über den Link &quot;`https://questionacharge.com`&quot;.
+* Senden Sie eine E-Mail an FastSpring am `orders@fastspring.com`, um die Rechnung anzufordern.
 +++

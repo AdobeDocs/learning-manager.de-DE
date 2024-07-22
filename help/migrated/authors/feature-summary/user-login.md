@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Anmeldung für Benutzer
 description: Wenn Sie Adobe Learning Manager zum ersten Mal verwenden, müssen Sie Ihr Konto erstellen.
 contentowner: manochan
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+exl-id: f8f0ac74-606e-40ac-81c7-1c3d2fa9a0bf
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 42%
 
 ---
-
-
 
 # Anmeldung für Benutzer
 
@@ -24,13 +23,13 @@ Wenn Sie Adobe Learning Manager zum ersten Mal verwenden, müssen Sie ein Konto 
 
 ![](assets/adobeid-signin.png)
 
-*Anmelden beim Adobe-Lernmanager*
+*Bei Adobe Learning Manager anmelden*
 
-1. Geben Sie Adobe ID und Ihr Kennwort ein und klicken Sie auf **[!UICONTROL Anmelden]**.
+1. Geben Sie Adobe ID und Kennwort ein und klicken Sie auf **[!UICONTROL Anmelden]**.
 
-   Wenn Sie das Kennwort vergessen haben, klicken Sie auf **[!UICONTROL Kennwort vergessen?]** und geben Sie Ihre E-Mail-ID ein, die Sie zum Erstellen von Adobe ID verwendet haben.
+   Wenn Sie das Kennwort vergessen haben, klicken Sie auf **[!UICONTROL Kennwort vergessen?]**-Link und geben Sie Ihre E-Mail-ID an, die Sie zum Erstellen von Adobe ID verwendet haben.
 
-1. Alternativ können Sie die Enterprise ID verwenden, indem Sie auf **[!UICONTROL Mit einem Link zur Enterprise ID anmelden]**.
+1. Alternativ können Sie die Enterprise ID verwenden, indem Sie auf **[!UICONTROL Mit einem Link zur Enterprise ID anmelden]** klicken.
 
 >[!NOTE]
 >

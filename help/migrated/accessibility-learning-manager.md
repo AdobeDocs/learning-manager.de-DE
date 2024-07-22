@@ -150,28 +150,28 @@ Die Teilnehmerrolle von Learning Manager unterstützt mehrere zusätzliche Funkt
 
 Weitere Informationen finden Sie unter:
 
-* [Barrierefreiheitskonformitätsbericht für einen Teilnehmer](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2022-learner-portal-acr.html)
-* [Barrierefreiheitskonformitätsbericht für alle Rollen](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2022-acr.html)
+* [Bericht zur Barrierefreiheitskonformität für einen Teilnehmer](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2022-learner-portal-acr.html)
+* [Bericht zur Barrierefreiheitskonformität für alle Rollen](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2022-acr.html)
 
 ## Workflows zum Besten Lernmanager (Rolle &quot;Teilnehmer&quot;) {#captivateprimetopworkflowslearnerrole}
 
 Sehen wir uns an, wie Sie mit den Eingabehilfen durch einige wichtige Funktionen für Teilnehmer im Lern-Manager navigieren können.
 
-Verwenden Sie die `kbd Tab`-Taste, um durch die Elemente auf der Seite zu navigieren. Verwenden Sie die `kbd Shift + Tab` drücken, um die Navigationsrichtung umzukehren. Der Tastaturfokus wird durch einen blauen Umriss um ein Element angezeigt. Eine Sprachausgabe sollte den Text des fokussierten Elements vorlesen.
+Verwenden Sie die Taste `kbd Tab`, um durch die Elemente auf der Seite zu navigieren. Verwenden Sie die Taste `kbd Shift + Tab`, um die Navigationsrichtung umzukehren. Der Tastaturfokus wird durch einen blauen Umriss um ein Element angezeigt. Eine Sprachausgabe sollte den Text des fokussierten Elements vorlesen.
 
 ## Suchen Sie nach einer Schulung im Lernmanager {#searchforatrainingincaptivateprime}
 
 1. Verwenden Sie diese Hinweise, um zum Suchfeld oben rechts auf der Startseite zu navigieren.
 1. Geben Sie Text über die Tastatur ein. Suchergebnisse werden angezeigt.
-1. Verwenden der Tastatur `kbd Up/Down` Navigieren durch die Ergebnisse oder Drücken der `kbd ENTER`, um alle Ergebnisse anzuzeigen.
+1. Verwenden Sie die Tasten `kbd Up/Down`, um durch die Ergebnisse zu navigieren, oder drücken Sie `kbd ENTER`, um alle Ergebnisse anzuzeigen.
 
-1. Sobald die Schulung gefunden wurde, klicken Sie auf `kbd ENTER`, um zur Schulungsseite zu navigieren.
+1. Sobald die Schulung gefunden wurde, drücken Sie `kbd ENTER`, um zur Schulungsseite zu navigieren.
 
 ## Nehmen Sie an einer Schulung in Adobe Learning Manager teil {#consumeatraininginadobecaptivateprime}
 
-1. Sobald eine Schulung gefunden wurde, verwenden Sie `kbd Tab`oder `kbd Shift + Tab` , um zur Schaltfläche Registrieren/Starten zu navigieren. Der Schaltflächenstatus hängt von Ihrem Registrierungsstatus für diese Schulung ab.
+1. Sobald eine Schulung identifiziert wurde, navigieren Sie mit `kbd Tab` oder `kbd Shift + Tab` zur Schaltfläche &quot;Registrieren/Starten&quot;. Der Schaltflächenstatus hängt von Ihrem Registrierungsstatus für diese Schulung ab.
 
-1. Treffer `kbd ENTER`, um mit der Schulung zu beginnen.
+1. Drücken Sie `kbd ENTER`, um die Schulung zu starten.
 1. Im Folgenden sind die Steuerelemente aufgeführt, die unabhängig vom Inhaltstyp angezeigt werden:
 
    * Inhaltsverzeichnis
@@ -188,9 +188,9 @@ Verwenden Sie die `kbd Tab`-Taste, um durch die Elemente auf der Seite zu navigi
    * DOKUMENT-Inhalt - Seitenzahl, Seite nach oben, Seite nach unten, Vergrößern, Verkleinern.
    * eLEARNING - Schaltfläche für Bilduntertitel.
 
-1. Drücken Sie die Tastaturbefehle `kbd Tab`oder `kbd Shift + Tab` durch die Steuerelemente navigieren und auf `kbd ENTER`, um ein Steuerelement zu aktivieren/deaktivieren.
+1. Drücken Sie die Tasten `kbd Tab` oder `kbd Shift + Tab`, um durch die Steuerelemente zu navigieren, und drücken Sie `kbd ENTER`, um ein Steuerelement zu aktivieren/deaktivieren.
 
-1. Verwenden Sie für den Typ DOKUMENT Pfeilsteuerelemente wie `kbd UP/DOWN` , um durch das Dokument zu scrollen.
+1. Verwenden Sie für den Typ DOKUMENT Pfeilsteuerelemente wie `kbd UP/DOWN`, um durch das Dokument zu scrollen.
 
 ## Unterstützte Eingabehilfen für spezielle Bedürfnisse
 
@@ -200,7 +200,7 @@ Schauen wir uns die Barrierefreiheitsfunktionen an, die Teilnehmer je nach ihren
 
 * Verwenden Sie Untertitel, die in Inhalten verfügbar sind, die mit dem Adobe Captivate-Authoring-Tool erstellt wurden.
 * Bei Videos können Autoren die Videos mit Untertiteltext codieren. In solche Videos sind Untertitel eingebettet, die von den Teilnehmer verwendet werden können.
-* Learning Manager unterstützt die Möglichkeit, WebVTT-Untertiteldateien für Videoinhalte hochzuladen. Weitere Informationen finden Sie unter  [*WebVTT-Datei für Bilduntertitel hochladen*](/help/migrated/authors/feature-summary/content-library.md).
+* Learning Manager unterstützt die Möglichkeit, WebVTT-Untertiteldateien für Videoinhalte hochzuladen. Weitere Informationen finden Sie unter [*WebVTT-Datei für Bilduntertitel hochladen*](/help/migrated/authors/feature-summary/content-library.md).
 
 ### Benutzer, die blind oder sehbehindert sind
 

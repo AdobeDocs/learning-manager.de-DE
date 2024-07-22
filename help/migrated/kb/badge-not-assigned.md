@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Abzeichen kann nicht zugewiesen werden
 description: Nachdem ein Teilnehmer einen Kurs/ein Lernprogramm/eine Zertifizierung abgeschlossen hat, wird das Abzeichen nicht an den Teilnehmer vergeben.
 contentowner: nluke
-source-git-commit: 66dfaaaf723382eada39e2be29dfd49b795107a0
+exl-id: 6dbcd687-82e3-422f-8c8c-f7bf404f3332
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 74%
 
 ---
-
-
 
 # Abzeichen kann nicht zugewiesen werden
 
@@ -40,11 +39,11 @@ Wenn das Problem bei einem Teilnehmer auftritt, führen Sie die folgenden Schrit
 
 1. Öffnen Sie das entsprechende Lernobjekt (Kurs/Lernprogramm).
 
-1. Klicken **[!UICONTROL Instanzen]** > **[!UICONTROL Ausweis]**.
+1. Klicken Sie auf **[!UICONTROL Instanzen]** > **[!UICONTROL Abzeichen]**.
 
    ![](assets/view-a-badge.png)
 
-1. Entfernen Sie das Abzeichen aus dem Lernobjekt und klicken Sie auf **[!UICONTROL Speichern]**.
+1. Entfernen Sie das Abzeichen aus dem Lernobjekt, und klicken Sie auf **[!UICONTROL Speichern]**.
 
    ![](assets/remove-a-badge.png)
 
@@ -56,7 +55,7 @@ Wenn das Problem bei einem Teilnehmer auftritt, führen Sie die folgenden Schrit
 
 1. Melden Sie sich als Administrator an.
 1. Öffnen Sie die Zertifizierung.
-1. Klicken **[!UICONTROL Übersicht]** > **[!UICONTROL Ausweis]**.
+1. Klicken Sie auf **[!UICONTROL Übersicht]** > **[!UICONTROL Abzeichen]**.
 1. Entfernen Sie das Abzeichen aus der Zertifizierung und klicken Sie auf **[!UICONTROL Speichern]**.
 
    ![](assets/remove-a-badge-cert.png)

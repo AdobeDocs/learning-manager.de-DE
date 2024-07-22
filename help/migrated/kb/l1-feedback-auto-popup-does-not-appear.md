@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Das automatische Popup mit L1-Feedback wird nicht angezeigt
 description: So beheben Sie den Fehler "Automatisches Popup mit L1-Feedback wird nicht angezeigt"
 contentowner: saghosh
-source-git-commit: ec79aa3dd6225cc424721afb50702963c1b125eb
+exl-id: 47edcd7f-e332-4a75-a025-fd07737d0b70
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '204'
 ht-degree: 76%
 
 ---
-
-
 
 # Das automatische Popup mit L1-Feedback wird nicht angezeigt
 
@@ -34,7 +33,7 @@ Dies kann aus folgenden Gründen passieren:
 
 ## Auflösung
 
-1. Stellen Sie sicher, dass die Option &quot;Fragebogen sofort nach Kursabschluss anzeigen&quot; in **Kurs** > **Instanzen** > **L1-Feedback**.
+1. Stellen Sie sicher, dass die Option &quot;Fragebogen sofort nach Kursabschluss anzeigen&quot; in **Kurs** > **Instanzen** > **L1-Feedback** aktiviert ist.
    <!--![](assets/l1-feedback.png)-->
 1. Navigieren Sie als Administrator zu **Einstellungen > Feedback**. Überprüfen Sie, für wann die Erinnerung geplant ist. Wenn Sie für **Nach Kursabschluss** geplant ist, ändern Sie die Option in **Bei Abschluss des Kurses**.
 1. Aktivieren Sie die folgenden E-Mail-Vorlagen: **E-Mail-Vorlagen > Erinnerungen und Updates > Teilnehmer-Feedback für Kurs anfordern**. Falls die Option deaktiviert ist, aktivieren Sie sie und testen Sie sie dann.

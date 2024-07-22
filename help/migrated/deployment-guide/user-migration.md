@@ -22,19 +22,19 @@ Die technische Einrichtung für Ihr Learning Manager-Konto ist hauptsächlich f�
 
 Als Systemadministrator auf der Admin-Konsole müssen Sie als Erstes ein Identitätssystem definieren und einrichten, mit dem Ihre Endbenutzer authentifiziert werden. Nachdem Ihre Organisation Lizenzen für Learning Manager erworben hat, müssen Sie diese Lizenzen für Ihre Endbenutzer bereitstellen. Dazu benötigen Sie ein Verfahren, um diese Benutzer zu authentifizieren. Führen Sie die folgenden Schritte aus, um SSO für Ihre Benutzer zu konfigurieren:
 
-1. Klicken Sie auf der Startseite des Learning Manager auf **[!UICONTROL ** Einstellungen **>** Anmeldemethoden **.]**
+1. Klicken Sie auf der Lern-Manager-Startseite auf **[!UICONTROL ** Einstellungen **>** Anmeldemethoden **.]**
 
    ![](assets/configure-sso-step1.png)
 
-1. Wählen Sie je nach Benutzertyp eine der beiden Optionen **[!UICONTROL ** Interne Benutzer **oder** Externe Benutzer **.]**
+1. Wählen Sie je nach Benutzertyp entweder **[!UICONTROL ** Interne Benutzer **oder** Externe Benutzer **.]**
 
 
 
-1. Im **[!UICONTROL **Anmelden**]**Dropdown-Feld, wählen Sie **[!UICONTROL ** Single Sign-on **.]**
+1. Wählen Sie im Dropdown-Feld **[!UICONTROL **Anmelden**]** die Option **[!UICONTROL ** Single Sign-On **.]** aus.
 
    ![](assets/configure-sso-step3.png)
 
-1. Zum Konfigurieren der Einstellungen für einmaliges Anmelden klicken Sie auf **[!UICONTROL **&#x200B;Ändern **.]**
+1. Klicken Sie zum Konfigurieren der Einstellungen für einmaliges Anmelden auf **[!UICONTROL **&#x200B;Ändern **.]**.
 
    ![](assets/configure-sso-step4.png)
 
@@ -44,21 +44,21 @@ Als Systemadministrator auf der Admin-Konsole müssen Sie als Erstes ein Identit
 
    ![](assets/configure-sso-step5.png)
 
-1. Klicken Sie auf **[!UICONTROL **Hochladen **]**neben dem**[!UICONTROL  **IDP Metadata XML File **]****** und laden Sie Ihre XML-Datei hoch.
-1. Klicken **[!UICONTROL ** Speichern **.]**
+1. Klicken Sie auf **[!UICONTROL **Hochladen **]**neben dem Feld**[!UICONTROL  **IDP-Metadaten-XML-Datei **]******und laden Sie Ihre XML-Datei hoch.
+1. Klicken Sie auf **[!UICONTROL ** Speichern **.]**.
 1. Die SSO-Authentifizierung für Ihr Konto wurde erfolgreich konfiguriert. Sie sollten sich mit SSO bei Ihrem Learning Manager-Konto anmelden können.
 
-   ***Das SSO, das Sie im Learning Manager konfigurieren, sollte SAML 2.0 unterstützen.***
+   ***Das SSO, das Sie in Learning Manager konfigurieren, sollte SAML 2.0 unterstützen.***
 
 ## Migration von Benutzerdaten {#migrationofuserdata}
 
 Wenn Ihr Unternehmen als Administrator Learning Manager erwirbt, ist einer der entscheidenden Schritte, die Sie ausführen müssen, die Migration. Es ist zwingend erforderlich, dass Sie Ihre vorhandenen Schulungsinhalte und Benutzerdaten in den Learning Manager verschieben. Mit dem folgenden Migrationsarbeitsablauf können Sie die Vorteile eines modernen und intuitiven LMS nutzen, ohne die alten Daten Ihres Unternehmens zu verlieren.
 
-Mit dem Learning Manager können Sie von Ihrem vorhandenen LMS über einen Schritt-für-Schritt-Assistenten in iterativen Sprints migrieren. Sie erhalten einen vollständigen Überblick über den Status jedes Sprints, um sicherzustellen, dass Ihre Teilnehmer keine Ausfallzeiten erleben, während Sie Ihre älteren Daten auf Adobe Learning Manager migrieren.
+Mit dem Learning Manager können Sie von Ihrem vorhandenen LMS über einen Schritt-für-Schritt-Assistenten in iterativen Sprints migrieren. Sie erhalten einen vollständigen Überblick über den Status jedes Sprints, um sicherzustellen, dass Ihre Teilnehmer keine Ausfallzeiten erleben, während Sie Ihre älteren Daten zu Adobe Learning Manager migrieren.
 
 Zum Ausführen des Migrationsarbeitsablaufs benötigen Sie die Integrations-Admin-Berechtigungen. Als Administrator können Sie entweder die Rolle eines Integrations-Admins übernehmen oder diese Rolle einem anderen Benutzer zuweisen.
 
-**Wir können Shaleen&#39;s Hilfe hier nehmen, um ein visuelles Bild zu erstellen.**
+**Wir können Shaleen&#39;s Hilfe hier nehmen, um ein visuelles Element zu erstellen.**
 
 1. Voraussetzung
 1. Vorhandene Inhalte und Benutzerdaten bewerten
@@ -240,7 +240,7 @@ Stellen Sie sicher, dass jede CSV-Datei die Daten für jedes Feld im vorgeschrie
  </tbody> 
 </table>
 
-***Learning Manager unterstützt nur Datums- und Zeitwerte im UTF-8- und 32-Bit-Format. Während der Migration werden möglicherweise Fehler angezeigt, wenn Sie in CSV-Dateien ein Datum außerhalb des zulässigen Bereichs angeben, z. B. 2038-07-17T08:53:21.000Z oder 1980-04-17T08:13:25,322 Z.***
+***Learning Manager unterstützt nur Datums- und Zeitwerte im UTF-8- und 32-Bit-Format. Während der Migration werden möglicherweise Fehler angezeigt, wenn Sie in CSV-Dateien ein Datum außerhalb des zulässigen Bereichs angeben, z. B. 2038-07-17T08:53:21.000Z oder 1980-04-17T08:13:25.322Z.***
 
 ### Abhängigkeiten beim Importieren von Daten in CSV-Dateien {#dependencieswhileimportingdatatocsvfiles}
 
@@ -292,7 +292,7 @@ Klicken Sie im Abschnitt „Einrichtung“ auf „Box-Ordner anfordern“.
 
 Geben Sie im Feld ****[!UICONTROL E-Mail-Adresse eingeben]**** die E-Mail-ID ein, unter der Sie die Anmeldeanweisungen für die Verbindung zu Box erhalten möchten.
 
-Klicken **[!UICONTROL ** Vernetzen **.]**
+Klicken Sie auf **[!UICONTROL ** Verbinden **.]**.
 
 Sie erhalten eine E-Mail von Box mit einem Link zum freigegebenen Ordner. Wenn Sie über kein Box-Konto verfügen, klicken Sie auf „Registrieren“ und erstellen Sie ein Konto. Anweisungen zur Anmeldung werden an die E-Mail-ID des Integrations-Admins gesendet.
 
@@ -313,7 +313,7 @@ Klicken Sie auf der Integrations-Admin-Startseite auf **[!UICONTROL Migration.]*
 
 Auf der Startseite der Migration zeigt das System die Migrationsprojekte an, die bereits in Ihrem Unternehmen erstellt wurden.
 
-Klicken Sie auf **[!UICONTROL **Neu**]**oben rechts auf der Seite, um ein Migrationsprojekt zu erstellen.
+Klicken Sie in der rechten oberen Ecke der Seite auf **[!UICONTROL **Neu{**}, um ein Migrationsprojekt zu erstellen.**]
 
 ***Wenn Sie noch keinen FTP-Ordner erstellt haben, werden Sie aufgefordert, einen FTP-Ordner für das ExaVault-Konto zu erstellen. Dies ist ein obligatorischer Schritt, bevor Sie mit dem Erstellen eines Migrationsprojekts beginnen. ***
 
@@ -331,17 +331,17 @@ Erstellen Sie auf der Seite „Sprint-Konfiguration“ einen Sprint für Ihr Mig
 
 Geben Sie einen Namen und eine Beschreibung für den Sprint an.
 
-Wählen Sie das ****[!UICONTROL Benutzer wurden seit der letzten Ausführung hinzugefügt oder geändert]****, um die Liste der Benutzer mit der Learning Manager-Anwendung zu synchronisieren. Wenn Sie Inhalte und Daten in die Learning Manager-Anwendung migrieren, ist dies möglicherweise nicht erforderlich. Wenn zwischen Ihrer früheren und der neuesten Sprint-Migration jedoch eine Zeitspanne liegt, wird empfohlen, die Liste der Benutzer zu synchronisieren. Bei diesem Schritt kann die Learning Manager-Datenbank mit Ihren LMS-Benutzern synchronisiert werden.
+Aktivieren Sie das Kontrollkästchen ****[!UICONTROL Benutzer wurden seit der letzten Ausführung hinzugefügt oder geändert]****, um die Benutzerliste mit der Learning Manager-Anwendung zu synchronisieren. Wenn Sie Inhalte und Daten in die Learning Manager-Anwendung migrieren, ist dies möglicherweise nicht erforderlich. Wenn zwischen Ihrer früheren und der neuesten Sprint-Migration jedoch eine Zeitspanne liegt, wird empfohlen, die Liste der Benutzer zu synchronisieren. Bei diesem Schritt kann die Learning Manager-Datenbank mit Ihren LMS-Benutzern synchronisiert werden.
 
-***Der Synchronisierungsschritt wird empfohlen, wenn die Dateien &quot;enrollment.csv&quot; und &quot;user_course_grade.csv&quot; migriert werden. Mit diesem Schritt kann die Lern-Manager-Datenbank mit Ihrer Migrationsdatenbank synchronisiert werden und es wird sichergestellt, dass alle Benutzer, deren Datensätze im Sprint migriert werden sollen, in der Migrationsdatenbank verfügbar sind.***
+***Der Synchronisierungsschritt wird empfohlen, wenn die Dateien &quot;enrollment.csv&quot; und &quot;user_course_grade.csv&quot; migriert werden. Mit diesem Schritt kann die Learning Manager-Datenbank mit Ihrer Migrationsdatenbank synchronisiert werden und es wird sichergestellt, dass alle Benutzer, deren Datensätze im Sprint migriert werden sollen, in der Migrationsdatenbank verfügbar sind.***
 
-Klicken **[!UICONTROL ** Weiter **.]**
+Klicken Sie auf **[!UICONTROL ** Weiter **.]**.
 
-Klicken Sie auf **[!UICONTROL **Start**]**um die Sprint-Migration mit Ihren hochgeladenen Daten und Inhalten zu starten. Klicken ****[!UICONTROL Aktualisieren]**** bevor Sie den Sprint-Run starten, um die FTP- und Inhaltsordner mit dem Lern-Manager zu synchronisieren.
+Klicken Sie auf **[!UICONTROL **Start**]**, um die Sprint-Migration mit den hochgeladenen Daten und Inhalten zu starten. Klicken Sie vor dem Starten des Sprint-Laufs auf ****[!UICONTROL Aktualisieren]****, um die FTP- und Inhaltsordner mit dem Lern-Manager zu synchronisieren.
 
 ![](assets/migrating-the-content-3.png)
 
-Sie können auf ****[!UICONTROL Stopp]****jederzeit während des Sprint-Migrationsvorgangs, um die Sprint-Migration abzubrechen.
+Sie können während des Sprint-Migrationsvorgangs jederzeit auf ****[!UICONTROL Stopp]**** klicken, um die Sprint-Migration abzubrechen.
 
 Das System zeigt den Migrationsstatus für die jeweiligen Sprint-Datenelemente und -Inhalte an. Überprüfen Sie die Anzahl der erfolgreichen und fehlgeschlagenen Elemente als Teil des Sprint-Laufs der Migration.
 
@@ -351,13 +351,13 @@ In der Abbildung unten sehen Sie ein Referenzbeispiel für den Migrationsfortsch
 
 ![](assets/migrating-the-content-4.png)
 
-Um die Liste aller Sprints eines Migrationsprojekts anzuzeigen, klicken Sie auf **[!UICONTROL **Sprint**]**im linken Navigationsbereich. Sie können eine Liste aller Sprints, die Anzahl der für jeden Sprint ausgeführten Läufe, das Startdatum, die Dauer sowie den Abschlussstatus anzeigen (siehe nachfolgende Abbildung).
+Um die Liste aller Sprints eines Migrationsprojekts anzuzeigen, klicken Sie im linken Navigationsbereich auf **[!UICONTROL **Sprint{**}.**] Sie können eine Liste aller Sprints, die Anzahl der für jeden Sprint ausgeführten Läufe, das Startdatum, die Dauer sowie den Abschlussstatus anzeigen (siehe nachfolgende Abbildung).
 
 ![](assets/migrating-the-content-5.png)
 
-Um die Liste aller Sprints eines Migrationsprojekts anzuzeigen, klicken Sie auf **[!UICONTROL **Sprint**]**im linken Navigationsbereich. Sie können eine Liste aller Sprints, die Anzahl der für jeden Sprint ausgeführten Läufe, das Startdatum, die Dauer sowie den Abschlussstatus anzeigen (siehe nachfolgende Abbildung).
+Um die Liste aller Sprints eines Migrationsprojekts anzuzeigen, klicken Sie im linken Navigationsbereich auf **[!UICONTROL **Sprint{**}.**] Sie können eine Liste aller Sprints, die Anzahl der für jeden Sprint ausgeführten Läufe, das Startdatum, die Dauer sowie den Abschlussstatus anzeigen (siehe nachfolgende Abbildung).
 
-Um die Liste aller Sprints eines Migrationsprojekts anzuzeigen, klicken Sie auf **[!UICONTROL **Sprint**]**im linken Navigationsbereich. Sie können eine Liste aller Sprints, die Anzahl der für jeden Sprint ausgeführten Läufe, das Startdatum, die Dauer sowie den Abschlussstatus anzeigen (siehe nachfolgende Abbildung).
+Um die Liste aller Sprints eines Migrationsprojekts anzuzeigen, klicken Sie im linken Navigationsbereich auf **[!UICONTROL **Sprint{**}.**] Sie können eine Liste aller Sprints, die Anzahl der für jeden Sprint ausgeführten Läufe, das Startdatum, die Dauer sowie den Abschlussstatus anzeigen (siehe nachfolgende Abbildung).
 
 ***Bevor Sie das Migrationsprojekt als abgeschlossen markieren, stellen Sie sicher, dass alle Sprints im Projekt abgeschlossen sind. Nachdem Sie das Migrationsprojekt als abgeschlossen markiert haben, können Sie in diesem Projekt keine Sprints mehr erstellen. Sie können an diesem Projekt keine Änderungen mehr vornehmen. Sie können nur ein weiteres Migrationsprojekt erstellen und ihm Sprints hinzufügen.***
 

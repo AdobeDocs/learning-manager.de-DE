@@ -149,8 +149,8 @@ Wenn in der CSV Katalognamen oder Benutzergruppennamen angegeben sind, werden di
 
 Wählen Sie in Ihrem Box-Konto **Importieren > Benutzer > Intern** und laden Sie die Dateien „role.csv“ und „user_role.csv“ hoch.
 
-* Die Dateien role.csv und user_role.csv müssen in den Ordner kopiert werden **Importieren** > **Anwender** > **intern** > **Benutzerrolle**.
-* Die Datei &quot;user.csv&quot; muss in den Ordner kopiert werden **Importieren** > **Anwender** > **intern**.
+* Die Datei &quot;role.csv&quot; und die Datei &quot;user_role.csv&quot; müssen in den Ordner &quot;**Import**&quot; > &quot;**Benutzer**&quot; > &quot;**Intern**&quot; > &quot;**Benutzerrolle**&quot; kopiert werden.
+* Die Datei &quot;user.csv&quot; muss in den Ordner &quot;**Import**&quot; > &quot;**Benutzer**&quot; > &quot;**Intern**&quot; kopiert werden.
 
 Beide CSV müssen nur über Box hochgeladen werden und können nicht über die Benutzeroberfläche hochgeladen werden.
 
@@ -170,13 +170,13 @@ Aktualisieren Sie die CSV-Dateien, um eine benutzerdefinierte Rolle zuzuweisen u
 
 Nachdem der Integrationsadministrator die rollenbasierten CSVs in den Connector-Speicher hochgeladen hat, kann der Administrator die Synchronisierung mit den CSVs aktivieren. Jedes Mal, wenn eine benutzerdefinierte Rolle in den CSVs aktualisiert, hinzugefügt oder gelöscht wird, kann der Administrator die Informationen in den Dateien synchronisieren und die Liste der Rollen auf den neuesten Stand bringen.
 
-Klicken Sie auf der Seite Erste Schritte im Bereich Administrator auf **[!UICONTROL Einstellungen]** > **[!UICONTROL Datenquellen]**.
+Klicken Sie auf der Seite Erste Schritte im Bereich &quot;Administrator&quot; auf **[!UICONTROL Einstellungen]** > **[!UICONTROL Datenquellen]**.
 
 Aktivieren Sie im Abschnitt „Synchronisierungseinstellungen“ die Option **[!UICONTROL Automatische Synchronisierung aktivieren]**.
 
 ![](assets/sync-settings.png)
 
-*Wählen Sie die Option Automatische Synchronisierung aktivieren .*
+*Wählen Sie die Option &quot;Automatische Synchronisierung aktivieren&quot; aus.*
 
 Wenn Sie diese Option auswählen, können Sie die Zeit für die Synchronisierung genau zu der Zeit planen, die Sie im Feld „Synchronisierungszeit“ angegeben haben. Wenn Sie die Synchronisierungszeit auf 00:00 Uhr festlegen, werden die benutzerdefinierte Rolle jeden Tag genau zur angegebenen Zeit aktualisiert.
 

@@ -3,14 +3,13 @@ description: Vorgehensweise, wenn Sie sich nicht bei Learning Manager anmelden k
 jcr-language: en_us
 title: Ich kann mich nicht bei Learning Manager anmelden
 contentowner: saghosh
-source-git-commit: ec79aa3dd6225cc424721afb50702963c1b125eb
+exl-id: 2c347758-1982-40ce-9ac6-4ae889497add
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 72%
 
 ---
-
-
 
 # Ich kann mich nicht bei Learning Manager anmelden
 
@@ -48,7 +47,7 @@ Wenn Sie sich weiterhin nicht anmelden können, wenden Sie sich an den Administr
 
 Wenn Sie Teil des Kontos sind und sich immer noch nicht anmelden können, muss der Administrator überprüfen, ob Ihre Adobe ID mit der identisch ist, mit der Sie sich anmelden möchten.
 
-Manchmal unterscheidet sich die Adobe ID von der Adobe-Learning-Manager-ID im Konto.
+Manchmal unterscheidet sich die Adobe ID von der Adobe Learning Manager-ID im Konto.
 
 ## Nächste Schritte
 

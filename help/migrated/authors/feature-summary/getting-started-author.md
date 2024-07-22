@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Erste Schritte als Autor
 description: Auf der Seite "Erste Schritte" können Sie die wichtigsten Authoring-Funktionen von Adobe Learning Manager durchsuchen.
 contentowner: manochan
-source-git-commit: 8635072782253cbac3f913953797cae7c0bc5ef4
+exl-id: 9f6d4307-91c5-4c80-8e6d-aebfa6d4feaa
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '159'
 ht-degree: 54%
 
 ---
-
-
 
 # Erste Schritte als Autor
 
@@ -36,4 +35,3 @@ Auf der Seite „Erste Schritte“ können Sie die folgenden Aktivitäten ausfü
 Sie können auch mehr über die Anwendung Learning Manager erfahren, indem Sie sich Videolehrgänge und Hilfeinhalte ansehen und Informationen über die verschiedenen Rollen abrufen.
 
 <!--![](assets/author-experienceprime.png)-->
-

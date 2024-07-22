@@ -1,16 +1,15 @@
 ---
 jcr-language: en_us
 title: Erste Schritte als Administrator
-description: Auf der Seite "Erste Schritte" können Sie die wichtigsten Admin-Funktionen des Adobe Learning Managers durchgehen.
+description: Auf der Seite Erste Schritte werden die wichtigsten Admin-Funktionen von Adobe Learning Manager erläutert.
 contentowner: manochan
-source-git-commit: 3d5cc91c8973385b5b13244df026667009fc88f7
+exl-id: c1779a24-2236-41f4-99b0-a3529751a5c2
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '162'
 ht-degree: 66%
 
 ---
-
-
 
 # Erste Schritte als Administrator
 
@@ -20,9 +19,9 @@ Wenn Sie sich als Administrator anmelden, sehen Sie ein Popup-Fenster mit einer 
 
 ## Videobeispiele anzeigen {#viewsamplevideos}
 
-Durchsuchen Sie die Videoeinführungen, um die wichtigsten Funktionen Ihrer Rolle als Administrator kennenzulernen. Wenn dieses Popup-Fenster bei der Anmeldung nicht angezeigt werden soll, können Sie es deaktivieren, indem Sie auf **[!UICONTROL Bei Anmeldung nicht anzeigen]** in der rechten unteren Ecke des Popup-Fensters.
+Durchsuchen Sie die Videoeinführungen, um die wichtigsten Funktionen Ihrer Rolle als Administrator kennenzulernen. Wenn Sie dieses Popup-Fenster nicht während der Anmeldung anzeigen möchten, können Sie es deaktivieren, indem Sie auf die Option **[!UICONTROL Bei Anmeldung nicht anzeigen]** in der unteren rechten Ecke des Popup-Fensters klicken.
 
-Klicken **[!UICONTROL Fenster schließen]** , um das Popup zu schließen.
+Klicken Sie auf **[!UICONTROL Fenster schließen]**, um das Popup zu schließen.
 
 ![](assets/welcome-videos-e1439961904106.png)
 
@@ -38,4 +37,3 @@ Von der Seite „Erste Schritte“ aus können Sie die folgenden Aktivitäten au
 Sie können auch mehr über die Anwendung Learning Manager erfahren, indem Sie sich Videolehrgänge und Hilfeinhalte ansehen und Informationen über die verschiedenen Rollen abrufen.
 
 ![](assets/admin-landing-page-300x204.png)
-

@@ -59,13 +59,13 @@ Das Teilnehmertranskript lässt sich über die Connectors natürlich auch je nac
 
 Im Folgenden soll definiert werden, was ein inkrementelles Teilnehmertranskript ist.
 
-Jede Zeile im Teilnehmertranskript steht für eine bestimmte Aktivität mit einem bestimmten Teilnehmer und einem bestimmten Lernobjekt. Hier ist hauptsächlich der Status eines Teilnehmers in Bezug auf das Lernobjekt interessant: **Registriert**, **Begonnen**, **In Bearbeitung** und **Abgeschlossen**. Im Teilnehmertranskript sind entsprechend vier Datumsangaben vermerkt.
+Jede Zeile im Teilnehmertranskript steht für eine bestimmte Aktivität mit einem bestimmten Teilnehmer und einem bestimmten Lernobjekt. Wir sind hauptsächlich an dem Status eines Teilnehmers in Bezug auf das Lernobjekt interessiert: **Registriert**, **Begonnen**, **In Bearbeitung** und **Abgeschlossen**. Im Teilnehmertranskript sind entsprechend vier Datumsangaben vermerkt.
 
 Es gibt nun drei Arten von Lernobjekten, bei denen der Lern-Manager den Fortschritt der Teilnehmer verfolgt. Die exportierten Daten enthalten Fortschrittsinformationen auf Modulebene, also zur detailliertesten Inhaltseinheit, die ein Teilnehmer im Lern-Manager erleben kann.
 
-* **Kurs** - Zusammenstellung eines oder mehrerer Module
-* **Lernprogramm** - Zusammenstellung eines oder mehrerer Kurse
-* **Zertifizierung** - Zusammenstellung eines oder mehrerer Kurse.
+* **Kurs** - eine Komposition aus mindestens einem Modul
+* **Lernprogramm** - Zusammenstellung mit mindestens einem Kurs
+* **Zertifizierung** - Zusammenstellung mit mindestens einem Kurs.
 
 Jede Zeile im Teilnehmertranskript kann die Interaktion eines bestimmten Benutzers mit einem Modul, einem Kurs, einem Lernprogramm oder einer Zertifizierung zeigen. Wenn ein Benutzer für ein Lernprogramm registriert wird, ist diese Registrierung im Transkript ersichtlich.
 

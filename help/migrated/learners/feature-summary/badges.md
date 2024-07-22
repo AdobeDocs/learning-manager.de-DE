@@ -3,14 +3,13 @@ description: Erfahren Sie, wie Sie Abzeichen mithilfe der Learning Manager-Teiln
 jcr-language: en_us
 title: Abzeichen
 contentowner: manochan
-source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
+exl-id: d0136a79-7044-4a1e-85bb-bd7b1ae24ba1
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '801'
 ht-degree: 51%
 
 ---
-
-
 
 # Abzeichen
 
@@ -30,13 +29,13 @@ Die aktuellsten erworbenen Abzeichen stehen in der Liste am weitesten links, gef
 
 Klicken Sie auf ein beliebiges Abzeichen, um eine Liste aller Abzeichen anzuzeigen, die Sie bereits erworben haben. Sie können auch alle verfügbaren Abzeichen mit den entsprechenden Kursen anzeigen. Klicken Sie bei den noch zu erreichenden Abzeichen auf den Kursnamen, um den Kurs anzuzeigen, der dem Abzeichen entspricht. In der Abbildung unten sehen Sie ein Beispiel.
 
-Klicken **[!UICONTROL Alle Abzeichen herunterladen]** , um alle Ihre erworbenen Abzeichen im ZIP-Format herunterzuladen. Sie können ein einzelnes Abzeichen herunterladen, indem Sie auf das Würfelsymbol neben jedem Abzeichen klicken.
+Klicken Sie auf den Link **[!UICONTROL Abzeichen herunterladen]**, um alle erworbenen Abzeichen im ZIP-Format herunterzuladen. Sie können ein einzelnes Abzeichen herunterladen, indem Sie auf das Würfelsymbol neben jedem Abzeichen klicken.
 
 **Abzeichen als PDF herunterladen**
 
 Sie können ein Set von Abzeichen oder ein einzelnes Zeichen im PDF-Format herunterladen.
 
-* Klicken **[!UICONTROL Alle Abzeichen-Datensätze herunterladen]** , um die Abzeichen herunterzuladen, die von Ihnen als PDF erworben wurden.
+* Klicken Sie auf **[!UICONTROL Alle Abzeichen-Datensätze herunterladen]**, um die Abzeichen herunterzuladen, die Sie als PDF erworben haben.
 * Um einzelne Abzeichen herunterzuladen, wählen Sie das Abzeichen aus und klicken Sie auf das PDF-Symbol neben dem Abzeichen.
 
 ![](assets/badges.png)
@@ -57,7 +56,7 @@ Teilnehmer können ihr Lernplattformkonto in ihr Badgr-Konto integrieren. Dadurc
 
 Offene Abzeichen sind Abzeichen, bei denen einige Metadaten in das Abzeichenbild eingebettet sind. Diese Metadaten enthalten Informationen über den Aussteller, den Empfänger, die Aufgabe, die Gültigkeit des Abzeichens usw. Badgr Backpack ist direkt vom Learning Manager zugänglich und bietet eine zentrale Stelle für das Speichern und Teilen aller Abzeichen. Teilnehmer können sich bei ihrem Badgr-Konto anmelden und die Integration einrichten. Ab diesem Zeitpunkt werden Abzeichen, die im Lern-Manager erreicht wurden, automatisch in das Badgr-Konto hochgeladen.
 
-Sobald der Administrator die Option **Badgr-Integration** kann ein Teilnehmer dann die Integration in Badgr durchführen und sein Abzeichen konfigurieren. Für die Integration müssen sich die Teilnehmer über den Learning Manager beim Badgr-Konto anmelden.
+Sobald der Administrator die Option **Badgr-Integration** aktiviert hat, kann ein Teilnehmer die Integration in Badgr durchführen und sein Abzeichen konfigurieren. Für die Integration müssen sich die Teilnehmer über den Learning Manager beim Badgr-Konto anmelden.
 
 >[!NOTE]
 >
@@ -79,6 +78,6 @@ Dieser Vorgang zum Aktualisieren der Seite wird als manuelle Aktualisierung beze
 
 ## Häufig gestellte Fragen {#frequentlyaskedquestions}
 
-**1. Wie lade ich Abzeichen als Teilnehmer herunter?**
+**1. Wie kann Abzeichen als Teilnehmer heruntergeladen werden?**
 
-Auf der Seite &quot;Abzeichen&quot; können Sie ein Abzeichen als Bild oder im PDF-Format herunterladen. Wählen Sie eine Qualifikation oder einen Kurs aus und klicken Sie auf eine der beiden Optionen **PDF** oder **Ausweis**.
+Auf der Seite &quot;Abzeichen&quot; können Sie ein Abzeichen als Bild oder im PDF-Format herunterladen. Wählen Sie eine Qualifikation oder einen Kurs aus und klicken Sie entweder auf **PDF** oder auf **Abzeichen**.

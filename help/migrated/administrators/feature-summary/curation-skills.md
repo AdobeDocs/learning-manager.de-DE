@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Kenntnisse Kenntnisdomänen zuordnen
 description: Um einen Beitrag, der von einem Benutzer der KI-fähigen Kurations-Engine für eine bestimmte Kenntnisdomäne gepostet wurde, automatisch zu kuratieren, müssen die benutzerdefinierten Kenntnisse des Benutzers den unterstützten Kenntnisdomänen im Learning Manager-LMS zugeordnet werden.
 contentowner: kuppan
-source-git-commit: b24771ced8788a906af021b45204925fe43eb7e7
+exl-id: 46db9d92-fe88-4850-ae06-d434062fa2bf
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '373'
 ht-degree: 90%
 
 ---
-
-
 
 # Kenntnisse Kenntnisdomänen zuordnen
 
@@ -58,7 +57,7 @@ Um eine Kenntnisdomäne hinzuzufügen, gehen Sie wie folgt vor:
 
    ![](assets/skill-domain-mapping.png)
 
-   *Fügen Sie die Kenntnisdomänen im Abschnitt Kenntnisdomäne hinzu*
+   *Hinzufügen der Kenntnisdomänen im Abschnitt &quot;Kenntnisdomäne&quot;*
 
 1. Um die Änderungen zu speichern, klicken Sie auf **[!UICONTROL Speichern]**.
 
@@ -71,4 +70,3 @@ Abhängig davon, ob der hochgeladene Inhalt eine Vertrauensbewertung von mehr al
 ![](assets/curation-notification.png)
 
 *Benachrichtigungen in Abhängigkeit vom Confidence-Ergebnis anzeigen*
-

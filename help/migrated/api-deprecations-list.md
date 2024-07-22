@@ -55,9 +55,9 @@ The following table lists the rate and burst limits for the APIs.
 
 ### Änderungen an den Versatzgrenzen
 
-Aufgrund der hohen Anzahl von Datensätzen, die durch den Offsetwert abgerufen werden, und der sich verschlechternden Gesamtleistung erzwingen wir eine Beschränkung der **500** Datensätze. In der nächsten Version für Admin und Teilnehmer wird das Dialogfeld &quot; **GET Users** API gibt maximal Folgendes zurück: **500** Datensätze.
+Aufgrund der hohen Anzahl von Datensätzen, die durch den Offsetwert abgerufen werden, und der Verlangsamung der Gesamtleistung erzwingen wir eine Beschränkung auf **500** Datensätze. In der nächsten Version gibt die **GET Users**-API für Administratoren und Teilnehmer maximal **500** Datensätze zurück.
 
-Wenn Sie weitere Datensätze abrufen müssen, verwenden Sie den Katalog **GET Jobs** API.
+Wenn Sie weitere Datensätze abrufen müssen, verwenden Sie die **GET Jobs**-API.
 
 <!--### Exclude paths 
 
@@ -131,7 +131,7 @@ Der Grund, warum wir das Flag für Teilnehmer-APIs verwerfen, ist, dass das Übe
 
 In Zukunft wird die folgende Teilnehmer-API nicht mehr funktionieren, da sie das Überschreiben-Flag aufweist.
 
-_/primeapi/v2/users?page[Offset]=0&amp;page[begrenzen]=10&amp;sort=id&amp;override=TRUE_
+_/primeapi/v2/users?page[offset]=0&amp;page[limit]=10&amp;sort=id&amp;override=TRUE_
 
 ### API-Änderungen für kompetenzbasierte neue Empfehlungen
 
@@ -149,5 +149,5 @@ In der Version vom November 2023 haben wir einen Datumsfilter hinzugefügt, mit 
 
 ### Abschaffung der hohen Versatzwerte im Endpunkt GET /users
 
-Um die Systemleistung zu verbessern und die Ressourcennutzung effektiver zu verwalten, verfügt der Adobe über veraltete hohe Versatzwerte im Endpunkt GET /users für beide **ADMINISTRATOR** und **TEILNEHMER** Geltungsbereiche. Wir empfehlen, die **Jobs-API** , um die Datensätze mit einem Offsetwert abzurufen.
+Um die Systemleistung zu verbessern und die Ressourcennutzung effektiver zu verwalten, verfügt der Adobe über veraltete hohe Versatzwerte im Endpunkt GET /users für die Bereiche **ADMIN** und **LEARNER**. Es wird empfohlen, die **Jobs-API** zu verwenden, um die Datensätze mit einem Offsetwert abzurufen.
 

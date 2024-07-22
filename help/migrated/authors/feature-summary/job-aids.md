@@ -12,7 +12,7 @@ ht-degree: 65%
 
 # Arbeitshilfen
 
-**Arbeitshilfen** ist ein Repository mit Schulungsinhalten, das den Teilnehmern ohne Registrierung oder Abschlusskriterien zur Verfügung steht. Die Teilnehmer können auf diese Arbeitshilfen zurückgreifen, wenn sie bei Aktivitäten oder Aufgaben im Unternehmen Unterstützung benötigen.
+**Arbeitshilfen** ist ein Repository mit Schulungsinhalten, auf das Teilnehmer ohne Registrierung oder Abschlusskriterien zugreifen können. Die Teilnehmer können auf diese Arbeitshilfen zurückgreifen, wenn sie bei Aktivitäten oder Aufgaben im Unternehmen Unterstützung benötigen.
 
 Arbeitshilfen können unabhängig oder zusammen mit Kursen in Learning Manager genutzt werden.
 
@@ -20,8 +20,8 @@ Autoren können Arbeitshilfe für Teilnehmer erstellen. Verwenden Sie Arbeitshil
 
 ## Arbeitshilfe erstellen {#createjobaid}
 
-1. Wählen Sie in der Autorenanmeldung **[!UICONTROL Arbeitshilfen]** im linken Bereich.
-1. Auswählen **[!UICONTROL Erstellen]** in der oberen rechten Ecke der angezeigten Seite.
+1. Wählen Sie in der Autorenanmeldung im linken Bereich **[!UICONTROL Arbeitshilfen]**.
+1. Wählen Sie **[!UICONTROL Erstellen]** in der oberen rechten Ecke der angezeigten Seite aus.
 1. Geben Sie den Namen, die Beschreibung und die Tags ein. Wählen Sie die Fertigkeiten und die dazugehörigen Ebenen. Wählen Sie den Inhalt als privaten Inhalt aus, wenn keine anderen Autoren auf die Arbeitshilfe zugreifen und sie ihren eigenen Kursen zuweisen sollen.
 
    Nur vorhandene Kenntnisse können für Arbeitshilfen verwendet werden. Kenntnisse sind nicht zwingend erforderlich.
@@ -37,14 +37,14 @@ Autoren können Arbeitshilfe für Teilnehmer erstellen. Verwenden Sie Arbeitshil
 
 ## Arbeitshilfe in verschiedenen Sprachen hinzufügen {#addcontentfordifferentlanguages}
 
-1. Um die Arbeitshilfe in verschiedenen Sprachen hinzuzufügen, wählen Sie die Option **Neue Sprache hinzufügen** und wählen Sie die gewünschten Sprachen aus. Mit diesem Ansatz können Sie mehrsprachige Unterstützung für Ihre Inhalte hinzufügen.
+1. Um die Arbeitshilfe in verschiedenen Sprachen hinzuzufügen, wählen Sie die Registerkarte **Neue Sprache hinzufügen** und wählen Sie die erforderlichen Sprachen aus. Mit diesem Ansatz können Sie mehrsprachige Unterstützung für Ihre Inhalte hinzufügen.
 
    ![](assets/add-new-languagetab.png)
 
    *Neue Sprache für einen Inhalt hinzufügen*
 
 1. Wiederholen Sie den Upload-Vorgang für die Arbeitshilfe für die neuen Sprachen.
-1. Wenn Sie eine Sprache entfernen möchten, wählen Sie die Option **[!UICONTROL Neue Sprache hinzufügen]** und deaktivieren Sie Ihre Auswahl.
+1. Wenn Sie eine Sprache entfernen möchten, wählen Sie die Registerkarte **[!UICONTROL Neue Sprache hinzufügen]** aus, und deaktivieren Sie die Auswahl.
 
    Nachdem Sie die Änderungen vorgenommen haben, wählen Sie Speichern.
 
@@ -71,9 +71,9 @@ Sie können eine veröffentlichte Arbeitshilfe zurücknehmen, indem Sie auf das 
 
 ![](assets/job-aid-withdraw.png)
 
-*Bearbeiten, Zurückziehen oder Vorschau einer veröffentlichten Arbeitshilfe*
+*Eine veröffentlichte Arbeitshilfe bearbeiten, zurückziehen oder in der Vorschau anzeigen*
 
-Durch Klicken auf die Registerkarte „Zurückgenommen“ können Sie zurückgenommene Arbeitshilfen anzeigen. Sie können die zurückgenommenen Aufträge erneut veröffentlichen, indem Sie auf das Einstellungssymbol klicken und &quot;Veröffentlichen&quot; auswählen.
+Durch Klicken auf die Registerkarte „Zurückgenommen“ können Sie zurückgenommene Arbeitshilfen anzeigen. Sie können die zurückgenommenen Aufträge erneut veröffentlichen, indem Sie auf das Einstellungssymbol klicken und Publish auswählen.
 
 ## Unterstützung für HTML-Pakete in Arbeitshilfen
 

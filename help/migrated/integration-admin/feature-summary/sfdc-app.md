@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Learning Manager-App für Salesforce
 description: Salesforce ist eine der beliebtesten CRM-Lösungen unter Vertriebs- und Marketing-Teams. Indem Sie die Adobe Learning Manager-App in Salesforce verwenden, ermöglichen Sie den Benutzern den Zugriff auf ihre gesamten Lerninhalte direkt über die Salesforce-Benutzeroberfläche. Benutzer können auf die ihnen zugewiesenen Lerninhalte wie Kurse, Lernprogramme, Arbeitshilfen usw. direkt in Salesforce zugreifen. Benutzer können außerdem Benachrichtigungen über ihre Registrierungen und Ankündigungen vom Administrator erhalten.
 contentowner: jayakarr
-source-git-commit: 66dfaaaf723382eada39e2be29dfd49b795107a0
+exl-id: 2efdf01e-43fb-4377-9334-2727c5358c76
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '623'
 ht-degree: 57%
 
 ---
-
-
 
 # Learning Manager-App für Salesforce
 
@@ -37,15 +36,15 @@ Erfahren Sie, wie Sie mithilfe der folgenden Schritte die Learning Manager-App f
 
 1. Verwenden Sie zum Installieren der Learning Manager-App in Ihrem Salesforce-Konto das installierbare Paket, das von Ihrem Account Manager oder Customer Success Manager bereitgestellt wird. Sie benötigen Administratorrechte für das Salesforce-Konto, in dem Sie diese App installieren möchten.
 
-1. Wählen Sie die entsprechende Option aus, wie in der Momentaufnahme gezeigt, und klicken Sie auf **[!UICONTROL Installieren]**.
+1. Wählen Sie die entsprechende Option für Sie aus, wie in der Momentaufnahme gezeigt, und klicken Sie auf **[!UICONTROL Installieren]**.
 
    ![](assets/install-options.png)
 
-   *Wählen Sie die Option Nur für Administratoren installieren aus.*
+   *Wählen Sie die Option &quot;Nur für Administratoren installieren&quot; aus*
 
-   Wenn Sie sich für **Für bestimmte Profile installieren** ein oder mehrere Profile aus der Liste aus.
+   Wenn Sie sich für **Für bestimmte Profile installieren** entscheiden, wählen Sie eines oder mehrere Profile aus der Liste aus.
 
-1. Klicken **[!UICONTROL Weiter]** im angezeigten Popup-Fenster, um den Zugriff durch Dritte zu bestätigen.
+1. Klicken Sie im angezeigten Popup auf **[!UICONTROL Weiter]**, um den Zugriff durch Dritte zu bestätigen.
 
    In einer Meldung wird bestätigt, dass die App erfolgreich installiert wurde. Klicken Sie auf **Fertig**.
 
@@ -55,14 +54,14 @@ Das Team von Learning Manager empfiehlt, dass der Salesforce-Administrator auch 
 
 Um die Benachrichtigungskomponente für den Learning Manager zum Layout der Startseite hinzuzufügen, führen Sie die folgenden Schritte aus:
 
-1. Klicken **[!UICONTROL Einrichten]** in der oberen rechten Ecke. Die Option &quot;Homepage-Layouts&quot; wird im linken Bereich angezeigt (siehe Abbildung unten).
+1. Klicken Sie oben rechts auf **[!UICONTROL Setup]**. Die Option &quot;Homepage-Layouts&quot; wird im linken Bereich angezeigt (siehe Abbildung unten).
 
    ![](assets/homepage-component.png)
 
-   *Startseitenlayouts auswählen*
+   *Homepage-Layouts auswählen*
 
-1. Wählen Sie das gewünschte Layout und klicken Sie auf **[!UICONTROL Bearbeiten]**.
-1. Wählen Sie die Benachrichtigungsoption des Adobe-Lern-Managers, die auf der Seite angezeigt wird, und klicken Sie auf **[!UICONTROL Weiter]**.
-1. Wählen Sie die Reihenfolge der Komponenten aus, die im linken Bereich angezeigt werden, und klicken Sie auf &quot;Vorschau&quot; **[!UICONTROL Speichern]**.
+1. Wählen Sie das gewünschte Layout aus, und klicken Sie auf **[!UICONTROL Bearbeiten]**.
+1. Wählen Sie die Adobe Learning Manager-Benachrichtigungsoption, die auf der Seite angezeigt wird, und klicken Sie auf **[!UICONTROL Weiter]**.
+1. Wählen Sie die Reihenfolge der im linken Bereich angezeigten Komponenten aus, zeigen Sie eine Vorschau an, und klicken Sie auf **[!UICONTROL Speichern]**.
 
-Die Anweisungen zur Anmeldung bei der Learning Manager-App und zur Verwendung dieser App in Salesforce als Teilnehmer finden Sie im [Hilfeinhalt für die Salesforce-App](../../learners/feature-summary/sfdc-app.md).
+Weitere Informationen zur Anmeldung bei der Learning Manager-App und zur Verwendung dieser App in Salesforce als Teilnehmer finden Sie im Hilfeinhalt zur [Salesforce-App](../../learners/feature-summary/sfdc-app.md).

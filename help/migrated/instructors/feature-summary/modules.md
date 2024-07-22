@@ -3,14 +3,13 @@ description: In diesem Artikel erfahren Sie, wie Sie als Kursleiter Module in Le
 jcr-language: en_us
 title: Module
 contentowner: shhivkum
-source-git-commit: 2317aa899a82abe24d38c4e40a06df3646fde310
+exl-id: b81e7ee4-b25f-498d-a780-3ef897f38268
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '954'
 ht-degree: 63%
 
 ---
-
-
 
 # Module
 
@@ -59,7 +58,7 @@ Als Kursleiter können Sie Ressourcendateien wie Zuweisungsdateien oder Präsent
 1. Klicken Sie auf „Hinzufügen“.
 
    ![](assets/addresource.png)
-   *Fügen Sie eine Ressource für die Sitzung hinzu*
+   *Eine Ressource für die Sitzung hinzufügen*
 
 1. Navigieren Sie zur entsprechenden Datei auf Ihrem Computer. Wählen Sie die Datei und klicken Sie auf „Öffnen“.
 1. Nachdem die Datei hochgeladen wurde, können Sie die Datei zusammen mit dem Datum anzeigen, an dem sie hinzugefügt wurde.
@@ -70,7 +69,7 @@ Als Kursleiter können Sie Ressourcendateien wie Zuweisungsdateien oder Präsent
 
 ## Dateiübermittlung für Aktivitätsmodule {#filesubmissionforactivitymodules}
 
-Aktivitätsmodule unterstützen den Arbeitsablauf für die Dateiübermittlung. Als Autor erstellen Sie ein Aktivitätsmodul und wählen das  **[!UICONTROL Dateiübermittlung]** aus. Dadurch können Teilnehmer Dateien übermitteln.
+Aktivitätsmodule unterstützen den Arbeitsablauf für die Dateiübermittlung. Erstellen Sie als Autor ein Aktivitätsmodul, und wählen Sie die Option **[!UICONTROL Dateiübermittlung]** aus. Dadurch können Teilnehmer Dateien übermitteln.
 
 Diese Dateien können vom Kursleiter des jeweiligen Moduls genehmigt oder abgelehnt werden. Das Modul wird erst abgeschlossen, wenn der Kursleiter die übermittelte Datei genehmigt hat.
 
@@ -79,14 +78,14 @@ Diese Dateien können vom Kursleiter des jeweiligen Moduls genehmigt oder abgele
 
 ## Checklistenmodul auswerten {#evaluate-checklist-module}
 
-Nachdem der Teilnehmer den Kurs absolviert hat, sieht der Kursleiter das Checklistenmodul auf der Seite &quot;Einreichungen/Checklisten&quot; im **Module** Abschnitt. Diese Seite enthält alle Aktivitäts-Checklistenmodule sowie die Aktivitätsübermittlungsmodule, für die Überprüfungen fällig sind. Für jedes Modul wird die Anzahl der Teilnehmer angezeigt, für die die Bewertung fällig ist.
+Nachdem der Teilnehmer den Kurs absolviert hat, sieht der Kursleiter das Checklistenmodul auf der Seite &quot;Einreichungen/Checklisten&quot; im Abschnitt **Module**. Diese Seite enthält alle Aktivitäts-Checklistenmodule sowie die Aktivitätsübermittlungsmodule, für die Überprüfungen fällig sind. Für jedes Modul wird die Anzahl der Teilnehmer angezeigt, für die die Bewertung fällig ist.
 
-Auf der folgenden Seite können Sie Module vom Typ **Einreichung** und **Checkliste**. Für dieses Beispiel verwenden wir das Checklistenmodul.
+Auf der folgenden Seite können Sie Module vom Typ **Übermittlung** und **Checkliste** anzeigen. Für dieses Beispiel verwenden wir das Checklistenmodul.
 
 ![](assets/modules-list.png)
 *Liste der Module anzeigen*
 
-Klicken Sie auf das Checklistenmodul. Im Fenster &quot; **Checkliste** &quot; wird Folgendes angezeigt:
+Klicken Sie auf das Checklistenmodul. Auf der Seite **Checkliste** sehen Sie Folgendes:
 
 * Den Namen des Moduls
 * Den Namen des Kurses
@@ -97,7 +96,7 @@ Klicken Sie auf das Checklistenmodul. Im Fenster &quot; **Checkliste** &quot; wi
 ![](assets/checklist-page.png)
 *Checklistenseite anzeigen*
 
-Um einen Teilnehmer zu bewerten, klicken Sie auf **[!UICONTROL Berechnen]** in der &quot; **[!UICONTROL Checkliste]** -Spalte. Sie können auch sehen, dass der Status des Reviews **Ausstehend** ist.
+Um einen Teilnehmer zu bewerten, klicken Sie in der Spalte **[!UICONTROL Checkliste]** auf **[!UICONTROL Evaluieren]**. Sie können auch sehen, dass der Status des Reviews **Ausstehend** ist.
 
 Bewerten Sie den Teilnehmer und klicken Sie auf **[!UICONTROL Senden]**. Als Kursleiter müssen Sie alle Bewertungsfragen beantworten.
 
@@ -112,7 +111,7 @@ Ein Kursleiter kann auch die Antworten anzeigen, die von anderen Kursleitern des
 
 Sie können die Teilnehmer basierend auf dem angewendeten Suchfilter in einer CSV-Datei exportieren.
 
-Nachdem der Kursleiter den Kurs mithilfe der Checkliste ausgewertet hat, sieht der Teilnehmer den Modulstatus als **Bestanden** und Kursstatus als **Abgeschlossen** oder den Modulstatus als **fehlschlagen** und den Kursstatus als **Abgeschlossen**.
+Nachdem der Kursleiter den Kurs mithilfe der Checkliste ausgewertet hat, sieht der Teilnehmer den Modulstatus als **Bestanden** und den Kursstatus als **Abgeschlossen**, oder den Modulstatus als **Nicht bestanden** und den Kursstatus als **Abgeschlossen**.
 
 ## Kursleiterkommentare zur Ablehnung einer Aktivität {#rejection-comments}
 
@@ -132,12 +131,12 @@ Dies ist der Workflow:
    ![](assets/enter-comments.png)
    *Abschlusskommentare eingeben*
 
-1. Der Kursleiter kann auf **Ablehnen**. Der Status der Einreichung ändert sich in **Zur Ablehnung markiert**.
+1. Der Kursleiter kann auf **Ablehnen** klicken. Der Status der Übermittlung ändert sich in **Zur Ablehnung markiert**.
 
    ![](assets/marked-for-rejection.png)
    *Einreichung ablehnen*
 
-1. Nach der Übermittlung ändert sich der Status in **abgelehnt**.
+1. Nach der Übermittlung ändert sich der Status in **Abgelehnt**.
 
    ![](assets/rejected-status.png)
    *Ablehnungsstatus anzeigen*
@@ -147,7 +146,7 @@ Dies ist der Workflow:
    ![](assets/notification-of-rejection.png)
    *Ablehnungsbenachrichtigung erhalten*
 
-Um die Änderungen zu berücksichtigen, hat Adobe die E-Mail-Vorlage für **Einreichung abgelehnt**.
+Um die Änderungen zu berücksichtigen, hat Adobe die E-Mail-Vorlage für **Einreichung abgelehnt** aktualisiert.
 
 ## Fügen Sie Punktzahlen und Kommentare für Aktivitätsmodule hinzu {#addscoresandcommentsforactivitymodules}
 
@@ -161,11 +160,11 @@ Führen Sie die folgenden Schritte aus, um Bewertungen und Kommentare für Aktiv
 1. Klicken Sie auf der Seite für Teilnehmer auf **[!UICONTROL Aktionen]** > **[!UICONTROL Punktzahlen &amp; Kommentare bearbeiten]**.
 
    ![](assets/edit-scores-comments.png)
-   *Kommentare hinzufügen.*
+   *Kommentare hinzufügen*
 
    Für Teilnehmer, die den Kurs nicht absolviert haben, werden das Eingabefeld „Punktzahl“ und „Kommentare“ nicht angezeigt.
 
    ![](assets/editing-scores-andcomments.png)
-   *Partituren und Kommentare bearbeiten*
+   *Punktzahlen und Kommentare bearbeiten*
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.

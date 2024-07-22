@@ -3,22 +3,21 @@ jcr-language: en_us
 title: Benutzer von iPad- und Android-Tablets
 description: Benutzer von iPad- und Android-Tablets
 contentowner: manochan
-source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
+exl-id: 61d7df21-1b45-4dc8-acc2-b360d35e7e4f
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '254'
 ht-degree: 72%
 
 ---
 
-
-
 # Benutzer von iPad- und Android-Tablets
 
-In der Learning Manager-App auf dem iPad oder Android-Tablet sehen Sie, nachdem Sie sich als Teilnehmer angemeldet haben: **Startseite** angezeigt:
+In der Learning Manager-App auf iPad- oder Android-Tablet sehen Sie nach der Anmeldung als Teilnehmer den folgenden **Start**-Bildschirm:
 
 ![](assets/screenshot-2015-08-07-12-24-40-e1439211134842.png)
 
-Um zu den Lern- und Katalogfunktionen zu navigieren, tippen Sie auf das **Menü** &quot; und wählen Sie die entsprechende Option aus.
+Um zu den Lern- und Katalogfunktionen zu navigieren, tippen Sie auf das Dropdown-Menü **Menü** und wählen Sie die entsprechende Option aus.
 
 ![](assets/menu-ipad.png)
 
@@ -37,7 +36,7 @@ Sie können auf iPad- und Android-Tablets auch offline auf die Learning Manager-
 
 Sie können Ihren Gerätespeicher regelmäßig überprüfen.
 
-Tippen Sie auf das Profilsymbol in der rechten oberen Ecke der App und tippen Sie auf **Gerätespeicher** aus.
+Tippen Sie auf das Profilsymbol in der rechten oberen Ecke der App und tippen Sie auf die Menüoption **Gerätespeicher**.
 
 ![](assets/app-device-storage.png)
 

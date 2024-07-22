@@ -3,13 +3,13 @@ jcr-language: en_us
 title: Adobe Learning Manager-Referenzsite-Paket (ALM-Referenzsite) für AEM-Sites
 description: Adobe Learning Manager (ALM) ist in Adobe Experience Manager-Sites (AEM) integriert. So können Sie mit minimalem Programmieraufwand Ihre eigene Website und gut reagierende Mobilgeräteoberflächen für Adobe Learning Manager erstellen. Mit dieser Integration können Sie angepasste Lernbenutzeroberflächen für Ihre Benutzenden erstellen.
 contentowner: saghosh
-source-git-commit: 0ec031398f93c8396c0c9d49d172d62b2711481b
+exl-id: 937dfbd1-74a1-4a86-a9b2-29a44be267c6
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '2146'
 ht-degree: 67%
 
 ---
-
 
 # Adobe Learning Manager-Referenzsite-Paket (ALM-Referenzsite) für AEM-Sites
 
@@ -31,15 +31,15 @@ ALM-Referenzsite-Paket installieren
 
 Nachdem Sie Ihre AEM-Sites-Umgebung gesichert haben, müssen Sie das ALM-Referenzsite-Paket installieren. Dieses Paket enthält AEM-Webseiten und Websitekomponenten, die das Erstellen der Lernplattform unterstützen.
 
-Das Paket für die Referenz-Site wird auf der [**GitHub-Repository**](https://github.com/adobe/adobe-learning-manager-reference-site/releases/tag/1.0.0).
+Das Verweisstandortpaket wird im [**GitHub-Repository**](https://github.com/adobe/adobe-learning-manager-reference-site/releases/tag/1.0.0) gehostet.
 
 Weitere Informationen finden Sie in der README-Datei.
 
-## Erstellen Sie eine Anwendung in [!DNL Adobe Learning Manager]
+## Anwendung in [!DNL Adobe Learning Manager] erstellen
 
 Nach der Installation des AEM-Site-Pakets müssen Sie eine ALM-Anwendung konfigurieren, um Ihr Lernportal mit der AEM-Site zu verbinden.
 
-Dieses Szenario gilt, wenn AEM mit [!DNL Adobe Learning Manager].
+Dieses Szenario gilt, wenn AEM mit [!DNL Adobe Learning Manager] verwendet wird.
 
 Führen Sie die unten genannten Schritte aus:
 
@@ -59,22 +59,22 @@ Führen Sie die unten genannten Schritte aus:
 Notieren Sie sich die angezeigten Anmeldeinformationen der Anwendung.
 
 ![](assets/application-credentials.png)
-*Anmeldeinformationen für die Anwendung*
+*Anwendungsanmeldeinformationen*
 
 Klicken Sie zum Genehmigen der Anwendung auf **[!UICONTROL Genehmigen]**.
 
 ## Token abrufen
 
-1. Klicken Sie auf der Registerkarte Entwicklerressourcen auf **[!UICONTROL Zugriffstoken für Tests und Entwicklung]**.
+1. Klicken Sie auf der Registerkarte &quot;Entwicklerressourcen&quot; auf **[!UICONTROL Zugriffstoken für Tests und Entwicklung]**.
 
    ![](assets/access-tokens.png)
 
-   *Wählen Sie Zugriffstoken für Tests und Entwicklung.*
+   *Zugriffstoken für Tests und Entwicklung auswählen*
 
 1. Geben Sie die folgenden Details ein:
 
    ![](assets/access-token-details.png)
-   *Token-Details eingeben*
+   *Geben Sie die Tokendetails ein*
 
    1. OAuth-Code abrufen: Geben Sie die Client-ID aus dem vorherigen Abschnitt ein und ändern Sie den Bereich. Klicken Sie auf Senden , um den OAuth-Code zu erhalten.
    1. Aktualisierungstoken abrufen: Geben Sie die Client-ID und den Schlüssel aus dem vorherigen Abschnitt ein. Geben Sie außerdem den OAuth-Code ein, den Sie aus dem vorherigen Schritt erhalten haben. Klicken Sie auf Senden.
@@ -104,11 +104,11 @@ Klicken Sie zum Genehmigen der Anwendung auf **[!UICONTROL Genehmigen]**.
    ![](assets/account-congiguration.png)
    *Konfigurationsordner erstellen*
 
-   1. Adobe-Lern-Manager-Modus: Wählen Sie aus, wie das Lernerlebnis für angemeldete und nicht angemeldete Teilnehmer gestaltet werden soll.
-   1. Adobe-Lern-Manager-URL: Geben Sie die URL der ALM-Instanz ein, in der die Lern-Services gehostet werden.
+   1. Adobe Learning Manager-Modus: Wählen Sie aus, wie das Lernerlebnis für angemeldete und nicht angemeldete Teilnehmer gestaltet werden soll.
+   1. Adobe Learning Manager-URL: Geben Sie die URL der ALM-Instanz ein, in der die Lerndienste gehostet werden.
    1. Konto-ID: Die ID des ALM-Kontos.
    1. Client-ID, geheimer Clientschlüssel und Token für die Autorenaktualisierung: Geben Sie die Anmeldeinformationen ein, die Sie beim Erstellen der Anwendung in ALM erhalten haben.
-   1. Anpassung des Widgets: Weitere Informationen finden Sie unter [Mit AEM integrieren](/help/migrated/integrate-aem-learning-manager.md) `.`
+   1. Anpassung des Widgets: Weitere Informationen finden Sie unter [Integrieren in AEM](/help/migrated/integrate-aem-learning-manager.md) `.`
 
 1. Speichern und schließen Sie die Konfiguration.
 
@@ -118,7 +118,7 @@ Mit Adobe Learning Manager können Sie jetzt Ihre Produkte und Schulungen Ihren 
 
 Mit diesem Arbeitsablauf können Teilnehmende eine Vorschau einer Schulung anzeigen, auf Schulungsinformationen zugreifen oder nach einer Schulung suchen, ohne sich bei Adobe Learning Manager anzumelden. Dieser Arbeitsablauf gilt nicht für die native Learning Manager-Benutzeroberfläche. (Er gilt NUR für AEM-Sites und andere Headless-Benutzeroberflächen.)
 
-**Konfigurieren und Aktivieren des Lernplattform-Connectors**
+**Konfigurieren und Aktivieren des Lernplattformkonnektors**
 
 Dieser Abschnitt unterstreicht die Schritte, die zum Konfigurieren und Aktivieren des folgenden Connectors erforderlich sind:
 
@@ -132,7 +132,7 @@ Der Connector exportiert Schulungsmetadaten in eine Datenspeicher- und Abruflös
 
 Aktivieren Sie diesen Connector, um Ihre auf AEM-Sites basierenden Webseiten zu erstellen und zu rendern und Ihren Teilnehmenden sowohl vor als auch nach der Anmeldung benutzerdefinierte Erlebnisse zu bieten. Aktivieren Sie diesen Connector, um Ihre auf AEM-Sites basierenden Webseiten zu erstellen und zu rendern und Ihren Teilnehmenden sowohl vor als auch nach der Anmeldung benutzerdefinierte Erlebnisse zu bieten.
 
-* Adobe Learning Manager cdn Basis-URL: Geben Sie die Basis-URL des Datenabruf-CDN-Dienstpfads von der Verbindungsseite für den Schulungsdatenzugriff ein.
+* Adobe Learning Manager-CDN-Basis-URL: Geben Sie die Basis-URL des Datenabruf-CDN-Dienstpfads von der Verbindungsseite für den Zugriff auf Schulungsdaten ein.
 * Admin-Aktualisierungstoken : Geben Sie das Aktualisierungstoken ein, das Sie im vorherigen Abschnitt festgelegt haben.
 * URL der Schulungsmetadatenbasis : Geben Sie die Basis-URL der Suchfunktion und des Dienstpfads für den Datenabruf über die Schulungsdatenzugriffsseite ein.
 * URL für Adobe Learning Manager-Registrierung: Geben Sie die vom Integrationsadministrator für das Konto generierte URL für die Selbstregistrierung ein, die von den Teilnehmenden zur Registrierung für die Schulung verwendet wird.
@@ -143,7 +143,7 @@ Adobe Learning Manager bietet jetzt Lösungen, mit denen Sie die Lernplattform n
 
 Ein Benutzer kann die bereits AEM Anwendung verwenden und sie genehmigen, anstatt eine zu erstellen.
 
-* Adobe Learning Manager cdn Basis-URL: Geben Sie die Basis-URL des Datenabruf-CDN-Dienstpfads von der Adobe Commerce-Verbindungsseite ein.
+* Adobe Learning Manager-CDN-Basis-URL: Geben Sie die Basis-URL des Datenabruf-CDN-Dienstpfads von der Adobe Commerce-Verbindungsseite ein.
 * Adobe Commerce-URL: Geben Sie die URL der Adobe Commerce-Instanz ein, die Sie verwenden.
 * GraphQL-Proxypfad - Die clientseitigen Learning Manager-Komponenten greifen direkt auf den Adobe Commerce GraphQL-Endpunkt zu, sodass ein CORS-Fehler auftreten kann. Um diesen Fehler zu vermeiden, müssen alle Aufrufe entweder vom gleichen Endpunkt wie AEM oder über einen Proxy, der CORS-Header hinzufügt, bereitgestellt werden.
 * Adobe Commerce-Store-Name : Geben Sie den Adobe Commerce-Store-Namen ein, den Sie im vorherigen Abschnitt festgelegt haben.
@@ -156,12 +156,12 @@ Passen Sie Ihre Webseiten mithilfe der Website mit den AEM Referenzen und der ve
 
 1. Starten Sie Ihre AEM-Instanz.
 1. Klicken Sie auf Sites und öffnen Sie die Konfigurationsseite.
-1. Klicken **[!UICONTROL Lernsite]** > **[!UICONTROL Sprachmaster]** > **[!UICONTROL Englisch]**. Alle Webseiten des Projekts sind in diesem Ordner enthalten.
+1. Klicken Sie auf **[!UICONTROL Lernsite]** > **[!UICONTROL Sprachmaster]** > **[!UICONTROL Englisch]**. Alle Webseiten des Projekts sind in diesem Ordner enthalten.
 
    ![](assets/list-webpages.png)
    *Alle Webseiten anzeigen*
 
-1. Wählen Sie eine beliebige Vorlage aus und klicken Sie auf **[!UICONTROL Bearbeiten]**.
+1. Wählen Sie eine beliebige Vorlage aus, und klicken Sie auf **[!UICONTROL Bearbeiten]**.
 
 1. Klicken Sie auf der Seite auf die Schaltfläche für Komponenteneinstellungen und ändern Sie die Eigenschaften der Komponente.
 
@@ -185,9 +185,9 @@ Neben den vom Referenzsite-Paket bereitgestellten Vorlagen, die Sie verwenden k�
 
 1. Klicken Sie zum Erstellen der Seite auf **[!UICONTROL Erstellen]**.
 
-1. Wählen Sie die neue Seite aus und klicken Sie auf **[!UICONTROL Bearbeiten]**.
+1. Wählen Sie die neue Seite aus, und klicken Sie auf **[!UICONTROL Bearbeiten]**.
 
-1. Fügen Sie eine Komponente auf der Seite ein, z. B. **Learning - Inhalt**.
+1. Fügen Sie eine Komponente auf der Seite ein, z. B. **Lernen - Inhalt**.
 
    ![](assets/learning-content.png)
    *Nach Site filtern*
@@ -198,9 +198,9 @@ Neben den vom Referenzsite-Paket bereitgestellten Vorlagen, die Sie verwenden k�
 
 Das ALM Referenz-Site-Paket bietet einen &quot;Learning Site Blueprint&quot;, mit dem Sie eine Website für Ihre Lernplattform erstellen können. Mit AEM-Blueprints können Sie Webseiten direkt aus AEM-Sites-Komponenten erstellen. Sie müssen keine Vorlagen verwenden.
 
-1. Klicken Sie auf der AEM auf **[!UICONTROL Sites]**.
+1. Klicken Sie auf der AEM Startseite auf **[!UICONTROL Sites]**.
 
-1. Klicken **[!UICONTROL Erstellen]** > **[!UICONTROL Site]**.
+1. Klicken Sie auf **[!UICONTROL Erstellen]** > **[!UICONTROL Standort]**.
 
 1. Klicken Sie auf &quot;Website-Blueprint&quot;.
 
@@ -213,7 +213,7 @@ Das ALM Referenz-Site-Paket bietet einen &quot;Learning Site Blueprint&quot;, mi
 1. Geben Sie auf der Eigenschaftenseite die Metadaten für die Seite ein. Klicken Sie auf Erstellen.
 
    ![](assets/blueprint-properties.png)
-   *Schulungssite-Blueprint auswählen*
+   *Lernsite-Blueprint auswählen*
 
 1. Klicken Sie auf den Hyperlink &quot;Startseite&quot;, um zur Startseite der von Ihnen erstellten Website zu navigieren. Auf dieser Seite können Sie die Widgets und Katalogkomponenten anpassen.
 
@@ -248,7 +248,7 @@ Wenn Sie diese neu hinzugefügten Learning Manager-Komponenten jedoch in Ihrem v
    *`<sly data-sly-use.configModel="com.adobe.learning.core.models.GlobalConfigurationModel"/>`*
    *`<meta name="cp-config" content="${configModel.config}" />`*
 
-   Mit dem vorhergehenden Code wird die zugeordnete Konfiguration dem für das Rendern der Lernkomponenten erforderlichen Meta-Tag der Seite hinzugefügt. Weitere Informationen finden Sie unter [Adobe Learning Manager-Referenzsitr](https://github.com/adobe/adobe-learning-manager-reference-site/blob/master/ui.apps/src/main/content/jcr_root/apps/learning/components/page/customheaderlibs.html).
+   Mit dem vorhergehenden Code wird die zugeordnete Konfiguration dem für das Rendern der Lernkomponenten erforderlichen Meta-Tag der Seite hinzugefügt. Weitere Informationen finden Sie unter [Adobe Learning Manager-Referenz-Site](https://github.com/adobe/adobe-learning-manager-reference-site/blob/master/ui.apps/src/main/content/jcr_root/apps/learning/components/page/customheaderlibs.html).
 
 1. Stellen Sie sicher, dass Sie die Konfiguration dem Webprojekt zugeordnet haben.
 1. Öffnen Sie die AEM Sites-Vorlage, in die Sie die Learning Manager-Komponenten importieren möchten.

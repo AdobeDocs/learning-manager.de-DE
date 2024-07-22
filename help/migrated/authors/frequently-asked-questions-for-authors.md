@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Häufig gestellte Fragen für Autoren
 description: Häufig gestellte Fragen für Adobe Learning Manager-Autoren
 contentowner: admin
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+exl-id: 11abbf52-e381-46be-8b33-30abe62b8015
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '1656'
 ht-degree: 52%
 
 ---
-
-
 
 # Häufig gestellte Fragen für Autoren
 
@@ -32,7 +31,7 @@ Ein typischer Lebenszyklus von Kursen sieht wie folgt aus:
 
 **Veröffentlicht** - Wenn ein Autor einen Kurs veröffentlicht hat. In diesem Status ist der Kurs für Teilnehmer verfügbar. Sie können sich für einen solchen Kurs registrieren.
 
-**Rentner** - Nach der Veröffentlichung eines Kurses können Sie ihn in einen eingestellten Status versetzen, wenn Sie nicht möchten, dass der Kurs im Kurskatalog für Teilnehmer angezeigt wird.
+**Eingestellt** - Nach der Veröffentlichung eines Kurses können Sie ihn in einen eingestellten Status versetzen, wenn der Kurs nicht im Kurskatalog für Teilnehmer angezeigt werden soll.
 
 **Gelöscht** - Ein Kurs hat den Status &quot;Gelöscht&quot;, wenn er vollständig aus der Adobe Learning Manager-Anwendung entfernt wurde. Kurse können nur von Autoren gelöscht werden, wenn sie im Status „Entwurf“ oder „Eingestellt“ sind.
 
@@ -40,20 +39,20 @@ Ein typischer Lebenszyklus von Kursen sieht wie folgt aus:
 
 +++Wie veröffentliche ich ein Captivate-Projekt im Lernmanager?
 
-Sie können Ihr fertiggestelltes Captivate 9-Projekt in Adobe Learning Manager als Modul veröffentlichen. Verwenden Sie in einem geöffneten Captivate 9-Projekt **Veröffentlichen** > **Veröffentlichen auf Adobe Learning Manager** und befolgen Sie die Anweisungen zum Veröffentlichen eines Moduls.
+Sie können Ihr fertiggestelltes Captivate 9-Projekt in Adobe Learning Manager als Modul veröffentlichen. Verwenden Sie in einem geöffneten Captivate 9-Projekt **Publish** > **Publish zu Adobe Learning Manager** und befolgen Sie die Anweisungen zum Veröffentlichen eines Moduls.
 
-Siehe  [Adobe Learning Manager: Veröffentlichungsmodule aus Adobe Captivate 9](http://primehelp.adobe.com/de/publish-modules-from-adobe-captivate9/)Weitere Informationen finden Sie in diesem Video.
+Weitere Informationen finden Sie im Video [Adobe Learning Manager: Publish Modules from Adobe Captivate 9](http://primehelp.adobe.com/de/publish-modules-from-adobe-captivate9/).
 
-Weitere Informationen finden Sie auch in Adobe Captivate 9  [Hilfeinhalt](http://helpx.adobe.com/de/captivate/using/publish-project-to-captivate-prime.html) für ein detailliertes Verfahren.
+Sie können sich auch auf Adobe Captivate 9 [Hilfeinhalt](http://helpx.adobe.com/de/captivate/using/publish-project-to-captivate-prime.html) beziehen, um eine detaillierte Vorgehensweise zu erhalten.
 
 Hinweis\
-ADOBE CAPTIVATE 9  [Hilfeinhalt](http://helpx.adobe.com/de/captivate/using/publish-project-to-captivate-prime.html) ist außerhalb der Learning Manager-Hilfeanwendung.
+Der Adobe Captivate 9 [Hilfeinhalt](http://helpx.adobe.com/de/captivate/using/publish-project-to-captivate-prime.html) befindet sich außerhalb der Learning Manager-Hilfeanwendung.
 
 +++
 
 +++So wählen Sie Kursmodule im Lern-Manager aus?
 
-Klicken  [hier](https://helpx.adobe.com/content/help/de/captivate-prime/authors/how-to-choose-modules.html) , um zu erfahren, wie Sie Kursmodule auswählen.
+Klicken Sie [hier](https://helpx.adobe.com/content/help/de/captivate-prime/authors/how-to-choose-modules.html), um mehr über die Auswahl von Kursmodulen zu erfahren.
 
 +++
 
@@ -61,11 +60,11 @@ Klicken  [hier](https://helpx.adobe.com/content/help/de/captivate-prime/authors/
 
 Während Sie den Kurs erstellen, können Sie den Registrierungstyp für den Kurs als Selbstregistrierung, Nominierung durch Manager oder Genehmigung durch Manager wählen:
 
-**Vom Manager ernannt** Diese Kurse können nur von Managern nominiert werden. Teilnehmer können sich für Kurse dieser Art nicht selbst registrieren.
+**Vom Manager nominiert** Diese Kurse können nur von Managern nominiert werden. Teilnehmer können sich für Kurse dieser Art nicht selbst registrieren.
 
-**Genehmigung durch Manager erforderlich** Diese Kurse sollten von Managern genehmigt werden. Teilnehmer können sich für diese Kurse anmelden, aber sie werden für diese Art von Kursen nicht direkt registriert, ohne dass dies von einem Manager genehmigt wurde. Wenn sich Teilnehmer für Kurse dieser Art anmelden, erhält der Manager eine Benachrichtigung. Nach Genehmigung des Managers werden diese Kurse für die Teilnehmer als registriert angeführt.
+**Genehmigung des Managers erforderlich** Diese Kurse sollten von Managern genehmigt werden. Teilnehmer können sich für diese Kurse anmelden, aber sie werden für diese Art von Kursen nicht direkt registriert, ohne dass dies von einem Manager genehmigt wurde. Wenn sich Teilnehmer für Kurse dieser Art anmelden, erhält der Manager eine Benachrichtigung. Nach Genehmigung des Managers werden diese Kurse für die Teilnehmer als registriert angeführt.
 
-**Selbstregistriert** Teilnehmer können sich selbst direkt für diese Art von Kursen registrieren.
+**Selbstregistrierung** Teilnehmer können sich für diese Art von Kursen selbst direkt registrieren.
 
 +++
 
@@ -95,7 +94,7 @@ Ein typischer Lebenszyklus von Kursen sieht wie folgt aus:
 
 **Veröffentlicht** - Wenn ein Autor einen Kurs veröffentlicht hat. In diesem Status ist der Kurs für Teilnehmer verfügbar. Sie können sich für einen solchen Kurs registrieren.
 
-**Rentner** - Nach der Veröffentlichung eines Kurses können Sie ihn in einen eingestellten Status versetzen, wenn Sie nicht möchten, dass der Kurs im Kurskatalog für Teilnehmer angezeigt wird.
+**Eingestellt** - Nach der Veröffentlichung eines Kurses können Sie ihn in einen eingestellten Status versetzen, wenn der Kurs nicht im Kurskatalog für Teilnehmer angezeigt werden soll.
 
 **Gelöscht** - Ein Kurs hat den Status &quot;Gelöscht&quot;, wenn er vollständig aus der Adobe Learning Manager-Anwendung entfernt wurde. Kurse können nur von Autoren gelöscht werden, wenn sie im Status „Entwurf“ oder „Eingestellt“ sind.
 
@@ -108,7 +107,7 @@ Erstellen Sie eine Bibliothek mit Modulen zum Selbststudium, die zu Kursen zusam
 1. Klicken Sie im linken Teilfenster auf &quot;Modulbibliothek&quot;, nachdem Sie sich als Autor angemeldet haben.
 1. Klicken Sie in der rechten oberen Ecke der Seite auf „Hinzufügen“.
 1. Geben Sie den Modulnamen, die Beschreibung und die Modul-Tags ein.
-1. Wählen Sie den Modultyp als **Freigegeben** , wenn Sie Ihr Modul für alle Autoren freigeben möchten. Andernfalls wählen Sie „Privat“.
+1. Wählen Sie als Modultyp **Freigegeben** aus, wenn Sie Ihr Modul für alle Autoren freigeben möchten. Andernfalls wählen Sie „Privat“.
 1. Klicken Sie auf das Symbol „Modul hochladen“ und laden Sie den Modulinhalt hoch.
 1. Klicken Sie auf „Speichern“.
 
@@ -120,9 +119,9 @@ Nachdem Ihr Modul erfolgreich hochgeladen wurde, wird es in der Modulbibliothek 
 
 Der Autor trifft auf diese Begriffe, wenn er Kurse erstellt.
 
-**Testen der Module** stellen die Kernmodule des Kurses dar. Wenn ein Teilnehmer dieses wichtige Modul abschließt, kann es als Kursabschluss betrachtet werden, obwohl der Teilnehmer den eigentlichen Inhalt des Kurses nicht abschließt.
+**Testmodule** stellen die Kernmodule des Kurses dar. Wenn ein Teilnehmer dieses wichtige Modul abschließt, kann es als Kursabschluss betrachtet werden, obwohl der Teilnehmer den eigentlichen Inhalt des Kurses nicht abschließt.
 
-**Inhaltsmodule** den tatsächlichen Kursplan repräsentieren. Der Teilnehmer lernt die vollständigen Inhalte des Kurses kennen, wenn er sich mit diesen Modulen beschäftigt.
+**Inhaltsmodule** stellen den tatsächlichen Kursplan dar. Der Teilnehmer lernt die vollständigen Inhalte des Kurses kennen, wenn er sich mit diesen Modulen beschäftigt.
 
 **Vorbereitungsmodule** helfen den Teilnehmern, die Grundlagen zu verstehen und sich auf den Kurs vorzubereiten.
 
@@ -158,13 +157,13 @@ Der Autor kann keine Liste der Teilnehmer abrufen, die die Kurse besuchen. Nur d
 
 +++Kann ich die Module jedes Kurses in einer bestimmten Reihenfolge anordnen? Wenn ja, wie?
 
-Der Autor kann die Reihenfolge der Module durch Drag-and-Drop ändern. Er kann die Teilnehmer auch dazu zwingen, die Module der Reihe nach anzunehmen, indem er **Bestellt** in der Reihenfolge für Module während der Kurserstellung.
+Der Autor kann die Reihenfolge der Module durch Drag-and-Drop ändern. Er kann die Teilnehmer auch dazu zwingen, die Module der Reihe nach zu absolvieren, indem er die Option **Geordnet** in der Reihenfolge für Module während der Kurserstellung auswählt.
 
 +++
 
 +++Wie filtere ich, um bestimmte Kurse anzuzeigen?
 
-Sie können die Option „Kurse nach Status filtern“ verwenden, um Kurse zu filtern. Weitere Informationen finden Sie unter  [Wie kann ich nach Kursen suchen?](https://helpx.adobe.com/content/help/de/captivate-prime/authors/frequently-asked-questions-for-authors.html#Course)
+Sie können die Option „Kurse nach Status filtern“ verwenden, um Kurse zu filtern. Weitere Informationen finden Sie unter [Wie suche ich nach Kursen?](https://helpx.adobe.com/content/help/de/captivate-prime/authors/frequently-asked-questions-for-authors.html#Course)
 
 +++
 
@@ -179,9 +178,9 @@ Als Autor haben Sie keinen Zugriff auf Berichte. Nur Administratoren haben die B
 Für die Suche nach Kursen haben Sie zwei Möglichkeiten:
 
 1. Verwenden Sie das Suchfeld in der rechten oberen Ecke. Geben Sie den Kursnamen oder beliebige zu Ihren Kursen passende Suchbegriffe ein, um nach diesen zu suchen.
-1. Filtern der Liste mit Filtern. Sie können die Kurse nach Status filtern, z. B. **Alle, Veröffentlicht, Entwurf** und **Rentner** indem Sie auf jede dieser Optionen klicken.
+1. Filtern der Liste mit Filtern. Sie können die Kurse nach Status filtern, z. B. **Alle, Veröffentlicht, Entwurf** und **Eingestellt**, indem Sie auf jede dieser Optionen klicken.
 
-   Sie können auch basierend auf Qualifikationen suchen, indem Sie auf **Kenntnisse** und wählen Sie jedes aus.
+   Sie können auch basierend auf Kenntnissätzen suchen, indem Sie auf **Kenntnisse** klicken und jede von ihnen auswählen.
 
    Sie können die gefilterte Liste der Kurse entsprechend Ihrer Wahl abrufen und die gewünschten Kurse auswählen.
 
@@ -200,9 +199,9 @@ Sie können Ihren Kursen also nur freigegebene Module anderer Autoren hinzufüge
 
 +++Wie füge ich einem Kurs Module hinzu?
 
-Sie können Kursmodule einem neuen Kurs oder einem vorhandenen Kurs mit dem Status „Entwurf“ hinzufügen. Informationen zum Hinzufügen von Modulen zu einem neuen Kurs finden Sie unter  [Wie erstelle ich einen Kurs?](http://primehelp.adobe.com/de/questions/how-do-i-create-a-new-course/)
+Sie können Kursmodule einem neuen Kurs oder einem vorhandenen Kurs mit dem Status „Entwurf“ hinzufügen. Informationen zum Hinzufügen von Modulen zu einem neuen Kurs finden Sie unter [Erstellen eines Kurses](http://primehelp.adobe.com/de/questions/how-do-i-create-a-new-course/)
 
-Sie können Module zur Modulbibliothek hinzufügen, indem Sie auf **Modulbibliothek** und dann **Hinzufügen**.
+Sie können der Modulbibliothek Module hinzufügen, indem Sie auf **Modulbibliothek** und dann auf **Hinzufügen** klicken.
 
 Um Module einem bereits veröffentlichten Kurs hinzuzufügen, erstellen Sie zuerst ein Duplikat des Kurses und speichern Sie dieses als Entwurf. Danach können Sie Module hinzufügen.
 
@@ -239,13 +238,13 @@ Autoren erstellen für die Kurse kein Lernprogramm. Lernprogramme werden vom Adm
 Um einen Kurs zu erstellen, führen Sie diese Schritte aus:
 
 1. Melden Sie sich bei Adobe Learning Manager als Autor an.
-1. Klicken **[!UICONTROL Kurse erstellen]** auf der Seite &quot;Erste Schritte&quot;.\
+1. Klicken Sie auf der Seite &quot;Erste Schritte&quot; auf **[!UICONTROL Kurse erstellen]**.\
    Die Seite &quot;Grundlegende Informationen&quot; wird angezeigt.
 
 1. Geben Sie die grundlegenden Informationen für den Kurs an. Folgen Sie den Anweisungen in der allgemeinen (statischen) Hilfe.
-1. Klicken **[!UICONTROL Module hinzufügen]** , um einen Kurs abzuschließen und ein Modul aus der Liste mit vier Modulen auszuwählen: Geben Sie die erforderlichen grundlegenden Informationen für jedes Modul ein und klicken Sie auf **[!UICONTROL Fertig]**.
+1. Klicken Sie auf **[!UICONTROL Module hinzufügen]** für den Kurs, und wählen Sie ein Modul aus der Liste der vier Module aus: Geben Sie die erforderlichen grundlegenden Informationen für jedes Modul an, und klicken Sie auf **[!UICONTROL Fertig]**.
 
-Wenn Sie den Kurs fertiggestellt haben, klicken Sie auf „Speichern“. Ihr Kurs wird standardmäßig als Entwurf gespeichert. Klicken **[!UICONTROL Veröffentlichen]** , um Ihren Kurs zu veröffentlichen.
+Wenn Sie den Kurs fertiggestellt haben, klicken Sie auf „Speichern“. Ihr Kurs wird standardmäßig als Entwurf gespeichert. Klicken Sie auf **[!UICONTROL Publish]**, um Ihren Kurs zu veröffentlichen.
 
 Um Ihren Kurs für die Veröffentlichung fertigzustellen, fügen Sie den Kursnamen, mindestens ein Modul, den Registrierungstyp, die Kompetenz, die Kenntnisstufe und die Credits hinzu.
 

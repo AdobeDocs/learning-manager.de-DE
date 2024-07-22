@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Warteliste und Verwaltung der Anwesenheit
 description: Administratoren können die Anwesenheit und Wartelisten von Kursteilnehmern verwalten.
 contentowner: manochan
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+exl-id: 257ed196-d6a7-4d6c-bd90-33d658f6ba55
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 76%
 
 ---
-
-
 
 # Warteliste und Verwaltung der Anwesenheit
 
@@ -20,15 +19,15 @@ Administratoren können die Anwesenheit und Wartelisten von Kursteilnehmern verw
 
 Wenn die Teilnehmerplätze eines Präsenzkurses begrenzt sind, werden die Teilnehmer in der Reihenfolge ihrer Registrierung auf eine Warteliste gesetzt. Administratoren können Teilnehmer von der Warteliste auswählen und ihnen Lizenzen zuweisen. Dabei wird die Obergrenze für den jeweiligen Kurs außer Kraft gesetzt. Die Teilnehmer werden für den Kurs registriert, sobald der Administrator ihnen Lizenzen zuweist.
 
-1. Klicken **[!UICONTROL Kurse]** im linken Bereich, nachdem Sie sich als Administrator angemeldet haben.
+1. Klicken Sie im linken Teilfenster auf **[!UICONTROL Kurse]**, nachdem Sie sich als Administrator angemeldet haben.
 1. Klicken Sie in der Liste der verfügbaren Kurse auf einen Präsenzkurs Ihrer Wahl. Eine neue Seite mit genauen Informationen über den Kurs erscheint.
 
 ![](assets/waitlist-and-attendance-mgmnt.png)
 
-*Wählen Sie die Option &quot;Warteliste&quot;*
+*Wählen Sie die Option &quot;Warteliste&quot; aus*
 
-1. Klicken **[!UICONTROL Warteliste]** im linken Bereich der Kursdetailseite. Die Warteliste der Teilnehmer erscheint auf der Seite.
-1. Wählen Sie die Teilnehmer aus und klicken Sie auf **[!UICONTROL Lizenzen zuweisen]** , um die Teilnehmer direkt für die Kurse zu registrieren und dabei die Obergrenze für die Lizenzen zu überschreiten.
+1. Klicken Sie auf **[!UICONTROL Warteliste]** im linken Bereich der Kursdetailseite. Die Warteliste der Teilnehmer erscheint auf der Seite.
+1. Wählen Sie die Teilnehmer aus und klicken Sie auf **[!UICONTROL Lizenzen zuweisen]**, um die Teilnehmer direkt für die Kurse zu registrieren, wobei die Obergrenze für die Lizenzen aufgehoben wird.
 
 ## Verwaltung der Anwesenheit {#attendancemanagement}
 

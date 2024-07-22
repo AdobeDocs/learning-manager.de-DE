@@ -43,7 +43,7 @@ Um einen Lernplan zu erstellen, müssen Sie sich als Administrator anmelden.
 
 Die Ereignisse sind:
 
-**1 - Ein neuer Teilnehmer wird hinzugefügt:** Wenn ein neuer Benutzer oder ein Mitarbeiter der Organisation beitritt.
+**1 - Neuer Teilnehmer wird hinzugefügt:** Wenn ein neuer Benutzer oder ein Mitarbeiter der Organisation beitritt.
 
 ![](assets/new-learner-is-added.png)
 
@@ -58,15 +58,15 @@ Dieser Lernplan ist speziell für Benutzer von ***Benutzerdefinierte Gruppe*** k
 ![](assets/learner-removed-from-group.png)
 
 
-**4 - Der Teilnehmer hat einen Kurs/einen Lernpfad/eine Zertifizierung abgeschlossen:** Das Ereignis wird ausgelöst, wenn ein Teilnehmer Lernobjekte wie Kurse, Lernprogramme usw. abschließt. Wählen Sie das Lernobjekt, für das dieses Ereignis gilt. Wählen Sie den Abschlussstatus für das Ereignis. Optional können Sie außerdem die Benutzergruppe auswählen, zu der dieser Benutzer gehört. Wenn Sie die Anzahl der Tage nach dem Abschluss des Lernobjekt eingeben, wird dieses Ereignis ausgelöst. Wählen Sie die Option, wenn Sie dieses Ereignis vorhandenen Benutzern zuweisen möchten, die bereits das Lernobjekt abgeschlossen haben.
+**4 - Teilnehmer schließt einen Kurs/einen Lernpfad/eine Zertifizierung ab:** Das Ereignis wird ausgelöst, wenn Teilnehmer Lernobjekte wie Kurse, Lernprogramme usw. beenden. Wählen Sie das Lernobjekt, für das dieses Ereignis gilt. Wählen Sie den Abschlussstatus für das Ereignis. Optional können Sie außerdem die Benutzergruppe auswählen, zu der dieser Benutzer gehört. Wenn Sie die Anzahl der Tage nach dem Abschluss des Lernobjekt eingeben, wird dieses Ereignis ausgelöst. Wählen Sie die Option, wenn Sie dieses Ereignis vorhandenen Benutzern zuweisen möchten, die bereits das Lernobjekt abgeschlossen haben.
 
 ![](assets/learner-completealearningobject.png)
 
-**5 - Der Teilnehmer schlägt ein Modul eines Kurses fehl:** Das Ereignis wird ausgelöst, wenn ein Teilnehmer ein Lernobjekt wie einen Kurs, ein Lernprogramm usw. nicht besteht. Wählen Sie das Lernobjekt, für das dieses Ereignis gilt. Sie können auch die Benutzergruppe auswählen, zu der dieser Teilnehmer gehört.
+**5 - Der Teilnehmer schlägt ein Modul eines Kurses fehl:** Das Ereignis wird ausgelöst, wenn ein Teilnehmer ein Lernobjekt wie einen Kurs, ein Lernprogramm usw. ausfällt. Wählen Sie das Lernobjekt, für das dieses Ereignis gilt. Sie können auch die Benutzergruppe auswählen, zu der dieser Teilnehmer gehört.
 
 ![](assets/learner-fails-module.png)
 
-**4 - Der Teilnehmer erreicht eine Kenntnisstufe:** Geben Sie den Namen der Qualifikation ein und wählen Sie die Qualifikationsstufe aus. Sie können außerdem die Benutzergruppe auswählen, zu der dieser Benutzer gehört. Dies ist optional. Wenn Sie die Anzahl der Tage nach dem Erwerb der Kenntnisse eingeben, wird dieses Ereignis ausgelöst. Wählen Sie die Option, wenn Sie dieses Ereignis vorhandenen Teilnehmern zuweisen möchten, die bereits diese Qualifikation erzielt haben.
+**4 - Der Teilnehmer erreicht eine Qualifikationsstufe:** Geben Sie den Namen der Qualifikation ein und wählen Sie die Qualifikationsstufe aus. Sie können außerdem die Benutzergruppe auswählen, zu der dieser Benutzer gehört. Dies ist optional. Wenn Sie die Anzahl der Tage nach dem Erwerb der Kenntnisse eingeben, wird dieses Ereignis ausgelöst. Wählen Sie die Option, wenn Sie dieses Ereignis vorhandenen Teilnehmern zuweisen möchten, die bereits diese Qualifikation erzielt haben.
 
 ![](assets/learner-achievesaskilllevel.png)
 
@@ -94,14 +94,14 @@ Beim Hinzufügen eines Lernplans kann ein Administrator die Registrierung von Be
 
 Klicken Sie in der Admin-App auf **[!UICONTROL Lernpläne]** > **[!UICONTROL Hinzufügen]**.
 
-In den folgenden Abschnitten werden die Auslöser dargestellt, in denen die Option **[!UICONTROL Registrierung für Schulung widerrufen]** wurde hinzugefügt.
+In den folgenden Abschnitten werden die Auslöser aufgeführt, in denen die Option **[!UICONTROL Registrierung für Schulung widerrufen]** hinzugefügt wurde.
 
 ![](assets/unenroll-courses.png)
 
 ## Teilnehmer wird aus einer Gruppe entfernt {#learnergetsremovedfromagroup}
 
 1. Fügen Sie eine oder mehrere Benutzergruppen hinzu. Wenn mehrere Gruppen ausgewählt sind, wird der Plan ausgelöst, wenn ein Teilnehmer aus einer der genannten Gruppen entfernt wird.
-1. Wählen Sie die Aktion als **[!UICONTROL Registrierung für Schulung widerrufen]**.
+1. Wählen Sie die Aktion &quot;**[!UICONTROL Registrierung für Schulung widerrufen]**&quot;.
 
    1. Der Administrator kann die Schulungen auswählen, für die die Registrierung des Benutzers widerrufen wird, wenn er aus der Benutzergruppe entfernt wird.
    1. Das Instanz- und Abschlussdatum gelten in diesem Szenario nicht.
@@ -111,7 +111,7 @@ In den folgenden Abschnitten werden die Auslöser dargestellt, in denen die Opti
 ## Teilnehmer hat eine Schulung abgeschlossen {#learnercompletesatraining}
 
 1. Fügen Sie eine oder mehrere Benutzergruppen hinzu. Wenn mehrere Gruppen ausgewählt sind, wird der Plan ausgelöst, wenn ein Teilnehmer die angegebene Schulung abschließt.
-1. Wählen Sie die Aktion als **[!UICONTROL Registrierung für Schulung widerrufen]**.
+1. Wählen Sie die Aktion &quot;**[!UICONTROL Registrierung für Schulung widerrufen]**&quot;.
 
    1. Der Administrator kann die Schulungen auswählen, für die die Registrierung des Benutzers widerrufen wird, wenn er der Benutzergruppe hinzugefügt wird.
    1. Das Instanz- und das Abschlussdatum gelten in diesem Fall nicht.
@@ -121,7 +121,7 @@ In den folgenden Abschnitten werden die Auslöser dargestellt, in denen die Opti
 ## Lernende/r besteht ein Modul eines Kurses nicht
 
 1. Fügen Sie eine oder mehrere Benutzergruppen hinzu. Wenn mehrere Gruppen ausgewählt sind, wird der Plan ausgelöst, wenn ein Teilnehmer die angegebene Schulung nicht besteht.
-1. Wählen Sie die Aktion als **[!UICONTROL Registrierung für Schulung widerrufen]**.
+1. Wählen Sie die Aktion &quot;**[!UICONTROL Registrierung für Schulung widerrufen]**&quot;.
 
    1. Der Administrator kann die Schulungen auswählen, für die die Registrierung des Benutzers widerrufen wird, wenn er der Benutzergruppe hinzugefügt wird.
    1. Das Instanz- und das Abschlussdatum gelten in diesem Fall nicht.
@@ -156,16 +156,16 @@ In den folgenden Abschnitten werden die Auslöser dargestellt, in denen die Opti
 
 ## Lernplan bearbeiten {#editalearningplan}
 
-Nach dem Erstellen eines Lernplans kann der Administrator den Lernplan jederzeit bearbeiten/aktualisieren. Wählen Sie zum Bearbeiten den Namen des Lernplans aus und ändern Sie die Werte im Dialogfeld &quot; **[!UICONTROL Lernplan bearbeiten]** ein Popup-Dialogfeld angezeigt.  Wählen Sie **[!UICONTROL Speichern]**.
+Nach dem Erstellen eines Lernplans kann der Administrator den Lernplan jederzeit bearbeiten/aktualisieren. Wählen Sie zum Bearbeiten den Namen des Lernplans aus und ändern Sie die Werte im daraufhin angezeigten Popup-Dialogfeld &quot;**[!UICONTROL Lernplan bearbeiten]**&quot;.  Wählen Sie **[!UICONTROL Speichern]**.
 
 >[!NOTE]
 >
->Sie können die Datei **[!UICONTROL Tritt auf, wenn]** in der &quot; **[!UICONTROL Lernplan bearbeiten]** Popup.
+>Sie können die Option &quot;**[!UICONTROL Tritt auf, wenn &quot;]**&quot; im Popup &quot;**[!UICONTROL Lernplan bearbeiten&quot; &quot;]**&quot; nicht ändern.
 
 
 ## Lernplan aktivieren {#enablealearningplan}
 
-Standardmäßig sind alle neuen Lernpläne, die Sie erstellt haben, deaktiviert. Sie müssen einen Plan aktivieren, dem ein Teilnehmer zugewiesen werden soll. Wenn Sie das Kontrollkästchen aktivieren **[!UICONTROL Aktuelle Teilnehmer]**, wird das Ereignis von selbst aktiviert.
+Standardmäßig sind alle neuen Lernpläne, die Sie erstellt haben, deaktiviert. Sie müssen einen Plan aktivieren, dem ein Teilnehmer zugewiesen werden soll. Wenn Sie das Kontrollkästchen **[!UICONTROL Aktuelle Teilnehmer]** aktivieren, wird das Ereignis von selbst aktiviert.
 
 Um einen Lernplan zu aktivieren,
 
@@ -200,7 +200,7 @@ Sie können Lernpläne nach der Art des Ereignisses filtern, das beim Erstellen 
 
 1. Wie richte ich den Learning Manager ein, um die automatische Registrierung für die Aufnahme neuer Mitarbeiter zu konfigurieren?
 
-   Im Dialogfeld &quot; **[!UICONTROL Tritt auf, wenn]** aus, wählen Sie die Option **[!UICONTROL Neuer Teilnehmer wird hinzugefügt]**. Ordnen Sie dann die Lernobjekte, die Instanz und das Abschlussdatum für den Teilnehmer zu. Sowohl Administratoren als auch Autoren können Ereignisse für die automatische Registrierung erstellen. Aktivieren Sie das Ereignis, nachdem Sie es erstellt haben.
+   Wählen Sie in der Dropdownliste **[!UICONTROL Tritt auf, wenn]** die Option **[!UICONTROL Neuer Teilnehmer hinzugefügt]** aus. Ordnen Sie dann die Lernobjekte, die Instanz und das Abschlussdatum für den Teilnehmer zu. Sowohl Administratoren als auch Autoren können Ereignisse für die automatische Registrierung erstellen. Aktivieren Sie das Ereignis, nachdem Sie es erstellt haben.
 
 1. Wie richte ich einen Lernplan/eine automatische Registrierung für den Unterricht und den virtuellen Unterrichtskurs ein?
 
@@ -208,4 +208,4 @@ Sie können Lernpläne nach der Art des Ereignisses filtern, das beim Erstellen 
 
 1. Wie kann ich die Liste der Teilnehmer anzeigen, die bei einem bestimmten Lernplan registriert sind?
 
-   Wenn die Instanz Auto erstellt wird, klicken Sie auf **[!UICONTROL Kurs]** > **[!UICONTROL Teilnehmer]**, und wählen Sie die gewünschte Instanz aus der Dropdown-Liste **[!UICONTROL Instanz]** Dropdown-Liste.
+   Wenn die Instanz &quot;Auto&quot; erstellt wird, klicken Sie auf **[!UICONTROL Kurs]** > **[!UICONTROL Teilnehmer]** und wählen Sie die gewünschte Instanz aus der Dropdown-Liste **[!UICONTROL Instanz]** aus.

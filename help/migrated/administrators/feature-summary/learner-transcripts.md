@@ -19,13 +19,13 @@ Mit Adobe Learning Manager können die Administratoren eines Unternehmens die Tr
 
 ## Teilnehmertranskripte erstellen {#generatelearnertranscripts}
 
-1. Um Protokolle für Teilnehmer zu generieren, klicke **[!UICONTROL links im Bedienfeld &quot;Administratoranmeldung&quot; auf &quot;Berichte]** &quot;.
+1. Um Teilnehmertranskripte zu erstellen, klicken Sie auf **[!UICONTROL Berichte]** im linken Bereich in der Administratoranmeldung.
 
-   Der Administrator navigiere auf **[!UICONTROL der**[!UICONTROL  Seite Berichte ]**zur Registerkarte &quot;Benutzerdefinierte Berichte]** > **[!UICONTROL Excel-Berichte]**&quot;.
+   Der Administrator navigiert auf der Seite **[!UICONTROL Berichte]** zur Registerkarte **[!UICONTROL Benutzerdefinierte Berichte]** > **[!UICONTROL Excel-Berichte]**.
 
-1. Klicke auf den Link **[!UICONTROL Teilnehmerprotokolle]**.
+1. Klicken Sie auf den Link **[!UICONTROL Teilnehmertranskripte]**.
 
-   Die **[!UICONTROL Seite &quot;Verlauf des Teilnehmerprotokolls]** &quot; wird mit der Meldung angezeigt: **Noch wurden keine Teilnehmer-Protokolle erstellt** oder eine Liste der Downloads, die nach der Implementierung der Verlaufsseite für Lernprotokolle ausgelöst wurden.
+   Die Verlaufsseite **[!UICONTROL Teilnehmertranskript]** wird mit der Meldung angezeigt: **Es wurden noch keine Teilnehmertranskripte generiert** oder mit einer Liste von Downloads, die nach der Implementierung der Lernobjektverlaufsseite ausgelöst wurden.
 
    <!--[](assets/learner-transcripts.png)-->
 
@@ -33,20 +33,20 @@ Mit Adobe Learning Manager können die Administratoren eines Unternehmens die Tr
 
    >[!NOTE]
    >
-   >Standardmäßig ist ab dem Startdatum das Anmeldedatum des Teilnehmers und das Datum immer der aktuelle Tag. Sie können nur das Startdatum ändern, ab dem Sie die Daten benötigen.
+   >Standardmäßig ist das Anfangsdatum das Registrierungsdatum des Teilnehmers und das Enddatum immer das aktuelle Datum. Sie können nur das Startdatum ändern, ab dem Sie die Daten benötigen.
 
-1. Wähle die Namen der Teilnehmer im **[!UICONTROL Feld Teilnehmer]** auswählen aus, und klicke auf &quot;Generieren]&quot;**[!UICONTROL .**
+1. Wählen Sie die Namen der Teilnehmer aus dem Feld **[!UICONTROL Teilnehmer auswählen]** aus, und klicken Sie auf **[!UICONTROL Generieren].**
 1. Sie können einen einzelnen Teilnehmer oder Gruppen von Teilnehmern auswählen. Klicken Sie auf **[!UICONTROL Weitere Teilnehmer hinzufügen]**, um weitere Teilnehmer hinzuzufügen.
 
    ![](assets/add-learners-lt.png)
 
    *Weitere Teilnehmer hinzufügen*
 
-1. Sie können bestimmte Kataloge auswählen, indem sie das Häkchen aktivieren. Das Transkript wird nur für die angegebenen Kataloge heruntergeladen. Um bestimmte Kataloge auszuwählen, wähle den Katalog aus der **[!UICONTROL Dropdown-Liste Kataloge]** auswählen.
+1. Sie können bestimmte Kataloge auswählen, indem Sie das Kontrollkästchen aktivieren. Das Transkript wird nur für die angegebenen Kataloge heruntergeladen. Sie können bestimmte Kataloge auswählen, indem Sie den Katalog aus der Dropdown-Liste **[!UICONTROL Kataloge auswählen]** auswählen.
 
    ![](assets/select-catalogs-lt.png)
 
-1. Beim Exportieren von Teilnehmer-Transkripten gibt es die Option **[!UICONTROL Registrierungsstatus]**. Dieses Dropdown-Menü enthält die folgenden Optionen:
+1. Beim Exportieren von Teilnehmertranskripten gibt es die Option **[!UICONTROL Registrierungsstatus]**. Dieses Dropdown-Menü enthält die folgenden Optionen:
 
    * Alles auswählen
    * Abgeschlossen
@@ -58,34 +58,34 @@ Mit Adobe Learning Manager können die Administratoren eines Unternehmens die Tr
 
    *Katalog auswählen*
 
-1. Sie können auch Protokolle für Teilnehmer herunterladen, die von einem Konto gelöscht wurden.
+1. Sie können auch Transkripte für Teilnehmer herunterladen, die aus einem Konto gelöscht wurden.
 
-   Um Teilnehmerprotokolle gelöschter Benutzer herunterzuladen, klicke auf den **[!UICONTROL Pfeil &quot;Erweiterte Optionen]** &quot; und aktiviere das Häkchen **[!UICONTROL &quot;Daten gelöschter]** Teilnehmer einbeziehen&quot;.
+   Um Teilnehmertranskripte gelöschter Benutzer herunterzuladen, klicken Sie auf den Pfeil **[!UICONTROL Erweiterte Optionen]** und aktivieren Sie das Kontrollkästchen **[!UICONTROL Daten gelöschter Teilnehmer einschließen]**.
 
    ![](assets/data-deleted-learners.png)
 
-   *Teilnehmerprotokolle gelöschter Teilnehmer herunterladen*
+   *Teilnehmertranskripte gelöschter Teilnehmer herunterladen*
 
-1. Du kannst die Informationen auf Modulebene im Teilnehmerprotokoll herunterladen, indem du das Kontrollkästchen &quot;**[!UICONTROL Informationen]** auf Modulebene aktivieren&quot; aktiviert. In diesem Fall werden Modulnamen und die für jedes Modul aufgewendete Zeit als Teil des Transkripts abgerufen, wenn diese Option aktiviert ist.
-1. Du kannst Kompetenzdaten und Übersichtsblätter herunterladen, indem du das Kontrollkästchen &quot;**[!UICONTROL Kompetenzdaten und Übersichtsblätter]** einbeziehen&quot; aktiviert.
+1. Sie können Informationen zur Modulstufe im Teilnehmertranskript herunterladen, indem Sie das Kontrollkästchen &quot;**[!UICONTROL Informationen zur Modulstufe aktivieren]**&quot; aktivieren. In diesem Fall werden Modulnamen und die für jedes Modul aufgewendete Zeit als Teil des Transkripts abgerufen, wenn diese Option aktiviert ist.
+1. Sie können Fertigkeitsdaten und Zusammenfassungsblätter herunterladen, indem Sie das Kontrollkästchen &quot;**[!UICONTROL Fertigkeitsdaten und Zusammenfassungsblätter einschließen]**&quot; aktivieren.
 
-   Protokolle werden als .zip-Dateien auf deinem Computer generiert und heruntergeladen, wenn die Skills-Daten nicht enthalten sind. Wenn das Kontrollkästchen „Daten für Kenntnisse“ aktiviert ist, werden Transkripte generiert und XLS-Dateien heruntergeladen.
+   Transkripte werden generiert und als ZIP-Dateien auf Ihren Computer heruntergeladen, wenn die Kenntnisdaten nicht enthalten sind. Wenn das Kontrollkästchen „Daten für Kenntnisse“ aktiviert ist, werden Transkripte generiert und XLS-Dateien heruntergeladen.
 
 ## Teilnehmertranskript durch Kopieren und Einfügen erstellen
 
 Das Abrufen von Teilnehmertranskripten ist ein langwieriger Vorgang, da er nur einzeln für einen Teilnehmer bzw. eine Benutzergruppe durchgeführt werden kann. Mit der Funktion zum Kopieren und Einfügen können Sie die gesamte Liste der Teilnehmer-E-Mail-IDs gleichzeitig kopieren und einfügen.
 
-1. Melde dich als Administrator ]**oder**[!UICONTROL  Manager ]**an**[!UICONTROL .
-1. Gehe zu **[!UICONTROL Reports]** unter **[!UICONTROL Verwalten]**, es lädt die **[!UICONTROL Seite &quot;Benutzeraktivität]** &quot;.
-1. Klicke links im Bedienfeld &quot;Benutzerdefinierte Berichte&quot; auf **[!UICONTROL &quot;Benutzerdefinierte Berichte]**&quot;, und wähle aus der Liste &quot;Teilnehmerprotokolle ]**&quot;**[!UICONTROL  aus.
-1. Klicke oben links auf der **[!UICONTROL Seite Transkripts]** für Teilnehmer auf **[!UICONTROL &quot;Neu]** generieren&quot;.
-1. Wähle die gewünschten Datumsangaben aus, indem du im **[!UICONTROL Dropdown-Menü &quot;Datumsbereich]** auswählen&quot; klickst. Klicke auf **[!UICONTROL die Registerkarte &quot;E-Mail-IDs]** &quot;, um die kopierte Liste der eindeutigen E-Mail-IDs einzugeben.
+1. Melden Sie sich als **[!UICONTROL Administrator]** oder **[!UICONTROL Manager]** an.
+1. Wechseln Sie unter **[!UICONTROL Verwalten]** zu **[!UICONTROL Berichte]**. Die Seite **[!UICONTROL Benutzeraktivität]** wird geladen.
+1. Klicken Sie im linken Bereich auf **[!UICONTROL Benutzerdefinierte Berichte]** und wählen Sie **[!UICONTROL Teilnehmertranskripte]** aus der Liste aus.
+1. Klicken Sie auf der Seite **[!UICONTROL Teilnehmertranskripte]** auf die Schaltfläche **[!UICONTROL Neu generieren]** in der oberen linken Ecke.
+1. Wählen Sie die gewünschten Daten aus, indem Sie in der Dropdownliste auf **[!UICONTROL Datumsbereich auswählen]** klicken. Klicken Sie auf die Registerkarte **[!UICONTROL E-Mail-IDs]**, um die kopierte Liste der eindeutigen E-Mail-IDs einzugeben.
 
    ![](assets/cp-copy-paste-feature.png)
 
-   *E-Mail-IDs per Copy-Paste einfügen*
+   *E-Mail-IDs kopieren und einfügen*
 
-1. Mit **[!UICONTROL &quot;E-Mail-Id überprüfen]** &quot; kannst du überprüfen, ob die eingegebene ID korrekt ist.
+1. Überprüfen Sie mit **[!UICONTROL E-Mail-IDs validieren]**, ob die eingegebene ID korrekt ist.
 
    ![](assets/cp-learnertran-gdpr.png)
 
@@ -93,27 +93,27 @@ Das Abrufen von Teilnehmertranskripten ist ein langwieriger Vorgang, da er nur e
 
    Wenn die eingegebene E-Mail-ID falsch ist, wird sie wie oben beschrieben zusammen mit einer Validierungsnachricht rot hervorgehoben.
 
-   **[!UICONTROL Die Schaltfläche &quot;Generieren]** &quot; ist nur verfügbar, wenn alle eingegebenen E-Mail-IDs korrekt sind.
+   Die Schaltfläche **[!UICONTROL Generieren]** ist nur verfügbar, wenn alle eingegebenen E-Mail-IDs korrekt sind.
 
    ![](assets/cp-copy-paste-generate.png)
 
-   *Teilnehmer-Transkripten generieren*
+   *Teilnehmertranskripte generieren*
 
-1. Klicke auf **[!UICONTROL &quot;Generieren]** &quot;, um für alle genannten E-Mail-IDs Protokolle für Teilnehmer zu generieren. Sie erhalten eine Bestätigungsmeldung wie unten beschrieben, in der die Berichterstellung bestätigt wird.
+1. Klicken Sie auf die Schaltfläche **[!UICONTROL Generieren]**, um Teilnehmertranskripte für alle genannten E-Mail-IDs zu generieren. Sie erhalten eine Bestätigungsmeldung wie unten beschrieben, in der die Berichterstellung bestätigt wird.
 
    ![](assets/cp-copy-paste-gmessage.png)
 
-   *Bestätigungsmeldung zum generierten Bericht*
+   *Bestätigungsmeldung des generierten Berichts*
 
-   Die Erstellung von Teilnehmer-Transkripten kann für E-Mail-IDs kombiniert werden, die sowohl unter &quot;Benutzer ]****[!UICONTROL &quot; als auch **[!UICONTROL &quot;E-Mail-IDs]**&quot; eingegeben werden.
+   Das Generieren von Teilnehmertranskripten kann für E-Mail-IDs kombiniert werden, die sowohl auf der Registerkarte **[!UICONTROL Benutzer]** als auch **[!UICONTROL E-Mail-IDs]** eingegeben wurden.
 
 ## Downloadverlauf der Teilnehmertranskripte {#ltdownload}
 
-Auf der Download-Seite für das **[!UICONTROL Teilnehmer-Transkript]** wird der Dialog &quot;Teilnehmerprotokolle&quot; angezeigt, um einen Bericht zu generieren, wenn du auf die **[!UICONTROL Schaltfläche &quot;Neu]** generieren&quot; klickst.
+Wenn Sie auf der Downloadseite **[!UICONTROL Teilnehmertranskript]** auf die Schaltfläche **[!UICONTROL Neu generieren]** klicken, um einen Bericht zu erstellen, wird das Dialogfeld &quot;Teilnehmertranskripte&quot; angezeigt.
 
 ![](assets/history-lt.png)
 
-*Bericht aller Teilnehmer-Protokolle erstellen*
+*Bericht aller Teilnehmertranskripte generieren*
 
 Klicken Sie auf **[!UICONTROL Erweiterte Optionen]** und erweitern Sie das Bedienfeld.
 
@@ -125,45 +125,45 @@ Wählen Sie die Benutzer und den Katalog aus, zu dem sie gehören. Nach dem Klic
 
 Das Transkript wird im Hintergrund generiert und Sie können Ihre Aufgaben in Learning Manager fortsetzen. Sobald das Transkript erstellt wurde, können Sie das Transkript aus der Liste herunterladen.
 
-Als Administrator kannst du alle Protokolle anzeigen, die von allen im System generiert werden.
+Als Administrator können Sie alle Transkripte anzeigen, die von einem Benutzer im System generiert werden.
 
 ![](assets/download-history.png)
 
-*Download-Historie anzeigen*
+*Downloadverlauf anzeigen*
 
 In der Download-Liste werden die folgenden Attribute angezeigt:
 
-* **Teilnehmer:** Die Teilnehmer/Teilnehmergruppen, deren Protokolle heruntergeladen werden sollen.
+* **Teilnehmer:** Teilnehmer/Teilnehmergruppen, deren Transkripte heruntergeladen werden sollen.
 * **Zusätzliche Daten enthalten:** Abhängig von den zusätzlichen Daten, die der Administrator über die Option „Erweitert“ im Modul „Lernprotokoll hinzufügen“ herunterladen möchte
 * **Status:** Heruntergeladen, in der Warteschlange oder in Bearbeitung.
 * **Von** und **Bis**: Zeitspanne für die herunterzuladenden Transkripte.
 * **Angewendete Filter:** Ob Sie die Filter für den Registrierungsstatus angewendet haben.
-* **Generiert durch:** Die Benutzer-ID des Learning Manager-Anwenders, der den Download angefordert hat.
+* **Generiert von:** Die Benutzer-ID des Learning Manager-Benutzers, der den Download angefordert hat.
 * **Status:** Heruntergeladen, in der Warteschlange oder in Bearbeitung.
 
 Sie können den Download jederzeit abbrechen. Wenn ein Auftrag vom Administrator abgebrochen wird, sendet Learning Manager eine In-App-Benachrichtigung an den Benutzer, der das Teilnehmertranskript ausgelöst hat.
 
 ![](assets/queued-status.png)
 
-*Download-Warteschlange für Das Teilnehmerprotokoll*
+*Warteschlange für den Download des Teilnehmertranskripts*
 
-Du kannst **den Download jederzeit kündigen** . Wenn eine Stelle gekündigt wird, sendet Learning Manager eine In-App-Benachrichtigung an den Benutzer, der den Job gekündigt hat.
+Sie können den Download jederzeit **abbrechen**. Wenn ein Auftrag abgebrochen wird, sendet der Lern-Manager eine In-App-Benachrichtigung an den Benutzer, der den Auftrag abgebrochen hat.
 
 ## Daten gelöschter Teilnehmer {#dataofdeletedlearners}
 
-Sie können die Daten gelöschter Teilnehmer in die Teilnehmertranskriptliste aufnehmen. Aktiviere im Dialogfeld &quot;Teilnehmerprotokolle&quot; die Option **[!UICONTROL &quot;Daten gelöschter Teilnehmer]** einbeziehen&quot;.
+Sie können die Daten gelöschter Teilnehmer in die Teilnehmertranskriptliste aufnehmen. Aktivieren Sie im Dialogfeld &quot;Teilnehmertranskripte&quot; die Option **[!UICONTROL Daten gelöschter Teilnehmer einschließen]**.
 
 Nachdem Sie die Option aktiviert und auf **[!UICONTROL Generieren]** geklickt haben, werden die Datenfunktionen der gelöschten Teilnehmer auf der Download-Seite des Teilnehmertranskripts wie folgt angezeigt:
 
 ![](assets/deleted-learnersondownloadpage.png)
 
-*Daten gelöschter Learber anzeigen*
+*Daten gelöschter Teilnehmer anzeigen*
 
 ## Anpassen der Spalten {#customize-columns-lt}
 
 Ein Administrator kann die in einem Teilnehmertranskriptbericht exportierten Spalten anpassen. Administratoren, benutzerdefinierte Administratoren und Manager können die Spalten konfigurieren, bevor sie den Bericht exportieren.
 
-Klicke im **[!UICONTROL Dialogfeld &quot;Teilnehmerprotokolle]** &quot; auf &quot; **[!UICONTROL Erweiterte Optionen&quot;]**. Wähle im **[!UICONTROL Abschnitt Exportformat]** konfigurieren die Spalten aus, die du exportieren möchtest.
+Klicken Sie im Dialogfeld **[!UICONTROL Teilnehmertranskripte]** auf **[!UICONTROL Erweiterte Optionen]**. Wählen Sie im Abschnitt **[!UICONTROL Exportformat konfigurieren]** die Spalten aus, die Sie exportieren möchten.
 
 ![](assets/image024.png)
 
@@ -173,11 +173,11 @@ Die Anpassung ist nur zulässig, wenn ein Benutzer das Teilnehmertranskript im C
 
 ## Inhalt der Teilnehmertranskriptdatei {#learnertranscriptfilecontent}
 
-Eine typische Teilnehmertranskriptdatei besteht aus sechs Excel-Arbeitsblättern in einer einzelnen Datei. Die Protokolle der Teilnehmer geben einen allgemeinen Einblick in Daten, darunter die Anzahl der beteiligten Teilnehmer pro Kurs, ihre Fähigkeiten, den Abschlussanteil basierend auf Kurs oder Teilnehmer und ein Compliance-Dashboard. Im Folgenden finden Sie die Dashboards, die in den Teilnehmertranskripten verfügbar sind:
+Eine typische Teilnehmertranskriptdatei besteht aus sechs Excel-Arbeitsblättern in einer einzelnen Datei. Die Teilnehmertranskriptblätter bieten einen Gesamteinblick in die Daten, einschließlich der Anzahl der beteiligten Teilnehmer pro Kurs, ihrer Kenntnisse, des auf dem Kurs oder Teilnehmer basierenden Abschlusswerts und eines Compliance-Dashboards. Im Folgenden finden Sie die Dashboards, die in den Teilnehmertranskripten verfügbar sind:
 
 **Teilnehmertranskript**
 
-Im Teilnehmertranskript-Arbeitsblatt werden zusammen mit Profildetails über den Teilnehmer, ein Lernobjekt mit Details zur Nutzung bereitgestellt, z. B. Registrierungsdatum, Startdatum, erreichte Stufe, erzielte Quizpunkzahl und so weiter. Wenn Kurse Teil eines Lernprogramms sind, werden sie abgesehen von den Angaben zur Kursnutzung separat aufgeführt.
+Im Teilnehmertranskript-Arbeitsblatt werden zusammen mit Profildetails über den Teilnehmer, ein Lernobjekt mit Details zur Nutzung bereitgestellt, z. B. Registrierungsdatum, Startdatum, erreichte Stufe, erzielte Quizpunkzahl und so weiter. Wenn Kurse Teil eines Lernprogramms sind, werden sie getrennt von den Details zur individuellen Kursnutzung aufgelistet.
 
 **1 - Dashboard für Lernaktivitäten**
 
@@ -197,7 +197,7 @@ Auf dem Blatt „Kenntnisse“ finden Sie Kenntnisnahme, Kenntnisstufe, erforder
 
 ![](assets/skills-learner-transcript.png)
 
-*Beispiel für das Excel-Tabellenblatt &quot;Skills&quot;*
+*Beispiel für das Excel-Arbeitsblatt zu Kenntnissen*
 
 **1 - Dashboard für Kenntnisse**
 
@@ -223,15 +223,15 @@ Bei den Werten in den folgenden Spalten sind die Minuten auf die nächste Minute
 
 ![](assets/time-columns-in-thetranscript.png)
 
-*Zeit- und Datumsspalten im Excel-Tabellenblatt*
+*Zeit- und Datumsspalten im Excel-Arbeitsblatt*
 
 ### Spalten „Dauer des Moduls“ und „ID“ im Transkript {#moduledurationandidcolumnsinthetranscript}
 
-Im Teilnehmer-Transkript werden auch die Spalten **[!UICONTROL &quot;Moduldauer]** &quot; und **[!UICONTROL &quot;ID]**&quot; angezeigt.
+Das Teilnehmertranskript zeigt auch die Spalten **[!UICONTROL Dauer des Moduls]** und **[!UICONTROL ID]** an.
 
 ![](assets/lt-id-duration.png)
 
-*Moduldauer und ID-Spalten im Transkript*
+*Spalten für Moduldauer und ID im Transkript*
 
 ### SONSTIGE Spalten im Transkript {#ModuledurationandIDcolumnsinthetranscript-1}
 
@@ -246,5 +246,5 @@ Im Teilnehmer-Transkript werden auch die Spalten **[!UICONTROL &quot;Moduldauer]
 | Anzahl der Kenntnisse, die aktualisiert werden müssen | Anzahl der Teilnehmer, deren Kenntnisse aufgefrischt werden müssen |
 | Prozentsatz der Kompatibilität | Der Prozentsatz des Fortschritts bezüglich der zugewiesenen Kenntnisse |
 | Eingebetteter Pfad | In diesen Zeilen wird der Name des eingebetteten Lernprogramms angezeigt. |
-| ID für eingebetteten Pfad | In diesen Zeilen werden die IDs des eingebetteten Lernprogramms angezeigt. |
+| ID für eingebetteten Pfad | In diesen Zeilen werden die IDs des eingebetteten Lernprogramms angezeigt |
 | Sprache des eingebetteten Pfads | In diesen Zeilen wird die Sprache angezeigt, in der das Lernprogramm erstellt wurde. |

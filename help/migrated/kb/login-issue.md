@@ -1,16 +1,15 @@
 ---
 jcr-language: en_us
 title: Probleme bei der Anmeldung in Learning Manager
-description: Probleme beim Anmelden im Adobe Learning Manager
+description: Probleme beim Anmelden in Adobe Learning Manager
 contentowner: nluke
-source-git-commit: ec79aa3dd6225cc424721afb50702963c1b125eb
+exl-id: 516c1a20-f185-4ace-a1e7-2cd89644863c
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 87%
 
 ---
-
-
 
 # Probleme bei der Anmeldung in Learning Manager
 
@@ -46,4 +45,4 @@ Es gibt andere Gründe, warum dieser Fehler auftritt, aber der oben genannte ist
 
 ## Referenzlinks:
 
-[Microsoft: Sitzung mit bedingtem Zugriff in einem Leben](https://docs.microsoft.com/de-de/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime)
+[Microsoft: Sitzung mit bedingtem Zugriff in einer Lebensdauer](https://docs.microsoft.com/de-de/azure/active-directory/conditional-access/howto-conditional-access-session-lifetime)

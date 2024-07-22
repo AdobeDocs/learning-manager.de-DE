@@ -19,15 +19,15 @@ Sie können eine benutzerdefinierte Rolle erstellen, um Authoring-Funktionen fü
 
 ## Benutzerdefinierte Rolle erstellen {#create-role}
 
-1. Melden Sie sich als ein Administrator an. Öffnen **[!UICONTROL Benutzer]** > **[!UICONTROL Benutzerdefinierte Rolle]**.
-1. Auswählen **[!UICONTROL Rolle erstellen]**. Die Registerkarte **[!UICONTROL Neue Rolle erstellen]** wird geöffnet.
+1. Melden Sie sich als ein Administrator an. Öffnen Sie **[!UICONTROL Benutzer]** > **[!UICONTROL Benutzerdefinierte Rolle]**.
+1. Wählen Sie **[!UICONTROL Rolle erstellen]** aus. Die Registerkarte **[!UICONTROL Neue Rolle erstellen]** wird geöffnet.
 
    ![](assets/create-new-role.png)
 
-   *Erstellen einer benutzerdefinierten Rolle*
+   *Benutzerdefinierte Rolle erstellen*
 
-1. Geben Sie den Namen in das Feld **[!UICONTROL Name der Rolle]** ein.
-1. **[!UICONTROL Kontoberechtigungen]**: Mit diesen Berechtigungen erhalten die Rolleneigentümer Zugriff auf bestimmte Systemkonfigurationsaspekte, die für das gesamte Konto gelten. Wählen Sie die Zugriffsberechtigungen. Der Benutzer hat die volle Kontrolle über die zugewiesenen Berechtigungen.
+1. Geben Sie den Namen in das Feld &quot;**[!UICONTROL Name&quot; der Rolle &quot;]**&quot; ein.
+1. **[!UICONTROL Kontoberechtigungen]**: Diese Berechtigungen gewähren den Rolleneigentümern Zugriff auf bestimmte Systemkonfigurationsaspekte, die für das gesamte Konto gelten. Wählen Sie die Zugriffsberechtigungen. Der Benutzer hat die volle Kontrolle über die zugewiesenen Berechtigungen.
 
 >[!NOTE]
 >
@@ -36,7 +36,7 @@ Sie können eine benutzerdefinierte Rolle erstellen, um Authoring-Funktionen fü
 
 ![](assets/account-privileges.png)
 
-*Festlegen des Suchbereichs*
+*Bereich festlegen*
 
 1. **Funktionsberechtigungen - Kernfunktionen**: Wird verwendet, um Zugriff auf bestimmte Funktionen zum Verwalten von Lernaktivitäten zu gewähren. Über diese Option können Berechtigungen für die folgenden Funktionen erteilt werden.
 
@@ -46,9 +46,9 @@ Sie können eine benutzerdefinierte Rolle erstellen, um Authoring-Funktionen fü
 
    ![](assets/core-features.png)
 
-   *Festlegen des Suchbereichs für Kataloge, Berichte und Tags*
+   *Umfang für Kataloge, Berichte und Tags festlegen*
 
-1. **Funktionsberechtigungen - Lernobjekte:**  Verwenden Sie diese Option, um Zugriff auf Funktionen in Bezug auf LOs zu gewähren. Sie können Zugriff auf die folgenden LOs gewähren.
+1. **Funktionsberechtigungen - Lernobjekte:** Verwenden Sie diese Option, um Zugriff auf LOs-bezogene Funktionen zu gewähren. Sie können Zugriff auf die folgenden LOs gewähren.
 
    * Zertifizierungen
    * Kurse
@@ -66,7 +66,7 @@ Sie können eine benutzerdefinierte Rolle erstellen, um Authoring-Funktionen fü
 
    *Gewähren bestimmter Berechtigungen*
 
-1. **Umfang für Funktionsberechtigungen:** Der Umfang der dieser Rolle zugewiesenen Funktionsberechtigungen kann auf eine bestimmte Benutzergruppe oder einen oder mehrere Kataloge beschränkt werden.
+1. **Umfang für Funktionsberechtigungen:** Der Umfang der Funktionsberechtigungen, die dieser Rolle zugewiesen sind, kann auf eine bestimmte Benutzergruppe oder einen oder mehrere Kataloge beschränkt werden.
 
    Kataloge: Verwenden Sie das Optionsfeld, um die Kontrolle über **[!UICONTROL Alle Kataloge]** bereitzustellen, oder verwenden Sie die Option **[!UICONTROL Zugriff über Katalog festlegen]**, um den Zugriff auf bestimmte Kataloge zu ermöglichen. Sie können auch mehrere Kataloge auswählen.
 
@@ -224,7 +224,7 @@ Ein Benutzer mit einer benutzerdefinierten Rolle kann Folgendes:
 
 1. **Benutzer:** Verwenden Sie diese Option, um festzulegen, welche Benutzer dieser Rolle zugewiesen sind. Sie können einen oder mehrere Benutzer über das Suchfeld auswählen.
 
-   **Benutzer zum CSV-Upload für benutzerdefinierte Rollen hinzufügen:** Um Benutzer über ein CSV-Update hinzuzufügen, fügen Sie der CSV-Datei eine Spalte &quot;CustomRole&quot; hinzu, die der Administrator zum Importieren von Benutzern verwendet hat. Geben Sie die Rolle des Benutzers in der Spalte Benutzerdefinierte Rolle für die Benutzer ein, denen Sie eine benutzerdefinierte Rolle zuweisen möchten. Zum Hochladen der CSV-Datei klicken Sie auf  **[!UICONTROL Hinzufügen > CSV hochladen]**.
+   **Benutzer zu CSV-Upload für benutzerdefinierte Rolle hinzufügen:** Um Benutzer über CSV-Upload hinzuzufügen, fügen Sie der CSV-Datei, die der Administrator zum Importieren von Benutzern verwendet hat, eine Spalte &quot;CustomRole&quot; hinzu. Geben Sie die Rolle des Benutzers in der Spalte Benutzerdefinierte Rolle für die Benutzer ein, denen Sie eine benutzerdefinierte Rolle zuweisen möchten. Klicken Sie zum Hochladen der CSV-Datei auf **[!UICONTROL Hinzufügen > CSV hochladen]**.
 
    CustomRole columnNote:
 
@@ -255,17 +255,17 @@ Nachdem Sie auf die Option geklickt haben, wird ein neues Dialogfeld geöffnet, 
 
 *Ordner für den benutzerdefinierten Autor auswählen*
 
-Wählen Sie die Ordner aus und klicken Sie auf **[!UICONTROL OK]**.
+Wählen Sie die Ordner aus, und klicken Sie auf **[!UICONTROL OK]**.
 
 ## Dashboard für die Lernzusammenfassung für benutzerdefinierte Administratoren {#custom-admin-dashboard}
 
-Benutzerdefinierte Administratoren können dieselbe Ansicht wie Administratoren nutzen. Ein benutzerdefinierter Administrator kann Daten außerhalb seines Bereichs speichern. Dies gilt nur, wenn der Bereich des benutzerdefinierten Administrators nicht eingeschränkt ist. Um beim Erstellen eines benutzerdefinierten Administrators den uneingeschränkten Bereich zu gewähren, aktivieren Sie die Option **[!UICONTROL Vollständige Kontrolle]** im Kontoübersichtsbericht.
+Benutzerdefinierte Administratoren können dieselbe Ansicht wie Administratoren nutzen. Ein benutzerdefinierter Administrator kann Daten außerhalb seines Bereichs speichern. Dies gilt nur, wenn der Bereich des benutzerdefinierten Administrators nicht eingeschränkt ist. Um beim Erstellen eines benutzerdefinierten Administrators den vollen Umfang zu gewähren, aktivieren Sie im Kontoübersichtsbericht die Option **[!UICONTROL Vollständige Kontrolle]**.
 
 ![](assets/create-custom-role.png)
 
-*Erstellen einer benutzerdefinierten Rolle*
+*Benutzerdefinierte Rolle erstellen*
 
-Daher werden die Optionen, **[!UICONTROL Alle Kataloge]** und **[!UICONTROL Alle Benutzergruppen]** wird ausgewählt und der Rest deaktiviert.
+Daher werden die Optionen &quot;**[!UICONTROL Alle Kataloge]**&quot; und &quot;**[!UICONTROL Alle Benutzergruppen]**&quot; ausgewählt und der Rest deaktiviert.
 
 ![](assets/scope-of-featureprivileges.png)
 
@@ -292,14 +292,14 @@ Wenn einem Benutzer eine Rolle mit einer bestimmten Entität zugewiesen wird, ka
   <tr>
    <td>Registrieren</td>
    <td>Alle Lernobjekte (Kurs, Arbeitshilfe, Lernprogramm, Zertifizierung)</td>
-   <td>Benutzer<br>
+   <td>Benutzer <br>
      Lernplan</td>
    <td>Lesen</td>
   </tr>
   <tr>
    <td>Erstellen</td>
    <td>
-    <p>Inhaltsgruppe<br>
+    <p>Inhaltsgruppe <br>
       Arbeitshilfe<br></p></td>
    <td>Tag</td>
    <td>Lesen</td>
@@ -307,16 +307,16 @@ Wenn einem Benutzer eine Rolle mit einer bestimmten Entität zugewiesen wird, ka
   <tr>
    <td>Erstellen</td>
    <td>Kurs</td>
-   <td>Inhaltsgruppe<br>
+   <td>Inhaltsgruppe <br>
      Tag<br>
      Kenntnisse<br>
-     Ausweis<br>
+     Abzeichen<br>
      Arbeitshilfe</td>
    <td>Alles lesen</td>
   </tr>
   <tr>
    <td>Erstellen</td>
-   <td>Lernprogramm<br>
+   <td>Lernprogramm <br>
      Zertifizierung<br></td>
    <td>Kurs<br>
      Tag<br>
@@ -327,7 +327,7 @@ Wenn einem Benutzer eine Rolle mit einer bestimmten Entität zugewiesen wird, ka
   <tr>
    <td>Erstellen</td>
    <td>Lernplan</td>
-   <td>Katalog<br>
+   <td>Katalog <br>
      Gruppe<br>
      Kenntnisse<br>
      Alle Lernobjekte (Kurs, Arbeitshilfe, Lernprogramm, Zertifizierung)</td>
@@ -336,7 +336,7 @@ Wenn einem Benutzer eine Rolle mit einer bestimmten Entität zugewiesen wird, ka
   <tr>
    <td>Erstellen</td>
    <td>Ankündigung</td>
-   <td>Benutzer<br>
+   <td>Benutzer <br>
      Gruppe<br>
      Alle Lernobjekte (Kurs, Arbeitshilfe, Lernprogramm, Zertifizierung)</td>
    <td>Lesen</td>
@@ -356,14 +356,14 @@ Wenn einem Benutzer eine Rolle mit einer bestimmten Entität zugewiesen wird, ka
   <tr>
    <td>*</td>
    <td>Katalog</td>
-   <td>Gruppe<br>
+   <td>Gruppe <br>
      Alle Lernobjekte (Kurs, Arbeitshilfe, Lernprogramm, Zertifizierung)</td>
    <td>Lesen</td>
   </tr>
   <tr>
    <td>*</td>
    <td>Einstellung</td>
-   <td>Branding<br>
+   <td>Branding <br>
      Benutzer</td>
    <td>Lesen</td>
   </tr>
@@ -449,7 +449,7 @@ Durch Klicken auf **[!UICONTROL Umfang aktualisieren]** wird der Umfang aktualis
 
 ![](assets/refresh-scope-message.png)
 
-*Warnmeldung nach Aktualisieren eines Bereichs*
+*Warnmeldung nach dem Aktualisieren eines Bereichs*
 
 Durch Klicken auf **[!UICONTROL Ja]** wird der Umfang aktualisiert.
 
@@ -458,7 +458,7 @@ Durch Klicken auf **[!UICONTROL Ja]** wird der Umfang aktualisiert.
 Ein Administrator kann Gamification-Berichte für einen benutzerdefinierten Benutzer aktivieren.
 
 1. Geben Sie auf der Seite **[!UICONTROL Benutzerdefinierte Rollen]** den Namen der benutzerdefinierten Rolle ein.
-1. Im Dialogfeld &quot; **[!UICONTROL Funktionsberechtigungen: Kernfunktionen]** die Option **[!UICONTROL Vollständige Kontrolle]** für die Kategorie **[!UICONTROL Berichte]**.
+1. Aktivieren Sie im Abschnitt **[!UICONTROL Funktionsberechtigungen: Kernfunktionen]** die Option **[!UICONTROL Vollständige Kontrolle]** für die Kategorie **[!UICONTROL Berichte]**.
 
 1. Wählen Sie im Abschnitt **[!UICONTROL Benutzer]** den Benutzer aus, dem die neu erstellte benutzerdefinierte Rolle zugewiesen werden soll.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
@@ -481,6 +481,6 @@ Durch das Zurücksetzen von Gamification wird die erreichte Stufe nicht zurückg
 
 Eine benutzerdefinierte Rolle ist wie eine Untergruppe einer Autor- oder Administratorrolle. Erteilen Sie eine oder mehrere Berechtigungen, definieren Sie den Umfang und weisen Sie die Rolle einem Benutzer zu.
 
-Klicken **[!UICONTROL Benutzer]** > **[!UICONTROL Benutzerdefinierte Rollen]**. Klicken Sie auf der Seite „Benutzerdefinierte Rollen“ auf **[!UICONTROL Rolle erstellen]**. Geben Sie den Namen der benutzerdefinierten Rolle ein und legen Sie die Berechtigungen für die Rolle fest. Weitere Informationen finden Sie unter [Benutzerdefinierte Rolle erstellen](custom-role.md#create-role).
+Klicken Sie auf **[!UICONTROL Benutzer]** > **[!UICONTROL Benutzerdefinierte Rollen]**. Klicken Sie auf der Seite „Benutzerdefinierte Rollen“ auf **[!UICONTROL Rolle erstellen]**. Geben Sie den Namen der benutzerdefinierten Rolle ein und legen Sie die Berechtigungen für die Rolle fest. Weitere Informationen finden Sie unter [Benutzerdefinierte Rolle erstellen](custom-role.md#create-role).
 +++
 

@@ -43,7 +43,7 @@ In zunehmendem Maße müssen Lernerfahrungen des Endbenutzers erfasst werden, di
 
    ![](assets/appregistration.png)
 
-   *Registrieren einer neuen Anwendung*
+   *Neue Anwendung registrieren*
 
 1. Definieren Sie den Umfang für die Anwendung.
 
@@ -75,11 +75,11 @@ GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your cl
 
 Als Autor können Sie nun ein xAPI-Modul auswählen, während Sie Kurse zur Überwachung der Benutzererfahrung außerhalb von Learning Manager erstellen. Sie können diese Funktion beispielsweise verwenden, um die Aktivitäten von Benutzern auf einer Plattform eines Drittanbieters zu bewerten, die für die Kursnutzung verwendet wird.
 
-1. Beim Erstellen eines **[!UICONTROL Aktivitätsmodul]** in der **[!UICONTROL Typ]**Option wählen Sie im Popupmenü  **[!UICONTROL xAPI-basiertes Modul.]**
+1. Verwenden Sie beim Erstellen eines **[!UICONTROL Aktivitätsmoduls]** in der Option **[!UICONTROL Typ]** das Popupmenü, um das **[!UICONTROL xAPI-basierte Modul auszuwählen.]**
 
    ![](assets/xapimodulecreation.png)
 
-   *Wählen Sie die Option xAPI-basiertes Modul*
+   *Wählen Sie die Option &quot;xAPI-basiertes Modul&quot; aus.*
 
 1. Sie werden aufgefordert, einen IRI bereitzustellen. Wenn nicht angegeben, generiert Learning Manager automatisch einen.
 
@@ -97,7 +97,7 @@ Als Autor können Sie nun ein xAPI-Modul auswählen, während Sie Kurse zur Übe
 
 **Zu beachtende Punkte:**
 
-* Der Lern-Manager unterstützt derzeit nur mbox als Bezeichner. Andere Bezeichner wie mboz_sha1, openid , account werden nicht unterstützt.
+* Learning Manager unterstützt derzeit nur   mbox als Bezeichner. Andere Bezeichner wie mboz_sha1, openid , account werden nicht unterstützt.
 
 * Die stateId und profileId ist eine UUID, wenn sie mit dem Lern-Manager verwendet werden.
 * Die PUT-Anforderung überschreibt das Dokument nicht für xAPIs-Agenten/Profile, Aktivitäten/Profile und Aktivitäten/Status.
@@ -114,7 +114,7 @@ Der heruntergeladene Bericht ruft alle Informationen ab, die vom Teilnehmer und 
 
 Dieselben Berichte können über FTP- und Box-Connectors für jede Integration von Drittanbietern erstellt/geplant werden. Führen Sie die folgenden Schritte aus:
 
-Anmelden als **Integrations-Admin > FTP-/Box-Connector öffnen > xAPI-Aktivitätsbericht auswählen** im linken Bereich. Wählen Sie, ob Sie einen Bericht planen/generieren möchten.
+Melden Sie sich als **Integrationsadministrator > FTP-/Box-Connector öffnen > Wählen Sie im linken Bereich den xAPI-Aktivitätsbericht** aus. Wählen Sie, ob Sie einen Bericht planen/generieren möchten.
 
 ![](assets/xapischedule.png)
 

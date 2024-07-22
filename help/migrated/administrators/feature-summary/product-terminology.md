@@ -27,12 +27,12 @@ Mithilfe der Produktterminologie-Funktion können Sie diese Begriffe umbenennen 
 Führen Sie die untengenannten Schritte aus, um die Terminologie zu ändern:
 
 1. Wählen Sie als Administrator **[!UICONTROL Einstellungen]** > **[!UICONTROL Allgemein]**.
-1. Im Dialogfeld &quot; **[!UICONTROL Produktterminologie]**&quot; die Option **[!UICONTROL Bearbeiten]**.
+1. Wählen Sie in der **[!UICONTROL Produktterminologie]** die Option **[!UICONTROL Bearbeiten]** aus.
 
    ![](assets/product-terminology-settings.png)
    _Produktterminologie_
 
-1. Auswählen **[!UICONTROL Hier herunterladen]** und laden Sie die Vorlage der Begriffe herunter.
+1. Wählen Sie **[!UICONTROL Hier herunterladen]**, und laden Sie die Vorlage mit den Begriffen herunter.
 
    ![](assets/download-here-pt.png)
    _Vorlage herunterladen_
@@ -48,7 +48,7 @@ Führen Sie die untengenannten Schritte aus, um die Terminologie zu ändern:
 
 ## Aktualisieren der hochgeladenen CSV-Datei
 
-1. Im Dialogfeld &quot; **[!UICONTROL Produktterminologie]** den Link zum Hochladen der CSV-Datei aus.
+1. Wählen Sie im Abschnitt **[!UICONTROL Produktterminologie]** den Link zum Hochladen der CSV aus.
 
    ![](assets/update-the-csv.png)
    _CSV hochladen_
@@ -79,6 +79,6 @@ Die Terminologie wird auf ihren ursprünglichen Namen zurückgesetzt.
 
 Die Terminologieänderungen gelten nicht für:
 
-* E-Mail-Vorlagen (**[!UICONTROL Administrator]** > **[!UICONTROL E-Mail-Vorlagen]**)
-* Berichte (**[!UICONTROL Administrator]** > **[!UICONTROL Berichte]**)
+* E-Mail-Vorlagen (**[!UICONTROL Admin]** > **[!UICONTROL E-Mail-Vorlagen]**)
+* Berichte (**[!UICONTROL Admin]** > **[!UICONTROL Berichte]**)
 

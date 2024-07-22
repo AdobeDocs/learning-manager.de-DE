@@ -20,7 +20,7 @@ Ein Manager kann die ihm unterstellten Teilnehmer für Kurse, Lernpfade und Zert
 
 ## Anzeigen von Kursen {#viewingcourses}
 
-Als Manager können Sie eine Liste aller verfügbaren Kurse anzeigen. Klicken **[!UICONTROL Kurse]** im linken Teilfenster, um die Liste der Kurse mit Such- und Filteroptionen anzuzeigen. In den Kursminiaturansichten können Sie darüber hinaus die Effektivität der einzelnen Kurse als Prozentwert anzeigen. Beachten Sie, dass Sie Teammitglieder nur zu Kursen anmelden können, die für Sie unter der Lernanwendung sichtbar sind.
+Als Manager können Sie eine Liste aller verfügbaren Kurse anzeigen. Klicken Sie im linken Teilfenster auf **[!UICONTROL Kurse]**, um die Liste der Kurse mit Such- und Filteroptionen anzuzeigen. In den Kursminiaturansichten können Sie darüber hinaus die Effektivität der einzelnen Kurse als Prozentwert anzeigen. Beachten Sie, dass Sie Teammitglieder nur zu Kursen anmelden können, die für Sie unter der Lernanwendung sichtbar sind.
 
 ![](assets/view-course.png)
 
@@ -29,7 +29,7 @@ Als Manager können Sie eine Liste aller verfügbaren Kurse anzeigen. Klicken **
 
 >[!NOTE]
 >
->Eine Liste aller eingestellten Kurse kann angezeigt werden, indem Sie auf das Symbol **Rentner** &quot; ändern.
+>Durch Klicken auf die Registerkarte **Eingestellt** können Sie eine Liste aller eingestellten Kurse anzeigen.
 
 ## Punktzahl für Quiz anzeigen {#viewquizscores}
 
@@ -53,7 +53,7 @@ Als Manager können Sie die Teilnehmerliste für Ihre Teammitglieder verwalten.
 
 >[!NOTE]
 >
->**Ausstehende Genehmigungen exportieren** können Sie in der Teilnehmer-App ausführen.
+>Die Option **Ausstehende Genehmigungen exportieren** kann über die Teilnehmer-App ausgeführt werden.
 
 Sie können die folgenden Aktionen auf der Seite „Teilnehmer“ durchführen:
 
@@ -66,7 +66,7 @@ Sie können die Teilnehmerliste auch in ein Excel-Arbeitsblatt exportieren. Um d
 
 >[!NOTE]
 >
->Wenn es mehrere Instanzen eines Kurses gibt, wird die Excel-Teilnehmerliste jeweils auf getrennten Registerkarten angezeigt. Die Teilnehmerliste enthält Namen, Status und Auswahlkriterien der Teilnehmer. Der Teilnehmerstatus kann **Nicht gestartet** oder **In Bearbeitung** oder **Abgeschlossen**.
+>Wenn es mehrere Instanzen eines Kurses gibt, wird die Excel-Teilnehmerliste jeweils auf getrennten Registerkarten angezeigt. Die Teilnehmerliste enthält Namen, Status und Auswahlkriterien der Teilnehmer. Der Teilnehmerstatus kann **Nicht gestartet** oder **In Bearbeitung** oder **Abgeschlossen** sein.
 
 ## L1- und L3-Feedback anzeigen {#viewl1andl3feedback}
 
@@ -78,9 +78,9 @@ Sie können das L1-Feedback der Teilnehmer zu einem Kurs und das L3-Feedback fü
 
 ## Kursvorschau {#previewcourses}
 
-Manager kann eine Vorschau der Kurse anzeigen, indem er auf das Symbol **Vorschau als Teilnehmer** beim Anzeigen der Kursmodule.
+Der Manager kann eine Vorschau der Kurse anzeigen, indem er auf die Option **Vorschau als Teilnehmer** klickt, während er die Kursmodule anzeigt.
 
-1. Klicken **[!UICONTROL Kurse]** im linken Bereich, nachdem Sie sich angemeldet haben.
+1. Klicken Sie im linken Teilfenster auf **[!UICONTROL Kurse]**, nachdem Sie sich angemeldet haben.
 1. Klicken Sie auf der Seite auf eine beliebige Kachel der Kursliste.
 1. Klicken Sie im linken Teilfenster auf „Vorschau als Teilnehmer“ und klicken Sie auf der Seite auf den Modulnamen, um im Player eine Vorschau des Kursmoduls anzuzeigen.
 
@@ -113,7 +113,7 @@ Adobe Learning Manager erleichtert Ihnen das schnelle Auffinden der Kurse/Lernpf
 1. Über das Suchfeld. Klicken Sie auf das Suchsymbol in der rechten oberen Ecke. Ein Suchfeld erscheint. Geben Sie den Kursnamen oder zu Ihren Kursen passende Schlüsselwörter ein, um Ihre Kurse/Lernpfade zu finden. Sie können auch mit vordefinierten Tags wie Captivate, C, Java und HTML suchen. Nach Tags können Sie im Suchfeld suchen, was bedeutet, dass die Tags im Suchfeld angezeigt werden, während Sie tippen. Die Suche kann kann auch mit einer eindeutigen ID ausgeführt werden.
 1. Filtern Sie die Liste der Kurse/Lernpfade/Zertifizierungen mithilfe der Filter. Sie können die Kurse nach Status filtern, z. B. Alle, Veröffentlicht und Eingestellt.
 
-Sie können nach Kompetenzen suchen, indem Sie **Kompetenzen** und die gewünschten Bilder auswählen. Als Manager können Sie die Kurse auf vier Arten sortieren, um den gewünschten Kurs besser zu finden. Klicken Sie auf Sortieren nach und wählen Sie alphabetisch aufsteigende Reihenfolge, alphabetisch absteigende Reihenfolge, Datum der Kursaktualisierung, Erstellungsdatum des Kurses oder Kurseffektivität:
+Sie können nach Kompetenzen suchen, indem Sie **Kompetenzen** auswählen und auswählen. Als Manager können Sie die Kurse auf vier Arten sortieren, um den gewünschten Kurs besser zu finden. Klicken Sie auf Sortieren nach und wählen Sie alphabetisch aufsteigende Reihenfolge, alphabetisch absteigende Reihenfolge, Datum der Kursaktualisierung, Erstellungsdatum des Kurses oder Kurseffektivität:
 
 * Name (a - z)
 * Name (z - a)
@@ -192,11 +192,11 @@ Ein Manager kann den Abschluss einer Zertifizierung vermerken. Weitere Informati
 
 ## Manager-Benachrichtigungen für die Genehmigung von Teilnehmerkursen {#manager-notifications-course-approval}
 
-Bei dem Versuch, einen Teilnehmer für die Registrierung zu akzeptieren oder abzulehnen, kann ein Manager jetzt die Details der Sitzung anzeigen (**Videokonferenzen** oder **Klassenzimmer**) im Popupfenster.
+Beim Versuch, einen Teilnehmer für die Registrierung zu akzeptieren oder abzulehnen, kann ein Manager jetzt die Details der Sitzung (**Videokonferenz** oder **Klassenzimmer**) im Popupfenster anzeigen.
 
 ![](assets/approve-a-learner.png)
 
-*Registrierungsanforderung eines Teilnehmers genehmigen oder ablehnen*
+*Die Registrierungsanforderung eines Teilnehmers genehmigen oder ablehnen*
 
 Die folgenden Sitzungsdetails werden angezeigt:
 

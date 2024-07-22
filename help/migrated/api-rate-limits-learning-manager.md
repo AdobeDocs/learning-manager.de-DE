@@ -110,7 +110,7 @@ Sie können dies ganz einfach testen, indem Sie diesen Endpunkt mit Raten unter 
 
 Um es Ihnen leicht zu machen, können Sie sich diesen Beispiel-JavaScript-Code ansehen, der dies veranschaulicht. Klicken Sie auf [fiedeln](https://jsfiddle.net/ACAPJS/9yv8zcmL/) und den Code in Aktion zu sehen.
 
-Für diese Anwendung müssen Sie ein Teilnehmerrollen-Anwendungstoken für Ihr Konto bereitstellen. Siehe [Handbuch für Anwendungsentwickler](https://captivateLearning Manager.adobe.com/docs/Learning ManagerAPI/v2/). Dort finden Sie Informationen zu API-Token. Sie können die Token Helper auch im Abschnitt mit den Entwicklerressourcen der Learning Manager Integration Admin-Anwendung verwenden, um die Token zu generieren.
+Für diese Anwendung müssen Sie ein Teilnehmerrollen-Anwendungstoken für Ihr Konto bereitstellen. Weitere Informationen zu API-Token finden Sie im [Handbuch für Anwendungsentwickler](https://captivateLearning Manager.adobe.com/docs/Learning). Sie können den Token Helper im Abschnitt mit Entwicklerressourcen der Learning Manager Integration Admin-Anwendung verwenden, um die Token zu generieren.
 
 Diese Anwendung führt 10 Aufrufe der Dummy-API in einer Schleife auf einmal durch. Da das Ratenlimit (5, 2) für die Dummy-API ist, wird das Ratenlimit nach den ersten 5+2-Aufrufen überschritten, die vom Learning Manager empfangen werden. Sie erhalten eine Erfolgsantwort für sie.
 

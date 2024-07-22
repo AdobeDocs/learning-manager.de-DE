@@ -3,14 +3,13 @@ description: Benutzeranmelddung als Manager in Learning Manager.
 jcr-language: en_us
 title: Benutzeranmeldung
 contentowner: manochan
-source-git-commit: 7f34a1781e009b8255530111e3cbec4df3ed28c1
+exl-id: 6e0c00fd-7964-43d9-ba95-3617dbc14f0f
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 59%
 
 ---
-
-
 
 # Benutzeranmeldung
 
@@ -26,7 +25,7 @@ Wenn Sie Adobe Learning Manager zum ersten Mal verwenden, müssen Sie ein Konto 
 
    ![](assets/adobeid-signin.png)
 
-   *Anmelden beim Adobe-Lernmanager*
+   *Bei Adobe Learning Manager anmelden*
 
 1. Geben Sie die Adobe-ID und das Kennwort ein und klicken Sie auf „Anmelden“.
 

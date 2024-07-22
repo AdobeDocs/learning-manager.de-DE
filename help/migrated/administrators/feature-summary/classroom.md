@@ -25,21 +25,21 @@ Sie können einen Speicherort für ein Klassenzimmer hinzufügen, indem Sie die 
 
 1. Klicken Sie in der Admin-App (der Benutzeroberfläche für Administratorrollen) auf **[!UICONTROL Einstellungen]** > **[!UICONTROL Standorte für Klassenzimmer]**.
 
-1. Klicken **[!UICONTROL Hinzufügen]** > **[!UICONTROL Neuer Speicherort]**.
+1. Klicken Sie auf **[!UICONTROL Hinzufügen]** > **[!UICONTROL Neuer Speicherort]**.
 
 1. Geben Sie im Dialogfeld **[!UICONTROL Klassenzimmerstandort]** die folgenden Details ein:
 
-   * Geben Sie die **[!UICONTROL Name des Speicherorts]**. Verwenden Sie einen eindeutigen Namen. Andernfalls zeigt Learning Manager eine Fehlermeldung an.
+   * Geben Sie den **[!UICONTROL Standortnamen]** ein. Verwenden Sie einen eindeutigen Namen. Andernfalls zeigt Learning Manager eine Fehlermeldung an.
    * Geben Sie die Positionsbeschreibung in das Feld **[!UICONTROL Standortinformationen]** ein. Dieses Feld ist optional.
    * Geben Sie die **[!UICONTROL URL des Standorts]** an. Der Teilnehmer kann diese Informationen in den Details des Klassenzimmers sehen. Bei Bedarf kann die URL auch eine URL für den Kartenstandort sein. Dies ist ein optionales Feld.
-   * Geben Sie das **[!UICONTROL Standortbereich]**. Dieses Feld ist optional.
+   * Geben Sie den Standort **[!UICONTROL Region]** ein, und wählen Sie ihn aus. Dieses Feld ist optional.
    * Geben Sie die Anzahl der verfügbaren Lizenzen in das Feld **[!UICONTROL Sitzplatzlimit]** ein. Dies gibt die Sitzplatzkapazität des Klassenzimmers an. Dieser Wert kann beim Erstellen des tatsächlichen Schulungsereignisses mit dem Kursleiter geändert werden.
 
    ![](assets/add-classroom-location.png)
 
-   *Fügen Sie einen Speicherort für das Klassenzimmer hinzu*
+   *Klassenzimmerspeicherort hinzufügen*
 
-Nachdem Sie den Speicherort hinzugefügt haben, zeigt der Katalog **[!UICONTROL Einstellungen]** > **[!UICONTROL Standorte für Klassenzimmer]** &quot; werden die Meetingräume aufgeführt:
+Nach dem Hinzufügen des Speicherorts werden auf der Seite **[!UICONTROL Einstellungen]** > **[!UICONTROL Speicherorte für Klassenzimmer]** die Meetingräume aufgeführt:
 
 ![](assets/list-meeting-rooms.png)
 
@@ -47,23 +47,23 @@ Nachdem Sie den Speicherort hinzugefügt haben, zeigt der Katalog **[!UICONTROL 
 
 Die Liste enthält die folgenden Felder:
 
-**[!UICONTROL Name des Speicherorts]** - Name des Klassenzimmerstandorts.
+**[!UICONTROL Standortname]** - Name des Klassenzimmerstandorts.
 
-**[!UICONTROL Künftige Sitzungen]** - Anzahl der Ereignisse, die an der entsprechenden Position auftreten. Klicken Sie auf die Zahl, um die Details in einem Dialogfeld anzuzeigen.
+**[!UICONTROL Zukünftige Sitzungen]** - Anzahl der Ereignisse, die am entsprechenden Speicherort auftreten. Klicken Sie auf die Zahl, um die Details in einem Dialogfeld anzuzeigen.
 
 ![](assets/sessions-list.png)
 
-*Zukünftige Sessions anzeigen*
+*Zukünftige Sitzungen anzeigen*
 
 Im Dialogfeld werden die Details jeder Sitzung angezeigt, einschließlich des Namens der Sitzung, des Namens der Schulung, die die Sitzung enthält, und des Sitzungszeitplans. Die angezeigte Zeit ist mit der Systemzeitzone des Teilnehmers ausgerichtet.
 
-Die **[!UICONTROL Künftige Sitzungen]** Feldanzeigen **Null** wenn das Klassenzimmer nicht für eine Sitzung verwendet wird oder wenn das Klassenzimmer mit früheren Sitzungen verknüpft ist.
+Im Feld **[!UICONTROL Zukünftige Sitzungen]** wird **Null** angezeigt, wenn das Klassenzimmer nicht für eine Sitzung verwendet wird oder wenn das Klassenzimmer früheren Sitzungen zugeordnet ist.
 
 **[!UICONTROL Sitzplatzbeschränkung]** - Zeigt die Sitzplatzkapazität des Klassenzimmers an.
 
-**URL der Position** - URL, die Sie beim Erstellen des Klassenzimmerspeicherorts angegeben haben.
+**URL des Speicherorts** - URL, die Sie beim Erstellen des Speicherorts für den Klassenzimmer angegeben haben.
 
-**Standortinformationen** - die Informationen zum Klassenzimmer, die Sie beim Erstellen des Klassenzimmers angegeben haben.
+**Standortinformationen** - Die Klassenzimmerinformationen, die Sie beim Erstellen des Klassenzimmers angegeben haben.
 
 ### Bearbeiten der Speicherorte der Klassenzimmer
 
@@ -73,7 +73,7 @@ Um die Speicherorte der Klassenzimmer zu bearbeiten, führen Sie die folgenden S
 
 1. Bewegen Sie den Mauszeiger über den gewünschten Speicherort des Klassenzimmers, den Sie bearbeiten möchten.
 
-1. Auswählen **[!UICONTROL Speicherort des Klassenzimmers bearbeiten]** Symbol.
+1. Wählen Sie das Symbol **[!UICONTROL Speicherort des Klassenzimmers bearbeiten]** aus.
 
 1. Ändern Sie den Speicherort des Klassenzimmers und wählen Sie **[!UICONTROL Speichern]**.
 
@@ -81,7 +81,7 @@ Um die Speicherorte der Klassenzimmer zu bearbeiten, führen Sie die folgenden S
 
 Alternativ können Sie einen oder mehrere Standorte für Klassenzimmer hinzufügen, indem Sie eine CSV-Datei importieren, die die Informationen zum Klassenzimmer enthält.
 
-In **[!UICONTROL Admin-App]** > **[!UICONTROL Einstellungen]** > **[!UICONTROL Standorte für Klassenzimmer]** > **[!UICONTROL Hinzufügen]** auf die Schaltfläche **[!UICONTROL Speicherorte für Massenimport]** klicken. Navigieren Sie zum Speicherort der CSV-Datei und wählen Sie die Datei aus.
+Klicken Sie in **[!UICONTROL Admin-App]** > **[!UICONTROL Einstellungen]** > **[!UICONTROL Speicherorte für Klassenzimmer]** > **[!UICONTROL Hinzufügen]** auf die Schaltfläche **[!UICONTROL Speicherorte für Massenimport]**. Navigieren Sie zum Speicherort der CSV-Datei und wählen Sie die Datei aus.
 
 In der CSV-Datei werden diese Felder verwendet, um Details zu einem oder mehreren Standorten für Klassenzimmer zu speichern:
 
@@ -99,7 +99,7 @@ Nachdem das System die CSV-Datei importiert hat, werden die Standorte der Biblio
 
 ## Nach Klassenzimmern suchen
 
-Um nach Klassenzimmern zu suchen, wählen Sie den Kurs für das virtuelle Klassenzimmer aus und gehen Sie zu **[!UICONTROL Instanzen]** > **[!UICONTROL Sessions]**. Ein Autor oder Administrator kann mit der Eingabe des Standortnamens beginnen, um die relevanten Ergebnisse anzuzeigen, die angezeigt werden. Sie können dann einen Speicherort aus den angezeigten Ergebnissen auswählen. Wenn in den Ergebnissen des vorausgehenden Typs kein Speicherort angezeigt wird, kann der Benutzer dennoch den Namen des Speicherorts für das neue Klassenzimmer hinzufügen. Beachten Sie, dass der Name des Standorts, der mit dem Arbeitsablauf für die Sitzungserstellung erstellt wurde, nicht der vom Administrator erstellten Standortbibliothek hinzugefügt wird.
+Um nach Klassenzimmern zu suchen, wählen Sie den Kurs für virtuelle Klassenzimmer aus und gehen Sie zu **[!UICONTROL Instanzen]** > **[!UICONTROL Sitzungen]**. Ein Autor oder Administrator kann mit der Eingabe des Standortnamens beginnen, um die relevanten Ergebnisse anzuzeigen, die angezeigt werden. Sie können dann einen Speicherort aus den angezeigten Ergebnissen auswählen. Wenn in den Ergebnissen des vorausgehenden Typs kein Speicherort angezeigt wird, kann der Benutzer dennoch den Namen des Speicherorts für das neue Klassenzimmer hinzufügen. Beachten Sie, dass der Name des Standorts, der mit dem Arbeitsablauf für die Sitzungserstellung erstellt wurde, nicht der vom Administrator erstellten Standortbibliothek hinzugefügt wird.
 
 Wenn ein Klassenzimmer hinzugefügt wird, zeigt die Lernplattform auch an, ob das Klassenzimmer bereits für den genannten Zeitraum gebucht ist. Es bietet sogar alternative Zeitfenster als Vorschläge an. Dadurch kann der Autor die Besprechungszeit anpassen, wenn er beschließt, denselben Standort für das Klassenzimmer zu verwenden.
 
@@ -113,48 +113,48 @@ Als Administrator können Sie die Kursleiter und die Kursinstanzen verwalten.
 
 ### Einrichten von Kursleitern:
 
-In der Admin-App unter **[!UICONTROL Einstellungen]** > **[!UICONTROL Allgemein]** finden Administratoren die **[!UICONTROL Kursleiter-Management]** aus. Diese Funktion stellt sicher, dass nur vorab genehmigte Benutzer, die als Kursleiter zugewiesen wurden, zu Durchführungsveranstaltungen hinzugefügt werden können.
+In der Admin-App finden Administratoren unter **[!UICONTROL Einstellungen]** > **[!UICONTROL Allgemein]** die Option **[!UICONTROL Kursleiterverwaltung]**. Diese Funktion stellt sicher, dass nur vorab genehmigte Benutzer, die als Kursleiter zugewiesen wurden, zu Durchführungsveranstaltungen hinzugefügt werden können.
 
 Um einen Kursleiter zuzuweisen, führen Sie die folgenden Schritte aus:
 
-1. Wechseln Sie zur Registerkarte **[!UICONTROL Erste Schritte]** und wählen Sie **[!UICONTROL Benutzer]** im linken Bereich.
+1. Wechseln Sie zur Seite **[!UICONTROL Erste Schritte]** und wählen Sie im linken Fensterbereich **[!UICONTROL Benutzer]** aus.
 
 1. Wählen Sie den gewünschten Benutzer aus.
 
-1. Weisen Sie dem Benutzer die Kursleiterrolle zu, indem Sie auf **[!UICONTROL Aktionen]** > **[!UICONTROL Rolle zuweisen]**.
+1. Weisen Sie dem Benutzer die Kursleiterrolle zu, indem Sie **[!UICONTROL Aktionen]** > **[!UICONTROL Rolle zuweisen]** auswählen.
 
 ### Sitzungen abbrechen:
 
-Im Fenster &quot; **[!UICONTROL Kursinstanz]** können Administratoren eine oder mehrere Sitzungen abbrechen. Wenn Sitzungen abgebrochen werden, entfernt das System alle Sitzungsdetails, behält aber die Sitzplatzbeschränkung bei.
+Auf der Seite **[!UICONTROL Kursinstanz]** können Administratoren eine oder mehrere Sitzungen abbrechen. Wenn Sitzungen abgebrochen werden, entfernt das System alle Sitzungsdetails, behält aber die Sitzplatzbeschränkung bei.
 
 Darüber hinaus können Administratoren:
 
 * **[!UICONTROL Registrierung anzeigen]**: Erhalten Sie Informationen zu registrierten und auf die Warteliste gesetzten Teilnehmern für jede Sitzung.
 * **[!UICONTROL Registrierung von Teilnehmern aufheben]**: Entfernen Sie Teilnehmer aus einem Kurs mit abgebrochenen Sitzungen, ohne ihren Registrierungsstatus zu ändern.
-* **[!UICONTROL Anwesenheitsverwaltung]**: Teilnahme an Sitzungen markieren, auch wenn die Sitzungen abgebrochen werden.
+* **[!UICONTROL Anwesenheitsverwaltung]**: Vermerken Sie die Anwesenheit für Sitzungen, selbst wenn die Sitzungen abgebrochen werden.
 * **[!UICONTROL Kursabschluss]**: Administratoren können einen Kurs als abgeschlossen markieren, selbst wenn Sitzungen abgebrochen wurden.
-* **[!UICONTROL Umschuldung]**: Planen Sie abgebrochene Sitzungen für spätere Termine und fügen Sie während der Neuplanung einen Kursleiter hinzu.
+* **[!UICONTROL Neuplanung]**: Planen Sie abgebrochene Sitzungen für spätere Termine, und fügen Sie während der Neuplanung einen Kursleiter hinzu.
 
 Beachten Sie, dass die Teilnehmer nach der Kündigung für die Schulungsinstanz registriert bleiben. Ihr Registrierungsstatus - wie bestätigte Registrierung, Warteliste und Genehmigung durch den Manager - bleibt unverändert. Dies ist hilfreich, da der Administrator die abgebrochene Sitzung in Zukunft einrichten und neu planen kann.
 
 ## Autor
 
-Wenn der Administrator die Option **[!UICONTROL Kursleiter-Management]** können Autoren nur nach Benutzern mit Kursleiterrolle suchen und sie den Klassenzimmersitzungen, virtuellen Klassenzimmersitzungen, Checklisten und Dateiübermittlungsmodulen hinzufügen.
+Wenn der Administrator die Option **[!UICONTROL Kursleiterverwaltung]** auswählt, kann ein Autor die Benutzer mit Kursleiterrolle nur nach den Klassenzimmersitzungen, virtuellen Klassenzimmersitzungen, Checklisten und den Modulen für die Dateiübermittlung suchen und diesen hinzufügen.
 
 Darüber hinaus kann ein Autor:
 
 * Kursleiter zu den bestehenden Sitzungen hinzufügen oder aus ihnen entfernen.
 * den bestehenden Sitzungen, die bereits einen oder mehrere Kursleiter haben, Kursleiter hinzufügen.
 
-Nachdem ein Administrator also das **[!UICONTROL Kursleiter-Management]** können nur Benutzer mit der Kursleiterrolle als Kursleiter hinzugefügt werden.
+Nachdem ein Administrator die Option **[!UICONTROL Kursleiterverwaltung]** aktiviert hat, können daher nur die Benutzer mit der Kursleiterrolle als Kursleiter hinzugefügt werden.
 
 >[!NOTE]
 >
 >Dies gilt nicht, wenn Sie Sitzungen mithilfe der CSV-Datei der Sitzungen migrieren. In diesem Fall kann ein Benutzer, der nicht über die Kursleiterrolle verfügt, als Kursleiter hinzugefügt werden.
 
-Im Fenster &quot; **[!UICONTROL Kursinstanz]** können Autoren eine oder mehrere Sitzungen abbrechen. Wenn Sitzungen abgebrochen werden, entfernt das System alle Sitzungsdetails, behält aber die Sitzplatzbeschränkung bei.
+Auf der Seite **[!UICONTROL Kursinstanz]** kann ein Autor eine oder mehrere Sitzungen abbrechen. Wenn Sitzungen abgebrochen werden, entfernt das System alle Sitzungsdetails, behält aber die Sitzplatzbeschränkung bei.
 
-Daher kann ein Autor die **[!UICONTROL Sitzung abbrechen]** Links zum Stornieren einer oder mehrerer Sitzungen im Schulungsraum oder virtueller Sitzungen, die in derselben oder in verschiedenen Kursinstanzen verfügbar sind.
+Daher kann ein Autor die Links **[!UICONTROL Sitzung abbrechen]** verwenden, um eine oder mehrere Klassenzimmersitzungen oder virtuelle Klassenzimmersitzungen abzubrechen, die in derselben oder in verschiedenen Kursinstanzen verfügbar sind.
 
 ## Auf vordefinierte Liste von Kursleitern beschränken
 
@@ -174,7 +174,7 @@ Auf der Seite **[!UICONTROL Kursinstanz]** enthält jede Sitzung, die unter eine
 
 ![](assets/cancel-session.png)
 
-*Bestehende Sitzung abbrechen*
+*Vorhandene Sitzung abbrechen*
 
 Wenn Sie auf den Link **[!UICONTROL Sitzung abbrechen]** klicken, erscheint eine Warnmeldung.
 

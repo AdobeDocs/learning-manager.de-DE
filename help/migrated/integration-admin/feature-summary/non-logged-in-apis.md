@@ -1,5 +1,5 @@
 ---
-description: Erfahre mehr über die nicht angemeldeten APIs zur Entwicklung der Headless-Benutzeroberfläche.
+description: Erfahren Sie mehr über die nicht angemeldeten APIs, um die Headless-Schnittstelle zu entwickeln.
 jcr-language: en_us
 title: Nicht angemeldete APIs
 source-git-commit: 21e2a4a5e73fcbddb64e0afec0a896b315e38688
@@ -11,18 +11,18 @@ ht-degree: 0%
 
 # Nicht angemeldete APIs
 
-Erfahrt in diesem Artikel mehr über die Adobe Learning Manager-APIs, die Daten für headless- oder nicht angemeldete Erlebnisse bereitstellen.
-Public Search API
+Erfahren Sie mehr über die Adobe Learning Manager APIs, die Daten für das Headless- oder Nicht-angemeldete Erlebnis bereitstellen, in diesem Artikel.
+API für öffentliche Suche
 
-## Public Search API
+## API für öffentliche Suche
 
-### Daten mit Public ES filtern
+### Filtern von Daten mit Public ES
 
-Mit dem Public Search API erhaltet ihr Filterdaten, die mit den grundlegenden Such-API zum Filtern der Kurse verwendet werden können. Dieses API bietet alle Filter, die bei der Suche API verwendet werden können.
+Mit der API für die öffentliche Suche können Sie die Filterdaten abrufen, die mit der API für die einfache Suche zum Filtern der Kurse verwendet werden können. Diese API stellt alle Filter bereit, die in der Such-API verwendet werden können.
 
-**Curl-Beispiel**
+**Beispiel-Curl**
 
-Verwende die GET-Methode, um die folgende Anfrage zu stellen: Ersetze &lt;Base_URL> deine basis URL im unten stehenden Befehl &quot;Locken&quot;. &lt;/Base_URL> Die &lt;Base_URL> Seite &quot;Training Data Access Connector&quot; findest du auf der Seite &quot;Training Data Access Connector&quot;.&lt;/Base_URL>
+Verwenden Sie die GET-Methode, um die folgende Anforderung zu stellen. Ersetzen Sie &lt;Base_URL> durch Ihre Basis-URL im unten stehenden curl-Befehl. Sie finden &lt;Base_URL> auf der Seite mit dem Connector für den Zugriff auf Schulungsdaten.
 
 ```
 curl --location '<Base_URL>/filterableData'
@@ -93,28 +93,28 @@ curl --location '<Base_URL>/filterableData'
 
 | Optionen | Beschreibung |
 | --- | --- |
-| `loSkillLevels` | er kenntnisse, die für die Anmeldung zum Kurs erforderlich sind. |
-| `catalogNames` | Liste der verfügbaren Katalognamen |
-| `loType` | Arten von verfügbaren Lernobjekten. |
-| `availability` | Verfügbarkeit von Sitzen und Verfügbarkeit von Wartelisten. |
-| `loSkillNames` | Die Kompetenznamen, die den Lernobjekten hinzugefügt wurden. |
-| `tags` | Die Tags, die den Lernobjekten zugeordnet sind. |
-| `authors` | Name der Lernobjekte des Autors |
+| `loSkillLevels` | Die für die Anmeldung zum Kurs erforderliche Kenntnisstufe. |
+| `catalogNames` | Liste der verfügbaren Katalognamen. |
+| `loType` | Typen verfügbarer Lernobjekte. |
+| `availability` | Die Sitzplatzverfügbarkeit und die Verfügbarkeit der Warteliste. |
+| `loSkillNames` | Die Namen der Kenntnisse, die den Lernobjekten hinzugefügt wurden. |
+| `tags` | Die mit den Lernobjekten verknüpften Tags. |
+| `authors` | Der Name des Autors der Lernobjekte |
 | `duration` | Die Dauer der Lernobjekte. |
-| `dateCreated` | Das Datum, an dem das Lernobjekt erstellt wurde. |
-| `sessionEndTime` | Zum Ende der Session. |
-| `averageRating` | Die durchschnittliche Sternbewertung der Lernobjekte. |
-| `sessionStartTime` | Beginn der Session. |
-| `publishDate` | Das Datum der Veröffentlichung des Lernobjekts. |
-| `ratingsCount` | Die Anzahl der Bewertungen zählt für das Lernobjekt. |
+| `dateCreated` | Das Erstellungsdatum des Lernobjekts. |
+| `sessionEndTime` | Der Zeitpunkt, zu dem die Sitzung beendet wurde. |
+| `averageRating` | Die durchschnittliche Sternebewertung der Lernobjekte. |
+| `sessionStartTime` | Der Zeitpunkt, zu dem die Sitzung gestartet wurde. |
+| `publishDate` | Das Veröffentlichungsdatum des Lernobjekts. |
+| `ratingsCount` | Die Anzahl der Bewertungen für das Lernobjekt. |
 
-### API durchsuchen
+### Such-API
 
-Mit dem öffentlichen Search API könnt ihr anhand der bereitgestellten Daten grundlegende Suchdaten abrufen.
+Mit der API für die öffentliche Suche können Sie grundlegende Suchdaten mithilfe der bereitgestellten Daten abrufen.
 
-**Sample Curl**
+**Beispiel-Curl**
 
-Verwende die POST-Methode, um die folgende Anfrage zu stellen: Ersetze &lt;Base_URL> deine basis URL im unten stehenden Befehl &quot;Locken&quot;. &lt;/Base_URL> Die &lt;Base_URL> Seite &quot;Training Data Access Connector&quot; findest du auf der Seite &quot;Training Data Access Connector&quot;.&lt;/Base_URL>
+Verwenden Sie die POST-Methode, um die folgende Anforderung zu stellen. Ersetzen Sie &lt;Base_URL> durch Ihre Basis-URL im unten stehenden curl-Befehl. Sie finden &lt;Base_URL> auf der Seite mit dem Connector für den Zugriff auf Schulungsdaten.
 
 ```
 curl --location '<Base_URL>/search?size=1000' \
@@ -262,27 +262,27 @@ curl --location '<Base_URL>/search?size=1000' \
 }
 ```
 
-**Optionen zum Sortieren im Such-API**
+**Sortieroptionen in der Such-API**
 
-Du kannst die folgenden Sortieroptionen auswählen, die auf die Ergebnisse angewendet werden sollen.
+Sie können die folgenden Sortieroptionen auswählen, die auf die Ergebnisse angewendet werden sollen.
 
 | Optionen | Beschreibung |
 | --- | --- |
 | `duration` | Die Dauer des Lernobjekts. |
-| `publishDate` | Das Datum der Veröffentlichung des Lernobjekts. |
-| `dateCreated` | Das Datum, an dem das Lernobjekt erstellt wurde. |
+| `publishDate` | Das Veröffentlichungsdatum des Lernobjekts. |
+| `dateCreated` | Das Erstellungsdatum des Lernobjekts. |
 | `name_en` | Der Name des Lernobjekts. |
-| `averageRating` | Durchschnittliche Sternbewertung der Teilnehmer. |
-| `ratingsCount` | Die Anzahl der Bewertungen zählt für das Lernobjekt. |
+| `averageRating` | Durchschnittliche Sternebewertung der Teilnehmer. |
+| `ratingsCount` | Die Anzahl der Bewertungen für das Lernobjekt. |
 | `relevance(default)` | Die relevanten Daten basieren auf den Suchbegriffen. |
 
-### Lernobjektdaten mit öffentlichen Suchfunktionen API
+### Abrufen von Lernobjektdaten mithilfe der API für die öffentliche Suche
 
-Mit dem öffentlichen ES-Lernobjekt-API kannst du die Liste der Arten und IDs von Lernobjekten auf der Headless-Benutzeroberfläche abrufen.
+Mit der öffentlichen ES-Lernobjekt-API können Sie die Liste der Typen und IDs von Lernobjekten abrufen, die auf der Headless-Schnittstelle verfügbar sind.
 
-**Curl-Beispiel**
+**Beispiel-Curl**
 
-Verwende die GET-Methode, um die folgende Anfrage zu stellen: Ersetze &lt;Base_URL> deine basis URL im unten stehenden Befehl &quot;Locken&quot;. &lt;/Base_URL> Die &lt;Base_URL> Seite &quot;Training Data Access Connector&quot; findest du auf der Seite &quot;Training Data Access Connector&quot;.&lt;/Base_URL>
+Verwenden Sie die GET-Methode, um die folgende Anforderung zu stellen. Ersetzen Sie &lt;Base_URL> durch Ihre Basis-URL im unten stehenden curl-Befehl. Sie finden &lt;Base_URL> auf der Seite mit dem Connector für den Zugriff auf Schulungsdaten.
 
 ```
 curl --location '<Base_URL>/learningObjectIds'
@@ -300,13 +300,13 @@ curl --location '<Base_URL>/learningObjectIds'
 }
 ```
 
-## Kursübersicht API
+## API für Kursübersicht
 
-Die Kursübersicht API ermöglicht es Ihnen, detaillierte Informationen zu einem bestimmten Kurs abzurufen.
+Mit der Kursübersicht-API können Sie detaillierte Informationen zu einem bestimmten Kurs abrufen.
 
-**Curl-Beispiel**
+**Beispiel-Curl**
 
-Verwende die GET-Methode, um die folgende Anfrage zu stellen: Ersetze &lt;Base_URL> deine basis URL im unten stehenden Befehl &quot;Locken&quot;. &lt;/Base_URL> Die &lt;Base_URL> Seite &quot;Training Data Access Connector&quot; findest du auf der Seite &quot;Training Data Access Connector&quot;. &lt;/Base_URL> &lt;Course_ID> Ersetze sie durch die kursspezifische ID.&lt;/Course_ID>
+Verwenden Sie die GET-Methode, um die folgende Anforderung zu stellen. Ersetzen Sie &lt;Base_URL> durch Ihre Basis-URL im unten stehenden curl-Befehl. Sie finden &lt;Base_URL> auf der Seite mit dem Connector für den Zugriff auf Schulungsdaten. Ersetzen Sie &lt;Course_ID> durch die entsprechende Kurs-ID.
 
 ```
 curl --location '<Base_URL>/loSummary?loId=course%3A<Course_ID>'
@@ -335,21 +335,21 @@ curl --location '<Base_URL>/loSummary?loId=course%3A<Course_ID>'
 
 >[!NOTE]
 >
->Wenn ein Kurs mehrere Instanzen hat, erhaltet ihr Details zu allen Instanzen.
+>Wenn ein Kurs mehrere Instanzen hat, erhalten Sie Details zu allen Instanzen.
 
-## CDN JSON-API für Kursdetails
+## CDN JSON API für Kursdetails
 
-Die CDN JSON-API ermöglicht es Ihnen, die vollständigen Kursinformationen zu einem bestimmten Kurs abzurufen.
+Mit der CDN JSON-API können Sie die vollständigen Kursinformationen zu einem bestimmten Kurs abrufen.
 
-**Curl-Probe für Kurs**
+**Beispielcurl für Kurs**
 
-Verwende die GET-Methode, um die folgende Anfrage zu stellen: Ersetze &lt;CDN_path> deine basis URL im unten stehenden Befehl &quot;Locken&quot;. &lt;/CDN_path> Die &lt;CDN_path> Seite &quot;Training Data Access Connector&quot; findest du auf der Seite &quot;Training Data Access Connector&quot;. &lt;/CDN_path> &lt;Course_ID> Ersetze sie durch die kursspezifische ID.&lt;/Course_ID>
+Verwenden Sie die GET-Methode, um die folgende Anforderung zu stellen. Ersetzen Sie &lt;CDN_path> durch Ihre Basis-URL im unten stehenden curl-Befehl. Den &lt;CDN_path> finden Sie auf der Seite mit dem Connector für den Zugriff auf Schulungsdaten. Ersetzen Sie &lt;Course_ID> durch die entsprechende Kurs-ID.
 
 ```
 curl --location '<CDN_path_URL>/course/<Course_ID>.json'
 ```
 
-**Muster-Locken für den Lernpfad und die Zertifizierung**
+**Beispielcurl für Lernpfad und Zertifizierung**
 
 ```
 curl --location '<CDN_path_URL>/learningProgram/<LearningProgram_ID>.json'

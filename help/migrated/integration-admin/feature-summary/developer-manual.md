@@ -30,11 +30,11 @@ Mithilfe der Learning Manager-API können Entwickler eigenständige Anwendungen 
 
 Die Learning Manager-API basiert auf den Prinzipien von REST und stellt wichtige Elemente des Objektmodells von Learning Manager über HTTP für Anwendungsentwickler bereit. Entwickler können sich mit den verschiedenen Learning Manager-Objekten, ihren Attributen und Beziehungen vertraut machen, bevor sie die Details zu den API-Endpunkten und den HTTP-Methoden kennen. Nachdem ein zuverlässiges Verständnis der Modelle vorhanden ist, empfiehlt es sich, Grundkenntnisse der Struktur von API-Anfragen und -Antworten zu erwerben und einige häufig vorkommende Programmierungsbegriffe zu erlernen, die in der gesamten API unterstützt werden.
 
-Ausführliche Informationen zu den verschiedenen API-Endpunkten und -Methoden finden Sie unter  [Dokumentation zur Learning Manager-API](https://learningmanager.adobe.com/docs/primeapi/v2/).
+Details zu den verschiedenen API-Endpunkten und -Methoden finden Sie in der Dokumentation zur [Learning Manager-API](https://learningmanager.adobe.com/docs/primeapi/v2/).
 
 ## Teilnehmer-APIs
 
-Adobe Learning Manager : Mit Teilnehmer-APIs können Sie ein benutzerdefiniertes Lernerlebnis für Ihre Benutzer erstellen. Die Verwendung dieser APIs erfordert ein gültiges Benutzertoken und darf nur für Arbeitsabläufe mit einem vollständig lizenzierten/registrierten Teilnehmer verwendet werden.
+Adobe Learning Manager - Mit Teilnehmer-APIs können Sie ein benutzerdefiniertes Lernerlebnis für Ihre Benutzer erstellen. Die Verwendung dieser APIs erfordert ein gültiges Benutzertoken und darf nur für Arbeitsabläufe mit einem vollständig lizenzierten/registrierten Teilnehmer verwendet werden.
 
 >[!IMPORTANT]
 >
@@ -42,7 +42,7 @@ Adobe Learning Manager : Mit Teilnehmer-APIs können Sie ein benutzerdefiniertes
 
 Die nicht angemeldeten Nutzungsszenarien erfordern eine besondere Behandlung.
 
-**Wenden Sie sich an das Team für Lösungsarchitekturen, falls Sie Fragen zur geeigneten Verwendung dieser APIs haben, und stellen Sie sicher, dass ein Lösungsarchitekt eine Lösung vor der Bereitstellung überprüft hat.**.
+**Wenden Sie sich an das Lösungsarchitekturteam, falls Sie Fragen zur geeigneten Verwendung dieser APIs haben, und vergewissern Sie sich, dass ein Lösungsarchitekt eine Lösung vor der Bereitstellung überprüft hat**.
 
 ## API-Authentifizierung {#apiauthentication}
 
@@ -116,7 +116,7 @@ Als Referenz werden weiter unten einige in der Learning Manager-API häufig verw
 
 **Includes**
 
-Entwickler können sowohl auf ein einzelnes API-Objektmodell als auch auf mehrere mit diesem Modell verknüpfte Modelle zugreifen. Um auf die nachfolgenden verknüpften Modelle zuzugreifen, müssen Sie die Beziehung jedes Modells zu anderen Modellen kennen. **Umfasst** ermöglicht Entwicklern den Zugriff auf die abhängigen Modelle. Sie können mehrere Modelle durch Kommas trennen. Beispiele zur Verwendung und weitere Informationen zu **umfasst** finden Sie weitere Informationen im Abschnitt zum Beispiel-API-Modell auf dieser Seite.
+Entwickler können sowohl auf ein einzelnes API-Objektmodell als auch auf mehrere mit diesem Modell verknüpfte Modelle zugreifen. Um auf die nachfolgenden verknüpften Modelle zuzugreifen, müssen Sie die Beziehung jedes Modells zu anderen Modellen kennen. Mit dem **Includes**-Parameter können Entwickler auf die abhängigen Modelle zugreifen. Sie können mehrere Modelle durch Kommas trennen. Beispiele für die Verwendung und weitere Details zu **Includes** finden Sie im Abschnitt zum Beispiel-API-Modell auf dieser Seite.
 
 **API-Anforderung**
 
@@ -124,7 +124,7 @@ Die API-Anfragen können über eine HTTP-Anfrage gestellt werden. Je nach Endpun
 
 **API-Antwort**
 
-Bei einer API-Anforderung durch einen Client wird ein JSON-Dokument gemäß der JSON-API-Spezifikation abgerufen. Die Antwort enthält außerdem den HTTP-Statuscode, den der Entwickler überprüfen kann, um die entsprechenden nächsten Schritte in seiner Anwendungslogik auszuführen. Die Struktur einer typischen API-Antwort wird unter  [Beispielmodellverwendung](#main-pars_header_1415780624).
+Bei einer API-Anforderung durch einen Client wird ein JSON-Dokument gemäß der JSON-API-Spezifikation abgerufen. Die Antwort enthält außerdem den HTTP-Statuscode, den der Entwickler überprüfen kann, um die entsprechenden nächsten Schritte in seiner Anwendungslogik auszuführen. Die Struktur einer typischen API-Antwort wird in [Beispielmodellverwendung](#main-pars_header_1415780624) beschrieben.
 
 **Fehler**
 
@@ -132,7 +132,7 @@ Wenn eine API-Anforderung fehlschlägt, geht eine Fehlerantwort ein. Der in der 
 
 **Fields**
 
-Die Attribute des API-Objekts und seine Beziehungen werden zusammenfassend als Felder bezeichnet. Weitere Informationen finden Sie unter [JSON API.](http://jsonapi.org/format/#document-resource-object-fields) Sie können Felder als Parameter verwenden, während Sie API-Aufrufe durchführen, um ein oder mehrere bestimmte Attribute aus dem Modell abzurufen. Wenn der Fields-Parameter fehlt, ruft der API-Aufruf alle verfügbaren Attribute aus dem Modell ab. Im folgenden API-Aufruf werden z. B. Felder[Fertigkeit]=name ruft nur das Namensattribut des Kenntnismodells ab.
+Die Attribute des API-Objekts und seine Beziehungen werden zusammenfassend als Felder bezeichnet. Weitere Informationen finden Sie unter [JSON API.](http://jsonapi.org/format/#document-resource-object-fields) Sie können Felder als Parameter beim Durchführen von API-Aufrufen verwenden, um ein oder mehrere bestimmte Attribute aus dem Modell abzurufen. Wenn der Fields-Parameter fehlt, ruft der API-Aufruf alle verfügbaren Attribute aus dem Modell ab. Im folgenden API-Aufruf ruft fields[skill]=name beispielsweise nur das name-Attribut des Kenntnismodells ab.
 
 https://learningmanager.adobe.com/primeapi/v2/users/{userId}/userSkills/{id}?include=skillLevel.skill&amp;fields[skill]=name
 
@@ -142,7 +142,7 @@ Manchmal wird in der Antwort auf eine API-Anforderung eine lange Liste von Objek
 
 **Paginierung**
 
-Die Sortierung ist in API-Modellen zulässig. Wählen Sie basierend auf dem Modell die Art der Sortierung aus, die auf die Ergebnisse angewendet werden soll. Die Sortierung kann in aufsteigender oder absteigender Reihenfolge angewendet werden. Wenn Sie beispielsweise `code sort=name`aufsteigend sortiert nach Namen. Wenn Sie `code sort=-name`, es wird absteigend nach Name sortiert. Siehe [JSON-API-Spezifikation für weitere Informationen](http://jsonapi.org/format/#fetching-sorting).
+Die Sortierung ist in API-Modellen zulässig. Wählen Sie basierend auf dem Modell die Art der Sortierung aus, die auf die Ergebnisse angewendet werden soll. Die Sortierung kann in aufsteigender oder absteigender Reihenfolge angewendet werden. Wenn Sie beispielsweise &quot;`code sort=name`&quot; angeben, wird aufsteigend nach Namen sortiert. Wenn Sie &quot;`code sort=-name`&quot; angeben, erfolgt die Sortierung nach dem Namen in absteigender Reihenfolge. Weitere Informationen finden Sie in der [JSON-API-Spezifikation](http://jsonapi.org/format/#fetching-sorting).
 
 ## Abbildung: Verwendung der API {#samplemodel}
 
@@ -150,7 +150,7 @@ Lassen Sie uns ein Szenario in Betracht ziehen, in dem ein Entwickler den Namen 
 
 Ein userSkill-Modell in Learning Manager-APIs umfasst standardmäßig die Attribute id, type, dateAchieved, dateCreated und pointsEarned. Wenn ein Entwickler die GET-Methode verwendet, um Details des userSkill-Modells abzurufen, werden die aktuellen Daten für die Standardattribute in der Antwortausgabe angezeigt.
 
-In diesem Szenario möchte der Entwickler jedoch den Kenntnisnamen und die Punkte des Teilnehmers für eine Kenntnisstufe abrufen. In der Learning Manager-API können Sie auf diese verknüpften Informationen über Beziehungsfelder und Include-Parameter zugreifen. Die verknüpften Modelle für userSkill werden im Beziehungs-Tag abgerufen. Sie können die Details aller verknüpften Modelle abrufen, indem Sie diese Modelle zusammen mit userSkill aufrufen. Um diese Informationen abzurufen, verwenden Sie **`code include`** Parameter mit durch Punkte (Punkte) getrennten Werten für jedes der zugehörigen Modelle. Sie können Komma als Trennzeichen verwenden, um ein anderes Modell anzufordern, z. B. user include=skillLevel.skill,course
+In diesem Szenario möchte der Entwickler jedoch den Kenntnisnamen und die Punkte des Teilnehmers für eine Kenntnisstufe abrufen. In der Learning Manager-API können Sie auf diese verknüpften Informationen über Beziehungsfelder und Include-Parameter zugreifen. Die verknüpften Modelle für userSkill werden im Beziehungs-Tag abgerufen. Sie können die Details aller verknüpften Modelle abrufen, indem Sie diese Modelle zusammen mit userSkill aufrufen. Verwenden Sie zum Abrufen dieser Informationen den **`code include`**-Parameter mit durch Punkte (Punkte) getrennten Werten für jedes der zugeordneten Modelle. Sie können Komma als Trennzeichen verwenden, um ein anderes Modell anzufordern, z. B. user include=skillLevel.skill,course
 
 **API-Aufruf**
 
@@ -406,11 +406,11 @@ Im Folgenden sind die verschiedenen Elemente des Learning Manager-Klassendiagram
   </tr>
   <tr>
    <td>resource</td>
-   <td>Dies wird verwendet, um jede Inhaltsressource zu modellieren, die ein Modul einbeziehen will. Alle Ressourcen, die in <code>
+   <td>Dies wird verwendet, um jede Inhaltsressource zu modellieren, die ein Modul einbeziehen will. Alle in <code>
      an
     </code> <code>
      loResource
-    </code> sind in Bezug auf das Lernziel gleichwertig, unterscheiden sich jedoch in Bezug auf den Bereitstellungstyp oder das Inhaltsgebietsschema.<br></td>
+    </code> eingekapselten Ressourcen sind in Bezug auf das Lernziel äquivalent, unterscheiden sich jedoch in Bezug auf den Bereitstellungstyp oder das Inhaltsgebietsschema.<br></td>
   </tr>
   <tr>
    <td>userNotification</td>
@@ -424,7 +424,7 @@ Im Folgenden sind die verschiedenen Elemente des Learning Manager-Klassendiagram
    <td>userBadge</td>
    <td>UserBadge bezieht sich auf ein einzelnes Abzeichen <code>
      with
-    </code> für einen einzelnen Benutzer. Es enthält Details wie den Zeitpunkt, zu dem es erreicht wurde, <code>
+    </code> für einen einzelnen Benutzer. Er enthält Details wie den Zeitpunkt, zu dem er erreicht wurde, <code>
      assertionUrl
     </code> usw. <br></td>
   </tr>
@@ -438,7 +438,7 @@ Im Folgenden sind die verschiedenen Elemente des Learning Manager-Klassendiagram
   </tr>
   <tr>
    <td>learningObject</td>
-   <td>Ein Lernobjekt ist ein Abstrakt für verschiedene Arten von Objekten, bei denen sich Benutzer anmelden und von denen sie lernen können. Derzeit verfügt der Lern-Manager über die vier Typen von Lernobjekten - Kurs, Zertifizierung, Lernprogramm <code>
+   <td>Ein Lernobjekt ist ein Abstrakt für verschiedene Arten von Objekten, bei denen sich Benutzer anmelden und von denen sie lernen können. Derzeit verfügt der Learning Manager über die vier Typen von Lernobjekten - Kurs, Zertifizierung, Lernprogramm <code>
      and
     </code> Arbeitshilfe.<br></td>
   </tr>
@@ -448,19 +448,19 @@ Im Folgenden sind die verschiedenen Elemente des Learning Manager-Klassendiagram
   </tr>
   <tr>
    <td>learningObjectResource</td>
-   <td>Dies entspricht dem Konzept der <code>
+   <td>Dies entspricht dem Konzept von <code>
      module
-    </code>. Ein Kurs besteht aus einem <code>
+    </code>. Ein Kurs besteht aus <code>
      of
-    </code> Weitere Module. In Learning Manager kann ein Modul auf verschiedene gleichwertige Arten bereitgestellt werden. Daher <code>
+    </code> weiteren Modulen. In Learning Manager kann ein Modul auf verschiedene gleichwertige Arten bereitgestellt werden. Daher kapselt <code>
      loResource
-    </code> im Wesentlichen alle diese äquivalenten Ressourcen einkapselt.<br></td>
+    </code> im Wesentlichen alle diese äquivalenten Ressourcen.<br></td>
   </tr>
   <tr>
    <td>loResourceGrade<br></td>
    <td>Dies umfasst das Ergebnis des Benutzers, der eine bestimmte Ressource im Kontext eines Lernobjekts konsumiert, bei dem er angemeldet ist. Es enthält Informationen wie die von <code>
      user
-    </code> in der Ressource den prozentualen Fortschritt des Benutzers, den Status "Bestanden/Nicht bestanden" und die Punktzahl, die der Benutzer in einem zugeordneten Quiz erzielt hat.<br></td>
+    </code> in der Ressource verbrachte Dauer, den vom Benutzer erzielten Fortschritt in Prozent, den Status "Bestanden/Nicht bestanden" und die vom Benutzer in einem zugeordneten Quiz erhaltene Punktzahl.<br></td>
   </tr>
   <tr>
    <td>Kalender<br></td>
@@ -825,17 +825,17 @@ Als Entwickler müssen Sie ein Testkonto bei Learning Manager erstellen, damit S
 
 ## Client-ID und Secret erstellen {#createclientidandsecret}
 
-1. In **Integrationsadministrator** Anmeldung klicken Sie auf **[!UICONTROL Anwendungen]** im linken Bereich.
+1. Klicken Sie in der Anmeldung **Integrations-Admin** auf **[!UICONTROL Anwendungen]** im linken Bereich.
 
    ![](assets/application-development-menu.png)
 
-   *Anwendungen im Integrations-Admin auswählen*
+   *Anwendungen auf Integrations-Admin auswählen*
 
-1. Klicken **[!UICONTROL Registrieren]** in der oberen rechten Ecke der Seite, um Ihre Anwendungsdetails zu registrieren. Die Registrierungsseite wird angezeigt.
+1. Klicken Sie in der rechten oberen Ecke der Seite auf **[!UICONTROL Registrieren]**, um Ihre Anwendungsdetails zu registrieren. Die Registrierungsseite wird angezeigt.
 
    ![](assets/register-application.png)
 
-   *Registrieren Sie die Anwendung*
+   *Anwendung registrieren*
 
    Alle Felder auf dieser Seite müssen ausgefüllt werden.
 
@@ -843,17 +843,17 @@ Als Entwickler müssen Sie ein Testkonto bei Learning Manager erstellen, damit S
 
    **URL**: Wenn Sie die genaue URL kennen, auf der die Anwendung gehostet wird, können Sie sie angeben. Wenn Sie sie nicht kennen, können Sie Ihre Firmen-URL angeben. Ein gültiger URL-Name ist in diesem Feld obligatorisch.
 
-   **Domänen umleiten**: Geben Sie den Domänennamen der Anwendung ein, zu der die Learning Manager-Anwendung nach der OAuth-Authentifizierung umleiten soll. Sie können hier mehrere URLs erwähnen, Sie müssen jedoch die gültigen URLs verwenden, z. B. `http://google.com`, `http://yahoo.com` usw.
+   **Domänen umleiten**: Geben Sie den Domänennamen der Anwendung ein, zu der die Learning Manager-Anwendung nach der OAuth-Authentifizierung umleiten soll. Sie können hier mehrere URLs erwähnen, müssen jedoch die gültigen URLs wie `http://google.com`, `http://yahoo.com` usw. verwenden.
 
-   **Beschreibung:** Geben Sie eine kurze Beschreibung für Ihre Anwendung ein.
+   **Beschreibung:** Geben Sie die Kurzbeschreibung für Ihre Anwendung ein.
 
-   **Umfang:** Wählen Sie eine der vier verfügbaren Optionen, um den Umfang der Anwendung zu definieren. Die hier von Ihnen gewählte Option bestimmt, wie Ihre Anwendung auf die Learning Manager-API-Endpunkte zugreifen kann. Wenn Sie z. B. **Lesezugriff auf Teilnehmerrolle**&quot; sind alle Teilnehmer-API-Endpunkte des Lern-Managers schreibgeschützt für Ihre Anwendung.
+   **Umfang:** Wählen Sie eine der vier verfügbaren Optionen aus, um den Umfang Ihrer Anwendung zu definieren. Die hier von Ihnen gewählte Option bestimmt, wie Ihre Anwendung auf die Learning Manager-API-Endpunkte zugreifen kann. Wenn Sie beispielsweise **Lesezugriff für Teilnehmerrolle** gewählt haben, ist der Zugriff auf alle Lern-Manager-API-Endpunkte für Teilnehmer für Ihre Anwendung schreibgeschützt.
 
    **Nur für dieses Konto?**\
-   **Ja** - Wenn Sie &quot;Ja&quot; wählen, ist die Anwendung für andere Kontoadministratoren nicht sichtbar.\
+   **Ja** - Wenn Sie &quot;Ja&quot; auswählen, ist die Anwendung für andere Kontoadministratoren nicht sichtbar.\
    **Nein** - Wenn Sie &quot;Nein&quot; auswählen, können auch andere Kontoadministratoren auf diese Anwendung zugreifen, sie müssen jedoch die Anwendungs-ID verwenden, um auf diese Anwendung zuzugreifen. Die Anwendungs-ID wird generiert und im Bearbeitungsmodus der Learning Manager-Anwendung angezeigt.
 
-   Wenn Sie **Lese- und Schreibzugriff auf Administratorrollen** als Geltungsbereich bei der Registrierung der Anwendung an und wählen Sie **Lesezugriff auf Administratorrolle** Beim Erstellen der APIs können Sie weiterhin Schreibzugriff auf die Anwendung haben, da der Registrierungsbereich der Anwendung den Autorisierungs-Workflow ersetzt.
+   Wenn Sie beim Registrieren der Anwendung den **Lese- und Schreibzugriff für die Administratorrolle** als Bereich wählen und beim Erstellen der APIs den **Lesezugriff für die Administratorrolle** wählen, können Sie weiterhin Schreibzugriff für die Anwendung haben, da der Bereich für die Anwendungsregistrierung den Autorisierungsarbeitsablauf ersetzt.
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Registrieren]**, nachdem Sie die Details auf der Registrierungsseite ausgefüllt haben.
 
@@ -867,11 +867,11 @@ Wir empfehlen, dass der Learning Manager-Administrator oder ein Integrationsadmi
 
 ## Genehmigung externer Anwendungen {#externalapplicationapproval}
 
-Sie können externe Anwendungen hinzufügen, indem Sie auf **Genehmigen** in der oberen rechten Ecke des Fensters **Anwendungen** angezeigt. Geben Sie die ID der externen Anwendung an und klicken Sie auf **Speichern**.
+Sie können externe Anwendungen hinzufügen, indem Sie auf **Genehmigen** in der oberen rechten Ecke der Seite **Anwendungen** klicken. Geben Sie die ID der externen Anwendung an und klicken Sie auf **Speichern**.
 
 ![](assets/add-external-application.png)
 
-*Hinzufügen und Genehmigen einer externen Anwendung*
+*Eine externe Anwendung hinzufügen und genehmigen*
 
 ## Häufig gestellte Fragen
 

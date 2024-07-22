@@ -31,7 +31,7 @@ Da Rollen während der Massenzuweisung von Benutzern in einer Benutzergruppe nic
 
 Erstellen Sie benutzerdefinierte Benutzergruppen, um die Benutzerrollen zu filtern, die einer Sitzung zugewiesen sind. Führen Sie die folgenden Schritte aus, um die zugewiesenen Kursleiterrollen in einer Benutzergruppe zu entfernen:
 
-1. Melden Sie sich als ein Administrator an. Klicken Sie im linken Bedienfeld auf **[!UICONTROL E-Mail-Vorlagen]**.
+1. Melden Sie sich als ein Administrator an. Klicken Sie im linken Bereich auf **[!UICONTROL E-Mail-Vorlagen]**.
 1. Um E-Mail-Trigger für die vorzunehmenden Änderungen zu vermeiden, klicken Sie auf **[!UICONTROL Alle deaktivieren]**.
 
    ![](assets/instructor-disable-all.png)
@@ -42,16 +42,16 @@ Erstellen Sie benutzerdefinierte Benutzergruppen, um die Benutzerrollen zu filte
 
 1. Erstellen Sie im Fenster &quot;Benutzergruppe hinzufügen&quot; eine benutzerdefinierte Benutzergruppe wie folgt:
 
-   * Geben Sie im Feld **[!UICONTROL Name]** ein.
-   * Unter **[!UICONTROL Teilnehmer einschließen]** die Benutzergruppe hinzu, für die Sie die Kursleiter filtern möchten.
-   * Unter **[!UICONTROL Teilnehmer ausschließen]** die Benutzer hinzu, für die Sie die Kursleiterrolle beibehalten möchten.
+   * Geben Sie im Feld &quot;**[!UICONTROL Name]**&quot; einen Namen für die benutzerdefinierte Gruppe ein.
+   * Fügen Sie im Feld **[!UICONTROL Teilnehmer einschließen]** die Benutzergruppe hinzu, für die Sie die Kursleiter filtern möchten.
+   * Fügen Sie im Feld **[!UICONTROL Teilnehmer ausschließen]** die Benutzer hinzu, für die Sie die Kursleiterrolle beibehalten möchten.
 
    ![](assets/instructor-add-ug.png)
 
    Mit den obigen Schritten wird eine Liste von Benutzern erstellt, die dem Einbeziehungsset hinzugefügt werden sollen, und bestimmte Benutzer (Kursleiter), die im Ausschlussset erwähnt werden, werden entfernt.
 
-1. Klicken **[!UICONTROL Speichern]** die vorgenommenen Änderungen.
-1. Suchen Sie in der Datei &quot; **[!UICONTROL Benutzer]** > **[!UICONTROL Intern]**.
+1. Klicken Sie auf **[!UICONTROL Speichern]**, um die vorgenommenen Änderungen zu speichern.
+1. Suchen Sie unter **[!UICONTROL Benutzer]** > **[!UICONTROL Intern]** nach der erstellten benutzerdefinierten Benutzergruppe.
 
    ![](assets/instructor-custom-ug.png)
 
@@ -59,6 +59,6 @@ Erstellen Sie benutzerdefinierte Benutzergruppen, um die Benutzerrollen zu filte
 
    ![](assets/instructor-bulk-ug.png)
 
-1. Klicken **[!UICONTROL Aktionen]** > **[!UICONTROL Rolle entfernen]** > **[!UICONTROL Kursleiter entfernen]**.
+1. Klicken Sie auf **[!UICONTROL Aktionen]** > **[!UICONTROL Rolle entfernen]** > **[!UICONTROL Kursleiter entfernen]**.
 
 Stellen Sie sicher, dass alle E-Mail-Trigger, die in Schritt 2 deaktiviert wurden, nach Abschluss erneut aktiviert werden.

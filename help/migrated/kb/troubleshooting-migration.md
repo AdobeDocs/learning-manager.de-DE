@@ -3,14 +3,13 @@ description: Dieses Dokument enthält grundlegende Tipps zur Fehlerbehebung, um 
 jcr-language: en_us
 title: Fehlerbehebung bei häufigen Migrationsproblemen
 contentowner: jayakarr
-source-git-commit: 6abc118c6ad7e66e3ded5bd26b9167c3a0b99e4b
+exl-id: b9f17644-f237-4701-86e9-8496db941920
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '854'
 ht-degree: 43%
 
 ---
-
-
 
 # Fehlerbehebung bei häufigen Migrationsproblemen
 
@@ -56,17 +55,17 @@ Es kann 10 bis 15 Minuten dauern, bis alle Aufträge beendet sind, sobald sie de
 
 ### Sprint konnte nicht erstellt werden da die Schaltfläche deaktiviert ist {#unabletocreateasprintasthebuttonisdisabled}
 
-Stellen Sie sicher, dass der aktuelle Sprint als abgeschlossen markiert ist, bevor Sie einen Sprint erstellen. Klicken **[!UICONTROL Mark Sprint abgeschlossen]** , um eine Sprint-Migration abzuschließen.
+Stellen Sie sicher, dass der aktuelle Sprint als abgeschlossen markiert ist, bevor Sie einen Sprint erstellen. Klicken Sie oben auf der Seite auf **[!UICONTROL Sprint als abgeschlossen markieren]**, um eine Sprint-Migration abzuschließen.
 
 ### Migrationsprojekte können nicht als „abgeschlossen“ markiert werden, da die Schaltfläche deaktiviert ist {#unabletomarkamigrationprojectascompleteasthebuttonisdisabled}
 
-Stellen Sie sicher, dass der aktuelle Sprint als abgeschlossen markiert ist, bevor Sie den Abschluss des Migrationsprojekts markieren. Klicken **[!UICONTROL Mark Sprint abgeschlossen]** , um eine Sprint-Migration abzuschließen.
+Stellen Sie sicher, dass der aktuelle Sprint als abgeschlossen markiert ist, bevor Sie den Abschluss des Migrationsprojekts markieren. Klicken Sie oben auf der Seite auf **[!UICONTROL Sprint als abgeschlossen markieren]**, um eine Sprint-Migration abzuschließen.
 
 ## CSV-Probleme {#csvissues}
 
 ### module_version.csv-Dateimigration schlägt fehl und Inhalt ist noch nicht migriert {#moduleversioncsvfilemigrationisfailingandcontentisnotmigratedyet}
 
-Stellen Sie sicher, dass der Inhalt im Inhaltsordner verfügbar ist (Box-Konto unter dem angegebenen Migrationsprojekt, Sprint-Pfad). Stellen Sie außerdem sicher, dass Sie die Option **Ja** für **Werden Sie Inhalte für diesen Sprint migrieren?** Frage auf der Seite zum Erstellen des Sprints.
+Stellen Sie sicher, dass der Inhalt im Inhaltsordner verfügbar ist (Box-Konto unter dem angegebenen Migrationsprojekt, Sprint-Pfad). Stellen Sie außerdem sicher, dass Sie die Option **Ja** für **Möchten Sie Inhalte für diesen Sprint migrieren?**-Frage auf der Seite zum Erstellen des Sprints.
 
 Wenn Sie vergessen, **Ja** zu wählen und weiter diesen Sprint verwenden, müssen Sie warten, bis Sie diesen Sprint abgeschlossen haben. Erstellen Sie einen weiteren Sprint und klicken Sie auf **[!UICONTROL Ja]**.
 
@@ -74,11 +73,11 @@ Wenn Sie vergessen, **Ja** zu wählen und weiter diesen Sprint verwenden, müsse
 
 Stellen Sie sicher, dass die E-Mail-ID, die im Rahmen der Felder „userId“ und „assignedByUserID“ bereitgestellt wird, zu gültigen Learning Manager-Benutzern gehören. Wenn dies nicht der Fall ist, fügen Sie den Benutzer hinzu, erstellen Sie einen neuen Sprint mit der Option **Benutzer synchronisieren**. Wenn der Benutzer nicht Teil der Organisation ist, fügen Sie den Benutzer als gelöschten Benutzer im Lern-Manager hinzu, indem Sie die CSV-Spezifikation für Benutzer hinzufügen verwenden. In der Abbildung unten sehen Sie ein Referenzbeispiel mit einer CSV-Spezifikation zum Hinzufügen gelöschter Benutzer.
 
-[Users.csv](assets/users.zip) Siehe **CSV-Spezifikationen und CSV-Musterdateien** Abschnitt in [Migrationshandbuch](../integration-admin/feature-summary/migration-manual.md) , um alle CSV-Spezifikationen und Beispiel-CSV-Dateien herunterzuladen.
+[Benutzer.csv](assets/users.zip) Lesen Sie im Abschnitt [CSV-Spezifikationen und Beispiel-CSVs **im** Migrationshandbuch](../integration-admin/feature-summary/migration-manual.md) den vollständigen Satz von CSV-Spezifikationen und Beispiel-CSV-Dateien, um diese herunterzuladen.
 
 ### Kurse werden leer oder falsche Module werden für einen migrierten Kurs abgespielt {#coursesappearblankorincorrectmodulesplayforamigratedcourse}
 
-Stellen Sie sicher, dass **moduleOrderInCourse** Schlüsselwert für einen Kurs beginnt mit **0** und ist in fortlaufender Reihenfolge. Die Reihenfolge in Bezug auf courseModuleType sollte PRETEST, TESTOUT, CONTENT lauten.
+Stellen Sie sicher, dass der Schlüsselwert **moduleOrderInCourse** für einen Kurs mit **0** beginnt und in fortlaufender Reihenfolge vorliegt. Die Reihenfolge in Bezug auf courseModuleType sollte PRETEST, TESTOUT, CONTENT lauten.
 
 Stellen Sie außerdem sicher, dass die beiden Versionen von Aktivität, Klassenzimmer und VC nicht mit dem vorhandenen Kurs verknüpft sind.
 

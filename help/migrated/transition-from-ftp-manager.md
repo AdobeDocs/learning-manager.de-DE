@@ -26,13 +26,13 @@ Einige von AWS empfohlene FTP-Clients sind [hier](https://docs.aws.amazon.com/tr
 
 Sie müssen den neuen AWS-basierten FTP-Connector im Integrations-Admin konfigurieren.
 
-![Anschlusssymbol](assets/alm-ftp.png)
-*Wählen Sie die FTP-Option*
+![Connectors Bild](assets/alm-ftp.png)
+*Wählen Sie die FTP-Option aus*
 
 Sobald Sie eine Verbindung hergestellt haben, wird die Seite Verbindungsdetails angezeigt.
 
-![Connect-Detailseite](assets/connection-name.png)
-*Seite &quot;Verbindungsdetails&quot; anzeigen*
+![Verbindungsdetailseite](assets/connection-name.png)
+*Seite mit den Verbindungsdetails anzeigen*
 
 Es gibt drei Authentifizierungsoptionen:
 
@@ -46,14 +46,14 @@ Sie haben eine FTP-Verbindung erstellt.
 
 ### Erstellen einer Authentifizierung mithilfe vorhandener SSH-Schlüssel
 
-Wenn Sie bereits über einen SSH-Schlüssel verfügen, fügen Sie den öffentlichen Schlüssel in das Feld &quot; **[!UICONTROL Öffentlicher FTP-Schlüssel]** und klicken Sie dann auf Verbinden .
+Wenn Sie bereits über einen SSH-Schlüssel verfügen, fügen Sie den öffentlichen Schlüssel in das Feld &quot;**[!UICONTROL FTP Public Key]**&quot; ein und klicken Sie dann auf &quot;Verbinden&quot;.
 
 ![SSH-Schlüssel](assets/ssh-keys.png)
-*Einfügen der Tasten*
+*Schlüssel einfügen*
 
 ### Erstellen einer einfachen Authentifizierung mit Kennwort
 
-Dies ist der grundlegende Authentifizierungsmechanismus. Wählen Sie die erste Option aus, **[!UICONTROL Einfache Authentifizierung mit Kennwort erstellen]**. Geben Sie das Kennwort ein und klicken Sie dann auf **[!UICONTROL Vernetzen]**.
+Dies ist der grundlegende Authentifizierungsmechanismus. Wählen Sie die erste Option aus: **[!UICONTROL Erstellen einer Standardauthentifizierung mit einem Kennwort]**. Geben Sie das Kennwort ein und klicken Sie dann auf **[!UICONTROL Verbinden]**.
 
 Dadurch wird eine Verbindung erstellt.
 
@@ -66,7 +66,7 @@ Richten Sie die Verbindung auf einem FTP-Client ein (im Abschnitt weiter oben em
 ### Beispiel-Testexport
 
 * Ändern Sie auf dem FTP-Client den Speicherort von ExaVault-FTP in den neuen FTP-Speicherort. Die neue Domäne ist `http://almftp.adobelearningmanager.com/`.
-* Sie müssen auch das IP auf die Positivliste setzen, `18.195.107.67`.
+* Sie müssen auch die IP-Adresse &quot;`18.195.107.67`&quot; in die Positivliste aufnehmen.
 * Nach der Authentifizierung müssen Sie einige Beispieldateien mithilfe externer FTP-Clients oder Automatisierungsskripte auf den neuen FTP-Speicherort hochladen und von dort herunterladen.
 * Sie müssen die Daten vom alten zum neuen Speicherort übertragen.
 * Die Datenaufbewahrungsrichtlinie für den Connector bleibt unverändert. ExaVault unterstützte zusätzlich zur offiziellen Richtlinie auch einige Datenaufbewahrungsrichtlinien. Solche Datenaufbewahrungsrichtlinien sind für den neuen Connector nicht verfügbar. Überprüfen Sie, ob Ihr Connector eine Datenaufbewahrung verwendet, die außerhalb der offiziell unterstützten Richtlinien liegt.
@@ -83,13 +83,13 @@ Richten Sie die Verbindung auf einem FTP-Client ein (im Abschnitt weiter oben em
 
 1. Stellen Sie eine Verbindung mit dem neuen ALM-FTP-Connector her. Klicken Sie auf Verbinden.
 
-   ![connect image](assets/connect-client.png)
-   *Herstellen der Verbindung mit dem neuen ALM FTP-Connector*
+   ![Bild verbinden](assets/connect-client.png)
+   *Verbindung mit neuem ALM-FTP-Connector herstellen*
 
 1. Um eine Verbindung mithilfe einer Standardauthentifizierung über ein Kennwort herzustellen, geben Sie den Domänennamen und den FTP-Benutzernamen ein und richten Sie ein Kennwort ein, das den Kriterien für die Kennwortüberprüfung entspricht. Klicken Sie auf Verbinden. Die neue FTP-Verbindung wird erstellt und ist über jeden SFTP-Client zugänglich.
 
    ![FTP-Einstellungen](assets/connect-settings.png)
-   *über Grundauthentifizierung per Passwort*
+   *über einfache Authentifizierung über Kennwort*
 
 1. Installieren Sie einen beliebigen SFTP-Client, z. B. FileZilla. Starten Sie Datei Zilla, und klicken Sie oben links auf Site-Manager öffnen.
 
@@ -98,8 +98,8 @@ Richten Sie die Verbindung auf einem FTP-Client ein (im Abschnitt weiter oben em
 
 1. Klicken Sie auf **[!UICONTROL Neuer Server]**, um einen neuen Server zu erstellen. Benennen Sie den Server nach Bedarf um.
 
-   ![neuer Standort](assets/new-site.png)
-   *Eine Site erstellen*
+   ![Neuer Standort](assets/new-site.png)
+   *Site erstellen*
 
 1. Ordnen Sie die Details von der Seite mit den Connector-Anmeldeinformationen zu.
 
@@ -110,7 +110,7 @@ Richten Sie die Verbindung auf einem FTP-Client ein (im Abschnitt weiter oben em
 
 1. Klicken Sie auf Verbinden.
 
-   ![Referenzen](assets/connector-credentials.png)
+   ![Anmeldeinformationen](assets/connector-credentials.png)
    *Anmeldeinformationen eingeben*
 
    >[!NOTE]
@@ -121,14 +121,14 @@ Richten Sie die Verbindung auf einem FTP-Client ein (im Abschnitt weiter oben em
 
    (Optional) Aktivieren Sie das Kontrollkästchen „Passwörter speichern“, um das Kennwort zu speichern.
 
-   ![Passwort](assets/password.png)
+   ![Kennwort](assets/password.png)
    *Kennwort eingeben*
 
-   (Optional) Wählen Sie die Option **[!UICONTROL Diesem Host immer vertrauen]** aktivieren, um den Host als vertrauenswürdig einzustufen.
+   (Optional) Aktivieren Sie das Kontrollkästchen **[!UICONTROL Diesem Host immer vertrauen]**, um dem Host zu vertrauen.
 
 1. Klicken Sie auf OK.
 
-   ![Unbekannter Host-Schlüssel](assets/unknown-host-key.png)
+   ![Unbekannter Hostschlüssel](assets/unknown-host-key.png)
    *Hostschlüssel*
 
 1. Überprüfen Sie im oberen Bereich den Status und den Fortschritt der Verbindung.
@@ -140,8 +140,8 @@ Richten Sie die Verbindung auf einem FTP-Client ein (im Abschnitt weiter oben em
    * Sie können Dateien per Drag &amp; Drop verschieben.
    * Doppelklicken Sie auf die Datei.
 
-   ![Verbindungszustand](assets/connection-status-progress.png)
-   *Überprüfen Sie den Verbindungsstatus*
+   ![Verbindungsstatus](assets/connection-status-progress.png)
+   *Verbindungsstatus überprüfen*
 
 Sie können den Authentifizierungstyp jederzeit ändern und aktualisieren.
 
@@ -149,9 +149,9 @@ SSH-Schlüssel sind eine weitere Authentifizierungsmethode:
 
 Fügen Sie Ihren öffentlichen Schlüssel in das Textfeld ein, um vorhandene SSH-Schlüssel zu verwenden. Klicken Sie auf Verbinden/Speichern.
 
-Um neue SSH-Schlüssel zu generieren, klicken Sie auf die Schaltfläche **[!UICONTROL SSH-Schlüssel generieren]** Schaltfläche &#39;. Der private Schlüssel wird heruntergeladen. Klicken Sie auf **[!UICONTROL Verbinden/Speichern]**.
+Um neue SSH-Schlüssel zu generieren, klicken Sie auf die Schaltfläche &quot;**[!UICONTROL SSH-Schlüssel generieren]**&quot;. Der private Schlüssel wird heruntergeladen. Klicken Sie auf **[!UICONTROL Verbinden/Speichern]**.
 
-![ssh-Schlüssel erzeugen](assets/ssh-key.png)
+![SSH-Schlüssel generieren](assets/ssh-key.png)
 *SSH-Schlüssel generieren*
 
 Ordnen Sie die Details zu. Wählen Sie „Schlüsseldatei“ als Verbindungsart aus. Wählen Sie die private Schlüsseldatei aus.

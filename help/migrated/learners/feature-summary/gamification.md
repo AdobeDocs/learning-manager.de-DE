@@ -3,14 +3,13 @@ description: Bieten Sie den Benutzenden Gamification-Techniken in Learning Manag
 jcr-language: en_us
 title: Gamification
 contentowner: manochan
-source-git-commit: a8dec2a5e91b6d989a7fb9161e84fcb1f8de752d
+exl-id: ddbc29dd-2d7d-4a8e-84b6-3728fee4a43e
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '1464'
 ht-degree: 70%
 
 ---
-
-
 
 # Gamification
 
@@ -28,13 +27,13 @@ Die Teilnehmer können außerdem die Leistungsstufe, basierend auf den Punkten, 
 
 Das Leaderboard ist eine Gamification-Funktion. Hier werden die Punktzahlen der führenden Teilnehmer auf einer Anzeigetafel dargestellt. Die Teilnehmer können ihre Gamification-Punkte auf dem Leaderboard einsehen.
 
-Klicken Sie auf der Teilnehmer-Startseite auf **[!UICONTROL Gamification]** im linken Bereich. Um das Leaderboard anzuzeigen, klicken Sie auf den Link „Leaderboard“. Durch diese Funktion können die Teilnehmer erkennen, wie sie im Vergleich zu einem bestimmten Teammitglied stehen. Sie zeigt auch ihre Rangposition relativ zu anderen Mitgliedern des Teams.
+Klicken Sie auf der Startseite des Teilnehmers im linken Teilfenster auf **[!UICONTROL Gamification]**. Um das Leaderboard anzuzeigen, klicken Sie auf den Link „Leaderboard“. Durch diese Funktion können die Teilnehmer erkennen, wie sie im Vergleich zu einem bestimmten Teammitglied stehen. Sie zeigt auch ihre Rangposition relativ zu anderen Mitgliedern des Teams.
 
 Hier einige Teilnehmerfunktionen des Leaderboards:
 
 * Teilnehmer, die bei einer Lernprogramminstanz registriert sind, können die Punkte des anderen sehen, wenn Gamification für diese Instanz aktiviert ist.
 * Klicken Sie auf **[!UICONTROL Kollegen hinzufügen]**, um Teammitglieder hinzuzufügen, mit denen Sie sich vergleichen möchten. Das Profilbild Ihres Teammitglieds wird der Zeitleistenskala oben auf der Leaderboard-Seite hinzugefügt. Die Zeitleiste zeigt Ihre Anfangspunkte an. Ihre Position wird nach rechts verschoben, wenn Sie mehr Punkte als andere Teammitglieder erzielt haben. Sie können sie nur mit anderen Mitgliedern der gleichen Gruppe vergleichen.
-* **Benutzergruppen:** Sie können jederzeit die Profile Ihrer Team-Mitglieder auswählen, mit denen Sie Ihren Rang vergleichen möchten, indem Sie die **[!UICONTROL Rank Me With]** aus. Geben Sie im Feld Benutzergruppen auswählen die Gruppe ein und wählen Sie sie aus. Die Liste aller Team-Mitglieder mit den neuesten Punkten finden Sie unten. Interne und externe Benutzer können die Liste anzeigen, aber nur interne Benutzer können andere interne Teilnehmer suchen.
+* **Benutzergruppen:** Sie können jederzeit die Profile Ihrer Teammitglieder auswählen, mit denen Sie Ihren Rang vergleichen möchten, indem Sie die Option **[!UICONTROL Mich einstufen mit]** verwenden. Geben Sie im Feld Benutzergruppen auswählen die Gruppe ein und wählen Sie sie aus. Die Liste aller Team-Mitglieder mit den neuesten Punkten finden Sie unten. Interne und externe Benutzer können die Liste anzeigen, aber nur interne Benutzer können andere interne Teilnehmer suchen.
 
 * Das Dialogfeld „Teilnehmer mit ähnlichem Rang“ zeigt die Namen der Team-Mitglieder an, die sich direkt oberhalb oder unterhalb desselben Rangs wie Sie befinden.
 * Wenn ein externer Benutzer in einen internen Benutzer konvertiert wird, wird die Zeitleiste automatisch aktualisiert.
@@ -61,7 +60,7 @@ Adobe Learning Manager ermöglicht einem Administrator jetzt, ein Gamification-K
 
 ![](assets/feedback-rating.png)
 
-*Feedback-Bewertung anzeigen*
+*Bewertung des Feedbacks anzeigen*
 
 Diese Funktion ermutigt die Benutzer, aktiv Feedback zu geben, was den Teilnehmern ebenso zugute kommt wie den Administratoren, die nun die Sicht der Teilnehmer besser verstehen und die Effizienz eines Kurses besser bewerten können.
 
@@ -176,6 +175,6 @@ Der Stand der vom Teilnehmer erreichten Stufe wird auf der Seite „Eigene Kurse
 
 ## Häufig gestellte Fragen {#frequentlyaskedquestions}
 
-**1. Wie sieht das Leaderboard als Teilnehmer aus?**
+**1. Wie kann das Leaderboard als Teilnehmer angezeigt werden?**
 
 Klicken Sie in der Teilnehmer-App im linken Bereich auf **[!UICONTROL Soziales Lernen]**. Sie können das soziale Leaderboard in der rechten unteren Ecke der Seite sehen.

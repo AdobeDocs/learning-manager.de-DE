@@ -1,16 +1,15 @@
 ---
 jcr-language: en_us
 title: Aktivieren der vollständigen Kontrolle über den freigegebenen Katalog
-description: Aktivieren der vollständigen Kontrolle über den freigegebenen Katalog im Adobe-Lernmanager
+description: Aktivieren der vollständigen Kontrolle über den freigegebenen Katalog in Adobe Learning Manager
 contentowner: saghosh
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: 231ba348-d777-4b13-98b0-06572b0ac7ed
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 89%
 
 ---
-
-
 
 # Aktivieren der vollständigen Kontrolle über den freigegebenen Katalog
 
@@ -73,7 +72,7 @@ Wie die vollständige Katalogkontrolle für Kurse kann der Administrator auch di
 
 ## Kurs zurücksetzen. {#resetcourse}
 
-1. Klicken Sie auf der Katalogkarte mit der fehlerhaften Verknüpfung auf **[!UICONTROL Kurs zurücksetzen]**.
+1. Klicken Sie auf der Katalogkarte mit dem fehlerhaften Link auf **[!UICONTROL Kurs zurücksetzen]**.
 
 <!-- ![](assets/reset-course.png)-->
 

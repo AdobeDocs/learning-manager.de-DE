@@ -2,14 +2,13 @@
 description: Erfahren Sie, wie Sie Teilnehmertranskripte basierend auf Benutzern, Lernobjekten oder Kenntnissen in Learning Manager herunterladen.
 jcr-language: en_us
 title: Teilnehmertranskripte
-source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
+exl-id: 8204aa1e-0e0d-4d9e-9dc0-6260667bf4e7
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '917'
 ht-degree: 85%
 
 ---
-
-
 
 # Teilnehmertranskripte
 
@@ -19,13 +18,13 @@ Mit Adobe Learning Manager können die Manager eines Unternehmens die Transkript
 
 ## Teilnehmertranskripte erstellen {#generatelearnertranscripts}
 
-1. Um Teilnehmertranskripte zu erstellen, klicken Sie auf **[!UICONTROL Berichte]** im linken Bereich der Manager-Anmeldung.
-1. Klicken **[!UICONTROL Meine Berichte]** &quot; auf der Seite.
-1. Klicken **[!UICONTROL Teilnehmertranskripte]** Link.
+1. Um Teilnehmertranskripte zu generieren, klicken Sie auf **[!UICONTROL Berichte]** im linken Bereich in der Manageranmeldung.
+1. Klicken Sie auf der Seite auf die Registerkarte **[!UICONTROL Meine Berichte]**.
+1. Klicken Sie auf den Link **[!UICONTROL Teilnehmertranskripte]**.
 
    ![](assets/learner-transcripts.png)
 
-   *Erstellen von Berichten für Teilnehmertranskripte*
+   *Berichte für Teilnehmertranskripte erstellen*
 
 1. Ein Dialogfeld „Teilnehmertranskripte“ wird angezeigt. Wählen Sie den Datumsbereich, für den Sie das Transkript benötigen.
 
@@ -51,7 +50,7 @@ Wenn der Manager diese Option aktiviert, wird die auf der Seite mit den Profilei
 
 ![](assets/image030.png)
 
-*Teilnehmertranskripte für einen bestimmten Zeitraum herunterladen*
+*Teilnehmertranskripte für einen Zeitbereich herunterladen*
 
 ## Inhalt der Teilnehmertranskriptdatei {#learnertranscriptfilecontent}
 

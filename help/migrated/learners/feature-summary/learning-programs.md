@@ -3,14 +3,13 @@ description: Erfahren Sie, wie Sie Lernprogramme mit der Teilnehmer-App in Learn
 jcr-language: en_us
 title: Lernprogramme
 contentowner: manochan
-source-git-commit: fba5e5ddc1964b485be473bf356806f234688cf4
+exl-id: e2984b79-12a8-4748-bacc-58f8d967b6dd
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '776'
 ht-degree: 84%
 
 ---
-
-
 
 # Lernprogramme
 
@@ -36,7 +35,7 @@ Autor und Administrator können Lernprogramme erstellen.
 
 Sie können als Teilnehmer eine Liste aller verfügbaren Lernprogramme anzeigen. Das Lernobjekt-Widget zeigt einem Teilnehmer alle registrierten und zugewiesenen Lernprogramme an. Klicken Sie im linken Teilfenster auf „Katalog“ und wählen Sie die Filteroption „Lernprogramme“, um alle verfügbaren Lernprogramme anzuzeigen.
 
-Im Fenster &quot; **Eigenes Lernen** können Sie die Schulung, für die Sie registriert sind, nach **Dauer** der Ausbildung und der **formatieren** der Schulung.
+Auf der Seite **Eigenes Lernen** können Sie die Schulung, für die Sie registriert sind, nach **Dauer** der Schulung und **Format** der Schulung filtern.
 
 Sie sehen den Prozentsatz der Kurseffektivität von Kursen auf der Katalogseite. Es kann für einen Kurs/ein Lernprogramm mehrere Instanzen/Sitzungen geben. Klicken Sie auf den Kurs bzw. das Lernprogramm, um ausführliche Informationen dazu abzurufen. Sie können außerdem den Termin für jede Instanz des Lernprogramms/Kurses sehen.
 

@@ -3,14 +3,13 @@ description: Lesen Sie den folgenden Artikel, um zu erfahren, wie Sie die Teilne
 jcr-language: en_us
 title: Verwalten der Teilnehmer für Ihre Sitzung
 contentowner: shhivkum
-source-git-commit: c4ea252656bfbe86a0d69ffdb21dba46783d5848
+exl-id: 2f4f8589-2350-4683-a141-809084d6309a
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '925'
 ht-degree: 91%
 
 ---
-
-
 
 # Verwalten der Teilnehmer für Ihre Sitzung
 
@@ -20,7 +19,7 @@ Lesen Sie den folgenden Artikel, um zu erfahren, wie Sie die Teilnehmer verwalte
 
 Als Kursleiter können Sie die Sitzungen oder Module mit ausstehenden Überprüfungen anzeigen.
 
-Auf der Seite &quot;Sessions/Module&quot; wird eine Spalte angezeigt **Ausstehende Überprüfungen** , der die Anzahl der ausstehenden Überprüfungen für die entsprechende Sitzung/Aktivität anzeigt.
+Auf der Seite &quot;Sessions/Module&quot; wird die Spalte **Ausstehende Überprüfungen** angezeigt, in der die Anzahl der ausstehenden Überprüfungen für die entsprechende Sitzung/Aktivität angezeigt wird.
 
 ## Verwalten der Warteliste für die Sitzung {#managewaitlistforyoursession}
 
@@ -57,7 +56,7 @@ Sie können die Anzahl der bestätigten Teilnehmer, die an der Sitzung teilnehme
    Ein Teilnehmer kann ein Modul erst abschließen, wenn der Teilnahmestatus „Teilgenommen“ lautet.
 
    ![](assets/markattendance.png)
-   *Anwesenheit der Teilnehmer vermerken*
+   *Anwesenheit der Teilnehmer markieren*
 
 ## Senden Sie eine E-Mail an die Teilnehmer {#sendemailstolearners}
 
@@ -77,7 +76,7 @@ Nachdem die Teilnehmerliste für Ihre Sitzung bestätigt wurde, können Sie die 
 Achten Sie auf den QR-Code in der oberen rechten Ecke dieses PDF-Dokuments. Mit dieser Funktion können einzelne Teilnehmer den Code mithilfe der Learning Manager-Mobilanwendung scannen, damit Teilnehmer ihre Teilnahme vermerken können.
 
 ![](assets/exportpdf.png)
-*QR-Code scannen, um Anwesenheit zu markieren*
+*QR-Code scannen, um Anwesenheit zu vermerken*
 
 ## Übertragungen genehmigen oder ablehnen {#approveorrejectsubmissions}
 

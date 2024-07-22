@@ -17,11 +17,11 @@ ht-degree: 41%
 
 Das Einrichten von ALM in MS Teams umfasst drei Schritte und erfordert Unterstützung von ALM-Administrator(in) und Microsoft Azure-Administrator(in). In einigen Organisationen sind Azure-Administrator(in) und MS Teams-Administrator(in) nicht identisch, und sie benötigen daher auch zusätzliche MS Teams-Administrator(inn)en.
 
-**ALM-Admin - Integrations-Admin-Rolle genehmigt Teams-App**
+**ALM-Administrator - Integrations-Administratorrolle genehmigt Teams-App**
 
 Nachdem der Integrationsadministrator die MS Teams-App genehmigt hat, ist die Adobe Learning Manager-App im MS Teams App Store verfügbar und die Teilnehmer können darauf zugreifen. Die App bietet jedoch weder Benachrichtigungen noch eine automatische Anmeldung und wird für die Teilnehmenden in MS Teams nicht angeheftet.
 
-**Microsoft Azure Admin genehmigt die Berechtigung für ALM-App im Azure Dashboard**
+**Microsoft Azure Admin genehmigt die Berechtigung für die ALM-App im Azure Dashboard**
 
 Azure-Administrator(inn)en müssen die erforderlichen Berechtigungen für die ALM-App genehmigen. So kann die ALM-App Benachrichtigungen an MS Teams senden und eine automatische Anmeldung zulassen. Bei der automatischen Anmeldung müssen sich Benutzende nicht separat im Browser bei Adobe Learning Manager anmelden.
 
@@ -33,25 +33,25 @@ MS Teams-Administrator(inn)en sollten in ihrem Admin Center die ALM-App für all
 
 Führen Sie die nachfolgenden Schritte aus:
 
-1. Wählen Sie in der Integrationsadministrator-App **[!UICONTROL Anwendungen]** > **[!UICONTROL Highlights]** und wählen Sie **[!UICONTROL ALM Teams-App]**.
+1. Wählen Sie in der Integrationsadministrator-App **[!UICONTROL Anwendungen]** > **[!UICONTROL Empfohlene Apps]** und anschließend **[!UICONTROL ALM Teams-App]**.
 
    ![](assets/featuredapps.jpg)
    *ALM Teams-App auswählen*
 
-1. Wählen Sie in der oberen rechten Ecke des Bildschirms **[!UICONTROL Genehmigen]**.
+1. Wählen Sie in der oberen rechten Ecke des Bildschirms **[!UICONTROL Genehmigen]** aus.
 
    ![](assets/integration_admin_approval_form.jpg)
-   *Wählen Sie auf der Seite mit den App-Einstellungen Genehmigen .*
+   *Wählen Sie auf der App-Einstellungsseite &quot;Genehmigen&quot; aus*
 
-1. Auswählen **[!UICONTROL OK]** im angezeigten Dialogfeld.
+1. Wählen Sie im angezeigten Dialogfeld **[!UICONTROL OK]** aus.
 
    ![](assets/integration_admin_approved_dialog_box.jpg)
-   *Nach Genehmigung auf &quot;OK&quot; klicken*
+   *Nach Genehmigung OK auswählen*
 
 1. Nach der Genehmigung wird &quot;ALM Teams App&quot; im Abschnitt &quot;Externe Apps&quot; angezeigt.
 
    ![](assets/integration_admin_external_apps.jpg)
-   *Die ALM Teams-App wird auf der Seite Apps angezeigt*
+   Die *ALM Teams-App wird auf der Seite &quot;Apps&quot; angezeigt*
 
 Jetzt können Benutzer auf MS Teams auf die ALM-App zugreifen.
 
@@ -68,7 +68,7 @@ Führen Sie die nachfolgenden Schritte aus:
 
    `https://login.microsoftonline.com/<tenantIdTobeReplaced>/oauth2/authorize?client_id=8d349d9f-bf59-4ece-8022-a41e87d81903&response_type=code&redirect_uri=https://learningmanager.adobe.com`
 
-1. Ersetzen Sie im obigen Link `<tenantIdTobeReplaced>` mit der Mandanten-ID, die auf der Seite &quot;Übersicht&quot; unten verfügbar ist. Geben Sie die neue URL ein.
+1. Ersetzen Sie im obigen Link `<tenantIdTobeReplaced>` durch die Mandanten-ID, die auf der Seite &quot;Übersicht&quot; unten verfügbar ist. Geben Sie die neue URL ein.
 
 1. Fügen Sie die Adobe Learning Manager-App zu Ihren Azure-Anwendungen hinzu.
 
@@ -85,20 +85,20 @@ Führen Sie die nachfolgenden Schritte aus:
    ![](assets/microsoft_azure_ALMTeamsNonProdApp.jpg)
    *Registerkarte &quot;Berechtigungen&quot; anzeigen*
 
-1. Wählen Sie auf der Registerkarte Berechtigungen &#39; **[!UICONTROL Administratorzustimmung für MSFT erteilen]**&#39;, um ALM-Teams-App-Berechtigungen zu erteilen.
+1. Wählen Sie auf der Registerkarte &quot;Berechtigungen&quot; &quot;**[!UICONTROL Administratorzustimmung für MSFT erteilen]**&quot; aus, um ALM Teams-App-Berechtigungen zu erteilen.
 
    ![](assets/microsoft_azure_ALMTeamsNonProdApp_permissions.jpg)
    *Berechtigungen auswählen*
 
-1. Auswählen **[!UICONTROL Akzeptieren]**.
+1. Wählen Sie **[!UICONTROL Akzeptieren]**.
 
    ![](assets/microsoft_azure_ALMTeamsNonProdApp_permission_request.jpg)
-   *&quot;Akzeptieren&quot; auswählen*
+   *Akzeptieren auswählen*
 
 1. Nach der Erteilung erhalten die Teilnehmer über diese Berechtigungen die ALM-App, sodass sie sich im Hintergrund anmelden und Benachrichtigungen an die Teilnehmer in der MS Teams-App senden können.
 
    ![](assets/microsoft_azure_ALMTeamsNonProdApp_permission_request_granted.jpg)
-   *Zugriff wird gewährt*
+   *Zugriff gewährt*
 
 ## MS Teams-Administrator(in) erstellt eine Richtlinie für die Teams-App
 
@@ -107,18 +107,18 @@ Führen Sie die nachfolgenden Schritte aus:
 1. Als MS Teams-Administrator erstellen Sie im Admin Center eine Richtlinie zum Hinzufügen der Teams-App zur Teams-App Ihrer Teilnehmer.
 
    ![](assets/microsoft_teams_admin_center.png)
-   *Erstellen einer Richtlinie*
+   *Richtlinie erstellen*
 
-1. Navigieren Sie zum Abschnitt “Setup-Richtlinien“. Erstellen Sie eine globale Richtlinie und wählen Sie **[!UICONTROL Applikationen hinzufügen]** im Unterabschnitt Angeheftete Anwendungen .
+1. Navigieren Sie zum Abschnitt “Setup-Richtlinien“. Erstellen Sie eine globale Richtlinie und wählen Sie **[!UICONTROL Anwendungen hinzufügen]** im Unterabschnitt Angeheftete Anwendungen.
 
    ![](assets/microsoft_teams_admin_center_add_installed_apps.png)
    *Richtlinie hinzufügen*
 
-1. Suchen Sie im folgenden Dialogfeld nach **[!UICONTROL Adobe Learning Manager]** und fügen Sie die App hinzu. Dadurch wird der Adobe-Lernmanager im Abschnitt &quot;Installierte Apps&quot; hinzugefügt.
+1. Suchen Sie im folgenden Dialogfeld nach **[!UICONTROL Adobe Learning Manager]** und fügen Sie die App hinzu. Dadurch wird Adobe Learning Manager im Abschnitt Installierte Apps hinzugefügt.
 
    ![](assets/microsoft_teams_admin_center_installed_apps.png)
-   *Applikation installieren*
+   *App installieren*
 
 1. Speichern Sie diese Richtlinie. Dadurch ist die App für alle in der Organisation verfügbar.
 
-Alternativ können Administrator(inn)en eine benutzerdefinierte Richtlinie anstelle einer globalen Richtlinie erstellen. Fügen Sie den Adobe-Lernmanager dieser benutzerdefinierten Richtlinie hinzu und wenden Sie die benutzerdefinierte Richtlinie dann nur auf die Benutzergruppen an, die auf den Adobe-Lernmanager zugreifen müssen.
+Alternativ können Administrator(inn)en eine benutzerdefinierte Richtlinie anstelle einer globalen Richtlinie erstellen. Fügen Sie dieser benutzerdefinierten Richtlinie Adobe Learning Manager hinzu und wenden Sie die benutzerdefinierte Richtlinie dann nur auf die Benutzer an, die auf Adobe Learning Manager zugreifen müssen.

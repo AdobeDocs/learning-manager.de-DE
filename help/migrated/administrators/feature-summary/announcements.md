@@ -35,7 +35,7 @@ Es gibt vier Arten von Ankündigungen:
 
 1. Fügen Sie im Feld „Meldung“ den Text für die Ankündigung ein. Hier können Sie auch eine Ankündigungs-URL hinzufügen. Die URL müssen Sie jedoch in der HTML-Form hinzufügen,
 
-   Beispiel:  `code <a href="http://www.w3schools.com" target="_blank">Visit W3Schools</a>.`
+   Beispiel: `code <a href="http://www.w3schools.com" target="_blank">Visit W3Schools</a>.`
 
    Wenn Sie „target=&quot;_blank&quot;“ angegeben haben und ein Benutzer auf die Ankündigungs-URL klickt, wird der Link auf einer neuen Registerkarte geöffnet. Wenn Sie „target“ nicht angeben, wird der Link im selben Browser geöffnet.
 
@@ -49,7 +49,7 @@ Es gibt vier Arten von Ankündigungen:
    * Aktivieren Sie das Kontrollkästchen „Ankündigungsnotizen aktivieren“, um diese Ankündigung in eine Kurznotiz umzuwandeln.
    * Wählen Sie den gewünschten Zeitpunkt für die Übermittlung der Ankündigung.
 
-1. Auswählen **[!UICONTROL An einem Datum]** , wenn Sie die Ankündigung für ein späteres Datum planen möchten, und klicken Sie auf den Textbereich daneben. Ein Kalenderpopup wird angezeigt, in dem Sie das Startdatum auswählen können. Wählen Sie auf dieselbe Weise das Enddatum.
+1. Wählen Sie **[!UICONTROL An einem Datum]**, wenn Sie die Ankündigung für ein späteres Datum planen möchten, und klicken Sie auf den Textbereich daneben. Ein Kalenderpopup wird angezeigt, in dem Sie das Startdatum auswählen können. Wählen Sie auf dieselbe Weise das Enddatum.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 1. Klicken Sie auf der Registerkarte &quot;Entwürfe&quot; auf das Symbol &quot;Einstellungen&quot; neben einer Ankündigung und dann auf &quot;Senden&quot;.
 
@@ -70,15 +70,15 @@ Wenn Sie diese Option wählen, werden alle Mediendateien, die Sie auswählen, au
 
    Beginnen Sie mit der Eingabe des Namens der Benutzergruppe in das Textfeld und wählen Sie den Namen aus der Dropdown-Liste. Wählen Sie auf dieselbe Weise die Schulung, indem Sie den Objektnamen in das Textfeld eingeben.
 
-1. Im Dialogfeld &quot; **[!UICONTROL Erweiterte Einstellungen]** &quot; haben Sie die folgenden Optionen:
+1. Im Abschnitt **[!UICONTROL Erweiterte Einstellungen]** stehen Ihnen die folgenden Optionen zur Verfügung:
 
-   * Klicken **[!UICONTROL Sofort]** , wenn die Ankündigung sofort veröffentlicht werden soll.
-   * Klicken **[!UICONTROL Nie]** , wenn Ihre Ankündigung nicht ablaufen soll.
-   * Wählen Sie das **[!UICONTROL Start]** und **[!UICONTROL Ende]** die Termine für die Ankündigung.
+   * Klicken Sie auf **[!UICONTROL Sofort]**, wenn die Ankündigung sofort veröffentlicht werden soll.
+   * Klicken Sie auf **[!UICONTROL Nie]**, wenn Ihre Ankündigung nicht ablaufen soll.
+   * Wählen Sie das Datum **[!UICONTROL Start]** und **[!UICONTROL Ende]** für die Ankündigung aus.
 
    ![](assets/advanced-settings.png)
 
-   *Festlegen der Anzeigedauer eines Mastertitels*
+   *Zeit für die Anzeige eines Mastertitels festlegen*
 
 **Gibt es eine Beschränkung der Anzahl der Live-Ankündigungen von Mastertiteln?**
 
@@ -90,7 +90,7 @@ Wenn Sie diese Option wählen, wird jede von Ihnen gewählte Schulung bestimmten
 
 ![](assets/recommendation-announcement.png)
 
-*Auswählen der empfohlenen Schulung, die einem Teilnehmer angezeigt werden soll*
+*Wählen Sie die empfohlene Schulung aus, die einem Teilnehmer angezeigt werden soll*
 
 1. Wählen Sie die Schulung aus, die Sie den Teilnehmern empfehlen möchten. Sie können bis zu 10 Schulungen hinzufügen.
 
@@ -102,9 +102,9 @@ Wenn Sie diese Option wählen, wird jede von Ihnen gewählte Schulung bestimmten
 
 1. Im Abschnitt „Erweiterte Einstellungen“ können Sie folgende Optionen nutzen:
 
-   * Klicken **[!UICONTROL Sofort]** , wenn die Ankündigung sofort veröffentlicht werden soll.
-   * Klicken **[!UICONTROL Nie]** , wenn Ihre Ankündigung nicht ablaufen soll.
-   * Wählen Sie das **[!UICONTROL Start]** und **[!UICONTROL Ende]** die Termine für die Ankündigung.
+   * Klicken Sie auf **[!UICONTROL Sofort]**, wenn die Ankündigung sofort veröffentlicht werden soll.
+   * Klicken Sie auf **[!UICONTROL Nie]**, wenn Ihre Ankündigung nicht ablaufen soll.
+   * Wählen Sie das Datum **[!UICONTROL Start]** und **[!UICONTROL Ende]** für die Ankündigung aus.
 
    <!--![](assets/advanced-settings.png)-->
 
@@ -137,13 +137,13 @@ Auf der Registerkarte „Gesendet“ können Sie alle Ankündigungen anzeigen, d
 
 Verwenden Sie diese Option, um gezielte Ad-hoc-E-Mails an Teilnehmer einer ausgewählten Benutzergruppe oder an Teilnehmer zu senden, die an einer bestimmten Schulung angemeldet sind.
 
-![Der Administrator erstellt eine E-Mail-Ankündigung](assets/email-announcement-admin.png)
+![Der Administrator erstellt eine E-Mail-Ankündigung](assets/email-announcement-admin.png).
 
 *Ad-hoc-E-Mails an Teilnehmer senden*
 
-*Der Administrator erstellt eine E-Mail-Ankündigung*
+*Der Administrator erstellt eine E-Mail-Ankündigung*.
 
-1. Auswählen **[!UICONTROL Als E-Mail-Adresse eingeben]**.
+1. Wählen Sie **[!UICONTROL Als E-Mail]** eingeben.
 1. Geben Sie den E-Mail-Betreff und den Nachrichtentext ein.
 1. Im Abschnitt &quot;Ziel&quot; haben Sie folgende Möglichkeiten:
 

@@ -17,14 +17,14 @@ Erfahren Sie, wie Sie Kataloge in Learning Manager verwenden, um die entsprechen
 
 **Katalog** besteht aus allen Kursen, Lernprogrammen, Zertifizierungen und Arbeitshilfen, die für eine Teilnehmerrolle im Unternehmenskonto verfügbar sind.
 
-Teilnehmer können alle zugewiesenen und verfügbaren Lernobjekte (Lernprogramme, Kurse und Zertifizierungen) im Fenster &quot; **Standardkatalog**. Diese Lernobjekte sind für jeden Teilnehmer basierend auf seiner Rolle, Bezeichnung, Benutzergruppe, seinem Profil usw. einzigartig.
+Teilnehmer können alle zugewiesenen und berechtigten Lernobjekte (Lernprogramme, Kurse und Zertifizierungen) im **Standardkatalog** anzeigen. Diese Lernobjekte sind für jeden Teilnehmer basierend auf seiner Rolle, Bezeichnung, Benutzergruppe, seinem Profil usw. einzigartig.
 
 Sie können die Lernobjekte anhand verschiedener Kategorien wie Produkte, Arbeitsrollen, Typen, Benötigte Zeit, Kenntnisse und Stichwörter sortieren. Sie können auch mithilfe der Optionen im linken Bereich filtern: nach Lernobjekten, nach Kenntnissen und nach Abschlussstatus.
 
-Verwenden Sie die Suchleiste oben auf der Seite, um die Namen Ihrer vertrauten Lernobjekte einzugeben. Teilnehmer können zwischen dem Raster und der Listenansicht wechseln, indem sie dieses ![](assets/icon-list.png) Symbol.
+Verwenden Sie die Suchleiste oben auf der Seite, um die Namen Ihrer vertrauten Lernobjekte einzugeben. Teilnehmer können zwischen dem Raster und der Listenansicht wechseln, indem sie dieses Symbol ![](assets/icon-list.png) auswählen.
 
 ![](assets/catalogs.png)
-*Anzeigen von Katalogen*
+*Kataloge anzeigen*
 
 <!--As a learner, you can  filter training based on the format of training, for example, Classroom, Self-paced, or Virtual Classroom. In addition, the learner can also filter the trainings based on Training Duration. Skill Levels filter which is already available, can now be enabled/disabled by Administrator. -->
 
@@ -38,6 +38,6 @@ Sie können auch nach der Dauer einer Schulung filtern. Der Dauerfilter umfasst 
 
 *Nach Kursdauer filtern*
 
-Die Schulung **Dauer** und **Format** Filter werden anhand der Schulungsinhalte identifiziert, die für die Standardinstanz und für das vom Konto bevorzugte Gebietsschema verfügbar sind.
+Die Filter &quot;**Dauer**&quot; und &quot;**Format**&quot; für die Schulung werden anhand der Schulungsinhalte identifiziert, die für die Standardinstanz und für das von einem Konto bevorzugte Gebietsschema verfügbar sind.
 
 Sobald eine Schulung veröffentlicht ist, kann es bis zu einer Stunde dauern, bis die Daten als Filter verfügbar sind.

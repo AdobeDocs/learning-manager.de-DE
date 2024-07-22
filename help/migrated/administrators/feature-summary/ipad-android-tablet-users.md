@@ -3,24 +3,23 @@ jcr-language: en_us
 title: Benutzer von iPad- und Android-Tablets
 description: Einstellungen für Benutzer von iPad- und Android-Tablets
 contentowner: manochan
-source-git-commit: 53c1a5283295b56424d697bc26c5db31c2edca0f
+exl-id: 19abe9d6-b48e-4027-bb72-95d7c767c1ec
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '190'
 ht-degree: 57%
 
 ---
 
-
-
 # Benutzer von iPad- und Android-Tablets
 
-In der Learning Manager-App auf iPad- oder Google Nexus 9-Android-Tablet sehen Sie nach der Anmeldung als Teilnehmer Folgendes **Startseite** angezeigt:
+In der Learning Manager-App auf iPad- oder Google Nexus 9-Android-Tablet sehen Sie nach der Anmeldung als Teilnehmer den folgenden **Start**-Bildschirm:
 
 ![](assets/screenshot-2015-08-07-12-24-40-e1439211134842.png)
 
 *Der Startbildschirm der App*
 
-Um zu den Lern- und Katalogfunktionen zu navigieren, tippen Sie auf das **Menü** &quot; und wählen Sie die entsprechende Option aus.
+Um zu den Lern- und Katalogfunktionen zu navigieren, tippen Sie auf das Dropdown-Menü **Menü** und wählen Sie die entsprechende Option aus.
 
 <!--![](assets/menu-ipad.png)-->
 
@@ -28,7 +27,7 @@ Um zu den Lern- und Katalogfunktionen zu navigieren, tippen Sie auf das **Menü*
 
 Sie können offline auf die Learning Manager-App in iPad und Google Nexus 9 Android-Tablets zugreifen. Laden Sie Kurse herunter und bearbeiten Sie sie im Offlinemodus. Wenn Sie wieder mit dem Netzwerk verbunden sind, synchronisieren Sie sie mit der Online-App.
 
-1. Tippen **Menü** oben und tippen Sie auf **Lernressourcen** aus. Eine Liste aller verfügbaren Kurse wird in Form von Kacheln angezeigt.
+1. Tippen Sie oben auf das Dropdown-Menü **Menü** und tippen Sie auf die Option **Lernen**. Eine Liste aller verfügbaren Kurse wird in Form von Kacheln angezeigt.
 1. Tippen Sie auf das Download-Symbol unten auf jeder Lernobjekt-Kachel, um die Lerninhalte herunterzuladen.
 
    <!--![](assets/download-ipad.png)-->

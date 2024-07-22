@@ -19,7 +19,7 @@ In diesem Artikel finden Sie Informationen zum Integrieren des Fluidic Players i
 
 Als Unternehmen können Sie jetzt eine benutzerdefinierte Umgebung außerhalb von Learning Manager für Ihre Teilnehmenden bereitstellen. Mit der öffentlichen API können Sie alle Informationen zu Lernobjekten, Teilnehmerregistrierungen und Lernfortschritt abrufen und auf Ihrer Website anzeigen. Darüber hinaus können Sie sogar den Fluidic Player von Learning Manager in Ihre Website einbetten, sodass der Teilnehmer den Inhalt direkt auf Ihrer Website nutzen kann. Der Fluidic Player gibt Ihnen die Möglichkeit, alle Inhalte abzuspielen, die Learning Manager unterstützt. Wenn es auf Ihrer eigenen Website eingebettet ist, verfügt es über genau die gleichen Funktionen wie bei Verwendung in Learning Manager.
 
-**Beliebige eLearning-Inhalte wiedergeben[](../../learners/feature-summary/fluidic-player.md#main-pars_text_779047019)**
+**Beliebigen eLearning-Inhalt abspielen[](../../learners/feature-summary/fluidic-player.md#main-pars_text_779047019)**
 
 Der Fluidic Player spielt praktisch jede Art von eLearning-Inhalten auf dieselbe konsistente und intuitive Art und Weise ab, ohne dass Plug-ins oder Downloads erforderlich sind. Der Teilnehmer kann den Inhalt starten und dieser wird unabhängig vom Dateityp abgespielt.
 
@@ -45,13 +45,13 @@ Das Erstellen einer benutzerdefinierten Anwendung zum Integrieren des Fluidic Pl
 
 ### 1. Erstellen einer Anwendung in der Integrations-Admin-App {#1createanapplicationinintegrationadmin}
 
-Dieser Schritt ist erforderlich, um eine Anwendungs-/Client-ID und ein Anwendungs-&#x200B;&#x200B;/Client-Geheimnis zu erstellen, das zum Abrufen des Aktualisierungstokens und des Zugriffstokens verwendet wird. Weitere Informationen zum Erstellen einer Anwendung finden Sie unter  [Anwendungsentwicklungsprozess.](developer-manual.md#main-pars_header_994876235)
+Dieser Schritt ist erforderlich, um eine Anwendungs-/Client-ID und ein Anwendungs-&#x200B;&#x200B;/Client-Geheimnis zu erstellen, das zum Abrufen des Aktualisierungstokens und des Zugriffstokens verwendet wird. Weitere Informationen zum Erstellen einer Anwendung finden Sie unter [Anwendungsentwicklungsprozess.](developer-manual.md#main-pars_header_994876235)
 
 1. Öffnen Sie in der **[!UICONTROL Integrations-Admin-App]** **[!UICONTROL Anwendungen]**.
 
 1. Wählen Sie in der rechten oberen Ecke der Seite **[!UICONTROL Registrieren]** aus.
 1. Das Fenster **[!UICONTROL Neuen Antragsteller registrieren]** wird geöffnet. Füllen Sie die erforderlichen Felder aus.
-1. Wenn die benutzerdefinierte Anwendung für mehrere Konten freigegeben werden muss, wählen Sie **[!UICONTROL Nein]** im Optionsfeld  **[!UICONTROL Nur für dieses Konto?]**
+1. Wenn die benutzerdefinierte Anwendung für mehrere Konten freigegeben werden muss, wählen Sie im Optionsfeld **[!UICONTROL Nur für dieses Konto?]** die Option **[!UICONTROL Nein]** aus.
 1. Um die Anwendung zu speichern und ID und Geheimnis für die Anwendung zu generieren, klicken Sie auf **[!UICONTROL Speichern]**.
 
 ### 2. Abrufen des Zugriffstokens {#2retrievingaccesstoken}
@@ -75,12 +75,12 @@ client_id= <application_id>
 &email=<email_id>
 ```
 
-Hier, **[!UICONTROL Client-ID]** ist die in Schritt 1 erhaltene Anwendungs-ID.
-**[!UICONTROL redirect_url]** ist die in Schritt 1 festgelegte redirect_url.
-**[!UICONTROL Status]** ist jeder Dummy-Daten, auf deren Grundlage wir Umleitungs-URL filtern müssen, um OAuth-Code zu erhalten. Der Umfang ist der Teilnehmerbereich, der in Schritt 1 festgelegt wurde.
-**[!UICONTROL response_type]**e steht immer für &quot;CODE&quot;.\
-**[!UICONTROL Bericht]**ist ein optionales Feld.\
-**[!UICONTROL email]** ist ein optionales Feld\
+Hier ist **[!UICONTROL Client-ID]** die in Schritt 1 erhaltene Anwendungs-ID.
+**[!UICONTROL redirect_url]** ist die in Schritt 1 festgelegte Umleitungs-URL.
+**[!UICONTROL state]** sind beliebige Dummy-Daten, auf deren Grundlage wir die Umleitungs-URL filtern müssen, um den OAuth-Code abzurufen. Der Umfang ist der Teilnehmerbereich, der in Schritt 1 festgelegt wurde.
+**[!UICONTROL response_type]**e ist immer &quot;CODE&quot;.\
+**[!UICONTROL account]** ist ein optionales Feld.\
+**[!UICONTROL email]** ist ein optionales Feld.\
 &#42; Wenn sowohl die Konto-ID als auch die E-Mail-Adresse angegeben werden, kann sich der Benutzer über die obige URL bei demselben Konto anmelden. Dieses Endpunktbeispiel wird in der Datei &quot;index.html&quot; in der Beispielanwendung dargestellt.
 
 * Zugriffstoken abrufen
@@ -155,7 +155,7 @@ code window.addEventListener("message", function closePlayer(){
 ## Tutorial für Beispielanwendung {#sampleapplicationtutorial}
 
 Das angehängte PDF-Dokument enthält ein Beispielanwendungs-Tutorial.
-[Beispiel-Tutorial und Tutorial-Quelle zum Einbetten von Fluidic Player.](assets/sample-applicationtutorial.zip) Alternative Inhalte
+[Beispieltutorial und Tutorialquelle zum Einbetten des Fluidic Players.](assets/sample-applicationtutorial.zip) Alternativer Inhalt
 
 Als Administrator können Sie Ihr Kursmaterial so einrichten, dass Sie den Teilnehmern im Fluidic Player alternative Inhalte anbieten können. Wenn Sie beispielsweise Teilnehmer in verschiedenen Regionen haben, die mehrere Sprachen verwenden möchten, können Sie denselben Inhalt in mehreren Sprachen erstellen. Der Fluidic Player bietet dem Teilnehmer die Sprache, für die er möglicherweise eingerichtet ist, aber der Teilnehmer hat auch die Möglichkeit, direkt im Player zu einer anderen Sprache zu wechseln.
 
@@ -167,7 +167,7 @@ Diese Aufgabe muss von einem Mitarbeiter Ihres IT-Teams oder einem externen Bera
 
 1. Ändern Sie die URL des eingebetteten Players von Learning Manager mit Parametern, die auf das exakte Lernobjekt verweisen, das absolviert werden muss.
 
-   URL:  [https://learningmanager.adobe.com/app/player](https://cpcontents.adobe.com/public/embedplayer/index22fa615ec2baa034a22090c8cd4289fa.html)
+   URL: [https://learningmanager.adobe.com/app/player](https://cpcontents.adobe.com/public/embedplayer/index22fa615ec2baa034a22090c8cd4289fa.html)
 
 1. Verwenden Sie einen der folgenden Parameter, um einen Kurs zu starten:
 
@@ -179,7 +179,7 @@ Diese Aufgabe muss von einem Mitarbeiter Ihres IT-Teams oder einem externen Bera
 
 1. Verwenden Sie das Zugriffstoken als obligatorischen Parameter.
 
-   * access_token : Dies ist der Sicherheitsparameter, verwenden Sie das öffentliche API-OAuth-Zugriffstoken
+   * access_token : Dies ist der Sicherheitsparameter, verwenden Sie die öffentliche API-Authentifizierung   Zugriffstoken
 
    Sie können Ihr Token abrufen, indem Sie Ihren integrierbaren Fluidic Player in Ihrer Integrationsadministration einrichten. Sie können Ihr Authentifizierungstoken abrufen und als Zugriffstoken verwenden.
 
@@ -195,7 +195,7 @@ Diese Aufgabe muss von einem Mitarbeiter Ihres IT-Teams oder einem externen Bera
 
    Weitere Details zur Verwendung der API finden Sie hier:
 
-   Learning Manager V1 API - [https://learningmanager.adobe.com/docs/primeapi/v1/](https://learningmanager.adobe.com/docs/primeapi/v1/)
+   Learning Manager V1-API - [https://learningmanager.adobe.com/docs/primeapi/v1/](https://learningmanager.adobe.com/docs/primeapi/v1/)
 
 
 
@@ -213,7 +213,7 @@ Diese Aufgabe muss von einem Mitarbeiter Ihres IT-Teams oder einem externen Bera
 
 Ändern Sie die URL des eingebetteten Players von Learning Manager mit Parametern, die auf das exakte Lernobjekt verweisen, das absolviert werden muss.
 
-URL:  [https://learningmanager.adobe.com/app/player](https://learningmanager.adobe.com/app/player)
+URL: [https://learningmanager.adobe.com/app/player](https://learningmanager.adobe.com/app/player)
 
 Jeder dieser Parameter kann zum Starten eines Kurses verwendet werden:
 
@@ -224,16 +224,16 @@ Jeder dieser Parameter kann zum Starten eines Kurses verwendet werden:
 
 Obligatorischer Parameter:
 
-* access_token : Dies ist der Sicherheitsparameter, verwenden Sie das öffentliche API-OAuth-Zugriffstoken
+* access_token : Dies ist der Sicherheitsparameter, verwenden Sie die öffentliche API-Authentifizierung   Zugriffstoken
 
 Führen Sie Lern-Manager-API-Aufrufe durch, um die oben genannten Parameter abzurufen. Diese API-Aufrufe müssen von der Anwendung durchgeführt werden, die Ihr IT-Mitarbeiter bzw. -Berater erstellt und auf Ihrer Website hostet.
 
 Weitere Details zur Verwendung der API finden Sie hier:
 
-Learning Manager V1 API - [https://learningmanager.adobe.com/docs/primeapi/v1/](https://learningmanager.adobe.com/docs/primeapi/v1/)
+Learning Manager V1-API - [https://learningmanager.adobe.com/docs/primeapi/v1/](https://learningmanager.adobe.com/docs/primeapi/v1/)
 
 
 
-Learning Manager V2-API -  [https://learningmanager.adobe.com/docs/primeapi/v2/](https://learningmanager.adobe.com/docs/primeapi/v2/)
+Learning Manager V2-API - [https://learningmanager.adobe.com/docs/primeapi/v2/](https://learningmanager.adobe.com/docs/primeapi/v2/)
 
 

@@ -4,20 +4,19 @@ jcr-language: en_us
 title: Lernprogramme
 contentowner: manochan
 preview: true
-source-git-commit: 6d313e62b029f50aa77950e00b97f5c278c03b53
+exl-id: 360dee1f-a19c-4aa2-9fc4-c318a5116337
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '1479'
 ht-degree: 75%
 
 ---
 
-
-
 # Lernprogramme
 
 >[!WARNING]
 >
->Lernprogramme sind im Adobe-Lernmanager veraltet.
+>Lernprogramme sind in Adobe Learning Manager veraltet.
 
 
 In diesem Artikel erfahren Sie, wie Sie Lernprogramme in Learning Manager erstellen und verwalten
@@ -41,7 +40,7 @@ Administratoren können Lernprogramme erstellen. Um ein Lernprogramm zu erstelle
 
    Einem Lernprogramm können alle Kurstypen hinzugefügt werden. Dazu gehören Kurse im Schulungsraum und im virtuellen Schulungsraum, Aktivitäten, Kurse zum Selbststudium und gemischte Kurse. Vom Manager nominierte und vom Manager genehmigte Kurse werden bei der Kursauswahl in den Lernprogrammen nicht angezeigt.
 
-1. Bevor Sie ein Lernprogramm veröffentlichen, müssen Sie ihm Kurse hinzufügen. Klicken **[!UICONTROL Katalog]** &quot;, um Kurse mit dem Lernprogramm zu verknüpfen. Eine Liste aller verfügbaren Kursen wird angezeigt.
+1. Bevor Sie ein Lernprogramm veröffentlichen, müssen Sie ihm Kurse hinzufügen. Klicken Sie auf die Registerkarte **[!UICONTROL Katalog]**, um dem Lernprogramm Kurse zuzuordnen. Eine Liste aller verfügbaren Kursen wird angezeigt.
 
 1. Wählen Sie die Kurse aus, die Sie dem Lernprogramm hinzufügen möchten, indem Sie mit der Maus auf eine Kurskachel zeigen und darauf klicken. Wenn der Kurs dem Lernprogramm noch nicht hinzugefügt wurde, wird in der Mitte der betreffenden Kurskachel ein Pluszeichen angezeigt.
 
@@ -49,18 +48,18 @@ Administratoren können Lernprogramme erstellen. Um ein Lernprogramm zu erstelle
 
    **Hinweis**
 
-   Zeigen Sie die Liste aller dem Lernprogramm hinzugefügten Kurse im **[!UICONTROL Lehrplan]** &quot; ändern. Im unteren Teil der dem Kurs bereits hinzugefügten Kurskacheln wird die Registerkarte **[!UICONTROL Katalog]** angezeigt.
+   Auf der Registerkarte **[!UICONTROL Stundenplan]** wird die Liste aller dem Lernprogramm hinzugefügten Kurse angezeigt. Im unteren Teil der dem Kurs bereits hinzugefügten Kurskacheln wird die Registerkarte **[!UICONTROL Katalog]** angezeigt.
 
-1. Klicken **[!UICONTROL Zurück zu den Programmen]** oben im linken Bereich, um eine Liste aller Lernprogramme anzuzeigen. Ihr neu hinzugefügtes Lernprogramm wird jetzt dort aufgeführt.
+1. Klicken Sie oben im linken Bereich auf **[!UICONTROL Zurück zu Programmen]**, um eine Liste aller Lernprogramme anzuzeigen. Ihr neu hinzugefügtes Lernprogramm wird jetzt dort aufgeführt.
 1. Sie können das Lernprogramm veröffentlichen, indem Sie im linken Teilfenster auf „Übersicht“ klicken und dann „Aktionen“ > „Veröffentlichen“ wählen. Sie können das Lernprogramm auch in der Ansicht „Kurse und Instanzen“ veröffentlichen, indem Sie in der rechten oberen Ecke der Seite auf „Veröffentlichen“ klicken.
 
 ## Teilnehmer zu Lernprogramm hinzufügen {#addlearnerstoalearningprogram}
 
-Weitere Informationen zum Registrieren von Teilnehmern und zu den folgenden Schritten finden Sie unter  [Teilnehmer registrieren.](courses.md#main-pars_header_1058138132)
+Weitere Informationen zum Registrieren von Teilnehmern und zu den folgenden Schritten finden Sie unter [Registrieren von Teilnehmern.](courses.md#main-pars_header_1058138132)
 
 ## Vollständige Katalogsteuerung für Lernprogramme aktivieren {#catalog}
 
-Wie vollständige Gewährung [Katalogsteuerung für Lernergebnisse oder Module](shared-catalog-full-control.md)können Sie auch die vollständige Katalogsteuerung für Lernprogramme aktivieren.
+Wie die vollständige [Katalogsteuerung für Lernergebnisse oder Module ](shared-catalog-full-control.md) können Sie auch die vollständige Katalogsteuerung für Lernprogramme gewähren.
 
 ## Kurs zurücksetzen.
 
@@ -70,7 +69,7 @@ In einem Lernprogramm kann der Administrator den Fortschritt des Kurses zurücks
 
 Um einen Kurs zurückzusetzen, muss der Administrator einen Kurs aus der Dropdownliste „Kurse“ auswählen.
 
-Wählen Sie dann im Fenster &quot; **[!UICONTROL Aktionen]** &quot; auf **[!UICONTROL Kurs zurücksetzen]**.
+Klicken Sie dann in der Dropdown-Liste **[!UICONTROL Aktionen]** auf **[!UICONTROL Kurs zurücksetzen]**.
 
 Teilnehmer können jetzt die Module der ausgewählten Kurse von Anfang an starten.
 
@@ -155,16 +154,16 @@ Administratoren können die Reihenfolge festlegen, in der Teilnehmer in den Lern
 
 Um die Reihenfolge der Kurse in einem Lernprogramm zu aktualisieren,
 
-1. Klicken Sie auf die gewünschte Lernprogrammkarte und klicken Sie auf **[!UICONTROL Kurse]** im linken Bereich.
+1. Klicken Sie auf die gewünschte Lernprogrammkarte und klicken Sie im linken Teilfenster auf **[!UICONTROL Kurse]**.
 
-1. Eine Liste von Kurskarten, die mit dem Lernprogramm verknüpft ist, wird angezeigt. Klicken **[!UICONTROL Bearbeiten]** oben rechts auf der Seite.
+1. Eine Liste von Kurskarten, die mit dem Lernprogramm verknüpft ist, wird angezeigt. Klicken Sie in der rechten oberen Ecke der Seite auf **[!UICONTROL Bearbeiten]**.
 1. Sie können die Reihenfolge der Liste ändern, indem Sie auf eine Kurskarte klicken und diese an die entsprechende Position ziehen.
-1. Klicken **[!UICONTROL Neu veröffentlichen]**.
+1. Klicken Sie auf **[!UICONTROL Neu veröffentlichen]**.
 
 ## Bearbeiten eines veröffentlichten Lernprogramms {#editingapublishedlearningprogram}
 
 Ein Lernprogramm kann von einem Administrator in einem veröffentlichten Status bearbeitet werden. In diesem Status kann der Administrator alle Abschnitte eines Lernprogramms bearbeiten und erneut veröffentlichen.
 
-Um ein veröffentlichtes Lernprogramm zu bearbeiten, klicken Sie auf die Lernprogrammkarte und dann auf **[!UICONTROL Bearbeiten]** oben rechts auf der Seite.
+Um ein veröffentlichtes Lernprogramm zu bearbeiten, klicken Sie auf die Lernprogrammkarte und klicken Sie in der oberen rechten Ecke der Seite auf **[!UICONTROL Bearbeiten]**.
 
 Wenn die Seite beim Bearbeiten der Abschnitte eines Lernprogramms verlassen müssen, müssen Sie das Lernprogramm erneut veröffentlichen. Es wird ein Dialogfeld für die Bestätigung zur erneuten Veröffentlichung des Lernprogramms angezeigt.

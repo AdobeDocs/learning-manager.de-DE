@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Adobe Connect-Integration
 description: Autoren können während der Erstellung von Kursen Kurse für das virtuelle Klassenzimmer über Adobe Connect erstellen. Um Adobe Connect für Ihr Learning Manager-Konto zu aktivieren, müssen Sie den Administrator Ihres Unternehmens kontaktieren.
 contentowner: jayakarr
-source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
+exl-id: 13458f93-9ea7-4aab-8b33-3c4f4dd5886d
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 70%
 
 ---
-
-
 
 # Adobe Connect-Integration
 
@@ -18,13 +17,13 @@ Die Administratoren in einem Unternehmen können die Einstellungen des Learning 
 
 ## Adobe Connect konfigurieren {#configureadobeconnect}
 
-1. Melden Sie sich als Administrator an und klicken Sie im linken Bereich auf **[!UICONTROL Einstellungen]**, um die grundlegenden Informationen über Ihr Unternehmen anzuzeigen. Klicken **[!UICONTROL Adobe Connect]** im linken Bereich.
+1. Melden Sie sich als Administrator an und klicken Sie im linken Bereich auf **[!UICONTROL Einstellungen]**, um die grundlegenden Informationen über Ihr Unternehmen anzuzeigen. Klicken Sie im linken Fensterbereich auf **[!UICONTROL Adobe Connect]**.
 
    ![](assets/left-pane.png)
 
-   *Wählen Sie im linken Fensterbereich Adobe Connect aus*
+   *Adobe Connect im linken Fensterbereich auswählen*
 
-1. Klicken **[!UICONTROL Jetzt konfigurieren]** link in **[!UICONTROL Adobe Connect-Konfiguration]** Abschnitt.
+1. Klicken Sie auf den Link **[!UICONTROL Jetzt konfigurieren]** im Abschnitt **[!UICONTROL Adobe Connect-Konfiguration]**.
 
    <!--![](assets/configure-now-connect.png)-->
 
@@ -39,7 +38,7 @@ Die Administratoren in einem Unternehmen können die Einstellungen des Learning 
 
    Nur von Adobe gehostete Connect-Konten werden in Learning Manager unterstützt. Beispiel; &#39;.adobeconnect.com&#39;.
 
-1. Klicken **[!UICONTROL einbinden].**
+1. Klicken Sie auf **[!UICONTROL Integrieren].**.
 
    Nach der Authentifizierung der E-Mail-ID zeigt Learning Manager die Meldung an, dass Connect erfolgreich integriert wurde. Sie können damit beginnen, Ihre Kurse im virtuellen Klassenzimmer automatisch über Adobe Connect anzusehen.
 
@@ -51,11 +50,11 @@ Die Administratoren in einem Unternehmen können die Einstellungen des Learning 
 
 Wenn der Autor eines Kurses im virtuellen Klassenzimmer keine Sitzungsinformationen angegeben hat, kann der Administrator die Sitzungsdetails einbeziehen.
 
-Melden Sie sich als Administrator an und klicken Sie auf den Namen des Kurses im virtuellen Klassenzimmer. Klicken **[!UICONTROL Instanzen]** im linken Bereich und klicken Sie auf **[!UICONTROL Sitzungsdetails]**.  Klicken Sie in der rechten Ecke der Seite &quot;Sitzungsdetails&quot; auf das Symbol &quot;Bearbeiten&quot;, um die Sitzungsinformationen hinzuzufügen.
+Melden Sie sich als Administrator an und klicken Sie auf den Namen des Kurses im virtuellen Klassenzimmer. Klicken Sie im linken Teilfenster auf **[!UICONTROL Instanzen]** und dann auf **[!UICONTROL Sitzungsdetails]**.  Klicken Sie in der rechten Ecke der Seite &quot;Sitzungsdetails&quot; auf das Symbol &quot;Bearbeiten&quot;, um die Sitzungsinformationen hinzuzufügen.
 
 ![](assets/session-creation-admin.png)
 
-*Informationen für Sitzung im virtuellen Klassenzimmer hinzufügen*
+*Sitzungsinformationen für virtuelle Klassenzimmer hinzufügen*
 
 Mit der Integration von Adobe Learning Manager und Adobe Connect für das Erstellen von Modulen oder Sitzungen vom Typ „Virtuelles Klassenzimmer“ muss Ihr Connect-Konto Meetingräume mit einer ausreichenden Anzahl von Räumen und Benutzenden unterstützen. Diese Meetingräume werden zum Hosten von Modulen vom Typ „Virtuelles Klassenzimmer“ in Learning Manager verwendet. Ein neuer Connect-Meetingraum wird von Learning Manager für jedes Modul oder jede Sitzung vom Typ „Virtuelles Klassenzimmer“ dynamisch in Learning Manager erstellt.
 

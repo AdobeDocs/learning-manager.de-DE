@@ -27,7 +27,7 @@ Der Administrator kann die Startseite ändern und konfigurieren, die für nicht 
 
 ## Teilnehmer-APIs
 
-Adobe Learning Manager : Mit Teilnehmer-APIs können Sie ein benutzerdefiniertes Lernerlebnis für Ihre Benutzer erstellen. Die Verwendung dieser APIs erfordert ein gültiges Benutzertoken und darf nur für Arbeitsabläufe mit einem vollständig lizenzierten/registrierten Teilnehmer verwendet werden.
+Adobe Learning Manager - Mit Teilnehmer-APIs können Sie ein benutzerdefiniertes Lernerlebnis für Ihre Benutzer erstellen. Die Verwendung dieser APIs erfordert ein gültiges Benutzertoken und darf nur für Arbeitsabläufe mit einem vollständig lizenzierten/registrierten Teilnehmer verwendet werden.
 
 >[!IMPORTANT]
 >
@@ -35,21 +35,21 @@ Adobe Learning Manager : Mit Teilnehmer-APIs können Sie ein benutzerdefiniertes
 
 Die nicht angemeldeten Nutzungsszenarien erfordern eine besondere Behandlung.
 
-**Wenden Sie sich an das Team für Lösungsarchitekturen, falls Sie Fragen zur geeigneten Verwendung dieser APIs haben, und stellen Sie sicher, dass ein Lösungsarchitekt eine Lösung vor der Bereitstellung überprüft hat.**.
+**Wenden Sie sich an das Lösungsarchitekturteam, falls Sie Fragen zur geeigneten Verwendung dieser APIs haben, und vergewissern Sie sich, dass ein Lösungsarchitekt eine Lösung vor der Bereitstellung überprüft hat**.
 
 ## Starten der Optionen für die Startseite
 
-Wählen Sie auf der Startseite des Adobe-Lern-Managers **Branding**. Wählen Sie dann im linken Bereich Nicht angemeldete Startseite aus.
+Wählen Sie auf der Adobe Learning Manager-Homepage **Branding** aus. Wählen Sie dann im linken Bereich Nicht angemeldete Startseite aus.
 
-![Startseitenoptionen](assets/non-logged-in-homepage.png)
+![Homepage-Optionen](assets/non-logged-in-homepage.png)
 
-*Wählen Sie die Option Nicht angemeldete Startseite aus.*
+*Wählen Sie die Option &quot;Nicht angemeldete Homepage&quot; aus*
 
 ## Hinzufügen eines Banners
 
-Fügen Sie ein Banner hinzu, um Marketing-Ankündigungen anzuzeigen oder das Trendthema des Tages vorzustellen. Auswählen **Banner hinzufügen**.
+Fügen Sie ein Banner hinzu, um Marketing-Ankündigungen anzuzeigen oder das Trendthema des Tages vorzustellen. Wählen Sie **Banner hinzufügen**.
 
-![Spruchband](assets/add-banner-image.png)
+![Banner](assets/add-banner-image.png)
 
 *Banner hinzufügen*
 
@@ -59,11 +59,11 @@ Navigieren Sie zum Speicherort des Bildes, das als Banner verwendet werden soll.
 
 Diese Komponente kann verwendet werden, um den Katalog nach Tags, Kenntnissen und Katalog zu filtern. Dieser Abschnitt enthält einen Titel und eine Beschreibung für jede Kategorie. Durch Klicken wird der Benutzer zu der Katalogseite mit den angewendeten Filtern weitergeleitet.
 
-Auswählen **[!UICONTROL Kategorie hinzufügen]**. Geben Sie dann die Details für die Kategorie ein.
+Wählen Sie **[!UICONTROL Kategorie hinzufügen]**. Geben Sie dann die Details für die Kategorie ein.
 
 ![Kategorie hinzufügen](assets/add-category.png)
 
-*Kategorien hinzufügen.*
+*Kategorien hinzufügen*
 
 Speichern Sie die Kategorie. Die Kategorie wird dem Abschnitt hinzugefügt.
 

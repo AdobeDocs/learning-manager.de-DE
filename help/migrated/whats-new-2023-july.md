@@ -36,7 +36,7 @@ Teilnehmende können sich nicht über eine mobile App/immersiv für mehrere Inst
 
 ### Format der Abzeichen in einer Instanz mit mehreren Registrierungen
 
-Um Abzeichen in einer Instanz mit mehreren Registrierungen zu unterstützen, wird das Abzeichenformat in `userId_badgeId_COURSE_courseId_courseInstanceId`.
+Um Abzeichen in einer Instanz mit mehreren Registrierungen zu unterstützen, wird das Abzeichenformat in `userId_badgeId_COURSE_courseId_courseInstanceId` geändert.
 
 ### Starten des Players mit mehreren Registrierungen mithilfe eines Headless-Modus
 
@@ -56,7 +56,7 @@ argument_object=
 
 Diese Version von Adobe Learning Manager enthält einen neuen Connector, der das SFTP-Protokoll der AWS Transfer-Familie verwendet.
 
-Diese Änderung ersetzt auch den ExaVault-Connector, der neuen Benutzer(inne)n nicht mehr zur Verfügung steht. Sie können jeden Open-Source-FTP-Client als Ersatz für ExaVault verwenden. Weitere Informationen finden Sie unter [Übergang vom Adobe FTP Manager](transition-from-ftp-manager.md).
+Diese Änderung ersetzt auch den ExaVault-Connector, der neuen Benutzer(inne)n nicht mehr zur Verfügung steht. Sie können jeden Open-Source-FTP-Client als Ersatz für ExaVault verwenden. Weitere Informationen finden Sie unter [Übergang vom Adobe-FTP-Manager](transition-from-ftp-manager.md).
 
 ## Erinnerungen in Outlook für Unterrichtsräume und virtuelle Sitzungen
 
@@ -86,7 +86,7 @@ Der Schulungsbericht enthält eine zusätzliche Spalte, in der der Fristablauf d
 
 Ein Popup-Fenster zum Erfassen der Sternebewertung für einen Kurs wird angezeigt, sobald die/der Benutzer(in) das letzte Modul im Kurs abgeschlossen hat.
 
-![Einschaltquote](assets/ratings.png)
+![Bewertungen](assets/ratings.png)
 
 ## E-Mail-Vorlagen anpassen
 
@@ -106,7 +106,7 @@ Autor(inn)en können jetzt ein **Automatisch einstellen**-Datum für einen Kurs 
 
 Administratoren können auch auf Kontoebene die Art des Zugriffs auf eingestellte Lernobjekte festlegen.
 
-Der Schulungsbericht enthält eine neue Spalte, **Automatisches Abgangsdatum**, um das Einstellungsdatum für jedes Lernobjekt anzuzeigen (sofern festgelegt).
+Der Schulungsbericht enthält eine neue Spalte **Automatisches Einstellungsdatum**, um das Einstellungsdatum für jedes Lernobjekt anzuzeigen (sofern festgelegt).
 
 ## Katalogbeschriftungswerte nach Autoren
 
@@ -134,7 +134,7 @@ Die Registrierungs-API wurde verbessert, um Massenregistrierungen in großem Umf
 
 Teilnehmer können Inhalte im Offline-Modus herunterladen und nutzen. Verschachtelte und flexible Lernpfade werden für die Offline-Ansicht nicht unterstützt.
 
-*In dieser Version wird die Offline-Inhaltsanzeige nur für englische Inhalte unterstützt.*
+*In dieser Version wird die Offlineinhaltsanzeige nur für englische Inhalte unterstützt.*
 
 ## Eingabehilfen
 
@@ -148,7 +148,7 @@ Mit der nächsten Hauptversion unterstützt die mobile Adobe Learning Manager-Ap
 
 LinkedIn-Inhalte werden in der Immersive-App im Safari-Browser nicht wie erwartet geladen. Um dieses Problem zu umgehen, führen Sie die folgenden Schritte aus:
 
-1. Wählen Sie auf dem Gerät **[!UICONTROL Einstellungen]** > **[!UICONTROL Safari]**.
+1. Wählen Sie auf dem Gerät **[!UICONTROL Einstellungen]** > **[!UICONTROL Safari]** aus.
 1. Deaktivieren Sie **Site-übergreifendes Tracking verhindern**.
 1. Deaktivieren Sie **Alle Cookies blockieren**.
 1. Melden Sie sich bei der Immersive-App an.
@@ -179,7 +179,7 @@ Weitere Informationen zu den API-Änderungen finden Sie unter [API-Referenz für
 
 Gibt zurück, ob prlRecommendations aktiviert ist.
 
-**Anfrage**
+**Anforderung**
 
 `https://learningmanagerstage1.adobe.com/primeapi/v2/account`
 
@@ -187,7 +187,7 @@ Gibt zurück, ob prlRecommendations aktiviert ist.
 
 Gibt die Liste der Produkte/Themen zurück. Die Ergebnisse hängen von den Kontoeinstellungen ab, die bestätigen, ob alle Produkte für die/den Teilnehmende(n) oder den Katalog sichtbar sind, die/der für Produkte/Themen sichtbar ist.
 
-**Anfrage**
+**Anforderung**
 
 `https://learningmanagerqe.adobe.com/primeapi/v2/data?filter.recommendationCriteria=product&filter.showAllRecommenda`
 
@@ -195,7 +195,7 @@ Gibt die Liste der Produkte/Themen zurück. Die Ergebnisse hängen von den Konto
 
 Gibt die Liste der empfohlenen Rollen zurück.
 
-**Anfrage**
+**Anforderung**
 
 `https://learningmanagerqe.adobe.com/primeapi/v2/data?filter.recommendationCriteria=role&filter.showAllRecommendationCriteria=false`
 
@@ -203,7 +203,7 @@ Gibt die Liste der empfohlenen Rollen zurück.
 
 Gibt die Liste der empfohlenen Rollen zurück.
 
-**Anfrage**
+**Anforderung**
 
 `https://learningmanagerqe.adobe.com/primeapi/v2/data?filter.recommendationCriteria=level&filter.showAllRecommendationCriteria=false`
 
@@ -211,7 +211,7 @@ Gibt die Liste der empfohlenen Rollen zurück.
 
 Die Suche umfasst auch Produkte und Rollenparameter in der Abfrage. Abfrage und Text werden nicht geändert. Wir werden neue Sortieroptionen hinzufügen.
 
-**Anfrage**
+**Anforderung**
 
 `https://learningmanagerstage1.adobe.com/primeapi/v2/search/query?...`
 
@@ -473,7 +473,7 @@ Abrufen der Registrierung für Kurse mit mehreren Registrierungen.
 
 Hebt die Registrierung für eine bestimmte Lernobjektinstanz auf.
 
-**POST /Registrierungen**
+**POST /enrollments**
 
 Unterstützt die Registrierung in verschiedenen Instanzen.
 
@@ -565,15 +565,15 @@ Beispiel:
 * Überschreiben-Flag für Teilnehmenden-APIs.
 * Wir ändern den Standardwert für highlightResults=false. Außerdem ändern wir den Standard von snippetType=courseName.
 * Wir verwerfen matchType=bool im Suchendpunkt.
-* autoCompleteMode verfügt über das Attribut [Veraltet] -Tag und um dieselbe Funktionalität von autoCompleteMode =false bereitzustellen, wurde ein matchType mit dem Namen Match hinzugefügt.
+* autoCompleteMode hat das [Deprecated]-Tag. Um dieselbe Funktionalität von autoCompleteMode =false bereitzustellen, wurde ein matchType mit dem Namen &quot;Match&quot; hinzugefügt.
 
 ### Abzeichen-ID-Format mit mehrfacher Registrierung
 
-Um Abzeichen mit mehreren registrierten Instanzen zu unterstützen, ändern wir das Format von Kursabzeichen von `userId_badgeId_COURSE_courseId to userId_badgeId_COURSE_courseId_courseInstanceId` zur eindeutigen Identifizierung von Abzeichen.
+Um Abzeichen mit mehreren registrierten Instanzen zu unterstützen, ändern wir das Format der Kursabzeichen von `userId_badgeId_COURSE_courseId to userId_badgeId_COURSE_courseId_courseInstanceId`, um Abzeichen eindeutig zu identifizieren.
 
 ## Versionshinweise
 
-Weitere Informationen zu aktuellen und früheren Versionen der Learning Manager-Webanwendung und -Geräte-App finden Sie unter [Versionshinweise](/help/migrated/release-note/release-notes.md).
+Weitere Informationen zu aktuellen und früheren Versionen der Learning Manager-Webanwendung und -Geräte-App finden Sie in den [Versionshinweisen](/help/migrated/release-note/release-notes.md).
 
 ## Bekannte Probleme oder Einschränkungen in dieser Version
 

@@ -2,14 +2,13 @@
 jcr-language: en_us
 title: xAPI in Learning Manager
 description: Die Experience API (xAPI) ist eine E-Learning-Software-Spezifikation, mit der Lerninhalte und Lernsysteme so miteinander kommunizieren können, dass alle Arten von Lernerfahrungen aufgezeichnet und verfolgt werden.
-source-git-commit: 0fabd369e70e15ba22fead0177a24aafd851d88d
+exl-id: 8e36b538-a451-448e-a65d-08d286adcfdb
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '755'
 ht-degree: 50%
 
 ---
-
-
 
 # xAPI in Learning Manager
 
@@ -17,7 +16,7 @@ ht-degree: 50%
 
 Die Experience API (xAPI) ist eine E-Learning-Softwarespezifikation, die es ermöglicht, dass Lerninhalte und Lernsysteme so miteinander kommunizieren, dass alle Arten von Lernerfahrungen aufgezeichnet und verfolgt werden. Lernerfahrungen werden in einem Learning Record Store (LRS) aufgezeichnet. LRS können in traditionellen Lernmanagementsystemen (LMS) oder eigenständig existieren.
 
-Weitere Informationen zu xAPI finden Sie unter:  [https://github.com/adlnet/xAPI-Spec](https://github.com/adlnet/xAPI-Spec).
+Weitere Informationen zu xAPI finden Sie unter: [https://github.com/adlnet/xAPI-Spec](https://github.com/adlnet/xAPI-Spec).
 
 ## Wie unterstützt Learning Manager xAPI? {#howdoescaptivateprimesupportxapi}
 
@@ -31,7 +30,7 @@ In zunehmendem Maße müssen Lernerfahrungen des Endbenutzers erfasst werden, di
 
 ## Anwendung einrichten {#setupyourapplication}
 
-1. Melden Sie sich als Integrationsadministrator an. Auswählen **[!UICONTROL Anwendungen]** > **[!UICONTROL Registrieren]**.
+1. Melden Sie sich als Integrationsadministrator an. Wählen Sie **[!UICONTROL Anwendungen]** > **[!UICONTROL Register]**.
 
    ![](assets/appregistration.png)
 
@@ -66,7 +65,7 @@ GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your cl
 
 Als Autor können Sie nun ein xAPI-Modul auswählen, während Sie Kurse zur Überwachung der Benutzererfahrung außerhalb von Learning Manager erstellen. Sie können diese Funktion beispielsweise verwenden, um die Aktivitäten von Benutzern auf einer Plattform eines Drittanbieters zu bewerten, die für die Kursnutzung verwendet wird.
 
-1. Beim Erstellen eines **[!UICONTROL Aktivitätsmodul]** in der **[!UICONTROL Typ]**Option wählen Sie im Popupmenü  **[!UICONTROL xAPI-basiertes Modul.]**
+1. Verwenden Sie beim Erstellen eines **[!UICONTROL Aktivitätsmoduls]** in der Option **[!UICONTROL Typ]** das Popupmenü, um das **[!UICONTROL xAPI-basierte Modul auszuwählen.]**
 
    ![](assets/xapimodulecreation.png)
 

@@ -19,16 +19,16 @@ Sie können Abzeichen definieren, die Benutzern als Motivation dienen.
 
 Administratoren können Abzeichen für Teilnehmer wie folgt erstellen:
 
-1. Melden Sie sich als Administrator an und klicken Sie auf **[!UICONTROL Abzeichen]** im linken Bereich. Es erscheint eine Liste von Abzeichen für Teilnehmer.
+1. Melden Sie sich als Administrator an und klicken Sie im linken Teilfenster auf **[!UICONTROL Abzeichen]**. Es erscheint eine Liste von Abzeichen für Teilnehmer.
 
    >[!NOTE]
    >
    >Standardmäßig ist eine Liste mit einigen Beispiel-Abzeichen verfügbar.
 
-1. Klicken **[!UICONTROL Hinzufügen]** oben rechts auf der Seite. Das Dialogfeld „Abzeichen hinzufügen“ erscheint.
+1. Klicken Sie in der rechten oberen Ecke der Seite auf **[!UICONTROL Hinzufügen]**. Das Dialogfeld „Abzeichen hinzufügen“ erscheint.
 
    ![](assets/add-badge1.png)
 
-   *Fügen Sie einen Abzeichennamen und sein Bild hinzu*
+   *Fügen Sie einen Abzeichennamen und das zugehörige Bild hinzu*
 
-1. Geben Sie einen Abzeichennamen ein. Abzeichen hochladen, indem Sie auf **[!UICONTROL Abzeichen hochladen]** und klicken Sie auf **[!UICONTROL Speichern]**.
+1. Geben Sie einen Abzeichennamen ein. Laden Sie das Abzeichen hoch, indem Sie auf **[!UICONTROL Abzeichen hochladen]** klicken und auf **[!UICONTROL Speichern]** klicken.

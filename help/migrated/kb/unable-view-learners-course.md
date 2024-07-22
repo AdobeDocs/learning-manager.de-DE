@@ -1,16 +1,15 @@
 ---
 jcr-language: en_us
 title: Teilnehmer in einem Kurs können nicht angezeigt werden
-description: Auf der Registerkarte "Teilnehmer" eines Kurses werden keine Teilnehmer angezeigt, die im Adobe-Lernmanager registriert sind. Wenn Sie jedoch einen Bericht generieren, können Sie die registrierten Teilnehmer im Bericht anzeigen lassen.
+description: Auf der Registerkarte "Teilnehmer" eines Kurses werden keine Teilnehmer angezeigt, die bei Adobe Learning Manager registriert sind. Wenn Sie jedoch einen Bericht generieren, können Sie die registrierten Teilnehmer im Bericht anzeigen lassen.
 contentowner: saghosh
-source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
+exl-id: 2ea54347-fa6b-493e-b73c-d350efb2aaaf
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '212'
 ht-degree: 58%
 
 ---
-
-
 
 # Teilnehmer in einem Kurs können nicht angezeigt werden
 
@@ -24,7 +23,7 @@ Die Registerkarte „Teilnehmer“ eines Kurses zeigt keine registrierten Teilne
 
 ![](assets/no-learners.png)
 
-*Kein Teilnehmer angezeigt*
+*Es wird kein Teilnehmer angezeigt*
 
 ## Ursache
 
@@ -35,9 +34,9 @@ Wenn sich ein Teilnehmer über ein höheres Lernobjekt (Lernprogramm oder Zertif
 Sie können diese Informationen im Teilnehmertranskript überprüfen. Um das Teilnehmertranskript zu generieren, führen Sie die folgenden Schritte aus:
 
 1. Melden Sie sich als ein Administrator an.
-1. Klicken **[!UICONTROL Berichte]** > **[!UICONTROL Benutzerdefinierte Berichte]** > **[!UICONTROL Excel-Berichte]** > **[!UICONTROL Teilnehmertranskript]**.
+1. Klicken Sie auf **[!UICONTROL Berichte]** > **[!UICONTROL Benutzerdefinierte Berichte]** > **[!UICONTROL Excel-Berichte]** > **[!UICONTROL Teilnehmertranskript]**.
 
-1. Geben Sie den Namen des **[!UICONTROL Teilnehmer]** und geben Sie den Befehl **[!UICONTROL Datum]** Bereich.
+1. Geben Sie den Namen des **[!UICONTROL Teilnehmers]** ein und geben Sie den Bereich **[!UICONTROL Datum]** an.
 1. Erweitern Sie den Abschnitt **[!UICONTROL Erweiterte Optionen]** und wählen Sie die Option **[!UICONTROL Modulebeneninformationen aktivieren]** aus.
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 

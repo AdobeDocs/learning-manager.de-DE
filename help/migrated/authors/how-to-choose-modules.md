@@ -3,14 +3,13 @@ jcr-language: en_us
 title: So wählen Sie ein Kursmodul
 description: Adobe Learning Manager unterstützt vier Arten von Kursmodulen. Wenn Sie für das Erstellen eines Trainingsprogramms zuständig sind, fragen Sie sich womöglich, welche Art von Modulen den Anforderungen Ihres Unternehmens am besten entspricht. Sie können die Kursmodule basierend auf dem Budget und den Anforderungen der Zielgruppe Ihres Unternehmens auswählen. Einige typische Anwendungsbeispiele für die verschiedenen Modularten werden als Orientierungshilfe unten beschrieben.
 contentowner: jayakarr
-source-git-commit: fba5e5ddc1964b485be473bf356806f234688cf4
+exl-id: 21f9aae7-e192-4318-9df4-4fedf52c6d85
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 90%
 
 ---
-
-
 
 # So wählen Sie ein Kursmodul
 

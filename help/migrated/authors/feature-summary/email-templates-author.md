@@ -26,23 +26,23 @@ Die Administratoren können auch festlegen, dass bei bestimmten Ereignissen kein
 
 1. Klicken Sie auf der Lernobjektseite auf den Kurs, die Zertifizierung oder das Lernprogramm, für den/die/das Sie die E-Mail-Vorlage konfigurieren möchten.
 
-1. Wählen Sie auf der Lernobjektdetailseite **E-Mail-Vorlagen** > **Alle Vorlagen**. E-Mail-Vorlagen sind verfügbar für **Standardinstanz** und **Aktueller Kurs**. Sie können zwischen ihnen wechseln, indem Sie das Dropdown-Menü in der oberen rechten Ecke verwenden.
+1. Wählen Sie auf der Lernobjektdetailseite **E-Mail-Vorlagen** > **Alle Vorlagen** aus. E-Mail-Vorlagen sind für **Standardinstanz** und **Aktueller Kurs** verfügbar. Sie können zwischen ihnen wechseln, indem Sie das Dropdown-Menü in der oberen rechten Ecke verwenden.
 
    Sie können die Liste der Vorlagen sehen, die für das von Ihnen gewählte Lernobjekt verfügbar sind.
 
    ![](assets/email-templates-forlearningprograms.png)
-   *Vorlagenliste*
+   *Liste der Vorlagen*
 
 1. Klicken Sie auf den Namen eines Ereignisses, um die Vorlage im Vorschaumodus anzuzeigen.
 
    ![](assets/preview-the-emailtemplateforyourlearningobject.png)
 
-   *Vorschau der Vorlage anzeigen*
+   *Vorlagenvorschau anzeigen*
 
    Sie können die Vorlagen ändern, indem Sie in ihrem Hauptteil auf den Text klicken. Sie können in den Text Variablen einfügen, indem Sie auf die entsprechenden Symbole klicken (siehe Abbildung). Um die Namen der Symbole anzuzeigen, zeigen Sie mit der Maus darauf.
 
    ![](assets/insert-variable.png)
-   *Einfügen von Variablen*
+   *Variable einfügen*
 
    Folgende Variablen stehen zur Verfügung:
 
@@ -74,6 +74,6 @@ Wenn Sie eine E-Mail-Vorlage auf Kursebene konfigurieren, erhält diese Vorrang 
 
 Der Autor kann in den E-Mail-Vorlageneinstellungen Folgendes einrichten:
 
-* **Email Banner**: Ermöglicht Ihnen, das E-Mail-Banner zu ändern.
+* **E-Mail-Banner**: Ermöglicht das Ändern des E-Mail-Banners.
 
-* **E-Mail-Signatur**: Ermöglicht Ihnen, die E-Mail-Signatur hinzuzufügen oder zu bearbeiten.
+* **E-Mail-Signatur**: Ermöglicht Ihnen das Hinzufügen oder Bearbeiten der E-Mail-Signatur.

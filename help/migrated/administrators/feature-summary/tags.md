@@ -3,14 +3,13 @@ description: Erfahren Sie, wie Sie Tags in Learning Manager verwalten.
 jcr-language: en_us
 title: Tags
 contentowner: dvenkate
-source-git-commit: 0534bd52c80b77d985cfe715f74054f3aabac9a2
+exl-id: ea39d2a2-3d2b-43ae-8f8d-b97420b9d008
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '762'
 ht-degree: 63%
 
 ---
-
-
 
 # Tags
 
@@ -24,7 +23,7 @@ Sie können die Tags anhand der Nutzung oder in alphabetischer Reihenfolge mit d
 
 In dieser Schulung erfahren Sie, wie Sie Tags hinzufügen, bearbeiten, ersetzen, anhängen und löschen. Außerdem erfahren Sie, wie Sie Berechtigungseinstellungen ändern und Tag-Filter verwenden.
 
-[![Knopf](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=5S7K7ZCT&amp;mv=display&amp;mv2=display#/course/8318920)
+[![Schaltfläche](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=5S7K7ZCT&amp;mv=display&amp;mv2=display#/course/8318920)
 
 Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.com>.
 
@@ -41,16 +40,16 @@ Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.
 
 1. Sie können jeweils nur ein einzelnes Tag bearbeiten. Gehen Sie dazu wie folgt vor:
 
-   * Tag zum Bearbeiten auswählen > ** öffnen[!UICONTROL Aktionen]**Dropdown-Menü > klicken Sie auf **[!UICONTROL Bearbeiten]**.
+   * Wählen Sie das zu bearbeitende Tag aus > öffnen Sie das Dropdown-Menü **[!UICONTROL Aktionen]** und klicken Sie auf **[!UICONTROL Bearbeiten]**.
 
    Das Dialogfeld **[!UICONTROL Tag bearbeiten]** wird angezeigt. Geben Sie den neuen Tag-Namen und klicken Sie auf **[!UICONTROL Speichern]**.
 
-   Wenn der eingegebene Tag-Name bereits vorhanden ist, zeigt der Adobe Learning Manager eine Warnmeldung an. Es können keine zwei Tags mit demselben Namen existieren.
+   Wenn der eingegebene Tag-Name bereits vorhanden ist, zeigt Adobe Learning Manager eine Warnmeldung an. Es können keine zwei Tags mit demselben Namen existieren.
 
 ## Tags ersetzen {#replacetags}
 
-1. Wählen Sie die Tags aus, die Sie ersetzen möchten. Sie können bis zu 50 Tags gleichzeitig auswählen. Öffnen Sie die **[!UICONTROL Aktionen]** &quot; und wählen Sie **[!UICONTROL Ersetzen]**.
-1. Die **[!UICONTROL Tags ersetzen]** wird mit den ausgewählten Tags angezeigt.
+1. Wählen Sie die Tags aus, die Sie ersetzen möchten. Sie können bis zu 50 Tags gleichzeitig auswählen. Öffnen Sie das Dropdown-Menü **[!UICONTROL Aktionen]** und wählen Sie **[!UICONTROL Ersetzen]** aus.
+1. Das Dialogfeld **[!UICONTROL Tags ersetzen]** wird angezeigt und zeigt die ausgewählten Tags an.
 
 1. Geben Sie für **[!UICONTROL Name für ersetzte Tags]** den Namen des neuen Tags ein, durch das die ausgewählten Tags ersetzt werden sollen. Sie können sie entweder durch ein vorhandenes Tag aus dem Dropdown-Menü ersetzen oder ein neues Tag hinzufügen.
 
@@ -62,8 +61,8 @@ Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.
 
 Bei Anhängen von Tags wird das neue/vorhandene Tag an alle Listen von LOs und Inhaltsgruppen angehängt, die den ausgewählten Tags zugeordnet sind.
 
-1. Wählen Sie die Tags aus, die Sie anhängen möchten. Sie können bis zu 50 Tags gleichzeitig auswählen. Öffnen Sie das Dropdown-Menü Aktionen und wählen Sie **[!UICONTROL Anfügen]**.
-1. Die  **[!UICONTROL Tags anhängen]** wird mit den ausgewählten Tags angezeigt.
+1. Wählen Sie die Tags aus, die Sie anhängen möchten. Sie können bis zu 50 Tags gleichzeitig auswählen. Öffnen Sie das Dropdownmenü &quot;Aktionen&quot; und wählen Sie **[!UICONTROL Anfügen]**.
+1. Das Dialogfeld &quot;**[!UICONTROL Tags anfügen]**&quot; wird mit den ausgewählten Tags angezeigt.
 1. Sie können ein zusätzliches Tag an alle Lernobjekte mit den ausgewählten Tags anhängen, indem Sie den Namen des **[!UICONTROL neuen Tags]** eingeben oder aus der Dropdown-Liste der vorhandenen Tags eines auswählen. Der neue Tag wird allen zugehörigen Lernobjekten in Learning Manager angehängt.
 
    Semikolon oder Komma können nicht Teil des Tag-Namens sein. Andernfalls zeigt Prime eine Fehlermeldung an. Beachten Sie, dass Tags ohne Semikolon und die Anzeige von Fehlermeldungen bei der Verwendung solcher Tags als Teil eines LO für Migrationsszenarien nicht behandelt werden.

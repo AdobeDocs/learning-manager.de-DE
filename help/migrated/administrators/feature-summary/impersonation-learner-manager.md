@@ -3,14 +3,13 @@ description: Administratoren können eine Sitzung starten, in der sie die Identi
 jcr-language: en_us
 title: Annehmen der Identität eines Teilnehmers und Managers
 contentowner: saghosh
-source-git-commit: d59e748472c77527c22b286aea5412f776f6441b
+exl-id: 0306f255-283f-43b9-9494-11b3dc3765da
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '538'
 ht-degree: 71%
 
 ---
-
-
 
 # Annehmen der Identität eines Teilnehmers und Managers {#impersonation-of-learner-and-manager}
 
@@ -77,7 +76,7 @@ Jede Anmeldung wird im Bericht separat gezählt.
 
 ## Häufig gestellte Fragen
 
-+++Kann ich mich beim Adobe Learning Manager anmelden, auch wenn ich selbst die Identität eines Benutzers annehmen muss?
++++Kann ich mich bei Adobe Learning Manager anmelden, auch wenn ich die Identität eines anderen Nutzers annehmen muss?
 
 Ja, die Anmeldung eines Benutzers ist unabhängig vom Identitätswechsel.
 +++

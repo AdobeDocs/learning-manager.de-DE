@@ -3,20 +3,19 @@ jcr-language: en_us
 title: Inhalts-Marketplace
 description: Inhaltsbibliothek bietet jetzt den Inhalts-Marketplace an, auf dem Sie Schulungen durchsuchen und erwerben können. Lernen Sie mehr als 70.000 Kurse kennen, die eine Vielzahl von Themen abdecken und in mehreren Formaten verfügbar sind. Wählen Sie aus kuratierten Wiedergabelisten, die eine Vielzahl von Rollen abdecken sowie Ihre Lern- und Weiterbildungsanforderungen erfüllen.
 contentowner: saghosh
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+exl-id: 023593d9-06c9-4b91-bbbd-e8ec595b6d60
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '962'
 ht-degree: 69%
 
 ---
 
-
-
 # Inhalts-Marketplace
 
 Inhaltsbibliothek bietet jetzt den Inhalts-Marketplace an, auf dem Sie Schulungen durchsuchen und erwerben können. Lernen Sie mehr als 70.000 Kurse kennen, die eine Vielzahl von Themen abdecken und in mehreren Formaten verfügbar sind. Wählen Sie aus kuratierten Wiedergabelisten, die eine Vielzahl von Rollen abdecken sowie Ihre Lern- und Weiterbildungsanforderungen erfüllen.
 
-In der Administrator-App gibt es eine neue Option **[!UICONTROL Content Marketplace]**, den Sie im linken Bereich finden.
+In der Administrator-App gibt es eine neue Option **[!UICONTROL Inhalts-Marketplace]**, die Sie im linken Bereich finden.
 
 Benutzer können ihre Kaufauswahl aus kuratierten Wiedergabelisten treffen, die verschiedene Themen abdecken, oder den gesamten Katalog erwerben.
 
@@ -28,17 +27,17 @@ Auf der Seite &quot;Unternehmensschulung&quot; in der Administrator-App können 
 
 Laden Sie Benutzer zum Inhalts-Marketplace ein, um Inhalte zu entdecken und ihr Interesse auszudrücken. Als Administrator können Sie entweder alle Teilnehmer im Konto oder ausgewählte Teilnehmer einladen. Um Teilnehmern Zugriff zu gewähren, müssen Sie sie einladen.
 
-Ein Teilnehmer kann auch von der Inhalts-Marketplace-Option widerrufen werden. Um den Zugriff zu widerrufen, klicken Sie auf das **[!UICONTROL Zugriff widerrufen]** Link.  Benutzer können die Seite &quot;Inhalts-Marketplace&quot; in der Teilnehmer-App nicht mehr sehen.
+Ein Teilnehmer kann auch von der Inhalts-Marketplace-Option widerrufen werden. Um den Zugriff zu widerrufen, klicken Sie auf den Link **[!UICONTROL Zugriff widerrufen]**.  Benutzer können die Seite &quot;Inhalts-Marketplace&quot; in der Teilnehmer-App nicht mehr sehen.
 
 Diese Option ist standardmäßig für alle neuen Konten ausgewählt. Bei vorhandenen Konten muss der Administrator die Benutzer einladen, den Marktplatz zu erkunden.
 
 ## Kaufen
 
-Sie erhalten unbegrenzten Zugriff auf die gesamte Kursbibliothek. Klicken Sie auf **[!UICONTROL Kaufen]** , um ein Kaufanfrageformular herunterzuladen.
+Sie erhalten unbegrenzten Zugriff auf die gesamte Kursbibliothek. Klicken Sie auf die Schaltfläche **[!UICONTROL Kauf]**, um ein Kaufanfrageformular herunterzuladen.
 
 ![](assets/purchase-request.png)
 
-*Geben Sie die Anzahl der Lizenzen für den Kauf ein.*
+*Anzahl der zu erwerbenden Lizenzen eingeben*
 
 Geben Sie die Anzahl der Lizenzen an, für die Sie die Kurse erwerben möchten. Laden Sie das Kaufanfrageformular herunter, und senden Sie das Formular dann an das Vertriebsteam von Learning Manager.
 
@@ -48,7 +47,7 @@ Wenn der Schlüssel vom CSAM-Team erzeugt wurde, kann der Administrator ihn verw
 
 Während der Migration von Kursen wird der Status als **[!UICONTROL Kurse importieren]** angezeigt. Sobald die Migration abgeschlossen ist, erhält der Administrator eine Benachrichtigung, dass die Migration erfolgreich abgeschlossen wurde.
 
-Die **[!UICONTROL Lizenzen]** zeigt dann alle Lizenzen an, die für das Konto erworben wurden.
+Im Abschnitt **[!UICONTROL Lizenzen]** werden dann alle Lizenzen angezeigt, die für das Konto erworben wurden.
 
 Der Administrator kann die Links der gekauften Kataloge auf der Seite „Katalogübersicht“ sehen.
 
@@ -71,7 +70,7 @@ Wenn ein Teilnehmer in der Teilnehmer-App auf „Interesse bekunden“ klickt, w
 Es stehen drei E-Mail-Vorlagen zur Verfügung, die Sie für diesen Arbeitsablauf verwenden können:
 
 1. **[!UICONTROL Inhaltsaktivierung erfolgreich]:** Diese E-Mail wird versendet, wenn der Kauf eines Inhalts mit einem Schlüsselnamen erfolgreich war. Alle erworbenen Schulungen sind jetzt verfügbar.
-1. **[!UICONTROL Fehler bei automatischem Benutzerupload]:** Diese E-Mail wird gesendet, wenn die automatische Aktualisierung der CSV-Datei im Konto aus irgendeinem Grund fehlschlägt.
+1. **[!UICONTROL Fehler bei automatischem Benutzerupload]:** Diese E-Mail wird gesendet, wenn die automatische CSV-Aktualisierung im Konto aus irgendeinem Grund fehlschlägt.
 1. **[!UICONTROL Benutzer einladen, Inhalte zu entdecken]:** Dies ist eine Einladungs-E-Mail, die an Teilnehmer gesendet wird, wenn der Administrator Kurse erworben hat. Der Administrator kann den Interessenbericht anzeigen, um die allgemeinen Anforderungen zu verstehen und die Kaufentscheidung zu treffen.
 
 1. Erworbene Kurse können nicht zu wiederholten Zertifikaten hinzugefügt werden.
@@ -87,7 +86,7 @@ Ein Administrator kann SMEs einladen, die Wiedergabeliste, an der sie interessie
 
 ![](assets/content-hub.png)
 
-*Starten des Content Hub auf dem Marktplatz*
+*Content Hub vom Marktplatz aus starten*
 
 Das Materialien-Hub ist in der Teilnehmerrolle für alle Administratoren verfügbar. Administratoren ermöglichen es SMEs, die Wiedergabeliste, die sie erwerben möchten, in die Auswahlliste aufzunehmen.
 
@@ -95,11 +94,11 @@ Die Seite „Materialien-Hub“ ist für Administratoren in ihrer Teilnehmerroll
 
 ![](assets/content-hub-resources.png)
 
-*Ressourcen im Materialien-Hub anzeigen*
+*Ressourcen im Inhaltshub anzeigen*
 
 In Learning Manager können Administratoren außerdem eine in der Auswahlliste aufgeführte Wiedergabeliste herunterladen und sie für das Adobe-Vertriebsteam freigeben. Besuchen Sie vor dem Herunterladen der Auswahlliste den Materialien-Hub und nehmen Sie eine Wiedergabeliste in die Auswahlliste auf, indem Sie sie zu Ihrer Bibliothek hinzufügen.
 
-Klicken Sie dann als Administrator auf **[!UICONTROL Content Marketplace]** > **[!UICONTROL Unternehmensschulung]** > **[!UICONTROL Abschnitt &quot;Kaufen&quot;]** > **[!UICONTROL Kuratierte Wiedergabelisten]**. Klicken Sie auf die Schaltfläche **[!UICONTROL Kaufen]**, um das Kaufanfrageformular herunterzuladen, das die Details zu Ihrer in der Auswahlliste aufgeführten Wiedergabeliste enthält.
+Klicken Sie dann als Administrator auf **[!UICONTROL Inhalts-Marketplace]** > **[!UICONTROL Unternehmensschulung]** > **[!UICONTROL Abschnitt erwerben]** > **[!UICONTROL Kuratierte Wiedergabelisten]**. Klicken Sie auf die Schaltfläche **[!UICONTROL Kaufen]**, um das Kaufanfrageformular herunterzuladen, das die Details zu Ihrer in der Auswahlliste aufgeführten Wiedergabeliste enthält.
 
 ![](assets/download-purchase-request.png)
 

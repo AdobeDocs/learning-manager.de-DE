@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Unterstützung für benutzerdefinierte Domäne
 description: Benutzerdefinierte Domänen werden in einer Azure-Instanz von Learning Manager nicht unterstützt.
 contentowner: saghosh
-source-git-commit: 8635072782253cbac3f913953797cae7c0bc5ef4
+exl-id: 162ce268-48e3-4c7e-acb1-5181cebbb18d
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 67%
 
 ---
-
-
 
 # Unterstützung für benutzerdefinierte Domäne
 
@@ -22,7 +21,7 @@ Die Unterstützung benutzerdefinierter Domänen ermöglicht den Kunden, die voll
 
 Dadurch kann der Kunde die Anmelde- und Zugriffsbenutzeroberfläche mit einem White Label versehen, sodass Adobe oder Adobe Learning Manager für Benutzende unsichtbar bleibt.
 
-Sie möchten beispielsweise Ihre Domäne so anpassen, dass die Benutzererfahrung der in der Adobe-Domäne entspricht. Wenn ABC Inc ihre Kunden schulen möchte, sollen sie auf einer Domäne mit dem Namen `abc.com/mylearning`statt `learningmanager.adobe.com/abc-inc/mylearning`.
+Sie möchten beispielsweise Ihre Domäne so anpassen, dass die Benutzererfahrung der in der Adobe-Domäne entspricht. Wenn ABC Inc ihre Kunden schulen möchte, sollen sie auf einer Domäne namens `abc.com/mylearning` statt `learningmanager.adobe.com/abc-inc/mylearning` landen.
 
 >[!NOTE]
 >
@@ -31,7 +30,7 @@ Sie möchten beispielsweise Ihre Domäne so anpassen, dass die Benutzererfahrung
 
 Die Funktion für benutzerdefinierte Domänen ist gegen einen Aufpreis verfügbar. Wenden Sie sich an Ihren Customer Success Manager, um weitere Informationen zu erhalten.
 
-* Für die Teilnehmerrolle beginnt die Domäne mit `https://cdn.<customer_custom_domain>/` Beispiel: `https://cdn.elearningstage1.cpdomaintest.in/`
+* Für die Teilnehmerrolle beginnt die Domäne mit `https://cdn.<customer_custom_domain>/`. Beispiel: `https://cdn.elearningstage1.cpdomaintest.in/`
 * Für alle anderen Rollen beginnt die Domäne mit `https://<customer_custom_domain>/`. Beispiel: `https://elearningstage1.cpdomaintest.in/`
 
 `<customer_custom_domain>` ist der anpassbare Teil.
@@ -46,9 +45,9 @@ Führen Sie die folgenden Schritte aus, um eine benutzerdefinierte Domäne einzu
 
 1. Der Kunde muss **drei CNAME-Datensätze** in der Domäne hinzufügen:
 
-   * **learning.acme.com:** Öffentlicher ALB-Endpunkt des Learning Managers, der von Adobe freigegeben wird
+   * **learning.acme.com:** Von Adobe freigegebener öffentlicher ALB-Endpunkt des Learning Managers
    * **lrs.learning.acme.com:** Öffentlicher ALB-Endpunkt, auf den learning.acme.com verweist
-   * **cdn.learning.acme.com:** Von Adobe freigegebener CDN-Endpunkt
+   * **cdn.learning.acme.com:** CDN-Endpunkt von Adobe freigegeben
 
 1. Der Kunde muss SSL-Zertifikate für diese Domänen bereitstellen:
 

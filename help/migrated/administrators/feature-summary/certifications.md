@@ -21,14 +21,14 @@ Als Administrator können Sie ein Zertifizierungsprogramm entweder intern gehost
 
 ## Zertifizierung erstellen {#createacertification}
 
-1. Klicken **[!UICONTROL Zertifizierung]** im linken Bereich.\
+1. Klicken Sie im linken Teilfenster auf **[!UICONTROL Zertifizierung]**.\
    Eine Seite mit einer Liste aller Zertifizierungen im Status Entwurf und veröffentlicht wird angezeigt.
 
 1. Zertifizierungen in verschiedenen Modi anzeigen:
 
-   1. Klicken **[!UICONTROL Entwurf]** &quot; alle Zertifizierungen im Entwurfsstatus an. Sie müssen die Erstellung dieser Zertifizierungen abschließen.
-   1. Klicken **[!UICONTROL Veröffentlicht]** , um alle von Ihnen veröffentlichten Zertifizierungen anzuzeigen.
-   1. Klicken **[!UICONTROL Alle]** , um die Zertifizierungen in allen Status anzuzeigen.
+   1. Klicken Sie auf die Registerkarte **[!UICONTROL Entwurf]**, um alle Zertifizierungen im Entwurfsstatus anzuzeigen. Sie müssen die Erstellung dieser Zertifizierungen abschließen.
+   1. Klicken Sie auf **[!UICONTROL Veröffentlicht]**, um alle von Ihnen veröffentlichten Zertifizierungen anzuzeigen.
+   1. Klicken Sie auf **[!UICONTROL Alle]**, um die Zertifizierungen in allen Status anzuzeigen.
    1. Sortieren Sie die Liste der Zertifizierungen in aufsteigender oder absteigender Reihenfolge oder nach dem Datum ihrer Aktualisierung.
 
 1. Klicken Sie auf **[!UICONTROL Hinzufügen]**.
@@ -79,7 +79,7 @@ Als Administrator können Sie ein Zertifizierungsprogramm entweder intern gehost
   <tr>
    <td>Zertifizierungsaussteller<br></td>
    <td>
-    <p>Auswählen <b>Intern</b> , wenn sie zu Ihrer Organisation gehört, oder wählen Sie <b>Extern</b> für Zertifizierungen externer Unternehmen.</p>
+    <p>Wählen Sie <b>Intern</b>, wenn es zu Ihrer Organisation gehört, oder <b>Extern</b> für Zertifizierungen externer Organisationen.</p>
     <p>Wenn Sie <b>Externe Zertifizierung</b>wählen, sehen Sie zwei weitere Optionen:</p>
     <ul>
      <li>Wie Datum der Genehmigung<br></li>
@@ -102,18 +102,18 @@ Als Administrator können Sie ein Zertifizierungsprogramm entweder intern gehost
  </tbody>
 </table>
 
-Wählen Sie die Produkt-, Rollen- und Rollenebene im Dialogfeld &quot; **[!UICONTROL Für]** , um den Benutzern, die Interesse an diesen Produkten und Rollen bekundet haben, diesen Lernpfad vorzuschlagen.
+Wählen Sie die Produkt-, Rollen- und Rollenebene im Abschnitt **[!UICONTROL Für]** empfehlen aus, um diesen Lernpfad den Benutzern vorzuschlagen, die Interesse an diesen Produkten und Rollen bekundet haben.
 
 ![](assets/recommend-for.png)
 
 *Empfehlung*
 
-Wählen Sie die Kurse aus, die der Zertifizierung hinzugefügt werden sollen **[!UICONTROL Kurse]** > **[!UICONTROL Katalog]** &quot; ändern.
+Wählen Sie die Kurse, die der Zertifizierung hinzugefügt werden sollen, auf der Registerkarte **[!UICONTROL Kurse]** > **[!UICONTROL Katalog]** aus.
 
-Bewegen Sie die Maus über jede Kurskachel und klicken Sie auf &quot;+&quot;, um sie zur Zertifizierung hinzuzufügen. Klicken **[!UICONTROL Vorschau]** , um den Kurs als Teilnehmer anzuzeigen, bevor Sie ihn hinzufügen.
+Bewegen Sie die Maus über jede Kurskachel und klicken Sie auf &quot;+&quot;, um sie zur Zertifizierung hinzuzufügen. Klicken Sie auf **[!UICONTROL Vorschau]**, um den Kurs als Teilnehmer anzuzeigen, bevor Sie ihn hinzufügen.
 
-1. Klicken **[!UICONTROL Lehrplan]** &quot; die Liste der Kurse an, die Sie hinzugefügt haben.
-1. Klicken **[!UICONTROL Veröffentlichen]**.
+1. Klicken Sie auf die Registerkarte **[!UICONTROL Kursplan]**, um die Liste der von Ihnen hinzugefügten Kurse anzuzeigen/zu überprüfen.
+1. Klicken Sie auf **[!UICONTROL Publish]**.
 
 ## Kursinstanzzuordnung für Zertifizierungen {#courseinstancemappingforcertifications}
 
@@ -142,18 +142,18 @@ Beim Erstellen von Zertifizierungen kann der Administrator auswählen, ob Teilne
 
 ![](assets/unenrollment.png)
 
-*Auswählen, um die Registrierung von Teilnehmern aufzuheben*
+*Teilnehmer abmelden*
 
 ## Als abgeschlossen markieren {#markcompletion}
 
 Administratoren können mithilfe der für sie verfügbaren Option eine Zertifizierung als abgeschlossen markieren. Gehen Sie wie folgt vor, um eine Zertifizierung als abgeschlossen zu markieren.
 
-1. Öffnen **[!UICONTROL Zertifizierung]** > **[!UICONTROL Teilnehmer]**.
+1. Öffnen Sie **[!UICONTROL Zertifizierung]** > **[!UICONTROL Teilnehmer]**.
 
    Die Seite &quot;Teilnehmer&quot; wird mit der Liste der registrierten Teilnehmer geöffnet.
 
 1. Wählen Sie einen, mehrere oder alle Teilnehmer aus, um den Abschluss der Zertifizierung mithilfe des für jeden Teilnehmer verfügbaren Kontrollkästchens zu markieren.
-1. Klicken  **[!UICONTROL Aktion]** > **[!UICONTROL Als abgeschlossen markieren.]**
+1. Klicken Sie auf **[!UICONTROL Aktion]** > **[!UICONTROL Als abgeschlossen markieren.]**
 
    Beachten Sie, dass bei einer Zertifizierung mit mehreren Kursen der Abschluss für alle Kurse markiert wird.
 
@@ -161,19 +161,19 @@ Administratoren können mithilfe der für sie verfügbaren Option eine Zertifizi
 
 In früheren Versionen von Learning Manager war das Absolvieren eines Kurses durch Teilnehmende in der externen Zertifizierung nicht zwingend erforderlich, um ein Zertifikat zu erlangen.
 
-Sie können jetzt Kurse verbindlich festlegen, indem Sie die Option **[!UICONTROL Erforderliche Kurse als obligatorisch für den Abschluss des Zertifikats festlegen]** auf der Registerkarte &quot;Stundenplan&quot;, während Sie die Zertifizierungen bearbeiten.
+Sie können jetzt Kurse verbindlich festlegen, indem Sie die Option **[!UICONTROL Erforderliche Kurse als obligatorisch für den Abschluss von Zertifikaten festlegen]** auf der Registerkarte &quot;Stundenplan&quot; aktivieren, während Sie die Zertifizierungen bearbeiten.
 
 ## Bearbeiten einer veröffentlichten Zertifizierung {#editingapublishedcertification}
 
 Eine Zertifizierung kann von einem Administrator in einem veröffentlichten Status bearbeitet werden. In diesem Status kann der Administrator alle Abschnitte einer Zertifizierung bearbeiten und erneut veröffentlichen.
 
-Um eine veröffentlichte Zertifizierung zu bearbeiten, klicken Sie auf die Zertifizierungskarte und dann auf **[!UICONTROL Bearbeiten]** oben rechts auf der Seite.
+Um eine veröffentlichte Zertifizierung zu bearbeiten, klicken Sie auf die Zertifizierungskarte und klicken Sie auf **[!UICONTROL Bearbeiten]** in der oberen rechten Ecke der Seite.
 
 Wenn die Seite beim Bearbeiten der Abschnitte einer Zertifizierung verlassen müssen, müssen Sie die Zertifizierung erneut veröffentlichen. Es wird ein Dialogfeld für die Bestätigung zur erneuten Veröffentlichung der Zertifizierung angezeigt.
 
 ![](assets/edit-a-certificate.png)
 
-*Bearbeiten eines Zertifikats*
+*Zertifikat bearbeiten*
 
 ## Abonnement {#subscription}
 
@@ -181,4 +181,4 @@ Administratoren können Berichte zu Quizpunktzahlen und Teilnehmerstatus abrufen
 
 ![](assets/report-subscription.jpeg)
 
-*Berichtshäufigkeit und andere Eigenschaften festlegen*
+*Berichtsfrequenz und andere Eigenschaften festlegen*

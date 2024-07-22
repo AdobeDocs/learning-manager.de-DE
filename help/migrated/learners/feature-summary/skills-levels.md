@@ -3,14 +3,13 @@ description: Lesen Sie den Artikel zum Erreichen von Kenntnissen in Learning Man
 jcr-language: en_us
 title: Kenntnisse und Stufen
 contentowner: manochan
-source-git-commit: ed7e28720cf521b629333dc48e530e0aa16b0ae1
+exl-id: 3172e988-3dc5-484c-8869-7a8d9950b79b
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 90%
 
 ---
-
-
 
 # Kenntnisse und Stufen
 
@@ -36,7 +35,7 @@ Von dieser Seite aus können Sie auf alle Kenntnisse klicken, um die entsprechen
 
 ![](assets/learner-skills2.png)
 
-*Jede Qualifikation anzeigen*
+*Kenntnisse anzeigen*
 
 Nur Administratoren können Qualifikationen für Teilnehmer erstellen und zuweisen. Hinweis Nur Administratoren können Qualifikationen für Teilnehmer erstellen und zuweisen. Die Teilnehmer werden den Qualifikationen entsprechend den Kursen/Lernprogrammen, für die sie registriert sind, automatisch zugewiesen.
 

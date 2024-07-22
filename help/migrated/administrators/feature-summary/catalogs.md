@@ -21,7 +21,7 @@ Als Administrator können Sie benutzerdefinierte Kataloge erstellen, wenn Sie se
 
 In dieser Schulung erfahren Sie, wie Sie Kataloge erstellen und verwalten.
 
-[![Knopf](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QTV3NXVQ&amp;mv=display&amp;mv2=display#/course/8318922)
+[![Schaltfläche](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QTV3NXVQ&amp;mv=display&amp;mv2=display#/course/8318922)
 
 Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.com>.
 
@@ -62,7 +62,7 @@ Um einen Katalog zu erstellen, führen Sie die folgenden Schritte aus:
 
    ![](assets/click-content-inthecatalog.png)
 
-   *Kurs auswählen, der dem Katalog hinzugefügt werden soll*
+   *Wählen Sie einen Kurs aus, der dem Katalog hinzugefügt werden soll*
 
    Der von Ihnen hinzugefügte Kurs wird auf der Registerkarte **[!UICONTROL Kurse]** angezeigt.
 
@@ -72,7 +72,7 @@ Um einen Katalog zu erstellen, führen Sie die folgenden Schritte aus:
 1. Speichern Sie das Änderungen. Kehren Sie zur Liste der Kataloge zurück und klicken Sie auf den neuen Katalog in der Liste.
 1. Klicken Sie auf der Seite für den neuen Katalog im linken Bereich auf **[!UICONTROL Inhalt]**.
 
-   Das von Ihnen hinzugefügte Lernprogramm wird im Dialogfeld &quot; **[!UICONTROL Lernprogramme]** &quot; ändern.
+   Das von Ihnen hinzugefügte Lernprogramm wird auf der Registerkarte **[!UICONTROL Lernprogramme]** angezeigt.
 
 ## Zertifizierung zum Katalog hinzufügen {#cert}
 
@@ -80,7 +80,7 @@ Um einen Katalog zu erstellen, führen Sie die folgenden Schritte aus:
 1. Speichern Sie das Änderungen. Kehren Sie zur Liste der Kataloge zurück und klicken Sie auf den neuen Katalog in der Liste.
 1. Klicken Sie auf der Seite für den neuen Katalog im linken Bereich auf **[!UICONTROL Inhalt]**.
 
-   Die Zertifizierung, die Sie hinzugefügt haben, wird im Dialogfeld &quot; **[!UICONTROL Zertifikationen]** &quot; ändern.
+   Die Zertifizierung, die Sie hinzugefügt haben, wird auf der Registerkarte **[!UICONTROL Zertifizierungen]** angezeigt.
 
 ## Arbeitshilfe zum Katalog hinzufügen {#job}
 
@@ -88,7 +88,7 @@ Um einen Katalog zu erstellen, führen Sie die folgenden Schritte aus:
 1. Speichern Sie das Änderungen. Kehren Sie zur Liste der Kataloge zurück und klicken Sie auf den neuen Katalog in der Liste.
 1. Klicken Sie auf der Seite für den neuen Katalog im linken Bereich auf **[!UICONTROL Inhalt]**.
 
-   Die Arbeitshilfe, die Sie hinzugefügt haben, wird im Dialogfeld &quot; **[!UICONTROL Arbeitshilfen]** &quot; ändern.
+   Die Arbeitshilfe, die Sie hinzugefügt haben, wird auf der Registerkarte **[!UICONTROL Arbeitshilfen]** angezeigt.
 
 Der Inhalt wird auf jeder dieser Registerkarten angezeigt, wenn er bereits im Konto vorhanden ist. Andernfalls müssen Sie den Inhalt zunächst erstellen. Wenn Sie beispielsweise noch keine Kurse oder Lernprogramme in der Learning Manager-Anwendung hinzugefügt haben, müssen Sie diese zunächst erstellen.
 
@@ -96,11 +96,11 @@ Der Inhalt wird auf jeder dieser Registerkarten angezeigt, wenn er bereits im Ko
 
 Ein Administrator kann einen Deep-Link für einen Katalog generieren, der die Teilnehmer zur entsprechenden Katalogseite führen kann.
 
-Im Fenster &quot; **[!UICONTROL Kataloge]** &quot; mit der Maus auf den Katalog, für den Sie den Deep-Link generiert haben, und klicken Sie auf das hervorgehobene Symbol.
+Bewegen Sie den Mauszeiger auf der Seite **[!UICONTROL Kataloge]** auf den Katalog, für den Sie den Deep-Link generiert haben, und klicken Sie auf das hervorgehobene Symbol.
 
 ![](assets/catalog-deep-link.png)
 
-*Deep-Link für Teilnehmer erstellen*
+*Deep Link für Teilnehmer generieren*
 
 ## Katalog aktivieren {#enablethecatalog}
 
@@ -116,9 +116,9 @@ Um den Katalog zu aktivieren,
 
 Um einen Katalog zu deaktivieren, deaktivieren Sie die Option neben dem Katalog.
 
-Alternativ können Sie das Kontrollkästchen neben dem Katalog aktivieren, klicken Sie oben rechts auf Aktionen und dann auf **[!UICONTROL Deaktivieren]**.
+Alternativ können Sie das Kontrollkästchen neben dem Katalog aktivieren, auf &quot;Aktionen&quot; in der oberen rechten Ecke klicken und auf **[!UICONTROL Deaktivieren]** klicken.
 
-Sie können auch mehrere Kataloge in der Liste deaktivieren. Wählen Sie die Kataloge aus und aus dem Menü Aktion wählen Sie die Option **[!UICONTROL Deaktivieren]**.
+Sie können auch mehrere Kataloge in der Liste deaktivieren. Wählen Sie die Kataloge aus, und wählen Sie im Menü &quot;Aktion&quot; die Option **[!UICONTROL Deaktivieren]**.
 
 ## Katalog löschen {#deletethecatalog}
 
@@ -136,7 +136,7 @@ Kurse, Lernprogramme, Arbeitshilfen und Zertifizierungen sind die unterstützten
 
 In dieser Schulung erfahren Sie, wie Sie Kataloge für interne Benutzergruppen und externe Adobe Learning Manager-Konten freigeben.
 
-[![Knopf](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PGRQQ9SP&amp;mv=display&amp;mv2=display#/course/8318924)
+[![Schaltfläche](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PGRQQ9SP&amp;mv=display&amp;mv2=display#/course/8318924)
 
 Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.com>.
 
@@ -152,7 +152,7 @@ Um eine interne Benutzergruppe hinzuzufügen, klicken Sie auf **[!UICONTROL Benu
 
 ![](assets/internal-usergroups.png)
 
-*Teilen eines Katalogs intern*
+*Einen Katalog intern freigeben*
 
 Sie können eine freigegebene Benutzergruppe nicht aktivieren/deaktivieren. Für die Deaktivierung müssen Sie die Benutzergruppe löschen. Zum Löschen bewegen Sie der Mauszeiger über den drei Punkten und klicken Sie auf das Symbol „Löschen“. Alternativ dazu können Sie im Dropdownmenü auf „Aktionen“ in der rechten oberen Ecke der Seite klicken.
 
@@ -162,9 +162,9 @@ Klicken Sie auf der Seite „Kataloge“ auf den Katalog, den Sie freigeben möc
 
 ![](assets/shared-catalog-external.png)
 
-*Teilen eines Katalogs extern*
+*Einen Katalog extern freigeben*
 
-Geben Sie die Subdomäne ein, die mit Ihrem Learning Manager-Konto verknüpft ist. Klicken Sie auf **[!UICONTROL Wie erhalte ich eine Subdomäne?]** , um mehr über die Verwendung der Subdomäne zu erfahren. Sie können auch auf **[!UICONTROL Branding]** im linken Bereich auf der Administratorstartseite, um die Subdomäne anzuzeigen, die mit Ihrem Unternehmenskonto verknüpft ist.
+Geben Sie die Subdomäne ein, die mit Ihrem Learning Manager-Konto verknüpft ist. Klicken Sie auf **[!UICONTROL Wie erhalte ich eine Subdomäne?]**, um mehr über die Verwendung der Subdomäne zu erfahren. Sie können auch auf **[!UICONTROL Branding]** im linken Bereich auf der Administratorstartseite klicken, um die Subdomäne anzuzeigen, die mit Ihrem Unternehmenskonto verknüpft ist.
 
 **Einschränkungen für die Registrierung** 
 
@@ -172,9 +172,9 @@ Sie können den Grenzwert für die Anzahl der Registrierung pro Kurs im freigege
 
 **Ablauf**
 
-Sie können die Gültigkeit des freigegebenen Katalogs festlegen, indem Sie ein Ablaufdatum in der Datei **[!UICONTROL Ablauf]** ein. Nach dem Ablaufdatum des freigegebenen Katalogs, sind Registrierungen für die Kurse nicht mehr zulässig. Vorhandene Teilnehmer können immer noch Zugriff auf die Inhalte haben. Lernobjekte werden eingestellt, aber die Abzeichen und Qualifikationen sind aktiv. In diesem Status kann der freigegebene Katalogempfänger die Einstellung für die Lernobjekte nicht aufheben.
+Sie können die Gültigkeit des freigegebenen Katalogs festlegen, indem Sie ein Ablaufdatum im Feld **[!UICONTROL Ablauf]** einrichten. Nach dem Ablaufdatum des freigegebenen Katalogs, sind Registrierungen für die Kurse nicht mehr zulässig. Vorhandene Teilnehmer können immer noch Zugriff auf die Inhalte haben. Lernobjekte werden eingestellt, aber die Abzeichen und Qualifikationen sind aktiv. In diesem Status kann der freigegebene Katalogempfänger die Einstellung für die Lernobjekte nicht aufheben.
 
-Klicken Sie auf **[!UICONTROL Speichern]**, nachdem alle erforderlichen Informationen hinzugefügt wurden. Klicken **[!UICONTROL Aktionen]** in der rechten oberen Ecke der Seite und klicken Sie auf **[!UICONTROL Freigeben]** , um den Katalog mit externen Konten zu teilen.
+Klicken Sie auf **[!UICONTROL Speichern]**, nachdem alle erforderlichen Informationen hinzugefügt wurden. Klicken Sie auf das Dropdownmenü **[!UICONTROL Aktionen]** in der oberen rechten Ecke der Seite und klicken Sie auf **[!UICONTROL Freigeben]**, um den Katalog mit externen Konten freizugeben.
 
 Die Kataloge, die dem freigebenden Kontoinhaber gehören, können nur mit externen Konten geteilt werden. Sie können die Kataloge nicht freigeben, die bereits von anderen Konten für Sie freigegeben wurden.
 
@@ -186,13 +186,13 @@ Die Lernobjekte mit offenem/aktivem Status für die Registrierung werden nur den
 
 **Freigabe für Kataloge aufheben**
 
-Die Aufhebung der Freigabe eines Katalogs ist die Deaktivierung eines externen Kontos in der Anwendung. Um die Freigabe für einen Katalog aufzuheben, klicken Sie auf **[!UICONTROL Aktionen]** in der oberen rechten Ecke der Seite und klicken Sie auf **[!UICONTROL Freigabe aufheben]**. Sie können die Freigabe für einen Katalog jederzeit aufheben. Wenn die Freigabe für einen Katalog aufgehoben wurde, wechseln alle Lernobjekte in diesem freigegebenen Katalog in den Status „Eingestellt“. Die deaktivierten Kataloge werden in der Anwendung des Empfängers als eingestellt angezeigt.
+Die Aufhebung der Freigabe eines Katalogs ist die Deaktivierung eines externen Kontos in der Anwendung. Um die Freigabe für einen Katalog aufzuheben, klicken Sie auf **[!UICONTROL Aktionen]** in der oberen rechten Ecke der Seite und dann auf **[!UICONTROL Freigabe aufheben]**. Sie können die Freigabe für einen Katalog jederzeit aufheben. Wenn die Freigabe für einen Katalog aufgehoben wurde, wechseln alle Lernobjekte in diesem freigegebenen Katalog in den Status „Eingestellt“. Die deaktivierten Kataloge werden in der Anwendung des Empfängers als eingestellt angezeigt.
 
 Sie können ein externes Konto aus einer freigegebenen Liste nur entfernen, bevor der Empfänger die Anforderung akzeptiert.
 
 **Kataloge löschen**
 
-Um einen freigegebenen Katalog zu löschen, klicken Sie auf **[!UICONTROL Aktionen]** und klicken Sie auf **[!UICONTROL Löschen]**.
+Um einen freigegebenen Katalog zu löschen, klicken Sie auf das Dropdown-Menü **[!UICONTROL Aktionen]** und dann auf **[!UICONTROL Löschen]**.
 
 * Sie können einen Standardkatalog mit externen Konten nicht freigeben.
 * Sie können einen Katalog nicht löschen, der von Ihnen extern freigegeben wurde.
@@ -267,7 +267,7 @@ Alle Änderungen, die für Lernobjekte in der Besitzeranwendung durchgeführt we
 * Neu hinzugefügte Assets zum freigegebenen Katalog werden automatisch für den Empfänger sichtbar.
 * Die Qualifikationen, die mit Lernobjekten verknüpft sind, werden in die freigegebenen Katalogempfängerkonten kopiert.
 
-* Wenn das freigegebene Katalogempfängerkonto bereits denselben Qualifikationsnamen hatte, wird eine neue Qualifikation erstellt, indem &#42; nach dem Namen.
+* Wenn das freigegebene Katalogempfängerkonto bereits denselben Qualifikationsnamen hatte, wird eine neue Qualifikation erstellt, indem &#42; nach dem Namen hinzugefügt wird.
 * Daten (z. B. Abzeichen L1, L3, Benachrichtigungen) in den Standardinstanzen von Kursen und Lernprogrammen werden ebenfalls in das Konto des Empfängers zusammen mit den Kursen und Lernprogrammen kopiert.
 
 Wiederkehrende Zertifizierungen können nicht Teil eines extern freigegebenen Katalogs sein. Der Empfänger kann erworbene Lernobjekte in wiederkehrenden Zertifizierungen nicht verwenden, wenn sie Registrierungseinschränkungen oder ein Ablaufdatum im Katalog haben.
@@ -328,9 +328,9 @@ Nachdem Sie Katalogbeschriftungen erstellt haben, können Sie sie mithilfe der f
 1. Öffnen Sie im linken Bereich &quot;Kataloge&quot;.
 1. Wählen Sie den Katalog aus und wenden Sie ihn auf die Beschriftung an.
 1. Öffnen Sie im linken Bereich „Katalogbeschriftungen“.
-1. Klicken **[!UICONTROL Bearbeiten]** in der oberen rechten Ecke. Die Seite zeigt die Liste der verfügbaren „Katalogbeschriftungen“.
+1. Klicken Sie in der rechten oberen Ecke auf **[!UICONTROL Bearbeiten]**. Die Seite zeigt die Liste der verfügbaren „Katalogbeschriftungen“.
 1. Um eine Beschriftung zum Katalog hinzuzufügen, klicken Sie auf **[!UICONTROL Zum Katalog hinzufügen]**.
-1. Um vorhandene Beschriftungen, die einem Katalog hinzugefügt wurden, zu entfernen, klicken Sie auf **[!UICONTROL Entfernen]**.
+1. Um vorhandene Beschriftungen zu entfernen, die einem Katalog hinzugefügt wurden, klicken Sie auf **[!UICONTROL Entfernen]**.
 
 +++
 

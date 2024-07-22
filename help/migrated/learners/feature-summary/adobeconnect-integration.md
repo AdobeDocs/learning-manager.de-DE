@@ -2,14 +2,13 @@
 jcr-language: en_us
 title: Adobe Connect-Integration
 description: Als Teilnehmer können Sie Kurse im virtuellen Klassenzimmer über Adobe Connect absolvieren, wenn Ihr Unternehmen Adobe Connect mit Ihrem Learning Manager-Konto integriert. Wenden Sie sich an den Administrator Ihres Unternehmens, wenn Sie Adobe Connect nicht verwenden können.
-source-git-commit: 69ac8f8ce5a0c077f31569571f9d9fbf16ecb943
+exl-id: bf071cb2-a955-4c2b-b156-54cdd78cbd68
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 54%
 
 ---
-
-
 
 # Adobe Connect-Integration
 

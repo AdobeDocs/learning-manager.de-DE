@@ -3,14 +3,13 @@ description: Benutzerbenachrichtigungen für Manager einrichten
 jcr-language: en_us
 title: Benutzerbenachrichtigungen
 contentowner: manochan
-source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
+exl-id: 0ed6aea9-9dd4-465a-8723-56d600a35236
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '467'
 ht-degree: 80%
 
 ---
-
-
 
 # Benutzerbenachrichtigungen
 
@@ -30,7 +29,7 @@ Abbildung eines Beispiels für Manager-Benachrichtigungen:
 
 Dieses Popup-Fenster zeigt Markierungen aller Benachrichtigungen zusammen mit der Zeit, zu der sie eingetroffen sind, sowie eine Bildlaufleiste. Um weitere Informationen zu allen Benachrichtigungen anzuzeigen, klicken Sie unten im Popup-Fenster auf &quot;Alle Benachrichtigungen anzeigen&quot;. Die Benachrichtigungsseite wird angezeigt.
 
-Ein Manager kann die ausstehenden Aufgaben und alle Benachrichtigungen auf der Benachrichtigungsseite auf Registerkarten sehen. Benachrichtigungen zu ausstehenden Aufgaben werden basierend auf Genehmigungen, Nominierungen usw. kategorisiert. Um alle Benachrichtigungen anzuzeigen, klicken Sie auf **[!UICONTROL Alle Benachrichtigungen]** &quot; ändern. Auf der Registerkarte „Alle Benachrichtigungen“ werden die Benachrichtigungen nach Datum und Uhrzeit geordnet aufgelistet.
+Ein Manager kann die ausstehenden Aufgaben und alle Benachrichtigungen auf der Benachrichtigungsseite auf Registerkarten sehen. Benachrichtigungen zu ausstehenden Aufgaben werden basierend auf Genehmigungen, Nominierungen usw. kategorisiert. Klicken Sie auf die Registerkarte **[!UICONTROL Alle Benachrichtigungen]**, um alle Benachrichtigungen anzuzeigen. Auf der Registerkarte „Alle Benachrichtigungen“ werden die Benachrichtigungen nach Datum und Uhrzeit geordnet aufgelistet.
 
 ![](assets/manager-notifications-page.png)
 

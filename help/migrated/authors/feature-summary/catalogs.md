@@ -3,14 +3,13 @@ description: Kataloge in Learning Manager bestehen aus den Kursen, Lernprogramme
 jcr-language: en_us
 title: Kataloge
 contentowner: manochan
-source-git-commit: 147e9edfe323f3d0851880cd401067daa1cee84f
+exl-id: 35ff170f-fee6-4d28-8238-1a53568d99b3
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 88%
 
 ---
-
-
 
 # Kataloge
 
@@ -24,13 +23,13 @@ Um nur die Kurse anzuzeigen, die ein Autor erstellt hat, navigieren Sie zum Absc
 
 Als Autor können Sie den Kurskatalog anzeigen, der eine Sammlung aller Kurse im Konto darstellt.
 
-Nachdem Sie sich als Autor angemeldet haben, klicken Sie auf **Kurskatalog** im linken Bereich, um die Liste aller Kurse anzuzeigen, die im Learning Manager für Ihr Unternehmen verfügbar sind.
+Nachdem Sie sich als Autor angemeldet haben, klicken Sie auf **Kurskatalog** im linken Bereich, um die Liste aller Kurse anzuzeigen, die im Lern-Manager für Ihr Unternehmen verfügbar sind.
 
 Verwenden Sie die in der Abbildung unten dargestellten Filteroptionen, um im Katalog nach Kursen zu suchen.
 
 ![](assets/search-options.png)
 
-*Suchen Sie die Kurse im Katalog*
+*Kurse im Katalog suchen*
 
 ## Kurs für virtuelles Klassenzimmer (VC) mit Adobe Connect erstellen {#createvirtualclassroomvccoursewithadobeconnect}
 

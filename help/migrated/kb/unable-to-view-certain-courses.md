@@ -3,14 +3,13 @@ jcr-language: en_us
 title: Bestimmte Kurse können beim Erstellen einer Zertifizierung nicht im Katalog angezeigt werden
 description: Wenn Sie nach einem bestimmten Kurs suchen, um ihn einer Zertifizierung hinzuzufügen, können Sie den Kurs nicht im Katalog anzeigen.
 contentowner: saghosh
-source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
+exl-id: 5f2095ee-2b7b-4638-95fb-e81b7f9be96e
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 84%
 
 ---
-
-
 
 # Bestimmte Kurse können beim Erstellen einer Zertifizierung nicht im Katalog angezeigt werden
 
@@ -42,7 +41,7 @@ Für diese Kurse können Teilnehmer nur von einem Manager nominiert werden. Teil
 
 Bei einer Zertifizierung können Sie nur selbstregistrierte Kurse hinzufügen, nicht jedoch Kurse, die vom Manager nominiert oder vom Manager genehmigt wurden.
 
-* **Unbefristete Zertifizierungen:**  Sie können einer Zertifizierung CR- oder VC-Sitzungskurse hinzufügen.
+* **Dauerhafte Zertifizierungen:** Sie können einer Zertifizierung CR- oder VC-Sitzungskurse hinzufügen.
 * **Wiederkehrende Zertifizierungen:** Sie können einer Zertifizierung keine CR- oder VC-Sitzungskurse hinzufügen.
 
 Dies ist ein Standardverhalten in Learning Manager.

@@ -41,11 +41,11 @@ Die folgende Abbildung zeigt das Beispiel eines Benachrichtigungsfensters für d
 
 In diesem Popupfenster werden Markierungen aller Benachrichtigungen zusammen mit dem Zeitpunkt des Auftretens und einer Bildlaufleiste angezeigt. Die Anzahl der neuen Benachrichtigungen wird durch die markierte Zahl oben am Benachrichtigungssymbol angezeigt. Wenn beispielsweise seit Ihrer letzten Anmeldung fünf Benachrichtigungen neu eingegangen sind, wird über dem Benachrichtigungssymbol die Zahl 5 angezeigt. Wenn Sie die neuesten Benachrichtigungen gelesen haben, wird diese Zahl ausgeblendet.
 
-Klicken **[!UICONTROL Alle Benachrichtigungen anzeigen]** am unteren Rand des Benachrichtigungs-Popup-Fensters, um alle Benachrichtigungen auf einer separaten Seite anzuzeigen. Auf der Benachrichtigungsseite sehen Sie Folgendes:
+Klicken Sie auf den Link **[!UICONTROL Alle Benachrichtigungen anzeigen]** am unteren Rand des Benachrichtigungs-Popup-Fensters, um alle Benachrichtigungen auf einer separaten Seite anzuzeigen. Auf der Benachrichtigungsseite sehen Sie Folgendes:
 
-* **Alle Benachrichtigungen**: Alle Benachrichtigungen hier anzeigen
+* **Alle Benachrichtigungen**: Hier können Sie alle Benachrichtigungen anzeigen
 * **Ausstehend**: Ausstehende Benachrichtigungen hier anzeigen
-* **Diskussion**: Suchen Sie nach Kursen, um zu sehen, welche Diskussionen stattfinden.
+* **Diskussion**: Suchen Sie nach Kursen, um die Diskussionen anzuzeigen.
 
 ## Richten Sie mehrstufige Eskalationsbenachrichtigungen ein {#setupmultilevelescalationnotifications}
 
@@ -56,13 +56,13 @@ Eskalations-E-Mails, wenn die Teilnehmer Fristen nicht einhalten, können an den
 
    ![](assets/view-courses.png)
 
-   *Wählen Sie die Option Kurs anzeigen*
+   *Wählen Sie die Option &quot;Kurs anzeigen&quot; aus.*
 
 1. Klicken Sie auf **[!UICONTROL Instanzen]** > **[!UICONTROL Benachrichtigungswarnungen]**.
 
    ![](assets/notification-alert.png)
 
-   *Wählen Sie die Option Benachrichtigungswarnungen.*
+   *Wählen Sie die Option &quot;Benachrichtigungswarnungen&quot; aus.*
 
 1. Ein Kalender wird angezeigt, der die festgelegte Frist für den rot hervorgehobenen Kurs angibt. Klicken Sie auf das hervorgehobene Datum, um anzuzeigen, dass die Erinnerungen für den Teilnehmer eingestellt sind.
 
@@ -74,7 +74,7 @@ Eskalations-E-Mails, wenn die Teilnehmer Fristen nicht einhalten, können an den
 
    ![](assets/deadline-reminder.png)
 
-   *Termin für Erinnerung festlegen*
+   *Termin für Fristerinnerung festlegen*
 
 1. Wählen Sie ein Datum nach Ablauf der Frist aus, um einen Erinnerungsplan für den Teilnehmer und Eskalationsbenachrichtigungen an den Manager festzulegen.
 
@@ -82,7 +82,7 @@ Eskalations-E-Mails, wenn die Teilnehmer Fristen nicht einhalten, können an den
 
    *Erinnerungen und Eskalationsdaten festlegen*
 
-1. Wenn der Teilnehmer den Kurs auch nach der Eskalation an den Manager immer noch nicht abschließt, können Sie mit den Einstellungen zum Skip-Manager des Teilnehmers eskalieren. Klicken Sie auf ein Datum nach Ablauf der verlängerten Frist, wählen Sie die Wiederholung von Erinnerungen, die Anzahl der Tage für den Zeitplan und wählen Sie **Manager und Manager zum Überspringen von Levels** in der &quot; **Eskalation** Dropdown-Liste. Klicken Sie auf das blaue Häkchen, um die Benachrichtigungseinstellungen zu speichern.
+1. Wenn der Teilnehmer den Kurs auch nach der Eskalation an den Manager immer noch nicht abschließt, können Sie mit den Einstellungen zum Skip-Manager des Teilnehmers eskalieren. Klicken Sie auf ein Datum nach Ablauf der verlängerten Frist, wählen Sie die Wiederholung von Erinnerungen und die Anzahl der Tage für den Zeitplan aus, und wählen Sie im Dropdown-Menü **Eskalation** die Option **Manager und Manager der Überspringstufe** aus. Klicken Sie auf das blaue Häkchen, um die Benachrichtigungseinstellungen zu speichern.
 
    ![](assets/reminder-to-managerandskipmanager.png)
 

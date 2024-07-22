@@ -62,7 +62,7 @@ Stellen Sie außerdem sicher, dass Sie über die richtigen Anmeldedaten für die
 
    ![](assets/mouserover-salesforce.png)
 
-1. Ein Dialogfeld wird angezeigt, in dem Sie zur Eingabe der Unternehmens-URL aufgefordert werden. Klicken **[!UICONTROL Vernetzen]** nach Angabe der URL.
+1. Ein Dialogfeld wird angezeigt, in dem Sie zur Eingabe der Unternehmens-URL aufgefordert werden. Klicken Sie auf **[!UICONTROL Verbinden]**, nachdem Sie die URL angegeben haben.
 1. Nach einer erfolgreichen Verbindung wird die Seite „Übersicht“ angezeigt.
 
 ## Attribute zuordnen {#mapattributes}
@@ -73,9 +73,9 @@ Sobald die Verbindung erfolgreich hergestellt wurde, können Sie Salesforce-Spal
 
    ![](assets/sfdc-map-columns.png)
 
-   Die Spaltendaten des Learning Managers, die auf der linken Seite angezeigt werden, werden von den aktiven Feldern abgerufen. Die **Betriebsleiter** muss unbedingt einem Feld mit der E-Mail-Adresse zugeordnet werden. Alle Spalten müssen zugeordnet werden, bevor der Connector verwendet werden kann.
+   Die Spaltendaten des Learning Managers, die auf der linken Seite angezeigt werden, werden von den aktiven Feldern abgerufen. Das Feld **Manager** muss unbedingt einem Feld mit der E-Mail-Adresse zugeordnet werden. Alle Spalten müssen zugeordnet werden, bevor der Connector verwendet werden kann.
 
-1. Klicken **[!UICONTROL Speichern]** nach Abschluss der Zuordnung.
+1. Klicken Sie auf **[!UICONTROL Speichern]**, nachdem Sie die Zuordnung abgeschlossen haben.
 1. Der Connector ist jetzt einsatzbereit. Das Konto, das jetzt konfiguriert wurde, wird als Datenquelle innerhalb der Administrator-App angezeigt, sodass der Administrator den Import planen oder die Synchronisierung nach Bedarf starten kann.
 
 ## Verwendung des Salesforce-Connector {#usingsalesforceconnector}
@@ -114,7 +114,7 @@ In diesem Abschnitt wird die Integration von Learning Manager in den FTP-Connect
 
    ![](assets/mouseover-ftpconnector.png)
 
-1. Ein Dialogfeld wird angezeigt, in dem Sie zur Eingabe der Unternehmens-E-Mail-ID aufgefordert werden. Geben Sie die E-Mail-Adresse der Person an, die für das Verwalten des Learning Manager-FTP-Kontos für das Unternehmen verantwortlich ist. Klicken **[!UICONTROL Vernetzen]** nach Angabe der E-Mail-ID.
+1. Ein Dialogfeld wird angezeigt, in dem Sie zur Eingabe der Unternehmens-E-Mail-ID aufgefordert werden. Geben Sie die E-Mail-Adresse der Person an, die für das Verwalten des Learning Manager-FTP-Kontos für das Unternehmen verantwortlich ist. Klicken Sie auf **[!UICONTROL Verbinden]**, nachdem Sie die E-Mail-ID angegeben haben.
 1. Learning Manager sendet Ihnen eine E-Mail, in der Sie aufgefordert werden, das Kennwort zurückzusetzen, bevor Sie zum ersten Mal auf FTP zugreifen. Benutzende müssen das Kennwort zurücksetzen und es für den Zugriff auf das Learning Manager-FTP-Konto verwenden.
 
    Nur ein Learning Manager-FTP-Konto kann für ein bestimmtes Learning Manager-Konto erstellt werden.
@@ -139,12 +139,12 @@ Mit der Option zum Importieren von internen Benutzern können Sie die Generierun
 
 Sobald die Verbindung erfolgreich hergestellt wurde, können Sie die Spalten der CSV-Dateien zuweisen, die in den FTP-Ordner zu den entsprechenden Attributen von Learning Manager platziert werden. Dieser Schritt ist obligatorisch.
 
-1. Auf der Seite &quot;Attributzuordnung&quot; werden links die erwarteten Spalten des Learning Manager und rechts die Namen der Spalten in der CSV-Datei angezeigt. Auf der rechten Seite wird eventuell zunächst ein leeres Auswahlfeld angezeigt. Importieren Sie eine beliebige Vorlagen-CSV, indem Sie auf **Datei auswählen**.
+1. Auf der Seite &quot;Attributzuordnung&quot; werden links die erwarteten Spalten des Learning Manager und rechts die Namen der Spalten in der CSV-Datei angezeigt. Auf der rechten Seite wird eventuell zunächst ein leeres Auswahlfeld angezeigt. Importieren Sie eine beliebige Vorlagen-CSV, indem Sie auf **Datei auswählen** klicken.
 1. Durch den oben beschriebenen Schritt werden alle Spaltennamen aus der CSV-Datei in die Dropdown-Auswahlliste auf der rechten Seite übernommen. Wählen Sie den entsprechenden Spaltennamen aus, der dem Spaltennamen des Lern-Managers zugeordnet ist.
 
    *Das Manager-Feld muss einem Feld mit einer E-Mail-Adresse zugeordnet werden. Alle Spalten müssen zugeordnet werden, bevor der Connector verwendet werden kann.*
 
-1. Klicken **[!UICONTROL Speichern]** nach Abschluss der Zuordnung.
+1. Klicken Sie auf **[!UICONTROL Speichern]**, nachdem Sie die Zuordnung abgeschlossen haben.
 
    Der Connector ist jetzt einsatzbereit. Das gerade konfigurierte Konto wird jetzt als Datenquelle innerhalb des Administrator-App angezeigt, sodass der Administrator den Import planen oder die Synchronisierung nach Bedarf starten kann.
 
@@ -166,7 +166,7 @@ Sobald die Verbindung erfolgreich hergestellt wurde, können Sie die Spalten der
 1. Alle CSV-Dateien sollten die in der Zuordnung angegebenen Spalten enthalten.
 1. Alle erforderlichen CSV müssen sich in dem Ordner befinden, bevor der Vorgang beginnt.
 
-Beim Importieren von Benutzenden in Learning Manager muss der Administrator auch wissen, wie Benutzende in Learning Manager verwaltet werden. Siehe [User Management-Hilfe](../integration-admin/feature-summary/migration-manual.md#usermanagement) , um weitere Informationen zu erhalten.
+Beim Importieren von Benutzenden in Learning Manager muss der Administrator auch wissen, wie Benutzende in Learning Manager verwaltet werden. Weitere Informationen finden Sie in der [Hilfe zur Benutzerverwaltung](../integration-admin/feature-summary/migration-manual.md#usermanagement).
 
 +++
 
@@ -176,7 +176,7 @@ Beim Importieren von Benutzenden in Learning Manager muss der Administrator auch
 
 Es gibt zwei Möglichkeiten, Berichte zu Benutzerkenntnissen zu exportieren.
 
-**[!UICONTROL Benutzerkenntnisse nach Bedarf]**: Sie können das Startdatum angeben und den Bericht mithilfe der Option exportieren. Der Bericht wird von dem eingegebenen Datum bis zum aktuellen Tag extrahiert.
+**[!UICONTROL Benutzerkenntnisse - On Demand]**: Sie können das Startdatum angeben und den Bericht mit der Option exportieren. Der Bericht wird von dem eingegebenen Datum bis zum aktuellen Datum extrahiert.
 
 ![](assets/user-skills-on-demand.png)
 
@@ -190,9 +190,9 @@ Um den Exportordner zu öffnen, in dem die exportierten Dateien in Ihrem FTP-Spe
 
 ![](assets/ftp-folder.png)
 
-Die automatisch exportierten Dateien befinden sich am Speicherort **Start/Export/&#42;FTP_Speicherort&#42;**
+Die automatisch exportierten Dateien befinden sich im Speicherort **Home/export/&#42;FTP_location&#42;**
 
-Die automatisch exportierten Dateien sind mit dem Titel &quot; **skill_achievements_&#42;Datum ab &#42;_bis_&#42;Datum bis&#42;.csv**
+Die automatisch exportierten Dateien sind mit dem Titel **skill_achievements_&#42;date from &#42;_to_&#42;date to&#42;.csv** verfügbar.
 
 ![](assets/exported-csvs.png)
 
@@ -302,7 +302,7 @@ Der getAbstract-Connector kann von Unternehmen von getAbstract.com verwendet wer
    Für jede Art von Synchronisierung gilt: Damit sie funktioniert, muss der Benutzer-Feed für die in der Synchronisierung angegebenen Daten im FTP-Ordner für getAbstract FTP vorhanden sein.
 
    Das folgende Excel-Arbeitsblatt ist ein Beispiel für einen Benutzer-Feed aus getAbstract. Der Dateiname muss dem folgenden Format entsprechen:** report_export_yyyy_MM_dd_HHmmss.xlsx** oder **report_export_yyyy_MM_dd.xlsx**.
-   [getAbstract-Beispiel für Benutzer-Feed-Excel-Tabelle](assets/report-export-20170401175342.xlsx)
+   Excel-Beispiel für [getAbstract-Benutzer-Feed ](assets/report-export-20170401175342.xlsx)
 
 ## Harvard ManageMentor-Connector {#hmmconnector}
 
@@ -352,7 +352,7 @@ Der Harvard ManageMentor-Connector kann von Unternehmen von Harvard ManageMentor
    client_hmm12_20150125.xlsx: Dies ist der Benutzer-Feed für den Harvard ManageMentor-Connector. Die zu befolgende Dateinamenskonvention lautet **client_hmm12_jjjjMMtt.xlsx.**
 
    Die beiden folgenden Beispieldateien zeigen einen Benutzer-Feed und einen Kurs-Feed für diesen Connector:
-   [Datei mit Kurs-Metadaten für den Harvard ManageMentor-Connector](assets/hmm12-metadata.xlsx) [Benutzer-Feed für den Harvard ManageMentor-Connector](assets/client-hmm12-20170304.xlsx)
+   [Kurs-Metadatendatei für den Harvard ManageMentor-Connector](assets/hmm12-metadata.xlsx) [Benutzer-Feed für den Harvard ManageMentor-Connector](assets/client-hmm12-20170304.xlsx)
 
 ## Workday Connector {#workdayconnector}
 
@@ -528,11 +528,11 @@ Beim Importieren von Benutzern hat der Learning Manager-Administrator die Mögli
 
 Der Learning Manager-Administrator kann die Benutzer vor dem Import filtern. Learning Manager-Administratoren können beispielsweise alle Benutzer in der Hierarchie mit einem oder mehreren bestimmten Managern importieren.
 
-Um einen miniOrange Connector einzurichten, wenden Sie sich an das Learning Manager CSM-Team.
+So richten Sie   miniOrange   Connector einzurichten, wenden Sie sich an das Learning Manager CSM-Team.
 
 ## miniOrange Connector konfigurieren {#configureminiorangeconnector}
 
-1. Bewegen Sie die Maus auf der Startseite des Lernmanagers über die miniOrange-Karte/das Miniaturbild. Ein Menü wird angezeigt. Klicken  **[!UICONTROL Vernetzen]** im Menü auswählen.
+1. Bewegen Sie die Maus auf der Startseite des Lernmanagers über die miniOrange-Karte/das Miniaturbild. Ein Menü wird angezeigt. Klicken Sie im Menü auf die Option **[!UICONTROL Verbinden]**.
 
    ![](assets/miniorange-tile.png)
 
@@ -540,11 +540,11 @@ Um einen miniOrange Connector einzurichten, wenden Sie sich an das Learning Mana
 
    ![](assets/establish-connection.png)
 
-1. Wenn Sie miniOrnage-Benutzer direkt als internen Learning Manager-Benutzer importieren möchten, verwenden Sie das Dialogfeld &quot; **[!UICONTROL Importinterne Benutzer]** aus.
+1. Wenn Sie miniOrnage-Benutzer direkt als internen Learning Manager-Benutzer importieren möchten, verwenden Sie die Option **[!UICONTROL Interne Benutzer importieren]**.
 
    ![](assets/import-users.png)
 
-1. Auf der Zuordnungsseite werden links die Spalten des Learning Managers und rechts die Spalten miniOrnage angezeigt. Wählen Sie den entsprechenden Spaltennamen aus, der dem Spaltennamen des Lern-Managers zugeordnet ist.
+1. Auf der Zuordnungsseite links   auf der Seite können Sie die Spalten des Learning Managers sehen und rechts   Seite können Sie die miniOrnage Spalten sehen. Wählen Sie den entsprechenden Spaltennamen aus, der dem Spaltennamen des Lern-Managers zugeordnet ist.
 
    ![](assets/map-attributes.png)
 
@@ -566,7 +566,7 @@ Sie können jetzt Learning Manager mit dem BlueJeans-Connector integrieren und B
 
 Befolgen Sie diese Schritte, um den Connector einzurichten und zu verwenden.
 
-1. Bewegen Sie die Maus auf der Startseite des Lernmanagers über die BlueJeans-Karte/das Miniaturbild. Ein Menü wird angezeigt. Klicken  **[!UICONTROL Vernetzen]** aus dem Menü.
+1. Bewegen Sie die Maus auf der Startseite des Lernmanagers über die BlueJeans-Karte/das Miniaturbild. Ein Menü wird angezeigt. Klicken Sie im Menü auf die Option **[!UICONTROL Verbinden]**.
 
    ![](assets/miniorange.png)
 
@@ -639,7 +639,7 @@ Mit der Option zum Importieren von internen Benutzern können Sie die Generierun
 
 Sobald eine Verbindung erfolgreich hergestellt wurde, können Sie die Spalten der CSV-Dateien zuordnen, die im Box-Ordner den entsprechenden Attributen des Lern-Managers platziert werden. Dieser Schritt ist obligatorisch.
 
-1. Auf der Seite &quot;Attributzuordnung&quot; werden links die erwarteten Spalten des Learning Manager und rechts die Namen der Spalten in der CSV-Datei angezeigt. Auf der rechten Seite wird eventuell zunächst ein leeres Auswahlfeld angezeigt. Importieren Sie eine beliebige Vorlagen-CSV, indem Sie auf Datei auswählen klicken.
+1. Auf der Seite &quot;Attribute zuordnen&quot; links   auf der Seite können Sie die erwarteten Spalten des Learning Managers sehen und rechts   können Sie die CSV-Spaltennamen sehen. Auf der rechten Seite wird eventuell zunächst ein leeres Auswahlfeld angezeigt. Importieren Sie eine beliebige Vorlagen-CSV, indem Sie auf Datei auswählen klicken.
 
 1. Durch den oben beschriebenen Schritt werden alle Spaltennamen aus der CSV-Datei in die Dropdown-Auswahlliste auf der rechten Seite übernommen. Wählen Sie den entsprechenden Spaltennamen aus, der dem Spaltennamen des Lern-Managers zugeordnet ist.
 
@@ -664,7 +664,7 @@ Sobald eine Verbindung erfolgreich hergestellt wurde, können Sie die Spalten de
 1. Alle CSV-Dateien sollten die in der Zuordnung angegebenen Spalten enthalten.
 1. Alle erforderlichen CSV müssen sich in dem Ordner befinden, bevor der Vorgang beginnt.
 
-Beim Importieren von Benutzenden in Learning Manager muss der Administrator auch wissen, wie Benutzende in Learning Manager verwaltet werden. Siehe [User Management-Hilfe](../integration-admin/feature-summary/migration-manual.md#usermanagement) , um weitere Informationen zu erhalten.
+Beim Importieren von Benutzenden in Learning Manager muss der Administrator auch wissen, wie Benutzende in Learning Manager verwaltet werden. Weitere Informationen finden Sie in der [Hilfe zur Benutzerverwaltung](../integration-admin/feature-summary/migration-manual.md#usermanagement).
 
 +++
 
@@ -682,9 +682,9 @@ Benutzerkenntnisse - On Demand: Sie können das Startdatum angeben und den Beric
 
 Um den Exportordner zu öffnen, in dem die exportierten Dateien in Ihrem Box-Speicherort platziert werden, öffnen Sie den Link zum Box-Ordner, der auf der Seite &quot;Benutzerkenntnisse&quot; bereitgestellt ist, wie unten gezeigt.
 
-Die automatisch exportierten Dateien befinden sich am Speicherort **Start/Export/&#42;Box_location&#42;**
+Die automatisch exportierten Dateien befinden sich am Speicherort **Home/export/&#42;Box_location&#42;**
 
-Die automatisch exportierten Dateien sind mit dem Titel &quot; **skill_achievements_&#42;Datum ab &#42;_bis_&#42;Datum bis&#42;.csv**
+Die automatisch exportierten Dateien sind mit dem Titel **skill_achievements_&#42;date from &#42;_to_&#42;date to&#42;.csv** verfügbar.
 
 Die Zugriffsberechtigungen und der Inhalt im Box-Ordner, der vom Learning Manager-Team freigegeben wird, sollten vom Kunden verwaltet werden.  Beachten Sie außerdem, dass der Inhalt des Ordners physisch in der Region Frankfurt gespeichert wird.
 

@@ -23,15 +23,15 @@ Führen Sie für die Konfiguration der SSO-Authentifizierung folgende Schritte d
    ![](assets/login-methods.png)
 
 1. Wählen Sie je nach benötigter Option **[!UICONTROL Interne Benutzer]** oder **[!UICONTROL Externe Benutzer]**.
-1. Klicken Sie auf die Dropdown-Liste neben  **[!UICONTROL Anmeldung]** und wählen Sie **[!UICONTROL Single Sign-on]**.
+1. Klicken Sie auf das Dropdownmenü neben der Option **[!UICONTROL Anmeldung]** und wählen Sie **[!UICONTROL Single Sign-On]** aus.
 
    ![](assets/single-sign-on.png)
 
-1. Um die Einstellungen für Single Sign-On (SSO) anzupassen, klicken Sie auf  **[!UICONTROL Ändern.]**
+1. Um die Einstellungen für Single Sign-On (SSO) anzupassen, klicken Sie auf **[!UICONTROL Ändern.]**
 
    ![](assets/change.png)
 
-1. Eingeben  **[!UICONTROL Vom IdP initiierte Authentifizierungs-URL]** von Ihrem Dienstanbieter bereitgestellt und laden Sie Ihre XML-Datei hoch, indem Sie auf **[!UICONTROL IDP-Metadaten-XML-Datei.]**
+1. Geben Sie die von Ihrem Dienstanbieter angegebene **[!UICONTROL IDP-initiierte Authentifizierungs-URL]** ein und laden Sie Ihre XML-Datei hoch, indem Sie auf **[!UICONTROL IDP-Metadaten-XML-Datei]** klicken.
 
    ![](assets/sso-configuration.png)
 

@@ -1,16 +1,15 @@
 ---
 jcr-language: en_us
 title: Häufig gestellte Fragen für Manager
-description: Häufig gestellte Fragen für Adobe Learning Manager Manager
+description: Häufig gestellte Fragen für Adobe Learning Manager-Manager
 contentowner: admin
-source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
+exl-id: 4f684d4c-c700-4907-95cd-879df3167c1d
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 57%
 
 ---
-
-
 
 # Häufig gestellte Fragen für Manager
 
@@ -71,7 +70,7 @@ Sie können auf das Dropdown-Symbol klicken, um den Datumsbereich zu ändern und
 
 Sie können Berichte für Ihre Team-Mitglieder erstellen, um die Liste der Kenntnisse anzuzeigen, die jedem von ihnen zugewiesen und von ihnen erreicht wurden. Klicken Sie auf Berichte im linken Bereich und dann auf die Registerkarte Beispielberichte , um einen Beispielbericht Kenntnisse vs. Manager anzuzeigen.
 
-Weitere Informationen finden Sie unter [Berichte](feature-summary/reports.md) in der Hilfe zu Learning Manager.
+Weitere Informationen finden Sie in der Hilfe zu Learning Manager unter [Berichte](feature-summary/reports.md).
 
 +++
 
@@ -95,7 +94,7 @@ Klicken Sie auf „Zurücksetzen“, um die Änderungen zu verwerfen.
 
 Um die Größe des Berichts zu ändern, klicken Sie auf „Größe ändern“ und wählen Sie eine der beiden folgenden Optionen: 1×1 ist klein und 1×2 ist groß.
 
-Weitere Informationen finden Sie unter  [Berichtfunktion.](feature-summary/reports.md)
+Weitere Informationen finden Sie unter [Berichtsfunktion.](feature-summary/reports.md)
 
 +++
 
@@ -117,7 +116,7 @@ Sie können alle diese Berichte innerhalb eines Datumsbereichs anzeigen.
 
 +++Kann ich alle verfügbaren Kurse anzeigen? Wenn ja, wie?
 
-Sie können in die Teilnehmerrolle umschalten, um alle verfügbaren Kurse anzuzeigen. Siehe  [Kurse](../learners/feature-summary/courses.md) Funktion für weitere Informationen
+Sie können in die Teilnehmerrolle umschalten, um alle verfügbaren Kurse anzuzeigen. Weitere Informationen finden Sie unter [Kurse](../learners/feature-summary/courses.md)-Funktion.
 
 +++
 

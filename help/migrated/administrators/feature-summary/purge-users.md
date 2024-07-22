@@ -40,24 +40,24 @@ If you're unable to launch the training, write to <almacademy@adobe.com>.-->
 Führen Sie die folgenden Schritte aus, um Benutzer zu bereinigen:
 
 1. Klicken Sie als Administrator im linken Bereich auf **[!UICONTROL Benutzer]**. Die Seite **[!UICONTROL Interne Benutzer]** wird geöffnet.
-1. Löschen Sie die Benutzer, die Sie bereinigen möchten. Wählen Sie dafür einen oder mehrere Benutzer über das Kontrollkästchen aus. Öffnen Sie die **[!UICONTROL Aktion]** &quot; und wählen Sie **[!UICONTROL Benutzer löschen.]**
+1. Löschen Sie die Benutzer, die Sie bereinigen möchten. Wählen Sie dafür einen oder mehrere Benutzer über das Kontrollkästchen aus. Öffnen Sie das Dropdown-Menü **[!UICONTROL Aktion]** und wählen Sie **[!UICONTROL Benutzer löschen.]**
 1. Klicken Sie im linken Bereich auf **[!UICONTROL Benutzerbereinigung]**. Die Seite **[!UICONTROL Benutzerbereinigung]** mit der Liste der gelöschten Benutzer wird angezeigt. Wählen Sie über die Optionsfelder den Benutzer aus, der bereinigt werden soll. Sie können jeweils nur einen Benutzer bereinigen.
 
    ![](assets/purge-1.png)
 
-   *Benutzer für Bereinigung auswählen*
+   *Benutzer zum Bereinigen auswählen*
 
-1. Öffnen Sie die **[!UICONTROL Aktionen]** &quot; und wählen Sie **[!UICONTROL Benutzer bereinigen]**.
+1. Öffnen Sie das Dropdown-Menü **[!UICONTROL Aktionen]** und wählen Sie **[!UICONTROL Benutzer bereinigen]**.
 
    ![](assets/purge-2.png)
 
-   *Wählen Sie die Option &quot;Benutzer bereinigen&quot;*
+   *Option &quot;Benutzer bereinigen&quot; auswählen*
 
-1. Sie werden in einem Dialogfeld zur Bestätigung der Aktion aufgefordert. Nach der Bereinigung sind alle Benutzerdaten und Lerndatensätze, die mit dem ausgewählten Benutzer verknüpft sind, dauerhaft gelöscht. Die Aktion kann nicht rückgängig gemacht werden. Klicken Sie zum Bestätigen auf **[!UICONTROL Entleeren]**.
+1. Sie werden in einem Dialogfeld zur Bestätigung der Aktion aufgefordert. Nach der Bereinigung sind alle Benutzerdaten und Lerndatensätze, die mit dem ausgewählten Benutzer verknüpft sind, dauerhaft gelöscht. Die Aktion kann nicht rückgängig gemacht werden. Klicken Sie zum Bestätigen auf **[!UICONTROL Bereinigen]**.
 
    ![](assets/purge-3.png)
 
-   *Bestätigungsmeldung nach dem Bereinigen eines Benutzers*
+   *Bestätigungsmeldung nach Bereinigung eines Benutzers*
 
 1. Sobald Sie bestätigen und auf „Bereinigen“ klicken, wird die Bereinigungsanforderung akzeptiert. Sie erhalten eine Benachrichtigung, sobald die Aktion abgeschlossen ist. Eine Bereinigungsanforderungs-ID wird ebenfalls angegeben. Sie können diese ID an den CSM senden, um die Anfrage zu verfolgen.
 
@@ -67,7 +67,7 @@ Sie können die ersten 50 Benutzer auswählen und dann in einem einzigen Arbeits
 
 ![](assets/bulk-purge-users.png)
 
-*Mehrere Benutzer bereinigen*
+*Benutzer massenweise bereinigen*
 
 +++Informationen zu den Ergebnissen der Aktion &quot;Benutzer bereinigen&quot;
 
@@ -138,7 +138,7 @@ Sie können die ersten 50 Benutzer auswählen und dann in einem einzigen Arbeits
    <td>Ja</td>
   </tr>
   <tr>
-   <td><strong>Entleeren</strong> <strong>Andere Benutzer - keine Unternehmen (Personen, die keine internen oder externen Learning Manager-Benutzer sind)</strong></td>
+   <td><strong>Bereinigung</strong> <strong>anderer Benutzer - keine Unternehmen (Personen, die keine internen oder externen Learning Manager-Benutzer sind)</strong></td>
    <td> </td>
   </tr>
   <tr>
@@ -186,7 +186,7 @@ Sie können die ersten 50 Benutzer auswählen und dann in einem einzigen Arbeits
 
 +++
 
-Learning Manager ist jetzt mit der DS-GVO konform. Weitere Informationen zur Einhaltung der DSGVO finden Sie unter  [Learning Manager - Konformität mit der DSGVO](../../kb/prime-gdpr.md).
+Learning Manager ist jetzt mit der DS-GVO konform. Weitere Informationen zur DSGVO-Konformität finden Sie unter [Learning Manager-Konformität mit der DSGVO](../../kb/prime-gdpr.md).
 
 ## Häufig gestellte Fragen {#frequentlyaskedquestions}
 

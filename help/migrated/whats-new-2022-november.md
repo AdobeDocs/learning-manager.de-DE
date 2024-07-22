@@ -2,7 +2,8 @@
 title: Neue Funktionen in dieser Version (November 2022)
 description: Informationen über die neuen Funktionen und Verbesserungen in Adobe Learning Manager
 hidefromtoc: true
-source-git-commit: 1da0911a4d0c2ae5cb01bbb2b7955675b0dfcdde
+exl-id: 2ccfb4e6-ba11-4657-8edb-3c527b4e5b9f
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '1994'
 ht-degree: 77%
@@ -145,7 +146,7 @@ Die Suchergebnisse sind jetzt für alle formellen und informellen Schulungen (so
 
 Die Suche ist fokussierter und zielgerichteter, und Sie können die Suchergebnisse an drei Stellen einsehen: beim formellen Lernen, beim sozialen Lernen und auf dem Inhalts-Marketplace.
 
-![Recherche](assets/search-image.png)
+![Suche](assets/search-image.png)
 
 #### Ausdrucksgesteuerte Suche
 
@@ -203,7 +204,7 @@ Der Administrator kann auch einen Bericht exportieren, der die gleichen Felder w
 
 Außer Administratoren kann auch ein benutzerdefinierter Administrator diesen Bericht exportieren.
 
-![Sprachenbericht](assets/language-report.png)
+![Sprachbericht](assets/language-report.png)
 
 #### Auswirkungen auf die Lokalisierung
 
@@ -275,10 +276,10 @@ Zum Löschen des Cookies haben wir daher einen neuen Endpunkt eingeführt, der r
 
 **Abfrageparameter**
 
-* `cookie=true|false` - weist darauf hin, dass Cookie widerrufen werden muss
+* `cookie=true|false` - gibt an, dass das Cookie widerrufen werden muss
 * `refresh_token=true|false` - zeigt an, dass die Aktualisierung
 
-**Textkörper anfordern**
+**Anforderungstext**
 
 Text, der für das Widerrufen von refresh_token oder (refresh_token und Cookie) erforderlich ist
 
@@ -302,7 +303,7 @@ In dieser Version haben wir einige APIs veröffentlicht.
 |---|---|---|
 | /social/search | GET | Hiermit wird eine Suche in sozialen Netzwerken durchgeführt. |
 | /Ankündigungen | GET | Rufen Sie detaillierte Informationen zur Ankündigung auf dem Mastertitel ab, der dem Teilnehmer zugewiesen ist. |
-| /Ankündigungen/`{id}` | GET | Rufen Sie detaillierte Informationen zur Ankündigung auf dem Mastertitel ab, der dem Teilnehmer zugewiesen ist. |
+| /annoements/`{id}` | GET | Rufen Sie detaillierte Informationen zur Ankündigung auf dem Mastertitel ab, der dem Teilnehmer zugewiesen ist. |
 | /learningObjects/`{id}`/loResources/{loResourcesId} | GET | Laden Sie die URL der Datei für loResource vom Typ &#39;Aktivität&#39; hoch, wenn die Dateiübermittlung erforderlich ist. |
 | /jobAid/`{jobAidId}`/jobAidDownloaded | GET | Bericht zum Herunterladen der Arbeitshilfe festlegen |
 | /bulkimport/startrun | POST | Hiermit wird ein Massenimport ausgeführt. |
@@ -315,7 +316,7 @@ In dieser Version haben wir einige APIs veröffentlicht.
 
 ### Salesforce-App
 
-Die **Höhere Reihenfolgen-LO ignorieren** muss in der Salesforce-App aktiviert sein, damit alle Kurse, Lernprogramme und Zertifikate gleichzeitig angezeigt werden können.
+Die Option **LO mit höherer Reihenfolge ignorieren** muss in der Salesforce-App aktiviert sein, damit alle Kurse, Lernprogramme und Zertifikate gleichzeitig angezeigt werden können.
 
 ### APIs zur Player-Anpassung
 
@@ -339,23 +340,23 @@ Die /primeapi/v2/learningObjects/certification:xxxxx-API verfügt über das Attr
 
 ### Abrufen von LO-Vorschaudaten
 
-Die GET /preview/learningObjects/{id} API wird hinzugefügt, um Vorschauinformationen zu einem Lernobjekt abzurufen.
+Die GET /preview/learningObjects/{id}-API wird zum Abrufen von Vorschauinformationen über ein Lernobjekt hinzugefügt.
 
 ### Verschieben externer Benutzer innerhalb von Profilen
 
-Die `PUT primeapi/v2/externalProfiles/{currentep}/users/{userid}?` hilft, einen Benutzer zu einem anderen externen Profil zu verschieben, indem eine neue externalProfile-ID angegeben wird.
+Der `PUT primeapi/v2/externalProfiles/{currentep}/users/{userid}?`-Aufruf unterstützt das Verschieben eines Benutzers in ein anderes externes Profil, indem eine neue externalProfile-ID angegeben wird.
 
 ### Hinzufügen von Benutzern zu externen Profilen
 
-Die `POST /externalProfiles/{id}/users` fügt externe Benutzer dem externen Profil hinzu.
+&quot;`POST /externalProfiles/{id}/users`&quot; fügt externen Benutzern externe Profile hinzu.
 
 ## Versionshinweise
 
-Weitere Informationen zu aktuellen und früheren Versionen der Learning Manager-Webanwendung und -Geräte-App finden Sie unter [Versionshinweise](/help/migrated/release-note/release-notes.md).
+Weitere Informationen zu aktuellen und früheren Versionen der Learning Manager-Webanwendung und -Geräte-App finden Sie in den [Versionshinweisen](/help/migrated/release-note/release-notes.md).
 
 ## Fehlerbehebungen
 
-Um die Fehler anzuzeigen, die in diesem Update behoben wurden, lesen Sie die [Liste der behobenen Fehler](release-note/release-notes.md#bugs-fixed-in-this-release).
+Um die Fehler anzuzeigen, die in diesem Update behoben wurden, lesen Sie die Liste [Behobene Fehler](release-note/release-notes.md#bugs-fixed-in-this-release).
 
 ## Systemanforderungen
 

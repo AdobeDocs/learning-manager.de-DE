@@ -3,14 +3,13 @@ description: Erfahren Sie, wie Sie Soziales Lernen-Web als Teilnehmer einsetzen 
 jcr-language: en_us
 title: Soziales Lernen in Learning Manager
 contentowner: kuppan
-source-git-commit: a495c86f8dff3ebc51e7700a3f3bcf7ce57d1311
+exl-id: 33bc4872-2092-45c4-ac57-f2cec2ca33fb
+source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '3038'
 ht-degree: 78%
 
 ---
-
-
 
 # Soziales Lernen in Learning Manager
 
@@ -22,15 +21,15 @@ Durch die bloße Teilnahme an einer Schulung kann nicht garantiert werden, dass 
 
 In ähnlicher Weise ermöglicht die Learning Manager-Funktion &quot;Soziales Lernen&quot; Benutzern, miteinander zu interagieren, indem sie Inhalte teilen und daraus lernen können.
 
-Auf dieser Plattform können verschiedene Inhalte geteilt werden: Video, Audio, Screenshot, Text, Frage und Umfrage. Benutzer können ihre Online-Lernergebnisse auch mit ihren Kollegen teilen, indem sie die **Bookmarklet &quot;Teilen auf Sozial&quot;**. Weitere Informationen finden Sie unter  [Teilen auf Soziales Lernen](share-to-social.md).
+Auf dieser Plattform können verschiedene Inhalte geteilt werden: Video, Audio, Screenshot, Text, Frage und Umfrage. Benutzer können ihre Online-Lernergebnisse auch mit ihren Kollegen teilen, indem sie das Bookmarklet **Teilen auf Sozial** verwenden. Weitere Informationen finden Sie unter [Freigeben für Soziales Lernen](share-to-social.md).
 
-Inhalte können auch in einem Board mithilfe der **Adobe Learning Manager Desktop-Anwendung**. Weitere Informationen finden Sie unter  [Adobe Learning Manager-App für Desktop](../adobe-learning-manager-app-for-desktop.md).
+Mithilfe der **Adobe Learning Manager-Desktop-Anwendung** können Inhalte auch in einem Board veröffentlicht werden. Weitere Informationen finden Sie unter [Adobe Learning Manager-App für Desktop](../adobe-learning-manager-app-for-desktop.md).
 
 Nur wenn der Administrator Soziales Lernen aktiviert, ist die Funktion für einen Teilnehmer sichtbar.
 
 ![](assets/social-dashboarddashboard.png) ![](assets/social-learning-dashboard.png)
 
-*Lern-Dashboard anzeigen*
+*Lerndashboard anzeigen*
 
 <table>
  <tbody>
@@ -48,9 +47,9 @@ Nur wenn der Administrator Soziales Lernen aktiviert, ist die Funktion für eine
    <td>
     <p>Meine Boards</p></td>
    <td>
-    <p>Ein Board ist <code>
+    <p>Ein Board besteht aus <code>
       collection
-     </code> von Beiträgen erstellt von einem Benutzer. In meinen Boards werden alle Beiträge angezeigt, an denen der Benutzer teilgenommen, di er erstellt und verfolgt hat.</p></td>
+     </code> Beiträgen, die von einem Benutzer erstellt wurden. In meinen Boards werden alle Beiträge angezeigt, an denen der Benutzer teilgenommen, di er erstellt und verfolgt hat.</p></td>
   </tr>
   <tr>
    <td>
@@ -131,7 +130,7 @@ Nur wenn der Administrator Soziales Lernen aktiviert, ist die Funktion für eine
 
 Der Inhalt wird als Beitrag in einem Forum erstellt. Um einen Kurs zu erstellen, führen Sie diese Schritte aus:
 
-1. Klicken **[!UICONTROL Neuer Beitrag].**
+1. Klicken Sie auf **[!UICONTROL Neuer Beitrag].**.
 
    ![](assets/new-post-01.png)
    *Neuen Beitrag auswählen*
@@ -148,29 +147,29 @@ Der Inhalt wird als Beitrag in einem Forum erstellt. Um einen Kurs zu erstellen,
 
    *Board erstellen*
 
-   Wenn Sie ein externer oder interner Benutzer sind und der Administrator Ihnen Zugriff zum Erstellen eines Boards gewährt hat, können Sie ein Board erstellen. Wenn Sie nicht über die Berechtigung zum Erstellen eines Boards verfügen, wird der Link **Neues Board erstellen** wird nicht angezeigt.
+   Wenn Sie ein externer oder interner Benutzer sind und der Administrator Ihnen Zugriff zum Erstellen eines Boards gewährt hat, können Sie ein Board erstellen. Wenn Sie nicht über die Berechtigung zum Erstellen eines Boards verfügen, wird der Link **Neues Board erstellen** nicht angezeigt.
 
 1. Geben Sie im Popup-Dialogfeld die Details ein und wählen Sie den folgenden Board-Typ:
 
-   * **Öffentlich** - Die Teilnahme und Sichtbarkeit der Beiträge steht allen Benutzern zur Verfügung.
+   * **Öffentlich** - Die Teilnahme und Sichtbarkeit von Beiträgen steht allen Benutzern zur Verfügung.
    * **Privat** - Der Beitrag ist nur für den Ersteller des Boards, Moderatoren und Benutzer, die dem Board hinzugefügt wurden, sichtbar.
-   * **Beschränkt** - Nur der Board-Eigentümer, der Administrator und Board-Moderatoren können Beiträge erstellen. Andere Benutzer können durch Kommentieren/Antworten, Aufwertung/Abwertung usw. teilnehmen.
+   * **Eingeschränkt** - Nur der Board-Eigentümer, der Administrator und Board-Moderatoren können Beiträge erstellen. Andere Benutzer können durch Kommentieren/Antworten, Aufwertung/Abwertung usw. teilnehmen.
 
    <!--![](assets/new-board-05.png)-->
 
    >[!NOTE]
    >
-   >In der &quot;Social Learner&quot;-App gibt es nur eine **Administrator** kann ein privates Board mit (internen/externen) Benutzergruppen erstellen.
+   >In der &quot;Social Learner&quot;-App kann nur ein **Administrator** ein privates Board mit (internen/externen) Benutzergruppen erstellen.
    >
-   >Alle anderen Benutzer außer Administrator, Autor, Teilnehmer, Manager, Kursleiter usw. **kann** Erstellen Sie private Boards mit Benutzergruppen. Sie können den Abschnitt der **Benutzergruppen** in während der Schaffung von privaten Board.
+   >Alle anderen Benutzer außer Administrator, Autor, Teilnehmer, Manager, Kursleiter usw. **kann** keine privaten Boards mit Benutzergruppen erstellen. Sie können den Abschnitt von **Benutzergruppen** nicht sehen, während Sie ein privates Board erstellen.
 
    Nur Administrator: Wenn Sie **Privat** auswählen, werden zwei Optionen angezeigt: **Benutzer** und **Benutzergruppen**. Wählen Sie die Option **Benutzergruppen** und fügen Sie dann die Benutzergruppen hinzu, für die Sie das private Board freigeben möchten.
 
    Im Feld „Benutzergruppen“ können Sie interne, externe oder benutzerdefinierte Gruppen auswählen. Ihr privates Board ist dann unabhängig von den Bereichseinstellungen für alle angegebenen Benutzergruppen sichtbar.
 
-1. Um Inhalte freizugeben, klicken Sie auf **[!UICONTROL Post]**. Wenn Sie auf „Beitrag“ klicken, erhält der Benutzer eine Benachrichtigung.
+1. Klicken Sie auf **[!UICONTROL Beitrag]**, um Inhalte freizugeben. Wenn Sie auf „Beitrag“ klicken, erhält der Benutzer eine Benachrichtigung.
 
-   Der Inhalt wird basierend auf der Kurationseinstellung veröffentlicht, die vom Administrator für Inhalte für Soziales Lernen festgelegt wurde, die von kuratiert werden kann  [Board-Moderatoren/Fachexperten](social-learning-web-user.md#HowtobecomeaSubjectMatterExpertSME).
+   Der Inhalt wird basierend auf der Kurationseinstellung veröffentlicht, die vom Administrator für Inhalte für Soziales Lernen festgelegt wurde, die von [Board-Moderatoren/Fachexperten](social-learning-web-user.md#HowtobecomeaSubjectMatterExpertSME) kuratiert werden kann.
 
    <!--![](assets/pop-up-dialog-before-sending-for-curation.png)-->
 
@@ -184,13 +183,13 @@ Wenn Sie einen Beitrag in „Soziales Lernen“ erstellen oder darauf antworten,
 
 ![](assets/rte-learner.png)
 
-*Verwenden des Rich-Text-Editors zum Erstellen eines Beitrags*
+*Verwenden Sie den Rich-Text-Editor, um einen Beitrag zu erstellen*
 
 Darüber hinaus haben Sie beim Erstellen eines Boards im Rich-Text-Editor Zugriff auf dieselben Optionen.
 
 ![](assets/create-board.png)
 
-*Verwenden des Rich-Text-Editors zum Erstellen eines Beitrags*
+*Verwenden Sie den Rich-Text-Editor, um einen Beitrag zu erstellen*
 
 ## Anzeigen genehmigter Inhalte {#viewingapprovedcontent}
 
@@ -222,9 +221,9 @@ Ein Teilnehmer kann alle Boards in einer Listenansicht anzeigen. Melden Sie sich
 
 ![](assets/image002.png)
 
-*Board-Ansicht in Soziales Lernen*
+*Board-Ansicht in sozialen Medien*
 
-Wenn Sie die Beiträge in einem Board-Format anzeigen, können Sie die Beiträge nach **Post** und **Mitwirkender**.
+Wenn Sie die Beiträge in einem Board-Format anzeigen, können Sie die Beiträge nach **Beitrag** und **Anbieter** sortieren.
 
 ![](assets/image004.png)
 
@@ -243,7 +242,7 @@ Mit dem Kenntnisfilter können Sie mehrere Kenntnisse auswählen, um die Boards 
 
 ![](assets/image008.png)
 
-*Filtern von Aktivitätsstufen*
+*Aktivitätsstufen filtern*
 
 Mit dem Aktivitätsfilter können Sie die Boards entsprechend dem Umfang der Interaktionen in einem Board sortieren. Sie können diese nach folgenden Kriterien sortieren:
 
@@ -390,13 +389,13 @@ Führen Sie die folgenden Schritte aus, um einen Beitrag zu einer Story hinzuzuf
 
    ![](assets/add-to-my-story-05.png)
 
-   *Einer Story hinzufügen*
+   *Zu einer Story hinzufügen*
 
 1. Wählen Sie im Dialogfeld **Story auswählen** eine relevante Story aus, um den Beitrag hinzuzufügen. Wenn keine relevanten Storys vorhanden sind, erstellen Sie eine Story, indem Sie auf **Neue Story** klicken.
 
    ![](assets/select-story-or-newstory-06.png)
 
-   *Eine Story erstellen.*
+   *Story erstellen*
 
 1. Füllen Sie im Dialogfeld „Neue Story“ die Felder „Story-Name“ und „Beschreibung“ aus. Sie können für die Sichtbarkeit der Story entweder „Öffentlich“ oder „Privat“ wählen.
 
@@ -501,7 +500,7 @@ In „Meine Boards“ und „Alle Boards“, können Benutzer die Boards nach **
 
 ![](assets/sort-board-by-08.png)
 
-*Sortieren Sie Boards nach Relevanz und Datum*
+*Boards nach Relevanz und Datum sortieren*
 
 Wenn beim Erstellen eines Beitrags keine relevanten Boards für den Beitrag vorhanden sind, klicken Sie auf [Neues Board erstellen](social-learning-web-user.md#Creatingcontentasapost).  Um eine URL anzuzeigen, zu bearbeiten, zu löschen, zu melden, zu kopieren und ein Board zu Ihrer bevorzugten Boardliste hinzuzufügen, führen Sie die folgenden Schritte aus:
 
@@ -524,7 +523,7 @@ Wenn beim Erstellen eines Beitrags keine relevanten Boards für den Beitrag vorh
 
 ![](assets/share-to-social-11.png)
 
-*Teilen auf Soziales Lernen*
+*Für soziales Lernen freigeben*
 
 ## Eigene Kenntnisse {#myskills}
 
@@ -549,7 +548,7 @@ Folgen Sie den Schritten, um anderen Benutzern zu folgen:
 
    ![](assets/follow-unfollow-peers-14.png)
 
-   *Einem Benutzer folgen oder ihm folgen*
+   *Einem Benutzer folgen oder ihm nicht folgen*
 
 ## Soziales Leaderboard {#socialleaderboard}
 
@@ -588,7 +587,7 @@ Der Administrator der Organisation hat auch das Recht, einem Teilnehmer mehr Pun
 
    <!--![](assets/curation-awaitingnotification.png)-->
 
-1. Um den Beitrag zu moderieren, klicken Sie auf das **Klicken Sie hier, um zu überprüfen** Link. Diese Aktion leitet den SME zur Inhaltsmoderationsseite, die wie in der Abbildung unten aussieht.
+1. Um den Beitrag zu moderieren, klicken Sie auf den Link **Zum Review klicken**. Diese Aktion leitet den SME zur Inhaltsmoderationsseite, die wie in der Abbildung unten aussieht.
 
    <!--![](assets/sme-moderation-page.png)-->
 
@@ -603,7 +602,7 @@ Jede Seite im Sozialen Lernen verfügt über ein Suchfeld, in dem Benutzer nach 
 
 <!--![](assets/search-16.png)-->
 
-Die folgenden Seiten des informellen Lernprogramms verfügen über ein Suchfeld: **Eigene Boards**, **Alle Boards**, **Boards-Seite**, der **Profilseite** und **Profilseite anderer Teilnehmer**.
+Die folgenden Seiten des informellen Lernprogramms verfügen über ein Suchfeld: **Eigene Boards**, **Alle Boards**, **Boardseite**, **Profilseite** des Benutzers und **Profilseite anderer Teilnehmer**.
 
 Wenn ein Benutzer nach Inhalten im informellen Lernen sucht, wird die Gesamtzahl der Suchergebnisse für den Inhalt des informellen und formellen Lernens von Learning Manager angezeigt.
 
@@ -611,7 +610,7 @@ In ähnlicher Weise wird die Anzahl der im informellen Lernen gefundenen Sucherg
 
 ![](assets/formal-learning-search-20.png)
 
-*Suchergebnisse für learning*
+*Suchergebnisse für Lernen*
 
 Auf der Seite des informellen Lern-Boards können nur Suchen in Bezug auf das Board durchgeführt werden. Eine Suche, die sich nicht auf ein Board bezieht, wird nicht angezeigt.
 
@@ -627,7 +626,7 @@ Auf der Profilseite können die Teilnehmer die Gesamtanzahl der erzielten Punkte
 
 Die Teilnehmer können sich auch die Kenntnisse anzeigen lassen, für die sie als Fachexperten festgelegt sind.
 
-Die Seite des Teilnehmers zeigt auch die **kuratierte Berichte**, **Neuerscheinungen** durchgeführt und die **Leute folgten** verwenden.
+Auf der Seite des Teilnehmers werden auch die **kuratierten Storys des Teilnehmers**, **kürzlich durchgeführte Aktivitäten** und die **Personen, denen** von ihnen gefolgt wurden, angezeigt.
 
 ## Benachrichtigungen {#notifications}
 

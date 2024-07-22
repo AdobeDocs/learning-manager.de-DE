@@ -33,7 +33,7 @@ In diesem Abschnitt werden die Voraussetzungen für die Migration, die wichtigst
 Das Learning Manager-Team erwartet, dass folgende Aufgaben vor der Migration vom Integrationsadministrator des Unternehmens durchgeführt werden:
 
 * Der Integrationsadministrator extrahiert die Daten und Inhalte des vorhandenen LMS und konvertiert sie in die von Learning Manager angegebenen Dateiformate.
-* Der Import von Benutzern als Teil des Migrationsvorgangs wird von Learning Manager nicht unterstützt; es wird erwartet, dass diese vom Unternehmen mithilfe von Connectors importiert werden. Adobe System erwartet, dass diese Connectors vor dem Migrationsvorgang konfiguriert werden. Siehe [Hilfe zu Learning Manager-Connectors](connectors.md) für weitere Informationen.
+* Der Import von Benutzern als Teil des Migrationsvorgangs wird von Learning Manager nicht unterstützt; es wird erwartet, dass diese vom Unternehmen mithilfe von Connectors importiert werden. Adobe System erwartet, dass diese Connectors vor dem Migrationsvorgang konfiguriert werden. Weitere Informationen finden Sie in der Hilfe zu [Learning Manager-Connectors](connectors.md).
 
 In Learning Manager wird Administratoren empfohlen, den Migrationsvorgang in einem Testkonto auszuprobieren, bevor Daten und Inhalte zur Learning Manager-Produktionsumgebung migriert werden.
 
@@ -385,7 +385,7 @@ Im Folgenden finden Sie die CSV-Standardspezifikationen, die zur Verknüpfung mi
  </tbody>
 </table>
 
-Learning Manager unterstützt nur Datums- und Zeitwerte im UTF-8- und 32-Bit-Format. Während der Migration werden möglicherweise Fehler angezeigt, wenn Sie in CSV-Dateien ein Datum außerhalb des zulässigen Bereichs angeben (z. B. 2038-07-17T08).:53:21.000Z oder 1980-04-17T08:13:25,322 Z.
+Learning Manager unterstützt nur Datums- und Zeitwerte im UTF-8- und 32-Bit-Format. Während der Migration werden möglicherweise Fehler angezeigt, wenn Sie in CSV-Dateien ein Datum außerhalb des zulässigen Bereichs angeben (z. B. 2038-07-17T08:53:21.000Z oder 1980-04-17T08:13:25.322Z).
 
 * [sample-csvs.zip](assets/sample-csvs.zip)
 * [csv_specifications.zip](assets/csv-specifications.zip)
@@ -437,17 +437,17 @@ Sie erhalten eine E-Mail von Box mit einem Link zum freigegebenen Ordner. Wenn S
 
 **Hochladen von Daten (CSV-Dateien) auf FTP- oder Box-Ordner**
 
-Bevor Sie ein Migrationsprojekt erstellen, müssen Sie als Voraussetzung ein FTP- oder Box-Konto erstellen. In dieser Phase können Sie also ein Migrationsprojekt und einen Sprint in der Learning Manager-Anwendung erstellen.  Siehe **Migrationsverfahren für Daten und Inhalte** auf dieser Seite, um ein Migrationsprojekt zu erstellen.
+Bevor Sie ein Migrationsprojekt erstellen, müssen Sie als Voraussetzung ein FTP- oder Box-Konto erstellen. In dieser Phase können Sie also ein Migrationsprojekt und einen Sprint in der Learning Manager-Anwendung erstellen.  Informationen zum Erstellen von Migrationsprojekten finden Sie im Abschnitt **Migrationsverfahren für Daten und Inhalte** auf dieser Seite.
 
 Klicken Sie im FTP- bzw. Box-Konto auf den Namen Ihres Projektordners und anschließend auf den Sprint-Namen. Innerhalb des Sprint-Ordners können Sie die CSV-Datendateien hochladen, die migriert werden sollen. Klicken Sie zum Hochladen oben auf dem FTP- oder Box-Server auf die Schaltfläche Dateien hochladen und legen Sie die CSV-Dateien ab. In der Abbildung unten sehen Sie ein Referenzbeispiel nach dem Hochladen auf FTP.
 
 <!--![](assets/exavault-upload.png)-->
 
-Sie können zum Learning Manager-Migrationsprojekt zurückkehren, indem Sie auf **[!UICONTROL Aktualisieren]** &quot; und zeigen Sie alle in Ihrem Migrations-Sprint aufgelisteten CSV-Datentypen an.
+Sie können zum Learning Manager-Migrationsprojekt zurückkehren, auf **[!UICONTROL Aktualisieren]** klicken und alle in Ihrem Migrations-Sprint aufgelisteten CSV-Datentypen anzeigen.
 
 **Schulungsinhalte in Inhaltsordner hochladen**
 
-Laden Sie die Schulungsinhalte von Ihrem vorhandenen LMS auf Ihr Box-Konto hoch. Wenn Sie bereits das Migrationsprojekt und den Sprint erstellt haben, füllt das Box-Konto das Migrationsprojekt und den Sprint-Namen aus. Sie können die Inhalte im selben Pfad hochladen. Siehe **Migrationsverfahren für Daten und Inhalte** auf dieser Seite, um ein Migrationsprojekt zu erstellen.
+Laden Sie die Schulungsinhalte von Ihrem vorhandenen LMS auf Ihr Box-Konto hoch. Wenn Sie bereits das Migrationsprojekt und den Sprint erstellt haben, füllt das Box-Konto das Migrationsprojekt und den Sprint-Namen aus. Sie können die Inhalte im selben Pfad hochladen. Informationen zum Erstellen von Migrationsprojekten finden Sie im Abschnitt **Migrationsverfahren für Daten und Inhalte** auf dieser Seite.
 
 Sie können die Inhaltsdateien per Drag &amp; Drop verschieben oder auf **[!UICONTROL Hochladen]** klicken und die Dateien auf dem Desktop auswählen. Bei Inhalten mit sehr großen Dateigrößen kann es zu Verzögerungen beim Hochladen der Dateien kommen. Abhängig von der Größe der Datei ist die zum Hochladen der Dateien auf Ihr Box-Konto benötigte Zeit unterschiedlich.
 
@@ -455,7 +455,7 @@ In der Abbildung unten sehen Sie ein Referenzbeispiel mit einem Box-Konto nach d
 
 ![](assets/box-account.png)
 
-*Dateien im Box-Konto*
+*Dateien in Box-Konto*
 
 Nachdem die Dateien auf Ihr Box-Konto hochgeladen wurden, stellen Sie sicher, dass Sie den relativen Pfad dieser Box-Inhaltsdatei in der Datei „module_version.csv“ angeben. Dies ist ein obligatorischer Schritt für Sie, um den Pfad des Modulinhalts anzugeben.
 
@@ -469,9 +469,9 @@ Wenn Sie sich bei den FTP- und Box-Servern angemeldet und den Inhalt hochgeladen
 
 Das Verfahren zur Migration der LMS-Daten und -Inhalte Ihres Unternehmens auf Learning Manager wird im Folgenden erläutert:
 
-Prüfen Sie die Voraussetzungen für den Migrationsprozess, bevor Sie mit der Migration beginnen. Siehe [CSV-Spezifikationen und CSV-Musterdateien](migration-manual.md#main-pars_header_140933605) &quot; auf dieser Seite und bereiten Sie die CSVs für die Daten- und Inhaltsmigration vor.
+Prüfen Sie die Voraussetzungen für den Migrationsprozess, bevor Sie mit der Migration beginnen. Bereiten Sie die CSV-Dateien für die Daten- und Inhaltsmigration wie auf dieser Seite im Abschnitt [CSV-Spezifikationen und Beispiel-CSVs](migration-manual.md#main-pars_header_140933605) beschrieben vor.
 
-1. Melden Sie sich bei der Learning Manager-Anwendung als Integrationsadministrator an und klicken Sie auf **[!UICONTROL Migration]** im linken Bereich.
+1. Melden Sie sich bei der Learning Manager-Anwendung als Integrationsadministrator an und klicken Sie im linken Teilfenster auf **[!UICONTROL Migration]**.
 
    Daraufhin wird die Startseite für Migrationsprojekte angezeigt. Wenn Ihr Unternehmen bereits Migrationsprojekte erstellt hat, können Sie auf dieser Seite eine Liste mit allen Migrationsprojekten anzeigen.
 
@@ -486,7 +486,7 @@ Prüfen Sie die Voraussetzungen für den Migrationsprozess, bevor Sie mit der Mi
 
    Ihre Migrationsdatenelemente werden mithilfe dieses Migrationsprojekt-Tags identifiziert. Wenn Sie über keinen bestimmten Kurskatalog verfügen, wählen Sie den Standardkatalog in der Dropdown-Liste aus. Alle Kurse, die mithilfe eines Migrationsprojekts migriert werden, sind im Katalog enthalten, den Sie in dieser Phase ausgewählt haben. Wenn Sie keinen Katalog auswählen, sind alle migrierten Kurse Teil des Standardkatalogs.
 
-1. Die Seite der Sprint-Konfiguration wird angezeigt (siehe nachfolgende Abbildung). Sie müssen einen Sprint als Teil Ihres Migrationsprojekts erstellen. Wählen Sie einen Sprint-Namen aus und geben Sie eine kurze Beschreibung des Sprints an. Sie können „Ja“ auswählen, wenn Sie Inhalte als Teil dieses Sprints migrieren möchten. Klicken **[!UICONTROL Weiter]**.
+1. Die Seite der Sprint-Konfiguration wird angezeigt (siehe nachfolgende Abbildung). Sie müssen einen Sprint als Teil Ihres Migrationsprojekts erstellen. Wählen Sie einen Sprint-Namen aus und geben Sie eine kurze Beschreibung des Sprints an. Sie können „Ja“ auswählen, wenn Sie Inhalte als Teil dieses Sprints migrieren möchten. Klicken Sie auf **[!UICONTROL Weiter]**.
 
    ![](assets/users-modified-sprint.png)
    *Sprint-Migration*
@@ -495,12 +495,12 @@ Prüfen Sie die Voraussetzungen für den Migrationsprozess, bevor Sie mit der Mi
 
    Dieser Synchronisierungsschritt wird empfohlen, wenn die Dateien „enrollment.csv“ und „user_course_grade.csv“ migriert werden. Bei diesem Schritt kann die Learning Manager-Datenbank mit Ihrer Migrationsdatenbank synchronisiert werden und es wird sichergestellt, dass alle Benutzer, deren Datensätze im Sprint migriert werden sollen, in der Migrationsdatenbank zur Verfügung stehen.
 
-1. Sie können die Sprint-Migration mit Ihren hochgeladenen Daten und Inhalten beginnen. Klicken **[!UICONTROL Aktualisieren]** , bevor Sie den Sprint-Run starten, um die FTP- und Inhaltsordner mit der Learning Manager-Anwendung zu synchronisieren.
+1. Sie können die Sprint-Migration mit Ihren hochgeladenen Daten und Inhalten beginnen. Klicken Sie vor dem Start des Sprint-Laufs auf den Link **[!UICONTROL Aktualisieren]**, um die FTP- und Inhaltsordner mit der Learning Manager-Anwendung zu synchronisieren.
 
    ![](assets/sprint1-filesupload.png)
    *Sprint-Migration starten*
 
-   Klicken **[!UICONTROL Start]** oben rechts auf der Seite. Sie können auf **[!UICONTROL Stopp]** während des Sprint-Migrationsvorgangs jederzeit ändern, um die Sprint-Migration abzubrechen.
+   Klicken Sie in der rechten oberen Ecke der Seite auf **[!UICONTROL Start]**. Sie können während des Sprint-Migrationsvorgangs jederzeit auf **[!UICONTROL Stopp]** klicken, um die Sprint-Migration abzubrechen.
 
    Der Migrationsstatus wird für die jeweiligen Sprint-Datenelemente und -Inhalte angezeigt. Überprüfen Sie die Anzahl der erfolgreichen und fehlgeschlagenen Elemente als Teil des Sprint-Laufs der Migration.
 
@@ -509,14 +509,14 @@ Prüfen Sie die Voraussetzungen für den Migrationsprozess, bevor Sie mit der Mi
    In der Abbildung unten sehen Sie ein Referenzbeispiel für den Fortschrittsdialog. Sie können die Anzahl der für jedes Migrationsdatenelement verarbeiteten Datensätze zusammen mit dem Status der erfolgreichen und fehlgeschlagenen Elemente sehen. Klicken Sie auf „Fehlerdatensätze für die fehlgeschlagenen Elemente herunterladen“, um die Fehlerprotokolle herunterzuladen und anzuzeigen. Sie können die Probleme in der CSV-Datei beheben und diese erneut auf FTP hochladen.
 
    ![](assets/sample-sprint-progress-status.png)
-   *Sprint-Fortschritt anzeigen*
+   *Anzeigen des Sprint-Fortschritts*
 
    Klicken Sie im linken Bereich auf die Sprint-Liste, wenn Sie die Liste aller Sprints eines Migrationsprojekts anzeigen möchten. Sie können eine Liste aller Sprints, die Anzahl der für jeden Sprint ausgeführten Läufe, das Startdatum, die Dauer und den Abschlussstatus anzeigen, wie in der Abbildung unten dargestellt.
 
    ![](assets/sprint-list.png)
    *Liste der Sprints anzeigen*
 
-1. Nachdem Sie die neuesten aktualisierten CSV-Dateien hochgeladen haben, können Sie in der oberen rechten Ecke der Seite auf „Wiederholen“ klicken. Bei der Wiederholung werden alle Datenelemente noch einmal verarbeitet und Elemente ignoriert, für die es keine Änderungen gibt. Sobald Sie mit der Migration von Datenelementen in einem Sprint zufrieden sind, können Sie die Sprint-Migration als abgeschlossen markieren, indem Sie auf die Schaltfläche oben auf der Seite klicken. Sie können einen neuen Sprint mit mehr Datenelementen zu einem späteren Zeitpunkt starten. Sobald ein Sprint als abgeschlossen markiert wurde, können Sie ihn nicht erneut wiederholen. Dementsprechend kann ein Migrationsprojekt eine beliebige Anzahl von Sprints umfassen. Sobald Sie mit dem Migrationsstatus aller Sprints zufrieden sind, können Sie das Migrationsprojekt als abgeschlossen markieren, indem Sie auf **Projekt als abgeschlossen markieren** auf der Seite mit der Sprint-Liste.
+1. Nachdem Sie die neuesten aktualisierten CSV-Dateien hochgeladen haben, können Sie in der oberen rechten Ecke der Seite auf „Wiederholen“ klicken. Bei der Wiederholung werden alle Datenelemente noch einmal verarbeitet und Elemente ignoriert, für die es keine Änderungen gibt. Sobald Sie mit der Migration von Datenelementen in einem Sprint zufrieden sind, können Sie die Sprint-Migration als abgeschlossen markieren, indem Sie auf die Schaltfläche oben auf der Seite klicken. Sie können einen neuen Sprint mit mehr Datenelementen zu einem späteren Zeitpunkt starten. Sobald ein Sprint als abgeschlossen markiert wurde, können Sie ihn nicht erneut wiederholen. Dementsprechend kann ein Migrationsprojekt eine beliebige Anzahl von Sprints umfassen. Sobald Sie mit dem Migrationsstatus aller Sprints zufrieden sind, können Sie das Migrationsprojekt als abgeschlossen markieren, indem Sie auf der Seite der Sprint-Liste auf den Link **Projekt als abgeschlossen markieren** klicken.
 
    Bevor Sie das Migrationsprojekt als abgeschlossen markieren, müssen Sie sicherstellen, dass alle Sprints des Projekts abgeschlossen sind. Nachdem Sie das Migrationsprojekt als abgeschlossen markiert haben, können Sie nicht zurückgehen und Sprints in diesem Projekt erstellen oder Änderungen an diesem Projekt vornehmen. Sie müssen ein weiteres Migrationsprojekt erstellen und ihm Sprints hinzufügen.
 
@@ -563,7 +563,7 @@ Learning Manager unterstützt UUID, um Unternehmen Flexibilität beim Steuern vo
 
 **Anwendungsszenario für UUID in einem Unternehmen**
 
-Stellen Sie sich ein Szenario vor, in dem ein Mitarbeiter A sich als Vertragsnehmer dem Unternehmen Learning Manager anschließt. Während der Vertragslaufzeit stellt das Unternehmen für Learning Manager möglicherweise keine Unternehmens-E-Mail-ID zur Verfügung, da ```A@example.com```, stattdessen kann das Unternehmen nur das persönliche E-Mail-Konto des Mitarbeiters berücksichtigen, z. B. ```A@gmail.com```. Nach Abschluss von 6 Monaten Vertragslaufzeit, wenn derselbe Mitarbeiter A sich dem Learning Manager als Vollzeitmitarbeiter anschließt, möchte der Learning Manager seine E-Mail-ID in seine Unternehmens-E-Mail-ID ändern: ```A@example.com```.
+Stellen Sie sich ein Szenario vor, in dem ein Mitarbeiter A sich als Vertragsnehmer dem Unternehmen Learning Manager anschließt. Während der Vertragslaufzeit stellt das Learning Manager-Unternehmen möglicherweise keine Unternehmens-E-Mail-ID als ```A@example.com``` bereit, sondern berücksichtigt stattdessen das persönliche E-Mail-Konto des Mitarbeiters, z. B. ```A@gmail.com```. Nach Abschluss von 6 Monaten Vertragslaufzeit, wenn derselbe Mitarbeiter A sich dem Learning Manager als Vollzeitmitarbeiter anschließt, möchte der Learning Manager möglicherweise seine E-Mail-ID in seine Unternehmens-E-Mail-ID ändern: ```A@example.com```.
 
 UUID-Zugriff auf das Benutzerkonto ist für den Learning Manager des Unternehmens im oben genannten Szenario hilfreich. Das Unternehmen mit dem Learning Manager kann die persönliche E-Mail-ID des Mitarbeiters A ganz einfach durch eine offizielle E-Mail-ID ersetzen. Die für dieses Konto relevanten Datensätze für den Mitarbeiter sind von dieser Änderung nicht betroffen.
 

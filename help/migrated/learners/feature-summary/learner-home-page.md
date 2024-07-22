@@ -1,7 +1,7 @@
 ---
 jcr-language: en_us
 title: Teilnehmer-Startseite
-description: Nachdem der Administrator ein immersives Layout aktiviert hat, erhält der Teilnehmer nach der Anmeldung eine komplett überarbeitete Benutzeroberfläche.
+description: Nachdem der Administrator das immersive Layout aktiviert hat, wird der Teilnehmer nach der Anmeldung bei der App mit einer komplett überarbeiteten Benutzeroberfläche begrüßt.
 contentowner: saghosh
 exl-id: 71b495c7-a6c8-4e6e-9f00-ec93d7b483ad
 source-git-commit: c4eb9a7c4fca73bc029f9afad1f3d48725779d30
@@ -15,23 +15,23 @@ ht-degree: 40%
 
 ## Übersicht {#overview}
 
-Nachdem der Administrator ein immersives Layout aktiviert hat, erhält der Teilnehmer bei der Anmeldung in der App eine komplett überarbeitete Benutzeroberfläche.
+Nachdem der Administrator das immersive Layout aktiviert hat, wird der Teilnehmer mit einer komplett überarbeiteten Benutzeroberfläche begrüßt, wenn er sich bei der App anmeldet.
 
 >[!NOTE]
 >
->Der IE11-Browser unterstützt kein immersives Layout.
+>Der IE11-Browser unterstützt das immersive Layout nicht.
 
-## Neue UI für Lernende für immersives Layout
+## Neue Teilnehmer-Benutzeroberfläche für immersives Layout
 
 >[!IMPORTANT]
 >
->Wir werden die benutzeroberfläche für neue Teilnehmer in Phasen freigeben.
+>Wir werden die neue Teilnehmer-Benutzeroberfläche in Phasen veröffentlichen.
 
-Wir haben die Benutzeroberfläche der Teilnehmer mit einem eleganteren und aktualisierten Design aktualisiert. Die neue Benutzeroberfläche soll für ein konsistentes Anwendererlebnis auf **[!UICONTROL den Landingpages &quot;Learner Home]**&quot;, **[!UICONTROL &quot;My Learning]**&quot;, **[!UICONTROL &quot;Catalog]**&quot; und **[!UICONTROL &quot;Course Overview&quot;]** sorgen. Die neuen visuellen Elemente folgen aktuellen Design-Stilen, sodass das Produkt einfacher zu bedienen und attraktiver wirkt. Dieses Update enthält einen neuen Kopf, ein Seitenfenster und moderne Widgets.
+Wir haben die Teilnehmer-Benutzeroberfläche mit einem eleganteren und aktualisierteren Design aktualisiert. Die neue Benutzeroberfläche soll eine konsistente Benutzererfahrung auf den Zielseiten **[!UICONTROL Teilnehmerstartseite]**, **[!UICONTROL Eigenes Lernen]**, **[!UICONTROL Katalog]** und **[!UICONTROL Kursübersicht]** bieten. Die neuen visuellen Elemente folgen den aktuellen Designstilen, wodurch das Produkt benutzerfreundlicher und attraktiver aussieht. Dieses Update enthält einen neuen Mastertitel, ein neues Bedienfeld an der Seite und moderne Widgets.
 
 >[!NOTE]
 >
->Die überarbeitete Benutzeroberfläche gilt nur für immersives Layout. Das Mobile Web/App unterstützt diese Änderungen noch nicht und wird sie in einem zukünftigen Release aktualisieren.
+>Die überarbeitete Benutzeroberfläche gilt nur für das immersive Layout. Das mobile Web/die mobile App unterstützt diese Änderungen noch nicht und wird sie in einer zukünftigen Version aktualisieren.
 
 ![](assets/old-ui.png)
 _Alte Benutzeroberfläche_
@@ -41,69 +41,69 @@ _Neue Benutzeroberfläche_
 
 ### Homepage
 
-Die Homepage hat ein neues Design mit einem verbesserten Seitenfenster, oberen Kopfzeilen, erweiterten Kurskarten und Widgets.
+Die Startseite verfügt über ein neues Design mit einer verbesserten Seitenleiste, Kopfzeile, verbesserten Kurskarten und Widgets.
 
 ![](assets/new-ui-homepage.png)
 _Neue Homepage_
 
 ### Katalogseite
 
-Die Katalogseiten haben einen neuen Look mit organisierten Filtern und erweiterten Kurskarten, um ein besseres Anwendererlebnis zu bieten.
+Die Katalogseiten sehen mit organisierten Filtern und verbesserten Kurskarten anders aus, um die Benutzererfahrung zu verbessern.
 
 ![](assets/catalog.jpg)
 _Katalogseite_
 
 ### Seite „Kursübersicht“
 
-Die Kursübersicht hat einen neuen Look mit mehr Details zum Kurs. Diese Seite hilft Teilnehmern, alle informationen zu erhalten, die sie benötigen.
+Die Kursübersichtsseite hat ein neues Aussehen mit weiteren Details zum Kurs. Auf dieser Seite erhalten die Teilnehmer alle Informationen, die sie benötigen.
 
 ![](assets/course-overview.jpg)
-_Kursüberblick_
+_Kursübersichtsseite_
 
 ### Kurskarten
 
-Kurskarten verfügen außerdem über ein überarbeitetes Layout, um Details effektiver anzuzeigen. Überarbeitete Kurskarten zeigen relevante Metadaten an, die für die Anmeldung erforderlich sind. Diese Metadaten umfassen korrekte Veröffentlichungs- oder Fälligkeitsdaten, Bewertungen und Beschreibungen zusammen mit ihren Autoren oder Anbietern.
+Die Kurskarten verfügen außerdem über ein neu gestaltetes Layout, um die Details effektiver anzuzeigen. Überarbeitete Kurskarten heben relevante Metadaten hervor, die für die Registrierung erforderlich sind. Diese Metadaten enthalten die richtigen Veröffentlichungs- oder Fälligkeitsdaten, Bewertungen und Beschreibungen zusammen mit ihren Autoren oder Anbietern.
 
 ![](assets/old-course-cards.png)
-_Alte Kurskarte_
+_Karte alter Kurse_
 
 ![](assets/new-course-card.jpg)
 _Neue Kurskarte_
 
-Bei Kursen, die aus **LinkedIn und der** Go1-Plattform **importiert werden, werden die ursprünglichen Veröffentlichungsdaten von** LinkedIn **und** Go1 **** angezeigt. Sie können diese spezifischen Veröffentlichungstermine auch auf der Benutzeroberfläche anzeigen.
+Bei Kursen, die aus **LinkedIn** und der **Go1**-Plattform importiert wurden, werden auf den Kurskarten die Originalveröffentlichungsdaten von **LinkedIn** und **Go1** angezeigt. Sie können diese bestimmten Veröffentlichungsdaten auch auf der Benutzeroberfläche anzeigen.
 
 ### Seitenleiste und Suchleiste
 
-Die Seitenleiste wird mit neuen UI-Elementen aktualisiert, um einen saubereren Look zu erzielen. Die neue Suchleiste verfügt über keinen Such-Button, sodass er sauberer aussieht. Teilnehmer können ein Keyword eingeben und die Eingabetaste drücken, um die Suche zu starten oder die Ergebnisse unterhalb der Suchleiste auszuwählen.
+Die Seitenleiste wird mit neuen UI-Elementen aktualisiert, um ein sauberes Erscheinungsbild zu erzielen. Die neue Suchleiste verfügt über keine Suchschaltfläche, was ihr einen saubereren Look verleiht. Teilnehmer können ein Stichwort eingeben und die Eingabetaste drücken, um die Suche zu starten, oder Ergebnisse unter der Suchleiste auswählen.
 
 ![](assets/side-bar.png)
 _Seitenleiste und Suchleiste_
 
 ### Mastertitel {#masthead}
 
-Enthält ein Video- oder Bildkarussell mit eingebettetem URL. Der [Administrator kann jedes Bild oder Video-Asset](../../administrators/feature-summary/announcements.md#masthead) als Ausgangspunkt hochladen und seine Sichtbarkeit für eine Gruppe von Teilnehmern festlegen.
+Enthält ein Video- oder Bildkarussell mit eingebetteter URL. Der [Administrator kann ein beliebiges Bild- oder Video](../../administrators/feature-summary/announcements.md#masthead)-Element als Haupttitel hochladen und seine Sichtbarkeit für eine Gruppe von Teilnehmern festlegen.
 
 ![](assets/learner-masthead.png)
 
-*Kopf anzeigen*
+*Mastertitel anzeigen*
 
 ### Meine Lernliste {#mylearninglist}
 
-Zeigt die Schulung an, die der Teilnehmer absolviert hat. Diese Schulungen werden als horizontale Karten dargestellt. Klicke auf die Schaltfläche rechts oder links, um die Kurse zu durchsuchen.
+Zeigt die Schulung an, die der Teilnehmer absolviert hat. Diese Schulungen werden als horizontal angeordnete Karten angezeigt. Sie können auf die rechte oder linke Schaltfläche klicken, um die Kurse zu durchsuchen.
 
 ![](assets/learner-my-learning-list.png)
 
 *Meine Lernliste anzeigen*
 
-Du kannst auch nach links und rechts wischen, um durch die Liste zu navigieren.
+Sie können auch nach links und rechts wischen, um durch die Liste zu navigieren.
 
-Um einen Kurs fortzusetzen, klicke auf &quot;Fortfahren&quot; **** auf einer Karte, und der Player wird gestartet.
+Um einen Kurs fortzusetzen, klicken Sie auf einer Karte auf **[!UICONTROL Weiter]**, und der Player wird gestartet.
 
-Das Erscheinungsbild von Icons auf jeder Schulungskarte wird vom Administrator über die Admin-App aktiviert/deaktiviert (**Einstellungen** > **Allgemein** > **Icons** für Schulungskarten aktivieren).
+Das Erscheinungsbild der Symbole auf jeder Schulungskarte wird vom Administrator über die Admin-App aktiviert/deaktiviert (**Einstellungen** > **Allgemein** > **Symbole der Schulungskarte aktivieren**).
 
 **Zu meiner Lernliste hinzufügen**
 
-Wenn Sie den Mauszeiger in **Empfehlungen basierend auf Ihren Interessenbereichen** und **Empfehlungen basierend auf Peer-Aktivitätslisten** auf eine Kurskarte bewegen, wird eine Option angezeigt, um den Kurs zu **Meine Lernliste** hinzuzufügen. Klicke auf die Kurskarte auf **[!UICONTROL +]** und der Kurs wird zur **My Learning List** hinzugefügt.
+Wenn Sie den Mauszeiger in **Empfehlungen basierend auf Ihren Interessenbereichen** und **Empfehlungen basierend auf Peer-Aktivitätslisten** auf eine Kurskarte bewegen, wird eine Option angezeigt, um den Kurs zu **Meine Lernliste** hinzuzufügen. Klicken Sie auf der Kurskarte auf **[!UICONTROL +]**, und der Kurs wird der **Meine Lernliste** hinzugefügt.
 
 ![](assets/add-my-learning.png)
 
@@ -121,22 +121,22 @@ Wenn Sie eine Option auswählen, können Sie den Kurskatalog entsprechend der Au
 
 ![](assets/skill-levels.png)
 
-*Kompetenzstufen auswählen*
+*Kompetenzniveaus auswählen*
 
-## Compliance-Dashboard-Widget
+## Kompatibilitäts-Dashboard-Widget
 
-Das Compliance-Dashboard-Widget ermöglicht es Teilnehmern, Kurse/Lernpfade/Zertifizierungen mit anstehenden Terminen mithilfe des Compliance-Labels zu filtern. Diese Funktion ist für alle Teilnehmerprogramme verfügbar, einschließlich ALM Teams-App, AEM, Mobile App, Immersive und SF-App.
+Das Widget &quot;Kompatibilitäts-Dashboard&quot; ermöglicht es Teilnehmern, Kurse/Lernpfade/Zertifizierungen mit bevorstehenden Fristen mithilfe der Beschriftung &quot;Kompatibilität&quot; zu filtern. Diese Funktion ist für alle Teilnehmer-Apps verfügbar, einschließlich ALM Teams-App, AEM, Mobile App, Immersive und SF-App.
 
 ![](assets/compliance-status-learner.png)
-_Compliance-Dashboard-Widget_
+_Kompatibilitäts-Dashboard-Widget_
 
 ## Kalender {#calendar}
 
-Zeigt Ihre geplanten Sitzungen und Schulungen an. Durchsuche den Kalender, um die Schulungen für die nächsten Monate zu sehen.
+Zeigt Ihre geplanten Sitzungen und Schulungen an. Durchsuchen Sie den Kalender, um die Schulungen für die folgenden Monate anzuzeigen.
 
 ![](assets/learner-calendar.png)
 
-*Kalender für terminierte Sessions anzeigen*
+*Kalender für geplante Sitzungen anzeigen*
 
 Das Kalender-Widget bietet die folgenden Funktionen. Sie können Folgendes anzeigen:
 
@@ -163,25 +163,25 @@ Das Widget fasst die Aktivität für einen Zeitraum zusammen. Im Einzelnen:
 Profilkenntnisse werden für Kursempfehlungen verwendet. Wenn der Administrator einem Benutzer oder einer Gruppe von Benutzern Kenntnisse zuweist, werden die Kenntnisse den Profilkenntnissen des Teilnehmers hinzugefügt. Wenn der Teilnehmer seinem Profil eine Kenntnis hinzufügt, werden alle Stufen der Kenntnis den Profilkenntnissen des Teilnehmers hinzugefügt. Wenn ein Teilnehmer den Mauszeiger über eine Kenntnis bewegt, kann er den Namen der Kenntnis, die Methode zum Hinzufügen der Kenntnis, die Stufe, den Prozentsatz der Durchführung des Kenntniserwerbs und Credits sehen.
 
 ![](assets/profile-skills.png)
-*Profilfähigkeiten anzeigen*
+*Profilkenntnisse anzeigen*
 
-Wenn sich ein Teilnehmer für einen Kurs registriert, werden nur die externen Kenntnisse, die auf einer Punktzahl basieren, den Profilkenntnissen hinzugefügt. Darüber hinaus kann ein Teilnehmer sein Profil durchsuchen, auswählen und externe Fähigkeiten hinzufügen. Wenn sich ein Teilnehmer zum ersten Mal bei der Teilnehmer-App angemeldet hat und die Fähigkeiten des Teilnehmers bereits vorhanden sind, werden die Fähigkeiten in &quot;Mein Profil&quot; angezeigt.
+Wenn sich ein Teilnehmer für einen Kurs registriert, werden nur die externen Kenntnisse, die auf einer Punktzahl basieren, den Profilkenntnissen hinzugefügt. Darüber hinaus kann ein Teilnehmer sein Profil durchsuchen, auswählen und ihm externe Kenntnisse hinzufügen. Wenn sich ein Teilnehmer zum ersten Mal bei der Teilnehmer-App angemeldet hat und die Kenntnisse des Teilnehmers bereits vorhanden sind, werden die Kenntnisse in &quot;Mein Profil&quot; angezeigt.
 
 ## Empfehlung basierend auf Ihrem Interessensbereich {#recommendationbasedonyourareaofinterest}
 
-Zeigt Schulungen basierend auf Ihrem ausgewählten Interessensbereich an. Die Empfehlung basiert auf einem Machine-Learning-Algorithmus.
+Zeigt Schulungen basierend auf Ihrem ausgewählten Interessensbereich an. Die Empfehlung basiert auf einem Machine Learning-Algorithmus.
 
 ![](assets/learner-recommendation.png)
 
 *Empfohlene Kurse anzeigen*
 
-Um zielgerichtetere Empfehlungen zu erhalten, kannst du deine Skills aktualisieren, indem du auf **Ansicht/Aktualisierung** klickst.
+Für zielgerichtetere Empfehlungen können Sie Ihre Kenntnisse aktualisieren, indem Sie auf **Ansicht/Aktualisierung** klicken.
 
 Nachdem Sie Kenntnisse hinzugefügt haben, werden zukünftige Empfehlungen zielgerichteter und auf Ihre Voreinstellungen konzentriert sein.
 
 Wenn der Administrator die Option **Neue Fähigkeiten erschließen** deaktiviert hat, können Sie Ihren Kenntnissen Interesse hinzufügen.
 
-Die empfohlenen Kurse werden als Karten angezeigt. Wenn du mit der Maus eine Karte bewegst, siehst du weitere Details des Kurses.
+Die empfohlenen Kurse werden als Karten angezeigt. Wenn Sie mit der Maus auf eine Karte zeigen, werden weitere Details zum Kurs angezeigt.
 
 Produktterminologie wird ebenfalls unterstützt.
 
@@ -195,9 +195,9 @@ In der Kenntnisdiagramm-Visualisierung können Sie nach einer Qualifikation oder
 
 ![](assets/learner-add-industry-skills.png)
 
-*Visualisierung von Kompetenz-Maps*
+*Visualisierung der Kenntniszuordnung*
 
-Aktiviere die Option **&quot;Skills anzeigen&quot;, für die Schulungen in meinem Konto** verfügbar sind, wenn du alle Skills in deinem Konto anzeigen möchtest.
+Aktivieren Sie die Option **Kenntnisse anzeigen, für die Schulungen in meinem Konto vorhanden sind**, wenn Sie alle Kenntnisse anzeigen möchten, die in Ihrem Konto vorhanden sind.
 
 Nachdem Sie eine Qualifikation hinzugefügt haben, können Sie das ausgerichtete Diagramm mit der ausgewählten Qualifikation als primärem Scheitelpunkt und den zugehörigen Kenntnissen als kleinere Scheitelpunkte sehen.
 
@@ -205,10 +205,10 @@ Die ausgewählten Kenntnisse werden auch im Abschnitt **Ausgewählte Kenntnisse*
 
 ![](assets/learner-add-industry-skills-1.png)
 
-*Ausgewählte Skills*
+*Ausgewählte Kenntnisse*
 
 Um die Qualifikationen hinzuzufügen, klicken Sie auf **[!UICONTROL Hinzufügen]**.
 
 ## Empfehlung auf der Grundlage von Peer-Aktivitäten {#recommendationbasedonpeeractivity}
 
-Zeigt Schulungen an, die von Kollegen absolviert wurden. Dies wird wiederum von einem Machine Learning-Algorithmus gesteuert. Die Empfehlungen basieren auf Schulungen für Teilnehmer, die auf der Ausrichtung auf kundenspezifische und branchenspezifische Anforderungen ausgerichtet sind.
+Zeigt Schulungen basierend auf den Aktivitäten Ihrer Kollegen an. Dies wird wiederum von einem Machine Learning-Algorithmus gesteuert. Die Empfehlungen basieren sowohl auf Schulungen für &quot;Benutzerdefiniert&quot;- als auch &quot;Branchenspezifisch&quot;-Teilnehmer.

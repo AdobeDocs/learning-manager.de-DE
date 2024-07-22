@@ -287,9 +287,9 @@ Sowohl Android als auch iOS verwenden Firebase Cloud Messaging (FCM) als Dienst 
 
 Gehen Sie folgendermaßen vor:
 
-1. Generieren oder Herunterladen der **Push-Benachrichtigungszertifikat** und dem privaten Schlüssel (.p12). Weitere Informationen finden Sie unter [Apple-Entwicklerdokument](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_certificate-based_connection_to_apns).
+1. Generieren oder laden Sie das **Push-Benachrichtigungszertifikat** und den privaten Schlüssel (.p12) herunter. Weitere Informationen finden Sie im [Apple-Entwicklerdokument](https://developer.apple.com/documentation/usernotifications/setting_up_a_remote_notification_server/establishing_a_certificate-based_connection_to_apns).
 
-1. Installieren Sie die p12-Datei, nachdem die Datei heruntergeladen wurde. Verwenden Sie das Kennwort, um in Ihrem **Schlüsselbundzugriff**.
+1. Installieren Sie die p12-Datei, nachdem die Datei heruntergeladen wurde. Verwenden Sie das Kennwort, um in Ihrem **Schlüsselbundzugriff** zu installieren.
 
 1. Navigieren Sie zu **Meine Zertifikate** und exportieren Sie das Zertifikat. Stellen Sie sicher, dass Sie den MIME-Typ &quot;.cer&quot; auswählen.
 
@@ -309,22 +309,22 @@ Wenn Sie eine Verbindung zum Server herstellen können, ist das von Ihnen erstel
 
 Für Android muss der Benutzer die Datei services.json aus dem Firebase-Projekt bereitstellen, um den Eintrag zum SNS-Dienst hinzuzufügen.
 
-Erstellen Sie ein Projekt in Firebase und geben Sie die Datei services.json für das CSM-Team frei. Diese Datei wird für den tokenbasierten Eintrag im SNS benötigt. Beachten Sie, dass der Serverschlüssel nicht mehr verwendet wird. Siehe [Erstellen eines Projekts in Firebase](#create-project-in-firebase).
+Erstellen Sie ein Projekt in Firebase und geben Sie die Datei services.json für das CSM-Team frei. Diese Datei wird für den tokenbasierten Eintrag im SNS benötigt. Beachten Sie, dass der Serverschlüssel nicht mehr verwendet wird. Siehe [Projekt in Firebase erstellen](#create-project-in-firebase).
 
 Führen Sie die folgenden Schritte aus, um die Datei services.json herunterzuladen:
 
-1. Melden Sie sich bei der **Firebase** Konsole.
-1. Wechseln zu **Projekteinstellungen** und wählen Sie **Cloud Messaging**.
-1. Suchen **Firebase Cloud Messaging-API** und wählen Sie **Verwalten von Dienstkonten**.
-1. Im Dialogfeld &quot; **Service-Konten** &quot; die Option **Dienstkonten** im linken Bereich.
-1. Suchen Sie Ihren Projekteintrag und wählen Sie **Details verwalten** in Aktionen.
+1. Melden Sie sich bei der **Firebase**-Konsole an.
+1. Wechseln Sie zu **Projekteinstellungen** und wählen Sie **Cloud Messaging** aus.
+1. Suchen Sie **Firebase Cloud Messaging API** und wählen Sie **Dienstkonten verwalten** aus.
+1. Wählen Sie auf der Seite **Dienstkonten** die **Dienstkonten** im linken Bereich aus.
+1. Suchen Sie Ihren Projekteintrag und wählen Sie unter &quot;Aktionen&quot; **Details verwalten** aus.
 
    >[!NOTE]
    >
    >   Das Projekteintragsformat lautet &lt;-accountname->@appspot.gserviceaccount.com.
 
-1. Wechseln Sie zur Registerkarte **Tasten** und wählen Sie **Schlüssel hinzufügen**.
-1. Wenn keine Taste vorhanden ist, wählen Sie **Neuen Schlüssel erstellen** und wählen Sie **JSON** als Schlüsseltyp fest. Dadurch wird die JSON-Datei generiert und heruntergeladen.
+1. Wechseln Sie zur Registerkarte **Schlüssel** und wählen Sie **Schlüssel hinzufügen** aus.
+1. Wenn kein Schlüssel vorhanden ist, wählen Sie **Neuen Schlüssel erstellen** und anschließend **JSON** als Schlüsseltyp aus. Dadurch wird die JSON-Datei generiert und heruntergeladen.
 1. Wenn bereits ein Schlüssel vorhanden ist, wählen Sie **Vorhandenen Schlüssel hochladen**, fügen Sie den Schlüssel ein und laden Sie ihn hoch. Dadurch wird die JSON-Datei generiert und heruntergeladen.
 
 <!-- Set up a project in Firebase and share the server key with the CSAM.-->
@@ -337,11 +337,11 @@ Wenden Sie sich an das CSM-Team und geben Sie die JSON-Datei frei, um den Eintra
 
 Verwenden Sie dasselbe Projekt, das Sie in den Schritten oben erstellt haben, für Push-Benachrichtigungen erneut.
 
-[Projekt hinzufügen](https://learn.microsoft.com/en-us/xamarin/android/data-cloud/google-messaging/firebase-cloud-messaging) in Firebase und rufen Sie die ***google-services.json*** -Datei.
+[Fügen Sie das Projekt ](https://learn.microsoft.com/en-us/xamarin/android/data-cloud/google-messaging/firebase-cloud-messaging) in Firebase hinzu, und rufen Sie die Datei ***google-services.json*** ab.
 
 ### iOS
 
-[Projekt hinzufügen](https://firebase.google.com/docs/ios/setup) zu Firebase und rufen Sie die ***GoogleService-Info.plist*** -Datei.
+[Fügen Sie das Projekt ](https://firebase.google.com/docs/ios/setup) zu Firebase hinzu, und rufen Sie die Datei ***GoogleService-Info.plist*** ab.
 
 >[!IMPORTANT]
 >
@@ -373,13 +373,13 @@ sh""" ~/Library/Android/sdk/build-tools/30.0.3/apksigner sign --ks $storeFile --
 >
 >Zum Erstellen der signierten Binärdateien benötigen Sie die SDK-Build-Tools von Android.
 
-**Was kommt als Nächstes?**
+**Nächste Schritte**
 
 Übertragen Sie die Binärdateien nach dem Generieren der Binärdateien in den Play Store oder in App Store.
 
 ## Wie werden die Änderungen angewendet?
 
-Sendet die erforderlichen Elemente und Dateien an das CSM-Team. Das CSM-Team füllt dann die [Form](https://forms.office.com/r/bJRRaRBvSh) mit den erforderlichen Änderungen und fügt die erforderlichen Assets an. Das Team überprüft dann die Änderungen und informiert die technischen Teams darüber. Das Engineering-Team generiert dann einen Build und gibt diesen an das CSM-Team weiter.
+Sendet die erforderlichen Elemente und Dateien an das CSM-Team. Das CSM-Team füllt dann das [Formular](https://forms.office.com/r/bJRRaRBvSh) mit den erforderlichen Änderungen aus und hängt die erforderlichen Assets an. Das Team überprüft dann die Änderungen und informiert die technischen Teams darüber. Das Engineering-Team generiert dann einen Build und gibt diesen an das CSM-Team weiter.
 
 Das CSM-Team gibt die Version für den Kunden frei.
 
