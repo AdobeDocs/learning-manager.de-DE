@@ -2,10 +2,10 @@
 user-guide-title: Leitfaden für Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Dokumentation für Adobe Learning Manager
-source-git-commit: 6b26c48e3195b76b30bb837b37a40a1484d72c5d
+source-git-commit: b8c7bb0c11268d23ec64d4135aa8b2105539cb89
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 88%
+source-wordcount: '600'
+ht-degree: 87%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 88%
    * [Übergang vom Adobe FTP Manager](transition-from-ftp-manager.md)
    * [API-Veraltungen und -Änderungen in Adobe Learning Manager](api-deprecations-list.md)
    * [Etikettieren in Adobe Learning Manager](white-label.md)
-* Erste Schritte {#get-started}
+* Erste Schritte: {#get-started}
    * [Erste Schritte als Administrator](administrators/feature-summary/getting-started-admin.md)
    * [Erste Schritte als Autor](authors/feature-summary/getting-started-author.md)
    * [Einstieg in Captivate Prime als Teilnehmer](learners/feature-summary/getting-started-learner.md)
@@ -41,7 +41,7 @@ ht-degree: 88%
    * [Benutzeranmeldung](administrators/feature-summary/user-login.md)
    * [Hinzufügen von Benutzern und Erstellen von Benutzergruppen](administrators/feature-summary/add-users-user-groups.md)
    * [Standorte für Klassenzimmer hinzufügen](administrators/feature-summary/classroom.md)
-   * [Erstellen von Kursmodulen, Instanzen und Lernprogrammen](administrators/feature-summary/courses.md)
+   * [Erstellen von Kursinstanzen und Lernpfaden](administrators/feature-summary/courses.md)
    * [Inhalts-Marketplace](administrators/feature-summary/content-marketplace.md)
    * [Berichte](administrators/feature-summary/reports.md)
    * [Lernpläne](administrators/feature-summary/learning-paths.md)
