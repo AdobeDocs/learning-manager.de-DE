@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Erstellen von Kursinstanzen und Lernpfaden
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: 139e9224f94e6a39f497b45f5bdc600121a77bc8
+source-git-commit: c7969e9386241f316c8ff2590f8015ebc594c3e6
 workflow-type: tm+mt
 source-wordcount: '4866'
 ht-degree: 61%
@@ -81,7 +81,7 @@ Instanz erstellen
 
 Führen Sie die folgenden Schritte aus, um eine Instanz einzustellen.
 
-1. Klicken Sie in der Instanz auf das Dropdown-Menü und wählen Sie die Option **[!UICONTROL Instanz einstellen]**.
+1. Wählen Sie in der Instanz das Dropdown-Menü aus und wählen Sie die Option **[!UICONTROL Instanz einstellen]**.
 
    ![](assets/retire-an-instance.png)
 
