@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Einstellungen
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: a0dcc5b0a0a9f1ef0248c1e853067c1cc57b60e1
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '3595'
-ht-degree: 67%
+source-wordcount: '3651'
+ht-degree: 66%
 
 ---
 
@@ -406,6 +406,10 @@ Aktivieren oder Deaktivieren der folgenden Einstellungen:
     <p>In allen anderen Apps (Admin, Autor, Manager, benutzerdefinierter Administrator, benutzerdefinierter Autor) haben Änderungen an den Einstellungen (Sternebewertung/Kurseffektivität/Deaktivierung der Bewertungsanzeige) keine Auswirkungen. </p>
     <p>Für neue Konten ist im Abschnitt <b>Bewertungen anzeigen</b> die Option <b>Sternebewertung</b> standardmäßig aktiviert.</p>
     <p>Wenn für vorhandene Konten zuvor die Option <b>Kurseffektivität</b> aktiviert war, wird der Abschnitt <b>Bewertungen anzeigen</b> mit der Option "Kurseffektivität" aktiviert. Wenn die Option <b>Kurseffektivität</b>s deaktiviert ist, wird der Abschnitt <b>Bewertungen anzeigen</b> ebenfalls deaktiviert. Wenn der Abschnitt <b>Bewertungen anzeigen</b> aktiviert ist, wird die Option <b>Sternebewertung</b> standardmäßig aktiviert.</p></td>
+  </tr>
+  <tr>
+   <td height="19">Einstellen</td>
+   <td>Wählen Sie eine der folgenden Optionen zum Einstellen:<li>Nach dem Einstellen können registrierte Teilnehmer Aktionen anzeigen und ausführen, aber die noch nicht registrierten Teilnehmer verlieren den Zugriff.</li><li>Sobald Teilnehmer eingestellt werden, verlieren sowohl die registrierten als auch die noch nicht registrierten Teilnehmer den Zugriff.</li><div><b>Hinweis:</b> Sie können Kurse, Lernpfade oder Zertifizierungen auf ihren Übersichtsseiten einstellen.</div> </td>
   </tr>
  </tbody>
 </table>

@@ -4,10 +4,10 @@ title: Häufig gestellte Fragen für Teilnehmer
 description: Häufig gestellte Fragen für Teilnehmer von Adobe Learning Manager
 contentowner: admin
 preview: true
-source-git-commit: 8b29ac996962e7ce8fbda51f3421c9a5f248fcf6
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '2322'
-ht-degree: 56%
+source-wordcount: '2374'
+ht-degree: 55%
 
 ---
 
@@ -351,6 +351,18 @@ Ja, Sie können Ihre persönlichen Anmerkungen als PDF exportieren. Folgen Sie d
 1. Klicken Sie auf die Registerkarte „Anmerkungen“.
 1. Klicken Sie auf die Option „Anmerkungen per E-Mail verschicken“, um die Anmerkungen an Ihre registrierte E-Mail-ID zu schicken.
 1. Klicken Sie auf „Anmerkungen herunterladen“, um die Anmerkungen als PDF herunterzuladen.
+
++++
+
++++Wo kann ich die Desktop-Version der Anwendung herunterladen?
+
+Führen Sie die folgenden Schritte aus, um die Desktop-Version herunterzuladen:
+
+1. Melden Sie sich als Teilnehmer an.
+2. Klicken Sie auf **[!UICONTROL Soziales Lernen]**.
+3. Klicken Sie auf **[!UICONTROL Neuer Beitrag]** und klicken Sie auf eines der Symbole, wie unten im Screenshot gezeigt.
+
+Dadurch wird der Download der Anwendung gestartet.
 
 +++
 

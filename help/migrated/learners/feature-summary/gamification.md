@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Gamification
 contentowner: manochan
 exl-id: ddbc29dd-2d7d-4a8e-84b6-3728fee4a43e
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
 source-wordcount: '1464'
 ht-degree: 70%
@@ -26,6 +26,8 @@ Die Teilnehmer können außerdem die Leistungsstufe, basierend auf den Punkten, 
 ## Leaderboard {#leaderboard}
 
 Das Leaderboard ist eine Gamification-Funktion. Hier werden die Punktzahlen der führenden Teilnehmer auf einer Anzeigetafel dargestellt. Die Teilnehmer können ihre Gamification-Punkte auf dem Leaderboard einsehen.
+
+![](assets/leaderboard.png)
 
 Klicken Sie auf der Startseite des Teilnehmers im linken Teilfenster auf **[!UICONTROL Gamification]**. Um das Leaderboard anzuzeigen, klicken Sie auf den Link „Leaderboard“. Durch diese Funktion können die Teilnehmer erkennen, wie sie im Vergleich zu einem bestimmten Teammitglied stehen. Sie zeigt auch ihre Rangposition relativ zu anderen Mitgliedern des Teams.
 

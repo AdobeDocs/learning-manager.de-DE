@@ -2,9 +2,9 @@
 user-guide-title: Leitfaden für Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Dokumentation für Adobe Learning Manager
-source-git-commit: 139e9224f94e6a39f497b45f5bdc600121a77bc8
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '606'
 ht-degree: 87%
 
 ---
@@ -115,7 +115,7 @@ ht-degree: 87%
    * [Anmelden](learners/feature-summary/user-login.md)
    * [Profileinstellungen](learners/feature-summary/settings.md)
    * [Kataloge](learners/feature-summary/catalogs.md)
-   * [Kurse](learners/feature-summary/courses.md)
+   * [Eigenes Lernen](learners/feature-summary/courses.md)
    * [Fluidic Player](learners/feature-summary/fluidic-player.md)
    * [Lernprogramme](learners/feature-summary/learning-programs.md)
    * [Zertifizierungen](learners/feature-summary/certifications.md)
@@ -149,6 +149,7 @@ ht-degree: 87%
    * [Häufig gestellte Fragen für Autoren](authors/frequently-asked-questions-for-authors.md)
    * [Häufig gestellte Fragen für Kursleiter](instructors/frequently-asked-questions-for-instructors.md)
    * [Häufig gestellte Fragen für Manager](managers/frequently-asked-questions-for-managers.md)
+   * [Häufig gestellte Fragen für Teilnehmer](learners/frequently-asked-questions-for-learners.md)
 * Wissensdatenbank {#knowledge-base}
    * [Ich kann mich nicht bei Learning Manager anmelden](kb/unable-log-in-learning-manager.md)
    * [Übersicht zu Lernprogrammen zeigt keine aktuellen Daten an](kb/learning-summary-not-display-data.md)

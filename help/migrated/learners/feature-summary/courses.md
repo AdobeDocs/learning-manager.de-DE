@@ -1,17 +1,17 @@
 ---
 description: Lesen Sie die folgenden Artikel, um zu erfahren, wie Sie Kurse in Learning Manager anzeigen und nutzen. Nehmen Sie an den Diskussionen teil und geben Sie Feedback.
 jcr-language: en_us
-title: Kurse
+title: Eigenes Lernen
 contentowner: manochan
 exl-id: 2c62d36c-c500-40d6-b79f-d3cc8b3b756a
-source-git-commit: 76d84364ce037a81d77e3e2fa3f68fdef7ff411d
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '2756'
+source-wordcount: '2759'
 ht-degree: 64%
 
 ---
 
-# Kurse
+# Meine Lerninhalte
 
 Lesen Sie die folgenden Artikel, um zu erfahren, wie Sie Kurse in Learning Manager anzeigen und nutzen. Nehmen Sie an den Diskussionen teil und geben Sie Feedback.
 
@@ -25,7 +25,7 @@ Mit Adobe Learning Manager können Teilnehmende auf Kurse, Lernprogramme und Zer
 >
 >Teilnehmer können die Learning Manager iPad-App aus dem Apple Store und die Learning Manager Android-App aus Google Play installieren und auf mobilen Geräten auf die Kurse zugreifen. Alle Funktionen für die Teilnehmerrolle sind auch in der App verfügbar. Teilnehmer können Kurse auch offline absolvieren und haben einen nahtlosen Zugriff, wenn sie online gehen. Weitere Informationen finden Sie unter [Benutzer von iPad- und Android-Tablets](ipad-android-tablet-users.md).
 
-## Anzeigen von Kursen {#viewingcourses}
+## Anzeigen von Lernobjekten {#viewingcourses}
 
 Sie können als Teilnehmer eine Liste aller verfügbaren Kurse anzeigen. Klicken Sie auf der Startseite oder im linken Teilfenster auf &quot;Eigenes Lernen&quot;, um alle Kurse anzuzeigen, für die Sie sich registriert haben.
 

@@ -4,10 +4,10 @@ title: Häufig gestellte Fragen für Administratoren
 description: Häufig gestellte Fragen für Adobe Learning Manager-Administratoren
 contentowner: manochan
 exl-id: 8b113a4e-73f4-4cd5-982a-cefdf5388e91
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '2398'
-ht-degree: 55%
+source-wordcount: '2515'
+ht-degree: 52%
 
 ---
 
@@ -365,5 +365,26 @@ Wenden Sie sich an das Learning Manager-Supportteam.
 Sie können die Konto-ID über den Browser abrufen, in dem Learning Manager geöffnet ist.
 
 */app/admin?i_qp_user_id=12761637&amp;**accountId=6849***
+
++++
+
++++Gibt es einen Bericht, den ich abrufen kann, oder einen, den jemand für mich abrufen kann, der mir eine Liste aller Kurse im LMS zeigt?
+
+Ja, Sie können einen **[!UICONTROL Schulungsbericht]** abrufen, der alle Kurse, das Lernprogramm und die Zertifizierung im LMS enthält. Führen Sie die folgenden Schritte aus, um den Bericht herunterzuladen:
+
+1. Melden Sie sich als Administrator an.
+2. Klicken Sie auf **[!UICONTROL Berichte]** > **[!UICONTROL Benutzerdefinierte Berichte]** > **[!UICONTROL Excel-Berichte]** > **[!UICONTROL Schulungsbericht]**.
+3. Wählen Sie aus der Dropdown-Liste **[!UICONTROL Alle Schulungen]** aus.
+4. Klicken Sie auf **[!UICONTROL Herunterladen]**.
+
++++
+
++++Wo kann ich die Desktop-Version der Anwendung herunterladen?
+
+Führen Sie die folgenden Schritte aus, um die Desktop-Version herunterzuladen:
+
+1. Melden Sie sich als Administrator an.
+2. Klicken Sie auf **[!UICONTROL Soziales Lernen]** > **[!UICONTROL Einstellungen]**.
+3. Klicken Sie unter **[!UICONTROL Konfiguration herunterladen]** je nach Betriebssystem auf den Hyperlink.
 
 +++

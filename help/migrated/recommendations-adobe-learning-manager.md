@@ -2,10 +2,10 @@
 title: Empfehlungen in Adobe Learning Manager
 description: Der Kern der Empfehlungs-Engine basiert auf dem neuen Kurs-Ranking-Algorithmus von Learning Manager. Der Algorithmus verwendet 50 Millionen Datenpunkte und fünf Jahre aggregierter Lerndaten über Millionen von Benutzern, um Kurse basierend auf ihrer Wahrscheinlichkeit einer Registrierung zu bewerten. Diese Einstufung stellt sicher, dass die Kurse mit den meisten Registrierungen den Teilnehmenden als erste angezeigt werden.
 exl-id: 42083095-60a0-4e20-9097-3344d290da1a
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '1435'
-ht-degree: 60%
+source-wordcount: '1470'
+ht-degree: 58%
 
 ---
 
@@ -64,8 +64,8 @@ Administratoren erhalten in Learning Manager einen geführten Arbeitsablauf, mit
 
 1. Klicken Sie auf **[!UICONTROL Fortfahren]**, um auf das neue Empfehlungssystem zu aktualisieren.
 
-   ![Zum neuen System wechseln](assets/image521152.png)
-   *Schaltfläche &quot;Fortfahren&quot; auswählen*
+   <!--![Proceed to the new system](assets/image521152.png)
+   *Select the Proceed button*-->
 
 1. Erstellen Sie die Empfehlungsparameter für Produkte und Rollen.
 
@@ -168,7 +168,7 @@ Das Empfehlungssystem ist jetzt für Ihre Teilnehmenden verfügbar.
 
 ## Parameter löschen
 
-1. Wählen Sie in der Parameterliste das Drei-Punkte-Symbol und dann **[!UICONTROL Parameter löschen]**.
+Administratoren können einen Parameter löschen, indem sie auf das Symbol mit den drei Punkten klicken und **[!UICONTROL Parameter löschen]** auswählen. Administratoren können einen Parameter löschen, wenn er nicht mit einem Lernobjekt verknüpft ist. Wenn er verknüpft ist, können sie den Parameter nur ausblenden. Sie können jedoch die letzten beiden Parameter nicht ausblenden, da mindestens zwei Parameter erforderlich sind, damit die Empfehlungen funktionieren.
 
 ![Parameter löschen](assets/delete-parameter.png)
 *Parameter löschen*

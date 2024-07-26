@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Häufig gestellte Fragen für Kursleiter
 contentowner: shhivkum
 exl-id: 1120516c-461a-498d-a5ae-cacc1e87e081
-source-git-commit: fe51f56d0528b469ea13f3fb780886d6dd6f2e3d
+source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 85%
+source-wordcount: '381'
+ht-degree: 70%
 
 ---
 
@@ -46,5 +46,12 @@ Ja, ein Autor kann einem Modul mehrere Kursleiter zuweisen. In diesem Fall kann 
 +++Kann ein Kursleiter eine Sitzung ändern?
 
 Als Kursleiter können Sie nur die Details von denjenigen Sitzungen anzeigen und bearbeiten, denen Sie zugewiesen wurden. Sitzungen oder Teilnehmerlisten anderer Sitzungen können Sie nicht ändern.
+
++++
+
++++Wie kann externen Benutzern die Kursleiterrolle zugewiesen werden?
+
+* Im Abschnitt **[!UICONTROL Zuweisen]** für **[!UICONTROL Externer Benutzer]** wird standardmäßig nur **[!UICONTROL Make Manager]** oder **[!UICONTROL Make Author]** angezeigt.
+* Wenn Sie einem Benutzer im LMS die Rolle &quot;**Kursleiter**&quot; zuweisen möchten, können Sie sie als &quot;**Kursleiter**&quot; einem beliebigen Modul vom Typ &quot;**[!UICONTROL Klassenzimmer]**&quot; oder &quot;**[!UICONTROL Virtuelles Klassenzimmer]**&quot; hinzufügen. Die Rolle &quot;**Kursleiter**&quot; wird dem Benutzer im LMS automatisch bereitgestellt.
 
 +++
