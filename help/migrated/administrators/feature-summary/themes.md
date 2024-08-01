@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Farbdesigns
 contentowner: jayakarr
 exl-id: 8616e38a-023f-4acb-ac68-df71a5153ad2
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 71bfc978c7ec58599c1f5c6afca6c082bc8b3569
 workflow-type: tm+mt
-source-wordcount: '1195'
+source-wordcount: '1203'
 ht-degree: 45%
 
 ---
@@ -106,6 +106,11 @@ So implementieren Sie mehrere Branding-Elemente:
 >[!NOTE]
 >
 >Interne Benutzer können aktive Felder wie &quot;Externe Benutzer&quot; haben (z. B. muss der Administrator das Multi-Branding für die internen Benutzer und die externen Benutzer separat hinzufügen, indem er die Werte der aktiven Felder separat auswählt).
+
+>[!INFO]
+>
+>Weitere Informationen finden Sie in diesem [Blog](https://elearning.adobe.com/2024/06/multiple-branding-how-to-add-customised-branding-for-internal-and-external-users/).
+
 
 #### Wichtige Anmerkungen
 

@@ -3,7 +3,7 @@ description: Adobe Learning Manager unterstützt mehrere Anmeldemethoden über m
 title: Mehrere SSO-Anmeldungen
 contentowner: saghosh
 exl-id: 398816e8-a144-459b-8c39-6517ce4573b4
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 71bfc978c7ec58599c1f5c6afca6c082bc8b3569
 workflow-type: tm+mt
 source-wordcount: '782'
 ht-degree: 39%
@@ -54,7 +54,7 @@ Führen Sie die nachfolgenden Schritte aus:
 
 1. Importieren Sie die CSV-Datei, die die aktiven Felder und deren Werte enthält.
 1. Klicken Sie auf Einstellungen > Anmeldemethoden.
-1. Aktivieren Sie das Kontrollkästchen Mehrere Single Sign-on (SSO) für die Anmeldung aktivieren .
+1. Aktivieren Sie das Kontrollkästchen **[!UICONTROL Multiple Single Sign-On (SSO) aktivieren]** für die Anmeldung.
 1. Ordnen Sie die SSO-Konfigurationen den Werten des aktiven Felds zu.
 1. Speichern Sie die Einstellungen. Importieren Sie die CSV-Datei erneut.
 
@@ -63,7 +63,7 @@ Führen Sie die nachfolgenden Schritte aus:
 Führen Sie die nachfolgenden Schritte aus:
 
 1. Klicken Sie auf Einstellungen > Anmeldemethoden.
-1. Aktivieren Sie das Kontrollkästchen Mehrere Single Sign-on (SSO) für die Anmeldung aktivieren .
+1. Aktivieren Sie das Kontrollkästchen **[!UICONTROL Multiple Single Sign-On (SSO) aktivieren]** für die Anmeldung.
 1. Wählen Sie ein aktives Feld für ein SSO aus.
 1. Verknüpfen Sie die SSO-Konfigurationen mit den Werten des Felds.
 1. Speichern Sie die Einstellungen. Fügen Sie einen einzelnen Benutzer hinzu und weisen Sie einen Wert für das aktive Feld zu.
@@ -73,7 +73,7 @@ Führen Sie die nachfolgenden Schritte aus:
 Führen Sie die nachfolgenden Schritte aus:
 
 1. Klicken Sie auf Einstellungen > Anmeldemethoden.
-1. Aktivieren Sie das Kontrollkästchen Mehrere Single Sign-on (SSO) für die Anmeldung aktivieren .
+1. Aktivieren Sie das Kontrollkästchen **[!UICONTROL Multiple Single Sign-On (SSO) aktivieren]** für die Anmeldung.
 1. Verknüpfen Sie die SSO-Konfigurationen mit den Werten des Felds.
 1. Speichern Sie die Einstellungen. Fügen Sie einen einzelnen Benutzer hinzu und weisen Sie einen Wert für das aktive Feld zu.
 1. Selbstregistrierungsprofil hinzufügen
@@ -87,7 +87,7 @@ Führen Sie die nachfolgenden Schritte aus:
 
 1. Erstellen Sie ein externes Profil.
 1. Klicken Sie auf Einstellungen > Anmeldemethoden.
-1. Aktivieren Sie das Kontrollkästchen Mehrere Single Sign-on (SSO) für die Anmeldung aktivieren .
+1. Aktivieren Sie das Kontrollkästchen **[!UICONTROL Multiple Single Sign-On (SSO) aktivieren]** für die Anmeldung.
 1. Verknüpfen Sie die SSO-Konfiguration mit dem erstellten externen Profil.
 1. Speichern Sie die Einstellungen.
 
