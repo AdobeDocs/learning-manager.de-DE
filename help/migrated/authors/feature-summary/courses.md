@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Kurse erstellen, ändern und veröffentlichen
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 2a679ba595c6958d436f8a1db0196b8dbc7d30cf
+source-git-commit: 0766d751cf37721ee7befada8b66d1bcf583112e
 workflow-type: tm+mt
-source-wordcount: '7125'
-ht-degree: 72%
+source-wordcount: '7145'
+ht-degree: 71%
 
 ---
 
@@ -120,6 +120,10 @@ Um die Compliance-Beschriftungen zu Kursen hinzuzufügen, führen Sie die folgen
    >[!IMPORTANT]
    >
    >Stellen Sie sicher, dass Sie einen Abgabetermin für den Kurs festlegen, wenn Sie &quot;Benutzerdefinierte Konformität&quot; hinzufügen.
+
+   >[!NOTE]
+   >
+   >Maximal 50 Kurse, Lernpfade oder Zertifizierungen können bei einer benutzerdefinierten Bezeichnung des Compliance-Typs den gleichen Wert haben.
 
 1. Speichern und veröffentlichen Sie den Kurs/den Lernpfad/die Zertifizierung.
 Jetzt wird der Kurs/der Lernpfad/die Zertifizierung als Compliance-Typ betrachtet. Administratoren können diesen Kurs zum Compliance-Dashboard hinzufügen und ihn für Manager freigeben, um den Fortschritt zu verfolgen.

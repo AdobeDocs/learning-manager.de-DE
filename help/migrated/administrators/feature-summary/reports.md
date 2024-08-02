@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Berichte
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: 7be69e68f3b8970e090c8eccd25771cd2e5e99f1
+source-git-commit: 0766d751cf37721ee7befada8b66d1bcf583112e
 workflow-type: tm+mt
-source-wordcount: '7132'
+source-wordcount: '7133'
 ht-degree: 57%
 
 ---
@@ -276,7 +276,7 @@ Um ein Kompatibilitäts-Dashboard zu erstellen und freizugeben, führen Sie die 
 
 1. Wechseln Sie zu **[!UICONTROL Berichte]** > **[!UICONTROL Lernzusammenfassung]**.
 1. Wählen Sie im Abschnitt **[!UICONTROL Kompatibilitäts-Dashboard]** die Option **[!UICONTROL Für Manager freigegeben]** aus.
-1. Wählen Sie **[!UICONTROL Dashboard freigeben]** und wählen Sie die erstellten Beschriftungen aus dem Dropdown-Menü **[!UICONTROL Benutzerdefinierte Konformität]** aus.
+1. Wählen Sie **[!UICONTROL Dashboard freigeben]** und wählen Sie die erstellten Beschriftungen aus dem Dropdown-Menü **[!UICONTROL Kompatibilitätsbeschriftung auswählen]** aus.
 
 
    ![](assets/compliance-type.png)
