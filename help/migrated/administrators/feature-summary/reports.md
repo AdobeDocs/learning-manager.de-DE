@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Berichte
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: 0766d751cf37721ee7befada8b66d1bcf583112e
+source-git-commit: e7fc4216fea9afffc277f93f4b3c1e8e58b7a2ed
 workflow-type: tm+mt
 source-wordcount: '7133'
 ht-degree: 57%
@@ -256,7 +256,7 @@ Führen Sie die folgenden Schritte aus, um ein benutzerdefiniertes Konformitäts
 
    >[!NOTE]
    >
-   >Dieses neue Kataloglabel wurde eingeführt, um die Kurse, Lernpfade und Zertifizierungen als Compliance-Typ zu kategorisieren. Um die Option &quot;**[!UICONTROL Custom Compliance Type]**&quot; zu aktivieren, müssen Sie zunächst die Option &quot;**[!UICONTROL Katalogbeschriftung anzeigen]**&quot; auf derselben Seite aktivieren.
+   >Dieses neue Kataloglabel wurde eingeführt, um die Kurse, Lernpfade und Zertifizierungen als Compliance-Typ zu kategorisieren. Um die Option **[!UICONTROL Benutzerdefinierter Kompatibilitätstyp]** zu aktivieren, müssen Sie zunächst die Option **[!UICONTROL Katalogbeschriftung anzeigen]** auf derselben Seite aktivieren.
 
 1. Wechseln Sie zu **[!UICONTROL Einstellungen]** > **[!UICONTROL Katalogbeschriftung]** und wählen Sie den **[!UICONTROL Kompatibilitätstyp]** aus.
 1. Geben Sie die Werte (z. B. Legal, Sales) in das Textfeld **[!UICONTROL Wert]** ein und wählen Sie **[!UICONTROL Wert hinzufügen]** aus.
