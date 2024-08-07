@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Learning Manager-Connectors
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 71bfc978c7ec58599c1f5c6afca6c082bc8b3569
+source-git-commit: 7b842c08c5804175045ef3ce1910c47587f3ff66
 workflow-type: tm+mt
 source-wordcount: '15848'
 ht-degree: 59%
@@ -441,7 +441,7 @@ Sobald die Verbindung erfolgreich hergestellt wurde, können Sie die Spalten der
    >
    >Das Feld „Manager“ muss dem Feld mit der E-Mail-Adresse zugeordnet werden. Alle Spalten müssen zugeordnet werden, bevor der Connector verwendet werden kann.
 
-1. Klicken Sie auf **[!UICONTROL Speichern]**, nachdem Sie die Zuordnung abgeschlossen haben.
+1. Wählen Sie **[!UICONTROL Speichern]** aus, nachdem Sie die Zuordnung abgeschlossen haben.
 
    Der Connector ist jetzt einsatzbereit. Das gerade konfigurierte Konto wird jetzt als Datenquelle innerhalb des Administrator-App angezeigt, sodass der Administrator den Import planen oder die Synchronisierung nach Bedarf starten kann.
 
@@ -2073,32 +2073,7 @@ Mit der automatisierten Benutzerabschlusssynchronisierung kann ein Learning Mana
 
 Weitere Informationen finden Sie unter [**Microsoft Teams-Connector in Adobe Learning Manager installieren**](install-microsoft-teams-connector.md).
 
-## Nicht angemeldeter Benutzer
-
-Das nicht angemeldete Erlebnis ermöglicht es Ihnen, ein Echtzeit-Erlebnis für nicht angemeldete Benutzer zu erstellen. Beispielsweise dient ein nicht angemeldetes Erlebnis als Landingpage für Marketing-Kampagnen, um Anmeldungen zu fördern.
-
-Das nicht angemeldete Erlebnis in Adobe Learning Manager kann mithilfe des Connectors **[!UICONTROL Training Data Access]** konfiguriert werden. Der Connector bietet die folgenden Angebote:
-
-* Standardangebot
-* Premium-Angebot
-
-**Standardangebot**
-
-Das Standardangebot besteht darin, die native Version von Adobe Learning Manager zu erstellen. Benutzer können ein Headless-Erlebnis erstellen, das nur zur Demonstration dient und nicht angemeldet ist. Das Headless-Erlebnis der Demonstration ist nicht skalierbar und sollte nicht in einer Produktionsumgebung verwendet werden.
-
-**Premium-Angebot**
-
-Mit dem Premium-Angebot können Benutzer eine Headless-Schnittstelle erstellen, die vom **[!UICONTROL Training Data Access]**-Connector konfiguriert wird. Dadurch können Benutzer Echtzeitdaten zu Kursen und Lernpfaddetails wie Name, Beschreibung, Autor, Kenntnisse, Dauer usw. abrufen. In Szenarien mit gemischtem Lernen erhalten Sie außerdem Sitzplatzbeschränkungen in Echtzeit, besetzte Plätze, Wartelistenbeschränkungen und Wartelistenzahlen. Kunden können diese APIs verwenden, um Such- und Filterfunktionen und eine vollständige Kurszusammenfassung für nicht angemeldete Teilnehmer zu erstellen.
-
-Kunden können ein Premium-Abo erwerben, um dieses hochgradig skalierbare, nicht angemeldete Erlebnis zu ermöglichen.
-
->[!NOTE]
->
->Wenden Sie sich an das Support-Team oder den CSM, um das Premium-Abo zu erwerben.
-
-Nachdem ein Benutzer ein Abo gekauft hat, aktiviert das CSM-Team das Premium-Abo für ihn. Mit dem Connector für den Zugriff auf Schulungsdaten können Benutzer ein nicht angemeldetes Erlebnis mit den zuvor genannten Funktionen einrichten.
-
-### Schulungsdatenzugriff-Connector
+## Schulungsdatenzugriff-Connector {#training-data-access-connector}
 
 >[!IMPORTANT]
 >
@@ -2110,7 +2085,7 @@ Nachdem ein Benutzer ein Abo gekauft hat, aktiviert das CSM-Team das Premium-Abo
 
 Mit dem **[!UICONTROL Trainingsdatenzugriff]**-Connector können Sie ein Headless-Erlebnis erstellen. Dieses Erlebnis kann eigenständig oder eine benutzerdefinierte Benutzeroberfläche sein, die auf AEM Sites basiert. Es hilft, Trainingsinformationen für Teilnehmer abzurufen und anzuzeigen und ermöglicht das Suchen und Filtern. Sobald der Daten-Connector aktiviert ist, steht eine Reihe öffentlicher APIs zum Erstellen der Schnittstelle zur Verfügung, in der den Teilnehmern die Kurs-/Lernpfadinformationen angezeigt werden.
 
-#### Konfigurieren des Connectors
+### Konfigurieren des Connectors
 
 Verwenden Sie den Connector **[!UICONTROL Training Data Access]**, um Ihr Adobe Learning Manager-Konto mit Datenspeicher- und Suchsystemen zu integrieren. Auf diese Weise kann Ihre AEM Sites-basierte Benutzeroberfläche Schulungsdaten abrufen, Webseiten anzeigen und bessere Suchoptionen für Teilnehmer bieten.
 
@@ -2164,6 +2139,31 @@ Weitere Informationen finden Sie in diesem [**Dokument**](../../adobe-learning-m
 Die veröffentlichte Website zeigt eine Liste aller migrierten Kurse, Zertifikate und Lernpfade an, die vom Suchdienst für nicht angemeldete Teilnehmende abgerufen werden.
 
 Wenn Teilnehmende auf &quot;Kurs&quot;, &quot;Zertifikat&quot; oder &quot;Lernpfad&quot; klicken, wird die Seite &quot;Übersicht&quot; aufgerufen. Wenn Teilnehmende sich auf der Seite registrieren,müssen sie sich zuerst anmelden und dann den Kurs absolvieren.
+
+### Nicht angemeldeter Benutzer
+
+Das nicht angemeldete Erlebnis ermöglicht es Ihnen, ein Echtzeit-Erlebnis für nicht angemeldete Benutzer zu erstellen. Beispielsweise dient ein nicht angemeldetes Erlebnis als Landingpage für Marketing-Kampagnen, um Anmeldungen zu fördern.
+
+Das nicht angemeldete Erlebnis in Adobe Learning Manager kann mithilfe des Connectors **[!UICONTROL Training Data Access]** konfiguriert werden. Der Connector bietet die folgenden Angebote:
+
+* Standardangebot
+* Premium-Angebot
+
+**Standardangebot**
+
+Das Standardangebot besteht darin, die native Version von Adobe Learning Manager zu erstellen. Benutzer können ein Headless-Erlebnis erstellen, das nur zur Demonstration dient und nicht angemeldet ist. Das Headless-Erlebnis der Demonstration ist nicht skalierbar und sollte nicht in einer Produktionsumgebung verwendet werden.
+
+**Premium-Angebot**
+
+Mit dem Premium-Angebot können Benutzer eine Headless-Schnittstelle erstellen, die vom **[!UICONTROL Training Data Access]**-Connector konfiguriert wird. Dadurch können Benutzer Echtzeitdaten zu Kursen und Lernpfaddetails wie Name, Beschreibung, Autor, Kenntnisse, Dauer usw. abrufen. In Szenarien mit gemischtem Lernen erhalten Sie außerdem Sitzplatzbeschränkungen in Echtzeit, besetzte Plätze, Wartelistenbeschränkungen und Wartelistenzahlen. Kunden können diese APIs verwenden, um Such- und Filterfunktionen und eine vollständige Kurszusammenfassung für nicht angemeldete Teilnehmer zu erstellen.
+
+Kunden können ein Premium-Abo erwerben, um dieses hochgradig skalierbare, nicht angemeldete Erlebnis zu ermöglichen.
+
+>[!NOTE]
+>
+>Wenden Sie sich an das Support-Team oder den CSM, um das Premium-Abo zu erwerben.
+
+Nachdem ein Benutzer ein Abo gekauft hat, aktiviert das CSM-Team das Premium-Abo für ihn. Mit dem Connector für den Zugriff auf Schulungsdaten können Benutzer ein nicht angemeldetes Erlebnis mit den zuvor genannten Funktionen einrichten.
 
 ## Adobe Commerce-Connector
 
