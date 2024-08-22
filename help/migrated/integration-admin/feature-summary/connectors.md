@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Learning Manager-Connectors
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 7b842c08c5804175045ef3ce1910c47587f3ff66
+source-git-commit: e7a88bac3bbe7814368a98d40f548b38806e7f1a
 workflow-type: tm+mt
 source-wordcount: '15848'
 ht-degree: 59%
@@ -40,19 +40,19 @@ Lesen Sie weiter, um zu erfahren, wie Sie diese Connectors in Learning Manager k
 
 Der Salesforce-Connector stellt eine Verbindung zwischen den Learning Manager- und Salesforce-Konten her, die die Synchronisierung der Daten ermöglicht. Im Salesforce-Connector stehen die folgenden Funktionen zur Verfügung:
 
-### Attribute zuordnen
+### Attribute zuordnen {#map-attributes}
 
 Der für die Integration zuständige Administrator kann Spalten in Salesforce wählen und den entsprechenden für Gruppen geeigneten Attributen in Learning Manager zuordnen. Sobald diese Zuordnung abgeschlossen ist, wird dieselbe Zuordnung auch für spätere Benutzerimporte verwendet. Falls der Administrator eine andere Zuordnung zum Importieren von Benutzern benötigt, kann diese neu konfiguriert werden.
 
-### Automatischer Benutzerimport
+### Automatischer Benutzerimport {#automated-user-import}
 
 Beim Importieren von Benutzenden hat der Learning Manager-Administrator die Möglichkeit, Mitarbeiterdaten aus Salesforce abzurufen und automatisch in Learning Manager zu importieren. Durch diese Automatisierung entfällt der manuelle Aufwand beim Erstellen und Hochladen von CSV-Dateien in Learning Manager.
 
-### Automatische Zeitplanung
+### Automatische Zeitplanung {#auto-schedule}
 
 Die automatische Zeitplanung kann zusammen mit dem automatischen Benutzerimport sehr effizient sein. Der Learning Manager-Administrator kann Zeitpläne einrichten, wie sie für das Unternehmen benötigt werden. Benutzer in der Learning Manager-Anwendung können gemäß dem Zeitplan auf dem neuesten Stand gehalten werden. Die Synchronisierung kann täglich in Learning Manager ausgeführt werden.
 
-### Filtern von Benutzern
+### Filtern von Benutzern {#filtering-user}
 
 Der Learning Manager-Administrator kann die Benutzer vor dem Import filtern. Learning Manager-Administratoren können beispielsweise alle Benutzer in der Hierarchie mit einem oder mehreren bestimmten Managern importieren.
 
@@ -130,14 +130,14 @@ Wählen Sie die Salesforce-Spalten aus und ordnen Sie sie den entsprechenden gru
 1. Wenn Sie auf **[!UICONTROL Nein. Alle Kontakte importieren]**. Sie können die Felder direkt zuordnen, ohne die Kontakte zu filtern. Hier importieren Sie alle Kontakte aus Salesforce.
 1. Um den Import zu starten, klicken Sie auf **[!UICONTROL Speichern]**.
 
-## Exportieren von Lerndatensätzen
+## Exportieren von Lerndatensätzen {#export-learning-records}
 
 Learning Manager bietet die Möglichkeit, Lerndatensätze (z. B. Transkript, Benutzerbericht und Kenntnisbericht) nach Salesforce zu exportieren. Sie können festlegen, ob die exportierten Daten mit der Tabelle &quot;Benutzer&quot; oder der Tabelle &quot;Kontakte&quot; in Salesforce verknüpft werden sollen.
 
 ![](assets/export-events-new.png)
 *Lerndatensätze exportieren*
 
-### Benutzerdefinierte Objekte in Salesforce
+### Benutzerdefinierte Objekte in Salesforce {#custom-objects-in-salesforce}
 
 Bevor Sie Lerndatensätze aus dem Lern-Manager exportieren, müssen Sie benutzerdefinierte Objekte in Salesforce erstellen. Benutzerdefinierte Objekte sind Objekte, die Sie zum Speichern von unternehmensspezifischen oder branchenspezifischen Informationen erstellen. Weitere Informationen finden Sie unter [Benutzerdefinierte Salesforce-Objekte](https://trailhead.salesforce.com/en/content/learn/modules/data_modeling/objects_intro).
 
@@ -171,11 +171,11 @@ So erstellen Sie die Objekte:
 >
 >Auf der Seite &quot;Ausführungsstatus&quot; für Salesforce kann die Anzahl der verarbeiteten Datensätze nur über Salesforce überprüft werden. Learning Manager zeigt den Status als abgeschlossen an, auch wenn ein teilweiser Export oder ein Fehler in allen Datensätzen vorliegt, die verarbeitet wurden.
 
-## Installieren des Salesforce-Pakets
+## Installieren des Salesforce-Pakets {#install-salesforce-package}
 
 Learning Manager bietet ein Salesforce-App-Paket. Nach der Installation und Konfiguration in SFDC können Vertriebsmitarbeiter ihre Schulungen im SFDC-Portal durchführen. Mit dieser App können SFDC-Benutzer neue Schulungen durchsuchen, Empfehlungen anzeigen und diese direkt im SFDC-Portal nutzen. Benutzer erhalten auch die Ankündigungen, die von Administratoren in Form von Mastertiteln direkt in der App im SFDC-Portal gesendet werden.
 
-### Einrichten in der Learning Manager-App
+### Einrichten in der Learning Manager-App {#setup-in-learning-manager-app}
 
 1. Melden Sie sich bei Ihrem Learning Manager-Admin-Konto als Integrationsadministrator an.
 1. Klicken Sie auf **[!UICONTROL Anwendungen]** > **[!UICONTROL Empfohlene Apps]**.
@@ -186,14 +186,14 @@ Learning Manager bietet ein Salesforce-App-Paket. Nach der Installation und Konf
 1. Im Abschnitt &quot;Abrufen des OAuth-Codes&quot; müssen die Client-ID und der Umfang auf &quot;admin:read,admin:write&quot; festgelegt werden. Klicken Sie auf **[!UICONTROL Senden]**.
 1. Geben Sie in „Aktualisierungstoken abrufen&quot; die Client-ID und das Client-Secret ein. Klicken Sie auf **[!UICONTROL Senden]** und notieren Sie das Aktualisierungstoken.
 
-### Erstellen eines Kontos in der Salesforce-App
+### Erstellen eines Kontos in der Salesforce-App {#create-account-in-salesforce-app}
 
 1. Erstellen Sie ein Konto auf der Salesforce-Anmeldeseite. Sie müssen ein Salesforce-Konto in der Entwickler- oder Unternehmensversion erstellen.  [Entwickler-Anmelde-URL](https://developer.salesforce.com/signup). Stellen Sie sicher, dass Sie für die Anmeldung bei Salesforce die E-Mail-ID verwenden, die Sie für Learning Manager verwendet haben.
 1. Bestätigen Sie Ihr Konto über die Bestätigungs-E-Mail.
 1. Erstellen Sie ein Kennwort und melden Sie sich bei Salesforce an.
 1. Notieren Sie sich die Salesforce-URL nach der Anmeldung (z. B. site.lightning.force.com).
 
-### Installieren des Learning Manager-Pakets
+### Installieren des Learning Manager-Pakets {#install-learning-manager-package}
 
 Wenn Sie das Paket installieren möchten, müssen Sie zunächst das vorhandene Paket in Salesforce löschen. Vor der Deinstallation müssen Sie die Einstellungen aktivieren, wie unten dargestellt. Das Anwenden dieser Einstellungen ist obligatorisch, da Sie das Paket sonst nicht installieren können.
 
@@ -215,7 +215,7 @@ Wenn Sie das Paket installieren möchten, müssen Sie zunächst das vorhandene P
    * **RefreshToken:** Geben Sie den Wert aus dem ersten Abschnitt ein.
    * **LearningManagerBaseURL:** Die URL der Site, auf der Learning Manager gehostet wird.
 
-### Hinzufügen von Remotesite-Einstellungen
+### Hinzufügen von Remotesite-Einstellungen {#add-remote-site-settings}
 
 1. Klicken Sie oben rechts auf der Seite auf **[!UICONTROL Setup]**.
 1. Suchen Sie in **[!UICONTROL Schnellsuche]** nach Remotesite-Einstellungen.
@@ -227,7 +227,7 @@ Wenn Sie das Paket installieren möchten, müssen Sie zunächst das vorhandene P
 
 1. Starten Sie Learning Manager.
 
-### Benachrichtigungen für die Learning Manager-App aktivieren
+### Benachrichtigungen für die Learning Manager-App aktivieren {#enable-notifications-for-learning-manager-app}
 
 1. Klicken Sie in der oberen rechten Ecke auf **[!UICONTROL Setup]**.
 1. Suchen Sie nach „Benutzerdefinierte Benachrichtigungen“.
@@ -252,7 +252,7 @@ Wenn Sie das Paket installieren möchten, müssen Sie zunächst das vorhandene P
 1. Navigieren Sie in der Salesforce-App zu &quot;Installierte Pakete&quot;.
 1. Klicken Sie auf **[!UICONTROL Deinstallieren]**.
 
-## Konfigurieren von Learning Manager für Salesforce-Benutzer
+## Konfigurieren von Learning Manager für Salesforce-Benutzer {#configure-learning-manager-for-salesforce-users}
 
 Die Learning Manager-App ist auch für Benutzer verfügbar, die sich in einem beliebigen Salesforce-Konto befinden. Der Salesforce-Administrator kann Benutzer basierend auf den Profilen hinzufügen. Die Salesforce-Profile ähneln denen in Learning Manager. Beispiel: Administrator, Integrationsadministrator, Kursleiter. Der Salesforce-Administrator kann auch ein benutzerdefiniertes Profil erstellen.
 
@@ -292,9 +292,9 @@ Sie müssen die App für alle Profile sichtbar machen.
 
 Klicken Sie auf **[!UICONTROL Speichern]**, und die Teilnehmer, die zu allen Profilen gehören, greifen auf die Learning Manager-App zu.
 
-### Änderungen in Zusammenhang mit Lernplänen
+### Änderungen in Zusammenhang mit Lernplänen {#learning-path-changes}
 
-#### Bestehende Verbindungen
+#### Bestehende Verbindungen {#existing-connections}
 
 Wenn die Option &quot;Lernpfad&quot; im Administratorkonto deaktiviert ist, werden im Bericht keine Zeilen und Spalten hinzugefügt.
 
@@ -304,7 +304,7 @@ Wenn die Option &quot;Lernpfad&quot; im Admin-Konto aktiviert ist, wird die Spal
 >
 >Wenn das Flag aktiviert ist und Sie eine vorhandene Verbindung verwenden, fehlen möglicherweise einige Datensätze.
 
-#### Neue Verbindungen
+#### Neue Verbindungen {#new-connections}
 
 Wenn die Option &quot;Lernpfad&quot; im Administratorkonto deaktiviert ist, besteht der Schulungsbericht aus den folgenden Spalten, enthält jedoch keine Daten.
 
@@ -324,7 +324,7 @@ Mithilfe des FTP-Connectors können Sie Learning Manager in beliebige externe Sy
 
 Sie können den Box-Connector auch für die Datenmigration, den Benutzerimport und den Datenexport verwenden. Weitere Informationen finden Sie unter Box-Connector.
 
-### Datenimport {#dataimport}
+### Datenimport {#data-import}
 
 Beim Importieren von Benutzern hat der Learning Manager-Administrator die Möglichkeit, Mitarbeiterdaten vom Learning Manager FTP-Dienst abzurufen und automatisch in Learning Manager zu importieren. Mit dieser Funktion können Sie mehrere Systeme integrieren, indem Sie die CSV, die durch diese Systeme generiert wurden, in die entsprechenden Ordner der FTP-Konten platzieren. Der Lern-Manager ruft die CSV-Dateien ab, führt sie zusammen und importiert die Daten gemäß dem Zeitplan. Weitere Informationen finden Sie unter &quot;Planung&quot;.
 
@@ -333,19 +333,19 @@ Beim Importieren von Benutzern hat der Learning Manager-Administrator die Mögli
 Der Integrationsadministrator kann die Spalten in der CSV-Datei auswählen und den für Gruppen geeigneten Attributen des Lern-Managers zuordnen. Diese Zuordnung ist ein Zeitaufwand. Nachdem diese Zuordnung vorgenommen wurde, wird dieselbe Zuordnung auch für spätere Benutzerimporte verwendet. Falls der Administrator eine andere Zuordnung zum Importieren von Benutzern benötigt, kann diese neu konfiguriert werden.
 
 
-#### Daten exportieren {#exportdata}
+#### Daten exportieren {#export-data}
 
 Durch das Exportieren von Daten können Benutzer Benutzerkenntnisse und Teilnehmertranskripte auf einen FTP exportieren, um diese auf einem beliebigen System von Drittanbietern zu integrieren.
 
-#### Planung
+#### Planung {#scheduling}
 
 Administratoren können Planungsaufgaben gemäß den Anforderungen des Unternehmens einrichten und Benutzer in der Learning Manager-Anwendung sind entsprechend dem Zeitplan auf dem neuesten Stand. In ähnlicher Weise kann der Integrations-Admin den Export von Kenntnissen zur rechten Zeit planen, um diese in ein externes System zu integrieren. Die Synchronisierung kann täglich in der Learning Manager-Anwendung durchgeführt werden.
 
-### Konfigurieren des FTP-Connectors für Learning Manager {#configurecaptivateprimeftpconnector}
+### Konfigurieren des FTP-Connectors für Learning Manager {#configure-captivate-prime-ftp-connector}
 
 Um den FTP-Connector mit Learning Manager zu integrieren, informieren Sie sich über die entsprechende Vorgehensweise.
 
-#### Verbindung erstellen {#Createaconnection-1}
+#### Verbindung erstellen {#Create-a-connection-1}
 
 1. Bewegen Sie die Maus auf der Startseite des Learning Manager über die FTP-Karte/Miniaturansicht. Ein Menü wird angezeigt. Wählen Sie im Menü die Option Verbinden.
 
@@ -422,7 +422,7 @@ Sobald die Verbindung hergestellt ist, werden die Remote-Dateien auf der rechten
    ![](assets/ftp-connector-dashboard.png)
    *Export options*-->
 
-### Importieren
+### Importieren {#import}
 
 +++Interner Benutzer
 
@@ -572,7 +572,7 @@ The auto-exported files are present in the location **Home/export/&#42;FTP_locat
 
 The auto-exported files are available with the title, **learner_transcript_&#42;date from&#42;_to_&#42;date to&#42;.csv**-->
 
-### Unterstützung für manuelle CSV-Felder {#supportformanualcsvfields}
+### Unterstützung für manuelle CSV-Felder {#support-for-manual-csv-fields}
 
 Beim Importieren von Benutzerdaten über FTP muss ein Administrator das gesamte aktive Feld im System dem entsprechenden Feld im CSV zuordnen.
 
@@ -587,11 +587,11 @@ Wenn Sie diese Option auswählen, werden die manuellen aktiven Feldwerte nicht m
 ![](assets/ftp-conector-foractivefields.png)
 *FTP-Connector für aktive Felder*
 
-## Lynda-Connector {#lyndaconnector}
+## Lynda-Connector {#lynda-connector}
 
 Der Lynda-Connector kann von Unternehmenskunden von Lynda.com verwendet werden, die möchten, dass ihre Teilnehmenden Lynda-Kurse innerhalb von Learning Manager entdecken und nutzen. Der Connector kann so konfiguriert werden, dass er regelmäßig Kurse von Lynda.com mit Ihrem API-Schlüssel aufruft. Wenn ein Kurs in Learning Manager erstellt wurde, können Benutzende nach ihm suchen und ihn dann nutzen. Der Teilnehmerfortschritt kann dann in Learning Manager verfolgt werden.
 
-### Konfigurieren des Lynda-Connectors {#configurethelyndaconnector}
+### Konfigurieren des Lynda-Connectors {#configure-the-lynda-connector}
 
 1. Klicken Sie im integrierten Admin-Dashboard auf „Lynda“.
 
@@ -655,7 +655,7 @@ Der Lynda-Connector kann von Unternehmenskunden von Lynda.com verwendet werden, 
 
 Der getAbstract-Connector kann von Unternehmenskunden von getAbstract.com verwendet werden, die möchten, dass ihre Teilnehmer getAbstract-Kurse entdecken und nutzen. Der Connector kann so konfiguriert werden, dass er regelmäßig Nutzungsdaten aufruft, je nachdem welche Teilnehmerabschlussdatensätze in Learning Manager erstellt werden. Lesen Sie weiter, um zu erfahren, wie dieser Connector in Learning Manager konfiguriert werden kann.
 
-### getAbstract-Connector konfigurieren {#configurethegetabstractconnector}
+### getAbstract-Connector konfigurieren {#configure-the-get-abstract-connector}
 
 1. Klicken Sie im integrierten Admin-Dashboard auf „getAbstract“.
 
@@ -717,7 +717,7 @@ Der getAbstract-Connector kann von Unternehmenskunden von getAbstract.com verwen
 
 Der Harvard ManageMentor-Connector kann von Unternehmenskunden von Harvard ManageMentor verwendet werden, die möchten, dass ihre Teilnehmer Harvard ManageMentor-Kurse entdecken und nutzen. Mit dem Connector können Sie Kurse in Learning Manager erstellen, und sie können dazu konfiguriert werden, regelmäßig Daten zum Teilnehmerfortschritt abzurufen. Um diesen Connector sich zu konfigurieren, müssen Sie folgende Schritte durchführen:
 
-### Harvard ManageMentor-Connector konfigurieren {#configuretheharvardmanagermentorconnector}
+### Harvard ManageMentor-Connector konfigurieren {#configure-the-harvard-managermentor-connector}
 
 1. Klicken Sie im integrierten Admin-Dashboard auf „Harvard ManageMentor“.
 
@@ -775,21 +775,21 @@ Der Harvard ManageMentor-Connector kann von Unternehmenskunden von Harvard Manag
 
 Mithilfe des Workday-Connectors können Sie Learning Manager in den Workday-Mandanten integrieren, um die Datensynchronisierung zu automatisieren.
 
-### Importieren
+### Importieren {#import-1}
 
-#### Attribute zuordnen
+#### Attribute zuordnen {#map-attributes-1}
 
 Der für die Integration zuständige Administrator kann Spalten in Workday auswählen und den entsprechenden für Gruppen geeigneten Attributen des Lern-Managers zuordnen. Sobald diese Zuordnung abgeschlossen ist, wird dieselbe Zuordnung auch für spätere Benutzerimporte verwendet. Falls der Administrator eine andere Zuordnung zum Importieren von Benutzern benötigt, kann diese neu konfiguriert werden.
 
-#### Automatischer Benutzerimport
+#### Automatischer Benutzerimport {#automated-user-import-1}
 
 Beim Importieren von Benutzenden hat der Learning Manager-Administrator die Möglichkeit, Mitarbeiterdaten aus Workday abzurufen und automatisch in Learning Manager zu importieren.
 
-#### Filtern von Benutzern
+#### Filtern von Benutzern {#filtering-users}
 
 Der Learning Manager-Administrator kann die Benutzer vor dem Import filtern. Learning Manager-Administratoren können beispielsweise alle Benutzer in der Hierarchie mit einem oder mehreren bestimmten Managern importieren.
 
-### Exportieren
+### Exportieren {#export}
 
 Mit dem Export für die Benutzerkenntnisse können Benutzer Kenntnisse in Workday automatisch exportieren.
 
@@ -797,7 +797,7 @@ Mit dem Export für die Benutzerkenntnisse können Benutzer Kenntnisse in Workda
 >
 >Kenntnisse von mehreren Learning Manager-Konten können nicht gleichzeitig mit demselben Workday-Konto exportiert werden.
 
-#### Wichtige Anmerkungen
+#### Wichtige Anmerkungen {#points-to-note}
 
 * Stellen Sie sicher, dass UUID, E-Mail-Adresse und Name des Mitarbeiters in mehreren Workday-Integrationen eindeutig sind. Falsche Werte führen zu einem Verbindungsfehler.
 * Das UUID-Feld, das einmal über Workday auf ausgefüllt wurde, kann von keinem Client-LMS-Administrator gelöscht werden. Wenn Sie den Wert ändern möchten, wenden Sie sich an das Onboarding- oder Support-Team von Adobe Learning Manager.
@@ -807,7 +807,7 @@ Mit dem Export für die Benutzerkenntnisse können Benutzer Kenntnisse in Workda
 
 Der Administrator kann Planungsaufgaben einrichten, wie sie für das Unternehmen gewünscht werden. Die Benutzer in der Learning Manager-Anwendung werden anhand der Planung auf dem neuesten Stand gehalten. Ebenso kann der Integrations-Admin den Export für Kenntnisse planen, damit diese in ein externes System integriert werden. Die Synchronisierung kann täglich in Learning Manager ausgeführt werden.
 
-### Workday Connector konfigurieren {#configureworkdayconnector}
+### Workday Connector konfigurieren {#configure-workday-connector}
 
 >[!PREREQUISITES]
 >
@@ -851,9 +851,9 @@ Auf der Übersichtsseite können Sie den Verbindungsnamen für Ihre Integration 
 ![](assets/overview.png)
 *Workday-Übersicht*
 
-### Importieren
+### Importieren {#import-5}
 
-#### Attribute zuordnen {#MapAttributes-1}
+#### Attribute zuordnen {#map-attributes-4}
 
 Sie können den Workday-Connector verwenden, um Learning Manager und Wordkday zu integrieren, sodass die Datensynchronisierung automatisiert wird. Sie können alle aktiven Benutzer aus Workday in Learning Manager importieren. Benutzer können aus verschiedenen Datenquellen einschließlich FTP und Salesforce importiert werden.
 
@@ -948,7 +948,7 @@ wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Gemeinde
 
 +++
 
-### Exportieren
+### Exportieren {#export-1}
 
 Sie können alle Kenntnisse exportieren, die von einem Learning Manager-Benutzer in Workday erreicht wurden. Es werden nur alle aktiven Benutzerkenntnisse exportiert. Learning Manager exportiert keine veralteten Kenntnisse. Sie können auch mehrere Learning Manager verbinden\
 Konten mit demselben Workday Connector verknüpfen. Wenn die Namen der Kenntnisse in zwei Learning Manager-Konten identisch sind, werden sie denselben Kenntnissen in Workday zugeordnet. Vor dem Aktualisieren der Kenntnisse in Workday sollten alle Kenntnisnamen in allen Learning Manager-Konten aktualisiert werden, im Fall, dass zwei Learning Manager-Konten dasselbe Workday-Konto verwenden.
@@ -980,27 +980,27 @@ Hier können Sie die Zusammenfassung aller Aufgaben anzeigen und ihren Statusber
 
 +++
 
-## miniOrange Connector {#miniorangeconnector}
+## miniOrange Connector {#mini-orange-connector}
 
 Mithilfe des miniOrange-Connectors können Sie Learning Manager in den miniOrange-Mandanten integrieren, um die Datensynchronisierung zu automatisieren.
 
-### Importieren
+### Importieren {#import-6}
 
-#### Attribute zuordnen
+#### Attribute zuordnen {#map-attributes-5}
 
 Der für die Integration zuständige Administrator kann miniOrange-Attribute auswählen und den entsprechenden für Gruppen geeigneten Attributen des Learning Managers zuordnen. Sobald diese Zuordnung abgeschlossen ist, wird dieselbe Zuordnung auch für spätere Benutzerimporte verwendet. Falls der Administrator eine andere Zuordnung zum Importieren von Benutzern benötigt, kann diese neu konfiguriert werden.
 
-#### Automatischer Benutzerimport
+#### Automatischer Benutzerimport {#automated-user-import-3}
 
 Beim Importieren von Benutzern hat der Learning Manager-Administrator die Möglichkeit, Mitarbeiterdaten aus miniOrange abzurufen und automatisch in Learning Manager zu importieren.
 
-#### Filtern von Benutzern
+#### Filtern von Benutzern {#filtering-users-3}
 
 Der Learning Manager-Administrator kann die Benutzer vor dem Import filtern. Learning Manager-Administratoren können beispielsweise alle Benutzer in der Hierarchie mit einem oder mehreren bestimmten Managern importieren.
 
 So richten Sie   miniOrange   Connector einzurichten, wenden Sie sich an das Learning Manager CSM-Team.
 
-### miniOrange Connector konfigurieren {#configureminiorangeconnector}
+### miniOrange Connector konfigurieren {#configure-mini-orange-connector}
 
 1. Bewegen Sie die Maus auf der Startseite des Lernmanagers über die miniOrange-Karte/das Miniaturbild. Ein Menü wird angezeigt. Klicken Sie im Menü auf die Option **[!UICONTROL Verbinden]**.
 
@@ -1073,7 +1073,7 @@ Befolgen Sie diese Schritte, um den Connector einzurichten und zu verwenden.
    ![](assets/attendence-and-scoringreport.png)
    *Anwesenheits- und Bewertungsbericht*
 
-### Erstellen einer Zoom-OAuth-Anwendung von Server zu Server
+### Erstellen einer Zoom-OAuth-Anwendung von Server zu Server {#create-a-zoom-server-to-server-oauth-app}
 
 Wenn Sie eine Zoom-Server-zu-Server-OAuth-Anwendung erstellen, die in Adobe Learning Manager verwendet werden soll, müssen Sie beim Erstellen der Verbindung die für Adobe Learning Manager erforderlichen Bereiche hinzufügen.
 
@@ -1085,13 +1085,13 @@ Adobe Learning Manager benötigt die unten aufgeführten Bereiche, und die Berei
 * Alle Benutzerinformationen `/user:read:admin` anzeigen
 * Benutzerinformationen anzeigen und Benutzer `/user:write:admin` verwalten
 
-## Box-Connector {#boxconnector}
+## Box-Connector {#box_connector}
 
 Mithilfe des Box-Connectors können Sie Learning Manager in beliebige externe Systeme integrieren, um Datensynchronisierung zu automatisieren. Es wird erwartet, dass externe Systeme Daten in einem CSV-Format exportieren können und sie in den entsprechenden Ordner des Learning Manager Box-Kontos zu platzieren. Der Box-Connector bietet folgende Funktionen:
 
 Sie können den FTP-Connector auch für die Datenmigration, den Benutzerimport und den Datenexport verwenden. Weitere Informationen: [FTP-Connector für Learning Manager](connectors.md#main-pars_header_1427405935).
 
-### Datenimport {#DataImport-1}
+### Datenimport {#data-import-1}
 
 Beim Importieren von Benutzenden hat der Learning Manager-Administrator die Möglichkeit, Mitarbeiterdaten aus dem Learning Manager-Box-Dienst abzurufen und automatisch in Learning Manager zu importieren. Mit dieser Funktion können Sie mehrere Systeme integrieren, indem Sie die CSV, die durch diese Systeme generiert wurden, in die entsprechenden Ordner der Box-Konten platzieren. Learning Manager ruft die CSV-Dateien ab, führt sie zusammen und importiert die Daten gemäß dem Zeitplan. Weitere Informationen finden Sie unter „Planung“.
 
@@ -1099,15 +1099,15 @@ Beim Importieren von Benutzenden hat der Learning Manager-Administrator die Mög
 
 Der für die Integration zuständige Administrator kann Spalten in CSV-Dateien wählen und den entsprechenden für Gruppen geeigneten Attributen in Learning Manager zuordnen. Diese Zuordnung ist eine einmalige Maßnahme. Nachdem diese Zuordnung vorgenommen wurde, wird dieselbe Zuordnung auch für spätere Benutzerimporte verwendet. Falls der Administrator eine andere Zuordnung zum Importieren von Benutzern benötigt, kann diese neu konfiguriert werden.
 
-## Datenexport {#dataexport}
+## Datenexport {#data-export}
 
 Mit dem Datenexport können Benutzer Benutzerkenntnisse und Teilnehmertranskripte in einen Box-Speicherort exportieren, um diese in ein beliebiges System von Drittanbietern zu integrieren.
 
-## Berichte planen {#schedulereports}
+## Berichte planen {#schedule-reports}
 
 Der Administrator kann Planungsaufgaben einrichten, wie sie für das Unternehmen gewünscht werden. Die Benutzer in der Learning Manager-Anwendung werden anhand der Planung auf dem neuesten Stand gehalten. Ebenso kann der Integrations-Admin den Export für Kenntnisse planen, damit diese in ein externes System integriert werden. Die Synchronisierung kann täglich in Learning Manager ausgeführt werden.
 
-## Box-Connector konfigurieren {#configureboxconnector}
+## Box-Connector konfigurieren {#boxconnector}
 
 Um Box Connector mit Learning Manager zu integrieren, informieren Sie sich über die entsprechende Vorgehensweise.
 
@@ -1133,7 +1133,7 @@ Um Box Connector mit Learning Manager zu integrieren, informieren Sie sich über
    * Teilnehmertranskript exportieren - Konfigurieren Sie einen Zeitplan
    * Teilnehmertranskript exportieren - On Demand
 
-## Importieren
+## Importieren {#import-7}
 
 +++Interner Benutzer
 
@@ -1236,7 +1236,7 @@ Beim Importieren von Benutzenden in Learning Manager muss der Administrator auch
 
 +++
 
-## Exportieren
+## Exportieren {#export-2}
 
 +++Skills
 
@@ -1258,7 +1258,7 @@ Die automatisch exportierten Dateien sind mit dem Titel **skill_achievements_&#4
 >
 >Der Kunde verwaltet die Zugriffsberechtigungen und den Inhalt im Box-Ordner, der vom Learning Manager-Team freigegeben wird.  Der Inhalt des Ordners würde auch physisch in der Region Frankfurt gespeichert.
 
-### Unterstützung für manuelle CSV-Felder {#Supportformanualcsvfields-1}
+### Unterstützung für manuelle CSV-Felder {#support-for-manual-csv-fields-1}
 
 Beim Importieren von Benutzerdaten über Box muss ein Administrator das gesamte aktive Feld im System dem entsprechenden Feld in der CSV zuordnen.
 
@@ -1291,7 +1291,7 @@ Der LinkedIn Learning-Connector kann von Unternehmenskunden von LinkedIn.com ver
 >
 >Die in LinkedIn-Lernkursen verbrachte Lernzeit wird von der LinkedIn-Plattform content/LinkedIn an die Learning Manager-Lernplattform übermittelt. Wenn LinkedIn Learning die Lernzeit nicht sendet, kann sie nicht von unserer Lernplattform aufgezeichnet werden. In diesem Fall beträgt die vom Lern-Manager angezeigte Lernzeit null.
 
-### Konfigurieren Sie die Einstellungen im Linkedln-Lernportal {#configuresettingsinlinkedlnlearningportal}
+### Konfigurieren Sie die Einstellungen im Linkedln-Lernportal {#configure-settings-in-linkedln-learning-portal}
 
 1. Melden Sie sich als Administrator bei Linkedln Learning LMS an.
 1. Klicken Sie im oberen Navigationsbereich auf **[!UICONTROL admin]**.
@@ -1305,7 +1305,7 @@ Der LinkedIn Learning-Connector kann von Unternehmenskunden von LinkedIn.com ver
 
    *LinkedIn-Lernkonfiguration*
 
-### LinkedIn Learning-Connector konfigurieren {#configurelinkedinlearningconnector}
+### LinkedIn Learning-Connector konfigurieren {#configure-linkedin-learning-connector}
 
 1. Klicken Sie im Integrations-Admin-Dashboard auf [!UICONTROL LinkedIn Learning]. Die Optionen „Erste Schritte“, „Verbinden“ und „Verbindungen verwalten“ werden angezeigt.
 1. Wenn Sie den LinkedIn Learning-Connector zum ersten Mal konfigurieren, klicken Sie auf [!UICONTROL Verbinden].
@@ -1404,7 +1404,7 @@ Der Inhalt wird erst nach der Migration gespeichert. Der Inhalt wird in den ents
 
 Sie können die Integration mit diesem Connector nutzen, um Ihre bestehenden Power BI-Konten zur Analyse und Visualisierung von Lerndaten aus dem Learning Manager in Power BI zu nutzen. Während der Konfiguration kann der Integrationsadministrator seinen Power BI-Arbeitsbereich so einrichten, dass er schrittweise mit zwei Live-Datensätzen gefüllt wird – Teilnehmertranskriptberichte und Berichte zu Benutzerkenntnissen. Sie können dann alle Funktionen und Möglichkeiten von Power BI nutzen, um benutzerdefinierte Dashboards im Unternehmen nach Wunsch zu entwickeln, bereitzustellen und zu verteilen.
 
-### Konfigurieren des Connector {#configuringtheconnector}
+### Konfigurieren des Connector {#configuring-the-connector}
 
 Bewegen Sie zum Konfigurieren des Connectors den Mauszeiger auf der Seite **[!UICONTROL Connectors]** über die Kachel **[!UICONTROL Power BI]** und klicken Sie auf **[!UICONTROL Connect]**. Die Power BI-Seite wird geöffnet. Um eine Verbindung herzustellen, geben Sie die App-Client-ID, das App-Client-Schlüssel, den Mandantennamen und die Arbeitsbereich-ID (optional) an. Führen Sie die folgenden Schritte aus, um diese Informationen abzurufen.
 
@@ -1451,7 +1451,7 @@ Aktivieren Sie das Kontrollkästchen **[!UICONTROL Export für die Benutzerkennt
 
 Die exportierten Daten können angezeigt werden, indem Sie sich bei Ihrem Power BI-Konto anmelden. Die exportierten Daten werden unter der Option „Datensätze“ aufgelistet.
 
-### Exportieren von xAPI-Aktivitätsberichten in Learning Manager {#exportxapiactivityreportsincaptivateprime}
+### Exportieren von xAPI-Aktivitätsberichten in Learning Manager {#export-xapi-activity-reports-in-captivate-prime}
 
 Klicken Sie auf der Seite mit den PowerBI-xAPI-Funktionen auf **[!UICONTROL xAPI-Aktivitätsbericht exportieren]**.
 
@@ -1566,7 +1566,7 @@ Dadurch können Benutzer diese Vorlagen herunterladen, in der Power BI-Anwendung
 
 Sie können die Vorlagen auch manuell über den obigen Link herunterladen. Passen Sie Ihre Berichte gemäß der Vorlagen an.
 
-### Schulungsbericht exportieren
+### Schulungsbericht exportieren {#export-training-report}
 
 Die Schulungsberichte können im Rahmen der Funktion „Vereinheitlichte Berichte“ nach Power BI exportiert werden.
 
@@ -1578,9 +1578,9 @@ Der Schulungsbericht enthält drei zusätzliche Felder:
 ![](assets/export-training-report.png)
 *Schulungsbericht exportieren*
 
-### Änderungen in Zusammenhang mit Lernplänen
+### Änderungen in Zusammenhang mit Lernplänen {#learning-path-related-changes}
 
-#### Administrator: Teilnehmertranskripte und einheitlicher Bericht
+#### Administrator: Teilnehmertranskripte und einheitlicher Bericht {#learning-transcripts-and-unified-reports}
 
 **Vorhandene Verbindungen**
 
@@ -1600,7 +1600,7 @@ Darüber hinaus enthält der Bericht den Spaltentyp „Lernplan (höhere Stufe)�
 
 In der Spalte „Typ“ wird „Lernprogramm“ in „Lernplan“ umbenannt. Bei bestehenden Verbindungen wird es keine Änderung geben. Bei neuen Verbindungen werden die Änderungen jedoch nach 30 Tagen widergespiegelt.
 
-#### Schulungsbericht: Einheitlicher Bericht
+#### Schulungsbericht: Einheitlicher Bericht {#training-report}
 
 **Vorhandene Verbindungen**
 
@@ -1634,7 +1634,7 @@ Learning Manager bietet die Möglichkeit, eine Verbindung mit Ihrem benutzerdefi
 
 Ihr FTP unterstützt Folgendes:
 
-### Datenimport
+### Datenimport {#data-import-2}
 
 Beim Importieren von Benutzenden hat der Learning Manager-Administrator die Möglichkeit, Mitarbeiterdaten aus dem Learning Manager-FTP-Dienst abzurufen und automatisch in Learning Manager zu importieren. Mit dieser Funktion können Sie mehrere Systeme integrieren, indem Sie die CSV, die durch diese Systeme generiert wurden, in die entsprechenden Ordner der FTP-Konten platzieren. Learning Manager ruft die CSV-Dateien ab, führt sie zusammen und importiert die Daten gemäß dem Zeitplan. Weitere Informationen finden Sie unter „Planung“.
 
@@ -1642,11 +1642,11 @@ Beim Importieren von Benutzenden hat der Learning Manager-Administrator die Mög
 
 Der für die Integration zuständige Administrator kann Spalten in CSV-Dateien wählen und den entsprechenden für Gruppen geeigneten Attributen in Learning Manager zuordnen. Diese Zuordnung ist eine einmalige Maßnahme. Nachdem diese Zuordnung vorgenommen wurde, wird dieselbe Zuordnung auch für spätere Benutzerimporte verwendet. Falls der Administrator eine andere Zuordnung zum Importieren von Benutzern benötigt, kann diese neu konfiguriert werden.
 
-### Datenexport
+### Datenexport {#data-export-3}
 
 Durch das Exportieren von Daten können Benutzer Benutzerkenntnisse und Teilnehmertranskripte in einen FTP-Speicherort exportieren, um diese in ein beliebiges System von Drittanbietern zu integrieren.
 
-### Berichte planen
+### Berichte planen {#schedule-reports-2}
 
 Der Administrator kann Planungsaufgaben einrichten, wie sie für das Unternehmen gewünscht werden. Die Benutzer in der Learning Manager-Anwendung werden anhand der Planung auf dem neuesten Stand gehalten. Ebenso kann der Integrations-Admin den Export für Kenntnisse planen, damit diese in ein externes System integriert werden. Die Synchronisierung kann täglich in Learning Manager ausgeführt werden.
 
@@ -1678,7 +1678,7 @@ Voraussetzungen zum Einrichten eines ADFS-Connectors:
 * Melden Sie sich mit dieser URL bei Ihrem Azure-Portal an: [https://portal.azure.com/](https://portal.azure.com/) , bevor Sie Ihre App registrieren.
 * Öffnen Sie Azure Active Directory.
 
-## Schritte zum Registrieren Ihrer Anwendung {#stepstoregisteryourapplication}
+## Schritte zum Registrieren Ihrer Anwendung {#steps-to-register-your-application}
 
 * Klicken Sie auf Azure Active Directory. Klicken Sie auf **[!UICONTROL Hinzufügen]** > **[!UICONTROL App-Registrierung]**.
 
@@ -1764,7 +1764,7 @@ Voraussetzungen zum Einrichten eines ADFS-Connectors:
 
   <!-- *Select Add Permissions*-->
 
-### ADFS-Konfigurationsseite
+### ADFS-Konfigurationsseite {#adfs-configuration-page}
 
 1. Geben Sie auf der ADFS-Konfigurationsseite in Adobe Learning-Manager die Client-ID und das Client-Geheimnis ein, die Sie zuvor bezogen haben.
 
@@ -1772,23 +1772,23 @@ Voraussetzungen zum Einrichten eines ADFS-Connectors:
 
 1. Melden Sie sich bei **portal.azure.com** an. Die Werte werden in die Felder Mandanten-ID und Primäre Domäne eingetragen.
 
-### Importieren
+### Importieren {#import-8}
 
-#### Attribute zuordnen
+#### Attribute zuordnen {#map-attributes-6}
 
 Der Integrationsadministrator kann ADFS-Attribute auswählen und den entsprechenden gruppierbaren Attributen des Learning Managers zuordnen. Sobald diese Zuordnung abgeschlossen ist, wird dieselbe Zuordnung auch für spätere Benutzerimporte verwendet. Wenn der Administrator eine andere Zuordnung zum Importieren von Benutzern benötigt, kann diese neu konfiguriert werden.
 
-#### Automatischer Benutzerimport
+#### Automatischer Benutzerimport {#automated-user-import-4}
 
 Beim Importieren von Benutzern hat der Learning Manager-Administrator die Möglichkeit, Mitarbeiterdaten aus ADFS abzurufen und automatisch in Learning Manager zu importieren.
 
-#### Filtern von Benutzern
+#### Filtern von Benutzern {#filtering-users-4}
 
 Der Lern-Manager-Administrator kann die Benutzer vor dem Import filtern. Learning Manager-Administratoren können beispielsweise alle Benutzer in der Hierarchie mit einem oder mehreren bestimmten Managern importieren.
 
 Um den ADFS-Connector einzurichten, wenden Sie sich an das Learning Manager-CSM-Team.
 
-## ADFS-Connector konfigurieren {#configureadfsconnector}
+## ADFS-Connector konfigurieren {#configure-adfs-connector}
 
 1. Bewegen Sie die Maus auf der Startseite des Learning Manager über die ADFS-Karte/Miniaturansicht. Ein Menü wird angezeigt. Klicken Sie im Menü auf die Option Verbinden .
 
@@ -1823,7 +1823,7 @@ Um den ADFS-Connector einzurichten, wenden Sie sich an das Learning Manager-CSM-
 
 1. Nach Abschluss des Imports erhalten Sie eine Benachrichtigung. Klicken Sie zum Anzeigen oder Bearbeiten des Importprotokolls auf **[!UICONTROL Benutzer]** > **[!UICONTROL Protokoll importieren]**.
 
-### Verbindung löschen {#Deleteaconnection-1}
+### Verbindung löschen {#delete-a-connection-1}
 
 Führen Sie die folgenden Schritte aus, um eine bestehende miniOrange-Verbindung zu löschen.
 
@@ -1851,7 +1851,7 @@ Führen Sie die folgenden Schritte aus, um eine bestehende miniOrange-Verbindung
    >
    >Der Adobe Connect-Kontoadministrator muss die Bedingungen für die Verwendung von Adobe Connect akzeptieren. Wenn dies nicht akzeptiert wird, schlägt die Authentifizierung der Anmeldung möglicherweise fehl. Nach der Erstellung des Adobe Connect-Kontos, müssen Sie sich bei dem Konto anmelden. Bei dieser erstmaligen Anmeldung wird eine Seite mit den Bedingungen angezeigt.
 
-### Informationen für Sitzung im virtuellen Klassenzimmer hinzufügen {#addvirtualclassroomsessioninformation}
+### Informationen für Sitzung im virtuellen Klassenzimmer hinzufügen {#add-virtual-classroom-session-information}
 
 Wenn der Autor eines Kurses im virtuellen Klassenzimmer keine Sitzungsinformationen angegeben hat, kann der Administrator die Sitzungsdetails einbeziehen.
 
@@ -1974,7 +1974,7 @@ Im Abschnitt **Vereinheitlichte Berichte** der Marketo Engage-Verbindung in der 
 
 Wie bei jedem anderen Connector können Sie Daten nach Bedarf planen und exportieren.
 
-### Spaltenzuordnung auf dem Marketo Engage {#columnmappinginmarketoengage}
+### Spaltenzuordnung auf dem Marketo Engage {#column-mapping-in-marketo-engage}
 
 In Marketo gibt es zwei Arten von Datenbanken:
 
@@ -2051,7 +2051,7 @@ The Author, in the Author app, then selects an event from the list of available 
 >
 >We've added a caching mechanism that improves the overall user experience. It is applicable when you select additional event creators. In this mode, the events are fetched the first time when an author searches for an event. The cache persists for 30 mins so that authors know how long they must wait to fetch the new events.-->
 
-## Microsoft Teams Connector
+## Microsoft Teams Connector {#microsoft-teams-connector}
 
 Microsoft® Teams® ist eine beständige Chat-basierte Plattform für die Zusammenarbeit, die die Freigabe von Dokumenten, Online-Meetings und andere Funktionen für die Geschäftskommunikation unterstützt.
 
@@ -2073,7 +2073,7 @@ Mit der automatisierten Benutzerabschlusssynchronisierung kann ein Learning Mana
 
 Weitere Informationen finden Sie unter [**Microsoft Teams-Connector in Adobe Learning Manager installieren**](install-microsoft-teams-connector.md).
 
-## Schulungsdatenzugriff-Connector {#training-data-access-connector}
+## Schulungsdatenzugriff-Connector {#training-data-access}
 
 >[!IMPORTANT]
 >
@@ -2085,7 +2085,7 @@ Weitere Informationen finden Sie unter [**Microsoft Teams-Connector in Adobe Lea
 
 Mit dem **[!UICONTROL Trainingsdatenzugriff]**-Connector können Sie ein Headless-Erlebnis erstellen. Dieses Erlebnis kann eigenständig oder eine benutzerdefinierte Benutzeroberfläche sein, die auf AEM Sites basiert. Es hilft, Trainingsinformationen für Teilnehmer abzurufen und anzuzeigen und ermöglicht das Suchen und Filtern. Sobald der Daten-Connector aktiviert ist, steht eine Reihe öffentlicher APIs zum Erstellen der Schnittstelle zur Verfügung, in der den Teilnehmern die Kurs-/Lernpfadinformationen angezeigt werden.
 
-### Konfigurieren des Connectors
+### Konfigurieren des Connectors {#configure-training-data-connector}
 
 Verwenden Sie den Connector **[!UICONTROL Training Data Access]**, um Ihr Adobe Learning Manager-Konto mit Datenspeicher- und Suchsystemen zu integrieren. Auf diese Weise kann Ihre AEM Sites-basierte Benutzeroberfläche Schulungsdaten abrufen, Webseiten anzeigen und bessere Suchoptionen für Teilnehmer bieten.
 
@@ -2124,7 +2124,7 @@ Sie können diese URLs verwenden, um die Daten mithilfe von APIs abzurufen.
 1. Gehen Sie für einen On-Demand-Bericht zu **[!UICONTROL On Demand]**, wählen Sie das **[!UICONTROL Startdatum]** aus, und klicken Sie dann **[!UICONTROL auf]** Ausführen.
 Sie können den Status der Berichtsausführung auf der Seite **[!UICONTROL Ausführungsstatus]** überprüfen.
 
-### Erstellen der Website in AEM
+### Erstellen der Website in AEM {#create-website-in-aem}
 
 **Voraussetzung:** Installieren Sie das AEM aus dem [**GitHub-Repository**](https://github.com/adobe/adobe-learning-manager-reference-site/releases/tag/1.0.0).
 
@@ -2134,13 +2134,13 @@ Sie können den Status der Berichtsausführung auf der Seite **[!UICONTROL Ausf�
 
 Weitere Informationen finden Sie in diesem [**Dokument**](../../adobe-learning-manager-integration-aem.md).
 
-### Teilnehmer
+### Teilnehmer {#learners}
 
 Die veröffentlichte Website zeigt eine Liste aller migrierten Kurse, Zertifikate und Lernpfade an, die vom Suchdienst für nicht angemeldete Teilnehmende abgerufen werden.
 
 Wenn Teilnehmende auf &quot;Kurs&quot;, &quot;Zertifikat&quot; oder &quot;Lernpfad&quot; klicken, wird die Seite &quot;Übersicht&quot; aufgerufen. Wenn Teilnehmende sich auf der Seite registrieren,müssen sie sich zuerst anmelden und dann den Kurs absolvieren.
 
-### Nicht angemeldeter Benutzer
+### Nicht angemeldeter Benutzer {#non-logged-in-experience}
 
 Das nicht angemeldete Erlebnis ermöglicht es Ihnen, ein Echtzeit-Erlebnis für nicht angemeldete Benutzer zu erstellen. Beispielsweise dient ein nicht angemeldetes Erlebnis als Landingpage für Marketing-Kampagnen, um Anmeldungen zu fördern.
 
@@ -2165,7 +2165,7 @@ Kunden können ein Premium-Abo erwerben, um dieses hochgradig skalierbare, nicht
 
 Nachdem ein Benutzer ein Abo gekauft hat, aktiviert das CSM-Team das Premium-Abo für ihn. Mit dem Connector für den Zugriff auf Schulungsdaten können Benutzer ein nicht angemeldetes Erlebnis mit den zuvor genannten Funktionen einrichten.
 
-## Adobe Commerce-Connector
+## Adobe Commerce-Connector {#adobe-commerce-connector}
 
 >[!NOTE]
 >
@@ -2202,7 +2202,7 @@ Zusätzlich zur Initiierung eines Kaufs erfasst der Connector auch Kaufdetails v
 1. Wenden Sie die folgenden Patches an. Weitere Informationen finden Sie unter [Patches anwenden](https://devdocs.magento.com/cloud/project/project-patch.html).
 1. Schnelle Konfiguration.  Fastly ist für Adobe Commerce in der Cloud-Infrastruktur erforderlich und wird in Staging- und Produktionsumgebungen verwendet. Weitere Informationen finden Sie unter [Einrichten von Fastly](https://devdocs.magento.com/cloud/cdn/configure-fastly.html).
 
-### Konfigurieren des Connectors
+### Konfigurieren des Connectors {#configure-connector}
 
 Klicken Sie als Integrationsadministrator im Adobe Commerce-Connector auf **[!UICONTROL Verbinden]**.
 
@@ -2218,7 +2218,7 @@ Nachdem der Kurs, der Lernpfad oder das Zertifikat veröffentlicht wurde, könne
 * **Nativer Learning Manager:** Teilnehmende können einen Kurs, einen Lernplan oder ein Zertifikat in Learning Manager erwerben. Dies gilt nur, wenn der Autor einen Preis hinzugefügt hat.
 * **Mit AEM-Sites angepasst:** Teilnehmende können einen Kurs von einer AEM-Site erwerben.
 
-### Workflow
+### Workflow {#workflow}
 
 Der Adobe Commerce-Administrator konfiguriert Learning Manager als Integration.
 
@@ -2226,7 +2226,7 @@ Der Autor markiert die Kurse, Lernpfade oder Zertifikate als Premium und weist d
 
 Der Kurs oder Lernpfad kann erst erworben werden, wenn die Daten in Adobe Commerce synchronisiert sind.
 
-### Exportieren des Kurses nach Adobe Commerce
+### Exportieren des Kurses nach Adobe Commerce {#export-commerce}
 
 Nachdem ein Autor die Preise für verschiedene Kurse, Lernpfade oder Zertifizierungen festgelegt hat, exportieren Sie als Integrationsadministrator die Kurse, Lernpfade oder Zertifizierungen in Adobe Commerce.
 
@@ -2241,9 +2241,9 @@ Nachdem ein Autor die Preise für verschiedene Kurse, Lernpfade oder Zertifizier
 
 1. Klicken Sie auf **[!UICONTROL Ausführen]**. Nach erfolgreicher Ausführung werden alle Kurse oder Lernpfade, für die ein Preis festgelegt ist, nach Adobe Commerce verschoben. Der Teilnehmer kann den Kurs dann über den Lernmanager kaufen.
 
-### Nativer Learning Manager mit Adobe Commerce
+### Nativer Learning Manager mit Adobe Commerce {#learning-manager-with-commerce}
 
-#### Teilnehmer
+#### Teilnehmer {#learner}
 
 Als Teilnehmer müssen Sie angemeldet sein, um einen Kurs, ein Zertifikat oder einen Lernpfad zu kaufen.
 
@@ -2253,7 +2253,7 @@ Wenn Sie einen Kurs, ein Zertifikat oder einen Lernplan von ALM Native oder AEM 
 
 Darüber hinaus können Sie auch E-Mails aus Adobe Commerce aktivieren/deaktivieren.
 
-### Websites mit Adobe Commerce AEM
+### Websites mit Adobe Commerce AEM {#aem-sites-with-adobe-commerce}
 
 Wenn die Option &quot;Mit AEM-Sites angepasst&quot; aktiviert ist, können Sie als Teilnehmer Kurse von einer benutzerdefinierten AEM-Site kaufen.
 
@@ -2263,9 +2263,9 @@ Es ist möglich, bei der Benutzeroberfläche angemeldet oder nicht angemeldet zu
 
 Wie beim nativen Learning Manager können Sie nach der Anmeldung einen Kurs in den Warenkorb legen und den Kurs dann in der Vorschau anzeigen oder kaufen.
 
-### Einrichten des Adobe Commerce-Connectors
+### Einrichten des Adobe Commerce-Connectors {#setup-commerce-connector}
 
-#### Voraussetzung
+#### Voraussetzung {#pre-requisites}
 
 Der Administrator aktiviert das Kontrollkästchen **Preise für Schulungen aktivieren** in **Einstellungen > Allgemein** in der Admin-App. Wenn die Option aktiviert ist, können Autoren Preise für Schulungen angeben. Wenn Sie eine Adobe Commerce-Verbindung hinzufügen, wird dieses Kontrollkästchen automatisch aktiviert und erzwungen.
 
@@ -2280,7 +2280,7 @@ Die Hauptziele dieser Integration sind:
 * Ermöglichen Sie es Kunden von Learning Manager, formelles Lernen in Form von kostenpflichtigen Kursen anzubieten.
 * Geben Sie Teilnehmern die Möglichkeit, Kurse in der Vorschau anzuzeigen, bevor sie sich für den Kauf der Schulung entscheiden.
 
-#### Nativer Adobe Learning Manager
+#### Nativer Adobe Learning Manager {#native-learning-manager}
 
 **Integrationsadministrator**
 
@@ -2291,7 +2291,7 @@ Die Hauptziele dieser Integration sind:
 >
 >Adobe Learning Manager und Adobe Commerce haben unterschiedliche Anmeldungen.
 
-### AEM
+### AEM {#aem}
 
 In diesem Modus beziehen Teilnehmende den Kurs von einer Site auf AEM-Basis an, die mithilfe von Vorlagen und Komponenten auf AEM-Basis erstellt wird.
 
@@ -2301,7 +2301,7 @@ Wenn der Benutzer nicht angemeldet ist, kann er weiterhin nach Kurskatalogen suc
 
 Nachdem Teilnehmende den Kurs erworben haben, werden sie, während sie angemeldet sind, zur Kursübersichtsseite weitergeleitet, wo sie die erworbene Schulung absolvieren können.
 
-#### Headless – nicht angemeldet
+#### Headless – nicht angemeldet {#headless-non-logged-in}
 
 Teilnehmende können:
 
@@ -2313,7 +2313,7 @@ Teilnehmende können nicht:
 * Einen Kurs auf der Seite &quot;Übersicht&quot; kaufen.
 * Kostenpflichtige Inhalte in der Vorschau anzeigen.
 
-#### Headless – angemeldet
+#### Headless – angemeldet {#headless-logged-in}
 
 Teilnehmende können:
 
@@ -2327,7 +2327,7 @@ Teilnehmende können:
 
 * Nach Erwerb des Kurses die Rechnung als Anhang in der E-Mail anzeigen.
 
-#### On-Demand-Synchronisierung
+#### On-Demand-Synchronisierung {#on-demand-sync}
 
 Die Synchronisierung zwischen Learning Manager und Adobe Commerce erfolgt zweimal täglich. Nachdem der Administrator ein Konto für E-Commerce aktiviert hat, speichert die Option **Export von Schulungsmetadaten mit dieser Verbindung aktivieren**, sofern aktiviert, die Bilder des Kurses, des Lernpfads und der Zertifikate in einem öffentlichen CDN.
 
@@ -2337,7 +2337,7 @@ Wenn für den nativen Learning Manager der E-Commerce aktiviert und die Synchron
 
 AEM gibt es keine Schaltfläche &quot;Jetzt kaufen&quot;, sondern nur eine Schaltfläche **In den Warenkorb legen**. Diese Schaltfläche bleibt auch deaktiviert, wenn die Synchronisierung nicht ausgeführt wird.
 
-#### Häufig gestellte Fragen
+#### Häufig gestellte Fragen {#faqs}
 
 +++Welche Kurse können nicht erworben werden?
 
