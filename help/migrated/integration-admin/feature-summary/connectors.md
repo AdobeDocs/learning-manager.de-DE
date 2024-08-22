@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Learning Manager-Connectors
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: e7a88bac3bbe7814368a98d40f548b38806e7f1a
+source-git-commit: fb887cdc26580cb0e56a80318276284724e4743a
 workflow-type: tm+mt
 source-wordcount: '15848'
 ht-degree: 59%
@@ -2051,7 +2051,7 @@ The Author, in the Author app, then selects an event from the list of available 
 >
 >We've added a caching mechanism that improves the overall user experience. It is applicable when you select additional event creators. In this mode, the events are fetched the first time when an author searches for an event. The cache persists for 30 mins so that authors know how long they must wait to fetch the new events.-->
 
-## Microsoft Teams Connector {#microsoft-teams-connector}
+## Microsoft Teams Connector {#teams-connector}
 
 Microsoft® Teams® ist eine beständige Chat-basierte Plattform für die Zusammenarbeit, die die Freigabe von Dokumenten, Online-Meetings und andere Funktionen für die Geschäftskommunikation unterstützt.
 
