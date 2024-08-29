@@ -2,10 +2,10 @@
 title: Oberfläche für nicht angemeldete Teilnehmer
 description: Das native Adobe Learning Manager-Portal unterstützt einen nicht protokollierten Zugriff auf die Schulungswebsite. Wenn dieser Modus aktiviert ist, können Teilnehmer die Schulungswebsite entdecken und darauf zugreifen und verschiedene verfügbare Kurse und Inhalte auschecken. Auf der Oberfläche ohne Anmeldung können Teilnehmer Kurse durchsuchen, ohne bei einem Portal angemeldet zu sein.
 exl-id: 12260cca-d2d2-4e7c-991d-9b09690d4c0a
-source-git-commit: 70d516a262180fd5a2a9390c9813058f0fa5e1c9
+source-git-commit: 664b9c867fc767e11d4d91e3be9ae172e7e85035
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 40%
+source-wordcount: '619'
+ht-degree: 39%
 
 ---
 
@@ -88,4 +88,4 @@ Alle exportierten Schulungen werden aufgeführt.
 * Teilnehmer-App-Ansicht, die katalogweise angezeigt wird.
 * Schulungsübersichtsseiten: Wenn ein Benutzer auf die Karte klickt, wird er zur Registrierung und anschließend zur Schulungsübersichtsseite/Instanzseite weitergeleitet.
 * Alle aktivierten Kataloge werden angezeigt. Ein Teilnehmer, der keinen Zugriff auf einen Katalog besitzt, kann den Katalog und die darin enthaltene Schulung nach der Anmeldung nicht anzeigen.
-* Bei der nativen Option werden Änderungen an einem Kurs oder Lernpfad nach 24 Stunden widergespiegelt, nicht in Echtzeit.
+* Bei der nativen Option werden Änderungen an einem Kurs oder Lernpfad nur nach 24 Stunden statt in Echtzeit widergespiegelt, während sie für das Premium-Angebot nach mindestens 3 Stunden widergespiegelt werden.
