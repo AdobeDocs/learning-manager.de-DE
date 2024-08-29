@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Einstellungen
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
+source-git-commit: 70d516a262180fd5a2a9390c9813058f0fa5e1c9
 workflow-type: tm+mt
-source-wordcount: '3651'
-ht-degree: 66%
+source-wordcount: '3669'
+ht-degree: 65%
 
 ---
 
@@ -165,7 +165,7 @@ Aktivieren oder Deaktivieren der folgenden Einstellungen:
   </tr>
   <tr>
    <td>Katalogbeschriftungen anzeigen</td>
-   <td>Wenn diese Option aktiviert ist, können Administratoren und Autoren Katalogbeschriftungen und Werte festlegen und sie mit Lernobjekten verknüpfen.</td>
+   <td>Wenn diese Option aktiviert ist, können Administratoren und Autoren Katalogbeschriftungen und Werte festlegen und sie mit Lernobjekten verknüpfen. Wenn Sie diese Option auswählen, können Autoren auch Kurse, Lernpfade, Zertifizierungen oder Arbeitshilfen zu den Katalogen hinzufügen.</td>
   </tr>
   <tr>
    <td>Teilnehmer können ihre Punktzahl anzeigen</td>
