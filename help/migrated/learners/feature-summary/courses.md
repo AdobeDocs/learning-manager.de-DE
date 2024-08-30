@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Meine Lerninhalte
 contentowner: manochan
 exl-id: 2c62d36c-c500-40d6-b79f-d3cc8b3b756a
-source-git-commit: 70d516a262180fd5a2a9390c9813058f0fa5e1c9
+source-git-commit: 4151b3d791a2ac13a40dc812a3c7b2c3c43bfc9c
 workflow-type: tm+mt
-source-wordcount: '2759'
-ht-degree: 64%
+source-wordcount: '2789'
+ht-degree: 63%
 
 ---
 
@@ -163,6 +163,10 @@ Sie können alle Module für den Kurs in einem Browserfenster anzeigen.
 **Kurs schließen** Klicken Sie auf das Symbol zum Schließen (x) in der rechten oberen Ecke des Players, um den Kurs zu beenden.
 
 *Nach dem Beenden des Kurses können Sie den Kurs erneut aufrufen, indem Sie auf der Seite mit der Kursbeschreibung auf die Schaltfläche &quot;Erneut aufrufen&quot; klicken.*
+
+## Mehrere Registrierungsinstanzen
+
+Wenn ein Kurs mehrere Instanzen hat, haben die Teilnehmer die Möglichkeit, eine bestimmte Instanz auszuwählen und sich dafür zu registrieren. Bei Bedarf können sie auch zwischen den Instanzen wechseln.
 
 ## Sternebewertung
 
