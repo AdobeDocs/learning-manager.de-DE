@@ -4,9 +4,9 @@ title: White Labels in der mobilen Adobe Learning Manager-App
 description: White Labels sind eine Praxis, bei der Sie eine App oder einen Service mit Ihrem eigenen Branding umbenennen und so anpassen, als wären Sie der ursprüngliche Ersteller. In Adobe Learning Manager kannst du die Mobile App mit einer weißen Beschriftung versehen, sodass du ein Rebranding der App vornehmen und die App deinen Benutzern unter deinem eigenen Branding zur Verfügung stellen kannst.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 977799953123eafbbaf22732c79be4b8ea2e3e1a
+source-git-commit: aceee425ceb799fa3f742ac813bb35df16b34371
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1519'
 ht-degree: 0%
 
 ---
@@ -372,6 +372,52 @@ sh""" ~/Library/Android/sdk/build-tools/30.0.3/apksigner sign --ks $storeFile --
 >[!NOTE]
 >
 >Zum Erstellen der signierten Binärdateien benötigen Sie die SDK-Build-Tools von Android.
+
+Der Play Store erfordert für die Veröffentlichung Android-Binärdateien im arabischen Format. Daher stellen wir die nicht signierte .aab-Datei zur Verfügung.
+
+Hier ist eine überarbeitete Version:
+
+>[!NOTE]
+>
+>Beim Erstellen einer KeyStore-Datei müssen Sie ein KeyStore-Kennwort, einen Signaturschlüssel-Alias und ein Signaturschlüssel-Alias-Kennwort generieren.
+
+Führen Sie die folgenden Schritte aus, um die .aab-Datei zu signieren:
+
+Führen Sie den folgenden Befehl aus:
+
+```
+<path>/jarsigner -verbose -sigalg SHA256withRSA -digestalg SHA-256 -keystore <keystore-file> app-release.aab <signingKeyAlias>
+```
+
+>[!NOTE]
+>
+>Der **[!UICONTROL jarsigner]** ist in Java enthalten. Stellen Sie sicher, dass Sie Java 21 verwenden.
+
+Wenn Sie dazu aufgefordert werden, geben Sie die folgenden Kennwörter ein:
+
+* Keystore-Kennwort
+* Kennwort für Signaturschlüsselalias
+
+Sie können die bereitgestellte App verwenden. Wenn Sie jedoch eine APK aus einer AB-Datei generieren müssen, führen Sie folgende Schritte aus:
+
+>[!NOTE]
+>
+>Sie müssen **[!UICONTROL bundletool]** installieren, um APKs zu generieren.
+
+
+Führen Sie den folgenden Befehl aus, um die apk-Datei zu erstellen:
+
+```
+java -jar <path>/bundletool-all.jar  build-apks --bundle=app-release.aab --output=my_app.apks --mode=universal
+```
+
+Führen Sie den folgenden Befehl aus, um die Datei zu entpacken:
+
+```
+unzip my_app.apks -d output_dir
+```
+
+Sie erhalten die apk-Datei aus dem Ordner **[!UICONTROL output_dir]**.
 
 **Nächste Schritte**
 

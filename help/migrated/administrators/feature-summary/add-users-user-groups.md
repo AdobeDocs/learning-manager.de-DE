@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Hinzufügen von Benutzern und Erstellen von Benutzergruppen
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 890775dafffd3b9d717c39507490977f51f163d4
+source-git-commit: aceee425ceb799fa3f742ac813bb35df16b34371
 workflow-type: tm+mt
-source-wordcount: '4050'
-ht-degree: 62%
+source-wordcount: '4061'
+ht-degree: 61%
 
 ---
 
@@ -235,7 +235,7 @@ Es gibt einige Unterschiede zwischen internen und externen Registrierungen.
    <td>
     <p>Gamification ist verfügbar.</p></td>
    <td>
-    <p>Gamification ist nicht verfügbar.</p></td>
+    <p>Gamification ist verfügbar. Der Administrator muss Gamification für externe Teilnehmer in den Gamification-Einstellungen aktivieren.</p></td>
   </tr>
   <tr>
    <td>
