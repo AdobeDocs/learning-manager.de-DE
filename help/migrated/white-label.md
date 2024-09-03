@@ -4,9 +4,9 @@ title: White Labels in der mobilen Adobe Learning Manager-App
 description: White Labels sind eine Praxis, bei der Sie eine App oder einen Service mit Ihrem eigenen Branding umbenennen und so anpassen, als wären Sie der ursprüngliche Ersteller. In Adobe Learning Manager kannst du die Mobile App mit einer weißen Beschriftung versehen, sodass du ein Rebranding der App vornehmen und die App deinen Benutzern unter deinem eigenen Branding zur Verfügung stellen kannst.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: aceee425ceb799fa3f742ac813bb35df16b34371
+source-git-commit: a137da066faf4fd562354474b25e908f3298bf57
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1515'
 ht-degree: 0%
 
 ---
@@ -374,8 +374,6 @@ sh""" ~/Library/Android/sdk/build-tools/30.0.3/apksigner sign --ks $storeFile --
 >Zum Erstellen der signierten Binärdateien benötigen Sie die SDK-Build-Tools von Android.
 
 Der Play Store erfordert für die Veröffentlichung Android-Binärdateien im arabischen Format. Daher stellen wir die nicht signierte .aab-Datei zur Verfügung.
-
-Hier ist eine überarbeitete Version:
 
 >[!NOTE]
 >
