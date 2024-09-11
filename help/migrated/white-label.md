@@ -4,9 +4,9 @@ title: White Labels in der mobilen Adobe Learning Manager-App
 description: White Labels sind eine Praxis, bei der Sie eine App oder einen Service mit Ihrem eigenen Branding umbenennen und so anpassen, als wären Sie der ursprüngliche Ersteller. In Adobe Learning Manager kannst du die Mobile App mit einer weißen Beschriftung versehen, sodass du ein Rebranding der App vornehmen und die App deinen Benutzern unter deinem eigenen Branding zur Verfügung stellen kannst.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: a137da066faf4fd562354474b25e908f3298bf57
+source-git-commit: 1be901d1667c53ced996953440df6293485a4088
 workflow-type: tm+mt
-source-wordcount: '1515'
+source-wordcount: '1627'
 ht-degree: 0%
 
 ---
@@ -352,22 +352,66 @@ Verwenden Sie dasselbe Projekt, das Sie in den Schritten oben erstellt haben, f�
 
 ### iOS
 
-```
+<!--```
 sh""" xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath "ipa_path/" -exportOptionsPlist {ExportFile} 
 
 mv ipa_path/*.ipa "${env.AppName}_signed.ipa" """ 
-```
+```-->
+
+Der Stammordner enthält die Datei **Runner.xcarchive.zip**. Führen Sie die folgenden Befehle aus, um die signierte Binärdatei zu generieren:
+
+1. Führen Sie den folgenden Befehl aus, um das Archiv zu entpacken:
+
+   ```
+   unzip Runner.xcarchive.zip
+   ```
+
+2. Navigieren Sie zum App-Verzeichnis:
+
+   ```
+   cd Runner.xcarchive/Products/Applications/Runner.app
+   ```
+
+3. Kopieren Sie die mobile Bereitstellungsdatei:
+
+   ```
+   cp <path>/<mobile-provisioningfile>.mobileprovision embedded.mobileprovision
+   ```
+
+4. Kehren Sie zum Stammverzeichnis zurück (in dem sich Runner.xcarchive.zip befindet):
+
+   ```
+   cd <root>
+   ```
+
+5. Exportieren Sie das Archiv mit xcodebuild:
+
+   ```
+   xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath ipa_path/ -exportOptionsPlist <path>/<ExportOptions-file>.plist
+   ```
+
+6. Suchen Sie die .ipa-Datei im Ordner ipa_path.
+7. Laden Sie die .ipa-Datei auf die Diawi-Website hoch.
+8. Wählen Sie nach dem vollständigen Hochladen die Schaltfläche **[!UICONTROL Senden]** aus.
+9. Nach der Fertigstellung erhalten Sie einen QR-Code und einen Link.
+10. Öffnen Sie den QR-Code oder verknüpfen Sie ihn direkt in Safari.
+
+Wenn das Gerät im Bereitstellungsprofil enthalten ist, sollte die Installation auf dem Gerät fortgesetzt werden.
 
 >[!NOTE]
 >
 >Sie benötigen XCode 15.2 oder höher, um die signierten Binärdateien zu erstellen.
 
 
-## Android
+### Android
+
+**Für APK-Datei**
 
 ```
-sh""" ~/Library/Android/sdk/build-tools/30.0.3/apksigner sign --ks $storeFile --ks-pass "pass:$store\_password" --ks-key-alias $key\_alias --key-pass "pass:$key\_password" --out app-release-signed.apk -v app-release.apk """
+sh""" <path>/apksigner sign --ks $storeFile --ks-pass "pass:$store_password" --ks-key-alias $key_alias --key-pass "pass:$key_password" --out app-release-signed.apk -v app-release.apk """
 ```
+
+**Für eine ABB-Datei**
 
 >[!NOTE]
 >
