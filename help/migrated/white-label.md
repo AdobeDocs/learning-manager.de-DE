@@ -4,9 +4,9 @@ title: White Labels in der mobilen Adobe Learning Manager-App
 description: White Labels sind eine Praxis, bei der Sie eine App oder einen Service mit Ihrem eigenen Branding umbenennen und so anpassen, als wären Sie der ursprüngliche Ersteller. In Adobe Learning Manager kannst du die Mobile App mit einer weißen Beschriftung versehen, sodass du ein Rebranding der App vornehmen und die App deinen Benutzern unter deinem eigenen Branding zur Verfügung stellen kannst.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 1be901d1667c53ced996953440df6293485a4088
+source-git-commit: f146b3b9c278f1ac05ecaf741c6617f31982e3ac
 workflow-type: tm+mt
-source-wordcount: '1627'
+source-wordcount: '1625'
 ht-degree: 0%
 
 ---
@@ -358,7 +358,7 @@ sh""" xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath "ipa_p
 mv ipa_path/*.ipa "${env.AppName}_signed.ipa" """ 
 ```-->
 
-Der Stammordner enthält die Datei **Runner.xcarchive.zip**. Führen Sie die folgenden Befehle aus, um die signierte Binärdatei zu generieren:
+Der Ordner `<root>` enthält die Datei **Runner.xcarchive.zip**. Führen Sie die folgenden Befehle aus, um die signierte Binärdatei zu generieren:
 
 1. Führen Sie den folgenden Befehl aus, um das Archiv zu entpacken:
 
@@ -378,7 +378,7 @@ Der Stammordner enthält die Datei **Runner.xcarchive.zip**. Führen Sie die fol
    cp <path>/<mobile-provisioningfile>.mobileprovision embedded.mobileprovision
    ```
 
-4. Kehren Sie zum Stammverzeichnis zurück (in dem sich Runner.xcarchive.zip befindet):
+4. Kehren Sie zum Ordner &quot;`<root>`&quot; zurück (in dem sich Runner.xcarchive.zip befindet):
 
    ```
    cd <root>
