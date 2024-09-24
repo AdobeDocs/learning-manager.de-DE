@@ -4,9 +4,9 @@ title: White Labels in der mobilen Adobe Learning Manager-App
 description: White Labels sind eine Praxis, bei der Sie eine App oder einen Service mit Ihrem eigenen Branding umbenennen und so anpassen, als wären Sie der ursprüngliche Ersteller. In Adobe Learning Manager kannst du die Mobile App mit einer weißen Beschriftung versehen, sodass du ein Rebranding der App vornehmen und die App deinen Benutzern unter deinem eigenen Branding zur Verfügung stellen kannst.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: f146b3b9c278f1ac05ecaf741c6617f31982e3ac
+source-git-commit: b9809314014fcd8c80f337983c0b0367c060e348
 workflow-type: tm+mt
-source-wordcount: '1625'
+source-wordcount: '1624'
 ht-degree: 0%
 
 ---
@@ -391,7 +391,7 @@ Der Ordner `<root>` enthält die Datei **Runner.xcarchive.zip**. Führen Sie die
    ```
 
 6. Suchen Sie die .ipa-Datei im Ordner ipa_path.
-7. Laden Sie die .ipa-Datei auf die Diawi-Website hoch.
+7. Laden Sie die IPA-Datei auf die Website `Diawi` hoch.
 8. Wählen Sie nach dem vollständigen Hochladen die Schaltfläche **[!UICONTROL Senden]** aus.
 9. Nach der Fertigstellung erhalten Sie einen QR-Code und einen Link.
 10. Öffnen Sie den QR-Code oder verknüpfen Sie ihn direkt in Safari.
