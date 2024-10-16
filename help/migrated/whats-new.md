@@ -3,9 +3,9 @@ description: Erfahren Sie mehr über die neuen Funktionen und Verbesserungen in 
 jcr-language: en_us
 title: Zusammenfassung der neuen Funktionen
 exl-id: e63c3d9a-4b91-4acb-950f-8b1cdb0caa1a
-source-git-commit: 998978a5ba74377ef91b6a623367206643476ecc
+source-git-commit: 8d647f492d6073ed4b16d44e16548a3defdca02a
 workflow-type: tm+mt
-source-wordcount: '2255'
+source-wordcount: '2325'
 ht-degree: 3%
 
 ---
@@ -231,6 +231,12 @@ APIs, die die Sortierung nach Datum und Datum unterstützen, zeigen Ergebnisse b
 ### Änderungen an den Versatzgrenzen
 
 Um die Systemleistung zu verbessern und die Ressourcennutzung effektiver zu verwalten, verfügt Adobe über veraltete hohe Offsetwerte im Endpunkt GET /users sowohl für den ADMIN- als auch den LEARNER-Bereich. Es wird empfohlen, die Jobs-API zu verwenden, um die Datensätze mit einem Offsetwert abzurufen.
+
+### Änderungen bei der RPM- und Burstbegrenzung
+
+In dieser Version wurden RPM (Requests Per Minute)- und Burst-Limits für alle APIs hinzugefügt. Sie können die maximale RPM für jede API auf der Swagger-Seite überprüfen.
+
+RPM ist die Anzahl der Anforderungen, die Sie in einer Minute an den API-Server senden können. Das Burst-Limit erlaubt eine höhere Anzahl von Anfragen für eine kurze Zeit, die über das übliche Ratenlimit hinausgeht.
 
 ### Veraltete APIs
 

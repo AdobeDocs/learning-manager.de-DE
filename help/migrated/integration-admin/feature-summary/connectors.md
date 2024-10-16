@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Learning Manager-Connectors
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 4b6426f836b345421401103db0f14c353323c3fc
+source-git-commit: 8d647f492d6073ed4b16d44e16548a3defdca02a
 workflow-type: tm+mt
 source-wordcount: '15848'
 ht-degree: 59%
@@ -2103,7 +2103,7 @@ Verbindungsnamen und Domänennamen eingeben
 1. Wählen Sie den **[!UICONTROL Schnittstellentyp]** aus den folgenden Optionen aus:
 
    * **[!UICONTROL Nativer Lern-Manager]**: Dies ist das Standardangebot, das nur für die native Schnittstelle verfügbar ist.
-***[!UICONTROL Headless-Schnittstellen]**: Dies ist das Premium-Angebot, das APIs zum Erstellen eines nicht angemeldeten Erlebnisses verfügbar macht.
+   * **[!UICONTROL Headless-Schnittstellen]**: Dies ist das Premium-Angebot, das APIs zum Erstellen eines nicht angemeldeten Erlebnisses verfügbar macht.
 
    ![](assets/types-of-interface.png)
 Schnittstellentypen
