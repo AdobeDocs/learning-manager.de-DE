@@ -2,7 +2,7 @@
 jcr-language: en_us
 title: KI-gestützte Suche in Adobe Learning Manager
 description: KI-gestützte Suche in Adobe Learning Manager
-source-git-commit: c23a8f958910b130a1e8591c97d323523f864f1b
+source-git-commit: 9005b77444135c2709ca3fc68b9bdd725f521290
 workflow-type: tm+mt
 source-wordcount: '271'
 ht-degree: 0%
@@ -21,7 +21,7 @@ _Kontextuelle Suchergebnisse basierend auf AI_
 
 Wenn wir im obigen Screenshot nach **Fotoshop getting started** suchen, zeigt die KI-gestützte Suche die genauesten Ergebnisse für dieses Schlüsselwort an.
 
-Diese Funktion durchsucht Ihre Inhalte und Kurstitel, Beschreibungen, Tags, personalisierte Notizen und andere Metadaten von Drittanbietern. Der Algorithmus transkribiert und sucht automatisch direkt im Transkript nach Inhaltstypen wie Video, PDF und sogar Aufzeichnungen aus Adobe Connect-Sitzungen.
+Diese Funktion durchsucht Ihre Inhalte und Kurstitel, Beschreibungen, Tags, personalisierte Notizen und andere Metadaten von Drittanbietern. Der Algorithmus transkribiert und sucht automatisch direkt im Transkript nach Inhaltstypen wie Video, PDF und sogar Aufzeichnungen aus **Adobe Connect**-Sitzungen.
 
 Der Algorithmus verwendet ausgefeilte KI und NLP (Natural Language Processing), um die Suchabfrage zu verstehen, die wesentlichen Schlüsselwörter zu markieren und die anderen Ausdrücke aus der gesuchten Abfrage logisch zu erweitern. Diese Abfrageerweiterung verstärkt relevante Begriffe und semantisch verwandten Kontext, um Kurse, Zertifikate oder Lernpfade intelligenter abzurufen. Die semantische Suche unterstützt derzeit nur englische Inhalte.
 
