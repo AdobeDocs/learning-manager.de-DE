@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Berichte
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: e7fc4216fea9afffc277f93f4b3c1e8e58b7a2ed
+source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
 workflow-type: tm+mt
-source-wordcount: '7133'
-ht-degree: 57%
+source-wordcount: '7828'
+ht-degree: 53%
 
 ---
 
@@ -289,63 +289,107 @@ Um ein Kompatibilitäts-Dashboard zu erstellen und freizugeben, führen Sie die 
 >
 >Wenn Sie das neue Dashboard freigeben, wird das vorhandene Dashboard in der App des ausgewählten Managers überschrieben. Manager können das neu freigegebene Dashboard von den Administratoren anzeigen.
 
-<!--In the final visualization, you can check the compliance status of learners, and take appropriate action.
+#### Freigabe des Compliance-Dashboards für Administratoren und benutzerdefinierte Administratoren
 
-Also, an Admin can view individual training data in the **[!UICONTROL Compliance Dashboard]**.
+Administratoren können das Dashboard für andere Administratoren und benutzerdefinierte Administratoren freigeben, sodass sie sofort Zugriff auf alle Compliance-Dashboards haben.
 
-For instance, the Administrator has identified three trainings to track compliance. Learning Manager provides the compliance snapshot for all three trainings at once.
+Führen Sie die folgenden Schritte aus, um das Dashboard für Administratoren und benutzerdefinierte Administratoren freizugeben:
 
-Now an Admin can click on any training and quickly view the compliance for the selected training.
+1. Melden Sie sich als **[!UICONTROL Administrator]** an.
+2. Navigieren Sie zu **[!UICONTROL Berichte]** > **[!UICONTROL Lernzusammenfassung]**.
+3. Wählen Sie im Abschnitt **[!UICONTROL Kompatibilitäts-Dashboard]** die Option **[!UICONTROL Administratoransicht]** aus.
+4. Wählen Sie die Schaltfläche **[!UICONTROL Dashboard freigeben]**.
 
-![](assets/compliance-dashboard.png)
-*View Compliance dashboard*
+   ![](assets/share-dashboard.png)
+   _Dashboard freigeben - Administrator_
 
-You can also see the compliance status for each internal team.
+5. Wählen Sie die Konformitätsbezeichnungen aus dem Dropdown-Menü **[!UICONTROL Benutzerdefinierte Konformität auswählen]** aus. Mit dieser Option werden alle Kurse ausgewählt, die über die ausgewählten Compliance-Beschriftungen verfügen.
+6. Wählen Sie die zusätzlichen Kurse, Lernpfade oder Zertifizierungen aus, die Sie für Administratoren freigeben möchten.
 
-Click the link **[!UICONTROL Compliance Status Details]** on the bottom of the visualization. 
+   ![](assets/share-button.png)
+   _Kompatibilitäts-Dashboard freigeben_
 
-You can see that, for a team, the number of learners in the team are violating or honoring the learning compliance.
+7. Wählen Sie die Benutzer oder Benutzergruppen aus, für die Sie das Dashboard freigeben möchten, und wählen Sie **[!UICONTROL Freigeben]** aus.
 
-![](assets/compliance-statusofateam.png)
-*Compliance status of a team*
+##### Kompatibilitäts-Dashboard anzeigen - Benutzerdefinierte Administratoren und andere Administratoren
 
-### Share training with managers
+Alle benutzerdefinierten Administratoren und andere Administratoren aus der ausgewählten Benutzergruppe können das Kompatibilitäts-Dashboard in ihrer App sehen.
 
-Learning Manager offers compliance dashboard to all Administrators and Managers. Managers find it very useful to track compliance of their team members for a particular training. At the same time, Administrators would like all Managers to add compliance trainings to their dashboard and track it. 
+Führen Sie die folgenden Schritte aus, um das Kompatibilitäts-Dashboard anzuzeigen:
 
-In Learning Manager, the **[!UICONTROL Share with Managers]** workflow allows Administrators to share training with Managers, so that they can get added to a manager's Compliance Dashboard. Thus, Managers do not need to take any action and can start tracking compliance immediately. 
+1. Navigieren Sie zum **[!UICONTROL Berichte]** > **[!UICONTROL Übersicht zu Lernprogrammen]** > **[!UICONTROL Kompatibilitäts-Dashboard]**.
+2. Wählen Sie im Abschnitt **[!UICONTROL Kompatibilitäts-Dashboard]** die Option **[!UICONTROL Ihre Ansicht]** aus.
+3. Wählen Sie die Option **[!UICONTROL Zum Kompatibilitäts-Dashboard wechseln]** aus, und das neue Kompatibilitäts-Dashboard wird vom Administrator freigegeben.
 
-An Administrator can share a set of training courses with managers individually or with a group. This sharing can help a manager easily track the compliance of his/her team for the specified training.
+   ![](assets/compliance-custom-view.png)
+   _Kompatibilitäts-Dashboard anzeigen - Benutzerdefinierter Administrator_
 
-The Administrator can "push" a default list of compliance training to be viewed in the manager's compliance dashboard.
+#### Freigabe für Store Manager
 
-### Share training
+Administratoren können das Compliance-Dashboard für Store Manager freigeben, sodass sie den Compliance-Fortschritt ihrer Teilnehmer überwachen können.
 
-1. In **[!UICONTROL Reports]** > **[!UICONTROL Learning Summary]**, scroll down, and click the tab **[!UICONTROL Share with Managers]**. 
+Führen Sie die folgenden Schritte aus, um das Dashboard für Filialleiter freizugeben:
 
-   ![](assets/share-with-managers.png)
-   *Share training with managers*
+1. Melden Sie sich als **[!UICONTROL Administrator]** an.
+2. Navigieren Sie zum **[!UICONTROL Berichte]** > **[!UICONTROL Übersicht zu Lernprogrammen]** > **[!UICONTROL Kompatibilitäts-Dashboard]**.
+3. Wählen Sie im Abschnitt **[!UICONTROL Kompatibilitäts-Dashboard]** die Option **[!UICONTROL Manager-Ansicht]** aus.
+4. Wählen Sie die Schaltfläche **[!UICONTROL Dashboard freigeben]**.
 
-1. To add training or multiple training, click **[!UICONTROL Share more]**.   
+   ![](assets/share-manager.png)
+   _Das Kompatibilitäts-Dashboard für Manager freigeben_
 
-1. In the **[!UICONTROL Share with Managers]** dialog, choose the training(s) and the manager(s).
+5. Wählen Sie die Konformitätsbezeichnungen aus dem Dropdown-Menü **[!UICONTROL Benutzerdefinierte Konformität auswählen]** aus.
+Mit dieser Option werden alle Kurse ausgewählt, die über die ausgewählten Compliance-Beschriftungen verfügen.
+6. Wählen Sie die zusätzlichen Kurse, Lernpfade oder Zertifizierungen aus, die Sie für Administratoren freigeben möchten.
+7. Wählen Sie die Benutzer oder Benutzergruppen aus, für die Sie das Dashboard freigeben möchten, und wählen Sie **[!UICONTROL Freigeben]** aus.
 
-   ![](assets/select-training.png)
-   *Select training to share with managers*
+##### Compliance-Dashboard anzeigen - Manager
 
-1. Click **[!UICONTROL Share]**.
+Weitere Informationen finden Sie in diesem Artikel [Anzeigen des Kompatibilitäts-Dashboard](/help/migrated/managers/feature-summary/manager-dashboard.md#view-the-dashboard).
 
-The training is now shared with the specified manager.
+#### Das Dashboard bearbeiten.
 
-### View training
+Führen Sie die folgenden Schritte aus, um das Kompatibilitäts-Dashboard zu bearbeiten:
 
-In the list of shared training, click **[!UICONTROL View]**. You can view the training that is assigned to a manager or some managers.
+1. Melden Sie sich als **[!UICONTROL Administrator]** an.
+2. Navigieren Sie zum **[!UICONTROL Berichte]** > **[!UICONTROL Übersicht zu Lernprogrammen]** > **[!UICONTROL Kompatibilitäts-Dashboard]**.
+3. Wählen Sie im Abschnitt **[!UICONTROL Kompatibilitäts-Dashboard]** die Option **[!UICONTROL Admin-Ansicht]** oder **[!UICONTROL Manager-Ansicht]**. Sie können die Kompatibilitäts-Dashboards in diesem Abschnitt sehen.
+4. Wählen Sie im Kompatibilitäts-Dashboard, das Sie bearbeiten möchten, **[!UICONTROL Bearbeiten]** aus.
 
-### Withdraw training
+   ![](assets/edit.png)
+   _Kompatibilitäts-Dashboard bearbeiten_
 
-1. To withdraw training from a manager, click **[!UICONTROL Withdraw]**.  
+5. Ändern Sie die erforderlichen Details und wählen Sie **[!UICONTROL Freigeben]**.
+6. Das Kompatibilitäts-Dashboard wird für die ausgewählten Manager freigegeben.
 
-1. Click **[!UICONTROL Proceed]**. This withdraws previously shared training from the Manager's compliance dashboard.-->
+#### Dashboard zurückziehen - Administrator
+
+Führen Sie die folgenden Schritte aus, um das Kompatibilitäts-Dashboard zurückzuziehen:
+
+1. Melden Sie sich als **[!UICONTROL Administrator]** an.
+2. Navigieren Sie zum **[!UICONTROL Berichte]** > **[!UICONTROL Übersicht zu Lernprogrammen]** > **[!UICONTROL Kompatibilitäts-Dashboard]**.
+3. Wählen Sie im Abschnitt **[!UICONTROL Kompatibilitäts-Dashboard]** die Option **[!UICONTROL Admin-Ansicht]** oder **[!UICONTROL Manager-Ansicht]**. Sie können die Kompatibilitäts-Dashboards in diesem Abschnitt sehen.
+4. Wählen Sie im Kompatibilitäts-Dashboard, das Sie entfernen möchten, **[!UICONTROL Zurücknehmen]** aus und wählen Sie **[!UICONTROL Fortfahren]**.
+5. Durch diese Aktion wird das freigegebene Kompatibilitäts-Dashboard aus der App des Managers entfernt.
+
+   ![](assets/manager-edit.png)
+   _Das Kompatibilitäts-Dashboard zurückziehen_
+
+#### Festlegen des standardmäßigen Compliance-Widgets für Teilnehmer
+
+Führen Sie die folgenden Schritte aus, um das Standard-Widget für die Konformität für Teilnehmer festzulegen:
+
+1. Melden Sie sich als **[!UICONTROL Administrator]** an.
+2. Navigieren Sie zum **[!UICONTROL Berichte]** > **[!UICONTROL Übersicht zu Lernprogrammen]** > **[!UICONTROL Kompatibilitäts-Dashboard]**.
+3. Wählen Sie im Abschnitt **[!UICONTROL Kompatibilitäts-Dashboard]** die Option **[!UICONTROL Teilnehmeransicht]** aus.
+4. Wählen Sie **[!UICONTROL Ändern]** im Abschnitt **[!UICONTROL Teilnehmeransicht]** aus.
+
+   ![](assets/learner-widget.png)
+   _Festlegen des Standard-Widgets für die Konformität für Teilnehmer_
+5. Wählen Sie die Konformitätsbezeichnungen aus der Dropdown-Liste **[!UICONTROL Benutzerdefinierte Konformität]** aus. Mit dieser Option werden alle Kurse ausgewählt, die über die ausgewählten Compliance-Beschriftungen verfügen.
+6. Wählen Sie &quot;**[!UICONTROL Weiter]**&quot;, um das Standardrichtlinienwidget festzulegen.
+
+Teilnehmer können die ausgewählten Kurse oder Lernpfade auf dem Konformitäts-Widget auf ihrer Startseite anzeigen. Weitere Informationen finden Sie unter [Kompatibilitäts-Dashboard-Widget](/help/migrated/learners/feature-summary/learner-home-page.md#compliance-dashboard-widget).
 
 ## Benutzerdefinierte Berichte
 
@@ -846,6 +890,34 @@ Der Bericht enthält Folgendes:
 * Erinnerung für Lernelement
 * Bereichskatalog
 * Bereichsbenutzergruppe
+
+### Audit-Protokoll für benutzerdefinierte Rollen
+
+Administratoren können den Audit-Bericht für benutzerdefinierte Rollen herunterladen, um alle Änderungen an den benutzerdefinierten Rollen zu verfolgen, einschließlich des Erstellens, Änderns und Löschens benutzerdefinierter Rollen und des zugehörigen Funktionszugriffs.
+
+Führen Sie die folgenden Schritte aus, um den Bericht herunterzuladen:
+
+1. Melden Sie sich als Administrator an.
+2. Wählen Sie Berichte > Benutzerdefinierte Berichte.
+3. Wählen Sie Benutzerdefiniertes Rollenprüfprotokoll aus und wählen Sie den Datumsbereich aus.
+4. Wählen Sie Generieren , um den Bericht herunterzuladen.
+
+Der Audit-Bericht für benutzerdefinierte Rollen enthält die folgenden Felder:
+
+* Rollen-ID
+* Rollenname
+* Aktivitätstyp
+* Modifizierungstyp
+* Beschreibung
+* Referenzierter Objekttyp
+* Referenzierte Objekt-ID
+* Referenzierter Objektname
+* Referenzierte Objekt-E-Mail
+* Modifiziert durch Benutzername
+* Geändert von Benutzer-UUID
+* Modifiziert durch Benutzer-E-Mail
+* Änderungsdatum (UTC-Zeitzone)
+* Quelle
 
 ## E-Mail Abonnements {#emailsubscriptions}
 

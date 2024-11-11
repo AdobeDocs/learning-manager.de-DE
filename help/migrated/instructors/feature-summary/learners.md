@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Verwalten der Teilnehmer für Ihre Sitzung
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 91%
+source-wordcount: '1029'
+ht-degree: 84%
 
 ---
 
@@ -41,6 +41,32 @@ Kursleiter haben die Möglichkeit, die Registrierung von Teilnehmern für Sitzun
 
 ![](assets/unenroll-learners.png)
 *Registrierung der Teilnehmer aufheben*
+
+### Wartelistenbericht
+
+Mit dem neuen **[!UICONTROL Wartelistenbericht]** von Adobe Learning Manager können Kursleiter die Liste der auf die Warteliste gesetzten Teilnehmer für alle Instanzen eines Kurses herunterladen. Kursleiter können über den Abschnitt **[!UICONTROL Warteliste]** auf der Seite **[!UICONTROL Sitzungsübersicht]** auf diesen Bericht zugreifen.
+
+Die folgenden Spalten sind im Bericht &quot;Warteliste&quot; verfügbar:
+
+* Kursname
+* Instanzname
+* Instanzen-ID
+* Instanzenstatus
+* Benutzername
+* E-Mail
+* Eindeutige ID des Benutzers
+* Registriert am (UTC-Zeitzone)
+* Status
+* Warteliste Nummer
+* Limit für Warteliste
+* Maximale Anzahl Lizenzen
+
+So laden Sie den Bericht im Abschnitt &quot;Kursleiter&quot; herunter:
+
+1. Melden Sie sich als **[!UICONTROL Kursleiter]** an.
+2. Wählen Sie eine beliebige Sitzung auf der Startseite aus.
+3. Wählen Sie die Option **[!UICONTROL Warteliste]** auf der Seite **[!UICONTROL Sitzungsübersicht]** aus.
+4. Wählen Sie **[!UICONTROL Aktionen]** > **[!UICONTROL Bericht exportieren]**, um den Bericht **[!UICONTROL Warteliste]** herunterzuladen.
 
 ## Vermerken der Teilnahme an Ihrer Sitzung {#markattendanceforyoursession}
 

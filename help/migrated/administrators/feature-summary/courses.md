@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Erstellen von Kursinstanzen und Lernpfaden
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: c7969e9386241f316c8ff2590f8015ebc594c3e6
+source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
 workflow-type: tm+mt
-source-wordcount: '4866'
-ht-degree: 61%
+source-wordcount: '5111'
+ht-degree: 58%
 
 ---
 
@@ -235,6 +235,35 @@ Wenn ein Teilnehmer, der zuvor den Status „Genehmigung ausstehend“ aufwies, 
 ## Warteliste
 
 Im Abschnitt &quot;Warteliste&quot; können Teilnehmer auf die Warteliste für Klassenzimmerkurse gesetzt werden, wenn die Lizenzen begrenzt sind, basierend auf ihrer Reihenfolge der Registrierung. Administratoren können dies verwalten, indem sie Teilnehmer auf der Warteliste auswählen und Lizenzen zuweisen, die über das ursprüngliche Limit hinausgehen. Sobald der Administrator eine Lizenz zugewiesen hat, wird der Teilnehmer sofort für den Kurs registriert.
+
+### Wartelistenbericht
+
+Mit Adobe Learning Manager können Administratoren die Liste der auf die Warteliste gesetzten Teilnehmer für alle Instanzen eines Kurses herunterladen. Administratoren können über den Abschnitt &quot;Warteliste&quot; auf der Seite **[!UICONTROL Kursübersicht]** auf diesen Bericht zugreifen.
+
+Die folgenden Spalten sind im Bericht &quot;Warteliste&quot; verfügbar:
+
+* Kursname
+* Instanzname
+* Instanzen-ID
+* Instanzenstatus
+* Benutzername
+* E-Mail
+* Eindeutige ID des Benutzers
+* Registriert am (UTC-Zeitzone)
+* Status
+* Warteliste Nummer
+* Limit für Warteliste
+* Maximale Anzahl Lizenzen
+
+So laden Sie den Bericht aus dem Admin-Bereich herunter:
+
+1. Melden Sie sich als **[!UICONTROL Admin]** an.
+2. Wechseln Sie zum Abschnitt **[!UICONTROL Kurs]** und wählen Sie den erforderlichen Kurs aus.
+3. Wählen Sie die Option **[!UICONTROL Warteliste]** auf der Seite **[!UICONTROL Kursübersicht]** aus.
+4. Wählen Sie **[!UICONTROL Aktionen]** > **[!UICONTROL Bericht exportieren]**, um den Bericht **[!UICONTROL Warteliste]** herunterzuladen.
+
+   ![](assets/export-report-waitlist.png)
+   _Bericht exportieren_
 
 ## Teilnehmeranwesenheit exportieren {#attendance}
 
@@ -498,6 +527,31 @@ Zum Senden der E-Mail-Benachrichtigungen muss ein Administrator explizit die Esk
 ![](assets/escalation-notification.png)
 
 *Eskalationsstufe festlegen*
+
+## Abschlusskommentare
+
+Administratoren können Kommentare hinterlassen, wenn sie einen Teilnehmer als abgeschlossen für Kurse, Lernpfade oder Zertifizierungen markieren. Diese Kommentare unterstützen Compliance- und Auditzwecke. Administratoren können ganz einfach Kommentare für einen oder mehrere Teilnehmer gleichzeitig hinzufügen.
+
+### Abschlusskommentare hinzufügen
+
+Führen Sie die folgenden Schritte aus, um Abschlusskommentare hinzuzufügen:
+
+1. Melden Sie sich als **[!UICONTROL Administrator]** an.
+2. Gehen Sie zur Seite **[!UICONTROL Kurse]** und wählen Sie einen Kurs aus.
+3. Wählen Sie auf der Kursseite **[!UICONTROL Teilnehmer]** aus.
+4. Wählen Sie den einzelnen Teilnehmer oder mehrere Teilnehmer aus.
+5. Wählen Sie **[!UICONTROL Aktionen]** aus und wählen Sie dann **[!UICONTROL  Als abgeschlossen markieren]**.
+6. Geben Sie den Abschlusskommentar in das Dialogfeld ein.
+
+   ![](assets/comments.png)
+   _Abschlusskommentar_
+
+Dieser Prozess ist für Lernpfade und Zertifizierungen identisch. Bei Lernpfaden können Sie filtern, um alle Kurse oder nur einzelne Kurse auszuwählen, die als abgeschlossen markiert werden sollen.
+
+![](assets/learning-path.png)
+_Mehrere Kurse für den Abschluss auswählen_
+
+Die Kommentare sind im Bericht [Teilnehmertranskripte](/help/migrated/administrators/feature-summary/reports.md#learner-transcripts) sichtbar.
 
 ## Kursvorschau {#previewcourses}
 

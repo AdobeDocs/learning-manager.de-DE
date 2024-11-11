@@ -4,9 +4,9 @@ title: Handbuch für Anwendungsentwickler
 description: Die Learning Manager V1-API ist jetzt veraltet. Die V1-APIs funktionieren ab dem 28. Februar 2021 nicht mehr. Wir empfehlen Ihnen, V2-APIs zu verwenden, um mit dem Learning Manager zu interagieren.
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
+source-git-commit: a27c1566678d697512a75d94804b8804b5dc9b2b
 workflow-type: tm+mt
-source-wordcount: '3385'
+source-wordcount: '3377'
 ht-degree: 63%
 
 ---
@@ -134,7 +134,7 @@ Wenn eine API-Anforderung fehlschlägt, geht eine Fehlerantwort ein. Der in der 
 
 Die Attribute des API-Objekts und seine Beziehungen werden zusammenfassend als Felder bezeichnet. Weitere Informationen finden Sie unter [JSON API.](http://jsonapi.org/format/#document-resource-object-fields) Sie können Felder als Parameter beim Durchführen von API-Aufrufen verwenden, um ein oder mehrere bestimmte Attribute aus dem Modell abzurufen. Wenn der Fields-Parameter fehlt, ruft der API-Aufruf alle verfügbaren Attribute aus dem Modell ab. Im folgenden API-Aufruf ruft fields[skill]=name beispielsweise nur das name-Attribut des Kenntnismodells ab.
 
-https://learningmanager.adobe.com/primeapi/v2/users/{userId}/userSkills/{id}?include=skillLevel.skill&amp;fields[skill]=name
+`https://learningmanager.adobe.com/primeapi/v2/users/{userId}/userSkills/{id}?include=skillLevel.skill&fields[skill]=name `
 
 **Paginierung**
 

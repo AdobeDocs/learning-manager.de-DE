@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Versionshinweise zu Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: aae70c4dc7c0e613794c294a39001071e9f131d4
+source-git-commit: a655c86ab14f23fc9954229244d94a79d3188642
 workflow-type: tm+mt
-source-wordcount: '26251'
+source-wordcount: '26237'
 ht-degree: 72%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 72%
 
 ## Neue Funktionen in dieser Version
 
-Unter [Neue Funktionen in Adobe Learning Manager](/help/migrated/whats-new.md) finden Sie weitere Informationen.
+Unter [Neue Funktionen in Adobe Learning Manager](/help/migrated/whats-new-july-2024.md) finden Sie weitere Informationen.
 +++
 
 +++Update 96: Die Version März 2024 von Adobe Learning Manager
@@ -47,7 +47,7 @@ Unter [Neue Funktionen in Adobe Learning Manager](/help/migrated/whats-new-march
 
 ## Neue Funktionen in dieser Version
 
-Unter [Neue Funktionen in Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/whats-new-november-2023) finden Sie weitere Informationen.
+Unter [Neue Funktionen in Adobe Learning Manager](/help/migrated/whats-new-november-2023.md) finden Sie weitere Informationen.
 +++
 
 +++Update 94
@@ -395,8 +395,6 @@ Die Version November 2022 von Adobe Learning Manager umfasst Folgendes:
 * Verbesserungen der Schulungsübersichtsseite
 * Player-Anpassung
 * Annehmen der Identität eines Teilnehmers und Managers
-
-Weitere Informationen finden Sie unter [Neue Funktionen in Version November 2022 von Adobe Learning Manager](/help/migrated/whats-new-2022-november.md).
 
 **Hinweis:** Mit der Adobe Learning Manager-Version vom November 2022 verwirft Zoom die [JWT-Authentifizierung bis Juni 2023](https://marketplace.zoom.us/docs/guides/auth/jwt/). Dementsprechend funktioniert der Zoom-Connector mit JWT noch bis zum erwähnten Datum, aber wir empfehlen Benutzern die Erstellung einer Server-zu-Server-OAuth-App, um die Funktionalität in ihrem Konto zu ersetzen. Alle neuen Verbindungen haben standardmäßig eine Zoom-OAuth-Authentifizierung.
 
@@ -3037,7 +3035,7 @@ Bei der Anmeldung als Administrator funktionierte der Seitenumbruch nicht auf de
 
 **Kenntnisse erstellen**
 
-Bei der Teilnehmeranmeldung wurde die Quickinfo des Kenntnisnamens in ** Kenntniskarte **** **nicht der vollständige **** angezeigt. Dieses Problem wurde nun behoben.
+Bei der Teilnehmeranmeldung hat die Quickinfo des Kenntnisnamens in ** Kenntniskarte ****** den vollständigen Namen**** nicht angezeigt. Dieses Problem wurde nun behoben.
 
 **Externe Partner hinzufügen**
 

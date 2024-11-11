@@ -4,10 +4,10 @@ title: Kataloge
 description: Kataloge sind eine Sammlung von Lernkursen, Lernprogrammen und Zertifizierungen. Verwenden Sie Kataloge, um den Teilnehmern den Zugriff auf einen benutzerdefinierten Lernsatz zu ermöglichen. Sie können Lernprogramme während der Erstellung eines neuen Katalogs einem Katalog zuordnen.
 contentowner: manochan
 exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
-source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
+source-git-commit: 01215811307ef3fa2a365020c6f42fe3ea5a0240
 workflow-type: tm+mt
-source-wordcount: '2498'
-ht-degree: 73%
+source-wordcount: '2552'
+ht-degree: 72%
 
 ---
 
@@ -96,6 +96,10 @@ Um einen Katalog zu erstellen, führen Sie die folgenden Schritte aus:
    Die Arbeitshilfe, die Sie hinzugefügt haben, wird auf der Registerkarte **[!UICONTROL Arbeitshilfen]** angezeigt.
 
 Der Inhalt wird auf jeder dieser Registerkarten angezeigt, wenn er bereits im Konto vorhanden ist. Andernfalls müssen Sie den Inhalt zunächst erstellen. Wenn Sie beispielsweise noch keine Kurse oder Lernprogramme in der Learning Manager-Anwendung hinzugefügt haben, müssen Sie diese zunächst erstellen.
+
+## Massenentfernung von Kursen, Lernpfaden oder Arbeitshilfen
+
+Administratoren oder benutzerdefinierte Administratoren können Kurse, Lernpfade oder Arbeitshilfen gesammelt entfernen. Wechseln Sie zu **[!UICONTROL Kataloge]** und wählen Sie einen Katalog aus. Wählen Sie auf der Seite **[!UICONTROL Inhalt]** die Option **[!UICONTROL Inhalt bearbeiten]** aus. Wählen Sie dann die Option **[!UICONTROL Entfernen]** neben den Kursen, Lernpfaden oder Arbeitshilfen aus und wählen Sie **[!UICONTROL Speichern]**.
 
 ## Deep-Link zum Katalog für Teilnehmer {#deep-link}
 

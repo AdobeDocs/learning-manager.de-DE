@@ -3,10 +3,10 @@ jcr-language: en_us
 title: Ankündigungen
 description: Eine Ankündigung ist eine Multimedia-Nachricht (Text, Bild oder Video), die ein Administrator an eine definierte Gruppe von Benutzern übermittelt.
 exl-id: 313ac2c6-05c0-4941-8d71-9c664099bb5c
-source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
+source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 69%
+source-wordcount: '1061'
+ht-degree: 57%
 
 ---
 
@@ -59,26 +59,32 @@ Wenn der Multimedia-Anhang sehr groß ist, kann der Upload etwas Zeit in Anspruc
 
 Wenn Sie diese Option wählen, werden alle Mediendateien, die Sie auswählen, auf der Teilnehmer-Startseite als Mastertitel angezeigt. Der Mastertitel fungiert als Aktionsaufruf für die Teilnehmer, für die er bestimmt ist.
 
-![](assets/masthead-announcement.png)
+Administratoren können Alt-Text für alle Mastertitel hinzufügen, um die Barrierefreiheit für Teilnehmer zu verbessern. Dadurch können Teilnehmer mit besonderen Anforderungen Bildschirmleseprogramme verwenden, um den Alternativtext zu lesen und das Bild zu verstehen. Sie können mehrere Sprachen auswählen und für jede Sprache einen Alternativtext angeben. Stellen Sie sicher, dass Sie den Alternativtext in den jeweiligen Sprachen hinzufügen.
 
-*Den Mastertitel anpassen*
+Um den Mastertitel hinzuzufügen, führen Sie die folgenden Schritte aus:
 
-1. Wählen Sie ein Bild aus, das den Mastertitel repräsentiert. Die empfohlene Größe beträgt 1280 x 360 px.
-1. Wählen Sie das Gebietsschema aus, dem Sie einen Mastertitel hinzufügen möchten. Für jede Sprache müssen Sie ein Mastertitel-Asset auswählen.
-1. Fügen Sie im Feld **[!UICONTROL Aktionsschaltfläche]** eine URL hinzu, sodass Teilnehmer zu dieser URL umgeleitet werden, wenn sie auf die Schaltfläche auf dem Mastertitel klicken. Dies ist ein optionales Feld.
-1. Wählen Sie die Zielgruppe unter den Benutzern oder die Ziellernobjekte aus. Sie können für jede Ankündigung nur jeweils eines davon wählen.
+1. Melden Sie sich als **[!UICONTROL Administrator]** an.
+2. Wählen Sie **[!UICONTROL Ankündigungen]** > **[!UICONTROL Hinzufügen]** aus.
+3. Wählen Sie im Dropdownmenü &quot;Typ&quot; die Option &quot;**[!UICONTROL Als Mastertitel]**&quot; aus.
 
-   Beginnen Sie mit der Eingabe des Namens der Benutzergruppe in das Textfeld und wählen Sie den Namen aus der Dropdown-Liste. Wählen Sie auf dieselbe Weise die Schulung, indem Sie den Objektnamen in das Textfeld eingeben.
+   ![](assets/announcement.png)
+   _Ankündigung erstellen_
 
-1. Im Abschnitt **[!UICONTROL Erweiterte Einstellungen]** stehen Ihnen die folgenden Optionen zur Verfügung:
+4. Wählen Sie die Sprache aus und laden Sie das Bild hoch.
 
-   * Klicken Sie auf **[!UICONTROL Sofort]**, wenn die Ankündigung sofort veröffentlicht werden soll.
-   * Klicken Sie auf **[!UICONTROL Nie]**, wenn Ihre Ankündigung nicht ablaufen soll.
+   >[!NOTE]
+   >
+   >Sie können mehrere Sprachen auswählen und für jede Sprache einen Alternativtext angeben. Stellen Sie sicher, dass Sie den Alternativtext in den jeweiligen Sprachen hinzufügen.
+
+5. Geben Sie den entsprechenden Text in das Feld **[!UICONTROL Alt-Text]** ein.
+6. Fügen Sie im Feld **[!UICONTROL Aktionsschaltfläche]** eine URL hinzu, über die Teilnehmer umgeleitet werden, wenn sie auf die Schaltfläche auf dem Mastertitel klicken.
+7. Wählen Sie die Zielbenutzergruppen oder die Ziel-Lernobjekte aus. Sie können für jede Ankündigung nur jeweils eines davon wählen.
+8. Im Abschnitt **[!UICONTROL Erweiterte Einstellungen]** stehen Ihnen die folgenden Optionen zur Verfügung:
+
+   * Wählen Sie **[!UICONTROL Sofort]** aus, wenn die Ankündigung sofort veröffentlicht werden soll.
+   * Wählen Sie **[!UICONTROL Nie]**, wenn Ihre Ankündigung nicht ablaufen soll.
    * Wählen Sie das Datum **[!UICONTROL Start]** und **[!UICONTROL Ende]** für die Ankündigung aus.
-
-   ![](assets/advanced-settings.png)
-
-   *Zeit für die Anzeige eines Mastertitels festlegen*
+9. Wählen Sie Speichern und veröffentlichen Sie die Ankündigung.
 
 **Gibt es eine Beschränkung der Anzahl der Live-Ankündigungen von Mastertiteln?**
 

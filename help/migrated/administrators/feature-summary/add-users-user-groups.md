@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Hinzufügen von Benutzern und Erstellen von Benutzergruppen
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: aceee425ceb799fa3f742ac813bb35df16b34371
+source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
 workflow-type: tm+mt
-source-wordcount: '4061'
-ht-degree: 61%
+source-wordcount: '4150'
+ht-degree: 60%
 
 ---
 
@@ -195,8 +195,6 @@ Typen aktiver Felder:
 ## Erstellen Sie einen Selbstregistrierungslink {#createaselfregistrationlink}
 
 Sie können Mitarbeitenden in Ihrer Organisation auch die Möglichkeit geben, sich als Teilnehmende für Adobe Learning Manager Account zu registrieren, ohne Ihre Hilfe als Administrator in Anspruch zu nehmen. Der Administrator kann einen Link für die Selbstregistrierung erstellen und ihn für die Mitarbeiter freigeben, die sich mithilfe ihrer Adobe-Anmeldedaten weiter beim Learning Manager registrieren können.
-
-
 
 Klicken Sie in der oberen rechten Ecke der Seite auf **[!UICONTROL Hinzufügen]**, und wählen Sie **[!UICONTROL Selbstregistrierung]** aus.
 
@@ -575,6 +573,27 @@ Alle Berichte enthalten die mehrwertigen aktiven Felder und ihre Werte.
 Der Administrator kann automatisch generierte aktive Felder hinzufügen und Benutzeraktivitäten und Schulungsberichte konfigurieren.
 
 Der Teilnehmertranskriptbericht enthält alle aktiven Felder und durch Kommas getrennte Werte. Der Administrator kann die Daten dann entsprechend filtern.
+
+## Benutzergruppebericht
+
+Mit dem neuen Benutzergruppenbericht von Adobe Learning Manager können Sie Benutzergruppen verwalten, indem er Einblick in Gruppen bietet, die nicht verwaltet werden, wenn Administratoren die Verwaltung verlassen. Administratoren können auf die Berichte im Abschnitt **[!UICONTROL Benutzer]** > **[!UICONTROL Benutzergruppe]** zugreifen. Er enthält detaillierte Informationen zu den einzelnen Gruppen, einschließlich:
+
+* Benutzergruppentyp
+* Gruppenname
+* Beschreibung
+* Erstellt von (Name)
+* Erstellt von (E-Mail)
+* Erstellt am (UTC-Zeitzone)
+* Anzahl der Benutzer
+
+Führen Sie die folgenden Schritte aus, um den Bericht herunterzuladen:
+
+1. Melden Sie sich als **[!UICONTROL Administrator]** an.
+2. Wählen Sie **[!UICONTROL Benutzer]** > **[!UICONTROL Benutzergruppe]**.
+3. Wählen Sie **[!UICONTROL Aktionen]** > **[!UICONTROL Benutzergruppenbericht herunterladen]**.
+
+![](assets/download-user-group-report.png)
+_Benutzergruppenbericht herunterladen_
 
 ## Häufig gestellte Fragen {#faq}
 

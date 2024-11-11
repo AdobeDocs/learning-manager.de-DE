@@ -4,10 +4,10 @@ title: Benutzerdefinierte Rollen
 description: Mit der Lernpfadfunktion können Sie benutzerdefinierte Rollen definieren und einer Gruppe von Benutzern bestimmte Verantwortlichkeiten zuweisen. Mit dieser Funktion können Sie Verantwortlichkeiten zuweisen, die nicht in den Bereich der bestehenden Rolle der Person fallen.
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: 890775dafffd3b9d717c39507490977f51f163d4
+source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
 workflow-type: tm+mt
-source-wordcount: '2223'
-ht-degree: 65%
+source-wordcount: '2485'
+ht-degree: 57%
 
 ---
 
@@ -17,28 +17,33 @@ Mit dieser Funktion können Sie benutzerdefinierte Rollen definieren und bestimm
 
 Sie können eine benutzerdefinierte Rolle erstellen, um Authoring-Funktionen für einen bestimmten Katalog bereitzustellen. Sie können auch eine dedizierte Rolle erstellen, um Berichterstellung zu verwalten. Solche Rollen können dann Personen zugeordnet werden, die diese spezifischen Aufgaben übernehmen sollen.
 
+Administratoren können jetzt in Adobe Learning Manager Berechtigungen anzeigen, die in der CSV-Datei erstellt wurden. Die Option &quot;Filtern nach&quot; filtert benutzerdefinierte Rollen nach vom Administrator erstellten und über eine CSV importierten Rollen. Nachdem Sie eine benutzerdefinierte Rolle ausgewählt haben, werden die Berechtigungen angezeigt.
+
+![](assets/filter.png)
+_Benutzerdefinierte Rollen filtern_
+
 ## Benutzerdefinierte Rolle erstellen {#create-role}
 
 1. Melden Sie sich als ein Administrator an. Öffnen Sie **[!UICONTROL Benutzer]** > **[!UICONTROL Benutzerdefinierte Rolle]**.
-1. Wählen Sie **[!UICONTROL Rolle erstellen]** aus. Die Registerkarte **[!UICONTROL Neue Rolle erstellen]** wird geöffnet.
+2. Wählen Sie **[!UICONTROL Rolle erstellen]** aus. Die Registerkarte **[!UICONTROL Neue Rolle erstellen]** wird geöffnet.
 
    ![](assets/create-new-role.png)
 
    *Benutzerdefinierte Rolle erstellen*
 
-1. Geben Sie den Namen in das Feld &quot;**[!UICONTROL Name&quot; der Rolle &quot;]**&quot; ein.
-1. **[!UICONTROL Kontoberechtigungen]**: Diese Berechtigungen gewähren den Rolleneigentümern Zugriff auf bestimmte Systemkonfigurationsaspekte, die für das gesamte Konto gelten. Wählen Sie die Zugriffsberechtigungen. Der Benutzer hat die volle Kontrolle über die zugewiesenen Berechtigungen.
+3. Geben Sie den Namen in das Feld &quot;**[!UICONTROL Name&quot; der Rolle &quot;]**&quot; ein.
+4. **[!UICONTROL Kontoberechtigungen]**: Diese Berechtigungen gewähren den Rolleneigentümern Zugriff auf bestimmte Systemkonfigurationsaspekte, die für das gesamte Konto gelten. Wählen Sie die Zugriffsberechtigungen. Der Benutzer erhält die volle Kontrolle über die zugewiesenen Berechtigungen. Administratoren können detaillierte Berechtigungen für den Abschnitt Benutzer erteilen, der interne/externe Benutzer, Benutzergruppen und erweiterte Benutzer enthält.
 
->[!NOTE]
->
->   Der Geltungsbereich gilt nicht für diese Berechtigungen.
+   >[!NOTE]
+   >
+   >   Der Geltungsbereich gilt nicht für diese Berechtigungen.
 
 
-![](assets/account-privileges.png)
+   ![](assets/account-privileges.png)
 
-*Bereich festlegen*
+   *Bereich festlegen*
 
-1. **Funktionsberechtigungen - Kernfunktionen**: Wird verwendet, um Zugriff auf bestimmte Funktionen zum Verwalten von Lernaktivitäten zu gewähren. Über diese Option können Berechtigungen für die folgenden Funktionen erteilt werden.
+5. **Funktionsberechtigungen - Kernfunktionen**: Wird verwendet, um Zugriff auf bestimmte Funktionen zum Verwalten von Lernaktivitäten zu gewähren. Mit dieser Option können Berechtigungen für die folgenden Funktionen erteilt werden. Administratoren können detaillierte Berechtigungen wie schreibgeschützte Berechtigungen zum Erstellen, Bearbeiten und Löschen von Berechtigungen für die Kataloge bereitstellen.
 
    * Kataloge
    * Berichte
@@ -48,7 +53,7 @@ Sie können eine benutzerdefinierte Rolle erstellen, um Authoring-Funktionen fü
 
    *Umfang für Kataloge, Berichte und Tags festlegen*
 
-1. **Funktionsberechtigungen - Lernobjekte:** Verwenden Sie diese Option, um Zugriff auf LOs-bezogene Funktionen zu gewähren. Sie können Zugriff auf die folgenden LOs gewähren.
+6. **Funktionsberechtigungen - Lernobjekte:** Verwenden Sie diese Option, um Zugriff auf LOs-bezogene Funktionen zu gewähren. Administratoren können detaillierte Berechtigungen für alle Lernobjekte bereitstellen, einschließlich Kursen, Lernpfaden, Zertifizierungen und Arbeitshilfen. Sie können Benutzern Berechtigungen wie Erstellen, Bearbeiten, Löschen oder schreibgeschützten Zugriff zuweisen.
 
    * Zertifizierungen
    * Kurse
@@ -57,16 +62,20 @@ Sie können eine benutzerdefinierte Rolle erstellen, um Authoring-Funktionen fü
 
    Sie können auch eine bestimmte Vorgangskontrolle für die LOs gewähren. Die Berechtigung kann eine der folgenden sein:
 
-   * Vollständige Kontrolle
-   * Bearbeiten und löschen
+   * Schreibgeschützt
+   * Erstellen
+   * Bearbeiten
+   * Löschen
    * Registrierung
    * Bericht
 
-   ![](assets/learning-objects.png)
+   Sie können auch die vollständige Kontrolle über die LOs gewähren.
+
+   ![](assets/learningobjects.png)
 
    *Gewähren bestimmter Berechtigungen*
 
-1. **Umfang für Funktionsberechtigungen:** Der Umfang der Funktionsberechtigungen, die dieser Rolle zugewiesen sind, kann auf eine bestimmte Benutzergruppe oder einen oder mehrere Kataloge beschränkt werden.
+7. **Umfang für Funktionsberechtigungen:** Der Umfang der Funktionsberechtigungen, die dieser Rolle zugewiesen sind, kann auf eine bestimmte Benutzergruppe oder einen oder mehrere Kataloge beschränkt werden.
 
    Kataloge: Verwenden Sie das Optionsfeld, um die Kontrolle über **[!UICONTROL Alle Kataloge]** bereitzustellen, oder verwenden Sie die Option **[!UICONTROL Zugriff über Katalog festlegen]**, um den Zugriff auf bestimmte Kataloge zu ermöglichen. Sie können auch mehrere Kataloge auswählen.
 
@@ -224,18 +233,43 @@ Ein Benutzer mit einer benutzerdefinierten Rolle kann Folgendes:
 
 1. **Benutzer:** Verwenden Sie diese Option, um festzulegen, welche Benutzer dieser Rolle zugewiesen sind. Sie können einen oder mehrere Benutzer über das Suchfeld auswählen.
 
-   **Benutzer zu CSV-Upload für benutzerdefinierte Rolle hinzufügen:** Um Benutzer über CSV-Upload hinzuzufügen, fügen Sie der CSV-Datei, die der Administrator zum Importieren von Benutzern verwendet hat, eine Spalte &quot;CustomRole&quot; hinzu. Geben Sie die Rolle des Benutzers in der Spalte Benutzerdefinierte Rolle für die Benutzer ein, denen Sie eine benutzerdefinierte Rolle zuweisen möchten. Klicken Sie zum Hochladen der CSV-Datei auf **[!UICONTROL Hinzufügen > CSV hochladen]**.
+   **Benutzer zu CSV-Upload für benutzerdefinierte Rolle hinzufügen:** Um Benutzer über hochgeladene CSV hinzuzufügen, fügen Sie der CSV-Datei, die der Administrator zum Importieren von Benutzern verwendet hat, eine Spalte für benutzerdefinierte Rollen hinzu. Geben Sie die Rolle des Benutzers in der Spalte Benutzerdefinierte Rolle für die Benutzer ein, denen Sie eine benutzerdefinierte Rolle zuweisen möchten. Klicken Sie zum Hochladen der CSV-Datei auf **[!UICONTROL Hinzufügen > CSV hochladen]**.
 
-   CustomRole columnNote:
+   * Sie können keine Benutzergruppen durchsuchen.
+   * Sie können nicht nach Benutzern suchen, denen bereits eine Administratorrolle zugewiesen wurde.
+   * Die Zuweisung einer neuen benutzerdefinierten Rolle zu einem Benutzer überschreibt die vorherige benutzerdefinierte Rolle des Benutzers.
 
-* Sie können keine Benutzergruppen durchsuchen.
-* Sie können nicht nach Benutzern suchen, denen bereits eine Administratorrolle zugewiesen wurde.
-* Die Zuweisung einer neuen benutzerdefinierten Rolle zu einem Benutzer überschreibt die vorherige benutzerdefinierte Rolle des Benutzers.
+   <!--![](assets/users.png)-->
 
-  <!--![](assets/users.png)-->
+   * Ein benutzerdefinierter Administrator, der die Berechtigung für Einstellungen hat, kann den Zeitplan für die Synchronisierung oder die Synchronisierung von Benutzern aus der Datenquelle konfigurieren, auch wenn er keine Berechtigung für die Entität &quot;Benutzer&quot; hat.
+   * Wenn ein benutzerdefinierter Administrator über Berechtigungen für die Entität „Benutzer“ verfügt, können Sie ihm eine Administratorrolle zuweisen und ein Standardadministrator werden.
 
-* Ein benutzerdefinierter Administrator, der die Berechtigung für Einstellungen hat, kann den Zeitplan für die Synchronisierung oder die Synchronisierung von Benutzern aus der Datenquelle konfigurieren, auch wenn er keine Berechtigung für die Entität &quot;Benutzer&quot; hat.
-* Wenn ein benutzerdefinierter Administrator über Berechtigungen für die Entität „Benutzer“ verfügt, können Sie ihm eine Administratorrolle zuweisen und ein Standardadministrator werden.
+## Benutzerdefinierter Rollenbericht
+
+Administratoren können einen CSV-Bericht mit allen benutzerdefinierten Rollen und ihren Berechtigungen herunterladen. Der Bericht zeigt, wie die einzelnen Rollen entweder von einem Administrator oder über eine CSV-Datei erstellt wurden, und umreißt die Hervorhebungen zum Zugriff auf die einzelnen Rollen.
+
+Führen Sie die folgenden Schritte aus, um den Bericht herunterzuladen:
+
+1. Melden Sie sich als **[!UICONTROL Administrator]** an.
+2. Wählen Sie **[!UICONTROL Benutzer]** > **[!UICONTROL Benutzerdefinierte Rollen]** aus.
+3. Wählen Sie die Option **[!UICONTROL Download]**, um den CSV-Bericht herunterzuladen.
+
+![](assets/download-report.png)
+_Bericht über benutzerdefinierte Rollen herunterladen_
+
+Der Bericht enthält zwei CSV-Dateien: role.csv und user_role.csv. Die Datei role.csv enthält:
+
+* Benutzerdefinierte Rolle
+* Benutzer-IDs
+* Quelle der Erstellung.
+
+Die Datei &quot;user_role.csv&quot; enthält die Felder, benutzerdefinierte Rolle, Quelle der Erstellung und detaillierte Informationen für Kataloge, Benutzer, Kurse, Lernpfade und mehr.
+
+## Audit-Protokoll für benutzerdefinierte Rollen
+
+Administratoren können den Audit-Bericht für benutzerdefinierte Rollen herunterladen, um alle Änderungen an den benutzerdefinierten Rollen zu verfolgen, einschließlich des Erstellens, Änderns und Löschens benutzerdefinierter Rollen sowie des zugehörigen Funktionszugriffs.
+
+Weitere Informationen finden Sie in diesem Artikel [Prüfprotokoll für benutzerdefinierte Rollen](/help/migrated/administrators/feature-summary/reports.md#audit-trail-for-custom-roles).
 
 ## Ordnerzugriff für benutzerdefinierte Autoren einschränken {#folder-custom-author}
 
