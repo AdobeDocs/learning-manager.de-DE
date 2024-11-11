@@ -2,7 +2,7 @@
 description: Erfahren Sie mehr über die neuen Funktionen und Verbesserungen in der Version November 2024 von Adobe Learning Manager
 jcr-language: en_us
 title: Zusammenfassung der neuen Funktionen
-source-git-commit: b965b67bf7c730b3d9667cb6bbc9e8aeff664972
+source-git-commit: 943fd98f8ac31c968c7e7f12d4da867c767b9b91
 workflow-type: tm+mt
 source-wordcount: '3034'
 ht-degree: 2%
@@ -223,7 +223,7 @@ Im Folgenden sind die Bedingungen für die neuen Spalten aufgeführt:
 3. `quizData`:
 
    * Der Datentyp muss ein Zeichenfolgenwert sein. Unterstützte Werte sind `QUIZ_ATTEMPTED`, `QUIZ_PASSED` und `QUIZPASSED_OR_LIMITREACHED`.
-   * Wenn `completionCriteria` auf `QUIZ` festgelegt ist, geben Sie den entsprechenden Quizwert in diese Spalte ein, oder lassen Sie das Feld leer.
+   * Wenn `completionCriteria` auf `QUIZ` festgelegt ist, geben Sie den entsprechenden Quizwert in die Spalte `quizData` ein.
 
 Weitere Informationen finden Sie in der CSV-Spezifikation ](assets/4-module_version.xlsx) für [module_version.
 
@@ -239,7 +239,7 @@ Die folgenden Bedingungen gelten für die Spalte &quot;`completionCriteria`&quot
 * Wenn Sie `completionCriteria` auf `SELECTEDMODULES` festlegen, müssen Sie die obligatorischen Module in der Datei [course_module.csv](assets/course_module.csv) markieren.
 * Geben Sie in der Spalte &quot;`optionalCriteria`&quot; &quot;`TRUE`&quot; oder &quot;`FALSE`&quot; ein. Wenn Sie den Wert &quot;`TRUE`&quot; festlegen, ist das Modul obligatorisch.
 
-Weitere Informationen finden Sie in der Datei [CSV-Kursspezifikation](assets/3-course.xlsx).
+Weitere Informationen finden Sie in der CSV-Kursspezifikation [CSV-Kursspezifikation](assets/3-course.xlsx) und in der CSV-Kursspezifikationsdatei [Kursmodul](assets/6-course_module.xlsx).
 
 ## API-Änderungen
 
