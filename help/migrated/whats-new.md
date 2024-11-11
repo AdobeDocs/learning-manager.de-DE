@@ -2,9 +2,9 @@
 description: Erfahren Sie mehr über die neuen Funktionen und Verbesserungen in der Version November 2024 von Adobe Learning Manager
 jcr-language: en_us
 title: Zusammenfassung der neuen Funktionen
-source-git-commit: 943fd98f8ac31c968c7e7f12d4da867c767b9b91
+source-git-commit: bfe77d838340f94e072f9d7346576e3034a66a66
 workflow-type: tm+mt
-source-wordcount: '3034'
+source-wordcount: '3133'
 ht-degree: 2%
 
 ---
@@ -494,17 +494,19 @@ Administratoren können diese Berichtsänderungen im Abschnitt **Admin** > **Ber
 
 Der Bericht **[!UICONTROL Teilnehmertranskripte]** enthält zwei neue Spalten:
 
-* Modul-ID
-* Kursinstanz-ID
+* **[!UICONTROL Modul-ID]**: Zeigt die eindeutige Kennung für jedes Modul an. Diese neue Spalte wurde nach der vorhandenen Spalte **[!UICONTROL Module]** hinzugefügt.
+* **[!UICONTROL Kursinstanz-ID]**: Zeigt die eindeutige Kennung für jede Kursinstanz an. Diese neue Spalte wurde nach der vorhandenen **[!UICONTROL Instanz]**-Spalte hinzugefügt.
+* **[!UICONTROL Abschlusskommentar]**: In dieser Spalte werden die Kommentare erfasst, die der Administrator beim Markieren des Benutzerabschlusses eingegeben hat. Diese neue Spalte wurde am Ende des Berichts hinzugefügt.
+
 
 ### Sitzungsübersicht – Bericht
 
 Der Bericht **[!UICONTROL Sitzungsübersicht]** enthält drei neue Spalten:
 
-* Modul-ID
-* Sitzungs-ID
-* Kursinstanz-ID
-* Abschlussanzahl
+* Die Spalte **[!UICONTROL Modul-ID]** wurde vor der Spalte **[!UICONTROL Sitzungsname]** hinzugefügt.
+* Die Spalte **[!UICONTROL Sitzungs-ID]** wurde vor der Spalte **[!UICONTROL Sitzungsname]** hinzugefügt.
+* Die Spalte **[!UICONTROL Kursinstanzkennung]** wurde nach der Spalte **[!UICONTROL Instanzname]** hinzugefügt.
+* Die Spalte **[!UICONTROL Anzahl der Abschlüsse]** wurde nach der Spalte **[!UICONTROL Anzahl der Registrierungen]** hinzugefügt.
 
 ## In diesem Update behobene Fehler
 
