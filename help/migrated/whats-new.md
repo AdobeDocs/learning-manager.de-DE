@@ -3,9 +3,9 @@ description: Erfahren Sie mehr über die neuen Funktionen und Verbesserungen in 
 jcr-language: en_us
 title: Zusammenfassung der neuen Funktionen
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: a19e538ed152b3435adf2f3405bff1ae75576978
+source-git-commit: e4c3489db8207ead0416656161b918eba42f4582
 workflow-type: tm+mt
-source-wordcount: '3134'
+source-wordcount: '3149'
 ht-degree: 2%
 
 ---
@@ -139,7 +139,7 @@ Die folgenden Spalten sind im Bericht &quot;Warteliste&quot; verfügbar:
 * Limit für Warteliste
 * Maximale Anzahl Lizenzen
 
-Lesen Sie diese Artikel [Wartelistenbericht](/help/migrated/administrators/feature-summary/courses.md#waitlist-report) und [Wartelistenbericht](/help/migrated/instructors/feature-summary/learners.md#waitlist-report), um den Bericht aus dem Abschnitt &quot;Administrator und Kursleiter&quot; herunterzuladen.
+Lesen Sie diesen Artikel [Wartelistenbericht (Administrator)](/help/migrated/administrators/feature-summary/courses.md#waitlist-report) und [Wartelistenbericht (Kursleiter)](/help/migrated/instructors/feature-summary/learners.md#waitlist-report), um den Bericht aus dem Abschnitt &quot;Administrator und Kursleiter&quot; herunterzuladen.
 
 ## Barrierefreiheit auf der Teilnehmer-Startseite
 
@@ -149,6 +149,10 @@ Weitere Informationen finden Sie in diesem Artikel [Ankündigung](/help/migrated
 ## Unterstützung für Hindi
 
 Adobe Learning Manager führt Hindi jetzt als eine der Schnittstellensprachen der Plattform ein und unterstützt das Wachstum der Plattform in Indien. Die Unterstützung für Hindi-Muttersprachler stellt sicher, dass alle Funktionen, Berichte und das gesamte Benutzererlebnis für die Benutzer vollständig zugänglich sind.
+
+>[!NOTE]
+>
+>Abzeichenzertifikate, die vom System im PDF-Format generiert werden, unterstützen Hindi nicht.
 
 Um die Sprache der Benutzeroberfläche zu ändern, führen Sie die folgenden Schritte aus:
 

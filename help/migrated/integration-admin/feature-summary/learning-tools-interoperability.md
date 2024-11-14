@@ -2,9 +2,10 @@
 jcr-language: en_us
 title: Interoperabilität von Lernwerkzeugen (LTI)
 description: Weitere Informationen zur LTI-Integration ALM
-source-git-commit: 8deeb3680cd638a33768f048755ee77862c8ef1f
+exl-id: 760c00fc-9f6e-450b-aad0-56f103424043
+source-git-commit: e4c3489db8207ead0416656161b918eba42f4582
 workflow-type: tm+mt
-source-wordcount: '1907'
+source-wordcount: '1976'
 ht-degree: 1%
 
 ---
@@ -235,6 +236,16 @@ Im Folgenden sind LTI-Einschränkungen für LTI-Verbraucher und LTI-Anbieter auf
 * Das aktive LTI-Feld ist einwertig und unterstützt nicht mehrere Werte.
 * Fehlergründe sind nicht verfügbar, wenn ein Export während der Migration von Kursen ohne Kerninhalte fehlschlägt.
 * Externe LTI-Kursstufen werden nicht im Teilnehmertranskript angezeigt, und Punktzahlen sind auf der L2-Quizseite nicht sichtbar, was sich auf die Leistungsnachverfolgung der Teilnehmer auswirkt.
+
+## LTI-Startfehler
+
+Im Folgenden sind die Kurse aufgeführt, die der externe LTI-Player aufgrund der letzten Änderungen, die in ALM vorgenommen wurden, nachdem die Startlinks erstellt wurden, nicht starten kann:
+
+* Kurse, in denen die Instanz eingestellt ist.
+* Kurse, die eingestellt sind und keine Registrierungen für ALM haben.
+* Kurse, die Registrierungen für ALM haben, aber eingestellt sind.
+* Kurse, die in ALM gelöscht wurden.
+* Kurse, bei denen das Registrierungslimit erreicht wurde.
 
 ## Best Practice.
 
