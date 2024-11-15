@@ -3,9 +3,9 @@ jcr-language: en_us
 title: KI-gestützte Suche in Adobe Learning Manager
 description: KI-gestützte Suche in Adobe Learning Manager
 exl-id: 9982a8be-b2e6-42a4-836a-7f9337588ae8
-source-git-commit: 84d0fc0c8e77999a12b69b949272bdb2d38eab96
+source-git-commit: 95ad41d2269ce1ee4c550b4f5bda2bd6b329d9e7
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1120'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 Die Suchfunktion in ALM verbessert die Benutzererfahrung, da sie es ihnen ermöglicht, relevante Inhalte effizient zu finden und die richtigen Inhalte zu nutzen.
 
 Adobe Learning Manager führt eine KI-gestützte Suchfunktion ein, die lexikalische und semantische Suche kombiniert. Die Suche ist intelligenter, da sie nach bestimmten Begriffen sucht und den Kontext und die Absicht dahinter versteht. Die erweiterte KI-gestützte Suche versteht die Bedeutung Ihrer Abfrage und liefert relevante Ergebnisse.
+
+>[!NOTE]
+>
+>KI-gestützte Suche ist nur für Teilnehmer verfügbar.
 
 ## Warum ist die Suche wichtig?
 

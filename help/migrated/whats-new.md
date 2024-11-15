@@ -3,9 +3,9 @@ description: Erfahren Sie mehr über die neuen Funktionen und Verbesserungen in 
 jcr-language: en_us
 title: Zusammenfassung der neuen Funktionen
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: 269e5532786de90208e23ffd6ef95479a1295c97
+source-git-commit: 95ad41d2269ce1ee4c550b4f5bda2bd6b329d9e7
 workflow-type: tm+mt
-source-wordcount: '3149'
+source-wordcount: '3158'
 ht-degree: 2%
 
 ---
@@ -34,6 +34,10 @@ Erfahren Sie mehr über die neuen Funktionen und Verbesserungen in der Version N
 ## KI-gestützte Suche in Adobe Learning Manager
 
 Adobe Learning Manager verbessert die Art und Weise, wie Teilnehmer nach Kursen oder Schulungen suchen. Es wird eine KI-gestützte Suchfunktion eingeführt, die lexikalische und semantische Suche kombiniert. Die Suche ist jetzt intelligenter, da sie nach bestimmten Begriffen sucht und den Kontext und die Absicht dahinter versteht. Die erweiterte Suche versteht die Bedeutung Ihrer Abfrage und liefert relevante Ergebnisse. Es identifiziert den Hauptfokus der Suche, um Ihnen den vollständigsten Satz an Ergebnissen zu bieten.
+
+>[!NOTE]
+>
+>KI-gestützte Suche ist nur für Teilnehmer verfügbar.
 
 Weitere Informationen finden Sie in diesem Artikel [Erweiterte Suche](/help/migrated/learners/feature-summary/advanced-search.md).
 
