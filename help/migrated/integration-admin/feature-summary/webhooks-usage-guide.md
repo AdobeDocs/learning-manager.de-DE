@@ -4,9 +4,9 @@ title: Webhooks-Benutzerhandbuch
 description: Erfahren Sie mehr über Webhooks Nutzung, Best Practices und Einschränkungen
 contentowner: chandrum
 exl-id: e6a63ffb-7fdd-46e4-b5e6-20ce36861cef
-source-git-commit: fe83420c8e6904e075e7a65622aaab964549c1d5
+source-git-commit: 4b26eddf1285651a13ee9c71fdf677e8b92e6dc3
 workflow-type: tm+mt
-source-wordcount: '3310'
+source-wordcount: '3369'
 ht-degree: 1%
 
 ---
@@ -291,6 +291,8 @@ Um diese Fehler zu vermeiden, sollten Abonnenten Webhook-Ereignisse aktiv überw
 * Sitzungsänderungen werden als Teil des Instanzaktualisierungsereignisses erfasst. Dies gilt nur für Kurse. Bei Instanzen mit Lernpfaden oder Zertifizierungsinstanzen auf unterer Ebene erfolgt keine Weitergabe nach oben.
 * Wenn ein Lernpfad einen Kurs enthält und ein Teilnehmer den Kurs über den Lernpfad abschließt, werden zwei **LearnerProgress**-Ereignisse generiert: eines für den Kurs und eines für den Lernpfad.
 * Bestimmte Workflows berechnen Attribute von Lernobjekten, wie Dauer und Bereitstellungstyp, asynchron. Daher werden Ereignisse für diese Lernobjekte generiert, sobald die Verarbeitung des cron-Jobs abgeschlossen ist.
+* Wenn ein Kurs über ein übergeordnetes Lernprogramm oder eine Zertifizierung registriert wird, werden die Ereignisse &quot;Registrierung&quot;, &quot;Aufhebung der Registrierung&quot; und &quot;Abschluss&quot; nur für das übergeordnete Lernprogramm oder die Zertifizierung ausgelöst. Diese Ereignisse werden für den untergeordneten Kurs nicht ausgelöst, da die Registrierung indirekt erfolgt ist.
+* Webhooks werden nur für Konten mit dem Status &quot;**[!UICONTROL AKTIV]**&quot; unterstützt. Sie sind für **[!UICONTROL TRIAL]**- oder **[!UICONTROL INACTIVE]**-Konten nicht verfügbar.
 
 ## Beispiel-Payloads für die Ereignisse
 
