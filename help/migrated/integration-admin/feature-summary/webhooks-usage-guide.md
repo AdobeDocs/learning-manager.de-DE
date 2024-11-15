@@ -3,9 +3,10 @@ jcr-language: en_us
 title: Webhooks-Benutzerhandbuch
 description: Erfahren Sie mehr über Webhooks Nutzung, Best Practices und Einschränkungen
 contentowner: chandrum
-source-git-commit: d7f7652c38c3eb623be083fd2fdde36eec25c1e4
+exl-id: e6a63ffb-7fdd-46e4-b5e6-20ce36861cef
+source-git-commit: fe83420c8e6904e075e7a65622aaab964549c1d5
 workflow-type: tm+mt
-source-wordcount: '3377'
+source-wordcount: '3310'
 ht-degree: 1%
 
 ---
@@ -250,12 +251,6 @@ Der Wiederholungsprozess beginnt mit einem anfänglichen Intervall von 5 Sekunde
 ### Ereignisse duplizieren
 
 Wenn die Reaktionszeit eines Abonnenten nach der Verarbeitung eines Ereignisses mehr als 5 Sekunden beträgt, versucht das System möglicherweise erneut, dieses Ereignis zu verarbeiten. Es wird empfohlen, Ereignis-IDs zu verwenden, um den Überblick darüber zu behalten, welche Ereignisse bereits verarbeitet wurden. Wenn der Webhook nach dem Senden des Ereignisses abstürzt, aber bevor die Verarbeitung gespeichert wurde, kann dieselbe Gruppe von Ereignissen erneut versucht werden. Es wird empfohlen, Batch-IDs oder individuelle Ereignis-IDs zu verwenden, um Duplikate zu erkennen und zu ignorieren.
-
-### Ereignisse außerhalb des regulären Rahmens
-
-ALM versucht, Ereignisse in der richtigen Reihenfolge zu halten, aber manchmal können Ereignisse auch außerhalb der Reihenfolge ausgeliefert werden, insbesondere zwischen Echtzeit- und Nicht-Echtzeit-Ereignissen.
-
-Wenn ein Administrator mehrere Teilnehmer gleichzeitig für einen Kurs registriert, werden die Registrierungsereignisse als nicht in Echtzeit markiert. Wenn ein Teilnehmer den Kurs jedoch schnell abschließt, wird dieses Abschlussereignis als Echtzeit markiert und kann vor den Registrierungsereignissen bereitgestellt werden.
 
 ### Empfehlung für Fehlertoleranz
 
