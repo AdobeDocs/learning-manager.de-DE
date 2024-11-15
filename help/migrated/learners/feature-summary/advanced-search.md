@@ -3,7 +3,7 @@ jcr-language: en_us
 title: KI-gestützte Suche in Adobe Learning Manager
 description: KI-gestützte Suche in Adobe Learning Manager
 exl-id: 9982a8be-b2e6-42a4-836a-7f9337588ae8
-source-git-commit: ee78b7e0b81faa7003438a8a3dc9e46af3e10c17
+source-git-commit: 84d0fc0c8e77999a12b69b949272bdb2d38eab96
 workflow-type: tm+mt
 source-wordcount: '1111'
 ht-degree: 0%
@@ -25,7 +25,8 @@ Die Suchfunktion ist aus mehreren Gründen wichtig:
 * **Barrierefreiheit**: Effektive Suchfunktionen machen Informationen zugänglicher und stellen sicher, dass Benutzer mit Inhalten interagieren können, die für ihre Bedürfnisse relevant sind.
 * **Personalisierung**: Erweiterte Suchsysteme können die Ergebnisse auf der Grundlage von Benutzervoreinstellungen zuschneiden und so die Relevanz der angezeigten Informationen verbessern.
 
-Entwicklung des Suchverhaltens im Web
+## Entwicklung des Suchverhaltens im Web
+
 Wenn Menschen online suchen, ändert sich die Art und Weise, wie sie suchen, und Suchmaschinen passen sich an, um mit ihnen Schritt zu halten. Im Folgenden sind einige der wichtigsten Methoden, mit denen heutzutage nach Informationen gesucht wird:
 
 * **Absichtsorientiert**: Anstatt exakte Stichwörter einzugeben, geben Benutzer jetzt ihre Bedürfnisse mit Ausdrücken wie &quot;Ich möchte&quot; oder &quot;Ich muss&quot; an. Moderne Suchmaschinen verstehen den Zweck hinter diesen Ausdrücken und liefern relevantere Ergebnisse.
