@@ -4,10 +4,10 @@ title: Benutzerdefinierte Rollen
 description: Mit der Lernpfadfunktion können Sie benutzerdefinierte Rollen definieren und einer Gruppe von Benutzern bestimmte Verantwortlichkeiten zuweisen. Mit dieser Funktion können Sie Verantwortlichkeiten zuweisen, die nicht in den Bereich der bestehenden Rolle der Person fallen.
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
+source-git-commit: f8151cb47645a07bcea306dcaf3f8ac032d4044e
 workflow-type: tm+mt
-source-wordcount: '2485'
-ht-degree: 57%
+source-wordcount: '2662'
+ht-degree: 54%
 
 ---
 
@@ -16,6 +16,37 @@ ht-degree: 57%
 Mit dieser Funktion können Sie benutzerdefinierte Rollen definieren und bestimmten Benutzergruppen bestimmte Verantwortlichkeiten zuweisen. Mit dieser Funktion können Sie Verantwortlichkeiten zuweisen, die nicht in den Bereich der bestehenden Rolle der Person fallen.
 
 Sie können eine benutzerdefinierte Rolle erstellen, um Authoring-Funktionen für einen bestimmten Katalog bereitzustellen. Sie können auch eine dedizierte Rolle erstellen, um Berichterstellung zu verwalten. Solche Rollen können dann Personen zugeordnet werden, die diese spezifischen Aufgaben übernehmen sollen.
+
+Administratoren haben die Möglichkeit, benutzerdefinierte Administrator- und Autorenrollen mit maßgeschneiderten Berechtigungen für jede Rolle zu erstellen. Im Folgenden finden Sie einen Überblick über die Berechtigungen, die jeder Rolle zugeordnet sind:
+
+**Benutzerdefinierte Autorenrollenberechtigungen**
+
+Benutzerdefinierte Autoren können die folgenden Aufgaben ausführen:
+
+* Zugriff auf die Inhaltsbibliothek zum Hinzufügen, Bearbeiten oder Löschen von Kerninhalten.
+* Erstellen, Bearbeiten und Löschen:
+   * Kurse
+   * Arbeitshilfen
+   * Zertifizierungen
+   * Lernpfade
+   * Lernpläne
+
+Administratoren und Autoren, einschließlich benutzerdefinierter Administratoren und benutzerdefinierter Autoren, haben die Möglichkeit, Lernobjekte (LOs) für extern freigegebene Kataloge freizugeben. Administratoren und Autoren sollten in der Lage sein, beim Erstellen von Lernobjekten nach extern freigegebenen Katalogen zu suchen.
+
+**Benutzerdefinierte Administratorrollenberechtigungen**
+
+Die benutzerdefinierte Administratorrolle repliziert eine Reihe von Administratoraufgaben, einschließlich des Zugriffs auf Berechtigungen auf Kontoebene. Benutzerdefinierte Administratoren erhalten Berechtigungen zum Verwalten wichtiger Funktionen im Zusammenhang mit Lernaktivitäten, z. B.:
+
+* Lernpläne
+* Kataloge
+* Berichte
+* Tags
+
+Darüber hinaus können benutzerdefinierte Administratoren:
+
+* Verwalten Sie Kurse und Arbeitshilfen, einschließlich der Registrierung und des Löschens von Benutzern.
+* Zertifizierungen, Lernpfade und Lernpläne erstellen, bearbeiten und löschen.
+* Greifen Sie auf Berichts- und Registrierungsfunktionen für alle Lernobjekte (LOs) zu.
 
 Administratoren können jetzt in Adobe Learning Manager Berechtigungen anzeigen, die in der CSV-Datei erstellt wurden. Die Option &quot;Filtern nach&quot; filtert benutzerdefinierte Rollen nach vom Administrator erstellten und über eine CSV importierten Rollen. Nachdem Sie eine benutzerdefinierte Rolle ausgewählt haben, werden die Berechtigungen angezeigt.
 
@@ -32,7 +63,9 @@ _Benutzerdefinierte Rollen filtern_
    *Benutzerdefinierte Rolle erstellen*
 
 3. Geben Sie den Namen in das Feld &quot;**[!UICONTROL Name&quot; der Rolle &quot;]**&quot; ein.
-4. **[!UICONTROL Kontoberechtigungen]**: Diese Berechtigungen gewähren den Rolleneigentümern Zugriff auf bestimmte Systemkonfigurationsaspekte, die für das gesamte Konto gelten. Wählen Sie die Zugriffsberechtigungen. Der Benutzer erhält die volle Kontrolle über die zugewiesenen Berechtigungen. Administratoren können detaillierte Berechtigungen für den Abschnitt Benutzer erteilen, der interne/externe Benutzer, Benutzergruppen und erweiterte Benutzer enthält.
+4. **[!UICONTROL Kontoberechtigungen]**: Diese Berechtigungen gewähren den Rolleneigentümern Zugriff auf bestimmte Systemkonfigurationsaspekte, die für das gesamte Konto gelten. Wählen Sie die Zugriffsberechtigungen. Der Benutzer hat die volle Kontrolle über die zugewiesenen Berechtigungen.
+
+   Administratoren können detaillierte Berechtigungen für den Abschnitt Benutzer erteilen, der interne/externe Benutzer, Benutzergruppen und erweiterte Benutzer enthält.
 
    >[!NOTE]
    >
@@ -43,7 +76,9 @@ _Benutzerdefinierte Rollen filtern_
 
    *Bereich festlegen*
 
-5. **Funktionsberechtigungen - Kernfunktionen**: Wird verwendet, um Zugriff auf bestimmte Funktionen zum Verwalten von Lernaktivitäten zu gewähren. Mit dieser Option können Berechtigungen für die folgenden Funktionen erteilt werden. Administratoren können detaillierte Berechtigungen wie schreibgeschützte Berechtigungen zum Erstellen, Bearbeiten und Löschen von Berechtigungen für die Kataloge bereitstellen.
+5. **Funktionsberechtigungen - Kernfunktionen**: Wird verwendet, um Zugriff auf bestimmte Funktionen zum Verwalten von Lernaktivitäten zu gewähren. Über diese Option können Berechtigungen für die folgenden Funktionen erteilt werden.
+
+   Administratoren können detaillierte Berechtigungen wie schreibgeschützte Berechtigungen zum Erstellen, Bearbeiten und Löschen von Berechtigungen für die Kataloge bereitstellen.
 
    * Kataloge
    * Berichte
@@ -60,7 +95,7 @@ _Benutzerdefinierte Rollen filtern_
    * Arbeitshilfen
    * Lernprogramme
 
-   Sie können auch eine bestimmte Vorgangskontrolle für die LOs gewähren. Die Berechtigung kann eine der folgenden sein:
+   Sie können den Lernobjekten auch eine bestimmte Vorgangskontrolle zuweisen. Die Berechtigung kann eine der folgenden sein:
 
    * Schreibgeschützt
    * Erstellen

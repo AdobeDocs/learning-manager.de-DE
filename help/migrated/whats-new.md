@@ -3,9 +3,9 @@ description: Erfahren Sie mehr über die neuen Funktionen und Verbesserungen in 
 jcr-language: en_us
 title: Zusammenfassung der neuen Funktionen
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: 95ad41d2269ce1ee4c550b4f5bda2bd6b329d9e7
+source-git-commit: f8151cb47645a07bcea306dcaf3f8ac032d4044e
 workflow-type: tm+mt
-source-wordcount: '3158'
+source-wordcount: '3173'
 ht-degree: 2%
 
 ---
@@ -30,6 +30,10 @@ Erfahren Sie mehr über die neuen Funktionen und Verbesserungen in der Version N
 * **Optimierung der E-Mail-Vorlage**: Kombinierte und optimierte E-Mail-Vorlagen für Kursleiterzuweisungen und Sitzungsabbrüche.
 * **MS Teams-Abschlusskriterien**: Legen Sie die Mindestteilnahmezeit für VILT-Sitzungen fest.
 * **Neue Migrationsarbeitsabläufe**: Migrationsänderungen umfassen Abschlusskriterien für Kurse und Module sowie die Migration von Modulen in Ordner.
+
+>[!NOTE]
+>
+>Weitere Informationen zu den neuen Funktionen in dieser Version finden Sie in diesem [Webinar](https://cdn.content.adobelearningmanageracademy.com/public/newlearner/newlearner_0dc0f1e8.html#/overviewPage?instanceId=11932477&amp;loId=11231360&amp;loType=course).
 
 ## KI-gestützte Suche in Adobe Learning Manager
 
