@@ -3,7 +3,8 @@ jcr-language: en_us
 title: Credly
 description: Erfahren Sie mehr über die Credly Integration mit ALM, um externe Abzeichen von der Plattform über verschiedene Social Media-Kanäle zu verwalten und freizugeben
 contentowner: chandrum
-source-git-commit: a27c1566678d697512a75d94804b8804b5dc9b2b
+exl-id: 168f7ff8-51f5-4962-bf76-af909fc5565b
+source-git-commit: 99a3638855370a8af9e221962d01d0559905d05a
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 0%
@@ -55,4 +56,3 @@ Sobald das Abzeichen in Adobe Learning Manager importiert wurde, kann der Admini
 Der Autor/Administrator kann diese Credly importierten ALM-Abzeichen einem Kurs, einem Lernpfad oder einer Zertifizierung (nicht nur Kenntnissen) zuweisen, und beim Verbrauch dieser Lernobjekte wird das Abzeichen erreicht und kann auf Credly und ALM App angezeigt werden.
 
 Teilnehmer können sich bei Credly anmelden und die Abzeichen in der Credly-Plattform sehen. Von Credly aus können sie die Abzeichen auf externen Plattformen wie LinkedIn und anderen sozialen Medien teilen.
-

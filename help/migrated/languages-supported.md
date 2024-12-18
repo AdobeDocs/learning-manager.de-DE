@@ -2,7 +2,8 @@
 jcr-language: en_us
 title: Unterstützte Sprachen in Adobe Learning Manager
 description: Erfahren Sie mehr über die Benutzeroberfläche und die Inhaltssprachen, die in Adobe Learning Manager (ALM) unterstützt werden
-source-git-commit: d82d408cbe33ecfb099aa0c7677b0960f80991ef
+exl-id: 92eaa510-cb44-4e9b-b956-fde876aa48f2
+source-git-commit: 84b7edccd35729818fdd5941e0954af8a59a0d82
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 50%
@@ -81,4 +82,3 @@ Adobe Learning Manager unterstützt die folgenden Benutzeroberflächen- und Inha
 | Bulgarisch | - | bg |
 | Niederländisch (Belgien) | - | unverheiratet |
 | Portugal | - | pt-PT |
-

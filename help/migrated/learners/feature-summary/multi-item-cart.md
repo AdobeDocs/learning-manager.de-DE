@@ -2,13 +2,13 @@
 description: Erfahren Sie, wie Sie die neue Warenkorb-Unterstützung in ALM verwenden, um mehrere SKUs zu kaufen.
 jcr-language: en_us
 title: Mehrfach-Warenkorb in ALM
-source-git-commit: c4eb9a7c4fca73bc029f9afad1f3d48725779d30
+exl-id: 471b956b-dbeb-4e73-b009-fb217812ce12
+source-git-commit: b4b3252ef797eb271468dbe0bf06a8b64d5403d3
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 0%
 
 ---
-
 
 # Mehrfach-Warenkorb in ALM
 

@@ -2,7 +2,8 @@
 description: Erfahren Sie mehr über die nicht angemeldeten APIs, um die Headless-Schnittstelle zu entwickeln.
 jcr-language: en_us
 title: Nicht angemeldete APIs
-source-git-commit: 21e2a4a5e73fcbddb64e0afec0a896b315e38688
+exl-id: 12419c9a-3864-404c-8b32-922429d68ffb
+source-git-commit: b4b3252ef797eb271468dbe0bf06a8b64d5403d3
 workflow-type: tm+mt
 source-wordcount: '574'
 ht-degree: 0%

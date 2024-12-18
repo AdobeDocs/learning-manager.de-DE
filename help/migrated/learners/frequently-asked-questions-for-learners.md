@@ -4,14 +4,13 @@ title: Häufig gestellte Fragen für Teilnehmer
 description: Häufig gestellte Fragen für Teilnehmer von Adobe Learning Manager
 contentowner: admin
 preview: true
-source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
+exl-id: 1c7ddf64-a6c3-4082-a20c-068e4a441b7b
+source-git-commit: f6e98e56cc03fa92464bf2ed277fcf6a71b4e0b4
 workflow-type: tm+mt
 source-wordcount: '2374'
 ht-degree: 55%
 
 ---
-
-
 
 # Häufig gestellte Fragen für Teilnehmer
 
@@ -365,4 +364,3 @@ Führen Sie die folgenden Schritte aus, um die Desktop-Version herunterzuladen:
 Dadurch wird der Download der Anwendung gestartet.
 
 +++
-
