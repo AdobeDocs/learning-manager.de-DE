@@ -4,9 +4,9 @@ title: White Labels in der mobilen Adobe Learning Manager-App
 description: White Labels sind eine Praxis, bei der Sie eine App oder einen Service mit Ihrem eigenen Branding umbenennen und so anpassen, als wären Sie der ursprüngliche Ersteller. In Adobe Learning Manager kannst du die Mobile App mit einer weißen Beschriftung versehen, sodass du ein Rebranding der App vornehmen und die App deinen Benutzern unter deinem eigenen Branding zur Verfügung stellen kannst.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: b9809314014fcd8c80f337983c0b0367c060e348
+source-git-commit: c9f2b9f817d4baa04399d58bbc4008d7891e0252
 workflow-type: tm+mt
-source-wordcount: '1624'
+source-wordcount: '1879'
 ht-degree: 0%
 
 ---
@@ -378,23 +378,29 @@ Der Ordner `<root>` enthält die Datei **Runner.xcarchive.zip**. Führen Sie die
    cp <path>/<mobile-provisioningfile>.mobileprovision embedded.mobileprovision
    ```
 
-4. Kehren Sie zum Ordner &quot;`<root>`&quot; zurück (in dem sich Runner.xcarchive.zip befindet):
+4. Führen Sie den folgenden Befehl aus, um Ihre Signaturinformationen in der Framework-Bibliothek zu aktualisieren:
+
+   ```
+   codesign -f -s "Distribution Certificate Name" Frameworks/*
+   ```
+
+5. Kehren Sie zum Ordner &quot;`<root>`&quot; zurück (in dem sich Runner.xcarchive.zip befindet):
 
    ```
    cd <root>
    ```
 
-5. Exportieren Sie das Archiv mit xcodebuild:
+6. Exportieren Sie das Archiv mit xcodebuild:
 
    ```
    xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath ipa_path/ -exportOptionsPlist <path>/<ExportOptions-file>.plist
    ```
 
-6. Suchen Sie die .ipa-Datei im Ordner ipa_path.
-7. Laden Sie die IPA-Datei auf die Website `Diawi` hoch.
-8. Wählen Sie nach dem vollständigen Hochladen die Schaltfläche **[!UICONTROL Senden]** aus.
-9. Nach der Fertigstellung erhalten Sie einen QR-Code und einen Link.
-10. Öffnen Sie den QR-Code oder verknüpfen Sie ihn direkt in Safari.
+7. Suchen Sie die .ipa-Datei im Ordner ipa_path.
+8. Laden Sie die IPA-Datei auf die Website `Diawi` hoch.
+9. Wählen Sie nach dem vollständigen Hochladen die Schaltfläche **[!UICONTROL Senden]** aus.
+10. Nach der Fertigstellung erhalten Sie einen QR-Code und einen Link.
+11. Öffnen Sie den QR-Code oder verknüpfen Sie ihn direkt in Safari.
 
 Wenn das Gerät im Bereitstellungsprofil enthalten ist, sollte die Installation auf dem Gerät fortgesetzt werden.
 
@@ -408,8 +414,12 @@ Wenn das Gerät im Bereitstellungsprofil enthalten ist, sollte die Installation 
 **Für APK-Datei**
 
 ```
-sh""" <path>/apksigner sign --ks $storeFile --ks-pass "pass:$store_password" --ks-key-alias $key_alias --key-pass "pass:$key_password" --out app-release-signed.apk -v app-release.apk """
+sh""" <path>/apksigner sign --ks $storeFile --ks-pass env:KS_PASS --ks-key-alias $key_alias --key-pass env:KEY_PASS --out app-release-signed.apk -v app-release.apk """
 ```
+
+>[!NOTE]
+>
+>Der Pfad zum `apksigner`-Tool sieht in der Regel wie folgt aus: ~/Library/Android/sdk/build-tools/30.0.3/apksigner.
 
 **Für eine ABB-Datei**
 
@@ -464,6 +474,36 @@ Sie erhalten die apk-Datei aus dem Ordner **[!UICONTROL output_dir]**.
 **Nächste Schritte**
 
 Übertragen Sie die Binärdateien nach dem Generieren der Binärdateien in den Play Store oder in App Store.
+
+### Übertragen der Applikationen zum Review an den Store
+
+Nachdem Sie die endgültigen Binärdateien erhalten haben, können Sie sie zum Review in die entsprechenden App Stores (iOS oder Android) hochladen. Führen Sie die folgenden Schritte aus, um die Binärdateien in die App-Stores hochzuladen.
+
+**iOS**
+
+1. Melden Sie sich mit Ihren App Store-Anmeldedaten bei der Transporter-App an.
+2. Wählen Sie die Schaltfläche **+** oben links aus, und laden Sie das Produktionszertifikat (.ipa-Datei) hoch.
+3. Wenn die .ipa-Datei korrekt ist, werden Sie aufgefordert, die App in die App Store hochzuladen.
+4. Nachdem die App bereitgestellt wurde, melden Sie sich bei der App Store an. Innerhalb weniger Stunden wird die Binärdatei im Abschnitt TestFlight angezeigt. Sie können es für abschließende Zustandstests in TestFlight vor dem App-Review aktivieren und dieses IPA als Binärdatei verwenden, wenn Sie die App für eine neue Version senden.
+
+**Android**
+
+1. Öffnen Sie die Google Play Store Console.
+2. Wechseln Sie zu **[!UICONTROL Dashboard]** > **[!UICONTROL App-Releases anzeigen]** > **[!UICONTROL Dashboard freigeben]** und wählen Sie dann die **[!UICONTROL Neue Version erstellen]**.
+3. Laden Sie die generierte .aab-Datei als App-Paket hoch und geben Sie Versionsdetails wie die Versionsnummer und neue Informationen ein.
+4. Speichern Sie Ihre Änderungen und senden Sie die App zur Überprüfung.
+5. Stellen Sie sicher, dass die App-Verteilung auf 100 % eingestellt ist (Google legt sie standardmäßig auf 20 % fest).
+
+#### Nützliche Links für die Veröffentlichung von Apps
+
+**Android**
+
+[App erstellen und einrichten](https://support.google.com/googleplay/android-developer/answer/9859152?hl=en)
+[App für Review vorbereiten](https://support.google.com/googleplay/android-developer/answer/9859455?sjid=2454409340679630327-AP)
+
+**iOS**
+
+[Zur Überprüfung senden](https://developer.apple.com/help/app-store-connect/manage-submissions-to-app-review/submit-for-review)
 
 ## Wie werden die Änderungen angewendet?
 
