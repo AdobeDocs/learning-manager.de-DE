@@ -18,4 +18,4 @@ ht-degree: 0%
 
 Die Datei &quot;metadata.md&quot; enthält Metadaten auf Repo-Ebene, die an die TOC.md-Benutzerhandbuchdateien im Repo weitergeleitet werden. Wenn Sie den Inhalt von metadata.md für ein Benutzerhandbuch ändern möchten, tun Sie dies in einer beliebigen TOC.md-Datei.
 
-Siehe [Metadaten](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html) für eine Liste gültiger Werte für **Lösung**, **Produkt** und **type**.
+Eine Liste der gültigen Werte für **Lösung**, **Produkt** und **Typ** finden Sie unter [Metadaten](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html).

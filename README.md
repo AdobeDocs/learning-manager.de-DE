@@ -5,7 +5,7 @@ source-wordcount: '401'
 ht-degree: 6%
 
 ---
-# Artikel über Beiträge
+# Artikel über Contribute
 
 Wir freuen uns über Beiträge aus unserer Community sowie von Adobe-Mitarbeitern außerhalb der Dokumentationsteams.
 
@@ -15,13 +15,13 @@ Dieses Projekt beachtet den [Adobe Open Source Code of Conduct](code-of-conduct.
 
 ## Beiträge zu Adobe-Inhalten
 
-In den [Leitfaden für Mitwirkende an Adobe-Dokumenten](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
+Siehe [Leitfaden für Mitwirkende an Adobe-Dokumentation](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
 
 Die Art und Weise Ihrer Mitwirkung hängt davon ab, wer Sie sind und welche Änderungen Sie beitragen möchten:
 
 ### Geringfügige Änderungen
 
-Wenn Sie so freundlich sind, geringfügige Änderungen vornehmen zu wollen, lesen Sie den Artikel und klicken Sie auf das **Bearbeiten** Link im Artikel, der zur GitHub-Quelle für den Artikel führt. Verwenden Sie dann einfach die GitHub-Benutzeroberfläche, um Ihre Aktualisierungen vorzunehmen. Allgemeine Informationen [Leitfaden für Mitwirkende an Adobe Docs](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) für weitere Informationen.
+Wenn Sie so freundlich sind, geringfügige Änderungen vornehmen zu wollen, rufen Sie den Artikel auf und klicken Sie im Artikel auf den Link **Bearbeiten**, über den Sie zur GitHub-Quelle für den Artikel gelangen. Verwenden Sie dann einfach die GitHub-Benutzeroberfläche, um Ihre Aktualisierungen vorzunehmen. Weitere Informationen finden Sie im allgemeinen Leitfaden für Mitwirkende an [Adobe-Dokumentation](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
 
 Geringfügige Korrekturen oder Klarstellungen, die Sie für die Dokumentation und Codebeispiele in diesem Repo einreichen, werden von den Adobe-Nutzungsbedingungen abgedeckt.
 
@@ -35,7 +35,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 ### Wichtige Veränderungen durch Adobe-Mitarbeiter
 
-Wenn Sie ein technischer Autor, Programmmanager oder Entwickler des Produktteams für eine Adobe Experience Cloud-Lösung sind und es Ihre Aufgabe ist, an technischen Artikeln mitzuwirken oder sie zu verfassen, sollten Sie das private Repository unter `https://git.corp.adobe.com/AdobeDocs`.
+Wenn Sie ein technischer Autor, Programmmanager oder Entwickler des Produktteams für eine Adobe Experience Cloud-Lösung sind und es Ihre Aufgabe ist, an technischen Artikeln mitzuwirken oder sie zu verfassen, sollten Sie das private Repository unter `https://git.corp.adobe.com/AdobeDocs` verwenden.
 
 <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 
@@ -43,18 +43,18 @@ Wenn Sie ein technischer Autor, Programmmanager oder Entwickler des Produktteams
 
 Community-Mitwirkende können die GitHub-Benutzeroberfläche für grundlegende Bearbeitungen verwenden oder das Repo verzweigen, um wichtige Beiträge zu leisten.
 
-In den [Leitfaden für Mitwirkende an Adobe-Dokumenten](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) für weitere Informationen.
+Weitere Informationen finden Sie im [Leitfaden für Mitwirkende an Adobe-Dokumentation](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html).
 
 ## Verwenden von Markdown zum Formatieren Ihres Themas
 
 Alle Artikel in diesem Repository verwenden Markdown mit GitHub-Flavored. Wenn Sie mit Markdown nicht vertraut sind, finden Sie weitere Informationen unter:
 
-* [Markdown-Grundlagen](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
+* [Grundlagen zu Markdown](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
 * [Markdown-Spickzettel drucken](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ## Beschriftungen
 
 Im öffentlichen Repository werden Pull-Requests automatisierte Labels zugewiesen, die uns bei der Verwaltung des Pull-Request-Workflows helfen und die Sie darüber informieren, was mit Ihrem Pull-Request passiert:
 
-* **An den Autor gesendete Änderung**: Der Autor wurde über den ausstehenden Pull-Request benachrichtigt.
-* **ready-to-merge**: Bereit zur Überprüfung durch unser Team für Pull-Requests
+* **An Autor gesendete Änderung**: Der Autor wurde über die ausstehende Pull-Anforderung benachrichtigt.
+* **Bereit zur Zusammenführung**: Bereit zur Überprüfung durch unser Team für Pull-Requests
