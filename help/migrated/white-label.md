@@ -4,7 +4,7 @@ title: White Labels in der mobilen Adobe Learning Manager-App
 description: White Labels sind eine Praxis, bei der Sie eine App oder einen Service mit Ihrem eigenen Branding umbenennen und so anpassen, als wären Sie der ursprüngliche Ersteller. In Adobe Learning Manager kannst du die Mobile App mit einer weißen Beschriftung versehen, sodass du ein Rebranding der App vornehmen und die App deinen Benutzern unter deinem eigenen Branding zur Verfügung stellen kannst.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: b7050db4b7129028ada51b15e2d76fce2bb62f64
+source-git-commit: 25c4873f6d01c5832c213b6f225172f3dbcba1ee
 workflow-type: tm+mt
 source-wordcount: '1987'
 ht-degree: 0%
@@ -17,9 +17,9 @@ Die mobile Adobe Learning Manager-App unterstützt jetzt die weiße Beschriftung
 
 ALM stellt aktualisierte, weiß beschriftete Binärdateien gemäß den folgenden Zeitleisten zur Verfügung:
 
-1. Bei den Hauptversionen der mobilen App werden die Dateien zwei Wochen im Voraus zur Verfügung gestellt
-2. Für alle geplanten Aktualisierungen für dringende Korrekturen werden die Dateien eine Woche im Voraus zur Verfügung gestellt
-3. Bei ungeplanten, dringenden und sofortigen Korrekturen werden die Dateien nach Möglichkeit zur Verfügung gestellt.
+1. Bei den Hauptversionen der mobilen App werden die Dateien zwei Wochen im Voraus zur Verfügung gestellt.
+2. Für alle geplanten Aktualisierungen für dringende Korrekturen werden die Dateien eine Woche im Voraus zur Verfügung gestellt.
+3. Bei ungeplanten, dringenden und sofortigen Korrekturen werden die Dateien nach bestem Wissen und Gewissen zur Verfügung gestellt.
 
 Binärdateien werden in den vom Kunden angegebenen Ordnern zur Verfügung gestellt. Wenden Sie sich an Ihre CSMs, um auf die Dateien zuzugreifen. Der Kunde ist für die rechtzeitige Veröffentlichung und die damit verbundenen Prozesse verantwortlich.
 
