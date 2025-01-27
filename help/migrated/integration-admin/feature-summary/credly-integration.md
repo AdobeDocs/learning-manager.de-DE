@@ -4,9 +4,9 @@ title: Credly
 description: Erfahren Sie mehr über die Credly Integration mit ALM, um externe Abzeichen von der Plattform über verschiedene Social Media-Kanäle zu verwalten und freizugeben
 contentowner: chandrum
 exl-id: 168f7ff8-51f5-4962-bf76-af909fc5565b
-source-git-commit: 99a3638855370a8af9e221962d01d0559905d05a
+source-git-commit: f3a0ec693e1a2e75cdad24f91f22a0290d62740d
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '360'
 ht-degree: 0%
 
 ---
@@ -42,8 +42,8 @@ Führen Sie die folgenden Schritte aus, um den Credly Connector zu Adobe Learnin
 
 Mit der Datei &quot;badge.csv&quot; in Adobe Learning Manager können Sie Abzeichen von bestehenden LMS- oder externen Systemen migrieren. Die Datei &quot;badge.csv&quot; wurde mit zwei neuen Spalten aktualisiert:
 
-* Externe Kennzeichen-ID
-* Externer Abzeichen-Anbieter.
+* externalBadgeId
+* externalBadgeProvider
 
 Die ID des externen Abzeichens bezieht sich auf die ID der Abzeichenvorlage in der Credly-Plattform, und der externe Abzeichenanbieter ist Credly. Fügen Sie diese Werte in badge.csv hinzu und führen Sie die im [Migrationshandbuch](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual#migrationprocedure) genannten Schritte aus, um die CSV-Datei zu migrieren.
 
