@@ -4,7 +4,7 @@ title: Handbuch für Anwendungsentwickler
 description: Die Learning Manager V1-API ist jetzt veraltet. Die V1-APIs funktionieren ab dem 28. Februar 2021 nicht mehr. Wir empfehlen Ihnen, V2-APIs zu verwenden, um mit dem Learning Manager zu interagieren.
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: a27c1566678d697512a75d94804b8804b5dc9b2b
+source-git-commit: 448119eda15c8d7dfe10150c09fbbe7c530f35e8
 workflow-type: tm+mt
 source-wordcount: '3377'
 ht-degree: 63%
@@ -120,11 +120,11 @@ Entwickler können sowohl auf ein einzelnes API-Objektmodell als auch auf mehrer
 
 **API-Anforderung**
 
-Die API-Anfragen können über eine HTTP-Anfrage gestellt werden. Je nach Endpunkt und Methode stehen eventuell verschiedene HTTP-Verben wie GET, PUT, POST, DELETE, PATCH usw. zur Verfügung. Bei manchen Anforderungen können Abfrageparameter übergeben werden. Wenn der Benutzer eine Anforderung für ein bestimmtes Datenmodell sendet, kann er auch verknüpfte Modelle anfordern wie in den Spezifikationen für die JSON-API beschrieben. Die Struktur einer typischen API-Anforderung wird unter [Nutzungsbeispiel für Modell](#main-pars_header_1415780624) beschrieben.
+Die API-Anfragen können über eine HTTP-Anfrage gestellt werden. Je nach Endpunkt und Methode stehen eventuell verschiedene HTTP-Verben wie GET, PUT, POST, DELETE, PATCH usw. zur Verfügung. Bei manchen Anforderungen können Abfrageparameter übergeben werden. Wenn der Benutzer eine Anforderung für ein bestimmtes Datenmodell sendet, kann er auch verknüpfte Modelle anfordern wie in den Spezifikationen für die JSON-API beschrieben. Die Struktur einer typischen API-Anforderung wird unter [Nutzungsbeispiel für Modell](/help/migrated/integration-admin/feature-summary/developer-manual.md#api-usage-illustration) beschrieben.
 
 **API-Antwort**
 
-Bei einer API-Anforderung durch einen Client wird ein JSON-Dokument gemäß der JSON-API-Spezifikation abgerufen. Die Antwort enthält außerdem den HTTP-Statuscode, den der Entwickler überprüfen kann, um die entsprechenden nächsten Schritte in seiner Anwendungslogik auszuführen. Die Struktur einer typischen API-Antwort wird in [Beispielmodellverwendung](#main-pars_header_1415780624) beschrieben.
+Bei einer API-Anforderung durch einen Client wird ein JSON-Dokument gemäß der JSON-API-Spezifikation abgerufen. Die Antwort enthält außerdem den HTTP-Statuscode, den der Entwickler überprüfen kann, um die entsprechenden nächsten Schritte in seiner Anwendungslogik auszuführen. Die Struktur einer typischen API-Antwort wird in [Beispielmodellverwendung](/help/migrated/integration-admin/feature-summary/developer-manual.md#api-usage-illustration) beschrieben.
 
 **Fehler**
 

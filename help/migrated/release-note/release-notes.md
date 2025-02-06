@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Versionshinweise zu Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 81d6ae6c552d8509d311ac9a12eb962968151a60
+source-git-commit: 96e875a2b2cd2866a624068b5e8e18aabb39d888
 workflow-type: tm+mt
-source-wordcount: '26265'
+source-wordcount: '26470'
 ht-degree: 72%
 
 ---
@@ -22,6 +22,26 @@ ht-degree: 72%
   </tr>
  </tbody>
 </table>-->
+
++++Update 99: Die Version Februar 2025 von Adobe Learning Manager
+
+## Benutzeroberflächensprache über SAML einrichten
+
+Adobe Learning Manager (ALM) akzeptiert jetzt ein SAML-Attribut für die Sprache. Dieses Attribut wird dann der Benutzeroberfläche und den Spracheinstellungen des Inhalts zugeordnet, um eine reibungslose Interaktion mit dem LMS in der gewünschten Sprache zu gewährleisten. Die Konfiguration dieser Spracheinstellungen wird über die Plattform Identity and Access Management (IAM) verwaltet und verwendet SAML für Single-Sign-on (SSO). Dies unterstützt sowohl vom Service Provider (SP) initiierte als auch vom Identity Provider (IdP) initiierte Anmeldungen, sodass Benutzer die Oberfläche und den Inhalt in der gewünschten Sprache sehen können.
+
+Weitere Informationen finden Sie in diesem [Artikel](/help/migrated/administrators/feature-summary/set-up-interface-language-through-saml.md).
+
+## Verbesserungen bei Migrations-APIs
+
+Bisher wurde in Aktivitätsmodulen mit externen Links, die mithilfe von APIs (`GET /bulkimport/cansync` und `POST /bulkimport/startrun`) migriert wurden, die Option **[!UICONTROL Als abgeschlossen markieren]** für Teilnehmer nach dem Zugriff auf den Link nicht angezeigt. Dieses Problem wurde behoben. Jetzt zeigen Aktivitätsmodule mit externen Links, die über APIs migriert wurden, die Option **[!UICONTROL Als abgeschlossen markieren]** für Teilnehmer korrekt an.
+
+## Sortierfunktion in der Teilnehmer-App
+
+Die Sortierfunktion in der Teilnehmer-App bietet personalisierte Kursempfehlungen basierend auf Inhalt und Sprache der Benutzeroberfläche. &#x200B; Diese Verbesserung vereinfacht es Teilnehmern, Kurse in ihrer bevorzugten Sprache zu finden und intelligentere Sortieroptionen zu verwenden.
+
+Weitere Informationen finden Sie in diesem [Artikel](/help/migrated/learners/feature-summary/catalogs.md#sorting-functionality-in-the-learner-app).
+
++++
 
 +++Update 98: Die Version November 2024 von Adobe Learning Manager
 

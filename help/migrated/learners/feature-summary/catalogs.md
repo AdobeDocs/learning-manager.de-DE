@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Kataloge
 contentowner: manochan
 exl-id: 5e62995c-6471-47e9-9e6c-06ac5c5586bc
-source-git-commit: 6862dc1958a34a369f0e0e7218f28151a47beb3b
+source-git-commit: e2799f1bba927108286d5e8036d761f35fd785e6
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 12%
+source-wordcount: '455'
+ht-degree: 6%
 
 ---
 
@@ -41,3 +41,30 @@ Sie können auch nach der Dauer einer Schulung filtern. Der Dauerfilter umfasst 
 Die Filter &quot;**Dauer**&quot; und &quot;**Format**&quot; für die Schulung werden anhand der Schulungsinhalte identifiziert, die für die Standardinstanz und für das von einem Konto bevorzugte Gebietsschema verfügbar sind.
 
 Sobald eine Schulung veröffentlicht ist, kann es bis zu einer Stunde dauern, bis die Daten als Filter verfügbar sind.
+
+## Sortierfunktion in der Teilnehmer-App
+
+Die Sortierfunktion in der Teilnehmer-App bietet personalisierte Kursempfehlungen basierend auf Inhalt und Sprache der Benutzeroberfläche. &#x200B; Diese Verbesserung vereinfacht es Teilnehmern, Kurse in ihrer bevorzugten Sprache zu finden und intelligentere Sortieroptionen zu verwenden.
+
+>[!NOTE]
+>
+>Diese Funktion ist sowohl im Web als auch in der mobilen App verfügbar.
+
+Sie können Kurse alphabetisch sortieren:
+
+1. **[!UICONTROL Name (A-Z)]**: Zeigt Kurse in alphabetischer Reihenfolge an.
+2. **[!UICONTROL Name (Z-A)]**: Zeigt Kurse in umgekehrter alphabetischer Reihenfolge an.
+
+Kurse werden basierend auf den Sprachvoreinstellungen in der folgenden Prioritätsreihenfolge angezeigt:
+
+1. **[!UICONTROL Inhaltssprache]**: Kurse in der ausgewählten Inhaltssprache werden zuerst angezeigt.
+2. **[!UICONTROL Schnittstellensprache]**: Kurse in der Schnittstellensprache werden als Nächstes aufgeführt.
+3. **[!UICONTROL Andere Sprachen]**: Kurse in zufälligen Sprachen werden zuletzt angezeigt.
+
+Wenn im Konto keine Inhaltssprache oder Benutzeroberflächensprache konfiguriert ist, geht das System folgendermaßen vor:
+
+1. **[!UICONTROL Browsersprache]**: Die App priorisiert Kurse basierend auf den Spracheinstellungen des Browsers.
+2. **[!UICONTROL Kontosprache]**: Wenn die Browsersprache nicht verfügbar ist, wird die ALM-Kontosprache berücksichtigt.
+3. **[!UICONTROL Standard auf Englisch]**: Wenn der Browser oder die Kontosprache nicht verfügbar ist, werden die Kurse auf Englisch angezeigt.
+
+Wählen Sie die Seite **[!UICONTROL Kataloge]** in der Teilnehmer-App aus und wählen Sie dann Ihre bevorzugte Sortieroption aus: **[!UICONTROL Name (A-Z)]** oder **[!UICONTROL Name (Z-A)]**. Die Kurse werden entsprechend Ihrer ausgewählten Sortiervoreinstellung angezeigt, wobei sprachbasierte Priorisierung angewendet wird.
