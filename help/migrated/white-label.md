@@ -46,213 +46,109 @@ Folgende Elemente können angepasst werden:
 ### Felder
 
 <table>
-
  <tbody>
-
   <tr>
-
    <td>
-
     <p>Konto-ID</p>
-
    </td>
-
    <td>
-
     <p>Die ID Ihres Kontos. Beachten Sie, dass Teilnehmer, die zu einem anderen Konto gehören, nicht auf die App mit weißer Beschriftung zugreifen können.</p>
-
    </td>
-
   </tr>
-
   <tr>
-
    <td>
-
     <p>Zusätzliche Konto-IDs</p>
-
    </td>
-
    <td>
-
     <p>Fügen Sie bei Bedarf mehrere Konten (Unterdomänen) hinzu. Fügen Sie die Unterdomänen durch Kommas getrennt ohne Leerzeichen hinzu. Beispiel: acc01, acc02, acc03 usw.<br> <b>Hinweis:</b> Sie müssen die Konto-ID hinzufügen, wenn Sie die Unterdomänen angeben.</br> </p>
-
    </td>
-
   </tr>
-
   <tr>
-
    <td>
-
     <p>App-Name</p></td>
-
    <td>
-
     <p>Der Name, den Sie für die App verwenden möchten.</p>
-
    </td>
-
   </tr>
-
   <tr>
-
    <td>
-
     <p>App-Kurzname</p>
-
    </td>
-
    <td>
-
     <p>Wenn der Name der App lang ist, geben Sie der App einen kurzen Namen, der auf dem Gerät angezeigt wird.</p>
-
    </td>
-
   </tr>
-
   <tr>
-
    <td>
-
     <p>Name der internen App</p></td>
-
    <td>
-
     <p>Der Name, mit dem das Betriebssystem die App identifiziert. Üblicherweise wird das Format com.company-name.product-name verwendet.</p>
-
    </td>
-
   </tr>
-
   <tr>
-
    <td>
-
     <p>Name der internen App - iOS</p>
-
    </td>
-
    <td>
-
     <p>Benennen Sie die App anders, wenn sich Ihre Benutzer in iOS befinden. Es wird empfohlen, für iOS und Android denselben Namen zu verwenden.</p>
-
    </td>
-
   </tr>
-
   <tr>
-
    <td>
-
     <p>App-Symbol</p>
-
    </td>
-
    <td>
-
     <p>Das App-Symbol als png. Dieses Symbol wird in Ihrer App angezeigt. Das zu benennende Format ist account-id_appIcon.png. Die Abmessungen des App-Symbols sind 512 × 512 Pixel.<div>Bitte beachten Sie, dass Apple keinen Alpha-Kanal in App-Symbolen zulässt. Stellen Sie daher sicher, dass Sie den Alpha-Kanal aus dem Asset entfernen, bevor Sie es senden.</div></p>
-
    </td>
-
   </tr>
-
   <tr>
-
    <td>
-
     <p>Startbildschirm der App</p></td>
-
    <td>
-
     <p>Geben Sie für den Begrüßungsbildschirm Ihrer App ein Bild (png) an, das angezeigt wird, wenn die Benutzer die App starten. Das zu benennende Format ist account-id_splashIcon.png. Die Abmessungen der quadratischen Splashscreens betragen 1052 × 1052 Pixel und der kreisförmigen Splashscreens 768 x 768 Pixel.</p>
-
    </td>
-
   </tr>
-
   <tr>
-
    <td>
-
     <p>Client-ID und geheimer Clientschlüssel</p>
-
    </td>
-
    <td>
-
     <p>Der Integrations-Admin Ihres Kontos stellt die Details bereit, während Sie die App registrieren. Der Integrationsadministrator muss Folgendes verwenden:<ul><li>Teilnehmer:lesen,Teilnehmer:als Rolle schreiben</li><li>Interne App name://redirect als Umleitungs-URL</li></ul></p>
-
    </td>
-
   </tr>
-
   <tr>
-
    <td>
-
     <p>Kontenlogo</p>
-
    </td>
-
    <td>
-
     <p>Die URL, über die das Logo Ihres Unternehmens gehostet wird. Geben Sie einen cpcontents-Link als Logo für das Konto an. Die URL muss webcodiert sein.</p>
-
    </td>
-
   </tr>
-
   <tr>
-
    <td>
-
     <p>App Store-ID für die App (iOS)</p>
-
    </td>
-
    <td>
-
     <p>Die für die Implementierung der Force-Aktualisierung erforderliche ID. Die App muss wissen, dass der Teilnehmer zum App Store weitergeleitet werden sollte, um die App zu aktualisieren.</p>
-
    </td>
-
   </tr>
-
   <tr>
-
    <td>
-
     <p>Google Play Store-ID für die App (Android)</p>
-
    </td>
-
    <td>
-
     <p>Die für die Implementierung der Force-Aktualisierung erforderliche ID.</p>
-
    </td>
-
   </tr>
-
   <tr>
-
    <td>
-
     <p>Hostname für Deep-Linking</p>
-
    </td>
-
    <td>
-
     <p>Um Ihre Deep Links zu hosten, verwenden Sie den Learning Manager. Wenn Sie eine andere URL für den Hostnamen als Deep-Link verwenden möchten, geben Sie die URL des Hosts an. Beispiel: learningmanager.adobe.com.</p>
-
    </td>
-
   </tr>
-
  </tbody>
-
 </table>
 
 >[!NOTE]
