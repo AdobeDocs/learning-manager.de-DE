@@ -4,9 +4,9 @@ title: Kenntnisse aus externen Quellen importieren
 description: Importieren Sie Kenntnisse von Inhaltsanbietern wie LinkedIn und Go1 mithilfe der entsprechenden Connectors.  Die importierten Kenntnisse werden den vom Administrator definierten Kenntnissen im Lern-Manager hinzugefügt und stehen den Autoren während des Workflows zur Kurserstellung zur Verfügung.
 contentowner: saghosh
 exl-id: 3bcd8fc6-16e4-4f66-a5c6-15b3d606f0c2
-source-git-commit: 260b413b7bb739dc57504df57a6bd2d6a35df161
+source-git-commit: d96b25245daadaa0f5a330bcf8a7ab5bba995876
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Als Administrator können Sie Kenntnisse nur aus einer Kenntnisquelle importiere
 
 ### Standardkenntnisstufe
 
-Die standardmäßige Kenntnisstufe ist eins und &quot;Credits&quot; ist 10, nachdem die Kenntnisse migriert wurden. Ein späterer Administrator kann das Guthaben ändern.
+Die standardmäßige Kenntnisstufe ist eins und &quot;Credits&quot; ist 10, nachdem die Kenntnisse migriert wurden.
 
 Sie können den Namen der Kenntnisse, die Beschreibung und die Stufen externer Kenntnisse nicht bearbeiten. Sie können jedoch Domänen und Abzeichen hinzufügen und Credits bearbeiten.
 
