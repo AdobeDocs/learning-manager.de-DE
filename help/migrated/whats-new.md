@@ -3,9 +3,9 @@ description: Erfahren Sie mehr über die neuen Funktionen und Verbesserungen in 
 jcr-language: en_us
 title: Zusammenfassung der neuen Funktionen
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: e2799f1bba927108286d5e8036d761f35fd785e6
+source-git-commit: e11a51273d27e6c871a45a52ddb2536baccc57be
 workflow-type: tm+mt
-source-wordcount: '3184'
+source-wordcount: '3255'
 ht-degree: 2%
 
 ---
@@ -188,6 +188,26 @@ Die Kursleiter, die aus einer Sitzung entfernt werden, erhalten jetzt nur eine E
 Derzeit werden Teilnehmer als anwesend markiert, auch wenn sie nur für einige Sekunden an einer virtuellen Kursleitersitzung (VILT) teilnehmen. Mit dieser Version haben wir Abschlusskriterien für Teams-Module eingeführt, um eine genauere Teilnahme zu gewährleisten. Autoren können jetzt eine Mindestzeit festlegen, die die Teilnehmer in einer VILT-Sitzung verbringen müssen, damit ihre Anwesenheit gezählt werden kann.
 
 Dies ist eine Backend-Funktion, die standardmäßig deaktiviert ist. Wenden Sie sich an Ihren CSM, um ihn zu aktivieren.
+
+## Aktualisieren neuer IP-Adressen für die E-Mail-Übermittlung
+
+Um die Zuverlässigkeit der E-Mail-Bereitstellung zu erhöhen, fügen wir unserem vorhandenen Pool neue IP-Adressen hinzu. Damit es zu keinen Unterbrechungen bei der E-Mail-Kommunikation kommt, aktualisieren Sie die E-Mail-Einstellungen Ihrer Organisation nach Bedarf.
+
+Wir verwenden derzeit die folgenden IP-Adressen für die E-Mail-Zustellung:
+
+* 149.72.162.66
+* 167.89.5.155
+
+Die folgenden IP-Adressen werden unserem E-Mail-Bereitstellungspool hinzugefügt:
+
+* 159.183.228.93
+* 159.183.225.26
+* 159.183.218.22
+* 168.245.57.144
+
+>[!NOTE]
+>
+>Bei Bedarf empfehlen wir die Zusammenarbeit mit Ihrem IT-Team, um die neuen IP-Adressen auf die Positivliste zu setzen.
 
 ## Migrationsänderungen
 
