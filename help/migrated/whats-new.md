@@ -3,9 +3,9 @@ description: Erfahren Sie mehr über die neuen Funktionen und Verbesserungen in 
 jcr-language: en_us
 title: Zusammenfassung der neuen Funktionen
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: e11a51273d27e6c871a45a52ddb2536baccc57be
+source-git-commit: 537d324d6e266552fdfdd9ba16557fd3228870b7
 workflow-type: tm+mt
-source-wordcount: '3255'
+source-wordcount: '3260'
 ht-degree: 2%
 
 ---
@@ -207,7 +207,7 @@ Die folgenden IP-Adressen werden unserem E-Mail-Bereitstellungspool hinzugefügt
 
 >[!NOTE]
 >
->Bei Bedarf empfehlen wir die Zusammenarbeit mit Ihrem IT-Team, um die neuen IP-Adressen auf die Positivliste zu setzen.
+>Bei Bedarf empfehlen wir die Zusammenarbeit mit Ihrem IT-Team, um die IP-Adressen zur Liste der zulässigen URLs hinzuzufügen.
 
 ## Migrationsänderungen
 
