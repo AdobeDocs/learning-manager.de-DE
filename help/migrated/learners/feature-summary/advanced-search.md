@@ -3,9 +3,9 @@ jcr-language: en_us
 title: KI-gestützte Suche in Adobe Learning Manager
 description: KI-gestützte Suche in Adobe Learning Manager
 exl-id: 9982a8be-b2e6-42a4-836a-7f9337588ae8
-source-git-commit: d8fd49937f7bc4c3bd6cc4df9da31208c25cd307
+source-git-commit: e25c92f9d91768db607cb153138cd02d1fbe28aa
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1173'
 ht-degree: 0%
 
 ---
@@ -84,7 +84,7 @@ _Semantische Suche_
 
 ### Inhaltsinterne Suche
 
-Die Suchfunktion von Adobe Learning Manager wurde erweitert, um tatsächliche Inhalte zu durchsuchen. Es transkribiert automatisch Videos, Audiodateien und PDF und bindet diese Transkripte in die Suchergebnisse ein. Darüber hinaus werden Adobe Connect-Meetingaufzeichnungen verwendet, um umfassendere und relevantere Ergebnisse zu erzielen. Diese Verbesserung stellt sicher, dass Kurse mit umfangreichen Inhalten wie Videos und Meetingnotizen einbezogen werden, was die Suchgenauigkeit und -effektivität erheblich verbessert.
+Die Suchfunktion von Adobe Learning Manager wurde erweitert, um tatsächliche Inhalte zu durchsuchen. Es transkribiert automatisch Videos, Audiodateien, PDF, Dokumente, ppt und xls und bindet diese Transkripte in Suchergebnisse ein. Darüber hinaus werden Adobe Connect-Meetingaufzeichnungen verwendet, um umfassendere und relevantere Ergebnisse zu erzielen. Diese Verbesserung stellt sicher, dass Kurse mit umfangreichen Inhalten wie Videos und Meetingnotizen einbezogen werden, was die Suchgenauigkeit und -effektivität erheblich verbessert. Die inhaltliche Übereinstimmung trägt zur Verbesserung der Bewertung von Suchergebnissen bei, indem sie den Ergebnissen, die durch traditionelle Ausdrucksübereinstimmung und semantische Übereinstimmung gefunden wurden, einen Schub verleiht.
 
 >[!NOTE]
 >
