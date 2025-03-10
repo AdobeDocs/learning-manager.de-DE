@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Manager-Dashboard
 contentowner: kuppan
 exl-id: 32d017bf-ee5a-4749-947d-0d62b32d6f38
-source-git-commit: 2a679ba595c6958d436f8a1db0196b8dbc7d30cf
+source-git-commit: 359bc38487dedc7ec8883957b10522e53d09bddb
 workflow-type: tm+mt
-source-wordcount: '1432'
-ht-degree: 49%
+source-wordcount: '1486'
+ht-degree: 47%
 
 ---
 
@@ -84,6 +84,10 @@ Um einen Excel-Bericht zu generieren, wählen Sie **[!UICONTROL Aktionen] > [!UI
 ## Compliance-Status {#compliancestatus}
 
 Im Kompatibilitäts-Dashboard können Manager den allgemeinen Konformitätsstatus des Teams für konfigurierte Lernergebnisse für bestimmte Kategorien (z. B. Vertrieb, Marketing und Rechtsabteilung) anzeigen. Administratoren können ein Dashboard mit Compliance-Kursen, Lernpfaden oder Zertifizierungen erstellen und diese an die Manager weitergeben. Manager können das vom Administrator freigegebene Dashboard in ihren Instanzen anzeigen.
+
+Benutzer A ist der Manager von Benutzer B, Benutzer C, Benutzer D und Benutzer E. Benutzer B und Benutzer C sind Manager ihrer jeweiligen Teams.
+
+Benutzer A kann Berichte zu seinen direkten Berichten (Benutzer B, Benutzer C, Benutzer D und Benutzer E) sowie zu den von Benutzer B und Benutzer C verwalteten Teams anzeigen.
 
 ### Dashboard anzeigen
 

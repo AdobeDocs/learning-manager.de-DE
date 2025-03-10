@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Abzeichen
 contentowner: manochan
 exl-id: d0136a79-7044-4a1e-85bb-bd7b1ae24ba1
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 359bc38487dedc7ec8883957b10522e53d09bddb
 workflow-type: tm+mt
 source-wordcount: '801'
 ht-degree: 51%
@@ -70,7 +70,7 @@ In der Teilnehmer-App auf der Seite &quot;Abzeichen&quot; befindet sich die Opti
 
 ## Abzeichen-Aktualisierung
 
-Ein Teilnehmer kann sein Abzeichen auf das neueste Abzeichen aktualisieren, indem er das Abzeichen auswählt und im rechten oberen Bereich der Seite auf **Aktualisieren** klickt. Eine Abzeichen-Aktualisierung wird durchgeführt, wenn ein Administrator/Autor Änderungen an Abzeichenbild oder Abzeichen vom Lernobjekt vorgenommen hat.
+Ein Teilnehmer kann sein Abzeichen auf das neueste Abzeichen aktualisieren, indem er das Abzeichen auswählt und im rechten oberen Bereich der Seite auf **Update** klickt. Eine Abzeichen-Aktualisierung wird durchgeführt, wenn ein Administrator/Autor Änderungen an Abzeichenbild oder Abzeichen vom Lernobjekt vorgenommen hat.
 
 Dieser Vorgang zum Aktualisieren der Seite wird als manuelle Aktualisierung bezeichnet. In diesem Fall wird das Abzeichen nach Abschluss der Aktualisierung erneut in Badgr Backpack hochgeladen, selbst wenn es dasselbe Abzeichenbild/den selben Namen aufweist. Nach dem Aktualisieren des Abzeichens erhält der Teilnehmer eine Benachrichtigung, dass die Aktualisierung abgeschlossen ist.
 
