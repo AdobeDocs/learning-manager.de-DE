@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Manager-Dashboard
 contentowner: kuppan
 exl-id: 32d017bf-ee5a-4749-947d-0d62b32d6f38
-source-git-commit: 359bc38487dedc7ec8883957b10522e53d09bddb
+source-git-commit: fc10dcbedf1e91ccff2e0ccbcedb9bf6bbb89c67
 workflow-type: tm+mt
-source-wordcount: '1486'
-ht-degree: 47%
+source-wordcount: '1499'
+ht-degree: 46%
 
 ---
 
@@ -22,6 +22,8 @@ Führungskräfte spielen eine wichtige Rolle bei den Lerninitiativen eines Teams
 *Dashboard-Bericht für einen Manager*
 
 Um die Details eines Diagramms anzuzeigen, klicken Sie auf das Diagramm oder auf den Hyperlink **[!UICONTROL Details]**.
+
+Manager können auch das Dashboard des Teams ihres Managers der nächsten Ebene anzeigen. Beispiel: Benutzer A ist der Manager von Benutzer B, Benutzer C, Benutzer D und Benutzer E. Benutzer B und Benutzer C sind Manager ihrer jeweiligen Teams. Benutzer A kann Berichte zu seinen direkten Berichten (Benutzer B, Benutzer C, Benutzer D und Benutzer E) sowie zu den von Benutzer B und Benutzer C verwalteten Teams anzeigen.
 
 ## Übersicht zu Lernprogrammen {#learningsummary}
 
@@ -84,10 +86,6 @@ Um einen Excel-Bericht zu generieren, wählen Sie **[!UICONTROL Aktionen] > [!UI
 ## Compliance-Status {#compliancestatus}
 
 Im Kompatibilitäts-Dashboard können Manager den allgemeinen Konformitätsstatus des Teams für konfigurierte Lernergebnisse für bestimmte Kategorien (z. B. Vertrieb, Marketing und Rechtsabteilung) anzeigen. Administratoren können ein Dashboard mit Compliance-Kursen, Lernpfaden oder Zertifizierungen erstellen und diese an die Manager weitergeben. Manager können das vom Administrator freigegebene Dashboard in ihren Instanzen anzeigen.
-
-Benutzer A ist der Manager von Benutzer B, Benutzer C, Benutzer D und Benutzer E. Benutzer B und Benutzer C sind Manager ihrer jeweiligen Teams.
-
-Benutzer A kann Berichte zu seinen direkten Berichten (Benutzer B, Benutzer C, Benutzer D und Benutzer E) sowie zu den von Benutzer B und Benutzer C verwalteten Teams anzeigen.
 
 ### Dashboard anzeigen
 
