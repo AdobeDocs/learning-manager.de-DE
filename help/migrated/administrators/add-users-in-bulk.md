@@ -4,10 +4,10 @@ title: Gleichzeitiges Hinzufügen mehrerer Benutzer
 description: Erfahren Sie, wie Sie mehrere Benutzer gleichzeitig hinzufügen.
 contentowner: saghosh
 exl-id: c3309ce5-8764-452e-82d5-5637c23c661b
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 25%
+source-wordcount: '341'
+ht-degree: 23%
 
 ---
 
@@ -38,6 +38,10 @@ Sie können mehrere Benutzer gleichzeitig hinzufügen, indem Sie die folgenden S
 Es ist nicht zwingend erforderlich, das Profil des Benutzers und die E-Mail-ID des Managers zur CSV hinzuzufügen. Der Benutzername und die E-Mail-ID des Benutzers sind die einzigen obligatorischen Felder.
 
 In diesem Fall wird der Administrator Ihres Unternehmens standardmäßig als Manager für Benutzer behandelt. Standardmäßig wird der Mitarbeiter als Benutzerprofil betrachtet.
+
+>[!NOTE]
+>
+>Um neue Benutzer hinzuzufügen, erstellen Sie eine neue CSV-Datei mit ihren Details und laden Sie sie hoch. Das Aktualisieren und erneute Hochladen einer vorhandenen CSV-Datei wird nicht unterstützt.
 
 **Beispiel-CSV**
 

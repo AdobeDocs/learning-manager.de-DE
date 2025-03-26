@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Anmelden
 contentowner: manochan
 exl-id: f553bfa1-29f0-420f-abde-e1f65612b182
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 58%
+source-wordcount: '196'
+ht-degree: 33%
 
 ---
 
@@ -15,7 +15,14 @@ ht-degree: 58%
 
 Melden Sie sich als Teilnehmer bei Learning Manager an.
 
-Wenn Sie Adobe Learning Manager zum ersten Mal verwenden, müssen Sie ein Konto erstellen, indem Sie die unten angeführten Schritte befolgen:
+Wenn Sie Adobe Learning Manager zum ersten Mal verwenden, müssen die Teilnehmer ein Konto erstellen. Dafür gibt es zwei Möglichkeiten:
+
+* Selbstregistrierung: Verwenden Sie die URL in der Begrüßungs-E-Mail, um Ihr Konto zu erstellen.
+* Vom Administrator erstelltes Konto: Ein Administrator kann ein Konto für Sie erstellen.
+
+## Erstellen Sie ein Konto mithilfe der Begrüßungs-E-Mail-URL
+
+Führen Sie die folgenden Schritte aus, um Ihr Konto unter Verwendung der URL aus der Begrüßungs-E-Mail zu erstellen:
 
 1. Starten Sie Adobe Learning Manager über den sicheren Link, den Sie von Ihrem Administrator mit Ihrer Begrüßungs-E-Mail erhalten haben.
 

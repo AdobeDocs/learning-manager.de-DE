@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Hinzufügen von Benutzern und Erstellen von Benutzergruppen
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '4150'
-ht-degree: 60%
+source-wordcount: '4231'
+ht-degree: 59%
 
 ---
 
@@ -79,7 +79,7 @@ Um Benutzer hinzuzufügen,
 
 ## Hinzufügen von mehreren Benutzern gleichzeitig {#addusersinbulk}
 
-### Benutzer verwalten
+### Verwalten von Benutzenden
 
 In dieser Schulung erfahren Sie, wie Sie Rollen zuweisen und entfernen, eine Begrüßungs-E-Mail senden und Benutzer löschen und bereinigen.
 
@@ -358,6 +358,16 @@ Zusätzlich zu automatisch generierten Gruppen können Sie benutzerdefinierte Gr
 1. Klicken Sie zum Erstellen der Benutzergruppe auf **[!UICONTROL Speichern]**.
 
 Diese benutzerdefinierte Gruppe wird nun erstellt und dem Profil hinzugefügt. Die von Ihnen erstellten Benutzergruppen sind dynamischer Natur. Wenn neue Benutzer mit ähnlichen Attributen hinzugefügt werden, werden sie automatisch der Benutzergruppe hinzugefügt.
+
+Um die Liste der Gruppen anzuzeigen, zu denen ein Benutzer gehört, navigieren Sie zu **[!UICONTROL Benutzer]** > **[!UICONTROL Benutzergruppen]**, suchen Sie nach dem Benutzernamen und wählen Sie ihn aus. Dadurch werden alle Gruppen angezeigt, denen der Benutzer angehört.
+
+![](assets/list-of-group.png)
+
+### Herunterladen der Liste der Benutzer in einer Benutzergruppe
+
+Um die Liste der Benutzer in einer bestimmten Benutzergruppe herunterzuladen, navigieren Sie zu **[!UICONTROL Benutzer]** > **[!UICONTROL Benutzergruppen]**, wählen Sie das **[!UICONTROL Downloadsymbol]** neben der Gruppe aus. Dadurch wird eine CSV-Datei generiert, die die Liste der Benutzer in dieser Gruppe enthält.
+
+![](assets/download-list-of-user.png)
 
 ## Ausschluss von Benutzergruppen
 

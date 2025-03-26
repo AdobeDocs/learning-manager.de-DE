@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Peer-Konten
 contentowner: shhivkum
 exl-id: 251d0eeb-f5e8-4f70-a36c-dcecb4834042
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 62%
+source-wordcount: '638'
+ht-degree: 57%
 
 ---
 
@@ -31,6 +31,18 @@ Learning Manager bietet jetzt die Möglichkeit, erworbene Lizenzen mithilfe der 
    ![](assets/addpeer.png)
 
    *Unterdomäne hinzufügen*
+
+>[!NOTE]
+>
+>Um die Unterdomäne eines anderen Kontos zu finden, überprüfen Sie die URL des Kontos. Die Unterdomäne wird vor der Hauptdomäne angezeigt und hilft bei der Identifizierung des spezifischen Kontos.
+>
+>Beispiel:
+>
+>In der URL [https://www.learningmanager.com/accountname](https://www.learningmanager.com/accountname) lautet die Unterdomäne **Kontoname**.
+>
+>In der URL [https://www.accountname.learningmanager.com](https://www.accountname.learningmanager.com) ist die Unterdomäne auch **Kontoname**.
+>
+>Die Unterdomäne ist für jedes Konto eindeutig und wird für den Zugriff auf die entsprechende Lernmanagerinstanz verwendet.
 
 1. Geben Sie die E-Mail-ID des Administrators ein, der entweder die Peer-Konto-Anforderungen annimmt oder ablehnt.
 1. Geben Sie die Anzahl der Lizenzen ein, die Sie mit Ihren Peers teilen möchten. Wenn Sie Lizenzen für das Peer-Konto freigeben, wechselt das Peer-Konto in den Status Aktiv mit den empfangenen Lizenzen oder mit den eigenen erworbenen Lizenzen des Peers.

@@ -4,10 +4,10 @@ title: Systemanforderungen
 description: Systemanforderungen für Adobe Learning Manager
 contentowner: dvenkate
 exl-id: 3bf9818a-4b86-47e9-9b86-1c32b8bfee3a
-source-git-commit: 4096b80a5e939ef72a9bbe2aede3d9d91402e4ee
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 65%
+source-wordcount: '590'
+ht-degree: 62%
 
 ---
 
@@ -85,7 +85,10 @@ Die Startseite für immersives Layout wird in IE 11-Browsern nicht unterstützt.
 
 ## Empfohlene Bildgröße {#recommendedsizeofimages}
 
-* Mastertitel: 1.280 x 360 px.
+* Mastertitel:
+   * Für so große Einstellungen: 1280 x 360 PX
+   * Für mittlere Einstellungen: 1280 x 273 PX
+   * Kleine Einstellungen: 1280 x 187 PX
 * Bild auf der Katalogkarte: 280 x 100 px
 * Größe der Schulungskarte: 300 x 240 px
 * Soziales Banner: 1.600 x 240 px

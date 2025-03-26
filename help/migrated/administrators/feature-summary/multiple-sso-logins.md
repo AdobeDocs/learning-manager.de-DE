@@ -3,10 +3,10 @@ description: Adobe Learning Manager unterstützt mehrere Anmeldemethoden über m
 title: Mehrere SSO-Anmeldungen
 contentowner: saghosh
 exl-id: 398816e8-a144-459b-8c39-6517ce4573b4
-source-git-commit: 71bfc978c7ec58599c1f5c6afca6c082bc8b3569
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 39%
+source-wordcount: '794'
+ht-degree: 38%
 
 ---
 
@@ -26,14 +26,19 @@ Einem Konto können bis zu 20 SSO-Konfigurationen hinzugefügt werden. Diese kö
 
 Um mehrere SSO zu aktivieren, wählen Sie **Einstellungen** > **Anmeldungsmethoden**.
 
-Aktivieren Sie auf der Einrichtungsseite das Kontrollkästchen &quot;Mehrere Single Sign-On (SSO) aktivieren&quot; für interne oder externe Benutzer.
+Aktivieren Sie auf der Einrichtungsseite das Kontrollkästchen &#39;**[!UICONTROL Mehrere Single Sign-On (SSO) aktivieren]**&#39; für interne oder externe Benutzer.
 
 Wenn Multi-SSO aktiviert ist, wird die für &quot;Standardanmeldemethode&quot; ausgewählte Anmeldungsmethode zum Standardanmeldetyp für Benutzergruppen/Profile, die nicht mit einer SSO-Konfiguration verknüpft sind. Die Standardanmeldung kann als Adobe ID, SSO oder ALM ID (externe Benutzer) festgelegt werden.
+
+>[!NOTE]
+>
+>Administratoren und benutzerdefinierte Administratoren mit den erforderlichen Berechtigungen können diese Schritte ausführen.
 
 Zum Konfigurieren eines SSO führen Sie die folgenden Schritte aus:
 
 1. Klicken Sie auf Single Sign-on (SSO) konfigurieren.
-1. Klicken Sie auf Neue SSO-Konfiguration hinzufügen .
+1. Klicken Sie auf Neue SSO-Konfiguration hinzufügen .\
+   ![](assets/sso.png)
 1. Fügen Sie im Dialogfeld „SSO-Konfiguration“ Folgendes hinzu:
 
    * Geben Sie den Namen der SSO-Methode ein.

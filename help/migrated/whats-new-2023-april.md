@@ -3,10 +3,10 @@ title: Neue Funktionen in dieser Version (April 2023)
 description: Informationen über die neuen Funktionen und Verbesserungen in Adobe Learning Manager
 hidefromtoc: true
 exl-id: 0f9d73e8-da7f-4895-b4fa-54f52668cd4e
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '3158'
-ht-degree: 62%
+source-wordcount: '3205'
+ht-degree: 61%
 
 ---
 
@@ -216,13 +216,20 @@ Wenn die Option &quot;Instanz-Wechsel&quot; aktiviert ist, können Teilnehmer zu
 
 Wenn Teilnehmende **Alle Instanzen anzeigen** auswählen, können sie alle Kursinstanzen sehen.
 
-![Alle Instanzen anzeigen](assets/view-all-instances-new.png)
+![Alternativtext](assets/view-all-instance.png)
 
-Ein Administrator kann die Instanzen für Teilnehmer wechseln.
+_Alle Instanzseiten aus der Teilnehmerkonsole anzeigen_
 
-![Instanzen wechseln](assets/switch-instances.png)
+![](assets/switch-instance-learner.png)
+_Instanz von Teilnehmerseite wechseln_
+
+Ein Administrator kann die Instanzen für Teilnehmer wechseln. Wählen Sie in der Admin Console einen Kurs aus, wechseln Sie zum Abschnitt **[!UICONTROL Teilnehmer]**, wählen Sie einen Benutzer aus und klicken Sie auf die Schaltfläche **[!UICONTROL Aktion]**. Wählen Sie dann **[!UICONTROL Instanz wechseln]** und anschließend die gewünschte Instanz aus.
+
+![Alternativtext](assets/switch-instance-admin.png)
+_Instanz von der Admin Console wechseln_
 
 ![Instanzen wechseln: ](assets/switch-instances-select.png) auswählen
+_Aufforderung zum Wechseln der Instanz_
 
 Sie können die Instanzen erst wechseln, wenn eine Instanz des Kurses über die Teilnehmer- oder Admin-App abgeschlossen wurde.
 

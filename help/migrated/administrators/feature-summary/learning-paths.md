@@ -4,10 +4,10 @@ title: Lernpläne
 description: Erstellen von Lernplänen für Administratoren in Learning Manager.
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: 62efe11497408ad637f8559adeb0539c89b8f4d4
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '1329'
-ht-degree: 37%
+source-wordcount: '1334'
+ht-degree: 35%
 
 ---
 
@@ -111,15 +111,13 @@ Im Lernplan können Sie Folgendes durchführen:
 
 Nachdem Sie die Änderungen vorgenommen haben, klicken Sie auf &quot;Publish&quot;, um den Lernpfad zu veröffentlichen.
 
-## Verschachtelter Lernplan
+## Verschachtelter oder erweiterter Lernpfad
 
-Sie können einen Lernplan in einen Lernplan einfügen, aber Sie können höchstens einen Lernplan darin verschachteln.
-
-Fügen Sie den Lernplan wie einen Kurs ein.
+Ein verschachtelter oder verbesserter Lernpfad ist ein Lernpfad, der mehrere Lernpfade enthält. Um einen Lernpfad einzufügen, folgen Sie demselben Vorgang wie das Hinzufügen eines Kurses innerhalb eines Lernpfads.
 
 ![](assets/nested-learning-path.png)
 
-*Hinzufügen eines Lernpfads innerhalb eines Lernpfads*
+*Verschachtelter oder verbesserter Lernpfad*
 
 ## Lernplaneinstellungen
 

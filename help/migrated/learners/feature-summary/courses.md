@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Meine Lerninhalte
 contentowner: manochan
 exl-id: 2c62d36c-c500-40d6-b79f-d3cc8b3b756a
-source-git-commit: 4151b3d791a2ac13a40dc812a3c7b2c3c43bfc9c
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '2789'
+source-wordcount: '3080'
 ht-degree: 63%
 
 ---
@@ -99,6 +99,37 @@ Sie können Interesse an der Teilnahme an Präsenzkursen anmelden, für die kein
 >[!NOTE]
 >
 >Teilnehmer sollten eine Konfliktmeldung sehen, wenn sie sich in zwei verschiedenen Sitzungen gleichzeitig registrieren oder sich überschneiden.
+
+## Instanzen wechseln
+
+Teilnehmende, die in einer bestimmten Instanz eines Kurses registriert sind, können eine Liste aller verfügbaren Instanzen des Kurses anzeigen und zu einer anderen Instanz wechseln, die für sie besser geeignet ist. Der Grund für den Wechsel könnte sein, dass Teilnehmende die Teilnahme an der vorherigen Instanz verpasst haben, der Sitzungszeitpunkt für die neue Instanz geeigneter ist, oder etwas anderes.
+
+Alle Fortschritte, die Teilnehmende im Rahmen des Kurses, der Teilnehmenden-Quizergebnisse usw. erzielt haben, werden auf die neue Instanz übertragen. Diese Funktion ist in erster Linie für Klassenzimmer- und gemischte Kurse gedacht, aber wir unterstützen alle Arten von Kursen, einschließlich Kursen zum Selbststudium.
+
+Die Option &quot;Alle Instanzen anzeigen&quot; wird unabhängig von den Einstellungen für den Instanzwechsel angezeigt. Teilnehmer können jetzt alle Instanzen anzeigen, wenn mehrere Instanzen eines Kurses vorhanden sind.
+
+Wenn die Option &quot;Instanz-Wechsel&quot; aktiviert ist, können Teilnehmer zu verschiedenen Instanzen wechseln, bis sie den Kurs abgeschlossen haben. Wenn die Option deaktiviert ist, können Teilnehmer die Instanzen anzeigen, sich aber nicht für den Kurs registrieren.
+
+Wenn Teilnehmende **Alle Instanzen anzeigen** auswählen, können sie alle Kursinstanzen sehen.
+
+![Alternativtext](assets/view-all-instance.png)
+
+_Alle Instanzseiten aus der Teilnehmerkonsole anzeigen_
+
+![](assets/switch-instance-learner.png)
+_Instanz von Teilnehmerseite wechseln_
+
+Ein Administrator kann die Instanzen für Teilnehmer wechseln. Wählen Sie in der Admin Console einen Kurs aus, wechseln Sie zum Abschnitt **[!UICONTROL Teilnehmer]**, wählen Sie einen Benutzer aus und klicken Sie auf die Schaltfläche **[!UICONTROL Aktion]**. Wählen Sie dann **[!UICONTROL Instanz wechseln]** und anschließend die gewünschte Instanz aus.
+
+![Alternativtext](assets/switch-instance-admin.png)
+_Instanz von der Admin Console wechseln_
+
+![Instanzen wechseln: ](assets/switch-instances-select.png) auswählen
+_Aufforderung zum Wechseln der Instanz_
+
+Sie können die Instanzen erst wechseln, wenn eine Instanz des Kurses über die Teilnehmer- oder Admin-App abgeschlossen wurde.
+
+Autoren können beim Erstellen eines Kurses zwischen dem Aktivieren oder Deaktivieren des &quot;Instanzwechsels&quot; wechseln. Der Instanzwechsel ist nur für kostenlose Kurse verfügbar.
 
 ## Arbeitsablauf als Teilnehmer
 

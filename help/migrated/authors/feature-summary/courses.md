@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Kurse erstellen, ändern und veröffentlichen
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 0766d751cf37721ee7befada8b66d1bcf583112e
+source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '7145'
+source-wordcount: '7163'
 ht-degree: 71%
 
 ---
@@ -699,7 +699,7 @@ Das Fenster mit den Kursinformationen wird angezeigt. Der Kurs ist schreibgesch�
 
 ## Kurs einstellen {#retireacourse}
 
-Wenn Sie einen Kurs beenden, können Sie keine neuen Teilnehmer für den Kurs anmelden. Bereits eingeschriebene Teilnehmer können den Kurs belegen.
+Wenn Sie einen Kurs beenden, wird er für die Teilnehmer ausgeblendet, selbst wenn sie angemeldet sind oder den Kurs bereits abgeschlossen haben. Wenn Sie einen Kurs beenden, können Sie keine neuen Teilnehmer für den Kurs anmelden. Bereits eingeschriebene Teilnehmer können den Kurs belegen.
 
 Um einen Kurs zu beenden, bewegen Sie den Mauszeiger über die Optionen und klicken Sie auf „Kurs beenden“.
 
