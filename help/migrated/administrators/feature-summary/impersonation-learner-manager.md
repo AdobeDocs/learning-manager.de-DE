@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Annehmen der Identität eines Teilnehmers und Managers
 contentowner: saghosh
 exl-id: 0306f255-283f-43b9-9494-11b3dc3765da
-source-git-commit: 1693bb3905895be0c9a883339a1a5c7d71bb3f33
+source-git-commit: f44f44ab34acc42edb79d66588ad986d629734ff
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 64%
+source-wordcount: '532'
+ht-degree: 59%
 
 ---
 
@@ -55,7 +55,7 @@ Um die Identität eines Benutzers anzunehmen, gehen Sie wie folgt vor:
 
 **Eine imitierte Sitzung dauert 60 Minuten.**
 
-Beim Wechsel zu einer Teilnehmer- oder Manager-Rolle wird eine Meldung angezeigt, die darauf hinweist, dass sich der Administrator/benutzerdefinierte Administrator in einem Identitätswechselmodus für den Benutzer befindet.
+Beim Wechsel zu einer Teilnehmer- oder Managerrolle wird eine Meldung angezeigt, die darauf hinweist, dass sich der Administrator in einem Identitätswechselmodus des Benutzers befindet.
 
 ## Anmelde- und Zugriffsbericht
 
