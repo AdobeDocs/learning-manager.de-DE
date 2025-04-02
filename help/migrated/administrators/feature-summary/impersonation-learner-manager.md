@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Annehmen der Identität eines Teilnehmers und Managers
 contentowner: saghosh
 exl-id: 0306f255-283f-43b9-9494-11b3dc3765da
-source-git-commit: f44f44ab34acc42edb79d66588ad986d629734ff
+source-git-commit: b5bbb184fc86965255b0247195a50cc65a03cd1a
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 59%
+source-wordcount: '517'
+ht-degree: 56%
 
 ---
 
@@ -30,8 +30,7 @@ Das müssen Sie beim Nachahmen der Identität eines Benutzers beachten:
 * Diese Funktion wird allen Administratoren standardmäßig angezeigt.
 * Es kann nur die Identität von aktiven Benutzern im Konto angenommen werden.
 * Ein Administrator kann nicht seine eigene Identität annehmen.
-* Ein benutzerdefinierter Administrator, der über Zugriff auf die Seite „Benutzer“ verfügt, kann die Identität eines Benutzers annehmen.
-* Ein Administrator/benutzerdefinierter Administrator kann die Identität nur 60 Minuten lang annehmen.
+* Ein Administrator kann die Identität nur 60 Minuten lang annehmen.
 * Ein benutzerdefinierter Administrator mit schreibgeschütztem Zugriff kann keine Identität für Benutzer annehmen.
 
 ## Annehmen der Identität eines Benutzers
