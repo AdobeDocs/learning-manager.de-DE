@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Annehmen der Identität eines Teilnehmers und Managers
 contentowner: saghosh
 exl-id: 0306f255-283f-43b9-9494-11b3dc3765da
-source-git-commit: ba0c87447755729cd98cea1d40083e05f2159f37
+source-git-commit: 1693bb3905895be0c9a883339a1a5c7d71bb3f33
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 70%
+source-wordcount: '534'
+ht-degree: 64%
 
 ---
 
@@ -15,13 +15,15 @@ ht-degree: 70%
 
 In großen Unternehmen benötigen Mitarbeiter des Kunden-Supports Identitätswechsel, um Probleme der Teilnehmer zu beheben.
 
-Mit dieser Möglichkeit, die Identität anderer Benutzer anzunehmen, können Administratoren und benutzerdefinierte Administratoren alle Aktivitäten von Teilnehmern und Managern ihres Unternehmens identifizieren und ausführen.
+Mit dieser Möglichkeit, die Identität anderer Benutzer anzunehmen, können Administratoren alle Aktivitäten von Teilnehmern und Managern ihres Unternehmens identifizieren und ausführen.
+
+>[!NOTE]
+>
+>Benutzerdefinierte Administratoren haben nicht die Möglichkeit, die Identität eines Benutzers anzunehmen. Nur Administratoren können die Identität eines Benutzers ändern.
 
 ## Funktionsweise
 
-Administratoren (und/oder benutzerdefinierte Administratoren) können nach einem Benutzer suchen (intern oder extern) und dann die Identität eines Benutzers annehmen. Der Administrator wird dann zur Seite des Benutzers (Manager-App, falls zutreffend, ansonsten Teilnehmer-App) umgeleitet und von seiner eigenen Sitzung abgemeldet. Der Administrator wird dann zur Seite „Profil abschließen“ weitergeleitet, falls diese für den Benutzer eingerichtet wurde, dessen Identität der Administrator übernommen hat.
-
-Wenn ein benutzerdefinierter Administrator über die Berechtigung verfügt, auf die Seite eines Benutzers zuzugreifen, kann er nach Benutzern suchen, für die er sich ausgeben möchte.
+Administratoren können nach einem Benutzer suchen (intern oder extern) und dann die Identität eines Benutzers annehmen. Der Administrator wird dann zur Seite des Benutzers (Manager-App, falls zutreffend, ansonsten Teilnehmer-App) umgeleitet und von seiner eigenen Sitzung abgemeldet. Der Administrator wird dann zur Seite „Profil abschließen“ weitergeleitet, falls diese für den Benutzer eingerichtet wurde, dessen Identität der Administrator übernommen hat.
 
 Das müssen Sie beim Nachahmen der Identität eines Benutzers beachten:
 
