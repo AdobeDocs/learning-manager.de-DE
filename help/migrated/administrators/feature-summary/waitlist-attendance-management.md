@@ -4,10 +4,10 @@ title: Warteliste und Verwaltung der Anwesenheit
 description: Administratoren können die Anwesenheit und Wartelisten von Kursteilnehmern verwalten.
 contentowner: manochan
 exl-id: 257ed196-d6a7-4d6c-bd90-33d658f6ba55
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 76%
+source-wordcount: '325'
+ht-degree: 72%
 
 ---
 
@@ -28,6 +28,10 @@ Wenn die Teilnehmerplätze eines Präsenzkurses begrenzt sind, werden die Teilne
 
 1. Klicken Sie auf **[!UICONTROL Warteliste]** im linken Bereich der Kursdetailseite. Die Warteliste der Teilnehmer erscheint auf der Seite.
 1. Wählen Sie die Teilnehmer aus und klicken Sie auf **[!UICONTROL Lizenzen zuweisen]**, um die Teilnehmer direkt für die Kurse zu registrieren, wobei die Obergrenze für die Lizenzen aufgehoben wird.
+
+>[!NOTE]
+>
+>Registrierte Teilnehmer können nicht auf die Warteliste verschoben werden und ihre Lizenzen können nicht anderen Teilnehmern zugewiesen werden.
 
 ## Verwaltung der Anwesenheit {#attendancemanagement}
 

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Verwalten der Teilnehmer für Ihre Sitzung
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
+source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
 workflow-type: tm+mt
-source-wordcount: '1029'
-ht-degree: 84%
+source-wordcount: '1056'
+ht-degree: 82%
 
 ---
 
@@ -92,6 +92,12 @@ Um E-Mails von der Teilnehmerseite in der Kursleiter-App an die Teilnehmer zu se
 
 * Um E-Mails an bestimmte Teilnehmer der Sitzung zu senden, wählen Sie den Teilnehmer aus und klicken Sie auf „Aktionen“ > „Senden“ > „E-Mail an Ausgewählte“.
 * Um eine E-Mail an alle Teilnehmer zu senden, um Kursmaterial oder eine Aufgabe zu senden, klicken Sie auf „Aktionen“ > „E-Mail an alle senden“.
+
+## Einladungsantworten erfassen
+
+Sie können die Antworten auf Einladungen im Abschnitt &quot;Teilnehmer&quot; anzeigen. Gehen Sie zu einer beliebigen Sitzung, wählen Sie **[!UICONTROL Teilnehmer]** aus und wählen Sie die Einladungsantwort aus dem Dropdown-Menü aus.
+
+![](assets/invitation-status.png)
 
 ## Exportieren der Teilnehmerliste {#exportinglearnerslist}
 

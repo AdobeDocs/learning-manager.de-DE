@@ -4,9 +4,9 @@ title: Benutzerdefinierte Rollen
 description: Mit der Lernpfadfunktion können Sie benutzerdefinierte Rollen definieren und einer Gruppe von Benutzern bestimmte Verantwortlichkeiten zuweisen. Mit dieser Funktion können Sie Verantwortlichkeiten zuweisen, die nicht in den Bereich der bestehenden Rolle der Person fallen.
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: f8151cb47645a07bcea306dcaf3f8ac032d4044e
+source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
 workflow-type: tm+mt
-source-wordcount: '2662'
+source-wordcount: '2685'
 ht-degree: 54%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 54%
 Mit dieser Funktion können Sie benutzerdefinierte Rollen definieren und bestimmten Benutzergruppen bestimmte Verantwortlichkeiten zuweisen. Mit dieser Funktion können Sie Verantwortlichkeiten zuweisen, die nicht in den Bereich der bestehenden Rolle der Person fallen.
 
 Sie können eine benutzerdefinierte Rolle erstellen, um Authoring-Funktionen für einen bestimmten Katalog bereitzustellen. Sie können auch eine dedizierte Rolle erstellen, um Berichterstellung zu verwalten. Solche Rollen können dann Personen zugeordnet werden, die diese spezifischen Aufgaben übernehmen sollen.
+
+>[!NOTE]
+>
+>Das Hinzufügen einer neuen benutzerdefinierten Rolle hat keine Auswirkungen auf vorhandene benutzerdefinierte Benutzergruppen oder rollenbasierte Gruppen wie Alle Administratoren, Alle Autoren usw.
 
 Administratoren haben die Möglichkeit, benutzerdefinierte Administrator- und Autorenrollen mit maßgeschneiderten Berechtigungen für jede Rolle zu erstellen. Im Folgenden finden Sie einen Überblick über die Berechtigungen, die jeder Rolle zugeordnet sind:
 

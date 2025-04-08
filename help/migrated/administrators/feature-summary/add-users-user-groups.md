@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Hinzufügen von Benutzern und Erstellen von Benutzergruppen
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
 workflow-type: tm+mt
-source-wordcount: '4231'
-ht-degree: 59%
+source-wordcount: '4290'
+ht-degree: 58%
 
 ---
 
@@ -172,6 +172,8 @@ Wählen Sie in der Liste der Benutzer einen Benutzer aus und klicken Sie auf den
 
 ## Aktive Felder
 
+&quot;Aktive Felder&quot; in Adobe Learning Manager sind anpassbare Metadatenfelder, die zum Speichern und Verwalten benutzerspezifischer Informationen verwendet werden. Mithilfe dieser Felder können Sie Schlüsselattribute oder -merkmale definieren, die mit den einzelnen Benutzern im System verknüpft sind.
+
 ### Benutzerattribute verwalten
 
 >[!INFO]
@@ -329,6 +331,10 @@ Wählen Sie einen Benutzer aus und klicken Sie in der oberen rechten Ecke auf **
 ## Entfernen Sie eine Rolle {#Removearole-1}
 
 Wählen Sie einen Benutzer aus und klicken Sie in der oberen rechten Ecke auf **[!UICONTROL Aktionen]** > **[!UICONTROL Rolle entfernen]** > **`<role>`** entfernen. Die ausgewählte Rolle wird aus der Liste der Rollen entfernt, die dem Benutzer zugewiesen wurden.
+
+>[!NOTE]
+>
+>Das Zuweisen einer neuen Rolle wirkt sich nicht auf benutzerdefinierte Benutzergruppen aus. Dies wirkt sich jedoch auf automatisch generierte Benutzergruppen wie &quot;Alle Administratoren&quot;, &quot;Alle Autoren&quot; und ähnliche rollenbasierte Gruppen aus.
 
 ## Benutzergruppen erstellen {#createusergroups}
 
