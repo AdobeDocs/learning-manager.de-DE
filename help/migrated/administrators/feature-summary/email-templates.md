@@ -4,7 +4,7 @@ jcr-language: en_us
 title: E-Mail-Vorlagen
 contentowner: manochan
 exl-id: acc85500-2ed1-47a4-8e65-6e1b8ef7d156
-source-git-commit: f98b053e1d63841c232380de74170f8a14067473
+source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
 workflow-type: tm+mt
 source-wordcount: '1520'
 ht-degree: 58%
@@ -25,7 +25,7 @@ Die Administratoren können auch festlegen, dass bei bestimmten Ereignissen kein
 
 In dieser Schulung erfahren Sie, wie Sie einzelne E-Mail-Vorlagen anpassen und Einstellungen auf Kurs- und Kontoebene für E-Mail-Vorlagen anpassen.
 
-[![Schaltfläche](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QYL4NT4P&amp;mv=display&amp;mv2=display#/course/8318925)
+[![Schaltfläche](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318925)
 
 <!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
 
@@ -223,7 +223,7 @@ Die Vorlagen unterstützen auch erweiterte Bearbeitungsfunktionen, etwa dass die
 
 In dieser Schulung lernen Sie, wie Sie Standardwerte für Instanzen einrichten, eine neue Instanz hinzufügen, eine Instanz einstellen und erneut öffnen und E-Mail-Vorlagen für eine Instanz konfigurieren.
 
-[![Schaltfläche](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=P3KMQNZS&amp;mv=display&amp;mv2=display#/course/8318911)
+[![Schaltfläche](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318911)
 
 Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.com>.
 

@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Farbdesigns
 contentowner: jayakarr
 exl-id: 8616e38a-023f-4acb-ac68-df71a5153ad2
-source-git-commit: 71bfc978c7ec58599c1f5c6afca6c082bc8b3569
+source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
 workflow-type: tm+mt
 source-wordcount: '1203'
 ht-degree: 45%
@@ -21,7 +21,7 @@ Mit Learning Manager können Sie das Aussehen der Anwendung ändern, um sie dem 
 
 In dieser Schulung lernen Sie, wie Sie das Erscheinungsbild der Benutzeroberfläche an die Branding-Anforderungen eines Unternehmens anpassen können.
 
-[![Schaltfläche](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QBWYPFSV&amp;mv=display&amp;mv2=display#/course/8318823)
+[![Schaltfläche](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318823)
 
 Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.com>.
 
@@ -31,7 +31,7 @@ Klicken Sie auf **[!UICONTROL Branding]** im linken Bereich, um Ihren Unternehme
 
 ## Logostile {#logostyling}
 
-Klicken Sie auf **[!UICONTROL Bearbeiten]**, um das Erscheinungsbild Ihres Logos und Firmennamens in der Learning Manager-Anwendung festzulegen.
+Klicken Sie auf **[!UICONTROL Bearbeiten]** , um das Erscheinungsbild Ihres Logos und Ihres Firmennamens in der Learning Manager-Anwendung festzulegen.
 
 Klicken Sie auf **[!UICONTROL Neues Logo hochladen]** und wählen Sie das Logo von Ihrem Computer. Sie können das Erscheinungsbild des Logos und den Unternehmensnamen nachstehend in der Vorschau anzeigen. Wählen Sie den Kopfzeilenstil Ihrer Wahl aus, und klicken Sie auf **[!UICONTROL Speichern]**.
 
@@ -71,7 +71,7 @@ In der **[!UICONTROL Primärfarbe]** können Sie die Farbe auswählen, die für 
 
 Für die Anpassung wählen Sie den Designtyp im linken Bereich aus und klicken Sie auf die Quadrate neben der Markenfarbe und Seitenleistensymbolfarben. Klicken Sie in der Seitenleiste auf Seitenleistenhelligkeit, ziehen Sie den Regler vorwärts oder rückwärts, um die Helligkeit anzupassen. Sehen Sie sich die Vorschau in den oben genannten Bildern an, wenn Sie diese Optionen ändern.
 
-Klicken Sie auf **[!UICONTROL Design zurücksetzen]**, um die ursprünglichen Einstellungen des Designs wiederherzustellen. Klicken Sie auf **[!UICONTROL Speichern]**, nachdem Sie die Änderungen abgeschlossen haben.
+Klicken Sie auf **[!UICONTROL Theme]** zurücksetzen, um die ursprünglichen Einstellungen des Themes wiederherzustellen. Klicken Sie auf **[!UICONTROL Speichern]**, nachdem Sie die Änderungen abgeschlossen haben.
 
 **Live-Vorschau** 
 

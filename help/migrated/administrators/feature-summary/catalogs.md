@@ -1,10 +1,10 @@
 ---
 jcr-language: en_us
 title: Kataloge
-description: Kataloge sind eine Sammlung von Lernkursen, Lernprogrammen und Zertifizierungen. Verwenden Sie Kataloge, um den Teilnehmern den Zugriff auf einen benutzerdefinierten Lernsatz zu ermöglichen. Sie können Lernprogramme während der Erstellung eines neuen Katalogs einem Katalog zuordnen.
+description: Kataloge sind eine Sammlung von Lerninhalten – Kurse, Lernprogramme und Zertifizierungen. Verwenden Sie Kataloge, um den Teilnehmern den Zugriff auf einen benutzerdefinierten Lernsatz zu ermöglichen. Sie können Lernprogramme während der Erstellung eines neuen Katalogs einem Katalog zuordnen.
 contentowner: manochan
 exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
-source-git-commit: 01215811307ef3fa2a365020c6f42fe3ea5a0240
+source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
 workflow-type: tm+mt
 source-wordcount: '2552'
 ht-degree: 72%
@@ -13,7 +13,7 @@ ht-degree: 72%
 
 # Kataloge
 
-Kataloge sind eine Sammlung von Lernkursen, Lernprogrammen und Zertifizierungen. Verwenden Sie Kataloge, um den Teilnehmern den Zugriff auf einen benutzerdefinierten Lernsatz zu ermöglichen. Sie können Lernprogramme während der Erstellung eines neuen Katalogs einem Katalog zuordnen.
+Kataloge sind eine Sammlung von Lerninhalten – Kurse, Lernprogramme und Zertifizierungen. Verwenden Sie Kataloge, um den Teilnehmern den Zugriff auf einen benutzerdefinierten Lernsatz zu ermöglichen. Sie können Lernprogramme während der Erstellung eines neuen Katalogs einem Katalog zuordnen.
 
 Als Administrator können Sie benutzerdefinierte Kataloge erstellen, wenn Sie selektive Kurse für verschiedene Teilnehmern in Ihrem Konto oder über Konten hinweg verfügbar machen möchten.
 
@@ -21,7 +21,7 @@ Als Administrator können Sie benutzerdefinierte Kataloge erstellen, wenn Sie se
 
 In dieser Schulung erfahren Sie, wie Sie Kataloge erstellen und verwalten.
 
-[![Schaltfläche](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=QTV3NXVQ&amp;mv=display&amp;mv2=display#/course/8318922)
+[![Schaltfläche](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318922)
 
 Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.com>.
 
@@ -53,10 +53,10 @@ Um einen Katalog zu erstellen, führen Sie die folgenden Schritte aus:
 
    ![](assets/add-course-to-catalog.png)
 
-   *Katalog erstellen*
+   *Erstellen eines Katalogs*
 
    Sie können dem Katalog mehrere Kurse hinzufügen.
-1. Sie können die Kurse nach Kenntnissen, Rollen und Sprache filtern. Der ausgewählte Kurs wird Teilnehmern empfohlen, die sich für diese Fähigkeiten und Rollen interessieren.
+1. Sie können die Kurse nach Fähigkeiten, Rollen und Sprache filtern. Der ausgewählte Kurs wird Lernenden empfohlen, die an diesen Fähigkeiten und Rollen interessiert sind.
 
    * **[!UICONTROL Kenntnisse]**: Mit Kenntnisfiltern können Benutzer Kurse finden, die sich auf bestimmte Kenntnisse konzentrieren.
    * **[!UICONTROL Rollen]**: Rollenfilter helfen Benutzern, auf Kurse zuzugreifen, die auf die Verantwortlichkeiten und Anforderungen verschiedener Rollen zugeschnitten sind.
@@ -99,7 +99,7 @@ Der Inhalt wird auf jeder dieser Registerkarten angezeigt, wenn er bereits im Ko
 
 ## Massenentfernung von Kursen, Lernpfaden oder Arbeitshilfen
 
-Administratoren oder benutzerdefinierte Administratoren können Kurse, Lernpfade oder Arbeitshilfen gesammelt entfernen. Wechseln Sie zu **[!UICONTROL Kataloge]** und wählen Sie einen Katalog aus. Wählen Sie auf der Seite **[!UICONTROL Inhalt]** die Option **[!UICONTROL Inhalt bearbeiten]** aus. Wählen Sie dann die Option **[!UICONTROL Entfernen]** neben den Kursen, Lernpfaden oder Arbeitshilfen aus und wählen Sie **[!UICONTROL Speichern]**.
+Administratoren oder benutzerdefinierte Administratoren können Kurse, Lernpfade oder Arbeitshilfen gesammelt entfernen. Gehen Sie zu **[!UICONTROL Kataloge]** und wählen Sie einen Katalog aus. Wählen Sie auf der **[!UICONTROL Seite Inhalt]** die Option Inhalt ]**bearbeiten aus**[!UICONTROL . Wählen Sie dann die **[!UICONTROL Option Entfernen]** neben den Kursen, Lernpfaden oder Arbeitshilfen aus und wählen Sie Speichern ]**aus**[!UICONTROL .
 
 ## Deep-Link zum Katalog für Teilnehmer {#deep-link}
 
@@ -145,7 +145,7 @@ Kurse, Lernprogramme, Arbeitshilfen und Zertifizierungen sind die unterstützten
 
 In dieser Schulung erfahren Sie, wie Sie Kataloge für interne Benutzergruppen und externe Adobe Learning Manager-Konten freigeben.
 
-[![Schaltfläche](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PGRQQ9SP&amp;mv=display&amp;mv2=display#/course/8318924)
+[![Schaltfläche](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318924)
 
 Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.com>.
 
@@ -173,7 +173,7 @@ Klicken Sie auf der Seite „Kataloge“ auf den Katalog, den Sie freigeben möc
 
 *Einen Katalog extern freigeben*
 
-Geben Sie die Subdomäne ein, die mit Ihrem Learning Manager-Konto verknüpft ist. Klicken Sie auf **[!UICONTROL Wie erhalte ich eine Subdomäne?]**, um mehr über die Verwendung der Subdomäne zu erfahren. Sie können auch auf **[!UICONTROL Branding]** im linken Bereich auf der Administratorstartseite klicken, um die Subdomäne anzuzeigen, die mit Ihrem Unternehmenskonto verknüpft ist.
+Geben Sie die Subdomäne ein, die mit Ihrem Learning Manager-Konto verknüpft ist. Klicken Sie auf **[!UICONTROL Wie erhalte ich eine Subdomäne?]** , um mehr über die Verwendung von Subdomains zu erfahren. Sie können auch auf der Administrator-Startseite im linken Fensterbereich auf Branding ]**klicken**[!UICONTROL , um die Unterdomäne anzuzeigen, die Ihrem Organisationskonto zugeordnet ist.
 
 **Einschränkungen für die Registrierung** 
 
@@ -181,7 +181,7 @@ Sie können den Grenzwert für die Anzahl der Registrierung pro Kurs im freigege
 
 **Ablauf**
 
-Sie können die Gültigkeit des freigegebenen Katalogs festlegen, indem Sie ein Ablaufdatum im Feld **[!UICONTROL Ablauf]** einrichten. Nach dem Ablaufdatum des freigegebenen Katalogs, sind Registrierungen für die Kurse nicht mehr zulässig. Vorhandene Teilnehmer können immer noch Zugriff auf die Inhalte haben. Lernobjekte werden eingestellt, aber die Abzeichen und Qualifikationen sind aktiv. In diesem Status kann der freigegebene Katalogempfänger die Einstellung für die Lernobjekte nicht aufheben.
+Sie können die Gültigkeit des freigegebenen Katalogs festlegen, indem Sie ein Ablaufdatum im **[!UICONTROL Feld Ablaufdatum]** festlegen. Nach dem Ablaufdatum des freigegebenen Katalogs, sind Registrierungen für die Kurse nicht mehr zulässig. Vorhandene Teilnehmer können immer noch Zugriff auf die Inhalte haben. Lernobjekte werden eingestellt, aber die Abzeichen und Qualifikationen sind aktiv. In diesem Zustand kann der Empfänger des freigegebenen Katalogs die zurückgezogenen Lernobjekte nicht außer Betrieb nehmen.
 
 Klicken Sie auf **[!UICONTROL Speichern]**, nachdem alle erforderlichen Informationen hinzugefügt wurden. Klicken Sie auf das Dropdownmenü **[!UICONTROL Aktionen]** in der oberen rechten Ecke der Seite und klicken Sie auf **[!UICONTROL Freigeben]**, um den Katalog mit externen Konten freizugeben.
 
@@ -195,13 +195,13 @@ Die Lernobjekte mit offenem/aktivem Status für die Registrierung werden nur den
 
 **Freigabe für Kataloge aufheben**
 
-Die Aufhebung der Freigabe eines Katalogs ist die Deaktivierung eines externen Kontos in der Anwendung. Um die Freigabe für einen Katalog aufzuheben, klicken Sie auf **[!UICONTROL Aktionen]** in der oberen rechten Ecke der Seite und dann auf **[!UICONTROL Freigabe aufheben]**. Sie können die Freigabe für einen Katalog jederzeit aufheben. Wenn die Freigabe für einen Katalog aufgehoben wurde, wechseln alle Lernobjekte in diesem freigegebenen Katalog in den Status „Eingestellt“. Die deaktivierten Kataloge werden in der Anwendung des Empfängers als eingestellt angezeigt.
+Die Aufhebung der Freigabe eines Katalogs ist die Deaktivierung eines externen Kontos in der Anwendung. Um die Freigabe für einen Katalog aufzuheben, klicken Sie auf **[!UICONTROL Aktionen]** in der oberen rechten Ecke der Seite und dann auf **[!UICONTROL Freigabe aufheben]**. Sie können die Freigabe für einen Katalog jederzeit aufheben. Wenn die Freigabe für einen Katalog aufgehoben wurde, wechseln alle Lernobjekte in diesem freigegebenen Katalog in den Status „Eingestellt“. Die deaktivierten Kataloge werden in der Empfängeranwendung als zurückgezogen angezeigt.
 
 Sie können ein externes Konto aus einer freigegebenen Liste nur entfernen, bevor der Empfänger die Anforderung akzeptiert.
 
 **Kataloge löschen**
 
-Um einen freigegebenen Katalog zu löschen, klicken Sie auf das Dropdown-Menü **[!UICONTROL Aktionen]** und dann auf **[!UICONTROL Löschen]**.
+Um einen freigegebenen Katalog zu löschen, klicken Sie auf **[!UICONTROL das Dropdown-Menü &quot;Aktionen]** &quot; und dann auf **[!UICONTROL &quot;Löschen]**&quot;.
 
 * Sie können einen Standardkatalog mit externen Konten nicht freigeben.
 * Sie können einen Katalog nicht löschen, der von Ihnen extern freigegeben wurde.
@@ -213,7 +213,7 @@ Sie können externen Konten vollen Zugriff auf Ihren Katalog gewähren. Der Admi
 
 Weitere Informationen finden Sie unter [Vollzugriff auf den freigegebenen Katalog](shared-catalog-full-control.md).
 
-## Eigenschaften von freigegebenen Katalog-Lernobjekten {#sharedcataloglearningobjectsproperties}
+## Eigenschaften von Lernobjekten für freigegebene Kataloge {#sharedcataloglearningobjectsproperties}
 
 Alle Änderungen, die für Lernobjekte in der Besitzeranwendung durchgeführt werden, werden an den freigegebenen Katalogempfänger weitergeleitet. Eine Liste der Lernobjekteigenschaften, die in der Empfängeranwendung widergespiegelt werden, wird wie folgt angezeigt:
 
@@ -247,11 +247,11 @@ Alle Änderungen, die für Lernobjekte in der Besitzeranwendung durchgeführt we
    <td>
     <p><strong>Kategorie </strong></p></td>
    <td>
-    <p>Name, Beschreibung, Farbe und Einstellung der Kategorie, Hinzufügen der neuen Ebene</p></td>
+    <p>Name, Beschreibung, Farbe und Einstellung der Kategorie, Hinzufügung einer neuen Ebene</p></td>
   </tr>
   <tr>
    <td>
-    <p><strong>Arbeitshilfe</strong></p></td>
+    <p><strong>Job-Hilfe</strong></p></td>
    <td>
     <p>Alle Eigenschaften des jobAid-Objekts</p></td>
   </tr>
@@ -287,7 +287,7 @@ Administratoren auf allen Konten in einem Unternehmen können die Kataloge auf m
 
 Wenn ein Administrator eines Kontos Änderungen an den Lernobjekten vornimmt, werden nach dem Teilen der Kataloge dieselben Änderungen für alle Lernobjekten weitergegeben, die vom Empfänger der geteilten Kataloge erworben wurden.
 
-Die Lernobjekte, die im Rahmen dieser Weitergabefunktion unterstützt werden, lauten wie folgt:
+Die Lernobjekte, die als Teil dieser Propagierungsfunktion unterstützt werden, lauten wie folgt:
 
 * Kenntnisse
 * Kurse
@@ -315,7 +315,7 @@ Informationen zum internen oder externen Freigeben des Katalogs finden Sie in de
 
 +++
 
-+++Wie können Teilnehmer den gesamten Katalog anzeigen, zu dem sie gehören?
++++Wie kann ich den Lernenden die Möglichkeit geben, den gesamten Katalog zu sehen, an dem sie beteiligt sind?
 
 Kataloge können für Teilnehmer in Ihrem Unternehmen über die Benutzergruppen freigegeben werden. Führen Sie die folgenden Schritte aus, damit Teilnehmer die Kataloge anzeigen können, zu denen sie gehören:
 
@@ -328,7 +328,7 @@ Wenn sich Teilnehmende bei Learning Manager anmelden, haben sie Zugriff auf die 
 
 +++
 
-+++Wie erstelle und verwende ich Katalogbeschriftungen?
++++Wie erstelle und verwende ich Katalogetiketten?
 
 Katalogbezeichnungen ermöglichen es Ihnen, Lernobjekte mit relevanten Feldwertinformationen zu verknüpfen. Katalogbezeichnungen und -werte sind nur für Administratoren und Autoren sichtbar. Weitere Informationen finden Sie unter [***Katalogbezeichnungen***](/help/migrated/administrators/feature-summary/catalog-labels.md).
 
@@ -343,7 +343,7 @@ Nachdem Sie Katalogbeschriftungen erstellt haben, können Sie sie mithilfe der f
 
 +++
 
-+++Wie kann ich neu erstellten externen Benutzern Zugriff auf bestimmte Kataloge gewähren?
++++Wie kann ich neu angelegten externen Benutzern Zugriff auf bestimmte Kataloge gewähren?
 
 1. Wählen Sie als Administrator den Katalog aus, auf den Sie einem externen Benutzerprofil Zugriff gewähren möchten.
 1. Intern freigeben > Weitere hinzufügen > Entsprechendes externes Benutzerprofil auswählen
@@ -353,6 +353,6 @@ Nachdem Sie Katalogbeschriftungen erstellt haben, können Sie sie mithilfe der f
 
 +++Wie kann ich festlegen, dass Benutzer nur bestimmte Kataloge sehen?
 
-Deaktivieren Sie den Standardkatalog und aktivieren Sie nur den Katalog, der erstellt wurde und für den externen Benutzern Zugriff gewährt wurde.
+Deaktivieren Sie den Standardkatalog, und aktivieren Sie nur den Katalog, der erstellt und externen Benutzern Zugriff gewährt wurde.
 
 +++

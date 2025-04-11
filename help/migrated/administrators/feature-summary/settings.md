@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Einstellungen
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: 70d516a262180fd5a2a9390c9813058f0fa5e1c9
+source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
 workflow-type: tm+mt
 source-wordcount: '3669'
 ht-degree: 65%
@@ -23,7 +23,7 @@ Sie können Ihre Administratorprofileinstellungen ändern und Ihre Kontoeinstell
 
 In dieser Schulung werden die Grundlagen der Einstellungen auf Kontoebene erfasst.
 
-[![Schaltfläche](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PYPVPSZY&amp;mv=display&amp;mv2=display#/course/7476018)
+[![Schaltfläche](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7476018)
 
 
 Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.com>.

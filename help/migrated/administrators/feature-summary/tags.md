@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Tags
 contentowner: dvenkate
 exl-id: ea39d2a2-3d2b-43ae-8f8d-b97420b9d008
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
 workflow-type: tm+mt
 source-wordcount: '762'
 ht-degree: 63%
@@ -23,7 +23,7 @@ Sie können die Tags anhand der Nutzung oder in alphabetischer Reihenfolge mit d
 
 In dieser Schulung erfahren Sie, wie Sie Tags hinzufügen, bearbeiten, ersetzen, anhängen und löschen. Außerdem erfahren Sie, wie Sie Berechtigungseinstellungen ändern und Tag-Filter verwenden.
 
-[![Schaltfläche](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=5S7K7ZCT&amp;mv=display&amp;mv2=display#/course/8318920)
+[![Schaltfläche](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318920)
 
 Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.com>.
 

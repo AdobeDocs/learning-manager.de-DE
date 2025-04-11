@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Erstellen von Kursinstanzen und Lernpfaden
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
+source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
 workflow-type: tm+mt
 source-wordcount: '5111'
 ht-degree: 58%
@@ -27,7 +27,7 @@ Autoren erstellen Kurse. Teilnehmer können Kurse absolvieren und Administratore
 
 >[!INFO]
 >
->In dieser Schulung lernen Sie, wie Sie Instanzdetails und Instanzeigenschaften bearbeiten.<br><br>[![Schaltfläche](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=P79NQK8R&amp;mv=display&amp;mv2=display#/course/8318912)</br></br>
+>In dieser Schulung lernen Sie, wie Sie Instanzdetails und Instanzeigenschaften bearbeiten.<br><br>[![Schaltfläche](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318912)</br></br>
 
 
 Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.com>.
@@ -81,11 +81,11 @@ Instanz erstellen
 
 Führen Sie die folgenden Schritte aus, um eine Instanz einzustellen.
 
-1. Wählen Sie in der Instanz das Dropdown-Menü aus und wählen Sie die Option **[!UICONTROL Instanz einstellen]**.
+1. Wählen Sie auf der Instanz das Dropdown-Menü aus und wählen Sie die Option **[!UICONTROL Instanz]** außer Betrieb nehmen.
 
    ![](assets/retire-an-instance.png)
 
-   *Instanz einstellen*
+   *Außerbetriebnahme einer Instanz*
 
 1. Um alle eingestellten Instanzen zu suchen, klicken Sie auf der Seite „Instanzen“ auf die Registerkarte **[!UICONTROL Eingestellt]**.
 
@@ -137,7 +137,7 @@ So senden Sie E-Mails auf Instanzebene an registrierte Teilnehmende:
 
 In dieser Schulung erfahren Sie, wie Sie Teilnehmer registrieren, die Registrierung aufheben und sich erneut registrieren.
 
-[![Schaltfläche](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&amp;sdid=PC1PQFJQ&amp;mv=display&amp;mv2=display#/course/8318916)
+[![Schaltfläche](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318916)
 
 Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.com>.
 
@@ -258,8 +258,8 @@ Die folgenden Spalten sind im Bericht &quot;Warteliste&quot; verfügbar:
 So laden Sie den Bericht aus dem Admin-Bereich herunter:
 
 1. Melden Sie sich als **[!UICONTROL Admin]** an.
-2. Wechseln Sie zum Abschnitt **[!UICONTROL Kurs]** und wählen Sie den erforderlichen Kurs aus.
-3. Wählen Sie die Option **[!UICONTROL Warteliste]** auf der Seite **[!UICONTROL Kursübersicht]** aus.
+2. Gehen Sie zum **[!UICONTROL Abschnitt Kurs]** und wählen Sie den gewünschten Kurs aus.
+3. Wählen Sie die **[!UICONTROL Option Warteliste]** auf der **[!UICONTROL Seite Kursübersicht]** aus.
 4. Wählen Sie **[!UICONTROL Aktionen]** > **[!UICONTROL Bericht exportieren]**, um den Bericht **[!UICONTROL Warteliste]** herunterzuladen.
 
    ![](assets/export-report-waitlist.png)
@@ -347,7 +347,7 @@ Quizberichte helfen bei der Bewertung der Leistung eines Teilnehmers nach Abschl
 
 Learning Manager erleichtert derzeit das Lernen in 13 Benutzeroberflächensprachen und 32 Inhaltssprachen. Obwohl diese Option teilnehmerfreundlich ist und unsere Teilnehmer weltweit unterstützt, ist es für Administratoren nicht einfach, Berichte abzurufen, die in verschiedenen Sprachen generiert wurden.
 
-Quizberichte zeigen Daten in verschiedenen Sprachen an, sofern der Kurs in mehreren Sprachen angeboten wird. Bisher wurden in vom Administrator generierten Berichten Antworten untereinander angezeigt, unabhängig von der Sprache, in der das Quiz absolviert wurde. **Beispiel:**: Wenn ein Benutzer ein Quiz auf Niederländisch absolviert hat, kann der Administrator nur die Quizberichte anzeigen, die von Benutzern auf Niederländisch generiert wurden. Der Administrator, der Englisch als Benutzeroberflächensprache ausgewählt hat, kann Berichte für alle Benutzer nicht gleichzeitig anzeigen, unabhängig davon, in welchem Gebietsschema diese generiert wurden.
+Quizberichte zeigen Daten in verschiedenen Sprachen an, sofern der Kurs in mehreren Sprachen angeboten wird. Bisher wurden in Berichten, die vom Administrator erstellt wurden, die Antworten untereinander angezeigt, unabhängig von der Sprache, in der das Quiz versucht wurde. **Wenn ein Benutzer beispielsweise** an einem Quiz auf Niederländisch teilgenommen hat, kann der Administrator nur die Quizberichte anzeigen, die von Benutzern auf Niederländisch gleichzeitig versucht wurden. Der Administrator, der Englisch als Benutzeroberflächensprache ausgewählt hat, kann Berichte für alle Benutzer nicht gleichzeitig anzeigen, unabhängig davon, in welchem Gebietsschema diese generiert wurden.
 
 Dies wurde nun behoben, da der Administrator jetzt alle Berichte in der jeweiligen Sprache anzeigen kann, die der Teilnehmer verwendet hat, und zwar unabhängig vom gewählten Inhaltsgebietsschema. Quizversuche in verschiedenen Sprachen werden als zusätzliche Spalten im Quizbericht hinzugefügt.
 
@@ -363,19 +363,19 @@ Um L1-Feedback zu aktivieren, klicken Sie in der Admin-App auf **[!UICONTROL Ein
 
 ![](assets/l1-feedback-settings.png)
 
-*Seite mit den Feedbackeinstellungen anzeigen*
+*Anzeigen der Seite &quot;Feedbackeinstellungen&quot;*
 
-Klicken Sie in der oberen rechten Ecke auf **[!UICONTROL Bearbeiten]** und aktivieren Sie die Option zum Aktivieren des L1-Feedbacks.
+Klicken Sie in der oberen rechten Ecke auf **[!UICONTROL Bearbeiten]** und schalten Sie die Option um, um L1-Feedback zu aktivieren.
 
-Wenn ein Autor einen Kurs erstellt, wird auf der Instanzseite der Admin-App das **[!UICONTROL L1-Feedback]** automatisch für den neuen Kurs aktiviert.
+Wenn ein Autor einen Kurs erstellt, wird das **[!UICONTROL L1-Feedback]** auf der Seite Instanz der Admin-App automatisch für den neuen Kurs aktiviert.
 
 <!--![](assets/l1-feedback-enabled.png)-->
 
-Sie können das L1-Feedback auch deaktivieren, indem Sie die Option **[!UICONTROL Aktivieren]** umschalten, wie unten gezeigt:
+Sie können das L1-Feedback auch deaktivieren, indem Sie die **[!UICONTROL Option Aktivieren]** umschalten, wie unten gezeigt:
 
 ![](assets/disable-l1-feedback.png)
 
-*L1-Feedback aktivieren oder deaktivieren*
+*Aktivieren oder Deaktivieren des L1-Feedbacks*
 
 ### Fügen Sie beschreibende Fragen für L1- und L3-Feedback hinzu {#descriptive}
 
@@ -471,7 +471,7 @@ Klicken Sie auf die Option und führen Sie auf der Kursseite die folgenden Schri
 1. Wählen Sie die Instanz und das Modul aus.
 1. Klicken Sie auf **[!UICONTROL Aktionen]** > **[!UICONTROL Exportieren]** und exportieren Sie dann den Bericht der Teilnehmercheckliste.
 
-Auf der Seite **[!UICONTROL Checkliste]** kann ein Kursleiter den Checklistenbericht aus der Dropdownliste **[!UICONTROL Aktionen]** exportieren.
+Auf der **[!UICONTROL Seite &quot;Checkliste]** &quot; kann ein Kursleiter den Checklistenbericht aus der **[!UICONTROL Dropdown-Liste &quot;Aktionen]** &quot; exportieren.
 
 Der CSV-Bericht enthält die folgenden Felder:
 
@@ -551,7 +551,7 @@ Dieser Prozess ist für Lernpfade und Zertifizierungen identisch. Bei Lernpfaden
 ![](assets/learning-path.png)
 _Mehrere Kurse für den Abschluss auswählen_
 
-Die Kommentare sind im Bericht [Teilnehmertranskripte](/help/migrated/administrators/feature-summary/reports.md#learner-transcripts) sichtbar.
+Die Kommentare werden im [Bericht &quot;Teilnehmertranskripte&quot;](/help/migrated/administrators/feature-summary/reports.md#learner-transcripts) angezeigt.
 
 ## Kursvorschau {#previewcourses}
 
@@ -563,7 +563,7 @@ Der Administrator kann eine Vorschau der Kurse anzeigen, indem er beim Anzeigen 
 
 ## Kurseffektivität {#courseeffectiveness}
 
-Die Kurseffektivität wird ausgewertet, um festzustellen, wie nützlich die Kurse für die Teilnehmer sind. Dies ist eine Kombination der Ergebnisse des Teilnehmer-Feedbacks zu den Kursinhalten, der Ergebnisse des Kursquiz für einen Teilnehmer und des vom Manager gegebenen Feedbacks, mit dem die Lernfortschritte des Teilnehmers im Kurs bewertet werden.
+Die Kurseffektivität wird ausgewertet, um festzustellen, wie nützlich die Kurse für die Teilnehmer sind. Es handelt sich um eine Kombination aus den Ergebnissen des Feedbacks der Lernenden zu den Kursinhalten, den Ergebnissen des Kursquiz für einen Lernenden und dem Feedback des Managers, das einen Lernenden auf der Grundlage der Erkenntnisse aus dem Kurs bewertet.
 
 Administratoren können die Bewertung der Kurseffektivität in den Kursminiaturansichten anzeigen, siehe die nachfolgende Abbildung. Dieser Kurs hat eine Bewertung von „100“.
 
@@ -573,7 +573,7 @@ Der Wert der Kurseffektivität wird auf Basis der Werte der L1-, L2- und L3-Feed
 
 ![](assets/course-effectiveness.png)
 
-*Kurseffektivität für L1-, L2- und L3-Feedback anzeigen*
+*Anzeigen der Kurseffektivität für L1-, L2- und L3-Feedback*
 
 Im Beispiel dieser Abbildung hat 1 von 1 Benutzer alle drei Feedbacks erhalten, daher lautet das Ergebnis 100/100. Die folgende Tabelle zeigt, inwiefern sich das Fehlen eines der drei Feedbacks (L1, L2 und L3) negativ auf die Gesamteffektivität auswirkt. Klicken Sie in der rechten unteren Ecke des Popupmenüs auf den Abwärtspfeil, um anzuzeigen, wie die Kurseffektivität berechnet wird.
 
@@ -656,11 +656,11 @@ Der Kommentar ist **nicht**, der dem Teilnehmer angezeigt wird.
 
 Wenn ein Administrator den Kursbericht des Teilnehmers erstellt, wird ein eventuell hinzugefügter Kommentar im Bericht angezeigt. Das Dialogfeld mit der Zusammenfassung wird angezeigt. Es zeigt die Anzahl der Benutzer im Einbeziehungsset, im Ausschlussset sowie die Anzahl der bereits für die Kursinstanz registrierten Benutzer an.
 
-Erweitern Sie im Dialogfeld **[!UICONTROL Teilnehmer registrieren]** die Option **[!UICONTROL Erweiterte Optionen]**. Geben Sie im Feld **[!UICONTROL Zusätzlicher Kommentar]** den erforderlichen Kommentar ein.
+Erweitern Sie im Dialogfeld **[!UICONTROL Teilnehmer registrieren]** die Option **[!UICONTROL Erweiterte Optionen]**. Geben Sie im **[!UICONTROL Feld Zusätzlicher Kommentar]** den gewünschten Kommentar ein.
 
 ![](assets/comment-for-learner.png)
 
-*Kommentare für Teilnehmer hinzufügen*
+*Hinzufügen von Kommentaren für Lernende*
 
 ## Registrierte Benutzer suchen {#searchforusers}
 
@@ -676,7 +676,7 @@ Wenn Sie im Suchfeld nach einem Teilnehmer oder einer Benutzergruppe suchen, wir
 
 Der Vorgang ermöglicht es Ihnen, das Gesuchte viel schneller und weniger umständlich zu finden, als mehrere Suchvorgänge hintereinander auszuführen.
 
-Teilnehmer oder Benutzergruppen werden nach einer Suche in allen Instanzen angezeigt. Für jeden Teilnehmer wird die Instanz, in der der Teilnehmer registriert ist, in der Spalte **[!UICONTROL Instanz]** angezeigt.
+Teilnehmer oder Benutzergruppen werden nach einer Suche in allen Instanzen angezeigt. Für jeden Teilnehmer wird die Instanz, in der der Teilnehmer eingeschrieben ist, in der **[!UICONTROL Spalte Instanz]** angezeigt.
 
 ![](assets/search-result.png)
 
