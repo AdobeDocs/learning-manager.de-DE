@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Berichte
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: 64e6700a944fa3e258461a42c3934f3fa2c1d7a6
 workflow-type: tm+mt
 source-wordcount: '7828'
 ht-degree: 53%
@@ -21,7 +21,7 @@ Mit Adobe Learning Manager können Sie verschiedene Berichte erstellen, um die A
 
 Berichte für Administratoren und Manager werden auf ähnliche Weise erstellt. Manager können Berichte über ihre Mitarbeiter anzeigen, Administratoren hingegen alle Berichte im Unternehmen.
 
-Berichte werden in einem Dashboard generiert. Ein Bericht muss sich in einem Dashboard befinden. Standardmäßig ist auf der Berichtsseite ein **[!UICONTROL Standard-Dashboard]** vorhanden. Alle Berichte, die Sie hinzufügen, werden in dieses Standard-Dashboard verschoben. Um Berichte zu einzelnen Dashboards hinzuzufügen, verwenden Sie den Dropdown-Pfeil und wählen Sie Add Report (Bericht ]**hinzufügen) aus**[!UICONTROL . Genauere Informationen über das Erstellen von Dashboards finden Sie im Bereich „Dashboards“ auf dieser Seite.
+Berichte werden in einem Dashboard generiert. Ein Bericht muss sich in einem Dashboard befinden. Ein **[!UICONTROL Standard-Dashboard]** ist standardmäßig auf der Berichtsseite vorhanden. Alle Berichte, die Sie hinzufügen, werden in dieses Standard-Dashboard verschoben. Verwenden Sie zum Hinzufügen von Berichten zu einzelnen Dashboards den Dropdown-Pfeil, und wählen Sie **[!UICONTROL Bericht hinzufügen]**. Genauere Informationen über das Erstellen von Dashboards finden Sie im Bereich „Dashboards“ auf dieser Seite.
 
 ## Berichtstypen {#typesofreports}
 
@@ -232,13 +232,13 @@ Sie können auch ein Balkendiagramm mit den Qualifikationen anzeigen, die gerade
 
 ### Kompatibilitäts-Dashboard
 
-**Adobe Learning Manager** bietet allen Administratoren und Managern ein Compliance-Dashboard. Administratoren können ein Compliance-Dashboard erstellen und es für Manager freigeben. Manager können das neu freigegebene Dashboard in ihrer App anzeigen und die Einhaltung einer bestimmten Schulung durch ihre Teammitglieder leicht verfolgen. Mit dem Compliance-Dashboard können Administratoren benutzerdefinierte Compliance-Kurse in bestimmte Kategorien kategorisieren (z. B. Vertrieb, Marketing und Recht). Benutzerdefinierte Compliance-Kategorien werden von **[!UICONTROL Katalogbeschriftungen]** unterstützt.
+**Adobe Learning Manager** bietet allen Administratoren und Managern ein Kompatibilitäts-Dashboard. Administratoren können ein Compliance-Dashboard erstellen und für Manager freigeben. Manager können das neu freigegebene Dashboard in ihrer App anzeigen und die Konformität ihrer Team-Mitglieder mit einer bestimmten Schulung ganz einfach nachverfolgen. Mit dem Compliance-Dashboard können Administratoren benutzerdefinierte Compliance-Kurse in bestimmte Kategorien (z. B. Vertrieb, Marketing und Recht) kategorisieren. Benutzerdefinierte Kompatibilitätskategorien werden von **[!UICONTROL Katalogbeschriftungen]** unterstützt.
 
 ![](assets/compliance-dashboard-admin.png)
 
-_Compliance-Dashboard – Administratoransicht_
+_Kompatibilitäts-Dashboard-Administratoransicht_
 
-Administratoren können auch den Compliance-Status für das Team jedes Managers überprüfen, indem sie Zum Compliance-Dashboard ]**wechseln auswählen**[!UICONTROL . Administratoren können eine Reihe von Schulungskursen einzeln oder in einer Gruppe mit Managern teilen. Dies hilft Managern, die Compliance ihrer Teamkollegen für das angegebene Training einfach zu verfolgen.
+Administratoren können auch den Konformitätsstatus für das Team jedes Managers überprüfen, indem sie **[!UICONTROL Zum Kompatibilitäts-Dashboard wechseln]** auswählen. Administratoren können Schulungskurse einzeln oder mit einer Gruppe an Manager weitergeben. Dies hilft Managern, die Einhaltung der Richtlinien durch ihre Teamkollegen für die angegebene Schulung einfach nachzuverfolgen.
 
 #### Arbeitsablauf für Administratoren
 
@@ -256,7 +256,7 @@ Führen Sie die folgenden Schritte aus, um ein benutzerdefiniertes Konformitäts
 
    >[!NOTE]
    >
-   >Dieses neue Kataloglabel wurde eingeführt, um die Kurse, Lernpfade und Zertifizierungen als Compliance-Typ zu kategorisieren. Um die **[!UICONTROL Option &quot;Benutzerdefinierter Konformitätstyp&quot;]** zu aktivieren, müssen Sie zuerst die **[!UICONTROL Option &quot;Katalogbeschriftung]** anzeigen&quot; auf derselben Seite aktivieren.
+   >Dieses neue Kataloglabel wurde eingeführt, um die Kurse, Lernpfade und Zertifizierungen als Compliance-Typ zu kategorisieren. Um die Option **[!UICONTROL Benutzerdefinierter Kompatibilitätstyp]** zu aktivieren, müssen Sie zunächst die Option **[!UICONTROL Katalogbeschriftung anzeigen]** auf derselben Seite aktivieren.
 
 1. Wechseln Sie zu **[!UICONTROL Einstellungen]** > **[!UICONTROL Katalogbeschriftung]** und wählen Sie den **[!UICONTROL Kompatibilitätstyp]** aus.
 1. Geben Sie die Werte (z. B. Legal, Sales) in das Textfeld **[!UICONTROL Wert]** ein und wählen Sie **[!UICONTROL Wert hinzufügen]** aus.
@@ -341,18 +341,18 @@ Führen Sie die folgenden Schritte aus, um das Dashboard für Filialleiter freiz
 5. Wählen Sie die Konformitätsbezeichnungen aus dem Dropdown-Menü **[!UICONTROL Benutzerdefinierte Konformität auswählen]** aus.
 Mit dieser Option werden alle Kurse ausgewählt, die über die ausgewählten Compliance-Beschriftungen verfügen.
 6. Wählen Sie die zusätzlichen Kurse, Lernpfade oder Zertifizierungen aus, die Sie für Administratoren freigeben möchten.
-7. Wählen Sie die Benutzer oder Benutzergruppen aus, für die Sie das Dashboard freigeben möchten, und wählen Sie Freigeben ]**aus**[!UICONTROL .
+7. Wählen Sie die Benutzer oder Benutzergruppen aus, für die Sie das Dashboard freigeben möchten, und wählen Sie **[!UICONTROL Freigeben]** aus.
 
-##### Compliance-Dashboard anzeigen – Manager
+##### Compliance-Dashboard anzeigen - Manager
 
-Weitere Informationen finden Sie in diesem Artikel [Sehen Sie sich das Compliance-Dashboard](/help/migrated/managers/feature-summary/manager-dashboard.md#view-the-dashboard) an.
+Weitere Informationen finden Sie in diesem Artikel [Anzeigen des Kompatibilitäts-Dashboard](/help/migrated/managers/feature-summary/manager-dashboard.md#view-the-dashboard).
 
-#### Bearbeiten des Dashboards
+#### Das Dashboard bearbeiten.
 
-Führen Sie die folgenden Schritte aus, um das Compliance-Dashboard zu bearbeiten:
+Führen Sie die folgenden Schritte aus, um das Kompatibilitäts-Dashboard zu bearbeiten:
 
-1. Melden Sie sich als **[!UICONTROL Admin]** an.
-2. Navigieren Sie zum **** Dashboard ]**Berichte >**[!UICONTROL  Lernzusammenfassung ]**>**[!UICONTROL  Compliance.
+1. Melden Sie sich als **[!UICONTROL Administrator]** an.
+2. Navigieren Sie zum **[!UICONTROL Berichte]** > **[!UICONTROL Übersicht zu Lernprogrammen]** > **[!UICONTROL Kompatibilitäts-Dashboard]**.
 3. Wählen Sie im Abschnitt **[!UICONTROL Kompatibilitäts-Dashboard]** die Option **[!UICONTROL Admin-Ansicht]** oder **[!UICONTROL Manager-Ansicht]**. Sie können die Kompatibilitäts-Dashboards in diesem Abschnitt sehen.
 4. Wählen Sie im Kompatibilitäts-Dashboard, das Sie bearbeiten möchten, **[!UICONTROL Bearbeiten]** aus.
 
@@ -433,7 +433,7 @@ Als Administrator können Sie Berichte für Kurse herunterladen. Führen Sie die
    ![](assets/course-reports.png)
    *Kursberichte*
 
-1. Sie werden auf die Kursseite weitergeleitet. Sie können die Quizpunktzahl nach Benutzer und Frage basierend auf jeder Einschreibung exportieren, indem Sie den spezifischen Einschreibungstyp auswählen.
+1. Sie werden auf die Kursseite weitergeleitet. Sie können die Quizpunktzahl nach Benutzer und Frage exportieren, basierend auf jeder Registrierung, indem Sie den spezifischen Registrierungstyp auswählen.
 1. Wählen Sie **[!UICONTROL Quizpunktzahl exportieren]**, um den Bericht zu exportieren. Das Dialogfeld **[!UICONTROL Erstellen einer Berichtsanforderung]** wird geöffnet. Klicken Sie auf **[!UICONTROL OK]**, um zu bestätigen.
 
    ![](assets/generating-reportrequest.png)
@@ -442,6 +442,15 @@ Als Administrator können Sie Berichte für Kurse herunterladen. Führen Sie die
    >[!NOTE]
    >
    >Der exportierte Bericht zur Quizpunktzahl enthält die Bewertungsdetails für jeden Versuch, wenn die Option „Mehrfachversuch“ für das Modul konfiguriert ist.
+
+### Kursberichte generieren
+
+>[!INFO]
+>
+>In dieser Schulung erfahren Sie, wie Sie Kursberichte exportieren und E-Mail-Abonnements für diese Berichte einrichten.<br><br>[![Schaltfläche](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318904)</br></br>
+
+
+Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.com>.
 
 ### Teilnehmertranskripte {#LearnerTranscripts-1}
 
@@ -614,8 +623,8 @@ In der Spalte **Modifizierungstyp** werden die folgenden Details angezeigt:
 | Freigegebene Kataloge entfernen | Katalogfreigabe aus Katalog entfernt |
 | Aktualisierung des freigegebenen Katalogs | Status der Katalogfreigabe : aktiv |
 | Update | Kurs oder Lernpfad aktualisiert |
-| Benutzergruppe Hinzufügen | Benutzergruppe zum Katalog hinzugefügt |
-| Benutzergruppe entfernen | Benutzergruppe aus dem Katalog entfernt |
+| Benutzergruppen hinzufügen | Benutzergruppe zum Katalog hinzugefügt |
+| Benutzergruppe entfernen | Benutzergruppe aus Katalog entfernt |
 
 Informationen zu Metadaten werden nicht im generierten Bericht aufgerufen.
 
@@ -701,17 +710,17 @@ Administratoren können das Gamification-Transkript im CSV-Format herunterladen.
    * Datum, an dem Gold erreicht wurde
    * Datum, an dem Platin erreicht wurde
 
-   Diese Spalten enthalten die Daten, an denen die Kenntnisstufe zum ersten Mal erreicht wurde. In der Spalte **[!UICONTROL Aktueller Stand]** wird der aktuelle Stand des Lernenden angezeigt.
+   Diese Spalten enthalten die Daten, an denen die Kenntnisstufe zum ersten Mal erreicht wurde. In der Spalte **[!UICONTROL Aktuelle Stufe]** wird die aktuelle Stufe des Teilnehmers angezeigt.
 
    Wenn der Administrator die Gamification zurücksetzt, werden alle Punkte des Teilnehmers entsprechend zurückgesetzt.
 
-### Gamification Audit Trail-Bericht {#gamification-audit-trail}
+### Gamification-Audit-Bericht {#gamification-audit-trail}
 
-Dieser Bericht enthält den Verlauf und die Gründe für die Gamification-Punkte, die die Teilnehmer für jede Regel verdient haben.
+Dieser Bericht enthält den Verlauf und die Gründe für die Gamification-Punkte der Teilnehmer, die für jede Regel gesammelt wurden.
 
-### Laden Sie den Bericht herunter
+### Bericht herunterladen
 
-1. Wählen Sie die Gamification-Audit-Trail-URL aus.
+1. Wählen Sie die Gamification-Prüfprotokoll-URL aus.
 1. Wählen Sie im Popup **Gamification Audit Trail** den Datumsbereich aus.
 1. Wählen Sie **Generieren**.
 
@@ -836,8 +845,8 @@ Um den Bericht herunterzuladen, klicken Sie auf **[!UICONTROL Berichte]** > **[!
 
 Wählen Sie einen oder mehrere Kursleiter(innen) und den Datumsbereich aus.
 
-![Bericht](assets/utilization-report.png)
-*zur Auslastung des Kursleiters herunterladen Bericht zur Nutzung des Kursleiters*
+![Bericht zur Kursleiterauslastung herunterladen](assets/utilization-report.png)
+*Bericht zur Kursleiterauslastung herunterladen*
 
 Der heruntergeladene Bericht enthält die folgenden Felder:
 
@@ -860,7 +869,7 @@ Wählen Sie die Teilnehmenden oder eine Benutzergruppe aus.
 
 Um den Bericht herunterzuladen, klicken Sie auf **[!UICONTROL Berichte]** > **[!UICONTROL Benutzerdefinierte Berichte]** > **[!UICONTROL Benutzerprüfprotokollbericht]**.
 
-![Benutzer-Audit-Trail-Bericht herunterladen](assets/user-audit-report.png)
+![Benutzerprüfprotokollbericht herunterladen](assets/user-audit-report.png)
 
 *Benutzerprüfprotokollbericht herunterladen*
 
@@ -923,18 +932,18 @@ Der Audit-Bericht für benutzerdefinierte Rollen enthält die folgenden Felder:
 
 Sie erhalten Ihre wichtigsten Berichte per E-Mail, indem Sie sie abonnieren.
 
-### Einrichten von E-Mail-Abonnements
+### E-Mail-Abonnements einrichten
 
 >[!INFO]
 >
->In dieser Schulung erfahren Sie, wie Sie E-Mail-Abonnements für Dashboard-Berichte einrichten.<br><br>[![Knopf](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318927)</br></br>
+>In dieser Schulung erfahren Sie, wie Sie E-Mail-Abonnements für Dashboard-Berichte einrichten.<br><br>[![Schaltfläche](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318927)</br></br>
 
 
-Wenn Sie das Training nicht starten können, schreiben Sie an <almacademy@adobe.com>.
+Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.com>.
 
-Klicken Sie auf **[!UICONTROL der Seite &quot;Berichte]** &quot; auf die  **[!UICONTROL Registerkarte &quot;Abonnement]** &quot;. Die Seite zum Abonnieren von Berichten erscheint.
+Klicken Sie auf der Seite **[!UICONTROL Berichte]** auf die Registerkarte **[!UICONTROL Abonnement]**. Die Seite zum Abonnieren von Berichten erscheint.
 
-Um den Berichtsnamen aus der Dropdown-Liste auszuwählen, beginnen Sie mit der Eingabe des Berichtsnamens in das Feld Berichte. Wählen Sie die E-Mail-Häufigkeit aus der Dropdown-Liste aus. Sie können den Betreff der E-Mail hinzufügen und eine alternative E-Mail-ID angeben.
+Beginnen Sie mit der Eingabe des Berichtnamens in das Feld &quot;Berichte&quot;, um den Namen des Berichts aus der Dropdownliste auszuwählen. Wählen Sie die E-Mail-Häufigkeit aus der Dropdown-Liste aus. Sie können den Betreff der E-Mail hinzufügen und eine alternative E-Mail-ID angeben.
 
 Sie können Abonnements bearbeiten und löschen.
 
@@ -942,9 +951,9 @@ Sie können Abonnements bearbeiten und löschen.
 
 Historische Berichte in Adobe Learning Manager (ALM) beziehen sich auf die Berichte, die die historischen Daten und Aktivitäten innerhalb der Lernplattform erfassen. Diese Berichte bieten Einblicke in frühere Teilnehmeraktivitäten, Schulungsinhalte, die Leistung von Benutzergruppen und andere relevante Daten. Die historischen Berichte ermöglichen es Administratoren, den Fortschritt und die Effektivität von Lerninitiativen im Laufe der Zeit zu verfolgen, zu überwachen und zu analysieren.
 
-### Berichte zum Kurszugriff
+### Kurszugriffsberichte
 
-Die Berichte über den Kurszugriff enthalten Informationen über den erneuten Besuch der einzelnen Kurse.
+Die Kurszugriffsberichte enthalten Informationen über den erneuten Besuch der einzelnen Kurse.
 
 Um diesen Bericht herunterzuladen, führen Sie die folgenden Schritte aus:
 
@@ -1116,10 +1125,10 @@ Filter werden im Dialogfeld **[!UICONTROL Bericht hinzufügen]** am unteren Rand
 
 **Benutzergruppe** Wählen Sie die Benutzergruppe aus, je nachdem, wie Sie die Berichte filtern möchten. Learning Manager ruft die Benutzergruppen auf, die für Ihr Konto definiert wurden, aus der Benutzerfunktion aus.
 
-**Kurs** Sie können Ihren Bericht nach einem beliebigen Kurs filtern, indem Sie ihn aus dem Dropdown-Menü auswählen.
+**Kurs** Sie können Ihren Bericht nach Kursen filtern, indem Sie diese in der Dropdownliste auswählen.
 
 ![](assets/sample-report-admin.png)
-*Filtern eines Berichts*
+*Bericht filtern*
 
 Über der Legende für das Diagramm können Sie ein Zoomfeld anzeigen Bewegen Sie den Cursor darauf und ziehen Sie das Cursorkreuz über irgendeinen Teil des Zoomfelds des Diagrammbereichs, um ihn zu zoomen.
 
@@ -1134,7 +1143,7 @@ Verfolgen Sie nach, wie Benutzergruppen wie gut Abteilungen, externe Partner und
 Um Berichte basierend auf Benutzergruppen zu generieren, wählen Sie **[!UICONTROL Benutzergruppe]** auf der x-Achse aus der Liste der Dropdown-Optionen (siehe Screenshot unten).
 
 ![](assets/user-group-reports.png)
-*Berichte von Benutzergruppen*
+*Benutzergruppenberichte*
 
 Um eine Benutzergruppe auszuwählen, geben Sie den Namen der Gruppe ein. Sie können die vorgeschlagenen Gruppen sehen, die gemäß der von Ihnen eingegebenen Zeichenfolge angezeigt werden. Wenn Sie eine Liste mit Gruppen sehen, wählen Sie die gewünschte Benutzergruppe aus.
 
@@ -1175,15 +1184,6 @@ Wenn Ihnen mehrere Manager unterstellt sind, können Sie die Berichte für jeden
 
 ## Kursberichte anzeigen {#viewcoursereports}
 
-### Kursberichte generieren
-
->[!INFO]
->
->In dieser Schulung erfahren Sie, wie Sie Kursberichte exportieren und E-Mail-Abonnements für diese Berichte einrichten.<br><br>[![Schaltfläche](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318904)</br></br>
-
-
-Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.com>.
-
 Sie können zu jedem Kurs spezifische Berichte anzeigen.
 
 1. Klicken Sie auf der Seite &quot;Berichte&quot; auf der Registerkarte &quot;Meine Dashboards&quot; auf den Link **[!UICONTROL Kursberichte anzeigen]**.\
@@ -1223,7 +1223,7 @@ Wenn Sie ein Peer-Konto mit einem anderen Benutzer eingerichtet haben, können S
 Wenn bei der Erstellung eines Peer-Kontos die Option „Freigegebene Kataloge“ nicht aktiviert war, wird das betreffende Konto nicht in dieser Liste angezeigt.
 
 ![](assets/acc1-jpg.png)
-*Verwalten von Berichten für Peer-Konten*
+*Berichte für Peer-Konto verwalten*
 
 1. Wählen Sie die x-Achse und die y-Achse sowie das Datum für diesen Bericht aus.
 1. Beachten Sie, dass im Feld „Filter“ die Schaltfläche „Freigegebene Kataloge“ automatisch aktiviert ist. Dies ist erforderlich. Wenn die Option „Freigegebene Kataloge“ nicht aktiviert ist, bedeutet dies, dass Sie keine Berichte für das Peer-Konto erstellen oder anzeigen können.

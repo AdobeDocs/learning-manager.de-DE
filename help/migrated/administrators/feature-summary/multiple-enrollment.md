@@ -2,10 +2,10 @@
 title: Mehrere Registrierungen in Adobe Learning Manager
 description: Als Kontoadministrator(in) ist es eine Ihrer Hauptaufgaben, verschiedene Instanzen von VILT-Sitzungen in verschiedenen Zeitzonen zu erstellen und möglicherweise Sitzungen für bestimmte Benutzer(innen)gruppen zu erstellen.
 exl-id: c430545d-b48e-432d-a278-658c9281818f
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 66c46725a5ba1055899f2b4c30d53a4d23d31cff
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 68%
+source-wordcount: '586'
+ht-degree: 65%
 
 ---
 
@@ -16,6 +16,14 @@ Im Adobe Learning Manager kann jeder Kurs verschiedene Instanzen haben. Als Kont
 Wenn vor der Version vom Juli 2023 ein(e) Administrator(in) Teilnehmende registrierte, konnten sie nur bei einer einzigen Instanz registriert werden. Wenn Teilnehmende einen Kurs in verschiedenen Instanzen absolvieren möchte, erstellt die/der Administrator(in) viele Kurse, einen für jede Instanz.
 
 Die Funktion für mehrere Registrierungen in Adobe Learning Manager hilft Administrator(innen), solche Szenarien zu vermeiden.
+
+## Instanzen verwalten
+
+>[!INFO]
+>
+>In dieser Schulung lernen Sie, wie Sie Instanzdetails und Instanzeigenschaften bearbeiten.<br><br>[![Schaltfläche](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318912)</br></br>
+
+Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.com>.
 
 ## Was ist Mehrfachregistrierung?
 

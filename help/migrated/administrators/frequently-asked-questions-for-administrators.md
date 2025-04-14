@@ -4,10 +4,10 @@ title: Häufig gestellte Fragen für Administratoren
 description: Häufig gestellte Fragen für Adobe Learning Manager-Administratoren
 contentowner: manochan
 exl-id: 8b113a4e-73f4-4cd5-982a-cefdf5388e91
-source-git-commit: 2548370c5b943964e200b6c1d5a4d0d9ca386ba6
+source-git-commit: 1238639763ce6f373b4cc646a311e48733945849
 workflow-type: tm+mt
-source-wordcount: '2612'
-ht-degree: 50%
+source-wordcount: '2515'
+ht-degree: 52%
 
 ---
 
@@ -22,12 +22,6 @@ ht-degree: 50%
   </tr>
  </tbody>
 </table>
-
-+++Neue Experience League-Ankündigung
-
-Wir freuen uns, Ihnen mitteilen zu können, dass Adobe Learning Manager auf unserem Weg zu einer besseren Anbindung an die Adobe-Lösungsfamilie den Support-Aufnahmeprozess um einen weiteren Kanal erweitern wird. Ab dem 12. Mai 2025 können Sie Fälle jetzt direkt über Adobe Experience League erstellen. Auf dem Experience League finden Sie derzeit die Adobe Learning Manager-Selbsthilfedokumentation, Benutzerhandbücher und Best Practices und Sie werden Ihre wichtigste Ressource für alle Supportanforderungen von Self-Service bis hin zu agentengestützter Kommunikation. Wir bedanken uns für Ihr Verständnis und Ihre Unterstützung bei diesem wichtigen Übergang.
-
-+++
 
 +++Kann ich mehrere Benutzer gleichzeitig hinzufügen? Wenn ja, wie?
 
@@ -47,13 +41,13 @@ Um die Benutzeranmeldung zu korrigieren, müssen Sie eine CSV-Datei in Learning 
 
 Benutzer sollten auf der Teilnehmerseite hinzugefügt werden.
 
-[Learning Manager – Beispiel-CSV.csv](https://helpx.adobe.com/content/dam/help/en/captivate_prime/learning-manager-sample-csv.zip)
+[Beispiel für Learning Manager CSV.csv](https://helpx.adobe.com/content/dam/help/en/captivate_prime/learning-manager-sample-csv.zip)
 
 +++
 
-+++Wie richte ich Benachrichtigungen ein?
++++Wie richte ich Warnungen ein?
 
-In Adobe Learning Manager 1.0 können Sie Benachrichtigungen erstellen. Weitere Informationen finden Sie in der  [Frage](/help/migrated/administrators/feature-summary/user-notifications.md) zu den Benachrichtigungen.
+In Adobe Learning Manager 1.0 können Sie Benachrichtigungen erstellen. Weitere Informationen finden Sie unter [Benachrichtigungsfrage](/help/migrated/administrators/feature-summary/user-notifications.md).
 
 +++
 
@@ -71,7 +65,7 @@ Adobe Learning Manager umfasst keine Funktion zum Importieren von Unterschriften
 
 +++Kann ich einen Kalender für die Kurse einrichten? Wenn ja, wie?
 
-In Adobe Learning Manager 1.0 ist es nicht möglich, einen Kalender für die Kurse einzurichten.
+In der Version Adobe Learning Manager 1.0 gibt es keine Möglichkeit, einen Kalender für die Kurse einzurichten.
 
 +++
 
@@ -160,9 +154,9 @@ Um ein Lernprogramm zu erstellen, gehen Sie wie folgt vor:
 
 1. Klicken Sie im linken Teilfenster auf „Lernprogramm“. Die Seite „Lernprogramme“ wird mit einer Liste der vorhandenen Lernprogramme angezeigt.
 1. Klicken Sie in der rechten oberen Ecke der Seite auf „Hinzufügen“.\
-   Geben Sie den Programmnamen, die Übersicht und die Beschreibung ein und klicken Sie auf Speichern.
+   Geben Sie den Programmnamen, die Übersicht und die Beschreibung ein und klicken Sie auf &quot;Speichern&quot;.
 1. Klicken Sie im linken Teilfenster auf „Kurse“.
-1. Fügen Sie einen oder mehrere Kurse hinzu, indem Sie auf jeder Kurskachel auf + klicken.
+1. Fügen Sie einen oder mehrere Kurse hinzu, indem Sie auf die Kachel eines Kurses klicken.
 
    >[!NOTE]
    >
@@ -180,9 +174,9 @@ Um Berichte zu bearbeiten, klicken Sie in der rechten oberen Ecke der Berichte j
 
 +++
 
-+++Wie kann ich Kurse, Lernprogramme und das Unternehmensprofil ändern?
++++Wie ändere ich Kurse, Lernprogramme und das Unternehmensprofil?
 
-Sie können Kurse und Lernprogramme auch bearbeiten, nachdem sie veröffentlicht wurden. Weitere Informationen finden Sie unter  [Hilfeinhalte zu Kursen](/help/migrated/administrators/feature-summary/courses.md) und  [Lernprogrammen](/help/migrated/administrators/feature-summary/learning-programs.md) .
+Sie können Kurse und Lernprogramme auch bearbeiten, nachdem sie veröffentlicht wurden. Weitere Informationen finden Sie im Hilfeinhalt zu [Kursen](/help/migrated/administrators/feature-summary/courses.md) und [Lernprogrammen](/help/migrated/administrators/feature-summary/learning-programs.md).
 
 Um das Unternehmensprofil zu ändern, klicken Sie auf **[!UICONTROL Einstellungen]** im linken Bereich und dann auf **[!UICONTROL Ändern]** in der oberen rechten Ecke der Seite.
 
@@ -195,9 +189,9 @@ Melden Sie sich dafür zuerst als Administrator an und klicken Sie dann im linke
 Für die Suche nach Kursen haben Sie zwei Möglichkeiten:
 
 1. Klicken Sie auf das Suchsymbol in der rechten oberen Ecke. Ein Suchfeld erscheint. Geben Sie den Kursnamen oder beliebige zu Ihren Kursen passende Suchbegriffe ein, um nach diesen zu suchen.
-1. Durch Filtern der Liste der Kurse mit den Filtern.
+1. Durch Filtern der Kursliste mithilfe der Filter.
 
-Sie können die Kurse nach Status filtern, z. B. &quot;Alle&quot;, &quot;Veröffentlicht&quot; und &quot;Eingestellt&quot;, indem Sie auf jede dieser Optionen klicken. Sie können auch nach Kompetenzen suchen, indem Sie auf Kompetenzen klicken und die einzelnen Kompetenzen auswählen.
+Sie können die Kurse nach Status filtern, z. B. &quot;Alle&quot;, &quot;Veröffentlicht&quot; und &quot;Eingestellt&quot;, indem Sie auf jede dieser Optionen klicken. Sie können auch nach Kompetenzen suchen, indem Sie auf &quot;Kompetenzen&quot; klicken und die einzelnen Kompetenzen auswählen.
 
 Anhand Ihrer Auswahl können Sie die gefilterte Kursliste anzeigen und die erforderlichen Kurse auswählen.
 
@@ -205,15 +199,15 @@ Anhand Ihrer Auswahl können Sie die gefilterte Kursliste anzeigen und die erfor
 
 +++Kann ich das Design der Anwendung ändern? Wenn ja, wie?
 
-Ja, Sie können die Themen und das Branding der Learning Manager-Anwendung gemäß den Anforderungen Ihrer Organisation ändern. Ein Set mit fünf repräsentativen Bildern wird bereitgestellt, um Ihre Farbdesignänderungen in der Vorschau anzuzeigen, bevor Sie sie in Ihre Anwendung übernehmen. Navigieren Sie durch diese Bilder, indem Sie auf die Symbole &lt; und > links bzw. rechts neben den Bildern klicken, um sie in der Vorschau anzuzeigen.
+Ja, Sie können die Designs und das Branding der Learning Manager-Anwendung gemäß den Anforderungen Ihres Unternehmens ändern. Ein Set mit fünf repräsentativen Bildern wird bereitgestellt, um Ihre Farbdesignänderungen in der Vorschau anzuzeigen, bevor Sie sie in Ihre Anwendung übernehmen. Navigieren Sie durch diese Bilder, indem Sie auf die Symbole &lt; und > links bzw. rechts neben den Bildern klicken, um sie in der Vorschau anzuzeigen.
 
-Klicken Sie im linken Fensterbereich auf **[!UICONTROL Branding]** , um den Namen Ihrer Organisation zu aktualisieren, die Subdomäne, die Protokollstile und -designs zu ändern. Klicken Sie neben jedem dieser Themen auf **[!UICONTROL Bearbeiten]** , um den Inhalt zu ändern.
+Klicken Sie auf **[!UICONTROL Branding]** im linken Bereich, um Ihren Unternehmensnamen zu aktualisieren, die Subdomäne, Protokollstile und Designs zu ändern. Klicken Sie auf **[!UICONTROL Bearbeiten]** neben jedem dieser Themen, um den Inhalt zu ändern.
 
-Weitere Informationen finden Sie in  [der Hilfe](/help/migrated/administrators/feature-summary/themes.md) zu Farbpaletten und Branding.
+Weitere Informationen finden Sie in der [Hilfe zu Farbdesigns und Branding](/help/migrated/administrators/feature-summary/themes.md).
 
 +++
 
-+++Wie richte ich Badges für die Kurse ein?
++++Wie kann ich Abzeichen für die Kurse einrichten?
 
 1. Klicken Sie im linken Teilfenster auf &quot;Abzeichen&quot;, nachdem Sie sich als Administrator angemeldet haben.
 1. Klicken Sie in der rechten oberen Ecke der angezeigten Seite auf „Hinzufügen“.
@@ -303,7 +297,7 @@ Sie können mehrere Fragebogen hinzufügen und diese jeweils nur bei Bedarf einb
 
    Standardmäßig ist für jede Kompetenz eine einzige Stufe mit 0 Credits verfügbar.
 
-1. Klicken Sie auf [!UICONTROL **Stufe**] hinzufügen, um jeder Kompetenz eine neue Stufe hinzuzufügen, und klicken Sie auf Speichern. Sie können bis zu 5 Stufen hinzufügen.
+1. Klicken Sie auf [!UICONTROL **Stufe hinzufügen**], um jeder Kompetenz eine neue Stufe hinzuzufügen, und klicken Sie auf Speichern. Sie können bis zu 5 Stufen hinzufügen.
 
 Nach dem Speichern der Kompetenz können Sie keine Stufen mehr entfernen. Administratoren können die Teilnehmer einer bestimmten Kompetenz und Stufe zuweisen.
 
@@ -313,12 +307,12 @@ Nach dem Speichern der Kompetenz können Sie keine Stufen mehr entfernen. Admini
 
 1. Klicken Sie im linken Teilfenster auf [!UICONTROL **Abrechnung**].
 
-   Die Zahlungsinformationen werden auf der Seite angezeigt.
+   Rechnungsinformationen werden auf der Seite angezeigt.
 
-1. Klicken Sie auf die [!UICONTROL **Registerkarte Abonnieren**] .
+1. Klicken Sie auf die Registerkarte [!UICONTROL **Abonnieren**].
 1. Geben Sie im Feld „Teilnehmerpakete“ die Anzahl der Pakete ein, die Sie bestellen möchten, und klicken Sie in der rechten oberen Ecke der Seite auf „Bestellung aufgeben“.
 
-   Wählen Sie die Anzahl der Pakete basierend auf der Anzahl der Teilnehmer in Ihrer Organisation aus und geben Sie Ihre Bestellung auf. Für einen bestellgesteuerten Prozess schreiben Sie uns an  [learningmanagersales@adobe.com](mailto:learningmanagersales@adobe.com).
+   Wählen Sie die Anzahl der Pakete basierend auf der Anzahl der Teilnehmer in Ihrem Unternehmen aus und geben Sie Ihre Bestellung auf. Schreiben Sie uns für einen auftragsgesteuerten Prozess unter [learningmanagersales@adobe.com](mailto:learningmanagersales@adobe.com).
 
 1. Geben Sie Ihre Kontaktdaten ein, wählen Sie den Kreditkartentyp, geben Sie die Details der Kreditkarte ein und klicken Sie auf „Bestellung abschließen“.
 

@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Hinzufügen von Benutzern und Erstellen von Benutzergruppen
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: 64e6700a944fa3e258461a42c3934f3fa2c1d7a6
 workflow-type: tm+mt
-source-wordcount: '4290'
+source-wordcount: '4296'
 ht-degree: 58%
 
 ---
@@ -15,22 +15,7 @@ ht-degree: 58%
 
 Erfahren Sie, wie Sie Benutzende oder Benutzendengruppen in der Learning Manager-Anwendung hinzufügen.
 
-
 <!--![](assets/user-mgmt-new.png)-->
-
-## Verwalten von Benutzergruppen
-
->[!INFO]
->
->In dieser Schulung erfahren Sie, wie Sie eine Benutzergruppe anhand von Namen, E-Mail-IDs und dem Kombinieren mehrerer automatisch generierter Benutzergruppen erstellen.<br><br>[![Schaltfläche](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555694)</br></br>
-
-<!--[Launch training](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
-
-<!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
-
-<!--[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
-
-Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.com>.
 
 ## Übersicht {#overview}
 
@@ -49,11 +34,11 @@ Als Administrator können Sie Benutzer auf drei Arten hinzufügen:
 
 ## Einzelnen Benutzer hinzufügen {#addasingleuser}
 
-Fügen Sie interne Teilnehmer mit einer Einzelbenutzeroption zum Adobe Learning Manager hinzu.
+Fügen Sie der Adobe Learning Manager interne Teilnehmer mit einer Einzelbenutzeroption hinzu.
 
 >[!INFO]
 >
->In dieser Schulung erfahren Sie, wie Sie interne Teilnehmer zum Adobe Learning Manager hinzufügen.<br><br>[![Schaltfläche](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555534)</br></br>
+>In dieser Schulung erfahren Sie, wie Sie interne Teilnehmer zur Adobe Learning Manager hinzufügen.<br><br>[![Schaltfläche](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555534)</br></br>
 
 
 Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.com>.
@@ -63,9 +48,6 @@ Um Benutzer hinzuzufügen,
 1. Melden Sie sich bei Adobe Learning Manager als Administrator an.
 1. Klicken Sie auf der Startseite auf **[!UICONTROL Benutzer hinzufügen]**. Auf dieser Seite können Sie mit einer CSV einen einzelnen Benutzer oder mehrere Benutzer gleichzeitig hinzufügen. Sie können auch einen Selbstregistrierungslink für interne Mitarbeiter erstellen oder ein externes Lernprofil erstellen.
 1. Um einen einzelnen Benutzer hinzuzufügen, klicken Sie oben rechts auf **[!UICONTROL Hinzufügen]** und wählen Sie die Option **[!UICONTROL Einzelner Benutzer]**.
-
-1. Um einen einzelnen Benutzer hinzuzufügen, klicken Sie oben rechts auf **[!UICONTROL Hinzufügen]** und wählen Sie die Option **Einzelner Benutzer**.
-
 
    ![](assets/single-user.png)
    *Einen einzelnen internen Benutzer hinzufügen*
@@ -79,16 +61,7 @@ Um Benutzer hinzuzufügen,
 
 ## Hinzufügen von mehreren Benutzern gleichzeitig {#addusersinbulk}
 
-### Verwalten von Benutzenden
-
-In dieser Schulung erfahren Sie, wie Sie Rollen zuweisen und entfernen, eine Begrüßungs-E-Mail senden und Benutzer löschen und bereinigen.
-
-[![Schaltfläche](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555586)
-
-Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.com>.
-
 In der Regel arbeiten die meisten Organisationen mit einem HR-Management-System (HRMS), das alle Mitarbeiterdatensätze wie Bezeichnung, Standort, Beitrittsdatum oder Mitarbeiterhierarchie verwaltet. Sie können diese Daten in ein CSV-Format exportieren. Um einen Kurs zu erstellen, führen Sie die unten genannten Schritte aus:
-
 
 1. Klicken Sie oben rechts auf **[!UICONTROL Hinzufügen]** und wählen Sie die Option **[!UICONTROL CSV hochladen]**.
 
@@ -107,7 +80,7 @@ In der Regel arbeiten die meisten Organisationen mit einem HR-Management-System 
    * profile
    * und vom Manager
 
-   (&#42;) Pflichtfeld.
+   (&#42;) Erforderliches Feld.
 
 1. Nachdem Sie auf die Option **[!UICONTROL CSV hochladen]** geklickt haben, wird das folgende Dialogfeld angezeigt.
 
@@ -135,11 +108,25 @@ In der Regel arbeiten die meisten Organisationen mit einem HR-Management-System 
 
 Nachdem Sie die Benutzer ausgewählt haben, können Sie Folgendes ausführen:
 
+>[!INFO]
+>
+>In dieser Schulung erfahren Sie, wie Sie mehrere Benutzer gleichzeitig über eine CSV-Datei hinzufügen.<br><br>[![Schaltfläche](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555)</br></br>
+
+Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.com>.
+
 ## Benutzer registrieren {#registerauser}
 
 Klicken Sie bei ausgewähltem Benutzer oben rechts auf **[!UICONTROL Aktionen]** und dann auf **[!UICONTROL Registrieren]**.
 
 Die ausgewählten Benutzer erhalten eine Begrüßungs-E-Mail. Wenn die Teilnehmer über eine vorhandene Adobe ID verfügen, können sie auf diesen Link klicken. Wenn sie keine Adobe ID haben, können sie auf den Begrüßungslink klicken, um eine Adobe ID zu erstellen und sie mit ihrem Learning Manager-Konto zu verknüpfen.
+
+### Verwalten von Benutzenden
+
+In dieser Schulung erfahren Sie, wie Sie Rollen zuweisen und entfernen, eine Begrüßungs-E-Mail senden und Benutzer löschen und bereinigen.
+
+[![Schaltfläche](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555586)
+
+Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.com>.
 
 ## Rolle zuweisen {#assignarole}
 
@@ -182,7 +169,7 @@ Wählen Sie in der Liste der Benutzer einen Benutzer aus und klicken Sie auf den
 
 Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.com>.
 
-Adobe Learning Manager behält die Groß- und Kleinschreibung des Benutzerattributs und seines Werts bei. **Die Groß-/Kleinschreibung eines Benutzerattributs ist z. B**. &quot;location&quot;, und sein Wert als &quot;PARIS&quot; wird beibehalten und auf die gleiche Weise angezeigt. Im Falle von Problemen kann der Administrator jetzt den Attributnamen und die Werte bearbeiten, um Fehler bei der Berücksichtigung der Groß-/Kleinschreibung zu korrigieren.
+Adobe Learning Manager behält die Groß- und Kleinschreibung des Benutzerattributs und seines Werts bei. **Beispiel:**: Das Benutzerattribut &quot;location&quot; und der entsprechende Wert &quot;PARIS&quot; werden unter Beachtung der Groß- und Kleinschreibung übernommen und genauso angezeigt wie eingegeben. Bei Problemen kann der Administrator jetzt den Attributnamen und die Attributwerte bearbeiten, um Fehler bei der Groß- und Kleinschreibung zu korrigieren.
 
 Der Administrator kann die **[!UICONTROL Admin-App]** > **[!UICONTROL Benutzer]** > **[!UICONTROL Benutzergruppen]** besuchen und auf den Gruppennamen klicken.
 
@@ -287,7 +274,7 @@ Führen Sie die folgenden Schritte aus, um externe Benutzer zu registrieren:
 Nachdem ein externes Profil erstellt wurde, müssen Sie dessen Status aktivieren. Wählen Sie aus der Liste der externen Profile das gewünschte Profil aus und wechseln Sie die Statusschaltfläche.
 
 ![](assets/choose-required-profiles.png)
-*Aktivieren eines externen Profils*
+*Externes Profil aktivieren*
 
 Dadurch wird der Link „Externe Registrierung“ aktiviert. Eine Willkommens-E-Mail wird automatisch an den Partner gesendet. Sie können den Link auch kopieren und mit ihnen teilen, indem Sie auf das Symbol URL kopieren () klicken, oder Sie können die Begrüßungs-E-Mail erneut an die Partnerorganisation senden, indem Sie auf das Mail-Symbol () klicken.
 
@@ -339,6 +326,18 @@ Wählen Sie einen Benutzer aus und klicken Sie in der oberen rechten Ecke auf **
 ## Benutzergruppen erstellen {#createusergroups}
 
 Eine Benutzergruppe ist eine Gruppe von Benutzern, die einer Kategorie zugeordnet sind. Mithilfe von Benutzergruppen können Administratoren Teilnehmer in ihrer Organisation anhand ihrer Attribute auswählen und ihnen dann Lerninhalte zuweisen. Diese Benutzergruppen helfen den Administratoren auch dabei, Teilnehmern benutzerdefinierte Logos und Kataloge zuzuweisen und benutzerdefinierte Berichte zu deren Fortschritten anzuzeigen.
+
+>[!INFO]
+>
+>In dieser Schulung erfahren Sie, wie Sie eine Benutzergruppe anhand von Namen, E-Mail-IDs und dem Kombinieren mehrerer automatisch generierter Benutzergruppen erstellen.<br><br>[![Schaltfläche](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555694)</br></br>
+
+<!--[Launch training](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
+
+<!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
+
+<!--[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
+
+Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.com>.
 
 Um auf Benutzergruppen zuzugreifen, klicken Sie im linken Navigationsbereich auf **[!UICONTROL Benutzergruppen]**.
 
@@ -454,7 +453,7 @@ Mit dieser Option kann ein Administrator entscheiden, ob er die Felder anzeigen 
 
 ## Beschränken Sie aktive Felder in Berichten {#restrictactivefields}
 
-Learning Manager 27.7 führt zwei neue Optionen **[!UICONTROL für aktive Felder ein: Berichtbar]** und **[!UICONTROL Exportierbar]**.
+Learning Manager 27.7 führt zwei neue Optionen ein: **[!UICONTROL Bericht]** und **[!UICONTROL Exportfähig]** für aktive Felder.
 
 ![](assets/options-in-activefields.png)
 *Optionen in aktiven Feldern*
@@ -489,7 +488,7 @@ Die CSV-Datei enthält möglicherweise nicht alle aktiven Felder. Für alle akti
 
 Derzeit müssen alle aktiven Felder einem Feld aus der Quell-CSV zugeordnet werden.
 
-Es kommt vor, dass ein Benutzer manchmal ein aktives Feld nicht einem in der CSV angegebenen Feld zuordnen möchte. In solchen Fällen kann der Benutzer das Feld &quot;Aktiv&quot; dem Wert **[!UICONTROL &quot;DontImportFromSource&quot;]** zuordnen. Wählen Sie diesen Wert aus der Dropdown-Liste aus, wenn Sie Benutzer aus FTP- und Box-Connectors importieren.
+Es kann vorkommen, dass ein Benutzer einem in der CSV-Datei angegebenen Feld kein aktives Feld zuordnen möchte. In solchen Fällen kann der Benutzer das Feld Aktiv dem Wert **[!UICONTROL DontImportFromSource]** zuordnen. Wählen Sie diesen Wert aus der Dropdown-Liste aus, wenn Sie Benutzer von FTP- und Box-Connectors importieren.
 
 ## Benutzerdefinierte Rollen {#customroles}
 
@@ -556,13 +555,13 @@ Führen Sie die folgenden Schritte aus, um ein aktives mehrwertiges Feld zu erst
 1. Fügen Sie die Werte mithilfe einer CSV-Datei oder durch Klicken auf &quot;Werte ändern&quot; hinzu.
 
    ![Werte hinzufügen](assets/add-values.png)
-   *Hinzufügen von Werten*
+   *Werte hinzufügen*
 
 1. Klicken Sie auf [!UICONTROL **Fertig**].
 
 >[!NOTE]
 >
->Sobald die Benutzergruppe erstellt und das Feld ausgefüllt ist, können Mehrfachwerte nicht mehr in Einzelwerte umgewandelt werden und umgekehrt.
+>Sobald die Benutzergruppe erstellt und das Feld ausgefüllt wurde, können mehrere Werte nicht mehr in einzelne Werte konvertiert werden und umgekehrt.
 
 ### Aktives Feld mit mehreren Werten über CSV hinzufügen
 
@@ -590,9 +589,9 @@ Der Administrator kann automatisch generierte aktive Felder hinzufügen und Benu
 
 Der Teilnehmertranskriptbericht enthält alle aktiven Felder und durch Kommas getrennte Werte. Der Administrator kann die Daten dann entsprechend filtern.
 
-## Bericht der Benutzergruppe
+## Benutzergruppebericht
 
-Der neue Benutzergruppenbericht von Adobe Learning Manager unterstützt die Verwaltung von Benutzergruppen, indem er Einblick in Gruppen bietet, die nicht verwaltet wurden, als Administratoren das Unternehmen verließen. Administratoren können auf die Berichte im **[!UICONTROL Abschnitt Benutzer]** > **[!UICONTROL Benutzergruppe]** zugreifen. Es enthält detaillierte Informationen zu jeder Gruppe, einschließlich:
+Mit dem neuen Benutzergruppenbericht von Adobe Learning Manager können Sie Benutzergruppen verwalten, indem er Einblick in Gruppen bietet, die nicht verwaltet werden, wenn Administratoren die Verwaltung verlassen. Administratoren können auf die Berichte im Abschnitt **[!UICONTROL Benutzer]** > **[!UICONTROL Benutzergruppe]** zugreifen. Er enthält detaillierte Informationen zu den einzelnen Gruppen, einschließlich:
 
 * Benutzergruppentyp
 * Gruppenname
