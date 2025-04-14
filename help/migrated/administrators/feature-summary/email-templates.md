@@ -23,9 +23,9 @@ Die Administratoren können auch festlegen, dass bei bestimmten Ereignissen kein
 
 ## Einführung in E-Mail-Vorlagen
 
-In dieser Schulung erfahren Sie, wie Sie einzelne E-Mail-Vorlagen anpassen und Einstellungen auf Kurs- und Kontoebene für E-Mail-Vorlagen anpassen.
+In dieser Schulung lernen Sie, wie Sie individuelle E-Mail-Vorlagen anpassen und Einstellungen für E-Mail-Vorlagen auf Kurs- und Kontoebene anpassen.
 
-[![Schaltfläche](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318925)
+[![Knopf](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318925)
 
 <!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
 
@@ -102,7 +102,7 @@ Sie als Administrator können diese E-Mail-Vorlagen einfach aktivieren, deaktivi
 
 ## Häufigkeit von Auswahl-E-Mails festlegen {#setfrequencyofdigestemails}
 
-Auf der Seite **[!UICONTROL E-Mail-Vorlagen]** > **[!UICONTROL Einstellungen]** kann der Administrator die Häufigkeit ändern, mit der Auswahl-E-Mails an Teilnehmer gesendet werden.
+Auf der **[!UICONTROL Seite &quot;E-Mail-Vorlagen]** &quot; > **[!UICONTROL &quot;Einstellungen]** &quot; kann der Administrator die Häufigkeit der Digest-E-Mails ändern, die an die Teilnehmer gesendet werden sollen.
 
 Klicken Sie im Abschnitt **[!UICONTROL Einstellungen für Auswahl-E-Mail]** auf **[!UICONTROL Bearbeiten]**.
 
@@ -156,7 +156,7 @@ Die folgenden Beispiele zeigen die E-Mail, die ein Teilnehmer erhält.
 
 ### E-Mail-Zugriffsbericht herunterladen
 
-Sie können den E-Mail-Zugriffsbericht herunterladen, indem Sie auf die Schaltfläche **[!UICONTROL Herunterladen]** klicken. Dieser Bericht enthält die Anzahl der Benutzer, die die E-Mail erhalten haben, sowie die Anzahl der Benutzer, die die Links geöffnet und darauf geklickt haben.
+Sie können den E-Mail-Zugriffsbericht herunterladen, indem Sie auf die **[!UICONTROL Schaltfläche Herunterladen]** klicken. Dieser Bericht enthält die Anzahl der Benutzer, die die E-Mail erhalten haben, und die Anzahl der Benutzer, die die Links geöffnet und angeklickt haben.
 
 ## E-Mail-Domäne anpassen {#customizeemaildomain}
 
@@ -196,7 +196,7 @@ Sie können Benutzer mithilfe von CSV-Dateien der Liste „Bitte nicht stören�
 * Eingehende direkte Eskalationen blockieren
 * Eingehende Eskalationen der übernächsten Stufe blockieren
 
-Geben Sie im Wertefeld &quot;true&quot; ein, um zu verhindern, dass Benutzer E-Mails für die ausgewählte Option erhalten. Wenn Sie den Wert „false“ eingeben, wird eine bestehende Blockierung für den Benutzer aufgehoben. Wenn Sie die Spalte leer lassen, bleibt die bisherige Auswahl unverändert.
+Geben Sie true in das Wertfeld ein, um zu verhindern, dass Benutzer E-Mails für diese ausgewählte Option erhalten. Wenn Sie den Wert „false“ eingeben, wird eine bestehende Blockierung für den Benutzer aufgehoben. Wenn Sie die Spalte leer lassen, bleibt die bisherige Auswahl unverändert.
 
 ## Flexibilität bei der Anpassung der Vorlagen
 
@@ -221,9 +221,9 @@ Die Vorlagen unterstützen auch erweiterte Bearbeitungsfunktionen, etwa dass die
 
 ### Instanzen einrichten
 
-In dieser Schulung lernen Sie, wie Sie Standardwerte für Instanzen einrichten, eine neue Instanz hinzufügen, eine Instanz einstellen und erneut öffnen und E-Mail-Vorlagen für eine Instanz konfigurieren.
+In dieser Schulung erfahren Sie, wie Sie Instanzstandards einrichten, eine neue Instanz hinzufügen, eine Instanz zurückziehen und erneut öffnen sowie E-Mail-Vorlagen für eine Instanz konfigurieren.
 
-[![Schaltfläche](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318911)
+[![Knopf](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318911)
 
 Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.com>.
 
@@ -265,6 +265,6 @@ Um die E-Mail-Vorlage zu deaktivieren, wählen Sie die Vorlage aus, die deaktivi
 
 +++Wie ändere ich den Absendernamen und die Absenderadresse in der Vorlage?
 
-Wenden Sie sich an den [Adobe Learning Manager-Support](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager), um den Absendernamen und die E-Mail-Adresse zu ändern.
+Um den Absendernamen und die E-Mail-Adresse zu ändern, wenden Sie sich an [den Adobe Learning Manager-Support](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager).
 
 +++
