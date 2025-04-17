@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Hinzufügen von Benutzern und Erstellen von Benutzergruppen
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 81b3b2ef5f430968b107d3e9d67fea672c6dea98
+source-git-commit: f5998c7e7a05d6f48e094b359d157603f4a95e5c
 workflow-type: tm+mt
 source-wordcount: '4290'
 ht-degree: 58%
@@ -15,22 +15,7 @@ ht-degree: 58%
 
 Erfahren Sie, wie Sie Benutzende oder Benutzendengruppen in der Learning Manager-Anwendung hinzufügen.
 
-
 <!--![](assets/user-mgmt-new.png)-->
-
-## Verwalten von Benutzergruppen
-
->[!INFO]
->
->In dieser Schulung erfahren Sie, wie Sie eine Benutzergruppe anhand von Namen, E-Mail-IDs und dem Kombinieren mehrerer automatisch generierter Benutzergruppen erstellen.<br><br>[![Schaltfläche](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555694)</br></br>
-
-<!--[Launch training](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
-
-<!--In this training, you will learn how to create a user group by names, email IDs, and combining multiple auto-generated user groups.-->
-
-<!--[![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=QLD1P6BS&mv=display&mv2=display#/course/7555694)-->
-
-Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.com>.
 
 ## Übersicht {#overview}
 
@@ -78,14 +63,6 @@ Um Benutzer hinzuzufügen,
 1. Um den neuen Benutzer in Learning Manager hinzuzufügen, klicken Sie auf **[!UICONTROL Hinzufügen]**. Nachdem der Benutzer hinzugefügt wurde, erhält der Benutzer eine Bestätigungs-E-Mail. Die Teilnehmenden aktivieren dann das Konto und verwenden Learning Manager. Dieser Arbeitsablauf ist hilfreich, wenn Sie eine begrenzte Anzahl von Teilnehmern zu Ihrem Learning Manager-Konto hinzufügen müssen. Wenn Sie jedoch vorhaben, alle Mitarbeiter einer großen Organisation einzuschreiben, können Sie sie in einem einzigen Versuch hinzufügen. Weitere Informationen finden Sie im folgenden Abschnitt:
 
 ## Hinzufügen von mehreren Benutzern gleichzeitig {#addusersinbulk}
-
-### Verwalten von Benutzenden
-
-In dieser Schulung erfahren Sie, wie Sie Rollen zuweisen und entfernen, eine Begrüßungs-E-Mail senden und Benutzer löschen und bereinigen.
-
-[![Schaltfläche](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555586)
-
-Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.com>.
 
 In der Regel arbeiten die meisten Organisationen mit einem HR-Management-System (HRMS), das alle Mitarbeiterdatensätze wie Bezeichnung, Standort, Beitrittsdatum oder Mitarbeiterhierarchie verwaltet. Sie können diese Daten in ein CSV-Format exportieren. Um einen Kurs zu erstellen, führen Sie die unten genannten Schritte aus:
 
@@ -140,6 +117,14 @@ Nachdem Sie die Benutzer ausgewählt haben, können Sie Folgendes ausführen:
 Klicken Sie bei ausgewähltem Benutzer oben rechts auf **[!UICONTROL Aktionen]** und dann auf **[!UICONTROL Registrieren]**.
 
 Die ausgewählten Benutzer erhalten eine Begrüßungs-E-Mail. Wenn die Teilnehmer über eine vorhandene Adobe ID verfügen, können sie auf diesen Link klicken. Wenn sie keine Adobe ID haben, können sie auf den Begrüßungslink klicken, um eine Adobe ID zu erstellen und sie mit ihrem Learning Manager-Konto zu verknüpfen.
+
+### Verwalten von Benutzenden
+
+In dieser Schulung erfahren Sie, wie Sie Rollen zuweisen und entfernen, eine Begrüßungs-E-Mail senden und Benutzer löschen und bereinigen.
+
+[![Schaltfläche](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555586)
+
+Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.com>.
 
 ## Rolle zuweisen {#assignarole}
 
@@ -344,6 +329,14 @@ Um auf Benutzergruppen zuzugreifen, klicken Sie im linken Navigationsbereich auf
 
 ![](assets/user-groups.png)
 *Benutzergruppen erstellen*
+
+### Verwalten von Benutzergruppen
+
+>[!INFO]
+>
+>In dieser Schulung erfahren Sie, wie Sie eine Benutzergruppe anhand von Namen, E-Mail-IDs und dem Kombinieren mehrerer automatisch generierter Benutzergruppen erstellen.<br><br>[![Schaltfläche](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555694)</br></br>
+
+Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.com>.
 
 In Adobe Learning Manager gibt es zwei Arten von Gruppen: Benutzerdefiniert und automatisch generiert. Wenn Sie Ihrem Konto Teilnehmer hinzufügen, werden einige Gruppen automatisch anhand ihrer gemeinsamen Eigenschaften erstellt.
 
