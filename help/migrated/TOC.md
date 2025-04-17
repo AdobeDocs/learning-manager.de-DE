@@ -2,10 +2,10 @@
 user-guide-title: Leitfaden für Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Dokumentation für Adobe Learning Manager
-source-git-commit: 1238639763ce6f373b4cc646a311e48733945849
+source-git-commit: 5676ddb238309bc643394af1dde3cba7f8ac6699
 workflow-type: tm+mt
 source-wordcount: '643'
-ht-degree: 83%
+ht-degree: 85%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 83%
    * [API-Veraltungen und -Änderungen in Adobe Learning Manager](api-deprecations-list.md)
    * [Etikettieren in Adobe Learning Manager](white-label.md)
    * [API-Dokumentation zur eingebetteten Player-Interaktion](/help/migrated/embedded-player-interaction.md)
-* Erste Schritte: {#get-started}
+* Erste Schritte {#get-started}
    * [Erste Schritte als Administrator](administrators/feature-summary/getting-started-admin.md)
    * [Erste Schritte als Autor](authors/feature-summary/getting-started-author.md)
    * [Einstieg in Captivate Prime als Teilnehmer](learners/feature-summary/getting-started-learner.md)
@@ -87,7 +87,7 @@ ht-degree: 83%
    * [Oberfläche für nicht angemeldete Teilnehmer](administrators/feature-summary/non-logged-in-experience-learners.md)
    * [Lernprogramme](administrators/feature-summary/learning-programs.md)
    * [Produktterminologie](administrators/feature-summary/product-terminology.md)
-* Integrationsadministrator {#integration}
+* Integrations-Admin {#integration}
    * [Migrationshandbuch](integration-admin/feature-summary/migration-manual.md)
    * [Learning Manager-Connectors](integration-admin/feature-summary/connectors.md)
    * [Nicht angemeldete APIs](integration-admin/feature-summary/non-logged-in-apis.md)
@@ -116,7 +116,7 @@ ht-degree: 83%
    * [So wählen Sie ein Kursmodul](authors/how-to-choose-modules.md)
    * [Vorschau als Teilnehmer](authors/feature-summary/fluidic-player.md)
    * [Einstellungen](authors/feature-summary/settings.md)
-* Kursleiter {#instructor}
+* Der Kursleiter {#instructor}
    * [Module](instructors/feature-summary/modules.md)
    * [Verwalten der Teilnehmer für Ihre Sitzung](instructors/feature-summary/learners.md)
 * Teilnehmer {#learner}

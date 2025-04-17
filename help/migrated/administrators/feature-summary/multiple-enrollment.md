@@ -2,7 +2,7 @@
 title: Mehrere Registrierungen in Adobe Learning Manager
 description: Als Kontoadministrator(in) ist es eine Ihrer Hauptaufgaben, verschiedene Instanzen von VILT-Sitzungen in verschiedenen Zeitzonen zu erstellen und möglicherweise Sitzungen für bestimmte Benutzer(innen)gruppen zu erstellen.
 exl-id: c430545d-b48e-432d-a278-658c9281818f
-source-git-commit: 66c46725a5ba1055899f2b4c30d53a4d23d31cff
+source-git-commit: 5676ddb238309bc643394af1dde3cba7f8ac6699
 workflow-type: tm+mt
 source-wordcount: '586'
 ht-degree: 65%
