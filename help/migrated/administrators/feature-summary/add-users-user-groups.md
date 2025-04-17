@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Hinzufügen von Benutzern und Erstellen von Benutzergruppen
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: f5998c7e7a05d6f48e094b359d157603f4a95e5c
+source-git-commit: ae99efd330f27fe36970c9324b0b064d9c7a85e5
 workflow-type: tm+mt
-source-wordcount: '4290'
+source-wordcount: '4305'
 ht-degree: 58%
 
 ---
@@ -110,7 +110,11 @@ In der Regel arbeiten die meisten Organisationen mit einem HR-Management-System 
 >
 >Weitere Informationen finden Sie in den häufig gestellten Fragen (FAQ) unter [Benutzer in großen Mengen hinzufügen](../add-users-in-bulk.md).
 
-Nachdem Sie die Benutzer ausgewählt haben, können Sie Folgendes ausführen:
+>[!INFO]
+>
+>In dieser Schulung erfahren Sie, wie Sie mehrere Benutzer gleichzeitig über eine CSV-Datei hinzufügen.<br><br>[![Schaltfläche](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555)</br></br>
+
+Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.com>.
 
 ## Benutzer registrieren {#registerauser}
 
