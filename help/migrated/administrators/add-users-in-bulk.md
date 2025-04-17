@@ -4,7 +4,7 @@ title: Gleichzeitiges Hinzufügen mehrerer Benutzer
 description: Erfahren Sie, wie Sie mehrere Benutzer gleichzeitig hinzufügen.
 contentowner: saghosh
 exl-id: c3309ce5-8764-452e-82d5-5637c23c661b
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: 96602899dd76eae14a6b7e1808d529756657e7b8
 workflow-type: tm+mt
 source-wordcount: '341'
 ht-degree: 23%
@@ -13,9 +13,9 @@ ht-degree: 23%
 
 # Gleichzeitiges Hinzufügen mehrerer Benutzer
 
-In dieser Schulung erfahren Sie, wie Sie mehrere Benutzer gleichzeitig über eine CSV-Datei hinzufügen.
-
-[![Schaltfläche](feature-summary/assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555)
+>[!INFO]
+>
+>In dieser Schulung erfahren Sie, wie Sie mehrere Benutzer gleichzeitig über eine CSV-Datei hinzufügen.<br><br>[![Schaltfläche](feature-summary/assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555)</br></br>
 
 Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.com>.
 
@@ -56,7 +56,7 @@ Bevor Sie die E-Mail-ID des Managers für einen Mitarbeiter hinzufügen, stellen
 
 *CSV-Vorlage für Upload*
 
-Außerdem können Administratoren eines Unternehmens sich selbst als Mitarbeiter hinzufügen und die E-Mail-ID ihres Managers als Stamm erwähnen.
+Außerdem können Administratoren eines Unternehmens **sich selbst** als Mitarbeiter hinzufügen und die E-Mail-ID ihres Managers als Stamm erwähnen.
 
 **Beispiel-CSV**
 
