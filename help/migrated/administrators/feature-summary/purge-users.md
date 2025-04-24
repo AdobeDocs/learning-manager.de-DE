@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Benutzer bereinigen
 contentowner: dvenkate
 exl-id: 4449146c-6247-44fb-b695-a12023c31dc6
-source-git-commit: 890775dafffd3b9d717c39507490977f51f163d4
+source-git-commit: 4f2892f762440e87286e8895cedfd5bea51f726b
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 75%
+source-wordcount: '883'
+ht-degree: 72%
 
 ---
 
@@ -60,6 +60,10 @@ Führen Sie die folgenden Schritte aus, um Benutzer zu bereinigen:
    *Bestätigungsmeldung nach Bereinigung eines Benutzers*
 
 1. Sobald Sie bestätigen und auf „Bereinigen“ klicken, wird die Bereinigungsanforderung akzeptiert. Sie erhalten eine Benachrichtigung, sobald die Aktion abgeschlossen ist. Eine Bereinigungsanforderungs-ID wird ebenfalls angegeben. Sie können diese ID an den CSM senden, um die Anfrage zu verfolgen.
+
+>[!NOTE]
+>
+>Sobald der gelöschte Benutzer wieder zum System hinzugefügt wurde, werden die vorherigen Rollen (z. B. Admin, Manager, Autor, Kursleiter usw.) nicht beibehalten. Sie werden mit der Teilnehmerrolle hinzugefügt.
 
 ## Massenbereinigung von Benutzern
 

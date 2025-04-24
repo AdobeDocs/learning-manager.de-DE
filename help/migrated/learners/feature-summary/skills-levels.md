@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Kenntnisse und Stufen
 contentowner: manochan
 exl-id: 3172e988-3dc5-484c-8869-7a8d9950b79b
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 4f2892f762440e87286e8895cedfd5bea51f726b
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 90%
+source-wordcount: '326'
+ht-degree: 86%
 
 ---
 
@@ -38,6 +38,10 @@ Von dieser Seite aus können Sie auf alle Kenntnisse klicken, um die entsprechen
 *Kenntnisse anzeigen*
 
 Nur Administratoren können Qualifikationen für Teilnehmer erstellen und zuweisen. Hinweis Nur Administratoren können Qualifikationen für Teilnehmer erstellen und zuweisen. Die Teilnehmer werden den Qualifikationen entsprechend den Kursen/Lernprogrammen, für die sie registriert sind, automatisch zugewiesen.
+
+>[!NOTE]
+>
+>Teilnehmer können ihre Peer-Level-Kenntnisse nur in einer klassischen Teilnehmer-App anzeigen.
 
 ## Qualifikationen erzielen {#achieveskill}
 

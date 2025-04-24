@@ -2,16 +2,16 @@
 title: Empfehlungen in Adobe Learning Manager
 description: Der Kern der Empfehlungs-Engine basiert auf dem neuen Kurs-Ranking-Algorithmus von Learning Manager. Der Algorithmus verwendet 50 Millionen Datenpunkte und fünf Jahre aggregierter Lerndaten über Millionen von Benutzern, um Kurse basierend auf ihrer Wahrscheinlichkeit einer Registrierung zu bewerten. Diese Einstufung stellt sicher, dass die Kurse mit den meisten Registrierungen den Teilnehmenden als erste angezeigt werden.
 exl-id: 42083095-60a0-4e20-9097-3344d290da1a
-source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
+source-git-commit: 4f2892f762440e87286e8895cedfd5bea51f726b
 workflow-type: tm+mt
-source-wordcount: '1470'
-ht-degree: 58%
+source-wordcount: '1483'
+ht-degree: 57%
 
 ---
 
 # Empfehlungen in Adobe Learning Manager
 
-Adobe Learning Manager hat ein neues und überarbeitetes Empfehlungssystem für Kurse eingeführt. Diese Empfehlungsfunktion nutzt KI-Algorithmen und Nutzerinteressen wie Produkte, Rollen und Stufen, um personalisierte Inhaltsempfehlungen bereitzustellen.
+Adobe Learning Manager hat ein neues und überarbeitetes Empfehlungssystem für Kurse eingeführt. Diese Empfehlungsfunktion nutzt KI-Algorithmen und Nutzerinteressen wie Produkte, Rollen und Stufen, um personalisierte Inhaltsempfehlungen bereitzustellen. Administratoren können ihr Konto anhand der Produkte, Rollen und Stufen einrichten.
 
 Mit dem neuen Empfehlungssystem können Sie benutzerdefinierte Parameter erstellen, die die Teilnehmenden auswählen können, um personalisierte Empfehlungen zu erhalten. Diese Empfehlungen werden den Teilnehmenden im Feed ihrer Homepage als Kurse, Lernpfade und Zertifizierungen angezeigt.
 
