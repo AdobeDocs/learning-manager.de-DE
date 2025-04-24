@@ -2,10 +2,10 @@
 user-guide-title: Leitfaden für Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Dokumentation für Adobe Learning Manager
-source-git-commit: 5676ddb238309bc643394af1dde3cba7f8ac6699
+source-git-commit: dd6143bc9c9a2bd564ae0925f5103073325c5d8a
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 85%
+source-wordcount: '652'
+ht-degree: 84%
 
 ---
 
@@ -160,6 +160,7 @@ ht-degree: 85%
    * [Häufig gestellte Fragen für Manager](managers/frequently-asked-questions-for-managers.md)
    * [Häufig gestellte Fragen für Teilnehmer](learners/frequently-asked-questions-for-learners.md)
    * [Ankündigungen zur neuen Experience League.](/help/migrated/new-experience-league-announcement.md)
+   * [So senden Sie ein Support-Ticket auf dem Experience League](/help/migrated/how-to-submit-support-ticket.md)
 * Wissensdatenbank {#knowledge-base}
    * [Ich kann mich nicht bei Learning Manager anmelden](kb/unable-log-in-learning-manager.md)
    * [Übersicht zu Lernprogrammen zeigt keine aktuellen Daten an](kb/learning-summary-not-display-data.md)
