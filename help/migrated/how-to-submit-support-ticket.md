@@ -16,7 +16,7 @@ Das Verfahren zum Einreichen von Adobe Learning Manager-Support-Tickets ist jetz
 
 Bitte beachten Sie, dass das Einreichen eines Support-Tickets nur für autorisierte Support-Kontakte verfügbar ist. Senden Sie für Ihre Supportanfragen bis zum 11. Mai 2025 Ihre Supporttickets weiterhin per E-Mail an Adobe Learning Manager. Nach diesem Datum können Sie Ihre Support-Tickets zusätzlich zum bestehenden E-Mail-Kanal über das Experience League-Support-Portal wie unten beschrieben einreichen.
 
-1. Um auf das Supportportal zuzugreifen, besuchen Sie die Website **[!UICONTROL Experience League]** und wählen Sie die Registerkarte **[!UICONTROL Support]** oben auf der Seite aus. Alternativ können Sie den [direkten Link](https://experienceleague.adobe.com/home#support) aufrufen.
+1. Um auf das Supportportal zuzugreifen, besuchen Sie die Website **[!UICONTROL Experience League]** und wählen Sie die Registerkarte **[!UICONTROL Support]** oben auf der Seite aus. Alternativ können Sie den [direkten Link](https://experienceleague.adobe.com/home?lang=de#support) aufrufen.
 
    ![](assets/support.png)
    _Support-Homepage_
