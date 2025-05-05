@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Berichte
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: 5676ddb238309bc643394af1dde3cba7f8ac6699
+source-git-commit: f6bc1fa9384fc728f6abca7bb0fd9f62bb1f9e04
 workflow-type: tm+mt
-source-wordcount: '7828'
-ht-degree: 53%
+source-wordcount: '7809'
+ht-degree: 52%
 
 ---
 
@@ -418,10 +418,6 @@ Die folgenden Berichtstypen können heruntergeladen werden.
 * Anmelde-/Zugriffsbericht
 * Gamification-Transkripte
 * Gamification-Prüfpfad
-
-### Teilnehmertranskripte {#learnertranscripts}
-
-In den Teilnehmertranskripten in Excel-Berichten werden die Spalten „Benötigte Credits“ und „Verdiente Credits“ in Dezimalzahlen angezeigt. 
 
 ### Kursberichte {#coursereports}
 

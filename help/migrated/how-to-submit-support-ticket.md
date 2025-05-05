@@ -2,9 +2,10 @@
 jcr-language: en_us
 title: Wie Sie ein Support-Ticket in der Experience League einreichen
 description: Erfahren Sie, wie Sie eine Supportanfrage auf dem Experience League einreichen.
-source-git-commit: 8a7273fae5cccc8d8ff16de2956e2dbcc0045ea7
+exl-id: ff216f75-3441-4194-b254-0bf6c9fda518
+source-git-commit: b69859161476a5ba56baa5b4447aec759c1a7736
 workflow-type: tm+mt
-source-wordcount: '594'
+source-wordcount: '621'
 ht-degree: 0%
 
 ---
@@ -13,7 +14,7 @@ ht-degree: 0%
 
 Das Verfahren zum Einreichen von Adobe Learning Manager-Support-Tickets ist jetzt direkt in die Experience League-Support-Plattform integriert. Es handelt sich um ein Self-Service-Portal, das kürzlich umgestaltet wurde, um berechtigten Kunden mehr Personalisierung und Benutzerfreundlichkeit zu bieten. In diesem Leitfaden unten finden Sie weitere Informationen zum Zugriff auf das Experience League-Supportportal und zum Erstellen eines Tickets.
 
-Bitte beachten Sie, dass das Einreichen eines Support-Tickets nur für autorisierte Support-Kontakte verfügbar ist. Senden Sie für Ihre Support-Anfragen Ihre Support-Tickets noch bis zum 11. Mai 2025 an Adobe Learning Manager. Nach diesem Termin können Sie Ihre Support-Tickets wie unten beschrieben über das Experience League-Support-Portal einreichen.
+Bitte beachten Sie, dass das Einreichen eines Support-Tickets nur für autorisierte Support-Kontakte verfügbar ist. Senden Sie für Ihre Supportanfragen bis zum 11. Mai 2025 Ihre Supporttickets weiterhin per E-Mail an Adobe Learning Manager. Nach diesem Datum können Sie Ihre Support-Tickets zusätzlich zum bestehenden E-Mail-Kanal über das Experience League-Support-Portal wie unten beschrieben einreichen.
 
 1. Um auf das Supportportal zuzugreifen, besuchen Sie die Website **[!UICONTROL Experience League]** und wählen Sie die Registerkarte **[!UICONTROL Support]** oben auf der Seite aus. Alternativ können Sie den [direkten Link](https://experienceleague.adobe.com/home#support) aufrufen.
 
@@ -57,3 +58,4 @@ Damit unser Support-Führungsteam Ihre Eskalationen so effizient wie möglich an
 
 Wenn Sie weitere Fragen zur Verwendung des Portals **[!UICONTROL Experience League Support]** haben, teilen Sie uns dies bitte im Kommentarbereich unten mit oder wenden Sie sich direkt an unser Supportteam unter dieser E-Mail-Adresse [almdynsupp@adobe.com](mailto:almdynsupp@adobe.com).
 
+Um einen autorisierten Ansprechpartner hinzuzufügen, der Support-Tickets über Experience League (EXL) öffnen kann, besuchen Sie [http://licensing.adobe.com](http://licensing.adobe.com).
