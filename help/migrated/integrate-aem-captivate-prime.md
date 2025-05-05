@@ -34,7 +34,7 @@ Installieren Sie das Learning Manager-Inhaltspaket mit dem AEM Package Manager:
 
 >[!NOTE]
 >
->Informationen zum Installieren von Paketen finden Sie unter [***Arbeiten mit Paketen***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages).
+>Informationen zum Installieren von Paketen finden Sie unter [***Arbeiten mit Paketen***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=de#how-to-work-with-packages).
 
 1. Öffnen Sie als AEM-Autor den AEM Package Manager.
 

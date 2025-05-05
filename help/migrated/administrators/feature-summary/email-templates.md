@@ -72,7 +72,7 @@ Sie als Administrator können diese E-Mail-Vorlagen einfach aktivieren, deaktivi
 1. Um die Seite „Einstellungen“ zu öffnen, klicken Sie auf **[!UICONTROL Einstellungen]**. Sie können jetzt Ihre E-Mail-Vorlagen Ihren Erfordernissen anpassen.
 1. Um den Namen und die E-Mail-ID anzupassen, von denen die Teilnehmer E-Mails erhalten, bearbeiten Sie **[!UICONTROL Name und Adresse des Absenders].**
 
-   Wenden Sie sich an den [***Adobe-Support***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager), um diese Informationen zu konfigurieren oder zu ändern.
+   Wenden Sie sich an den [***Adobe-Support***](https://helpx.adobe.com/de/contact/enterprise-support.other.html#learning-manager), um diese Informationen zu konfigurieren oder zu ändern.
 
 1. Passen Sie Ihr E-Mail-Banner von der Option **[!UICONTROL E-Mail-Banner]** an. Ändern Sie die Farbe des Banners, indem Sie **[!UICONTROL Bannerhintergrund]** auswählen.
 
@@ -160,7 +160,7 @@ Sie können den E-Mail-Zugriffsbericht herunterladen, indem Sie auf die Schaltfl
 
 ## E-Mail-Domäne anpassen {#customizeemaildomain}
 
-Um die E-Mail-Domäne und die E-Mail-ID anzupassen, von denen die Teilnehmer Benachrichtigungen erhalten, wenden Sie sich an den [***Learning Manager-Support***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager), und stellen Sie die Details der Domäne, die Sie hinzufügen möchten, und Ihre neue E-Mail-ID bereit.
+Um die E-Mail-Domäne und die E-Mail-ID anzupassen, von denen die Teilnehmer Benachrichtigungen erhalten, wenden Sie sich an den [***Learning Manager-Support***](https://helpx.adobe.com/de/contact/enterprise-support.other.html#learning-manager), und stellen Sie die Details der Domäne, die Sie hinzufügen möchten, und Ihre neue E-Mail-ID bereit.
 
 Ihre Anforderung wird bearbeitet und eine E-Mail mit Bestätigungs-Link wird an Sie unter der neuen E-Mail-Adresse gesendet. Klicken Sie auf den Bestätigungslink in der E-Mail, um den Überprüfungsprozess zu bestätigen und abzuschließen.
 
@@ -257,6 +257,6 @@ Um die E-Mail-Vorlage zu deaktivieren, wählen Sie die Vorlage aus, die deaktivi
 
 +++Wie ändere ich den Absendernamen und die Absenderadresse in der Vorlage?
 
-Wenden Sie sich an den [Adobe Learning Manager-Support](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager), um den Absendernamen und die E-Mail-Adresse zu ändern.
+Wenden Sie sich an den [Adobe Learning Manager-Support](https://helpx.adobe.com/de/contact/enterprise-support.other.html#learning-manager), um den Absendernamen und die E-Mail-Adresse zu ändern.
 
 +++

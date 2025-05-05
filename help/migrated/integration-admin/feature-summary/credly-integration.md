@@ -45,11 +45,11 @@ Mit der Datei &quot;badge.csv&quot; in Adobe Learning Manager können Sie Abzeic
 * externalBadgeId
 * externalBadgeProvider
 
-Die ID des externen Abzeichens bezieht sich auf die ID der Abzeichenvorlage in der Credly-Plattform, und der externe Abzeichenanbieter ist Credly. Fügen Sie diese Werte in badge.csv hinzu und führen Sie die im [Migrationshandbuch](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual#migrationprocedure) genannten Schritte aus, um die CSV-Datei zu migrieren.
+Die ID des externen Abzeichens bezieht sich auf die ID der Abzeichenvorlage in der Credly-Plattform, und der externe Abzeichenanbieter ist Credly. Fügen Sie diese Werte in badge.csv hinzu und führen Sie die im [Migrationshandbuch](https://experienceleague.adobe.com/de/docs/learning-manager/using/integration/migration-manual#migrationprocedure) genannten Schritte aus, um die CSV-Datei zu migrieren.
 
 ## Kenntnisse erstellen - Administrator
 
-Sobald das Abzeichen in Adobe Learning Manager importiert wurde, kann der Administrator dieses Abzeichen als Kenntnisse erstellen. Weitere Informationen zum Erstellen von Kenntnissen finden Sie unter [Kenntnisse erstellen und ändern](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/skills-levels).
+Sobald das Abzeichen in Adobe Learning Manager importiert wurde, kann der Administrator dieses Abzeichen als Kenntnisse erstellen. Weitere Informationen zum Erstellen von Kenntnissen finden Sie unter [Kenntnisse erstellen und ändern](https://experienceleague.adobe.com/de/docs/learning-manager/using/admin/skills-levels).
 
 ### Weisen Sie die Kenntnisse/das Abzeichen dem Lernobjekt zu - Autor
 
