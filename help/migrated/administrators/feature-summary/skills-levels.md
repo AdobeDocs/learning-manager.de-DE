@@ -163,7 +163,7 @@ Nachdem Sie die Änderungen vorgenommen haben, klicken Sie auf **[!UICONTROL Spe
 
 ## Kenntnisse einstellen {#retireaskill}
 
-Um Kenntnisse zu beenden, wählen Sie auf der Seite **[!UICONTROL  Kenntnisse]** die Kenntnisse aus, die Sie beenden möchten.
+Um Kenntnisse zu beenden, wählen Sie auf der Seite **[!UICONTROL Kenntnisse]** die Kenntnisse aus, die Sie beenden möchten.
 
 Klicken Sie in der rechten oberen Ecke des Menüs **[!UICONTROL Aktionen]** auf **[!UICONTROL Einstellen]**.
 

@@ -111,9 +111,9 @@ Dieses Dokument enthält grundlegende Tipps zur Fehlerbehebung, um einige häufi
 
 ### Windows {#Windows-1}
 
-1. Drücken Sie **Windows-Taste + R**, um das Dialogfeld &quot;Ausführen&quot; zu öffnen.****
-1. Geben Sie &quot;**%APPDATA%\\..\\Local\\Adobe\\Learning Manager 1.0**&quot; (ohne Anführungszeichen) und drücken Sie die Eingabetaste.****
-1. Erstellen Sie eine Sicherungskopie der Datei &quot;**preferences.json**&quot; und öffnen Sie sie in einem Texteditor.****
+1. Drücken Sie **Windows-Taste + R**, um das Dialogfeld &quot;Ausführen&quot; zu öffnen.**&#x200B;**
+1. Geben Sie &quot;**%APPDATA%\\..\\Local\\Adobe\\Learning Manager 1.0**&quot; (ohne Anführungszeichen) und drücken Sie die Eingabetaste.**&#x200B;**
+1. Erstellen Sie eine Sicherungskopie der Datei &quot;**preferences.json**&quot; und öffnen Sie sie in einem Texteditor.**&#x200B;**
 1. Suchen Sie nach dem Schlüssel **debugMode**, und ändern Sie die Werteigenschaft dieses Schlüssels in &quot;**true**&quot; (ohne Anführungszeichen).
 
 ### Mac OS X {#MacOSX-2}

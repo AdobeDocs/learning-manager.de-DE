@@ -232,7 +232,7 @@ Folgen Sie den nachstehenden Schritten, um den Teamabschluss in % für Kenntniss
 
    *Wählen Sie den Hyperlink &quot;Konfigurieren&quot; aus*
 
-1. Geben Sie im Popup-Dialogfeld &quot;Konfigurieren&quot; für die Kenntnisse, die Sie konfigurieren möchten, einen Prozentwert in das Feld **Zielabschluss %** und das Datum ein, bis zu dem Sie den Zielabschluss % im Feld **Zieldatum** erreichen möchten.****
+1. Geben Sie im Popup-Dialogfeld &quot;Konfigurieren&quot; für die Kenntnisse, die Sie konfigurieren möchten, einen Prozentwert in das Feld **Zielabschluss %** und das Datum ein, bis zu dem Sie den Zielabschluss % im Feld **Zieldatum** erreichen möchten.**&#x200B;**
 
    ![](assets/configure-tracker.png)
 

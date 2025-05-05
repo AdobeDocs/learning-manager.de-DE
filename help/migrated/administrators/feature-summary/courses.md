@@ -547,7 +547,7 @@ Führen Sie die folgenden Schritte aus, um Abschlusskommentare hinzuzufügen:
 2. Gehen Sie zur Seite **[!UICONTROL Kurse]** und wählen Sie einen Kurs aus.
 3. Wählen Sie auf der Kursseite **[!UICONTROL Teilnehmer]** aus.
 4. Wählen Sie den einzelnen Teilnehmer oder mehrere Teilnehmer aus.
-5. Wählen Sie **[!UICONTROL Aktionen]** aus und wählen Sie dann **[!UICONTROL  Als abgeschlossen markieren]**.
+5. Wählen Sie **[!UICONTROL Aktionen]** aus und wählen Sie dann **[!UICONTROL &#x200B; Als abgeschlossen markieren]**.
 6. Geben Sie den Abschlusskommentar in das Dialogfeld ein.
 
    ![](assets/comments.png)

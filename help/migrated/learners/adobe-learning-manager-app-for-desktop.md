@@ -197,7 +197,7 @@ Um eine Datei aus der Galerie zu bearbeiten oder zu löschen, klicken Sie auf di
 
 Benachrichtigungen in Learning Manager werden im Benachrichtigungsfenster angezeigt, unabhängig davon, ob die Teilnehmenden bei der Learning Manager-Webanwendung angemeldet sind. Benachrichtigungen umfassen Beiträge oder Foren, die von Benutzern erstellt wurden oder denen sie folgen oder an denen sie teilgenommen haben. Durch Klicken auf die Benachrichtigung werden die Benutzenden zum Soziales Lernen-Web von Learning Manager weitergeleitet.
 
-Um Benachrichtigungen stummzuschalten, klicken Sie auf das **[!UICONTROL Profilmenü*]* > **[!UICONTROL Einstellungen] > **[!UICONTROL Benachrichtigungen stummschalten]**.
+Um Benachrichtigungen stummzuschalten, klicken Sie auf das **[!UICONTROL Profilmenü*]* > &#x200B;** [!UICONTROL Einstellungen] > **[!UICONTROL Benachrichtigungen stummschalten]**.
 
 ## Einstellungen in der Adobe Learning Manager-Desktop-Anwendung {#settingsinadobecaptivateprimedesktopapplication}
 

@@ -99,7 +99,7 @@ Der Inhalt wird auf jeder dieser Registerkarten angezeigt, wenn er bereits im Ko
 
 ## Massenentfernung von Kursen, Lernpfaden oder Arbeitshilfen
 
-Administratoren oder benutzerdefinierte Administratoren können Kurse, Lernpfade oder Arbeitshilfen gesammelt entfernen. Gehen Sie zu **[!UICONTROL Kataloge]** und wählen Sie einen Katalog aus. Wählen Sie auf der **[!UICONTROL Seite Inhalt]** die Option Inhalt ]**bearbeiten aus**[!UICONTROL . Wählen Sie dann die **[!UICONTROL Option Entfernen]** neben den Kursen, Lernpfaden oder Arbeitshilfen aus und wählen Sie Speichern ]**aus**[!UICONTROL .
+Administratoren oder benutzerdefinierte Administratoren können Kurse, Lernpfade oder Arbeitshilfen gesammelt entfernen. Gehen Sie zu **[!UICONTROL Kataloge]** und wählen Sie einen Katalog aus. Wählen Sie auf der **[!UICONTROL Seite Inhalt]** die Option Inhalt **bearbeiten aus**&#x200B;[!UICONTROL . Wählen Sie dann die **[!UICONTROL Option Entfernen]** neben den Kursen, Lernpfaden oder Arbeitshilfen aus und wählen Sie Speichern &#x200B;]&#x200B;**aus**.
 
 ## Deep-Link zum Katalog für Teilnehmer {#deep-link}
 
@@ -173,7 +173,7 @@ Klicken Sie auf der Seite „Kataloge“ auf den Katalog, den Sie freigeben möc
 
 *Einen Katalog extern freigeben*
 
-Geben Sie die Subdomäne ein, die mit Ihrem Learning Manager-Konto verknüpft ist. Klicken Sie auf **[!UICONTROL Wie erhalte ich eine Subdomäne?]** , um mehr über die Verwendung von Subdomains zu erfahren. Sie können auch auf der Administrator-Startseite im linken Fensterbereich auf Branding ]**klicken**[!UICONTROL , um die Unterdomäne anzuzeigen, die Ihrem Organisationskonto zugeordnet ist.
+Geben Sie die Subdomäne ein, die mit Ihrem Learning Manager-Konto verknüpft ist. Klicken Sie auf **[!UICONTROL Wie erhalte ich eine Subdomäne?]** , um mehr über die Verwendung von Subdomains zu erfahren. Sie können auch auf der Administrator-Startseite im linken Fensterbereich auf Branding **klicken**, um die Unterdomäne anzuzeigen, die Ihrem Organisationskonto zugeordnet ist.
 
 **Einschränkungen für die Registrierung** 
 

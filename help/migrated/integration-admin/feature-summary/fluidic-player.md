@@ -19,7 +19,7 @@ In diesem Artikel finden Sie Informationen zum Integrieren des Fluidic Players i
 
 Als Unternehmen können Sie jetzt eine benutzerdefinierte Umgebung außerhalb von Learning Manager für Ihre Teilnehmenden bereitstellen. Mit der öffentlichen API können Sie alle Informationen zu Lernobjekten, Teilnehmerregistrierungen und Lernfortschritt abrufen und auf Ihrer Website anzeigen. Darüber hinaus können Sie sogar den Fluidic Player von Learning Manager in Ihre Website einbetten, sodass der Teilnehmer den Inhalt direkt auf Ihrer Website nutzen kann. Der Fluidic Player gibt Ihnen die Möglichkeit, alle Inhalte abzuspielen, die Learning Manager unterstützt. Wenn es auf Ihrer eigenen Website eingebettet ist, verfügt es über genau die gleichen Funktionen wie bei Verwendung in Learning Manager.
 
-**Beliebigen eLearning-Inhalt abspielen[](../../learners/feature-summary/fluidic-player.md#main-pars_text_779047019)**
+**Beliebigen eLearning-Inhalt abspielen[&#128279;](../../learners/feature-summary/fluidic-player.md#main-pars_text_779047019)**
 
 Der Fluidic Player spielt praktisch jede Art von eLearning-Inhalten auf dieselbe konsistente und intuitive Art und Weise ab, ohne dass Plug-ins oder Downloads erforderlich sind. Der Teilnehmer kann den Inhalt starten und dieser wird unabhängig vom Dateityp abgespielt.
 
@@ -31,7 +31,7 @@ Weitere Informationen zum Fluidic Player finden Sie unter [Fluidic Player](../..
 
 Im Folgenden finden Sie einige Beispiele für die Verwendung des integrierbaren Fluidic Players.
 
-* Sie können den integrierbaren Fluidic Player auf Ihrer ** **-Website verwenden, um die Kurse aufzulisten, für die Ihr Mitarbeiter registriert ist, und einen Link zum Starten einer Schulung auf derselben Seite bereitzustellen. Dies würde bedeuten, dass Ihre Teilnehmer Schulungen auf Ihrer Intranet-Website absolvieren können.
+* Sie können den integrierbaren Fluidic Player auf Ihrer **&#x200B; **-Website verwenden, um die Kurse aufzulisten, für die Ihr Mitarbeiter registriert ist, und einen Link zum Starten einer Schulung auf derselben Seite bereitzustellen. Dies würde bedeuten, dass Ihre Teilnehmer Schulungen auf Ihrer Intranet-Website absolvieren können.
 
 * Wenn Sie im Bildungsbereich tätig sind, betreiben Sie vielleicht eine Website, auf der Ihre Kunden Kurse kaufen. Sie können den integrierbaren Player auf derselben Website integrieren, sodass Ihre Kunden den Inhalt, den sie kaufen, auf Ihrer Website nutzen können.
 
@@ -78,7 +78,7 @@ client_id= <application_id>
 Hier ist **[!UICONTROL Client-ID]** die in Schritt 1 erhaltene Anwendungs-ID.
 **[!UICONTROL redirect_url]** ist die in Schritt 1 festgelegte Umleitungs-URL.
 **[!UICONTROL state]** sind beliebige Dummy-Daten, auf deren Grundlage wir die Umleitungs-URL filtern müssen, um den OAuth-Code abzurufen. Der Umfang ist der Teilnehmerbereich, der in Schritt 1 festgelegt wurde.
-**[!UICONTROL response_type]**e ist immer &quot;CODE&quot;.\
+**[!UICONTROL response_type]**&#x200B;e ist immer &quot;CODE&quot;.\
 **[!UICONTROL account]** ist ein optionales Feld.\
 **[!UICONTROL email]** ist ein optionales Feld.\
 &#42; Wenn sowohl die Konto-ID als auch die E-Mail-Adresse angegeben werden, kann sich der Benutzer über die obige URL bei demselben Konto anmelden. Dieses Endpunktbeispiel wird in der Datei &quot;index.html&quot; in der Beispielanwendung dargestellt.

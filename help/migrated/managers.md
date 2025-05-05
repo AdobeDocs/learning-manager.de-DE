@@ -35,5 +35,5 @@ ht-degree: 91%
 * [Berichte](managers/feature-summary/reports.md)
 * [Einstellungen](managers/feature-summary/settings.md)
 * [Anmeldung für Benutzer](managers/feature-summary/user-login.md)
-* [Benutzerbenachrichtigungen](managers/feature-summary/user-notifications.md) [](managers/feature-summary/settings.md)
+* [Benutzerbenachrichtigungen](managers/feature-summary/user-notifications.md) [&#128279;](managers/feature-summary/settings.md)
 * [Lernobjekte](managers/feature-summary/learning-objects.md)

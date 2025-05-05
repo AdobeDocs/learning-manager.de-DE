@@ -76,7 +76,7 @@ Dieses Problem tritt auf, wenn ein Benutzer im System bereits mit derselben E-Ma
 In diesem Szenario gibt es zwei Ursachen für diesen Fehler:
 
 1. Der Benutzer, den Sie hinzufügen möchten, ist ein Manager eines externen Profils. Um dieses Problem zu beheben, öffnen Sie das externe Profil, zu dem der Benutzer gehört, wählen Sie den Benutzer aus, klicken Sie auf **[!UICONTROL Aktionen]** > **[!UICONTROL Rolle zuweisen]** > **[!UICONTROL Manager]** und ändern Sie den Manager des Profils.
-1. Der Benutzer, den Sie hinzufügen möchten, wurde gelöscht. In diesem Szenario können Sie den Benutzer erst dann mit derselben E-Mail-Adresse hinzufügen, wenn der Bereinigungsvorgang abgeschlossen ist. Fügen Sie den Benutzer als ** mit ** sekundären E-Mail-Adresse hinzu, um Zugriff auf die Plattform zu gewähren. Sobald der Bereinigungsprozess abgeschlossen ist, bearbeiten Sie den Benutzer und ändern Sie die E-Mail-Adresse in die richtige E-Mail-Adresse.
+1. Der Benutzer, den Sie hinzufügen möchten, wurde gelöscht. In diesem Szenario können Sie den Benutzer erst dann mit derselben E-Mail-Adresse hinzufügen, wenn der Bereinigungsvorgang abgeschlossen ist. Fügen Sie den Benutzer als **&#x200B; mit &#x200B;** sekundären E-Mail-Adresse hinzu, um Zugriff auf die Plattform zu gewähren. Sobald der Bereinigungsprozess abgeschlossen ist, bearbeiten Sie den Benutzer und ändern Sie die E-Mail-Adresse in die richtige E-Mail-Adresse.
 
 ### Szenario 2
 
