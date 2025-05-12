@@ -2,7 +2,7 @@
 description: Erfahren Sie mehr über die neuen Funktionen und Verbesserungen in der Version Mai 2025 von Adobe Learning Manager
 jcr-language: en_us
 title: Zusammenfassung der neuen Funktionen
-source-git-commit: edaba3e99241b6a6d138e78af51a4eb2a3aa4784
+source-git-commit: c411b472f6389b2d45779c3821694de2fd46822a
 workflow-type: tm+mt
 source-wordcount: '2481'
 ht-degree: 0%
@@ -77,6 +77,7 @@ In diesem [Artikel](/help/migrated/administrators/feature-summary/content-market
 ## Bericht über den Anmeldezugriff auf FTP, benutzerdefiniertes FTP und Box {#log-in-access-report}
 
 Die Berichte zum Anmeldezugriff sind jetzt zusätzlich zu den vorhandenen Job-APIs auch für Box-, FTP- und benutzerdefinierte FTP-Connectors verfügbar. Dieser Bericht enthält detaillierte Informationen zu Benutzeranmeldeaktivitäten, einschließlich Ausführungsstatus, Komprimierungseinstellungen und Planungsoptionen. Der Bericht kann bei Bedarf oder nach Zeitplan erstellt werden, und die Daten werden im angegebenen Connector gespeichert, um den Zugriff und die Analyse zu vereinfachen. Diese Verbesserung verbessert die Möglichkeit, Benutzeranmeldeaktivitäten zu überwachen und zu überwachen, und stellt eine bessere Sicherheit und Compliance-Verfolgung sicher.
+
 Der Bericht ist jetzt im benutzerdefinierten FTP, FTP und Box zusammen mit vorhandenen Berichten wie Teilnehmerfortschritt und Kursabschluss verfügbar. Diese Integration ermöglicht Administratoren den Zugriff auf alle erforderlichen Berichte aus einer einzigen Quelle und erleichtert so eine bessere Datenverwaltung und -analyse.
 
 Der Bericht hilft bei der Automatisierung, indem er den Export von Anmelde- und Zugriffsdaten auf das FTP ermöglicht, wo sie mit anderen Berichten verknüpft werden können, um umfassende Dashboards zu erstellen. Diese Funktion ist besonders für Organisationen nützlich, die automatisierte Prozesse für die Datenanalyse und das Reporting nutzen.
@@ -108,7 +109,7 @@ Weitere Informationen finden Sie in diesem [Artikel](/help/migrated/administrato
 
 Adobe Learning Manager unterstützt jetzt auch die Auswahl von Seminarräumen aus Adobe Connect beim Einrichten einer VC-Sitzung in Connect. Zuvor konnte der Administrator nur den Meetingraumtyp auswählen. Diese Erweiterung ermöglicht es Administratoren mit einer gültigen Seminarlizenz, einmalige oder große Veranstaltungen (bis zu 1.500 Teilnehmer) in Adobe Learning Manager zu planen und zu verwalten.
 
-Weitere Informationen zum Seminarraum finden Sie in diesem [Artikel](https://helpx.adobe.com/de/adobe-connect/using/creating-seminars.html).
+Weitere Informationen zum Seminarraum finden Sie in diesem [Artikel](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html).
 
 ### Unterstützung für den Zugriff auf Sitzungsanalysen
 
