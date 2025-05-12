@@ -2,9 +2,10 @@
 jcr-language: en_us
 title: Dashboard für den Gruppenerfolg
 description: Weitere Informationen zum Group Success Dashboard in Adobe Learning Manager
-source-git-commit: 1d449826b8f89aa9fd522d19bc129780e68c05e6
+exl-id: 2cfd0511-d77d-4e97-81e6-6caa8483cc64
+source-git-commit: 6880c5232ca20498d6fac517c4f0f786dfb8f6d5
 workflow-type: tm+mt
-source-wordcount: '1055'
+source-wordcount: '1056'
 ht-degree: 0%
 
 ---
@@ -149,6 +150,8 @@ Wenn Sie mehr als eine Benutzergruppe auswählen, verwendet Adobe Learning Manag
 
 * **Benutzergruppen mit demselben aktiven Feld**: Wenn die Benutzergruppen dasselbe Feld verwenden (z. B. Speicherort), enthält das System alle Teilnehmer aus beiden Gruppen. Es kombiniert die Werte. Beispiel: **Location = Bangalore** und **Location = Chennai**. Es enthält Teilnehmer aus beiden Standorten.
 * **Benutzergruppen mit unterschiedlichen aktiven Feldern**: Wenn die Benutzergruppen unterschiedliche Felder verwenden (z. B. Speicherort und Rolle), enthält das System nur Teilnehmer, die alle Bedingungen erfüllen. Beispiel: **Standort = Bangalore oder Chennai** und **Rolle = Manager**. Es umfasst nur Teilnehmer, die die Managerrolle haben und in Bangalore oder Chennai ansässig sind.
+
+**Zusammenfassung:**
 
 * Gleiches aktives Feld: Teilnehmer werden kombiniert (ODER-Logik)
 * Verschiedene aktive Felder: Teilnehmer müssen alle Kriterien erfüllen (UND-Logik)
