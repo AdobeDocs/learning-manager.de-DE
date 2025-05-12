@@ -228,7 +228,7 @@ Die Ordnerspalte verwendet den Datentyp string und es handelt sich um eine optio
 * Wenn Sie einen neuen Ordnernamen für ein Modul hinzufügen, das bereits in einem anderen Ordner vorhanden ist, wird der zugewiesene Ordner durch den neuen Wert nicht überschrieben oder ersetzt. Das Modul wird dem neuen Ordner hinzugefügt und bleibt auch im vorhandenen Ordner verfügbar.
 * Wenn der Wert leer ist, wird standardmäßig **[!UICONTROL Öffentlich]** als Ordner verwendet.
 
-Weitere Informationen finden Sie in der CSV-Spezifikation ](assets/4-module_version.xlsx) für [module_version.
+Weitere Informationen finden Sie in der CSV-Spezifikation [&#128279;](assets/4-module_version.xlsx) für module_version.
 
 ### Änderungen an der Modulmigration - Abschlusskriterien
 
@@ -258,7 +258,7 @@ Im Folgenden sind die Bedingungen für die neuen Spalten aufgeführt:
    * Der Datentyp muss ein Zeichenfolgenwert sein. Unterstützte Werte sind `QUIZ_ATTEMPTED`, `QUIZ_PASSED` und `QUIZPASSED_OR_LIMITREACHED`.
    * Wenn `completionCriteria` auf `QUIZ` festgelegt ist, geben Sie den entsprechenden Quizwert in die Spalte `quizData` ein.
 
-Weitere Informationen finden Sie in der CSV-Spezifikation ](assets/4-module_version.xlsx) für [module_version.
+Weitere Informationen finden Sie in der CSV-Spezifikation [&#128279;](assets/4-module_version.xlsx) für module_version.
 
 ### Änderungen an der Kursmigration - Abschlusskriterien
 
