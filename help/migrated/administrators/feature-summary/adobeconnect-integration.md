@@ -4,10 +4,10 @@ title: Adobe Connect-Integration
 description: Autoren können während der Erstellung von Kursen Kurse für das virtuelle Klassenzimmer über Adobe Connect erstellen. Um Adobe Connect für Ihr Learning Manager-Konto zu aktivieren, müssen Sie den Administrator Ihres Unternehmens kontaktieren.
 contentowner: jayakarr
 exl-id: 13458f93-9ea7-4aab-8b33-3c4f4dd5886d
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 857dddf46e3900fbe2db4e345da2d29050ef3c82
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 70%
+source-wordcount: '595'
+ht-degree: 49%
 
 ---
 
@@ -65,3 +65,29 @@ Sie müssen Adobe Connect unabhängig von Adobe Learning Manager separat erwerbe
 Wenn der Veranstalter des Kurses im virtuellen Klassenzimmer nicht an der Sitzung teilnimmt, wird die Anwesenheit der Teilnehmer, die an der Sitzung teilgenommen haben, nicht automatisch registriert. In solchen Fällen kann der Administrator die Anwesenheit manuell aufzeichnen.
 
 Klicken Sie auf den Kurs im virtuellen Klassenzimmer, klicken Sie im linken Teilfenster der folgenden Seite auf &quot;Anwesenheit&quot; und erfassen Sie die Anwesenheit.
+
+## Unterstützung für Adobe Connect-Seminare mit großem Publikum
+
+Adobe Learning Manager unterstützt die Auswahl von Seminarräumen aus Adobe Connect beim Einrichten einer virtuellen Klassenzimmersitzung in Connect. Zuvor konnte der Administrator nur den Meetingraumtyp auswählen. Diese Funktion ermöglicht es Administratoren mit einer gültigen Seminarlizenz, einmalige oder große Veranstaltungen (bis zu 1.500 Teilnehmer) in ALM zu planen und zu verwalten.
+
+Weitere Informationen zum Seminarraum finden Sie in diesem [Artikel](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html).
+
+### Unterstützung für den Zugriff auf Sitzungsanalysen
+
+Kursleiter können für abgeschlossene Adobe Connect-Sitzungen über einen neuen Link im Session-Dashboard auf Session Analytics zugreifen.
+
+![](assets/adobe-connect-session-url.png)
+_Sitzungs-URL auswählen_
+
+Dieser Link öffnet das Dashboard für die Sitzungsanalyse in Connect, das detaillierte Einblicke in die Sitzungsinteraktion bietet.
+Diese Funktion ist nur für Sitzungen verfügbar, die über Adobe Connect durchgeführt werden. Die Sitzungsanalyse umfasst:
+
+* **[!UICONTROL Engagement]**: Übersicht über die Gesamtleistung der Live-Sitzung
+* **[!UICONTROL Interaktionen]**: Detaillierte Aufschlüsselung der Teilnehmeraktivität auf verschiedene Pods
+* **[!UICONTROL Teilnehmeraktivität]**: Zusammenfassung der Teilnehmerinteraktion
+* **[!UICONTROL Berichte herunterladen]**: Option zum Herunterladen von Berichten für podspezifische Interaktionsdaten
+
+![](assets/session-dashboard.png)
+_Sitzungs-Dashboard_
+
+Weitere Informationen zur Sitzungsanalyse finden Sie in diesem [Artikel](https://helpx.adobe.com/in/adobe-connect/using/session-dashboard.html).

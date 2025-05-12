@@ -2,10 +2,10 @@
 user-guide-title: Leitfaden für Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Dokumentation für Adobe Learning Manager
-source-git-commit: dd6143bc9c9a2bd564ae0925f5103073325c5d8a
+source-git-commit: 7c06bc9f7b5c7c36dda06985b4327898ea776597
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 84%
+source-wordcount: '664'
+ht-degree: 82%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 84%
 * [Benutzerhandbuch für Learning Manager](user-guide.md)
 * Einführung {#introduction}
    * [Zusammenfassung der neuen Funktionen](/help/migrated/whats-new.md)
+   * [Überblick über die neuen Funktionen November 2024](/help/migrated/whats-new-nov-24.md)
    * [Überblick über die neuen Funktionen Juli 2024](whats-new-july-2024.md)
    * [Neue Funktionen März 2024](whats-new-march-2024.md)
    * [Neue Funktionen November 2023](whats-new-november-2023.md)
    * [Neue Funktionen Juli 2023](whats-new-2023-july.md)
-   * [Neue Funktionen April 2023](whats-new-2023-april.md)
    * [Versionshinweise](release-note/release-notes.md)
    * [Systemanforderungen](system-requirements.md)
    * [ALM-Referenzsite-Paket für AEM Sites](adobe-learning-manager-integration-aem.md)
@@ -39,12 +39,14 @@ ht-degree: 84%
    * [Erste Schritte für Manager](managers/feature-summary/getting-started-manager.md)
    * [Erste Schritte als Kursleiter in Learning Manager](instructors/feature-summary/getting-started.md)
 * Administrator {#admin}
+   * [Admin AI Assistant (Beta) in Adobe Learning Manager](/help/migrated/administrators/feature-summary/alm-ai-assistant.md)
    * [Benutzeranmeldung](administrators/feature-summary/user-login.md)
    * [Hinzufügen von Benutzern und Erstellen von Benutzergruppen](administrators/feature-summary/add-users-user-groups.md)
    * [Standorte für Klassenzimmer hinzufügen](administrators/feature-summary/classroom.md)
    * [Erstellen von Kursinstanzen und Lernpfaden](administrators/feature-summary/courses.md)
    * [Inhalts-Marketplace](administrators/feature-summary/content-marketplace.md)
    * [Berichte](administrators/feature-summary/reports.md)
+   * [Dashboard für den Gruppenerfolg](/help/migrated/administrators/feature-summary/group-success-dashboard.md)
    * [Lernpläne](administrators/feature-summary/learning-paths.md)
    * [Lernpläne](administrators/feature-summary/learning-plans.md)
    * [Verwalten von Learning Manager-Bestellungen und -Abrechnungen](administrators/feature-summary/billing-management.md)

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Erstellen von Kursinstanzen und Lernpfaden
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: 5676ddb238309bc643394af1dde3cba7f8ac6699
+source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
 workflow-type: tm+mt
-source-wordcount: '5153'
-ht-degree: 58%
+source-wordcount: '5674'
+ht-degree: 52%
 
 ---
 
@@ -238,6 +238,72 @@ Die Option ist vorhanden, wenn kein Teilnehmer für den vom Manager genehmigten 
 Der Bericht enthält Daten von aktiven, gelöschten und gesperrten Benutzern, wenn die Genehmigung aussteht. Der Bericht enthält auch Daten von internen und externen Benutzern mit dem Status &quot;Genehmigung ausstehend&quot;.
 
 Wenn ein Teilnehmer, der zuvor den Status „Genehmigung ausstehend“ aufwies, seine Registrierung löscht, wird sein Datensatz im Bericht nicht angezeigt. Wenn ein Teilnehmer, der zuvor den Status „Genehmigung ausstehend“ aufwies, von einem Administrator/Manager/benutzerdefinierten Administrator für den Kurs registriert wird, ist sein Datensatz im Bericht vorhanden.
+
+## Verwalten Sie die Registrierung, Anwesenheit und Abschluss von Teilnehmern gesammelt {#bulk-enrollment}
+
+Mit der Massenregistrierung von Adobe Learning Manager können Administratoren große Gruppen von Teilnehmern effizient für Kurse, Zertifizierungen oder Lernprogramme registrieren, indem sie eine CSV-Datei hochladen. Dieser Prozess spart Zeit, gewährleistet Konsistenz und unterstützt die Skalierbarkeit des Unternehmens. Darüber hinaus können Administratoren und Kursleiter die Teilnehmerinformationen, die Anwesenheit und den Abschluss in großen Mengen über CSV-Uploads aktualisieren, wodurch der manuelle Aufwand minimiert und die Datengenauigkeit gewährleistet wird.
+
+Sie können für Registrierung, Teilnahme und Abschluss dasselbe CSV-Dateiformat verwenden. Geben Sie einfach die E-Mail-IDs der Teilnehmer in der Spalte &quot;E-Mail&quot; ein und speichern Sie die Datei mit einem Namen, der auf der Aktion basiert, z. B. bulk_enrollment.csv, bulk_attendance.csv oder bulk_complete.csv. Es wird nur das CSV-Format unterstützt. UTF-8-Format wird nicht unterstützt. Laden Sie die Beispiel-CSV &quot;[&quot; hier herunter:](assets/Sample-Bulk-Action-CSV.csv).
+
+### Registrieren Sie Teilnehmer gesammelt mit einer CSV-Datei
+
+Anstatt Teilnehmer einzeln hinzuzufügen, können Administratoren bis zu 100.000 Benutzer gleichzeitig registrieren, indem sie eine CSV-Datei hochladen. Die Datei muss eine Spalte mit der Bezeichnung &quot;**userEmail**&quot; enthalten, in der die E-Mail-Adressen der zu registrierenden Teilnehmer angegeben sind.
+
+So registrieren Sie mehrere Teilnehmer mithilfe einer CSV-Datei:
+
+1. Melden Sie sich als Administrator an.
+2. Wählen Sie im Abschnitt **[!UICONTROL Kurse]** einen Kurs aus.
+3. Wählen Sie **[!UICONTROL Teilnehmer]** auf der Seite **[!UICONTROL Kursübersicht]** aus.
+4. Wählen Sie **[!UICONTROL Registrieren]** und anschließend **[!UICONTROL CSV hochladen]** aus.\
+   ![](assets/upload-a-csv-learners.png)
+   _Registrieren eines Teilnehmers mithilfe des CSV-Uploads_
+5. Laden Sie eine CSV-Datei hoch und wählen Sie **[!UICONTROL Fortfahren]**.
+
+Die CSV-Datei enthält eine Spalte mit der Bezeichnung &quot;Benutzer-E-Mail&quot;. Geben Sie die E-Mail-Adressen Ihrer Benutzer in diese Spalte ein.
+
+### Kursabschluss in großen Mengen markieren
+
+Administratoren können den Abschluss eines Kurses für viele Teilnehmer schnell auf einmal markieren, indem sie eine CSV-Datei mit ihren E-Mail-Adressen hochladen. Dies spart Zeit, verglichen mit der individuellen Aktualisierung der einzelnen Teilnehmer. In der Spalte &quot;userEmail&quot; der CSV-Datei wird angezeigt, welche Teilnehmer aktualisiert werden müssen. Sie können bis zu 10.000 Teilnehmer als abgeschlossen in einem Upload markieren.
+
+So markieren Sie den Massenabschluss:
+
+1. Wählen Sie im Abschnitt **[!UICONTROL Kurse]** einen Kurs aus.
+2. Wählen Sie **[!UICONTROL Teilnehmer]** auf der Seite **[!UICONTROL Kursübersicht]** aus.
+3. Wählen Sie **[!UICONTROL Aktionen]** und anschließend **[!UICONTROL Abschluss markieren]**.
+4. Wählen Sie **[!UICONTROL Stapel]** aus.
+5. Laden Sie eine CSV-Datei mit einer userEmail -Spalte hoch, in der die Teilnehmer aufgeführt sind, die den Kurs abgeschlossen haben.
+
+   ![](assets/bulk-completion.png)
+   _Massenfertigstellung mit CSV markieren_
+
+### Anwesenheit in großen Mengen markieren
+
+Administratoren können die Anwesenheit für viele Teilnehmer gleichzeitig markieren, indem sie eine Massenanwesenheit verwenden. Anstatt die Anwesenheit jedes Teilnehmers einzeln zu aktualisieren, können Administratoren eine CSV-Datei hochladen, die die E-Mail-Adressen der Teilnehmer enthält. Die Spalte &quot;userEmail&quot; in der CSV-Datei gibt an, welche Teilnehmer ihre Anwesenheit aufzeichnen sollen. Dieser Prozess kann bis zu 10.000 Teilnehmer in einem einzigen Upload verarbeiten, was die Anwesenheitsmarkierung schneller und effizienter macht.
+
+So markieren Sie die Anwesenheit in großen Mengen:
+
+1. Wählen Sie im Abschnitt **[!UICONTROL Kurse]** einen Kurs aus.
+2. Wählen Sie **[!UICONTROL Anwesenheit und Punktzahl]** auf der Seite **[!UICONTROL Kursübersicht]** aus.
+3. Wählen Sie **[!UICONTROL Aktionen]** aus, und wählen Sie dann **[!UICONTROL Massengutachten markieren]** aus.
+4. Laden Sie eine CSV-Datei hoch, die eine Benutzer-E-Mail-Spalte mit den E-Mail-Adressen der Teilnehmer enthält, deren Anwesenheit Sie aktualisieren möchten.
+
+   ![](assets/mark-bulk-attendance.png)
+   _Teilnahme mehrerer Teilnehmer über CSV vermerken_
+
+>[!NOTE]
+>
+>Sie können die Anwesenheit für bis zu 10.000 Benutzer gleichzeitig mithilfe von CSV markieren.
+
+### Häufige CSV-Upload-Fehler
+
+* Die E-Mail-Adresse des Teilnehmers in der CSV-Datei ist nicht im Adobe Learning Manager-Benutzerverzeichnis vorhanden.
+* Das Dateiformat ist falsch.
+* Die Datei enthält zusätzliche Spalten oder ungültige Daten.
+
+![](assets/error-bulk.png)
+_Fehlerbenachrichtigung_
+
+Sie können die CSV-Datei herunterladen und anzeigen, in der die Fehler mit fehlgeschlagenen Benutzern auf Zeilenebene aufgelistet werden, um eine einfache Identifizierung zu ermöglichen.
 
 ## Warteliste
 
@@ -516,7 +582,7 @@ Wählen Sie den Instanzentyp aus der Dropdownliste, um die Ergebnisse nach den I
 
 ## Standardinstanz
 
-Administratoren können auf der Seite **[!UICONTROL Standardinstanz]** Standardabzeichen, Gamification-Einstellungen und Erinnerungen festlegen. Um die Standardinstanzeinstellungen zu ändern, wählen Sie **[!UICONTROL Standardinstanz]** > **[!UICONTROL Bearbeiten]**.
+Administratoren können Standardabzeichen, Gamification-Einstellungen und Erinnerungen auf der Seite **[!UICONTROL Standardinstanz]** festlegen. Um die Standardinstanzeinstellungen zu ändern, wählen Sie **[!UICONTROL Standardinstanz]** > **[!UICONTROL Bearbeiten]**.
 
 * **[!UICONTROL Abzeichen]**: Wählen Sie die Standard-Abzeichen aus dem Dropdown-Menü aus.
 * **[!UICONTROL Gamification]**: Konfigurieren Sie Gamification-Einstellungen, einschließlich Punkten für Abschluss, vorzeitigen Abschluss und rechtzeitigen Abschluss. Administratoren haben die Möglichkeit, Einstellungen auf Kontoebene auszuwählen oder die Gamification-Punkte für diese Instanz anzupassen.
@@ -547,7 +613,7 @@ Führen Sie die folgenden Schritte aus, um Abschlusskommentare hinzuzufügen:
 2. Gehen Sie zur Seite **[!UICONTROL Kurse]** und wählen Sie einen Kurs aus.
 3. Wählen Sie auf der Kursseite **[!UICONTROL Teilnehmer]** aus.
 4. Wählen Sie den einzelnen Teilnehmer oder mehrere Teilnehmer aus.
-5. Wählen Sie **[!UICONTROL Aktionen]** aus und wählen Sie dann **[!UICONTROL &#x200B; Als abgeschlossen markieren]**.
+5. Wählen Sie **[!UICONTROL Aktionen]** aus und wählen Sie dann **[!UICONTROL  Als abgeschlossen markieren]**.
 6. Geben Sie den Abschlusskommentar in das Dialogfeld ein.
 
    ![](assets/comments.png)

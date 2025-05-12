@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Benutzer bereinigen
 contentowner: dvenkate
 exl-id: 4449146c-6247-44fb-b695-a12023c31dc6
-source-git-commit: 4f2892f762440e87286e8895cedfd5bea51f726b
+source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 72%
+source-wordcount: '1135'
+ht-degree: 52%
 
 ---
 
@@ -63,15 +63,58 @@ Führen Sie die folgenden Schritte aus, um Benutzer zu bereinigen:
 
 >[!NOTE]
 >
->Sobald der gelöschte Benutzer wieder zum System hinzugefügt wurde, werden die vorherigen Rollen (z. B. Admin, Manager, Autor, Kursleiter usw.) nicht beibehalten. Sie werden mit der Teilnehmerrolle hinzugefügt.
+>Sobald der gelöschte Benutzer wieder zum System hinzugefügt wurde, werden die vorherigen Rollen (z. B. Administrator, Manager, Autor, Kursleiter usw.) nicht beibehalten. Sie werden mit der Teilnehmerrolle hinzugefügt.
 
 ## Massenbereinigung von Benutzern
 
-Sie können die ersten 50 Benutzer auswählen und dann in einem einzigen Arbeitsgang bereinigen. Dadurch können Administratoren 50 Benutzer gleichzeitig auswählen und gemeinsam bereinigen. Dies unterstützt die Administratoren bei der Massenbereinigung von Benutzern. Es empfiehlt sich immer, die zum Bereinigen ausgewählten Benutzer zu überprüfen. Damit wird sichergestellt, dass nur die tatsächlich betroffenen korrekten Benutzer bereinigt werden.
+Sie können die ersten 50 Benutzer auswählen und dann in einem einzigen Arbeitsgang bereinigen. Dadurch können Administratoren 50 Benutzer gleichzeitig auswählen und gemeinsam bereinigen. Dies hilft Administratoren, wenn sie mehrere Benutzer gleichzeitig bereinigen möchten. Es empfiehlt sich immer, die zum Bereinigen ausgewählten Benutzer zu überprüfen. Damit wird sichergestellt, dass nur die tatsächlich betroffenen korrekten Benutzer bereinigt werden.
 
 ![](assets/bulk-purge-users.png)
 
 *Benutzer massenweise bereinigen*
+
+## Gelöschte Benutzer vor dem Bereinigen filtern
+
+Mit Adobe Learning Manager können Administratoren Benutzer, die bereits von der Plattform gelöscht wurden, endgültig entfernen. Dieser Prozess, der als Bereinigung bezeichnet wird, hilft Unternehmen dabei, eine saubere Teilnehmerdatenbank zu pflegen, Datenaufbewahrungsrichtlinien einzuhalten und jeden nicht autorisierten Zugriff auf Benutzerdaten zu verhindern.
+Dies ist besonders nützlich, um Datenhygiene zu gewährleisten und sicherzustellen, dass alte, nicht verwendete Benutzerdaten aus dem System entfernt werden.
+Die Bereinigung von Benutzern ist unerlässlich, um die Datenschutzrichtlinien einzuhalten oder einen bereinigten Datenspeicher zu verwalten, indem redundante Datensätze entfernt werden.
+
+### Gelöschte Benutzer nach Monat filtern
+
+Sie können gelöschte Benutzer filtern, indem Sie einen bestimmten Monat auswählen und sie dann endgültig löschen.
+
+So filtern Sie gelöschte Benutzer mithilfe des Löschmonats:
+
+1. Wählen Sie **[!UICONTROL Benutzer]** auf der Startseite des Administrators aus, und wählen Sie dann **[!UICONTROL Benutzerbereinigung]** aus.
+2. Wählen Sie die Datumsauswahl **[!UICONTROL Löschmonat auswählen]** und wählen Sie das Datum aus.
+
+   ![](assets/deletion-date.png)
+   _Wählen Sie den Monat aus, in dem die Benutzer gelöscht wurden_
+
+   Die Liste der im ausgewählten Monat gelöschten Benutzer wird angezeigt.
+
+   ![](assets/list-of-user-deleted.png)
+   _Liste der gelöschten Benutzer für den ausgewählten Monat angezeigt_
+
+### Gelöschte Benutzer nach Monat sortieren
+
+Sie können die gefilterten Benutzer nach ihrer **[!UICONTROL eindeutigen Benutzer-ID]** und dem **[!UICONTROL Löschdatum]** sortieren.
+
+1. Sortieren Sie die Benutzer in der Liste der gelöschten Benutzer nach ihren Benutzer-IDs oder ihrem Löschdatum.
+
+   ![](assets/sort-by-date.png)
+   _Benutzerliste gefiltert nach eindeutiger Benutzer-ID_
+
+2. Wählen Sie einen oder mehrere Benutzer aus.
+3. Wählen Sie **[!UICONTROL Aktionen]** und anschließend **[!UICONTROL Benutzer bereinigen]**.
+4. Wählen Sie in der Bestätigungsmeldung Bereinigen aus, um die Benutzerdatensätze endgültig aus Adobe Learning Manager zu löschen.
+
+   ![](assets/select-purge.png)
+   _Letzte Bestätigung vor der endgültigen Bereinigung von Benutzern_
+
+>[!NOTE]
+>
+>Durch das Bereinigen von Benutzern werden ihre Daten dauerhaft entfernt. Überprüfen Sie die Auswahl noch einmal, bevor Sie fortfahren.
 
 +++Informationen zu den Ergebnissen der Aktion &quot;Benutzer bereinigen&quot;
 
@@ -190,8 +233,6 @@ Sie können die ersten 50 Benutzer auswählen und dann in einem einzigen Arbeits
 
 +++
 
-Learning Manager ist jetzt mit der DS-GVO konform. Weitere Informationen zur DSGVO-Konformität finden Sie unter [Learning Manager-Konformität mit der DSGVO](../../kb/prime-gdpr.md).
-
 ## Häufig gestellte Fragen {#frequentlyaskedquestions}
 
 +++Wie viele Tage dauert es, bis eine Bereinigungsanforderung abgeschlossen ist?
@@ -199,7 +240,13 @@ Learning Manager ist jetzt mit der DS-GVO konform. Weitere Informationen zur DSG
 Eine Anforderung zum Bereinigen von Benutzern dauert maximal 30 Tage.
 +++
 
-+++Können Sie eine Massenbereinigung in Learning Manager durchführen?
++++Können Sie eine Massenbereinigung in Adobe Learning Manager durchführen?
 
 Ja, Sie können eine Massenbereinigung durchführen. Sie können jedoch nur eine Massenbereinigung von 50 Benutzern durchführen.
++++
+
++++Kann ich einen bereinigten Benutzer wiederherstellen?
+
+Anzahl Nach der Bereinigung sind alle Benutzerdaten endgültig gelöscht und können nicht wiederhergestellt werden.
+
 +++

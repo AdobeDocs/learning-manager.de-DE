@@ -3,13 +3,13 @@ description: Hier erfahren Sie, wie Sie die Benutzeroberflächensprache mit SAML
 jcr-language: en_us
 title: Benutzeroberflächensprache über SAML einrichten
 contentowner: chandrum
-source-git-commit: 448119eda15c8d7dfe10150c09fbbe7c530f35e8
+exl-id: 726cb45e-1c37-42b1-924a-565c84c82852
+source-git-commit: 7b84a4565ccf109ed4789f4963d6e250f5d0a852
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
-
 
 # Benutzeroberflächensprache über SAML einrichten
 
@@ -96,4 +96,18 @@ Wenn ein Benutzer aus ALM gelöscht wird, werden die Spracheinstellungen in der 
 
 Administratoren können die Berichte Benutzeraktivität, Lernzusammenfassung und Kompatibilitäts-Dashboard auf sprachspezifische Details überprüfen.
 
+## Aktualisierung der Benutzersprachenvoreinstellung bei der Anmeldung über SAML
 
+Adobe Learning Manager ist eine mehrsprachige Plattform, die die Spracheinstellungen der Teilnehmer auf verschiedene Weise unterstützt, über die Benutzeroberfläche, die Inhalte und die Kursmodule, die alle in mehreren Sprachen verfügbar sind.
+
+Mit dieser Erweiterung verbessert Adobe Learning Manager die Just-in-Time-Benutzerbereitstellung für Benutzer nativer Plattformen. Wenn neue Benutzer Konten erstellen und sich zum ersten Mal anmelden, werden ihre Sprachvoreinstellungen korrekt erfasst und automatisch angewendet.
+
+### Wichtigste Vorteile
+
+* Aktualisiert automatisch die Spracheinstellungen der Benutzer während der Anmeldung.
+* Bietet eine personalisierte Benutzererfahrung, indem die Benutzeroberfläche und der Inhalt in der vom Benutzer bevorzugten Sprache angezeigt werden.
+* Nahtlose Integration mit dem SAML-Authentifizierungsprozess.
+
+Wenn sich Benutzer über SAML anmelden, wird ihre Spracheinstellung (Benutzeroberfläche und Inhaltssprache) basierend auf den während des Anmeldevorgangs angegebenen Informationen überprüft und aktualisiert.
+
+Die Funktion ist mit dem SAML-Anmeldeprozess integriert, um die Sprachvoreinstellung des Benutzers nahtlos zu erfassen und zu aktualisieren.

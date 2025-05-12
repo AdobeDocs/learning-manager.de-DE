@@ -3,10 +3,10 @@ description: Erfahren Sie, wie Sie Inhalt zum Selbststudium erstellen können, d
 jcr-language: en_us
 title: Inhaltsbibliothek
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 2d43c2b7dcaf2cc953418167ee6bd11a24de163b
+source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
 workflow-type: tm+mt
-source-wordcount: '3572'
-ht-degree: 49%
+source-wordcount: '4319'
+ht-degree: 39%
 
 ---
 
@@ -196,19 +196,19 @@ Die Inhaltsbibliothek verwaltet auch die Versionierung Ihrer hochgeladenen Inhal
 
   Sie können auch HTML-Inhalte hinzufügen, die aus Captivate, Presenter oder Presenter Video Express generiert wurden.
 
-1. Learning Manager unterstützt Untertitel für in Learning Manager hochgeladene Videoinhalte. Jetzt können Autoren die Datei mit den Untertiteln zusammen mit der Videodatei hochladen.
+1. Adobe Learning Manager unterstützt Untertitel für in Adobe Learning Manager hochgeladene Videoinhalte. Jetzt können Autoren die Datei mit den Untertiteln zusammen mit der Videodatei hochladen.
 
    Anschließend können die Teilnehmer die Untertitel während der Wiedergabe des Videomoduls anzeigen.
 
    Das unterstützte Format ist [Web Video Text Tracks (webVTT)](https://www.w3.org/TR/webvtt1/).
 
-   Untertitelunterstützung ist für Videoinhalte verfügbar, die in die Learning Manager-Inhaltsbibliothek hochgeladen werden.
+   Untertitelunterstützung ist für Videoinhalte verfügbar, die in die Inhaltsbibliothek in Adobe Learning Manager hochgeladen wurden.
 
    Wenn Sie als Autor Video- oder Audioinhalte hochladen, können Sie auch die VTT-Datei hochladen, die die Untertitel enthält.
 
    Die Untertitel werden dann im Fluidic Player angezeigt. Die Untertitel sind auch mit den [WCAG2.0-Standards](https://www.w3.org/TR/WCAG20/) kompatibel.
 
-   Wenn Sie der Bibliothek einen Videoinhalt hinzufügen, können Sie auch die VTT-Datei hinzufügen, bei der **&#x200B;**&#x200B;eine gültige Datei sein muss.
+   Wenn Sie der Bibliothek einen Videoinhalt hinzufügen, können Sie auch die VTT-Datei hinzufügen, bei der **** eine gültige Datei sein muss.
 
    ![](assets/webvtt.png)
 
@@ -222,7 +222,7 @@ Die Inhaltsbibliothek verwaltet auch die Versionierung Ihrer hochgeladenen Inhal
    >
    >   Eine VTT-Datei unterstützt eine Sprache. Um mehrere Sprachen zu unterstützen, laden Sie mehrere Videodateien für jede Inhaltssprache und dann die entsprechende VTT-Datei für jede Videodatei hoch.
 
-   Als Autor fordert Learning Manager Sie jedes Mal, wenn Sie den Video- oder Audioinhalt ändern, zur Eingabe einer neuen VTT-Datei auf.
+   Als Autor fordert Adobe Learning Manager Sie jedes Mal, wenn Sie den Video- oder Audioinhalt ändern, zur Eingabe einer neuen VTT-Datei auf.
 
    Nachdem Sie diesen Inhalt einem Kurs hinzugefügt haben und wenn Sie den Kurs als Teilnehmer in der Vorschau anzeigen, können Sie die Untertitel im Video sehen.
 
@@ -236,7 +236,7 @@ WebVTT-Unterstützung ist nicht verfügbar für:
    1. Videoankündigungen.
    1. Video, das innerhalb des E-Learning-Inhalts abgespielt wird. Das hängt vom Inhalt ab.
    1. In Soziales Lernen hochgeladenes Video.
-   1. In der Learning Manager-Desktop-App erstelltes Video.
+   1. In der Adobe Learning Manager-Desktop-Applikation erstellte Videos.
    1. Mithilfe des Migrationsvorgangs erstellte Videoinhalte.
    1. Videowiedergabe in der mobilen App im Offlinemodus.
 
@@ -422,9 +422,9 @@ Die Verknüpfung von Inhalt mit dem angegebenen Ordner &quot;**ONLY**&quot; kann
 
 Nachdem Sie den Inhalt hinzugefügt haben, können Sie die Abschlusskriterien für den Inhalt ändern.
 
-Im Learning Manager werden Abzeichen und Kenntnisse basierend auf Erfolg und Abschluss vergeben. Wenn der Teilnehmer einen Kurs abgeschlossen hat, aber nicht erfolgreich ist, erhält der Teilnehmer nicht das Abzeichen und die Kenntnisse, die dem LO entsprechen.
+In Adobe Learning Manager werden Abzeichen und Kenntnisse basierend auf Erfolg und Abschluss vergeben. Wenn der Teilnehmer einen Kurs abgeschlossen hat, aber nicht erfolgreich ist, erhält der Teilnehmer nicht das Abzeichen und die Kenntnisse, die dem LO entsprechen.
 
-Wenn Sie beispielsweise Adobe Captivate zum Erstellen Ihres Kurses und zum Festlegen der Lernparameter im Dialogfeld „Voreinstellungen“ verwendet haben, werden dieselben Einstellungen in den Abschlusskriterienoptionen zu Learning Manager migriert.
+Wenn Sie beispielsweise Adobe Captivate zum Erstellen Ihres Kurses und zum Festlegen der Lernparameter im Dialogfeld &quot;Voreinstellungen&quot; verwendet haben, werden dieselben Einstellungen in den Abschlusskriterienoptionen zu Adobe Learning Manager migriert.
 
 Im Abschnitt „Abschlusskriterien“ können Sie die folgenden Optionen festlegen:
 
@@ -469,6 +469,110 @@ Sortieren Sie den Inhalt entsprechend der Verwendung des Inhalts in einem Kurs. 
 
 *Inhalte nach Nutzung sortieren*
 
+## Eindeutige ID des Inhalts und Ablaufdatum hinzufügen
+
+### Was ist die eindeutige Inhalts-ID?
+
+Die eindeutige Inhalts-ID ist ein eindeutiger Code, der jedem Inhaltselement in Adobe Learning Manager zugewiesen wird. Sie hilft Administratoren und Autoren dabei, Inhalte einfach zu finden und zu verwalten, insbesondere bei der Aktualisierung oder beim Verschieben zwischen Systemen. Diese eindeutige Content-ID ist auch nützlich für die Integration von Content in andere Tools wie HR oder Compliance-Systeme. Dieselbe eindeutige Inhalts-ID wird für alle Sprachversionen verwendet, sodass für die Teilnehmer alles konsistent bleibt.
+
+* Eindeutige IDs von Inhalten müssen in allen Inhalten eindeutig sein.
+* Eindeutige ID des Inhalts darf keine Leerzeichen oder Sonderzeichen enthalten.
+* Wenn eine doppelte eindeutige Inhalts-ID eingegeben wird, wird während der Erstellung ein Fehler angezeigt.
+
+### Was ist das Ablaufdatum?
+
+Das Ablaufdatum kennzeichnet Inhalte, die veraltet oder nicht mehr benötigt werden. Auch nach dem Ablaufdatum bleibt der Inhalt verfügbar, aber er erinnert Autoren und Administratoren daran, ihn bei Bedarf zu überprüfen und zu aktualisieren. Basierend auf den Einstellungen können abgelaufene Inhalte aus neuen Registrierungen entfernt oder archiviert werden. Wie die eindeutige Inhalts-ID funktioniert das Ablaufdatum für alle Sprachversionen auf die gleiche Weise, sodass der Inhalt für alle sauber und auf dem neuesten Stand bleibt.
+
+* Der Inhalt bleibt auch nach Ablauf verfügbar.
+* Eine Warnung wird angezeigt, wenn ein Datum in der Vergangenheit ausgewählt wurde.
+* Das Ablauffeld akzeptiert jedes Datum zwischen 1990 und 2037.
+
+Dadurch können Organisationen die Relevanz von Inhalten beibehalten, ohne versehentlich veröffentlichte Elemente zu entfernen.
+
+Die eindeutige Content-ID und das Ablaufdatum gelten für alle Sprachversionen einer Content-Gruppe und gewährleisten so ein konsistentes Erlebnis für alle Benutzer, unabhängig von der Sprache. Autoren können die eindeutige Inhalts-ID verwenden, um schnell nach bestimmten Inhalten zu suchen und diese zu finden, was die Verwaltung und Aktualisierung von Schulungsmaterialien vereinfacht.
+
+Der **[!UICONTROL Schulungsbericht]** enthält jetzt zwei neue Spalten: **[!UICONTROL Ablaufdatum des Inhalts (UTC-Zeitzone)]** und **[!UICONTROL Eindeutige ID des Inhalts]**, um die eindeutige ID des Inhalts und das Ablaufdatum zu verfolgen. Diese Felder können über die Benutzeroberfläche oder die Migration hinzugefügt werden, und der Administrator kann sie zentral über Schulungsberichte nachverfolgen.
+
+### Eindeutige ID des Inhalts und Ablaufdatum hinzufügen
+
+Autoren können eine eindeutige Inhalts-ID hinzufügen und ein Ablaufdatum festlegen, wenn sie Inhalte erstellen.
+
+Eindeutige Inhalts-ID und Ablaufdatum hinzufügen:
+
+1. Melden Sie sich als Autor an.
+2. Wählen Sie **[!UICONTROL Inhalt erstellen]** oder **[!UICONTROL Inhaltsbibliothek]** im linken Bereich aus.
+
+   ![](assets/create-content.png)
+   _Auswählen von &quot;Inhalt erstellen&quot; auf der Startseite_
+
+3. Wählen Sie **[!UICONTROL Hinzufügen]** aus und wählen Sie dann **[!UICONTROL Inhalt]** auf der Startseite des Autors aus.
+
+   ![](assets/add-content.PNG)
+   _Auswählen von Inhalt in der Inhaltsbibliothek hinzufügen_
+
+4. Geben Sie **[!UICONTROL Name]** und **[!UICONTROL Beschreibung]** ein.
+
+5. Wählen Sie den Inhalt aus der Option **[!UICONTROL Inhaltsdatei hinzufügen]** aus.
+6. Wählen Sie die Option &quot;Ordner aus **[!UICONTROL Dem Ordner hinzufügen]**&quot; aus, um den Inhalt dem Ordner hinzuzufügen.
+
+   ![](assets/add-a-new-content.png)
+   _Neuen Inhalt hinzufügen_
+
+7. Geben Sie die ID des hochgeladenen Inhalts in das Feld **[!UICONTROL Eindeutige ID des Inhalts]** ein. Die ID muss eindeutig sein und den richtigen Benennungsrichtlinien entsprechen. Die ID darf keine Nicht-ASCII-Zeichen oder -Leerzeichen enthalten. Wenn Sie eine doppelte ID eingeben, wird eine Fehlermeldung angezeigt.
+
+   ![](assets/content-unique-id.png)
+   _Feld zur Eingabe einer eindeutigen alphanumerischen Inhalts-ID_
+
+8. Wählen Sie das Ablaufdatum für den Inhalt. Dieses Datum wirkt sich nicht auf die Inhaltsverfügbarkeit oder den Teilnehmerzugriff aus. Sie können ein beliebiges Datum zwischen 1990 und 2037 auswählen. Wenn ein Datum in der Vergangenheit ausgewählt wurde, wird eine Warnung angezeigt, der Inhalt kann jedoch weiterhin veröffentlicht werden.
+9. Wählen Sie **[!UICONTROL Speichern]**.
+Der hochgeladene Inhalt wird jetzt in der **[!UICONTROL Inhaltsbibliothek]** angezeigt.
+
+### Eindeutige ID des Inhalts und Ablaufdatum für Sprachen festlegen
+
+Die eindeutige ID des Inhalts und das Ablaufdatum werden auf Ebene der Inhaltsgruppe definiert, d. h., sie werden einmal festgelegt und gelten automatisch für alle Sprachversionen des Inhalts.
+
+1. Wählen Sie den Inhalt in der **[!UICONTROL Inhaltsbibliothek]** aus.
+2. Wählen Sie **[!UICONTROL Bearbeiten]**.
+3. Wählen Sie **[!UICONTROL Neue Sprache hinzufügen]**.
+4. Wählen Sie eine beliebige Sprache aus der Liste aus.
+5. Wählen Sie **[!UICONTROL Speichern]**.
+Die eindeutige Inhalts-ID und das Ablaufdatum werden jetzt in der sprachspezifischen Version des Inhalts angezeigt, z. B. in diesem Beispiel auf Deutsch.
+
+### Suche mit der eindeutigen Inhalts-ID
+
+Sie können die eindeutige Content-ID verwenden, um in allen Sprachversionen nach Inhalten zu suchen, was das Auffinden und Verwalten bestimmter Elemente erleichtert. Darüber hinaus sind sowohl die eindeutige Content-ID als auch das Ablaufdatum in Schulungsberichten enthalten, um eine konsistente Nachverfolgung und Berichterstattung zu gewährleisten.
+
+1. Starten Sie die **[!UICONTROL Inhaltsbibliothek]**.
+2. Geben Sie die **[!UICONTROL eindeutige Inhalts-ID]** in die Suchleiste ein.
+
+   ![](assets/search-unique-id.png)
+   _Inhalt wird mit der eindeutigen Inhalts-ID durchsucht_
+3. Wählen Sie den Inhalt zum Anzeigen oder Bearbeiten aus.
+
+### Unterstützung der Inhaltsmigration
+
+Beim Migrieren von Inhalten können Sie **expiryDate** und **uniqueContentId** in der Datei module_version.csv einschließen. So wird die Kontinuität von Metadaten beim Verschieben von Inhalten zwischen Systemen gewährleistet.
+
+### Änderungen bei Berichten
+
+Zwei neue Spalten, eindeutige Inhalts-ID und Ablaufdatum des Inhalts, sind jetzt im Schulungsbericht verfügbar. Mithilfe dieser Felder können Administratoren die Ablaufdaten von Inhalten effektiver überwachen.
+
+## Inhalt zurückziehen {#retirecontent}
+
+Sobald Sie einen Inhalt veröffentlicht haben, können Sie ihn nicht mehr löschen. Sie müssen den Inhalt zuerst zurückziehen. Wenn Sie einen Inhalt als „Zurückgezogen“ markieren, ist er für die Teilnehmer nicht mehr sichtbar. Der Inhalt wird auch in den Abschnitt **[!UICONTROL Eingestellt]** verschoben.
+
+Um Inhalt zurückzuziehen, führen Sie die folgenden Schritte aus:
+
+* Wählen Sie in **[!UICONTROL Inhaltsbibliothek]** den Inhalt aus, den Sie zurückziehen möchten.
+* Wählen Sie **[!UICONTROL Aktion]** aus, und wählen Sie dann **[!UICONTROL Zurückziehen]**.
+
+Inhalte, die in Lernobjekten verwendet werden, werden nicht beeinflusst. Die Teilnehmenden können weiterhin auf die Inhalte zugreifen.
+
+>[!NOTE]
+>
+>Sie können auch Inhalte aus dem Abschnitt **[!UICONTROL Eingestellt]** hinzufügen, zu **[!UICONTROL Inhaltsbibliothek]** navigieren und dann **[!UICONTROL Eingestellt]** auswählen. Wählen Sie **[!UICONTROL Inhalt hinzufügen]**. Weitere Informationen finden Sie unter [Statischen Inhalt hinzufügen](content-library.md#addstaticcontent).
+
+
 ## Nach Inhalt suchen {#searchforcontent}
 
 In der Inhaltsbibliothek können Sie nach Inhalten suchen, indem Sie entweder den Namen des Inhalts oder die mit dem Inhalt verknüpften Tags auswählen.
@@ -476,22 +580,6 @@ In der Inhaltsbibliothek können Sie nach Inhalten suchen, indem Sie entweder de
 Geben Sie in der Suchleiste den Namen eines Kurses oder eines Tags ein, um die Empfehlungen anzuzeigen.
 
 <!--![](assets/search-bar.png)-->
-
-## Inhalt zurückziehen {#retirecontent}
-
-Sobald Sie einen Inhalt veröffentlicht haben, können Sie ihn nicht mehr löschen. Sie müssen den Inhalt zuerst zurückziehen. Wenn Sie einen Inhalt als „Zurückgezogen“ markieren, ist er für die Teilnehmer nicht mehr sichtbar. Der Inhalt wird auch in den Bereich „Zurückgezogen“ verschoben. Sie können den Inhalt auch später in den Status „Veröffentlicht“ ändern.
-
-Um Inhalt zurückzuziehen, führen Sie die folgenden Schritte aus:
-
-* Wählen Sie in der Inhaltsbibliothek die Inhalte aus, die zurückgezogen werden sollen.
-* Wählen Sie „Aktionen“ > „Einstellen“.
-
-Inhalte, die in Lernobjekten verwendet werden, werden nicht beeinflusst. Die Teilnehmenden können weiterhin auf die Inhalte zugreifen.
-
->[!NOTE]
->
->Sie können auch Inhalte aus dem Abschnitt **[!UICONTROL Eingestellt]** hinzufügen, zu **[!UICONTROL Inhaltsbibliothek]** > **[!UICONTROL Eingestellt]** navigieren und **[!UICONTROL Inhalt hinzufügen]** auswählen. Weitere Informationen finden Sie unter [Statischen Inhalt hinzufügen](content-library.md#addstaticcontent).
-
 
 ## Veröffentlichen Sie zurückgezogene Inhalte erneut {#republishretiredcontent}
 
@@ -521,12 +609,12 @@ Beachten Sie, dass vorhandene Kurse, die den Inhalt verwenden und aus der Inhalt
 
 +++ Wie lade ich SCORM-Inhalte in Adobe Learning Manager hoch?
 
-Erstellen Sie einen SCORM-kompatiblen eLearning-Kurs in einem beliebigen Tool, z. B. Adobe Captivate, und veröffentlichen Sie den Inhalt als ZIP-Datei. Laden Sie dann im Lern-Manager die ZIP-Datei in den Katalog hoch und legen Sie die Abschluss- und Erfolgskriterien fest.
+Erstellen Sie einen SCORM-kompatiblen eLearning-Kurs in einem beliebigen Tool, z. B. Adobe Captivate, und veröffentlichen Sie den Inhalt als ZIP-Datei. Laden Sie dann in Adobe Learning Manager die ZIP-Datei in den Katalog hoch und legen Sie die Abschluss- und Erfolgskriterien fest.
 +++
 
-+++Wie lade ich eine neue Version desselben Inhalts zum Learning Manager hoch?
++++Wie lade ich eine neue Version desselben Inhalts zu Adobe Learning Manager hoch?
 
-In Learning Manager verwaltet die Inhaltsbibliothek auch Versionen Ihrer hochgeladenen Inhalte. Wenn Sie Änderungen am Inhalt vornehmen, z. B. eine PowerPoint-Präsentation, und die Präsentation erneut in die Bibliothek hochladen, wird die Versionsnummer um eins erhöht. Auf diese Weise können Sie Änderungen an Ihren Inhalten nachverfolgen. Eine neue Version des Inhalts kann gleichzeitig auf alle Lernobjekte angewendet werden, oder Sie können für jeden Kurs einzelne Aktualisierungen anwenden.
+In Adobe Learning Manager verwaltet die Inhaltsbibliothek auch Versionen Ihrer hochgeladenen Inhalte. Wenn Sie Änderungen am Inhalt vornehmen, z. B. eine PowerPoint-Präsentation, und die Präsentation erneut in die Bibliothek hochladen, wird die Versionsnummer um eins erhöht. Auf diese Weise können Sie Änderungen an Ihren Inhalten nachverfolgen. Eine neue Version des Inhalts kann gleichzeitig auf alle Lernobjekte angewendet werden, oder Sie können für jeden Kurs einzelne Aktualisierungen anwenden.
 +++
 
 +++Wie kann ich die Details eines Kurses in einer anderen Sprache bearbeiten?

@@ -4,10 +4,10 @@ title: Benutzerdefinierte Rollen
 description: Mit der Lernpfadfunktion können Sie benutzerdefinierte Rollen definieren und einer Gruppe von Benutzern bestimmte Verantwortlichkeiten zuweisen. Mit dieser Funktion können Sie Verantwortlichkeiten zuweisen, die nicht in den Bereich der bestehenden Rolle der Person fallen.
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
+source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
 workflow-type: tm+mt
-source-wordcount: '2685'
-ht-degree: 54%
+source-wordcount: '3466'
+ht-degree: 32%
 
 ---
 
@@ -52,14 +52,14 @@ Darüber hinaus können benutzerdefinierte Administratoren:
 * Zertifizierungen, Lernpfade und Lernpläne erstellen, bearbeiten und löschen.
 * Greifen Sie auf Berichts- und Registrierungsfunktionen für alle Lernobjekte (LOs) zu.
 
-Administratoren können jetzt in Adobe Learning Manager Berechtigungen anzeigen, die in der CSV-Datei erstellt wurden. Die Option &quot;Filtern nach&quot; filtert benutzerdefinierte Rollen nach vom Administrator erstellten und über eine CSV importierten Rollen. Nachdem Sie eine benutzerdefinierte Rolle ausgewählt haben, werden die Berechtigungen angezeigt.
+Administratoren können jetzt in Adobe Learning Manager Berechtigungen anzeigen, die mit CSV erstellt wurden. Die Option &quot;Filtern nach&quot; filtert benutzerdefinierte Rollen nach vom Administrator erstellten und über eine CSV importierten Rollen. Nachdem Sie eine benutzerdefinierte Rolle ausgewählt haben, werden die Berechtigungen angezeigt.
 
 ![](assets/filter.png)
 _Benutzerdefinierte Rollen filtern_
 
 ## Benutzerdefinierte Rolle erstellen {#create-role}
 
-1. Melden Sie sich als ein Administrator an. Öffnen Sie **[!UICONTROL Benutzer]** > **[!UICONTROL Benutzerdefinierte Rolle]**.
+1. Melden Sie sich als Administrator an. Öffnen Sie **[!UICONTROL Benutzer]** > **[!UICONTROL Benutzerdefinierte Rolle]**.
 2. Wählen Sie **[!UICONTROL Rolle erstellen]** aus. Die Registerkarte **[!UICONTROL Neue Rolle erstellen]** wird geöffnet.
 
    ![](assets/create-new-role.png)
@@ -69,7 +69,7 @@ _Benutzerdefinierte Rollen filtern_
 3. Geben Sie den Namen in das Feld &quot;**[!UICONTROL Name&quot; der Rolle &quot;]**&quot; ein.
 4. **[!UICONTROL Kontoberechtigungen]**: Diese Berechtigungen gewähren den Rolleneigentümern Zugriff auf bestimmte Systemkonfigurationsaspekte, die für das gesamte Konto gelten. Wählen Sie die Zugriffsberechtigungen. Der Benutzer hat die volle Kontrolle über die zugewiesenen Berechtigungen.
 
-   Administratoren können detaillierte Berechtigungen für den Abschnitt Benutzer erteilen, der interne/externe Benutzer, Benutzergruppen und erweiterte Benutzer enthält.
+   Administratoren können detaillierte Berechtigungen für den Abschnitt &quot;Benutzer&quot; erteilen, der interne/externe Benutzer, Benutzergruppen und erweiterte Benutzer enthält.
 
    >[!NOTE]
    >
@@ -189,7 +189,7 @@ Ein Benutzer mit einer benutzerdefinierten Rolle kann Folgendes:
 * Nur Inhalte aus den Katalogen anzeigen, auf die er Zugriff hat.
 * Greifen Sie auf jedes Lernobjekt zu, basierend auf den Berechtigungen des Katalogs, zu dem das Lernobjekt gehört.
 
-  Als Administrator können Sie Folgendes:
+  Als Administrator haben Sie folgende Möglichkeiten:
 
 * Wählen Sie mehr als einen Katalog für eine benutzerdefinierte Rolle.
 * Ändern Sie die Berechtigungen eines Katalogs jederzeit.
@@ -275,17 +275,125 @@ Ein Benutzer mit einer benutzerdefinierten Rolle kann Folgendes:
    **Benutzer zu CSV-Upload für benutzerdefinierte Rolle hinzufügen:** Um Benutzer über hochgeladene CSV hinzuzufügen, fügen Sie der CSV-Datei, die der Administrator zum Importieren von Benutzern verwendet hat, eine Spalte für benutzerdefinierte Rollen hinzu. Geben Sie die Rolle des Benutzers in der Spalte Benutzerdefinierte Rolle für die Benutzer ein, denen Sie eine benutzerdefinierte Rolle zuweisen möchten. Klicken Sie zum Hochladen der CSV-Datei auf **[!UICONTROL Hinzufügen > CSV hochladen]**.
 
    * Sie können keine Benutzergruppen durchsuchen.
-   * Sie können nicht nach Benutzern suchen, denen bereits eine Administratorrolle zugewiesen wurde.
+   * Sie können keine Benutzer durchsuchen, denen bereits eine Administratorrolle zugewiesen wurde.
    * Die Zuweisung einer neuen benutzerdefinierten Rolle zu einem Benutzer überschreibt die vorherige benutzerdefinierte Rolle des Benutzers.
 
    <!--![](assets/users.png)-->
 
    * Ein benutzerdefinierter Administrator, der die Berechtigung für Einstellungen hat, kann den Zeitplan für die Synchronisierung oder die Synchronisierung von Benutzern aus der Datenquelle konfigurieren, auch wenn er keine Berechtigung für die Entität &quot;Benutzer&quot; hat.
-   * Wenn ein benutzerdefinierter Administrator über Berechtigungen für die Entität „Benutzer“ verfügt, können Sie ihm eine Administratorrolle zuweisen und ein Standardadministrator werden.
+   * Wenn ein benutzerdefinierter Administrator über Berechtigungen für die Entität &quot;Benutzer&quot; verfügt, können sie sich selbst eine Administratorrolle zuweisen und ein Standardadministrator werden.
 
-## Benutzerdefinierter Rollenbericht
+## Benutzer mehrere benutzerdefinierte Rollen zuweisen
 
-Administratoren können einen CSV-Bericht mit allen benutzerdefinierten Rollen und ihren Berechtigungen herunterladen. Der Bericht zeigt, wie die einzelnen Rollen entweder von einem Administrator oder über eine CSV-Datei erstellt wurden, und umreißt die Hervorhebungen zum Zugriff auf die einzelnen Rollen.
+Sie können Benutzern auf folgende Weise mehrere benutzerdefinierte Rollen zuweisen:
+
+* Verwenden der Benutzeroberfläche: Sie können einem Benutzer direkt über die Adobe Learning Manager-Oberfläche mehr als eine benutzerdefinierte Rolle zuweisen.
+* CSV-Upload verwenden: Sie können eine CSV-Datei hochladen, um mehreren Benutzern gleichzeitig mehrere benutzerdefinierte Rollen zuzuweisen.
+
+Dies erleichtert die Verwaltung des Benutzerzugriffs und die Kontrolle der Berechtigungen im gesamten System.
+
+### Mehrere benutzerdefinierte Rollen über die Benutzeroberfläche zuweisen
+
+Die Zuweisung mehrerer benutzerdefinierter Rollen über die Admin Console in Adobe Learning Manager ist eine schnelle und intuitive Option, die sich ideal für Onboarding, Berechtigungsanpassungen oder kleinere Aktualisierungen eignet. Rollen können visuell zugewiesen werden, ohne dass CSV-Uploads erforderlich sind. Dadurch wird das Fehlerrisiko verringert und die Anzeige in Echtzeit verbessert. Diese Methode unterstützt schnelle Aktualisierungen, wenn sich die Zuständigkeiten ändern, und ermöglicht Rollenwechsel und Delegierung nach Bedarf.
+
+Führen Sie die folgenden Schritte aus, um einem Benutzer mehrere benutzerdefinierte Rollen zuzuweisen:
+
+1. Melden Sie sich als Administrator an und wählen Sie **[!UICONTROL Benutzer]**.
+2. Wählen Sie im linken Bereich **[!UICONTROL Benutzerdefinierte Rollen]** aus.
+3. Erstellen Sie eine neue benutzerdefinierte Rolle und fügen Sie Kontoberechtigungen, Kataloge, Lernobjekte oder Bereiche hinzu. Weitere Informationen finden Sie in den [hier](#create-a-custom-role) genannten Schritten.
+4. Benutzer zur benutzerdefinierten Rolle hinzufügen.
+
+   ![](assets/add-users-in-custom-roles.png)
+   _Benutzer einer benutzerdefinierten Rolle zuweisen_
+
+5. Wählen Sie **[!UICONTROL Speichern]**.
+
+Wählen Sie je nach Bedarf mehrere benutzerdefinierte Rollen für einen Benutzer aus. Jeder Benutzer kann bis zu 50 benutzerdefinierte Rollenzuweisungen haben. Die Anzahl der verfügbaren Rollen nimmt mit jeder Zuweisung ab.
+
+Nachdem Sie Benutzer einer zusätzlichen benutzerdefinierten Rolle zugewiesen haben, können Sie anzeigen, wie viele Rollenzuweisungen für die einzelnen Benutzer noch verfügbar sind.
+
+>[!NOTE]
+>
+>Sie können jedem Benutzer bis zu 50 Rollen zuweisen und jeder Rolle bis zu 500 Benutzer hinzufügen.
+
+### Mit CSV mehrere benutzerdefinierte Rollen zuweisen
+
+Das Hochladen einer CSV-Datei in Adobe Learning Manager ermöglicht die effiziente Massenzuweisung benutzerdefinierter Rollen. Dieser Prozess ist besonders nützlich für das Onboarding einer großen Anzahl von Mitarbeitern, die Neuorganisation von Teams oder die Aktualisierung des Zugriffs auf neue Schulungen. CSV-Importe sparen manuellen Aufwand, gewährleisten konsistente Zuweisungen und reduzieren Fehler. Diese Methode ist besonders bei Fusionen, abteilungsweiten Updates oder globalen Schulungen nützlich. Mit dieser Methode können Administratoren Zeit sparen, Rollen standardisieren und die Governance sicherstellen.
+
+Sie können einem Benutzer jetzt über den CSV-Import mehrere Rollen zuweisen, indem Sie zwei Dateien in Box hochladen:
+
+* role.csv
+* user_role.csv
+
+Die Datei &quot;user_role.csv&quot; enthält die Felder Benutzerdefinierte Rolle und Benutzer-IDs.
+
+Die Datei role.csv enthält die Felder, benutzerdefinierte Rolle, Quelle der Erstellung und detaillierte Informationen für Kataloge, Benutzer, Kurse, Lernpfade und mehr.
+
+Wenn die CSV-Datei falsche Daten enthält oder die Grenzwerte überschreitet (50 Rollen pro Benutzer und 500 Benutzer pro Rolle), wird eine Meldung mit den Fehlern angezeigt.
+
+![](assets/error-custom-role.png)
+_Fehlerbenachrichtigung für benutzerdefinierte Rollen_
+Benutzer erhalten E-Mail-Benachrichtigungen, wenn Rollen zugewiesen werden, einschließlich des Namens der Rolle.
+
+### Benutzerdefinierte Rollen verwalten
+
+Administratoren können benutzerdefinierte Rollen für Benutzer in Adobe Learning Manager aktualisieren, hinzufügen oder entfernen, wenn sich die Zuständigkeiten ändern. Dadurch wird sichergestellt, dass der Zugriff den aktuellen Rollen entspricht, ohne den Lernverlauf oder die Registrierungsdaten zu beeinträchtigen. Auf der Seite &quot;**[!UICONTROL Benutzer]**&quot; kann der Administrator nach Benutzern suchen, deren Rollen anzeigen und diese mithilfe der Option &quot;Benutzerdefinierte Rollen verwalten&quot; anpassen. Diese geführte Oberfläche ermöglicht das einfache Hinzufügen oder Entfernen von Rollen bei gleichzeitiger Aufrechterhaltung von Governance und Sicherheit.
+
+>[!NOTE]
+>
+>Benutzerdefinierte Administratoren können benutzerdefinierte Rollen nicht verwalten (benutzerdefinierte Rolle hinzufügen oder entfernen) oder sich selbst auf die Administratorrolle hochstufen.
+
+Nachdem Sie Benutzern benutzerdefinierte Rollen zugewiesen haben, können Sie benutzerdefinierte Rollen der Seite **[!UICONTROL Benutzer]** hinzufügen oder daraus entfernen.
+
+1. Suchen Sie auf der Seite **[!UICONTROL Benutzer]** nach einem Benutzer.
+
+   ![](assets/search-user-role.png)
+   _Benutzer auf der Benutzerseite suchen_
+
+2. Wählen Sie den Dropdown-Pfeil am Ende der Zeile aus, in der der Benutzername angezeigt wird, und wählen Sie dann **[!UICONTROL Benutzerdefinierte Rollen verwalten]**.
+
+   ![](assets/select-manage-custom-roles.png)
+   _Auswählen von &quot;Benutzerdefinierte Rollen verwalten&quot; auf der Benutzerseite_
+
+3. Ein Dialogfeld wird angezeigt, in dem die Liste der benutzerdefinierten Rollen angezeigt wird, die dem Benutzer zugewiesen sind. Wählen Sie **[!UICONTROL Rollen hinzufügen/entfernen]**, um dem Benutzer zugewiesene benutzerdefinierte Rollen hinzuzufügen oder zu entfernen.
+
+   ![](assets/add-remove-roles.png)
+   _Wählen Sie in der Eingabeaufforderung &quot;Benutzerdefinierte Rollen verwalten&quot; die Option &quot;Rollen hinzufügen/entfernen&quot; aus._
+
+4. Suchen Sie nach anderen benutzerdefinierten Rollen, die dem Benutzer zugewiesen werden sollen. Wenn Sie eine Rolle gefunden haben, wählen Sie die benutzerdefinierte Rolle aus.
+
+   ![](assets/add-new-custom-role.png)
+   _Benutzerdefinierte Rolle auswählen_
+
+5. Wählen Sie **[!UICONTROL Speichern]**. Ein Bestätigungsdialogfeld für die Änderung der benutzerdefinierten Rolle wird angezeigt. Wählen Sie **[!UICONTROL Ja]** aus.
+
+   ![](assets/confirmation-prompt.png)
+   _Wählen Sie in der Bestätigungsmeldung &quot;Ja&quot; aus._
+
+Eine dritte benutzerdefinierte Rolle wird dem Benutzer zugewiesen.
+
+Führen Sie die folgenden Schritte aus, um die benutzerdefinierten Rollen zu entfernen:
+
+1. Suchen Sie auf der Seite **[!UICONTROL Benutzer]** nach einem Benutzer.
+2. Wählen Sie das Dropdown-Menü neben dem Benutzer aus und wählen Sie **[!UICONTROL Benutzerdefinierte Rollen verwalten]**.
+3. Wählen Sie **[!UICONTROL Rollen hinzufügen/entfernen]**, um benutzerdefinierte Rollen hinzuzufügen oder zu entfernen.
+4. Wählen Sie das Symbol **[!UICONTROL Entfernen]** aus, um die benutzerdefinierte Rolle zu löschen.
+
+   ![](assets/remove-custom-roles.png)
+   _Benutzerdefinierte Rollen entfernen_
+
+### Benutzerdefinierte Rollen wechseln
+
+Verwenden Sie die Option **[!UICONTROL Benutzerdefinierte Rolle wechseln]**, um benutzerdefinierte Rollen anzuzeigen und auszuwählen, die Ihnen zugewiesen wurden.
+
+![](assets/switch-roles.png)
+_Benutzerdefinierte Rollen auswählen_
+
+Benutzer erhalten E-Mail-Benachrichtigungen, wenn ihnen die benutzerdefinierten Rollen zugewiesen wurden. Die E-Mails enthalten jetzt Rollennamen, um eine bessere Übersichtlichkeit zu gewährleisten.
+
+## Benutzerdefinierten Rollenbericht herunterladen
+
+Administratoren können einen CSV-Bericht herunterladen, in dem alle benutzerdefinierten Rollen und die zugehörigen Berechtigungen aufgelistet sind. Der Bericht gibt an, ob jede Rolle manuell oder per CSV-Upload erstellt wurde, und enthält eine Zusammenfassung des Zugriffs und der Berechtigungen, die jeder Rolle zugewiesen wurden.
 
 Führen Sie die folgenden Schritte aus, um den Bericht herunterzuladen:
 
@@ -330,7 +438,7 @@ Nachdem Sie auf die Option geklickt haben, wird ein neues Dialogfeld geöffnet, 
 
 Wählen Sie die Ordner aus, und klicken Sie auf **[!UICONTROL OK]**.
 
-## Dashboard für die Lernzusammenfassung für benutzerdefinierte Administratoren {#custom-admin-dashboard}
+## Dashboard für die Lernzusammenfassung für benutzerdefinierten Administrator {#custom-admin-dashboard}
 
 Benutzerdefinierte Administratoren können dieselbe Ansicht wie Administratoren nutzen. Ein benutzerdefinierter Administrator kann Daten außerhalb seines Bereichs speichern. Dies gilt nur, wenn der Bereich des benutzerdefinierten Administrators nicht eingeschränkt ist. Um beim Erstellen eines benutzerdefinierten Administrators den vollen Umfang zu gewähren, aktivieren Sie im Kontoübersichtsbericht die Option **[!UICONTROL Vollständige Kontrolle]**.
 
@@ -474,13 +582,13 @@ Alle von einem Administrator erstellten Lernpläne gelten standardmäßig für a
 
 In diesem Update von Learning Manager können Sie benutzerdefinierte Rollen für Lernpläne erstellen, um den Umfang für alle Benutzer und Lernobjekte festzulegen. Mit anderen Worten, Lernpläne können mit einem begrenzten Bereich erstellt werden, der vom Rollenbereich eines benutzerdefinierten Administrators abgeleitet wird.
 
-Jetzt kann ein Administrator den Bereich definieren oder einschränken, während er Zugriff auf die Lernplanverwaltung gewährt.
+Jetzt kann ein Administrator den Umfang definieren oder einschränken, während er Zugriff auf die Lernplanverwaltung gewährt.
 
 Benutzerdefinierte Administratoren können Lernpläne mit einem begrenzten Umfang erstellen, der vom Umfang der konfigurierbaren Rolle des benutzerdefinierten Administrators abhängt. Solche Lernpläne sind nur für benutzerdefinierte Administratoren mit derselben Rolle zugänglich, außerdem für reguläre Administratoren. Darüber hinaus können die benutzerdefinierten Administratoren keine anderen Lernpläne im Konto sehen.
 
 Bestehende benutzerdefinierte Administratoren, die Zugriff auf Lernpläne haben, haben (per Definition) immer den vollen Umfang. Sie haben wie normale Administratoren Zugriff auf alle Lernpläne im Konto. Neue benutzerdefinierte Rollen, die mit vollem Umfang erstellt wurden, und neue benutzerdefinierte Administratoren, die diesen Rollen hinzugefügt wurden, haben weiterhin Zugriff auf alle Lernpläne.
 
-Von Administratoren erstellte Lernpläne und benutzerdefinierte Administratoren mit vollem Umfang werden wie gewohnt erstellt und sind nicht durch den Umfang beschränkt.
+Lernpläne, die vom Administrator erstellt wurden, und benutzerdefinierte Administratoren mit vollem Umfang werden wie gewohnt erstellt und sind nicht durch den Umfang beschränkt.
 
 Im Abschnitt **Umfang für Funktionsberechtigungen** gewähren Sie Zugriff auf Benutzergruppen und/oder den Katalog für die benutzerdefinierte Rolle.
 
@@ -494,9 +602,9 @@ Weisen Sie einen Benutzer der benutzerdefinierten Rolle zu.
 
 *Benutzer einer benutzerdefinierten Rolle zuweisen*
 
-Der Benutzer meldet sich jetzt als benutzerdefinierter Administrator bei Learning Manager an und fügt einen Lernplan hinzu.
+Der Benutzer meldet sich jetzt als benutzerdefinierter Administrator beim Learning Manager an und fügt einen Lernplan hinzu.
 
-Wenn ein neuer Teilnehmer hinzugefügt wird, kann der benutzerdefinierte Administrator eine Schulung nur aus den Katalogen der konfigurierbaren Rolle auswählen.
+Wenn ein neuer Teilnehmer hinzugefügt wird, kann der benutzerdefinierte Administrator eine Schulung nur aus den Katalogen mit dem Umfang der konfigurierbaren Rolle auswählen.
 
 Dieser Lernplan gilt jetzt nur für den Teilnehmer, wenn der Benutzer auch der Gruppe innerhalb der Benutzergruppe mit dem Umfang des Lernplans hinzugefügt wird. Alle anderen Teilnehmer werden von diesem Lernplan ausgenommen.
 
@@ -510,13 +618,13 @@ Wenn ein Benutzer zur angegebenen Gruppe hinzugefügt wird, wird nur Benutzern d
 
 ## Änderung des Umfangs {#changeinscope}
 
-Wenn der Administrator den Umfang der benutzerdefinierten Rolle ändert, wird die Änderung auch auf den benutzerdefinierten Administrator übertragen. Wenn der benutzerdefinierte Administrator einen Lernplan auswählt, der bereits im Umfang einer vorherigen benutzerdefinierten Rolle enthalten ist, wird eine Meldung wie die unten abgebildete angezeigt:
+Wenn der Administrator den Umfang der benutzerdefinierten Rolle ändert, wird die Änderung auch auf den benutzerdefinierten Administrator übertragen. Wenn der benutzerdefinierte Administrator einen Lernplan auswählt, der bereits im Umfang einer vorherigen benutzerdefinierten Rolle enthalten ist, wird eine Meldung angezeigt, wie unten gezeigt:
 
 ![](assets/change-scope.png)
 
 *Meldung nach Bereichsänderungen*
 
-Der benutzerdefinierte Administrator muss jetzt den früheren Umfang auf den neuen ändern oder die Seite aktualisieren.
+Der benutzerdefinierte Administrator muss jetzt den früheren Bereich auf den neuen Bereich aktualisieren bzw. den neuen Bereich aktualisieren.
 
 Durch Klicken auf **[!UICONTROL Umfang aktualisieren]** wird der Umfang aktualisiert. Es wird eine Warnmeldung angezeigt.
 

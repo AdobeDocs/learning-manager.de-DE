@@ -2,9 +2,9 @@
 title: Neue Funktionen in dieser Version
 description: Erfahren Sie mehr über die neuen Funktionen und Verbesserungen in der Version November 2023 von Adobe Learning Manager.
 exl-id: d670dc47-d57f-464a-bee8-064cc16e59f9
-source-git-commit: a655c86ab14f23fc9954229244d94a79d3188642
+source-git-commit: 574750144d77e8362968db9404ecf7bd2f18ccc9
 workflow-type: tm+mt
-source-wordcount: '2370'
+source-wordcount: '2356'
 ht-degree: 70%
 
 ---
@@ -318,8 +318,3 @@ Weitere Informationen zu aktuellen und früheren Versionen der Learning Manager-
 ## Systemanforderungen
 
 [Systemanforderungen für Learning Manager](system-requirements.md)
-
-## Frühere Versionen von Adobe Learning Manager
-
-* [Version Juli 2023](whats-new-2023-july.md)
-* [Version April 2023](whats-new-2023-april.md)
