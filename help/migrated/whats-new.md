@@ -2,13 +2,13 @@
 description: Erfahren Sie mehr über die neuen Funktionen und Verbesserungen in der Version Mai 2025 von Adobe Learning Manager
 jcr-language: en_us
 title: Zusammenfassung der neuen Funktionen
-source-git-commit: c411b472f6389b2d45779c3821694de2fd46822a
+exl-id: 812d33c8-b2e4-43eb-adda-67dc356ca1ca
+source-git-commit: 168e521d3922ec75c7ca06dd9a15ae67f929c069
 workflow-type: tm+mt
-source-wordcount: '2481'
+source-wordcount: '2492'
 ht-degree: 0%
 
 ---
-
 
 # Überblick über die neuen Funktionen Mai 2025
 
@@ -109,7 +109,7 @@ Weitere Informationen finden Sie in diesem [Artikel](/help/migrated/administrato
 
 Adobe Learning Manager unterstützt jetzt auch die Auswahl von Seminarräumen aus Adobe Connect beim Einrichten einer VC-Sitzung in Connect. Zuvor konnte der Administrator nur den Meetingraumtyp auswählen. Diese Erweiterung ermöglicht es Administratoren mit einer gültigen Seminarlizenz, einmalige oder große Veranstaltungen (bis zu 1.500 Teilnehmer) in Adobe Learning Manager zu planen und zu verwalten.
 
-Weitere Informationen zum Seminarraum finden Sie in diesem [Artikel](https://helpx.adobe.com/de/adobe-connect/using/creating-seminars.html).
+Weitere Informationen zum Seminarraum finden Sie in diesem [Artikel](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html).
 
 ### Unterstützung für den Zugriff auf Sitzungsanalysen
 
@@ -155,7 +155,7 @@ Webhook ändert sich.
 
 ### Eindeutige ID und Ablaufdatum für Inhalte mit Migration hinzufügen
 
-Eindeutige ID des Inhalts und Ablaufdatum werden jetzt während der Migration unterstützt. Zwei zusätzliche Spalten: expiryDate und uniqueContentId wurden der Datei module_version.csv hinzugefügt, um diese Funktion zu aktivieren.
+Eindeutige ID des Inhalts und Ablaufdatum werden jetzt während der Migration unterstützt. Zwei zusätzliche Spalten: expiryDate und uniqueContentId wurden der Datei module_version.csv hinzugefügt, um diese Funktion zu aktivieren. Weitere Informationen finden Sie in der [CSV-Musterdatei ](assets/module_version_content.csv) und in der [CSV-Spezifikationsdatei ](assets/4-module_version_content.xlsx).
 
 Weitere Informationen zum Migrationsprozess finden Sie in diesem [Artikel](/help/migrated/integration-admin/feature-summary/migration-manual.md).
 
