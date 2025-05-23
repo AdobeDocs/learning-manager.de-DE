@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Versionshinweise zu Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 96e875a2b2cd2866a624068b5e8e18aabb39d888
+source-git-commit: ad358fa52a16de60f6a102de8f744ae00bbf44e8
 workflow-type: tm+mt
-source-wordcount: '26470'
-ht-degree: 72%
+source-wordcount: '26471'
+ht-degree: 71%
 
 ---
 
@@ -22,6 +22,15 @@ ht-degree: 72%
   </tr>
  </tbody>
 </table>-->
+
++++Update 10: Die Version November 2024 von Adobe Learning Manager
+
+**Freigabedatum**: 10. Mai 2025
+
+## Neue Funktionen in dieser Version
+
+Unter [Neue Funktionen in Adobe Learning Manager](/help/migrated/whats-new.md) finden Sie weitere Informationen.
++++
 
 +++Update 99: Die Version Februar 2025 von Adobe Learning Manager
 
@@ -49,7 +58,7 @@ Weitere Informationen finden Sie in diesem [Artikel](/help/migrated/learners/fea
 
 ## Neue Funktionen in dieser Version
 
-Unter [Neue Funktionen in Adobe Learning Manager](/help/migrated/whats-new.md) finden Sie weitere Informationen.
+Unter [Neue Funktionen in Adobe Learning Manager](/help/migrated/whats-new-nov-24.md) finden Sie weitere Informationen.
 +++
 
 +++Update 97: Die Version Juli 2024 von Adobe Learning Manager
@@ -1055,7 +1064,7 @@ Weitere Informationen finden Sie unter „Neue Funktionen“ im [Update von Lear
 * Das Herunterladen von Ressourcen aus einem Kurs funktionierte nicht, wenn er aus einem anderen Kurs kopiert wurde und der Teilnehmer keinen Zugriff auf den ursprünglichen zum Erstellen des duplizierten Kurses verwendeten Kurs hat.
 * Bannerbilder wurden nicht gelöscht, wenn der Autor sie entfernt, während sich der Kurs im Entwurfsstatus befindet. Dieses Problem wurde behoben.
 
-**AEM &#x200B;**
+**AEM **
 
 * Nach dem Einfügen der Learning Manager-Komponente in AEM dauerte das Laden der Seite lange und der Zugriff auf die anderen Komponenten war nicht möglich. Dieses Problem wurde behoben.
 
@@ -1489,7 +1498,7 @@ In diesem Update kann ein Teilnehmer Assets als Abschlussnachweis für ein exter
 
 Ein Teilnehmer kann ein externes Zertifikat öffnen und Assets wie PDF-, Text- oder Bilddateien hochladen.
 
-Weitere Informationen finden Sie unter [***Hochladen von Assets in externes Zertifikat***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).**&#x200B;**
+Weitere Informationen finden Sie unter [***Hochladen von Assets in externes Zertifikat***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).****
 
 ### In diesem Update behobene Probleme {#issuesfixedinthisrelease}
 
@@ -1591,11 +1600,6 @@ Derzeit können nur Administratoren Benutzer über die Benutzeroberfläche zu ei
 * Eskalations-E-Mails an Manager der Teilnehmer
 * Über direkte Berichte
 * Über Berichte der übernächsten Stufe
-
-Weitere Informationen zu Learning Manager-APIs finden Sie unter:
-
-* [***API-Referenz***] (<https://learningmanager.adobe.com/docs/Learning> Managerapi/v2/)
-* [***API-Entwicklerhandbuch***] (<https://helpx.adobe.com/captivate-Learning> Manager/integration-admin/feature-summary/developer-manual.html)
 
 ### In diesem Update behobene Probleme {#Issuesfixedinthisrelease-1}
 
@@ -1872,7 +1876,7 @@ Freigabedatum: 20. Juni 2019
 
 **Automatische Kuration des Inhalts**
 
-Mit Soziales Lernen können von Teilnehmern gepostete Inhalte auf zwei Arten kuratiert werden: **Keine Kuration** und **Manuelle Kuration**. In dieser Version hat Adobe Learning Manager das Soziale Lernen verbessert, indem AI-fähige Funktionen zur automatischen Kuration bereitgestellt wurden. Sobald der Inhalt veröffentlicht wurde, wird der Inhalt analysiert, um festzustellen, ob der Inhalt zu den Kenntnissen gehört, für die er veröffentlicht wurde. Basierend auf dem Confidence-Ergebnis wird der Inhalt entweder live veröffentlicht oder zur manuellen Kuration gesendet. Weitere Informationen finden Sie unter *[**&#x200B; Automatische Kuration &#x200B;**](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
+Mit Soziales Lernen können von Teilnehmern gepostete Inhalte auf zwei Arten kuratiert werden: **Keine Kuration** und **Manuelle Kuration**. In dieser Version hat Adobe Learning Manager das Soziale Lernen verbessert, indem AI-fähige Funktionen zur automatischen Kuration bereitgestellt wurden. Sobald der Inhalt veröffentlicht wurde, wird der Inhalt analysiert, um festzustellen, ob der Inhalt zu den Kenntnissen gehört, für die er veröffentlicht wurde. Basierend auf dem Confidence-Ergebnis wird der Inhalt entweder live veröffentlicht oder zur manuellen Kuration gesendet. Weitere Informationen finden Sie unter *[** Automatische Kuration **](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
 
 **Kenntnisse Kenntnisdomänen zuordnen**
 
@@ -1952,9 +1956,9 @@ Freigabedatum: 26. April 2019
 
 * **QR-Code zum Registrieren scannen:** Die QR-Code-Funktionen wurden verbessert. Neben der Anwesenheitskennzeichnung mithilfe von QR-Code wird jetzt auch die Anmeldung zu einem Kurs sowie die Durchführung eines Kurses mithilfe von QR-Code unterstützt.
 
-  Um sich für einen Kurs zu registrieren und den Kurs abzuschließen, können Sie einen QR-Code scannen, den Ihr Administrator bereitgestellt hat. Weitere Informationen zum Scannen von QR-Codes in der Webversion von Learning Manager finden Sie unter [***QR-Code scannen***] (<https://helpx.adobe.com/captivate-Learning> Manager/whats-new.html#QRcodetoenrollcompleteenrollcompleteacourse).
+Um sich für einen Kurs zu registrieren und den Kurs abzuschließen, können Sie einen QR-Code scannen, den Ihr Administrator bereitgestellt hat. Weitere Informationen zum Scannen von QR-Codes in der Webversion von Learning Manager finden Sie unter [***QR-Code scannen***](<https://helpx.adobe.com/captivate-Learning>Manager/whats-new.html#QRcodetoenrollcompleteenrollcompleteacourse).
 
-* **Mehrere Versuche im Kurs:** Mit der Learning Manager-App kann der Teilnehmer Kurse mit mehreren aktivierten Versuchen absolvieren. Weitere Informationen zum Einrichten mehrerer Versuche finden Sie unter [***Mehrere Versuche***] (<https://helpx.adobe.com/captivate-Learning> Manager/authors/feature-summary/courses.html#Multiattempts).
+* **Mehrere Versuche im Kurs:** Mit der Learning Manager-App kann der Teilnehmer Kurse mit mehreren aktivierten Versuchen absolvieren. Weitere Informationen zum Einrichten mehrerer Versuche finden Sie unter [***Mehrere Versuche***](<https://helpx.adobe.com/captivate-Learning>Manager/authors/feature-summary/courses.html#Multiattempts).
 
 +++
 
@@ -2456,7 +2460,7 @@ Falsche Berichte für Teilnehmertranskripte werden in Learning Manager generiert
 
 #### API-Ebene {#apilayer}
 
-Eine Fehlermeldung wird angezeigt, wenn Sie versuchen, die Modulversionsinformationen mit AP/courses/{coursesid} aufzurufen. Dieser Fehler wurde behoben.
+Bei jedem Versuch, die Modulversionsinformationen mit AP/courses/{coursesid} abzurufen, tritt ein Fehler auf. Dieser Fehler wurde behoben.
 
 +++
 
@@ -2496,7 +2500,7 @@ Freigabedatum: 06. Dezember 2016.
 
 ### Verbesserungen {#enhancement}
 
-Als Teil dieses Updates stellt der Lern-Manager einen Endpunkt [PATCH/users/{id}] (<https://learningmanager.adobe.com/docs/Learning> Managerapi/v1/#!/user/patch_users_id), um Benutzer in einer Anwendung zu aktualisieren. Sie können auf diesen API-Endpunkt in der Administratorrolle zugreifen. Unter Verwendung **&#x200B;**&#x200B;Endpunkts können Sie die folgenden Informationen von Learning Manager-Benutzern aktualisieren:
+Als Teil dieses Updates stellt der Learning Manager einen Endpunkt [PATCH/users/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id), um Benutzer in einer Anwendung zu aktualisieren. Sie können auf diesen API-Endpunkt in der Administratorrolle zugreifen. Unter Verwendung **** Endpunkts können Sie die folgenden Informationen von Learning Manager-Benutzern aktualisieren:
 
 * Name
 * E-Mail
@@ -2727,9 +2731,9 @@ Im Rahmen dieses Updates haben wir folgende neue APIs hinzugefügt, um einige un
 1. Benutzer VERÖFFENTLICHEN
 1. Benutzer LÖSCHEN
 1. Benutzergruppen ABRUFEN
-1. Benutzergruppen ABRUFEN /{id}
-1. Benutzergruppen/{id} /Users LÖSCHEN
-1. Benutzergruppen/{id} /Users VERÖFFENTLICHEN
+1. GET userGroups /{id}
+1. Benutzergruppen im DELETE /{id}/Users
+1. POST userGroups /{id}/Users
 1. /users/userId/userGroups ABRUFEN
 
 Wir haben auch das vorhandene Benutzermodell mit den folgenden Zusätzen erweitert:
@@ -3006,7 +3010,7 @@ Das Exportieren von Registrierungsdaten schlug fehl, wenn einer der registrierte
 
 **E-Mail-Vorlagen**
 
-* Das Wort **partner,**, das zur Darstellung externer Gruppen verwendet wurde,**&#x200B;** ist **&#x200B;**&#x200B;aus dem Text und dem Titel der E-Mail-Vorlagen entfernt. Externe Gruppen werden nicht unbedingt Partner genannt.\
+* Das Wort **partner,**, das zur Darstellung externer Gruppen verwendet wurde,**** ist **** aus dem Text und dem Titel der E-Mail-Vorlagen entfernt. Externe Gruppen werden nicht unbedingt Partner genannt.\
   **Hinweis:** Diese aktualisierte Vorlage wird nicht angezeigt, wenn die Standardvorlage bereits geändert wurde. Um die aktualisierte Vorlage anzuzeigen, klicken Sie auf **Auf Original zurücksetzen** im Dialogfeld **Vorlagenvorschau**.
 
 * Auf die URL kann in der E-Mail, die von den Administratoren erhalten wird, nicht geklickt werden, wenn E-Mail-Vorlagen **Profil erstellt(Selbstregistrierung)** und **Profil erstellt(Externe/Partner)** bearbeitet werden. Dieses Problem wurde nun behoben.
@@ -3064,7 +3068,7 @@ Bei der Anmeldung als Administrator funktionierte der Seitenumbruch nicht auf de
 
 **Kenntnisse erstellen**
 
-Bei der Teilnehmeranmeldung hat die Quickinfo des Kenntnisnamens in **&#x200B; Kenntniskarte &#x200B;**&#x200B;**&#x200B;** den vollständigen Namen&#x200B;**&#x200B;** nicht angezeigt. Dieses Problem wurde nun behoben.
+Bei der Teilnehmeranmeldung hat die Quickinfo des Kenntnisnamens in **Kenntniskarte** nicht den vollständigen Namen angezeigt. Dieses Problem wurde nun behoben.
 
 **Externe Partner hinzufügen**
 

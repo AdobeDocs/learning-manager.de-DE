@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Erstellen von Kursinstanzen und Lernpfaden
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
+source-git-commit: ad358fa52a16de60f6a102de8f744ae00bbf44e8
 workflow-type: tm+mt
 source-wordcount: '5674'
 ht-degree: 52%
@@ -613,7 +613,7 @@ Führen Sie die folgenden Schritte aus, um Abschlusskommentare hinzuzufügen:
 2. Gehen Sie zur Seite **[!UICONTROL Kurse]** und wählen Sie einen Kurs aus.
 3. Wählen Sie auf der Kursseite **[!UICONTROL Teilnehmer]** aus.
 4. Wählen Sie den einzelnen Teilnehmer oder mehrere Teilnehmer aus.
-5. Wählen Sie **[!UICONTROL Aktionen]** aus und wählen Sie dann **[!UICONTROL &#x200B; Als abgeschlossen markieren]**.
+5. Wählen Sie **[!UICONTROL Aktionen]** und anschließend **[!UICONTROL Abschluss markieren]**.
 6. Geben Sie den Abschlusskommentar in das Dialogfeld ein.
 
    ![](assets/comments.png)

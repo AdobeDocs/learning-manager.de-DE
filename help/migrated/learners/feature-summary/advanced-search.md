@@ -3,7 +3,7 @@ jcr-language: en_us
 title: KI-gestützte Suche in Adobe Learning Manager
 description: KI-gestützte Suche in Adobe Learning Manager
 exl-id: 9982a8be-b2e6-42a4-836a-7f9337588ae8
-source-git-commit: e25c92f9d91768db607cb153138cd02d1fbe28aa
+source-git-commit: 3c8bee8994ab13aacf8f4e1f4c9371f5808e17ce
 workflow-type: tm+mt
 source-wordcount: '1173'
 ht-degree: 0%
@@ -12,9 +12,15 @@ ht-degree: 0%
 
 # Erweiterte AI-Suche in Adobe Learning Manager
 
-Die Suchfunktion in ALM verbessert die Benutzererfahrung, da sie es ihnen ermöglicht, relevante Inhalte effizient zu finden und die richtigen Inhalte zu nutzen.
+Die Suchfunktion in Adobe Learning Manager verbessert die Benutzererfahrung, indem sie ihnen ermöglicht, relevante Inhalte effizient zu finden und die richtigen Inhalte zu nutzen.
 
-Adobe Learning Manager führt eine KI-gestützte Suchfunktion ein, die lexikalische und semantische Suche kombiniert. Die Suche ist intelligenter, da sie nach bestimmten Begriffen sucht und den Kontext und die Absicht dahinter versteht. Die erweiterte KI-gestützte Suche versteht die Bedeutung Ihrer Abfrage und liefert relevante Ergebnisse.
+Adobe Learning Manager führt eine KI-gestützte Suchfunktion ein, die lexikalische und semantische Suche kombiniert. Diese erweiterte Funktion ermöglicht es Teilnehmern, relevante Inhalte effizient zu finden. Die erweiterte KI-gestützte Suche versteht die Bedeutung Ihrer Abfrage und liefert relevante Ergebnisse.
+
+## Wichtigste Vorteile
+
+* **Intelligentere Suche**: Versteht den Kontext und die Absicht hinter den Suchbegriffen
+* **Verbesserte Relevanz**: Stellt Ergebnisse bereit, die auf der Bedeutung Ihrer Abfrage basieren
+* **Verbessertes Benutzererlebnis**: Hilft Teilnehmern, den richtigen Inhalt zu nutzen
 
 >[!NOTE]
 >
@@ -24,14 +30,14 @@ Adobe Learning Manager führt eine KI-gestützte Suchfunktion ein, die lexikalis
 
 Die Suchfunktion ist aus mehreren Gründen wichtig:
 
-* **Benutzererlebnis**: Eine gut implementierte Suchfunktion erhöht die Benutzerzufriedenheit, da Benutzer die benötigten Informationen schnell finden können.
-* **Effizienz**: Sie spart Zeit, indem sie den Aufwand für das Auffinden bestimmter Inhalte reduziert, insbesondere in großen Datenbanken oder Lernmanagementsystemen.
+* **Benutzererlebnis**: Steigert die Benutzerzufriedenheit durch Aktivierung des schnellen Informationsabrufs
+* **Effizienz**: Sparen Sie Zeit, indem Sie die Suche nach bestimmten Inhalten beschleunigen.
 * **Barrierefreiheit**: Effektive Suchfunktionen machen Informationen zugänglicher und stellen sicher, dass Benutzer mit Inhalten interagieren können, die für ihre Bedürfnisse relevant sind.
 * **Personalisierung**: Erweiterte Suchsysteme können die Ergebnisse auf der Grundlage von Benutzervoreinstellungen zuschneiden und so die Relevanz der angezeigten Informationen verbessern.
 
 ## Entwicklung des Suchverhaltens im Web
 
-Wenn Menschen online suchen, ändert sich die Art und Weise, wie sie suchen, und Suchmaschinen passen sich an, um mit ihnen Schritt zu halten. Im Folgenden sind einige der wichtigsten Methoden, mit denen heutzutage nach Informationen gesucht wird:
+Wenn Menschen online suchen, ändert sich die Art und Weise, wie sie suchen, und Suchmaschinen passen sich an, um mit ihnen Schritt zu halten. Im Folgenden finden Sie einige wichtige Möglichkeiten, wie Personen in letzter Zeit nach Informationen suchen:
 
 * **Absichtsorientiert**: Anstatt exakte Stichwörter einzugeben, geben Benutzer jetzt ihre Bedürfnisse mit Ausdrücken wie &quot;Ich möchte&quot; oder &quot;Ich muss&quot; an. Moderne Suchmaschinen verstehen den Zweck hinter diesen Ausdrücken und liefern relevantere Ergebnisse.
 * **Ranking-Ergebnisse**: Die Suchergebnisse werden anhand der von anderen Benutzern als hilfreich erachteten Ergebnisse organisiert. Das bedeutet, dass der nützlichste Inhalt oben angezeigt wird, was das Auffinden von Qualitätsinformationen erleichtert.
@@ -40,7 +46,7 @@ Wenn Menschen online suchen, ändert sich die Art und Weise, wie sie suchen, und
 
 ## Warum Adobe Learning Manager besser sucht
 
-Adobe Learning Manager bietet eine intelligentere, fortschrittlichere Sucherfahrung, die nicht nur mit den Schlüsselwörtern übereinstimmt, sondern auch die Bedeutung der Benutzerabfrage im Kontext versteht, um die relevantesten Ergebnisse für sie zu finden.
+Adobe Learning Manager bietet intelligentere, fortschrittlichere Suchfunktionen. Es sucht nicht nur nach Schlüsselwörtern, sondern versteht auch kontextbezogen die Bedeutung von Benutzerabfragen, um die relevantesten Ergebnisse zu finden.
 
 * **KI-gestützt**: Adobe Learning Manager verwendet erweiterte KI-Techniken, um die Bedeutung hinter der Suchabsicht und nicht nur die Wörter zu verstehen. Dies hilft, Ergebnisse anzuzeigen, die wirklich dem entsprechen, was der Benutzer möchte, wodurch die Suche genauer wird.
 * **Peer-Driven**: Adobe Learning Manager verwendet eine Reihe von Kursqualitätsparametern, um die nützlichsten Ergebnisse zu bewerten. Dieser Ranking-Algorithmus wird auf 50 Millionen Datenpunkte trainiert, die regelmäßig jeden Content im Repository bewerten
@@ -71,6 +77,14 @@ _Abfrage wird erweitert_
 Die Metadatensuche von Adobe Learning Manager umfasst Metadaten aus nativen und importierten Kursen (z. B. aus LinkedIn Learning oder Go1). Diese Funktion durchsucht Ihre Kurstitel, Beschreibungen, Tags, personalisierten Notizen und anderen Metadaten. Dies trägt dazu bei, die Ergebnisse besser und genauer zu machen, indem viele verschiedene Metadaten verwendet werden, um Ergebnisse zu finden.
 Hinweis: Kundendaten, einschließlich Inhalt und Transkripte, werden nicht an externe Services für KI-gestützte Suche weitergegeben. Der gesamte Inhalt wird innerhalb des aktuellen Speichersystems gespeichert.
 
+#### Inhaltsinterne Suche
+
+Adobe Learning Manager bietet erweiterte Suchfunktionen, mit denen Anwender Inhalte verschiedener Dateitypen durchsuchen können, z. B. Videos, Audiodateien, PDF, Dokumente, Präsentationen und Tabellenblätter. Das System transkribiert diese Inhalte automatisch, um umfassendere und genauere Suchergebnisse zu erhalten. Darüber hinaus werden Aufzeichnungen von Adobe Connect-Meetings in die Suche einbezogen, um sicherzustellen, dass wichtige Informationen nicht verloren gehen. Wenn eine Übereinstimmung im Inhalt gefunden wird, erhöht das Suchmodell die Einstufung dieses Inhalts in den Endergebnissen. Die endgültige Bewertung wird durch mehrere Faktoren bestimmt, wie im Abschnitt [KI-gestützte Suche und Neubewertung](/help/migrated/learners/feature-summary/advanced-search.md#ai-powered-search-and-re-ranking) beschrieben.
+
+>[!NOTE]
+>
+>Neu hinzugefügte Inhalte wie Videos oder PDF stehen nach einem Verarbeitungszeitraum von 24 Stunden für die Inhaltssuche zur Verfügung.
+
 ### Semantische Suche
 
 Adobe Learning Manager enthält jetzt neben der herkömmlichen lexikalischen Suche auch die semantische Suche, wodurch die Genauigkeit der Suchergebnisse verbessert wird. Durch das Generieren von Vektoreinbettungen aus Kurstiteln und Beschreibungen wird eine umfassende Vektordatenbank erstellt. Wenn ein Teilnehmer eine Abfrage sendet, vektorisiert das System die Abfrage und führt einen Ähnlichkeitsabgleich durch, um die relevantesten Ergebnisse zu identifizieren. Wenn ein Teilnehmer beispielsweise nach einem Photoshop-Tutorial für Einsteiger sucht, versteht das System die Anfrage und findet Kurse, die besonders für Photoshop-Anfänger hilfreich sind.
@@ -82,20 +96,11 @@ _Semantische Suche_
 >
 >Die semantische Suche unterstützt derzeit nur englische Inhalte.
 
-### Inhaltsinterne Suche
-
-Die Suchfunktion von Adobe Learning Manager wurde erweitert, um tatsächliche Inhalte zu durchsuchen. Es transkribiert automatisch Videos, Audiodateien, PDF, Dokumente, ppt und xls und bindet diese Transkripte in Suchergebnisse ein. Darüber hinaus werden Adobe Connect-Meetingaufzeichnungen verwendet, um umfassendere und relevantere Ergebnisse zu erzielen. Diese Verbesserung stellt sicher, dass Kurse mit umfangreichen Inhalten wie Videos und Meetingnotizen einbezogen werden, was die Suchgenauigkeit und -effektivität erheblich verbessert. Die inhaltliche Übereinstimmung trägt zur Verbesserung der Bewertung von Suchergebnissen bei, indem sie den Ergebnissen, die durch traditionelle Ausdrucksübereinstimmung und semantische Übereinstimmung gefunden wurden, einen Schub verleiht.
-
->[!NOTE]
->
->Neu hinzugefügte Inhalte wie Videos oder PDF stehen nach einem Verarbeitungszeitraum von 24 Stunden für die Inhaltssuche zur Verfügung.
-
 ### KI-gestützte Suche und Neueinstufung
 
-Adobe Learning Manager&#39;s Suche ist branchenführend und verwendet eine einzigartige Mischung aus fortschrittlichen Technologien, um hochwertige Ergebnisse zu erzielen. Es kombiniert traditionelle Suchmethoden (z. B. Ausdrucksübereinstimmung), eine ausgefeilte semantische Suche und die Inhaltssuche, um umfassende Ergebnisse zu erzielen. Diese Ergebnisse werden nach wichtigen Kursqualität-Faktoren wie Anmeldungen, Veröffentlichungstermine, Bewertungen, Beliebtheit und mehr eingestuft, wodurch sichergestellt wird, dass die höchste Qualität von allen Indizes, geleitet von unserem Kurs-Qualitäts-Ranking-System.
+Die Suche von Adobe Learning Manager ist branchenführend, da sowohl herkömmliche als auch fortschrittliche Technologien kombiniert werden. Es kombiniert traditionelle Suchmethoden wie Ausdrucksübereinstimmung und anspruchsvolle semantische Suche, um umfassende Ergebnisse zu erzielen. Das System ordnet diese Ergebnisse basierend auf Schlüsselfaktoren wie Registrierungsnummern, Veröffentlichungsdaten, Bewertungen und Beliebtheit an. Dies gewährleistet qualitativ hochwertige Übereinstimmungen aus allen Indizes, geleitet von unserem Kurs-Qualitäts-Ranking-System.
 
-Insgesamt ist die KI-gestützte Suche von ALM gründlich, präzise und einfach zu bedienen, sodass die Teilnehmer schnell genau das finden, was sie für ihre Lernreise benötigen.
-
+Insgesamt ist die KI-gestützte Suche auf eine gründliche, genaue und benutzerfreundliche Suche ausgelegt, die den Teilnehmern dabei hilft, schnell die Ressourcen zu finden, die sie für ihre Lernreise benötigen.
 
 >[!NOTE]
 >
