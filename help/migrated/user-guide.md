@@ -3,7 +3,7 @@ title: Willkommen beim Benutzerhandbuch für Adobe Learning Manager
 description: Informieren Sie sich über das neueste Angebot in Adobe Learning Manager (früher Adobe Captivate Prime). Beginnen Sie am Anfang, besuchen Sie die einzelnen Abschnitte nacheinander oder bearbeiten Sie ein Projekt gemeinsam mit der Community.
 contentowner: dhv
 exl-id: 482314a1-1cb1-4fb7-aa52-ee1969c5240a
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 9d46d64aae76b85f50eed9878779f290291e9026
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 19%
@@ -12,7 +12,7 @@ ht-degree: 19%
 
 # Willkommen beim Benutzerhandbuch für Adobe Learning Manager
 
-Lesen Sie weiter, um zu erfahren, welches das neueste Angebot in Adobe Learning Manager (früher Adobe Captivate Prime) ist. Beginnen Sie am Anfang, besuchen Sie die einzelnen Abschnitte nacheinander oder bearbeiten Sie ein Projekt gemeinsam mit der Community.
+Lesen Sie weiter, um zu erfahren, welches das neueste Angebot in Adobe Learning Manager ist (früher **[!UICONTROL Adobe Captivate Prime]**). Beginnen Sie am Anfang, besuchen Sie die einzelnen Abschnitte nacheinander oder bearbeiten Sie ein Projekt gemeinsam mit der Community.
 
 ## Reden Sie mit {#jointheconversation}
 
