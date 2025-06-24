@@ -2,10 +2,10 @@
 title: Mehrere Registrierungen in Adobe Learning Manager
 description: Als Kontoadministrator(in) ist es eine Ihrer Hauptaufgaben, verschiedene Instanzen von VILT-Sitzungen in verschiedenen Zeitzonen zu erstellen und möglicherweise Sitzungen für bestimmte Benutzer(innen)gruppen zu erstellen.
 exl-id: c430545d-b48e-432d-a278-658c9281818f
-source-git-commit: 5676ddb238309bc643394af1dde3cba7f8ac6699
+source-git-commit: 22cfa30d22a45afd3e0a65d8c088c2dda4d93072
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 65%
+source-wordcount: '604'
+ht-degree: 63%
 
 ---
 
@@ -39,6 +39,7 @@ Der Fortschritt jeder Instanz kann einzeln verfolgt werden, und ein Bericht kann
 * Eine Mehrfachregistrierung ist nur bei einem Kurs mit mehreren Instanzen möglich.
 * Sobald die Option für Mehrfachregistrierungen aktiviert ist und Benutzende in mehreren Instanzen registriert sind, werden neue Zeilen für jeden Kurs im Teilnehmertranskriptbericht erstellt (eine Zeile für jede Instanz und jede(n) Teilnehmende(n)).
 * Wenn die Berichtsautomatisierung eingerichtet ist, die nur eine Zeile pro Kurs vorwegnimmt, müssen Sie die erforderlichen Anpassungen an der Berichtsautomatisierung vornehmen, bevor Sie die Funktion zur Mehrfachregistrierung aktivieren.
+* Admin-APIs unterstützen keine Szenarien mit mehreren Registrierungen. Wenden Sie sich an Ihren CSM, wenn Sie Anforderungen haben.
 
 ## Aktivieren der Mehrfachregistrierung
 
