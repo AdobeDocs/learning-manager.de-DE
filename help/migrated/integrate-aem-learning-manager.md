@@ -4,9 +4,9 @@ title: Integration von Learning Manager in AEM
 description: Learning Manager ist ein Learning Management System mit einem integrierten Learning Content Management System. Benutzer verwalten ihre Lerninhalte, indem sie sie auf Learning Manager hochladen, sodass Learning Manager die Versionierung, die Zuweisung zu Kursen, die Definition der Sichtbarkeit für Teilnehmer, die Verfolgung der Nutzung und die Berichterstattung an Administratoren durchführt.
 contentowner: saghosh
 exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
-source-git-commit: 447a4e041d74cf086afada3794ac08a04e70c2ca
+source-git-commit: 45e9b9cd291e180a3d29d6635ec81bc362eb3e96
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1082'
 ht-degree: 45%
 
 ---
@@ -31,7 +31,7 @@ Installieren Sie das Learning Manager-Inhaltspaket mit dem AEM Package Manager:
 
 >[!NOTE]
 >
->Informationen zum Installieren von Paketen finden Sie unter [***Arbeiten mit Paketen***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=de#how-to-work-with-packages).
+>Informationen zum Installieren von Paketen finden Sie unter [***Arbeiten mit Paketen***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages).
 
 1. Öffnen Sie als AEM-Autor den AEM Package Manager.
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Paket hochladen]**.
@@ -125,13 +125,15 @@ Skyline ist die Cloud-Version von AEM. Sie müssen zuerst Skyline über den Pake
 
 Die Schritte zum Konfigurieren von Skyline sind im [GitHub-Repository](https://github.com/adobe/captivate-prime-aem-components) aufgeführt.
 
-## Katalog-Widget
+## Eigenes Lern-Widget
 
-Das Katalog-Widget zeigt einem Benutzer Schulungen aus einem bestimmten oder einem Satz von Katalogen an. Wählen Sie im Abschnitt &quot;Eigenschaften&quot; auf der Eigenschaftsseite einen Katalog aus den aufgeführten Optionen aus.
+Mit dem **[!UICONTROL Widget &quot;Eigenes Lernen&quot;]** können Sie Schulungen aus einem bestimmten oder einem Satz von Katalogen für einen Benutzer anzeigen.
+
+Wählen Sie im Abschnitt **[!UICONTROL Eigenschaften]** in den Seiteneigenschaften **[!UICONTROL Katalog]** aus den aufgeführten Optionen aus.
 
 <!--![](assets/catalog-widget.png)-->
 
-Das Katalog-Widget enthält die folgenden Optionen:
+Die Katalogoptionen enthalten die folgenden Optionen:
 
 * **[!UICONTROL Katalog-IDs]:** Durch Kommas getrennte Katalog-IDs, für die die Schulung angezeigt werden muss.
 * **[!UICONTROL Sortieren]:** Sortierreihenfolge für die Schulung. Die Optionen sind: Name, Datum, dateCreated, dateEnrolled usw.
