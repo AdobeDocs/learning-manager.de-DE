@@ -208,7 +208,7 @@ Die Inhaltsbibliothek verwaltet auch die Versionierung Ihrer hochgeladenen Inhal
 
    Die Untertitel werden dann im Fluidic Player angezeigt. Die Untertitel sind auch mit den [WCAG2.0-Standards](https://www.w3.org/TR/WCAG20/) kompatibel.
 
-   Wenn Sie der Bibliothek einen Videoinhalt hinzufügen, können Sie auch die VTT-Datei hinzufügen, bei der **** eine gültige Datei sein muss.
+   Wenn Sie der Bibliothek einen Videoinhalt hinzufügen, können Sie auch die VTT-Datei hinzufügen, bei der **&#x200B;**&#x200B;eine gültige Datei sein muss.
 
    ![](assets/webvtt.png)
 
