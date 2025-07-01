@@ -3,10 +3,10 @@ description: Erfahren Sie, wie Sie Inhalt zum Selbststudium erstellen können, d
 jcr-language: en_us
 title: Inhaltsbibliothek
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
+source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
 workflow-type: tm+mt
-source-wordcount: '4319'
-ht-degree: 39%
+source-wordcount: '4546'
+ht-degree: 37%
 
 ---
 
@@ -208,7 +208,7 @@ Die Inhaltsbibliothek verwaltet auch die Versionierung Ihrer hochgeladenen Inhal
 
    Die Untertitel werden dann im Fluidic Player angezeigt. Die Untertitel sind auch mit den [WCAG2.0-Standards](https://www.w3.org/TR/WCAG20/) kompatibel.
 
-   Wenn Sie der Bibliothek einen Videoinhalt hinzufügen, können Sie auch die VTT-Datei hinzufügen, bei der **&#x200B;**&#x200B;eine gültige Datei sein muss.
+   Wenn Sie der Bibliothek einen Videoinhalt hinzufügen, können Sie auch die VTT-Datei hinzufügen, bei der **** eine gültige Datei sein muss.
 
    ![](assets/webvtt.png)
 
@@ -595,6 +595,36 @@ Der Inhalt wird jetzt in der Liste „Veröffentlicht“ angezeigt.
 ## Inhalt aktualisieren
 
 Autoren können den Inhalt des veröffentlichten Kurses aktualisieren. Dadurch erhalten die Teilnehmer die neueste Version des Inhalts. Weitere Informationen finden Sie in diesem [Blog](https://elearning.adobe.com/2024/06/how-to-update-the-content-in-the-course/).
+
+### Inhaltsversionskontrolle für Teilnehmer, die einen Kurs abgeschlossen haben
+
+Adobe Learning Manager bietet Autoren beim Aktualisieren von Inhalten eine klarere Versionskontrolle. Autoren sehen jetzt während einer Aktualisierung der Inhaltsversion drei genau definierte Optionen:
+
+| Teilnehmerstatus | Jetzt aktualisieren | Eventuell aktualisieren | Update nicht gestartet |
+|---|---|---|---|
+| Nicht registriert | V2 | V2 | V2 |
+| Noch nicht begonnen | V2 | V2 | V2 |
+| Wird ausgeführt | V2 * | V1 → V2 * | V1 |
+| Abgeschlossen | V2 * | V2 * | V1 (beibehalten) |
+
+(*) Gibt an, dass das Modul beim Versionsupdate zurückgesetzt wird.
+
+In **[!UICONTROL Update nicht gestartet]** sieht der abgeschlossene Teilnehmer weiterhin die vorhandene Inhaltsversion (V1), wodurch das Problem unerwarteter weißer Bildschirme behoben wird.
+
+* **[!UICONTROL Jetzt aktualisieren]**: Inhaltsaktualisierung für alle Teilnehmer anwenden (nicht gestartet, Teilnehmer in Bearbeitung und Abgeschlossene Teilnehmer würden jetzt auf eine neue Inhaltsversion umgestellt)
+* **[!UICONTROL Letzte Aktualisierung]**: Letztendlich eine Inhaltsaktualisierung für alle Teilnehmer anwenden (nicht gestartet, abgeschlossene Teilnehmer würden jetzt auf eine neue Inhaltsversion umgestellt; Teilnehmer in Bearbeitung würden nach Abschluss umgestellt)
+* **[!UICONTROL Update nicht gestartet]**: Inhaltsaktualisierung nur für nicht gestartete Teilnehmer anwenden (laufende und abgeschlossene Teilnehmer verbleiben in der vorhandenen Inhaltsversion)
+
+#### Änderungen in der Benutzeroberfläche
+
+| Altes Etikett | Neue Option |
+|---|---|
+| Inhaltsaktualisierung auf alle Teilnehmer anwenden | Alle Teilnehmer jetzt aktualisieren:Inhaltsaktualisierung für alle Teilnehmer anwenden |
+| Aktualisierung auf Teilnehmer anwenden, die noch nicht gestartet wurden | Nur nicht angefangene Teilnehmer aktualisieren: Inhaltsaktualisierung nur für nicht angefangene Teilnehmer anwenden |
+| In Bearbeitung befindliche Teilnehmer erhalten nach Abschluss eine Aktualisierung | Letztendlich alle Teilnehmer aktualisieren: Wenden Sie schließlich die Inhaltsaktualisierung für alle Teilnehmer an |
+
+![](assets/version-control-options.png)
+
 
 ## Inhalte löschen {#deletecontent}
 

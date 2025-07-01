@@ -2,10 +2,10 @@
 user-guide-title: Leitfaden für Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Dokumentation für Adobe Learning Manager
-source-git-commit: 7d2f7fed5ef924ac74559192cd692cb011561e3c
+source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 80%
+source-wordcount: '682'
+ht-degree: 79%
 
 ---
 
@@ -15,6 +15,7 @@ ht-degree: 80%
 * [Benutzerhandbuch für Learning Manager](user-guide.md)
 * Einführung {#introduction}
    * [Überblick über die neuen Funktionen Mai 2025](/help/migrated/whats-new.md)
+   * [Künftige Änderungen in Adobe Learning Manager](/help/migrated/upcoming-changes-in-adobe-learning-manager.md)
    * [Überblick über die neuen Funktionen November 2024](/help/migrated/whats-new-nov-24.md)
    * [Überblick über die neuen Funktionen Juli 2024](whats-new-july-2024.md)
    * [Neue Funktionen März 2024](whats-new-march-2024.md)
@@ -93,6 +94,7 @@ ht-degree: 80%
    * [Lernprogramme](administrators/feature-summary/learning-programs.md)
    * [Produktterminologie](administrators/feature-summary/product-terminology.md)
 * Integrations-Admin {#integration}
+   * [Handbuch für Anwendungsentwickler](integration-admin/feature-summary/developer-manual.md)
    * [Migrationshandbuch](integration-admin/feature-summary/migration-manual.md)
    * [Learning Manager-Connectors](integration-admin/feature-summary/connectors.md)
    * [Nicht angemeldete APIs](integration-admin/feature-summary/non-logged-in-apis.md)
@@ -104,7 +106,6 @@ ht-degree: 80%
    * [Integration von Learning Manager in AEM](integrate-aem-learning-manager.md)
    * [Installieren des Salesforce-Pakets in Learning Manager](integration-admin/feature-summary/install-salesforce-package.md)
    * [Installieren des Microsoft Teams-Connectors](integration-admin/feature-summary/install-microsoft-teams-connector.md)
-   * [Handbuch für Anwendungsentwickler](integration-admin/feature-summary/developer-manual.md)
    * [Learning Manager-App für Salesforce](integration-admin/feature-summary/sfdc-app.md)
    * [Einstellungen](integration-admin/feature-summary/settings.md)
    * [Verwalten benutzerdefinierter Rollen über CSV-Dateien](integration-admin/feature-summary/configure-role-csv-files.md)

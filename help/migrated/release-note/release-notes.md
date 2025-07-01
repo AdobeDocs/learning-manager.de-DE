@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Versionshinweise zu Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: b704d69970b0e1de6bb3b2ff682c286c1940a354
+source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
 workflow-type: tm+mt
-source-wordcount: '26471'
-ht-degree: 71%
+source-wordcount: '27011'
+ht-degree: 70%
 
 ---
 
@@ -22,6 +22,83 @@ ht-degree: 71%
   </tr>
  </tbody>
 </table>-->
+
++++Update 101: Die Version Juni 2025 von Adobe Learning Manager
+
+## Rollenbasierte E-Mail-Vorlagen
+
+### Zielgruppe
+
+Administratoren und Autoren, die E-Mail-Vorlagen verwalten
+
+### Überblick
+
+Sie (Administrator oder Autor) können E-Mail-Vorlagen basierend auf der Rolle des Empfängers, des Teilnehmers, des Managers oder des Kursleiters aktivieren oder deaktivieren. Sie erhalten so mehr Kontrolle über die Art und Häufigkeit der Kommunikation mit Ihren Teilnehmern.
+
+### Anwendungsfall
+
+* Administratoren und Autoren müssen Teilnehmer per E-Mail benachrichtigen, ohne Manager zu benachrichtigen (z. B. Teilnehmerregistrierungen).
+* Die Option, E-Mails für eine bestimmte Rolle gesammelt zu aktivieren oder zu deaktivieren (z. B. alle E-Mails an Manager zu deaktivieren).
+
+### Bestehender Arbeitsablauf
+
+Wenn die Absicht darin besteht, E-Mails an Teilnehmer, aber nicht an Manager zu senden (z. B. Kursregistrierung), sendet die aktuelle Vorlage E-Mails an alle Rollen.
+
+### Neue Funktionen
+
+* Rollenbasierte Umschalter auf der E-Mail-Vorlagen-Benutzeroberfläche.
+* Massenaktivierung/Deaktivierung für eine bestimmte Rolle.
+* Sichtbarkeit in Rollen pro Vorlage.
+
+Weitere Informationen finden Sie in diesem [Artikel](/help/migrated/administrators/feature-summary/email-templates.md#enable-or-disable-email-at-a-role-level).
+
+## Verbesserte Inhaltsversionskontrolle für Teilnehmer, die einen Kurs abgeschlossen haben
+
+### Überblick
+
+Wenn das Inhaltsmodul eines abgeschlossenen Kurses auf eine neuere Version aktualisiert wurde, wurde den Teilnehmern ein weißer Bildschirm angezeigt. Dieses Problem trat auch auf, wenn der Autor entschied, den neuen Inhalt nur auf Teilnehmer anzuwenden, die den Kurs noch nicht gestartet hatten. Das Problem beeinträchtigte die Benutzererfahrung und führte zu Verwirrung bei früheren Teilnehmern, die versuchten, den Kurs erneut zu besuchen, da sie Wiedergabeprobleme hatten.
+
+### Bestehendes Verhalten
+
+Wenn Autoren den Kursinhalt auf eine neue Version (V2) aktualisiert und diese nur auf die Teilnehmer angewendet haben, die den Kurs noch nicht gestartet haben, hat Adobe Learning Manager die Modulversion für abgeschlossene Teilnehmer im Hintergrund aktualisiert. Bei diesen Teilnehmern wurde ein weißer Bildschirm angezeigt, wenn sie erneut versuchen, auf den Inhalt zuzugreifen, da das aktualisierte Modul für sie nicht mehr gültig war.
+
+### Beispiele:
+
+* Ein abgeschlossener Teilnehmer versuchte, den Kurs nach dem Update erneut aufzurufen, und sah einen weißen Bildschirm.
+* Ein laufender Teilnehmer hat den Kurs abgeschlossen, später jedoch einen weißen Bildschirm angezeigt, nachdem die Inhaltsversion unbeaufsichtigt aktualisiert wurde.
+
+### Was hat sich verändert
+
+Adobe Learning Manager bietet Autoren beim Aktualisieren von Inhalten deutlichere Versionskontrolloptionen. Autoren sehen jetzt während einer Aktualisierung der Inhaltsversion drei genau definierte Optionen:
+
+| Teilnehmerstatus | Jetzt aktualisieren | Eventuell aktualisieren | Update nicht gestartet |
+|---|---|---|---|
+| Nicht registriert | V2 | V2 | V2 |
+| Noch nicht begonnen | V2 | V2 | V2 |
+| Wird ausgeführt | V2 * | V1 → V2 * | V1 |
+| Abgeschlossen | V2 * | V2 * | V1 (beibehalten) |
+
+(*) Gibt an, dass das Modul beim Versionsupdate zurückgesetzt wird.
+
+In **[!UICONTROL Update nicht gestartet]** sieht der abgeschlossene Teilnehmer weiterhin die vorhandene Inhaltsversion (V1), wodurch das Problem unerwarteter weißer Bildschirme behoben wird.
+
+* **[!UICONTROL Jetzt aktualisieren]**: Inhaltsaktualisierung für alle Teilnehmer anwenden (nicht gestartet, Teilnehmer in Bearbeitung und Abgeschlossene Teilnehmer würden jetzt auf eine neue Inhaltsversion umgestellt)
+* **[!UICONTROL Letzte Aktualisierung]**: Letztendlich eine Inhaltsaktualisierung für alle Teilnehmer anwenden (nicht gestartet, abgeschlossene Teilnehmer würden jetzt auf eine neue Inhaltsversion umgestellt; Teilnehmer in Bearbeitung würden nach Abschluss umgestellt)
+* **[!UICONTROL Update nicht gestartet]**: Inhaltsaktualisierung nur für nicht gestartete Teilnehmer anwenden (laufende und abgeschlossene Teilnehmer verbleiben in der vorhandenen Inhaltsversion)
+
+### Änderungen in der Benutzeroberfläche
+
+| Altes Etikett | Neue Option |
+|---|---|
+| Inhaltsaktualisierung auf alle Teilnehmer anwenden | Alle Teilnehmer jetzt aktualisieren:Inhaltsaktualisierung für alle Teilnehmer anwenden |
+| Aktualisierung auf Teilnehmer anwenden, die noch nicht gestartet wurden | Nur nicht angefangene Teilnehmer aktualisieren: Inhaltsaktualisierung nur für nicht angefangene Teilnehmer anwenden |
+| In Bearbeitung befindliche Teilnehmer erhalten nach Abschluss eine Aktualisierung | Letztendlich alle Teilnehmer aktualisieren: Wenden Sie schließlich die Inhaltsaktualisierung für alle Teilnehmer an |
+
+![](assets/version-control-options.png)
+
+Weitere Informationen zur Inhaltsbibliothek finden Sie in diesem [Artikel](/help/migrated/authors/feature-summary/content-library.md#content-version-control-for-learners-who-have-completed-a-course).
+
++++
 
 +++Update 100: Die Version Mai 2025 von Adobe Learning Manager
 
@@ -554,7 +631,7 @@ Wenden Sie sich zum Abschließen dieser Aktion an die IT-Abteilung Ihres Unterne
 
 **Freigabedatum:** Mittwoch, 15. Februar 2022
 
-### Übersicht
+### Überblick
 
 Eine [Instanz](https://learningmanagerapac.adobe.com/acapindex.html) des Learning Managers wird jetzt auf AWS in Mumbai gehostet (ap-outh-1). Für Kunden, die diese Indien-Instanz verwenden, werden die personenbezogenen Informationen (PII) des Benutzers und die Lerndatensätze des Benutzers nur in der Region Indien gespeichert.
 
@@ -1064,7 +1141,7 @@ Weitere Informationen finden Sie unter „Neue Funktionen“ im [Update von Lear
 * Das Herunterladen von Ressourcen aus einem Kurs funktionierte nicht, wenn er aus einem anderen Kurs kopiert wurde und der Teilnehmer keinen Zugriff auf den ursprünglichen zum Erstellen des duplizierten Kurses verwendeten Kurs hat.
 * Bannerbilder wurden nicht gelöscht, wenn der Autor sie entfernt, während sich der Kurs im Entwurfsstatus befindet. Dieses Problem wurde behoben.
 
-**AEM &#x200B;**
+**AEM **
 
 * Nach dem Einfügen der Learning Manager-Komponente in AEM dauerte das Laden der Seite lange und der Zugriff auf die anderen Komponenten war nicht möglich. Dieses Problem wurde behoben.
 
@@ -1498,7 +1575,7 @@ In diesem Update kann ein Teilnehmer Assets als Abschlussnachweis für ein exter
 
 Ein Teilnehmer kann ein externes Zertifikat öffnen und Assets wie PDF-, Text- oder Bilddateien hochladen.
 
-Weitere Informationen finden Sie unter [***Hochladen von Assets in externes Zertifikat***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).**&#x200B;**
+Weitere Informationen finden Sie unter [***Hochladen von Assets in externes Zertifikat***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).****
 
 ### In diesem Update behobene Probleme {#issuesfixedinthisrelease}
 
@@ -1876,7 +1953,7 @@ Freigabedatum: 20. Juni 2019
 
 **Automatische Kuration des Inhalts**
 
-Mit Soziales Lernen können von Teilnehmern gepostete Inhalte auf zwei Arten kuratiert werden: **Keine Kuration** und **Manuelle Kuration**. In dieser Version hat Adobe Learning Manager das Soziale Lernen verbessert, indem AI-fähige Funktionen zur automatischen Kuration bereitgestellt wurden. Sobald der Inhalt veröffentlicht wurde, wird der Inhalt analysiert, um festzustellen, ob der Inhalt zu den Kenntnissen gehört, für die er veröffentlicht wurde. Basierend auf dem Confidence-Ergebnis wird der Inhalt entweder live veröffentlicht oder zur manuellen Kuration gesendet. Weitere Informationen finden Sie unter *[**&#x200B; Automatische Kuration &#x200B;**](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
+Mit Soziales Lernen können von Teilnehmern gepostete Inhalte auf zwei Arten kuratiert werden: **Keine Kuration** und **Manuelle Kuration**. In dieser Version hat Adobe Learning Manager das Soziale Lernen verbessert, indem AI-fähige Funktionen zur automatischen Kuration bereitgestellt wurden. Sobald der Inhalt veröffentlicht wurde, wird der Inhalt analysiert, um festzustellen, ob der Inhalt zu den Kenntnissen gehört, für die er veröffentlicht wurde. Basierend auf dem Confidence-Ergebnis wird der Inhalt entweder live veröffentlicht oder zur manuellen Kuration gesendet. Weitere Informationen finden Sie unter *[** Automatische Kuration **](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
 
 **Kenntnisse Kenntnisdomänen zuordnen**
 
@@ -2500,7 +2577,7 @@ Freigabedatum: 06. Dezember 2016.
 
 ### Verbesserungen {#enhancement}
 
-Als Teil dieses Updates stellt der Learning Manager einen Endpunkt [PATCH/users/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id), um Benutzer in einer Anwendung zu aktualisieren. Sie können auf diesen API-Endpunkt in der Administratorrolle zugreifen. Unter Verwendung **&#x200B;**&#x200B;Endpunkts können Sie die folgenden Informationen von Learning Manager-Benutzern aktualisieren:
+Als Teil dieses Updates stellt der Learning Manager einen Endpunkt [PATCH/users/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id), um Benutzer in einer Anwendung zu aktualisieren. Sie können auf diesen API-Endpunkt in der Administratorrolle zugreifen. Unter Verwendung **** Endpunkts können Sie die folgenden Informationen von Learning Manager-Benutzern aktualisieren:
 
 * Name
 * E-Mail
@@ -3010,7 +3087,7 @@ Das Exportieren von Registrierungsdaten schlug fehl, wenn einer der registrierte
 
 **E-Mail-Vorlagen**
 
-* Das Wort **partner,**, das zur Darstellung externer Gruppen verwendet wurde,**&#x200B;** ist **&#x200B;**&#x200B;aus dem Text und dem Titel der E-Mail-Vorlagen entfernt. Externe Gruppen werden nicht unbedingt Partner genannt.\
+* Das Wort **partner,**, das zur Darstellung externer Gruppen verwendet wurde,**** ist **** aus dem Text und dem Titel der E-Mail-Vorlagen entfernt. Externe Gruppen werden nicht unbedingt Partner genannt.\
   **Hinweis:** Diese aktualisierte Vorlage wird nicht angezeigt, wenn die Standardvorlage bereits geändert wurde. Um die aktualisierte Vorlage anzuzeigen, klicken Sie auf **Auf Original zurücksetzen** im Dialogfeld **Vorlagenvorschau**.
 
 * Auf die URL kann in der E-Mail, die von den Administratoren erhalten wird, nicht geklickt werden, wenn E-Mail-Vorlagen **Profil erstellt(Selbstregistrierung)** und **Profil erstellt(Externe/Partner)** bearbeitet werden. Dieses Problem wurde nun behoben.
