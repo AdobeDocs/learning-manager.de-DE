@@ -1,13 +1,13 @@
 ---
 title: Künftige Änderungen in Adobe Learning Manager
 description: Hier erfahren Sie mehr über die neuen Funktionen, Verbesserungen und wichtigen Updates, die in Kürze in Adobe Learning Manager verfügbar sind. Informiert euch über neue Entwicklungen, damit ihr vorausplanen und die neuesten Verbesserungen optimal nutzen könnt.
-source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
+exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
+source-git-commit: 63462eb272fe90d58c89f2be383fc103db6d4ece
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '648'
 ht-degree: 2%
 
 ---
-
 
 # Künftige Änderungen in Adobe Learning Manager
 
@@ -15,7 +15,7 @@ Wir freuen uns, einige wichtige Neuerungen in Adobe Learning Manager mit den kom
 
 Diese Änderungen dienen dazu, den manuellen Aufwand zu reduzieren, die Automatisierung zu unterstützen und die Governance bei Schulungen zu verbessern.
 
-## Abschlüsse mit Kursleiter im Teilnehmertranskript erfassen (M44)
+## Abschlüsse mit Kursleiter im Teilnehmertranskript erfassen
 
 ### Zielgruppe
 
@@ -45,7 +45,7 @@ Anwesenheitsstatus wie &quot;Mit Bestehen/Nicht Bestehen teilgenommen&quot; werd
 * Bei Verwendung von Spaltennamen sind keine Änderungen erforderlich.
 * Nachgerüstete Vervollständigungen (manuelle Einfuhr) sind nicht enthalten.
 
-## Links im Bericht zu Arbeitshilfen herunterladen (M44)
+## Links im Bericht zu Arbeitshilfen herunterladen
 
 ### Zielgruppe
 
@@ -69,7 +69,7 @@ Benutzer mit Zugriff (Admin/Autoren und benutzerdefinierte Rollen) können die A
 * Wenn das Skript auf der Spaltenposition basiert, aktualisieren Sie die Skripte entsprechend.
 * Bei Verwendung von Spaltennamen ist keine Aktion erforderlich.
 
-## Interne Benutzer-ID- und Manager-E-Mail-Spalten zum Benutzerbericht hinzugefügt (M44)
+## Spalten &quot;Interne Benutzer-ID&quot; und &quot;Manager-E-Mail&quot; zum Benutzerbericht hinzugefügt
 
 ### Zielgruppe
 
@@ -88,7 +88,7 @@ Der Benutzerbericht enthält die interne Benutzer-ID eines Benutzers und die E-M
 * Wenn Sie diesen Bericht in automatisierten Flows verwenden, sollte diese neu hinzugefügte Spalte in der Automatisierung berücksichtigt werden.
 * Wenn Workflows nicht betroffen sind, sind keine Änderungen erforderlich.
 
-## Umfang der Ankündigungsberechtigungen für benutzerdefinierte Administratoren (M44)
+## Berechtigungen für Ankündigungsbereiche für benutzerdefinierte Administratoren
 
 ### Zielgruppe
 
