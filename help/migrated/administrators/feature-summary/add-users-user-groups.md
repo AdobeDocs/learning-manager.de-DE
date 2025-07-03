@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Hinzufügen von Benutzern in Adobe Learning Manager
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 48896c0a6f2d4631005c8d0185d69e0e31f19776
+source-git-commit: c2a4a0ea8c9a4a5f28427a95caf63f0690b6dcc7
 workflow-type: tm+mt
 source-wordcount: '2257'
 ht-degree: 1%
@@ -14,11 +14,11 @@ ht-degree: 1%
 
 # Hinzufügen von Benutzern in Adobe Learning Manager
 
-In Adobe Learning Manager sind Benutzer Personen, die die Plattform zum Lernen oder für Schulungen verwenden. Es gibt zwei Arten von Benutzern: interne und externe Benutzer.
+In Adobe Learning Manager sind Benutzer Teilnehmer, die die Plattform zum Lernen oder für Schulungen verwenden. Es gibt zwei Arten von Benutzern: interne und externe Benutzer.
 
 Interne Benutzer sind Mitarbeiter oder Teammitglieder aus Ihrer Organisation.
 
-Externe Benutzer sind Personen außerhalb Ihres Unternehmens, z. B. Kunden, Partner, Anbieter oder Kunden, die auf Ihre Lerninhalte zugreifen können.
+Externe Benutzer sind Teilnehmer außerhalb Ihres Unternehmens, z. B. Kunden, Partner, Anbieter oder Kunden, die auf Ihre Lerninhalte zugreifen können.
 
 Mit Adobe Learning Manager (ALM) können Administratoren interne und externe Benutzer mit verschiedenen Methoden integrieren und verwalten, einschließlich manueller Eingabe, CSV-Upload, Selbstregistrierung und Systemintegrationen.
 
@@ -248,7 +248,7 @@ Es gibt einige Unterschiede zwischen internen und externen Registrierungen:
 | Interne Benutzer | Externe Benutzer |
 |---|---|
 | Anmeldung mit Adobe ID- oder SSO-Anmeldeinformationen möglich. | Anmeldung mit einer beliebigen E-Mail-ID möglich. |
-| Gamification ist verfügbar. | Gamification ist verfügbar. Der Administrator muss Gamification für externe Teilnehmer in den [Gamification-Einstellungen](https://experienceleague.adobe.com/de/docs/learning-manager/using/admin/gamification) aktivieren. |
+| Gamification ist verfügbar. | Gamification ist verfügbar. Der Administrator muss Gamification für externe Teilnehmer in den [Gamification-Einstellungen](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/gamification) aktivieren. |
 
 ### Externes Registrierungsprofil anhalten
 
