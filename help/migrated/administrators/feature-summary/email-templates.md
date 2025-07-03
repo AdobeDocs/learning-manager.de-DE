@@ -4,10 +4,10 @@ jcr-language: en_us
 title: E-Mail-Vorlagen
 contentowner: manochan
 exl-id: acc85500-2ed1-47a4-8e65-6e1b8ef7d156
-source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
+source-git-commit: 67e1a5f7140f9fe268059368918ccf6da6f16c4d
 workflow-type: tm+mt
-source-wordcount: '1610'
-ht-degree: 55%
+source-wordcount: '1512'
+ht-degree: 58%
 
 ---
 
@@ -41,21 +41,23 @@ Sie als Administrator können diese E-Mail-Vorlagen einfach aktivieren, deaktivi
 
    *Registerkarte &quot;Allgemein&quot; auswählen*
 
-1. Klicken Sie auf eine beliebige Registerkarte, um die Liste der E-Mail-Vorlagen anzuzeigen.
+2. Um mehrere E-Mail-Vorlagen für eine bestimmte Rolle zu aktivieren oder zu deaktivieren, wählen Sie die Auslassungspunkte (...) in der Spaltenüberschrift aus und aktivieren Sie alle entsprechenden Rollen in **[!UICONTROL E-Mail-Empfänger]**.
 
-   ![](assets/email-templates-ingeneraltab.png)
+   ![](assets/email-template-role.png)
+   _Alle E-Mail-Vorlagen auf Rollenebene senden_
 
-   *Liste der E-Mail-Vorlagen anzeigen*
+3. Um eine bestimmte E-Mail-Vorlage für eine Rolle zu aktivieren oder zu deaktivieren, wählen Sie die Auslassungspunkte (...) für diese Vorlage aus und wählen Sie eine Rolle aus bzw. heben Sie ihre Auswahl auf.
 
-   Sie können diese E-Mail-Benachrichtigungen einfach aktivieren oder deaktivieren, indem Sie auf die Umschaltfläche klicken.
+   ![](assets/email-template-role-1.png)
+   _E-Mail-Vorlage auf Rollenebene senden_
 
-1. Um den Inhalt der Vorlage zu ändern, klicken Sie auf den Vorlagennamen. Hier sehen Sie, dass Sie für verschiedene Benutzertypen unterschiedliche Vorlagen haben.
+4. Um den Inhalt der Vorlage zu ändern, klicken Sie auf den Vorlagennamen. Hier sehen Sie, dass Sie für verschiedene Benutzertypen unterschiedliche Vorlagen haben.
 
    ![](assets/preview-of-an-emailtemplate.png)
 
    *Vorlage einer E-Mail anzeigen*
 
-1. Klicken Sie auf den Text der E-Mail, um den Inhalt dieser E-Mail-Vorlage zu ändern. Nehmen Sie nun die Änderungen an der Vorlage vor. Sie können den Text ändern und eine dieser Variablen in Ihrer E-Mail verwenden. Die am Textabschnitt vorgenommenen Änderungen können nur auf diese E-Mail-Vorlage angewendet werden. Wenn Sie jedoch Änderungen an der Signatur dieser E-Mail vornehmen, kann diese global auf alle Vorlagen angewendet werden.
+5. Klicken Sie auf den Text der E-Mail, um den Inhalt dieser E-Mail-Vorlage zu ändern. Nehmen Sie nun die Änderungen an der Vorlage vor. Sie können den Text ändern und eine dieser Variablen in Ihrer E-Mail verwenden. Die am Textabschnitt vorgenommenen Änderungen können nur auf diese E-Mail-Vorlage angewendet werden. Wenn Sie jedoch Änderungen an der Signatur dieser E-Mail vornehmen, kann diese global auf alle Vorlagen angewendet werden.
 
    Um die Namen der Symbole anzuzeigen, zeigen Sie mit der Maus darauf.
 
@@ -65,14 +67,14 @@ Sie als Administrator können diese E-Mail-Vorlagen einfach aktivieren, deaktivi
 
    Sie können durch Klicken auf den Link **[!UICONTROL Zurück zum Original]** über der Vorlage, den Hauptteil der Nachricht auf den Standardtext zurückgesetzt.
 
-1. Klicken Sie auf „Speichern“, um die an dieser Vorlage vorgenommenen Änderungen zu bestätigen. Jetzt können Benutzer mithilfe der geänderten E-Mail-Vorlage E-Mail-Benachrichtigungen erhalten.
+6. Klicken Sie auf „Speichern“, um die an dieser Vorlage vorgenommenen Änderungen zu bestätigen. Jetzt können Benutzer mithilfe der geänderten E-Mail-Vorlage E-Mail-Benachrichtigungen erhalten.
 
 ## Einstellungen einer E-Mail-Vorlage anpassen {#customizesettingsofanemailtemplate}
 
 1. Um die Seite „Einstellungen“ zu öffnen, klicken Sie auf **[!UICONTROL Einstellungen]**. Sie können jetzt Ihre E-Mail-Vorlagen Ihren Erfordernissen anpassen.
 1. Um den Namen und die E-Mail-ID anzupassen, von denen die Teilnehmer E-Mails erhalten, bearbeiten Sie **[!UICONTROL Name und Adresse des Absenders].**
 
-   Wenden Sie sich an den [***Adobe-Support***](https://helpx.adobe.com/de/contact/enterprise-support.other.html#learning-manager), um diese Informationen zu konfigurieren oder zu ändern.
+   Wenden Sie sich an den [***Adobe-Support***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager), um diese Informationen zu konfigurieren oder zu ändern.
 
 1. Passen Sie Ihr E-Mail-Banner von der Option **[!UICONTROL E-Mail-Banner]** an. Ändern Sie die Farbe des Banners, indem Sie **[!UICONTROL Bannerhintergrund]** auswählen.
 
@@ -100,23 +102,6 @@ Sie als Administrator können diese E-Mail-Vorlagen einfach aktivieren, deaktivi
 
 1. Konfigurieren Sie, ob Manager ebenfalls E-Mails erhalten sollen, die an die ihnen direkt unterstellten Mitarbeiter gesendet werden. Aktivieren Sie dazu das Kontrollkästchen unter der Option **[!UICONTROL Optionale Manager-E-Mail]**.
 
-## E-Mail auf Rollenebene aktivieren oder deaktivieren
-
-Der Administrator kann E-Mail-Vorlagen basierend auf der Rolle des Empfängers aktivieren oder deaktivieren, z. B. Teilnehmer, Manager oder Kursleiter. Dadurch haben Administratoren mehr Kontrolle darüber, welche Benachrichtigungen gesendet werden, und können Art und Häufigkeit der Kommunikation besser verwalten.
-
-E-Mail-Vorlagen aktivieren oder deaktivieren:
-
-1. Melden Sie sich bei Adobe Learning Manager als Administrator an.
-2. Wählen Sie im linken Bereich **[!UICONTROL E-Mail-Vorlagen]** aus.
-3. Um mehrere E-Mail-Vorlagen für eine bestimmte Rolle zu aktivieren oder zu deaktivieren, wählen Sie die Auslassungspunkte (...) in der Spaltenüberschrift aus und aktivieren Sie alle entsprechenden Rollen in **[!UICONTROL E-Mail-Empfänger]**.
-
-   ![](assets/email-template-role.png)
-   _Alle E-Mail-Vorlagen auf Rollenebene senden_
-
-4. Um eine bestimmte E-Mail-Vorlage für eine Rolle zu aktivieren oder zu deaktivieren, wählen Sie die Auslassungspunkte (...) für diese Vorlage aus und wählen Sie eine Rolle aus bzw. heben Sie ihre Auswahl auf.
-
-   ![](assets/email-template-role-1.png)
-   _E-Mail-Vorlage auf Rollenebene senden_
 
 ## Häufigkeit von Auswahl-E-Mails festlegen {#setfrequencyofdigestemails}
 
@@ -178,7 +163,7 @@ Sie können den E-Mail-Zugriffsbericht herunterladen, indem Sie auf die Schaltfl
 
 ## E-Mail-Domäne anpassen {#customizeemaildomain}
 
-Um die E-Mail-Domäne und die E-Mail-ID anzupassen, von denen die Teilnehmer Benachrichtigungen erhalten, wenden Sie sich an den [***Learning Manager-Support***](https://helpx.adobe.com/de/contact/enterprise-support.other.html#learning-manager), und stellen Sie die Details der Domäne, die Sie hinzufügen möchten, und Ihre neue E-Mail-ID bereit.
+Um die E-Mail-Domäne und die E-Mail-ID anzupassen, von denen die Teilnehmer Benachrichtigungen erhalten, wenden Sie sich an den [***Learning Manager-Support***](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager), und stellen Sie die Details der Domäne, die Sie hinzufügen möchten, und Ihre neue E-Mail-ID bereit.
 
 Ihre Anforderung wird bearbeitet und eine E-Mail mit Bestätigungs-Link wird an Sie unter der neuen E-Mail-Adresse gesendet. Klicken Sie auf den Bestätigungslink in der E-Mail, um den Überprüfungsprozess zu bestätigen und abzuschließen.
 
@@ -275,6 +260,6 @@ Um die E-Mail-Vorlage zu deaktivieren, wählen Sie die Vorlage aus, die deaktivi
 
 +++Wie ändere ich den Absendernamen und die Absenderadresse in der Vorlage?
 
-Wenden Sie sich an den [Adobe Learning Manager-Support](https://helpx.adobe.com/de/contact/enterprise-support.other.html#learning-manager), um den Absendernamen und die E-Mail-Adresse zu ändern.
+Wenden Sie sich an den [Adobe Learning Manager-Support](https://helpx.adobe.com/contact/enterprise-support.other.html#learning-manager), um den Absendernamen und die E-Mail-Adresse zu ändern.
 
 +++

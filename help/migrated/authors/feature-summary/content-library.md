@@ -3,10 +3,10 @@ description: Erfahren Sie, wie Sie Inhalt zum Selbststudium erstellen können, d
 jcr-language: en_us
 title: Inhaltsbibliothek
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
+source-git-commit: 8780f8bf0c56d27c1acdaff018544ecc0c21ea23
 workflow-type: tm+mt
-source-wordcount: '4546'
-ht-degree: 37%
+source-wordcount: '4620'
+ht-degree: 36%
 
 ---
 
@@ -208,7 +208,7 @@ Die Inhaltsbibliothek verwaltet auch die Versionierung Ihrer hochgeladenen Inhal
 
    Die Untertitel werden dann im Fluidic Player angezeigt. Die Untertitel sind auch mit den [WCAG2.0-Standards](https://www.w3.org/TR/WCAG20/) kompatibel.
 
-   Wenn Sie der Bibliothek einen Videoinhalt hinzufügen, können Sie auch die VTT-Datei hinzufügen, bei der **&#x200B;**&#x200B;eine gültige Datei sein muss.
+   Wenn Sie der Bibliothek einen Videoinhalt hinzufügen, können Sie auch die VTT-Datei hinzufügen, bei der **** eine gültige Datei sein muss.
 
    ![](assets/webvtt.png)
 
@@ -594,11 +594,23 @@ Der Inhalt wird jetzt in der Liste „Veröffentlicht“ angezeigt.
 
 ## Inhalt aktualisieren
 
-Autoren können den Inhalt des veröffentlichten Kurses aktualisieren. Dadurch erhalten die Teilnehmer die neueste Version des Inhalts. Weitere Informationen finden Sie in diesem [Blog](https://elearning.adobe.com/2024/06/how-to-update-the-content-in-the-course/).
+Autoren können den Inhalt des veröffentlichten Kurses aktualisieren.
+Inhalt aktualisieren:
+
+1. Melden Sie sich als Autor an.
+2. Wählen Sie **[!UICONTROL Inhaltsbibliothek]** aus.
+3. Suchen Sie nach dem Inhalt und wählen Sie **[!UICONTROL Bearbeiten]**.
+4. Ältere Inhalte entfernen, neue Datei hochladen und veröffentlichen.
+
+Dadurch erhalten die Teilnehmer die neueste Version des Inhalts.
+
+Weitere Informationen finden Sie in diesem [Blog](https://elearning.adobe.com/2024/06/how-to-update-the-content-in-the-course/).
 
 ### Inhaltsversionskontrolle für Teilnehmer, die einen Kurs abgeschlossen haben
 
-Adobe Learning Manager bietet Autoren beim Aktualisieren von Inhalten eine klarere Versionskontrolle. Autoren sehen jetzt während einer Aktualisierung der Inhaltsversion drei genau definierte Optionen:
+Adobe Learning Manager bietet Autoren jetzt klarere Optionen zur Verwaltung von Inhaltsaktualisierungen. Autoren können den Inhalt aktualisieren, der bereits in einem Kurs verfügbar ist. Wenn eine neue Version hinzugefügt wird, wird die Versionsnummer neben dem Inhalt angezeigt.
+
+Wenn ein Administrator einen Kurs besucht, der aktualisierte Inhalte enthält, wird ihm die Schaltfläche Aktualisieren neben der neuen Version angezeigt. Administratoren sehen auch klare Aktualisierungsoptionen, um auszuwählen, wie die neue Inhaltsversion auf die Teilnehmer angewendet wird.
 
 | Teilnehmerstatus | Jetzt aktualisieren | Eventuell aktualisieren | Update nicht gestartet |
 |---|---|---|---|
@@ -607,23 +619,20 @@ Adobe Learning Manager bietet Autoren beim Aktualisieren von Inhalten eine klare
 | Wird ausgeführt | V2 * | V1 → V2 * | V1 |
 | Abgeschlossen | V2 * | V2 * | V1 (beibehalten) |
 
-(*) Gibt an, dass das Modul beim Versionsupdate zurückgesetzt wird.
+(*) Gibt an, dass das Modul zurückgesetzt wird, wenn die Version aktualisiert wird.
 
-In **[!UICONTROL Update nicht gestartet]** sieht der abgeschlossene Teilnehmer weiterhin die vorhandene Inhaltsversion (V1), wodurch das Problem unerwarteter weißer Bildschirme behoben wird.
+Mit &quot;Update nicht gestartet&quot; sehen Teilnehmer, die den Kurs bereits abgeschlossen haben, weiterhin die ursprüngliche Inhaltsversion (V1). Dies verhindert unerwartete Wiedergabeprobleme und stellt eine konsistente Erfahrung für Teilnehmer sicher, die abgeschlossene Kurse erneut aufrufen.
 
-* **[!UICONTROL Jetzt aktualisieren]**: Inhaltsaktualisierung für alle Teilnehmer anwenden (nicht gestartet, Teilnehmer in Bearbeitung und Abgeschlossene Teilnehmer würden jetzt auf eine neue Inhaltsversion umgestellt)
-* **[!UICONTROL Letzte Aktualisierung]**: Letztendlich eine Inhaltsaktualisierung für alle Teilnehmer anwenden (nicht gestartet, abgeschlossene Teilnehmer würden jetzt auf eine neue Inhaltsversion umgestellt; Teilnehmer in Bearbeitung würden nach Abschluss umgestellt)
-* **[!UICONTROL Update nicht gestartet]**: Inhaltsaktualisierung nur für nicht gestartete Teilnehmer anwenden (laufende und abgeschlossene Teilnehmer verbleiben in der vorhandenen Inhaltsversion)
+### Optionen für Inhaltsaktualisierungen
 
-#### Änderungen in der Benutzeroberfläche
+Wenn ein Administrator auf **[!UICONTROL Update]** klickt, kann er aus den folgenden Optionen auswählen:
 
-| Altes Etikett | Neue Option |
-|---|---|
-| Inhaltsaktualisierung auf alle Teilnehmer anwenden | Alle Teilnehmer jetzt aktualisieren:Inhaltsaktualisierung für alle Teilnehmer anwenden |
-| Aktualisierung auf Teilnehmer anwenden, die noch nicht gestartet wurden | Nur nicht angefangene Teilnehmer aktualisieren: Inhaltsaktualisierung nur für nicht angefangene Teilnehmer anwenden |
-| In Bearbeitung befindliche Teilnehmer erhalten nach Abschluss eine Aktualisierung | Letztendlich alle Teilnehmer aktualisieren: Wenden Sie schließlich die Inhaltsaktualisierung für alle Teilnehmer an |
+* **[!UICONTROL Alle Teilnehmer jetzt aktualisieren]**: Wenden Sie die Inhaltsaktualisierung sofort für alle Teilnehmer an. Nicht gestartet, In Bearbeitung und Abgeschlossen Teilnehmer wechseln sofort zur neuen Version.
+* **[!UICONTROL Letztendlich alle Teilnehmer aktualisieren]**: Wenden Sie das Update für alle Teilnehmer in Phasen an. Nicht gestartet und Abgeschlossen Teilnehmer erhalten jetzt die neue Version. In Bearbeitung befindliche Teilnehmer erhalten das Update, nachdem sie die aktuelle Version abgeschlossen haben.
+* **[!UICONTROL Nur nicht gestartete Teilnehmer aktualisieren]**: Wenden Sie das Update nur auf Teilnehmer an, die den Kurs noch nicht gestartet haben. In Bearbeitung und Abgeschlossene Teilnehmer bleiben bei der ursprünglichen Version.
 
 ![](assets/version-control-options.png)
+_Optionen für Inhaltsaktualisierungen in den Aktualisierungseinstellungen verfügbar_
 
 
 ## Inhalte löschen {#deletecontent}
