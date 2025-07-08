@@ -4,9 +4,9 @@ title: Handbuch für Anwendungsentwickler
 description: Erfahren Sie, wie Sie Anwendungen mithilfe von RESTful-APIs integrieren und anpassen, wobei wichtige Themen wie OAuth 2.0-Authentifizierung, API-Nutzungsszenarien und Datenmodelle behandelt werden. Optimieren Sie Ihre Unternehmensanwendungen mit Funktionen wie Kurserstellung, Verfolgung des Teilnehmerfortschritts, Qualifikationszuordnung, Zertifizierung, Gamification und mehr. Dieses Handbuch enthält Schritt-für-Schritt-Anleitungen und Beispiele aus der Praxis, die Entwicklern dabei helfen, nahtlose und effiziente Workflows zu erstellen. Ideal für Entwickler, die die Funktionen von Adobe Learning Manager zur Erstellung von Applikationen nutzen möchten, die auf den Lernenden ausgerichtet sind.
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
+source-git-commit: 615e85a34d592b7523c10b91b3501fcdf97c1100
 workflow-type: tm+mt
-source-wordcount: '4375'
+source-wordcount: '4396'
 ht-degree: 6%
 
 ---
@@ -22,8 +22,8 @@ Dieses Handbuch behandelt Folgendes:
 
 * OAuth2.0-Authentifizierung
 * API-Objektmodelle
-* Zeigt, wie Include-, Felder und andere Parameter verwendet werden.
-* Stellt Endpunkte für reale Anwendungsfälle bereit
+* Einschließen, Felder und andere Parameter
+* Nutzungsszenarien in der Praxis
 
 >[!IMPORTANT]
 >
@@ -39,7 +39,7 @@ Um sicher auf Adobe Learning Manager APIs zugreifen zu können, müssen Sie sich
 
 ### Registrieren von Anwendungen
 
-Integriere Adobe Learning Manager mit externen Programmen, um deine Vielseitigkeit zu verbessern. Die Schritte umfassen den Zugriff auf die Benutzeroberfläche des Integrationsadministrators, das Registrieren der Anwendung sowie das Abrufen der Client-ID und des geheimen Schlüssels. Generieren von Authentifizierungstoken (OAuth, Refresh und Access Tokens) aus ALM, wobei die Verwendung des OAuth 2.0-Frameworks für Authentifizierung und Autorisierung hervorgehoben wird. Das Zugriffstoken hat eine Gültigkeitsdauer von sieben Tagen.
+Integriere Adobe Learning Manager mit externen Programmen, um deine Vielseitigkeit zu verbessern. Die Schritte umfassen den Zugriff auf die Benutzeroberfläche des Integrationsadministrators, das Registrieren der Anwendung sowie das Abrufen der Client-ID und des geheimen Schlüssels. Generieren Sie OAuth 2.0-Authentifizierungstoken, einschließlich Autorisierungs-, Aktualisierungs- und Zugriffstoken, aus Adobe Learning Manager. Verwenden Sie den OAuth 2.0-Ablauf, um Ihre App sicher zu authentifizieren und zu autorisieren. Das Zugriffstoken hat eine Gültigkeitsdauer von sieben Tagen.
 
 1. Melden Sie sich bei Adobe Learning Manager als Integrationsadministrator an.
 2. Wählen Sie im linken Fensterbereich **[!UICONTROL Anwendungen]** aus.
@@ -174,7 +174,7 @@ Wie zuvor läuft das Zugriffstoken für Tests in sieben Tagen ab.
 
 ### Verwenden eines API-Tools zum Testen der Endpunkte
 
-Sie können zwar ein beliebiges API-Testtool eines Drittanbieters verwenden, wir verwenden jedoch Postman zum Testen der Endpunkte. In den Beispielen in diesem Dokument wird Postman für Endpunkttests verwendet.
+Sie können zwar ein beliebiges API-Testtool eines Drittanbieters verwenden, wir verwenden jedoch Postman zum Testen der Endpunkte. In den Beispielen in diesem Dokument wird Postman zum Testen der Endpunkte verwendet.
 
 1. Öffnen Sie Postman und erstellen Sie eine neue Anforderung.
 2. Wählen Sie die Registerkarte Autorisierung aus.
@@ -264,7 +264,7 @@ Wichtigste Vorteile:
 
 **Verwenden des Include-Parameters**
 
-Hängen Sie den Include-Parameter an Ihre API-URL an und geben Sie an, welche verwandten Entitäten einbezogen werden sollen.
+Hängen Sie den Include-Parameter an Ihre API-URL an und geben Sie die einzuschließenden verwandten Entitäten an.
 
 **Häufige Include-Pfade**
 
@@ -283,7 +283,7 @@ Hängen Sie den Include-Parameter an Ihre API-URL an und geben Sie an, welche ve
 
 **Beispiel 1**
 
-Abrufen der Details eines Benutzers mithilfe des Parameters &quot;userID&quot; im Endpunkt
+Rufen Sie die Details eines Benutzers ab, indem Sie den Parameter &quot;userID&quot; im Endpunkt verwenden.
 
 ```
 https://learningmanager.adobe.com/primeapi/v2/users/<userID>
@@ -430,7 +430,7 @@ ALM-APIs unterstützen Paginierung durch Parameter wie:
 
 * page[limit]: Anzahl der Datensätze pro Seite.
 * page[offset]: Anzahl der zu überspringenden Datensätze.
-* page[cursor]: Zeiger auf den nächsten Ergebnissatz. Anstelle der Verwendung eines offset-basierten Seitenumbruchs (bei dem eine Anzahl von Datensätzen übersprungen wird), wird für den Cursor-basierten Seitenumbruch eine eindeutige Marke verwendet, die von der API zurückgegeben wird, um die nächste Ergebnisseite abzurufen.
+* page[cursor]: Zeiger auf den nächsten Ergebnissatz. Anstelle der Verwendung von versatzbasiertem Seitenumbruch (bei dem eine Anzahl von Datensätzen übersprungen wird), verwendet der Cursor-basierte Seitenumbruch eine eindeutige Marke, die von der API zurückgegeben wird, um die nächste Ergebnisseite abzurufen.
 
 So verwenden Sie die Paginierung in APIs:
 
@@ -521,7 +521,7 @@ Mit den Adobe Learning Manager APIs können Entwickler auf Lern-Manager-Objekte 
 | userBadge | UserBadge verbindet ein einzelnes Abzeichen mit einem einzelnen Benutzer. Es enthält Details wie den Zeitpunkt der Erstellung, assertionUrl usw. |
 | skill | Das Modell für Kenntnisse (skill) setzt sich aus Stufen und Punktzahlen zusammen. Die Teilnehmer erwerben Kenntnisse durch Abschließen der relevanten Kurse. |
 | skillLevel | Eine Kenntnisstufe umfasst einen oder mehrere Kurse, die genutzt werden sollen, um eine Stufe zusammen mit den zugehörigen Credits zu erwerben. |
-| learningObject | Ein Lernobjekt ist ein Abstrakt für verschiedene Arten von Objekten, bei denen sich Benutzer anmelden und von denen sie lernen können. Derzeit verfügt der Learning Manager über die vier Typen von Lernobjekten, Kurs, Zertifizierung, Lernprogramm und Arbeitshilfe. |
+| learningObject | Ein Lernobjekt ist eine Abstraktion für verschiedene Arten von Objekten, bei denen sich Benutzer anmelden und von denen sie lernen können. Derzeit verfügt der Learning Manager über die vier Typen von Lernobjekten, Kurs, Zertifizierung, Lernprogramm und Arbeitshilfe. |
 | learningObjectInstance | Eine bestimmte Instanz eines Lernobjekts. |
 | learningObjectResource | Dies entspricht dem Konzept des Moduls . Ein Kurs besteht aus einem oder mehreren Modulen. In Learning Manager kann ein Modul auf verschiedene gleichwertige Arten bereitgestellt werden. Daher kapselt loResource im Wesentlichen alle diese äquivalenten Ressourcen. |
 | loResourceGrade | Dies umfasst das Ergebnis des Benutzers, der eine bestimmte Ressource im Kontext eines Lernobjekts konsumiert, bei dem er angemeldet ist. Es enthält Informationen wie die Dauer, die der Benutzer in der Ressource verbracht hat, den prozentualen Fortschritt, der vom Benutzer gemacht wurde, den Status &quot;Bestanden/Nicht bestanden&quot; und die Punktzahl, die der Benutzer in einem zugeordneten Quiz erzielt hat. |
@@ -841,8 +841,11 @@ Dies bedeutet, dass der externe Benutzer erfolgreich zu Adobe Learning Manager h
 
 ### Benutzerbericht mit Benutzer-ID- und Manager-Details extrahieren
 
-Ein Benutzerbericht kann direkt von der Benutzeroberfläche heruntergeladen werden (**[!UICONTROL Admin]** > **[!UICONTROL Benutzer]** > **[!UICONTROL Intern]**). Der Bericht gibt jedoch nicht die Benutzer-ID und die Details des zugehörigen Managers zurück.
-Wenn Sie die Jobs-API für einen Administrator verwenden, können Sie die Details abrufen.
+Ein Benutzerbericht kann direkt von der Administrator-Benutzeroberfläche heruntergeladen werden (**[!UICONTROL Admin]** > **[!UICONTROL Benutzer]** > **[!UICONTROL Intern]**). Der Bericht gibt jedoch nicht die Benutzer-ID und die Details des zugehörigen Managers zurück.
+
+Verwenden Sie die Jobs-API, um den Bericht herunterzuladen. Die Jobs-API unterstützt Sie beim Generieren von Berichten, Massenvorgängen (Registrierungen oder Abzeichenzuweisungen), abgeschlossenen Zertifizierungen oder beim Generieren von Abzeichen.
+
+So können Sie den Bericht herunterladen:
 
 1. Fügen Sie der Jobs-API die folgende Payload hinzu.
 
