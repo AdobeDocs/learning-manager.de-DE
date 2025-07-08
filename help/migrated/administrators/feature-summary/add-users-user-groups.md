@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Hinzufügen von Benutzern in Adobe Learning Manager
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 60c171374e4a6b15d92907ae441fc63ba6ee4743
+source-git-commit: 81a8732e3809e916fd6a19e51c19cf7419617b16
 workflow-type: tm+mt
 source-wordcount: '2216'
 ht-degree: 1%
@@ -239,7 +239,7 @@ Es gibt einige Unterschiede zwischen internen und externen Registrierungen:
 | Interne Benutzer | Externe Benutzer |
 |---|---|
 | Anmeldung mit Adobe ID- oder SSO-Anmeldeinformationen möglich. | Anmeldung mit einer beliebigen E-Mail-ID möglich. |
-| Gamification ist verfügbar. | Gamification ist verfügbar. Der Administrator muss Gamification für externe Teilnehmer in den [Gamification-Einstellungen](https://experienceleague.adobe.com/de/docs/learning-manager/using/admin/gamification) aktivieren. |
+| Gamification ist verfügbar. | Gamification ist verfügbar. Der Administrator muss Gamification für externe Teilnehmer in den [Gamification-Einstellungen](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/gamification) aktivieren. |
 
 ### Externes Registrierungsprofil anhalten
 
@@ -341,4 +341,5 @@ So entfernen Sie Rollen aus Benutzern:
    _Option zum Entfernen zugewiesener Rollen von einem Benutzer im Aktionsmenü_
 
 4. Wählen Sie im Bestätigungsdialogfeld **Ja** aus.
+
 
