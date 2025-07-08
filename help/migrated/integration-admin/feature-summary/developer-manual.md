@@ -4,9 +4,9 @@ title: Handbuch für Anwendungsentwickler
 description: Erfahren Sie, wie Sie Anwendungen mithilfe von RESTful-APIs integrieren und anpassen, wobei wichtige Themen wie OAuth 2.0-Authentifizierung, API-Nutzungsszenarien und Datenmodelle behandelt werden. Optimieren Sie Ihre Unternehmensanwendungen mit Funktionen wie Kurserstellung, Verfolgung des Teilnehmerfortschritts, Qualifikationszuordnung, Zertifizierung, Gamification und mehr. Dieses Handbuch enthält Schritt-für-Schritt-Anleitungen und Beispiele aus der Praxis, die Entwicklern dabei helfen, nahtlose und effiziente Workflows zu erstellen. Ideal für Entwickler, die die Funktionen von Adobe Learning Manager zur Erstellung von Applikationen nutzen möchten, die auf den Lernenden ausgerichtet sind.
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: adba903c3edddbc9ce11481e75b1e03ffe4da956
+source-git-commit: 334fb7dcc73e21679d3f95d36456da4e33226773
 workflow-type: tm+mt
-source-wordcount: '4521'
+source-wordcount: '4520'
 ht-degree: 5%
 
 ---
@@ -75,7 +75,7 @@ Integriere Adobe Learning Manager mit externen Programmen, um deine Vielseitigke
 
 ## Abrufen eines Zugriffstokens
 
-### Autorisierungscode aus der Umleitung abrufen
+### Berechtigungscode abrufen
 
 Nachdem Sie die Client-ID und den geheimen Clientschlüssel abgerufen haben, können Sie mit ihnen ein Zugriffstoken anfordern, mit dem API-Aufrufe authentifiziert werden.
 
@@ -287,7 +287,7 @@ Hängen Sie den Include-Parameter an Ihre API-URL an und geben Sie die einzuschl
 | skills.skillLevel.badge | Ruft Qualifikationsstufen und die zugehörigen Abzeichen ab |
 | prerequisiteLOs | Enthält erforderliche Lernobjekte |
 | SubLOs | Ruft Sub-Lernobjekte ab (in LPs oder Zertifizierungen verwendet) |
-| subLOs.enrollment | Registrierung für Lernobjekte |
+| subLOs.enrollment | Registrierung für Sub-Lernobjekte |
 | instances.badge | Abzeichen für den Abschluss einer Kursinstanz |
 | subLOs.subLOs.instances.loResources.resources | Tief verschachtelte Ressourcen in einer Sub-LO-Instanz |
 
@@ -524,7 +524,7 @@ Mit den Adobe Learning Manager APIs können Entwickler auf Lern-Manager-Objekte 
 | account | Kapselt die Details eines Learning Manager-Kunden. |
 | badge | Ein Abzeichen ist ein Leistungsnachweis, den Teilnehmer erhalten, wenn sie bestimmte Meilensteine erreichen, während sie innerhalb eines Kurses fortschreiten. |
 | catalog | ist eine Sammlung von Lernobjekten. |
-| Benutzer | Der Benutzer (user) ist das wichtigste Modell in Learning Manager. Die Benutzer sind typischerweise die internen oder externen Teilnehmer in einer Organisation und nutzen Lernobjekte. Sie können jedoch außer der Teilnehmerrolle auch andere Rollen wie z. B. Autor oder Manager haben. „User id“, „type“ und „email“ gehören zu den Inline-Attributen. |
+| Benutzer | Der Benutzer (user) ist das wichtigste Modell in Learning Manager. Benutzer sind in der Regel die internen oder externen Teilnehmer eines Unternehmens, die Lernobjekte nutzen. Sie können jedoch außer der Teilnehmerrolle auch andere Rollen wie z. B. Autor oder Manager haben. „User id“, „type“ und „email“ gehören zu den Inline-Attributen. |
 | resource | Dies stellt jede Inhaltsressource innerhalb eines Moduls dar. Alle in einer &quot;loResource&quot; zusammengefassten Ressourcen sind hinsichtlich des Lernziels äquivalent, unterscheiden sich jedoch in Bezug auf den Bereitstellungstyp oder das Inhaltsgebietsschema. |
 | userNotification | Dieses Modell enthält Benachrichtigungsinformationen für einen Teilnehmer. |
 | userSkill | UserSkill gibt an, wie viel von einer einzelnen Kenntnisstufe ein einzelner Benutzer erreicht. |
@@ -1535,7 +1535,7 @@ The following table describes various elements of the Learning Manager V1 object
    <td>
     <p>user</p></td>
    <td>
-    <p>User is the key model in Learning Manager. Users are typically the internal or external learners of an organization who consume learning objects. However they may play some other roles such as author and Manager along with learner role. User id, type, email are some of the inline attributes. </p></td>
+    <p>User is the key model in Learning Manager. Users are typically the internal or external learners of an organization who consume Learning Objects. However they may play some other roles such as author and Manager along with learner role. User id, type, email are some of the inline attributes. </p></td>
   </tr>
   <tr>
    <td>
@@ -1543,7 +1543,7 @@ The following table describes various elements of the Learning Manager V1 object
    <td>
     <p>course</p></td>
    <td>
-    <p>Course is one of the learning objects supported in Learning Manager, that consists of one or more modules. </p></td>
+    <p>Course is one of the Learning Objects supported in Learning Manager, that consists of one or more modules. </p></td>
   </tr>
   <tr>
    <td>
@@ -1551,7 +1551,7 @@ The following table describes various elements of the Learning Manager V1 object
    <td>
     <p>module</p></td>
    <td>
-    <p>Module is a building block to create learning objects in Learning Manager. Modules can be of four different types such as Class room, virtual class room, activity and self-paced. Use this module model to get the details of all modules in an account. </p></td>
+    <p>Module is a building block to create Learning Objects in Learning Manager. Modules can be of four different types such as Class room, virtual class room, activity and self-paced. Use this module model to get the details of all modules in an account. </p></td>
   </tr>
   <tr>
    <td>
@@ -1718,13 +1718,13 @@ Following are the various elements of the Learning Manager class diagram in V2 A
    <td><code>
      catalog
     </code></td>
-   <td>Catalog is a collection of learning objects.</td>
+   <td>Catalog is a collection of Learning Objects.</td>
   </tr>
   <tr>
    <td><code>
      user
     </code></td>
-   <td>User is the key model in Learning Manager. Users are typically the internal or external learners of an organization who consume learning objects. However, they may play some other roles such as author and Manager along with learner role. User id, type, email are some of the inline attributes. </td>
+   <td>User is the key model in Learning Manager. Users are typically the internal or external learners of an organization who consume Learning Objects. However, they may play some other roles such as author and Manager along with learner role. User id, type, email are some of the inline attributes. </td>
   </tr>
   <tr>
    <td>resource</td>
