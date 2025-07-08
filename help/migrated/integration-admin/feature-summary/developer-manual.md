@@ -4,9 +4,9 @@ title: Handbuch für Anwendungsentwickler
 description: Erfahren Sie, wie Sie Anwendungen mithilfe von RESTful-APIs integrieren und anpassen, wobei wichtige Themen wie OAuth 2.0-Authentifizierung, API-Nutzungsszenarien und Datenmodelle behandelt werden. Optimieren Sie Ihre Unternehmensanwendungen mit Funktionen wie Kurserstellung, Verfolgung des Teilnehmerfortschritts, Qualifikationszuordnung, Zertifizierung, Gamification und mehr. Dieses Handbuch enthält Schritt-für-Schritt-Anleitungen und Beispiele aus der Praxis, die Entwicklern dabei helfen, nahtlose und effiziente Workflows zu erstellen. Ideal für Entwickler, die die Funktionen von Adobe Learning Manager zur Erstellung von Applikationen nutzen möchten, die auf den Lernenden ausgerichtet sind.
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: 615e85a34d592b7523c10b91b3501fcdf97c1100
+source-git-commit: fc5f551dac574cae748d36d819745c5f9149afd7
 workflow-type: tm+mt
-source-wordcount: '4396'
+source-wordcount: '4420'
 ht-degree: 6%
 
 ---
@@ -31,7 +31,7 @@ Dieses Handbuch behandelt Folgendes:
 
 ## API-Verwendungsszenarien
 
-Entwickler können Lern-Manager-APIs verwenden, um den Lern-Manager zu verbessern oder mit anderen Unternehmensanwendungen zu integrieren. Sie können Web-, Desktop- oder mobile Apps mit jeder beliebigen Technologie erstellen. Entwickler können innerhalb von Learning Manager auf Anwendungsdaten zugreifen, aber die Bereitstellung erfolgt extern und wird vollständig von Ihnen gesteuert. Apps werden in der Regel von Kundenorganisationen für ihre eigenen Konten entwickelt, während Adobe-Partner allgemeine Anwendungen für eine breitere Verwendung erstellen können.
+Entwickler können Lern-Manager-APIs verwenden, um den Lern-Manager zu verbessern oder mit anderen Unternehmensanwendungen zu integrieren. Sie können Web-, Desktop- oder mobile Apps mit jeder beliebigen Technologie erstellen. Entwickler können auf die Learning Manager-Daten zugreifen, Sie steuern jedoch, wo und wie die App verwendet wird.
 
 ## Authentifizierung mit OAuth 2.0
 
@@ -79,7 +79,7 @@ Integriere Adobe Learning Manager mit externen Programmen, um deine Vielseitigke
 
 Nachdem Sie die Client-ID und den geheimen Clientschlüssel abgerufen haben, können Sie mit ihnen ein Zugriffstoken anfordern, mit dem API-Aufrufe authentifiziert werden.
 
-Um den Autorisierungscodefluss zu starten, leiten Sie Ihre Benutzer in einem Browser an die folgende URL:
+Um den Autorisierungscodefluss zu starten, fügen Sie die folgende URL in einem Browser hinzu:
 
 ```
 GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your clientId>&redirect_uri=<Enter a url to redirect to>&state=<Any String data>&scope=<one or more comma separated scopes>&response_type=CODE 
@@ -134,7 +134,17 @@ Ein Zugriffstoken ist sieben Tage lang gültig. Nach sieben Tagen müssen Sie mi
 
 ### Zugriffstoken für Tests und Entwicklung erhalten
 
-Verwenden Sie das Adobe Learning Manager-Tool (ALM) zum Generieren von Token, um schnell Zugriffstoken für Test- und Entwicklungszwecke zu erstellen. Diese Tokens sind ausschließlich für den persönlichen Gebrauch während der Entwicklungs- und Debugphase vorgesehen. Beachten Sie, dass Testtoken Zugriff auf Ihre ALM-Daten gewähren, daher ist es wichtig, sie sicher zu verarbeiten. Geben Sie Ihre Testtoken niemals für andere frei, verwenden Sie sie in Produktionsanwendungen oder fügen Sie sie nicht in öffentlichen Code-Repositorys ein. Behandeln Sie sie wie Kennwörter, um die Sicherheit Ihres Kontos und Ihrer Daten zu gewährleisten.
+Beim Arbeiten mit Adobe Learning Manager (ALM)-APIs benötigen Entwickler ein gültiges OAuth 2.0-Zugriffstoken, um API-Anforderungen zu authentifizieren. Das Generieren dieses Tokens über den standardmäßigen OAuth-Flow kann komplex und zeitaufwendig sein, insbesondere für schnelles Testen, Lernen oder Entwicklung. Adobe Learning Manager bietet ein Tool zur Tokengenerierung, um diesen Prozess zu vereinfachen.
+
+Dieses Tool ist ideal für:
+
+* Proof of Concept (POC) Builds
+
+* Frühphase der Entwicklung
+
+* Fehlerbehebung bei API-Integrationsproblemen
+
+Diese Tokens sind ausschließlich für den persönlichen Gebrauch während der Entwicklungs- und Debugphase vorgesehen. Beachten Sie, dass Testtoken Zugriff auf Ihre ALM-Daten gewähren, daher ist es wichtig, sie sicher zu verarbeiten. Geben Sie Ihre Testtoken niemals für andere frei, verwenden Sie sie in Produktionsanwendungen oder fügen Sie sie nicht in öffentlichen Code-Repositorys ein. Behandeln Sie sie wie Kennwörter, um die Sicherheit Ihres Kontos und Ihrer Daten zu gewährleisten.
 
 1. Melden Sie sich bei Adobe Learning Manager als Integrationsadministrator an.
 2. Wählen Sie **[!UICONTROL Entwicklerressourcen]** und anschließend **[!UICONTROL Zugriffstoken für Tests und Entwicklung]** aus.
