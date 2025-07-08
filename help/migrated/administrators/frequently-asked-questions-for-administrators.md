@@ -4,7 +4,7 @@ title: Häufig gestellte Fragen für Administratoren
 description: Häufig gestellte Fragen für Adobe Learning Manager-Administratoren
 contentowner: manochan
 exl-id: 8b113a4e-73f4-4cd5-982a-cefdf5388e91
-source-git-commit: 5676ddb238309bc643394af1dde3cba7f8ac6699
+source-git-commit: b128a2adb1d0655078d79b6d46c00612f4ddb996
 workflow-type: tm+mt
 source-wordcount: '2515'
 ht-degree: 52%
@@ -25,7 +25,7 @@ ht-degree: 52%
 
 +++Kann ich mehrere Benutzer gleichzeitig hinzufügen? Wenn ja, wie?
 
-Ja, Sie können mit der CSV-Upload-Funktion mehrere Benutzer gleichzeitig hinzufügen. Klicken Sie [hier](/help/migrated/administrators/add-users-in-bulk.md), um weitere Informationen zu erhalten.
+Ja, Sie können mit der CSV-Upload-Funktion mehrere Benutzer gleichzeitig hinzufügen. Klicken Sie [hier](/help/migrated/administrators/feature-summary/add-users-user-groups.md#bulk-upload-internal-users), um weitere Informationen zu erhalten.
 
 +++
 

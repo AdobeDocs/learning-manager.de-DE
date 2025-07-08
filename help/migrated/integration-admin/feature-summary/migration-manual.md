@@ -3,7 +3,7 @@ description: Referenzhandbuch für Integrationsadministratoren zum Migrieren ein
 jcr-language: en_us
 title: Migrationshandbuch
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: 899ef06789f818e0286589263ebb5fad0c90c9d2
+source-git-commit: b128a2adb1d0655078d79b6d46c00612f4ddb996
 workflow-type: tm+mt
 source-wordcount: '3617'
 ht-degree: 73%
@@ -582,5 +582,5 @@ Szenario: X ist der Manager der Benutzer A, B und C; wenn X das Unternehmen verl
 
 Weitere Informationen zu diesem Thema finden Sie in den folgenden Hilfeinhalten:
 
-* [Häufig gestellte Fragen zum Hochladen von CSV](/help/migrated/administrators/add-users-in-bulk.md)
+* [Häufig gestellte Fragen zum Hochladen von CSV](/help/migrated/administrators/feature-summary/add-users-user-groups.md#bulk-upload-internal-users/)
 * [Funktions-Hilfe für das Hinzufügen von Benutzern](/help/migrated/administrators/feature-summary/add-users-user-groups.md)
