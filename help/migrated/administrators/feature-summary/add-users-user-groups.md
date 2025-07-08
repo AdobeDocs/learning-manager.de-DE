@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Hinzufügen von Benutzern in Adobe Learning Manager
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
+source-git-commit: 6997eed011b0d133842473028826113b98322e87
 workflow-type: tm+mt
-source-wordcount: '2254'
+source-wordcount: '2216'
 ht-degree: 1%
 
 ---
@@ -26,15 +26,7 @@ Mit Adobe Learning Manager (ALM) können Administratoren interne und externe Ben
 
 Interne Benutzer in Adobe Learning Manager beziehen sich auf Mitarbeiter oder Teammitglieder in Ihrem Unternehmen. Sie können sie manuell hinzufügen, gesammelt hochladen oder über Systemintegrationen importieren. Nachdem Sie diese Benutzer hinzugefügt haben, können Sie sie in Gruppen organisieren, Kurse zuweisen und ihren Lernfortschritt überwachen.
 
-Die Benutzer in Adobe Learning Manager können je nach zugewiesenen Rollen unterschiedliche Aufgaben übernehmen und verschiedene Aufgaben verwalten. Jede Rolle, einschließlich Administrator, Autor, Kursleiter und Integrationsadministrator, bietet eine Reihe spezifischer Funktionen, die speziell auf die Verantwortlichkeiten des Benutzers innerhalb der Plattform zugeschnitten sind.
-
-Adobe Learning Manager unterstützt die folgenden Benutzerrollen:
-
-* **Administrator**: Verwaltet Benutzer und Benutzergruppen, weist Rollen zu und konfiguriert systemweite Voreinstellungen wie Datenquellen, zulässige Domänen und Anzeigeoptionen. Administratoren sind auch für das Erstellen und Organisieren von Lerninhalten, das Verfolgen des Lernfortschritts von Teilnehmern, das Generieren von Berichten und das Einrichten von Integrationen mit externen Systemen verantwortlich.
-* **Autor**: Erstellt und verwaltet Inhalte, einschließlich Module und Kurse.
-* **Manager**: Überwacht die Lernaktivitäten des Teams, nominiert Teammitglieder für Kurse, genehmigt Anfragen und gibt Feedback.
-* **Integrationsadministrator**: Verwaltet Systemintegrationen und Datenverbindungen zwischen ALM und externen Plattformen.
-* **Benutzerdefinierte Rollen**: Administratoren können benutzerdefinierte Rollen erstellen, um Benutzern maßgeschneiderten Zugriff auf der Grundlage ihrer Zuständigkeiten zu gewähren. Weitere Informationen zu den benutzerdefinierten Rollen finden Sie in diesem Artikel.
+Die Benutzer in Adobe Learning Manager können je nach zugewiesenen Rollen unterschiedliche Aufgaben übernehmen und verschiedene Aufgaben verwalten. Jede Rolle, einschließlich Administrator, Autor, Kursleiter und Integrationsadministrator, bietet eine Reihe spezifischer Funktionen, die auf die Verantwortlichkeiten des Benutzers innerhalb der Plattform zugeschnitten sind.
 
 ### Methoden zum Hinzufügen interner Benutzer
 
@@ -46,7 +38,7 @@ Administratoren können interne Benutzer mit den folgenden Methoden hinzufügen:
 
 ### Internen Benutzer manuell hinzufügen
 
-Administratoren können einzelne Benutzer manuell hinzufügen, indem sie ihren Namen, ihre E-Mail-ID, ihre eindeutige ID und den Namen des Managers eingeben. Der eindeutige Bezeichner in der Adobe Learning Manager ist ein erforderlicher Bezeichner, den Administratoren beim Erstellen eines Benutzers zuweisen. Es muss für jeden Benutzer eindeutig sein und als einheitliche Referenz im gesamten System dienen.
+Administratoren können Benutzer manuell hinzufügen, indem sie ihren Namen, ihre E-Mail-Adresse, ihre eindeutige Kennung und den Namen des Managers angeben. Der eindeutige Bezeichner in der Adobe Learning Manager ist ein erforderlicher Bezeichner, den Administratoren beim Erstellen eines Benutzers zuweisen. Es muss für jeden Benutzer eindeutig sein und als einheitliche Referenz im gesamten System dienen.
 
 >[!INFO]
 >
@@ -77,7 +69,7 @@ So erstellen Sie eine URL für die Selbstregistrierung eines Benutzers:
 
 1. Melden Sie sich als Administrator an.
 2. Wählen Sie **Benutzer** und anschließend **Intern**.
-3. Wählen Sie in der oberen rechten Ecke **Hinzufügen** aus und wählen Sie dann **Selbstregistrierung.**
+3. Wählen Sie **Hinzufügen** aus, und wählen Sie dann **Selbstregistrierung.**
 
 
    ![](assets/add-self-register-link.png)
@@ -118,7 +110,7 @@ _Listenansicht mit vorhandenen URLs für die Selbstregistrierung, die für inter
 
 ### Interne Benutzer als Massen-Upload
 
-Mit Adobe Learning Manager können Administratoren mehrere Benutzer gleichzeitig hinzufügen, indem sie eine CSV-Datei hochladen, die die Benutzerinformationen enthält, einschließlich Name, E-Mail-ID und Name des Managers. Diese Funktion für Massen-Uploads spart Zeit und Aufwand, verglichen mit dem Hinzufügen einzelner Benutzer.
+Administratoren können mehrere Benutzer gleichzeitig hinzufügen, indem sie eine CSV-Datei mit Benutzerinformationen wie Name, E-Mail-Adresse und Name des Managers hochladen. Diese Funktion für Massen-Uploads spart Zeit und Aufwand, verglichen mit dem Hinzufügen einzelner Benutzer.
 
 >[!INFO]
 >
@@ -128,7 +120,7 @@ Mehrere Benutzer hinzufügen:
 
 1. Melden Sie sich als Administrator an.
 2. Wählen Sie **Benutzer** und anschließend **Intern**.
-3. Wählen Sie in der oberen rechten Ecke **Hinzufügen** aus und wählen Sie **CSV hochladen**.
+3. Wählen Sie &quot;**Hinzufügen**&quot; aus und wählen Sie dann &quot;**CSV hochladen**&quot;.
 
    ![](assets/select-upload-acsv.png)
    _Option zum Hochladen einer CSV-Datei für den Massenbenutzerimport_
@@ -197,16 +189,16 @@ Um einen externen Benutzer zu erstellen, führen Sie die folgenden Schritte aus:
 
 1. Melden Sie sich als Administrator an.
 2. Wählen Sie **Benutzer** und anschließend **Extern**.
-3. Wählen Sie in der oberen rechten Ecke **Hinzufügen** aus, um eine Registrierung für einen externen Benutzer zu erstellen.
+3. Wählen Sie **Hinzufügen** aus, um eine Registrierung für einen externen Benutzer zu erstellen.
 4. Geben Sie im Dialogfeld &quot;**Externes Registrierungsprofil hinzufügen**&quot; Folgendes an:
 
-   * **Profilname:** Geben Sie den Namen der Partnerorganisation ein, die auf Adobe Learning Manager zugreifen möchte.
+   * **Profilname:** Geben Sie den Namen ein.
    * **Manager-E-Mail:** Geben Sie die E-Mail-Adresse des Managers ein.
    * **Maximale Anzahl von Lizenzen:** Legen Sie die maximal zulässige Anzahl von Registrierungen fest.
    * **Ablauf:** Definieren Sie das letzte Datum für neue Registrierungen. Nach Ablauf dieses Zeitraums funktioniert der Link bei der Registrierung neuer Benutzer nicht mehr.
 
    ![](assets/add-external-user-prompt.png)
-   _Dialogfeld zur Eingabe des Profilnamens, der Manager-E-Mail, der Sitzungsbeschränkung und des Ablaufdatums_
+   _Dialogfeld zur Eingabe des Profilnamens, der E-Mail-Adresse des Managers, der Sitzplatzbeschränkung und des Ablaufdatums_
 
 5. Wählen Sie ein Bild mit der Option **Bild hinzufügen** aus. Dieses Bild wird den Teilnehmern im Profilabschnitt angezeigt.
 6. Wählen Sie den Abschnitt **Erweiterte Einstellungen**, um ihn zu erweitern, und geben Sie die erforderlichen Details ein:
@@ -226,7 +218,6 @@ Es wird eine Registrierungs-URL generiert.
 So aktivieren Sie das externe Profil:
 
 1. Suchen Sie das neu erstellte Profil in der Liste der externen Profile.
-
 2. Wählen Sie die Umschaltfläche **Status** aus, um sie zu aktivieren.
 
 Der Administrator kann diese URL für den externen Partner freigeben, damit er sich anmelden und sich damit bei Adobe Learning Manager anmelden kann.
@@ -248,7 +239,7 @@ Es gibt einige Unterschiede zwischen internen und externen Registrierungen:
 | Interne Benutzer | Externe Benutzer |
 |---|---|
 | Anmeldung mit Adobe ID- oder SSO-Anmeldeinformationen möglich. | Anmeldung mit einer beliebigen E-Mail-ID möglich. |
-| Gamification ist verfügbar. | Gamification ist verfügbar. Der Administrator muss Gamification für externe Teilnehmer in den [Gamification-Einstellungen](https://experienceleague.adobe.com/de/docs/learning-manager/using/admin/gamification) aktivieren. |
+| Gamification ist verfügbar. | Gamification ist verfügbar. Der Administrator muss Gamification für externe Teilnehmer in den [Gamification-Einstellungen](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/gamification) aktivieren. |
 
 ### Externes Registrierungsprofil anhalten
 
@@ -259,7 +250,7 @@ Anhalten eines externen Profils:
 1. Wählen Sie **Aktionen** in der oberen rechten Ecke der Seite **Externe Benutzer** aus.
 2. Wählen Sie **Pause**, um das externe Registrierungsprofil anzuhalten.
 
-Dies blockiert den Registrierungsprozess für Benutzer, die ihre Einladungen noch nicht angenommen haben. Beachten Sie, dass diese Aktion nur Benutzer betrifft, die ihre Registrierung noch nicht abgeschlossen haben.
+Dadurch werden neue Registrierungen für Benutzer blockiert, die ihre Einladungen nicht angenommen haben. Beachten Sie, dass diese Aktion nur Benutzer betrifft, die ihre Registrierung noch nicht abgeschlossen haben.
 
 ![](assets/pause-external-user.png)
 _Option zum Anhalten eines vorhandenen externen Registrierungsprofils über das Aktionsmenü_
@@ -314,6 +305,14 @@ Eine Bestätigungsmeldung wird angezeigt, wenn der Benutzer erfolgreich gelösch
 ## Weisen Sie einem Benutzer eine Rolle zu
 
 Benutzerrollen in Adobe Learning Manager definieren, welche Aktionen jede Person im System ausführen kann. Jede Rolle verfügt über spezifische Berechtigungen, die auf den Verantwortlichkeiten des Benutzers basieren.
+
+Adobe Learning Manager unterstützt die folgenden Benutzerrollen:
+
+* **Administrator**: Verwaltet Benutzer und Benutzergruppen, weist Rollen zu und konfiguriert systemweite Voreinstellungen wie Datenquellen, zulässige Domänen und Anzeigeoptionen. Administratoren sind auch für das Erstellen und Organisieren von Lerninhalten, das Verfolgen des Lernfortschritts von Teilnehmern, das Generieren von Berichten und das Einrichten von Integrationen mit externen Systemen verantwortlich.
+* **Autor**: Erstellt und verwaltet Inhalte, einschließlich Module und Kurse.
+* **Manager**: Überwacht die Lernaktivitäten des Teams, nominiert Teammitglieder für Kurse, genehmigt Anfragen und gibt Feedback.
+* **Integrationsadministrator**: Verwaltet Systemintegrationen und Datenverbindungen zwischen ALM und externen Plattformen.
+* **Benutzerdefinierte Rollen**: Administratoren können benutzerdefinierte Rollen erstellen, um Benutzern maßgeschneiderten Zugriff auf der Grundlage ihrer Zuständigkeiten zu gewähren. Weitere Informationen zu den benutzerdefinierten Rollen finden Sie in diesem [Artikel](/help/migrated/administrators/feature-summary/custom-role.md).
 
 So weisen Sie Benutzern Rollen zu:
 
