@@ -3,7 +3,7 @@ description: Benutzergruppen in Adobe Learning Manager erstellen und verwalten. 
 jcr-language: en_us
 title: Verwalten von Benutzergruppen in Adobe Learning Manager | Organisieren und Zuweisen von Teilnehmern
 exl-id: 5569a201-0648-4b2c-bab3-927e5c149290
-source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
+source-git-commit: cd81d076b44b513afc6d21be0c3ea17d7359972e
 workflow-type: tm+mt
 source-wordcount: '1441'
 ht-degree: 0%
@@ -215,3 +215,4 @@ Wenn Sie die OR-Logik verwenden, fügt Adobe Learning Manager Benutzer hinzu, di
 
 ![](assets/or-logic.png)
 _Beispiel, in dem mehrere Gruppen mit ODER-Logik kombiniert werden_
+
