@@ -4,9 +4,9 @@ title: Handbuch für Anwendungsentwickler
 description: Erfahren Sie, wie Sie Anwendungen mithilfe von RESTful-APIs integrieren und anpassen, wobei wichtige Themen wie OAuth 2.0-Authentifizierung, API-Nutzungsszenarien und Datenmodelle behandelt werden. Optimieren Sie Ihre Unternehmensanwendungen mit Funktionen wie Kurserstellung, Verfolgung des Teilnehmerfortschritts, Qualifikationszuordnung, Zertifizierung, Gamification und mehr. Dieses Handbuch enthält Schritt-für-Schritt-Anleitungen und Beispiele aus der Praxis, die Entwicklern dabei helfen, nahtlose und effiziente Workflows zu erstellen. Ideal für Entwickler, die die Funktionen von Adobe Learning Manager zur Erstellung von Applikationen nutzen möchten, die auf den Lernenden ausgerichtet sind.
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: fc5f551dac574cae748d36d819745c5f9149afd7
+source-git-commit: 15a05e801d4a05f99529fa2dd1afe11f97e77568
 workflow-type: tm+mt
-source-wordcount: '4420'
+source-wordcount: '4504'
 ht-degree: 6%
 
 ---
@@ -1315,9 +1315,10 @@ curl --location --request POST 'https://learningmanager.adobe.com/oauth/o/learne
 }'
 ```
 
-### Teilnehmertranskripte erstellen
 
-**Fehlercodes**
+### Fehlercodes
+
+Bei der Arbeit mit Adobe Learning Manager (ALM)-APIs können Entwickler während einer Anforderung auf verschiedene HTTP-Fehlercodes stoßen. Diese Fehler liefern wichtiges Feedback dazu, was schief gelaufen ist und wie man es beheben kann. Wenn Sie diese Codes verstehen, können Entwickler Probleme schnell beheben, die API-Zuverlässigkeit verbessern und reibungslosere Integrationen sicherstellen. Die folgende Tabelle enthält Erläuterungen zu häufig von den ALM-APIs zurückgegebenen HTTP-Fehlercodes sowie typische Szenarien, in denen diese auftreten. Dieser Abschnitt ist für alle, die Anwendungen erstellen, testen oder debuggen, die eine Verbindung mit ALM herstellen, unerlässlich.
 
 | HTTP-Status | Bedeutung | Fehlerbehebung |
 |---|---|---|
