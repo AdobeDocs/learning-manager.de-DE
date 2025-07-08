@@ -4,9 +4,9 @@ title: Häufig gestellte Fragen für Administratoren
 description: Häufig gestellte Fragen für Adobe Learning Manager-Administratoren
 contentowner: manochan
 exl-id: 8b113a4e-73f4-4cd5-982a-cefdf5388e91
-source-git-commit: b128a2adb1d0655078d79b6d46c00612f4ddb996
+source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
 workflow-type: tm+mt
-source-wordcount: '2515'
+source-wordcount: '2517'
 ht-degree: 52%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 52%
 
 +++Kann ich mehrere Benutzer gleichzeitig hinzufügen? Wenn ja, wie?
 
-Ja, Sie können mit der CSV-Upload-Funktion mehrere Benutzer gleichzeitig hinzufügen. Klicken Sie [hier](/help/migrated/administrators/feature-summary/add-users-user-groups.md#bulk-upload-internal-users), um weitere Informationen zu erhalten.
+Ja, Sie können mit der CSV-Upload-Funktion mehrere Benutzer gleichzeitig hinzufügen. Weitere Informationen finden Sie in diesem [Artikel](/help/migrated/administrators/feature-summary/add-users-user-groups.md#bulk-upload-internal-users).
 
 +++
 
@@ -257,7 +257,7 @@ Sie können mit Ihrer Kontoanmeldung zu anderen Rollen wie Teilnehmer, Manager u
 Manager, Autoren und Teilnehmer sehen die zu ihren Kursaktivitäten gehörigen Benachrichtigungen. Der Administrator kann die Benachrichtigungen für alle Benutzer mit den nachfolgenden Schritten aktivieren bzw. deaktivieren:
 
 1. Klicken Sie im linken Bereich auf E-Mail-Vorlagen und wählen Sie die Registerkarten Allgemein, Benutzerregistrierungen, Abschlüsse und Feedback aus.
-1. Klicken Sie in der Liste unten auf die Ja/Nein-Umschaltflächen neben **jedem Ereignis** und wählen Sie Ja, um die Benachrichtigung zu aktivieren. Klicken Sie auf „Nein“, um das Senden von Benachrichtigungen zu einem bestimmten Ereignis zu deaktivieren.
+1. Klicken Sie bei den unten aufgeführten Ereignissen auf die Ja-/Nein-Umschaltflächen neben jedem Ereignis und wählen Sie &quot;Ja&quot;, um die Benachrichtigung zu aktivieren. Klicken Sie auf „Nein“, um das Senden von Benachrichtigungen zu einem bestimmten Ereignis zu deaktivieren.
 
 +++
 

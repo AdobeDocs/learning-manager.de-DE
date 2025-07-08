@@ -3,10 +3,10 @@ description: Referenzhandbuch für Integrationsadministratoren zum Migrieren ein
 jcr-language: en_us
 title: Migrationshandbuch
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: b128a2adb1d0655078d79b6d46c00612f4ddb996
+source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
 workflow-type: tm+mt
-source-wordcount: '3617'
-ht-degree: 73%
+source-wordcount: '3619'
+ht-degree: 72%
 
 ---
 
@@ -546,7 +546,7 @@ Im Folgenden finden Sie die CSV-Standardspezifikationen, die zur Verknüpfung mi
 
 ## Fehlerbehebung für Migrationsprobleme {#troubleshootingmigrationissues}
 
-[Klicken Sie hier](../../kb/troubleshooting-migration.md), um mehr über die Problemumgehung/Lösung für die Probleme zu erfahren, mit denen die für die Integration zuständigen Administratoren bei der Migration von Daten und Inhalten aus Ihrem vorhandenen LMS in die Learning Manager-Anwendung konfrontiert sind.
+Lesen Sie diesen [Artikel](../../kb/troubleshooting-migration.md), um mehr über die Problemumgehung/Lösung für die Probleme zu erfahren, mit denen die für die Integration zuständigen Administratoren bei der Migration von Daten und Inhalten aus ihrem vorhandenen LMS in die Learning Manager-Anwendung konfrontiert sind.
 
 ## Tipps zur Benutzerverwaltung {#usermanagement}
 

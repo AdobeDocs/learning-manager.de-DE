@@ -2,13 +2,13 @@
 description: Benutzergruppen in Adobe Learning Manager erstellen und verwalten. Erfahren Sie, wie Sie durch das Gruppieren von Benutzern Kurse zuweisen, den Fortschritt verfolgen und Lernworkflows effizient automatisieren können.
 jcr-language: en_us
 title: Verwalten von Benutzergruppen in Adobe Learning Manager | Organisieren und Zuweisen von Teilnehmern
-source-git-commit: 03797a208195f4cc11cb5cceb2775d341befe2a0
+exl-id: 5569a201-0648-4b2c-bab3-927e5c149290
+source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
 workflow-type: tm+mt
-source-wordcount: '1445'
+source-wordcount: '1441'
 ht-degree: 0%
 
 ---
-
 
 # Benutzergruppen in Adobe Learning Manager
 
@@ -153,7 +153,7 @@ Löschen einer Benutzergruppe:
    ![](assets/delete-a-group.png)
    Option _Löschen im Menü &quot;Aktionen&quot; zum Entfernen einer Benutzergruppe_
 
-4. Bestätigen Sie den Löschvorgang, wenn Sie dazu aufgefordert werden. Die Benutzergruppe wird aus Adobe Learning Manager gelöscht.
+4. Bestätigen Sie den Löschvorgang, wenn Sie dazu aufgefordert werden. Die Benutzergruppe wird gelöscht.
 
 ## Benutzergruppenbericht herunterladen
 
