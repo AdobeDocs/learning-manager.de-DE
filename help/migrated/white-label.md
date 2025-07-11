@@ -4,9 +4,9 @@ title: White Labels in der mobilen Adobe Learning Manager-App
 description: White Labels sind eine Praxis, bei der Sie eine App oder einen Service mit Ihrem eigenen Branding umbenennen und so anpassen, als wären Sie der ursprüngliche Ersteller. In Adobe Learning Manager kannst du die Mobile App mit einer weißen Beschriftung versehen, sodass du ein Rebranding der App vornehmen und die App deinen Benutzern unter deinem eigenen Branding zur Verfügung stellen kannst.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 25c4873f6d01c5832c213b6f225172f3dbcba1ee
+source-git-commit: 0c97b147a1e4c6e1a4a0cc69f56f8e9420c4602b
 workflow-type: tm+mt
-source-wordcount: '1987'
+source-wordcount: '2098'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Führen Sie die folgenden Schritte aus, um Ihre eigene App mit weißem Etikett b
    * Signieren der vom ALM-Team bereitgestellten Anwendungsbinärdateien.
    * Hochladen und Verwalten des Veröffentlichungsprozesses. Der Veröffentlichungsprozess erfordert die Kommunikation zwischen Ihrem App-Manager und den Teams im App/Play Store, sodass Ihre App alle Veröffentlichungsrichtlinien erfüllt. Von ALM erhalten Sie eine vollständig kompatible App-Binärdatei.
 
-## Übersicht
+## Überblick
 
 White Labels sind eine Praxis, bei der Sie eine App oder einen Service mit Ihrem eigenen Branding umbenennen und so anpassen, als wären Sie der ursprüngliche Ersteller. In Adobe Learning Manager kannst du die Mobile App mit einer weißen Beschriftung versehen, sodass du ein Rebranding der App vornehmen und die App deinen Benutzern unter deinem eigenen Branding zur Verfügung stellen kannst.
 
@@ -46,109 +46,213 @@ Folgende Elemente können angepasst werden:
 ### Felder
 
 <table>
+
  <tbody>
+
   <tr>
+
    <td>
+
     <p>Konto-ID</p>
+
    </td>
+
    <td>
+
     <p>Die ID Ihres Kontos. Beachten Sie, dass Teilnehmer, die zu einem anderen Konto gehören, nicht auf die App mit weißer Beschriftung zugreifen können.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>Zusätzliche Konto-IDs</p>
+
    </td>
+
    <td>
+
     <p>Fügen Sie bei Bedarf mehrere Konten (Unterdomänen) hinzu. Fügen Sie die Unterdomänen durch Kommas getrennt ohne Leerzeichen hinzu. Beispiel: acc01, acc02, acc03 usw.<br> <b>Hinweis:</b> Sie müssen die Konto-ID hinzufügen, wenn Sie die Unterdomänen angeben.</br> </p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>App-Name</p></td>
+
    <td>
+
     <p>Der Name, den Sie für die App verwenden möchten.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>App-Kurzname</p>
+
    </td>
+
    <td>
+
     <p>Wenn der Name der App lang ist, geben Sie der App einen kurzen Namen, der auf dem Gerät angezeigt wird.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>Name der internen App</p></td>
+
    <td>
+
     <p>Der Name, mit dem das Betriebssystem die App identifiziert. Üblicherweise wird das Format com.company-name.product-name verwendet.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>Name der internen App - iOS</p>
+
    </td>
+
    <td>
+
     <p>Benennen Sie die App anders, wenn sich Ihre Benutzer in iOS befinden. Es wird empfohlen, für iOS und Android denselben Namen zu verwenden.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>App-Symbol</p>
+
    </td>
+
    <td>
+
     <p>Das App-Symbol als png. Dieses Symbol wird in Ihrer App angezeigt. Das zu benennende Format ist account-id_appIcon.png. Die Abmessungen des App-Symbols sind 512 × 512 Pixel.<div>Bitte beachten Sie, dass Apple keinen Alpha-Kanal in App-Symbolen zulässt. Stellen Sie daher sicher, dass Sie den Alpha-Kanal aus dem Asset entfernen, bevor Sie es senden.</div></p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>Startbildschirm der App</p></td>
+
    <td>
+
     <p>Geben Sie für den Begrüßungsbildschirm Ihrer App ein Bild (png) an, das angezeigt wird, wenn die Benutzer die App starten. Das zu benennende Format ist account-id_splashIcon.png. Die Abmessungen der quadratischen Splashscreens betragen 1052 × 1052 Pixel und der kreisförmigen Splashscreens 768 x 768 Pixel.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>Client-ID und geheimer Clientschlüssel</p>
+
    </td>
+
    <td>
+
     <p>Der Integrations-Admin Ihres Kontos stellt die Details bereit, während Sie die App registrieren. Der Integrationsadministrator muss Folgendes verwenden:<ul><li>Teilnehmer:lesen,Teilnehmer:als Rolle schreiben</li><li>Interne App name://redirect als Umleitungs-URL</li></ul></p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>Kontenlogo</p>
+
    </td>
+
    <td>
+
     <p>Die URL, über die das Logo Ihres Unternehmens gehostet wird. Geben Sie einen cpcontents-Link als Logo für das Konto an. Die URL muss webcodiert sein.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>App Store-ID für die App (iOS)</p>
+
    </td>
+
    <td>
+
     <p>Die für die Implementierung der Force-Aktualisierung erforderliche ID. Die App muss wissen, dass der Teilnehmer zum App Store weitergeleitet werden sollte, um die App zu aktualisieren.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>Google Play Store-ID für die App (Android)</p>
+
    </td>
+
    <td>
+
     <p>Die für die Implementierung der Force-Aktualisierung erforderliche ID.</p>
+
    </td>
+
   </tr>
+
   <tr>
+
    <td>
+
     <p>Hostname für Deep-Linking</p>
+
    </td>
+
    <td>
+
     <p>Um Ihre Deep Links zu hosten, verwenden Sie den Learning Manager. Wenn Sie eine andere URL für den Hostnamen als Deep-Link verwenden möchten, geben Sie die URL des Hosts an. Beispiel: learningmanager.adobe.com.</p>
+
    </td>
+
   </tr>
+
  </tbody>
+
 </table>
 
 >[!NOTE]
@@ -156,19 +260,42 @@ Folgende Elemente können angepasst werden:
 >Geben Sie die Daten an Ihre CSAMs weiter, damit sie sie in Ihre benutzerdefinierte App-Binärdatei einfügen können.
 
 
-#### Sitezuordnung zur Verarbeitung benutzerdefinierter Deplinks aktualisieren
+#### Websitezuordnung zur Verarbeitung benutzerdefinierter Deep Links aktualisieren
 
 Wenn Sie eine benutzerdefinierte Domäne oder einen Learning Manager\*.adobe.com als Veranstalter verwenden, müssen Sie nichts unternehmen. Wenn Sie jedoch eine benutzerdefinierte Lösung oder einen bestimmten Hostnamen für die URLs verwenden, fügen Sie die Site-Zuordnungsdateien hinzu.
 
 >[!CAUTION]
 >
->Wenn die Dateien nicht vorhanden sind, funktionieren die Deeplinks nicht. Stellen Sie sicher, dass die Dateien vorhanden sind.
+>Wenn die Dateien nicht vorhanden sind, funktionieren die Deep-Links nicht. Stellen Sie sicher, dass die Dateien vorhanden sind.
 
 
 Weitere Informationen finden Sie unter den folgenden Links:
 
 * [Android](https://learningmanager.adobe.com/.well-known/assetlinks.json)
 * [iOS](https://learningmanager.adobe.com/.well-known/apple-app-site-association)
+
+## Team-ID für die App Store abrufen
+
+Team-ID abrufen:
+
+1. Melden Sie sich bei Ihrem **[!UICONTROL Apple Developer]**-Konto an.
+2. Wählen Sie oben auf der Seite **[!UICONTROL Details zur Mitgliedschaft]** und kopieren Sie Ihre Team-ID.
+
+Diese ID ist erforderlich, um den App-Eintrag mit der weißen Beschriftung in den Metadatendateien hinzuzufügen, um eine Deep-Linking-Funktion zu aktivieren.
+
+## SHA-256-Fingerabdruck für Android abrufen
+
+Der SHA-256-Fingerabdruck für das Android-Signaturzertifikat ist erforderlich, wenn Sie den weiß beschrifteten App-Eintrag hinzufügen.
+
+So generieren Sie den SHA-256-Fingerabdruck:
+
+1. Führen Sie den folgenden Befehl aus:
+
+```
+keytool -list -v -keystore <keystore/jks file> -alias <aliaskey> -storepass <storepassword> -keypass <keypassword>
+```
+
+Suchen Sie in der Ausgabe nach Zertifikat-Fingerabdrücken und kopieren Sie dann den SHA-256-Wert. Geben Sie diesen Fingerabdruck nach Bedarf für Ihre Deep-Linking-Konfiguration frei.
 
 ## Push-Benachrichtigungen generieren
 
