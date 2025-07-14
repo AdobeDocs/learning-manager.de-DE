@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Versionshinweise zu Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: b128a2adb1d0655078d79b6d46c00612f4ddb996
+source-git-commit: 6e26d7c8757eeebe9c34d60aa4cfeafbffb84da9
 workflow-type: tm+mt
-source-wordcount: '27129'
-ht-degree: 70%
+source-wordcount: '27298'
+ht-degree: 69%
 
 ---
 
@@ -101,6 +101,22 @@ Wenn ein Administrator auf **[!UICONTROL Update]** klickt, kann er aus den folge
 _Content update options_-->
 
 Weitere Informationen zur Inhaltsbibliothek finden Sie in diesem [Artikel](/help/migrated/authors/feature-summary/content-library.md#content-version-control-for-learners-who-have-completed-a-course).
+
+## Verbesserungen beim Fluidic Player
+
+Diese Version bietet einen aktualisierten Fluidic Player in Adobe Learning Manager mit einem modernen Look und einem intuitiveren Lernerlebnis. Der aktualisierte Player bietet eine übersichtlichere Oberfläche, verbesserte Navigationssteuerungen und ein konsistentes Design auf Desktop- und Mobilgeräten. Die Teilnehmer können auf Inhalte in jedem Bildschirmmodus, einschließlich Hochformat, Querformat, Vollbild oder Standardansicht, zugreifen und damit interagieren.
+
+* **Aktualisierte Fluidic Player-Skin**: Ein modernisierter Look mit aktualisierten UI-Elementen.
+* **Verbesserte Navigationssteuerelemente**: Eine reibungslosere und intuitivere Navigation für ein besseres Lernerlebnis.
+* **Optimiertes Design**: Verbessertes Erscheinungsbild und verbesserte Benutzerfreundlichkeit auf Desktop- und Mobilgeräten unterstützt die Modi &quot;Hochformat&quot;, &quot;Querformat&quot;, &quot;Vollbild&quot; und &quot;Standard&quot;.
+
+Alle Teilnehmer, die über Adobe Learning Manager auf Inhalte zugreifen, unabhängig davon, ob sie das native oder das Headless-Erlebnis nutzen, werden automatisch diese neuen Verbesserungen an der Benutzeroberfläche und der Navigation sehen. Aufgrund des aktualisierten Layouts und der aktualisierten Steuerelemente kann es zu geringfügigen Änderungen bei der Interaktion mit dem Player kommen.
+
+>[!NOTE]
+>
+>Diese Verbesserung ist nur für statische Inhalte verfügbar.
+
+Weitere Informationen zum Fluidic Player finden Sie in diesem [Artikel](/help/migrated/learners/feature-summary/fluidic-player.md).
 
 ## In dieser Version behobener Fehler
 
@@ -1149,7 +1165,7 @@ Weitere Informationen finden Sie unter „Neue Funktionen“ im [Update von Lear
 * Das Herunterladen von Ressourcen aus einem Kurs funktionierte nicht, wenn er aus einem anderen Kurs kopiert wurde und der Teilnehmer keinen Zugriff auf den ursprünglichen zum Erstellen des duplizierten Kurses verwendeten Kurs hat.
 * Bannerbilder wurden nicht gelöscht, wenn der Autor sie entfernt, während sich der Kurs im Entwurfsstatus befindet. Dieses Problem wurde behoben.
 
-**AEM &#x200B;**
+**AEM **
 
 * Nach dem Einfügen der Learning Manager-Komponente in AEM dauerte das Laden der Seite lange und der Zugriff auf die anderen Komponenten war nicht möglich. Dieses Problem wurde behoben.
 
@@ -1583,7 +1599,7 @@ In diesem Update kann ein Teilnehmer Assets als Abschlussnachweis für ein exter
 
 Ein Teilnehmer kann ein externes Zertifikat öffnen und Assets wie PDF-, Text- oder Bilddateien hochladen.
 
-Weitere Informationen finden Sie unter [***Hochladen von Assets in externes Zertifikat***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).**&#x200B;**
+Weitere Informationen finden Sie unter [***Hochladen von Assets in externes Zertifikat***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).****
 
 ### In diesem Update behobene Probleme {#issuesfixedinthisrelease}
 
@@ -1961,7 +1977,7 @@ Freigabedatum: 20. Juni 2019
 
 **Automatische Kuration des Inhalts**
 
-Mit Soziales Lernen können von Teilnehmern gepostete Inhalte auf zwei Arten kuratiert werden: **Keine Kuration** und **Manuelle Kuration**. In dieser Version hat Adobe Learning Manager das Soziale Lernen verbessert, indem AI-fähige Funktionen zur automatischen Kuration bereitgestellt wurden. Sobald der Inhalt veröffentlicht wurde, wird der Inhalt analysiert, um festzustellen, ob der Inhalt zu den Kenntnissen gehört, für die er veröffentlicht wurde. Basierend auf dem Confidence-Ergebnis wird der Inhalt entweder live veröffentlicht oder zur manuellen Kuration gesendet. Weitere Informationen finden Sie unter *[**&#x200B; Automatische Kuration &#x200B;**](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
+Mit Soziales Lernen können von Teilnehmern gepostete Inhalte auf zwei Arten kuratiert werden: **Keine Kuration** und **Manuelle Kuration**. In dieser Version hat Adobe Learning Manager das Soziale Lernen verbessert, indem AI-fähige Funktionen zur automatischen Kuration bereitgestellt wurden. Sobald der Inhalt veröffentlicht wurde, wird der Inhalt analysiert, um festzustellen, ob der Inhalt zu den Kenntnissen gehört, für die er veröffentlicht wurde. Basierend auf dem Confidence-Ergebnis wird der Inhalt entweder live veröffentlicht oder zur manuellen Kuration gesendet. Weitere Informationen finden Sie unter *[** Automatische Kuration **](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
 
 **Kenntnisse Kenntnisdomänen zuordnen**
 
@@ -2585,7 +2601,7 @@ Freigabedatum: 06. Dezember 2016.
 
 ### Verbesserungen {#enhancement}
 
-Als Teil dieses Updates stellt der Learning Manager einen Endpunkt [PATCH/users/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id), um Benutzer in einer Anwendung zu aktualisieren. Sie können auf diesen API-Endpunkt in der Administratorrolle zugreifen. Unter Verwendung **&#x200B;**&#x200B;Endpunkts können Sie die folgenden Informationen von Learning Manager-Benutzern aktualisieren:
+Als Teil dieses Updates stellt der Learning Manager einen Endpunkt [PATCH/users/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id), um Benutzer in einer Anwendung zu aktualisieren. Sie können auf diesen API-Endpunkt in der Administratorrolle zugreifen. Unter Verwendung **** Endpunkts können Sie die folgenden Informationen von Learning Manager-Benutzern aktualisieren:
 
 * Name
 * E-Mail
@@ -3095,7 +3111,7 @@ Das Exportieren von Registrierungsdaten schlug fehl, wenn einer der registrierte
 
 **E-Mail-Vorlagen**
 
-* Das Wort **partner,**, das zur Darstellung externer Gruppen verwendet wurde,**&#x200B;** ist **&#x200B;**&#x200B;aus dem Text und dem Titel der E-Mail-Vorlagen entfernt. Externe Gruppen werden nicht unbedingt Partner genannt.\
+* Das Wort **partner,**, das zur Darstellung externer Gruppen verwendet wurde,**** ist **** aus dem Text und dem Titel der E-Mail-Vorlagen entfernt. Externe Gruppen werden nicht unbedingt Partner genannt.\
   **Hinweis:** Diese aktualisierte Vorlage wird nicht angezeigt, wenn die Standardvorlage bereits geändert wurde. Um die aktualisierte Vorlage anzuzeigen, klicken Sie auf **Auf Original zurücksetzen** im Dialogfeld **Vorlagenvorschau**.
 
 * Auf die URL kann in der E-Mail, die von den Administratoren erhalten wird, nicht geklickt werden, wenn E-Mail-Vorlagen **Profil erstellt(Selbstregistrierung)** und **Profil erstellt(Externe/Partner)** bearbeitet werden. Dieses Problem wurde nun behoben.
