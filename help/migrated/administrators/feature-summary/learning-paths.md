@@ -4,10 +4,10 @@ title: Lernpläne
 description: Erstellen von Lernplänen für Administratoren in Learning Manager.
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: c365dca377e8c6ad7bb9489c6fe043e72660c54e
 workflow-type: tm+mt
-source-wordcount: '1334'
-ht-degree: 35%
+source-wordcount: '1430'
+ht-degree: 32%
 
 ---
 
@@ -138,6 +138,10 @@ Das Kontrollkästchen **[!UICONTROL Teilnehmern das Auswählen von Instanzen erm
 ![](assets/default-instance.png)
 
 *Lernpfadinstanzen*
+
+Teilnehmer können für einen Kurs über einen Lernplan oder von einem Administrator registriert werden, selbst wenn der Kurs flexibel ist und der Teilnehmer eine Sitzung auswählen muss. In diesen Fällen ermöglicht das System Teilnehmern die Registrierung, selbst wenn das Sitzlimit erreicht ist, aber sie können den Kurs nicht starten, bis eine Lizenz verfügbar ist.
+
+Die Wartelistenfunktion gilt nur, wenn sich die Teilnehmer selbst registrieren. Wenn eine Sitzung die Höchstzahl an Lizenzen erreicht, kann der Kursleiter die Liste der auf die Warteliste gesetzten Teilnehmer anzeigen. Wenn Plätze verfügbar werden, kann der Kursleiter Teilnehmer auf die Warteliste setzen, bis die Sitzung wieder voll einsatzfähig ist.
 
 ## Benachrichtigungen
 

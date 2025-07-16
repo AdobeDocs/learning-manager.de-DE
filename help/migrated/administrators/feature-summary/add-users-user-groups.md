@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Hinzufügen von Benutzern in Adobe Learning Manager
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 81a8732e3809e916fd6a19e51c19cf7419617b16
+source-git-commit: 4350c192a70005fe37620e1ea083c6db8ece30e3
 workflow-type: tm+mt
 source-wordcount: '2216'
 ht-degree: 1%
@@ -239,7 +239,7 @@ Es gibt einige Unterschiede zwischen internen und externen Registrierungen:
 | Interne Benutzer | Externe Benutzer |
 |---|---|
 | Anmeldung mit Adobe ID- oder SSO-Anmeldeinformationen möglich. | Anmeldung mit einer beliebigen E-Mail-ID möglich. |
-| Gamification ist verfügbar. | Gamification ist verfügbar. Der Administrator muss Gamification für externe Teilnehmer in den [Gamification-Einstellungen](https://experienceleague.adobe.com/de/docs/learning-manager/using/admin/gamification) aktivieren. |
+| Gamification ist verfügbar. | Gamification ist verfügbar. Der Administrator muss Gamification für externe Teilnehmer in den [Gamification-Einstellungen](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/gamification) aktivieren. |
 
 ### Externes Registrierungsprofil anhalten
 
