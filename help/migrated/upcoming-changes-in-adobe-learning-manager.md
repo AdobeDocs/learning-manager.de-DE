@@ -110,4 +110,4 @@ Benutzerdefinierte Administratoren können Ankündigungen nur für die Benutzerg
 * Das Format des Berichts bleibt unverändert. Wenn benutzerdefinierte Administratoren ihn von der Benutzeroberfläche herunterladen, unterliegt der Inhalt des Berichts ihrem Umfang.
 * Es sind keine Änderungen erforderlich, wenn dieser Bericht nicht in einem automatisierten oder nachgelagerten Arbeitsablauf verwendet wird.
 
-Eine kumulative Liste der neuen Funktionen und Änderungen an Adobe Learning Manager finden Sie im Artikel [Versionshinweise](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes).
+Eine kumulative Liste der neuen Funktionen und Änderungen an Adobe Learning Manager finden Sie im Artikel [Versionshinweise](https://experienceleague.adobe.com/de/docs/learning-manager/using/introduction/release-notes).
