@@ -2,13 +2,13 @@
 jcr-language: en_us
 title: Einrichten eines Testkontos, Sandbox-Kontos oder Testkontos in Adobe Learning Manager
 description: Hier erfahren Sie, wie Sie in Adobe Learning Manager ein kostenloses 30-Tage-Testkonto oder Sandbox-Konto erstellen. Führen Sie einfache Schritte aus, um Ihre Testumgebung einzurichten und schnell zu beginnen.
-source-git-commit: f814f4fd2e8b0d34118f5abc66e82be78fda88e2
+exl-id: f8a2db1d-6a62-481a-9d04-0fb6377cda73
+source-git-commit: 4d5ced6d9677ddd568c6a6372e598b8e7bb4981d
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 0%
 
 ---
-
 
 # Erstellen eines Testkontos in Adobe Learning Manager
 
@@ -40,3 +40,4 @@ So erstellen Sie ein Testkonto:
 7. Suchen Sie nach der Einrichtung Ihre Konto-ID in der URL Ihrer Adobe Learning Manager-URL.
 
    ![](assets/account-id-trial.png)
+
