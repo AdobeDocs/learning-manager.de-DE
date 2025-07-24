@@ -4,10 +4,10 @@ title: Unterstützung für benutzerdefinierte Domäne
 description: Benutzerdefinierte Domänen werden in einer Azure-Instanz von Learning Manager nicht unterstützt.
 contentowner: saghosh
 exl-id: 162ce268-48e3-4c7e-acb1-5181cebbb18d
-source-git-commit: 411c171c314a3aa9ad9cc10d46c2f0d447e2c0a3
+source-git-commit: a09c81a6dacbfc4bb55db39e64820ba87ce53d09
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 65%
+source-wordcount: '455'
+ht-degree: 66%
 
 ---
 
@@ -32,9 +32,11 @@ Die Funktion für benutzerdefinierte Domänen ist gegen einen Aufpreis verfügba
 
 * Für die Teilnehmerrolle beginnt die Domäne mit `https://cdn.<customer_custom_domain>/`. Beispiel: `https://cdn.elearningstage1.cpdomaintest.in/`
 * Für alle anderen Rollen beginnt die Domäne mit `https://<customer_custom_domain>/`. Beispiel: `https://elearningstage1.cpdomaintest.in/`
-* Die tatsächliche Anmelde-URL ist `https://<customer_custom_domain>/acapindex` oder `https://<customer_custom_domain>/login`. Ersetzen Sie `<customer_custom_domain>` durch die eigentliche Domäne Ihrer Organisation.
+* Die tatsächliche Anmelde-URL ist `https://<customer_custom_domain>/acapindex` oder `https://<customer_custom_domain>/login`.
 
-`<customer_custom_domain>` ist der anpassbare Teil.
+>[!NOTE]
+>
+>Ersetzen Sie `<customer_custom_domain>` durch die eigentliche Domäne Ihrer Organisation.
 
 ## Einrichten einer benutzerdefinierten Domäne für ein Konto {#howtosetupacustomdomainonanaccount}
 
