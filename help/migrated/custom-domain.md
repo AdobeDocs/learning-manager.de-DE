@@ -4,10 +4,10 @@ title: Unterstützung für benutzerdefinierte Domäne
 description: Benutzerdefinierte Domänen werden in einer Azure-Instanz von Learning Manager nicht unterstützt.
 contentowner: saghosh
 exl-id: 162ce268-48e3-4c7e-acb1-5181cebbb18d
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 411c171c314a3aa9ad9cc10d46c2f0d447e2c0a3
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 67%
+source-wordcount: '459'
+ht-degree: 65%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 67%
 
 Benutzerdefinierte Domänen werden in einer Azure-Instanz von Learning Manager nicht unterstützt.
 
-## Übersicht {#overview}
+## Überblick {#overview}
 
 Die Unterstützung benutzerdefinierter Domänen ermöglicht den Kunden, die vollständige Kontrolle über den Domänennamen zu erhalten, den sie für ihr Konto in Learning Manager verwenden können. Ein Kunde muss die benutzerdefinierte Domäne separat erwerben und mit dem Adobe-Team zusammenarbeiten, um sie als Anmelde-URL für seine Lernplattform einzurichten.
 
@@ -32,6 +32,7 @@ Die Funktion für benutzerdefinierte Domänen ist gegen einen Aufpreis verfügba
 
 * Für die Teilnehmerrolle beginnt die Domäne mit `https://cdn.<customer_custom_domain>/`. Beispiel: `https://cdn.elearningstage1.cpdomaintest.in/`
 * Für alle anderen Rollen beginnt die Domäne mit `https://<customer_custom_domain>/`. Beispiel: `https://elearningstage1.cpdomaintest.in/`
+* Die tatsächliche Anmelde-URL ist `https://<customer_custom_domain>/acapindex` oder `https://<customer_custom_domain>/login`. Ersetzen Sie `<customer_custom_domain>` durch die eigentliche Domäne Ihrer Organisation.
 
 `<customer_custom_domain>` ist der anpassbare Teil.
 

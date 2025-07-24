@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Erstellen von Kursinstanzen und Lernpfaden
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: ad358fa52a16de60f6a102de8f744ae00bbf44e8
+source-git-commit: 411c171c314a3aa9ad9cc10d46c2f0d447e2c0a3
 workflow-type: tm+mt
-source-wordcount: '5674'
+source-wordcount: '5673'
 ht-degree: 52%
 
 ---
@@ -17,7 +17,7 @@ Dieses Dokument enthält Hilfethemen, um Kursmodule, Instanzen und Kurse für Ad
 
 Autoren erstellen Kurse. Teilnehmer können Kurse absolvieren und Administratoren können die Leistung der Teilnehmer basierend darauf, ob und wie die Kurse konsumiert werden, verfolgen.
 
-## Übersicht {#overview}
+## Überblick {#overview}
 
 Autoren erstellen Kurse. Teilnehmer können Kurse absolvieren und Administratoren können die Leistung der Teilnehmer basierend darauf, ob und wie die Kurse konsumiert werden, verfolgen. Administratoren können von Autoren erstellte Kurse anzeigen und die in diesem Abschnitt beschriebenen Aktivitäten ausführen. Als Administrator können Sie aus einem vordefinierten Satz von Kursen für die Teilnehmer spezielle Lernprogramme erstellen.
 
@@ -243,7 +243,7 @@ Wenn ein Teilnehmer, der zuvor den Status „Genehmigung ausstehend“ aufwies, 
 
 Mit der Massenregistrierung von Adobe Learning Manager können Administratoren große Gruppen von Teilnehmern effizient für Kurse, Zertifizierungen oder Lernprogramme registrieren, indem sie eine CSV-Datei hochladen. Dieser Prozess spart Zeit, gewährleistet Konsistenz und unterstützt die Skalierbarkeit des Unternehmens. Darüber hinaus können Administratoren und Kursleiter die Teilnehmerinformationen, die Anwesenheit und den Abschluss in großen Mengen über CSV-Uploads aktualisieren, wodurch der manuelle Aufwand minimiert und die Datengenauigkeit gewährleistet wird.
 
-Sie können für Registrierung, Teilnahme und Abschluss dasselbe CSV-Dateiformat verwenden. Geben Sie einfach die E-Mail-IDs der Teilnehmer in der Spalte &quot;E-Mail&quot; ein und speichern Sie die Datei mit einem Namen, der auf der Aktion basiert, z. B. bulk_enrollment.csv, bulk_attendance.csv oder bulk_complete.csv. Es wird nur das CSV-Format unterstützt. UTF-8-Format wird nicht unterstützt. Laden Sie die Beispiel-CSV &quot;[&quot; hier herunter:](assets/Sample-Bulk-Action-CSV.csv).
+Sie können für Registrierung, Teilnahme und Abschluss dasselbe CSV-Dateiformat verwenden. Geben Sie einfach die E-Mail-IDs der Teilnehmer in der Spalte &quot;E-Mail&quot; ein und speichern Sie die Datei mit einem Namen, der auf der Aktion basiert, z. B. bulk_enrollment.csv, bulk_attendance.csv oder bulk_complete.csv. Es wird nur das CSV-Format unterstützt. UTF-8-Format wird nicht unterstützt. Laden Sie die [Beispiel-CSV](assets/Sample-Bulk-Action-CSV.csv) herunter.
 
 ### Registrieren Sie Teilnehmer gesammelt mit einer CSV-Datei
 
