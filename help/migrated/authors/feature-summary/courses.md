@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Kurse erstellen, ändern und veröffentlichen
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: 8b5343ae078f3d4774bbed713ad8db47e0cc0d86
 workflow-type: tm+mt
-source-wordcount: '7163'
+source-wordcount: '7321'
 ht-degree: 71%
 
 ---
@@ -600,6 +600,26 @@ Geben Sie auf dieser Seite die folgenden Details ein:
 
 1. Um den Kurs mit den Aktualisierungen erneut zu veröffentlichen, klicken Sie auf **[!UICONTROL Neu veröffentlichen]**.
 
+### Kursleiter können den Erfolg markieren
+
+Mit Adobe Learning Manager können Kursleiter den Erfolgsstatus der Teilnehmer in einem Klassenzimmer oder einem virtuellen Klassenzimmermodul markieren. Autoren können Kursleitern die Berechtigung erteilen, den Erfolgsstatus von Teilnehmern beim Erstellen von Klassenzimmer- oder virtuellen Klassenzimmermodulen zu markieren. Kursleiter können den Erfolg markieren, indem sie einen Teilnehmer als bestanden oder nicht bestanden markieren, um sicherzustellen, dass der Fortschritt entsprechend aktualisiert wird.
+
+So können Kursleiter den Erfolg des Teilnehmers markieren:
+
+1. Melden Sie sich bei Adobe Learning Manager als Autor an.
+2. Wählen Sie auf der Startseite **[!UICONTROL Kurse erstellen]** aus.
+3. Wählen Sie **[!UICONTROL Hinzufügen]** aus.
+4. Geben Sie die erforderlichen Details ein, und wählen Sie **[!UICONTROL Module hinzufügen]**.
+5. Wählen Sie **[!UICONTROL Virtuelles Klassenzimmermodul]** oder **[!UICONTROL Klassenzimmermodul]** aus.
+6. Geben Sie die erforderlichen Details ein und wählen Sie die Daten aus.
+7. Wählen Sie die Option **[!UICONTROL Kursleiter darf Erfolg markieren]** aus.
+
+   ![Der Kursleiter darf den Erfolg markieren? Das Kontrollkästchen ist hervorgehoben, sodass Autoren die Möglichkeit haben, dass Kursleiter den Teilnehmererfolgsstatus für ein Modul aufzeichnen können](/help/migrated/authors/feature-summary/assets/allow-instructor-mark-success.png)
+   _Bildschirm &quot;Sitzungsdetails&quot;, in dem die Option &quot;Der Kursleiter darf den Erfolg markieren&quot; für die Module &quot;Klassenzimmer&quot; oder &quot;Virtuelles Klassenzimmer&quot; markiert ist_
+
+8. Wählen Sie **[!UICONTROL Fertig]**.
+
+
 ## Beobachtungs-Checkliste
 
 Ein Checklistenmodul kann jetzt neben Kursleiter(innen)n zusätzlich von Manager(innen)n überprüft werden. Personal-Manager(innen) sowie nicht hierarchische Manager(innen) wie Filial-Manager(innen) oder Standort-Manager(innen) können die Checkliste überprüfen und abschließen.
@@ -805,7 +825,7 @@ Sie können in Learning Manager mit den Menüoptionen „Veröffentlichen“ Kur
 1. Melden Sie sich mit Adobe-Anmeldeinformationen an. Wenn Sie noch keine Adobe ID haben, klicken Sie auf **[!UICONTROL Konto erstellen]**. Nach der Autorisierung werden Sie zur Seite für die Veröffentlichung von Modulen weitergeleitet.
 1. Geben Sie alle Basisinformationen über das Modul ein und klicken Sie auf „Veröffentlichen“.
 
-Sie sehen das veröffentlichte Modul auf der Modulseite von Learning Manager. Weitere Informationen finden Sie unter [Projekt in Adobe Learning Manager veröffentlichen](https://helpx.adobe.com/de/captivate/classic/publish-project-to-captivate-prime.html).
+Sie sehen das veröffentlichte Modul auf der Modulseite von Learning Manager. Weitere Informationen finden Sie unter [Projekt in Adobe Learning Manager veröffentlichen](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html).
 
 ## Kurseffektivität {#courseeffectiveness}
 
@@ -850,7 +870,7 @@ Wenn Kurse als obligatorisch festgelegt sind:
 
 ## Häufig gestellte Fragen {#frequentlyaskedquestions}
 
-+++Wie entferne ich &quot;Manager-Nominierung suchen&quot; für einen Kurs?
++++Wie entferne ich „Manager-Nominierung suchen“ für einen Kurs?
 
 Führen Sie die folgenden Schritte aus:
 
@@ -863,7 +883,7 @@ Führen Sie die folgenden Schritte aus:
 
 +++
 
-+++Kurse kombinieren
++++Wie kombiniere ich Kurse?
 
 Sie können Kurse über ein Lernprogramm kombinieren.
 
@@ -921,7 +941,7 @@ Führen Sie die unten genannten Schritte aus:
 
 +++
 
-+++Wie füge ich dem Kurs eine Ressourcendatei hinzu?
++++Wie kann ich dem Kurs eine Ressourcendatei hinzufügen?
 
 Beim Erstellen eines Kurses können Sie dem Kurs Video-, Audio-, PDF- oder Textdateien hinzufügen, die für den Kurs relevant sind, sodass der Teilnehmer auf zusätzliches Schulungsmaterial zugreifen kann.
 
@@ -939,7 +959,7 @@ Weitere Informationen finden Sie im [Abschnitt zu mehreren Versuchen](courses.m
 
 +++
 
-+++Können Sie den Inhalt herunterladen, der auf Adobe Learning Manager hochgeladen wurde, um den Inhalt zu ändern?
++++Können Sie den Inhalt herunterladen, der auf Adobe Learning Manager hochgeladen wurden, um ihn zu ändern?
 
 Nein, der auf den Learning Manager hochgeladene Inhalt ist eine veröffentlichte ZIP-Datei und nicht die Quelldatei. Daher kann der Inhalt auch dann nicht in einem Authoring-Tool bearbeitet werden, wenn er heruntergeladen wird. Sie benötigen eine Quelldatei, um den Inhalt zu bearbeiten.
 

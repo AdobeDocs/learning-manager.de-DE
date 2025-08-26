@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Verwalten der Teilnehmer für Ihre Sitzung
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: 5afe808b0fe862385afa1691abbbc076016d21df
+source-git-commit: 8b5343ae078f3d4774bbed713ad8db47e0cc0d86
 workflow-type: tm+mt
-source-wordcount: '1056'
-ht-degree: 82%
+source-wordcount: '1223'
+ht-degree: 71%
 
 ---
 
@@ -83,6 +83,26 @@ Sie können die Anzahl der bestätigten Teilnehmer, die an der Sitzung teilnehme
 
    ![](assets/markattendance.png)
    *Anwesenheit der Teilnehmer markieren*
+
+## Als erfolgreich markieren
+
+Kursleiter können den Erfolgsstatus jedes Teilnehmers direkt auf der Teilnehmerseite als bestanden oder abgelehnt markieren. Mit dieser Funktion können Kursleiter das Ergebnis von Sitzungen im Klassenzimmer oder virtuellen Klassenzimmer basierend auf der Leistung der Teilnehmer genau aufzeichnen.
+
+So markieren Sie den Erfolg für Teilnehmer:
+
+1. Melden Sie sich bei Adobe Learning Manager als Kursleiter an.
+2. Wählen Sie im linken Navigationsbereich **[!UICONTROL Bevorstehende Sitzungen]** aus.
+3. Wählen Sie **[!UICONTROL Teilnehmer]** aus.
+4. Wählen Sie die Teilnehmer aus und wählen Sie dann **[!UICONTROL Aktionen]**.
+5. Wählen Sie eine der folgenden Optionen aus, um den Erfolg für die ausgewählten Teilnehmer zu markieren:
+
+   * **[!UICONTROL Als anwesend markieren und Bestanden]**: Als bestanden markierte Teilnehmer haben das Modul erfolgreich abgeschlossen.
+   * **[!UICONTROL Anwesend markieren und fehlgeschlagen]**: Die als &quot;Nicht bestanden&quot; markierten Teilnehmer haben das Modul abgeschlossen, aber nicht bestanden.
+
+   ![Das Dropdown-Menü &quot;Aktionen&quot;, in dem die Optionen &quot;Teilgenommen und bestanden markieren&quot; und &quot;Teilgenommen und nicht bestanden markieren&quot; für Kursleiter hervorgehoben werden, um den Erfolgsstatus jedes Teilnehmers festzulegen](/help/migrated/instructors/feature-summary/assets/mark-success-instructor.png)
+   _Teilnehmerseite, auf der das Menü &quot;Aktionen&quot; mit markierten Optionen &quot;Teilgenommen markieren&quot; und &quot;Teilgenommen markieren&quot; und &quot;Teilgenommen markieren&quot; und &quot;Fehlgeschlagen&quot; für die Aufzeichnung von Teilnehmerergebnissen markiert ist_
+
+6. Wählen Sie in der Bestätigungsmeldung **[!UICONTROL Ja]** aus.
 
 ## Senden Sie eine E-Mail an die Teilnehmer {#sendemailstolearners}
 
