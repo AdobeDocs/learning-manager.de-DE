@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Anmelden
 contentowner: manochan
 exl-id: f553bfa1-29f0-420f-abde-e1f65612b182
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: 291d32a92e4adc44b2da71d980b2ae7261a189a0
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 33%
+source-wordcount: '221'
+ht-degree: 24%
 
 ---
 
@@ -28,19 +28,24 @@ Führen Sie die folgenden Schritte aus, um Ihr Konto unter Verwendung der URL au
 
    Der Anmeldebildschirm wird angezeigt.
 
-1. Klicken Sie auf „Anmelden“.
+1. Wählen Sie Anmelden.
 
-   ![](assets/adobeid-signin.png)
+   ![](assets/login-page.png)
 
    *Mit Benutzername und Kennwort anmelden*
 
-1. Geben Sie die Adobe-ID und das Kennwort ein und klicken Sie auf „Anmelden“.
+1. Geben Sie die Adobe ID und das Kennwort ein und klicken Sie auf Anmelden.
 
    Wenn Sie Ihr Kennwort vergessen haben, klicken Sie auf Kennwort vergessen? und geben Sie Ihre E-Mail-ID ein, die Sie zum Erstellen von Adobe ID verwendet haben.
 
-<!--
+   <!--
    If you do not have an Adobe ID, [click here](../../../manage-account.md) to learn how to create an Adobe ID.
--->
+   -->
+
+1. Geben Sie Ihre Informationen in die aktiven Felder ein, um Ihr Profil abzuschließen.
+
+   ![](assets/complete-the-profile.png)
+   _Geben Sie Ihre Informationen in die aktiven Felder ein, um die Profileinrichtung abzuschließen_
 
 1. Alternativ können Sie die Enterprise ID verwenden, indem Sie auf Mit einem Link zur Enterprise ID anmelden klicken.
 

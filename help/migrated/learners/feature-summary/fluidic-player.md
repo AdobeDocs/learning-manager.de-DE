@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Fluidic Player
 contentowner: manochan
 exl-id: 19dc07c4-9716-45f2-9c77-05d45da34b85
-source-git-commit: de57d96488851c31c380b34672767a803379842e
+source-git-commit: 5167a5a453776f2455fe8b0f762bca1d1f6ad0fe
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 51%
+source-wordcount: '572'
+ht-degree: 48%
 
 ---
 
@@ -60,6 +60,8 @@ Der Fluidic Player ist eine Plattform für Teilnehmer, auf der sie Inhalte mit u
 
 Nach dem Beenden des Kurses können Sie den Kurs erneut aufrufen, indem Sie auf der Seite mit der Kursbeschreibung auf die Schaltfläche **Erneut aufrufen** / **Weiter** klicken.
 
+**Automatische Wiedergabe**: Der Fluidic Player von Adobe Learning Manager verfügt nicht über eine integrierte Option, um die automatische Wiedergabe von Videos zu stoppen. Ob ein Video automatisch abgespielt wird, hängt von Ihren Browsereinstellungen ab und nicht vom Player selbst.
+
 Der Fluidic Player kann auch mithilfe der Learning Manager-API in eine externe Website oder Anwendung eingebettet werden.
 
 Der mobile Fluidic Player verfügt über die folgenden Funktionen:
@@ -67,3 +69,4 @@ Der mobile Fluidic Player verfügt über die folgenden Funktionen:
 * Das Berühren oder Tippen des Bildschirms sollte den Player nicht anhalten. Stattdessen sollte die Navigationsleiste des Players geöffnet werden.
 * Wenn mit der Navigationsleiste nicht interagiert wird, verschwindet sie nach 3 Sekunden.
 * Die Navigationsleiste bleibt so lange aktiv, bis die Navigationsmenüelemente (Inhaltsverzeichnis, Hinweise, Einstellungen) geschlossen sind.
+

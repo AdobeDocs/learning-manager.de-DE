@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Farbdesigns
 contentowner: jayakarr
 exl-id: 8616e38a-023f-4acb-ac68-df71a5153ad2
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: 5167a5a453776f2455fe8b0f762bca1d1f6ad0fe
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 45%
+source-wordcount: '1217'
+ht-degree: 44%
 
 ---
 
@@ -31,7 +31,7 @@ Klicken Sie auf **[!UICONTROL Branding]** im linken Bereich, um Ihren Unternehme
 
 ## Logostile {#logostyling}
 
-Klicken Sie auf **[!UICONTROL Bearbeiten]** , um das Erscheinungsbild Ihres Logos und Ihres Firmennamens in der Learning Manager-Anwendung festzulegen.
+Klicken Sie auf **[!UICONTROL Bearbeiten]**, um das Erscheinungsbild Ihres Logos und Firmennamens in der Learning Manager-Anwendung festzulegen.
 
 Klicken Sie auf **[!UICONTROL Neues Logo hochladen]** und wählen Sie das Logo von Ihrem Computer. Sie können das Erscheinungsbild des Logos und den Unternehmensnamen nachstehend in der Vorschau anzeigen. Wählen Sie den Kopfzeilenstil Ihrer Wahl aus, und klicken Sie auf **[!UICONTROL Speichern]**.
 
@@ -71,7 +71,7 @@ In der **[!UICONTROL Primärfarbe]** können Sie die Farbe auswählen, die für 
 
 Für die Anpassung wählen Sie den Designtyp im linken Bereich aus und klicken Sie auf die Quadrate neben der Markenfarbe und Seitenleistensymbolfarben. Klicken Sie in der Seitenleiste auf Seitenleistenhelligkeit, ziehen Sie den Regler vorwärts oder rückwärts, um die Helligkeit anzupassen. Sehen Sie sich die Vorschau in den oben genannten Bildern an, wenn Sie diese Optionen ändern.
 
-Klicken Sie auf **[!UICONTROL Theme]** zurücksetzen, um die ursprünglichen Einstellungen des Themes wiederherzustellen. Klicken Sie auf **[!UICONTROL Speichern]**, nachdem Sie die Änderungen abgeschlossen haben.
+Klicken Sie auf **[!UICONTROL Design zurücksetzen]**, um die ursprünglichen Einstellungen des Designs wiederherzustellen. Klicken Sie auf **[!UICONTROL Speichern]**, nachdem Sie die Änderungen abgeschlossen haben.
 
 **Live-Vorschau** 
 
@@ -174,7 +174,7 @@ In der folgenden Liste werden die Komponenten angezeigt, die angepasst werden k�
    <td>
     <p>Schriften</p></td>
    <td>
-    <p>Zum Anwenden der Schriftarten ist ein CDN erforderlich. Außerdem müssen Sie die Schriftfamilie freigeben, die angewendet werden soll.</p>
+    <p>Administratoren können das Adobe Learning Manager-Supportteam unter <a ref="mailto:learningmanagersupport@adobe.com"> learningmanagersupport@adobe.com</a> kontaktieren, um Schriftarten zu ändern. Zum Anwenden der Schriftarten ist ein CDN erforderlich. Außerdem müssen Sie die Schriftfamilie freigeben, die angewendet werden soll.</p>
     <p><b>Hinweis:</b> Die Schriftfamilie muss in allen Browsern unterstützt werden.</p></td>
   </tr>
   <tr>

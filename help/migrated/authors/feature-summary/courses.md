@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Kurse erstellen, ändern und veröffentlichen
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 8b5343ae078f3d4774bbed713ad8db47e0cc0d86
+source-git-commit: 5167a5a453776f2455fe8b0f762bca1d1f6ad0fe
 workflow-type: tm+mt
-source-wordcount: '7321'
-ht-degree: 71%
+source-wordcount: '7433'
+ht-degree: 70%
 
 ---
 
@@ -513,6 +513,24 @@ Die Bewertung ist ein wichtiger Aspekt jedes LMS. Online-Bewertungen sind eine d
 
 Nehmen wir an, Ladenangestellte oder Lagerarbeiter unterliegen bei ihrer tagtäglichen Arbeit einer Bewertung. Es könnten die zur Reparatur einer Kaffeemaschine ausgeführten Schritte oder die Schritte bei der Verpackung eines Materials sein. Kursleiter können Mitarbeiter für solche Aufgaben anhand einer Checkliste in der Bewertungsaktivität mit „Bestanden“ oder „Nicht bestanden“ bewerten.
 
+### Module in veröffentlichten Kursen ersetzen
+
+Adobe Learning Manager bietet Autoren Tools zum Erstellen, Bearbeiten und Verwalten von Kursen, die aus mehreren Inhaltsmodulen bestehen. Wenn Kursinhalte aktualisiert oder verbessert werden müssen, können Autoren vorhandene Module ersetzen, ohne den Fortschritt der Teilnehmer zu beeinträchtigen.
+
+Module ersetzen:
+
+1. Melden Sie sich bei Adobe Learning Manager als Autor an.
+2. Wählen Sie im linken Navigationsbereich **[!UICONTROL Kurse]** aus.
+3. Wählen Sie einen beliebigen Kurs aus, und wählen Sie dann **[!UICONTROL Bearbeiten]**.
+4. Wählen Sie das Modul aus, das Sie ändern möchten.
+5. Ändern Sie den Titel und die Beschreibung.
+6. Wählen Sie das Modul mithilfe der Option **Inhalt** aus.
+   ![](assets/replace-the-module.png)
+7. Wählen Sie **[!UICONTROL Fertig]**.
+8. Wählen Sie **[!UICONTROL Neu veröffentlichen]** aus.
+
+Die Teilnehmer behalten ihre Fortschritte in anderen Modulen bei, müssen jedoch das neue Modul abschließen, um den Kurs abzuschließen.
+
 ### Erstellen einer Checkliste {#createachecklist}
 
 Nur ein Autor kann eine Checkliste erstellen. Eine Checkliste ist ein Aktivitätsmodultyp. Beim Einrichten eines Aktivitätsmoduls können Sie als Autor eine Aktivität als **Checkliste** auswählen, wie unten dargestellt:
@@ -825,7 +843,7 @@ Sie können in Learning Manager mit den Menüoptionen „Veröffentlichen“ Kur
 1. Melden Sie sich mit Adobe-Anmeldeinformationen an. Wenn Sie noch keine Adobe ID haben, klicken Sie auf **[!UICONTROL Konto erstellen]**. Nach der Autorisierung werden Sie zur Seite für die Veröffentlichung von Modulen weitergeleitet.
 1. Geben Sie alle Basisinformationen über das Modul ein und klicken Sie auf „Veröffentlichen“.
 
-Sie sehen das veröffentlichte Modul auf der Modulseite von Learning Manager. Weitere Informationen finden Sie unter [Projekt in Adobe Learning Manager veröffentlichen](https://helpx.adobe.com/de/captivate/classic/publish-project-to-captivate-prime.html).
+Sie sehen das veröffentlichte Modul auf der Modulseite von Learning Manager. Weitere Informationen finden Sie unter [Projekt in Adobe Learning Manager veröffentlichen](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html).
 
 ## Kurseffektivität {#courseeffectiveness}
 
