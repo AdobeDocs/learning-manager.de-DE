@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Kurse erstellen, ändern und veröffentlichen
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 5167a5a453776f2455fe8b0f762bca1d1f6ad0fe
+source-git-commit: a3a36fb1c68fb48809ad77b0d0a7ffa3daebe79e
 workflow-type: tm+mt
 source-wordcount: '7433'
 ht-degree: 70%
@@ -507,12 +507,6 @@ Autoren können HTML-Links im Aktivitätsmodul hinzufügen und die Abschlusskrit
 
 1. Wählen Sie **[!UICONTROL Hinzufügen]** aus und veröffentlichen Sie den Kurs.
 
-## Checkliste {#create-checklist}
-
-Die Bewertung ist ein wichtiger Aspekt jedes LMS. Online-Bewertungen sind eine der besten Möglichkeiten, das Verständnis eines Teilnehmers für ein Thema zu bewerten. Aber oft ist es notwendig, das Verständnis einer Person zu beurteilen, während sie am Arbeitsplatz ist, indem sie beobachtet wird, wie sie die notwendigen Aufgaben ausführt.
-
-Nehmen wir an, Ladenangestellte oder Lagerarbeiter unterliegen bei ihrer tagtäglichen Arbeit einer Bewertung. Es könnten die zur Reparatur einer Kaffeemaschine ausgeführten Schritte oder die Schritte bei der Verpackung eines Materials sein. Kursleiter können Mitarbeiter für solche Aufgaben anhand einer Checkliste in der Bewertungsaktivität mit „Bestanden“ oder „Nicht bestanden“ bewerten.
-
 ### Module in veröffentlichten Kursen ersetzen
 
 Adobe Learning Manager bietet Autoren Tools zum Erstellen, Bearbeiten und Verwalten von Kursen, die aus mehreren Inhaltsmodulen bestehen. Wenn Kursinhalte aktualisiert oder verbessert werden müssen, können Autoren vorhandene Module ersetzen, ohne den Fortschritt der Teilnehmer zu beeinträchtigen.
@@ -530,6 +524,12 @@ Module ersetzen:
 8. Wählen Sie **[!UICONTROL Neu veröffentlichen]** aus.
 
 Die Teilnehmer behalten ihre Fortschritte in anderen Modulen bei, müssen jedoch das neue Modul abschließen, um den Kurs abzuschließen.
+
+## Checkliste {#create-checklist}
+
+Die Bewertung ist ein wichtiger Aspekt jedes LMS. Online-Bewertungen sind eine der besten Möglichkeiten, das Verständnis eines Teilnehmers für ein Thema zu bewerten. Aber oft ist es notwendig, das Verständnis einer Person zu beurteilen, während sie am Arbeitsplatz ist, indem sie beobachtet wird, wie sie die notwendigen Aufgaben ausführt.
+
+Nehmen wir an, Ladenangestellte oder Lagerarbeiter unterliegen bei ihrer tagtäglichen Arbeit einer Bewertung. Es könnten die zur Reparatur einer Kaffeemaschine ausgeführten Schritte oder die Schritte bei der Verpackung eines Materials sein. Kursleiter können Mitarbeiter für solche Aufgaben anhand einer Checkliste in der Bewertungsaktivität mit „Bestanden“ oder „Nicht bestanden“ bewerten.
 
 ### Erstellen einer Checkliste {#createachecklist}
 
@@ -843,7 +843,7 @@ Sie können in Learning Manager mit den Menüoptionen „Veröffentlichen“ Kur
 1. Melden Sie sich mit Adobe-Anmeldeinformationen an. Wenn Sie noch keine Adobe ID haben, klicken Sie auf **[!UICONTROL Konto erstellen]**. Nach der Autorisierung werden Sie zur Seite für die Veröffentlichung von Modulen weitergeleitet.
 1. Geben Sie alle Basisinformationen über das Modul ein und klicken Sie auf „Veröffentlichen“.
 
-Sie sehen das veröffentlichte Modul auf der Modulseite von Learning Manager. Weitere Informationen finden Sie unter [Projekt in Adobe Learning Manager veröffentlichen](https://helpx.adobe.com/de/captivate/classic/publish-project-to-captivate-prime.html).
+Sie sehen das veröffentlichte Modul auf der Modulseite von Learning Manager. Weitere Informationen finden Sie unter [Projekt in Adobe Learning Manager veröffentlichen](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html).
 
 ## Kurseffektivität {#courseeffectiveness}
 

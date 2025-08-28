@@ -2,9 +2,9 @@
 title: Neue Funktionen in der Adobe Learning Manager-Version vom Oktober
 description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und wichtigen Updates in der Adobe Learning Manager-Version vom Oktober 2025.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: 7012876539448af3433273f369011e3e0bd07407
+source-git-commit: c16f18e5ab5df120ab5fb40bbf77af2b3f6f43bb
 workflow-type: tm+mt
-source-wordcount: '8104'
+source-wordcount: '8390'
 ht-degree: 0%
 
 ---
@@ -190,6 +190,50 @@ d. **[!UICONTROL Als E-Mail]**
 8. Wählen Sie **[!UICONTROL Speichern]**.
 
 Nur Teilnehmer im Bereich des benutzerdefinierten Administrators können die Ankündigung anzeigen. In diesem [Artikel](/help/migrated/administrators/feature-summary/announcements.md) erfahren Sie, wie Sie mehrere Arten von Ankündigungen erstellen.
+
+### Setzen Sie den Bereich durch benutzerdefinierte Administratoren zurück.
+
+Benutzerdefinierte Administratoren können den Bereich ihrer veröffentlichten Ankündigungen zurücksetzen, wenn ein Administrator den Bereich geändert hat. Sobald der Umfang zurückgesetzt wurde, wird der aktualisierte Umfang auf die Ankündigung angewendet und nur Teilnehmer innerhalb des neuen Bereichs können die Ankündigung sehen.
+
+Zurücksetzen des Gültigkeitsbereichs:
+
+1. Melden Sie sich bei Adobe Learning Manager als benutzerdefinierter Administrator an.
+2. Wählen Sie im linken Navigationsbereich **[!UICONTROL Ankündigung]** aus.
+3. Wählen Sie die Registerkarte **[!UICONTROL Veröffentlicht]** aus.
+4. Wählen Sie eine beliebige Ankündigung und dann das Einstellungssymbol aus.
+5. Wählen Sie **[!UICONTROL Bearbeiten]**.
+
+   ![](assets/select-edit-published-announcement.png)
+   _Ankündigungsbildschirm mit den veröffentlichten Ankündigungen mit Bearbeitungs-, Veröffentlichungs- und anderen Optionen_
+
+6. Wählen Sie **Zurücksetzen**.
+
+   ![](assets/reset-the-scope.png)
+   _Ankündigung mit einer Benachrichtigung zur Bereichsänderung, wobei benutzerdefinierte Administratoren die Möglichkeit haben, die Bereichsauswahl zurückzusetzen und zu aktualisieren, um neue Zugriffsberechtigungen anzuzeigen_
+
+Der Umfang wird aktualisiert und nur Benutzer innerhalb des aktualisierten Bereichs können die Ankündigung anzeigen.
+
+### Ankündigung über die Administrator-Benutzeroberfläche bearbeiten
+
+Administratoren können Ankündigungen anzeigen, die von benutzerdefinierten Administratoren über ihre Oberfläche erstellt wurden. Sie können diese Ankündigungen nur bearbeiten, indem sie den zugewiesenen Bereich ändern oder entfernen. Wenn keine Bereichsänderungen vorgenommen werden, können Administratoren keine weiteren Änderungen an der Ankündigung vornehmen.
+
+So bearbeiten Sie die Ankündigung über die Administrator-Benutzeroberfläche:
+
+1. Melden Sie sich bei Adobe Learning Manager als Administrator an.
+2. Wählen Sie im linken Navigationsbereich **[!UICONTROL Ankündigung]** aus.
+3. Wählen Sie die Registerkarte **[!UICONTROL Veröffentlicht]** aus.
+4. Wählen Sie eine beliebige Ankündigung und dann das Einstellungssymbol aus.
+5. Wählen Sie **[!UICONTROL Bearbeiten]**.
+
+   ![](assets/select-edit-published-announcement.png)
+   _Ankündigungsbildschirm mit den veröffentlichten Ankündigungen mit Bearbeitungs-, Veröffentlichungs- und anderen Optionen_
+
+6. Wählen Sie **[!UICONTROL Entfernen]** aus.
+
+   ![](assets/remove-the-scope.png)
+   _Ankündigungsbildschirm, der angibt, dass der Bereich entfernt werden muss, damit Administratoren Ankündigungen bearbeiten können, die für Benutzergruppen mit Umfang erstellt wurden_
+
+Der Administrator kann die Ankündigung bearbeiten, nachdem er den Bereich entfernt hat.
 
 ## Benutzer in sozialen Boards taggen
 
@@ -834,15 +878,13 @@ Die API erstellt oder aktualisiert den Lernobjektstatus für das angegebene Gebi
 
 **Übersicht**
 
-Die Go1-Integration wurde verbessert, um die Verwaltung von Wiedergabelisten, die Erstellung von Lernpfaden und wiederkehrende Zertifizierungsworkflows während des Übergangs zu einem Vorschauen- und Kauf-Inhaltsmodell zu unterstützen.
+Die Go1-Integration wurde verbessert, um die direkte Kuratierung von Go1-Kursen zum Erstellen von Lernprogrammen (LP) in Adobe Learning Manager zu ermöglichen. Dieses Update unterstützt die Einbindung von Go1-Kursen in wiederkehrende Zertifizierungen und führt eine neue Version des Go1-Content-Hub-Erlebnisses ein, die eine effizientere Kurskuration ermöglicht.
 
 **Neue Funktionen**
 
 * Erstellen und verwalten Sie Wiedergabelisten direkt in Go1 mithilfe von KI-Chat-Unterstützung oder manueller Auswahl.
-* Konvertieren Sie Go1-Playlists ganz einfach in Adobe Learning Manager-Lernpfade.
 * Schließen Sie Go1-Kurse in wiederkehrende Zertifizierungszyklen mit automatischem Zurücksetzen des Fortschritts ein.
 * Aktualisierte Benutzeroberfläche für die Inhaltserkennung für eine verbesserte Suche und Kuration von Inhalten.
-* Übergang vom kostenlosen Content zum transparenten Kostenmodell.
 
 **Wichtigste Vorteile**
 
@@ -863,29 +905,32 @@ Die Go1-Integration wurde verbessert, um die Verwaltung von Wiedergabelisten, di
 * Compliance-orientierte Schulungsprogramme, die regelmäßige Aktualisierungen von Inhalten und regelmäßige Bereitstellungszyklen erfordern.
 * Lernteams versuchen, den Overhead für die Kuration von Inhalten durch KI-Unterstützung zu reduzieren.
 
-### Erstellen einer Go1-Wiedergabeliste
+### Hinzufügen einer Go1-Wiedergabeliste zu einem Lernpfad
 
-Administratoren können Wiedergabelisten mit Go1-Kursen erstellen, die basierend auf Standort, Rolle, Produkt und anderen Kriterien auf verschiedene Teilnehmergruppen zugeschnitten sind. Wiedergabelisten können manuell erstellt oder mithilfe von KI generiert werden.
+Administratoren können einen Lernpfad erstellen, der eine Go1-Wiedergabeliste enthält, sodass Teilnehmer im Rahmen ihrer Schulung auf ausgewählte Kurse von Drittanbietern zugreifen können.
 
-Erstellen einer Wiedergabeliste
+So erstellen Sie einen Lernpfad:
 
 1. Melden Sie sich bei Adobe Learning Manager als Administrator an.
-2. Wählen Sie im linken Navigationsbereich **[!UICONTROL Content Marketplace]** aus.
+2. Wählen Sie im linken Navigationsbereich **[!UICONTROL Lernpfade]** aus.
+3. Wählen Sie **[!UICONTROL Hinzufügen]** aus.
 
-   ![](assets/select-content-marketplace.png)
-   _Erkunden Sie die besten Go1-Kurse und fügen Sie sie zu Ihren Wiedergabelisten hinzu, indem Sie &quot;Inhalts-Marketplace&quot; in Adobe Learning Manager auswählen_
+   ![](assets/select-add-to-lp.png)
+   _Wählen Sie Hinzufügen im Abschnitt &quot;Lernpfade&quot; aus, um neue strukturierte Schulungsprogramme für Ihre Teilnehmer zu erstellen und zu organisieren_
 
-3. Wählen Sie **[!UICONTROL Content Hub]** und anschließend **[!UICONTROL Library]**.
-4. Wählen Sie **[!UICONTROL Wiedergabeliste erstellen]** aus und wählen Sie eine der folgenden Optionen:
+4. Geben Sie die erforderlichen Details ein und wählen Sie **[!UICONTROL Speichern]**. Weitere Informationen finden Sie in diesem [Artikel](/help/migrated/administrators/feature-summary/learning-paths.md).
+5. Wählen Sie **[!UICONTROL Go1-Kurse hinzufügen]**.
+
+   ![Alternativtext](assets/select-go1-courses.png)
+   _Fügen Sie Ihrer Wiedergabeliste für die Entwicklung von Vertriebsingenieuren Go1-Kurse hinzu, um die Lernoptionen mit kuratierten Inhalten von Drittanbietern zu erweitern_
+
+6. Suchen Sie in der **[!UICONTROL Bibliothek]** nach **[!UICONTROL Wiedergabeliste erstellen]**, wählen Sie sie aus und wählen Sie eine der folgenden Optionen aus:
 a. **[!UICONTROL mit AI]**: Erstellen Sie mithilfe von AI eine Wiedergabeliste.
 b. **[!UICONTROL Eigene(r)]**: Erstellen Sie eine Wiedergabeliste, indem Sie ihr manuell Kurse hinzufügen.
 
-   ![](assets/select-create-playlist.png)
-   _Erstellen Sie eine neue Wiedergabeliste in Adobe Learning Manager, indem Sie &quot;Wiedergabeliste erstellen&quot; auswählen, um Kurse für Ihre Teilnehmer zu organisieren und bereitzustellen_
-
 **Wiedergabeliste mit AI erstellen**
 
-Administratoren können die Beschreibung der Wiedergabeliste in die AI-Eingabeaufforderung eingeben. Die KI kuratiert die entsprechenden Kurse und erstellt eine auf den Anforderungen basierende Wiedergabeliste.
+Administratoren können die Beschreibung der Wiedergabeliste in die AI-Eingabeaufforderung eingeben. Die KI kuratiert die entsprechenden Kurse und erstellt eine auf den Anforderungen basierende Wiedergabeliste. AI generiert Wiedergabelisten, indem es das vom Benutzer bereitgestellte Lernziel oder die vom Benutzer bereitgestellte Aufforderung interpretiert. Beim Erstellen einer Wiedergabeliste können Administratoren Inhalte &quot;mit KI&quot; kuratieren, sodass das System große Sprachmodelle verwenden kann, um die angegebenen Lernziele und Inhaltsvoreinstellungen wie Dauer und Typ zu verstehen. Die KI durchsucht dann die Inhaltsbibliothek nach relevanten Lernobjekten, die diesen Kriterien entsprechen.
 
 Erstellen einer Wiedergabeliste mit KI:
 
@@ -900,17 +945,25 @@ Erstellen einer Wiedergabeliste mit KI:
    ![](assets/type-a-prompt.png)
    _Geben Sie Ihr Lernziel ein, um eine benutzerdefinierte Wiedergabeliste zu erstellen, damit Adobe Learning Manager zielgerichtete Kurse empfehlen kann, die auf die Bedürfnisse Ihrer Teilnehmer zugeschnitten sind_
 
-4. Wählen Sie die Qualifikationen aus der Liste aus, wählen Sie dann die Kursdauer aus und geben Sie die Dauer für Ihre Wiedergabeliste ein.
-5. Wählen Sie **[!UICONTROL Wiedergabeliste generieren]**.
+4. Wählen Sie die Kenntnisse aus der Liste aus.
 
-   ![](assets/select-generate-playlist.png)
-   _Passen Sie Ihre Wiedergabeliste in Adobe Learning Manager an, indem Sie die entsprechenden Kenntnisse und die Kursdauer auswählen_
+   ![](assets/select-skills.png)
+   _Wählen Sie die Kenntnisse aus der Liste aus, um die Kurse für den Sales Engineer zu kuratieren_
+5. Wählen Sie die Kursdauer und geben Sie die Dauer für Ihre Wiedergabeliste ein.
+6. Wählen Sie **[!UICONTROL Wiedergabeliste generieren]**. Die Wiedergabeliste wird mit 10 Kursen erstellt und Administratoren können sie verwenden, um einen Lernpfad zu erstellen.
 
+   ![](assets/created-playlist.png)
+   _Überprüfen Sie Ihre kuratierte Wiedergabeliste für die Verbesserung der Verkaufsfähigkeiten in Adobe Learning Manager_
+7. Wählen Sie **[!UICONTROL Zur Bibliothek hinzufügen]**.
+8. Wählen Sie in der Bestätigungsmeldung **Ja** aus.
+9. Wählen Sie die Wiedergabeliste aus **[!UICONTROL Wiedergabeliste zum Importieren der Eingabeaufforderung auswählen]**.
 
-Die Wiedergabeliste wird mit 10 Kursen erstellt und Administratoren können sie verwenden, um einen Lernpfad zu erstellen.
+   ![](assets/add-playlist-to-lp.png)
+   _Wählen und importieren Sie die Wiedergabeliste für die Verbesserung der Vertriebsingenieur-Kenntnisse aus der Go1-Bibliothek in Adobe Learning Manager_
 
-![](assets/created-playlist.png)
-_Überprüfen Sie Ihre kuratierte Wiedergabeliste für die Verbesserung der Verkaufsfähigkeiten in Adobe Learning Manager_
+10. Wählen Sie **[!UICONTROL Wiedergabelisten zum Lernpfad hinzufügen]** und anschließend **[!UICONTROL Publish]**.
+
+Die Kurse in der Wiedergabeliste werden dem Lernpfad hinzugefügt. Administratoren können dann Teilnehmer registrieren, die sofort mit den Kursen beginnen können.
 
 **Wiedergabeliste manuell erstellen**
 
@@ -937,43 +990,6 @@ So erstellen Sie manuell eine Wiedergabeliste:
 5. Suchen und wählen Sie die erforderlichen Kurse aus.
 
 Die Wiedergabeliste wurde mit zugehörigen Kursen erstellt, und Administratoren können sie verwenden, um einen Lernpfad zu erstellen.
-
-### Hinzufügen einer Go1-Wiedergabeliste zu einem Lernpfad
-
-Administratoren können einen Lernpfad erstellen, der eine Go1-Wiedergabeliste enthält, sodass Teilnehmer im Rahmen ihrer Schulung auf ausgewählte Kurse von Drittanbietern zugreifen können.
-
-So erstellen Sie einen Lernpfad:
-
-1. Melden Sie sich bei Adobe Learning Manager als Administrator an.
-2. Wählen Sie im linken Navigationsbereich **[!UICONTROL Lernpfade]** aus.
-3. Wählen Sie **[!UICONTROL Hinzufügen]** aus.
-
-   ![](assets/select-add-to-lp.png)
-   _Wählen Sie Hinzufügen im Abschnitt &quot;Lernpfade&quot; aus, um neue strukturierte Schulungsprogramme für Ihre Teilnehmer zu erstellen und zu organisieren_
-
-4. Geben Sie die erforderlichen Details ein und wählen Sie **[!UICONTROL Speichern]**. Weitere Informationen finden Sie in diesem [Artikel](/help/migrated/administrators/feature-summary/learning-paths.md).
-5. Wählen Sie **[!UICONTROL Go1-Kurse hinzufügen]**.
-
-   ![](assets/select-add-to-lp.png)
-   _Fügen Sie Ihrer Wiedergabeliste für die Entwicklung von Vertriebsingenieuren Go1-Kurse hinzu, um die Lernoptionen mit kuratierten Inhalten von Drittanbietern zu erweitern_
-
-6. Suchen Sie in der **[!UICONTROL Bibliothek]** nach der Wiedergabeliste auf dem Bildschirm **[!UICONTROL Go1-Kurse auswählen]** und wählen Sie sie aus.
-
-   >[!NOTE]
-   >
-   >Stellen Sie sicher, dass Sie den Filter Von mir erstellt einstellen, damit Sie Ihre Playlist leicht finden.
-
-   ![](assets/select-save-to-add-playlist.png)
-   _Wählen Sie eine Playlist für Vertriebsingenieure aus der Go1-Kursbibliothek in Adobe Learning Manager aus_
-
-7. Wählen Sie **[!UICONTROL Zu Bibliothek hinzufügen]** und dann **[!UICONTROL Speichern]**.
-
-   ![](assets/add-playlist-to-lp.png)
-   _Wählen und importieren Sie die Wiedergabeliste für die Verbesserung der Vertriebsingenieur-Kenntnisse aus der Go1-Bibliothek in Adobe Learning Manager_
-
-8. Wählen Sie **[!UICONTROL Hinzufügen]** und anschließend **[!UICONTROL Publish]**.
-
-Die Kurse in der Wiedergabeliste werden dem Lernpfad hinzugefügt. Administratoren können dann Teilnehmer registrieren, die sofort mit den Kursen beginnen können.
 
 ## Fortschritt des Player-Status für Sprachen speichern
 
@@ -1044,6 +1060,18 @@ Früher konnten die Dateien role.csv und user_role.csv nur im Vollmodus hochgela
 
 * Globale Unternehmen verwalten regionale Teams, indem sie mehrere inkrementelle Benutzerdateien für jede Region (EU, Amerika, Asien) hochladen. Dadurch können Administratoren Benutzer aktualisieren und neue Rollen für jede Region in einem einzigen Arbeitsablauf zuweisen.
 * Große Unternehmen automatisieren Onboarding und Berechtigungen, indem sie regelmäßig inkrementelle Benutzer-Updates von HR-Systemen importieren. Dies unterstützt nahtlose Aktualisierungen von Benutzerprofilen und granulare Rollenzuweisungen ohne manuelle Eingriffe.
+
+### Neue Spalten zu CSV-Dateien hinzugefügt
+
+Es wurden drei neue Spalten eingeführt, um die in CSV-Exporten/Importen von Benutzern, Rollen und Benutzerrollen erfassten Daten zu verbessern:
+
+* **Benutzerregistrierungsstatus (user.csv)**: Gibt den aktuellen Registrierungsstatus des Benutzers an.
+* **Rollenstatus (role.csv)**: Gibt den aktuellen Status der Rollen im System an.
+* **Benutzerrollenstatus (user_role.csv)**: Gibt den Status der Benutzerrollenzuordnung an.
+
+Laden Sie hier die [Beispiel-CSVs](assets/sample-csv-Incremnetal.zip) herunter.
+
+
 
 ## Empfehlungen in der Salesforce-App zurücksetzen
 
@@ -1704,4 +1732,4 @@ Custom administrators can create announcements only for the user groups or catal
 * The format of the report will remain unchanged. If custom administrators download it from the User Interface, the content of the report will be subject to their scope. 
 * No modifications are necessary if this report is not utilized in any automated or downstream workflow.
 
-See the [Release notes](https://experienceleague.adobe.com/de/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
+See the [Release notes](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
