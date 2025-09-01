@@ -4,7 +4,7 @@ title: Benutzerdefinierte Rollen
 description: Mit der Lernpfadfunktion können Sie benutzerdefinierte Rollen definieren und einer Gruppe von Benutzern bestimmte Verantwortlichkeiten zuweisen. Mit dieser Funktion können Sie Verantwortlichkeiten zuweisen, die nicht in den Bereich der bestehenden Rolle der Person fallen.
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
+source-git-commit: 9304c303d0be20e04aad2c0bc2092d1eaffaf53e
 workflow-type: tm+mt
 source-wordcount: '3466'
 ht-degree: 32%
@@ -300,7 +300,7 @@ Führen Sie die folgenden Schritte aus, um einem Benutzer mehrere benutzerdefini
 
 1. Melden Sie sich als Administrator an und wählen Sie **[!UICONTROL Benutzer]**.
 2. Wählen Sie im linken Bereich **[!UICONTROL Benutzerdefinierte Rollen]** aus.
-3. Erstellen Sie eine neue benutzerdefinierte Rolle und fügen Sie Kontoberechtigungen, Kataloge, Lernobjekte oder Bereiche hinzu. Weitere Informationen finden Sie in den [hier](#create-a-custom-role) genannten Schritten.
+3. Erstellen Sie eine neue benutzerdefinierte Rolle und fügen Sie Kontoberechtigungen, Kataloge, Lernobjekte oder Bereiche hinzu. Lesen Sie die hier aufgeführten [Schritte](#create-a-custom-role).
 4. Benutzer zur benutzerdefinierten Rolle hinzufügen.
 
    ![](assets/add-users-in-custom-roles.png)
@@ -322,8 +322,8 @@ Das Hochladen einer CSV-Datei in Adobe Learning Manager ermöglicht die effizien
 
 Sie können einem Benutzer jetzt über den CSV-Import mehrere Rollen zuweisen, indem Sie zwei Dateien in Box hochladen:
 
-* role.csv
-* user_role.csv
+* [role.csv](assets/role.csv)
+* [user_role.csv](assets/user_role.csv)
 
 Die Datei &quot;user_role.csv&quot; enthält die Felder Benutzerdefinierte Rolle und Benutzer-IDs.
 
