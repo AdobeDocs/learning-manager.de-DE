@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Peer-Konten
 contentowner: shhivkum
 exl-id: 251d0eeb-f5e8-4f70-a36c-dcecb4834042
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: 05a8b4da646f0b2e4a14aa26159c3e8cfdde35fe
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 57%
+source-wordcount: '696'
+ht-degree: 52%
 
 ---
 
@@ -53,6 +53,18 @@ Learning Manager bietet jetzt die Möglichkeit, erworbene Lizenzen mithilfe der 
 1. Klicken Sie auf „Hinzufügen“, um das Peerkonto hinzuzufügen.
 
    Wenn ein Administrator Lizenzen mit einem Peer teilt, kann der Peer sie nicht mit jemand anderem teilen. Allerdings kann der Peer Lizenzen separat erwerben und sie teilen.
+
+## Von Peer-Konten freigegebene Lizenzen anzeigen
+
+Administratoren können die Anzahl der von den Peer-Konten freigegebenen Lizenzen auf der Administratoroberfläche anzeigen.
+
+So zeigen Sie die von einem Peer-Konto freigegebenen Lizenzen an:
+
+1. Melden Sie sich bei Adobe Learning Manager als Administrator an.
+2. Wählen Sie **[!UICONTROL Benutzer]** und anschließend **[!UICONTROL Intern]**.
+
+![](assets/peer-account-seats.png)
+_Benutzerabschnitt, der die Anzahl der vom Peer-Konto freigegebenen Lizenzen anzeigt_
 
 ## Anzeigen von Berichten, die mit Peer-Konten verknüpft sind {#viewreportsassociatedwithpeeraccounts}
 

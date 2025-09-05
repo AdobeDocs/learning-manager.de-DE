@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Verwalten der Teilnehmer für Ihre Sitzung
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: 8b5343ae078f3d4774bbed713ad8db47e0cc0d86
+source-git-commit: 05a8b4da646f0b2e4a14aa26159c3e8cfdde35fe
 workflow-type: tm+mt
-source-wordcount: '1223'
-ht-degree: 71%
+source-wordcount: '1256'
+ht-degree: 69%
 
 ---
 
@@ -115,7 +115,9 @@ Um E-Mails von der Teilnehmerseite in der Kursleiter-App an die Teilnehmer zu se
 
 ## Einladungsantworten erfassen
 
-Sie können die Antworten auf Einladungen im Abschnitt &quot;Teilnehmer&quot; anzeigen. Gehen Sie zu einer beliebigen Sitzung, wählen Sie **[!UICONTROL Teilnehmer]** aus und wählen Sie die Einladungsantwort aus dem Dropdown-Menü aus.
+Kursleiter können die Einladungsantworten von Teilnehmern nur erfassen, wenn die Option **[!UICONTROL Antwort einladen]** vom ACAP-Administrator aktiviert wurde. Um diese Funktion zu aktivieren, müssen Administratoren das Supportteam unter [learningmanagersupport@adobe.com](mailto:learningmanagersupport@adobe.com) kontaktieren.
+
+Anschließend können Sie Einladungsantworten im Abschnitt **[!UICONTROL Teilnehmer]** anzeigen. Gehen Sie zu einer beliebigen Sitzung, wählen Sie **[!UICONTROL Teilnehmer]** aus und wählen Sie die Einladungsantwort aus dem Dropdown-Menü aus.
 
 ![](assets/invitation-status.png)
 
