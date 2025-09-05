@@ -60,7 +60,7 @@ In den Teilnehmertranskripten in Adobe Learning Manager werden Schulungen, Compl
 3. Wählen Sie **[!UICONTROL Benutzerdefinierte Berichte]** in den Berichten aus, und wählen Sie dann **[!UICONTROL Excel-Berichte]** aus.
 4. Wählen Sie **[!UICONTROL Teilnehmertranskripte]** aus.
 
-   ![]()
+   ![] ()
 
 5. Wählen Sie **[!UICONTROL Neu generieren]**.
 6. Wählen Sie den Datumsbereich aus, für den das Transkript generiert werden soll. Standardmäßig ist das **[!UICONTROL Von]**-Datum das Registrierungsdatum des Teilnehmers, und das **[!UICONTROL Bis]**-Datum ist immer das aktuelle Datum. Sie können nur das Startdatum ändern, ab dem Sie die Daten benötigen.
@@ -74,12 +74,12 @@ b. Wählen Sie bestimmte Kataloge aus der Dropdown-Liste **[!UICONTROL Kataloge 
        * wird ausgeführt
        * nicht gestartet
        * Registrierung aufgehoben
-   8. Erweiterte Optionen: Wählen Sie **[!UICONTROL Erweiterte Optionen]**, um die Transkripte herunterzuladen und Folgendes einzuschließen:
+   &#x200B;8. Erweiterte Optionen: Wählen Sie **[!UICONTROL Erweiterte Optionen]**, um die Transkripte herunterzuladen und Folgendes einzuschließen:
 
    a. Laden Sie Transkripte für Teilnehmer herunter, die aus einem Konto gelöscht wurden, indem Sie das Kontrollkästchen **[!UICONTROL Gelöschte Teilnehmer einschließen]** aktivieren.
 b. Laden Sie Modulebeneninformationen im Teilnehmertranskript herunter, indem Sie das Kontrollkästchen **[!UICONTROL Modulebeneninformationen aktivieren]** aktivieren. In diesem Fall werden Modulnamen und die für jedes Modul aufgewendete Zeit als Teil des Transkripts abgerufen, wenn diese Option aktiviert ist.
 c. Laden Sie Fertigkeitsdaten und Zusammenfassungsblätter herunter, indem Sie das Kontrollkästchen **[!UICONTROL Fertigkeitsdaten und Zusammenfassungsblätter einschließen]** aktivieren. Weitere Informationen finden Sie im Abschnitt Excel-Berichte.
-9. Sie können auch die Spaltenwerte auswählen, die in Ihrem Bericht aufgefüllt werden sollen. Dies bietet Flexibilität beim Herunterladen von Berichten mit bestimmten Spaltenwerten. Wählen Sie die Spalten im Dropdown-Menü aus.
+&#x200B;9. Sie können auch die Spaltenwerte auswählen, die in Ihrem Bericht aufgefüllt werden sollen. Dies bietet Flexibilität beim Herunterladen von Berichten mit bestimmten Spaltenwerten. Wählen Sie die Spalten im Dropdown-Menü aus.
 
    
 
