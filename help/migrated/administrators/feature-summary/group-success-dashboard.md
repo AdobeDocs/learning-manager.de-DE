@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Dashboard für den Gruppenerfolg
 description: Weitere Informationen zum Group Success Dashboard in Adobe Learning Manager
 exl-id: 2cfd0511-d77d-4e97-81e6-6caa8483cc64
-source-git-commit: 6880c5232ca20498d6fac517c4f0f786dfb8f6d5
+source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
 workflow-type: tm+mt
-source-wordcount: '1056'
+source-wordcount: '1083'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,13 @@ Der Administrator muss das Gruppen-Erfolgs-Dashboard für das Konto aktivieren. 
    ![](assets/enable-gsd.png)
    _Felder für Dashboardname, Benutzergruppe und Lernpfadauswahl_
 5. Wählen Sie **[!UICONTROL Übersichtssichtbarkeit]**, um den Übersichtsabschnitt im Dashboard zu aktivieren. In diesem Abschnitt können Sie den Fortschritt von bis zu 50 Teilnehmern anzeigen.
+
+   >[!NOTE]
+   >
+   >Wenn mehr als 50 Teilnehmer im Team oder mehr als 50 Lernobjekte vorhanden sind, wechseln Sie zur Registerkarte **[!UICONTROL Teilnehmertranskript]** anstelle der Registerkarte **[!UICONTROL Übersicht]**.
+
 6. Wählen Sie im Abschnitt **[!UICONTROL Teilnehmertranskript]** die erforderlichen Spalten aus, die Sie anzeigen möchten.
+
 
    * Teilnehmer
    * Pfade und Kurse
@@ -86,7 +92,7 @@ Administratoren können bis zu 100 Dashboards erstellen, um den Fortschritt der 
 
 7. Wählen Sie **[!UICONTROL Dashboard erstellen]**.
 
-Erstellen Sie für größere Teams ein Dashboard, indem Sie auf der Registerkarte **[!UICONTROL Teilnehmertranskript]** die Benutzergruppe **Standardkatalog** und **Alle Teilnehmer** auswählen. Dies umfasst alle Kurse und Teilnehmer in der Ansicht **[!UICONTROL Teilnehmertranskript]**, sodass es einfacher ist, nach dem Fortschritt jedes Teilnehmers zu suchen und ihn zu verfolgen.
+Erstellen Sie für größere Teams ein Dashboard, indem Sie auf der Registerkarte **Teilnehmertranskript** die Benutzergruppe **Standardkatalog** und **[!UICONTROL Alle Teilnehmer]** auswählen. Dies umfasst alle Kurse und Teilnehmer in der Ansicht **[!UICONTROL Teilnehmertranskript]**, sodass es einfacher ist, nach dem Fortschritt jedes Teilnehmers zu suchen und ihn zu verfolgen.
 
 ### Das Dashboard für den Gruppenerfolg anzeigen
 

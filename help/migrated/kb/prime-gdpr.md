@@ -4,9 +4,9 @@ title: Learning Manager – Konformität mit der DSGVO
 description: Adobe Learning Manager-Konformität mit der DSGVO
 contentowner: dvenkate
 exl-id: 8ea31464-b4ce-49e8-b471-5630f0216aa4
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '678'
 ht-degree: 39%
 
 ---
@@ -17,19 +17,23 @@ ht-degree: 39%
 >
 >Der Inhalt dieses Dokuments ist keine Rechtsberatung und soll keine Rechtsberatung ersetzen. Bitte wenden Sie sich an die Rechtsabteilung Ihres Unternehmens bezüglich Beratung zur DS-GVO.
 
-+++Was ist die DSGVO?
+Adobe Learning Manager hält an der Einhaltung der DSGVO fest und stellt sicher, dass Anwenderdaten sicher und transparent verwaltet werden. Es bietet wichtige DSGVO-Funktionen wie die Möglichkeit, Benutzer zu bereinigen (alle personenbezogenen Daten dauerhaft zu löschen) und ermöglicht es Administratoren, Teilnehmertranskripte zu erstellen, um Informationen auf Anfrage an Benutzer weiterzugeben.
+
+Alle Benutzerdaten werden während der Übertragung und Speicherung mit starker Verschlüsselung unter Verwendung von Standards wie SHA-256 geschützt. Bei einigen Integrationen müssen sich die Teilnehmer authentifizieren, um sicherzustellen, dass ihre Zustimmung eingeholt wird, bevor sie Daten freigeben. Diese Datenschutz- und Sicherheitskontrollen helfen Unternehmen, die Adobe Learning Manager verwenden, dabei, die DSGVO einzuhalten und die Informationen der Teilnehmer zu schützen.
+
++++Was ist die DS-GVO?
 
 Die DSGVO ist eine neue Verordnung der Europäischen Union, die am 25. Mai 2018 in Kraft tritt. Sie bietet eine starke Datenschutzkontrolle und ermöglicht es den Endbenutzern, ihre personenbezogenen Daten zu verwalten.
 
 +++
 
-+++Wie oder warum gilt sie für Sie als Kunden von Adobe Learning Manager?
++++Wie oder warum gilt sie für Sie als Adobe Learning Manager-Kunde?
 
 Die DSGVO ist eine EU-Verordnung, sie gilt jedoch weltweit für Unternehmen, die personenbezogene Informationen für jeden Benutzer erfassen, der in der EU ansässig ist.  Als Learning Manager-Kunde sollten Sie prüfen, ob die DSGVO für Ihr Unternehmen gilt.
 
 +++
 
-+++Welche Rolle spielt Adobe als Anbieter von Lernmanagern?
++++Welche Rolle spielt Adobe dabei als Anbieter von Learning Manager?
 
 Gemäß DSGVO werden Sie als [Datenverantwortlicher](https://gdpr-info.eu/art-24-gdpr/) betrachtet, wenn Ihr Unternehmen ein Produkt oder eine Dienstleistung für EU-Bürger anbietet und bestimmt, wie und warum deren Daten erfasst, verfolgt und überwacht werden. Wenn Sie als Adobe Learning Manager-Kunde eine dieser Aktivitäten ausführen, gelten Sie als Datenverantwortlicher.
 
@@ -37,7 +41,7 @@ Unternehmen, die Daten im Namen von Controllern verarbeiten, gelten als [Datenve
 
 +++
 
-+++Wie unterstützt Learning Manager Sie bei der Einhaltung der DSGVO?
++++Wie ermöglicht Learning Manager Ihnen die Einhaltung der DS-GVO?
 
 Learning Manager verfügt über die folgenden Tools und Prozesse, die Sie bei der Einhaltung der DS-GVO unterstützen. Um Prozesse zu unterstützen, die über die vollständige Konformität des Produkts mit der Verordnung hinausgehen, müssen Sie möglicherweise trotzdem mit Ihrem Compliance-Team eine Bewertung vornehmen.
 

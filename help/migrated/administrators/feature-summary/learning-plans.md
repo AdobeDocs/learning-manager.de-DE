@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Lernpläne
 contentowner: manochan
 exl-id: 99e3d2f5-0bf0-4f4e-8874-8136af7c592a
-source-git-commit: 2a841234cd829d2a477d44e9cca095370ee25e51
+source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
 workflow-type: tm+mt
-source-wordcount: '1621'
+source-wordcount: '1629'
 ht-degree: 62%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 62%
 
 Erstellen von Lernplänen für Administratoren in Learning Manager.
 
-## Übersicht {#overview}
+## Überblick {#overview}
 
 Ein Lernplan ist eine Reihe von Regeln, die Teilnehmer zu bestimmten Schulungen auf der Grundlage bestimmter Kriterien registrieren.
 
@@ -34,7 +34,8 @@ Um einen Lernplan zu erstellen, müssen Sie sich als Administrator anmelden.
 
    ![](assets/add-learning-plandialog.png)
 
-1. Wählen Sie in der Dropdown-Liste **[!UICONTROL Tritt ein, wenn]** das gewünschte Ereignis aus. Die Optionen bestimmen, wann ein Teilnehmer den Kurs besucht. Wählen Sie nach Auswahl des Ereignistyps die entsprechende Schulung, Kurse, das Lernprogramm oder die Zertifizierung aus.
+1. Wählen Sie in der Dropdown-Liste **[!UICONTROL Tritt ein, wenn]** das gewünschte Ereignis aus. Administratoren können jeweils ein Ereignis hinzufügen.
+Die Optionen bestimmen, wann ein Teilnehmer den Kurs besucht. Wählen Sie nach Auswahl des Ereignistyps die entsprechende Schulung, Kurse, das Lernprogramm oder die Zertifizierung aus.
 
 >[!NOTE]
 >

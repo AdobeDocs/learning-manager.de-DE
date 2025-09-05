@@ -4,9 +4,9 @@ title: Lernpläne
 description: Erstellen von Lernplänen für Administratoren in Learning Manager.
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: c365dca377e8c6ad7bb9489c6fe043e72660c54e
+source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
 workflow-type: tm+mt
-source-wordcount: '1430'
+source-wordcount: '1442'
 ht-degree: 32%
 
 ---
@@ -133,7 +133,7 @@ Die Lernplaninstanzen zeigen die zusätzliche Kachel **[!UICONTROL Lernpläne]**
 
 In der Kachel **Kurse** sehen Sie die Kursinstanzen, die für die Teilnehmer sichtbar sind, die für diese Instanz registriert sind.
 
-Das Kontrollkästchen **[!UICONTROL Teilnehmern das Auswählen von Instanzen ermöglichen (flexibler Lernpfad)]** gilt nur für Kurse. Alle untergeordneten Lernpfade erhalten eine Option, um eine Lernprogramminstanz dem Lernpfad zuzuordnen. Standardmäßig ist die Zuordnung auf „Standardinstanz“ festgelegt.
+Das Kontrollkästchen **[!UICONTROL Teilnehmern das Auswählen von Instanzen ermöglichen (flexibler Lernpfad)]** gilt nur für Kurse. Mit dieser Option können Teilnehmer ihre Instanzen im Lernpfad wechseln. Alle untergeordneten Lernpfade erhalten eine Option, um eine Lernprogramminstanz dem Lernpfad zuzuordnen. Standardmäßig ist die Zuordnung auf „Standardinstanz“ festgelegt.
 
 ![](assets/default-instance.png)
 

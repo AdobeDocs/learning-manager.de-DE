@@ -3,9 +3,9 @@ description: Erfahren Sie, wie Sie aktive Felder in Adobe Learning Manager verwe
 jcr-language: en_us
 title: Aktive Felder in Adobe Learning Manager konfigurieren
 exl-id: e68300d6-9f19-4e42-b485-c4bbbbcf5518
-source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
+source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
 workflow-type: tm+mt
-source-wordcount: '1012'
+source-wordcount: '1062'
 ht-degree: 0%
 
 ---
@@ -87,6 +87,10 @@ So konfigurieren Sie die Einstellungen für aktive Felder:
 
 3. Wählen Sie **Speichern**, um Ihre Änderungen zu übernehmen.
 
+>[!NOTE]
+>
+>Das Zuweisen einer neuen Rolle wirkt sich nicht auf benutzerdefinierte Benutzergruppen aus. Dies wirkt sich jedoch auf automatisch generierte Benutzergruppen wie &quot;Alle Administratoren&quot;, &quot;Alle Autoren&quot; und ähnliche rollenbasierte Gruppen aus.
+
 ## Aktive Felder mit mehreren Werten
 
 Mit aktiven Feldern mit mehreren Werten können Sie einem einzelnen Benutzerattribut mehrere Werte zuweisen, z. B. Standorte, Tätigkeitsbezeichnungen oder Projektteams. Auf diese Weise können detailliertere und flexiblere Benutzerinformationen erfasst werden.
@@ -118,8 +122,10 @@ _Kontrollkästchen zum Aktivieren der Werteinschränkung während des CSV-Upload
 
 ## Verwalten fehlender aktiver Felder beim CSV-Benutzerimport
 
-In einigen Fällen ziehen Administratoren es den Teilnehmern vor, bestimmte aktive Felder manuell auszufüllen, wenn sie sich bei Adobe Learning Manager anmelden. Dies wird für Benutzer unterstützt, die über eine CSV-Datei importiert wurden. Im [Artikel](/help/migrated/administrators/feature-summary/add-users-user-groups.md) erfahren Sie, wie Sie mehrere Benutzer gleichzeitig hinzufügen.
+In einigen Fällen ziehen Administratoren es den Teilnehmern vor, bestimmte aktive Felder manuell auszufüllen, wenn sie sich bei Adobe Learning Manager anmelden. Dies wird für Benutzer unterstützt, die über eine CSV-Datei importiert wurden. Im [Artikel](/help/migrated/administrators/feature-summary/add-users-user-groups.md) erfahren Sie, wie Sie mehrere Benutzer gleichzeitig hinzufügen. Benutzer werden automatisch zu aktiven Feldern oder rollenbasierten Gruppen hinzugefügt, die auf den Werten der Box-FTP-Felder basieren. Sie können nicht benutzerdefinierten Gruppen hinzugefügt werden.
 
 Wenn eine CSV-Datei nicht alle aktiven Felder enthält, muss der Administrator die fehlenden Werte nach dem Import manuell eingeben.
 
-Standardmäßig muss jedes aktive Feld einem entsprechenden Feld in der Quell-CSV zugeordnet werden. Wenn Sie jedoch keiner Spalte in der CSV-Datei ein bestimmtes aktives Feld zuordnen möchten, können Sie den Wert **DontImportFromSource** sowohl während des Box- als auch des FTP-Importvorgangs aus der Dropdownliste auswählen. Diese Option ist beim Importieren von Benutzern über FTP- oder Box-Connectors verfügbar. Weitere Informationen zu den Konnektoren finden Sie in diesem [Artikel](https://experienceleague.adobe.com/de/docs/learning-manager/using/integration/connectors).
+Standardmäßig muss jedes aktive Feld einem entsprechenden Feld in der Quell-CSV zugeordnet werden. Wenn Sie jedoch keiner Spalte in der CSV-Datei ein bestimmtes aktives Feld zuordnen möchten, können Sie den Wert **DontImportFromSource** sowohl während des Box- als auch des FTP-Importvorgangs aus der Dropdownliste auswählen. Diese Option ist beim Importieren von Benutzern über FTP- oder Box-Connectors verfügbar. Weitere Informationen zu den Konnektoren finden Sie in diesem [Artikel](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/connectors).
+
+

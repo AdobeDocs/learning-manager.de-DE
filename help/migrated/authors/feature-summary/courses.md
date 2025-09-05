@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Kurse erstellen, ändern und veröffentlichen
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: a3a36fb1c68fb48809ad77b0d0a7ffa3daebe79e
+source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
 workflow-type: tm+mt
-source-wordcount: '7433'
-ht-degree: 70%
+source-wordcount: '7540'
+ht-degree: 69%
 
 ---
 
@@ -737,7 +737,19 @@ Das Fenster mit den Kursinformationen wird angezeigt. Der Kurs ist schreibgesch�
 
 ## Kurs einstellen {#retireacourse}
 
+Administratoren können die Option &quot;Einstellen&quot; für das Adobe Learning Manager-Konto aktivieren. Mit dieser Funktion können Administratoren einen Kurs einstellen, sodass er für neue Registrierungen nicht mehr verfügbar ist, während derzeit registrierte Teilnehmer weiterhin Zugriff haben.
+
 Wenn Sie einen Kurs beenden, wird er für die Teilnehmer ausgeblendet, selbst wenn sie angemeldet sind oder den Kurs bereits abgeschlossen haben. Wenn Sie einen Kurs beenden, können Sie keine neuen Teilnehmer für den Kurs anmelden. Bereits eingeschriebene Teilnehmer können den Kurs belegen.
+
+So aktivieren Sie die Option Einstellen für ein Adobe Learning Manager-Konto:
+
+1. Melden Sie sich bei Adobe Learning Manager als Administrator an.
+2. Wählen Sie **[!UICONTROL Einstellungen]** und anschließend **[!UICONTROL Allgemein]** aus.
+3. Wählen Sie eine der folgenden Optionen zum Einstellen:
+   * Nach dem Einstellen können registrierte Teilnehmer Aktionen anzeigen und ausführen, aber die noch nicht registrierten Teilnehmer verlieren den Zugriff.
+   * Sobald Teilnehmer eingestellt werden, verlieren sowohl die registrierten als auch die noch nicht registrierten Teilnehmer den Zugriff.
+
+Administratoren können einen Kurs auf der Seite **[!UICONTROL Kurse]** einstellen.
 
 Um einen Kurs zu beenden, bewegen Sie den Mauszeiger über die Optionen und klicken Sie auf „Kurs beenden“.
 
@@ -843,7 +855,7 @@ Sie können in Learning Manager mit den Menüoptionen „Veröffentlichen“ Kur
 1. Melden Sie sich mit Adobe-Anmeldeinformationen an. Wenn Sie noch keine Adobe ID haben, klicken Sie auf **[!UICONTROL Konto erstellen]**. Nach der Autorisierung werden Sie zur Seite für die Veröffentlichung von Modulen weitergeleitet.
 1. Geben Sie alle Basisinformationen über das Modul ein und klicken Sie auf „Veröffentlichen“.
 
-Sie sehen das veröffentlichte Modul auf der Modulseite von Learning Manager. Weitere Informationen finden Sie unter [Projekt in Adobe Learning Manager veröffentlichen](https://helpx.adobe.com/de/captivate/classic/publish-project-to-captivate-prime.html).
+Sie sehen das veröffentlichte Modul auf der Modulseite von Learning Manager. Weitere Informationen finden Sie unter [Projekt in Adobe Learning Manager veröffentlichen](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html).
 
 ## Kurseffektivität {#courseeffectiveness}
 
