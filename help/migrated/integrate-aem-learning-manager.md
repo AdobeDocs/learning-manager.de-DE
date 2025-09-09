@@ -4,10 +4,10 @@ title: Adobe Learning Manager mit AEM integrieren
 description: Learning Manager ist ein Learning Management System mit einem integrierten Learning Content Management System. Benutzer verwalten ihre Lerninhalte, indem sie sie auf Learning Manager hochladen, sodass Learning Manager die Versionierung, die Zuweisung zu Kursen, die Definition der Sichtbarkeit für Teilnehmer, die Verfolgung der Nutzung und die Berichterstattung an Administratoren durchführt.
 contentowner: saghosh
 exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
-source-git-commit: d487d87015e51f1b54ee3a2ed0a97398cfc09686
+source-git-commit: 65573768ca55978982d0c7bcdb0cd9009772197f
 workflow-type: tm+mt
-source-wordcount: '3006'
-ht-degree: 57%
+source-wordcount: '3117'
+ht-degree: 55%
 
 ---
 
@@ -52,7 +52,7 @@ Installieren Sie das Learning Manager-Inhaltspaket mit dem AEM Package Manager:
 
 >[!NOTE]
 >
->Informationen zum Installieren von Paketen finden Sie unter [***Arbeiten mit Paketen***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=de#how-to-work-with-packages).
+>Informationen zum Installieren von Paketen finden Sie unter [***Arbeiten mit Paketen***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages).
 
 1. Öffnen Sie als AEM-Autor den AEM Package Manager.
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Paket hochladen]**.
@@ -322,7 +322,7 @@ Für die Lern-Manager-Komponente muss die im obigen Schritt erstellte Konfigurat
 
 Der Teilnehmer kann die Kurse von der Seite aus absolvieren.
 
-Um auf das Learning Manager-Widget zugreifen zu können, muss der Teilnehmer als AEM-Benutzer angemeldet sein. Die Eigenschaft **email** muss im Knoten &quot;/profile&quot; des Knoten &quot;rep:User&quot; des Teilnehmers vorhanden sein. Diese E-Mail-Adresse muss exakt der E-Mail-Adresse im Learning Manager-Konto entsprechen.
+Um auf das Learning Manager-Widget zugreifen zu können, muss der Teilnehmer als AEM-Benutzer angemeldet sein. Die Eigenschaft **email** muss im Knoten &quot;/profile&quot; des Knoten rep:User des Teilnehmers vorhanden sein. Diese E-Mail-Adresse muss exakt der E-Mail-Adresse im Learning Manager-Konto entsprechen.
 
 Der Teilnehmer kann die Kurse von der Seite aus absolvieren.
 
@@ -397,6 +397,22 @@ Im Abschnitt **[!UICONTROL Allgemeine Einstellungen]** können Sie die primären
  } 
 }
 ```
+
+### Konfigurieren Sie meine gespeicherten Kurse-Widgets in AEM Sites
+
+Mit dem Widget &quot;Meine gespeicherten Kurse&quot; können Teilnehmer ihre mit einem Lesezeichen versehenen oder gespeicherten Kurse direkt auf ihren Lernseiten anzeigen und so leicht auf Kurse zugreifen, die sie später erneut aufrufen oder abschließen möchten.
+
+So konfigurieren Sie das Widget &quot;Meine gespeicherten Kurse&quot; auf AEM:
+
+1. Starten Sie die AEM.
+2. Öffnen Sie die Seite im Modus **[!UICONTROL Bearbeiten]**.
+3. Wechseln Sie zum **[!UICONTROL Komponenten-Browser]** und fügen Sie der Seite **[!UICONTROL My Learning-Widget]** hinzu.
+4. Wählen Sie die Komponente aus und wählen Sie dann **[!UICONTROL Konfigurieren]**.
+5. Wählen Sie im Dropdownmenü in **[!UICONTROL Eigenschaften]** die Option **[!UICONTROL Meine gespeicherten Kurse]** aus.
+6. Wählen Sie **[!UICONTROL Fertig]** aus und aktualisieren Sie die Seite im Modus **[!UICONTROL Vorschau]** oder **[!UICONTROL Publish]**.
+
+Das Widget wird den Teilnehmern mit den gespeicherten Kursen angezeigt.
+
 
 ### Höhere Reihenfolgen-LO-Registrierung ignorieren
 
