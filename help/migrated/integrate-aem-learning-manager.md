@@ -4,9 +4,9 @@ title: Adobe Learning Manager mit AEM integrieren
 description: Learning Manager ist ein Learning Management System mit einem integrierten Learning Content Management System. Benutzer verwalten ihre Lerninhalte, indem sie sie auf Learning Manager hochladen, sodass Learning Manager die Versionierung, die Zuweisung zu Kursen, die Definition der Sichtbarkeit für Teilnehmer, die Verfolgung der Nutzung und die Berichterstattung an Administratoren durchführt.
 contentowner: saghosh
 exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
-source-git-commit: 65573768ca55978982d0c7bcdb0cd9009772197f
+source-git-commit: aa8a45427e7e78ac66a21531a9511bf9a21d03b4
 workflow-type: tm+mt
-source-wordcount: '3117'
+source-wordcount: '3116'
 ht-degree: 55%
 
 ---
@@ -52,7 +52,7 @@ Installieren Sie das Learning Manager-Inhaltspaket mit dem AEM Package Manager:
 
 >[!NOTE]
 >
->Informationen zum Installieren von Paketen finden Sie unter [***Arbeiten mit Paketen***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=de#how-to-work-with-packages).
+>Informationen zum Installieren von Paketen finden Sie unter [***Arbeiten mit Paketen***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages).
 
 1. Öffnen Sie als AEM-Autor den AEM Package Manager.
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Paket hochladen]**.
@@ -411,7 +411,7 @@ So konfigurieren Sie das Widget &quot;Meine gespeicherten Kurse&quot; auf AEM:
 5. Wählen Sie im Dropdownmenü in **[!UICONTROL Eigenschaften]** die Option **[!UICONTROL Meine gespeicherten Kurse]** aus.
 6. Wählen Sie **[!UICONTROL Fertig]** aus und aktualisieren Sie die Seite im Modus **[!UICONTROL Vorschau]** oder **[!UICONTROL Publish]**.
 
-Das Widget wird den Teilnehmern mit den gespeicherten Kursen angezeigt.
+Das Widget zeigt den Teilnehmern die gespeicherten Kurse an.
 
 
 ### Höhere Reihenfolgen-LO-Registrierung ignorieren
