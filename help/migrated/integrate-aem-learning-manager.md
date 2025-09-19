@@ -4,10 +4,10 @@ title: Adobe Learning Manager mit AEM integrieren
 description: Learning Manager ist ein Learning Management System mit einem integrierten Learning Content Management System. Benutzer verwalten ihre Lerninhalte, indem sie sie auf Learning Manager hochladen, sodass Learning Manager die Versionierung, die Zuweisung zu Kursen, die Definition der Sichtbarkeit für Teilnehmer, die Verfolgung der Nutzung und die Berichterstattung an Administratoren durchführt.
 contentowner: saghosh
 exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
-source-git-commit: ffd45cb8cb2d35817e8fc19d5256c14931e31ff3
+source-git-commit: 976dc0123cd44b7601b5a53e75dca7af5fadabca
 workflow-type: tm+mt
-source-wordcount: '3163'
-ht-degree: 54%
+source-wordcount: '3274'
+ht-degree: 52%
 
 ---
 
@@ -52,7 +52,7 @@ Installieren Sie das Learning Manager-Inhaltspaket mit dem AEM Package Manager:
 
 >[!NOTE]
 >
->Informationen zum Installieren von Paketen finden Sie unter [***Arbeiten mit Paketen***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=de#how-to-work-with-packages).
+>Informationen zum Installieren von Paketen finden Sie unter [***Arbeiten mit Paketen***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages).
 
 1. Öffnen Sie als AEM-Autor den AEM Package Manager.
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Paket hochladen]**.
@@ -360,7 +360,20 @@ Wählen Sie im Abschnitt **[!UICONTROL Eigenschaften]** in den Seiteneigenschaft
 Die Katalogoptionen enthalten die folgenden Optionen:
 
 * **[!UICONTROL Katalog-IDs]:** Durch Kommas getrennte Katalog-IDs, für die die Schulung angezeigt werden muss.
-* **[!UICONTROL Sortieren]:** Sortierreihenfolge für die Schulung. Die Optionen sind: Name, Datum, dateCreated, dateEnrolled usw.
+* **[!UICONTROL Sortieren]:** Sortierreihenfolge für die Schulung. Im Folgenden sind die Sortieroptionen aufgeführt:
+   * Name: Sortiert Lernobjekte alphabetisch von A bis Z.
+   * -name: Sortiert Lernobjekte alphabetisch von Z nach A.
+   * date: Sortiert nach Datum in aufsteigender Reihenfolge.
+   * -date: Sortiert nach Datum in absteigender Reihenfolge (zuletzt zuerst).
+   * dateCreated: Sortiert nach dem Erstellungsdatum des Lernobjekts (älteste zuerst).
+   * -dateCreated: Sortiert nach Erstellungsdatum (neueste zuerst).
+   * dateEnrolled: Sortiert nach dem Registrierungsdatum des Teilnehmers (zuerst).
+   * -dateEnrolled: Sortiert nach Registrierungsdatum (zuletzt zuerst).
+   * Bewertung: Sortiert nach Teilnehmerbewertungen (niedrigste bis höchste Bewertung).
+   * -rating: Sortiert nach Bewertungen (von höchster zu niedrigster Bewertung).
+   * dueDate: Sortiert nach dem Fälligkeitsdatum des Kurses (früheste Frist zuerst).
+   * Wirksamkeit: Sortiert anhand des Teilnehmer-Feedbacks nach Effektivitätswerten.
+   * Fortschritt: Sortiert nach Teilnehmerfortschritt (geringster Fortschritt für die meisten).
 * **[!UICONTROL Teilnehmerstatus]:** Gibt alle Schulungen zurück, die die folgenden Filter verwenden: Registriert, Begonnen, Abgeschlossen und nicht Registriert. Die Suchergebnisse werden nicht angezeigt, wenn die Sortieroption dateEnrolled, dueDate oder dateEnrolled lautet.
 * **[!UICONTROL Qualifikationsname]:** Die für die exakte Filterung der Schulung verwendete Qualifikation.
 * **[!UICONTROL Tag-Name]:** Das zum Filtern exakter Ergebnisse verwendete Tag.
