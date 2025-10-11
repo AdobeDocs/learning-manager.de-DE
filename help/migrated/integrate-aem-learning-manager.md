@@ -4,9 +4,9 @@ title: Adobe Learning Manager mit AEM integrieren
 description: Learning Manager ist ein Learning Management System mit einem integrierten Learning Content Management System. Benutzer verwalten ihre Lerninhalte, indem sie sie auf Learning Manager hochladen, sodass Learning Manager die Versionierung, die Zuweisung zu Kursen, die Definition der Sichtbarkeit für Teilnehmer, die Verfolgung der Nutzung und die Berichterstattung an Administratoren durchführt.
 contentowner: saghosh
 exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
-source-git-commit: 976dc0123cd44b7601b5a53e75dca7af5fadabca
+source-git-commit: 1e7e7ba6e419476476e18ed3f826cc07ac2e1f88
 workflow-type: tm+mt
-source-wordcount: '3274'
+source-wordcount: '3273'
 ht-degree: 52%
 
 ---
@@ -52,7 +52,7 @@ Installieren Sie das Learning Manager-Inhaltspaket mit dem AEM Package Manager:
 
 >[!NOTE]
 >
->Informationen zum Installieren von Paketen finden Sie unter [***Arbeiten mit Paketen***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=de#how-to-work-with-packages).
+>Informationen zum Installieren von Paketen finden Sie unter [***Arbeiten mit Paketen***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages).
 
 1. Öffnen Sie als AEM-Autor den AEM Package Manager.
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Paket hochladen]**.
@@ -411,7 +411,7 @@ Im Abschnitt **[!UICONTROL Allgemeine Einstellungen]** können Sie die primären
 }
 ```
 
-### Konfigurieren Sie meine gespeicherten Kurse-Widgets in AEM Sites
+### Konfigurieren von gespeicherten Kurse-Widgets in AEM Sites
 
 Mit dem Widget &quot;Meine gespeicherten Kurse&quot; können Teilnehmer ihre mit einem Lesezeichen versehenen oder gespeicherten Kurse direkt auf ihren Lernseiten anzeigen und so leicht auf Kurse zugreifen, die sie später erneut aufrufen oder abschließen möchten.
 

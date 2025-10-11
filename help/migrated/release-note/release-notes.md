@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Versionshinweise zu Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: ffb4883227f1e461df5fc4a025fef1ba1b8568c2
+source-git-commit: 5d50bd56b6663b26fc6db0ff33d19ad809e9bf6a
 workflow-type: tm+mt
-source-wordcount: '27312'
-ht-degree: 69%
+source-wordcount: '27340'
+ht-degree: 70%
 
 ---
 
@@ -22,6 +22,15 @@ ht-degree: 69%
   </tr>
  </tbody>
 </table>-->
+
++++Update 102: Adobe Learning Manager Version Oktober 2025
+
+**Freigabedatum**: 12. Oktober 2025
+
+## Neue Funktionen in dieser Version
+
+Weitere Informationen finden Sie unter [Neue Funktionen in Adobe Learning Manager Version Oktober 2025](/help/migrated/whats-new.md).
++++
 
 +++Update 101: Die Version Juli 2025 von Adobe Learning Manager
 
@@ -93,7 +102,7 @@ Wenn ein Administrator auf **[!UICONTROL Update]** klickt, kann er aus den folge
 
 | Altes Etikett | Neue Option |
 |---|---|
-| Inhaltsaktualisierung auf alle Teilnehmer anwenden | Alle Teilnehmer jetzt aktualisieren:Inhaltsaktualisierung für alle Teilnehmer anwenden |
+| Inhaltsaktualisierung auf alle Teilnehmer anwenden | Alle Teilnehmer jetzt aktualisieren:Apply Inhaltsupdate für alle Teilnehmer |
 | Aktualisierung auf Teilnehmer anwenden, die noch nicht gestartet wurden | Nur nicht angefangene Teilnehmer aktualisieren: Inhaltsaktualisierung nur für nicht angefangene Teilnehmer anwenden |
 | In Bearbeitung befindliche Teilnehmer erhalten nach Abschluss eine Aktualisierung | Letztendlich alle Teilnehmer aktualisieren: Wenden Sie schließlich die Inhaltsaktualisierung für alle Teilnehmer an |
 
@@ -122,17 +131,17 @@ Weitere Informationen zum Fluidic Player finden Sie in diesem [Artikel](/help/mi
 
 * Es wurde ein Problem behoben, durch das Teilnehmer, die einen Kurs abgeschlossen hatten, einen weißen Bildschirm sahen, wenn sie ihn erneut besuchten, nachdem das Inhaltsmodul auf eine neue Version aktualisiert wurde.
 
-Weitere Informationen zu bevorstehenden Änderungen an Adobe Learning Manager finden Sie in diesem [Artikel](https://experienceleague.adobe.com/de/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
+Weitere Informationen zu bevorstehenden Änderungen an Adobe Learning Manager finden Sie in diesem [Artikel](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
 
 +++
 
-+++Update 100: Die Version Mai 2025 von Adobe Learning Manager
++++Update 100: Adobe Learning Manager Version Mai 2025
 
 **Freigabedatum**: 10. Mai 2025
 
 ## Neue Funktionen in dieser Version
 
-Unter [Neue Funktionen in Adobe Learning Manager](/help/migrated/whats-new.md) finden Sie weitere Informationen.
+Unter [Neue Funktionen in Adobe Learning Manager](/help/migrated/whats-new-may-2025.md) finden Sie weitere Informationen.
 +++
 
 +++Update 99: Die Version Februar 2025 von Adobe Learning Manager
@@ -380,7 +389,7 @@ Wenn Sie auf iPhone 14 auf die Benachrichtigungen auf der Registerkarte „Aktiv
 * Sie können sich nicht bei LinkedIn Learning anmelden.
 +++
 
-+++Update 8
++++Update 88
 
 **Freigabedatum:** 7. März 2023
 
@@ -605,7 +614,7 @@ Die Version November 2022 von Adobe Learning Manager umfasst Folgendes:
 * Falsche URL der Unterdomäne auf der Branding-Seite.
 +++
 
-+++Update 7
++++Update 77
 
 **Freigabedatum:** 24. Mai 2022
 
@@ -693,7 +702,7 @@ Freigabedatum: 05. Februar 2022
 * Unterstützung für E-Mail-Vorlagen ist jetzt für Inhaltssprachen einschließlich Ungarisch und Finnisch verfügbar.
 +++
 
-+++Update 72 - Version von Januar 2022 von Learning Manager
++++Update 72 – Version von Januar 2022 von Learning Manager
 
 Freigabedatum: 30. Januar 2017
 
@@ -831,7 +840,7 @@ Freigabedatum: 28. Oktober 2021
 * Die Lernobjekt-API gab in einigen Fällen einen Metadatenfehler zurück.
 +++
 
-+++Update 69 - Version von Learning Manager vom Oktober 2021
++++Update 69 – Version von Learning Manager Oktober 2021
 
 **Freigabedatum:** 09. Oktober 2021
 
@@ -911,7 +920,7 @@ Freigabedatum: 28. September 2021.
 * Teilnehmer erhalten keine E-Mails, die Details einer Sitzung enthalten.
 +++
 
-+++Update 67 - Updates für Azure
++++Update 67 – Updates für Azure
 
 Mit diesem Update wird eine neue Instanz von Azure eingeführt.
 
@@ -925,7 +934,7 @@ Mit diesem Update wird eine neue Instanz von Azure eingeführt.
 
 +++
 
-+++Update 66 - Version von August 2021 von Learning Manager
++++Update 66 – Version von August 2021 von Learning Manager
 
 Die **Version August 2021** **von Adobe Learning Manager** konzentriert sich auf die Verbesserung der Teilnehmererfahrung, der Berichterstellung und der Administrator-Workflows. Zu den Highlights gehören:
 
@@ -1135,7 +1144,7 @@ Mit diesem Update können Teilnehmer ihre Abzeichen im PDF- und Bildformat herun
 <!--## Previous update releases {#previousupdatereleases}-->
 +++
 
-+++Update 60 - Version vom Februar 2021 von Learning Manager
++++Update 60 – Version von Learning Manager von Februar 2021
 
 Freigabedatum: 20. Februar 2021
 
@@ -1167,7 +1176,7 @@ Weitere Informationen finden Sie unter „Neue Funktionen“ im [Update von Lear
 * Das Herunterladen von Ressourcen aus einem Kurs funktionierte nicht, wenn er aus einem anderen Kurs kopiert wurde und der Teilnehmer keinen Zugriff auf den ursprünglichen zum Erstellen des duplizierten Kurses verwendeten Kurs hat.
 * Bannerbilder wurden nicht gelöscht, wenn der Autor sie entfernt, während sich der Kurs im Entwurfsstatus befindet. Dieses Problem wurde behoben.
 
-**AEM &#x200B;**
+**AEM **
 
 * Nach dem Einfügen der Learning Manager-Komponente in AEM dauerte das Laden der Seite lange und der Zugriff auf die anderen Komponenten war nicht möglich. Dieses Problem wurde behoben.
 
@@ -1273,7 +1282,7 @@ Weitere Informationen finden Sie unter [***BlueJeans-Veranstaltungs-Connector**
 
 +++
 
-+++Update 58 - Version von Adobe Learning Manager vom Dezember 2020
++++Update 58 – Version von Learning Manager von Dezember 2020
 
 ## Update 58 – Version von Learning Manager von Dezember 2020
 
@@ -1325,7 +1334,7 @@ Nach Abschluss eines Kurses oder einer Zertifizierung wird das Feedback-Popup ni
 
 +++
 
-+++ 57
++++Update 57
 
 ## Update 57
 
@@ -1353,7 +1362,7 @@ Freigabedatum: 23. September 2020.
 
 +++
 
-+++Update 56 - Mobile App
++++Update 56 – Mobile App
 
 Freigabedatum: 25. August 2020
 
@@ -1389,7 +1398,7 @@ Teilnehmer können jedoch zwischen Listen- und Kartenansicht wechseln.
 
 +++
 
-+++Update 55 - Version von August 2020 von Learning Manager
++++Update 55 – Version von Learning Manager von August 2020
 
 Freigabedatum: 23. August 2020
 
@@ -1521,7 +1530,7 @@ Weitere Informationen finden Sie unter [***Neue Funktionen in Version August 202
 
 +++
 
-+++Update 54 - Mobile App
++++Update 54 – Mobile App
 
 ## Update 54 – Mobile App
 
@@ -1552,7 +1561,7 @@ Wenn Sie die Ankündigung in dem Moment nicht lesen möchten, können Sie sie je
 
 +++
 
-+++Update 53 - Version von April 2020 von Learning Manager
++++Update 53 – Version von Learning Manager von April 2020
 
 Freigabedatum: 04. April 2020
 
@@ -1601,7 +1610,7 @@ In diesem Update kann ein Teilnehmer Assets als Abschlussnachweis für ein exter
 
 Ein Teilnehmer kann ein externes Zertifikat öffnen und Assets wie PDF-, Text- oder Bilddateien hochladen.
 
-Weitere Informationen finden Sie unter [***Hochladen von Assets in externes Zertifikat***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).**&#x200B;**
+Weitere Informationen finden Sie unter [***Hochladen von Assets in externes Zertifikat***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).****
 
 ### In diesem Update behobene Probleme {#issuesfixedinthisrelease}
 
@@ -1979,7 +1988,7 @@ Freigabedatum: 20. Juni 2019
 
 **Automatische Kuration des Inhalts**
 
-Mit Soziales Lernen können von Teilnehmern gepostete Inhalte auf zwei Arten kuratiert werden: **Keine Kuration** und **Manuelle Kuration**. In dieser Version hat Adobe Learning Manager das Soziale Lernen verbessert, indem AI-fähige Funktionen zur automatischen Kuration bereitgestellt wurden. Sobald der Inhalt veröffentlicht wurde, wird der Inhalt analysiert, um festzustellen, ob der Inhalt zu den Kenntnissen gehört, für die er veröffentlicht wurde. Basierend auf dem Confidence-Ergebnis wird der Inhalt entweder live veröffentlicht oder zur manuellen Kuration gesendet. Weitere Informationen finden Sie unter *[**&#x200B; Automatische Kuration &#x200B;**](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
+Mit Soziales Lernen können von Teilnehmern gepostete Inhalte auf zwei Arten kuratiert werden: **Keine Kuration** und **Manuelle Kuration**. In dieser Version hat Adobe Learning Manager das Soziale Lernen verbessert, indem AI-fähige Funktionen zur automatischen Kuration bereitgestellt wurden. Sobald der Inhalt veröffentlicht wurde, wird der Inhalt analysiert, um festzustellen, ob der Inhalt zu den Kenntnissen gehört, für die er veröffentlicht wurde. Basierend auf dem Confidence-Ergebnis wird der Inhalt entweder live veröffentlicht oder zur manuellen Kuration gesendet. Weitere Informationen finden Sie unter *[** Automatische Kuration **](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
 
 **Kenntnisse Kenntnisdomänen zuordnen**
 
@@ -2237,7 +2246,7 @@ Diese Version von Learning Manager bietet Ihnen Leistungsoptimierungen zur Verbe
 
 +++
 
-+++ 33
++++Update 33
 
 Freigabedatum: 5. Oktober 2017.
 
@@ -2599,11 +2608,11 @@ Die Fluidic Player-Verbesserungen gelten nur für Video.
 
 +++Update 26
 
-Freigabedatum: 06. Dezember 2016.
+Freigabedatum: 6. Dezember 2016.
 
 ### Verbesserungen {#enhancement}
 
-Als Teil dieses Updates stellt der Learning Manager einen Endpunkt [PATCH/users/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id), um Benutzer in einer Anwendung zu aktualisieren. Sie können auf diesen API-Endpunkt in der Administratorrolle zugreifen. Unter Verwendung **&#x200B;**&#x200B;Endpunkts können Sie die folgenden Informationen von Learning Manager-Benutzern aktualisieren:
+Als Teil dieses Updates stellt der Learning Manager einen Endpunkt [PATCH/users/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id), um Benutzer in einer Anwendung zu aktualisieren. Sie können auf diesen API-Endpunkt in der Administratorrolle zugreifen. Unter Verwendung **** Endpunkts können Sie die folgenden Informationen von Learning Manager-Benutzern aktualisieren:
 
 * Name
 * E-Mail
@@ -3113,7 +3122,7 @@ Das Exportieren von Registrierungsdaten schlug fehl, wenn einer der registrierte
 
 **E-Mail-Vorlagen**
 
-* Das Wort **partner,**, das zur Darstellung externer Gruppen verwendet wurde,**&#x200B;** ist **&#x200B;**&#x200B;aus dem Text und dem Titel der E-Mail-Vorlagen entfernt. Externe Gruppen werden nicht unbedingt Partner genannt.\
+* Das Wort **partner,**, das zur Darstellung externer Gruppen verwendet wurde,**** ist **** aus dem Text und dem Titel der E-Mail-Vorlagen entfernt. Externe Gruppen werden nicht unbedingt Partner genannt.\
   **Hinweis:** Diese aktualisierte Vorlage wird nicht angezeigt, wenn die Standardvorlage bereits geändert wurde. Um die aktualisierte Vorlage anzuzeigen, klicken Sie auf **Auf Original zurücksetzen** im Dialogfeld **Vorlagenvorschau**.
 
 * Auf die URL kann in der E-Mail, die von den Administratoren erhalten wird, nicht geklickt werden, wenn E-Mail-Vorlagen **Profil erstellt(Selbstregistrierung)** und **Profil erstellt(Externe/Partner)** bearbeitet werden. Dieses Problem wurde nun behoben.

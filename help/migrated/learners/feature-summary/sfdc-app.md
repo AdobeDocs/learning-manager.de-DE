@@ -4,16 +4,16 @@ title: Learning Manager-App für Salesforce
 description: Salesforce&trade; ist die beliebteste CRM-Lösung unter Vertriebs- und Marketing-Teams. Indem Sie die Adobe Learning Manager-App in Salesforce verwenden, ermöglichen Sie ihren Benutzern den Zugriff auf ihre gesamten Lerninhalte direkt über die Salesforce-Benutzeroberfläche. Teilnehmer können über Salesforce auf ihre zugewiesenen Lerninhalte (z. B. Kurse, Lernprogramme und Arbeitshilfen) zugreifen. Benutzer können außerdem Benachrichtigungen über ihre Registrierungen und Ankündigungen vom Administrator erhalten.
 contentowner: jayakarr
 exl-id: 4de04fbe-af45-427e-9a2f-11990e1c6fe7
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 92ddeb8ad58d78ac139e7106bf22e7f1ff45b5b0
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 75%
+source-wordcount: '500'
+ht-degree: 62%
 
 ---
 
 # Learning Manager-App für Salesforce
 
-## Übersicht {#overview}
+## Überblick {#overview}
 
 Salesforce™ ist die beliebteste CRM-Lösung unter Vertriebs- und Marketing-Teams. Indem Sie die Adobe Learning Manager-App in Salesforce verwenden, ermöglichen Sie ihren Benutzern den Zugriff auf ihre gesamten Lerninhalte direkt über die Salesforce-Benutzeroberfläche. Teilnehmer können über Salesforce auf ihre zugewiesenen Lerninhalte (z. B. Kurse, Lernprogramme und Arbeitshilfen) zugreifen. Benutzer können außerdem Benachrichtigungen über ihre Registrierungen und Ankündigungen vom Administrator erhalten.
 
@@ -48,3 +48,14 @@ Ein repräsentativer Screenshot der Teilnehmeransicht der Adobe Learning Manager
 Sie können auf den Link „Verbindung trennen“ unten auf der Teilnehmerseite klicken, wie im obigen Screenshot markiert, um die Verbindung zur Adobe Learning Manager-App zu **Trennen**. Sobald Sie die Verbindung trennen, werden Sie auf die Startseite der Adobe Learning Manager-App weitergeleitet.
 
 Sie können die Verbindung zur App beliebig oft herstellen oder trennen.
+
+## Empfehlungen in der Salesforce-App zurücksetzen
+
+Teilnehmer können ihre Rollen und Lernvoreinstellungen zurücksetzen, ohne Salesforce verlassen oder sich bei der nativen Adobe Learning Manager-App anmelden zu müssen. Die Adobe Learning Manager Salesforce-App enthält jetzt die Schaltfläche **[!UICONTROL Interessen zurücksetzen]**.
+
+So setzen Sie die Interessen und Empfehlungen aus der Salesforce-App zurück:
+
+1. Melden Sie sich als Teilnehmer bei der Adobe Learning Manager-App für Salesforce an.
+2. Wählen Sie unten die Option **[!UICONTROL Interessen zurücksetzen]**.
+
+Die Empfehlung oder das Interesse des Teilnehmers wird über die Adobe Learning Manager Salesforce-App zurückgesetzt.

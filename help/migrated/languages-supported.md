@@ -3,10 +3,10 @@ jcr-language: en_us
 title: Unterstützte Sprachen in Adobe Learning Manager
 description: Erfahren Sie mehr über die Benutzeroberfläche und die Inhaltssprachen, die in Adobe Learning Manager (ALM) unterstützt werden
 exl-id: 92eaa510-cb44-4e9b-b956-fde876aa48f2
-source-git-commit: 7b84a4565ccf109ed4789f4963d6e250f5d0a852
+source-git-commit: 45ac256894b9c5808fd80c488eb8571f330df435
 workflow-type: tm+mt
 source-wordcount: '261'
-ht-degree: 49%
+ht-degree: 48%
 
 ---
 
@@ -18,7 +18,7 @@ Adobe Learning Manager unterstützt die folgenden Benutzeroberflächen- und Inha
 
 | Sprache der Benutzeroberfläche | Rolle | Gebietsschemacode |
 |---|---|---|
-| Englisch | <li>Administration</li><li>Autor</li><li>Teilnehmer</li><li>Manager</li> | en-us |
+| Englisch | <li>Administration</li><li>Autor</li><li>Teilnehmer</li><li>Manager</li> | en-US |
 | Französisch | <li>Administration</li><li>Autor</li><li>Teilnehmer</li><li>Manager</li> | fr-FR |
 | Deutsch | <li>Administration</li><li>Autor</li><li>Teilnehmer</li><li>Manager</li> | de-DE |
 | Chinesisch | <li>Teilnehmer</li><li>Manager</li> | zh-CN |
@@ -49,38 +49,38 @@ Adobe Learning Manager unterstützt die folgenden Benutzeroberflächen- und Inha
 | Italienisch | - | it-IT |
 | Japanisch | - | ja-JP |
 | Portugiesisch (Brasilien) | - | pt-BR |
-| Dänisch (Dansk) | - | da |
-| Hindi | - | hi |
-| Ungarisch (Magyar) | - | hu |
+| Dänisch (Dansk) | - | da-DK |
+| Hindi | - | hi-IN |
+| Ungarisch (Magyar) | - | hu-HU |
 | Niederländisch (Nederland) | - | NL-NL |
 | Polnisch | - | pl-PL |
-| Finnisch (Suomi) | - | fi |
-| Thailändisch | - | th |
+| Finnisch (Suomi) | - | fi-FI |
+| Thailändisch | - | th-TH |
 | Türkisch | - | tr-TR |
 | Koreanisch | - | ko-KR |
-| Chinesisch traditionell | - | zh-CHT |
-| Norwegisch (Norsk) | - | nb-NO |
+| Chinesisch traditionell | - | zh-TW |
+| Norwegisch (Norsk) | - | no-NO |
 | Schwedisch | - | sv-SE |
-| Rumänisch | - | ro |
-| Arabisch | Ja | ar |
+| Rumänisch | - | ro-RO |
+| Arabisch | Ja | ar-SA |
 | Russisch | - | ru-RU |
-| Amharisch | - | am |
-| Tschechisch | - | Cs |
-| Englisch UK | - | Halbzeug |
-| Vietnamesisch | Ja | vi |
-| Griechisch | - | el |
+| Amharisch | - | am-ET |
+| Tschechisch | - | cs-CZ |
+| Englisch UK | - | en-GB |
+| Vietnamesisch | Ja | vi-VN |
+| Griechisch | - | el-GR |
 | Französisch (Kanada) | - | fr-ca |
-| Englisch (Australien) | - | en-au |
+| Englisch (Australien) | - | en-AU |
 | Indonesisch | - | id-ID |
-| Spanisch (Lateinamerika) | - | es |
-| Serbisch | - | sr-sp |
-| Slowenisch | - | sl |
-| Slowakisch | - | sk |
-| Kroatisch | - | Std. |
-| Ukrainisch | - | britisch |
-| Hebräisch | Ja | er |
-| Bulgarisch | - | bg |
-| Niederländisch (Belgien) | - | unverheiratet |
+| Spanisch (Lateinamerika) | - | es-XL |
+| Serbisch | - | sr-SP |
+| Slowenisch | - | sl-SL |
+| Slowakisch | - | sk-SK |
+| Kroatisch | - | hr-HR |
+| Ukrainisch | - | uk-UA |
+| Hebräisch | Ja | he-IL |
+| Bulgarisch | - | bg-BG |
+| Niederländisch (Belgien) | - | nl-BE |
 | Portugal | - | pt-PT |
 | Chinesisch (traditionell, Hongkong) | - | zh-HK |
 | Norwegisch Bokmål | - | nb-NO |

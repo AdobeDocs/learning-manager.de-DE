@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Soziales Lernen in Learning Manager
 contentowner: kuppan
 exl-id: 33bc4872-2092-45c4-ac57-f2cec2ca33fb
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 3644e5d14cc5feaefefca85685648a899b406fce
 workflow-type: tm+mt
-source-wordcount: '3038'
-ht-degree: 78%
+source-wordcount: '3443'
+ht-degree: 68%
 
 ---
 
@@ -229,6 +229,64 @@ Wenn Sie die Beiträge in einem Board-Format anzeigen, können Sie die Beiträge
 
 * Wenn Sie **Beiträge** wählen, werden die Boards entsprechend der Anzahl der Beiträge im Board sortiert.
 * Wenn Sie **Anbieter** wählen, werden die Boards entsprechend der Anzahl der Benutzer sortiert, die in den Threads Kommentare abgegeben oder geantwortet haben.
+
+## Benutzer in sozialen Boards markieren
+
+Teilnehmer mit Zugriff auf das Soziale Board können andere Benutzer in Social-Learning-Beiträgen und Kommentaren mit dem @username-Format markieren. Das Tagging funktioniert über die App oder die APIs. Nur Benutzer mit Zugriff auf das Board können markiert werden, um Interaktionen relevant und privat zu halten.
+
+* Benutzer mit Tags erhalten In-App- und E-Mail-Benachrichtigungen
+* Benachrichtigungen enthalten direkte Links zum Inhalt
+* Benutzer außerhalb des Boards können nicht markiert werden
+* Gelöschte Benutzer werden als &quot;Anonym&quot; angezeigt
+
+>[!NOTE]
+>
+>Die Teilnehmer können Benutzergruppen nicht mit Tags versehen oder @all Erwähnungen verwenden, um Spam zu verhindern.
+
+### Benutzer in Social-Board-Beiträgen taggen
+
+Mit @username können Sie bestimmte Board-Mitglieder in Beiträgen oder Kommentaren mit Tags versehen. Das Markieren ist auf Mitglieder mit Zugriff auf dieses Board beschränkt.
+So markieren Sie Benutzer in einem Sozialen Board:
+
+1. Melden Sie sich bei Adobe Learning Manager als Teilnehmer an.
+2. Wählen Sie im linken Navigationsbereich **[!UICONTROL Soziales Lernen]** aus.
+
+   ![](/help/migrated/assets/select-social-learning-admin.png)
+   _Aktivieren Sie kooperatives Lernen, indem Sie &quot;Soziales Lernen&quot; auswählen, um auf Diskussionsforen zuzugreifen, Erkenntnisse zu teilen und Benutzer für interaktives Engagement zu taggen_
+
+3. Wählen Sie **[!UICONTROL Neuer Beitrag]**.
+
+   ![](assets/select-new-post.png)
+   _Starten Sie eine neue Diskussion, indem Sie &quot;Neuer Beitrag in Soziales Lernen&quot; auswählen, um Wissen mit den getaggten Benutzern zu teilen_
+
+4. Bevor Sie Benutzer mit Tags versehen, wählen Sie das Board aus der Option **[!UICONTROL In einem Diskussions-Board veröffentlichen]** aus.
+
+   ![](assets/select-boards-in-social-board.png)
+   _Wählen Sie ein Diskussions-Dashboard aus, um Benutzer zu posten und zu taggen, und aktivieren Sie so gezielte gemeinsame Unterhaltungen im Sozialen Lernen_
+
+5. Geben Sie Ihre Beitragsdetails ein und markieren Sie dann einen Benutzer, indem Sie das @ gefolgt vom Namen eingeben (z. B. @andrew). Wenn Sie @ gefolgt von den ersten drei Buchstaben des Benutzernamens eingeben, wird eine Liste der entsprechenden Benutzer angezeigt.
+
+   ![](assets/type-a-user-tag.png)
+   _Markieren Sie Benutzer in Ihrem Diskussionsbeitrag, indem Sie @ gefolgt vom Benutzernamen eingeben, um eine zielgerichtete Zusammenarbeit in den Boards für soziales Lernen zu ermöglichen_
+
+6. Wählen Sie den gewünschten Benutzer aus der Liste aus.
+7. Wählen Sie **[!UICONTROL Post]** aus.
+
+Benutzer mit Tags erhalten sowohl In-App- als auch E-Mail-Benachrichtigungen mit einem direkten Link zum Beitrag. Dadurch werden die Diskussionen zielgerichteter und kooperativer.
+
+### Benutzer entsprechend dem Umfang des Boards mit Tags versehen
+
+Mit dem Tagging mit Bereichsbeschränkung können Sie nur Teilnehmer taggen, die über die Berechtigung verfügen, auf ein bestimmtes Board zuzugreifen. Dadurch wird der Datenschutz gewahrt, indem verhindert wird, dass Benutzer außerhalb des Anwendungsbereichs getaggt werden.
+
+Wenn Sie versuchen, Teilnehmern, die sich außerhalb des Bereichs des Boards befinden, Tags zuzuweisen, werden keine Vorschläge angezeigt und Sie können sie nicht mit Tags versehen.
+
+### Gelöschte Benutzer markieren
+
+Wenn ein gelöschter Benutzer in einem Social-Learning-Beitrag mit Tags versehen ist, wird sein Name in dem Beitrag als &quot;Anonym&quot; angezeigt. Der Kommentar und das Tag bleiben für den Kontext sichtbar, aber Profillinks oder Details werden nicht angezeigt.
+
+![](assets/deleted-users-tagged.png)
+_Social-Learning-Beitrag, in dem hervorgehoben wird, wie ein gelöschter Benutzer als anonym angezeigt wird, wenn er mit Tags versehen wird_
+
 
 ### Kenntnisfilter {#skillfilter}
 

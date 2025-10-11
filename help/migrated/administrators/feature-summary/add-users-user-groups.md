@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Hinzufügen von Benutzern in Adobe Learning Manager
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 4350c192a70005fe37620e1ea083c6db8ece30e3
+source-git-commit: 07d7b03fb098d01b9d1514a2f1f1550d8421bc3d
 workflow-type: tm+mt
-source-wordcount: '2216'
-ht-degree: 1%
+source-wordcount: '2451'
+ht-degree: 2%
 
 ---
 
@@ -172,6 +172,37 @@ So registrieren Sie die Benutzer:
 
 An den Benutzer wird eine Bestätigungs-E-Mail gesendet. Der Benutzer muss den Link in der E-Mail auswählen, um sein Konto zu aktivieren und Adobe Learning Manager zu verwenden.
 
+### Benutzerbericht herunterladen
+
+Administratoren können Benutzerdaten als umfassenden Bericht exportieren und herunterladen. Durch den Export dieser Daten können Administratoren die Aktivitäten der Teilnehmer verfolgen, den Kontenlebenszyklus überwachen, inaktive Benutzer identifizieren und präzise Datensätze für Compliance-, Auditing- und Berichtszwecke verwalten.
+
+Herunterladen des Benutzerberichts:
+
+1. Melden Sie sich bei Adobe Learning Manager als Administrator an.
+2. Wählen Sie **Benutzer** und anschließend **Intern**.
+3. Wählen Sie **Benutzerdaten exportieren** aus. Du wirst benachrichtigt, sobald der Bericht fertig ist.
+
+   ![](assets/select-export-user-data.png)
+   _In den Abschnitten &quot;Interner Benutzer&quot; wird die Option zum Exportieren und Herunterladen des Benutzerberichts angezeigt._
+4. Wählen Sie die Benachrichtigung aus und laden Sie den Benutzerbericht herunter.
+
+Der Bericht enthält folgende Informationen:
+
+* Name
+* E-Mail
+* Status
+* Hinzugefügt am (UTC-Zeitzone)
+* Löschungsdatum (UTC-Zeitzone)
+* Letztes Anmeldedatum (UTC-Zeitzone)
+* Adobe ID
+* Benutzerstatus
+* profile
+* Sprache der Benutzeroberfläche
+* Inhaltssprache
+* Zeitzone
+* Interne Benutzer-ID
+* E-Mail-Adresse des Managers
+
 ## Externe Benutzer
 
 Mit Adobe Learning Manager können Sie Benutzer außerhalb Ihres Unternehmens hinzufügen, z. B. Kunden, Partner, Anbieter oder Kunden, um auf die Lerninhalte zuzugreifen. Nachdem sie hinzugefügt wurden, können Sie sie gruppieren, Kurse zuweisen und den Lernfortschritt verfolgen.
@@ -239,7 +270,7 @@ Es gibt einige Unterschiede zwischen internen und externen Registrierungen:
 | Interne Benutzer | Externe Benutzer |
 |---|---|
 | Anmeldung mit Adobe ID- oder SSO-Anmeldeinformationen möglich. | Anmeldung mit einer beliebigen E-Mail-ID möglich. |
-| Gamification ist verfügbar. | Gamification ist verfügbar. Der Administrator muss Gamification für externe Teilnehmer in den [Gamification-Einstellungen](https://experienceleague.adobe.com/de/docs/learning-manager/using/admin/gamification) aktivieren. |
+| Gamification ist verfügbar. | Gamification ist verfügbar. Der Administrator muss Gamification für externe Teilnehmer in den [Gamification-Einstellungen](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/gamification) aktivieren. |
 
 ### Externes Registrierungsprofil anhalten
 
@@ -266,6 +297,32 @@ So setzen Sie einen externen Benutzer fort:
 
 ![](assets/resume-an-external-user.png)
 _Option zum Fortsetzen eines zuvor angehaltenen externen Registrierungsprofils_
+
+### Ändern des externen Profils
+
+Administratoren können Teilnehmer aus einem externen Profil einem anderen Profil zuweisen.
+
+So ändern Sie das externe Profil:
+
+1. Melden Sie sich bei Adobe Learning Manager als Administrator an.
+2. Wählen Sie **[!UICONTROL Benutzer]** und anschließend **[!UICONTROL Extern]**.
+3. Wählen Sie in der Liste der externen Profile **[!UICONTROL Verwendete Lizenzen]** aus.
+
+   ![](assets/select-learners-external-profile.png)
+   _Externer Profilabschnitt mit der Anzahl der verwendeten Lizenzen_
+
+4. Wählen Sie den Teilnehmer aus und wählen Sie dann **[!UICONTROL Aktionen]**.
+
+   ![](assets/select-change-profile-external-learner.png)
+   _Externe Profilseite, auf der die Option &quot;Profil ändern&quot; hervorgehoben wird, um die Teilnehmer in ein anderes Profil zu verschieben_
+
+5. Wählen Sie **[!UICONTROL Profil ändern]** aus.
+6. Suchen Sie nach einem anderen externen Profil und wählen Sie es aus.
+
+   ![](assets/search-and-select-profile.png)
+   _Aufforderung zum Ändern des Profils zeigt die Optionen zum Durchsuchen des externen Profils an_
+
+Der ausgewählte Teilnehmer wechselt zum ausgewählten externen Profil.
 
 ### Externe Nutzung der Lizenz überwachen
 

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Erstellen von Kursinstanzen und Lernpfaden
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: 411c171c314a3aa9ad9cc10d46c2f0d447e2c0a3
+source-git-commit: dfb83c88a39401f5ae9048d71fd19ca71569a14c
 workflow-type: tm+mt
-source-wordcount: '5673'
-ht-degree: 52%
+source-wordcount: '5803'
+ht-degree: 51%
 
 ---
 
@@ -693,7 +693,7 @@ Gemäß den Vorgaben des Unternehmens registriert der Administrator einige Teiln
 
 ## Benutzer
 
-+++Teilnehmer einbeziehen
++++Teilnehmer einschließen
 
 Wählen Sie die Benutzergruppen und die einzelnen Teilnehmer aus (über ihre E-Mail-ID oder ihren Namen), die Sie einbeziehen möchten. Fügen Sie alle Benutzergruppen an einem Schnittpunkt unter derselben Gruppe hinzu. Um eine weitere Benutzergruppe zur Union hinzuzufügen, verwenden Sie ein neues Einbeziehungsset.
 
@@ -707,7 +707,7 @@ Wählen Sie die Benutzergruppen und die einzelnen Teilnehmer aus (über ihre E-M
 
 ## Benutzer-E-Mail-ID
 
-+++Email ID
++++E-Mail-ID
 
 Kopieren Sie die E-Mail-IDs der zu registrierenden Teilnehmer und fügen Sie sie durch Semikolon, Kommas oder Zeilenabstand getrennt ein. Verwenden Sie die Option **[!UICONTROL Eindeutige IDs für validieren]**, um die Einträge zu validieren. Alle ungültigen Einträge werden rot markiert. Entfernen oder korrigieren Sie diese Einträge und setzen Sie den Vorgang fort, indem Sie auf **[!UICONTROL Weiter]** klicken.
 
@@ -788,7 +788,36 @@ Teilnehmende können den jeweiligen QR-Code einfach mit der Geräte-App von Adob
 
    ![](assets/qr-code-download-01.png)
 
-   *QR-Code für andere freigeben*
+   *QR-Code für Teilnehmer freigeben*
+
+## Bericht zu interessierten Teilnehmern herunterladen
+
+Zeigen Sie [Interesse für die Kurse registrieren](/help/migrated/learners/feature-summary/courses.md#register-interest-for-the-courses) an, um zu erfahren, wie Teilnehmer ihre Interessen registrieren können.
+
+Administratoren können die Interessen der Teilnehmer anzeigen und den Bericht zu interessierten Teilnehmern von der Seite &quot;Kursübersicht&quot; herunterladen.
+
+So laden Sie den Bericht zu interessierten Teilnehmern herunter:
+
+1. Melden Sie sich bei Adobe Learning Manager als Administrator an.
+2. Gehen Sie zu **[!UICONTROL Courses]** und wählen Sie den Kurs aus.
+3. Wählen Sie **[!UICONTROL Interessierte Teilnehmer]** aus.
+
+   ![](assets/select-interested-learner.png)
+   _Die Seite &quot;Kursübersicht&quot; der Administratoroberfläche zeigt den Abschnitt &quot;Interessierte Teilnehmer&quot; zum Anzeigen und Herunterladen des Berichts an_
+4. Wählen Sie Aktionen und dann Bericht exportieren aus.
+Der Bericht mit der Liste der interessierten Teilnehmer wird heruntergeladen. Der Bericht enthält die folgenden Spalten:
+
+   * Kurs-ID
+   * Teilnehmendenname
+   * E-Mail
+   * Typ
+   * Status
+   * Datum und Uhrzeit der Registrierung (UTC)
+   * Aktiver Status
+
+>[!NOTE]
+>
+>Der Bericht enthält die UUID des Teilnehmers, wenn sie für das Konto aktiviert ist.
 
 ## Lebenszyklus von Kursen {#courselifecycle}
 
@@ -830,7 +859,7 @@ Bewegen Sie den Mauszeiger auf eine Kurskarte und klicken Sie auf **[!UICONTROL 
 
 +++
 
-+++Instanz erneut öffnen
++++Wie öffne ich eine Instanz erneut?
 
 Um eine inaktive Instanz erneut zu öffnen, klicken Sie auf das Dropdown-Menü in der Instanz und dann auf **[!UICONTROL Instanz erneut öffnen]**.
 

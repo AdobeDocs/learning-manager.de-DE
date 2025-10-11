@@ -4,10 +4,10 @@ title: Verwalten benutzerdefinierter Rollen über CSV-Dateien
 description: Der Integrationsadministrator kann seinem Konto mehrere benutzerdefinierte Rollen gleichzeitig über CSV hinzufügen und diese verschiedenen Benutzern zuweisen. Dieser Ansatz automatisiert den Prozess der Erstellung von benutzerdefinierte Rollen.
 contentowner: saghosh
 exl-id: fce2f457-2834-491a-8331-64086f5a51b5
-source-git-commit: f328076016d8c41455cad71f00d1dc9a1531e007
+source-git-commit: dfb83c88a39401f5ae9048d71fd19ca71569a14c
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 81%
+source-wordcount: '992'
+ht-degree: 72%
 
 ---
 
@@ -178,7 +178,7 @@ Aktivieren Sie im Abschnitt „Synchronisierungseinstellungen“ die Option **[!
 
 *Wählen Sie die Option &quot;Automatische Synchronisierung aktivieren&quot; aus.*
 
-Wenn Sie diese Option auswählen, können Sie die Zeit für die Synchronisierung genau zu der Zeit planen, die Sie im Feld „Synchronisierungszeit“ angegeben haben. Wenn Sie die Synchronisierungszeit auf 00:00 Uhr festlegen, werden die benutzerdefinierte Rolle jeden Tag genau zur angegebenen Zeit aktualisiert.
+Wenn Sie diese Option auswählen, können Sie die Zeit für die Synchronisierung genau zu der Zeit planen, die Sie im Feld „Synchronisierungszeit“ angegeben haben. Wenn Sie die Synchronisierungszeit als 12:00 AM angeben, werden die benutzerdefinierten Rollen täglich genau zu der angegebenen Zeit aktualisiert.
 
 Wenn Sie die Daten bei Bedarf synchronisieren möchten, klicken Sie auf **[!UICONTROL Jetzt synchronisieren]**.
 
@@ -189,3 +189,34 @@ In jedem Konto muss der Name einer Rolle eindeutig sein. Daher darf eine über d
 In ähnlicher Weise kann einem Benutzer über die Admin-Benutzeroberfläche keine konfigurierbare Rolle zugewiesen werden, die über CSV erstellt wurde, da diese Rollen nicht verfügbar sind.
 
 Die Benutzerzuweisung CSV kann jedoch zum Zuweisen von Rollen verwendet werden, die von der Benutzeroberfläche erstellt wurden.
+
+## Inkrementelle und multiinkrementelle Unterstützung für benutzerdefinierte Rollen
+
+Administratoren können benutzerdefinierte Rollen für inkrementelle Benutzer effizienter zuweisen. Sie können Benutzer-, Rollen- und Benutzerrollendaten hochladen, ohne jedes Mal den gesamten Datensatz erneut hochladen zu müssen.
+
+Erstellen Sie für jede hochgeladene Benutzerimportdatei separate Ordner auf FTP mit der folgenden Struktur:
+
+```
+import/user/internal/
+     user1.csv
+     user2.csv
+     user3.csv
+
+UserRole/
+    user1_role.csv
+    user1_user_role.csv
+    user2_role.csv
+    user2_user_role.csv
+    user3_role.csv
+    user3_user_role.csv
+```
+
+**Dateidetails**
+
+* Benutzerimportdatei: user1.csv
+* Rollendatei: user1_role.csv
+* Zuordnungsdatei für Benutzerrollen: user1_user_role.csv
+
+Laden Sie hier die [Beispiel-CSVs](/help/migrated/assets/sample-csv-Incremnetal.zip) herunter.
+
+Jede Benutzerimportdatei ist direkt mit den entsprechenden Rollen- und Benutzerrollenzuordnungsdateien verknüpft, wodurch eine ordnungsgemäße inkrementelle Verarbeitung sichergestellt wird.

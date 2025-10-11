@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Einstellungen
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: 8ccf5a9b0f9f928f7489ca5fec2a18e0ba43e2c1
 workflow-type: tm+mt
-source-wordcount: '3669'
-ht-degree: 65%
+source-wordcount: '3697'
+ht-degree: 64%
 
 ---
 
@@ -411,6 +411,10 @@ Aktivieren oder Deaktivieren der folgenden Einstellungen:
    <td height="19">Einstellen</td>
    <td>Wählen Sie eine der folgenden Optionen zum Einstellen:<li>Nach dem Einstellen können registrierte Teilnehmer Aktionen anzeigen und ausführen, aber die noch nicht registrierten Teilnehmer verlieren den Zugriff.</li><li>Sobald Teilnehmer eingestellt werden, verlieren sowohl die registrierten als auch die noch nicht registrierten Teilnehmer den Zugriff.</li><div><b>Hinweis:</b> Sie können Kurse, Lernpfade oder Zertifizierungen auf ihren Übersichtsseiten einstellen.</div> </td>
   </tr>
+  <tr>
+   <td height="19">Alle für den Kurs registrierten Kurse in Suchergebnissen anzeigen</td>
+   <td>Wenn diese Option aktiviert ist, können Teilnehmer Kurse in den Suchergebnissen sehen, selbst wenn sie Teil ihres registrierten Lernpfads oder der Zertifizierung sind.</td>
+  </tr>
  </tbody>
 </table>
 
@@ -420,7 +424,7 @@ Aktivieren oder Deaktivieren der folgenden Einstellungen:
    <td>
     <p>Lernpläne</p></td>
    <td>
-    <p>Wenn die Option <b>Erweiterte Funktionen des Lernplans aktivieren</b> aktiviert ist, können Administratoren Lernpläne in andere Lernpläne aufnehmen und diese Lernpläne mit Kursen kombinieren. Die Aktivierung dieser Option kann nicht rückgängig gemacht werden.<br></p></td>
+    <p>Wenn die Option <b>Erweiterte Funktionen des Lernpfads aktivieren</b> ausgewählt ist, können Administratoren Lernpfade in Lernpfade einschließen und diese Lernpfade mit Kursen kombinieren. Die Aktivierung dieser Option kann nicht rückgängig gemacht werden.<br></p></td>
   </tr>
   <tr>
    <td>
@@ -577,7 +581,7 @@ Nach der Aktivierung können Autoren alle Speicherorte in Klassenzimmern ändern
 
 ## Häufig gestellte Fragen {#frequentlyaskedquestions}
 
-+++Wie kann ich unterschiedliche Ordner für die Inhaltsbibliothek erstellen?
++++Wie kann ich verschiedene Ordner für die Inhaltsbibliothek erstellen?
 
 Klicken Sie auf **[!UICONTROL Einstellungen]** > **[!UICONTROL Inhaltsordner]**. Um einen Ordner hinzuzufügen, klicken Sie in der oberen rechten Ecke auf **[!UICONTROL Hinzufügen]** und geben Sie im Dialogfeld den Namen und die Beschreibung des Ordners ein.
 

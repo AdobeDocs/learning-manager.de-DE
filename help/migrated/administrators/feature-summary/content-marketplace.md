@@ -4,10 +4,10 @@ title: Inhalts-Marketplace
 description: Inhaltsbibliothek bietet jetzt den Inhalts-Marketplace an, auf dem Sie Schulungen durchsuchen und erwerben können. Lernen Sie mehr als 70.000 Kurse kennen, die eine Vielzahl von Themen abdecken und in mehreren Formaten verfügbar sind. Wählen Sie aus kuratierten Wiedergabelisten, die eine Vielzahl von Rollen abdecken sowie Ihre Lern- und Weiterbildungsanforderungen erfüllen.
 contentowner: saghosh
 exl-id: 023593d9-06c9-4b91-bbbd-e8ec595b6d60
-source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
+source-git-commit: 85eeebb33a67bf5528c88b26941345e00e98e0d3
 workflow-type: tm+mt
-source-wordcount: '733'
-ht-degree: 9%
+source-wordcount: '683'
+ht-degree: 10%
 
 ---
 
@@ -145,11 +145,9 @@ When a learner clicks Express interest to Catalog in the Learner app, the intere
 
 ## Materialien-Hub
 
-Mit dem Materialien-Hub können Administratoren erforderliche Wiedergabelisten aus der Teilnehmer-App in eine Auswahlliste aufnehmen. Die Seite &quot;Materialien-Hub&quot; ist für Administratoren in ihrer Teilnehmerrolle ständig sichtbar, da sie so die Möglichkeit hat, Wiedergabelisten einfach in Auswahllisten aufzunehmen. Um Ihnen beim Aufnehmen der richtigen Wiedergabeliste in die Auswahlliste zu helfen, können Administratoren diese Seite für eingeschränkte Fachexperten in ihrem Konto zugänglich machen.
+Administratoren können direkt in Adobe Learning Manager auf die Go1-Plattform zugreifen. Wechseln Sie zu **[!UICONTROL Content Marketplace]** und wählen Sie dann **[!UICONTROL Content Hub]** aus.
 
-Adobe Learning Manager wird regelmäßig mit dem Materialien-Hub synchronisiert, um sicherzustellen, dass neue Ergänzungen und Aktualisierungen automatisch in der Plattform übernommen werden.
-
-Der gesamte Inhalt wird unterstützten Sprachen zugeordnet, sodass Administratoren Inhalte auf der Grundlage von Sprachvoreinstellungen effektiver filtern und verwalten können.
+Der Materialien-Hub repliziert die Go1-Plattform, sodass Administratoren Kurse durchsuchen, mehrere Wiedergabelisten erstellen und Inhalte durchsuchen können und so ein nahtloses Go1-Erlebnis in Adobe Learning Manager bereitstellen können.
 
 ## E-Mail-Vorlagen
 

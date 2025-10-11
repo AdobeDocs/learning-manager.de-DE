@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Meine Lerninhalte
 contentowner: manochan
 exl-id: 2c62d36c-c500-40d6-b79f-d3cc8b3b756a
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: f022ecdc10a8d9d473cd598697422edbb302a78c
 workflow-type: tm+mt
-source-wordcount: '3080'
-ht-degree: 63%
+source-wordcount: '3307'
+ht-degree: 59%
 
 ---
 
@@ -17,7 +17,7 @@ Lesen Sie die folgenden Artikel, um zu erfahren, wie Sie Kurse in Learning Manag
 
 Autoren erstellen Kurse. Teilnehmer können Kurse absolvieren und Administratoren können die Leistung der Teilnehmer basierend darauf, ob und wie die Kurse konsumiert werden, verfolgen.
 
-## Übersicht {#overview}
+## Überblick {#overview}
 
 Mit Adobe Learning Manager können Teilnehmende auf Kurse, Lernprogramme und Zertifizierungen zugreifen. Teilnehmer können über den Katalog alle verfügbaren Kurse durchsuchen oder sich selbst für Kurse ihrer Wahl registrieren. Teilnehmer können alle Kurse, für die sie registriert sind, und die Kurse, die ihnen zugewiesen wurden, auf der Registerkarte &quot;Lernen&quot; anzeigen.
 
@@ -291,6 +291,19 @@ Um die Kursinstanz zu wechseln, führen Sie die folgenden Schritte aus:
 
    Die neu ausgewählte Instanz wird registriert. Wenn ein Teilnehmer bei einer Kursinstanz registriert ist, die Teil eines anderen LO ist, und er die Kursinstanz aktualisiert, die Teil des flexiblen Lernprogramms ist, wird er nach einer Warnung automatisch von den anderen Lernobjekten abgemeldet.
 
+## Sprachbasiertes Fortschrittsmanagement
+
+Der Teilnehmerfortschritt kann für jedes Gebietsschema separat verfolgt werden, wodurch sichergestellt wird, dass der Wechsel zwischen Sprachen im Player den zuvor erzielten Fortschritt nicht beeinflusst. Der Fortschritt für jedes Modul wird sowohl auf Benutzer- als auch auf Modulebene unabhängig beibehalten, sodass der Fortschritt nicht überschrieben wird, wenn Teilnehmer Inhalte in verschiedenen Sprachen erkunden.
+
+Wenn ein Teilnehmer beispielsweise einen Fortschritt von 75 % auf Englisch erreicht und dann auf Spanisch wechselt, wird die Rückkehr auf Englisch von 75 % fortgesetzt, anstatt auf 0 % zurückzusetzen. Jedes Gebietsschema speichert seinen eigenen Fortschrittsstatus, sodass Teilnehmer nahtlos durch Inhalte in mehreren Sprachen navigieren und diese abschließen können, ohne ihren individuellen Fortschritt zu verlieren.
+
+Die folgenden Inhaltstypen werden für den sprachbasierten Teilnehmerfortschritt nicht unterstützt:
+
+* Video- und Audioinhalte werden nicht unterstützt.
+* Inhalte von Drittanbietern, einschließlich Go1, LinkedIn Learning, getAbstract und Harvard ManageMentor, werden nicht unterstützt.
+* Für den Inhalt, der keine Daten an den Learning Record Store (LRS) sendet, wird der Fortschritt nicht verfolgt oder gespeichert.
+* Benutzer von mobilen Apps können den Fortschritt dieser Funktion im Offline-Modus nicht verfolgen.
+
 ## Abschließen eines Kurses {#completingacourse}
 
 Als Teilnehmer können Sie die erforderliche Anzahl von Modulen in einen Kurs für den Kursabschluss abschließen. Die Kursabschlusskriterien hängen davon ab, wie viele Module vom Autor als obligatorisch festgelegt wurden. Beim Registrieren für einen Kurs mit Mindestabschlusskriterien können Sie die Abschlusskriterien im rechten Bereich der Kursseite anzeigen.
@@ -319,6 +332,19 @@ Die Registerkarte „Diskussionen“ wird nicht für externe Benutzer aktiviert.
 
 ![](assets/learning-program200s.jpg)
 *Registerkarte &quot;Diskussionen&quot;*
+
+## Interesse für die Kurse registrieren
+
+Teilnehmer können ihr Interesse an den Kursen registrieren, die keine aktive Instanz haben.
+
+So registrieren Sie Zinsen:
+
+1. Melden Sie sich bei Adobe Learning Manager als Teilnehmer an.
+2. Wechseln Sie zu **[!UICONTROL Katalog]** und wählen Sie den Kurs aus, der keine aktive Instanz enthält.
+3. Wählen Sie **[!UICONTROL Interesse registrieren]** auf der Kursübersichtsseite aus.
+
+   ![](assets/register-interest.png)
+   _Kursübersichtsabschnitt auf der Teilnehmer-Benutzeroberfläche, in dem die Option &quot;Interesse registrieren&quot; hervorgehoben wird_
 
 ## Lebenszyklus von Kursen {#courselifecycle}
 

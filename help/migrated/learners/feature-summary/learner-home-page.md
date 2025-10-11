@@ -4,16 +4,16 @@ title: Teilnehmer-Startseite
 description: Nachdem der Administrator das immersive Layout aktiviert hat, wird der Teilnehmer nach der Anmeldung bei der App mit einer komplett überarbeiteten Benutzeroberfläche begrüßt.
 contentowner: saghosh
 exl-id: 71b495c7-a6c8-4e6e-9f00-ec93d7b483ad
-source-git-commit: c4eb9a7c4fca73bc029f9afad1f3d48725779d30
+source-git-commit: 92ddeb8ad58d78ac139e7106bf22e7f1ff45b5b0
 workflow-type: tm+mt
-source-wordcount: '1179'
-ht-degree: 40%
+source-wordcount: '1203'
+ht-degree: 39%
 
 ---
 
 # Teilnehmer-Startseite
 
-## Übersicht {#overview}
+## Überblick {#overview}
 
 Nachdem der Administrator das immersive Layout aktiviert hat, wird der Teilnehmer mit einer komplett überarbeiteten Benutzeroberfläche begrüßt, wenn er sich bei der App anmeldet.
 
@@ -143,7 +143,11 @@ Das Kalender-Widget bietet die folgenden Funktionen. Sie können Folgendes anzei
 * Schulung nach Monat. Scrollen Sie nach links oder rechts.
 * Bevorstehende Schulung im Schulungsraum oder VC-Schulung, für die Sie sich registrieren können.
 * Bevorstehende Schulung im Schulungsraum oder VC-Schulung, für die Sie sich registriert haben.
+* Ihre abgeschlossenen Klassenzimmer- oder VC-Sitzungen
 * Vom Manager genehmigte Schulung im Schulungsraum oder VC-Schulung.
+
+Sie können den Filter **[!UICONTROL Nur registrierte Sitzungen anzeigen]** anwenden, um nur die registrierten Sitzungen in Ihrem Kalender anzuzeigen.
+
 
 ## Sozialer Feed {#socialfeed}
 
