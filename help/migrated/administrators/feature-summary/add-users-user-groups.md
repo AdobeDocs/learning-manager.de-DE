@@ -270,7 +270,7 @@ Es gibt einige Unterschiede zwischen internen und externen Registrierungen:
 | Interne Benutzer | Externe Benutzer |
 |---|---|
 | Anmeldung mit Adobe ID- oder SSO-Anmeldeinformationen möglich. | Anmeldung mit einer beliebigen E-Mail-ID möglich. |
-| Gamification ist verfügbar. | Gamification ist verfügbar. Der Administrator muss Gamification für externe Teilnehmer in den [Gamification-Einstellungen](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/gamification) aktivieren. |
+| Gamification ist verfügbar. | Gamification ist verfügbar. Der Administrator muss Gamification für externe Teilnehmer in den [Gamification-Einstellungen](https://experienceleague.adobe.com/de/docs/learning-manager/using/admin/gamification) aktivieren. |
 
 ### Externes Registrierungsprofil anhalten
 
