@@ -57,7 +57,7 @@ Sie können mit der Adobe ID oder über einmalige Anmeldung (SSO) auf die Learni
 
 **Feedback**
 
-Klicken Sie auf **[!UICONTROL Feedback]** im linken Bereich, um den Fragebogen einzurichten, um Feedback von Teilnehmern zu erhalten, nachdem Sie einen Kurs absolviert haben. Weitere Informationen zum Erstellen von L1- und L3-Feedback finden Sie im Hilfeinhalt für die [Kursfunktion ](/help/migrated/administrators/feature-summary/courses.md#add-l1-and-l3-feedback).
+Klicken Sie auf **[!UICONTROL Feedback]** im linken Bereich, um den Fragebogen einzurichten, um Feedback von Teilnehmern zu erhalten, nachdem Sie einen Kurs absolviert haben. Weitere Informationen zum Erstellen von L1- und L3-Feedback finden Sie im Hilfeinhalt für die [Kursfunktion &#x200B;](/help/migrated/administrators/feature-summary/courses.md#add-l1-and-l3-feedback).
 
 **Mehrere Versuche**
 

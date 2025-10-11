@@ -124,7 +124,7 @@ Ein Administrator kann die Instanzen für Teilnehmer wechseln. Wählen Sie in de
 ![Alternativtext](assets/switch-instance-admin.png)
 _Instanz von der Admin Console wechseln_
 
-![Instanzen wechseln: ](assets/switch-instances-select.png) auswählen
+![Instanzen wechseln: &#x200B;](assets/switch-instances-select.png) auswählen
 _Aufforderung zum Wechseln der Instanz_
 
 Sie können die Instanzen erst wechseln, wenn eine Instanz des Kurses über die Teilnehmer- oder Admin-App abgeschlossen wurde.

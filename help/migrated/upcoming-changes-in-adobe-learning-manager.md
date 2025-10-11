@@ -81,7 +81,7 @@ In diesem [Artikel](/help/migrated/administrators/feature-summary/reports.md#use
 
 Die heruntergeladene Benutzerberichtsdatei enthält die neuen Spalten Interne Benutzer-ID und Manager-E-Mail.
 
-![Benutzerbericht mit gelb markierten Spalten für die interne Benutzer-ID und Manager-E-Mail ](/help/migrated/assets/user-report-columns.png)
+![Benutzerbericht mit gelb markierten Spalten für die interne Benutzer-ID und Manager-E-Mail &#x200B;](/help/migrated/assets/user-report-columns.png)
 _Benutzerberichte, die interne Benutzer-IDs und Manager-E-Mail-Adressen hervorheben, um die Benutzerverwaltung zu optimieren_
 
 ## FTP-Benutzerbericht mit Unterstützung für interne Benutzer-ID
