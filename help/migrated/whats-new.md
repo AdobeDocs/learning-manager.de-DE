@@ -2,7 +2,7 @@
 description: Erfahren Sie mehr über die neuen Funktionen und Verbesserungen in der Version Oktober 2025 von Adobe Learning Manager
 jcr-language: en_us
 title: Neue Funktionen in der Adobe Learning Manager-Version Oktober 2025
-source-git-commit: 2df852f933fb0fb7b010dec5426a886b9e7b8ad5
+source-git-commit: c1a201e97a8944dddb6361aade0017f5745f933c
 workflow-type: tm+mt
 source-wordcount: '5638'
 ht-degree: 0%
@@ -740,7 +740,7 @@ Der Benutzerbericht enthält jetzt zusätzliche Felder zur Verbesserung der Benu
 * Spalte &quot;Interne Benutzer-ID&quot;: Bietet eindeutige interne Kennungen für eine reibungslose Benutzerverfolgung über verschiedene Systeme und API-Endpunkte hinweg.
 * Spalte &quot;Manager-E-Mail&quot;: Enthält direkte Manager-Kontaktinformationen für die Verfolgung der Organisationshierarchie.
 
-![Benutzerbericht mit gelb markierten Spalten für die interne Benutzer-ID und Manager-E-Mail &#x200B;](/help/migrated/assets/user-report-columns.png)
+![Benutzerbericht mit gelb markierten Spalten für die interne Benutzer-ID und Manager-E-Mail ](/help/migrated/assets/user-report-columns.png)
 _Benutzerberichte, die interne Benutzer-IDs und Manager-E-Mail-Adressen hervorheben, um die Benutzerverwaltung zu optimieren_
 
 [Laden Sie den Benutzerbericht herunter](/help/migrated/administrators/feature-summary/add-users-user-groups.md#download-the-user-report), um weitere Informationen zum Benutzerbericht zu erhalten.
@@ -830,3 +830,5 @@ Lesen Sie die [Versionshinweise](/help/migrated/release-note/release-notes.md) f
 
 * [Adobe Learning Manager Version Mai 2025](/help/migrated/whats-new-may-2025.md)
 * [Adobe Learning Manager Version November 2025](/help/migrated/whats-new-nov-24.md)
+
+
