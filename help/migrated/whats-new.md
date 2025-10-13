@@ -740,7 +740,7 @@ Der Benutzerbericht enthält jetzt zusätzliche Felder zur Verbesserung der Benu
 * Spalte &quot;Interne Benutzer-ID&quot;: Bietet eindeutige interne Kennungen für eine reibungslose Benutzerverfolgung über verschiedene Systeme und API-Endpunkte hinweg.
 * Spalte &quot;Manager-E-Mail&quot;: Enthält direkte Manager-Kontaktinformationen für die Verfolgung der Organisationshierarchie.
 
-![Benutzerbericht mit gelb markierten Spalten für die interne Benutzer-ID und Manager-E-Mail ](/help/migrated/assets/user-report-columns.png)
+![Benutzerbericht mit gelb markierten Spalten für die interne Benutzer-ID und Manager-E-Mail &#x200B;](/help/migrated/assets/user-report-columns.png)
 _Benutzerberichte, die interne Benutzer-IDs und Manager-E-Mail-Adressen hervorheben, um die Benutzerverwaltung zu optimieren_
 
 [Laden Sie den Benutzerbericht herunter](/help/migrated/administrators/feature-summary/add-users-user-groups.md#download-the-user-report), um weitere Informationen zum Benutzerbericht zu erhalten.
