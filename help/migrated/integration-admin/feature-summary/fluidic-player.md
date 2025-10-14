@@ -31,7 +31,7 @@ Weitere Informationen zum Fluidic Player finden Sie unter [Fluidic Player](../..
 
 Im Folgenden finden Sie einige Beispiele für die Verwendung des integrierbaren Fluidic Players.
 
-* Sie können den integrierbaren Fluidic Player auf Ihrer **&#x200B; **-Website verwenden, um die Kurse aufzulisten, für die Ihr Mitarbeiter registriert ist, und einen Link zum Starten einer Schulung auf derselben Seite bereitzustellen. Dies würde bedeuten, dass Ihre Teilnehmer Schulungen auf Ihrer Intranet-Website absolvieren können.
+* Sie können den integrierbaren Fluidic Player auf Ihrer **&#x200B; &#x200B;**-Website verwenden, um die Kurse aufzulisten, für die Ihr Mitarbeiter registriert ist, und einen Link zum Starten einer Schulung auf derselben Seite bereitzustellen. Dies würde bedeuten, dass Ihre Teilnehmer Schulungen auf Ihrer Intranet-Website absolvieren können.
 
 * Wenn Sie im Bildungsbereich tätig sind, betreiben Sie vielleicht eine Website, auf der Ihre Kunden Kurse kaufen. Sie können den integrierbaren Player auf derselben Website integrieren, sodass Ihre Kunden den Inhalt, den sie kaufen, auf Ihrer Website nutzen können.
 
@@ -183,7 +183,7 @@ Diese Aufgabe muss von einem Mitarbeiter Ihres IT-Teams oder einem externen Bera
 
    Sie können Ihr Token abrufen, indem Sie Ihren integrierbaren Fluidic Player in Ihrer Integrationsadministration einrichten. Sie können Ihr Authentifizierungstoken abrufen und als Zugriffstoken verwenden.
 
-   Beispiel einer erstellten URL; https://learningmanager.adobe.com/app/player?lo_id=&quot;+lo_id+&quot;&amp;access_token=&quot;+accToken
+   Beispiel einer erstellten URL; https://learningmanager.adobe.com/app/player?lo_id=&quot;+lo_id+&quot;&access_token=&quot;+accToken
 
    Hierbei ist lo_id die ID des Kurses, des Lernprogramms, der Zertifizierung und jobAid .
 

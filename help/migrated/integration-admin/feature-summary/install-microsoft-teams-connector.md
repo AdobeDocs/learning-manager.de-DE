@@ -51,7 +51,7 @@ Weitere Informationen finden Sie unter [Rollen in einem Teams-Meeting - Microsof
 
 Sie können auf den Microsoft Teams-Connector zugreifen, wenn Sie Office 365 E3 oder Office 365 E5 verwenden. Die empfohlene Option ist Office 365 E5.
 
-* Besuchen Sie die Seite mit den [Microsoft-Abos](https://www.microsoft.com/en-in/microsoft-365/enterprise/compare-office-365-plans?&amp;ef_id=CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE:G:s&amp;OCID=AID2100137_SEM_CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE:G:s&amp;lnkd=Google_O365SMB_Brand&amp;gclid=CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE). Auf der Webseite können Sie entweder ein E3- oder E5-Konto kaufen oder auf Kostenlos testen klicken.
+* Besuchen Sie die Seite mit den [Microsoft-Abos](https://www.microsoft.com/en-in/microsoft-365/enterprise/compare-office-365-plans?&ef_id=CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE:G:s&OCID=AID2100137_SEM_CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE:G:s&lnkd=Google_O365SMB_Brand&gclid=CjwKCAjw8cCGBhB6EiwAgORey9Tjrae-dyAsBrzvXdVJ5WCcoQ55wySzUBMoo-EkPt7CoIqAtcWc0xoC9RcQAvD_BwE). Auf der Webseite können Sie entweder ein E3- oder E5-Konto kaufen oder auf Kostenlos testen klicken.
 * Geben Sie die erforderlichen Informationen an und erstellen Sie ein Konto.
 
 >[!NOTE]

@@ -16,7 +16,7 @@ Erfahren Sie mehr über die neuen Funktionen und Verbesserungen in der Version J
 
 >[!NOTE]
 >
->Weitere Informationen zu den neuen Funktionen in dieser Version finden Sie in diesem [Webinar](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Flearningmanager.adobe.com%2Fapp%2Flearner%3FaccountId%3D98632%23%2Fcourse%2F10078152&amp;data=05%7C02%7Cchandrum%40adobe.com%7C90e588d31b994e6a5f4e08dcb87f26a8%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C638588103494535076%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&amp;sdata=dNyxQl3IQjEtfGCMnhlfek4Piz%2BPGFfuUss53M8mFK8%3D&amp;reserved=0).
+>Weitere Informationen zu den neuen Funktionen in dieser Version finden Sie in diesem [Webinar](https://nam04.safelinks.protection.outlook.com/?url=https%3A%2F%2Flearningmanager.adobe.com%2Fapp%2Flearner%3FaccountId%3D98632%23%2Fcourse%2F10078152&data=05%7C02%7Cchandrum%40adobe.com%7C90e588d31b994e6a5f4e08dcb87f26a8%7Cfa7b1b5a7b34438794aed2c178decee1%7C0%7C0%7C638588103494535076%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&sdata=dNyxQl3IQjEtfGCMnhlfek4Piz%2BPGFfuUss53M8mFK8%3D&reserved=0).
 
 ## Verbesserungen beim Compliance-Dashboard
 
@@ -108,7 +108,7 @@ Diese Funktion ist nur in den Teilnehmer-Apps verfügbar (vorhandene Benutzerobe
 
 Adobe Learning Manager unterstützt jetzt HTML5-unterstützte Inhalte in Kursen zum Selbststudium. Autoren können HTML5-Inhalte als ZIP-Datei zu Inhalten zum Selbststudium hinzufügen. Teilnehmer können den HTML5-Inhalt im Fluidic Player anzeigen. Mit der neuen Funktion können Teilnehmer jetzt den Kurs direkt im Fluidic Player für Kurse zum Selbststudium als abgeschlossen markieren. Weitere Informationen finden Sie unter [HTML5-Dateityp in der Inhaltsbibliothek hinzufügen](/help/migrated/authors/feature-summary/content-library.md#add-html5-file-type-in-the-content-library).
 
-Mit der neuen Verbesserung wird der Kurs mit dem externen Link automatisch als abgeschlossen markiert, wenn die URL aufgerufen wird, solange der Autor die Abschlusskriterien auf die neue Option **[!UICONTROL Beim Starten von Inhalten]** festgelegt hat. Die neue Option **[!UICONTROL Abschlusskriterien]** wurde auf der Aktivitätsmodulseite hinzugefügt, auf der der Autor die Abschlusskriterien für die externen Links festlegen kann. Weitere Informationen finden Sie unter [HTML-Link hinzufügen im Aktivitätsmodul ](/help/migrated/authors/feature-summary/courses.md#add-html-link-in-the-activity-module).
+Mit der neuen Verbesserung wird der Kurs mit dem externen Link automatisch als abgeschlossen markiert, wenn die URL aufgerufen wird, solange der Autor die Abschlusskriterien auf die neue Option **[!UICONTROL Beim Starten von Inhalten]** festgelegt hat. Die neue Option **[!UICONTROL Abschlusskriterien]** wurde auf der Aktivitätsmodulseite hinzugefügt, auf der der Autor die Abschlusskriterien für die externen Links festlegen kann. Weitere Informationen finden Sie unter [HTML-Link hinzufügen im Aktivitätsmodul &#x200B;](/help/migrated/authors/feature-summary/courses.md#add-html-link-in-the-activity-module).
 
 ![](assets/completion-criteria-activity-module.png)
 _Option für Abschlusskriterien - Aktivitätsmodul_

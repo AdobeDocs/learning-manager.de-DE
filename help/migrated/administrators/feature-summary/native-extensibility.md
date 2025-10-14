@@ -79,7 +79,7 @@ Adobe Learning Manager unterstützt 15 Aufrufpunkte in der Administrator(inn)en-
 
 Als Administrator können Sie alle Erweiterungen auf der Seite Native Erweiterungen anzeigen. Um die Liste anzuzeigen, wählen Sie „Native Erweiterungen“ im linken Bereich der App aus.
 
-![Ansichtserweiterungsabbild ](assets/view-extensions.png)
+![Ansichtserweiterungsabbild &#x200B;](assets/view-extensions.png)
 *Alle Erweiterungen anzeigen*
 
 ## Aktivieren oder Deaktivieren von Erweiterungen
@@ -137,7 +137,7 @@ Es gibt zwei Möglichkeiten, diesen Bericht herunterzuladen.
 
 1. Wählen Sie in **[!UICONTROL Berichte]** > **[!UICONTROL Benutzerdefinierte Berichte]** die Option **[!UICONTROL Erweiterungskonfigurationsbericht]** aus.
 
-   ![meldet Seitenbild ](assets/extension-report-page.png)
+   ![meldet Seitenbild &#x200B;](assets/extension-report-page.png)
    *Bericht von Seite &quot;Berichte&quot; herunterladen*
 
 Der Status muss beim Konfigurieren des Registrierungsstatus im Bereich **0 - 4294967295** liegen.

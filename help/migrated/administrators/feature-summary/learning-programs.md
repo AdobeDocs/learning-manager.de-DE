@@ -59,7 +59,7 @@ Weitere Informationen zum Registrieren von Teilnehmern und zu den folgenden Schr
 
 ## Vollständige Katalogsteuerung für Lernprogramme aktivieren {#catalog}
 
-Wie die vollständige [Katalogsteuerung für Lernergebnisse oder Module ](shared-catalog-full-control.md) können Sie auch die vollständige Katalogsteuerung für Lernprogramme gewähren.
+Wie die vollständige [Katalogsteuerung für Lernergebnisse oder Module &#x200B;](shared-catalog-full-control.md) können Sie auch die vollständige Katalogsteuerung für Lernprogramme gewähren.
 
 ## Kurs zurücksetzen.
 

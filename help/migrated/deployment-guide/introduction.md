@@ -162,7 +162,7 @@ So konfigurieren Sie E-Mail-Vorlagen für ein Lernobjekt:
 
 ### Empfang von E-Mails für Benutzer beschränken {#restrictusersfromreceivingemails}
 
-Als Administrator können Sie auswählen, wer E-Mails von Learning Manager erhält und wer nicht. Sie können dies mit der Option **&#x200B;**&#x200B;[!UICONTROL Eingeschränkter Benutzer]&#x200B;**&#x200B;** auf der Registerkarte **&#x200B;**&#x200B;[!UICONTROL Einstellungen] **&#x200B; **. Benutzer können dieser Liste mit ihrem Namen, ihrer E-Mail-ID oder ihrer eindeutigen Benutzer-ID hinzugefügt werden. Die unter dieser Option aufgeführten Benutzer erhalten keine E-Mail-Mitteilungen von Learning Manager.
+Als Administrator können Sie auswählen, wer E-Mails von Learning Manager erhält und wer nicht. Sie können dies mit der Option **&#x200B;**&#x200B;[!UICONTROL Eingeschränkter Benutzer]&#x200B;**&#x200B;** auf der Registerkarte **&#x200B;**&#x200B;[!UICONTROL Einstellungen] **&#x200B; &#x200B;**. Benutzer können dieser Liste mit ihrem Namen, ihrer E-Mail-ID oder ihrer eindeutigen Benutzer-ID hinzugefügt werden. Die unter dieser Option aufgeführten Benutzer erhalten keine E-Mail-Mitteilungen von Learning Manager.
 
 ## Konfigurieren Ihrer Kontoeinstellungen {#configureyouraccountsettings}
 

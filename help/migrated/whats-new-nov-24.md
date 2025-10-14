@@ -33,7 +33,7 @@ Erfahren Sie mehr über die neuen Funktionen und Verbesserungen in der Version N
 
 >[!NOTE]
 >
->Weitere Informationen zu den neuen Funktionen in dieser Version finden Sie in diesem [Webinar](https://cdn.content.adobelearningmanageracademy.com/public/newlearner/newlearner_0dc0f1e8.html#/overviewPage?instanceId=11932477&amp;loId=11231360&amp;loType=course).
+>Weitere Informationen zu den neuen Funktionen in dieser Version finden Sie in diesem [Webinar](https://cdn.content.adobelearningmanageracademy.com/public/newlearner/newlearner_0dc0f1e8.html#/overviewPage?instanceId=11932477&loId=11231360&loType=course).
 
 ## KI-gestützte Suche in Adobe Learning Manager
 

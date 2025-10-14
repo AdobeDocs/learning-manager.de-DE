@@ -31,7 +31,7 @@ Der Browsercache und Cookies können den Zugriff auf die Adobe Learning Manager-
 
 Die nachfolgenden Links bieten browserspezifische Anleitungen zum Bereinigen des Caches:
 
-* [Google Chrome](https://support.google.com/accounts/answer/32050?co=GENIE.Platform%3DDesktop&amp;hl=de)
+* [Google Chrome](https://support.google.com/accounts/answer/32050?co=GENIE.Platform%3DDesktop&hl=de)
 * [Internet Explorer](https://kb.wisc.edu/page.php?id=1514)
 * [Microsoft Edge](https://www.bitdefender.com/support/how-to-clear-the-cache-and-cookies%C2%A0in-microsoft-edge-1914.html)
 * [Firefox](https://kb.iu.edu/d/ahic)
@@ -39,7 +39,7 @@ Die nachfolgenden Links bieten browserspezifische Anleitungen zum Bereinigen des
 
 ## Verwenden des Inkognito-Modus
 
-Verwenden Sie den Inkognito-Modus in Ihrem Browser und melden Sie sich dann bei Adobe Learning Manager an. Informationen finden Sie unter [Anweisungen](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&amp;hl=de&amp;oco=0).
+Verwenden Sie den Inkognito-Modus in Ihrem Browser und melden Sie sich dann bei Adobe Learning Manager an. Informationen finden Sie unter [Anweisungen](https://support.google.com/chrome/answer/95464?co=GENIE.Platform%3DDesktop&hl=de&oco=0).
 
 ## Administrator kontaktieren
 
