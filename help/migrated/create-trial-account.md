@@ -16,7 +16,7 @@ Sie können in Adobe Learning Manager ganz einfach ein kostenloses 30-Tage-Testk
 
 So erstellen Sie ein Testkonto:
 
-1. Wechseln Sie zu [Adobe Learning Manager](https://business.adobe.com/products/learning-manager/adobe-learning-manager.html).
+1. Wechseln Sie zu [Adobe Learning Manager](https://business.adobe.com/de/products/learning-manager/adobe-learning-manager.html).
 2. Wählen Sie **[!UICONTROL Kostenlose 30-Tage-Testversion]** aus.
 
    ![](assets/free-trial.png)
