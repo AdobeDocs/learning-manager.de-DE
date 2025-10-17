@@ -2,7 +2,7 @@
 description: Weitere Informationen zum Erstellen von L1-Feedbackformularen für Teilnehmer
 jcr-language: en_us
 title: L1-Feedbackformular
-source-git-commit: 70baa9d9871fb05e988973b61ce0af105459afb3
+source-git-commit: 13efc4d72ac56cecf6313dbda28a3853fc3b5498
 workflow-type: tm+mt
 source-wordcount: '1180'
 ht-degree: 0%
@@ -115,7 +115,7 @@ Erstellen Sie Übersetzungen für die Fragen im Feedback-Formular in mehreren Sp
 
 ## Feedbackformular als Standard festlegen
 
-Administratoren können standardmäßige Feedbackformulare für Kurse zum Selbststudium, zum Klassenzimmer, zum virtuellen Klassenzimmer und zu gemischten Kursen einrichten. Nach der Konfiguration wird dieses Standardformular den Teilnehmern nach Abschluss eines Kurses automatisch angezeigt. Dieses Standardformular wird auf alle Kurse angewendet, es sei denn, der Administrator weist für bestimmte Kurse ein anderes Feedbackformular zu.
+Administratoren können standardmäßige Feedbackformulare für Kurse zum Selbststudium, zum Klassenzimmer, zum virtuellen Klassenzimmer und zu gemischten Kursen einrichten. Sobald ein Standardformular festgelegt wurde, wird es automatisch auf alle neu erstellten Kurse angewendet. Teilnehmer sehen dieses Formular, nachdem sie einen Kurs abgeschlossen haben. Administratoren können bei Bedarf ein anderes Feedback-Formular für bestimmte Kurse zuweisen.
 
 ![](assets/set-as-default.png)
 _Bildschirm für Feedbackformulare wird angezeigt, um das Standard-Feedbackformular festzulegen_
