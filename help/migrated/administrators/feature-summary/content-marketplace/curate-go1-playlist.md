@@ -2,9 +2,9 @@
 description: Erfahren Sie, wie Sie eine Go1-Playlist erstellen und einem Lernpfad in Adobe Learning Manager hinzufügen. Dieses Handbuch enthält Schritt-für-Schritt-Anleitungen und bewährte Verfahren für die Playlist-Integration.
 jcr-language: en_us
 title: Go1-Wiedergabeliste für Adobe Learning Manager-Lernpfad kuratieren
-source-git-commit: 5d50bd56b6663b26fc6db0ff33d19ad809e9bf6a
+source-git-commit: 9931265d7cbecf42413011fb7e635ebb8e0f4006
 workflow-type: tm+mt
-source-wordcount: '1635'
+source-wordcount: '1665'
 ht-degree: 0%
 
 ---
@@ -139,8 +139,8 @@ Administratoren können die Beschreibung der Wiedergabeliste in die AI-Eingabeau
 12. Wählen Sie in der Bestätigungsmeldung **Ja** aus.
 13. Wählen Sie die Wiedergabeliste aus **[!UICONTROL Wiedergabeliste zum Importieren der Eingabeaufforderung auswählen]**.
 
-    ![](assets/add-playlist-to-lp.png)
-    _Wählen und importieren Sie die Wiedergabeliste für die Verbesserung der Vertriebsingenieur-Kenntnisse aus der Go1-Bibliothek in Adobe Learning Manager_
+   ![](assets/add-playlist-to-lp.png)
+   _Wählen und importieren Sie die Wiedergabeliste für die Verbesserung der Vertriebsingenieur-Kenntnisse aus der Go1-Bibliothek in Adobe Learning Manager_
 
 14. Wählen Sie **[!UICONTROL Wiedergabelisten zum Lernpfad hinzufügen]** und anschließend **[!UICONTROL Publish]**.
 
@@ -216,6 +216,10 @@ So löschen Sie die Wiedergabeliste:
    _Verwaltungsbildschirm der Wiedergabeliste, Hervorhebung der Option &quot;Wiedergabeliste löschen&quot;_
 
 Die ausgewählte Wiedergabeliste wird aus der Go1-Bibliothek gelöscht.
+
+### Wiedergabeliste freigeben
+
+Die Option &quot;Wiedergabeliste freigeben&quot; wird bei der Integration von Go1 mit Adobe Learning Manager nicht unterstützt. Diese Option wird in der nächsten Version aus der Benutzeroberfläche entfernt.
 
 ## Kurslimit überschritten
 
