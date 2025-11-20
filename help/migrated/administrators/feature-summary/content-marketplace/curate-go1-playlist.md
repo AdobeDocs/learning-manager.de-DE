@@ -139,8 +139,8 @@ Administratoren können die Beschreibung der Wiedergabeliste in die AI-Eingabeau
 12. Wählen Sie in der Bestätigungsmeldung **Ja** aus.
 13. Wählen Sie die Wiedergabeliste aus **[!UICONTROL Wiedergabeliste zum Importieren der Eingabeaufforderung auswählen]**.
 
-   ![](assets/add-playlist-to-lp.png)
-   _Wählen und importieren Sie die Wiedergabeliste für die Verbesserung der Vertriebsingenieur-Kenntnisse aus der Go1-Bibliothek in Adobe Learning Manager_
+    ![](assets/add-playlist-to-lp.png)
+    _Wählen und importieren Sie die Wiedergabeliste für die Verbesserung der Vertriebsingenieur-Kenntnisse aus der Go1-Bibliothek in Adobe Learning Manager_
 
 14. Wählen Sie **[!UICONTROL Wiedergabelisten zum Lernpfad hinzufügen]** und anschließend **[!UICONTROL Publish]**.
 
