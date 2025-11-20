@@ -2,7 +2,7 @@
 description: Erfahren Sie, wie Sie eine Go1-Playlist erstellen und einem Lernpfad in Adobe Learning Manager hinzufügen. Dieses Handbuch enthält Schritt-für-Schritt-Anleitungen und bewährte Verfahren für die Playlist-Integration.
 jcr-language: en_us
 title: Go1-Wiedergabeliste für Adobe Learning Manager-Lernpfad kuratieren
-source-git-commit: fd72f959e1c1d53841cf095a447e16e2387969c2
+source-git-commit: 6d7c4f615bc69ba2d9cb6b1dfbfe4fae09ecfb18
 workflow-type: tm+mt
 source-wordcount: '1665'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Fügen Sie Go1-Kurse direkt zu Lernpfaden und Zertifizierungen hinzu. Erstellen 
 
 So erstellen Sie einen Lernpfad mit Go1-Kursen:
 
-1. Melden Sie sich bei Adobe Learning Manager als Administrator an.
+1. Melden Sie sich bei **Adobe Learning Manager** als Administrator an.
 2. Wählen Sie im linken Navigationsbereich **[!UICONTROL Lernpfade]** aus.
 3. Wählen Sie **[!UICONTROL Hinzufügen]** aus.
 
