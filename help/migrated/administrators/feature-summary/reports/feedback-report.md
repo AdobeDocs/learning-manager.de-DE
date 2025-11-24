@@ -2,9 +2,9 @@
 description: Erfahren Sie, wie Sie den Feedbackbericht in Adobe Learning Manager aufrufen, herunterladen und interpretieren. Lernen Sie Berichtsspalten, Fragetypen, Antworten von Managern und Teilnehmern kennen und erfahren Sie, wie Feedback-Erkenntnisse die Bewertung von Schulungen und die kontinuierliche Verbesserung unterstützen.
 jcr-language: en_us
 title: Feedbackbericht in Adobe Learning Manager
-source-git-commit: 6fceea6cc1f5fbe47e0dbb211cfb9e2de67957f6
+source-git-commit: 339207c1a1d4f365a4c25c4d2ef7e4527b1dfefc
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '856'
 ht-degree: 8%
 
 ---
@@ -102,4 +102,6 @@ Die folgenden Spalten werden im Bericht auf Lernobjektebene angezeigt:
 | Feedback-Version | Versionsnummer des Feedbackformulars |
 | Teilnehmersprache | Vom Teilnehmer gewählte Sprache |
 
-
+>[!NOTE]
+>
+>Der Bericht auf Lernobjektebene enthält auch die Fragen, die dem Feedbackformular hinzugefügt wurden. Jede Frage wird als Spaltenüberschrift angezeigt und die Antworten des Teilnehmers auf diese Fragen werden in den entsprechenden Zeilen unten angezeigt.
