@@ -63,7 +63,7 @@ In den Teilnehmertranskripten in Adobe Learning Manager werden Schulungen, Compl
 5. Wählen Sie **[!UICONTROL Neu generieren]**.
 6. Wählen Sie den Datumsbereich aus, für den das Transkript generiert werden soll. Sie können sowohl das Start- als auch das Enddatum ändern, indem Sie die Option **[!UICONTROL Datum wählen]** in der Dropdownliste für den Datumsbereich verwenden.
 7. Wählen Sie Folgendes aus:
-a. Wählen Sie die Namen der Teilnehmer im Abschnitt **[!UICONTROL Teilnehmer auswählen]** aus. Sie können Benutzer oder Benutzergruppen auswählen oder die E-Mail-Adressen der Teilnehmer, für die Sie Transkripte generieren möchten, kopieren und einfügen. Weitere Informationen finden Sie im Abschnitt [Teilnehmertranskript ](#generate-learner-transcript-using-copy-paste) mithilfe der Funktion zum Kopieren und Einfügen generieren. Wenn keine Auswahl vorgenommen wird, ist standardmäßig die Option Alle Werte ausgewählt.
+a. Wählen Sie die Namen der Teilnehmer im Abschnitt **[!UICONTROL Teilnehmer auswählen]** aus. Sie können Benutzer oder Benutzergruppen auswählen oder die E-Mail-Adressen der Teilnehmer, für die Sie Transkripte generieren möchten, kopieren und einfügen. Weitere Informationen finden Sie im Abschnitt [Teilnehmertranskript &#x200B;](#generate-learner-transcript-using-copy-paste) mithilfe der Funktion zum Kopieren und Einfügen generieren. Wenn keine Auswahl vorgenommen wird, ist standardmäßig die Option Alle Werte ausgewählt.
 b. Wählen Sie bestimmte Kataloge aus der Dropdown-Liste **[!UICONTROL Kataloge auswählen]** aus. Das Transkript wird nur für die angegebenen Kataloge heruntergeladen. Wenn keine Auswahl vorgenommen wird, ist standardmäßig die Option Alle Werte ausgewählt.
 c. Wählen Sie den **[!UICONTROL Registrierungsstatus]** aus. Dieses Dropdown-Menü enthält die folgenden Optionen:
 
@@ -72,12 +72,12 @@ c. Wählen Sie den **[!UICONTROL Registrierungsstatus]** aus. Dieses Dropdown-Me
        * wird ausgeführt
        * nicht gestartet
        * Registrierung aufgehoben
-   8. Erweiterte Optionen: Wählen Sie **[!UICONTROL Erweiterte Optionen]**, um die Transkripte herunterzuladen und Folgendes einzuschließen:
+   &#x200B;8. Erweiterte Optionen: Wählen Sie **[!UICONTROL Erweiterte Optionen]**, um die Transkripte herunterzuladen und Folgendes einzuschließen:
 
    a. Laden Sie Transkripte für Teilnehmer herunter, die aus einem Konto gelöscht wurden, indem Sie das Kontrollkästchen **[!UICONTROL Gelöschte Teilnehmer einschließen]** aktivieren.
 b. Laden Sie Modulebeneninformationen im Teilnehmertranskript herunter, indem Sie das Kontrollkästchen **[!UICONTROL Modulebeneninformationen aktivieren]** aktivieren. In diesem Fall werden Modulnamen und die für jedes Modul aufgewendete Zeit als Teil des Transkripts abgerufen, wenn diese Option aktiviert ist.
 c. Laden Sie Fertigkeitsdaten und Zusammenfassungsblätter herunter, indem Sie das Kontrollkästchen **[!UICONTROL Fertigkeitsdaten und Zusammenfassungsblätter einschließen]** aktivieren. Weitere Informationen finden Sie im Abschnitt Excel-Berichte.
-9. Sie können auch die Spalten auswählen, die in Ihrem Bericht aufgefüllt werden sollen. Dies bietet Flexibilität beim Herunterladen von Berichten mit bestimmten Spaltenwerten. Wählen Sie die Spalten im Dropdown-Menü aus.
+&#x200B;9. Sie können auch die Spalten auswählen, die in Ihrem Bericht aufgefüllt werden sollen. Dies bietet Flexibilität beim Herunterladen von Berichten mit bestimmten Spaltenwerten. Wählen Sie die Spalten im Dropdown-Menü aus.
 Transkripte werden generiert und als ZIP-Dateien auf Ihren Computer heruntergeladen, wenn die Kenntnisdaten nicht enthalten sind. Wenn das Kontrollkästchen &quot;Kenntnisdaten&quot; aktiviert ist, werden Transkripte generiert und als heruntergeladen. XLSX-Dateien.
 
 ### Teilnehmertranskript durch Kopieren und Einfügen erstellen
