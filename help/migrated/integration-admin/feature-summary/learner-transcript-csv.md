@@ -4,7 +4,7 @@ title: Teilnehmertranskript-CSV interpretieren
 description: Teilnehmertranskript-CSV interpretieren
 contentowner: saghosh
 preview: true
-source-git-commit: fba5e5ddc1964b485be473bf356806f234688cf4
+source-git-commit: fcc50e80f94bdcbc8de2cddac92f1a12b55e1e18
 workflow-type: tm+mt
 source-wordcount: '2997'
 ht-degree: 88%
@@ -29,9 +29,9 @@ Diese Informationen sind für alle Entwickler nützlich, die Learning Manager du
 
 ## Teilnehmertranskript über die Benutzeroberfläche abrufen {#fetchlearnertranscriptfromtheuserinterface}
 
-Über die Profileinstellungen kann ein Teilnehmer sein Transkript herunterladen. Weitere Informationen finden Sie unter *** [Teilnehmertranskript herunterladen](../../administrators/feature-summary/learner-transcripts.md)***.
+Über die Profileinstellungen kann ein Teilnehmer sein Transkript herunterladen. Weitere Informationen finden Sie unter ***[Teilnehmertranskript herunterladen](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md)***.
 
-Administratoren können Teilnehmertranskripte für das gesamte Unternehmen, für eine bestimmte Benutzergruppe oder für einen bestimmten Satz von Lernobjekten generieren (oder auch für einen bestimmten Satz von Benutzern und Lernobjekten gleichzeitig). Außerdem ist es möglich, alle Lerndatensätze für einen bestimmten Zeitraum abzurufen und anzugeben, ob Informationen auf Modulebene erforderlich sind (diese Informationen entfallen standardmäßig). Weitere Informationen finden Sie unter [***Teilnehmertranskripte herunterladen***](../../administrators/feature-summary/learner-transcripts.md).
+Administratoren können Teilnehmertranskripte für das gesamte Unternehmen, für eine bestimmte Benutzergruppe oder für einen bestimmten Satz von Lernobjekten generieren (oder auch für einen bestimmten Satz von Benutzern und Lernobjekten gleichzeitig). Außerdem ist es möglich, alle Lerndatensätze für einen bestimmten Zeitraum abzurufen und anzugeben, ob Informationen auf Modulebene erforderlich sind (diese Informationen entfallen standardmäßig). Weitere Informationen finden Sie unter [***Teilnehmertranskripte herunterladen***](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md).
 
 <!--Update above link?-->
 

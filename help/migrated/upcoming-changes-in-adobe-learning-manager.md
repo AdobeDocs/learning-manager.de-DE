@@ -2,7 +2,7 @@
 title: Neue Funktionen in der Adobe Learning Manager-Version vom Oktober
 description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und wichtigen Updates in der Adobe Learning Manager-Version vom Oktober 2025.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: 1e7e7ba6e419476476e18ed3f826cc07ac2e1f88
+source-git-commit: 6fceea6cc1f5fbe47e0dbb211cfb9e2de67957f6
 workflow-type: tm+mt
 source-wordcount: '8348'
 ht-degree: 0%
@@ -50,7 +50,7 @@ Diese Änderungen stellen sicher, dass nach dem Sitzungsdatum markierte Abschlü
 
 ### Teilnehmertranskript mit der neuen Spalte
 
-In diesem [Artikel](/help/migrated/administrators/feature-summary/learner-transcripts.md) erfahren Sie, wie Sie das Teilnehmertranskript herunterladen.
+Weitere Informationen zum Teilnehmertranskriptbericht finden Sie in diesem [Artikel](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md).
 
 Der heruntergeladene Teilnehmertranskriptbericht enthält die neue Spalte &quot;Abgeschlossenes Datum markieren (UTC-Zeitzone)&quot;.
 
@@ -81,7 +81,7 @@ In diesem [Artikel](/help/migrated/administrators/feature-summary/reports.md#use
 
 Die heruntergeladene Benutzerberichtsdatei enthält die neuen Spalten Interne Benutzer-ID und Manager-E-Mail.
 
-![Benutzerbericht mit gelb markierten Spalten für die interne Benutzer-ID und Manager-E-Mail &#x200B;](/help/migrated/assets/user-report-columns.png)
+![Benutzerbericht mit gelb markierten Spalten für die interne Benutzer-ID und Manager-E-Mail ](/help/migrated/assets/user-report-columns.png)
 _Benutzerberichte, die interne Benutzer-IDs und Manager-E-Mail-Adressen hervorheben, um die Benutzerverwaltung zu optimieren_
 
 ## FTP-Benutzerbericht mit Unterstützung für interne Benutzer-ID
@@ -1726,4 +1726,4 @@ Custom administrators can create announcements only for the user groups or catal
 * The format of the report will remain unchanged. If custom administrators download it from the User Interface, the content of the report will be subject to their scope. 
 * No modifications are necessary if this report is not utilized in any automated or downstream workflow.
 
-See the [Release notes](https://experienceleague.adobe.com/de/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
+See the [Release notes](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->

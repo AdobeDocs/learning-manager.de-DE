@@ -2,7 +2,7 @@
 description: Erfahren Sie mehr über die neuen Funktionen und Verbesserungen in der Version Oktober 2025 von Adobe Learning Manager
 jcr-language: en_us
 title: Neue Funktionen in der Adobe Learning Manager-Version Oktober 2025
-source-git-commit: c1a201e97a8944dddb6361aade0017f5745f933c
+source-git-commit: fcc50e80f94bdcbc8de2cddac92f1a12b55e1e18
 workflow-type: tm+mt
 source-wordcount: '5638'
 ht-degree: 0%
@@ -731,7 +731,7 @@ Diese Änderungen stellen sicher, dass nach dem Sitzungsdatum markierte Abschlü
 ![Teilnehmertranskriptberichte zeigen markierte abgeschlossene Daten (gelb markiert) für die Verfolgung des Kursabschlusses im Adobe Learning](/help/migrated/assets/mark-completion-column.png)
 _Der Teilnehmertranskriptbericht zeigt eine neue Spalte in Gelb an, in der die einzelnen Abschlussdaten für jeden Benutzer hervorgehoben werden._
 
-Weitere Informationen zum Teilnehmertranskriptbericht finden Sie im [Teilnehmertranskript](/help/migrated/administrators/feature-summary/learner-transcripts.md).
+Weitere Informationen zum Teilnehmertranskriptbericht finden Sie im [Teilnehmertranskript](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md).
 
 ### Erweiterter Benutzerbericht mit erweiterten Datenfeldern
 
@@ -740,7 +740,7 @@ Der Benutzerbericht enthält jetzt zusätzliche Felder zur Verbesserung der Benu
 * Spalte &quot;Interne Benutzer-ID&quot;: Bietet eindeutige interne Kennungen für eine reibungslose Benutzerverfolgung über verschiedene Systeme und API-Endpunkte hinweg.
 * Spalte &quot;Manager-E-Mail&quot;: Enthält direkte Manager-Kontaktinformationen für die Verfolgung der Organisationshierarchie.
 
-![Benutzerbericht mit gelb markierten Spalten für die interne Benutzer-ID und Manager-E-Mail &#x200B;](/help/migrated/assets/user-report-columns.png)
+![Benutzerbericht mit gelb markierten Spalten für die interne Benutzer-ID und Manager-E-Mail ](/help/migrated/assets/user-report-columns.png)
 _Benutzerberichte, die interne Benutzer-IDs und Manager-E-Mail-Adressen hervorheben, um die Benutzerverwaltung zu optimieren_
 
 [Laden Sie den Benutzerbericht herunter](/help/migrated/administrators/feature-summary/add-users-user-groups.md#download-the-user-report), um weitere Informationen zum Benutzerbericht zu erhalten.
@@ -774,7 +774,7 @@ Unternehmen können jetzt suspendierte Benutzer (mit deaktivierten externen Prof
 >
 >Dieses Flag ist standardmäßig für vorhandene Konten deaktiviert und muss explizit für neue Konten angefordert werden.
 
-Weitere Informationen finden Sie im [Teilnehmertranskript](/help/migrated/administrators/feature-summary/learner-transcripts.md)-Artikel.
+Weitere Informationen finden Sie im [Teilnehmertranskript](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md)-Artikel.
 
 ### Bericht zu Arbeitshilfen mit direkten Zugriffsverknüpfungen
 

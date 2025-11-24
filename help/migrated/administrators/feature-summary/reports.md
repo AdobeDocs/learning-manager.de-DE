@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Berichte
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: f6bc1fa9384fc728f6abca7bb0fd9f62bb1f9e04
+source-git-commit: 03484f1c95f7dbf1e06b7cb9559b1a6b012759c1
 workflow-type: tm+mt
-source-wordcount: '7809'
-ht-degree: 52%
+source-wordcount: '7576'
+ht-degree: 54%
 
 ---
 
@@ -17,7 +17,7 @@ Informieren Sie sich über die Berichte, die mit der Administratorrolle in der L
 
 Mit Adobe Learning Manager können Sie verschiedene Berichte erstellen, um die Aktivitäten der Teilnehmer zu verfolgen, zu überwachen und zu kontrollieren. Aktivitäten von Teilnehmern werden verfolgt und automatisch in der Datenbank erfasst. Manager- und Administratoren-Berichte werden von der Datenbank aus erstellt.
 
-## Übersicht {#overview}
+## Überblick {#overview}
 
 Berichte für Administratoren und Manager werden auf ähnliche Weise erstellt. Manager können Berichte über ihre Mitarbeiter anzeigen, Administratoren hingegen alle Berichte im Unternehmen.
 
@@ -450,15 +450,9 @@ Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.
 
 ### Teilnehmertranskripte {#LearnerTranscripts-1}
 
-Mit Adobe Learning Manager können die Administratoren eines Unternehmens die Transkripte erstellen, die mit den Teilnehmenden verknüpft sind. Der Teilnehmertranskriptbericht enthält Folgendes:
+Mit Adobe Learning Manager können die Administratoren eines Unternehmens die Transkripte erstellen, die mit den Teilnehmenden verknüpft sind.
 
-1. Teilnehmertranskript: Dashboard für Lernaktivitäten
-1. Kenntnisse: Dashboard für Kenntnisse
-1. Kompatibilitäts-Dashboard
-
-In den Teilnehmertranskripten in Excel-Berichten werden die Spalten „Benötigte Credits“ und „Verdiente Credits“ in Dezimalzahlen angezeigt. 
-
-Weitere Informationen zum Erstellen von Teilnehmertranskriptberichten und weitere Informationen finden Sie unter [Teilnehmertranskripte](learner-transcripts.md).
+Weitere Informationen finden Sie unter [Teilnehmertranskript](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md).
 
 ### Berichte für Ankündigungen {#announcementsreports}
 
@@ -750,22 +744,7 @@ Führen Sie die folgenden Schritte aus, um einen Bericht herunterzuladen: **[!UI
 
 Als Administrator können Sie jetzt sowohl Teilnehmer-Feedback (L1) als auch Manager-Feedback (L3) für ausgewählte Schulungen für einen bestimmten Zeitraum abrufen.
 
-Sie können die Daten über die Benutzeroberfläche oder über den PowerBI-Connector exportieren, um eine detaillierte Analyse durchzuführen.
-
-L1- und L3-Feedbackberichte bieten die Möglichkeit, einen konsolidierten Feedbackbericht für die L1- und L3-Antworten für ausgewählte Schulungen für einen Zeitraum von **einem Jahr** oder für bis zu 10 ausgewählte Schulungen für einen beliebigen Datumsbereich herunterzuladen.
-
-Melden Sie sich als Administrator an, klicken Sie auf **[!UICONTROL Berichte]** > **[!UICONTROL Benutzerdefinierte Berichte]**, und klicken Sie in der Liste der Berichte auf **[!UICONTROL Feedbackbericht]**.
-
-![](assets/download-feedbackreport.png)
-*Feedbackbericht herunterladen*
-
-Wenn Sie nach Auswahl der Filter auf &quot;Herunterladen&quot; klicken, erhalten Sie eine Benachrichtigung, dass Sie den Bericht im CSV-Format herunterladen können.
-
-Der heruntergeladene Bericht enthält Details wie Schulungsname und -typ, Instanzname, Name und E-Mail-Adresse des Teilnehmers, Typ des Feedbacks: L1 oder L3, Datumsangaben des übermittelten Feedbacks für neue Daten.
-
-Für vorhandene Daten vor dieser Funktionsimplementierung wird das LO-Abschlussdatum angezeigt, LO-Abschlussdatum, L1-Feedbackfrage: Selbststufiger aktueller Text und Klassenzimmertext in verschiedenen Spalten, L1-Feedback: entsprechende Antworten, Name und E-Mail-Adresse des Managers, L3-Feedbackwert und Sendedatum, aktive Felder.
-
-Sie können die Daten auch von der Benutzeroberfläche oder auf den Power BI exportieren, wodurch alle Schulungen für einen beliebigen Datumsbereich für eine tiefere Analyse unterstützt werden.
+Weitere Informationen finden Sie unter [Feedbackbericht](/help/migrated/administrators/feature-summary/reports/feedback-report.md).
 
 ### Schulungsbericht {#training-report}
 
@@ -1035,7 +1014,7 @@ Das exportierte Blatt mit Dashboard-Berichten enthält detaillierte Informatione
    *Achsen für Berichte*
 
 1. Wählen Sie aus den Dropdown-Optionen die Kriterien für die sekundäre **[!UICONTROL Y-Achse]** bzw. den Bereich für Ihren Bericht aus. Wählen Sie zum Beispiel für eine Option betreffend die Registrierung für ein Lernprogramm einen oder mehrere Status aus dem Status-Dropdown-Menü neben der Option aus. Sekundäre Bereichsdaten werden im Bericht in Form von Liniendiagrammen dargestellt.
-1. Wählen Sie aus den Dropdown-Optionen die für Ihren Bericht geeigneten X&#x200B;**-Achsen**-Kriterien aus. Wenn Sie das Datum als Kriterium für die x-Achse ausgewählt haben, steht Ihnen eine Option zur Gruppierung des x-Achsen-Kriteriums nach Tag, Monat, Quartal und Jahr zur Verfügung.
+1. Wählen Sie aus den Dropdown-Optionen die für Ihren Bericht geeigneten X**-Achsen**-Kriterien aus. Wenn Sie das Datum als Kriterium für die x-Achse ausgewählt haben, steht Ihnen eine Option zur Gruppierung des x-Achsen-Kriteriums nach Tag, Monat, Quartal und Jahr zur Verfügung.
 1. Wählen Sie die gewünschte Option aus dem Dropdown-Menü für die Zeitspanne aus. Die verfügbaren Optionen sind:
 
    * Letzter Monat
