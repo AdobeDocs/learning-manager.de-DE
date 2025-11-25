@@ -2,7 +2,7 @@
 description: Erfahren Sie, wie Sie den Feedbackbericht in Adobe Learning Manager aufrufen, herunterladen und interpretieren. Lernen Sie Berichtsspalten, Fragetypen, Antworten von Managern und Teilnehmern kennen und erfahren Sie, wie Feedback-Erkenntnisse die Bewertung von Schulungen und die kontinuierliche Verbesserung unterstützen.
 jcr-language: en_us
 title: Feedbackbericht in Adobe Learning Manager
-source-git-commit: 339207c1a1d4f365a4c25c4d2ef7e4527b1dfefc
+source-git-commit: e0553621dd67338d2433bb1f82af43cacc2d8b8c
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 8%
@@ -69,6 +69,10 @@ Im Folgenden sind die Standardspalten im Bericht auf Kontoebene aufgeführt:
 | Datum des Abschlusses | Das Datum, an dem der Teilnehmer die Schulung abgeschlossen hat |
 | Datum des Feedbacks | Das Datum, an dem der Teilnehmer das Feedback gesendet hat |
 | L1 Feedback Originalsprache | Die Sprache, in der der Teilnehmer das L1-Feedback ursprünglich gesendet hat |
+| L3 Likert Skalierungsfrage 1 | Misst die Leistung des Teilnehmers nach der Schulung anhand einer Ratingskala |
+| L3 Likert Scale Response 1 | Antwort des Managers auf diese Likert-Frage |
+| L3 Free Text Question 1 | Dem L3-Feedback-Formular für Manager wurde eine Freitext-Frage hinzugefügt. Diese kann optional oder obligatorisch konfiguriert werden. |
+| L3 Free Text Response 1 | Die Antwort des Managers auf diese Freitext-Frage |
 
 Die folgenden Spalten werden im Bericht auf Kontoebene basierend auf den vier Arten von Fragen angezeigt, die dem Feedbackformular hinzugefügt wurden:
 
@@ -83,10 +87,7 @@ Die folgenden Spalten werden im Bericht auf Kontoebene basierend auf den vier Ar
 | Likert Antwort 1 | Antwort auf die Likert-Frage 1 |
 | Textfrage 1 | Erste offene/Textfrage im Formular |
 | Textantwort 1 | Antwort des Teilnehmers auf Textfrage 1 |
-| L3 Likert Skalierungsfrage 1 | Misst die Leistung des Teilnehmers nach der Schulung anhand einer Ratingskala |
-| L3 Likert Scale Response 1 | Antwort des Managers auf diese Likert-Frage |
-| L3 Free Text Question 1 | Dem L3-Feedback-Formular für Manager wurde eine Freitext-Frage hinzugefügt. Diese kann optional oder obligatorisch konfiguriert werden. |
-| L3 Free Text Response 1 | Die Antwort des Managers auf diese Freitext-Frage |
+
 
 >[!NOTE]
 >
