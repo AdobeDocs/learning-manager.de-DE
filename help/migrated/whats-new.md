@@ -2,9 +2,9 @@
 description: Erfahren Sie mehr über die neuen Funktionen und Verbesserungen in der Version Oktober 2025 von Adobe Learning Manager
 jcr-language: en_us
 title: Neue Funktionen in der Adobe Learning Manager-Version Oktober 2025
-source-git-commit: fcc50e80f94bdcbc8de2cddac92f1a12b55e1e18
+source-git-commit: b1225d4c1c322a75d97c813b0d97eb3229ffd35c
 workflow-type: tm+mt
-source-wordcount: '5638'
+source-wordcount: '5573'
 ht-degree: 0%
 
 ---
@@ -22,14 +22,6 @@ Die Adobe Learning Manager-Version vom Oktober 2025 enthält wesentliche Verbess
 * Verbesserte APIs für Analyse und Migration: Neue und verbesserte APIs bieten eine bessere Verfolgung der Quizleistung, Überwachung des Migrationsstatus und Unterstützung für Benutzer-Tagging beim sozialen Lernen.
 
 ## Experience Builder
-
->[!IMPORTANT]
->
->Wir freuen uns, bekannt geben zu können, dass Experience Builder, das innovative Tool zur Erstellung anpassbarer Lernportale, nach der Version Oktober 2025 von Adobe Learning Manager verfügbar sein wird.
->
->Du hast jederzeit Zugriff auf weitere Updates, sobald die Version demnächst verfügbar ist. Wir freuen uns darauf zu sehen, wie ihr Experience Builder einsetzt, um eure Lernportale zu transformieren.
->
->Bei Fragen oder zusätzlichen Informationen wenden Sie sich an Ihren Customer Success Manager.
 
 Experience Builder ist ein Programm ohne oder mit wenig Code in Adobe Learning Manager, mit dem Sie benutzerdefinierte Lernportale erstellen können. Sie ermöglicht es Ihnen, markenfreundliche, benutzerfreundliche Lernportale zu entwerfen, ohne technische Fähigkeiten oder umfassendes Programmierwissen zu benötigen.
 Mit Experience Builder können Administratoren ganz einfach Seiten, Menüs und Widgets erstellen, um personalisierte Lernerlebnisse bereitzustellen, die auf ihre Zielgruppe zugeschnitten sind.
@@ -740,7 +732,7 @@ Der Benutzerbericht enthält jetzt zusätzliche Felder zur Verbesserung der Benu
 * Spalte &quot;Interne Benutzer-ID&quot;: Bietet eindeutige interne Kennungen für eine reibungslose Benutzerverfolgung über verschiedene Systeme und API-Endpunkte hinweg.
 * Spalte &quot;Manager-E-Mail&quot;: Enthält direkte Manager-Kontaktinformationen für die Verfolgung der Organisationshierarchie.
 
-![Benutzerbericht mit gelb markierten Spalten für die interne Benutzer-ID und Manager-E-Mail &#x200B;](/help/migrated/assets/user-report-columns.png)
+![Benutzerbericht mit gelb markierten Spalten für die interne Benutzer-ID und Manager-E-Mail ](/help/migrated/assets/user-report-columns.png)
 _Benutzerberichte, die interne Benutzer-IDs und Manager-E-Mail-Adressen hervorheben, um die Benutzerverwaltung zu optimieren_
 
 [Laden Sie den Benutzerbericht herunter](/help/migrated/administrators/feature-summary/add-users-user-groups.md#download-the-user-report), um weitere Informationen zum Benutzerbericht zu erhalten.

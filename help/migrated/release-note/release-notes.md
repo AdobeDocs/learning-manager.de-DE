@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Versionshinweise zu Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: fcc50e80f94bdcbc8de2cddac92f1a12b55e1e18
+source-git-commit: 093092c826b014c2d582c6cc32da08464403a1bf
 workflow-type: tm+mt
-source-wordcount: '27340'
-ht-degree: 70%
+source-wordcount: '27782'
+ht-degree: 69%
 
 ---
 
@@ -18,10 +18,62 @@ ht-degree: 70%
   <tr>
    <td><img src="assets/cp-prime-appicon-88x84.png"></td>
    <td>
-    <p><a href="https://business.adobe.com/de/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
+    <p><a href="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
   </tr>
  </tbody>
 </table>-->
+
++++Update 103: Adobe Learning Manager Version November 2025
+
+Freigabedatum: Mittwoch, 25. November 2025
+
+## Neue Funktionen in dieser Version
+
+### Experience Builder
+
+Experience Builder ist jetzt für alle Adobe Learning Manager-Konten verfügbar, sodass Kunden vollständig markenkonforme Lernerlebnisse mit Low-Code-Komponenten und flexiblen Layouts erstellen können. Mit Experience Builder können Administratoren benutzerdefinierte Lernportale und -Seiten erstellen, die auf Mobilgeräten vollständig responsiv sind.
+
+Bei vorhandenen Konten wird das Experience Builder-Update automatisch bereitgestellt. Die Experience Builder-Funktion ist nicht für Konten verfügbar, die weiterhin die alte Benutzeroberfläche oder die klassische Benutzeroberfläche verwenden.
+
+Weitere Informationen finden Sie unter [Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/overview.md).
+
+### Adobe Learning Manager-Webschnittstelle für Mobilgeräte
+
+Die mobile Weboberfläche wurde auf einer modernen Code-Basis umgebaut, um schnellere Ladezeiten, eine verbesserte Reaktionsfähigkeit und ein intuitiveres Lernerlebnis für alle Geräte zu bieten.
+
+Das aktualisierte mobile Weberlebnis ist standardmäßig für alle neuen Konten aktiviert. Bestehende Konten erhalten das Upgrade ebenfalls automatisch, es sei denn, Soziales Lernen ist aktiviert. In diesen Fällen bleibt die vorherige mobile Erfahrung aktiv, bis Soziales Lernen auf das neue kompatible Framework migriert wird.
+
+>[!NOTE]
+>
+>Soziales Lernen wird in der neuen mobilen Adobe Learning Manager-Webschnittstelle nicht unterstützt.
+
+### Verbesserungen für Fluidic Player
+
+Zuvor wurde auf der Schaltfläche &quot;Weiter&quot; im Fluidic Player der Titel des bevorstehenden Moduls nicht angezeigt, wodurch es für die Teilnehmer schwierig wurde, den nächsten Schritt auf ihrem Lernweg vorherzusehen.
+
+Mit dieser Verbesserung enthält die Schaltfläche &quot;Weiter&quot; jetzt den Titel des nächsten Moduls, sodass die Teilnehmer Folgendes tun können:
+
+* Informieren Sie sich, welche Inhalte demnächst verfügbar sind, bevor sie fortgesetzt werden.
+* Profitieren Sie von mehr Klarheit und Zuverlässigkeit bei der Navigation durch Module.
+* Halten Sie während des gesamten Kursablaufs einen besseren Kontext aufrecht.
+
+![](assets/fluidic-player-next.png)
+_Der Fluidic Player zeigt jetzt die Schaltfläche &quot;Weiter&quot; mit dem Titel des bevorstehenden Moduls an_
+
+### L1-Feedbackformular
+
+L1-Feedback konnte nur innerhalb einzelner Lernobjekte konfiguriert werden, was die Flexibilität beschränkte und Administratoren daran hinderte, verschiedene Formulare im gesamten Katalog zu verwenden. Administratoren können jetzt mehrere L1-Feedback-Formulare erstellen und verwenden und jedes Feedback-Formular kann bestimmten Kursen, Lernpfaden und Zertifizierungen zugewiesen werden. Das Formular unterstützt jetzt mehrere Fragetypen, einschließlich Kurseffektivität, NPS, Likert-Skalierung und Fragen zu Freitext.
+
+Feedback-Formulare können in weitere Sprachen übersetzt werden, wobei die gleiche Fragenstruktur über alle Gebietsschemas hinweg beibehalten wird. Berichte enthalten jetzt den Namen des Feedback-Formulars und die Version des Feedback-Formulars, um zu identifizieren, welches Formular jede Antwort erfasst hat.
+
+**Anwendungsfälle**
+
+* Weisen Sie den verschiedenen Schulungsprogrammen maßgeschneiderte Feedback-Formulare zu. So können z. B. bei Vertriebskursen Fragen im NPS-Fokus beantwortet werden, während Compliance-Kurse Fragen in den Bereichen Kurseffektivität und Likert-Skala beantworten, um Klarheit und Richtlinienverständnis zu messen.
+* Verwenden Sie separate Feedbackformulare basierend auf Lernmodulen. Beispiel: drei verschiedene Formulare für angeglichene Module, Module zum Selbststudium und Klassenzimmermodule.
+
+Weitere Informationen finden Sie im [L1-Feedbackformular ](/help/migrated/administrators/feature-summary/l1-feedback-form.md).
+
++++
 
 +++Update 102: Adobe Learning Manager Version Oktober 2025
 
@@ -131,7 +183,7 @@ Weitere Informationen zum Fluidic Player finden Sie in diesem [Artikel](/help/mi
 
 * Es wurde ein Problem behoben, durch das Teilnehmer, die einen Kurs abgeschlossen hatten, einen weißen Bildschirm sahen, wenn sie ihn erneut besuchten, nachdem das Inhaltsmodul auf eine neue Version aktualisiert wurde.
 
-Weitere Informationen zu bevorstehenden Änderungen an Adobe Learning Manager finden Sie in diesem [Artikel](https://experienceleague.adobe.com/de/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
+Weitere Informationen zu bevorstehenden Änderungen an Adobe Learning Manager finden Sie in diesem [Artikel](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
 
 +++
 
@@ -1176,7 +1228,7 @@ Weitere Informationen finden Sie unter „Neue Funktionen“ im [Update von Lear
 * Das Herunterladen von Ressourcen aus einem Kurs funktionierte nicht, wenn er aus einem anderen Kurs kopiert wurde und der Teilnehmer keinen Zugriff auf den ursprünglichen zum Erstellen des duplizierten Kurses verwendeten Kurs hat.
 * Bannerbilder wurden nicht gelöscht, wenn der Autor sie entfernt, während sich der Kurs im Entwurfsstatus befindet. Dieses Problem wurde behoben.
 
-**AEM &#x200B;**
+**AEM **
 
 * Nach dem Einfügen der Learning Manager-Komponente in AEM dauerte das Laden der Seite lange und der Zugriff auf die anderen Komponenten war nicht möglich. Dieses Problem wurde behoben.
 
@@ -1610,7 +1662,7 @@ In diesem Update kann ein Teilnehmer Assets als Abschlussnachweis für ein exter
 
 Ein Teilnehmer kann ein externes Zertifikat öffnen und Assets wie PDF-, Text- oder Bilddateien hochladen.
 
-Weitere Informationen finden Sie unter [***Hochladen von Assets in externes Zertifikat***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).**&#x200B;**
+Weitere Informationen finden Sie unter [***Hochladen von Assets in externes Zertifikat***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).****
 
 ### In diesem Update behobene Probleme {#issuesfixedinthisrelease}
 
@@ -1988,7 +2040,7 @@ Freigabedatum: 20. Juni 2019
 
 **Automatische Kuration des Inhalts**
 
-Mit Soziales Lernen können von Teilnehmern gepostete Inhalte auf zwei Arten kuratiert werden: **Keine Kuration** und **Manuelle Kuration**. In dieser Version hat Adobe Learning Manager das Soziale Lernen verbessert, indem AI-fähige Funktionen zur automatischen Kuration bereitgestellt wurden. Sobald der Inhalt veröffentlicht wurde, wird der Inhalt analysiert, um festzustellen, ob der Inhalt zu den Kenntnissen gehört, für die er veröffentlicht wurde. Basierend auf dem Confidence-Ergebnis wird der Inhalt entweder live veröffentlicht oder zur manuellen Kuration gesendet. Weitere Informationen finden Sie unter *[**&#x200B; Automatische Kuration &#x200B;**](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
+Mit Soziales Lernen können von Teilnehmern gepostete Inhalte auf zwei Arten kuratiert werden: **Keine Kuration** und **Manuelle Kuration**. In dieser Version hat Adobe Learning Manager das Soziale Lernen verbessert, indem AI-fähige Funktionen zur automatischen Kuration bereitgestellt wurden. Sobald der Inhalt veröffentlicht wurde, wird der Inhalt analysiert, um festzustellen, ob der Inhalt zu den Kenntnissen gehört, für die er veröffentlicht wurde. Basierend auf dem Confidence-Ergebnis wird der Inhalt entweder live veröffentlicht oder zur manuellen Kuration gesendet. Weitere Informationen finden Sie unter *[** Automatische Kuration **](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
 
 **Kenntnisse Kenntnisdomänen zuordnen**
 
@@ -2612,7 +2664,7 @@ Freigabedatum: 6. Dezember 2016.
 
 ### Verbesserungen {#enhancement}
 
-Als Teil dieses Updates stellt der Learning Manager einen Endpunkt [PATCH/users/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id), um Benutzer in einer Anwendung zu aktualisieren. Sie können auf diesen API-Endpunkt in der Administratorrolle zugreifen. Unter Verwendung **&#x200B;**&#x200B;Endpunkts können Sie die folgenden Informationen von Learning Manager-Benutzern aktualisieren:
+Als Teil dieses Updates stellt der Learning Manager einen Endpunkt [PATCH/users/{id}]&#x200B;(<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id), um Benutzer in einer Anwendung zu aktualisieren. Sie können auf diesen API-Endpunkt in der Administratorrolle zugreifen. Unter Verwendung **** Endpunkts können Sie die folgenden Informationen von Learning Manager-Benutzern aktualisieren:
 
 * Name
 * E-Mail
@@ -3122,7 +3174,7 @@ Das Exportieren von Registrierungsdaten schlug fehl, wenn einer der registrierte
 
 **E-Mail-Vorlagen**
 
-* Das Wort **partner,**, das zur Darstellung externer Gruppen verwendet wurde,**&#x200B;** ist **&#x200B;**&#x200B;aus dem Text und dem Titel der E-Mail-Vorlagen entfernt. Externe Gruppen werden nicht unbedingt Partner genannt.\
+* Das Wort **partner,**, das zur Darstellung externer Gruppen verwendet wurde,**** ist **** aus dem Text und dem Titel der E-Mail-Vorlagen entfernt. Externe Gruppen werden nicht unbedingt Partner genannt.\
   **Hinweis:** Diese aktualisierte Vorlage wird nicht angezeigt, wenn die Standardvorlage bereits geändert wurde. Um die aktualisierte Vorlage anzuzeigen, klicken Sie auf **Auf Original zurücksetzen** im Dialogfeld **Vorlagenvorschau**.
 
 * Auf die URL kann in der E-Mail, die von den Administratoren erhalten wird, nicht geklickt werden, wenn E-Mail-Vorlagen **Profil erstellt(Selbstregistrierung)** und **Profil erstellt(Externe/Partner)** bearbeitet werden. Dieses Problem wurde nun behoben.

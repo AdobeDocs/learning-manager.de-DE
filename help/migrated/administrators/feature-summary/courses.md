@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Erstellen von Kursinstanzen und Lernpfaden
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: dfb83c88a39401f5ae9048d71fd19ca71569a14c
+source-git-commit: 40cd12c186463517b20017229e44b6864056dedf
 workflow-type: tm+mt
-source-wordcount: '5803'
+source-wordcount: '5832'
 ht-degree: 51%
 
 ---
@@ -355,6 +355,11 @@ In der PDF-Datei können Sie dieselbe Gruppe von Teilnehmern anzeigen wie ein Ku
 Wenn Sie das PDF herunterladen, sehen Sie die Zeitzone (in UTC), die beim Erstellen des Kurses verwendet wurde.
 
 ## L1- und L3-Feedback hinzufügen {#addl1andl3feedback}
+
+>[!NOTE]
+>
+>Wenn diese Feedbackoption in Ihrem Konto nicht sichtbar ist, wurde Ihr Konto bereits auf das neue L1-Feedbackformular aktualisiert. Weitere Informationen finden Sie im [L1-Feedbackformular ](/help/migrated/administrators/feature-summary/l1-feedback-form.md).
+
 
 Während der Kurserstellung können Sie L1- und L3-Feedbackoptionen hinzufügen:
 

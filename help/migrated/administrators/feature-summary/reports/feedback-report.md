@@ -2,10 +2,10 @@
 description: Erfahren Sie, wie Sie den Feedbackbericht in Adobe Learning Manager aufrufen, herunterladen und interpretieren. Lernen Sie Berichtsspalten, Fragetypen, Antworten von Managern und Teilnehmern kennen und erfahren Sie, wie Feedback-Erkenntnisse die Bewertung von Schulungen und die kontinuierliche Verbesserung unterstützen.
 jcr-language: en_us
 title: Feedbackbericht in Adobe Learning Manager
-source-git-commit: e0553621dd67338d2433bb1f82af43cacc2d8b8c
+source-git-commit: b1225d4c1c322a75d97c813b0d97eb3229ffd35c
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 8%
+source-wordcount: '902'
+ht-degree: 7%
 
 ---
 
@@ -92,6 +92,16 @@ Die folgenden Spalten werden im Bericht auf Kontoebene basierend auf den vier Ar
 >[!NOTE]
 >
 >Der Bericht auf Kontoebene enthält auch alle aktiven Felder, die für Teilnehmer konfiguriert sind.
+
+## Lernobjektebenenbericht herunterladen
+
+So laden Sie den Bericht auf Lernobjektebene herunter:
+
+1. Melden Sie sich bei Adobe Learning Manager als Administrator an.
+2. Wählen Sie im linken Navigationsmenü **[!UICONTROL Kurse]** aus.
+3. Wählen Sie einen beliebigen Kurs aus, und wählen Sie dann **[!UICONTROL Kurs anzeigen]**.
+4. Wählen Sie **[!UICONTROL L1-Feedback]** aus.
+5. Wählen Sie **[!UICONTROL Bericht exportieren]** aus, und wählen Sie dann **[!UICONTROL OK]** aus.
 
 Die folgenden Spalten werden im Bericht auf Lernobjektebene angezeigt:
 
