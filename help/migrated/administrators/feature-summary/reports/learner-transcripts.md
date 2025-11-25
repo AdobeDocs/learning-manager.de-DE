@@ -2,9 +2,9 @@
 description: Mit den Teilnehmertranskripten in Adobe Learning Manager (ALM) können Administratoren den Fortschritt der Teilnehmer in Kursen, Modulen, Lernpfaden und Zertifizierungen überwachen. Es unterstützt Leistungsbewertungen, Compliance-Überwachung, Audits und externe Berichte. Der Bericht bietet eine vollständige Zusammenfassung des Engagements und der Leistung eines Teilnehmers.
 jcr-language: en_us
 title: Teilnehmertranskripte in Adobe Learning Manager
-source-git-commit: 6fceea6cc1f5fbe47e0dbb211cfb9e2de67957f6
+source-git-commit: ab60b3fddb4fbf405d0ec6d32bd6c06e60b14a06
 workflow-type: tm+mt
-source-wordcount: '4823'
+source-wordcount: '4818'
 ht-degree: 7%
 
 ---
@@ -63,21 +63,23 @@ In den Teilnehmertranskripten in Adobe Learning Manager werden Schulungen, Compl
 5. Wählen Sie **[!UICONTROL Neu generieren]**.
 6. Wählen Sie den Datumsbereich aus, für den das Transkript generiert werden soll. Sie können sowohl das Start- als auch das Enddatum ändern, indem Sie die Option **[!UICONTROL Datum wählen]** in der Dropdownliste für den Datumsbereich verwenden.
 7. Wählen Sie Folgendes aus:
-a. Wählen Sie die Namen der Teilnehmer im Abschnitt **[!UICONTROL Teilnehmer auswählen]** aus. Sie können Benutzer oder Benutzergruppen auswählen oder die E-Mail-Adressen der Teilnehmer, für die Sie Transkripte generieren möchten, kopieren und einfügen. Weitere Informationen finden Sie im Abschnitt [Teilnehmertranskript &#x200B;](#generate-learner-transcript-using-copy-paste) mithilfe der Funktion zum Kopieren und Einfügen generieren. Wenn keine Auswahl vorgenommen wird, ist standardmäßig die Option Alle Werte ausgewählt.
-b. Wählen Sie bestimmte Kataloge aus der Dropdown-Liste **[!UICONTROL Kataloge auswählen]** aus. Das Transkript wird nur für die angegebenen Kataloge heruntergeladen. Wenn keine Auswahl vorgenommen wird, ist standardmäßig die Option Alle Werte ausgewählt.
-c. Wählen Sie den **[!UICONTROL Registrierungsstatus]** aus. Dieses Dropdown-Menü enthält die folgenden Optionen:
+   1. Wählen Sie die Namen der Teilnehmer im Abschnitt **[!UICONTROL Teilnehmer auswählen]** aus. Sie können Benutzer oder Benutzergruppen auswählen oder die E-Mail-Adressen der Teilnehmer, für die Sie Transkripte generieren möchten, kopieren und einfügen. Weitere Informationen finden Sie im Abschnitt [Teilnehmertranskript ](#generate-learner-transcript-using-copy-paste) mithilfe der Funktion zum Kopieren und Einfügen generieren. Wenn keine Auswahl vorgenommen wird, ist standardmäßig die Option Alle Werte ausgewählt.
+   1. Wählen Sie bestimmte Kataloge aus der Dropdown-Liste **[!UICONTROL Kataloge auswählen]** aus. Das Transkript wird nur für die angegebenen Kataloge heruntergeladen. Wenn keine Auswahl vorgenommen wird, ist standardmäßig die Option Alle Werte ausgewählt.
+   1. Wählen Sie den **[!UICONTROL Registrierungsstatus]** aus. Dieses Dropdown-Menü enthält die folgenden Optionen:
 
-       * Alle auswählen
-       * Abgeschlossen
-       * wird ausgeführt
-       * nicht gestartet
-       * Registrierung aufgehoben
-   &#x200B;8. Erweiterte Optionen: Wählen Sie **[!UICONTROL Erweiterte Optionen]**, um die Transkripte herunterzuladen und Folgendes einzuschließen:
+      * Alles auswählen
+      * Abgeschlossen
+      * Wird ausgeführt
+      * Nicht begonnen
+      * Registrierung aufgehoben
 
-   a. Laden Sie Transkripte für Teilnehmer herunter, die aus einem Konto gelöscht wurden, indem Sie das Kontrollkästchen **[!UICONTROL Gelöschte Teilnehmer einschließen]** aktivieren.
-b. Laden Sie Modulebeneninformationen im Teilnehmertranskript herunter, indem Sie das Kontrollkästchen **[!UICONTROL Modulebeneninformationen aktivieren]** aktivieren. In diesem Fall werden Modulnamen und die für jedes Modul aufgewendete Zeit als Teil des Transkripts abgerufen, wenn diese Option aktiviert ist.
-c. Laden Sie Fertigkeitsdaten und Zusammenfassungsblätter herunter, indem Sie das Kontrollkästchen **[!UICONTROL Fertigkeitsdaten und Zusammenfassungsblätter einschließen]** aktivieren. Weitere Informationen finden Sie im Abschnitt Excel-Berichte.
-&#x200B;9. Sie können auch die Spalten auswählen, die in Ihrem Bericht aufgefüllt werden sollen. Dies bietet Flexibilität beim Herunterladen von Berichten mit bestimmten Spaltenwerten. Wählen Sie die Spalten im Dropdown-Menü aus.
+8. Erweiterte Optionen: Wählen Sie **[!UICONTROL Erweiterte Optionen]**, um die Transkripte herunterzuladen und Folgendes einzuschließen:
+
+   1. Herunterladen von Transkripten für Teilnehmer, die aus einem Konto gelöscht wurden, indem Sie das Kontrollkästchen **[!UICONTROL Gelöschte Teilnehmer einschließen]** aktivieren.
+   1. Laden Sie Informationen auf Modulebene in das Teilnehmertranskript herunter, indem Sie das Kontrollkästchen **[!UICONTROL Informationen auf Modulebene aktivieren]** aktivieren. In diesem Fall werden Modulnamen und die für jedes Modul aufgewendete Zeit als Teil des Transkripts abgerufen, wenn diese Option aktiviert ist.
+   1. Laden Sie Fertigkeitsdaten und Zusammenfassungsblätter herunter, indem Sie das Kontrollkästchen **[!UICONTROL Fertigkeitsdaten und Zusammenfassungsblätter einschließen]** aktivieren. Weitere Informationen finden Sie im Abschnitt Excel-Berichte.
+
+9. Sie können auch die Spalten auswählen, die in Ihrem Bericht aufgefüllt werden sollen. Dies bietet Flexibilität beim Herunterladen von Berichten mit bestimmten Spaltenwerten. Wählen Sie die Spalten im Dropdown-Menü aus.
 Transkripte werden generiert und als ZIP-Dateien auf Ihren Computer heruntergeladen, wenn die Kenntnisdaten nicht enthalten sind. Wenn das Kontrollkästchen &quot;Kenntnisdaten&quot; aktiviert ist, werden Transkripte generiert und als heruntergeladen. XLSX-Dateien.
 
 ### Teilnehmertranskript durch Kopieren und Einfügen erstellen
@@ -137,7 +139,7 @@ In den folgenden Spalten werden Aktivität, Fortschritt und Versuche erfasst.
 | Highest_Quiz_score_max | Die höchstmögliche Quizpunktzahl für das Modul. Es kann leer sein, wenn der Teilnehmer kein Quiz absolviert hat oder der Inhalt keine Quizze enthält. Die höchstmögliche Punktzahl, die dem höchsten Quizpunktzahlversuch eines Teilnehmers bei mehreren Versuchen zugeordnet ist. Dies ist nicht die höchste Punktzahl, die der Teilnehmer erreicht hat. Stattdessen wird die maximale Punktzahl erfasst, die beim Versuch möglich war, bei dem der Teilnehmer die höchste Punktzahl erzielte. |
 | Unternommene Versuche | Die Gesamtanzahl der bisherigen Versuche des Teilnehmers für dieses Modul. |
 | Maximal zulässige Versuche | Die maximale Anzahl der Versuche, die der Teilnehmer hat, um das Modul zu nutzen. |
-| Kommentare zur Einreichung | Kommentare vom Manager eines Teilnehmers, nachdem dieser ein Lernobjekt abgeschlossen hat.<br>Die vom Kursleiter bereitgestellten Übermittlungskommentardaten sind im Dateiübermittlungsmodul enthalten. Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/de/docs/learning-manager/using/instructor/modules#filesubmissionforactivitymodules">Module-Adobe Learning Manager.</a></br> |
+| Kommentare zur Einreichung | Kommentare vom Manager eines Teilnehmers, nachdem dieser ein Lernobjekt abgeschlossen hat.<br>Die vom Kursleiter bereitgestellten Übermittlungskommentardaten sind im Dateiübermittlungsmodul enthalten. Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/en/docs/learning-manager/using/instructor/modules#filesubmissionforactivitymodules">Module-Adobe Learning Manager.</a></br> |
 | Abschlussquelle | Bezieht sich auf den Ursprung oder die Methode, durch die der Abschluss eines Kurses, eines Lernpfads oder einer Zertifizierung durch einen Teilnehmer aufgezeichnet wird. Administratoren können so leichter nachvollziehen, wie der Abschluss erreicht oder im System protokolliert wurde. Die Spalte gibt an, ob der Abschluss selbst gemeldet wurde oder durch eine bestimmte Rolle oder Konfiguration erleichtert wurde. Hinweis: Wenn ein Teilnehmer bei VC Connector-Anwesenheitsarbeitsabläufen automatisch als anwesend markiert wird, zeigt die Quelle &quot;SELF, &lt;Teilnehmer-E-Mail-Adresse>&quot; an. |
 | Abschlusskommentar | Die Kommentare des Administrators, wenn er einen Teilnehmer als abgeschlossen markiert, nachdem er einen Kurs, eine Zertifizierung oder einen Lernpfad abgeschlossen hat. Der Administrator kann die Abschlusskommentare für einen oder mehrere Teilnehmer hinzufügen. |
 
@@ -262,7 +264,7 @@ Verfolgen Sie Teilnehmer mit bevorstehenden Fälligkeitsdaten für wichtige Kurs
 
 | Spalte | Beschreibung |
 |---|---|
-| Nachher | Gibt die Anzahl der Teilnehmer an, die Kenntnisse vor einem definierten Zeitraum (in Tagen) erworben haben, nach dessen Ablauf die Kenntnisse als veraltet gelten oder aktualisiert werden müssen. Nützlich, um Teilnehmer mit anstehenden oder abgelaufenen Qualifikationsleistungen zu identifizieren.<br>Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/de/docs/learning-manager/using/admin/skills-levels"> Qualifikationsstufen</a>. |
+| Nachher | Gibt die Anzahl der Teilnehmer an, die Kenntnisse vor einem definierten Zeitraum (in Tagen) erworben haben, nach dessen Ablauf die Kenntnisse als veraltet gelten oder aktualisiert werden müssen. Nützlich, um Teilnehmer mit anstehenden oder abgelaufenen Qualifikationsleistungen zu identifizieren.<br>Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/skills-levels"> Qualifikationsstufen</a>. |
 | Name | Vollständiger Name des Teilnehmers, dem die Kenntnisse zugewiesen sind. |
 | Managername | Name des Berichts-Managers des Teilnehmers. |
 | Zeilenbeschriftungen | Der spezifische Kenntnisname, der Teilnehmern in dieser Zeile zugewiesen ist. Wird als Gruppierungskopfzeile verwendet, um die Kenntnisdaten von Teilnehmern unter jeder Kenntniskategorie zusammenzufassen. |
