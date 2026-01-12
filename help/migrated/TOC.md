@@ -2,10 +2,10 @@
 user-guide-title: Leitfaden für Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Dokumentation für Adobe Learning Manager
-source-git-commit: 03484f1c95f7dbf1e06b7cb9559b1a6b012759c1
+source-git-commit: c57896abd8f00ca4a7b26c981eb490cd53ce437b
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 71%
+source-wordcount: '776'
+ht-degree: 70%
 
 ---
 
@@ -198,6 +198,7 @@ ht-degree: 71%
    * [Das automatische Popup mit L1-Feedback wird nicht angezeigt](kb/l1-feedback-auto-popup-does-not-appear.md)
    * [Bestimmte Kurse können beim Erstellen einer Zertifizierung nicht im Katalog angezeigt werden](kb/unable-to-view-certain-courses.md)
    * [Bestimmter Kurs kann beim Erstellen eines Lernprogramms nicht im Katalog angezeigt werden](kb/unable-view-course-catalog.md)
+   * [Fehlerbehebung für Salesforce-(SFDC-)Integrationsprobleme mit Adobe Learning Manager] (kb/troubleshoot-sfdc-integration-issues.md)
    * [Probleme beim Einstellen eines Lernprogramms](kb/issues-retiring-learning-program.md)
    * [Abzeichen kann nicht zugewiesen werden](kb/badge-not-assigned.md)
    * [Sitzung läuft in Learning Manager ab](kb/login-issue.md)
