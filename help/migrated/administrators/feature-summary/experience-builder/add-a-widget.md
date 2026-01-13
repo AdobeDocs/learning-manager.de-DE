@@ -87,8 +87,8 @@ So konfigurieren Sie das Kategorien-Widget:
 9. Geben Sie einen **[!UICONTROL Widget-Titel]** und eine **[!UICONTROL Widget-Beschreibung]** ein.
 10. Suchen Sie nach einem Katalog und wählen Sie ihn aus der **[!UICONTROL Kategoriequelle]** aus.
 
-   ![](assets/configure-calendar-widget.png)
-   _Konfigurieren Sie Widget-Optionen für Kategorien, um Widget-Titel und -Beschreibung festzulegen, und wählen Sie die Kategoriequelle aus_
+    ![](assets/configure-calendar-widget.png)
+    _Konfigurieren Sie Widget-Optionen für Kategorien, um Widget-Titel und -Beschreibung festzulegen, und wählen Sie die Kategoriequelle aus_
 
 11. Wählen Sie **[!UICONTROL Widget hinzufügen]**.
 
@@ -155,7 +155,7 @@ So konfigurieren Sie das Widget &quot;Kurse und Pfade&quot;:
 
 ![](assets/configure-course-paths.png)
 _Widget &quot;Kurse und Pfade&quot;, in dem Administratoren den Titel und die Beschreibung des Widgets festlegen und Kurse oder Lernpfade auswählen, die als interaktive Karten angezeigt werden sollen_
-11. Wählen Sie **[!UICONTROL Widget hinzufügen]**.
+&#x200B;11. Wählen Sie **[!UICONTROL Widget hinzufügen]**.
 
 Das Widget &quot;Kurse und Pfade&quot; wird der Seite hinzugefügt. Administratoren können andere Widgets hinzufügen und die Seite veröffentlichen.
 
@@ -184,14 +184,14 @@ So konfigurieren Sie das Inhaltsfeld-Widget:
 9. Geben Sie den Text in die **[!UICONTROL Aktionsschaltflächenbezeichnung]** ein und geben Sie einen Link an.
 10. Wählen Sie eine der Optionen für die Hintergrundfüllung aus:
 
-   * **[!UICONTROL Farbe]**: Wählen Sie die Farbe im Farbwähler aus, oder geben Sie den Farbcode in das Textfeld ein.
-   * **[!UICONTROL Image]**: Durchsuchen Sie ein Bild und laden Sie es hoch.
+    * **[!UICONTROL Farbe]**: Wählen Sie die Farbe im Farbwähler aus, oder geben Sie den Farbcode in das Textfeld ein.
+    * **[!UICONTROL Image]**: Durchsuchen Sie ein Bild und laden Sie es hoch.
 
 11. Passen Sie die Höhe des Felds mithilfe der Option **[!UICONTROL Höhe des Inhaltsfelds]** an.
 12. Wählen Sie die Textformatierungsoptionen aus.
 
-   ![](assets/configure-content-box.png)
-   _Anpassungsbildschirm für das Inhaltsfeld-Widget, auf dem Administratoren einen Titel, eine Beschreibung, eine Aktionsschaltflächenbezeichnung und einen Link eingeben können_
+    ![](assets/configure-content-box.png)
+    _Anpassungsbildschirm für das Inhaltsfeld-Widget, auf dem Administratoren einen Titel, eine Beschreibung, eine Aktionsschaltflächenbezeichnung und einen Link eingeben können_
 
 13. Wählen Sie **[!UICONTROL Widgets hinzufügen]**.
 
