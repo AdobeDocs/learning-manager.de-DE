@@ -2,9 +2,9 @@
 title: Widgets in Experience Builder hinzufügen und konfigurieren
 description: Erfahren Sie, wie Sie verschiedene Widgets in Experience Builder in Adobe Learning Manager hinzufügen, anpassen und konfigurieren. Dieses Handbuch behandelt häufig verwendete Widgets wie Kalender, Kategorien, Konformitätsstatus, Kurse und Pfade, Gamification, HTML-Inhalte, IFrames, soziales Lernen und mehr.
 jcr-language: en-us
-source-git-commit: 85eeebb33a67bf5528c88b26941345e00e98e0d3
+source-git-commit: 7fe4576e2a90b27f51d035f01a30ce3a818b95c2
 workflow-type: tm+mt
-source-wordcount: '2459'
+source-wordcount: '2483'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,8 @@ Administratoren fügen das Widget &quot;Kategorien&quot; zu einer Seite hinzu, u
 
 Lesen Sie [Kataloge](/help/migrated/administrators/feature-summary/catalogs.md) und [Recommendations](/help/migrated/recommendations-adobe-learning-manager.md) Artikel, um mehr über das Konfigurieren von Katalogen und Empfehlungen zu erfahren.
 
+<b>Hinweis</b>: Wenn &quot;Katalog&quot; im Widget &quot;Kategorien&quot; ausgewählt ist, wird die Liste standardmäßig nach Erstellungsdatum sortiert. Zuletzt erstellte Kataloge werden zuerst angezeigt.
+
 ### Kategorie-Widget hinzufügen
 
 In einem Finanzdienstleistungsunternehmen benötigen verschiedene Teams häufig Zugriff auf rollenspezifische Schulungen. Das Widget &quot;Kategorien&quot; hilft dabei, Lerninhalte in übersichtlichen, anklickbaren Kacheln zu organisieren, sodass Vertriebs- und CSM-Teams die benötigten Informationen schnell finden können.
@@ -85,8 +87,8 @@ So konfigurieren Sie das Kategorien-Widget:
 9. Geben Sie einen **[!UICONTROL Widget-Titel]** und eine **[!UICONTROL Widget-Beschreibung]** ein.
 10. Suchen Sie nach einem Katalog und wählen Sie ihn aus der **[!UICONTROL Kategoriequelle]** aus.
 
-    ![](assets/configure-calendar-widget.png)
-    _Konfigurieren Sie Widget-Optionen für Kategorien, um Widget-Titel und -Beschreibung festzulegen, und wählen Sie die Kategoriequelle aus_
+   ![](assets/configure-calendar-widget.png)
+   _Konfigurieren Sie Widget-Optionen für Kategorien, um Widget-Titel und -Beschreibung festzulegen, und wählen Sie die Kategoriequelle aus_
 
 11. Wählen Sie **[!UICONTROL Widget hinzufügen]**.
 
@@ -153,7 +155,7 @@ So konfigurieren Sie das Widget &quot;Kurse und Pfade&quot;:
 
 ![](assets/configure-course-paths.png)
 _Widget &quot;Kurse und Pfade&quot;, in dem Administratoren den Titel und die Beschreibung des Widgets festlegen und Kurse oder Lernpfade auswählen, die als interaktive Karten angezeigt werden sollen_
-&#x200B;11. Wählen Sie **[!UICONTROL Widget hinzufügen]**.
+11. Wählen Sie **[!UICONTROL Widget hinzufügen]**.
 
 Das Widget &quot;Kurse und Pfade&quot; wird der Seite hinzugefügt. Administratoren können andere Widgets hinzufügen und die Seite veröffentlichen.
 
@@ -182,14 +184,14 @@ So konfigurieren Sie das Inhaltsfeld-Widget:
 9. Geben Sie den Text in die **[!UICONTROL Aktionsschaltflächenbezeichnung]** ein und geben Sie einen Link an.
 10. Wählen Sie eine der Optionen für die Hintergrundfüllung aus:
 
-    * **[!UICONTROL Farbe]**: Wählen Sie die Farbe im Farbwähler aus, oder geben Sie den Farbcode in das Textfeld ein.
-    * **[!UICONTROL Image]**: Durchsuchen Sie ein Bild und laden Sie es hoch.
+   * **[!UICONTROL Farbe]**: Wählen Sie die Farbe im Farbwähler aus, oder geben Sie den Farbcode in das Textfeld ein.
+   * **[!UICONTROL Image]**: Durchsuchen Sie ein Bild und laden Sie es hoch.
 
 11. Passen Sie die Höhe des Felds mithilfe der Option **[!UICONTROL Höhe des Inhaltsfelds]** an.
 12. Wählen Sie die Textformatierungsoptionen aus.
 
-    ![](assets/configure-content-box.png)
-    _Anpassungsbildschirm für das Inhaltsfeld-Widget, auf dem Administratoren einen Titel, eine Beschreibung, eine Aktionsschaltflächenbezeichnung und einen Link eingeben können_
+   ![](assets/configure-content-box.png)
+   _Anpassungsbildschirm für das Inhaltsfeld-Widget, auf dem Administratoren einen Titel, eine Beschreibung, eine Aktionsschaltflächenbezeichnung und einen Link eingeben können_
 
 13. Wählen Sie **[!UICONTROL Widgets hinzufügen]**.
 
