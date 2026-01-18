@@ -3,9 +3,9 @@ description: Referenzhandbuch für Integrationsadministratoren zum Migrieren ein
 jcr-language: en_us
 title: Migrationshandbuch
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: acef8666ce207fdb81011265814b4d4278da7406
+source-git-commit: 8801cee7914c7bea849d47f272b19996a5e28f4d
 workflow-type: tm+mt
-source-wordcount: '4438'
+source-wordcount: '4483'
 ht-degree: 59%
 
 ---
@@ -27,6 +27,10 @@ Von heute an können Administratoren des Unternehmens auf die Migrationsfunktion
 ## Migrationsvorgang {#apidescription}
 
 In diesem Abschnitt werden die Voraussetzungen für die Migration, die wichtigsten Schritte des Migrationsvorgangs, Sprints, Spezifikationen und Schritte zur Daten- und Inhaltsmigration wie folgt erläutert:
+
+### Wichtiger Hinweis zur Migration
+
+Sie sollten sich bewusst sein, dass Migrationszeitpläne stark von der Qualität und Größe Ihrer Daten abhängen. Wenn Sie während des Onboarding-Prozesses eine Migration benötigen, planen Sie diese Aktivität rechtzeitig im Voraus und arbeiten Sie eng mit dem Adobe Learning Manager-Onboarding-Team zusammen, um Verzögerungen zu vermeiden.
 
 ### Voraussetzungen {#prerequisites}
 
