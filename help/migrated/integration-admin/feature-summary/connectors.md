@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Learning Manager-Connectors
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 5d50bd56b6663b26fc6db0ff33d19ad809e9bf6a
+source-git-commit: 32cd456a3ed4a4a8fa674979e2e4e67ea83bdc68
 workflow-type: tm+mt
-source-wordcount: '15810'
+source-wordcount: '15789'
 ht-degree: 59%
 
 ---
@@ -201,7 +201,7 @@ Wenn Sie das Paket installieren möchten, müssen Sie zunächst das vorhandene P
 >
 >Die Adobe Learning Manager-App wird nur in der Salesforce-Lightning-Ansicht unterstützt.
 
-1. Starten Sie die [Lern-Manager-Paket-URL &#x200B;](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WOQ).
+1. Starten Sie die [Lern-Manager-Paket-URL ](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WOQ).
 1. Klicken Sie auf der Seite **Anmeldung** auf **[!UICONTROL Benutzerdefinierte Domäne verwenden]**.
 1. Geben Sie die Paket-URL ein und klicken Sie auf **[!UICONTROL Weiter]**. Auf der Installationsseite muss die Option Nur für Administratoren installieren ausgewählt sein. Ändern Sie diese Option nicht.
 1. Klicken Sie auf **[!UICONTROL Installieren]**. Klicken Sie nach der Installation des Pakets auf **[!UICONTROL Fertig]**. Sie werden zur Seite „Installierte Pakete“ geleitet, auf der das installierte Adobe Learning Manager-Paket angezeigt wird.
@@ -711,7 +711,7 @@ Der getAbstract-Connector kann von Unternehmenskunden von getAbstract.com verwen
    Für jede Art von Synchronisierung gilt: Damit sie funktioniert, muss der Benutzer-Feed für die in der Synchronisierung angegebenen Daren im FTP-Ordner für getAbstract FTP vorhanden sein.
 
    Das folgende Excel-Arbeitsblatt ist ein Beispiel für einen Benutzer-Feed aus getAbstract. Der Dateiname muss dem folgenden Format entsprechen: **report_export_yyyy_MM_dd_HHmmss.xlsx** oder **report_export_yyyy_MM_dd.xlsx**.
-   Excel-Beispiel für [getAbstract-Benutzer-Feed &#x200B;](assets/report-export-20170401175342.xlsx)
+   Excel-Beispiel für [getAbstract-Benutzer-Feed ](assets/report-export-20170401175342.xlsx)
 
 ## Harvard ManageMentor-Connector {#hmmconnector}
 
@@ -2158,7 +2158,7 @@ Das Standardangebot besteht darin, die native Version von Adobe Learning Manager
 
 **Premium-Angebot**
 
-Mit dem Premium-Angebot können Benutzer eine Headless-Schnittstelle erstellen, die vom **[!UICONTROL Training Data Access]**-Connector konfiguriert wird. Dadurch können Benutzer Echtzeitdaten zu Kursen und Lernpfaddetails wie Name, Beschreibung, Autor, Kenntnisse, Dauer usw. abrufen. In Szenarien mit gemischtem Lernen erhalten Sie außerdem Sitzplatzbeschränkungen in Echtzeit, besetzte Plätze, Wartelistenbeschränkungen und Wartelistenzahlen. Kunden können diese APIs verwenden, um Such- und Filterfunktionen und eine vollständige Kurszusammenfassung für nicht angemeldete Teilnehmer zu erstellen.
+Mit dem Premium-Angebot können Benutzer eine Headless-Schnittstelle erstellen, die vom **[!UICONTROL Training Data Access]**-Connector konfiguriert wird. In Szenarien mit gemischtem Lernen erhalten Sie außerdem Sitzplatzbeschränkungen in Echtzeit, besetzte Plätze, Wartelistenbeschränkungen und Wartelistenzahlen. Kunden können diese APIs verwenden, um Such- und Filterfunktionen und eine vollständige Kurszusammenfassung für nicht angemeldete Teilnehmer zu erstellen.
 
 Kunden können ein Premium-Abo erwerben, um dieses hochgradig skalierbare, nicht angemeldete Erlebnis zu ermöglichen.
 
@@ -2235,7 +2235,7 @@ Nachdem ein Autor die Preise für verschiedene Kurse, Lernpfade oder Zertifizier
 
 >[!NOTE]
 >
->In der Adobe Learning Manager-Version vom März 2024 haben wir Unterstützung für [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=de) eingeführt.
+>In der Adobe Learning Manager-Version vom März 2024 haben wir Unterstützung für [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=en) eingeführt.
 
 
 1. Klicken Sie auf **[!UICONTROL Schulungsmetadaten exportieren]** > **[!UICONTROL On Demand]**.
