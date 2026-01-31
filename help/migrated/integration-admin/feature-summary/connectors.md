@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Learning Manager-Connectors
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 32cd456a3ed4a4a8fa674979e2e4e67ea83bdc68
+source-git-commit: 795f465a0a2a96a8f1b5bc8b120736c25b412303
 workflow-type: tm+mt
 source-wordcount: '15789'
 ht-degree: 59%
@@ -201,7 +201,7 @@ Wenn Sie das Paket installieren möchten, müssen Sie zunächst das vorhandene P
 >
 >Die Adobe Learning Manager-App wird nur in der Salesforce-Lightning-Ansicht unterstützt.
 
-1. Starten Sie die [Lern-Manager-Paket-URL &#x200B;](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WOQ).
+1. Starten Sie die [Lern-Manager-Paket-URL ](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WOQ).
 1. Klicken Sie auf der Seite **Anmeldung** auf **[!UICONTROL Benutzerdefinierte Domäne verwenden]**.
 1. Geben Sie die Paket-URL ein und klicken Sie auf **[!UICONTROL Weiter]**. Auf der Installationsseite muss die Option Nur für Administratoren installieren ausgewählt sein. Ändern Sie diese Option nicht.
 1. Klicken Sie auf **[!UICONTROL Installieren]**. Klicken Sie nach der Installation des Pakets auf **[!UICONTROL Fertig]**. Sie werden zur Seite „Installierte Pakete“ geleitet, auf der das installierte Adobe Learning Manager-Paket angezeigt wird.
@@ -711,7 +711,7 @@ Der getAbstract-Connector kann von Unternehmenskunden von getAbstract.com verwen
    Für jede Art von Synchronisierung gilt: Damit sie funktioniert, muss der Benutzer-Feed für die in der Synchronisierung angegebenen Daren im FTP-Ordner für getAbstract FTP vorhanden sein.
 
    Das folgende Excel-Arbeitsblatt ist ein Beispiel für einen Benutzer-Feed aus getAbstract. Der Dateiname muss dem folgenden Format entsprechen: **report_export_yyyy_MM_dd_HHmmss.xlsx** oder **report_export_yyyy_MM_dd.xlsx**.
-   Excel-Beispiel für [getAbstract-Benutzer-Feed &#x200B;](assets/report-export-20170401175342.xlsx)
+   Excel-Beispiel für [getAbstract-Benutzer-Feed ](assets/report-export-20170401175342.xlsx)
 
 ## Harvard ManageMentor-Connector {#hmmconnector}
 
@@ -2145,7 +2145,7 @@ Wenn Teilnehmende auf &quot;Kurs&quot;, &quot;Zertifikat&quot; oder &quot;Lernpf
 
 ### Nicht angemeldeter Benutzer {#non-logged-in-experience}
 
-Das nicht angemeldete Erlebnis ermöglicht es Ihnen, ein Echtzeit-Erlebnis für nicht angemeldete Benutzer zu erstellen. Beispielsweise dient ein nicht angemeldetes Erlebnis als Landingpage für Marketing-Kampagnen, um Anmeldungen zu fördern.
+Das nicht angemeldete Erlebnis ermöglicht es Ihnen, Lernerlebnisse für nicht angemeldete Benutzer zu erstellen. Beispielsweise dient ein nicht angemeldetes Erlebnis als Landingpage für Marketing-Kampagnen, um Anmeldungen zu fördern.
 
 Das nicht angemeldete Erlebnis in Adobe Learning Manager kann mithilfe des Connectors **[!UICONTROL Training Data Access]** konfiguriert werden. Der Connector bietet die folgenden Angebote:
 
@@ -2235,7 +2235,7 @@ Nachdem ein Autor die Preise für verschiedene Kurse, Lernpfade oder Zertifizier
 
 >[!NOTE]
 >
->In der Adobe Learning Manager-Version vom März 2024 haben wir Unterstützung für [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=de) eingeführt.
+>In der Adobe Learning Manager-Version vom März 2024 haben wir Unterstützung für [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=en) eingeführt.
 
 
 1. Klicken Sie auf **[!UICONTROL Schulungsmetadaten exportieren]** > **[!UICONTROL On Demand]**.
