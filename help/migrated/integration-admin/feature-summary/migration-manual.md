@@ -3,10 +3,10 @@ description: Referenzhandbuch für Integrationsadministratoren zum Migrieren ein
 jcr-language: en_us
 title: Migrationshandbuch
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: 8801cee7914c7bea849d47f272b19996a5e28f4d
+source-git-commit: a620f70fbdfc01eb089c70586a548288c8b8290b
 workflow-type: tm+mt
-source-wordcount: '4483'
-ht-degree: 59%
+source-wordcount: '4600'
+ht-degree: 57%
 
 ---
 
@@ -411,7 +411,15 @@ Sie müssen die folgenden Abhängigkeiten für CSV-Dateien während des Imports 
 * learning_program_instance_course_instance.csv ist von learning_program.csv, learning_program_instance.csv und course_instance.csv abhängig
 * certification_course.csv ist von certification.csv und von course.csv abhängig
 * certification_commit.csv ist von certification.csv und certification_course.csv abhängig
-* certification_enrollment.csv ist von certification.csv, certification_course.csv und certification_enrollment.csv abhängig
+* „certification_enrollment.csv“ ist von „certification.csv“, „certification_course.csv“ und „certification_enrollment.csv“ abhängig
+
+### Reihenfolge von Kursen im Lernprogramm in Migrations-CSVs
+
+In früheren Versionen der Migrationsspezifikationen enthielt die Datei learning_program_course.csv eine Bestellspalte, in der Sie darauf hinweisen, dass Sie die Reihenfolge der Kurse in einem Lernprogramm während der Migration steuern können.
+
+Adobe Learning Manager verwendet diese Spalte nicht mehr. Die Kursreihenfolge in einem Lernprogramm kann nicht über Migrations-CSVs gesteuert werden, und das System ignoriert alle in der Spalte &quot;Reihenfolge&quot; angegebenen Werte, selbst wenn Sie **orderEnforce** auf &quot;true&quot; setzen.
+
+Um Verwechslungen zu vermeiden, wurde die Bestellspalte aus den offiziellen CSV-Spezifikationen entfernt. Wenn Sie über vorhandene Skripte oder Tools verfügen, die diese Spalte noch generieren, können Sie sie sicher ablegen. Dies hat keine Auswirkungen darauf, wie Lernprogramme erstellt oder angezeigt werden.
 
 ## Migrationsverfahren {#migrationprocedure}
 
