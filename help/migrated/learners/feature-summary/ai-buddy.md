@@ -2,17 +2,22 @@
 description: Teilnehmer-KI-Assistent (Beta) ist eine Gen-KI-gestützte Chat-Ergänzung in Adobe Learning Manager, die Teilnehmern dabei hilft, schnelle, präzise Antworten auf ihre zugewiesenen Lerninhalte zu erhalten. Mithilfe von Anfragen in natürlicher Sprache können Teilnehmer zielgerichtete Antworten mit klaren Zitaten sofort abrufen. So ist es ganz einfach, die richtigen Informationen zu finden, die Quellen zu verifizieren und effizient zu lernen, ohne den gesamten Kurs durchsuchen zu müssen.
 jcr-language: en_us
 title: Teilnehmer-KI-Assistent (Beta) in Adobe Learning Manager
-source-git-commit: c7552519ec78a8cec7b8142e5ba3b357694afd18
+exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
+source-git-commit: 0ef69eb5d95c4203a80cd5b4874b99855ebedcc4
 workflow-type: tm+mt
-source-wordcount: '2148'
+source-wordcount: '2146'
 ht-degree: 0%
 
 ---
 
-
 # Einführung
 
 Mit dem AI Assistant (Beta) für Teilnehmer können sie schnell Antworten auf die zugewiesenen Lerninhalte finden, ohne sich durch ganze Kurse bewegen zu müssen. Sie können Fragen in verständlicher Sprache stellen und erhalten präzise, zielgerichtete Antworten mit Quell-Links zu den relevanten Kursinhalten.
+
+>[!IMPORTANT]
+>
+>Teilnehmer-KI-Assistent befindet sich derzeit in der Betaversion und wird nach einer schrittweisen Einführung veröffentlicht. Der Zugriff kann je nach Benutzer variieren.
+
 
 ## Was ist der KI-Assistent?
 
@@ -173,15 +178,13 @@ Der AI-Assistent für Teilnehmer beantwortet Fragen nur mit den Lerninhalten, di
 
 * Der Assistent verwendet Inhalte aus internen Katalogen, die Ihr Administrator für den Teilnehmer-AI-Assistenten aktiviert.
 
-* Wenn Sie keinen Zugriff auf einen Kurs, eine Arbeitshilfe oder ein Lernobjekt haben, verwendet der Assistent diese nicht zum Generieren von Antworten.
-
 * Der Assistent respektiert Ihre Rolle, Gruppenmitgliedschaft und Katalogberechtigungen beim Abrufen von Informationen.
 
 ### Welche Inhalte nutzt der AI Assistant nicht?
 
 Der AI-Assistent für Teilnehmer beschränkt Antworten auf Ihren zugewiesenen Lernbereich.
 
-* Es werden keine Inhalte aus freigegebenen, erworbenen, externen oder anderen nicht internen Katalogen verwendet.
+* Es werden keine Inhalte aus den Katalogen &quot;Standard&quot;, &quot;Freigegeben&quot;, &quot;Erworben&quot;, &quot;Extern&quot; oder anderen nicht internen Katalogen verwendet.
 
 * Es ruft keine Informationen aus Inhaltsbibliotheken von Drittanbietern wie LinkedIn Learning oder Go1 ab.
 
