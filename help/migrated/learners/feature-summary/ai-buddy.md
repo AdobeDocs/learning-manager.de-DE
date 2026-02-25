@@ -3,25 +3,25 @@ description: Teilnehmer-KI-Assistent (Beta) ist eine Gen-KI-gestützte Chat-Erg�
 jcr-language: en_us
 title: Teilnehmer-KI-Assistent (Beta) in Adobe Learning Manager
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 0ef69eb5d95c4203a80cd5b4874b99855ebedcc4
+source-git-commit: e009abe66258700cf28d3cf212a2d086689e179c
 workflow-type: tm+mt
-source-wordcount: '2146'
+source-wordcount: '2150'
 ht-degree: 0%
 
 ---
 
-# Einführung
+# Teilnehmerassistent
 
-Mit dem AI Assistant (Beta) für Teilnehmer können sie schnell Antworten auf die zugewiesenen Lerninhalte finden, ohne sich durch ganze Kurse bewegen zu müssen. Sie können Fragen in verständlicher Sprache stellen und erhalten präzise, zielgerichtete Antworten mit Quell-Links zu den relevanten Kursinhalten.
+Der Teilnehmer-KI-Assistent (Beta) für Teilnehmer hilft ihnen dabei, schnell Antworten auf die zugewiesenen Lerninhalte zu finden, ohne ganze Kurse durchsuchen zu müssen. Sie können Fragen in verständlicher Sprache stellen und erhalten präzise, zielgerichtete Antworten mit Quell-Links zu den relevanten Kursinhalten.
 
 >[!IMPORTANT]
 >
 >Teilnehmer-KI-Assistent befindet sich derzeit in der Betaversion und wird nach einer schrittweisen Einführung veröffentlicht. Der Zugriff kann je nach Benutzer variieren.
 
 
-## Was ist der KI-Assistent?
+## Was ist der Teilnehmer-KI-Assistent?
 
-AI Assistant ist ein Gen-KI-gestützter Chat-Begleiter in Adobe Learning Manager, der schnelle, präzise Antworten auf Teilnehmerfragen bietet, indem er die vertrauenswürdigen Lerninhalte verwendet, die ihm in Adobe Learning Manager zur Verfügung stehen. Es enthält auch Zitate, sodass die Teilnehmer immer wissen, aus welcher Quelle die Informationen stammen.
+Teilnehmer-KI-Assistent ist ein Gen-KI-gestützter Chat-Begleiter in Adobe Learning Manager, der schnelle, präzise Antworten auf Teilnehmerfragen mithilfe der vertrauenswürdigen Lerninhalte bietet, die ihm in Adobe Learning Manager zur Verfügung stehen. Es enthält auch Zitate, sodass die Teilnehmer immer wissen, aus welcher Quelle die Informationen stammen.
 
 ## Warum es verwenden?
 
