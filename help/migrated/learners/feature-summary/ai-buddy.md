@@ -188,7 +188,7 @@ So starten Sie den KI-Assistenten:
 
 1. Melden Sie sich bei Adobe Learning Manager als Teilnehmer an.
 
-2. Wählen **auf der Startseite**Ask AI Assistant) aus.
+2. Wählen **auf der Startseite**&#x200B;Ask AI Assistant) aus.
    ![Auf der Teilnehmer-Startseite wird Ask AI Assistant angezeigt, um das Bedienfeld Learner AI Assistant auszuwählen und zu öffnen](assets/ask-ai-assistant.png)
 
 3. Wenn der Bildschirm **Teilnehmer-KI** angezeigt wird, wählen Sie **Erste Schritte**.
