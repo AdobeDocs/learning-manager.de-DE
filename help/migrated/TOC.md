@@ -2,10 +2,10 @@
 user-guide-title: Leitfaden für Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Dokumentation für Adobe Learning Manager
-source-git-commit: 3534061465070cc98747c8273e1a005707e5a22b
+source-git-commit: 922e6bed551baca8ef0e9f6b8124fb26fcce97e6
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 71%
+source-wordcount: '784'
+ht-degree: 70%
 
 ---
 
@@ -25,7 +25,8 @@ ht-degree: 71%
    * [Versionshinweise](release-note/release-notes.md)
    * [Systemanforderungen](system-requirements.md)
    * [Adobe Learning Manager-App für Microsoft Teams](adobe-learning-manager-app-microsoft-teams.md)
-   * [Learning Manager – Konformität mit der DSGVO](kb/prime-gdpr.md)
+   * [Adobe Learning Manager-Konformität mit der DSGVO](kb/prime-gdpr.md)
+  <!-- * [Adobe Learning Manager administrative account lifecyle](/help/migrated/alm-administrative-lifecycle.md) -->
    * [Barrierefreiheit in Learning Manager](accessibility-learning-manager.md)
    * [Unterstützung für benutzerdefinierte Domäne](custom-domain.md)
    * [Übergang vom Adobe FTP Manager](transition-from-ftp-manager.md)
@@ -50,19 +51,19 @@ ht-degree: 71%
    * [Standorte für Klassenzimmer hinzufügen](administrators/feature-summary/classroom.md)
    * [Erstellen von Kursinstanzen und Lernpfaden](administrators/feature-summary/courses.md)
    * Experience Builder in Adobe Learning Manager {#experience-builder}
-      * [Überblick](/help/migrated/administrators/feature-summary/experience-builder/overview.md)
+      * [Übersicht](/help/migrated/administrators/feature-summary/experience-builder/overview.md)
       * [Kernkomponenten von Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/components-in-experience-builder.md)
       * Seiten in Experience Builder. {#pages-in-experience-builder}
-         * [Überblick](/help/migrated/administrators/feature-summary/experience-builder/pages-overview.md)
+         * [Übersicht](/help/migrated/administrators/feature-summary/experience-builder/pages-overview.md)
          * [Benutzerdefinierte Seite in Experience Builder erstellen](/help/migrated/administrators/feature-summary/experience-builder/create-a-page.md)
       * Widgets in Experience Builder {#widgets-in-experience-builder}
-         * [Überblick](/help/migrated/administrators/feature-summary/experience-builder/widget-overview.md)
+         * [Übersicht](/help/migrated/administrators/feature-summary/experience-builder/widget-overview.md)
          * [Widgets hinzufügen und konfigurieren](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md)
       * Menü in Experience Builder {#menu-in-experience-builder}
-         * [Überblick](/help/migrated/administrators/feature-summary/experience-builder/menu-overview.md)
+         * [Übersicht](/help/migrated/administrators/feature-summary/experience-builder/menu-overview.md)
          * [Menü erstellen](/help/migrated/administrators/feature-summary/experience-builder/create-a-menu.md)
       * Anpassung in Experience Builder {#customization-in-experience-builder}
-         * [Überblick](/help/migrated/administrators/feature-summary/experience-builder/customization-overview.md)
+         * [Übersicht](/help/migrated/administrators/feature-summary/experience-builder/customization-overview.md)
          * [Experience Builder anpassen](/help/migrated/administrators/feature-summary/experience-builder/customization-experience-builder.md)
       * [Richtlinien und Einschränkungen von Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/experience-builder-guidelines.md)
    * Inhalts-Marketplace {#content-marketplace}
@@ -163,7 +164,7 @@ ht-degree: 71%
    * [Benutzerbenachrichtigungen](learners/feature-summary/user-notifications.md)
    * [Ankündigungen](learners/feature-summary/announcements.md)
    * [Verwaltung von Wartelisten und Anwesenheit](learners/feature-summary/waitlist-attendance-management.md)
-   * [KI-Assistent für Teilnehmende](learners/feature-summary/ai-buddy.md)
+   * [KI-Assistent für Teilnehmende](learners/feature-summary/learner-ai-assistant.md)
    * [KI-gestützte Suche in Adobe Learning Manager](/help/migrated/learners/feature-summary/advanced-search.md)
    * [Learning Manager-App für Salesforce](learners/feature-summary/sfdc-app.md)
    * [Adobe Connect-Integration](learners/feature-summary/adobeconnect-integration.md)
