@@ -51,7 +51,7 @@ Der Administrator steuert die Authentifizierungsmethode, die für alle internen 
 >
 >Wenn die Anmeldemethode für interne Benutzer auf Adobe ID festgelegt ist, verliert das Unternehmen die Möglichkeit, eine Multi-Faktor-Authentifizierung durchzusetzen, die Komplexität des Kennworts zu steuern oder den Zugriff sofort zu widerrufen, wenn ein Benutzer das Programm verlässt. Dies erhöht das Risiko eines unberechtigten Zugriffs erheblich.
 
-Weitere Informationen finden Sie unter [Benutzerdefinierte Rollen](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/custom-role).
+Weitere Informationen finden Sie unter [Benutzerdefinierte Rollen](https://experienceleague.adobe.com/de/docs/learning-manager/using/admin/custom-role).
 
 ### Multi-Factor Authentication (MFA)
 
@@ -168,7 +168,7 @@ Die Verwaltungseinstellungen in Adobe Learning Manager können von Kunden konfig
 
 Weitere Informationen zu den Sicherheitspraktiken von Adobe Learning Manager finden Sie unter:
 
-**Referenz:** [Überblick über die Sicherheit von Adobe Learning Manager (PDF)](https://experienceleague.adobe.com/docs/learning-manager/assets/alm-security-whitepaper-2024.pdf)
+**Referenz:** [Überblick über die Sicherheit von Adobe Learning Manager (PDF)](https://experienceleague.adobe.com/docs/learning-manager/assets/alm-security-whitepaper-2024.pdf?lang=de)
 
 ## Dokumentenverwaltung
 
