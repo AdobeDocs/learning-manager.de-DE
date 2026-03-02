@@ -27,7 +27,7 @@ In der folgenden Tabelle sind die FedRAMP-Kontoebenen den spezifischen Rollen zu
 
 Adobe Learning Manager verwendet ein rollenbasiertes Zugriffssteuerungsmodell (RBAC) zur Verwaltung des administrativen Zugriffs. Administratorrollen werden nur von autorisierten Administratoren zugewiesen.
 
-Weitere Informationen finden Sie unter [Benutzerdefinierte Rollen in Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/custom-role).
+Weitere Informationen finden Sie unter [Benutzerdefinierte Rollen in Adobe Learning Manager](https://experienceleague.adobe.com/de/docs/learning-manager/using/admin/custom-role).
 
 ## Identitätstypen und empfohlene Authentifizierung
 
@@ -41,12 +41,12 @@ Adobe Admin Console unterstützt drei Identitätstypen für Administratorkonten.
 
 Weitere Informationen finden Sie unter:
 
-* [Identitätstyp](https://helpx.adobe.com/enterprise/using/admin-console.html)
-* [Sichere Benutzerauthentifizierung und Kennwörter](https://helpx.adobe.com/enterprise/using/authentication-settings.html)
+* [Identitätstyp](https://helpx.adobe.com/de/enterprise/using/admin-console.html)
+* [Sichere Benutzerauthentifizierung und Kennwörter](https://helpx.adobe.com/de/enterprise/using/authentication-settings.html)
 
 ## Rollenzuweisung und Zugriffskontrolle
 
-Der Zugriff auf Administratorkonten in Adobe Learning Manager wird durch die explizite [Rollenzuweisung](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/user-management/add-users-user-groups) durch einen bestehenden Administrator gesteuert. Zu den Hauptmerkmalen eines sicheren administrativen Zugriffs gehören:
+Der Zugriff auf Administratorkonten in Adobe Learning Manager wird durch die explizite [Rollenzuweisung](https://experienceleague.adobe.com/de/docs/learning-manager/using/admin/user-management/add-users-user-groups) durch einen bestehenden Administrator gesteuert. Zu den Hauptmerkmalen eines sicheren administrativen Zugriffs gehören:
 
 * Administratorrollen werden nur von autorisierten Administratoren zugewiesen.
 * Der Zugriff erfolgt rollenbasiert und kann entsprechend den zugewiesenen Berechtigungen erfolgen.
@@ -69,12 +69,12 @@ So erzwingen Sie 2FA in der Adobe Admin Console:
 >
 >Adobe empfiehlt, 2FA zu erzwingen und nicht als Option für Anwender zu belassen. 2FA kann bis zu 24 Stunden dauern. Für Federated ID-Benutzer erzwingen Sie MFA bei Ihrem Identitätsanbieter.
 
-Weitere Informationen finden Sie unter [Sichere Benutzerauthentifizierung](https://helpx.adobe.com/enterprise/using/authentication-settings.html).
+Weitere Informationen finden Sie unter [Sichere Benutzerauthentifizierung](https://helpx.adobe.com/de/enterprise/using/authentication-settings.html).
 
 
 ## Als Administrator anmelden
 
-ALM [Administratoren](https://experienceleague.adobe.com/en/docs/learning-manager/using/get-started/getting-started-admin) melden sich direkt bei der ALM-Plattform an, indem sie Organisationsanmeldeinformationen verwenden, die über die Admin Console verwaltet werden.
+ALM [Administratoren](https://experienceleague.adobe.com/de/docs/learning-manager/using/get-started/getting-started-admin) melden sich direkt bei der ALM-Plattform an, indem sie Organisationsanmeldeinformationen verwenden, die über die Admin Console verwaltet werden.
 
 ### Administratorrolle zuweisen
 
@@ -89,7 +89,7 @@ So weisen Sie die Administratorrolle in ALM zu:
 
 Mit benutzerdefinierten Administratorrollen können Kunden Verwaltungsaufgaben delegieren und gleichzeitig die zentrale Kontrolle über Berechtigungen auf Kontoebene behalten. Benutzerdefinierte Administratoren können auf bestimmte Benutzergruppen oder Kataloge beschränkt werden.
 
-Weitere Informationen finden Sie unter [Benutzer und Benutzergruppen hinzufügen](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/user-management/add-users-user-groups).
+Weitere Informationen finden Sie unter [Benutzer und Benutzergruppen hinzufügen](https://experienceleague.adobe.com/de/docs/learning-manager/using/admin/user-management/add-users-user-groups).
 
 ## Anmeldemethoden und SSO konfigurieren
 
@@ -100,7 +100,7 @@ ALM-Administratoren steuern die Anmeldemethoden, die allen Benutzern über Einst
 
 Adobe empfiehlt, Federated ID/SAML 2.0 SSO als Anmeldemethode für alle internen Benutzer zu verwenden. Dies stellt sicher, dass die Authentifizierung vollständig vom Identitätsanbieter Ihrer Organisation kontrolliert wird, sodass eine zentralisierte MFA-Durchsetzung und sofortiger Kontowiderruf beim Abgang des Benutzers möglich sind.
 
-Weitere Informationen finden Sie unter [Einstellungen](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/settings).
+Weitere Informationen finden Sie unter [Einstellungen](https://experienceleague.adobe.com/de/docs/learning-manager/using/admin/settings).
 
 ## Empfohlene sichere Standardwerte bei der Bereitstellung
 
@@ -140,7 +140,7 @@ Verwaltungskonten werden zur Ausführung täglicher operativer Aufgaben verwende
 
 Beim Ausführen von Verwaltungsaktionen müssen Administratoren die internen Zugriffskontroll- und Änderungsverwaltungsrichtlinien ihrer Organisation befolgen.
 
-Siehe [Häufig gestellte Fragen für Adobe Learning Manager-Administratoren](https://experienceleague.adobe.com/en/docs/learning-manager/using/faq/frequently-asked-questions-for-administrators)
+Siehe [Häufig gestellte Fragen für Adobe Learning Manager-Administratoren](https://experienceleague.adobe.com/de/docs/learning-manager/using/faq/frequently-asked-questions-for-administrators)
 
 
 ### Rollenhierarchie und Delegierung
@@ -161,7 +161,7 @@ Die folgenden Praktiken sollten von Organisationen befolgt werden, die fortlaufe
 * **Mindest ständiger Zugriff**: Verwenden Sie keine Administratorkonten der obersten Ebene für Routineaufgaben. Vollständigen Administratorzugriff für Aufgaben reservieren, die dies erfordern.
 * **Sitzungssicherheit**: Konfigurieren Sie die maximale Sitzungslebensdauer und die maximale Leerlaufzeit in &quot;Admin Console&quot; > &quot;Einstellungen&quot; > &quot;Erweiterte Einstellungen&quot;, um die Belastung durch unbeaufsichtigte Sitzungen zu begrenzen.
 
-Weitere Informationen finden Sie unter [Übersicht über die Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html).
+Weitere Informationen finden Sie unter [Übersicht über die Admin Console](https://helpx.adobe.com/de/enterprise/using/admin-console.html).
 
 ### Verwalten von Benutzerkonten unter Administratorsteuerung
 
@@ -174,8 +174,8 @@ ALM-Administratoren verwalten interne und externe Benutzerkonten. Zu den sicherh
 
 Weitere Informationen finden Sie unter:
 
-* [Benutzer und Benutzergruppen hinzufügen](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/user-management/add-users-user-groups)
-* [Benutzer bereinigen](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/purge-users)
+* [Benutzer und Benutzergruppen hinzufügen](https://experienceleague.adobe.com/de/docs/learning-manager/using/admin/user-management/add-users-user-groups)
+* [Benutzer bereinigen](https://experienceleague.adobe.com/de/docs/learning-manager/using/admin/purge-users)
 
 ## Entlastung der Verwaltungskonten
 
@@ -203,8 +203,8 @@ Wenn ein Systemadministrator die Organisation verlässt oder die Rollen ändert,
 
 Weitere Informationen finden Sie unter:
 
-* [Erstellen, Aktualisieren oder Entfernen von Benutzerkonten auf der Admin Console](https://helpx.adobe.com/enterprise/using/manage-users-individually.html)
-* [So verlassen Sie Ihr Unternehmenskonto](https://helpx.adobe.com/enterprise/using/leave-organization.html)
+* [Erstellen, Aktualisieren oder Entfernen von Benutzerkonten auf der Admin Console](https://helpx.adobe.com/de/enterprise/using/manage-users-individually.html)
+* [So verlassen Sie Ihr Unternehmenskonto](https://helpx.adobe.com/de/enterprise/using/leave-organization.html)
 
 ### Entfernen der ALM-Administratorrolle
 
@@ -217,7 +217,7 @@ So widerrufen Sie den ALM-Administratorzugriff, ohne das Benutzerkonto zu lösch
 
 Der Benutzer kehrt zur Teilnehmerrolle zurück. Ihr Lernverlauf und ihre Kursanmeldungen bleiben erhalten.
 
-Weitere Informationen finden Sie unter [Benutzer und Benutzergruppen hinzufügen](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/user-management/add-users-user-groups).
+Weitere Informationen finden Sie unter [Benutzer und Benutzergruppen hinzufügen](https://experienceleague.adobe.com/de/docs/learning-manager/using/admin/user-management/add-users-user-groups).
 
 ### Benutzer löschen und bereinigen
 
@@ -226,7 +226,7 @@ Wenn ein Benutzer die Organisation vollständig verlässt und sein Konto von der
 * Löschen Sie den Benutzer: Benutzer > Intern > wählen Sie Benutzer > Aktionen > Benutzer löschen. Dadurch wird das Konto deaktiviert und der aktive Zugriff wird entfernt.
 * Benutzer bereinigen: Gehen Sie nach dem Löschen zu Benutzer > Benutzerbereinigung , wählen Sie den Löschmonat aus, wählen Sie den Benutzer aus und wählen Sie Aktionen > Benutzer bereinigen. Durch das Bereinigen werden alle Benutzerdatensätze dauerhaft entfernt.
 
-Weitere Informationen finden Sie unter [Benutzer bereinigen](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/purge-users).
+Weitere Informationen finden Sie unter [Benutzer bereinigen](https://experienceleague.adobe.com/de/docs/learning-manager/using/admin/purge-users).
 
 
 ## Sicherheit und geteilte Verantwortung.
@@ -236,7 +236,7 @@ Adobe Learning Manager arbeitet mit einem Modell der geteilten Verantwortung:
 * Adobe ist für die Sicherung der zugrunde liegenden ALM-Plattform und -Infrastruktur verantwortlich.
 * Die Kunden sind für die Verwaltung des administrativen Zugriffs, der Rollenzuweisungen und der Lebenszyklusaktivitäten der Benutzer innerhalb ihres ALM-Kontos verantwortlich.
 
-Weitere Informationen zu den Sicherheitsmethoden von Adobe Learning Manager finden Sie unter [Adobe Learning Manager-Sicherheitsübersicht (PDF)](https://experienceleague.adobe.com/docs/learning-manager/assets/alm-security-whitepaper-2024.pdf).
+Weitere Informationen zu den Sicherheitsmethoden von Adobe Learning Manager finden Sie unter [Adobe Learning Manager-Sicherheitsübersicht (PDF)](https://experienceleague.adobe.com/docs/learning-manager/assets/alm-security-whitepaper-2024.pdf?lang=de).
 
 ## Dokumentenverwaltung
 
