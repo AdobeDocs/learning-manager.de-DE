@@ -2,10 +2,10 @@
 title: Neue Funktionen in der Adobe Learning Manager-Version April 2026
 description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und wichtigen Updates in der Adobe Learning Manager-Version vom April 2026.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: bff4227db5cb1d419d66c59688989de1406b0458
+source-git-commit: 4f97f09df89e2fc38f013ce817f6d0fee38773d0
 workflow-type: tm+mt
-source-wordcount: '7458'
-ht-degree: 1%
+source-wordcount: '8124'
+ht-degree: 0%
 
 ---
 
@@ -23,7 +23,7 @@ Externe Systeme, die LTI verwenden, können die Player-Sprache jetzt automatisch
 
 ## Fluidic Player-Navigation: Zeigt den Namen des nächsten Moduls an.
 
-### Überblick
+### Übersicht
 
 Diese Verbesserung war bereits in der Version November 2025 von Adobe Learning Manager enthalten.
 
@@ -111,7 +111,7 @@ Für Teilnehmer, die hauptsächlich Smartphones oder Tablets verwenden:
 
 ## Zoom-Connector - Erstellen mehrerer gleichzeitiger Zoom-Sitzungen
 
-### Überblick
+### Übersicht
 
 Das bevorstehende Upgrade auf den Zoom-Connector wird die Verwaltung von Virtual Instructor-Led Training (VILT) durch Adobe Learning Manager erheblich verbessern. Früher konnten Benutzer jeweils nur eine Zoom-Sitzung erstellen. Mit dem neuen Update können Administratoren und Autoren über die Standardintegration mehrere Zoom-Sitzungen gleichzeitig planen.
 
@@ -181,7 +181,7 @@ Durch Verbinden von Meetings mit einzelnen Kursleiter-Zoom-Konten:
 
 * Jeder Kursleiter kann innerhalb seiner eigenen Zoom-Lizenzbeschränkungen arbeiten.
 
-* Unternehmen können ihr bestehendes Zoom-Bereitstellungsmodell nutzen (ein Konto pro Trainer, pro Geschäftseinheit usw.) und dennoch vollständig in Adobe Learning Manager integrieren.
+* Unternehmen können ihr bestehendes Zoom-Bereitstellungsmodell verwenden (ein Konto pro Trainer, pro Geschäftseinheit usw.). und dennoch vollständig mit Adobe Learning Manager integrieren.
 
 * Dadurch wird der Single-Point-Engpass vermieden, den die Verwendung eines gemeinsamen Super-Admin-Zoom-Benutzers für alle Sitzungen verursacht.
 
@@ -215,7 +215,7 @@ Interne Enablement-Teams (Vertrieb, Support usw.) können:
 
 ## Ursprünglichen Autor für freigegebene Kurse in Peer-Konten anzeigen
 
-### Überblick
+### Übersicht
 
 Wenn ein Kurs über den Katalog für ein Peer-Konto freigegeben wird, kennzeichnet Adobe Learning Manager den Autor derzeit in der Teilnehmer-, Administrator- und Autorenansicht des empfangenden Kontos als &quot;Externer Autor&quot;. Dies kann zu Herausforderungen für Teilnehmer und Administratoren führen, insbesondere in großen Unternehmen, da es schwierig wird, den entsprechenden Inhaltseigentümer zu identifizieren und zu kontaktieren, wenn Probleme oder Fragen auftreten.
 
@@ -279,7 +279,7 @@ Wo eine Geschäftseinheit das Lernen für andere kuratiert:
 
 ## Verfügbarmachen des Ablaufdatums des Lernobjekts (automatische Einstellung) in Teilnehmer-APIs
 
-### Überblick
+### Übersicht
 
 Durch diese Verbesserung wird das Datum der automatischen Einstellung eines Lernobjekts (LO) direkt über die APIs für Teilnehmer in Adobe Learning Manager verfügbar gemacht. Wenn ein Kurs, ein Lernpfad oder eine Zertifizierung mit einem Ablaufdatum oder einem Datum für die automatische Einstellung konfiguriert ist, sind diese Informationen jetzt Teil der LO-Daten, die von wichtigen Teilnehmerendpunkten zurückgegeben werden.
 
@@ -363,7 +363,7 @@ Ablaufdaten in der LO-API ermöglichen es Experience Buildern:
 
 ## Unterstützung mehrerer Sprachen für Arbeitshilfen
 
-### Überblick
+### Übersicht
 
 Durch die Erweiterung wird das Lokalisierungsmodell von Adobe Learning Manager auf Arbeitshilfen erweitert, sodass Autoren verschiedene Inhaltsdateien pro Sprache an eine einzelne Arbeitshilfe anhängen können. Anstatt separate Arbeitshilfen für jede Sprache zu erstellen, können Autoren jetzt alle lokalisierten Versionen als eine logische Arbeitshilfe verwalten.
 
@@ -435,7 +435,7 @@ Mit mehrsprachigen Arbeitshilfen:
 
 ## Einschränkung für Startzeit des Moduls festlegen
 
-### Überblick
+### Übersicht
 
 Mithilfe der Erweiterung können Autoren und Administratoren in Adobe Learning Manager ein Zeitfenster definieren, in dem Teilnehmer ein Modul starten dürfen. Außerhalb des konfigurierten Start-/Endfensters bleibt das Modul in der Kursstruktur sichtbar, aber die Teilnehmer können es nicht initiieren.
 
@@ -465,7 +465,7 @@ Dies verbessert die Lernerfahrung der Teilnehmer: Anstatt auf Module zu schauen,
 
 ## Player-Sprache über benutzerdefinierten LTI-Parameter steuern
 
-### Überblick
+### Übersicht
 
 Dank der Erweiterung können externe Plattformen, die LTI (Learning Tools Interoperability) verwenden, die Sprache für Adobe Learning Manager-Inhalte zum Zeitpunkt des Starts angeben. Anstatt davon abhängig zu sein, dass der Teilnehmer die Sprache im Fluidic Player ändert, kann der LTI-Benutzer einen Sprachcode über einen benutzerdefinierten LTI-Parameter senden. Adobe Learning Manager verwendet diesen Code dann, um die entsprechende Sprachvariante auszuwählen.
 
@@ -497,7 +497,7 @@ Die Erweiterung ermöglicht auch Szenarien, in denen die externe Plattform ALM a
 
 ## Checklistenfragengewichtung für Kursleiterbewertungen
 
-### Überblick
+### Übersicht
 
 Die Verbesserung führt gewichtete Checklisten ein, sodass Kursleiter und Manager die Teilnehmer mithilfe von abgestuften Skalierungen und Gesamtergebnissen bewerten können, anstatt jede Checklistenfrage als gleich zu behandeln. Ziel ist es, die Erstellung von Checklisten zu erleichtern, indem gewichtete Evaluierungen von Fragen durchgeführt werden, die es ermöglichen, die relative Bedeutung verschiedener Aktionen oder Fähigkeiten innerhalb einer einzigen Checkliste widerzuspiegeln.
 
@@ -558,13 +558,13 @@ Dies ermöglicht eine Analyse der Gesamtleistung und der fragenspezifischen Leis
 
 ## Unterstützung mehrerer Sprachen für Checklistenfragen
 
-### Überblick
+### Übersicht
 
 Die Verbesserung führt mehrsprachige Unterstützung für Checklistenfragen ein, sodass Prüfer Checklisten in ihrer bevorzugten Sprache bewerten und bewerten können. Diese Funktion ist besonders in mehrsprachigen Regionen und bei globalen Bereitstellungen nützlich, da sie Autoren die Möglichkeit bietet, lokalisierte Checklistenfragen für jede unterstützte Inhaltssprache zu erstellen und gleichzeitig ein einzelnes Checklistenmodul und einen konsistenten Evaluierungsprozess beizubehalten.
 
 In Adobe Learning Manager:
 
-* Alle teilnehmerseitigen Module (SCORM, PDF, HTML usw.) können in mehreren Inhaltssprachen bereitgestellt werden, sodass die Teilnehmer die Sprache auswählen können, die sie bevorzugen.
+* Alle Module für Teilnehmer (SCORM, PDF, HTML usw.) kann in mehreren Inhaltssprachen bereitgestellt werden, sodass die Teilnehmer die Sprache auswählen können, die sie bevorzugen.
 
 * In einem Checklistenmodul bewerten Prüfer (Kursleiter/Manager) Teilnehmer anhand der in dieser Checkliste definierten Fragen.
 
@@ -612,7 +612,7 @@ Der Checklistenbericht zeigt den Fragentext in der Inhaltssprache des Benutzers 
 
 ## Checkliste mit Kommentarfunktion für Reviewer
 
-### Überblick
+### Übersicht
 
 Die Verbesserung führt eine Kommentarfunktion für Checklistenbewertungen ein, mit der Prüfer wie Kursleiter und Manager neben den numerischen Punktzahlen qualitatives Feedback abgeben können. Dieses Feedback kann den Teilnehmern bei Bedarf angezeigt werden.
 
@@ -678,7 +678,7 @@ Dadurch wird sichergestellt, dass Feedback nicht nur gespeichert, sondern auch d
 
 ## Mehrere Versuche auf Inhaltsebene und Quizberichte
 
-### Überblick
+### Übersicht
 
 >[!IMPORTANT]
 >
@@ -753,7 +753,7 @@ Der L2-Quizbericht wird aktualisiert, um jeden Versuch auf Inhaltsebene als sepa
 
 ## QR-Codes von Kursleitern für die Instanzenregistrierung und die Sitzungsteilnahme
 
-### Überblick
+### Übersicht
 
 Diese Verbesserung bietet Kursleitern die Möglichkeit, selbst QR-Codes für folgende Zwecke zu generieren:
 
@@ -809,7 +809,7 @@ Diese erleichtern es Kursleitern und Koordinatoren, den richtigen QR-Code für j
 
 ## Verbesserungen am Captivate- und ALM-Player
 
-### Überblick
+### Übersicht
 
 Diese Erweiterung verbessert die Wiedergabe von Adobe Captivate-Inhalten im Adobe Learning Manager-Player (ALM), insbesondere nach den jüngsten Änderungen an der Captivate-Architektur. Ziel ist es, Teilnehmern die native Interaktion mit Captivate-Modulen in ALM zu ermöglichen und gleichzeitig sicherzustellen, dass Navigation, Abschlussverfolgung und Notizen klar, konsistent und zuverlässig sind.
 
@@ -839,7 +839,7 @@ Diese Erweiterung verbessert die Wiedergabe von Adobe Captivate-Inhalten im Adob
 
 * Für Nicht-Video-Folien:
 
-   * Zeigt die Steuerelemente für die Foliennavigation (nächste/vorherige Folie usw.) anstelle einer nicht funktionierenden Zeitleiste an.
+   * Steuerelemente für die Foliennavigation anzeigen (nächste/vorherige Folie usw.) anstelle einer nicht funktionierenden Zeitleiste.
 
       * Dadurch wird vermieden, dass bei bestimmten Folientypen irrelevante oder nicht funktionierende Steuerelemente angezeigt werden.
 
@@ -887,7 +887,7 @@ Diese Erweiterung verbessert die Wiedergabe von Adobe Captivate-Inhalten im Adob
 
 ## Verbesserte Berechnung des Zeitaufwands für das Lernen in Teilnehmertranskripten
 
-### Überblick
+### Übersicht
 
 Adobe Learning Manager hat mit der Version vom April 2026 überarbeitet, wie die Lernzeit in Teilnehmertranskripten berechnet wird. Früher konnte die Berichtslogik zu ungenauen Zeiten führen, wenn Teilnehmer den Player offen ließen, ohne mit dem Inhalt zu interagieren, was zu Diskrepanzen führte. Die neue Methode verfolgt jetzt die aktive Zeit basierend auf Benutzerinteraktionen, insbesondere wenn die Registerkarte aktiv ist und Benutzeraktivitäten vorhanden sind. Diese Änderung führt zu genaueren Daten.
 
@@ -936,7 +936,7 @@ Die Leerlaufzeit wird abgezogen, um sicherzustellen, dass nur die tatsächliche 
 | **Captivate** | Slide-basiertes Timing | Leerlauf kann nicht erkannt werden |
 | **xAPI** | Tabulator aktiv | Tabulator inaktiv |
 | **HTML** | Player-Öffnungszeit mit aktiver Registerkarte | Tabulator inaktiv |
-| **LTI-Hersteller/Verbraucher** | Wenn LTI-Inhalte innerhalb des ALM-Players abgespielt werden (d. h. ALM verwendet LTI-Inhalte, die auf einem anderen LMS gehostet werden, das als Hersteller fungiert), gilt diese zeitaufwendige Logik.<br><br>Wenn der Inhalt jedoch außerhalb des LMS abgespielt wird (d. h., der Inhalt wird in ALM gehostet, dann ist ALM der Producer, aber die Wiedergabe erfolgt in einem externen Player), gilt dieser Teil der Zeitberechnungslogik nicht.  <br>**Hinweis**: LTI-Verbraucher wird in Adobe Learning Manager nicht unterstützt. | Tabulator inaktiv |
+| **LTI-Hersteller/Verbraucher** | Wenn LTI-Inhalte im ALM-Player abgespielt werden (d. h., ALM verwendet LTI-Inhalte, die auf einem anderen LMS gehostet werden, das als Produzent fungiert), gilt diese zeitaufwendige Logik.<br><br>Wenn der Inhalt jedoch außerhalb des LMS abgespielt wird (d. h., der Inhalt wird in ALM gehostet, dann ist ALM der Produzent, aber die Wiedergabe erfolgt in einem externen Player), gilt dieser Teil der Zeitberechnungslogik nicht.  <br>**Hinweis**: LTI-Verbraucher wird in Adobe Learning Manager nicht unterstützt. | Tabulator inaktiv |
 
 **Hinweis**:
 
@@ -1012,9 +1012,66 @@ Dies wird erwartet, wenn die Leerlaufzeit zuvor die Ergebnisse überhöht hatte.
 
 Keine, die Änderung erfolgt automatisch.
 
+## Aktualisierung der Teilnehmertranskriptberichte für Administratoren
 
+Wir aktualisieren die Lernaktranskriptberichte (LT) für Administratoren, um Checklistenbasierte Bewertungen und Feedback von Prüfern besser zu unterstützen.
 
+## Was ändert sich?
 
+### &#x200B;1. Spaltenumbenennung im Admin-Teilnehmertranskript
+
+Die vorhandene Spalte **Übermittlungskommentar** im Admin Learning
+Das Transkript lautet:
+
+1. **Umbenannt in:** `Reviewer's remarks`
+
+### In dieser Spalte angezeigte Daten:
+
+* **Für Übermittlungsmodule:**
+Die Spalte zeigt weiterhin den Übermittlungskommentar an (keine Verhaltensänderung).
+
+* **Für Checklistenmodule:**
+In der Spalte wird nun der Bewertungskommentar (die Anmerkungen des Prüfers der Checkliste) angezeigt.
+
+Diese Änderung gilt für alle Admin LT-Quellen:
+
+* LT, von der Admin-Benutzeroberfläche heruntergeladen
+* Einb. Einb. über die Job-API
+* Einb. generiert über Connectors
+
+Nach dieser Änderung enthält dieselbe Spalte: - Einreichungskommentare für Einreichungsmodule
+
+* Bewertungskommentare für Checklistenmodule
+
+Unter dem neuen Headernamen **Anmerkungen des Reviewers**.
+
+### &#x200B;2. Neue Spalte in Connector-basierten Lernaktranskript-Exporten
+
+Für vom Connector exportierte Lerntranskripte:
+
+* Am Ende des Berichts wird eine neue Spalte mit dem Namen **Anmerkungen des Reviewers** hinzugefügt.
+* Diese Spalte enthält die Kommentare des Überprüfers, die an dem oben beschriebenen Verhalten ausgerichtet sind:
+   * Übermittlungskommentare für Übermittlungsmodule
+   * Bewertungskommentare für Checklistenmodule
+
+## Auswirkungen auf vorhandene Integrationen und Automatisierungen
+
+Wenn Sie Teilnehmertranskriptberichte in benutzerdefinierten Integrationen, Automatisierungen oder externen Reporting-Tools verwenden, überprüfen Sie die folgenden Szenarien:
+
+| Szenario | Auswirkungen | Wichtig |
+|----------|--------|----------------|
+| Sie identifizieren Felder in Admin LT anhand des Spaltennamens (z. B. &quot;Einreichungskommentar&quot;) | Die Spaltenkopfzeile wird in die Anmerkungen des Überprüfers geändert. | Ja. Aktualisieren Sie alle Zuordnungen oder Logik, die auf den Einreichungskommentar verweisen, um die Anmerkungen des Überprüfers zu verwenden. |
+| Sie identifizieren Felder in Admin LT nur durch die Spaltenposition (indexbasiert). | Die Position dieser Spalte bleibt in Admin LT gleich. | In der Regel keine Aktion. Wenn Ihre Logik nicht vom Kopfzeilentext abhängt, ist keine Änderung für Admin LT erforderlich. Ändern Sie einfach den Spaltennamen, wenn derzeit die Spalte &quot;Übermittlungskommentare&quot; verwendet wird. |
+| Sie verwenden ein vom Connector exportiertes LT und verlassen sich auf eine feste Spaltenanzahl oder eine bestimmte Position in der letzten Spalte | Eine neue Spalte wird am Ende des Berichts angehängt. | Ja. Passen Sie die Analyse- oder Validierungslogik an, um eine zusätzliche Spalte am Ende der Datei zu berücksichtigen. |
+| Sie verwenden vom Connector exportiertes LT und Map nach Spaltennamen | Eine neue Spalte Reviewer&#39;s comments wird verfügbar sein. | Optional. Eine Änderung ist nur erforderlich, wenn Sie die neuen Kommentardaten des Reviewers/der Checkliste nutzen möchten. |
+
+**Was Sie tun sollten**
+
+* Überprüfen Sie alle Skripte, ETL-Jobs, Dashboards oder Integrationen, die Admin Learning Transkript-Berichte nutzen.
+* Wenn Sie auf den alten Spaltennamen _Übermittlungskommentar_ verweisen, aktualisieren Sie Ihre Konfiguration oder Ihren Code, um die Anmerkungen des Überprüfers für den neuen Spaltennamen zu verwenden.
+* Wenn Sie konnektorbasierte LT-Exporte verwenden und eine feste Anzahl von Spalten oder eine feste letzte Spalte annehmen, aktualisieren Sie Ihre Logik, um eine zusätzliche Spalte am Ende des Exports zu behandeln.
+
+Wenn Ihre aktuelle Implementierung ausschließlich auf Spaltenpositionen in Admin LT basiert und nicht validiert wird oder vom Spaltenkopftext abhängt, ist keine Änderung für Admin LT selbst erforderlich. Nur bei Connector-Exporten ist Aufmerksamkeit erforderlich, wenn Sie von einem festen Layout abhängig sind.
 
 
 
@@ -2710,4 +2767,4 @@ Custom administrators can create announcements only for the user groups or catal
 * The format of the report will remain unchanged. If custom administrators download it from the User Interface, the content of the report will be subject to their scope. 
 * No modifications are necessary if this report is not utilized in any automated or downstream workflow.
 
-See the [Release notes](https://experienceleague.adobe.com/de/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
+See the [Release notes](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes) article for a cumulative list of new features and changes to Adobe Learning Manager.-->
