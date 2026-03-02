@@ -94,7 +94,7 @@ Adobe Learning Manager unterstützt den Export sicherheitsrelevanter Konfigurati
 
 * Die ALM Jobs-API unterstützt die bedarfsgesteuerte Generierung von Benutzerberichten (einschließlich Rollenzuweisungen) im CSV-Format. Diese können von externen Compliance- oder SIEM-Tools geplant und genutzt werden.
 
-Weitere Informationen finden Sie im [Handbuch für Anwendungsentwickler für Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual).
+Weitere Informationen finden Sie im [Handbuch für Anwendungsentwickler für Adobe Learning Manager](https://experienceleague.adobe.com/de/docs/learning-manager/using/integration/developer-manual).
 
 ## Bietet Adobe Learning Manager eine API, über die sicherheitsrelevante Einstellungen programmgesteuert angezeigt und angepasst werden können?
 
