@@ -1,14 +1,14 @@
 ---
-title: Adobe Learning Manager - Anleitung zur sicheren Verwaltung
+title: Adobe Learning Manager - sicherer Administrationshandbuch
 description: Dieser Leitfaden beschreibt Sicherheitseinstellungen, -rollen und bewährte Verfahren für die Verwaltung der administrativen Sicherheit und der Zugriffskontrolle in Adobe Learning Manager, um Compliance und Sicherheit zu gewährleisten.
 jcr-language: en-us
-source-git-commit: 76a231b5d178a43a2e217d442481e6fd77f12390
+exl-id: 67dd9334-9718-4b2a-841e-5d8bd5c42714
+source-git-commit: 5682c45a4e5789a3eede53faf7cb257cd9685759
 workflow-type: tm+mt
 source-wordcount: '2354'
 ht-degree: 0%
 
 ---
-
 
 # Administrative Sicherheitseinstellungen und Auswirkungen auf die Sicherheit
 
@@ -51,7 +51,7 @@ Der Administrator steuert die Authentifizierungsmethode, die für alle internen 
 >
 >Wenn die Anmeldemethode für interne Benutzer auf Adobe ID festgelegt ist, verliert das Unternehmen die Möglichkeit, eine Multi-Faktor-Authentifizierung durchzusetzen, die Komplexität des Kennworts zu steuern oder den Zugriff sofort zu widerrufen, wenn ein Benutzer das Programm verlässt. Dies erhöht das Risiko eines unberechtigten Zugriffs erheblich.
 
-Weitere Informationen finden Sie unter [Benutzerdefinierte Rollen](https://experienceleague.adobe.com/de/docs/learning-manager/using/admin/custom-role).
+Weitere Informationen finden Sie unter [Benutzerdefinierte Rollen](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/custom-role).
 
 ### Multi-Factor Authentication (MFA)
 
@@ -168,9 +168,8 @@ Die Verwaltungseinstellungen in Adobe Learning Manager können von Kunden konfig
 
 Weitere Informationen zu den Sicherheitspraktiken von Adobe Learning Manager finden Sie unter:
 
-**Referenz:** [Überblick über die Sicherheit von Adobe Learning Manager (PDF)](https://experienceleague.adobe.com/docs/learning-manager/assets/alm-security-whitepaper-2024.pdf?lang=de)
+**Referenz:** [Überblick über die Sicherheit von Adobe Learning Manager (PDF)](https://experienceleague.adobe.com/docs/learning-manager/assets/alm-security-whitepaper-2024.pdf)
 
 ## Dokumentenverwaltung
 
 Dieses Dokument kann regelmäßig aktualisiert werden, um Änderungen an der Funktionalität von Adobe Learning Manager oder an den Sicherheitsrichtlinien Rechnung zu tragen. Die Version und das Datum der letzten Aktualisierung werden in den Dokument-Metadaten und im FedRAMP-Autorisierungspaket beibehalten. Kunden sollten die öffentlich verfügbare Version auf Adobe Experience League nutzen, um sicherzustellen, dass sie die neuesten Anleitungen verwenden.
-
