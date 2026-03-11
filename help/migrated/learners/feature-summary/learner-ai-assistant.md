@@ -3,9 +3,9 @@ description: Der AI Assistant (Beta) für Teilnehmer ist eine Gen-AI-gestützte 
 jcr-language: en_us
 title: AI Assistant für Teilnehmer in Adobe Learning Manager
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 922e6bed551baca8ef0e9f6b8124fb26fcce97e6
+source-git-commit: 583074cf56b7c468d0027ea6bb4ed500f57e5421
 workflow-type: tm+mt
-source-wordcount: '1995'
+source-wordcount: '1872'
 ht-degree: 0%
 
 ---
@@ -21,58 +21,60 @@ Mit dem AI Assistant (Beta) für Teilnehmer können sie schnell Antworten auf di
 
 ## Was ist der KI-Assistent für Teilnehmer?
 
-Der AI Assistant ist ein Gen-KI-gestützter Chat-Begleiter in Adobe Learning Manager, der schnelle, präzise Antworten auf Teilnehmerfragen bietet, indem er die vertrauenswürdigen Lerninhalte nutzt, die ihm in Adobe Learning Manager zur Verfügung stehen. Es enthält auch Zitate, sodass die Teilnehmer immer wissen, aus welcher Quelle die Informationen stammen.
+Der AI Assistant ist ein generativer KI-gestützter Chat-Begleiter in Adobe Learning Manager, der schnelle, präzise Antworten mithilfe Ihrer vertrauenswürdigen Lerninhalte bereitstellt. Sie enthält Zitate, damit Sie immer wissen, aus welcher Quelle die Informationen stammen.
 
-### Wichtigste Funktionen des AI Assistant
+### Funktionen
 
-1. Intelligente Fragenantworten
-   * Gespräche mit einer und mehreren Gängen
-   * Natürliches Sprachverständnis auf Englisch
-   * Antworten auf Kurse, Zertifizierungen, Lernpfade und Arbeitshilfen
-   * Intelligente Klärung von Fragen bei mehrdeutigen Abfragen
-   * Unterstützt von Azure Open AI LLM-Funktionen zum Generieren von Antworten
-2. Inhaltsquellen und Zitate
-   * Ruft Antworten aus verfügbaren Ressourcen ab, die in unterstützten Katalogen vorhanden sind.
-   * Bietet Zitaten direkte Verknüpfungen zu Quellmaterialien
-   * Unterstützt alle ALM-Inhaltsformate statisch und interaktiv: PDF, DOCX, PPTX, XLSX, Audio (mp3, wav, m4a), Video (mp4, mov, wmv), HTML, SCORM 2004, SCORM 1.2
-3. Benutzererfahrung
-   * Seitenbedienfeld, über alle Teilnehmerseiten zugänglich
-   * Responsive Design zur Anpassung an den Inhaltsbereich
-   * Der Chat-Verlauf wird in einer Browsersitzung verwaltet
-   * Löschen von Schiefer bei neuer Anmeldung oder Seitenaktualisierung
-   * Ton des Lehrers oder Tutors: freundlich, klar und pädagogisch solide
-4. Administratoroptionen
-   * Funktion auf Kontoebene aktivieren oder deaktivieren
-   * Zugriff durch Benutzergruppen steuern
-   * Auswählen, welche Kataloge für AI-Antworten enthalten sind
-   * Akzeptieren der Nutzungsbedingungen, um die Adobe AI-Richtlinien zu befolgen
+- **Intelligente Frageantwort**
+   - Gespräche mit einer und mehreren Gängen
+   - Natürliches Sprachverständnis auf Englisch
+   - Antworten auf Kurse, Zertifizierungen, Lernpfade und Arbeitshilfen
+   - Intelligente Klärung von Fragen bei mehrdeutigen Abfragen
 
-## Welche Arten von Inhalten werden vom AI Assistant unterstützt?
+- **Inhaltsquellen und Zitate**
+   - Ruft Antworten aus verfügbaren Ressourcen in unterstützten Katalogen ab
+   - Bietet Zitaten direkte Verknüpfungen zu Quellmaterialien
+   - Unterstützt alle (statischen und interaktiven) Learning Manager-Inhaltsformate: PDF, DOCX, PPTX, XLSX, Audio (MP3, WAV, M4A), Video (MP4, MOV, WMV), HTML, SCORM 2004 und SCORM 1.2
+
+- **Benutzererlebnis**
+   - Seitenbedienfeld, über alle Teilnehmerseiten zugänglich
+   - Responsives Design, das sich an den Inhaltsbereich anpasst
+   - Chat-Verlauf in der Browsersitzung beibehalten
+   - Löschen von Schiefer bei neuer Anmeldung oder Seitenaktualisierung
+   - Freundlicher, klarer und pädagogisch solider Ton
+
+- **Administratorsteuerung**
+   - Aktivieren oder Deaktivieren der Funktion auf Kontoebene
+   - Zugriff durch Benutzergruppen steuern
+   - Auswählen, welche Kataloge für AI-Antworten enthalten sind
+   - Akzeptieren der Nutzungsbedingungen gemäß den Adobe AI-Richtlinien
+
+## Unterstützte Inhaltstypen
 
 Der AI Assistant ruft Informationen aus Lerninhalten ab, die Ihnen zugewiesen wurden, darunter:
 
-* **Dokumente:** PDF, Word, PowerPoint, Excel, HTML
-* **Medien:** Audio (mp3, wav, m4a), Video (mp4, mov, wmv)
-* **Interaktiver Inhalt:** SCORM 1.2, SCORM 2004
-* **Lernobjekttypen:** Kurse, Lernpfade, Zertifizierungen, Arbeitshilfen
+- **Dokumente:** PDF, Word, PowerPoint, Excel, HTML
+- **Medien:** Audio (MP3, WAV, M4A), Video (MP4, MOV, WMV)
+- **Interaktiver Inhalt:** SCORM 1.2, SCORM 2004
+- **Lernobjekttypen:** Kurse, Lernpfade, Zertifizierungen, Arbeitshilfen
 
-Adobe transkribiert Lerninhalte sicher mithilfe vertrauenswürdiger Verarbeitungsdienste von Drittanbietern, die in der privaten VPC-Umgebung von Adobe gehostet werden.
+Adobe verarbeitet Ihre Lerninhalte sicher mit vertrauenswürdigen Diensten.
 
 ### Einschränkungen bei Katalogen und Inhaltsquellen
 
-Der AI-Assistent für Teilnehmer verwendet nur Inhalte aus **internen Katalogen**, die explizit von Administratoren konfiguriert wurden.
+Der AI-Assistent verwendet nur Inhalte aus **internen** Katalogen, die explizit von Administratoren konfiguriert wurden.
 
-Die folgenden Inhaltsquellen werden in der aktuellen Version **nicht unterstützt**:
+Die folgenden Inhaltsquellen werden in der aktuellen Version nicht unterstützt:
 
-* Freigegebene Kataloge
-* Erworbene Kataloge
-* Externe Kataloge
-* Standardkataloge
-* Inhaltsbibliotheken von Drittanbietern (z. B. LinkedIn Learning oder Go1)
+- **Freigegebene** Kataloge
+- **Erworbene** Kataloge
+- **Externe** Kataloge
+- **Standard**-Kataloge
+- Inhaltsbibliotheken von Drittanbietern (z. B. LinkedIn Learning oder Go1)
 
-Wenn ein Teilnehmer keinen Zugriff auf einen Kurs oder eine Arbeitshilfe hat, zeigt der AI-Assistent keine Informationen aus diesem Inhalt an und Zitatlinks sind nicht zugänglich.
+Wenn Sie keinen Zugriff auf einen Kurs oder eine Arbeitshilfe haben, zeigt der AI-Assistent keine Informationen aus diesen Inhalten an, und Zitat-Links sind nicht zugänglich.
 
-## Nutzungsszenarien für AI Assistant
+## Anwendungsszenarien
 
 ### Technischer Teilnehmer
 
@@ -80,9 +82,9 @@ Sarah ist Vertriebsingenieurin und beschäftigt sich mit Grafikkarten. Sie muss 
 
 Die KI-Assistentin unterstützt Sarah bei folgenden Aufgaben:
 
-* Klare, technische Erklärung der komplexen GPU-Architektur
-* Vertiefen Sie das Verständnis für die verschiedenen Grafikkarten und ihre Unterschiede
-* Erläuterung von Beispielen, damit Sarah Funktionen mit Anwendungsfällen aus der realen Welt in Beziehung setzen kann
+- Klare, technische Erklärung der komplexen GPU-Architektur
+- Vertiefen Sie das Verständnis für die verschiedenen Grafikkarten und ihre Unterschiede
+- Erläuterung von Beispielen, damit Sarah Funktionen mit Anwendungsfällen aus der realen Welt in Beziehung setzen kann
 
 ### Support
 
@@ -90,9 +92,9 @@ Marcus ist Supportspezialist bei einer Partnerfirma. Er braucht schnelle Antwort
 
 Der KI-Assistent unterstützt Marcus bei folgenden Aufgaben:
 
-* Relevante Support-Inhalte für häufig gestellte Kundenanfragen finden
-* Klärende Fragen stellen, wenn die erste Antwort nicht spezifisch genug ist
-* Finden von Empfehlungen für verwandte Fehlerbehebungskurse, um seine Kenntnisse zu verbessern
+- Relevante Support-Inhalte für häufig gestellte Kundenanfragen finden
+- Klärende Fragen stellen, wenn die erste Antwort nicht spezifisch genug ist
+- Finden von Empfehlungen für verwandte Fehlerbehebungskurse, um seine Kenntnisse zu verbessern
 
 ### Onboarding neuer Mitarbeiter
 
@@ -100,58 +102,55 @@ Jennifer ist gerade dem Unternehmen beigetreten und wird von der Menge an Schulu
 
 Die KI-Assistentin unterstützt Jennifer bei folgenden Aufgaben:
 
-* Abrufen einer schrittweisen Anleitung zum Einreichen von Spesenabrechnungen
-* Ermitteln von Kursen zu Unternehmensrichtlinien, ohne den gesamten Katalog durchsuchen zu müssen
-* Sie wird zum entsprechenden Abschnitt eines Kurses geleitet, ohne stundenlanges Video zu sehen
+- Abrufen einer schrittweisen Anleitung zum Einreichen von Spesenabrechnungen
+- Ermitteln von Kursen zu Unternehmensrichtlinien, ohne den gesamten Katalog durchsuchen zu müssen
+- Sie wird zum entsprechenden Abschnitt eines Kurses geleitet, ohne stundenlanges Video zu sehen
 
-## Wie nutzt der AI Assistant Inhalte?
+## Verwendung von Inhalten durch den AI Assistant
 
-Der KI-Assistent hilft Ihnen dabei, während des Lernens schnell präzise Antworten zu finden. Damit Sie sie effektiv einsetzen können, sollten Sie wissen, welche Inhalte die Assistenzkraft verwendet, welche Inhalte sie nicht verwendet und wie sie Antworten generiert.
+Der KI-Assistent findet präzise Antworten auf Ihre Lerninhalte. So funktioniert es.
 
-### Welche Inhalte nutzt der AI Assistant?
+### Welche Inhalte der KI-Assistent verwendet
 
-Der AI Assistant beantwortet Fragen ausschließlich mit den vom Kontoadministrator aktivierten Lerninhalten. Der Inhalt des Katalogs wird indiziert.
+Der AI Assistant beantwortet Fragen ausschließlich mit den vom Kontoadministrator aktivierten Lerninhalten. Der Inhalt aus den ausgewählten Katalogen wird indiziert.
 
-Der AI Assistant analysiert Ihre zugewiesenen Lerninhalte, um zielgerichtete und kontextbezogene Antworten zu generieren.
+Der AI Assistant analysiert Ihre zugewiesenen Lerninhalte, um zielgerichtete, kontextbezogene Antworten zu generieren:
 
-* Jede Antwort enthält Zitate, die auf den ursprünglichen Quellinhalt verweisen.
-* Sie können eine Erwähnung auswählen, um direkt zum entsprechenden Kurs, Modul oder Dokument zu navigieren.
-* Zitate helfen Ihnen dabei, Informationen zu verifizieren und bei Bedarf zusätzlichen Kontext zu erkunden.
+- Jede Antwort enthält Zitate, die auf den ursprünglichen Quellinhalt verweisen.
+- Sie können eine Erwähnung auswählen, um direkt zum entsprechenden Kurs, Modul oder Dokument zu navigieren.
+- Zitate helfen Ihnen dabei, Informationen zu verifizieren und bei Bedarf zusätzlichen Kontext zu erkunden.
 
 ### Streaming-Antworten
 
-Eine Streaming-Antwort bedeutet, dass der AI Assistant die Antwort während der Generierung progressiv bereitstellt, sodass Benutzer sofort mit dem Lesen der Antwort beginnen können, ohne darauf warten zu müssen, dass die gesamte Antwort vollständig geladen ist.
+Der AI Assistant liefert Antworten während der Generierung nach und nach, sodass Sie sofort mit dem Lesen beginnen können, ohne auf die gesamte Antwort zu warten.
 
 ### Zitate und Quellentransparenz
 
 Jede Antwort des AI Assistant umfasst Zitate, die direkt mit dem ursprünglichen Kurs, Modul oder Lernobjekt verknüpft sind. Mit Zitaten können Sie:
 
-* Wählen Sie eine Inline-Zitatnummer aus, um zum exakt referenzierten Abschnitt zu springen.
-* Öffnen Sie die vollständige Quellliste, indem Sie unten in der Antwort Quellen anzeigen auswählen.
-* Informationen überprüfen und zusätzlichen Kontext aus der maßgeblichen Quelle erkunden
+- Wählen Sie eine Inline-Zitatnummer aus, um zum exakt referenzierten Abschnitt zu springen.
+- Öffnen Sie die vollständige Quellliste, indem Sie unten in der Antwort **Quellen anzeigen** auswählen.
+- Überprüfen Sie die Informationen und sehen Sie sich zusätzlichen Kontext aus der maßgeblichen Quelle an.
 
->[!IMPORTANT]
->
->Der AI-Assistent bietet Antworten auf Basis von Inhalten, die vom Administrator aktiviert wurden. Wenn ein Benutzer jedoch keinen Zugriff auf ein referenziertes Element hat, wird ihm beim Öffnen die Meldung &quot;Nicht unterstützt&quot; angezeigt.
+> **WICHTIG**
+> Der AI-Assistent bietet Antworten auf Basis von durch den Administrator aktiviertem Inhalt. Wenn Sie keinen Zugriff auf ein referenziertes Element haben, wird beim Versuch, es zu öffnen, die Meldung &quot;Nicht unterstützt&quot; angezeigt.
 
 
 ## Integrierte Eingabeaufforderungen
 
-Der AI Assistant umfasst integrierte Eingabeaufforderungen, die Teilnehmern den schnellen Einstieg in häufige Fragen und Szenarien erleichtern. Diese Anweisungen leiten die Teilnehmer dazu, wie sie mit dem Assistenten interagieren, und zeigen die Arten von Fragen an, die sie stellen können.
+Der AI Assistant enthält integrierte Eingabeaufforderungen, die Ihnen den schnellen Einstieg in häufige Fragen und Szenarien erleichtern. Diese Eingabeaufforderungen zeigen Ihnen, wie Sie mit dem Assistenten interagieren und welche Arten von Fragen Sie stellen können.
 
 ![Integrierte Eingabeaufforderungen vom Teilnehmerassistenten bereitgestellt](assets/built-in-prompt-new.png)
 
-Integrierte Eingabeaufforderungen können pro Konto angepasst werden. Unternehmen können sie an ihre Lernziele, Teilnehmerrollen, Terminologie oder spezifische Anwendungsfälle anpassen. Administratoren können mit ihrem Customer Success Manager (CSM) integrierte Eingabeaufforderungen konfigurieren oder aktualisieren.
+Organisationen können integrierte Eingabeaufforderungen anpassen, um ihre Lernziele, Rollen, Terminologie oder spezifischen Anwendungsfälle widerzuspiegeln. Administratoren können mit ihrem Customer Success Manager integrierte Eingabeaufforderungen konfigurieren oder aktualisieren. In der aktuellen Version können Sie Aufforderungen nicht direkt in der Adobe Learning Manager-Oberfläche anpassen.
 
-Die Eingabeaufforderung wird auf Kontoebene verwaltet und kann in der aktuellen Version nicht direkt in der Adobe Learning Manager-Benutzeroberfläche konfiguriert werden.
-
-## Administrator-Setup - Aktivieren des AI-Assistenten für Teilnehmer
+## AI-Assistenten einrichten (Administratoren)
 
 ![KI-fähiger Teilnehmerassistent](assets/learner-ai-assistant-new.png)
 
-Administratoren wählen aus, welche Benutzergruppen und internen Kataloge auf die AI Assistant-Funktion zugreifen können. Sie sollten sicherstellen, dass die zugewiesenen Kataloge nur die Lerninhalte enthalten, die für die Anzeige durch AI-Antworten und Zitate geeignet sind, und dass diese Kataloge &quot;Standard&quot;, &quot;Intern&quot;, &quot;Nicht freigegeben&quot;, &quot;Erworben&quot; oder &quot;Extern&quot; sind.
+Administratoren wählen aus, welche Benutzergruppen und **interne** Kataloge auf die AI Assistant-Funktion zugreifen können. Stellen Sie sicher, dass die Kataloge, die Sie zuweisen, nur die Lerninhalte enthalten, die für AI-Antworten und Zitate geeignet sind, und dass diese Kataloge **intern** (nicht **Freigegeben**, **Erworben** oder **Extern**) sind.
 
-Bevor Sie den AI-Assistenten konfigurieren, vergewissern Sie sich, dass Sie über Administratoranmeldeinformationen verfügen und angegeben haben, welche Benutzergruppen und Kataloge Zugriff auf die Funktion haben sollen.
+Bevor Sie den AI-Assistenten konfigurieren, vergewissern Sie sich, dass Sie über Administratoranmeldeinformationen verfügen und identifiziert haben, auf welche Benutzergruppen und Kataloge Zugriff haben sollen.
 
 ### Konfigurieren des Zugriffs auf den AI Assistant
 
@@ -178,11 +177,9 @@ So aktivieren Sie den AI-Assistenten für Teilnehmer:
 
 >[!IMPORTANT]
 >
->Nur interne Kataloge werden vom AI Assistant unterstützt. Wenn ein freigegebener, erworbener, externer oder anderer nicht interner Katalog ausgewählt ist, wird sein Inhalt nicht vom AI-Assistenten angezeigt, auch wenn der Katalog in der Liste der zulässigen Kataloge angezeigt wird.
+>Nur **interne** Kataloge werden unterstützt. Wenn ein **freigegebener**, **erworbener**, **externer** oder anderer nicht interner Katalog ausgewählt ist, wird sein Inhalt nicht vom AI-Assistenten angezeigt, selbst wenn er in der Liste **Zugelassene Kataloge** angezeigt wird.
 
-## Teilnehmeranleitung - Starten des AI-Assistenten
-
-### Starten des AI-Assistenten
+## Starten des AI-Assistenten (Teilnehmer)
 
 So starten Sie den AI-Assistenten:
 
@@ -205,94 +202,89 @@ So starten Sie den AI-Assistenten:
 
 Sie haben folgende Möglichkeiten:
 
-* Wählen Sie die Zitatnummer inline aus, um zum exakt referenzierten Abschnitt zu springen.
-* Öffnen Sie die vollständige Liste der Quellen, indem Sie unten in der Antwort **Quellen anzeigen** auswählen.
+- Wählen Sie die Zitatnummer inline aus, um zum exakt referenzierten Abschnitt zu springen.
+- Öffnen Sie die vollständige Liste der Quellen, indem Sie unten in der Antwort **Quellen anzeigen** auswählen.
 
 ![Quellen in der Antwort anzeigen](assets/show-sources-latest.png)
 
 Der AI Assistant enthält Zitate mit allen Antworten, um zu zeigen, woher die Informationen stammen. Jede Erwähnung wird direkt mit dem ursprünglichen Kurs, Modul oder Lernobjekt verknüpft, mit dem die Antwort generiert wurde.
 
-Sie können ein beliebiges Zitat auswählen, um die Kursseite im Adobe Learning Manager zu öffnen und den gesamten Inhalt im Kontext zu überprüfen. Zitate helfen Ihnen dabei, Informationen zu verifizieren, zusätzliche Details zu erkunden und weiterhin von der maßgeblichen Quelle zu lernen.
+Sie können ein beliebiges Zitat auswählen, um die Kursseite in Adobe Learning Manager zu öffnen und den gesamten Inhalt im Kontext zu prüfen. Zitate helfen Ihnen dabei, Informationen zu verifizieren, zusätzliche Details zu erkunden und weiterhin von der maßgeblichen Quelle zu lernen.
 
 ## Zugriff auf den AI Assistant über die Suche
 
-Sie können den AI-Assistenten auch direkt über die Suchleiste starten. Geben Sie Ihre Frage in das Suchfeld ein und wählen Sie dann **AI-Assistenten fragen** aus den Optionen aus, die angezeigt werden, um Antworten von Ihren zugewiesenen Lerninhalten zu erhalten. Die zugewiesenen Lerninhalte.
+Sie können den AI-Assistenten auch direkt über die Suchleiste starten. Geben Sie Ihre Frage in das Suchfeld ein und wählen Sie dann **AI-Assistenten fragen** aus den angezeigten Optionen aus.
 
 ![Zugriff auf den Teilnehmerassistenten über die Suchleiste](assets/learner-assistant-search-new.png)
 
+## Feedback zu Antworten von AI Assistant geben
 
-## Feedback zu den Antworten des Teilnehmer-KI-Assistenten geben
-
-Ihr Feedback zu den vom Teilnehmer-KI-Assistenten (Beta) generierten Antworten trägt dazu bei, die Genauigkeit, Relevanz und die Gesamtleistung zu verbessern.
+Ihr Feedback zu den vom AI Assistant (Beta) generierten Antworten trägt dazu bei, die Genauigkeit, Relevanz und Gesamtleistung des Assistenten zu verbessern.
 
 ### Antwort mögen oder ablehnen
 
-* Wählen Sie **Minimieren**, wählen Sie aus, was Ihnen in der Antwort hilfreich war, fügen Sie optional Kommentare hinzu, und wählen Sie dann **Senden** aus.
+- Wählen Sie **Minimieren**, wählen Sie aus, was Ihnen in der Antwort hilfreich war, fügen Sie optional Kommentare hinzu, und wählen Sie dann **Senden** aus.
+- Wählen Sie **Minimieren**, wählen Sie den Grund aus, aus dem die Antwort nicht hilfreich war, fügen Sie Kommentare hinzu, und wählen Sie dann **Senden** aus.
 
-<!-- ![Select Thumbs Up to upvote a response](assets/la-feedback.png) -->
+## Neuen Chat starten
 
-* Wählen Sie **Minimieren**, wählen Sie den Grund aus, aus dem die Antwort nicht hilfreich war, fügen Sie Kommentare hinzu, und wählen Sie dann **Senden** aus.
+Mit einem neuen Chat können Sie eine neue Unterhaltung beginnen und den vorherigen Kontext löschen, sodass sich der Assistent auf das neue Thema konzentrieren kann, ohne auf vorherige Interaktionen zu verweisen.
 
-## Neuen Chat im AI Assistant starten
-
-Das Starten eines neuen Chats ermöglicht es dem Benutzer, eine neue Unterhaltung zu beginnen, wobei der vorherige Kontext gelöscht wird, sodass sich der Assistent auf das neue Thema konzentrieren kann, ohne auf vorherige Interaktionen zu verweisen. Dies ist wichtig, wenn Sie Themen wechseln oder Antworten suchen, die nichts mit früheren Fragen zu tun haben.
-
-Aktuelle Unterhaltung löschen und jederzeit einen neuen Chat starten.
-
-Wählen Sie im Bildschirm des AI-Assistenten **Neuer Chat** aus und wählen Sie dann **Ja** aus.
+Um die aktuelle Unterhaltung zu löschen und neu zu starten, wählen Sie **Neuer Chat** auf dem Bildschirm des AI-Assistenten aus, und wählen Sie dann **Ja**.
 
 ![Neuen Chat im Teilnehmerassistenten starten](assets/start-new-chat.png)
 
 Der AI-Assistent bietet Teilnehmern schnelle, kontextbezogene Antworten, unterstützt mehrere Inhaltstypen und bietet Inline-Zitate für mehr Transparenz. Administratoren können den Zugriff steuern und stellen sicher, dass der AI Assistant auf die organisatorischen Anforderungen zugeschnitten ist und das Lernerlebnis verbessert.
 
 
-## Fehlerbehebung
+## Beheben von Problemen mit dem AI-Assistenten
 
->[!NOTE]
->
->Nachdem Sie einen neuen Katalog konfiguriert haben, warten Sie 4 bis 5 Stunden, bis der Inhalt indiziert und für die Antworten des AI-Assistenten verfügbar ist.
+> **HINWEIS**
+> Nachdem Sie einen neuen Katalog konfiguriert haben, warten Sie 4 bis 5 Stunden, bis der Inhalt indiziert und für die Antworten des AI-Assistenten verfügbar ist.
 
-### Szenario 1: Kein Zugriff auf Inhalte
+### Kein Zugriff auf Inhalte
 
-Problem: Der Teilnehmer hat Zugriff auf den Teilnehmerassistenten, erhält aber die Antworten &quot;Ich habe keine Antwort auf diese Frage&quot;.
+**Problem:** Ein Teilnehmer hat Zugriff auf den AI-Assistenten, erhält aber Antworten zum Thema &quot;Ich habe keine Antwort auf diese Frage&quot;.
 
-**Mögliche Ursachen**
+**Mögliche Ursachen:**
 
-* Teilnehmerkataloge sind bei der Konfiguration des AI-Assistenten nicht enthalten.
-* Inhalt, der mit der Frage verknüpft ist, befindet sich nicht in ausgewählten Katalogen oder Kataloge sind leer
-* Teilnehmer hat keine Sichtbarkeit für relevante Inhalte
+- Die Kataloge der Teilnehmer sind nicht in der AI Assistant-Konfiguration enthalten.
+- Der Inhalt, der mit der Frage verknüpft ist, befindet sich nicht in den ausgewählten Katalogen, oder die Kataloge sind leer.
+- Der Teilnehmer hat keine Sichtbarkeit für den relevanten Inhalt.
 
-**Lösung**
+**Lösung:**
 
-* Überprüfen des Katalogzugriffs des Teilnehmers
-* Überprüfen, welche Kataloge in den Einstellungen des Teilnehmerassistenten aktiviert sind
-* Sicherstellen, dass relevante Inhalte in diesen Katalogen vorhanden sind
-* Einige Stunden nach dem Hinzufügen neuer Inhalte zur Indizierung warten
+- Überprüfen Sie den Katalogzugriff des Teilnehmers.
+- Überprüfen Sie, welche Kataloge in den Einstellungen des AI-Assistenten aktiviert sind.
+- Stellen Sie sicher, dass relevante Inhalte in diesen Katalogen vorhanden sind.
+- Warten Sie einige Stunden nach dem Hinzufügen neuer Inhalte, bis sie indiziert werden.
 
-### Szenario 2: Irrelevante oder qualitativ schlechte Antworten
+### Irrelevante oder qualitativ schlechte Antworten
 
-**Problem**: Der AI-Assistent stellt Antworten bereit, die nicht mit der Frage übereinstimmen oder von geringer Qualität sind.
+**Problem:** Der AI-Assistent stellt Antworten bereit, die nicht mit der Frage übereinstimmen oder von geringer Qualität sind.
 
-**Mögliche Ursachen**
+**Mögliche Ursachen:**
 
-* Die Frage ist zu weit gefasst oder unklar
-* Relevanter Inhalt hat schlechte Metadaten (Beschreibungen, Tags)
-* Die Inhaltsstruktur erschwert das Extrahieren von Informationen
+- Die Frage ist zu weit gefasst oder zu unklar.
+- Relevante Inhalte haben schlechte Metadaten (Beschreibungen, Tags).
+- Die Inhaltsstruktur erschwert das Extrahieren von Informationen.
 
-**Lösung**
+**Lösung:**
 
-* Ermutigen Sie Teilnehmer, spezifischere Fragen zu stellen
-* Überprüfen und verbessern Sie Kursbeschreibungen und Metadaten
-* Sicherstellen, dass Inhalte klare Überschriften und Strukturen aufweisen
-* Detaillierten Nutzungsbericht lesen, um Muster zu identifizieren
-* Erwägen Sie die Erstellung von Arbeitshilfen für häufig gestellte Fragen.
+- Ermutigen Sie Teilnehmer, spezifischere Fragen zu stellen.
+- Überprüfen und verbessern Sie Kursbeschreibungen und Metadaten.
+- Vergewissern Sie sich, dass die Inhalte klare Überschriften und Strukturen aufweisen.
+- Überprüfen Sie den detaillierten Nutzungsbericht, um Muster zu identifizieren.
+- Erwägen Sie die Erstellung von Arbeitshilfen für häufig gestellte Fragen.
 
-### Szenario 3: Fragen außerhalb des Anwendungsbereichs
+### Nicht in den Zuständigkeitsbereich fallende Fragen
 
-**Problem**: Der Teilnehmer stellt Fragen, die nichts mit Schulungsinhalten zu tun haben.
+**Problem:** Ein Teilnehmer stellt Fragen, die nichts mit Schulungsinhalten zu tun haben.
 
-**Beispiele**:
+**Beispiele:**
 
-* Allgemeine Wissensfragen (&#39;Wer ist der Präsident?&#39;)
-* Persönliche Meinungen (&#39;Was halten Sie von X?&#39;)
-* Unangemessene Inhalte
+- Allgemeine Wissensfragen (&quot;Wer ist der Präsident?&quot;)
+- Persönliche Meinungen (&quot;Was halten Sie von X?&quot;)
+- Unangemessene Inhalte
+
+Der AI Assistant ist darauf ausgelegt, Fragen nur auf der Grundlage zugewiesener Lerninhalte zu beantworten, und antwortet nicht auf Anfragen außerhalb des Zuständigkeitsbereichs.
