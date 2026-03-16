@@ -2,7 +2,7 @@
 title: Neue Funktionen in der Adobe Learning Manager-Version April 2026
 description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und wichtigen Updates in der Adobe Learning Manager-Version vom April 2026.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: 1cbdd4ca217ecc760e942e99303ca7841a20c5b6
+source-git-commit: 78b345adf3fb39cdfa728ff4a788be1b36fff906
 workflow-type: tm+mt
 source-wordcount: '20211'
 ht-degree: 0%
@@ -162,53 +162,53 @@ Mit dem aktualisierten Connector:
 
 #### Bessere VILT-Planung im benötigten Umfang.
 
-Organisationen können jetzt:
+Organisationen haben jetzt folgende Möglichkeiten:
 
-* Gleichzeitiges Ausführen mehrerer Zoom-basierter virtueller Klassenzimmer (z. B. parallele Spuren auf einem virtuellen Gipfel, regionale Kohorten oder separate Partnerschulungen).
+* Führen Sie mehrere Zoom-basierte virtuelle Klassenzimmer gleichzeitig aus (z. B. parallele Kurse an einem virtuellen Gipfel, regionale Kohorten oder separate Partnerschulungen).
 
-* Vermeiden Sie Engpässe, die Administratoren zuvor zwangen, Sitzungen zu serialisieren oder sich auf die manuelle Zoom-Verwaltung zu verlassen.
+* Vermeiden Sie Engpässe, die Administratoren zuvor zwangen, Sitzungen zu serialisieren, oder nutzen Sie die manuelle Zoom-Verwaltung.
 
-#### Geringerer Verwaltungsaufwand für Administratoren und Autoren
+#### Verringerter Administrator- und Autorenaufwand
 
-Durch die Verbesserung entfällt:
+Durch die Verbesserung entfällt Folgendes:
 
 * Manuelle Erstellung von Zoom-Meetings außerhalb von Adobe Learning Manager.
 
-* Kopieren Sie URLs zum Zoomen und fügen Sie sie für sich überschneidende Sitzungen in jede Kursinstanz ein.
+* Kopieren Sie Zoom-URLs und fügen Sie sie für überlappende Sitzungen in jede Kursinstanz ein.
 
-* Risiko von falsch konfigurierten Links, falschen Besprechungen oder verpasster Anwesenheitsverfolgung.
+* Risiko falsch konfigurierter Links, falscher Meetings oder fehlender Anwesenheitsverfolgung.
 
-Administratoren und Autoren können alle Zoom-Sitzungen von Adobe Learning Manager aus mithilfe vertrauter Workflows verwalten.
+Administratoren und Autoren können alle Zoom-Sitzungen über Adobe Learning Manager mithilfe vertrauter Workflows verwalten.
 
-#### Bessere Abstimmung mit Zoom-Bereitstellung und Kursleiterrollen
+#### Bessere Ausrichtung an Zoom-Bereitstellung und Kursleiterrollen
 
-Durch die Verknüpfung von Meetings mit einzelnen Zoom-Konten von Kursleitern:
+Durch Verbinden von Meetings mit einzelnen Kursleiter-Zoom-Konten:
 
 * Jeder Kursleiter kann innerhalb seiner eigenen Zoom-Lizenzbeschränkungen arbeiten.
 
-* Unternehmen können ihr bestehendes Zoom-Bereitstellungsmodell verwenden (ein Konto pro Trainer, pro Einheit usw.) bei weiterhin vollständiger Integration mit Adobe Learning Manager.
+* Unternehmen können ihr bestehendes Zoom-Bereitstellungsmodell verwenden (ein Konto pro Trainer, pro Geschäftseinheit usw.). und dennoch vollständig mit Adobe Learning Manager integrieren.
 
-* Dadurch wird der aus einem Punkt bestehende Engpass vermieden, der bei der Verwendung eines freigegebenen Zoom-Benutzers mit Administratorrechten für alle Sitzungen besteht.
+* Dadurch wird der Single-Point-Engpass vermieden, den die Verwendung eines gemeinsamen Super-Admin-Zoom-Benutzers für alle Sitzungen verursacht.
 
 ### Anwendungsszenarien
 
-#### Mehrgleisige virtuelle Veranstaltungen und Gipfeltreffen
+#### Multitrack-Veranstaltungen und -Gipfeltreffen
 
 Kundenschulungsteams, die große Veranstaltungen durchführen (z. B. Produkt-Bootcamps, Partnergipfel oder Zertifizierungswochen), können:
 
-* Konfigurieren Sie mehrere Zoom-basierte Sitzungen im selben Zeitfenster (für verschiedene Tracks oder Themen).
+* Konfigurieren Sie mehrere Zoom-basierte Sitzungen im selben Zeitfenster (für verschiedene Spuren oder Themen).
 
-* Verwalten Sie alle Kurse und Lernpfade von Adobe Learning Manager als VILT-Module.
+* Verwalten Sie sie alle als VILT-Module in den Kursen und Lernpfaden von Adobe Learning Manager.
 
-* Bieten Sie Teilnehmern ein einheitliches Erlebnis, während der Connector die gesamte zugrunde liegende Erstellung von Zoom-Meetings verarbeitet.
+* Bieten Sie Teilnehmern ein einheitliches Erlebnis, während der Connector die gesamte Erstellung von Zoom-Meetings übernimmt.
 
 #### Globale Partner- und Kundenschulungen
 
-Organisationen, die Kunden und Partner in verschiedenen Regionen schulen, können:
+Organisationen, die Kunden und Partner in verschiedenen Regionen schulen, können Folgendes:
 
-* Führen Sie separate Zoom-Sitzungen für EMEA, APAC und Nord- und Südamerika zu überlappenden Zeiten durch, um die lokalen Arbeitszeiten einzuhalten.
+* Führen Sie separate Zoom-Sitzungen für EMEA, APAC und Nord- und Südamerika zu überlappenden Zeiten durch, um die lokalen Arbeitszeiten abzugleichen.
 
-* Vermeiden Sie es, einen einzigen globalen Zeitschlitz oder eine manuelle Zoom-Einrichtung für zusätzliche Kohorten zu erzwingen.
+* Vermeiden Sie es, einen einzelnen globalen Zeitschlitz oder manuellen Zoom-Setup für zusätzliche Kohorten zu erzwingen.
 
 #### Interne Aktivierung
 
@@ -264,53 +264,53 @@ Das Unternehmen verwendet ALM mit:
 
 * ein Hauptkonto, dem die kanonischen Kurse gehören, und
 
-* Peer-Konten, die Inhalte über freigegebene Kataloge erfassen.
+* Peer-Konten, die Inhalte über freigegebene Kataloge erwerben.
 
-Teilnehmer in Peer-Konten müssen wissen, welches Unternehmens-Team einen Kurs verfasst hat, um Fragen oder Verbesserungsvorschläge korrekt weiterzuleiten.
+Teilnehmer in Peer-Konten müssen wissen, welches Unternehmensteam einen Kurs erstellt hat, um Fragen oder Verbesserungsvorschläge korrekt weiterzuleiten.
 
 Mit dieser Verbesserung:
 
-* Freigegebene Kurse zeigen jetzt in Peer-Konten den richtigen Namen des Unternehmensautors an.
+* Freigegebene Kurse zeigen jetzt den richtigen Unternehmensautorennamen in Peer-Konten an.
 
-* Die interne Support-Belastung des Unternehmens wird reduziert, da Teilnehmer und lokale Administratoren wissen, an wen sie sich wenden müssen.
+* Die interne Supportlast des Unternehmens wird verringert, da Teilnehmer und lokale Administratoren wissen, an wen sie sich wenden müssen.
 
 #### Interne Multi-BU-Freigabe
 
-Wo ein Geschäftsbereich Lernprogramme für andere kuratiert:
+Wo eine Geschäftseinheit das Lernen für andere kuratiert:
 
-* Die besitzende Geschäftseinheit kann im Feld „Autor“ für alle verbrauchenden Konten identifiziert werden.
+* Die Eigentümer-BU kann im Autorenfeld für alle konsumierenden Konten identifiziert werden.
 
-* Lokale L&amp;D-Administratoren können schnell feststellen, ob ein Kurs lokal oder von einer anderen Geschäftseinheit gepflegt wird, und arbeiten entsprechend zusammen.
+* Lokale L&amp;D-Administratoren können schnell erkennen, ob ein Kurs lokal oder von einer anderen Geschäftseinheit verwaltet wird, und entsprechend zusammenarbeiten.
 
-## Anzeigen des Ablaufdatums des Lernobjekts (automatischer Ablauf) in Teilnehmer-APIs
+## Verfügbarmachen des Ablaufdatums des Lernobjekts (automatische Einstellung) in Teilnehmer-APIs
 
 ### Übersicht
 
-Durch diese Verbesserung wird das Datum der automatischen Außerkraftsetzung eines Lernobjekts (LO) direkt über die für Lernende geeigneten APIs von Adobe Learning Manager verfügbar. Wenn ein Kurs, Lernpfad oder eine Zertifizierung mit einem Ablaufdatum oder einem Datum für die automatische Außerkraftsetzung konfiguriert ist, sind diese Informationen jetzt Teil der Protokolldaten, die von wichtigen Teilnehmerendpunkten zurückgegeben werden.
+Durch diese Verbesserung wird das Datum der automatischen Einstellung eines Lernobjekts (LO) direkt über die APIs für Teilnehmer in Adobe Learning Manager verfügbar gemacht. Wenn ein Kurs, ein Lernpfad oder eine Zertifizierung mit einem Ablaufdatum oder einem Datum für die automatische Einstellung konfiguriert ist, sind diese Informationen jetzt Teil der LO-Daten, die von wichtigen Teilnehmerendpunkten zurückgegeben werden.
 
 ### Neue Funktionen
 
-#### Neues Feld für Ablauf/automatische Außerkraftsetzung in Teilnehmer-APIs
+#### Neues Feld für das Ablaufen/automatische Einstellen in Teilnehmer-LO-APIs
 
-* Die Teilnehmer-LO-APIs (z. B. die Endpunkte, die Lernobjekte an das Lernerlebnis und externe Plattformen zurückgeben) enthalten jetzt das LO-Ablaufdatum (das für dieses Lernobjekt konfigurierte Datum für die automatische Außerkraftsetzung).
+* Die Teilnehmer-LO-APIs (z. B. die Endpunkte, die Lernobjekte an die Teilnehmererfahrung und an externe Plattformen zurückgeben) enthalten jetzt das LO-Ablaufdatum (das für dieses Lernobjekt konfigurierte Datum für die automatische Einstellung).
 
-* Dieses Feld wird als Teil der LOG-Entität in Antworten zurückgegeben, z. B.:
+* Dieses Feld wird als Teil der LO-Entität in Antworten wie den folgenden zurückgegeben:
 
-   * Lernobjekt abrufen (Protokolldetails).
+   * Lernobjekt abrufen (LO-Details).
 
-   * Protokolldaten, die zum Ausfüllen der Teilnehmer-Startseite, des Katalogs und der Suchergebnisse verwendet werden.
+   * LO-Daten, die zum Füllen der Startseite, des Katalogs und der Suchergebnisse der Teilnehmer verwendet werden.
 
-* Das Feld ergänzt den vorhandenen Abschlusstermin, der bereits auf Instanzebene vorhanden ist. Das neue Feld ist insbesondere das Datum der automatischen Außerkraftsetzung auf niedriger Ebene.
+* Das Feld ergänzt die vorhandene Frist für Fertigstellung, die bereits auf Instanzebene vorhanden ist. Das neue Feld ist speziell das Datum der automatischen Einstellung auf LO-Ebene.
 
-#### Verfügbarkeit von suchgestützten Lernerfahrungen
+#### Verfügbarkeit von durchsuchten Teilnehmererlebnissen
 
-Da das Ablaufdatum als Teil der durchsuchten LO-Darstellung angezeigt wird, ist es jetzt überall in ALM verfügbar oder auf einer externen Plattform verfügbar, die verwendet:
+Da das Ablaufdatum als Teil der suchbasierten LO-Darstellung angezeigt wird, ist es jetzt überall verfügbar, wo ALM oder eine externe Plattform verwendet:
 
-* APIs suchen oder
+* Such-APIs oder
 
-* Suchgesteuerte Kataloge und Vorschläge zum Erstellen von Teilnehmeransichten.
+* suchgesteuerte Kataloge und Vorschläge zum Erstellen von Teilnehmeransichten.
 
-**Anwendungsbereich und Ausschlüsse**
+**Umfang und Ausschlüsse**
 
 Die Verbesserung gilt nur für Teilnehmer-APIs.
 
@@ -2458,3 +2458,4 @@ Das System unterscheidet zwischen tatsächlicher und alternativer Fertigstellung
 * Wenn die Beziehung zwischen Quelle und Ziel entfernt oder geändert wird, kann ALM die alternativen Abschlüsse entfernen oder anpassen, ohne echte Abschlüsse zu berühren, sofern rückwirkende nicht abgeschlossene Abschlüsse für das Konto aktiviert sind.
 
 Alternative Abschlüsse sollen die tatsächliche Teilnehmeraktivität in der Zielschulung nicht beeinträchtigen. Sie fungieren als Overlay, das überarbeitet werden kann, wenn sich die Beziehungen ändern.
+

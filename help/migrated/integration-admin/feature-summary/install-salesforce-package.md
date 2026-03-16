@@ -1,28 +1,28 @@
 ---
 jcr-language: en_us
 title: Installieren des Salesforce-Pakets
-description: Learning Manager bietet ein Salesforce-App-Paket. Nach der Installation und Konfiguration in SFDC können Vertriebsmitarbeiter ihre Schulungen im SFDC-Portal durchführen. Mit dieser App können SFDC-Benutzer neue Schulungen durchsuchen, Empfehlungen anzeigen und diese direkt im SFDC-Portal nutzen. Benutzer erhalten auch die Ankündigungen, die von Administratoren in Form von Mastertiteln direkt in der App im SFDC-Portal gesendet werden.
+description: Learning Manager bietet ein Salesforce-App-Paket. Nach der Installation und Konfiguration in SFDC können Vertriebsmitarbeiter ihre Schulungen im SFDC-Portal durchführen. Mit dieser App können SFDC-Benutzer neue Schulungen durchsuchen, Empfehlungen anzeigen und diese direkt im SFDC-Portal nutzen. Die Benutzer erhalten auch die Ankündigungen, die von Administratoren in Form von Masterseiten direkt in der App im SFDC-Portal gesendet werden.
 contentowner: saghosh
 exl-id: 2b1c32e7-81af-4c13-a2bd-66684cde084e
-source-git-commit: 5d50bd56b6663b26fc6db0ff33d19ad809e9bf6a
+source-git-commit: d998e8f55c64a47de3d6171c0e2a82070021c98f
 workflow-type: tm+mt
-source-wordcount: '1053'
-ht-degree: 47%
+source-wordcount: '1065'
+ht-degree: 64%
 
 ---
 
 # Installieren des Salesforce-Pakets
 
-## Überblick
+## Übersicht
 
-Learning Manager bietet ein Salesforce-App-Paket. Nach der Installation und Konfiguration in SFDC können Vertriebsmitarbeiter ihre Schulungen im SFDC-Portal durchführen. Mit dieser App können SFDC-Benutzer neue Schulungen durchsuchen, Empfehlungen anzeigen und diese direkt im SFDC-Portal nutzen. Benutzer erhalten auch die Ankündigungen, die von Administratoren in Form von Mastertiteln direkt in der App im SFDC-Portal gesendet werden.
+Learning Manager bietet ein Salesforce-App-Paket. Nach der Installation und Konfiguration in SFDC können Vertriebsmitarbeiter ihre Schulungen im SFDC-Portal durchführen. Mit dieser App können SFDC-Benutzer neue Schulungen durchsuchen, Empfehlungen anzeigen und diese direkt im SFDC-Portal nutzen. Die Benutzer erhalten auch die Ankündigungen, die von Administratoren in Form von Masterseiten direkt in der App im SFDC-Portal gesendet werden.
 
 ### Einrichten in der Learning Manager-App
 
 1. Melden Sie sich bei Ihrem Learning Manager-Admin-Konto als Integrationsadministrator an.
 1. Klicken Sie auf **[!UICONTROL Anwendungen]** > **[!UICONTROL Empfohlene Apps]**.
 1. Klicken Sie auf **[!UICONTROL Salesforce]**.
-1. Beachten Sie auf der Salesforce-App-Seite die Anwendungs-ID (auch als Client-ID bezeichnet) und das in der Beschreibung erwähnte Client-Secret.
+1. Beachten Sie auf der Salesforce-App-Seite die Anwendungs-ID (wird auch als Client-ID bezeichnet) und das in der Beschreibung erwähnte Client-Secret.
 1. Klicken Sie auf **[!UICONTROL Genehmigen]**, und Ihre App muss erfolgreich genehmigt werden.
 1. Klicken Sie auf **[!UICONTROL Entwicklerressourcen]** > **[!UICONTROL Zugriffstoken für Tests und Entwicklung]**.
 1. Im Abschnitt &quot;Abrufen des OAuth-Codes&quot; müssen die Client-ID und der Umfang auf &quot;admin:read,admin:write&quot; festgelegt werden. Klicken Sie auf **[!UICONTROL Senden]**.
@@ -30,10 +30,10 @@ Learning Manager bietet ein Salesforce-App-Paket. Nach der Installation und Konf
 
 ### Erstellen eines Kontos in der Salesforce-App
 
-1. Erstellen Sie ein Konto auf der Salesforce-Anmeldeseite. Sie müssen ein Salesforce-Konto in der Entwickler- oder Unternehmensversion erstellen.  [Entwickler-Anmelde-URL](https://developer.salesforce.com/signup). Stellen Sie sicher, dass Sie für die Anmeldung bei Salesforce die E-Mail-ID verwenden, die Sie für Learning Manager verwendet haben.
+1. Erstellen Sie ein Konto auf der Salesforce-Anmeldeseite. Sie müssen das Salesforce-Konto in der Entwickler- oder Unternehmensversion erstellen.  [Entwickler-Anmelde-URL](https://developer.salesforce.com/signup). Stellen Sie sicher, dass Sie für die Anmeldung bei Salesforce die E-Mail-ID verwenden, die Sie für Learning Manager verwendet haben.
 1. Bestätigen Sie Ihr Konto über die Bestätigungs-E-Mail.
 1. Erstellen Sie ein Kennwort und melden Sie sich bei Salesforce an.
-1. Notieren Sie sich die Salesforce-URL nach der Anmeldung (z. B. site.lightning.force.com).
+1. Notieren Sie nach der Anmeldung die Salesforce-URL (z. B. site.lightning.force.com).
 
 ### Installieren des Learning Manager-Pakets
 
@@ -47,13 +47,13 @@ Wenn Sie das Paket installieren möchten, müssen Sie zunächst das vorhandene P
 >
 >Die Adobe Learning Manager-App wird nur in der Salesforce-Lightning-Ansicht unterstützt.
 
-1. Starten Sie die [Lern-Manager-Paket-URL &#x200B;](https://test.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000FvU2).
+1. Starten Sie die [Lern-Manager-Paket-URL ](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000HciS).
 1. Klicken Sie auf der Seite **Anmeldung** auf **[!UICONTROL Benutzerdefinierte Domäne verwenden]**.
-1. Geben Sie die Paket-URL ein und klicken Sie auf **[!UICONTROL Weiter]**. Auf der Installationsseite muss die Option Nur für Administratoren installieren ausgewählt sein. Ändern Sie diese Option nicht.
-1. Klicken Sie auf **[!UICONTROL Installieren]**. Klicken Sie nach der Installation des Pakets auf **[!UICONTROL Fertig]**. Sie werden zur Seite „Installierte Pakete“ geleitet, auf der das installierte Adobe Learning Manager-Paket angezeigt wird.
+1. Geben Sie die Paket-URL ein und klicken Sie auf **[!UICONTROL Weiter]**. Auf der Installationsseite muss die Option „Nur für Administratoren installieren“ aktiviert sein. Ändern Sie diese Option nicht.
+1. Klicken Sie auf **[!UICONTROL Installieren]**. Nachdem das Paket installiert wurde, klicken Sie auf **[!UICONTROL Fertig stellen]**. Sie werden zur Seite „Installierte Pakete“ geleitet, auf der das installierte Adobe Learning Manager-Paket angezeigt wird.
 
 1. Navigieren Sie zum App Launcher (neben „Einrichtung“) und suchen Sie Adobe Learning Manager.
-1. Klicken Sie zum Konfigurieren der App auf **[!UICONTROL Konfigurieren]**.
+1. Um die App zu konfigurieren, klicken Sie auf **[!UICONTROL Konfigurieren]**.
 1. Klicken Sie auf **[!UICONTROL Neu]** und fügen Sie die folgenden Details hinzu:
 
    * **Konfigurieren:** Geben Sie den gewünschten Namen ein.
@@ -93,7 +93,7 @@ Gehen Sie wie folgt vor, um die Adobe-Domäne vertrauenswürdigen URLs hinzuzuf�
 
 ### Aktivieren von Benachrichtigungen für die Learning Manager-App
 
-1. Klicken Sie in der oberen rechten Ecke auf **Setup**.
+1. Klicken Sie oben rechts auf **Einrichtung**.
 1. Suchen Sie nach „Benutzerdefinierte Benachrichtigungen“.
 1. Klicken Sie auf **[!UICONTROL Neu]**.
 1. Geben Sie die folgenden Details ein:
@@ -113,7 +113,7 @@ Gehen Sie wie folgt vor, um die Adobe-Domäne vertrauenswürdigen URLs hinzuzuf�
 
 ### Deinstallieren von Learning Manager aus Salesforce
 
-1. Navigieren Sie in der Salesforce-App zu &quot;Installierte Pakete&quot;.
+1. Navigieren Sie in der Salesforce-App zu „Installierte Pakete“.
 1. Klicken Sie auf **[!UICONTROL Deinstallieren]**.
 
 ## Konfigurieren von Learning Manager für Salesforce-Benutzer
@@ -142,7 +142,7 @@ Als Nächstes müssen Sie die Berechtigung für den Zugriff auf die Learning Man
 
 *Berechtigungen für den Zugriff auf die Learning Manager-App hinzufügen*
 
-Wenn Sie das Paket installieren, wird ein neuer Berechtigungssatz erstellt: **Adobe Learning Manager-Benutzer**. Wechseln Sie zum Berechtigungssatz und fügen Sie dann die Benutzer hinzu.
+Wenn Sie das Paket installieren, wird ein neuer Berechtigungssatz erstellt. **Adobe Learning Manager-Benutzer**. Wechseln Sie zum Berechtigungssatz und fügen Sie dann die Benutzer hinzu.
 
 Wählen Sie die Benutzer aus und weisen Sie die Berechtigungen entsprechend zu. Die Teilnehmenden können jetzt auf die Learning Manager-App zugreifen.
 
