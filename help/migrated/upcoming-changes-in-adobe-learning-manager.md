@@ -2,9 +2,9 @@
 title: Neue Funktionen in der Adobe Learning Manager-Version April 2026
 description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und wichtigen Updates in der Adobe Learning Manager-Version vom April 2026.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: 78b345adf3fb39cdfa728ff4a788be1b36fff906
+source-git-commit: 47d49f4bbb81db88635b2c115768e15a3818e153
 workflow-type: tm+mt
-source-wordcount: '20211'
+source-wordcount: '20175'
 ht-degree: 0%
 
 ---
@@ -1730,6 +1730,7 @@ Die Unterstützung mehrsprachiger Videotextspuren (VTT) in Adobe Learning Manage
 
 ### Wichtigste Funktionen
 
+* **Automatische VTT-Generierung:** Laden Sie eine Video- oder Audiodatei hoch und generieren Sie VTT-Untertitel automatisch in der Originalsprache.
 * **Mehrsprachige Übersetzung:** Übersetzen Sie Untertitel in eine der 39 unterstützten nicht englischen Sprachen.
 * **In-App-Überprüfung und -Bearbeitung:** Überprüfen, bearbeiten und laden Sie VTT-Dateien vor der Veröffentlichung herunter.
 * **Benachrichtigungen:** Erhalten Sie In-App-Benachrichtigungen, wenn die VTT-Generierung und -Übersetzung abgeschlossen sind.
@@ -1737,9 +1738,9 @@ Die Unterstützung mehrsprachiger Videotextspuren (VTT) in Adobe Learning Manage
 
 ### Inhalte hochladen und VTT generieren
 
-1. Wechseln Sie zur Inhaltsbibliothek und wählen Sie **Hinzufügen > Inhalt** aus.
+1. Wechseln Sie zur Inhaltsbibliothek und wählen Sie **Inhalt hinzufügen**.
 2. Lade eine MP3- oder MP4-Datei hoch.
-3. Wählen Sie im Dialogfeld &quot;Hochladen&quot; die Option &quot;**Übersetzungen generieren**&quot;.
+3. Wählen Sie im Upload-Dialogfeld die Option zum **Generieren der Übersetzung**.
 4. Wählen Sie die ursprüngliche Inhaltssprache aus (die Standardsprache ist die Sprache der Datei).
 5. Wählen Sie weitere Zielsprachen für die Übersetzung aus (bis zu 39 werden unterstützt).
 6. Wählen Sie **Speichern**. Das System beginnt mit der Generierung und Übersetzung von VTT-Dateien.
@@ -1954,10 +1955,7 @@ Mit dieser Funktion können Reviewer während der Checklistenauswertung Kommenta
 
 ## Erweiterte Suchverbesserungen
 
-Die Suchergebnisse in der erweiterten Suche sind jetzt genauer und relevanter. Genaue Stichwortübereinstimmungen werden bei der inhaltsbezogenen Suche und den Metadaten höher eingestuft, was es den Teilnehmern erleichtert, genau das zu finden, wonach sie suchen.
-
-Teilnehmer können jetzt auch registrierte Lernobjekte in den Suchergebnissen sehen, selbst wenn sie nicht Teil eines barrierefreien Katalogs sind, wodurch sichergestellt wird, dass keine relevanten Inhalte verpasst werden. Darüber hinaus wurde das Ranking der Arbeitshilfen sowohl für die erweiterte Suche als auch für die inhaltsinterne Suche verbessert, sodass die relevantesten Ressourcen schneller angezeigt werden.
-
+Diese Version enthält eine Verbesserung der inhaltsbezogenen Suche, indem die Kurse mit Inhalt, der mit einer Abfrage mit höherem Rang übereinstimmt, angezeigt werden. Außerdem sind Arbeitshilfen jetzt in die erweiterte Suchrangfolge aufgenommen worden.
 
 ## Entsprechungen und Stellvertreter
 
@@ -2458,4 +2456,3 @@ Das System unterscheidet zwischen tatsächlicher und alternativer Fertigstellung
 * Wenn die Beziehung zwischen Quelle und Ziel entfernt oder geändert wird, kann ALM die alternativen Abschlüsse entfernen oder anpassen, ohne echte Abschlüsse zu berühren, sofern rückwirkende nicht abgeschlossene Abschlüsse für das Konto aktiviert sind.
 
 Alternative Abschlüsse sollen die tatsächliche Teilnehmeraktivität in der Zielschulung nicht beeinträchtigen. Sie fungieren als Overlay, das überarbeitet werden kann, wenn sich die Beziehungen ändern.
-
