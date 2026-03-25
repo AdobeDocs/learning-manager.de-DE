@@ -2,9 +2,9 @@
 title: Neue Funktionen in der Adobe Learning Manager-Version April 2026
 description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und wichtigen Updates in der Adobe Learning Manager-Version vom April 2026.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: 47d49f4bbb81db88635b2c115768e15a3818e153
+source-git-commit: f2f27ac33c1d1e556bd0c9b6aefd66f930a225c6
 workflow-type: tm+mt
-source-wordcount: '20175'
+source-wordcount: '20997'
 ht-degree: 0%
 
 ---
@@ -2456,3 +2456,91 @@ Das System unterscheidet zwischen tatsächlicher und alternativer Fertigstellung
 * Wenn die Beziehung zwischen Quelle und Ziel entfernt oder geändert wird, kann ALM die alternativen Abschlüsse entfernen oder anpassen, ohne echte Abschlüsse zu berühren, sofern rückwirkende nicht abgeschlossene Abschlüsse für das Konto aktiviert sind.
 
 Alternative Abschlüsse sollen die tatsächliche Teilnehmeraktivität in der Zielschulung nicht beeinträchtigen. Sie fungieren als Overlay, das überarbeitet werden kann, wenn sich die Beziehungen ändern.
+
+## Änderungen am Bericht zu Teilnehmertranskripten in dieser Version
+
+### Spalte &quot;Abschlussmethode&quot;
+
+Die Spalte &quot;Abschlussmethode&quot; zeigt an, wie jeder Datensatz im Teilnehmertranskript des Administrators abgeschlossen wurde.
+
+Werte:
+
+* Direkt (für direkte Abschlüsse)
+* Alternative (für Abschlüsse, die über alternative Beziehungen erzielt werden)
+* Alternativer Widerruf (wenn alle alternativen Abschlüsse aufgrund rückwirkender Unvollständigkeit und Beziehungsentfernung widerrufen werden)
+
+>[!NOTE]
+>
+>Diese Spalte ist im LT des Teilnehmers nicht sichtbar; sie ist nur im LT des Administrators für Berichts- und Verfolgungszwecke verfügbar.
+
+#### Auswirkungen
+
+Ermöglicht klare Audit-Verläufe, Compliance-Verfolgung und Transparenz für Administratoren hinsichtlich der Art und Weise, wie ein Kurs abgeschlossen wurde.
+
+### Verfolgung des alternativen Abschlusses in Teilnehmertranskripten
+
+Mit alternativen Abschlüssen können Teilnehmer einen Abschlusskredit für einen Zielkurs oder Lernpfad erhalten, wenn sie einen gleichwertigen Quellkurs oder -pfad basierend auf eingerichteten Beziehungen abgeschlossen haben.
+
+Im Teilnehmertranskript (LT) wirken sich alternative Abschlüsse auf drei vorhandene Spalten aus: Status, Abschlussdatum und Abschlussquelle:
+
+* **Status**: Der Status kann abgeschlossen werden, selbst wenn der Teilnehmer den Zielkurs/Pfad aufgrund eines alternativen Abschlusses nicht direkt abgeschlossen hat. Andere Status (Nicht gestartet, In Bearbeitung, Nicht registriert) werden von Stellvertretern nicht beeinflusst. Nur &quot;Abgeschlossen&quot; ist von Stellvertretern betroffen.
+* **Abschlussdatum**: Das Abschlussdatum für einen alternativen Abschluss wird vom Quellkurs/Pfad geerbt, der den alternativen Abschluss ausgelöst hat. Wenn der Teilnehmer das Ziel später direkt abschließt, wird das Datum aktualisiert, um den direkten Abschluss widerzuspiegeln.
+* **Abschlussquelle**: In dieser Spalte werden die Schulungs-ID(s) des Quellkurses bzw. der Quellpfade erfasst, der bzw. die den alternativen Abschluss bereitgestellt hat. Wenn mehrere Quellen aktiv sind, werden alle relevanten IDs aufgelistet. Wenn Quellen widerrufen werden (bei aktivierter retroaktiver Unvollständigkeit), bleiben nur aktive Quellen erhalten. In der Spalte &quot;Abschlussquelle&quot; werden alle aktiven Quelltrainings-IDs (getrennt durch Kommas) aufgeführt. Wenn mehrere Quellen vorhanden sind, wird das früheste Abschlussdatum verwendet.
+
+#### Auswirkungen
+
+Alternative Abschlüsse reduzieren die manuelle Abstimmung, automatisieren die Fortschrittsverfolgung bei Lernpfaden und Zertifizierungen und unterstützen Compliance-Anforderungen.
+
+>[!NOTE]
+>
+>Teilnehmertranskripte zeigen die Spalte &quot;Abschlussmethode&quot; nicht an; dies ist nur in Administrator LT verfügbar.
+
+### Abschlussdatumslogik für Stellvertreter
+
+Die Spalte &quot;Abschlussdatum&quot; im Teilnehmertranskript (LT) ist ein vorhandenes Feld, das verwendet wird, um aufzuzeichnen, wenn ein Teilnehmer den Abschluss für einen Kurs oder einen Lernpfad erreicht, sei es auf direktem oder alternativem Weg. Bei alternativen Abschlüssen wird das Abschlussdatum vom Quellkurs oder Pfad geerbt, der bzw. der den alternativen Abschluss ausgelöst hat. Dies bedeutet, dass das Datum widerspiegelt, wann der Teilnehmer die Quelle abgeschlossen hat, nicht das Ziel.
+
+Wenn ein Teilnehmer den Zielkurs oder -pfad später direkt abschließt, wird das Abschlussdatum auf das Datum des direkten Abschlusses aktualisiert und das vorherige alternative Abschlussdatum überschrieben.
+
+Für alternative Abschlussdaten wird keine neue Spalte hinzugefügt. Die vorhandene Spalte &quot;Abschlussdatum&quot; wird sowohl für direkte als auch für alternative Abschlüsse verwendet. Wenn mehrere Quellen eine alternative Vervollständigung für ein Ziel bereitstellen können, wird das früheste aktive alternative Abschlussdatum unter den Quellen verwendet. Wenn eine Quelle widerrufen wird (bei aktivierter retroaktiver Unvollständigkeit), wird das Abschlussdatum auf die nächstliegende aktive Quelle aktualisiert oder gelöscht, wenn keine aktiven Quellen mehr vorhanden sind.
+
+#### Auswirkungen
+
+Die Logik des Abschlussdatums stellt eine genaue historische Verfolgung und Konsistenz in der Berichterstattung sicher, insbesondere wenn alternative Abschlüsse widerrufen oder aktualisiert werden.
+
+### Widerrufene alternative Abschlüsse
+
+Widerrufene alternative Abschlüsse treten auf, wenn der alternative Abschluss eines Teilnehmers für einen Zielkurs oder Lernpfad aufgrund des Widerrufs aller Quellbeziehungen entfernt wird, vorausgesetzt, die retroaktive Unvollständigkeit wird im Konto aktiviert.
+
+#### Auslösebedingungen
+
+* Die retroaktive Unvollständigkeit muss für das Konto aktiviert sein. Andernfalls wird durch das Entfernen der Quellbeziehungen die alternative Abfüllung nicht widerrufen.
+* Der Widerruf erfolgt nur, wenn alle aktiven Quellbeziehungen für ein Ziel entfernt wurden. Wenn mindestens eine Quelle erhalten bleibt, bleibt die alternative Vervollständigung bestehen, und die Spalte mit der Vervollständigungsquelle wird aktualisiert, um nur die verbleibenden aktiven Quellen widerzuspiegeln.
+
+#### Auswirkungen
+
+* Status: Wenn alle alternativen Abschlüsse widerrufen werden und kein direkter Abschluss vorhanden ist, wird der Status aktualisiert (z. B. von &quot;Abgeschlossen&quot; zu &quot;Nicht gestartet&quot; oder &quot;Wird ausgeführt&quot;).
+* Abschlussdatum: Das Abschlussdatum wird gelöscht, wenn keine aktiven Quellen mehr vorhanden sind und der Teilnehmer das Ziel nicht direkt abgeschlossen hat.
+* Vervollständigungsquelle: Die Spalte mit der Vervollständigungsquelle wird aktualisiert, um die widerrufenen Quellen zu entfernen. Wenn alle widerrufen werden, wird sie gelöscht.
+
+Wenn der Teilnehmer einen direkten Abschluss hat, wirkt sich das Widerrufen von Alternativen nicht auf seinen abgeschlossenen Status oder das Abschlussdatum aus.
+
+**Hinweis**:
+
+1. Wenn mehrere Quellen einen alternativen Abschluss bereitstellen und nur einige widerrufen werden, spiegelt die Einstellungsfrist die verbleibenden aktiven Quellen und ihr frühestes Abschlussdatum wider.
+2. Wenn alle Quellen widerrufen werden und kein direkter Abschluss vorhanden ist, verliert der Teilnehmer den Abschlussstatus für das Ziel.
+
+### Verbesserte Berichterstellung für Anmerkungen von Checklisten-Reviewern
+
+Reviewerkommentare aus Checklistenmodulen sind jetzt im LT-Bericht unter einer umbenannten Spalte Reviewerbemerkungen enthalten.
+
+#### Auswirkungen
+
+Teilnehmer und Administratoren können konsolidiertes Feedback anzeigen und so die Transparenz verbessern und die Leistungsbewertung unterstützen.
+
+### Verbesserte Berechnung der Lernzeit
+
+Der LT-Bericht verwendet jetzt eine verfeinerte Logik, um zwischen aktiver und untätiger Zeit, die für Lernmodule aufgewendet wurde, basierend auf Benutzeraktivität und Registerkartenfokus zu unterscheiden.
+
+#### Auswirkungen
+
+Präziseres Messen von Lerninteraktionen, Unterstützung von Compliance und Analysen.
