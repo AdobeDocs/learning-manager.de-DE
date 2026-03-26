@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Empfohlene Vorgehensweisen zum Einrichten von Learning Manager
 contentowner: jayakarr
 preview: true
-source-git-commit: 46afb6603456ced9d7e2aaf98d07ec92fee30c0b
+source-git-commit: d9ebd4dc2e20028dd795a26e790d1afe4c8dadf7
 workflow-type: tm+mt
-source-wordcount: '3387'
-ht-degree: 71%
+source-wordcount: '3402'
+ht-degree: 85%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 71%
 
 Dieses Dokument enthält die empfohlene Vorgehensweise für Unternehmen zur Einrichtung und Konfiguration von Adobe Learning Manager. Das Learning Manager-Team empfiehlt einen in Phasen unterteilten Ansatz für die ersten Schritte mit der Anwendung. Es ist nicht zwingend erforderlich, alle Phasen in einer bestimmten Reihenfolge zu durchlaufen.
 
-Diese Phasen können durch drei verschiedene Rollen von einer oder mehreren Personen basierend auf Ihrer Organisationseinrichtung durchgeführt werden. Die drei Rollen lauten wie folgt:
+Diese Phasen können je nach Aufbau Ihres Unternehmens mithilfe von drei verschiedenen Rollen durch eine oder mehrere Personen durchgeführt werden. Folgende drei Rollen stehen zur Verfügung:
 
 1. **IT-Administrator** - Der IT-Administrator führt aktivierungs- oder integrationsbezogene Aktivitäten durch, die mit der Learning Manager-Anwendung in einem Unternehmen verknüpft sind. Der IT-Administrator kann auch einzelne/mehrere Benutzer hinzufügen und die Rolle eines Integrationsadministrators ausführen.
 1. **Autor** - Der Autor erstellt Lerninhalte, die für die Lernanforderungen des Unternehmens erforderlich sind. Der Autor von Schulungs- oder Lerninhalten in Ihrem Unternehmen kann mit dem Erstellen der grundlegenden Inhalte beginnen, die für die Learning Manager-Anwendung erforderlich sind.
 1. **Learning Manager-Administrator** - Der Learning Manager-Anwendungsadministrator führt Konfigurations- und Einrichtungsaktivitäten durch. In einigen Unternehmen übernimmt der IT-Administrator unter Umständen auch die Rolle als Administrator der Learning Manager-Anwendung.
 
-Sie können die unten stehende Infografik durchgehen, um sich einen Überblick über die Phasen und die zugehörigen Aufgaben zu verschaffen.
+Die unten angezeigte Infografik liefert einen Überblick über die Phasen sowie die dazugehörigen Aufgaben.
 
 ![](assets/learning-manager-getting-started.jpg)
 
@@ -31,7 +31,7 @@ In diesem Stadium wird davon ausgegangen, dass Ihr Unternehmen bereits den Lizen
 
 ## Phase 1: Technische Einrichtung (IT-Administrator) {#phase1technicalsetupitadministrator}
 
-In Track 1 kann der IT-Administrator Ihres Unternehmens zur Rolle des Integrationsadministrators in der Learning Manager-Anwendung wechseln und einige Aktivierungs- und Integrationsvorgänge wie folgt ausführen:
+Im Ansatz 1 kann der IT-Administrator Ihres Unternehmens in die Rolle „Integrationsadministrator“ für die Learning Manager-Anwendung wechseln und einige Aktivierungen bzw. Integrationen wie folgt durchführen:
 
 ### Aktive Felder aktivieren/hinzufügen (Learning Manager-Administrator) {#enableaddactivefieldscaptivateprimeadministrator}
 
@@ -39,7 +39,7 @@ Zusätzlich zu den aktiven Feldern, die von den Benutzern während der Registrie
 
 ### Einmalige Anmeldung (Single Sign-On, SSO) {#singlesignonsso}
 
-Sie können mit der Adobe ID oder über einmalige Anmeldung (SSO) auf die Learning Manager-Anwendung zugreifen. Die einmalige Anmeldung (SSO) ist ein Verfahren, über das ein Benutzer einmal authentifiziert wird und mehrmals auf mehrere Anwendungen zugreifen kann. Diese Konfiguration ist für das Unternehmen nicht zwingend erforderlich. Wenn Ihr Unternehmen über einen auf SAML 2.0 basierten SSO-Anbieter verfügt, können Sie diesen für die Konfiguration der Learning Manager-Anwendung verwenden. Die Konfiguration ist auf Unternehmensebene und für die Learning Manager-Anwendung erforderlich. Wenn Sie SSO verwenden möchten, wenden Sie sich zwecks Konfigurationsanweisungen an den Support von Adobe. Weitere Informationen finden Sie in der Hilfe zu [Einstellungen](feature-summary/settings.md).
+Sie können mit der Adobe ID oder über einmalige Anmeldung (SSO) auf die Learning Manager-Anwendung zugreifen. Die einmalige Anmeldung (SSO) ist ein Verfahren, über das ein Benutzer einmal authentifiziert wird und mehrmals auf mehrere Anwendungen zugreifen kann. Diese Konfiguration ist für das Unternehmen nicht zwingend erforderlich. Wenn Ihr Unternehmen über einen auf SAML 2.0 basierten SSO-Anbieter verfügt, können Sie diesen für die Konfiguration der Learning Manager-Anwendung verwenden. Die Konfiguration ist auf Unternehmensebene und für die Learning Manager-Anwendung erforderlich. Wenn Sie SSO verwenden möchten, wenden Sie sich zwecks Konfigurationsanweisungen an den Support von Adobe. Weitere Informationen finden Sie in der [Hilfe zu Einstellungen](feature-summary/settings.md).
 
 ### Massenimport von Benutzern {#bulkimportofusers}
 
@@ -47,7 +47,7 @@ Wenn Sie eine große Anzahl von Benutzern in Ihrem Unternehmen haben, können Si
 
 ### Integration des FTP-Connectors {#ftpconnectorintegration}
 
-Wenn Sie Mitarbeiter in Ihrem Unternehmen fortlaufend hinzufügen oder entfernen müssen, können Sie den Massenimport von Benutzern mithilfe des FTP-Connectors automatisieren. Sie müssen zunächst eine Verbindung herstellen. Anschließend können Sie eine CSV-Datei hochladen und die CSV-Attribute den entsprechenden Learning Manager-Feldern zuordnen. Sie können den automatischen Importvorgang planen und ihn bei Bedarf synchronisieren. Weitere Informationen finden Sie in der Hilfe für den [FTP-Connector](../integration-admin/feature-summary/connectors.md#ftpconnector).
+Wenn Sie Mitarbeiter in Ihrem Unternehmen fortlaufend hinzufügen oder entfernen müssen, können Sie den Massenimport von Benutzern mithilfe des FTP-Connectors automatisieren. Sie müssen zunächst eine Verbindung herstellen. Anschließend können Sie eine CSV-Datei hochladen und die CSV-Attribute den entsprechenden Learning Manager-Feldern zuordnen. Sie können den automatischen Importvorgang planen und ihn bei Bedarf synchronisieren. Weitere Informationen finden Sie in der [Hilfe zu FTP-Connector](../integration-admin/feature-summary/connectors.md#ftpconnector).
 
 ### Integration des Salesforce-Connectors {#salesforceconnectorintegration}
 
@@ -67,17 +67,17 @@ Der Administrator der Learning Manager-Anwendung in Ihrem Unternehmen muss einig
 
 ### Branding {#branding}
 
-Eine Organisation kann das Firmenlogo in der Learning Manager-Anwendung anzeigen, ihre eigene Domäne in der URL haben, den Namen der Organisation anzeigen und Farbschemata anzeigen, die der Marke einer Organisation entsprechen. Learning Manager ermöglicht Unternehmen, all diese Funktionen zu verwenden. Wenn Sie Einstellungen anpassen und Ihr eigenes Branding verwenden möchten, klicken Sie im linken Bereich auf den Abschnitt „Branding“. Klicken Sie neben all diesen Optionen auf „Bearbeiten“ und nehmen Sie Anpassungen Ihren Anforderungen entsprechend vor. Weitere Informationen finden Sie in der Hilfe zu [Branding und Designs](feature-summary/themes.md).
+Eine Organisation kann das Firmenlogo in der Learning Manager-Anwendung anzeigen, ihre eigene Domäne in der URL haben, den Namen der Organisation anzeigen und Farbschemata anzeigen, die der Marke einer Organisation entsprechen. Learning Manager ermöglicht Unternehmen, all diese Funktionen zu verwenden. Wenn Sie Einstellungen anpassen und Ihr eigenes Branding verwenden möchten, klicken Sie im linken Bereich auf den Abschnitt „Branding“. Klicken Sie neben all diesen Optionen auf „Bearbeiten“ und nehmen Sie Anpassungen Ihren Anforderungen entsprechend vor. Weitere Informationen finden Sie in der [Hilfe zu Branding und Designs](feature-summary/themes.md).
 
 ### Benutzer/Benutzergruppen hinzufügen {#addusersusergroups}
 
-Da Teilnehmer die primären Benutzer Ihres Lerninhalts sind, ist das Hinzufügen von Benutzern im Learning Management-System der primäre Schritt. Fügen Sie Benutzer der Learning Manager-Anwendung hinzu und weisen Sie ihnen Rollen zu. Sie haben folgende Möglichkeiten, Benutzer hinzuzufügen:
+Da Teilnehmer die primären Benutzer Ihres Lerninhalts sind, ist das Hinzufügen von Benutzern im Learning Management-System der primäre Schritt. Fügen Sie Benutzer der Learning Manager-Anwendung hinzu und weisen Sie ihnen Rollen zu. Sie können Benutzer auf folgende Weise hinzufügen:
 
 #### Benutzer hinzufügen (intern) {#addusersinternal}
 
-* **Als Einzelbenutzer**: Durch Hinzufügen einzelner Benutzer in der Learning Manager-Anwendung können Sie Test mit einigen Benutzern durchführen, bevor Sie diese in großer Zahl hinzuzufügen. Diese Option ist außerdem nützlich, wenn Sie nach dem Massenimport von Benutzern mehr einzelne Benutzer nach Bedarf hinzufügen möchten.
-* **Selbstregistrierung** - Mit dieser Option können Administratoren ihren Mitarbeitern die Möglichkeit geben, sich bei Learning Manager zu registrieren.
-* **Massenimport** (mit CSV-Upload): Mit dieser Option können Sie Benutzer gesammelt in die Learning Manager-Anwendung importieren. Als Voraussetzung müssen Sie die Liste der Benutzer im CSV-Format bereit halten, bevor Sie diese Funktion verwenden.
+* **Als Einzelbenutzer**: Durch Hinzufügen einzelner Benutzer in der Learning Manager-Anwendung können Sie Test mit einigen Benutzern durchführen, bevor Sie diese in großer Zahl hinzuzufügen. Diese Option ist auch nützlich, wenn Sie nach dem Massenimport von Benutzern mehr Einzelbenutzer nach Bedarf hinzufügen möchten.
+* **Selbstregistrierung**: Durch Auswählen dieser Option können Administratoren ihren Mitarbeiter ermöglichen, sich selbst in Learning Manager zu registrieren.
+* **Massenimport** (mit CSV-Upload): Mit dieser Option können Sie Benutzer gesammelt in die Learning Manager-Anwendung importieren. Als Voraussetzung dafür müssen Sie die Liste der Benutzer im CSV-Format bereit halten, bevor Sie diese Funktion verwenden.
 
 #### Benutzer hinzufügen (externe Profile) {#addusersexternalprofiles}
 
@@ -89,7 +89,7 @@ Die Learning Manager-Anwendung erstellt Standardbenutzergruppen basierend auf ä
 
 ### Rollen zuweisen {#assignroles}
 
-Nach dem Hinzufügen der Benutzer zu Learning Manager kann der Administrator Benutzern den Unternehmensanforderungen entsprechend Rollen als Autor, Administrator oder Integrations-Admin zuweisen. Um Benutzern Rollen zuzuweisen, können Sie in der Administratoranmeldung im linken Fensterbereich auf **[!UICONTROL Benutzer]** klicken, das Kontrollkästchen für jeden Benutzernamen aktivieren und auf das Dropdownmenü **[!UICONTROL Aktionen]** klicken, um die Rolle auszuwählen, die Sie zuweisen möchten. Managerrollen werden von Adobe Learning Manager entsprechend den Rollen/Berechtigungen, die von Ihrem Unternehmen in der CSV-Datei angegeben wurden, zugewiesen. Sie können die Rollen von Benutzern als Manager auch ändern, indem Sie den Arbeitsablauf Benutzer bearbeiten verwenden. Weitere Informationen finden Sie in der [Hilfe zu „Benutzer hinzufügen“](feature-summary/add-users-user-groups.md).
+Nach dem Hinzufügen der Benutzer zu Learning Manager kann der Administrator Benutzern den Unternehmensanforderungen entsprechend Rollen als Autor, Administrator oder Integrations-Admin zuweisen. Um Benutzern Rollen zuzuweisen, können Sie in der Administratoranmeldung im linken Fensterbereich auf **[!UICONTROL Benutzer]** klicken, das Kontrollkästchen für jeden Benutzernamen aktivieren und auf das Dropdownmenü **[!UICONTROL Aktionen]** klicken, um die Rolle auszuwählen, die Sie zuweisen möchten. Managerrollen werden von Adobe Learning Manager basierend auf den Rollen/Berechtigungen, die von Ihrem Unternehmen in der CSV-Datei angegeben wurden, zugewiesen. Sie können die Rollen von Benutzern als Manager auch ändern, indem Sie den Arbeitsablauf Benutzer bearbeiten verwenden. Weitere Informationen finden Sie in der [Hilfe zu „Benutzer hinzufügen“](feature-summary/add-users-user-groups.md).
 
 ### Benachrichtigungsvorlagen {#notificationtemplates}
 
@@ -132,7 +132,7 @@ Arbeitshilfen sind ein Repository mit Schulungsinhalten, das den Teilnehmern ohn
 
 #### Lernprogramme erstellen {#createlearningprograms}
 
-Lernprogramme umfassen eine Gruppe von Kursen, die speziell im Hinblick auf bestimmte Ziele für die Teilnehmer entwickelt wurden. Bevor Sie Lernprogramme erstellen, stellen Sie sicher, dass Sie bereits einige Kurse erstellt haben oder dass in Ihrem Konto bereits Kurse verfügbar sind.  Obwohl es für ein Unternehmen optional ist, diese Funktion zu verwenden, empfiehlt das Learning Manager-Team, diese zu verwenden, um Ihren Mitarbeitern fokussiertes Lernen zu vermitteln. Um mit der Verwendung von Lernprogrammen zu beginnen, klicken Sie im linken Bereich auf „Lernprogramme“, wählen Sie eine Gruppe von Kursen aus dem Katalog aus und veröffentlichen Sie sie. Genauere Anweisungen finden Sie in der Hilfe zu den [Lernprogrammen](feature-summary/learning-programs.md).
+Lernprogramme umfassen eine Gruppe von Kursen, die speziell im Hinblick auf bestimmte Ziele für die Teilnehmer entwickelt wurden. Bevor Sie Lernprogramme erstellen, stellen Sie sicher, dass Sie bereits einige Kurse erstellt haben oder dass es bereits vorhandene Kurse in Ihrem Konto gibt.  Zwar ist die Verwendung dieser Funktion für ein Unternehmen optional, doch empfiehlt das Learning Manager-Team deren Verwendung, um systematisches Lernen unter den Mitarbeitern zu fördern. Um mit der Verwendung von Lernprogrammen zu beginnen, klicken Sie im linken Bereich auf „Lernprogramme“, wählen Sie eine Gruppe von Kursen aus dem Katalog aus und veröffentlichen Sie sie. Informationen zu bestimmten Anweisungen finden Sie in der [Hilfe zu Lernprogrammen](feature-summary/learning-programs.md).
 
 ### Kataloge erstellen {#createcatalogs}
 
@@ -144,7 +144,7 @@ In dieser Phase können Sie E-Mail-Benachrichtigungen an die Benutzer Ihrer Anwe
 
 ## Phase 3: Authoring von Kursen (Autor) {#phase3authoringcoursesauthor}
 
-Inhaltsentwickler oder Autoren in Ihrem Unternehmen können mit dem Erstellen der Lerninhalte beginnen. Es ist obligatorisch, dass Sie Module und Kurse erstellen, da sie die Grundlage für alle Ihre Lerninhalte in der Learning Manager-Anwendung bilden.
+Content-Entwickler oder Autoren in Ihrem Unternehmen können mit dem Erstellen des Lerninhalts beginnen. Es ist obligatorisch, dass Sie Module und Kurse erstellen, da sie die Grundlage für Ihren gesamten Lerninhalt in der Learning Manager-Anwendung bilden.
 
 ### Module erstellen {#createmodules}
 
@@ -170,13 +170,13 @@ Arbeitshilfen sind ein Repository mit Schulungsinhalten, das den Teilnehmern ohn
 
 #### Lernprogramme erstellen {#Createlearningprograms-1}
 
-Lernprogramme umfassen eine Gruppe von Kursen, die speziell im Hinblick auf bestimmte Ziele für die Teilnehmer entwickelt wurden. Bevor Sie Lernprogramme erstellen, stellen Sie sicher, dass Sie bereits einige Kurse erstellt haben oder dass in Ihrem Konto bereits Kurse verfügbar sind.  Obwohl es für ein Unternehmen optional ist, diese Funktion zu verwenden, empfiehlt das Learning Manager-Team, diese zu verwenden, um Ihren Mitarbeitern fokussiertes Lernen zu vermitteln. Um mit der Verwendung von Lernprogrammen zu beginnen, klicken Sie im linken Bereich auf „Lernprogramme“, wählen Sie eine Gruppe von Kursen aus dem Katalog aus und veröffentlichen Sie sie. Genauere Anweisungen finden Sie in der Hilfe zu den [Lernprogrammen](feature-summary/learning-programs.md).
+Lernprogramme umfassen eine Gruppe von Kursen, die speziell im Hinblick auf bestimmte Ziele für die Teilnehmer entwickelt wurden. Bevor Sie Lernprogramme erstellen, stellen Sie sicher, dass Sie bereits einige Kurse erstellt haben oder dass es bereits vorhandene Kurse in Ihrem Konto gibt.  Zwar ist die Verwendung dieser Funktion für ein Unternehmen optional, doch empfiehlt das Learning Manager-Team deren Verwendung, um systematisches Lernen unter den Mitarbeitern zu fördern. Um mit der Verwendung von Lernprogrammen zu beginnen, klicken Sie im linken Bereich auf „Lernprogramme“, wählen Sie eine Gruppe von Kursen aus dem Katalog aus und veröffentlichen Sie sie. Informationen zu bestimmten Anweisungen finden Sie in der [Hilfe zu Lernprogrammen](feature-summary/learning-programs.md).
 
 ## Phase 4: Verwalten Ihres LMS (Learning Manager-Administrator) {#phase4managingyourlmscaptivateprimeadministrator}
 
 ### Ankündigungen {#announcements}
 
-Ankündigungen sind nützlich für das Unternehmen, um wichtige Informationen an alle Teilnehmer eines Kontos gleichzeitig zu verteilen. In der Learning Manager-Anwendung ist eine Ankündigung eine Multimedia-Nachricht (Text, Bild oder Video), die ein Administrator erstellen und an definierte Benutzergruppen und Lernobjekte übermitteln kann. Sie können Ankündigungen sofort senden oder deren automatische Auslösung an einem bestimmten Datum planen. Wenn Sie diese Funktion in der Learning Manager-Anwendung verwenden möchten, wählen Sie im linken Bereich „Ankündigungen“ aus und klicken Sie auf „Hinzufügen“, um Ankündigungen zu erstellen. Weitere Informationen finden Sie in der Hilfe zu [Ankündigungen](feature-summary/announcements.md).
+Ankündigungen sind nützlich für das Unternehmen, um wichtige Informationen an alle Teilnehmer eines Kontos gleichzeitig zu verteilen. In der Learning Manager-Anwendung ist eine Ankündigung eine Multimedia-Nachricht (Text, Bild oder Video), die ein Administrator erstellen und an definierte Benutzergruppen und Lernobjekte übermitteln kann. Sie können Ankündigungen sofort senden oder deren automatische Auslösung an einem bestimmten Datum planen. Wenn Sie diese Funktion in der Learning Manager-Anwendung verwenden möchten, wählen Sie im linken Bereich „Ankündigungen“ aus und klicken Sie auf „Hinzufügen“, um Ankündigungen zu erstellen. Weitere Informationen finden Sie in der [Hilfe zu Ankündigungen](feature-summary/announcements.md).
 
 ### Benutzerregistrierung {#userenrollment}
 
@@ -212,12 +212,12 @@ Weitere Informationen finden Sie im Inhalt der Hilfe zu [Lernplänen](feature-su
 
 In dieser Phase können Sie mit der Erstellung und Verwaltung verschiedener Arten von Berichten beginnen.
 
-Mit Adobe Learning Manager können Sie verschiedene Berichte erstellen, um die Aktivitäten der Teilnehmer zu verfolgen, zu überwachen und zu kontrollieren. Zum Generieren von Berichten können Sie die folgenden drei Typen von Berichtsfunktionen verwenden:
+Mit Adobe Learning Manager können Sie verschiedene Berichte erstellen, um die Aktivitäten der Teilnehmer zu verfolgen, zu überwachen und zu kontrollieren. Sie können Berichte mithilfe der folgenden drei Arten von Berichterstellungsfunktionen erstellen:
 
-* **Berichte-Dashboard** - Erstellen Sie Summierungsberichte, um verwertbare Einblicke in die Nutzung von Lerninhalten durch Ihre Teilnehmer zu erhalten, basierend auf verschiedenen Kategorien wie Benutzergruppen, Effektivität, Teilnehmerzeit in Kursen usw.
+* **Berichts-Dashboard**: Erstellen Sie Summierungsberichte, um verwertbare Einblicke in die Nutzung der Lerninhalte durch die Teilnehmer basierend auf verschiedenen Kategorien wie Benutzergruppen, Effektivität, Teilnehmerzeit in Kursen usw. zu erhalten.
 * **Teilnehmertranskripte** - Erstellen Sie teilnehmerorientierte Berichte mit dem vollständigen Verlauf der Teilnehmer vom Registrierungstag bis zum heutigen Datum.
-* **Kursberichte** - Erstellen Sie Statistiken zur Kursnutzung durch Teilnehmer aus einzelnen Kursen. Sie können Quizberichte auch auf Kursebene erstellen.
+* **Kursberichte** - Erstellen Sie Statistiken zur Kursnutzung durch Teilnehmer aus einzelnen Kursen. Sie können außerdem Quizberichte auf Kursstufe erstellen.
 
 Weitere Informationen zum Berichtsgenerierungsprozess finden Sie in der [Hilfe zu Berichten](feature-summary/reports.md).
 
-Weitere Informationen zur Nutzung der Funktionen der Learning Manager-Anwendung finden Sie in der [Hilfe zu Learning Manager](../topics.md) für jede Rolle.
+Sämtliche weiteren Informationen zur Verwendung der Funktionen der Learning Manager-Anwendung finden Sie in der [Hilfe zu Learning Manager](../topics.md) für die jeweilige Rolle.
