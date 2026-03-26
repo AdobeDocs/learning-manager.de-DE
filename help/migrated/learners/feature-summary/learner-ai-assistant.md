@@ -158,7 +158,7 @@ So aktivieren Sie den AI-Assistenten für Teilnehmer:
 &#x200B;1. Melden Sie sich bei Adobe Learning Manager als Administrator an.
 
 &#x200B;2. Wählen Sie **Einstellungen** auf der Startseite aus.
-2![Administratorkonsole mit der Option &quot;Einstellungen&quot; im linken Fensterbereich ](assets/settings-menu.png)
+2![Administratorkonsole mit der Option &quot;Einstellungen&quot; im linken Fensterbereich &#x200B;](assets/settings-menu.png)
 
 &#x200B;3. Wählen Sie im Menü **Einstellungen** die Option **Teilnehmer-AI-Assistent (Beta)**.
 4![Auf der Administratorkonsole wird die Option &quot;Teilnehmer-AI-Assistent&quot; im linken Fensterbereich angezeigt.](assets/learner-assistant-ai-beta.png)
