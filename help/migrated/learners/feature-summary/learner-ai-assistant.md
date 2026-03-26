@@ -3,9 +3,9 @@ description: Mit dem KI-Assistenten in Adobe Learning Manager erhalten Sie schne
 jcr-language: en_us
 title: AI Assistant für Teilnehmer in Adobe Learning Manager
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 764e80ceab56ac293db548ea284e4bfb5307193b
+source-git-commit: 3c26038aa12f4890a1627db07f5bff64efbd79b7
 workflow-type: tm+mt
-source-wordcount: '1829'
+source-wordcount: '1793'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,6 @@ Der AI Assistant ist ein generativer KI-gestützter Chat-Begleiter in Adobe Lear
 
 - **Administratorsteuerung**
    - Aktivieren oder Deaktivieren der Funktion auf Kontoebene
-   - Zugriff durch Benutzergruppen steuern
    - Auswählen, welche Kataloge für AI-Antworten enthalten sind
    - Akzeptieren der Nutzungsbedingungen gemäß den Adobe AI-Richtlinien
 
@@ -148,32 +147,30 @@ Organisationen können integrierte Eingabeaufforderungen anpassen, um ihre Lernz
 
 ![KI-fähiger Teilnehmerassistent](assets/learner-ai-assistant-new.png)
 
-Administratoren wählen aus, welche Benutzergruppen und **interne** Kataloge auf die AI Assistant-Funktion zugreifen können. Stellen Sie sicher, dass die Kataloge, die Sie zuweisen, nur die Lerninhalte enthalten, die für AI-Antworten und Zitate geeignet sind, und dass diese Kataloge **intern** (nicht **Freigegeben**, **Erworben** oder **Extern**) sind.
+Administratoren wählen aus, welche **internen** Kataloge auf die AI Assistant-Funktion zugreifen können. Stellen Sie sicher, dass die Kataloge, die Sie zuweisen, nur die Lerninhalte enthalten, die für AI-Antworten und Zitate geeignet sind, und dass diese Kataloge **intern** (nicht **Freigegeben**, **Erworben** oder **Extern**) sind.
 
-Bevor Sie den AI-Assistenten konfigurieren, vergewissern Sie sich, dass Sie über Administratoranmeldeinformationen verfügen und identifiziert haben, auf welche Benutzergruppen und Kataloge Zugriff haben sollen.
+Bevor Sie den AI-Assistenten konfigurieren, vergewissern Sie sich, dass Sie über Administratoranmeldeinformationen verfügen und identifiziert haben, dass Kataloge Zugriff haben sollten.
 
 ### Konfigurieren des Zugriffs auf den AI Assistant
 
 So aktivieren Sie den AI-Assistenten für Teilnehmer:
 
-1. Melden Sie sich bei Adobe Learning Manager als Administrator an.
+&#x200B;1. Melden Sie sich bei Adobe Learning Manager als Administrator an.
 
-2. Wählen Sie **Einstellungen** auf der Startseite aus.
-   ![Administratorkonsole mit der Option &quot;Einstellungen&quot; im linken Fensterbereich](assets/settings-menu.png)
+&#x200B;2. Wählen Sie **Einstellungen** auf der Startseite aus.
+2![Administratorkonsole mit der Option &quot;Einstellungen&quot; im linken Fensterbereich ](assets/settings-menu.png)
 
-3. Wählen Sie im Menü **Einstellungen** die Option **Teilnehmer-AI-Assistent (Beta)**.
-   ![Auf der Administratorkonsole wird die Option &quot;Teilnehmer-AI-Assistent&quot; im linken Bereich angezeigt](assets/learner-assistant-ai-beta.png)
+&#x200B;3. Wählen Sie im Menü **Einstellungen** die Option **Teilnehmer-AI-Assistent (Beta)**.
+4![Auf der Administratorkonsole wird die Option &quot;Teilnehmer-AI-Assistent&quot; im linken Fensterbereich angezeigt.](assets/learner-assistant-ai-beta.png)
 
-4. Wählen Sie den Umschalter, um den **Teilnehmer-AI-Assistenten (Beta)** zu aktivieren.
-   ![Administratorkonsole zeigt den für den Teilnehmer-AI-Assistenten aktivierten Umschalter an](assets/learner-assistant-toggle.png)
+&#x200B;4. Wählen Sie den Umschalter, um den **Teilnehmer-AI-Assistenten (Beta)** zu aktivieren.
+<!--![Administrators console displays the toggle enabled for Learner AI Assistant](assets/learner-assistant-toggle.png)-->
+<!--5. Select one or more user groups from the **Eligible user groups** option.-->
+<!--5. Select **Save** to apply the user group settings.-->
 
-5. Wählen Sie eine oder mehrere Benutzergruppen aus der Option **Berechtigte Benutzergruppen** aus.
+&#x200B;5. Wählen Sie einen oder mehrere Kataloge aus der Option &quot;**Berechtigte Kataloge**&quot;.
 
-6. Wählen Sie **Speichern**, um die Benutzergruppeneinstellungen anzuwenden.
-
-7. Wählen Sie einen oder mehrere Kataloge aus der Option **Kataloge**, für die Sie berechtigt sind.
-
-8. Wählen Sie **Speichern**, um die Katalogeinstellungen anzuwenden.
+&#x200B;6. Wählen Sie **Speichern**, um die Katalogeinstellungen anzuwenden.
 
 >[!IMPORTANT]
 >
