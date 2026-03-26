@@ -2,9 +2,9 @@
 title: Neue Funktionen in der Adobe Learning Manager-Version April 2026
 description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und wichtigen Updates in der Adobe Learning Manager-Version vom April 2026.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: f2f27ac33c1d1e556bd0c9b6aefd66f930a225c6
+source-git-commit: ea8f2d8d4013815c66bdc68351ceceecf41fa3d1
 workflow-type: tm+mt
-source-wordcount: '20997'
+source-wordcount: '20223'
 ht-degree: 0%
 
 ---
@@ -366,78 +366,6 @@ Ablaufdaten in der LO-API ermöglichen es Experience Buildern:
 
 * Kampagnen für den letzten Schliff entwickeln.
 
-## Unterstützung mehrerer Sprachen für Arbeitshilfen
-
-### Übersicht
-
-Durch die Erweiterung wird das Lokalisierungsmodell von Adobe Learning Manager auf Arbeitshilfen erweitert, sodass Autoren verschiedene Inhaltsdateien pro Sprache an eine einzelne Arbeitshilfe anhängen können. Anstatt separate Arbeitshilfen für jede Sprache zu erstellen, können Autoren jetzt alle lokalisierten Versionen als eine logische Arbeitshilfe verwalten.
-
-### Neue Funktionen
-
-#### Sprachspezifischer Inhalt für Arbeitshilfen hochladen
-
-Autoren können verschiedene Dateien pro unterstützte Sprache an eine einzelne Arbeitshilfe anhängen, z. B. an Kurse und andere LOs.
-
-Die Funktion zum Erstellen/Bearbeiten von Arbeitshilfen unterstützt jetzt Folgendes:
-
-* Auswählen einer Sprache.
-
-* Hochladen der sprachspezifischen Datei für diese Sprache in derselben Arbeitshilfeentität.
-
-#### Konsistente Sprachverarbeitung in der Benutzeroberfläche für Player und Teilnehmer
-
-Der Fluidic Player wurde aktualisiert, sodass beim Öffnen einer Arbeitshilfe durch einen Teilnehmer die der Sprache des Teilnehmers entsprechende Inhaltsvariante angezeigt wird (sofern verfügbar).
-
-Administratoren und Autoren können Arbeitshilfen als einzelne Objekte mit Sprachvarianten anzeigen, anstatt separate Elemente pro Sprache.
-
-### Wichtigste Vorteile
-
-#### Einzelarbeitshilfe für alle Sprachen
-
-Autoren können die Erstellung separater Arbeitshilfen pro Sprache vermeiden.
-
-Alle Sprachvarianten derselben Arbeitshilfe (z. B. eine Prozedur, SOP, Checklisten-PDF oder ein Referenzhandbuch) können an einem Ort verwaltet werden.
-
-#### Bessere Erlebnisse für globale Teilnehmer
-
-Die Teilnehmer sehen die Arbeitshilfe automatisch in ihrer bevorzugten Sprache, d. h. es gibt Folgendes:
-
-* Weniger Verwirrung darüber, welche Version geöffnet werden soll.
-
-* Geringeres Risiko beim Zugriff auf veraltete oder überholte Kopien.
-
-Dies ist besonders in mehrsprachigen Organisationen nützlich, in denen dieselbe Prozess- oder Produktdokumentation in mehreren Sprachen verfügbar sein muss.
-
-### Anwendungsszenarien
-
-#### Globale Bereitstellung von Referenzinhalten
-
-Ein Unternehmen muss Teilnehmern weltweit Arbeitshilfen in mehreren Sprachen zur Verfügung stellen, z. B.:
-
-* Produktreferenzen.
-
-* Prozesschecklisten.
-
-* Unterstützung von Playbooks
-
-Anstatt separate Arbeitshilfen wie &quot;Product Quick Start - EN&quot;, &quot;Product Quick Start - DE&quot;, &quot;Product Quick Start - JP&quot; usw. zu erstellen, können sie eine Arbeitshilfe erstellen, lokalisierte Dateien für jede Sprache anhängen und es zulassen, dass ALM jedem Teilnehmer die richtige Version basierend auf den Spracheinstellungen bereitstellt.
-
-#### Kunden- oder Partner-orientierte Dokumentation für mehrere Märkte
-
-Für Kunden- und Partnerakademien können Arbeitshilfen Folgendes umfassen:
-
-* Produktübersicht
-
-* Integrationsleitfäden
-
-* Support-Arbeitsabläufe
-
-Mit mehrsprachigen Arbeitshilfen:
-
-* Jeder Partner sieht die lokalisierte Version, ohne zwischen sprachspezifischen Einträgen wählen zu müssen.
-
-* Marketing- und Enablement-Teams können eine Arbeitshilfe pro Thema in allen Sprachen verwalten.
-
 ## Einschränkung für Startzeit des Moduls festlegen
 
 ### Übersicht
@@ -560,60 +488,6 @@ Dies ermöglicht eine Analyse der Gesamtleistung und der fragenspezifischen Leis
 * **Sicherheits- und Compliance-Beobachtungen**: Im Gesundheitswesen, in der Fertigung oder im Außendienst können kritische Sicherheitsschritte mit höheren Höchstwerten versehen werden, wodurch sichergestellt wird, dass das Fehlen einer sicherheitskritischen Aktion einen größeren Einfluss auf die Gesamtpunktzahl hat als das Fehlen eines geringfügigen Verfahrensschritts.
 
 * **Coaching und Kalibrierung**: Mit der maximalen und erreichten Punktzahl pro Frage im Bericht können Manager genau sehen, wo die Teilnehmer unterdurchschnittlich abschneiden, und die Kursleiter auf die konsistente Punktzahl kalibrieren.
-
-## Unterstützung mehrerer Sprachen für Checklistenfragen
-
-### Übersicht
-
-Die Verbesserung führt mehrsprachige Unterstützung für Checklistenfragen ein, sodass Prüfer Checklisten in ihrer bevorzugten Sprache bewerten und bewerten können. Diese Funktion ist besonders in mehrsprachigen Regionen und bei globalen Bereitstellungen nützlich, da sie Autoren die Möglichkeit bietet, lokalisierte Checklistenfragen für jede unterstützte Inhaltssprache zu erstellen und gleichzeitig ein einzelnes Checklistenmodul und einen konsistenten Evaluierungsprozess beizubehalten.
-
-In Adobe Learning Manager:
-
-* Alle Module für Teilnehmer (SCORM, PDF, HTML usw.) kann in mehreren Inhaltssprachen bereitgestellt werden, sodass die Teilnehmer die Sprache auswählen können, die sie bevorzugen.
-
-* In einem Checklistenmodul bewerten Prüfer (Kursleiter/Manager) Teilnehmer anhand der in dieser Checkliste definierten Fragen.
-
-### Neue Funktionen
-
-**Authoring**
-
-* Autoren können jetzt Checklistenfragen in allen auf Kursebene ausgewählten Sprachen hinzufügen.
-
-* Für jede Checkliste:
-
-   * Es wird erwartet, dass der Autor in jeder Inhaltssprache, in der der Kurs vorhanden ist, den gleichen Fragentext bereitstellt.
-
-   * Der Verfasser ist dafür verantwortlich, dass die Bedeutung jeder Frage in allen Sprachen konsistent ist.
-
-**Überprüfungserlebnis**
-
-* Reviewer sehen Checklistenfragen und die Benutzeroberfläche für die Bewertung in ihrer ausgewählten Inhaltssprache.
-
-* Wenn eine Frage in einer Sprache ausgewertet wird:
-
-   * Die Bewertung (Punktzahl, Ja/Nein, Status) ist in allen Sprachen logisch identisch. Es handelt sich um eine einzelne Checkliste mit mehreren Sprachansichten, nicht um separate Checklisten pro Sprache.
-
-**Berichte**
-
-Der Checklistenbericht zeigt den Fragentext in der Inhaltssprache des Benutzers an:
-
-* Ein Administrator oder Reviewer, der den Bericht in jeder Sprache ausführt, sieht die lokalisierten Fragenamen für diese Sprache.
-
-* Die zugrunde liegenden Antworten und Punktzahlen bleiben unverändert; nur Fragenbezeichnungen werden übersetzt.
-
-### Wichtigste Vorteile
-
-* **Bessere Prüfererfahrung**: Prüfer können vollständig in ihrer eigenen Sprache arbeiten, Fragen lesen und Bewertungen ohne Sprachbarrieren aufzeichnen.
-
-* **Angleichung von Vorschriften und Richtlinien**: In Regionen mit Anforderungen an die Sprachgleichheit (z. B. Niederländisch/Französisch in Belgien) können Checklisten jetzt die gleichen Standards erfüllen wie andere Lernmaterialien, wodurch das Compliance-Risiko verringert wird.
-
-* **Konsistente Auswertungslogik**: Während der Text lokalisiert ist, werden Auswertung und Bewertung in allen Sprachen gemeinsam genutzt, um sicherzustellen, dass die Ergebnisse vergleichbar und zentral verwaltet sind.
-
-### Anwendungsszenarien
-
-* Franchise-Unternehmen mit mehreren Ländern, die in mehreren Sprachen operieren, können einen Kurs und eine Checkliste bereitstellen und gleichzeitig lokalisierte Prüferlebnisse in jedem Gebiet bereitstellen.
-
-* Jedes globale Unternehmen mit lokalen Kursleitern (z. B. EMEA, LATAM, APAC) kann Überprüfer in ihrer lokalen Sprache arbeiten lassen, während sie das gleiche Design und die gleiche Berichterstattung für globale Checklisten verwenden.
 
 ## Checkliste mit Kommentarfunktion für Reviewer
 
