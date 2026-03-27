@@ -23,11 +23,11 @@ Die technische Einrichtung für Ihr Learning Manager-Konto ist hauptsächlich f�
 
 Als Systemadministrator auf der Admin-Konsole müssen Sie als Erstes ein Identitätssystem definieren und einrichten, mit dem Ihre Endbenutzer authentifiziert werden. Nachdem Ihre Organisation Lizenzen für Learning Manager erworben hat, müssen Sie diese Lizenzen für Ihre Endbenutzer bereitstellen. Dazu benötigen Sie ein Verfahren, um diese Benutzer zu authentifizieren. Führen Sie die folgenden Schritte aus, um SSO für Ihre Benutzer zu konfigurieren:
 
-1. Klicken Sie auf der Lern-Manager-Startseite auf **[!UICONTROL ** Einstellungen **>** Anmeldemethoden **.]**
+1. Klicken Sie auf der Lern-Manager-Startseite auf **[!UICONTROL **&#x200B; Einstellungen &#x200B;**>**&#x200B; Anmeldemethoden &#x200B;**.]**
 
    ![](assets/configure-sso-step1.png)
 
-1. Wählen Sie je nach Benutzertyp entweder **[!UICONTROL ** Interne Benutzer **oder** Externe Benutzer **.]**
+1. Wählen Sie je nach Benutzertyp entweder **[!UICONTROL **&#x200B; Interne Benutzer &#x200B;** oder **&#x200B; Externe Benutzer &#x200B;**.]**
 
 
 
@@ -35,18 +35,18 @@ Als Systemadministrator auf der Admin-Konsole müssen Sie als Erstes ein Identit
 
    ![](assets/configure-sso-step3.png)
 
-1. Klicken Sie zum Konfigurieren der Einstellungen für einmaliges Anmelden auf **[!UICONTROL **&#x200B;Ändern **.]**.
+1. Klicken Sie zum Konfigurieren der Einstellungen für einmaliges Anmelden auf **[!UICONTROL **&#x200B;Ändern &#x200B;**.]**.
 
    ![](assets/configure-sso-step4.png)
 
-1. Geben Sie im Feld ****[!UICONTROL IDP-initiierte Authentifizierungs-URL]**** die Authentifizierungs-URL ein, die von Ihrem Dienstanbieter bereitgestellt wurde.
+1. Geben Sie im Feld **&#x200B;**&#x200B;[!UICONTROL IDP-initiierte Authentifizierungs-URL]&#x200B;**&#x200B;** die Authentifizierungs-URL ein, die von Ihrem Dienstanbieter bereitgestellt wurde.
 
 
 
    ![](assets/configure-sso-step5.png)
 
-1. Klicken Sie auf **[!UICONTROL ** Hochladen **]** neben dem Feld **[!UICONTROL **IDP-Metadaten-XML-Datei **]******und laden Sie Ihre XML-Datei hoch.
-1. Klicken Sie auf **[!UICONTROL ** Speichern **.]**.
+1. Klicken Sie auf **[!UICONTROL ** Hochladen **]** neben dem Feld **[!UICONTROL **IDP-Metadaten-XML-Datei &#x200B;**]&#x200B;**&#x200B;**&#x200B;**und laden Sie Ihre XML-Datei hoch.
+1. Klicken Sie auf **[!UICONTROL **&#x200B; Speichern &#x200B;**.]**.
 1. Die SSO-Authentifizierung für Ihr Konto wurde erfolgreich konfiguriert. Sie sollten sich mit SSO bei Ihrem Learning Manager-Konto anmelden können.
 
    ***Das SSO, das Sie in Learning Manager konfigurieren, sollte SAML 2.0 unterstützen.***
@@ -80,7 +80,7 @@ Bevor Sie den Migrationsprozess starten, müssen Sie die folgenden Voraussetzung
 
 
 
-***Es wird empfohlen, dass Administratoren den Migrationsprozess in einem Testkonto testen, bevor sie die Daten und Inhalte in die Learning Manager-Produktionsumgebung migrieren. ***
+***Es wird empfohlen, dass Administratoren den Migrationsprozess in einem Testkonto testen, bevor sie die Daten und Inhalte in die Learning Manager-Produktionsumgebung migrieren. &#x200B;***
 
 ### Bewerten und Exportieren von Daten {#evaluatingandexportingdata}
 
@@ -273,7 +273,7 @@ Bevor Sie die eigentliche Migration aller Inhalte planen und starten, müssen Si
 
 ### FTP-Konto einrichten {#setupanftpaccount}
 
-Klicken Sie auf der Startseite des Integrationsadministrators auf **[!UICONTROL ** CSV-FTP-Ordner anfordern **.]** Geben Sie im daraufhin angezeigten Popup-Dialogfeld Ihre E-Mail-ID ein. Öffnen Sie den Online-Assistenten, um das ExaVault-FTP-Konto zu erstellen. Wenn Sie Ihr Konto erstellt haben, können Sie die Ordner für Ihre Migrations- und Sprint-Projekte in ExaVault FTP anzeigen.
+Klicken Sie auf der Startseite des Integrationsadministrators auf **[!UICONTROL **&#x200B; CSV-FTP-Ordner anfordern &#x200B;**.]** Geben Sie im daraufhin angezeigten Popup-Dialogfeld Ihre E-Mail-ID ein. Öffnen Sie den Online-Assistenten, um das ExaVault-FTP-Konto zu erstellen. Wenn Sie Ihr Konto erstellt haben, können Sie die Ordner für Ihre Migrations- und Sprint-Projekte in ExaVault FTP anzeigen.
 
 Hier sehen Sie ein Beispiel für einen Schnappschuss der Projektdateien und des Ordners von ExaVault:
 
@@ -291,9 +291,9 @@ Klicken Sie im Abschnitt „Einrichtung“ auf „Box-Ordner anfordern“.
 
 ![](assets/set-up-a-box-account.png)
 
-Geben Sie im Feld ****[!UICONTROL E-Mail-Adresse eingeben]**** die E-Mail-ID ein, unter der Sie die Anmeldeanweisungen für die Verbindung zu Box erhalten möchten.
+Geben Sie im Feld **&#x200B;**&#x200B;[!UICONTROL E-Mail-Adresse eingeben]&#x200B;**&#x200B;** die E-Mail-ID ein, unter der Sie die Anmeldeanweisungen für die Verbindung zu Box erhalten möchten.
 
-Klicken Sie auf **[!UICONTROL ** Verbinden **.]**.
+Klicken Sie auf **[!UICONTROL **&#x200B; Verbinden &#x200B;**.]**.
 
 Sie erhalten eine E-Mail von Box mit einem Link zum freigegebenen Ordner. Wenn Sie über kein Box-Konto verfügen, klicken Sie auf „Registrieren“ und erstellen Sie ein Konto. Anweisungen zur Anmeldung werden an die E-Mail-ID des Integrations-Admins gesendet.
 
@@ -316,9 +316,9 @@ Auf der Startseite der Migration zeigt das System die Migrationsprojekte an, die
 
 Klicken Sie in der rechten oberen Ecke der Seite auf **[!UICONTROL **Neu{**}, um ein Migrationsprojekt zu erstellen.**]
 
-***Wenn Sie noch keinen FTP-Ordner erstellt haben, werden Sie aufgefordert, einen FTP-Ordner für das ExaVault-Konto zu erstellen. Dies ist ein obligatorischer Schritt, bevor Sie mit dem Erstellen eines Migrationsprojekts beginnen. ***
+***Wenn Sie noch keinen FTP-Ordner erstellt haben, werden Sie aufgefordert, einen FTP-Ordner für das ExaVault-Konto zu erstellen. Dies ist ein obligatorischer Schritt, bevor Sie mit dem Erstellen eines Migrationsprojekts beginnen. &#x200B;***
 
-Geben Sie auf der Seite ****[!UICONTROL Neues Migrationsprojekt erstellen]**** den Namen für Ihr Projekt an.
+Geben Sie auf der Seite **&#x200B;**&#x200B;[!UICONTROL Neues Migrationsprojekt erstellen]&#x200B;**&#x200B;** den Namen für Ihr Projekt an.
 
 ![](assets/migrating-the-content-1.png)
 
@@ -332,17 +332,17 @@ Erstellen Sie auf der Seite „Sprint-Konfiguration“ einen Sprint für Ihr Mig
 
 Geben Sie einen Namen und eine Beschreibung für den Sprint an.
 
-Aktivieren Sie das Kontrollkästchen ****[!UICONTROL Benutzer wurden seit der letzten Ausführung hinzugefügt oder geändert]****, um die Benutzerliste mit der Learning Manager-Anwendung zu synchronisieren. Wenn Sie Inhalte und Daten in die Learning Manager-Anwendung migrieren, ist dies möglicherweise nicht erforderlich. Wenn zwischen Ihrer früheren und der neuesten Sprint-Migration jedoch eine Zeitspanne liegt, wird empfohlen, die Liste der Benutzer zu synchronisieren. Bei diesem Schritt kann die Learning Manager-Datenbank mit Ihren LMS-Benutzern synchronisiert werden.
+Aktivieren Sie das Kontrollkästchen **&#x200B;**&#x200B;[!UICONTROL Benutzer wurden seit der letzten Ausführung hinzugefügt oder geändert]&#x200B;**&#x200B;**, um die Benutzerliste mit der Learning Manager-Anwendung zu synchronisieren. Wenn Sie Inhalte und Daten in die Learning Manager-Anwendung migrieren, ist dies möglicherweise nicht erforderlich. Wenn zwischen Ihrer früheren und der neuesten Sprint-Migration jedoch eine Zeitspanne liegt, wird empfohlen, die Liste der Benutzer zu synchronisieren. Bei diesem Schritt kann die Learning Manager-Datenbank mit Ihren LMS-Benutzern synchronisiert werden.
 
 ***Der Synchronisierungsschritt wird empfohlen, wenn die Dateien &quot;enrollment.csv&quot; und &quot;user_course_grade.csv&quot; migriert werden. Mit diesem Schritt kann die Learning Manager-Datenbank mit Ihrer Migrationsdatenbank synchronisiert werden und es wird sichergestellt, dass alle Benutzer, deren Datensätze im Sprint migriert werden sollen, in der Migrationsdatenbank verfügbar sind.***
 
-Klicken Sie auf **[!UICONTROL ** Weiter **.]**.
+Klicken Sie auf **[!UICONTROL **&#x200B; Weiter &#x200B;**.]**.
 
-Klicken Sie auf **[!UICONTROL **Start**]**, um die Sprint-Migration mit den hochgeladenen Daten und Inhalten zu starten. Klicken Sie vor dem Starten des Sprint-Laufs auf ****[!UICONTROL Aktualisieren]****, um die FTP- und Inhaltsordner mit dem Lern-Manager zu synchronisieren.
+Klicken Sie auf **[!UICONTROL **Start**]&#x200B;**, um die Sprint-Migration mit den hochgeladenen Daten und Inhalten zu starten. Klicken Sie vor dem Starten des Sprint-Laufs auf &#x200B;**&#x200B;**[!UICONTROL Aktualisieren]**&#x200B;**, um die FTP- und Inhaltsordner mit dem Lern-Manager zu synchronisieren.
 
 ![](assets/migrating-the-content-3.png)
 
-Sie können während des Sprint-Migrationsvorgangs jederzeit auf ****[!UICONTROL Stopp]**** klicken, um die Sprint-Migration abzubrechen.
+Sie können während des Sprint-Migrationsvorgangs jederzeit auf **&#x200B;**&#x200B;[!UICONTROL Stopp]&#x200B;**&#x200B;** klicken, um die Sprint-Migration abzubrechen.
 
 Das System zeigt den Migrationsstatus für die jeweiligen Sprint-Datenelemente und -Inhalte an. Überprüfen Sie die Anzahl der erfolgreichen und fehlgeschlagenen Elemente als Teil des Sprint-Laufs der Migration.
 
