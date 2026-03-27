@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Integrierbarer Fluidic Player
 contentowner: dvenkate
 preview: true
-source-git-commit: fba5e5ddc1964b485be473bf356806f234688cf4
+source-git-commit: decdeed5958f690a12094d3d6eb3cea51e2d3486
 workflow-type: tm+mt
-source-wordcount: '1626'
-ht-degree: 40%
+source-wordcount: '1675'
+ht-degree: 48%
 
 ---
 
@@ -17,23 +17,23 @@ ht-degree: 40%
 
 In diesem Artikel finden Sie Informationen zum Integrieren des Fluidic Players in eine benutzerdefinierte Anwendung.
 
-Als Unternehmen können Sie jetzt eine benutzerdefinierte Umgebung außerhalb von Learning Manager für Ihre Teilnehmenden bereitstellen. Mit der öffentlichen API können Sie alle Informationen zu Lernobjekten, Teilnehmerregistrierungen und Lernfortschritt abrufen und auf Ihrer Website anzeigen. Darüber hinaus können Sie sogar den Fluidic Player von Learning Manager in Ihre Website einbetten, sodass der Teilnehmer den Inhalt direkt auf Ihrer Website nutzen kann. Der Fluidic Player gibt Ihnen die Möglichkeit, alle Inhalte abzuspielen, die Learning Manager unterstützt. Wenn es auf Ihrer eigenen Website eingebettet ist, verfügt es über genau die gleichen Funktionen wie bei Verwendung in Learning Manager.
+Als Unternehmen können Sie jetzt eine benutzerdefinierte Umgebung außerhalb von Learning Manager für Ihre Teilnehmenden bereitstellen. Mit der öffentlichen API können Sie alle Informationen zu Lernobjekten, Teilnehmerregistrierungen und Lernfortschritt abrufen und auf Ihrer Website anzeigen. Darüber hinaus können Sie sogar den Fluidic Player von Learning Manager in Ihre Website einbetten, sodass der Teilnehmer den Inhalt direkt auf Ihrer Website nutzen kann. Der Fluidic Player gibt Ihnen die Möglichkeit, alle Inhalte abzuspielen, die Learning Manager unterstützt. Beim Integrieren in Ihre Website stehen genau dieselben Funktionen zur Verfügung wie bei der Verwendung in Learning Manager.
 
-**Beliebigen eLearning-Inhalt abspielen[&#128279;](../../learners/feature-summary/fluidic-player.md#main-pars_text_779047019)**
+**Beliebigen eLearning-Inhalt abspielen[](../../learners/feature-summary/fluidic-player.md#main-pars_text_779047019)**
 
 Der Fluidic Player spielt praktisch jede Art von eLearning-Inhalten auf dieselbe konsistente und intuitive Art und Weise ab, ohne dass Plug-ins oder Downloads erforderlich sind. Der Teilnehmer kann den Inhalt starten und dieser wird unabhängig vom Dateityp abgespielt.
 
 **Anmerkungen und Lesezeichen**
 
-Sie können unabhängig vom Dateityp Anmerkungen erstellen und Lesezeichen für alle Inhalte erstellen. Wenn Sie eine bestimmte Auswahl aus einer langen Datei oder einem Video treffen möchten, können Sie genau an den Stellen Lesezeichen setzen, an denen Sie die Informationen gefunden haben, die für Ihre Anforderungen relevant sind. Die Notizen und Lesezeichen können durchsucht oder als E-Mail gesendet werden. Durch Klicken auf diese wird genau die gewünschte Stelle im Video bzw. die Seite im Dokument im Fluidic Player geöffnet.
+Sie können unabhängig vom Dateityp Anmerkungen erstellen und Lesezeichen für alle Inhalte erstellen. Wenn Sie aus einer langen Datei oder einem Video eine bestimmte Auswahl treffen möchten, können Sie Lesezeichen für genau die Stellen erstellen, an denen Sie die für Sie relevanten Informationen gefunden haben. Die Notizen und Lesezeichen können durchsucht oder als E-Mail gesendet werden. Durch Klicken auf diese wird genau die gewünschte Stelle im Video bzw. die Seite im Dokument im Fluidic Player geöffnet.
 
 Weitere Informationen zum Fluidic Player finden Sie unter [Fluidic Player](../../learners/feature-summary/fluidic-player.md).
 
-Im Folgenden finden Sie einige Beispiele für die Verwendung des integrierbaren Fluidic Players.
+Hier sind einige Beispiele, wo Sie den integrierbaren Fluidic Player verwenden können.
 
-* Sie können den integrierbaren Fluidic Player auf Ihrer **&#x200B; &#x200B;**-Website verwenden, um die Kurse aufzulisten, für die Ihr Mitarbeiter registriert ist, und einen Link zum Starten einer Schulung auf derselben Seite bereitzustellen. Dies würde bedeuten, dass Ihre Teilnehmer Schulungen auf Ihrer Intranet-Website absolvieren können.
+* Sie können den integrierbaren Fluidic Player auf Ihrer ** **-Website verwenden, um die Kurse aufzulisten, für die Ihr Mitarbeiter registriert ist, und einen Link zum Starten einer Schulung auf derselben Seite bereitzustellen. Dies würde bedeuten, dass Ihre Teilnehmer Schulungen auf Ihrer Intranet-Website absolvieren können.
 
-* Wenn Sie im Bildungsbereich tätig sind, betreiben Sie vielleicht eine Website, auf der Ihre Kunden Kurse kaufen. Sie können den integrierbaren Player auf derselben Website integrieren, sodass Ihre Kunden den Inhalt, den sie kaufen, auf Ihrer Website nutzen können.
+* Wenn Sie im Bildungsbereich tätig sind, betreiben Sie vielleicht eine Website, auf der Ihre Kunden Kurse kaufen. Sie können den integrierbaren Player auf derselben Website integrieren, sodass Ihre Kunden den Inhalt, den Sie kaufen, auf Ihrer Website nutzen können.
 
 ## Schritte für die Integration des Fluidic Player in Ihre Website {#stepstoembedfluidicplayerinyourwebsite}
 
@@ -43,7 +43,7 @@ Das Erstellen einer benutzerdefinierten Anwendung zum Integrieren des Fluidic Pl
 1. Rufen Sie das Zugriffstoken ab.
 1. Verwenden Sie das Zugriffstoken, um Ressourcen mithilfe der öffentlichen API aus dem Lern-Manager abzurufen.
 
-### 1. Erstellen einer Anwendung in der Integrations-Admin-App {#1createanapplicationinintegrationadmin}
+### &#x200B;1. Anwendung im Integrationsadministrator erstellen {#createanapplicationinintegrationadmin}
 
 Dieser Schritt ist erforderlich, um eine Anwendungs-/Client-ID und ein Anwendungs-&#x200B;&#x200B;/Client-Geheimnis zu erstellen, das zum Abrufen des Aktualisierungstokens und des Zugriffstokens verwendet wird. Weitere Informationen zum Erstellen einer Anwendung finden Sie unter [Anwendungsentwicklungsprozess.](developer-manual.md#main-pars_header_994876235)
 
@@ -54,7 +54,7 @@ Dieser Schritt ist erforderlich, um eine Anwendungs-/Client-ID und ein Anwendung
 1. Wenn die benutzerdefinierte Anwendung für mehrere Konten freigegeben werden muss, wählen Sie im Optionsfeld **[!UICONTROL Nur für dieses Konto?]** die Option **[!UICONTROL Nein]** aus.
 1. Um die Anwendung zu speichern und ID und Geheimnis für die Anwendung zu generieren, klicken Sie auf **[!UICONTROL Speichern]**.
 
-### 2. Abrufen des Zugriffstokens {#2retrievingaccesstoken}
+### &#x200B;2. Abrufen des Zugriffstokens {#retrievingaccesstoken}
 
 Da Learning Manager OAUTH2.0 verwendet, ist ein Zugriffstoken erforderlich, um Ressourcen mithilfe der öffentlichen API abzurufen. Das Zugriffstoken kann mithilfe des Aktualisierungstokens, der Client-ID oder des Client-Geheimnisses abgerufen werden.
 
@@ -76,16 +76,16 @@ client_id= <application_id>
 ```
 
 Hier ist **[!UICONTROL Client-ID]** die in Schritt 1 erhaltene Anwendungs-ID.
-**[!UICONTROL redirect_url]** ist die in Schritt 1 festgelegte Umleitungs-URL.
-**[!UICONTROL state]** sind beliebige Dummy-Daten, auf deren Grundlage wir die Umleitungs-URL filtern müssen, um den OAuth-Code abzurufen. Der Umfang ist der Teilnehmerbereich, der in Schritt 1 festgelegt wurde.
-**[!UICONTROL response_type]**&#x200B;e ist immer &quot;CODE&quot;.\
+2**[!UICONTROL redirect_url]** ist die in Schritt 1 festgelegte redirect_url.
+1**[!UICONTROL state]** sind alle Dummy-Daten, auf deren Grundlage wir die Umleitungs-URL filtern müssen, um OAuth-Code zu erhalten. &quot;Scope&quot; ist der in Schritt 1 festgelegte Teilnehmerbereich.
+**[!UICONTROL response_type]**e ist immer &quot;CODE&quot;.\
 **[!UICONTROL account]** ist ein optionales Feld.\
 **[!UICONTROL email]** ist ein optionales Feld.\
 &#42; Wenn sowohl die Konto-ID als auch die E-Mail-Adresse angegeben werden, kann sich der Benutzer über die obige URL bei demselben Konto anmelden. Dieses Endpunktbeispiel wird in der Datei &quot;index.html&quot; in der Beispielanwendung dargestellt.
 
 * Zugriffstoken abrufen
 
-Sobald OAuth-Code empfangen wurde, kann das Aktualisierungstoken mithilfe des empfangenen OAuth-Codes, der Client-ID und des Client-Secrets vom folgenden Endpunkt abgerufen werden:
+Sobald der OAuth-Code empfangen wurde, kann das Aktualisierungstoken mithilfe des OAuth-Codes, der Client-ID und des Client-Geheimnisses vom folgenden Endpunkt abgerufen werden:
 
 **https://learningmanager.adobe.com/oauth/token**
 
@@ -95,7 +95,7 @@ i. refresh_token\
 ii. access_token\
 iii. user_id\
 iv. expiry_in\
-v. Benutzerrolle\
+v. user_role\
 vi. account_id
 
 **2.2 Abrufen des Zugriffstokens über das Aktualisierungstoken**
@@ -109,10 +109,10 @@ i. refresh_token\
 ii. access_token\
 iii. user_id\
 iv. expiry_in\
-v. Benutzerrolle\
+v. user_role\
 vi. account_id
 
-### 3. Abrufen von Ressourcen mithilfe der öffentlichen API {#3retrieveresourcesusingpublicapi}
+### &#x200B;3. Abrufen von Ressourcen mithilfe der öffentlichen API {#retrieveresourcesusingpublicapi}
 
 Als dritten Schritt müssen Sie das Zugriffstoken verwenden, um Ressourcen mithilfe der öffentlichen API aus dem Learning Manager abzurufen.  Das Zugriffstoken ist erforderlich, um einen öffentlichen API-Aufruf durchzuführen, und es muss im Header hinzugefügt werden, wie in der Beispielanwendung gezeigt.
 
@@ -155,7 +155,7 @@ code window.addEventListener("message", function closePlayer(){
 ## Tutorial für Beispielanwendung {#sampleapplicationtutorial}
 
 Das angehängte PDF-Dokument enthält ein Beispielanwendungs-Tutorial.
-[Beispieltutorial und Tutorialquelle zum Einbetten des Fluidic Players.](assets/sample-applicationtutorial.zip) Alternativer Inhalt
+[Beispieltutorial und Tutorialquelle zum Einbetten des Fluidic Players.](assets/sample-applicationtutorial.zip) Alternative Inhalte
 
 Als Administrator können Sie Ihr Kursmaterial so einrichten, dass Sie den Teilnehmern im Fluidic Player alternative Inhalte anbieten können. Wenn Sie beispielsweise Teilnehmer in verschiedenen Regionen haben, die mehrere Sprachen verwenden möchten, können Sie denselben Inhalt in mehreren Sprachen erstellen. Der Fluidic Player bietet dem Teilnehmer die Sprache, für die er möglicherweise eingerichtet ist, aber der Teilnehmer hat auch die Möglichkeit, direkt im Player zu einer anderen Sprache zu wechseln.
 
@@ -183,7 +183,7 @@ Diese Aufgabe muss von einem Mitarbeiter Ihres IT-Teams oder einem externen Bera
 
    Sie können Ihr Token abrufen, indem Sie Ihren integrierbaren Fluidic Player in Ihrer Integrationsadministration einrichten. Sie können Ihr Authentifizierungstoken abrufen und als Zugriffstoken verwenden.
 
-   Beispiel einer erstellten URL; https://learningmanager.adobe.com/app/player?lo_id=&quot;+lo_id+&quot;&access_token=&quot;+accToken
+   Beispiel einer erstellten URL; `https://learningmanager.adobe.com/app/player?lo_id="+lo_id+"&access_token="+accToken`
 
    Hierbei ist lo_id die ID des Kurses, des Lernprogramms, der Zertifizierung und jobAid .
 
