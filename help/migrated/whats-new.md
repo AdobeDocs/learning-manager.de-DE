@@ -2,13 +2,13 @@
 description: Erfahren Sie mehr über die neuen Funktionen und Verbesserungen in der Version Oktober 2025 von Adobe Learning Manager
 jcr-language: en_us
 title: Neue Funktionen in der Adobe Learning Manager-Version Oktober 2025
-source-git-commit: b1225d4c1c322a75d97c813b0d97eb3229ffd35c
+exl-id: e4685cab-08ca-4b6b-93f4-a9eecf382dc4
+source-git-commit: 95b65499b5becfb34abbceb5dc3d98dfa51b0e31
 workflow-type: tm+mt
-source-wordcount: '5573'
+source-wordcount: '5648'
 ht-degree: 0%
 
 ---
-
 
 # Neue Funktionen in der Adobe Learning Manager-Version Oktober 2025
 
@@ -274,6 +274,7 @@ Die Antwort der `startRun`-API wurde aktualisiert und enthält nun die ID des Mi
 Ruft den Status eines vorhandenen Migrationslaufs ab.
 
 **Endpunkt**
+Ein neuer Endpunkt ist verfügbar:
 
 ```
 GET /bulkimport/runStatus
@@ -732,7 +733,7 @@ Der Benutzerbericht enthält jetzt zusätzliche Felder zur Verbesserung der Benu
 * Spalte &quot;Interne Benutzer-ID&quot;: Bietet eindeutige interne Kennungen für eine reibungslose Benutzerverfolgung über verschiedene Systeme und API-Endpunkte hinweg.
 * Spalte &quot;Manager-E-Mail&quot;: Enthält direkte Manager-Kontaktinformationen für die Verfolgung der Organisationshierarchie.
 
-![Benutzerbericht mit gelb markierten Spalten für die interne Benutzer-ID und Manager-E-Mail &#x200B;](/help/migrated/assets/user-report-columns.png)
+![Benutzerbericht mit gelb markierten Spalten für die interne Benutzer-ID und Manager-E-Mail ](/help/migrated/assets/user-report-columns.png)
 _Benutzerberichte, die interne Benutzer-IDs und Manager-E-Mail-Adressen hervorheben, um die Benutzerverwaltung zu optimieren_
 
 [Laden Sie den Benutzerbericht herunter](/help/migrated/administrators/feature-summary/add-users-user-groups.md#download-the-user-report), um weitere Informationen zum Benutzerbericht zu erhalten.
@@ -822,5 +823,3 @@ Lesen Sie die [Versionshinweise](/help/migrated/release-note/release-notes.md) f
 
 * [Adobe Learning Manager Version Mai 2025](/help/migrated/whats-new-may-2025.md)
 * [Adobe Learning Manager Version November 2025](/help/migrated/whats-new-nov-24.md)
-
-
