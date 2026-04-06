@@ -2,9 +2,9 @@
 title: Neue Funktionen in der Adobe Learning Manager-Version April 2026
 description: Erfahren Sie mehr über die neuen Funktionen, Verbesserungen und wichtigen Updates in der Adobe Learning Manager-Version vom April 2026.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: ea8f2d8d4013815c66bdc68351ceceecf41fa3d1
+source-git-commit: 33f503b69b979bfa962387388b453492a44cac5d
 workflow-type: tm+mt
-source-wordcount: '20223'
+source-wordcount: '20354'
 ht-degree: 0%
 
 ---
@@ -438,7 +438,7 @@ Die Verbesserung führt gewichtete Checklisten ein, sodass Kursleiter und Manage
 
 Checklisten unterstützen die folgenden Typen:
 
-1. Ja/Nein
+1. Ja//Nein
 Das Verhalten bleibt unverändert: Jede Frage lautet Ja/Nein und die Kriterien für das Bestehen basieren auf der Anzahl der Ja-Antworten.
 
 2. Gleichgewichtige Fragen
@@ -1430,7 +1430,7 @@ Mit anderen Worten, die angemeldeten Empfehlungen helfen ihnen dabei, zu entsche
 
 Auf der **Benutzeroberfläche** nehmen Arbeitshilfen hauptsächlich über Widgets, die Lernobjekte anzeigen können, an nicht angemeldeten Erlebnissen teil:
 
-1. **Widget für Kurse und Pfade**
+1. **Kurse und Pfade-Widget**
 Dieses Widget kann mehrere LO-Typen anzeigen, einschließlich Arbeitshilfen. Auf nicht angemeldeten Seiten können Sie folgende Einstellungen vornehmen:
    1. Schließen Sie Arbeitshilfen explizit ein oder aus.
    2. Filtern Sie Arbeitshilfen nach Katalog, Produkt, Rolle, Beschriftungen, Tags und anderen Metadaten.
@@ -1439,7 +1439,7 @@ Dieses Widget kann mehrere LO-Typen anzeigen, einschließlich Arbeitshilfen. Auf
 Auf einer öffentlichen Landingpage können Sie beispielsweise einen Streifen mit dem Titel &quot;Hilfreiche Ressourcen&quot; konfigurieren, der nur Arbeitshilfen anzeigt, und einen anderen Streifen mit dem Titel &quot;Empfohlene Kurse&quot;, der Kurse und Pfade anzeigt.
 
 1. **Katalogseite und Suche**
-Die nicht angemeldeten **catalog**- und **search**-Oberflächen verwenden den öffentlichen Suchindex (gespeist vom Connector für den Zugriff auf Schulungsdaten). Dieser Index unterstützt Arbeitshilfen jetzt korrekt. Gehen Sie deshalb wie folgt vor:
+Die nicht angemeldeten Flächen **catalog** und **search** verwenden den öffentlichen Suchindex (der vom Connector für den Zugriff auf Schulungsdaten gespeist wird). Dieser Index unterstützt Arbeitshilfen jetzt korrekt. Gehen Sie deshalb wie folgt vor:
    1. Nicht angemeldete Suchergebnisse können Arbeitshilfen enthalten.
    2. Nicht angemeldete Katalogfilter (nach Typ, Produkt, Tags usw.) können Arbeitshilfen beinhalten, solange Ihre Kontokonfiguration und Widgets so eingerichtet sind, dass sie angezeigt werden.
 2. **LO-Übersichtsseiten**
@@ -1451,7 +1451,7 @@ Auf der **API-Seite** werden Arbeitshilfen unterstützt von:
 
 1. Der **Schulungsdatenzugriffsconnector und die öffentliche Suche**
 TDA exportiert Arbeitshilfemetadaten zusammen mit anderen LO-Typen in den öffentlichen Suchindex, der nicht angemeldete Such- und Katalogabfragen bereitstellt. Darauf setzen Experience Builder und Headless-Frontends.
-2. Die Liste der **Lernobjekte mit effektivemÄnderungsdatum**
+2. Die Liste der **Lernobjekte mit &quot;effectModifiedDate&quot;**
 In dieser Version wurde der LO-Listing-Endpunkt korrigiert, sodass Arbeitshilfen mit dem Filter effectModifiedDate ordnungsgemäß funktionieren. Sie können jetzt folgende Telefonnummern anrufen:
 
 ```
@@ -2405,11 +2405,27 @@ Wenn der Teilnehmer einen direkten Abschluss hat, wirkt sich das Widerrufen von 
 
 ### Verbesserte Berichterstellung für Anmerkungen von Checklisten-Reviewern
 
-Reviewerkommentare aus Checklistenmodulen sind jetzt im LT-Bericht unter einer umbenannten Spalte Reviewerbemerkungen enthalten.
+Reviewerkommentare aus Checklistenmodulen sind jetzt in Teilnehmertranskripten (LT) unter einer umbenannten Spalte enthalten: **Anmerkungen des Reviewers** (zuvor &quot;Übermittlungskommentar&quot;).
 
 #### Auswirkungen
 
-Teilnehmer und Administratoren können konsolidiertes Feedback anzeigen und so die Transparenz verbessern und die Leistungsbewertung unterstützen.
+Teilnehmer und Administratoren können konsolidiertes, klar beschriftetes Feedback von Überprüfern in LT-Exporten (UI, Job API und Connectors) anzeigen, wodurch Transparenz, Überprüfbarkeit und die Unterstützung einer genaueren Leistungsbewertung und von Coaching verbessert werden.
+
+#### Was hat sich verändert
+
+**Umbenannte Spalten**
+
+| Bereich | Alter Spaltenname | Neuer Spaltenname | Anmerkungen |
+| --------------------------- | ------------------ | ------------------ | --------------------------------------------------------- |
+| Teilnehmertranskripte (Administrator) | Einreichungskommentar | Anmerkungen des Reviewers | Gilt für alle Admin LT-Quellen: Benutzeroberfläche, Job-API, Connectors, sofern zutreffend. |
+
+Diese Änderung gilt einheitlich für alle Admin LT-Quellen (UI-Exporte, Job API-Berichte und Connector-basierte Exporte, wo immer zutreffend). Bei einer vom Connector exportierten LT werden die Anmerkungen des Reviewers als spezielle Spalte am Ende angezeigt (bei Connectors, für die zuvor kein Übermittlungskommentar angezeigt wurde). So wird sichergestellt, dass bei nachgelagerten Integrationen das Feedback des Reviewers von anderen Kommentaren unterschieden werden kann.
+
+>[!NOTE]
+>
+>Bei den Teilnehmertranskripten für Teilnehmer wird die Spalte, die zuvor mit &quot;Einreichungskommentar&quot; beschriftet war, jetzt in &quot;Anmerkungen des Überprüfers&quot; umbenannt und mit dem Kommentar des Überprüfers in der Checkliste ausgefüllt, wenn dieser aktiviert ist.
+
+
 
 ### Verbesserte Berechnung der Lernzeit
 
