@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Berichte
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: 03484f1c95f7dbf1e06b7cb9559b1a6b012759c1
+source-git-commit: 2dc01be9cd7200814a1bbd7a30610c162e7d93bf
 workflow-type: tm+mt
-source-wordcount: '7576'
-ht-degree: 54%
+source-wordcount: '7660'
+ht-degree: 63%
 
 ---
 
@@ -17,11 +17,11 @@ Informieren Sie sich über die Berichte, die mit der Administratorrolle in der L
 
 Mit Adobe Learning Manager können Sie verschiedene Berichte erstellen, um die Aktivitäten der Teilnehmer zu verfolgen, zu überwachen und zu kontrollieren. Aktivitäten von Teilnehmern werden verfolgt und automatisch in der Datenbank erfasst. Manager- und Administratoren-Berichte werden von der Datenbank aus erstellt.
 
-## Überblick {#overview}
+## Übersicht {#overview}
 
 Berichte für Administratoren und Manager werden auf ähnliche Weise erstellt. Manager können Berichte über ihre Mitarbeiter anzeigen, Administratoren hingegen alle Berichte im Unternehmen.
 
-Berichte werden in einem Dashboard generiert. Ein Bericht muss sich in einem Dashboard befinden. Ein **[!UICONTROL Standard-Dashboard]** ist standardmäßig auf der Berichtsseite vorhanden. Alle Berichte, die Sie hinzufügen, werden in dieses Standard-Dashboard verschoben. Verwenden Sie zum Hinzufügen von Berichten zu einzelnen Dashboards den Dropdown-Pfeil, und wählen Sie **[!UICONTROL Bericht hinzufügen]**. Genauere Informationen über das Erstellen von Dashboards finden Sie im Bereich „Dashboards“ auf dieser Seite.
+Berichte werden in einem Dashboard generiert. Ein Bericht muss sich in einem Dashboard befinden. Standardmäßig ist auf der Berichtsseite ein **[!UICONTROL Standard-Dashboard]** vorhanden. Alle Berichte, die Sie hinzufügen, werden in dieses Standard-Dashboard verschoben. Um einem einzelnen Dashboard einen Bericht hinzuzufügen, wählen Sie in der Dropdownliste **[!UICONTROL Bericht hinzufügen]**. Genauere Informationen über das Erstellen von Dashboards finden Sie im Bereich „Dashboards“ auf dieser Seite.
 
 ## Berichtstypen {#typesofreports}
 
@@ -84,11 +84,11 @@ Hier sehen Sie zweiachsige Liniendiagramme, die den gesamten Zeitaufwand zum Ler
 Der Zeitaufwand für verschiedene Lernobjekte wie Lernprogramme und Zertifizierungen wird für Folgendes berechnet:
 
 * Selbststudium mit statischen und interaktiven Inhalten
-* Aktivitätskurse mit URL.
+* Aktivitätskurse mit URL
 * Wochenendsitzungen mit aktiviertem Wochenendflag
 * VC-Connect-Sitzung, bei der die Anwesenheit automatisch markiert wird
 * Die für verschiedene Lernobjekte wie Lernprogramme und Zertifizierungen aufgewendete Zeit
-* xAPI-Anweisungen für einen xAPI-Aktivitätskurs.
+* xAPI-Anweisungen für einen xAPI-Aktivitätskurs
 
 Sie können das Diagramm weiter als Excel-Tabelle exportieren.
 
@@ -207,25 +207,25 @@ Sehen Sie sich einen zusammenfassenden Bericht über alle Lernaktivitäten in de
 
 Wenn es interne Stammebenen-Manager gibt, werden diese nacheinander angezeigt.
 
-Alle externen Profile werden nach internen Profilen aufgelistet (interne Stammbenutzer).
+Alle externen Profile werden nach internen Profilen aufgeführt (interne Stammbenutzer).
 
 Wenn ein externes Profil über einen Manager verfügt, wird die Managerhierarchie in der Dropdownliste **[!UICONTROL Daten werden angezeigt für]** angezeigt. Der Benutzer wird auf allen Detailseiten in der Managerhierarchie aufgeführt (Lernzusammenfassung, Compliance und Kenntnisstatus).
 
-Andernfalls werden alle individuellen Benutzerdetails in der Liste angezeigt.
+Andernfalls werden alle einzelnen Benutzerdetails in der Liste angezeigt.
 
-Klicken Sie auf **[!UICONTROL Lernzusammenfassungsdetails]**, um detailliertere Informationen zu den Registrierungen für verschiedene interne Teams anzuzeigen.
+Um detailliertere Informationen zu den Registrierungen für verschiedene interne Teams anzuzeigen, klicken Sie auf **[!UICONTROL Lernzusammenfassungen]**.
 
 ![](assets/learning-sunnarydetails.png)
 *Lernzusammenfassungsdetails*
 
-Wenn Sie auf eine Registrierung klicken, können Sie die Teilnehmer für jeden Manager sehen und die Registrierung für welche Lernobjekte. Sie können auch die Details der einzelnen Teilnehmer zu Fortschritt und Abschluss sehen.
+Wenn Sie auf eine Registrierung klicken, können Sie die Teilnehmer für jeden Manager sehen und die Registrierungen für die einzelnen Lernobjekte. Sie können auch die Details der einzelnen Teilnehmer zu Fortschritt und Abschluss sehen.
 
 ![](assets/learners-for-a-manager.png)
 *Teilnehmer, die einem Manager zugewiesen sind*
 
 Klicken Sie auf ein beliebiges Team und exportieren Sie seinen Bericht als CSV-Datei. Ein Administrator kann den Bericht für jede Benutzergruppe oder jeden einzelnen Benutzer exportieren, indem er die Benutzergruppe oder den einzelnen Benutzer auswählt und dann Details aus der Dropdown-Liste **[!UICONTROL Aktion]** exportiert.
 
-Sie können auch ein Balkendiagramm mit den Qualifikationen anzeigen, die gerade erworben wurden. Sie können Kenntnisse hinzufügen/entfernen, die Sie im Diagramm verwenden möchten.
+Sie können auch in einer Balkendiagrammansicht anzeigen, welche Kenntnisse bereits erworben wurden und welche gerade erworben werden. Sie können Kenntnisse hinzufügen/entfernen, die Sie im Diagramm verwenden möchten.
 
 ![](assets/skill-status-stackedbarchart.png)
 *Gestapeltes Balkendiagramm zum Kenntnisstatus*
@@ -401,7 +401,7 @@ Die Registerkarte **[!UICONTROL Beispielberichte]** zeigt einige Musterberichte
 
 ### Dashboard-Berichte {#dashboardreports}
 
-Ein Dashboard ist eine Sammlung von Berichten. Berichte können nach Ihren Wünschen in einem Dashboard gruppiert werden. Klicken Sie auf diese Dashboard-Registerkarte, um alle von Ihnen erstellten Dashboards anzuzeigen. Aus der Dropdownliste **[!UICONTROL Dashboard anzeigen]** können Sie das Standardboard oder ein Dashboard auswählen, das Sie erstellt haben.
+Ein Dashboard ist eine Sammlung von Berichten. Sie können die Berichte im Dashboard nach Ihrem Bedarf gruppieren. Klicken Sie auf diese Dashboard-Registerkarte, um alle von Ihnen erstellten Dashboards anzuzeigen. Aus der Dropdown-Liste **[!UICONTROL Dashboard anzeigen]** können Sie das voreingestellte Board auswählen oder ein Dashboard, das Sie erstellt haben.
 
 ### Excel-Berichte {#excelreports}
 
@@ -466,7 +466,7 @@ Als Administrator können Sie einen Bericht aller Ankündigungen generieren, die
 
 Um einen Bericht herunterzuladen, führen Sie einen der folgenden Schritte aus:
 
-1. Öffnen Sie **[!UICONTROL Berichte]** > **[!UICONTROL Benutzerdefinierte Berichte]** > **[!UICONTROL Excel-Berichte]** > **[!UICONTROL Bericht für Ankündigungen]**. Das Dialogfeld **[!UICONTROL Erstellen einer Berichtsanforderung]** wird geöffnet. Klicken Sie auf OK.
+1. Öffnen Sie **[!UICONTROL Berichte]** > **[!UICONTROL Benutzerdefinierte Berichte]** > **[!UICONTROL Excel-Berichte]** > **[!UICONTROL Bericht für Ankündigungen]**. Das Dialogfeld **[!UICONTROL Erstellen einer Berichtsanforderung]** wird geöffnet. Klicken Sie auf „OK“.
 1. [!UICONTROL **Ankündigungen**] > [!UICONTROL **Aktionen**] > [!UICONTROL **Bericht exportieren**].
 
    ![](assets/announcements.png)
@@ -517,7 +517,7 @@ Nachdem Sie den **[!UICONTROL Bericht zu Arbeitshilfen]** in der Liste ausgewäh
 
 **Ausgewählte Arbeitshilfen**: Wenn Sie diese Option auswählen, können Sie die Arbeitshilfen eingeben, für die Sie den Bericht generieren möchten. Sie können maximal 10 Arbeitshilfen auswählen. Adobe Learning Manager überprüft, ob die Anzahl der Arbeitshilfen 10 Millionen übersteigt.
 
-![Registrierung für Bericht zu Arbeitshilfen](assets/job-aids-2-new.png)
+![Registrierung für Bericht für Arbeitshilfen](assets/job-aids-2-new.png)
 *Arbeitshilfe auswählen*
 
 **Bericht zu Arbeitshilfen**
@@ -572,7 +572,7 @@ Der heruntergeladene Bericht enthält folgende Felder:
 
 ### Berichte zu Inhaltsprüfpfaden {#contentaudittrailreports}
 
-Verwenden Sie den Berichtsgenerator **[!UICONTROL Inhaltsprüfpfad]**, um einen Bericht über alle Änderungen zu erstellen, die an einem Kurs vorgenommen wurden, während er im System aktiv ist. Der generierte Bericht enthält die folgenden Informationen.
+Verwenden Sie den Berichtgenerator **[!UICONTROL Inhaltsprüfpfad]**, um einen Bericht über alle Änderungen, die an einem Kurs vorgenommen wurden, zu erstellen. Der generierte Bericht enthält die folgenden Informationen.
 
 * Objekt-ID
 * Objektname
@@ -580,10 +580,10 @@ Verwenden Sie den Berichtsgenerator **[!UICONTROL Inhaltsprüfpfad]**, um einen 
 * Änderungstyp
 * Beschreibung
 * ID des referenzierten Objekts
-* Referenzierter Objektname 
+* Referenzierter Objektname
 * Geändert von Benutzername
 * Geändert von Benutzer-ID
-* Änderungsdatum (UTC-Zeitzone) 
+* Änderungsdatum (UTC-Zeitzone)
 
 In der Spalte **Modifizierungstyp** werden die folgenden Details angezeigt:
 
@@ -635,7 +635,7 @@ Der Benutzerprüfpfad erfasst den Lebenszyklus von Benutzern, Benutzergruppen un
 
 Sie können externe Profile hinzufügen, aktivieren, deaktivieren, aussetzen oder fortsetzen, die Selbstregistrierung hingegen hinzufügen, löschen, aussetzen oder fortsetzen. CSV-Uploads werden ebenfalls erfasst.
 
-1. Wählen Sie **[!UICONTROL Bericht > Excel-Bericht > Benutzerprüfpfad]**. Das Dialogfeld &quot;Benutzerprüfpfad&quot; wird angezeigt.
+1. Wählen Sie **[!UICONTROL Bericht > Excel-Bericht > Benutzerprüfpfad]**. Das Dialogfeld „Benutzerprüfpfad“ wird angezeigt.
 1. Das Dialogfeld „Benutzerprüfpfad“ wird angezeigt. Wählen Sie den Datumsbereich im Popupmenü. Sie können den Bericht wahlweise für die letzte Woche oder den letzten Monat generieren oder ein benutzerdefiniertes Datum wählen.
 
    ![](assets/user-audit-trail.png)
@@ -681,7 +681,7 @@ Um diesen Bericht herunterzuladen, führen Sie die folgenden Schritte aus:
 
 Administratoren können das Gamification-Transkript im CSV-Format herunterladen. Sie können den Bericht entweder für einzelne Benutzer oder Benutzergruppen herunterladen. Benutzername, Benutzer-E-Mail-Adresse, Benutzer-UUID, erreichte Gesamtpunktzahl des Benutzers, Aufteilung der gesammelten Punkte, Name der Gruppen, in denen der Benutzer spielt, Name des Managers und Werte für aktive Felder werden alle im Bericht abgerufen. Administratoren können diesen Bericht verwenden, um Benutzerrangfolgen auf Organisationsebene oder für eine bestimmte Gruppe zu bewerten und zu analysieren.
 
-1. Wählen Sie Bericht > Excel-Bericht > Gamification-Bericht.
+1. Wählen Sie „Bericht“ > „Excel-Bericht“ > „Gamification-Bericht“.
 
    ![](assets/gamification.png)
    *Gamification-Bericht*
@@ -693,7 +693,7 @@ Administratoren können das Gamification-Transkript im CSV-Format herunterladen.
 
 1. Klicken Sie auf **[!UICONTROL Generieren]**, um den Bericht zu generieren.
 
-   Nachdem Sie den Bericht eines Teilnehmers erstellt haben, müssen Sie in der Lage sein, die aktuellen und erreichten Informationen für alle Benutzer (intern, extern oder gelöscht) im Konto zu exportieren. Sie können auch die Daten für die von einem Teilnehmer erreichte Kenntnisstufe überprüfen:
+   Nachdem Sie den Bericht eines Teilnehmer erstellt haben, müssen Sie in der Lage sein, die aktuellen und erreichten Informationen für alle Benutzer (intern, extern oder gelöscht) im Konto zu exportieren. Sie können auch die Daten für die von einem Teilnehmer erreichte Kenntnisstufe überprüfen:
 
    * Datum, an dem Bronze erreicht wurde
    * Datum, an dem Silber erreicht wurde
@@ -733,7 +733,7 @@ Der Bericht wird als CSV-Datei heruntergeladen. Die Datei enthält die folgenden
 
 ### Bericht zur Registrierung und Aufhebung der Registrierung {#enrollmentandunenrollmentreport}
 
-Administratoren und Manager können einen Bericht der Teilnehmer extrahieren, die sich registriert bzw. ihre Registrierung aufgehoben haben. Als Administrator können Sie alle Teilnehmer, Administrator oder Manager sehen, die von einer Instanz eines Kurses des Lernprogramms oder der Zertifizierung registriert wurden oder deren Registrierung aufgehoben wurde und Sie können den Bericht exportieren. Als Manager können Sie jedoch nur einen Bericht Ihrer Teammitglieder abrufen. Als Manager können Sie nicht die gelöschten Teilnehmer oder Ihren eigenen Namen in der Manager-Anwendung als registrierter oder nicht registrierter Teilnehmer sehen.
+Administratoren und Manager können einen Bericht der Teilnehmer extrahieren, die sich registriert bzw. ihre Registrierung aufgehoben haben. Als Administrator können Sie alle Teilnehmer, Administrator oder Manager sehen, die von einer Instanz eines Kurses des Lernprogramms oder der Zertifizierung registriert wurden oder deren Registrierung aufgehoben wurde und Sie können den Bericht exportieren. Als Manager können Sie jedoch nur einen Bericht Ihrer Teammitglieder abrufen. Als Manager können Sie nicht die gelöschten Teilnehmer oder Ihren eigenen Namen in der Manager-Anwendung als angemeldet sehen.
 
 Führen Sie die folgenden Schritte aus, um einen Bericht herunterzuladen: **[!UICONTROL Kurs/Lernprogramm/Zertifizierung]** > **[!UICONTROL Teilnehmer]** > **[!UICONTROL Aktion]** > **[!UICONTROL Bericht exportieren]**.
 
@@ -761,12 +761,12 @@ Sie können Berichte für Folgendes herunterladen:
 ![](assets/download-trainingreport.png)
 *Schulungsbericht herunterladen*
 
-Im Abschnitt &quot;Erweiterte Optionen&quot; sind die folgenden Optionen verfügbar:
+Im Abschnitt „Erweiterte Optionen“ sind die folgenden Optionen verfügbar:
 
 * Kurszuordnungen mit Lernprogramm/Zertifizierung einschließen
 * Modulebeneninformationen einschließen
 
-Nachdem Sie die Filter ausgewählt und auf &quot;Herunterladen&quot; geklickt haben, erhalten Sie eine Benachrichtigung, dass Sie den Bericht im CSV-Format herunterladen können.
+Nachdem Sie die Filter ausgewählt und auf „Herunterladen“ geklickt haben, erhalten Sie eine Benachrichtigung, um den Bericht im CSV-Format herunterzuladen.
 
 Der Bericht enthält folgende Felder:
 
@@ -918,7 +918,7 @@ Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.
 
 Klicken Sie auf der Seite **[!UICONTROL Berichte]** auf die Registerkarte **[!UICONTROL Abonnement]**. Die Seite zum Abonnieren von Berichten erscheint.
 
-Beginnen Sie mit der Eingabe des Berichtnamens in das Feld &quot;Berichte&quot;, um den Namen des Berichts aus der Dropdownliste auszuwählen. Wählen Sie die E-Mail-Häufigkeit aus der Dropdown-Liste aus. Sie können den Betreff der E-Mail hinzufügen und eine alternative E-Mail-ID angeben.
+Beginnen Sie damit, den Namen des Berichts im Feld „Berichte“ einzugeben, und wählen Sie den Namen des Berichts aus der Dropdown-Liste aus. Wählen Sie die E-Mail-Häufigkeit aus der Dropdown-Liste aus. Sie können den Betreff der E-Mail hinzufügen und eine alternative E-Mail-ID angeben.
 
 Sie können Abonnements bearbeiten und löschen.
 
@@ -950,7 +950,7 @@ Um diesen Bericht herunterzuladen, führen Sie die folgenden Schritte aus:
 
 ## Dashboard erstellen {#createadashboard}
 
-1. Klicken Sie rechts auf der Seite auf Dashboard hinzufügen , um eigene Dashboards zu erstellen.
+1. Klicken Sie im rechten Teil der Seite auf „Dashboard hinzufügen“, um eigene Dashboards zu erstellen.
 
    ![](assets/add-dashboards.png)
    *Dashboards hinzufügen*
@@ -961,19 +961,19 @@ Um diesen Bericht herunterzuladen, führen Sie die folgenden Schritte aus:
 
 Sie können das kürzlich erstellte Dashboard in der Liste **[!UICONTROL Dashboard-Berichte]** sehen.
 
-Um Ihrem Dashboard Berichte hinzuzufügen, klicken Sie auf das Dropdownmenü in der oberen rechten Ecke des Dashboard-Fensters und klicken Sie auf **[!UICONTROL Bericht hinzufügen]**. Der so erstellte Bericht wird mit Ihrem Dashboard verknüpft.
+Um Ihrem Dashboard Berichte hinzuzufügen, klicken Sie in der rechten oberen Ecke Ihres Dashboard-Fensters auf die Dropdownliste und auf **[!UICONTROL Bericht hinzufügen]**. Der so erstellte Bericht wird mit Ihrem Dashboard verknüpft.
 
 >[!NOTE]
 >
->Berichte, die Sie erstellen, indem Sie in der rechten oberen Ecke der Seite &quot;Berichte&quot; auf &quot;Hinzufügen&quot; klicken, werden Ihrem Standard-Dashboard hinzugefügt.
+>Berichte, die Sie erstellen, indem Sie in der rechten oberen Ecke der Seite „Berichte“ auf „Hinzufügen“ klicken, werden im Standard-Dashboard hinzugefügt.
 
 ## Freigegebene Dashboards {#shareddashboards}
 
 Freigegebene Dashboards sind eine Sammlung von Berichten, die andere Benutzer im Unternehmen für Sie freigegeben haben. Alle Berichte, die Sie diesen freigegebenen Dashboards hinzufügen, werden automatisch für andere Benutzer freigegeben, die Zugriff auf dieses Dashboard haben.
 
-Sie haben zwei Möglichkeiten, das Board freizugeben:
+Für die Freigabe von Dashboards haben Sie zwei Möglichkeiten:
 
-* Sie geben im Feld &quot;**[!UICONTROL Freigeben für]**&quot; die Benutzer ein, für die das Dashboard freigegeben ist.
+* Sie geben im Feld **[!UICONTROL Freigeben für]** die Benutzer ein, für die Sie das Dashboard freigeben möchten.
 * Sie wählen in der Dropdownliste die Option „Dashboard bearbeiten“ und geben die Benutzerdetails zur Freigabe des Dashboards ein.
 
 >[!NOTE]
@@ -1014,7 +1014,7 @@ Das exportierte Blatt mit Dashboard-Berichten enthält detaillierte Informatione
    *Achsen für Berichte*
 
 1. Wählen Sie aus den Dropdown-Optionen die Kriterien für die sekundäre **[!UICONTROL Y-Achse]** bzw. den Bereich für Ihren Bericht aus. Wählen Sie zum Beispiel für eine Option betreffend die Registrierung für ein Lernprogramm einen oder mehrere Status aus dem Status-Dropdown-Menü neben der Option aus. Sekundäre Bereichsdaten werden im Bericht in Form von Liniendiagrammen dargestellt.
-1. Wählen Sie aus den Dropdown-Optionen die für Ihren Bericht geeigneten X&#x200B;**-Achsen**-Kriterien aus. Wenn Sie das Datum als Kriterium für die x-Achse ausgewählt haben, steht Ihnen eine Option zur Gruppierung des x-Achsen-Kriteriums nach Tag, Monat, Quartal und Jahr zur Verfügung.
+1. Wählen Sie aus den Dropdown-Optionen die für Ihren Bericht geeigneten X**-Achsen**-Kriterien aus. Wenn Sie das Datum als Kriterium für die x-Achse ausgewählt haben, steht Ihnen eine Option zur Gruppierung des x-Achsen-Kriteriums nach Tag, Monat, Quartal und Jahr zur Verfügung.
 1. Wählen Sie die gewünschte Option aus dem Dropdown-Menü für die Zeitspanne aus. Die verfügbaren Optionen sind:
 
    * Letzter Monat
@@ -1040,7 +1040,7 @@ Das exportierte Blatt mit Dashboard-Berichten enthält detaillierte Informatione
    ![](assets/choose-filters.png)
    *Filter auswählen*
 
-1. Klicken Sie auf **[!UICONTROL Speichern]**, um das Erstellen eines Berichts abzuschließen.
+1. Klicken Sie auf **[!UICONTROL Speichern]**, um die Berichterstellung abzuschließen.
 
    ![](assets/sample-report.png)
    *Beispielbericht*
@@ -1132,7 +1132,7 @@ Dieser Benutzergruppebericht ermöglicht Ihnen, die Leistung von einer Abteilung
 
 Sie können eigene Benutzergruppen mit der Funktion „Benutzer/Benutzergruppen hinzufügen“ in Learning Manager erstellen. Nachdem Sie die Benutzergruppen erstellt haben, können Sie die Berichte für die benutzerdefinierten Benutzergruppen mit einer Liste der Attribute wie Ort oder Zweigstelle generieren.
 
-Wählen Sie in der x-Achse die Benutzerattributoption und wählen Sie das Attribut aus der Dropdown-Liste **Auswählen** daneben aus. Um einen benutzerdefinierten Benutzergruppebericht basierend auf diesen Attributen zu erstellen, müssen Sie auch die entsprechende Benutzergruppe im Filter auswählen.
+Wählen Sie in der x-Achse die Benutzerattributoption und wählen Sie das Attribut aus der Dropdown-Liste **Auswählen** daneben aus. Um einen benutzerdefinierten Benutzergruppebericht zu erstellen, der auf diesen Attributen basiert, müssen Sie auch die entsprechende Benutzergruppe im Filter wählen.
 
 ## Anzeigen von Berichten {#viewingreports}
 
@@ -1161,7 +1161,7 @@ Wenn Ihnen mehrere Manager unterstellt sind, können Sie die Berichte für jeden
 
 Sie können zu jedem Kurs spezifische Berichte anzeigen.
 
-1. Klicken Sie auf der Seite &quot;Berichte&quot; auf der Registerkarte &quot;Meine Dashboards&quot; auf den Link **[!UICONTROL Kursberichte anzeigen]**.\
+1. Klicken Sie auf der Seite „Berichte“ auf der Registerkarte „Meine Dashboards“ auf den Link **[!UICONTROL Kursberichte anzeigen]**.\
    Ein Popup-Fenster wird angezeigt. Es wird ein Texteingabefeld angezeigt, in das Sie den erforderlichen Kurs eingeben können und in der Dropdown-Liste vorgeschlagene Kursnamen angezeigt werden. Wählen Sie aus der angezeigten Liste den Kurs aus.
 
    ![](assets/view-course-report-300x117.png)
@@ -1181,11 +1181,11 @@ Klicken Sie in der rechten oberen Ecke eines Berichts auf den Pfeil der Dropdown
 
 **[!UICONTROL Bearbeiten]** Um beim Ändern von Daten zu den Anfangswerten zurückzukehren, klicken Sie auf Zurücksetzen. Klicken Sie auf „Speichern“, nachdem Sie die Werte geändert haben.
 
-**[!UICONTROL In Dashboard verschieben]** Sie können den aktuellen Bericht in ein anderes Dashboard verschieben, das Sie aus der Liste der Dashboards auswählen.
+**[!UICONTROL Ins Dashboard verschieben]** Sie können den aktuellen Bericht in ein anderes Dashboard verschieben, das Sie aus der Liste der Dashboards auswählen.
 
-**[!UICONTROL Kopie erstellen]** Sie können den Bericht in dasselbe oder ein anderes Dashboard kopieren, das Sie aus der Liste der Dashboards auswählen.
+**[!UICONTROL Kopie erstellen]** Sie können den Bericht in dasselbe oder ein anderes Dashboard kopieren , das Sie aus der Liste der Dashboards auswählen.
 
-**[!UICONTROL Löschen]** Klicken Sie auf &quot;Löschen&quot;, um den Bericht zu entfernen. Bevor Sie den Bericht löschen können, wird eine Warn- bzw. Bestätigungsmeldung angezeigt.
+**[!UICONTROL Löschen]** Klicken Sie auf „Löschen“, um den Bericht zu entfernen. Bevor Sie den Bericht löschen können, wird eine Warn- bzw. Bestätigungsmeldung angezeigt.
 
 **[!UICONTROL Größe ändern]** Sie können die Größe Ihrer Berichte ändern in 1×1 (mittel) und 2×2 (groß).
 

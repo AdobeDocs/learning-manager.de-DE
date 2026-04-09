@@ -3,10 +3,10 @@ title: Neue Funktionen in dieser Version (April 2023)
 description: Informationen über die neuen Funktionen und Verbesserungen in Adobe Learning Manager
 hidefromtoc: true
 exl-id: 0f9d73e8-da7f-4895-b4fa-54f52668cd4e
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: 3188d7f5593aeee87978e1e46456f01e1f41d57b
 workflow-type: tm+mt
-source-wordcount: '3205'
-ht-degree: 61%
+source-wordcount: '3234'
+ht-degree: 70%
 
 ---
 
@@ -25,7 +25,7 @@ Mehrere Verbesserungen wurden an der ILT-Erfahrung (Instructor Led Training) vor
 ### Was hat sich verändert
 
 * Die Seite &quot;Kenntnisse&quot; der Admin-App bietet die Möglichkeit, eine Kenntnisse-Kursleiter(in)-Zuordnung hochzuladen.
-* Auf der Seite &quot;Kenntnisse&quot; gibt es eine neue Spalte &quot;Kursleiter&quot;. Die Spalte zeigt die Anzahl der Kursleiter für die Kenntnisse an. Wenn Sie auf die Nummer in der Spalte &quot;Kursleiter&quot; klicken, werden Sie zu einem Popup-Fenster weitergeleitet, in dem die Anzahl der Kursleiter angezeigt wird, die Kenntnissen zugewiesen sind.
+* Auf der Seite „Kenntnisse“ gibt es eine neue Spalte „Kursleiter“. Die Spalte zeigt die Anzahl der Kursleiter(innen) für die Kenntnis an. Wenn Sie auf die Nummer in der Spalte &quot;Kursleiter&quot; klicken, werden Sie zu einem Popup-Fenster weitergeleitet, in dem die Anzahl der Kursleiter(innen) angezeigt wird, die Kenntnissen zugewiesen sind.
 
 Weitere Informationen finden Sie unter [Kursleiter(innen) Kenntnisse zuweisen](/help/migrated/administrators/feature-summary/skills-levels.md#assign-skills-to-instructors).
 
@@ -33,7 +33,7 @@ Weitere Informationen finden Sie unter [Kursleiter(innen) Kenntnisse zuweisen](/
 
 ### Planungsassistent
 
-Konflikte bei der Buchung von Kursleitern und Klassenzimmern oder virtuellen Klassenzimmern bewältigen. Wenn Sie wissen möchten, zu welcher Zeit und zu welchem Datum ein Kursleiter verfügbar ist, bevor Sie ihn dem Kurs zuweisen, verwenden Sie den Scheduling Assistant.
+Konflikte bei der Buchung von Kursleitern und Klassenzimmern oder virtuellen Klassenzimmern bewältigen. Wenn Sie wissen möchten, wann Kursleiter(innen) verfügbar sind, bevor Sie ihnen den Kurs zuweisen, verwenden Sie den Planungs-Assistenten.
 
 Autor(inn)en, Administrator(inn)en und benutzerdefinierte Administrator(inn)en/Autor(inn)en können den Planungs-Assistenten verwenden.
 
@@ -45,7 +45,7 @@ Eine brandneue mobile Adobe Learning Manager-App für Android und iOS, die Teiln
 
 ![Neues Bild der mobilen Kartenschnittstelle](assets/mobile-app.png)
 
-Laden Sie das Mobilgerät aus dem Google Play Store und der Apple App Store herunter. Benutzer der älteren Version der Applikation werden aufgefordert, die neue Applikation herunterzuladen und zu installieren.
+Laden Sie die mobile App aus dem Google Play Store und Apple App Store herunter. Benutzer der älteren Version der Applikation werden aufgefordert, die neue Applikation herunterzuladen und zu installieren.
 
 In dieser Version unterstützt die App die folgenden Funktionen:
 
@@ -68,7 +68,7 @@ Die neue mobile App unterstützt die folgenden Hauptfunktionen in dieser Version
 **Was wird in dieser Version nicht unterstützt**
 
 * Unterstützung für mehrere Versuche, ein Quizmodul in einem Kurs zu erstellen, wenn der Kurs von der mobilen App aus absolviert wird.
-* Suchoptionen, mit denen Sie Suchparameter wie Kurs-Metadaten, Tags und Kenntnisse zum Festlegen des Suchbereichs angeben können.
+* Suchoptionen, mit denen Sie Suchparameter wie Kursmetadaten, Tags und Kenntnisse zum Festlegen des Suchbereichs angeben können.
 * Benutzerdefinierte Ankündigungen mit Administratorfunktion, die Benutzenden in der mobilen App als Popup angezeigt werden.
 * Sie können auf der Kenntnisseite in der App keine Kenntnisse hinzufügen.
 * Absolvieren von Kursen, während Sie offline sind.
@@ -112,7 +112,7 @@ Was ein Teilnehmer sieht, ist ein Streifen mit empfohlenen Kursen auf der Starts
 
 ![Empfehlungs-Strip für Teilnehmer](assets/recommendation-strip-learner.png)
 
-Wenn der Teilnehmer auf den Link oder die Schaltfläche &quot;Zum Katalog&quot; klickt, wird der Teilnehmer zur Kurskatalogseite umgeleitet. Der Teilnehmer zeigt dann die Liste der Benutzergruppen an, die basierend auf den Benutzergruppen im Katalog und auf der Seite &quot;Meine Lernprogramme&quot; gefiltert werden sollen.
+Wenn der Teilnehmer auf den Link oder die Schaltfläche &quot;Zum Katalog&quot; klickt, wird der Teilnehmer zur Kurskatalogseite umgeleitet. Teilnehmenden wird dann die Liste der Benutzergruppen angezeigt, um auf Basis der Benutzergruppen im Katalog und auf der Seite &quot;Eigenes Lernen&quot; zu filtern.
 
 ![Suchergebnisse](assets/search-results.png)
 
@@ -188,7 +188,7 @@ Die Suchfunktion wurde auch für Teilnehmende verbessert. Teilnehmer können jet
 
 ### Widersprüchliches Popup für Lernobjekte
 
-Auf der Seite &quot;Übersicht&quot; wird ein Popup-Fenster zur Registrierung angezeigt, wenn ein Teilnehmer in Konflikt stehende Sitzungen hat. Wenn Sie sich von der Katalogseite oder der Übersichtsseite aus registrieren und ein Teilnehmer bereits Sitzungen hat, die Konflikte verursachen, wird ein Popup-Fenster mit Details zu konfliktverursachenden Sitzungen ausgelöst. Auch wenn ein Teilnehmer eine Sitzung hat, die einen Konflikt verursacht, können sie sich für die neue Sitzung registrieren.
+Auf der Seite &quot;Übersicht&quot; wird ein Popup-Fenster bei der Registrierung angezeigt, wenn Teilnehmende in Konflikt stehende Sitzungen wählen. Wenn Sie sich von der Katalogseite oder der Übersichtsseite aus registrieren und ein Teilnehmer bereits über Sitzungen mit Konflikten verfügt, wird ein Popup-Fenster mit Konflikten und Sitzungsdetails ausgelöst. Auch wenn ein Teilnehmer eine Sitzung hat, die einen Konflikt verursacht, können sie sich für die neue Sitzung registrieren.
 
 ![Warnung](assets/learner-pop-up.png)
 
@@ -228,7 +228,7 @@ Ein Administrator kann die Instanzen für Teilnehmer wechseln. Wählen Sie in de
 ![Alternativtext](assets/switch-instance-admin.png)
 _Instanz von der Admin Console wechseln_
 
-![Instanzen wechseln: &#x200B;](assets/switch-instances-select.png) auswählen
+![Instanzen wechseln auswählen](assets/switch-instances-select.png)
 _Aufforderung zum Wechseln der Instanz_
 
 Sie können die Instanzen erst wechseln, wenn eine Instanz des Kurses über die Teilnehmer- oder Admin-App abgeschlossen wurde.
@@ -241,7 +241,7 @@ Weitere Informationen finden Sie unter [Instanzkonfiguration](/help/migrated/aut
 
 Teilnehmende können von einer auf die Warteliste gesetzten Kursinstanz zu einer anderen Instanz wechseln. Sie können auch eine Kursinstanz in einem Lernpfad oder einer Zertifizierung wechseln.
 
-Nach der Registrierung für den Lernpfad oder die Zertifizierung können sie auf der Kursseite auf &quot;Instanzen anzeigen&quot; klicken und dann eine Instanz wechseln.
+Nach der Registrierung für den Lernpfad oder die Zertifizierung können sie auf der Kursseite auf &quot;Instanzen anzeigen&quot; klicken und dann die Instanz wechseln.
 
 >[!NOTE]
 >
@@ -261,7 +261,7 @@ Weitere Informationen finden Sie unter [Bericht &quot;Benutzerprüfpfad&quot;](/
 
 Dieser Bericht erfasst die Zeit (in Minuten), die Kursleiter(innen) täglich mit zugewiesenen Sitzungen verbringen. Der Bericht kann für einen Zeitraum von drei Monaten ab dem ausgewählten Startdatum heruntergeladen werden.
 
-Weitere Informationen finden Sie unter [Bericht zur Kursleiterauslastung](/help/migrated/administrators/feature-summary/reports.md#instructor-utilization-report).
+Weitere Informationen finden Sie unter [Bericht zur Auslastung der Kursleiter(innen)](/help/migrated/administrators/feature-summary/reports.md#instructor-utilization-report).
 
 ![Bericht zur Auslastung des Kursleiters](assets/instructor-utilization.png)
 
@@ -279,7 +279,7 @@ Administrator(inn)en und Autor(inn)en können gezielte Ad-hoc-E-Mail-Kommunikati
 
 *E-Mails auf Instanzebene senden*
 
-Im Dialogfeld &quot;Ankündigung erstellen&quot; sind die Optionen &quot;Als E-Mail-Adresse eingeben&quot; und &quot;Schulung&quot; zusammen mit der Instanz standardmäßig ausgewählt. Geben Sie den Betreff an, geben Sie die Nachricht ein und klicken Sie auf Speichern.
+Im Dialogfeld &quot;Ankündigung erstellen&quot; sind die Optionen &quot;Als E-Mail-Adresse eingeben&quot; und &quot;Schulung&quot; zusammen mit der Instanz standardmäßig ausgewählt. Geben Sie Betreff und Nachricht ein und klicken Sie auf &quot;Speichern&quot;.
 
 Weitere Informationen finden Sie unter [E-Mails auf Instanzebene](/help/migrated/administrators/feature-summary/courses.md#send-instance-level-emails).
 
@@ -296,7 +296,7 @@ Weitere Informationen finden Sie unter [Ankündigungen](/help/migrated/administr
 In dieser Version haben wir E-Mail-Vorlagen für Stufe-überspringen-Manager hinzugefügt. Diese Vorlagen sind für den Fall vorgesehen, dass Manager(innen) E-Mails zu ihren Berichten der zweiten Ebene erhalten, in denen Fristen für Kurse, Lernpfade oder Zertifizierungen fehlen. Darüber hinaus erhalten sie E-Mails, wenn ihre Berichte der zweiten Ebene die Abschlussfristen für diese Kurse, Lernpfade oder Zertifizierungen erreichen.
 
 * Stufe-überspringen-Eskalation für Kursabschluss – vor Ablauf der Frist
-* Eskalation der Stufe für versäumte Kursfrist überspringen
+* Stufe-überspringen-Eskalation für versäumte Kursfrist
 * Stufe-überspringen-Eskalation für Abschluss des Lernpfads – vor Ablauf der Frist
 * Stufe-überspringen-Eskalation für versäumte Lernpfadfrist
 * Stufe-überspringen-Eskalation für Abschluss der Zertifizierung – vor Ablauf der Frist
@@ -432,8 +432,7 @@ Die folgenden Attribute werden hinzugefügt:
 | Beschreibung | Neuer Parameter/neue Antwort | Endpunkt |
 |--- |--- |--- |
 | Alle Städte auflisten | filter.cityName=true/false | GET /primeapi/v2/data |
-| Städte suchen und filtern | filter.cityName=city_name<br>Unterstützt außerdem eine durch Kommas getrennte Liste von Städten |
-| GET /primeapi/v2/search |
+| Städte suchen und filtern | filter.cityName=city_name<br>Unterstützt außerdem eine durch Kommas getrennte Liste von Städten | GET /primeapi/v2/search |
 | Details zum Rückgaberaum | include=room | GET /primeapi/v2/users/`<id>`/calendar |
 | Lernobjekt zum Filtern von Städten | filter.cityName=city_name <br> Unterstützt auch eine durch Kommas getrennte Liste von Städten. | GET /primeapi/v2/learningObjects |
 | Städtebedienfeld hinzufügen | Die Antwort enthält ein neues Attribut, filterPanelSetting=true/false. | GET /primeapi/v2/account |
@@ -484,7 +483,7 @@ Ein neuer Abfrageparameter suggestionType. Folgende Werte werden akzeptiert:
 
 **Endpunkt**: GET /primeapi/v2/search/suggestions/?suggestionType=learnerHistory
 
-### Filterung von Benutzergruppen
+### Filterung von Gruppen von Benutzenden
 
 Lernobjekt- und Such-APIs bieten Filter, um alle Lernobjekte, die zur Benutzergruppe gehören, über angegebene Filter abzurufen. Die APIs unterstützen Filter als durch Kommas getrennte Liste.
 
@@ -639,7 +638,7 @@ Beispielantwort unten:
 
 ## Versionshinweise
 
-Weitere Informationen zu aktuellen und früheren Versionen der Learning Manager-Webanwendung und -Geräte-App finden Sie in den [Versionshinweisen](/help/migrated/release-note/release-notes.md).
+Weitere Informationen zu aktuellen und früheren Versionen der Learning Manager-Webapp und -Geräte-App finden Sie in den [Versionshinweisen](/help/migrated/release-note/release-notes.md).
 
 ## Fehlerbehebungen
 

@@ -1,11 +1,11 @@
 ---
 title: Übergang vom Adobe FTP Manager
-description: Adobe Learning Manager unterstützt einen neuen Connector, der das SFTP-Protokoll der AWS Transfer-Familie verwendet. Sie können jeden Open-Source-FTP-Client durch Adobe FTP Manager ersetzen.
+description: Adobe Learning Manager unterstützt einen neuen Connector mit dem SFTP-Protokoll der AWS Transfer-Familie. Sie können jeden Open-Source-FTP-Client durch Adobe FTP Manager ersetzen.
 exl-id: c5674e61-9e3d-45e5-9f3c-e0aa15ec2dac
-source-git-commit: 97c52c188612b7ad7233a13bd90bcb174fdc60bc
+source-git-commit: 2dc01be9cd7200814a1bbd7a30610c162e7d93bf
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 67%
+source-wordcount: '1053'
+ht-degree: 69%
 
 ---
 
@@ -26,7 +26,7 @@ Einige von AWS empfohlene FTP-Clients sind hier [aufgelistet](https://docs.aws.a
 
 Sie müssen den neuen AWS-basierten FTP-Connector im Integrations-Admin konfigurieren.
 
-![Connectors Bild](assets/alm-ftp.png)
+![-Connectors, Bild](assets/alm-ftp.png)
 *Wählen Sie die FTP-Option aus*
 
 Sobald Sie eine Verbindung hergestellt haben, wird die Seite Verbindungsdetails angezeigt.
@@ -53,7 +53,7 @@ Wenn Sie bereits über einen SSH-Schlüssel verfügen, fügen Sie den öffentlic
 
 ### Erstellen einer einfachen Authentifizierung mit Kennwort
 
-Dies ist der grundlegende Authentifizierungsmechanismus. Wählen Sie die erste Option aus: **[!UICONTROL Erstellen einer Standardauthentifizierung mit einem Kennwort]**. Geben Sie das Kennwort ein und klicken Sie dann auf **[!UICONTROL Verbinden]**.
+Dies ist der grundlegende Authentifizierungsmechanismus. Wählen Sie die erste Option aus: **[!UICONTROL Erstellen einer Standardauthentifizierung mit einem Kennwort]**. Geben Sie das Kennwort ein und klicken Sie auf **[!UICONTROL Verbinden]**.
 
 Dadurch wird eine Verbindung erstellt.
 
@@ -83,12 +83,12 @@ Richten Sie die Verbindung auf einem FTP-Client ein (im Abschnitt weiter oben em
 
 1. Stellen Sie eine Verbindung mit dem neuen ALM-FTP-Connector her. Klicken Sie auf Verbinden.
 
-   ![Bild verbinden](assets/connect-client.png)
+   ![Verbindungsbild](assets/connect-client.png)
    *Verbindung mit neuem ALM-FTP-Connector herstellen*
 
 1. Um eine Verbindung mithilfe einer Standardauthentifizierung über ein Kennwort herzustellen, geben Sie den Domänennamen und den FTP-Benutzernamen ein und richten Sie ein Kennwort ein, das den Kriterien für die Kennwortüberprüfung entspricht. Klicken Sie auf Verbinden. Die neue FTP-Verbindung wird erstellt und ist über jeden SFTP-Client zugänglich.
 
-   ![FTP-Einstellungen](assets/connect-settings.png)
+   ![ftp-Einstellungen](assets/connect-settings.png)
    *über einfache Authentifizierung über Kennwort*
 
 1. Installieren Sie einen beliebigen SFTP-Client, z. B. FileZilla. Starten Sie Datei Zilla, und klicken Sie oben links auf Site-Manager öffnen.
@@ -110,7 +110,7 @@ Richten Sie die Verbindung auf einem FTP-Client ein (im Abschnitt weiter oben em
 
 1. Klicken Sie auf Verbinden.
 
-   ![Anmeldeinformationen](assets/connector-credentials.png)
+   ![ Anmeldeinformationen](assets/connector-credentials.png)
    *Anmeldeinformationen eingeben*
 
    >[!NOTE]
@@ -140,7 +140,7 @@ Richten Sie die Verbindung auf einem FTP-Client ein (im Abschnitt weiter oben em
    * Sie können Dateien per Drag &amp; Drop verschieben.
    * Doppelklicken Sie auf die Datei.
 
-   ![Verbindungsstatus](assets/connection-status-progress.png)
+   ![ Verbindungsstatus](assets/connection-status-progress.png)
    *Verbindungsstatus überprüfen*
 
 Sie können den Authentifizierungstyp jederzeit ändern und aktualisieren.

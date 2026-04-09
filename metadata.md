@@ -4,11 +4,11 @@ solution: Learning Manager
 product: experience cloud
 type: Documentation
 mini-toc-levels: 2
-git-repo: https://github.com/AdobeDocs/learning-manager.de-DE
+git-repo: https://github.com/AdobeDocs/learning-manager.en
 index: true
-source-git-commit: aab110a7f8dfed1fdabb1beb978164e6d051a394
+source-git-commit: 2dc01be9cd7200814a1bbd7a30610c162e7d93bf
 workflow-type: tm+mt
-source-wordcount: '53'
+source-wordcount: '69'
 ht-degree: 0%
 
 ---

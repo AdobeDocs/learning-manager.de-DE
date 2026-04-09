@@ -1,12 +1,13 @@
 ---
 jcr-language: en_us
 title: Bekannte Probleme im Learning Manager
+description: Im Folgenden finden Sie eine Zusammenstellung bekannter Probleme für jedes Update von Learning Manager. Die Liste ist kumulativ und enthält bekannte Probleme früherer Updates.
 contentowner: saghosh
 preview: true
-source-git-commit: 6f9bac5e4a434c4073409d2f7e78645deabc6685
+source-git-commit: 3188d7f5593aeee87978e1e46456f01e1f41d57b
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 60%
+source-wordcount: '253'
+ht-degree: 62%
 
 ---
 
@@ -19,7 +20,7 @@ Im Folgenden finden Sie eine Zusammenstellung bekannter Probleme für jedes Upda
 <table> 
  <tbody>
   <tr> 
-   <td><p><b>Update</b></p></td> 
+   <td><p><b>Aktualisieren</b></p></td> 
    <td><p><b>Bekannte Probleme</b></p></td> 
   </tr> 
   <tr> 
@@ -46,7 +47,7 @@ Im Folgenden finden Sie eine Zusammenstellung bekannter Probleme für jedes Upda
   </tr> 
   <tr> 
    <td><p>39</p></td> 
-   <td><p>Der Hyperlink zur Anzahl der Kurse und Zertifizierungen in Modal-Tags enthält Schattenkurse und wiederkehrende Zertifizierungen. Wenn Sie auf den Hyperlink klicken, werden diese Kurse und Zertifizierungen möglicherweise nicht aufgelistet, was zu nicht übereinstimmenden Zahlen führt.</p></td> 
+   <td><p>Der Hyperlink zu der Anzahl von Kursen und Zertifizierungen in Modal-Tags beinhaltet Schattenkurse und wiederkehrende Zertifizierungen. Wenn Sie auf den Hyperlink klicken, werden diese Kurse und Zertifizierungen möglicherweise nicht aufgelistet, was zu nicht übereinstimmenden Zahlen führt.</p></td> 
   </tr> 
   <tr> 
    <td><p>37</p></td> 

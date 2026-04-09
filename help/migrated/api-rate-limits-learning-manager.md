@@ -1,12 +1,13 @@
 ---
 jcr-language: en_us
 title: API-Ratenbeschränkungen im Lern-Manager
+description: Adobe Learning Manager bietet eine umfangreiche Suite von REST-API, mit der Kunden Anwendungen erstellen können, die mit Learning Manager integriert werden können, oder sogar benutzerdefinierte Benutzererlebnisse und Erweiterungen für Workflows erstellen können, die ihrem Unternehmen helfen.
 contentowner: saghosh
 preview: true
-source-git-commit: 544c695a77c21dd9162b9b943b6119d27aa373dc
+source-git-commit: 3188d7f5593aeee87978e1e46456f01e1f41d57b
 workflow-type: tm+mt
-source-wordcount: '1757'
-ht-degree: 51%
+source-wordcount: '1801'
+ht-degree: 80%
 
 ---
 
@@ -110,7 +111,7 @@ Sie können dies ganz einfach testen, indem Sie diesen Endpunkt mit Raten unter 
 
 Um es Ihnen leicht zu machen, können Sie sich diesen Beispiel-JavaScript-Code ansehen, der dies veranschaulicht. Klicken Sie auf [fiedeln](https://jsfiddle.net/ACAPJS/9yv8zcmL/) und den Code in Aktion zu sehen.
 
-Für diese Anwendung müssen Sie ein Teilnehmerrollen-Anwendungstoken für Ihr Konto bereitstellen. Weitere Informationen zu API-Token finden Sie im [Handbuch für Anwendungsentwickler](https://captivateLearning Manager.adobe.com/docs/Learning). Sie können den Token Helper im Abschnitt mit Entwicklerressourcen der Learning Manager Integration Admin-Anwendung verwenden, um die Token zu generieren.
+Für diese Anwendung müssen Sie ein Teilnehmerrollen-Anwendungstoken für Ihr Konto bereitstellen. Weitere Informationen zu API-Token finden Sie im [Handbuch für Anwendungsentwickler]&#x200B;(https://captivateLearning Manager.adobe.com/docs/Learning). Sie können den Token Helper im Abschnitt mit Entwicklerressourcen der Learning Manager Integration Admin-Anwendung verwenden, um die Token zu generieren.
 
 Diese Anwendung führt 10 Aufrufe der Dummy-API in einer Schleife auf einmal durch. Da das Ratenlimit (5, 2) für die Dummy-API ist, wird das Ratenlimit nach den ersten 5+2-Aufrufen überschritten, die vom Learning Manager empfangen werden. Sie erhalten eine Erfolgsantwort für sie.
 
