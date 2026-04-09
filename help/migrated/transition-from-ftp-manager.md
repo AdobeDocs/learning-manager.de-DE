@@ -110,7 +110,7 @@ Richten Sie die Verbindung auf einem FTP-Client ein (im Abschnitt weiter oben em
 
 1. Klicken Sie auf Verbinden.
 
-   ![ Anmeldeinformationen](assets/connector-credentials.png)
+   ![&#x200B; Anmeldeinformationen](assets/connector-credentials.png)
    *Anmeldeinformationen eingeben*
 
    >[!NOTE]
@@ -140,7 +140,7 @@ Richten Sie die Verbindung auf einem FTP-Client ein (im Abschnitt weiter oben em
    * Sie können Dateien per Drag &amp; Drop verschieben.
    * Doppelklicken Sie auf die Datei.
 
-   ![ Verbindungsstatus](assets/connection-status-progress.png)
+   ![&#x200B; Verbindungsstatus](assets/connection-status-progress.png)
    *Verbindungsstatus überprüfen*
 
 Sie können den Authentifizierungstyp jederzeit ändern und aktualisieren.
