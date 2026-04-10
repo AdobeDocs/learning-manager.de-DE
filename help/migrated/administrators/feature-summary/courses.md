@@ -358,7 +358,7 @@ Wenn Sie das PDF herunterladen, sehen Sie die Zeitzone (in UTC), die beim Erstel
 
 >[!NOTE]
 >
->Wenn diese Feedbackoption in Ihrem Konto nicht sichtbar ist, wurde Ihr Konto bereits auf das neue L1-Feedbackformular aktualisiert. Weitere Informationen finden Sie im [L1-Feedbackformular ](/help/migrated/administrators/feature-summary/l1-feedback-form.md).
+>Wenn diese Feedbackoption in Ihrem Konto nicht sichtbar ist, wurde Ihr Konto bereits auf das neue L1-Feedbackformular aktualisiert. Weitere Informationen finden Sie im [L1-Feedbackformular &#x200B;](/help/migrated/administrators/feature-summary/l1-feedback-form.md).
 
 
 Während der Kurserstellung können Sie L1- und L3-Feedbackoptionen hinzufügen:

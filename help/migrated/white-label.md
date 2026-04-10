@@ -368,11 +368,11 @@ Wenden Sie sich an das CSM-Team und geben Sie die JSON-Datei frei, um den Eintra
 
 Verwenden Sie dasselbe Projekt, das Sie in den Schritten oben erstellt haben, für Push-Benachrichtigungen erneut.
 
-[Fügen Sie das Projekt ](https://learn.microsoft.com/en-us/xamarin/android/data-cloud/google-messaging/firebase-cloud-messaging) in Firebase hinzu, und rufen Sie die Datei ***google-services.json*** ab.
+[Fügen Sie das Projekt &#x200B;](https://learn.microsoft.com/en-us/xamarin/android/data-cloud/google-messaging/firebase-cloud-messaging) in Firebase hinzu, und rufen Sie die Datei ***google-services.json*** ab.
 
 ### iOS
 
-[Fügen Sie das Projekt ](https://firebase.google.com/docs/ios/setup) zu Firebase hinzu, und rufen Sie die Datei ***GoogleService-Info.plist*** ab.
+[Fügen Sie das Projekt &#x200B;](https://firebase.google.com/docs/ios/setup) zu Firebase hinzu, und rufen Sie die Datei ***GoogleService-Info.plist*** ab.
 
 >[!IMPORTANT]
 >
