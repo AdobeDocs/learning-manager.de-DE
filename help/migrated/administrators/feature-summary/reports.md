@@ -4,14 +4,14 @@ jcr-language: en_us
 title: Berichte
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: 2dc01be9cd7200814a1bbd7a30610c162e7d93bf
+source-git-commit: 5736ea0340336ae7aa8b6ec9da4676610e21d544
 workflow-type: tm+mt
 source-wordcount: '7660'
 ht-degree: 63%
 
 ---
 
-# Berichte
+# Berichte {#reports}
 
 Informieren Sie sich über die Berichte, die mit der Administratorrolle in der Learning Manager-Anwendung verknüpft sind.
 
@@ -1014,7 +1014,7 @@ Das exportierte Blatt mit Dashboard-Berichten enthält detaillierte Informatione
    *Achsen für Berichte*
 
 1. Wählen Sie aus den Dropdown-Optionen die Kriterien für die sekundäre **[!UICONTROL Y-Achse]** bzw. den Bereich für Ihren Bericht aus. Wählen Sie zum Beispiel für eine Option betreffend die Registrierung für ein Lernprogramm einen oder mehrere Status aus dem Status-Dropdown-Menü neben der Option aus. Sekundäre Bereichsdaten werden im Bericht in Form von Liniendiagrammen dargestellt.
-1. Wählen Sie aus den Dropdown-Optionen die für Ihren Bericht geeigneten X&#x200B;**-Achsen**-Kriterien aus. Wenn Sie das Datum als Kriterium für die x-Achse ausgewählt haben, steht Ihnen eine Option zur Gruppierung des x-Achsen-Kriteriums nach Tag, Monat, Quartal und Jahr zur Verfügung.
+1. Wählen Sie aus den Dropdown-Optionen die für Ihren Bericht geeigneten X**-Achsen**-Kriterien aus. Wenn Sie das Datum als Kriterium für die x-Achse ausgewählt haben, steht Ihnen eine Option zur Gruppierung des x-Achsen-Kriteriums nach Tag, Monat, Quartal und Jahr zur Verfügung.
 1. Wählen Sie die gewünschte Option aus dem Dropdown-Menü für die Zeitspanne aus. Die verfügbaren Optionen sind:
 
    * Letzter Monat
