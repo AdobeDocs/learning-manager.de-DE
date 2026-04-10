@@ -2,10 +2,10 @@
 title: Neue Funktionen in dieser Version
 description: Erfahren Sie mehr über die neuen Funktionen und Verbesserungen in der Version November 2023 von Adobe Learning Manager.
 exl-id: d670dc47-d57f-464a-bee8-064cc16e59f9
-source-git-commit: 574750144d77e8362968db9404ecf7bd2f18ccc9
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '2356'
-ht-degree: 70%
+source-wordcount: '2375'
+ht-degree: 73%
 
 ---
 
@@ -13,7 +13,7 @@ ht-degree: 70%
 
 ## Überarbeitete Benutzeroberfläche
 
-Die Adobe Learning Manager-Benutzeroberfläche wurde einigen Aktualisierungen unterzogen, um ein saubereres und moderneres Erlebnis zu bieten. Die Landingpages für die Rollen “Administrator(in)“ und “Autor(in)“ wurden überarbeitet und die Designs der Benutzeroberfläche für alle Rollen aktualisiert. Es wurden jedoch keine Änderungen an der Position von Menüs, Schaltflächen oder Links vorgenommen, und Sie können diese genau dort finden, wo sie sich zuvor befunden haben.
+Die Adobe Learning Manager-Benutzeroberfläche wurde einigen Aktualisierungen unterzogen, um ein saubereres und moderneres Erlebnis zu bieten. Die Landingpages für die Rollen “Administrator(in)“ und “Autor(in)“ wurden überarbeitet und die Designs der Benutzeroberfläche für alle Rollen aktualisiert. Es wurden jedoch keine Änderungen an der Position von Menüs, Schaltflächen oder Links vorgenommen, und Sie finden sie genau dort, wo sie sich zuvor befunden haben.
 
 Die Designaktualisierungen gelten automatisch für Konten, die das Standarddesign verwenden. Die Aktualisierungen des Designs der Benutzeroberfläche wirken sich nicht auf Konten aus, die Änderungen zur Verwendung eines benutzerdefinierten Designs vorgenommen haben. Solche Konten müssen zurück zum Standarddesign wechseln, um die neuen Designaktualisierungen zu erhalten.
 
@@ -206,11 +206,13 @@ Ein benutzerdefinierter Administrator kann entsprechend dem definierten Umfang a
     </tbody>
 </table>
 
-<!--| Report | Available | Scope |
+<!--
+| Report | Available | Scope |
 |--- |--- |
 | Content Audit Trail | Yes | Full Catalog |
 | User Audit Trail | Yes | Full User |
-|Login Access | Yes | Full User |-->
+|Login Access | Yes | Full User |
+-->
 
 ## Verbesserte Connect-Integration
 
@@ -288,7 +290,7 @@ Adobe Learning Manager wird BlueJeans im Februar 2024 einstellen. Alle neuen Kon
 
 ## Versionshinweise
 
-Weitere Informationen zu aktuellen und früheren Versionen der Learning Manager-Webanwendung und -Geräte-App finden Sie in den [Versionshinweisen](release-note/release-notes.md).
+Weitere Informationen zu aktuellen und früheren Versionen der Learning Manager-Webapp und -Geräte-App finden Sie in den [Versionshinweisen](release-note/release-notes.md).
 
 ## In dieser Version behobene Fehler
 

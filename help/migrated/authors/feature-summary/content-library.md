@@ -3,10 +3,10 @@ description: Erfahren Sie, wie Sie Inhalt zum Selbststudium erstellen können, d
 jcr-language: en_us
 title: Inhaltsbibliothek
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 8780f8bf0c56d27c1acdaff018544ecc0c21ea23
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '4620'
-ht-degree: 36%
+source-wordcount: '4664'
+ht-degree: 44%
 
 ---
 
@@ -206,9 +206,9 @@ Die Inhaltsbibliothek verwaltet auch die Versionierung Ihrer hochgeladenen Inhal
 
    Wenn Sie als Autor Video- oder Audioinhalte hochladen, können Sie auch die VTT-Datei hochladen, die die Untertitel enthält.
 
-   Die Untertitel werden dann im Fluidic Player angezeigt. Die Untertitel sind auch mit den [WCAG2.0-Standards](https://www.w3.org/TR/WCAG20/) kompatibel.
+   Die Untertitel werden dann im Fluidic Player angezeigt. Die Beschriftungen entsprechen auch den [WCAG2.0-Standards](https://www.w3.org/TR/WCAG20/).
 
-   Wenn Sie der Bibliothek einen Videoinhalt hinzufügen, können Sie auch die VTT-Datei hinzufügen, bei der **&#x200B;**&#x200B;eine gültige Datei sein muss.
+   Wenn Sie der Bibliothek einen Videoinhalt hinzufügen, können Sie auch die VTT-Datei hinzufügen, bei der **** eine gültige Datei sein muss.
 
    ![](assets/webvtt.png)
 
@@ -224,7 +224,7 @@ Die Inhaltsbibliothek verwaltet auch die Versionierung Ihrer hochgeladenen Inhal
 
    Als Autor fordert Adobe Learning Manager Sie jedes Mal, wenn Sie den Video- oder Audioinhalt ändern, zur Eingabe einer neuen VTT-Datei auf.
 
-   Nachdem Sie diesen Inhalt einem Kurs hinzugefügt haben und wenn Sie den Kurs als Teilnehmer in der Vorschau anzeigen, können Sie die Untertitel im Video sehen.
+   Nachdem Sie diesen Inhalt einem Kurs hinzugefügt haben und wenn Sie den Kurs als Teilnehmer in der Vorschau anzeigen, können Sie die Beschriftungen im Video sehen.
 
    Schalten Sie auf dem Player die CC-Schaltfläche im Fluidic Player ein, um die Beschriftungen ein- oder auszublenden.
 
@@ -300,9 +300,9 @@ Nachdem ein Administrator die Inhaltsordner erstellt hat, können Sie, ein Autor
 
 **Beispielverwendung**
 
-So möchten Agenturen beispielsweise die vollständige Kontrolle über die Inhalte behalten und jemand, der den Überblick über die Inhalte hat, muss Zugriff auf alle Inhalte haben. Gleichzeitig müssen Content-Ersteller in Agenturen nur Zugriff auf ihre eigenen Inhalte haben und in einigen Fällen auch auf die Inhalte einer anderen Person.
+So möchten Agenturen beispielsweise die vollständige Kontrolle über den Inhalt behalten, und jemand, der den Überblick über den Inhalt hat, muss Zugriff auf alle Inhalte haben. Gleichzeitig müssen Content-Ersteller in Agenturen nur Zugriff auf ihre eigenen Inhalte haben und in einigen Fällen auch auf die Inhalte einer anderen Person.
 
-Inhaltsbibliothek mit vorhandenem Inhalt (d. h. Inhalt, der vor dem Konfigurieren von Inhaltsordnern hochgeladen wurde) wird als **Öffentlicher Ordner** definiert. Dieser Ordner kann nicht eingestellt oder gelöscht werden. Inhalte, die Teil des öffentlichen Ordners sind, sind für alle Arten von Autoren zugänglich. Sobald die Inhaltsordner konfiguriert sind, sollten Standardautoren und benutzerdefinierte Autoren beim Hochladen neuer Inhalte den Ordner auswählen, in dem der Inhalt platziert werden soll.
+Inhaltsbibliothek mit vorhandenem Inhalt (d. h. Inhalt, der vor dem Konfigurieren von Inhaltsordnern hochgeladen wurde) wird als **öffentlicher Ordner** definiert. Dieser Ordner kann nicht eingestellt oder gelöscht werden. Inhalte, die Teil des öffentlichen Ordners sind, sind für alle Arten von Autoren zugänglich. Sobald die Inhaltsordner konfiguriert sind, sollten Standardautoren und benutzerdefinierte Autoren beim Hochladen neuer Inhalte den Ordner auswählen, in dem der Inhalt platziert werden soll.
 
 >[!NOTE]
 >
@@ -314,9 +314,9 @@ Wenn Sie einen Inhalt hinzufügen, können Sie den Ordner auswählen, in dem sic
 
 *Inhalt zu Ordner hinzufügen*
 
-Wenn Sie **Öffentlich** auswählen, ist der Inhalt für alle Autoren sichtbar. Alle Inhalte, die im Konto vorhanden waren und nicht Teil eines Ordners sind, werden standardmäßig im öffentlichen Ordner gespeichert.
+Wenn Sie **Öffentlich** wählen, wird der Inhalt für alle Autoren sichtbar. Alle Inhalte, die im Konto vorhanden waren und nicht Teil eines Ordners sind, werden standardmäßig im öffentlichen Ordner gespeichert.
 
-Beachten Sie, dass Inhaltsordner einfach virtuelle Abteilungen sind, um den Inhalt zu verknüpfen. Wenn ein Inhalt in zwei Ordnern platziert wird, bedeutet dies, dass es sich bei der Inhaltsdatei immer um eine einzelne Datei handelt, die jedoch mit mehreren Ordnern verknüpft ist. Wenn der Inhalt also von der Datei &quot;custom-author-1&quot; aktualisiert wird, die Zugriff auf &quot;custom-folder-1&quot; hat, wird derselbe aktualisierte Inhalt auch in &quot;custom-folder-2&quot; angezeigt, auf den über &quot;custom-author-2&quot; zugegriffen wird.
+Beachten Sie, dass Inhaltsordner einfach virtuelle Abteilungen sind, um den Inhalt zu verknüpfen. Wenn ein Inhalt in zwei Ordnern platziert wird, bedeutet dies, dass es sich bei der Inhaltsdatei immer um eine einzelne Datei handelt, die jedoch mit mehreren Ordnern verknüpft ist. Wenn der Inhalt also von der Datei „custom-author-1“ aktualisiert wird, die Zugriff auf „custom-folder-1“ hat, wird derselbe aktualisierte Inhalt auch in „custom-folder-2“ angezeigt, auf den über „custom-author-2“ zugegriffen wird.
 
 In der Inhaltsbibliothek gibt es zwei Optionen zum Verwalten der Inhaltsordner:
 
@@ -340,7 +340,7 @@ Diese Option ist nur **verfügbar**, wenn ein Administrator einen neuen Ordner e
 
 ## Inhalt in Ordner verschieben {#movecontenttofolder}
 
-So verschieben Sie den Inhalt eines öffentlichen Ordners in einen privaten Ordner:
+Um den Inhalt eines öffentlichen Ordners in einen privaten Ordner zu verschieben,
 
 1. Wählen Sie den Ordner **Öffentlich** aus der Dropdown-Liste **Alle Ordner** aus.
 
@@ -358,7 +358,7 @@ So verschieben Sie den Inhalt eines öffentlichen Ordners in einen privaten Ordn
 
 ## Inhalt in Ordner kopieren {#copycontenttofolder}
 
-Wenn Sie einen Ordner kopieren, fügen Sie dem Ordner ein Tag hinzu. Beim Kopieren werden keine Kopien des Inhalts erstellt, sondern nur eine Zuordnung zu bestimmten Ordnern hinzugefügt.
+Wenn Sie einen Ordner kopieren, fügen Sie dem Ordner ein Tag hinzu. Beim Kopieren werden keine Kopien des Inhalts erstellt, sondern nur eine Verknüpfung mit bestimmten Ordnern hinzugefügt.
 
 ![](assets/copy-content-to-folder.png)
 
@@ -368,7 +368,7 @@ Wenn Sie einen Ordner kopieren, fügen Sie dem Ordner ein Tag hinzu. Beim Kopier
 
 Das Aufheben der Verknüpfung bedeutet, dass der Inhalt aus dem ausgewählten Ordner entfernt wird.
 
-Die Verknüpfung von Inhalt mit dem angegebenen Ordner &quot;**ONLY**&quot; kann aufgehoben werden, wenn er auch mit anderen Ordnern verknüpft ist. Wenn Inhalte, deren Verknüpfung aufgehoben wird, nur einem Ordner zugeordnet sind, empfiehlt es sich, stattdessen den VERSCHIEBUNGSvorgang zu verwenden.
+Die Verknüpfung von Inhalt mit dem angegebenen Ordner &quot;**ONLY**&quot; kann aufgehoben werden, wenn er auch mit anderen Ordnern verknüpft ist. Wenn Inhalte, deren Verknüpfung aufgehoben wird, nur einem Ordner zugeordnet sind, empfiehlt es sich, stattdessen die VERSCHIEBUNG zu verwenden.
 
 >[!NOTE]
 >
@@ -415,7 +415,7 @@ Die Verknüpfung von Inhalt mit dem angegebenen Ordner &quot;**ONLY**&quot; kann
      <li>Basierend auf erforderlichem Mindestergebnis (in Prozent)</li>
      <li>Optionen für Quiz bestanden oder Quizversuch</li>
     </ul>
-    <p><b>HINWEIS:</b> Es können nur HTML-Inhalte von Captivate, Presenter Video Express oder Presenter bearbeitet werden.</p></td>
+    <p><b>HINWEIS:</b> Es können nur HTML-Inhalte aus Captivate, Presenter Video Express oder Presenter bearbeitet werden.</p></td>
   </tr>
  </tbody>
 </table>
@@ -434,8 +434,8 @@ Im Abschnitt „Abschlusskriterien“ können Sie die folgenden Optionen festleg
 
 **Quiz:** Sie können eines der folgenden Kriterien auswählen:
 
-* **Quiz bestanden:** In diesem Fall wird der Status nur als „Vollständig“ übermittelt, wenn die Benutzer das Quiz bestehen. 
-* **Quiz durchgeführt**: In diesem Fall wird der Status als „Vollständig“ übermittelt, wenn Benutzer das Quiz durchführen, unabhängig davon, ob sie es bestehen oder nicht. 
+* **Quiz bestanden:** In diesem Fall wird der Status nur als „Vollständig“ übermittelt, wenn die Benutzer das Quiz bestehen.
+* **Quiz durchgeführt**: In diesem Fall wird der Status als „Vollständig“ übermittelt, wenn Benutzer das Quiz durchführen, unabhängig davon, ob sie es bestehen oder nicht.
 * **Quiz bestanden oder Limit erreicht:** Der Status wird als „Abgeschlossen“ gemeldet, wenn die Teilnehmer das Quiz bestehen oder alle Versuche unternommen haben. Wenn die Anzahl der Versuche im Kurs beispielsweise auf 2 festgelegt ist und:
 
    * Wenn Teilnehmer den ersten Versuch unternehmen und das Quiz bestehen, wird der Status als &quot;Vollständig&quot; und &quot;Bestanden&quot; übermittelt.
@@ -653,11 +653,11 @@ Erstellen Sie einen SCORM-kompatiblen eLearning-Kurs in einem beliebigen Tool, z
 
 +++Wie lade ich eine neue Version desselben Inhalts zu Adobe Learning Manager hoch?
 
-In Adobe Learning Manager verwaltet die Inhaltsbibliothek auch Versionen Ihrer hochgeladenen Inhalte. Wenn Sie Änderungen am Inhalt vornehmen, z. B. eine PowerPoint-Präsentation, und die Präsentation erneut in die Bibliothek hochladen, wird die Versionsnummer um eins erhöht. Auf diese Weise können Sie Änderungen an Ihren Inhalten nachverfolgen. Eine neue Version des Inhalts kann gleichzeitig auf alle Lernobjekte angewendet werden, oder Sie können für jeden Kurs einzelne Aktualisierungen anwenden.
+In Adobe Learning Manager verwaltet die Inhaltsbibliothek auch Versionen Ihrer hochgeladenen Inhalte. Wenn Sie Änderungen am Inhalt vornehmen, beispielsweise eine PowerPoint-Präsentation, und die Präsentation erneut in die Bibliothek hochladen, wird die Versionsnummer um eins erhöht. Auf diese Weise können Sie Änderungen an Ihren Inhalten nachverfolgen. Eine neue Version des Inhalts kann gleichzeitig auf alle Lernobjekte angewendet werden, oder Sie können für jeden Kurs einzelne Aktualisierungen anwenden.
 +++
 
 +++Wie kann ich die Details eines Kurses in einer anderen Sprache bearbeiten?
 Nachdem Sie eine Sprache/Sprachen wie in einem früheren Abschnitt beschrieben hinzugefügt haben, klicken Sie auf die jeweilige Sprachenregisterkarte und fügen die Kursinformationen hinzu bzw. bearbeiten sie.
 
-&lt;!—![](assets/edit-course-language.png)—>
+<!--![](assets/edit-course-language.png)-->
 +++

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Teilnehmer-App für Smartphones und Tablets
 contentowner: manochan
 exl-id: 94c2b54c-a5e2-4262-bc3c-bd21d52e1f09
-source-git-commit: de57d96488851c31c380b34672767a803379842e
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '2702'
-ht-degree: 65%
+source-wordcount: '2714'
+ht-degree: 77%
 
 ---
 
@@ -19,7 +19,7 @@ In diesem Artikel finden Sie Informationen zum Herunterladen der Learning Manage
 
 Die Learning Manager-App für Teilnehmer ist sowohl für Android-Smartphones als auch für iPhones erhältlich. Laden Sie die Learning Manager-App aus dem Google Play Store (Android OS) bzw. von iTunes (macOS) herunter.
 
-Nach dem Herunterladen und Installieren dieser App können Sie sich mit Ihren Teilnehmer-Anmeldedaten anmelden. Wenn Sie die mobile Learning Manager-App öffnen, wird standardmäßig der folgende Bildschirm angezeigt.
+Nach dem Herunterladen und Installieren dieser App können Sie sich mit Ihren Teilnehmer-Anmeldedaten anmelden. Wenn Sie die Learning Manager-Mobile-App öffnen, wird standardmäßig der folgende Bildschirm angezeigt.
 
 ![](assets/1.png)
 
@@ -27,7 +27,7 @@ Nach dem Herunterladen und Installieren dieser App können Sie sich mit Ihren Te
 
 ## Startseite {#homepage}
 
-Für alle Konten, für die die Option &quot;Immersives Layout&quot; aktiviert ist, gibt es eine brandneue Startseite, auf der die Konfiguration des immersiven Layouts unterstützt wird. Die Startseite ist als eine Liste mit Karten für Folgendes angeordnet:
+Für alle Konten, für die die Option für das immersive Layout aktiviert ist, gibt es eine brandneue Startseite, auf der die Konfiguration des immersiven Layouts unterstützt wird. Die Startseite ist als eine Liste mit Karten für Folgendes angeordnet:
 
 | ![](assets/image002.png) | ![](assets/image005.png) |
 |---|---|
@@ -46,15 +46,16 @@ Learning Manager fordert den Teilnehmer auf, Feedback zu seiner Erfahrung mit de
 <!--
 | ![](assets/image013.png) | ![](assets/image014.png)|
 |---|---|
+
 -->
 
-Bei vorhandenen Benutzern wird das Popup-Fenster für Feedback angezeigt, sobald sie den Player nach der Aktualisierung der App auf die neueste Version zum ersten Mal schließen.
+Bei vorhandenen Benutzern wird in der Regel das Popup-Fenster für Feedback angezeigt, sobald sie den Player nach der Aktualisierung der App auf die neueste Version zum ersten Mal schließen.
 
 Beachten Sie, dass die Feedbacksammlung anonym ist und nur für Benutzer angezeigt wird, die die Option **Nutzungsdaten freigeben** über eine Konfiguration in den App-Einstellungen aktiviert haben.
 
 ## Abzeichen herunterladen {#downloadbadge}
 
-Teilnehmer können ihre Abzeichen im PDF- und Bildformat herunterladen. Scrollen Sie im Abschnitt Benutzerprofil nach unten und klicken Sie auf einen beliebigen Link, um ein Abzeichen herunterzuladen. Das heruntergeladene Abzeichen wird im Ordner des Standardgeräts gespeichert. Mit der App können Sie den Ordner oder die Datei direkt nach Abschluss des Downloads öffnen.
+Teilnehmer können ihre Abzeichen im PDF- und Bildformat herunterladen. Scrollen Sie im Bereich „Benutzerprofil“ nach unten und klicken Sie auf einen beliebigen Link, um ein Abzeichen herunterzuladen. Das heruntergeladene Abzeichen wird im Ordner des Standardgeräts gespeichert. Mit der App können Sie den Ordner oder die Datei direkt nach Abschluss des Downloads öffnen.
 
 | ![](assets/image016.png) |
 |---|
@@ -88,6 +89,7 @@ Die Benutzeroberfläche mit automatischer Anpassung für Mobilgeräte ist nur ve
   </tr>
  </tbody>
 </table>
+
 -->
 
 ## Download-Eingabeaufforderung in ALM-Web
@@ -122,8 +124,8 @@ Es gibt einige Funktionen, die von der Mobile Immersive App nicht unterstützt w
 | **Bereich** | **Nicht unterstützt** |
 |---|---|
 | Board | Board-Erstellung, Board-Bearbeitung, URL kopieren, Löschen, Bericht, Sortieren, Filter |
-| Veröffentlichen | Abstimmungstyp nach Erstellung, Bearbeitung , Mehrere Anhänge zum Beitrag, URL kopieren, Nach oben anheften |
-| Kommentar/Antwort | Bearbeiten, Als richtige Antwort markieren, Hochladen von Bild, Video oder Audio in Kommentar oder Antwort |
+| Veröffentlichen | Umfragetyp Beitragserstellung, Bearbeiten, Mehrere Anhänge zum Beitrag, URL kopieren, Anheften nach oben |
+| Kommentar/Antwort | Bearbeiten, als richtige Antwort markieren, Bild/Video/Audio in Kommentar oder Antwort hochladen |
 | Medien | Audio erfassen; nur Hochladen von Audiodateien |
 | Sonstiges | Benachrichtigungen, Beitragsansicht, Soziale Rangliste, Personen, denen ich folge, Benutzerprofil |
 
@@ -181,11 +183,11 @@ Oben rechts auf dem Bildschirm sehen Sie ein Suchsymbol. Tippen Sie auf dieses S
 
 **Verwalten von Profil, Einstellungen und Benachrichtigung**
 
-Tippen Sie in der linken oberen Ecke des Bildschirms auf das Menü ![](assets/hamburger.jpg), um Ihr Profil, Ihre Benachrichtigungen sowie Ihre Kontoeinstellungen anzuzeigen.
+Tippen Sie oben links auf dem Bildschirm auf das Menüsymbol ![](assets/hamburger.jpg), um Ihr Profil, Ihre Benachrichtigungen sowie Ihre Kontoeinstellungen anzuzeigen.
 
 In diesem Menü können Sie außerdem den QR-Code scannen, um Ihre Teilnahme an Kursen zu vermerken.
 
-Sie müssen lediglich auf die Option **QR-Code scannen** tippen und den Code scannen.
+Dazu müssen Sie lediglich auf die Option **QR-Code scannen** tippen und den Code scannen.
 
 **Offline-Nutzung von Kursen**
 
@@ -193,7 +195,7 @@ Wenn Sie heruntergeladene Kurse nutzen, während Sie online sind, greift Learnin
 
 ## QR-Code zum Registrieren scannen {#qrcode}
 
-Sie können einen QR-Code scannen und sich für einen Kurs anmelden. Nachdem der Lern-Administrator einen QR-Code generiert hat, können Sie den QR-Code aus der App scannen und sich für einen Kurs anmelden. 
+Sie können einen QR-Code scannen und sich für einen Kurs anmelden. Nachdem der Lern-Administrator einen QR-Code generiert hat, können Sie den QR-Code aus der App scannen und sich für einen Kurs anmelden.
 
 1. Um den QR-Code zu scannen, tippen Sie auf ![](assets/hamburger.jpg) in der linken oberen Ecke des Bildschirms.
 1. Tippen Sie auf **QR-Code scannen**.
@@ -363,7 +365,7 @@ Navigieren Sie zum gewünschten Board und veröffentlichen Sie Ihren Kommentar.
 
 <!--![](assets/cp-prime-share.png)-->
 
-Teilen Sie Bilder, Dokumente oder Audio- oder Videodateien auf einem beliebigen Board, damit andere Board-Mitglieder Ihren Beitrag sehen und eine Interaktion starten können. Teilen von Medien:
+Geben Sie Bilder, Dokumente oder Audio- oder Videodateien an ein beliebiges Board weiter, damit andere Board-Mitglieder Ihren Beitrag anzeigen und eine Interaktion starten können. Teilen von Medien:
 
 1. Öffnen Sie die Medien, die Sie freigeben möchten.
 1. Tippen Sie auf die Schaltfläche &quot;Teilen&quot; und wählen Sie &quot;Lernmanager&quot;.
@@ -374,12 +376,12 @@ Sie können auch Inhalte aus einer externen App veröffentlichen. Sie können be
 
 ## Laden Sie Assets in externes Zertifikat als Nachweis der Fertigstellung {#externalcert}
 
-Führen Sie die unten genannten Schritte aus: 
+Führen Sie die unten genannten Schritte aus:
 
 1. Melden Sie sich mit Ihren Teilnehmerdetails bei der Geräte-App an.
 1. Suchen Sie nach dem Zertifikat, das der Autor erstellt hat.
 1. Wählen Sie aus der Liste der externen Zertifikate das gewünschte Zertifikat aus und registrieren Sie sich für das Zertifikat.
-1. Tippen Sie auf **Abschlussnachweis** und laden Sie eine Datei hoch, z. B. eine PDF-Datei oder ein Bild.
+1. Laden Sie auf **Abschlussnachweis** und laden Sie eine Datei hoch, beispielsweise eine PDF-Datei oder ein Bild.
 
    | ![](assets/screenshot-3.png) | ![](assets/screenshot-4.png) |
    |---|---|
@@ -412,7 +414,7 @@ Wenn der Manager die Übermittlung ablehnt, ändert sich der Status in **Abgeleh
 Nach der Ablehnung können Sie eine Datei als Nachweis der Fertigstellung hochladen.
 
 * Sie können eine Datei nur übermitteln, wenn der Status &quot;**Ausstehende Übermittlung&quot; und &quot;Abgelehnt**&quot; lautet.
-* Sie können keine Datei übermitteln, wenn der Status **Genehmigung ausstehend und genehmigt** lautet.
+* Sie können keine Datei übermitteln, wenn der Status **„Genehmigung ausstehend“ und „Genehmigt“** lautet.
 
 ## Aufrufen von Kursen aus LinkedIn Learning {#linkedin}
 
@@ -420,7 +422,7 @@ Learning Manager unterstützt bereits LinkedIn Learning-Kurse innerhalb der Lern
 
 Wenn Sie die LinkedIn-App bereits installiert haben, wird der Kurs in der App geöffnet. Andernfalls wird der Kurs im Standardbrowser geöffnet, in dem Sie sich mit Ihren LinkedIn-Anmeldedaten anmelden müssen.
 
-Wenn Sie den Kurs über die LinkedIn-App aufrufen, wird Ihr Fortschritt nicht im Lernmanager verfolgt. Daher wird empfohlen, den Kurs im Browser anstatt in der LinkedIn Learning-App zu starten.
+Wenn Sie den Kurs über die LinkedIn-App aufrufen, wird Ihr Fortschritt nicht in Learning Manager verfolgt. Daher wird empfohlen, den Kurs im Browser anstatt in der LinkedIn Learning-App zu starten.
 
 >[!NOTE]
 >
@@ -441,7 +443,7 @@ Als Teilnehmer können Sie Ihrem Kursleiter Dateien als Nachweis für die Vervol
 
 Ein Autor kann nur Klassenzimmer- und Aktivitätsmodule erstellen, die ein Teilnehmer in der mobilen App nutzen kann.
 
-Nachdem der Teilnehmer einen Kurs gestartet hat, kann der Teilnehmer den Status **Dateiübertragung** als &quot;ausstehend&quot; zusammen mit dem Link zum Hochladen der Datei auf dem Bildschirm sehen, wie im folgenden Screenshot gezeigt.
+Nachdem der Teilnehmer einen Kurs gestartet hat, kann der Teilnehmer den Status **Dateiübertragung** als „ausstehend“ zusammen mit dem Link zum Hochladen der Datei auf dem Bildschirm sehen, wie im folgenden Screenshot gezeigt.
 
 ![](assets/pending-approval.png)
 
@@ -494,7 +496,7 @@ Laden Sie eine beliebige Datei hoch und klicken Sie auf die Schaltfläche **Send
 
 ## Genehmigung oder Ablehnung der Einreichung {#approvalorrejectionofsubmission}
 
-Nach dem Hochladen der Datei ändert sich der Status in &quot;**Genehmigung ausstehend&quot;.** Der Kursleiter zeigt dann die Liste von [ausstehenden Einreichungen](/help/migrated/instructors/feature-summary/learners.md) an und genehmigt oder lehnt die Übermittlung über die Kursleiter-Web-App ab.
+Nach dem Hochladen der Datei ändert sich der Status in &quot;**Genehmigung ausstehend&quot;.**. Der Kursleiter zeigt dann die Liste der [ausstehenden Einreichungen](/help/migrated/instructors/feature-summary/learners.md) an und genehmigt die Einreichung über die Kursleiter-Web-App oder lehnt sie ab.
 
 Wenn der Kursleiter die Einreichung genehmigt, ändert sich der Status in der Teilnehmer-Mobilanwendung in **Genehmigt**.
 
@@ -512,7 +514,7 @@ In der Learning Manager-App auf iPad- oder Android-Tablet sehen Sie nach der Anm
 
 <!--![](assets/screenshot-2015-08-07-12-24-40-e1439211134842.png)-->
 
-Um zu den Lern- und Katalogfunktionen zu navigieren, tippen Sie auf das Dropdown-Menü **Menü** und wählen Sie die entsprechende Option aus.
+Um zu den Lern- und Katalogfunktionen zu navigieren, tippen Sie auf die Dropdown-Liste **Menü** und wählen Sie die gewünschte Option aus.
 
 <!--![](assets/menu-ipad.png)-->
 
@@ -534,13 +536,14 @@ Sie können auf iPad- und Android-Tablets auch offline auf die Learning Manager-
    * Rote Leiste zeigt an, dass das Netzwerk für das Gerät nicht verfügbar ist.
    * Grüne Leiste zeigt an, dass das Netzwerk wieder online ist.
 
-Der Benutzer kann wieder in den Online-Modus wechseln, indem er auf der grünen Leiste auf die Schaltfläche **Onlineinhalt anzeigen** klickt. Der Inhalt auf dem Gerät wird synchronisiert, wenn der Benutzer in den Online-Modus wechselt.
+Der Benutzer kann wieder in den Online-Modus wechseln, indem er auf der grünen Leiste auf die Schaltfläche **Onlineinhalt anzeigen** klickt. Inhalt auf dem Gerät wird nach dem Wechseln in den Onlinemodus synchronisiert.
 
 ## Unterstützung mehrerer Warenkorbe auf mobilen immersiven Geräten
 
 Teilnehmer können jetzt mehrere Kurse, Lernpfade oder Zertifizierungen zum Warenkorb hinzufügen und zusammen erwerben. [Warenkorb mit mehreren Elementen in ALM anzeigen](/help/migrated/learners/feature-summary/multi-item-cart.md)
 
-<!--## Track device storage {#trackdevicestorage}
+<!--
+## Track device storage {#trackdevicestorage}
 
 You can monitor your device storage periodically.
 
@@ -552,4 +555,5 @@ An app storage information dialog appears as shown below.
 
 ![](assets/app-storage.png)
 
-Using the app storage information, you can check the total space of device, app and the downloaded courses. This information enables you to download courses accordingly. To delete the downloaded courses in the device, tap delete icon adjacent to each course name.-->
+Using the app storage information, you can check the total space of device, app and the downloaded courses. This information enables you to download courses accordingly. To delete the downloaded courses in the device, tap delete icon adjacent to each course name.
+-->

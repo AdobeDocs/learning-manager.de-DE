@@ -4,10 +4,10 @@ title: Anpassen der Teilnehmer-Startseite
 description: Ein Administrator kann die Startseite des Teilnehmers anpassen und sie moderner, inhaltsorientierter und für einen Teilnehmer personalisiert gestalten.
 contentowner: saghosh
 exl-id: 1551d240-fa07-4b7b-a06e-61b2bd3bff74
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '1139'
-ht-degree: 46%
+source-wordcount: '1159'
+ht-degree: 63%
 
 ---
 
@@ -80,13 +80,13 @@ Bei weniger als 1.000 Teilnehmern wird das gesamte Konto als ein einziger Bereic
 >
 >Das Kontrollkästchen **Neue Fähigkeiten erschließen** wurde zu &quot;Einstellungen&quot; > &quot;Allgemein&quot; verschoben.
 
-Diese Option wird aktiviert und ausgegraut, wenn die immersive Benutzeroberfläche ausgewählt wird. Dieses Kontrollkästchen wird nur für die klassische Benutzeroberfläche aktiviert.
+Diese Option wird aktiviert und abgeblendet, wenn die immersive Benutzeroberfläche ausgewählt wird. Dieses Kontrollkästchen wird nur für die klassische Benutzeroberfläche aktiviert.
 
 ![](assets/option-immersive.png)
 
 *Einstellungen für die Teilnehmer-Startseite*
 
-Das immersive Layout ist die Standardeinstellung für alle neuen Konten. Das Layout wird durch Widgets gesteuert, die ein Administrator aktivieren oder deaktivieren kann. Die Positionierung der Widgets wird auf der Teilnehmer-Startseite widergespiegelt.
+Das immersive Layout ist die Standardeinstellung für alle neuen Konten. Das Layout wird von Widgets gesteuert, die ein Administrator aktivieren oder deaktivieren kann. Die Positionierung der Widgets wird auf der Teilnehmer-Startseite widergespiegelt.
 
 Hier sind die Widgets, die Sie aktivieren/deaktivieren können.
 
@@ -111,7 +111,7 @@ Für vorhandene Konten ist die Option **Immersiv** **AUS**. Es wird für ein neu
     <p>Mastertitel</p></td>
    <td>
     <p><b>Was ist ein Mastertitel und wie kann ich den Mastertitel für Teilnehmer anpassen? </b><br></p>
-    <p>Es ist ein Willkommensbanner für Teilnehmer. Das Banner kann ein Bild oder ein Video sein. Sie können den Mastertitel auf bestimmte Benutzergruppen ausrichten, und ein Teilnehmer sieht den Mastertitel, sobald er auf die Startseite gelangt. Eine Benutzergruppe kann mehrere hero images oder Videos gemäß dem vom Administrator festgelegten Zielplan anzeigen. </p>
+    <p>Es ist ein Willkommensbanner für Teilnehmer. Das Banner kann ein Bild oder Video sein. Sie können den Mastertitel auf bestimmte Benutzergruppen ausrichten, und ein Teilnehmer sieht den Mastertitel, sobald er auf die Startseite gelangt. Eine Benutzergruppe kann mehrere Hero Images oder Videos dem vom Administrator festgelegten Zielplan entsprechend anzeigen. </p>
     <p>So lädt ein Administrator ein Banner hoch:</p>
     <ol>
      <li>Klicken Sie im linken Bereich auf <b>Ankündigungen</b>.<br></li>
@@ -151,7 +151,7 @@ Für vorhandene Konten ist die Option **Immersiv** **AUS**. Es wird für ein neu
    <td>
     <p>Soziales Lernen</p></td>
    <td>
-    <p>Listet Aktivitäten und Beiträge von Benutzern auf, die sich im selben Benutzerbereich wie Teilnehmer befinden. </p></td>
+    <p>Listet Aktivitäten und Beiträge von Benutzern auf, die sich als Teilnehmer im gleichen Benutzerbereich befinden. </p></td>
   </tr>
   <tr>
    <td>
@@ -160,29 +160,33 @@ Für vorhandene Konten ist die Option **Immersiv** **AUS**. Es wird für ein neu
     <p>Wenn diese Option aktiviert ist, empfiehlt dieses Widget Schulungen für bestimmte Benutzergruppen. Jede Benutzergruppe kann auf eine oder mehrere Schulungen ausgerichtet werden, und der Zielplan würde auf einem Zeitrahmen basieren. <br></p>
     <ul>
      <li>
-      <p>Zunächst erstellt der Administrator <a href="announcements.md#recommendation"> eine Ankündigung </a> vom Typ <b>Als Empfehlung</b>, wählt dann die erforderliche Schulung aus und verwendet Gruppen. Einem Teilnehmer, der zu einer Benutzergruppe gehört, wird die empfohlene Schulung angezeigt.</p></li>
+      <p>Erstens erstellt der Administrator <a href="announcements.md#recommendation">eine Ankündigung</a> des Typs <b>Als Empfehlung</b>, wählt dann die erforderliche Schulung aus und verwendet Gruppen. Einem Teilnehmer, der zu einer Benutzergruppe gehört, wird die empfohlene Schulung angezeigt.</p></li>
      <li>
       <p>Zweitens kann der Administrator auch entscheiden, ob die Empfehlungen sofort oder zu einem bestimmten Zeitpunkt eintreffen.</p></li>
     </ul></td>
   </tr>
-  <!--<tr>
+  <!--
+  <tr>
    <td>
     <p>Recommendation based on area of interest</p></td>
    <td>
     <p>Displays Learning Objects based on the learner's chosen area of interest. The recommendation is driven by a Machine Learning algorithm.</p></td>
-  </tr>-->
+  </tr>
+  -->
   <tr>
    <td>
     <p>Nach Katalog durchsuchen<br></p></td>
    <td>
     <p>Zeigt Kataloge als Kacheln auf der Startseite an. </p></td>
   </tr>
-  <!--<tr>
+  <!--
+  <tr>
    <td>
     <p>Recommendation based on peer activity<br></p></td>
    <td>
     <p>Displays training based on what a learner's peers are taking. This is again driven by a Machine Learning algorithm.</p></td>
-  </tr>-->
+  </tr>
+  -->
  </tbody>
 </table>
 
@@ -273,13 +277,13 @@ Auf der Seite **Allgemein** stehen Ihnen die folgenden Optionen zur Verfügung:
    <td>
     <p>Teilnehmern das Erkunden von Interessensbereichen ermöglichen</p></td>
    <td>
-    <p>Nur für klassisches Benutzeroberfläche. Wählen Sie <b>Ja </b> oder <b>Nein</b>.<br></p></td>
+    <p>Nur für klassisches Benutzeroberfläche. Wählen Sie <b>Ja </b>oder <b>Nein</b> aus.<br></p></td>
   </tr>
   <tr>
    <td>
-    <p>Benutzer zum Auswählen von Interessenbereichen (Kenntnissen) auffordern <br></p></td>
+    <p>Benutzer auffordern, Interessensbereiche (Kenntnisse) auszuwählen <br></p></td>
    <td>
-    <p>Nur für immersive Benutzeroberfläche. Wählen Sie <b>Ja</b> oder <b>Nein</b>. <br></p></td>
+    <p>Nur für immersive Benutzeroberfläche. Wählen Sie <b>Ja</b> oder <b>Nein</b> aus. <br></p></td>
   </tr>
  </tbody>
 </table>

@@ -4,9 +4,9 @@ title: White Labels in der mobilen Adobe Learning Manager-App
 description: White Labels sind eine Praxis, bei der Sie eine App oder einen Service mit Ihrem eigenen Branding umbenennen und so anpassen, als wären Sie der ursprüngliche Ersteller. In Adobe Learning Manager kannst du die Mobile App mit einer weißen Beschriftung versehen, sodass du ein Rebranding der App vornehmen und die App deinen Benutzern unter deinem eigenen Branding zur Verfügung stellen kannst.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 0c97b147a1e4c6e1a4a0cc69f56f8e9420c4602b
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '2098'
+source-wordcount: '2184'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Führen Sie die folgenden Schritte aus, um Ihre eigene App mit weißem Etikett b
    * Signieren der vom ALM-Team bereitgestellten Anwendungsbinärdateien.
    * Hochladen und Verwalten des Veröffentlichungsprozesses. Der Veröffentlichungsprozess erfordert die Kommunikation zwischen Ihrem App-Manager und den Teams im App/Play Store, sodass Ihre App alle Veröffentlichungsrichtlinien erfüllt. Von ALM erhalten Sie eine vollständig kompatible App-Binärdatei.
 
-## Überblick
+## Übersicht
 
 White Labels sind eine Praxis, bei der Sie eine App oder einen Service mit Ihrem eigenen Branding umbenennen und so anpassen, als wären Sie der ursprüngliche Ersteller. In Adobe Learning Manager kannst du die Mobile App mit einer weißen Beschriftung versehen, sodass du ein Rebranding der App vornehmen und die App deinen Benutzern unter deinem eigenen Branding zur Verfügung stellen kannst.
 
@@ -75,7 +75,7 @@ Folgende Elemente können angepasst werden:
 
    <td>
 
-    <p>Fügen Sie bei Bedarf mehrere Konten (Unterdomänen) hinzu. Fügen Sie die Unterdomänen durch Kommas getrennt ohne Leerzeichen hinzu. Beispiel: acc01, acc02, acc03 usw.<br> <b>Hinweis:</b> Sie müssen die Konto-ID hinzufügen, wenn Sie die Unterdomänen angeben.</br> </p>
+    <p>Fügen Sie bei Bedarf mehrere Konten (Unterdomänen) hinzu. Fügen Sie die Unterdomänen durch Kommas getrennt ohne Leerzeichen hinzu. Beispiel: acc01,acc02,acc03 usw.<br> <b>Hinweis:</b> Sie müssen die Konto-ID hinzufügen, wenn Sie die Unterdomänen angeben.</br> </p>
 
    </td>
 
@@ -368,11 +368,11 @@ Wenden Sie sich an das CSM-Team und geben Sie die JSON-Datei frei, um den Eintra
 
 Verwenden Sie dasselbe Projekt, das Sie in den Schritten oben erstellt haben, für Push-Benachrichtigungen erneut.
 
-[Fügen Sie das Projekt &#x200B;](https://learn.microsoft.com/en-us/xamarin/android/data-cloud/google-messaging/firebase-cloud-messaging) in Firebase hinzu, und rufen Sie die Datei ***google-services.json*** ab.
+[Fügen Sie das Projekt ](https://learn.microsoft.com/en-us/xamarin/android/data-cloud/google-messaging/firebase-cloud-messaging) in Firebase hinzu, und rufen Sie die Datei ***google-services.json*** ab.
 
 ### iOS
 
-[Fügen Sie das Projekt &#x200B;](https://firebase.google.com/docs/ios/setup) zu Firebase hinzu, und rufen Sie die Datei ***GoogleService-Info.plist*** ab.
+[Fügen Sie das Projekt ](https://firebase.google.com/docs/ios/setup) zu Firebase hinzu, und rufen Sie die Datei ***GoogleService-Info.plist*** ab.
 
 >[!IMPORTANT]
 >
@@ -383,11 +383,13 @@ Verwenden Sie dasselbe Projekt, das Sie in den Schritten oben erstellt haben, f�
 
 ### iOS
 
-<!--```
+<!--
+```
 sh""" xcodebuild -exportArchive -archivePath Runner.xcarchive -exportPath "ipa_path/" -exportOptionsPlist {ExportFile} 
 
 mv ipa_path/*.ipa "${env.AppName}_signed.ipa" """ 
-```-->
+```
+-->
 
 Der Ordner `<root>` enthält die Datei **Runner.xcarchive.zip**. Führen Sie die folgenden Befehle aus, um die signierte Binärdatei zu generieren:
 

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Erstellen von Kursinstanzen und Lernpfaden
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: 40cd12c186463517b20017229e44b6864056dedf
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '5832'
-ht-degree: 51%
+source-wordcount: '5898'
+ht-degree: 60%
 
 ---
 
@@ -17,7 +17,7 @@ Dieses Dokument enthält Hilfethemen, um Kursmodule, Instanzen und Kurse für Ad
 
 Autoren erstellen Kurse. Teilnehmer können Kurse absolvieren und Administratoren können die Leistung der Teilnehmer basierend darauf, ob und wie die Kurse konsumiert werden, verfolgen.
 
-## Überblick {#overview}
+## Übersicht {#overview}
 
 Autoren erstellen Kurse. Teilnehmer können Kurse absolvieren und Administratoren können die Leistung der Teilnehmer basierend darauf, ob und wie die Kurse konsumiert werden, verfolgen. Administratoren können von Autoren erstellte Kurse anzeigen und die in diesem Abschnitt beschriebenen Aktivitäten ausführen. Als Administrator können Sie aus einem vordefinierten Satz von Kursen für die Teilnehmer spezielle Lernprogramme erstellen.
 
@@ -80,7 +80,7 @@ Instanz erstellen
 
 >[!INFO]
 >
->In dieser Schulung lernen Sie, wie Sie Instanzdetails und Instanzeigenschaften bearbeiten.<br><br>[![Schaltfläche](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318912)</br></br>
+>In dieser Schulung erfahren Sie, wie Sie Instanzdetails und Instanzeigenschaften bearbeiten.<br><br>[![Schaltfläche](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/8318912)</br></br>
 
 Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.com>.
 
@@ -205,7 +205,7 @@ Die Excel-Datei enthält Arbeitsblätter für jede Instanz. Ein Arbeitsblatt bes
 >
 >Wenn Sie die Mehrfachregistrierung aktivieren, werden dem Teilnehmertranskriptbericht für jeden Kurs mehrere Zeilen hinzugefügt (eine Zeile für jede Instanz).
 >
->Wenn Sie die Berichtsautomatisierung eingerichtet haben, die nur eine Zeile pro Kurs vorwegnimmt, müssen Sie die erforderlichen Anpassungen an der Berichtsautomatisierung vornehmen, bevor Sie die Funktion zur Mehrfacheinschreibung aktivieren.
+>Wenn Sie die Berichtsautomatisierung eingerichtet haben, die nur eine Zeile pro Kurs vorwegnimmt, müssen Sie die erforderlichen Anpassungen an der Berichtsautomatisierung vornehmen, bevor Sie die Funktion zur Mehrfachregistrierung aktivieren.
 
 ### Verwalten der Teilnehmerliste für einen Kurs {#managelearnerslistforacourse}
 
@@ -227,15 +227,15 @@ Sie können die Teilnehmerliste auch in ein Excel-Arbeitsblatt exportieren. Um d
 
 >[!NOTE]
 >
->Wenn es mehrere Instanzen eines Kurses gibt, wird die Excel-Teilnehmerliste jeweils auf getrennten Registerkarten angezeigt. Die Teilnehmerliste enthält Namen, Status und Auswahlkriterien der Teilnehmer. Der Teilnehmerstatus kann **Nicht gestartet** oder **In Bearbeitung** oder **Abgeschlossen** sein.
+>Wenn es mehrere Instanzen eines Kurses gibt, wird die Excel-Teilnehmerliste jeweils auf getrennten Registerkarten angezeigt. Die Teilnehmerliste enthält Namen, Status und Auswahlkriterien der Teilnehmer. Folgende Teilnehmerstatus sind möglich: **Nicht begonnen**, **Wird ausgeführt** und **Abgeschlossen**.
 
 ### Teilnehmer mit dem Status „Genehmigung ausstehend“ exportieren
 
 Ein Administrator, Manager oder benutzerdefinierter Administrator kann Daten von Teilnehmern mit dem Registrierungsstatus „Genehmigung ausstehend“ exportieren. Sie können die Daten über die Registerkarte **Kurs > Teilnehmer** exportieren und auf die Dropdown-Liste „Aktion“ klicken.
 
-Die Option ist vorhanden, wenn kein Teilnehmer für den vom Manager genehmigten Kurs registriert wurde bzw. die Genehmigung aussteht, und ein leerer Bericht wird generiert. Sie können auch exportieren, wenn Teilnehmer den Status &quot;Genehmigung ausstehend&quot;, &quot;Registriert&quot;, &quot;Ausstehend&quot; und &quot;Nicht registriert&quot; aufweisen.
+Die Option ist vorhanden, wenn kein Teilnehmer für den vom Manager genehmigten Kurs registriert wurde bzw. die Genehmigung aussteht, und ein leerer Bericht wird generiert. Sie können auch exportieren, wenn Teilnehmer den Status „Genehmigung ausstehend“, „Registriert“, „Ausstehend“ und „Nicht registriert“ aufweisen.
 
-Der Bericht enthält Daten von aktiven, gelöschten und gesperrten Benutzern, wenn die Genehmigung aussteht. Der Bericht enthält auch Daten von internen und externen Benutzern mit dem Status &quot;Genehmigung ausstehend&quot;.
+Der Bericht enthält Daten von aktiven, gelöschten und gesperrten Benutzern, wenn die Genehmigung aussteht. Der Bericht enthält auch Daten von internen und externen Benutzern mit dem Status „Genehmigung ausstehend“.
 
 Wenn ein Teilnehmer, der zuvor den Status „Genehmigung ausstehend“ aufwies, seine Registrierung löscht, wird sein Datensatz im Bericht nicht angezeigt. Wenn ein Teilnehmer, der zuvor den Status „Genehmigung ausstehend“ aufwies, von einem Administrator/Manager/benutzerdefinierten Administrator für den Kurs registriert wird, ist sein Datensatz im Bericht vorhanden.
 
@@ -358,7 +358,7 @@ Wenn Sie das PDF herunterladen, sehen Sie die Zeitzone (in UTC), die beim Erstel
 
 >[!NOTE]
 >
->Wenn diese Feedbackoption in Ihrem Konto nicht sichtbar ist, wurde Ihr Konto bereits auf das neue L1-Feedbackformular aktualisiert. Weitere Informationen finden Sie im [L1-Feedbackformular &#x200B;](/help/migrated/administrators/feature-summary/l1-feedback-form.md).
+>Wenn diese Feedbackoption in Ihrem Konto nicht sichtbar ist, wurde Ihr Konto bereits auf das neue L1-Feedbackformular aktualisiert. Weitere Informationen finden Sie im [L1-Feedbackformular ](/help/migrated/administrators/feature-summary/l1-feedback-form.md).
 
 
 Während der Kurserstellung können Sie L1- und L3-Feedbackoptionen hinzufügen:
@@ -389,7 +389,7 @@ Wenn die beiden Pflichtfragen aus irgendeinem Grund keinen Text enthalten, werde
 >
 >Es reicht nicht aus, dass Sie diese Einstellungen in der Lernprogramminstanz aktivieren. Sie müssen diese Einstellungen auch auf Kursinstanzebene für jeden Kurs im Lernprogramm aktivieren.
 
-Wenn Sie auf der Seite &quot;Standardwerte für Instanz&quot; die Option **[!UICONTROL Alle Fragen sollen Pflichtfragen sein]** aktivieren, übernehmen alle danach erstellten neuen Instanzen diese Einstellungen.
+Wenn Sie auf der Seite „Standardwerte für Instanz“ die Option **[!UICONTROL Alle Fragen sollen Pflichtfragen sein]** aktivieren, übernehmen alle danach erstellten neuen Instanzen diese Einstellungen.
 
 ![](assets/instance-defaults-makeallquestionsmandatory.png)
 
@@ -425,7 +425,7 @@ Quizberichte helfen bei der Bewertung der Leistung eines Teilnehmers nach Abschl
 
 Learning Manager erleichtert derzeit das Lernen in 13 Benutzeroberflächensprachen und 32 Inhaltssprachen. Obwohl diese Option teilnehmerfreundlich ist und unsere Teilnehmer weltweit unterstützt, ist es für Administratoren nicht einfach, Berichte abzurufen, die in verschiedenen Sprachen generiert wurden.
 
-Quizberichte zeigen Daten in verschiedenen Sprachen an, sofern der Kurs in mehreren Sprachen angeboten wird. Bisher wurden in vom Administrator generierten Berichten Antworten untereinander angezeigt, unabhängig von der Sprache, in der das Quiz absolviert wurde. **Beispiel:**: Wenn ein Benutzer ein Quiz auf Niederländisch absolviert hat, kann der Administrator nur die Quizberichte anzeigen, die von Benutzern auf Niederländisch generiert wurden. Der Administrator, der Englisch als Benutzeroberflächensprache ausgewählt hat, kann Berichte für alle Benutzer nicht gleichzeitig anzeigen, unabhängig davon, in welchem Gebietsschema diese generiert wurden.
+Quizberichte zeigen Daten in verschiedenen Sprachen an, sofern der Kurs in mehreren Sprachen angeboten wird. Bisher wurden in vom Administrator generierten Berichten Antworten untereinander exportiert, unabhängig von der Sprache, in der das Quiz absolviert wurde. **Wenn beispielsweise** ein Benutzer ein Quiz auf Niederländisch absolviert hat, kann der Administrator nur die Quizberichte, die von Benutzern auf Niederländisch generiert wurden, gleichzeitig anzeigen. Der Administrator, der Englisch als Benutzeroberflächensprache ausgewählt hat, kann Berichte für alle Benutzer nicht gleichzeitig anzeigen, unabhängig davon, in welchem Gebietsschema diese generiert wurden.
 
 Dies wurde nun behoben, da der Administrator jetzt alle Berichte in der jeweiligen Sprache anzeigen kann, die der Teilnehmer verwendet hat, und zwar unabhängig vom gewählten Inhaltsgebietsschema. Quizversuche in verschiedenen Sprachen werden als zusätzliche Spalten im Quizbericht hinzugefügt.
 
@@ -433,7 +433,7 @@ Dies wurde nun behoben, da der Administrator jetzt alle Berichte in der jeweilig
 
 *L1-Feedback auf Kontoebene aktivieren*
 
-Ein Administrator kann L1-Feedback für neu erstellte Kurse und ein Lernprogramm aktivieren, indem er diese Einstellung auf Kontoebene aktiviert. Die Aktivierung dieser Einstellung wirkt sich jedoch nicht auf die vorhandenen Kurse und Lernprogramme aus
+Ein Administrator kann L1-Feedback für neu erstellte Kurse und Lernprogramme aktivieren, indem er diese Einstellung auf Kontoebene aktiviert. Die Aktivierung dieser Einstellung wirkt sich jedoch nicht auf die vorhandenen Kurse und Lernprogramme aus.
 
 Wenn diese Option aktiviert ist, ist das Feedback für alle neuen Schulungen und Instanzen standardmäßig aktiviert. Wenn ein Autor/Administrator die Instanz besucht, stellt die Instanz den Standard her und deaktiviert diese Einstellung manuell, dann wird sie berücksichtigt.
 
@@ -475,7 +475,7 @@ Eine Beispielausgabe des L1-Fragebogens wird als Referenz zur Verfügung gestell
 
 *Beispielfragen zu Kursfeedback*
 
-Sobald Sie das L3-Feedback aktiviert haben, können Sie die Optionen wie in der folgenden Momentaufnahme gezeigt anzeigen:
+Nachdem Sie L3-Feedback aktivieren, können Sie die Optionen, wie in der folgenden Darstellung gezeigt, anzeigen:
 
 ![](assets/l3-feedback-desc-questions.png)
 
@@ -493,9 +493,9 @@ Eine Beispielausgabe des L3-Fragebogens wird als Referenz zur Verfügung gestell
 
 Auf Kontoebene können Sie L1- und L3-Feedbackfragebogen einrichten und Erinnerungen festlegen.
 
-1. Klicken Sie im linken Teilfenster auf **[!UICONTROL Einstellungen]** und anschließend auf **[!UICONTROL Feedback]**, nachdem Sie sich als Administrator angemeldet haben.\
+1. Klicken Sie im linken Teilfenster auf **[!UICONTROL Einstellungen]** und dann auf **[!UICONTROL Feedback]**, nachdem Sie sich als Administrator angemeldet haben.\
    Die Seite mit den Feedbackeinstellungen wird mit zwei Registerkarten angezeigt: **[!UICONTROL L1 Feedback]** und **[!UICONTROL L3 Feedback]**.\
-   Die Registerkarte **[!UICONTROL L1-Feedback]** enthält eine Liste mit standardmäßigen **[!UICONTROL L1-Feedback]**-Fragebogen für Präsenzkurse und Kurse zum Selbststudium sowie Erinnerungseinstellungen. Auf der Registerkarte **[!UICONTROL L3-Feedback]** können Sie die Standardanweisung und Erinnerungseinstellungen für L3-Feedback anzeigen.
+   Die Registerkarte **[!UICONTROL L1-Feedback]** enthält eine Liste mit standardmäßigen **[!UICONTROL L1-Feedback]**-Fragebogen für Präsenzkurse und Kurse zum Selbststudium sowie Erinnerungseinstellungen. Auf der Registerkarte **[!UICONTROL L3-Feedback]** können Sie L3-Standardfeedback- und Erinnerungseinstellungen anzeigen.
 
 1. Klicken Sie in der rechten oberen Ecke der Seite auf „Bearbeiten“, um den vorhandenen Fragebogen zu ändern.\
    Auf der Registerkarte **[!UICONTROL L1-Feedback]** können Sie jede Frage aktivieren/deaktivieren, indem Sie auf die Schaltfläche Ja/Nein klicken.\
@@ -574,7 +574,7 @@ Als Administrator können Sie eine Liste aller verfügbaren Kurse anzeigen.   Kl
 
 >[!NOTE]
 >
->Sie können Kurse sowohl einstellen (zurückziehen), nachdem sie von Teilnehmern absolviert wurden, als auch zu jedem anderen Zeitpunkt nach der Veröffentlichung. Kurse können erst nach der Veröffentlichung eingestellt werden. Durch Klicken auf die Registerkarte **[!UICONTROL Eingestellt]** können Sie eine Liste aller eingestellten Kurse anzeigen.
+>Sie können Kurse sowohl einstellen (zurückziehen), nachdem sie von Teilnehmern absolviert wurden, als auch zu jedem anderen Zeitpunkt nach der Veröffentlichung. Kurse können erst nach der Veröffentlichung eingestellt werden. Sie können eine Liste aller eingestellten Kurse anzeigen, indem Sie auf die Registerkarte **[!UICONTROL Eingestellt]** klicken.
 
 ## Punktzahl für Quiz anzeigen {#viewquizscores}
 
@@ -633,7 +633,7 @@ Die Kommentare sind im Bericht [Teilnehmertranskripte](/help/migrated/administra
 
 ## Kursvorschau {#previewcourses}
 
-Der Administrator kann eine Vorschau der Kurse anzeigen, indem er beim Anzeigen der Kursmodule auf die Option **[!UICONTROL Vorschau als Teilnehmer]** klickt.
+Administratoren können Kurse bei der Anzeige der Kursmodule mithilfe der Option **[!UICONTROL Vorschau als Teilnehmer]** in einer Vorschau anzeigen.
 
 1. Klicken Sie im linken Teilfenster auf **[!UICONTROL Kurse]**, nachdem Sie sich als Administrator angemeldet haben.
 1. Klicken Sie auf der Seite auf eine beliebige Kachel der Kursliste.
@@ -665,10 +665,10 @@ Wie aus dem obigen Kreisdiagramm hervorgeht, wird das L3-Feedback des Managers a
 
 Mit Adobe Learning Manager fällt es Ihnen leichter, schnell Kurse/Lernprogramme Ihrer Wahl zu finden. Für die Suche nach Kursen haben Sie zwei Möglichkeiten:
 
-1. Über das Suchfeld. Klicken Sie auf das Suchsymbol in der rechten oberen Ecke. Ein Suchfeld erscheint. Geben Sie den Kursnamen oder beliebige zu Ihren Kursen passende Schlüsselwörter ein, um nach Ihren Kursen/Lernprogrammen zu suchen. Sie können auch mit vordefinierten Tags wie Captivate, C, Java und HTML suchen. Nach Tags können Sie im Suchfeld suchen, was bedeutet, dass die Tags im Suchfeld angezeigt werden, während Sie tippen.
+1. Über das Suchfeld. Klicken Sie auf das Suchsymbol in der rechten oberen Ecke. Ein Suchfeld erscheint. Geben Sie den Kursnamen oder beliebige zu Ihren Kursen/Lernprogrammen passende Suchbegriffe ein, um nach diesen zu suchen. Sie können auch mithilfe vordefinierter Tags wie Captivate, C, Java und HTML suchen. Nach Tags können Sie im Suchfeld suchen, was bedeutet, dass die Tags im Suchfeld angezeigt werden, während Sie tippen.
 1. Indem Sie die Liste der Kurse bzw. Lernprogramme mit den angebotenen Filtern filtern. Sie können die Kurse nach Status filtern, z. B. „Alle“, „Veröffentlicht“, „Entwurf“ und „Eingestellt“. Im Administratormodus wird der Filter „Entwurf“ nicht angezeigt.
 
-Sie können basierend auf Kompetenzen suchen, indem Sie die Kompetenzen anklicken und auswählen. Als Administrator können Sie die Kurse auf vier Arten sortieren, um den gewünschten Kurs besser zu finden. Klicken Sie auf Sortieren nach und wählen Sie alphabetisch aufsteigende Reihenfolge, alphabetisch absteigende Reihenfolge, Datum der Kursaktualisierung oder Kurseffektivität.
+Sie können basierend auf Kompetenzen suchen, indem Sie die Kompetenzen anklicken und auswählen. Als Administrator können Sie die Kurse auf vier verschiedene Weisen sortieren, um den gesuchten Kurs leichter zu finden. Klicken Sie auf Sortieren nach und wählen Sie alphabetisch aufsteigende Reihenfolge, alphabetisch absteigende Reihenfolge, Datum der Kursaktualisierung oder Kurseffektivität.
 
 <!--![](assets/admin-sortby.png)-->
 
@@ -680,7 +680,7 @@ Sie können die gleichen Schritte befolgen, um Teilnehmer in Kursen, Lernprogram
 
 Gemäß den Vorgaben des Unternehmens registriert der Administrator einige Teilnehmer für obligatorische Kurse:
 
-1. Bewegen Sie die Maus über alle veröffentlichten Kurskacheln und klicken Sie auf &quot;Teilnehmer registrieren&quot;.\
+1. Zeigen Sie mit der Maus auf die Kachel eines veröffentlichten Kurses und klicken Sie auf „Teilnehmer registrieren“.\
    Alternativ können Sie auf die Kachel eines veröffentlichten Kurses klicken und auf Teilnehmer im linken Teilfenster klicken. Es wird eine Seite mit einer Teilnehmerliste angezeigt. Klicken Sie auf „Registrieren“.\
    Das Dialogfeld &quot;Teilnehmer registrieren&quot; wird angezeigt.
 
@@ -726,15 +726,15 @@ Das Dialogfeld mit der Zusammenfassung wird angezeigt. Es zeigt die Anzahl der B
 
 ### Fügen Sie Kommentare hinzu, während Sie Teilnehmer registrieren {#enroll-comments}
 
-<!---![](assets/enroll-learners-dialog.png)-->
+<!--![](assets/enroll-learners-dialog.png)-->
 
 Als Administrator oder Manager können Sie Kommentare hinzufügen, während Sie Teilnehmer für einen Kurs registrieren. Sie können zusätzliche Informationen über die Kohorte der angemeldeten Benutzer angeben. Diese Daten werden in Kursberichten exportiert.
 
-Der Kommentar ist **nicht**, der dem Teilnehmer angezeigt wird.
+Der Kommentar wird **nicht** für die Teilnehmer angezeigt.
 
 Wenn ein Administrator den Kursbericht des Teilnehmers erstellt, wird ein eventuell hinzugefügter Kommentar im Bericht angezeigt. Das Dialogfeld mit der Zusammenfassung wird angezeigt. Es zeigt die Anzahl der Benutzer im Einbeziehungsset, im Ausschlussset sowie die Anzahl der bereits für die Kursinstanz registrierten Benutzer an.
 
-Erweitern Sie im Dialogfeld **[!UICONTROL Teilnehmer registrieren]** die Option **[!UICONTROL Erweiterte Optionen]**. Geben Sie im Feld **[!UICONTROL Zusätzlicher Kommentar]** den erforderlichen Kommentar ein.
+Erweitern Sie im Dialogfeld **[!UICONTROL Teilnehmer registrieren]** die Option **[!UICONTROL Erweiterte Optionen]**. Geben Sie im Feld **[!UICONTROL Zusätzlicher Kommentar]** den gewünschten Kommentar ein.
 
 ![](assets/comment-for-learner.png)
 
@@ -767,7 +767,7 @@ Mit type-ahead können Sie:
 
 Nachdem eine Suche ausgeführt wurde, können Sie die Teilnehmer nicht mehr nach Instanzen filtern. Die Option eine Instanz aus der Dropdown-Liste **[!UICONTROL Instanz auswählen]** auszuwählen ist deaktiviert.
 
-Darüber hinaus können Sie mithilfe der Suchergebnisse einen Teilnehmer oder eine Benutzergruppe auswählen und die folgenden Aktionen ausführen:
+Darüber hinaus können Sie anhand der Suchergebnisse einen Teilnehmer oder eine Benutzergruppe auswählen und die folgenden Aktionen ausführen:
 
 * Registrierung aufheben
 * Als abgeschlossen markieren
@@ -834,7 +834,7 @@ Ein typischer Lebenszyklus von Kursen sieht wie folgt aus:
 
 **Eingestellt** - Nach der Veröffentlichung kann ein Autor den Kurs wieder einstellen, wenn er ihn aus dem Kurskatalog für die Teilnehmer entfernen möchte. Sie können einen Kurs in diesem Status erneut veröffentlichen oder löschen.
 
-**Gelöscht** - Ein Kurs hat den Status &quot;Gelöscht&quot;, wenn er vollständig aus der Adobe Learning Manager-Anwendung entfernt wurde. Kurse können von Autoren nur gelöscht werden, wenn sie den Status „Entwurf“ haben. Sie können auch Kurse im Status &quot;Eingestellt&quot; löschen.
+**Gelöscht** - Ein Kurs hat den Status &quot;Gelöscht&quot;, wenn er vollständig aus der Adobe Learning Manager-Anwendung entfernt wurde. Kurse können von Autoren nur gelöscht werden, wenn sie den Status „Entwurf“ haben. Sie können außerdem Kurse im Status „Eingestellt“ löschen.
 
 ![](assets/lifecycle-03.png)
 

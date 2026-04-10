@@ -4,10 +4,10 @@ title: Lernpläne
 description: Erstellen von Lernplänen für Administratoren in Learning Manager.
 contentowner: saghosh
 exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
-source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '1442'
-ht-degree: 32%
+source-wordcount: '1461'
+ht-degree: 61%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 32%
 
 ## Was ist ein Lernplan?
 
-Oft sind Administratoren daran interessiert, einen detaillierten Lehrplan zu erstellen, der detaillierte Kenntnisse zu einem bestimmten Thema oder einem Fachgebiet bietet. Es kann sich auch um eine Reihe von Schulungen handeln, die von den Mitarbeitern oder Kunden erwartet werden. Dies erfordert die Bündelung einer Reihe von Kursen und Programmen, um ein vollständiges Schulungspaket zu erstellen.
+Häufig sind Administratoren daran interessiert, einen detaillierten Lehrplan zu erstellen, der tiefgründige Kenntnisse über ein bestimmtes Thema oder einen Fachbereich bietet. Es kann sich auch um eine Abfolge von Schulungen handeln, die die Mitarbeiter oder Kunden abschließen sollen. Dies erfordert die Bündelung einer Reihe von Kursen und Programmen, um ein vollständiges Schulungspaket zu erstellen.
 
-Hier kommt der Lernpfad ins Spiel. Ein Lernpfad ist eine Reise, die ein Teilnehmer durchlaufen muss, um ein Thema im Laufe der Zeit zu meistern. Die Teilnehmer haben die Kontrolle über ihre Schulungserfahrung und können mit größerer Effektivität Kenntnisse auf selbstständige Weise erwerben und behalten.
+Hier kommt der Lernplan ins Spiel. Ein Lernplan ist eine Reise, die ein Teilnehmer durchlaufen muss, um ein Thema im Laufe der Zeit zu meistern. Die Teilnehmer haben die Kontrolle über ihre Schulungserfahrung und können mit größerer Effektivität Kenntnisse auf selbstständige Weise erwerben und behalten.
 
-Wenn ein Unternehmen beispielsweise neue Mitarbeiter einbaut, führt es Schulungen zu Richtlinien und Verfahren, Kultur, Geschichte usw. durch. Ein Lernplan richtet die Kurse entsprechend den Bedürfnissen der Mitarbeiter ein, damit Mitarbeiter sich gemäß dem Lernplan für die Kurse registrieren können. und Sie können Benutzer für diesen Pfad registrieren, damit sie von Kurs zu Kurs fortschreiten können.
+Wenn ein Unternehmen beispielsweise neue Mitarbeiter einbaut, führt es Schulungen zu Richtlinien und Verfahren, Kultur, Geschichte usw. durch. Ein Lernplan richtet die Kurse entsprechend den Bedürfnissen der Mitarbeiter ein, damit Mitarbeiter sich gemäß dem Lernplan für die Kurse registrieren können. Sie wählen die Kurse aus und können Benutzer für diesen Plan registrieren, damit sie von Kurs zu Kurs weiterarbeiten können.
 
 ## Erstellen und Konfigurieren von Lernpfaden
 
@@ -33,17 +33,17 @@ Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.
 
 Lernpläne machen die Bereitstellung eines Schulungsprogramms bequem und einfach. Im Folgenden finden Sie einige der wichtigsten Vorteile eines Lernplans:
 
-1. Sie können Kenntnisse und Kenntnisstufen direkt Lehrplänen zuweisen. Es ist keine Zuordnung von Kenntniskrediten erforderlich. Sobald der Teilnehmer einen Lernpfad abgeschlossen hat, erreicht er die erwähnte Kenntnisstufe.
-1. Möglichkeit, einen vorhandenen Lernplan in einen neuen Lernplan einzubetten. Die Einbettungsfunktion ist nur für eine Einbettungsebene verfügbar. Daher kann ein Lernpfad, der bereits einen eingebetteten Pfad enthält, nicht in einen neuen Pfad eingebettet werden.
+1. Sie können Kenntnisse und Kenntnisstufen direkt Lehrplänen zuweisen. Sie müssen keine Credits für Kenntnisse abgleichen. Sobald der Teilnehmer einen Lernplan abgeschlossen hat, erreicht er die erwähnte Kenntnisstufe.
+1. Möglichkeit, einen vorhandenen Lernplan in einen neuen Lernplan einzubetten. Die Funktion des Einbettens ist nur für eine Ebene des Einbettens verfügbar. Daher kann ein Lernplan, der bereits einen eingebetteten Plan enthält, nicht in einen neuen Plan eingebettet werden.
 1. Möglichkeit, Voraussetzungen, Arbeitshilfen und Ressourcen auf Lernplanebene hinzuzufügen.
 1. Möglichkeit, Abschnitte zu erstellen. Jeder Abschnitt kann einen Titel haben.
 1. Möglichkeit, Abschnitte obligatorisch zu machen und Abschlusskriterien festzulegen.
 
-## Hinzufügen eines Lernpfads im Lern-Manager
+## Hinzufügen eines Lernplans in Learning Manager
 
 Klicken Sie im Lern-Manager in der Admin-App auf **[!UICONTROL Lernpfad]** im linken Bereich.
 
-Klicken Sie auf der Seite **[!UICONTROL Lernpfad]** auf **[!UICONTROL Hinzufügen]**. Geben Sie die folgenden Details ein.
+Klicken Sie auf der Seite **[!UICONTROL Lernplan]** auf **[!UICONTROL Hinzufügen]**. Geben Sie die folgenden Details ein.
 
 ![](assets/add-learning-path.png)
 
@@ -57,7 +57,7 @@ Wählen Sie in der Option **Registrierungstyp** die Option **Selbstregistrierung
 
 Nachdem Sie den Lernplan erstellt haben, wählen Sie den neu erstellten Lernplan aus und fügen Sie die Kurse in dem Plan hinzu.
 
-Sie können Kenntnisse hinzufügen und dem Lernplan ein Abzeichen zuweisen. Um Kenntnisse hinzuzufügen, wählen Sie die erforderlichen Kenntnisse aus der Dropdownliste **[!UICONTROL Kenntnisse auswählen]** aus. Wählen Sie auch die Ebene für die Kenntnis bzw. Kenntnisse aus.
+Sie können Kenntnisse hinzufügen und dem Lernplan ein Abzeichen zuweisen. Um eine Kenntnis hinzuzufügen, wählen Sie die erforderliche Kenntnis bzw. die erforderlichen Kenntnisse aus der Dropdownliste **[!UICONTROL Kenntnisse wählen]** aus. Wählen Sie auch die Ebene für die Kenntnis bzw. Kenntnisse aus.
 
 ![](assets/add-skills.png)
 
@@ -71,11 +71,11 @@ Wählen Sie die Produkt-, Rollen- und Rollenebene im Abschnitt **[!UICONTROL Fü
 
 *Empfehlung*
 
-Wählen Sie den Sequenzierungstyp für die Abschnitte und die Schulung &quot;Geordnet&quot; oder &quot;Ungeordnet&quot;.
+Wählen Sie nach Bedarf den gewünschten Abfolgetyp für die Abschnitte und Schulungen, d. h. „Geordnet“ oder „Nicht geordnet“.
 
 Wenn Sie „Geordnet“ auswählen, erscheinen die Kurse in der Reihenfolge, in der Sie diese erstellt haben. Wenn Sie „Nicht geordnet“ auswählen, wird für die Kurse keine Reihenfolge festgesetzt. Die Teilnehmer können die Kurse dann in beliebiger Reihenfolge ausführen.
 
-Um einen Kurs im Lernpfad hinzuzufügen, klicken Sie auf **[!UICONTROL Kurse oder Lernpfade hinzufügen]**.
+Um einen Kurs im Lernplan hinzuzufügen, klicken Sie auf **[!UICONTROL Kurse oder Lernpläne hinzufügen]**.
 
 Wählen Sie im angezeigten Dialogfeld die Schulung aus, die Sie dem Lernplan hinzufügen möchten.
 
@@ -85,25 +85,25 @@ Wählen Sie im angezeigten Dialogfeld die Schulung aus, die Sie dem Lernplan hin
 
 Sie können die Kurse weiter nach den zugewiesenen Kenntnissen, dem Änderungsdatum und der Kurseffektivität sortieren.
 
-Klicken Sie nach der Auswahl der Kurse oder des Lernpfads auf **[!UICONTROL Speichern]**.
+Nachdem Sie die Kurse oder den Lernplan ausgewählt haben, klicken Sie auf **[!UICONTROL Speichern]**.
 
 Im Lernplan können Sie Folgendes durchführen:
 
-**Erstellen und konfigurieren Sie einen Abschnitt:** Ein Abschnitt wird erstellt, um mehrere Schulungskurse zu gruppieren, die einen Bereich oder eine wesentliche Komponente der Schulung abschließen. Jeder Abschnitt kann einen Titel haben. Jeder Abschnitt kann auch als obligatorisch mit spezifischen Abschlussanforderungen gekennzeichnet werden.
+**Abschnitt erstellen und konfigurieren:** Ein Abschnitt wird erstellt, um mehrere Schulungskurse zu gruppieren, mit denen ein Bereich oder ein wesentlicher Teil der Schulung abgeschlossen wird. Jeder Abschnitt kann einen Titel haben. Jeder Abschnitt kann auch als obligatorisch mit spezifischen Abschlussanforderungen gekennzeichnet werden.
 
-**Die Kurse in jedem Abschnitt als obligatorisch festlegen:** Aktivieren oder deaktivieren Sie das Kontrollkästchen &quot;Obligatorisch&quot;, wenn Sie die Schulungen im Lernpfad als obligatorisch festlegen möchten/nicht. Wenn Sie das Kontrollkästchen aktivieren, können Sie entweder alle Schulungen oder einige der Schulungen als obligatorisch festlegen.
+**Die Kurse in jedem Abschnitt als obligatorisch definieren:** Aktivieren oder deaktivieren Sie das Kontrollkästchen „Obligatorisch“, wenn Sie die Schulungen in dem Lernplan als obligatorisch definieren möchten bzw. nicht möchten. Wenn Sie das Kontrollkästchen aktivieren, können Sie entweder alle Schulungen als obligatorisch definieren oder einige Schulungen als obligatorisch definieren.
 
 ![](assets/choose-mandatory.png)
 
 *Die Kurse in jedem Abschnitt als obligatorisch festlegen*
 
-**Reihenfolge neu anordnen:** Sie können die Kurse nach oben oder unten verschieben und ihre Reihenfolge ändern.
+**Reihenfolge ändern:** Sie können die Kurse nach oben oder unten verschieben und damit ihre Reihenfolge ändern.
 
 ![](assets/rearrange.png)
 
 *Reihenfolge der Schulung ändern*
 
-**Kurs entfernen:** Klicken Sie auf der Kurskarte auf &quot;X&quot; und entfernen Sie den Kurs aus dem Lernpfad.
+**Kurs entfernen:** Klicken Sie auf der Kurskarte auf das X und entfernen Sie den Kurs damit aus dem Lernplan.
 
 ![](assets/remove-course.png)
 
@@ -133,7 +133,7 @@ Die Lernplaninstanzen zeigen die zusätzliche Kachel **[!UICONTROL Lernpläne]**
 
 In der Kachel **Kurse** sehen Sie die Kursinstanzen, die für die Teilnehmer sichtbar sind, die für diese Instanz registriert sind.
 
-Das Kontrollkästchen **[!UICONTROL Teilnehmern das Auswählen von Instanzen ermöglichen (flexibler Lernpfad)]** gilt nur für Kurse. Mit dieser Option können Teilnehmer ihre Instanzen im Lernpfad wechseln. Alle untergeordneten Lernpfade erhalten eine Option, um eine Lernprogramminstanz dem Lernpfad zuzuordnen. Standardmäßig ist die Zuordnung auf „Standardinstanz“ festgelegt.
+Das Kontrollkästchen **[!UICONTROL Machen Sie es für Teilnehmer möglich, auf Instanzen zuzugreifen (Flexibler Lernplan)]** gilt nur für Kurse. Mit dieser Option können Teilnehmer ihre Instanzen im Lernpfad wechseln. Alle untergeordneten Lernpläne erhalten eine Option zum Zuordnen einer Lernprogramminstanz zu Lernplänen. Standardmäßig ist die Zuordnung auf „Standardinstanz“ festgelegt.
 
 ![](assets/default-instance.png)
 
@@ -169,15 +169,16 @@ Führen Sie die folgenden Schritte aus:
 
 ## Wichtiger Hinweis
 
-Bitte beachten Sie, dass die vorhandene Funktion von Lernprogrammen unmittelbar nach der Veröffentlichung in Lernpfad umbenannt wird. Wenn Sie es weiterhin als Lernprogramme anrufen möchten, empfehlen wir Ihnen, die Funktion &quot;Terminologien&quot; zu verwenden, um die erforderliche Terminologie anzuwenden. Auf diese Weise können Sie weiterhin den Begriff „Lernprogramm“ verwenden.
+Beachten Sie, dass die bisherige Funktion „Lernprogramme“ unmittelbar nach der Veröffentlichung in „Lernplan“ umbenannt wird. Wenn Sie es weiterhin als Lernprogramme anrufen möchten, empfehlen wir Ihnen, die Funktion &quot;Terminologien&quot; zu verwenden, um die erforderliche Terminologie anzuwenden. Auf diese Weise können Sie weiterhin den Begriff „Lernprogramm“ verwenden.
 
-Lernpläne bieten Ihnen eine Reihe von Funktionen. Einige davon sind unmittelbar nach der Veröffentlichung verfügbar. Administratoren/Autoren können sie direkt verwenden. Erweiterte Funktionen wie &quot;Abschnitte&quot;, &quot;Hinzufügen eines Lernpfads in einem anderen Pfad&quot; usw. deaktiviert sind und aktiviert werden können, indem Sie das unten genannte Kontrollkästchen aktivieren.
+Lernpläne bieten Ihnen eine Reihe von Funktionen. Einige davon sind unmittelbar nach der Veröffentlichung verfügbar. Administratoren/Autoren können sie direkt verwenden. Erweiterte Funktionen wie &quot;Abschnitte&quot;, &quot;Lernpfad in einem anderen Pfad hinzufügen&quot; usw. sind deaktiviert und können durch Aktivieren des unten genannten Kontrollkästchens aktiviert werden.
 
-Teilnehmer können weiterhin Lernprogramme (jetzt &quot;Lernpfade&quot; genannt) nutzen und Autoren/Administratoren können sie auch weiterhin erstellen. Um die erweiterten Funktionen des oben genannten Lernpfads zu nutzen, sollte der Administrator die Einstellung wie unten erwähnt aktivieren. Nach der Aktivierung stehen alle neuen erweiterten Funktionen des Lernplans zur Verfügung.
+Teilnehmer können weiterhin Lernprogramme nutzen (jetzt als „Lernpläne“ bezeichnet) und Autoren/Administratoren können sie auch weiterhin erstellen. Um die oben genannten erweiterten Funktionen des Lernplans zu nutzen, sollte der Administrator die entsprechende Einstellung wie unten beschrieben aktivieren. Sobald diese Option aktiviert ist, stehen alle neuen erweiterten Funktionen von „Lernplan“ zur Verfügung.
 
 Die Seite **[!UICONTROL Einstellungen]** > **[!UICONTROL Allgemein]** verfügt über eine neue Option zum Aktivieren von Lernpfaden. Wenn diese Option aktiviert ist, können Sie Kurse und Lernprogramme in einem Lernplan hinzufügen. Sie können die Option nicht mehr ändern, nachdem sie aktiviert wurde.
 
-<!-- ## Other Learning Path-related details 
+<!--
+ ## Other Learning Path-related details 
 
 ### Learning Path option is disabled/unchecked in Admin Settings
 
@@ -249,4 +250,5 @@ Die Seite **[!UICONTROL Einstellungen]** > **[!UICONTROL Allgemein]** verfügt �
 
 **Reporting**
 
-* Same changes as that of Reporting stated above. -->
+* Same changes as that of Reporting stated above. 
+-->

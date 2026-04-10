@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Manager-Dashboard
 contentowner: kuppan
 exl-id: 32d017bf-ee5a-4749-947d-0d62b32d6f38
-source-git-commit: fc10dcbedf1e91ccff2e0ccbcedb9bf6bbb89c67
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '1499'
-ht-degree: 46%
+source-wordcount: '1507'
+ht-degree: 50%
 
 ---
 
@@ -43,7 +43,7 @@ In der Teamansicht werden die Teams, ihre Mitglieder und ihre jeweiligen Registr
 
 *In der Team-Ansicht werden die Teams, ihre Mitglieder und ihre jeweiligen Registrierungen angezeigt*
 
-Wenn Sie auf die Teamnamen klicken, z. B. &quot;Venkatesh&#39;s Team&quot;, können Sie die Mitglieder im Team von Venkatesh zusammen mit der Gesamtzahl der Registrierungen, Fortschritte und Abschlüsse für ein Lernobjekt anzeigen.
+Durch Klicken auf die Teamnamen, z. B. Venkateshs Team, können Sie die Mitglieder des Venkatesh-Teams sowie die Gesamtzahl der Registrierungen, Fortschritte und Abschlüsse für ein Lernobjekt anzeigen.
 
 ![](assets/ls-click-team-names.png)
 
@@ -139,7 +139,8 @@ Auf diese Weise können Sie den allgemeinen Lernfortschritt Ihres Teams verfolge
 ![](assets/download-report.png)
 _Berichte herunterladen_
 
-<!--On this dashboard, managers can also view the learners who are compliant, in a safe deadline, approaching deadline, and non-compliant for a selected learning object. 
+<!--
+On this dashboard, managers can also view the learners who are compliant, in a safe deadline, approaching deadline, and non-compliant for a selected learning object. 
 
 Learning Objects with completion deadlines can be configured in compliance dashboard for tracking. 
 
@@ -197,7 +198,8 @@ On further clicking the values in the compliant, safe deadline, upcoming deadlin
 
 ![](assets/cs-send-email-andexport.png)
 
-*Export and email data*-->
+*Export and email data*
+-->
 
 ## Team-Kenntnisse {#teamskills}
 
@@ -213,7 +215,7 @@ Diese Prognose basiert auf Systemberechnungen, die einen Ausblick auf den Fortsc
 
 Um den Kenntnisstatus eines Teams anzuzeigen, führen Sie die folgenden Schritte aus:
 
-1. Klicken Sie im linken Teilfenster im Abschnitt &quot;Ansicht &quot;Mein Team&quot; auf **[!UICONTROL Team-Kenntnisse]**.
+1. Klicken Sie im linken Bereich unter „Meine Teamansicht“ auf **[!UICONTROL Team-Kenntnisse]**.
 1. Um die Kenntnisse anzuzeigen, klicken Sie auf den Filter für Kenntnisse und wählen Sie einen aus der Dropdown-Liste aus.
 1. Um eine Ebene auszuwählen (Ebene 1, Ebene 2 oder Ebene 3), klicken Sie auf das Dropdown-Menü der Ebene.
 1. Basierend auf den ausgewählten Kenntnissen und der ausgewählten Ebene wird eine Grafik mit ihrem Kenntnisstatus angezeigt. Wenn Sie mit der Maus über das Diagramm fahren, können Sie die folgenden Prozentsätze des Kenntnisstatus anzeigen: **In Bearbeitung** und **Erreicht**.
@@ -232,13 +234,13 @@ Folgen Sie den nachstehenden Schritten, um den Teamabschluss in % für Kenntniss
 
    *Wählen Sie den Hyperlink &quot;Konfigurieren&quot; aus*
 
-1. Geben Sie im Popup-Dialogfeld &quot;Konfigurieren&quot; für die Kenntnisse, die Sie konfigurieren möchten, einen Prozentwert in das Feld **Zielabschluss %** und das Datum ein, bis zu dem Sie den Zielabschluss % im Feld **Zieldatum** erreichen möchten.**&#x200B;**
+1. Geben Sie im Popup-Dialogfeld &quot;Konfigurieren&quot; für die Kenntnisse, die Sie konfigurieren möchten, einen Prozentwert in das Feld **Zielabschluss %** und das Datum ein, bis zu dem Sie den Zielabschluss % im Feld **Zieldatum** erreichen möchten.****
 
    ![](assets/configure-tracker.png)
 
    *Zielabschlussprozentsatz eingeben*
 
-1. Klicken Sie auf die Schaltfläche **Schätzen**, um die Ausgabe für Ihre Prognose anzuzeigen . Die Ausgabe sieht wie im folgenden Screenshot aus.
+1. Klicken Sie auf die Schaltfläche **Schätzen**, um die Ausgabe für Ihre Prognose anzuzeigen . Die Ausgabe sieht wie der folgende Screenshot aus.
 
    ![](assets/skill-tracker-output.png)
 
@@ -246,7 +248,7 @@ Folgen Sie den nachstehenden Schritten, um den Teamabschluss in % für Kenntniss
 
 ## Prognose für Kenntnisstufenabschluss {#skilllevelcompletionforecast}
 
-Der Manager eines Teams kann den Prozentsatz des Team-Abschlusses von Kenntnissen für einen bestimmten Zeitraum anzeigen und konfigurieren, basierend auf dem Ziel-Abschluss-Prozentsatz und der im Kenntnis-Tracker angegebenen Datumszeit. 
+Der Manager eines Teams kann den Prozentsatz des Team-Abschlusses von Kenntnissen für einen bestimmten Zeitraum anzeigen und konfigurieren, basierend auf dem Ziel-Abschluss-Prozentsatz und der im Kenntnis-Tracker angegebenen Datumszeit.
 
 Im Prognosediagramm gibt es zwei Arten von Linien (durchgezogene und gepunktete Linie) mit jeweils drei Scheitelpunkten.
 

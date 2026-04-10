@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Gamification
 contentowner: manochan
 exl-id: c7871a50-3f7c-46e0-8f9d-afc83b0032d6
-source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '1649'
-ht-degree: 56%
+source-wordcount: '1655'
+ht-degree: 69%
 
 ---
 
@@ -21,9 +21,11 @@ Die Adobe Learning Manager enthält eine Funktion namens Gamification, die entwi
 
 In der Voreinstellung sind einige Gamification-Punkte und -Daten für Benutzer verfügbar, um das Prinzip zu verdeutlichen. Sie können die Punkte entsprechend ändern.
 
-<!--A sample illustration is provided below that shows all the tasks and points.
+<!--
+A sample illustration is provided below that shows all the tasks and points.
 
-![](assets/gamification-feb12-e1439214291423.png)-->
+![](assets/gamification-feb12-e1439214291423.png)
+-->
 
 ## Gamification-Einstellungen {#gamificationsettings}
 
@@ -48,11 +50,11 @@ Administratoren können Gamification-Punkte für Teilnehmer festsetzen, indem si
 
 ## Aufgaben {#tasks}
 
-Es gibt fünf Gamification-Aufgaben für Teilnehmer, für die der Administrator Punkte festlegen kann. Eine Abbildung mit allen Teilnehmeraufgaben und Punkten sehen Sie unten:
+Es gibt fünf Gamification-Aufgaben für Teilnehmer, für die der Administrator Punkte festsetzen kann. Eine Abbildung mit allen Teilnehmeraufgaben und Punkten sehen Sie unten:
 
 >[!NOTE]
 >
->Gamification-Punkte für Teilnehmer innerhalb einer bestimmten Aufgabe werden nicht kumuliert. Aber die Punkte werden dem Teilnehmerkonto kumulativ hinzugefügt, wenn die Teilnehmer diese Punkte über verschiedene Aufgaben hinweg erhalten.
+>Gamification-Punkte für Teilnehmer innerhalb einer bestimmten Aufgabe werden nicht kumuliert. Allerdings werden die Punkte für das Konto des Teilnehmers zusammengezählt, wenn dieser die Punkte in verschiedenen Aufgaben erzielt.
 
 Beim Zuweisen von Punkten und Kursen muss der Administrator sicherstellen, dass die Teilnehmer nach und nach mehr Punkte sammeln können.
 
@@ -75,7 +77,7 @@ Innerhalb einer Aufgabe werden die Punkte für die Teilnehmer nicht kumulativ ve
 
 **Für selbständige Teilnehmer (a)**
 
-Diese Aufgabe ist für Teilnehmer relevant, die sich für die vorgeschriebene Anzahl von Kursen registrieren und diese innerhalb eines Monats/Quartals/Jahres abschließen. In diesem Fall kann der Administrator diese Aufgabe aktivieren, um Punkte zuzuweisen und sie zu ermutigen.
+Diese Aufgabe ist für Teilnehmer relevant, die sich in einem Monat/Quartal/Jahr für die vorgeschriebene Anzahl von Kursen registriert und diese abgeschlossen haben. In diesem Fall kann der Administrator die Aufgabe so einrichten, dass zur Motivation Punkte vergeben werden.
 
 Mögliche Szenarien:
 
@@ -88,12 +90,12 @@ Mögliche Szenarien:
 
 **Für selbständige Teilnehmer (b)**
 
-Diese Aufgabe ist für Teilnehmer relevant, die sich in einem Monat/Quartal/Jahr für mehr als die vorgeschriebene Anzahl von Kursen registriert und diese abgeschlossen haben.  In diesem Fall kann der Administrator die Aufgabe so einrichten, dass zur Motivation Punkte vergeben werden.
+Diese Aufgabe ist für Teilnehmer relevant, die sich in einem Monat/Quartal/Jahr für mehr als die vorgeschriebene Anzahl von Kursen registriert und diese abgeschlossen haben. In diesem Fall kann der Administrator die Aufgabe so einrichten, dass zur Motivation Punkte vergeben werden.
 
 Mögliche Szenarien für die Registrierung von Teilnehmern für Kurse zusätzlich zu den ihnen zugeteilten Kursen:
 
 1. Wenn Teilnehmer sich innerhalb eines Monats/Quartals/Jahres für einen Kurs registrieren, erhalten sie 20 Punkte.
-1. Wenn Teilnehmer sich innerhalb eines Monats/Quartals/Jahres für zwei Kurse registrieren, erhalten sie 100 Punkte.
+1. Wenn die Teilnehmer sich innerhalb eines Monats/Quartals/Jahres für zwei Kurse registrieren, erhalten sie 100 Punkte.
 1. Wenn Teilnehmer sich innerhalb eines Monats/Quartals/Jahres für drei Kurse registrieren, erhalten sie 300 Punkte.
 1. Wenn Teilnehmer sich innerhalb eines Monats/Quartals/Jahres für vier Kurse registrieren, erhalten sie 500 Punkte.
 
@@ -107,10 +109,10 @@ Diese Aufgabe ist für Teilnehmer relevant, die eine bestimmte Anzahl von Kompet
 
 Mögliche Szenarien für Kompetenzverbesserung:
 
-1. Wenn der Teilnehmer eine Kompetenz erlangt, erhält er 100 Punkte.
-1. Wenn ein Teilnehmer zwei Kompetenzen erlangt, erhält er 300 Punkte.
-1. Wenn ein Teilnehmer drei Kompetenzen erhält, erhält er 600 Punkte.
-1. Wenn ein Teilnehmer vier Kompetenzen erreicht, erhält er 900 Punkte.
+1. Wenn die Teilnehmer eine Kompetenz erwerben, erhalten sie 100 Punkte.
+1. Wenn die Teilnehmer zwei Kompetenzen erwerben, erhalten sie 300 Punkte.
+1. Wenn Teilnehmer drei Kompetenzen erwerben, erhalten sie 600 Punkte.
+1. Wenn Teilnehmer vier Kompetenzen erwerben, erhalten sie 900 Punkte.
 
 >[!NOTE]
 >
@@ -122,9 +124,9 @@ Diese Aufgabe ist für die Teilnehmer relevant, die innerhalb einer Kompetenz h�
 
 Mögliche Szenarien zu den Stufen der Kompetenzverbesserung innerhalb einer bestimmten Kompetenz:
 
-1. Wenn die Teilnehmer eine Stufe erreichen, erhalten sie 100 Punkte.
-1. Wenn Teilnehmer zwei Stufen erreichen, erhalten sie 200 Punkte.
-1. Wenn die Teilnehmer drei Stufen erreichen, erhalten sie 500 Punkte.
+1. Wenn die Teilnehmer eine Kompetenzstufe erreichen, erhalten sie 100 Punkte.
+1. Wenn die Teilnehmer zwei höhere Stufen erreichen, erhalten sie 200 Punkte.
+1. Wenn ein Teilnehmer drei höhere Stufen erreichen, erhalten sie 500 Punkte.
 
 >[!NOTE]
 >
@@ -146,7 +148,7 @@ Wenn ein Teilnehmer einer der ersten 10 Teilnehmer wird, die den Kurs abschließ
 
 **Punkte für termingerechten Abschluss**
 
-Diese Aufgabe ist für Teilnehmer relevant, die einen Kurs innerhalb einer festgelegten Anzahl von Tagen nach der Registrierung für den Kurs abschließen.
+Diese Aufgabe ist für die Teilnehmer relevant, die den Kurs innerhalb einer festgelegten Anzahl von Tagen vor dem Fristablauf abschließen.
 
 Mögliche Szenarien:\
 Wenn Teilnehmer einen Kurs innerhalb von 10 Tagen nach Kursbeginn abschließen, erhalten sie 100 Punkte.
@@ -214,7 +216,7 @@ Vertraulichkeitseinstellungen können für interne und externe Benutzer angewend
 
 Sie können die vom Teilnehmer gesammelten Gamification-Punkte und sowie die Konfigurationseinstellungen zurücksetzen. Wenn Sie die Punktzahlen der Benutzer zurücksetzen, werden alle Punkte, die von Benutzern gesammelt wurden, gelöscht und auf Null zurückgesetzt. Wenn Sie Benutzerpunktzahlen und Konfigurationseinstellungen zurücksetzen, werden alle Punkte, die standardmäßig den Stufen und Aufgaben zugewiesen waren, auf Null zurückgesetzt.
 
-Die Einstellungen zum Zurücksetzen der Gamification können sowohl für interne als auch für externe Benutzer angewendet werden.
+„Gamification-Einstellungen zurücksetzen“ kann für interne und externe Benutzer angewendet werden.
 
 Um die Teilnehmerpunktzahl und Konfiguration zurückzusetzen, klicken Sie auf „Gamification zurücksetzen“ gemäß Ihren Anforderungen auf eine Option. Sie können zwischen „Nur Teilnehmerpunktzahl“ und „Teilnehmerpunktzahlzurücksetzen“ und „Konfigurationseinstellungen“ wählen. Nachdem Sie gewählt haben, klicken Sie auf „OK“.
 
@@ -245,7 +247,7 @@ Administratoren können den Umfang der Gamification definieren, indem sie die Be
 
 1. Klicken Sie auf die Option **[!UICONTROL Bereichseinstellungen aktivieren]**.
 
-1. Wählen Sie das Benutzermerkmal aus der Dropdownliste aus.
+1. Wählen Sie das Benutzer-Merkmal aus der Dropdownliste.
 
    <!--![](assets/user-charecteristic.png)-->
 

@@ -4,9 +4,9 @@ title: Inhalts-Marketplace
 description: Inhaltsbibliothek bietet jetzt den Inhalts-Marketplace an, auf dem Sie Schulungen durchsuchen und erwerben können. Lernen Sie mehr als 70.000 Kurse kennen, die eine Vielzahl von Themen abdecken und in mehreren Formaten verfügbar sind. Wählen Sie aus kuratierten Wiedergabelisten, die eine Vielzahl von Rollen abdecken sowie Ihre Lern- und Weiterbildungsanforderungen erfüllen.
 contentowner: saghosh
 exl-id: 023593d9-06c9-4b91-bbbd-e8ec595b6d60
-source-git-commit: 85eeebb33a67bf5528c88b26941345e00e98e0d3
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '687'
 ht-degree: 10%
 
 ---
@@ -26,7 +26,8 @@ Der Inhalts-Marketplace bietet die folgenden Abos für das Erwerben von Inhalten
 | Inhalte von mehr als 250 Anbietern | Enthält alle Premium Essentials-Inhalte |
 | Exklusive Inhalte von vertrauenswürdigen Anbietern wie:<li>EasyLama</li><li>Skillshub</li><li>Thomson Reuters</li><li>Emtrain</li><li>Harvard ManageMentor</li> | Exklusive Kurse von führenden Anbietern wie: <li>Blinkist</li><li>Pluralsight</li>Skillsoft</li><li>Traliant</li><li>Coursera</li> |
 
-<!--**[!UICONTROL Premium Essentials]**:
+<!--
+**[!UICONTROL Premium Essentials]**:
 A cost-effective solution designed to enhance employee engagement. 
 
 * Access to over 90,000 courses
@@ -50,7 +51,8 @@ A cost-effective solution designed to enhance employee engagement.
    * Traliant
    * Coursera
 
-Select the plan that best meets your organization's learning goals and budget.-->
+Select the plan that best meets your organization's learning goals and budget.
+-->
 
 ## Inhalte von Anbietern abrufen
 
@@ -65,7 +67,8 @@ Führen Sie die folgenden Schritte aus, um Inhalte von Inhaltsanbietern zu suche
 
 Inhaltsanbieter verwalten die Entfernung veralteter Inhalte und stellen sicher, dass kein Lernmaterial ohne vorherige Ankündigung eingestellt wird.
 
-<!--Learning Manager now offers Content Marketplace for you to explore and purchase trainings. Explore 70,000+ courses that cover a wide range of topics, available in multiple formats. Choose from curated playlists that cater to a vast variety of roles and meet your learning and upskilling needs.
+<!--
+Learning Manager now offers Content Marketplace for you to explore and purchase trainings. Explore 70,000+ courses that cover a wide range of topics, available in multiple formats. Choose from curated playlists that cater to a vast variety of roles and meet your learning and upskilling needs.
 
 In the Administrator app, there is a new option **[!UICONTROL Content Marketplace]**, which you'll find on the left panel.
 
@@ -73,7 +76,8 @@ Users can purchase from curated playlists covering various topics or purchase th
 
 On the page, you can see two tiles, Enterprise Training and Creative Cloud Training. The first tile launches the marketplace, using which you can acquire courses for your learners. The latter launches the content catalog.
 
-The Enterprise Training page in the Administrator app enables you to invite users and download the Express Interest report, and also purchase the entire catalog or curated playlist.-->
+The Enterprise Training page in the Administrator app enables you to invite users and download the Express Interest report, and also purchase the entire catalog or curated playlist.
+-->
 
 ## Angebot anfordern
 
@@ -109,7 +113,8 @@ _Benutzer einladen, auf den Materialien-Hub zuzugreifen_
 
 Diese Option ist standardmäßig für alle neuen Konten aktiviert. Bei vorhandenen Konten müssen Administratoren die Teilnehmer manuell einladen, auf den Inhalts-Marketplace zuzugreifen.
 
-<!--## Purchase
+<!--
+## Purchase
 
 You get unlimited access to the entire library of courses. Click the **[!UICONTROL Purchase]** button to download a Purchase Request form.
 
@@ -133,15 +138,18 @@ Once the courses are added to the catalog, the Administrator can then grant acce
 
 ![](assets/licenses.png)
 
-*Grant access to training to users and user groups*-->
+*Grant access to training to users and user groups*
+-->
 
-<!--## Express interest report
+<!--
+## Express interest report
 
 When a learner clicks Express interest to Catalog in the Learner app, the interest is recorded in an Express interest report. The Administrator can download the report. The report (csv) contains the following fields:
 
 * Name of the catalog
 * Number of users expressing interest
-* Email of the user expressing interest-->
+* Email of the user expressing interest
+-->
 
 ## Materialien-Hub
 
@@ -159,12 +167,15 @@ Es gibt drei E-Mail-Vorlagen, die Sie verwenden können:
 2. **[!UICONTROL Fehler beim automatischen Benutzerupload]:** Wird ausgelöst, wenn ein automatisierter Benutzerimport über CSV fehlschlägt. Diese Warnung hilft Administratoren dabei, Probleme in geplanten Benutzeraktualisierungen schnell zu erkennen, sodass Korrekturmaßnahmen ergriffen werden können.
 3. **[!UICONTROL Benutzer einladen, Inhalte zu entdecken]:** Eine Einladungs-E-Mail, die an Teilnehmer gesendet wird, sobald der Administrator Inhalte vom Marketplace erwirbt. Danach können Benutzer sofort mit dem Lernen beginnen.
 
-<!--Purchased courses cannot be added in recurring certificates.
+<!--
+Purchased courses cannot be added in recurring certificates.
 Purchased courses cannot be shared to peer accounts.
 Purchased courses can be consumed by all users who get access to it. Configure the catalog visibility to restrict the visibility of purchased courses to limited users.
-Purchased courses cannot be consumed once the activation key expires. Please purchase/activate another key to allow consumption.-->
+Purchased courses cannot be consumed once the activation key expires. Please purchase/activate another key to allow consumption.
+-->
 
-<!--## Content Hub in Content Marketplace
+<!--
+## Content Hub in Content Marketplace
 
 Content Hub allows Administrators and Subject Matter Experts (SMEs) to shortlist required playlists from learner app. Once shortlisted, Admins can download the Purchase Request Form and share it with the Adobe Sales agent.
 
@@ -190,4 +201,5 @@ Then as Administrator, click **[!UICONTROL Content Marketplace]** > **[!UICONTRO
 
 *Download the Purchase Request form*
 
-The courses and Playlist which you see in the Content Hub are the same as what you see in the Content Marketplace. Content Hub simply provides an ability for Administrators and limited SMEs to shortlist playlist easily for purchase.-->
+The courses and Playlist which you see in the Content Hub are the same as what you see in the Content Marketplace. Content Hub simply provides an ability for Administrators and limited SMEs to shortlist playlist easily for purchase.
+-->

@@ -2,10 +2,10 @@
 title: Empfehlungen in Adobe Learning Manager
 description: Der Kern der Empfehlungs-Engine basiert auf dem neuen Kurs-Ranking-Algorithmus von Learning Manager. Der Algorithmus verwendet 50 Millionen Datenpunkte und fünf Jahre aggregierter Lerndaten über Millionen von Benutzern, um Kurse basierend auf ihrer Wahrscheinlichkeit einer Registrierung zu bewerten. Diese Einstufung stellt sicher, dass die Kurse mit den meisten Registrierungen den Teilnehmenden als erste angezeigt werden.
 exl-id: 42083095-60a0-4e20-9097-3344d290da1a
-source-git-commit: 4f2892f762440e87286e8895cedfd5bea51f726b
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '1483'
-ht-degree: 57%
+source-wordcount: '1490'
+ht-degree: 58%
 
 ---
 
@@ -64,12 +64,14 @@ Administratoren erhalten in Learning Manager einen geführten Arbeitsablauf, mit
 
 1. Klicken Sie auf **[!UICONTROL Fortfahren]**, um auf das neue Empfehlungssystem zu aktualisieren.
 
-   <!--![Proceed to the new system](assets/image521152.png)
-   *Select the Proceed button*-->
+   <!--
+   ![Proceed to the new system](assets/image521152.png)
+   *Select the Proceed button*
+   -->
 
 1. Erstellen Sie die Empfehlungsparameter für Produkte und Rollen.
 
-   ![Parameter erstellen](assets/image43406.png)
+   ![Erstellen der Parameter](assets/image43406.png)
    *Parameter für Empfehlung erstellen*
 
 1. Klicken Sie auf **[!UICONTROL Weitere Werte hinzufügen]**.
@@ -128,7 +130,7 @@ Im Folgenden finden Sie ein Beispiel für Datensätze in der CSV-Datei:
 
 **RecLO.csv**
 
-* Schulung
+* Schulungen
 * Schulungstyp
 * Schulungsname
 * Produkte
@@ -177,7 +179,7 @@ Administratoren können einen Parameter löschen, indem sie auf das Symbol mit d
 
 Auf der Einstellungsseite eines Kurses werden die Empfehlungen für Produkte und Rollen aufgeführt. Teilnehmenden wird dieser Kurs empfohlen, wenn sie Interesse an diesen Produkten und Rollen gezeigt haben.
 
-![Bild einstellen](assets/course-settings-image.png)
+Bild ![einstellen](assets/course-settings-image.png)
 *Seite mit Kurseinstellungen*
 
 ## Teilnehmendenansicht
@@ -202,7 +204,7 @@ Nachdem Teilnehmende im linken Bereich „Empfehlungen“ ausgewählt haben, wir
 
 Durch Klicken auf &quot;Empfehlungen einrichten&quot; gelangen die Teilnehmenden zum Popup für die Produktauswahl.
 
-![Popup zur Produktauswahl](assets/product-selection-popup.png)
+Popup für ![Produktauswahl](assets/product-selection-popup.png)
 *Produkte auswählen*
 
 Im nächsten Popup können die Teilnehmenden die Rolle auswählen.
@@ -224,7 +226,7 @@ Teilnehmende können die folgenden Streifen in der App sehen:
 * „Von mir gespeichert“-Streifen
 * „Super relevant„-Streifen
 * Produktstreifen – 1
-* Produktstreifen – 2
+* Produktstreifen - 2
 * Erkennungsstreifen
 * „Vom Administrator empfohlen“-Streifen
 * „Nach Katalogstreifen durchsuchen“-Streifen
@@ -247,7 +249,7 @@ Es gibt keine Fortschrittsleiste auf der Karte, nachdem Teilnehmende den Kurs ge
 
 ### Karten auf superrelevantem Streifen
 
-![super relevante Streifenkarten](assets/super-relevant-cards.png)
+![superrelevante Streifenkarten](assets/super-relevant-cards.png)
 *Relevante Karten*
 
 Jede Karte verfügt über die Schaltflächen „Bewertung“, „Kartenbild“, „Titel“, „Kenntnisse“, „Veröffentlichungsdatum“, „Autor“, „Dauer“, „Fortschrittsleiste“ und „Start“ oder „Entdecken“ oder „Fortfahren“ oder „Erneut aufrufen“.

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Kurse erstellen, ändern und veröffentlichen
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '7540'
-ht-degree: 69%
+source-wordcount: '7631'
+ht-degree: 75%
 
 ---
 
@@ -45,7 +45,7 @@ Um einen Kurs zu erstellen, führen Sie die unten genannten Schritte aus:
    * **Vom Manager genehmigt:** Manager genehmigen diese Kurse. Teilnehmer können sich für diese Kurse anmelden, aber sie werden für diese Art von Kursen nicht direkt registriert, ohne dass dies von einem Manager genehmigt wurde. Wenn sich Teilnehmer für Kurse dieser Art anmelden, erhält der Manager eine Benachrichtigung. Nach Genehmigung des Managers werden diese Kurse für die Teilnehmer als registriert angeführt.
    * **Selbstregistrierung:** Teilnehmer können sich für diese Kurse selbst direkt registrieren.
 
-1. Um die Änderungen zu speichern, klicken Sie auf **[!UICONTROL Speichern]**. Klicken Sie zum Veröffentlichen des Kurses auf **[!UICONTROL Publish]**.
+1. Um die Änderungen zu speichern, klicken Sie auf **[!UICONTROL Speichern]**. Klicken Sie zum Veröffentlichen des Kurses auf **[!UICONTROL Veröffentlichen]**.
 
 ## Kurs erstellen - Erweiterter Arbeitsablauf {#createacourseadvancedworkflow}
 
@@ -95,16 +95,16 @@ Um einen Kurs zu erstellen, führen Sie die unten genannten Schritte aus:
 
 1. **Mehrere Registrierungen**
 
-   Auf diese Weise können Sie Teilnehmer in mehr als einer Kursinstanz zu einem oder verschiedenen Zeitpunkten registrieren.
+   Auf diese Weise können Sie Teilnehmende in mehr als einer Kursinstanz zu einem oder verschiedenen Zeiträumen registrieren.
 
    Aktivieren Sie den Schalter **Mehrere Registrierungen**, um zwischen verschiedenen Kursregistrierungen eines Teilnehmers zu wechseln. Wenn Sie den Instanzwechsel aktiviert haben, können Sie nicht die Mehrfachregistrierung verwenden.
 
 1. Wählen Sie die Voraussetzungskurse, die der Teilnehmer absolviert haben muss, bevor er an Ihrem Kurs teilnehmen kann. Klicken Sie auf das Feld „Kurse“ und wählen Sie die entsprechenden Kurse aus der Kursliste.
-1. Aktivieren Sie das Kontrollkästchen **Aktivieren** **Voraussetzungen**, wenn die erforderlichen Kurse für mich obligatorisch sein sollen.
+1. Aktivieren Sie das Kontrollkästchen **Voraussetzungen** **aktivieren**, wenn die erforderlichen Kurse für mich obligatorisch sein sollen.
 1. Fügen Sie Schlüsselwörter für Ihren Kurs als Tags hinzu. Diese Tags helfen den Teilnehmern, Ihren Kurs leichter zu finden. Alle diese Tags werden basierend auf den von uns hinzugefügten Modulen automatisch hinzugefügt. Wenn Sie weitere Tags haben, die Sie zu diesem Kurs hinzufügen möchten, können Sie diese eingeben.
 1. Fügen Sie Schlüsselwörter für Ihren Kurs als Tags hinzu. Diese Tags helfen den Teilnehmern, Ihren Kurs leichter zu finden. Alle diese Tags werden basierend auf den von uns hinzugefügten Modulen automatisch hinzugefügt. Wenn Sie weitere Tags haben, die Sie zu diesem Kurs hinzufügen möchten, können Sie diese eingeben.
 1. Wählen Sie im Feld &quot;Automatische Einstellung&quot; ein Datum aus, an dem der Kurs eingestellt wird. Die/der Administrator(in) muss zuerst die Option &quot;Automatisch einstellen&quot; aktivieren.
-1. Um die Änderungen zu speichern, klicken Sie auf **[!UICONTROL Speichern]**. Klicken Sie zum Veröffentlichen des Kurses auf **[!UICONTROL Publish]**.
+1. Um die Änderungen zu speichern, klicken Sie auf **[!UICONTROL Speichern]**. Klicken Sie zum Veröffentlichen des Kurses auf **[!UICONTROL Veröffentlichen]**.
 
 ### Hinzufügen von Compliance-Labels zum Kurs/Lernpfad/zur Zertifizierung {#add-custom-compliance-label}
 
@@ -179,9 +179,9 @@ Im Abschnitt **[!UICONTROL Ressourcen]** zeigt das Kontrollkästchen &quot;Auf L
 
 ## Planungs-Assistent
 
-Zur Bewältigung von Konflikten bei der Buchung von Kursleiter(inne)n und Klassenzimmern. Wenn Sie wissen möchten, zu welcher Zeit und zu welchem Datum ein Kursleiter verfügbar ist, bevor Sie ihn dem Kurs zuweisen, verwenden Sie den Scheduling Assistant.
+Zur Bewältigung von Konflikten bei der Buchung von Kursleiter(inne)n und Klassenzimmern. Wenn Sie wissen möchten, wann Kursleiter(innen) verfügbar sind, bevor Sie ihnen den Kurs zuweisen, verwenden Sie den Planungs-Assistenten.
 
-Klicken Sie beim Erstellen eines Kurses für einen VC- oder CR-Kurs auf &quot;Planungsassistent&quot;.
+Klicken Sie beim Erstellen eines Kurses für einen VC- oder CR-Kurs auf &quot;Planungs-Assistent&quot;.
 
 ![Planungsassistent auswählen](assets/scheduling-assistant.png)
 
@@ -216,11 +216,11 @@ Es können mehrere Kursleiter(innen) ausgewählt werden, aber nur jeweils ein(e)
 
 Nach Kursleiter(inne)n mit einzelnen oder mehreren Kenntnissen suchen. Für die Suche wird der Operator AND verwendet.
 
-Kenntnisse können nur nach einem Teil oder dem vollständigen Kenntnisnamen durchsucht werden, nicht nach Kenntnisstufen.
+Kenntnisse können nur nach einem Teil des Namens oder dem vollständigen Namen der Kenntnis gesucht werden, nicht nach der Kenntnisstufe.
 
 Geben Sie im Assistenten den Kursleiter(innen)namen, den Standort und die maximale Anzahl der Lizenzen ein.
 
-Sie können auch nach Kenntnissen suchen, die angezeigt werden, nachdem Sie auf das Filtersymbol rechts neben dem Suchfeld für Kursleiter geklickt haben. Der folgende Screenshot zeigt die Schaltfläche an.
+Sie können auch nach Kenntnissen suchen, die angezeigt werden, nachdem Sie auf das Filtersymbol rechts neben dem Suchfeld für Kursleiter(innen) geklickt haben. Der folgende Screenshot zeigt die Schaltfläche an.
 
 ![Kenntnisse für Kursleiter eingeben](assets/scheduling-assistant-instructor-skill.png)
 
@@ -256,7 +256,7 @@ Sie können nach einem Speicherort suchen, indem Sie sowohl auf der Seite mit de
 
 Beim Erstellen eines Kurses, eines Lernprogramms, einer Zertifizierung oder Arbeitshilfe können Autoren verschiedene Inhaltstypen wie Text, Bild oder verschiedene Textformatierungsoptionen eingeben.
 
-Beim Erstellen eines Kurses wird der Rich-Text-Editor im Feld &quot;Kursübersicht&quot; angezeigt. Sie können Ihre Inhalte formatieren, Bilder und Hyperlinks hinzufügen usw.
+Beim Erstellen eines Kurses wird der Rich-Text-Editor im Feld „Kursübersicht“ angezeigt. Sie können Ihre Inhalte formatieren, Bilder und Hyperlinks hinzufügen und vieles mehr.
 
 ![](assets/rich-text-editor-author.png)
 
@@ -437,7 +437,7 @@ Führen Sie die folgenden Schritte aus, um ein Inhaltsmodul hinzuzufügen:
 
    *VC-Modul hinzufügen*
 
-   Wenn Sie einen Kurs mithilfe des Konfigurationsdialogfelds &quot;Virtuelles Klassenzimmer&quot; erstellen, stellen Sie das **Konferenzsystem** auf die von Ihnen erstellte Teams-Verbindung ein. Wählen Sie aus, ob Sie einen Meetingorganisator für die Veranstaltung wünschen.
+   Wenn Sie einen Kurs mithilfe des Konfigurationsdialogfelds &amp;quot;Virtuelles Klassenzimmer&amp;quot; erstellen, stellen Sie das **Konferenzsystem** auf die von Ihnen erstellte Teams-Verbindung ein. Wählen Sie aus, ob Sie einen Meetingorganisator für die Veranstaltung wünschen.
 
    Wenn Sie **Ja** für einen Meetingveranstalter auswählen, müssen Sie den Namen des Veranstalters eingeben. Geben Sie den Namen ein und wählen Sie den Organisator aus.
 
@@ -454,16 +454,16 @@ Führen Sie die folgenden Schritte aus, um ein Inhaltsmodul hinzuzufügen:
 
    *Klassenzimmermodul hinzufügen*
 
-   Legen Sie beim Erstellen eines Kurses im Dialogfeld &quot;Konfiguration des virtuellen Klassenzimmers&quot; das Konferenzsystem auf die Verbindung fest, die Sie mit den Microsoft Teams erstellt haben. Wählen Sie aus, ob Sie einen Meetingorganisator für die Veranstaltung wünschen.
+   Wenn Sie einen Kurs mithilfe des Konfigurationsdialogfelds „Virtuelles Klassenzimmer“ erstellen, stellen Sie das Konferenzsystem auf die von Ihnen erstellte Microsoft Teams-Verbindung ein. Wählen Sie aus, ob Sie einen Meetingorganisator für die Veranstaltung wünschen.
 
-   Wenn Sie für einen Meetingveranstalter &quot;Ja&quot; auswählen, müssen Sie den Namen des Veranstalters eingeben. Geben Sie den Namen des Organisators ein und wählen Sie den Organisator aus.
+   Wenn Sie „Ja“ für einen Meetingorganisator wählen, müssen Sie den Namen des Organisators eingeben. Geben Sie den Namen des Organisators ein und wählen Sie den Organisator aus.
 
    **Lobby umgehen**
 
-   * Wenn Sie &quot;Ja&quot; auswählen, kann jeder Teilnehmer am Meeting teilnehmen.
-   * Wenn Sie &quot;Nein&quot; auswählen, wird eine Anfrage an den Organisator gesendet, damit der Teilnehmer an dem Meeting teilnehmen kann.
+   * Wenn Sie „Ja“ wählen, können alle Teilnehmer am Meeting teilnehmen.
+   * Wenn Sie „Nein“ wählen, wird eine Anfrage an den Organisator gesendet, dem Teilnehmer die Teilnahme am Meeting zu erlauben oder zu verweigern.
 
-   **Hinweis:** Wenn ein Teilnehmer als Gast an Microsoft Teams teilnehmen möchte, muss er die E-Mail-Adresse eingeben. Die E-Mail muss im Lern-Manager vorhanden sein.
+   **Hinweis:** Wenn ein Teilnehmer als Gast an Microsoft Teams teilnehmen möchte, muss er/sie die E-Mail-Adresse eingeben. Die E-Mail muss in Learning Manager vorhanden sein.
 
    **Aktivitätsmodul:** In diesem Modus müssen die Teilnehmer eine Reihe von Aktivitäten absolvieren, z. B. Workshops, Übungen, Fragebögen und andere Lernaktivitäten. Geben Sie den Titel, die Beschreibung und die externe URL als Referenz ein. Um die Änderungen zu speichern, klicken Sie auf **[!UICONTROL Fertig]**.
 
@@ -471,7 +471,7 @@ Führen Sie die folgenden Schritte aus, um ein Inhaltsmodul hinzuzufügen:
 
    *Ein Aktivitätsmodul hinzufügen*
 
-   Sie können die Dauer beim Hinzufügen eines Aktivitätsmoduls in einem Kurs für den Aktivitätstyp &quot;Dateiübermittlung&quot; und xAPI-basierte Module angeben.
+   Sie können die Dauer beim Hinzufügen eines Aktivitätsmoduls in einem Kurs für den Aktivitätstyp „Dateiübermittlung“ und xAPI-basierte Module angeben.
 
 1. Fügen Sie auf ähnliche Weise Module für den Prework- und Test-Modus hinzu.
 1. Wählen Sie nach Bedarf den gewünschten Abfolgetyp für Module, d. h. sortiert oder unsortiert.
@@ -533,7 +533,7 @@ Nehmen wir an, Ladenangestellte oder Lagerarbeiter unterliegen bei ihrer tagtäg
 
 ### Erstellen einer Checkliste {#createachecklist}
 
-Nur ein Autor kann eine Checkliste erstellen. Eine Checkliste ist ein Aktivitätsmodultyp. Beim Einrichten eines Aktivitätsmoduls können Sie als Autor eine Aktivität als **Checkliste** auswählen, wie unten dargestellt:
+Nur ein Autor kann eine Checkliste erstellen. Eine Checkliste ist ein Aktivitätsmodultyp. Beim Einrichten eines Aktivitätsmoduls können Sie als Autor eine Aktivität wie unten dargestellt als **Checkliste** auswählen:
 
 ![](assets/checklist-option.png)
 
@@ -632,7 +632,7 @@ So können Kursleiter den Erfolg des Teilnehmers markieren:
 6. Geben Sie die erforderlichen Details ein und wählen Sie die Daten aus.
 7. Wählen Sie die Option **[!UICONTROL Kursleiter darf Erfolg markieren]** aus.
 
-   ![Der Kursleiter darf den Erfolg markieren? Das Kontrollkästchen ist hervorgehoben, sodass Autoren die Möglichkeit haben, dass Kursleiter den Teilnehmererfolgsstatus für ein Modul aufzeichnen können](/help/migrated/authors/feature-summary/assets/allow-instructor-mark-success.png)
+   ![Der Kursleiter darf den Erfolg markieren? Das Kontrollkästchen ist hervorgehoben, sodass Autoren die Möglichkeit haben, dass Kursleiter den Erfolgsstatus eines Teilnehmers für ein Modul aufzeichnen](/help/migrated/authors/feature-summary/assets/allow-instructor-mark-success.png)
    _Bildschirm &quot;Sitzungsdetails&quot;, in dem die Option &quot;Der Kursleiter darf den Erfolg markieren&quot; für die Module &quot;Klassenzimmer&quot; oder &quot;Virtuelles Klassenzimmer&quot; markiert ist_
 
 8. Wählen Sie **[!UICONTROL Fertig]**.
@@ -707,7 +707,7 @@ Ein typischer Lebenszyklus von Kursen sieht wie folgt aus:
 * **Entwurf** - Wenn ein Autor einen Kurs fertig erstellt und gespeichert hat. In diesem Status ist der Kurs für Teilnehmer noch nicht verfügbar.
 * **Veröffentlicht** - Wenn ein Autor einen Kurs veröffentlicht hat. In diesem Status ist der Kurs für Teilnehmer verfügbar. Sie können sich für einen solchen Kurs registrieren. Sie können außerdem einen Kurs in diesem Status bearbeiten.
 * **Eingestellt** - Nach der Veröffentlichung kann ein Autor den Kurs wieder einstellen, wenn der Autor nicht möchte, dass der Kurs im Kurskatalog für Teilnehmer angezeigt wird.
-* **Gelöscht** - Ein Kurs hat den Status &quot;Gelöscht&quot;, wenn er vollständig aus der Adobe Learning Manager-Anwendung entfernt wurde. Kurse können nur von Autoren gelöscht werden, wenn sie im Status &quot;Entwurf&quot; oder &quot;Eingestellt&quot; sind.
+* **Gelöscht** - Ein Kurs hat den Status &quot;Gelöscht&quot;, wenn er vollständig aus der Adobe Learning Manager-Anwendung entfernt wurde. Kurse können nur von Autoren gelöscht werden, wenn sie im Status „Entwurf“ oder „Eingestellt“ sind.
 
 ![](assets/typical-course-lifecycle.png)
 
@@ -788,7 +788,7 @@ Um Teilnehmer für die Kurse anzumelden oder den Managern die Nominierung von Te
 Um in den Admin-Modus zu wechseln,
 
 1. klicken Sie auf Ihr Profilbild und wählen Sie dann „Administrator“.
-1. Klicken Sie im Admin-Modus im linken Teilfenster auf **[!UICONTROL Kurse]**. Auf dieser Seite können Sie alle Kurse anzeigen, die von allen Autoren in Ihrem Learning Manager-Konto erstellt wurden.
+1. Klicken Sie im Admin-Modus im linken Teilfenster auf **[!UICONTROL Kurse]**. Auf dieser Seite sehen Sie alle Kurse, die von allen Autoren in Ihrem Learning Manager-Konto erstellt wurden.
 1. Bewegen Sie den Mauszeiger über die Kurskarte, um die Teilnehmer zu registrieren. Die Option **Teilnehmer registrieren** wird angezeigt. Klicken Sie auf diese Option.
 
    ![](assets/enroll-learners.png)
@@ -801,7 +801,7 @@ Um in den Admin-Modus zu wechseln,
 
    *Standardinstanz eines Kurses anzeigen*
 
-1. Beginnen Sie, den Namen eines Teilnehmers in das Feld „Teilnehmer einbeziehen“ einzugeben, und wählen Sie einen Teilnehmer aus. Sie können hier auch Benutzergruppen hinzufügen. Wenn Sie alle Teilnehmer in Ihrem Learning Manager-Konto registrieren möchten, beginnen Sie mit der Eingabe aller Teilnehmer. Sie können auch Teilnehmer für ein Team registrieren.
+1. Beginnen Sie, den Namen eines Teilnehmers in das Feld „Teilnehmer einbeziehen“ einzugeben, und wählen Sie einen Teilnehmer aus. Sie können hier auch Benutzergruppen hinzufügen. Wenn Sie alle Teilnehmenden für Ihr Learning Manager-Konto registrieren möchten, geben Sie „Alle“ ein. Sie können auch Teilnehmer für ein Team registrieren.
 
    ![](assets/include-learners.png)
 
@@ -831,8 +831,10 @@ Eine dauerhafte URL ändert sich nicht. Für Benutzer ohne Connect und eigenen M
 
 Sie können jetzt die URL des dauerhaften Raums auf der Seite **Kursinstanz** ändern.
 
-<!--| ![](assets/persistentroomdropdown.png) | ![](assets/courseinstancepage-persistentroom.png) |
-|---|---|-->
+<!--
+| ![](assets/persistentroomdropdown.png) | ![](assets/courseinstancepage-persistentroom.png) |
+|---|---|
+-->
 
 ## Registrierung für die Teilnehmer von Kurs aufheben {#unenrolllearnersfromacourse}
 
@@ -855,7 +857,7 @@ Sie können in Learning Manager mit den Menüoptionen „Veröffentlichen“ Kur
 1. Melden Sie sich mit Adobe-Anmeldeinformationen an. Wenn Sie noch keine Adobe ID haben, klicken Sie auf **[!UICONTROL Konto erstellen]**. Nach der Autorisierung werden Sie zur Seite für die Veröffentlichung von Modulen weitergeleitet.
 1. Geben Sie alle Basisinformationen über das Modul ein und klicken Sie auf „Veröffentlichen“.
 
-Sie sehen das veröffentlichte Modul auf der Modulseite von Learning Manager. Weitere Informationen finden Sie unter [Projekt in Adobe Learning Manager veröffentlichen](https://helpx.adobe.com/de/captivate/classic/publish-project-to-captivate-prime.html).
+Sie sehen das veröffentlichte Modul auf der Modulseite von Learning Manager. Weitere Informationen finden Sie unter [Projekt in Adobe Learning Manager veröffentlichen](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html).
 
 ## Kurseffektivität {#courseeffectiveness}
 
@@ -981,7 +983,7 @@ Beim Erstellen eines Kurses können Sie dem Kurs Video-, Audio-, PDF- oder Textd
 
 +++Wie kann ich mehrere Versuche für ein Modul festlegen?
 
-**Voraussetzung:** Der Administrator muss die Option **Mehrere Versuche** in **Einstellungen > Allgemein** in der Admin-App aktivieren.
+**Voraussetzung:** Der Administrator muss in der Admin-App die Option **Mehrere Versuche** in **Einstellungen > Allgemein** aktivieren.
 
 Als Autor aktivieren Sie auf der Seite „Kursübersicht“ die Option **Mehrere Versuche zulassen**.
 
@@ -991,6 +993,6 @@ Weitere Informationen finden Sie im [Abschnitt zu mehreren Versuchen](courses.m
 
 +++Können Sie den Inhalt herunterladen, der auf Adobe Learning Manager hochgeladen wurden, um ihn zu ändern?
 
-Nein, der auf den Learning Manager hochgeladene Inhalt ist eine veröffentlichte ZIP-Datei und nicht die Quelldatei. Daher kann der Inhalt auch dann nicht in einem Authoring-Tool bearbeitet werden, wenn er heruntergeladen wird. Sie benötigen eine Quelldatei, um den Inhalt zu bearbeiten.
+Nein, der auf Learning Manager hochgeladene Inhalt ist eine veröffentlichte ZIP-Datei und nicht die Quelldatei. Daher kann der Inhalt auch dann nicht in einem Authoring-Tool bearbeitet werden, wenn er heruntergeladen wird. Sie benötigen eine Quelldatei, um den Inhalt zu bearbeiten.
 
 +++

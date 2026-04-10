@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Benutzer bereinigen
 contentowner: dvenkate
 exl-id: 4449146c-6247-44fb-b695-a12023c31dc6
-source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '1135'
-ht-degree: 52%
+source-wordcount: '1143'
+ht-degree: 57%
 
 ---
 
@@ -27,13 +27,15 @@ Das Bereinigen eines Benutzers kann diese Folgen haben:
 * Durch das Bereinigen eines Benutzers in Learning Manager wird der Benutzer nicht in externen Anwendungen (von Drittanbietern oder anderen von Ihnen geschriebenen Anwendungen) entfernt. Wenden Sie sich an die Eigentümer der externen Anwendung, um die Benutzer daraus zu entfernen.
 * Wenn ein bereinigter Benutzer in den Konfigurationseinstellungen eines Connectors referenziert wird, wird der Connector deaktiviert. Der Connector muss vom Administrator neu konfiguriert werden, um fortzufahren.
 
-<!---### Manage users
+<!--
+### Manage users
 
 In this training, you will learn how to assign and remove roles, send a welcome email, and delete and purge users. 
 
 [![button](assets/launch-training-button.png)](https://learningmanager.adobe.com/app/learner?accountId=98632&sdid=4X3B8VJ2&mv=display&mv2=display#/course/7555586)
 
-If you're unable to launch the training, write to <almacademy@adobe.com>.-->
+If you're unable to launch the training, write to <almacademy@adobe.com>.
+-->
 
 ## Benutzer bereinigen
 
@@ -63,7 +65,7 @@ Führen Sie die folgenden Schritte aus, um Benutzer zu bereinigen:
 
 >[!NOTE]
 >
->Sobald der gelöschte Benutzer wieder zum System hinzugefügt wurde, werden die vorherigen Rollen (z. B. Administrator, Manager, Autor, Kursleiter usw.) nicht beibehalten. Sie werden mit der Teilnehmerrolle hinzugefügt.
+>Sobald der gelöschte Benutzer wieder zum System hinzugefügt wurde, werden die vorherigen Rollen (z. B. Administrator, Manager, Autor, Kursleiter usw.) wird nicht gespeichert.Sie werden mit der Teilnehmerrolle hinzugefügt.
 
 ## Massenbereinigung von Benutzern
 
@@ -116,7 +118,7 @@ Sie können die gefilterten Benutzer nach ihrer **[!UICONTROL eindeutigen Benutz
 >
 >Durch das Bereinigen von Benutzern werden ihre Daten dauerhaft entfernt. Überprüfen Sie die Auswahl noch einmal, bevor Sie fortfahren.
 
-+++Informationen zu den Ergebnissen der Aktion &quot;Benutzer bereinigen&quot;
++++Informationen zu den Ergebnissen der Aktion „Benutzer bereinigen“
 
 <table>
  <tbody>
@@ -145,7 +147,7 @@ Sie können die gefilterten Benutzer nach ihrer **[!UICONTROL eindeutigen Benutz
    <td>Ja</td>
   </tr>
   <tr>
-   <td><strong>Bereinigung über die Lern-Manager-Benutzeroberfläche - keine Unternehmen</strong></td>
+   <td><strong>Bereinigen über die Learning Manager-Benutzeroberfläche – unternehmensextern</strong></td>
    <td> </td>
   </tr>
   <tr>
@@ -169,7 +171,7 @@ Sie können die gefilterten Benutzer nach ihrer **[!UICONTROL eindeutigen Benutz
    <td>Ja</td>
   </tr>
   <tr>
-   <td><strong>Bereinigung anderer Benutzer - Unternehmen (Personen, die keine internen oder externen Learning Manager-Benutzer sind)</strong></td>
+   <td><strong>Bereinigen anderer Benutzer – Unternehmen (Personen, die keine internen oder externen Learning Manager-Benutzer sind)</strong></td>
    <td> </td>
   </tr>
   <tr>

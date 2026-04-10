@@ -4,16 +4,16 @@ title: Okta Active Directory-Integration in Adobe Learning Manager
 description: Okta Active Directory-Integration in Adobe Learning Manager
 contentowner: nluke
 exl-id: 6d7711a9-7a7f-49b7-8948-9a42407463b3
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 55%
+source-wordcount: '587'
+ht-degree: 60%
 
 ---
 
 # Okta Active Directory-Integration in Adobe Learning Manager {#okta-active-directory-integration-with-adobe-learning-manager}
 
-In diesem Dokument erfahren Sie, wie Sie Adobe Learning Manager mit Okta Active Directory (AD) integrieren. Wenn Sie Adobe Learning Manager in Okta AD integrieren, können Sie:
+In diesem Dokument erfahren Sie, wie Sie Adobe Learning Manager in Okta Active Directory (AD) integrieren. Wenn Sie Adobe Learning Manager in Okta AD integrieren, können Sie:
 
 * Überprüfen und steuern Sie den Zugriff von Learning Manager-Benutzern in Okta AD.
 * Ermöglichen Sie den Benutzern die automatische Anmeldung bei Adobe Learning Manager über ihre Okta AD-Konten.
@@ -61,7 +61,7 @@ Adobe Learning Manager unterstützt einmaliges Anmelden (SSO) über Identitäts
 
    1. Geben Sie im Feld &quot;URL für einmalige Anmeldung&quot; die URL ein: [https://learningmanager.adobe.com/saml/SSO](https://learningmanager.adobe.com/saml/SSO)
    1. Geben Sie im Feld Zielgruppen-URL die URL ein: [https://learningmanager.adobe.com](https://learningmanager.adobe.com/)
-   1. Wählen Sie im Dropdownfeld **Namens-ID-Format** die Option **E-Mail-Adresse** aus.
+   1. Wählen Sie im Dropdownfeld **Namens-ID-Format** **E-Mail-Adresse** aus.
    1. Wählen Sie im Dropdownmenü **Anwendungsbenutzername** „Okta-Benutzername“ aus.
    1. Wenn Sie zusätzliche Attribute übergeben möchten, können Sie die Attribute unter **Attributanweisung** (optional) hinzufügen.
 
@@ -97,7 +97,7 @@ Adobe Learning Manager unterstützt einmaliges Anmelden (SSO) über Identitäts
 
 ## Vom IdP initiierte URL- und Metadatendatei extrahieren
 
-Führen Sie die folgenden Schritte aus, um die vom IdP/SP initiierte URL- und Metadatendatei anzuzeigen:
+Führen Sie folgende Schritte aus, um die vom IdP/SP initiierte URL- und Metadatendatei anzuzeigen:
 
 1. Öffnen Sie die von Ihnen erstellte Anwendung.
 1. Klicken Sie auf der Registerkarte **Single Sign-On** auf **[!UICONTROL Anweisungen anzeigen]**.
@@ -136,4 +136,5 @@ Um Adobe Learning Manager-SSO zu konfigurieren, führen Sie die im folgenden Ar
 article not in TOC
 
 [SSO Authentication](/help/migrated/kb/sso-authentication-for-learning-manager.md)
+
 -->

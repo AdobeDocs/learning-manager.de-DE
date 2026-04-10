@@ -2,13 +2,13 @@
 jcr-language: en_us
 title: Admin AI Assistant (Beta) in Adobe Learning Manager
 description: Weitere Informationen zum Adobe Learning Manager Admin AI Assistant (Beta)
-source-git-commit: 7c21986eff480f15cb788cf9a1cb51644bc083c8
+exl-id: af3d935b-c158-4a8e-9282-62251d29249c
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '934'
 ht-degree: 1%
 
 ---
-
 
 # Admin AI Assistant (Beta) in Adobe Learning Manager
 
@@ -20,11 +20,13 @@ Es nutzt die KI-Funktionen von Adobe, um Anfragen in natürlicher Sprache über 
 
 Dieser Assistent reduziert die Abhängigkeit von manueller Navigation, verkürzt die Erkennungszeit und hilft dabei, schnell verwertbare Erkenntnisse zu gewinnen.
 
-<!--## Key benefits
+<!--
+## Key benefits
 
 * Perform common administrator tasks faster with conversational guidance.
 * Get instant answers without browsing through extensive menus.
-* Gain real-time insights and step-by-step guidance for administrative workflows.-->
+* Gain real-time insights and step-by-step guidance for administrative workflows.
+-->
 
 
 >[!IMPORTANT]
@@ -135,19 +137,19 @@ Anzahl Dieser Assistent ist nur für Administratoren verfügbar.
 
 +++
 
-+++Ist sie in der mobilen App verfügbar?
++++Ist es in der mobilen App verfügbar?   
 
 Zu diesem Zeitpunkt nicht.
 
 +++
 
-+++Kann sie Administratoraktionen ausführen?
++++Kann sie Administratoraktionen ausführen?    
 
 Anzahl Der Admin AI Assistant (Beta) bietet nur Anleitung.
 
 +++
 
-+++Wird sie weitere Sprachen unterstützen?
++++Wird es mehr Sprachen unterstützen?
 
 Das Adobe Learning Manager-Team bewertet die Unterstützung mehrerer Sprachen für zukünftige Updates.
 

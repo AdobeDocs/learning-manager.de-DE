@@ -4,10 +4,10 @@ title: Einstieg in Captivate Prime als Teilnehmer
 description: Auf der Seite "Erste Schritte" können Sie die wichtigsten Lernpfade von Adobe Learning Manager durchlaufen.
 contentowner: manochan
 exl-id: e8f8dced-0772-415f-8021-6c1b63fec7a0
-source-git-commit: bd050c0b0cf2bb7da66d0f2ce3af1cf0d8be4f64
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 77%
+source-wordcount: '675'
+ht-degree: 87%
 
 ---
 
@@ -43,19 +43,19 @@ Wenn Sie mit einem iPad- oder Android-Tablet auf Learning Manager zugreifen, les
 
 Die Lernzeitleiste zeigt den Zeitplan des Teilnehmers mit den Kursen, die er zu absolvieren hat. In diesem Bereich sehen Sie Alarme für all Ihre Kurse, Zertifizierungen und Lernprogramme in ansteigender Reihenfolge der Fristen. Die Fristen für Ihre Lernaktivitäten werden im linken Bereich angezeigt.
 
-Klicken Sie bei den Lernobjekten auf die linke Kachel, um die entsprechenden Informationen als Kurskarte im rechten Bereich aufzurufen. Sie können auf die Kachel &quot;Kurs/Lernprogramm/Zertifizierung&quot; klicken, um die vollständigen Informationen zu jedem Lernobjekt anzuzeigen.
+Klicken Sie bei den Lernobjekten auf die linke Kachel, um die entsprechenden Informationen als Kurskarte im rechten Bereich aufzurufen. Sie können auf die Kachel Kurs/Lernprogramm/Zertifizierung klicken, um die vollständigen Informationen zu jedem Lernobjekt abzurufen.
 
 Bewegen Sie die Maus auf den Bereich der Zeitleiste, um die Bildlaufleiste auf der rechten Seite zu sehen. Verwenden Sie die Bildlaufleiste, um sich nach oben oder unten zu bewegen und mehr Alarme zu sehen.
 
 ## Benutzer der iPad- und Android-Anwendung {#ipadandandroidappusers}
 
-In der Learning Manager-App auf iPad- oder Android-Tablet können Sie, nachdem Sie sich als Teilnehmer angemeldet haben, die Informationen wie folgt auf der Registerkarte &quot;Startseite&quot; sehen:
+In der Learning Manager-App auf iPad- oder Android-Tablet sehen Sie die folgende Startseite, nachdem Sie sich als Teilnehmer angemeldet haben:
 
 ![](assets/screenshot-2015-08-07-12-24-40-e1439211134842.png)
 
 *Registerkarte &quot;Start&quot; in der App*
 
-Um zu den Lern- und Katalogfunktionen zu navigieren, tippen Sie auf das Dropdown-Menü **Menü** und wählen Sie die entsprechende Option aus.
+Um zu den Lern- und Katalogfunktionen zu navigieren, tippen Sie auf die Dropdown-Liste **Menü** und wählen Sie die gewünschte Option aus.
 
 ![](assets/menu-ipad.png)
 
@@ -65,7 +65,7 @@ Um zu den Lern- und Katalogfunktionen zu navigieren, tippen Sie auf das Dropdown
 
 Sie können auf iPad- und Android-Tablets auch offline auf die Learning Manager-App zugreifen. Laden Sie Kurse herunter und bearbeiten Sie sie im Offlinemodus. Wenn Sie wieder mit dem Netzwerk verbunden sind, synchronisieren Sie sie mit der Online-App.
 
-1. Tippen Sie oben auf das Dropdown-Menü und dann auf die Option Lernen . Eine Liste aller verfügbaren Kurse wird in Form von Kacheln angezeigt.
+1. Tippen Sie auf die Dropdown-Liste Menü und dann auf die Option Lernen. Eine Liste aller verfügbaren Kurse wird in Form von Kacheln angezeigt.
 1. Tippen Sie auf das Download-Symbol unten auf jeder Lernobjekt-Kachel, um die Lerninhalte herunterzuladen.
 
 ![](assets/download-ipad.png)
@@ -74,7 +74,8 @@ Sie können auf iPad- und Android-Tablets auch offline auf die Learning Manager-
 
 1. Wenn Sie online sind, wird am oberen Rand der App in einer Leiste eine Eingabeaufforderung angezeigt und nachgefragt, ob Sie Ihre Inhalte online synchronisieren möchten. Tippen Sie auf die rote Leiste, wenn Ihre Antwort „Ja“ ist. Eine grüne Leiste zeigt an, dass Ihr Inhalt mit der Online-App synchron ist.
 
-<!--### Track device storage
+<!--
+### Track device storage
 
 You can monitor your device storage periodically.
 
@@ -86,4 +87,5 @@ An app storage information dialog appears as shown below.
 
 ![](assets/device-storage-detailed-e1439211162955.png)
 
-Using the app storage information, you can check the total space of device, app and the downloaded courses. This information enables you to download courses accordingly. To delete the downloaded courses in the device, tap X icon adjacent to each course name.-->
+Using the app storage information, you can check the total space of device, app and the downloaded courses. This information enables you to download courses accordingly. To delete the downloaded courses in the device, tap X icon adjacent to each course name.
+-->

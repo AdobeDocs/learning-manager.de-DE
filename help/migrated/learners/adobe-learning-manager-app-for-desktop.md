@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Adobe Learning Manager-Desktop-Anwendung
 contentowner: kuppan
 exl-id: 3012ab23-e326-4e7c-b450-e33c046fd656
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '1689'
-ht-degree: 76%
+source-wordcount: '1694'
+ht-degree: 79%
 
 ---
 
@@ -52,7 +52,7 @@ Führen Sie folgende Schritte aus, um ein Video aufzuzeichnen und auf der Web-Pl
 
    **Bildschirm** Zeichnen Sie die auf dem Bildschirm ausgeführten Aktionen auf. Durch Auswahl des Bildschirmsymbols erscheint ein Aufzeichnungsdialogfeld in der Mitte des Bildschirms.
 
-   **Beide** Zeichnet sowohl die Erzähler- als auch die Bildschirmaktionen auf. Wenn Sie das letzte Symbol auswählen, wird der Bildschirm hervorgehoben und der Benutzer erhält ein Live-Fenster mit diesem Symbol.
+   **Beide** Zeichnet sowohl die Erzähler- als auch die Bildschirmaktionen auf. Durch Auswahl des letzten Symbols wird der Bildschirm hervorgehoben und der Benutzer erhält ein Live-Fenster.
 
 1. Aufzeichnungseinstellungen festlegen
 
@@ -91,8 +91,10 @@ So machen Sie einen Screenshot:
 1. Klicken Sie auf der Startseite der Learning Manager-Desktop-Anwendung auf das Screenshotsymbol.
 1. Um nur einen Teil des Bildschirms zu erfassen, klicken Sie auf das Symbol für den Bildschirmausschnitt. Um den gesamten Bildschirm zu erfassen, klicken Sie auf das Symbol für den Vollbildmodus.
 
-   <!--![](assets/capture-screenshot.png)
-   *Capture a screenshot*-->
+   <!--
+   ![](assets/capture-screenshot.png)
+   *Capture a screenshot*
+   -->
 
 1. Damit andere Teilnehmer die Präsentation oder den statischen Inhalt besser verstehen und beibehalten können, fügen Sie Anmerkungen zum Inhalt hinzu.
 1. Um den Screenshot zu bearbeiten, [klicken Sie hier](adobe-learning-manager-app-for-desktop.md#Editing), und um einen Screenshot zu veröffentlichen [klicken Sie hier](adobe-learning-manager-app-for-desktop.md#Publishing).
@@ -134,7 +136,7 @@ Aufzeichnungen können zugeschnitten werden, indem Sie die Zeit in die Eingabefe
 
 ## Schwenk/Zoom (beliebige Videoaufnahme) {#panampzoomanyvideorecording}
 
-Die Aktion &quot;Schwenken und Zoomen&quot; kann nur für **beide** (Webcam und Bildschirm) Videoaufzeichnungen ausgeführt werden. Standardmäßig ist die gesamte Webcam oder der gesamte Bildschirm ausgewählt. Wählen Sie den Eckpunkt und ziehen Sie, um den Teil des Bildschirms auszuwählen, der angezeigt oder fokussiert werden soll. Doppelklicken Sie auf das Fenster, um den Vollbildmodus zu aktivieren.
+Die Aktion &quot;Schwenken und Zoomen&quot; kann nur für **beide** (Webcam und Bildschirm) Videoaufzeichnungen ausgeführt werden. Standardmäßig ist die gesamte Webcam oder der gesamte Bildschirm ausgewählt. Wählen Sie den Eckpunkt und ziehen Sie, um den Teil des Bildschirms auszuwählen, der angezeigt oder fokussiert werden soll. Doppelklicken Sie auf das Fenster, um den gesamten Bildschirm anzuzeigen.
 
 ![](assets/pan-zoom-artboard10.png)
 *Schwenken und Zoomen*
@@ -181,7 +183,7 @@ Nachdem alle Änderungen und Bearbeitungen vorgenommen wurden, klicken Sie auf *
 
 ## Durchsuchen der Desktopgalerie von Learning Manager {#browsingcaptivateprimedesktopgallery}
 
-Alle Aufnahmen und Screenshots werden in der Adobe Learning Manager-Desktop-Anwendung gespeichert. Um diese Dateien zu durchsuchen, klicken Sie auf der Startseite im linken Navigationsbereich auf **[!UICONTROL Galerie]**.
+Alle Aufnahmen und Screenshots werden in der Adobe Learning Manager-Desktop-Anwendung gespeichert. Um diese Dateien zu durchsuchen, klicken Sie auf **[!UICONTROL Galerie]** in der linken Navigationsleiste auf der Startseite.
 
 >[!NOTE]
 >
@@ -197,7 +199,7 @@ Um eine Datei aus der Galerie zu bearbeiten oder zu löschen, klicken Sie auf di
 
 Benachrichtigungen in Learning Manager werden im Benachrichtigungsfenster angezeigt, unabhängig davon, ob die Teilnehmenden bei der Learning Manager-Webanwendung angemeldet sind. Benachrichtigungen umfassen Beiträge oder Foren, die von Benutzern erstellt wurden oder denen sie folgen oder an denen sie teilgenommen haben. Durch Klicken auf die Benachrichtigung werden die Benutzenden zum Soziales Lernen-Web von Learning Manager weitergeleitet.
 
-Um Benachrichtigungen stummzuschalten, klicken Sie auf das **[!UICONTROL Profilmenü*]* > &#x200B;** [!UICONTROL Einstellungen] > **[!UICONTROL Benachrichtigungen stummschalten]**.
+Um Benachrichtigungen stummzuschalten, klicken Sie auf das **[!UICONTROL Profilmenü*]* > **[!UICONTROL Einstellungen] > **[!UICONTROL Benachrichtigungen stummschalten]**.
 
 ## Einstellungen in der Adobe Learning Manager-Desktop-Anwendung {#settingsinadobecaptivateprimedesktopapplication}
 

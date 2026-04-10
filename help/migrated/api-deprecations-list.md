@@ -4,10 +4,10 @@ title: API-Veraltungen in Adobe Learning Manager
 description: Wenn sich die APIs in Adobe Learning Manager weiterentwickeln, werden APIs regelmäßig neu organisiert oder aktualisiert. Wenn sich APIs weiterentwickeln, wird die alte API verworfen und schließlich entfernt. Diese Seite enthält Informationen, die Sie benötigen, wenn Sie von veralteten API-Versionen zu neueren und stabileren API-Versionen migrieren.
 contentowner: saghosh
 exl-id: 0fe9a3cb-9114-42d6-81ae-1a4f28c984fa
-source-git-commit: 670d0477b246af2a0257e41eca799817e391b348
+source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 32%
+source-wordcount: '579'
+ht-degree: 34%
 
 ---
 
@@ -15,7 +15,8 @@ ht-degree: 32%
 
 ## API-Veraltungen in der Version März 2024 von Adobe Learning Manager
 
-<!-- ### Changes in Rate Limits
+<!--
+ ### Changes in Rate Limits
 
 With the next release of Adobe Learning Manager, we're restructuring API rate limits for new accounts. For existing accounts, only the Admin APIs will be rate-limited. After 90 days (about 3 months), we will restructure rate limits for all APIs, but existing accounts will be whitelisted according to current usage. Existing accounts need to revisit their learner API usage. 
 
@@ -51,6 +52,7 @@ The following table lists the rate and burst limits for the APIs.
         <td>5</td>
     </tr>
 </table>
+
 -->
 
 ### Änderungen an den Versatzgrenzen
@@ -59,13 +61,15 @@ Aufgrund der hohen Anzahl von Datensätzen, die durch den Offsetwert abgerufen w
 
 Wenn Sie weitere Datensätze abrufen müssen, verwenden Sie die **GET Jobs**-API.
 
-<!--### Exclude paths 
+<!--
+### Exclude paths 
 
 At present, Learning Manager APIs follow a graph data structure, which allows you to fetch data by traversing the API model through includes. Even though you could traverse an API up to seven levels, fetching the data using a single API call is computationally expensive. 
 
 We recommend that all existing and new customers make small calls multiple times instead of one large call. This approach will prevent unwanted data from being loaded in the call. 
 
-We want to enforce these restrictions on new accounts and maintain a whitelist of existing accounts.-->
+We want to enforce these restrictions on new accounts and maintain a whitelist of existing accounts.
+-->
 
 #### Welche Pfade veraltet sind
 
@@ -97,7 +101,8 @@ Die folgenden Pfade sind veraltet:
    * Neuer Pfad:
       * instance.subLoInstances
 
-<!--### Instance summary count changes 
+<!--
+### Instance summary count changes 
 
 Currently, in the LO summary endpoint, you fetch the number of all possible instances. For example, for a course, you can view the number of enrollments and waitlists in the response for **GET /learningObjects/{loId}/instances/{loInstanceId}/summary**. You can then view the completionCount and enrollmentCount in the response. If the course is a VC or classroom, you can also view its seat limit and waitlist limit. 
 
@@ -107,7 +112,8 @@ In the next release of Adobe Learning Manager, in the LO Instance summary endpoi
 
 >[!NOTE]
 >
->For counts, such as, completionCount, enrollmentCount, seatLimit, and waitlistCount exceeding1000, it's advisable to interpret them as estimates rather than precise figures, as these will be retrieved from cache.-->
+>For counts, such as, completionCount, enrollmentCount, seatLimit, and waitlistCount exceeding1000, it's advisable to interpret them as estimates rather than precise figures, as these will be retrieved from cache.
+-->
 
 ### Nach Name sortieren
 
