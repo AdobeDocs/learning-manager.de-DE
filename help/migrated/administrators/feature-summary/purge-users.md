@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Benutzer bereinigen
 contentowner: dvenkate
 exl-id: 4449146c-6247-44fb-b695-a12023c31dc6
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+source-git-commit: 0ae0dee3a43108b707e13778edbc7367c67d63e3
 workflow-type: tm+mt
-source-wordcount: '1143'
-ht-degree: 57%
+source-wordcount: '1457'
+ht-degree: 45%
 
 ---
 
@@ -234,6 +234,49 @@ Sie können die gefilterten Benutzer nach ihrer **[!UICONTROL eindeutigen Benutz
 </table>
 
 +++
+
+### Automatische Bereinigung gelöschter Benutzer{#auto-purge}
+
+Die automatische Bereinigung gelöschter Benutzer ist eine Funktion, mit der Daten für Benutzer bereinigt werden, die bereits in ALM gelöscht wurden. Die Bereinigung erfolgt nach einer konfigurierbaren Aufbewahrungsfrist, wobei der Schwerpunkt auf Massenvorgängen liegt, sodass große Kundenkonten effizient bearbeitet werden können, ohne dass die Performance beeinträchtigt wird.
+
+Der Massenlöschungsfluss kann bis zu 10.000 Benutzer pro Stapel verarbeiten. Die Funktion ist als zuverlässigkeitsorientierter Hintergrunddienst für das Löschen großer Volumes positioniert.
+
+Als Administrator können Sie die Dauer angeben, innerhalb derer bereinigte Benutzer gelöscht werden können. Weitere Informationen finden Sie unter [Admin-Einstellungen](/help/migrated/administrators/feature-summary/settings.md).
+
+#### Was sie bewirkt:
+
+* Bereitstellung konfigurierbarer automatischer Bereinigungen für gelöschte Benutzer auf Kontoebene
+* Stellen Sie sicher, dass Benutzer innerhalb von 24 Stunden bereinigt werden, sobald sie die Bereinigungskriterien erfüllen.
+* Unterstützung der Massenlöschung von bis zu 10.000 Benutzern pro Tag** ohne Beeinträchtigung der Systemleistung
+* Aufrechterhaltung der Gesamtansprechfähigkeit des Systems und des Datenbankzustands während der Ausführung dieser Vorgänge
+* Durchsetzung automatisierter Datenaufbewahrungsverwaltung zur Einhaltung der DSGVO-Verpflichtungen
+
+#### Was sie nicht tut:
+
+* Der Massenlöschungsfluss wird nur als geplanter cron-Auftrag ausgeführt (nicht on demand pro Anforderung).
+
+### Aktivieren der Option &quot;Automatische Bereinigung&quot;
+
+1. Melden Sie sich bei Adobe Learning Manager als Administrator an.
+2. Navigieren Sie zum Abschnitt **Konfigurieren** > **Einstellungen** > **Grundlagen** Abschnitt > **Allgemein**.
+3. Scrollen Sie auf der Seite nach unten zu **Gelöschte Benutzer automatisch bereinigen**.
+   ![](assets/auto-purge1.png)
+   *Option für automatische Bereinigung*
+   >[!NOTE]
+   >
+   >Wenn **Gelöschte Benutzer automatisch bereinigen** nicht aktiviert ist, wird im Abschnitt eine Meldung angezeigt, die am unteren Rand des Abschnitts der Option lautet: **Nicht konfiguriert**.
+4. Wählen Sie **Bearbeiten**.
+5. Aktivieren Sie das Kontrollkästchen **Aktivieren**.
+6. Geben Sie die Dauer ein, nach der die Bereinigung wirksam werden soll.
+   >[!NOTE]
+   >
+   >Der Mindestwert sollte ein Jahr betragen. Sie können ihn auch um 1 erhöhen. Sie können jedoch keinen Wert wie 1,5 Jahre oder 2,5 Jahre eingeben. Wenn Sie einen benutzerdefinierten Wert als Dauer benötigen, wenden Sie sich bitte an unseren Support.
+7. Wählen Sie **Speichern**. ALM zeigt eine detaillierte Bestätigungsmeldung an.
+   ![](assets/auto-purge2.png)
+   *Aktivieren und Eingeben der Dauer*
+8. Wählen Sie **Ja**, um die Einstellung zu bestätigen und zu speichern.
+   ![](assets/auto-purge3.png)
+   *Bestätigungsmeldung*
 
 ## Häufig gestellte Fragen {#frequentlyaskedquestions}
 

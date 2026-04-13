@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Peer-Konten
 contentowner: shhivkum
 exl-id: 251d0eeb-f5e8-4f70-a36c-dcecb4834042
-source-git-commit: 05a8b4da646f0b2e4a14aa26159c3e8cfdde35fe
+source-git-commit: 2604dc206de5f6e883c1073880348b2ab97b01c6
 workflow-type: tm+mt
-source-wordcount: '696'
-ht-degree: 52%
+source-wordcount: '905'
+ht-degree: 51%
 
 ---
 
@@ -70,7 +70,7 @@ _Benutzerabschnitt, der die Anzahl der vom Peer-Konto freigegebenen Lizenzen anz
 
 Nachdem Sie ein Peerkonto erstellt haben, können Sie die Berichte für die Peer-Konten erstellen. Wenn Sie die Peer-Konto-Anforderung als Administrator initiieren, können Sie die Berichte für das Peer-Konto anzeigen.
 
-Wenn der Peer auch die Administratorberichte anzeigen möchte, muss der Peer eine separate Peer-Kontoanforderung an den Administrator senden.
+Wenn der Peer auch die Administratorberichte sehen möchte, muss er eine separate Peer-Konto-Anforderung an den Administrator senden.
 
 Um zu erfahren, wie Sie die freigegebenen Kataloge für das Peer-Konto generieren und anzeigen, lesen Sie [Anzeigen von Peer-Berichten](reports.md#main-pars_header_894271250).
 
@@ -99,6 +99,38 @@ Der Administrator kann den Benutzerbericht des Peer-Kontos anzeigen. Der überge
 *Benutzerbericht eines Peer-Kontos anzeigen*
 
 Klicken Sie auf **[!UICONTROL Herunterladen]**, um die Berichte für Peer-Konten herunterzuladen.
+
+## Anzeige des Autorennamens für freigegebene Kurse (einschließlich zuvor erworbener Kurse)
+
+Adobe Learning Manager zeigt den Namen des **ursprünglichen Autors** für Kurse an, die über Peer-Konten freigegeben oder erworben wurden.
+
+Früher wurden Kurse, die von Peer-Konten erworben wurden, häufig mit dem Autorennamen &quot;**Externer Autor**&quot; angezeigt. Dies wurde verbessert, um die Content-Attribution und -Klarheit zu verbessern.
+
+### Funktionsweise
+
+* Wenn ein Kurs von einem Peer-Konto freigegeben wird, löst der Lern-Manager jetzt den **tatsächlichen Autorennamen** aus dem Quellkonto auf und zeigt ihn an.
+* Dieses Verhalten gilt für:
+   * Neu freigegebene Kurse
+   * Kurse, die vor Einführung dieser Verbesserung erworben wurden
+
+### Rückwirkung
+
+Diese Verbesserung wird **rückwirkend** angewendet.\
+Kurse, die bereits vor dieser Änderung von Peer-Konten erworben wurden, zeigen automatisch den richtigen Autorennamen an.
+
+Administratoren oder Autoren müssen keine Maßnahmen ergreifen:
+
+* Sie müssen den Kurs nicht erneut freigeben.
+* Sie müssen den Kurs nicht erneut veröffentlichen oder bearbeiten
+* Bestehende Teilnehmerregistrierungen und der Fortschritt bleiben unverändert
+
+### Was ändert sich nicht?
+
+* Eigentümer und Berechtigungen des Kurses bleiben unverändert
+* Nur der **angezeigte Autorenname** wird aktualisiert.
+* Berichte, Registrierungen und Kursstruktur sind davon nicht betroffen.
+
+Dies gewährleistet eine konsistente und genaue Autorenattribution über alle freigegebenen Inhalte hinweg, einschließlich historischer Kurse, die über Peer-Konten erworben wurden.
 
 ## Häufig gestellte Fragen {#frequentlyaskedquestions}
 

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Versionshinweise zu Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+source-git-commit: 0ae0dee3a43108b707e13778edbc7367c67d63e3
 workflow-type: tm+mt
-source-wordcount: '28077'
-ht-degree: 79%
+source-wordcount: '29372'
+ht-degree: 76%
 
 ---
 
@@ -19,11 +19,122 @@ ht-degree: 79%
   <tr>
    <td><img src="assets/cp-prime-appicon-88x84.png"></td>
    <td>
-    <p><a href="https://business.adobe.com/de/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
+    <p><a href="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
   </tr>
  </tbody>
 </table>
 -->
+
++++Update 105: Version April 2026 von Adobe Learning Manager
+
+Freigabedatum: 11. April 2026
+
+## Neue Funktionen und Änderungen
+
+Die Version April 2026 von Adobe Learning Manager bietet Verbesserungen für das gesamte Teilnehmererlebnis, die Verwaltung, das Erstellen von Inhalten und das Reporting. Einige Funktionen sind bereits in der Beta-Version verfügbar und können sich jederzeit ändern.
+
+**Verbesserungen des Teilnehmererlebnisses**
+
+* Verbesserte Fluidic Player-Navigation mit klarer Beschriftung &quot;Nächstes Modul&quot; und einer dedizierten Exitaktion für einen besseren Kursablauf.
+* Unterstützung mehrerer Sprachen, erweitert auf Arbeitshilfen, Checklisten und Videobeschriftungen.
+* AI Assistant integriert in das Lernerlebnis, um kontextbezogene Hilfe bereitzustellen.
+* Verbessertes Erlebnis beim Captivate von Inhalten mit vereinheitlichten Inhaltsverzeichnissen, Abschlussanzeigen und verbessertem Notizenexport.
+* Unterstützung für die Einstellung der Player-Sprache über LTI für ein konsistentes plattformübergreifendes Erlebnis.
+
+**Administrator- und Autor-Updates**
+
+* Zoom Connector unterstützt jetzt mehrere gleichzeitige virtuelle Sitzungen und verbessert so die Planungseffizienz.
+* Möglichkeit, die Startzeit des Moduls einzuschränken und den Ablauf von Lernobjekten über APIs besser sichtbar zu machen.
+* Checklistenmodule, die durch gewichtete Punktzahl, mehrsprachige Unterstützung und Optionen für Reviewer-Feedback erweitert wurden.
+* Benutzerdefinierte Zertifikate, die mit einem Drag-and-Drop-Editor, dynamischen Feldern und KI-generierten Hintergründen aktualisiert wurden.
+* Einführung eines nicht angemeldeten Experience Builder zum Erstellen öffentlicher Lernseiten.
+* Freigegebene Kurse zeigen jetzt den ursprünglichen Autor korrekt an.
+
+**Kursleiterfunktionen**
+
+* QR-Code-Generierung für Sitzungsregistrierung und Anwesenheitsverfolgung.
+* Möglichkeit, während der Checklistenauswertung Kommentare und Feedback abzugeben.
+
+**Verbesserungen bei Berichterstellung und Analyse**
+
+* SCORM-Berichterstellung wurde verbessert, um mehrere Quizversuche zu erfassen.
+* Genauere Berechnung der Lernzeit in Teilnehmertranskripten.
+* Aktualisierungen der Transkriptberichte für Administratoren.
+* Verbesserte erweiterte Suchfunktion.
+
+**Entsprechungen und Alternativen**
+
+* Verbesserungen an Entsprechungen und Alternativen verbessern die Flexibilität bei Lernpfaden, indem eine genauere Substitution und Zuordnung von Kursen ermöglicht wird.
+
+**Wichtige Auswirkungen**
+Diese Updates verbessern die Benutzerfreundlichkeit, Skalierbarkeit und Automatisierung und konzentrieren sich auf KI-gestütztes Lernen, mehrsprachige Unterstützung, optimiertes virtuelles Schulungsmanagement und präziseres Reporting.
+
+Weitere Informationen finden Sie unter [Neue Funktionen und Änderungen in der Version April 2026 von Adobe Learning Manager](/help/migrated/whats-new.md).
+
+## In dieser Version behobene Fehler
+
+**Erweiterte Suche:** Bei der erweiterten Suche wurde der LO-Zugriff basierend auf der Benutzerregistrierung nicht berücksichtigt, wenn der Katalogzugriff fehlte. Die erweiterte Suche führt nun dieselben einschreiberbasierten Zugriffsprüfungen durch wie die lexikalische Suche, sodass eingeschriebene Benutzer ohne Katalogzugriff auf das LO zugreifen können.
+
+**Adobe Experience Manager:** Die Katalogwidget-Überschrift hat den ausgewählten Katalog nicht beibehalten und die Katalogseite mit allen Lernobjekten anstelle des gefilterten Katalogs geöffnet. Wenn Sie auf eine Katalog-Widget-Überschrift klicken, wird jetzt die Katalogseite mit dem entsprechenden vorausgewählten Katalog geöffnet und die Lernobjekte werden korrekt in diesen Katalog gefiltert.
+
+**Geräte-App Mobile:** Auf Mobilgeräten konnten die Teilnehmer alle Elemente im ersten Abschnitt eines geordneten Lernpfads abschließen, der zweite Abschnitt wurde jedoch auch nach erfolgreichem Abschluss nicht entsperrt. Nachdem alle Elemente in einem Abschnitt auf Mobilgeräten abgeschlossen sind, wird der nächste Abschnitt in einem geordneten Lernpfad jetzt für den Teilnehmer korrekt entsperrt.
+
+**LMS-Migration:** Wenn eine Kursinstanz, die über die Migration erstellt wurde, über eine alphanumerische Instanz-ID verfügte, wurde beim erneuten Ausführen der Migration zum Aktualisieren einer VC-Sitzung eine neue Sitzung erstellt, anstatt die vorhandene zu aktualisieren. Bei der Migration werden vorhandene VC-Sitzungen für Kursinstanzen jetzt korrekt mit alphanumerischen IDs aktualisiert, anstatt doppelte Sitzungen zu erstellen.
+
+**Kursdauer:** Bei VILT-Kursen wurde die Dauer auf Kursebene immer von einer statischen LO_DURATION in der Standardinstanz übernommen. Diese wurde zu 0, wenn Sitzungen eingestellt wurden, und wurde nicht aus den eigentlichen Instanzmodulen neu berechnet. Die VILT-Kursdauer spiegelt jetzt die tatsächlichen Instanzmodule wider, anstatt sich nur auf einen veralteten oder null LO_DURATION-Wert von der Standardinstanz zu verlassen.
+
+**Connectors:** Da der Ember-Modul-Details-Controller über Module hinweg wiederverwendet wurde, wurde vcHostingSystem nicht konsistent aktualisiert. Dies führte zu gemischtem VC/F2F-Verhalten und zu einem falschen Löschen von InstructorIds, die nur auf vcHostingSystem basieren. Die Modulbehandlung hält vcHostingSystem jetzt konsistent und löscht nur instructorIds für echte VC-Sitzungen, sodass die Kursleiter für konvertierte F2F-Sitzungen korrekt aktualisiert werden.
+
+**LMS-Migration:** Die CSV-Spalte &quot;LearningProgramCourse&quot; für die Kursreihenfolge wurde vom Backend nicht berücksichtigt, sodass die Kursreihenfolge in LP-Abschnitten ignoriert wurde, selbst wenn &quot;orderEnforce&quot; auf &quot;true&quot; gesetzt war. Die nicht verwendete CSV-Spalte für die Kursreihenfolge wurde entfernt, um das Backend-Verhalten abzugleichen und zu vermeiden, dass eine nicht unterstützte Bestellung über CSV erfolgt.
+
+**Leistung:** Ein AWS-Automatisierungs-Workflow hat wiederholt falsch codierte Download-Anforderungen (mit einem nicht codierten Speicherplatz) an die Akamai CMS HTTP API gesendet, was zu Bursts mit 500 Fehlern und zu viel ungültigem Traffic führte. Der automatisierte Workflow codiert jetzt Leerzeichen in der Download-URL ordnungsgemäß mit der URL, sodass ungültige Anforderungen verhindert und die zugehörigen 500 Fehlerspitzen beseitigt werden.
+
+**Registrierung und Aufhebung der Registrierung:** In einigen Admin-Registrierungsflüssen für Lernprogramme, Zertifizierungen und Kurse wurde die Registrierungsquelle fälschlicherweise als SELF_ENROLL statt als ADMIN_ENROLL aufgezeichnet. Admin-gesteuerte Registrierungen werden jetzt konsistent mit der Quelle ADMIN_ENROLL über die betroffenen Flows hinweg gespeichert.
+
+**Registrierung und Aufhebung der Registrierung:** Bei Registrierungen auf Schwellenwertbasis in einer Wiederholungskette von Zertifizierungen wurden Teilnehmer für eine spätere Wiederholung registriert, auch wenn sie die vorherige Wiederholung nicht abgeschlossen hatten. Bei der Schwellenwertregistrierung wird jetzt die Wiederholungskette berücksichtigt, und die Teilnehmer werden nicht für eine spätere Zertifizierung registriert, es sei denn, sie haben die erforderliche vorherige Wiederholung abgeschlossen.
+
+**Administratoreinstellungen:** Administratoren konnten kein Peer-Konto hinzufügen, dessen Unterdomäne mit einer Nummer begonnen hat, da für die Unterdomäne eine Validierungsregel erforderlich ist, dass sie mit einem Buchstaben beginnt. Peer-Konten mit Unterdomänen, die mit einer Zahl beginnen, werden jetzt akzeptiert, sofern sie andernfalls die zulässigen Zeichenregeln erfüllen.
+
+**Kurs - Quizpunktzahl:** Beim Headless-Start zeigte der Player nach dem Zurücksetzen eines Quizmoduls durch einen Administrator insgesamt 12 falsche Fragen anstelle der eigentlichen 3 Fragen an. Beim Headless-Start zeigt der Quiz-Player jetzt die richtige Gesamtzahl von Fragen nach einem Zurücksetzen des Moduls an.
+
+**Autor:** Wenn eine Inhaltsgruppe von SCORM auf CAPI aktualisiert wurde, wurden die Berichterstattungsinformationen und Abschlusskriterien nicht aktualisiert, sodass die Inhaltsgruppe ohne Abschlusskriterien blieb. Beim Aktualisieren einer Inhaltsgruppe von SCORM auf CAPI werden die Berichtsinformationen jetzt korrekt aktualisiert und die entsprechenden Abschlusskriterien für die Inhaltsgruppe festgelegt.
+
+**Geräteanwendung Mobil:** In der Captivate Prime-Mobilanwendung wurden herunterladbare Ressourcen, die auf einer neuen Registerkarte über target=&quot;_blank&quot; geöffnet wurden, nicht heruntergeladen, wenn sie angetippt wurden. Wenn Sie in der mobilen App auf eine herunterladbare Ressource tippen, wird der Download jetzt auch dann korrekt initiiert, wenn der Inhalt target=&quot;_blank&quot;-Links verwendet.
+
+**Rich-Text-Editor:** Zeilenumbrüche in Rich-Text-LO-Beschreibungen wurden nach der Veröffentlichung in der Autorenansicht entfernt, obwohl die Teilnehmer die Zeilenumbrüche noch sahen. Rich-Text-LO-Beschreibungen behalten jetzt Zeilenumbrüche sowohl in der Autoren- als auch in der Teilnehmeransicht korrekt bei und zeigen sie an.
+
+## Bekanntes Problem/Design
+
+### Versionsverwaltungsverhalten für Ressourcen der zweiten Natur
+
+Adobe Learning Manager (ALM) erhöht die Version von Second Nature (SN)-Ressourcen während der Bearbeitung nicht. Dieses Verhalten spiegelt wider, wie ALM SN-Inhaltsaktualisierungen behandelt, anstatt eine Authoring-Option zu wählen.
+
+Second Nature unterstützt kein Versionsmanagement in seinem Quellsystem. Wenn ein Autor Szenariodaten im SN-Portal aktualisiert, verweisen ALM-Ressourcen und die zugehörigen Lernobjekte (LOs) automatisch auf den aktualisierten Inhalt, ohne eine neue Version zu erstellen.
+
+ALM unterstützt dagegen die Versionskontrolle für dateibasierte und LTI-basierte Ressourcen, bei denen Autoren Dateien ersetzen oder Startverknüpfungen aktualisieren können. Da diese Steuerelemente für SN-Integrationen nicht verfügbar sind, unterstützt ALM kein Versions-Bumping für Second-Nature-Inhalte.
+
+
++++
+
+
++++Update 104: AI Assistant für Teilnehmer in Adobe Learning Manager
+
+Freigabedatum: 2. März 2026
+
+## KI-Assistent für Teilnehmende
+
+Ein KI-gestütztes Konversationstool der Generation, das es Ihren Teilnehmern ermöglicht, Antworten, Ressourcen und relevante Kurse mit Anfragen in natürlicher Sprache sofort zu finden.
+
+**Wichtigste Highlights**
+
+* Verwendet Retrieval-Augmented Generation (RAG) zur intelligenten Suche nach Kursinhalten, Arbeitshilfen und Lernmaterialien, um präzise und kontextbezogene Antworten zu liefern.
+* Versteht den Kontext, bewahrt frühere Interaktionen und stellt zitierungsbasierte Antworten als Basis für die Wahrheit bereit, die später bei Bedarf genutzt werden können.
+* Ermöglicht es Teilnehmern, personalisierte Skripte, Diskussionspunkte und Zusammenfassungen anzufordern, die auf ihre individuellen Lernanforderungen zugeschnitten sind.
+* Sucht in allen unterstützten Inhaltsformaten, einschließlich PDF, DOCX, PPTX, Audio, Videos und SCORM 1.2 &amp; 2004.
+
+Weitere Informationen finden Sie im [AI-Assistenten für Teilnehmer](/help/migrated/learners/feature-summary/learner-ai-assistant.md).
+
++++
 
 +++Update 103: Adobe Learning Manager Version November 2025
 
@@ -73,7 +184,7 @@ Feedback-Formulare können in weitere Sprachen übersetzt werden, wobei die glei
 * Weisen Sie den verschiedenen Schulungsprogrammen maßgeschneiderte Feedback-Formulare zu. So können z. B. bei Vertriebskursen Fragen im NPS-Fokus beantwortet werden, während Compliance-Kurse Fragen in den Bereichen Kurseffektivität und Likert-Skala beantworten, um Klarheit und Richtlinienverständnis zu messen.
 * Verwenden Sie separate Feedbackformulare basierend auf Lernmodulen. Beispiel: drei verschiedene Formulare für angeglichene Module, Module zum Selbststudium und Klassenzimmermodule.
 
-Weitere Informationen finden Sie im [L1-Feedbackformular &#x200B;](/help/migrated/administrators/feature-summary/l1-feedback-form.md).
+Weitere Informationen finden Sie im [L1-Feedbackformular ](/help/migrated/administrators/feature-summary/l1-feedback-form.md).
 
 +++
 
@@ -187,7 +298,7 @@ Weitere Informationen zum Fluidic Player finden Sie in diesem [Artikel](/help/mi
 
 * Es wurde ein Problem behoben, durch das Teilnehmer, die einen Kurs abgeschlossen hatten, einen weißen Bildschirm sahen, wenn sie ihn erneut besuchten, nachdem das Inhaltsmodul auf eine neue Version aktualisiert wurde.
 
-Weitere Informationen zu bevorstehenden Änderungen an Adobe Learning Manager finden Sie in diesem [Artikel](https://experienceleague.adobe.com/de/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
+Weitere Informationen zu bevorstehenden Änderungen an Adobe Learning Manager finden Sie in diesem [Artikel](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
 
 +++
 
@@ -1233,7 +1344,7 @@ Weitere Informationen finden Sie unter „Neue Funktionen“ im [Update von Lear
 * Das Herunterladen von Ressourcen aus einem Kurs funktionierte nicht, wenn er aus einem anderen Kurs kopiert wurde und der Teilnehmer keinen Zugriff auf den ursprünglichen zum Erstellen des duplizierten Kurses verwendeten Kurs hat.
 * Bannerbilder wurden nicht gelöscht, wenn der Autor sie entfernt, während sich der Kurs im Entwurfsstatus befindet. Dieses Problem wurde behoben.
 
-**AEM &#x200B;**
+**AEM **
 
 * Nach dem Einfügen der Learning Manager-Komponente in AEM dauerte das Laden der Seite lange und der Zugriff auf die anderen Komponenten war nicht möglich. Dieses Problem wurde behoben.
 
@@ -1667,7 +1778,7 @@ In diesem Update kann ein Teilnehmer Assets als Abschlussnachweis für ein exter
 
 Ein Teilnehmer kann ein externes Zertifikat öffnen und Assets wie PDF-, Text- oder Bilddateien hochladen.
 
-Weitere Informationen finden Sie unter [***Hochladen von Assets in externes Zertifikat***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).**&#x200B;**
+Weitere Informationen finden Sie unter [***Hochladen von Assets in externes Zertifikat***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).****
 
 ### In diesem Update behobene Probleme {#issuesfixedinthisrelease}
 
@@ -2045,7 +2156,7 @@ Freigabedatum: 20. Juni 2019
 
 **Automatische Kuration des Inhalts**
 
-Mit Soziales Lernen können von Teilnehmern gepostete Inhalte auf zwei Arten kuratiert werden: **Keine Kuration** und **Manuelle Kuration**. In dieser Version hat Adobe Learning Manager das Soziale Lernen verbessert, indem AI-fähige Funktionen zur automatischen Kuration bereitgestellt wurden. Sobald der Inhalt veröffentlicht wurde, wird der Inhalt analysiert, um festzustellen, ob der Inhalt zu den Kenntnissen gehört, für die er veröffentlicht wurde. Basierend auf dem Confidence-Ergebnis wird der Inhalt entweder live veröffentlicht oder zur manuellen Kuration gesendet. Weitere Informationen finden Sie unter *[**&#x200B; Automatische Kuration &#x200B;**](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
+Mit Soziales Lernen können von Teilnehmern gepostete Inhalte auf zwei Arten kuratiert werden: **Keine Kuration** und **Manuelle Kuration**. In dieser Version hat Adobe Learning Manager das Soziale Lernen verbessert, indem AI-fähige Funktionen zur automatischen Kuration bereitgestellt wurden. Sobald der Inhalt veröffentlicht wurde, wird der Inhalt analysiert, um festzustellen, ob der Inhalt zu den Kenntnissen gehört, für die er veröffentlicht wurde. Basierend auf dem Confidence-Ergebnis wird der Inhalt entweder live veröffentlicht oder zur manuellen Kuration gesendet. Weitere Informationen finden Sie unter *[** Automatische Kuration **](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
 
 **Zuordnen von Kenntnissen zu Kenntnisdomänen**
 
@@ -2671,7 +2782,7 @@ Freigabedatum: 06. Dezember 2016.
 
 ### Verbesserungen {#enhancement}
 
-Als Teil dieses Updates stellt der Lern-Manager einen Endpunkt <!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) --> bereit, um Benutzer in einer Anwendung zu aktualisieren. Sie können auf diesen API-Endpunkt in der Administratorrolle zugreifen. Unter Verwendung **&#x200B;**&#x200B;Endpunkts können Sie die folgenden Informationen von Learning Manager-Benutzern aktualisieren:
+Als Teil dieses Updates stellt der Lern-Manager einen Endpunkt <!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) --> bereit, um Benutzer in einer Anwendung zu aktualisieren. Sie können auf diesen API-Endpunkt in der Administratorrolle zugreifen. Unter Verwendung **** Endpunkts können Sie die folgenden Informationen von Learning Manager-Benutzern aktualisieren:
 
 * Name
 * E-Mail
@@ -3181,7 +3292,7 @@ Das Exportieren von Registrierungsdaten schlug fehl, wenn einer der registrierte
 
 **E-Mail-Vorlagen**
 
-* Die Wort **partner,** die verwendet wurden, um externe Gruppen zu repräsentieren **&#x200B;**&#x200B;wurden **&#x200B;**&#x200B;aus dem Text und dem Titel der E-Mail-Vorlagen entfernt. Externe Gruppen werden nicht unbedingt Partner genannt.\
+* Die Wort **partner,** die verwendet wurden, um externe Gruppen zu repräsentieren **** wurden **** aus dem Text und dem Titel der E-Mail-Vorlagen entfernt. Externe Gruppen werden nicht unbedingt Partner genannt.\
   **Hinweis:** Diese aktualisierte Vorlage wird nicht angezeigt, wenn die Standardvorlage bereits geändert wurde. Um die aktualisierte Vorlage anzuzeigen, klicken Sie auf **Auf Original zurücksetzen** im Dialogfeld **Vorlagenvorschau**.
 
 * URL kann in der E-Mail, die von den Administratoren erhalten wird, nicht angeklickt werden, wenn E-Mail-Vorlagen **Profil erstellt (Selbstregistrierung)** und **Profil erstellt (Externe/Partner)** bearbeitet werden. Dieses Problem wurde nun behoben.

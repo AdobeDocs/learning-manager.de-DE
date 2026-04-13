@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Verwalten der Teilnehmer für Ihre Sitzung
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: 05a8b4da646f0b2e4a14aa26159c3e8cfdde35fe
+source-git-commit: 890315af5dc413c859315dc12d5d9618f67afc8e
 workflow-type: tm+mt
-source-wordcount: '1256'
-ht-degree: 69%
+source-wordcount: '1898'
+ht-degree: 47%
 
 ---
 
@@ -19,7 +19,7 @@ Lesen Sie den folgenden Artikel, um zu erfahren, wie Sie die Teilnehmer verwalte
 
 Als Kursleiter können Sie die Sitzungen oder Module mit ausstehenden Überprüfungen anzeigen.
 
-Auf der Seite &quot;Sessions/Module&quot; wird die Spalte **Ausstehende Überprüfungen** angezeigt, in der die Anzahl der ausstehenden Überprüfungen für die entsprechende Sitzung/Aktivität angezeigt wird.
+Auf der Seite &quot;Sitzungen/Module&quot; wird eine Spalte **Überprüfungen ausstehend** mit der Anzahl der ausstehenden Überprüfungen für die entsprechende Sitzung/Aktivität anzeigt.
 
 ## Verwalten der Warteliste für die Sitzung {#managewaitlistforyoursession}
 
@@ -83,6 +83,99 @@ Sie können die Anzahl der bestätigten Teilnehmer, die an der Sitzung teilnehme
 
    ![](assets/markattendance.png)
    *Anwesenheit der Teilnehmer markieren*
+
+### QR-Codes für Teilnehmerregistrierung und Teilnahme herunterladen
+
+Kursleiter können QR-Codes für ihre zugewiesenen Sitzungen herunterladen, damit sich Teilnehmer für eine Kursinstanz anmelden und die Teilnahme oder den Abschluss durch Scannen des QR-Codes markieren können.
+
+Dadurch können Kursleiter die Teilnahme an Sitzungen unabhängig verwalten, ohne dass Administratorunterstützung erforderlich ist.
+
+Die folgenden Schritte sind für beide geeignet:
+
+* Sitzungen im Klassenzimmer
+* Online-Lernumgebungen
+
+Für eine Sitzung im physischen Klassenzimmer müssen Sie als Kursleiter den richtigen QR-Code generieren und ihn in den Klassenzimmer einfügen (oder ihn umgehen), in dem die Teilnehmer an der Sitzung teilnehmen, damit sie den QR-Code scannen und ihre Registrierung, Teilnahme oder beides abhängig vom QR-Code markieren können.
+
+Bei einer Online-Klassenzimmersitzung können Sie als Kursleiter den generierten QR-Code per E-Mail, über ein Messaging-System oder auf andere Weise senden, sodass die Teilnehmer den QR-Code scannen und ihre Registrierung, Teilnahme oder beides je nach QR-Code markieren können.
+
+
+#### QR-Codes für eine Sitzung herunterladen
+
+1. Melden Sie sich mit der Rolle **Kursleiter** bei Adobe Learning Manager an.
+2. Wechseln Sie zum **Kursleiter-Dashboard**.
+3. Öffnen Sie die relevante **Kursinstanz**.
+4. Wählen Sie die Registerkarte **Sitzungen** aus.
+5. Wählen Sie eine Sitzung aus, die Ihnen zugewiesen wurde.
+6. Wählen Sie **Session QR Code**.
+   ![](assets/instructor-QR-code.png)
+
+Sie können die folgenden QR-Codes herunterladen:
+
+* **QR-Registrierungscode** - ermöglicht Teilnehmern die Registrierung in der Kursinstanz
+* **QR-Code für Anwesenheit** - markiert die Anwesenheit für die Sitzung
+* **Registrierung + Teilnahme-QR-Code** - registriert Teilnehmer und markiert die Teilnahme in einem einzigen Scan.
+
+Der QR-Code wird als PDF heruntergeladen und kann digital freigegeben oder während der Sitzung angezeigt werden.
+
+#### Was passiert, wenn Teilnehmer den QR-Code scannen?
+
+* Teilnehmer scannen den QR-Code mit einem Mobilgerät.
+* Adobe Learning Manager validiert den Teilnehmer und die Sitzung.
+* Basierend auf dem QR-Codetyp:
+   * Teilnehmer sind für die Kursinstanz registriert oder
+   * Anwesenheit und Abschluss werden für die Sitzung aufgezeichnet.
+
+Alle Aktualisierungen werden automatisch in den Teilnehmerdatensätzen, Transkripten und Berichten widergespiegelt.
+
+#### Anmerkungen
+
+* QR-Codes sind nur für Kursleiter verfügbar, die der Sitzung zugewiesen sind.
+* Die für den Kurs und die Sitzung konfigurierten Regeln für Registrierung, Teilnahme und Abschluss gelten weiterhin.
+* Bestehender Teilnehmerfortschritt und Berichterstellungs-Workflows bleiben unverändert.
+
+#### Anwendungsszenarien
+
+* Unternehmen, die große Mengen an Vor-Ort-Sitzungen durchführen (z. B. Produktschulungen für Fachkräfte), können es den Kursleitern ermöglichen, sitzungsspezifische QR-Codes zu drucken, die die Teilnahme mit einem Scan registrieren und markieren.
+
+* Bei Schulungen für Einzelhandel, Fertigung und Gesundheitswesen, bei denen Teilnehmer oft direkt vom Boden aus oder ohne vorherige Anmeldung an Sitzungen teilnehmen, kann ein QR-Code &quot;Anmeldung + Teilnahme&quot; an der Tür platziert werden. Dies ermöglicht es Teilnehmern, ihre Anmeldung und Anwesenheit über ihre Telefone selbst zu bearbeiten.
+
+* Schulungen für Partner oder Kunden ermöglichen es dem Trainer vor Ort, sich einfach an Änderungen im Raum, zusätzliche Sitzungen oder zusätzliche Teilnehmer anzupassen, ohne den Administrator um neue QR-Codes bitten zu müssen.
+
+### Kalendereinladungen
+
+* Wenn sich ein Teilnehmer oder ein Kursleiter in einem Klassenzimmer oder einer virtuellen Klassenzimmersitzung registriert hat, sendet der Lern-Manager eine Kalendereinladung (ICS-Datei).
+* Die Kalendereinladung umfasst:
+   * Datum und Uhrzeit der Sitzung
+   * Sitzungsdetails
+   * **Link zur direkten Sitzung** in der Kalenderbeschreibung
+
+Die Teilnehmer können die Kalenderveranstaltung öffnen und direkt aus ihrem Kalender an der Sitzung teilnehmen.
+
+#### An einer Sitzung von Gmail teilnehmen
+
+1. Öffnen Sie **Google-Kalender**.
+2. Wählen Sie das Sitzungsereignis aus.
+3. Klicken Sie in den Ereignisdetails auf den Link **Sitzung beitreten**.
+4. Die Sitzung wird direkt in Adobe Learning Manager oder dem konfigurierten Tool für virtuelle Klassenzimmer geöffnet.
+
+Sie müssen nicht die ursprüngliche E-Mail öffnen, um auf den Sitzungslink zuzugreifen.
+
+#### Teilnahme an einer Sitzung von anderen Kalender-Clients
+
+Der Sitzungslink ist im Kalenderereigniskörper enthalten und kann abgerufen werden über:
+
+* Microsoft Outlook
+* Apple Calendar
+* Andere Kalenderanwendungen, die ICS-Dateien unterstützen
+
+#### Anmerkungen
+
+* Kalendereinladungen werden automatisch vom Learning Manager generiert.
+* Die Zeitzoneninformationen in der Kalendereinladung werden basierend auf der ausgewählten Zeitzone des Teilnehmers angepasst.
+* Diese Verbesserung gilt für neu generierte Kalendereinladungen.
+* Administratoren oder Kursleiter müssen keine zusätzliche Konfiguration vornehmen.
+
 
 ## Als erfolgreich markieren
 

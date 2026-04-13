@@ -4,7 +4,7 @@ title: Installieren des Salesforce-Pakets
 description: Learning Manager bietet ein Salesforce-App-Paket. Nach der Installation und Konfiguration in SFDC können Vertriebsmitarbeiter ihre Schulungen im SFDC-Portal durchführen. Mit dieser App können SFDC-Benutzer neue Schulungen durchsuchen, Empfehlungen anzeigen und diese direkt im SFDC-Portal nutzen. Die Benutzer erhalten auch die Ankündigungen, die von Administratoren in Form von Masterseiten direkt in der App im SFDC-Portal gesendet werden.
 contentowner: saghosh
 exl-id: 2b1c32e7-81af-4c13-a2bd-66684cde084e
-source-git-commit: d998e8f55c64a47de3d6171c0e2a82070021c98f
+source-git-commit: 03ac3f985aa523e494e05393ee8fa478faf35646
 workflow-type: tm+mt
 source-wordcount: '1065'
 ht-degree: 64%
@@ -47,7 +47,7 @@ Wenn Sie das Paket installieren möchten, müssen Sie zunächst das vorhandene P
 >
 >Die Adobe Learning Manager-App wird nur in der Salesforce-Lightning-Ansicht unterstützt.
 
-1. Starten Sie die [Lern-Manager-Paket-URL &#x200B;](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000HciS).
+1. Starten Sie die [Lern-Manager-Paket-URL ](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000FvU2).
 1. Klicken Sie auf der Seite **Anmeldung** auf **[!UICONTROL Benutzerdefinierte Domäne verwenden]**.
 1. Geben Sie die Paket-URL ein und klicken Sie auf **[!UICONTROL Weiter]**. Auf der Installationsseite muss die Option „Nur für Administratoren installieren“ aktiviert sein. Ändern Sie diese Option nicht.
 1. Klicken Sie auf **[!UICONTROL Installieren]**. Nachdem das Paket installiert wurde, klicken Sie auf **[!UICONTROL Fertig stellen]**. Sie werden zur Seite „Installierte Pakete“ geleitet, auf der das installierte Adobe Learning Manager-Paket angezeigt wird.

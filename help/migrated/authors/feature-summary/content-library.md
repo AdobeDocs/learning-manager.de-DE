@@ -3,10 +3,10 @@ description: Erfahren Sie, wie Sie Inhalt zum Selbststudium erstellen können, d
 jcr-language: en_us
 title: Inhaltsbibliothek
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+source-git-commit: 0ae0dee3a43108b707e13778edbc7367c67d63e3
 workflow-type: tm+mt
-source-wordcount: '4664'
-ht-degree: 44%
+source-wordcount: '5368'
+ht-degree: 38%
 
 ---
 
@@ -43,9 +43,21 @@ Die folgende Tabelle zeigt den Typ der interaktiven und statischen Dateitypen, d
      <li>SCORM 1.2</li>
      <li>SCORM 2004</li>
      <li>AICC</li>
-     <li>TinCan</li>
+     <li>xAPI</li>
     </ul>
-    <p></p></td>
+    <p><b>Wichtig: Teilnehmerassistent und SCORM-basierte Bewertungen</b></p>
+    <p>Wenn für Ihr Konto der Teilnehmerassistent aktiviert ist und Sie SCORM-/xAPI-Pakete in Kataloge hochladen, die als Inhaltsquellen des Teilnehmerassistenten konfiguriert sind, berücksichtigen Sie Folgendes:</p>
+    <ul>
+      <li>Die Teilnehmer können den Lernassistenten verwenden, um Fragen zum Inhalt dieser Pakete zu stellen.</li>
+      <li>Der Assistent kann Erklärungen oder Zusammenfassungen generieren, die Antworten auf Quizfragen enthalten, die in den SCORM-Kurs eingebettet sind (z. B. durch erneutes Feedback oder die Erläuterung der "richtigen" Option).</li>
+   </ul>
+   <p>Für anspruchsvolle oder beaufsichtigte Bewertungen (z. B. Compliance- oder Zertifizierungsprüfungen) empfiehlt Adobe:</p>
+   <ul>
+      <li>Beibehalten von SCORM-Inhalten mit vielen Bewertungen in Katalogen, die nicht als Teilnehmerassistentenquellen konfiguriert sind, oder</li>
+      <li>Bewertungen so zu gestalten, dass durch einfaches Umformulieren des Lernmaterials nicht trivial die richtigen Antworten angezeigt werden.</li>
+   </ul>
+   <p>Dieses Verhalten wird erwartet: Adobe Learning Manager hindert den Teilnehmer-Assistenten nicht daran, Inhalte zu erklären, die sich in Katalogen befinden, die Sie explizit als AI-Quellen auswählen.</p>
+    </td>
    <td>
     <p>zip</p></td>
   </tr>
@@ -208,7 +220,7 @@ Die Inhaltsbibliothek verwaltet auch die Versionierung Ihrer hochgeladenen Inhal
 
    Die Untertitel werden dann im Fluidic Player angezeigt. Die Beschriftungen entsprechen auch den [WCAG2.0-Standards](https://www.w3.org/TR/WCAG20/).
 
-   Wenn Sie der Bibliothek einen Videoinhalt hinzufügen, können Sie auch die VTT-Datei hinzufügen, bei der **&#x200B;**&#x200B;eine gültige Datei sein muss.
+   Wenn Sie der Bibliothek einen Videoinhalt hinzufügen, können Sie auch die VTT-Datei hinzufügen, bei der **** eine gültige Datei sein muss.
 
    ![](assets/webvtt.png)
 
@@ -250,6 +262,77 @@ Wenn ein Händlerkonto einen Katalog mit den Kursen teilt und die Kurse die Modu
 Die Modulweitergabe sollte vom Verkäufer- zum Käuferkonto korrekt funktionieren. Dies kann Bearbeiten/Löschen/Hinzufügen der VTT-Datei im Modul beinhalten.
 
 Sobald Sie den Inhalt hochgeladen haben, können Sie eine Benachrichtigung anzeigen, indem Sie oben rechts auf der Seite auf das Glockensymbol klicken. Jedes Mal, wenn Sie einen Inhalt ändern und erneut hochladen, erhalten Sie eine Benachrichtigung. Wenn Sie die Änderungen vornehmen, erhalten nur Sie die Benachrichtigung, nicht andere Autoren.
+
+### Unterstützung mehrsprachiger VTT-Anwendungen
+
+Die Unterstützung mehrsprachiger Videotextspuren (VTT) in Adobe Learning Manager ermöglicht es Autoren, Untertitel und Untertitel für Video- und Audioinhalte in mehreren Sprachen bereitzustellen. Diese Funktion vereinfacht die Lokalisierung, macht Schulungen für ein weltweites Publikum zugänglich und stellt die Einhaltung von Standards für Barrierefreiheit sicher. Autoren können VTT-Dateien automatisch direkt auf der Plattform generieren, übersetzen, überprüfen und bearbeiten.
+
+#### Anwendungsszenarien
+
+* Globale Schulung: Stellen Sie Videoinhalte mit Untertiteln in mehreren Sprachen bereit, um internationale Teilnehmer zu erreichen.
+* Barrierefreiheitskonformität: Bieten Sie Untertitel für hörbehinderte Benutzer in ihrer bevorzugten Sprache.
+* Schnellere Lokalisierung: Reduzieren Sie den manuellen Aufwand, und beschleunigen Sie die Bereitstellung von Inhalten durch die automatische Generierung und Übersetzung von VTT-Dateien.
+* Konsistentes Erlebnis: Stellen Sie sicher, dass alle Teilnehmer unabhängig von der Sprache die gleichen Informationen erhalten.
+
+#### Wichtigste Funktionen
+
+* Automatische VTT-Generierung: Laden Sie eine Video- oder Audiodatei hoch und generieren Sie automatisch VTT-Untertitel in der Originalsprache.
+* Mehrsprachige Übersetzung: Übersetzen Sie Untertitel in eine der 39 unterstützten nicht englischen Sprachen.
+* In-App-Überprüfung und -Bearbeitung: Überprüfen, bearbeiten und herunterladen Sie VTT-Dateien vor der Veröffentlichung.
+* Benachrichtigungen: Erhalten Sie In-App-Benachrichtigungen, wenn die VTT-Generierung und -Übersetzung abgeschlossen sind.
+* Nahtlose Veröffentlichung: Publish hat Untertitel für die Teilnehmer fertig gestellt, auf die sie in der gewünschten Sprache zugreifen können.
+
+#### Inhalte hochladen und VTT generieren
+
+1. Wechseln Sie zur Inhaltsbibliothek und wählen Sie [!UICONTROL Inhalt hinzufügen].
+2. Lade eine MP3- oder MP4-Datei hoch.
+3. Wählen Sie im Upload-Dialogfeld die Option zum **Generieren der Übersetzung**.
+4. Wählen Sie die ursprüngliche Inhaltssprache aus (die Standardsprache ist die Sprache der Datei).
+5. Wählen Sie weitere Zielsprachen für die Übersetzung aus (bis zu 39 werden unterstützt).
+6. Wählen Sie [!UICONTROL Speichern]. Das System beginnt mit der Generierung und Übersetzung von VTT-Dateien.
+
+#### Status überwachen
+
+1. Nach dem Speichern wird der neue Inhaltseintrag in der Inhaltsbibliothek angezeigt.
+2. Eine Fortschrittsanzeige zeigt den Status der VTT-Generierung und -Übersetzung an.
+3. Sie erhalten eine In-App-Benachrichtigung, wenn der Vorgang abgeschlossen ist.
+
+#### Überprüfen und Bearbeiten von VTT-Dateien
+
+1. Öffnen Sie den Inhalt in der Inhaltsbibliothek im Modus **Bearbeiten**.
+2. Wählen Sie für jede Sprache den Link &quot;Überprüfen&quot; neben der VTT-Datei.
+3. In einem Popupfenster werden die Untertitel für diese Sprache angezeigt.
+4. Bearbeiten Sie Untertitel direkt im Popup oder laden Sie die VTT-Datei für die Offline-Bearbeitung herunter.
+5. Laden Sie nach dem Vornehmen von Änderungen die überarbeiteten Untertitel hoch bzw. fügen Sie sie wieder in das Popup-Fenster ein.
+6. Speichern Sie Ihre Änderungen.
+
+#### Publish-Untertitel
+
+1. Wenn Sie mit allen Sprachbeschriftungen zufrieden sind, veröffentlichen Sie den Inhalt.
+2. Teilnehmer sehen Untertiteloptionen in allen veröffentlichten Sprachen, wenn sie das Video anzeigen.
+
+#### Weitere Informationen
+
+* Unterstützte Sprachen: Alle 39 nicht englischsprachigen Sprachen, die von Adobe Learning Manager unterstützt werden.
+* Benachrichtigungen: Autoren werden benachrichtigt, wenn die VTT-Generierung und -Übersetzung abgeschlossen sind.
+* Flexibilität bei der Bearbeitung: Untertitel können in der App oder offline bearbeitet und erneut hochgeladen werden.
+* Skalierbarkeit: Entwickelt für Lokalisierungs- und Barrierefreiheitsanforderungen in Unternehmen.
+* Manuelles Hochladen von VTT ist nicht erforderlich: Das System kann VTT-Dateien mithilfe des hochgeladenen Videos/Audios von Grund auf neu generieren.
+
+#### Best Practices
+
+* Überprüfen Sie automatisch generierte Untertitel vor der Veröffentlichung immer auf ihre Genauigkeit.
+* Stellen Sie Übersetzungen für alle wichtigen Teilnehmergruppen bereit, um die Zugänglichkeit zu maximieren.
+* Verwenden Sie das Benachrichtigungssystem, um über den Verarbeitungsstatus auf dem Laufenden zu bleiben.
+* Aktualisieren Sie regelmäßig die Untertitel, wenn sich der Videoinhalt ändert.
+
+#### Fehlerbehebung
+
+* Wenn die VTT-Generierung fehlschlägt, stellen Sie sicher, dass Ihre Datei in einem unterstützten Format (MP3/MP4) vorliegt.
+* Überprüfen Sie bei fehlenden Sprachen, ob sie während des Uploads unterstützt und ausgewählt werden.
+* Wenn Untertitel nicht synchron sind, können Sie das Timing mit dem In-App-Editor anpassen.
+* Die mehrsprachige VTT-Unterstützung ermöglicht es Ihnen, barrierefreie, lokalisierte Video-Lernerlebnisse effizient bereitzustellen. Durch die automatische Generierung, Übersetzung und In-App-Bearbeitung können Sie sicherstellen, dass Ihre Inhalte alle Teilnehmer unabhängig von der Sprache erreichen und unterstützen.
+
 
 ## Erstellen Sie ein Quiz {#createaquiz}
 

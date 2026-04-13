@@ -3,10 +3,10 @@ description: Referenzhandbuch für Integrationsadministratoren zum Migrieren ein
 jcr-language: en_us
 title: Migrationshandbuch
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+source-git-commit: 0ae0dee3a43108b707e13778edbc7367c67d63e3
 workflow-type: tm+mt
-source-wordcount: '4636'
-ht-degree: 70%
+source-wordcount: '5322'
+ht-degree: 61%
 
 ---
 
@@ -479,6 +479,127 @@ Wenn Sie sich bei den FTP- und Box-Servern angemeldet und den Inhalt hochgeladen
 
 *CSV-Speicherorte im Box-Konto*
 
+## Migration für Alternativen und Entsprechungen
+
+### Übersicht
+
+In diesem Thema werden das CSV-basierte Datenmodell und das Migrationsverhalten zur Einführung der Lernobjektäquivalenz (LO) im System beschrieben.
+
+### Vorhandene CSV-Dateien (Kontext)
+
+Diese CSVs sind bereits in der Plattform vorhanden und stellen das primäre Lernobjekt, das Modul und den Abschlusskontext bereit (nicht erschöpfende Liste):
+
+* user_course_grade.csv
+* Modulumkehrung
+* module.csv
+* course.csv
+* course_module.csv
+
+Diese Dateien werden weiterhin unverändert verwendet und werden nicht durch die neue Äquivalenzfunktion geändert. Sie bilden jedoch die zugrunde liegenden Daten, auf denen die Äquivalenz angewendet wird.
+
+### Neue CSV-Dateien für Alternativen
+
+Zwei neue CSVs werden eingeführt, um LO-alternative Beziehungen und entsprechende Benutzerabschlüsse zu unterstützen.
+
+#### &#x200B;1. equivalence_relations.csv
+
+Definiert Äquivalenzzuordnungen zwischen Quell- und Ziel-Lernobjekten (LOs), die entweder Kurse oder Lernpfade (LPs) sein können.
+
+**Schema:**
+
+* sourceId
+* sourceloType (Kurs/LP)
+* targetId
+* targetLotype (Kurs / LP)
+* dateCreated
+* relatedStatus (AKTIV / DELETE)
+* dateModified
+
+**Zweck:**
+
+* Stellt eine Äquivalenzbeziehung zwischen zwei LOs dar.
+* relationStatus steuert, ob die Beziehung derzeit aktiv oder gelöscht ist.
+* dateCreated und dateModified unterstützen Auditing.
+
+#### equivalence_user_completion.csv
+
+Erfasst Abschlussinformationen auf Benutzerebene für entsprechende LOs, die den in der Datei &quot;equivalence_relations.csv&quot; definierten Beziehungen entsprechen.
+
+**Schema:**
+
+* userId
+* sourceId
+* sourceloType (Kurs/LP)
+* targetId
+* targetLotype (Kurs / LP)
+* dateCompleted
+
+**Zweck:**
+
+* Explizit wird aufgezeichnet, welche **LO-Zielabschlüsse** für einen Benutzer auf der Grundlage der Äquivalenzbeziehung und der vorhandenen LO-Quellabschlüsse abgeleitet werden sollen.
+* Dient als **autoritative Quelle** für Benutzerabschlüsse, die mit Daten migrierter Entsprechungen verknüpft sind.
+
+### Migrationsregeln und Verhaltenssemantik
+
+#### &#x200B;1. Keine Nachrüstungsunterstützung für neue Entsprechungen von CSVs
+
+* Alle äquivalenzbezogenen Daten müssen über die Migration eingegeben werden.
+* Das System unterstützt keine Szenarien, in denen:
+   * LO-Daten (Kurse/LPs) wurden über die Benutzeroberfläche erstellt und
+   * Äquivalenzbeziehungen werden später nur über CSV importiert.
+
+Dies bedeutet:
+
+* Das unterstützte Muster ist: LO-Definitionen und ihre Äquivalenzbeziehungen werden als Teil eines kohärenten Migrationsflusses verwaltet.
+* Hybride Flows, bei denen über die Benutzeroberfläche erstellte LOs mit einer reinen CSV-Äquivalenz nachgerüstet werden, werden nicht unterstützt.
+
+#### &#x200B;2. Keine retroaktiven Abschlüsse/Unvollständigkeiten aus migrierten Beziehungen
+
+Wenn eine Äquivalenzbeziehung über Migration eingeführt wird (d. h. über equivalence_relations.csv):
+
+* Das System führt keine retroaktive Fertigstellungs- oder Unvollständigkeitsberechnungen durch, die ausschließlich auf dieser Beziehung basieren.
+* Stattdessen müssen alle erforderlichen Benutzervervollständigungsdaten explizit über equivalence_user_completion.csv bereitgestellt werden.
+
+**Implikation:**
+
+* equivalence_user_completion.csv ist die einzige Quelle der Wahrheit für alle Abschlüsse, die bei der Migration als Ergebnis der Äquivalenz erkannt werden sollten.
+* Die Plattform versucht nicht, diese Abschlüsse vom vorhandenen Kursfortschritt abzuleiten oder zu vervollständigen.
+
+#### &#x200B;3. Verhalten für neue Abschlüsse nach der Migration
+
+Wenn:
+
+* Eine Äquivalenzbeziehung wurde durch Migration erstellt und
+* Ein Teilnehmer schließt später das Quell-LO ab (nach der Migration).
+
+dann:
+
+* Das System löst alternative Abschlüsse für das Ziel-LO aus, d. h., die Äquivalenz verhält sich in der Regel bei neuen Quellenabschlüssen.
+
+**Hauptunterscheidung:**
+
+* **Zum Migrationszeitpunkt:** Abschlüsse müssen über equivalence_user_completion.csv erfolgen.
+* **Nach der Migration:** Die native Laufzeitlogik verarbeitet alternative Abschlüsse, wenn ein Quell-LO neu abgeschlossen wird.
+
+#### &#x200B;4. Auswirkungen auf Lernobjekte höherer Ordnung
+
+Alternative Abschlüsse, die über CSV eingehen (d. h. über equivalence_user_completion.csv), lösen eine Neuberechnung von LOs höherer Ordnung aus.
+
+LOs höherer Ordnung können Folgendes umfassen:
+
+* Lernpfade
+
+**Technische Auswirkungen:**
+
+* Die Aufnahme von equivalence_user_complete.csv ist kein &quot;unbeaufsichtigter&quot; Vorgang: Sie initiiert dieselbe Reberechnungs-/Roll-up-Logik, die durch normale Laufzeitabschlüsse ausgelöst würde.
+* Systeme, die diese Migration integrieren oder planen, müssen die Last und den Zeitpunkt der Neuberechnung planen.
+
+## Webhooks für Alternativen
+
+Wenn ein Teilnehmer einen Kurs über eine alternative Registrierung oder über eine Beziehung abschließt, generiert Adobe Learning Manager ein dediziertes Webhook-Ereignis, das sich vom Standard-Webhook für den Kursabschluss unterscheidet, sodass Integrationen verschiedene Handhabungslogik für alternative Abschlüsse anwenden können. Webhook-Ereignisse werden auch für den rückwirkenden Abschluss und die rückwirkende Nicht-Abschluss generiert und decken historische Änderungen des Kursstatus ab, einschließlich solcher, die durch Aktualisierungen von Beziehungen gesteuert werden, sodass externe Systeme mit dem aktuellen Abschlussstatus des Teilnehmers synchronisiert bleiben.
+
+Informationen zu webhooks for Alternates finden Sie unter [webhooks for Alternates](/help/migrated/integration-admin/feature-summary/webhooks.md#webhooks-for-alternates).
+
 ## Migrationsverfahren für Daten und Inhalte {#dataandcontentmigrationprocedure}
 
 Das Verfahren zur Migration der LMS-Daten und -Inhalte Ihres Unternehmens zu Learning Manager wird im Folgenden erläutert:
@@ -789,3 +910,9 @@ Weitere Informationen zu diesem Thema finden Sie in den folgenden Hilfeinhalten:
 
 * [Häufig gestellte Fragen zum Hochladen von CSV](/help/migrated/administrators/feature-summary/add-users-user-groups.md#bulk-upload-internal-users/)
 * [Funktions-Hilfe für das Hinzufügen von Benutzern](/help/migrated/administrators/feature-summary/add-users-user-groups.md)
+
+## API-Änderungen
+
+Die Version April 2026 von Adobe Learning Manager bietet zielgerichtete Verbesserungen an der öffentlichen API in den Bereichen Alternativprogramme und Äquivalente, Zugriff auf Inhalte im Zeitfenster, inhaltsgesteuerte Quizversuche, nicht angemeldete Teilnehmererlebnisse und Arbeitshilfenverwaltung. Diese Updates sind so konzipiert, dass sie weitgehend abwärtskompatibel bleiben und gleichzeitig präzisere und erweiterbare Integrationsmuster ermöglichen.
+
+Zeigen Sie für API-Änderungen [API-Änderungen](/help/migrated/api-changes-alm.md) an.

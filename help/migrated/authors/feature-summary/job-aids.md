@@ -1,12 +1,12 @@
 ---
 jcr-language: en_us
 title: Arbeitshilfen
-description: Arbeitshilfen sind ein Repository mit Schulungsinhalten, das den Teilnehmern ohne Registrierung oder Abschlusskriterien zur Verfügung steht. Die Teilnehmer können auf diese Arbeitshilfen zurückgreifen, wenn sie bei Aktivitäten oder Aufgaben im Unternehmen Unterstützung benötigen.
+description: Die Arbeitshilfen sind ein Repository mit Schulungsinhalten, das den Teilnehmern ohne Registrierung oder Abschlusskriterien zur Verfügung steht. Die Teilnehmer können auf diese Arbeitshilfen zurückgreifen, wenn sie bei Aktivitäten oder Aufgaben im Unternehmen Unterstützung benötigen.
 exl-id: c8e925ee-2e40-4a71-9b8e-42a1b49d01bc
-source-git-commit: 2a841234cd829d2a477d44e9cca095370ee25e51
+source-git-commit: 2604dc206de5f6e883c1073880348b2ab97b01c6
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 65%
+source-wordcount: '1084'
+ht-degree: 42%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 65%
 
 Arbeitshilfen können unabhängig oder zusammen mit Kursen in Learning Manager genutzt werden.
 
-Autoren können Arbeitshilfe für Teilnehmer erstellen. Verwenden Sie Arbeitshilfen, um Teilnehmern Referenzmaterialien wie Tipps, Checklisten und Anleitungen zur Verfügung zu stellen, die sie fortlaufend verwenden können, um ihre Aufgaben zu erledigen.
+Autoren können Arbeitshilfen für Teilnehmer erstellen. Arbeitshilfen ermöglichen es, Teilnehmern Referenzmaterialien wie Tipps, Checklisten oder Anleitungen zur ständigen Verwendung bei der Erledigung ihrer Aufgaben zur Verfügung zu stellen.
 
 ## Arbeitshilfe erstellen {#createjobaid}
 
@@ -65,6 +65,67 @@ Die folgenden Dateiformate werden für Arbeitshilfen unterstützt:
 >
 >Zip-Dateien und Bilddateien werden nicht unterstützt.
 
+## Mehrsprachige Arbeitshilfen
+
+Mithilfe mehrsprachiger Arbeitshilfen in Adobe Learning Manager (ALM) können Autoren und Administratoren unterstützende Dokumente, Hilfslinien oder Ressourcen in mehreren Sprachen in einem einzigen Arbeitshilfeeintrag zur Verfügung stellen. Teilnehmer aus verschiedenen Regionen können auf relevante Materialien in ihrer bevorzugten Sprache zugreifen, was das Verständnis, die Compliance und die Benutzerfreundlichkeit verbessert.
+
+**Anwendungsfälle**
+
+* Globale Mitarbeiterunterstützung: Stellen Sie Sicherheitshandbücher, Prozessleitfäden oder Referenzdokumente in mehreren Sprachen für verschiedene Mitarbeiter bereit.
+* Einhaltung behördlicher Auflagen: Stellen Sie sicher, dass alle Mitarbeiter die gleiche Dokumentation zur Einhaltung der Auflagen in ihrer Muttersprache erhalten.
+* Konsistentes Onboarding: Stellen Sie für Neueinstellungen weltweit Checklisten für das Onboarding oder FAQs in lokalen Sprachen zur Verfügung.
+* Reduzierte Doppelarbeit: Verwalten Sie alle Sprachversionen einer Arbeitshilfe in einem einzigen Eintrag, wodurch Aktualisierungen und Berichte vereinfacht werden.
+
+### Wichtigste Funktionen
+
+* Unterstützung mehrerer Sprachen: Fügen Sie innerhalb einer einzigen Arbeitshilfe eine eindeutige Datei oder URL für jede unterstützte Sprache hinzu.
+* Lokalisierter Name und Beschreibung: Geben Sie den Namen und die Beschreibung der Arbeitshilfe in jeder Sprache ein.
+* Einheitliche Verwaltung: Bearbeiten, aktualisieren und erstellen Sie Berichte zu allen Sprachversionen von einem zentralen Ort aus.
+* Abwärtskompatibilität: Bestehende Arbeitshilfen in einer Sprache werden automatisch in allen hinzugefügten Sprachen repliziert, bis neue Dateien hochgeladen werden.
+
+### Erstellen einer mehrsprachigen Arbeitshilfe
+
+1. Wechseln Sie zur Rolle &quot;Autor&quot; und wählen Sie &quot;Arbeitshilfen&quot;.
+2. Wählen Sie &quot;Arbeitshilfe erstellen&quot;.
+3. Geben Sie den Namen und die Beschreibung der Arbeitshilfe in der Standardsprache ein.
+4. Fügen Sie die primäre Inhaltsdatei oder URL für die Standardsprache hinzu.
+5. Speichern Sie die Arbeitshilfe.
+
+### Zusätzliche Sprachen hinzufügen
+
+1. Wählen Sie im Arbeitshilfeeditor die Option Sprache hinzufügen.
+2. Wählen Sie die gewünschte(n) Sprache(n) aus der Liste aus.
+3. Für jede hinzugefügte Sprache:
+   * Geben Sie den lokalisierten Namen und die Beschreibung ein.
+   * Laden Sie die entsprechende Inhaltsdatei hoch oder geben Sie eine sprachspezifische URL an.
+4. Wiederholen Sie diesen Vorgang für alle erforderlichen Sprachen.
+
+### Bearbeiten und Verwalten von Sprachen
+
+1. Um eine Datei oder eine Beschreibung für eine bestimmte Sprache zu aktualisieren, wählen Sie die Registerkarte &quot;Sprache&quot; aus und nehmen Sie die erforderlichen Änderungen vor.
+2. Wenn eine Sprache nach Veröffentlichung der Arbeitshilfe hinzugefügt wird, wird die Originaldatei automatisch der neuen Sprache zugewiesen, bis eine eindeutige Datei hochgeladen wird.
+3. Entfernen oder ersetzen Sie Dateien für jede beliebige Sprache nach Bedarf.
+
+### Publish und Teilnehmererlebnis
+
+1. Nachdem alle Sprachen und Dateien hinzugefügt wurden, veröffentlichen Sie die Arbeitshilfe.
+2. Die Teilnehmer sehen die Arbeitshilfe in ihrer ausgewählten Inhaltssprache mit der entsprechenden Datei oder URL.
+3. Wenn die Sprache eines Teilnehmers nicht verfügbar ist, wird die Standardsprachdatei angezeigt.
+
+### Berichte
+
+* Laden Sie Arbeitshilfeberichte herunter, um Details zu allen Dateien und Sprachen anzuzeigen, die mit den einzelnen Arbeitshilfen verknüpft sind.
+* Berichte enthalten Sprache, Dateinamen und Nutzungsdaten für die Nachverfolgung.
+
+### Best Practices
+
+* Präzise Übersetzung von Namen, Beschreibungen und Inhaltsdateien.
+* Überprüfe und aktualisiere Dateien regelmäßig, um die sprachübergreifende Konsistenz sicherzustellen.
+* Verwenden Sie klare Benennungskonventionen, um Dateien für verschiedene Sprachen zu unterscheiden.
+* Testen Sie die Lernerfahrung der Teilnehmer, indem Sie die Inhaltssprachen wechseln, um die richtige Dateibereitstellung zu überprüfen.
+
+Mithilfe mehrsprachiger Arbeitshilfen können Sie einer globalen Zielgruppe in einem einzigen Eintrag unterstützende Ressourcen zur Verfügung stellen, Doppelarbeit reduzieren und sicherstellen, dass jeder Teilnehmer die richtigen Informationen in der von ihm gewünschten Sprache erhält. Diese Funktion verbessert die Barrierefreiheit, Compliance und Verwaltungseffizienz in Adobe Learning Manager.
+
 ## Arbeitshilfen zurücknehmen/erneut veröffentlichen {#withdrawrepublishjobaids}
 
 Sie können eine veröffentlichte Arbeitshilfe zurücknehmen, indem Sie auf das Symbol „Einstellungen“ neben der Arbeitshilfe klicken und „Zurücknehmen“ wählen.
@@ -73,7 +134,7 @@ Sie können eine veröffentlichte Arbeitshilfe zurücknehmen, indem Sie auf das 
 
 *Eine veröffentlichte Arbeitshilfe bearbeiten, zurückziehen oder in der Vorschau anzeigen*
 
-Durch Klicken auf die Registerkarte „Zurückgenommen“ können Sie zurückgenommene Arbeitshilfen anzeigen. Sie können die zurückgenommenen Aufträge erneut veröffentlichen, indem Sie auf das Einstellungssymbol klicken und Publish auswählen.
+Durch Klicken auf die Registerkarte „Zurückgenommen“ können Sie zurückgenommene Arbeitshilfen anzeigen. Um zurückgenommene Arbeitshilfen erneut zu veröffentlichen, klicken Sie auf das Symbol „Einstellungen“ und wählen Sie „Veröffentlichen“.
 
 ## Unterstützung für HTML-Pakete in Arbeitshilfen
 

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Kurse erstellen, ändern und veröffentlichen
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+source-git-commit: 0ae0dee3a43108b707e13778edbc7367c67d63e3
 workflow-type: tm+mt
-source-wordcount: '7631'
-ht-degree: 75%
+source-wordcount: '8840'
+ht-degree: 64%
 
 ---
 
@@ -437,7 +437,7 @@ Führen Sie die folgenden Schritte aus, um ein Inhaltsmodul hinzuzufügen:
 
    *VC-Modul hinzufügen*
 
-   Wenn Sie einen Kurs mithilfe des Konfigurationsdialogfelds &quot;Virtuelles Klassenzimmer&quot; erstellen, stellen Sie das **Konferenzsystem** auf die von Ihnen erstellte Teams-Verbindung ein. Wählen Sie aus, ob Sie einen Meetingorganisator für die Veranstaltung wünschen.
+   Wenn Sie einen Kurs mithilfe des Konfigurationsdialogfelds &amp;quot;Virtuelles Klassenzimmer&amp;quot; erstellen, stellen Sie das **Konferenzsystem** auf die von Ihnen erstellte Teams-Verbindung ein. Wählen Sie aus, ob Sie einen Meetingorganisator für die Veranstaltung wünschen.
 
    Wenn Sie **Ja** für einen Meetingveranstalter auswählen, müssen Sie den Namen des Veranstalters eingeben. Geben Sie den Namen ein und wählen Sie den Organisator aus.
 
@@ -531,7 +531,9 @@ Die Bewertung ist ein wichtiger Aspekt jedes LMS. Online-Bewertungen sind eine d
 
 Nehmen wir an, Ladenangestellte oder Lagerarbeiter unterliegen bei ihrer tagtäglichen Arbeit einer Bewertung. Es könnten die zur Reparatur einer Kaffeemaschine ausgeführten Schritte oder die Schritte bei der Verpackung eines Materials sein. Kursleiter können Mitarbeiter für solche Aufgaben anhand einer Checkliste in der Bewertungsaktivität mit „Bestanden“ oder „Nicht bestanden“ bewerten.
 
-### Erstellen einer Checkliste {#createachecklist}
+Sie können eine Checkliste in mehreren Sprachen erstellen.
+
+### Erstellen einer Checkliste in mehreren Sprachen {#createachecklist}
 
 Nur ein Autor kann eine Checkliste erstellen. Eine Checkliste ist ein Aktivitätsmodultyp. Beim Einrichten eines Aktivitätsmoduls können Sie als Autor eine Aktivität wie unten dargestellt als **Checkliste** auswählen:
 
@@ -539,9 +541,26 @@ Nur ein Autor kann eine Checkliste erstellen. Eine Checkliste ist ein Aktivität
 
 *Checkliste erstellen*
 
-Nachdem Sie die Option **Checkliste** ausgewählt haben, werden einige weitere Optionen angezeigt.
+1. Nachdem Sie die Option **Checkliste** ausgewählt haben, werden einige weitere Optionen angezeigt.
 
-**Checklistentyp:** Wählen Sie eine Option aus, **Ja/Nein** oder **1-5**. Wenn Sie „Ja/Nein“ wählen, enthält die Checkliste Fragen, die nur mit Ja oder Nein beantwortet werden können. Wenn Sie „1-5“ wählen, wird eine Likert-Checkliste angezeigt, in der Sie eine Frage auf einer Fünf-Punkte-Skala bewerten können.
+2. **Checklistentyp:** Wählen Sie eine Option aus, **Ja/Nein** oder **1-5**. Wenn Sie „Ja/Nein“ wählen, enthält die Checkliste Fragen, die nur mit Ja oder Nein beantwortet werden können. Wenn Sie „1-5“ wählen, wird eine Likert-Checkliste angezeigt, in der Sie eine Frage auf einer Fünf-Punkte-Skala bewerten können.
+
+3. Wählen Sie **Konfigurieren**. Das Fenster Checkliste wird angezeigt.
+4. Gib beliebig viele Fragen ein. Sie können die gleichen Fragen auch in den zusätzlichen Sprachen eingeben.
+
+   ![](assets/multi-lang-support-for-checklists2.png)
+   *Zusätzliche Sprachen verfügbar*
+
+   ![](assets/multi-lang-support-for-checklists3.png)
+   *Beispielsweise werden Fragen auch auf Französisch eingegeben*
+
+   >[!NOTE]
+   >
+   >ALM übersetzt die Fragen nicht automatisch in diese zusätzlichen Sprachen. Sie müssen die Fragen in die jeweiligen Sprachen übersetzen.
+
+5. Wählen Sie **Speichern**. Die Fragen werden in allen Sprachen gespeichert.
+6. Wählen Sie alle anderen relevanten Optionen aus und wählen Sie **Hinzufügen**. Die Checkliste wird in allen Sprachen erstellt, in denen der Kurs verfügbar ist.
+
 
 **Kriterien für das Bestehen:**
 
@@ -573,6 +592,8 @@ Fügen Sie nun die Checklistenfragen hinzu. Klicken Sie auf **[!UICONTROL Hinzuf
 *Checklistenfragen hinzufügen*
 
 Um mehr Fragen hinzuzufügen, klicken Sie auf **[!UICONTROL Weitere hinzufügen]**.
+
+
 
 Speichern Sie die Änderungen, fügen Sie das Modul hinzu und veröffentlichen Sie den Kurs.
 
@@ -617,6 +638,218 @@ Geben Sie auf dieser Seite die folgenden Details ein:
    *Zuweisen einer Kursleiterrolle zu einem Benutzer*
 
 1. Um den Kurs mit den Aktualisierungen erneut zu veröffentlichen, klicken Sie auf **[!UICONTROL Neu veröffentlichen]**.
+
+### Checkliste mit Kommentaren
+
+
+Durch das Kommentieren von Checklisten können Autoren **kontextbezogenes Feedback** während checklistenbasierter Auswertungen aktivieren.\
+Wenn diese Option aktiviert ist, können Prüfer (Kursleiter oder Manager) Anmerkungen hinzufügen, in denen die Ergebnisse der Bewertung erläutert werden, die über die Punktzahl oder den Status &quot;Bestanden/Nicht bestanden&quot; hinausgehen.
+
+Diese Funktion wandelt Checklisten aus einem rein bewertenden Tool in einen **Feedback-gesteuerten Lernmechanismus** um, wodurch das Verständnis der Teilnehmer, die Transparenz und die Folgeaktionen verbessert werden.
+
+Auf diese Weise können Autoren:
+
+* Reviewerkommentare für Checklisten aktivieren
+* Steuern, ob Kommentare für Teilnehmer sichtbar sind
+* Steuern, ob Teilnehmern der Name des Überprüfers angezeigt wird
+* Sicherstellen, dass die Kommentare von Reviewern in Teilnehmertranskripten und Berichten erfasst werden
+
+#### Anwendungsszenarien
+
+#### Leistungsbewertungen
+
+Eindeutiges Feedback zu beobachteten Stärken, Lücken und Verbesserungsbereichen in realen oder rollenbasierten Bewertungen geben.
+
+#### Schulungen mit Kursleiter und VILT
+
+Lassen Sie die Kursleiter erklären, warum ein Teilnehmer eine auf einer Checkliste basierende Bewertung bestanden oder nicht bestanden hat.
+
+#### Compliance- und Auditszenarien
+
+Führen Sie einen prüfbaren Pfad zur Erläuterung der Entscheidungen zur Checklistenbewertung durch.
+
+#### Umgebungen mit mehreren Prüfern
+
+Helfen Sie den Teilnehmern dabei, ihre Prüfer zu identifizieren, und folgen Sie den Anweisungen, um sie zu erläutern.
+
+#### Checklistenkommentare aktivieren
+
+1. Öffnen Sie einen vorhandenen Kurs oder erstellen Sie einen neuen Kurs.
+2. Fügen Sie ein Checklistenmodul hinzu oder öffnen Sie ein vorhandenes Checklistenmodul zur Bearbeitung.
+3. Im Einstellungsfenster für die Checkliste:
+   1. Wählen Sie **Anmerkungen des Reviewers** aus. Während Sie die Checkliste überprüfen, können die Reviewer ihre Anmerkungen oder ihr Feedback hinzufügen. Nach Veröffentlichung kann diese Einstellung nicht mehr geändert werden.
+   2. (Optional) Wählen Sie **Überprüfernamen für Teilnehmer anzeigen**. Auf diese Weise können Teilnehmer den Namen des Überprüfers anzeigen, der das Checklistenmodul überprüft hat.
+4. Speichern Sie die Checklistenkonfiguration.
+5. Publish den Kurs, um die Checkliste für Evaluierungen verfügbar zu machen.
+
+Die Checkliste unterstützt jetzt Reviewerkommentare während der Teilnehmerauswertung.
+
+#### Was passiert während der Evaluierung?
+
+Obwohl Autoren keine Bewertungen durchführen, ist es nützlich, zu verstehen, wie die Konfiguration verwendet wird:
+
+* Reviewer sehen ein **Feld mit Anmerkungen**, während sie Teilnehmer bewerten
+* Reviewer können während der Übermittlung kontextbezogene Kommentare hinzufügen.
+* Wenn aktiviert:
+   * Teilnehmer sehen Reviewerkommentare
+   * Teilnehmer sehen den Namen des Reviewers
+
+#### Teilnehmererlebnis (wenn aktiviert)
+
+* Wenn Teilnehmer eine abgeschlossene Checkliste öffnen:
+* Das Ergebnis der Checkliste wird angezeigt (Bestanden/Nicht bestanden oder Punktzahl).
+* Reviewerkommentare werden angezeigt (sofern aktiviert)
+* Der Name des Überprüfers wird angezeigt (sofern aktiviert).
+
+Dies hilft den Teilnehmern, die Bewertungsergebnisse und die nächsten Schritte klar zu verstehen.
+
+#### Anmerkungen für Autoren
+
+* Checklistenkommentar ist **optional** und muss explizit aktiviert sein.
+* Die Sichtbarkeit der Kommentare und die Identität des Reviewers ist **vollständig vom Autor kontrolliert**.
+* Funktioniert mit:
+   * Einzelne oder mehrere Prüfer
+   * Bewertungsbasiert, Ja/Nein und skalierte Checklisten
+* Keine Auswirkungen auf vorhandene Checklisten, sofern diese nicht vom Autor aktualisiert werden
+
+### Erstellen einer mehrsprachigen Checkliste
+
+Mithilfe der Unterstützung mehrerer Sprachen für Checklisten können Autoren **ein einzelnes Checklistenmodul mit Fragen erstellen, die in mehreren Sprachen verfügbar sind**.\
+Wenn diese Option aktiviert ist, werden Checklistenfragen automatisch in der **ausgewählten Inhaltssprache** angezeigt, wodurch konsistente und lokalisierte Auswertungen in globalen Teams sichergestellt werden.
+
+Dadurch entfällt die Notwendigkeit, **separate Checklisten pro Sprache** zu erstellen und zu verwalten. Dadurch werden Doppelarbeit reduziert und die Kursverwaltung vereinfacht.
+
+Dank Unterstützung mehrsprachiger Checklisten können Autoren Folgendes tun:
+
+* Hinzufügen von Checklistenfragen in mehreren Sprachen innerhalb derselben Checkliste
+* Beibehalten der Sprachparität in Checklistenfragen
+* Stellen Sie sicher, dass Überprüfer Checklistenfragen automatisch in ihre Inhaltssprache lokalisiert sehen
+* Checklistenberichte in der ausgewählten Sprache herunterladen
+
+#### Anwendungsszenarien
+
+#### Globale Mitarbeiterbewertungen
+
+Ermöglichen Sie es Managern und Kursleitern, Teilnehmer mithilfe lokalisierter Checklistenfragen zu bewerten.
+
+#### Standardisierte Bewertungen in verschiedenen Regionen
+
+Verwalten Sie eine einzige Evaluierungsstruktur, während Sie gleichzeitig mehrere Sprachen für verschiedene Regionen unterstützen.
+
+#### Compliance- und Betriebsschulung
+
+Stellen Sie sicher, dass Bewerter Checklistenkriterien in ihrer Muttersprache verstehen, um Interpretationsfehler zu reduzieren.
+
+#### Weniger doppelte Inhalte.
+
+Vermeiden Sie das Erstellen und Verwalten mehrerer Checklistenmodule für verschiedene Sprachen.
+
+#### Erstellen einer mehrsprachigen Checkliste
+
+1. Öffnen Sie einen vorhandenen Kurs oder erstellen Sie einen neuen Kurs.
+2. Fügen Sie ein Checklistenmodul hinzu.
+3. Fügen Sie in den Kurseinstellungen die erforderlichen **Inhaltssprachen** hinzu (z. B. Englisch, Französisch, Deutsch).
+4. Speichern Sie die Kurskonfiguration.
+
+#### Checklistenfragen in mehreren Sprachen konfigurieren
+
+1. Öffnen Sie die Konfiguration des Checklistenmoduls.
+2. Navigieren Sie zum Abschnitt **Fragen konfigurieren**.
+3. Verwenden Sie die **Sprachregisterkarten**, um zwischen verfügbaren Sprachen zu wechseln.
+4. Für jede Sprache:
+   * Fügen Sie die übersetzte Version jeder Checklistenfrage hinzu
+   * Beibehalten der gleichwertigen Bedeutung und der gleichwertigen Evaluierungsabsicht für alle Sprachen
+5. Definieren Sie nach Bedarf Checklistenkriterien (Ja/Nein, skalierungsbasiert oder ergebnisbasiert).
+
+Jede Sprachversion stellt die gleiche Checkliste dar, kein separates Modul.
+
+Speichern Sie die Checklistenkonfiguration und veröffentlichen Sie den Kurs. Die Checkliste ist jetzt in allen konfigurierten Sprachen verfügbar.
+
+#### Ablauf beim Überprüfer
+
+* Überprüfer sehen Checklistenfragen in **ihrer ausgewählten Inhaltssprache**.
+* Während der Auswertung ist kein manueller Sprachwechsel erforderlich
+* Wenn ein Reviewer seine Inhaltssprache ändert, werden die Fragen auf der Checkliste automatisch angepasst
+
+### Weisen Sie Checklistenfragen Stärken zu
+
+Die Gewichtung der Checklistenfragen ermöglicht es Autoren, **ergebnisbasierte Checklisten** zu erstellen, in denen einzelne Checklistenfragen **unterschiedliche Höchstpunktzahlen** tragen können.
+
+Anstatt alle Checklistenelemente gleich zu behandeln, können Autoren gewichtete Fragen definieren und eine **minimale Gesamtpunktzahl** festlegen, die für ein Bestehen des Teilnehmers erforderlich ist.
+
+Diese Funktion ermöglicht präzisere und flexiblere Bewertungen, insbesondere für **leistungsbasierte, bewertungsorientierte und Compliance-orientierte Schulungen**.
+
+Mit der Gewichtung der Checklistenfragen können Autoren Folgendes tun:
+
+* Erstellen eines **ergebnisbasierten Checklistentyps**
+* Weisen Sie den einzelnen Fragen der Checkliste unterschiedliche **Höchstpunktzahlen** zu
+* Definieren Sie eine **Mindestgesamtpunktzahl**, die zum Bestehen der Checkliste erforderlich ist.
+* Erweiterte Bewertungsskala verwenden (konfigurierbarer Bereich bis zu 10)
+* Erreichte Punktzahl vs. Höchstpunktzahl in Berichten anzeigen
+
+#### Anwendungsszenarien
+
+#### Von Kursleitern geführte Bewertungen
+
+Bewerten Sie Teilnehmer anhand detaillierter Bewertungskriterien anstelle einfacher Ja/Nein-Ergebnisse.
+
+#### SOP- und Betriebsschulung
+
+Weisen Sie kritischen Schritten eine höhere und kleineren Aufgaben eine geringere Gewichtung zu.
+
+#### Compliance und Zertifizierungsbereitschaft
+
+Stellen Sie sicher, dass die Teilnehmer vor dem Bestehen einen definierten Mindestkompetenzschwellenwert erreichen.
+
+#### Leistungs- und Kompetenzbenchmarking
+
+Unterstützung strukturierter Evaluierungen, bei denen ein teilweiser Abschluss noch zur Gesamtbewertung beiträgt.
+
+#### Erstellen einer gewichteten Checkliste
+
+1. Öffnen Sie einen vorhandenen Kurs oder erstellen Sie einen neuen Kurs.
+2. Fügen Sie ein Checklistenmodul hinzu oder öffnen Sie ein vorhandenes Checklistenmodul zur Bearbeitung.
+3. Wählen Sie im Konfigurationsbereich der Checkliste den Checklistentyp **Benutzerdefinierte Bewertung** aus.
+4. Dies ermöglicht die Punktzahl pro Frage und die Berechnung der Gesamtpunktzahl.
+5. Fügen Sie nach Bedarf Fragen zur Checkliste hinzu.
+6. Für jede Frage:
+   * Definieren Sie die **maximale Punktzahl** (z. B. 5, 10, 20).
+7. Stellt sicher, dass die Frageergebnisse ihre relative Bedeutung widerspiegeln.
+
+Verschiedene Fragen können innerhalb derselben Checkliste unterschiedliche Höchstpunktzahlen haben.
+
+#### Kriterien für das Bestehen definieren
+
+1. Geben Sie die **Mindestgesamtpunktzahl** an, die erforderlich ist, um die Checkliste zu übergeben. Das System berechnet die gesamte mögliche Punktzahl automatisch auf der Grundlage der Fragegewichtung.
+2. Speichern Sie die Checklistenkonfiguration und veröffentlichen Sie den Kurs.
+
+Die Checkliste ist jetzt mit gewichteter Punktzahl für die Kursleiterauswertung aktiviert.
+
+#### Ablauf beim Überprüfer
+
+* Reviewer sehen jede Checklistenfrage mit der **Höchstpunktzahl**.
+* Überprüfer weisen während der Bewertung Punktzahlen pro Frage zu
+* Das System berechnet:
+   * Gesamtergebnis
+   * Bestanden- oder Nicht-Bestehen-Status basierend auf definierten Kriterien
+
+#### Teilnehmererlebnis
+
+* Teilnehmer sehen den Abschlussstatus der Checkliste (Bestanden/Nicht bestanden)
+* Wenn diese Option aktiviert ist, können die Teilnehmer auch Folgendes sehen:
+   * Kommentare der Reviewer
+   * Name des Überprüfers
+* Bewertungslogik wird konsistent auf alle Auswertungen angewendet
+
+#### Hinweise für Autoren
+
+* Gewogene Checklisten eignen sich am besten für **formelle Bewertungen**
+* Die Fragepunktzahlen sollten sorgfältig kalibriert werden, um verzerrte Ergebnisse zu vermeiden.
+* Funktioniert mit:
+   * Einzelne oder mehrere Prüfer
+   * Kommentare von Reviewern (sofern aktiviert)
+* Bestehende Checklisten sind nicht betroffen, sofern sie nicht explizit aktualisiert werden
+
 
 ### Kursleiter können den Erfolg markieren
 
@@ -857,7 +1090,7 @@ Sie können in Learning Manager mit den Menüoptionen „Veröffentlichen“ Kur
 1. Melden Sie sich mit Adobe-Anmeldeinformationen an. Wenn Sie noch keine Adobe ID haben, klicken Sie auf **[!UICONTROL Konto erstellen]**. Nach der Autorisierung werden Sie zur Seite für die Veröffentlichung von Modulen weitergeleitet.
 1. Geben Sie alle Basisinformationen über das Modul ein und klicken Sie auf „Veröffentlichen“.
 
-Sie sehen das veröffentlichte Modul auf der Modulseite von Learning Manager. Weitere Informationen finden Sie unter [Projekt in Adobe Learning Manager veröffentlichen](https://helpx.adobe.com/de/captivate/classic/publish-project-to-captivate-prime.html).
+Sie sehen das veröffentlichte Modul auf der Modulseite von Learning Manager. Weitere Informationen finden Sie unter [Projekt in Adobe Learning Manager veröffentlichen](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html).
 
 ## Kurseffektivität {#courseeffectiveness}
 

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Einstellungen
 contentowner: manochan
 exl-id: a563d955-f67e-4218-88df-625cde673601
-source-git-commit: 8ccf5a9b0f9f928f7489ca5fec2a18e0ba43e2c1
+source-git-commit: 2265b277aa58ab9273de704e9f79ed28fdcd64a4
 workflow-type: tm+mt
-source-wordcount: '3697'
-ht-degree: 64%
+source-wordcount: '3974'
+ht-degree: 75%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 64%
 
 Erfahren Sie mehr über Learning Manager-Kontoeinstellungen, die Sie als Administrator konfigurieren können.
 
-Sie können Ihre Administratorprofileinstellungen ändern und Ihre Kontoeinstellungen aktualisieren. Zeigen Sie Ihre Profilinformationen an, fügen Sie ein Profilfoto hinzu bzw. ändern Sie es, und ändern Sie den Inhalt von **[!UICONTROL Über mich]**. Aktualisieren Sie Ihre Unternehmensinformationen, richten Sie Anmeldungsmethoden für Benutzer ein und richten Sie Connect-Integration über die Kontoeinstellungen ein.
+Sie können Ihre Administratorprofileinstellungen ändern und Ihre Kontoeinstellungen aktualisieren. Zeigen Sie Ihre Profilinformationen an, fügen Sie ein Profilfoto hinzu bzw. ändern Sie es und ändern Sie den Inhalt, der unter **[!UICONTROL Über mich]** angezeigt wird. Aktualisieren Sie Ihre Unternehmensinformationen, richten Sie Anmeldungsmethoden für Benutzer ein und richten Sie Connect-Integration über die Kontoeinstellungen ein.
 
 ![](assets/settings-admin.png)
 
@@ -38,7 +38,7 @@ Klicken Sie auf der Seite auf **[!UICONTROL Ändern]** und bearbeiten Sie Land, 
 
 **Konfigurieren Sie „Administrator kontaktieren“**
 
-Wenn Sie die E-Mail-Adressen für den Support-Administrator für Ihr Unternehmen ändern oder hinzufügen möchten, können Sie diese konfigurieren, indem Sie auf **[!UICONTROL Support]** im linken Bereich klicken. Klicken Sie auf **[!UICONTROL Ändern]** neben **[!UICONTROL Support-E-Mail-ID]** und fügen Sie die E-Mail-IDs hinzu. E-Mail wird an diese Administratoren gesendet, wenn der Teilnehmer auf **[!UICONTROL Administrator kontaktieren]** am unteren Rand der Seite klickt.
+Wenn Sie die E-Mail-Adressen für den Support-Administrator für Ihr Unternehmen ändern oder hinzufügen möchten, können Sie diese konfigurieren, indem Sie auf **[!UICONTROL Support]** im linken Bereich klicken. Klicken Sie auf **[!UICONTROL Änderung]** neben **[!UICONTROL Support-E-Mail-ID]** und fügen Sie die E-Mail-IDs hinzu. E-Mail wird an diese Administratoren geschickt, wenn Teilnehmer auf **[!UICONTROL Administrator kontaktieren]** am unteren Rand der Seite klickt.
 
 Fügen Sie zusätzliche E-Mails mit Semikolon als Trennzeichen hinzu.
 
@@ -57,7 +57,7 @@ Sie können mit der Adobe ID oder über einmalige Anmeldung (SSO) auf die Learni
 
 **Feedback**
 
-Klicken Sie auf **[!UICONTROL Feedback]** im linken Bereich, um den Fragebogen einzurichten, um Feedback von Teilnehmern zu erhalten, nachdem Sie einen Kurs absolviert haben. Weitere Informationen zum Erstellen von L1- und L3-Feedback finden Sie im Hilfeinhalt für die [Kursfunktion &#x200B;](/help/migrated/administrators/feature-summary/courses.md#add-l1-and-l3-feedback).
+Klicken Sie auf **[!UICONTROL Feedback]** im linken Bereich, um den Fragebogen einzurichten, um Feedback von Teilnehmern zu erhalten, nachdem Sie einen Kurs absolviert haben. Weitere Informationen zum Erstellen von L1- und L3-Feedback finden Sie im Hilfeinhalt für die [Kursfunktion ](/help/migrated/administrators/feature-summary/courses.md#add-l1-and-l3-feedback).
 
 **Mehrere Versuche**
 
@@ -101,7 +101,7 @@ Aktivieren oder Deaktivieren der folgenden Einstellungen:
   </tr>
   <tr>
    <td>Kurseffektivität anzeigen</td>
-   <td>Wenn diese Option aktiviert ist, können Teilnehmer die aktuelle Kurseffektivität auf der Kurskachel sehen. Diese Funktion ist nur für Kurse verfügbar. Die Sternebewertung wird für Lernprogramme oder Zertifikate nicht unterstützt. Es ist für Kurse und Lernprogramme verfügbar, aber nicht für Zertifizierungen.</td>
+   <td>Teilnehmer können aktuelle Kurseffizienz im Kurstitel sehen, wenn die Option aktiviert ist. Diese Funktion ist nur für Kurse verfügbar. Die Sternebewertung wird für Lernprogramme oder Zertifikate nicht unterstützt. Es ist für Kurse und Lernprogramme verfügbar, aber nicht für Zertifizierungen.</td>
   </tr>
   <tr>
    <td>Kursmoderation</td>
@@ -121,8 +121,13 @@ Aktivieren oder Deaktivieren der folgenden Einstellungen:
   </tr>
   <tr>
    <td>Sichtbarkeit für Kenntnisse/Tags</td>
-   <td>Zeigen Sie Teilnehmern alle Kenntnisse und Tags an Sie können entweder alle Kenntnisse und Tags anzeigen oder Kenntnisse und Tags, die zugewiesen sind, oder solche, die Teil der Kataloge sind, die für den Teilnehmer sichtbar sind.</td>
-  </tr>
+   <td>Zeigen Sie Teilnehmern alle Kenntnisse und Tags an Sie können entweder alle Kenntnisse und Tags anzeigen oder Kenntnisse und Tags, die zugewiesen sind, oder solche, die Teil der Kataloge sind, die für den Teilnehmer sichtbar sind.
+   <p><b>Wichtiger Teilnehmer-Assistent und Katalogsichtbarkeit</b></p>
+   <p>Wenn Ihr Konto den Teilnehmer-Assistenten verwendet, denken Sie daran, dass die Kataloge, die als Inhaltsquellen für den Assistenten ausgewählt wurden, nicht durch die Katalogsichtbarkeit pro Teilnehmer begrenzt sind. Der Assistent kann Inhalte aus den konfigurierten Katalogen verwenden, selbst wenn einige Schulungen für einen bestimmten Teilnehmer in der Katalogansicht nicht sichtbar sind.</p>
+   <p>Adobe empfiehlt, nur Kataloge auszuwählen, die Inhalte enthalten, die Sie (in zusammengefasster oder erklärter Form) allen Teilnehmern zur Verfügung stellen, die auf den Teilnehmerassistenten zugreifen können. </p>
+   </td>
+
+</tr>
   <tr>
    <td>Eindeutige Lernobjekt-IDs</td>
    <td>Wenn aktiviert, kann ein Admin oder ein Autor eine eindeutige ID für jedes Lernobjekt hinzufügen.</td>
@@ -163,6 +168,11 @@ Aktivieren oder Deaktivieren der folgenden Einstellungen:
    <td><a id="autodelete"></a>Interne Benutzer automatisch löschen</td>
    <td>Wenn diese Option aktiviert ist, werden interne Benutzer automatisch gelöscht, wenn sie für eine bestimmte Anzahl von Tagen nicht auf das System zugreifen. Diese Funktion gilt für Benutzer, die nur die Rolle <b>Teilnehmer</b> haben. Um den Zugriff wiederherzustellen, müssen Benutzer sich an den Administrator wenden.<br></td>
   </tr>
+  <tr>
+   <td height="20">Bereinigte Benutzer automatisch löschen</td>
+   <td>Wenn diese Option aktiviert ist, werden interne Benutzer automatisch gelöscht, wenn sie für eine bestimmte Anzahl von Tagen nicht auf das System zugreifen. Diese Funktion gilt für Benutzer, die nur die Teilnehmerrolle haben. Um den Zugriff wiederherzustellen, müssen Benutzer sich an den Administrator wenden. Nachdem Sie die Option aktiviert haben, können Sie die Zeit in Jahren angeben, nach der bereinigte Benutzer endgültig aus ALM gelöscht werden.</td>
+  </tr>
+  <tr>
   <tr>
    <td>Katalogbeschriftungen anzeigen</td>
    <td>Wenn diese Option aktiviert ist, können Administratoren und Autoren Katalogbeschriftungen und Werte festlegen und sie mit Lernobjekten verknüpfen. Wenn Sie diese Option auswählen, können Autoren auch Kurse, Lernpfade, Zertifizierungen oder Arbeitshilfen zu den Katalogen hinzufügen.</td>
@@ -213,13 +223,13 @@ Aktivieren oder Deaktivieren der folgenden Einstellungen:
   <tr>
    <td>Berichtszeitzone<br></td>
    <td>
-    <p>Legen Sie eine Voreinstellung auf Kontoebene fest, um das Lerntranskript in die folgenden Zeitzonen zu exportieren:</p>
+    <p>Legen Sie eine Voreinstellung auf Kontoebene fest, um das Lernaktranskript in die folgenden Zeitzonen zu exportieren:</p>
     <ul>
      <li>UTC (Standardverhalten)</li>
      <li>Zeitzonenvoreinstellung auf Kontoebene</li>
     </ul>
-    <p>Das mit der Jobs-API heruntergeladene Teilnehmertranskript lädt die Daten auch in die ausgewählte Zeitzone herunter.</p>
-    <p><b>Hinweis: </b>Es wird unmittelbar nach der Veröffentlichung standardmäßig keine Änderung im Teilnehmertranskript erwartet. Administratoren können diese Einstellung über "Administrator &gt; Einstellungen &gt; Allgemein &gt; Berichtszeitzone" konfigurieren.</p></td>
+    <p>Das Teilnehmertranskript, das mit der Jobs-API heruntergeladen wurde, lädt die Daten auch in die ausgewählte Zeitzone herunter.</p>
+    <p><b>Hinweis: </b>Es wird unmittelbar nach der Veröffentlichung standardmäßig keine Änderung im Teilnehmertranskript erwartet. Administratoren können diese Einstellung über „Administrator &gt; Einstellungen &gt; Allgemein &gt; Berichtszeitzone“ konfigurieren.</p></td>
   </tr>
  </tbody>
 </table>
@@ -291,8 +301,13 @@ Aktivieren oder Deaktivieren der folgenden Einstellungen:
   </tr>
   <tr>
    <td height="20">Katalogliste anzeigen</td>
-   <td>Wenn diese Option aktiviert ist, können die Teilnehmer eine Liste aller für sie verfügbaren Kataloge anzeigen. Die Teilnehmer können dies verwenden, um die Anzeige der Lernobjekte zu verfeinern.</td>
-  </tr>
+   <td>Wenn diese Option aktiviert ist, können die Teilnehmer eine Liste aller für sie verfügbaren Kataloge anzeigen. Die Teilnehmer können dies verwenden, um die Anzeige der Lernobjekte zu verfeinern.
+   <p><b>Wichtiger Teilnehmer-Assistent und Katalogsichtbarkeit</b></p>
+   <p>Wenn Ihr Konto den Teilnehmer-Assistenten verwendet, denken Sie daran, dass die Kataloge, die als Inhaltsquellen für den Assistenten ausgewählt wurden, nicht durch die Katalogsichtbarkeit pro Teilnehmer begrenzt sind. Der Assistent kann Inhalte aus den konfigurierten Katalogen verwenden, selbst wenn einige Schulungen für einen bestimmten Teilnehmer in der Katalogansicht nicht sichtbar sind.</p>
+   <p>Adobe empfiehlt, nur Kataloge auszuwählen, die Inhalte enthalten, die Sie (in zusammengefasster oder erklärter Form) allen Teilnehmern zur Verfügung stellen, die auf den Teilnehmerassistenten zugreifen können. </p>
+   </td>
+
+</tr>
   <tr>
    <td height="20">Produktterminologie</td>
    <td>Learning Manager verfügt über eine Standardterminologie, die im gesamten Produkt verwendet wird. Passen Sie die Terminologie an die Anforderungen Ihrer Organisation an.</td>
@@ -305,11 +320,6 @@ Aktivieren oder Deaktivieren der folgenden Einstellungen:
    <td height="20">Benutzer automatisch registrieren</td>
    <td>Wenn aktiviert, werden neu importierte Benutzer automatisch registriert. Standardmäßig müssen Benutzer manuell registriert werden, bevor sie Learning Manager verwenden können.</td>
   </tr>
-  <tr>
-   <td height="20">Interne Benutzer automatisch löschen</td>
-   <td>Wenn diese Option aktiviert ist, werden interne Benutzer automatisch gelöscht, wenn sie für eine bestimmte Anzahl von Tagen nicht auf das System zugreifen. Diese Funktion gilt für Benutzer, die nur die Rolle Teilnehmer haben. Um den Zugriff wiederherzustellen, müssen Benutzer sich an den Administrator wenden.</td>
-  </tr>
-  <tr>
    <td height="20">Katalogbeschriftungen anzeigen</td>
    <td>Wenn diese Option aktiviert ist, können Administratoren und Autoren Katalogbeschriftungen und Werte festlegen und sie mit Lernobjekten verknüpfen.</td>
   </tr>
@@ -331,7 +341,7 @@ Aktivieren oder Deaktivieren der folgenden Einstellungen:
    <td height="19">Wenn die Funktion deaktiviert ist, gilt:</td>
   </tr>
   <tr>
-   <td height="19">Die Option Auswahl-E-Mail wird deaktiviert.</td>
+   <td height="19">Die Option „Auswahl-E-Mail“ wird deaktiviert.</td>
   </tr>
   <tr>
    <td height="19">Ein Teilnehmer kann die Benutzereinstellung für das Auswahl-E-Mail-Abonnement nicht sehen.</td>
@@ -357,7 +367,7 @@ Aktivieren oder Deaktivieren der folgenden Einstellungen:
    <td height="19">Führen Sie die folgenden Schritte aus, um die Links in der Fußzeile anzupassen:</td>
   </tr>
   <tr>
-   <td height="19">1. Klicken Sie auf Mehr hinzufügen, geben Sie den Namen und die URL oder E-Mail-ID in die angegebenen Felder ein. Stellen Sie der URL http:// oder https:// voran.</td>
+   <td height="19">1. Klicken Sie auf "Mehr hinzufügen", geben Sie den Namen und die URL oder E-Mail-ID in die angegebenen Felder ein. Stellen Sie der URL http:// oder https:// voran.</td>
   </tr>
   <tr>
    <td height="19">2. Klicken Sie auf "Replizieren", um die Änderung in alle Ländereinstellungen zu übertragen. Dies stellt sicher, dass alle Sprachen den Namen und die URL erhalten.</td>
@@ -369,14 +379,14 @@ Aktivieren oder Deaktivieren der folgenden Einstellungen:
    <td height="19">Zusätzlich können Sie:</td>
   </tr>
   <tr>
-   <td height="19">Klicken Sie auf das Symbol Zurücksetzen , um die Standardwerte in den Feldern Hilfe und Administrator kontaktieren zurückzusetzen.</td>
+   <td height="19">Klicken Sie auf das Symbol „Zurücksetzen“, um die Standardwerte in den Feldern „Hilfe“ und „Administrator kontaktieren“ zurückzusetzen.</td>
   </tr>
   <tr>
-   <td height="20">Passen Sie den Link in der Fußzeile für alle Sprachen an. Klicken Sie auf die Dropdown-Liste Sprache , wählen Sie die Sprache aus und fügen Sie den Namen und die URL in die angegebenen Felder ein. Nachdem Sie die Änderungen gespeichert haben, werden die aktualisierten Links in der Fußzeile angezeigt.</td>
+   <td height="20">Passen Sie den Link in der Fußzeile für alle Sprachen an. Klicken Sie auf die Dropdown-Liste „Sprache“, wählen Sie die Sprache aus und fügen Sie den Namen und die URL in die angegebenen Felder ein. Nachdem Sie die Änderungen gespeichert haben, werden die aktualisierten Links in der Fußzeile angezeigt.</td>
   </tr>
   <tr>
    <td rowspan="5" height="96">Berichtszeitzone</td>
-   <td> Legen Sie eine Voreinstellung auf Kontoebene fest, um das Lerntranskript in die folgenden Zeitzonen zu exportieren:</td>
+   <td> Legen Sie eine Voreinstellung auf Kontoebene fest, um das Lernaktranskript in die folgenden Zeitzonen zu exportieren:</td>
   </tr>
   <tr>
    <td height="19">UTC (Standardverhalten)</td>
@@ -385,10 +395,10 @@ Aktivieren oder Deaktivieren der folgenden Einstellungen:
    <td height="19">Zeitzonenvoreinstellung auf Kontoebene</td>
   </tr>
   <tr>
-   <td height="19">Das mit der Jobs-API heruntergeladene Teilnehmertranskript lädt die Daten auch in die ausgewählte Zeitzone herunter.</td>
+   <td height="19">Das Teilnehmertranskript, das mit der Jobs-API heruntergeladen wurde, lädt die Daten auch in die ausgewählte Zeitzone herunter.</td>
   </tr>
   <tr>
-   <td height="20">Hinweis: Es wird unmittelbar nach der Veröffentlichung standardmäßig keine Änderung im Teilnehmertranskript erwartet. Administratoren können diese Einstellung über "Administrator &gt; Einstellungen &gt; Allgemein &gt; Berichtszeitzone" konfigurieren.</td>
+   <td height="20">Hinweis: Es wird unmittelbar nach der Veröffentlichung standardmäßig keine Änderung im Teilnehmertranskript erwartet. Administratoren können diese Einstellung über „Administrator &gt; Einstellungen &gt; Allgemein &gt; Berichtszeitzone“ konfigurieren.</td>
   </tr>
   <tr>
    <td height="19">Badgr-Integration</td>
@@ -404,8 +414,8 @@ Aktivieren oder Deaktivieren der folgenden Einstellungen:
     </ul>
     <p>Diese Funktion ist nur für Kurse verfügbar. Die Sternebewertung wird für Lernprogramme oder Zertifikate nicht unterstützt.<br><br><b>Hinweis: </b>Diese Änderung betrifft nur die Teilnehmer-App. </p>
     <p>In allen anderen Apps (Admin, Autor, Manager, benutzerdefinierter Administrator, benutzerdefinierter Autor) haben Änderungen an den Einstellungen (Sternebewertung/Kurseffektivität/Deaktivierung der Bewertungsanzeige) keine Auswirkungen. </p>
-    <p>Für neue Konten ist im Abschnitt <b>Bewertungen anzeigen</b> die Option <b>Sternebewertung</b> standardmäßig aktiviert.</p>
-    <p>Wenn für vorhandene Konten zuvor die Option <b>Kurseffektivität</b> aktiviert war, wird der Abschnitt <b>Bewertungen anzeigen</b> mit der Option "Kurseffektivität" aktiviert. Wenn die Option <b>Kurseffektivität</b>s deaktiviert ist, wird der Abschnitt <b>Bewertungen anzeigen</b> ebenfalls deaktiviert. Wenn der Abschnitt <b>Bewertungen anzeigen</b> aktiviert ist, wird die Option <b>Sternebewertung</b> standardmäßig aktiviert.</p></td>
+    <p>Bei neuen Konten ist für den Abschnitt <b>Bewertungen anzeigen</b> die Option <b>Sternebewertung</b> standardmäßig aktiviert.</p>
+    <p>Wenn für vorhandene Konten zuvor die Option <b>Kurseffektivität</b> aktiviert war, wird der Abschnitt <b>Bewertungen anzeigen</b> mit der Option „Kurseffektivität“ aktiviert. Wenn die Option <b>Kurseffektivität</b> deaktiviert ist, wird der Abschnitt <b>Bewertungen anzeigen</b> ebenfalls deaktiviert. Wenn der Abschnitt <b>Bewertungen anzeigen</b> aktiviert ist, wird die Option <b>Sternebewertung</b> standardmäßig aktiviert.</p></td>
   </tr>
   <tr>
    <td height="19">Einstellen</td>
@@ -439,6 +449,15 @@ Aktivieren oder Deaktivieren der folgenden Einstellungen:
     <td>
       <p>Wenn diese Option aktiviert ist, können Sie eine externe Quelle auswählen, um Kenntnisse zu importieren. Die Kenntnisse für vorhandene Lernressourcen werden während der ersten Ausführung einmal in das Kompetenz-Repository importiert. Bei allen nachfolgenden Importen von Lernressourcen werden die Kenntnisse nur für neu importierte Elemente in das Kenntnisrepository importiert.
       Sobald die Option aktiviert ist, kann die Aktion nicht mehr rückgängig gemacht werden. Sie können später nicht deaktivieren oder zu einer anderen Quelle wechseln.
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p>Alternative Kurse/Pfade</p>
+    </td>
+    <td>
+      <p>Wenn Teilnehmer einen Kurs/Pfad abschließen, kann ein anderer angegebener Satz von Kursen/Pfaden über einen anderen als abgeschlossen markiert werden. Teilnehmer werden nicht automatisch für Kurse/Pfade registriert, die über eine Alternative als abgeschlossen markiert wurden, und erhalten nur Credits, Abzeichen und Punkte für den Kurs/Pfad, den sie tatsächlich abgeschlossen haben. Die verfügbaren Optionen sind: Retroaktive Abschlüsse aktiviert und Retroaktive Invollständigungen aktiviert.
       </p>
     </td>
   </tr>
@@ -481,9 +500,9 @@ Aktivität
 
 ## Profileinstellungen {#profilesettings}
 
-1. Klicken Sie in der rechten oberen Ecke neben Ihrem Foto/Konto auf den Dropdownpfeil und wählen Sie **[!UICONTROL Profileinstellungen]** aus.
-1. Im Popup-Dialogfeld können Sie ein Foto hinzufügen/ändern, indem Sie mit der Maus darauf zeigen und im Bereich &quot;Profilfoto&quot; auf **[!UICONTROL Bearbeiten]** klicken.
-1. Fügen Sie **[!UICONTROL Über]** Inhalt hinzu/ändern Sie ihn, indem Sie auf **[!UICONTROL Bearbeiten]** daneben klicken.
+1. Klicken Sie in der rechten oberen Ecke neben Ihrem Foto/Konto auf die Dropdownliste und wählen Sie dann **[!UICONTROL Profileinstellungen]**.
+1. Im Popupfenster können Sie ein Foto hinzufügen bzw. es ändern, indem Sie mit der Maus darauf zeigen und im Bereich „Profilfoto“ auf **[!UICONTROL Bearbeiten]** klicken.
+1. Hinzufügen/Bearbeiten von **[!UICONTROL Über]**-Inhalten, indem Sie auf **[!UICONTROL Bearbeiten]** daneben klicken.
 1. Klicken Sie auf **[!UICONTROL Speichern].**.
 
 ## Inhaltsordner {#content-folder}
@@ -531,7 +550,7 @@ Um einen Ordner hinzuzufügen, klicken Sie in der oberen rechten Ecke des Fenste
 
 **Ordner löschen**
 
-Sie können auch einen Ordner löschen. Wählen Sie den zu löschenden Ordner aus, klicken Sie auf das Menü &quot;Aktionen&quot;, und klicken Sie auf **[!UICONTROL Ordner löschen]**.
+Sie können auch einen Ordner löschen. Wählen Sie den zu löschenden Ordner aus, klicken Sie auf das Menü „Aktionen“ und dann auf **[!UICONTROL Ordner löschen]**.
 
 >[!NOTE]
 >
@@ -592,5 +611,5 @@ Weitere Informationen finden Sie im Abschnitt [Inhaltsordner](settings.md#conten
 
 +++Wie kann ich das Geschäftsjahr für das Konto hinzufügen?
 
-Klicken Sie in **[!UICONTROL Einstellungen]** > **[!UICONTROL Grundlegende Informationen]** auf **[!UICONTROL Ändern]**. Wählen Sie in der Dropdownliste **[!UICONTROL Geschäftsjahr beginnt mit]** den Monat aus.
+Klicken Sie in **[!UICONTROL Einstellungen]** > **[!UICONTROL Grundlegende Informationen]** auf **[!UICONTROL Ändern]**. Wählen Sie in der Dropdownliste **[!UICONTROL Geschäftsjahr startet am]** den Monat aus.
 +++

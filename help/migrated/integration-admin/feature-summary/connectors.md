@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Learning Manager-Connectors
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+source-git-commit: 03ac3f985aa523e494e05393ee8fa478faf35646
 workflow-type: tm+mt
 source-wordcount: '15959'
 ht-degree: 72%
@@ -146,9 +146,9 @@ So erstellen Sie die Objekte:
 
 1. Laden Sie die Pakete herunter und installieren Sie sie, um die benutzerdefinierten Objekte zu erstellen.
 
-   * [Paket 1](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000LSlL)
-   * [Paket 2](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000FtK9)
-   * [Paket 3](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000FtKE)
+   * [Paket 1](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000HciS)
+   * [Paket 2](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000HciX)
+   * [Paket 3](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000Hcic)
 
 1. Benennen Sie die benutzerdefinierten Objekte in Salesforce um.
 1. Wählen Sie die Veranstaltungen aus und klicken Sie auf **[!UICONTROL Speichern]**.
@@ -202,7 +202,7 @@ Wenn Sie das Paket installieren möchten, müssen Sie zunächst das vorhandene P
 >
 >Die Adobe Learning Manager-App wird nur in der Salesforce-Lightning-Ansicht unterstützt.
 
-1. Starten Sie die [Lern-Manager-Paket-URL &#x200B;](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WOQ).
+1. Starten Sie die [Lern-Manager-Paket-URL ](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WOQ).
 1. Klicken Sie auf der Seite **Anmeldung** auf **[!UICONTROL Benutzerdefinierte Domäne verwenden]**.
 1. Geben Sie die Paket-URL ein und klicken Sie auf **[!UICONTROL Weiter]**. Auf der Installationsseite muss die Option „Nur für Administratoren installieren“ aktiviert sein. Ändern Sie diese Option nicht.
 1. Klicken Sie auf **[!UICONTROL Installieren]**. Nachdem das Paket installiert wurde, klicken Sie auf **[!UICONTROL Fertig stellen]**. Sie werden zur Seite „Installierte Pakete“ geleitet, auf der das installierte Adobe Learning Manager-Paket angezeigt wird.
@@ -468,7 +468,7 @@ Sobald die Verbindung erfolgreich hergestellt wurde, können Sie die Spalten der
 
 >[!NOTE]
 >
->Beim Importieren von Benutzenden in Learning Manager muss der Administrator auch wissen, wie Benutzende in Learning Manager verwaltet werden. Weitere Informationen finden Sie in der [&#x200B; User Management-Hilfe](migration-manual.md#usermanagement).
+>Beim Importieren von Benutzenden in Learning Manager muss der Administrator auch wissen, wie Benutzende in Learning Manager verwaltet werden. Weitere Informationen finden Sie in der [ User Management-Hilfe](migration-manual.md#usermanagement).
 
 +++
 
@@ -718,7 +718,7 @@ Diese FTP-Anmeldedaten müssen Sie für Ihren Inhaltsanbieter freigeben, um auf 
    Für jede Art von Synchronisierung gilt: Damit sie funktioniert, muss der Benutzer-Feed für die in der Synchronisierung angegebenen Daren im FTP-Ordner für getAbstract FTP vorhanden sein.
 
    Das folgende Excel-Arbeitsblatt ist ein Beispiel für einen Benutzer-Feed aus getAbstract. Der Dateiname muss dem folgenden Format entsprechen: **report_export_yyyy_MM_dd_HHmmss.xlsx** oder **report_export_yyyy_MM_dd.xlsx**.
-   Excel-Beispiel für [getAbstract-Benutzer-Feed &#x200B;](assets/report-export-20170401175342.xlsx)
+   Excel-Beispiel für [getAbstract-Benutzer-Feed ](assets/report-export-20170401175342.xlsx)
 
 ## Harvard ManageMentor-Connector {#hmmconnector}
 
@@ -1252,7 +1252,7 @@ Mit der Option xAPI-Berichtsaktivität können Sie den Import von xAPI-Anweisung
 1. Alle CSV müssen die in der Zuordnung angegebenen Spalten enthalten.
 1. Alle erforderlichen CSV müssen sich in dem Ordner befinden, bevor der Vorgang beginnt.
 
-Beim Importieren von Benutzenden in Learning Manager muss der Administrator auch wissen, wie Benutzende in Learning Manager verwaltet werden. Weitere Informationen finden Sie in der [&#x200B; User Management-Hilfe](migration-manual.md#usermanagement).
+Beim Importieren von Benutzenden in Learning Manager muss der Administrator auch wissen, wie Benutzende in Learning Manager verwaltet werden. Weitere Informationen finden Sie in der [ User Management-Hilfe](migration-manual.md#usermanagement).
 
 +++
 
@@ -2258,7 +2258,7 @@ Nachdem ein Autor die Preise für verschiedene Kurse, Lernpfade oder Zertifizier
 
 >[!NOTE]
 >
->In der Adobe Learning Manager-Version vom März 2024 haben wir Unterstützung für [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=de) eingeführt.
+>In der Adobe Learning Manager-Version vom März 2024 haben wir Unterstützung für [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=en) eingeführt.
 
 
 1. Klicken Sie auf **[!UICONTROL Schulungsmetadaten exportieren]** > **[!UICONTROL On Demand]**.

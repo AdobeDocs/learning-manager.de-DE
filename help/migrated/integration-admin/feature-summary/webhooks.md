@@ -4,9 +4,9 @@ title: Webhooks
 description: Erfahren Sie mehr über Webhooks zum Senden von Echtzeitinformationen wie Kursanmeldungen, Kurserstellung und andere Informationen an eine bestimmte URL
 contentowner: chandrum
 exl-id: 472aaf2b-9c2f-4f43-a791-2b2d81e69471
-source-git-commit: e4c3489db8207ead0416656161b918eba42f4582
+source-git-commit: 3b35c16d74c83329cee24ee9ad007a53ccbd8cf3
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '1633'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,7 @@ Mit Real-Time APIs können Anwendungen Daten sofort austauschen, wenn ein Ereign
 ## Webhook-Ereignisse
 
 Webhook-Ereignisse sind bestimmte Aktionen in einem System, das automatisch Daten an eine Listener-URL sendet. Wenn sich ein Teilnehmer beispielsweise für einen Kurs registriert, wird ein Webhook-Ereignis ausgelöst, das die Registrierungsdetails an die Listener-URL sendet.
+
 Webhook-Ereignisse werden in zwei Kategorien unterteilt:
 
 * **Echtzeit-Ereignisse**: Ereignisse werden verarbeitet und in Echtzeit an eine Ziel-URL gesendet.
@@ -122,3 +123,304 @@ Führen Sie die folgenden Schritte aus, um die Webhooks zu entfernen:
 
 ![](assets/retire-webhook.png)
 _Webhook einstellen_
+
+## Webhooks für Alternativen {#webhooks-for-alternates}
+
+ALM bietet dedizierte Webhook-Ereignisse für alternative Abschlüsse, die Automatisierung, Integrationen und Synchronisation mit externen Systemen unterstützen.
+
+Diese Ereignisse ermöglichen es externen Verbrauchern, zuverlässig zwischen direkten Abschlüssen und Abschlüssen zu unterscheiden, die durch alternative Beziehungen gewährt werden.
+
+### Übersicht
+
+Wenn ein Teilnehmer einen Kurs über eine Alternative oder Beziehung abschließt, löst ALM ein Webhook-Ereignis aus, das vom standardmäßigen Webhook für den Kursabschluss getrennt ist. Dadurch wird sichergestellt, dass Integrationen bei Bedarf unterschiedlich auf alternative Abschlüsse reagieren können.
+
+Webhook-Ereignisse werden auch ausgelöst, wenn eine rückwirkende Fertigstellung oder eine rückwirkende Unvollständigkeit erfolgt, die historische Aktualisierungen sowie Beziehungsänderungen abdeckt.
+
+### Webhook-Ereignisverhalten
+
+* Ein unterschiedliches Webhook-Ereignis wird ausgelöst, wenn ein Teilnehmer über den Status &quot;Abgeschlossen&quot; über &quot;Alternativen&quot; für einen Zielkurs erhält.
+* Das Ereignis wird generiert, wenn der Teilnehmer einen konfigurierten Quellkurs abschließt, der dem Ziel über eine alternative Beziehung entspricht.
+* Dieser Webhook wird nicht für direkte Kursabschlüsse ausgelöst.
+* Wenn der retroaktive Abschluss oder die retroaktive Unvollständigkeit aktiviert ist, werden Webhook-Ereignisse für jeden betroffenen Teilnehmer und jeden Zielkurs ausgegeben.
+
+### Webhook-Nutzlastdetails
+
+Die Webhook-Nutzlast mit alternativem Abschluss umfasst die folgenden Schlüsselattribute:
+
+* **Teilnehmer-ID**
+Identifiziert den Teilnehmer, der den alternativen Abschluss erhalten hat.
+* **Quellkurs**
+Der Kurs oder Lernpfad, den der Teilnehmer direkt abgeschlossen hat.
+* **Zielkurs**
+Der Kurs, der über die alternative Beziehung als abgeschlossen markiert ist.
+* **Abschlussmethode**
+Gibt an, dass die Abschlussmethode alternativ ist.
+* **Abschlussdatum**
+Abgeleitet vom Abschlussdatum des Quellkurses.
+* **Beziehungstyp**
+Gibt an, ob die Beziehung alternativ ist.
+
+Bei Szenarien mit rückwirkender Nicht-Fertigstellung zeigen Webhook-Ereignisse an, dass eine vorhandene alternative Fertigstellung widerrufen wurde.
+
+### Überlegungen zur Integration
+
+Externe Systeme können die folgenden Webhook-Ereignisse verwenden, um:
+
+* Teilnehmerdatensätze aktualisieren
+* Abschlussstatus synchronisieren
+* Auslösen von Benachrichtigungen oder nachgeschalteten Workflows
+* Audit-Verläufe für Compliance-Zwecke verwalten
+
+Webhook-Verbraucher sollten ausdrücklich zwischen direkten und alternativen Abschlüssen unterscheiden.
+
+Alternative Abschlüsse bieten keine Qualifikationen, Abzeichen und Gamification-Prämien. Die Rückmeldungen sollten in den nachgelagerten Systemen entsprechend behandelt werden.
+
+## Webhooks für adaptive Lernpfade
+
+### Einführung
+
+Adobe Learning Manager stellt **Webhook-Ereignisse** bereit, die externe Systeme benachrichtigen, wenn der Abschlussstatus eines **Lernpfads (Lernprogramm)** aktualisiert wird. Auf diese Weise können Sie Downstream-Systeme (wie HR-, Reporting- oder Analyseplattformen) synchronisieren, wenn der Abschlussdatensatz eines Teilnehmers zurückgesetzt oder neu berechnet wird.
+
+Es sind zwei neue Webhook-Ereignistypen verfügbar:
+
+**LEARNING_PATH_COMPLETION_ROLLBACK** - Wird ausgelöst, wenn ein **Teilnehmer** den Abschlussstatus eines Lernpfads für sich selbst aktualisiert.
+
+**LEARNING_PATH_COMPLETION_ROLLBACK_BATCH** - Wird ausgelöst, wenn ein **Administrator** den Abschlussstatus eines Lernpfads für **einen oder mehrere Teilnehmer** aktualisiert (z. B. über Massenvorgänge).
+
+Diese Ereignisse verwenden eine **allgemeine Nutzlaststruktur** und können von Ihrem Webhook-Endpunkt verwendet werden, um Abschlussdaten auf Ihrer Seite zu aktualisieren oder erneut zu verarbeiten.
+
+### Gemeinsame Nutzlaststruktur
+
+Jede Webhook-Anforderung enthält die folgende Struktur der obersten Ebene:
+
+```
+{
+  "accountId": 69735,
+  "events": [
+    {
+      "eventId": "757b9d58-048c-4ae2-9fff-35f9def7ef29",
+      "eventName": "LEARNING_PATH_COMPLETION_ROLLBACK",
+      "timestamp": "2026-01-20T05:48:10.000Z",
+      "eventInfo": "1768888090000-197513-137581-0",
+      "data": {
+        "userId": 13446697,
+        "loId": "learningProgram:157165",
+        "loInstanceId": "learningProgram:157165_148769",
+        "loType": "learningProgram",
+        "enrollmentSource": "SELF_ENROLL",
+        "dateEnrolled": "2026-01-20T05:44:05.000Z"
+      }
+    }
+  ]
+}
+```
+
+Die **gleiche Struktur** wird für beide Ereignistypen verwendet. Nur eventName und die Werte in den Daten (z. B. userId, loId, enrollmentSource) unterscheiden sich.
+
+#### Beispiel: Teilnehmerinitiierte Aktualisierung
+
+Wenn ein Teilnehmer den Abschlussstatus seines eigenen Lernpfads aktualisiert, sendet der Webhook ein LEARNING_PATH_COMPLETION_ROLLBACK-Ereignis:
+
+```
+{
+  "accountId": 69735,
+  "events": [
+    {
+      "eventId": "757b9d58-048c-4ae2-9fff-35f9def7ef29",
+      "eventName": "LEARNING_PATH_COMPLETION_ROLLBACK",
+      "timestamp": "2026-01-20T05:48:10.000Z",
+      "eventInfo": "1768888090000-197513-137581-0",
+      "data": {
+        "userId": 13446697,
+        "loId": "learningProgram:157165",
+        "loInstanceId": "learningProgram:157165_148769",
+        "loType": "learningProgram",
+        "enrollmentSource": "SELF_ENROLL",
+        "dateEnrolled": "2026-01-20T05:44:05.000Z"
+      }
+    }
+  ]
+}
+```
+
+Verwenden Sie dieses Ereignis, um **Teilnehmerabschlussdaten** in Ihren externen Systemen neu zu berechnen oder zurückzusetzen, wenn der Teilnehmer explizit eine Aktualisierung anfordert.
+
+#### Beispiel: Vom Administrator initiierte Batch-Aktualisierung
+
+Wenn ein Administrator eine Abschlusserneuerung für einen oder mehrere Teilnehmer durchführt (z. B. wenn historische Abschlüsse für eine Gruppe korrigiert werden), gibt der Webhook ein LEARNING_PATH_COMPLETION_ROLLBACK_BATCH-Ereignis aus:
+
+```
+{
+  "accountId": 69735,
+  "events": [
+    {
+      "eventId": "757b9d58-048c-4ae2-9fff-35f9def7ef29",
+      "eventName": "LEARNING_PATH_COMPLETION_ROLLBACK_BATCH",
+      "timestamp": "2026-01-20T05:48:10.000Z",
+      "eventInfo": "1768888090000-197513-137581-0",
+      "data": {
+        "userId": 13446698,
+        "loId": "learningProgram:157166",
+        "loInstanceId": "learningProgram:157166_148770",
+        "loType": "learningProgram",
+        "enrollmentSource": "ADMIN_ENROLL",
+        "dateEnrolled": "2026-01-21T05:44:05.000Z"
+      }
+    }
+  ]
+}
+```
+
+Bei Batchvorgängen erhält der Webhook-Endpunkt möglicherweise **mehrere Ereignisobjekte in einer einzelnen Anforderung**, eines pro Teilnehmer, dessen Abschluss aktualisiert wurde. Ihre Integration sollte das Ereignis-Array überlappen und jedes Ereignis unabhängig voneinander verarbeiten.
+
+### Verwendung dieser Ereignisse in Integrationen
+
+Sie können die folgenden Webhook-Ereignisse verwenden, um:
+
+**Synchronisieren Sie Abschlussdatensätze** mit externen LMS/LRS-, HR- oder Berichtssystemen, wenn ein Abschluss zurückgesetzt oder neu berechnet wird.
+
+**Downstream-Workflows auslösen**, z. B. Neuzuweisungen, Benachrichtigungen oder Neuberechnung von Zertifizierungen und Abzeichen.
+
+**Audit-Protokolle verwalten** durch Protokollierung von eventId, timestamp und eventInfo zusammen mit den Kennungen für Teilnehmer und Lernpfad.
+
+Ihr Webhook-Handler sollte mindestens:
+
+Nutzlast- und Analyseereignisse überprüfen [].
+Verwenden Sie eventName, um festzustellen, ob die Änderung **learnerinitiiert** oder **admin/batchinitiiert** war.
+
+Verwenden Sie userId, loId und loInstanceId, um den entsprechenden Datensatz in Ihrem System zu suchen und zu aktualisieren.
+Nutzen Sie eventId, um eine doppelte Verarbeitung zu verhindern, wenn dasselbe Ereignis mehr als einmal übermittelt wird.
+
+## Webhooks zum Hinzufügen und Entfernen von Benutzergruppenmitgliedschaften
+
+Zwei neue Webhook-Ereignistypen tragen den endgültigen Status:
+
+* ANTWORT :ASYNCAPI_USERGROUP_USER_ADDED
+* ANTWORT :ASYNCAPI_USERGROUP_USER_REMOVED
+
+### Beispiel-Nutzlast
+
+```
+{
+  "accountId": 69735,
+  "events": [
+    {
+      "eventId": "cd2972c8-cb15-47a0-a23f-e4a16cb720f5",
+      "eventName": "RESPONSE:ASYNCAPI_USERGROUP_USER_REMOVED",
+      "timestamp": "2026-03-18T13:38:12.000Z",
+      "eventInfo": "cd2972c8-cb15-47a0-a23f-e4a16cb720f5",
+      "data": {
+        "status": "SUCCESS",
+        "request": {
+          "metadata": { "event_id": "cd2972c8-cb15-47a0-a23f-e4a16cb720f5" },
+          "data": [ { "type": "user", "id": "13446641" } ]
+        }
+      }
+    }
+  ]
+}
+```
+
+### Schlüsselelemente
+
+* `accountId` identifiziert das ALM-Konto.
+* `events` ist ein Array von Ereignisobjekten.
+* `eventId` stimmt mit der ursprünglichen asynchronen Anforderungskennung überein.
+* `eventName` zeigt einen Vorgang zum Hinzufügen oder Entfernen an.
+* `timestamp` zeigt die Abschlusszeit an.
+* `data.status` meldet derzeit &quot;SUCCESS&quot; für erfolgreiche Stapel.
+* `data.request` enthält die exakte Anforderung, die Sie gesendet haben.
+
+Ihre Integration sollte in erster Linie `eventId` (oder `metadata.event_id`) und `status` umfassen.
+
+### Beispiele
+
+#### Asynchrones Hinzufügen von Benutzern
+
+**Schritt 1. Führen Sie den asynchronen Aufruf** durch.
+
+POST /primeapi/v2/async/userGroups/12345/users
+
+```
+{
+  "metadata": {
+    "event_id": "sync-2026-03-30T10:15:00Z-ug-12345",
+    "sourceSystem": "HRIS",
+    "batchId": "hr_2026_03_30_0001"
+  },
+  "data": [
+    { "type": "user", "id": "11101219" },
+    { "type": "user", "id": "11101220" }
+  ]
+}
+```
+
+**Schritt 2. Sofortige Antwort lesen**
+
+```
+{ "event_id": "sync-2026-03-30T10:15:00Z-ug-12345" }
+```
+
+Sie können diesen Auftrag jetzt als in Ihrem System übermittelt markieren.
+
+**Schritt 3. Behandeln des Webhooks**
+
+Beispiel für Webhook-Rückruf:
+
+```
+{
+  "accountId": 69735,
+  "events": [
+    {
+      "eventId": "sync-2026-03-30T10:15:00Z-ug-12345",
+      "eventName": "RESPONSE:ASYNCAPI_USERGROUP_USER_ADDED",
+      "timestamp": "2026-03-30T10:15:43.000Z",
+      "data": {
+        "status": "SUCCESS",
+        "request": {
+          "metadata": {
+            "event_id": "sync-2026-03-30T10:15:00Z-ug-12345",
+            "sourceSystem": "HRIS",
+            "batchId": "hr_2026_03_30_0001"
+          },
+          "data": [
+            { "type": "user", "id": "11101219" },
+            { "type": "user", "id": "11101220" }
+          ]
+        }
+      }
+    }
+  ]
+}
+```
+
+Ein typischer Verbraucher wird
+
+* Suchen Sie den internen Auftrag.
+* Überprüfen Sie optional die Mitgliedschaft mit GET /userGroups/{id}/users.
+* Markieren Sie den Auftrag als abgeschlossen.
+
+#### Asynchrones Entfernen von Benutzern
+
+Die Entfernung ist symmetrisch, wobei DELETE mit derselben Körperstruktur verwendet werden.
+
+```
+{
+  "metadata": {
+    "event_id": "sync-2026-03-30T11:00:00Z-ug-12345",
+    "sourceSystem": "HRIS",
+    "batchId": "hr_2026_03_30_0002"
+  },
+  "data": [ { "type": "user", "id": "11101219" } ]
+}
+```
+
+Sofortige Reaktion:
+
+```
+{ "event_id": "sync-2026-03-30T11:00:00Z-ug-12345" }
+```
+
+Später kommt ein RESPONSE:ASYNCAPI_USERGROUP_USER_REMOVED-Webhook mit derselben eventId an.
+
+Weitere Informationen finden Sie unter [Asynchrone öffentliche API für Benutzergruppenmitgliedschaft](/help/migrated/api-changes-alm.md#asynchronous-public-apis-for-user-group-membership).
