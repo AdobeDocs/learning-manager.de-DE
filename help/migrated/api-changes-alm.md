@@ -458,7 +458,7 @@ Sie sollten die alte Spalte mit der Reihenfolge als entfernt oder ignoriert beha
 - Die erforderliche Kernzuordnung bleibt erhalten:
    - Lernprogramm-ID ↔ Kurs-ID (sowie alle anderen noch dokumentierten Spalten, z. B. id, learningProgramId, courseId und dates).
 
-Lesen Sie immer die neuesten [_CSV-Spezifikationen_](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual) aus Ihrem Learning Manager-Konto (über csv_specifications.zip), um den aktuellen Headersatz und die aktuellen Anforderungen zu bestätigen.
+Lesen Sie immer die neuesten [_CSV-Spezifikationen_](https://experienceleague.adobe.com/de/docs/learning-manager/using/integration/migration-manual) aus Ihrem Learning Manager-Konto (über csv_specifications.zip), um den aktuellen Headersatz und die aktuellen Anforderungen zu bestätigen.
 
 ## timeZoneCode für Kursinstanzen
 
