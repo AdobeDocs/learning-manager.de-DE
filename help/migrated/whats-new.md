@@ -2,13 +2,13 @@
 description: Erfahren Sie mehr über die neuen Funktionen und Verbesserungen in der Version April 2026 von Adobe Learning Manager, einschließlich API- und Webhooks-Änderungen
 jcr-language: en_us
 title: Neue Funktionen in der Adobe Learning Manager-Version April 2026
-source-git-commit: f4ff53bf053b2c8c756961af990505d23ab22db3
+exl-id: da46f186-3ff3-422a-af49-31c7405fd584
+source-git-commit: 971a9c79fc2b831b990e30a44a2eeab5d5c5ce63
 workflow-type: tm+mt
 source-wordcount: '1768'
 ht-degree: 0%
 
 ---
-
 
 # Neue Funktionen in der Adobe Learning Manager-Version April 2026
 
