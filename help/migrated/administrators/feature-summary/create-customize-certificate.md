@@ -2,13 +2,13 @@
 title: Zertifikat erstellen und anpassen
 description: Mit benutzerdefinierten Zertifikaten in Adobe Learning Manager (ALM) können Administratoren und Autoren personalisierte Zertifikate für Teilnehmer entwerfen, verwalten und ausstellen.
 jcr-language: en-us
-source-git-commit: c012fdc19d3695add97661e290db19a90771748f
+exl-id: 99e20f00-9f8f-477f-9416-24636ed23b87
+source-git-commit: 13fbdb95129ba7612e8e42d3da88ef3c6784e729
 workflow-type: tm+mt
-source-wordcount: '2630'
+source-wordcount: '2628'
 ht-degree: 0%
 
 ---
-
 
 # Benutzerdefinierte Zertifikate in Adobe Learning Manager
 
@@ -25,7 +25,9 @@ Administratoren haben folgende Möglichkeiten:
 
 Der Zertifizierungsprozess folgt dem bestehenden Abzeichen- und Leistungsmodell im Learning Manager, sodass das Verhalten der Teilnehmer vertraut bleibt, während Administratoren und Support-Teams weniger Zeit mit Zertifikatvorgängen verbringen.
 
-**Hinweis:** Zertifikatfunktionen, die generative AI verwenden, unterliegen einem Kontingent. Das Limit beträgt 10.000 Anfragen pro Benutzer.
+>[!NOTE]
+>
+>Zertifikatfunktionen, die generative KI verwenden, unterliegen der Quote. Das Limit beträgt 10.000 Anfragen pro Kunde.
 
 ## Wichtigste Merkmale einer individuellen Zertifizierung
 
@@ -254,8 +256,8 @@ Um Bilder von Firefly verwenden zu können, muss Ihre Adobe Learning Manager-Ins
 8. Wählen Sie im Dropdownmenü eine Standardsprache aus.
 9. Wählen Sie **Erstellen** aus. Wenn Sie die leere Vorlage auswählen, wird eine leere Arbeitsfläche unter Ihrem Zertifikatnamen angezeigt.
 10. Fügen Sie Elemente hinzu: **Text**, **Image**, **Dynamischer Wert** und **Zertifikathintergrund**.
-    ![Benutzerdefiniertes Zertifikat erstellen](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate4.png)
-    *Elemente zum Zertifikat hinzufügen*
+   ![Benutzerdefiniertes Zertifikat erstellen](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate4.png)
+   *Elemente zum Zertifikat hinzufügen*
 
 11. Fügen Sie für **Text** Inhalt unter **Vorformatierter Text** oder **Textvorlagen** hinzu, oder fügen Sie benutzerdefinierten Text hinzu. Der Text wird auf der Arbeitsfläche angezeigt. Wenn Text ausgewählt ist, werden Formatierungsoptionen über der Arbeitsfläche angezeigt. Um unerwünschte Inhalte zu entfernen, wählen Sie das Symbol **Löschen** in der oberen rechten Ecke der Arbeitsfläche aus.
 12. Um Bilder hinzuzufügen, wählen Sie **Bild** neben **Elemente hinzufügen**. Bilder von Ihrem Computer hochladen oder Bilder aus den Kategorielisten auswählen.
@@ -263,12 +265,12 @@ Um Bilder von Firefly verwenden zu können, muss Ihre Adobe Learning Manager-Ins
 14. Wählen Sie **Zertifikatshintergrund** aus, um Farben oder Bilder anzuwenden. Um Bilder mit Adobe Firefly zu erstellen, wählen Sie **Image generieren**.
 15. Beschreiben Sie im Feld &quot;Eingabeaufforderung&quot;, was Sie möchten (bis zu 100 Zeichen), und wählen Sie **Generieren**. Je nach Aufforderung werden vier Bildoptionen angezeigt.
 16. Wählen Sie das gewünschte Bild aus. Es wird als Hintergrund für das Zertifikat angewendet.
-    ![Benutzerdefiniertes Zertifikat erstellen](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate5.png)
-    *Bild zum Zertifikat hinzufügen*
+   ![Benutzerdefiniertes Zertifikat erstellen](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate5.png)
+   *Bild zum Zertifikat hinzufügen*
 
 17. Wählen Sie **Vorschau**, um das Zertifikat vor der Veröffentlichung zu überprüfen. So können Sie das Aussehen des Zertifikats besser nachvollziehen.
-    ![Benutzerdefiniertes Zertifikat erstellen](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate6.png)
-    *Zertifikat in der Vorschau anzeigen*
+   ![Benutzerdefiniertes Zertifikat erstellen](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate6.png)
+   *Zertifikat in der Vorschau anzeigen*
 
 18. In der Vorschau können Sie Inhalte auf Google Drive speichern, herunterladen, drucken oder andere Optionen wie Anmerkungen oder Dokumenteigenschaften verwenden.
 19. Wählen Sie **Als Entwurf speichern**, um später fortzufahren, oder wählen Sie **Publish** aus, um das Zertifikat zu veröffentlichen. Nach der Veröffentlichung können Teilnehmer das Zertifikat herunterladen, wenn sie den konfigurierten Meilenstein erreichen.
@@ -330,7 +332,9 @@ Sie können ein Zertifikat umbenennen, ohne es zu klonen.
 
 Das Löschen eines Zertifikats kann nicht rückgängig gemacht werden. Fahren Sie nur fort, wenn Sie sicher sind.
 
-**Hinweis:** Sie können kein Zertifikat löschen, das an ein Lernobjekt oder eine Instanz angehängt ist.
+>[!NOTE]
+>
+>Sie können kein Zertifikat löschen, das an ein Lernobjekt oder eine Instanz angehängt ist.
 
 1. Wählen Sie im Abschnitt **Konfigurieren** die Option **Erfolge** aus. Die Seite **Abzeichen** wird geöffnet.
 2. Wählen Sie im linken Navigationsbereich **Zertifikate**. Die Seite **Zertifikate** wird geöffnet.
