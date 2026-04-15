@@ -3,9 +3,9 @@ title: Zertifikat erstellen und anpassen
 description: Mit benutzerdefinierten Zertifikaten in Adobe Learning Manager (ALM) können Administratoren und Autoren personalisierte Zertifikate für Teilnehmer entwerfen, verwalten und ausstellen.
 jcr-language: en-us
 exl-id: 99e20f00-9f8f-477f-9416-24636ed23b87
-source-git-commit: 13fbdb95129ba7612e8e42d3da88ef3c6784e729
+source-git-commit: 54755d739e7f7396f7a9adc28b413cf69af189cc
 workflow-type: tm+mt
-source-wordcount: '2628'
+source-wordcount: '2632'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,11 @@ Administratoren haben folgende Möglichkeiten:
 - Designe Zertifikate in einem visuellen Editor im Leinwandformat, anstatt Code zu schreiben.
 - Fügen Sie Zertifikate mit flexiblen Standardvorgaben an Kurse, Lernpfade und Zertifizierungen an.
 - Generative Hintergründe auf Basis von Adobe Firefly berücksichtigen nicht nur die Anforderungen an Markendarstellung und Compliance.
+
+  >[!NOTE]
+  >
+  >Die Firefly-KI-Funktion ist für FedRAMP-Kunden nicht verfügbar.
+
 - Migrieren Sie von bestehenden HTML-Vorlagen und bleiben Sie mit den bisherigen Teilnehmerdatensätzen kompatibel.
 
 Der Zertifizierungsprozess folgt dem bestehenden Abzeichen- und Leistungsmodell im Learning Manager, sodass das Verhalten der Teilnehmer vertraut bleibt, während Administratoren und Support-Teams weniger Zeit mit Zertifikatvorgängen verbringen.
@@ -103,6 +108,10 @@ Wenn ein Teilnehmer die Schulung abschließt, wählt der Lern-Manager ein Design
 - Standardvorlage für Konto
 
 ### Generative Hintergründe auf Adobe Firefly-Basis
+
+>[!NOTE]
+>
+>Die Firefly-KI-Funktion ist für FedRAMP-Kunden nicht verfügbar.
 
 Damit Kunden konsistente, markenkonforme Zertifikate in großem Umfang erstellen können, lässt sich der Designer in Adobe Firefly integrieren:
 
@@ -233,10 +242,6 @@ Dies gilt für das Gesundheitswesen, den Finanzsektor, den öffentlichen Sektor 
 
 ## Erstellen eines benutzerdefinierten Zertifikats
 
-**Voraussetzung**
-
-Um Bilder von Firefly verwenden zu können, muss Ihre Adobe Learning Manager-Instanz mit Firefly integriert sein.
-
 1. Melden Sie sich bei Adobe Learning Manager als **Administrator** an.
 2. Wählen Sie im Abschnitt **Konfigurieren** die Option **Erfolge** aus. Die Seite **Abzeichen** wird geöffnet.
    ![Benutzerdefiniertes Zertifikat erstellen](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate1.png)
@@ -256,8 +261,8 @@ Um Bilder von Firefly verwenden zu können, muss Ihre Adobe Learning Manager-Ins
 8. Wählen Sie im Dropdownmenü eine Standardsprache aus.
 9. Wählen Sie **Erstellen** aus. Wenn Sie die leere Vorlage auswählen, wird eine leere Arbeitsfläche unter Ihrem Zertifikatnamen angezeigt.
 10. Fügen Sie Elemente hinzu: **Text**, **Image**, **Dynamischer Wert** und **Zertifikathintergrund**.
-    ![Benutzerdefiniertes Zertifikat erstellen](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate4.png)
-    *Elemente zum Zertifikat hinzufügen*
+   ![Benutzerdefiniertes Zertifikat erstellen](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate4.png)
+   *Elemente zum Zertifikat hinzufügen*
 
 11. Fügen Sie für **Text** Inhalt unter **Vorformatierter Text** oder **Textvorlagen** hinzu, oder fügen Sie benutzerdefinierten Text hinzu. Der Text wird auf der Arbeitsfläche angezeigt. Wenn Text ausgewählt ist, werden Formatierungsoptionen über der Arbeitsfläche angezeigt. Um unerwünschte Inhalte zu entfernen, wählen Sie das Symbol **Löschen** in der oberen rechten Ecke der Arbeitsfläche aus.
 12. Um Bilder hinzuzufügen, wählen Sie **Bild** neben **Elemente hinzufügen**. Bilder von Ihrem Computer hochladen oder Bilder aus den Kategorielisten auswählen.
@@ -265,12 +270,12 @@ Um Bilder von Firefly verwenden zu können, muss Ihre Adobe Learning Manager-Ins
 14. Wählen Sie **Zertifikatshintergrund** aus, um Farben oder Bilder anzuwenden. Um Bilder mit Adobe Firefly zu erstellen, wählen Sie **Image generieren**.
 15. Beschreiben Sie im Feld &quot;Eingabeaufforderung&quot;, was Sie möchten (bis zu 100 Zeichen), und wählen Sie **Generieren**. Je nach Aufforderung werden vier Bildoptionen angezeigt.
 16. Wählen Sie das gewünschte Bild aus. Es wird als Hintergrund für das Zertifikat angewendet.
-    ![Benutzerdefiniertes Zertifikat erstellen](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate5.png)
-    *Bild zum Zertifikat hinzufügen*
+   ![Benutzerdefiniertes Zertifikat erstellen](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate5.png)
+   *Bild zum Zertifikat hinzufügen*
 
 17. Wählen Sie **Vorschau**, um das Zertifikat vor der Veröffentlichung zu überprüfen. So können Sie das Aussehen des Zertifikats besser nachvollziehen.
-    ![Benutzerdefiniertes Zertifikat erstellen](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate6.png)
-    *Zertifikat in der Vorschau anzeigen*
+   ![Benutzerdefiniertes Zertifikat erstellen](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate6.png)
+   *Zertifikat in der Vorschau anzeigen*
 
 18. In der Vorschau können Sie Inhalte auf Google Drive speichern, herunterladen, drucken oder andere Optionen wie Anmerkungen oder Dokumenteigenschaften verwenden.
 19. Wählen Sie **Als Entwurf speichern**, um später fortzufahren, oder wählen Sie **Publish** aus, um das Zertifikat zu veröffentlichen. Nach der Veröffentlichung können Teilnehmer das Zertifikat herunterladen, wenn sie den konfigurierten Meilenstein erreichen.
