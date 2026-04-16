@@ -3,9 +3,9 @@ jcr-language: en_us
 title: Wie Sie ein Support-Ticket in der Experience League einreichen
 description: Erfahren Sie, wie Sie eine Supportanfrage auf dem Experience League einreichen.
 exl-id: ff216f75-3441-4194-b254-0bf6c9fda518
-source-git-commit: 5cf246440f56dfa4ffd23edcfdc7c1190ad89c42
+source-git-commit: aa9bf441507251c536cb6ee550fee0177e69cf6e
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '633'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Das Verfahren zum Einreichen von Adobe Learning Manager-Support-Tickets ist jetz
 
 Bitte beachten Sie, dass das Einreichen eines Support-Tickets nur für autorisierte Support-Kontakte verfügbar ist. Senden Sie für Ihre Supportanfragen bis zum 11. Mai 2025 Ihre Supporttickets weiterhin per E-Mail an Adobe Learning Manager. Nach diesem Datum können Sie Ihre Support-Tickets zusätzlich zum bestehenden E-Mail-Kanal über das Experience League-Support-Portal wie unten beschrieben einreichen.
 
-1. Um auf das Supportportal zuzugreifen, besuchen Sie die Website **[!UICONTROL Experience League]** und wählen Sie die Registerkarte **[!UICONTROL Support]** oben auf der Seite aus. Alternativ können Sie den [direkten Link](https://experienceleague.adobe.com/home?lang=de#support) aufrufen.
+1. Um auf das Supportportal zuzugreifen, besuchen Sie die Website **[!UICONTROL Experience League]** und wählen Sie die Registerkarte **[!UICONTROL Support]** oben auf der Seite aus. Alternativ können Sie den [direkten Link](https://experienceleague.adobe.com/home#support) aufrufen.
 
    ![](assets/support.png)
    _Support-Homepage_
@@ -43,7 +43,7 @@ Bitte beachten Sie, dass das Einreichen eines Support-Tickets nur für autorisie
    ![](assets/ticket-form.png)
    _Ticketformular_
 
-4. Sobald Sie auf **[!UICONTROL Anfrage senden]** klicken, werden Sie zur Seite **[!UICONTROL Meine Anfragen]** weitergeleitet, auf der Sie alle Anfragen anzeigen können, die Ihre Organisation eingereicht hat. Sie können auch zu dieser Seite navigieren, indem Sie im Seitenleistenmenü auf die Schaltfläche **[!UICONTROL Meine Anfragen]** klicken. Auf dieser Seite können Sie alle Ihre offenen und geschlossenen Supportanfragen anzeigen. Mithilfe der Optionen oben auf der Seite können Sie nach Fallstatus (offen oder geschlossen) oder nach Experience Cloud-Lösung filtern. Sie können auch die Suchleiste verwenden, um nach Schlüsselwörtern zu suchen, die zu Ihren Supportproblemen gehören.
+4. Sobald Sie auf **[!UICONTROL Anfrage senden]** klicken, werden Sie zur Seite **[!UICONTROL Meine Anfragen]** weitergeleitet, auf der Sie alle Anfragen anzeigen können, die Ihre Organisation eingereicht hat. Sie können auch zu dieser Seite navigieren, indem Sie im Seitenleistenmenü auf die Schaltfläche **[!UICONTROL Meine Anfragen]** klicken. Auf dieser Seite können Sie alle Ihre offenen und geschlossenen Supportanfragen anzeigen. Mithilfe der Optionen oben auf der Seite können Sie nach Fallstatus (offen oder geschlossen) oder nach Adobe CX Enterprise-Lösung filtern. Sie können auch die Suchleiste verwenden, um nach Schlüsselwörtern zu suchen, die zu Ihren Supportproblemen gehören.
 
    ![](assets/open-cases.png)
    _Offene Fälle_

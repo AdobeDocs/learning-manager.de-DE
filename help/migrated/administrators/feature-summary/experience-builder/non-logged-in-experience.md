@@ -3,15 +3,17 @@ description: Erläutert, wie Experience Builder öffentlich zugängliche Lernsei
 jcr-language: en_us
 title: Konfiguration und Verwaltung nicht angemeldeter Seiten in Experience Builder
 exl-id: e4685cab-08ca-4b6b-93f4-a9eecf382dc4
-source-git-commit: ef6f7a9acd27b7fb4c08fe9a8b366d628d199050
+source-git-commit: 2f9e931523da6e3e1ed2cf60f1ad05f5caf3cc1b
 workflow-type: tm+mt
-source-wordcount: '6051'
+source-wordcount: '6058'
 ht-degree: 1%
 
 ---
 
 
-# Einführung
+# Nicht angemeldetes Erlebnis in Experience Builder
+
+## Einführung
 
 Das nicht angemeldete Erlebnis in Experience Builder ermöglicht es Unternehmen, ihre Lerninhalte und Portalseiten für alle Besucher anzuzeigen, einschließlich derjenigen, die sich nicht angemeldet haben. Diese Funktion soll potenzielle Teilnehmer anziehen, informieren und ansprechen, indem sie eine reibungslose und markenkonforme Vorschau Ihrer Schulungsangebote bietet, bevor sie sich anmelden oder registrieren müssen.
 
@@ -29,7 +31,7 @@ Branding und Lokalisierung werden vollständig unterstützt, sodass Sie Seitenti
 
 Das nicht angemeldete Erlebnis in Experience Builder ermöglicht es Unternehmen, ihre Lerninhalte und Portalseiten öffentlich zu präsentieren, ohne dass sich Benutzer anmelden müssen. Dies hilft, potenzielle Teilnehmer anzulocken, zu informieren und anzusprechen, indem eine Vorschau der verfügbaren Schulungen und Ressourcen bereitgestellt wird, bevor eine Anmeldung oder Authentifizierung erforderlich ist.
 
-## Nutzungsszenarien in der Praxis bei nicht angemeldeten Benutzern
+## Nutzungsszenarien, bei denen kein Benutzer angemeldet ist
 
 - **Marketing und Kontaktaufnahme**: Organisationen können ihre Schulungsprogramme für externe Zielgruppen wie potenzielle Kunden, Partner oder Stellenbewerber veröffentlichen, indem sie Kurskataloge und Programmdetails öffentlich zugänglich machen.
 - **Vorabregistrierung**: Teilnehmer können verfügbare Kurse durchsuchen, Übersichten anzeigen und Kategorien erkunden, bevor sie sich registrieren oder anmelden, um ihnen dabei zu helfen, fundierte Entscheidungen zur Registrierung zu treffen.
