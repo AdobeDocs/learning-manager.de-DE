@@ -3,9 +3,9 @@ title: Zertifikat erstellen und anpassen
 description: Mit benutzerdefinierten Zertifikaten in Adobe Learning Manager (ALM) können Administratoren und Autoren personalisierte Zertifikate für Teilnehmer entwerfen, verwalten und ausstellen.
 jcr-language: en-us
 exl-id: 99e20f00-9f8f-477f-9416-24636ed23b87
-source-git-commit: 54755d739e7f7396f7a9adc28b413cf69af189cc
+source-git-commit: 0d4e8f06c3a9a3dcd6461036ec7fbfa4a54c0b58
 workflow-type: tm+mt
-source-wordcount: '2632'
+source-wordcount: '2845'
 ht-degree: 0%
 
 ---
@@ -240,6 +240,30 @@ Dies gilt für das Gesundheitswesen, den Finanzsektor, den öffentlichen Sektor 
 - Administratoren können im Laufe der Zeit zu designerbasierten Vorlagen wechseln, wobei Programme mit hoher Priorität den Anfang bilden.
 - Wenn die Migration eine Zuordnung nicht beibehalten kann (z. B. Abzeichen, die in der Mitte deaktiviert sind), wird das System auf die globale Standardvorlage zurückgesetzt, damit die Teilnehmer nicht blockiert werden.
 
+## Ausnahmen, die bei der Verwendung benutzerdefinierter Zertifikate zu beachten sind
+
+Das in M45 eingeführte benutzerdefinierte Zertifikat-Authoring-Erlebnis erweitert die Erstellung und Verwaltung von Zertifikaten. Die folgenden Ausnahmen gelten für das Arbeiten mit Zertifikaten, die vor dieser Version erstellt wurden:
+
+### Bestehende Zertifikate bleiben erhalten, können aber nicht bearbeitet werden.
+
+Zertifikate, die vor M45 erstellt und bereits Lernobjekten zugeordnet wurden, werden automatisch migriert. Diese Zertifikate werden weiterhin für vorhandene Lernobjekte ausgestellt. Nach der Migration sind sie im schreibgeschützten Modus verfügbar. Sie können ihr Layout oder ihren Inhalt nicht ändern.
+
+Erstellen Sie zum Aktualisieren von Zertifikatdesigns eine neue Zertifikatvorlage mit dem benutzerdefinierten Zertifikat-Editor.
+
+### Neue Lernobjekte verwenden neu erstellte Zertifikate
+
+Lernobjekte, die nach der Version vom April 2026 erstellt wurden, müssen Zertifikate verwenden, die über den neuen Editor erstellt wurden. Migrierte Zertifikate können bei der Konfiguration neuer Lernobjekte nicht ausgewählt werden.
+
+Administratoren können neue Zertifikate erstellen und als Standard festlegen, um die Wiederverwendung zu optimieren.
+
+### Zertifikate und Abzeichen müssen während der Erstellung aktiviert werden
+
+Autoren müssen Zertifikate oder Abzeichen für jedes Lernobjekt explizit aktivieren. Dadurch wird sichergestellt, dass Zertifikate nur für Lernobjekte ausgestellt werden, für die sie vorgesehen sind.
+
+### Die Zertifikaterstellung erfordert eine einmalige Einrichtung.
+
+Unternehmen, die für mehrere Lernobjekte auf Zertifikate angewiesen sind, sollten sich Zeit nehmen, häufig verwendete Vorlagen neu zu erstellen. Der Drag-and-Drop-Editor wurde entwickelt, um diesen Prozess schnell und konsistent zu gestalten.
+
 ## Erstellen eines benutzerdefinierten Zertifikats
 
 1. Melden Sie sich bei Adobe Learning Manager als **Administrator** an.
@@ -261,8 +285,8 @@ Dies gilt für das Gesundheitswesen, den Finanzsektor, den öffentlichen Sektor 
 8. Wählen Sie im Dropdownmenü eine Standardsprache aus.
 9. Wählen Sie **Erstellen** aus. Wenn Sie die leere Vorlage auswählen, wird eine leere Arbeitsfläche unter Ihrem Zertifikatnamen angezeigt.
 10. Fügen Sie Elemente hinzu: **Text**, **Image**, **Dynamischer Wert** und **Zertifikathintergrund**.
-    ![Benutzerdefiniertes Zertifikat erstellen](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate4.png)
-    *Elemente zum Zertifikat hinzufügen*
+   ![Benutzerdefiniertes Zertifikat erstellen](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate4.png)
+   *Elemente zum Zertifikat hinzufügen*
 
 11. Fügen Sie für **Text** Inhalt unter **Vorformatierter Text** oder **Textvorlagen** hinzu, oder fügen Sie benutzerdefinierten Text hinzu. Der Text wird auf der Arbeitsfläche angezeigt. Wenn Text ausgewählt ist, werden Formatierungsoptionen über der Arbeitsfläche angezeigt. Um unerwünschte Inhalte zu entfernen, wählen Sie das Symbol **Löschen** in der oberen rechten Ecke der Arbeitsfläche aus.
 12. Um Bilder hinzuzufügen, wählen Sie **Bild** neben **Elemente hinzufügen**. Bilder von Ihrem Computer hochladen oder Bilder aus den Kategorielisten auswählen.
@@ -270,12 +294,12 @@ Dies gilt für das Gesundheitswesen, den Finanzsektor, den öffentlichen Sektor 
 14. Wählen Sie **Zertifikatshintergrund** aus, um Farben oder Bilder anzuwenden. Um Bilder mit Adobe Firefly zu erstellen, wählen Sie **Image generieren**.
 15. Beschreiben Sie im Feld &quot;Eingabeaufforderung&quot;, was Sie möchten (bis zu 100 Zeichen), und wählen Sie **Generieren**. Je nach Aufforderung werden vier Bildoptionen angezeigt.
 16. Wählen Sie das gewünschte Bild aus. Es wird als Hintergrund für das Zertifikat angewendet.
-    ![Benutzerdefiniertes Zertifikat erstellen](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate5.png)
-    *Bild zum Zertifikat hinzufügen*
+   ![Benutzerdefiniertes Zertifikat erstellen](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate5.png)
+   *Bild zum Zertifikat hinzufügen*
 
 17. Wählen Sie **Vorschau**, um das Zertifikat vor der Veröffentlichung zu überprüfen. So können Sie das Aussehen des Zertifikats besser nachvollziehen.
-    ![Benutzerdefiniertes Zertifikat erstellen](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate6.png)
-    *Zertifikat in der Vorschau anzeigen*
+   ![Benutzerdefiniertes Zertifikat erstellen](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate6.png)
+   *Zertifikat in der Vorschau anzeigen*
 
 18. In der Vorschau können Sie Inhalte auf Google Drive speichern, herunterladen, drucken oder andere Optionen wie Anmerkungen oder Dokumenteigenschaften verwenden.
 19. Wählen Sie **Als Entwurf speichern**, um später fortzufahren, oder wählen Sie **Publish** aus, um das Zertifikat zu veröffentlichen. Nach der Veröffentlichung können Teilnehmer das Zertifikat herunterladen, wenn sie den konfigurierten Meilenstein erreichen.
