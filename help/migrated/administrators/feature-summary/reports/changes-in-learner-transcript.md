@@ -3,9 +3,9 @@ description: Weitere Informationen zu Teilnehmertranskripten
 jcr-language: en_us
 title: Änderungen an Teilnehmertranskripten
 exl-id: 295c4e1f-c3c7-4f97-83c3-1234f3d47546
-source-git-commit: 048e550320932b683cf6bbcdc0b4d0fdf4e84905
+source-git-commit: 1f0d3af950429042b21606648b53b7a7dfaaa851
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '781'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,15 @@ Wenn der Teilnehmer einen direkten Abschluss hat, wirkt sich das Widerrufen alte
 
 ## Verbesserte Berichterstellung für Anmerkungen von Checklisten-Reviewern
 
+Reviewerkommentare aus Checklistenmodulen sind jetzt im Teilnehmertranskriptbericht unter einer umbenannten Spalte mit dem Namen **Reviewerbemerkungen.** enthalten.
+
+| Bereich | Alter Spaltenname | Neuer Spaltenname | Anmerkungen |
+|------|-----------------|-----------------|-------|
+| Teilnehmertranskripte (Administrator) | Einreichungskommentar | Anmerkungen des Reviewers | Gilt für alle Admin LT-Quellen: Benutzeroberfläche, Job API, Connectors. |
+
 Diese Änderung gilt einheitlich für alle Admin LT-Quellen (UI-Exporte, Job API-Berichte und Connectors, sofern zutreffend). Bei einer vom Connector exportierten LT werden die Anmerkungen des Reviewers als spezielle Spalte am Ende angezeigt (bei Connectors, für die zuvor kein Übermittlungskommentar angezeigt wurde). So wird sichergestellt, dass bei nachgelagerten Integrationen das Feedback des Reviewers von anderen Kommentaren unterschieden werden kann.
+
+**Auswirkung:** Teilnehmer und Administratoren können konsolidiertes Feedback anzeigen, wodurch die Transparenz verbessert und die Leistungsbewertung unterstützt wird.
 
 >[!NOTE]
 >
