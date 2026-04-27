@@ -2,13 +2,13 @@
 title: Entsprechungen und Stellvertreter in Adobe Learning Manager
 description: Bieten Sie ein reibungsloses Lernerlebnis und eliminieren Sie redundante Schulungen mit Entsprechungen und Alternativen in ALM. Mit dieser neuen Funktion können Administratoren unidirektionale (alternierende) oder bidirektionale (äquivalente) Regeln konfigurieren, bei denen durch das Absolvieren einer Schulung automatisch ein alternativer Abschluss für eine andere erteilt wird
 jcr-language: en-us
-source-git-commit: e70a3b5a5d1080dc4b3a56aa726c717120c6bfa3
+exl-id: 6bdd6ba7-e5a6-462a-8385-66b955ef25fc
+source-git-commit: 4a4c42968caf6c0c8265014d99a2211da4c1cbb9
 workflow-type: tm+mt
 source-wordcount: '3457'
 ht-degree: 0%
 
 ---
-
 
 # Alternativen und Äquivalente
 
@@ -123,7 +123,8 @@ Der Filter für die Abschlussmethode ist in den Ansichten mit den Teilnehmern ve
 
 Aus diesen Ansichten geht eindeutig hervor, welche Schulungen direkt abgeschlossen wurden und welche über Stellvertreter absolviert wurden.
 
-<!--## Configure equivalent courses (complete each other)
+<!--
+## Configure equivalent courses (complete each other)
 
 Use this workflow to define courses that are **equal in value**, where completing either course should automatically complete the other.
 
@@ -213,7 +214,8 @@ ALM:
 
 1. Identifies impacted alternate completions.
 2. Revokes previously applied alternate or equivalent completions.
-3. Updates transcript entries to **Alternate (Revoked)**.-->
+3. Updates transcript entries to **Alternate (Revoked)**.
+-->
 
 ### Durchgehender Textfluss
 
