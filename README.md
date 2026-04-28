@@ -7,4 +7,4 @@ ht-degree: 0%
 ---
 # ARCHIV
 
-Dieser Repo wurde zu <https://github.com/Adobe-Enterprise-Docs/learning-manager.en> migriert.
+Dieser Repo wurde zu <https://github.com/Adobe-Enterprise-Docs/learning-manager.de-DE> migriert.
