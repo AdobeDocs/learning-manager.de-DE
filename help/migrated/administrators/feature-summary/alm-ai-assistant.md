@@ -3,14 +3,16 @@ jcr-language: en_us
 title: Admin AI Assistant (Beta) in Adobe Learning Manager
 description: Weitere Informationen zum Adobe Learning Manager Admin AI Assistant (Beta)
 exl-id: af3d935b-c158-4a8e-9282-62251d29249c
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '934'
+source-wordcount: '952'
 ht-degree: 1%
 
 ---
 
 # Admin AI Assistant (Beta) in Adobe Learning Manager
+
+## Einführung
 
 Bei komplexen Lernkonfigurationen können Administratoren aufgrund komplizierter Menüs und unverbundener Arbeitsabläufe Schwierigkeiten haben, Inhalte zu finden oder Aufgaben abzuschließen. Für Aufgaben wie das Ausführen von Berichten oder den Zugriff auf bestimmte Informationen ist es beispielsweise erforderlich, auf mehreren Bildschirmen zu navigieren. Der Admin AI Assistant (Beta) hilft Ihnen dabei, die richtigen Informationen zu finden, um Aufgaben effizient zu verstehen und durchzuführen.
 
@@ -20,7 +22,12 @@ Es nutzt die KI-Funktionen von Adobe, um Anfragen in natürlicher Sprache über 
 
 Dieser Assistent reduziert die Abhängigkeit von manueller Navigation, verkürzt die Erkennungszeit und hilft dabei, schnell verwertbare Erkenntnisse zu gewinnen.
 
+>[!NOTE]
+>
+>Diese Funktion ist in FedRAMP-autorisierten Umgebungen nicht verfügbar. Weitere Informationen finden Sie unter [Verfügbarkeit von Funktionen in FedRAMP-Umgebungen](/help/migrated/feature-availability-in-fedramp-authorized-environment.md).
+
 <!--
+help\migrated\feature-availability-in-fedramp-authorized-environment.md
 ## Key benefits
 
 * Perform common administrator tasks faster with conversational guidance.
@@ -85,22 +92,22 @@ Im Folgenden finden Sie einige Beispiel-Eingabeaufforderungen, die Administrator
   _Antwort auf die Eingabeaufforderung Wie weise ich einem Benutzer einen Kurs zu_
 
 * **Neuester Registrierungsbericht**
-   * **Eingabeaufforderung**: Zeigt den neuesten Registrierungsbericht an.
+   * **Eingabeaufforderung**: Zeigen Sie mir den neuesten Registrierungsbericht an.
 
   ![](assets/prompt-2.png)
   _Antwort auf die Eingabeaufforderung Letzten Registrierungsbericht anzeigen_
 
 * **Benutzer löschen**
-   * **Eingabeaufforderung**: &quot;Wie kann ich einen Benutzer löschen?&quot;
+   * **Eingabeaufforderung**: Wie kann ich einen Benutzer löschen?
 
   ![](assets/prompt-3.png)
   _Antwort auf die Eingabeaufforderung Wie kann ich einen Benutzer löschen_
 
 ### Tipps für die effektive Verwendung des Admin AI Assistant (Beta)
 
-* **Geben Sie Ihre Eingabeaufforderungen genau an**: Wenn Sie eine Frage stellen, geben Sie einen klaren Kontext und Details an. Anstatt zu fragen, wie ich einen Benutzer in Adobe Learning Manager hinzufüge, fragen Sie beispielsweise: &quot;Wie weise ich einem Benutzer in Adobe Learning Manager einen Kurs zu?&quot;
-* **Klare und prägnante Formulierungen verwenden**: Halten Sie Ihre Fragen einfach und zielgerichtet. Dadurch kann der Admin AI Assistant (Beta) Ihre Absicht verstehen und eine genauere Antwort darauf geben.
-* **Verschiedene Möglichkeiten erkunden**: Fragen Sie nach einer Vielzahl von Funktionen, wie Registrierungsberichten, Teilnehmerfortschritt, Inhaltszuweisung oder Zertifizierungsverfolgung, um den gesamten verfügbaren Support zu erfahren.
+* **Geben Sie Ihre Eingabeaufforderungen genau an**: Wenn Sie eine Frage stellen, fügen Sie einen klaren Kontext und Details hinzu. Anstatt zu fragen, wie ich einen Benutzer in Adobe Learning Manager hinzufüge, fragen Sie beispielsweise: &quot;Wie weise ich einem Benutzer in Adobe Learning Manager einen Kurs zu?&quot;
+* **Klare und präzise Sprache verwenden**: Konzentriere dich ganz auf deine Fragen. Dadurch kann der Admin AI Assistant (Beta) Ihre Absicht verstehen und eine genauere Antwort darauf geben.
+* **Verschiedene Funktionen erkunden**: Informieren Sie sich über eine Vielzahl von Funktionen wie Registrierungsberichte, Teilnehmerfortschritt, Inhaltszuweisung oder Zertifizierungs-Tracking und erfahren Sie mehr über die gesamte Palette an verfügbarem Support.
 * **Feedback geben**: Nachdem Sie eine Antwort erhalten haben, teilen Sie uns mit, ob diese hilfreich war. Verwenden Sie die Funktionen &quot;Daumen hoch&quot;, &quot;Daumen runter&quot;, &quot;Bericht&quot; oder &quot;Kommentar&quot;, um Ihr Feedback zu teilen. Ihr Feedback spielt eine Schlüsselrolle bei der Verbesserung des Assistenten.
 
 

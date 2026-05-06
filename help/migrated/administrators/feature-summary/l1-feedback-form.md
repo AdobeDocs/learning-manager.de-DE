@@ -2,13 +2,13 @@
 description: Weitere Informationen zum Erstellen von L1-Feedbackformularen für Teilnehmer
 jcr-language: en_us
 title: L1-Feedbackformular
-source-git-commit: 13efc4d72ac56cecf6313dbda28a3853fc3b5498
+exl-id: 4e8ed747-898e-43e1-91af-869aa93112bc
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1206'
 ht-degree: 0%
 
 ---
-
 
 # L1-Feedbackformular
 
@@ -28,7 +28,11 @@ Die Funktion bietet mehr Flexibilität, da Administratoren Folgendes tun können
 * Feedback für verschiedene Kurse oder Lernpfade anpassen
 * Weisen Sie nach Bedarf maßgeschneiderte Formulare zu
 
-Der **[!UICONTROL L1-Feedbackbericht]** und der **[!UICONTROL Feedbackbericht]** (benutzerdefinierter Bericht) enthalten jetzt zwei neue Spalten: Name des Feedbackformulars und Version des Feedbacks. Diese Spalten enthalten Details zu den verwendeten Feedback-Formularen.
+Der **[!UICONTROL L1-Feedbackbericht]** und der **[!UICONTROL Feedbackbericht]** (benutzerdefinierter Bericht) enthalten jetzt zwei neue Spalten: Name und Version des Feedbackformulars. Diese Spalten enthalten Details zu den verwendeten Feedback-Formularen.
+
+>[!NOTE]
+>
+>Diese Funktion - **L1-Feedbackbericht** - ist in FedRAMP-autorisierten Umgebungen nicht verfügbar. Weitere Informationen finden Sie unter [Verfügbarkeit von Funktionen in FedRAMP-Umgebungen](/help/migrated/feature-availability-in-fedramp-authorized-environment.md).
 
 ## L1-Feedbackformular erstellen
 
@@ -62,7 +66,7 @@ So erstellen Sie ein L1-Feedbackformular:
      ![](assets/free-text.png)
      _Freitextfrage zum Feedbackformular hinzufügen_
 
-   b. **[!UICONTROL Numerische Skalierung/NPS]**: Die Teilnehmer können ihre Kurszufriedenheit oder Wahrscheinlichkeit bewerten, den Kurs mithilfe einer numerischen Skalierung (in der Regel 1 bis 10) zu empfehlen.
+   b. **[!UICONTROL Numerische Skalierung/NPS]**: Die Teilnehmer können die Zufriedenheit mit dem Kurs bzw. die Wahrscheinlichkeit, den Kurs zu empfehlen, mithilfe einer numerischen Skala (in der Regel 1 bis 10) bewerten.
 
    * Geben Sie Ihre Frage in das Textfeld **[!UICONTROL Frage]** ein.
    * Wählen Sie den Bewertungsbereich (1 bis 10) aus.
@@ -70,14 +74,14 @@ So erstellen Sie ein L1-Feedbackformular:
      ![](assets/numerical.png)\
      _Dem Feedbackformular eine Frage zur numerischen/NPS-Skalierung hinzufügen_
 
-   c. **[!UICONTROL Likert-Skala]**: Teilnehmer können angeben, wie sehr sie einer Anweisung zustimmen, von &quot;Strongly Disagree&quot; bis &quot;Strongly Agree&quot;.
+   c. **[!UICONTROL Likert-Skalierung]**: Die Teilnehmer können angeben, inwieweit sie einer Anweisung zustimmen, von &quot;Stark nicht zustimmen&quot; bis &quot;Stark zustimmen&quot;.
 
    * Geben Sie Ihre Frage in das Textfeld **[!UICONTROL Frage]** ein.
    * Um die Frage als obligatorisch festzulegen, wählen Sie den Schalter **[!UICONTROL Obligatorisch]**.
      ![](assets/likert.png)
      _Likert-Skalierungsfrage zum Feedbackformular hinzufügen_
 
-   d. **[!UICONTROL Kurseffektivitätsergebnis]**: Eine Skala, um zu messen, wie effektiv ein Kurs die Teilnehmer mithilfe eines relativen Bewertungssystems beeinflusst.
+   d. **[!UICONTROL Kurseffektivitätswert]**: Eine Skala, die misst, wie effektiv ein Kurs die Teilnehmer beeinflusst, indem ein relatives Bewertungssystem verwendet wird.
 
    * Dem Feedbackformular wird eine vordefinierte Frage mit einer Likert-Skala von 1 bis 10 hinzugefügt.
    * Sie können nur eine **[!UICONTROL Frage zur Bewertung der Kurseffektivität]** hinzufügen, die nicht bearbeitet werden kann.
@@ -166,6 +170,3 @@ Führen Sie dieselben Schritte aus, um die Standard-Feedbackformulare für einen
 >[!NOTE]
 >
 >Wenn Sie das Formular nicht ändern, verwendet der Kurs das standardmäßige Feedbackformular.
-
-
-

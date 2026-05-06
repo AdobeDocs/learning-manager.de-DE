@@ -3,9 +3,9 @@ title: Entsprechungen und Stellvertreter in Adobe Learning Manager
 description: Bieten Sie ein reibungsloses Lernerlebnis und eliminieren Sie redundante Schulungen mit Entsprechungen und Alternativen in ALM. Mit dieser neuen Funktion können Administratoren unidirektionale (alternierende) oder bidirektionale (äquivalente) Regeln konfigurieren, bei denen durch das Absolvieren einer Schulung automatisch ein alternativer Abschluss für eine andere erteilt wird
 jcr-language: en-us
 exl-id: 6bdd6ba7-e5a6-462a-8385-66b955ef25fc
-source-git-commit: 4a4c42968caf6c0c8265014d99a2211da4c1cbb9
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '3457'
+source-wordcount: '3474'
 ht-degree: 0%
 
 ---
@@ -22,14 +22,18 @@ Mit der Funktion &quot;Alternativer Kurs oder Lernpfad&quot; hat ALM eine formel
 
 Die Funktion funktioniert über Kurse und Lernpfade hinweg, stellt sicher, dass nachgelagerte Anforderungen wie Voraussetzungen und Compliance-Regeln eingehalten werden, und tut dies, ohne die Teilnehmer zu zwingen, sich durch redundante Inhalte zu bewegen. Darüber hinaus wird die Genauigkeit der Berichte beibehalten, indem aufgezeichnet wird, was direkt abgeschlossen wurde und was über eine Alternative erfüllt wurde.
 
-Im Kern führt die Funktion das Konzept eines alternativen Abschlusses ein: ein spezieller Abschlussstatus, der automatisch erstellt wird, wenn ein Teilnehmer eine konfigurierte Quellschulung abschließt, die auf eine andere Zielschulung angerechnet wird.
+Im Kern führt die Funktion das Konzept einer alternativen Vervollständigung ein: ein spezieller Abschlussstatus, der automatisch erstellt wird, wenn ein Teilnehmer eine konfigurierte Quellschulung abschließt, die auf eine andere Zielschulung angerechnet wird.
+
+>[!NOTE]
+>
+>Diese Funktion ist in FedRAMP-autorisierten Umgebungen nicht verfügbar. Weitere Informationen finden Sie unter [Verfügbarkeit von Funktionen in FedRAMP-Umgebungen](/help/migrated/feature-availability-in-fedramp-authorized-environment.md).
 
 ## Alternative Beziehungen
 
 Einige Trainingsbeziehungen sind bidirektional, d. h. jeder Kurs kann die Anforderungen des anderen erfüllen. Dies ist im Grunde ein Szenario, bei dem zwei Schulungen als gegenseitig austauschbar behandelt werden. Im Gegensatz dazu erlauben unidirektionale Beziehungen es einem Training, die Anforderungen an ein anderes zu erfüllen, aber nicht umgekehrt. ALM modelliert beide Szenarien mit demselben zugrunde liegenden alternativen Abschlussmechanismus.
 
 * **Bidirektionale Beziehung (Entsprechungen):** Das Abschließen einer der Schulungen erfüllt die Anforderungen für die andere.
-* **Unidirektionale Beziehung:** Das Abschließen von Schulung A erfüllt Schulung B, aber das Abschließen von B erfüllt A nicht. Dies ist häufig der Fall, wenn eine neuere oder umfassendere Version auf eine ältere Anforderung angerechnet werden sollte, aber nicht umgekehrt.
+* **Unidirektionale Beziehung:** Das Abschließen von Schulung A erfüllt Schulung B, aber das Abschließen von B erfüllt A nicht. Dies ist üblich, wenn eine neuere oder umfassendere Version auf eine ältere Anforderung angerechnet werden sollte, nicht aber auf die umgekehrte.
 
 Zum Beispiel, wenn ein umfassenderer Superset-Kurs alles in einem einfacheren Unterset-Kurs abdeckt. Das Ausfüllen der Obermenge sollte die Anforderungen für die Untermenge erfüllen, aber nicht unbedingt umgekehrt.
 
@@ -69,7 +73,7 @@ Administratoren definieren die Beziehungen zwischen Kursen und Lernpfaden. Für 
 
 Bei Entsprechungen können Administratoren die Beziehung bidirektional machen, wenn sie möchten, dass beide Schulungen einander entsprechen. Bei Stellvertretern behalten Administratoren die Richtung in der Regel einseitig, um zu reflektieren, dass nur einige Ersetzungen zulässig sind.
 
-Diese Beziehungen werden auf der Schulungsebene gespeichert, nicht auf der Teilnehmerebene. Nach der Konfiguration und Aktivierung können diese   für alle aktuellen und zukünftigen Abschlüsse der Quellschulung, abhängig von Einstellungen auf Konto*Ebene, z. B. ob die retroaktive Vervollständigung aktiviert ist.
+Diese Beziehungen werden auf der Schulungsebene gespeichert, nicht auf der Teilnehmerebene. Nach der Konfiguration und Aktivierung können sie für alle aktuellen und zukünftigen Abschlüsse der Quellschulung gelten, abhängig von Einstellungen auf Konto*-Ebene, z. B. ob der retroaktive Abschluss aktiviert ist.
 
 ### Alternativer Abschluss
 
@@ -320,7 +324,7 @@ Der Registrierungsbericht lässt das Feld &quot;Abschlussquelle&quot; leer, wenn
 
 Wenn ein Ziel aus der Quelle entfernt wird (oder die Quelle selbst gelöscht wird), zeigt der Registrierungsbericht möglicherweise nicht den gleichen Status **Alternate oder Alternate (Revoked)** an, wie im Teilnehmertranskript gezeigt.
 
-Auch wenn   **Alternates** sind deaktiviert. Verlaufseinträge in den Zeilen **Inhaltsüberwachung** oder **Registrierung** zeigen möglicherweise weiterhin Aktivitäten im Zusammenhang mit Alternates an.
+Selbst wenn **Alternates** deaktiviert ist, können historische Einträge in den Zeilen **Inhaltsüberwachung** oder **Registrierung** weiterhin Aktivitäten im Zusammenhang mit Alternates anzeigen.
 
 Das Abschlussdatum kann dem Registrierungsdatum vorausgehen, wenn ein LO über einen alternativen Pfad **abgeschlossen wird, bevor der Teilnehmer sich tatsächlich registriert**. Da alternative Abschlüsse unabhängig vom Teilnehmerstatus auftreten können (**Registriert**, **Nicht registriert** oder **In Bearbeitung**), können Teilnehmer das LO zuerst abschließen und sich erst später für den Zielkurs registrieren.
 
@@ -413,7 +417,7 @@ Teilnehmer können für Kurse, die weiter unten in einer Beziehungskette liegen,
 
 Berichte und Teilnehmertranskripte zeigen alternative Abschlüsse nur für direkte Beziehungen an. Dadurch werden komplexe, mehrstufige Prüfprotokolle vermieden, und es wird Klarheit bei der Prüfung der Art und Weise gewährleistet, wie ein Abschluss gewährt wurde.
 
-## Katalogfreigabe mit Peer-Konten: Beziehungen nicht freigegeben
+## Katalogfreigabe für Peer-Konten: Beziehungen nicht gemeinsam genutzt
 
 Die Katalogfreigabe ermöglicht die Freigabe von LOs über Peer-Konten hinweg, aber alternative und äquivalente Beziehungen werden innerhalb jedes Kontos unabhängig verwaltet und nicht freigegeben.
 

@@ -3,20 +3,26 @@ description: Mit dem KI-Assistenten in Adobe Learning Manager erhalten Sie schne
 jcr-language: en_us
 title: AI Assistant für Teilnehmer in Adobe Learning Manager
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 3c26038aa12f4890a1627db07f5bff64efbd79b7
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '1793'
+source-wordcount: '1811'
 ht-degree: 0%
 
 ---
 
 # KI-Assistent für Teilnehmende
 
+## Einführung
+
 Mit dem AI Assistant (Beta) für Teilnehmer können sie schnell Antworten auf die zugewiesenen Lerninhalte finden, ohne sich durch ganze Kurse bewegen zu müssen. Sie können Fragen in verständlicher Sprache stellen und erhalten präzise, zielgerichtete Antworten mit Quell-Links zu den relevanten Kursinhalten.
 
 >[!IMPORTANT]
 >
 >Der AI Assistant für Teilnehmer ist derzeit als Betafunktion verfügbar. Funktionen, unterstützte Szenarien und Einschränkungen können sich mit der Weiterentwicklung der Funktion ändern.
+
+>[!NOTE]
+>
+>Diese Funktion ist in FedRAMP-autorisierten Umgebungen nicht verfügbar. Weitere Informationen finden Sie unter [Verfügbarkeit von Funktionen in FedRAMP-Umgebungen](/help/migrated/feature-availability-in-fedramp-authorized-environment.md).
 
 
 ## Was ist der KI-Assistent für Teilnehmer?
@@ -34,7 +40,7 @@ Der AI Assistant ist ein generativer KI-gestützter Chat-Begleiter in Adobe Lear
 - **Inhaltsquellen und Zitate**
    - Ruft Antworten aus verfügbaren Ressourcen in unterstützten Katalogen ab
    - Bietet Zitaten direkte Verknüpfungen zu Quellmaterialien
-   - Unterstützt alle (statischen und interaktiven) Learning Manager-Inhaltsformate: PDF, DOCX, PPTX, XLSX, Audio (MP3, WAV, M4A), Video (MP4, MOV, WMV), HTML, SCORM 2004 und SCORM 1.2
+   - Unterstützt alle Learning Manager-Inhaltsformate (statisch und interaktiv): PDF, DOCX, PPTX, XLSX, Audio (MP3, WAV, M4A), Video (MP4, MOV, WMV), HTML, SCORM 2004 und SCORM 1.2
 
 - **Benutzererlebnis**
    - Seitenbedienfeld, über alle Teilnehmerseiten zugänglich
@@ -158,10 +164,10 @@ So aktivieren Sie den AI-Assistenten für Teilnehmer:
 &#x200B;1. Melden Sie sich bei Adobe Learning Manager als Administrator an.
 
 &#x200B;2. Wählen Sie **Einstellungen** auf der Startseite aus.
-2![Administratorkonsole mit der Option &quot;Einstellungen&quot; im linken Fensterbereich &#x200B;](assets/settings-menu.png)
+![Administratorkonsole mit der Option &quot;Einstellungen&quot; im linken Fensterbereich](assets/settings-menu.png)
 
 &#x200B;3. Wählen Sie im Menü **Einstellungen** die Option **Teilnehmer-AI-Assistent (Beta)**.
-4![Auf der Administratorkonsole wird die Option &quot;Teilnehmer-AI-Assistent&quot; im linken Fensterbereich angezeigt.](assets/learner-assistant-ai-beta.png)
+![Auf der Administratorkonsole wird die Option &quot;Teilnehmer-AI-Assistent&quot; im linken Bereich angezeigt](assets/learner-assistant-ai-beta.png)
 
 &#x200B;4. Wählen Sie den Umschalter, um den **Teilnehmer-AI-Assistenten (Beta)** zu aktivieren.
 <!--![Administrators console displays the toggle enabled for Learner AI Assistant](assets/learner-assistant-toggle.png)-->

@@ -3,28 +3,32 @@ jcr-language: en_us
 title: Dashboard für den Gruppenerfolg
 description: Weitere Informationen zum Group Success Dashboard in Adobe Learning Manager
 exl-id: 2cfd0511-d77d-4e97-81e6-6caa8483cc64
-source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '1083'
-ht-degree: 0%
+source-wordcount: '1100'
+ht-degree: 1%
 
 ---
 
 # Dashboard für den Gruppenerfolg
 
-## Übersicht über das Group Success Dashboard
+## Einführung
 
 Das Group Success Dashboard (GSD) in Adobe Learning Manager ermöglicht es Administratoren und Managern, den Fortschritt der Teilnehmer nahezu in Echtzeit zu überwachen (60 Minuten Verzögerung von der Registrierung, dem Fortschritt oder dem Abschluss bis hin zur Anzeige im Dashboard). Dies geschieht abteilungsübergreifend oder für Benutzergruppen. Es unterstützt die proaktive Verfolgung von Kursabschluss, Registrierung und ausstehenden Aktionen und erleichtert so die Verwaltung des Lernprozesses für Teams. In diesem [Artikel](/help/migrated/administrators/feature-summary/add-users-user-groups.md) erfahren Sie mehr über Benutzergruppen.
+
+>[!NOTE]
+>
+>Diese Funktion ist in FedRAMP-autorisierten Umgebungen nicht verfügbar. Weitere Informationen finden Sie unter [Verfügbarkeit von Funktionen in FedRAMP-Umgebungen](/help/migrated/feature-availability-in-fedramp-authorized-environment.md).
 
 ## Wichtige Nutzungsszenarien
 
 Das Gruppen-Erfolgs-Dashboard bietet Folgendes:
 
-* **Vereinfacht die Verfolgung des Teilnehmerfortschritts**: Das Gruppen-Erfolgs-Dashboard bietet eine benutzerfreundliche Echtzeit-Ansicht der Teilnehmerdaten, wodurch die Notwendigkeit Excel-basierter Transkripte reduziert wird. Manager und Administratoren können die Registrierungen von Teilnehmern und den Kursfortschritt schnell anzeigen, um wichtige Szenarien zu unterstützen, wie z. B.:
+* **Vereinfacht die Verfolgung des Teilnehmerfortschritts**: Das Gruppen-Erfolgs-Dashboard bietet eine benutzerfreundliche Echtzeitansicht der Teilnehmerdaten, sodass weniger Excel-basierte Transkripte erforderlich sind. Manager und Administratoren können die Registrierungen von Teilnehmern und den Kursfortschritt schnell anzeigen, um wichtige Szenarien zu unterstützen, wie z. B.:
 
    * **Bereitschaft zur Leistungsüberprüfung**: Manager können den Kursfortschritt für Teammitglieder im Vorfeld von Bewertungszyklen bewerten.
    * **Konformitätsüberwachung**: Ermitteln Sie Teilnehmer, die keine obligatorischen Schulungen abgeschlossen haben.
-   * **Verfolgung auf Teamebene**: Franchise-, Filial- oder regionale Manager können sicherstellen, dass ihre Teams die erforderlichen Schulungen pünktlich abschließen.
+   * **Nachverfolgung auf Teamebene**: Franchise-, Filial- oder Regionalmanager können sicherstellen, dass ihre Teams die erforderlichen Schulungen pünktlich abschließen.
 
 * **Erleichtert die Teamverwaltung**: Das Group Success Dashboard ist nützlich für Manager mit kleinen Teams (unter 50 Personen), wie Filialleiter, Franchise-Manager, Händler-Manager oder interne Teams. Sie bietet eine Teamansicht und ermöglicht es Managern, schnell zu überprüfen, ob ihr Team die erforderlichen Kurse absolviert hat, um die Geschäftsziele zu erreichen.
 
@@ -52,7 +56,7 @@ Der Administrator muss das Gruppen-Erfolgs-Dashboard für das Konto aktivieren. 
 
 
    * Teilnehmer
-   * Pfade und Kurse
+   * Pläne und Kurse
    * Status
    * Registrierungsdatum
    * Datum des letzten Zugriffs
@@ -92,7 +96,7 @@ Administratoren können bis zu 100 Dashboards erstellen, um den Fortschritt der 
 
 7. Wählen Sie **[!UICONTROL Dashboard erstellen]**.
 
-Erstellen Sie für größere Teams ein Dashboard, indem Sie auf der Registerkarte **Teilnehmertranskript** die Benutzergruppe **Standardkatalog** und **[!UICONTROL Alle Teilnehmer]** auswählen. Dies umfasst alle Kurse und Teilnehmer in der Ansicht **[!UICONTROL Teilnehmertranskript]**, sodass es einfacher ist, nach dem Fortschritt jedes Teilnehmers zu suchen und ihn zu verfolgen.
+Erstellen Sie für größere Teams ein Dashboard, indem Sie auf der Registerkarte **[!UICONTROL Teilnehmertranskript]** die Benutzergruppe **Standardkatalog** und **Alle Teilnehmer** auswählen. Dies umfasst alle Kurse und Teilnehmer in der Ansicht **[!UICONTROL Teilnehmertranskript]**, sodass es einfacher ist, nach dem Fortschritt jedes Teilnehmers zu suchen und ihn zu verfolgen.
 
 ### Das Dashboard für den Gruppenerfolg anzeigen
 
@@ -103,12 +107,12 @@ Nach dem Erstellen eines Dashboards kann der Administrator das Dashboard wie fol
 Der Name des Dashboards lautet Store Manager Dashboard.
 3. Wählen Sie im Abschnitt **[!UICONTROL Ihre Dashboards]** das erstellte Dashboard aus der Dropdown-Liste **[!UICONTROL Dashboard auswählen]** aus.
 4. Das Dashboard ist unterteilt in:
-   * **[!UICONTROL Übersicht]**: Sie können den Fortschritt der Teilnehmer bei einzelnen Kursen oder Lernpfaden schnell anzeigen. Sie können den Fortschritt mit bis zu 50 Kursen oder Lernpfaden und 50 Teilnehmern gleichzeitig anzeigen. Wenn Sie den Fortschritt eines bestimmten Teilnehmers überprüfen möchten, wählen Sie den Abschnitt **[!UICONTROL Teilnehmertranskript]** aus.
+   * **[!UICONTROL Übersicht]**: Sie können den Fortschritt der Teilnehmer schnell in einzelnen Kursen oder Lernpfaden sehen. Sie können den Fortschritt mit bis zu 50 Kursen oder Lernpfaden und 50 Teilnehmern gleichzeitig anzeigen. Wenn Sie den Fortschritt eines bestimmten Teilnehmers überprüfen möchten, wählen Sie den Abschnitt **[!UICONTROL Teilnehmertranskript]** aus.
 
    ![](assets/overview.png)
    _Lernstatus der Teilnehmer im Team des Filialleiters_
 
-   * **[!UICONTROL Teilnehmertranskript]**: Zeigen Sie den Teilnehmerfortschritt an, indem Sie einen bestimmten Teilnehmer oder Kurs auswählen. Suchen Sie im Dashboard nach einem Teilnehmer, um dessen Lernfortschritt zu überprüfen. Wenn Sie das Dashboard mithilfe des Standardkatalogs erstellt und alle Teilnehmer einbezogen haben, können Sie nach jedem Teilnehmer suchen, um dessen Fortschritt einfach zu überprüfen.
+   * **[!UICONTROL Teilnehmertranskript]**: Zeigen Sie den Fortschritt der Teilnehmer an, indem Sie einen bestimmten Teilnehmer oder Kurs auswählen. Suchen Sie im Dashboard nach einem Teilnehmer, um dessen Lernfortschritt zu überprüfen. Wenn Sie das Dashboard mithilfe des Standardkatalogs erstellt und alle Teilnehmer einbezogen haben, können Sie nach jedem Teilnehmer suchen, um dessen Fortschritt einfach zu überprüfen.
 
    ![](assets/learner-transcript.png)
    _Detaillierte Teilnehmertranskriptansicht mit Spalten für Registrierung und Abschluss_
@@ -154,8 +158,8 @@ Im Folgenden sind die Einschränkungen des Group Success Dashboard aufgeführt:
 
 Wenn Sie mehr als eine Benutzergruppe auswählen, verwendet Adobe Learning Manager bestimmte Regeln, um zu bestimmen, welche Teilnehmer einbezogen werden sollen:
 
-* **Benutzergruppen mit demselben aktiven Feld**: Wenn die Benutzergruppen dasselbe Feld verwenden (z. B. Speicherort), enthält das System alle Teilnehmer aus beiden Gruppen. Es kombiniert die Werte. Beispiel: **Location = Bangalore** und **Location = Chennai**. Es enthält Teilnehmer aus beiden Standorten.
-* **Benutzergruppen mit unterschiedlichen aktiven Feldern**: Wenn die Benutzergruppen unterschiedliche Felder verwenden (z. B. Speicherort und Rolle), enthält das System nur Teilnehmer, die alle Bedingungen erfüllen. Beispiel: **Standort = Bangalore oder Chennai** und **Rolle = Manager**. Es umfasst nur Teilnehmer, die die Managerrolle haben und in Bangalore oder Chennai ansässig sind.
+* **Benutzergruppen mit dem gleichen aktiven Feld**: Wenn die Benutzergruppen dasselbe Feld verwenden (z. B. &quot;Ort&quot;), umfasst das System alle Teilnehmer aus beiden Gruppen. Es kombiniert die Werte. Beispiel: **Ort = Bangalore** und **Ort = Chennai**. Es enthält Teilnehmer aus beiden Standorten.
+* **Benutzergruppen mit unterschiedlichen aktiven Feldern**: Wenn die Benutzergruppen unterschiedliche Felder verwenden (z. B. &quot;Position&quot; und &quot;Rolle&quot;), umfasst das System nur Teilnehmer, die alle Bedingungen erfüllen. Beispiel: **Standort = Bangalore oder Chennai** und **Rolle = Manager**. Es umfasst nur Teilnehmer, die die Managerrolle haben und in Bangalore oder Chennai ansässig sind.
 
 **Zusammenfassung:**
 

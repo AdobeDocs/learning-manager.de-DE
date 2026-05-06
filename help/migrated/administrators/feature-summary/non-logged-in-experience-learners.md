@@ -2,10 +2,10 @@
 title: Oberfläche für nicht angemeldete Teilnehmer
 description: Das native Adobe Learning Manager-Portal unterstützt einen nicht protokollierten Zugriff auf die Schulungswebsite. Wenn dieser Modus aktiviert ist, können Teilnehmer die Schulungswebsite entdecken und darauf zugreifen und verschiedene verfügbare Kurse und Inhalte auschecken. Auf der Oberfläche ohne Anmeldung können Teilnehmer Kurse durchsuchen, ohne bei einem Portal angemeldet zu sein.
 exl-id: 12260cca-d2d2-4e7c-991d-9b09690d4c0a
-source-git-commit: 664b9c867fc767e11d4d91e3be9ae172e7e85035
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 39%
+source-wordcount: '650'
+ht-degree: 38%
 
 ---
 
@@ -24,6 +24,10 @@ Die Schulung kann dann aus dem Connector exportiert werden.
 >Stellen Sie sicher, dass die Option Nativer Lern-Manager ausgewählt ist.
 
 Der Administrator kann die Startseite ändern und konfigurieren, die für nicht angemeldete Benutzer vorgesehen ist.
+
+>[!NOTE]
+>
+>Diese Funktion ist in FedRAMP-autorisierten Umgebungen nicht verfügbar. Weitere Informationen finden Sie unter [Verfügbarkeit von Funktionen in FedRAMP-Umgebungen](/help/migrated/feature-availability-in-fedramp-authorized-environment.md).
 
 ## Teilnehmer-APIs
 

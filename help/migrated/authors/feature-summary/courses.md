@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Kurse erstellen, ändern und veröffentlichen
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 0ae0dee3a43108b707e13778edbc7367c67d63e3
+source-git-commit: f7f392fd585108f7853b092c3f2230a366d579f9
 workflow-type: tm+mt
-source-wordcount: '8840'
+source-wordcount: '8841'
 ht-degree: 64%
 
 ---
@@ -80,11 +80,11 @@ Um einen Kurs zu erstellen, führen Sie die unten genannten Schritte aus:
    Sie können die Option für die folgenden Kurstypen aktivieren:
 
    * Selbststudium
+   * Virtuelles Klassenzimmer
    * Klassenzimmer
    * Aktivität
-   * Gemischt
 
-   Hinweis: Wenn Sie beim Duplizieren eines Kurses die Option &quot;Instanzkonfiguration&quot; im Quellkurs aktiviert haben, bleibt die Option im Zielkurs deaktiviert.
+   Hinweis: Wenn Sie beim Duplizieren eines Kurses die Option Instanzkonfiguration im Quellkurs aktiviert haben, bleibt die Option im Zielkurs deaktiviert.
 
    **Der Instanzschalter wird für** nicht unterstützt:
 
@@ -377,7 +377,7 @@ Nachdem der Administrator mehrere Versuche aktiviert hat, können Sie als Autor 
    <td>
     <p>Modul zwischen Versuchen 0:0:1 Format sperren: Tage/Stunden/Minuten</p></td>
    <td>
-    <p>Sie können Module für eine bestimmte Zeit zwischen den Versuchen sperren, indem Sie das Kontrollkästchen "<b>Modul zwischen Versuchen 0:0:1 Format: Tage/Stunden/Minuten</b> sperren" aktivieren. Wenn ein Modul gesperrt ist, kann der Teilnehmer das Modul nicht besuchen, bis die angegebene Sperrzeit abgelaufen ist. </p>
+    <p>Sie können Module für eine bestimmte Zeit zwischen den Versuchen sperren, indem Sie das Kontrollkästchen "<b>Modul zwischen Versuchen 0:0:1 Format sperren: Tage/Stunden/Minuten</b>". Wenn ein Modul gesperrt ist, kann der Teilnehmer das Modul nicht besuchen, bis die angegebene Sperrzeit abgelaufen ist. </p>
     <p>Sie können die Endkriterien eines Versuchs definieren, indem Sie die Kontrollkästchen "<b>Player schließen</b>" oder "<b>Abschluss</b>" aktivieren.</p></td>
   </tr>
   <tr>
@@ -437,7 +437,7 @@ Führen Sie die folgenden Schritte aus, um ein Inhaltsmodul hinzuzufügen:
 
    *VC-Modul hinzufügen*
 
-   Wenn Sie einen Kurs mithilfe des Konfigurationsdialogfelds &quot;Virtuelles Klassenzimmer&quot; erstellen, stellen Sie das **Konferenzsystem** auf die von Ihnen erstellte Teams-Verbindung ein. Wählen Sie aus, ob Sie einen Meetingorganisator für die Veranstaltung wünschen.
+   Wenn Sie einen Kurs mithilfe des Konfigurationsdialogfelds &amp;quot;Virtuelles Klassenzimmer&amp;quot; erstellen, stellen Sie das **Konferenzsystem** auf die von Ihnen erstellte Teams-Verbindung ein. Wählen Sie aus, ob Sie einen Meetingorganisator für die Veranstaltung wünschen.
 
    Wenn Sie **Ja** für einen Meetingveranstalter auswählen, müssen Sie den Namen des Veranstalters eingeben. Geben Sie den Namen ein und wählen Sie den Organisator aus.
 
@@ -499,8 +499,8 @@ Autoren können HTML-Links im Aktivitätsmodul hinzufügen und die Abschlusskrit
 1. Geben Sie in der Eingabeaufforderung **[!UICONTROL Aktivitätsmodul]** den Namen und die Beschreibung ein.
 1. Wählen Sie den **[!UICONTROL Typ]** als **[!UICONTROL externe URL]** aus.
 1. Wählen Sie eine der folgenden Optionen aus der Option **[!UICONTROL Abschlusskriterien]** aus.
-   * **[!UICONTROL Teilnehmer markiert Abgeschlossen]**: Der Teilnehmer hat die Möglichkeit, den Kurs im Fluidic Player als abgeschlossen zu markieren.
-   * **[!UICONTROL Beim Starten von Inhalten]**: Der Kurs wird automatisch als abgeschlossen markiert, wenn der Teilnehmer ihn startet.
+   * **[!UICONTROL Teilnehmer markiert den Abschluss]**: Der Teilnehmer hat die Möglichkeit, den Kurs im Fluidic Player als abgeschlossen zu markieren.
+   * **[!UICONTROL Beim Starten von Inhalt]**: Der Kurs wird automatisch als abgeschlossen markiert, wenn der Teilnehmer ihn startet.
 
    ![](assets/completion-criteria-activity-module.png)
    _Abschlusskriterien_
@@ -1090,7 +1090,7 @@ Sie können in Learning Manager mit den Menüoptionen „Veröffentlichen“ Kur
 1. Melden Sie sich mit Adobe-Anmeldeinformationen an. Wenn Sie noch keine Adobe ID haben, klicken Sie auf **[!UICONTROL Konto erstellen]**. Nach der Autorisierung werden Sie zur Seite für die Veröffentlichung von Modulen weitergeleitet.
 1. Geben Sie alle Basisinformationen über das Modul ein und klicken Sie auf „Veröffentlichen“.
 
-Sie sehen das veröffentlichte Modul auf der Modulseite von Learning Manager. Weitere Informationen finden Sie unter [Projekt in Adobe Learning Manager veröffentlichen](https://helpx.adobe.com/de/captivate/classic/publish-project-to-captivate-prime.html).
+Sie sehen das veröffentlichte Modul auf der Modulseite von Learning Manager. Weitere Informationen finden Sie unter [Projekt in Adobe Learning Manager veröffentlichen](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html).
 
 ## Kurseffektivität {#courseeffectiveness}
 

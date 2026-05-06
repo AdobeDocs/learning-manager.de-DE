@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Berichte
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: 5736ea0340336ae7aa8b6ec9da4676610e21d544
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '7660'
+source-wordcount: '7677'
 ht-degree: 63%
 
 ---
@@ -611,7 +611,7 @@ In der Spalte **Modifizierungstyp** werden die folgenden Details angezeigt:
 | Eingestellt | Kurs eingestellt |
 | Freigegebener Katalog - Hinzufügen | Für Katalog freigegebener Katalog |
 | Freigegebene Kataloge entfernen | Katalogfreigabe aus Katalog entfernt |
-| Aktualisierung des freigegebenen Katalogs | Status der Katalogfreigabe : aktiv |
+| Aktualisierung des freigegebenen Katalogs | Status der Katalogfreigabe : tätig |
 | Update | Kurs oder Lernpfad aktualisiert |
 | Benutzergruppen hinzufügen | Benutzergruppe zum Katalog hinzugefügt |
 | Benutzergruppe entfernen | Benutzergruppe aus Katalog entfernt |
@@ -651,7 +651,7 @@ Es gibt zwei Filter im Dialogfeld **[!UICONTROL Benutzerprüfpfad-Bericht]**.
 * Letzter Monat
 * Benutzerdefiniertes Datum
 
-Filter &quot;Teilnehmer wählen&quot;: Suchen Sie nach einem Benutzer oder einer Benutzergruppe.
+Filter &quot;Teilnehmer wählen&quot;:  Suchen Sie nach einem Benutzer oder einer Benutzergruppe.
 
 Der exportierte Bericht enthält Daten der Benutzer, die beide Suchkriterien erfüllen.
 
@@ -708,6 +708,10 @@ Administratoren können das Gamification-Transkript im CSV-Format herunterladen.
 
 Dieser Bericht enthält den Verlauf und die Gründe für die Gamification-Punkte der Teilnehmer, die für jede Regel gesammelt wurden.
 
+>[!NOTE]
+>
+>Diese Funktion ist in FedRAMP-autorisierten Umgebungen nicht verfügbar. Weitere Informationen finden Sie unter [Verfügbarkeit von Funktionen in FedRAMP-Umgebungen](/help/migrated/feature-availability-in-fedramp-authorized-environment.md).
+
 ### Bericht herunterladen
 
 1. Wählen Sie die Gamification-Prüfprotokoll-URL aus.
@@ -735,7 +739,7 @@ Der Bericht wird als CSV-Datei heruntergeladen. Die Datei enthält die folgenden
 
 Administratoren und Manager können einen Bericht der Teilnehmer extrahieren, die sich registriert bzw. ihre Registrierung aufgehoben haben. Als Administrator können Sie alle Teilnehmer, Administrator oder Manager sehen, die von einer Instanz eines Kurses des Lernprogramms oder der Zertifizierung registriert wurden oder deren Registrierung aufgehoben wurde und Sie können den Bericht exportieren. Als Manager können Sie jedoch nur einen Bericht Ihrer Teammitglieder abrufen. Als Manager können Sie nicht die gelöschten Teilnehmer oder Ihren eigenen Namen in der Manager-Anwendung als angemeldet sehen.
 
-Führen Sie die folgenden Schritte aus, um einen Bericht herunterzuladen: **[!UICONTROL Kurs/Lernprogramm/Zertifizierung]** > **[!UICONTROL Teilnehmer]** > **[!UICONTROL Aktion]** > **[!UICONTROL Bericht exportieren]**.
+Führen Sie die folgenden Schritte aus, um einen Bericht herunterzuladen: Öffnen Sie den **[!UICONTROL Kurs/Lernprogramm/Zertifizierung]** > **[!UICONTROL Teilnehmer]** > **[!UICONTROL Aktion]** > **[!UICONTROL Bericht exportieren]**.
 
 ![](assets/unenrollment.png)
 *Bericht zur Aufhebung der Registrierung*
@@ -1014,7 +1018,7 @@ Das exportierte Blatt mit Dashboard-Berichten enthält detaillierte Informatione
    *Achsen für Berichte*
 
 1. Wählen Sie aus den Dropdown-Optionen die Kriterien für die sekundäre **[!UICONTROL Y-Achse]** bzw. den Bereich für Ihren Bericht aus. Wählen Sie zum Beispiel für eine Option betreffend die Registrierung für ein Lernprogramm einen oder mehrere Status aus dem Status-Dropdown-Menü neben der Option aus. Sekundäre Bereichsdaten werden im Bericht in Form von Liniendiagrammen dargestellt.
-1. Wählen Sie aus den Dropdown-Optionen die für Ihren Bericht geeigneten X&#x200B;**-Achsen**-Kriterien aus. Wenn Sie das Datum als Kriterium für die x-Achse ausgewählt haben, steht Ihnen eine Option zur Gruppierung des x-Achsen-Kriteriums nach Tag, Monat, Quartal und Jahr zur Verfügung.
+1. Wählen Sie aus den Dropdown-Optionen die für Ihren Bericht geeigneten X**-Achsen**-Kriterien aus. Wenn Sie das Datum als Kriterium für die x-Achse ausgewählt haben, steht Ihnen eine Option zur Gruppierung des x-Achsen-Kriteriums nach Tag, Monat, Quartal und Jahr zur Verfügung.
 1. Wählen Sie die gewünschte Option aus dem Dropdown-Menü für die Zeitspanne aus. Die verfügbaren Optionen sind:
 
    * Letzter Monat
