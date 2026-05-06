@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Abzeichen
 contentowner: manochan
 exl-id: d0136a79-7044-4a1e-85bb-bd7b1ae24ba1
-source-git-commit: 359bc38487dedc7ec8883957b10522e53d09bddb
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 51%
+source-wordcount: '825'
+ht-degree: 84%
 
 ---
 
@@ -29,13 +29,13 @@ Die aktuellsten erworbenen Abzeichen stehen in der Liste am weitesten links, gef
 
 Klicken Sie auf ein beliebiges Abzeichen, um eine Liste aller Abzeichen anzuzeigen, die Sie bereits erworben haben. Sie können auch alle verfügbaren Abzeichen mit den entsprechenden Kursen anzeigen. Klicken Sie bei den noch zu erreichenden Abzeichen auf den Kursnamen, um den Kurs anzuzeigen, der dem Abzeichen entspricht. In der Abbildung unten sehen Sie ein Beispiel.
 
-Klicken Sie auf den Link **[!UICONTROL Abzeichen herunterladen]**, um alle erworbenen Abzeichen im ZIP-Format herunterzuladen. Sie können ein einzelnes Abzeichen herunterladen, indem Sie auf das Würfelsymbol neben jedem Abzeichen klicken.
+Klicken Sie auf den Link **[!UICONTROL Abzeichen herunterladen]**, um Ihre erworbenen Abzeichen im ZIP-Format herunterzuladen. Sie können ein einzelnes Abzeichen herunterladen, indem Sie auf das Würfelsymbol neben jedem Abzeichen klicken.
 
 **Abzeichen als PDF herunterladen**
 
 Sie können ein Set von Abzeichen oder ein einzelnes Zeichen im PDF-Format herunterladen.
 
-* Klicken Sie auf **[!UICONTROL Alle Abzeichen-Datensätze herunterladen]**, um die Abzeichen herunterzuladen, die Sie als PDF erworben haben.
+* Klicken Sie auf **[!UICONTROL Alle Abzeichen-Datensätze herunterladen]**, um die Abzeichen herunterzuladen, die von Ihnen als PDFs erworben wurden.
 * Um einzelne Abzeichen herunterzuladen, wählen Sie das Abzeichen aus und klicken Sie auf das PDF-Symbol neben dem Abzeichen.
 
 ![](assets/badges.png)
@@ -44,7 +44,7 @@ Sie können ein Set von Abzeichen oder ein einzelnes Zeichen im PDF-Format herun
 
 ## Open Badges {#openbadges}
 
-Die Open Badges Backpack-Plattform, die Learning Manager unterstützt, wird **eingestellt**. Derzeit unterstützt der Learning Manager keine Open Badges.
+Die Open Badges Backpack-Plattform, die Learning Manager unterstützt, wird **eingestellt**. Derzeit unterstützt Learning Manager Open Badges nicht.
 
 Open Badges ist ein Standard-Onlinestandard zur Überprüfung und Anerkennung der Lernfortschritte von Teilnehmern. Sie können diese Abzeichen verwenden, um Ihre Leistungen online zu präsentieren.
 
@@ -52,19 +52,23 @@ Learning Manager unterstützt das Open Badges-Konzept für Teilnehmende. Die her
 
 ## Unterstützung für Badgr-Abzeichen
 
-Teilnehmer können ihr Lernplattformkonto in ihr Badgr-Konto integrieren. Dadurch können Teilnehmer Abzeichen für soziale Websites über ihr Badgr-Konto teilen. Badgr bietet auch authentifizierbare Abzeichen basierend auf dem Backpack-Standard, was bedeutet, dass die Abzeichen überprüft werden.
-
-Offene Abzeichen sind Abzeichen, bei denen einige Metadaten in das Abzeichenbild eingebettet sind. Diese Metadaten enthalten Informationen über den Aussteller, den Empfänger, die Aufgabe, die Gültigkeit des Abzeichens usw. Badgr Backpack ist direkt vom Learning Manager zugänglich und bietet eine zentrale Stelle für das Speichern und Teilen aller Abzeichen. Teilnehmer können sich bei ihrem Badgr-Konto anmelden und die Integration einrichten. Ab diesem Zeitpunkt werden Abzeichen, die im Lern-Manager erreicht wurden, automatisch in das Badgr-Konto hochgeladen.
-
-Sobald der Administrator die Option **Badgr-Integration** aktiviert hat, kann ein Teilnehmer die Integration in Badgr durchführen und sein Abzeichen konfigurieren. Für die Integration müssen sich die Teilnehmer über den Learning Manager beim Badgr-Konto anmelden.
+Teilnehmer können ihr Lernplattformkonto in ihr Badgr-Konto integrieren. Dadurch können die Teilnehmer Abzeichen für soziale Websites über ihr Badgr-Konto teilen. Badgr bietet außerdem authentifizierbare Abzeichen basierend auf dem Backpack-Standard; dies bedeutet, dass die Abzeichen bestätigt sind.
 
 >[!NOTE]
 >
->Learning Manager bietet kein Badgr-Konto als Teil dieser Integration an. Der Teilnehmer sollte sein eigenes Konto erstellen und in den Learning Manager integrieren.
+>Diese Funktion ist in FedRAMP-autorisierten Umgebungen nicht verfügbar. Weitere Informationen finden Sie unter [Verfügbarkeit von Funktionen in FedRAMP-Umgebungen](/help/migrated/feature-availability-in-fedramp-authorized-environment.md).
 
-Ein Teilnehmer muss über ein Badgr-Konto verfügen, bevor er eine Verbindung über den Lern-Manager herstellen kann.
+Offene Abzeichen sind Abzeichen, bei denen einige Metadaten in das Abzeichenbild eingebettet sind. Diese Metadaten enthalten Informationen über den Aussteller, den Empfänger, die Aufgabe, die Gültigkeit des Abzeichens usw. Badgr Backpack ist direkt vom Learning Manager zugänglich und bietet eine zentrale Stelle für das Speichern und Teilen aller Abzeichen. Teilnehmer können sich bei ihrem Badgr-Konto anmelden und die Integration einrichten. Ab diesem Zeitpunkt werden Abzeichen, die in Learning Manager erhalten wurden, automatisch in das Badgr-Konto hochgeladen.
 
-In der Teilnehmer-App auf der Seite &quot;Abzeichen&quot; befindet sich die Option &quot;Badgr konfigurieren&quot;. Wenn Sie auf die Option klicken, wird ein Dialogfeld geöffnet, in dem der Status der Verbindung als &quot;Verbunden/Nicht verbunden&quot; angezeigt werden sollte.
+Sobald der Administrator die Option **Badgr-Integration** aktiviert hat, kann ein Teilnehmer die Integration in Badgr durchführen und sein Abzeichen konfigurieren. Zur Integration müssen sich die Teilnehmenden über Learning Manager beim Badgr-Konto anmelden.
+
+>[!NOTE]
+>
+>Learning Manager bietet kein Badgr-Konto als Teil dieser Integration an. Die Teilnehmenden sollten ihr eigenes Konto erstellen und in Learning Manager integrieren.
+
+Für einen Teilnehmer muss bereits ein Badgr-Konto vorliegen, bevor eine Verbindung über Learning Manager hergestellt werden kann.
+
+In der Teilnehmer-App auf der Seite „Abzeichen“ befindet sich die Option „Badgr konfigurieren“. Wenn Sie auf die Option klicken, wird ein Dialogfeld geöffnet, in dem der Verbindungsstatus als „Verbunden/Nicht verbunden“ angezeigt werden sollte.
 
 ![](assets/badges.png)
 
@@ -80,4 +84,4 @@ Dieser Vorgang zum Aktualisieren der Seite wird als manuelle Aktualisierung beze
 
 **1. Wie kann Abzeichen als Teilnehmer heruntergeladen werden?**
 
-Auf der Seite &quot;Abzeichen&quot; können Sie ein Abzeichen als Bild oder im PDF-Format herunterladen. Wählen Sie eine Qualifikation oder einen Kurs aus und klicken Sie entweder auf **PDF** oder auf **Abzeichen**.
+Auf der Seite „Abzeichen“ können Sie ein Abzeichen als Bild oder im PDF-Format herunterladen. Wählen Sie eine Qualifikation oder einen Kurs aus und klicken Sie entweder auf **PDF** oder auf **Abzeichen**.

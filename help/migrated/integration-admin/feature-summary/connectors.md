@@ -4,20 +4,26 @@ jcr-language: en_us
 title: Learning Manager-Connectors
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 03ac3f985aa523e494e05393ee8fa478faf35646
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '15959'
+source-wordcount: '15927'
 ht-degree: 72%
 
 ---
 
 # Learning Manager-Connectors
 
+## Einführung
+
 Unternehmen verfügen über andere Anwendungen und Systeme, die möglicherweise in Learning Manager integriert werden müssen. Connectors sind Dienstprogramme, die die Durchführung datenbasierter Integrationen unterstützen, z. B. das Importieren von Daten in Learning Manager aus externen Systemen.  Sie führen auch den Export von Daten in externe Systeme aus Learning Manager aus.
 
 Learning Manager bietet Connectors für Salesforce und FTP. Über den Salesforce-Connector können für die Integration zuständige Administratoren eines Unternehmens ihre Salesforce-Anwendung in Learning Manager integrieren. Als Verantwortlicher für die Integration können Sie außerdem mithilfe des FTP-Connectors Gruppen von Benutzern automatisch in Ihre Unternehmensanwendung importieren.
 
 Learning Manager stellt auch die Lynda-, getAbstract- und Harvard Management System-Konnektoren zur Verfügung. Mit diesen Konnektoren können Teilnehmer auf Kurse von Lynda.com, getAbstract und Harvard ManageMentor zugreifen und diese nutzen.
+
+>[!NOTE]
+>
+>Diese Funktion ist teilweise in FedRAMP-autorisierten Umgebungen verfügbar. Weitere Informationen finden Sie unter [Verfügbarkeit von Funktionen in FedRAMP-Umgebungen](/help/migrated/feature-availability-in-fedramp-authorized-environment.md).
 
 Lesen Sie weiter, um zu erfahren, wie Sie diese Connectors in Learning Manager konfigurieren und nutzen können.
 
@@ -357,23 +363,23 @@ Um den FTP-Connector mit Learning Manager zu integrieren, informieren Sie sich �
 Zum Herstellen einer Verbindung zu einem FTP-Server über den FTP-Client benötigen Sie die folgenden Informationen:
 
 * **FTP-Domäne**: Dies ist die Adresse des FTP-Servers, mit dem Sie eine Verbindung herstellen möchten. Beispiel: ftp.example.com
-* **Port**: Der standardmäßige FTP-Port ist 21, aber einige Server verwenden aus Sicherheitsgründen möglicherweise andere Ports. Für Adobe Learning Manager - Port 22
+* **Port**: Der Standard-FTP-Port ist 21, einige Server verwenden jedoch aus Sicherheitsgründen möglicherweise andere Ports. Für Adobe Learning Manager - Port 22
 * **FTP-Benutzername**: Der Benutzername, den Sie für den Zugriff auf den FTP-Server benötigen.
-* **FTP-Kennwort**: Das dem Benutzernamen zugeordnete Kennwort.
+* **FTP-Kennwort**: Das mit dem Benutzernamen verknüpfte Kennwort.
 
 **FileZilla (Windows, macOS und Linux)**
 
-**Schritt 1: Herunterladen und Installieren von FileZilla**
+**Schritt 1: FileZilla** herunterladen und installieren
 
-Wenn Sie FileZilla noch nicht installiert haben, laden Sie es von der offiziellen Website herunter: [Laden Sie es herunter](https://filezilla-project.org/), und installieren Sie es auf Ihrem Computer.
+Wenn Sie FileZilla noch nicht installiert haben, laden Sie es von der offiziellen Website herunter: [Laden Sie &#x200B;](https://filezilla-project.org/) herunter und installieren Sie es auf Ihrem Computer.
 
-**Schritt 2: DateiZilla** öffnen
+**Schritt 2: FileZilla** öffnen
 
 Starten Sie nach der Installation FileZilla auf Ihrem Computer.
 
 **Schritt 3: FTP-Serverinformationen erfassen**
 
-**Schritt 4: FTP-Serverinformationen in FileZilla eingeben**
+**Schritt 4: Geben Sie FTP-Serverinformationen in FileZilla** ein.
 
 Wählen Sie im oberen Menü **[!UICONTROL Datei]** und anschließend **[!UICONTROL Site-Manager]** aus (oder drücken Sie Strg+S).
 
@@ -392,7 +398,7 @@ Geben Sie die folgenden Informationen ein:
 * **Benutzer**: Geben Sie Ihren FTP-Benutzernamen ein.
 * **Kennwort**: Geben Sie Ihr FTP-Kennwort ein.
 
-**Schritt 7: Verbindung mit dem FTP-Server herstellen**
+**Schritt 7: Herstellen einer Verbindung mit dem FTP-Server**
 
 Wählen Sie im Site-Manager die Schaltfläche **[!UICONTROL Verbinden]**. FileZilla stellt die Verbindung zum FTP-Server her, wenn alle Informationen korrekt sind.
 
@@ -668,11 +674,11 @@ Der getAbstract-Connector kann von Unternehmenskunden von getAbstract.com verwen
 
 1. Wenn Sie den getAbstract-Connector zum ersten Mal konfigurieren, klicken Sie auf „Verbinden“.
 
-   <!--
-Konfigurieren Sie das ExaVault-FTP-Konto, bevor Sie diesen Connector konfigurieren.
+<!--
+Configure the Exavault FTP account before you configure this connector.
 
-Diese FTP-Anmeldedaten müssen Sie für Ihren Inhaltsanbieter freigeben, um auf die Feeds zugreifen zu können.
--->
+   Ensure that you share this FTP credentials with your content provider to access the feeds.
+   -->
 
 1. Geben Sie einen Namen für die Verbindung im Feld „Verbindungsname“ ein.
 
@@ -732,11 +738,11 @@ Der Harvard ManageMentor-Connector kann von Unternehmenskunden von Harvard Manag
 
 1. Wenn Sie den Harvard ManageMentor-Connector zum ersten Mal konfigurieren, klicken Sie auf „Verbinden“.
 
-   <!--
-Konfigurieren Sie das ExaVault-FTP-Konto, bevor Sie diesen Connector konfigurieren.
+<!--
+Configure the Exavault FTP account before you configure this connector.
 
-Diese FTP-Anmeldedaten müssen Sie für Ihren Inhaltsanbieter freigeben, um auf die Feeds zugreifen zu können.
--->
+Ensure that you share this FTP credentials with your content provider to access the feeds.
+   -->
 
 1. Geben Sie einen Namen für die Verbindung im Feld „Verbindungsname“ ein. Klicken Sie auf „Verbinden“, um diese Verbindung zu speichern.
 1. Wenn Sie bereits über eine Verbindung verfügen, klicken Sie auf der Startseite auf „Harvard ManageMentor“ > „Verbindungen verwalten“. Klicken Sie auf die gewünschte Verbindung, um die vorhandene Konfiguration zu bearbeiten.
@@ -1006,7 +1012,7 @@ Beim Importieren von Benutzern hat der Learning Manager-Administrator die Mögli
 
 Der Learning Manager-Administrator kann die Benutzer vor dem Import filtern. Learning Manager-Administratoren können beispielsweise alle Benutzer in der Hierarchie mit einem oder mehreren bestimmten Managern importieren.
 
-So richten Sie   miniOrange   Connector einzurichten, wenden Sie sich an das Learning Manager CSM-Team.
+Wenden Sie sich zum Einrichten des miniOrange-Connectors an das Learning Manager-CSM-Team.
 
 ### miniOrange Connector konfigurieren {#configure-mini-orange-connector}
 
@@ -1028,7 +1034,7 @@ So richten Sie   miniOrange   Connector einzurichten, wenden Sie sich an das Lea
 
    *Interne Benutzer importieren*
 
-1. Auf der Zuordnungsseite links   auf der Seite können Sie die Spalten des Learning Managers sehen und rechts   Seite können Sie die miniOrnage Spalten sehen. Wählen Sie den entsprechenden Spaltennamen aus, der dem Spaltennamen des Lern-Managers zugeordnet ist.
+1. Auf der Zuordnungsseite werden links die Spalten des Learning Managers und rechts die Spalten miniOrnage angezeigt. Wählen Sie den entsprechenden Spaltennamen aus, der dem Spaltennamen des Lern-Managers zugeordnet ist.
 
    ![](assets/map-attributes.png)
 
@@ -1165,7 +1171,7 @@ Mit der Option zum Importieren von internen Benutzern können Sie die Generierun
 
 Sobald eine Verbindung hergestellt wurde, können Sie die Spalten der CSV-Dateien zuweisen, die in den Box-Ordner zu den entsprechenden Attributen von Learning Manager platziert werden. Dieser Schritt ist obligatorisch.
 
-1. Auf der Seite &quot;Attribute zuordnen&quot; links   auf der Seite können Sie die erwarteten Spalten des Learning Managers sehen und rechts   können Sie die CSV-Spaltennamen sehen. Auf der rechten Seite wird eventuell zunächst ein leeres Auswahlfeld angezeigt. Importieren Sie eine beliebige Vorlagen-CSV, indem Sie auf Datei auswählen klicken.
+1. Auf der Seite &quot;Attributzuordnung&quot; werden links die erwarteten Spalten des Learning Manager und rechts die Namen der Spalten in der CSV-Datei angezeigt. Auf der rechten Seite wird eventuell zunächst ein leeres Auswahlfeld angezeigt. Importieren Sie eine beliebige Vorlagen-CSV, indem Sie auf Datei auswählen klicken.
 1. Durch den oben beschriebenen Schritt werden alle Spaltennamen aus der CSV-Datei in die Dropdown-Auswahlliste auf der rechten Seite übernommen. Wählen Sie den entsprechenden Spaltennamen aus, der dem Spaltennamen des Lern-Managers zugeordnet ist.
 
    *Das Feld &quot;Manager&quot; muss dem Feld mit der E-Mail-Adresse zugeordnet werden. Alle Spalten müssen zugeordnet werden, bevor der Connector verwendet werden kann.*
@@ -1699,7 +1705,7 @@ Nach der Verbindungseinrichtung werden automatisch Ordner für Import und Export
 
 Voraussetzungen zum Einrichten eines ADFS-Connectors:
 
-* Melden Sie sich mit dieser URL bei Ihrem Azure-Portal an: [https://portal.azure.com/](https://portal.azure.com/) , bevor Sie Ihre App registrieren.
+* Melden Sie sich mit dieser URL bei Ihrem Azure-Portal an:  [https://portal.azure.com/](https://portal.azure.com/) vor der Registrierung Ihrer App.
 * Öffnen Sie Azure Active Directory.
 
 ## Schritte zum Registrieren Ihrer Anwendung {#steps-to-register-your-application}
@@ -1832,7 +1838,7 @@ Um den ADFS-Connector einzurichten, wenden Sie sich an das Learning Manager-CSM-
 
    *Benutzer in Learning Manager importieren*
 
-1. Auf der Zuordnungsseite links   auf der Seite können Sie die Spalten des Learning Managers sehen und rechts   Seite können Sie die ADFS-Spalten sehen. Wählen Sie den entsprechenden Spaltennamen aus, der dem Spaltennamen des Lern-Managers zugeordnet ist.
+1. Auf der Zuordnungsseite sehen Sie auf der linken Seite die Spalten des Learning Manager und auf der rechten Seite die ADFS-Spalten. Wählen Sie den entsprechenden Spaltennamen aus, der dem Spaltennamen des Lern-Managers zugeordnet ist.
 
    ![](assets/adfs4.jpg)
 
@@ -2128,8 +2134,8 @@ Verbindungsnamen und Domänennamen eingeben
 
 1. Wählen Sie den **[!UICONTROL Schnittstellentyp]** aus den folgenden Optionen aus:
 
-   * **[!UICONTROL Nativer Lern-Manager]**: Dies ist das Standardangebot, das nur für die native Schnittstelle verfügbar ist.
-   * **[!UICONTROL Headless-Schnittstellen]**: Dies ist das Premium-Angebot, das APIs zum Erstellen eines nicht angemeldeten Erlebnisses verfügbar macht.
+   * **[!UICONTROL Nativer Lern-Manager]**: Dies ist das Standardangebot, das nur für die native Oberfläche verfügbar ist.
+   * **[!UICONTROL Headless-Schnittstellen]**: Dies ist das Premium-Angebot, das APIs zum Erstellen eines nicht angemeldeten Erlebnisses bereitstellt.
 
    ![](assets/types-of-interface.png)
 Schnittstellentypen

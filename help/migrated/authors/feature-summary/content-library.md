@@ -3,9 +3,9 @@ description: Erfahren Sie, wie Sie Inhalt zum Selbststudium erstellen können, d
 jcr-language: en_us
 title: Inhaltsbibliothek
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 0ae0dee3a43108b707e13778edbc7367c67d63e3
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '5368'
+source-wordcount: '5385'
 ht-degree: 38%
 
 ---
@@ -130,7 +130,7 @@ Die folgende Tabelle zeigt den Typ der interaktiven und statischen Dateitypen, d
 
 ## Fügen Sie der Bibliothek neuen Inhalt hinzu {#addnewcontentinthelibrary}
 
-**Autoren** können Inhalte in ALM hinzufügen. Es gibt zwei Inhaltstypen in ALM: **[!UICONTROL Inhalt]** und **[!UICONTROL Quiz]**. Informationen zum Hinzufügen von Inhalten finden Sie unter [Statischen Inhalt hinzufügen](content-library.md#addstaticcontent) und [Quiz erstellen](content-library.md##createaquiz).
+**Autoren** können Inhalte in ALM hinzufügen. Es gibt zwei Arten von Inhalten in ALM: **[!UICONTROL Inhalt]** und **[!UICONTROL Test]**. Informationen zum Hinzufügen von Inhalten finden Sie unter [Statischen Inhalt hinzufügen](content-library.md#addstaticcontent) und [Quiz erstellen](content-library.md##createaquiz).
 
 ## Statischen Inhalt hinzufügen {#addstaticcontent}
 
@@ -168,8 +168,8 @@ Führen Sie die folgenden Schritte aus, um den HTML-Dateityp (.zip) zur Inhaltsb
 1. Nachdem der Inhalt hinzugefügt wurde, können Sie den Inhalt im Abschnitt **[!UICONTROL Inhaltsbibliothek]** anzeigen.
 1. Wählen Sie den HTML-Inhalt aus, und wählen Sie dann **[!UICONTROL Bearbeiten]**.
 1. Wählen Sie eine der folgenden Optionen aus der Option **[!UICONTROL Abschlusskriterien]** aus.
-   * **[!UICONTROL Beim Starten von Inhalten]**: Der Kurs wird automatisch als abgeschlossen markiert, wenn der Teilnehmer ihn startet.
-   * **[!UICONTROL Teilnehmer markiert Abgeschlossen]**: Der Teilnehmer hat die Möglichkeit, den Kurs im Fluidic Player als abgeschlossen zu markieren.
+   * **[!UICONTROL Beim Starten von Inhalt]**: Der Kurs wird automatisch als abgeschlossen markiert, wenn der Teilnehmer ihn startet.
+   * **[!UICONTROL Teilnehmer markiert den Abschluss]**: Der Teilnehmer hat die Möglichkeit, den Kurs im Fluidic Player als abgeschlossen zu markieren.
 
    ![](assets/completion-criteria.png)
    _Abschlusskriterien_
@@ -267,20 +267,24 @@ Sobald Sie den Inhalt hochgeladen haben, können Sie eine Benachrichtigung anzei
 
 Die Unterstützung mehrsprachiger Videotextspuren (VTT) in Adobe Learning Manager ermöglicht es Autoren, Untertitel und Untertitel für Video- und Audioinhalte in mehreren Sprachen bereitzustellen. Diese Funktion vereinfacht die Lokalisierung, macht Schulungen für ein weltweites Publikum zugänglich und stellt die Einhaltung von Standards für Barrierefreiheit sicher. Autoren können VTT-Dateien automatisch direkt auf der Plattform generieren, übersetzen, überprüfen und bearbeiten.
 
+>[!NOTE]
+>
+>Diese Funktion ist in FedRAMP-autorisierten Umgebungen nicht verfügbar. Weitere Informationen finden Sie unter [Verfügbarkeit von Funktionen in FedRAMP-Umgebungen](/help/migrated/feature-availability-in-fedramp-authorized-environment.md).
+
 #### Anwendungsszenarien
 
-* Globale Schulung: Stellen Sie Videoinhalte mit Untertiteln in mehreren Sprachen bereit, um internationale Teilnehmer zu erreichen.
-* Barrierefreiheitskonformität: Bieten Sie Untertitel für hörbehinderte Benutzer in ihrer bevorzugten Sprache.
-* Schnellere Lokalisierung: Reduzieren Sie den manuellen Aufwand, und beschleunigen Sie die Bereitstellung von Inhalten durch die automatische Generierung und Übersetzung von VTT-Dateien.
-* Konsistentes Erlebnis: Stellen Sie sicher, dass alle Teilnehmer unabhängig von der Sprache die gleichen Informationen erhalten.
+* Globale Schulungen: Stellen Sie Videoinhalte mit Untertiteln in mehreren Sprachen bereit, um internationale Teilnehmer zu erreichen.
+* Barrierefreiheitskonformität: Untertitel für hörgeschädigte Benutzer in ihrer bevorzugten Sprache bereitstellen
+* Schnellere Lokalisierung: Reduzieren Sie den manuellen Aufwand und beschleunigen Sie die Bereitstellung von Inhalten durch die automatische Generierung und Übersetzung von VTT-Dateien.
+* Konsistente Erfahrung: Stellen Sie sicher, dass alle Teilnehmer unabhängig von der Sprache die gleichen Informationen erhalten.
 
 #### Wichtigste Funktionen
 
 * Automatische VTT-Generierung: Laden Sie eine Video- oder Audiodatei hoch und generieren Sie automatisch VTT-Untertitel in der Originalsprache.
 * Mehrsprachige Übersetzung: Übersetzen Sie Untertitel in eine der 39 unterstützten nicht englischen Sprachen.
-* In-App-Überprüfung und -Bearbeitung: Überprüfen, bearbeiten und herunterladen Sie VTT-Dateien vor der Veröffentlichung.
+* In-App-Überprüfung und -Bearbeitung: Überprüfen, bearbeiten und laden Sie VTT-Dateien vor der Veröffentlichung herunter.
 * Benachrichtigungen: Erhalten Sie In-App-Benachrichtigungen, wenn die VTT-Generierung und -Übersetzung abgeschlossen sind.
-* Nahtlose Veröffentlichung: Publish hat Untertitel für die Teilnehmer fertig gestellt, auf die sie in der gewünschten Sprache zugreifen können.
+* Reibungslose Veröffentlichung: Publish hat Untertitel für die Teilnehmer fertig gestellt, auf die sie in der von ihnen gewählten Sprache zugreifen können.
 
 #### Inhalte hochladen und VTT generieren
 
@@ -314,10 +318,10 @@ Die Unterstützung mehrsprachiger Videotextspuren (VTT) in Adobe Learning Manage
 #### Weitere Informationen
 
 * Unterstützte Sprachen: Alle 39 nicht englischsprachigen Sprachen, die von Adobe Learning Manager unterstützt werden.
-* Benachrichtigungen: Autoren werden benachrichtigt, wenn die VTT-Generierung und -Übersetzung abgeschlossen sind.
-* Flexibilität bei der Bearbeitung: Untertitel können in der App oder offline bearbeitet und erneut hochgeladen werden.
-* Skalierbarkeit: Entwickelt für Lokalisierungs- und Barrierefreiheitsanforderungen in Unternehmen.
-* Manuelles Hochladen von VTT ist nicht erforderlich: Das System kann VTT-Dateien mithilfe des hochgeladenen Videos/Audios von Grund auf neu generieren.
+* Benachrichtigungen: Autoren werden benachrichtigt, wenn die VTT-Erstellung und -Übersetzung abgeschlossen sind.
+* Flexible Bearbeitung: Untertitel können in der App oder offline bearbeitet und erneut hochgeladen werden.
+* Skalierbarkeit: Konzipiert für Lokalisierungs- und Barrierefreiheitsanforderungen in Unternehmen.
+* Kein manueller VTT-Upload erforderlich: Das System kann VTT-Dateien mithilfe der hochgeladenen Video-/Audiodateien von Grund auf neu generieren.
 
 #### Best Practices
 

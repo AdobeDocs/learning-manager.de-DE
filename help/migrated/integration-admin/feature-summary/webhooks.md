@@ -4,16 +4,22 @@ title: Webhooks
 description: Erfahren Sie mehr über Webhooks zum Senden von Echtzeitinformationen wie Kursanmeldungen, Kurserstellung und andere Informationen an eine bestimmte URL
 contentowner: chandrum
 exl-id: 472aaf2b-9c2f-4f43-a791-2b2d81e69471
-source-git-commit: 3b35c16d74c83329cee24ee9ad007a53ccbd8cf3
+source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
 workflow-type: tm+mt
-source-wordcount: '1633'
+source-wordcount: '1651'
 ht-degree: 0%
 
 ---
 
 # Webhooks
 
+## Einführung
+
 Ein Webhook ermöglicht es einer Entität, automatisch Echtzeitdaten oder Benachrichtigungen an eine andere Entität zu senden, wenn ein bestimmtes Ereignis eintritt. Dadurch kann eine Anwendung anderen Anwendungen Informationen bereitstellen, ohne ständig danach zu fragen. Wenn ein Benutzer beispielsweise einen LMS-Kurs (Learning Management System) abschließt, kann ein Webhook diese Informationen automatisch an eine andere Plattform senden, z. B. ein CRM- oder Berichterstellungs-Tool. Webhooks werden häufig in Integrationen verwendet, um Prozesse zu automatisieren und die Notwendigkeit manueller Aktualisierungen zwischen Systemen zu reduzieren. Richten Sie Webhooks ein, indem Sie eine Rückruf-URL angeben, an die Sie die Daten senden würden.
+
+>[!NOTE]
+>
+>Diese Funktion ist in FedRAMP-autorisierten Umgebungen nicht verfügbar. Weitere Informationen finden Sie unter [Verfügbarkeit von Funktionen in FedRAMP-Umgebungen](/help/migrated/feature-availability-in-fedramp-authorized-environment.md).
 
 ## Webhooks und APIs
 
@@ -30,7 +36,7 @@ Webhook-Ereignisse sind bestimmte Aktionen in einem System, das automatisch Date
 Webhook-Ereignisse werden in zwei Kategorien unterteilt:
 
 * **Echtzeit-Ereignisse**: Ereignisse werden verarbeitet und in Echtzeit an eine Ziel-URL gesendet.
-* **Nicht in Echtzeit stattfindende Ereignisse**: Ereignisse werden in Stapeln verarbeitet und zu bestimmten Zeiten gesendet anstatt in Echtzeit.
+* **Nicht in Echtzeit stattfindende Ereignisse**: Ereignisse werden in Stapeln verarbeitet und zu bestimmten Zeiten gesendet, nicht in Echtzeit.
 
 ## Listener-URL
 
@@ -74,7 +80,7 @@ Führen Sie die folgenden Schritte aus, um die Webhooks-Integration in Adobe Lea
 5. Wählen Sie eine der Authentifizierungsmethoden aus:
 Die Authentifizierung in Webhooks ist eine Sicherheitsmethode, mit der sichergestellt wird, dass die an eine Listener-URL gesendeten Daten aus einer vertrauenswürdigen Quelle stammen.
    * **[!UICONTROL Keine]**: Keine Authentifizierung erforderlich.
-   * **[!UICONTROL Basic]**: Dies ist eine auf Anmeldeinformationen basierende Authentifizierung. Geben Sie den Benutzernamen und das Kennwort ein.
+   * **[!UICONTROL Einfach]**: Dies ist eine auf Anmeldedaten basierende Authentifizierung. Geben Sie den Benutzernamen und das Kennwort ein.
    * **[!UICONTROL Signatur]**: Das System erstellt eine spezielle Signatur und fügt sie den Webhook-Daten hinzu. Der empfangende Server überprüft diesen Code, um sicherzustellen, dass die Daten echt sind und nicht geändert wurden. Generieren Sie eine Signatur und verwenden Sie sie für die Authentifizierung. Laden Sie die Signatur als JSON herunter.
 6. Wählen Sie die Webhook-Ereignisse aus der Dropdown-Liste **[!UICONTROL Trigger-Ereignisse]** aus.
 
@@ -215,9 +221,9 @@ Jede Webhook-Anforderung enthält die folgende Struktur der obersten Ebene:
 }
 ```
 
-Die **gleiche Struktur** wird für beide Ereignistypen verwendet. Nur eventName und die Werte in den Daten (z. B. userId, loId, enrollmentSource) unterscheiden sich.
+Die **gleiche Struktur** wird für beide Ereignistypen verwendet. nur eventName und die Werte in den Daten (z. B. userId, loId, enrollmentSource) unterscheiden sich.
 
-#### Beispiel: Teilnehmerinitiierte Aktualisierung
+#### Beispiel: Vom Teilnehmer initiierte Aktualisierung
 
 Wenn ein Teilnehmer den Abschlussstatus seines eigenen Lernpfads aktualisiert, sendet der Webhook ein LEARNING_PATH_COMPLETION_ROLLBACK-Ereignis:
 

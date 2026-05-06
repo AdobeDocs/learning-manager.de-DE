@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Versionshinweise zu Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 0ae0dee3a43108b707e13778edbc7367c67d63e3
+source-git-commit: 5af1306122d1a2099e6bbcf471d53f7c982e5a10
 workflow-type: tm+mt
-source-wordcount: '29372'
+source-wordcount: '29433'
 ht-degree: 76%
 
 ---
@@ -25,7 +25,19 @@ ht-degree: 76%
 </table>
 -->
 
-+++Update 105: Version April 2026 von Adobe Learning Manager
++++Update 106: Adobe Learning Manager Version vom April 2026
+
+Freigabedatum: 30. April 2026
+
+## Fehler behoben
+
+**VTT-Überschreiben blockiert durch Zeichenbeschränkung:** Es wurde ein Problem behoben, bei dem der Benutzer die von ALM automatisch generierte VTT-Datei aufgrund der Zeichenbeschränkung im Überprüfungs-/Bearbeitungsmodus nicht überschreiben konnte. Die Zeichenbeschränkung wurde jetzt im VTT-Bearbeitungsmodus auf eine Million erhöht.
+
+
++++
+
+
++++Update 105: Adobe Learning Manager Version vom April 2026
 
 Freigabedatum: 11. April 2026
 
@@ -197,7 +209,7 @@ Weitere Informationen finden Sie im [L1-Feedbackformular &#x200B;](/help/migrate
 Weitere Informationen finden Sie unter [Neue Funktionen in Adobe Learning Manager Version Oktober 2025](/help/migrated/whats-new.md).
 +++
 
-+++Update 101: Die Version Juli 2025 von Adobe Learning Manager
++++Update 101: Die Adobe Learning Manager Version vom Juli 2025
 
 ## Rollenbasierte E-Mail-Vorlagen
 
@@ -268,8 +280,8 @@ Wenn ein Administrator auf **[!UICONTROL Update]** klickt, kann er aus den folge
 | Altes Etikett | Neue Option |
 |---|---|
 | Inhaltsaktualisierung auf alle Teilnehmer anwenden | Alle Teilnehmer jetzt aktualisieren:Apply Inhaltsupdate für alle Teilnehmer |
-| Aktualisierung auf Teilnehmer anwenden, die noch nicht gestartet wurden | Nur nicht angefangene Teilnehmer aktualisieren: Inhaltsaktualisierung nur für nicht angefangene Teilnehmer anwenden |
-| In Bearbeitung befindliche Teilnehmer erhalten nach Abschluss eine Aktualisierung | Letztendlich alle Teilnehmer aktualisieren: Wenden Sie schließlich die Inhaltsaktualisierung für alle Teilnehmer an |
+| Aktualisierung auf Teilnehmer anwenden, die noch nicht gestartet wurden | Nur nicht gestartete Teilnehmer aktualisieren: Inhaltsaktualisierung nur für nicht angefangene Teilnehmer anwenden |
+| In Bearbeitung befindliche Teilnehmer erhalten nach Abschluss eine Aktualisierung | Aktualisieren Sie gegebenenfalls alle Teilnehmer: Letztendlich Inhaltsaktualisierungen für alle Teilnehmer anwenden |
 
 <!--
 ![](assets/version-control-options.png)
@@ -282,9 +294,9 @@ Weitere Informationen zur Inhaltsbibliothek finden Sie in diesem [Artikel](/help
 
 Diese Version bietet einen aktualisierten Fluidic Player in Adobe Learning Manager mit einem modernen Look und einem intuitiveren Lernerlebnis. Der aktualisierte Player bietet eine übersichtlichere Oberfläche, verbesserte Navigationssteuerungen und ein konsistentes Design auf Desktop- und Mobilgeräten. Die Teilnehmer können auf Inhalte in jedem Bildschirmmodus, einschließlich Hochformat, Querformat, Vollbild oder Standardansicht, zugreifen und damit interagieren.
 
-* **Aktualisierte Fluidic Player-Skin**: Ein modernisierter Look mit aktualisierten UI-Elementen.
-* **Verbesserte Navigationssteuerelemente**: Eine reibungslosere und intuitivere Navigation für ein besseres Lernerlebnis.
-* **Optimiertes Design**: Verbessertes Erscheinungsbild und verbesserte Benutzerfreundlichkeit auf Desktop- und Mobilgeräten unterstützt die Modi &quot;Hochformat&quot;, &quot;Querformat&quot;, &quot;Vollbild&quot; und &quot;Standard&quot;.
+* **Aktualisierte Fluidic Player-Skin**: Modernisierter Look mit aktualisierten UI-Elementen.
+* **Verbesserte Navigationssteuerelemente**: Rufen Sie eine reibungslosere und intuitivere Navigation für ein besseres Lernerlebnis auf.
+* **Optimiertes Design**: Das verbesserte Erscheinungsbild und die verbesserte Benutzerfreundlichkeit auf Desktop- und Mobilgeräten unterstützt die Modi Hochformat, Querformat, Vollbild und Standardbildschirm.
 
 Alle Teilnehmer, die über Adobe Learning Manager auf Inhalte zugreifen, unabhängig davon, ob sie das native oder das Headless-Erlebnis nutzen, werden automatisch diese neuen Verbesserungen an der Benutzeroberfläche und der Navigation sehen. Aufgrund des aktualisierten Layouts und der aktualisierten Steuerelemente kann es zu geringfügigen Änderungen bei der Interaktion mit dem Player kommen.
 
@@ -302,7 +314,7 @@ Weitere Informationen zu bevorstehenden Änderungen an Adobe Learning Manager fi
 
 +++
 
-+++Update 100: Adobe Learning Manager Version Mai 2025
++++Update 10: Adobe Learning Manager Version vom Mai 2025
 
 **Freigabedatum**: 10. Mai 2025
 
@@ -311,7 +323,7 @@ Weitere Informationen zu bevorstehenden Änderungen an Adobe Learning Manager fi
 Unter [Neue Funktionen in Adobe Learning Manager](/help/migrated/whats-new-may-2025.md) finden Sie weitere Informationen.
 +++
 
-+++Update 99: Die Version Februar 2025 von Adobe Learning Manager
++++Update 99 Die Adobe Learning Manager-Version vom Februar 2025
 
 ## Benutzeroberflächensprache über SAML einrichten
 
@@ -331,7 +343,7 @@ Weitere Informationen finden Sie in diesem [Artikel](/help/migrated/learners/fea
 
 +++
 
-+++Update 98: Die Version November 2024 von Adobe Learning Manager
++++Update 98: Die Adobe Learning Manager Version vom November 2024
 
 **Freigabedatum**: 16. November 2024
 
@@ -340,7 +352,7 @@ Weitere Informationen finden Sie in diesem [Artikel](/help/migrated/learners/fea
 Unter [Neue Funktionen in Adobe Learning Manager](/help/migrated/whats-new-nov-24.md) finden Sie weitere Informationen.
 +++
 
-+++Update 97: Die Version Juli 2024 von Adobe Learning Manager
++++Update 97: Die Adobe Learning Manager Version vom Juli 2024
 
 **Freigabedatum:** 13. Juli 2024
 
@@ -349,7 +361,7 @@ Unter [Neue Funktionen in Adobe Learning Manager](/help/migrated/whats-new-nov-2
 Unter [Neue Funktionen in Adobe Learning Manager](/help/migrated/whats-new-july-2024.md) finden Sie weitere Informationen.
 +++
 
-+++Update 96: Die Version März 2024 von Adobe Learning Manager
++++Update 96: Adobe Learning Manager Version März 2024
 
 **Freigabedatum:** 16. März 2024
 
@@ -377,7 +389,7 @@ Unter [Neue Funktionen in Adobe Learning Manager](/help/migrated/whats-new-novem
 * Ändern Sie die Qualität und Geschwindigkeit eines Videos in sozialen Medien.
 +++
 
-+++Update 93: Die Version Juli 2023 von Adobe Learning Manager
++++Update 93: Die Adobe Learning Manager Version vom Juli 2023
 
 **Freigabedatum:** 10. Juli 2023
 
@@ -447,7 +459,7 @@ Weitere Informationen finden Sie unter [Neue Funktionen in der Version Juli 2023
 Die SAML-Anmeldung schlägt fehl, wenn die SSO-Anmelde-URL die Entity_id enthält.
 +++
 
-+++Update 89: Die Version März 2023 von Adobe Learning Manager
++++Update 89: Adobe Learning Manager Version März 2023
 
 **Freigabedatum:** 1. April 2023
 
@@ -573,7 +585,7 @@ Wir haben die Verarbeitung von Lernplänen für große Konten optimiert. Dadurch
 ## In diesem Update behobene Fehler
 
 * Ein Teilnehmer erhält die E-Mail zum Abbruch der Sitzung nicht, wenn das CR/VC-Modul aus dem registrierten Kurs entfernt wird.
-* Ändern Sie GetNotificationData von GET in POST. Die ursprüngliche Implementierung hat den Fehler **IllegalArgumentException: Request-Header ist zu groß** verursacht, der zu Fehlbenachrichtigungen geführt hat.
+* Ändern Sie GetNotificationData von GET in POST. Die ursprüngliche Implementierung hat den Fehler **IllegalArgumentException: Der Anforderungsheader ist zu groß**, was zu Fehlbenachrichtigungen geführt hat.
 +++
 
 +++Update: 86
@@ -2638,7 +2650,7 @@ Learning Manager bietet Managern und Administratoren die Möglichkeit, Transkrip
 
 **Integration anderer Inhaltsanbieter**
 
-Learning Manager hat in dieser Version drei neue Connectors eingeführt, damit Teilnehmer auf Kurse der folgenden Inhaltsanbieter zugreifen und diese absolvieren können: Lynda.com, getAbstract und Harvard ManageMentor.
+Der Lern-Manager hat in dieser Version drei neue Connectors eingeführt, sodass Teilnehmer auf Kurse der folgenden Inhaltsanbieter zugreifen und diese absolvieren können: Lynda.com, getAbstract und Harvard ManageMentor.
 
 Informationen zum Konfigurieren und Verwenden dieser Connectors finden Sie unter [Connectors](../integration-admin/feature-summary/connectors.md#main-pars_header).
 
