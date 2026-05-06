@@ -2,14 +2,16 @@
 title: Empfehlungen in Adobe Learning Manager
 description: Der Kern der Empfehlungs-Engine basiert auf dem neuen Kurs-Ranking-Algorithmus von Learning Manager. Der Algorithmus verwendet 50 Millionen Datenpunkte und fünf Jahre aggregierter Lerndaten über Millionen von Benutzern, um Kurse basierend auf ihrer Wahrscheinlichkeit einer Registrierung zu bewerten. Diese Einstufung stellt sicher, dass die Kurse mit den meisten Registrierungen den Teilnehmenden als erste angezeigt werden.
 exl-id: 42083095-60a0-4e20-9097-3344d290da1a
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+source-git-commit: bc0d68e3fe7ea3acf92ae81fdbe7413280771522
 workflow-type: tm+mt
-source-wordcount: '1490'
-ht-degree: 58%
+source-wordcount: '1514'
+ht-degree: 56%
 
 ---
 
 # Empfehlungen in Adobe Learning Manager
+
+## Einführung
 
 Adobe Learning Manager hat ein neues und überarbeitetes Empfehlungssystem für Kurse eingeführt. Diese Empfehlungsfunktion nutzt KI-Algorithmen und Nutzerinteressen wie Produkte, Rollen und Stufen, um personalisierte Inhaltsempfehlungen bereitzustellen. Administratoren können ihr Konto anhand der Produkte, Rollen und Stufen einrichten.
 
@@ -17,14 +19,9 @@ Mit dem neuen Empfehlungssystem können Sie benutzerdefinierte Parameter erstell
 
 Um mit dieser Funktion zu beginnen, müssen Sie die Funktion in der Admin-App aktivieren.
 
-## Empfehlungen aktivieren und konfigurieren
-
-1. Laden Sie die Kurs- und Benutzerdaten hoch (optional).
-1. Aktivieren Sie die Änderungen.
-1. Nachdem Sie die Empfehlungen aktiviert und konfiguriert haben, laden Sie die Daten in Adobe Learning Manager hoch, damit die Empfehlungen funktionieren. Diese Daten umfassen:
-
-   * Kursdaten
-   * Benutzerdaten (optional)
+>[!NOTE]
+>
+>Diese Funktion ist in FedRAMP-autorisierten Umgebungen nicht verfügbar. Weitere Informationen finden Sie unter [Verfügbarkeit von Funktionen in FedRAMP-Umgebungen](/help/migrated/feature-availability-in-fedramp-authorized-environment.md).
 
 ## Algorithmus für die Kursrangliste
 
@@ -100,7 +97,7 @@ Die Interessensdaten der Benutzer, das Produkt, die Rollen und die Stufen müsse
 
 **Datenoptionen hochladen**
 
-Die Empfehlungsfunktion ist konfigurierbar. Anstelle von &quot;products/roles/levels&quot; können Sie &quot;topics/roles/level&quot; verwenden oder eine der folgenden Optionen auswählen: &quot;product/topics only&quot;, &quot;roles only&quot;, &quot;product/topics and roles only&quot;, &quot;roles-levels&quot; oder &quot;products-levels&quot;.
+Die Empfehlungsfunktion ist konfigurierbar. Anstelle von Produkten/Rollen/Ebenen können Sie Themen/Rollen/Ebenen verwenden oder eine der folgenden Optionen auswählen: Nur Produkt/Themen, Nur Rollen, Nur Produkt/Themen und Rollen, Nur Rollen-Ebenen oder Nur Produkte-Ebenen.
 
 Ändern Sie Ihre Datenblätter entsprechend der von Ihnen gewählten Empfehlungskonfiguration.
 
@@ -144,7 +141,7 @@ Im Folgenden finden Sie ein Beispiel für Datensätze in der CSV-Datei:
 | Schulungs-ID | Schulungstyp | Schulungsname | Produkte | Rollen | Stufen | Tags | Kenntnisse |
 |---|---|---|---|---|---|---|---|
 | 111 | KURS | Python 101 | Data Science | Analyst | Analyst: Fortgeschritten | data | Allgemein |
-| 222 | KURS | Julia 101 | Data Science | Analyst | Analyst: Fortgeschritten | data | Allgemein |
+| 222 | KURS | Julia 101 | Data Science | Analyst | Analyst: Erweitert | data | Allgemein |
 
 Füllen Sie diese CSVs aus und wenden Sie sich an Ihr Customer Success Team, um die Formate herunterzuladen und diese CSVs hochzuladen.
 
@@ -152,8 +149,13 @@ Füllen Sie diese CSVs aus und wenden Sie sich an Ihr Customer Success Team, um 
 
 Nachdem beide CSV hochgeladen wurden, klicken Sie auf &quot;Go live&quot; (Live loslegen). Dadurch wird das neue Empfehlungssystem für die Teilnehmenden sichtbar.
 
+Sobald die PRL-Empfehlung aktiviert ist, kann sie nicht mehr auf ihren vorherigen Status zurückgesetzt werden. Während der Aktivierung wird in Adobe Learning Manager eine Bestätigungsmeldung angezeigt, die Sie darüber informiert, dass die Änderung dauerhaft ist. Bis die Empfehlung live geschaltet wurde, können Sie Änderungen jederzeit rückgängig machen und ändern.
+
 ![live gehen](assets/computerdescription-automatically.png)
 *Empfehlungen live schalten*
+
+![live gehen](assets/recommendations-irreversible.png)
+*Empfehlungswarnung*
 
 Das Empfehlungssystem ist jetzt für Ihre Teilnehmenden verfügbar.
 
