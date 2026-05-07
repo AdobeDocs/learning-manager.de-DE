@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Benutzer bereinigen
 contentowner: dvenkate
 exl-id: 4449146c-6247-44fb-b695-a12023c31dc6
-source-git-commit: 0ae0dee3a43108b707e13778edbc7367c67d63e3
+source-git-commit: 96bd0f559c38f7eefe4077fd9f61571663d748cd
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1441'
 ht-degree: 45%
 
 ---
@@ -239,7 +239,7 @@ Sie können die gefilterten Benutzer nach ihrer **[!UICONTROL eindeutigen Benutz
 
 Die automatische Bereinigung gelöschter Benutzer ist eine Funktion, mit der Daten für Benutzer bereinigt werden, die bereits in ALM gelöscht wurden. Die Bereinigung erfolgt nach einer konfigurierbaren Aufbewahrungsfrist, wobei der Schwerpunkt auf Massenvorgängen liegt, sodass große Kundenkonten effizient bearbeitet werden können, ohne dass die Performance beeinträchtigt wird.
 
-Der Massenlöschungsfluss kann bis zu 10.000 Benutzer pro Stapel verarbeiten. Die Funktion ist als zuverlässigkeitsorientierter Hintergrunddienst für das Löschen großer Volumes positioniert.
+Die Funktion ist als zuverlässigkeitsorientierter Hintergrunddienst für das Löschen großer Volumes positioniert.
 
 Als Administrator können Sie die Dauer angeben, innerhalb derer bereinigte Benutzer gelöscht werden können. Weitere Informationen finden Sie unter [Admin-Einstellungen](/help/migrated/administrators/feature-summary/settings.md).
 
@@ -247,7 +247,7 @@ Als Administrator können Sie die Dauer angeben, innerhalb derer bereinigte Benu
 
 * Bereitstellung konfigurierbarer automatischer Bereinigungen für gelöschte Benutzer auf Kontoebene
 * Stellen Sie sicher, dass Benutzer innerhalb von 24 Stunden bereinigt werden, sobald sie die Bereinigungskriterien erfüllen.
-* Unterstützung der Massenlöschung von bis zu 10.000 Benutzern pro Tag** ohne Beeinträchtigung der Systemleistung
+* Unterstützung des Massenlöschens von bis zu 5.000 Benutzern pro Tag
 * Aufrechterhaltung der Gesamtansprechfähigkeit des Systems und des Datenbankzustands während der Ausführung dieser Vorgänge
 * Durchsetzung automatisierter Datenaufbewahrungsverwaltung zur Einhaltung der DSGVO-Verpflichtungen
 
@@ -264,7 +264,7 @@ Als Administrator können Sie die Dauer angeben, innerhalb derer bereinigte Benu
    *Option für automatische Bereinigung*
    >[!NOTE]
    >
-   >Wenn **Gelöschte Benutzer automatisch bereinigen** nicht aktiviert ist, wird im Abschnitt eine Meldung angezeigt, die am unteren Rand des Abschnitts der Option lautet: **Nicht konfiguriert**.
+   >Wenn **Gelöschte Benutzer automatisch bereinigen** nicht aktiviert ist, wird im Abschnitt eine Meldung mit der Meldung **Nicht konfiguriert** am unteren Rand des Abschnitts der Option angezeigt.
 4. Wählen Sie **Bearbeiten**.
 5. Aktivieren Sie das Kontrollkästchen **Aktivieren**.
 6. Geben Sie die Dauer ein, nach der die Bereinigung wirksam werden soll.
