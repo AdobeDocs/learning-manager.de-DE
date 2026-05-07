@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Learning Manager-Connectors
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
+source-git-commit: 71b68a6d08d1337afd915162d8130a6ad2379886
 workflow-type: tm+mt
-source-wordcount: '15927'
+source-wordcount: '15926'
 ht-degree: 72%
 
 ---
@@ -182,7 +182,7 @@ So erstellen Sie die Objekte:
 
 Learning Manager bietet ein Salesforce-App-Paket. Nach der Installation und Konfiguration in SFDC können Vertriebsmitarbeiter ihre Schulungen im SFDC-Portal durchführen. Mit dieser App können SFDC-Benutzer neue Schulungen durchsuchen, Empfehlungen anzeigen und diese direkt im SFDC-Portal nutzen. Die Benutzer erhalten auch die Ankündigungen, die von Administratoren in Form von Masterseiten direkt in der App im SFDC-Portal gesendet werden.
 
-### Einrichten in der Learning Manager-App {#setup-in-learning-manager-app}
+### Einrichten der Learning Manager-App {#setup-in-learning-manager-app}
 
 1. Melden Sie sich bei Ihrem Learning Manager-Admin-Konto als Integrationsadministrator an.
 1. Klicken Sie auf **[!UICONTROL Anwendungen]** > **[!UICONTROL Empfohlene Apps]**.
@@ -652,6 +652,7 @@ Der Lynda-Connector kann von Unternehmenskunden von Lynda.com verwendet werden, 
 
 1. Außerdem können Sie jederzeit im linken Teilfenster auf „Ausführungsstatus“ klicken, um eine Zusammenfassung aller Ausführungen für diesen Connector in chronologischer Reihenfolge anzuzeigen. Sie können das Startdatum und die Dauer der Synchronisierung anzeigen sowie die Art (ob es sich um eine On-Demand-Synchronisierung handelt) und den Status (ob die Synchronisierung läuft oder abgeschlossen ist) der Synchronisierung.
 
+
    >[!NOTE]
    >
    >Wenn Sie eine Verbindung löschen und neu erstellen, werden die vorherigen Ausführungen für den Connector wieder angezeigt. Sie können alle vor dem Löschen der Verbindung erfolgten Ausführungen anzeigen.
@@ -715,6 +716,7 @@ Configure the Exavault FTP account before you configure this connector.
 
 1. Außerdem können Sie jederzeit im linken Teilfenster auf „Ausführungsstatus“ klicken, um eine Zusammenfassung aller Ausführungen für diesen Connector in chronologischer Reihenfolge anzuzeigen. Sie können das Startdatum und die Dauer der Synchronisierung anzeigen sowie die Art (ob es sich um eine On-Demand-Synchronisierung handelt) und den Status (ob die Synchronisierung läuft oder abgeschlossen ist) der Synchronisierung.
 
+
    >[!NOTE]
    >
    >Wenn Sie eine Verbindung löschen und neu erstellen, werden die vorherigen Ausführungen für den Connector wieder angezeigt. Sie können alle vor dem Löschen der Verbindung erfolgten Ausführungen anzeigen.
@@ -768,6 +770,7 @@ Ensure that you share this FTP credentials with your content provider to access 
    Wenn Sie die Synchronisierung alle paar Tage automatisieren möchten, geben Sie die Anzahl der Tage in das Feld „Anzahl der Tage wiederholen“ ein. Durch die Synchronisierung wird gewährleistet, dass Ihr Konto mit der aktuellen Version der Abstrakte und Übersichten von Harvard ManageMentor aktualisiert wird.
 
 1. Außerdem können Sie jederzeit im linken Teilfenster auf „Ausführungsstatus“ klicken, um eine Zusammenfassung aller Ausführungen für diesen Connector in chronologischer Reihenfolge anzuzeigen. Sie können das Startdatum und die Dauer der Synchronisierung anzeigen sowie die Art (ob es sich um eine On-Demand-Synchronisierung handelt) und den Status (ob die Synchronisierung läuft oder abgeschlossen ist) der Synchronisierung.
+
 
    >[!NOTE]
    >
@@ -851,11 +854,12 @@ Der Administrator kann Planungsaufgaben einrichten, wie sie für das Unternehmen
 ![](assets/configure-connector.png)
 *Workday-Connector konfigurieren*
 
-1. Klicken Sie auf „Verbinden“, nachdem Sie diese Daten in allen entsprechenden Feldern eingegeben haben.
+Klicken Sie auf „Verbinden“, nachdem Sie diese Daten in allen entsprechenden Feldern eingegeben haben.
 
-   >[!NOTE]
-   >
-   >Sie können auch mehrere Workday-Verbindungen haben, die mit Ihrem Learning Manager-Konto synchronisiert sind.
+
+>[!NOTE]
+>
+>Sie können auch mehrere Workday-Verbindungen haben, die mit Ihrem Learning Manager-Konto synchronisiert sind.
 
 Auf der Übersichtsseite können Sie den Namen der Datenverbindung für Ihre Integration angeben. Wählen Sie aus, welche Aktion Sie aus den folgenden Optionen erfassen möchten:
 
@@ -964,8 +968,7 @@ wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Municipality
 
 ### Exportieren {#export-1}
 
-Sie können alle Kenntnisse exportieren, die von einem Learning Manager-Benutzer in Workday erreicht wurden. Es werden nur alle aktiven Benutzerkenntnisse exportiert. Learning Manager exportiert keine veralteten Kenntnisse. Sie können auch mehrere Learning Manager verbinden\
-Konten mit demselben Workday Connector verknüpfen. Falls die Namen der Kenntnisse in zwei Learning Manager-Konten identisch sind, werden sie denselben Kenntnissen in Workday zugewiesen. Vor dem Aktualisieren der Kenntnisse in Workday sollten alle Kenntnisnamen in allen Learning Manager-Konten aktualisiert werden, im Fall, dass zwei Learning Manager-Konten dasselbe Workday-Konto verwenden.
+Sie können alle Kenntnisse exportieren, die von einem Learning Manager-Benutzer in Workday erreicht wurden. Es werden nur alle aktiven Benutzerkenntnisse exportiert. Learning Manager exportiert keine veralteten Kenntnisse. Sie können auch mehrere Learning Manager-Konten mit demselben Workday Connector verbinden. Falls die Namen der Kenntnisse in zwei Learning Manager-Konten identisch sind, werden sie denselben Kenntnissen in Workday zugewiesen. Vor dem Aktualisieren der Kenntnisse in Workday sollten alle Kenntnisnamen in allen Learning Manager-Konten aktualisiert werden, im Fall, dass zwei Learning Manager-Konten dasselbe Workday-Konto verwenden.
 
 +++Konfigurieren von Benutzerkenntnissen
 
@@ -1889,6 +1892,7 @@ Melden Sie sich als Administrator an und klicken Sie auf den Namen des Kurses im
 
 Mit der Integration von Adobe Learning Manager und Adobe Connect für das Erstellen von Modulen oder Sitzungen vom Typ „Virtuelles Klassenzimmer“ muss Ihr Connect-Konto Meetingräume mit einer ausreichenden Anzahl von Räumen und Benutzenden unterstützen. Diese Meetingräume werden zum Hosten von Modulen vom Typ „Virtuelles Klassenzimmer“ in Learning Manager verwendet. Ein neuer Connect-Meetingraum wird von Learning Manager für jedes Modul oder jede Sitzung vom Typ „Virtuelles Klassenzimmer“ dynamisch in Learning Manager erstellt.
 
+
 >[!NOTE]
 >
 >Sie müssen Adobe Connect unabhängig von Adobe Learning Manager separat erwerben.
@@ -2091,19 +2095,19 @@ Adobe Learning Manager verwendet einen Connector für virtuelle Klassenzimmer, m
 
 Der Microsoft Teams-Connector stellt eine Verbindung zwischen den Learning Manager- und Microsoft Teams-Systemen her, um automatische Datensynchronisierung zu ermöglichen. Die folgende Liste beschreibt die Funktionen des Microsoft Teams-Connectors:
 
-**Virtuelle Sitzungen mit Microsoft Teams einrichten**
+### Virtuelle Sitzungen mit Microsoft Teams einrichten
 
 Mit diesem Connector können Sie Ihr Adobe Learning Manager-Konto in Ihr Microsoft Teams-Konto integrieren. Nach der Integration ermöglicht der Connector einem Autoren in Learning Manager, Microsoft Teams als Technologiedienstleister für die in Learning Manager erstellten Module vom Typ „Virtuelles Klassenzimmer“ zu verwenden.
 
-**Microsoft Teams erlauben, Teilnehmer beim Betreten eines virtuellen Klassenzimmers zu authentifizieren**
+### Ermöglichen Sie Microsoft Teams die Authentifizierung von Teilnehmern beim Betreten des virtuellen Klassenzimmers
 
 Ein Meetingveranstalter kann einstellen, dass in der Lobby der Zugang zum Meeting beschränkt wird, und die anderen in Microsoft Teams verfügbaren Meetingoptionen steuern.
 
-**Synchronisierung der automatisierten Benutzerabwicklung verwenden**
+### Verwenden der automatisierten Benutzerabschlusssynchronisation
 
 Mit der automatisierten Benutzerabschlusssynchronisierung kann ein Learning Manager-Administrator automatisch die Abschlussdatensätze und die Aufzeichnungs-URL für das Teams-Meeting abrufen.
 
-Weitere Informationen finden Sie unter [**Microsoft Teams-Connector in Adobe Learning Manager installieren**](install-microsoft-teams-connector.md).
+Weitere Informationen finden Sie unter [Microsoft Teams-Connector in Adobe Learning Manager installieren](install-microsoft-teams-connector.md).
 
 ## Schulungsdatenzugriff-Connector {#training-data-access}
 
@@ -2158,13 +2162,13 @@ Sie können den Status der Berichtsausführung auf der Seite **[!UICONTROL Ausf�
 
 ### Erstellen der Website in AEM {#create-website-in-aem}
 
-**Voraussetzung:** Installieren Sie das AEM aus dem [**GitHub-Repository**](https://github.com/adobe/adobe-learning-manager-reference-site/releases/tag/1.0.0).
+**Voraussetzung:** Installieren Sie das AEM aus dem [GitHub-Repository](https://github.com/adobe/adobe-learning-manager-reference-site/releases/tag/1.0.0).
 
 1. Verwenden Sie die Basis- und Abruf-URLs, die Client-ID, das Client-Geheimnis und das Administrator-Aktualisierungstoken und erstellen Sie eine Konfiguration in AEM.
 1. Erstellen Sie die Website mithilfe der AEM Komponenten.
 1. Veröffentlichen Sie die Website.
 
-Weitere Informationen finden Sie in diesem [**Dokument**](../../adobe-learning-manager-integration-aem.md).
+Weitere Informationen finden Sie in diesem [Dokument](../../adobe-learning-manager-integration-aem.md).
 
 ### Teilnehmer {#learners}
 
@@ -2181,11 +2185,11 @@ Das nicht angemeldete Erlebnis in Adobe Learning Manager kann mithilfe des Conne
 * Standardangebot
 * Premium-Angebot
 
-**Standardangebot**
+#### Standardangebot
 
 Das Standardangebot besteht darin, die native Version von Adobe Learning Manager zu erstellen. Benutzer können ein Headless-Erlebnis erstellen, das nur zur Demonstration dient und nicht angemeldet ist. Das Headless-Erlebnis der Demonstration ist nicht skalierbar und sollte nicht in einer Produktionsumgebung verwendet werden.
 
-**Premium-Angebot**
+#### Premium-Angebot
 
 Mit dem Premium-Angebot können Benutzer eine Headless-Schnittstelle erstellen, die vom **[!UICONTROL Training Data Access]**-Connector konfiguriert wird. In Szenarien mit gemischtem Lernen erhalten Sie außerdem Sitzplatzbeschränkungen in Echtzeit, besetzte Plätze, Wartelistenbeschränkungen und Wartelistenzahlen. Kunden können diese APIs verwenden, um Such- und Filterfunktionen und eine vollständige Kurszusammenfassung für nicht angemeldete Teilnehmer zu erstellen.
 
@@ -2217,7 +2221,7 @@ Der Connector wird in Adobe Commerce integriert, indem Schulungsdaten an die Com
 
 Zusätzlich zur Initiierung eines Kaufs erfasst der Connector auch Kaufdetails von Adobe Commerce, die Adobe Learning Manager verwendet, um den Kauf zu validieren und den Zugriff auf die Schulung freizugeben.
 
-**Voraussetzungen**
+### Voraussetzungen
 
 1. Aktivieren Sie [RabbitMq](https://devdocs.magento.com/cloud/project/services-rabbit.html) oder einen anderen Messaging-Broker.
 1. Aktivieren Sie [CRON](https://devdocs.magento.com/cloud/env/variables-deploy.html#cron_consumers_runner).
@@ -2297,7 +2301,7 @@ Wie beim nativen Learning Manager können Sie nach der Anmeldung einen Kurs in d
 
 ### Einrichten des Adobe Commerce-Connectors {#setup-commerce-connector}
 
-#### Voraussetzung {#pre-requisites}
+#### Voraussetzung {#pre-requisite}
 
 Der Administrator aktiviert das Kontrollkästchen **Preisgestaltung für Schulungen aktivieren** in der Admin-App unter **Einstellungen > Allgemein**. Wenn die Option aktiviert ist, können Autoren Preise für Schulungen angeben. Wenn Sie eine Adobe Commerce-Verbindung hinzufügen, wird dieses Kontrollkästchen automatisch aktiviert und erzwungen.
 
@@ -2333,7 +2337,7 @@ Wenn der Benutzer nicht angemeldet ist, kann er weiterhin nach Kurskatalogen suc
 
 Nachdem Teilnehmende den Kurs erworben haben, werden sie, während sie angemeldet sind, zur Kursübersichtsseite weitergeleitet, wo sie die erworbene Schulung absolvieren können.
 
-#### Headless – nicht angemeldet {#headless-non-logged-in}
+#### Headless - nicht angemeldet {#headless-non-logged-in}
 
 Teilnehmende können:
 
@@ -2345,7 +2349,7 @@ Teilnehmende können nicht:
 * Einen Kurs auf der Seite &quot;Übersicht&quot; kaufen.
 * Kostenpflichtige Inhalte in der Vorschau anzeigen.
 
-#### Headless – angemeldet {#headless-logged-in}
+#### Headless - Angemeldet {#headless-logged-in}
 
 Teilnehmende können:
 
