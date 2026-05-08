@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Learning Manager-Connectors
 contentowner: jayakarr
 exl-id: 1f44934b-6a2b-484d-bc7f-d0f23e3008ca
-source-git-commit: 71b68a6d08d1337afd915162d8130a6ad2379886
+source-git-commit: 061433edb12bf10287e56899e01dcc462c9ba5f0
 workflow-type: tm+mt
-source-wordcount: '15926'
+source-wordcount: '15903'
 ht-degree: 72%
 
 ---
@@ -208,7 +208,7 @@ Wenn Sie das Paket installieren möchten, müssen Sie zunächst das vorhandene P
 >
 >Die Adobe Learning Manager-App wird nur in der Salesforce-Lightning-Ansicht unterstützt.
 
-1. Starten Sie die [Lern-Manager-Paket-URL &#x200B;](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WOQ).
+1. Starten Sie die [Lern-Manager-Paket-URL ](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WOQ).
 1. Klicken Sie auf der Seite **Anmeldung** auf **[!UICONTROL Benutzerdefinierte Domäne verwenden]**.
 1. Geben Sie die Paket-URL ein und klicken Sie auf **[!UICONTROL Weiter]**. Auf der Installationsseite muss die Option „Nur für Administratoren installieren“ aktiviert sein. Ändern Sie diese Option nicht.
 1. Klicken Sie auf **[!UICONTROL Installieren]**. Nachdem das Paket installiert wurde, klicken Sie auf **[!UICONTROL Fertig stellen]**. Sie werden zur Seite „Installierte Pakete“ geleitet, auf der das installierte Adobe Learning Manager-Paket angezeigt wird.
@@ -371,7 +371,7 @@ Zum Herstellen einer Verbindung zu einem FTP-Server über den FTP-Client benöti
 
 **Schritt 1: FileZilla** herunterladen und installieren
 
-Wenn Sie FileZilla noch nicht installiert haben, laden Sie es von der offiziellen Website herunter: [Laden Sie &#x200B;](https://filezilla-project.org/) herunter und installieren Sie es auf Ihrem Computer.
+Wenn Sie FileZilla noch nicht installiert haben, laden Sie es von der offiziellen Website herunter: [Laden Sie ](https://filezilla-project.org/) herunter und installieren Sie es auf Ihrem Computer.
 
 **Schritt 2: FileZilla** öffnen
 
@@ -474,7 +474,7 @@ Sobald die Verbindung erfolgreich hergestellt wurde, können Sie die Spalten der
 
 >[!NOTE]
 >
->Beim Importieren von Benutzenden in Learning Manager muss der Administrator auch wissen, wie Benutzende in Learning Manager verwaltet werden. Weitere Informationen finden Sie in der [&#x200B; User Management-Hilfe](migration-manual.md#usermanagement).
+>Beim Importieren von Benutzenden in Learning Manager muss der Administrator auch wissen, wie Benutzende in Learning Manager verwaltet werden. Weitere Informationen finden Sie in der [ User Management-Hilfe](migration-manual.md#usermanagement).
 
 +++
 
@@ -726,7 +726,7 @@ Configure the Exavault FTP account before you configure this connector.
    Für jede Art von Synchronisierung gilt: Damit sie funktioniert, muss der Benutzer-Feed für die in der Synchronisierung angegebenen Daren im FTP-Ordner für getAbstract FTP vorhanden sein.
 
    Das folgende Excel-Arbeitsblatt ist ein Beispiel für einen Benutzer-Feed aus getAbstract. Der Dateiname muss dem folgenden Format entsprechen: **report_export_yyyy_MM_dd_HHmmss.xlsx** oder **report_export_yyyy_MM_dd.xlsx**.
-   Excel-Beispiel für [getAbstract-Benutzer-Feed &#x200B;](assets/report-export-20170401175342.xlsx)
+   Excel-Beispiel für [getAbstract-Benutzer-Feed ](assets/report-export-20170401175342.xlsx)
 
 ## Harvard ManageMentor-Connector {#hmmconnector}
 
@@ -1068,29 +1068,29 @@ Befolgen Sie diese Schritte, um den Connector einzurichten und zu verwenden.
 1. Bewegen Sie die Maus auf der Startseite des Lernmanagers über die Zoom-Miniaturansicht. Ein Menü wird angezeigt. Klicken Sie im Menü auf die Option **[!UICONTROL Verbinden]**.
 
    <!--
-![](assets/connectors.png)
+   ![](assets/connectors.png)
 
-*Zoom-Connector-Kachel*
--->
+   *Zoom connector tile* 
+   -->
 
 1. Die Zoom-Connector-Seite wird geöffnet. Geben Sie die Details Ihres Kontos in die entsprechenden Felder ein, um den Benutzer-Feed zu integrieren und zu synchronisieren. Sie können die Details vom Administrator Ihres BlueJeans-Kontos erhalten.
 
    <!--
-![](assets/bluejeans-connecotrpage.png)
-*Verbindung zu BlueJeans/Zoom herstellen*
--->
+   ![](assets/bluejeans-connecotrpage.png)
+   *Connect to BlueJeans/ Zoom* 
+   -->
 
->[!NOTE]
->
->Als Teilnehmer verwenden Sie beim Aktivieren des Connectors dieselbe E-Mail-ID, die für Ihr Learning Manager-Konto verwendet wird, um Benutzer-Feeds in Learning Manager zu aktivieren.
+   >[!NOTE]
+   >
+   >Als Teilnehmer verwenden Sie beim Aktivieren des Connectors dieselbe E-Mail-ID, die für Ihr Learning Manager-Konto verwendet wird, um Benutzer-Feeds in Learning Manager zu aktivieren.
 
 1. Sobald die Verbindung hergestellt ist, erstellen Sie als Autor einen VC-Kurs mit Zoom als Konferenzsystem.
 
    <!--
-![](assets/vc.jpg)
-
-*Erstellen eines VC-Kurses*
--->
+   ![](assets/vc.jpg)
+   
+   *Create a VC course* 
+   -->
 
 1. Administratoren, Manager und Teilnehmer können Teilnehmer für den erstellten Kurs registrieren. Nach der Registrierung erhält der Teilnehmer eine E-Mail. Die Teilnehmenden können sich bei ihrem Learning Manager-Konto anmelden, um die Programmdetails anzuzeigen und den Kurs zu belegen.
 1. Wenn der Kurs abgeschlossen ist, wird der Abschlussbericht an Learning Manager gesendet. Der Administrator kann den Abschlussbericht anzeigen, um die Anwesenheit und die Punktzahl der Teilnehmer zu überprüfen.
@@ -1261,7 +1261,7 @@ Mit der Option xAPI-Berichtsaktivität können Sie den Import von xAPI-Anweisung
 1. Alle CSV müssen die in der Zuordnung angegebenen Spalten enthalten.
 1. Alle erforderlichen CSV müssen sich in dem Ordner befinden, bevor der Vorgang beginnt.
 
-Beim Importieren von Benutzenden in Learning Manager muss der Administrator auch wissen, wie Benutzende in Learning Manager verwaltet werden. Weitere Informationen finden Sie in der [&#x200B; User Management-Hilfe](migration-manual.md#usermanagement).
+Beim Importieren von Benutzenden in Learning Manager muss der Administrator auch wissen, wie Benutzende in Learning Manager verwaltet werden. Weitere Informationen finden Sie in der [ User Management-Hilfe](migration-manual.md#usermanagement).
 
 +++
 
@@ -1340,11 +1340,11 @@ Der LinkedIn Learning-Connector kann von Unternehmenskunden von LinkedIn.com ver
 1. Wenn Sie den LinkedIn Learning-Connector zum ersten Mal konfigurieren, klicken Sie auf [!UICONTROL Verbinden].
 
    <!--
-Konfigurieren Sie das ExaVault-FTP-Konto, bevor Sie diesen Connector konfigurieren.
+   Configure the Exavault FTP account before you configure this connector.
 
-![](assets/configure.jpg)
-*Verbindung konfigurieren*
--->
+   ![](assets/configure.jpg)
+   *Configure connection*
+   -->
 
 1. Geben Sie auf der Verbindungsseite einen Namen für Ihren Connector ein. Geben Sie den App-Schlüssel und den geheimen Schlüssel für Ihre Verbindung ein.
 
@@ -2268,7 +2268,7 @@ Nachdem ein Autor die Preise für verschiedene Kurse, Lernpfade oder Zertifizier
 
 >[!NOTE]
 >
->In der Adobe Learning Manager-Version vom März 2024 haben wir Unterstützung für [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=de) eingeführt.
+>In der Adobe Learning Manager-Version vom März 2024 haben wir Unterstützung für [Adobe Commerce 2.4.6](https://experienceleague.adobe.com/docs/commerce-operations/release/notes/adobe-commerce/2-4-6.html?lang=en) eingeführt.
 
 
 1. Klicken Sie auf **[!UICONTROL Schulungsmetadaten exportieren]** > **[!UICONTROL On Demand]**.
