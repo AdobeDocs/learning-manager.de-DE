@@ -1,19 +1,19 @@
 ---
 description: Installieren des Microsoft Teams-Connectors in Adobe Learning Manager
 jcr-language: en_us
-title: Installieren des Microsoft Teams-Connectors in Adobe Learning Manager
+title: Microsoft Teams-Connector
 contentowner: saghosh
 exl-id: 68092187-ac69-4727-a3dc-f3047a1e164d
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+source-git-commit: 368017670470b818ce2a77c5498ee069036da3eb
 workflow-type: tm+mt
-source-wordcount: '1212'
-ht-degree: 52%
+source-wordcount: '1206'
+ht-degree: 51%
 
 ---
 
-# Installieren des Microsoft Teams-Connectors in Adobe Learning Manager
+# Microsoft Teams-Connector in Adobe Learning Manager
 
-## Übersicht
+## Einführung
 
 Microsoft Teams® ist eine beständige Chat-basierte Plattform für die Zusammenarbeit, die die Freigabe von Dokumenten, Online-Meetings und andere Funktionen für die Geschäftskommunikation vollständig unterstützt.
 
@@ -37,7 +37,7 @@ Mit der automatisierten Benutzerabschlusssynchronisierung kann ein Learning Mana
 
 Wenn Sie eine Besprechung mit mehreren Teilnehmern organisieren, können Sie jedem Teilnehmer eine Rolle zuweisen, sodass jeder Teilnehmer weiß, was er in der Besprechung tun kann.
 
-Es stehen zwei Rollen zur Auswahl: **Moderator** und **Teilnehmer**.
+Es gibt zwei Rollen, aus denen Sie wählen können: **Moderator** und **Teilnehmer**.
 
 Weitere Informationen finden Sie unter [Rollen in einem Teams-Meeting - Microsoft](https://support.microsoft.com/en-us/office/roles-in-a-teams-meeting-c16fa7d0-1666-4dde-8686-0a0bfe16e019).
 
