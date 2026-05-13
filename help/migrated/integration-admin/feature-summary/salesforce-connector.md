@@ -363,7 +363,7 @@ Sie können entweder vorhandene Profile verwenden oder benutzerdefinierte Profil
 
 **Benutzerdefinierte Profile erstellen**
 
-1. Navigieren Sie zu **Setup**&quot; und wählen Sie ** Benutzer aus. **
+1. Navigieren Sie zu **Setup**&quot; und wählen Sie **&#x200B; Benutzer aus. &#x200B;**
 2. Wählen Sie **Profile** aus.
 3. Klicken Sie auf **Neues Profil**.
 4. Erstellen Sie ein benutzerdefiniertes Profil, das auf einem vorhandenen basiert und auf Adobe Learning Manager-Benutzer zugeschnitten ist.
