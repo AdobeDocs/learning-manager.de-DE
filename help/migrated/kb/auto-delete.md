@@ -4,10 +4,10 @@ title: Benutzer wird automatisch in Learning Manager gelöscht
 description: Ein Benutzer wird aus Learning Manager gelöscht, der Administrator hat jedoch nie eine solche Aktion ausgeführt.
 contentowner: nluke
 exl-id: 9e293da3-bcbf-4798-b391-aef53ef8d946
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: dafb4c35d868e44c022a0d96919792b5a41f62b0
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 61%
+source-wordcount: '235'
+ht-degree: 69%
 
 ---
 
