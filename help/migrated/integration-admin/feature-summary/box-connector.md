@@ -75,7 +75,7 @@ Zuordnen von Attributen:
 3. Auf der Seite **Attribute zuordnen**:
    - Links werden die erforderlichen Felder in Adobe Learning Manager angezeigt.
    - Auf der rechten Seite werden die CSV-Spaltennamen angezeigt. Zunächst enthält diese Seite leere Dropdown-Menüs.
-   - Wählen Sie **Wählen Sie CSV** aus, um eine CSV-Beispieldatei hochzuladen. Dadurch wird die Dropdown-Liste auf der rechten Seite mit den Spaltennamen aus Ihrer CSV-Datei gefüllt. Lesen Sie [diesen Artikel](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual#csv), um Beispiel-CSVs abzurufen.
+   - Wählen Sie **Wählen Sie CSV** aus, um eine CSV-Beispieldatei hochzuladen. Dadurch wird die Dropdown-Liste auf der rechten Seite mit den Spaltennamen aus Ihrer CSV-Datei gefüllt. Lesen Sie [diesen Artikel](https://experienceleague.adobe.com/de/docs/learning-manager/using/integration/migration-manual#csv), um Beispiel-CSVs abzurufen.
    - Ordnen Sie jedes Adobe Learning Manager-Feld der entsprechenden CSV-Spalte zu.
 
    ![](assets/box-connector2.png)

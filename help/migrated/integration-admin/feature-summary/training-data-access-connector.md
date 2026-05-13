@@ -83,7 +83,7 @@ Anzeigen von Schulungsdaten auf einer Headless- oder AEM Sites-basierten Website
 2. Verwenden Sie die **Basis-URL**, die **CDN-URL**, die **Client-ID**, den **Client-Schlüssel** und das **Admin-Aktualisierungstoken**, um eine Konfiguration in AEM zu erstellen.
 3. Erstellen Sie die Site mithilfe von AEM.
 4. Publish ist die Website für Teilnehmer.
-5. Ausführliche Informationen zur Einrichtung finden Sie in [diesem Artikel](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/aem-sites/adobe-learning-manager-integration-aem) und [diesem Artikel](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/aem-sites/integrate-aem-learning-manager).
+5. Ausführliche Informationen zur Einrichtung finden Sie in [diesem Artikel](https://experienceleague.adobe.com/de/docs/learning-manager/using/integration/aem-sites/adobe-learning-manager-integration-aem) und [diesem Artikel](https://experienceleague.adobe.com/de/docs/learning-manager/using/integration/aem-sites/integrate-aem-learning-manager).
 
 ### Teilnehmererlebnis
 

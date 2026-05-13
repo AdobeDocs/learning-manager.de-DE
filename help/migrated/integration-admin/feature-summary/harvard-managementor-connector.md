@@ -144,5 +144,5 @@ Stellen Sie sicher, dass die folgenden Dateien im FTP-Ordner für Harvard Manage
 
 **Beispieldateien**
 
-- [Kurs-Metadatendatei für Harvard ManageMentor-Connector](https://experienceleague.adobe.com/docs/learning-manager/assets/hmm12-metadata.csv?lang=en)
-- [Benutzer-Feed-Datei für Harvard ManageMentor-Connector](https://experienceleague.adobe.com/docs/learning-manager/assets/client-hmm12-20170304.csv?lang=en)
+- [Kurs-Metadatendatei für Harvard ManageMentor-Connector](https://experienceleague.adobe.com/docs/learning-manager/assets/hmm12-metadata.csv?lang=de)
+- [Benutzer-Feed-Datei für Harvard ManageMentor-Connector](https://experienceleague.adobe.com/docs/learning-manager/assets/client-hmm12-20170304.csv?lang=de)
