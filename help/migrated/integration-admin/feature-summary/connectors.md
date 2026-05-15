@@ -3,9 +3,9 @@ description: Überblick über jeden ALM-unterstützten Connector
 jcr-language: en_us
 title: Überblick über ALM-unterstützte Connectors
 contentowner: mmanuel
-source-git-commit: fc9bf565de2f9491c793654645d2f2400ca49697
+source-git-commit: bd80ca31ff633e21ec81e717772e43989f0d9aae
 workflow-type: tm+mt
-source-wordcount: '1415'
+source-wordcount: '1424'
 ht-degree: 6%
 
 ---
@@ -84,11 +84,11 @@ Der Box-Connector nutzt die Cloud-Speicherplattform von Box, um eine nahtlose Da
 - Integration mit vorhandenen Box-Workflows.
 - Echtzeit-Datenaktualisierungen aus angegebenen Ordnern.
 
+Weitere Informationen finden Sie unter [Box-Connector](/help/migrated/integration-admin/feature-summary/box-connector.md).
+
 ## Connectors für virtuelle Klassenzimmer und Meetings
 
 Diese Connectoren integrieren Adobe Learning Manager mit beliebten Videokonferenz- und virtuellen Meetingplattformen und ermöglichen die nahtlose Bereitstellung von Live-Schulungssitzungen.
-
-Weitere Informationen finden Sie unter [Box-Connector](/help/migrated/integration-admin/feature-summary/box-connector.md).
 
 ### Microsoft Teams-Connector
 
@@ -169,6 +169,9 @@ Mit dem ADFS-Connector können Organisationen Authentifizierung und Autorisierun
 - Implementierung von Single Sign-on (SSO)
 - Enterprise Security Compliance.
 - Nahtlose Benutzerauthentifizierung
+- Automatischer Benutzerimport
+- Möglichkeit zur Terminierung
+- Filtermöglichkeiten
 
 Weitere Informationen finden Sie unter [ADFS-Connector](/help/migrated/integration-admin/feature-summary/adfs-connector.md).
 
