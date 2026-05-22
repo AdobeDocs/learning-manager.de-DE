@@ -2,15 +2,15 @@
 description: Erfahren Sie, wie Sie mit den Menüs in Experience Builder von Adobe Learning Manager die Navigation in Ihrem Lernportal organisieren können. Erstellen und passen Sie Menüelemente an, verknüpfen Sie sie mit Seiten oder externen Ressourcen und passen Sie die Menüstruktur für verschiedene Benutzergruppen an, um ein nahtloses, markenbezogenes Lernerlebnis zu bieten.
 jcr-language: en_us
 title: Menüs in Experience Builder
-source-git-commit: a6cd09ba81a41b389ed1ccbea22db6b1966a56e2
+exl-id: aaf4cbe1-91ca-40de-809c-4a7d183a9276
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '482'
 ht-degree: 0%
 
 ---
 
-
-# Überblick
+# Übersicht
 
 Menüs in Experience Builder sind anpassbare Navigationsstrukturen, die Sie erstellen können, um Seiten zu organisieren und ein maßgeschneidertes und personalisiertes Lernerlebnis für bestimmte Zielgruppen bereitzustellen. Sie sind zusammen mit Seiten und Widgets eine Kernkomponente von Experience Builder und stellen den primären Mechanismus dar, mit dem Sie steuern können, was verschiedene Teilnehmer sehen und wie sie im Portal navigieren.
 
@@ -20,7 +20,7 @@ Verwenden Sie Menüs, um die gesamte Navigationserfahrung für Teilnehmer zu ste
 
 **Zielgruppenadressierung**
 
-Erstellen Sie ein Menü und weisen Sie es einer oder mehreren Benutzergruppen zu. Dies ist der Kern der Personalisierung; nur Teilnehmer, die zu der/den zugewiesenen Gruppe(n) gehören, sehen dieses spezifische Menü.
+Erstellen Sie ein Menü und weisen Sie es einer oder mehreren Benutzergruppen zu. Dies ist der Kern der Personalisierung. Nur Teilnehmer, die zu der/den zugewiesenen Gruppe(n) gehören, sehen dieses spezifische Menü.
 
 **Menü anpassen**
 

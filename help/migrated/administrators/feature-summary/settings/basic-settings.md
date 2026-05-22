@@ -2,13 +2,13 @@
 description: Erfahren Sie mehr darüber, wie die Grundeinstellungen Ihnen dabei helfen, Adobe Learning Manager an die Struktur und das Lernerlebnis Ihres Unternehmens anzupassen
 jcr-language: en_us
 title: Grundlegende Einstellungen
-source-git-commit: c5fa60b3c08d4ec007d632febb353e3c8da234ba
+exl-id: b5cbe224-e3ee-4ac2-8d9b-95249044dfa6
+source-git-commit: cfc09c74da2cc236147ccf883185926ed495f1ed
 workflow-type: tm+mt
 source-wordcount: '4494'
 ht-degree: 5%
 
 ---
-
 
 # Grundeinstellungen in Adobe Learning Manager
 
@@ -84,32 +84,32 @@ Mit Adobe Learning Manager können Sie die Fragen basierend darauf anpassen, ob 
 
 **Für Kurse zum Selbststudium**:
 
-* **Obligatorische Frage**: Der Fragebogen enthält eine obligatorische Frage: &quot;Wie wahrscheinlich ist es, dass Sie diesen Kurs einem Kollegen empfehlen?&quot; Dies ist eine standardmäßige Net Promoter Score (NPS) Frage, die eine Schlüsselmetrik für die allgemeine Kurszufriedenheit bietet.
-* **Fragen anpassen**: Überprüfen Sie die Liste der bereitgestellten Fragen. Wenn Sie eine Frage in das Feedbackformular einfügen möchten, stellen Sie sicher, dass der daneben befindliche Umschalter auf Ja eingestellt ist. Um eine Frage zu entfernen, wechseln Sie zu Nein.
-* **Benutzerdefinierte Fragen hinzufügen**: Wenn Sie zusätzliche Fragen zu Ihrem Inhalt zum Selbststudium haben, wählen Sie den Link Weitere hinzufügen aus, um neue benutzerdefinierte Anweisungen zu erstellen und dem Fragebogen hinzuzufügen.
+* **Obligatorische Frage**: Der Fragebogen enthält eine Pflichtfrage: &quot;Wie wahrscheinlich ist es, dass Sie diesen Kurs einem Kollegen empfehlen?&quot; Dies ist eine standardmäßige Net Promoter Score (NPS) Frage, die eine Schlüsselmetrik für die allgemeine Kurszufriedenheit bietet.
+* **Fragen anpassen**: Überprüfen Sie die Liste der gestellten Fragen. Wenn Sie eine Frage in das Feedbackformular einfügen möchten, stellen Sie sicher, dass der daneben befindliche Umschalter auf Ja eingestellt ist. Um eine Frage zu entfernen, wechseln Sie zu Nein.
+* **Benutzerdefinierte Fragen hinzufügen**: Wenn Sie zusätzliche Fragen zu Ihrem Content zum Selbststudium haben, wählen Sie den Link Weitere hinzufügen , um neue benutzerdefinierte Anweisungen zu erstellen und dem Fragebogen hinzuzufügen.
 
 ![Alternativtext](../settings/assets/Picture5.png)
 
 **Für Klassenzimmerkurse**:
 
-* **Fragen anpassen**: Überprüfen Sie die Liste der Fragen, die für Schulungen im Klassenzimmer zugeschnitten sind. Stellen Sie den Schalter neben jeder Frage auf &quot;Ja&quot;, um sie einzuschließen, bzw. auf &quot;Nein&quot;, um sie aus dem Feedbackformular auszuschließen.
-* **Benutzerdefinierte Fragen hinzufügen**: Um neue Fragen hinzuzufügen, die spezifisch für Ihre Klassenzimmerumgebung oder Ihren Moderationsstil sind, wählen Sie den Link Weitere hinzufügen aus, um diese zu erstellen und der Liste hinzuzufügen.
+* **Fragen anpassen**: Hier finden Sie eine Liste mit Fragen zu Präsenzschulungen. Stellen Sie den Schalter neben jeder Frage auf &quot;Ja&quot;, um sie einzuschließen, bzw. auf &quot;Nein&quot;, um sie aus dem Feedbackformular auszuschließen.
+* **Benutzerdefinierte Fragen hinzufügen**: Um neue Fragen hinzuzufügen, die spezifisch für Ihre Klassenzimmerumgebung oder Ihren Lernstil sind, wählen Sie den Link Weitere hinzufügen aus, um diese zu erstellen und der Liste hinzuzufügen.
 
 **Feedback-Erinnerungen einrichten**
 
 Um Ihre Reaktionszeiten zu maximieren, empfiehlt es sich, automatisierte Erinnerungen zu konfigurieren. In diesem Schritt erfahren Sie, wie Sie diese Erinnerungen einrichten und planen, wobei Sie festlegen, wann sie gesendet werden, wie oft sie auftreten und wie lange sie versendet werden. Indem du die Teilnehmer proaktiv erinnerst, kannst du die Menge an Feedback, die du sammelst, deutlich erhöhen.
 
-1. **Neue Erinnerung hinzufügen**: Wählen Sie im Abschnitt **[!UICONTROL L1-Feedbackerinnerungen]** die Option **[!UICONTROL Neue Erinnerung hinzufügen]** aus.
+1. **Neue Erinnerung hinzufügen**: Wählen Sie im Abschnitt **[!UICONTROL L1-Feedbackerinnerungen]** die Option **[!UICONTROL Neue Erinnerung hinzufügen]**.
 
    ![Alternativtext](../settings/assets/Picture6.png)
 
-2. **Zeitplan für Erinnerung definieren**: Verwenden Sie im daraufhin angezeigten Fenster **Einstellungen für Erinnerung** die Dropdown-Menüs und Eingabefelder, um die Erinnerung zu konfigurieren:
+2. **Erinnerungsplan definieren**: Verwenden Sie im daraufhin angezeigten Fenster **Erinnerungseinstellungen** die Dropdown-Menüs und Eingabefelder, um die Erinnerung zu konfigurieren:
 
-   a. **[!UICONTROL Wann gesendet werden soll]**: Wählen Sie aus, ob die Erinnerung **[!UICONTROL Bei Kursabschluss]** oder **[!UICONTROL Nach Abschluss des Kurses]** gesendet wird.
+   a. **[!UICONTROL Sendezeitpunkt]**: Wählen Sie aus, ob die Erinnerung **[!UICONTROL Bei Kursabschluss]** oder **[!UICONTROL Nach Abschluss des Kurses]** gesendet wird.
 b. **[!UICONTROL Wiederholung]**: Wählen Sie die Häufigkeit der Erinnerung aus (z. B. &quot;Jede Woche&quot;).
 c. **[!UICONTROL Für]**: Geben Sie die Gesamtdauer (in Wochen) an, für die die Erinnerungen gesendet werden (z. B. 4 Wochen).
 
-3. **[!UICONTROL Erinnerung speichern]**: Wählen Sie das blaue Häkchen, um die neue Erinnerungskonfiguration zu speichern. Sie können diesen Vorgang wiederholen, um bei Bedarf weitere Erinnerungen hinzuzufügen.
+3. **[!UICONTROL Speichern Sie die Erinnerung]**: Klicken Sie auf das blaue Häkchen, um die neue Erinnerungskonfiguration zu speichern. Sie können diesen Vorgang wiederholen, um bei Bedarf weitere Erinnerungen hinzuzufügen.
 
    ![Alternativtext](../settings/assets/Picture7.png)
 
@@ -138,8 +138,8 @@ Wählen Sie im Dropdown-Menü Sprache die Standardsprache für die Feedbackanfor
 Um sicherzustellen, dass Manager zeitnahes Feedback geben, müssen Sie automatische Erinnerungen einrichten. Bei diesem Schritt müssen Sie konfigurieren, wann diese Erinnerungen gesendet werden und wie oft sie auftreten. Der Screenshot zeigt, dass L3-Feedback-Erinnerungen so konfiguriert werden können, dass sie nach Kursabschluss einmal gesendet werden. Sie können jedoch bei Bedarf weitere Erinnerungen hinzufügen.
 
 1. **[!UICONTROL Neue Erinnerung hinzufügen]**: Um eine neue Erinnerung zu erstellen, wählen Sie den Link **[!UICONTROL Neue Erinnerung hinzufügen]**.
-2. **[!UICONTROL Zeitplan für Erinnerung definieren]**: Wählen Sie im Bereich **[!UICONTROL Einstellungen für Erinnerung]** die Dropdownmenüs und Eingabefelder aus, um die Erinnerung zu konfigurieren:
-a. **[!UICONTROL Wann gesendet werden soll]**: Wählen Sie aus, wann die Erinnerung gesendet wird. Die Optionen sind: **[!UICONTROL Bei Kursabschluss]** und **[!UICONTROL Nach Kursabschluss]**.
+2. **[!UICONTROL Erinnerungsplan definieren]**: Wählen Sie im Bereich **[!UICONTROL Erinnerungseinstellungen]** die Dropdown-Menüs und Eingabefelder aus, um die Erinnerung zu konfigurieren:
+a. **[!UICONTROL Sendezeitpunkt]**: Wählen Sie diese Option, wenn die Erinnerung gesendet wird. Die Optionen sind: **[!UICONTROL Bei Kursabschluss]** und **[!UICONTROL Nach Kursabschluss]**.
 b. **[!UICONTROL Wiederholung]**: Wählen Sie die Häufigkeit der Erinnerung aus. Wenn die Wiederholung **[!UICONTROL Einmal]** ist, bedeutet dies, dass der Manager eine Benachrichtigung erhält, um Feedback zu geben. Die verfügbaren Optionen sind: Einmal, Jeden Tag, Jede Woche und Jeden Monat.
 3. Nachdem Sie den Zeitplan eingerichtet haben, wählen Sie das blaue Häkchen, um die Erinnerungskonfiguration zu speichern. Die Erinnerung wird in der Liste der vorhandenen Erinnerungen angezeigt.
 
@@ -160,7 +160,7 @@ Zu den wichtigsten konfigurierbaren allgemeinen Einstellungen gehören:
 * **Funktionen für Teilnehmerinteraktion:** Sie können Funktionen wie das **Diskussions-Dashboard** für Kurskommentare, die Kenntnisse aus externen Quellen für Teilnehmer und **Auswahl-E-Mails** aktivieren oder deaktivieren, um die Teilnehmer über neue Inhalte und Fortschritte auf dem Laufenden zu halten.
 * **Die Einstellungen für die Inhalts- und Kursverwaltung:** ermöglichen die Konfiguration von **Mehrere Versuche** für interaktives E-Learning, das Hinzufügen von **eindeutigen Lernobjekt-IDs** zum Inhalt und das Festlegen des Standardverhaltens für **Modulversionsupdates**.
 * **Benutzerverwaltung:** Aktivieren Sie **Benutzer automatisch registrieren**, um dem System automatisch neue Benutzer hinzuzufügen, und **Interne Benutzer automatisch löschen**, die für einen bestimmten Zeitraum inaktiv waren.
-* **Anpassung und Anzeige**: Sie können steuern, was die Teilnehmer sehen, z. B. Aktivieren oder Deaktivieren von **Filterbereichen** für die Suche, Anzeigen von **Katalogbeschriftungen** und Anpassen von bis zu drei **Fußzeilenlinks**.
+* **Anpassung und Anzeige**: Sie können steuern, was die Teilnehmer sehen, z. B. **Filterfelder** für die Suche aktivieren oder deaktivieren, **Katalogbeschriftungen** anzeigen und bis zu drei **Fußzeilenlinks** anpassen.
 
 ### Kursmoderation
 
@@ -301,7 +301,7 @@ Mit dieser Option können Sie den Fußzeilenbereich der Teilnehmer-App anpassen,
 So können Sie die Fußzeilenlinks anpassen:
 
 1. **[!UICONTROL Links hinzufügen]**: Wählen Sie **[!UICONTROL Mehr hinzufügen]** aus und geben Sie den Namen und die URL oder E-Mail-ID in die angegebenen Felder ein. Stellen Sie sicher, dass der URL http:// oder https:// vorangestellt ist.
-2. **[!UICONTROL Gebietsschemaübergreifend replizieren]**: Wählen Sie **[!UICONTROL Replizieren]** aus, um die Änderungen in alle Gebietsschemas zu kaskadieren, um sicherzustellen, dass alle Sprachen den gleichen Namen und die gleiche URL erhalten.
+2. **[!UICONTROL Replikation über Gebietsschemas hinweg]**: Wählen Sie **[!UICONTROL Replizieren]** aus, um die Änderungen in alle Gebietsschemas zu übertragen, sodass alle Sprachen denselben Namen und dieselbe URL erhalten.
 3. Wählen Sie **[!UICONTROL Speichern]**, um die Änderungen anzuwenden.
 
 ![Alternativtext](../settings/assets/Picture13.png)
@@ -309,7 +309,7 @@ So können Sie die Fußzeilenlinks anpassen:
 **Zusätzliche Optionen:**
 
 * Standardwerte zurücksetzen: Wählen Sie das Symbol &quot;Zurücksetzen&quot;, um die Standardwerte in den Feldern &quot;Hilfe&quot; und &quot;Administrator kontaktieren&quot; wiederherzustellen.
-* Anpassen für alle Sprachen: Wählen Sie eine Sprache aus der Dropdown-Liste aus und fügen Sie dann den Namen und die URL für diese Sprache hinzu. Speichern Sie die Änderungen, um die Fußzeilenlinks für die ausgewählte Sprache zu aktualisieren.
+* Anpassen für alle Sprachen: Wählen Sie in der Dropdown-Liste eine Sprache aus und fügen Sie den Namen und die URL für diese Sprache hinzu. Speichern Sie die Änderungen, um die Fußzeilenlinks für die ausgewählte Sprache zu aktualisieren.
 
 ### Berichtszeitzone
 
@@ -365,7 +365,7 @@ Diese Option stellt sicher, dass Autoren Kursleiter für ein virtuelles Klassenz
 
 **Wichtigste Funktionen:**
 
-* Auswahl von Kursleitern einschränken: Sessions können nur Benutzern mit der Kursleiterrolle zugewiesen werden.
+* Kursleiterauswahl einschränken: Sessions können nur Benutzern mit der Kursleiterrolle zugewiesen werden.
 * Auswirkungen auf Migrationsarbeitsabläufe: Diese Einschränkung gilt nicht für Migrationsarbeitsabläufe.
 
 ### Modulvorschau
@@ -391,9 +391,9 @@ Diese Funktion ist besonders für Unternehmen nützlich, die mehrere Schulungsar
 
 **Wichtigste Funktionen:**
 
-* Mehrere Käufe: Teilnehmer können mehrere Artikel zu ihrem Warenkorb hinzufügen und sie in einer Transaktion erwerben. Weitere Informationen finden Sie unter Warenkorb mit mehreren Elementen.
-*Optimierter Checkout: Reduziert die Notwendigkeit, dass Teilnehmer für jeden Schulungsartikel separate Käufe tätigen.
-* SKU-Management: Administratoren können SKUs für Kurse, Lernpfade und Zertifizierungen verwalten, um eine ordnungsgemäße Verfolgung und Berichterstellung zu gewährleisten.
+* Mehrere Käufe: Teilnehmer können mehrere Elemente zu ihrem Warenkorb hinzufügen und sie in einer Transaktion erwerben. Weitere Informationen finden Sie unter Warenkorb mit mehreren Elementen.
+*Optimierter Checkout: Dadurch müssen die Teilnehmer für jedes Schulungselement weniger separate Käufe tätigen.
+* SKU-Verwaltung: Administratoren können SKUs für Kurse, Lernpfade und Zertifizierungen verwalten, um eine ordnungsgemäße Verfolgung und Berichterstellung zu gewährleisten.
 
 ### Playereinstellungen
 
@@ -404,7 +404,7 @@ Mit dieser Option können Autoren den Fluidic Player für verschiedene Kurse auf
 Mit dieser Option können Manager ihren Mitarbeitern Kurse, Zertifizierungen oder den Abschluss eines Lernplans markieren. Diese Funktion ist nützlich, wenn Teilnehmer Schulungen außerhalb der Plattform abgeschlossen haben oder manuelle Eingriffe benötigen, um ihren Fortschritt zu aktualisieren.
 Manager können den Kursabschluss wie folgt kennzeichnen:
 
-* Checklistenmodul : Mit dem Checklistenmodul können Manager die Leistung der Teilnehmer basierend auf bestimmten Aufgaben oder Kriterien bewerten. Autoren müssen dieses Modul während der Kurserstellung aktivieren und Manager als Reviewer zuweisen.
+* Checklistenmodul: Das Checklistenmodul ermöglicht es Managern, die Leistung der Teilnehmer anhand bestimmter Aufgaben oder Kriterien zu bewerten. Autoren müssen dieses Modul während der Kurserstellung aktivieren und Manager als Reviewer zuweisen.
 * Kursseite: Auf der Kursseite:
 a.    Wählen Sie die Registerkarte **[!UICONTROL Teilnehmer]** im linken Bereich aus.
 b.    Wählen Sie den Teilnehmer aus, dessen Anwesenheit Sie markieren möchten.
@@ -459,11 +459,3 @@ Die Kenntnisse von externen Inhaltsanbietern werden dem vom Administrator defini
 2. Wählen Sie einen Inhaltsanbieter aus der Dropdown-Liste **[!UICONTROL Quelle für Kenntnisse auswählen]** aus.
 3. Wählen Sie **[!UICONTROL Speichern]**.
 Beachten Sie, dass die Aktion unumkehrbar ist, sobald die Option aktiviert ist. Sie können später nicht deaktivieren oder zu einer anderen Quelle wechseln.
-
-
-
-
-
-
-
-
