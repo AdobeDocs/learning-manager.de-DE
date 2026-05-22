@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Erstellen von Kursinstanzen und Lernpfaden
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+source-git-commit: efdbba048d27d4100dad28bae3f788abafa19c85
 workflow-type: tm+mt
 source-wordcount: '5898'
 ht-degree: 60%
@@ -243,7 +243,7 @@ Wenn ein Teilnehmer, der zuvor den Status „Genehmigung ausstehend“ aufwies, 
 
 Mit der Massenregistrierung von Adobe Learning Manager können Administratoren große Gruppen von Teilnehmern effizient für Kurse, Zertifizierungen oder Lernprogramme registrieren, indem sie eine CSV-Datei hochladen. Dieser Prozess spart Zeit, gewährleistet Konsistenz und unterstützt die Skalierbarkeit des Unternehmens. Darüber hinaus können Administratoren und Kursleiter die Teilnehmerinformationen, die Anwesenheit und den Abschluss in großen Mengen über CSV-Uploads aktualisieren, wodurch der manuelle Aufwand minimiert und die Datengenauigkeit gewährleistet wird.
 
-Sie können für Registrierung, Teilnahme und Abschluss dasselbe CSV-Dateiformat verwenden. Geben Sie einfach die E-Mail-IDs der Teilnehmer in der Spalte &quot;E-Mail&quot; ein und speichern Sie die Datei mit einem Namen, der auf der Aktion basiert, z. B. bulk_enrollment.csv, bulk_attendance.csv oder bulk_complete.csv. Es wird nur das CSV-Format unterstützt. UTF-8-Format wird nicht unterstützt. Laden Sie die [Beispiel-CSV](assets/Sample-Bulk-Action-CSV.csv) herunter.
+Sie können für Registrierung, Teilnahme und Abschluss dasselbe CSV-Dateiformat verwenden. Geben Sie einfach die E-Mail-IDs der Teilnehmer in der Spalte &quot;E-Mail&quot; ein und speichern Sie die Datei mit einem Namen, der auf der Aktion basiert, z. B. bulk_enrollment.csv, bulk_attendance.csv oder bulk_complete.csv. Es wird nur das CSV-Format unterstützt. UTF-8-Format wird nicht unterstützt. Laden Sie die [Beispiel-CSV](assets/sample-bulk-action.csv) herunter.
 
 ### Registrieren Sie Teilnehmer gesammelt mit einer CSV-Datei
 
@@ -358,7 +358,7 @@ Wenn Sie das PDF herunterladen, sehen Sie die Zeitzone (in UTC), die beim Erstel
 
 >[!NOTE]
 >
->Wenn diese Feedbackoption in Ihrem Konto nicht sichtbar ist, wurde Ihr Konto bereits auf das neue L1-Feedbackformular aktualisiert. Weitere Informationen finden Sie im [L1-Feedbackformular &#x200B;](/help/migrated/administrators/feature-summary/l1-feedback-form.md).
+>Wenn diese Feedbackoption in Ihrem Konto nicht sichtbar ist, wurde Ihr Konto bereits auf das neue L1-Feedbackformular aktualisiert. Weitere Informationen finden Sie im [L1-Feedbackformular ](/help/migrated/administrators/feature-summary/l1-feedback-form.md).
 
 
 Während der Kurserstellung können Sie L1- und L3-Feedbackoptionen hinzufügen:
@@ -494,7 +494,7 @@ Eine Beispielausgabe des L3-Fragebogens wird als Referenz zur Verfügung gestell
 Auf Kontoebene können Sie L1- und L3-Feedbackfragebogen einrichten und Erinnerungen festlegen.
 
 1. Klicken Sie im linken Teilfenster auf **[!UICONTROL Einstellungen]** und dann auf **[!UICONTROL Feedback]**, nachdem Sie sich als Administrator angemeldet haben.\
-   Die Seite mit den Feedbackeinstellungen wird mit zwei Registerkarten angezeigt: **[!UICONTROL L1 Feedback]** und **[!UICONTROL L3 Feedback]**.\
+   Die Seite mit den Feedbackeinstellungen wird mit zwei Registerkarten angezeigt: **[!UICONTROL L1-Feedback]** und **[!UICONTROL L3-Feedback]**\
    Die Registerkarte **[!UICONTROL L1-Feedback]** enthält eine Liste mit standardmäßigen **[!UICONTROL L1-Feedback]**-Fragebogen für Präsenzkurse und Kurse zum Selbststudium sowie Erinnerungseinstellungen. Auf der Registerkarte **[!UICONTROL L3-Feedback]** können Sie L3-Standardfeedback- und Erinnerungseinstellungen anzeigen.
 
 1. Klicken Sie in der rechten oberen Ecke der Seite auf „Bearbeiten“, um den vorhandenen Fragebogen zu ändern.\
@@ -590,10 +590,10 @@ Wählen Sie den Instanzentyp aus der Dropdownliste, um die Ergebnisse nach den I
 Administratoren können Standardabzeichen, Gamification-Einstellungen und Erinnerungen auf der Seite **[!UICONTROL Standardinstanz]** festlegen. Um die Standardinstanzeinstellungen zu ändern, wählen Sie **[!UICONTROL Standardinstanz]** > **[!UICONTROL Bearbeiten]**.
 
 * **[!UICONTROL Abzeichen]**: Wählen Sie die Standard-Abzeichen aus dem Dropdown-Menü aus.
-* **[!UICONTROL Gamification]**: Konfigurieren Sie Gamification-Einstellungen, einschließlich Punkten für Abschluss, vorzeitigen Abschluss und rechtzeitigen Abschluss. Administratoren haben die Möglichkeit, Einstellungen auf Kontoebene auszuwählen oder die Gamification-Punkte für diese Instanz anzupassen.
-* **[!UICONTROL L1-Reaktionsfeedback]**: Aktivieren Sie vordefinierte Fragen für Teilnehmer-Feedback nach Kursabschluss, mit Optionen zum Pflichtfragen.
+* **[!UICONTROL Gamification]**: Konfigurieren Sie die Gamification-Einstellungen, einschließlich der Punkte für den Abschluss, den vorzeitigen Abschluss und den rechtzeitigen Abschluss. Administratoren haben die Möglichkeit, Einstellungen auf Kontoebene auszuwählen oder die Gamification-Punkte für diese Instanz anzupassen.
+* **[!UICONTROL L1-Reaktionsfeedback]**: Aktivieren Sie vordefinierte Fragen für Teilnehmer-Feedback nach Kursabschluss mit Optionen, um Fragen verbindlich zu machen.
 ***[!UICONTROL L3-Feedback zu Verhaltensänderungen]**: Aktivieren Sie Feedback-Fragen für den Manager des Teilnehmers nach Kursabschluss.
-***[!UICONTROL Erinnerungseinstellungen]**: Legen Sie Erinnerungen für Fristen fest und verwalten Sie sie, mit Optionen für eine Eskalation.
+***[!UICONTROL Erinnerungseinstellungen]**: Richten und verwalten Sie Erinnerungen für Fristen mit Optionen für die Eskalation.
 
 ### Eskalationsstufe festlegen {#escalation}
 
