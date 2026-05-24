@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Erstellen von Kursinstanzen und Lernpfaden
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: f6e8e3cc917a995213115b0400a4f700ad26843e
+source-git-commit: bb212865016726f84a240702533a099ac11e481a
 workflow-type: tm+mt
 source-wordcount: '5898'
 ht-degree: 60%
@@ -243,7 +243,7 @@ Wenn ein Teilnehmer, der zuvor den Status „Genehmigung ausstehend“ aufwies, 
 
 Mit der Massenregistrierung von Adobe Learning Manager können Administratoren große Gruppen von Teilnehmern effizient für Kurse, Zertifizierungen oder Lernprogramme registrieren, indem sie eine CSV-Datei hochladen. Dieser Prozess spart Zeit, gewährleistet Konsistenz und unterstützt die Skalierbarkeit des Unternehmens. Darüber hinaus können Administratoren und Kursleiter die Teilnehmerinformationen, die Anwesenheit und den Abschluss in großen Mengen über CSV-Uploads aktualisieren, wodurch der manuelle Aufwand minimiert und die Datengenauigkeit gewährleistet wird.
 
-Sie können für Registrierung, Teilnahme und Abschluss dasselbe CSV-Dateiformat verwenden. Geben Sie einfach die E-Mail-IDs der Teilnehmer in der Spalte &quot;E-Mail&quot; ein und speichern Sie die Datei mit einem Namen, der auf der Aktion basiert, z. B. bulk_enrollment.csv, bulk_attendance.csv oder bulk_complete.csv. Es wird nur das CSV-Format unterstützt. UTF-8-Format wird nicht unterstützt. Laden Sie die [Beispiel-CSV](/help/migrated/administrators/assets/Sample-Bulk-Action-CSV.csv) herunter.
+Sie können für Registrierung, Teilnahme und Abschluss dasselbe CSV-Dateiformat verwenden. Geben Sie einfach die E-Mail-IDs der Teilnehmer in der Spalte &quot;E-Mail&quot; ein und speichern Sie die Datei mit einem Namen, der auf der Aktion basiert, z. B. bulk_enrollment.csv, bulk_attendance.csv oder bulk_complete.csv. Es wird nur das CSV-Format unterstützt. UTF-8-Format wird nicht unterstützt. Laden Sie die [Beispiel-CSV](/help/migrated/administrators/feature-summary/assets/Sample-Bulk-Action-CSV.xlsx) herunter.
 
 ### Registrieren Sie Teilnehmer gesammelt mit einer CSV-Datei
 
@@ -358,7 +358,7 @@ Wenn Sie das PDF herunterladen, sehen Sie die Zeitzone (in UTC), die beim Erstel
 
 >[!NOTE]
 >
->Wenn diese Feedbackoption in Ihrem Konto nicht sichtbar ist, wurde Ihr Konto bereits auf das neue L1-Feedbackformular aktualisiert. Weitere Informationen finden Sie im [L1-Feedbackformular &#x200B;](/help/migrated/administrators/feature-summary/l1-feedback-form.md).
+>Wenn diese Feedbackoption in Ihrem Konto nicht sichtbar ist, wurde Ihr Konto bereits auf das neue L1-Feedbackformular aktualisiert. Weitere Informationen finden Sie im [L1-Feedbackformular ](/help/migrated/administrators/feature-summary/l1-feedback-form.md).
 
 
 Während der Kurserstellung können Sie L1- und L3-Feedbackoptionen hinzufügen:
