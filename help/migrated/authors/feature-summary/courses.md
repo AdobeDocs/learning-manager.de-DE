@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Kurse erstellen, ändern und veröffentlichen
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: ee0b90d1ef01c073ea0c138f98bde6415622ca89
+source-git-commit: 24f54599749bce60916a57634144b0ca7f6a6d10
 workflow-type: tm+mt
 source-wordcount: '9424'
 ht-degree: 61%
@@ -137,7 +137,7 @@ Jetzt wird der Kurs/der Lernpfad/die Zertifizierung als Compliance-Typ betrachte
 >
 >Autoren können die Compliance-Beschriftungen auch zu einem vorhandenen Kurs/Lernpfad/einer Zertifizierung hinzufügen, indem sie sie bearbeiten.
 
-## Instanz erstellen
+## Instanz erstellen {#createaninstance}
 
 Gehen Sie wie folgt vor, um eine Instanz zu erstellen:
 
@@ -149,6 +149,7 @@ Gehen Sie wie folgt vor, um eine Instanz zu erstellen:
 
    * Geben Sie im Feld **[!UICONTROL Instanzname]** den Namen der Instanz ein, die Sie dem Kurs zuordnen möchten. Stellen Sie sicher, dass Sie einen eindeutigen Namen für die Instanz verwenden.
    * **Startdatum:** Dies ist das Startdatum des Kurses. Zwei Erinnerungs-E-Mails können an zwei verschiedenen ausgewählten Daten an den Teilnehmer vor diesem Startdatum gesendet werden. Das Startdatum muss ein Datum vor dem Abschlussdatum sein. Sobald Sie das Startdatum ausgewählt haben, wird dieses Datum im Kalender im Abschnitt **Benachrichtigungen** der Instanz blau hervorgehoben.
+     ![](assets/start-date-instance.png)
      ![](assets/start-date-highlighted-instance.png)
    * Geben Sie den Fertigstellungstermin für die Instanz an. Die Teilnehmer müssen bis zu diesem Datum den Abschlussstatus erreichen.
    * Wählen Sie **[!UICONTROL Weitere Optionen anzeigen]**, um andere Fristoptionen anzuzeigen.
@@ -157,18 +158,16 @@ Gehen Sie wie folgt vor, um eine Instanz zu erstellen:
    * **[!UICONTROL Zeitzone]:** Suche und wählen Sie dann die **[!UICONTROL Zeitzone]** aus der Dropdownliste aus.
 
 6. Wählen Sie **Speichern**.
-   ![](assets/start-date-instance.png)
 
 ### E-Mail-Erinnerungen vor dem Startdatum festlegen
 
 Sie können E-Mail-Erinnerungen erst festlegen, nachdem Sie die gesamten Instanzinformationen gespeichert haben. Sobald Sie **Speichern** auswählen, minimiert sich die Instanz und wechselt in den Bearbeitungsmodus.
 
 1. Wählen Sie das Feld **Benachrichtigungswarnungen** aus.
-2. Wählen Sie im Kalender ein Datum aus, das vor dem Startdatum des Kurses für die erste Erinnerung liegt.
+2. Wählen Sie im Kalender ein Datum aus, das vor dem Startdatum der Instanz für die erste Erinnerung liegt.
 3. Wählen Sie rechts **Erinnerung hinzufügen** aus.
-4. **E-Mail-Vorlage:** Wählen Sie eine Vorlage aus der Dropdown-** aus.
-5. **Wiederholung:** Wählen Sie einen Wiederholungstyp aus der Dropdownliste aus.
-Aktivieren Sie das blaue Häkchen rechts, um das Erinnerungstermin zu speichern. Denken Sie daran, dass jedes Erinnerungstermin separat gespeichert werden muss.
+4. **E-Mail-Vorlage:** Wählen Sie eine Vorlage aus der Dropdownliste aus.
+5. **Wiederholung:** Wählen Sie einen Wiederholungstyp aus der Dropdownliste aus. Aktivieren Sie das blaue Häkchen rechts, um das Erinnerungstermin zu speichern. Denken Sie daran, dass jedes Erinnerungstermin separat gespeichert werden muss.
    ![](assets/start-date-reminder1.png)
 6. Wählen Sie für die zweite Erinnerung ein anderes Datum aus, das ebenfalls vor dem Startdatum des Kurses liegt, wiederholen Sie den Vorgang und wählen Sie das blaue Häkchen auf der rechten Seite, um auch dieses Erinnerungsdatum zu speichern.
    ![](assets/start-date-reminder2.png)
@@ -500,7 +499,7 @@ Führen Sie die folgenden Schritte aus, um ein Inhaltsmodul hinzuzufügen:
 
    *VC-Modul hinzufügen*
 
-   Wenn Sie einen Kurs mithilfe des Konfigurationsdialogfelds &quot;Virtuelles Klassenzimmer&quot; erstellen, stellen Sie das **Konferenzsystem** auf die von Ihnen erstellte Teams-Verbindung ein. Wählen Sie aus, ob Sie einen Meetingorganisator für die Veranstaltung wünschen.
+   Wenn Sie einen Kurs mithilfe des Konfigurationsdialogfelds &amp;quot;Virtuelles Klassenzimmer&amp;quot; erstellen, stellen Sie das **Konferenzsystem** auf die von Ihnen erstellte Teams-Verbindung ein. Wählen Sie aus, ob Sie einen Meetingorganisator für die Veranstaltung wünschen.
 
    Wenn Sie **Ja** für einen Meetingveranstalter auswählen, müssen Sie den Namen des Veranstalters eingeben. Geben Sie den Namen ein und wählen Sie den Organisator aus.
 
@@ -1153,7 +1152,7 @@ Sie können in Learning Manager mit den Menüoptionen „Veröffentlichen“ Kur
 1. Melden Sie sich mit Adobe-Anmeldeinformationen an. Wenn Sie noch keine Adobe ID haben, klicken Sie auf **[!UICONTROL Konto erstellen]**. Nach der Autorisierung werden Sie zur Seite für die Veröffentlichung von Modulen weitergeleitet.
 1. Geben Sie alle Basisinformationen über das Modul ein und klicken Sie auf „Veröffentlichen“.
 
-Sie sehen das veröffentlichte Modul auf der Modulseite von Learning Manager. Weitere Informationen finden Sie unter [Projekt in Adobe Learning Manager veröffentlichen](https://helpx.adobe.com/de/captivate/classic/publish-project-to-captivate-prime.html).
+Sie sehen das veröffentlichte Modul auf der Modulseite von Learning Manager. Weitere Informationen finden Sie unter [Projekt in Adobe Learning Manager veröffentlichen](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html).
 
 ## Kurseffektivität {#courseeffectiveness}
 
