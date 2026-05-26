@@ -1,16 +1,16 @@
 ---
 description: API-Änderungen in ALM
 jcr-language: en_us
-title: API-Änderungen in der April-Version
-source-git-commit: 7d3314f9293e1ad7e4ff4f6e537e19c82f7416e9
+title: API-Änderungen in der Patch-Version Mai 2026
+source-git-commit: 24f54599749bce60916a57634144b0ca7f6a6d10
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
 
 
-# API-Änderungen in der Version vom Mai 2026
+# API-Änderungen in der Patch-Version Mai 2026
 
 ## API-Erweiterung für GET/learningObjects
 

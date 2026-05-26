@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Erstellen von Kursinstanzen und Lernpfaden
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: 24fe199514c70bc081eda47b3e8d8dca9d8faba3
+source-git-commit: 24f54599749bce60916a57634144b0ca7f6a6d10
 workflow-type: tm+mt
 source-wordcount: '6105'
 ht-degree: 58%
@@ -38,18 +38,19 @@ Nachdem ein Autor einen Kurs erstellt hat, können Sie Instanzen des Kurses erst
 Instanz erstellen
 
 1. Auf der Administrator-Webanwendung, klicken Sie auf **[!UICONTROL Kurse]** auf der linken Seite.
-1. Wählen Sie in der Liste der Kurse den gewünschten Kurs aus und klicken Sie auf **[!UICONTROL Kurs anzeigen]**.
+2. Wählen Sie in der Liste der Kurse den gewünschten Kurs aus und klicken Sie auf **[!UICONTROL Kurs anzeigen]**.
 
    ![](assets/view-course.png)
 
    *Kurs anzeigen*
 
-1. Klicken Sie zum Erstellen von Instanzen im linken Bereich auf **[!UICONTROL Instanzen]**. Jeder Kurs hat standardmäßig eine Instanz. Sie können entweder die Standardinstanz ändern oder Instanzen hinzufügen. Sie können diese Kursinstanz nicht löschen.
-1. Klicken Sie in der rechten oberen Ecke der Kursinformationen auf **[!UICONTROL Neue Instanz hinzufügen]**, um eine neue Instanz zu erstellen. Eine neue Instanz des Kurses wird angezeigt.
-1. Geben Sie die Eigenschaften der Instanz ein:
+3. Klicken Sie zum Erstellen von Instanzen im linken Bereich auf **[!UICONTROL Instanzen]**. Jeder Kurs hat standardmäßig eine Instanz. Sie können entweder die Standardinstanz ändern oder Instanzen hinzufügen. Sie können diese Kursinstanz nicht löschen.
+4. Klicken Sie in der rechten oberen Ecke der Kursinformationen auf **[!UICONTROL Neue Instanz hinzufügen]**, um eine neue Instanz zu erstellen. Eine neue Instanz des Kurses wird angezeigt.
+5. Geben Sie die Eigenschaften der Instanz ein:
 
    * Geben Sie im Feld **[!UICONTROL Instanzname]** den Namen der Instanz ein, die Sie dem Kurs zuordnen möchten. Stellen Sie sicher, dass Sie einen eindeutigen Namen für die Instanz verwenden.
-   * **Startdatum:** Dies ist das Startdatum des Kurses. Zwei Erinnerungs-E-Mails können an zwei verschiedenen ausgewählten Daten an den Teilnehmer vor diesem Startdatum gesendet werden. Das Startdatum muss ein Datum vor dem Abschlussdatum sein. Sobald Sie das Startdatum ausgewählt haben, wird dieses Datum im Kalender im Abschnitt **Benachrichtigungen** der Instanz blau hervorgehoben.
+   * **Startdatum:** Dies ist das Startdatum der Instanz. Zwei Erinnerungs-E-Mails können an zwei verschiedenen ausgewählten Daten an den Teilnehmer vor diesem Startdatum gesendet werden. Das Startdatum muss ein Datum vor dem Abschlussdatum sein. Sobald Sie das Startdatum ausgewählt haben, wird dieses Datum im Kalender im Abschnitt **Benachrichtigungen** der Instanz blau hervorgehoben.
+     ![](assets/start-date-instance.png)
      ![](assets/start-date-highlighted-instance.png)
    * Geben Sie den Fertigstellungstermin für die Instanz an. Die Teilnehmer müssen bis zu diesem Datum den Abschlussstatus erreichen.
    * Wählen Sie **[!UICONTROL Weitere Optionen anzeigen]**, um andere Fristoptionen anzuzeigen.
@@ -57,19 +58,17 @@ Instanz erstellen
    * **[!UICONTROL Abmeldefrist]:** Sie können die Abmeldefrist durch den Teilnehmer selbst einschränken, indem Sie eine Abmeldefrist haben.
    * **[!UICONTROL Zeitzone]:** Suche und wählen Sie dann die **[!UICONTROL Zeitzone]** aus der Dropdownliste aus.
 
-   Wählen Sie **Speichern**.
-   ![](assets/start-date-instance.png)
+6. Wählen Sie **Speichern**.
 
 #### E-Mail-Erinnerungen vor dem Startdatum festlegen
 
 Sie können E-Mail-Erinnerungen erst festlegen, nachdem Sie die gesamten Instanzinformationen gespeichert haben. Sobald Sie **Speichern** auswählen, minimiert sich die Instanz und wechselt in den Bearbeitungsmodus.
 
 1. Wählen Sie das Feld **Benachrichtigungswarnungen** aus.
-2. Wählen Sie im Kalender ein Datum aus, das vor dem Startdatum des Kurses für die erste Erinnerung liegt.
+2. Wählen Sie im Kalender ein Datum aus, das vor dem Startdatum der Instanz für die erste Erinnerung liegt.
 3. Wählen Sie rechts **Erinnerung hinzufügen** aus.
-4. **E-Mail-Vorlage:** Wählen Sie eine Vorlage aus der Dropdown-** aus.
-5. **Wiederholung:** Wählen Sie einen Wiederholungstyp aus der Dropdownliste aus.
-Aktivieren Sie das blaue Häkchen rechts, um das Erinnerungstermin zu speichern. Denken Sie daran, dass jedes Erinnerungstermin separat gespeichert werden muss.
+4. **E-Mail-Vorlage:** Wählen Sie eine Vorlage aus der Dropdownliste aus.
+5. **Wiederholung:** Wählen Sie einen Wiederholungstyp aus der Dropdownliste aus. Aktivieren Sie das blaue Häkchen rechts, um das Erinnerungstermin zu speichern. Denken Sie daran, dass jedes Erinnerungstermin separat gespeichert werden muss.
    ![](assets/start-date-reminder1.png)
 6. Wählen Sie für die zweite Erinnerung ein anderes Datum aus, das ebenfalls vor dem Startdatum des Kurses liegt, wiederholen Sie den Vorgang und wählen Sie das blaue Häkchen auf der rechten Seite, um auch dieses Erinnerungsdatum zu speichern.
    ![](assets/start-date-reminder2.png)

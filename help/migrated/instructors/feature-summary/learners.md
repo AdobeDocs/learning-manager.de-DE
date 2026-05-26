@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Verwalten der Teilnehmer für Ihre Sitzung
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: 7d3314f9293e1ad7e4ff4f6e537e19c82f7416e9
+source-git-commit: 24f54599749bce60916a57634144b0ca7f6a6d10
 workflow-type: tm+mt
 source-wordcount: '1898'
 ht-degree: 47%
@@ -142,7 +142,7 @@ Alle Aktualisierungen werden automatisch in den Teilnehmerdatensätzen, Transkri
 
 * Schulungen für Partner oder Kunden ermöglichen es dem Trainer vor Ort, sich einfach an Änderungen im Raum, zusätzliche Sitzungen oder zusätzliche Teilnehmer anzupassen, ohne den Administrator um neue QR-Codes bitten zu müssen.
 
-### Kalendereinladungen
+### Kalendereinladungen {#calendarinvites}
 
 * Wenn sich ein Teilnehmer oder ein Kursleiter in einem Klassenzimmer oder einer virtuellen Klassenzimmersitzung registriert hat, sendet der Lern-Manager eine Kalendereinladung (ICS-Datei).
 * Die Kalendereinladung umfasst:
