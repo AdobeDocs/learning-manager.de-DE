@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Kurse erstellen, ändern und veröffentlichen
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: f7f392fd585108f7853b092c3f2230a366d579f9
+source-git-commit: ee0b90d1ef01c073ea0c138f98bde6415622ca89
 workflow-type: tm+mt
-source-wordcount: '8841'
-ht-degree: 64%
+source-wordcount: '9424'
+ht-degree: 61%
 
 ---
 
@@ -49,15 +49,16 @@ Um einen Kurs zu erstellen, führen Sie die unten genannten Schritte aus:
 
 ## Kurs erstellen - Erweiterter Arbeitsablauf {#createacourseadvancedworkflow}
 
-1. Melden Sie sich als Autor bei Adobe Learning Manager an, da nur Autoren berechtigt sind, Kurse zu erstellen. Klicken Sie nun auf der Seite „Erste Schritte“ auf **[!UICONTROL Kurse erstellen]**.
-1. Geben Sie auf der **Seite Kursübersicht** den Namen des Kurses ein. Geben Sie nun eine kurze Beschreibung für diesen Kurs ein, die auf der Kurskarte angezeigt wird. Diese Beschreibung darf nicht länger als 140 Zeichen sein. Geben Sie anschließend die Detailübersicht für den Kurs ein, die auf der Seite „Kursdetails“ angezeigt wird. Die Beschreibung darf nicht länger als 1500 Zeichen sein.
-1. Um den Kurs in anderen Sprachen zur Verfügung zu stellen, klicken Sie in der oberen linken Ecke der Seite auf „Neue Sprache hinzufügen“. Wählen Sie die Sprache/Sprachen, in denen der Kurs bereitgestellt werden soll. Klicken Sie auf **[!UICONTROL Speichern]**. Weitere Informationen finden Sie unter [Inhalt für verschiedene Sprachen hinzufügen](/help/migrated/authors/feature-summary/content-library.md).
-1. **Kurseinstellungen ändern** -
+1. Melden Sie sich als Autor bei Adobe Learning Manager an, da nur Autoren berechtigt sind, Kurse zu erstellen. Wählen Sie nun auf der Startseite **[!UICONTROL Kurse erstellen]**. Die Seite &quot;Kurskatalog&quot; wird geöffnet und eine Liste der Kurse wird angezeigt.
+2. Wählen Sie rechts oben **Hinzufügen** aus. Eine Seite wird geöffnet, auf der Sie einen neuen Kurs erstellen können.
+3. Geben Sie einen Namen für den Kurs und eine kurze Beschreibung ein. Diese Beschreibung wird auf der Kurskarte angezeigt. Diese Beschreibung darf nicht länger als 140 Zeichen sein. Geben Sie anschließend die Detailübersicht für den Kurs ein, die auf der Seite „Kursdetails“ angezeigt wird. Die Beschreibung darf nicht länger als 1500 Zeichen sein.
+4. Um den Kurs in anderen Sprachen zur Verfügung zu stellen, klicken Sie in der oberen linken Ecke der Seite auf „Neue Sprache hinzufügen“. Wählen Sie die Sprache/Sprachen, in denen der Kurs bereitgestellt werden soll. Klicken Sie auf **[!UICONTROL Speichern]**. Weitere Informationen finden Sie unter [Inhalt für verschiedene Sprachen hinzufügen](/help/migrated/authors/feature-summary/content-library.md).
+5. **Kurseinstellungen ändern** -
 
-   1. Wählen Sie auf der Seite „Kurseinstellungen“ Kenntnisse für den Kurs aus. Wählen Sie aus der Dropdown-Liste „Kenntnisse“ die gewünschtem Kenntnisse aus. Wählen Sie dann in der Dropdown-Liste „Stufe“ die gewünschte Stufe aus.
-   1. Wählen Sie die Kurskenntnisse, Stufen und legen Sie die Credits für die Kenntnisse fest. Fügen Sie bei Bedarf weitere Kenntnisse hinzu.
-   1. Fügen Sie dem Kurs die benutzerdefinierten Compliance-Beschriftungen hinzu, falls erforderlich. Siehe [Hinzufügen von Konformitätsbezeichnungen zum Kurs/Lernpfad/zur Zertifizierung](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification).
-   1. Wählen Sie in der Dropdownliste **Registrierungstyp** den Registrierungstyp aus.
+   a. Wählen Sie auf der Seite „Kurseinstellungen“ Kenntnisse für den Kurs aus. Wählen Sie aus der Dropdown-Liste „Kenntnisse“ die gewünschtem Kenntnisse aus. Wählen Sie dann in der Dropdown-Liste „Stufe“ die gewünschte Stufe aus.
+b. Wählen Sie die Kurskenntnisse, Stufen und legen Sie die Credits für die Kenntnisse fest. Fügen Sie bei Bedarf weitere Kenntnisse hinzu.
+c. Fügen Sie dem Kurs die benutzerdefinierten Compliance-Beschriftungen hinzu, falls erforderlich. Siehe [Hinzufügen von Konformitätsbezeichnungen zum Kurs/Lernpfad/zur Zertifizierung](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification).
+d. Wählen Sie in der Dropdownliste **Registrierungstyp** den Registrierungstyp aus.
 
    Im Folgenden sind die Registrierungstypen aufgeführt:
 
@@ -65,13 +66,15 @@ Um einen Kurs zu erstellen, führen Sie die unten genannten Schritte aus:
    * **Vom Manager genehmigt:** Manager genehmigen diese Kurse. Teilnehmer können sich für diese Kurse anmelden, aber sie werden für diese Art von Kursen nicht direkt registriert, ohne dass dies von einem Manager genehmigt wurde. Wenn sich Teilnehmer für Kurse dieser Art anmelden, erhält der Manager eine Benachrichtigung. Nach Genehmigung des Managers werden diese Kurse für die Teilnehmer als registriert angeführt.
    * **Selbstregistrierung:** Teilnehmer können sich für diese Kurse selbst direkt registrieren.
 
-1. Wählen Sie, ob Sie einen Preis für Ihren Kurs festlegen oder ihn kostenlos anbieten möchten. Wenn Sie den Kurs kostenpflichtig anbieten möchten, wählen Sie die Option **[!UICONTROL Kostenpflichtig]** und geben Sie einen Preis an. Der Preis wird dann auf der Kurskarte und der Kursübersichtsseite für einen Teilnehmer angezeigt.
+6. Wählen Sie, ob Sie einen Preis für Ihren Kurs festlegen oder ihn kostenlos anbieten möchten. Wenn Sie den Kurs kostenpflichtig anbieten möchten, wählen Sie die Option **[!UICONTROL Kostenpflichtig]** und geben Sie einen Preis an. Der Preis wird dann auf der Kurskarte und der Kursübersichtsseite für einen Teilnehmer angezeigt.
 
-   HINWEIS: Diese Option ist nur aktiviert, wenn der Adobe Commerce-Connector konfiguriert ist.
+   >[!NOTE]
+   >
+   >Diese Option ist nur aktiviert, wenn der Adobe Commerce-Connector konfiguriert ist.
 
-1. Wenn Sie die Möglichkeit geben, für die Teilnehmer, sich von Ihrem Kurs abzumelden, aktivieren Sie das Kontrollkästchen **Teilnehmer können sich selbst abmelden**.
+7. Wenn Sie die Möglichkeit geben, für die Teilnehmer, sich von Ihrem Kurs abzumelden, aktivieren Sie das Kontrollkästchen **Teilnehmer können sich selbst abmelden**.
 
-1. **Instanzkonfiguration**
+8. **Instanzkonfiguration**
 
    Wenn Sie diese Option aktivieren, können Teilnehmer mit dem Status In Bearbeitung andere Instanzen besuchen und sich dort registrieren. Teilnehmende können dann den Fortschritt der vorherigen Instanz beibehalten.
 
@@ -84,7 +87,9 @@ Um einen Kurs zu erstellen, führen Sie die unten genannten Schritte aus:
    * Klassenzimmer
    * Aktivität
 
-   Hinweis: Wenn Sie beim Duplizieren eines Kurses die Option Instanzkonfiguration im Quellkurs aktiviert haben, bleibt die Option im Zielkurs deaktiviert.
+   >[!NOTE]
+   >
+   >Wenn Sie beim Duplizieren eines Kurses die Option &quot;Instanzkonfiguration&quot; im Ausgangskurs aktiviert haben, bleibt die Option im Zielkurs deaktiviert.
 
    **Der Instanzschalter wird für** nicht unterstützt:
 
@@ -93,18 +98,18 @@ Um einen Kurs zu erstellen, führen Sie die unten genannten Schritte aus:
 
    Die Konfiguration des Instanzwechsels wird nicht an Peer-Konten weitergegeben, wenn sie über den Katalog freigegeben wird. Die Option bleibt im Zielkurs deaktiviert.
 
-1. **Mehrere Registrierungen**
+9. **Mehrere Registrierungen**
 
    Auf diese Weise können Sie Teilnehmende in mehr als einer Kursinstanz zu einem oder verschiedenen Zeiträumen registrieren.
 
    Aktivieren Sie den Schalter **Mehrere Registrierungen**, um zwischen verschiedenen Kursregistrierungen eines Teilnehmers zu wechseln. Wenn Sie den Instanzwechsel aktiviert haben, können Sie nicht die Mehrfachregistrierung verwenden.
 
-1. Wählen Sie die Voraussetzungskurse, die der Teilnehmer absolviert haben muss, bevor er an Ihrem Kurs teilnehmen kann. Klicken Sie auf das Feld „Kurse“ und wählen Sie die entsprechenden Kurse aus der Kursliste.
-1. Aktivieren Sie das Kontrollkästchen **Voraussetzungen** **aktivieren**, wenn die erforderlichen Kurse für mich obligatorisch sein sollen.
-1. Fügen Sie Schlüsselwörter für Ihren Kurs als Tags hinzu. Diese Tags helfen den Teilnehmern, Ihren Kurs leichter zu finden. Alle diese Tags werden basierend auf den von uns hinzugefügten Modulen automatisch hinzugefügt. Wenn Sie weitere Tags haben, die Sie zu diesem Kurs hinzufügen möchten, können Sie diese eingeben.
-1. Fügen Sie Schlüsselwörter für Ihren Kurs als Tags hinzu. Diese Tags helfen den Teilnehmern, Ihren Kurs leichter zu finden. Alle diese Tags werden basierend auf den von uns hinzugefügten Modulen automatisch hinzugefügt. Wenn Sie weitere Tags haben, die Sie zu diesem Kurs hinzufügen möchten, können Sie diese eingeben.
-1. Wählen Sie im Feld &quot;Automatische Einstellung&quot; ein Datum aus, an dem der Kurs eingestellt wird. Die/der Administrator(in) muss zuerst die Option &quot;Automatisch einstellen&quot; aktivieren.
-1. Um die Änderungen zu speichern, klicken Sie auf **[!UICONTROL Speichern]**. Klicken Sie zum Veröffentlichen des Kurses auf **[!UICONTROL Veröffentlichen]**.
+10. Wählen Sie die Voraussetzungskurse, die der Teilnehmer absolviert haben muss, bevor er an Ihrem Kurs teilnehmen kann. Klicken Sie auf das Feld „Kurse“ und wählen Sie die entsprechenden Kurse aus der Kursliste.
+11. Aktivieren Sie das Kontrollkästchen **Voraussetzungen** **aktivieren**, wenn die erforderlichen Kurse für mich obligatorisch sein sollen.
+12. Fügen Sie Schlüsselwörter für Ihren Kurs als Tags hinzu. Diese Tags helfen den Teilnehmern, Ihren Kurs leichter zu finden. Alle diese Tags werden basierend auf den von uns hinzugefügten Modulen automatisch hinzugefügt. Wenn Sie weitere Tags haben, die Sie zu diesem Kurs hinzufügen möchten, können Sie diese eingeben.
+13. Fügen Sie Schlüsselwörter für Ihren Kurs als Tags hinzu. Diese Tags helfen den Teilnehmern, Ihren Kurs leichter zu finden. Alle diese Tags werden basierend auf den von uns hinzugefügten Modulen automatisch hinzugefügt. Wenn Sie weitere Tags haben, die Sie zu diesem Kurs hinzufügen möchten, können Sie diese eingeben.
+14. Wählen Sie im Feld &quot;Automatische Einstellung&quot; ein Datum aus, an dem der Kurs eingestellt wird. Die/der Administrator(in) muss zuerst die Option &quot;Automatisch einstellen&quot; aktivieren.
+15. Wählen Sie &quot;**[!UICONTROL Speichern]**&quot;, um die Änderungen zu speichern. Klicken Sie zum Veröffentlichen des Kurses auf **[!UICONTROL Veröffentlichen]**.
 
 ### Hinzufügen von Compliance-Labels zum Kurs/Lernpfad/zur Zertifizierung {#add-custom-compliance-label}
 
@@ -131,6 +136,64 @@ Jetzt wird der Kurs/der Lernpfad/die Zertifizierung als Compliance-Typ betrachte
 >[!NOTE]
 >
 >Autoren können die Compliance-Beschriftungen auch zu einem vorhandenen Kurs/Lernpfad/einer Zertifizierung hinzufügen, indem sie sie bearbeiten.
+
+## Instanz erstellen
+
+Gehen Sie wie folgt vor, um eine Instanz zu erstellen:
+
+1. Melden Sie sich als **Autor** an.
+2. Navigieren Sie zu dem Kurs, für den Sie eine Instanz erstellen möchten, und öffnen Sie den Kurs.
+3. Wählen Sie im linken Navigationsbereich **Instanzen** aus. Die Seite **Instanzen** wird geöffnet. Jeder Kurs hat standardmäßig eine Instanz. Sie können entweder die Standardinstanz ändern oder Instanzen hinzufügen. Sie können diese Kursinstanz nicht löschen.
+4. Klicken Sie in der rechten oberen Ecke der Kursinformationen auf **[!UICONTROL Neue Instanz hinzufügen]**, um eine neue Instanz zu erstellen. Eine neue Instanz des Kurses wird angezeigt.
+5. Geben Sie die Eigenschaften der Instanz ein:
+
+   * Geben Sie im Feld **[!UICONTROL Instanzname]** den Namen der Instanz ein, die Sie dem Kurs zuordnen möchten. Stellen Sie sicher, dass Sie einen eindeutigen Namen für die Instanz verwenden.
+   * **Startdatum:** Dies ist das Startdatum des Kurses. Zwei Erinnerungs-E-Mails können an zwei verschiedenen ausgewählten Daten an den Teilnehmer vor diesem Startdatum gesendet werden. Das Startdatum muss ein Datum vor dem Abschlussdatum sein. Sobald Sie das Startdatum ausgewählt haben, wird dieses Datum im Kalender im Abschnitt **Benachrichtigungen** der Instanz blau hervorgehoben.
+     ![](assets/start-date-highlighted-instance.png)
+   * Geben Sie den Fertigstellungstermin für die Instanz an. Die Teilnehmer müssen bis zu diesem Datum den Abschlussstatus erreichen.
+   * Wählen Sie **[!UICONTROL Weitere Optionen anzeigen]**, um andere Fristoptionen anzuzeigen.
+   * **[!UICONTROL Registrierungsfrist]:** Dies ist das Datum, bis zu dem ein Teilnehmer sich bei Selbstregistrierung für ein Lernobjekt anmelden soll.
+   * **[!UICONTROL Abmeldefrist]:** Sie können die Abmeldefrist durch den Teilnehmer selbst einschränken, indem Sie eine Abmeldefrist haben.
+   * **[!UICONTROL Zeitzone]:** Suche und wählen Sie dann die **[!UICONTROL Zeitzone]** aus der Dropdownliste aus.
+
+6. Wählen Sie **Speichern**.
+   ![](assets/start-date-instance.png)
+
+### E-Mail-Erinnerungen vor dem Startdatum festlegen
+
+Sie können E-Mail-Erinnerungen erst festlegen, nachdem Sie die gesamten Instanzinformationen gespeichert haben. Sobald Sie **Speichern** auswählen, minimiert sich die Instanz und wechselt in den Bearbeitungsmodus.
+
+1. Wählen Sie das Feld **Benachrichtigungswarnungen** aus.
+2. Wählen Sie im Kalender ein Datum aus, das vor dem Startdatum des Kurses für die erste Erinnerung liegt.
+3. Wählen Sie rechts **Erinnerung hinzufügen** aus.
+4. **E-Mail-Vorlage:** Wählen Sie eine Vorlage aus der Dropdown-** aus.
+5. **Wiederholung:** Wählen Sie einen Wiederholungstyp aus der Dropdownliste aus.
+Aktivieren Sie das blaue Häkchen rechts, um das Erinnerungstermin zu speichern. Denken Sie daran, dass jedes Erinnerungstermin separat gespeichert werden muss.
+   ![](assets/start-date-reminder1.png)
+6. Wählen Sie für die zweite Erinnerung ein anderes Datum aus, das ebenfalls vor dem Startdatum des Kurses liegt, wiederholen Sie den Vorgang und wählen Sie das blaue Häkchen auf der rechten Seite, um auch dieses Erinnerungsdatum zu speichern.
+   ![](assets/start-date-reminder2.png)
+
+## Eigenschaften der Instanz anzeigen {#viewpropertiesoftheinstance}
+
+1. **Module:** Die Anzahl der vom Autor des Kurses erstellten Module
+2. **Sitzungen:** Die Anzahl der virtuellen Klassenzimmer- und Klassenzimmermodule im Kurs
+3. **Erfolge:** Erfolge der Teilnehmer
+4. **Benachrichtigungswarnungen:** Die Option zum Senden von zwei Erinnerungs-E-Mails vor dem Startdatum des Kurses
+
+### Aktionen {#actions}
+
+* **In den Kurseinstellungen speichern:** Speichert die Einstellungen dieser Instanz in dem Kurs, in dem Sie die Instanz erstellt haben.
+* **Standardeinstellungen anwenden:** Wendet die Standardeinstellungen an, die auf der Seite **Konfigurieren** > **Standardwerte für Instanz** gefunden wurden.
+* **Instanz einstellen:** Instanz einstellen hat eine Instanz zurückgezogen. Die Instanz ist nicht mehr verfügbar.
+* **Instanz löschen:** Löscht die bestimmte Instanz.
+
+
+>[!NOTE]
+>
+>Sie können die Standardinstanz oder eine Kopie der Standardinstanz nicht löschen. In solchen Fällen wird die Option Instanz löschen nicht in der Dropdownliste &quot;Aktion&quot; angezeigt.
+
+* **Teilnehmer auf Warteliste benachrichtigen:** Die Teilnehmer auf Warteliste werden benachrichtigt, dass es eine andere Instanz gibt, in der sie sich registrieren können.
+* **Registrierte E-Mail-Teilnehmer:** sendet E-Mails an Teilnehmer über wichtige Ankündigungen
 
 ## Gamification-Punkte
 
@@ -437,7 +500,7 @@ Führen Sie die folgenden Schritte aus, um ein Inhaltsmodul hinzuzufügen:
 
    *VC-Modul hinzufügen*
 
-   Wenn Sie einen Kurs mithilfe des Konfigurationsdialogfelds &quot;Virtuelles Klassenzimmer&quot; erstellen, stellen Sie das **Konferenzsystem** auf die von Ihnen erstellte Teams-Verbindung ein. Wählen Sie aus, ob Sie einen Meetingorganisator für die Veranstaltung wünschen.
+   Wenn Sie einen Kurs mithilfe des Konfigurationsdialogfelds &amp;quot;Virtuelles Klassenzimmer&amp;quot; erstellen, stellen Sie das **Konferenzsystem** auf die von Ihnen erstellte Teams-Verbindung ein. Wählen Sie aus, ob Sie einen Meetingorganisator für die Veranstaltung wünschen.
 
    Wenn Sie **Ja** für einen Meetingveranstalter auswählen, müssen Sie den Namen des Veranstalters eingeben. Geben Sie den Namen ein und wählen Sie den Organisator aus.
 
@@ -1090,7 +1153,7 @@ Sie können in Learning Manager mit den Menüoptionen „Veröffentlichen“ Kur
 1. Melden Sie sich mit Adobe-Anmeldeinformationen an. Wenn Sie noch keine Adobe ID haben, klicken Sie auf **[!UICONTROL Konto erstellen]**. Nach der Autorisierung werden Sie zur Seite für die Veröffentlichung von Modulen weitergeleitet.
 1. Geben Sie alle Basisinformationen über das Modul ein und klicken Sie auf „Veröffentlichen“.
 
-Sie sehen das veröffentlichte Modul auf der Modulseite von Learning Manager. Weitere Informationen finden Sie unter [Projekt in Adobe Learning Manager veröffentlichen](https://helpx.adobe.com/de/captivate/classic/publish-project-to-captivate-prime.html).
+Sie sehen das veröffentlichte Modul auf der Modulseite von Learning Manager. Weitere Informationen finden Sie unter [Projekt in Adobe Learning Manager veröffentlichen](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html).
 
 ## Kurseffektivität {#courseeffectiveness}
 

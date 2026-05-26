@@ -2,10 +2,10 @@
 user-guide-title: Leitfaden für Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Dokumentation für Adobe Learning Manager
-source-git-commit: a6d8564888f232bc642cfcac7b17db52be1ef024
+source-git-commit: 7d3314f9293e1ad7e4ff4f6e537e19c82f7416e9
 workflow-type: tm+mt
-source-wordcount: '946'
-ht-degree: 62%
+source-wordcount: '953'
+ht-degree: 61%
 
 ---
 
@@ -232,6 +232,7 @@ ht-degree: 62%
    * [Erstellen eines Testkontos in Adobe Learning Manager](/help/migrated/create-trial-account.md)
 * API-Änderungen {#api-changes}
    * [API-Änderungen in der April-Version](/help/migrated/api-changes-alm.md)
+   * [API-Änderungen in der Patch-Version vom Mai](/help/migrated/api-changes-alm-may.md)
 * Wissensdatenbank {#knowledge-base}
    * [Ich kann mich nicht bei Learning Manager anmelden](kb/unable-log-in-learning-manager.md)
    * [Übersicht zu Lernprogrammen zeigt keine aktuellen Daten an](kb/learning-summary-not-display-data.md)
