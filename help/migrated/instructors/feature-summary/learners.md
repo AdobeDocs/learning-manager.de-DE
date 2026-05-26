@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Verwalten der Teilnehmer für Ihre Sitzung
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: 890315af5dc413c859315dc12d5d9618f67afc8e
+source-git-commit: 7d3314f9293e1ad7e4ff4f6e537e19c82f7416e9
 workflow-type: tm+mt
 source-wordcount: '1898'
 ht-degree: 47%
@@ -146,9 +146,12 @@ Alle Aktualisierungen werden automatisch in den Teilnehmerdatensätzen, Transkri
 
 * Wenn sich ein Teilnehmer oder ein Kursleiter in einem Klassenzimmer oder einer virtuellen Klassenzimmersitzung registriert hat, sendet der Lern-Manager eine Kalendereinladung (ICS-Datei).
 * Die Kalendereinladung umfasst:
+
    * Datum und Uhrzeit der Sitzung
    * Sitzungsdetails
    * **Link zur direkten Sitzung** in der Kalenderbeschreibung
+
+  ![](assets/calendar-invite-session.png)
 
 Die Teilnehmer können die Kalenderveranstaltung öffnen und direkt aus ihrem Kalender an der Sitzung teilnehmen.
 
@@ -189,8 +192,8 @@ So markieren Sie den Erfolg für Teilnehmer:
 4. Wählen Sie die Teilnehmer aus und wählen Sie dann **[!UICONTROL Aktionen]**.
 5. Wählen Sie eine der folgenden Optionen aus, um den Erfolg für die ausgewählten Teilnehmer zu markieren:
 
-   * **[!UICONTROL Als anwesend markieren und Bestanden]**: Als bestanden markierte Teilnehmer haben das Modul erfolgreich abgeschlossen.
-   * **[!UICONTROL Anwesend markieren und fehlgeschlagen]**: Die als &quot;Nicht bestanden&quot; markierten Teilnehmer haben das Modul abgeschlossen, aber nicht bestanden.
+   * **[!UICONTROL Anwesend markieren und bestanden]**: Teilnehmer, die als Bestanden markiert sind, haben das Modul erfolgreich abgeschlossen.
+   * **[!UICONTROL Anwesend markieren und fehlgeschlagen]**: Teilnehmer, die als &quot;Fehlgeschlagen&quot; markiert sind, haben das Modul abgeschlossen, aber nicht bestanden.
 
    ![Das Dropdown-Menü &quot;Aktionen&quot;, in dem die Optionen &quot;Teilgenommen und bestanden markieren&quot; und &quot;Teilgenommen und nicht bestanden markieren&quot; für Kursleiter hervorgehoben werden, um den Erfolgsstatus jedes Teilnehmers festzulegen](/help/migrated/instructors/feature-summary/assets/mark-success-instructor.png)
    _Teilnehmerseite, auf der das Menü &quot;Aktionen&quot; mit markierten Optionen &quot;Teilgenommen markieren&quot; und &quot;Teilgenommen markieren&quot; und &quot;Teilgenommen markieren&quot; und &quot;Fehlgeschlagen&quot; für die Aufzeichnung von Teilnehmerergebnissen markiert ist_

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Versionshinweise zu Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 5af1306122d1a2099e6bbcf471d53f7c982e5a10
+source-git-commit: ee0b90d1ef01c073ea0c138f98bde6415622ca89
 workflow-type: tm+mt
-source-wordcount: '29433'
-ht-degree: 76%
+source-wordcount: '29658'
+ht-degree: 75%
 
 ---
 
@@ -25,7 +25,48 @@ ht-degree: 76%
 </table>
 -->
 
-+++Update 106: Adobe Learning Manager Version vom April 2026
++++Update 107: Patch-Version von Adobe Learning Manager vom Mai 2026
+
+Freigabedatum: 26. Mai 2026
+
+## Verbesserungen (Instanz- und Sitzungseinladungs-E-Mail)
+
+**Startdatum für eine Instanz:** Als Administrator oder Autor können Sie jetzt ein Startdatum für eine Instanz angeben, wenn Sie eine Instanz erstellen oder bearbeiten.
+
+**E-Mail-Erinnerungen vor dem Startdatum:** Dies hängt mit dem neu eingeführten Feld **Startdatum** in einer Instanz zusammen. Als Administrator oder Autor können Sie jetzt zwei E-Mail-Erinnerungen zu verschiedenen Zeitpunkten vor dem Startdatum einer Instanz mit verschiedenen Arten von Wiederholungen festlegen.
+
+Weitere Informationen finden Sie unter [Instanz erstellen](/help/migrated/administrators/feature-summary/courses.md#createinstanceofacourse) für den Administrator und [Instanz erstellen](/help/migrated/authors/feature-summary/courses.md#createaninstance) für den Autor.
+
+**E-Mail für Sitzungseinladung:** Wenn ein Benutzer als Kursleiter für eine CR/VCR-Sitzung hinzugefügt wird, erhält der Kursleiter eine automatische Benachrichtigungs-E-Mail. Das Erscheinungsbild dieser E-Mail wurde ästhetisch verbessert. Weitere Informationen finden Sie unter [Kalendereinladungen](/help/migrated/instructors/feature-summary/learners.md#calendarinvites).
+
+## API-Änderungen
+
+### Verfügbarkeit in der getLO-API starten
+
+**GET /learningObjects-API-Erweiterung**
+
+Die GET/learningObjects-API enthält jetzt ein neues startDate-Attribut in der learningObjectInstance-Ressource, wenn die Instanzbeziehung einbezogen wird.
+
+**Endpunkt**
+
+GET /learningObjects/{id}?include=instances
+
+**Änderung**
+
+Ein neues Feld, startDate, wurde hinzugefügt unter:
+included[].attributes.startDate
+
+**Beschreibung**
+
+startDate stellt das geplante Startdatum und die geplante Startzeit einer Lernobjektinstanz dar.
+
+Weitere Informationen [finden Sie unter API-Änderungen in der Version vom Mai &#x200B;](/help/migrated/api-changes-alm-may.md).
+
+
++++
+
+
++++Update 106: Patch-Version von Adobe Learning Manager vom April 2026
 
 Freigabedatum: 30. April 2026
 
