@@ -4,10 +4,10 @@ title: Handbuch für Anwendungsentwickler
 description: Erfahren Sie, wie Sie Anwendungen mithilfe von RESTful-APIs integrieren und anpassen, wobei wichtige Themen wie OAuth 2.0-Authentifizierung, API-Nutzungsszenarien und Datenmodelle behandelt werden. Optimieren Sie Ihre Unternehmensanwendungen mit Funktionen wie Kurserstellung, Verfolgung des Teilnehmerfortschritts, Qualifikationszuordnung, Zertifizierung, Gamification und mehr. Dieses Handbuch enthält Schritt-für-Schritt-Anleitungen und Beispiele aus der Praxis, die Entwicklern dabei helfen, nahtlose und effiziente Workflows zu erstellen. Ideal für Entwickler, die die Funktionen von Adobe Learning Manager zur Erstellung von Applikationen nutzen möchten, die auf den Lernenden ausgerichtet sind.
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: fe3070cbbeb1eac84e13fbed0262797064480aea
+source-git-commit: f3df7e2defc479c270c16f91918903fb27560b19
 workflow-type: tm+mt
-source-wordcount: '4583'
-ht-degree: 6%
+source-wordcount: '4415'
+ht-degree: 7%
 
 ---
 
@@ -52,11 +52,11 @@ Integriere Adobe Learning Manager mit externen Programmen, um deine Vielseitigke
    * **[!UICONTROL URL]**: Die offizielle URL Ihres Unternehmens oder Ihrer Anwendung. Wird zur Identifizierung und Referenz verwendet.
    * **[!UICONTROL Domänen umleiten]**: Geben Sie die Domänen an (z. B. [http://learningmanager.adobe.com](http://learningmanager.adobe.com)), zu denen Adobe Learning Manager nach der Autorisierung umleiten kann.  Sie können mehrere gültige URLs angeben.
    * **[!UICONTROL Beschreibung]**: Kurze Beschreibung der Anwendung.
-   * **[!UICONTROL Geltungsbereiche]**: Wählen Sie eine der sechs verfügbaren Optionen aus, um den Geltungsbereich Ihrer Anwendung zu definieren. Basierend auf Ihrer hier genannten Auswahl sind die Learning Manager-API-Endpunkte für Ihre Anwendung zugänglich. Wenn Sie beispielsweise Lesezugriff für die Teilnehmerrolle gewählt haben, ist der Zugriff auf alle Lern-Manager-API-Endpunkte für Teilnehmer für Ihre Anwendung schreibgeschützt.
+   * **[!UICONTROL Bereiche]**: Wählen Sie eine der sechs verfügbaren Optionen aus, um den Geltungsbereich Ihrer Anwendung zu definieren. Basierend auf Ihrer hier genannten Auswahl sind die Learning Manager-API-Endpunkte für Ihre Anwendung zugänglich. Wenn Sie beispielsweise Lesezugriff für die Teilnehmerrolle gewählt haben, ist der Zugriff auf alle Lern-Manager-API-Endpunkte für Teilnehmer für Ihre Anwendung schreibgeschützt.
 
       * Lese-/Schreibzugriff auf Administratorrolle: Ermöglicht der Anwendung, auf Daten als Administrator zuzugreifen oder sie zu ändern.
       * Lese-/Schreibzugriff auf Teilnehmerrolle: Ermöglicht der Anwendung den Zugriff auf oder die Änderung von Daten für Teilnehmer.
-      * xAPI-Lese-/Schreibzugriff: Ermöglicht es der Anwendung, auf Experience API(xAPI)-Anweisungen zuzugreifen und diese zu senden.
+      * xAPI-Lese-/Schreibzugriff: Ermöglicht es der Anwendung, auf Experience API (xAPI)-Anweisungen zuzugreifen und diese zu senden.
 
    * **[!UICONTROL Nur für dieses Konto?]**
 
@@ -69,7 +69,7 @@ Integriere Adobe Learning Manager mit externen Programmen, um deine Vielseitigke
 
    * Nachdem Sie die Anwendung registriert haben, steht sie in der Liste der im Konto erstellten Anwendungen zur Verfügung. Wählen Sie die Anwendung aus. Zusätzlich zu den zuvor eingegebenen Feldern sehen Sie Folgendes:
    * Anwendungs-ID: Dies ist die Client-ID. Diese ID teilt Adobe Learning Manager die Anwendung mit, die den Zugriff anfordert. Sie ist in API-Anfragen zur Identifizierung der App enthalten.
-   * Anwendungsgeheimnis: Dieses Kennwort wird verwendet, um Ihre App zu authentifizieren und ihre Identität während der Schritte zum Tokenaustausch zu überprüfen (z. B. wenn ein Aktualisierungstoken oder ein Zugriffstoken angefordert wird).
+   * Anwendungsgeheimnis: Dies wird verwendet, um Ihre App zu authentifizieren und ihre Identität während der Schritte zum Tokenaustausch zu überprüfen (z. B. wenn ein Aktualisierungstoken oder ein Zugriffstoken angefordert wird).
 
    ![](assets/application-id-and-secret.png)
 
@@ -95,7 +95,7 @@ Ein Parametercode wird zusammen mit dem Umleitungs-URI angehängt.
 
 Nachdem Sie den Code abgerufen haben, verwenden Sie ein beliebiges API-Tool und fügen Sie die folgende POST an:
 
-```https://learningmanager.adobe.com/oauth/token ```
+`https://learningmanager.adobe.com/oauth/token`
 
 **Anforderungstext (x-www-form-urlencoded)**:
 
@@ -217,8 +217,8 @@ Mit den Admin-APIs können Entwickler:
 
 * **Benutzer und Gruppen verwalten**: Erstellen, aktualisieren und löschen Sie Benutzer oder weisen Sie sie Gruppen zu.
 * **Teilnehmer registrieren**: Automatisieren Sie die Registrierung für Kurse, Lernpfade oder Zertifizierungen.
-* **Fortschritt der Teilnehmer verfolgen**: Abrufen des Kursfortschritts/Modulfortschritts, der Quizpunktzahlen und des Abschlussstatus
-* **Berichte generieren**: Greifen Sie auf Daten zu Teilnehmeraktivität, Interaktion und Leistung zu.
+* **Fortschritt der Teilnehmer verfolgen**: Rufen Sie den Kurs-/Modulfortschritt, die Quizpunktzahlen und den Abschlussstatus ab.
+* **Berichte generieren**: Greifen Sie auf Daten zur Aktivität, Interaktion und Leistung der Teilnehmer zu.
 * **Inhalt verwalten**: Erstellen und Organisieren von Kursen und Lernobjekten.
 
 Weitere Informationen finden Sie in [Adobe Learning Manager API Reference](https://learningmanager.adobe.com/docs/primeapi/v2/).
@@ -268,8 +268,8 @@ Kurz gesagt, der Parameter **include** wird in API-Aufrufen verwendet, um verwan
 
 Wichtigste Vorteile:
 
-* Reduziert mehrere API-Aufrufe: Es ist nicht mehr erforderlich, jede zugehörige Ressource manuell anzufordern.
-* Verbessert die Effizienz: Schnellere Entwicklung, geringere Serverlast und schnelleres Rendering von Daten.
+* Reduziert mehrere API-Aufrufe: Es ist nicht mehr erforderlich, jede verknüpfte Ressource manuell anzufordern.
+* Verbessert die Effizienz: Schnellere Entwicklung, geringere Server-Last und schnelleres Rendering von Daten.
 * Gewährleistet Datenkonsistenz: Ruft alle verknüpften Daten in einem konsistenten Snapshot ab.
 
 **Verwenden des Include-Parameters**
@@ -440,7 +440,7 @@ Adobe Learning Manager APIs unterstützen Paginierung über Parameter wie:
 
 * page[limit]: Anzahl der Datensätze pro Seite.
 * page[offset]: Anzahl der zu überspringenden Datensätze.
-* page[cursor]: Zeiger auf den nächsten Ergebnissatz. Anstelle der Verwendung von versatzbasiertem Seitenumbruch (bei dem eine Anzahl von Datensätzen übersprungen wird), verwendet der Cursor-basierte Seitenumbruch eine eindeutige Marke, die von der API zurückgegeben wird, um die nächste Ergebnisseite abzurufen.
+* page[cursor]: Mauszeiger auf den nächsten Ergebnissatz. Anstelle der Verwendung von versatzbasiertem Seitenumbruch (bei dem eine Anzahl von Datensätzen übersprungen wird), verwendet der Cursor-basierte Seitenumbruch eine eindeutige Marke, die von der API zurückgegeben wird, um die nächste Ergebnisseite abzurufen.
 
 So verwenden Sie die Paginierung in APIs:
 
@@ -657,7 +657,7 @@ Dies führt zu folgender Antwort:
 Es gibt drei obligatorische Attribute:
 
 * E-Mail: E-Mail-ID des Benutzers. Dieser Wert sollte für jeden Benutzer eindeutig sein.
-* name: Der Name des Benutzers.
+* Name: Der Name des Benutzers.
 * userType: Derzeit können nur interne Benutzer mit diesem Endpunkt hinzugefügt werden. Der userType muss &quot;INTERNAL&quot; sein.
 
 Sie erhalten das folgende JSON-Objekt:
@@ -819,10 +819,10 @@ Ein externes Profil bezieht sich auf ein Benutzerprofil, das für externe Teilne
 
 Die Nutzlast hat die folgenden Attribute:
 
-* name: Der Name des externen Benutzers.
-* expiry: Das Ablaufdatum (im ISO-8601-Format) der Registrierung des Benutzers in Adobe Learning Manager.
+* Name: Der Name des externen Benutzers.
+* Ablauf: Das Ablaufdatum (im ISO-8601-Format) der Benutzerregistrierung in Adobe Learning Manager.
 * managerEmail: Die E-Mail-Adresse des Managers des Benutzers in der Partnerorganisation.
-* seatLimit: Die Anzahl der zulässigen Lizenzen für die Partnerorganisation.
+* seatLimit: Die Anzahl der für die Partnerorganisation zulässigen Lizenzen.
 
 Nach dem Anruf erhalten Sie die folgende Antwort:
 
@@ -1277,8 +1277,8 @@ https://learningmanager.adobe.com/oauth/o/learnerToken?learner_email=foo@acme.co
 
 **Abfrageparameter:**
 
-* learner_email: (string) Die E-Mail-Adresse des Teilnehmers, dessen Identität Sie annehmen möchten.
-* force: (boolean) Gibt an, ob ein neues Token zwangsweise generiert werden soll, falls vorhanden.
+* Teilnehmer-E-Mail: (Zeichenfolge) Die E-Mail-Adresse des Teilnehmers, für den er sich als Benutzer ausgeben soll.
+* Kraft: (boolean) Gibt an, ob ein neues Token zwangsweise generiert werden soll, falls vorhanden.
 
 **Anforderungstext:**
 
@@ -1326,7 +1326,7 @@ Bei der Arbeit mit Adobe Learning Manager (Adobe Learning Manager)-APIs können 
 | 401 | Unberechtigtes ungültiges oder fehlendes Token | Stellen Sie sicher, dass Ihr Zugriffstoken korrekt ist und in der Autorisierungskopfzeile enthalten ist. Überprüfen Sie, ob das Token aktiv ist. Verwenden Sie bei der Anforderung des Tokens auch die richtige Client-ID und den richtigen Client-Schlüssel. |
 | 403 | Verboten. Kein Zugriff | Sie haben keine Berechtigung, auf die Ressource zuzugreifen. Stellen Sie sicher, dass Ihr Token die richtigen Geltungsbereiche hat (Admin:read, Teilnehmer:write usw.). |
 | 404 | Ressource nicht gefunden | Die Endpunkt- oder Ressourcen-ID ist falsch oder nicht vorhanden. Stellen Sie sicher, dass die Ressource in der Liste der Parameter vorhanden ist. |
-| 406 | Nicht akzeptabel - Falsche Kopfzeile &quot;Akzeptieren&quot; | Fügen Sie dieser Kopfzeile Ihrer Anforderung hinzu: Akzeptieren Sie: application/vnd.api+json <br>Für Adobe Learning Manager-APIs ist dieser Inhaltstyp strikt erforderlich.</br> |
+| 406 | Nicht akzeptabel - Falsche Kopfzeile &quot;Akzeptieren&quot; | Fügen Sie dieser Kopfzeile Ihre Anforderung hinzu: Akzeptieren: application/vnd.api+json <br>Adobe Learning Manager-APIs erfordern diesen Inhaltstyp strikt.</br> |
 | 500 | Interner Serverfehler | Dies ist ein serverseitiges Problem. Versuchen Sie es später erneut oder melden Sie das Problem dem Adobe Learning Manager-Support-Team, wenn es weiterhin auftritt. |
 
 

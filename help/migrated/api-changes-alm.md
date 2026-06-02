@@ -2,13 +2,13 @@
 description: API-Änderungen in ALM
 jcr-language: en_us
 title: API-Änderungen in der April-Version
-source-git-commit: 3b35c16d74c83329cee24ee9ad007a53ccbd8cf3
+exl-id: 8c7cd33a-60c4-4bc2-8859-167536a90014
+source-git-commit: f3df7e2defc479c270c16f91918903fb27560b19
 workflow-type: tm+mt
 source-wordcount: '4093'
 ht-degree: 0%
 
 ---
-
 
 # API-Änderungen in der Version April 2026
 
@@ -102,7 +102,7 @@ Die Struktur der mehrsprachigen Arbeitshilfe ist sowohl in Teilnehmer- als auch 
 
 Um Arbeitsabläufe zu unterstützen, in denen Reviewer strukturiertes Feedback zu Aktivitäten auf der Grundlage von Checklisten freigeben können, werden in dieser Version *Checklistenkommentare* und Steuerelemente zur Reviewersichtbarkeit über die Lernobjektressourcen-API angezeigt.
 
-Checklistenbezogene Metadaten werden für learningObjectResource-Entitäten (JApiLOResource, &quot;type&quot;: &quot;learningObjectResource&quot;) verfügbar gemacht, die Checklistenressourcen innerhalb eines Kurses oder eines anderen Lernobjekts darstellen.
+Checklistenbezogene Metadaten werden für learningObjectResource-Entitäten (JApiLOResource, &quot;type&quot;: &quot;learningObjectResource&quot;), die Checklistenressourcen innerhalb eines Kurses oder anderen Lernobjekts darstellen.
 
 Die Informationen sind abrufbar unter:
 
@@ -124,15 +124,15 @@ Bei Ressourcen für Checklisten können die folgenden Attribute auf learningObje
    - In der Checklistenkonfiguration ist enable_reviewer_comments aktiviert.
 - attributes.showChecklistComment\
   Ein boolesches Flag, das angibt, ob Reviewerbemerkungen dem Teilnehmer angezeigt werden sollen:\
-  &quot;showChecklistComment&quot;: true\
+  &quot;showChecklistComment&quot;: korrekt\
   Dieses Attribut ist nur vorhanden _, wenn_ enable_reviewer_comments in der Checklistenkonfiguration aktiviert ist.\
   Kunden sollten dieses Flag verwenden, um zu entscheiden, ob sie ChecklisteComment in den Teilnehmererlebnissen rendern.
 - attributes.showReviewerNameToLearner\
   Ein boolesches Flag, das steuert, ob der Teilnehmer die Identität des Überprüfers sehen soll:\
-  &quot;showReviewerNameToLearner&quot;: true\
+  &quot;showReviewerNameToLearner&quot;: korrekt\
   Wenn dieser Wert auf &quot;true&quot; gesetzt ist, können Clients mithilfe der Beziehung checklistReviewby (siehe unten) den Namen des Reviewers auflösen und anzeigen (z. B. über eine API für die Benutzersuche).
 
-Andere checklistenspezifische Kontexte wie checklistEvaluationStatus, isChecklistMandatory, resourceSubType: &quot;CHECKLIST&quot; und submissionDate sind ebenfalls für dieselbe learningObjectResource verfügbar, um umfangreichere Checklisten-UIs und Berichte zu unterstützen.
+Andere Checklistenspezifische Kontexte wie checklistEvaluationStatus, isChecklistMandatory, resourceSubType: &quot;CHECKLIST&quot; und &quot;submitDate&quot; sind ebenfalls auf derselben learningObjectResource verfügbar, um umfangreichere Checklisten-UIs und Berichte zu unterstützen.
 
 ### Identitätsbeziehung des Überprüfers
 
@@ -157,7 +157,7 @@ Diese Beziehung ist nur mit _aufgefüllt, wenn_:
 Client-Anwendungen sollten:
 
 1. Überprüfen Sie &quot;attributes.showReviewerNameToLearner&quot;.
-2. Wenn true und relations.checklistReviewby.data vorhanden ist, rufen Sie die entsprechende Benutzer-API auf, um &quot;id&quot;: &quot;user_id&quot; in einen Anzeigenamen aufzulösen.
+2. Wenn true und relations.checklistReviewby.data vorhanden ist, rufen Sie die entsprechende Benutzer-API auf, um &quot;id&quot; aufzulösen: &quot;user_id&quot; in einen Anzeigenamen.
 3. Geben Sie den Namen des Überprüfers neben dem Kommentar oder dem Status der Checkliste ein.
 
 ### Zugriff auf Ressourcen und Kommentare für Checkliste
@@ -214,7 +214,7 @@ Daten zur Arbeitshilfe werden angezeigt über:
 GET /primeapi/v2/learningObjects/jobAid:{jobAidId}?include=instances.loResources.resources
 ```
 
-Wenn eine Arbeitshilfe mehrere Sprachvarianten enthält, enthält das enthaltene Array mehrere &quot;type&quot;: &quot;resource&quot;-Einträge - einen für jedes Gebietsschema (z. B. en-US, fr-FR, es-ES), die alle von einem einzigen learningObjectResource verknüpft sind.
+Wenn eine Arbeitshilfe über mehrere Sprachvarianten verfügt, enthält das enthaltene Array mehrere &quot;Typ&quot;: &quot;resource&quot;-Einträge - einer für jedes Gebietsschema (z. B. en-US, fr-FR, es-ES), alle verknüpft von einem einzigen learningObjectResource.
 
 ### Mehrsprachige Struktur der Arbeitshilfe
 
@@ -235,7 +235,7 @@ Bei einer mehrsprachigen Arbeitshilfe ist ein typisches Muster:
 - learningObjectResource mit localizedMetadata für en-US und fr-FR
 - relations.resources.data verweist auf:
    - Ressource mit Gebietsschema: &quot;en-US&quot;
-   - Ressource mit Gebietsschema: &quot;fr-FR&quot;
+   - Ressource mit Gebietsschema: ‚fr-FR‘
 
 Clients können die entsprechende Ressource auswählen, indem sie das Gebietsschema des Teilnehmers mit dem Feld resource.attributes.locale abgleichen.
 
@@ -288,7 +288,7 @@ Diese Struktur ermöglicht Clients Folgendes:
 
 ### Abwärtskompatibilität: 
 
-```/resources/{resourceId}```
+`/resources/{resourceId}`
 
 Der Endpunkt der alten Ressource bleibt verfügbar:
 
@@ -314,7 +314,7 @@ Integrationen, die derzeit die alten Ressourcen-IDs speichern oder auf sie verwe
    - Verwenden Sie resource.attributes.locale , um die richtige URL (location/downloadUrl) für das Gebietsschema des Teilnehmers auszuwählen.
    - Implementieren Sie das Fallback-Verhalten (z. B. Fallback auf en-US), wenn das genaue Gebietsschema eines Teilnehmers nicht verfügbar ist.
 - _APIs und Speicher_
-   - Speichern Sie bei neuen Integrationen die _Ressourcenkennung im neuen Format_ (```jobAid:<jobAidId>_<version>_<localeCode>```), um einen eindeutigen gebietsschemaspezifischen Abruf zu ermöglichen.
+   - Speichern Sie bei neuen Integrationen die _Ressourcenkennung im neuen Format_ (`jobAid:<jobAidId>_<version>_<localeCode>`), um einen eindeutigen gebietsschemaspezifischen Abruf zu ermöglichen.
    - Ältere IDs können weiterhin mit /resources/{resourceId} verwendet werden, sie unterscheiden jedoch nicht zwischen Gebietsschemas.
 
 ## Zeitschlitzbeschränkungen für das Starten von Modulen
@@ -323,13 +323,13 @@ Einige Lernerlebnisse dürfen nur innerhalb eines festgelegten Zeitfensters verf
 
 Zeitfenster-Metadaten sind über den Endpunkt verfügbar:
 
-```GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources```
+`GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources`
 
 Auf der Lernobjektressourcenebene kann jetzt ein timeSlot-Objekt in den Attributen vorhanden sein, wobei die Werte startTime und endTime in UTC angegeben werden. Hier wird das Fenster angegeben, in dem die Ressource gestartet werden kann.
 
 Vor dem Starten eines Moduls können Integrationen einen neuen Validierungsendpunkt aufrufen:
 
-```GET /primeapi/v2/learningObjects/{loId}/instances/{loInstanceId}/loResources/{loResourceId}/canStart```
+`GET /primeapi/v2/learningObjects/{loId}/instances/{loInstanceId}/loResources/{loResourceId}/canStart`
 
 Dieser Endpunkt, der für Szenarien mit Lesevorgängen durch Teilnehmer vorgesehen ist, gibt unter Berücksichtigung des konfigurierten Zeitfensters, des Bereitstellungstyps und anderer Back-End-Regeln zurück, ob der Teilnehmer die Ressource derzeit starten darf.
 
@@ -341,7 +341,7 @@ Manche Inhaltspakete nutzen nicht nur Adobe Learning Manager, sondern implementi
 
 Über:
 
-```GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources```
+`GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources`
 
 Lernobjektressourcen können jetzt ein boolesches Attribut hasContentDrivenAttemptTracking verfügbar machen. Wenn dies der Fall ist, verwaltet das Quiz oder Modul Versuche intern (z. B. über SCORM oder xAPI-Logik), und die Standardversuchszähler der Plattform geben möglicherweise die Erfahrung des Teilnehmers nicht vollständig wieder.
 
@@ -353,11 +353,11 @@ Diese Version enthält eine wichtige __Verhaltensänderung__ im Format der Arbei
 
 Früher verwendeten Arbeitshilferessourcen-IDs ein Format wie:
 
-```jobAid:<jobAidId>_-1_-1_2_resource```
+`jobAid:<jobAidId>_-1_-1_2_resource`
 
 In der Version vom April 2026 wird dies durch ein vereinfachtes und expliziteres Format ersetzt:
 
-```jobAid:<jobAidId>_<version>_<localeCode>```
+`jobAid:<jobAidId>_<version>_<localeCode>`
 
 Beispiel:
 
@@ -365,9 +365,9 @@ jobAid:131032_2_fr_FR
 
 Die Komponenten sind:
 
-- ```<jobAidId>```: die numerische Arbeitshilfen-ID (z. B. 131032),
-- ```<version>```: Versionsnummer der Arbeitshilfe (z. B. 2),
-- ```<localeCode>```: der Gebietsschemacode (z. B. en_US, fr_FR, es_ES).
+- `<jobAidId>` die numerische Arbeitshilfen-ID (z. B. 131032)
+- `<version>` Versionsnummer der Arbeitshilfe (z. B. 2)
+- `<localeCode>` den Gebietsschemacode (z. B. en_US, fr_FR, es_ES).
 
 Jede Integration, die Ressourcen indiziert oder in Arbeitshilferessourcen-IDs verbleibt, muss ihre Analyse- und Speicherlogik aktualisieren, um das neue Format zu erkennen. Da sich die Bezeichner selbst ändern, wird dringend empfohlen, alle lokalen Indizes, die von Arbeitshilferessourcen-IDs nach dem Upgrade auf die Version vom April 2026 neu zu erstellen.
 
@@ -395,11 +395,11 @@ Die Bannerspalte:
 
 ### Vorbereiten von Bannerbildern für die Migration
 
-1. Bannerbilder hochladen: Platzieren Sie Ihre Bannerbilddateien im selben Box- oder FTP-Speicherort, den Sie auch für andere Migrationsassets verwenden, und folgen Sie dabei Ihrer bestehenden Verzeichnisstruktur.
+1. Bannerbilder hochladen: Platzieren Sie Ihre Bannerbilddateien im selben Box- oder FTP-Speicherort, den Sie auch für andere Migrationsassets verwenden, und folgen Sie der bestehenden Verzeichnisstruktur.
 2. Dateiformat überprüfen:
 Verwenden Sie eines der unterstützten Bildformate (z. B. png, jpg, jpeg, gif), wie in den Systemanforderungen beschrieben:
    1. [*Systemanforderungen*](/help/migrated/system-requirements.md)
-3. Aktualisieren Sie &quot;course.csv&quot;: Verweisen Sie in der neuen Bannerspalte auf den relativen Pfad oder Bezeichner des Bannerbilds. Ein konzeptuelles Beispiel:
+3. Aktualisieren Sie course.csv: Verweisen Sie in der neuen Bannerspalte auf den relativen Pfad oder die ID des Bannerbilds. Ein konzeptuelles Beispiel:
 
 ```
 id,courseName,courseCreationDate,state,author,thumbnailUrl,bannerUrl  
@@ -458,7 +458,7 @@ Sie sollten die alte Spalte mit der Reihenfolge als entfernt oder ignoriert beha
 - Die erforderliche Kernzuordnung bleibt erhalten:
    - Lernprogramm-ID ↔ Kurs-ID (sowie alle anderen noch dokumentierten Spalten, z. B. id, learningProgramId, courseId und dates).
 
-Lesen Sie immer die neuesten [_CSV-Spezifikationen_](https://experienceleague.adobe.com/de/docs/learning-manager/using/integration/migration-manual) aus Ihrem Learning Manager-Konto (über csv_specifications.zip), um den aktuellen Headersatz und die aktuellen Anforderungen zu bestätigen.
+Lesen Sie immer die neuesten [_CSV-Spezifikationen_](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual) aus Ihrem Learning Manager-Konto (über csv_specifications.zip), um den aktuellen Headersatz und die aktuellen Anforderungen zu bestätigen.
 
 ## timeZoneCode für Kursinstanzen
 
@@ -559,9 +559,9 @@ Bei kleinen, interaktiven Administratoraktionen können Sie die synchronen `/use
 Diese APIs sind Teil der standardmäßigen __v2 Admin-API__-Oberfläche.
 
 - [Basis-URL (prod)](https://learningmanager.adobe.com/docs/primeapi/v2/)
-- Auth: OAuth 2.0-Zugriffstoken mit `admin:write`-Bereich
+- Authentifizierung: OAuth 2.0-Zugriffstoken mit `admin:write`-Bereich
 - Erforderliche Kopfzeilen:
-   - Autorisierung: Bearer &lt;Zugriffstoken>
+   - Genehmigung: Träger &lt;Zugriffstoken>
    - Content-Type: application/json
    - Akzeptieren: application/json
 
@@ -620,7 +620,7 @@ Der Dienst gibt dieses Objekt unverändert in der Webhook-Antwort zurück, sodas
 
 Einschränkungen:
 
-- Optional; kann vollständig weggelassen werden.
+- Optional. ganz entfallen.
 - Die kombinierte Länge aller Tasten und Werte darf 1000 Zeichen nicht überschreiten.
 
 ### Antwortformat
@@ -657,7 +657,7 @@ _Wie kann ich den Abschluss eines Teilnehmers für einen Kurs oder ein Lernprogr
 
 Verwenden Sie den neuen Endpunkt:
 
-```POST /primeapi/v2/learningObjects/{loId}/instances/{loInstanceId}/refreshCompletion```
+`POST /primeapi/v2/learningObjects/{loId}/instances/{loInstanceId}/refreshCompletion`
 Dadurch wird die Fertigstellung für die Zielinstanz zurückgesetzt, wenn Berechtigungen und Status dies zulassen.
 
 _Wie erkenne ich, ob ein Teilnehmer etwas über ein alternatives oder gleichwertiges Lernobjekt abgeschlossen hat?_
@@ -668,7 +668,7 @@ _Wie finde ich alle Alternativen, die ein bestimmtes Lernobjekt erfüllen könne
 
 Verwenden Sie den folgenden Endpunkt:
 
-```GET /primeapi/v2/learningObjects/{loId}/relatedLOs?type=sourceAlternateLOs&limit={n}```
+`GET /primeapi/v2/learningObjects/{loId}/relatedLOs?type=sourceAlternateLOs&limit={n}`
 
 und verwenden Sie das Datenarray (für die Stellvertreter) und meta.count (für die Gesamtzahl der Stellvertreter).
 
@@ -676,10 +676,10 @@ _Woher weiß ich, ob ein Teilnehmer derzeit ein Modul starten darf?_
 
 Rufen Sie zunächst den timeSlot der Ressource aus:
 
-```GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources```
+`GET /primeapi/v2/learningObjects/{loId}?include=instances.loResources`
 und verwenden Sie dann:
 
-```GET /primeapi/v2/learningObjects/{loId}/instances/{loInstanceId}/loResources/{loResourceId}/canStart```
+`GET /primeapi/v2/learningObjects/{loId}/instances/{loInstanceId}/loResources/{loResourceId}/canStart`
 
 _Was bedeutet &quot;hasContentDrivenAttemptTracking&quot; für eine Ressource?_
 
@@ -689,7 +689,7 @@ _Wie erhalte ich Menüs, die für nicht angemeldete Benutzer geeignet sind (öff
 
 Verwendung:
 
-```GET /primeapi/v2/templates/menus?include=pages,subMenus.pages&isNonLoggedIn=true```
+`GET /primeapi/v2/templates/menus?include=pages,subMenus.pages&isNonLoggedIn=true`
 
 Dies gibt für anonyme Benutzer gefilterte Menü- und Seitenstrukturen zurück, die für Experience Builder oder andere Headless-Sites geeignet sind.
 
@@ -701,10 +701,10 @@ _Was hat sich im Format der Arbeitshilferessourcen-ID geändert, und wie sollte 
 
 Das ID-Format wurde von Werten wie:
 
-```jobAid:<jobAidId>_-1_-1_2_resource```
+`jobAid:<jobAidId>_-1_-1_2_resource`
 
 an:
 
-```jobAid:<jobAidId>_<version>_<localeCode>```
+`jobAid:<jobAidId>_<version>_<localeCode>`
 
 Beispiel: jobAid:131032_2_fr_FR. Jedes System, auf dem Arbeitshilferessourcen-IDs gespeichert oder analysiert werden, muss aktualisiert werden, und Sie sollten nach dem Upgrade auf die Version vom April 2026 die Neuerstellung lokaler Indizes planen, die von diesen IDs codiert werden.

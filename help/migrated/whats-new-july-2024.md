@@ -3,9 +3,9 @@ description: Erfahren Sie mehr über die neuen Funktionen und Verbesserungen in 
 jcr-language: en_us
 title: Zusammenfassung der neuen Funktionen
 exl-id: e63c3d9a-4b91-4acb-950f-8b1cdb0caa1a
-source-git-commit: 2dc01be9cd7200814a1bbd7a30610c162e7d93bf
+source-git-commit: f3df7e2defc479c270c16f91918903fb27560b19
 workflow-type: tm+mt
-source-wordcount: '2392'
+source-wordcount: '2336'
 ht-degree: 2%
 
 ---
@@ -68,7 +68,7 @@ Die aktualisierten visuellen Elemente entsprechen den Trends des modernen Design
 
 **Verbessertes Benutzererlebnis**
 
-Die Teilnehmer sehen jetzt eine ähnliche Kartenansicht auf den folgenden Seiten: Startseite , Katalog, Eigenes Lernen und Kursübersicht , die ein einheitliches Erlebnis bieten.
+Teilnehmer können jetzt eine ähnliche Kartenansicht auf den folgenden Seiten anzeigen: Startseite , Katalog, Eigenes Lernen und Kursübersicht mit einem einheitlichen Erlebnis.
 
 Weitere Informationen finden Sie auf der [Teilnehmer-Startseite](/help/migrated/learners/feature-summary/learner-home-page.md).
 
@@ -108,7 +108,7 @@ Diese Funktion ist nur in den Teilnehmer-Apps verfügbar (vorhandene Benutzerobe
 
 Adobe Learning Manager unterstützt jetzt HTML5-unterstützte Inhalte in Kursen zum Selbststudium. Autoren können HTML5-Inhalte als ZIP-Datei zu Inhalten zum Selbststudium hinzufügen. Teilnehmer können den HTML5-Inhalt im Fluidic Player anzeigen. Mit der neuen Funktion können Teilnehmer jetzt den Kurs direkt im Fluidic Player für Kurse zum Selbststudium als abgeschlossen markieren. Weitere Informationen finden Sie unter [HTML5-Dateityp in der Inhaltsbibliothek hinzufügen](/help/migrated/authors/feature-summary/content-library.md#add-html5-file-type-in-the-content-library).
 
-Mit der neuen Verbesserung wird der Kurs mit dem externen Link automatisch als abgeschlossen markiert, wenn die URL aufgerufen wird, solange der Autor die Abschlusskriterien auf die neue Option **[!UICONTROL Beim Starten von Inhalten]** festgelegt hat. Die neue Option **[!UICONTROL Abschlusskriterien]** wurde auf der Aktivitätsmodulseite hinzugefügt, auf der der Autor die Abschlusskriterien für die externen Links festlegen kann. Weitere Informationen finden Sie unter [HTML-Link hinzufügen im Aktivitätsmodul &#x200B;](/help/migrated/authors/feature-summary/courses.md#add-html-link-in-the-activity-module).
+Mit der neuen Verbesserung wird der Kurs mit dem externen Link automatisch als abgeschlossen markiert, wenn die URL aufgerufen wird, solange der Autor die Abschlusskriterien auf die neue Option **[!UICONTROL Beim Starten von Inhalten]** festgelegt hat. Die neue Option **[!UICONTROL Abschlusskriterien]** wurde auf der Aktivitätsmodulseite hinzugefügt, auf der der Autor die Abschlusskriterien für die externen Links festlegen kann. Weitere Informationen finden Sie unter [HTML-Link hinzufügen im Aktivitätsmodul ](/help/migrated/authors/feature-summary/courses.md#add-html-link-in-the-activity-module).
 
 ![](assets/completion-criteria-activity-module.png)
 _Option für Abschlusskriterien - Aktivitätsmodul_
@@ -123,7 +123,7 @@ Teilnehmer erhalten Push-Benachrichtigungen, wenn sie einen Termin für einen Ku
 
 Die Such-API umfasst die folgenden Änderungen:
 
-Teilnehmer können mithilfe der ```GET /search```-API in Katalogfiltern nach Tags suchen. Die Teilnehmer können nach Tags suchen, indem sie ```tag``` als Wert für den ```filter.loTypes```-Parameter auswählen.
+Teilnehmer können mithilfe der `GET /search`-API in Katalogfiltern nach Tags suchen. Die Teilnehmer können nach Tags suchen, indem sie `tag` als Wert für den `filter.loTypes`-Parameter auswählen.
 
 **Beispiel-Curl**
 
@@ -131,13 +131,13 @@ Teilnehmer können mithilfe der ```GET /search```-API in Katalogfiltern nach Tag
 curl -X GET --header 'Accept: application/vnd.api+json' --header 'Authorization: oauth <oauth_token>' 'https://example.com/primeapi/v2/search?page[limit]=10&query=Business&autoCompleteMode=true&filter.loTypes=tag&sort=relevance&filter.ignoreEnhancedLP=true&matchType=phrase&persistSearchHistory=true&stemmed=false&highlightResults=true'
 ```
 
-Die neuen Filter, der verfügbare Platz, die verfügbare Warteliste und der Zeitbereichsfilter wurden den folgenden APIs hinzugefügt: ```GET /search``` und `GET /learningObjects`.
+Die neuen Filter, der verfügbare Platz, die verfügbare Warteliste und der Zeitbereichsfilter wurden den folgenden APIs hinzugefügt: `GET /search` und `GET /learningObjects`.
 
-Die neuen Filter &quot;`filter.session.includeEnrollmentDeadline`&quot; wurden der folgenden API &quot;```GET /search```&quot; hinzugefügt.
+Die neuen Filter &quot;`filter.session.includeEnrollmentDeadline`&quot; wurden der folgenden API &quot;`GET /search`&quot; hinzugefügt.
 
 ### Konto-API
 
-Die neue Spalte &quot;`custom_injections`&quot;, &quot;`showComplianceLabel`&quot; und &quot;`complianceLabelDefaultID`&quot; wurde der API &quot;```GET /account```&quot; hinzugefügt, um Kontodaten des Benutzerendpunkts abzurufen.
+Die neue Spalte &quot;`custom_injections`&quot;, &quot;`showComplianceLabel`&quot; und &quot;`complianceLabelDefaultID`&quot; wurde der API &quot;`GET /account`&quot; hinzugefügt, um Kontodaten des Benutzerendpunkts abzurufen.
 
 ### Lernobjekt-API
 
@@ -155,7 +155,7 @@ curl --location 'https://example.com/primeapi/v2/learningObjects/course%3A979004
 --header 'Authorization: oauth <oauth_token>'
 ```
 
-Die neue Antwort &quot;`whoShouldTake`&quot;, die Details darüber enthält, wer diesen Kurs absolvieren soll, wurde den folgenden APIs hinzugefügt: `POST /learningObjects/query`, `GET /learningObjects/{id}` und `GET /learningObjects`.
+Die neue Antwort &quot;`whoShouldTake`&quot;, die Details darüber enthält, wer diesen Kurs absolvieren soll, wurde den folgenden APIs hinzugefügt: `POST /learningObjects/query`, `GET /learningObjects/{id}` und `GET /learningObjects`
 
 **Beispiel-Curl**
 
@@ -201,7 +201,7 @@ In dieser Version wurde der Lernobjektinstanz-API &quot;`GET /learningObjects/{l
 curl --location 'http://example.com/acapapi/primeapi/v2/learningObjects/learningProgram:12756/instances/learningProgram:12756_15644' 
 ```
 
-Das neue `gamificationSettings`-Attribut für die obige API, um die Details der Gamification-Einstellungen abzurufen. Beispiel: `GET /learningObjects/{loId}/instances/{loInstanceId}/gamificationSettings`.
+Das neue `gamificationSettings`-Attribut für die obige API, um die Details der Gamification-Einstellungen abzurufen. Beispiel: `GET /learningObjects/{loId}/instances/{loInstanceId}/gamificationSettings`
 
 **Beispiel-Curl**
 
@@ -209,7 +209,7 @@ Das neue `gamificationSettings`-Attribut für die obige API, um die Details der 
 curl --location 'http://example.com/acapapi/primeapi/v2/learningObjects/learningProgram:103852/instances/learningProgram:103852_103526/gamificationSettings'
 ```
 
-Das neue `leaderboard`-Attribut für die obige API, um die Details der Gamification-Einstellungen abzurufen. Beispiel: `GET /learningObjects/{loId}/instances/{loInstanceId}/leaderboard`.
+Das neue `leaderboard`-Attribut für die obige API, um die Details der Gamification-Einstellungen abzurufen. Beispiel: `GET /learningObjects/{loId}/instances/{loInstanceId}/leaderboard`
 
 **Beispiel-Curl**
 
