@@ -3,9 +3,9 @@ description: Referenzhandbuch für Integrationsadministratoren zum Migrieren ein
 jcr-language: en_us
 title: Migrationshandbuch
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: 0ae0dee3a43108b707e13778edbc7367c67d63e3
+source-git-commit: f3df7e2defc479c270c16f91918903fb27560b19
 workflow-type: tm+mt
-source-wordcount: '5322'
+source-wordcount: '5320'
 ht-degree: 61%
 
 ---
@@ -133,7 +133,7 @@ Im Folgenden finden Sie die CSV-Standardspezifikationen, die zur Verknüpfung mi
    <th>
     <p><b>Beschreibung des Inhalts</b></p></th>
    <th>
-    <p>Anmerkungen</p></th>
+    <p>Hinweise</p></th>
   </tr>
   <tr>
    <td>
@@ -419,7 +419,7 @@ In früheren Versionen der Migrationsspezifikationen enthielt die Datei learning
 
 Adobe Learning Manager verwendet diese Spalte nicht mehr. Die Kursreihenfolge in einem Lernprogramm kann nicht über Migrations-CSVs gesteuert werden, und das System ignoriert alle in der Spalte &quot;Reihenfolge&quot; angegebenen Werte, selbst wenn Sie **orderEnforce** auf &quot;true&quot; setzen.
 
-Um Verwechslungen zu vermeiden, wurde die Bestellspalte aus den offiziellen CSV-Spezifikationen entfernt. Wenn Sie über vorhandene Skripte oder Tools verfügen, die diese Spalte noch generieren, können Sie sie sicher ablegen. Dies hat keine Auswirkungen darauf, wie Lernprogramme erstellt oder angezeigt werden.
+Um Verwechslungen zu vermeiden, wurde die Bestellspalte aus den offiziellen CSV-Spezifikationen entfernt. Wenn Sie bereits Skripts oder Tools haben, die diese Spalte noch generieren, können Sie sie sicher ablegen. Es hat keine Auswirkungen darauf, wie Lernprogramme erstellt oder angezeigt werden.
 
 ## Migrationsverfahren {#migrationprocedure}
 
@@ -591,7 +591,7 @@ LOs höherer Ordnung können Folgendes umfassen:
 
 **Technische Auswirkungen:**
 
-* Die Aufnahme von equivalence_user_complete.csv ist kein &quot;unbeaufsichtigter&quot; Vorgang: Sie initiiert dieselbe Reberechnungs-/Roll-up-Logik, die durch normale Laufzeitabschlüsse ausgelöst würde.
+* Die Aufnahme von equivalence_user_completion.csv ist kein &quot;unbeaufsichtigter&quot; Vorgang: Sie initiiert die gleiche Neuberechnungs-/Roll-up-Logik, die durch normale Laufzeitabschlüsse ausgelöst wird.
 * Systeme, die diese Migration integrieren oder planen, müssen die Last und den Zeitpunkt der Neuberechnung planen.
 
 ## Webhooks für Alternativen
@@ -674,8 +674,8 @@ Als Beispiel sehen Sie, wie ein fiktiver Kunde (NovaFX) mit einem fiktiven exter
 
 SquareCorp muss Folgendes bereitstellen:
 
-* Informationen zu Kurs-Metadaten: Eine API zum Freigeben von Kurs-Metadaten, auf die NovaFX Zugriff hat.
-* Fortschrittsdaten-Informationen: Eine API, um regelmäßig Informationen zum Fortschritt und zum Abschluss von Teilnehmern zu teilen.
+* Informationen zu den Kurs-Metadaten: Eine API zum Freigeben von Kurs-Metadaten, auf die NovaFX Zugriff hat.
+* Fortschrittsdateninformationen: Eine API zum regelmäßigen Teilen von Informationen zum Fortschritt und Abschluss von Teilnehmern.
 
 ### Schlüsseldefinitionen
 
@@ -889,7 +889,7 @@ Learning Manager unterstützt UUID, um Unternehmen Flexibilität beim Steuern vo
 
 **Anwendungsszenario für UUID in einem Unternehmen**
 
-Stellen Sie sich ein Szenario vor, in dem ein Mitarbeiter A sich als Vertragsnehmer dem Unternehmen Learning Manager anschließt. Während der Vertragslaufzeit stellt das Learning Manager-Unternehmen möglicherweise keine Unternehmens-E-Mail-ID als ```A@example.com``` bereit, sondern berücksichtigt stattdessen das persönliche E-Mail-Konto des Mitarbeiters, z. B. ```A@gmail.com```. Nach Abschluss von 6 Monaten Vertragslaufzeit, wenn derselbe Mitarbeiter A sich dem Learning Manager als Vollzeitmitarbeiter anschließt, möchte der Learning Manager möglicherweise seine E-Mail-ID in seine Unternehmens-E-Mail-ID ändern: ```A@example.com```.
+Stellen Sie sich ein Szenario vor, in dem ein Mitarbeiter A sich als Vertragsnehmer dem Unternehmen Learning Manager anschließt. Während der Vertragslaufzeit stellt das Learning Manager-Unternehmen möglicherweise keine Unternehmens-E-Mail-ID als `A@example.com` bereit, sondern berücksichtigt stattdessen das persönliche E-Mail-Konto des Mitarbeiters, z. B. `A@gmail.com`. Nach Abschluss von 6 Monaten Vertragslaufzeit, wenn derselbe Mitarbeiter A sich dem Learning Manager als Vollzeitmitarbeiter anschließt, möchte der Learning Manager seine E-Mail-ID in seine Unternehmens-E-Mail-ID ändern: `A@example.com`
 
 UUID-Zugriff auf das Benutzerkonto ist für das Unternehmen Learning Manager im oben genannten Szenario nützlich. Das Unternehmen Learning Manager kann die persönliche E-Mail-ID des Mitarbeiters A ohne großen Aufwand durch eine offizielle E-Mail-ID ersetzen. Die für dieses Konto relevanten Datensätze für den Mitarbeiter sind von dieser Änderung nicht betroffen.
 

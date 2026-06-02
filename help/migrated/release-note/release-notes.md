@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Versionshinweise zu Adobe Learning Manager
 contentowner: jayakarr
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: ee0b90d1ef01c073ea0c138f98bde6415622ca89
+source-git-commit: de174f32cdf0458e6e20e3263eefd1da1fc2da3d
 workflow-type: tm+mt
-source-wordcount: '29658'
+source-wordcount: '29617'
 ht-degree: 75%
 
 ---
@@ -29,9 +29,9 @@ ht-degree: 75%
 
 Freigabedatum: 26. Mai 2026
 
-## Verbesserungen (Instanz- und Sitzungseinladungs-E-Mail)
+## Verbesserungen in dieser Version
 
-**Startdatum für eine Instanz:** Als Administrator oder Autor können Sie jetzt ein Startdatum für eine Instanz angeben, wenn Sie eine Instanz erstellen oder bearbeiten.
+**Startdatum für eine Instanz:** Als Administrator oder Autor können Sie jetzt ein Startdatum für eine Instanz angeben, wenn Sie eine Instanz erstellen oder bearbeiten. Das Startdatum kann nur in der Teilnehmeroberfläche über die API angezeigt werden.
 
 **E-Mail-Erinnerungen vor dem Startdatum:** Dies hängt mit dem neu eingeführten Feld **Startdatum** in einer Instanz zusammen. Als Administrator oder Autor können Sie jetzt zwei E-Mail-Erinnerungen zu verschiedenen Zeitpunkten vor dem Startdatum einer Instanz mit verschiedenen Arten von Wiederholungen festlegen.
 
@@ -589,8 +589,8 @@ Die neue Adobe Learning Manager-App für Microsoft Teams soll das Lernen im Arbe
 **Bekannte Probleme in diesem Update**
 
 * Die Schaltfläche &quot;Freigeben&quot; im Teilnehmerkatalog funktioniert im Safaribrowser, in der Mobile App und in der iPad MS Teams-App nicht wie erwartet.
-* Benachrichtigungen werden nicht auf der Registerkarte „Aktivität“ angezeigt, wenn die App auf anderen Computern entfernt wurde.
-Wenn Sie auf iPhone 14 auf die Benachrichtigungen auf der Registerkarte „Aktivität“ der App klicken, passiert nichts.
+* Benachrichtigungen werden nicht auf der Registerkarte Aktivität angezeigt, wenn die App auf anderen Computern entfernt wurde.
+Wenn Sie in iPhone 14 auf die Benachrichtigungen auf der Registerkarte Aktivität der App klicken, passiert nichts.
 * In der MS Teams-App zeigen die Learning Manager-Benachrichtigungen (abgeschlossen, registriert, Frist und überfällig) den Status und den Namen des Kurses nicht auf der Registerkarte „Aktivität“ an.
 * Wenn Integrationsadministrator(inn)en die MS Teams-App nicht genehmigen, wird ein Popup mit XML-Inhalt angezeigt.
 * Die Benutzeroberflächensprache in der Adobe Learning Manager-App in MS Teams ändert sich manchmal nicht wie erwartet, wenn die Sprache geändert wird.
@@ -615,7 +615,7 @@ Wenn Sie auf iPhone 14 auf die Benachrichtigungen auf der Registerkarte „Aktiv
 
 ### Leistungsverbesserungen in dieser Version
 
-Wenn eine Massenregistrierung von Teilnehmenden durchgeführt wird, wird nicht für alle Teilnehmenden eine Protokolldatei generiert.
+Wenn eine Massenregistrierung von Teilnehmern durchgeführt wird, wird keine Protokolldatei für jeden Teilnehmer generiert.
 Wir haben die Verarbeitung von Lernplänen für große Konten optimiert. Dadurch werden Suchprobleme und Verzögerungen vermieden.
 +++
 
@@ -649,7 +649,7 @@ Zusätzliche Unterstützung für einen aus vier Buchstaben bestehenden Sprachcod
 ### In diesem Update behobene Fehler
 
 Bei einigen Gebietsschemas gibt die Suche falsche Ergebnisse zurück.
-Die Kurs-Metadaten werden überschrieben, wenn der Kurs mehrere Varianten desselben Gebietsschemas enthält.
+Die Kurs-Metadaten werden überschrieben, wenn der Kurs mehr als eine Variante desselben Gebietsschemas enthält.
 +++
 
 +++Update 84
