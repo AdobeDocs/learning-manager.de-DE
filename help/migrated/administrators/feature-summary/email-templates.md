@@ -4,10 +4,10 @@ jcr-language: en_us
 title: E-Mail-Vorlagen
 contentowner: manochan
 exl-id: acc85500-2ed1-47a4-8e65-6e1b8ef7d156
-source-git-commit: 67e1a5f7140f9fe268059368918ccf6da6f16c4d
+source-git-commit: 7d1ccc52ab4f8320b1191e0abb5972181c56df01
 workflow-type: tm+mt
-source-wordcount: '1512'
-ht-degree: 58%
+source-wordcount: '1753'
+ht-degree: 60%
 
 ---
 
@@ -35,18 +35,28 @@ Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.
 
 Sie als Administrator können diese E-Mail-Vorlagen einfach aktivieren, deaktivieren oder ändern.
 
-1. Um auf die Vorlagen zuzugreifen, klicken Sie auf **[!UICONTROL E-Mail-Vorlagen]** im linken Bereich. Auf dieser Seite werden drei verschiedene Kategorien von Vorlagen angezeigt: **[!UICONTROL Allgemein]**, **[!UICONTROL Lernaktivität]** und **[!UICONTROL Erinnerungen und Updates]**. Es gibt eine vierte Registerkarte, **[!UICONTROL Einstellungen]**, auf der Sie die Vorlagen konfigurieren können.
+Die unten aufgeführten E-Mail-Vorlagen sind Teil dieser Vorlagengruppe.
+
+**Aktualisierung des Fortschritts:** Diese Vorlage benachrichtigt einen Teilnehmer, dass sein Abschlussstatus und der Fortschritt auf einem Lernpfad aufgrund einer Änderung seines aktiven Profils oder seiner aktiven Lernpfadkonfiguration automatisch neu berechnet wurden. Der Teilnehmer wird aufgefordert, alle neu ausstehenden Anforderungen zu überprüfen und Maßnahmen zu ergreifen, um den Lernpfad abzuschließen.
+
+**Kurse/Pfade wurden als abgeschlossen markiert über alternative:** Diese Vorlage benachrichtigt einen Teilnehmer, wenn er einen Kurs über einen alternativen Pfad abschließt. Das bedeutet, dass sie eine Quellschulung direkt abgeschlossen haben, die ein Administrator als Alternative für diese Ziele konfiguriert hat.
+
+**Kurse/Pfade wurden als unvollständig markiert:** Diese Vorlage benachrichtigt einen Teilnehmer, dass ein Kurs oder ein Lernpfad, der bzw. der zuvor über eine Alternative abgeschlossen werden sollte, jetzt als unvollständig markiert wurde. Dies geschieht, wenn ein Administrator eine alternative Beziehung entfernt oder ändert und die rückwirkende Unvollständigkeit auf Kontoebene aktiviert ist.
+
+**Checkliste bestanden/Checkliste fehlgeschlagen:** Ziel dieser Vorlagen ist es, die Teilnehmer darüber zu informieren, dass sie von Prüfern ausgewertet wurden. Der Teilnehmer erhält diese E-Mail für jede Bewertung, sodass er zur Plattform gehen und überprüfen kann, ob er Maßnahmen ergreifen muss.
+
+1. Klicken Sie im linken Teilfenster auf **[!UICONTROL E-Mail-Vorlagen]**. Auf dieser Seite können Sie drei verschiedene Kategorien von Vorlagen, **[!UICONTROL Allgemeinen]**, **[!UICONTROL Lernaktivität]** und **[!UICONTROL Erinnerungen und Updates]** sehen. Es gibt eine vierte Registerkarte, **[!UICONTROL Einstellungen]**, auf der Sie die Vorlagen konfigurieren können.
 
    ![](assets/categories-of-emailtemplates.png)
 
    *Registerkarte &quot;Allgemein&quot; auswählen*
 
-2. Um mehrere E-Mail-Vorlagen für eine bestimmte Rolle zu aktivieren oder zu deaktivieren, wählen Sie die Auslassungspunkte (...) in der Spaltenüberschrift aus und aktivieren Sie alle entsprechenden Rollen in **[!UICONTROL E-Mail-Empfänger]**.
+2. Um E-Mail-Vorlagen für eine bestimmte Rolle in großen Mengen zu aktivieren oder zu deaktivieren, wählen Sie die Auslassungszeichen (...) in der Spaltenüberschrift und aktivieren Sie alle entsprechenden Rollen in **[!UICONTROL E-Mail-Empfänger]**.
 
    ![](assets/email-template-role.png)
    _Alle E-Mail-Vorlagen auf Rollenebene senden_
 
-3. Um eine bestimmte E-Mail-Vorlage für eine Rolle zu aktivieren oder zu deaktivieren, wählen Sie die Auslassungspunkte (...) für diese Vorlage aus und wählen Sie eine Rolle aus bzw. heben Sie ihre Auswahl auf.
+3. Um eine bestimmte E-Mail-Vorlage für eine Rolle zu aktivieren oder zu deaktivieren, wählen Sie die Auslassungspunkte (...) für diese Vorlage aus und aktivieren oder deaktivieren Sie eine Rolle.
 
    ![](assets/email-template-role-1.png)
    _E-Mail-Vorlage auf Rollenebene senden_
@@ -76,7 +86,7 @@ Sie als Administrator können diese E-Mail-Vorlagen einfach aktivieren, deaktivi
 
    Wenden Sie sich an den [***Adobe-Support***](https://helpx.adobe.com/de/contact/enterprise-support.other.html#learning-manager), um diese Informationen zu konfigurieren oder zu ändern.
 
-1. Passen Sie Ihr E-Mail-Banner von der Option **[!UICONTROL E-Mail-Banner]** an. Ändern Sie die Farbe des Banners, indem Sie **[!UICONTROL Bannerhintergrund]** auswählen.
+1. Passen Sie Ihre E-Mail-Banner in der Option **[!UICONTROL E-Mail-Banner]** an. Ändern Sie die Farbe des Banners, indem Sie **[!UICONTROL Banner-Hintergrund]** auswählen.
 
    Sie können ein benutzerdefiniertes Bild als Banner verwenden, indem Sie die Option **[!UICONTROL Benutzerdefiniertes Bild]** auswählen. Nach Abschluss der Änderungen klicken Sie auf **[!UICONTROL Speichern]**.
 
@@ -171,7 +181,7 @@ Ihre Anforderung wird bearbeitet und eine E-Mail mit Bestätigungs-Link wird an 
 
 Als Administrator können Sie auswählen, wer E-Mails von Learning Manager erhält und wer nicht.
 
-Sie können dies mithilfe der Option **[!UICONTROL Bitte nicht stören]** auf der Registerkarte **[!UICONTROL Einstellungen]** ausführen. Benutzer können dieser Liste mit ihrem Namen, ihrer E-Mail-ID oder ihrer eindeutigen Benutzer-ID hinzugefügt werden.
+Dies kann mit der Option **[!UICONTROL Bitte nicht stören]** auf der Registerkarte **[!UICONTROL Einstellungen]** erfolgen. Benutzer können dieser Liste mit ihrem Namen, ihrer E-Mail-ID oder ihrer eindeutigen Benutzer-ID hinzugefügt werden.
 
 Suchen Sie nach einem Benutzer, der der Liste hinzugefügt werden soll.
 
@@ -179,7 +189,7 @@ Suchen Sie nach einem Benutzer, der der Liste hinzugefügt werden soll.
 
 ## Blockierte E-Mails {#blockedemails}
 
-Wählen Sie in der Dropdownliste **Blockierte E-Mails** für jeden Benutzer die E-Mail-Typen aus, die für ihn blockiert werden sollen.
+Wählen Sie in der Dropdown-Liste **Blockierte E-Mails** für jeden Benutzer die E-Mail-Typen aus, die für ihn blockiert werden sollen.
 
 <!--![](assets/options-for-blockedemails.png)-->
 
@@ -199,7 +209,7 @@ Sie können Benutzer mithilfe von CSV-Dateien der Liste „Bitte nicht stören�
 * Eingehende direkte Eskalationen blockieren
 * Eingehende Eskalationen der übernächsten Stufe blockieren
 
-Geben Sie im Wertefeld &quot;true&quot; ein, um zu verhindern, dass Benutzer E-Mails für die ausgewählte Option erhalten. Wenn Sie den Wert „false“ eingeben, wird eine bestehende Blockierung für den Benutzer aufgehoben. Wenn Sie die Spalte leer lassen, bleibt die bisherige Auswahl unverändert.
+Geben Sie im Wertefeld „true“ ein, um zu verhindern, dass Benutzer E-Mails für diese ausgewählte Option erhalten. Wenn Sie den Wert „false“ eingeben, wird eine bestehende Blockierung für den Benutzer aufgehoben. Wenn Sie die Spalte leer lassen, bleibt die bisherige Auswahl unverändert.
 
 ## Flexibilität bei der Anpassung der Vorlagen
 
@@ -218,7 +228,7 @@ Wählen Sie **[!UICONTROL E-Mail-Vorlagen]** > **[!UICONTROL Einstellungen]**. W
 Sie können außerdem Folgendes anpassen:
 
 * E-Mail-Banner und E-Mail-Signatur auf Kursebene und Instanzebene
-* E-Mail-Fußzeile bearbeiten Der Fußzeilenbereich enthält vordefinierte Variablen für die Konto-URL, die Signatur und beliebigen freien Text, den der Benutzer hinzufügt.
+* Bearbeiten Sie die E-Mail-Fußzeile. Der Fußzeilenbereich enthält vordefinierte Variablen für die Konto-URL, die Signatur und beliebigen freien Text, den der Benutzer hinzufügt.
 
 Die Vorlagen unterstützen auch erweiterte Bearbeitungsfunktionen, etwa dass die Formatierung erhalten bleibt, wenn Inhalte kopiert und in Microsoft Word eingefügt werden.
 
@@ -246,13 +256,13 @@ Derzeit ist es in Learning Manager nicht möglich, **Hilfe** in E-Mail-Vorlagen 
 
 +++
 
-+++Wie erstelle ich eigene E-Mail-Vorlagen?
++++Wie erstelle ich meine eigenen E-Mail-Vorlagen?
 
 Derzeit ist es nicht möglich, benutzerdefinierte E-Mail-Vorlagen zu erstellen. Sie können jedoch vorhandene Vorlagen bearbeiten und ändern.
 
 +++
 
-+++Wie deaktiviere ich die E-Mail-Vorlagen?
++++Wie schalte ich die E-Mail-Vorlagen aus?
 
 Um die E-Mail-Vorlage zu deaktivieren, wählen Sie die Vorlage aus, die deaktiviert werden soll, und klicken Sie auf die kreisförmige Umschalttaste Ja/Nein.
 
@@ -260,6 +270,6 @@ Um die E-Mail-Vorlage zu deaktivieren, wählen Sie die Vorlage aus, die deaktivi
 
 +++Wie ändere ich den Absendernamen und die Absenderadresse in der Vorlage?
 
-Wenden Sie sich an den [Adobe Learning Manager-Support](https://helpx.adobe.com/de/contact/enterprise-support.other.html#learning-manager), um den Absendernamen und die E-Mail-Adresse zu ändern.
+Um Absendernamen und E-Mail-Adresse zu ändern, wenden Sie sich an den [Adobe Learning Manager-Support](https://helpx.adobe.com/de/contact/enterprise-support.other.html#learning-manager).
 
 +++
