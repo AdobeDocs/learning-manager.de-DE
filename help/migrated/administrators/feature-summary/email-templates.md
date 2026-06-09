@@ -4,7 +4,7 @@ jcr-language: en_us
 title: E-Mail-Vorlagen
 contentowner: manochan
 exl-id: acc85500-2ed1-47a4-8e65-6e1b8ef7d156
-source-git-commit: 7d1ccc52ab4f8320b1191e0abb5972181c56df01
+source-git-commit: ef2e0fe06a0191329bf9aeecdcb4f56ce9932bf9
 workflow-type: tm+mt
 source-wordcount: '1753'
 ht-degree: 60%
@@ -35,7 +35,7 @@ Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.
 
 Sie als Administrator können diese E-Mail-Vorlagen einfach aktivieren, deaktivieren oder ändern.
 
-Die unten aufgeführten E-Mail-Vorlagen sind Teil dieser Vorlagengruppe.
+Die unten aufgeführten E-Mail-Vorlagen sind Teil dieser Vorlagengruppe:
 
 **Aktualisierung des Fortschritts:** Diese Vorlage benachrichtigt einen Teilnehmer, dass sein Abschlussstatus und der Fortschritt auf einem Lernpfad aufgrund einer Änderung seines aktiven Profils oder seiner aktiven Lernpfadkonfiguration automatisch neu berechnet wurden. Der Teilnehmer wird aufgefordert, alle neu ausstehenden Anforderungen zu überprüfen und Maßnahmen zu ergreifen, um den Lernpfad abzuschließen.
 
