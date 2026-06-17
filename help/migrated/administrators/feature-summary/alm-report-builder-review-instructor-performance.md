@@ -28,9 +28,9 @@ Dieser Bericht hilft Schulungsleitern zu ermitteln, welche Kursleiter am aktivst
 9. Um auch Gesamtregistrierungen anzuzeigen, fügen Sie **Status** ein zweites Mal hinzu. Anwenden von **Anzahl, wenn** auf **Nicht gestartet**. Geben Sie den Alias _Registrierungen insgesamt_ ein.
    ![](assets/image035.png)
 10. Filter **Kursleiternamen** darf nicht leer sein.
-   ![](assets/image036.jpg)
+    ![](assets/image036.jpg)
 11. Sortieren Sie nach **Abschlüsse insgesamt**, um zuerst die leistungsstärksten Kursleiter anzuzeigen.
-   ![](assets/image037.png)
+    ![](assets/image037.png)
 12. Wählen Sie Bericht speichern und wählen Sie **Aktionen** > **Herunterladen**, um den Bericht herunterzuladen.
 
 Der heruntergeladene Bericht fasst die Effizienz der Kursleiter zusammen, indem er die Gesamtzahl der Schulungssitzungen, die abgeschlossenen Teilnehmer und die nicht begonnenen Registrierungen für jeden Kursleiter vergleicht und so dazu beiträgt, die Interaktion, die Abschlussleistung und den potenziellen Schulungsbedarf zu bewerten.

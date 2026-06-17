@@ -27,7 +27,7 @@ Dieser Bericht hilft Schulungsleitern und L&amp;D-Administratoren zu ermitteln, 
 8. Wählen Sie **Registrierung - Registrierungsdatum** und legen Sie die Granularität auf **Monat** fest. Wählen Sie **Benutzergruppe für aktives Feld - Benutzergruppenname**. Beide werden als Tags angezeigt: **Registrierung - Registrierungsdatum (Monat)** und **Benutzergruppe für aktives Feld - Benutzergruppenname**.
 9. Wählen Sie in der Zeile **Registrierung - Zeitaufwand** die Option **Aggregieren nach** und anschließend **Summe**.
 10. Wählen Sie in der Zeile **Lernobjekt - Anzahl der Registrierungsbenutzer** die Option **Aggregieren nach** und anschließend **Anzahl** aus.
-   ![](assets/image038.jpg)
+    ![](assets/image038.jpg)
 11. Wählen Sie **Filter hinzufügen**. Wählen Sie **Registrierung - Registrierungsdatum** und wählen Sie einen relativen Bereich wie **Letzte 3 Monate** aus, oder geben Sie einen bestimmten Datumsbereich ein.
 12. Wählen Sie **+ Sortierung hinzufügen**. Sortieren nach **Registrierung - Registrierungsdatum** aufsteigend, dann eine sekundäre Sortierung am **Gesamtdauer** absteigend.
 13. Wählen Sie **Bericht speichern** aus, und wählen Sie **Aktionen** > **Download** aus, um den Bericht herunterzuladen.

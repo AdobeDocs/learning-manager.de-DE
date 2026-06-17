@@ -32,7 +32,7 @@ b. Benutzer-\Managername
 c. Lernobjekt-/Lernobjektname
 d. Benutzerkonformitätsstatus/Abschluss %
 e. Benutzerkonformitätsstatus/Konformität %
-!   2[](assets/image012.png)
+!   2[&#128279;](assets/image012.png)
 7. Ordnen Sie Spalten neu an, indem Sie sie auf die Arbeitsfläche ziehen.
 8. Um eine Spalte umzubenennen, geben Sie einen Namen in das Aliasfeld der Spalte ein. Der Alias wird als Spaltenüberschrift in der heruntergeladenen Datei angezeigt.
 9. Wählen Sie **Bericht speichern**.

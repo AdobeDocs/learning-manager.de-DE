@@ -58,7 +58,7 @@ Dieser Bericht zeigt die monatlichen Abschlusssummen pro Katalog über einen def
 9. Filter hinzufügen: **Das Abschlussdatum** liegt innerhalb des letzten Jahres.
    ![](assets/image044.png)
 10. Sortieren nach **Abgeschlossen am** aufsteigend.
-   ![](assets/image_045.png)
+    ![](assets/image_045.png)
 11. Wählen Sie **Bericht speichern** aus, und wählen Sie **Aktionen** > **Download** aus, um den Bericht herunterzuladen.
 
 ## Best Practices
