@@ -2,12 +2,12 @@
 description: Versionshinweise zu Adobe Learning Manager
 jcr-language: en_us
 title: Versionshinweise zu Adobe Learning Manager
-contentowner: jayakarr
+contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: de174f32cdf0458e6e20e3263eefd1da1fc2da3d
+source-git-commit: 1e53a39cce3758eb2535d0bb32056a75846cd563
 workflow-type: tm+mt
-source-wordcount: '29617'
-ht-degree: 75%
+source-wordcount: '30634'
+ht-degree: 72%
 
 ---
 
@@ -25,7 +25,82 @@ ht-degree: 75%
 </table>
 -->
 
-+++Update 107: Patch-Version von Adobe Learning Manager vom Mai 2026
++++Update 108: Adobe Learning Manager Version Juni 2026
+
+Freigabedatum: 17. Juni 2026
+
+## Neue Funktionen in dieser Version
+
+**Report Builder:** Report Builder in Adobe Learning Manager ist ein Self-Service-Berichtstool, mit dem Administratoren benutzerdefinierte Berichte erstellen und herunterladen können, indem sie nur die erforderlichen Spalten auswählen, flexible Filter anwenden und auf konsistente Daten zugreifen - alles über eine einzige Benutzeroberfläche. Dadurch entfällt die Notwendigkeit, sich auf feste, vorkonfigurierte Berichte und manuelle Nachbearbeitung in externen Tools zu verlassen, indem Benutzer Berichte ganz einfach konfigurieren, speichern und wiederverwenden können. Durch die Berücksichtigung von Einschränkungen wie starren Spaltenstrukturen, eingeschränkten Filteroptionen und inkonsistenten Datenquellen optimiert Report Builder die Workflows für die Berichterstellung, stellt genaue Erkenntnisse sicher und spart Zeit, während gleichzeitig bestehende Standardberichte für vordefinierte Anwendungsfälle ergänzt werden. Weitere Informationen finden Sie unter [Report Builder](/help/migrated/administrators/feature-summary/alm-report-builder.md).
+
+**Registrierung mit einem Klick:** Mit einer Registrierung mit einem Klick können Teilnehmer einen Deep-Link zu einem von Administratoren freigegebenen Modul öffnen und sofort auf den Inhalt zugreifen, ohne sich zuerst anmelden und dann den Kurs separat starten zu müssen. Dies vereinfacht den Zugriff, spart Zeit und verbessert das allgemeine Lernerlebnis. Weitere Informationen finden Sie unter [Registrierung mit einem Klick](/help/migrated/administrators/feature-summary/admin-one-click-enrollment.md).
+
+**Verfügbarkeit erworbener Kurse in wiederkehrenden Zertifizierungen:** Zuvor konnten erworbene Kurse nur zu unbefristeten Zertifizierungen hinzugefügt werden. Bei wiederkehrenden Zertifizierungen wurden die erworbenen Kurse nicht in der Kursauswahlanzeige angezeigt, wodurch Empfängerkonten daran gehindert wurden, freigegebene Inhalte für Programme zu verwenden, die regelmäßig erneuert werden müssen. Erworbene Kurse sind jetzt sowohl mit unbefristeten als auch mit wiederkehrenden Zertifizierungen verfügbar. Weitere Informationen finden Sie unter [Freigegebene Katalogfunktionen in der Empfängeranwendung](/help/migrated/administrators/feature-summary/catalogs.md#sharedcatalogfeaturesinreceiverapplication).
+
+**Migration der VILT-Sitzung zu Adobe Learning Manager:** Adobe Learning Manager unterstützt jetzt die Massenmigration und Aktualisierung von VILT-Sitzungsdaten (Virtual Instructor-Led Training, virtuelle Schulung) über CSV-Dateien. Verwenden Sie diesen Arbeitsablauf, um die Startdaten der Instanz zu konfigurieren, Lernpfadinstanzen mit Kursinstanzen zu verknüpfen und virtuelle Klassenzimmersitzungen für Microsoft Teams, Adobe Connect und Zoom einzurichten. Weitere Informationen finden Sie unter [Migrationshandbuch](/help/migrated/integration-admin/feature-summary/migration-manual.md#migrationofviltsessiontoalm).
+
+## Verbesserungen in dieser Version
+
+**Umkehrung der Likert-Skalierreihenfolge:** In Adobe Learning Manager wird die Likert-Skala verwendet, um die Erfahrung des Teilnehmers mit Lernobjekten zu bewerten. Die Likert-Skala im Formular für das Teilnehmererlebnis-Feedback wurde entsprechend der Standardreihenfolge von links nach rechts umgekehrt. Zuvor hatte die Likert-Skala eine Rechts-nach-Links-Reihenfolge - im Gegensatz zur standardmäßigen Links-nach-Rechts-Reihenfolge. Die Punktzahl beginnt jetzt mit Strongly Disagree auf der linken Seite und endet mit Strongly Agree auf der rechten Seite.
+
+**Ad-hoc-E-Mails von Kursleitern an Teilnehmer:** Zuvor hat die Option &quot;E-Mail an alle senden&quot; nur Kursleiter aktiviert, um die E-Mail-Adressen der Empfänger zu kopieren. Jetzt können Kursleiter mit derselben Option Ad-hoc-E-Mails direkt an Teilnehmer senden. Die Option &quot;E-Mails kopieren&quot; kann nur zum Kopieren von E-Mail-Adressen von Empfängern verwendet werden.
+
+### Schritte
+
+1. Melden Sie sich als Kursleiter an.
+2. Navigieren Sie im linken Navigationsbereich zu Ältere Sitzungen . Auf der Seite wird eine Liste der früheren Sitzungen angezeigt.
+3. Wählen Sie einen Sitzungsnamen aus der Liste der früheren Sitzungen aus.
+4. Navigieren Sie im linken Navigationsbereich zu Teilnehmer .
+   ![](assets/instructor-send-email1.png)
+5. Wählen Sie einen Teilnehmer aus der Teilnehmerliste aus.
+6. Oben rechts wird die Dropdownliste **Aktionen** geöffnet, um weitere Optionen anzuzeigen (einschließlich der ausgegrauten). Die Option **E-Mail an alle senden** ist eine der Optionen.
+   ![](assets/instructor-send-email2.png)
+
+**Automatische Bereinigung gelöschter Benutzer:** Die automatische Bereinigung gelöschter Benutzer wurde auf ein Jahr als Mindestdauer für das Löschen festgelegt. Dies wurde verbessert, um auch eine Anzahl von &quot;Tagen&quot; zu berücksichtigen. Administratoren können diese Änderung jetzt anfordern, indem sie sich an ihren Customer Success Manager wenden und sie vom Backend ändern lassen.
+
+## Behobene Fehler
+
+**Authoring**
+
+1. Gebietsschemas mit schlechten Ergebnissen bei der Übersetzungsqualität werden nicht mehr im Untertitelgenerierungsmodus angezeigt, wenn VTT-Untertiteldateien automatisch generiert werden. Dadurch wird verhindert, dass qualitativ minderwertige Übersetzungen, wie z. B. ungenaues chinesisches Zeichenrendering, an die Teilnehmer geliefert werden.
+
+2. Die Vorlage für Begrüßungs-E-Mails (intern) verfügt jetzt über unabhängige Konfigurationen für Adobe ID- und SSO-Anmeldemethoden. Zuvor teilten sich beide Anmeldemethoden einen einzelnen Vorlagenkanal, wodurch sich die Vorlage wieder aktivierte, wenn SSO konfiguriert wurde, nachdem die Vorlage deaktiviert wurde, was dazu führte, dass unbeabsichtigte Begrüßungs-E-Mails an die Teilnehmer gesendet wurden.
+
+**Zertifizierung**
+
+Wiederkehrende Zertifizierungen beziehen jetzt Kurse aus der neuesten (übergeordneten) Version der Zertifizierung und nicht aus der ursprünglichen (Stamm-)Version. Dadurch wird sichergestellt, dass aktualisierte Kursinhalte korrekt in jeden Zertifizierungszyklus einbezogen werden.
+
+**Inhaltsbibliothek und benutzerdefinierte Rollen**
+
+1. Benutzerdefinierte Autoren mit Zugriffsbeschränkungen auf ausgewählte Inhaltsordner können jetzt AICC- und Tincan-Kursmodule in der Vorschau mithilfe der Option &quot;Vorschau als Teilnehmer&quot; testen, ohne den Fehler &quot;Inhalt nicht verfügbar&quot; zu erhalten.
+
+2. Benutzerdefinierte Autoren mit Zugriff auf ausgewählte Inhaltsordner und Kataloge können jetzt Kursressourcen in der Vorschau als Teilnehmer öffnen, ohne dass ein 403-Zugriffsfehler auftritt.
+
+**Daten und Berichte**
+
+Die Datensynchronisierung für die Registrierung wurde stabilisiert, indem ein Datenbankkonnektorfehler und übergroße Datensatz-Nutzlasten in der Datenpipeline behoben wurden. Anmeldungsdatensätze werden nun zuverlässig an nachgelagerte Meldesysteme übertragen.
+
+**Veröffentlichung und APIs**
+
+Die öffentlichen **Such**- und **Kategorien**-APIs geben jetzt Katalog-IDs im richtigen numerischen Format zurück. Zuvor wurden Katalog-IDs im falsch formatierten Zeichenfolgenformat &quot;catalog123&quot; anstelle der erwarteten numerischen ID zurückgegeben.
+
+**Benutzeroberfläche und Verwaltung**
+
+1. Auf der Seite &quot;Kursinstanz&quot; für vom Manager nominierte Kurse wird kein fehlerhaftes Layout für Benutzer vom Typ &quot;Administrator&quot; und &quot;Benutzerdefinierter Administrator&quot; mehr angezeigt. Eine CSS-Regression, die dazu führte, dass Elemente ohne Umbruch überlaufen wurden, wurde korrigiert.
+
+2. Externe Benutzer, die auf VILT-Sitzungseinladungs-Links in ihrer E-Mail klicken, werden jetzt korrekt zu ihrer konfigurierten Anmeldemethode (z. B. Adobe ID) weitergeleitet, anstatt fälschlicherweise zur internen SSO-Anmeldeseite weitergeleitet zu werden.
+
+**AI-Assistent**
+
+Der AI-Assistent bietet jetzt eine richtige Antwort auf die Frage, ob einer Zertifizierung ein Lernpfad hinzugefügt werden kann. Die Assistenzkraft gab zuvor eine ungenaue positive Antwort zurück; Jetzt wird korrekt angegeben, dass Zertifizierungen in Adobe Learning Manager nur Kurse hinzugefügt werden können.
+
+## Bekanntes Problem
+
+**Zeitaufwand im Teilnehmertranskript für die QR-basierte Teilnahme am Klassenzimmer:** Die Zeit, die für die Anzeige von 0 Minuten für Teilnehmer aufgewendet wurde, die sich selbst als anwesend über den QR-Code gekennzeichnet haben, wird als &quot;wie vorgesehen&quot; ausgeführt. Die im Teilnehmertranskript aufgezeichnete Sitzungsdauer wird von den xAPI-Daten abgeleitet, die zur Abschlusszeit ausgegeben werden. In Fällen, in denen die Sitzungsplandaten zum Zeitpunkt der Verarbeitung noch nicht in die Datenbank übernommen wurden, wird eine Dauer von Null aufgezeichnet. Für diese Version wurde keine Korrektur angewendet.
+
++++
+
++++Update 107: Adobe Learning Manager Version vom Mai 2026
 
 Freigabedatum: 26. Mai 2026
 
@@ -66,7 +141,7 @@ Weitere Informationen [finden Sie unter API-Änderungen in der Version vom Mai &
 +++
 
 
-+++Update 106: Patch-Version von Adobe Learning Manager vom April 2026
++++Update 106: Adobe Learning Manager Version vom April 2026
 
 Freigabedatum: 30. April 2026
 
