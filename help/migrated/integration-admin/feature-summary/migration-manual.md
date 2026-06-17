@@ -3,10 +3,10 @@ description: Referenzhandbuch für Integrationsadministratoren zum Migrieren ein
 jcr-language: en_us
 title: Migrationshandbuch
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: f3df7e2defc479c270c16f91918903fb27560b19
+source-git-commit: bb98f6ff998a09682bbd7c50d9bf92469859f0be
 workflow-type: tm+mt
-source-wordcount: '5320'
-ht-degree: 61%
+source-wordcount: '6280'
+ht-degree: 52%
 
 ---
 
@@ -916,3 +916,141 @@ Weitere Informationen zu diesem Thema finden Sie in den folgenden Hilfeinhalten:
 Die Version April 2026 von Adobe Learning Manager bietet zielgerichtete Verbesserungen an der öffentlichen API in den Bereichen Alternativprogramme und Äquivalente, Zugriff auf Inhalte im Zeitfenster, inhaltsgesteuerte Quizversuche, nicht angemeldete Teilnehmererlebnisse und Arbeitshilfenverwaltung. Diese Updates sind so konzipiert, dass sie weitgehend abwärtskompatibel bleiben und gleichzeitig präzisere und erweiterbare Integrationsmuster ermöglichen.
 
 Zeigen Sie für API-Änderungen [API-Änderungen](/help/migrated/api-changes-alm.md) an.
+
+## Migration der VILT-Sitzung zu Adobe Learning Manager {#migrationofviltsessiontoalm}
+
+Adobe Learning Manager unterstützt die Massenmigration und Aktualisierung von VILT-Sitzungsdaten (Virtual Instructor-Led Training, virtuelle Schulung mit Kursleiter) über CSV-Dateien. Verwenden Sie diesen Arbeitsablauf, um die Startdaten der Instanz zu konfigurieren, Lernpfadinstanzen mit Kursinstanzen zu verknüpfen und virtuelle Klassenzimmersitzungen für Microsoft Teams, Adobe Connect und Zoom einzurichten.
+
+>[!NOTE]
+>
+>Spalten-IDs in allen CSV-Migrationsdateien verwenden jetzt das Präfix &quot;alm&quot;, z. B. `almCourseID` und `almModuleID`. Dies ersetzt das in früheren Versionen verwendete alte Prime-Präfix.
+
+### CSV-basierte VILT-Sitzungsmigration
+
+Mit der Adobe Learning Manager-Migration können Administratoren Lerninhalte mithilfe strukturierter CSV-Dateien in großen Mengen erstellen oder aktualisieren. Sie können diese CSV-Workflows sowohl auf Migrationskurse (aus einem externen System importierte Inhalte) als auch auf Retrofit-Kurse (direkt in der ALM-Autoren-App erstellte Inhalte) anwenden.
+
+Vier CSV-Dateien sind an der Migration von VILT-Sitzungen beteiligt:
+
+* **Kursinstanz-CSV:** erstellt oder aktualisiert Kursinstanzen, einschließlich Startdaten
+* **LP-Instanz-CSV:** erstellt oder aktualisiert Lernpfadinstanzen, einschließlich Startdaten
+* **LP zur Kursinstanzzuordnung CSV:** ordnet eine Lernpfadinstanz einer bestimmten Kursinstanz zu
+* **Sitzungs-CSV:** erstellt Sitzungen für virtuelle Klassenzimmer mit Details zum Konferenzsystem
+
+Laden Sie die oben genannten Dateien [hier](assets/csv-and-xlsx-migration-files.zip) herunter.
+
+Alle vier CSV-Dateien akzeptieren `almCourseID` als Verweis auf Kurse und `almModuleID` als Verweis auf Module. Diese IDs sind die eindeutigen Kennungen, die von ALM beim Erstellen eines Kurses oder Moduls zugewiesen werden.
+
+### Festlegen des Startdatums für Instanzen von Kursen und Lernpfaden
+
+Verwenden Sie die CSV-Kursinstanz **1 und die CSV-Instanz** LP **, um das Startdatum einer Instanz hinzuzufügen oder zu aktualisieren.** Dies gilt sowohl für von der Migration erstellte als auch für von der Benutzeroberfläche erstellte (nachrüstbare) Instanzen.
+
+**CSV-Kursinstanz: Startdatum hinzufügen**
+
+1. Öffnen Sie Ihre CSV-Datei für die Kursinstanz.
+2. Fügen Sie die `startDate`-Spalte hinzu, falls sie noch nicht vorhanden ist.
+3. Geben Sie das Startdatum für jede Instanzzeile im Format JJJJ-MM-TT ein.
+4. Füllen Sie die Spalte &quot;`almCourseID`&quot; mit der ALM-Kurs-ID des Kurses, den Sie aktualisieren möchten.
+5. Laden Sie die CSV-Datei während des Migrationslaufs hoch.
+
+**LP-Instanz-CSV: Startdatum hinzufügen**
+
+1. Öffnen Sie Ihre CSV-Datei für die LP-Instanz.
+2. Fügen Sie die `startDate`-Spalte hinzu, falls sie noch nicht vorhanden ist.
+3. Geben Sie das Startdatum für jede Instanzzeile im Format JJJJ-MM-TT ein.
+4. Füllen Sie die Spalte &quot;`almLearningProgramID`&quot; mit der ALM-Lernpfad-ID.
+5. Laden Sie die CSV-Datei über die Migrationsausführung hoch.
+
+>[!NOTE]
+>
+>Die Spalte &quot;`startDate`&quot; ist optional. Wenn Sie ihn einschließen, muss der Wert vor `completionDate` liegen. Zeilen, bei denen &quot;`startDate`&quot; später als &quot;`completionDate`&quot; ist, werden ausgeblendet und in der Migration angezeigt.
+
+### Lernpfadinstanzen mit Kursinstanzen verknüpfen
+
+Verwenden Sie die CSV-Datei &quot;LP zu Kursinstanzzuordnung&quot;, um eine Lernpfadinstanz mit einer bestimmten Kursinstanz zu verknüpfen. Dieser Schritt ist für VILT-Kurse erforderlich, die Teil eines Lernpfads sind.
+
+1. Öffnen Sie die CSV-Datei für die Zuordnung von LP zu Kursinstanz.
+2. Füllen Sie für jede Zeile die folgenden Spalten aus:
+a. `almLearningProgramID` — ALM-Lernpfad-ID
+b. `almLearningProgramInstanceID` — ID der ALM-Lernpfadinstanz
+c. `almCourseID` - die ALM-Kurs-ID
+d. `almCourseInstanceID` - ID der ALM-Kursinstanz
+3. Laden Sie die CSV-Datei während des Migrationslaufs hoch.
+
+### Unterstützte Zuordnungsszenarien
+
+Nicht alle Kombinationen von Migrations- und Retrofit-Quellen werden unterstützt. Lesen Sie die folgende Tabelle, bevor Sie Ihre CSV-Datei erstellen.
+
+| Lernpfadquelle | Quelle der Kursinstanz | Unterstützt |
+|-----------------------------|-------------------------------|-----------|
+| Migration | Migration | Ja |
+| Retrofit (von der Benutzeroberfläche erstellt) | Retrofit (von der Benutzeroberfläche erstellt) | Ja |
+| Migration | Retrofit (von der Benutzeroberfläche erstellt) | Nein |
+| Retrofit (von der Benutzeroberfläche erstellt) | Migration | Nein |
+
+>[!NOTE]
+>
+>Wenn Sie eine Retrofit-Lernpfadinstanz mit einer Migrationskursinstanz (oder umgekehrt) verknüpfen müssen, fügen Sie den Kurs dem Lernpfad direkt über die ALM-Autoren-App hinzu, anstatt diese CSV zu verwenden.
+
+### Details der Sitzung im virtuellen Klassenzimmer konfigurieren
+
+Verwenden Sie die **Sitzungs-CSV**, um VILT-Sitzungen mit Details zu Konferenzen im virtuellen Klassenzimmer zu erstellen oder zu aktualisieren. Der Sitzungs-CSV wurden vier Spalten hinzugefügt, um dies zu unterstützen:
+
+| Spalte | Beschreibung |
+|--------------|-------------------------------------------------------|
+| `almCourseID ` | ALM-ID des Kurses |
+| `almModuleID` | ALM-ID des Moduls |
+| `metadata` | JSON-Objekt mit VC-systemspezifischer Konfiguration |
+| `meetingID` | Meeting-ID des externen VC-Systems |
+
+### Metadatenformat nach Konferenzsystem
+
+Das Feld `metadata` akzeptiert ein JSON-Objekt. Die Struktur variiert je nach Konferenzsystem. Bei allen Schlüsselnamen wird zwischen Groß- und Kleinschreibung unterschieden. CamelCase **muss genau wie angegeben verwendet werden.**
+
+**Microsoft Teams**
+
+```
+{
+  "organizerEmail": "user@example.com",
+  "coOrganizerEmail": "user2@example.com",
+  "lobbyBypass": true,
+  "isCompletionCriteria": false
+}
+```
+
+Alle Metadatenfelder für Teams sind optional. Wenn Sie `organizerEmail` nicht angeben, verwendet ALM die in Ihrem ALM-Konto konfigurierte Teams-Admin-E-Mail als Standardorganisator.
+
+**Adobe Connect**
+
+```
+{
+  "primaryInstructor": "instructor@example.com",
+  "persistentRoom": true,
+  "templateID": "template-id-value"
+}
+```
+
+Das Feld `primaryInstructor` ist **erforderlich** für Adobe Connect-Sitzungen. Alle anderen Felder sind optional. Sie können entweder `persistentRoom` oder `templateID` angeben. Wenn Sie `templateID` angeben, erstellt ALM den Raum mithilfe dieser Vorlage.
+
+**Zoom**
+
+Für den Zoom ist kein Metadaten-JSON-Objekt erforderlich. Übergeben Sie den Sitzungslehrer mithilfe der Standardlehrerspalte in der Sitzungs-CSV.
+
+### Sitzungs-CSV hochladen
+
+1. Öffnen Sie die CSV-Datei für die Sitzung.
+2. Die vier neuen Spalten hinzufügen: almCourseID, almModuleID, Metadaten und meetingID.
+3. Füllen Sie für jede Sitzungszeile almCourseID und almModuleID mit den ALM-IDs des Kurses und des Moduls.
+4. Fügen Sie die Meeting-ID aus Ihrem VC-System (Teams, Adobe Connect oder Zoom) hinzu.
+5. Erstellen Sie das Metadaten-JSON-Objekt unter Verwendung des Formats für Ihr Konferenzsystem.
+6. Stellen Sie sicher, dass alle JSON-Schlüsselnamen die exakte Schreibweise von camelCase verwenden. Falsche Groß-/Kleinschreibung führt zum Fehlschlagen der Zeile.
+7. Laden Sie die CSV-Datei während des Migrationslaufs hoch.
+
+Fehlerbehebung bei häufigen Migrationsfehlern
+
+| Problem | Lösung |
+|-------|----------|
+| Zeilenfehler mit &quot;Ausfülltermin sollte größer als Startdatum sein&quot; | Stellen Sie sicher, dass `startDate` in der Instanz-CSV vor `completionDate` liegt. |
+| Fehler bei der Zuordnung von LP zu Kursinstanzen | Vergewissern Sie sich, dass sowohl der Lernpfad als auch die Kursinstanz über dieselbe Quelle erstellt wurden (Migration oder Nachrüstung). Gemischte Quellen werden nicht unterstützt. |
+| Sitzungszeile schlägt mit Metadatenfehler fehl | Überprüfen Sie, ob alle JSON-Schlüsselnamen im Feld &quot;`metadata`&quot; exakt &quot;camelCase&quot; verwenden. Bei Schlüsseln wird zwischen Groß- und Kleinschreibung unterschieden. |
+| Teams `isCompletionCriteria` haben keine Auswirkungen. | Das Feature-Flag für Abschlusskriterien für Teams muss von Ihrem ALM-Kontoadministrator aktiviert werden, bevor die Migrationswerte wirksam werden. |
+| Sitzungszeile erstellt, aber das Kursleiterfeld ist leer | Wenn die angegebene E-Mail-Adresse des Kursleiters nicht mit einem Benutzer in ALM übereinstimmt, wird die Sitzung mit einem leeren Feld für den Kursleiter erstellt. Vergewissern Sie sich, dass die Kursleiter-E-Mail in ALM vorhanden ist, bevor Sie sie hochladen. |
