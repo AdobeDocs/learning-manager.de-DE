@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Versionshinweise zu Adobe Learning Manager
 contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 1e53a39cce3758eb2535d0bb32056a75846cd563
+source-git-commit: 4c7127cb179605685a2b0f62c34430f61ff1f955
 workflow-type: tm+mt
-source-wordcount: '30634'
-ht-degree: 72%
+source-wordcount: '30524'
+ht-degree: 73%
 
 ---
 
@@ -30,8 +30,6 @@ ht-degree: 72%
 Freigabedatum: 17. Juni 2026
 
 ## Neue Funktionen in dieser Version
-
-**Report Builder:** Report Builder in Adobe Learning Manager ist ein Self-Service-Berichtstool, mit dem Administratoren benutzerdefinierte Berichte erstellen und herunterladen können, indem sie nur die erforderlichen Spalten auswählen, flexible Filter anwenden und auf konsistente Daten zugreifen - alles über eine einzige Benutzeroberfläche. Dadurch entfällt die Notwendigkeit, sich auf feste, vorkonfigurierte Berichte und manuelle Nachbearbeitung in externen Tools zu verlassen, indem Benutzer Berichte ganz einfach konfigurieren, speichern und wiederverwenden können. Durch die Berücksichtigung von Einschränkungen wie starren Spaltenstrukturen, eingeschränkten Filteroptionen und inkonsistenten Datenquellen optimiert Report Builder die Workflows für die Berichterstellung, stellt genaue Erkenntnisse sicher und spart Zeit, während gleichzeitig bestehende Standardberichte für vordefinierte Anwendungsfälle ergänzt werden. Weitere Informationen finden Sie unter [Report Builder](/help/migrated/administrators/feature-summary/alm-report-builder.md).
 
 **Registrierung mit einem Klick:** Mit einer Registrierung mit einem Klick können Teilnehmer einen Deep-Link zu einem von Administratoren freigegebenen Modul öffnen und sofort auf den Inhalt zugreifen, ohne sich zuerst anmelden und dann den Kurs separat starten zu müssen. Dies vereinfacht den Zugriff, spart Zeit und verbessert das allgemeine Lernerlebnis. Weitere Informationen finden Sie unter [Registrierung mit einem Klick](/help/migrated/administrators/feature-summary/admin-one-click-enrollment.md).
 
