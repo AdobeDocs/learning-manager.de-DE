@@ -6,8 +6,8 @@ contentowner: kuppan
 exl-id: 33bc4872-2092-45c4-ac57-f2cec2ca33fb
 source-git-commit: 3644e5d14cc5feaefefca85685648a899b406fce
 workflow-type: tm+mt
-source-wordcount: '3443'
-ht-degree: 68%
+source-wordcount: '3455'
+ht-degree: 76%
 
 ---
 
@@ -19,11 +19,11 @@ Soziales Lernen ist eine Plattform in Learning Manager, auf der Benutzer Ideen u
 
 Durch die bloße Teilnahme an einer Schulung kann nicht garantiert werden, dass die Benutzer alles behalten, was unterrichtet wird. Auf der anderen Seite ermöglicht Soziales Lernen den Benutzern, das Wissen um sich herum zu nutzen, um genau die Informationen zu erhalten, die sie benötigen. Benutzer können diese Informationen schnell anwenden, um eine Aufgabe abzuschließen und ein Ziel zu erreichen.
 
-In ähnlicher Weise ermöglicht die Learning Manager-Funktion &quot;Soziales Lernen&quot; Benutzern, miteinander zu interagieren, indem sie Inhalte teilen und daraus lernen können.
+In ähnlicher Weise ermöglicht Soziales Lernen in Learning Manager, dass Benutzer miteinander interagieren können, indem sie Inhalte teilen und daraus lernen können.
 
 Auf dieser Plattform können verschiedene Inhalte geteilt werden: Video, Audio, Screenshot, Text, Frage und Umfrage. Benutzer können ihre Online-Lernergebnisse auch mit ihren Kollegen teilen, indem sie das Bookmarklet **Teilen auf Sozial** verwenden. Weitere Informationen finden Sie unter [Freigeben für Soziales Lernen](share-to-social.md).
 
-Mithilfe der **Adobe Learning Manager-Desktop-Anwendung** können Inhalte auch in einem Board veröffentlicht werden. Weitere Informationen finden Sie unter [Adobe Learning Manager-App für Desktop](../adobe-learning-manager-app-for-desktop.md).
+Mit Hilfe der **Adobe Learning Manager-Desktop-Anwendung** können Inhalte auch in einem Board veröffentlicht werden. Weitere Informationen finden Sie unter [Adobe Learning Manager-App für Desktop](../adobe-learning-manager-app-for-desktop.md).
 
 Nur wenn der Administrator Soziales Lernen aktiviert, ist die Funktion für einen Teilnehmer sichtbar.
 
@@ -137,11 +137,11 @@ Der Inhalt wird als Beitrag in einem Forum erstellt. Um einen Kurs zu erstellen,
 
 1. Wählen Sie eine der folgenden Arten von Inhalten aus, die veröffentlicht werden sollen: Text, Frage, Video, Audio, Umfrage und Screenshot. Bestehende Inhalte können vom System des Benutzers oder von der Galerie der Adobe Learning Manager-Desktop-Anwendung hochgeladen werden.
 
-   Verwenden Sie die Adobe Learning Manager-Desktop-Anwendung, um ein Video oder einen Bildschirm und Audio aufzunehmen und einen Screenshot zu erstellen. Weitere Informationen finden Sie unter [Adobe Learning Manager Desktop-Anwendung](../adobe-learning-manager-app-for-desktop.md).
+   Verwenden Sie die Adobe Learning Manager-Desktop-Anwendung, um ein Video oder einen Bildschirm und Audio aufzunehmen und einen Screenshot zu erstellen. Weitere Informationen finden Sie unter [Adobe Learning Manager-Desktop-Anwendung](../adobe-learning-manager-app-for-desktop.md).
 
    <!--![](assets/types-of-post-03.png)-->
 
-1. Suche nach einem Board oder Kenntnissen, die sich auf den Beitrag beziehen. Wenn das Board nicht vorhanden ist, klicken Sie auf **[!UICONTROL Neues Board erstellen]**.
+1. Suche nach einem Board oder Kenntnissen, die sich auf den Beitrag beziehen. Wenn das Board nicht vorhanden ist, klicken Sie auf **[!UICONTROL Neues Boras erstellen]**.
 
    ![](assets/create-a-new-board-04.png)
 
@@ -161,13 +161,13 @@ Der Inhalt wird als Beitrag in einem Forum erstellt. Um einen Kurs zu erstellen,
    >
    >In der &quot;Social Learner&quot;-App kann nur ein **Administrator** ein privates Board mit (internen/externen) Benutzergruppen erstellen.
    >
-   >Alle anderen Benutzer außer Administrator, Autor, Teilnehmer, Manager, Kursleiter usw. **kann** keine privaten Boards mit Benutzergruppen erstellen. Sie können den Abschnitt von **Benutzergruppen** nicht sehen, während Sie ein privates Board erstellen.
+   >Alle anderen Benutzer außer Administrator, Autor, Teilnehmer, Manager, Kursleiter usw. **können keine** privaten Boards mit Benutzergruppen erstellen. Sie können den Abschnitt der **Benutzergruppen** nicht sehen, während Sie ein privates Board erstellen.
 
    Nur Administrator: Wenn Sie **Privat** auswählen, werden zwei Optionen angezeigt: **Benutzer** und **Benutzergruppen**. Wählen Sie die Option **Benutzergruppen** und fügen Sie dann die Benutzergruppen hinzu, für die Sie das private Board freigeben möchten.
 
    Im Feld „Benutzergruppen“ können Sie interne, externe oder benutzerdefinierte Gruppen auswählen. Ihr privates Board ist dann unabhängig von den Bereichseinstellungen für alle angegebenen Benutzergruppen sichtbar.
 
-1. Klicken Sie auf **[!UICONTROL Beitrag]**, um Inhalte freizugeben. Wenn Sie auf „Beitrag“ klicken, erhält der Benutzer eine Benachrichtigung.
+1. Klicken Sie auf **[!UICONTROL Beitrag]**, um Inhalte zu teilen. Wenn Sie auf „Beitrag“ klicken, erhält der Benutzer eine Benachrichtigung.
 
    Der Inhalt wird basierend auf der Kurationseinstellung veröffentlicht, die vom Administrator für Inhalte für Soziales Lernen festgelegt wurde, die von [Board-Moderatoren/Fachexperten](social-learning-web-user.md#HowtobecomeaSubjectMatterExpertSME) kuratiert werden kann.
 
@@ -217,7 +217,7 @@ Wenn der Benutzer mit Veröffentlichen von Inhalten fertig ist, kann er von ande
 
 ## Board-Ansicht in Soziales Lernen {#board-view-social}
 
-Ein Teilnehmer kann alle Boards in einer Listenansicht anzeigen. Melden Sie sich bei Ihrer Teilnehmer-App an und klicken Sie auf der Seite &quot;Soziales Lernen&quot; auf die Schaltfläche, wie unten gezeigt:
+Ein Teilnehmer kann alle Boards in einer Listenansicht anzeigen. Melden Sie sich bei Ihrer Teilnehmer-App an und klicken Sie auf der Seite „Soziales Lernen“ auf die Schaltfläche, wie unten gezeigt:
 
 ![](assets/image002.png)
 
@@ -245,8 +245,7 @@ Teilnehmer mit Zugriff auf das Soziale Board können andere Benutzer in Social-L
 
 ### Benutzer in Social-Board-Beiträgen taggen
 
-Mit @username können Sie bestimmte Board-Mitglieder in Beiträgen oder Kommentaren mit Tags versehen. Das Markieren ist auf Mitglieder mit Zugriff auf dieses Board beschränkt.
-So markieren Sie Benutzer in einem Sozialen Board:
+Mit @username können Sie bestimmte Board-Mitglieder in Beiträgen oder Kommentaren mit Tags versehen. Das Markieren ist auf Mitglieder mit Zugriff auf dieses Board beschränkt.So markieren Sie Benutzer in einem Sozialen Board:
 
 1. Melden Sie sich bei Adobe Learning Manager als Teilnehmer an.
 2. Wählen Sie im linken Navigationsbereich **[!UICONTROL Soziales Lernen]** aus.
@@ -320,11 +319,11 @@ Teilnehmer können den Inhalt mit Anlagen von der Plattform für soziales Lernen
 
 *Beitrag in sozialen Medien herunterladen*
 
-Sie können den Inhalt aus den Bereichen &quot;Beiträge&quot;, &quot;Kommentare&quot; oder &quot;Antworten&quot; herunterladen. Sie können jeweils nur eine Datei herunterladen.
+Sie können den Inhalt aus den Bereichen „Beiträge“, „Kommentare“ oder „Antworten“ herunterladen. Sie können jeweils nur eine Datei herunterladen.
 
-Beide Benutzertypen (intern oder extern) müssen in der Lage sein, den Inhalt herunterzuladen.
+Beide Arten von Benutzern (intern oder extern) müssen in der Lage sein, den Inhalt herunterzuladen.
 
-Die Schaltfläche Herunterladen kann auch in Suchergebnissen für Beiträge, Kommentare oder Antworten angezeigt werden.
+Die Schaltfläche „Herunterladen“ kann auch in Suchergebnissen für Beiträge, Kommentare oder Antworten angezeigt werden.
 
 Sie können noch keinen Beitrag in die Geräte-App herunterladen. Diese Funktion wird in Kürze verfügbar sein.
 
@@ -461,7 +460,7 @@ Führen Sie die folgenden Schritte aus, um einen Beitrag zu einer Story hinzuzuf
 
    *Textabschnittsnamen und Beschreibung hinzufügen*
 
-   Klicken Sie zum Anzeigen der von Benutzern erstellten Storys in den Profilmenüoptionen auf den Benutzernamen. 
+   Klicken Sie zum Anzeigen der von Benutzern erstellten Storys in den Profilmenüoptionen auf den Benutzernamen.
 
 ## Benutzerberechtigungen zum Ausführen der Aktionen für einen Beitrag {#userprivilegesforperformingtheactionsonapost}
 
@@ -548,7 +547,7 @@ Boards sind eine Sammlung von Beiträgen. Jedes Board im Sozialen Lernen basiert
 
 Auf der Seite „Alle Boards“werden Beiträge oder Boards angezeigt, die von allen Benutzern in einem Aktivitätsbereich erstellt wurden. Auf der Seite „Eigene Boards“ sind jedoch nur Boards sichtbar, die von einem Benutzer erstellt, gefolgt und bei denen ein Benutzer teilgenommen hat.
 
-Auf der Seite &quot;Eigene Boards&quot; können die sichtbaren Boards nach folgenden Kriterien gefiltert werden: **Alle**, **Erstellt von mir**, **Kommentiert von mir**, **Gefolgt von mir**.
+Auf der Seite &quot;Eigene Boards&quot; können die sichtbaren Boards nach folgenden Kriterien gefiltert werden: **Alle**, **Von mir erstellt**, **Von mir kommentiert**, **Von mir gefolgt**.
 
 ![](assets/board-filter-07.png)
 
@@ -560,7 +559,7 @@ In „Meine Boards“ und „Alle Boards“, können Benutzer die Boards nach **
 
 *Boards nach Relevanz und Datum sortieren*
 
-Wenn beim Erstellen eines Beitrags keine relevanten Boards für den Beitrag vorhanden sind, klicken Sie auf [Neues Board erstellen](social-learning-web-user.md#Creatingcontentasapost).  Um eine URL anzuzeigen, zu bearbeiten, zu löschen, zu melden, zu kopieren und ein Board zu Ihrer bevorzugten Boardliste hinzuzufügen, führen Sie die folgenden Schritte aus:
+Wenn beim Erstellen eines Beitrags keine relevanten Boards für den Beitrag vorhanden sind, klicken Sie auf [Neues Board erstellen](social-learning-web-user.md#Creatingcontentasapost).  Gehen Sie wie folgt vor, um eine URL anzuzeigen, zu bearbeiten, zu löschen, zu melden, zu kopieren und ein Board zu Ihrer bevorzugten Boardliste hinzuzufügen:
 
 1. Klicken Sie auf den Boardnamen oder klicken Sie auf **[!UICONTROL Zu Board navigieren]**.
 1. Klicken Sie auf der Board-Seite auf das reduzierte Menüsymbol und wählen Sie eine Option aus der Dropdown-Liste aus.
