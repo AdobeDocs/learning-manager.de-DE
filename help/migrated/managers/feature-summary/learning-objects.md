@@ -5,8 +5,8 @@ title: Lernobjekte
 exl-id: b633751c-9e88-4ffe-8055-b3d6bc63c422
 source-git-commit: 6862dc1958a34a369f0e0e7218f28151a47beb3b
 workflow-type: tm+mt
-source-wordcount: '1725'
-ht-degree: 60%
+source-wordcount: '1741'
+ht-degree: 76%
 
 ---
 
@@ -29,7 +29,7 @@ Als Manager können Sie eine Liste aller verfügbaren Kurse anzeigen. Klicken Si
 
 >[!NOTE]
 >
->Durch Klicken auf die Registerkarte **Eingestellt** können Sie eine Liste aller eingestellten Kurse anzeigen.
+>Sie können eine Liste aller eingestellten Kurse anzeigen, indem Sie auf die Registerkarte **Eingestellt** klicken.
 
 ## Punktzahl für Quiz anzeigen {#viewquizscores}
 
@@ -66,7 +66,7 @@ Sie können die Teilnehmerliste auch in ein Excel-Arbeitsblatt exportieren. Um d
 
 >[!NOTE]
 >
->Wenn es mehrere Instanzen eines Kurses gibt, wird die Excel-Teilnehmerliste jeweils auf getrennten Registerkarten angezeigt. Die Teilnehmerliste enthält Namen, Status und Auswahlkriterien der Teilnehmer. Der Teilnehmerstatus kann **Nicht gestartet** oder **In Bearbeitung** oder **Abgeschlossen** sein.
+>Wenn es mehrere Instanzen eines Kurses gibt, wird die Excel-Teilnehmerliste jeweils auf getrennten Registerkarten angezeigt. Die Teilnehmerliste enthält Namen, Status und Auswahlkriterien der Teilnehmer. Folgende Teilnehmerstatus sind möglich: **Nicht begonnen**, **Wird ausgeführt** und **Abgeschlossen**.
 
 ## L1- und L3-Feedback anzeigen {#viewl1andl3feedback}
 
@@ -78,7 +78,7 @@ Sie können das L1-Feedback der Teilnehmer zu einem Kurs und das L3-Feedback fü
 
 ## Kursvorschau {#previewcourses}
 
-Der Manager kann eine Vorschau der Kurse anzeigen, indem er auf die Option **Vorschau als Teilnehmer** klickt, während er die Kursmodule anzeigt.
+Manager können Kurse bei der Anzeige der Kursmodule durch Klicken auf **Vorschau als Teilnehmer** in einer Vorschau anzeigen.
 
 1. Klicken Sie im linken Teilfenster auf **[!UICONTROL Kurse]**, nachdem Sie sich angemeldet haben.
 1. Klicken Sie auf der Seite auf eine beliebige Kachel der Kursliste.
@@ -110,10 +110,10 @@ Wie aus dem obigen Kreisdiagramm hervorgeht, wird das L3-Feedback des Managers a
 
 Adobe Learning Manager erleichtert Ihnen das schnelle Auffinden der Kurse/Lernpfade Ihrer Wahl. Für die Suche nach Kursen haben Sie zwei Möglichkeiten:
 
-1. Über das Suchfeld. Klicken Sie auf das Suchsymbol in der rechten oberen Ecke. Ein Suchfeld erscheint. Geben Sie den Kursnamen oder zu Ihren Kursen passende Schlüsselwörter ein, um Ihre Kurse/Lernpfade zu finden. Sie können auch mit vordefinierten Tags wie Captivate, C, Java und HTML suchen. Nach Tags können Sie im Suchfeld suchen, was bedeutet, dass die Tags im Suchfeld angezeigt werden, während Sie tippen. Die Suche kann kann auch mit einer eindeutigen ID ausgeführt werden.
+1. Über das Suchfeld. Klicken Sie auf das Suchsymbol in der rechten oberen Ecke. Ein Suchfeld erscheint. Geben Sie den Kursnamen oder zu Ihren Kursen passende Schlüsselwörter ein, um Ihre Kurse/Lernpfade zu finden. Sie können auch mithilfe vordefinierter Tags wie Captivate, C, Java und HTML suchen. Nach Tags können Sie im Suchfeld suchen, was bedeutet, dass die Tags im Suchfeld angezeigt werden, während Sie tippen. Die Suche kann kann auch mit einer eindeutigen ID ausgeführt werden.
 1. Filtern Sie die Liste der Kurse/Lernpfade/Zertifizierungen mithilfe der Filter. Sie können die Kurse nach Status filtern, z. B. Alle, Veröffentlicht und Eingestellt.
 
-Sie können nach Kompetenzen suchen, indem Sie **Kompetenzen** auswählen und auswählen. Als Manager können Sie die Kurse auf vier Arten sortieren, um den gewünschten Kurs besser zu finden. Klicken Sie auf Sortieren nach und wählen Sie alphabetisch aufsteigende Reihenfolge, alphabetisch absteigende Reihenfolge, Datum der Kursaktualisierung, Erstellungsdatum des Kurses oder Kurseffektivität:
+Sie können nach Kompetenzen suchen, indem Sie **Kompetenzen** auswählen und auswählen. Als Manager können Sie die Kurse auf vier verschiedene Weisen sortieren, um den gesuchten Kurs leichter zu finden. Klicken Sie auf Sortieren nach und wählen Sie alphabetisch aufsteigende Reihenfolge, alphabetisch absteigende Reihenfolge, Datum der Kursaktualisierung, Erstellungsdatum des Kurses oder Kurseffektivität:
 
 * Name (a - z)
 * Name (z - a)
@@ -125,7 +125,7 @@ Sie können nach Kompetenzen suchen, indem Sie **Kompetenzen** auswählen und au
 
 *Kurse filtern*
 
-Sie können Lernpfade auf drei Arten sortieren: in alphabetisch aufsteigender Reihenfolge, in alphabetisch absteigender Reihenfolge und basierend auf dem aktualisierten Datum.
+Sie können Lernpfade auf drei Arten sortieren: alphabetisch aufsteigende Reihenfolge, alphabetisch absteigende Reihenfolge und basierend auf dem aktualisierten Datum.
 
 ![](assets/filter-learning-paths.png)
 
@@ -135,7 +135,7 @@ Sie können Lernpfade auf drei Arten sortieren: in alphabetisch aufsteigender Re
 
 Gemäß den Vorgaben des Unternehmens registriert der Manager einige Teilnehmer für obligatorische Kurse:
 
-1. Bewegen Sie die Maus über alle veröffentlichten Kurskacheln und klicken Sie auf &quot;Teilnehmer registrieren&quot;.
+1. Zeigen Sie mit der Maus auf die Kachel eines veröffentlichten Kurses und klicken Sie auf „Teilnehmer registrieren“.
 
    Alternativ können Sie auf die Kachel eines veröffentlichten Kurses klicken und auf Teilnehmer im linken Teilfenster klicken. Es wird eine Seite mit einer Teilnehmerliste angezeigt. Klicken Sie auf „Registrieren“.\
    Das Dialogfeld &quot;Teilnehmer registrieren&quot; wird angezeigt.
@@ -179,8 +179,8 @@ Ein Manager kann ein LP für Teilnehmer als abgeschlossen markieren. Weitere Inf
 
 Sie können Teilnehmer auf zweierlei Art für eine Zertifizierung registrieren. Führen Sie die unten genannten Schritte aus, um Teilnehmer zu registrieren:
 
-1. Klicken Sie im linken Teilfenster auf &quot;Zertifizierungen&quot;, nachdem Sie sich als Manager angemeldet haben. Bewegen Sie in der Liste auf der Registerkarte Veröffentlicht die Maus auf jede Zertifizierung und klicken Sie auf Teilnehmer registrieren. Alternativ können Sie auf eine veröffentlichte Zertifizierungskachel klicken und im linken Teilfenster auf Teilnehmer klicken. Klicken Sie auf + Registrieren auf der rechten Seite der Teilnehmerseite, um mit dem Hinzufügen der Teilnehmer zu beginnen.
-1. Sie können das Popup-Dialogfeld &quot;Teilnehmer registrieren&quot; anzeigen, nachdem Sie in jedem der beiden oben genannten Schritte auf die Option &quot;Teilnehmer registrieren&quot; geklickt haben. Beginnen Sie mit der Eingabe des Namens und des Profils des Teilnehmers, wählen Sie den Namen des Teilnehmers aus der Dropdown-Liste aus und klicken Sie auf Speichern.
+1. Klicken Sie auf „Zertifizierungen“ im linken Bereich, nachdem Sie sich als Manager angemeldet haben. Bewegen Sie die Maus in der Liste auf der Registerkarte „Veröffentlicht“ auf die entsprechende Zertifizierung und klicken Sie auf „Teilnehmer registrieren“. Außerdem können Sie jede Kachel von veröffentlichten Zertifizierungen anklicken und im linken Bereich auf Teilnehmer klicken. Klicken Sie auf „+Registrieren“ auf der rechten Seite der Teilnehmerseite, um Teilnehmer hinzuzufügen.
+1. Sie sehen den Popupdialog Teilnehmer registrieren, nachdem Sie die Option „Teilnehmer registrieren“ in einem der beiden oben angeführten Schritte angeklickt haben. Beginnen Sie damit, den Namen und das Profil des Teilnehmers einzugeben, wählen Sie den Namen des Teilnehmers aus der Dropdown-Liste aus und klicken Sie auf Speichern.
 
 ## Registrierung für Teilnehmer widerrufen {#Unenrollmentforlearners-1}
 
@@ -192,7 +192,7 @@ Ein Manager kann den Abschluss einer Zertifizierung vermerken. Weitere Informati
 
 ## Manager-Benachrichtigungen für die Genehmigung von Teilnehmerkursen {#manager-notifications-course-approval}
 
-Beim Versuch, einen Teilnehmer für die Registrierung zu akzeptieren oder abzulehnen, kann ein Manager jetzt die Details der Sitzung (**Videokonferenz** oder **Klassenzimmer**) im Popupfenster anzeigen.
+Bei dem Versuch, einen Teilnehmer für die Registrierung zu akzeptieren oder abzulehnen, kann ein Manager jetzt die Details der Sitzung (**Videokonferenz** oder **Klassenzimmer**) im Popupfenster anzeigen.
 
 ![](assets/approve-a-learner.png)
 

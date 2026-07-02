@@ -6,8 +6,8 @@ contentowner: manochan
 exl-id: 2c62d36c-c500-40d6-b79f-d3cc8b3b756a
 source-git-commit: f022ecdc10a8d9d473cd598697422edbb302a78c
 workflow-type: tm+mt
-source-wordcount: '3307'
-ht-degree: 59%
+source-wordcount: '3331'
+ht-degree: 74%
 
 ---
 
@@ -17,9 +17,9 @@ Lesen Sie die folgenden Artikel, um zu erfahren, wie Sie Kurse in Learning Manag
 
 Autoren erstellen Kurse. Teilnehmer können Kurse absolvieren und Administratoren können die Leistung der Teilnehmer basierend darauf, ob und wie die Kurse konsumiert werden, verfolgen.
 
-## Überblick {#overview}
+## Übersicht {#overview}
 
-Mit Adobe Learning Manager können Teilnehmende auf Kurse, Lernprogramme und Zertifizierungen zugreifen. Teilnehmer können über den Katalog alle verfügbaren Kurse durchsuchen oder sich selbst für Kurse ihrer Wahl registrieren. Teilnehmer können alle Kurse, für die sie registriert sind, und die Kurse, die ihnen zugewiesen wurden, auf der Registerkarte &quot;Lernen&quot; anzeigen.
+Mit Adobe Learning Manager können Teilnehmende auf Kurse, Lernprogramme und Zertifizierungen zugreifen. Teilnehmer können über den Katalog alle verfügbaren Kurse durchsuchen oder sich selbst für Kurse ihrer Wahl registrieren. Teilnehmer können alle Kurse, für die sie registriert sind, und die Kurse, die ihnen zugewiesen wurden, in der Registerkarte „Lernen“ sehen.
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ Mit Adobe Learning Manager können Teilnehmende auf Kurse, Lernprogramme und Zer
 
 ## Anzeigen von Lernobjekten {#viewingcourses}
 
-Sie können als Teilnehmer eine Liste aller verfügbaren Kurse anzeigen. Klicken Sie auf der Startseite oder im linken Teilfenster auf &quot;Eigenes Lernen&quot;, um alle Kurse anzuzeigen, für die Sie sich registriert haben.
+Sie können als Teilnehmer eine Liste aller verfügbaren Kurse anzeigen. Klicken Sie auf der Startseite oder im linken Teilfenster auf „Eigenes Lernen“, um alle Kurse anzuzeigen, für die Sie sich registriert haben.
 
 ![](assets/view-courses.png)
 *Zugewiesene Kurse anzeigen*
@@ -67,10 +67,10 @@ Klicken Sie in der rechten unteren Ecke des Popupmenüs auf den Abwärtspfeil, u
 
 Mit Adobe Learning Manager fällt es Ihnen leichter, Kurse Ihrer Wahl schnell zu finden. Sie können Ihre Kurse auf die folgenden Arten suchen:
 
-1. Klicken Sie auf das Suchsymbol in der rechten oberen Ecke. Ein Suchfeld erscheint. Geben Sie den Namen des Kurses/Lernprogramms oder zu Ihrem Kurs passende Schlüsselwörter ein. Sie können nach Kursen mithilfe von Metadaten, Hinweisen, Kenntnissen, Abzeichen oder Tags suchen. Nach Tags können Sie im Suchfeld suchen, was bedeutet, dass die Tags im Suchfeld angezeigt werden, während Sie tippen.
+1. Klicken Sie auf das Suchsymbol in der rechten oberen Ecke. Ein Suchfeld erscheint. Geben Sie den Namen des Kurses/Lernprogramms oder zu Ihrem Kurs passende Schlüsselwörter ein. Sie können die Kurse nach Metadaten, Hinweisen, Kenntnissen, Abzeichen oder Tags durchsuchen. Nach Tags können Sie im Suchfeld suchen, was bedeutet, dass die Tags im Suchfeld angezeigt werden, während Sie tippen.
 1. Der Teilnehmer kann die Suchergebnisse auf der Katalogseite mit Typ, Fähigkeiten, Tags und Status verfeinern.
 
-Sie können die Kurse nach Relevanz, Name oder Veröffentlichungsdatum sortieren, indem Sie auf &quot;Sortieren nach&quot; klicken und im Dropdown-Menü auswählen.
+Sie können die Kurse nach Relevanz, Name oder Veröffentlichungsdatum sortieren, indem Sie auf „Sortieren nach“ klicken und im Dropdown-Menü auswählen.
 
 Auf der Seite mit den Suchergebnissen können Sie die Kurse nach **Dauer** der Kurse und **Format** der Kurse filtern. So können Sie flexibler nach Kursen suchen und die für Sie geeigneten Kurse finden.
 
@@ -83,12 +83,12 @@ Es gibt drei Möglichkeiten zum Registrieren von Teilnehmern für Kurse:
 1. Teilnehmer können sich selbst direkt für einen Kurs/ein Lernprogramm registrieren:
 
    1. Wenn es sich um einen Kurs/ein Lernprogramm mit Selbstregistrierung handelt, wird der Teilnehmer unverzüglich registriert.
-   1. Wenn es sich um einen Kurs/ein Lernprogramm handelt, der/das vom Manager genehmigt werden muss, erhält der Teilnehmer den Status **Genehmigung ausstehend**. Nach der Genehmigung durch den Manager wird der Teilnehmer für den Kurs registriert.
+   1. Wenn es sich um einen Kurs/ein Lernprogramm handelt, der/das vom Manager genehmigt werden muss, erhält der Teilnehmer den Status **Ausstehende Genehmigung**. Nach der Genehmigung durch den Manager wird der Teilnehmer für den Kurs registriert.
    1. Wenn Teilnehmer sich für einen Kurs registrieren, für den es bereits eine Warteliste gibt (bei Präsenzkursen), müssen sie warten, bis jemand aus dem Kurs ausscheidet oder der Administrator sie für den Kurs zulässt.
 
 Teilnehmer können sich nach ihren eigenen Wünschen für eine breite Palette an Lernprogrammen registrieren. Die Registerkarte „Kurse“ zeigt alle Ihre registrierten/zugewiesenen Kurse an.
 
-Sie haben jedoch die Möglichkeit, alle Kurse, die im Katalog aufgeführt sind, zu durchsuchen, indem Sie die Maus darauf bewegen und auf &quot;Durchsuchen&quot; klicken. Die Registrierungsseite wird angezeigt. Klicken Sie auf „Registrieren“ in der rechten oberen Ecke der Seite, damit der Kurs in die Liste der Kurse einbezogen wird.
+Sie haben jedoch die Möglichkeit, alle Kurse, die im Katalog angeführt sind, zu durchsuchen, indem Sie die Maus darauf bewegen und auf „Durchsuchen“ klicken. Die Seite „Registrieren“ erscheint. Klicken Sie auf „Registrieren“ in der rechten oberen Ecke der Seite, damit der Kurs in die Liste der Kurse einbezogen wird.
 
 Es kann für einen Kurs/ein Lernprogramm mehrere Instanzen/Sitzungen geben. Klicken Sie im Katalog auf Namen der Kachel für den Kurs/das Lernprogramm, um ausführliche Informationen dazu abzurufen. Sie sehen die Registrierung für die Instanz des Kurses/Lernprogramms anhand des Datums, zu dem die Frist für die jeweilige Kurs-/Lernprogramminstanz abläuft.
 
@@ -124,7 +124,7 @@ Ein Administrator kann die Instanzen für Teilnehmer wechseln. Wählen Sie in de
 ![Alternativtext](assets/switch-instance-admin.png)
 _Instanz von der Admin Console wechseln_
 
-![Instanzen wechseln: &#x200B;](assets/switch-instances-select.png) auswählen
+![Instanzen wechseln auswählen](assets/switch-instances-select.png)
 _Aufforderung zum Wechseln der Instanz_
 
 Sie können die Instanzen erst wechseln, wenn eine Instanz des Kurses über die Teilnehmer- oder Admin-App abgeschlossen wurde.
@@ -158,7 +158,7 @@ Als Teilnehmer können Sie einen Kurs nur nach der Registrierung bewerten. Sie k
 
    Wenn Sie das Feedback erneut senden möchten, klicken Sie dazu auf die Meldung. Nachdem die Bewertung gesendet wurde, wird die Meldung drei Sekunden lang angezeigt. Anschließend wird die Bewertung angezeigt. Wenn Sie die Bewertung ändern möchten, können Sie eine andere Sternbewertung auswählen und senden.
 
-Kurse können anhand der durchschnittlichen Bewertungen sortiert werden. Sie können die Fälle in der Dropdown-Liste &quot;Sortieren nach&quot; in der rechten oberen Ecke sortieren, die in **Katalog** verfügbar ist.
+Kurse können anhand der durchschnittlichen Bewertungen sortiert werden. Sie können die Fälle in der Dropdown-Liste „Sortieren nach“ in der rechten oberen Ecke sortieren, die unter **Katalog** verfügbar ist.
 
 ## Einen Kurs belegen {#consumingnbspacourse}
 
@@ -172,7 +172,7 @@ Sie können alle Module für den Kurs in einem Browserfenster anzeigen.
 
 **Inhaltsverzeichnis** - Während der Bearbeitung eines Kurses zeigt der Player ein Inhaltsverzeichnis für diesen bestimmten Kurs im linken Bereich des Fensters an. Sie können auf jedes Thema klicken und direkt dorthin navigieren.
 
-**Lesezeichen** - Wenn ein Kursmodul ein Modul-Inhaltsverzeichnis hat, können die Themen im Modul-Inhaltsverzeichnis mit einem Lesezeichen versehen werden, sodass später darauf verwiesen werden kann. Wenn Themen mit einem Lesezeichen versehen wurden, sehen Sie neben dem Eintrag im Inhaltsverzeichnis ein Bannersymbol. Lesezeichen können gelöscht werden, indem man erneut auf das Bannersymbol klickt.
+**Lesezeichen** - Wenn ein Kursmodul ein Modul-Inhaltsverzeichnis hat, können die Themen im Modul-Inhaltsverzeichnis mit einem Lesezeichen versehen werden, sodass später darauf verwiesen werden kann. Wenn Themen mit einem Lesezeichen versehen wurden, sehen Sie neben dem Eintrag im Inhaltsverzeichnis ein Bannersymbol. Lesezeichen können durch erneutes Klicken auf das Bannersymbol gelöscht werden.
 
 **Anmerkungen** - Eine Anmerkungsfunktion ist während der Bearbeitung des Kurses verfügbar. Wenn Sie Anmerkungen aufgezeichnet haben, können Sie sie als PDF herunterladen oder per E-Mail an die E-Mail-IDs registrierter Teilnehmer schicken. Wenn Sie auf „Speichern“ klicken, können Sie den Speicherort für die PDF-Datei wählen.
 
@@ -187,9 +187,9 @@ Sie können alle Module für den Kurs in einem Browserfenster anzeigen.
 * Klicken Sie auf „Erneut aufrufen“ wenn sich der Kurs im Status „Abgeschlossen“ befindet.
 * Klicken Sie auf „Fortfahren“ wenn der Kurs noch nicht abgeschlossen ist.
 
-**Vollbild** Klicken Sie auf das Vollbild-Symbol in der unteren rechten Ecke des Players, um den Kurs auf dem Vollbildschirm anzuzeigen.
+**Vollbild** Klicken Sie auf das Vollbild-Symbol in der rechten unteren Ecke des Players, um den Kurs auf dem Vollbildschirm anzuzeigen.
 
-**Navigationsschaltflächen** Sie können die Pfeile nach oben/unten anklicken, um im pdf-, docx- und pptx-Format durch die Folien zu navigieren. Die Pfeile „Nächste Seite“ oder „Vorherige Seite“ können verwendet werden, um zum nächsten Thema aller Arten von Inhalten zu navigieren.
+**Navigationsschaltflächen** Sie können die Pfeile nach oben/nach unten anklicken, um im pdf-, docx- und pptx-Format durch die Folien zu navigieren. Die Pfeile „Nächste Seite“ oder „Vorherige Seite“ können für alle Arten von Inhalt dazu verwendet werden, zum nächsten Thema zu navigieren.
 
 **Kurs schließen** Klicken Sie auf das Symbol zum Schließen (x) in der rechten oberen Ecke des Players, um den Kurs zu beenden.
 
@@ -201,12 +201,12 @@ Wenn ein Kurs mehrere Instanzen hat, haben die Teilnehmer die Möglichkeit, eine
 
 ## Sternebewertung
 
-Erst nach der Registrierung für einen Kurs kann ein Teilnehmer dem Kurs ein Sternefeedback geben. Auf der Seite &quot;Kursübersicht&quot; eines Kurses kann der Teilnehmer den Kurs mit Sternen bewerten (1 als niedrigste, 5 als höchste Wertung).
+Erst nach der Registrierung für einen Kurs kann ein Teilnehmer dem Kurs ein Feedback mittels Sternebewertung geben. Auf der Seite „Kursübersicht“ eines Kurses kann der Teilnehmer den Kurs mithilfe von Sternen bewerten (1 als niedrigste, 5 als höchste Wertung).
 
 ![](assets/star-rating.png)
 *Sternebewertung als Feedback angeben*
 
-Ein Teilnehmer kann einen bestimmten Stern auswählen (von 5) und die Bewertung senden. Der Teilnehmer kann die Auswahl auch bearbeiten, indem er auf einen anderen Stern klickt. Nach der Übermittlung wird die Meldung &quot;Vielen Dank für Ihr Feedback!&quot; angezeigt.
+Ein Teilnehmer kann einen bestimmten Stern auswählen (von 5) und die Bewertung senden. Der Teilnehmer kann die Auswahl auch bearbeiten, indem er auf einen anderen Stern klickt. Nach der Übermittlung wird die Meldung „Vielen Dank für Ihr Feedback!“ angezeigt.
 
 Wenn der Teilnehmer das Feedback erneut senden möchte, klickt er dazu auf die Meldung. Die Schaltfläche **Senden** wird erneut aktiviert. Ein Teilnehmer kann nach der Registrierung für einen Kurs mehrmals eine Sternebewertung abgeben. Es wird immer die neueste Bewertung berücksichtigt.
 
@@ -237,7 +237,7 @@ Als Teilnehmer können Sie im Abschnitt **Kuratierte Wiedergabeliste** Interesse
 
 Nachdem Sie Ihr Interesse an einem Kurs/einer Schulung bekundet haben, wird das Interesse erfasst und der Administrator kann den Datensatz abrufen.
 
-In der Teilnehmer-App haben alle Administratoren Zugriff auf den Inhalts-Marketplace. Wenn der Zugriff vom Administrator widerrufen wird, können die Teilnehmer die Registerkarte &quot;Inhalts-Marketplace&quot; nicht sehen.
+In der Teilnehmer-App haben alle Administratoren Zugriff auf den Inhalts-Marketplace. Wenn der Zugriff vom Administrator widerrufen wird, können die Teilnehmer die Registerkarte „Inhalts-Marketplace“ nicht sehen.
 
 Teilnehmer, die vom Administrator eingeladen wurden, können den Inhalts-Marketplace durchsuchen.
 
@@ -256,7 +256,7 @@ Sie können den Kurs durchsuchen und in der Vorschau anzeigen und prüfen, ob er
 
 ## Materialien-Hub
 
-Mit dem Materialien-Hub können Administratoren und Fachexperten (Subject Matter Experts, SMEs) benötigte Wiedergabelisten aus der Teilnehmer-App in die Auswahlliste aufnehmen. Nach der Aufnahme in die Auswahlliste können Administratoren das Kaufanfrageformular herunterladen und es für den Adobe-Vertriebsmitarbeiter freigeben.
+Mit dem Materialien-Hub können Administratoren und Fachexperten (Subject Matter Experts – SMEs) benötigte Wiedergabelisten aus der Teilnehmer-App auf eine Auswahlliste aufnehmen. Nach der Aufnahme in die Auswahlliste können Administratoren das Kaufanfrageformular herunterladen und es für den Adobe-Vertriebsmitarbeiter freigeben.
 
 Ein Administrator kann SMEs einladen, die Wiedergabeliste, an der sie interessiert sind, in die Auswahlliste aufzunehmen.
 
@@ -277,7 +277,7 @@ Um die Kursinstanz zu wechseln, führen Sie die folgenden Schritte aus:
    ![](assets/learning-program200s.jpg)
    *Lernprogramm auswählen*
 
-1. Verwenden Sie die Optionsfelder, um auszuwählen, ob Sie alle Kurse oder Kurse mit nicht ausgewählten Instanzen anzeigen möchten. Beachten Sie, dass der Teilnehmer nach Abschluss der Instanz nicht zu einer anderen Instanz wechseln kann.
+1. Wählen Sie mithilfe der Optionsfelder, ob Sie alle Kurse oder nur Kurse mit nicht ausgewählten Instanzen anzeigen möchten. Beachten Sie, dass der Teilnehmer nach Abschluss einer Instanz nicht zu einer anderen Instanz wechseln kann.
 
    ![](assets/radio-buttons.jpg)
    *Alle Kurse oder Kurse mit nicht ausgewählten Instanzen anzeigen*
@@ -289,7 +289,7 @@ Um die Kursinstanz zu wechseln, führen Sie die folgenden Schritte aus:
 
 1. Um zur ausgewählten Instanz zu wechseln, klicken Sie oben auf **[!UICONTROL Registrierung aktualisieren]**. Die Option „Registrierung aktualisieren“ ist rechts oben auf der Seite verfügbar.
 
-   Die neu ausgewählte Instanz wird registriert. Wenn ein Teilnehmer bei einer Kursinstanz registriert ist, die Teil eines anderen LO ist, und er die Kursinstanz aktualisiert, die Teil des flexiblen Lernprogramms ist, wird er nach einer Warnung automatisch von den anderen Lernobjekten abgemeldet.
+   Die neu ausgewählte Instanz wird registriert. Wenn ein Teilnehmer bei einer Kursinstanz registriert ist, die Bestandteil eines anderen LO ist, und er die Kursinstanz aktualisiert, die dem flexiblen Lernprogramm angehört, erhält er eine Warnung und seine Registrierung bei den anderen Lernobjekten wird automatisch aufgehoben.
 
 ## Sprachbasiertes Fortschrittsmanagement
 
