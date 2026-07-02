@@ -6,8 +6,8 @@ contentowner: jayakarr
 exl-id: 2efdf01e-43fb-4377-9334-2727c5358c76
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 57%
+source-wordcount: '627'
+ht-degree: 71%
 
 ---
 
@@ -36,7 +36,7 @@ Erfahren Sie, wie Sie mithilfe der folgenden Schritte die Learning Manager-App f
 
 1. Verwenden Sie zum Installieren der Learning Manager-App in Ihrem Salesforce-Konto das installierbare Paket, das von Ihrem Account Manager oder Customer Success Manager bereitgestellt wird. Sie benötigen Administratorrechte für das Salesforce-Konto, in dem Sie diese App installieren möchten.
 
-1. Wählen Sie die entsprechende Option für Sie aus, wie in der Momentaufnahme gezeigt, und klicken Sie auf **[!UICONTROL Installieren]**.
+1. Wählen Sie die für Sie geeignete Option aus, wie im Snapshot gezeigt, und klicken Sie auf **[!UICONTROL Installieren]**.
 
    ![](assets/install-options.png)
 
@@ -52,9 +52,9 @@ Erfahren Sie, wie Sie mithilfe der folgenden Schritte die Learning Manager-App f
 
 Das Team von Learning Manager empfiehlt, dass der Salesforce-Administrator auch die Learning Manager-Benachrichtigungskomponente zum Layout der Startseite hinzufügt. Diese Komponente ermöglicht Salesforce-Benutzern, Benachrichtigungen zu Zuweisungen und anderen Ankündigungen von Learning Manager zu erhalten, auch wenn sie nicht im Kontext der Lernanwendung stehen.
 
-Um die Benachrichtigungskomponente für den Learning Manager zum Layout der Startseite hinzuzufügen, führen Sie die folgenden Schritte aus:
+Um die Benachrichtigungskomponente von Learning Manager dem Layout der Startseite hinzuzufügen, gehen Sie wie folgt vor:
 
-1. Klicken Sie oben rechts auf **[!UICONTROL Setup]**. Die Option &quot;Homepage-Layouts&quot; wird im linken Bereich angezeigt (siehe Abbildung unten).
+1. Klicken Sie oben rechts auf **[!UICONTROL Setup]**. Die Optionen für die Homepage-Layouts werden im linken Bereich angezeigt, wie in der folgenden Abbildung dargestellt.
 
    ![](assets/homepage-component.png)
 
@@ -64,4 +64,4 @@ Um die Benachrichtigungskomponente für den Learning Manager zum Layout der Star
 1. Wählen Sie die Adobe Learning Manager-Benachrichtigungsoption, die auf der Seite angezeigt wird, und klicken Sie auf **[!UICONTROL Weiter]**.
 1. Wählen Sie die Reihenfolge der im linken Bereich angezeigten Komponenten aus, zeigen Sie eine Vorschau an, und klicken Sie auf **[!UICONTROL Speichern]**.
 
-Weitere Informationen zur Anmeldung bei der Learning Manager-App und zur Verwendung dieser App in Salesforce als Teilnehmer finden Sie im Hilfeinhalt zur [Salesforce-App](../../learners/feature-summary/sfdc-app.md).
+Weitere Informationen zum Anmelden bei der Learning Manager-App und zur Verwendung in Salesforce als Teilnehmer finden Sie im [Hilfe-Inhalt zur Salesforce-App](../../learners/feature-summary/sfdc-app.md).

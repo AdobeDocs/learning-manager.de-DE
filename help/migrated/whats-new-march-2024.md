@@ -6,7 +6,7 @@ contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
 source-git-commit: c833d92533b7fbf5a87c980d8b5e088185d02ef5
 workflow-type: tm+mt
-source-wordcount: '3903'
+source-wordcount: '3960'
 ht-degree: 1%
 
 ---
@@ -244,7 +244,7 @@ In dieser Version haben wir die Sucherfahrung verbessert. Die Suchergebnisse wer
 
 Diese Änderung spiegelt Folgendes wider:
 
-* Katalog und Meine Lernseite: Die Hover-Aktion auf Kurs, Lernpfad und Zertifizierung wurde entfernt.
+* Katalog und Seite &quot;Meine Lernprogramme&quot;: Die Hover-Aktion auf dem Kurs, dem Lernpfad und der Zertifizierung wurde entfernt.
 * Das Erscheinungsbild der Suchleiste.
 * In der Lern-App wurden Filter-Tags hinzugefügt.
 
@@ -258,7 +258,7 @@ Beim Zuordnen der Kurse zu einer Kenntnisstufe wird die Liste der Kenntnisse zue
 
 ### Benutzergruppen
 
-#### Admin: Teilnehmerseite
+#### Administrator: Teilnehmerseite
 
 Wenn Sie nach einem beliebigen Benutzer suchen, laden die Optionen **Teilnehmer herunterladen** und **Exportieren** denselben Bericht herunter. In der Zwischenzeit können Sie beim Suchen nach einer Benutzergruppe jetzt gefilterte Benutzer aus dieser Benutzergruppe herunterladen. Beim Durchsuchen einer Benutzergruppe ändert sich die **Teilnehmerliste herunterladen** in **Teilnehmerliste für Benutzergruppe herunterladen** Die Option **Exportieren** lädt erneut die gesamte Liste herunter.
 
@@ -266,9 +266,7 @@ Wenn Sie nach einem beliebigen Benutzer suchen, laden die Optionen **Teilnehmer 
 
 * Die Spalten &quot;Tag(s)&quot; und &quot;Kenntnisse(s)&quot; im Schulungsbericht wurden in &quot;Tag und Kenntnisse&quot; geändert.
 * Der Bericht &quot;[Gamification Audit Trail](administrators/feature-summary/reports.md#gamification-audit-trail)&quot; wurde hinzugefügt.
-* Wenn ein Konto mehr als 280000 Teilnehmer enthält, die Kenntnissen zugewiesen sind, wird der Bericht zu Kenntnissen und Teilnehmern als gezippte CSV-Datei heruntergeladen.
-Wenn das Konto weniger als 250000 Teilnehmer hat, wird derselbe Bericht als CSV heruntergeladen.
-Wählen Sie auf der Administratorseite **Admin** > **Kenntnisse** > **Kenntnisse** > **Teilnehmer**. Der Bericht wird als CSV heruntergeladen.
+* Wenn ein Konto mehr als 280000 Teilnehmer enthält, die Kenntnissen zugewiesen sind, wird der Bericht zu Kenntnissen und Teilnehmern als gezippte CSV-Datei heruntergeladen.Wenn das Konto weniger als 250000 Teilnehmer hat, wird derselbe Bericht als CSV heruntergeladen.Wählen Sie auf der Administratorseite **Admin** > **Kenntnisse** > **Kenntnisse** > **Teilnehmer**. Der Bericht wird als CSV heruntergeladen.
 * Der [Sitzungsübersichtsbericht &#x200B;](administrators/feature-summary/reports.md#session-summary-report) enthält zwei neue Spalten: &quot;Standortinformationen&quot; und &quot;Standortbereich&quot;.
 
 ## Änderungen an der Erstellung von Klassenzimmern
@@ -283,8 +281,7 @@ Als Administrator können Sie Einschränkungen für einen Autor erzwingen, einen
 
 ## Änderungen am flexiblen Lernpfad
 
-Alle Konten (alt und neu) in werden gestartet, einschließlich Registrierungsfrist, Registrierungsfrist für Aufhebung der Registrierung und Sitzplatzbeschränkung in der Teilnehmer-App für einen flexiblen Lernpfad.
-Teilnehmer können sich jetzt für einen flexiblen Lernpfad registrieren, ohne eine Instanz des Kurses auszuwählen.
+Alle Konten (alt und neu) in werden gestartet, einschließlich Registrierungsfrist, Registrierungsfrist für Aufhebung der Registrierung und Sitzplatzbeschränkung in der Teilnehmer-App für einen flexiblen Lernpfad.Teilnehmer können sich jetzt für einen flexiblen Lernpfad registrieren, ohne eine Instanz des Kurses auszuwählen.
 
 ## Neuer Trigger für Lernpläne
 
@@ -367,13 +364,12 @@ Wir haben die Spalten *Instanz* und *Teilnehmer* zum Produktterminologie-Vokabul
 
 In dieser Version der mobilen App können Teilnehmer überfällige Kurserinnerungen planen und verwalten. Wenn Sie auf eine Benachrichtigung bei einer überfälligen Erinnerung klicken, können Sie auf die folgenden Optionen zugreifen:
 
-* Abbrechen
+* Cancel
 * Zum Kurs
 * In 3 Tagen wieder erinnern
 * Erinnere mich in einer Woche wieder.
 
-Unter Android: Durch Klicken auf die Push-Benachrichtigung werden Sie zur Seite **Kursübersicht** weitergeleitet.
-Auf iOS: Durch Klicken auf die Push-Benachrichtigung werden Sie zur Startseite der App geleitet. Dies ist eine bekannte Einschränkung in iOS.
+Unter Android: Wenn Sie auf die Push-Benachrichtigung klicken, werden Sie zur Seite **Kursübersicht** weitergeleitet.Auf iOS: Wenn Sie auf die Push-Benachrichtigung klicken, werden Sie zur Startseite der App weitergeleitet. Dies ist eine bekannte Einschränkung in iOS.
 
 ### Änderungen an der Checkliste in der Teilnehmer-App in Salesforce
 
@@ -454,7 +450,7 @@ Die APIs /account und /user?include=account geben vier Felder zurück, die spezi
 
 Ein neues Attribut ist &quot;ExpiredSubmission&quot; in &quot;learningObjectResource&quot;, das anzeigt, ob die Übermittlung in der Ressource abgelaufen ist.
 
-* GET /account API: Gibt das neue Attribut **expireSubmissionDuration** X zurück, wobei X die festgelegte Anzahl von Tagen ist. Wenn nicht festgelegt, wird 0 zurückgegeben.
+* GET /account API: Gibt das neue Attribut **expireSubmissionDuration** X zurück, wobei X der Anzahl der festgelegten Tage entspricht. Wenn nicht festgelegt, wird 0 zurückgegeben.
 * Die GET/LO-API mit der Ressource enthält das neue Attribut **isExpiredSubmission**&quot; True oder False.
    * True, wenn die Übermittlung abgelaufen ist und &quot;submissionUrl&quot; nicht angezeigt wird.
    * Wenn der Wert auf &quot;False&quot; gesetzt ist, ist die Übermittlung nicht abgelaufen und &quot;submissionUrl&quot; wird abgerufen.

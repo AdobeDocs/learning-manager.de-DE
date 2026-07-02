@@ -6,7 +6,7 @@ contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
 source-git-commit: 07d7b03fb098d01b9d1514a2f1f1550d8421bc3d
 workflow-type: tm+mt
-source-wordcount: '2451'
+source-wordcount: '2511'
 ht-degree: 2%
 
 ---
@@ -32,9 +32,9 @@ Die Benutzer in Adobe Learning Manager können je nach zugewiesenen Rollen unter
 
 Administratoren können interne Benutzer mit den folgenden Methoden hinzufügen:
 
-* **Einen einzelnen Benutzer hinzufügen**: Fügen Sie manuell jeweils einen Benutzer hinzu.
-* **Selbstregistrierungsprofil**: Ermöglichen Sie Teilnehmern, sich selbst als Teilnehmer in Adobe Learning Manager zu registrieren, indem Sie einen vom Administrator erstellten Registrierungslink verwenden.
-* **Massen-Upload über CSV**: Laden Sie eine CSV-Datei hoch, um mehrere Benutzer gleichzeitig hinzuzufügen.
+* **Einen einzelnen Benutzer hinzufügen**: Fügen Sie Benutzer manuell einzeln hinzu.
+* **Selbstregistrierungsprofil**: Ermöglichen Sie es Teilnehmern, sich über einen vom Administrator erstellten Registrierungslink als Teilnehmer in Adobe Learning Manager selbst zu registrieren.
+* **Massenupload über CSV**: Laden Sie eine CSV-Datei hoch, um mehrere Benutzer gleichzeitig hinzuzufügen.
 
 ### Internen Benutzer manuell hinzufügen
 
@@ -42,7 +42,7 @@ Administratoren können Benutzer manuell hinzufügen, indem sie ihren Namen, ihr
 
 >[!INFO]
 >
->In dieser Schulung der ALM Academy erfahren Sie, wie Sie Einzelbenutzer zu Adobe Learning Manager hinzufügen.<br>[![Schaltfläche](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555534)</br>
+>Sehen Sie sich diese Schulung der ALM Academy an, um mehr über das Hinzufügen von Einzelbenutzern zu Adobe Learning Manager zu erfahren.<br>[![button](assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555534)</br>
 
 So fügen Sie Adobe Learning Manager einen einzelnen Benutzer hinzu:
 
@@ -57,8 +57,7 @@ So fügen Sie Adobe Learning Manager einen einzelnen Benutzer hinzu:
    ![](assets/add-a-user-prompt.png)
    _Felder zum Eingeben des Namens, der E-Mail-Adresse, des eindeutigen Bezeichners und des Profils für einen neuen Benutzer_
 5. Suchen Sie nach dem Manager des Benutzers und wählen Sie den Namen aus der Liste der Manager aus.
-6. Wählen Sie **Hinzufügen** aus.
-Der Benutzer erhält eine Begrüßungs-E-Mail mit einer Anmelde-URL für den Zugriff.
+6. Wählen Sie **Hinzufügen** aus.Der Benutzer erhält eine Begrüßungs-E-Mail mit einer Anmelde-URL für den Zugriff.
 
 
 ### Selbstregistrierung für interne Benutzer zulassen
@@ -340,7 +339,7 @@ Administratoren können Benutzerdetails bearbeiten, Benutzer löschen, Rollen zu
 
 >[!INFO]
 >
->Sehen Sie sich diese Schulung der ALM Academy an, um zu erfahren, wie Sie Rollen zuweisen und entfernen, eine Begrüßungs-E-Mail senden und Benutzer löschen und bereinigen können.<br>[[Schaltfläche]](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555586)</br>
+>Sehen Sie sich diese Schulung der ALM Academy an, um zu erfahren, wie Sie Rollen zuweisen und entfernen, eine Begrüßungs-E-Mail senden und Benutzer löschen und bereinigen können.<br>[![Schaltfläche]](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555586)</br>
 
 ### Benutzer bearbeiten
 
@@ -367,7 +366,7 @@ Adobe Learning Manager unterstützt die folgenden Benutzerrollen:
 
 * **Administrator**: Verwaltet Benutzer und Benutzergruppen, weist Rollen zu und konfiguriert systemweite Voreinstellungen wie Datenquellen, zulässige Domänen und Anzeigeoptionen. Administratoren sind auch für das Erstellen und Organisieren von Lerninhalten, das Verfolgen des Lernfortschritts von Teilnehmern, das Generieren von Berichten und das Einrichten von Integrationen mit externen Systemen verantwortlich.
 * **Autor**: Erstellt und verwaltet Inhalte, einschließlich Module und Kurse.
-* **Manager**: Überwacht die Lernaktivitäten des Teams, nominiert Teammitglieder für Kurse, genehmigt Anfragen und gibt Feedback.
+* **Manager**: Überwacht die Lernaktivitäten im Team, nominiert Teammitglieder für Kurse, genehmigt Anfragen und gibt Feedback.
 * **Integrationsadministrator**: Verwaltet Systemintegrationen und Datenverbindungen zwischen ALM und externen Plattformen.
 * **Benutzerdefinierte Rollen**: Administratoren können benutzerdefinierte Rollen erstellen, um Benutzern maßgeschneiderten Zugriff auf der Grundlage ihrer Zuständigkeiten zu gewähren. Weitere Informationen zu den benutzerdefinierten Rollen finden Sie in diesem [Artikel](/help/migrated/administrators/feature-summary/custom-role.md).
 

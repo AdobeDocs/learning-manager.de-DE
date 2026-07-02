@@ -5,8 +5,8 @@ description: Hier erfahren Sie, wie Sie Adobe Learning Manager mit Adobe Experie
 contentowner: saghosh
 source-git-commit: 0052ccb2f5a8f9617bca2c7bad91c0cd18338b66
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 44%
+source-wordcount: '1058'
+ht-degree: 74%
 
 ---
 
@@ -69,7 +69,7 @@ Der AEM-Administrator benötigt ein Aktualisierungstoken aus dem Learning Manage
    * Client-ID, gleichzeitig Anwendungs-ID.
    * Client-Geheimnis aus der Beschreibung.
 
-1. Abrufen des OAuth-Codes Sie müssen die v2-API im Umleitungs-URI verwenden.
+1. Rufen Sie den OAuth-Code ab. Sie müssen die v2-API im Umleitungs-URI verwenden.
 1. Klicken Sie auf **[!UICONTROL Senden]** und rufen Sie das Aktualisierungstoken ab.
 
 ## Konfigurieren des Widgets in AEM {#configurethewidgetinaem}
@@ -78,7 +78,7 @@ Für die Widgetkonfiguration benötigt der AEM nur das Aktualisierungstoken, das
 
 Sie können auch mehrere Kontokonfigurationen auf mehreren Seiten festlegen.
 
-1. Klicken Sie auf **[!UICONTROL Extras]** > **[!UICONTROL Cloud Service]** > **[!UICONTROL Konfiguration des Lern-Manager-Widgets für Captivate]**.
+1. Klicken Sie auf **[!UICONTROL Extras]** > **[!UICONTROL Cloud Services]** > **[!UICONTROL Konfiguration des Lern-Manager-Widgets für Captivate]**.
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 1. Geben Sie das Aktualisierungstoken hier ein. Richten Sie die anderen Einstellungen ein.
 1. Der Hostname sollte für EU-Regionen in &quot;learningManagereu&quot; geändert werden.
@@ -91,13 +91,13 @@ Der AEM-Autor muss zuerst die Komponente in der AEM-Vorlage hinzufügen.
 
 Der AEM-Autor kann dann die Adobe Learning Manager-Komponente per Drag &amp; Drop ziehen und entsprechend konfigurieren.
 
-Für die Lern-Manager-Komponente muss die im obigen Schritt erstellte Konfiguration der Seite zugeordnet werden.  Der Autor kann die Konfiguration zuordnen, indem er die Seiteneigenschaften unter **[!UICONTROL Erweitert]** > **[!UICONTROL Konfiguration]** > **[!UICONTROL Cloud-Konfiguration]** bearbeitet und einen Konfigurationspfad bereitstellt. Auf diese Weise kann der Autor Konfigurationen für mehrere Learning Manager-Konten erstellen und jedes einzelne einer anderen Siteseite zuordnen. Wenn eine Konfiguration nicht der Seite zugeordnet ist, liest die Komponente die Konfiguration von der übergeordneten Seite rekursiv, bis sie eine findet.
+Für die Learning Manager-Komponente muss der Seite die im obigen Schritt erstellte Konfiguration zugeordnet werden.  Der Autor kann die Konfiguration zuordnen, indem er die Seiteneigenschaften unter **[!UICONTROL Erweitert]** > **[!UICONTROL Konfiguration]** > **[!UICONTROL Cloud-Konfiguration]** bearbeitet und einen Konfigurationspfad bereitstellt. Auf diese Weise kann der Autor Konfigurationen für mehrere Learning Manager-Konten erstellen und jedes einzelne einer anderen Siteseite zuordnen. Wenn eine Konfiguration nicht der Seite zugeordnet ist, liest die Komponente die Konfiguration von der übergeordneten Seite rekursiv, bis sie eine findet.
 
 ## Teilnehmer {#learner}
 
 Der Teilnehmer kann die Kurse von der Seite aus absolvieren.
 
-Um auf das Learning Manager-Widget zugreifen zu können, muss der Teilnehmer als AEM-Benutzer angemeldet sein. Die Eigenschaft **email** muss im Knoten &quot;/profile&quot; des Knoten &quot;rep:User&quot; des Teilnehmers vorhanden sein. Diese E-Mail-Adresse muss exakt der E-Mail-Adresse im Learning Manager-Konto entsprechen.
+Um auf das Learning Manager-Widget zugreifen zu können, muss der Teilnehmer als AEM-Benutzer angemeldet sein. Die Eigenschaft **email** muss im Knoten &quot;/profile&quot; des Knoten rep:User des Teilnehmers vorhanden sein. Diese E-Mail-Adresse muss exakt der E-Mail-Adresse im Learning Manager-Konto entsprechen.
 
 Der Teilnehmer kann die Kurse von der Seite aus absolvieren.
 
@@ -118,7 +118,7 @@ Wenn keine Empfehlungen vorliegen, wird das Widget leer angezeigt.
 
 ## Support für Skyline
 
-Skyline ist die Cloud-Version von AEM. Sie müssen zuerst Skyline über den Paketmanager installieren. Um die Skyline-Komponente in AEM zu verwenden, muss ein Benutzer im Learning Manager-Konto vorhanden sein. Mit anderen Worten, die E-Mail-Adresse des Benutzers muss im Konto vorhanden sein.
+Skyline ist die Cloud-Version von AEM. Sie müssen zunächst Skyline über den Paketmanager installieren. Um die Skyline-Komponente in AEM zu verwenden, muss ein Benutzer im Learning Manager-Konto enthalten sein. Mit anderen Worten, die E-Mail-Adresse des Benutzers muss im Konto vorhanden sein.
 
 ## Skyline bereitstellen
 
@@ -126,7 +126,7 @@ Die Schritte zum Konfigurieren von Skyline sind im [GitHub-Repository](https://g
 
 ## Katalog-Widget
 
-Das Katalog-Widget zeigt einem Benutzer Schulungen aus einem bestimmten oder einem Satz von Katalogen an. Wählen Sie im Abschnitt &quot;Eigenschaften&quot; auf der Eigenschaftsseite einen Katalog aus den aufgeführten Optionen aus.
+Das Katalog-Widget zeigt Benutzern Schulungen aus einem spezifischen oder einem Satz von Katalogen. Wählen Sie im Abschnitt „Eigenschaften“ auf der Eigenschaftsseite einen Katalog aus den aufgeführten Optionen aus.
 
 ![](assets/catalog-widget.png)
 
@@ -138,17 +138,17 @@ Das Katalog-Widget enthält die folgenden Optionen:
 * **[!UICONTROL Qualifikationsname]:** Die für die exakte Filterung der Schulung verwendete Qualifikation.
 * **[!UICONTROL Tag-Name]:** Das zum Filtern exakter Ergebnisse verwendete Tag.
 
-Im Folgenden finden Sie einige zusätzliche Komponenten, die Sie anpassen können:
+Hier sind einige zusätzliche Komponenten, die Sie anpassen können:
 
 **[!UICONTROL Typen des Lernobjekts]:** Filter entsprechend dem Typ des Lernobjekts. Die unterstützten Typen sind: Kurs, Zertifizierung, jobAid und learningProgram.
 
-AEM ist der Titel einer Karte in einem Streifen zunächst leer. Geben Sie in den Eigenschaften den Namen des Titels in die Datei widgets.html ein.
+In AEM ist der Titel einer Karte in einem Streifen zunächst leer. Geben Sie in den Eigenschaften den Namen des Titels in die Datei widgets.html ein.
 
 **Anpassung**
 
-Sie können das Erscheinungsbild des Layouts mithilfe der Datei widgets.html anpassen. Sie können das Erscheinungsbild der angezeigten Karten ändern und das Design anpassen.
+Sie können das Erscheinungsbild des Layouts mithilfe von widgets.html anpassen. Sie können das Erscheinungsbild der angezeigten Karten ändern und das Design anpassen.
 
-Im Abschnitt **[!UICONTROL Allgemeine Einstellungen]** können Sie die primären und sekundären Farben für die Karten auswählen und die Eigenschaften zum Anpassen des Designs angeben.
+Sie können unter **[!UICONTROL Allgemeine Einstellungen]** die primären und die sekundären Farben für die Karten auswählen und die Eigenschaften zur Anpassung des Designs angeben.
 
 ```
 \{ 
@@ -173,9 +173,9 @@ Im Abschnitt **[!UICONTROL Allgemeine Einstellungen]** können Sie die primären
 
 ### Höhere Reihenfolgen-LO-Registrierung ignorieren
 
-Wenn das Kontrollkästchen **[!UICONTROL Höhere Reihenfolgen-LO-Registrierung ignorieren]** aktiviert ist und ein Benutzer direkt bei einem Lernprogramm oder einer Zertifizierung registriert wird, werden die Kurse für diese Zertifizierung oder dieses Lernprogramm für den Benutzer in den Widgets angezeigt.
+Wenn das Kontrollkästchen **[!UICONTROL Höhere Reihenfolgen-LO-Registrierung ignorieren]** aktiviert ist und ein Benutzer direkt bei einem Lernprogramm oder für eine Zertifizierung registriert wird, werden die Kurse für diese Zertifizierung oder das Lernprogramm nicht für den Benutzer angezeigt, wenn dieser danach sucht.
 
-Wenn das Kontrollkästchen deaktiviert ist, werden die Kurse im Lernprogramm oder der Zertifizierung, für die sich der Benutzer nicht direkt registriert hat, nicht angezeigt.
+Wenn das Kontrollkästchen deaktiviert ist, werden die Kurse im Lernprogramm oder in der Zertifizierung, für die der Benutzer sich nicht direkt registriert hat, nicht angezeigt.
 
 ![](assets/higher-order-lo.png)
 
@@ -183,4 +183,4 @@ Die Einstellung wird dann auf das Widget angewendet.
 
 ### Sicherheit
 
-Die Felder „Client-ID“ und „Client-Geheimnis“ werden hinzugefügt. Zusätzlich dazu wird das Aktualisierungs-Token maskiert. Wenn ein Benutzer die gesamte Konfiguration erstellt hat und der Benutzer die Konfiguration erneut öffnet, um sie zu bearbeiten, oder wenn ein anderer Benutzer diese Konfiguration öffnet, wird das Aktualisierungstoken maskiert.
+Die Felder „Client-ID“ und „Client-Geheimnis“ werden hinzugefügt. Zusätzlich dazu wird das Aktualisierungs-Token maskiert. Wenn ein Benutzer die gesamte Konfiguration erstellt hat und der Benutzer die Konfiguration erneut öffnet, um sie zu bearbeiten, oder wenn der Benutzer diese Konfiguration öffnet, wird das Aktualisierungs-Token maskiert.
