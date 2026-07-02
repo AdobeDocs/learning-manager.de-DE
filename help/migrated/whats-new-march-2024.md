@@ -267,7 +267,7 @@ Wenn Sie nach einem beliebigen Benutzer suchen, laden die Optionen **Teilnehmer 
 * Die Spalten &quot;Tag(s)&quot; und &quot;Kenntnisse(s)&quot; im Schulungsbericht wurden in &quot;Tag und Kenntnisse&quot; geändert.
 * Der Bericht &quot;[Gamification Audit Trail](administrators/feature-summary/reports.md#gamification-audit-trail)&quot; wurde hinzugefügt.
 * Wenn ein Konto mehr als 280000 Teilnehmer enthält, die Kenntnissen zugewiesen sind, wird der Bericht zu Kenntnissen und Teilnehmern als gezippte CSV-Datei heruntergeladen.Wenn das Konto weniger als 250000 Teilnehmer hat, wird derselbe Bericht als CSV heruntergeladen.Wählen Sie auf der Administratorseite **Admin** > **Kenntnisse** > **Kenntnisse** > **Teilnehmer**. Der Bericht wird als CSV heruntergeladen.
-* Der [Sitzungsübersichtsbericht ](administrators/feature-summary/reports.md#session-summary-report) enthält zwei neue Spalten: &quot;Standortinformationen&quot; und &quot;Standortbereich&quot;.
+* Der [Sitzungsübersichtsbericht &#x200B;](administrators/feature-summary/reports.md#session-summary-report) enthält zwei neue Spalten: &quot;Standortinformationen&quot; und &quot;Standortbereich&quot;.
 
 ## Änderungen an der Erstellung von Klassenzimmern
 
