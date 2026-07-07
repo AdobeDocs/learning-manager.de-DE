@@ -1,12 +1,12 @@
 ---
 jcr-language: en_us
-title: xAPI in Learning Manager
-description: Die Experience API (xAPI) ist eine E-Learning-Software-Spezifikation, mit der Lerninhalte und Lernsysteme so miteinander kommunizieren können, dass alle Arten von Lernerfahrungen aufgezeichnet und verfolgt werden.
+title: xAPI im Learning Manager
+description: Die Experience API (xAPI) ist eine E-Learning-Softwarespezifikation, die es ermöglicht, dass Lerninhalte und Lernsysteme so miteinander kommunizieren, dass alle Arten von Lernerfahrungen aufgezeichnet und verfolgt werden.
 exl-id: 8e36b538-a451-448e-a65d-08d286adcfdb
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 50%
+source-wordcount: '779'
+ht-degree: 78%
 
 ---
 
@@ -16,15 +16,15 @@ ht-degree: 50%
 
 Die Experience API (xAPI) ist eine E-Learning-Softwarespezifikation, die es ermöglicht, dass Lerninhalte und Lernsysteme so miteinander kommunizieren, dass alle Arten von Lernerfahrungen aufgezeichnet und verfolgt werden. Lernerfahrungen werden in einem Learning Record Store (LRS) aufgezeichnet. LRS können in traditionellen Lernmanagementsystemen (LMS) oder eigenständig existieren.
 
-Weitere Informationen zu xAPI finden Sie unter: [https://github.com/adlnet/xAPI-Spec](https://github.com/adlnet/xAPI-Spec).
+Weitere Informationen zu xAPI finden Sie unter:  [https://github.com/adlnet/xAPI-Spec](https://github.com/adlnet/xAPI-Spec).
 
 ## Wie unterstützt Learning Manager xAPI? {#howdoescaptivateprimesupportxapi}
 
-Learning Manager hat einen integrierten Learning Record Store. Dieser LRS kann xAPI-Anweisungen von Inhalten akzeptieren, die in Learning Manager gehostet wurden. Er akzeptiert sogar xAPI-Anweisungen von Drittanbietern. Diese xAPI-Anweisungen werden in Learning Manager gespeichert und können dann außerhalb von Learning Manager exportiert werden, um sie in einem beliebigen Data Warehousing-System eines Drittanbieters zu visualisieren.
+Learning Manager hat einen integrierten Learning Record Store. Dieser LRS kann xAPI-Anweisungen von Inhalten akzeptieren, die in Learning Manager gehostet wurden. Er akzeptiert sogar xAPI-Anweisungen von Drittanbietern. Diese xAPI-Anweisungen werden in Learning Manager gespeichert und können dann aus Learning Manager heraus exportiert werden, um sie in einem Data-Warehousing-System eines Drittanbieters anzuzeigen.
 
 ## Wann verwendet man xAPI? {#whendoyouusexapi}
 
-In zunehmendem Maße müssen Lernerfahrungen des Endbenutzers erfasst werden, die sich über mehrere Systeme erstrecken.  Es ist außerdem erforderlich, die genaue Interaktion des Teilnehmers mit den Schulungsinhalten zu verfolgen. Dies geht über „Start“, „Wird ausgeführt“ und „Abschluss“ hinaus (das sind die einzigen von SCORM erfassten Attribute).
+In zunehmendem Maße müssen Lernerfahrungen des Endbenutzers erfasst werden, die sich über mehrere Systeme erstrecken.  Es ist auch notwendig, die genaue Nutzung des Teilnehmers von Schulungsinhalten zu verfolgen. Dies geht über „Start“, „Wird ausgeführt“ und „Abschluss“ hinaus (das sind die einzigen von SCORM erfassten Attribute).
 
 ## Verwenden von xAPI im Lern-Manager {#usingxapiinprime}
 
@@ -55,7 +55,7 @@ Hinweis: Die in Learning Manager unterstützte xAPI-Version ist 1.0.3.
 
 ## API-Authentifizierung {#apiauthentication}
 
-Learning Manager xAPI verwenden das OAuth 2.0-Framework zum Authentifizieren und Autorisieren Ihrer Clientanwendungen. Nachdem Sie die Anwendung registriert haben, können Sie clientId und clientSecret abrufen. Die Get-URL wird im Browser verwendet, da sie die Learning Manager-Benutzer mit ihren vorkonfigurierten Konten wie SSO oder Adobe ID authentifiziert.
+Die Learning Manager-xAPI verwendet das OAuth 2.0-Framework zum Authentifizieren und Autorisieren Ihrer Clientanwendungen. Sobald Sie Ihre Anwendung registriert haben, können Sie clientId und clientSecret abrufen. Die Get-URL wird im Browser verwendet, da sie die Learning Manager-Benutzer mit ihren vorkonfigurierten Konten wie SSO oder Adobe ID authentifiziert.
 
 ```
 GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your clientId>&redirect_uri=<Enter a url to redirect to>&state=<Any String data>&scope=<admin:xapi or learner:xapi>&response_type=CODE.
@@ -69,7 +69,7 @@ Als Autor können Sie nun ein xAPI-Modul auswählen, während Sie Kurse zur Übe
 
    ![](assets/xapimodulecreation.png)
 
-1. Sie werden aufgefordert, einen IRI bereitzustellen. Wenn nicht angegeben, generiert Learning Manager automatisch einen.
+1. Sie werden aufgefordert, einen IRI bereitzustellen. Andernfalls wird er von Learning Manager automatisch generiert.
 
    Der IRI für eine Aktivität ist für ein Konto eindeutig. Das bedeutet, dass zwei Module im Learning Manager nicht denselben IRI haben können. In folgenden Fällen wird ein neuer IRI generiert:
 
@@ -78,19 +78,19 @@ Als Autor können Sie nun ein xAPI-Modul auswählen, während Sie Kurse zur Übe
 
 
 
-   Jede xAPI-Anweisung mit dem genannten IRI wird im obigen Modul verfolgt und in den Learning Manager-Berichten widergespiegelt.
+   Jede xAPI-Anweisung mit dem erwähnten IRI wird im obigen Modul verfolgt und spiegelt sich in den Learning Manager-Berichten wider.
 
 1. Um die automatisch generierte IRI zu kopieren, besuchen Sie die Seite „Aktivitätsmodul“ erneut.
 1. Veröffentlichen Sie das Modul.
 
 **Zu beachtende Punkte:**
 
-* Der Lern-Manager unterstützt derzeit nur mbox als Bezeichner. Andere Bezeichner wie mboz_sha1, openid, account werden nicht unterstützt.
+* Learning Manager unterstützt derzeit nur „mbox“ als Bezeichner. Andere Bezeichner wie mboz_sha1, openid, account werden nicht unterstützt.
 
-* Die stateId und profileId ist eine UUID, wenn sie mit dem Lern-Manager verwendet werden.
+* stateId und profileId sind UUIDs, wenn sie mit Learning Manager verwendet werden.
 * Die PUT-Anforderung überschreibt das Dokument nicht für xAPIs-Agenten/Profile, Aktivitäten/Profile und Aktivitäten/Status.
 * Nicht identifizierte Gruppen werden in Actor nicht unterstützt.
-* Der Parameter &quot;related_activities&quot; wird in der GET-Anweisung nicht unterstützt.
+* Der Parameter „related_activities“ wird in der GET-Anweisung nicht unterstützt.
 * Die Parameter „format=ids&#39; &amp; &#39;format=canonical“ werden in GET-Anweisungen nicht unterstützt.
 * Durch die Annullierung der xAPI-Anweisung werden keine Aktionen rückgängig gemacht, die im Lern-Manager aufgetreten sind, als die Anweisung veröffentlicht wurde.
 
@@ -98,7 +98,7 @@ Als Autor können Sie nun ein xAPI-Modul auswählen, während Sie Kurse zur Übe
 
 xAPI-Berichte können als Excel-Berichte generiert werden. Öffnen Sie als Administrator **[!UICONTROL Berichte]** > **[!UICONTROL Excel-Berichte]** > **[!UICONTROL xAPI-Aktivitätsbericht]**.
 
-Der heruntergeladene Bericht ruft alle Informationen ab, die vom Teilnehmer und Administrator für eine Anweisung veröffentlicht wurden.
+Der heruntergeladene Bericht ruft alle Informationen ab, die vom Teilnehmer und vom Administrator für eine Anweisung veröffentlicht wurden.
 
 Dieselben Berichte können über FTP- und Box-Connectors für jede Integration von Drittanbietern erstellt/geplant werden. Führen Sie die folgenden Schritte aus:
 

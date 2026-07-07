@@ -5,7 +5,7 @@ title: Überblick über die neuen Funktionen November 2024
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
 source-git-commit: 7b84a4565ccf109ed4789f4963d6e250f5d0a852
 workflow-type: tm+mt
-source-wordcount: '3264'
+source-wordcount: '3307'
 ht-degree: 1%
 
 ---
@@ -15,20 +15,20 @@ ht-degree: 1%
 Erfahren Sie mehr über die neuen Funktionen und Verbesserungen in der Version November 2024 von Adobe Learning Manager.
 
 * **KI-gestützte Suche:** Kombiniert lexikalische und semantische Suche nach intelligenteren, kontextsensitiven Ergebnissen.
-* **Webhooks**: Integrieren Sie Webhooks, um Echtzeitinformationen an bestimmte URLs zu senden.
-* **LTI (Learning Tools Interoperability)**: Unterstützt LTI für die Interoperabilität mit anderen LMS-Plattformen.
+* **Webhooks**: Mit Webhooks integrieren, um Echtzeitinformationen an bestimmte URLs zu senden.
+* **Interoperabilität der Lernwerkzeuge (LTI)**: LTI-Unterstützung für Interoperabilität mit anderen LMS-Plattformen.
 * **Credly integration**: Verwalten und teilen Sie externe Abzeichen über Credly.
-* **Verbesserungen am Kompatibilitäts-Dashboard**: Freigeben von Dashboards für andere Administratoren und Festlegen von Standard-Kompatibilitäts-Widgets auf den Teilnehmer-Startseiten.
+* **Verbesserungen des Kompatibilitäts-Dashboards**: Geben Sie Dashboards für andere Administratoren frei und legen Sie Standard-Widgets für die Konformität auf den Teilnehmer-Startseiten fest.
 * **Unterstützung mehrerer Sprachen**: Erstellen sprachspezifischer Instanzen für Klassenzimmer- und virtuelle Klassenzimmermodule.
 * **Benutzerdefinierte Rollen**: Verbesserte Kontrolle über Benutzerrollen und Berechtigungen.
 * **Abschlusskommentare**: Fügen Sie Kommentare hinzu, wenn Sie Teilnehmer als abgeschlossen markieren.
-* **Benutzergruppenbericht**: Verwalten von Benutzergruppen mit detaillierten Berichten.
-* **Wartelistenbericht**: Laden Sie die Warteliste der Teilnehmer für Kursinstanzen herunter.
-* **Verbesserungen an der Barrierefreiheit**: Unterstützung für Alternativtext für Mastertitel und Unternehmenslogos.
-* **Unterstützung für Hindi**: Unterstützung der Schnittstellensprache für Hindi.
-* **Höflichkeitsscheck**: Sperren Sie Social-Media-Posts mit unzulässigen Wörtern.
-* **Optimierung der E-Mail-Vorlage**: Kombinierte und optimierte E-Mail-Vorlagen für Kursleiterzuweisungen und Sitzungsabbrüche.
-* **MS Teams-Abschlusskriterien**: Legen Sie die Mindestteilnahmezeit für VILT-Sitzungen fest.
+* **Benutzergruppenbericht**: Verwalten Sie Benutzergruppen mit detaillierten Berichten.
+* **Wartelistenbericht**: Laden Sie die Teilnehmerliste auf der Warteliste für Kursinstanzen herunter.
+* **Verbesserungen der Barrierefreiheit**: Unterstützung für Alternativtext zu Mastertiteln und Unternehmenslogos.
+* **Unterstützung für Hindi**: Unterstützung der Benutzeroberflächensprache für Hindi.
+* **Schändlichkeitsprüfung**: Sperren Sie Social Posts mit verbotenen Wörtern.
+* **Optimierung der E-Mail-Vorlage**: Kombinierte und optimierte E-Mail-Vorlagen für Kursleiterzuweisungen und Sitzungsstornierungen.
+* **MS Teams-Abschlusskriterien**: Festlegen der Mindestteilnahmezeit für VILT-Sitzungen.
 * **Neue Migrationsarbeitsabläufe**: Migrationsänderungen umfassen Abschlusskriterien für Kurse und Module sowie die Migration von Modulen in Ordner.
 
 >[!NOTE]
@@ -61,9 +61,9 @@ Adobe Learning Manager unterstützt jetzt LTI, um die Interoperabilität zwische
 
 LTI (Learning Tools Interoperability) ist ein Standard, mit dem Tools und Inhaltsanbieter von Drittanbietern sich mit einem Learning Management System (LMS) verbinden können. Benutzer können direkt in ihrem LMS auf externe Lerninhalte von externen Inhaltsanbietern zugreifen, ohne sich anzumelden oder zu einem anderen LMS zu navigieren.
 
-**LTI als Toolanbieter**: LTI als Toolanbieter ermöglicht die Integration externer Systeme in ein LMS. Adobe Learning Manager fungiert als LTI-Tool-Anbieter, der anderen LMS-Plattformen den Zugriff auf Kurse, Zertifikate oder Lernpfade über die Adobe Learning Manager direkt in ihrem LMS ermöglicht.
+**LTI als Toolanbieter**: LTI als Tool-Anbieter ermöglicht die Integration externer Systeme in ein LMS. Adobe Learning Manager fungiert als LTI-Tool-Anbieter, der anderen LMS-Plattformen den Zugriff auf Kurse, Zertifikate oder Lernpfade über die Adobe Learning Manager direkt in ihrem LMS ermöglicht.
 
-**LTI als Tool Consumer**: LTI als Tool Consumer ermöglicht LMS die Integration externer Tools über Learning Tools Interoperability (LTI). In diesem Szenario ist LMS ein Verbraucher von Diensten, die von externen Tools bereitgestellt werden. Adobe Learning Manager fungiert als LTI Tool Consumer und ermöglicht die Integration von Drittanbieter-Lerntools. Dadurch können Adobe Learning Manager-Teilnehmer die Kurse, Zertifikate oder Lernpfade aus den Tools von Drittanbietern in der Adobe Learning Manager nutzen.
+**LTI als Tool-Consumer**: LTI als Tool Consumer ermöglicht es LMS, externe Tools über Learning Tools Interoperability (LTI) zu integrieren. In diesem Szenario ist LMS ein Verbraucher von Diensten, die von externen Tools bereitgestellt werden. Adobe Learning Manager fungiert als LTI Tool Consumer und ermöglicht die Integration von Drittanbieter-Lerntools. Dadurch können Adobe Learning Manager-Teilnehmer die Kurse, Zertifikate oder Lernpfade aus den Tools von Drittanbietern in der Adobe Learning Manager nutzen.
 
 Weitere Informationen finden Sie in diesem Artikel [Interoperabilität des Lerntools](/help/migrated/integration-admin/feature-summary/learning-tools-interoperability.md).
 
@@ -151,8 +151,7 @@ Lesen Sie diesen Artikel [Wartelistenbericht (Administrator)](/help/migrated/adm
 
 ## Barrierefreiheit auf der Teilnehmer-Startseite
 
-Adobe Learning Manager unterstützt jetzt Alt-Text für alle Mastertitel, um die Barrierefreiheit für Teilnehmer zu verbessern. Dadurch können Teilnehmer mit besonderen Anforderungen Bildschirmleseprogramme verwenden, um den Alternativtext zu lesen und das Bild zu verstehen. Sie können mehrere Sprachen auswählen und für jede Sprache einen Alternativtext angeben. Stellen Sie sicher, dass Sie den Alternativtext in den jeweiligen Sprachen hinzufügen. Stellen Sie sicher, dass das Firmenlogo in Ihrem Konto auch Alternativtext mit dem Firmennamen enthält.
-Weitere Informationen finden Sie in diesem Artikel [Ankündigung](/help/migrated/administrators/feature-summary/announcements.md#masthead).
+Adobe Learning Manager unterstützt jetzt Alt-Text für alle Mastertitel, um die Barrierefreiheit für Teilnehmer zu verbessern. Dadurch können Teilnehmer mit besonderen Anforderungen Bildschirmleseprogramme verwenden, um den Alternativtext zu lesen und das Bild zu verstehen. Sie können mehrere Sprachen auswählen und für jede Sprache einen Alternativtext angeben. Stellen Sie sicher, dass Sie den Alternativtext in den jeweiligen Sprachen hinzufügen. Stellen Sie sicher, dass das Firmenlogo in Ihrem Konto auch Alternativtext mit dem Firmennamen enthält.Weitere Informationen finden Sie in diesem Artikel [Ankündigung](/help/migrated/administrators/feature-summary/announcements.md#masthead).
 
 ## Unterstützung für Hindi
 
@@ -228,7 +227,7 @@ Die Ordnerspalte verwendet den Datentyp string und es handelt sich um eine optio
 * Wenn Sie einen neuen Ordnernamen für ein Modul hinzufügen, das bereits in einem anderen Ordner vorhanden ist, wird der zugewiesene Ordner durch den neuen Wert nicht überschrieben oder ersetzt. Das Modul wird dem neuen Ordner hinzugefügt und bleibt auch im vorhandenen Ordner verfügbar.
 * Wenn der Wert leer ist, wird standardmäßig **[!UICONTROL Öffentlich]** als Ordner verwendet.
 
-Weitere Informationen finden Sie in der CSV-Spezifikation [&#128279;](assets/4-module_version.xlsx) für module_version.
+Weitere Informationen finden Sie in der CSV-Spezifikation ](assets/4-module_version.xlsx) für [module_version.
 
 ### Änderungen an der Modulmigration - Abschlusskriterien
 
@@ -236,7 +235,7 @@ Administratoren können die Abschlusskriterien der Module während der Modulmigr
 
 Im Folgenden sind die Bedingungen für die neuen Spalten aufgeführt:
 
-1. `completionCriteria`
+1. `completionCriteria`:
 
    * Der Datentyp sollte eine Zeichenfolge sein, und die unterstützten Werte lauten:
       * `LAUNCH_CONTENT`
@@ -258,7 +257,7 @@ Im Folgenden sind die Bedingungen für die neuen Spalten aufgeführt:
    * Der Datentyp muss ein Zeichenfolgenwert sein. Unterstützte Werte sind `QUIZ_ATTEMPTED`, `QUIZ_PASSED` und `QUIZPASSED_OR_LIMITREACHED`.
    * Wenn `completionCriteria` auf `QUIZ` festgelegt ist, geben Sie den entsprechenden Quizwert in die Spalte `quizData` ein.
 
-Weitere Informationen finden Sie in der CSV-Spezifikation [&#128279;](assets/4-module_version.xlsx) für module_version.
+Weitere Informationen finden Sie in der CSV-Spezifikation ](assets/4-module_version.xlsx) für [module_version.
 
 ### Änderungen an der Kursmigration - Abschlusskriterien
 
@@ -528,7 +527,7 @@ Administratoren können diese Berichtsänderungen im Abschnitt **Admin** > **Ber
 Der Bericht **[!UICONTROL Teilnehmertranskripte]** enthält zwei neue Spalten:
 
 * **[!UICONTROL Modul-ID]**: Zeigt die eindeutige Kennung für jedes Modul an. Diese neue Spalte wurde nach der vorhandenen Spalte **[!UICONTROL Module]** hinzugefügt.
-* **[!UICONTROL Kursinstanz-ID]**: Zeigt die eindeutige Kennung für jede Kursinstanz an. Diese neue Spalte wurde nach der vorhandenen **[!UICONTROL Instanz]**-Spalte hinzugefügt.
+* **[!UICONTROL Kursinstanzkennung]**: Zeigt die eindeutige Kennung für jede Kursinstanz an.Diese neue Spalte wurde nach der vorhandenen **[!UICONTROL Instanz]**-Spalte hinzugefügt.
 * **[!UICONTROL Abschlusskommentar]**: In dieser Spalte werden die Kommentare erfasst, die der Administrator beim Markieren des Benutzerabschlusses eingegeben hat. Diese neue Spalte wurde am Ende des Berichts hinzugefügt.
 
 
@@ -544,7 +543,7 @@ Der Bericht **[!UICONTROL Sitzungsübersicht]** enthält drei neue Spalten:
 ## In diesem Update behobene Fehler
 
 * Der Fehler, der beim Hochladen von Videos aus dem Aktivitätsmodul während der Dateiübermittlung auf Android- und iOS-Geräten aufgetreten ist, wurde behoben.
-* Das Problem beim Öffnen von Kursen in der mobilen App wurde behoben. Die Webversion funktioniert ordnungsgemäß.
+* Das Problem beim Öffnen von Kursen in der mobilen App wurde behoben. die Webversion funktioniert ordnungsgemäß.
 * Das Problem beim Anzeigen von Arbeitshilfen und anderen Ressourcen in Safari wurde behoben.
 * Es wurde ein Problem behoben, das Benutzer daran hinderte, Arbeitshilfen in die mobile App herunterzuladen.
 * Der Fehler in der Dokumentation für die Patch-Benutzer-API wurde behoben.

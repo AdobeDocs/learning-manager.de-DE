@@ -5,7 +5,7 @@ description: Weitere Informationen zur LTI-Integration ALM
 exl-id: 760c00fc-9f6e-450b-aad0-56f103424043
 source-git-commit: e4c3489db8207ead0416656161b918eba42f4582
 workflow-type: tm+mt
-source-wordcount: '1976'
+source-wordcount: '1993'
 ht-degree: 1%
 
 ---
@@ -20,9 +20,9 @@ Learning Tools Interoperability (LTI) ist ein IMS-Standard für die Integration 
 
 Adobe Learning Manager unterstützt jetzt LTI Version 1.3, mit der es sowohl als Toolanbieter als auch als Tool-Consumer fungieren kann. Diese Funktion verbessert die Interoperabilität zwischen Adobe Learning Manager und anderen Lernmanagementsystemen (LMS).
 
-**LTI als Toolanbieter**: LTI als Toolanbieter ermöglicht die Integration externer Systeme in ein LMS. Adobe Learning Manager fungiert als LTI-Tool-Anbieter, der anderen LMS-Plattformen den Zugriff auf Lernobjekte aus der Adobe Learning Manager direkt in ihrem LMS ermöglicht.
+**LTI als Toolanbieter**: LTI als Tool-Anbieter ermöglicht die Integration externer Systeme in ein LMS. Adobe Learning Manager fungiert als LTI-Tool-Anbieter, der anderen LMS-Plattformen den Zugriff auf Lernobjekte aus der Adobe Learning Manager direkt in ihrem LMS ermöglicht.
 
-**LTI als Tool Consumer**: LTI als Tool Consumer ermöglicht LMS die Integration externer Tools über Learning Tools Interoperability (LTI). In diesem Szenario ist LMS ein Verbraucher von Diensten, die von externen Tools bereitgestellt werden. Adobe Learning Manager fungiert als LTI Tool Consumer, sodass es LTI-Tools von Drittanbietern integrieren kann, mit denen Adobe Learning Manager-Teilnehmer die Lernobjekte der Drittanbieter-Tools in der Adobe Learning Manager nutzen können.
+**LTI als Tool-Consumer**: LTI als Tool Consumer ermöglicht es LMS, externe Tools über Learning Tools Interoperability (LTI) zu integrieren. In diesem Szenario ist LMS ein Verbraucher von Diensten, die von externen Tools bereitgestellt werden. Adobe Learning Manager fungiert als LTI Tool Consumer, sodass es LTI-Tools von Drittanbietern integrieren kann, mit denen Adobe Learning Manager-Teilnehmer die Lernobjekte der Drittanbieter-Tools in der Adobe Learning Manager nutzen können.
 
 ## Einrichten des LTI-Connectors in ALM
 
@@ -66,20 +66,20 @@ Führen Sie die folgenden Schritte aus, um die LTI-Anmeldedaten für ein externe
    _Anmeldeinformationen für die LTI-Tool-Konfiguration_
 
    * **[!UICONTROL Token-URL]**: Die URL, unter der das LMS ein Zugriffstoken zur Authentifizierung und Autorisierung der Kommunikation mit dem LTI-Tool anfordert.
-   * **[!UICONTROL Ziel-Link-URL]**: Die Ziel-URL, unter der Benutzer beim Starten des LTI-Tools vom LMS umgeleitet werden.
+   * **[!UICONTROL Ziel-Link-URL]**: Die Ziel-URL, unter der Benutzer beim Starten des LTI-Tools über das LMS umgeleitet werden.
    * **[!UICONTROL URL des öffentlichen Schlüsselsatzes]**: Die URL, die öffentliche Schlüssel bereitstellt, die zum Überprüfen von Sicherheitstoken für die sichere Kommunikation verwendet werden.
-   * **[!UICONTROL Umleitungs-URL]**: Die URL, an die Benutzer nach Abschluss einer Aktion für das LTI-Tool gesendet werden. Normalerweise werden sie zurück zum LMS umgeleitet.
+   * **[!UICONTROL URL umleiten]**: Die URL, an die Benutzer gesendet werden, nachdem eine Aktion auf dem LTI-Tool abgeschlossen wurde, in der Regel werden sie zurück zum LMS umgeleitet.
 
 ### Einrichtung eines externen LMS
 
 Anhand der vom Adobe Learning Manager-Administrator freigegebenen Anmeldeinformationen registriert der externe LMS-Administrator Adobe Learning Manager und generiert Anmeldeinformationen. Diese Anmeldeinformationen werden der Adobe Learning Manager als letzten Schritt hinzugefügt, um Adobe Learning Manager als Toolanbieter einzurichten. Im Folgenden sind die externen LMS-generierten Anmeldeinformationen aufgeführt:
 
-* **[!UICONTROL Aussteller- oder Plattform-ID]**: Ein eindeutiger Bezeichner für das LMS oder die Plattform, der die LTI-Startanforderung an den Tool-Anbieter sendet.
+* **[!UICONTROL Aussteller- oder Plattform-ID]**: Eine eindeutige Kennung für das LMS oder die Plattform, die die LTI-Startanforderung an den Tool-Anbieter sendet.
 * **[!UICONTROL Client-ID]**: Eine eindeutige Kennung, die dem LTI-Tool vom LMS für Autorisierungszwecke zugewiesen wurde.
 * **[!UICONTROL Bereitstellungs-ID]**: Ein Bezeichner, der eine bestimmte LTI-Tool-Bereitstellung mit dem LMS zum Verwalten mehrerer Instanzen verknüpft.
 * **[!UICONTROL Token-URL]**: Der Endpunkt, an dem das LMS ein Zugriffstoken zur Authentifizierung und Autorisierung von Interaktionen mit dem LTI-Tool anfordert.
-* **[!UICONTROL Authentifizierungs-URL]**: Die URL, an die das LMS Benutzer zum Authentifizieren und Initiieren der LTI-Verbindung sendet.
-* **[!UICONTROL URL des öffentlichen Schlüssels]**: Die URL, die den vom LTI-Tool verwendeten öffentlichen Schlüssel bereitstellt, um Sicherheitstoken zu überprüfen und eine sichere Kommunikation sicherzustellen.
+* **[!UICONTROL Authentifizierungs-URL]**: Die URL, an die das LMS Benutzer zur Authentifizierung und Initiierung der LTI-Verbindung sendet.
+* **[!UICONTROL URL für öffentlichen Schlüssel]**: Die URL, die den öffentlichen Schlüssel bereitstellt, der vom LTI-Tool verwendet wird, um Sicherheitstoken zu überprüfen und eine sichere Kommunikation sicherzustellen.
 
 ### Adobe Learning Manager als Werkzeuganbieter hinzufügen - Admin-Arbeitsablauf
 
@@ -120,8 +120,7 @@ Führen Sie die folgenden Schritte aus, um den Kurs aus Adobe Learning Manager z
 
 ## Adobe Learning Manager als LTI-Verbraucher - Admin-Arbeitsablauf
 
-Als LTI-Verbraucher können Sie mit Adobe Learning Manager Aktivitäten, Tools, Inhalte und Widgets von externen LTI-Anbietern verwenden.
-Um Adobe Learning Manager als LTI-Consumer hinzuzufügen, benötigen Sie die folgenden Anmeldeinformationen vom externen LTI-Anbieter:
+Als LTI-Verbraucher können Sie mit Adobe Learning Manager Aktivitäten, Tools, Inhalte und Widgets von externen LTI-Anbietern verwenden.Um Adobe Learning Manager als LTI-Consumer hinzuzufügen, benötigen Sie die folgenden Anmeldeinformationen vom externen LTI-Anbieter:
 
 * Anmelde-URL initiieren
 * Zielverknüpfungs-URL
@@ -165,8 +164,7 @@ Die LTI-Anbieter stellen Ihnen einen Startlink oder eine IMSCC-Datei zur Verfüg
 4. Geben Sie die **[!UICONTROL Launch Link]** und **[!UICONTROL Custom Parameters]** vom LTI-Anbieter ein.
 5. Wählen Sie den [!UICONTROL LTI-Anbieter] aus dem Dropdownmenü **[!UICONTROL Tool-Anbieter]** aus.
 6. Suchen Sie in der Option **[!UICONTROL Zu Ordner hinzufügen]** nach **[!UICONTROL Öffentlich]** und wählen Sie diese aus. Dadurch stehen die Kurse allen Autoren zur Verfügung.
-7. Wählen Sie **[!UICONTROL Speichern]**.
-Nachdem der Inhalt erstellt wurde, können Sie diesen Inhalt beim Erstellen des Kurses hinzufügen.
+7. Wählen Sie **[!UICONTROL Speichern]**.Nachdem der Inhalt erstellt wurde, können Sie diesen Inhalt beim Erstellen des Kurses hinzufügen.
 
 ### Kurs mit LTI-Inhalten erstellen - Arbeitsablauf für Autoren
 
@@ -184,11 +182,11 @@ Führen Sie die folgenden Schritte aus, um einen Kurs mit LTI-Inhalten zu erstel
 
 Die folgenden Kurstypen können nicht als LTI-Kurse exportiert werden:
 
-* **Kurs mit Aktivitätsmodul**: Kurse, die bestimmte aktivitätsbasierte Module enthalten.
-* **Kurs mit mehreren Bereitstellungstypen**: Kurse mit mehreren Bereitstellungstypen umfassen ein Modul zum Selbststudium, ein virtuelles oder ein Klassenzimmermodul, ein Aktivitätsmodul und gemischtes Lernen.
-* **Kurs mit Voraussetzungen**: Kurse, für die eine Vorvervollständigung erforderlich ist.
-* **Kurs mit mehreren Registrierungen**: Kurse mit mehreren Registrierungen
-* **Kurse mit mehreren Instanzen**: Kurse, die mehrere Bereitstellungsinstanzen anbieten.
+* **Kurs mit Aktivitätsmodul**: Kurse mit spezifischen aktivitätsbasierten Modulen.
+* **Kurs mit mehreren Bereitstellungstypen**: Kurse mit mehreren Bereitstellungstypen umfassen Module zum Selbststudium, Module zum virtuellen Lernen oder zur Schulung, Aktivitätsmodule und gemischte Lernprogramme.
+* **Kurs mit Voraussetzungen**: Kurse, die vor dem Abschluss abgeschlossen werden müssen.
+* **Kurs mit Mehrfacheinschreibung**: Kurse mit mehreren Registrierungen
+* **Kurse mit mehreren Instanzen**: Kurse, die mehrere Bereitstellungsinstanzen bieten.
 
 | Standardinstanz | Eine oder mehrere nicht standardmäßige Instanzen | Erwartung | Fehlermeldungen |
 |---|---|---|---|
@@ -204,9 +202,9 @@ Die folgenden Kurstypen können nicht als LTI-Kurse exportiert werden:
 * **Kurse mit mehreren Fragen-Antworten**: Kurse mit aktivierter MQA.
 * **Kurs mit aktiviertem Instanzwechsel**: Kurse, die es Teilnehmern ermöglichen, zwischen Instanzen zu wechseln.
 * **Kostenpflichtiger Kurs**: Kurse, die eine Zahlung für die Registrierung erfordern.
-* **Kurse Teil des Lernpfads, der Zertifizierung oder des Lernplans**: Kurse Teil der Lernpfade oder -pläne.
-* **Kurse, die nicht vom Selbstregistrierungstyp sind**: Kurse, die von der Selbstregistrierung des Teilnehmers eingeschränkt sind.
-* **Klassenzimmer- oder virtuelle Klassenzimmerkurse**: Kurse mit Klassenzimmer- oder virtuellen Klassenzimmersitzungen.
+* **Kurse, die Teil des Lernpfads, der Zertifizierung oder des Lernplans sind**: Kurse sind Teil von Lernpfaden oder -plänen.
+* **Kurse, die nicht vom Selbstregistrierungstyp sind**: Kurse, die von der Selbsteinschreibung des Teilnehmers eingeschränkt sind.
+* **Klassenzimmer- oder virtuelle Klassenzimmerkurse**: Kurse mit Präsenzkursen oder virtuellen Präsenzsitzungen.
 * **Kurse mit nicht obligatorischen Modulen**: Kurse, die optionale oder nicht obligatorische Module enthalten.
 
 ![](assets/export-status.png)

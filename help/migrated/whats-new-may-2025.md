@@ -5,7 +5,7 @@ title: Zusammenfassung der neuen Funktionen
 exl-id: 812d33c8-b2e4-43eb-adda-67dc356ca1ca
 source-git-commit: f9ab669fc4a4adbe582f269583e746473c991fc9
 workflow-type: tm+mt
-source-wordcount: '2492'
+source-wordcount: '2544'
 ht-degree: 0%
 
 ---
@@ -43,7 +43,7 @@ Darüber hinaus unterstützt die eindeutige Content-ID die Integration mit Conte
 * Die eindeutige Content-ID erleichtert die Verknüpfung von Inhalten zwischen externen Systemen und Adobe Learning Manager.
 * Das Ablaufdatum hilft Autoren dabei, den Überblick über veraltete Inhalte zu behalten, die möglicherweise überprüft oder aktualisiert werden müssen.
 
-In diesem [Artikel &#x200B;](/help/migrated/authors/feature-summary/content-library.md#add-content-unique-id-and-expiry-date) finden Sie weitere Informationen zur eindeutigen Inhalts-ID und zum Ablaufdatum.
+In diesem [Artikel ](/help/migrated/authors/feature-summary/content-library.md#add-content-unique-id-and-expiry-date) finden Sie weitere Informationen zur eindeutigen Inhalts-ID und zum Ablaufdatum.
 
 ## Admin AI Assistant (Beta)
 
@@ -70,7 +70,7 @@ In diesem [Artikel](/help/migrated/languages-supported.md) finden Sie eine Liste
 
 ## Verbesserungen am Content Marketplace
 
-Adobe Learning Manager führt neue Einkaufsmodelle für die Erfassung von Inhalten ein und bietet mehr Flexibilität und Optionen für die Erfassung von Inhalten: Premium Essentials und Premium Essential Plus. Essentials bietet kostengünstige Lösungen zur Förderung der Interaktion mit Mitarbeitern und umfasst Content-Anbieter wie Skillshub, Thomson Reuters und Emtrain. Premium Essential Plus bietet zusätzliche Inhalte von Premium-Anbietern wie Blinkist, Pluralsight, Skillsoft, Traliant und Coursera.
+Adobe Learning Manager führt neue Einkaufsmodelle für die Erfassung von Inhalten ein und bietet so mehr Flexibilität und Optionen für die Erfassung von Inhalten: Premium Essentials und Premium Essential Plus. Essentials bietet kostengünstige Lösungen zur Förderung der Interaktion mit Mitarbeitern und umfasst Content-Anbieter wie Skillshub, Thomson Reuters und Emtrain. Premium Essential Plus bietet zusätzliche Inhalte von Premium-Anbietern wie Blinkist, Pluralsight, Skillsoft, Traliant und Coursera.
 
 In diesem [Artikel](/help/migrated/administrators/feature-summary/content-marketplace.md) finden Sie weitere Informationen zu den neuen Abo-Varianten.
 
@@ -90,8 +90,7 @@ Adobe Learning Manager ist eine mehrsprachige Plattform, auf der die Sprachvorei
 
 Für Anwender der nativen Adobe Learning Manager-Plattform trägt diese Erweiterung der Notwendigkeit einer Just-in-time-Benutzerbereitstellung Rechnung. Wenn Benutzer Konten erstellen und sich zum ersten Mal anmelden, stellt diese Funktion sicher, dass ihre Sprachvoreinstellungen korrekt erfasst und angewendet werden.
 
-Diese Funktion stellt sicher, dass die Sprachvoreinstellungen der Benutzer automatisch aktualisiert werden, wenn sie sich über SAML anmelden. Dies hilft bei der Bereitstellung eines personalisierten Erlebnisses, indem die Benutzeroberfläche in der bevorzugten Sprache des Benutzers angezeigt wird.
-Wenn sich Benutzer über SAML anmelden, wird ihre Spracheinstellung (Benutzeroberfläche und Inhaltssprache) basierend auf den während des Anmeldevorgangs angegebenen Informationen überprüft und aktualisiert.
+Diese Funktion stellt sicher, dass die Sprachvoreinstellungen der Benutzer automatisch aktualisiert werden, wenn sie sich über SAML anmelden. Dies hilft bei der Bereitstellung eines personalisierten Erlebnisses, indem die Benutzeroberfläche in der bevorzugten Sprache des Benutzers angezeigt wird.Wenn sich Benutzer über SAML anmelden, wird ihre Spracheinstellung (Benutzeroberfläche und Inhaltssprache) basierend auf den während des Anmeldevorgangs angegebenen Informationen überprüft und aktualisiert.
 
 Die Funktion ist mit dem SAML-Anmeldeprozess integriert, um die Sprachvoreinstellung des Benutzers nahtlos zu erfassen und zu aktualisieren.
 
@@ -109,7 +108,7 @@ Weitere Informationen finden Sie in diesem [Artikel](/help/migrated/administrato
 
 Adobe Learning Manager unterstützt jetzt auch die Auswahl von Seminarräumen aus Adobe Connect beim Einrichten einer VC-Sitzung in Connect. Zuvor konnte der Administrator nur den Meetingraumtyp auswählen. Diese Erweiterung ermöglicht es Administratoren mit einer gültigen Seminarlizenz, einmalige oder große Veranstaltungen (bis zu 1.500 Teilnehmer) in Adobe Learning Manager zu planen und zu verwalten.
 
-Weitere Informationen zum Seminarraum finden Sie in diesem [Artikel](https://helpx.adobe.com/de/adobe-connect/using/creating-seminars.html).
+Weitere Informationen zum Seminarraum finden Sie in diesem [Artikel](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html).
 
 ### Unterstützung für den Zugriff auf Sitzungsanalysen
 
@@ -127,13 +126,11 @@ Weitere Informationen zur Connect-Sitzungsanalyse finden Sie in diesem [Artikel]
 
 ### Erfolgskriterien für den Inhalt mithilfe der Migration
 
-Der Migrationsprozess in Adobe Learning Manager zum Importieren von Modulen unterstützt jetzt die Möglichkeit, Parameter zum Definieren von Erfolgskriterien hinzuzufügen.
-Dies wird jetzt unterstützt, indem drei neue optionale Spalten in der Datei &quot;module_version.csv&quot; hinzugefügt werden. Drei neue optionale Spalten sind: `successCriteria`, `successQuizData` und `successViewPercent`.
+Der Migrationsprozess in Adobe Learning Manager zum Importieren von Modulen unterstützt jetzt die Möglichkeit, Parameter zum Definieren von Erfolgskriterien hinzuzufügen.Dies wird jetzt unterstützt, indem drei neue optionale Spalten in der Datei &quot;module_version.csv&quot; hinzugefügt werden. Drei neue optionale Spalten sind: `successCriteria`, `successQuizData` und `successViewPercent`.
 
-Diese Felder akzeptieren nur bestimmte Werte, und der Connector kann die Datei nicht verarbeiten, wenn ungültige Werte eingegeben werden.
-Ein Quizmodul kann drei Arten von Erfolgskriterien verwenden. Entweder kann es das Bestehen markieren, wenn der Teilnehmer den Inhalt startet, abhängig von einem erreichten Prozentwert (definiert durch `successViewPercent`: unten), oder es kann auf dem Ergebnis des Quizmoduls basieren (definiert durch `successQuizData`: unten). Dieser Wert ist gemäß den nachstehenden Anweisungen auszufüllen. Der successCriteria-Parameter wird verwendet, um dies zu bestimmen.
+Diese Felder akzeptieren nur bestimmte Werte, und der Connector kann die Datei nicht verarbeiten, wenn ungültige Werte eingegeben werden.Ein Quizmodul kann drei Arten von Erfolgskriterien verwenden. Entweder kann es das Bestehen markieren, wenn der Teilnehmer den Inhalt startet, abhängig von einem erreichten Prozentwert (definiert durch `successViewPercent`: unten), oder sie kann auf dem Ergebnis des Quizmoduls basieren (definiert durch `successQuizData`: &quot;). Dieser Wert ist gemäß den nachstehenden Anweisungen auszufüllen. Der successCriteria-Parameter wird verwendet, um dies zu bestimmen.
 
-`successCriteria`: Akzeptiert `LAUNCH_CONTENT`, `VIEW_PERCENT`, `QUIZ` oder `VIEWPERCENT_OR_QUIZ`.
+`successCriteria` Empfängt `LAUNCH_CONTENT`, `VIEW_PERCENT`, `QUIZ` oder `VIEWPERCENT_OR_QUIZ`.
 
 * Wenn `LAUNCH_CONTENT`: Lassen Sie `successQuizData` und `successViewPercent` leer. Dadurch wird der Teilnehmer als bestanden markiert, wenn der Teilnehmer den Inhalt startet.
 * Wenn `VIEW_PERCENT`: Geben Sie einen Wert für `successViewPercent` ein, lassen Sie `successQuizData` leer. Dadurch wird der Teilnahmepass abhängig vom Prozentwert markiert, der im Quiz erzielt wurde.
@@ -142,27 +139,26 @@ Ein Quizmodul kann drei Arten von Erfolgskriterien verwenden. Entweder kann es d
 
 Dieses Feld ist nur gültig, wenn `hasQuiz` &quot;true&quot; ist. Wenn nur `completionCriteria` übergeben wird, wird `successCriteria` als identisch mit `completionCriteria` für interaktiven Inhalt betrachtet.
 
-`successQuizData`: Empfängt `QUIZ_ATTEMPTED`, `QUIZ_PASSED` oder `QUIZPASSED_OR_LIMITREACHED`.
+`successQuizData` Empfängt `QUIZ_ATTEMPTED`, `QUIZ_PASSED` oder `QUIZPASSED_OR_LIMITREACHED`.
 
 * `QUIZ_ATTEMPTED` bedeutet, dass der Teilnehmer als bestanden für das Quiz markiert wird, wenn der Teilnehmer einen Quizversuch unternommen hat.
 * `QUIZ_PASSED` bedeutet, dass der Teilnehmer als für das Quiz bestanden markiert wird, wenn der Teilnehmer das Quiz gemäß den im Quizinhalt definierten Kriterien besteht. Zum Beispiel definiert das Scorm-Modul die Kriterien und meldet sie an Adobe Learning Manager.
 * `QUIZPASSED_OR_LIMITREACHED` bedeutet, dass der Teilnehmer als für das Quiz bestanden markiert wird, wenn der Teilnehmer das Quiz bestanden hat oder die Anzahl der Einschränkungen erreicht hat.
 
-`successViewPercent`: Akzeptiert Ganzzahlwerte von 0 bis 100.
+`successViewPercent` Akzeptiert Ganzzahlwerte von 0 bis 100.
 
 * Dieses Kriterium akzeptiert einen Prozentwert, den der Teilnehmer zum Bestehen des Quiz erzielen muss.
 Webhook ändert sich.
 
 ### Eindeutige ID und Ablaufdatum für Inhalte mit Migration hinzufügen
 
-Eindeutige ID des Inhalts und Ablaufdatum werden jetzt während der Migration unterstützt. Zwei zusätzliche Spalten: expiryDate und uniqueContentId wurden der Datei module_version.csv hinzugefügt, um diese Funktion zu aktivieren. Weitere Informationen finden Sie in der [CSV-Musterdatei &#x200B;](assets/module_version_content.csv) und in der [CSV-Spezifikationsdatei &#x200B;](assets/4-module_version_content.xlsx).
+Eindeutige ID des Inhalts und Ablaufdatum werden jetzt während der Migration unterstützt. Zwei zusätzliche Spalten: expiryDate und uniqueContentId wurden der Datei module_version.csv hinzugefügt, um diese Funktion zu aktivieren. Weitere Informationen finden Sie in der [CSV-Musterdatei ](assets/module_version_content.csv) und in der [CSV-Spezifikationsdatei ](assets/4-module_version_content.xlsx).
 
 Weitere Informationen zum Migrationsprozess finden Sie in diesem [Artikel](/help/migrated/integration-admin/feature-summary/migration-manual.md).
 
 ## Verbesserungen an webhooks
 
-Webhooks unterstützen jetzt Ereignisse für Kurse innerhalb von Lernpfaden (LPs) und Zertifizierungen, wenn die Registrierung, Aufhebung der Registrierung oder der Abschluss erfolgt.
-Dies beinhaltet unterstützende Veranstaltungen für jeden Kurs innerhalb des LP oder der Zertifizierung zusätzlich zum übergeordneten LO-Ereignis.
+Webhooks unterstützen jetzt Ereignisse für Kurse innerhalb von Lernpfaden (LPs) und Zertifizierungen, wenn die Registrierung, Aufhebung der Registrierung oder der Abschluss erfolgt.Dies beinhaltet unterstützende Veranstaltungen für jeden Kurs innerhalb des LP oder der Zertifizierung zusätzlich zum übergeordneten LO-Ereignis.
 
 Weitere Informationen zu Webhooks finden Sie in diesem [Artikel](/help/migrated/integration-admin/feature-summary/webhooks-usage-guide.md).
 
