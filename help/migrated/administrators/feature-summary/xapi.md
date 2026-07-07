@@ -1,13 +1,13 @@
 ---
 jcr-language: en_us
-title: xAPI in Learning Manager
+title: xAPI im Learning Manager
 description: Die Experience API (xAPI) ist eine E-Learning-Softwarespezifikation, die es ermöglicht, dass Lerninhalte und Lernsysteme so miteinander kommunizieren, dass alle Arten von Lernerfahrungen aufgezeichnet und verfolgt werden. Lernerfahrungen werden in einem Learning Record Store (LRS) aufgezeichnet. LRS können in traditionellen Lernmanagementsystemen (LMS) oder eigenständig existieren.
 contentowner: dvenkate
 preview: true
 source-git-commit: 53c1a5283295b56424d697bc26c5db31c2edca0f
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 48%
+source-wordcount: '817'
+ht-degree: 68%
 
 ---
 
@@ -23,11 +23,11 @@ Weitere Informationen zu xAPI finden Sie unter [xAPIc-Spezifikationen](https://g
 
 ## Wie unterstützt Learning Manager xAPI? {#howdoeslearningmanagersupportxapi}
 
-Learning Manager hat einen integrierten Learning Record Store. Dieser LRS kann xAPI-Anweisungen von Inhalten akzeptieren, die in Learning Manager gehostet wurden. Er akzeptiert sogar xAPI-Anweisungen von Drittanbietern. Diese xAPI-Anweisungen werden in Learning Manager gespeichert und können dann außerhalb von Learning Manager exportiert werden, um sie in einem beliebigen Data Warehousing-System eines Drittanbieters zu visualisieren.
+Learning Manager hat einen integrierten Learning Record Store. Dieser LRS kann xAPI-Anweisungen von Inhalten akzeptieren, die in Learning Manager gehostet wurden. Er akzeptiert sogar xAPI-Anweisungen von Drittanbietern. Diese xAPI-Anweisungen werden in Learning Manager gespeichert und können dann aus Learning Manager heraus exportiert werden, um sie in einem Data-Warehousing-System eines Drittanbieters anzuzeigen.
 
 ## Wann verwendet man xAPI? {#whendoyouusexapi}
 
-In zunehmendem Maße müssen Lernerfahrungen des Endbenutzers erfasst werden, die sich über mehrere Systeme erstrecken.  Es ist außerdem erforderlich, die genaue Interaktion des Teilnehmers mit den Schulungsinhalten zu verfolgen. Dies geht über „Start“, „Wird ausgeführt“ und „Abschluss“ hinaus (das sind die einzigen von SCORM erfassten Attribute).
+In zunehmendem Maße müssen Lernerfahrungen des Endbenutzers erfasst werden, die sich über mehrere Systeme erstrecken.  Es ist auch notwendig, die genaue Nutzung des Teilnehmers von Schulungsinhalten zu verfolgen. Dies geht über „Start“, „Wird ausgeführt“ und „Abschluss“ hinaus (das sind die einzigen von SCORM erfassten Attribute).
 
 ## Verwenden von xAPI im Lern-Manager {#usingxapiinprime}
 
@@ -65,7 +65,7 @@ Klicken Sie auf den folgenden Link, um das xAPI-Swagger-Dokument anzuzeigen:
 
 ## API-Authentifizierung {#apiauthentication}
 
-Learning Manager xAPI verwenden das OAuth 2.0-Framework zum Authentifizieren und Autorisieren Ihrer Clientanwendungen. Nachdem Sie die Anwendung registriert haben, können Sie clientId und clientSecret abrufen. Die Get-URL wird im Browser verwendet, da sie die Learning Manager-Benutzer mit ihren vorkonfigurierten Konten wie SSO oder Adobe ID authentifiziert.
+Die Learning Manager-xAPI verwendet das OAuth 2.0-Framework zum Authentifizieren und Autorisieren Ihrer Clientanwendungen. Sobald Sie Ihre Anwendung registriert haben, können Sie clientId und clientSecret abrufen. Die Get-URL wird im Browser verwendet, da sie die Learning Manager-Benutzer mit ihren vorkonfigurierten Konten wie SSO oder Adobe ID authentifiziert.
 
 ```
 GET https://learningmanager.adobe.com/oauth/o/authorize?client_id=<Enter your clientId>&redirect_uri=<Enter a url to redirect to>&state=<Any String data>&scope=<admin:xapi or learner:xapi>&response_type=CODE.
@@ -81,7 +81,7 @@ Als Autor können Sie nun ein xAPI-Modul auswählen, während Sie Kurse zur Übe
 
    *Wählen Sie die Option &quot;xAPI-basiertes Modul&quot; aus.*
 
-1. Sie werden aufgefordert, einen IRI bereitzustellen. Wenn nicht angegeben, generiert Learning Manager automatisch einen.
+1. Sie werden aufgefordert, einen IRI bereitzustellen. Andernfalls wird er von Learning Manager automatisch generiert.
 
    Der IRI für eine Aktivität ist für ein Konto eindeutig. Das bedeutet, dass zwei Module im Learning Manager nicht denselben IRI haben können. In folgenden Fällen wird ein neuer IRI generiert:
 
@@ -90,16 +90,16 @@ Als Autor können Sie nun ein xAPI-Modul auswählen, während Sie Kurse zur Übe
 
 
 
-   Jede xAPI-Anweisung mit dem genannten IRI wird im obigen Modul verfolgt und in den Learning Manager-Berichten widergespiegelt.
+   Jede xAPI-Anweisung mit dem erwähnten IRI wird im obigen Modul verfolgt und spiegelt sich in den Learning Manager-Berichten wider.
 
 1. Um die automatisch generierte IRI zu kopieren, besuchen Sie die Seite „Aktivitätsmodul“ erneut.
 1. Veröffentlichen Sie das Modul.
 
 **Zu beachtende Punkte:**
 
-* Learning Manager unterstützt derzeit nur   mbox als Bezeichner. Andere Bezeichner wie mboz_sha1, openid , account werden nicht unterstützt.
+* Der Lern-Manager unterstützt derzeit nur mbox als Bezeichner. Andere Bezeichner wie mboz_sha1, openid , account werden nicht unterstützt.
 
-* Die stateId und profileId ist eine UUID, wenn sie mit dem Lern-Manager verwendet werden.
+* stateId und profileId sind UUIDs, wenn sie mit Learning Manager verwendet werden.
 * Die PUT-Anforderung überschreibt das Dokument nicht für xAPIs-Agenten/Profile, Aktivitäten/Profile und Aktivitäten/Status.
 * Nicht identifizierte Gruppen werden in Actor nicht unterstützt.
 * Der Parameter &quot;related_activities&quot; wird in der GET-Anweisung nicht unterstützt.
@@ -110,7 +110,7 @@ Als Autor können Sie nun ein xAPI-Modul auswählen, während Sie Kurse zur Übe
 
 xAPI-Berichte können als Excel-Berichte generiert werden. Als Administrator öffnen Sie **[!UICONTROL Berichte > Excel-Berichte > xAPI-Aktivitätsbericht]**.
 
-Der heruntergeladene Bericht ruft alle Informationen ab, die vom Teilnehmer und Administrator für eine Anweisung veröffentlicht wurden.
+Der heruntergeladene Bericht ruft alle Informationen ab, die vom Teilnehmer und vom Administrator für eine Anweisung veröffentlicht wurden.
 
 Dieselben Berichte können über FTP- und Box-Connectors für jede Integration von Drittanbietern erstellt/geplant werden. Führen Sie die folgenden Schritte aus:
 
