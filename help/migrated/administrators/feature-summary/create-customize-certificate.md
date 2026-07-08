@@ -245,14 +245,14 @@ Unternehmen, die für mehrere Lernobjekte auf Zertifikate angewiesen sind, sollt
 ## Erstellen eines benutzerdefinierten Zertifikats
 
 1. Melden Sie sich bei Adobe Learning Manager als **Administrator** an.
-2. Wählen Sie im Abschnitt **Konfigurieren** die Option **Erfolge** aus. Die Seite **Abzeichen** wird geöffnet.   ![Benutzerdefiniertes Zertifikat erstellen
+2. Wählen Sie im Abschnitt **Konfigurieren** die Option **Erfolge** aus. Die Seite **Abzeichen** wird geöffnet.   !&lbrack;Benutzerdefiniertes Zertifikat erstellen
    *Im linken Navigationsbereich zu &quot;Erfolge&quot; navigieren*
 
-3. Wählen Sie im linken Navigationsbereich **Zertifikate**. Die Seite **Zertifikate** wird geöffnet.   ![Benutzerdefiniertes Zertifikat erstellen
+3. Wählen Sie im linken Navigationsbereich **Zertifikate**. Die Seite **Zertifikate** wird geöffnet.   !&lbrack;Benutzerdefiniertes Zertifikat erstellen
    *Die Zertifikatsseite*
 
 4. Wählen Sie im oberen rechten Bereich der Seite **Neues Zertifikat**. Das Dialogfeld **Neues Zertifikat erstellen** wird geöffnet.
-5. Wählen Sie je nachdem, wie das Zertifikat aussehen soll, die Option **Querformat** oder **Hochformat** aus. Nachdem Sie eine Ausrichtung ausgewählt haben, werden eine leere Vorlage und vorgefertigte Vorlagen für diese Ausrichtung angezeigt.   ![Benutzerdefiniertes Zertifikat erstellen
+5. Wählen Sie je nachdem, wie das Zertifikat aussehen soll, die Option **Querformat** oder **Hochformat** aus. Nachdem Sie eine Ausrichtung ausgewählt haben, werden eine leere Vorlage und vorgefertigte Vorlagen für diese Ausrichtung angezeigt.   !&lbrack;Benutzerdefiniertes Zertifikat erstellen
    *Option &quot;Querformat&quot; oder &quot;Hochformat&quot;*
 
 6. Wählen Sie die leere Vorlage oder eine vorhandene Vorlage aus.
@@ -260,15 +260,15 @@ Unternehmen, die für mehrere Lernobjekte auf Zertifikate angewiesen sind, sollt
 8. Wählen Sie im Dropdownmenü eine Standardsprache aus.
 9. Wählen Sie **Erstellen** aus. Wenn Sie die leere Vorlage auswählen, wird eine leere Arbeitsfläche unter Ihrem Zertifikatnamen angezeigt.
 10. Elemente hinzufügen: **Text**, **Image**, **Dynamischer Wert** und **Zertifikathintergrund**.
-   ![Benutzerdefiniertes Zertifikat erstellen
-   *Elemente zum Zertifikat hinzufügen*
+    !&lbrack;Benutzerdefiniertes Zertifikat erstellen
+    *Elemente zum Zertifikat hinzufügen*
 
 11. Fügen Sie für **Text** Inhalt unter **Vorformatierter Text** oder **Textvorlagen** hinzu, oder fügen Sie benutzerdefinierten Text hinzu. Der Text wird auf der Arbeitsfläche angezeigt. Wenn Text ausgewählt ist, werden Formatierungsoptionen über der Arbeitsfläche angezeigt. Um unerwünschte Inhalte zu entfernen, wählen Sie das Symbol **Löschen** in der oberen rechten Ecke der Arbeitsfläche aus.
 12. Um Bilder hinzuzufügen, wählen Sie **Bild** neben **Elemente hinzufügen**. Bilder von Ihrem Computer hochladen oder Bilder aus den Kategorielisten auswählen.
 13. Wählen Sie **Dynamischer Wert**, um grundlegende Details, Katalogbeschriftungen und aktive Felder hinzuzufügen.
 14. Wählen Sie **Zertifikatshintergrund** aus, um Farben oder Bilder anzuwenden.
-15. Wählen Sie **Vorschau**, um das Zertifikat vor der Veröffentlichung zu überprüfen. So können Sie das Aussehen des Zertifikats besser nachvollziehen.   ![Benutzerdefiniertes Zertifikat erstellen
-   *Zertifikat in der Vorschau anzeigen*
+15. Wählen Sie **Vorschau**, um das Zertifikat vor der Veröffentlichung zu überprüfen. So können Sie das Aussehen des Zertifikats besser nachvollziehen.   !&lbrack;Benutzerdefiniertes Zertifikat erstellen
+    *Zertifikat in der Vorschau anzeigen*
 
 16. In der Vorschau können Sie Inhalte auf Google Drive speichern, herunterladen, drucken oder andere Optionen wie Anmerkungen oder Dokumenteigenschaften verwenden.
 17. Wählen Sie **Als Entwurf speichern**, um später fortzufahren, oder wählen Sie **Publish** aus, um das Zertifikat zu veröffentlichen. Nach der Veröffentlichung können Teilnehmer das Zertifikat herunterladen, wenn sie den konfigurierten Meilenstein erreichen.
@@ -281,7 +281,7 @@ Nachdem Sie ein Zertifikat unter **Veröffentlicht** oder **Entwürfe** gespeich
 2. Wählen Sie im linken Navigationsbereich **Zertifikate**. Die Seite **Zertifikate** wird geöffnet.
 3. Wählen Sie die Registerkarte **Veröffentlicht** oder **Entwürfe** für das gewünschte Zertifikat aus.
 4. Öffnen Sie das Aktionsmenü (**...**) für das Zertifikat, und wählen Sie **Bearbeiten** aus.
-   ![Zertifikat über das Aktionsmenü bearbeiten
+   !&lbrack;Zertifikat über das Aktionsmenü bearbeiten
    *Option &quot;Bearbeiten&quot; im Dropdownmenü*
 
 5. Nimm deine Änderungen vor.
@@ -299,7 +299,7 @@ Verwenden Sie **Clone**, wenn Sie eine Kopie eines Zertifikats für einen neuen 
 2. Wählen Sie im linken Navigationsbereich **Zertifikate**. Die Seite **Zertifikate** wird geöffnet.
 3. Wählen Sie die Registerkarte **Veröffentlicht** oder **Entwürfe** für das gewünschte Zertifikat aus.
 4. Öffnen Sie das Aktionsmenü (**...**) für das Zertifikat, und wählen Sie **Clone** aus.
-   ![Zertifikat über das Aktionsmenü klonen
+   !&lbrack;Zertifikat über das Aktionsmenü klonen
    *Kopieroption im Dropdown-Menü*
 
 5. Nimm deine Änderungen vor.
@@ -317,11 +317,11 @@ Sie können ein Zertifikat umbenennen, ohne es zu klonen.
 3. Wählen Sie die Registerkarte **Veröffentlicht** oder **Entwürfe** für das gewünschte Zertifikat aus.
 
 4. Öffnen Sie das Aktionsmenü (**...**) für das Zertifikat, und wählen Sie **Umbenennen** aus.
-   ![Zertifikat über das Aktionsmenü umbenennen
+   !&lbrack;Zertifikat über das Aktionsmenü umbenennen
    Option *Umbenennen im Dropdown-Menü*
 
 5. Geben Sie im Dialogfeld &quot;**Zertifikat umbenennen**&quot; den neuen Namen ein.
-   ![Dialogfeld &quot;Zertifikat umbenennen&quot;
+   !&lbrack;Dialogfeld &quot;Zertifikat umbenennen&quot;
    *Geben Sie einen neuen Namen ein*
 
 6. Wählen Sie **Speichern**. Learning Manager zeigt eine Bestätigungsmeldung an.
@@ -337,9 +337,9 @@ Das Löschen eines Zertifikats kann nicht rückgängig gemacht werden. Fahren Si
 1. Wählen Sie im Abschnitt **Konfigurieren** die Option **Erfolge** aus. Die Seite **Abzeichen** wird geöffnet.
 2. Wählen Sie im linken Navigationsbereich **Zertifikate**. Die Seite **Zertifikate** wird geöffnet.
 3. Wählen Sie die Registerkarte **Veröffentlicht** oder **Entwürfe** für das gewünschte Zertifikat aus.
-4. Öffnen Sie das Aktionsmenü (**...**) für das Zertifikat, und wählen Sie **Löschen** aus. Adobe Learning Manager zeigt eine Bestätigungsmeldung an.   ![Zertifikat aus dem Aktionsmenü löschen
+4. Öffnen Sie das Aktionsmenü (**...**) für das Zertifikat, und wählen Sie **Löschen** aus. Adobe Learning Manager zeigt eine Bestätigungsmeldung an.   !&lbrack;Zertifikat aus dem Aktionsmenü löschen
    Option *Löschen im Dropdown-Menü
-   ![Zertifikatbestätigung löschen
+   !&lbrack;Zertifikatbestätigung löschen
    *Bestätigungsmeldung*
 
 5. Wählen Sie **Ja** aus. Wenn das Zertifikat nicht an ein Lernobjekt oder eine Instanz angehängt ist, schließt der Lern-Manager den Löschvorgang ab und zeigt möglicherweise eine weitere Bestätigung an.
@@ -360,5 +360,5 @@ Sie können ein Zertifikat als Standard für Folgendes festlegen:
 2. Wählen Sie im linken Navigationsbereich **Zertifikate**. Die Seite **Zertifikate** wird geöffnet.
 3. Wählen Sie die Registerkarte **Veröffentlicht** oder **Entwürfe** für das gewünschte Zertifikat aus.
 4. Öffnen Sie das Aktionsmenü (**...**) für das Zertifikat, wählen Sie **Als Standard festlegen** und wählen Sie dann eine der vier Optionen aus. Learning Manager zeigt eine Bestätigungsmeldung an.
-5. Wählen Sie **Ja** aus. Learning Manager zeigt eine weitere Bestätigung an. Das Zertifikat zeigt eine **Standard für**-Beschriftung mit der von Ihnen ausgewählten Kategorie an (z. B. **Standard für Schulungen**).   ![Standard für Kategoriebezeichnung auf Zertifikat
+5. Wählen Sie **Ja** aus. Learning Manager zeigt eine weitere Bestätigung an. Das Zertifikat zeigt eine **Standard für**-Beschriftung mit der von Ihnen ausgewählten Kategorie an (z. B. **Standard für Schulungen**).   !&lbrack;Standard für Kategoriebezeichnung auf Zertifikat
    *Nachdem es zum Standardzertifikat wurde*
