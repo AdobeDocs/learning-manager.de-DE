@@ -159,7 +159,7 @@ Weitere Informationen finden Sie unter [Abzeichen](feature-summary/badges.md).
 
 +++Was ist ein Lernprogramm?
 
-Lernprogramme umfassen eine Gruppe von Kursen, die speziell im Hinblick auf bestimmte Ziele für die Teilnehmer entwickelt wurden. Nur Administratoren können Lernprogramme für Teilnehmer erstellen. Wenn ein Administrator Teilnehmern eine Lernprogramminstanz zuweist, sehen die Teilnehmer diese **Programm **auf der Registerkarte &quot;Programme&quot;. Teilnehmer können außerdem alle Lernprogramme, bei denen eine Selbstregistrierung möglich ist, anzeigen und sich dafür registrieren.
+Lernprogramme umfassen eine Gruppe von Kursen, die speziell im Hinblick auf bestimmte Ziele für die Teilnehmer entwickelt wurden. Nur Administratoren können Lernprogramme für Teilnehmer erstellen. Wenn ein Administrator Teilnehmern eine Lernprogramminstanz zuweist, sehen die Teilnehmer diese **Programm &#x200B;** auf der Registerkarte &quot;Programme&quot;. Teilnehmer können außerdem alle Lernprogramme, bei denen eine Selbstregistrierung möglich ist, anzeigen und sich dafür registrieren.
 
 Um mit der Arbeit an einem Lernprogramm zu beginnen, klicken Sie auf das Programm, das Ihnen zugewiesen wurde. Sie können ausführliche Informationen zu diesem Programm abrufen.
 
