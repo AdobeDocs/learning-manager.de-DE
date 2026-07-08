@@ -6,8 +6,8 @@ contentowner: manochan
 exl-id: ddbc29dd-2d7d-4a8e-84b6-3728fee4a43e
 source-git-commit: f171fab1b5c1aa56f6f398430c49740a0239c6fe
 workflow-type: tm+mt
-source-wordcount: '1464'
-ht-degree: 70%
+source-wordcount: '1468'
+ht-degree: 83%
 
 ---
 
@@ -35,7 +35,7 @@ Hier einige Teilnehmerfunktionen des Leaderboards:
 
 * Teilnehmer, die bei einer Lernprogramminstanz registriert sind, können die Punkte des anderen sehen, wenn Gamification für diese Instanz aktiviert ist.
 * Klicken Sie auf **[!UICONTROL Kollegen hinzufügen]**, um Teammitglieder hinzuzufügen, mit denen Sie sich vergleichen möchten. Das Profilbild Ihres Teammitglieds wird der Zeitleistenskala oben auf der Leaderboard-Seite hinzugefügt. Die Zeitleiste zeigt Ihre Anfangspunkte an. Ihre Position wird nach rechts verschoben, wenn Sie mehr Punkte als andere Teammitglieder erzielt haben. Sie können sie nur mit anderen Mitgliedern der gleichen Gruppe vergleichen.
-* **Benutzergruppen:** Sie können jederzeit die Profile Ihrer Teammitglieder auswählen, mit denen Sie Ihren Rang vergleichen möchten, indem Sie die Option **[!UICONTROL Mich einstufen mit]** verwenden. Geben Sie im Feld Benutzergruppen auswählen die Gruppe ein und wählen Sie sie aus. Die Liste aller Team-Mitglieder mit den neuesten Punkten finden Sie unten. Interne und externe Benutzer können die Liste anzeigen, aber nur interne Benutzer können andere interne Teilnehmer suchen.
+* **Benutzergruppen** Sie können jederzeit die Profile der Teammitglieder auswählen, mit deren Rang Sie sich vergleichen möchten, indem Sie die Option **[!UICONTROL Mein gewünschter Rang]** wählen. Wählen Sie im Feld „Benutzergruppen wählen“ und wählen Sie die Gruppe aus. Darunter wird die Liste aller Teammitglieder mit ihren aktuellen Punkteständen aufgeführt. Interne und externe Benutzer können die Liste anzeigen, aber nur interne Benutzer können andere interne Teilnehmer suchen.
 
 * Das Dialogfeld „Teilnehmer mit ähnlichem Rang“ zeigt die Namen der Team-Mitglieder an, die sich direkt oberhalb oder unterhalb desselben Rangs wie Sie befinden.
 * Wenn ein externer Benutzer in einen internen Benutzer konvertiert wird, wird die Zeitleiste automatisch aktualisiert.
@@ -68,7 +68,7 @@ Diese Funktion ermutigt die Benutzer, aktiv Feedback zu geben, was den Teilnehme
 
 ## Aufgaben {#tasks}
 
-Für die Teilnehmer gibt es fünf Gamification-Aufgaben. Sie können die Gamification-Punkte im Kreis in der rechten oberen Fensterecke auf der Teilnehmerstartseite anzeigen. Um die Zuweisung für jede Aufgabe anzuzeigen, klicken Sie auf Gamification.
+Für die Teilnehmer gibt es fünf Gamification-Aufgaben. Sie können die Gamification-Punkte im Kreis in der rechten oberen Fensterecke auf der Teilnehmerstartseite anzeigen. Um die Zuweisung für jede Aufgabe anzuzeigen, klicken Sie auf „Gamification“.
 
 Das System zeigt die Gamification-Seite mit allen Teilnehmeraufgaben und Punkten; siehe unten:
 
@@ -97,7 +97,7 @@ Sie können die folgenden möglichen Szenarien sehen:
 
 **Für selbständige Teilnehmer (a)**
 
-Diese Aufgabe ist für Teilnehmer relevant, die sich für die vorgeschriebene Anzahl von Kursen registrieren und diese innerhalb eines Monats/Quartals/Jahres abschließen. In diesem Fall kann der Administrator diese Aufgabe aktivieren, um Punkte zuzuweisen und sie zu ermutigen.
+Diese Aufgabe ist für Teilnehmer relevant, die sich in einem Monat/Quartal/Jahr für die vorgeschriebene Anzahl von Kursen registriert und diese abgeschlossen haben. In diesem Fall kann der Administrator die Aufgabe so einrichten, dass zur Motivation Punkte vergeben werden.
 
 Mögliche Szenarien:
 
@@ -110,12 +110,12 @@ Mögliche Szenarien:
 
 **Für selbständige Teilnehmer (b)**
 
-Diese Aufgabe ist für Teilnehmer relevant, die sich in einem Monat/Quartal/Jahr für mehr als die vorgeschriebene Anzahl von Kursen registriert und diese abgeschlossen haben.  In diesem Fall kann der Administrator die Aufgabe so einrichten, dass zur Motivation Punkte vergeben werden.
+Diese Aufgabe ist für Teilnehmer relevant, die sich in einem Monat/Quartal/Jahr für mehr als die vorgeschriebene Anzahl von Kursen registriert und diese abgeschlossen haben. In diesem Fall kann der Administrator die Aufgabe so einrichten, dass zur Motivation Punkte vergeben werden.
 
 Mögliche Szenarien für die Registrierung von Teilnehmern für Kurse zusätzlich zu den ihnen zugeteilten Kursen:
 
 1. Wenn Teilnehmer sich innerhalb eines Monats/Quartals/Jahres für einen Kurs registrieren, erhalten sie 20 Punkte.
-1. Wenn Teilnehmer sich innerhalb eines Monats/Quartals/Jahres für zwei Kurse registrieren, erhalten sie 100 Punkte.
+1. Wenn die Teilnehmer sich innerhalb eines Monats/Quartals/Jahres für zwei Kurse registrieren, erhalten sie 100 Punkte.
 1. Wenn die Teilnehmer sich innerhalb eines Monats/Quartals/Jahres für drei Kurse registrieren, erhalten sie 300 zusätzliche Punkte.
 1. Wenn die Teilnehmer sich innerhalb eines Monats/Quartals/Jahres für vier Kurse registrieren, erhalten sie 500 zusätzliche Punkte.
 
@@ -130,9 +130,9 @@ Diese Aufgabe ist für Teilnehmer relevant, die eine bestimmte Anzahl von Kompet
 Mögliche Szenarien der Kompetenzverbesserung:
 
 1. Wenn die Teilnehmer eine Kompetenz erwerben, erhalten sie 100 Punkte.
-1. Wenn Teilnehmer zwei Kompetenzen erwerben, erhalten sie 300 Punkte.
-1. Wenn die Teilnehmer drei Kompetenzen erwerben, erhalten sie 600 Punkte.
-1. Wenn die Teilnehmer vier Kompetenzen erwerben, erhalten sie 900 Punkte.
+1. Wenn die Teilnehmer zwei Kompetenzen erwerben, erhalten sie 300 Punkte.
+1. Wenn Teilnehmer drei Kompetenzen erwerben, erhalten sie 600 Punkte.
+1. Wenn Teilnehmer vier Kompetenzen erwerben, erhalten sie 900 Punkte.
 
 >[!NOTE]
 >
@@ -144,13 +144,13 @@ Diese Aufgabe ist für die Teilnehmer relevant, die innerhalb einer Kompetenz h�
 
 Mögliche Szenarien zu den Stufen der Kompetenzverbesserung innerhalb einer bestimmten Kompetenz:
 
-1. Wenn die Teilnehmer eine Stufe erreichen, erhalten sie 100 Punkte.
-1. Wenn Teilnehmer zwei Stufen erreichen, erhalten sie 200 Punkte.
-1. Wenn die Teilnehmer drei Stufen erreichen, erhalten sie 500 Punkte.
+1. Wenn die Teilnehmer eine Kompetenzstufe erreichen, erhalten sie 100 Punkte.
+1. Wenn die Teilnehmer zwei höhere Stufen erreichen, erhalten sie 200 Punkte.
+1. Wenn ein Teilnehmer drei höhere Stufen erreichen, erhalten sie 500 Punkte.
 
 >[!NOTE]
 >
->Der Zeitraum ist für diese Aufgabe nicht relevant. Der Administrator kann die Anzahl der Ebenen für jedes Szenario ändern. Wenn die Teilnehmer eine höhere Stufe und dann eine niedrigere Stufe einer Kompetenz erreichen, erhalten sie nur Punkte für die höhere Stufe.
+>Der Zeitraum ist für diese Aufgabe nicht relevant. Der Administrator kann die Anzahl der Stufen für jedes Szenario ändern. Wenn die Teilnehmer eine höhere Stufe und dann eine niedrigere Stufe einer Kompetenz erreichen, erhalten sie nur Punkte für die höhere Stufe.
 
 **Punkte für frühzeitigen Abschluss**
 
