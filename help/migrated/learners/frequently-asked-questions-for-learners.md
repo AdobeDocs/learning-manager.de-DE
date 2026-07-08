@@ -7,16 +7,16 @@ preview: true
 exl-id: 1c7ddf64-a6c3-4082-a20c-068e4a441b7b
 source-git-commit: f6e98e56cc03fa92464bf2ed277fcf6a71b4e0b4
 workflow-type: tm+mt
-source-wordcount: '2374'
-ht-degree: 55%
+source-wordcount: '2402'
+ht-degree: 78%
 
 ---
 
 # Häufig gestellte Fragen für Teilnehmer
 
-+++Wie registriere ich mich für ein Kursangebot?
++++Wie kann ich mich für ein Kursangebot registrieren?
 
-Der Kurskatalog zeigt alle Kurse an, für die Sie berechtigt sind. Wenn Ihr Manager Sie für Kurse nominiert, erhalten Sie eine Benachrichtigung und können den Kurs entweder annehmen oder ablehnen.
+Der Kurskatalog zeigt alle Kurse an, an denen Sie teilnehmen können. Wenn Ihr Manager Sie für Kurse nominiert, erhalten Sie eine Benachrichtigung und können den Kurs entweder annehmen oder ablehnen.
 
 Sie können sich jedoch alle Kurse, die im Katalog angezeigt werden, folgendermaßen ansehen:
 
@@ -27,7 +27,7 @@ Sie können sich jedoch alle Kurse, die im Katalog angezeigt werden, folgenderma
 
 +++
 
-+++Kann ich einen Kurs absolvieren, wenn ich offline bin?
++++Kann ich einen Kurs bearbeiten, wenn ich offline bin?
 
 Ja, Sie können über iPads, Android-Geräte und Smartphones auf Offline-Inhalte zugreifen.
 
@@ -35,29 +35,29 @@ Weitere Informationen zum Offline-Zugriff finden Sie unter [Benutzer von iPad- u
 
 +++
 
-+++Wie suche ich nach Kursen?
++++Wie kann ich nach Kursen suchen?
 
-Sie können nach Lernobjekten suchen, indem Sie das Freitextsuchfeld auf den Registerkarten Katalog und Lerninhalte verwenden.
+Sie können nach Lernobjekten suchen, indem Sie das Freitext-Suchfeld auf den Inhaltsregisterkarten „Katalog“ und „Lernen“ verwenden.
 
 Klicken Sie auf das Suchfeld. In diesem Feld werden die Suchergebnisse angezeigt, während Sie tippen. Die Suchergebnisse sehen Sie im Dropdown-Fenster. Wählen Sie die gewünschte Option aus, um die Ergebnisse abzurufen.
 
 +++
 
-+++Kann ich die Lernpunkte meiner Kollegen anzeigen?
++++Kann ich die Lernpunkte meiner Kollegen sehen?
 
-Ja, Sie können Ihre Lernpunkte mit denen Ihrer Kollegen vergleichen. Bewegen Sie die Maus über den Profilkreis. Hier können Sie Ihre eigenen Punkte sehen. Um das Dialogfeld &quot;Leaderboard&quot; anzuzeigen, klicken Sie auf Zu Leaderboard wechseln. In diesem Dialogfeld sehen Sie eine Liste Ihrer Kollegen, die sich ungefähr auf derselben Stufe befinden wie Sie.
+Ja, Sie können Ihre Lernpunkte mit denen Ihrer Kollegen vergleichen. Bewegen Sie die Maus über den Profilkreis. Hier können Sie Ihre eigenen Punkte sehen. Um das Dialogfeld „Leaderboard“ anzuzeigen, klicken Sie auf „Zu Leaderboard wechseln“. In diesem Dialogfeld sehen Sie eine Liste Ihrer Kollegen, die sich ungefähr auf derselben Stufe befinden wie Sie.
 
 Weitere Informationen finden Sie unter [Leaderboard](feature-summary/gamification.md)Funktion.
 
 +++
 
-+++Was ist Kurseffektivität?
++++Was ist die Kurseffektivität?
 
 Die Kurseffektivität wird ausgewertet, um festzustellen, wie nützlich die Kurse für die Teilnehmer sind. Sie wird auf Basis des Feedbacks berechnet, das entsprechend der Anzahl von Teilnehmern an einem Kurs gesammelt wurde. Wenn der Prozentsatz an Teilnehmern, die Feedback geben, höher ist, ist die Bewertung der Kurseffektivität hoch.
 
 Dies ist eine Kombination der Ergebnisse des Teilnehmer-Feedbacks zu den Kursinhalten, der Ergebnisse des Kursquiz für einen Teilnehmer und des vom Manager gegebenen Feedbacks, mit dem die Lernfortschritte des Teilnehmers im Kurs bewertet werden.
 
-Auf der Registerkarte &quot;Kurse&quot; kann ein Teilnehmer die Bewertung der Kurseffektivität auf den Kurs-Miniaturbildern anzeigen
+Auf der Kursregisterkarte kann ein Teilnehmer die Kurseffektivitätsbewertung auf den Kursminiaturen anzeigen
 
 Um genauere Informationen über die Kurseffektivität abzurufen, klicken Sie auf den Kurseffektivitätswert. Ein Popupmenü wird angezeigt.
 
@@ -67,9 +67,9 @@ Klicken Sie in der rechten unteren Ecke des Popupmenüs auf den Abwärtspfeil, u
 
 +++Was ist der Unterschied zwischen Lernen und Katalog?
 
-Auf der Registerkarte Lernen können Sie alle [Kurse](feature-summary/courses.md), [Lernprogramme](feature-summary/learning-programs.md) und [Zertifizierungen](feature-summary/certifications.md) anzeigen, die von Ihnen registriert wurden oder Ihnen zugewiesen wurden. Sie können auch zur Registerkarte &quot;Lernen&quot; wechseln, indem Sie auf den Link Zum Lernen klicken.
+Auf der Registerkarte Lernen können Sie alle [Kurse](feature-summary/courses.md), [Lernprogramme](feature-summary/learning-programs.md) und [Zertifizierungen](feature-summary/certifications.md) anzeigen, die von Ihnen registriert wurden oder Ihnen zugewiesen wurden. Sie können die Registerkarte „Lernen“ auch abrufen, indem Sie den Link „Lernprogramme aufrufen“ anklicken.
 
-Auf der Registerkarte Katalog können Sie alle Kurse, Lernprogramme und Zertifizierungen anzeigen, die für Ihre Rolle im Unternehmenskonto verfügbar sind. Sie können auch zur Registerkarte &quot;Katalog&quot; wechseln, indem Sie auf den Link &quot;Katalog aufrufen&quot; klicken.
+Auf der Registerkarte „Katalog“ finden Sie alle Kurse, Lernprogramme und Zertifizierungen, die für Ihre Rolle auf dem Konto des Unternehmens verfügbar sind. Sie können die Registerkarte „Katalog“ auch abrufen, indem Sie den Link „Katalog aufrufen“ anklicken.
 
 +++
 
@@ -77,17 +77,17 @@ Auf der Registerkarte Katalog können Sie alle Kurse, Lernprogramme und Zertifiz
 
 In diesem Bereich sehen Sie Hinweise für alle Ihre Kurse, Zertifizierungen und Lernprogramme in ansteigender Reihenfolge der Fristen. Die Fristen für Ihre Lernaktivitäten werden im linken Bereich angezeigt.
 
-Klicken Sie auf jedes Lernobjekt, um die entsprechenden Informationen im rechten Bereich aufzurufen. Sie können auf die Kachel &quot;Kurs/Lernprogramm/Zertifizierung&quot; klicken, um die vollständigen Informationen zu jedem Lernobjekt anzuzeigen.
+Klicken Sie auf jedes Lernobjekt, um die entsprechenden Informationen im rechten Bereich aufzurufen. Sie können auf die Kachel Kurs/Lernprogramm/Zertifizierung klicken, um die vollständigen Informationen zu jedem Lernobjekt abzurufen.
 
 Bewegen Sie die Maus auf den Bereich der Zeitleiste, um die Bildlaufleiste auf der rechten Seite zu sehen. Verwenden Sie die Bildlaufleiste, um sich nach oben oder unten zu bewegen und mehr Alarme zu sehen.
 
 +++
 
-+++Was ist eine Kenntniskarte?
++++Was ist ein Kenntnisdiagramm?
 
 In einem Kenntnisdiagramm werden die Fachkenntnisse, das Wissen und die Eigenschaften eines Unternehmensmitarbeiters zusammengefasst. Diese Kenntnisdiagramme helfen Firmen/Unternehmen dabei, die Leistungserwartungen für ihre Mitarbeiter festzusetzen oder zu erhöhen. Durch Kenntnisse können Mitarbeiter ihr Verhalten auf die Erwartungen des Unternehmens hin ausrichten.
 
-Wenn Teilnehmer einige Kurse absolviert haben, können sie ihren Stand zu jeder Qualifikation erkennen, indem sie die Qualifikationsdiagramme anzeigen.
+Wenn die Teilnehmer einen Kurs abgeschlossen haben, können sie ihren Kenntnisstand in Bezug auf die jeweiligen Kenntnisse im Kenntnisdiagramm anzeigen.
 
 ## Kenntnisdiagramme anzeigen
 
@@ -97,7 +97,7 @@ Weitere Informationen finden Sie unter [Kenntnisse und Stufen](feature-summary/s
 
 +++
 
-+++Kann ich über ein Smartphone auf den Learning Manager zugreifen?
++++Kann ich mit dem Smartphone auf Learning Manager zugreifen?
 
 Ja, Sie können über Smartphones, iPads oder ein anderes Android-Tablet auf den Learning Manager zugreifen.
 
@@ -105,7 +105,7 @@ Weitere Informationen zu dieser Funktion finden Sie unter [Benutzer der iPad- un
 
 +++
 
-+++Kann ich in iPad auf den Lernmanager zugreifen?
++++Kann ich mit dem iPad auf Learning Manager zugreifen?
 
 Ja, Sie können mit dem iPad auf Learning Manager zugreifen. Sie können die Anwendung vom App Store oder von Google Play herunterladen.
 
@@ -113,25 +113,25 @@ Mit einem iPad- oder Android-Tablet kann allerdings nur auf Funktionen der Teiln
 
 +++
 
-+++Anmeldung beim Learning Manager nicht möglich. Was soll ich tun?
++++Ich kann mich nicht bei Learning Manager anmelden. Was soll ich tun?
 
 Wenn Sie eine Adobe-ID haben, können Sie sich bei Learning Manager anmelden. Befolgen Sie die Anweisungen unter [Benutzeranmeldung](feature-summary/user-login.md) Funktion, um weitere Informationen zur Anmeldung bei der Anwendung zu erhalten. Falls das Problem weiterhin besteht, kontaktieren Sie bitte unser Supportteam.
 
 +++
 
-+++Wie erreiche ich ein Kenntnisstand?
++++Wie erreicht man eine Kenntnisstufe?
 
 Jedes Mal, wenn Sie eine neue Kenntnisstufe erreichen, erhalten Sie Credits. Credits sind Kenntnisstufen zugeordnet. Weitere Informationen zu Kenntnissen und Stufen finden Sie in der Funktion [Kenntnisse und Stufen](feature-summary/skills-levels.md).
 
 +++
 
-+++Wo kann ich den Verlauf/die Berichte all meiner Lernaktivitäten anzeigen?
++++Wo kann ich den Verlauf meiner Lernaktivitäten und Berichte darüber sehen?
 
-Den Verlauf aller Lernaktivitäten können Sie auf der Startseite sehen. Klicken Sie auf die Registerkarte Lernen und auf jeder der Registerkarten &quot;Kurse&quot;, &quot;Programme&quot; und &quot;Zertifizierungen&quot; können Sie Abgeschlossen auswählen, um die Liste aller abgeschlossenen Lernaktivitäten anzuzeigen.
+Den Verlauf aller Lernaktivitäten können Sie auf der Startseite sehen. Klicken Sie auf die Registerkarte „Lernen“. Auf jeder der Registerkarten „Kurse“, „Programme“, „Zertifizierungen“ können Sie eine Liste mit allen abgeschlossenen Lernaktivitäten abrufen, indem Sie auf „Abgeschlossen“ klicken.
 
 +++
 
-+++Kann ich mein Interesse an einem Kurs bekunden?
++++Kann ich Interesse an einem Kurs anmelden?
 
 Sie können Interesse an der Teilnahme an Präsenzkursen anmelden, für die keine geplanten Sitzungen vorhanden sind. Sie erhalten eine Benachrichtigung, wann immer die Kurssitzung beginnt, damit Sie am Kurs teilnehmen können.
 
@@ -141,7 +141,7 @@ Sie können Interesse an der Teilnahme an Präsenzkursen anmelden, für die kein
 
 Jedes Mal, wenn Sie eine neue Kenntnisstufe erreichen, erhalten Sie Credits. Credits sind Kenntnisstufen zugeordnet. Weitere Informationen zu Credits, Kenntnissen und Stufen finden Sie unter [Kenntnisse und Stufen](feature-summary/skills-levels.md)-Funktion.
 
-Sie erhalten Gamification-Punkte, wenn Sie eine Aufgabe abschließen. Derzeit sind im Learning Manager sechs Gamification-Aufgaben verfügbar. Nach Abschluss jeder Aufgabe erhalten Sie eine bestimmte Anzahl von Punkten, die mit dieser Aufgabe verknüpft sind. Weitere Informationen finden Sie unter [Gamification](feature-summary/gamification.md)-Funktion.
+Sie erhalten Gamification-Punkte, wenn Sie eine Aufgabe abschließen. Derzeit sind in Learning Manager sechs Gamification-Aufgaben verfügbar. Sie erhalten bei Abschluss jeder Aufgabe eine bestimmte Anzahl von Punkten, die dieser Aufgabe zugeordnet sind. Weitere Informationen finden Sie unter [Gamification](feature-summary/gamification.md)-Funktion.
 
 +++
 
@@ -159,15 +159,15 @@ Weitere Informationen finden Sie unter [Abzeichen](feature-summary/badges.md).
 
 +++Was ist ein Lernprogramm?
 
-Lernprogramme umfassen eine Gruppe von Kursen, die speziell im Hinblick auf bestimmte Ziele für die Teilnehmer entwickelt wurden. Nur Administratoren können Lernprogramme für Teilnehmer erstellen. Wenn ein Administrator Teilnehmern eine Lernprogramminstanz zuweist, sehen die Teilnehmer diese **Programm &#x200B;** auf der Registerkarte &quot;Programme&quot;. Teilnehmer können außerdem alle Lernprogramme, bei denen eine Selbstregistrierung möglich ist, anzeigen und sich dafür registrieren.
+Lernprogramme umfassen eine Gruppe von Kursen, die speziell im Hinblick auf bestimmte Ziele für die Teilnehmer entwickelt wurden. Nur Administratoren können Lernprogramme für Teilnehmer erstellen. Wenn ein Administrator Teilnehmern eine Lernprogramminstanz zuweist, sehen die Teilnehmer diese **Programm **auf der Registerkarte &quot;Programme&quot;. Teilnehmer können außerdem alle Lernprogramme, bei denen eine Selbstregistrierung möglich ist, anzeigen und sich dafür registrieren.
 
 Um mit der Arbeit an einem Lernprogramm zu beginnen, klicken Sie auf das Programm, das Ihnen zugewiesen wurde. Sie können ausführliche Informationen zu diesem Programm abrufen.
 
-In der rechten oberen Ecke der Lernprogrammseite wird die Schaltfläche **Programm** starten angezeigt. Klicken Sie auf **[!UICONTROL Programm starten]**, um mit der Bearbeitung des Kurses zu beginnen.
+In der rechten oberen Ecke der Lernprogrammseite erscheint die Schaltfläche **Programm starten**. Klicken Sie auf **[!UICONTROL Programm starten]**, um mit dem Kurs zu beginnen.
 
 +++
 
-+++Wie erreiche ich Punkte (Gamification)?
++++Wie erhalte ich Punkte (Gamification)?
 
 Bei Abschluss jedes Kurses erhalten Sie Online-Punkte.
 
@@ -178,15 +178,15 @@ Basierend auf den Punkten, die Sie durch das Absolvieren der Kurse erreicht habe
 1. 3500 Punkte - Goldstufe
 1. 5000 Punkte - Platinum-Stufe
 
-Sie können Ihre aktuellen Stufenpunkte in Ihrem Profil und Ihr Ziel anzeigen, um bei Bedarf höhere Punkte zu erzielen.
+Sie können Ihre aktuellen Punkte in Ihrem Profil und das Ziel anzeigen, um ggf. mehr Punkte zu erreichen.
 
 Weitere Informationen finden Sie unter [Gamification-Funktion](feature-summary/gamification.md).
 
 +++
 
-+++Kann ich meine Schulungsinhalte im Vollbildmodus abspielen?
++++Kann ich meine Trainingsinhalte als Vollbild abspielen?
 
-Alle Kurse im Learning Manager werden in Browsern wiedergegeben. Sie können die Kurse mit dem Fluidic Player des Learning Managers im Vollbildmodus anzeigen.
+Alle Kurse in Learning Manager werden in Browsern abgespielt. Sie können die Kurse mit dem Fluidic Player des Learning Managers im Vollbildmodus anzeigen.
 
 Weitere Informationen zum Player finden Sie unter [Fluidic Player-Funktion](feature-summary/fluidic-player.md).
 
@@ -203,7 +203,7 @@ Ja, Sie können Ihre persönlichen Anmerkungen als PDF exportieren. Folgen Sie d
 
 +++
 
-+++Bietet Learning Manager Teilnehmern ein personalisiertes Erlebnis?
++++Bietet Learning Manager Teilnehmenden ein personalisiertes Erlebnis?
 
 In Learning Manager können Sie Ihre Inhalte mit Lesezeichen versehen, damit Sie sie wiederfinden können.
 
@@ -212,7 +212,7 @@ Klicken Sie auf das Bannersymbol neben den angeführten Themennamen, um Ihre Inh
 Während Sie die Kursinhalte lesen, können Sie sich wie folgt Notizen machen:
 
 1. Klicken Sie auf die Kachel des Kurses, den Sie absolvieren möchten.
-1. Klicken Sie am unteren Rand des Bildschirms des Kurs-Players auf das Symbol &quot;+ Hinweise&quot;, um den Abschnitt &quot;Hinweise&quot; zu öffnen.
+1. Klicken Sie unten auf dem Player-Bildschirm mit dem Kurs auf das Symbol „Anmerkungen“, um den Bereich „Anmerkungen“ zu öffnen.
 1. Geben Sie die Anmerkungen ein und klicken Sie auf „Hinzufügen“. Ihre Notizen werden gespeichert.
 
 >[!NOTE]
@@ -224,26 +224,26 @@ Während Sie die Kursinhalte lesen, können Sie sich wie folgt Notizen machen:
 Sie haben die Möglichkeit, Ihre Kursnotizen herunterzuladen oder per E-Mail zu versenden, indem Sie die folgenden Schritte ausführen:
 
 1. Klicken Sie auf die Kurskachel, für die Sie die Anmerkungen abrufen möchten.
-1. Klicken Sie auf die Registerkarte **Hinweise** neben der Registerkarte **Module**.
+1. Klicken Sie auf die Registerkarte **Anmerkungen** neben der Registerkarte **Module**.
 
-1. Klicken Sie auf **[!UICONTROL Hinweise herunterladen]**, um das Dokument als PDF herunterzuladen.
-1. Klicken Sie auf **[!UICONTROL E-Mail-Hinweise]**, um die Anmerkungen als E-Mail an Ihr E-Mail-Konto zu erhalten.
-
-+++
-
-+++Kann ich meine selbst gemeldeten Schulungen zu Learning Manager hinzufügen? Wenn ja, wie?
-
-Derzeit wird diese Funktion in Learning Manager 1.0 nicht unterstützt. Es ist allerdings vorgesehen, dass externe Zertifizierungen erworben werden können. Diese externen Zertifizierungen werden Ihnen vom Administrator Ihrer Organisation zugewiesen. Kontaktieren Sie Ihren Manager, um sich für externe Zertifizierungen zu registrieren.
+1. Klicken Sie auf **[!UICONTROL Anmerkungen herunterladen]**, um die Anmerkungen als PDF herunterzuladen.
+1. Klicken Sie auf **[!UICONTROL Anmerkungen per E-Mail verschicken]**, damit die Anmerkungen per E-Mail an Ihre E-Mail-Adresse verschickt werden.
 
 +++
 
-+++Kann ich eine Liste von Kursen basierend auf meinem Lernpfad anzeigen?
++++Kann ich meine selbst gemeldeten Schulungen Learning Manager hinzufügen? Wenn ja, wie?
+
+Derzeit wird diese Funktion in Learning Manager 1.0 nicht unterstützt. Es gibt jedoch eine Bestimmung für die Aufnahme externer Zertifizierungen. Diese externen Zertifizierungen werden Ihnen vom Administrator Ihrer Organisation zugewiesen. Kontaktieren Sie Ihren Manager, um sich für externe Zertifizierungen zu registrieren.
+
++++
+
++++Kann ich die Liste von Kursen basierend auf meinem Lernweg sehen?
 
 Diese Funktion ist derzeit nicht verfügbar.
 
 +++
 
-+++Wie kann ich Bewertungen oder Feedback zu Kursen geben?
++++Wie kann ich Kurse bewerten oder Feedback dazu geben?
 
 Sie erhalten eine Benachrichtigung darüber, dass Sie einen Kurs abgeschlossen haben. Darin befindet sich auch ein Link, um Feedback zu geben.
 
@@ -268,7 +268,7 @@ Derzeit gibt es in Learning Manager 1.0 keine Schulungsunterlagen.
 
 +++
 
-+++Wie kündige ich einen Kurs, für den ich mich registriert habe?
++++Wie kann ich mich von einem Kurs, für den ich mich registriert habe, abmelden?
 
 Sie können einen Kurs, der Ihnen von Ihrem Manager zugewiesen wurde, ablehnen, indem Sie im Benachrichtigungsfenster auf „Ablehnen“ klicken.
 
@@ -284,7 +284,7 @@ Ihr Manager kommuniziert mit Ihnen auch per E-Mail.
 
 +++
 
-+++Erhalte ich Benachrichtigungen und Erinnerungen für MEINE KURSE?
++++Erhalte ich Benachrichtigungen und Erinnerungen für meine Kurse?
 
 Ja, Sie können sie anzeigen, indem Sie auf das Benachrichtigungssymbol in der rechten oberen Ecke des Fensters klicken.
 
@@ -305,18 +305,18 @@ Sie können die gefilterte Liste der Kurse entsprechend Ihrer Wahl abrufen und d
 
 +++
 
-+++Wie greife ich im Lern-Manager auf meine Kurse zu?
++++Wie greife ich in Learning Manager auf meine Kurse zu?
 
 1. Melden Sie sich bei Learning Manager als Teilnehmer an. Wenn Sie das Kennwort vergessen haben, klicken Sie auf den Link **[!UICONTROL Kennwort vergessen]** auf der Anmeldeseite, um es an Ihre E-Mail-ID zurückzugeben.
 1. Sobald Sie sich anmelden, sehen Sie oben auf der Seite die Registerkarte KURSE. Klicken Sie auf die Registerkarte **[!UICONTROL KURSE]**, um die Liste der Ihnen zugewiesenen Kurse anzuzeigen.
 
 +++
 
-+++Wie kann ich einen Online-Kurs belegen?
++++Wie kann ich einen Online-Kurs absolvieren?
 
 Im Gegensatz zu Präsenzkursen sind die anderen drei Arten von Kursen (gemischt, Selbststudium und virtuelles Klassenzimmer), die in Learning Manager verfügbar sind, Online-Kurse.
 
-In einigen Fällen werden Sie für Schulungen automatisch registriert. Diese Kurse werden auf der Registerkarte KURSE angezeigt. Sie können nach dem Kurs suchen, an dem Sie teilnehmen möchten, und dann auf der Seite auf die Schaltfläche &quot;Entdecken&quot; und &quot;Registrieren&quot; klicken.
+In einigen Fällen werden Sie für Schulungen automatisch registriert. Diese Kurse erscheinen auf der Registerkarte KURSE. Sie können nach dem Kurs suchen, an dem Sie teilnehmen möchten, und dann auf der Seite auf die Schaltfläche „Durchsuchen“ und „Registrieren“ klicken.
 
 >[!NOTE]
 >
@@ -342,7 +342,7 @@ In diesem Modul können Teilnehmer ein Kursmodul nach ihrem eigenen Zeitplan im 
 
 +++
 
-+++Kann ich meine persönlichen Notizen exportieren?
++++Kann ich meine persönlichen Anmerkungen exportieren?
 
 Ja, Sie können Ihre persönlichen Anmerkungen als PDF exportieren. Folgen Sie dafür den nachstehend angeführten Schritten:
 
@@ -353,7 +353,7 @@ Ja, Sie können Ihre persönlichen Anmerkungen als PDF exportieren. Folgen Sie d
 
 +++
 
-+++Wo kann ich die Desktop-Version der Anwendung herunterladen?
++++Wo kann ich die Desktop-Version der Anwendung herunterladen? 
 
 Führen Sie die folgenden Schritte aus, um die Desktop-Version herunterzuladen:
 
