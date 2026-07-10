@@ -6,8 +6,8 @@ contentowner: shhivkum
 exl-id: b81e7ee4-b25f-498d-a780-3ef897f38268
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '954'
-ht-degree: 63%
+source-wordcount: '960'
+ht-degree: 70%
 
 ---
 
@@ -73,7 +73,7 @@ Aktivitätsmodule unterstützen den Arbeitsablauf für die Dateiübermittlung. E
 
 Diese Dateien können vom Kursleiter des jeweiligen Moduls genehmigt oder abgelehnt werden. Das Modul wird erst abgeschlossen, wenn der Kursleiter die übermittelte Datei genehmigt hat.
 
-![](assets/activity-modules.png) ![](assets/approve-reject-option.png)
+ ![](assets/approve-reject-option.png)
 *Dateien genehmigen oder ablehnen*
 
 ## Checklistenmodul auswerten {#evaluate-checklist-module}
@@ -126,7 +126,7 @@ Dies ist der Workflow:
    ![](assets/proof-of-completion.png)
    *Abschlussnachweis einreichen*
 
-1. Der Kursleiter wählt dann das ihm zugewiesene Aktivitätsmodul aus. Auf der Seite &quot;Einreichungen&quot; für das Modul klickt der Kursleiter auf **Bearbeiten**. Er kann dann die Kommentare zur Ablehnung eingeben und die Option &quot;Kommentar anzeigen&quot; aktivieren, damit der Teilnehmer den Kommentar in der Benachrichtigung anzeigen kann.
+1. Der Kursleiter wählt dann das ihm zugewiesene Aktivitätsmodul aus. Auf der Seite „Einreichungen“ für das Modul klickt der Kursleiter auf **Bearbeiten**. Er kann dann die Kommentare zur Ablehnung eingeben und die Option &quot;Kommentar anzeigen&quot; aktivieren, damit der Teilnehmer den Kommentar in der Benachrichtigung anzeigen kann.
 
    ![](assets/enter-comments.png)
    *Abschlusskommentare eingeben*
