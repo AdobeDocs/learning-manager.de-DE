@@ -6,8 +6,8 @@ contentowner: saghosh
 exl-id: fce2f457-2834-491a-8331-64086f5a51b5
 source-git-commit: dfb83c88a39401f5ae9048d71fd19ca71569a14c
 workflow-type: tm+mt
-source-wordcount: '992'
-ht-degree: 72%
+source-wordcount: '1001'
+ht-degree: 76%
 
 ---
 
@@ -52,7 +52,7 @@ Laden Sie zunächst die CSV-Dateien herunter und ändern Sie die Werte entsprech
    <td>
     <p>&lt;Entity&gt;</p></td>
    <td>
-    <p>Identifizieren Sie den Zugriffstyp (VOLL, SCHREIBEN, REGISTRIEREN, BERICHT, KEIN) für jeden Entitätstyp wie KURS, KATALOG usw.</p></td>
+    <p>Identifizieren Sie den Zugriffstyp (FULL, WRITE, ENROLL, REPORT, NONE) für jeden Entitätstyp wie COURSE, CATALOG usw.</p></td>
    <td>
     <p>FULL</p>
     <p>NONE</p>
@@ -160,7 +160,7 @@ Beide CSV müssen nur über Box hochgeladen werden und können nicht über die B
 
 Die mit der CSV-Datei erstellten benutzerdefinierten Rollen sind für Administratoren in der Benutzeroberfläche nicht sichtbar. Diese Rollen werden nicht durch Rollen in Beziehung gesetzt oder beeinflusst, die von der Benutzeroberfläche erstellt wurden (oder später erstellt werden sollen).
 
-Von einer CSV-Datei erstellte benutzerdefinierte Rollen können vollständig über die CSV-Datei selbst verwaltet werden. Dazu gehören das Hinzufügen, Ändern und Löschen von Rollen.
+Benutzerdefinierte Rollen, die von einer CSV erstellt wurden, können vollständig über die CSV selbst verwaltet werden. Dies umfasst das Hinzufügen, Ändern und Löschen von Rollen.
 
 Zugewiesene Rollen können durch Entfernen von Zuordnungseinträgen aus user_role csv widerrufen werden. Zuweisungen über die Admin-Benutzeroberfläche sind davon jedoch nicht betroffen.
 
@@ -214,7 +214,7 @@ UserRole/
 **Dateidetails**
 
 * Benutzerimportdatei: user1.csv
-* Rollendatei: user1_role.csv
+* Rollendatei:  user1_role.csv
 * Zuordnungsdatei für Benutzerrollen: user1_user_role.csv
 
 Laden Sie hier die [Beispiel-CSVs](/help/migrated/assets/sample-csv-Incremnetal.zip) herunter.

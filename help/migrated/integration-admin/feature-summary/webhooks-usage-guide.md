@@ -6,7 +6,7 @@ contentowner: chandrum
 exl-id: e6a63ffb-7fdd-46e4-b5e6-20ce36861cef
 source-git-commit: 4c04757d78d599ca30e3cd26257a967d5b9e3fdc
 workflow-type: tm+mt
-source-wordcount: '3369'
+source-wordcount: '3421'
 ht-degree: 1%
 
 ---
@@ -47,7 +47,7 @@ Im Folgenden finden Sie die unterstützten Ereignisse für Lernobjektinstanzen.
 
 #### Update
 
-Sobald eine Instanz erstellt wurde, wird das **LEARNING_OBJECT_INSTANCE_MODIFICATION**-Ereignis generiert. Lernobjektinstanzen in Adobe Learning Manager haben keinen **Draft**-Status. Daher unterstützt Adobe Learning Manager kein **LEARNING_OBJECT_INSTANCE_DRAFT-Ereignis**. Dieses Ereignis wird immer dann generiert, wenn eine Instanz erstellt, geändert oder eingestellt wird.
+Sobald eine Instanz erstellt wurde, wird das **LEARNING_OBJECT_INSTANCE_MODIFICATION**-Ereignis generiert. Lernobjektinstanzen in Adobe Learning Manager haben keinen **Entwurf**-Status. Daher unterstützt Adobe Learning Manager kein **LEARNING_OBJECT_INSTANCE_DRAFT-Ereignis**. Dieses Ereignis wird immer dann generiert, wenn eine Instanz erstellt, geändert oder eingestellt wird.
 
 Dieses Ereignis wird nicht nur beim Erstellen, Aktualisieren oder Zurückziehen einer Instanz generiert, sondern auch automatisch generiert, wenn das übergeordnete Lernobjekt als **Zurückgezogen** markiert ist. Dies liegt daran, dass die zugrunde liegenden Instanzen auch als **Eingestellt** markiert werden müssen, wenn ein Lernobjekt eingestellt wird.
 
@@ -186,14 +186,13 @@ Als Teil der Webhooks-Antwort-Nutzlast gibt Adobe Learning Manager die Attribute
 
 Einer der Anwendungsfälle, von denen wir gehört haben, wo Webhooks nützlich sein könnten, ist der Aufbau einer Datenbank auf Kundenseite. Adobe Learning Manager verfügt über eine eigene Datenbank und ein eigenes Schema, Kunden haben jedoch keinen Zugriff darauf.
 
-Die Frage ist: Wie können Kunden eine Datenbank aufbauen, indem sie Ereignisse aus webhooks verwenden?
+Die Frage lautet: Wie können Kunden eine Datenbank aufbauen, indem sie Ereignisse aus Webhooks verwenden?
 
 Da Adobe Learning Manager die Tabellendatensätze und das Schema nicht direkt verfügbar macht, können sich Kunden beim Erstellen einer externen Datenbank auf die Webhooks-Lösung verlassen, indem sie die Ereignisse zum Ausfüllen nutzen. In dieser Version stellen wir Ereignisse für Lernobjekte, Lernobjektinstanzen, Registrierung, Aufhebung der Registrierung, Abschluss, Fortschritt und Kursinstanzstatistiken bereit.
 
 ### Erstellen einer Datenbank aus Lernobjektereignissen
 
-Die Lernobjektereignisse machen `loId` und `loType` verfügbar, um eine Entität zu identifizieren. Diese Attribute allein reichen jedoch nicht aus, um eine externe Lernobjektdatenbank zu erstellen. Kunden benötigen zusätzliche Felder, um das Lernobjekt weiter zu beschreiben.
-Es gibt zwei Ansätze, um die zusätzlichen Daten abzurufen:
+Die Lernobjektereignisse machen `loId` und `loType` verfügbar, um eine Entität zu identifizieren. Diese Attribute allein reichen jedoch nicht aus, um eine externe Lernobjektdatenbank zu erstellen. Kunden benötigen zusätzliche Felder, um das Lernobjekt weiter zu beschreiben.Es gibt zwei Ansätze, um die zusätzlichen Daten abzurufen:
 
 #### Generieren Sie einen Bericht zu Schulungsdaten, um alle Daten abzurufen
 
@@ -239,8 +238,7 @@ Für ALM ist das Verbindungszeitlimit auf 10 Sekunden und das Socket-Zeitlimit a
 
 ### Datenaufbewahrung
 
-Die Veranstaltungen dauern 7 Tage. Wenn sie nicht innerhalb dieser Zeit verarbeitet werden, gehen sie dauerhaft verloren. Wenn die Wiederherstellung am letzten Tag erfolgt und mehr Zeit benötigt wird, verlängert das System die Aufbewahrungsfrist nicht.
-Wenn Ereignisse schneller erzeugt werden, als sie verbraucht werden, können einige Ereignisse verloren gehen. Obwohl dies ungewöhnlich ist, sollten die Abonnenten überwachen, um zu verhindern, dass es zu einem langfristigen Problem wird.
+Die Veranstaltungen dauern 7 Tage. Wenn sie nicht innerhalb dieser Zeit verarbeitet werden, gehen sie dauerhaft verloren. Wenn die Wiederherstellung am letzten Tag erfolgt und mehr Zeit benötigt wird, verlängert das System die Aufbewahrungsfrist nicht.Wenn Ereignisse schneller erzeugt werden, als sie verbraucht werden, können einige Ereignisse verloren gehen. Obwohl dies ungewöhnlich ist, sollten die Abonnenten überwachen, um zu verhindern, dass es zu einem langfristigen Problem wird.
 
 ### Webhooks deaktivieren
 

@@ -6,8 +6,8 @@ contentowner: manochan
 exl-id: 5a59b56c-111b-46e4-95e5-60cc3af75c4d
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '1840'
-ht-degree: 63%
+source-wordcount: '1883'
+ht-degree: 90%
 
 ---
 
@@ -21,13 +21,13 @@ Mit Adobe Learning Manager können Sie verschiedene Berichte erstellen, um die A
 
 Berichte für Administratoren und Manager werden auf dieselbe Weise erstellt. Manager können Berichte über ihre Mitarbeiter anzeigen, Administratoren hingegen alle Berichte im Unternehmen.
 
-Berichte werden in einem Dashboard generiert. Ein Bericht muss sich in einem Dashboard befinden. Ein **Standard-Dashboard** ist standardmäßig auf der Berichtsseite vorhanden. Alle Berichte, die Sie hinzufügen, werden in dieses Standard-Dashboard verschoben. Um einem einzelnen Dashboard einen Bericht hinzuzufügen, wählen Sie in der Dropdownliste &quot;Bericht hinzufügen&quot;. Genauere Informationen über das Erstellen von Dashboards finden Sie im Bereich „Dashboards“ auf dieser Seite.
+Berichte werden in einem Dashboard generiert. Ein Bericht muss sich in einem Dashboard befinden. Standardmäßig ist auf der Berichtsseite ein **Standard-Dashboard** vorhanden. Alle Berichte, die Sie hinzufügen, werden in dieses Standard-Dashboard verschoben. Um einem einzelnen Dashboard einen Bericht hinzuzufügen, wählen Sie in der Dropdownliste Bericht hinzufügen. Genauere Informationen über das Erstellen von Dashboards finden Sie im Bereich „Dashboards“ auf dieser Seite.
 
 ## Manager-Dashboards {#manager-dashboards}
 
 Ein Manager kann Informationen über sein direktes oder indirektes Team als Zusammenfassung anzeigen.
 
-Der Manager kann dann den Bericht nach Bereichen wie Quartal, aktueller Monat, letzte drei Monate und letzte 12 Monate filtern.
+Der Manager kann dann den Bericht nach Bereichen wie Quartal, aktueller Monat, drei letzte gesamte Monate und letzte 12 gesamte Monate filtern.
 
 ## Übersicht zu Lernprogrammen {#learningsummary}
 
@@ -41,7 +41,7 @@ Der Manager kann dann den Bericht nach Bereichen wie Quartal, aktueller Monat, l
 
 ## Kompatibilitäts-Dashboard {#compliancedashboard}
 
-Prüfen Sie die Compliance Ihres Teams und bei welchen Teammitgliedern die Compliance gefährdet ist. Wählen Sie die Lernobjekte aus und zeigen Sie den Status jedes Objekts an.
+Prüfen Sie die Compliance Ihres Teams und bei welchen Teammitgliedern die Compliance gefährdet ist. Wählen Sie die Lernobjekte aus und zeigen Sie den Status der einzelnen Lernobjekte an.
 
 ![](assets/compliance-dashboard.png)
 
@@ -72,7 +72,7 @@ Basierend auf Verlaufsdaten können Sie eine grafische Darstellung der Qualifika
 Standardmäßig werden mindestens drei Beispielberichte auf der Seite mit der Berichtszusammenfassung angezeigt. Sie können diese Beispielberichte nicht bearbeiten, sondern nur anzeigen, um zu sehen, wie Sie sie erstellen und anpassen können.
 
 1. Klicken Sie auf der Seite mit der Berichtszusammenfassung auf „Hinzufügen“. Das Dialogfeld „Berichterstellung“ wird angezeigt.
-1. Klicken Sie auf Speichern , um das Erstellen des Berichts abzuschließen. Nachfolgend sehen Sie einen Beispielbericht.
+1. Klicken Sie auf „Speichern“, um die Berichterstellung abzuschließen. Nachfolgend sehen Sie einen Beispielbericht.
 
 ![](assets/add-report.png)
 
@@ -89,19 +89,19 @@ Unter „Berichtstyp“ können Sie einen Satz vordefinierter Berichte oder „B
 
 Mit den oben genannten Berichtstypen können Sie mehr als 300 unterschiedliche Berichtsvarianten generieren.
 
-Berichtname Geben Sie einen Titel für Ihren Bericht ein.
+Berichtname: Geben Sie einen Titel für den Bericht ein.
 
-**Primäre Y-Achse** Wählen Sie das erste/primäre Kriterium für Ihren Bericht aus den Dropdownoptionen aus. Für einige der ausgewählten Kriterien haben Sie die Möglichkeit, einen oder mehrere Status aus dem angrenzenden Status-Dropdownfeld auszuwählen. Beim primären Kriterium der Statistik zur Kursregistrierung können die Status beispielsweise &quot;Abgeschlossen&quot;, &quot;Nicht abgeschlossen&quot;, &quot;Registriert&quot; usw. lauten. Daten des primären Bereichs werden im Bericht in Form von Balkendiagrammen dargestellt.
+**Primäre y-Achse** Wählen Sie aus den Dropdownoptionen die wichtigsten bzw. primären Kriterien für Ihren Bericht aus. Bei einigen der ausgewählten Kriterien haben Sie die Möglichkeit, einen oder mehrere Status aus dem nebenstehenden Dropdownfeld auszuwählen. Beim primären Kriterium der Statistik zur Kursregistrierung können die Status beispielsweise „Abgeschlossen“, „Nicht abgeschlossen“, „Registriert“ usw. lauten. Daten des primären Bereichs werden im Bericht in Form von Balkendiagrammen dargestellt.
 
-**Sekundäre Y-Achse** Wählen Sie die Kriterien für die sekundäre Y-Achse bzw. den Bereich für Ihren Bericht aus den Dropdownoptionen aus. Wählen Sie beispielsweise bei der Option für die Registrierung für ein Lernprogramm einen oder mehrere Status aus dem Dropdown-Menü neben Status aus. Sekundäre Bereichsdaten werden im Bericht in Form von Liniendiagrammen dargestellt.
+**Sekundäre y-Achse** Wählen Sie aus den Dropdownoptionen die Kriterien für die sekundäre y-Achse bzw. den Bereich für Ihren Bericht aus. Wählen Sie beispielsweise bei der Option zur Lernprogrammregistrierung einen oder mehrere Status aus dem nebenstehenden Dropdownfeld aus. Sekundäre Bereichsdaten werden im Bericht in Form von Liniendiagrammen dargestellt.
 
-**X-axis** Wählen Sie die entsprechenden X-Achsen-Kriterien für Ihren Bericht aus den Dropdownoptionen aus. Wenn Sie das Datum als Kriterium für die x-Achse ausgewählt haben, steht Ihnen eine Option zur Gruppierung des x-Achsen-Kriteriums nach Tag, Monat, Quartal und Jahr zur Verfügung.
+**x-Achse** Wählen Sie die für Ihren Bericht geeigneten x-Achsen-Kriterien aus den Dropdownoptionen aus. Wenn Sie das Datum als Kriterium für die x-Achse ausgewählt haben, steht Ihnen eine Option zur Gruppierung des x-Achsen-Kriteriums nach Tag, Monat, Quartal und Jahr zur Verfügung.
 
-**Datum** Wählen Sie die entsprechende Option aus der Dropdownliste aus. Optionen: letzter Monat, Quartal, Jahr, QTD (letzte 90 Tage), seit Jahresbeginn (letzte 365 Tage) und Datumsbereich. Wenn Sie Datumsbereich wählen, geben Sie das Start- und Enddatum wie folgt an:
+**Datum**: Wählen Sie die gewünschte Option in der Dropdownliste aus. Optionen: letzter Monat, Quartal, Jahr, QTD (letzte 90 Tage), seit Jahresbeginn (letzte 365 Tage) und Datumsbereich. Wenn Sie Datumsbereich wählen, geben Sie das Start- und Enddatum wie folgt an:
 
-**Von** Wählen Sie das Startdatum aus, ab dem Sie den Bericht anzeigen möchten.
+**Von** Wählen Sie das Startdatum, bei dem der Bericht beginnen soll.
 
-**Bis** Wählen Sie das Enddatum für Ihren Bericht aus.
+**Bis** Wählen Sie das Enddatum für Ihren Bericht.
 
 ## Filter {#filters}
 
@@ -137,7 +137,7 @@ Um Berichte basierend auf Benutzergruppen zu generieren, wählen Sie **Benutzerg
 
 *Generieren von Benutzergruppenberichten*
 
-Ein anderes Dropdownmenü&#x200B;**Auswahl** wird neben der x-Achse mit einer Liste von Benutzergruppen angezeigt, die für Ihr Konto vorhanden sind. In diesem Dropdownmenü können Sie eine oder mehrere Benutzergruppen auswählen.
+Ein anderes Dropdownmenü&#x200B;**Auswahl** wird neben der x-Achse mit einer Liste von Benutzergruppen angezeigt, die für Ihr Konto vorhanden sind. In diesem Dropdownmenü können Sie eine oder mehrere Benutzergruppen wählen.
 
 Wenn Sie mehrere Benutzergruppen ausgewählt haben, wird, nachdem Sie den Bericht speichern und erstellen, der Bericht mit allen Benutzergruppen, die im Balkendiagramm neben jeder x-Achse dargestellt werden, erstellt.
 
@@ -147,7 +147,7 @@ Dieser Benutzergruppebericht ermöglicht Ihnen, die Leistung von einer Abteilung
 
 Sie können eigene Benutzergruppen mit der Funktion „Benutzer/Benutzergruppen hinzufügen“ in Learning Manager erstellen. Nachdem Sie die Benutzergruppen erstellt haben, können Sie die Berichte für die benutzerdefinierten Benutzergruppen mit einer Liste der Attribute wie Ort, Zweigstelle usw. generieren.
 
-Wählen Sie in der X-Achse die Benutzerattributoption und wählen Sie das Attribut aus dem Dropdownmenü &quot;**Auswählen**&quot; daneben. Um einen benutzerdefinierten Benutzergruppebericht basierend auf diesen Attributen zu erstellen, müssen Sie auch die entsprechende Benutzergruppe im Filter auswählen.
+Wählen Sie in der X-Achse die Benutzerattributoption und wählen Sie das Attribut aus dem Dropdownmenü &quot;**Auswählen**&quot; daneben. Um einen benutzerdefinierten Benutzergruppebericht zu erstellen, der auf diesen Attributen basiert, müssen Sie auch die entsprechende Benutzergruppe im Filter wählen.
 
 Manager können Benutzergruppeberichte nur für ihre eigenen Teammitglieder als Teilnehmer erstellen.
 
@@ -162,15 +162,15 @@ Manager können Benutzergruppeberichte nur für ihre eigenen Teammitglieder als 
 
 ## Meine Berichte {#myreports}
 
-Ein Dashboard ist eine Sammlung von Berichten. Berichte können nach Ihren Wünschen in einem Dashboard gruppiert werden.
+Ein Dashboard ist eine Sammlung von Berichten. Sie können die Berichte im Dashboard nach Ihrem Bedarf gruppieren.
 
 **Beispielberichte**
 
-Klicken Sie auf diese Registerkarte, um einige Musterberichte anzuzeigen, die anhand von Beispieldaten erstellt wurden. Sehen Sie sich diese Berichte an, um zu verstehen, welche funktionsreichen Berichtsvarianten Sie mit Ihren Kontodaten generieren können.
+Klicken Sie auf diese Registerkarte, um einige Musterberichte anzuzeigen, die aufgrund von Beispieldaten erstellt wurden. Sehen Sie sich diese Berichte an, um zu verstehen, welche funktionsreichen Berichtsvarianten Sie mit Ihren Kontodaten generieren können.
 
 **Meine Berichte**
 
-Klicken Sie auf diese Dashboard-Registerkarte, um alle von Ihnen erstellten Dashboards anzuzeigen. In der Dropdown-Liste &quot;Dashboard anzeigen&quot; können Sie das Standard-Dashboard oder eines Ihrer erstellten Dashboards auswählen.
+Klicken Sie auf diese Dashboard-Registerkarte, um alle von Ihnen erstellten Dashboards anzuzeigen. In der Dropdownliste „Dashboard anzeigen“ können Sie das Standard-Dashboard oder von Ihnen selbst erstellte Dashboards auswählen.
 
 **Zum Dashboard hinzufügen**
 
@@ -198,7 +198,7 @@ Freigegebene Berichte sind eine Sammlung von Berichten, die andere Benutzer im U
 
 Sie können Ihren bevorzugten Berichte abonnieren, indem Sie hier Ihre E-Mail angeben. Ihre abonnierten Berichte werden Ihnen per E-Mail zugesendet.
 
-Klicken Sie auf das Symbol **Bearbeiten** in der rechten Ecke Ihres Berichtsnamens in der Berichtsliste, um Ihr Abonnement jederzeit zu ändern.
+Klicken Sie auf **Bearbeiten** in der rechten Ecke des Berichtnamens in der Berichteliste, um Ihr Abonnement zu ändern.
 
 ## Anzeigen von Berichten {#viewingreports}
 
@@ -212,18 +212,17 @@ Sie können den Datumsbereich/-wert für jeden Bericht ändern und diesen schnel
 
 **Schnellansicht mit verschiedenen Managern**
 
-Wenn Ihnen mehrere Manager unterstellt sind, können Sie die Berichte für jeden Manager schnell anzeigen. Wählen Sie den Managernamen aus der Dropdown-Liste aus, um einen eindeutigen Bericht für jeden Manager anzuzeigen.
-**Berichte bearbeiten/in Dashboard verschieben/Kopie erstellen/löschen/Größe ändern** Klicken Sie auf den Dropdown-Pfeil in der oberen rechten Ecke jedes Berichts, um die Dropdown-Optionen &quot;Bearbeiten&quot;/&quot;In Dashboard verschieben&quot;/&quot;Kopie erstellen&quot;/&quot;Löschen&quot;/&quot;Größe ändern&quot; anzuzeigen.
+Wenn Ihnen mehrere Manager unterstellt sind, können Sie die Berichte für jeden Manager schnell anzeigen. Wählen Sie in der Dropdownliste den Managernamen, um einen spezifischen Bericht für den entsprechenden Manager anzuzeigen.**Berichte bearbeiten/in Dashboard verschieben/Kopie erstellen/löschen/Größe ändern** Klicken Sie auf den Dropdown-Pfeil in der oberen rechten Ecke jedes Berichts, um die Dropdown-Optionen &quot;Bearbeiten&quot;/&quot;In Dashboard verschieben&quot;/&quot;Kopie erstellen&quot;/&quot;Löschen&quot;/&quot;Größe ändern&quot; anzuzeigen.
 
 <!--![](assets/edit-options-dashboard-300x126.png)-->
 
-**Bearbeiten** Um beim Ändern von Daten zu den Anfangswerten zurückzukehren, klicken Sie auf &quot;Zurücksetzen&quot;. Klicken Sie auf „Speichern“, nachdem Sie die Werte geändert haben.
+**Bearbeiten** Um nach dem Ändern von Daten zu den Anfangswerten zurückzukehren, klicken Sie auf „Zurücksetzen“. Klicken Sie auf „Speichern“, nachdem Sie die Werte geändert haben.
 
-**In Dashboard verschieben** Sie können den aktuellen Bericht in ein anderes Dashboard verschieben, das Sie aus der Liste der Dashboards auswählen.
+**Ins Dashboard verschieben** Sie können den aktuellen Bericht in ein anderes Dashboard verschieben, das Sie aus der Liste der Dashboards auswählen.
 
-**Kopie erstellen** Sie können den Bericht in dasselbe oder ein anderes Dashboard kopieren, das Sie aus der Liste der Dashboards auswählen.
+**Kopie erstellen** Sie können den Bericht in dasselbe oder ein anderes Dashboard kopieren , das Sie aus der Liste der Dashboards auswählen.
 
-**Löschen** Klicken Sie auf &quot;Löschen&quot;, um den Bericht zu entfernen. Bevor Sie den Bericht löschen können, wird eine Warn- bzw. Bestätigungsmeldung angezeigt.
+**Löschen** Klicken Sie auf „Löschen“, um den Bericht zu entfernen. Bevor Sie den Bericht löschen können, wird eine Warn- bzw. Bestätigungsmeldung angezeigt.
 
 **Größe ändern** Sie können die Größe Ihrer Berichte ändern in 1×1 (mittel) und 2×2 (groß).
 
@@ -233,6 +232,6 @@ Sie erhalten Ihre wichtigsten Berichte per E-Mail, indem Sie sie abonnieren.
 
 Klicken Sie auf der Berichte-Seite neben der Schaltfläche „Hinzufügen“ in der rechten oberen Ecke der Seite auf „E-Mail-Abonnement“. Die Seite zum Abonnieren von Berichten erscheint.
 
-Beginnen Sie mit der Eingabe des Berichtnamens in das Feld Berichte, um den Berichtnamen aus der Dropdownliste auszuwählen. Wählen Sie die E-Mail-Häufigkeit aus, die Sie täglich, wöchentlich oder monatlich benötigen, fügen Sie den Betreff der E-Mail hinzu und klicken Sie auf &quot;Hinzufügen&quot;, um das Abonnement abzuschließen.
+Beginnen Sie damit, den Namen des Berichts im Feld „Berichte“ einzugeben, und wählen Sie den Namen des Berichts aus der Dropdown-Liste aus. Wählen Sie die Häufigkeit aus, mit der Sie die E-Mail erhalten möchten – täglich, wöchentlich, monatlich –, geben Sie einen Betreff für die E-Mail ein und klicken Sie auf „Hinzufügen“, um den Bericht zu abonnieren.
 
-Klicken Sie auf Bearbeiten , um das Abonnement zu ändern. Klicken Sie auf „Löschen“, um das Abonnement zu löschen.
+Klicken Sie auf „Bearbeiten“, um das Abonnement zu ändern. Klicken Sie auf „Löschen“, um das Abonnement zu löschen.
