@@ -5,7 +5,7 @@ title: Verwalten von Benutzergruppen in Adobe Learning Manager | Organisieren un
 exl-id: 5569a201-0648-4b2c-bab3-927e5c149290
 source-git-commit: cd81d076b44b513afc6d21be0c3ea17d7359972e
 workflow-type: tm+mt
-source-wordcount: '1441'
+source-wordcount: '1458'
 ht-degree: 0%
 
 ---
@@ -120,7 +120,7 @@ Im Folgenden sind die Spalten des Gruppenmitgliedsberichts aufgeführt:
 * **Status**: Status des Benutzers (registriert oder nicht registriert).
 * **Hinzugefügtes Datum (UTC-Zeitzone)**: Datum, an dem der Benutzer in der UTC-Zeitzone hinzugefügt wurde.
 * **Löschdatum (UTC-Zeitzone)**: Datum, an dem der Benutzer in der UTC-Zeitzone gelöscht wurde.
-* **Letztes Anmeldedatum (UTC-Zeitzone)**: Datum, an dem der Benutzer zuletzt in der UTC-Zeitzone angemeldet ist.
+* **Datum der letzten Anmeldung (UTC-Zeitzone)**: Datum, an dem der Benutzer zuletzt in der UTC-Zeitzone angemeldet ist.
 
 ![](assets/csv-sample-download-ug.png)
 _CSV-Beispieldatei enthält die Benutzerdetails_
@@ -195,7 +195,7 @@ Wenn Sie mehrere Benutzergruppen innerhalb eines Einbeziehungssatzes auswählen,
 Beispiel:
 
 * Vertriebsteamgruppe: 120 Benutzer
-* Standort (Bangalore) Gruppe: 80 Benutzer
+* Standort (Bangalore): 80 Benutzer
 * Häufige Benutzer in **beiden** Gruppen: 40 Benutzer
 
 Adobe Learning Manager verwendet die UND-Logik, um eine Gruppe mit nur 40 Benutzern zu erstellen. Diese Benutzer sind Teil des Vertriebsteams und befinden sich ebenfalls in Bangalore, wobei beide Bedingungen erfüllt werden.
@@ -208,7 +208,7 @@ _Beispiel, in dem mehrere Gruppen mit UND-Logik kombiniert werden_
 Wenn Sie Benutzergruppen in separaten Einbeziehungssätzen hinzufügen, werden alle Bedingungen erfüllende Benutzer eingeschlossen. Beispiel:
 
 * Vertriebsteamgruppe: 120 Benutzer
-* Standort (Bangalore) Gruppe: 80 Benutzer
+* Standort (Bangalore): 80 Benutzer
 * Benutzer in beiden Gruppen insgesamt: 160 Benutzer (einige Benutzer können in beiden Gruppen sein)
 
 Wenn Sie die OR-Logik verwenden, fügt Adobe Learning Manager Benutzer hinzu, die entweder im Vertriebsteam oder in Bangalore ansässig sind. Dies bedeutet, dass Benutzer einbezogen werden, die eine der beiden Bedingungen erfüllen. Daher umfasst die Gruppe 160 Benutzer, nachdem Duplikate entfernt wurden.
