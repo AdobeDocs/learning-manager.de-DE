@@ -1,17 +1,16 @@
 ---
 jcr-language: en_us
 title: Bereitstellungsleitfaden für Learning Manager
-description: Learning Manager ist ein Learning Management System (LMS), mit dem Schulungsexperten ansprechende und verfolgbare Lernmaterialien bereitstellen können, die zu den Anforderungen und Zielen eines Unternehmens beitragen können. Mit dem Lern-Manager können Kursleiter oder Manager Kurse und andere Lernobjekte in einer bestimmten Reihenfolge für Teilnehmer zuweisen.
+description: Learning Manager ist ein Learning Management System (LMS), mit dem Schulungsexperten ansprechende und verfolgbare Lernmaterialien bereitstellen können, die zu den Anforderungen und Zielen eines Unternehmens beitragen können. Mit Learning Manager können Ausbilder oder Manager Kurse und andere Lernobjekte in einer bestimmten Reihenfolge für Teilnehmer zuweisen.
 contentowner: shhivkum
 preview: true
-source-git-commit: 2317aa899a82abe24d38c4e40a06df3646fde310
+exl-id: 5d65fd64-446e-4398-957b-1fb2b19e646d
+source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
 workflow-type: tm+mt
-source-wordcount: '3246'
-ht-degree: 72%
+source-wordcount: '3264'
+ht-degree: 76%
 
 ---
-
-
 
 # Bereitstellungsleitfaden für Learning Manager
 
@@ -58,9 +57,9 @@ Verwenden Sie die Logo- und Banner-Einstellungen, um das Logo Ihres Unternehmens
 * Klicken Sie im linken Teilfenster auf **Branding**.
 * Auf der Branding-Seite können Sie die folgenden Optionen konfigurieren, indem Sie auf **Bearbeiten** für die Option klicken, die Sie ändern möchten:
 
-   * **Name der Organisation** : Der Wert, den Sie hier angeben, bestimmt den Namen, der auf dem Banner auf jeder Seite Ihrer Site angezeigt wird.
-   * **Subdomain**: Dieser Wert bestimmt die URL für Ihre Site.
-   * **Logo-Formatierung**: Das Bild in diesem Feld wird als Logo in der oberen rechten Ecke jeder Seite angezeigt. Hier können Sie auswählen, ob nur das Logo oder der Name Ihres Unternehmens oder das Logo und der Name des Unternehmens angezeigt werden sollen.
+  * **Name der Organisation** : Der Wert, den Sie hier angeben, bestimmt den Namen, der auf dem Banner auf jeder Seite Ihrer Site angezeigt wird.
+  * **Subdomain**: Dieser Wert bestimmt die URL für Ihre Site.
+  * **Logo-Formatierung**: Das Bild in diesem Feld wird als Logo in der oberen rechten Ecke jeder Seite angezeigt. Hier können Sie auswählen, ob nur das Logo oder der Name Ihres Unternehmens oder das Logo und der Name des Unternehmens angezeigt werden sollen.
 
 ![](assets/setting-the-themesforyoursite.png)
 
@@ -87,7 +86,7 @@ Sie können eines der Farbschemata auswählen, um es an Ihr Unternehmensbranding
 
    ![](assets/setting-the-themesforyoursite.png)
 
-1. Darüber hinaus können Sie die **Farbe der oberen Leiste**, die **Akzentfarbe** und die **Helligkeit der Seitenleiste** bearbeiten.  Für diese wichtigen Elemente der Benutzeroberfläche können Sie Ihre eigenen Markenfarben verwenden.
+1. Außerdem können Sie **Farbe von oberer Leiste**, **Akzentfarbe** und **Helligkeit von Seitenleiste** bearbeiten.  Für diese wichtigen Elemente der Benutzeroberfläche können Sie eigene Markenfarben verwenden.
 1. Um die Werte auf das Standardfarbschema für Ihr Design zurückzusetzen, klicken Sie auf **[!UICONTROL Design zurücksetzen]**. Dadurch werden die Farben für die wichtigsten UI-Elemente auf die Standardoptionen für das ausgewählte Design zurückgesetzt.
 1. Nachdem Sie das Design ausgewählt haben, klicken Sie auf **[!UICONTROL Hinweise anzeigen]**, um die Beschriftungen oder Hinweise in der Vorschau anzuzeigen.
 
@@ -129,15 +128,15 @@ Sie können diese E-Mail-Benachrichtigungen über das Administrator-Dashboard ak
 
    Wenn sich ein Teilnehmer jetzt für einen Kurs vom Manager oder vom Administrator registriert hat, erhalten der Teilnehmer und sein Manager eine E-Mail-Benachrichtigung.
 
-   ***Hinweis: Die Änderungen gelten nur für die E-Mail-Vorlage, die dem ausgewählten Ereignis zugeordnet ist.***
+   ***Hinweis: Die Änderungen gelten nur für die E-Mail-Vorlage, die mit dem ausgewählten Ereignis verknüpft ist.***
 
 1. Beachten Sie, dass Sie die Konto-URL oder die Signatur in der E-Mail-Vorlage nicht ändern konnten. Um die **[!UICONTROL Konto-URL]** oder **[!UICONTROL Signatur]** zu ändern, klicken Sie auf die Registerkarte **[!UICONTROL Einstellungen]**. Auf dieser Registerkarte können Sie das E-Mail-Banner, die E-Mail-Signatur und die Konto-URL ändern.
 
    Der Konto URL-Link wird in allen E-Mails unmittelbar vor der Signatur angezeigt. Geben Sie die URL ein und klicken Sie auf **[!UICONTROL Speichern]**. Diese URL ist nur für interne Benutzer sichtbar.
 
-   Für das E-Mail-Banner können Sie die Farbe des Banners ändern, indem Sie **[!UICONTROL **&#x200B; Bannerhintergrund &#x200B;** auswählen.] **&#x200B; Sie können auch ein benutzerdefiniertes Bild als Banner verwenden, indem Sie die Option &#x200B;** [!UICONTROL Benutzerdefiniertes Bild] **&#x200B; auswählen. Klicken Sie auf &#x200B;** [!UICONTROL Speichern]**, nachdem Sie die Änderungen vorgenommen haben.
+   Für das E-Mail-Banner können Sie die Farbe des Banners ändern, indem Sie **[!UICONTROL **&#x200B; Bannerhintergrund &#x200B;**.] **&#x200B; auswählen. Sie können auch ein benutzerdefiniertes Bild als Banner verwenden, indem Sie die Option &#x200B;** [!UICONTROL Benutzerdefiniertes Bild] **&#x200B; auswählen. Klicken Sie auf &#x200B;** [!UICONTROL Speichern]**, nachdem Sie die Änderungen vorgenommen haben.
 
-   ***Hinweis: Die benutzerdefinierte Bildgröße für das E-Mail-Banner muss 1240x200px betragen. Bilder, die größer als die empfohlene Größe sind, werden beschnitten.***
+   ***Hinweis: Die benutzerdefinierte Bildgröße für das E-Mail-Banner muss 1240 x 200 px betragen. Bilder, die größer als die empfohlene Größe sind, werden beschnitten.***
 
    ***Learning Manager unterstützt nur die Dateitypen .jpg, .jpeg und .png für E-Mail-Banner.***
 
@@ -156,13 +155,13 @@ Diese Option ist auch für Autoren verfügbar, wenn Autoren ein Lernobjekt einri
 So konfigurieren Sie E-Mail-Vorlagen für ein Lernobjekt:
 
 1. Klicken Sie auf den Kurs, das Lernprogramm oder die Zertifizierung, für die Sie die E-Mail-Vorlage konfigurieren möchten.
-1. Klicken Sie im linken Teilfenster auf **[!UICONTROL **&#x200B; E-Mail-Vorlagen &#x200B;**.] **&#x200B; Das System zeigt das Popup-Dialogfeld &#x200B;**&#x200B;**[!UICONTROL Vorlagenübersicht]**&#x200B;** an.
+1. Klicken Sie im linken Teilfenster auf **[!UICONTROL **&#x200B; E-Mail-Vorlagen &#x200B;**.]&#x200B;**. Das System zeigt das Popup-Dialogfeld &#x200B;**&#x200B;**[!UICONTROL Vorlagenvorschau]**&#x200B;** an.
 1. Ändern Sie den Betreff oder den Text der E-Mail-Vorlage und klicken Sie auf **[!UICONTROL **Speichern**]**, um die Änderungen zu übernehmen.
 1. Klicken Sie auf **[!UICONTROL **&#x200B; Auf Original zurücksetzen &#x200B;**, um die Änderungen abzubrechen.]**
 
 ### Empfang von E-Mails für Benutzer beschränken {#restrictusersfromreceivingemails}
 
-Als Administrator können Sie auswählen, wer E-Mails von Learning Manager erhält und wer nicht. Sie können dies mit der Option **&#x200B;**&#x200B;[!UICONTROL Eingeschränkter Benutzer]&#x200B;**&#x200B;** auf der Registerkarte **&#x200B;**&#x200B;[!UICONTROL Einstellungen] **&#x200B; &#x200B;**. Benutzer können dieser Liste mit ihrem Namen, ihrer E-Mail-ID oder ihrer eindeutigen Benutzer-ID hinzugefügt werden. Die unter dieser Option aufgeführten Benutzer erhalten keine E-Mail-Mitteilungen von Learning Manager.
+Als Administrator können Sie auswählen, wer E-Mails von Learning Manager erhält und wer nicht. Sie können dies mit der Option **&#x200B;**&#x200B;[!UICONTROL Eingeschränkter Benutzer]&#x200B;**&#x200B;** auf der Registerkarte **&#x200B;**&#x200B;[!UICONTROL Einstellungen] **&#x200B; **. Benutzer können dieser Liste mit ihrem Namen, ihrer E-Mail-ID oder ihrer eindeutigen Benutzer-ID hinzugefügt werden. Die unter dieser Option aufgeführten Benutzer erhalten keine E-Mail-Mitteilungen von Learning Manager.
 
 ## Konfigurieren Ihrer Kontoeinstellungen {#configureyouraccountsettings}
 
@@ -176,7 +175,7 @@ Mit Learning Manager können Sie einige Kontoeinstellungen konfigurieren, z. B.
 
    * **Land**: Wählen Sie in diesem Dropdownfeld das Land aus.
    * **Zeitzone**: Legen Sie die entsprechende Zeitzone für Ihren Standort fest.
-   * **Gebietsschema**: Wählen Sie die gewünschte Sprache aus. Wenn Sie die Sprache in diesem Feld ändern, wird die Änderung auf alle Benutzer angewendet, die diese Anwendung verwenden. Jeder Benutzer kann jedoch die Sprache seiner Voreinstellungen individuell ändern.
+   * **Gebietsschema**: Wählen Sie die gewünschte Sprache aus. Wenn Sie die Sprache in diesem Feld ändern, wird die Änderung auf alle Benutzer angewendet, die diese Anwendung verwenden. Jeder Benutzer kann jedoch einzeln die Sprache der Voreinstellungen ändern.
    * **Geschäftsjahr startet im**: Wählen Sie den Monat aus, in dem das Geschäftsjahr für Ihr Unternehmen beginnt.
 
 
@@ -195,7 +194,7 @@ Als Administrator können Sie die Feedbackeinstellungen global konfigurieren. Ge
 1. Klicken Sie im linken Bereich auf **[!UICONTROL Allgemein]**.
 1. Um L1-Feedback zu konfigurieren, klicken Sie auf die Registerkarte **[!UICONTROL L1-Feedback]**. Sie sehen die Optionen zum Konfigurieren einer obligatorischen Frage und mehrerer optionaler Fragen. Dies sind die Fragen, die einem Teilnehmer angezeigt werden, während er nach Abschluss eines Kurses Feedback abgibt. Die Fragen sind als Anweisungen formuliert, sodass die Teilnehmer ihre Antwort auf einer Skala von 1 bis 5 auswählen können.
 
-   Der erste Teil des L1-Feedbacks ist eine obligatorische Frage dazu, wie es für einen Teilnehmer ist, diesen Kurs einem Freund oder einem Kollegen zu empfehlen.
+   Der erste Teil des L1-Feedbacks ist eine obligatorische Frage, wie wahrscheinlich es für einen Teilnehmer ist, diesen Kurs einem Freund oder Kollegen zu empfehlen.
 
    ***Hinweis: Sie können die obligatorische Frage nicht bearbeiten oder ändern.***
 
@@ -224,7 +223,7 @@ Als Administrator können Sie die Feedbackeinstellungen global konfigurieren. Ge
 
 ## L3-Feedback konfigurieren: {#configurel3feedback}
 
-L3-Feedback enthält die Fragen, die an den Manager eines Teilnehmers gesendet werden, nachdem der Teilnehmer einen Kurs abgeschlossen hat. L3-Feedback ermöglicht es einem Administrator, Änderungen des Verhaltens oder der Kenntnisse eines Teilnehmers im Laufe der Zeit zu verfolgen. Um dieses Feedback zu konfigurieren, klicken Sie auf der Feedback-Seite auf die Registerkarte **&#x200B;**&#x200B;[!UICONTROL L3-Feedback]&#x200B;**&#x200B;**. Sie sehen eine Standardfrage. Der Manager muss diese Frage anhand einer Fünf-Punkte-Ratingskala beantworten.
+L3-Feedback enthält die Fragen, die an den Manager eines Teilnehmers gesendet werden, nachdem der Teilnehmer einen Kurs abgeschlossen hat. Mit L3-Feedback kann ein Administrator Änderungen am Verhalten oder den Fähigkeiten eines Teilnehmers im Zeitverlauf verfolgen. Um dieses Feedback zu konfigurieren, klicken Sie auf der Feedback-Seite auf die Registerkarte **&#x200B;**&#x200B;[!UICONTROL L3-Feedback]&#x200B;**&#x200B;**. Sie sehen eine Standardfrage. Der Manager muss diese Frage mit einer Bewertungsskala von fünf Punkten beantworten.
 
 ![](assets/configure-l3-feedback.png)
 
@@ -243,7 +242,7 @@ So konfigurieren Sie die Feedbackeinstellungen auf Instanzebene:
 
    ![](assets/configure-feedbackataninstancelevel.png)
 
-1. Klicken Sie auf der Seite mit den Kursdetails im Abschnitt &quot;Konfigurieren&quot; auf **[!UICONTROL Standardwerte für Instanz]**.
+1. Klicken Sie auf der Seite mit den Kursdetails im Abschnitt „Konfigurieren“ auf **[!UICONTROL Standardwerte für Instanz]**.
 1. Wählen Sie in der Dropdownliste [!UICONTROL **Sprache**] die Sprache aus, in der der Feedbackfragebogen angezeigt werden soll.
 1. Aktivieren Sie das L1-Reaktionsfeedback, wenn Sie Feedback von Teilnehmern einholen möchten. In diesem Abschnitt können Sie bis zu zwei Fragen hinzufügen. Die Teilnehmer können beschreibende Antworten auf diese Fragen geben.
 1. Aktivieren Sie das Kontrollkästchen **[!UICONTROL Als obligatorisch definieren]**, wenn Sie eine oder beide Fragen als obligatorisch festlegen möchten.
@@ -297,7 +296,6 @@ Mit dem Teilnehmer-Dashboard in Learning Manager können Teilnehmer zusätzlich 
 
    ![](assets/configure-learnerdashboardsettings-step4.png)
 
-1. Um die Standardeinstellungen anzuwenden, klicken Sie auf **[!UICONTROL Auf Standard zurücksetzen.]** In diesem Fall sind alle Widgets mit Ausnahme von **[!UICONTROL Willkommen und Ankündigungsnotizen]** sichtbar.
+1. Klicken Sie auf **[!UICONTROL Auf Standard zurücksetzen, um die Standardeinstellungen anzuwenden.]** In diesem Fall sind alle Widgets außer **[!UICONTROL Begrüßungs- und Kurzankündigungen]** sichtbar.
 
    ***Auch nachdem Sie die Einstellungen im Teilnehmer-Dashboard aktiviert haben, können Teilnehmer Widgets in ihren jeweiligen Dashboards ändern und verschieben.***
-

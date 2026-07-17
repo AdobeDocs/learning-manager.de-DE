@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Versionshinweise zu Adobe Learning Manager
 contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 4c7127cb179605685a2b0f62c34430f61ff1f955
+source-git-commit: 79de9fe16c4397ff769072c9f57868649664806f
 workflow-type: tm+mt
-source-wordcount: '30524'
-ht-degree: 73%
+source-wordcount: '30900'
+ht-degree: 72%
 
 ---
 
@@ -24,6 +24,22 @@ ht-degree: 73%
  </tbody>
 </table>
 -->
+
++++Update 109: Adobe Learning Manager Version Juli 2026
+
+Freigabedatum: 16. Juli 2026
+
+## Behobene Fehler
+
+**E-Mail-Vorlagen:** Erinnerungs-E-Mails für bevorstehende Sitzungen wurden ohne Sitzungsdatum- und -uhrzeitinformationen für Teilnehmer gesendet, die sich für Kursinstanzen registriert haben. Dieses Problem wurde behoben, um Details zur Sitzungsplanung korrekt in die E-Mail-Vorlage einzufügen. Die Teilnehmer erhalten jetzt E-Mails mit Sitzungserinnerungen, die das Datum und die Uhrzeit der jeweiligen Sitzung enthalten und vollständige Informationen zur Planung enthalten.
+
+**Connectors:** Bei Autoren sind beim Duplizieren oder Bearbeiten von konnektorbasierten Klassenzimmer-/virtuellen Klassenzimmerkursen zeitweise HTTP 400-Fehler aufgetreten. Nach dem Auslösen blieb das Problem bestehen und blockierte die nachfolgenden Kurserstellungs- oder -bearbeitungsaktionen, bis die Sitzung aktualisiert wurde. Dieses Problem wurde behoben, um eine zuverlässige Duplizierung und Bearbeitung von konnektorbasierten Kursen zu gewährleisten. Autoren können jetzt Klassenzimmer-/virtuelle Klassenzimmerkurse duplizieren, erstellen und ändern, ohne dass wiederkehrende 400 Fehler auftreten.
+
+**CMS-API-Anfragecodierung:** Ein automatisierter Plattform-Workflow hat wiederholte Download-Anforderungen an die CMS-HTTP-API mit falsch codierten URLs generiert, was zu zeitweiligen HTTP-500-Fehlern und manchmal zu Tausenden ungültiger Anforderungen pro Sekunde führte. Die URL-Codierungslogik wurde korrigiert, um sicherzustellen, dass Asset-Pfade, die Sonderzeichen wie Leerzeichen enthalten, ordnungsgemäß codiert werden, bevor Anforderungen gesendet werden. Download-Anfragen für NetStorage werden jetzt erfolgreich ausgeführt, wodurch die wiederkehrenden API-Fehler und Request Spikes eliminiert werden.
+
+**Resilienz des Übersetzungsworkflows:** Übersetzungsanforderungen vom englischen ins norwegische Bokmål sind fehlgeschlagen, da das Sprachpaar vom zugrunde liegenden Übersetzungsdienst nicht unterstützt wird, was zu einer Unterbrechung des gesamten Übersetzungsworkflows führt. Die Übersetzungsbehandlungslogik wurde verbessert, um nicht unterstützte Sprachpaare ordnungsgemäß zu verwalten und einzelne Übersetzungsfehler zu isolieren. Übersetzungsanforderungen für nicht unterstützte Sprachen werden jetzt übersprungen und entsprechend gemeldet, während die Übersetzungen für alle verbleibenden unterstützten Zielsprachen weiterhin erfolgreich verarbeitet werden.
+
++++
 
 +++Update 108: Adobe Learning Manager Version Juni 2026
 
@@ -662,8 +678,8 @@ Die neue Adobe Learning Manager-App für Microsoft Teams soll das Lernen im Arbe
 **Bekannte Probleme in diesem Update**
 
 * Die Schaltfläche &quot;Freigeben&quot; im Teilnehmerkatalog funktioniert im Safaribrowser, in der Mobile App und in der iPad MS Teams-App nicht wie erwartet.
-* Benachrichtigungen werden nicht auf der Registerkarte Aktivität angezeigt, wenn die App auf anderen Computern entfernt wurde.
-Wenn Sie in iPhone 14 auf die Benachrichtigungen auf der Registerkarte Aktivität der App klicken, passiert nichts.
+* Benachrichtigungen werden nicht auf der Registerkarte „Aktivität“ angezeigt, wenn die App auf anderen Computern entfernt wurde.
+Wenn Sie auf iPhone 14 auf die Benachrichtigungen auf der Registerkarte „Aktivität“ der App klicken, passiert nichts.
 * In der MS Teams-App zeigen die Learning Manager-Benachrichtigungen (abgeschlossen, registriert, Frist und überfällig) den Status und den Namen des Kurses nicht auf der Registerkarte „Aktivität“ an.
 * Wenn Integrationsadministrator(inn)en die MS Teams-App nicht genehmigen, wird ein Popup mit XML-Inhalt angezeigt.
 * Die Benutzeroberflächensprache in der Adobe Learning Manager-App in MS Teams ändert sich manchmal nicht wie erwartet, wenn die Sprache geändert wird.
@@ -688,7 +704,7 @@ Wenn Sie in iPhone 14 auf die Benachrichtigungen auf der Registerkarte Aktivitä
 
 ### Leistungsverbesserungen in dieser Version
 
-Wenn eine Massenregistrierung von Teilnehmern durchgeführt wird, wird keine Protokolldatei für jeden Teilnehmer generiert.
+Wenn eine Massenregistrierung von Teilnehmenden durchgeführt wird, wird nicht für alle Teilnehmenden eine Protokolldatei generiert.
 Wir haben die Verarbeitung von Lernplänen für große Konten optimiert. Dadurch werden Suchprobleme und Verzögerungen vermieden.
 +++
 
@@ -722,7 +738,7 @@ Zusätzliche Unterstützung für einen aus vier Buchstaben bestehenden Sprachcod
 ### In diesem Update behobene Fehler
 
 Bei einigen Gebietsschemas gibt die Suche falsche Ergebnisse zurück.
-Die Kurs-Metadaten werden überschrieben, wenn der Kurs mehr als eine Variante desselben Gebietsschemas enthält.
+Die Kurs-Metadaten werden überschrieben, wenn der Kurs mehrere Varianten desselben Gebietsschemas enthält.
 +++
 
 +++Update 84
