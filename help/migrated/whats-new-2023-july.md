@@ -5,8 +5,8 @@ hidefromtoc: true
 exl-id: c6f192b6-f377-47b2-9151-516ac8179543
 source-git-commit: ebf4ea065ba799b957b8ce275fd1690f18b26556
 workflow-type: tm+mt
-source-wordcount: '2059'
-ht-degree: 67%
+source-wordcount: '2091'
+ht-degree: 74%
 
 ---
 
@@ -32,7 +32,7 @@ Teilnehmende können sich nicht über eine mobile App/immersiv für mehrere Inst
 >
 >Wenn Sie die Mehrfachregistrierung aktivieren, werden dem Teilnehmertranskriptbericht für jeden Kurs mehrere Zeilen hinzugefügt (eine Zeile für jede Instanz).
 >
->Wenn Sie die Berichtsautomatisierung eingerichtet haben, die nur eine Zeile pro Kurs vorwegnimmt, müssen Sie die erforderlichen Anpassungen an der Berichtsautomatisierung vornehmen, bevor Sie die Funktion zur Mehrfacheinschreibung aktivieren.
+>Wenn Sie die Berichtsautomatisierung eingerichtet haben, die nur eine Zeile pro Kurs vorwegnimmt, müssen Sie die erforderlichen Anpassungen an der Berichtsautomatisierung vornehmen, bevor Sie die Funktion zur Mehrfachregistrierung aktivieren.
 
 ### Format der Abzeichen in einer Instanz mit mehreren Registrierungen
 
@@ -56,7 +56,7 @@ argument_object=
 
 Diese Version von Adobe Learning Manager enthält einen neuen Connector, der das SFTP-Protokoll der AWS Transfer-Familie verwendet.
 
-Diese Änderung ersetzt auch den ExaVault-Connector, der neuen Benutzer(inne)n nicht mehr zur Verfügung steht. Sie können jeden Open-Source-FTP-Client als Ersatz für ExaVault verwenden. Weitere Informationen finden Sie unter [Übergang vom Adobe-FTP-Manager](transition-from-ftp-manager.md).
+Diese Änderung ersetzt auch den ExaVault-Connector, der neuen Benutzer(inne)n nicht mehr zur Verfügung steht. Sie können jeden Open-Source-FTP-Client als Ersatz für ExaVault verwenden. Weitere Informationen finden Sie unter [Übergang vom Adobe FTP Manager](transition-from-ftp-manager.md).
 
 ## Erinnerungen in Outlook für Unterrichtsräume und virtuelle Sitzungen
 
@@ -209,7 +209,7 @@ Gibt die Liste der empfohlenen Rollen zurück.
 
 **POST /search/query**
 
-Die Suche umfasst auch Produkte und Rollenparameter in der Abfrage. Abfrage und Text werden nicht geändert. Wir werden neue Sortieroptionen hinzufügen.
+Die Suche umfasst auch Produkte und Rollenparameter in der Abfrage. Abfrage und Text werden nicht geändert. Wir werden neue Sortieroptionen hinzufügen
 
 **Anforderung**
 
@@ -527,9 +527,9 @@ Beispielanforderung
 
 ### API-Änderungen in der Stemmingimplementierung für die Suche (englisches Gebietsschema)
 
-Wortstamm ist der Prozess, bei dem ein Wort auf seine Grundform reduziert wird. Dadurch wird sichergestellt, dass die Varianten eines Wortes bei einer Suche übereinstimmen. Gehen und Gehen können beispielsweise auf das gleiche Wort wie im Stamm zurückgeführt werden: Gehen. Nach dem Wortstamm würde ein Vorkommen eines der Wörter dem anderen in einer Suche entsprechen.
+Stemming ist der Prozess, ein Wort auf seine Grundform zu reduzieren. Dadurch wird sichergestellt, dass die Varianten eines Wortes bei einer Suche übereinstimmen. Beispielsweise können „gehend“ und „ging“ auf das gleiche Stammwort zurückgeführt werden: “gehen“. Nach dem Wortstamm würde ein Vorkommen eines der Wörter dem anderen in einer Suche entsprechen.
 
-In dieser Version haben wir Stemming für englische Gebietsschemas hinzugefügt, der die folgenden Varianten enthält: en_US, en_AU, en_GB.
+In dieser Version haben wir Stemming für das englische Gebietsschema hinzugefügt, das die folgenden Varianten enthält: en_US, en_AU, en_GB.
 
 Das Attribut „stemmed“ gibt an, ob Stemming in den Suchergebnissen erforderlich ist. Dieser Wert ist standardmäßig auf &quot;False&quot; festgelegt.
 
@@ -573,7 +573,7 @@ Um Abzeichen mit mehreren registrierten Instanzen zu unterstützen, ändern wir 
 
 ## Versionshinweise
 
-Weitere Informationen zu aktuellen und früheren Versionen der Learning Manager-Webanwendung und -Geräte-App finden Sie in den [Versionshinweisen](/help/migrated/release-note/release-notes.md).
+Weitere Informationen zu aktuellen und früheren Versionen der Learning Manager-Webapp und -Geräte-App finden Sie in den [Versionshinweisen](/help/migrated/release-note/release-notes.md).
 
 ## Bekannte Probleme oder Einschränkungen in dieser Version
 
@@ -586,7 +586,7 @@ Folgendes wird beim Anzeigen von Offline-Inhalten in der App nicht unterstützt:
 * Flexible Kurse, Lernpläne oder Zertifizierungen.
 * Erweiterte Kurse, Lernpläne oder Zertifizierungen.
 * Für mehrere Quiz aktivierte Kurse, Lernpläne oder Zertifizierungen.
-* Harvard Manage Mentor, Content Marketplace, GetAbstract oder LinkedIn Courses, Learning Plans oder Certifications.
+* Harvard ManageMentor-, Content Marketplace-, GetAbstract- oder LinkedIn-Kurse, -Lernpläne oder -Zertifizierungen.
 * Lernpläne und Zertifikate mit aktivierten Voraussetzungen.
 * Eingestellte Kurse, Lernpläne oder Zertifizierungen.
 * Kurse, Lernpläne oder Zertifizierungen, deren Frist abgelaufen ist.
@@ -606,10 +606,10 @@ Folgende Komponenten werden im neuen Empfehlungssystem nicht für Produkt/Rolle/
 * Adobe Experience Manager, Teams, SFDC und Teilnehmende ohne Anmeldung.
 * Die mobile App unterstützt nicht das Bearbeiten von Produkten und Rollen auf der Empfehlungsseite.
 * Die Zuordnung ist während der Migration nicht möglich.
-* Automatisches Tagging von LinkedIn, Inhalts-Marketplace und anderen externen Kursen, Lernplänen oder Zertifizierungen.
+* Automatisches Tagging von LinkedIn, Content Marketplace und anderen externen Kursen, Lernplänen oder Zertifizierungen.
 * Rückkehr zu „Kenntnisbasiert“ oder „Klassisch“ nach der Live-Schaltung.
 * Das Suchmenü für Produkte und Rollen in der Teilnehmer-App.
-* Massen-Zuordnung von Kursen, Lernplänen oder Zertifizierungen und Benutzern in der Admin-App.
+* Massenzuordnung von Kursen, Lernplänen oder Zertifizierungen und Benutzern in der Admin-App.
 
 ## Systemanforderungen
 

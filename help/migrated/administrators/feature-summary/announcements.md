@@ -5,8 +5,8 @@ description: Eine Ankündigung ist eine Multimedia-Nachricht (Text, Bild oder Vi
 exl-id: 313ac2c6-05c0-4941-8d71-9c664099bb5c
 source-git-commit: b01bf6bf89a3b9d860df712df1b7ef3a859407ed
 workflow-type: tm+mt
-source-wordcount: '1061'
-ht-degree: 57%
+source-wordcount: '1072'
+ht-degree: 67%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 57%
 
 Eine Ankündigung ist eine Multimedia-Nachricht (Text, Bild oder Video), die ein Administrator an eine definierte Gruppe von Benutzern übermittelt.
 
-Der Administrator kann Ankündigungen an Teilnehmer senden, um sie über das Eintreten eines Ereignisses oder eine Aktivität zu informieren. Die Ankündigung kann eine Kombination aus Text, Bildern oder Videos sein. Sie können Lernobjekte wie Kurse, Lernprogramme und Zertifizierungen mit einer Ankündigung verknüpfen.
+Der Administrator kann Ankündigungen an Teilnehmer senden, um sie auf ein eintretendes Ereignis oder eine Aktivität hinzuweisen. Die Ankündigung kann eine Kombination aus Text, Bildern oder Videos sein. Sie können Lernobjekte wie Kurse, Lernprogramme und Zertifizierungen mit einer Ankündigung verknüpfen.
 
 Es gibt vier Arten von Ankündigungen:
 
@@ -25,7 +25,7 @@ Es gibt vier Arten von Ankündigungen:
 
 ## Benachrichtigung {#notification}
 
-1. Klicken Sie als Administrator im linken Bereich auf &quot;Ankündigungen&quot;.
+1. Klicken Sie als Benutzer mit Administratorrechten im linken Bereich auf „Ankündigungen“.
 1. Klicken Sie in der rechten oberen Ecke der Seite auf „Hinzufügen“.
 1. Wählen Sie in der Dropdown-Liste „Typ“ die Option **Als Benachrichtigung**.
 
@@ -44,7 +44,7 @@ Es gibt vier Arten von Ankündigungen:
 
    Beginnen Sie mit der Eingabe des Namens der Benutzergruppe in das Textfeld und wählen Sie den Namen aus der Dropdown-Liste. Wählen Sie auf dieselbe Weise die Schulung, indem Sie den Objektnamen in das Textfeld eingeben.
 
-1. Klicken Sie im Dialogfeld auf &quot;Erweiterte Einstellungen&quot;. Sie können die folgenden Aktionen durchführen:
+1. Klicken Sie im Dialogfeld auf „Erweiterte Einstellungen“. Sie können die folgenden Aktionen durchführen:
 
    * Aktivieren Sie das Kontrollkästchen „Ankündigungsnotizen aktivieren“, um diese Ankündigung in eine Kurznotiz umzuwandeln.
    * Wählen Sie den gewünschten Zeitpunkt für die Übermittlung der Ankündigung.
@@ -53,7 +53,7 @@ Es gibt vier Arten von Ankündigungen:
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 1. Klicken Sie auf der Registerkarte &quot;Entwürfe&quot; auf das Symbol &quot;Einstellungen&quot; neben einer Ankündigung und dann auf &quot;Senden&quot;.
 
-Wenn der Multimedia-Anhang sehr groß ist, kann der Upload etwas Zeit in Anspruch nehmen. Nachdem Sie auf &quot;Speichern&quot; geklickt haben, wird ein Popup mit einer Meldung angezeigt, während der Upload verarbeitet wird. Nachdem der Anhang erfolgreich hochgeladen wurde, wird eine Benachrichtigung angezeigt.
+Wenn der Multimedia-Anhang sehr groß ist, kann der Upload etwas Zeit in Anspruch nehmen. Sie erhalten dann nach dem Klicken auf „Speichern“ eine Popupmeldung, während der Upload verarbeitet wird. Nachdem der Anhang erfolgreich hochgeladen wurde, wird eine Benachrichtigung angezeigt.
 
 ## Mastertitel {#masthead}
 
@@ -121,13 +121,13 @@ Wenn Sie auf **[!UICONTROL Speichern]** klicken, können Sie die Ankündigung 
 
 ## Listen für Entwürfe, geplante und gesendete Ankündigungen {#draftscheduledandsentlist}
 
-Bei der Administratoranmeldung können Sie alle Ankündigungen in drei Registerkarten wie Entwürfe, Geplant und Gesendet anzeigen.
+Wenn Sie als Administrator angemeldet sind, können Sie alle Ankündigungen in drei Registerkarten für Entwürfe sowie für geplante und gesendete Ankündigungen anzeigen.
 
 <!--![](assets/three-tabs-announcement1.png)-->
 
 ### Entwurf {#draft}
 
-Auf der Registerkarte &quot;Entwürfe&quot; können Sie alle Ankündigungen anzeigen, die von einem Administrator erstellt, aber noch nicht für die Übermittlung eingeplant oder gesendet wurden.
+Auf der Registerkarte „Entwürfe“ können Sie alle Ankündigungen anzeigen, die von einem Administrator erstellt, aber noch nicht für die Übermittlung eingeplant oder gesendet wurden.
 
 Standardmäßig wird für alle Ankündigungen die sofortige Übermittlung festgelegt. Wenn Sie für eine ungeplante Ankündigung die Option „Einstellungen“ > „Senden“ auswählen, wird sie sofort gesendet. Um einen Sendezeitpunkt für eine Ankündigung festzulegen, müssen Sie in den erweiterten Einstellungen das Start- und Enddatum wählen.
 
