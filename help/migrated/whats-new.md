@@ -3,9 +3,9 @@ description: Erfahren Sie mehr über die neuen Funktionen und Verbesserungen in 
 jcr-language: en_us
 title: Neue Funktionen in Adobe Learning Manager Version August 2026
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: 558b239bd393c175384e6559559929d4d21ee131
+source-git-commit: e476ca4736098ced4e21d0d713628b9682aab3da
 workflow-type: tm+mt
-source-wordcount: '2747'
+source-wordcount: '2839'
 ht-degree: 0%
 
 ---
@@ -100,6 +100,11 @@ Wichtigste Highlights:
 * Helfen Sie Ihren Teilnehmern, mit KI-generierten Zusammenfassungen und nach Themen durchsuchbaren Sitzungsaufzeichnungen mehr aus jeder Sitzung zu erhalten.
 * Mit Interaktionsanalysen, die über die Anwesenheit hinausgehen und echte Lernbeteiligung ermöglichen, messen Sie, worauf es ankommt.
 * Unterstützen Sie Ihre Autoren bei der Verwendung des KI-gestützten Instructor Finder, um den richtigen Kursleiter nach Kompetenzen, Verfügbarkeit, bevorzugten Zeiten, Zeitzone und aktueller Nutzung abzugleichen.
+
+>[!NOTE]
+>
+>Live Hub befindet sich derzeit in der Betaversion und wird mit der kommenden August-Version von Adobe Learning Manager verfügbar sein. Die Dokumentation für Live Hub ist verfügbar, sobald die Funktion veröffentlicht wurde.
+
 
 ## Komponentenbasierte E-Mail-Vorlage
 
@@ -214,6 +219,8 @@ Weitere Informationen finden Sie unter [Standorte für Klassenzimmer](/help/migr
 ## Demnächst verfügbar: Adobe Learning Manager Content Composer
 
 Adobe Learning Manager Content Composer ist ein anstehendes KI-Kurs-Authoring-Tool in Adobe Learning Manager, mit dem Sie in kürzester Zeit einen Kurs erstellen können, der für die Veröffentlichung bereit ist.
+
+Ein KI-Mitarbeiter im Gespräch führt Sie durch den gesamten Prozess - &quot;Eingabeaufforderung&quot;, &quot;Kurz&quot;, &quot;Gliederung&quot; und &quot;Kurs&quot;. So behalten Sie bei jedem Schritt die Kontrolle und müssen ihn vor der weiteren Bearbeitung überprüfen und optimieren. Sie können Inhalte in Ihren eigenen Quelldokumenten erstellen, sofortiges Kursdesign anwenden und fertige Kurse über SCORM oder die direkte Veröffentlichung in Adobe Learning Manager freigeben oder exportieren.
 
 ## Melden von Änderungen in der Version
 
