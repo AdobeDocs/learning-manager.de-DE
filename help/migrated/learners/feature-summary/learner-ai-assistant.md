@@ -351,7 +351,7 @@ Der Lernassistent von Adobe Learning Manager kann Teilnehmerfragen zu Lernobjekt
 
 >[!IMPORTANT]
 >
->Voraussetzung ist, dass ein Administrator die erforderlichen Kataloge dem Teilnehmer-Assistenten hinzufügt. Weitere Informationen finden Sie unter [Zugriff auf AI Assistant konfigurieren](https://experienceleague.adobe.com/en/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access).
+>Voraussetzung ist, dass ein Administrator die erforderlichen Kataloge dem Teilnehmer-Assistenten hinzufügt. Weitere Informationen finden Sie unter [Zugriff auf AI Assistant konfigurieren](https://experienceleague.adobe.com/de/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access).
 
 
 Wenn ein Administrator einen Go1- oder LinkedIn-Lernkatalog zu Adobe Learning Manager hinzufügt, durchläuft der Kataloginhalt einen geplanten Aufnahmeprozess. Nach Abschluss der Aufnahme sind die Lernobjekte aus diesem Katalog für die Abfrage durch den Lernassistenten verfügbar.

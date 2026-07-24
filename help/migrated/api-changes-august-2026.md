@@ -18,7 +18,7 @@ In dieser Version werden drei neue öffentliche API-Endpunkte mit Administratorb
 
 Diese Endpunkte funktionieren nur mit benutzerdefinierten Benutzergruppen. Systemverwaltete Gruppen wie die Gruppe Alle Benutzer und automatisch generierte Benutzergruppen verfügen über den Schreibschutz: true in der API-Antwort und kann nicht über diese Endpunkte geändert oder gelöscht werden.
 
-Anforderungen für die API-Authentifizierung finden Sie unter [Adobe Learning Manager API-Authentifizierung](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20).
+Anforderungen für die API-Authentifizierung finden Sie unter [Adobe Learning Manager API-Authentifizierung](https://experienceleague.adobe.com/de/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20).
 
 ### API-Endpunkte für Benutzergruppen
 
@@ -205,7 +205,7 @@ Der externe Lern-Workflow über die API spiegelt den Workflow in der Teilnehmer-
 
 Alle fünf Endpunkte sind teilnehmerspezifisch. Ein Teilnehmer kann nur auf seine eigenen Einreichungen zugreifen - die API gibt einen Fehler zurück, wenn ein Teilnehmer versucht, auf die Daten eines anderen Teilnehmers zuzugreifen.
 
-Anforderungen für die API-Authentifizierung finden Sie unter [Adobe Learning Manager API-Authentifizierung](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20).
+Anforderungen für die API-Authentifizierung finden Sie unter [Adobe Learning Manager API-Authentifizierung](https://experienceleague.adobe.com/de/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20).
 
 ### Externe Lern-API-Endpunkte
 
