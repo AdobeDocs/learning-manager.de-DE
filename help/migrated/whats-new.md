@@ -3,9 +3,9 @@ description: Erfahren Sie mehr über die neuen Funktionen und Verbesserungen in 
 jcr-language: en_us
 title: Neue Funktionen in Adobe Learning Manager Version August 2026
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: d61e81b0df6a6043b938c65adaabecb5699c2ce9
+source-git-commit: 558b239bd393c175384e6559559929d4d21ee131
 workflow-type: tm+mt
-source-wordcount: '2712'
+source-wordcount: '2747'
 ht-degree: 0%
 
 ---
@@ -95,11 +95,11 @@ Der Live Hub ist ein KI-gestütztes virtuelles Schulungserlebnis in Adobe Learni
 
 Wichtigste Highlights:
 
-&#x200B;- Verbessern Sie das Live-Lernen mit einem nativen Adobe Learning Manager-Erlebnis, das die Lernqualität und die Lernergebnisse verbessert.
-&#x200B;- Stellen Sie Ihren Kursleitern einen KI-gestützten Co-Moderator zur Verfügung, der die Interaktion durch intelligente Umfragen, Fragen-und-Antworten-Support und Erkenntnisse aus den Breakout-Räumen fördert.
-&#x200B;- Helfen Sie Ihren Teilnehmern, mit KI-generierten Zusammenfassungen und nach Themen durchsuchbaren Sitzungsaufzeichnungen mehr aus jeder Sitzung zu erhalten.
-&#x200B;- Mit Interaktionsanalysen, die über die Anwesenheit hinausgehen und echte Lernbeteiligung ermöglichen, messen Sie, worauf es ankommt.
-&#x200B;- Unterstützen Sie Ihre Autoren bei der Verwendung des KI-gestützten Instructor Finder, um den richtigen Kursleiter nach Kompetenzen, Verfügbarkeit, bevorzugten Zeiten, Zeitzone und aktueller Nutzung abzugleichen.
+* Verbessern Sie das Live-Lernen mit einem nativen Adobe Learning Manager-Erlebnis, das die Lernqualität und die Lernergebnisse verbessert.
+* Stellen Sie Ihren Kursleitern einen KI-gestützten Co-Moderator zur Verfügung, der die Interaktion durch intelligente Umfragen, Fragen-und-Antworten-Support und Erkenntnisse aus den Breakout-Räumen fördert.
+* Helfen Sie Ihren Teilnehmern, mit KI-generierten Zusammenfassungen und nach Themen durchsuchbaren Sitzungsaufzeichnungen mehr aus jeder Sitzung zu erhalten.
+* Mit Interaktionsanalysen, die über die Anwesenheit hinausgehen und echte Lernbeteiligung ermöglichen, messen Sie, worauf es ankommt.
+* Unterstützen Sie Ihre Autoren bei der Verwendung des KI-gestützten Instructor Finder, um den richtigen Kursleiter nach Kompetenzen, Verfügbarkeit, bevorzugten Zeiten, Zeitzone und aktueller Nutzung abzugleichen.
 
 ## Komponentenbasierte E-Mail-Vorlage
 
@@ -128,6 +128,8 @@ Wichtigste Funktionen:
 * Der Administrator kann obligatorische Felder einschließlich benutzerdefinierter Felder konfigurieren.
 * Neue Spalten in Admin- und Teilnehmertranskripten: Externer Lernname, Abschlusskommentar, benutzerdefinierte Feldspalten
 * API-Unterstützung: fünf neue Endpunkte mit Teilnehmerbereich für das Erstellen, Abrufen und Aktualisieren von Einreichungen
+
+Weitere Informationen auf Administratorebene finden Sie unter [Unterstützung für externes Lernen](/help/migrated/administrators/feature-summary/settings/basic-settings.md). Weitere Informationen auf Managerebene finden Sie unter [Unterstützung für externes Lernen](/help/migrated/managers/feature-summary/review-external-learning-requests.md). Weitere Informationen auf Teilnehmerebene finden Sie unter [Unterstützung für externes Lernen](/help/migrated/learners/feature-summary/submit-external-learning.md).
 
 ## KI-Funktionen
 
@@ -209,7 +211,7 @@ Standorte für Klassenzimmer unterstützen jetzt ein strukturiertes **Standortfo
 
 Weitere Informationen finden Sie unter [Standorte für Klassenzimmer](/help/migrated/administrators/feature-summary/classroom.md).
 
-## Adobe Learning Manager Content Composer
+## Demnächst verfügbar: Adobe Learning Manager Content Composer
 
 Adobe Learning Manager Content Composer ist ein anstehendes KI-Kurs-Authoring-Tool in Adobe Learning Manager, mit dem Sie in kürzester Zeit einen Kurs erstellen können, der für die Veröffentlichung bereit ist.
 

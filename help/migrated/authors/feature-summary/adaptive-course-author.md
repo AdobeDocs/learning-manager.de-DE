@@ -3,9 +3,9 @@ description: Als Autor erfahren Sie, wie Sie adaptive Kurse für Ihre Teilnehmer
 jcr-language: en_us
 title: Adaptive Kurse für Autoren
 contentowner: mmanuel
-source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
+source-git-commit: b9dafa140601d71d62f68056d3403a1be0c77eb3
 workflow-type: tm+mt
-source-wordcount: '2441'
+source-wordcount: '2439'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Nachdem Sie ein Inhaltsmodul hinzugefügt haben, konfigurieren Sie die adaptiven
 
 **Schlüsselregeln:**
 
-* Ein Teilnehmer, der zu mehreren Benutzergruppen gehört, erhält das restriktivste Ergebnis: Wenn eine Gruppe ein Modul als obligatorisch definiert, ist es für diesen Teilnehmer obligatorisch.
+* Wenn eine Gruppe ein Modul als obligatorisch definiert, ist es für diesen Teilnehmer obligatorisch.
 * Sie müssen mindestens ein Modul als **Obligatorisch** für mindestens eine Benutzergruppe konfigurieren, bevor Sie veröffentlichen können. Das System blockiert die Veröffentlichung, bis diese Bedingung erfüllt ist.
 
 ### Kurs im Entwurfsstatus
@@ -120,6 +120,10 @@ Beachten Sie, dass Sie die Sichtbarkeitseinstellungen im adaptiven Kurs nicht me
 
 ![](assets/ac-author-008.png)
 
+>[!NOTE]
+>
+>Ein Teilnehmer kann nicht auf die Warteliste in der Switching-Instanz gesetzt werden, die Registrierung wird blockiert.
+
 ### Module hinzufügen oder ändern
 
 1. Öffnen Sie den veröffentlichten Kurs.
@@ -142,7 +146,7 @@ Ein Teilnehmer, der die Instanzen eines adaptiven Kurses wechselt, führt seinen
 
 * Module, die sie bereits abgeschlossen haben, bleiben in der neuen Instanz abgeschlossen.
 * Lizenzen werden nur für nicht abgeschlossene sichtbare Module in der neuen Instanz belegt.
-* Wenn die sichtbaren Module in der neuen Instanz keine freien Lizenzen haben, wird der Teilnehmer auf diese Sitzungen auf die Warteliste gesetzt.
+* Sie können nicht auf die Warteliste gesetzt werden, wenn für eine Instanz keine Lizenzen verfügbar sind. Die Registrierung wird blockiert.
 
 ## Verwalten von Sitzplatzbeschränkungen und Wartelisten in adaptiven Kursen
 

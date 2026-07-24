@@ -3,9 +3,9 @@ description: Stellen Sie einen Kurs für mehrere Zielgruppen bereit, indem Sie b
 jcr-language: en_us
 title: Adaptive Kurse in Adobe Learning Manager
 contentowner: mmanuel
-source-git-commit: ffaf107e8077b6a6270fa2f8afc76e721d393702
+source-git-commit: fd2221c293d1701e3201334e9d1b4858344e8ac9
 workflow-type: tm+mt
-source-wordcount: '1532'
+source-wordcount: '1626'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,16 @@ Adaptive Regeln gelten nur für **Inhaltsmodule**. Folgendes gilt für alle regi
 
 - **Vorbereitungsmodule:** Wird allen Teilnehmern angezeigt, bevor der Kerninhalt beginnt.
 - **Testmodule:** Für alle Teilnehmer verfügbar; Wenn Sie einen Test abschließen, wird der Kurs unabhängig vom Status des Inhaltsmoduls abgeschlossen.
-- **Arbeitshilfen und Ressourcen:** Jederzeit für alle registrierten Teilnehmer sichtbar.
+- **Voraussetzungen:** Wenn für einen Kurs Voraussetzungen konfiguriert sind, müssen alle Teilnehmer diese Voraussetzungen erfüllen, bevor sie sich registrieren können, unabhängig von ihrer Benutzergruppe. Voraussetzungen sind nicht adaptiv und können nicht auf bestimmte Benutzergruppen beschränkt werden.
+
+Arbeitshilfen und Ressourcen, die mit dem Kurs verknüpft sind, sind ebenfalls nicht adaptiv. Sie sind für alle registrierten Teilnehmer sichtbar.
+
+Kenntnisse, Gamification-Punkte und Abzeichen werden basierend auf dem ersten Kursabschluss des Teilnehmers vergeben und sind nicht von Neuabschlüssen aufgrund von Profiländerungen betroffen.
+
+>[!NOTE]
+>
+>Wenn ein adaptiver Kurs Teil eines extern freigegebenen LO höherer Ordnung ist, wird der adaptive Kurs als regulärer Kurs in das untergeordnete Konto kopiert.
+
 
 ## Verfügbarkeit der Funktionen
 
