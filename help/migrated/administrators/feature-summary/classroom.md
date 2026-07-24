@@ -34,7 +34,7 @@ So konfigurieren Sie **Klassenzimmerspeicherorte**-Einstellungen:
 
    ![Registerkarte &quot;Einstellungen&quot; für Standorte im Klassenzimmer](assets/classroom-locations-settings-tab.png)
 
-   *Aktivieren Sie auf der Registerkarte **Einstellungen**die Autorenberechtigungen für Standorte im Klassenzimmer und im virtuellen Klassenzimmer.*
+   *Aktivieren Sie auf der Registerkarte **Einstellungen**&#x200B;die Autorenberechtigungen für Standorte im Klassenzimmer und im virtuellen Klassenzimmer.*
 
 1. Wählen Sie **Bearbeiten**.
 
@@ -127,7 +127,7 @@ So fügen Sie einen Speicherort für ein Klassenzimmer hinzu:
 
    ![Registerkarte &quot;Alle Speicherorte&quot;](assets/all-locations-tab.png)
 
-   *Wählen Sie die Registerkarte **Alle Speicherorte**aus, um einen Speicherort für ein Klassenzimmer hinzuzufügen.*
+   *Wählen Sie die Registerkarte **Alle Speicherorte**&#x200B;aus, um einen Speicherort für ein Klassenzimmer hinzuzufügen.*
 
 1. Wählen Sie **Hinzufügen** > **Neuer Speicherort** in der oberen rechten Ecke.
 
