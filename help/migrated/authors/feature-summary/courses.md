@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Kurse erstellen, ändern und veröffentlichen
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 24f54599749bce60916a57634144b0ca7f6a6d10
+source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
 workflow-type: tm+mt
-source-wordcount: '9424'
-ht-degree: 61%
+source-wordcount: '10009'
+ht-degree: 57%
 
 ---
 
@@ -55,10 +55,10 @@ Um einen Kurs zu erstellen, führen Sie die unten genannten Schritte aus:
 4. Um den Kurs in anderen Sprachen zur Verfügung zu stellen, klicken Sie in der oberen linken Ecke der Seite auf „Neue Sprache hinzufügen“. Wählen Sie die Sprache/Sprachen, in denen der Kurs bereitgestellt werden soll. Klicken Sie auf **[!UICONTROL Speichern]**. Weitere Informationen finden Sie unter [Inhalt für verschiedene Sprachen hinzufügen](/help/migrated/authors/feature-summary/content-library.md).
 5. **Kurseinstellungen ändern** -
 
-   a. Wählen Sie auf der Seite „Kurseinstellungen“ Kenntnisse für den Kurs aus. Wählen Sie aus der Dropdown-Liste „Kenntnisse“ die gewünschtem Kenntnisse aus. Wählen Sie dann in der Dropdown-Liste „Stufe“ die gewünschte Stufe aus.
-b. Wählen Sie die Kurskenntnisse, Stufen und legen Sie die Credits für die Kenntnisse fest. Fügen Sie bei Bedarf weitere Kenntnisse hinzu.
-c. Fügen Sie dem Kurs die benutzerdefinierten Compliance-Beschriftungen hinzu, falls erforderlich. Siehe [Hinzufügen von Konformitätsbezeichnungen zum Kurs/Lernpfad/zur Zertifizierung](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification).
-d. Wählen Sie in der Dropdownliste **Registrierungstyp** den Registrierungstyp aus.
+   a. Wählen Sie auf der Seite Kurseinstellungen Kenntnisse für den Kurs aus. Wählen Sie in der Dropdown-Liste Kenntnisse die gewünschten Kenntnisse aus. Wählen Sie dann in der Dropdown-Liste &quot;Stufe&quot; die gewünschte Stufe aus.
+   b. Wählen Sie die Kurskenntnisse und die Stufe aus und legen Sie die Credits für die Kenntnisse fest. Fügen Sie bei Bedarf weitere Kenntnisse hinzu.
+   c. Fügen Sie dem Kurs die benutzerdefinierten Compliance-Beschriftungen hinzu, falls erforderlich. Siehe [Hinzufügen von Konformitätsbezeichnungen zum Kurs/Lernpfad/zur Zertifizierung](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification).
+   d. Wählen Sie in der Dropdownliste **Registrierungstyp** den Registrierungstyp aus.
 
    Im Folgenden sind die Registrierungstypen aufgeführt:
 
@@ -111,7 +111,89 @@ d. Wählen Sie in der Dropdownliste **Registrierungstyp** den Registrierungstyp 
 14. Wählen Sie im Feld &quot;Automatische Einstellung&quot; ein Datum aus, an dem der Kurs eingestellt wird. Die/der Administrator(in) muss zuerst die Option &quot;Automatisch einstellen&quot; aktivieren.
 15. Wählen Sie &quot;**[!UICONTROL Speichern]**&quot;, um die Änderungen zu speichern. Klicken Sie zum Veröffentlichen des Kurses auf **[!UICONTROL Veröffentlichen]**.
 
-### Hinzufügen von Compliance-Labels zum Kurs/Lernpfad/zur Zertifizierung {#add-custom-compliance-label}
+## Konfigurieren des Schulungsbuchs für einen Kurs {#configuregradebookforacourse}
+
+Richten Sie in Adobe Learning Manager eine gewichtete Punktzahl für einen Kurs ein, sodass jeder Teilnehmer eine aus seiner Modulleistung berechnete Gesamtpunktzahl erhält und der Kursabschluss an das Erreichen eines Mindestpunktzahlschwellenwerts gebunden werden kann.
+
+Das Schulungsbuch wird auf Kursebene konfiguriert, wenn ein neuer Kurs erstellt wird. Es kann nicht zu einem vorhandenen veröffentlichten Kurs hinzugefügt werden.
+
+>[!NOTE]
+>
+>Damit Teilnehmer das Schulungsbuch in einem Kurs sehen können, muss ein Administrator zunächst **Schulungsbuchsichtbarkeit** auf Kontoebene aktivieren.
+
+### Gradebook für einen Kurs aktivieren
+
+* Melden Sie sich bei Adobe Learning Manager als Autor an.
+* Wählen Sie in der linken Navigation **Kurse** aus, und wählen Sie dann **Hinzufügen** aus, um einen neuen Kurs zu erstellen.
+* Geben Sie den Kursnamen, die Beschreibung und andere erforderliche Details ein.
+* Suchen Sie im Abschnitt **Module** den Schalter **Gradebook**.
+
+  ![](assets/image_0003.png)
+
+* Wählen Sie den Schalter **Gradebook**, um ihn zu aktivieren. Darunter werden zwei Optionen angezeigt. Beide sind standardmäßig aktiviert:
+  * **Kursbuch für Teilnehmer anzeigen:** Teilnehmer sehen eine **Kursbuch-Registerkarte** im Kursplayer, auf der ihre Modulpunktzahlen, die Gewichtungsaufschlüsselung und das Gesamtergebnis angezeigt werden. Deaktivieren Sie diese Option, um Bewertungen intern zu berechnen, ohne sie den Teilnehmern zur Verfügung zu stellen.
+  * **Einschließen von Modulen, die nicht zur Endnote beitragen:** Nicht bewertbare Module (PDF, Video, Audio und Ähnliches) werden im Notenbuch angezeigt. Die nicht bewerteten Module tragen nicht zum Endergebnis des Teilnehmers bei.
+
+### Module hinzufügen und Gewichtung zuweisen
+
+Nachdem Sie &quot;Gradebook&quot; aktiviert haben, fügen Sie Ihre Inhaltsmodule hinzu und weisen Sie jedem bewertbaren Modul einen Gewichtungsprozentsatz zu. Die Gewichtungsprozentsätze müssen bis zu genau 100 betragen, bevor Sie die Konfiguration speichern können.
+
+1. Wählen Sie **Module hinzufügen**.
+2. Wählen Sie in der Modulauswahl die Module aus, die Sie hinzufügen möchten, und wählen Sie **Hinzufügen** aus. Die Module werden im Abschnitt **Inhalt** angezeigt. Bewertungsmodule, SCORM, Captivate-Inhalte, AICC, xAPI, native Tests, Aktivitätsmodule, Klassenzimmersitzungen und virtuelle Klassenzimmersitzungen zeigen ein Eingabefeld **Gewichtung** an. Nicht bewertbare Module zeigen einen Strich in der Gewichtungsspalte.
+3. Geben Sie für jedes bewertbare Modul einen Prozentwert in das Feld **Gewichtung** ein. Eine **Gesamtgewichtung** wird während der Eingabe aktualisiert und muss genau **100%** erreichen, bevor Sie speichern können.
+
+   ![](assets/image_0004.png)
+
+4. Für Module mit mehreren Bereitstellungstypen: Die Gewichtung kann nur zugewiesen werden, wenn **alle** Bereitstellungstypen im Modul die Bewertung unterstützen. Wenn eine Lieferart keine Bewertung unterstützt, kann das gesamte Modul nicht gewichtet werden.
+
+>[!NOTE]
+>
+>Die Bewertungsskala muss nicht zwischen den Bereitstellungstypen übereinstimmen. Eine von 100 bewertete Klassenzimmersitzung und ein von 10 bewertetes SCORM-Modul können im selben Schulungsbuch nebeneinander existieren. Die Formel normalisiert jeden Beitrag automatisch.
+
+### Mindestpunktzahl für das Bestehen der Prüfung festlegen
+
+* Suchen Sie im Kurseditor den Abschnitt **Kriterien für das Bestehen**.
+* Geben Sie im Feld **Minimale Gesamtpunktzahl für Module** einen Prozentsatz zwischen 0 und 100 ein.
+* Ein Wert von **0** bedeutet, dass der Kurs allein auf der Grundlage des erforderlichen Modulabschlusses abgeschlossen wird, ohne dass ein Gesamtpunktzahlschwellenwert festgelegt wird.
+* Jeder Wert über 0 bedeutet, dass der Teilnehmer die erforderlichen Module abschließen UND diese Gesamtpunktzahl erfüllen oder überschreiten muss.
+* Geben Sie im Feld **Obligatorische Module** die erforderliche Zahl ein oder wählen Sie sie aus der Dropdown-Liste aus.
+
+  ![](assets/image_0005.png)
+
+* Wählen Sie **Speichern**.
+
+Die Mindestpunktzahl für das Bestehen ist für Teilnehmer auf der Registerkarte **Gradebook** sichtbar, sodass sie den Schwellenwert kennen, bevor sie beginnen.
+
+### Konfigurieren der Punktpunkteeinstellungen für Module mit mehreren Versuchen
+
+Wenn ein Modul mehrere Versuche zulässt, wählen Sie, welche Punktzahl für die Versuche in der Gradebook-Berechnung verwendet wird.
+
+* Suchen Sie im Kurseditor nach einem Modul, für das mehrere Versuche aktiviert sind.
+
+  ![](assets/image_0006.png)
+
+* Suchen Sie die zu verwendende **Punktzahl**-Einstellung neben diesem Modul.
+* Wählen Sie **Neueste** oder **Höchste**:
+  * **Aktuellste:** Die neueste Versuchsbewertung wird immer verwendet. Ein niedrigerer Wert bei einem späteren Versuch ersetzt einen höheren früheren.
+  * **Höchste Punktzahl:** Die beste Punktzahl aus jedem Versuch wird beibehalten. Eine niedrigere Punktzahl bei einem späteren Versuch verringert die gespeicherte Punktzahl nicht.
+
+  ![](assets/image_0007.png)
+
+* Wählen Sie **Speichern**.
+
+### Publish starten.
+
+Nachdem Sie alle Gradebook-Einstellungen konfiguriert haben, veröffentlichen Sie den Kurs mithilfe des Standard-Workflows. Wählen Sie **Speichern** und anschließend **Publish** aus, um den Kurs Teilnehmern zur Verfügung zu stellen.
+
+### Best Practices
+
+* Weisen Sie die Gewichtung zu, die die relative Bedeutung der einzelnen Module widerspiegelt. Geben Sie höhere Prozentwerte für Module ein, die für das Lernziel am wichtigsten sind.
+* Aktivieren Sie **Kursbuch für Teilnehmer anzeigen**, es sei denn, es gibt einen bestimmten Grund, Punktzahlen auszublenden. Teilnehmer, die ihr Gewicht und ihren Punktwert sehen können, sind besser positioniert, um ihre Bemühungen zu priorisieren.
+* Legen Sie die Mindestpunktzahl für das Bestehen der Prüfung fest, bevor sich die Teilnehmer registrieren. Das Ändern nach aktiven Registrierungen kann sich auf die in Bearbeitung befindlichen Abschlüsse auswirken.
+* Verwenden Sie **Höchste** für die Einstellung für mehrere Versuche, wenn Module Bewertungen sind, die Teilnehmer wiederholen sollen. Verwenden Sie **Latest**, wenn Sie statt der besten Leistung die aktuelle Wissensstufe erfassen möchten.
+* Stellen Sie sicher, dass der Indikator **Gesamtgewicht** vor dem Speichern genau 100 % anzeigt.
+
+## Hinzufügen von Compliance-Labels zum Kurs/Lernpfad/zur Zertifizierung {#add-custom-compliance-label}
 
 Um die Compliance-Beschriftungen zu Kursen hinzuzufügen, führen Sie die folgenden Schritte aus:
 
@@ -210,16 +292,16 @@ Sie können Gamification-Punkte auf Kurs- und Kursinstanzebene zuweisen. Damit k
    * **[!UICONTROL Nach Abschluss]**: Wählen Sie diesen Schalter aus, wenn Teilnehmende 100 Punkte erhalten sollen, wenn sie einen Kurs abschließen.
    * **Weitere Regeln**
 
-      * **[!UICONTROL Frühzeitiger Abschluss]**: Wenn Sie diese Option auswählen, erhalten die ersten 30 Teilnehmenden 100 Punkte, wenn sie einen Kurs abschließen.
-      * **[!UICONTROL Zeitgerechter Abschluss]**: Wenn Sie diese Option auswählen, erhalten die Teilnehmenden 100 Punkte, wenn sie einen Kurs innerhalb von 999 Tagen abschließen.
+     * **[!UICONTROL Frühzeitiger Abschluss]**: Wenn Sie diese Option auswählen, erhalten die ersten 30 Teilnehmenden 100 Punkte, wenn sie einen Kurs abschließen.
+     * **[!UICONTROL Zeitgerechter Abschluss]**: Wenn Sie diese Option auswählen, erhalten die Teilnehmenden 100 Punkte, wenn sie einen Kurs innerhalb von 999 Tagen abschließen.
 
 1. Wenn Sie **[!UICONTROL Benutzerdefinierte Einstellungen verwenden]** wählen, werden die folgenden Optionen angezeigt:
 
    * **[!UICONTROL Nach Abschluss]**: Wählen Sie diesen Schalter aus, wenn Teilnehmende 100 Punkte erhalten sollen, wenn sie einen Kurs abschließen.
    * **Weitere Regeln**
 
-      * **[!UICONTROL Frühzeitiger Abschluss]**: Wenn Sie diese Option auswählen, können Sie festlegen, wie viele Teilnehmende bestimmte Punkte erhalten.
-      * **[!UICONTROL Rechtzeitiger Abschluss]**: Wenn Sie diese Option auswählen, können Sie die Anzahl der Punkte bestimmen, die Teilnehmende erhalten, wenn sie einen Kurs innerhalb einer bestimmten Zeit abschließen.
+     * **[!UICONTROL Frühzeitiger Abschluss]**: Wenn Sie diese Option auswählen, können Sie festlegen, wie viele Teilnehmende bestimmte Punkte erhalten.
+     * **[!UICONTROL Rechtzeitiger Abschluss]**: Wenn Sie diese Option auswählen, können Sie die Anzahl der Punkte bestimmen, die Teilnehmende erhalten, wenn sie einen Kurs innerhalb einer bestimmten Zeit abschließen.
 
    ![Gamification-Punkte](assets/gamification-custom-settings.png)
 
@@ -499,7 +581,7 @@ Führen Sie die folgenden Schritte aus, um ein Inhaltsmodul hinzuzufügen:
 
    *VC-Modul hinzufügen*
 
-   Wenn Sie einen Kurs mithilfe des Konfigurationsdialogfelds &quot;Virtuelles Klassenzimmer&quot; erstellen, stellen Sie das **Konferenzsystem** auf die von Ihnen erstellte Teams-Verbindung ein. Wählen Sie aus, ob Sie einen Meetingorganisator für die Veranstaltung wünschen.
+   Wenn Sie einen Kurs mithilfe des Konfigurationsdialogfelds &amp;quot;Virtuelles Klassenzimmer&amp;quot; erstellen, stellen Sie das **Konferenzsystem** auf die von Ihnen erstellte Teams-Verbindung ein. Wählen Sie aus, ob Sie einen Meetingorganisator für die Veranstaltung wünschen.
 
    Wenn Sie **Ja** für einen Meetingveranstalter auswählen, müssen Sie den Namen des Veranstalters eingeben. Geben Sie den Namen ein und wählen Sie den Organisator aus.
 
@@ -511,6 +593,10 @@ Führen Sie die folgenden Schritte aus, um ein Inhaltsmodul hinzuzufügen:
    **Hinweis:** Ein Teilnehmer muss auf Microsoft Teams verfügbar sein. Teilnehmende können jedoch als Gäste an Learning Manager teilnehmen.
 
    **Klassenzimmer-Modul:** In diesem Modus können Teilnehmer persönlich Vorlesungen besuchen, die von einem geschulten Kursleiter geleitet werden. Geben Sie den Titel und die Beschreibung ein und legen Sie die Dauer der Sitzung fest. Sie können auch den Ort der Klasse und die Kursleiter für die Durchführung der Sitzung angeben. Um die Änderungen zu speichern, klicken Sie auf **[!UICONTROL Fertig]**.
+
+   >[!NOTE]
+   >
+   >Ob Sie hier einen neuen Speicherort erstellen können, hängt von der Einstellung Autoren erlauben, Speicherorte zu erstellen ab, die von Ihrem Administrator konfiguriert wurde. Wenn sie deaktiviert ist, können Sie nur nach Speicherorten suchen und diese auswählen, die der Administrator bereits hinzugefügt hat. Weitere Informationen finden Sie unter [Standorte für Klassenzimmer hinzufügen](../../../migrated/administrators/feature-summary/classroom.md).
 
    ![](assets/classroom-module.png)
 
@@ -753,8 +839,8 @@ Obwohl Autoren keine Bewertungen durchführen, ist es nützlich, zu verstehen, w
 * Reviewer sehen ein **Feld mit Anmerkungen**, während sie Teilnehmer bewerten
 * Reviewer können während der Übermittlung kontextbezogene Kommentare hinzufügen.
 * Wenn aktiviert:
-   * Teilnehmer sehen Reviewerkommentare
-   * Teilnehmer sehen den Namen des Reviewers
+  * Teilnehmer sehen Reviewerkommentare
+  * Teilnehmer sehen den Namen des Reviewers
 
 #### Teilnehmererlebnis (wenn aktiviert)
 
@@ -770,8 +856,8 @@ Dies hilft den Teilnehmern, die Bewertungsergebnisse und die nächsten Schritte 
 * Checklistenkommentar ist **optional** und muss explizit aktiviert sein.
 * Die Sichtbarkeit der Kommentare und die Identität des Reviewers ist **vollständig vom Autor kontrolliert**.
 * Funktioniert mit:
-   * Einzelne oder mehrere Prüfer
-   * Bewertungsbasiert, Ja/Nein und skalierte Checklisten
+  * Einzelne oder mehrere Prüfer
+  * Bewertungsbasiert, Ja/Nein und skalierte Checklisten
 * Keine Auswirkungen auf vorhandene Checklisten, sofern diese nicht vom Autor aktualisiert werden
 
 ### Erstellen einer mehrsprachigen Checkliste
@@ -892,15 +978,15 @@ Die Checkliste ist jetzt mit gewichteter Punktzahl für die Kursleiterauswertung
 * Reviewer sehen jede Checklistenfrage mit der **Höchstpunktzahl**.
 * Überprüfer weisen während der Bewertung Punktzahlen pro Frage zu
 * Das System berechnet:
-   * Gesamtergebnis
-   * Bestanden- oder Nicht-Bestehen-Status basierend auf definierten Kriterien
+  * Gesamtergebnis
+  * Bestanden- oder Nicht-Bestehen-Status basierend auf definierten Kriterien
 
 #### Teilnehmererlebnis
 
 * Teilnehmer sehen den Abschlussstatus der Checkliste (Bestanden/Nicht bestanden)
 * Wenn diese Option aktiviert ist, können die Teilnehmer auch Folgendes sehen:
-   * Kommentare der Reviewer
-   * Name des Überprüfers
+  * Kommentare der Reviewer
+  * Name des Überprüfers
 * Bewertungslogik wird konsistent auf alle Auswertungen angewendet
 
 #### Hinweise für Autoren
@@ -908,8 +994,8 @@ Die Checkliste ist jetzt mit gewichteter Punktzahl für die Kursleiterauswertung
 * Gewogene Checklisten eignen sich am besten für **formelle Bewertungen**
 * Die Fragepunktzahlen sollten sorgfältig kalibriert werden, um verzerrte Ergebnisse zu vermeiden.
 * Funktioniert mit:
-   * Einzelne oder mehrere Prüfer
-   * Kommentare von Reviewern (sofern aktiviert)
+  * Einzelne oder mehrere Prüfer
+  * Kommentare von Reviewern (sofern aktiviert)
 * Bestehende Checklisten sind nicht betroffen, sofern sie nicht explizit aktualisiert werden
 
 
@@ -927,7 +1013,7 @@ So können Kursleiter den Erfolg des Teilnehmers markieren:
 6. Geben Sie die erforderlichen Details ein und wählen Sie die Daten aus.
 7. Wählen Sie die Option **[!UICONTROL Kursleiter darf Erfolg markieren]** aus.
 
-   ![Der Kursleiter darf den Erfolg markieren? Das Kontrollkästchen ist hervorgehoben, sodass Autoren die Möglichkeit haben, dass Kursleiter den Erfolgsstatus eines Teilnehmers für ein Modul aufzeichnen](/help/migrated/authors/feature-summary/assets/allow-instructor-mark-success.png)
+   ![Der Kursleiter darf den Erfolg markieren? Das Kontrollkästchen ist hervorgehoben, sodass Autoren den Kursleiter den Teilnehmererfolgsstatus für ein Modul aufzeichnen lassen können](/help/migrated/authors/feature-summary/assets/allow-instructor-mark-success.png)
    _Bildschirm &quot;Sitzungsdetails&quot;, in dem die Option &quot;Der Kursleiter darf den Erfolg markieren&quot; für die Module &quot;Klassenzimmer&quot; oder &quot;Virtuelles Klassenzimmer&quot; markiert ist_
 
 8. Wählen Sie **[!UICONTROL Fertig]**.
@@ -1152,7 +1238,7 @@ Sie können in Learning Manager mit den Menüoptionen „Veröffentlichen“ Kur
 1. Melden Sie sich mit Adobe-Anmeldeinformationen an. Wenn Sie noch keine Adobe ID haben, klicken Sie auf **[!UICONTROL Konto erstellen]**. Nach der Autorisierung werden Sie zur Seite für die Veröffentlichung von Modulen weitergeleitet.
 1. Geben Sie alle Basisinformationen über das Modul ein und klicken Sie auf „Veröffentlichen“.
 
-Sie sehen das veröffentlichte Modul auf der Modulseite von Learning Manager. Weitere Informationen finden Sie unter [Projekt in Adobe Learning Manager veröffentlichen](https://helpx.adobe.com/de/captivate/classic/publish-project-to-captivate-prime.html).
+Sie sehen das veröffentlichte Modul auf der Modulseite von Learning Manager. Weitere Informationen finden Sie unter [Projekt in Adobe Learning Manager veröffentlichen](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html).
 
 ## Kurseffektivität {#courseeffectiveness}
 

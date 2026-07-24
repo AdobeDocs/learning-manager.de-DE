@@ -3,10 +3,10 @@ description: Referenzhandbuch für Integrationsadministratoren zum Migrieren ein
 jcr-language: en_us
 title: Migrationshandbuch
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: bb98f6ff998a09682bbd7c50d9bf92469859f0be
+source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
 workflow-type: tm+mt
-source-wordcount: '6280'
-ht-degree: 52%
+source-wordcount: '7489'
+ht-degree: 44%
 
 ---
 
@@ -545,8 +545,8 @@ Erfasst Abschlussinformationen auf Benutzerebene für entsprechende LOs, die den
 
 * Alle äquivalenzbezogenen Daten müssen über die Migration eingegeben werden.
 * Das System unterstützt keine Szenarien, in denen:
-   * LO-Daten (Kurse/LPs) wurden über die Benutzeroberfläche erstellt und
-   * Äquivalenzbeziehungen werden später nur über CSV importiert.
+  * LO-Daten (Kurse/LPs) wurden über die Benutzeroberfläche erstellt und
+  * Äquivalenzbeziehungen werden später nur über CSV importiert.
 
 Dies bedeutet:
 
@@ -1054,3 +1054,213 @@ Fehlerbehebung bei häufigen Migrationsfehlern
 | Sitzungszeile schlägt mit Metadatenfehler fehl | Überprüfen Sie, ob alle JSON-Schlüsselnamen im Feld &quot;`metadata`&quot; exakt &quot;camelCase&quot; verwenden. Bei Schlüsseln wird zwischen Groß- und Kleinschreibung unterschieden. |
 | Teams `isCompletionCriteria` haben keine Auswirkungen. | Das Feature-Flag für Abschlusskriterien für Teams muss von Ihrem ALM-Kontoadministrator aktiviert werden, bevor die Migrationswerte wirksam werden. |
 | Sitzungszeile erstellt, aber das Kursleiterfeld ist leer | Wenn die angegebene E-Mail-Adresse des Kursleiters nicht mit einem Benutzer in ALM übereinstimmt, wird die Sitzung mit einem leeren Feld für den Kursleiter erstellt. Vergewissern Sie sich, dass die Kursleiter-E-Mail in ALM vorhanden ist, bevor Sie sie hochladen. |
+
+## LTI-Module migrieren {#migrationofltimodules}
+
+### Übersicht
+
+Die LTI-Migration erweitert den vorhandenen Migrations-Workflow und erfordert keine zusätzlichen Migrationsdateien. Bestehende Kurs-, Modul- und Modulzuordnungsdatensätze verwenden weiterhin das Standardmigrationsformat. LTI-spezifische Informationen werden über die Modulversionsdaten bereitgestellt.
+
+### Dateien für LTI-Migration verwenden
+
+LTI-Module werden mithilfe der Standardmigrationsdateien migriert.
+
+Die folgenden Dateien verwenden weiterhin das vorhandene Migrationsformat:
+
+* course.csv
+* module.csv
+* course_module.csv
+
+In diesen Dateien sind keine LTI-spezifischen Felder erforderlich. LTI-spezifische Einstellungen werden in der Datei &quot;`module_version.csv`&quot; konfiguriert.
+
+### LTI-Modulversion konfigurieren
+
+Verwenden Sie die Datei &quot;`module_version.csv`&quot;, um die Eigenschaften einer LTI-Modulversion zu definieren.
+
+Zusätzlich zu den in `module_version.csv` unterstützten bestehenden Feldern unterstützt Adobe Learning Manager LTI-spezifische Werte und Attribute.
+
+#### contentType
+
+Verwenden Sie den Wert &quot;`LTI`&quot; im Feld &quot;`contentType`&quot;, um die Modulversion als LTI-Modul zu identifizieren.
+
+*Feld und Wert zur Identifizierung einer LTI-Modulversion*
+
+| **Feld** | **Wert** |
+|-------------|-----------|
+| contentType | LTI |
+
+#### ltiLaunchUrl
+
+Gibt die Start-URL des externen LTI-Anbieters an.
+
+Wenn ein Teilnehmer das Modul in Adobe Learning Manager startet, wird der Teilnehmer zum konfigurierten LTI-Endpunkt umgeleitet.
+
+*Feld zum Angeben der Start-URL des externen LTI-Anbieters*
+
+| **Feld** | **Beschreibung** |
+|--------------|--------------------------------------------------|
+| ltiLaunchUrl | Von der externen LTI-Plattform bereitgestellte Start-URL |
+
+#### ltiCustomParams
+
+Gibt benutzerdefinierte Startparameter an, die dem LTI-Anbieter beim Start übergeben werden.
+
+Verwenden Sie dieses Feld, wenn die externe Plattform zusätzlichen Startkontext oder Konfigurationsparameter erfordert.
+
+*Feld zum Übergeben benutzerdefinierter Startparameter an den LTI-Anbieter*
+
+| **Feld** | **Beschreibung** |
+|-----------------|------------------------------------------------------------|
+| ltiCustomParams | Benutzerdefinierte Parameter, die während des Starts an die LTI-Plattform übergeben werden |
+
+#### tpName
+
+Gibt den Namen des LTI-Anbieters des Drittanbieters an, der dem Modul zugeordnet ist.
+
+*Feld zur Identifizierung des LTI-Anbieters des Drittanbieters*
+
+| **Feld** | **Beschreibung** |
+|-----------|-----------------------------------------------------------------|
+| tpName | Name des Drittanbieters der LTI, der dem Modul zugeordnet ist |
+
+### Beispiel für LTI-Modulversion
+
+Das folgende Beispiel zeigt einen Modulversionsdatensatz, der für ein LTI-Modul konfiguriert ist:
+
+```csv
+moduleId,moduleVersion,contentType,dateCreated,duration,desiredDuration,contentUrl,hasQuiz,ltiLaunchUrl,ltiCustomParams,tpName
+2024101905,1,LTI,2024-10-19T09:55:21.123Z,60,60,,,https://m42almintegrationsv01.moodlecloud.com/enrol/lti/launch.php,"id=8600f9a1-256f-4a0c-bcfc-36377eba8ae1
+param=1",DND_Moodle_isProducer
+```
+
+In diesem Beispiel:
+
+* Die Modulversion wird durch den Wert &quot;`contentType=LTI`&quot; als LTI-Modul identifiziert.
+* Die Start-URL verweist auf den externen LTI-Anbieter.
+* Benutzerdefinierte Startparameter werden über `ltiCustomParams` bereitgestellt.
+* Der Anbieter wird über das Feld &quot;`tpName`&quot; identifiziert.
+
+### Migrieren eines LTI-Moduls
+
+So migrieren Sie ein LTI-Modul:
+
+1. Erstellen Sie den Kursdatensatz in `course.csv`.
+2. Erstellen Sie den Moduldatensatz in `module.csv`.
+3. Ordnen Sie den Kurs und das Modul in `course_module.csv` zu.
+4. Fügen Sie die Details zur Modulversion in `module_version.csv` hinzu.
+5. Legen Sie den Wert &quot;`contentType`&quot; auf &quot;`LTI`&quot; fest.
+6. Geben Sie die LTI-Start-URL und etwaige optionale Startparameter an.
+7. Führen Sie den Migrations-Sprint aus.
+
+Das Migrations-Framework verarbeitet das LTI-Modul als Teil des Standard-Migrationsablaufs.
+
+### LTI-Modulversionen validieren
+
+Beim Erstellen von LTI-Modulversionen:
+
+* Verwenden Sie den Wert `LTI` für das Feld `contentType`.
+* Geben Sie im Feld &quot;`ltiLaunchUrl`&quot; eine gültige Start-URL an.
+* Geben Sie den Namen des externen Anbieters im Feld &quot;`tpName`&quot; an.
+* Stellen Sie sicher, dass das Modul über die Standardmigrationsdateien mit einem Kurs verknüpft ist.
+* Folgen Sie weiterhin allen für `module_version.csv` dokumentierten Anforderungen für die Migration der Modulversion und den Validierungsregeln.
+
+Das Migrationssystem wendet zusätzlich zu den LTI-spezifischen Feldern den standardmäßigen Arbeitsablauf für die Migrationsverarbeitung an.
+
+## Adaptive Kurse migrieren
+
+Wenn Sie Kurse von einem externen System in Adobe Learning Manager migrieren und sie als adaptive Kurse mit Modulebenensichtbarkeit und Abschlussregeln pro Benutzergruppe konfigurieren möchten, können Sie zwei CSV-Dateien verwenden, um sowohl die Kurse als auch ihre adaptiven Regeln zu definieren.
+
+### Erforderliche Informationen für die Migration
+
+Die Migration eines adaptiven Kurses erfordert zwei Änderungen an Ihrem CSV-Standardmigrationspaket:
+
+* **Ein Update auf** _course.csv_: eine neue Spalte, die einen Kurs als adaptiv markiert
+* **Eine neue Datei,** _course_ module_user_group.csv_: eine Zeile pro Modul-zu-Benutzer-Gruppenregel
+
+Beide Dateien müssen in demselben Migrationsprojekt enthalten sein.
+
+### course.csv aktualisieren
+
+Fügen Sie die Spalte isAdaptive zur Datei course.csv hinzu.
+
+| **Spalte** | **Werte** | **Beschreibung** |
+| --- | --- | --- |
+| isAdaptive | true oder blank | Setzen Sie die Option für adaptive Kurse auf &quot;true&quot;. Lassen Sie das Feld leer oder legen Sie für reguläre Kurse den Wert &quot;false&quot; fest. |
+
+Alle anderen Spalten in &quot;course.csv&quot; bleiben unverändert.
+
+**Beispielspaltenreihenfolge:**
+
+* id
+* courseName
+* Beschreibung
+* courseCreationDate
+* state
+* sequenziell
+* Autorin
+* thumbnailUrl
+* Tags
+* isAdaptive
+
+>[!NOTE]
+>
+>Die Spalte isAdaptive ist für reguläre Kurse optional. Wenn er nicht angegeben oder leer gelassen wird, wird der Kurs als normaler Kurs behandelt.
+
+### course_module_user_group.csv hinzufügen
+
+Dies ist eine neue CSV-Datei, die die adaptive Sichtbarkeit und die Abschlussregeln für jedes Modul in jedem adaptiven Kurs definiert. Jede Zeile ordnet ein Modul einer Benutzergruppe mit einem Regeltyp zu.
+
+| **Spalte** | **Beschreibung** |
+| --- | --- |
+| courseId | Die Quellkennung des Kurses (muss mit der ID in course.csv übereinstimmen) |
+| moduleId | Die Quellkennung des Moduls (muss mit der Modulkennung in den Moduldateien übereinstimmen) |
+| userGroupId | Die Adobe Learning Manager-ID der Benutzergruppe, für die diese Regel gilt |
+| type | OBLIGATORISCH - Die Benutzergruppe muss dieses Modul zum Abschluss des Kurses abschließen. OPTIONAL: Die Benutzergruppe kann dieses Modul anzeigen und darauf zugreifen, muss es aber nicht abschließen. |
+| Arbeitsgang | HINZUFÜGEN - diese Regel erstellen oder aktualisieren. DELETE: Entfernen Sie diese Regel. |
+
+**Beispielspaltenreihenfolge:**
+
+* courseId
+* moduleId
+* userGroupId
+* type
+* Arbeitsgang
+
+### Regeln für die Datei
+
+* Jedes Inhaltsmodul in einem adaptiven Kurs muss mindestens eine Zeile in dieser Datei enthalten. Ein Modul ohne Regeln ist für keinen Teilnehmer sichtbar.
+* Für Vorbereitungs- und Testmodule sind keine Regeln erforderlich. Sie werden automatisch auf alle registrierten Teilnehmer angewendet und sollten nicht in dieser Datei angezeigt werden.
+* Sie können mehrere Zeilen für dasselbe Modul haben. Eine pro Benutzergruppe.
+* Wenn Sie eine ADD-Zeile für eine Regel übermitteln, die bereits im System vorhanden ist, wird die vorhandene Regel aktualisiert, anstatt ein Duplikat zu erstellen.
+
+### Upload-Reihenfolge
+
+Die Dateien in Ihrem Migrationsprojekt müssen in der folgenden Reihenfolge hochgeladen und verarbeitet werden: Spätere Dateien hängen von Daten ab, die von früheren Dateien erstellt wurden. Wenn die Reihenfolge nicht befolgt wird, schlägt sie fehl.
+
+* **module.csv**: Module definieren
+* **module_version.csv**: Modulversionen definieren
+* **course.csv**: (mit isAdaptive=true für adaptive Kurse) - Erstellen Sie die Kurse
+* **course_module.csv**: Module mit Kursen verknüpfen
+* **course_module_user_group.csv**: Adaptive Sichtbarkeits- und Abschlussregeln anwenden
+
+Laden Sie hier die Migrationsdateien herunter: [Migrationsdateien für adaptive Kurse](/help/migrated/integration-admin/feature-summary/assets/adaptive-courses-migration-files.zip)
+
+>[!IMPORTANT]
+>
+>**course_module_user_group.csv** muss zuletzt hochgeladen werden. Die Regeln in dieser Datei beziehen sich sowohl auf einen Kurs als auch auf ein Modul, die bereits mit Schritt 4 verknüpft sein müssen, bevor die Regeln angewendet werden können.
+
+### Validierung und Fehlerreferenz
+
+Adobe Learning Manager validiert jede Zeile in course_module_user_group.csv, bevor die Regeln angewendet werden. Jede Zeile, bei der die Validierung fehlschlägt, wird mit einer Fehlermeldung zurückgewiesen. Die verbleibenden gültigen Zeilen werden noch verarbeitet.
+
+| **Szenario** | **Was passiert** | **Fehlermeldung** |
+| --- | --- | --- |
+| Regeln für einen Kurs, der nicht als adaptiv gekennzeichnet ist | Zeile abgelehnt | Der Kurs muss adaptiv sein, um Regeln für die Inhaltssichtbarkeit zu haben. Kurs-ID: {courseId} |
+| Kurs als adaptiv markiert, aber keine Regeln für seine Inhaltsmodule angegeben | Kurs abgelehnt | Adaptive Kurse müssen über mindestens eine Sichtbarkeitsregel für jedes Inhaltsmodul verfügen. Kurs-ID: {courseId} hat keine Regeln für Module: 1{moduleIds} |
+| Das Modul ist nicht mit dem Kurs verknüpft | Zeile abgelehnt | Das Modul &quot;{moduleId}&quot; ist nicht mit dem Kurs &quot;{courseId}&quot; verknüpft. Fügen Sie das Modul zuerst über course_module.csv zum Kurs hinzu. |
+| Das Modul ist ein Vorbereitungs- oder Testmodul (kein Inhaltsmodul) | Zeile abgelehnt | Sichtbarkeitsregeln gelten nur für Inhaltstypmodule. Das Modul &quot;{moduleId}&quot; hat den Typ &quot;{actualType}&quot;. |
+| Die Benutzergruppe ist nicht vorhanden oder inaktiv. | Zeile abgelehnt | Die Benutzergruppe &quot;{userGroupId}&quot; wurde nicht gefunden oder ist nicht aktiv. |
+| Der Typwert ist nicht OBLIGATORISCH oder OPTIONAL. | Zeile abgelehnt | Ungültiger Typ &quot;{type}&quot;. Muss OBLIGATORISCH oder OPTIONAL sein. |
+| Der Vorgangswert lautet nicht ADD oder DELETE. | Zeile abgelehnt | Ungültiger Vorgang &quot;{operation}&quot;. Muss ADD oder DELETE sein. |
+| Für eine bereits vorhandene Regel wurde ADD übermittelt. | Regel wird im Hintergrund aktualisiert | Kein Fehler: Die vorhandene Regel wird mit dem neuen Typwert aktualisiert. |
+

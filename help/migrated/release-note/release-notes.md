@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Versionshinweise zu Adobe Learning Manager
 contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 79de9fe16c4397ff769072c9f57868649664806f
+source-git-commit: 47de040030c841641b9a554eac1a40c0ee0835a8
 workflow-type: tm+mt
-source-wordcount: '30900'
-ht-degree: 72%
+source-wordcount: '33111'
+ht-degree: 67%
 
 ---
 
@@ -19,11 +19,128 @@ ht-degree: 72%
   <tr>
    <td><img src="assets/cp-prime-appicon-88x84.png"></td>
    <td>
-    <p><a href="https://business.adobe.com/de/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
+    <p><a href="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
   </tr>
  </tbody>
 </table>
 -->
+
++++Update 10: Adobe Learning Manager Version August 2026
+
+>[!IMPORTANT]
+>
+>Die in diesen Versionshinweisen beschriebenen Funktionen sind als Teil der Betaversion verfügbar. Adobe Learning Manager Beta-Funktionen werden zu Evaluierungszwecken bereitgestellt und können vor der allgemeinen Verfügbarkeitsversion geändert, eingeschränkt oder entfernt werden. Funktionsnamen, Verhalten und Konfigurationsoptionen können sich jederzeit ohne Vorankündigung ändern.
+
+## Besonderheiten dieser Version
+
+Die Version August 2026 von Adobe Learning Manager bietet deutliche Fortschritte bei personalisiertem Lernen, KI, Reporting und Integrationen. Adaptive Kurse beinhalten Regeln für die Sichtbarkeit und den Abschluss von Modulen, die von Anwendergruppen gesteuert werden. So kann ein einzelner Kurs verschiedenen Teilnehmern basierend auf ihrer Rolle, Region oder ihrem Profil unterschiedliche Inhalte präsentieren. Dadurch müssen keine separaten Kursversionen mehr verwaltet werden.
+
+Das Kursbuch mit vollem Funktionsumfang fügt Kursen gewichtete Punktzahlen und die Berechnung von Bestehen/Nichtbestehen hinzu und bietet Organisationen eine präzise, konfigurierbare Messung der Teilnehmerleistung, die über die einfache Abschlussverfolgung hinausgeht.
+
+Auf der AI-Front erhält der AI Assistant für Teilnehmer Kurszusammenfassungen, Lernobjektvergleiche, Adobe Experience League-Antworten und Content-Abfragen von Drittanbietern aus den Go1- und LinkedIn-Lernkatalogen; Ein neuer Learning Path-Agent führt die Teilnehmer durch eine Konversation, um automatisch einen benutzerdefinierten Lernpfad zu erstellen. und der Insights Agent liefert Anfragen in natürlicher Sprache an Administrator-Berichte. Alle KI-Funktionen werden von einem KI-Abspann-System der neuen Generation auf der Abrechnungsseite gesteuert, das Administratoren Nutzungsbeschränkungen und Verbrauchswarnungen pro Funktion bietet.
+
+Das Content-Management wird durch einen komponentenbasierten E-Mail-Vorlagen-Generator auf WYSIWYG-Basis, eine hierarchische Struktur von Inhaltsordnern mit rollenbasiertem Zugriff, eine externe Lernfunktion zum Einreichen und Genehmigen von plattformunabhängigen Schulungen und eine neue Kanal-Funktion gestärkt, die Videoinhalte von Unternehmens-Web-Seiten und Confluence-Seiten aggregiert.
+
+Weitere Informationen finden Sie unter [Neue Funktionen und Änderungen in der Version August 2026 von Adobe Learning Manager](/help/migrated/whats-new.md).
+
+## Änderungen in der Version durchbrechen
+
+### Externe Lernfunktion: Neue Spalten im Teilnehmertranskript
+
+Durch diese werden dem LT-Bericht kundenspezifische benutzerdefinierte Felder für externes Lernen hinzugefügt. In Admin LT werden neue Spalten für benutzerdefinierte Felder am Ende angehängt. in Teilnehmer LT werden der Name des externen Lernprogramms und der Abschlusskommentar in der Nähe der Felder für das entsprechende Modul und für Reviewer eingefügt, wobei die verbleibenden benutzerdefinierten Felder am Ende hinzugefügt werden.
+
+Erfahren Sie mehr über die [Berichterstellungsänderungen in der Version August 2026 von Adobe Learning Manager](/help/migrated/reporting-changes-august-2026.md).
+
+### Stammtrainings-ID für Zertifizierungen im Teilnehmertranskript
+
+Dadurch wird sowohl Admin LT als auch Teilnehmer LT eine neue Spalte &quot;Root Training ID&quot; hinzugefügt. Die Spalte wird am Ende des Berichts angezeigt und hilft dabei, den übergeordneten Zertifizierungskontext für den Teilnehmerdatensatz zu identifizieren.
+
+Erfahren Sie mehr über die [Berichterstellungsänderungen in der Version August 2026 von Adobe Learning Manager](/help/migrated/reporting-changes-august-2026.md).
+
+### Ausrichtung des Datums-/Uhrzeitformats mit dem Teilnehmertranskript im Webhook
+
+Dadurch werden die Datums- und Zeitwerte von Webhook-Datenobjekten auf die Minutengenauigkeit standardisiert. Sekunden werden immer als 00 ausgegeben, wodurch die Webhook-Zeitstempel dem Format des LT-Berichts angeglichen werden.
+
+Erfahren Sie mehr über die [Berichterstellungsänderungen in der Version August 2026 von Adobe Learning Manager](/help/migrated/reporting-changes-august-2026.md).
+
+### Gewichtungsspalte im Teilnehmertranskript
+
+Dem LT-Bericht für Module in Gradebook-fähigen Kursen wird eine Spalte &quot;Stärke&quot; hinzugefügt. Dadurch wird die Modulstärke direkt in der Berichtsausgabe angezeigt.
+
+Erfahren Sie mehr über die [Berichterstellungsänderungen in der Version August 2026 von Adobe Learning Manager](/help/migrated/reporting-changes-august-2026.md).
+
+### Details zum freigegebenen Kursverfasser in der learningObjects-API
+
+Mit den Details wird die LO-Antwort der learningObjects-API für freigegebene Kurse aktualisiert, sodass für empfangende Konten der akzeptierende Administrator nicht mehr als Autor angezeigt wird. Nur die ursprünglichen externen Autorendetails werden in Peer-Konten angezeigt. Das Verhalten des übergeordneten Kontos bleibt unverändert.
+
+### Absichtserkennung in AI Orchestrator Agent
+
+Der AI Orchestrator-Agent verschiebt die Absichtserkennung für Anfragen mit nur einer Abfrage in den Orchestrierer und entfernt manuelle Umschalter der Benutzeroberfläche. Das Abfrage-Routing kann sich je nach erkannter Absicht zwischen Fragen-und-Antworten- und PLP-Flows ändern.
+
+## In der Version behobene Fehler
+
+**Teilnehmertranskript:** Die Datumsangaben im Teilnehmertranskriptbericht wurden in Sekunden als 00 aufgezeichnet, während die Sekunden im Webhook wie gewünscht angezeigt wurden - in zwei Ziffern. Dieses Problem wurde behoben. Das Teilnehmertranskript zeigt jetzt auch die zweistelligen Sekunden korrekt an.
+
+**Instanz:** Wenn eine Microsoft Teams- oder Adobe Connect VC-Sitzung von der Instanzseite abgebrochen wurde, blieben einige zugeordnete Sitzungsdetails nach einer Seitenaktualisierung erhalten. Dieses Problem wurde behoben und abgebrochene Sitzungen entfernen jetzt korrekt alle zugehörigen Details, einschließlich der Einstellungen für den Teams-Organizer und die Lobby-Umgehung und des primären Connect-Kursleiters.
+
+**API:** Ein Problem in einem automatisierten AWS-Workflow führte dazu, dass wiederholte Download-Anforderungen an die CMS-HTTP-API nicht ordnungsgemäß codierte URLs verwendeten. Dies führte zu zeitweiligen HTTP-500-Fehlern und einem hohen Volumen an ungültigem Datenverkehr. Der Workflow wurde aktualisiert, sodass Leerzeichen und andere Sonderzeichen in Download-Anforderungs-URLs korrekt mit der URL codiert werden. Infolgedessen werden Anfragen zum Herunterladen von Kontoinhalten erfolgreich verarbeitet, wodurch Fehler reduziert und die Zuverlässigkeit des automatischen Abrufs von Assets verbessert wird.
+
+**Teilnehmer:** Ein Problem verursachte, dass die im Abschnitt &quot;Detaillierte Übersicht&quot; eines Kurses angewendete Kursivformatierung während der Erstellung korrekt angezeigt wurde, jedoch nicht auf der den Teilnehmern zugewandten Kursübersichtsseite nach der Veröffentlichung. Die Rendering-Logik wurde aktualisiert, um die kursive Textformatierung beizubehalten, wenn Kursinhalte veröffentlicht werden. Infolgedessen werden Kursivschrift, die im Abschnitt &quot;Detaillierte Übersicht&quot; angewendet wird, für die Teilnehmer auf der veröffentlichten Kursübersichtsseite korrekt und konsistent angezeigt.
+
+**Benutzerdefinierte Zertifizierungen:** In der Zertifikatvorschau wurde ein leerer weißer Hintergrund angezeigt, als ein SVG-Image als Zertifikatshintergrund für ein Leistungszertifikat hochgeladen wurde. Der Rendervorgang für die Zertifikatvorschau wurde aktualisiert, um hochgeladene SVG-Hintergrundbilder korrekt zu unterstützen und anzuzeigen. Aus diesem Grund wird der konfigurierte SVG-Hintergrund jetzt wie erwartet in der Zertifikatvorschau gerendert, sodass das endgültige Zertifikat exakt dargestellt wird.
+
+**Autor:** Bei der Generierung von VTT-Dateien für lange interaktive Videos kann es zu erheblichen Verzögerungen kommen, wobei die Verarbeitungszeit für einige Uploads zwei Stunden überschreiten könnte. Dieses Problem wurde untersucht und optimiert, um die Leistung und Zuverlässigkeit der VTT-Generierung für große Videodateien zu verbessern. Daher werden VTT-Dateien jetzt effizienter generiert und bieten einen schnelleren und konsistenteren Untertitel-Workflow für interaktive Video-Uploads.
+
+**API:** Einige Teilnehmerabschlussdatensätze wurden von der Berichtsexport-API nicht zurückgegeben, obwohl die Abschlussdaten im Backend vorhanden waren, dem angegebenen Datumsbereich und den Benutzergruppenfiltern entsprachen und alle Berichtskriterien erfüllten. Der Berichtsexportprozess für Teilnehmerabschlüsse über mehrere Jobs und die Datenabruflogik wurde verbessert, um sicherzustellen, dass Datensätze für berechtigte Abschlüsse konsistent in API-Exporten enthalten sind. Die API-Antworten für den Export von Berichten geben jetzt vollständige Teilnehmerabschlussdaten für Benutzer zurück, deren Abschlusszeitstempel innerhalb des angeforderten Datumsbereichs und Filterbereichs liegen, wodurch präzisere und zuverlässigere Berichterstellungsergebnisse bereitgestellt werden.
+
+**Webhook:** Wenn ein Teilnehmer sich für eine Sitzung registriert hat, die später abgebrochen wurde, löste die Registrierung in einer anderen Sitzung desselben Kurses kein neues Webhook-Ereignis für die Registrierung aus, es sei denn, der Teilnehmer wurde zuerst von der abgebrochenen Sitzung abgemeldet. Dadurch versäumten nachgelagerte Systeme gültige Registrierungsaktualisierungen für abgebrochene oder zuvor abgeschlossene Instanzen. Der Webhook-Flow wurde aktualisiert, sodass ein neues Registrierungsereignis ausgelöst wird, wenn sich ein Teilnehmer nach dem Abbruch oder Abschluss der vorherigen Sitzung für eine andere Sitzung desselben Kurses registriert, wodurch sichergestellt wird, dass die Registrierungsaktivität konsistent gemeldet wird.
+
+**API:** Bei Admin-API-Anforderungen für Lernpfade, die umfangreiche zugehörige Daten (wie Instanzen, Registrierungen, Ressourcen und Stufen) enthielten, kam es zu erheblichen Leistungseinbußen, wobei die Reaktionszeiten von typischen fünf bis acht Sekunden auf bis zu 45 bis 60 Sekunden anstiegen, was sich auf die Integrations-Workflows und die nachgelagerten Systeme auswirkt. Leistungsoptimierungen wurden implementiert, um umfangreiche Lernobjektanforderungen einzubeziehen und die Effizienz beim Datenabruf zu verbessern. API-Aufrufe von Lernpfaden, die komplexe verschachtelte Beziehungen enthalten, geben jetzt Ergebnisse konsistenter und mit verbesserten Antwortzeiten zurück, wodurch eine zuverlässige Integrationsleistung gewährleistet wird.
+
+**E-Mails und Benachrichtigungen:** Teilnehmer, die wiederkehrende Zertifizierungskurse abschließen, haben E-Mails zum Abschluss von Kursen erhalten, selbst wenn die E-Mail-Vorlage für den Abschluss für den ursprünglichen Kurs deaktiviert wurde. Dies ist darauf zurückzuführen, dass mit wiederkehrenden Zertifizierungen neue Kurse und Instanzen erstellt wurden, ohne die ursprünglichen Benachrichtigungseinstellungen der Kursebene zu kopieren, was dazu führte, dass für die duplizierten Kurse Standard-E-Mail-Konfigurationen verwendet wurden. Der Wiederholungsprozess wurde aktualisiert, um die Einstellungen für Kursbenachrichtigungen beim Duplizieren von Kursen beizubehalten. Daher werden Abschluss-E-Mails jetzt nur gesendet, wenn sie explizit in der ursprünglichen Kurskonfiguration aktiviert sind.
+
+**Teilnehmer:** Ankündigungen für Mastertitel, für die Videos konfiguriert sind, werden nur im ersten Videoframe auf der Teilnehmerstartseite angezeigt, und die Wiedergabe wurde nicht automatisch wie erwartet gestartet. Das Videowiedergabeverhalten wurde aktualisiert, um sicherzustellen, dass unterstützte Mastertitel-Videos beim Laden der Ankündigung korrekt wiedergegeben werden. Teilnehmer können jetzt videobasierte Ankündigungen von Mastertiteln ohne manuelle Wiedergabe anzeigen und so ein ansprechenderes Erlebnis bieten.
+
+**Teilnehmer:** Das **Trending in Your Network**-Widget hat fälschlicherweise eine leere **Start Learning**-Karte in beiden horizontalen Zeilen angezeigt. Dieses Problem wurde behoben, indem für jede Zeile die entsprechende Karte mit leerem Status gerendert wurde. In der ersten Zeile wird jetzt ein Link **Gehe zum Katalog** angezeigt, während in der zweiten Zeile die Karte **Lernen beginnen** wie vorgesehen weiterhin angezeigt wird.
+
+**API:** Wenn Teilnehmer den Katalog in aufsteigender Reihenfolge (A-Z) nach Namen sortierten, gab die öffentliche API Ergebnisse mithilfe der Sortierung nach Groß- und Kleinschreibung zurück. Dadurch wurden Kursnamen in Großbuchstaben (AA, BB, CC) vor Kleinbuchstaben (aa, bb) angezeigt, anstatt in der folgenden alphabetischen Standardreihenfolge. Die Sortierlogik wurde aktualisiert, sodass die Groß- und Kleinschreibung nicht berücksichtigt wird. Die Katalogergebnisse werden jetzt unabhängig von der Groß-/Kleinschreibung in der erwarteten alphabetischen Reihenfolge angezeigt, wodurch eine konsistente Reihenfolge der Kursnamen gewährleistet wird.
+
+**CR-VC:** Wenn einem VC-Kurs ein neuer Kursleiter hinzugefügt wurde, wurde keine E-Mail mit einer Sitzungseinladung gesendet, wenn die E-Mail-Vorlage &quot;Sie wurden als Kursleiter/Organisator/Co-Organizer hinzugefügt&quot; deaktiviert war, sodass Kursleiter keine Sitzungsdetails erhalten konnten. Die Benachrichtigungslogik wurde korrigiert, um sicherzustellen, dass Einladungen zu Kursleitersitzungen unabhängig von der Vorlage generiert werden.
+
+**Client-Allgemein:** Wenn die Dauer eines Aktivitätsmoduls aktualisiert wurde, nachdem der Kurs zu einem AET-Lernplan (Auto Enrollment Trigger) hinzugefügt wurde, zeigte die Teilnehmervorschau weiterhin die Dauer aus der AET-Instanz anstelle der aktualisierten Dauer aus der Standardkursinstanz an. Dieses Problem wurde behoben, indem sichergestellt wurde, dass die Teilnehmervorschau die Moduldauer aus der richtigen Kursinstanz abruft. In der Teilnehmervorschau wird die neueste veröffentlichte Moduldauer jetzt korrekt angezeigt, was Aktualisierungen des Kursinhalts widerspiegelt.
+
+**Teilnehmer:** In einer bestellten Zertifizierung können Teilnehmer einen fehlgeschlagenen ersten Kurs umgehen und auf einen gesperrten zweiten Kurs zugreifen, indem sie dessen Voraussetzung abschließen, sodass die Zertifizierung als abgeschlossen markiert werden kann, wenn die Anforderung auf einen beliebigen Kurs festgelegt wurde. Die Validierung wurde aktualisiert, um die Kursreihenfolge und Sperrregeln konsistent durchzusetzen. Teilnehmer können Zertifizierungsanforderungen jetzt nur in der definierten Reihenfolge abschließen, sodass gesperrte Kurse nicht zum Abschluss der Zertifizierung beitragen.
+
+**API:** Wenn eine Ressource zu einem Kurs ohne Beschreibung hinzugefügt wurde, hat die GET /learningObject/{id}-API keine neu hinzugefügte Beschreibung zurückgegeben, wenn die Ressource zu einem späteren Zeitpunkt aktualisiert wurde. Dies führte dazu, dass veraltete Ressourcen-Metadaten über die API verfügbar gemacht wurden. Das Synchronisierungsproblem wurde behoben, und die API gibt jetzt die neueste Ressourcenbeschreibung zurück, unabhängig davon, wann sie hinzugefügt wurde.
+
+**API:** Wenn ein Modul mit einer Beschreibung migriert und die Beschreibung später aktualisiert wurde, wurde der aktualisierte Wert korrekt in der Modultabelle gespeichert, jedoch nicht in der Benutzeroberfläche widergespiegelt. Die ältere Beschreibung wurde weiterhin auf der Benutzeroberfläche angezeigt, da sie aus dem Datensatz content_group bezogen wurde, der während der Änderung nicht aktualisiert wurde. Dieses Synchronisierungsproblem wurde behoben und aktualisierte Modulbeschreibungen werden jetzt nach der Migration konsistent auf der Benutzeroberfläche widergespiegelt.
+
+**E-Mail-Vorlagen und Konfiguration:** Als Administratoren das E-Mail-Banner in den E-Mail-Vorlageneinstellungen aktualisiert haben, wurde das neue Banner in Outlook Desktop korrekt angezeigt, jedoch nicht in Outlook Web angezeigt, was zu einem inkonsistenten E-Mail-Erlebnis auf allen Clients führte. Das Rendering der E-Mail-Vorlage wurde aktualisiert, um die Bannerkompatibilität zwischen Outlook-Plattformen sicherzustellen. Aktualisierte E-Mail-Banner werden jetzt sowohl in Outlook Desktop als auch in Outlook Web korrekt angezeigt.
+
+## Bekannte Probleme in der Version
+
+### Spaltennamen werden in der exportierten CSV-Datei für Klassenzimmerspeicherorte nicht lokalisiert
+
+Wenn das Gebietsschema der Benutzeroberfläche auf eine andere Sprache als Englisch festgelegt ist, zeigt die CSV-Datei, die von der Seite &quot;Speicherorte für Klassenzimmer&quot; exportiert wird, ihre Spaltennamen (die Kopfzeile) nicht in der ausgewählten Sprache, sondern auf Englisch an.
+
+Dieses Verhalten tritt beim Exportieren von Speicherorten für Klassenzimmer aus dem Administratorprofil > Einstellungen > Speicherorte für Klassenzimmer auf. Während die Positionsdaten in der Datei korrekt zurückgegeben werden, werden die Spaltenüberschriften nicht entsprechend dem vom Administrator ausgewählten Gebietsschema der Benutzeroberfläche übersetzt. Infolgedessen sieht ein Administrator, der in einem nicht englischen Gebietsschema arbeitet, englische Spaltennamen in einer ansonsten lokalisierten Umgebung.
+
+Nur die Kopfzeile ist betroffen. Die zugrunde liegenden Speicherortdaten in der exportierten Datei sind davon nicht betroffen. In dieser Version ist keine Korrektur enthalten und das Problem wird für eine zukünftige Version bewertet.
+
+### Feld &quot;Kreditdauer&quot; begrenzt die Eingabe bei 9999.99
+
+Wenn ein Benutzer einen Wert für die Kreditdauer von mehr als 9999,99 eingibt, z. B. 999999, wird der Wert im Formular für die Sitzungsbearbeitung beim Speichern im Hintergrund auf 9999,99 begrenzt, ohne dass dem Benutzer ein Validierungsfehler oder eine Warnung angezeigt wird. Das HTML-Max-Attribut des Felds ist auf 9999.99 festgelegt, wodurch diese Begrenzung auf Browserebene erzwungen wird, ohne den Benutzer darüber zu informieren, dass seine Eingabe abgelehnt oder geändert wurde. Für diese Version wurde keine Korrektur angewendet, da bestätigt wird, dass dieses Verhalten wie vorgesehen funktioniert.
+
+### Fehlermeldung zeigt keine fehlende Standardsprachenzeile in CSV-Uploads an
+
+Wenn ein CSV-Upload für einen strukturierten Speicherort Zeilen nur in nicht standardmäßigen Gebietsschemas enthält, z. B. fr,de, und keine Zeile in der Standardsprache des Kontos, lautet die zurückgegebene Fehlermeldung &quot;Gebietsschema in CSV-Zeile 1 und -Spalte 2&quot; ist ungültig oder wird nicht unterstützt. Dies weist nicht darauf hin, dass das eigentliche Problem eine fehlende Zeile in der Standardsprache ist. Dadurch wird verhindert, dass Benutzer CSVs mit mehreren Gebietsschemas hochladen und das Problem nur anhand von Fehlermeldungen diagnostizieren. Dieses Problem wurde für diese Version ohne Korrektur gelöscht.
+
+### Das Feld &quot;Sitzgrenze&quot; erlaubt unrealistische Werte bis zu 4.294.967.295
+
+Das Feld &quot;Seat Limit&quot; im Modell &quot;Classroom Location&quot; akzeptiert einen beliebigen Wert von bis zu 4.294.967.295 (~4,3 Milliarden). Dabei handelt es sich um eine Obergrenze, die technisch vom zugrunde liegenden Datentyp und nicht von einer realistischen Geschäftseinschränkung bestimmt wird. Benutzer können unrealistische Lizenzen (z. B. 1.000.000.000) eingeben und speichern, ohne dass sie bei einer Validierung auf Unternehmensebene abgelehnt werden.
+Für diese Version wurde keine Korrektur angewendet. ein realistisches Geschäftshöchstwert wurde noch nicht vereinbart oder durchgesetzt.
+
++++
 
 +++Update 109: Adobe Learning Manager Version Juli 2026
 
@@ -149,7 +266,7 @@ included[].attributes.startDate
 
 startDate stellt das geplante Startdatum und die geplante Startzeit einer Lernobjektinstanz dar.
 
-Weitere Informationen [finden Sie unter API-Änderungen in der Version vom Mai &#x200B;](/help/migrated/api-changes-alm-may.md).
+Weitere Informationen [finden Sie unter API-Änderungen in der Version vom Mai ](/help/migrated/api-changes-alm-may.md).
 
 
 +++
@@ -326,7 +443,7 @@ Feedback-Formulare können in weitere Sprachen übersetzt werden, wobei die glei
 * Weisen Sie den verschiedenen Schulungsprogrammen maßgeschneiderte Feedback-Formulare zu. So können z. B. bei Vertriebskursen Fragen im NPS-Fokus beantwortet werden, während Compliance-Kurse Fragen in den Bereichen Kurseffektivität und Likert-Skala beantworten, um Klarheit und Richtlinienverständnis zu messen.
 * Verwenden Sie separate Feedbackformulare basierend auf Lernmodulen. Beispiel: drei verschiedene Formulare für angeglichene Module, Module zum Selbststudium und Klassenzimmermodule.
 
-Weitere Informationen finden Sie im [L1-Feedbackformular &#x200B;](/help/migrated/administrators/feature-summary/l1-feedback-form.md).
+Weitere Informationen finden Sie im [L1-Feedbackformular ](/help/migrated/administrators/feature-summary/l1-feedback-form.md).
 
 +++
 
@@ -440,7 +557,7 @@ Weitere Informationen zum Fluidic Player finden Sie in diesem [Artikel](/help/mi
 
 * Es wurde ein Problem behoben, durch das Teilnehmer, die einen Kurs abgeschlossen hatten, einen weißen Bildschirm sahen, wenn sie ihn erneut besuchten, nachdem das Inhaltsmodul auf eine neue Version aktualisiert wurde.
 
-Weitere Informationen zu bevorstehenden Änderungen an Adobe Learning Manager finden Sie in diesem [Artikel](https://experienceleague.adobe.com/de/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
+Weitere Informationen zu bevorstehenden Änderungen an Adobe Learning Manager finden Sie in diesem [Artikel](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
 
 +++
 
@@ -678,8 +795,8 @@ Die neue Adobe Learning Manager-App für Microsoft Teams soll das Lernen im Arbe
 **Bekannte Probleme in diesem Update**
 
 * Die Schaltfläche &quot;Freigeben&quot; im Teilnehmerkatalog funktioniert im Safaribrowser, in der Mobile App und in der iPad MS Teams-App nicht wie erwartet.
-* Benachrichtigungen werden nicht auf der Registerkarte „Aktivität“ angezeigt, wenn die App auf anderen Computern entfernt wurde.
-Wenn Sie auf iPhone 14 auf die Benachrichtigungen auf der Registerkarte „Aktivität“ der App klicken, passiert nichts.
+* Benachrichtigungen werden nicht auf der Registerkarte Aktivität angezeigt, wenn die App auf anderen Computern entfernt wurde.
+Wenn Sie in iPhone 14 auf die Benachrichtigungen auf der Registerkarte Aktivität der App klicken, passiert nichts.
 * In der MS Teams-App zeigen die Learning Manager-Benachrichtigungen (abgeschlossen, registriert, Frist und überfällig) den Status und den Namen des Kurses nicht auf der Registerkarte „Aktivität“ an.
 * Wenn Integrationsadministrator(inn)en die MS Teams-App nicht genehmigen, wird ein Popup mit XML-Inhalt angezeigt.
 * Die Benutzeroberflächensprache in der Adobe Learning Manager-App in MS Teams ändert sich manchmal nicht wie erwartet, wenn die Sprache geändert wird.
@@ -704,7 +821,7 @@ Wenn Sie auf iPhone 14 auf die Benachrichtigungen auf der Registerkarte „Aktiv
 
 ### Leistungsverbesserungen in dieser Version
 
-Wenn eine Massenregistrierung von Teilnehmenden durchgeführt wird, wird nicht für alle Teilnehmenden eine Protokolldatei generiert.
+Wenn eine Massenregistrierung von Teilnehmern durchgeführt wird, wird keine Protokolldatei für jeden Teilnehmer generiert.
 Wir haben die Verarbeitung von Lernplänen für große Konten optimiert. Dadurch werden Suchprobleme und Verzögerungen vermieden.
 +++
 
@@ -738,7 +855,7 @@ Zusätzliche Unterstützung für einen aus vier Buchstaben bestehenden Sprachcod
 ### In diesem Update behobene Fehler
 
 Bei einigen Gebietsschemas gibt die Suche falsche Ergebnisse zurück.
-Die Kurs-Metadaten werden überschrieben, wenn der Kurs mehrere Varianten desselben Gebietsschemas enthält.
+Die Kurs-Metadaten werden überschrieben, wenn der Kurs mehr als eine Variante desselben Gebietsschemas enthält.
 +++
 
 +++Update 84
@@ -871,9 +988,9 @@ Die Version November 2022 von Adobe Learning Manager umfasst Folgendes:
 * Das Kompatibilitäts-Dashboard zeigt falsche Daten für nicht kompatible Teilnehmer an.
 * Beim Hinzufügen eines Berichts können Sie keine Kurse oder Kataloge auswählen, deren Benutzeroberflächensprache nicht die Inhaltssprache hinzugefügt wurde.
 * Wir haben in dieser Version die folgenden Inhaltssprachen hinzugefügt:
-   * Bulgarisch
-   * Flämisch
-   * Portugiesisch (Brasilien)
+  * Bulgarisch
+  * Flämisch
+  * Portugiesisch (Brasilien)
 
 ### Bekannte Probleme in diesem Update
 
@@ -904,9 +1021,9 @@ Die Version November 2022 von Adobe Learning Manager umfasst Folgendes:
 * Administratoren und Kursleiter können Kommentare für Benutzer hinzufügen, die nicht an ILT-/VILT-Sitzungen teilgenommen haben.
 * Leistungsverbesserungen beim Herunterladen umfangreicher Berichte.
 * Wenn die E-Mail eines Benutzers mit einer Unzustellbarkeitsnachricht beantwortet wird, erhält der Administrator eine E-Mail-Benachrichtigung. Die E-Mail enthält einen Link. Beim Klicken auf den Link wird eine CSV-Datei mit der Liste der Benutzer heruntergeladen, deren E-Mails mit einer Unzustellbarkeitsnachricht beantwortet wurden. Der Administrator kann dann die erforderlichen Maßnahmen ergreifen.
-   * Die E-Mail wird gesendet, wenn eine E-Mail unzustellbar ist.
-   * Die E-Mail wird einmal täglich an alle Administratoren gesendet, die der Liste hinzugefügt werden.
-   * Der Link läuft in sieben Tagen ab.
+  * Die E-Mail wird gesendet, wenn eine E-Mail unzustellbar ist.
+  * Die E-Mail wird einmal täglich an alle Administratoren gesendet, die der Liste hinzugefügt werden.
+  * Der Link läuft in sieben Tagen ab.
 * Beim Versuch, ein bereits integriertes Adobe Connect-Konto in ein anderes Learning Manager-Konto zu integrieren, wird eine Fehlermeldung angezeigt.
 +++
 
@@ -1206,14 +1323,14 @@ Freigabedatum: 28. September 2021.
 
 * Im mobilen Browser wurden Deep Links für Folgendes aktiviert:
 
-   * Alle Boards
-   * Öffentliches Board und Beitrag
-   * Privates Board und Beitrag mit Zugriff
-   * Privates Board und Beitrag ohne Zugriff
-   * Eingeschränktes Board und Beitrag
-   * Kommentar zu Beitrag
-   * Antwort auf Kommentar
-   * Sozial-Benutzerprofil
+  * Alle Boards
+  * Öffentliches Board und Beitrag
+  * Privates Board und Beitrag mit Zugriff
+  * Privates Board und Beitrag ohne Zugriff
+  * Eingeschränktes Board und Beitrag
+  * Kommentar zu Beitrag
+  * Antwort auf Kommentar
+  * Sozial-Benutzerprofil
 
 * Bei Konten, die eine benutzerdefinierte Domäne verwenden, zeigt die Teilnehmer-App das Favicon nicht an.
 * Bei AEM löscht die Learning Manager-Komponente die Konfiguration anderer Komponenten.
@@ -1486,7 +1603,7 @@ Weitere Informationen finden Sie unter „Neue Funktionen“ im [Update von Lear
 * Das Herunterladen von Ressourcen aus einem Kurs funktionierte nicht, wenn er aus einem anderen Kurs kopiert wurde und der Teilnehmer keinen Zugriff auf den ursprünglichen zum Erstellen des duplizierten Kurses verwendeten Kurs hat.
 * Bannerbilder wurden nicht gelöscht, wenn der Autor sie entfernt, während sich der Kurs im Entwurfsstatus befindet. Dieses Problem wurde behoben.
 
-**AEM &#x200B;**
+**AEM **
 
 * Nach dem Einfügen der Learning Manager-Komponente in AEM dauerte das Laden der Seite lange und der Zugriff auf die anderen Komponenten war nicht möglich. Dieses Problem wurde behoben.
 
@@ -1659,8 +1776,8 @@ Freigabedatum: 23. September 2020.
 
 * Wenn Sie feststellen möchten, für welche Kurse sich die einzelnen Teilnehmer registriert haben und ob sie diese Kurse abgeschlossen haben, nehmen Sie die folgenden Felder in den Dashboard-Abonnementbericht auf:
 
-   * UUID
-   * E-Mail-Adresse
+  * UUID
+  * E-Mail-Adresse
 
 **Teilnehmertranskript**
 
@@ -1920,7 +2037,7 @@ In diesem Update kann ein Teilnehmer Assets als Abschlussnachweis für ein exter
 
 Ein Teilnehmer kann ein externes Zertifikat öffnen und Assets wie PDF-, Text- oder Bilddateien hochladen.
 
-Weitere Informationen finden Sie unter [***Hochladen von Assets in externes Zertifikat***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).**&#x200B;**
+Weitere Informationen finden Sie unter [***Hochladen von Assets in externes Zertifikat***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).****
 
 ### In diesem Update behobene Probleme {#issuesfixedinthisrelease}
 
@@ -2165,10 +2282,10 @@ In diesem Update wird dem **Autor eine Warnmeldung angezeigt, die besagt, dass d
 
 * Wenn Sie in den unten genannten Browsern mit der Maus über den linken Bereich fahren, wird der Text nach einer leichten Verzögerung angezeigt.
 
-   * Edge 42.17134.1.0
-   * Edge 44.17763.1.0
-   * Internet Explorer 11.1006
-   * Internet Explorer 11.615
+  * Edge 42.17134.1.0
+  * Edge 44.17763.1.0
+  * Internet Explorer 11.1006
+  * Internet Explorer 11.615
 
 * Ein Teilnehmer darf vor und nach der Sitzung einen Connect-Meetingraum betreten.
 
@@ -2298,7 +2415,7 @@ Freigabedatum: 20. Juni 2019
 
 **Automatische Kuration des Inhalts**
 
-Mit Soziales Lernen können von Teilnehmern gepostete Inhalte auf zwei Arten kuratiert werden: **Keine Kuration** und **Manuelle Kuration**. In dieser Version hat Adobe Learning Manager das Soziale Lernen verbessert, indem AI-fähige Funktionen zur automatischen Kuration bereitgestellt wurden. Sobald der Inhalt veröffentlicht wurde, wird der Inhalt analysiert, um festzustellen, ob der Inhalt zu den Kenntnissen gehört, für die er veröffentlicht wurde. Basierend auf dem Confidence-Ergebnis wird der Inhalt entweder live veröffentlicht oder zur manuellen Kuration gesendet. Weitere Informationen finden Sie unter *[**&#x200B; Automatische Kuration &#x200B;**](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
+Mit Soziales Lernen können von Teilnehmern gepostete Inhalte auf zwei Arten kuratiert werden: **Keine Kuration** und **Manuelle Kuration**. In dieser Version hat Adobe Learning Manager das Soziale Lernen verbessert, indem AI-fähige Funktionen zur automatischen Kuration bereitgestellt wurden. Sobald der Inhalt veröffentlicht wurde, wird der Inhalt analysiert, um festzustellen, ob der Inhalt zu den Kenntnissen gehört, für die er veröffentlicht wurde. Basierend auf dem Confidence-Ergebnis wird der Inhalt entweder live veröffentlicht oder zur manuellen Kuration gesendet. Weitere Informationen finden Sie unter *[** Automatische Kuration **](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
 
 **Zuordnen von Kenntnissen zu Kenntnisdomänen**
 
@@ -2348,10 +2465,10 @@ Freigabedatum: 30. Mai 2019
 * Laden Sie Lernprotokolle für gelöschte Benutzer herunter. Weitere Informationen finden Sie unter [***Teilnehmertranskripte***](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md).
 * Unterstützung für folgende Sprachen:
 
-   * Koreanisch
-   * Türkisch
-   * Niederländisch
-   * Polnisch
+  * Koreanisch
+  * Türkisch
+  * Niederländisch
+  * Polnisch
 
 **Bekannte Probleme**
 
@@ -2924,7 +3041,7 @@ Freigabedatum: 06. Dezember 2016.
 
 ### Verbesserungen {#enhancement}
 
-Als Teil dieses Updates stellt der Lern-Manager einen Endpunkt <!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) --> bereit, um Benutzer in einer Anwendung zu aktualisieren. Sie können auf diesen API-Endpunkt in der Administratorrolle zugreifen. Unter Verwendung **&#x200B;**&#x200B;Endpunkts können Sie die folgenden Informationen von Learning Manager-Benutzern aktualisieren:
+Als Teil dieses Updates stellt der Lern-Manager einen Endpunkt <!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) --> bereit, um Benutzer in einer Anwendung zu aktualisieren. Sie können auf diesen API-Endpunkt in der Administratorrolle zugreifen. Unter Verwendung **** Endpunkts können Sie die folgenden Informationen von Learning Manager-Benutzern aktualisieren:
 
 * Name
 * E-Mail
@@ -3434,7 +3551,7 @@ Das Exportieren von Registrierungsdaten schlug fehl, wenn einer der registrierte
 
 **E-Mail-Vorlagen**
 
-* Die Wort **partner,** die verwendet wurden, um externe Gruppen zu repräsentieren **&#x200B;**&#x200B;wurden **&#x200B;**&#x200B;aus dem Text und dem Titel der E-Mail-Vorlagen entfernt. Externe Gruppen werden nicht unbedingt Partner genannt.\
+* Die Wort **partner,** die verwendet wurden, um externe Gruppen zu repräsentieren **** wurden **** aus dem Text und dem Titel der E-Mail-Vorlagen entfernt. Externe Gruppen werden nicht unbedingt Partner genannt.\
   **Hinweis:** Diese aktualisierte Vorlage wird nicht angezeigt, wenn die Standardvorlage bereits geändert wurde. Um die aktualisierte Vorlage anzuzeigen, klicken Sie auf **Auf Original zurücksetzen** im Dialogfeld **Vorlagenvorschau**.
 
 * URL kann in der E-Mail, die von den Administratoren erhalten wird, nicht angeklickt werden, wenn E-Mail-Vorlagen **Profil erstellt (Selbstregistrierung)** und **Profil erstellt (Externe/Partner)** bearbeitet werden. Dieses Problem wurde nun behoben.
@@ -3821,8 +3938,8 @@ Freigabedatum: 9. Dezember 2015.
 * Das Problem, das sich auf URL-Links in E-Mail-Vorlagen bezieht, werden behoben.
 * Unterstützung für
 
-   * Publish an Learning Manager
-   * Support für schnellere Inhaltsaktualisierung für CP8-Version (CP803-Patch ist erforderlich)
+  * Publish an Learning Manager
+  * Support für schnellere Inhaltsaktualisierung für CP8-Version (CP803-Patch ist erforderlich)
 
 +++
 

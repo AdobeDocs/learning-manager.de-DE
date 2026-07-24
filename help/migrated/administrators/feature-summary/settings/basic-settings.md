@@ -3,10 +3,10 @@ description: Erfahren Sie mehr darüber, wie die Grundeinstellungen Ihnen dabei 
 jcr-language: en_us
 title: Grundlegende Einstellungen
 exl-id: b5cbe224-e3ee-4ac2-8d9b-95249044dfa6
-source-git-commit: cfc09c74da2cc236147ccf883185926ed495f1ed
+source-git-commit: 2495d33fc1595bd962ba07988123e3563d4c69a0
 workflow-type: tm+mt
-source-wordcount: '4494'
-ht-degree: 5%
+source-wordcount: '5914'
+ht-degree: 4%
 
 ---
 
@@ -106,8 +106,8 @@ Um Ihre Reaktionszeiten zu maximieren, empfiehlt es sich, automatisierte Erinner
 2. **Erinnerungsplan definieren**: Verwenden Sie im daraufhin angezeigten Fenster **Erinnerungseinstellungen** die Dropdown-Menüs und Eingabefelder, um die Erinnerung zu konfigurieren:
 
    a. **[!UICONTROL Sendezeitpunkt]**: Wählen Sie aus, ob die Erinnerung **[!UICONTROL Bei Kursabschluss]** oder **[!UICONTROL Nach Abschluss des Kurses]** gesendet wird.
-b. **[!UICONTROL Wiederholung]**: Wählen Sie die Häufigkeit der Erinnerung aus (z. B. &quot;Jede Woche&quot;).
-c. **[!UICONTROL Für]**: Geben Sie die Gesamtdauer (in Wochen) an, für die die Erinnerungen gesendet werden (z. B. 4 Wochen).
+   b. **[!UICONTROL Wiederholung]**: Wählen Sie die Häufigkeit der Erinnerung aus (z. B. &quot;Jede Woche&quot;).
+   c. **[!UICONTROL Für]**: Geben Sie die Gesamtdauer (in Wochen) an, für die die Erinnerungen gesendet werden (z. B. 4 Wochen).
 
 3. **[!UICONTROL Speichern Sie die Erinnerung]**: Klicken Sie auf das blaue Häkchen, um die neue Erinnerungskonfiguration zu speichern. Sie können diesen Vorgang wiederholen, um bei Bedarf weitere Erinnerungen hinzuzufügen.
 
@@ -139,7 +139,7 @@ Um sicherzustellen, dass Manager zeitnahes Feedback geben, müssen Sie automatis
 
 1. **[!UICONTROL Neue Erinnerung hinzufügen]**: Um eine neue Erinnerung zu erstellen, wählen Sie den Link **[!UICONTROL Neue Erinnerung hinzufügen]**.
 2. **[!UICONTROL Erinnerungsplan definieren]**: Wählen Sie im Bereich **[!UICONTROL Erinnerungseinstellungen]** die Dropdown-Menüs und Eingabefelder aus, um die Erinnerung zu konfigurieren:
-a. **[!UICONTROL Sendezeitpunkt]**: Wählen Sie diese Option, wenn die Erinnerung gesendet wird. Die Optionen sind: **[!UICONTROL Bei Kursabschluss]** und **[!UICONTROL Nach Kursabschluss]**.
+a. **[!UICONTROL Wann senden Sie]**: Wählen Sie diese Option, wenn die Erinnerung gesendet wird. Die Optionen sind: **[!UICONTROL Bei Kursabschluss]** und **[!UICONTROL Nach Kursabschluss]**.
 b. **[!UICONTROL Wiederholung]**: Wählen Sie die Häufigkeit der Erinnerung aus. Wenn die Wiederholung **[!UICONTROL Einmal]** ist, bedeutet dies, dass der Manager eine Benachrichtigung erhält, um Feedback zu geben. Die verfügbaren Optionen sind: Einmal, Jeden Tag, Jede Woche und Jeden Monat.
 3. Nachdem Sie den Zeitplan eingerichtet haben, wählen Sie das blaue Häkchen, um die Erinnerungskonfiguration zu speichern. Die Erinnerung wird in der Liste der vorhandenen Erinnerungen angezeigt.
 
@@ -238,6 +238,10 @@ Adobe Learning Manager verfügt über eine bestimmte Produktterminologie zum Def
 
 Weitere Informationen finden Sie unter Produktterminologie in Adobe Learning Manager .
 
+### Punktzahl
+
+Wenn diese Option aktiviert ist, können Autoren und Kursleiter die Anzahl der Kurskredite für jede Sitzung oder jedes Modul aufzeichnen. Credits stellen die lehrreiche Zeit dar, zu der einem Teilnehmer für den Abschluss der Aktivität eine Gutschrift gutgeschrieben wird. Kreditwerte werden in Teilnehmertranskripten, Lernberichten angezeigt und tragen zu den Berechnungen der Gesamtdauer für Lernpfade bei. Wenn Sie diese Einstellung deaktivieren, werden zuvor eingegebene Kreditwerte beibehalten und wiederhergestellt, wenn die Einstellung wieder aktiviert wird.
+
 ### Modulversions-Update
 
 Mit dieser Option können Administratoren den Inhalt eines Moduls aktualisieren, ohne den Fortschritt von Teilnehmern zu unterbrechen, die bereits für Kurse registriert sind, die dieses Modul enthalten. Dies stellt sicher, dass die Teilnehmer ihre Lernreise reibungslos fortsetzen können, während Autoren die Inhalte auf dem neuesten Stand halten können. Wenn die Option aktiviert ist, können Autoren eine neue Version eines Moduls (z. B. SCORM-, AICC- oder xAPI-Pakete) hochladen, um die vorhandene zu ersetzen.
@@ -260,6 +264,10 @@ Diese Option löscht Benutzer, wenn sie für eine bestimmte Dauer nicht auf Adob
 * Interne Benutzer, die für eine bestimmte Dauer inaktiv waren, werden automatisch gelöscht.
 * Benutzer werden vor dem Löschen benachrichtigt, sodass sie sich anmelden und das Entfernen verhindern können.
 * Damit der Zugriff wiederhergestellt werden kann, muss sich ein gelöschter Benutzer an den Kontoadministrator wenden.
+
+### Gelöschte Benutzer automatisch entfernen
+
+Benutzer, die sich für eine bestimmte Dauer im gelöschten Status befanden, automatisch und dauerhaft aus dem System entfernen. Nach der Bereinigung werden alle zugehörigen Benutzerdaten endgültig entfernt und können nicht wiederhergestellt werden.
 
 ### Katalogbeschriftungen anzeigen
 
@@ -395,6 +403,215 @@ Diese Funktion ist besonders für Unternehmen nützlich, die mehrere Schulungsar
 *Optimierter Checkout: Dadurch müssen die Teilnehmer für jedes Schulungselement weniger separate Käufe tätigen.
 * SKU-Verwaltung: Administratoren können SKUs für Kurse, Lernpfade und Zertifizierungen verwalten, um eine ordnungsgemäße Verfolgung und Berichterstellung zu gewährleisten.
 
+### Alternative Kurse/Pfade
+
+Wenn Teilnehmer einen Kurs/Pfad abschließen, kann ein anderer angegebener Satz von Kursen/Pfaden über einen anderen als abgeschlossen markiert werden. Dies ist nützlich, wenn Kurse äquivalente oder überlappende Inhalte abdecken. Zum Beispiel, wenn ein neuer Kurs eine ältere Version ersetzt oder wenn regionale Varianten derselben Schulung vorhanden sind. Teilnehmer werden nicht automatisch für Kurse/Pfade registriert, die als über eine Alternative abgeschlossen markiert sind, und erhalten nur Credits, Abzeichen und Punkte für den Kurs/Pfad, den sie tatsächlich abgeschlossen haben. Alternative Abschlüsse werden im Teilnehmertranskript angezeigt und auf alle Lernpfade oder Zertifizierungen angerechnet, die den alternativen Kurs enthalten.
+
+**Rückwirkende Abschlüsse aktivieren (unumkehrbar)**
+Wenn die Teilnehmer einen Kurs/Pfad früher abgeschlossen haben und später unter &quot;Alternative Kurse/Pfade&quot; ein anderer Kurs/Pfad hinzugefügt wird, werden diese auch als abgeschlossen gekennzeichnet, und zwar über einen anderen Kurs/Pfad für die Teilnehmer. Dies gilt rückwirkend für alle abgeschlossenen Vereinbarungen in der Vergangenheit - nicht nur für Registrierungen in der Zukunft. Verwenden Sie diese Option, wenn historische Abschlüsse auf neu hinzugefügte alternative Kurse angerechnet werden sollen. Wenn diese Option aktiviert wurde, kann sie nicht mehr deaktiviert werden.
+
+**Rückwirkende Unvollständigkeiten aktivieren (unumkehrbar)**
+Wenn ein Kurs/Pfad aus &quot;Alternative Kurse/Pfade&quot; entfernt wird, werden Teilnehmer, die zuvor als abgeschlossen über alternative Kurse/Pfade markiert wurden, als unvollständig markiert. Dies wirkt sich auf alle Teilnehmer aus, deren Abschluss ausschließlich auf dem alternativen Teilnehmer basierte, nicht auf Teilnehmer, die den Kurs direkt abgeschlossen haben. Ihr Transkript spiegelt den aktualisierten Status &quot;unvollständig&quot; wider. Wenn diese Option aktiviert wurde, kann sie nicht mehr deaktiviert werden.
+
+### Sichtbarkeit der Leistungsübersicht
+
+Wenn diese Option aktiviert ist, können Autoren die Gradebook-Sichtbarkeit auf Kursebene steuern, sodass Teilnehmer ihre gewichteten Modulpunktzahlen, die aggregierten Kurswerte und den Status &quot;Bestanden/Nicht bestanden&quot; direkt im Kurs-Player anzeigen können. Wenn diese Einstellung auf Kontoebene deaktiviert ist, können die Teilnehmer das Schulungsbuch in keinem Kurs sehen, unabhängig davon, wie einzelne Kurse konfiguriert sind. Notenbuchergebnisse und Berechnungen werden weiterhin im Hintergrund für Administratorberichterstattungszwecke ausgeführt, auch wenn die Teilnehmersichtbarkeit deaktiviert ist.
+
+**Gradebook-Ansicht für Teilnehmer aktivieren**
+
+Aktiviert die Berechtigung auf Kontoebene, mit der Autoren das Schulungsbuch für jeden Kurs ein- oder ausblenden können. Nach der Aktivierung wird Autoren die Option &quot;Schulungsbuch für Teilnehmer anzeigen&quot; im Kurseditor angezeigt. Teilnehmer sehen im Kurs-Player eine Registerkarte mit dem Kursbuch für jeden Kurs, für den der Autor sie aktiviert hat. Wenn Sie diese Einstellung auf Kontoebene deaktivieren, werden alle Konfigurationen auf Kursebene überschrieben. Die Teilnehmer sehen das Schulungsbuch in keinem Kurs, bis die Einstellung wieder aktiviert wird.
+
+### Externes Lernprogramm
+
+Wenn diese Option aktiviert ist, können Teilnehmer Lernaktivitäten, die außerhalb von Adobe Learning Manager abgeschlossen wurden, z. B. Zertifizierungen, Workshops, Konferenzen und externe Kurse, direkt über ihr Teilnehmer-Dashboard senden und verfolgen. Einreichungen werden vom direkten Manager des Teilnehmers überprüft und genehmigt, bevor sie aufgezeichnet werden. Nach der Genehmigung wird die externe Lernaktivität zum Teilnehmertranskript hinzugefügt und auf den gesamten Lerndatensatz des Teilnehmers angerechnet. Administratoren können konfigurieren, welche Felder Teilnehmer beim Senden einer externen Lernaktivität ausfüllen müssen, einschließlich benutzerdefinierter Felder für Ihr Unternehmen.
+
+**Aktivieren**
+
+Aktiviert die Funktion &quot;Externes Lernen&quot; für alle Teilnehmer im Konto. Nach der Aktivierung ist ein Einreichungsformular im Teilnehmer-Dashboard verfügbar. Teilnehmer können Details wie den Namen der Schulung, die Dauer, das Datum, die Punktzahl und den Abschlussnachweis eingeben. Die Einreichung wird zur Überprüfung und Genehmigung an ihren Manager gesendet. Genehmigte Einreichungen werden im Teilnehmertranskript und in Administratorberichten angezeigt. Abgelehnte Einreichungen werden nicht im Transkript aufgezeichnet.
+
+>[!NOTE]
+>
+>Wenn Sie diese Einstellung aktivieren, werden dem Teilnehmertranskript für externe Lernobjekte neue Spalten hinzugefügt. Wenn Ihr Unternehmen automatisierte Workflows oder Integrationen verwendet, die Teilnehmertranskriptdaten verarbeiten, überprüfen Sie diese, bevor Sie sie aktivieren, um die Kompatibilität mit der aktualisierten Transkriptstruktur sicherzustellen.
+
+Externes Lernen ist eine Art von Lernaktivität für plattformunabhängige Schulungen. Die Teilnehmer verwenden sie, um Schulungen zu protokollieren, die es in Adobe Learning Manager nicht gibt, z. B. eine Zertifizierungsprüfung, eine Fachkonferenz, eine Mentoring-Sitzung oder einen akademischen Kurs.
+
+1. Ein **Teilnehmer** füllt ein Einreichungsformular mit Details zu seiner externen Schulung aus und lädt optional einen Abschlussnachweis hoch.
+
+2. Der **Manager** des Teilnehmers erhält eine Benachrichtigung, um die Übermittlung zu überprüfen, und genehmigt oder lehnt sie mit einem optionalen Kommentar ab.
+
+3. Nach der Genehmigung wird die Übermittlung dem **Teilnehmertranskript** hinzugefügt, in dem Administratoren Berichte erstellen und anzeigen können.
+
+Dieser Workflow ermöglicht es Unternehmen, obligatorische plattforminterne Compliance-Schulungen mit dem Ad-hoc-selbstgesteuerten Lernen zu kombinieren, das ihre Mitarbeiter in der realen Welt absolvieren, und beide in einem einzigen System zu verfolgen.
+
+Externes Lernen ist eine konfigurierbare Funktion. Administratoren steuern, ob es für Teilnehmer verfügbar ist, welche Felder im Einreichungsformular angezeigt werden und ob jedes Feld erforderlich oder optional ist. Benutzerdefinierte Felder können hinzugefügt werden, um organisationsspezifische Informationen wie einen Schulungstyp oder eine Zertifikatreferenznummer zu erfassen.
+
+### Lebenszyklus des Übermittlungsstatus
+
+Jeder externe Lernobjekteintrag durchläuft einen definierten Satz von Status:
+
+| **Status** | **Bedeutung** |
+|-------------------|--------------------------------------------------------------------------------|
+| Warten auf Genehmigung | Der Teilnehmer hat die Anforderung eingereicht. die Überprüfung durch den Manager steht aus. |
+| Genehmigt | Der Manager hat die Einreichung genehmigt; wird im Teilnehmertranskript angezeigt. |
+| Abgelehnt | Der Manager hat die Einreichung abgelehnt. kann der Teilnehmer eine neue Anforderung senden. |
+
+Ein Teilnehmer kann eine Übermittlung bearbeiten, während sie sich im Status &quot;**Genehmigung erwartet**&quot; befindet. Sobald ein Manager eine Aktion ausführt, kann die Übermittlung nicht mehr bearbeitet werden. Wenn eine Einreichung abgelehnt wird, sendet der Teilnehmer eine neue externe Lernanforderung, anstatt die abgelehnte zu bearbeiten.
+
+### Verfügbarkeit und Transparenz der Funktionen
+
+Administratoren steuern die Verfügbarkeit von externem Lernen über eine einzige Einstellung auf Kontoebene:
+
+**Wenn externes Lernen aktiviert ist:**
+
+* Die Teilnehmer sehen die Registerkarte **Externes Lernen** in der Navigation und können neue Anforderungen senden.
+* Manager sehen die Registerkarte **Externes Lernen** in ihrem Team-Dashboard und können Einreichungen überprüfen.
+* Admin- und Teilnehmertranskripte enthalten externe Lerndaten für genehmigte Einreichungen
+
+**Wenn externes Lernen deaktiviert ist:**
+
+* Teilnehmer, die keine früheren Einreichungen haben, sehen keine externe Lernoberfläche
+
+* Teilnehmer mit früheren Einreichungen können weiterhin ihren Verlauf und ihren Einreichungsstatus anzeigen, aber keine neuen Einreichungen erstellen.
+
+* Manager behalten den Zugriff auf die Registerkarte &quot;Externes Lernen&quot;, wenn ihr Team frühere Einreichungen hat. Andernfalls wird die Registerkarte entfernt.
+
+* Vorhandene Transkriptdaten für genehmigte Einreichungen sind nicht betroffen.
+
+#### Hauptfelder
+
+Diese Felder sind standardmäßig für alle Konten verfügbar. Administratoren können auswählen, welche Felder auf dem Formular für die Einreichung des Teilnehmers angezeigt werden sollen, und jedes Feld als erforderlich oder optional markieren.
+
+| **Feld** | **Typ** | **Hinweise** |
+| --- | --- | --- |
+| Titel | Text | Der Name des externen Lernprogramms, Kurses oder der Zertifizierung. |
+| Beschreibung / Hinweise | Text | Der Teilnehmer kann Details zum Schulungsanbieter oder zum Kontext hinzufügen. |
+| Datum/Datumsbereich | Datum/Uhrzeit | Start- und/oder Enddatum Unterstützt Stunden, Minuten, Woche, Monat, Tage oder Jahr. |
+| Dauer | Dauer (Stunden) | Zeit, die für die externe Schulung aufgewendet wurde. |
+| Punktzahl | Zahl | Die Punktzahl, die der Teilnehmer gegebenenfalls erhalten hat. |
+| Anhänge | Datei-Upload | Abschlussnachweis. Der Teilnehmer kann ein Zertifikat, ein Transkript oder eine andere Dokumentation einreichen. |
+
+#### Benutzerdefinierte Felder
+
+Administratoren können bis zu 10 benutzerdefinierte Felder hinzufügen, um zusätzliche organisationsspezifische Informationen zu erfassen. Benutzerdefinierte Felder unterstützen die folgenden Typen:
+
+| **Typ** | **Beschreibung** |
+|------------|------------------------------------------------------------------|
+| Text | Freiform-Texteingabe. |
+| Zahl | Numerische Eingabe. |
+| Kontrollkästchen | Ein Schalter für Ja/Nein. |
+| Dropdown | Einzelne Auswahl aus einer vom Administrator definierten Liste von Optionen. |
+
+### Anforderungen an die Abschlussnachweis-Datei
+
+* **Unterstützte Dateitypen:** PDF, DOC, DOCX, PNG, JPEG JPG
+
+* **Maximale Dateigröße:** 50 MB pro Anlage
+
+#### Das steuern Administratoren für externes Lernen
+
+Externes Lernen ist standardmäßig **deaktiviert** für alle Konten. Sie müssen sie explizit aktivieren, bevor Teilnehmer Anfragen senden können oder Manager die Registerkarte &quot;Überprüfung&quot; sehen können.
+
+Wenn Sie externes Lernen aktivieren:
+
+* Teilnehmer erhalten Zugriff auf die Registerkarte **Externes Lernen** und können neue Anforderungen senden.
+
+* Manager erhalten Zugriff auf die Registerkarte **Externes Lernen** zur Überprüfung.
+
+* Admin- und Teilnehmertranskripte erhalten die Berichtsspalten für genehmigte externe Lernaktivitäten. Sobald externes Lernen aktiviert ist, kann dies Auswirkungen auf Teilnehmertranskriptberichte haben. Wenn Ihr Unternehmen Teilnehmertranskriptdaten zur Automatisierung verwendet, überprüfen und aktualisieren Sie alle abhängigen Workflows, um die neuen externen Lernfelder und -datensätze zu berücksichtigen.
+
+Wenn Sie externes Lernen deaktivieren, nachdem es verwendet wurde:
+
+* Neue Teilnehmerübermittlungen sind blockiert
+
+* Teilnehmer mit gesendeter, ausstehender Genehmigung können bearbeitet werden.
+
+* Manager mit früheren Einreichungen können weiterhin auf ausstehende Anfragen reagieren.
+
+* Transkriptdaten für zuvor genehmigte Einreichungen bleiben unverändert
+
+* Sie können die Funktion jederzeit wieder aktivieren. Wenn die Funktion deaktiviert ist, gehen keine Daten verloren.
+
+#### Externes Lernen aktivieren oder deaktivieren
+
+**Vorsicht:** Durch Aktivieren des externen Lernens werden dem Teilnehmertranskript für Administratoren neue Spalten hinzugefügt: **Externer Lernname**, **Abschlusskommentar** und alle benutzerdefinierten Felder, die für Ihr Konto konfiguriert sind. Benutzerdefinierte Feldspalten werden am Ende des Transkripts angezeigt.
+
+Wenn Ihr Unternehmen das Teilnehmertranskript in nachgeschalteten Reporting-Pipelines oder automatisierten Workflows verwendet, aktualisieren Sie diese Systeme, um die neuen Spalten zu verarbeiten, bevor Sie diese Funktion aktivieren.
+
+1. Melden Sie sich bei Adobe Learning Manager als Administrator an.
+
+2. Wählen Sie im linken Navigationsbereich **Einstellungen**.
+
+3. Wählen Sie **Allgemein** aus.
+
+4. Scrollen Sie zum Abschnitt **Externes Lernen**.
+
+5. Aktivieren Sie das Kontrollkästchen **Externes Lernen aktivieren**, um die Funktion zu aktivieren.
+
+6. Wählen Sie **Speichern**.
+
+Teilnehmer können jetzt externe Lernanforderungen senden. Ihre Manager erhalten plattforminterne Benachrichtigungen, wenn Einreichungen erstellt werden.
+
+Um die Funktion zu deaktivieren, führen Sie dieselben Schritte aus und deaktivieren Sie die Option.
+
+#### Externes Lernformular konfigurieren
+
+Nachdem Sie die Funktion aktiviert haben, konfigurieren Sie, welche Felder im Formular für die Teilnehmerübermittlung angezeigt werden.
+
+1. Öffnen Sie in **Einstellungen > Allgemein** den Abschnitt **Externes Lernen**.
+
+2. Überprüfen Sie unter **Formularkonfiguration** die Liste der Standardfelder.
+
+3. Aktivieren Sie das Kontrollkästchen neben den einzelnen Feldern, um sie im Teilnehmerformular ein- oder auszublenden.
+
+4. Wählen Sie für jedes sichtbare Feld **Obligatorisch**, um zu steuern, ob Teilnehmer es vor dem Senden abschließen müssen.
+
+5. Wählen Sie **Speichern**.
+
+**Hinweis:** Das Feld **Titel** ist immer erforderlich und kann nicht ausgeblendet oder optional gemacht werden.
+
+Das Formular für die Einreichung der Teilnehmer spiegelt sofort Ihre Änderungen wider. Bestehende Übermittlungen sind von Änderungen der Formularkonfiguration nicht betroffen.
+
+#### Benutzerdefinierte Felder hinzufügen und verwalten
+
+Sie können bis zu 10 benutzerdefinierte Felder hinzufügen, um Informationen zu Ihrer Organisation zu erfassen.
+
+**Benutzerdefiniertes Feld hinzufügen**
+
+1. Öffnen Sie in **Einstellungen > Allgemein** den Abschnitt **Externes Lernen**.
+
+2. Erweitern Sie **Benutzerdefinierte Felder**.
+
+3. Wählen Sie **Neues Feld**.
+
+4. Wählen Sie einen **Feldtyp** aus: **Text**, **Zahl**, **Kontrollkästchen** oder **Dropdown**.
+
+   1. Wenn Sie &quot;**Dropdown**&quot; auswählen, geben Sie die Liste der Werte ein, aus denen die Teilnehmer wählen können. Sie können bis zu 100 Dropdown-Werte hinzufügen.
+
+   2. Geben Sie den Namen des Felds und optional seine Beschreibung ein.
+
+5. Aktivieren oder deaktivieren Sie die Option **Obligatorisch** für die neuen benutzerdefinierten Felder.
+
+6. Wählen Sie **Speichern**.
+
+Das neue Feld wird sofort auf dem Formular für die Einreichung von Teilnehmern angezeigt.
+
+**Benutzerdefiniertes Feld bearbeiten**
+
+1. Öffnen Sie in **Einstellungen > Allgemein** den Abschnitt **Externes Lernen**.
+
+2. Wählen Sie neben dem benutzerdefinierten Feld, das Sie bearbeiten möchten, **Bearbeiten**.
+
+3. Aktualisieren Sie den Feldnamen oder fügen Sie Werte für Dropdownfelder hinzu bzw. bearbeiten oder entfernen Sie sie.
+
+4. Wählen Sie **Speichern**.
+
+Die Bearbeitung eines Feldnamens oder einer Dropdown-Liste ändert keine Daten, die bereits in vorhandenen Einreichungen erfasst wurden. Nur bei neuen Einreichungen werden die aktualisierten Beschriftungen und Optionen verwendet.
+
+**WICHTIG**
+
+Nach dem Hinzufügen eines benutzerdefinierten Felds können Sie es nicht mehr löschen. Sie können es nur bearbeiten. Wenn ein Feld nicht auf dem Formular eines Teilnehmers angezeigt werden soll, deaktivieren Sie das Feld.
+
+
 ### Playereinstellungen
 
 Mit dieser Option können Autoren den Fluidic Player für verschiedene Kurse auf Kursebene anpassen. Autoren können konfigurieren, wie Schulungsinhalte für Teilnehmer im Player angezeigt werden. Dazu gehören Einstellungen in Bezug auf die Sprache des Inhalts, die Einstellungen der Benutzeroberfläche und die Wiedergabeoptionen.
@@ -408,7 +625,7 @@ Manager können den Kursabschluss wie folgt kennzeichnen:
 * Kursseite: Auf der Kursseite:
 a.    Wählen Sie die Registerkarte **[!UICONTROL Teilnehmer]** im linken Bereich aus.
 b.    Wählen Sie den Teilnehmer aus, dessen Anwesenheit Sie markieren möchten.
-c.    Wählen Sie **[!UICONTROL Aktionen]** > **[!UICONTROL Abschluss markieren]**.
+c. Wählen Sie **[!UICONTROL Aktionen]** > **[!UICONTROL Abschluss markieren]**.
 
 **Zusätzliche Hinweise:**
 
