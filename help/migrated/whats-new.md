@@ -3,9 +3,9 @@ description: Erfahren Sie mehr über die neuen Funktionen und Verbesserungen in 
 jcr-language: en_us
 title: Neue Funktionen in Adobe Learning Manager Version August 2026
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: e476ca4736098ced4e21d0d713628b9682aab3da
+source-git-commit: 798dfca0c4d0b33cf00507535ca5313dbaf82ad1
 workflow-type: tm+mt
-source-wordcount: '2839'
+source-wordcount: '2838'
 ht-degree: 0%
 
 ---
@@ -161,7 +161,7 @@ Wichtigste Funktionen:
 * Maximal 10 personalisierte Lernpfade auf der Teilnehmer-Startseite
 * Abgeschlossene Pfade können für Kollegen freigegeben werden
 
-Weitere Informationen finden Sie unter [AI-Assistent für Teilnehmer](/help/migrated/learners/feature-summary/learning-path-agent.md).
+Weitere Informationen finden Sie unter [Lernpfad-Agent](/help/migrated/learners/feature-summary/learning-path-agent.md).
 
 ### Agent für Einblicke
 
