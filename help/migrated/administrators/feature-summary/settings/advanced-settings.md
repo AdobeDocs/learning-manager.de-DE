@@ -3,9 +3,9 @@ description: Weitere Informationen zur Konfiguration erweiterter Einstellungen i
 jcr-language: en_us
 title: Erweiterte Einstellungen in Adobe Learning Manager
 exl-id: 7047c89f-5f1c-4e0a-a908-20ef0eb9667d
-source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
+source-git-commit: 29302e039dfd8b8cc0c5fc20b46dc2403ce6c45b
 workflow-type: tm+mt
-source-wordcount: '2357'
+source-wordcount: '2391'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,10 @@ Ordner für private Inhalte unterstützen bis zu drei Verschachtelungsebenen:
 
 Diese Struktur gibt Organisationen die Flexibilität, die Organisation realer Inhalte nach Themenbereich, Bereitstellungstyp, Zielgruppe oder Team zu spiegeln, anstatt Tausende von Dateien in einer flachen Liste zu verwalten.
 
-Nur Administratoren können Ordner auf jeder Ebene erstellen, bearbeiten oder löschen. Autoren und benutzerdefinierte Benutzer interagieren mit der Hierarchie, können sie jedoch nicht ändern.
+>[!NOTE]
+>
+>Nur Administratoren können Ordner auf jeder Ebene erstellen, bearbeiten oder löschen. Autoren und benutzerdefinierte Benutzer interagieren mit der Hierarchie, können sie jedoch nicht ändern. Benutzerdefinierte Administratoren mit Zugriff auf einen beliebigen Stammordner können Ordner unter diesem Stammordner erstellen, bearbeiten oder löschen.
+
 
 ### Regeln für die Ordnerbenennung
 
@@ -71,7 +74,7 @@ Ordnernamen müssen auf derselben Ebene unter demselben übergeordneten Ordner e
 
 ### Ordnerpfade anzeigen
 
-In der Inhaltsbibliothek wird der vollständige Ordnerpfad jeder Inhaltsdatei angezeigt. Beispiel: **Schulungsprogramme** > **Onboarding** > **SCORM-Assets**. Dieser Pfad zeigt den vollständigen Speicherort des Inhalts an.
+In der Inhaltsbibliothek wird der vollständige Ordnerpfad jeder Inhaltsdatei angezeigt. Beispiel: **Schulungsprogramme** / **Onboarding** / **SCORM Assets**. Dieser Pfad zeigt den vollständigen Speicherort des Inhalts an.
 
 Wenn sich eine Datei in mehreren Ordnern befindet, werden alle Pfade durch Kommas getrennt angezeigt. Wenn ein Pfad lang ist, wird er am Anfang durch Auslassungspunkte (...) abgeschnitten, und der Name des tiefsten Ordners wird immer angezeigt.
 
@@ -140,7 +143,7 @@ mit dreistufiger Struktur:
 
 * Ebene 3: Spezifische Module oder Assets pro Region (PDF, lokale Richtlinien, Bewertungsdateien)
 
-Regionale Autorenteams erhalten nur Zugriff auf ihre Zweigstelle der Stufe 1 oder 2. Sie können nur die Assets finden, aktualisieren und wiederverwenden, die für ihr jeweiliges Land relevant sind, ohne den Inhalt einer anderen Region sehen oder versehentlich ändern zu müssen.
+Bei regionalen Autoren, die eine benutzerdefinierte Rolle sind, kann während der Erstellung einer benutzerdefinierten Rolle nur der Ordner der Ebene 1 ausgewählt werden. Ordnerauswahl auf Ebene 2 ist keine Option. Sie können nur die Assets finden, aktualisieren und wiederverwenden, die für ihr jeweiliges Land relevant sind, ohne den Inhalt einer anderen Region sehen oder versehentlich ändern zu müssen.
 
 **Anwendungsfall 2 - Onboarding-Programm im großen Maßstab mit vielen Rollen**
 
@@ -212,7 +215,7 @@ Als Administrator in Adobe Learning Manager erstellen und verwalten Sie die Hier
 Beachten Sie vor dem Löschen die folgenden Regeln:
 
 * Sie können einen leeren Ordner auf jeder beliebigen Ebene löschen.
-* Sie können einen Ordner nicht löschen, wenn er Inhalte enthält, die nicht mit einem anderen Ordner verknüpft sind. Verschieben Sie diesen Inhalt zuerst in einen anderen Ordner.
+* Es können nur leere Ordner gelöscht werden. Ordner, die Inhalte enthalten, können nicht gelöscht werden, unabhängig davon, ob der Inhalt mit anderen Ordnern verknüpft ist oder nicht.
 * Wenn Sie einen übergeordneten Ordner löschen, werden alle Unterordner gelöscht. Wenn Sie einen übergeordneten Ordner auswählen, werden automatisch alle untergeordneten Ordner ausgewählt.
 
 #### Übergeordneten Ordner löschen

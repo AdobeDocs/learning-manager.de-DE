@@ -3,9 +3,9 @@ description: Erfahren Sie, wie Sie Inhalt zum Selbststudium erstellen können, d
 jcr-language: en_us
 title: Inhaltsbibliothek
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
+source-git-commit: 29302e039dfd8b8cc0c5fc20b46dc2403ce6c45b
 workflow-type: tm+mt
-source-wordcount: '5992'
+source-wordcount: '6048'
 ht-degree: 33%
 
 ---
@@ -226,7 +226,7 @@ Die Inhaltsbibliothek verwaltet auch die Versionierung Ihrer hochgeladenen Inhal
 
    Die Untertitel werden dann im Fluidic Player angezeigt. Die Beschriftungen entsprechen auch den [WCAG2.0-Standards](https://www.w3.org/TR/WCAG20/).
 
-   Wenn Sie der Bibliothek einen Videoinhalt hinzufügen, können Sie auch die VTT-Datei hinzufügen, bei der **&#x200B;**&#x200B;eine gültige Datei sein muss.
+   Wenn Sie der Bibliothek einen Videoinhalt hinzufügen, können Sie auch die VTT-Datei hinzufügen, bei der **** eine gültige Datei sein muss.
 
    ![](assets/webvtt.png)
 
@@ -444,7 +444,7 @@ Wenn Sie neue Inhalte hochladen, wählen Sie während des Upload-Vorgangs den Or
 4. Ziehen Sie unter **Inhaltsdatei hinzufügen** die Inhaltsdatei per Drag &amp; Drop oder wählen Sie das Feld aus, das Sie durchsuchen und hochladen möchten.
    ![](assets/cl2.png)
 
-5. Wählen Sie unter **Zu Ordner hinzufügen** **Ordner durchsuchen** aus und navigieren Sie zu dem Ordner, in dem Sie den Inhalt speichern möchten. Wählen Sie den zu bestätigenden Ordner aus.
+5. Durchsuchen Sie unter **Zu Ordner hinzufügen** entweder den Ordner oder durchsuchen Sie den Ordner im Suchfeld.
    ![](assets/cl3.png)
 
 6. Wählen Sie **Hinzufügen** aus.
@@ -461,7 +461,7 @@ Wenn Sie neue Inhalte hochladen, wählen Sie während des Upload-Vorgangs den Or
 
 ## Ordnerpfade in der Inhaltsbibliothek anzeigen
 
-In der **Inhaltsbibliothek** zeigt jede Inhaltsdatei ihren vollständigen Ordnerpfad an, z. B. **Verkaufsschulung** > **Module zum Selbststudium** > **PDF von Assets**. Dieser Pfad gibt an, wo genau sich die Datei in der Hierarchie befindet.
+In der **Inhaltsbibliothek** zeigt jede Inhaltsdatei ihren vollständigen Ordnerpfad an, z. B. **Verkaufsschulung** / **Module zum Selbststudium** / **PDF von Assets**. Dieser Pfad gibt an, wo genau sich die Datei in der Hierarchie befindet.
 
 * Wenn sich eine Datei in mehreren Ordnern befindet, werden alle Pfade durch Kommas getrennt angezeigt.
 
@@ -490,16 +490,17 @@ Mit dem Filter **Ordner** in der Inhaltsbibliothek können Sie die Liste so eing
 
 ## Inhalt in Ordner verschieben {#movecontenttofolder}
 
-Durch Verschieben von Inhalt wird der Inhalt aus dem aktuellen Ordner entfernt und im Zielordner platziert.
+Durch Verschieben von Inhalt wird der Inhalt aus dem aktuellen Ordner entfernt und im Zielordner platziert. Sie können im Dialogfeld mehrere private Ordner auswählen, um Inhalte zu verschieben. Sie können jedoch private und öffentliche Ordner nicht gleichzeitig auswählen. Sie können entweder mehrere private Ordner oder einen einzelnen öffentlichen Ordner auswählen.
 
 1. Aktivieren Sie in der **Inhaltsbibliothek** das Kontrollkästchen neben jeder Inhaltsdatei, die Sie verschieben möchten.
 2. Wählen Sie **Aktionen** > **Inhalt organisieren** > **Inhalt in Ordner verschieben**. Der Bereich &quot;**Inhalt in Ordner verschieben**&quot; wird geöffnet.
 3. Wählen Sie den Zielordner aus, in den Sie den Inhalt verschieben möchten.
 4. Wählen Sie **Inhalt verschieben**. Die Inhaltsbibliothek wird aktualisiert und zeigt den neuen Ordnerpfad an.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Sie können Inhalte nicht aus einem privaten Ordner in den öffentlichen Ordner oder aus dem öffentlichen Ordner in einen privaten Ordner verschieben.
+>Sie können Inhalte aus einem öffentlichen Ordner in einen privaten Ordner verschieben und umgekehrt. Sie können Inhalte jedoch nicht in öffentliche und private Ordner in derselben Aktion verschieben. Wenn Sie einen öffentlichen Ordner auswählen, können Sie keine privaten Ordner auswählen und umgekehrt.
+
 
 
 <!--
