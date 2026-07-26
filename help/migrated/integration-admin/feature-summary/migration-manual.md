@@ -3,9 +3,9 @@ description: Referenzhandbuch für Integrationsadministratoren zum Migrieren ein
 jcr-language: en_us
 title: Migrationshandbuch
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: 92789c5c943c1b4de68bf70ce9781e9f7832a9df
+source-git-commit: eb8ce39432962f22fbeb299bebad9db39c2e1eaf
 workflow-type: tm+mt
-source-wordcount: '9158'
+source-wordcount: '9051'
 ht-degree: 36%
 
 ---
@@ -1269,17 +1269,6 @@ Adobe Learning Manager validiert jede Zeile in course_module_user_group.csv, bev
 Wenn Sie Ihre Lerninhalte von einer anderen Plattform in Adobe Learning Manager migrieren und Ihre bestehende Ordnerorganisation beibehalten möchten, können Sie CSV-Dateien verwenden, um eine hierarchische Ordnerstruktur zu erstellen und Ihre Inhaltsdateien den entsprechenden Ordnern zuzuordnen.
 
 Diese Migration wird in der Regel im Rahmen einer umfassenderen Plattformmigration durchgeführt, nachdem Ihre Benutzer, Kurse, Module und Inhaltsdateien bereits in Adobe Learning Manager importiert wurden. Durch diesen Migrationsschritt werden die Inhalte in der Ordnerstruktur im Quellsystem neu organisiert.
-
-### Voraussetzungen
-
-Bevor Sie mit der Migration von Inhaltsordnern beginnen, bestätigen Sie Folgendes:
-
-| Voraussetzung | Warum es wichtig ist |
-| --- | --- |
-| Die Funktion Hierarchische Inhaltsordner ist für Ihr Konto aktiviert. | Die Migration schlägt fehl, wenn diese Funktion nicht aktiv ist. Wenden Sie sich an Adobe, wenn Sie sich nicht sicher sind. |
-| Im Migrations-Tool wurde ein Migrationsprojekt erstellt. | Alle CSV-Dateien müssen unter einem Migrationsprojekt ausgeführt werden, um die Unterstützung zu verfolgen und erneut auszuführen. |
-| Benutzer, Kurse, Module und Inhaltsdateien wurden bereits migriert (Phasen 1-4 Ihrer Migration) | Die Ordnermigration erfolgt in Phase 5. Sie organisiert Inhalte, die bereits in Adobe Learning Manager vorhanden sein müssen. |
-| Ihr Administratorkonto verfügt über die Berechtigung zur Ausführung der Migration. | Erforderlich, um Sprints zur Migration auszulösen. |
 
 ### Zweck dieser Migration
 
