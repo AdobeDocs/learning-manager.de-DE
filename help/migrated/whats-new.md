@@ -3,9 +3,9 @@ description: Erfahren Sie mehr über die neuen Funktionen und Verbesserungen in 
 jcr-language: en_us
 title: Neue Funktionen in Adobe Learning Manager Version August 2026
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: 798dfca0c4d0b33cf00507535ca5313dbaf82ad1
+source-git-commit: 92789c5c943c1b4de68bf70ce9781e9f7832a9df
 workflow-type: tm+mt
-source-wordcount: '2838'
+source-wordcount: '2889'
 ht-degree: 0%
 
 ---
@@ -88,6 +88,8 @@ Wichtigste Funktionen:
 * Ordnererlebnis bei der Auswahl von Modulen bei der Kurserstellung
 
 Weitere Informationen zu Funktionen auf Administratorebene finden Sie unter [Ordner für hierarchische Inhalte](/help/migrated/administrators/feature-summary/settings/advanced-settings.md#content-folder). Weitere Informationen zu Funktionen auf Autorenebene finden Sie unter [Ordner für hierarchische Inhalte](/help/migrated/authors/feature-summary/content-library.md#add-content-to-a-folder).
+
+Wenn Sie Ihre Lerninhalte von einer anderen Plattform in Adobe Learning Manager migrieren und Ihre bestehende Ordnerorganisation beibehalten möchten, können Sie CSV-Dateien verwenden, um eine hierarchische Ordnerstruktur zu erstellen und Ihre Inhaltsdateien den entsprechenden Ordnern zuzuordnen. Weitere Informationen zur Migration in [Hierarchie der Inhaltsordner migrieren](/help/migrated/integration-admin/feature-summary/migration-manual.md#migratecontentfolderhierarchy)
 
 ## Live-Hub
 
