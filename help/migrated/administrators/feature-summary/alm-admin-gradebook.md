@@ -2,9 +2,9 @@
 description: Alles über das Aktivieren des Gradebooks und dessen Sichtbarkeit für Autoren und Teilnehmer
 jcr-language: en_us
 title: Schulungsbuch für Administratoren
-source-git-commit: c6ad5527fa5156d1a681fa0f21fb259ac3ebf782
+source-git-commit: 588cb5209168b605405a4b3d6949006344b5468b
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1134'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,12 @@ Bevor Autoren den Teilnehmern in einem Kurs das Schulungsbuch anzeigen können, 
 
 Die Einstellung **Gradebook Visibility** in **Einstellungen** > **Allgemein** bestimmt, ob Autoren das Gradebook Teilnehmern auf Kursebene zur Verfügung stellen dürfen.
 
+Weitere Informationen finden Sie unter [Gradebook Visibility](/help/migrated/administrators/feature-summary/settings/basic-settings.md#gradebookvisibility).
+
 | Festlegen des Status | Effekt |
 | --- | --- |
 | Aktiviert | Autoren können die Sichtbarkeit von Schulungsunterlagen pro Kurs mithilfe der Option **Schulungsbuch für Teilnehmer anzeigen** im Kurseditor steuern. Teilnehmer sehen die Registerkarte **Gradebook** in Kursen, in denen der Autor sie aktiviert hat. |
 | Deaktiviert | Die Teilnehmer können das Schulungsbuch in keinem Kurs sehen. Wenn sie deaktiviert ist, verfügt die Kurskonfiguration nicht über die Einstellung, um den Teilnehmern das Schulungsbuch anzuzeigen. |
-
 
 Dies bedeutet, dass die Einstellung auf Kontoebene und die Einstellung auf Kursebene zusammenwirken. Beide müssen aktiviert sein, damit ein Teilnehmer das Schulungsbuch sehen kann.
 
