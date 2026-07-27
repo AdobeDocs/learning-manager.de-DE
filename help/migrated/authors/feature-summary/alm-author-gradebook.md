@@ -2,7 +2,7 @@
 description: Richten Sie die gewichtete Punktzahl für Teilnehmer im Schulungsbuch ein, damit der Kursabschluss an das Erreichen eines Mindestpunktzahlschwellenwerts gebunden werden kann.
 jcr-language: en_us
 title: Schulungsmaterial für Autoren
-source-git-commit: d92f2c03d0b5520afcab0a6843819ddd527a6bd1
+source-git-commit: 37db436b0f108423af185ebba377d8f06c7b7398
 workflow-type: tm+mt
 source-wordcount: '782'
 ht-degree: 0%
