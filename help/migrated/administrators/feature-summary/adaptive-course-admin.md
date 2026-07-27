@@ -3,9 +3,9 @@ description: Stellen Sie einen Kurs für mehrere Zielgruppen bereit, indem Sie b
 jcr-language: en_us
 title: Adaptive Kurse in Adobe Learning Manager
 contentowner: mmanuel
-source-git-commit: fd2221c293d1701e3201334e9d1b4858344e8ac9
+source-git-commit: cf30b15313599f8206b668709f245c3e388d3aa8
 workflow-type: tm+mt
-source-wordcount: '1626'
+source-wordcount: '1746'
 ht-degree: 0%
 
 ---
@@ -113,10 +113,18 @@ Adaptive Kurse können zu Katalogen innerhalb Ihres Kontos hinzugefügt werden. 
 >
 >Wenn ein Lernpfad oder eine Zertifizierung, die einen adaptiven Kurs enthält, extern freigegeben wird, sieht das empfangende Konto den Lernpfad oder die Zertifizierung in seinem Katalog, der darin enthaltene adaptive Kurs wird jedoch nicht angezeigt. Das Lernobjekt ist nicht vollständig ausgeschlossen. Nur die adaptive Kurskomponente wird aus der freigegebenen Version entfernt. Autoren im empfangenden Konto sollten sich bewusst sein, dass das freigegebene Lernobjekt möglicherweise weniger Module als die Quellversion hat.
 
+>[!NOTE]
+>
+>Wenn ein adaptiver Kurs als Voraussetzung eines anderen Kurses konfiguriert ist und dieser übergeordnete Kurs über die Katalogfreigabe für ein empfangendes Konto freigegeben wird, wird der adaptive erforderliche Kurs nicht für das empfangende Konto freigegeben. Dies gilt unabhängig davon, ob die Voraussetzung direkt auf dem Kurs festgelegt wird oder über ein Lernobjekt höherer Ordnung, z. B. einen Lernpfad oder eine Zertifizierung.
+>
+>Im empfangenden Konto ist der übergeordnete Kurs verfügbar, aber die adaptive Voraussetzung fehlt. Teilnehmer im empfangenden Konto sind nicht von der fehlenden Voraussetzung betroffen, da die Abhängigkeit von der Voraussetzung für Inhalte, die über die Katalogfreigabe ohne die erforderlichen Voraussetzungen eingehen, nicht erzwungen wird.
+>
+>Konfigurieren Sie keine adaptiven Kurse als Voraussetzungen für Inhalte, die Sie extern freigeben möchten.
+
 ## Unterstützte Konfigurationen
 
 | Konfiguration | Unterstützt? |
-|---|---|
+| --- | --- |
 | Adaptiver Kurs in einem regulären Lernpfad | Ja (siehe Hinweis unten) |
 | Adaptiver Kurs in einem flexiblen Lernpfad | Ja |
 | Adaptiver Kurs in einem adaptiven Lernpfad | Nein |
