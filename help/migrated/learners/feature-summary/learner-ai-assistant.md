@@ -184,9 +184,6 @@ So aktivieren Sie den AI-Assistenten für Teilnehmer:
 ![Auf der Administratorkonsole wird die Option &quot;Teilnehmer-AI-Assistent&quot; im linken Bereich angezeigt](assets/learner-assistant-ai-beta.png)
 
 &#x200B;4. Wählen Sie den Umschalter, um den **Teilnehmer-AI-Assistenten (Beta)** zu aktivieren.
-2
-3
-4<!--![Administrators console displays the toggle enabled for Learner AI Assistant](assets/learner-assistant-toggle.png)--><!--5. Select one or more user groups from the **Eligible user groups** option.--><!--5. Select **Save** to apply the user group settings.-->
 
 &#x200B;5. Wählen Sie einen oder mehrere Kataloge aus der Option &quot;**Berechtigte Kataloge**&quot;.
 
