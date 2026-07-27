@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Fluidic Player
 contentowner: manochan
 exl-id: 19dc07c4-9716-45f2-9c77-05d45da34b85
-source-git-commit: 5167a5a453776f2455fe8b0f762bca1d1f6ad0fe
+source-git-commit: 0f7f42d18c81d18b6f6592a90f9322f0cd9dcce4
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 48%
+source-wordcount: '650'
+ht-degree: 52%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 48%
 
 In diesem Artikel finden Sie Informationen zur Verwendung des Fluidic Players für Kurse.
 
-Der Fluidic Player ist eine Plattform für Teilnehmer, auf der sie Inhalte mit ununterbrochener und gemischter Lernerfahrung nutzen können. Alle unterstützten Formate werden in diesem Player konsistent wiedergegeben. Autoren und Administratoren können mit dem Player eine Vorschau der Inhalte abrufen.
+Der Fluidic Player ist eine Plattform für Teilnehmer, auf der sie Inhalte mit ununterbrochener und gemischter Lernerfahrung nutzen können. Alle unterstützten Formate werden mit diesem Player einheitlich wiedergegeben. Autoren und Administratoren können mit dem Player eine Vorschau der Inhalte abrufen.
 
 ## Player-Funktionen {#playerfeatures}
 
@@ -38,7 +38,7 @@ Der Fluidic Player ist eine Plattform für Teilnehmer, auf der sie Inhalte mit u
 * Klicken Sie auf „Erneut aufrufen“ wenn sich der Kurs im Status „Abgeschlossen“ befindet.
 * Klicken Sie auf „Fortfahren“ wenn der Kurs noch nicht abgeschlossen ist.
 
-**Vollbild** Klicken Sie auf das Vollbild-Symbol in der unteren rechten Ecke des Players, um den Kurs auf dem Vollbildschirm anzuzeigen.
+**Vollbild** Klicken Sie auf das Vollbild-Symbol in der rechten unteren Ecke des Players, um den Kurs auf dem Vollbildschirm anzuzeigen.
 
 **Navigationsschaltflächen** Sie können auf die Pfeile nach oben/nach unten klicken, um im PDF-, DOCX- und PPTX-Format durch die Folien zu navigieren. Die Pfeile „Nächste Seite“ oder „Vorherige Seite“ können für alle Arten von Inhalt dazu verwendet werden, zum nächsten Thema zu navigieren.
 
@@ -70,3 +70,18 @@ Der mobile Fluidic Player verfügt über die folgenden Funktionen:
 * Wenn mit der Navigationsleiste nicht interagiert wird, verschwindet sie nach 3 Sekunden.
 * Die Navigationsleiste bleibt so lange aktiv, bis die Navigationsmenüelemente (Inhaltsverzeichnis, Hinweise, Einstellungen) geschlossen sind.
 
+**Unterstützung für 11 Sprachen**: Der Fluidic Player unterstützt 11 Sprachen. Sie sind:
+
+| Sprache | Hoheitsgebiet | IBM-Bezeichner |
+|---|---|---|
+| Arabisch | Saudi-Arabien | ar-SA |
+| chinesisch-traditionell | Hong Kong S.A.R. of China | zh-Hant-HK |
+| chinesisch-traditionell | Taiwan | zh-Hant-TW |
+| Tschechisch | Tschechische Republik | cs-CZ |
+| Dänisch | Dänemark | da-DK |
+| Hebräisch | Israel | he-IL |
+| Ungarisch | Ungarn | hu-HU |
+| Indonesisch | Indonesien | id-ID |
+| Rumänisch | Rumänien | ro-RO |
+| Thailändisch | Thailand | th-TH |
+| Ukrainisch | Ukraine | uk-UA |

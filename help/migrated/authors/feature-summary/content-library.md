@@ -3,10 +3,10 @@ description: Erfahren Sie, wie Sie Inhalt zum Selbststudium erstellen können, d
 jcr-language: en_us
 title: Inhaltsbibliothek
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
+source-git-commit: 29302e039dfd8b8cc0c5fc20b46dc2403ce6c45b
 workflow-type: tm+mt
-source-wordcount: '5385'
-ht-degree: 38%
+source-wordcount: '6048'
+ht-degree: 33%
 
 ---
 
@@ -128,9 +128,15 @@ Die folgende Tabelle zeigt den Typ der interaktiven und statischen Dateitypen, d
  </tbody>
 </table>
 
+## Kursinhalte in der Vorschau anzeigen {#previewcontentlibrary}
+
+Sie können eine Vorschau des Kursinhalts anzeigen, sobald er der Inhaltsbibliothek hinzugefügt wurde. Um eine Vorschau anzuzeigen, wählen Sie das Augensymbol am Ende der Zeile des entsprechenden Kurses aus.
+
+![](assets/preview-content-library.png)
+
 ## Fügen Sie der Bibliothek neuen Inhalt hinzu {#addnewcontentinthelibrary}
 
-**Autoren** können Inhalte in ALM hinzufügen. Es gibt zwei Arten von Inhalten in ALM: **[!UICONTROL Inhalt]** und **[!UICONTROL Test]**. Informationen zum Hinzufügen von Inhalten finden Sie unter [Statischen Inhalt hinzufügen](content-library.md#addstaticcontent) und [Quiz erstellen](content-library.md##createaquiz).
+**Autoren** können Inhalte in ALM hinzufügen. Es gibt zwei Arten von Inhalten in ALM: **[!UICONTROL Inhalt]** und **[!UICONTROL Test]**. Informationen zum Hinzufügen von Inhalten finden Sie unter [Statischen Inhalt hinzufügen](content-library.md#addstaticcontent) und [Quiz erstellen](content-library.md#createaquiz).
 
 ## Statischen Inhalt hinzufügen {#addstaticcontent}
 
@@ -243,7 +249,7 @@ Die Inhaltsbibliothek verwaltet auch die Versionierung Ihrer hochgeladenen Inhal
    Die gleiche Ansicht ist sowohl in der **Teilnehmer-App** als auch in der **Vorschau als Teilnehmer** vorhanden.
 
    Wenn Sie **die VTT-Datei hinzufügen, aktualisieren oder löschen**, erhalten Sie eine Benachrichtigung.
-WebVTT-Unterstützung ist nicht verfügbar für:
+   WebVTT-Unterstützung ist nicht verfügbar für:
 
    1. Videoankündigungen.
    1. Video, das innerhalb des E-Learning-Inhalts abgespielt wird. Das hängt vom Inhalt ab.
@@ -425,31 +431,115 @@ Diese Liste zeigt die Autoren an, die Inhalte erstellt und in die Bibliothek hoc
 
 Diese Option ist nur **verfügbar**, wenn ein Administrator einen neuen Ordner erstellt.
 
+### Hinzufügen von Inhalten zu einem Ordner
+
+Wenn Sie neue Inhalte hochladen, wählen Sie während des Upload-Vorgangs den Ordner aus, in dem sie gespeichert werden sollen.
+
+1. Melden Sie sich als Autor an und navigieren Sie zu **Verwalten** > **Inhaltsbibliothek** oder wählen Sie **Inhalt erstellen** auf der Startseite aus.
+
+2. Wählen Sie **Hinzufügen** > **Inhalt** in der oberen rechten Ecke der Seite aus.
+
+3. Geben Sie einen Namen und eine Beschreibung für den Inhalt ein.
+
+4. Ziehen Sie unter **Inhaltsdatei hinzufügen** die Inhaltsdatei per Drag &amp; Drop oder wählen Sie das Feld aus, das Sie durchsuchen und hochladen möchten.
+   ![](assets/cl2.png)
+
+5. Durchsuchen Sie unter **Zu Ordner hinzufügen** entweder den Ordner oder durchsuchen Sie den Ordner im Suchfeld.
+   ![](assets/cl3.png)
+
+6. Wählen Sie **Hinzufügen** aus.
+
+7. Füllen Sie die verbleibenden Felder, **Dauer**, **Tags**, **Eindeutige ID des Inhalts** und **Ablaufdatum**, nach Bedarf aus.
+
+8. Wählen Sie **Speichern**. Die Inhaltsdatei wird der Inhaltsbibliothek hinzugefügt und wird oben in der Liste angezeigt.
+   ![](assets/cl4.png)
+
+>[!NOTE]
+>
+>Sie können Inhalte nicht zwischen öffentlichen und privaten Ordnern kopieren oder verschieben. In diesem Fall zeigt Adobe Learning Manager eine Fehlermeldung an.
+
+
+## Ordnerpfade in der Inhaltsbibliothek anzeigen
+
+In der **Inhaltsbibliothek** zeigt jede Inhaltsdatei ihren vollständigen Ordnerpfad an, z. B. **Verkaufsschulung** / **Module zum Selbststudium** / **PDF von Assets**. Dieser Pfad gibt an, wo genau sich die Datei in der Hierarchie befindet.
+
+* Wenn sich eine Datei in mehreren Ordnern befindet, werden alle Pfade durch Kommas getrennt angezeigt.
+
+* Wenn ein Pfad lang ist, wird er am Anfang durch Auslassungspunkte (...) abgeschnitten, und der Name des tiefsten Ordners wird immer angezeigt.
+
+* Veröffentlichte, eingestellte und Entwurfsinhalte werden alle in der Inhaltsbibliothek angezeigt und zeigen ihre Ordnerpfade an.
+
+![](assets/cl1.png)
+
+## Inhalt nach Ordner filtern
+
+Mit dem Filter **Ordner** in der Inhaltsbibliothek können Sie die Liste so eingrenzen, dass nur der Inhalt angezeigt wird, der in bestimmten Ordnern gespeichert ist.
+
+1. Wählen Sie in der **Inhaltsbibliothek** das Dropdown-Menü **Ordner** im Spaltenkopf aus.
+   ![](assets/cl5.png)
+   In der Dropdown-Liste werden der öffentliche Ordner und eine Liste privater Ordner angezeigt. Öffentliche und private Ordner können nicht gleichzeitig ausgewählt werden. Wenn Sie eine auswählen, wird die Auswahl der anderen aufgehoben.
+
+2. Filtern nach einem bestimmten privaten Ordner:
+   * Wenn Sie einen Ordner der Ebene **Ebene 1** auswählen, werden automatisch alle Unterordner der Ebene 2 und der Ebene 3 darunter ausgewählt. Diese Unterordner werden als ausgewählt angezeigt, können jedoch nicht einzeln deaktiviert werden. Der Filter gibt den gesamten Inhalt des Ordners &quot;Ebene 1&quot; und seiner Unterordner zurück.
+   * Wenn Sie einen Ordner der Ebene **Ebene 2** auswählen, werden automatisch alle Unterordner der Ebene 3 darunter ausgewählt.
+     ![](assets/cl6.png)
+
+3. Verwenden Sie das Dropdown-Suchfeld, um einen Ordner anhand des Namens zu suchen.
+
+4. Sie können bis zu **25 Ordner** gleichzeitig auswählen. Wenn Sie mehr als 25 auswählen, wird ein Fehler angezeigt.
+
 ## Inhalt in Ordner verschieben {#movecontenttofolder}
 
-Um den Inhalt eines öffentlichen Ordners in einen privaten Ordner zu verschieben,
+Durch Verschieben von Inhalt wird der Inhalt aus dem aktuellen Ordner entfernt und im Zielordner platziert. Sie können im Dialogfeld mehrere private Ordner auswählen, um Inhalte zu verschieben. Sie können jedoch private und öffentliche Ordner nicht gleichzeitig auswählen. Sie können entweder mehrere private Ordner oder einen einzelnen öffentlichen Ordner auswählen.
 
-1. Wählen Sie den Ordner **Öffentlich** aus der Dropdown-Liste **Alle Ordner** aus.
+1. Aktivieren Sie in der **Inhaltsbibliothek** das Kontrollkästchen neben jeder Inhaltsdatei, die Sie verschieben möchten.
+2. Wählen Sie **Aktionen** > **Inhalt organisieren** > **Inhalt in Ordner verschieben**. Der Bereich &quot;**Inhalt in Ordner verschieben**&quot; wird geöffnet.
+3. Wählen Sie den Zielordner aus, in den Sie den Inhalt verschieben möchten.
+4. Wählen Sie **Inhalt verschieben**. Die Inhaltsbibliothek wird aktualisiert und zeigt den neuen Ordnerpfad an.
+
+>[!IMPORTANT]
+>
+>Sie können Inhalte aus einem öffentlichen Ordner in einen privaten Ordner verschieben und umgekehrt. Sie können Inhalte jedoch nicht in öffentliche und private Ordner in derselben Aktion verschieben. Wenn Sie einen öffentlichen Ordner auswählen, können Sie keine privaten Ordner auswählen und umgekehrt.
+
+
+
+<!--
+
+1. Select **Public** folder from the **All Folders** drop-down list.
 
    ![](assets/list-of-public-folders.png)
 
-   *Alle hochgeladenen Inhalte anzeigen*
+   *View all uploaded content*
 
-1. Wählen Sie den Inhalt aus, den Sie in einen Ordner verschieben möchten. Klicken Sie dann auf **[!UICONTROL Aktionen]** > **[!UICONTROL Inhalt organisieren]** > **[!UICONTROL Inhalt in Ordner verschieben]**.
+1. Choose the content that you'd like to move it to a folder. Then click **[!UICONTROL Actions]** > **[!UICONTROL Organize Content]** > **[!UICONTROL Move Content to Folder]**. 
 
    ![](assets/move-content-to-folder.png)
 
-   *Ausgewählten Inhalt in Ordner verschieben*
+   *Move a selected content to folder*
 
-1. Wählen Sie den Ordner aus, in den Sie den Inhalt verschieben möchten. Klicken Sie auf **[!UICONTROL Verschieben]**.
+1. Choose the folder where you want to move the content to. Click **[!UICONTROL Move]**.
+-->
 
 ## Inhalt in Ordner kopieren {#copycontenttofolder}
 
-Wenn Sie einen Ordner kopieren, fügen Sie dem Ordner ein Tag hinzu. Beim Kopieren werden keine Kopien des Inhalts erstellt, sondern nur eine Verknüpfung mit bestimmten Ordnern hinzugefügt.
+Beim Kopieren wird eine Verknüpfung zum Inhalt in einem zusätzlichen Ordner erstellt, ohne dass der Inhalt aus dem aktuellen Speicherort entfernt wird. Die Inhaltsdatei selbst wird nicht dupliziert.
+
+1. Aktivieren Sie in der **Inhaltsbibliothek** das Kontrollkästchen neben jeder Inhaltsdatei, die Sie kopieren möchten.
+2. Wählen Sie **Aktionen** > **Inhalt organisieren** > **Inhalt in Ordner kopieren**. Der Bereich **Inhalt in Ordner kopieren** wird geöffnet und zeigt die Ordnerhierarchie an.
+3. Wählen Sie den oder die Zielordner aus, in denen der Inhalt angezeigt werden soll.
+4. Wählen Sie **Inhalt kopieren** aus. Die Inhaltsbibliothek wird aktualisiert und zeigt die neuen Ordnerpfade für den kopierten Inhalt an.
+
+>[!NOTE]
+>
+>Inhalte aus einem privaten Ordner können nicht in den öffentlichen Ordner oder aus dem öffentlichen Ordner in einen privaten Ordner kopiert werden.
+
+<!--
+Copying a folder means that you'd be adding a tag to the folder. The copy operation will not create copies of content, but only add an association with specified folders.
 
 ![](assets/copy-content-to-folder.png)
 
-*Ordner kopieren*
+*Copy a folder*
+-->
 
 ## Verknüpfung des Ordners aufheben {#unlinkfolder}
 
@@ -464,6 +554,26 @@ Die Verknüpfung von Inhalt mit dem angegebenen Ordner &quot;**ONLY**&quot; kann
 ![](assets/unlink-a-folder.png)
 
 *Verknüpfung eines Ordners aufheben*
+
+## Modul zu einem Kurs hinzufügen, indem Sie Ordner durchsuchen
+
+Wenn Sie einem Kurs ein Modul zum Selbststudium hinzufügen, können Sie die Ordnerhierarchie durchsuchen, um die richtige Inhaltsdatei zu finden, anstatt nach dem Namen zu suchen.
+
+1. Melden Sie sich als Autor an und navigieren Sie in der linken Navigation zu **Kurse**.
+
+2. Wählen Sie **Hinzufügen**, um einen neuen Kurs zu erstellen oder einen vorhandenen Kurs im Bearbeitungsmodus zu öffnen.
+
+3. Navigieren Sie zum Abschnitt **Module** und wählen Sie **Inhalt** > **Module hinzufügen**.
+
+4. Wählen Sie im Dialogfeld &quot;**Modultyp auswählen**&quot; **Selbststudium** als Modultyp aus. Das Dialogfeld &quot;**Modul zum Selbststudium**&quot; wird geöffnet.
+
+5. Wählen Sie **Ordner durchsuchen**, um die Ordnerhierarchie zu öffnen.
+
+6. Navigieren Sie durch die Ordnerebenen, um das Modul zu finden, das Sie hinzufügen möchten. Wählen Sie die Inhaltsdatei aus.
+
+7. Wählen Sie **Hinzufügen** aus. Das Modul wird dem Kurs hinzugefügt.
+
+8. Füllen Sie alle verbleibenden Kursfelder aus und wählen Sie **Speichern**.
 
 ## Fügen Sie Inhalte für verschiedene Sprachen hinzu {#addcontentfordifferentlanguages}
 
@@ -525,10 +635,10 @@ Im Abschnitt „Abschlusskriterien“ können Sie die folgenden Optionen festleg
 * **Quiz durchgeführt**: In diesem Fall wird der Status als „Vollständig“ übermittelt, wenn Benutzer das Quiz durchführen, unabhängig davon, ob sie es bestehen oder nicht.
 * **Quiz bestanden oder Limit erreicht:** Der Status wird als „Abgeschlossen“ gemeldet, wenn die Teilnehmer das Quiz bestehen oder alle Versuche unternommen haben. Wenn die Anzahl der Versuche im Kurs beispielsweise auf 2 festgelegt ist und:
 
-   * Wenn Teilnehmer den ersten Versuch unternehmen und das Quiz bestehen, wird der Status als &quot;Vollständig&quot; und &quot;Bestanden&quot; übermittelt.
-   * Wenn Teilnehmer den ersten Versuch unternehmen und das Quiz nicht bestehen, wird der Status als &quot;Unvollständig&quot; und &quot;Fehlgeschlagen&quot; übermittelt, da die erlaubte Anzahl der Versuche noch immer nicht erreicht wurde.
-   * Wenn Teilnehmer das Quiz erneut durchführen und es nicht bestehen, wird der Status als &quot;Vollständig&quot; und &quot;Fehlgeschlagen&quot; übermittelt.
-   * Wenn Teilnehmer das Quiz erneut durchführen und es bestehen, wird der Status als &quot;Vollständig&quot; und &quot;Bestanden&quot; übermittelt.
+  * Wenn Teilnehmer den ersten Versuch unternehmen und das Quiz bestehen, wird der Status als &quot;Vollständig&quot; und &quot;Bestanden&quot; übermittelt.
+  * Wenn Teilnehmer den ersten Versuch unternehmen und das Quiz nicht bestehen, wird der Status als &quot;Unvollständig&quot; und &quot;Fehlgeschlagen&quot; übermittelt, da die erlaubte Anzahl der Versuche noch immer nicht erreicht wurde.
+  * Wenn Teilnehmer das Quiz erneut durchführen und es nicht bestehen, wird der Status als &quot;Vollständig&quot; und &quot;Fehlgeschlagen&quot; übermittelt.
+  * Wenn Teilnehmer das Quiz erneut durchführen und es bestehen, wird der Status als &quot;Vollständig&quot; und &quot;Bestanden&quot; übermittelt.
 
 ## Erfolgskriterien festlegen {#setsuccesscriteria}
 

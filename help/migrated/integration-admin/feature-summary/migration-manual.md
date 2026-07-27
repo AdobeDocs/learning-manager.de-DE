@@ -3,10 +3,10 @@ description: Referenzhandbuch für Integrationsadministratoren zum Migrieren ein
 jcr-language: en_us
 title: Migrationshandbuch
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: bb98f6ff998a09682bbd7c50d9bf92469859f0be
+source-git-commit: eb8ce39432962f22fbeb299bebad9db39c2e1eaf
 workflow-type: tm+mt
-source-wordcount: '6280'
-ht-degree: 52%
+source-wordcount: '9051'
+ht-degree: 36%
 
 ---
 
@@ -545,8 +545,8 @@ Erfasst Abschlussinformationen auf Benutzerebene für entsprechende LOs, die den
 
 * Alle äquivalenzbezogenen Daten müssen über die Migration eingegeben werden.
 * Das System unterstützt keine Szenarien, in denen:
-   * LO-Daten (Kurse/LPs) wurden über die Benutzeroberfläche erstellt und
-   * Äquivalenzbeziehungen werden später nur über CSV importiert.
+  * LO-Daten (Kurse/LPs) wurden über die Benutzeroberfläche erstellt und
+  * Äquivalenzbeziehungen werden später nur über CSV importiert.
 
 Dies bedeutet:
 
@@ -1054,3 +1054,395 @@ Fehlerbehebung bei häufigen Migrationsfehlern
 | Sitzungszeile schlägt mit Metadatenfehler fehl | Überprüfen Sie, ob alle JSON-Schlüsselnamen im Feld &quot;`metadata`&quot; exakt &quot;camelCase&quot; verwenden. Bei Schlüsseln wird zwischen Groß- und Kleinschreibung unterschieden. |
 | Teams `isCompletionCriteria` haben keine Auswirkungen. | Das Feature-Flag für Abschlusskriterien für Teams muss von Ihrem ALM-Kontoadministrator aktiviert werden, bevor die Migrationswerte wirksam werden. |
 | Sitzungszeile erstellt, aber das Kursleiterfeld ist leer | Wenn die angegebene E-Mail-Adresse des Kursleiters nicht mit einem Benutzer in ALM übereinstimmt, wird die Sitzung mit einem leeren Feld für den Kursleiter erstellt. Vergewissern Sie sich, dass die Kursleiter-E-Mail in ALM vorhanden ist, bevor Sie sie hochladen. |
+
+## LTI-Module migrieren {#migrationofltimodules}
+
+### Übersicht
+
+Die LTI-Migration erweitert den vorhandenen Migrations-Workflow und erfordert keine zusätzlichen Migrationsdateien. Bestehende Kurs-, Modul- und Modulzuordnungsdatensätze verwenden weiterhin das Standardmigrationsformat. LTI-spezifische Informationen werden über die Modulversionsdaten bereitgestellt.
+
+### Dateien für LTI-Migration verwenden
+
+LTI-Module werden mithilfe der Standardmigrationsdateien migriert.
+
+Die folgenden Dateien verwenden weiterhin das vorhandene Migrationsformat:
+
+* course.csv
+* module.csv
+* course_module.csv
+
+In diesen Dateien sind keine LTI-spezifischen Felder erforderlich. LTI-spezifische Einstellungen werden in der Datei &quot;`module_version.csv`&quot; konfiguriert.
+
+### LTI-Modulversion konfigurieren
+
+Verwenden Sie die Datei &quot;`module_version.csv`&quot;, um die Eigenschaften einer LTI-Modulversion zu definieren.
+
+Zusätzlich zu den in `module_version.csv` unterstützten bestehenden Feldern unterstützt Adobe Learning Manager LTI-spezifische Werte und Attribute.
+
+#### contentType
+
+Verwenden Sie den Wert &quot;`LTI`&quot; im Feld &quot;`contentType`&quot;, um die Modulversion als LTI-Modul zu identifizieren.
+
+*Feld und Wert zur Identifizierung einer LTI-Modulversion*
+
+| **Feld** | **Wert** |
+|-------------|-----------|
+| contentType | LTI |
+
+#### ltiLaunchUrl
+
+Gibt die Start-URL des externen LTI-Anbieters an.
+
+Wenn ein Teilnehmer das Modul in Adobe Learning Manager startet, wird der Teilnehmer zum konfigurierten LTI-Endpunkt umgeleitet.
+
+*Feld zum Angeben der Start-URL des externen LTI-Anbieters*
+
+| **Feld** | **Beschreibung** |
+|--------------|--------------------------------------------------|
+| ltiLaunchUrl | Von der externen LTI-Plattform bereitgestellte Start-URL |
+
+#### ltiCustomParams
+
+Gibt benutzerdefinierte Startparameter an, die dem LTI-Anbieter beim Start übergeben werden.
+
+Verwenden Sie dieses Feld, wenn die externe Plattform zusätzlichen Startkontext oder Konfigurationsparameter erfordert.
+
+*Feld zum Übergeben benutzerdefinierter Startparameter an den LTI-Anbieter*
+
+| **Feld** | **Beschreibung** |
+|-----------------|------------------------------------------------------------|
+| ltiCustomParams | Benutzerdefinierte Parameter, die während des Starts an die LTI-Plattform übergeben werden |
+
+#### tpName
+
+Gibt den Namen des LTI-Anbieters des Drittanbieters an, der dem Modul zugeordnet ist.
+
+*Feld zur Identifizierung des LTI-Anbieters des Drittanbieters*
+
+| **Feld** | **Beschreibung** |
+|-----------|-----------------------------------------------------------------|
+| tpName | Name des Drittanbieters der LTI, der dem Modul zugeordnet ist |
+
+### Beispiel für LTI-Modulversion
+
+Das folgende Beispiel zeigt einen Modulversionsdatensatz, der für ein LTI-Modul konfiguriert ist:
+
+```csv
+moduleId,moduleVersion,contentType,dateCreated,duration,desiredDuration,contentUrl,hasQuiz,ltiLaunchUrl,ltiCustomParams,tpName
+2024101905,1,LTI,2024-10-19T09:55:21.123Z,60,60,,,https://m42almintegrationsv01.moodlecloud.com/enrol/lti/launch.php,"id=8600f9a1-256f-4a0c-bcfc-36377eba8ae1
+param=1",DND_Moodle_isProducer
+```
+
+In diesem Beispiel:
+
+* Die Modulversion wird durch den Wert &quot;`contentType=LTI`&quot; als LTI-Modul identifiziert.
+* Die Start-URL verweist auf den externen LTI-Anbieter.
+* Benutzerdefinierte Startparameter werden über `ltiCustomParams` bereitgestellt.
+* Der Anbieter wird über das Feld &quot;`tpName`&quot; identifiziert.
+
+### Migrieren eines LTI-Moduls
+
+So migrieren Sie ein LTI-Modul:
+
+1. Erstellen Sie den Kursdatensatz in `course.csv`.
+2. Erstellen Sie den Moduldatensatz in `module.csv`.
+3. Ordnen Sie den Kurs und das Modul in `course_module.csv` zu.
+4. Fügen Sie die Details zur Modulversion in `module_version.csv` hinzu.
+5. Legen Sie den Wert &quot;`contentType`&quot; auf &quot;`LTI`&quot; fest.
+6. Geben Sie die LTI-Start-URL und etwaige optionale Startparameter an.
+7. Führen Sie den Migrations-Sprint aus.
+
+Das Migrations-Framework verarbeitet das LTI-Modul als Teil des Standard-Migrationsablaufs.
+
+### LTI-Modulversionen validieren
+
+Beim Erstellen von LTI-Modulversionen:
+
+* Verwenden Sie den Wert `LTI` für das Feld `contentType`.
+* Geben Sie im Feld &quot;`ltiLaunchUrl`&quot; eine gültige Start-URL an.
+* Geben Sie den Namen des externen Anbieters im Feld &quot;`tpName`&quot; an.
+* Stellen Sie sicher, dass das Modul über die Standardmigrationsdateien mit einem Kurs verknüpft ist.
+* Folgen Sie weiterhin allen für `module_version.csv` dokumentierten Anforderungen für die Migration der Modulversion und den Validierungsregeln.
+
+Das Migrationssystem wendet zusätzlich zu den LTI-spezifischen Feldern den standardmäßigen Arbeitsablauf für die Migrationsverarbeitung an.
+
+## Adaptive Kurse migrieren
+
+Wenn Sie Kurse von einem externen System in Adobe Learning Manager migrieren und sie als adaptive Kurse mit Modulebenensichtbarkeit und Abschlussregeln pro Benutzergruppe konfigurieren möchten, können Sie zwei CSV-Dateien verwenden, um sowohl die Kurse als auch ihre adaptiven Regeln zu definieren.
+
+### Erforderliche Informationen für die Migration
+
+Die Migration eines adaptiven Kurses erfordert zwei Änderungen an Ihrem CSV-Standardmigrationspaket:
+
+* **Ein Update auf** _course.csv_: eine neue Spalte, die einen Kurs als adaptiv markiert
+* **Eine neue Datei,** _course_ module_user_group.csv_: eine Zeile pro Modul-zu-Benutzer-Gruppenregel
+
+Beide Dateien müssen in demselben Migrationsprojekt enthalten sein.
+
+### course.csv aktualisieren
+
+Fügen Sie die Spalte isAdaptive zur Datei course.csv hinzu.
+
+| **Spalte** | **Werte** | **Beschreibung** |
+| --- | --- | --- |
+| isAdaptive | true oder blank | Setzen Sie die Option für adaptive Kurse auf &quot;true&quot;. Lassen Sie das Feld leer oder legen Sie für reguläre Kurse den Wert &quot;false&quot; fest. |
+
+Alle anderen Spalten in &quot;course.csv&quot; bleiben unverändert.
+
+**Beispielspaltenreihenfolge:**
+
+* id
+* courseName
+* Beschreibung
+* courseCreationDate
+* state
+* sequenziell
+* Autorin
+* thumbnailUrl
+* Tags
+* isAdaptive
+
+>[!NOTE]
+>
+>Die Spalte isAdaptive ist für reguläre Kurse optional. Wenn er nicht angegeben oder leer gelassen wird, wird der Kurs als normaler Kurs behandelt.
+
+### course_module_user_group.csv hinzufügen
+
+Dies ist eine neue CSV-Datei, die die adaptive Sichtbarkeit und die Abschlussregeln für jedes Modul in jedem adaptiven Kurs definiert. Jede Zeile ordnet ein Modul einer Benutzergruppe mit einem Regeltyp zu.
+
+| **Spalte** | **Beschreibung** |
+| --- | --- |
+| courseId | Die Quellkennung des Kurses (muss mit der ID in course.csv übereinstimmen) |
+| moduleId | Die Quellkennung des Moduls (muss mit der Modulkennung in den Moduldateien übereinstimmen) |
+| userGroupId | Die Adobe Learning Manager-ID der Benutzergruppe, für die diese Regel gilt |
+| type | OBLIGATORISCH - Die Benutzergruppe muss dieses Modul zum Abschluss des Kurses abschließen. OPTIONAL: Die Benutzergruppe kann dieses Modul anzeigen und darauf zugreifen, muss es aber nicht abschließen. |
+| Arbeitsgang | HINZUFÜGEN - diese Regel erstellen oder aktualisieren. DELETE: Entfernen Sie diese Regel. |
+
+**Beispielspaltenreihenfolge:**
+
+* courseId
+* moduleId
+* userGroupId
+* type
+* Arbeitsgang
+
+### Regeln für die Datei
+
+* Jedes Inhaltsmodul in einem adaptiven Kurs muss mindestens eine Zeile in dieser Datei enthalten. Ein Modul ohne Regeln ist für keinen Teilnehmer sichtbar.
+* Für Vorbereitungs- und Testmodule sind keine Regeln erforderlich. Sie werden automatisch auf alle registrierten Teilnehmer angewendet und sollten nicht in dieser Datei angezeigt werden.
+* Sie können mehrere Zeilen für dasselbe Modul haben. Eine pro Benutzergruppe.
+* Wenn Sie eine ADD-Zeile für eine Regel übermitteln, die bereits im System vorhanden ist, wird die vorhandene Regel aktualisiert, anstatt ein Duplikat zu erstellen.
+
+### Upload-Reihenfolge
+
+Die Dateien in Ihrem Migrationsprojekt müssen in der folgenden Reihenfolge hochgeladen und verarbeitet werden: Spätere Dateien hängen von Daten ab, die von früheren Dateien erstellt wurden. Wenn die Reihenfolge nicht befolgt wird, schlägt sie fehl.
+
+* **module.csv**: Module definieren
+* **module_version.csv**: Modulversionen definieren
+* **course.csv**: (mit isAdaptive=true für adaptive Kurse) - Erstellen Sie die Kurse
+* **course_module.csv**: Module mit Kursen verknüpfen
+* **course_module_user_group.csv**: Adaptive Sichtbarkeits- und Abschlussregeln anwenden
+
+Laden Sie hier die Migrationsdateien herunter: [Migrationsdateien für adaptive Kurse](/help/migrated/integration-admin/feature-summary/assets/adaptive-courses-migration-files.zip)
+
+>[!IMPORTANT]
+>
+>**course_module_user_group.csv** muss zuletzt hochgeladen werden. Die Regeln in dieser Datei beziehen sich sowohl auf einen Kurs als auch auf ein Modul, die bereits mit Schritt 4 verknüpft sein müssen, bevor die Regeln angewendet werden können.
+
+### Validierung und Fehlerreferenz
+
+Adobe Learning Manager validiert jede Zeile in course_module_user_group.csv, bevor die Regeln angewendet werden. Jede Zeile, bei der die Validierung fehlschlägt, wird mit einer Fehlermeldung zurückgewiesen. Die verbleibenden gültigen Zeilen werden noch verarbeitet.
+
+| **Szenario** | **Was passiert** | **Fehlermeldung** |
+| --- | --- | --- |
+| Regeln für einen Kurs, der nicht als adaptiv gekennzeichnet ist | Zeile abgelehnt | Der Kurs muss adaptiv sein, um Regeln für die Inhaltssichtbarkeit zu haben. Kurs-ID: {courseId} |
+| Kurs als adaptiv markiert, aber keine Regeln für seine Inhaltsmodule angegeben | Kurs abgelehnt | Adaptive Kurse müssen über mindestens eine Sichtbarkeitsregel für jedes Inhaltsmodul verfügen. Kurs-ID: {courseId} hat keine Regeln für Module: 1{moduleIds} |
+| Das Modul ist nicht mit dem Kurs verknüpft | Zeile abgelehnt | Das Modul &quot;{moduleId}&quot; ist nicht mit dem Kurs &quot;{courseId}&quot; verknüpft. Fügen Sie das Modul zuerst über course_module.csv zum Kurs hinzu. |
+| Das Modul ist ein Vorbereitungs- oder Testmodul (kein Inhaltsmodul) | Zeile abgelehnt | Sichtbarkeitsregeln gelten nur für Inhaltstypmodule. Das Modul &quot;{moduleId}&quot; hat den Typ &quot;{actualType}&quot;. |
+| Die Benutzergruppe ist nicht vorhanden oder inaktiv. | Zeile abgelehnt | Die Benutzergruppe &quot;{userGroupId}&quot; wurde nicht gefunden oder ist nicht aktiv. |
+| Der Typwert ist nicht OBLIGATORISCH oder OPTIONAL. | Zeile abgelehnt | Ungültiger Typ &quot;{type}&quot;. Muss OBLIGATORISCH oder OPTIONAL sein. |
+| Der Vorgangswert lautet nicht ADD oder DELETE. | Zeile abgelehnt | Ungültiger Vorgang &quot;{operation}&quot;. Muss ADD oder DELETE sein. |
+| Für eine bereits vorhandene Regel wurde ADD übermittelt. | Regel wird im Hintergrund aktualisiert | Kein Fehler: Die vorhandene Regel wird mit dem neuen Typwert aktualisiert. |
+
+## Hierarchie der Inhaltsordner migrieren {#migratecontentfolderhierarchy}
+
+Wenn Sie Ihre Lerninhalte von einer anderen Plattform in Adobe Learning Manager migrieren und Ihre bestehende Ordnerorganisation beibehalten möchten, können Sie CSV-Dateien verwenden, um eine hierarchische Ordnerstruktur zu erstellen und Ihre Inhaltsdateien den entsprechenden Ordnern zuzuordnen.
+
+Diese Migration wird in der Regel im Rahmen einer umfassenderen Plattformmigration durchgeführt, nachdem Ihre Benutzer, Kurse, Module und Inhaltsdateien bereits in Adobe Learning Manager importiert wurden. Durch diesen Migrationsschritt werden die Inhalte in der Ordnerstruktur im Quellsystem neu organisiert.
+
+### Zweck dieser Migration
+
+Durch die Migration von Inhaltsordnern werden bis zu drei Ebenen von verschachtelten Ordnern in der Adobe Learning Manager-Inhaltsbibliothek erstellt und Ihre vorhandenen Inhaltsdateien den richtigen Unterordnern zugeordnet. Ihre Kurs- und Modulverknüpfungen zu Inhaltsdateien sind davon nicht betroffen. Nur die Ordnerorganisation ändert sich.
+
+Die Migration wird als asynchroner Hintergrundauftrag ausgeführt. Sie laden eine CSV-Datei hoch, die Migrationsvorgänge werden im Hintergrund ausgeführt und Sie können den Fortschritt überwachen, während das System funktioniert. Die Migration kann erneut ausgeführt werden, wenn Korrekturen erforderlich sind. Zeilen, die bereits erfolgreich verarbeitet wurden, werden bei einem nachfolgenden Durchlauf automatisch übersprungen.
+
+### Zwei Phasen der Migration
+
+Die Migration von Inhaltsordnern erfolgt in zwei unabhängigen Phasen. Jede Anwendung kann separat ausgeführt und validiert werden.
+
+| Phase | Bereitgestellte Inhalte. | Zweck |
+| --- | --- | --- |
+| **Phase 1 — Ordnerstruktur** | `content_folder.csv` | Erstellt Ihre Ordnerhierarchie der Ebenen 1, 2 und 3 in Adobe Learning Manager |
+| **Phase 2 — Inhaltszuordnung** | `module_version.csv` (aktualisiert mit Ordnerpfad) | Ordnet Ihre Inhaltsdateien beim Importieren von Modulversionen den richtigen Ordnern zu |
+
+Für Phase 2 ist keine separate CSV-Datei erforderlich. Sie fügen Ihrer vorhandenen `module_version.csv`-Datei eine Ordnerpfadspalte hinzu.
+
+### Phase 1: Ordnerhierarchie erstellen
+
+#### Ordnerhierarchie planen
+
+Ordnen Sie vor dem Vorbereiten der CSV-Datei die Ordner- oder Kategoriestruktur Ihres Quellsystems der dreistufigen Hierarchie von Adobe Learning Manager zu. Adobe Learning Manager unterstützt maximal drei Ebenen (Ebene 1 → Ebene 2 → Ebene 3). Wenn Ihr Quellsystem tiefer verschachtelt ist, reduzieren Sie es vor der Migration auf drei Ebenen.
+
+>[!NOTE]
+>
+>Wenn Ihr Quellsystem Schrägstriche (`/`) in Kategorie- oder Ordnernamen verwendet, ersetzen Sie sie durch einen Bindestrich (`-`) oder einen Unterstrich (`_`), bevor Sie die CSV-Datei vorbereiten. In Adobe Learning Manager ist `/` in Ordnernamen nicht zulässig, da es für die Ordnerpfadauflösung reserviert ist.
+
+
+#### content_folder.csv
+
+Verwenden Sie `content_folder.csv`, um die Zielordnerhierarchie zu definieren. Jede Zeile in der Datei stellt einen Ordner dar.
+
+**Spaltenverweis:**
+
+| Spalte | Erforderlich | Beschreibung |
+| --- | --- | --- |
+| `id` | Ja | Eine eindeutige Kennung, die Sie diesem Ordner zuweisen. Dies ist Ihre eigene Referenz-ID, z. B. eine Kategorie-ID aus Ihrem Quellsystem. Wird verwendet, um über- und untergeordnete Ordner innerhalb der Datei zu verknüpfen und die Migration sicher erneut ausführen zu können. |
+| `name` | Ja | Der Anzeigename des Ordners Maximal 63 Zeichen. Ein Schrägstrich (`/`) kann nicht enthalten sein. Muss unter Ordnern mit demselben übergeordneten Element eindeutig sein. |
+| `description` | Nein | Eine optionale Beschreibung für den Ordner. Maximal 2.046 Zeichen. |
+| `parentExternalId` | Nein | Die `id` des übergeordneten Ordners. Lassen Sie dieses Feld für Ordner der Ebene 1 (Stamm) leer. Geben Sie für Ordner der Ebene 2 den Namen `id` der übergeordneten Ebene 1 ein. Geben Sie für Ordner der Ebene 3 die übergeordnete Ebene `id` der Ebene 2 ein. |
+| `action` | Ja | Der auszuführende Vorgang: `CREATE_FOLDER`, `UPDATE_FOLDER` oder `DELETE_FOLDER`. |
+
+**Beispiel:**
+
+```
+id,name,description,parentExternalId,action
+folder_001,Training,,, CREATE_FOLDER
+folder_002,Sales,,folder_001,CREATE_FOLDER
+folder_003,Onboarding,,folder_002,CREATE_FOLDER
+folder_004,HR,,,CREATE_FOLDER
+folder_005,Compliance,,folder_004,CREATE_FOLDER
+```
+
+In diesem Beispiel:
+
+* `Training` und `HR` sind Ordner der Ebene 1 (keine übergeordneten Ordner).
+* `Sales` ist ein Ordner der Ebene 2 unter `Training`.
+* `Onboarding` ist ein Ordner der Ebene 3 unter `Sales`.
+* `Compliance` ist ein Ordner der Ebene 2 unter `HR`.
+
+**Validierungsregeln:**
+
+* Ein Ordner kann nicht sein eigener Vorfahr sein - Zirkelverweise sind nicht zulässig.
+* Die maximale Ordnertiefe beträgt 3 Ebenen (Ebene 1 → Ebene 2 → Ebene 3).
+* Zwei Ordner mit dem gleichen übergeordneten Element können nicht denselben Namen haben
+* `parentExternalId` muss entweder auf eine andere Zeile in derselben CSV-Datei oder auf einen vorhandenen Ordner verweisen, der sich bereits in Ihrem Konto befindet.
+* Übergeordnete Ordner müssen vor ihren untergeordneten Ordnern in der Datei aufgelistet werden.
+
+>[!NOTE]
+>
+>Sie können auf einen vorhandenen Ordner in Ihrem Konto (der vor dieser Migration erstellt wurde) als übergeordneten Ordner eines neuen Ordners verweisen, indem Sie das Präfix &quot;`existing:`&quot; gefolgt von der ID des Ordners in der Spalte &quot;`parentExternalId`&quot; verwenden, z. B. &quot;`existing:12345`&quot;.
+
+
+### Phase 2: Inhalt mit Ordnern verknüpfen
+
+Inhaltsdateien werden über die Spalte &quot;`folder`&quot; in Ihrer Datei &quot;`module_version.csv`&quot; mit Ordnern verknüpft. Für diese Phase ist keine separate CSV-Datei erforderlich.
+
+#### Aktualisierte Datei &quot;module_version.csv&quot; - Ordnerspalte
+
+Die Spalte &quot;`folder`&quot; in &quot;`module_version.csv`&quot; unterstützt jetzt zusätzlich zu einfachen Ordnernamen auch Ordnerpfade.
+
+| Ordnerwert | Lösung |
+| --- | --- |
+| `Sales` (kein Schrägstrich) | Auflösungen nach Ordnername - das vorhandene Verhalten für Ordner der Ebene 1 |
+| `Training/Sales/Onboarding` (Schrägstriche) | Auflösungen nach Pfad: Navigiert von Ebene 1 nach unten durch jede Ebene zum Ziel-Unterordner. |
+| `"Training/Sales,HR/Compliance"` (Komma getrennt, Anführungszeichen) | Ordnet die Inhaltsdatei mehreren Ordnern zu; jeder Pfad unabhängig voneinander aufgelöst |
+| (leer) | Keine Ordnerzuordnung - der Inhalt bleibt am Standardspeicherort. |
+
+**Beispiel:**
+
+```
+moduleId,moduleVersion,contentType,...,folder
+MOD001,1,content,...,Training/Sales/Onboarding
+MOD002,1,content,...,HR/Compliance
+MOD003,1,content,...,"Training/Sales,HR/Compliance"
+MOD004,1,content,...,Marketing
+```
+
+>[!IMPORTANT]
+>
+>Beim Verknüpfen einer Inhaltsdatei mit mehreren Ordnern muss die durch Kommas getrennte Liste in doppelten Anführungszeichen in der CSV-Datei eingeschlossen werden, da Kommas auch als Spaltentrennzeichen verwendet werden.
+
+>[!NOTE]
+>
+>In dieser Phase wird das Hinzufügen einer Inhaltsdatei zu einem Ordner unterstützt. Das Entfernen einer Inhaltsdatei aus einem Ordner mithilfe des Ordnerpfads wird nicht unterstützt. Verwenden Sie die Adobe Learning Manager-Administratoroberfläche, um Ordnerzuordnungen nach der Migration zu entfernen.
+
+### Migrationsreihenfolge
+
+Wenn Sie eine vollständige Content-Migration ausführen, laden Sie Ihre Dateien in der folgenden Reihenfolge hoch und verarbeiten Sie sie:
+
+1. `module.csv` — Definieren Sie Ihre Module
+2. `module_version.csv` (ohne Ordnerpfade) — Modulinhalt hochladen
+3. `course.csv` - Kurse erstellen
+4. `course_module.csv` — Module mit Kursen verknüpfen
+5. `content_folder.csv` — Ordnerhierarchie erstellen (Phase 1)
+6. `module_version.csv` (mit Ordnerpfaden) — Inhalt mit Ordnern verknüpfen (Phase 2)
+
+>[!NOTE]
+>
+>`content_folder.csv` muss vor der Modulversionsdatei verarbeitet werden, die Ordnerpfade enthält, da die Ordnerstruktur vorhanden sein muss, bevor Inhalt zugeordnet werden kann.
+
+
+### Validierung und Fehlerreferenz
+
+Adobe Learning Manager validiert jede Zeile in `content_folder.csv` vor der Verarbeitung. Zeilen, bei denen die Validierung fehlschlägt, werden übersprungen und als Fehler gemeldet. Gültige Zeilen in derselben Datei werden weiterhin verarbeitet.
+
+| Szenario | Was passiert? | Auflösung |
+| --- | --- | --- |
+| Der Ordnername überschreitet 63 Zeichen | Zeile abgelehnt | Kürzen Sie den Namen in der CSV-Datei vor dem erneuten Hochladen |
+| Beschreibung überschreitet 2.046 Zeichen | Zeile abgelehnt | Kürzen der Beschreibung in der CSV-Datei |
+| Ein Ordnername enthält einen Schrägstrich (`/`). | Zeile abgelehnt | Ersetzen Sie `/` durch `-` oder `_` im Ordnernamen. |
+| Zwei Ordner mit demselben übergeordneten Element haben denselben Namen | Zeile abgelehnt | Einen der doppelten Ordner umbenennen |
+| `parentExternalId` verweist auf eine ID, die in der Datei oder im Konto nicht gefunden wurde. | Zeile abgelehnt | Bestätigen Sie, dass die ID des übergeordneten Ordners korrekt ist und die übergeordnete Zeile erfolgreich verarbeitet wurde. |
+| Die Ordnertiefe überschreitet 3 Ebenen | Zeile abgelehnt | Reduzieren Sie Ihre Hierarchie vor der Migration auf maximal 3 Ebenen |
+| Zirkulärer Verweis erkannt (Ordner A ist ein Vorgänger von Ordner B, und B ist übergeordnet von A) | Gesamte CSV abgelehnt | Überprüfen Sie die `parentExternalId`-Kette, und entfernen Sie den Zirkelverweis. |
+| `action` ist nicht `CREATE_FOLDER`, `UPDATE_FOLDER` oder `DELETE_FOLDER`. | Zeile abgelehnt | Korrigieren Sie den Wert `action` - nur diese drei Werte werden akzeptiert. |
+| `DELETE_FOLDER` für einen Ordner, der noch Inhaltsdateien enthält | Zeile abgelehnt | Inhaltsdateien vor dem Löschen in einen anderen Ordner verschieben oder die Löschzeile und das Handle manuell in der Administratoroberfläche entfernen |
+| `UPDATE_FOLDER` für `id`, das nicht im Konto vorhanden ist | Zeile abgelehnt | Vergewissern Sie sich, dass der Ordner in einer früheren Ausführung erfolgreich erstellt wurde. `CREATE_FOLDER` für neue Ordner verwenden |
+| `CREATE_FOLDER` für `id`, das bereits erfolgreich migriert wurde | Zeile übersprungen | Keine Aktion erforderlich - dies ist das erwartete Verhalten bei der erneuten Ausführung einer Migration |
+| Der Ordnerpfad in `module_version.csv` verweist auf einen nicht vorhandenen Ordner | Modulzeile abgelehnt | Führen Sie zuerst den Sprint der Ordnerstruktur aus oder überprüfen Sie, ob Ordnername und Pfad richtig geschrieben sind |
+| Doppelter Schrägstrich im Ordnerpfad (z. B. `Training//Sales`) | Modulzeile abgelehnt | Entfernen des zusätzlichen Schrägstrichs aus dem Pfad |
+
+
+### Abwärtskompatibilität
+
+Wenn Sie `content_folder.csv` oder `module_version.csv` bereits in Ihren Migrationsarbeitsabläufen verwenden, funktionieren Ihre vorhandenen Dateien weiterhin ohne Änderungen.
+
+| Szenario | Verhalten |
+| --- | --- |
+| `content_folder.csv` ohne `parentExternalId`-Spalte vorhanden | Funktioniert identisch: Ordner werden wie zuvor als Ordner der Ebene 1 erstellt. |
+| Vorhandenes `module_version.csv` mit einfachen Ordnernamen (kein `/`) | Funktioniert identisch: Ordnernamen werden wie zuvor nach Namen sortiert. |
+| Neue `module_version.csv` mit Ordnerpfaden, die `/` enthalten | Die pfadbasierte Auflösung wird automatisch durch das Vorhandensein von `/` ausgelöst. |
+| Mischen einfacher Namen und Pfade im selben `module_version.csv` | Jede Zeile wird unabhängig voneinander aufgelöst. Beide Formate funktionieren in derselben Datei. |
+| `content_folder.csv` erneut ausführen | Sicher - Zeilen, die bereits erfolgreich verarbeitet wurden, werden automatisch übersprungen. |
+
+### Best Practices
+
+**Vorbereiten von content_folder.csv**
+
+* Verwenden Sie die Kategorie- oder Ordner-IDs Ihres Quellsystems als Wert `id`. Diese werden für die Nachverfolgung dauerhaft gespeichert und sollten stabil bleiben.
+* Ordnernamen dürfen nicht länger als 63 Zeichen sein. Kürzen Sie die CSV-Datei vor dem Hochladen. Die Migration weist Namen zurück, die den Grenzwert überschreiten.
+* Stellen Sie sicher, dass zwei Ordner unter demselben übergeordneten Element nicht denselben Namen haben. Ordner unter verschiedenen übergeordneten Elementen können einen Namen teilen.
+* Auch wenn die Reihenfolge der Zeilen in der Datei das Ergebnis nicht beeinflusst - die Migration sortiert Zeilen automatisch -, erleichtert die Überprüfung der Datei durch die Auflistung der übergeordneten Ordner vor den untergeordneten Ordnern.
+
+**Vorbereiten von module_version.csv mit Ordnerpfaden**
+
+* Bei der Ordnerpfadübereinstimmung wird nicht zwischen Groß- und Kleinschreibung unterschieden, aber die Ordnernamen müssen ansonsten genau mit dem übereinstimmen, was in Phase 1 erstellt wurde.
+* Führen Sie Phase 1 (Ordnerstruktur) aus, bevor Sie Phase 2 (Inhaltszuordnung) ausführen. Die Pfadauflösung überprüft bereits vorhandene Ordner - wenn noch kein Ordner erstellt wurde, schlägt die Modulzeile fehl.
+* Doppelte Schrägstriche in Pfaden vermeiden - `Training//Sales` schlägt aufgrund eines leeren Pfadsegments fehl.
+* Schrägstriche am Anfang und am Ende werden automatisch getrimmt - `Training/Sales/` und `/Training/Sales` werden beide korrekt aufgelöst, aus Gründen der Übersichtlichkeit sollten sie jedoch vermieden werden.
+
+**Migration ausführen**
+
+* Lade 10 bis 20 Zeilen hoch, um das CSV-Format zu überprüfen, bevor du den vollständigen Datensatz skalierst.
+* Schließen Sie den Sprint der Ordnerstruktur ab, bevor Sie den Sprint der Modulversion starten. Wenn sie parallel ausgeführt werden, kann dies zu Fehlern bei der Pfadauflösung führen.
+* Nachdem beide Sprints abgeschlossen sind, überprüfen Sie in der Adobe Learning Manager-Administratoroberfläche, ob die Ordnerstruktur die richtige Hierarchie anzeigt und ob Inhaltsdateien in den erwarteten Ordnern angezeigt werden.

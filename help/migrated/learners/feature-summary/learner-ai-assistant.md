@@ -3,9 +3,9 @@ description: Mit dem KI-Assistenten in Adobe Learning Manager erhalten Sie schne
 jcr-language: en_us
 title: AI Assistant für Teilnehmer in Adobe Learning Manager
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
+source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
 workflow-type: tm+mt
-source-wordcount: '1811'
+source-wordcount: '3153'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ## Einführung
 
-Mit dem AI Assistant (Beta) für Teilnehmer können sie schnell Antworten auf die zugewiesenen Lerninhalte finden, ohne sich durch ganze Kurse bewegen zu müssen. Sie können Fragen in verständlicher Sprache stellen und erhalten präzise, zielgerichtete Antworten mit Quell-Links zu den relevanten Kursinhalten.
+Mit dem KI-Assistenten können Sie schnelle, genaue Antworten auf Ihre zugewiesenen Lerninhalte erhalten, Kurszusammenfassungen generieren, Lernobjekte vergleichen, Anleitungen finden und personalisierte Lernpfade erstellen, ohne durch ganze Kurse zu blättern.
 
 >[!IMPORTANT]
 >
@@ -32,27 +32,41 @@ Der AI Assistant ist ein generativer KI-gestützter Chat-Begleiter in Adobe Lear
 ### Funktionen
 
 - **Intelligente Frageantwort**
-   - Gespräche mit einer und mehreren Gängen
-   - Natürliches Sprachverständnis auf Englisch
-   - Antworten auf Kurse, Zertifizierungen, Lernpfade und Arbeitshilfen
-   - Intelligente Klärung von Fragen bei mehrdeutigen Abfragen
+  - Gespräche mit einer und mehreren Gängen
+  - Natürliches Sprachverständnis auf Englisch
+  - Antworten auf Kurse, Zertifizierungen, Lernpfade und Arbeitshilfen
+  - Intelligente Klärung von Fragen bei mehrdeutigen Abfragen
 
 - **Inhaltsquellen und Zitate**
-   - Ruft Antworten aus verfügbaren Ressourcen in unterstützten Katalogen ab
-   - Bietet Zitaten direkte Verknüpfungen zu Quellmaterialien
-   - Unterstützt alle Learning Manager-Inhaltsformate (statisch und interaktiv): PDF, DOCX, PPTX, XLSX, Audio (MP3, WAV, M4A), Video (MP4, MOV, WMV), HTML, SCORM 2004 und SCORM 1.2
+  - Ruft Antworten aus verfügbaren Ressourcen in unterstützten Katalogen ab
+  - Bietet Zitaten direkte Verknüpfungen zu Quellmaterialien
+  - Unterstützt alle Learning Manager-Inhaltsformate (statisch und interaktiv): PDF, DOCX, PPTX, XLSX, Audio (MP3, WAV, M4A), Video (MP4, MOV, WMV), HTML, SCORM 2004 und SCORM 1.2
 
 - **Benutzererlebnis**
-   - Seitenbedienfeld, über alle Teilnehmerseiten zugänglich
-   - Responsives Design, das sich an den Inhaltsbereich anpasst
-   - Chat-Verlauf in der Browsersitzung beibehalten
-   - Löschen von Schiefer bei neuer Anmeldung oder Seitenaktualisierung
-   - Freundlicher, klarer und pädagogisch solider Ton
+  - Seitenbedienfeld, über alle Teilnehmerseiten zugänglich
+  - Responsives Design, das sich an den Inhaltsbereich anpasst
+  - Chat-Verlauf in der Browsersitzung beibehalten
+  - Löschen von Schiefer bei neuer Anmeldung oder Seitenaktualisierung
+  - Freundlicher, klarer und pädagogisch solider Ton
 
 - **Administratorsteuerung**
-   - Aktivieren oder Deaktivieren der Funktion auf Kontoebene
-   - Auswählen, welche Kataloge für AI-Antworten enthalten sind
-   - Akzeptieren der Nutzungsbedingungen gemäß den Adobe AI-Richtlinien
+  - Aktivieren oder Deaktivieren der Funktion auf Kontoebene
+  - Auswählen, welche Kataloge für AI-Antworten enthalten sind
+  - Akzeptieren der Nutzungsbedingungen gemäß den Adobe AI-Richtlinien
+
+## Funktionen des AI Assistant.
+
+Der AI Assistant ist ein generativer KI-gestützter Chat-Begleiter, der Fragen mithilfe Ihrer zugewiesenen Lerninhalte beantwortet. Jede Antwort umfasst Zitate mit direkten Links zum Quellmaterial, sodass Sie Informationen überprüfen und das Lernen im Kontext fortsetzen können.
+
+Zusätzlich zur Beantwortung von Fragen kann der AI Assistant:
+
+- **Lernobjekte zusammenfassen** - Erstellen Sie eine kurze Übersicht über alle Kurse, Arbeitshilfen, Lernpfade oder Zertifizierungen in Ihrem Katalog, ohne sie zu öffnen.
+- **Lernobjekte vergleichen** — Unterschiede zwischen zwei Kursen nebeneinander identifizieren, um zu entscheiden, welcher Kurs zu Ihren Lernzielen passt
+- **Beantwortung von Fragen zur Vorgehensweise** — Quellantworten von Adobe Experience League, der offiziellen Hilfedokumentation der Adobe, für Fragen zur Verwendung von Adobe Learning Manager als Teilnehmer
+- **Inhalte von Drittanbietern abfragen** — Fragen zu Go1- oder LinkedIn Learning-Kursen stellen, wenn Ihr Administrator diese Kataloge hinzugefügt hat
+- **Erstellen eines personalisierten Lernpfads** - Führen Sie eine geführte Unterhaltung mit dem AI-Assistenten, um einen benutzerdefinierten, sequenziellen Lernplan basierend auf Ihren Zielen, Ihrem Hintergrund und der verfügbaren Zeit zu erstellen.
+
+Ihr Administrator steuert, welche Kataloge der AI-Assistent verwendet. Wenn Sie keinen Zugriff auf einen Kurs haben, zeigt der AI Assistant keine Informationen aus diesem Kurs an.
 
 ## Unterstützte Inhaltstypen
 
@@ -138,7 +152,7 @@ Jede Antwort des AI Assistant umfasst Zitate, die direkt mit dem ursprünglichen
 - Überprüfen Sie die Informationen und sehen Sie sich zusätzlichen Kontext aus der maßgeblichen Quelle an.
 
 > **WICHTIG**
-> Der AI-Assistent bietet Antworten auf Basis von durch den Administrator aktiviertem Inhalt. Wenn Sie keinen Zugriff auf ein referenziertes Element haben, wird beim Versuch, es zu öffnen, die Meldung &quot;Nicht unterstützt&quot; angezeigt.
+> Der AI-Assistent bietet Antworten auf der Grundlage von Inhalten, die vom Administrator aktiviert wurden. Wenn Sie keinen Zugriff auf ein referenziertes Element haben, wird beim Versuch, es zu öffnen, die Meldung &quot;Nicht unterstützt&quot; angezeigt.
 
 
 ## Integrierte Eingabeaufforderungen
@@ -170,9 +184,6 @@ So aktivieren Sie den AI-Assistenten für Teilnehmer:
 ![Auf der Administratorkonsole wird die Option &quot;Teilnehmer-AI-Assistent&quot; im linken Bereich angezeigt](assets/learner-assistant-ai-beta.png)
 
 &#x200B;4. Wählen Sie den Umschalter, um den **Teilnehmer-AI-Assistenten (Beta)** zu aktivieren.
-<!--![Administrators console displays the toggle enabled for Learner AI Assistant](assets/learner-assistant-toggle.png)-->
-<!--5. Select one or more user groups from the **Eligible user groups** option.-->
-<!--5. Select **Save** to apply the user group settings.-->
 
 &#x200B;5. Wählen Sie einen oder mehrere Kataloge aus der Option &quot;**Berechtigte Kataloge**&quot;.
 
@@ -239,11 +250,128 @@ Um die aktuelle Unterhaltung zu löschen und neu zu starten, wählen Sie **Neuer
 
 Der AI-Assistent bietet Teilnehmern schnelle, kontextbezogene Antworten, unterstützt mehrere Inhaltstypen und bietet Inline-Zitate für mehr Transparenz. Administratoren können den Zugriff steuern und stellen sicher, dass der AI Assistant auf die organisatorischen Anforderungen zugeschnitten ist und das Lernerlebnis verbessert.
 
+## Erhalten Sie Zusammenfassungen und Antworten von bestimmten Lernobjekten im Lernassistenten
+
+Der Lernassistent von Adobe Learning Manager kann eine Zusammenfassung aller Kurse, Arbeitshilfen, Lernpfade oder Zertifizierungen in Ihrem Katalog generieren\. Die Zusammenfassung basiert auf den Kursinhalten und Modultranskripten, die im Katalog gespeichert sind.
+
+### Nach einem Kurs suchen
+
+1. Öffnen Sie _Lernassistent_ von Ihrer Teilnehmer-Startseite aus.
+2. Geben Sie im Chat-Bedienfeld / ein, um eine Inhaltssuche zu starten.
+
+>[!NOTE]
+>
+>Lernobjekte, die nicht dem Katalog hinzugefügt wurden, können nicht durchsucht werden. Sie können auf alle Inhalte zugreifen, auf die Sie Zugriff haben, aber der Teilnehmer-Assistent ruft nur die Zusammenfassung vom Inhalt des Moduls ab.
+
+1. Geben Sie den Namen des Kurses, der Arbeitshilfe, des Lernpfads oder der Zertifizierung ein, die Sie zusammenfassen möchten\. Eine Typ\-Ahead-Liste der entsprechenden Katalogelemente wird angezeigt.
+2. Wählen Sie das Lernobjekt aus der Liste aus.
+
+### Kursübersicht erstellen
+
+Verwenden Sie diese Funktion, wenn Sie einen schnellen, zuverlässigen Schnappschuss eines Kurses benötigen, ohne ihn vollständig zu öffnen\. Häufige Szenarien:
+
+- Erneuern oder Aufpolieren des Lernens
+  *Szenario:* Ein Vertriebsmitarbeiter hat vor sechs Monaten einen Kurs zu den &quot;Verhandlungsgrundlagen&quot; abgeschlossen und morgen nun einen großen Aufruf zur Kundenerneuerung. Anstatt alle vier Module erneut anzusehen, bitten sie den Lernassistenten, den Kurs zusammenzufassen und eine schnelle Auffrischung der wichtigsten Verhandlungstaktiken zu erhalten\.
+- Entscheidung über die Registrierung_
+  *Szenario:* Für einen neuen Manager wird &quot;Durchführende Änderung&quot; in seinem Katalog empfohlen, er ist sich jedoch nicht sicher, ob er für seine aktuelle Teamsituation geeignet ist. Sie bitten zunächst um eine Zusammenfassung, achten darauf, dass der Schwerpunkt auf dem Remote-Management von Teamänderungen liegt, und entscheiden sich für eine Registrierung, da sie genau dem entspricht, was sie benötigen.
+- Vorbereiten oder Verweisen auf ein Thema_
+  *Szenario:* Ein Supportingenieur ist im Begriff, einem Kundenanruf über eine Produktfunktion beizutreten, die er seit einer Weile nicht mehr berührt hat. Anstatt einen 45-minütigen Schulungskurs durchzuarbeiten, bitten sie den Learning Assistant, den entsprechenden Kurs zusammenzufassen, damit er die wichtigsten Schritte und die Terminologie vor dem Anruf schnell aktualisieren kann.
+
+1. Geben Sie in der Chat-Eingabe eine Abfrage ein, z. B. diesen Kurs zusammenfassen oder mir eine Zusammenfassung dieses Kurses zukommen zu lassen.
+2. Wählen Sie **Senden**, um Ihre Abfrage zu senden.
+3. Der Lern-Assistent generiert eine Zusammenfassung basierend auf den Kursmodulen und den im Katalog gespeicherten Inhalten und zeigt diese an.
+
+### Best Practices
+
+- Verwenden Sie bei der Suche bestimmte Kursnamen, um genaue Type-Ahead-Ergebnisse zu erhalten.
+- Sie können Zusammenfassungen für Kurse, Arbeitshilfen, Lernprogramme und Zertifizierungen anfordern.
+- Überprüfen Sie die Zusammenfassung, um schnell festzustellen, ob ein Kurs Ihre Lernziele erfüllt, bevor Sie sich registrieren.
+
+## Lernobjekte im Lernassistenten vergleichen
+
+Mit dem Lernassistenten von Adobe Learning Manager können Sie bis zu zwei Lernobjekte aus Ihrem Katalog nebeneinander vergleichen. Verwenden Sie diese Funktion, um die Unterschiede in Inhalt, Umfang oder Fokus zwischen zwei Kursen zu verstehen, bevor Sie sich registrieren.
+
+### Auswählen von Lernobjekten zum Vergleichen
+
+1. Öffnen Sie _Lernassistent_ von Ihrer Teilnehmer-Startseite aus.
+2. Geben Sie im Chat-Bedienfeld / ein, um eine Inhaltssuche zu starten.
+3. Geben Sie den Namen des ersten Lernobjekts ein. Eine Type-Ahead-Liste der entsprechenden Katalogelemente wird angezeigt.
+4. Wählen Sie das erste Lernobjekt aus der Liste aus.
+5. Geben Sie / erneut ein und suchen Sie nach dem zweiten Lernobjekt.
+6. Wählen Sie das zweite Lernobjekt aus der Liste aus.
+
+>[!NOTE]
+>
+>Sie können maximal zwei Lernobjekte in einer einzigen Abfrage vergleichen.
+
+### Vergleich anfordern
+
+1. Geben Sie in der Chat-Eingabe eine Abfrage ein, z. B. was der Unterschied zwischen diesen beiden Kursen ist, oder vergleichen Sie diese Lernobjekte.
+2. Wählen Sie _Senden_, um Ihre Abfrage zu senden.
+3. Der Lernassistent generiert einen Vergleich und zeigt ihn an, der die Unterschiede im Inhalt zwischen den beiden Lernobjekten hervorhebt.
+
+### Best Practices
+
+- Überprüfen Sie einzelne Kurszusammenfassungen, bevor Sie sie vergleichen, um die einzelnen Kurse kurz zu verstehen.
+- Verwenden Sie das Vergleichsergebnis, um herauszufinden, welcher Kurs Themen abdeckt, die für Ihre Rolle oder Ihren Qualifikationsdefizit am relevantesten sind.
+- Wenn Katalogelemente nicht im Typ\-ahead angezeigt werden, bestätigen Sie mit Ihrem Administrator, dass beide Lernobjekte Teil des zugewiesenen Katalogs sind.
+
+## Experience League von Antworten im Lernassistenten
+
+Erfahren Sie, wie der Lernassistent von Adobe Learning Manager Teilnehmern mithilfe von Inhalten aus Adobe Experience League, einschließlich Links zu relevanten Hilfeartikeln, Fragen beantworten kann.
+
+### Wie der Lernassistent Experience League verwendet
+
+Der Learning Assistant von Adobe Learning Manager kann Antworten von [Adobe Experience League](/help/migrated/user-guide.md), der offiziellen Hilfs- und Dokumentationsseite der Adobe, erhalten. Wenn ein Teilnehmer eine prozedurale oder eine Gewusst-wie-Frage stellt, kann der Lernassistent eine relevante Antwort abrufen und einen Link zum vollständigen Experience League-Artikel hinzufügen.
+
+### Welche Fragen kann der Learning Assistant beantworten?
+
+Der Lern-Assistent kann Fragen zur Verwendung von Adobe Learning Manager als Teilnehmer beantworten. Beispiele:
+
+- Registrierung für einen Kurs, der von einem Manager nominiert wurde
+- So greifen Sie auf ein Lernprogramm oder eine Zertifizierung zu
+- So finden und sehen Sie Ihre abgeschlossenen Kurse
+
+Wenn der Lern-Assistent auf Experience League eine relevante Antwort findet, enthält die Antwort einen Link zum Quellartikel, damit Sie die vollständige Dokumentation durchsehen können.
+
+### Unterschiede zum Admin Assistant
+
+Der [Admin Assistant](/help/migrated/administrators/feature-summary/alm-ai-assistant.md) in Adobe Learning Manager bietet Administratoren seit früheren Versionen Antworten auf Experience League-Ressourcen. Durch die Verbesserung vom August 2026 wird diese Funktion auf den lernorientierten Lernassistenten erweitert, sodass Teilnehmer auch Hilfe erhalten können, ohne die Plattform zu verlassen.
+
+Sowohl der Admin-Assistent als auch der dem Teilnehmer zugewandte Lernassistent verwenden den gleichen zugrunde liegenden Experience League-Inhalt, um Antworten zu generieren.
+
+## Unterstützung für Inhalte von Drittanbietern im Lernassistenten
+
+Der Lernassistent von Adobe Learning Manager kann Teilnehmerfragen zu Lernobjekten aus beliebigen Inhalten von Drittanbietern, die auf der Plattform verfügbar sind, sowie native Adobe Learning Manager-Inhalte beantworten. Bevor Teilnehmer diese Kurse abfragen können, muss ein Administrator Adobe Learning Manager den Lernkatalog Go1 oder LinkedIn hinzufügen.
+
+### Funktionsweise der Katalogunterstützung von Drittanbietern
+
+>[!IMPORTANT]
+>
+>Voraussetzung ist, dass ein Administrator die erforderlichen Kataloge dem Teilnehmer-Assistenten hinzufügt. Weitere Informationen finden Sie unter [Zugriff auf AI Assistant konfigurieren](https://experienceleague.adobe.com/de/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access).
+
+
+Wenn ein Administrator einen Go1- oder LinkedIn-Lernkatalog zu Adobe Learning Manager hinzufügt, durchläuft der Kataloginhalt einen geplanten Aufnahmeprozess. Nach Abschluss der Aufnahme sind die Lernobjekte aus diesem Katalog für die Abfrage durch den Lernassistenten verfügbar.
+
+Die Aufnahme wird in der Regel innerhalb von ein bis zwei Stunden nach dem Hinzufügen des Katalogs durch den Administrator abgeschlossen.
+
+Nach Abschluss der Aufnahme können Teilnehmer Fragen zu den Go1- oder LinkedIn Learning-Kursen auf die gleiche Weise stellen, wie sie native Adobe Learning Manager-Inhalte abfragen\. Beispielsweise kann ein Teilnehmer eine Zusammenfassung eines Go1-Kurses anfordern oder einen LinkedIn Learning-Kurs mit einem Adobe Learning Manager-Kurs vergleichen, indem er den Befehl / verwendet.
+
+- Adobe Learning Manager verfügt über keine Inhaltsabschriften für Inhalte von Drittanbietern, daher werden keine Transkripte verwendet, um Antworten abzurufen. Antworten werden nur aus verfügbaren Metadaten wie Titel, Beschreibung und Übersicht abgerufen.
+- Derzeit wird nur _Englisch_ unterstützt.
+
+### Voraussetzungen
+
+Der Lern-Assistent kann Lerninhalte zu Go1 oder LinkedIn abfragen:
+
+- Ein Administrator muss der Adobe Learning Manager den entsprechenden Go1- oder LinkedIn-Lernkatalog hinzufügen.
+- Die geplante Katalogaufnahme muss abgeschlossen sein, bevor die Kurse für die Abfrage verfügbar sind.
+- Die Lernobjekte müssen Teil des dem Teilnehmer zugewiesenen Katalogs sein.
 
 ## Beheben von Problemen mit dem AI-Assistenten
 
 > **HINWEIS**
-> Nachdem Sie einen neuen Katalog konfiguriert haben, warten Sie 4 bis 5 Stunden, bis der Inhalt indiziert und für die Antworten des AI-Assistenten verfügbar ist.
+> Nachdem Sie einen neuen Katalog konfiguriert haben, warten Sie 4 bis 5 Stunden, bis der Inhalt indiziert und für Antworten des AI-Assistenten verfügbar ist.
 
 ### Kein Zugriff auf Inhalte
 
@@ -291,3 +419,11 @@ Der AI-Assistent bietet Teilnehmern schnelle, kontextbezogene Antworten, unterst
 - Unangemessene Inhalte
 
 Der AI Assistant ist darauf ausgelegt, Fragen nur auf der Grundlage zugewiesener Lerninhalte zu beantworten, und antwortet nicht auf Anfragen außerhalb des Zuständigkeitsbereichs.
+
+### Go1- oder LinkedIn-Lernkurse werden nicht in der Lernassistentensuche angezeigt
+
+Bestätigen Sie mit Ihrem Administrator, dass der Katalog &quot;Go1&quot; oder &quot;LinkedIn Learning&quot; zu Adobe Learning Manager hinzugefügt wurde und dass die Katalogaufnahme abgeschlossen ist. Die Aufnahme kann bis zu ein bis zwei Stunden nach dem Hinzufügen des Katalogs dauern.
+
+### Ein kürzlich hinzugefügter Kurs ist noch nicht verfügbar
+
+Warten Sie, bis die geplante Katalogsynchronisierung abgeschlossen ist. Wenn der Kurs nach zwei Stunden immer noch nicht angezeigt wird, wenden Sie sich an Ihren Administrator, um zu bestätigen, dass die Katalogverbindung aktiv ist.

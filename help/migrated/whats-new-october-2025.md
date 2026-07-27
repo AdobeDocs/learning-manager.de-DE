@@ -3,23 +3,24 @@ description: Erfahren Sie mehr über die neuen Funktionen und Verbesserungen in 
 jcr-language: en_us
 title: Neue Funktionen in der Adobe Learning Manager-Version Oktober 2025
 exl-id: 8a2f5c82-2150-46c6-a50b-a3d8a4c8ae53
-source-git-commit: f200caa15d4e58ce1a4b947c1d5b8a35ba87afc3
+source-git-commit: 0f7f42d18c81d18b6f6592a90f9322f0cd9dcce4
 workflow-type: tm+mt
-source-wordcount: '5643'
+source-wordcount: '5580'
 ht-degree: 0%
 
 ---
+
 
 # Neue Funktionen in der Adobe Learning Manager-Version Oktober 2025
 
 Die Adobe Learning Manager-Version vom Oktober 2025 enthält wesentliche Verbesserungen zur Verbesserung der Berichtsgenauigkeit, zur Erweiterung der Integrationsfunktionen und zur Verbesserung des Lernerlebnisses für Administratoren, Autoren und Teilnehmer.
 
-* Experience Builder: Designt rollenbasierte, vollständig auf die Anforderungen eures Unternehmens zugeschnittene Lernportale. Erstellen Sie rollenbasierte Lernportale mit Widgets, Menüs und Seiten.
-* Soziales Tagging in Lerntafeln: Teilnehmer können jetzt Peers mithilfe von @username in Beiträgen und Kommentaren taggen und so eine zielgerichtete Zusammenarbeit und Benachrichtigungen in Social-Learning-Communitys ermöglichen.
-* Berechtigungen für Ankündigungen mit Umfang: Benutzerdefinierte Administratoren können Ankündigungen erstellen, die auf ihre zugewiesenen Benutzergruppen oder Kataloge beschränkt sind, um eine zielgerichtete Kommunikation zu gewährleisten und die Informationsüberlastung zu reduzieren.
-* Sprachbasierte Fortschrittsverfolgung: Der Teilnehmerfortschritt wird jetzt für jedes Gebietsschema unabhängig gespeichert, sodass Sie nahtlos zwischen den Sprachen wechseln können, ohne den Fortschritt zu verlieren.
+* Experience Builder: Entwerfen Sie rollenbasierte Lernportale, die auf die Anforderungen Ihres Unternehmens zugeschnitten sind. Erstellen Sie rollenbasierte Lernportale mit Widgets, Menüs und Seiten.
+* Soziales Tagging in Lernboards: Teilnehmer können jetzt Peers mithilfe von @username in Beiträgen und Kommentaren taggen und so eine zielgerichtete Zusammenarbeit und Benachrichtigungen in Social-Learning-Communitys ermöglichen.
+* Ankündigungsberechtigungen mit Umfang: Benutzerdefinierte Administratoren können Ankündigungen erstellen, die auf ihre zugewiesenen Benutzergruppen oder Kataloge beschränkt sind, um eine zielgerichtete Kommunikation zu gewährleisten und die Informationsüberlastung zu reduzieren.
+* Sprachbasierte Fortschrittsverfolgung: Der Teilnehmerfortschritt wird jetzt unabhängig für jedes Gebietsschema gespeichert, sodass Sie nahtlos zwischen Sprachen wechseln können, ohne den Fortschritt zu verlieren.
 * Inkrementelle Verwaltung benutzerdefinierter Rollen: Administratoren können benutzerdefinierte Rollen jetzt effizienter verwalten, indem sie inkrementelle und multiinkrementelle Importe in Adobe Learning Manager unterstützen.
-* Verbesserte APIs für Analyse und Migration: Neue und verbesserte APIs bieten eine bessere Verfolgung der Quizleistung, Überwachung des Migrationsstatus und Unterstützung für Benutzer-Tagging beim sozialen Lernen.
+* Erweiterte APIs für Analyse und Migration: Neue und verbesserte APIs bieten eine bessere Verfolgung der Quizleistung, Überwachung des Migrationsstatus und Unterstützung für Benutzer-Tagging beim sozialen Lernen.
 
 ## Experience Builder
 
@@ -28,10 +29,10 @@ Mit Experience Builder können Administratoren ganz einfach Seiten, Menüs und W
 
 Vor Experience Builder standen Unternehmen vor mehreren Herausforderungen:
 
-1. **Eingeschränkte Anpassung**: In Portalen gab es feste Designs mit wenigen Optionen, die Ihr Branding widerspiegeln. Administratoren konnten nur grundlegende Änderungen vornehmen, z. B. das Ändern von Kopf- und Fußzeilen oder Farben, wodurch die Möglichkeit zum Erstellen einzigartiger Erlebnisse eingeschränkt wurde.
-2. **Kosten**: Die Erstellung benutzerdefinierter Portale erforderte teure Entwickler und lange Zeitpläne, deren Fertigstellung oft 6 bis 9 Monate in Anspruch nimmt. Dieser Ansatz hat die Gesamtbetriebskosten erhöht und die Bereitstellung verzögert.
-3. **Allgemeine Erfahrungen**: Jeder hat den gleichen Inhalt gesehen, auch wenn er für seine Rolle oder Bedürfnisse nicht relevant war. Dieser Mangel an Personalisierung verringerte die Interaktion und Zufriedenheit der Teilnehmer.
-4. **Technische Barrieren**: Nicht-technische Administratoren hatten Schwierigkeiten, Portale zu erstellen oder zu aktualisieren, weil sie Programmierkenntnisse oder externen Support benötigten.
+1. **Eingeschränkte Anpassung**: Portale hatten feste Designs mit wenigen Optionen, die deine Marke widerspiegeln. Administratoren konnten nur grundlegende Änderungen vornehmen, z. B. das Ändern von Kopf- und Fußzeilen oder Farben, wodurch die Möglichkeit zum Erstellen einzigartiger Erlebnisse eingeschränkt wurde.
+2. **Kosten**: Die Erstellung benutzerdefinierter Portale erforderte teure Entwickler und lange Zeitpläne, die oft 6 bis 9 Monate in Anspruch nahmen. Dieser Ansatz hat die Gesamtbetriebskosten erhöht und die Bereitstellung verzögert.
+3. **Allgemeine Erfahrungen**: Jeder sah den gleichen Inhalt, auch wenn er für seine Rolle oder Bedürfnisse nicht relevant war. Dieser Mangel an Personalisierung verringerte die Interaktion und Zufriedenheit der Teilnehmer.
+4. **Technische Barrieren**: Nicht-technische Administratoren hatten Schwierigkeiten, Portale zu erstellen oder zu aktualisieren, weil sie Programmierkenntnisse oder externe Unterstützung brauchten.
 
 Experience Builder löst diese Probleme mit einer einfachen Lösung ohne oder mit geringem Code für die Erstellung personalisierter Portale für Marken.
 
@@ -39,8 +40,8 @@ Dadurch können Administratoren Portale entwerfen, die den Anforderungen ihres U
 
 **Anwendungsfälle**
 
-* **Portale mit Branding**: Erstellen Sie ein Portal, das der Website Ihres Unternehmens mit Logos, Farben und Layouts entspricht. Ein Unternehmen im Gesundheitswesen kann beispielsweise ein Portal entwerfen, das sein Branding widerspiegelt und gleichzeitig Lerninhalte bereitstellt.
-* **Rollenbasiertes Lernen**: Auf bestimmte Rollen zugeschnittene Seiten erstellen. Vertriebsteams können Produktschulungen anzeigen, während Ingenieure auf technische Kurse zugreifen.
+* **Markenportale**: Erstelle ein Portal, das zu deiner Unternehmenswebsite mit Logos, Farben und Layouts passt. Ein Unternehmen im Gesundheitswesen kann beispielsweise ein Portal entwerfen, das sein Branding widerspiegelt und gleichzeitig Lerninhalte bereitstellt.
+* **Rollenbasiertes Lernen**: Erstellt Seiten, die auf bestimmte Rollen zugeschnitten sind. Vertriebsteams können Produktschulungen anzeigen, während Ingenieure auf technische Kurse zugreifen.
 * **Produktschulung**: Richten Sie spezielle Seiten für verschiedene Produkte wie Photoshop oder Illustrator ein, auf denen Widgets mit Kursen, Zertifizierungen und zugehörigen Ressourcen angezeigt werden.
 
 In [Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/overview.md) finden Sie weitere Informationen zum Erstellen benutzerdefinierter Seiten mithilfe von Widgets.
@@ -54,8 +55,8 @@ Wenn ein Teilnehmer beispielsweise 75 % Fortschritt in Gebietsschema A (Englisch
 Um diese Einschränkungen zu beheben, wurde die Funktion verbessert und unterstützt jetzt die gebietsschemaspezifische Fortschrittsverfolgung:
 
 * **Gebietsschemaspezifischer Speicher**: Wenn ein Teilnehmer im Player das Gebietsschema wechselt (z. B. von Gebietsschema A zu Gebietsschema B), speichert Adobe Learning Manager den Fortschrittsstatus jetzt separat für jedes Gebietsschema des Inhalts.
-* **Fortsetzen des Fortschritts**: Wenn der Benutzer wieder zu einem zuvor verwendeten Gebietsschema wechselt (von Gebietsschema B zurück zu Gebietsschema A), wird der Inhalt an der Stelle fortgesetzt, an der er an diesem bestimmten Gebietsschema aufgehört hat.
-* **Unabhängige Fortschrittsverfolgung**: Jedes Gebietsschema behält seinen eigenen Fortschrittsstatus bei, sodass Teilnehmer Inhalte in mehreren Sprachen erkunden können, ohne ihren individuellen Fortschritt in jeder Sprache zu verlieren.
+* **Fortsetzung des Fortschritts**: Wenn der Benutzer zu einem zuvor verwendeten Gebietsschema zurückkehrt (von Gebietsschema B zurück zu Gebietsschema A), wird der Inhalt dort fortgesetzt, wo er an dem betreffenden Gebietsschema aufgehört hat.
+* **Unabhängige Fortschrittsverfolgung**: Jedes Gebietsschema behält seinen eigenen Status bei, sodass Teilnehmer Inhalte in mehreren Sprachen ausprobieren können, ohne ihren individuellen Fortschritt in jeder Sprache zu verlieren.
 
 Die folgenden Inhaltstypen werden für den sprachbasierten Teilnehmerfortschritt nicht unterstützt:
 
@@ -100,7 +101,7 @@ Die Go1-Integration wurde verbessert, um die direkte Kuratierung von Go1-Kursen 
 
 * Für alle Go1-Funktionen ist eine aktive Go1-Lizenz erforderlich.
 * Frühere kostenlose Go1-Inhalte werden eingestellt. Unternehmen müssen die erforderlichen Content-Pakete in der Vorschau anzeigen und erwerben.
-* Administratoren und Autoren können Wiedergabelisten erstellen und verwalten. Teilnehmer behalten den schreibgeschützten Zugriff.
+* Administratoren und Autoren können Wiedergabelisten erstellen und verwalten. Teilnehmer verwalten einen schreibgeschützten Zugriff.
 
 Zeigen Sie [Go1-Kurse für den Lernpfad kuratieren](/help/migrated/administrators/feature-summary/content-marketplace/curate-go1-playlist.md) an, um weitere Informationen zum Hinzufügen von Go1-Kursen zum Lernpfad zu erhalten.
 
@@ -182,15 +183,15 @@ Soziale Boards unterstützen jetzt Benutzer-Tagging-Funktionen, die zielgerichte
 
 Benutzer außerhalb des Bereichs des Boards können nicht mit Tags versehen werden, um unerwünschte Benachrichtigungen zu verhindern. Wenn ein mit Tags versehener Benutzer aus dem System gelöscht wird, wird er als &quot;anonym&quot; erwähnt. Das Markieren von Benutzergruppen oder &quot;@all&quot; ist nicht zulässig, um Benachrichtigungs-Spam zu verhindern.
 
-* **@username Tagging**: Benutzer können andere Board-Mitglieder mithilfe des Formats &quot;@username&quot; mit Tags versehen.
-* **Bereichsbeschränktes Tagging**: Nur Benutzer mit Zugriff auf das jeweilige Board können markiert werden, um Datenschutz und Relevanz zu gewährleisten.
+* **@username Tagging**: Benutzer können andere Board-Mitglieder mit Tags im &quot;@username&quot;-Format versehen.
+* **Bereichsbeschränktes Tagging**: Nur Benutzer mit Zugriff auf das jeweilige Board können markiert werden, um Privatsphäre und Relevanz zu gewährleisten.
 * **Multi-Channel-Benachrichtigungen**: Benutzer mit Tags erhalten sowohl In-App- als auch E-Mail-Benachrichtigungen mit direkten Links zu relevanten Beiträgen oder Kommentaren.
 
 **Anwendungsfälle**
 
-* Fachkräfte im Gesundheitswesen, die Anregungen von bestimmten Kollegen zu medizinischen Fällen benötigen: Durch Tagging können Ärzte und Krankenschwestern schnell die richtigen Spezialisten benachrichtigen und so eine zeitnahe und präzise Beratung zu komplexen Patientenfällen gewährleisten.
+* Fachkräfte im Gesundheitswesen, die von bestimmten Kollegen Informationen zu medizinischen Fällen benötigen: Durch Tagging können Ärzte und Pflegekräfte schnell die richtigen Spezialisten benachrichtigen und so eine zeitnahe und präzise Beratung zu komplexen Patientenfällen gewährleisten.
 * Fachexperten werden zu speziellen Themen konsultiert: Durch Tagging von Experten können Teams die richtigen Personen direkt einbeziehen, die Reaktionszeit verkürzen und die Entscheidungsfindung bei technischen oder Nischenanfragen verbessern.
-* Teamdiskussionen, die Beiträge von bestimmten Stakeholdern erfordern: Durch das Markieren von Stakeholdern wird sichergestellt, dass die relevanten Entscheidungsträger über Aktualisierungen informiert sind und Beiträge liefern können, sodass Projekte auf Kurs bleiben und an den Geschäftszielen ausgerichtet sind.
+* Teamdiskussionen, die Beiträge bestimmter Interessengruppen erfordern: Durch das Markieren von Stakeholdern wird sichergestellt, dass die relevanten Entscheidungsträger über Aktualisierungen informiert sind und Informationen bereitstellen können, sodass Projekte auf Kurs bleiben und an den Geschäftszielen ausgerichtet sind.
 
 Weitere Informationen zum Taggen von Benutzern in sozialen Boards finden Sie unter [Benutzer-Tagging in sozialen Boards](/help/migrated/learners/feature-summary/social-learning-web-user.md#tag-users-in-social-board-posts).
 
@@ -233,7 +234,7 @@ Weitere Informationen zum Widget für gespeicherte Kurse auf AEM Sites finden Si
 
 ## Unterstützung für die Anzeige der Autorennamen in freigegebenen Kursen
 
-Wenn ein Kurs zuvor für ein [Peer-Konto](/help/migrated/administrators/feature-summary/peer-account.md) freigegeben wurde, erschien der Autor als externer Autor. Kurse zeigen jetzt den Namen des Autors an, unabhängig davon, ob es sich um einen internen Benutzer des Hauptkontos oder einen älteren Autor handelt (d. h. um einen Namen, der während der Kurserstellung als Zeichenfolge in das Feld &quot;Autoren&quot; eingegeben wurde). Wenn Sie einen Autor auswählen, wird die Anzahl der Kurse angezeigt, die sie für das Peer-Konto freigegeben haben. Diese Autoren sind jedoch keine tatsächlichen Benutzer im Peer-Konto.
+Wenn ein Kurs zuvor für ein [Peer-Konto](/help/migrated/administrators/feature-summary/peer-account.md) freigegeben wurde, erschien der Autor als externer Autor. Kurse zeigen jetzt den Namen des Autors an, unabhängig davon, ob es sich um einen internen Benutzer des Hauptkontos oder einen älteren Autor handelt (d. h. um einen Namen, der während der Kurserstellung als Zeichenfolge in das Feld &quot;Autoren&quot; eingegeben wurde). Wenn Sie einen Autor auswählen, wird die Anzahl der Kurse angezeigt, die er für das Peer-Konto freigegeben hat. Diese Autoren sind jedoch keine tatsächlichen Benutzer im Peer-Konto.
 
 Wenn ein Benutzer aus dem Hauptkonto gelöscht wird, werden seine Daten dort entfernt, die Autoreninformationen verbleiben jedoch in allen Peer-Konten, in denen sein Inhalt freigegeben wurde.
 
@@ -365,7 +366,7 @@ Diese Version enthält neue API-Funktionen zur Unterstützung von Benutzererwäg
 
 **Format der Benutzererwägungen**
 
-Ein Benutzer wird im folgenden Format erwähnt: @(Benutzer:userId)
+Ein Benutzer wird mit dem folgenden Format erwähnt: @(Benutzer:userId)
 
 #### Beitrag mit Erwähnungen erstellen
 
@@ -578,8 +579,8 @@ Suche nach Benutzern, die für Tagging verfügbar sind, basierend auf den Einste
 
 
 * q (erforderlich): Suchbegriff (mindestens 3 Zeichen).
-* context: Setzen Sie die Option auf &quot;Tagging&quot;, damit Benutzer für Erwähnungen berechtigt sind.
-* boardId (optional): Board-ID, um Benutzer basierend auf Zugriffsberechtigungen zu filtern.
+* Kontext: Setzen Sie die Option auf &quot;Tagging&quot;, damit Benutzer berechtigt sind, Erwähnungen abzugeben.
+* boardId (optional): Board-ID zum Filtern von Benutzern basierend auf Zugriffsberechtigungen.
 
 **Antwort**
 
@@ -641,7 +642,7 @@ Die API-Antwort enthält jetzt zwei zusätzliche Felder:
 }
 ```
 
-Als Antwort ist **Kurs:15067_30122_41715_1_3400468** die ID der Lernobjektressourcenklasse, für die die Informationen angefordert werden. Die `learningObjectResourceGrad`e-ID kann von der `GET /enrollments/{id}`-API abgerufen werden.
+Als Antwort ist **course:15067_30122_41715_1_3400468** die ID der Ressourcenklasse des Lernobjekts, für die die Informationen angefordert werden. Die `learningObjectResourceGrad`e-ID kann von der `GET /enrollments/{id}`-API abgerufen werden.
 
 ### API-Antworten unterstützen die Groß- und Kleinschreibung für Autorennamen
 
@@ -649,7 +650,7 @@ Die API-Antwort gibt jetzt die genaue Groß- und Kleinschreibung der alten Autor
 
 * Wenn ein neuer Autorenname hinzugefügt wird, wird die Anfrage gespeichert und genau wie eingegeben zurückgegeben.
 * Wenn ein vorhandener Autorenname entfernt und mit einer anderen Groß-/Kleinschreibung erneut hinzugefügt wird, wird die aktualisierte Groß-/Kleinschreibung berücksichtigt und in allen Kursen widergespiegelt, die diesen Autorennamen verwenden.
-* Für zuvor gespeicherte Namen wird keine automatische Migration ausgeführt. Nur neu hinzugefügte oder aktualisierte Namen folgen diesem Verhalten.
+* Bei zuvor gespeicherten Namen erfolgt keine automatische Migration. Nur neu hinzugefügte oder aktualisierte Namen folgen diesem Verhalten.
 
 ### API-Erweiterung für Kalender
 
@@ -681,9 +682,9 @@ Das neue Attribut &quot;`reportingUserIdPreference`&quot; wurde in &quot;`get /a
 
 In der Lernobjekt-API wurde die Art und Weise, wie Autorinformationen zurückgegeben werden, aktualisiert, um zwischen Hauptkontenkursen und Kursen zu unterscheiden, die für Peer-Konten freigegeben wurden:
 
-* Freigegebene Kurse (Peer-Konto): Autorendetails werden jetzt unter einem neuen Attribut `authorDetails` zurückgegeben. Dieses Attribut gibt den Namen des Autors an, selbst wenn der Kurs von einem anderen Konto stammt.
+* Freigegebene Kurse (Peer-Konto): Die Autorendetails werden jetzt unter einem neuen Attribut `authorDetails` zurückgegeben. Dieses Attribut gibt den Namen des Autors an, selbst wenn der Kurs von einem anderen Konto stammt.
 
-* Hauptkontenkurse: Autoreninformationen werden weiterhin unter dem vorhandenen `authors`-Attribut zurückgegeben, ohne dass sich das aktuelle Verhalten ändert.
+* Hauptkontokurse: Autoreninformationen werden weiterhin unter dem vorhandenen `authors`-Attribut zurückgegeben, ohne dass sich das aktuelle Verhalten ändert.
 
 Diese Änderung stellt sicher, dass die Konsistenz bei der Bereitstellung von Autorendaten über die API sowohl für Haupt- als auch für gemeinsam genutzte Kurse gewährleistet ist, während gleichzeitig die Kompatibilität für vorhandene Integrationen beibehalten wird.
 
@@ -711,7 +712,7 @@ Diese Verbesserung behebt eine kritische Lücke in inkrementellen Teilnehmertran
 Inkrementelle Teilnehmertranskripte sind geplante Berichte, die nur die Änderungen (z. B. Abschlüsse oder Fortschrittsaktualisierungen) erfassen, die innerhalb eines bestimmten Zeitraums auftreten, anstatt einen vollständigen historischen Datenabbild bereitzustellen. Sie werden häufig für die Automatisierung, für Dashboards und Integrationen verwendet, sodass Benutzer aktuelle Lernaktivitäten effizient verfolgen können, ohne jedes Mal den gesamten Transkriptverlauf verarbeiten zu müssen.
 
 * **Spalte &quot;Abgeschlossenes Datum markieren (UTC-Zeitzone)&quot;**: Eine neue Zeitstempelspalte, die das genaue Datum und die exakte Uhrzeit erfasst, wenn ein Kursleiter eine Sitzung oder ein Modul als abgeschlossen markiert.
-* **Verbesserte Vervollständigungsquellenverfolgung**: Verfolgt den spezifischen Kursleiter und das Modul (z. B. &quot;Klassenzimmer&quot;), in dem Abschlüsse aufgezeichnet wurden.
+* **Verbesserte Vervollständigungsquellenverfolgung**: Verfolgt den spezifischen Kursleiter und das Modul (z. B. &quot;Klassenzimmer&quot;), in dem die Abschlüsse aufgezeichnet wurden.
 
 Diese Änderungen stellen sicher, dass nach dem Sitzungsdatum markierte Abschlüsse in den inkrementellen Teilnehmertranskripten genau widergespiegelt werden.
 
@@ -729,8 +730,8 @@ Weitere Informationen zum Teilnehmertranskriptbericht finden Sie im [Teilnehmert
 
 Der Benutzerbericht enthält jetzt zusätzliche Felder zur Verbesserung der Benutzerverfolgung und Organisationszuordnung. Diese Updates vereinfachen die Identifizierung von Benutzern, unterstützen die Integration mit nachgelagerten Benutzerverwaltungs-Workflows, verbessern das Verständnis von Berichtsbeziehungen und wahren organisatorische Grenzen, um versehentliche Querverbindungen zu verhindern.
 
-* Spalte &quot;Interne Benutzer-ID&quot;: Bietet eindeutige interne Kennungen für eine reibungslose Benutzerverfolgung über verschiedene Systeme und API-Endpunkte hinweg.
-* Spalte &quot;Manager-E-Mail&quot;: Enthält direkte Manager-Kontaktinformationen für die Verfolgung der Organisationshierarchie.
+* Spalte für interne Benutzer-ID: Bietet eindeutige interne Kennungen für eine reibungslose Benutzerverfolgung über verschiedene Systeme und API-Endpunkte hinweg.
+* Spalte Manager-E-Mail: Umfasst direkte Manager-Kontaktinformationen für die Verfolgung der Organisationshierarchie.
 
 ![Benutzerbericht mit gelb markierten Spalten für die interne Benutzer-ID und Manager-E-Mail](/help/migrated/assets/user-report-columns.png)
 _Benutzerberichte, die interne Benutzer-IDs und Manager-E-Mail-Adressen zur Optimierung der Benutzerverwaltung hervorheben_
@@ -774,8 +775,8 @@ Weitere Informationen finden Sie im [Teilnehmertranskript](/help/migrated/admini
 
 Der Bericht zu Arbeitshilfen wurde verbessert und enthält jetzt direkte Download-Links zu Arbeitshilfen, wodurch das Content Management und Audit-Prozesse für Administratoren und Autoren optimiert werden. Diese Verbesserung ermöglicht direkte Datei-Downloads und URL-Zugriff vom Bericht aus. Keine manuelle Suche und kein Download von Arbeitshilfen für Compliance- oder Barrierefreiheitsprüfungen mehr erforderlich.
 
-* Spalte &quot;Arbeitshilfeverknüpfung&quot;: Direkter Zugriff auf Arbeitshilfedateien und externe URLs innerhalb des Berichts.
-* Rollenbasierte Zugriffskontrolle: Die Zugänglichkeit von Links hängt von Benutzerrollen und Katalogberechtigungen ab.
+* Spalte &quot;Arbeitshilfe-Link&quot;: Direkter Zugriff auf Arbeitshilfedateien und externe URLs innerhalb des Berichts.
+* Rollenbasierte Zugriffskontrolle: Der Zugriff auf Links hängt von Benutzerrollen und Katalogberechtigungen ab.
 * Gelöschte Arbeitshilfen bleiben verfügbar, wenn sie noch mit aktiven Kursen verknüpft sind.
 
 **Anwendungsfälle**
