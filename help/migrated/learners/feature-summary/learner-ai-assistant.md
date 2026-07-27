@@ -3,9 +3,9 @@ description: Mit dem KI-Assistenten in Adobe Learning Manager erhalten Sie schne
 jcr-language: en_us
 title: AI Assistant für Teilnehmer in Adobe Learning Manager
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
+source-git-commit: 75857b4616180d6294d8374983bb3bf5453c0f46
 workflow-type: tm+mt
-source-wordcount: '3153'
+source-wordcount: '3167'
 ht-degree: 0%
 
 ---
@@ -175,19 +175,25 @@ Bevor Sie den AI-Assistenten konfigurieren, vergewissern Sie sich, dass Sie übe
 
 So aktivieren Sie den AI-Assistenten für Teilnehmer:
 
-&#x200B;1. Melden Sie sich bei Adobe Learning Manager als Administrator an.
+1. Melden Sie sich bei Adobe Learning Manager als Administrator an.
 
-&#x200B;2. Wählen Sie **Einstellungen** auf der Startseite aus.
-![Administratorkonsole mit der Option &quot;Einstellungen&quot; im linken Fensterbereich](assets/settings-menu.png)
+1. Wählen Sie **Einstellungen** auf der Startseite aus.
 
-&#x200B;3. Wählen Sie im Menü **Einstellungen** die Option **Teilnehmer-AI-Assistent (Beta)**.
-![Auf der Administratorkonsole wird die Option &quot;Teilnehmer-AI-Assistent&quot; im linken Bereich angezeigt](assets/learner-assistant-ai-beta.png)
+   ![Administratorkonsole mit der Option &quot;Einstellungen&quot; im linken Fensterbereich](assets/settings-menu.png)
 
-&#x200B;4. Wählen Sie den Umschalter, um den **Teilnehmer-AI-Assistenten (Beta)** zu aktivieren.
+1. Wählen Sie im Menü **Einstellungen** die Option **Teilnehmer-AI-Assistent (Beta)**.
 
-&#x200B;5. Wählen Sie einen oder mehrere Kataloge aus der Option &quot;**Berechtigte Kataloge**&quot;.
+   ![Auf der Administratorkonsole wird die Option &quot;Teilnehmer-AI-Assistent&quot; im linken Bereich angezeigt](assets/learner-assistant-ai-beta.png)
 
-&#x200B;6. Wählen Sie **Speichern**, um die Katalogeinstellungen anzuwenden.
+1. Wählen Sie den Umschalter, um den **Teilnehmer-AI-Assistenten (Beta)** zu aktivieren.
+
+   <!--![Administrators console displays the toggle enabled for Learner AI Assistant](assets/learner-assistant-toggle.png)-->
+   <!--5. Select one or more user groups from the **Eligible user groups** option.-->
+   <!--5. Select **Save** to apply the user group settings.-->
+
+1. Wählen Sie einen oder mehrere Kataloge aus der Option **Kataloge**, für die Sie berechtigt sind.
+
+1. Wählen Sie **Speichern**, um die Katalogeinstellungen anzuwenden.
 
 >[!IMPORTANT]
 >
@@ -199,20 +205,23 @@ So starten Sie den AI-Assistenten:
 
 1. Melden Sie sich bei Adobe Learning Manager als Teilnehmer an.
 
-2. Wählen Sie auf der Startseite **AI Assistant fragen**.
+1. Wählen Sie auf der Startseite **AI Assistant fragen**.
+
    ![Teilnehmer-Startseite zeigt &quot;AI-Assistenten bitten, das Bedienfeld &quot;AI-Assistenten für Teilnehmer&quot; auszuwählen und zu öffnen](assets/ask-ai-assistant.png)
 
-3. Wenn der Bildschirm **Teilnehmer-AI-Assistent** angezeigt wird, wählen Sie **Erste Schritte**.
+1. Wenn der Bildschirm **Teilnehmer-AI-Assistent** angezeigt wird, wählen Sie **Erste Schritte**.
+
    ![Wählen Sie &quot;Erste Schritte&quot;, um den Teilnehmer-Assistenten zu starten](assets/get-started-learner-assistant.png)
 
->[!NOTE]
->
->Wenn Sie den AI Assistant zum ersten Mal starten, müssen Sie Ihre Zustimmung geben, bevor Sie ihn verwenden können. Das Zustimmungsdialogfeld wird nur während dieses ersten Starts angezeigt. Für alle nachfolgenden Starts werden Sie direkt zum AI Assistant weitergeleitet, wo Sie Ihre Eingabeaufforderungen eingeben können.
+   >[!NOTE]
+   >
+   >Wenn Sie den AI Assistant zum ersten Mal starten, müssen Sie Ihre Zustimmung geben, bevor Sie ihn verwenden können. Das Zustimmungsdialogfeld wird nur während dieses ersten Starts angezeigt. Für alle nachfolgenden Starts werden Sie direkt zum AI Assistant weitergeleitet, wo Sie Ihre Eingabeaufforderungen eingeben können.
 
-&#x200B;4. Geben Sie die Eingabeaufforderung in das Textfeld ein.
-<!-- ![Type prompt in the Learner Assistant](assets/type-prompt-new.png) -->
+1. Geben Sie die Eingabeaufforderung in das Textfeld ein.
 
-5.Drücken Sie **Enter**, um eine Antwort zu erhalten. Prüft eure Antworten, Quellen und Empfehlungen.
+   <!-- ![Type prompt in the Learner Assistant](assets/type-prompt-new.png) -->
+
+1. Drücken Sie die **Eingabetaste**, um eine Antwort zu erhalten. Prüft eure Antworten, Quellen und Empfehlungen.
 
 Sie haben folgende Möglichkeiten:
 
@@ -348,7 +357,7 @@ Der Lernassistent von Adobe Learning Manager kann Teilnehmerfragen zu Lernobjekt
 
 >[!IMPORTANT]
 >
->Voraussetzung ist, dass ein Administrator die erforderlichen Kataloge dem Teilnehmer-Assistenten hinzufügt. Weitere Informationen finden Sie unter [Zugriff auf AI Assistant konfigurieren](https://experienceleague.adobe.com/de/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access).
+>Voraussetzung ist, dass ein Administrator die erforderlichen Kataloge dem Teilnehmer-Assistenten hinzufügt. Weitere Informationen finden Sie unter [Zugriff auf AI Assistant konfigurieren](https://experienceleague.adobe.com/en/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access).
 
 
 Wenn ein Administrator einen Go1- oder LinkedIn-Lernkatalog zu Adobe Learning Manager hinzufügt, durchläuft der Kataloginhalt einen geplanten Aufnahmeprozess. Nach Abschluss der Aufnahme sind die Lernobjekte aus diesem Katalog für die Abfrage durch den Lernassistenten verfügbar.
