@@ -6,8 +6,8 @@ contentowner: dvenkate
 exl-id: 3bf9818a-4b86-47e9-9b86-1c32b8bfee3a
 source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 62%
+source-wordcount: '605'
+ht-degree: 81%
 
 ---
 
@@ -86,9 +86,9 @@ Die Startseite für immersives Layout wird in IE 11-Browsern nicht unterstützt.
 ## Empfohlene Bildgröße {#recommendedsizeofimages}
 
 * Mastertitel:
-   * Für so große Einstellungen: 1280 x 360 PX
-   * Für mittlere Einstellungen: 1280 x 273 PX
-   * Kleine Einstellungen: 1280 x 187 PX
+  * Für so große Einstellungen: 1280 x 360 PX
+  * Für Einstellungen als Medium: 1280 x 273 PX
+  * Für so kleine Einstellungen: 1280 x 187 PX
 * Bild auf der Katalogkarte: 280 x 100 px
 * Größe der Schulungskarte: 300 x 240 px
 * Soziales Banner: 1.600 x 240 px
@@ -101,7 +101,7 @@ Die maximale Dateigröße, die hochgeladen werden kann, beträgt 600 MB.
 >
 >Wenn die Größe der Datei *user.csv* 100 MB überschreitet, kann das Importieren dieser Datei zu einem unerwarteten Verhalten des Browsers führen. Das Problem tritt auf, weil dem Browser der Arbeitsspeicher ausgeht.
 
-Es wird empfohlen, große *user.csv*-Dateien mithilfe des automatisierten Box/Exavault-Workflows zu importieren. Weitere Informationen finden Sie unter [Dateien migrieren](/help/migrated/integration-admin/feature-summary/migration-manual.md).
+Wir empfehlen, große *user.csv*-Dateien mithilfe des automatisierten Box/Exavault-Workflows zu importieren. Weitere Informationen finden Sie unter [Migrieren von Dateien](/help/migrated/integration-admin/feature-summary/migration-manual.md).
 
 
 ## Unterstützte Inhaltsformate
@@ -216,7 +216,7 @@ Es wird empfohlen, große *user.csv*-Dateien mithilfe des automatisierten Box/Ex
    <td>
     <p>Abzeichen auf dem Dashboard für Teilnehmerleistungen</p></td>
    <td>
-    <p> 40x40 Pixel</p></td>
+    <p>40x40 Pixel</p></td>
   </tr>
   <tr>
    <td>

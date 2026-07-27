@@ -3,9 +3,9 @@ description: Als Autor erfahren Sie, wie Sie adaptive Kurse für Ihre Teilnehmer
 jcr-language: en_us
 title: Adaptive Kurse für Autoren
 contentowner: mmanuel
-source-git-commit: b9dafa140601d71d62f68056d3403a1be0c77eb3
+source-git-commit: 5d4ba4ccd3b32a6108b5c8101f48f12f27775e00
 workflow-type: tm+mt
-source-wordcount: '2439'
+source-wordcount: '3038'
 ht-degree: 0%
 
 ---
@@ -111,6 +111,18 @@ Nach der Veröffentlichung steht der Kurs für die Registrierung zur Verfügung.
 >
 >Nach der Veröffentlichung können Sie nicht mehr von &quot;Adaptiv&quot; zu &quot;Standard&quot; oder umgekehrt wechseln. Überprüfen Sie Ihre Konfiguration vor der Veröffentlichung.
 
+### Verhalten für Katalogfreigabe
+
+Wenn ein Katalog mit adaptiven Kursen extern für ein Peer-Konto freigegeben wird, gelten die folgenden Verhaltensweisen:
+
+* **Direkt freigegebene adaptive Kurse:** Adaptive Kurse sind aus dem freigegebenen Katalog ausgeschlossen. Sie werden nicht im Empfängerkonto angezeigt.
+* **Adaptive Kurse innerhalb eines Lernpfads oder einer Zertifizierung:** Wenn ein LP oder eine Zertifizierung, die einen adaptiven Kurs enthält, freigegeben wird, wird das LP oder die Zertifizierung selbst in das empfangende Konto kopiert. Der darin enthaltene adaptive Kurs wird als **regulärer Kurs** kopiert. Die adaptive Konfiguration, einschließlich aller Sichtbarkeits- und Abschlussregeln, wird nicht kopiert. Autoren im empfangenden Konto sehen den Kurs als normalen Kurs, wobei alle Module für alle Teilnehmer sichtbar sind.
+* **Adaptive Kurse werden als erforderliche Komponenten festgelegt:** Wenn ein adaptiver Kurs als Voraussetzung eines regulären Kurses, eines Lernpfads oder einer Zertifizierung konfiguriert ist, der bzw. die gemeinsam genutzt wird, wird die erforderliche Beziehung nicht an das empfangende Konto weitergegeben. Der übergeordnete Kurs oder LO kommt ohne die erforderliche Voraussetzung im empfangenden Konto an.
+
+>[!NOTE]
+>
+>Da adaptive Konfigurationen während der Katalogfreigabe nicht kopiert werden, sollten Sie alle erforderlichen Beziehungen und LP/Zertifizierungsstrukturen überprüfen, bevor Sie einen Katalog extern freigeben. Teilnehmer im empfangenden Konto haben nicht dasselbe adaptive Verhalten wie Teilnehmer im Quellkonto.
+
 
 ### Aktualisieren eines veröffentlichten adaptiven Kurses
 
@@ -140,6 +152,14 @@ Beachten Sie, dass Sie die Sichtbarkeitseinstellungen im adaptiven Kurs nicht me
 | Modul wurde für die Benutzergruppe eines Teilnehmers von obligatorisch in optional geändert | Modul bleibt sichtbar; Der Teilnehmer muss es nicht mehr abschließen, damit der Kurs abgeschlossen werden kann. |
 | Neues obligatorisches Modul hinzugefügt (der Teilnehmer hat den Kurs bereits abgeschlossen) | Das Modul wird für den Teilnehmer sichtbar, aber er erhält nicht automatisch eine Lizenz und kann nicht darauf zugreifen. Das neue Modul ist nur verfügbar, wenn ein Aktualisierungsabschluss ausgelöst wird. |
 
+>[!NOTE]
+>
+>**Geordneter Lernpfad:** Wenn ein adaptiver Kurs in einem geordneten Lernpfad enthalten ist, können Teilnehmer, die keine sichtbaren Module im adaptiven Kurs haben, diesen nicht abschließen. Dadurch wird verhindert, dass auf alle nachfolgenden Elemente im geordneten Lernpfad zugegriffen werden kann. Stellen Sie sicher, dass jeder Teilnehmer, der sich für den Lernpfad registriert, zu mindestens einer Benutzergruppe gehört, die mindestens ein Modul in jedem adaptiven Kurs im Pfad sichtbar macht.
+
+>[!NOTE]
+>
+>**Regulärer Lernpfad — automatische Aufhebung der Registrierung:** Wenn die Registrierung eines Teilnehmers für einen adaptiven Kurs in einem regulären Lernpfad automatisch aufgehoben wird, weil bei einer Änderung der Benutzergruppe alle sichtbaren Module entfernt wurden, bleibt der übergeordnete Lernpfad im Status &quot;Registriert&quot;. Die Registrierung für den Lernpfad wird nicht automatisch aufgehoben. Der Teilnehmer sieht den Lernpfad als in seinem Transkript registriert, obwohl auf den adaptiven Kurs nicht mehr zugegriffen werden kann. Wenn Ihr Anwendungsfall erfordert, dass der Lernpfad auch die Registrierung aufhebt, wenn der adaptive Kurs dies tut, verwenden Sie einen **adaptiven Lernpfad** anstelle eines regulären Lernpfads.
+
 ### Instanzenwechselverhalten
 
 Ein Teilnehmer, der die Instanzen eines adaptiven Kurses wechselt, führt seinen Fortschritt fort:
@@ -159,10 +179,16 @@ Wenn sich ein Teilnehmer für einen adaptiven Kurs anmeldet, der Klassenzimmer- 
 * Wenn alle sichtbaren Klassenzimmer- oder virtuellen Klassenzimmersitzungen über verfügbare Lizenzen verfügen, wird der Teilnehmer registriert und hat sofort vollen Zugriff.
 * Wenn für eine oder mehrere sichtbare Sitzungen keine Lizenzen verfügbar sind, wird der Teilnehmer registriert und sofort auf die Warteliste für diese bestimmten Sitzungen gesetzt. Sie können alle anderen Module sofort starten und durchlaufen.
 
+### Limit für Warteliste
+
+In regulären Kursen können Kursleiter ein **Limit für die Warteliste** konfigurieren, eine Obergrenze für die Anzahl der Teilnehmer, die für eine Sitzung auf die Warteliste gesetzt werden können.
+
+In adaptiven Kursen ist die Einstellung **Limit für Warteliste** in der Kursleiter-App deaktiviert und kann nicht konfiguriert werden. Es gibt keine Obergrenze für die Anzahl der Teilnehmer, die in einem adaptiven Kurs auf eine Sitzung gewartet werden können. Alle Teilnehmer, die versuchen, sich zu registrieren, wenn eine Sitzung voll ist, werden ohne Einschränkung auf die Warteliste gesetzt.
+
 In der folgenden Tabelle werden alle Lizenz- und Wartelistenszenarien für adaptive Kurse beschrieben.
 
 | Bedingung bei der Registrierung | Ergebnis |
-|---|---|
+| --- | --- |
 | Alle sichtbaren CR/VC-Sitzungen verfügen über verfügbare Lizenzen | Registriert mit vollem Zugriff auf alle Module |
 | Mindestens eine sichtbare CR/VC-Sitzung ist voll | Registriert; nur bei Vollsitzungen auf die Warteliste gesetzt werden; alle anderen Module, auf die sofort zugegriffen werden kann |
 | Teilnehmer bereits registriert; Autor fügt eine neue obligatorische CR/VC-Sitzung ohne Lizenzen hinzu | Teilnehmer auf Warteliste für die neue Sitzung Bestehender Fortschritt und Zugriff unberührt |
@@ -170,6 +196,12 @@ In der folgenden Tabelle werden alle Lizenz- und Wartelistenszenarien für adapt
 | Änderung einer Benutzergruppe entfernt eine Sitzung aus dem sichtbaren Satz des Teilnehmers | Sofort freigegebener Sitz |
 | Teilnehmer schließt den Kurs ab; Neue obligatorische CR/VC-Sitzung wird sichtbar | Modul sichtbar, aber kein Sitz automatisch zugewiesen. Der Teilnehmer muss den Abschluss der Aktualisierung auslösen, um auf die Sitzung zuzugreifen. |
 | Der Administrator oder Kursleiter weist Lizenzen zu | Alle auf die Warteliste gesetzten CR/VC-Sitzungen für diesen Teilnehmer werden gleichzeitig gelöscht |
+
+>[!NOTE]
+>
+>**Verhalten des Flex-Lernpfads:** Wenn ein adaptiver Kurs Teil eines Flex-Lernpfads ist, unterscheidet sich das Wartelistenverhalten von der Direktregistrierung. Wenn ein Teilnehmer eine Instanz des adaptiven Kurses in der Flex-LP auswählt und keine Lizenzen für diese Instanz verfügbar sind, wird der Teilnehmer auf diese spezifische Instanz gewartet. Die auf die Warteliste gesetzten Teilnehmerinformationen für dieses Szenario sind nur für **Admin > [Adaptiver Kurs] > Warteliste** sichtbar. Sie werden nicht in **Admin > Lernpfad** angezeigt. Überprüfen Sie die Registerkarte &quot;Warteliste&quot; des adaptiven Kurses, um Teilnehmer zu verwalten, die über ein Flex-Lernprogramm auf die Warteliste gesetzt wurden.
+
+Wenn Sie den **Anwesenheitsbericht** für eine PDF in einem adaptiven Kurs herunterladen, der Teil eines Flex-Lernpfads ist, werden die Teilnehmer auf der Warteliste im Abschnitt **Aktiv** der PDF angezeigt. Dies liegt daran, dass die Benutzeroberfläche für den Lernpfad keinen separaten Abschnitt &quot;Warteliste&quot; enthält. Verwenden Sie **Admin > [Adaptiver Kurs] > Warteliste**, um zu identifizieren, welche Teilnehmer auf der Warteliste stehen, und sie von bestätigten Teilnehmern zu unterscheiden, bevor Sie die Teilnahme markieren.
 
 ### Warteliste anzeigen
 

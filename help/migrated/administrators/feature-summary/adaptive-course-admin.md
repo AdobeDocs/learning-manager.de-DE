@@ -3,9 +3,9 @@ description: Stellen Sie einen Kurs für mehrere Zielgruppen bereit, indem Sie b
 jcr-language: en_us
 title: Adaptive Kurse in Adobe Learning Manager
 contentowner: mmanuel
-source-git-commit: cf30b15313599f8206b668709f245c3e388d3aa8
+source-git-commit: 5d4ba4ccd3b32a6108b5c8101f48f12f27775e00
 workflow-type: tm+mt
-source-wordcount: '1746'
+source-wordcount: '1964'
 ht-degree: 0%
 
 ---
@@ -134,6 +134,15 @@ Adaptive Kurse können zu Katalogen innerhalb Ihres Kontos hinzugefügt werden. 
 | Katalogfreigabe (kontoübergreifend) | Nein |
 | Sichtbarkeitsregeln für Vorbereitungs- oder Testmodule | Nein |
 | Sichtbarkeitsregeln für Kerninhaltsmodule | Ja |
+| Adaptiver Kurs in einem flexiblen Lernpfad | Ja |
+
+>[!NOTE]
+>
+>Beim Herunterladen des **Anwesenheitsberichts für eine PDF**-Sitzung in einem adaptiven Kurs, der Teil eines Flex-Lernpfads ist, werden Teilnehmer auf Warteliste im Abschnitt &quot;Aktiv&quot; der PDF angezeigt. Die Benutzeroberfläche des Lernpfads verfügt nicht über einen dedizierten Wartelistenabschnitt, sodass im PDF-Export kein separates Wartelistenbucket vorhanden ist. Um Teilnehmer auf der Warteliste genau zu identifizieren, überprüfen Sie **Administrator > [Adaptiver Kurs] > Warteliste**, bevor Sie die Anwesenheit markieren.
+
+Die Spalte &quot;**Eingebettet in**&quot; im Wartelistenbericht identifiziert die Instanzen des Flex-Lernpfads, die diesen adaptiven Kurs als Komponente enthalten. Es werden der Name des Lernpfads und die Lernobjekt-ID angezeigt. Es ist nicht dazu gedacht, einzelne Registrierungspfade für Teilnehmer anzuzeigen. Bei adaptiven Kursen, die in einem untergeordneten Lernpfad verschachtelt sind, der sich selbst in einem übergeordneten Lernpfad befindet, wird in dieser Spalte nur der direkte übergeordnete Lernpfad angezeigt.
+
+Wenn der adaptive Kurs Teil einer **wiederkehrenden Zertifizierung** ist, gilt der Abschluss der Aktualisierung nur für die Registrierung des Teilnehmers im Stammzertifizierungszyklus. Nachfolgende wiederkehrende Zyklen enthalten eine separate Instanz des adaptiven Kurses, die nicht von der Aktualisierung betroffen ist. Teilnehmer, die in einem wiederkehrenden Zyklus registriert sind, sehen keine Modulaktualisierungen oder lassen ihre Abschlüsse rückgängig machen. Wenn Ihr Unternehmen adaptive Kurse in wiederkehrenden Zertifizierungen verwendet, teilen Sie dem Administrator diese Einschränkung mit, bevor Sie den Abschluss der Aktualisierung auslösen.
 
 >[!NOTE]
 >
