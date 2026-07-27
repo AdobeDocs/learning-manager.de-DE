@@ -2,9 +2,9 @@
 description: Mit der API für inkrementelle Benutzerberichtsaufträge können Administratoren nur Benutzer exportieren, deren Daten innerhalb eines bestimmten Datumsbereichs geändert wurden. Dadurch entfällt die Notwendigkeit für vollständige Benutzerexporte und eine effizientere Synchronisierung neuer oder aktualisierter Benutzerdatensätze ist möglich.
 jcr-language: en_us
 title: Inkrementeller Benutzerbericht (Job-API)
-source-git-commit: d61e81b0df6a6043b938c65adaabecb5699c2ce9
+source-git-commit: 40c3bcb1b23ad87a502692007f97b3df27b3a7b9
 workflow-type: tm+mt
-source-wordcount: '1602'
+source-wordcount: '1585'
 ht-degree: 1%
 
 ---
@@ -41,18 +41,18 @@ Der aktuelle Vollbenutzerexport (generateUsers-Auftragstyp) gibt bei jeder Ausf�
 | Kunde D | 7,7 Millionen Benutzer (Migration) |
 
 
-&#x200B;* Bei diesen Größenordnungen läuft die Export-Pipeline bei einer CPU-Auslastung von ca. 90 %, während Daten abgerufen, verarbeitet und gespeichert werden.
-&#x200B;* Nachgeschaltete Dashboards (PowerBI, Salesforce, benutzerdefinierte Integrationen) führen bei jedem Durchlauf unveränderte Benutzerdatensätze ein, wodurch Bandbreite und Verarbeitungszeit verschwendet werden.
-&#x200B;* Es gibt keine Möglichkeit zu fragen, &quot;welche Benutzer sich seit meinem letzten Export geändert haben?&quot; mit der aktuellen API verwenden.
+* Bei diesen Größenordnungen läuft die Export-Pipeline bei einer CPU-Auslastung von ca. 90 %, während Daten abgerufen, verarbeitet und gespeichert werden.
+* Nachgeschaltete Dashboards (PowerBI, Salesforce, benutzerdefinierte Integrationen) führen bei jedem Durchlauf unveränderte Benutzerdatensätze ein, wodurch Bandbreite und Verarbeitungszeit verschwendet werden.
+* Es gibt keine Möglichkeit zu fragen, &quot;welche Benutzer sich seit meinem letzten Export geändert haben?&quot; mit der aktuellen API verwenden.
 
 ## Verwendung von inkrementellen Berichten
 
 Verwenden Sie den inkrementellen Export, wenn ein externes System mit den Adobe Learning Manager-Benutzerdaten synchronisiert bleiben muss. Typische Anwendungsfälle:
 
-&#x200B;* Aktualisieren eines Unternehmens-Dashboards (PowerBI, Tableau, SFDC) mit Änderungen an Benutzerprofilen
-&#x200B;* Einspeisung nachgelagerter Identitätsverwaltungssysteme mit Rollen-, Status- oder Metadatenänderungen.
-&#x200B;* Delta-Sync-Pipelines werden nachts oder stündlich ausgeführt, anstatt vollständige Neuladungen vorzunehmen.
-&#x200B;* Reduzierung der Kosten für API-Laden und -Datenübertragung für Konten mit Millionen von Benutzern.
+* Aktualisieren eines Unternehmens-Dashboards (PowerBI, Tableau, SFDC) mit Änderungen an Benutzerprofilen
+* Einspeisung nachgelagerter Identitätsverwaltungssysteme mit Rollen-, Status- oder Metadatenänderungen.
+* Delta-Sync-Pipelines werden nachts oder stündlich ausgeführt, anstatt vollständige Neuladungen vorzunehmen.
+* Reduzierung der Kosten für API-Laden und -Datenübertragung für Konten mit Millionen von Benutzern.
 
 Verwenden Sie den vollständigen Export (generateUsers), wenn Sie eine autoritative Grundlinie benötigen, z. B. bei der ersten Einrichtung oder nach einer langen Lücke zwischen den Synchronisationen.
 
@@ -73,9 +73,9 @@ Der aktuelle CSV-Benutzerbericht wird als Auftrag über die Jobs-API gesendet. E
 
 Die Nutzlast unterstützt drei optionale Filter:
 
-&#x200B;* `expandMetadata` - Übergeben Sie true, um Metadaten als separate Spalte zu exportieren.
-&#x200B;* `fetchActiveUsers` - Übergeben Sie true, um nur aktive Benutzer zu exportieren.
-&#x200B;* `peerAccountId` - So generieren Sie den Benutzerbericht für ein Peer-Konto.
+* `expandMetadata` - Übergeben Sie true, um Metadaten als separate Spalte zu exportieren.
+* `fetchActiveUsers` - Übergeben Sie true, um nur aktive Benutzer zu exportieren.
+* `peerAccountId` - So generieren Sie den Benutzerbericht für ein Peer-Konto.
 
 ## CSV-Spalten
 
@@ -129,9 +129,9 @@ Jobtyp: generateUsers an. Nur Administratorrolle.
 
 ## Einschränkungen
 
-&#x200B;* Keine datumsbasierte Filterung - jede Ausführung exportiert alle Benutzer.
-&#x200B;* Bei großen Konten nicht möglich - Pipeline-Ressourcenauslastung über ~1 Million Benutzer.
-&#x200B;* Keine inkrementelle oder Delta-Funktion.
+* Keine datumsbasierte Filterung - jede Ausführung exportiert alle Benutzer.
+* Bei großen Konten nicht möglich - Pipeline-Ressourcenauslastung über ~1 Million Benutzer.
+* Keine inkrementelle oder Delta-Funktion.
 
 ## Inkrementeller Benutzerbericht (generateUserIncrementalReport)
 
@@ -174,13 +174,13 @@ Ein Benutzer wird in einen inkrementellen Bericht aufgenommen, wenn eines der fo
 
 Die folgenden Felder werden in der CSV-Ausgabe angezeigt, lösen aber keine Aufnahme in einen inkrementellen Export aus, wenn sie sich ändern:
 
-&#x200B;* excludedFromGamification
-&#x200B;* pointsEarned
-&#x200B;* lastLoginDate
-&#x200B;* dateDeleted
-&#x200B;* dateCreated
-&#x200B;* userSource
-&#x200B;* lastSocialActivityDate
+* excludedFromGamification
+* pointsEarned
+* lastLoginDate
+* dateDeleted
+* dateCreated
+* userSource
+* lastSocialActivityDate
 
 ## Ausgabeformat
 
@@ -313,16 +313,14 @@ Schritt 4: Wiederholen Sie diesen Vorgang so lange, bis eine Antwort weniger als
 
 Der inkrementelle Benutzerbericht ist absichtlich bereichsspezifisch. Die folgenden Funktionen befinden sich außerhalb des Anwendungsbereichs:
 
-&#x200B;* Kein Benutzerprüfungsbericht: Es wird nicht aufgeführt, welche spezifischen Felder geändert wurden.
-&#x200B;* Kein Vergleich alter/neuer Werte - der Bericht zeigt nur die aktuellen Feldwerte an.
-&#x200B;* Keine Zeitstempel pro Änderung - der Zeitpunkt einzelner Feldänderungen wird nicht angezeigt.
-&#x200B;* Keine Angabe der Anzahl der Änderungen - ein Benutzer, der einmal und ein Benutzer, der zehnmal geändert wurde, werden beim Export identisch angezeigt.
-&#x200B;* Das vorhandene Berichtsformat bleibt unverändert - die CSV-Spaltenstruktur ist mit dem vollständigen Benutzerbericht identisch.
+* Kein Benutzerprüfungsbericht: Es wird nicht aufgeführt, welche spezifischen Felder geändert wurden.
+* Kein Vergleich alter/neuer Werte - der Bericht zeigt nur die aktuellen Feldwerte an.
+* Keine Zeitstempel pro Änderung - der Zeitpunkt einzelner Feldänderungen wird nicht angezeigt.
+* Keine Angabe der Anzahl der Änderungen - ein Benutzer, der einmal und ein Benutzer, der zehnmal geändert wurde, werden beim Export identisch angezeigt.
+* Das vorhandene Berichtsformat bleibt unverändert - die CSV-Spaltenstruktur ist mit dem vollständigen Benutzerbericht identisch.
 
 ## Connector-Integration
 
 Der inkrementelle Benutzerbericht wurde für die Verwendung in Adobe Learning Manager-Connectors (PowerBI, Salesforce und andere) als Dropdown-Ersatz für den vollständigen Benutzerbericht in regulären Synchronisierungs-Pipelines entwickelt. Auf diese Weise können Connectors, die heute generateUsers verwenden, zum inkrementellen Modell migrieren, ohne Änderungen am Downstream-Datenschema vorzunehmen.
 
-&#x200B;* Die Ausgabe-CSV ist mit dem vollständigen Benutzerbericht spaltenkompatibel.
-&#x200B;* Connectors können den inkrementellen Bericht für Delta-Sync verwenden und für Bootstrap oder Recovery auf den vollständigen Bericht zurückgreifen.
-&#x200B;* Unterstützung für Connector-Integration (PowerBI, SFDC)
+Connectors können den inkrementellen Bericht für Delta-Sync verwenden und für Bootstrap oder Recovery auf den vollständigen Bericht zurückgreifen.

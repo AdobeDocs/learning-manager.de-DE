@@ -3,9 +3,9 @@ description: Erfahren Sie mehr darüber, wie die Grundeinstellungen Ihnen dabei 
 jcr-language: en_us
 title: Grundlegende Einstellungen
 exl-id: b5cbe224-e3ee-4ac2-8d9b-95249044dfa6
-source-git-commit: 2495d33fc1595bd962ba07988123e3563d4c69a0
+source-git-commit: 40c3bcb1b23ad87a502692007f97b3df27b3a7b9
 workflow-type: tm+mt
-source-wordcount: '5914'
+source-wordcount: '5921'
 ht-degree: 4%
 
 ---
@@ -413,13 +413,13 @@ Wenn die Teilnehmer einen Kurs/Pfad früher abgeschlossen haben und später unte
 **Rückwirkende Unvollständigkeiten aktivieren (unumkehrbar)**
 Wenn ein Kurs/Pfad aus &quot;Alternative Kurse/Pfade&quot; entfernt wird, werden Teilnehmer, die zuvor als abgeschlossen über alternative Kurse/Pfade markiert wurden, als unvollständig markiert. Dies wirkt sich auf alle Teilnehmer aus, deren Abschluss ausschließlich auf dem alternativen Teilnehmer basierte, nicht auf Teilnehmer, die den Kurs direkt abgeschlossen haben. Ihr Transkript spiegelt den aktualisierten Status &quot;unvollständig&quot; wider. Wenn diese Option aktiviert wurde, kann sie nicht mehr deaktiviert werden.
 
-### Sichtbarkeit der Leistungsübersicht
+### Sichtbarkeit der Leistungsübersicht {#gradebookvisibility}
 
 Wenn diese Option aktiviert ist, können Autoren die Gradebook-Sichtbarkeit auf Kursebene steuern, sodass Teilnehmer ihre gewichteten Modulpunktzahlen, die aggregierten Kurswerte und den Status &quot;Bestanden/Nicht bestanden&quot; direkt im Kurs-Player anzeigen können. Wenn diese Einstellung auf Kontoebene deaktiviert ist, können die Teilnehmer das Schulungsbuch in keinem Kurs sehen, unabhängig davon, wie einzelne Kurse konfiguriert sind. Notenbuchergebnisse und Berechnungen werden weiterhin im Hintergrund für Administratorberichterstattungszwecke ausgeführt, auch wenn die Teilnehmersichtbarkeit deaktiviert ist.
 
 **Gradebook-Ansicht für Teilnehmer aktivieren**
 
-Aktiviert die Berechtigung auf Kontoebene, mit der Autoren das Schulungsbuch für jeden Kurs ein- oder ausblenden können. Nach der Aktivierung wird Autoren die Option &quot;Schulungsbuch für Teilnehmer anzeigen&quot; im Kurseditor angezeigt. Teilnehmer sehen im Kurs-Player eine Registerkarte mit dem Kursbuch für jeden Kurs, für den der Autor sie aktiviert hat. Wenn Sie diese Einstellung auf Kontoebene deaktivieren, werden alle Konfigurationen auf Kursebene überschrieben. Die Teilnehmer sehen das Schulungsbuch in keinem Kurs, bis die Einstellung wieder aktiviert wird.
+Aktiviert die Berechtigung auf Kontoebene, mit der Autoren das Schulungsbuch für jeden Kurs ein- oder ausblenden können. Nach der Aktivierung wird Autoren die Option &quot;Schulungsbuch für Teilnehmer anzeigen&quot; im Kurseditor angezeigt. Teilnehmer sehen im Kurs-Player eine Registerkarte mit dem Kursbuch für jeden Kurs, für den der Autor sie aktiviert hat. Wenn Sie diese Einstellung auf Kontoebene deaktivieren, werden alle Konfigurationen auf Kursebene überschrieben. Die Teilnehmer sehen das Schulungsbuch in keinem Kurs, bis die Einstellung wieder aktiviert wird. Weitere Informationen finden Sie unter [Gradebook für Administrator](/help/migrated/administrators/feature-summary/alm-admin-gradebook.md).
 
 ### Externes Lernprogramm
 

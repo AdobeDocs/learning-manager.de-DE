@@ -2,9 +2,9 @@
 description: Alles über das Schulungsbuch aus der Perspektive des Teilnehmers
 jcr-language: en_us
 title: Schulungskalender für Teilnehmer
-source-git-commit: 45338a2325a1d6b4c31869399acf3331c65afed7
+source-git-commit: 40c3bcb1b23ad87a502692007f97b3df27b3a7b9
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '624'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ Sie können die Registerkarte **Gradebook** während der Registrierung jederzeit
 
 * **Bevor Sie beginnen:** Nach der Registrierung sehen Sie die vollständige Liste der bewertbaren Module mit ihren Gewichtungsprozentsätzen, den Höchstwerten für jedes Modul und den vom Autor festgelegten Kriterien für das Bestehen. Dies zeigt Ihnen genau, wie der Kurs bewertet wird, bevor Sie beginnen.
 * **In Bearbeitung:** Während Ihre Module und Ergebnisse aufgezeichnet werden, wird das Notenbuch aktualisiert, um Ihre Ergebnisse neben den Modulen anzuzeigen, die noch nicht getestet wurden oder auf eine Bewertung warten.
-* **Nach Abschluss:** Das Schulungsbuch zeigt alle Endergebnisse des Moduls, Ihre berechnete Gesamtkursbewertung und ein **Endergebnis der** in der Kopfzeile an.
+* **Nach Abschluss:** Das Schulungsbuch zeigt alle endgültigen Modulergebnisse, Ihre berechnete Gesamtkursbewertung und ein **Ergebnis mit bestandenen** Ergebnissen im Header an.
 
 ## Schulungskalender anzeigen
 
@@ -77,7 +77,7 @@ Jedes Modul im Notenbuch zeigt einen der folgenden Status:
 
 ![](assets/image_0012.png)
 
-| **Status** | **Was es bedeutet** |
+| **Status** | **Interpretation** |
 | ------------ | ------------------- |
 | **Bestanden** | Modul beendet und Punktzahl aufgezeichnet |
 | **Wird ausgeführt** | Modul gestartet, aber noch nicht beendet |
