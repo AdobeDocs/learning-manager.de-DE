@@ -2,9 +2,9 @@
 description: API-Änderungen in ALM
 jcr-language: en_us
 title: API-Änderungen in der Version August 2026 von Adobe Learning Manager
-source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
+source-git-commit: 857c94b5e9a7460d63a6dacc0beeddd41f362bf9
 workflow-type: tm+mt
-source-wordcount: '3369'
+source-wordcount: '3354'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ In dieser Version werden drei neue öffentliche API-Endpunkte mit Administratorb
 
 Diese Endpunkte funktionieren nur mit benutzerdefinierten Benutzergruppen. Systemverwaltete Gruppen wie die Gruppe Alle Benutzer und automatisch generierte Benutzergruppen verfügen über den Schreibschutz: true in der API-Antwort und kann nicht über diese Endpunkte geändert oder gelöscht werden.
 
-Anforderungen für die API-Authentifizierung finden Sie unter [Adobe Learning Manager API-Authentifizierung](https://experienceleague.adobe.com/de/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20).
+Anforderungen für die API-Authentifizierung finden Sie unter [Adobe Learning Manager API-Authentifizierung](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20).
 
 ### API-Endpunkte für Benutzergruppen
 
@@ -131,9 +131,8 @@ Beide Felder können weggelassen werden. Wenn ein Feld weggelassen wird, bleibt 
 
 | **Parameter** | **Erforderlich** | **Typ** | **Beschreibung** |
 |---------------|--------------|----------|---------------------------------------------------------------------------|
-| name | Nein | Zeichenfolge | Neuer Anzeigename. Darf nicht leer sein, falls angegeben. Lassen Sie es unverändert. |
+| name | Ja | Zeichenfolge | Neuer Anzeigename. Darf nicht leer sein, falls angegeben. Lassen Sie es unverändert. |
 | Beschreibung | Nein | Zeichenfolge | Neue Beschreibung. Übergeben Sie null zum Löschen. Lassen Sie es unverändert. |
-| data | — | null | Muss null oder nicht vorhanden sein. Jeder Wert ungleich null gibt den Fehler 400 zurück. |
 
 #### **Antwort 200 OK**
 
@@ -205,7 +204,7 @@ Der externe Lern-Workflow über die API spiegelt den Workflow in der Teilnehmer-
 
 Alle fünf Endpunkte sind teilnehmerspezifisch. Ein Teilnehmer kann nur auf seine eigenen Einreichungen zugreifen - die API gibt einen Fehler zurück, wenn ein Teilnehmer versucht, auf die Daten eines anderen Teilnehmers zuzugreifen.
 
-Anforderungen für die API-Authentifizierung finden Sie unter [Adobe Learning Manager API-Authentifizierung](https://experienceleague.adobe.com/de/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20).
+Anforderungen für die API-Authentifizierung finden Sie unter [Adobe Learning Manager API-Authentifizierung](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20).
 
 ### Externe Lern-API-Endpunkte
 
