@@ -3,7 +3,7 @@ description: Referenzhandbuch für Integrationsadministratoren zum Migrieren ein
 jcr-language: en_us
 title: Migrationshandbuch
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: eb8ce39432962f22fbeb299bebad9db39c2e1eaf
+source-git-commit: f85843d501de9da63cd9dde07c5e68e4b8d79c5c
 workflow-type: tm+mt
 source-wordcount: '9051'
 ht-degree: 36%
@@ -1166,7 +1166,7 @@ Beim Erstellen von LTI-Modulversionen:
 
 Das Migrationssystem wendet zusätzlich zu den LTI-spezifischen Feldern den standardmäßigen Arbeitsablauf für die Migrationsverarbeitung an.
 
-## Adaptive Kurse migrieren
+## Adaptive Kurse migrieren {#migrateadaptivecourses}
 
 Wenn Sie Kurse von einem externen System in Adobe Learning Manager migrieren und sie als adaptive Kurse mit Modulebenensichtbarkeit und Abschlussregeln pro Benutzergruppe konfigurieren möchten, können Sie zwei CSV-Dateien verwenden, um sowohl die Kurse als auch ihre adaptiven Regeln zu definieren.
 
