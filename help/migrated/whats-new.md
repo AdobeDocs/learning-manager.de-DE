@@ -3,9 +3,9 @@ description: Erfahren Sie mehr über die neuen Funktionen und Verbesserungen in 
 jcr-language: en_us
 title: Neue Funktionen in Adobe Learning Manager Version August 2026
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: 0e94a4dddaf2d0b60d93ad633d3e6e79e48bc185
+source-git-commit: 3cb62ec615254bdda4103527eb953d3433363785
 workflow-type: tm+mt
-source-wordcount: '2889'
+source-wordcount: '2940'
 ht-degree: 0%
 
 ---
@@ -202,6 +202,10 @@ Es stehen zwei Zugriffsebenen zur Verfügung:
 | **Schreibgeschützt** | Alle benutzerdefinierten Rollen anzeigen, Protokolle importieren und Benutzer löschen Bericht über benutzerdefinierte Rollen herunterladen |
 | **Vollständige Kontrolle** | Alle schreibgeschützten Funktionen plus: benutzerdefinierte Rollen erstellen, bearbeiten, löschen und zuweisen; Importieren von Benutzern über CSV gelöschte Benutzer bereinigen |
 
+### Einschränkungen
+
+**Nur manuell erstellte Rollen**: Die erweiterten Funktionen für die Verwaltung benutzerdefinierter Rollen gelten nur für Rollen, die über die Adobe Learning Manager-Administratoroberfläche erstellt wurden. Über CSV-Upload importierte Rollen werden nicht unterstützt.
+
 Weitere Informationen zu benutzerdefinierten Rollenänderungen. Weitere Informationen finden Sie unter [Was die erweiterte Benutzerberechtigung freigibt](/help/migrated/administrators/feature-summary/custom-role.md#whatadvanceduserpermissionunlocks)
 
 ## LTI-Deep-Linking
@@ -246,7 +250,7 @@ Erfahren Sie mehr über die [API-Änderungen in der Version August 2026 von Adob
 | **Standardisierung des Webhook-Zeitstempels** | Für alle Datums- und Zeitfelder im `data`-Objekt der Webhook-Payloads sind jetzt Sekunden auf `00` festgelegt, sodass die Genauigkeit der Minutenebene mit den Teilnehmertranskriptberichten übereinstimmt. |
 | **Verbesserungen der Verbindung** | Connector-Updates für Azure Data Lake Storage (ADLS) Dauerhafte Raumnamenunterstützung für wiederkehrende virtuelle Klassenzimmersitzungen; Anwesenheitsverfolgung in der Aufnahmeansicht. |
 | **Verbesserungen der Player-Leistung** | Der Fluidic Course Player wurde für schnellere Ladezeiten und sanftere Übergänge zwischen den Modulen optimiert. |
-| **Auswirkungswarnung vor dem Aussetzen von Kursen/LPs** | Administratoren sehen jetzt eine Warnung, in der alle aktiven Registrierungen und abhängigen Lernpfade aufgelistet werden, bevor ein Kurs oder Lernpfad eingestellt werden kann. |
+| **Auswirkungswarnung vor dem Aussetzen von Kursen/LPs** | Bevor ein Kurs oder Lernpfad eingestellt werden kann, wird dem Autor/Administrator eine Warnliste der abhängigen LOs angezeigt. Benachrichtigt den Autor, dass ein konstituierendes LO eingestellt wurde. Administratoren erhalten Informationen, wenn sie das LO erstellt haben, aber nicht über die Rolle &quot;Autor&quot; verfügen. |
 | **CR/VC-Modul: Erwartete Dauer** | Autoren können jetzt die erwartete Dauer für Klassenzimmer- und virtuelle Klassenzimmermodule separat von der geplanten Sitzungszeit festlegen. Dieser Wert wird in Berichten und Kursinformationen zu Teilnehmern angezeigt. |
 | **Bestätigung vor der Bearbeitung erworbener Kurse** | Administratoren in Peer-Konten sehen jetzt ein Bestätigungsdialogfeld, bevor sie einen Kurs bearbeiten, der über die Katalogfreigabe erworben wurde, um unbeabsichtigte Änderungen an freigegebenen Inhalten zu verhindern. |
 | **Sitzungs-URL mit Instanz-ID** | Die URLs zum Starten von Sitzungen für Microsoft Teams-, Adobe Connect- und Zoom-Sitzungen enthalten jetzt die Instanz-ID, sodass Teilnehmer an die richtige Sitzung weitergeleitet werden, wenn mehrere Instanzen vorhanden sind. |

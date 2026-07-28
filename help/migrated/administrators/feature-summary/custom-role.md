@@ -4,10 +4,10 @@ title: Benutzerdefinierte Rollen
 description: Mit der Lernpfadfunktion können Sie benutzerdefinierte Rollen definieren und einer Gruppe von Benutzern bestimmte Verantwortlichkeiten zuweisen. Mit dieser Funktion können Sie Verantwortlichkeiten zuweisen, die nicht in den Bereich der bestehenden Rolle der Person fallen.
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
+source-git-commit: 4a3664bc28eb69389da89e5f411da37c2fca097a
 workflow-type: tm+mt
-source-wordcount: '5437'
-ht-degree: 25%
+source-wordcount: '5467'
+ht-degree: 24%
 
 ---
 
@@ -305,6 +305,11 @@ Dies bedeutet, dass ein benutzerdefinierter Administrator mit Zugriff auf einen 
 Wenn Sie einer von Ihnen erstellten Rolle Benutzer zuweisen, können Sie jeden Benutzer im Konto suchen und hinzufügen. Benutzerbezogene Berechtigungen in benutzerdefinierten Rollen gelten immer für den gesamten Benutzergruppenbereich und den gesamten Katalogbereich. Benutzergruppen- oder Katalogbereiche gelten nicht, wenn eine benutzerdefinierte Rolle Benutzerverwaltungsberechtigungen enthält.
 
 Wenn ein vollständiger Administrator Ihren Umfang reduziert oder eine Berechtigung aus Ihrer Rolle entfernt, sind zuvor erstellte Rollen nicht sofort davon betroffen. Für diese Rollen gelten weiterhin ihre bestehenden Berechtigungen, bis ein voller Administrator geöffnet wird und jede einzelne einzeln speichert.
+
+>[!IMPORTANT]
+>
+>**Nur manuell erstellte Rollen**: Die erweiterten Funktionen für die Verwaltung benutzerdefinierter Rollen gelten nur für Rollen, die über die Adobe Learning Manager-Administratoroberfläche erstellt wurden. Über CSV-Upload importierte Rollen werden nicht unterstützt.
+
 
 ## Benutzerberechtigungen für eine benutzerdefinierte Rolle erteilen
 

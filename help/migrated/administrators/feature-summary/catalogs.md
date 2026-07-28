@@ -4,10 +4,10 @@ title: Kataloge
 description: Kataloge sind eine Sammlung von Lernkursen, Lernprogrammen und Zertifizierungen. Verwenden Sie Kataloge, um den Teilnehmern den Zugriff auf einen benutzerdefinierten Lernsatz zu ermöglichen. Sie können Lernprogramme während der Erstellung eines neuen Katalogs einem Katalog zuordnen.
 contentowner: manochan
 exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
-source-git-commit: 87971737d1d9838d8b29035b5b9bf718742da1eb
+source-git-commit: e8d279fd1c8ba0af01241c4041d016759966bdde
 workflow-type: tm+mt
-source-wordcount: '2593'
-ht-degree: 79%
+source-wordcount: '3238'
+ht-degree: 63%
 
 ---
 
@@ -206,6 +206,92 @@ Um einen freigegebenen Katalog zu entfernen, klicken Sie in der Dropdown-Liste a
 * Sie können einen Standardkatalog mit externen Konten nicht freigeben.
 * Sie können einen Katalog nicht löschen, der von Ihnen extern freigegeben wurde.
 * Sie können einen Katalog nicht löschen, der mit Ihnen von anderen Konten aus geteilt wurde.
+
+## Beschränken Sie Änderungen für erworbene Kurse/Lernpfade {#restrictchangesonacquiredcourseslp}
+
+In Organisationen, die die Kontofreigabe verwenden, werden Lerninhalte häufig in einem primären Konto erstellt und verwaltet und dann über freigegebene Kataloge mit Peer-Konten geteilt. Dieses Modell trägt zwar dazu bei, konsistente Inhalte über mehrere Konten hinweg beizubehalten, kann aber auch zu unbeabsichtigten Änderungen bei empfangenden Konten führen.
+
+Dies hilft, freigegebene Lernobjekte zu schützen, indem verhindert wird, dass Autoren in empfangenden Konten Änderungen vornehmen, die die Beziehung zwischen dem Quellkonto und dem freigegebenen Inhalt unterbrechen könnten. Auf diese Weise können Inhaltseigentümer eine zentralisierte Verwaltung beibehalten und gleichzeitig sicherstellen, dass Aktualisierungen vom Quellkonto weiterhin auf empfangende Konten fließen.
+
+Diese Funktion unterstützt Organisationen bei folgenden Aufgaben:
+
+* Integrität von Inhalten, die über ein Quellkonto freigegeben wurden.
+* Verhindern Sie versehentliche Änderungen, die die Synchronisierung mit dem Quellkonto unterbrechen könnten.
+* Reduzierung des Content-Management-Overheads über mehrere Konten hinweg.
+* Stellen Sie sicher, dass Aktualisierungen, die im Quellkonto vorgenommen werden, weiterhin an empfangende Konten weitergegeben werden.
+* Stellen Sie eindeutige Warnungen für Autoren bereit, wenn sie versuchen, freigegebene Inhalte zu ändern.
+
+Wenn ein Katalog von einem Quellkonto für ein empfangendes Konto freigegeben wird, werden Lernobjekte wie Kurse, Lernpfade und Zertifizierungen im empfangenden Konto verfügbar.
+
+Wenn das empfangende Konto Änderungen für erworbene Kurse/Lernpfade einschränken aktiviert, schränkt Adobe Learning Manager die Bearbeitung von geerbten Inhalten ein, die aus dem freigegebenen Katalog stammen. Autoren können den freigegebenen Inhalt weiterhin verwenden, aber keine Änderungen vornehmen, die die Beziehung zum Quellkonto trennen könnten.
+
+### Bearbeitungseinschränkungen für freigegebene Kataloginhalte aktivieren
+
+**Voraussetzungen**
+
+Das Konto muss bereits Inhalte aus einem freigegebenen Katalog erhalten.
+
+1. Melden Sie sich bei ALM als Administrator an.
+2. Wählen Sie **Kataloge**.
+3. Wählen Sie einen freigegebenen Katalog.
+4. Wählen Sie im Abschnitt **Übersicht** des freigegebenen Katalogs die Umschaltoption **Änderungen für erworbene Kurse/Lernpfade einschränken**. Wenn diese Option aktiviert ist, sind Änderungen an Kursen/Lernpfaden im erworbenen Katalog darauf beschränkt, Updates vom Hauptkonto in dieses Konto fließen zu lassen.
+
+   ![](assets/shared-catalog-enabled.png)
+
+5. Wählen Sie **Update**, um die Konfiguration zu speichern.
+
+### Authoring-Erlebnis
+
+Wenn ein Autor einen Kurs öffnet, der über einen freigegebenen Katalog erworben wurde, zeigt das System eine Informationsmeldung an, die Folgendes angibt:
+
+* Der Kurs stammt aus einem freigegebenen Katalog.
+* Bearbeitungseinschränkungen sind aktiviert.
+* Bestimmte Änderungen am Inhalt sind eingeschränkt.
+
+### Versuch, eingeschränkten Inhalt zu bearbeiten
+
+Wenn ein Autor versucht, geschützte Inhalte zu ändern:
+
+* Möglicherweise wird dem Autor eine Warnung angezeigt, die darauf hinweist, dass der Kurs von einem Quellkonto erworben wurde.
+* In der Warnung wird erläutert, dass das Ändern des Inhalts die Beziehung zum Quellkonto unterbrechen kann.
+* Abhängig von den Einstellungen beschränkt oder verhindert das System Änderungen an den betroffenen Inhalten.
+
+Auf diese Weise können Autoren die Auswirkungen ihrer Aktionen verstehen, bevor Änderungen vorgenommen werden.
+
+**Welche Änderungen sind eingeschränkt?**
+
+Wenn Bearbeitungseinschränkungen aktiviert sind, werden Änderungen an geerbten Kursinhalten eingeschränkt, da diese Komponenten vom Quellkonto verwaltet werden. Diese Einschränkungen dienen dazu, die Synchronisierung zwischen Konten beizubehalten.
+
+Beispiele für Inhalte, die normalerweise durch das Quellkonto geregelt werden:
+
+* Kurs-Metadaten
+* Gemeinsame Kursstruktur
+* Freigegebene Lerninhalte
+* Konfigurationen für gemeinsam genutzte Lernpfade
+
+Ziel ist es, Änderungen zu verhindern, die dazu führen könnten, dass die Kopie des empfangenden Kontos von der Quellversion abweicht.
+
+**Welche Änderungen sind weiterhin zulässig?**
+
+Einige Einstellungen werden weiterhin unabhängig vom empfangenden Konto verwaltet und können bearbeitet werden. Dies sind:
+
+* Anpassung von E-Mail-Vorlagen
+* Instanzverwaltung
+* Andere Konfigurationen auf Kontoebene, die nicht vom Quellkonto stammen.
+
+### Beispielszenario
+
+#### Vor der Einschränkung
+
+Ein Corporate-Learning-Team führt einen Compliance-Kurs im Quellkonto und teilt ihn mit mehreren regionalen Konten.
+
+Ein Autor in einem regionalen Konto bearbeitet den erworbenen Kurs direkt. Infolgedessen wird die Verbindung zum ursprünglichen Kurs möglicherweise unterbrochen, sodass zukünftige Aktualisierungen vom Quellkonto nicht mehr ordnungsgemäß ausgeführt werden.
+
+#### Nach der Einschränkung
+
+Das empfangende Konto aktiviert **Änderungen für erworbene Kurse/Lernpfade einschränken**.
+
+Wenn regionale Autoren auf den freigegebenen Kurs zugreifen, können sie den Inhalt anzeigen und zuweisen, aber geschützte Felder können nicht geändert werden. Aktualisierungen durch das Quellkonto werden weiterhin ohne Unterbrechung an die Empfängerkonten übermittelt.
 
 ## Aktivieren Sie die vollständige Kontrolle über den freigegebenen Katalog {#enablefullcontrolofsharedcatalog}
 

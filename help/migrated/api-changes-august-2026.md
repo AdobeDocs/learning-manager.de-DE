@@ -2,9 +2,9 @@
 description: API-Änderungen in ALM
 jcr-language: en_us
 title: API-Änderungen in der Version August 2026 von Adobe Learning Manager
-source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
+source-git-commit: 2d61ce1366f086c5c1aad1eb59bfa6f0446beed3
 workflow-type: tm+mt
-source-wordcount: '3369'
+source-wordcount: '3353'
 ht-degree: 3%
 
 ---
@@ -131,9 +131,8 @@ Beide Felder können weggelassen werden. Wenn ein Feld weggelassen wird, bleibt 
 
 | **Parameter** | **Erforderlich** | **Typ** | **Beschreibung** |
 |---------------|--------------|----------|---------------------------------------------------------------------------|
-| name | Nein | Zeichenfolge | Neuer Anzeigename. Darf nicht leer sein, falls angegeben. Lassen Sie es unverändert. |
+| name | Ja | Zeichenfolge | Neuer Anzeigename. Darf nicht leer sein, falls angegeben. Lassen Sie es unverändert. |
 | Beschreibung | Nein | Zeichenfolge | Neue Beschreibung. Übergeben Sie null zum Löschen. Lassen Sie es unverändert. |
-| data | — | null | Muss null oder nicht vorhanden sein. Jeder Wert ungleich null gibt den Fehler 400 zurück. |
 
 #### **Antwort 200 OK**
 
@@ -511,7 +510,9 @@ Geben Sie die **Stammzertifizierungs-ID** als Eingabe an. Die API wertet den Reg
 
 Dies bedeutet, dass zwei Teilnehmer, die gleichzeitig dieselbe Stammzertifizierungs-ID abfragen, je nach individuellem Registrierungsverlauf jedes Teilnehmers unterschiedliche Ergebnisse erhalten.
 
-**Hinweis**: Während der Erstellung der neuen Version und der Migration von Registrierungen kann es während einer Wiederholung zu einem kurzen Fenster kommen, in dem die API möglicherweise die Version zurückgibt, die bald ersetzt wird, nicht die neu erstellte.
+>[!NOTE]
+>
+>Während der Erstellung der neuen Version und der Migration von Registrierungen kann es während einer Wiederholung zu einem kurzen Fenster kommen, in dem die API möglicherweise die Version zurückgibt, die bald ersetzt wird, nicht die neu erstellte.
 
 **Beispiel**
 
