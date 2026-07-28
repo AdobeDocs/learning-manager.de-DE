@@ -2,9 +2,9 @@
 description: API-Änderungen in ALM
 jcr-language: en_us
 title: API-Änderungen in der Version August 2026 von Adobe Learning Manager
-source-git-commit: 857c94b5e9a7460d63a6dacc0beeddd41f362bf9
+source-git-commit: 2d61ce1366f086c5c1aad1eb59bfa6f0446beed3
 workflow-type: tm+mt
-source-wordcount: '3354'
+source-wordcount: '3353'
 ht-degree: 3%
 
 ---
@@ -18,7 +18,7 @@ In dieser Version werden drei neue öffentliche API-Endpunkte mit Administratorb
 
 Diese Endpunkte funktionieren nur mit benutzerdefinierten Benutzergruppen. Systemverwaltete Gruppen wie die Gruppe Alle Benutzer und automatisch generierte Benutzergruppen verfügen über den Schreibschutz: true in der API-Antwort und kann nicht über diese Endpunkte geändert oder gelöscht werden.
 
-Anforderungen für die API-Authentifizierung finden Sie unter [Adobe Learning Manager API-Authentifizierung](https://experienceleague.adobe.com/de/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20).
+Anforderungen für die API-Authentifizierung finden Sie unter [Adobe Learning Manager API-Authentifizierung](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20).
 
 ### API-Endpunkte für Benutzergruppen
 
@@ -204,7 +204,7 @@ Der externe Lern-Workflow über die API spiegelt den Workflow in der Teilnehmer-
 
 Alle fünf Endpunkte sind teilnehmerspezifisch. Ein Teilnehmer kann nur auf seine eigenen Einreichungen zugreifen - die API gibt einen Fehler zurück, wenn ein Teilnehmer versucht, auf die Daten eines anderen Teilnehmers zuzugreifen.
 
-Anforderungen für die API-Authentifizierung finden Sie unter [Adobe Learning Manager API-Authentifizierung](https://experienceleague.adobe.com/de/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20).
+Anforderungen für die API-Authentifizierung finden Sie unter [Adobe Learning Manager API-Authentifizierung](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20).
 
 ### Externe Lern-API-Endpunkte
 
@@ -510,7 +510,9 @@ Geben Sie die **Stammzertifizierungs-ID** als Eingabe an. Die API wertet den Reg
 
 Dies bedeutet, dass zwei Teilnehmer, die gleichzeitig dieselbe Stammzertifizierungs-ID abfragen, je nach individuellem Registrierungsverlauf jedes Teilnehmers unterschiedliche Ergebnisse erhalten.
 
-**Hinweis**: Während der Erstellung der neuen Version und der Migration von Registrierungen kann es während einer Wiederholung zu einem kurzen Fenster kommen, in dem die API möglicherweise die Version zurückgibt, die bald ersetzt wird, nicht die neu erstellte.
+>[!NOTE]
+>
+>Während der Erstellung der neuen Version und der Migration von Registrierungen kann es während einer Wiederholung zu einem kurzen Fenster kommen, in dem die API möglicherweise die Version zurückgibt, die bald ersetzt wird, nicht die neu erstellte.
 
 **Beispiel**
 
