@@ -2,9 +2,9 @@
 description: Der Insights Agent ist eine KI-gestützte Funktion in Adobe Learning Manager, mit der Administratoren Daten von Teilnehmern in natürlicher Sprache abfragen können.
 jcr-language: en_us
 title: Insights Agent (Beta) in Adobe Learning Manager
-source-git-commit: f14f2211eabc025d921392711a3382dd62273dc3
+source-git-commit: 03dbee8fdbc83d7e23ee3c4d13fad621e1c80a7e
 workflow-type: tm+mt
-source-wordcount: '2736'
+source-wordcount: '2864'
 ht-degree: 1%
 
 ---
@@ -133,10 +133,11 @@ Wählen Sie nach jeder Antwort das Symbol für die Daumen hoch oder Daumen runte
 
 ## Best Practices
 
-- Beginnen Sie mit einer spezifischen Frage und nicht mit einer allgemeinen. \&quot;Wie hoch ist die Abschlussrate für den Kurs &quot;Sicherheitsschulung&quot; in der Benutzergruppe Nordamerika?\&quot; gibt nützlichere Ergebnisse zurück als \&quot;Abschlussdaten anzeigen.\&quot;
+- Beginnen Sie mit einer spezifischen Frage und nicht mit einer allgemeinen. \&quot;Wie hoch ist die Abschlussrate für den Kurs &quot;Sicherheitsschulung&quot; in der Benutzergruppe Nordamerika?\&quot; gibt nützlichere Ergebnisse zurück als \&quot;Abschlussdaten anzeigen&quot;.
 - Verwenden Sie beim Benennen von Inhalten und Teilnehmergruppen exakte Adobe Learning Manager-Begriffe. In der Anleitung zum Schreiben von Abfragen sind die richtigen Begriffe aufgeführt.
 - Wenn der Agent eine klärende Frage stellt, behandeln Sie sie als Signal, um Ihre ursprüngliche Frage zu verfeinern. Je konkreter Ihre Frage ist, desto weniger Klarstellungen sind erforderlich.
 - Überprüfen Sie den Abschnitt **Ansatz**, bevor Sie auf die Ergebnisse reagieren. Dies gilt insbesondere für Compliance-bezogene Abfragen, bei denen Genauigkeit entscheidend ist.
+- **Geben Sie an, ob Teilnehmer auf der Warteliste ein- oder ausgeschlossen werden sollen**. Standardmäßig umfasst die Abfrage der Registrierungsanzahl Teilnehmer, die neben aktiven, bestätigten Registrierungen auf einer Warteliste stehen. Wenn Sie nur aktive Teilnehmer benötigen, schließen Sie Teilnehmer auf Warteliste in Ihrer Abfrage explizit aus. Beispiel: &quot;Wie viele Teilnehmer sind direkt für den Kurs &quot;Sicherheitsschulung&quot; registriert, ausgenommen Teilnehmer auf der Warteliste?&quot; Der Agent wird im Abschnitt Ansatz angeben, dass der Ausschluss angewendet wurde. Ohne diese Anleitung kann die Gesamtzahl der Registrierungen einen erheblichen Teil der Teilnehmer auf der Warteliste enthalten, die den Inhalt noch nicht gestartet haben.
 
 
 ## Erstellen effektiver Abfragen für den Insights Agent
@@ -267,9 +268,11 @@ Wenn Sie Daten zu einem Kurs abfragen, der mit einer wiederkehrenden Zertifizier
 
 Nachdem der Inhalt erstellt wurde, die Teilnehmer registriert sind oder die Abschlussdatensätze aktualisiert wurden, kann es bis zu 30 Minuten dauern, bis diese Daten in den Abfrageergebnissen verfügbar sind. Wenn Ihre Ergebnisse unvollständig erscheinen oder keine aktuellen Aktivitäten widerspiegeln, warten Sie 30 Minuten und wiederholen Sie die Abfrage.
 
-**Die Registrierungs- und Abschlussdaten umfassen sowohl direkte als auch indirekte Registrierungen**
+**Anzahl der direkten und indirekten Registrierungen**
 
-Wenn Sie Anmelde- oder Abschlussdaten für einen Kurs oder Lernpfad abfragen, gibt der Insights Agent eine kombinierte Anzahl von Registrierungen zurück, die sowohl direkte Registrierungen (Teilnehmer, die speziell für diesen Kurs oder Lernpfad registriert sind) als auch indirekte Registrierungen (Teilnehmer, die denselben Inhalt im Rahmen eines anderen Lernpfads oder einer Zertifizierung aufgerufen haben) umfasst. Die Ergebnisse trennen diese beiden Registrierungstypen nicht voneinander.
+Wenn Sie Registrierungs- oder Abschlussdaten für einen Kurs oder Lernpfad abfragen, unterscheidet der Insights Agent zwischen direkten Registrierungen (Teilnehmer, die speziell für diesen Kurs oder Lernpfad registriert sind) und indirekten Registrierungen (Teilnehmer, die denselben Inhalt als Teil eines Lernpfads oder einer Zertifizierung aufgerufen haben). Wenn Sie explizit nach direkten oder indirekten Registrierungen fragen, gibt der Agent für jeden Typ die richtige Anzahl zurück.
+
+Wenn in der Abfrage keine direkte oder indirekte Zahl angegeben wird, gibt der Agent möglicherweise eine kombinierte Zahl zurück. Um getrennte Zählungen zu erhalten, fügen Sie die Unterscheidung explizit in Ihre Abfrage ein. Beispiel: &quot;Wie viele Teilnehmer sind direkt oder indirekt beim Kurs &quot;Sicherheitsschulung&quot; angemeldet?&quot;
 
 **In nicht-lateinischen Skripten eingereichte Abfragen werden nicht unterstützt**
 
