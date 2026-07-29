@@ -3,9 +3,9 @@ description: Erfahren Sie mehr über die neuen Funktionen und Verbesserungen in 
 jcr-language: en_us
 title: Neue Funktionen in Adobe Learning Manager Version August 2026
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: 3cb62ec615254bdda4103527eb953d3433363785
+source-git-commit: a6f201e762963a524a6a935e84dafc4752604e4d
 workflow-type: tm+mt
-source-wordcount: '2940'
+source-wordcount: '2770'
 ht-degree: 0%
 
 ---
@@ -15,23 +15,6 @@ ht-degree: 0%
 >[!IMPORTANT]
 >
 >Die in diesem Artikel beschriebenen Funktionen sind als Teil der Betaversion verfügbar. Adobe Learning Manager Beta-Funktionen werden zu Evaluierungszwecken bereitgestellt und können vor der allgemeinen Verfügbarkeitsversion geändert, eingeschränkt oder entfernt werden. Funktionsnamen, Verhalten und Konfigurationsoptionen können sich jederzeit ohne Vorankündigung ändern.
-
-
-## Adaptive Kurse
-
-Mit adaptiven Kursen können Sie eine personalisierte Schulung bereitstellen, indem Sie basierend auf den Benutzergruppen, zu denen die Teilnehmer gehören, steuern, welche Module die einzelnen Teilnehmer sehen und welche erforderlich sind. Ein einzelner Kurs stellt der richtigen Person automatisch die richtigen Inhalte dynamisch zur Verfügung.
-
-Autoren konfigurieren jedes Modul mit **Optional** und **Obligatorisch** für Benutzergruppenregeln. Teilnehmer in verschiedenen Benutzergruppen können völlig unterschiedliche Sätze von Modulen abschließen und dennoch denselben Kurs absolvieren. Sitzplatzbeschränkungen für Klassenzimmer- und virtuelle Klassenzimmersitzungen werden jetzt auf Modulebene erzwungen, sodass ein Teilnehmer sich für einen Kurs anmelden kann, während er nur auf eine bestimmte Sitzung wartet. Weitere Informationen finden Sie unter [Adaptive Kurse - Autor](/help/migrated/authors/feature-summary/adaptive-course-author.md).
-
-Wichtigste Funktionen:
-
-* Sichtbarkeit auf Modulebene und Abschlussregeln pro Benutzergruppe
-* ODER-Zusammenführungslogik: Wenn eine Gruppe ein Modul als obligatorisch definiert, ist es für diesen Teilnehmer obligatorisch.
-* Warteliste auf Modulebene für Sitzungen im Schulungsraum und virtuellen Schulungsraum
-* Der Abschluss der Aktualisierung wird ausgelöst, wenn sich das Profil eines Teilnehmers ändert
-* Unterstützung für Lernpfade und Zertifizierungen mit dokumentierten Einschränkungen für wiederkehrende Zertifizierungen
-
-Weitere Informationen zu adaptiven Kursen.
 
 ## Leistungsübersicht
 
@@ -106,7 +89,6 @@ Wichtigste Highlights:
 >[!NOTE]
 >
 >Live Hub befindet sich derzeit in der Betaversion und wird mit der kommenden August-Version von Adobe Learning Manager verfügbar sein. Die Dokumentation für Live Hub ist verfügbar, sobald die Funktion veröffentlicht wurde.
-
 
 ## Komponentenbasierte E-Mail-Vorlage
 

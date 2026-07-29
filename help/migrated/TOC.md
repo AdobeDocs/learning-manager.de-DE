@@ -2,7 +2,7 @@
 user-guide-title: Leitfaden für Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Dokumentation für Adobe Learning Manager
-source-git-commit: 971576b95ab0f75b9d28a7f3d1d62440927925f7
+source-git-commit: a6f201e762963a524a6a935e84dafc4752604e4d
 workflow-type: tm+mt
 source-wordcount: '1153'
 ht-degree: 50%
@@ -113,7 +113,7 @@ ht-degree: 50%
   * [Zertifizierungen](administrators/feature-summary/certifications.md)
   * [Zertifikat erstellen und anpassen](/help/migrated/administrators/feature-summary/create-customize-certificate.md)
   * [Kataloge](administrators/feature-summary/catalogs.md)
-  * [Adaptive Kurse](administrators/feature-summary/adaptive-course-admin.md)
+  * {hide-from-toc}[Adaptive Kurse](administrators/feature-summary/adaptive-course-admin.md)
   * [Annehmen der Identität eines Teilnehmers und Managers](administrators/feature-summary/impersonation-learner-manager.md)
   * [Mehrere SSO-Anmeldungen](administrators/feature-summary/multiple-sso-logins.md)
   * [Benutzeroberflächensprache über SAML einrichten](/help/migrated/administrators/feature-summary/set-up-interface-language-through-saml.md)
@@ -199,7 +199,7 @@ ht-degree: 50%
   * [Inhaltsbibliothek](authors/feature-summary/content-library.md)
   * [Kurse erstellen, ändern und veröffentlichen](authors/feature-summary/courses.md)
   * [Kataloge](authors/feature-summary/catalogs.md)
-  * [Anpassungskurs](authors/feature-summary/adaptive-course-author.md)
+  * {hide-from-toc}[Adaptiver Kurs](authors/feature-summary/adaptive-course-author.md)
   * [Arbeitshilfen](authors/feature-summary/job-aids.md)
   * [Leistungsübersicht](authors/feature-summary/alm-author-gradebook.md)
   * [Benutzer von iPad- und Android-Tablets](authors/feature-summary/ipad-android-tablet-users.md)
@@ -219,7 +219,7 @@ ht-degree: 50%
   * [Kataloge](learners/feature-summary/catalogs.md)
   * [Registrierung mit einem Klick](learners/feature-summary/learner-one-click-enrollment.md)
   * [Eigenes Lernen](learners/feature-summary/courses.md)
-  * [Adaptiver Kurs](learners/feature-summary/adaptive-course-learner.md)
+  * {hide-from-toc}[Adaptiver Kurs](learners/feature-summary/adaptive-course-learner.md)
   * [Fluidic Player](learners/feature-summary/fluidic-player.md)
   * [Lernprogramme](learners/feature-summary/learning-programs.md)
   * [Zertifizierungen](learners/feature-summary/certifications.md)
