@@ -2,9 +2,9 @@
 description: API-Änderungen in ALM
 jcr-language: en_us
 title: API-Änderungen in der Version August 2026 von Adobe Learning Manager
-source-git-commit: 2d61ce1366f086c5c1aad1eb59bfa6f0446beed3
+source-git-commit: bac89a2dc8e1f22e2d29b20696fc1c6b6dd071aa
 workflow-type: tm+mt
-source-wordcount: '3353'
+source-wordcount: '3357'
 ht-degree: 3%
 
 ---
@@ -300,8 +300,8 @@ Gibt die Formularkonfiguration auf Kontoebene zurück. Rufen Sie diesen Endpunkt
 | title | TEXT | Ja | Schulungsname. Immer präsent. Kann vom Administrator nicht deaktiviert werden. |
 | description_notes | TEXT | Nein | Freitextbeschreibung oder Notizen. |
 | Datum | ZEITSTEMPEL | Nein | Datumsbereich Wert-Form: { &quot;start_date&quot;: &quot;<ISO-Z>&quot;end_date&quot;: &quot;<ISO-Z>&quot; }. Beide Werte können NULL sein. |
-| Ergebnis | ZAHL | Ja | Wert-Form: { &quot;erzielte_Punktzahl&quot;: <number>, &quot;max_score&quot;: <number> }. Beide Werte müssen numerisch sein. |
-| Dauer | TEXT | Nein | Freiformzeichenfolge, zum Beispiel &quot;40 Stunden&quot;. |
+| Ergebnis | ZAHL | Ja | Wert-Form: { &quot;erzielte_Punktzahl&quot;: <number>, &quot;max_score&quot;: <number> }. Beide Werte müssen numerisch sein.  max_score darf nicht negativ sein. |
+| Dauer | OBJEKT | Nein | Beispiel: { &quot;timeSpan&quot;: 8, &quot;Punkt&quot;: &quot;STUNDEN&quot; }. |
 | Zubehörteil | FILE_UPLOAD | Ja | Abschlussnachweis. **Nicht** in Feldern übergeben[] — verwenden Sie stattdessen das übergeordnete submitUrl-Attribut. |
 
 Benutzerdefinierte Felder werden vom Administrator definiert und in customFields[] zurückgegeben. Ihre IDs, Typen, obligatorischen Markierungen, Beschriftungen und Dropdown-Optionen variieren je nach Kontokonfiguration.

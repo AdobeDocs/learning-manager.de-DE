@@ -2,7 +2,8 @@
 title: Künftige Entwicklungen in Adobe Learning Manager
 description: Informieren Sie sich über bevorstehende Änderungen in Adobe Learning Manager. Informiert euch über aktuelle Updates und zukünftige Ankündigungen.
 exl-id: 4d2129c4-42d8-446f-8837-879b5c2f42bf
-source-git-commit: 0f7f42d18c81d18b6f6592a90f9322f0cd9dcce4
+hide: true
+source-git-commit: a8ce2cca26c50bde68789ae423478af9a9494dc3
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 0%

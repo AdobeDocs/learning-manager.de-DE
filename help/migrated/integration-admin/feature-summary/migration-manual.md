@@ -3,10 +3,10 @@ description: Referenzhandbuch für Integrationsadministratoren zum Migrieren ein
 jcr-language: en_us
 title: Migrationshandbuch
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: cb9791da19a68e8c5cad3ca12d1e9e51f31e742f
+source-git-commit: 56ecd41e891d06f61ae7178280b85d6ffe918738
 workflow-type: tm+mt
-source-wordcount: '9122'
-ht-degree: 36%
+source-wordcount: '8322'
+ht-degree: 39%
 
 ---
 
@@ -1166,115 +1166,6 @@ Beim Erstellen von LTI-Modulversionen:
 
 Das Migrationssystem wendet zusätzlich zu den LTI-spezifischen Feldern den standardmäßigen Arbeitsablauf für die Migrationsverarbeitung an.
 
-## Adaptive Kurse migrieren {#migrateadaptivecourses}
-
-Wenn Sie Kurse von einem externen System in Adobe Learning Manager migrieren und sie als adaptive Kurse mit Modulebenensichtbarkeit und Abschlussregeln pro Benutzergruppe konfigurieren möchten, können Sie zwei CSV-Dateien verwenden, um sowohl die Kurse als auch ihre adaptiven Regeln zu definieren.
-
-### Erforderliche Informationen für die Migration
-
-Die Migration eines adaptiven Kurses erfordert zwei Änderungen an Ihrem CSV-Standardmigrationspaket:
-
-* **Ein Update auf** _course.csv_: eine neue Spalte, die einen Kurs als adaptiv markiert
-* **Eine neue Datei,** _course_ module_user_group.csv_: eine Zeile pro Modul-zu-Benutzer-Gruppenregel
-
-Beide Dateien müssen in demselben Migrationsprojekt enthalten sein.
-
-### Aktualisierte CSV-Dateinamen für die adaptive Kursmigration
-
-CSV-Dateinamen für die Migration von adaptiven Kursen und adaptiven Lernpfaden folgen jetzt der Namenskonvention, die von allen anderen Migrationsdateien in Adobe Learning Manager verwendet wird. Beispiel: learning_object_section.csv anstelle von lo_section.csv. Wenn Sie bereits Migrationsskripte oder -vorlagen besitzen, die auf die vorherigen Kurzformnamen verweisen, aktualisieren Sie diese vor dem nächsten Migrationsvorgang auf die neuen Namen.
-
-| Alter Name | Neuer Name |
-| --- | --- |
-| `lo_section.csv` | `learning_object_section.csv` |
-| `lp_section.csv` | `learning_program_section.csv` |
-| `lp_section_ug.csv` | `learning_program_section_user_group.csv` |
-| `course_module_ug.csv` | `course_module_user_group.csv` |
-
-### course.csv aktualisieren
-
-Fügen Sie die Spalte isAdaptive zur Datei course.csv hinzu.
-
-| **Spalte** | **Werte** | **Beschreibung** |
-| --- | --- | --- |
-| isAdaptive | true oder blank | Setzen Sie die Option für adaptive Kurse auf &quot;true&quot;. Lassen Sie das Feld leer oder legen Sie für reguläre Kurse den Wert &quot;false&quot; fest. |
-
-Alle anderen Spalten in &quot;course.csv&quot; bleiben unverändert.
-
-**Beispielspaltenreihenfolge:**
-
-* id
-* courseName
-* Beschreibung
-* courseCreationDate
-* state
-* sequenziell
-* Autorin
-* thumbnailUrl
-* Tags
-* isAdaptive
-
->[!NOTE]
->
->Die Spalte isAdaptive ist für reguläre Kurse optional. Wenn er nicht angegeben oder leer gelassen wird, wird der Kurs als normaler Kurs behandelt.
-
-### course_module_user_group.csv hinzufügen
-
-Dies ist eine neue CSV-Datei, die die adaptive Sichtbarkeit und die Abschlussregeln für jedes Modul in jedem adaptiven Kurs definiert. Jede Zeile ordnet ein Modul einer Benutzergruppe mit einem Regeltyp zu.
-
-| **Spalte** | **Beschreibung** |
-| --- | --- |
-| courseId | Die Quellkennung des Kurses (muss mit der ID in course.csv übereinstimmen) |
-| moduleId | Die Quellkennung des Moduls (muss mit der Modulkennung in den Moduldateien übereinstimmen) |
-| userGroupId | Die Adobe Learning Manager-ID der Benutzergruppe, für die diese Regel gilt |
-| type | OBLIGATORISCH - Die Benutzergruppe muss dieses Modul zum Abschluss des Kurses abschließen. OPTIONAL: Die Benutzergruppe kann dieses Modul anzeigen und darauf zugreifen, muss es aber nicht abschließen. |
-| Arbeitsgang | HINZUFÜGEN - diese Regel erstellen oder aktualisieren. DELETE: Entfernen Sie diese Regel. |
-
-**Beispielspaltenreihenfolge:**
-
-* courseId
-* moduleId
-* userGroupId
-* type
-* Arbeitsgang
-
-### Regeln für die Datei
-
-* Jedes Inhaltsmodul in einem adaptiven Kurs muss mindestens eine Zeile in dieser Datei enthalten. Ein Modul ohne Regeln ist für keinen Teilnehmer sichtbar.
-* Für Vorbereitungs- und Testmodule sind keine Regeln erforderlich. Sie werden automatisch auf alle registrierten Teilnehmer angewendet und sollten nicht in dieser Datei angezeigt werden.
-* Sie können mehrere Zeilen für dasselbe Modul haben. Eine pro Benutzergruppe.
-* Wenn Sie eine ADD-Zeile für eine Regel übermitteln, die bereits im System vorhanden ist, wird die vorhandene Regel aktualisiert, anstatt ein Duplikat zu erstellen.
-
-### Upload-Reihenfolge
-
-Die Dateien in Ihrem Migrationsprojekt müssen in der folgenden Reihenfolge hochgeladen und verarbeitet werden: Spätere Dateien hängen von Daten ab, die von früheren Dateien erstellt wurden. Wenn die Reihenfolge nicht befolgt wird, schlägt sie fehl.
-
-* **module.csv**: Module definieren
-* **module_version.csv**: Modulversionen definieren
-* **course.csv**: (mit isAdaptive=true für adaptive Kurse) - Erstellen Sie die Kurse
-* **course_module.csv**: Module mit Kursen verknüpfen
-* **course_module_user_group.csv**: Adaptive Sichtbarkeits- und Abschlussregeln anwenden
-
-Laden Sie hier die Migrationsdateien herunter: [Migrationsdateien für adaptive Kurse](/help/migrated/integration-admin/feature-summary/assets/adaptive-courses-migration-files.zip)
-
->[!IMPORTANT]
->
->**course_module_user_group.csv** muss zuletzt hochgeladen werden. Die Regeln in dieser Datei beziehen sich sowohl auf einen Kurs als auch auf ein Modul, die bereits mit Schritt 4 verknüpft sein müssen, bevor die Regeln angewendet werden können.
-
-### Validierung und Fehlerreferenz
-
-Adobe Learning Manager validiert jede Zeile in course_module_user_group.csv, bevor die Regeln angewendet werden. Jede Zeile, bei der die Validierung fehlschlägt, wird mit einer Fehlermeldung zurückgewiesen. Die verbleibenden gültigen Zeilen werden noch verarbeitet.
-
-| **Szenario** | **Was passiert** | **Fehlermeldung** |
-| --- | --- | --- |
-| Regeln für einen Kurs, der nicht als adaptiv gekennzeichnet ist | Zeile abgelehnt | Der Kurs muss adaptiv sein, um Regeln für die Inhaltssichtbarkeit zu haben. Kurs-ID: {courseId} |
-| Kurs als adaptiv markiert, aber keine Regeln für seine Inhaltsmodule angegeben | Kurs abgelehnt | Adaptive Kurse müssen über mindestens eine Sichtbarkeitsregel für jedes Inhaltsmodul verfügen. Kurs-ID: {courseId} hat keine Regeln für Module: 1{moduleIds} |
-| Das Modul ist nicht mit dem Kurs verknüpft | Zeile abgelehnt | Das Modul &quot;{moduleId}&quot; ist nicht mit dem Kurs &quot;{courseId}&quot; verknüpft. Fügen Sie das Modul zuerst über course_module.csv zum Kurs hinzu. |
-| Das Modul ist ein Vorbereitungs- oder Testmodul (kein Inhaltsmodul) | Zeile abgelehnt | Sichtbarkeitsregeln gelten nur für Inhaltstypmodule. Das Modul &quot;{moduleId}&quot; hat den Typ &quot;{actualType}&quot;. |
-| Die Benutzergruppe ist nicht vorhanden oder inaktiv. | Zeile abgelehnt | Die Benutzergruppe &quot;{userGroupId}&quot; wurde nicht gefunden oder ist nicht aktiv. |
-| Der Typwert ist nicht OBLIGATORISCH oder OPTIONAL. | Zeile abgelehnt | Ungültiger Typ &quot;{type}&quot;. Muss OBLIGATORISCH oder OPTIONAL sein. |
-| Der Vorgangswert lautet nicht ADD oder DELETE. | Zeile abgelehnt | Ungültiger Vorgang &quot;{operation}&quot;. Muss ADD oder DELETE sein. |
-| Für eine bereits vorhandene Regel wurde ADD übermittelt. | Regel wird im Hintergrund aktualisiert | Kein Fehler: Die vorhandene Regel wird mit dem neuen Typwert aktualisiert. |
-
 ## Hierarchie der Inhaltsordner migrieren {#migratecontentfolderhierarchy}
 
 Wenn Sie Ihre Lerninhalte von einer anderen Plattform in Adobe Learning Manager migrieren und Ihre bestehende Ordnerorganisation beibehalten möchten, können Sie CSV-Dateien verwenden, um eine hierarchische Ordnerstruktur zu erstellen und Ihre Inhaltsdateien den entsprechenden Ordnern zuzuordnen.
@@ -1307,7 +1198,6 @@ Ordnen Sie vor dem Vorbereiten der CSV-Datei die Ordner- oder Kategoriestruktur 
 >[!NOTE]
 >
 >Wenn Ihr Quellsystem Schrägstriche (`/`) in Kategorie- oder Ordnernamen verwendet, ersetzen Sie sie durch einen Bindestrich (`-`) oder einen Unterstrich (`_`), bevor Sie die CSV-Datei vorbereiten. In Adobe Learning Manager ist `/` in Ordnernamen nicht zulässig, da es für die Ordnerpfadauflösung reserviert ist.
-
 
 #### content_folder.csv
 
@@ -1352,7 +1242,6 @@ In diesem Beispiel:
 >[!NOTE]
 >
 >Sie können auf einen vorhandenen Ordner in Ihrem Konto (der vor dieser Migration erstellt wurde) als übergeordneten Ordner eines neuen Ordners verweisen, indem Sie das Präfix &quot;`existing:`&quot; gefolgt von der ID des Ordners in der Spalte &quot;`parentExternalId`&quot; verwenden, z. B. &quot;`existing:12345`&quot;.
-
 
 ### Phase 2: Inhalt mit Ordnern verknüpfen
 
@@ -1402,7 +1291,6 @@ Wenn Sie eine vollständige Content-Migration ausführen, laden Sie Ihre Dateien
 >
 >`content_folder.csv` muss vor der Modulversionsdatei verarbeitet werden, die Ordnerpfade enthält, da die Ordnerstruktur vorhanden sein muss, bevor Inhalt zugeordnet werden kann.
 
-
 ### Validierung und Fehlerreferenz
 
 Adobe Learning Manager validiert jede Zeile in `content_folder.csv` vor der Verarbeitung. Zeilen, bei denen die Validierung fehlschlägt, werden übersprungen und als Fehler gemeldet. Gültige Zeilen in derselben Datei werden weiterhin verarbeitet.
@@ -1422,7 +1310,6 @@ Adobe Learning Manager validiert jede Zeile in `content_folder.csv` vor der Vera
 | `CREATE_FOLDER` für `id`, das bereits erfolgreich migriert wurde | Zeile übersprungen | Keine Aktion erforderlich - dies ist das erwartete Verhalten bei der erneuten Ausführung einer Migration |
 | Der Ordnerpfad in `module_version.csv` verweist auf einen nicht vorhandenen Ordner | Modulzeile abgelehnt | Führen Sie zuerst den Sprint der Ordnerstruktur aus oder überprüfen Sie, ob Ordnername und Pfad richtig geschrieben sind |
 | Doppelter Schrägstrich im Ordnerpfad (z. B. `Training//Sales`) | Modulzeile abgelehnt | Entfernen des zusätzlichen Schrägstrichs aus dem Pfad |
-
 
 ### Abwärtskompatibilität
 
