@@ -2,9 +2,9 @@
 description: Der Insights Agent ist eine KI-gestützte Funktion in Adobe Learning Manager, mit der Administratoren Daten von Teilnehmern in natürlicher Sprache abfragen können.
 jcr-language: en_us
 title: Insights Agent (Beta) in Adobe Learning Manager
-source-git-commit: 03dbee8fdbc83d7e23ee3c4d13fad621e1c80a7e
+source-git-commit: d08f721676a301fc94a36dc58ca1f5508ae8c1b3
 workflow-type: tm+mt
-source-wordcount: '2864'
+source-wordcount: '2730'
 ht-degree: 1%
 
 ---
@@ -91,10 +91,10 @@ Nachdem Sie Ihre Frage eingereicht haben, verarbeitet Insights Agent Ihre Anfrag
 1. **Verzicht (falls erforderlich):** Wenn Ihre Frage einen mehrdeutigen Begriff enthält, z. B. \&quot;Lernaktivität\&quot; oder \&quot;Leistung\&quot; oder &quot;Geben Sie mir Leistungsdaten aus den letzten 3 Monaten&quot;, zeigt der Assistent eine Liste von Optionen an und fordert Sie auf, eine Option auszuwählen, bevor der Vorgang fortgesetzt wird. Wählen Sie die Option, die am besten zu dem passt, was Sie suchen. Nach der ersten Frage können Sie keine weiteren Anweisungen mehr eingeben. Die Auswahl aus den angegebenen Optionen ist die einzige verfügbare Interaktion, bis Sie eine neue Abfrage über die Abfrageoberfläche starten. Sie können auf eine Zweideutigkeit nur reagieren, indem Sie aus den bereitgestellten Optionen auswählen. Freitext-Follow-up ist in dieser Version nicht verfügbar.
 
 ![](assets/disambiguation.png)
-&#x200B;2. **Ansatz:** Im Abschnitt **Ansatz** werden die Schritte beschrieben, die der Agent zum Abrufen Ihrer Daten ausgeführt hat. Es wird als bildlauffähiges Bedienfeld unter der Frage angezeigt. Klicken Sie auf das Erweiterungssymbol, um den vollständigen Ansatz anzuzeigen. Wenn Sie diesen Abschnitt lesen, können Sie leichter überprüfen, ob die Logik mit Ihrer Absicht übereinstimmt, insbesondere bei komplexen Abfragen. Wenn Sie beispielsweise \&quot;alle Teilnehmer im letzten Jahr registriert\&quot; anfordern, gibt der Agent möglicherweise die letzte Registrierung jedes Teilnehmers zurück und nicht jeden Registrierungsdatensatz. Im **Ansatz**-Abschnitt **kann** oder **wird diese Entscheidung erläutert**. Wenn die Logik nicht mit Ihrer Absicht übereinstimmt, starten Sie eine neue Abfrage mit spezifischeren Begriffen.
+2. **Ansatz:** Im Abschnitt **Ansatz** werden die Schritte beschrieben, die der Agent zum Abrufen Ihrer Daten ausgeführt hat. Es wird als bildlauffähiges Bedienfeld unter der Frage angezeigt. Klicken Sie auf das Erweiterungssymbol, um den vollständigen Ansatz anzuzeigen. Wenn Sie diesen Abschnitt lesen, können Sie leichter überprüfen, ob die Logik mit Ihrer Absicht übereinstimmt, insbesondere bei komplexen Abfragen. Wenn Sie beispielsweise \&quot;alle Teilnehmer im letzten Jahr registriert\&quot; anfordern, gibt der Agent möglicherweise die letzte Registrierung jedes Teilnehmers zurück und nicht jeden Registrierungsdatensatz. Im **Ansatz**-Abschnitt **kann** oder **wird diese Entscheidung erläutert**. Wenn die Logik nicht mit Ihrer Absicht übereinstimmt, starten Sie eine neue Abfrage mit spezifischeren Begriffen.
 
 ![](assets/approach.png)
-&#x200B;3. **Ergebnisse:** Der Insights Agent generiert Ergebnisse als Text oder als Tabelle. Bei Datenpunkten, die am besten in Tabellenformat interpretiert werden, gibt der Insights Agent eine Tabelle zurück. Der Insights Agent generiert keine Diagramme oder Graphen. Um die Daten zu visualisieren, laden Sie die CSV-Datei herunter und öffnen Sie sie in Ihrem bevorzugten Tool. Wenn Ihre Ergebnisse 50 oder weniger Zeilen enthalten, kann eine Zusammenfassung in einfacher Sprache über der Tabelle enthalten sein. Beispiel: \&quot;Für welche Kurse gibt es nicht weniger als 5 Registrierungen, die im letzten Jahr erstellt wurden, und wer sind die Autoren?\&quot;
+3. **Ergebnisse:** Der Insights Agent generiert Ergebnisse als Text oder als Tabelle. Bei Datenpunkten, die am besten in Tabellenformat interpretiert werden, gibt der Insights Agent eine Tabelle zurück. Der Insights Agent generiert keine Diagramme oder Graphen. Um die Daten zu visualisieren, laden Sie die CSV-Datei herunter und öffnen Sie sie in Ihrem bevorzugten Tool. Wenn Ihre Ergebnisse 50 oder weniger Zeilen enthalten, kann eine Zusammenfassung in einfacher Sprache über der Tabelle enthalten sein. Beispiel: \&quot;Für welche Kurse gibt es nicht weniger als 5 Registrierungen, die im letzten Jahr erstellt wurden, und wer sind die Autoren?\&quot;
 
 ![](assets/results.png)
 
@@ -133,11 +133,12 @@ Wählen Sie nach jeder Antwort das Symbol für die Daumen hoch oder Daumen runte
 
 ## Best Practices
 
-- Beginnen Sie mit einer spezifischen Frage und nicht mit einer allgemeinen. \&quot;Wie hoch ist die Abschlussrate für den Kurs &quot;Sicherheitsschulung&quot; in der Benutzergruppe Nordamerika?\&quot; gibt nützlichere Ergebnisse zurück als \&quot;Abschlussdaten anzeigen&quot;.
+- Beginnen Sie mit einer spezifischen Frage und nicht mit einer allgemeinen. &quot;Wie hoch ist die Abschlussquote für den Kurs &quot;Sicherheitsschulung&quot; in der Benutzergruppe Nordamerika?&quot; gibt mehr nützliche Ergebnisse zurück als \&quot;Abschlussdaten anzeigen&quot;.
 - Verwenden Sie beim Benennen von Inhalten und Teilnehmergruppen exakte Adobe Learning Manager-Begriffe. In der Anleitung zum Schreiben von Abfragen sind die richtigen Begriffe aufgeführt.
 - Wenn der Agent eine klärende Frage stellt, behandeln Sie sie als Signal, um Ihre ursprüngliche Frage zu verfeinern. Je konkreter Ihre Frage ist, desto weniger Klarstellungen sind erforderlich.
 - Überprüfen Sie den Abschnitt **Ansatz**, bevor Sie auf die Ergebnisse reagieren. Dies gilt insbesondere für Compliance-bezogene Abfragen, bei denen Genauigkeit entscheidend ist.
 - **Geben Sie an, ob Teilnehmer auf der Warteliste ein- oder ausgeschlossen werden sollen**. Standardmäßig umfasst die Abfrage der Registrierungsanzahl Teilnehmer, die neben aktiven, bestätigten Registrierungen auf einer Warteliste stehen. Wenn Sie nur aktive Teilnehmer benötigen, schließen Sie Teilnehmer auf Warteliste in Ihrer Abfrage explizit aus. Beispiel: &quot;Wie viele Teilnehmer sind direkt für den Kurs &quot;Sicherheitsschulung&quot; registriert, ausgenommen Teilnehmer auf der Warteliste?&quot; Der Agent wird im Abschnitt Ansatz angeben, dass der Ausschluss angewendet wurde. Ohne diese Anleitung kann die Gesamtzahl der Registrierungen einen erheblichen Teil der Teilnehmer auf der Warteliste enthalten, die den Inhalt noch nicht gestartet haben.
+- **Anzahl der direkten und indirekten Registrierungen**: Wenn Sie Registrierungs- oder Abschlussdaten für einen Kurs oder Lernpfad abfragen, unterscheidet der Insights Agent zwischen direkten Registrierungen (Teilnehmer, die speziell für diesen Kurs oder Lernpfad registriert sind) und indirekten Registrierungen (Teilnehmer, die denselben Inhalt als Teil eines Lernpfads oder einer Zertifizierung aufgerufen haben). Wenn Sie explizit nach direkten oder indirekten Registrierungen fragen, gibt der Agent für jeden Typ die richtige Anzahl zurück. Wenn in der Abfrage keine direkte oder indirekte Zahl angegeben wird, gibt der Agent möglicherweise eine kombinierte Zahl zurück. Um getrennte Zählungen zu erhalten, fügen Sie die Unterscheidung explizit in Ihre Abfrage ein. Beispiel: &quot;Wie viele Teilnehmer sind direkt oder indirekt beim Kurs &quot;Sicherheitsschulung&quot; angemeldet?&quot;
 
 
 ## Erstellen effektiver Abfragen für den Insights Agent
@@ -256,23 +257,9 @@ Nutze sie als Ausgangspunkt. Passen Sie sie an, indem Sie die für Ihr Konto gü
 
 ## Einschränkungen in der Version
 
-**Wiederkehrende Zertifizierungen können während des Unterdrückungsschritts mehrere Optionen anzeigen.**
-
-Wenn Sie Daten für eine wiederkehrende Zertifizierung abfragen, zeigt der Insights Agent möglicherweise während des Klärungsschritts mehrere Optionen an, eine für jede Wiederholung der Zertifizierung, anstatt sie als einzelnen Eintrag anzuzeigen. Wenn Sie eine dieser Optionen auswählen, werden möglicherweise falsche oder unvollständige Daten zurückgegeben. Wir empfehlen, den Insights Agent nicht zum Abfragen wiederkehrender Zertifizierungen zu verwenden.
-
-**Kurse, die Teil einer wiederkehrenden Zertifizierung sind, zeigen möglicherweise während des Schritts zur Aufhebung der Zweifel mehrere Optionen an**
-
-Wenn Sie Daten zu einem Kurs abfragen, der mit einer wiederkehrenden Zertifizierung verknüpft ist, zeigt der Insights Agent möglicherweise während des Klärungsschritts mehrere Optionen an, eine für jede Version des Kurses, die über Zertifizierungszyklen erstellt wurde, anstatt ihn als einzelnen Eintrag anzuzeigen. Wenn Sie eine dieser Optionen auswählen, werden möglicherweise falsche oder unvollständige Daten zurückgegeben.
-
 **Es kann bis zu 30 Minuten dauern, bis neu hinzugefügte Daten in den Ergebnissen angezeigt werden.**
 
 Nachdem der Inhalt erstellt wurde, die Teilnehmer registriert sind oder die Abschlussdatensätze aktualisiert wurden, kann es bis zu 30 Minuten dauern, bis diese Daten in den Abfrageergebnissen verfügbar sind. Wenn Ihre Ergebnisse unvollständig erscheinen oder keine aktuellen Aktivitäten widerspiegeln, warten Sie 30 Minuten und wiederholen Sie die Abfrage.
-
-**Anzahl der direkten und indirekten Registrierungen**
-
-Wenn Sie Registrierungs- oder Abschlussdaten für einen Kurs oder Lernpfad abfragen, unterscheidet der Insights Agent zwischen direkten Registrierungen (Teilnehmer, die speziell für diesen Kurs oder Lernpfad registriert sind) und indirekten Registrierungen (Teilnehmer, die denselben Inhalt als Teil eines Lernpfads oder einer Zertifizierung aufgerufen haben). Wenn Sie explizit nach direkten oder indirekten Registrierungen fragen, gibt der Agent für jeden Typ die richtige Anzahl zurück.
-
-Wenn in der Abfrage keine direkte oder indirekte Zahl angegeben wird, gibt der Agent möglicherweise eine kombinierte Zahl zurück. Um getrennte Zählungen zu erhalten, fügen Sie die Unterscheidung explizit in Ihre Abfrage ein. Beispiel: &quot;Wie viele Teilnehmer sind direkt oder indirekt beim Kurs &quot;Sicherheitsschulung&quot; angemeldet?&quot;
 
 **In nicht-lateinischen Skripten eingereichte Abfragen werden nicht unterstützt**
 
