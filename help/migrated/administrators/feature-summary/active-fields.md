@@ -3,9 +3,9 @@ description: Erfahren Sie, wie Sie aktive Felder in Adobe Learning Manager verwe
 jcr-language: en_us
 title: Aktive Felder in Adobe Learning Manager konfigurieren
 exl-id: e68300d6-9f19-4e42-b485-c4bbbbcf5518
-source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
+source-git-commit: 77fddea1c5458485124b8f14d387a69c5ecd11a7
 workflow-type: tm+mt
-source-wordcount: '1062'
+source-wordcount: '1080'
 ht-degree: 0%
 
 ---
@@ -65,9 +65,9 @@ Hinzufügen benutzerdefinierter Werte für interne Benutzer:
 Passen Sie aktive Felder an, um die Benutzerverwaltung und Berichterstellungsaufgaben zu unterstützen, und konfigurieren Sie die Eigenschaften aktiver Felder:
 
 * **Gruppierbar**: Mit dieser Option können Sie Teilnehmer basierend auf den Werten aktiver Felder gruppieren.
-* **Bericht**: Mit dieser Option können Sie eine Berichtsbenutzergruppe auf der Grundlage des aktiven Feldwerts erstellen und den Berichtsfilter für das Feld in Dashboard-Berichten aktivieren.
+* **Bericht**: Mit dieser Option können Sie eine berichtende Benutzergruppe basierend auf dem Wert des aktiven Felds erstellen und den Berichterstellungsfilter für das Feld in Dashboard-Berichten aktivieren.
 * **Für Teilnehmer konfigurierbar**: Mit dieser Option können Teilnehmer das Feld selbst konfigurieren.
-* **Exportfähig**: Diese Option enthält das aktive Feld in exportierten Benutzergruppenberichten.
+* **Exportfähig**: Diese Option schließt das aktive Feld in exportierten Benutzergruppenberichten ein.
 * **Mehrwertig**: Diese Option unterstützt mehrere Werte für das aktive Feld.
 
 So konfigurieren Sie die Einstellungen für aktive Felder:
@@ -77,7 +77,7 @@ So konfigurieren Sie die Einstellungen für aktive Felder:
    ![](assets/settings-active-field.png)
    _Wählen Sie die Registerkarte &quot;Einstellungen&quot; aus, um die aktiven Felder anzupassen_
 
-2. Wählen Sie je nach Bedarf eine oder beide Optionen.:
+2. Wählen Sie je nach Bedarf eine oder beide Optionen aus:
 
    * **Nur nicht ausgefüllte Felder bei der Teilnehmeranmeldung anzeigen:** Wenn diese Option ausgewählt ist, sehen die Teilnehmer nur die aktiven Felder, die sie noch nicht ausgefüllt haben. Dadurch werden sie aufgefordert, ihr Profil abzuschließen, um sicherzustellen, dass die Benutzerdaten korrekt und aktuell sind. Die Anzeige dieser Felder unterstützt vollständige Teilnehmerprofile und ermöglicht personalisierte Lernerlebnisse.
    * **Wenn diese Option deaktiviert ist, wird die Seite &quot;Profil abschließen&quot; den Benutzern nicht angezeigt:** Wenn diese Option deaktiviert ist, sehen die Teilnehmer die Seite **Profil abschließen** bei der Anmeldung nicht. Sie werden nicht aufgefordert, Profilinformationen zu aktualisieren oder auszufüllen und können direkt auf die Plattform zugreifen.
@@ -126,6 +126,6 @@ In einigen Fällen ziehen Administratoren es den Teilnehmern vor, bestimmte akti
 
 Wenn eine CSV-Datei nicht alle aktiven Felder enthält, muss der Administrator die fehlenden Werte nach dem Import manuell eingeben.
 
-Standardmäßig muss jedes aktive Feld einem entsprechenden Feld in der Quell-CSV zugeordnet werden. Wenn Sie jedoch keiner Spalte in der CSV-Datei ein bestimmtes aktives Feld zuordnen möchten, können Sie den Wert **DontImportFromSource** sowohl während des Box- als auch des FTP-Importvorgangs aus der Dropdownliste auswählen. Diese Option ist beim Importieren von Benutzern über FTP- oder Box-Connectors verfügbar. Weitere Informationen zu den Konnektoren finden Sie in diesem [Artikel](https://experienceleague.adobe.com/de/docs/learning-manager/using/integration/connectors).
+Standardmäßig muss jedes aktive Feld einem entsprechenden Feld in der Quell-CSV zugeordnet werden. Wenn Sie jedoch keiner Spalte in der CSV-Datei ein bestimmtes aktives Feld zuordnen möchten, können Sie den Wert **DontImportFromSource** sowohl während des Box- als auch des FTP-Importvorgangs aus der Dropdownliste auswählen. Diese Option ist beim Importieren von Benutzern über FTP- oder Box-Connectors verfügbar. Weitere Informationen zu den Konnektoren finden Sie in diesem [Artikel](/help/migrated/integration-admin/feature-summary/connectors.md).
 
 
