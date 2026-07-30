@@ -2,9 +2,9 @@
 description: Dieses Dokument fasst die Berichterstellungsänderungen im August 2026 in Adobe Learning Manager zusammen. Es deckt neue und aktualisierte Spalten im Teilnehmertranskript, in der Schulung, der Registrierung, der Warteliste, der Anwesenheit, der Inhaltsüberwachung und in Benutzerberichten ab. Außerdem werden das adaptive Kursverhalten, die Bewertung in Schulungsunterlagen, externe Lerndatensätze, KI-Bonitätsberichte der Generationen, die Verfolgung von Stammzertifizierungen, die Zeitstempelstandardisierung und API-Autor-Updates erläutert.
 jcr-language: en_us
 title: Meldungsänderungen in der Version August 2026 von Adobe Learning Manager
-source-git-commit: 2d60f665d2e00c95edfc96360ee65fdae013c0cd
+source-git-commit: 5c32d300f6e66e154a5c993a0d9701254ac8b4ce
 workflow-type: tm+mt
-source-wordcount: '1434'
+source-wordcount: '976'
 ht-degree: 2%
 
 ---
@@ -12,11 +12,11 @@ ht-degree: 2%
 
 # Meldungsänderungen in der Version August 2026 von Adobe Learning Manager
 
-Die Adobe Learning Manager-Version vom August 2026 bietet Berichterstellungsverbesserungen für adaptive Kurse, Schulungskurse, externes Lernen, Nutzung von KI-Krediten der Generation und mehr. In diesem Artikel werden die neuen Spalten, Berichte und Verhaltensänderungen zusammengefasst, die Administratoren in dieser Version zur Verfügung stehen.
+Die Adobe Learning Manager-Version vom August 2026 bietet Berichtsverbesserungen für das gesamte Schulungsmaterial, das externe Lernen, die Nutzung von KI-Krediten der Generation und vieles mehr. In diesem Artikel werden die neuen Spalten, Berichte und Verhaltensänderungen zusammengefasst, die Administratoren in dieser Version zur Verfügung stehen.
 
 ## Was hat sich verändert
 
-Die Berichterstattungsaktualisierungen erstrecken sich auf acht Funktionsbereiche: adaptives Kursverhalten, adaptive Warteliste, Notizbuchbewertung, externes Lernen, inkrementelle Benutzerexporte, Nutzung von KI-Guthaben der Generation, Verfolgung der Stammzertifizierung und Ausrichtung der Webhook-Zeitstempel. Die Änderungen wirken sich am stärksten auf die folgenden Berichte aus:
+Die Berichterstattungsaktualisierungen erstrecken sich auf acht Funktionsbereiche: Notizbuchbewertung, externes Lernen, inkrementelle Benutzerexporte, Verwendung von KI-Guthaben der Generation, Verfolgung der Stammzertifizierungen und Ausrichtung der Webhook-Zeitstempel. Die Änderungen wirken sich am stärksten auf die folgenden Berichte aus:
 
 - Teilnehmertranskript (LT)
 - Schulungsbericht
@@ -26,66 +26,70 @@ Die Berichterstattungsaktualisierungen erstrecken sich auf acht Funktionsbereich
 
 Die meisten Aktualisierungen führen neue Spalten ein. Einige führten neue Berichtstypen ein. Einige haben die Modellierung oder Formatierung vorhandener Daten geändert.
 
-## Änderungen bei der adaptiven Kursberichterstattung
+<!--
+## Adaptive course reporting changes
 
-### Schulungsbericht
+### Training report
 
-Drei neue Spalten im Schulungsbericht unterstützen das adaptive Kursverhalten.
+Three new columns in the Training report support adaptive course behavior.
 
-| **Spalte** | **Beschreibung** | **Unterstützte Werte** |
+| **Column**               | **Description**                                          | **Supported Values**                                                   |
 |--------------------------|----------------------------------------------------------|------------------------------------------------------------------------|
-| Adaptives Lernobjekt | Gibt an, ob ein Kurs adaptiv ist. | true (adaptiv), false (nicht adaptiv) |
-| Sichtbarkeitsbenutzergruppen | Listet Benutzergruppen auf, die jedes Modul anzeigen können | Name einer oder mehrerer Benutzergruppen (z. B. &quot;Alle Teilnehmer&quot;, UG-Australien) |
-| Obligatorisch | Gibt an, ob ein Modul für eine Benutzergruppe obligatorisch ist. | Benutzergruppennamen, für die das Modul obligatorisch ist; blank = optional |
+| Adaptive Learning Object | Identifies whether a course is adaptive                  | true (adaptive), false (non-adaptive)                                  |
+| Visibility User Groups   | Lists user groups that can view each module              | One or more user group names (for example, All Learners, UG-Australia) |
+| Mandatory                | Indicates whether a module is mandatory for a user group | User group names for which the module is mandatory; blank = optional   |
 
-Sie können **Sichtbarkeitsbenutzergruppen** und **Obligatorisch** kombinieren, um adaptive Abschlussregeln direkt im Bericht zu interpretieren. Beispielsweise kann ein Modul für **alle Teilnehmer** sichtbar sein, aber nur für die **Administratorgruppe** obligatorisch.
+You can combine **Visibility User Groups** and **Mandatory** to interpret adaptive completion rules directly in the report. For example, a module may be visible to **All Learners** but mandatory only for the **Administrator group**.
 
-### Teilnehmertranskript
 
-Eine neue Spalte **Vorherige Abschlüsse** erfasst historische Abschlussdaten, wenn die adaptive Logik eine Neuvervollständigung auslöst.
+### Learner Transcript
 
-| **Unterfeld** | **Beschreibung** |
+A new **Previous Completions** column captures historical completion data when adaptive logic triggers recompletion.
+
+| **Sub-field**         | **Description**                         |
 |-----------------------|-----------------------------------------|
-| completeRefreshDate | Zeitstempel beim Zurücksetzen der Fertigstellung |
-| completedDate | Zeitstempel für vorherigen Abschluss |
-| progressAtRefresh | Teilnehmerfortschritt vor dem Zurücksetzen |
-| gradeAtRefresh | Teilnehmerpunktzahl zum Zeitpunkt des Zurücksetzens |
+| completionRefreshDate | Timestamp when the completion was reset |
+| completedDate         | Previous completion timestamp           |
+| progressAtRefresh     | Learner progress before reset           |
+| gradeAtRefresh        | Learner score at the time of reset      |
 
-Das Teilnehmertranskript unterstützt jetzt mehrere Abschlusszyklen. Wenn ein Ereignis für die Neuvervollständigung eintritt, z. B. aufgrund von Kursupdates oder neuen obligatorischen Modulen, wird der vorherige Abschluss in die Spalte **Vorherige Abschlüsse** verschoben. Die aktuelle Fertigstellung bleibt in den Standardtranskriptfeldern erhalten.
+The Learner Transcript now supports multiple completion cycles. When a recompletion event occurs, for example, due to course updates or new mandatory modules, the previous completion moves to the **Previous Completions** column. The current completion remains in the standard transcript fields.
 
-### Registrierungsbericht
+### Enrollment report
 
-Eine neue **Spalte auf Warteliste** zeigt an, ob ein Teilnehmer in einem Modul innerhalb eines Kurses auf die Warteliste gesetzt wird.
+A new **Waitlisted** column indicates whether a learner is waitlisted in any module within a course.
 
-| **Wert** | **Bedeutung** |
+| **Value** | **Meaning**                                             |
 |-----------|---------------------------------------------------------|
-| korrekt | Der Teilnehmer wird in einem oder mehreren Modulen auf die Warteliste gesetzt |
-| falsch | Teilnehmer hat die Registrierung für alle sichtbaren Module bestätigt |
+| true      | The learner is waitlisted in one or more modules        |
+| false     | Learner has confirmed enrollment in all visible modules |
 
-### Wartelistenbericht
+### Waitlist report
 
-Zwei neue Spalten und ein erweitertes Status-Detail-Supportmodul ermöglichen die Wartelistenverfolgung auf Modulebene.
+Two new columns and an enhanced status-detail support module enable waitlist tracking at the module level.
 
-| **Spalte** | **Beschreibung** |
+| **Column**      | **Description**                                                                                                                        |
 |-----------------|----------------------------------------------------------------------------------------------------------------------------------------|
-| **Modul** | Name des Moduls (Klassenzimmer oder virtuelle Klassenzimmersitzung), in dem der Teilnehmer auf der Warteliste steht. Wird nach der Spalte &quot;Instanzstatus&quot; angezeigt. |
-| **Modul-ID** | Kennung des Moduls, in dem der Teilnehmer auf der Warteliste steht. Wird nach der Spalte &quot;Modul&quot; angezeigt. |
-| **Eingebettet in** | Der Name des Lernpfads und die ID jedes Lernpfads, der diesen Kurs enthält. Leer, wenn der Kurs nicht Teil eines Lernpfads ist. |
+| **Module**      | Name of the module (classroom or virtual classroom session) where the learner is waitlisted. Appears after the Instance Status column. |
+| **Module ID**   | Identifier of the module where the learner is waitlisted. Appears after the Module column.                                             |
+| **Embedded In** | The learning path name and ID of any learning path that contains this course. Blank if the course is not part of a learning path.      |
 
-Der Bericht &quot;Warteliste&quot; wurde von einem Modell auf Kursebene zu einem Modell auf Modulsitzungsebene verschoben. Ein Teilnehmer kann jetzt in einigen Modulen registriert werden und in anderen auf die Warteliste gesetzt werden. Der Bericht unterstützt auch die Wartelistenverfolgung in Flex-Lernpfaden, bei denen Sitzplatzbeschränkungen auf Modulebene erzwungen werden.
+The Waitlist report has shifted from a course-level model to a module session–level model. A learner can now be enrolled in some modules and waitlisted in others. The report also supports waitlist tracking within Flex learning paths, where seat limits are enforced at the module level.
 
-### LP-Registrierungsbericht
+### LP Enrollment report
 
-Der Bericht zur Lernpfadregistrierung erhält auch eine neue **Anmerkungen**-Spalte. Wenn ein Teilnehmer in einer beliebigen Klassenzimmer- oder virtuellen Klassenzimmersitzung in den Kursen, die den Lernpfad bilden, auf die Warteliste gesetzt ist, wird in der Spalte &quot;Anmerkungen&quot; **Warteliste** angezeigt. Wenn alle Sitzungen bestätigt wurden, ist die Spalte leer.
+The Learning Path Enrollment report also receives a new **Remarks** column. When a learner is in a waitlisted state on any classroom or virtual classroom session within the courses that make up the learning path, the Remarks column shows **Waitlisted**. When all sessions are confirmed, the column is blank.
 
-### Anwesenheitsbericht
+### Attendance report
 
-In der Spalte **Teilnehmerstatus** wird jetzt zwischen bestätigten und auf die Warteliste gesetzten Teilnehmern unterschieden.
+The **Learner status** column now distinguishes between confirmed and waitlisted learners.
 
-| **Wert** | **Bedeutung** |
+| **Value**  | **Meaning**                            |
 |------------|----------------------------------------|
-| Bestätigt | Dem Teilnehmer ist eine Lizenz zugewiesen. |
-| Auf Warteliste | Der Teilnehmer hat noch keine Lizenz zugewiesen |
+| Confirmed  | The learner has an allocated seat      |
+| Waitlisted | The learner is pending seat allocation |
+
+-->
 
 ## Berichterstellungsänderungen im Gradebook
 
