@@ -1,11 +1,11 @@
 ---
 description: Überblick über jeden ALM-unterstützten Connector
 jcr-language: en_us
-title: Überblick über ALM-unterstützte Connectors
+title: Übersicht über Connectors in Adobe Learning Manager
 contentowner: mmanuel
-source-git-commit: bd80ca31ff633e21ec81e717772e43989f0d9aae
+source-git-commit: 3750b1f8784209d9efcbf5aaae890c37365d7030
 workflow-type: tm+mt
-source-wordcount: '1424'
+source-wordcount: '1426'
 ht-degree: 6%
 
 ---
