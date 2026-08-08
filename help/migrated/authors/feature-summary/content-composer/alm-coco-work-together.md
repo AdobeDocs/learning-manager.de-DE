@@ -59,14 +59,14 @@ Weitere Informationen finden Sie unter [Kurseinstellungen konfigurieren](#settin
 
 4.**Publish des ALM-Kurses:** Ein ALM-Autor fügt das Modul zu einem ALM-Kurs zusammen, fügt Kursbilder und -einstellungen hinzu und veröffentlicht ihn. Erst nach diesem Schritt können Teilnehmer registriert werden.
 
-Weitere Informationen finden Sie unter [Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/get-started/getting-started-author).
+Weitere Informationen finden Sie unter [Adobe Learning Manager](https://experienceleague.adobe.com/de/docs/learning-manager/using/get-started/getting-started-author).
 ![&#x200B; Die Inhaltsbibliothek in Adobe Learning Manager, die veröffentlichte Module und Verarbeitungsmodule anzeigt](../assets/51_alm_content_library_list_view_updated.png)
 
-Weitere Informationen finden Sie unter [Kurserstellung als Autor auf ALM](https://experienceleague.adobe.com/en/docs/learning-manager/using/authors/courses).
+Weitere Informationen finden Sie unter [Kurserstellung als Autor auf ALM](https://experienceleague.adobe.com/de/docs/learning-manager/using/authors/courses).
 
 5.**Die Teilnehmer schließen den Kurs ab:** Teilnehmer greifen über Adobe Learning Manager auf den Kurs zu, starten das Inhaltserstellungsmodul, absolvieren Lektionen und Tests und erhalten Punktzahlen basierend auf den Abschluss- und Erfolgskriterien, die Sie in Schritt 1 konfiguriert haben.
 
-Weitere Informationen finden Sie unter [Zugriff auf den Kurs als Teilnehmer](https://experienceleague.adobe.com/en/docs/learning-manager/using/get-started/getting-started-learner).
+Weitere Informationen finden Sie unter [Zugriff auf den Kurs als Teilnehmer](https://experienceleague.adobe.com/de/docs/learning-manager/using/get-started/getting-started-learner).
 
 &#x200B;6. ALM zeichnet den Teilnehmerfortschritt auf: Abschlussstatus, Quizergebnisse und Teilnehmerdaten werden in ALM aufgezeichnet und über Teilnehmertranskripte und administrative Berichte zur Verfügung gestellt.
 
