@@ -3,9 +3,9 @@ description: Weitere Informationen zur Konfiguration erweiterter Einstellungen i
 jcr-language: en_us
 title: Erweiterte Einstellungen in Adobe Learning Manager
 exl-id: 7047c89f-5f1c-4e0a-a908-20ef0eb9667d
-source-git-commit: 29302e039dfd8b8cc0c5fc20b46dc2403ce6c45b
+source-git-commit: 315eac47ba91a2a7abd5736bcc776a8672ad8044
 workflow-type: tm+mt
-source-wordcount: '2391'
+source-wordcount: '2307'
 ht-degree: 1%
 
 ---
@@ -56,7 +56,7 @@ Diese Struktur gibt Organisationen die Flexibilität, die Organisation realer In
 
 >[!NOTE]
 >
->Nur Administratoren können Ordner auf jeder Ebene erstellen, bearbeiten oder löschen. Autoren und benutzerdefinierte Benutzer interagieren mit der Hierarchie, können sie jedoch nicht ändern. Benutzerdefinierte Administratoren mit Zugriff auf einen beliebigen Stammordner können Ordner unter diesem Stammordner erstellen, bearbeiten oder löschen.
+>Nur Administratoren können Ordner auf jeder Ebene erstellen, bearbeiten oder löschen. Benutzerdefinierte Administratoren mit Zugriff auf einen beliebigen Stammordner können Ordner unter diesem Stammordner erstellen, bearbeiten oder löschen.
 
 
 ### Regeln für die Ordnerbenennung
@@ -98,22 +98,7 @@ In der folgenden Tabelle wird beschrieben, wie jede Rolle mit der Ordnerhierarch
 | Ordner der Ebene 1 pro Konto | Kein Limit |
 | Unterordner der Ebene 2 pro Ordner der Ebene 1 | 25 |
 | Unterordner der Ebene 3 pro Ordner der Ebene 2 | 25 |
-| Maximale Ordnertiefe | 3 Ebenen |
-
-
-### Ordnerauswahlverhalten
-
-Wenn Sie einen Ordner auswählen, z. B. beim Filtern oder Löschen, durchläuft die Auswahl die Hierarchie wie folgt:
-
-* Wenn Sie einen Ordner der Ebene **Ebene 1** auswählen, werden automatisch alle Ordner der Ebene 2 und der Ebene 3 darunter ausgewählt.
-
-* Wenn Sie einen Ordner der Ebene **Ebene 2** auswählen, werden automatisch alle Ordner der Ebene 3 darunter ausgewählt. Andere Ordner der Ebene 2 unter demselben Ordner der Ebene 1 sind nicht ausgewählt.
-
-* Wenn Sie einen Ordner der Ebene **Ebene 3** auswählen, wird nur dieser Ordner ausgewählt. Es sind keine anderen Ordner ausgewählt.
-
->[!NOTE]
->
->Wenn Sie einen Unterordner auswählen, ohne den übergeordneten Ordner auszuwählen, zeigt der übergeordnete Ordner keine Anzeige für teilweise oder gemischte Auswahl an. Das ist absichtlich. Da ein übergeordneter Ordner selbst Inhalt enthalten kann, nicht nur Unterordner. Wenn Sie einen übergeordneten Ordner auswählen, bedeutet dies, dass Sie &quot;den gesamten Inhalt dieses Ordners und alle darunter liegenden Inhalte einschließen&quot; müssen. Ein teilweiser Indikator würde darauf hinweisen, dass der eigene Inhalt des übergeordneten Ordners teilweise enthalten ist, was irreführend wäre. Wenn Sie nur nach einem bestimmten Unterordner filtern möchten, wählen Sie diesen Unterordner direkt aus. Wenn der gesamte Inhalt in einem übergeordneten Ordner und seinen Unterordnern enthalten sein soll, wählen Sie den übergeordneten Ordner aus.
+| Maximale Tiefe des Ordners | 3 Ebenen |
 
 ### Verwendung einer hierarchischen Ordnerstruktur
 
@@ -202,7 +187,7 @@ Als Administrator in Adobe Learning Manager erstellen und verwalten Sie die Hier
 
 >[!NOTE]
 >
->Jeder Ordner kann bis zu 25 direkte Unterordner enthalten. Ebene 3 ist die maximale Tiefe. Innerhalb eines Ordners der Ebene 3 können Sie keinen Unterordner erstellen.
+>Jeder Ordner kann bis zu 25 direkte Unterordner enthalten. Level 3 ist die höchste Tiefe. Innerhalb eines Ordners der Ebene 3 können Sie keinen Unterordner erstellen.
 
 #### Ordner umbenennen
 
@@ -216,7 +201,7 @@ Beachten Sie vor dem Löschen die folgenden Regeln:
 
 * Sie können einen leeren Ordner auf jeder beliebigen Ebene löschen.
 * Es können nur leere Ordner gelöscht werden. Ordner, die Inhalte enthalten, können nicht gelöscht werden, unabhängig davon, ob der Inhalt mit anderen Ordnern verknüpft ist oder nicht.
-* Wenn Sie einen übergeordneten Ordner löschen, werden alle Unterordner gelöscht. Wenn Sie einen übergeordneten Ordner auswählen, werden automatisch alle untergeordneten Ordner ausgewählt.
+* Wenn Sie einen übergeordneten Ordner löschen, werden alle Unterordner gelöscht, vorausgesetzt, der Ordner und alle Unterordner sind leer. Wenn Sie einen übergeordneten Ordner auswählen, werden automatisch alle untergeordneten Ordner ausgewählt.
 
 #### Übergeordneten Ordner löschen
 
@@ -229,11 +214,6 @@ Beachten Sie vor dem Löschen die folgenden Regeln:
 1. Aktivieren Sie auf der Seite **Inhaltsordner** das Kontrollkästchen neben dem Unterordner, den Sie löschen möchten.
 2. Wählen Sie **Aktionen** > **Ordner löschen** in der oberen rechten Ecke der Seite aus.
 3. Bestätigen Sie den Löschvorgang, wenn Sie dazu aufgefordert werden. Der Unterordner wird gelöscht.
-
->[!CAUTION]
->
->Das Löschen eines Ordners ist endgültig. Stellen Sie vor der Bestätigung sicher, dass alle Inhalte im Ordner an einen anderen Speicherort verschoben wurden.
-
 
 #### Ordnerzugriff für benutzerdefinierte Rollen konfigurieren
 
@@ -267,9 +247,6 @@ Die folgenden Vorgehensweisen helfen Ihnen beim Erstellen einer Ordnerstruktur, 
 3. **Halten Sie Namen kurz, aussagekräftig und eindeutig in der übergeordneten Organisation.** Vermeiden Sie generische Namen wie &quot;Modul 1&quot; oder &quot;Inhalt&quot;. Verwenden Sie Bezeichner, die für die Autoren, die die Bibliothek durchsuchen, sinnvoll sind.
 
 4. **Nur auf Ebene 1 benutzerdefinierten Rollenzugriff zuweisen.** Da der Zugriff automatisch kaskadiert wird, ist die Zuweisung auf Stufe 1 ausreichend und erleichtert die Zugriffsverwaltung. Sie müssen den Zugriff nicht aktualisieren, wenn Sie Unterordner der Ebenen 2 oder 3 hinzufügen.
-
-5. **Verschieben Sie Inhalt vor dem Löschen von Ordnern.** Wenn ein Ordner Inhalte enthält, die nirgendwo anders verknüpft sind, wird das Löschen blockiert. Gewöhne dir an, Ordnerinhalte vor dem Löschen zu überprüfen.
-
 
 <!--
 
@@ -315,6 +292,29 @@ To add a content folder, follow the steps:
 * **[!UICONTROL Add a folder]**: To add a folder, select the folder, and then select **[!UICONTROL Add]** on the upper-right corner of the screen.
 * **[!UICONTROL Delete a folder]**: To delete a folder, select the folder to delete, select the **[!UICONTROL Actions]** menu, and then select **[!UICONTROL Delete Folder]**.
 -->
+
+## Feiertage
+
+Mit der Einstellung **Feiertage** in Adobe Learning Manager können Sie Feiertage in der gesamten Organisation definieren. Feiertage werden im Kursleiterkalender als arbeitsfreie Tage angezeigt, was sich auf die Verfügbarkeit des Kursleiters bei der Live-Planung auswirkt
+Hub-Sitzungen.
+
+### Wichtigste Punkte
+
+Feiertage sind eine Reihe von arbeitsfreien Tagen, die auf Kontoebene mit den folgenden Eigenschaften verwaltet werden:
+
+&#x200B;- Nur der Administrator kann Feiertage hinzufügen, bearbeiten oder löschen.
+
+&#x200B;- Feiertage gelten organisationsweit und werden im Kalender jedes Kursleiters als arbeitsfreie Tage angezeigt.
+
+&#x200B;- Da Kursleiter an Feiertagen nicht verfügbar sind, können Live-Hub-Sitzungen nicht an diesen Tagen geplant werden.
+
+&#x200B;- Jeder Urlaub erfordert ein Datum und einen Namen; Eine Beschreibung ist optional.
+
+&#x200B;- Sie können Feiertage einzeln hinzufügen oder mehrere Feiertage gleichzeitig importieren, indem Sie eine CSV-Datei verwenden.
+
+&#x200B;- Nach dem Hinzufügen werden Feiertage auf der Seite **Feiertage** angezeigt, auf der Sie sie anzeigen, durchsuchen und verwalten können.
+
+Weitere Informationen finden Sie unter [Feiertage verwalten](../../../getting-started-with-live-hub/manage-holidays.md).
 
 ## Standorte für Klassenzimmer
 

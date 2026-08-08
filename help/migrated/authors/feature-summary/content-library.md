@@ -3,9 +3,9 @@ description: Erfahren Sie, wie Sie Inhalt zum Selbststudium erstellen können, d
 jcr-language: en_us
 title: Inhaltsbibliothek
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: 29302e039dfd8b8cc0c5fc20b46dc2403ce6c45b
+source-git-commit: ab7a0a07ebbb2607d67c7b8488e1a310878ab13a
 workflow-type: tm+mt
-source-wordcount: '6048'
+source-wordcount: '6082'
 ht-degree: 33%
 
 ---
@@ -444,7 +444,7 @@ Wenn Sie neue Inhalte hochladen, wählen Sie während des Upload-Vorgangs den Or
 4. Ziehen Sie unter **Inhaltsdatei hinzufügen** die Inhaltsdatei per Drag &amp; Drop oder wählen Sie das Feld aus, das Sie durchsuchen und hochladen möchten.
    ![](assets/cl2.png)
 
-5. Durchsuchen Sie unter **Zu Ordner hinzufügen** entweder den Ordner oder durchsuchen Sie den Ordner im Suchfeld.
+5. Durchsuchen Sie unter **Zu Ordner hinzufügen** entweder den Ordner oder durchsuchen Sie den Ordner im Suchfeld. Sie können auch mehrere Ordner auswählen.
    ![](assets/cl3.png)
 
 6. Wählen Sie **Hinzufügen** aus.
@@ -453,11 +453,6 @@ Wenn Sie neue Inhalte hochladen, wählen Sie während des Upload-Vorgangs den Or
 
 8. Wählen Sie **Speichern**. Die Inhaltsdatei wird der Inhaltsbibliothek hinzugefügt und wird oben in der Liste angezeigt.
    ![](assets/cl4.png)
-
->[!NOTE]
->
->Sie können Inhalte nicht zwischen öffentlichen und privaten Ordnern kopieren oder verschieben. In diesem Fall zeigt Adobe Learning Manager eine Fehlermeldung an.
-
 
 ## Ordnerpfade in der Inhaltsbibliothek anzeigen
 
@@ -486,7 +481,7 @@ Mit dem Filter **Ordner** in der Inhaltsbibliothek können Sie die Liste so eing
 
 3. Verwenden Sie das Dropdown-Suchfeld, um einen Ordner anhand des Namens zu suchen.
 
-4. Sie können bis zu **25 Ordner** gleichzeitig auswählen. Wenn Sie mehr als 25 auswählen, wird ein Fehler angezeigt.
+4. Sie können mehrere Ordner gleichzeitig auswählen.
 
 ## Inhalt in Ordner verschieben {#movecontenttofolder}
 

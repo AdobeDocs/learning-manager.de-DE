@@ -3,10 +3,10 @@ jcr-language: en_us
 title: Adobe Connect-Integration
 description: Autoren können während der Erstellung von Kursen Kurse für das virtuelle Klassenzimmer über Adobe Connect erstellen. Um Adobe Connect für Ihr Learning Manager-Konto zu aktivieren, müssen Sie den Administrator Ihres Unternehmens kontaktieren.
 exl-id: 3386ab89-fe13-42fc-9943-b7ff278ed7e9
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: a4ef66561570df00b4312a773b0c041df82114f7
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 94%
+source-wordcount: '419'
+ht-degree: 69%
 
 ---
 
@@ -17,7 +17,7 @@ Autoren können während der Erstellung von Kursen Kurse für das virtuelle Klas
 ## Kurs für virtuelles Klassenzimmer (VC) mit Adobe Connect erstellen {#createvirtualclassroomvccoursewithadobeconnect}
 
 1. Klicken Sie auf der Seite „Eigene Kurse“ auf „Module hinzufügen“ und wählen Sie „Virtuelles Klassenzimmer“. Das Dialogfeld „Virtuelles Klassenzimmer erstellen“ wird angezeigt.
-1. Wählen Sie in der Option **Konferenzsystem** die Option &quot;Adobe Connect&quot; aus.
+1. Wählen Sie in der Option **Virtuelle Live-Schulungstools** die Option **Adobe Connect**.
 
    ![](assets/create-vc-author.png)
 
@@ -40,3 +40,13 @@ Autoren können während der Erstellung von Kursen Kurse für das virtuelle Klas
 ## Gemeinsame Vorlagen aus Adobe Connect {#sharedtemplatesofadobeconnect}
 
 Standardmäßig werden alle im Adobe Connect-Konto erstellten gemeinsamen Vorlagen in der Learning Manager-Anwendung abgerufen. Sie können benutzerdefinierte Vorlagen hinzufügen, indem Sie sie im Adobe Connect-Konto als gemeinsame Vorlagen erstellen.
+
+## Erstellen Sie einen Kurs für ein virtuelles Klassenzimmer mit Live Hub
+
+Live Hub ist die native, KI-gestützte Lösung für virtuelle Schulungsräume von Adobe Learning Manager, mit der Unternehmen Live-Schulungen durchführen können, ohne auf Konferenztools von Drittanbietern angewiesen zu sein.
+
+Wenn Ihr Administrator Live Hub für Ihr Konto aktiviert, wird es in der Liste **Virtuelle Live-Schulungstools** neben anderen unterstützten Anbietern, z. B. Adobe Connect, verfügbar.
+
+Der Live Hub umfasst auch einen AI-basierten Finder für Kursleiter, der Kursleiter basierend auf Ihren Anforderungen für virtuelle Schulungsräume, den erforderlichen Kenntnissen und den Sitzungsdetails empfiehlt. Auf diese Weise können Sie geeignete Kursleiter identifizieren, ohne die gesamte Kursleiterliste manuell durchsuchen zu müssen.
+
+Weitere Informationen finden Sie unter [Livehub-Sitzung erstellen](../../getting-started-with-live-hub/create-a-live-hub-session.md).

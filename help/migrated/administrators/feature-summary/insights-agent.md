@@ -2,9 +2,9 @@
 description: Der Insights Agent ist eine KI-gestützte Funktion in Adobe Learning Manager, mit der Administratoren Daten von Teilnehmern in natürlicher Sprache abfragen können.
 jcr-language: en_us
 title: Insights Agent (Beta) in Adobe Learning Manager
-source-git-commit: d08f721676a301fc94a36dc58ca1f5508ae8c1b3
+source-git-commit: ed7e51ce51aa57144b8e519cb24a95ffbc436504
 workflow-type: tm+mt
-source-wordcount: '2730'
+source-wordcount: '2632'
 ht-degree: 1%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 1%
 
 # Was ist Insights Agent?
 
-Der Insights Agent ist eine KI-gestützte Funktion in Adobe Learning Manager, mit der Administratoren Daten von Teilnehmern in natürlicher Sprache abfragen können. Anstatt Berichte herunterzuladen und Tabellenkalkulationen zu bearbeiten, geben Sie eine Frage ein, z. B. &quot;Wie viele Kurse wurden in den letzten 3 Monaten in einem Konto erstellt? Gebt mir einen Monatsbericht.&quot;, und der Insights Agent ruft die Daten ab und stellt sie direkt vor. Sie können die Ergebnisse als Tabellen anzeigen oder als CSV-Datei herunterladen.
+Insights Agent ist eine KI-gestützte Funktion in Adobe Learning Manager, mit der Administratoren Lerndaten in natürlicher Sprache abfragen können. Anstatt Berichte herunterzuladen und Tabellenkalkulationen zu bearbeiten, geben Sie eine Frage ein, z. B. &quot;Wie viele Kurse wurden in den letzten 3 Monaten in einem Konto erstellt? Gebt mir einen Monatsbericht.&quot;, und der Insights Agent ruft die Daten ab und stellt sie direkt vor. Sie können die Ergebnisse als Text, Aufzählungszeichen oder Tabellen anzeigen oder als CSV-Datei herunterladen.
 
 Der Insights Agent ist darauf ausgelegt, die Schritte zwischen dem Erhalten einer Datenfrage und dem Erhalten einer Antwort zu reduzieren. Administratoren, die sich derzeit auf Excel Pivots, BI-Teams oder mehrere kombinierte Berichte verlassen, können Insights Agent verwenden, um Antworten schneller zu erhalten.
 
@@ -21,10 +21,10 @@ Der Insights Agent ist darauf ausgelegt, die Schritte zwischen dem Erhalten eine
 Sie können den Insights Agent für Folgendes verwenden:
 
 - Überprüfen Sie die Abschlusskennzahlen und Compliance-Kennzahlen nach Region, Abteilung oder Benutzergruppe
-- Analyse von Anmeldetrends in verschiedenen Lernprogrammen
+- Analysieren von Anmeldetrends für mehrere Kurse oder Lernpfade
 - Fortschrittsdaten für einen bestimmten Kurs oder Lernpfad anzeigen
-- Abrufen von Ergebnissen in einer Tabelle oder als herunterladbare CSV-Datei
-- Erhalten Sie eine verständliche Erläuterung, wie Ihre Ergebnisse berechnet wurden
+
+Jede Abfrage gibt eine formatierte Tabelle oder eine herunterladbare CSV-Datei zurück, zusammen mit einer Erläuterung in verständlicher Sprache, wie die Ergebnisse berechnet wurden.
 
 ## Was Data Insights Agent nicht unterstützt
 
@@ -35,6 +35,99 @@ Die folgenden Datentypen fallen nicht unter diese Version:
 - Prüfverlauf und Änderungsprotokolle
 
 Abfragen, die auf diese Datentypen verweisen, geben keine Ergebnisse zurück. Beispiel: &quot;Wie viele Gamification-Punkte wurden im letzten Quartal vergeben?&quot; oder &quot;Welche Teilnehmer haben ein Compliance-Abzeichen erworben?&quot; gibt einen Fehler oder unvollständige Daten zurück.
+
+## Funktionsweise des Insights Agent
+
+Wenn Sie eine Frage eingeben, verarbeitet der Insights Agent sie in vier Schritten:
+
+1. **Interpretation**: Der Agent analysiert Ihre Frage, um festzustellen, welche Daten benötigt werden. Wenn ein Teil der Frage nicht eindeutig ist, stellt Ihnen der Support-Mitarbeiter eine klärende Frage, bevor Sie fortfahren.
+
+2. **Ansatz**: Der Support-Mitarbeiter beschreibt die Schritte, die er unternommen hat, um Ihre Antwort zu finden. In diesem Abschnitt können Sie überprüfen, ob die Daten wie beabsichtigt abgerufen wurden, insbesondere bei komplexen Abfragen.
+
+3. **Ergebnisse**: Der Agent stellt Ihre Daten je nach Art der Ergebnisse als Text, Aufzählungszeichen oder Tabelle dar. Die Ergebnisse enthalten eine Zusammenfassung in verständlicher Sprache. Wenn Ergebnisse 50 Zeilen oder weniger enthalten, enthält die Zusammenfassung analytische Erkenntnisse über die Daten. Wenn Ergebnisse mehr als 50 Zeilen enthalten, stellt die Zusammenfassung Statistiken auf Spaltenebene bereit.
+
+4. **Download**: Sie können die Ergebnisse als CSV-Datei herunterladen. Umfangreiche Berichte können zusätzliche Zeit in Anspruch nehmen. Der Agent benachrichtigt Sie, wenn die Datei fertig ist.
+
+Der Abschnitt **Ansatz** ist besonders für komplexe Abfragen nützlich. Hier wird die vom Agent verwendete Logik angezeigt, ähnlich der, die ein BI-Analyst erklären würde, wenn er die Abfrage manuell ausgeführt hätte. Wenn Sie den Ansatz überprüfen, können Sie überprüfen, ob die Ausgabe zuverlässig ist, bevor Sie darauf reagieren.
+
+## Stellen von Fragen mit dem Insights Agent
+
+Verwenden Sie den Insights Agent in Adobe Learning Manager, um Lerndaten mit Fragen in verständlicher Sprache abzufragen und Ergebnisse als Text, Tabellen oder herunterladbare CSV-Dateien zu erhalten.
+
+Der Insights Agent steht Administratoren im Bereich &quot;AI Assistant&quot; im Learning Manager zur Verfügung. Die Größe des Bedienfelds kann geändert werden. Sie können sie erweitern, um die Ergebnisse leichter lesbar zu machen. Standardmäßig ist der Modus **Erkenntnisse abrufen** beim Öffnen des Bereichs ausgewählt. Ein separater **Learn**-Modus ist auch für Fragen zur Verwendung des Produkts verfügbar. Im Modus **Training** werden Fragen zur Verwendung des Lern-Managers beantwortet. Beispiel: &quot;Wie erstelle ich einen Lernpfad?&quot; Es werden keine Teilnehmerdaten abgefragt.
+
+### Eine Frage stellen
+
+Wenn standardmäßig der Modus **Erkenntnisse abrufen** ausgewählt ist, können Sie sofort mit der Abfrage von Lerndaten beginnen, ohne den Modus jedes Mal anpassen zu müssen, wenn Sie auf den Assistenten zugreifen. Wenn Sie jedoch jemals zum Modus **Lernen** für Anleitungsfragen wechseln, müssen Sie **Erkenntnisse abrufen** erneut auswählen, bevor Sie eine Abfrage senden.
+
+1. Wählen Sie das AI-Assistentensymbol im Learning Manager aus, um das Assistentenfenster zu öffnen. Die Option **Erkenntnisse abrufen** ist standardmäßig bereits ausgewählt.
+   ![](assets/ask-question.png)
+
+2. Geben Sie Ihre Frage in das Textfeld ein. Verwende reine Sprache. Beispiel: **Wie viele Kurse wurden in den letzten drei Monaten erstellt?**
+
+3. Wählen Sie **Senden** aus oder drücken Sie die **Eingabetaste**, um Ihre Frage zu senden.
+
+### Überprüfen Sie die Antwort
+
+Nachdem Sie Ihre Frage eingereicht haben, verarbeitet Insights Agent Ihre Anfrage und gibt eine Antwort mit bis zu vier Teilen zurück:
+
+1. **Verzicht (falls erforderlich):** Wenn Ihre Frage einen mehrdeutigen Begriff enthält, wie z. B. &quot;Lernaktivität&quot; oder &quot;Leistung&quot; oder &quot;Geben Sie mir Leistungsdaten aus den letzten 3 Monaten&quot;, zeigt der Assistent eine Liste von Optionen an und fordert Sie auf, eine Option auszuwählen, bevor der Vorgang fortgesetzt wird. Wählen Sie die Option, die am besten zu dem passt, was Sie suchen. Nach der ersten Frage können Sie keine weiteren Anweisungen mehr eingeben. Die Auswahl aus den angegebenen Optionen ist die einzige verfügbare Interaktion, bis Sie eine neue Abfrage über die Abfrageoberfläche starten. Sie können auf eine Zweideutigkeit nur reagieren, indem Sie aus den bereitgestellten Optionen auswählen. Freitext-Follow-up ist in dieser Version nicht verfügbar.
+   ![](assets/disambiguation.png)
+
+2. **Ansatz:** Im Abschnitt **Ansatz** werden die Schritte beschrieben, die der Agent zum Abrufen Ihrer Daten ausgeführt hat. Es wird als bildlauffähiges Bedienfeld unter der Frage angezeigt. Klicken Sie auf das Erweiterungssymbol, um den vollständigen Ansatz anzuzeigen. Wenn Sie diesen Abschnitt lesen, können Sie leichter überprüfen, ob die Logik mit Ihrer Absicht übereinstimmt, insbesondere bei komplexen Abfragen. Wenn Sie beispielsweise &quot;alle Teilnehmer im letzten Jahr registriert&quot; fragen, gibt der Agent möglicherweise die letzte Registrierung jedes Teilnehmers zurück und nicht jeden Registrierungsdatensatz. Im Abschnitt **Ansatz** werden die Entscheidungen erläutert, die der Agent beim Abrufen Ihrer Daten getroffen hat. Wenn die Logik nicht Ihrer Absicht entspricht, starten Sie eine neue Abfrage mit spezifischeren Begriffen.
+   ![](assets/approach.png)
+
+3. **Ergebnisse:** Der Insights Agent generiert Ergebnisse als Text oder als Tabelle. Bei Datenpunkten, die am besten in Tabellenformat interpretiert werden, gibt der Insights Agent eine Tabelle zurück. Der Insights Agent generiert keine Diagramme oder Graphen. Um die Daten zu visualisieren, laden Sie die CSV-Datei herunter und öffnen Sie sie in Ihrem bevorzugten Tool. Die Ergebnisse enthalten eine Zusammenfassung in verständlicher Sprache. Wenn Ergebnisse 50 Zeilen oder weniger enthalten, enthält die Zusammenfassung analytische Erkenntnisse über die Daten. Wenn Ergebnisse mehr als 50 Zeilen enthalten, stellt die Zusammenfassung Statistiken auf Spaltenebene bereit. Beispiel: &quot;Für welche Kurse sind nicht weniger als 5 Registrierungen möglich, die im letzten 1 Jahr erstellt wurden, und wer sind die Autoren?&quot;
+   ![](assets/results.png)
+
+Die Antwort enthält die folgende Zusammenfassung:
+
+***Übersicht***
+
+- *Übereinstimmende Kurse: 102*
+- *Bereich der Registrierungsanzahl: 24 bis 2019*
+- *Durchschnittliche Registrierungen pro abgeglichenem Kurs: 589,6*
+- *Mediane Registrierungen pro abgeglichenem Kurs: 553,5*
+
+*Ein Download-Link für den vollständigen Bericht wird bereitgestellt, sobald der Export fertig ist.*
+
+>[!NOTE]
+>
+>Das Format der Zusammenfassung variiert je nach Art der Daten. Im Folgenden finden Sie ein Beispiel für eine zusammenfassende Antwort. Die tatsächliche Zusammenfassung hängt von der Abfrage ab.
+
+
+>[!NOTE]
+>
+>Insights Agent ist wahrscheinlich. Wenn Sie dieselbe Abfrage zweimal ausführen, kann sich die Antwortsätze oder die Reihenfolge der Ergebnisse geringfügig unterscheiden.
+
+
+### Bericht herunterladen
+
+Wählen Sie **Bericht herunterladen**, um Ihre Ergebnisse als CSV-Datei zu exportieren. Bei großen Ergebnismengen kann der Download mehr Zeit in Anspruch nehmen. Der Agent zeigt eine Meldung an, wenn die Datei fertig ist. Sie erhalten auch eine Benachrichtigung.
+
+## Neue Abfrage starten
+
+Jede Sitzung des Insights Agent behandelt jeweils eine Frage. Nachdem Sie Ihre Ergebnisse überprüft haben, wählen Sie **Neue Frage** aus, um eine andere Frage zu stellen. Sie können **Neuer Chat** jederzeit auswählen, auch bevor Sie eine Antwort erhalten haben, wenn Sie die aktuelle Abfrage beenden und neu starten möchten. Sie können keine Anschlussfrage in derselben Sitzung eingeben oder den Agenten bitten, die zurückgegebenen Ergebnisse zu verfeinern oder zu erweitern.
+![](assets/new-question.png)
+
+>[!TIP]
+>
+>Wenn Sie verwandte Daten untersuchen möchten, starten Sie eine neue Abfrage, die das enthält, was Sie zuvor gelernt haben. Nachdem Sie beispielsweise die Registrierungssummen nach Region sortiert sehen, starten Sie eine neue Abfrage, um tiefer in Regionen mit geringer Leistung einzutauchen.
+
+## Feedback geben
+
+Wählen Sie nach jeder Antwort das Symbol für die Daumen hoch oder Daumen runter , um das Ergebnis zu bewerten. Sie können auch angeben, ob die Ausgabe ungenau war, schwer zu verstehen war oder zu lange gedauert hat, um zurückzukehren. Dieses Feedback trägt dazu bei, den Agenten im Laufe der Zeit zu verbessern.
+![](assets/feedback.png)
+
+## Best Practices
+
+- Beginnen Sie mit einer spezifischen Frage und nicht mit einer allgemeinen. &quot;Wie hoch ist die Abschlussquote für den Kurs &quot;Sicherheitsschulung&quot; in der Benutzergruppe Nordamerika?&quot; gibt mehr nützliche Ergebnisse zurück als \&quot;Abschlussdaten anzeigen&quot;.
+- Verwenden Sie beim Benennen von Inhalten und Teilnehmergruppen exakte Adobe Learning Manager-Begriffe. In der Anleitung zum Schreiben von Abfragen sind die richtigen Begriffe aufgeführt.
+- Wenn der Agent eine klärende Frage stellt, behandeln Sie sie als Signal, um Ihre ursprüngliche Frage beim nächsten Mal zu verfeinern. Je konkreter Ihre Frage ist, desto weniger Klarstellungen sind erforderlich.
+- Überprüfen Sie den Abschnitt **Ansatz**, bevor Sie auf Ergebnisse reagieren, um zu bestätigen, dass die Logik des Agents mit Ihrer Absicht übereinstimmt.
+- **Geben Sie an, ob Teilnehmer auf der Warteliste ein- oder ausgeschlossen werden sollen**. Standardmäßig umfasst die Abfrage der Registrierungsanzahl Teilnehmer, die neben aktiven, bestätigten Registrierungen auf einer Warteliste stehen. Wenn Sie nur aktive Teilnehmer benötigen, schließen Sie Teilnehmer auf Warteliste in Ihrer Abfrage explizit aus. Beispiel: &quot;Wie viele Teilnehmer sind direkt für den Kurs &quot;Sicherheitsschulung&quot; registriert, ausgenommen Teilnehmer auf der Warteliste?&quot; Der Agent wird im Abschnitt Ansatz angeben, dass der Ausschluss angewendet wurde. Ohne diese Anleitung kann die Gesamtzahl der Registrierungen einen erheblichen Teil der Teilnehmer auf der Warteliste enthalten, die den Inhalt noch nicht gestartet haben.
+- **Anzahl der direkten und indirekten Registrierungen**: Wenn Sie Registrierungs- oder Abschlussdaten für einen Kurs oder Lernpfad abfragen, unterscheidet der Insights Agent zwischen direkten Registrierungen (Teilnehmer, die speziell für diesen Kurs oder Lernpfad registriert sind) und indirekten Registrierungen (Teilnehmer, die denselben Inhalt als Teil eines Lernpfads oder einer Zertifizierung aufgerufen haben). Wenn Sie explizit nach direkten oder indirekten Registrierungen fragen, gibt der Agent für jeden Typ die richtige Anzahl zurück. Wenn in der Abfrage keine direkte oder indirekte Zahl angegeben wird, gibt der Agent möglicherweise eine kombinierte Zahl zurück. Um getrennte Zählungen zu erhalten, fügen Sie die Unterscheidung explizit in Ihre Abfrage ein. Beispiel: &quot;Wie viele Teilnehmer sind direkt oder indirekt beim Kurs &quot;Sicherheitsschulung&quot; angemeldet?&quot;
+
 
 ## Unterschiede zwischen Insights Agent und Report Builder
 
@@ -49,113 +142,21 @@ Beide Funktionen verwenden dieselben zugrunde liegenden Lerndaten, funktionieren
 | Berichtsabonnements planen | Berichtsgenerator |
 | Datasets mit benutzerdefinierten Joins oder erweiterter Datenmodellierung kombinieren | Berichtsgenerator |
 
-**WICHTIG**: Die Integration zwischen Insights Agent und Report Builder ist für eine zukünftige Version geplant und in der aktuellen Beta-Version nicht verfügbar.
-
-## Funktionsweise des Insights Agent
-
-Wenn Sie eine Frage eingeben, verarbeitet der Insights Agent sie in vier Schritten:
-
-1. **Interpretation**: Der Agent analysiert Ihre Frage, um festzustellen, welche Daten benötigt werden. Wenn ein Teil der Frage nicht eindeutig ist, stellt Ihnen der Support-Mitarbeiter eine klärende Frage, bevor Sie fortfahren.
-
-2. **Ansatz**: Der Support-Mitarbeiter beschreibt die Schritte, die er unternommen hat, um Ihre Antwort zu finden. In diesem Abschnitt können Sie überprüfen, ob die Daten wie beabsichtigt abgerufen wurden, insbesondere bei komplexen Abfragen.
-
-3. **Ergebnisse**: Der Agent stellt Ihre Daten als Tabelle dar. Wenn Ihre Ergebnisse 50 oder weniger Zeilen enthalten, kann eine Zusammenfassung in einfacher Sprache enthalten sein.
-
-4. **Download**: Sie können die Ergebnisse als CSV-Datei herunterladen. Umfangreiche Berichte können zusätzliche Zeit in Anspruch nehmen. Der Agent benachrichtigt Sie, wenn die Datei fertig ist.
-
-Der Abschnitt **Ansatz** ist besonders für komplexe Abfragen nützlich. Hier wird die vom Agent verwendete Logik angezeigt, ähnlich der, die ein BI-Analyst erklären würde, wenn er die Abfrage manuell ausgeführt hätte. Wenn Sie den Ansatz überprüfen, können Sie überprüfen, ob die Ausgabe zuverlässig ist, bevor Sie darauf reagieren.
-
-## Stellen von Fragen mit dem Insights Agent
-
-Verwenden Sie den Insights Agent in Adobe Learning Manager, um Teilnehmerdaten mit Fragen in verständlicher Sprache abzufragen und Ergebnisse als Text, Tabellen oder herunterladbare CSV-Dateien zu erhalten.
-
-Der Insights Agent steht Administratoren im Bereich &quot;AI Assistant&quot; im Learning Manager zur Verfügung. Die Größe des Bedienfelds kann geändert werden. Sie können sie erweitern, um die Ergebnisse leichter lesbar zu machen. Standardmäßig ist der Modus **Erkenntnisse abrufen** beim Öffnen des Bereichs ausgewählt. Ein separater **Learn**-Modus ist auch für Fragen zur Verwendung des Produkts verfügbar. Im Modus **Training** werden Fragen zur Verwendung des Lern-Managers beantwortet. Beispiel: &quot;Wie erstelle ich einen Lernpfad?&quot; Es werden keine Teilnehmerdaten abgefragt.
-
-### Eine Frage stellen
-
-Wenn der Modus **Erkenntnisse abrufen** standardmäßig ausgewählt ist, können Sie sofort mit der Abfrage von Teilnehmerdaten beginnen, ohne den Modus jedes Mal anpassen zu müssen, wenn Sie auf den Assistenten zugreifen. Wenn Sie jedoch jemals zum Modus **Lernen** für Anleitungsfragen wechseln, müssen Sie **Erkenntnisse abrufen** erneut auswählen, bevor Sie eine Abfrage senden.
-
-1. Wählen Sie das AI-Assistentensymbol im Learning Manager aus, um das Assistentenfenster zu öffnen.
-
-2. Wählen Sie **Erkenntnisse abrufen** in der Modusauswahl aus, falls diese nicht bereits standardmäßig ausgewählt ist.
-   ![](assets/ask-question.png)
-
-3. Geben Sie Ihre Frage in das Textfeld ein. Verwende reine Sprache. Beispiel: **Wie viele Kurse wurden in den letzten drei Monaten erstellt?**
-
-4. Wählen Sie **Senden** aus oder drücken Sie die **Eingabetaste**, um Ihre Frage zu senden.
-
-### Überprüfen Sie die Antwort
-
-Nachdem Sie Ihre Frage eingereicht haben, verarbeitet Insights Agent Ihre Anfrage und gibt eine Antwort mit bis zu vier Teilen zurück:
-
-1. **Verzicht (falls erforderlich):** Wenn Ihre Frage einen mehrdeutigen Begriff enthält, z. B. \&quot;Lernaktivität\&quot; oder \&quot;Leistung\&quot; oder &quot;Geben Sie mir Leistungsdaten aus den letzten 3 Monaten&quot;, zeigt der Assistent eine Liste von Optionen an und fordert Sie auf, eine Option auszuwählen, bevor der Vorgang fortgesetzt wird. Wählen Sie die Option, die am besten zu dem passt, was Sie suchen. Nach der ersten Frage können Sie keine weiteren Anweisungen mehr eingeben. Die Auswahl aus den angegebenen Optionen ist die einzige verfügbare Interaktion, bis Sie eine neue Abfrage über die Abfrageoberfläche starten. Sie können auf eine Zweideutigkeit nur reagieren, indem Sie aus den bereitgestellten Optionen auswählen. Freitext-Follow-up ist in dieser Version nicht verfügbar.
-
-![](assets/disambiguation.png)
-&#x200B;2. **Ansatz:** Im Abschnitt **Ansatz** werden die Schritte beschrieben, die der Agent zum Abrufen Ihrer Daten ausgeführt hat. Es wird als bildlauffähiges Bedienfeld unter der Frage angezeigt. Klicken Sie auf das Erweiterungssymbol, um den vollständigen Ansatz anzuzeigen. Wenn Sie diesen Abschnitt lesen, können Sie leichter überprüfen, ob die Logik mit Ihrer Absicht übereinstimmt, insbesondere bei komplexen Abfragen. Wenn Sie beispielsweise \&quot;alle Teilnehmer im letzten Jahr registriert\&quot; anfordern, gibt der Agent möglicherweise die letzte Registrierung jedes Teilnehmers zurück und nicht jeden Registrierungsdatensatz. Im **Ansatz**-Abschnitt **kann** oder **wird diese Entscheidung erläutert**. Wenn die Logik nicht mit Ihrer Absicht übereinstimmt, starten Sie eine neue Abfrage mit spezifischeren Begriffen.
-
-![](assets/approach.png)
-&#x200B;3. **Ergebnisse:** Der Insights Agent generiert Ergebnisse als Text oder als Tabelle. Bei Datenpunkten, die am besten in Tabellenformat interpretiert werden, gibt der Insights Agent eine Tabelle zurück. Der Insights Agent generiert keine Diagramme oder Graphen. Um die Daten zu visualisieren, laden Sie die CSV-Datei herunter und öffnen Sie sie in Ihrem bevorzugten Tool. Wenn Ihre Ergebnisse 50 oder weniger Zeilen enthalten, kann eine Zusammenfassung in einfacher Sprache über der Tabelle enthalten sein. Beispiel: \&quot;Für welche Kurse gibt es nicht weniger als 5 Registrierungen, die im letzten Jahr erstellt wurden, und wer sind die Autoren?\&quot;
-
-![](assets/results.png)
-
-Die Antwort enthält die folgende Zusammenfassung:
-
-***Übersicht***
-
-- *Übereinstimmende Kurse: 102*
-- *Bereich der Registrierungsanzahl: 24 bis 2019*
-- *Durchschnittliche Registrierungen pro abgeglichenem Kurs: 589,6*
-- *Mediane Registrierungen pro abgeglichenem Kurs: 553,5*
-
-*Ein Download-Link für den vollständigen Bericht wird bereitgestellt, sobald der Export fertig ist.*
-
-**Hinweis:** Der Insights Agent ist wahrscheinlich. Wenn Sie dieselbe Abfrage zweimal ausführen, kann sich die Antwortsätze oder die Reihenfolge der Ergebnisse geringfügig unterscheiden. Die abgerufenen zugrunde liegenden Daten sind identisch, aber die Ausgabe kann je nach Ausführung variieren.
-
-### Bericht herunterladen
-
-Wählen Sie **Bericht herunterladen**, um Ihre Ergebnisse als CSV-Datei zu exportieren. Bei großen Ergebnismengen kann der Download mehr Zeit in Anspruch nehmen. Der Agent zeigt eine Meldung an, wenn die Datei fertig ist. Sie erhalten auch eine Benachrichtigung.
-
-## Neue Abfrage starten
-
-Jede Sitzung des Insights Agent behandelt jeweils eine Frage. Nachdem Sie Ihre Ergebnisse überprüft haben, wählen Sie **Neue Frage** aus, um eine andere Frage zu stellen. Sie können keine Anschlussfrage in derselben Sitzung eingeben oder den Agenten bitten, die zurückgegebenen Ergebnisse zu verfeinern oder zu erweitern.
-
-![](assets/new-question.png)
-
->[!TIP]
->
->Wenn Sie verwandte Daten untersuchen möchten, starten Sie eine neue Abfrage, die das enthält, was Sie zuvor gelernt haben. Nachdem beispielsweise die Registrierungssummen nach Region sortiert wurden, starten Sie eine neue Abfrage, um die Abschlussraten für dieselbe Region zu überprüfen.
-
-## Feedback geben
-
-Wählen Sie nach jeder Antwort das Symbol für die Daumen hoch oder Daumen runter , um das Ergebnis zu bewerten. Sie können auch angeben, ob die Ausgabe ungenau war, schwer zu verstehen war oder zu lange gedauert hat, um zurückzukehren. Dieses Feedback trägt dazu bei, den Agenten im Laufe der Zeit zu verbessern.
-
-![](assets/feedback.png)
-
-## Best Practices
-
-- Beginnen Sie mit einer spezifischen Frage und nicht mit einer allgemeinen. &quot;Wie hoch ist die Abschlussquote für den Kurs &quot;Sicherheitsschulung&quot; in der Benutzergruppe Nordamerika?&quot; gibt mehr nützliche Ergebnisse zurück als \&quot;Abschlussdaten anzeigen&quot;.
-- Verwenden Sie beim Benennen von Inhalten und Teilnehmergruppen exakte Adobe Learning Manager-Begriffe. In der Anleitung zum Schreiben von Abfragen sind die richtigen Begriffe aufgeführt.
-- Wenn der Agent eine klärende Frage stellt, behandeln Sie sie als Signal, um Ihre ursprüngliche Frage zu verfeinern. Je konkreter Ihre Frage ist, desto weniger Klarstellungen sind erforderlich.
-- Überprüfen Sie den Abschnitt **Ansatz**, bevor Sie auf die Ergebnisse reagieren. Dies gilt insbesondere für Compliance-bezogene Abfragen, bei denen Genauigkeit entscheidend ist.
-- **Geben Sie an, ob Teilnehmer auf der Warteliste ein- oder ausgeschlossen werden sollen**. Standardmäßig umfasst die Abfrage der Registrierungsanzahl Teilnehmer, die neben aktiven, bestätigten Registrierungen auf einer Warteliste stehen. Wenn Sie nur aktive Teilnehmer benötigen, schließen Sie Teilnehmer auf Warteliste in Ihrer Abfrage explizit aus. Beispiel: &quot;Wie viele Teilnehmer sind direkt für den Kurs &quot;Sicherheitsschulung&quot; registriert, ausgenommen Teilnehmer auf der Warteliste?&quot; Der Agent wird im Abschnitt Ansatz angeben, dass der Ausschluss angewendet wurde. Ohne diese Anleitung kann die Gesamtzahl der Registrierungen einen erheblichen Teil der Teilnehmer auf der Warteliste enthalten, die den Inhalt noch nicht gestartet haben.
-- **Anzahl der direkten und indirekten Registrierungen**: Wenn Sie Registrierungs- oder Abschlussdaten für einen Kurs oder Lernpfad abfragen, unterscheidet der Insights Agent zwischen direkten Registrierungen (Teilnehmer, die speziell für diesen Kurs oder Lernpfad registriert sind) und indirekten Registrierungen (Teilnehmer, die denselben Inhalt als Teil eines Lernpfads oder einer Zertifizierung aufgerufen haben). Wenn Sie explizit nach direkten oder indirekten Registrierungen fragen, gibt der Agent für jeden Typ die richtige Anzahl zurück. Wenn in der Abfrage keine direkte oder indirekte Zahl angegeben wird, gibt der Agent möglicherweise eine kombinierte Zahl zurück. Um getrennte Zählungen zu erhalten, fügen Sie die Unterscheidung explizit in Ihre Abfrage ein. Beispiel: &quot;Wie viele Teilnehmer sind direkt oder indirekt beim Kurs &quot;Sicherheitsschulung&quot; angemeldet?&quot;
-
-
 ## Erstellen effektiver Abfragen für den Insights Agent
 
-Die Qualität der Abfrage wirkt sich direkt auf die Qualität der Ergebnisse aus, die der Insights Agent zurückgibt. Eine wohlgeformte Abfrage umfasst drei Bestandteile: Kontext (welcher Inhalt und welche Teilnehmer), Umfang (Status, Zeitbereich und Benutzerstatus) und Spalten (die genauen Felder, die Sie in der Ausgabe sehen möchten). Erfahren Sie, wie Sie die richtige Terminologie, Abfragestruktur und Beispielabfragen als Ausgangspunkt verwenden.
+Die Qualität der Abfrage wirkt sich direkt auf die Qualität der Ergebnisse aus, die der Insights Agent zurückgibt. Eine wohlgeformte Abfrage umfasst drei Bestandteile: Kontext, z. B. welcher Inhalt und welche Teilnehmer, Umfang, z. B. Status, Zeitbereich und Benutzerstatus, und Spalten, z. B. die exakten Felder, die Sie in der Ausgabe haben möchten. Erfahren Sie, wie Sie die richtige Terminologie, Abfragestruktur und Beispielabfragen als Ausgangspunkt verwenden.
 
 ### Die dreiteilige Abfrageformel
 
 Jede effektive Insights Agent Abfrage enthält diese drei Komponenten:
 
-| **Komponente** | **Was es bedeutet** | **Beispiel** |
+| **Komponente** | **Was könnte bedeuten** | **Beispiel** |
 |---|---|---|
 | **Kontext** | Inhalt und Teilnehmer, nach denen Sie fragen | &quot;...den Lernpfad Neueinstellungen-Onboarding für Sales Associate-Teilnehmer an Ort 101...&quot; |
 | **Umfang** | Registrierungsstatus, Zeitbereich und Benutzerstatus | &quot;...die in den letzten 90 Tagen eingeschrieben, aber noch nicht abgeschlossen sind...&quot; |
 | **Spalten** | Jedes gewünschte Feld in der Ausgabe | &quot;...Name, E-Mail-Adresse, Standort und Registrierungsdatum anzeigen&quot; |
 
-Das Fehlen einer dieser Komponenten führt zu unklaren Ergebnissen oder einer klärenden Frage des Wirkstoffs.
+Das Fehlen einer dieser Komponenten kann zu unklaren Ergebnissen oder einer klärenden Frage des Wirkstoffs führen.
 
 ### Verwenden der korrekten ALM-Begriffe
 
@@ -178,7 +179,7 @@ Bei Insights Agent wird nicht zwischen Groß- und Kleinschreibung unterschieden,
 
 ### Inhalte verankern.
 
-Jede Abfrage benötigt einen Inhaltsanker, damit der Agent weiß, welche Lernobjekte er sich ansehen muss. Sie können mit einer der folgenden Methoden verankern:
+Durch die Bereitstellung eines Inhaltsankers weiß der Agent, welche Lernobjekte er sich ansehen soll. Sie können mit einer der folgenden Methoden verankern:
 
 | **Ankertyp** | **Beispiel** |
 |---|---|
@@ -192,7 +193,7 @@ Jede Abfrage benötigt einen Inhaltsanker, damit der Agent weiß, welche Lernobj
 
 ### Verankern Sie die Teilnehmer
 
-Geben Sie an, welche Teilnehmer mit einer dieser Methoden aufgenommen werden sollen:
+Wenn sich eine Abfrage auf einen Teilnehmer bezieht, verwenden Sie eine der folgenden Methoden:
 
 - **Wert für aktives Feld** — &quot;Teilnehmer, bei denen die Position des aktiven Felds &quot;Tätigkeit: Titel = Vertriebsmitarbeiter&quot; oder &quot;Teilnehmer, bei denen die Position des aktiven Felds &quot;101&quot; ist&quot;
 - **Benutzergruppe** — &quot;Teilnehmer in der Benutzergruppe &quot;Sales Associates&quot;
@@ -200,7 +201,7 @@ Geben Sie an, welche Teilnehmer mit einer dieser Methoden aufgenommen werden sol
 
 ### Umfang definieren
 
-Ohne einen eindeutigen Bereich können die Ergebnisse den falschen Status, den falschen Zeitraum oder den falschen Benutzerstatus einschließen.
+Das Auslassen von Details zum Anwendungsbereich kann zu umfassenderen Ergebnissen führen als beabsichtigt.
 
 | **Bereichstyp** | **Optionen** |
 |---|---|
@@ -216,7 +217,7 @@ Wenn Sie keine Spalten angeben, wählt der Insights Agent diese für Sie aus. Be
 |---|---|
 | &quot;Positionsnummern anzeigen&quot; | &quot;Für jeden Standort: Gesamtzahl der Teilnehmer, registrierte Anzahl, nicht registrierte Anzahl&quot; |
 | &quot;Abschlussraten anzeigen&quot; | &quot;Für jeden Lernpfad: Name, insgesamt registriert, insgesamt abgeschlossen, Abschluss %&quot; |
-| &quot;Zeigen Sie mir, wer versagt hat&quot; | &quot;Namen, E-Mail-Adresse, Kursnamen und Abschlussstatus für Teilnehmer anzeigen, die den Kurs nicht abgeschlossen haben&quot; |
+| &quot;Zeigen Sie mir, wer versagt hat&quot; | &quot;Namen, E-Mail-Adresse, Kursnamen und Abschlussstatus für Teilnehmer anzeigen, die einen Fehler gemacht haben&quot; |
 
 ### Beispielabfragen
 
@@ -225,7 +226,7 @@ Nutze sie als Ausgangspunkt. Passen Sie sie an, indem Sie die für Ihr Konto gü
 **Abschluss und Konformität**
 
 - &quot;Wie hoch ist die Abschlussquote für den Kurs &quot;Sicherheitsschulung&quot; in der Benutzergruppe Nordamerika?&quot;
-- &quot;Zeigen Sie die Abschlussrate nach Benutzergruppe für alle Kurse mit Konformitätskennzeichnung an. Geben Sie den Namen der Benutzergruppe, die Gesamtzahl der registrierten Benutzer, die Gesamtzahl der abgeschlossenen Benutzer und den Abschluss in % an.&quot;
+- &quot;Zeigen Sie die Abschlussrate nach Benutzergruppe für alle Compliance-Kurse an. Geben Sie den Namen der Benutzergruppe, die Gesamtzahl der registrierten Benutzer, die Gesamtzahl der abgeschlossenen Benutzer und den Abschluss in % an.&quot;
 - &quot;Wie hoch ist die Konformitätsrate für alle Teilnehmer, bei denen der aktive Bereich &quot;Stellenbezeichnung = VP&quot; lautet?&quot;
 
 **Registrierungsanalyse**
@@ -241,7 +242,7 @@ Nutze sie als Ausgangspunkt. Passen Sie sie an, indem Sie die für Ihr Konto gü
 
 **Organisationsansichten**
 
-- &quot;Zeigen Sie die Abschlussrate für alle Zertifizierungen mit Compliance-Label an, gruppiert nach Abteilung. Geben Sie den Abteilungsnamen, die Gesamtzahl der registrierten Abteilungen und den Abschluss in % an.&quot;
+- &quot;Zeigen Sie die Abschlussrate für alle Zertifizierungen mit Konformitätsbezeichnung, gruppiert nach Abteilung, an. Geben Sie den Abteilungsnamen, die Gesamtzahl der registrierten Abteilungen und den Abschluss in % an.&quot;
 - &quot;Wie ist die Anzahl der Anmeldungen in den letzten 30 Tagen nach Region aufgeteilt?&quot;
 
 ### Häufige Fehler, die vermieden werden sollten
@@ -257,15 +258,6 @@ Nutze sie als Ausgangspunkt. Passen Sie sie an, indem Sie die für Ihr Konto gü
 
 ## Einschränkungen in der Version
 
-**Es kann bis zu 30 Minuten dauern, bis neu hinzugefügte Daten in den Ergebnissen angezeigt werden.**
-
-Nachdem der Inhalt erstellt wurde, die Teilnehmer registriert sind oder die Abschlussdatensätze aktualisiert wurden, kann es bis zu 30 Minuten dauern, bis diese Daten in den Abfrageergebnissen verfügbar sind. Wenn Ihre Ergebnisse unvollständig erscheinen oder keine aktuellen Aktivitäten widerspiegeln, warten Sie 30 Minuten und wiederholen Sie die Abfrage.
-
 **In nicht-lateinischen Skripten eingereichte Abfragen werden nicht unterstützt**
 
-Der Insights Agent unterstützt Anfragen in englischer und lateinischer Sprache, z. B. Französisch und Spanisch. Abfragen, die mit nicht-lateinischen Skripten eingereicht wurden, einschließlich Japanisch, Chinesisch, Arabisch, Koreanisch, Hindi und Russisch, können nicht verarbeitet werden. Der Agent zeigt eine Meldung an, dass die Abfrage nicht abgeschlossen werden konnte. Wenn Sie eine Abfrage in einer dieser Sprachen senden, starten Sie eine neue Abfrage und setzen sie in Englisch um. In zukünftigen Versionen wird möglicherweise die Unterstützung weiterer Sprachen erwogen.
-
-**Die Ergebnisse können Inhalte und Teilnehmer in allen Status enthalten**
-
-Wenn Sie Daten im Insights Agent abfragen, können die Ergebnisse Datensätze über alle verfügbaren Status umfassen, sofern Sie nichts anderes angeben. Eine Abfrage nach registrierten Teilnehmern kann beispielsweise Teilnehmer auf einer Warteliste oder Teilnehmer enthalten, deren Konten gelöscht wurden. Eine Abfrage nach Kursen oder Lernpfaden kann sowohl veröffentlichten als auch eingestellten Inhalt enthalten. Um die Ergebnisse zu verfeinern, fügen Sie explizite Bedingungen hinzu, wenn Sie Ihre Frage stellen. Geben Sie beispielsweise nur aktive Benutzer an, schließen Sie Teilnehmer aus, die auf die Warteliste gesetzt wurden, oder beschränken Sie die Ergebnisse auf veröffentlichte Inhalte, um sicherzustellen, dass die Ausgabe nur die Datensätze widerspiegelt, die Sie sehen möchten.
-
+Der Insights Agent unterstützt Anfragen in englischer und lateinischer Sprache, z. B. Französisch und Spanisch. Abfragen, die mit nicht-lateinischen Skripten eingereicht wurden, einschließlich Japanisch, Chinesisch, Arabisch, Koreanisch, Hindi und Russisch, können nicht verarbeitet werden. Der Agent zeigt eine Meldung an, dass die Abfrage nicht abgeschlossen werden konnte. Wenn Sie eine Abfrage in einer dieser Sprachen senden, starten Sie eine neue Abfrage und setzen sie in Englisch um.

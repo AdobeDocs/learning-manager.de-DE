@@ -4,10 +4,10 @@ title: So wählen Sie ein Kursmodul
 description: Adobe Learning Manager unterstützt vier Arten von Kursmodulen. Wenn Sie für das Erstellen eines Trainingsprogramms zuständig sind, fragen Sie sich womöglich, welche Art von Modulen den Anforderungen Ihres Unternehmens am besten entspricht. Sie können die Kursmodule basierend auf dem Budget und den Anforderungen der Zielgruppe Ihres Unternehmens auswählen. Einige typische Anwendungsbeispiele für die verschiedenen Modularten werden als Orientierungshilfe unten beschrieben.
 contentowner: jayakarr
 exl-id: 21f9aae7-e192-4318-9df4-4fedf52c6d85
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: fcbe70fb0eef5aae891f6a222112804707dfe626
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 90%
+source-wordcount: '648'
+ht-degree: 76%
 
 ---
 
@@ -106,14 +106,15 @@ Learning Manager unterstützt vier Arten von Kursmodulen. Wenn Sie für das Erst
   <tr>
    <td><img src="assets/virtual-classroom.png"></td>
    <td>
-    <p>Beim virtuellen Klassenzimmer besteht eine Echtzeitverbindung zu einem Schulungsleiter. Teilnehmer nehmen zu den festgelegten Zeiten an den Kursen teil. Dabei können die Kurse jedoch von jedem beliebigen Ort aus besucht werden.</p>
+    <p>Verwenden Sie ein virtuelles Klassenzimmermodul, wenn die Teilnehmer Live-Sitzungen mit Kursleiter in einer Online-Umgebung besuchen sollen. Diese Sitzungen können über Live Hub, das in Learning Manager integrierte KI-gestützte virtuelle Live-Schulungstool, oder über externe Tools wie Zoom, Microsoft Teams und andere bereitgestellt werden.</p>
     <p> </p>
     <p> </p>
     <p><strong>Vorteile</strong></p>
     <ul>
-     <li>Klassenzimmermodule sind eine geeignete Möglichkeit, wenn der Kurs nicht komplex ist und</li>
-     <li>wenn Teilnehmer und Schulungsleiter Mitglieder eines verteilten Teams an verschiedenen Standorten sind. </li>
-     <li>Sie ersparen Teilnehmern und Schulungsleitern Logistikkosten.</li>
+     <li>Geeignet für Sitzungen, die eine Interaktion in Echtzeit mit einem Kursleiter erfordern, z. B. Diskussionen, Fragen und Antworten oder geführtes Lernen</li>
+     <li>Ermöglicht Schulungen für verteilte Teams an verschiedenen Standorten, ohne dass eine physische Anwesenheit erforderlich ist. </li>
+     <li>Reduziert die Logistikkosten für Teilnehmer und Kursleiter.</li>
+     <li>Mit Live Hub können Sie Sitzungen direkt im Learning Manager durchführen, ohne auf externe Tools angewiesen zu sein, um ein nahtloses und integriertes Lernerlebnis zu gewährleisten. Die KI-Funktionen helfen Ihnen außerdem dabei, schnell geeignete Kursleiter und Zeitfenster zu finden.</li>
     </ul></td>
   </tr>
  </tbody>

@@ -4,10 +4,10 @@ title: Verwalten benutzerdefinierter Rollen über CSV-Dateien
 description: Der Integrationsadministrator kann seinem Konto mehrere benutzerdefinierte Rollen gleichzeitig über CSV hinzufügen und diese verschiedenen Benutzern zuweisen. Dieser Ansatz automatisiert den Prozess der Erstellung von benutzerdefinierte Rollen.
 contentowner: saghosh
 exl-id: fce2f457-2834-491a-8331-64086f5a51b5
-source-git-commit: dfb83c88a39401f5ae9048d71fd19ca71569a14c
+source-git-commit: 47845b67e3ac66898d521fea4173b8a04b07f959
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 76%
+source-wordcount: '1002'
+ht-degree: 78%
 
 ---
 
@@ -25,8 +25,8 @@ Nachdem Sie sich bei Ihrem Box-Speicherkonto angemeldet haben, kann der Integrat
 
 Laden Sie zunächst die CSV-Dateien herunter und ändern Sie die Werte entsprechend Ihren Anforderungen.
 
-* Beispieldatei: [role.csv](assets/role.csv)
-* Beispieldatei: [user_role.csv](assets/user_role.csv)
+* Beispieldatei: [role.csv](assets/role.zip)
+* Beispieldatei: [user_role.csv](assets/user-role.zip)
 
 **role.csv**
 
@@ -178,7 +178,7 @@ Aktivieren Sie im Abschnitt „Synchronisierungseinstellungen“ die Option **[!
 
 *Wählen Sie die Option &quot;Automatische Synchronisierung aktivieren&quot; aus.*
 
-Wenn Sie diese Option auswählen, können Sie die Zeit für die Synchronisierung genau zu der Zeit planen, die Sie im Feld „Synchronisierungszeit“ angegeben haben. Wenn Sie die Synchronisierungszeit als 12:00 AM angeben, werden die benutzerdefinierten Rollen täglich genau zu der angegebenen Zeit aktualisiert.
+Wenn Sie diese Option auswählen, können Sie die Zeit für die Synchronisierung genau zu der Zeit planen, die Sie im Feld „Synchronisierungszeit“ angegeben haben. Wenn Sie die Synchronisierungszeit auf 00:00 Uhr festlegen, werden die benutzerdefinierte Rolle jeden Tag genau zur angegebenen Zeit aktualisiert.
 
 Wenn Sie die Daten bei Bedarf synchronisieren möchten, klicken Sie auf **[!UICONTROL Jetzt synchronisieren]**.
 

@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Erstellen und Ändern von Kenntnissen und Stufen
 contentowner: manochan
 exl-id: b1461900-43e8-4e9d-bef1-a55c44d3bc8b
-source-git-commit: b9809314014fcd8c80f337983c0b0367c060e348
+source-git-commit: 7f7e7d04943ce65fee3fa9ea801ab832e7c040fe
 workflow-type: tm+mt
-source-wordcount: '1721'
-ht-degree: 79%
+source-wordcount: '1828'
+ht-degree: 84%
 
 ---
 
@@ -17,7 +17,7 @@ Erstellen, Zuweisen und Ändern von Kenntnissen und Stufen.
 
 In einem Kenntnisdiagramm werden die Fachkenntnisse, das Wissen und die Eigenschaften eines Unternehmensmitarbeiters zusammengefasst. Diese Kenntnisdiagramme helfen Firmen/Unternehmen dabei, die Leistungserwartungen für ihre Mitarbeiter festzusetzen oder zu erhöhen. Durch Kenntnisse können Mitarbeiter ihr Verhalten auf die Erwartungen des Unternehmens hin ausrichten.
 
-In Adobe Learning Manager können Sie mithilfe von Kenntnisdiagrammen die Leistungen von Teilnehmern anhand ihrer Kenntnisse zuordnen. Wenn Teilnehmer einige Kurse absolviert haben, können sie ihren Stand zu jeder Qualifikation erkennen, indem sie die Qualifikationsdiagramme anzeigen.
+In Adobe Learning Manager können Sie mithilfe von Kenntnisdiagrammen die Leistungen von Teilnehmern anhand ihrer Kenntnisse zuordnen. Wenn die Teilnehmer einen Kurs abgeschlossen haben, können sie ihren Kenntnisstand in Bezug auf die verschiedenen Kenntnisse im Kenntnisdiagramm anzeigen.
 
 Der grundlegende Zweck von Kenntnissen im Learning Manager LMS ist, dem Administrator ein Tool zur Verfügung zu stellen, das das Lernen an den Geschäftszielen ausrichtet.
 
@@ -37,7 +37,7 @@ Um Kenntnisse hinzuzufügen, gehen Sie wie folgt vor:
 
    *Namen und Beschreibung von Kenntnissen hinzufügen*
 
-1. Weisen Sie den Kenntnissen eine Domäne zu. Beim Erstellen von Kenntnissen können Sie sie den relevantesten von Learning Manager unterstützten Kenntnisdomänen zuordnen. Weitere Informationen finden Sie unter [***Kenntnisse Kenntnisdomänen zuordnen***](/help/migrated/administrators/feature-summary/curation-skills.md).
+1. Weisen Sie den Kenntnissen eine Domäne zu. Sie können Kenntnisse während der Erstellung den von Learning Manager unterstützten relevanten Kenntnisdomänen zuordnen. Weitere Informationen finden Sie unter [***Kenntnisse Kenntnisdomänen zuordnen***](/help/migrated/administrators/feature-summary/curation-skills.md).
 
    Geben Sie die Domäne in das Feld ein und Sie können Empfehlungen sehen. Wählen Sie die Option(en) aus, die für die Kenntnisse relevant sind.
 
@@ -69,6 +69,25 @@ Um Kenntnisse hinzuzufügen, gehen Sie wie folgt vor:
    ![](assets/list-of-skills.png)
 
    *Liste der Kenntnisse anzeigen*
+
+## Gleichzeitiges Hinzufügen mehrerer Kenntnisse
+
+Administratoren können mehrere Kenntnisse direkt in Adobe Learning Manager hinzufügen, indem sie die Option zum Massen-Upload im Dialogfeld **Kenntnisse hinzufügen** verwenden.
+
+So fügen Sie mehrere Kenntnisse gleichzeitig hinzu:
+
+1. Wählen Sie im linken Teilfenster **Kenntnisse** aus.
+
+1. Wählen Sie **Hinzufügen** > **Kenntnisse hinzufügen**. <br> Ein Popupfenster mit dem Wert **Kenntnisse hinzufügen** wird angezeigt.
+
+1. Wählen Sie **Kenntnisse gesammelt hinzufügen (CSV hochladen)**.
+
+   ![Dialogfeld &quot;Kenntnisse in großen Mengen hinzufügen&quot; mit der Option &quot;CSV hochladen&quot;](assets/add-skills-bulk-upload-csv.png)
+   *Popup-Fenster &quot;Kenntnisse hinzufügen&quot; mit den Optionen zum massenweisen Hinzufügen der Kenntnisse.*
+
+1. Laden Sie die CSV-Datei mit den Kenntnisdetails hoch.
+
+1. Wählen Sie **Speichern**.
 
 ## Einem Teilnehmer Kenntnisse zuordnen {#assigntheskilltolearners}
 
@@ -192,13 +211,13 @@ Sie können Kenntnisse nur löschen, wenn sie keinem Teilnehmer, Kurs oder keine
 Fügen Sie eine CSV-Datei hinzu, die die Kenntnisse von Kursleiter(inn)en enthält. Diese Kenntnisse werden dann der Liste der Kenntnisse hinzugefügt.
 
 1. Wählen Sie in der oberen rechten Ecke des Bildschirms **[!UICONTROL Hinzufügen]** > **[!UICONTROL Kenntnisse dem Kursleiter zuweisen]**.
-1. CSV-Datei hochladen. Die Spalten in der CSV-Datei lauten:
+1. Laden Sie eine CSV-Datei hoch. Die Spalten in der CSV-Datei lauten:
 
    * Name der Kenntnisse
    * Kenntnisstufen
-   * Kursleiter-E-Mail oder Kursleiter-UUID
+   * Kursleiter(innen)-E-Mail-Adresse oder Kursleiter(innen)-UUID
 
-   Bei UUID-aktivierten Konten ersetzen Sie die Spalte &quot;E-Mail-Adresse des Kursleiters&quot; durch die UUID des Kursleiters.
+   Bei UUID-aktivierten Konten ersetzen Sie die Spalte &quot;Kursleiter-E-Mail&quot; durch die UUID der Kursleiterin/des Kursleiters.
 
    Klicken Sie auf „Speichern“.
 
@@ -206,7 +225,7 @@ Fügen Sie eine CSV-Datei hinzu, die die Kenntnisse von Kursleiter(inn)en enthä
 
    *Kursleiterkenntnisse aus einer CSV-Datei hinzufügen*
 
-1. Es wird ein Bestätigungs-Popup angezeigt.
+1. Es wird eine Bestätigungs-Popup-Nachricht angezeigt.
 
    Hinweis: Die folgende Fehlermeldung wird angezeigt, wenn die CSV-Datei falsche Felder enthält.
 
@@ -239,7 +258,7 @@ Auf der Seite &quot;Kenntnisse&quot; befindet sich die Spalte &quot;Kursleiter&q
 Sie können einen Teilnehmer nicht aus Kenntnissen entfernen. Sie können Kenntnissen jedoch neue Teilnehmer oder Benutzergruppen hinzufügen.
 +++
 
-+++Wie kann ich Teilnehmer für Kenntnisse automatisch registrieren?
++++Wie kann ich Teilnehmern bestimmte Kenntnisse zuweisen?
 
 Die automatische Registrierung ist nur für Benutzergruppen verfügbar. Wenn Sie eine Benutzergruppe, z. B. „Alle Autoren“, für Kenntnisse registrieren und speichern, ist die automatische Registrierung standardmäßig aktiviert. Allen neuen Benutzer der Benutzergruppe „Alle Autoren“ werden also auch die Kenntnisse zugewiesen.
 
@@ -265,7 +284,7 @@ Weitere Informationen zum Verfahren finden Sie im Abschnitt [Zuweisen von Kenntn
 Um eine oder mehrere Stufen in Kenntnissen zu ändern, bearbeiten Sie die Kenntnisse und ändern Sie die Eigenschaften der vorhandenen Stufen.
 +++
 
-+++Wie aktiviere ich Abzeichen und Kenntnisse, damit sie an den Kursabschluss gebunden sind?
++++Wie aktiviere ich Abzeichen und Kenntnisse, damit sie mit dem Abschluss eines Kurses verbunden sind?
 
 Kenntnisse können mit dem Kursabschluss verbunden werden, während Sie als Autor einen Kurs erstellen. Im Bereich „Einstellungen“ können Sie die Kenntniskriterien für den Abschluss des Kurses festlegen.
 
@@ -274,7 +293,7 @@ Kenntnisse können mit dem Kursabschluss verbunden werden, während Sie als Auto
 Um Abzeichen für den Abschluss des Kurses zu aktivieren, aktivieren Sie im Abschnitt **[!UICONTROL Instanzen]** der Autoren-App das gewünschte Abzeichen.
 +++
 
-+++Kann ein Administrator ein Abzeichen als abgeschlossen markieren, auch wenn das Abzeichen &quot;In Bearbeitung&quot; anzeigt?
++++Kann ein Administrator ein Abzeichen als abgeschlossen markieren, auch wenn das Abzeichen „In Bearbeitung“ anzeigt?
 
 Ein Administrator kann ein Lernobjekt als abgeschlossen markieren. Kenntnisse und Abzeichen sind mit dem Lernobjekt verknüpft und können nicht separat als **[!UICONTROL Abgeschlossen]** gekennzeichnet werden.
 

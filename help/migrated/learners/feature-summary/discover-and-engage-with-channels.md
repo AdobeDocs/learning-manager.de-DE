@@ -1,15 +1,15 @@
 ---
 title: Kanäle entdecken und interagieren
 description: Erfahren Sie, wie Sie Videoinhalte, die über Kanäle in Adobe Learning Manager verfügbar sind, suchen, abonnieren, anschauen, mögen und an Diskussionen teilnehmen.
-source-git-commit: 4e24819c42a357c5d3c425d5e1c42b87835ed747
+source-git-commit: 2ca8cf23fa622ce522456c1e1a526e175ddfc8e7
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '639'
 ht-degree: 1%
 
 ---
 
 
-# Kanäle entdecken und interagieren
+# Kanäle entdecken und mit ihnen interagieren (Beta)
 
 Kanäle helfen Teilnehmern dabei, videobasierte informelle Lerninhalte zu entdecken und darauf zuzugreifen, die in Web- und Cloud Confluence-Seiten innerhalb der Adobe Learning Manager kuratiert sind. Administratoren erstellen Kanäle, indem sie sie mit Unternehmens-Web-Seiten oder Cloud Confluence-Seiten verbinden, die aufgezeichnete Wissensaustausch- und Wissenstransfersitzungen hosten.
 

@@ -1,0 +1,24 @@
+---
+description: Der Kurseditor wird nach der Generierung automatisch geöffnet. Überprüfen Sie den gesamten Inhalt, Text, Bilder, Wissensüberprüfungen und Quiz, bevor Sie sie freigeben oder veröffentlichen. Die AI-Ausgabe kann variieren und erfordert die Überprüfung durch den Autor.
+jcr-language: en_us
+title: Generierten Kurs überprüfen
+source-git-commit: f8687710f5b73e8b7cf8d56057cac25483f38cdc
+workflow-type: tm+mt
+source-wordcount: '117'
+ht-degree: 0%
+
+---
+
+
+# Generierten Kurs überprüfen
+
+    ![](../assets/11_course_view_generated_topic_content_updated.png)
+
+Adobe Learning Manager Content Composer generiert den gesamten Kurs mit Text, Bildern, Wissensüberprüfungen und einem Quiz in einem Durchgang. Der **Kurs**-Editor wird automatisch geöffnet, wenn die Generierung abgeschlossen ist.
+
+Im linken Bereich wird die Lektions- und Themennavigation angezeigt. Die Arbeitsfläche zeigt den Inhalt des ausgewählten Themas an. Das Chat-Bedienfeld bleibt für die Dialogbearbeitung geöffnet.
+
+>[!CAUTION]
+>
+>Überprüfen Sie den gesamten generierten Inhalt, bevor Sie ihn freigeben oder veröffentlichen. Die AI-Ausgabe kann von Generation zu Generation variieren und Ungenauigkeiten enthalten. Vor der Verteilung ist eine Überprüfung durch den Autor erforderlich.
+

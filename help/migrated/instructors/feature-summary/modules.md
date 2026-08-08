@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Module
 contentowner: shhivkum
 exl-id: b81e7ee4-b25f-498d-a780-3ef897f38268
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: a2b71f6c4f3255a814e1dad30b87059cc8315764
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 70%
+source-wordcount: '1098'
+ht-degree: 61%
 
 ---
 
@@ -73,7 +73,7 @@ Aktivitätsmodule unterstützen den Arbeitsablauf für die Dateiübermittlung. E
 
 Diese Dateien können vom Kursleiter des jeweiligen Moduls genehmigt oder abgelehnt werden. Das Modul wird erst abgeschlossen, wenn der Kursleiter die übermittelte Datei genehmigt hat.
 
- ![](assets/approve-reject-option.png)
+![](assets/activity-modules.png) ![](assets/approve-reject-option.png)
 *Dateien genehmigen oder ablehnen*
 
 ## Checklistenmodul auswerten {#evaluate-checklist-module}
@@ -168,3 +168,16 @@ Führen Sie die folgenden Schritte aus, um Bewertungen und Kommentare für Aktiv
    *Punktzahlen und Kommentare bearbeiten*
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
+
+## Live-Hub-Sitzung
+
+Für Sitzungen, die mit dem Live Hub erstellt wurden, bietet der Abschnitt **Live Hub** auf der Seite **Sitzungsübersicht** schnellen Zugriff auf wichtige Sitzungsaktivitäten.
+
+&#x200B;- **Virtuelles Klassenzimmer betreten**: Wählen Sie **Klassenzimmer betreten**, um am virtuellen Klassenzimmer teilzunehmen, oder richten Sie es vor Beginn der Sitzung ein. Sie können auch **URL kopieren** auswählen, um den Sitzungslink zu kopieren und ihn für die Teilnehmer freizugeben.
+
+&#x200B;- **Sitzungsanalyse anzeigen**: Wählen Sie die **Analyseseite anzeigen** aus, um das Dashboard für die Sitzungsanalyse nach dem Ende der Sitzung zu öffnen. Das Dashboard bietet Einblicke in die Anwesenheit der Teilnehmer, die Teilnahme, die Interaktion und andere Sitzungsmetriken.
+
+&#x200B;- **Aufzeichnung anzeigen**: Wenn die Sitzung aufgezeichnet wurde, wählen Sie **Aufzeichnung anzeigen**, um direkt von der Seite **Sitzungsübersicht** auf die Aufzeichnung zuzugreifen. Wenn keine Aufzeichnung verfügbar ist, zeigt die Karte ihren Status an.
+
+![Seite &quot;Sitzungsübersicht&quot;](../../getting-started-with-live-hub/assets/session-overview-page.png)
+*Seite &quot;Sitzungsübersicht&quot; mit dem Abschnitt &quot;Live Hub&quot; mit Zugriff auf Live Hub-Aktivitäten.*

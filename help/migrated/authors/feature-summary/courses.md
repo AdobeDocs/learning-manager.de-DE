@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Kurse erstellen, ändern und veröffentlichen
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 0862e0d042fac74377b44c3387a72336ec625161
+source-git-commit: 69b71c03b9efa8726d939b53a185d5efb8eb9cca
 workflow-type: tm+mt
-source-wordcount: '10009'
-ht-degree: 57%
+source-wordcount: '10239'
+ht-degree: 56%
 
 ---
 
@@ -55,8 +55,8 @@ Um einen Kurs zu erstellen, führen Sie die unten genannten Schritte aus:
 4. Um den Kurs in anderen Sprachen zur Verfügung zu stellen, klicken Sie in der oberen linken Ecke der Seite auf „Neue Sprache hinzufügen“. Wählen Sie die Sprache/Sprachen, in denen der Kurs bereitgestellt werden soll. Klicken Sie auf **[!UICONTROL Speichern]**. Weitere Informationen finden Sie unter [Inhalt für verschiedene Sprachen hinzufügen](/help/migrated/authors/feature-summary/content-library.md).
 5. **Kurseinstellungen ändern** -
 
-   a. Wählen Sie auf der Seite Kurseinstellungen Kenntnisse für den Kurs aus. Wählen Sie in der Dropdown-Liste Kenntnisse die gewünschten Kenntnisse aus. Wählen Sie dann in der Dropdown-Liste &quot;Stufe&quot; die gewünschte Stufe aus.
-   b. Wählen Sie die Kurskenntnisse und die Stufe aus und legen Sie die Credits für die Kenntnisse fest. Fügen Sie bei Bedarf weitere Kenntnisse hinzu.
+   a. Wählen Sie auf der Seite „Kurseinstellungen“ Kenntnisse für den Kurs aus. Wählen Sie aus der Dropdown-Liste „Kenntnisse“ die gewünschtem Kenntnisse aus. Wählen Sie dann in der Dropdown-Liste „Stufe“ die gewünschte Stufe aus.
+   b. Wählen Sie die Kurskenntnisse, Stufen und legen Sie die Credits für die Kenntnisse fest. Fügen Sie bei Bedarf weitere Kenntnisse hinzu.
    c. Fügen Sie dem Kurs die benutzerdefinierten Compliance-Beschriftungen hinzu, falls erforderlich. Siehe [Hinzufügen von Konformitätsbezeichnungen zum Kurs/Lernpfad/zur Zertifizierung](/help/migrated/authors/feature-summary/courses.md#add-compliance-labels-to-courselearning-pathcertification).
    d. Wählen Sie in der Dropdownliste **Registrierungstyp** den Registrierungstyp aus.
 
@@ -592,6 +592,8 @@ Führen Sie die folgenden Schritte aus, um ein Inhaltsmodul hinzuzufügen:
 
    **Hinweis:** Ein Teilnehmer muss auf Microsoft Teams verfügbar sein. Teilnehmende können jedoch als Gäste an Learning Manager teilnehmen.
 
+   Sie können auch Live Hub-Kurse erstellen, wenn die Administratoren Live Hub für ein ALM-Konto aktiviert haben. Zum Erstellen der VC-Sitzung mit Live Hub zeigen Sie [Live Hub-Sitzung erstellen](../../getting-started-with-live-hub/create-a-live-hub-session.md) an.
+
    **Klassenzimmer-Modul:** In diesem Modus können Teilnehmer persönlich Vorlesungen besuchen, die von einem geschulten Kursleiter geleitet werden. Geben Sie den Titel und die Beschreibung ein und legen Sie die Dauer der Sitzung fest. Sie können auch den Ort der Klasse und die Kursleiter für die Durchführung der Sitzung angeben. Um die Änderungen zu speichern, klicken Sie auf **[!UICONTROL Fertig]**.
 
    >[!NOTE]
@@ -1013,7 +1015,7 @@ So können Kursleiter den Erfolg des Teilnehmers markieren:
 6. Geben Sie die erforderlichen Details ein und wählen Sie die Daten aus.
 7. Wählen Sie die Option **[!UICONTROL Kursleiter darf Erfolg markieren]** aus.
 
-   ![Der Kursleiter darf den Erfolg markieren? Das Kontrollkästchen ist hervorgehoben, sodass Autoren den Kursleiter den Teilnehmererfolgsstatus für ein Modul aufzeichnen lassen können](/help/migrated/authors/feature-summary/assets/allow-instructor-mark-success.png)
+   ![Der Kursleiter darf den Erfolg markieren? Das Kontrollkästchen ist hervorgehoben, sodass Autoren die Möglichkeit haben, dass Kursleiter den Erfolgsstatus eines Teilnehmers für ein Modul aufzeichnen](/help/migrated/authors/feature-summary/assets/allow-instructor-mark-success.png)
    _Bildschirm &quot;Sitzungsdetails&quot;, in dem die Option &quot;Der Kursleiter darf den Erfolg markieren&quot; für die Module &quot;Klassenzimmer&quot; oder &quot;Virtuelles Klassenzimmer&quot; markiert ist_
 
 8. Wählen Sie **[!UICONTROL Fertig]**.
