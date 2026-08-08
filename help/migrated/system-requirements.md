@@ -4,10 +4,10 @@ title: Systemanforderungen
 description: Systemanforderungen für Adobe Learning Manager
 contentowner: dvenkate
 exl-id: 3bf9818a-4b86-47e9-9b86-1c32b8bfee3a
-source-git-commit: f964dd3f1adeadb76f4843c9af229ce5f09afde1
+source-git-commit: d463fb1bb54e14717eb51d0c13f66551018a0f92
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 81%
+source-wordcount: '660'
+ht-degree: 75%
 
 ---
 
@@ -344,3 +344,9 @@ Stellen Sie sicher, dass die folgenden Domänen von Drittanbietern auf die weiß
 ## Whitepaper zur ALM-Sicherheit
 
 [ALM-Whitepaper](assets/alm-security-whitepaper-2024.pdf)
+
+## Live Hub - Systemanforderungen
+
+Stellen Sie vor der Teilnahme an einer Live Hub-Sitzung oder dem Hosten einer Live Hub-Sitzung sicher, dass Ihr Gerät, Browser, Netzwerk, Audio- und Videogerät die Mindestsystemanforderungen erfüllt, damit Sie die beste Erfahrung nutzen können.
+
+Der Live-Hub bietet eine Reihe unterstützter Browser, Betriebssysteme, Netzwerkanforderungen und Hardware-Empfehlungen. Weitere Informationen finden Sie in den Systemanforderungen für [Live Hub](../migrated/getting-started-with-live-hub/system-requirements-for-live-hub.md).

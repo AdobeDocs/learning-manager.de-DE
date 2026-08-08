@@ -1,15 +1,15 @@
 ---
-title: Kanäle erstellen
+title: Kanäle erstellen (Beta)
 description: Erfahren Sie, wie Sie in Adobe Learning Manager Kanäle aktivieren, erstellen und bearbeiten, um videobasierte Lerninhalte von Webseiten und Confluence Cloud-Seiten an einem einzigen, durchsuchbaren Ort für Teilnehmer zu platzieren.
-source-git-commit: 362d56b5758d55e7aa564893beade853f4c72deb
+source-git-commit: 2ca8cf23fa622ce522456c1e1a526e175ddfc8e7
 workflow-type: tm+mt
-source-wordcount: '1125'
+source-wordcount: '1127'
 ht-degree: 0%
 
 ---
 
 
-# Kanäle erstellen
+# Kanäle erstellen (Beta)
 
 Unternehmen speichern Wissensvermittlungssitzungen, Schulungsaufzeichnungen und andere Videoinhalte oft in informellen Lerninhalten, die im Web und auf Confluence Cloud-Seiten kuratiert werden. Durch Kanäle wird Adobe Learning Manager mit diesen Inhaltsquellen verbunden, was die Erkennung und Nutzung von Videos vereinfacht, ohne dass die Teilnehmer in mehreren Systemen navigieren müssen. Mit Kanälen können Sie videobasierte Lerninhalte von Unternehmens-Webseiten und Confluence Cloud-Seiten an einem einzigen, durchsuchbaren Ort organisieren und freigeben. Anstatt mehrere interne Sites zu durchsuchen, können Teilnehmer relevante Aufzeichnungen direkt aus Adobe Learning Manager entdecken und darauf zugreifen. Weitere Informationen finden Sie unter [Kanäle entdecken und mit ihnen interagieren](../../learners/feature-summary/discover-and-engage-with-channels.md).
 
@@ -86,13 +86,13 @@ Erstellen Sie einen Kanal, um die Inhaltsquelle zu definieren, die Adobe Learnin
 
    1. **Farbe des Kanalthemas**: Wählen Sie eine Farbe aus, um das Erscheinungsbild des Kanals anzupassen.
 
-   1. **Durchforstungstiefe**: Geben Sie die Durchforstungstiefe für verknüpfte Seiten ein, damit nach Videoinhalten gesucht werden kann. Es unterstützt eine maximale Durchforstungstiefe von **2**.
+   1. **Durchforstungs-Tiefe**: Geben Sie die Tiefe für die Suche nach verknüpften Seiten ein, um nach Videoinhalten zu suchen. Es unterstützt eine maximale Durchforstungs-Tiefe von **2**.
 
    1. **Durchforstungsfrequenz (in Stunden)**: Geben Sie an, wie oft Adobe Learning Manager die Quelle auf neue oder aktualisierte Inhalte überprüfen soll.
 
       ![Zeitplan für die Überprüfung des Kanalinhalts](assets/channel-content-check-schedule.png)
 
-      *Wählen Sie Erweiterte Einstellungen anzeigen aus, um die Farbe des Kanalthemas, die Kriechtiefe und die Kriechfrequenz zu konfigurieren.*
+      *Wählen Sie Erweiterte Einstellungen anzeigen aus, um die Kanaldesignfarbe, die Durchforstungsfarbe und die Durchforstungsfrequenz zu konfigurieren.*
 
 1. Wählen Sie **Jetzt testen** aus, um die Quelle zu validieren. Die Beispielvideos werden aus der konfigurierten Quelle abgerufen und angezeigt.
 
@@ -113,7 +113,7 @@ Verwenden Sie das Suchfeld, um einen Kanal schnell anhand seines Namens zu finde
 
    ![Suchkanäle](assets/search-channels.png)
 
-   *Geben Sie einen Kanalnamen in das Suchfeld ein, um die Liste **Kanäle**&#x200B;zu filtern.*
+   *Geben Sie einen Kanalnamen in das Suchfeld ein, um die Liste **Kanäle**zu filtern.*
 
 ## Sichtbarkeit von Kanälen verwalten
 

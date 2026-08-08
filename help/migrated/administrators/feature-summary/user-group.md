@@ -3,9 +3,9 @@ description: Benutzergruppen in Adobe Learning Manager erstellen und verwalten. 
 jcr-language: en_us
 title: Verwalten von Benutzergruppen in Adobe Learning Manager | Organisieren und Zuweisen von Teilnehmern
 exl-id: 5569a201-0648-4b2c-bab3-927e5c149290
-source-git-commit: cd81d076b44b513afc6d21be0c3ea17d7359972e
+source-git-commit: fbe0fd05b8ff57bf009024069073887c073da43e
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1519'
 ht-degree: 0%
 
 ---
@@ -215,4 +215,10 @@ Wenn Sie die OR-Logik verwenden, fügt Adobe Learning Manager Benutzer hinzu, di
 
 ![](assets/or-logic.png)
 _Beispiel, in dem mehrere Gruppen mit ODER-Logik kombiniert werden_
+
+## Kursleiter für Live-Hub-Sitzungen hinzufügen und verwalten
+
+In Adobe Learning Manager können Administratoren auch Kursleiter für Live-Hub-Sitzungen verwalten und ihre Kenntnisse, Verfügbarkeit und Unterrichtsoptionen festlegen. Auf diese Weise können Sie sicherstellen, dass die richtigen Kursleiter basierend auf Planung und Fachwissen den richtigen Kursen zugewiesen werden.
+
+Ausführliche Informationen zum Erstellen und Verwalten von Kursleiterprofilen finden Sie unter [Kursleiter hinzufügen und verwalten](../../getting-started-with-live-hub/instructor-management.md).
 

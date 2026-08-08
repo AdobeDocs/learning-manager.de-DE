@@ -1,18 +1,204 @@
 ---
 user-guide-title: Leitfaden für Adobe Learning Manager
-breadcrumb-title: Learning Manager
+breadcrumb-title: Adobe Learning Manager
 user-guide-description: Dokumentation für Adobe Learning Manager
-source-git-commit: a8ce2cca26c50bde68789ae423478af9a9494dc3
+source-git-commit: 68a01f96b5ce1e4d8ffc012f99d7b26f464a456c
 workflow-type: tm+mt
-source-wordcount: '1153'
-ht-degree: 50%
+source-wordcount: '1663'
+ht-degree: 36%
 
 ---
 
 
 # Learning Manager-Handbuch {#using}
 
-* [Benutzerhandbuch für Learning Manager](user-guide.md)
+* [Benutzerhandbuch für Adobe Learning Manager](user-guide.md)
+<!--
+* Introduction {#introduction}
+   * Platform essentials {#platform-essentials}
+      * [System requirements](system-requirements.md)
+      * [Adobe Learning Manager compliance to GDPR](kb/prime-gdpr.md)
+      * Administrative security framework {#admin-security-framework}
+         * [Adobe Learning Manager administrative account lifecyle](/help/migrated/alm-administrative-lifecycle.md)
+         * [Adobe Learning Manager secure administration guide](/help/migrated/alm-secure-administration-guide.md)
+         * [Adobe Learning Manager administrative security setttings and configuration management](/help/migrated/alm-security-settings-config-management.md)
+         * [Feature availability in FedRAMP-authorizerd environments](/help/migrated/feature-availability-in-fedramp-authorized-environment.md)
+      * [Accessibility in Learning Manager](accessibility-learning-manager.md)
+      * [Support for custom domain](custom-domain.md)
+      * [Supported languages in Adobe Learning Manager](/help/migrated/languages-supported.md)
+      * [Whitelabeling in Adobe Learning Manager](white-label.md)
+      * [Adobe Learning Manager App for Microsoft Teams](adobe-learning-manager-app-microsoft-teams.md)
+      * [Transition from Adobe FTP Manager](transition-from-ftp-manager.md)
+      * [Recommendations in Adobe Learning Manager](recommendations-adobe-learning-manager.md)
+   * User role overview {#user-role-overview}
+      * [Sign in to Adobe Learning Manager with OpenID Connect](/help/migrated/oidc.md)
+      * [Getting started as Administrator](administrators/feature-summary/getting-started-admin.md)
+      * [Getting started as an Author](authors/feature-summary/getting-started-author.md)
+      * [Getting started as a Learner](learners/feature-summary/getting-started-learner.md)
+      * [Getting started for Managers](managers/feature-summary/getting-started-manager.md)
+      * [Getting started as an instructor in Learning Manager](instructors/feature-summary/getting-started.md)
+* Release notes and updates {#release-notes-and-updates}
+   * [Release Notes](release-note/release-notes.md)
+   * [New features summary August 2026](/help/migrated/whats-new.md)
+   * [New features summary April 2026](/help/migrated/whats-new-april-2026.md)
+   * [New features summary October 2025](/help/migrated/whats-new-october-2025.md)
+   * [New features summary May 2025](/help/migrated/whats-new-may-2025.md)
+   * [New features summary November 2024](/help/migrated/whats-new-nov-24.md)
+   * [New features summary July 2024](whats-new-july-2024.md)
+   * [New features March 2024](whats-new-march-2024.md)
+   * {hide-from-toc} [New features November 2023](whats-new-november-2023.md)
+   * {hide-from-toc} [New features July 2023](whats-new-2023-july.md)
+   * {hide-from-toc} [Upcoming changes in Adobe Learning Manager](/help/migrated/upcoming-changes-in-adobe-learning-manager.md)
+   * [API deprecations and changes in Adobe Learning Manager](api-deprecations-list.md)
+* Administrator {#admin}
+   * Account management {#account-management}
+      * [User log in](administrators/feature-summary/user-login.md)
+      * Configure your Adobe Learning Manager {#configure-alm}
+         * Settings {#settings}
+            * [Overview](/help/migrated/administrators/feature-summary/settings/settings-overview.md)
+            * [Basic settings](/help/migrated/administrators/feature-summary/settings/basic-settings.md)
+            * [Integration settings](/help/migrated/administrators/feature-summary/settings/integration-settings.md)
+            * [Advanced settings](/help/migrated/administrators/feature-summary/settings/advanced-settings.md)
+            * [Settings](administrators/feature-summary/settings.md)
+         * [Monitoring and moderating Social Learning as an admin](administrators/feature-summary/social-learning-configurations-as-an-admin.md)
+         * [AI-based recommendation of courses](ai-based-recommendations.md)
+         * [Admin AI Assistant (Beta) in Adobe Learning Manager](/help/migrated/administrators/feature-summary/alm-ai-assistant.md)
+         * [Insights Agent (beta) in Adobe Learning Manager](/help/migrated/administrators/feature-summary/insights-agent.md)
+         * [Gamification](administrators/feature-summary/gamification.md)
+         * [Announcements](administrators/feature-summary/announcements.md)
+         * [L1 feedback form](/help/migrated/administrators/feature-summary/l1-feedback-form.md)
+         * [Badges](administrators/feature-summary/badges.md)
+         * [Create and modify skills and levels](administrators/feature-summary/skills-levels.md)
+         * [Import skills](administrators/feature-summary/import-skills-external-sources.md)
+         * [Map skill with skill domains](administrators/feature-summary/curation-skills.md)
+         * [Multiple SSO Logins](administrators/feature-summary/multiple-sso-logins.md)
+      * Customize your user interface {#customize-user-interface}
+         * [Color themes](administrators/feature-summary/themes.md)
+         * [Fluidic player](administrators/feature-summary/fluidic-player.md)
+         * [Customize learner homepage](administrators/feature-summary/customize-learner-homepage.md)
+      * Customize learner homepage {#customize-learner-homepage}
+         * [Non-logged in experience for learners](administrators/feature-summary/non-logged-in-experience-learners.md)
+         * Experience Builder in Adobe Learning Manager {#experience-builder}
+            * [Overview](/help/migrated/administrators/feature-summary/experience-builder/overview.md)
+            * [Core components of Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/components-in-experience-builder.md)
+            * Pages in Experience Builder {#pages-in-experience-builder}
+               * [Overview](/help/migrated/administrators/feature-summary/experience-builder/pages-overview.md)
+               * [Create a custom page in Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/create-a-page.md)
+            * Widgets in Experience Builder {#widgets-in-experience-builder}
+               * [Overview](/help/migrated/administrators/feature-summary/experience-builder/widget-overview.md)
+               * [Add and configure widgets](/help/migrated/administrators/feature-summary/experience-builder/add-a-widget.md)
+            * Menu in Experience Builder {#menu-in-experience-builder}
+               * [Overview](/help/migrated/administrators/feature-summary/experience-builder/menu-overview.md)
+               * [Create a menu](/help/migrated/administrators/feature-summary/experience-builder/create-a-menu.md)
+            * Customization in Experience Builder {#customization-in-experience-builder}
+               * [Overview](/help/migrated/administrators/feature-summary/experience-builder/customization-overview.md)
+               * [Customize Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/customization-experience-builder.md)
+            * [Experience Builder guidelines and limitations](/help/migrated/administrators/feature-summary/experience-builder/experience-builder-guidelines.md)
+            * [Non-logged in experience in Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/non-logged-in-experience.md)
+         * [Native extensibility](administrators/feature-summary/native-extensibility.md)
+      * [iPad & Android tablet users](administrators/feature-summary/ipad-android-tablet-users.md)
+   * User management {#user-management}
+      * Adding a user to ALM {#adding-a-user}
+         * [Add users in Adobe Learning Manager](administrators/feature-summary/add-users-user-groups.md)
+         * [Custom roles](administrators/feature-summary/custom-role.md)
+         * [Custom role for announcement permission](/help/migrated/administrators/feature-summary/create-custom-role-for-announcement.md)
+      * Manage user {#manage-user}
+         * [Purge users](administrators/feature-summary/purge-users.md)
+         * [Set up interface language through SAML](/help/migrated/administrators/feature-summary/set-up-interface-language-through-saml.md)
+      * [Active Fields](/help/migrated/administrators/feature-summary/active-fields.md)
+      * [User groups in Adobe Learning Manager](/help/migrated/administrators/feature-summary/user-group.md)
+      * [Impersonate a Learner and Manager](administrators/feature-summary/impersonation-learner-manager.md)
+   * Content management {#content-management}
+      * Learning objects {#learning-objects}
+         * [Add classroom locations](administrators/feature-summary/classroom.md)
+         * [Create course instances and learning paths](administrators/feature-summary/courses.md)
+         * [Module access time control](/help/migrated/administrators/feature-summary/module-access-time-control.md)
+         * [Learning Paths](administrators/feature-summary/learning-paths.md)
+         * [Alternates and equivalence](/help/migrated/administrators/feature-summary/alternates-equivalence.md)
+         * [Learning Plans](administrators/feature-summary/learning-plans.md)
+         * [Learning Programs](administrators/feature-summary/learning-programs.md)
+         * [Certifications](administrators/feature-summary/certifications.md)
+         * [Create and customize a certificate](/help/migrated/administrators/feature-summary/create-customize-certificate.md)
+         * [Job Aids](administrators/feature-summary/job-aids.md)
+         * Content marketplace {#content-marketplace}
+            * [Content marketplace](administrators/feature-summary/content-marketplace.md)
+            * [Curate Go1 courses to Learning Path](administrators/feature-summary/content-marketplace/curate-go1-playlist.md)
+         * [Waitlist & attendance management](administrators/feature-summary/waitlist-attendance-management.md)
+         * {hide-from-toc} [Adaptive Courses](administrators/feature-summary/adaptive-course-admin.md)
+      * [Set up one-click enrollment in Adobe learning Manager](/help/migrated/administrators/feature-summary/admin-one-click-enrollment.md)
+      * [Multiple enrollment](administrators/feature-summary/multiple-enrollment.md)
+      * [Create Channels](administrators/feature-summary/create-channels.md)
+      * [Tags](administrators/feature-summary/tags.md)
+      * Catalogs {#catalogs}
+         * [Catalogs](administrators/feature-summary/catalogs.md)
+         * [Catalog labels](administrators/feature-summary/catalog-labels.md)
+         * [Learning Manager Content Catalog](administrators/feature-summary/content-catalogs.md)
+         * [Enable full control of shared catalog](administrators/feature-summary/shared-catalog-full-control.md)
+      * Email templates {#email-templates}
+         * [Email templates](administrators/feature-summary/email-templates.md)
+         * [Email builder](administrators/feature-summary/email-builder.md)
+      * [Adobe Connect integration](administrators/feature-summary/adobeconnect-integration.md)
+      * [xAPI in Learning Manager](authors/feature-summary/xapi.md)
+      * [Product Terminology](administrators/feature-summary/product-terminology.md)
+   * Reporting {#reporting}
+      * [Reports](administrators/feature-summary/reports.md)
+      * Report Builder {#reportbuilder}
+         * [Report Builder in Adobe Learning Manager](administrators/feature-summary/alm-report-builder.md)
+         * [Report Builder: Concepts and terminology](administrators/feature-summary/report-builder-concepts-terminology.md)
+         * [Available datasets in Report Builder](administrators/feature-summary/report-builder-available-datasets.md)
+         * [Get started with a Report Builder template](administrators/feature-summary/get-started-with-report-builder.md)
+         * [Customize a duplicated Report Builder template](administrators/feature-summary/customize-duplicate-report-builder-template.md)
+         * [Build a custom report in Report Builder](administrators/feature-summary/alm-create-report.md)
+         * [Apply group by and aggregations in Report Builder](administrators/feature-summary/group-by-and-aggregations-report-builder.md)
+         * [Add and combine filters in a report](administrators/feature-summary/add-combine-filters-in-report.md)
+         * [Sort report columns in Report Builder](administrators/feature-summary/sort-report-columns-in-report-builder.md)
+         * [Review instructor performance with Report Builder](administrators/feature-summary/review-instructor-performance-with-report-builder.md)
+         * [Track engagement by user group in Report Builder](administrators/feature-summary/track-engagement-by-user-group-in-report-builder.md)
+         * [Build a trend report in Report Builder](administrators/feature-summary/build-trend-report-in-report-builder.md)
+         * [Download, share, and subscribe to a report](administrators/feature-summary/download-share-subscribe-report.md)
+         * [Duplicate and reuse a report in Report Builder](administrators/feature-summary/duplicate-reuse-report-in-report-builder.md)
+         * [Frequently asked questions](administrators/feature-summary/faq-report-builder.md)
+         * [Limitations of Report Builder in Adobe Learning Manager](administrators/feature-summary/limitations-report-builder.md)
+      * Learning object reports {#learning-object-reports}
+         * Training content *(no page yet)*
+         * Training report *(no page yet)*
+         * Course report *(no page yet)*
+         * Job Aids report *(no page yet)*
+         * Session summary report *(no page yet)*
+         * Learning plan report *(no page yet)*
+         * xAPI activity report *(no page yet)*
+         * Content audit trail *(no page yet)*
+      * User reports {#user-reports}
+         * User activity *(no page yet)*
+         * Login/access report *(no page yet)*
+         * [Learner Transcripts](/help/migrated/administrators/feature-summary/reports/learner-transcripts.md)
+         * [Changes in Learner Transcripts](/help/migrated/administrators/feature-summary/reports/changes-in-learner-transcript.md)
+         * User audit trail *(no page yet)*
+         * Gamification reports *(no page yet)*
+         * Custom role audit trail *(no page yet)*
+         * Learning summary report *(no page yet)*
+         * [Gradebook for admin](administrators/feature-summary/alm-admin-gradebook.md)
+      * Creating and viewing reports {#creating-and-viewing-reports}
+         * Sample reports *(no page yet)*
+         * Dashboard reports *(no page yet)*
+      * Other reports {#other-reports}
+         * Extension configuration report *(no page yet)*
+         * Notification announcements report *(no page yet)*
+         * [Notifications](administrators/feature-summary/user-notifications.md)
+         * [Feedback report](/help/migrated/administrators/feature-summary/reports/feedback-report.md)
+         * Email reports *(no page yet)*
+         * Instructor utilisation *(no page yet)*
+      * [Group Success Dashboard](/help/migrated/administrators/feature-summary/group-success-dashboard.md)
+         * Your dashboards *(no page yet)*
+         * Shared dashboards *(no page yet)*
+      * Learning summary report {#learning-summary-report}
+         * Consolidated summary *(no page yet)*
+         * Compliance dashboard *(no page yet)*
+   * Billing {#billing}
+      * [Manage Learning Manager orders and billing](administrators/feature-summary/billing-management.md)
+   * Peer account {#peer-account}
+      * [Peer accounts](administrators/feature-summary/peer-account.md)
+-->
 * Einführung {#introduction}
   * [Überblick über die neuen Funktionen August 2026](/help/migrated/whats-new.md)
   * [Überblick über die neuen Funktionen April 2026](/help/migrated/whats-new-april-2026.md)
@@ -47,7 +233,10 @@ ht-degree: 50%
   * [Einstieg in Captivate Prime als Teilnehmer](learners/feature-summary/getting-started-learner.md)
   * [Erste Schritte für Manager](managers/feature-summary/getting-started-manager.md)
   * [Erste Schritte als Kursleiter in Learning Manager](instructors/feature-summary/getting-started.md)
+  * [Erste Schritte mit Live Hub (Beta)](./getting-started-with-live-hub/getting-started-live-hub.md)
 * Administrator {#admin}
+  * KI im Lernen (Beta) {#ai-in-learning}
+    * [Live Hub aktivieren](./administrators/feature-summary/enable-live-hub.md)
   * [Admin AI Assistant (Beta) in Adobe Learning Manager](/help/migrated/administrators/feature-summary/alm-ai-assistant.md)
   * [Insights Agent (Beta) in Adobe Learning Manager](/help/migrated/administrators/feature-summary/insights-agent.md)
   * [Benutzeranmeldung](administrators/feature-summary/user-login.md)
@@ -58,6 +247,7 @@ ht-degree: 50%
   * [Standorte für Klassenzimmer hinzufügen](administrators/feature-summary/classroom.md)
   * [Erstellen von Kursinstanzen und Lernpfaden](administrators/feature-summary/courses.md)
   * [Modulzugriffszeitsteuerung](/help/migrated/administrators/feature-summary/module-access-time-control.md)
+  * [Feiertage verwalten](./getting-started-with-live-hub/manage-holidays.md)
   * Experience Builder in Adobe Learning Manager {#experience-builder}
     * [Übersicht](/help/migrated/administrators/feature-summary/experience-builder/overview.md)
     * [Kernkomponenten von Experience Builder](/help/migrated/administrators/feature-summary/experience-builder/components-in-experience-builder.md)
@@ -85,7 +275,7 @@ ht-degree: 50%
     * [Go1-Kurse für den Lernpfad kuratieren](administrators/feature-summary/content-marketplace/curate-go1-playlist.md)
   * [L1-Feedbackformular](/help/migrated/administrators/feature-summary/l1-feedback-form.md)
   * [Berichte](administrators/feature-summary/reports.md)
-  * [Report Builder] {#reportbuilder}
+  * Berichtsgenerator {#reportbuilder}
     * [Report Builder in Adobe Learning Manager](administrators/feature-summary/alm-report-builder.md)
     * [Report Builder: Konzepte und Terminologie](administrators/feature-summary/report-builder-concepts-terminology.md)
     * [Verfügbare Datensätze im Report Builder](administrators/feature-summary/report-builder-available-datasets.md)
@@ -109,7 +299,7 @@ ht-degree: 50%
   * [Lernpläne](administrators/feature-summary/learning-plans.md)
   * [Verwalten von Learning Manager-Bestellungen und -Abrechnungen](administrators/feature-summary/billing-management.md)
   * [Arbeitshilfen](administrators/feature-summary/job-aids.md)
-  * [Kanäle erstellen](administrators/feature-summary/create-channels.md)
+  * [Kanäle erstellen (Beta)](administrators/feature-summary/create-channels.md)
   * [Zertifizierungen](administrators/feature-summary/certifications.md)
   * [Zertifikat erstellen und anpassen](/help/migrated/administrators/feature-summary/create-customize-certificate.md)
   * [Kataloge](administrators/feature-summary/catalogs.md)
@@ -209,6 +399,57 @@ ht-degree: 50%
   * [E-Mail-Vorlagen](authors/feature-summary/email-templates-author.md)
   * [So wählen Sie ein Kursmodul](authors/how-to-choose-modules.md)
   * [Vorschau als Teilnehmer](authors/feature-summary/fluidic-player.md)
+  * Adobe Learning Manager Content Composer (Beta) {#alm-content-composer}
+    * [Hilfe zu Adobe Learning Manager Content Composer (Beta)](authors/feature-summary/content-composer/content-composer-help.md)
+    * Erste Schritte {#get-started}
+      * [Was ist Content Composer?](authors/feature-summary/content-composer/what-is-content-composer.md)
+      * [Funktionsweise von Content Composer](authors/feature-summary/content-composer/how-content-composer-works.md)
+      * [Wofür ist Content Composer?](authors/feature-summary/content-composer/who-content-composer-is-for.md)
+      * [Was Sie benötigen, bevor Sie beginnen](authors/feature-summary/content-composer/before-you-start.md)
+      * [Untermauern Sie Ihren Kurs in Ihren eigenen Dokumenten](authors/feature-summary/content-composer/ground-course-documents.md)
+      * [Was Content Composer nicht ist](authors/feature-summary/content-composer/what-content-composer-is-not.md)
+    * Kurs erstellen {#create-course}
+      * [Eingabeaufforderung schreiben](authors/feature-summary/content-composer/write-a-prompt.md)
+      * [Kursbeschreibung abschließen](authors/feature-summary/content-composer/complete-course-brief.md)
+      * [Verwalten von Quelldateien](authors/feature-summary/content-composer/manage-source-files.md)
+      * [Bearbeiten der Kursübersicht](authors/feature-summary/content-composer/edit-course-outline.md)
+      * [Generierten Kurs überprüfen](authors/feature-summary/content-composer/review-generated-course.md)
+      * [Quiz überprüfen und bearbeiten](authors/feature-summary/content-composer/review-edit-quiz.md)
+      * [Kurstext bearbeiten](authors/feature-summary/content-composer/edit-course-text.md)
+      * [Bild bearbeiten oder hinzufügen](authors/feature-summary/content-composer/edit-add-image.md)
+      * [Inhaltskomponente hinzufügen](authors/feature-summary/content-composer/add-content-component.md)
+      * [Kursvorschau](authors/feature-summary/content-composer/preview-course.md)
+    * Erfolgreiche Eingabeaufforderungen schreiben {#write-effective-prompt}
+      * [Erstellen effektiver Eingabeaufforderungen in Content Composer](authors/feature-summary/content-composer/write-effective-prompts.md)
+    * Freigabe und Zusammenarbeit {#share}
+      * [Freigeben und Zusammenarbeiten an einem Kurs für Content Composer](authors/feature-summary/content-composer/share-collaborate.md)
+      * {hide-from-toc}[Kurs zur Überprüfung freigeben](authors/feature-summary/content-composer/share-course-review.md)
+      * {hide-from-toc}[Kurs für Teilnehmer freigeben](authors/feature-summary/content-composer/share-course-learners.md)
+      * {hide-from-toc}[Freigegebenen Kurs überprüfen](authors/feature-summary/content-composer/review-shared-course.md)
+      * {hide-from-toc}[Anzeigen und Hinzufügen von Kommentaren zu einem Kurs](authors/feature-summary/content-composer/view-add-comments-course.md)
+    * Kurseinstellungen konfigurieren {#settings}
+      * [Allgemeine Kurseinstellungen](authors/feature-summary/content-composer/general-course-settings.md)
+      * [Abschluss- und Erfolgskriterien festlegen](authors/feature-summary/content-composer/set-completion-success-criteria.md)
+      * [Quizeinstellungen konfigurieren](authors/feature-summary/content-composer/configure-quiz-settings.md)
+      * [Herstellen einer Verbindung zu Adobe Learning Manager und Veröffentlichen](authors/feature-summary/content-composer/configure-alm-publish-settings.md)
+    * Verwalten von Kursthemen {#themes}
+      * [Design anwenden.](authors/feature-summary/content-composer/apply-theme.md)
+      * [Schriften ändern](authors/feature-summary/content-composer/change-fonts.md)
+      * [Kopf- und Fußzeilen hinzufügen](authors/feature-summary/content-composer/add-header-footer.md)
+      * [Festlegen des Hell- oder Dunkelmodus](authors/feature-summary/content-composer/set-light-dark-mode.md)
+      * [Erweiterte Designanpassung](authors/feature-summary/content-composer/advanced-theme-customization.md)
+      * [Design erstellen](authors/feature-summary/content-composer/create-theme.md)
+      * [Exportieren eines Designs](authors/feature-summary/content-composer/export-theme.md)
+      * [Importieren eines Designs](authors/feature-summary/content-composer/import-theme.md)
+    * Veröffentlichen in Adobe Learning Manager {#publishalm}
+      * [Wie Adobe Learning Manager Content Composer und Adobe Learning Manager zusammenarbeiten.](authors/feature-summary/content-composer/alm-coco-work-together.md)
+      * [Modulversionsverwaltung in ALM](authors/feature-summary/content-composer/module-version-alm.md)
+      * [Best Practices](authors/feature-summary/content-composer/best-practices-publishing.md)
+      * [Veröffentlichen in Adobe Learning Manager](authors/feature-summary/content-composer/publish-to-alm.md)
+    * Referenz {#reference}
+      * [Beta-Einschränkungen für Adobe Learning Manager Content Composer](authors/feature-summary/content-composer/content-composer-beta-limitations.md)
+      * [Häufige Fragen zu Adobe Learning Manager Content Composer](authors/feature-summary/content-composer/content-composer-faq.md)
+      * [Referenz zur Theme JSON-Eigenschaft](authors/feature-summary/content-composer/theme-json-reference.md)
   * [Einstellungen](authors/feature-summary/settings.md)
 * Der Kursleiter {#instructor}
   * [Module](instructors/feature-summary/modules.md)
@@ -224,7 +465,7 @@ ht-degree: 50%
   * [Lernprogramme](learners/feature-summary/learning-programs.md)
   * [Zertifizierungen](learners/feature-summary/certifications.md)
   * [Arbeitshilfen](learners/feature-summary/job-aids.md)
-  * [Kanäle entdecken und interagieren](learners/feature-summary/discover-and-engage-with-channels.md)
+  * [Kanäle entdecken und mit ihnen interagieren (Beta)](learners/feature-summary/discover-and-engage-with-channels.md)
   * [Warenkorb mit mehreren Artikeln in ALM](learners/feature-summary/multi-item-cart.md)
   * [Schulungskalender für Teilnehmer](learners/feature-summary/alm-learner-gradebook.md)
   * [Externes Lernprogramm einreichen](learners/feature-summary/submit-external-learning.md)
@@ -255,14 +496,75 @@ ht-degree: 50%
   * [Teilnehmertranskripte](managers/feature-summary/learner-transcripts.md)
   * [Einstellungen](managers/feature-summary/settings.md)
   * [Benutzer von iPad- und Android-Tablets](managers/feature-summary/ipad-android-tablet-users.md)
-* Erste Schritte mit Live Hub{#getting-started-with-live-hub}
-  * [Live Hub](../migrated/getting-started-with-live-hub/about-live-hub.md)
+* Arbeiten mit Live Hub (Beta) {#work-with-live-hub}
+  * [Systemanforderungen](./getting-started-with-live-hub/system-requirements-for-live-hub.md)
+  * Rollen im Live Hub {#roles-in-live-hub}
+    * [Administrator](../migrated/getting-started-with-live-hub/administrator.md)
+    * [Autoren](../migrated/getting-started-with-live-hub/authors-in-live-hub-session.md)
+    * [Kursleiter](../migrated/getting-started-with-live-hub/instructors-in-a-live-hub-session.md)
+    * [Teilnehmer](../migrated/getting-started-with-live-hub/learners-in-live-hub-session.md)
+  * [Kursleiter hinzufügen und verwalten](../migrated/getting-started-with-live-hub/instructor-management.md)
+  * [Eine Live Hub-Sitzung erstellen](../migrated/getting-started-with-live-hub/create-a-live-hub-session.md)
+  * An einer Live-Hub-Sitzung teilnehmen {#join-a-live-hub-session}
+    * [Bildschirm &quot;Setup pre-join&quot;](./getting-started-with-live-hub/setup-pre-join-screen-in-live-hub.md)
+    * [Als Kursleiter an einer Live Hub-Sitzung teilnehmen](../migrated/getting-started-with-live-hub/join-live-hub-session-as-an-instructor.md)
+    * [Als Teilnehmer an einer Live-Hub-Sitzung teilnehmen](../migrated/getting-started-with-live-hub/join-live-hub-session-as-a-learner.md)
+  * [Das Layout des Live-Hubs.](../migrated/getting-started-with-live-hub/understand-the-live-hub-layout.md)
+  * Interaktions-Tools {#engagement-tools}
+    * [Raumeinstellungen als Kursleiter verwalten](../migrated/getting-started-with-live-hub/manage-settings.md)
+    * Teilnehmerbedienfeld {#attendees-panel}
+      * [Teilnehmer-Bedienfeld](../migrated/getting-started-with-live-hub/about-the-attendees-panel.md)
+      * [Bedienfeld &quot;Teilnehmer&quot; verwalten](../migrated/getting-started-with-live-hub/manage-the-attendees-panel.md)
+      * [Verwenden des Teilnehmer-Bedienfelds als Teilnehmer](../migrated/getting-started-with-live-hub/use-the-attendees-panel-as-a-learner.md)
+    * Chat-Bedienfeld{#chat-panel}
+      * [Das Chat-Bedienfeld](../migrated/getting-started-with-live-hub/about-the-chat-panel.md)
+      * [Verwenden des Chat-Bedienfelds als Kursleiter](../migrated/getting-started-with-live-hub/use-the-chat-panel-as-an-instructor.md)
+      * [Verwenden des Chat-Bedienfelds als Teilnehmer](../migrated/getting-started-with-live-hub/use-the-chat-panel-as-a-learner.md)
+    * Zu Wort melden und Reaktionen anwenden {#raise-your-hand-and-use-reactions}
+      * [Informationen Zu Wort melden und Reaktionen](../migrated/getting-started-with-live-hub/about-raise-hand-and-reactions.md)
+      * [Teilnehmer verwalten hat Hände und Reaktionen gehoben](../migrated/getting-started-with-live-hub/manage-participant-raised-hand-and-reactions.md)
+      * [Zu Wort melden und Reaktionen senden](../migrated/getting-started-with-live-hub/raise-hand-and-send-reactions.md)
+    * Bildschirmfreigabe in Sitzungen {#screen-sharing-in-sessions}
+      * [Bildschirmfreigabe](../migrated/getting-started-with-live-hub/about-the-screen-sharing.md)
+      * [Bildschirm als Kursleiter freigeben](../migrated/getting-started-with-live-hub/share-your-screen-as-an-instructor.md)
+      * [Freigeben Ihres Bildschirms als Teilnehmer](../migrated/getting-started-with-live-hub/share-your-screen-as-a-learner.md)
+    * Freigeben eines Whiteboards{#share-a-whiteboard}
+      * [Whiteboard](../migrated/getting-started-with-live-hub/about-the-whiteboard.md)
+      * [Freigeben eines Whiteboards](../migrated/getting-started-with-live-hub/share-a-whiteboard.md)
+      * [Whiteboard als Teilnehmer verwenden](../migrated/getting-started-with-live-hub/use-whiteboard-as-a-learner.md)
+    * Umfragen durchführen {#conduct-polls}
+      * [Über die Umfragen](../migrated/getting-started-with-live-hub/about-the-polls.md)
+      * [Umfrage erstellen und starten](../migrated/getting-started-with-live-hub/create-and-launch-a-poll.md)
+      * [Auf eine Umfrage antworten](../migrated/getting-started-with-live-hub/respond-to-a-poll.md)
+    * Erstellen Sie ein Quiz{#create-a-quiz}
+      * [Quiz](../migrated/getting-started-with-live-hub/about-the-quiz.md)
+      * [Erstellen und Verwalten von Quiz](../migrated/getting-started-with-live-hub/create-and-manage-a-quiz.md)
+      * [Quiz testen](../migrated/getting-started-with-live-hub/attempt-a-quiz.md)
+    * [Interaktion des Teilnehmers verfolgen](../migrated/getting-started-with-live-hub/track-the-participant-engagement.md)
+    * Breakout-Sessions {#breakouts}
+      * [Informationen zu den Breakout-Sessions](../migrated/getting-started-with-live-hub/about-the-breakouts.md)
+      * [Arbeitsgruppensitzung erstellen und verwalten](../migrated/getting-started-with-live-hub/create-and-manage-breakout-rooms.md)
+      * [An einer Arbeitsgruppensitzung teilnehmen](../migrated/getting-started-with-live-hub/participate-in-a-breakout-session.md)
+    * Untertitel {#closed-captions}
+      * [Verstehen der Bilduntertitel](../migrated/getting-started-with-live-hub/closed-captions-in-live-hub.md)
+      * [Verwalten der Untertitel als Kursleiter](../migrated/getting-started-with-live-hub/manage-closed-captions-as-an-instructor.md)
+      * [Verwalten der Untertitel als Teilnehmer](../migrated/getting-started-with-live-hub/manage-closed-captions-as-a-learner.md)
+    * Aufzeichnungen und Protokolle{#recordings-and-transcripts}
+      * [Grundlagen zu Aufzeichnungen und Transkripten](../migrated/getting-started-with-live-hub/understanding-recordings-and-transcripts.md)
+      * [Eine Sitzung aufzeichnen](../migrated/getting-started-with-live-hub/record-a-session.md)
+      * [Aufzeichnungen als Teilnehmer anzeigen](../migrated/getting-started-with-live-hub/view-recordings-as-a-learner.md)
+    * Sitzungs-Dashboard {#session-dashboard}
+      * [Session-Dashboard anzeigen](../migrated/getting-started-with-live-hub/view-the-session-dashboard.md)
+      * [Komponenten des Sitzungs-Dashboards](../migrated/getting-started-with-live-hub/components-of-the-session-dashboard.md)
+  * [Best Practices](../migrated/getting-started-with-live-hub/best-practices-for-a-live-hub-session.md)
+  * [Live Hub auf Mobilgeräten als Teilnehmer verwenden](./getting-started-with-live-hub/live-hub-mobile-experience-for-learners.md)
 * Häufig gestellte Fragen {#faq}
   * [Häufig gestellte Fragen für Administratoren](administrators/frequently-asked-questions-for-administrators.md)
   * [Häufig gestellte Fragen für Autoren](authors/frequently-asked-questions-for-authors.md)
   * [Häufig gestellte Fragen für Kursleiter](instructors/frequently-asked-questions-for-instructors.md)
   * [Häufig gestellte Fragen für Manager](managers/frequently-asked-questions-for-managers.md)
   * [Häufig gestellte Fragen für Teilnehmer](learners/frequently-asked-questions-for-learners.md)
+  * [Häufig gestellte Fragen für eine Live-Hub-Sitzung](../migrated/getting-started-with-live-hub/frequently-asked-questions-for-live-hub.md)
   * [Ankündigungen zur neuen Experience League.](/help/migrated/new-experience-league-announcement.md)
   * [So senden Sie ein Support-Ticket auf dem Experience League](/help/migrated/how-to-submit-support-ticket.md)
   * [Erstellen eines Testkontos in Adobe Learning Manager](/help/migrated/create-trial-account.md)
@@ -274,6 +576,7 @@ ht-degree: 50%
 * Berichterstellung für Änderungen {#reporting-changes}
   * [Melden von Änderungen in der Version August 2026](/help/migrated/reporting-changes-august-2026.md)
 * Wissensdatenbank {#knowledge-base}
+  * [Leitfaden zur Fehlerbehebung für Live Hub](./kb/troubleshooting-guide-for-live-hub.md)
   * [Ich kann mich nicht bei Learning Manager anmelden](kb/unable-log-in-learning-manager.md)
   * [Übersicht zu Lernprogrammen zeigt keine aktuellen Daten an](kb/learning-summary-not-display-data.md)
   * [Hochladen einer CSV-Datei ist nicht möglich](kb/unable-to-upload-csv.md)
