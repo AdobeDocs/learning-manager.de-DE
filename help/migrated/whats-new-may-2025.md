@@ -43,7 +43,7 @@ Darüber hinaus unterstützt die eindeutige Content-ID die Integration mit Conte
 * Die eindeutige Content-ID erleichtert die Verknüpfung von Inhalten zwischen externen Systemen und Adobe Learning Manager.
 * Das Ablaufdatum hilft Autoren dabei, den Überblick über veraltete Inhalte zu behalten, die möglicherweise überprüft oder aktualisiert werden müssen.
 
-In diesem [Artikel ](/help/migrated/authors/feature-summary/content-library.md#add-content-unique-id-and-expiry-date) finden Sie weitere Informationen zur eindeutigen Inhalts-ID und zum Ablaufdatum.
+In diesem [Artikel &#x200B;](/help/migrated/authors/feature-summary/content-library.md#add-content-unique-id-and-expiry-date) finden Sie weitere Informationen zur eindeutigen Inhalts-ID und zum Ablaufdatum.
 
 ## Admin AI Assistant (Beta)
 
@@ -155,7 +155,7 @@ Webhook ändert sich.
 
 ### Eindeutige ID und Ablaufdatum für Inhalte mit Migration hinzufügen
 
-Eindeutige ID des Inhalts und Ablaufdatum werden jetzt während der Migration unterstützt. Zwei zusätzliche Spalten: expiryDate und uniqueContentId wurden der Datei module_version.csv hinzugefügt, um diese Funktion zu aktivieren. Weitere Informationen finden Sie in der [CSV-Musterdatei ](/help/migrated/integration-admin/feature-summary/assets/sample-csvs-may-2025.zip) und in der [CSV-Spezifikationsdatei ](/help/migrated/integration-admin/feature-summary/assets/module-version.zip).
+Eindeutige ID des Inhalts und Ablaufdatum werden jetzt während der Migration unterstützt. Zwei zusätzliche Spalten: expiryDate und uniqueContentId wurden der Datei module_version.csv hinzugefügt, um diese Funktion zu aktivieren. Weitere Informationen finden Sie in der [CSV-Musterdatei &#x200B;](/help/migrated/integration-admin/feature-summary/assets/sample-csvs-may-2025.zip) und in der [CSV-Spezifikationsdatei &#x200B;](/help/migrated/integration-admin/feature-summary/assets/module-version.zip).
 
 Weitere Informationen zum Migrationsprozess finden Sie in diesem [Artikel](/help/migrated/integration-admin/feature-summary/migration-manual.md).
 
