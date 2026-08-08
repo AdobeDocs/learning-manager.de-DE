@@ -69,7 +69,7 @@ Sorgen Sie für reibungslose Kommunikation und Zusammenarbeit während der gesam
 
 * Ermöglichen Sie Diskussionen und Gruppenaktivitäten, z. B. das Starten von Arbeitsräumen oder das Betreten eines Raums, wenn ein Teilnehmer um Hilfe bittet.
 
-* Behandeln Sie Unterbrechungen oder technische Probleme während der Sitzung. Weitere Informationen finden Sie im [Leitfaden zur Fehlerbehebung für den Live-Hub ](../kb/troubleshooting-guide-for-live-hub.md#connection-issues).
+* Behandeln Sie Unterbrechungen oder technische Probleme während der Sitzung. Weitere Informationen finden Sie im [Leitfaden zur Fehlerbehebung für den Live-Hub &#x200B;](../kb/troubleshooting-guide-for-live-hub.md#connection-issues).
 
 ### Die Sitzung wird beendet.
 

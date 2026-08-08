@@ -40,4 +40,4 @@ Verfügbare Komponenten:
 
 Sie können Inhaltsblöcke innerhalb eines Themas entweder mit den Bearbeitungsoptionen in der Symbolleiste oder mit der KI neu anordnen.
 
-![Die Bildblocksymbolleiste mit Optionen zum Neuanordnen des Blocks und einem AI-Eingabeaufforderungsfeld ](../assets/18_image_block_toolbar_move_ai_prompt_updated.png)
+![Die Bildblocksymbolleiste mit Optionen zum Neuanordnen des Blocks und einem AI-Eingabeaufforderungsfeld &#x200B;](../assets/18_image_block_toolbar_move_ai_prompt_updated.png)

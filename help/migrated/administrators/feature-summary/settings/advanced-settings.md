@@ -302,17 +302,17 @@ Hub-Sitzungen.
 
 Feiertage sind eine Reihe von arbeitsfreien Tagen, die auf Kontoebene mit den folgenden Eigenschaften verwaltet werden:
 
-- Nur der Administrator kann Feiertage hinzufügen, bearbeiten oder löschen.
+&#x200B;- Nur der Administrator kann Feiertage hinzufügen, bearbeiten oder löschen.
 
-- Feiertage gelten organisationsweit und werden im Kalender jedes Kursleiters als arbeitsfreie Tage angezeigt.
+&#x200B;- Feiertage gelten organisationsweit und werden im Kalender jedes Kursleiters als arbeitsfreie Tage angezeigt.
 
-- Da Kursleiter an Feiertagen nicht verfügbar sind, können Live-Hub-Sitzungen nicht an diesen Tagen geplant werden.
+&#x200B;- Da Kursleiter an Feiertagen nicht verfügbar sind, können Live-Hub-Sitzungen nicht an diesen Tagen geplant werden.
 
-- Jeder Urlaub erfordert ein Datum und einen Namen; Eine Beschreibung ist optional.
+&#x200B;- Jeder Urlaub erfordert ein Datum und einen Namen; Eine Beschreibung ist optional.
 
-- Sie können Feiertage einzeln hinzufügen oder mehrere Feiertage gleichzeitig importieren, indem Sie eine CSV-Datei verwenden.
+&#x200B;- Sie können Feiertage einzeln hinzufügen oder mehrere Feiertage gleichzeitig importieren, indem Sie eine CSV-Datei verwenden.
 
-- Nach dem Hinzufügen werden Feiertage auf der Seite **Feiertage** angezeigt, auf der Sie sie anzeigen, durchsuchen und verwalten können.
+&#x200B;- Nach dem Hinzufügen werden Feiertage auf der Seite **Feiertage** angezeigt, auf der Sie sie anzeigen, durchsuchen und verwalten können.
 
 Weitere Informationen finden Sie unter [Feiertage verwalten](../../../getting-started-with-live-hub/manage-holidays.md).
 

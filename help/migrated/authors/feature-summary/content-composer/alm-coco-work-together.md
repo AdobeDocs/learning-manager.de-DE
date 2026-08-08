@@ -60,7 +60,7 @@ Weitere Informationen finden Sie unter [Kurseinstellungen konfigurieren](#settin
 4.**Publish des ALM-Kurses:** Ein ALM-Autor fügt das Modul zu einem ALM-Kurs zusammen, fügt Kursbilder und -einstellungen hinzu und veröffentlicht ihn. Erst nach diesem Schritt können Teilnehmer registriert werden.
 
 Weitere Informationen finden Sie unter [Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/get-started/getting-started-author).
-![ Die Inhaltsbibliothek in Adobe Learning Manager, die veröffentlichte Module und Verarbeitungsmodule anzeigt](../assets/51_alm_content_library_list_view_updated.png)
+![&#x200B; Die Inhaltsbibliothek in Adobe Learning Manager, die veröffentlichte Module und Verarbeitungsmodule anzeigt](../assets/51_alm_content_library_list_view_updated.png)
 
 Weitere Informationen finden Sie unter [Kurserstellung als Autor auf ALM](https://experienceleague.adobe.com/en/docs/learning-manager/using/authors/courses).
 
