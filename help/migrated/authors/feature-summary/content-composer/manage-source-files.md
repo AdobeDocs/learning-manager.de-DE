@@ -2,9 +2,9 @@
 description: Laden Sie vorhandene Dokumente, Richtlinien oder Decks hoch, um die KI in den Inhalten Ihres Unternehmens zu erden. Entscheidet, ob die Generierung nur auf diese Dateien beschränkt werden soll, oder lässt die KI ihre allgemeinen Kenntnisse um zusätzliche Informationen ergänzen.
 jcr-language: en_us
 title: Verwalten von Quelldateien
-source-git-commit: f8687710f5b73e8b7cf8d56057cac25483f38cdc
+source-git-commit: 229e407621281978f94783c3e9320c237c314fc3
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '458'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,6 @@ Unterstützte Formate:
 | PowerPoint (.ppt/.pptx) | 100 MB |
 | MS Word (.doc/.docx) | 100 MB |
 | Textdatei (.txt) | 100 MB |
-| Bilder (.png, .jpg) | 100 MB |
 
 Wählen Sie **Weiter**, um die Kursgliederung zu generieren.
 

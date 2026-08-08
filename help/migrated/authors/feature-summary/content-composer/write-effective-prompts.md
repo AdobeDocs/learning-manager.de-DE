@@ -2,7 +2,8 @@
 description: Die Eingabeaufforderung ist die wichtigste Eingabe in Content Composer. Eine bestimmte Eingabeaufforderung, z. B. das Benennen der Zielgruppe, 2-3 Themen und ein Bereichssignal, erzeugt einen präziseren Brief, eine stärkere Kontur und weniger Bearbeitung nachgelagert.
 jcr-language: en_us
 title: Erstellen effektiver Eingabeaufforderungen in Content Composer
-source-git-commit: 9890dbe1895ff1b88e2ea946acaf40012980d5c5
+hide: true
+source-git-commit: 229e407621281978f94783c3e9320c237c314fc3
 workflow-type: tm+mt
 source-wordcount: '1078'
 ht-degree: 0%
