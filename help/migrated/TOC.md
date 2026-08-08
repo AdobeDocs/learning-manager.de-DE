@@ -2,9 +2,9 @@
 user-guide-title: Leitfaden für Adobe Learning Manager
 breadcrumb-title: Adobe Learning Manager
 user-guide-description: Dokumentation für Adobe Learning Manager
-source-git-commit: 68a01f96b5ce1e4d8ffc012f99d7b26f464a456c
+source-git-commit: 5a866068bc6c0c555157a320fb5e65eb144a5837
 workflow-type: tm+mt
-source-wordcount: '1663'
+source-wordcount: '1659'
 ht-degree: 36%
 
 ---
@@ -291,7 +291,7 @@ ht-degree: 36%
     * [Report herunterladen, weitergeben und abonnieren](administrators/feature-summary/download-share-subscribe-report.md)
     * [Bericht im Report Builder duplizieren und wiederverwenden](administrators/feature-summary/duplicate-reuse-report-in-report-builder.md)
     * [Häufige Fragen](administrators/feature-summary/faq-report-builder.md)
-    * [Einschränkungen des Report Builders in Adobe Learning Manager](administrators/feature-summary/limitations-report-builder.md)
+    * [Einschränkungen des Report Builders](administrators/feature-summary/limitations-report-builder.md)
   * [Dashboard für den Gruppenerfolg](/help/migrated/administrators/feature-summary/group-success-dashboard.md)
   * [Einrichten der Registrierung mit einem Klick im Adobe Learning Manager](/help/migrated/administrators/feature-summary/admin-one-click-enrollment.md)
   * [Lernpläne](administrators/feature-summary/learning-paths.md)
