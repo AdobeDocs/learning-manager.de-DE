@@ -2,9 +2,9 @@
 title: Hilfe zu Adobe Learning Manager Content Composer (Beta)
 description: Von der einfachen Eingabeaufforderung bis hin zu einem veröffentlichten Kurs behandelt Adobe Learning Manager Content Composer den Unterrichtsentwurf, sodass Sie sich auf das konzentrieren können, was die Teilnehmer benötigen, indem Sie wirkungsvolle Unterrichtsinhalte erstellen.
 contentowner: saghosh
-source-git-commit: 70827aa150f7fd9946732075c2c38f5b89c3e1f9
+source-git-commit: 229e407621281978f94783c3e9320c237c314fc3
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
@@ -104,20 +104,7 @@ Sind Sie bereit, Ihren ersten Kurs zu beginnen? Öffnen Sie Content Composer und
     <p>Stellen Sie Ihren fertigen Kurs bei Adobe Learning Manager bereit, und erfahren Sie, wie Content Composer und ALM die Zuständigkeiten für Authoring, Bereitstellung und Reporting aufteilen.</p>
    </td>
   </tr>
-  <tr>
-   <td style="border:none;">
-    <a href="write-effective-prompts.md">
-    <img alt="Erfolgreiche Eingabeaufforderungen schreiben" src="../assets/cc-prompts.png" style="width:200px; height:120px; object-fit:cover;">
-    </a>
-    <div>
-    <a href="write-effective-prompts.md"><strong>Erfolgreiche Eingabeaufforderungen schreiben</strong></a>
-    </div>
-    <p>Erfahrt, wie ihr Eingabeaufforderungen verfasst, die für bessere Briefings, bessere Konturen und präzisere KI-generierte Inhalte sorgen.</p>
-   </td>
-   <td style="border:none;"></td>
-   <td style="border:none;"></td>
-  </tr>
- </tbody>
+  </tbody>
 </table>
 
 ## Nachschlagen {#lookthingsup}
