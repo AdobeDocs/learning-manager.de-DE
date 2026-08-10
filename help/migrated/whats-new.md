@@ -3,9 +3,9 @@ description: Erfahren Sie mehr über die neuen Funktionen und Verbesserungen in 
 jcr-language: en_us
 title: Neue Funktionen in Adobe Learning Manager Version August 2026
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: 458d21d11bfcfb701dbd61b865411f80a306adc1
+source-git-commit: 659829ef14fb3aea67f6bd5f191c1051f1b93a66
 workflow-type: tm+mt
-source-wordcount: '2743'
+source-wordcount: '2673'
 ht-degree: 0%
 
 ---
@@ -163,11 +163,13 @@ Der Insights Agent unterstützt Administratoren bei der Analyse von Lerndaten du
 
 Weitere Informationen finden Sie unter [Insights Agent](/help/migrated/administrators/feature-summary/insights-agent.md).
 
-### Gen AI Credits
+<!--
+### Gen AI credits
 
-Adobe Learning Manager integriert KI-gestützte Funktionen, die über ein kreditbasiertes System verwaltet werden, das mit Agent Orchestrator-Lizenzen verknüpft ist. Bei diesem System müssen Administratoren Funktionen aktivieren, Kreditlimits festlegen und die Nutzung über die Abrechnungsseite überwachen. Die Verknüpfung des Adobe Learning Manager-Kontos mit einer Adobe Admin Console-Organisation mit einer aktiven Agent Orchestrator-Lizenz ist für die Aktivierung der Funktionen von Gen AI unerlässlich.
+Adobe Learning Manager integrates AI-powered features managed through a credit-based system linked to Agent Orchestrator licenses. This system requires administrators to activate features, set credit limits, and monitor usage via the Billing page. Linking the Adobe Learning Manager account to an Adobe Admin Console organization with an active Agent Orchestrator license is essential for enabling Gen AI features.
 
-Weitere Informationen finden Sie unter [KI-Credits der Generation](/help/migrated/administrators/feature-summary/billing-management.md#genaicredits).
+View [Gen AI credits](/help/migrated/administrators/feature-summary/billing-management.md#genaicredits) for more information.
+-->
 
 ## Kanäle (Beta)
 
