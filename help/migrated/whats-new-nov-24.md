@@ -3,7 +3,7 @@ description: Erfahren Sie mehr über die neuen Funktionen und Verbesserungen in 
 jcr-language: en_us
 title: Überblick über die neuen Funktionen November 2024
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: 7b84a4565ccf109ed4789f4963d6e250f5d0a852
+source-git-commit: e9a12b732e5c23aaafc174e3a3887a619c4d1b07
 workflow-type: tm+mt
 source-wordcount: '3307'
 ht-degree: 1%
@@ -151,7 +151,8 @@ Lesen Sie diesen Artikel [Wartelistenbericht (Administrator)](/help/migrated/adm
 
 ## Barrierefreiheit auf der Teilnehmer-Startseite
 
-Adobe Learning Manager unterstützt jetzt Alt-Text für alle Mastertitel, um die Barrierefreiheit für Teilnehmer zu verbessern. Dadurch können Teilnehmer mit besonderen Anforderungen Bildschirmleseprogramme verwenden, um den Alternativtext zu lesen und das Bild zu verstehen. Sie können mehrere Sprachen auswählen und für jede Sprache einen Alternativtext angeben. Stellen Sie sicher, dass Sie den Alternativtext in den jeweiligen Sprachen hinzufügen. Stellen Sie sicher, dass das Firmenlogo in Ihrem Konto auch Alternativtext mit dem Firmennamen enthält.Weitere Informationen finden Sie in diesem Artikel [Ankündigung](/help/migrated/administrators/feature-summary/announcements.md#masthead).
+Adobe Learning Manager unterstützt jetzt Alt-Text für alle Mastertitel, um die Barrierefreiheit für Teilnehmer zu verbessern. Dadurch können Teilnehmer mit besonderen Anforderungen Bildschirmleseprogramme verwenden, um den Alternativtext zu lesen und das Bild zu verstehen. Sie können mehrere Sprachen auswählen und für jede Sprache einen Alternativtext angeben. Stellen Sie sicher, dass Sie den Alternativtext in den jeweiligen Sprachen hinzufügen. Stellen Sie sicher, dass das Firmenlogo in Ihrem Konto auch Alternativtext mit dem Firmennamen enthält.
+Weitere Informationen finden Sie in diesem Artikel [Ankündigung](/help/migrated/administrators/feature-summary/announcements.md#masthead).
 
 ## Unterstützung für Hindi
 
@@ -227,7 +228,7 @@ Die Ordnerspalte verwendet den Datentyp string und es handelt sich um eine optio
 * Wenn Sie einen neuen Ordnernamen für ein Modul hinzufügen, das bereits in einem anderen Ordner vorhanden ist, wird der zugewiesene Ordner durch den neuen Wert nicht überschrieben oder ersetzt. Das Modul wird dem neuen Ordner hinzugefügt und bleibt auch im vorhandenen Ordner verfügbar.
 * Wenn der Wert leer ist, wird standardmäßig **[!UICONTROL Öffentlich]** als Ordner verwendet.
 
-Weitere Informationen finden Sie in der CSV-Spezifikation [&#128279;](assets/4-module_version.xlsx) für module_version.
+Weitere Informationen finden Sie in der CSV-Spezifikation ](assets/module_version.csv) für [module_version.
 
 ### Änderungen an der Modulmigration - Abschlusskriterien
 
@@ -238,10 +239,10 @@ Im Folgenden sind die Bedingungen für die neuen Spalten aufgeführt:
 1. `completionCriteria`:
 
    * Der Datentyp sollte eine Zeichenfolge sein, und die unterstützten Werte lauten:
-      * `LAUNCH_CONTENT`
-      * `VIEW_PERCENT`
-      * `QUIZ`
-      * `MARK_COMPLETE`
+     * `LAUNCH_CONTENT`
+     * `VIEW_PERCENT`
+     * `QUIZ`
+     * `MARK_COMPLETE`
    * Fügen Sie Abschlusskriterien auf Modulebene nur für Modultypen zum Selbststudium hinzu.
    * Die unterstützten Werte für statischen Inhalt sind `LAUNCH_CONTENT` und `VIEW_PERCENT`.
    * Die unterstützten Werte für interaktive Inhalte sind `LAUNCH_CONTENT`, `VIEW_PERCENT` und `QUIZ`.
@@ -257,7 +258,7 @@ Im Folgenden sind die Bedingungen für die neuen Spalten aufgeführt:
    * Der Datentyp muss ein Zeichenfolgenwert sein. Unterstützte Werte sind `QUIZ_ATTEMPTED`, `QUIZ_PASSED` und `QUIZPASSED_OR_LIMITREACHED`.
    * Wenn `completionCriteria` auf `QUIZ` festgelegt ist, geben Sie den entsprechenden Quizwert in die Spalte `quizData` ein.
 
-Weitere Informationen finden Sie in der CSV-Spezifikation [&#128279;](assets/4-module_version.xlsx) für module_version.
+Weitere Informationen finden Sie in der CSV-Spezifikation ](assets/module_version.csv) für [module_version.
 
 ### Änderungen an der Kursmigration - Abschlusskriterien
 
@@ -271,27 +272,27 @@ Die folgenden Bedingungen gelten für die Spalte &quot;`completionCriteria`&quot
 * Wenn Sie `completionCriteria` auf `SELECTEDMODULES` festlegen, müssen Sie die obligatorischen Module in der Datei [course_module.csv](assets/course_module.csv) markieren.
 * Geben Sie in der Spalte &quot;`optionalCriteria`&quot; &quot;`TRUE`&quot; oder &quot;`FALSE`&quot; ein. Wenn Sie den Wert &quot;`TRUE`&quot; festlegen, ist das Modul obligatorisch.
 
-Weitere Informationen finden Sie in der CSV-Kursspezifikation [CSV-Kursspezifikation](assets/3-course.xlsx) und in der CSV-Kursspezifikationsdatei [Kursmodul](assets/6-course_module.xlsx).
+Weitere Informationen finden Sie in der CSV-Kursspezifikation [CSV-Kursspezifikation](assets/course.csv) und in der CSV-Kursspezifikationsdatei [Kursmodul](assets/course_module.csv).
 
 ## API-Änderungen
 
 Die API-Änderungen lauten wie folgt:
 
 * **Such-API**:
-   * Neuer Modusfilter mit Optionen: classicSearch und advancedSearch.
-   * Neue Option loMetadata für snippetTypes.
+  * Neuer Modusfilter mit Optionen: classicSearch und advancedSearch.
+  * Neue Option loMetadata für snippetTypes.
 * **Ankündigungs-API**:
-   * Enthält das altText-Attribut für Mastertitel-Beschreibungen.
+  * Enthält das altText-Attribut für Mastertitel-Beschreibungen.
 * **Instanz-APIs**:
-   * Neues Gebietsschemaattribut zum Abrufen von Gebietsschemadetails.
+  * Neues Gebietsschemaattribut zum Abrufen von Gebietsschemadetails.
 * **Höflichkeitsprüfung**:
-   * Aktualisierte APIs, um in Kommentaren und Antworten auf soziale Beiträge nach verbotenen Wörtern zu suchen:
+  * Aktualisierte APIs, um in Kommentaren und Antworten auf soziale Beiträge nach verbotenen Wörtern zu suchen:
 * **RPM und Burstbegrenzung**:
-   * RPM (Anforderungen pro Minute) und Burst-Grenzen für alle APIs hinzugefügt.
+  * RPM (Anforderungen pro Minute) und Burst-Grenzen für alle APIs hinzugefügt.
 * **Abzeichen-APIs**:
-   * Neues Attribut externalProvider zum Abrufen von Informationen über externe Abzeichen.
+  * Neues Attribut externalProvider zum Abrufen von Informationen über externe Abzeichen.
 * **Job-API**:
-   * Laden Sie den Benutzergruppenbericht und den Audit-Bericht für benutzerdefinierte Rollen mithilfe der Job-API herunter.
+  * Laden Sie den Benutzergruppenbericht und den Audit-Bericht für benutzerdefinierte Rollen mithilfe der Job-API herunter.
 
 ### Änderungen an der Such-API
 
