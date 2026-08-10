@@ -2,9 +2,9 @@
 title: Hilfe zu Adobe Learning Manager Content Composer (Beta)
 description: Von der einfachen Eingabeaufforderung bis hin zu einem veröffentlichten Kurs behandelt Adobe Learning Manager Content Composer den Unterrichtsentwurf, sodass Sie sich auf das konzentrieren können, was die Teilnehmer benötigen, indem Sie wirkungsvolle Unterrichtsinhalte erstellen.
 contentowner: saghosh
-source-git-commit: 229e407621281978f94783c3e9320c237c314fc3
+source-git-commit: 04c741a5e04d956b443228727ce062fe050cce70
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '741'
 ht-degree: 0%
 
 ---
@@ -30,11 +30,18 @@ Content Composer führt Autoren durch Schulungsziele, Quellmaterial und Lernziel
 - **Direktes Veröffentlichen in Adobe Learning Manager**: Abgeschlossene Kurse werden direkt in Adobe Learning Manager veröffentlicht. Kein separates Authoring-Tool, kein manueller SCORM-Export.
 - **Arbeitsablauf für ein System**: Die Erstellung von Kursen, die Verwaltung von Teilnehmern und die Berichterstellung verbleiben auf einer Plattform, wodurch der Aufwand für die Verwaltung mehrerer Tools zur Erstellung und Bereitstellung von Inhalten entfällt.
 
+## Vor der Anmeldung
+
+>[!IMPORTANT]
+>
+>Sie müssen sich mit einem gültigen Adobe Creative Cloud-Konto anmelden. Wenn Sie noch kein Konto haben, können Sie über Adobe Expreß ein kostenloses Konto erstellen. Weitere Informationen finden Sie unter [Erstellen eines kostenlosen Adobe Expreß-Kontos](https://helpx.adobe.com/de/express/web/adobe-express-subscription/free.html). Starten Sie nach dem Erstellen Ihrer Adobe-Anmeldeinformationen den Content Composer und melden Sie sich an, um mit dem Erstellen von Kursen zu beginnen. Wenn Ihr Unternehmen bereits über ein Creative Cloud-Abonnement verfügt, wenden Sie sich an Ihren Administrator, um ein Creative Cloud-Konto für Sie bereitzustellen, bevor Sie sich bei Content Composer anmelden.
+
+
 ## Content Composer testen {#trycontent-composer}
 
 Sind Sie bereit, Ihren ersten Kurs zu beginnen? Öffnen Sie Content Composer und navigieren Sie in kürzester Zeit von einer einfachen Eingabeaufforderung zu einem Kurs, der für die Veröffentlichung bereit ist.
 
-[**Content Composer testen**](https://contentcomposer-dev.adobe.io/)
+[**Content Composer testen**](https://contentcomposer.adobe.io/)
 
 <!--
 [![Open Content Composer](/assets/CTA.png)](https://contentcomposer-dev.adobe.io/)
@@ -149,4 +156,4 @@ Schnelle Antworten, aktuelle Einschränkungen und das vollständige JSON-Schema.
 
 Du hast alles, was du brauchst. Öffnen Sie Content Composer und legen Sie Ihren ersten Kurs fest.
 
-[**Content Composer testen**](https://contentcomposer-dev.adobe.io/)
+[**Content Composer testen**](https://contentcomposer.adobe.io/)

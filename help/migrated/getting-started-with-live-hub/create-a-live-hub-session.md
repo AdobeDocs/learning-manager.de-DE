@@ -1,7 +1,7 @@
 ---
 title: Eine Live Hub-Sitzung erstellen
 description: Erfahren Sie, wie Sie einen Live Hub-Kurs erstellen, Kursinstanzen hinzufügen, Kursleiter mit dem Kursleiter-Finder zuweisen, Teilnehmer registrieren und das Branding des Raums anpassen.
-source-git-commit: 398fb6d707983fd021604396113c0f2af574dc17
+source-git-commit: b8f529b45fb222fe3dd7f335ad45b37a9be713e5
 workflow-type: tm+mt
 source-wordcount: '1111'
 ht-degree: 0%

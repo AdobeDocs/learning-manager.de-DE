@@ -2,9 +2,9 @@
 description: Überprüfen Sie die AI-generierte Lektions- und Themenstruktur, bevor Sie sich für die vollständige Kursgenerierung entscheiden. Fordern Sie Änderungen über das Chat-Fenster an. Umbenennen, Hinzufügen, Entfernen, Aufteilen oder Zusammenführen von Lektionen und Themen im Gespräch.
 jcr-language: en_us
 title: Bearbeiten der Kursübersicht
-source-git-commit: f8687710f5b73e8b7cf8d56057cac25483f38cdc
+source-git-commit: af3ab42eba15e609ad7a52a16939211f3ddca9bf
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Bearbeiten der Kursübersicht
 
-    ![](../assets/10_outline_tab_generated_lessons_topics_updated.png)
+![](../assets/10_outline_tab_generated_lessons_topics_updated.png)
 
 Adobe Learning Manager Content Composer generiert eine Lektion und eine Themenstruktur aus Ihren Brief- und Quelldateien. Die Gliederung wird auf der Arbeitsfläche mit allen Lektionen und ihren Themen angezeigt.
 

@@ -2,9 +2,9 @@
 description: Wählen Sie ein beliebiges Textelement aus, um die Symbolleiste für die Inlineformatierung zu aktivieren. Bearbeite Text, Überschriften und Beschriftungen direkt auf der Arbeitsfläche. Benennen Sie Lektionen und Themen über den Assistenten um, nicht indem Sie Überschriften auswählen.
 jcr-language: en_us
 title: Kurstext bearbeiten
-source-git-commit: f8687710f5b73e8b7cf8d56057cac25483f38cdc
+source-git-commit: 9c9e683b3b99f64d33054d92e24e02385a6dc15f
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Kurstext bearbeiten
 
-    ![](../assets/15_lesson_image_text_block_fall_prevention_updated.png)
+![](../assets/15_lesson_image_text_block_fall_prevention_updated.png)
 
 Wählen Sie ein beliebiges Textelement aus, um den Cursor darin zu platzieren. Am unteren Rand der Arbeitsfläche wird eine Symbolleiste zur Formatierung mit den Steuerelementen fett, kursiv, unterstrichen, durchgestrichen, verknüpft, ausgerichtet sowie in der Liste angezeigt.
 

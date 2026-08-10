@@ -2,9 +2,9 @@
 description: Laden Sie vorhandene Dokumente, Richtlinien oder Decks hoch, um die KI in den Inhalten Ihres Unternehmens zu erden. Entscheidet, ob die Generierung nur auf diese Dateien beschränkt werden soll, oder lässt die KI ihre allgemeinen Kenntnisse um zusätzliche Informationen ergänzen.
 jcr-language: en_us
 title: Verwalten von Quelldateien
-source-git-commit: 229e407621281978f94783c3e9320c237c314fc3
+source-git-commit: 9ef7ede817f226004430b4104ff78a2ebc45aec2
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '456'
 ht-degree: 0%
 
 ---
@@ -63,6 +63,6 @@ Quelldokumente können veraltet sein, nachdem ein Kurs bereits generiert wurde -
 
 ### Dateiupload bestätigen
 
-    ![](../assets/9_manage_sources_file_ingested_confirmation_updated.png)
+![](../assets/9_manage_sources_file_ingested_confirmation_updated.png)
 
 Sobald eine Datei angehängt wurde, zeigt das Dateisymbol auf der Symbolleiste eine Abzeichen-Anzahl an. Der Assistent bestätigt den Upload und bietet eine Verknüpfung **Gliederung generieren** an. Wählen Sie sie aus, oder wählen Sie **Gliederung generieren** in der oberen Symbolleiste aus.
