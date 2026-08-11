@@ -1,15 +1,15 @@
 ---
-title: Leitfaden zur Fehlerbehebung für Live Hub
+title: Leitfaden zur Fehlerbehebung für Live Hub (Beta)
 description: Häufige Fehlermeldungen und Benachrichtigungen, die während einer Live Hub-Sitzung auftreten können, sowie deren Ursachen und Schritte zu ihrer Behebung.
-source-git-commit: 02de0cee632d34c99e1cba12cddb846f7e6cae81
+source-git-commit: 43d4a9fb47d94ef541984a1c1fb9c70ba4e3f61d
 workflow-type: tm+mt
-source-wordcount: '1009'
+source-wordcount: '1011'
 ht-degree: 2%
 
 ---
 
 
-# Leitfaden zur Fehlerbehebung für Live Hub
+# Leitfaden zur Fehlerbehebung für Live Hub (Beta)
 
 Während einer Live-Hub-Sitzung erhalten Kursleiter möglicherweise Fehlermeldungen oder Benachrichtigungen, die verhindern, dass bestimmte Aktionen wie erwartet abgeschlossen werden. In diesem Artikel werden häufige Fehler beschrieben, die auf Kursleiter zutreffen, sowie deren mögliche Ursachen und die Schritte, die Sie unternehmen können, um diese Fehler zu beheben.
 

@@ -1,9 +1,9 @@
 ---
 title: Das Layout des Live-Hubs.
 description: Erfahren Sie mehr über die Fenster und Steuerelemente, aus denen der Live-Hub-Sitzungsraum besteht, einschließlich der Steuerungsleiste, des Teilnehmer-, Chat- und Arbeitsgruppenbereichs.
-source-git-commit: 5cc382cc869b7653262b24ff639110367acc8c93
+source-git-commit: 43d4a9fb47d94ef541984a1c1fb9c70ba4e3f61d
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '820'
 ht-degree: 1%
 
 ---

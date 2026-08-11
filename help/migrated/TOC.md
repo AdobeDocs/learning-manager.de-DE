@@ -2,9 +2,9 @@
 user-guide-title: Leitfaden für Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Dokumentation für Adobe Learning Manager
-source-git-commit: 2ce14029fdeb3ffcb3bcd974405ba9c8eed2dba6
+source-git-commit: 43d4a9fb47d94ef541984a1c1fb9c70ba4e3f61d
 workflow-type: tm+mt
-source-wordcount: '1649'
+source-wordcount: '1652'
 ht-degree: 37%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 37%
   * [Erste Schritte mit Live Hub (Beta)](./getting-started-with-live-hub/getting-started-live-hub.md)
 * Administrator {#admin}
   * KI im Lernen (Beta) {#ai-in-learning}
-    * [Live Hub aktivieren](./administrators/feature-summary/enable-live-hub.md)
+    * [Live Hub aktivieren (Beta)](./administrators/feature-summary/enable-live-hub.md)
   * [Admin AI Assistant (Beta) in Adobe Learning Manager](/help/migrated/administrators/feature-summary/alm-ai-assistant.md)
   * [Insights Agent (Beta) in Adobe Learning Manager](/help/migrated/administrators/feature-summary/insights-agent.md)
   * [Benutzeranmeldung](administrators/feature-summary/user-login.md)
@@ -369,14 +369,14 @@ ht-degree: 37%
       * [Session-Dashboard anzeigen](../migrated/getting-started-with-live-hub/view-the-session-dashboard.md)
       * [Komponenten des Sitzungs-Dashboards](../migrated/getting-started-with-live-hub/components-of-the-session-dashboard.md)
   * [Best Practices](../migrated/getting-started-with-live-hub/best-practices-for-a-live-hub-session.md)
-  * [Live Hub auf Mobilgeräten als Teilnehmer verwenden](./getting-started-with-live-hub/live-hub-mobile-experience-for-learners.md)
+  * [Live Hub (Beta) auf Mobilgeräten als Teilnehmer verwenden](./getting-started-with-live-hub/live-hub-mobile-experience-for-learners.md)
 * Häufig gestellte Fragen {#faq}
   * [Häufig gestellte Fragen für Administratoren](administrators/frequently-asked-questions-for-administrators.md)
   * [Häufig gestellte Fragen für Autoren](authors/frequently-asked-questions-for-authors.md)
   * [Häufig gestellte Fragen für Kursleiter](instructors/frequently-asked-questions-for-instructors.md)
   * [Häufig gestellte Fragen für Manager](managers/frequently-asked-questions-for-managers.md)
   * [Häufig gestellte Fragen für Teilnehmer](learners/frequently-asked-questions-for-learners.md)
-  * [Häufig gestellte Fragen für eine Live-Hub-Sitzung](../migrated/getting-started-with-live-hub/frequently-asked-questions-for-live-hub.md)
+  * [Häufig gestellte Fragen für eine Live Hub (Beta)-Sitzung](../migrated/getting-started-with-live-hub/frequently-asked-questions-for-live-hub.md)
   * [Ankündigungen zur neuen Experience League.](/help/migrated/new-experience-league-announcement.md)
   * [So senden Sie ein Support-Ticket auf dem Experience League](/help/migrated/how-to-submit-support-ticket.md)
   * [Erstellen eines Testkontos in Adobe Learning Manager](/help/migrated/create-trial-account.md)
