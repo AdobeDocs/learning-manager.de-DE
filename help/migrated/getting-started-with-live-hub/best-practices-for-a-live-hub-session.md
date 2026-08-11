@@ -1,15 +1,15 @@
 ---
-title: Best Practices für eine Live-Hub-Sitzung
+title: Best Practices für eine Live Hub (Beta)-Sitzung
 description: Befolgen Sie diese Best Practices, um eine Live-Hub-Sitzung in Adobe Learning Manager für Autoren, Administratoren, Kursleiter und Teilnehmer vorzubereiten, auszuführen und nachzuverfolgen.
-source-git-commit: d6d978da23266529e5f9631f33583b6da7b73a3d
+source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
 workflow-type: tm+mt
-source-wordcount: '1877'
+source-wordcount: '1879'
 ht-degree: 0%
 
 ---
 
 
-# Best Practices für eine Live-Hub-Sitzung
+# Best Practices für eine Live Hub (Beta)-Sitzung
 
 Ein Live-Hub-Kurs in Adobe Learning Manager bringt Kursleiter und Teilnehmer zu Schulungen in Echtzeit zusammen, einschließlich Chat, Umfragen, Tests, Whiteboards, Arbeitsräumen, Aufzeichnung und Analyse. In diesem Artikel wird erläutert, wie die einzelnen Aufgaben ausgeführt werden. Dieses Dokument ist seine Ergänzung: erklärt, wie man sie gut macht.
 

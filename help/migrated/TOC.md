@@ -2,9 +2,9 @@
 user-guide-title: Leitfaden für Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Dokumentation für Adobe Learning Manager
-source-git-commit: 43d4a9fb47d94ef541984a1c1fb9c70ba4e3f61d
+source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
 workflow-type: tm+mt
-source-wordcount: '1652'
+source-wordcount: '1653'
 ht-degree: 37%
 
 ---
@@ -388,7 +388,7 @@ ht-degree: 37%
 * Berichterstellung für Änderungen {#reporting-changes}
   * [Melden von Änderungen in der Version August 2026](/help/migrated/reporting-changes-august-2026.md)
 * Wissensdatenbank {#knowledge-base}
-  * [Leitfaden zur Fehlerbehebung für Live Hub](./kb/troubleshooting-guide-for-live-hub.md)
+  * [Leitfaden zur Fehlerbehebung für Live Hub (Beta)](./kb/troubleshooting-guide-for-live-hub.md)
   * [Ich kann mich nicht bei Learning Manager anmelden](kb/unable-log-in-learning-manager.md)
   * [Übersicht zu Lernprogrammen zeigt keine aktuellen Daten an](kb/learning-summary-not-display-data.md)
   * [Hochladen einer CSV-Datei ist nicht möglich](kb/unable-to-upload-csv.md)

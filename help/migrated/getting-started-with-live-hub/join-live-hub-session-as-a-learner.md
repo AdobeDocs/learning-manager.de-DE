@@ -1,15 +1,15 @@
 ---
 title: Als Teilnehmer an einer Live-Hub-Sitzung teilnehmen
 description: Erfahren Sie, wie Teilnehmer von ihrem registrierten Kurs aus an einer Live Hub-Sitzung teilnehmen, einschließlich des Testens der Audio- und Kameraeinstellungen, bevor sie den Raum betreten.
-source-git-commit: 83b1509610f1923424db1797c6e85d1f32422ce7
+source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
 workflow-type: tm+mt
-source-wordcount: '137'
+source-wordcount: '138'
 ht-degree: 4%
 
 ---
 
 
-# Als Teilnehmer an einer Live-Hub-Sitzung teilnehmen
+# Als Teilnehmer an einer Live Hub (Beta)-Sitzung teilnehmen
 
 Teilnehmer nehmen direkt über den Kurs, für den sie registriert sind, an einer Live Hub-Sitzung teil. Sobald Sie teilnehmen, nehmen Sie über Chat, Umfragen, Tests, Whiteboards und Arbeitsräume an der Live-Schulung teil.
 

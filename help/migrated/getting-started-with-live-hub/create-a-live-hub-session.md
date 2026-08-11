@@ -1,15 +1,15 @@
 ---
-title: Eine Live Hub-Sitzung erstellen
+title: Erstellen einer Live Hub (Beta)-Sitzung
 description: Erfahren Sie, wie Sie einen Live Hub-Kurs erstellen, Kursinstanzen hinzufügen, Kursleiter mit dem Kursleiter-Finder zuweisen, Teilnehmer registrieren und das Branding des Raums anpassen.
-source-git-commit: b8f529b45fb222fe3dd7f335ad45b37a9be713e5
+source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
 workflow-type: tm+mt
-source-wordcount: '1111'
+source-wordcount: '1113'
 ht-degree: 0%
 
 ---
 
 
-# Eine Live Hub-Sitzung erstellen
+# Erstellen einer Live Hub (Beta)-Sitzung
 
 Verwenden Sie den Live Hub , um Live-Schulungen mit Kursleiter innerhalb eines Adobe Learning Manager-Kurses bereitzustellen. Sie können Live-Hub-Sitzungen mit Inhalten zum Selbststudium kombinieren, um ein gemischtes Lernerlebnis zu schaffen.
 
@@ -138,9 +138,9 @@ So fügen Sie Kursleiter mit dem Kursleiter-Finder hinzu:
 
 Die Registrierung von Teilnehmern für einen Live Hub-Kurs hat zwei Möglichkeiten:
 
-1. Ein **Administrator** registriert die Teilnehmer gemäß den Anforderungen des Unternehmens für den Kurs. Weitere Informationen finden Sie unter [Kursinstanzen und Lernpfade erstellen](https://experienceleague.adobe.com/de/docs/learning-manager/using/admin/courses).
+1. Ein **Administrator** registriert die Teilnehmer gemäß den Anforderungen des Unternehmens für den Kurs. Weitere Informationen finden Sie unter [Kursinstanzen und Lernpfade erstellen](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/courses).
 
-1. Teilnehmer können sich selbst direkt über die Seite **Katalog** für den Kurs registrieren. Wenn der Kurs für die Selbstregistrierung konfiguriert ist, werden die Teilnehmer sofort registriert und können über **Meine Lernergebnisse** auf den Kurs zugreifen. Weitere Informationen finden Sie unter [Meine Lernergebnisse](https://experienceleague.adobe.com/de/docs/learning-manager/using/learner/courses).
+1. Teilnehmer können sich selbst direkt über die Seite **Katalog** für den Kurs registrieren. Wenn der Kurs für die Selbstregistrierung konfiguriert ist, werden die Teilnehmer sofort registriert und können über **Meine Lernergebnisse** auf den Kurs zugreifen. Weitere Informationen finden Sie unter [Meine Lernergebnisse](https://experienceleague.adobe.com/en/docs/learning-manager/using/learner/courses).
 
 Nach der Registrierung werden die Teilnehmer dem Kurs hinzugefügt und erhalten eine Benachrichtigung in ihrem Adobe Learning Manager-Konto. Abhängig von den E-Mail-Benachrichtigungseinstellungen des Kontos erhalten die Teilnehmer möglicherweise auch eine Einladung zur Teilnahme am Kurs per E-Mail.
 
