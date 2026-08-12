@@ -3,9 +3,9 @@ description: Erfahren Sie mehr darüber, wie die Grundeinstellungen Ihnen dabei 
 jcr-language: en_us
 title: Grundlegende Einstellungen
 exl-id: b5cbe224-e3ee-4ac2-8d9b-95249044dfa6
-source-git-commit: a6f201e762963a524a6a935e84dafc4752604e4d
+source-git-commit: 38f9b508ec91ee103d67f2e6e9716622b796b44b
 workflow-type: tm+mt
-source-wordcount: '5921'
+source-wordcount: '6363'
 ht-degree: 4%
 
 ---
@@ -139,7 +139,7 @@ Um sicherzustellen, dass Manager zeitnahes Feedback geben, müssen Sie automatis
 
 1. **[!UICONTROL Neue Erinnerung hinzufügen]**: Um eine neue Erinnerung zu erstellen, wählen Sie den Link **[!UICONTROL Neue Erinnerung hinzufügen]**.
 2. **[!UICONTROL Erinnerungsplan definieren]**: Wählen Sie im Bereich **[!UICONTROL Erinnerungseinstellungen]** die Dropdown-Menüs und Eingabefelder aus, um die Erinnerung zu konfigurieren:
-a. **[!UICONTROL Wann senden Sie]**: Wählen Sie diese Option, wenn die Erinnerung gesendet wird. Die Optionen sind: **[!UICONTROL Bei Kursabschluss]** und **[!UICONTROL Nach Kursabschluss]**.
+a. **[!UICONTROL Sendezeitpunkt]**: Wählen Sie diese Option, wenn die Erinnerung gesendet wird. Die Optionen sind: **[!UICONTROL Bei Kursabschluss]** und **[!UICONTROL Nach Kursabschluss]**.
 b. **[!UICONTROL Wiederholung]**: Wählen Sie die Häufigkeit der Erinnerung aus. Wenn die Wiederholung **[!UICONTROL Einmal]** ist, bedeutet dies, dass der Manager eine Benachrichtigung erhält, um Feedback zu geben. Die verfügbaren Optionen sind: Einmal, Jeden Tag, Jede Woche und Jeden Monat.
 3. Nachdem Sie den Zeitplan eingerichtet haben, wählen Sie das blaue Häkchen, um die Erinnerungskonfiguration zu speichern. Die Erinnerung wird in der Liste der vorhandenen Erinnerungen angezeigt.
 
@@ -268,6 +268,8 @@ Diese Option löscht Benutzer, wenn sie für eine bestimmte Dauer nicht auf Adob
 ### Gelöschte Benutzer automatisch entfernen
 
 Benutzer, die sich für eine bestimmte Dauer im gelöschten Status befanden, automatisch und dauerhaft aus dem System entfernen. Nach der Bereinigung werden alle zugehörigen Benutzerdaten endgültig entfernt und können nicht wiederhergestellt werden.
+
+Wenn diese Option aktiviert ist, werden Daten für Benutzer bereinigt, die bereits nach der angegebenen Anzahl von Tagen in ALM gelöscht wurden.
 
 ### Katalogbeschriftungen anzeigen
 
@@ -625,7 +627,7 @@ Manager können den Kursabschluss wie folgt kennzeichnen:
 * Kursseite: Auf der Kursseite:
 a.    Wählen Sie die Registerkarte **[!UICONTROL Teilnehmer]** im linken Bereich aus.
 b.    Wählen Sie den Teilnehmer aus, dessen Anwesenheit Sie markieren möchten.
-c. Wählen Sie **[!UICONTROL Aktionen]** > **[!UICONTROL Abschluss markieren]**.
+c.    Wählen Sie **[!UICONTROL Aktionen]** > **[!UICONTROL Abschluss markieren]**.
 
 **Zusätzliche Hinweise:**
 

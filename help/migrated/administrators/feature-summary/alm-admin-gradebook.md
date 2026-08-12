@@ -2,9 +2,9 @@
 description: Alles über das Aktivieren des Gradebooks und dessen Sichtbarkeit für Autoren und Teilnehmer
 jcr-language: en_us
 title: Schulungsbuch für Administratoren
-source-git-commit: 588cb5209168b605405a4b3d6949006344b5468b
+source-git-commit: 2f1a64abe8be62bfc23da052232d6ceb1202ebad
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1149'
 ht-degree: 0%
 
 ---
@@ -114,7 +114,10 @@ Sie können ein in diesen Kurs gefiltertes Teilnehmertranskript auf eine der bei
 * Wählen Sie im **Gradebook für aktives Feedback** in der oberen rechten Ecke der Seite die Option **Teilnehmertranskript herunterladen**.
 * Wählen Sie auf der Startseite des Administrators **Berichte** und anschließend **Benutzerdefinierte Berichte** aus. Wählen Sie **Teilnehmertranskripte** aus der Liste der verfügbaren Berichte aus.
 
-Weitere Informationen finden Sie unter Melden von Änderungen in der Version .
+>[!NOTE]
+>
+>Beim Teilnehmertranskript (CSV-Bericht und Jobs-API) wird die Gewichtung als Spalte hinzugefügt, wenn das Schulungsbuch auf Kursebene aktiviert ist.
+
 
 ## Inhaltsprüfpfadereignisse
 
