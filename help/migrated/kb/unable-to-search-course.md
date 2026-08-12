@@ -4,10 +4,10 @@ title: Suche nach Kurs in Learning Manager nicht möglich
 description: Ein Teilnehmer kann in Learning Manager einen Kurs nicht finden.
 contentowner: nluke
 exl-id: 702aacb7-a0b9-48fb-8a3d-425bfea63f65
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+source-git-commit: 38f9b508ec91ee103d67f2e6e9716622b796b44b
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 55%
+source-wordcount: '308'
+ht-degree: 61%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 55%
 
 Ein Teilnehmer kann in Learning Manager einen Kurs nicht finden.
 
-## Szenario 1: Die Registrierung erfolgt über ein höheres Lernobjekt
+## Szenario 1: Die Registrierung erfolgt über ein höheres Lernobjekt.
 
-### Zusammenfassung 
+### Übersicht
 
 Es gibt Szenarien, in denen ein Teilnehmer einen Kurs sucht und der Kurs nicht aufgeführt wird. Wenn sich der Teilnehmer jedoch für ein Lernprogramm/eine Zertifizierung registriert hat, kann der Teilnehmer den Kurs innerhalb des Lernobjekts anzeigen.
 
@@ -29,11 +29,11 @@ Wenn sich ein Teilnehmer im Lern-Manager über ein Lernprogramm/eine Zertifizier
 
 Daher kann der Teilnehmer unter **Eigenes Lernen** nicht nach eigenständigen Kursen suchen.
 
-Der Teilnehmer kann die Kurse jedoch nicht innerhalb des Lernprogramms/der Zertifizierung anzeigen.
+Der Teilnehmer kann die Kurse jedoch innerhalb des Lernprogramms/der Zertifizierung anzeigen.
 
 ## Szenario 2: Der Teilnehmer hat keinen Zugriff auf den Katalog, der den Kurs enthält.
 
-### Zusammenfassung 
+### Übersicht
 
 Ein Teilnehmer kann keine Kurse im Katalog oder im Lern-Dashboard suchen.
 
@@ -44,7 +44,7 @@ Dieses Problem tritt in folgenden Situationen auf:
 * Der Teilnehmer ist kein Teil des Katalogs, der den Kurs enthält. **ODER**
 * Der Kurs ist nicht Teil des Katalogs, auf den der Teilnehmer zugreifen kann.
 
-### Auflösung
+### Lösung
 
 1. Melden Sie sich als Administrator an.
 
