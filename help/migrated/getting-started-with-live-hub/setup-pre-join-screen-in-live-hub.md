@@ -1,9 +1,9 @@
 ---
-title: Einrichten des Vorbeitrittbildschirms im Live-Hub
+title: Einrichten des Vorbeitrittbildschirms in Live Hub (Beta)
 description: Erfahren Sie, wie der Live-Hub-Pre-Join-Bildschirm funktioniert, wie Sie Browserberechtigungen zulassen und wie Sie Audio- und Kamerasteuerelemente konfigurieren, bevor Sie an einer Sitzung teilnehmen.
-source-git-commit: 99ec553a973ea24ab185e471a79e19fe159738d3
+source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---

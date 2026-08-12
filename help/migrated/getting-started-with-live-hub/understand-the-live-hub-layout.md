@@ -1,15 +1,15 @@
 ---
-title: Das Layout des Live-Hubs.
+title: Das Layout für den Live-Hub (Beta).
 description: Erfahren Sie mehr über die Fenster und Steuerelemente, aus denen der Live-Hub-Sitzungsraum besteht, einschließlich der Steuerungsleiste, des Teilnehmer-, Chat- und Arbeitsgruppenbereichs.
-source-git-commit: 5cc382cc869b7653262b24ff639110367acc8c93
+source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '822'
 ht-degree: 1%
 
 ---
 
 
-# Das Layout des Live-Hubs.
+# Das Layout für den Live-Hub (Beta).
 
 Im Adobe Learning Manager Live Hub wurde der Sitzungsraum so konzipiert, dass Kursleiter und Teilnehmer bei der effektiven Zusammenarbeit während Live-Sitzungen unterstützt werden. Das Layout umfasst mehrere Bedienfelder und Steuerelemente, mit denen Sie Audio, Video, Teilnehmer und Interaktionen in Echtzeit verwalten können.
 
