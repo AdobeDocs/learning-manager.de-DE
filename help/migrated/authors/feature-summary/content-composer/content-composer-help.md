@@ -2,9 +2,9 @@
 title: Hilfe zu Adobe Learning Manager Content Composer (Beta)
 description: Von der einfachen Eingabeaufforderung bis hin zu einem veröffentlichten Kurs behandelt Adobe Learning Manager Content Composer den Unterrichtsentwurf, sodass Sie sich auf das konzentrieren können, was die Teilnehmer benötigen, indem Sie wirkungsvolle Unterrichtsinhalte erstellen.
 contentowner: saghosh
-source-git-commit: 04c9d7f773e84a9658f0ad014569b4463f4cc2cd
+source-git-commit: fc3affc155fd10bd74f4b11175bf76fe64ddf6d4
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '762'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,11 @@ Content Composer führt Autoren durch Schulungsziele, Quellmaterial und Lernziel
 
 >[!IMPORTANT]
 >
->Sie müssen sich mit einem gültigen Adobe Creative Cloud-Konto anmelden. Wenn Sie noch kein Konto haben, können Sie über Adobe Expreß ein kostenloses Konto erstellen. Weitere Informationen finden Sie unter [Erstellen eines kostenlosen Adobe Expreß-Kontos](https://helpx.adobe.com/de/express/web/adobe-express-subscription/free.html). Starten Sie nach dem Erstellen Ihrer Adobe-Anmeldeinformationen den Content Composer und melden Sie sich an, um mit dem Erstellen von Kursen zu beginnen. Wenn Ihr Unternehmen bereits über ein Creative Cloud-Abonnement verfügt, wenden Sie sich an Ihren Administrator, um ein Creative Cloud-Konto für Sie bereitzustellen, bevor Sie sich bei Content Composer anmelden.
+>Sie müssen sich mit einem gültigen Adobe Creative Cloud-Konto anmelden. Wenn Sie noch kein Konto haben, können Sie über Adobe Expreß ein kostenloses Konto erstellen. Weitere Informationen finden Sie unter [Erstellen eines kostenlosen Adobe Expreß-Kontos](https://helpx.adobe.com/express/web/adobe-express-subscription/free.html). Starten Sie nach dem Erstellen Ihrer Adobe-Anmeldeinformationen den Content Composer und melden Sie sich an, um mit dem Erstellen von Kursen zu beginnen. Wenn Ihr Unternehmen bereits über ein Creative Cloud-Abonnement verfügt, wenden Sie sich an Ihren Administrator, um ein Creative Cloud-Konto für Sie bereitzustellen, bevor Sie sich bei Content Composer anmelden.
+
+>[!NOTE]
+>
+>Für eine optimale Nutzung mit Content Composer wird Google Chrome empfohlen. Firefox und Safari weisen möglicherweise Unterschiede in Funktionalität oder Verhalten auf.
 
 ## Content Composer testen
 
