@@ -4,7 +4,7 @@ title: Benutzerdefinierte Rollen
 description: Mit der Lernpfadfunktion können Sie benutzerdefinierte Rollen definieren und einer Gruppe von Benutzern bestimmte Verantwortlichkeiten zuweisen. Mit dieser Funktion können Sie Verantwortlichkeiten zuweisen, die nicht in den Bereich der bestehenden Rolle der Person fallen.
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: 4a3664bc28eb69389da89e5f411da37c2fca097a
+source-git-commit: f8473c0bfd1de5591d858e657dcc67c71c50ecd5
 workflow-type: tm+mt
 source-wordcount: '5467'
 ht-degree: 24%
@@ -524,7 +524,7 @@ Nachdem Sie Benutzer einer zusätzlichen benutzerdefinierten Rolle zugewiesen ha
 
 >[!NOTE]
 >
->Sie können jedem Benutzer bis zu 50 Rollen zuweisen und jeder Rolle bis zu 500 Benutzer hinzufügen.
+>Sie können jedem Benutzer bis zu 50 Rollen zuweisen und jeder Rolle bis zu 3500 Benutzer hinzufügen.
 
 ### Mit CSV mehrere benutzerdefinierte Rollen zuweisen
 
@@ -539,7 +539,7 @@ Die Datei &quot;user_role.csv&quot; enthält die Felder Benutzerdefinierte Rolle
 
 Die Datei role.csv enthält die Felder, benutzerdefinierte Rolle, Quelle der Erstellung und detaillierte Informationen für Kataloge, Benutzer, Kurse, Lernpfade und mehr.
 
-Wenn die CSV-Datei falsche Daten enthält oder die Grenzwerte überschreitet (50 Rollen pro Benutzer und 500 Benutzer pro Rolle), wird eine Meldung mit den Fehlern angezeigt.
+Wenn die CSV-Datei falsche Daten enthält oder die Grenzwerte überschreitet (50 Rollen pro Benutzer und 3500 Benutzer pro Rolle), wird eine Meldung mit den Fehlern angezeigt.
 
 ![](assets/error-custom-role.png)
 _Fehlerbenachrichtigung für benutzerdefinierte Rollen_
