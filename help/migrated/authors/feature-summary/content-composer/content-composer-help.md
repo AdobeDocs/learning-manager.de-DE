@@ -34,7 +34,7 @@ Content Composer führt Autoren durch Schulungsziele, Quellmaterial und Lernziel
 
 >[!IMPORTANT]
 >
->Sie müssen sich mit einem gültigen Adobe Creative Cloud-Konto anmelden. Wenn Sie noch kein Konto haben, können Sie über Adobe Expreß ein kostenloses Konto erstellen. Weitere Informationen finden Sie unter [Erstellen eines kostenlosen Adobe Expreß-Kontos](https://helpx.adobe.com/express/web/adobe-express-subscription/free.html). Starten Sie nach dem Erstellen Ihrer Adobe-Anmeldeinformationen den Content Composer und melden Sie sich an, um mit dem Erstellen von Kursen zu beginnen. Wenn Ihr Unternehmen bereits über ein Creative Cloud-Abonnement verfügt, wenden Sie sich an Ihren Administrator, um ein Creative Cloud-Konto für Sie bereitzustellen, bevor Sie sich bei Content Composer anmelden.
+>Sie müssen sich mit einem gültigen Adobe Creative Cloud-Konto anmelden. Wenn Sie noch kein Konto haben, können Sie über Adobe Expreß ein kostenloses Konto erstellen. Weitere Informationen finden Sie unter [Erstellen eines kostenlosen Adobe Expreß-Kontos](https://helpx.adobe.com/de/express/web/adobe-express-subscription/free.html). Starten Sie nach dem Erstellen Ihrer Adobe-Anmeldeinformationen den Content Composer und melden Sie sich an, um mit dem Erstellen von Kursen zu beginnen. Wenn Ihr Unternehmen bereits über ein Creative Cloud-Abonnement verfügt, wenden Sie sich an Ihren Administrator, um ein Creative Cloud-Konto für Sie bereitzustellen, bevor Sie sich bei Content Composer anmelden.
 
 >[!NOTE]
 >
