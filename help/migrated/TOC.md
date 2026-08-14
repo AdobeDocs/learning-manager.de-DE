@@ -2,9 +2,9 @@
 user-guide-title: Leitfaden für Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Dokumentation für Adobe Learning Manager
-source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
+source-git-commit: 055a04c6226146b1816241834a57ae4b1b8a1d2a
 workflow-type: tm+mt
-source-wordcount: '1653'
+source-wordcount: '1652'
 ht-degree: 37%
 
 ---
@@ -359,12 +359,12 @@ ht-degree: 37%
       * [An einer Arbeitsgruppensitzung teilnehmen](../migrated/getting-started-with-live-hub/participate-in-a-breakout-session.md)
     * Untertitel {#closed-captions}
       * [Verstehen der Bilduntertitel](../migrated/getting-started-with-live-hub/closed-captions-in-live-hub.md)
-      * [Verwalten der Untertitel als Kursleiter](../migrated/getting-started-with-live-hub/manage-closed-captions-as-an-instructor.md)
-      * [Verwalten der Untertitel als Teilnehmer](../migrated/getting-started-with-live-hub/manage-closed-captions-as-a-learner.md)
+      * [Verwalten von Untertiteln als Kursleiter](../migrated/getting-started-with-live-hub/manage-closed-captions-as-an-instructor.md)
+      * [Verwalten von Untertiteln als Teilnehmer](../migrated/getting-started-with-live-hub/manage-closed-captions-as-a-learner.md)
     * Aufzeichnungen und Protokolle{#recordings-and-transcripts}
       * [Grundlagen zu Aufzeichnungen und Transkripten](../migrated/getting-started-with-live-hub/understanding-recordings-and-transcripts.md)
       * [Eine Sitzung aufzeichnen](../migrated/getting-started-with-live-hub/record-a-session.md)
-      * [Aufzeichnungen als Teilnehmer anzeigen](../migrated/getting-started-with-live-hub/view-recordings-as-a-learner.md)
+      * [Sitzungsaufzeichnungen als Teilnehmer anzeigen](../migrated/getting-started-with-live-hub/view-recordings-as-a-learner.md)
     * Sitzungs-Dashboard {#session-dashboard}
       * [Session-Dashboard anzeigen](../migrated/getting-started-with-live-hub/view-the-session-dashboard.md)
       * [Komponenten des Sitzungs-Dashboards](../migrated/getting-started-with-live-hub/components-of-the-session-dashboard.md)

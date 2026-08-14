@@ -1,9 +1,9 @@
 ---
 title: Arbeitsgruppen im Live-Hub
 description: In Breakout-Räumen können Kursleiter eine Live-Hub-Sitzung in kleinere Gruppen aufteilen, um Diskussionen, Aktivitäten und Zusammenarbeit zu ermöglichen.
-source-git-commit: 5cc382cc869b7653262b24ff639110367acc8c93
+source-git-commit: 055a04c6226146b1816241834a57ae4b1b8a1d2a
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '661'
 ht-degree: 0%
 
 ---
@@ -84,11 +84,12 @@ Wenn die Arbeitsgruppensitzung endet, werden alle Teilnehmer automatisch zurück
 
 Dies markiert den Abschluss der Arbeitsgruppenaktivität und ermöglicht die Überprüfung nach der Sitzung.
 
-![Verteilung des Arbeitsraums](assets/breakout-room-distribution.png "Live-Hub-Oberfläche, die die Verteilung der Teilnehmer in den Arbeitsräumen anzeigt.")
+![Arbeitsraum-Verteilung](assets/breakout-room-distribution.png)
+*Live-Hub-Schnittstelle, die das Layout der Arbeitsgruppensitzung anzeigt*
 
 ## Rollen und Berechtigungen
 
-Die Arbeitsräume stehen sowohl Kursleitern als auch Teilnehmern zur Verfügung. Die im Bedienfeld verfügbaren Aktionen und Steuerelemente variieren je nach Rolle des Benutzers im virtuellen Klassenzimmer.
+Arbeitsgruppen sind sowohl für Kursleiter als auch für Teilnehmer während einer Live Hub-Sitzung verfügbar. Die verfügbaren Aktionen und Steuerelemente variieren je nach Rolle des Benutzers.
 
 | **Kursleiter** | **Teilnehmer** |
 |----|----|

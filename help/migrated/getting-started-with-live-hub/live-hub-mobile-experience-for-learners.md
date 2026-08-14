@@ -1,7 +1,7 @@
 ---
 title: Live Hub (Beta) auf Mobilgeräten als Teilnehmer verwenden
 description: Erfahren Sie, welche Live Hub-Funktionen den Teilnehmern in der mobilen Adobe Learning Manager-App zur Verfügung stehen, von der Teilnahme an einer Sitzung bis hin zum Verlassen einer Sitzung.
-source-git-commit: 43d4a9fb47d94ef541984a1c1fb9c70ba4e3f61d
+source-git-commit: 055a04c6226146b1816241834a57ae4b1b8a1d2a
 workflow-type: tm+mt
 source-wordcount: '754'
 ht-degree: 0%
