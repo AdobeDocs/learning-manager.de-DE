@@ -1,9 +1,9 @@
 ---
 title: Das Chat-Bedienfeld im Live-Hub
 description: Erfahren Sie, wie das Chat-Bedienfeld die strukturierte Kommunikation zwischen Kursleitern und Teilnehmern in Echtzeit während einer Live-Hub-Sitzung ermöglicht.
-source-git-commit: c50b9fae8ff3dcd3541fc375e619db8abde3b3e1
+source-git-commit: 055a04c6226146b1816241834a57ae4b1b8a1d2a
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Das Chat-Bedienfeld enthält mehrere Registerkarten, mit denen Sie verschiedene 
 
 ## Rollen und Berechtigungen
 
-Das Chat-Bedienfeld ist sowohl für Kursleiter als auch für Teilnehmer verfügbar. Die im Bedienfeld verfügbaren Aktionen und Steuerelemente variieren je nach Rolle des Benutzers im virtuellen Klassenzimmer.
+Das Chat-Bedienfeld ist sowohl für Kursleiter als auch für Teilnehmer während einer Live-Hub-Sitzung verfügbar. Die verfügbaren Aktionen und Steuerelemente variieren je nach Rolle des Benutzers.
 
 | **Kursleiter** | **Teilnehmer** |
 |----|----|
