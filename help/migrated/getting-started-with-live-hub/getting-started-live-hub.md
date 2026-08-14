@@ -1,9 +1,9 @@
 ---
 title: Erste Schritte mit Live Hub (Beta)
 description: Erfahren Sie, wie Sie mit dem Live Hub in Adobe Learning Manager Live-Schulungen mit Kursleiter direkt auf der Plattform bereitstellen können.
-source-git-commit: 8078e00844d3b2d757e37d65b6b4c99ff04ab1b6
+source-git-commit: f9fed45f8818ff34ff4a4c6750a3659b6d4dc49d
 workflow-type: tm+mt
-source-wordcount: '742'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ ein reibungsloses Lernerlebnis.
 
 | **Bühne** | **Wichtige Aktivitäten** |
 |---|---|
-| **Vorsitzung** | Der Administrator überprüft, ob die [Systemanforderungen](./system-requirements-for-live-hub.md) erfüllt sind, und [aktiviert den Live Hub](../administrators/feature-summary/enable-live-hub.md) für das Konto. Sie können die Teilnehmer auch für einen Kurs registrieren. Der Autor [&#x200B; erstellt den Live Hub-Kurs &#x200B;](create-a-live-hub-session.md), und der Kursleiter bereitet den Raum vor, indem er [Layouts](./understand-the-live-hub-layout.md), Inhalte und interaktive Aktivitäten für die bevorstehende Sitzung konfiguriert. |
+| **Vorsitzung** | Der Administrator überprüft, ob die [Systemanforderungen](./system-requirements-for-live-hub.md) erfüllt sind, und [aktiviert den Live Hub](../administrators/feature-summary/enable-live-hub.md) für das Konto. Der Autor [ erstellt den Live Hub-Kurs ](create-a-live-hub-session.md), und die Teilnehmer können sich selbst für den Kurs registrieren, oder der Administrator kann sie registrieren. Der Kursleiter bereitet den Raum vor, indem er [Layouts](./understand-the-live-hub-layout.md), Inhalt und interaktive Aktivitäten für die bevorstehende Sitzung konfiguriert. |
 | **Während der Sitzung** | Der Kursleiter stellt die Live-Sitzung bereit und interagiert mit den Teilnehmern mithilfe von Funktionen wie [Chat](about-the-chat-panel.md), [Umfragen](./about-the-polls.md), [Quiz](./about-the-quiz.md), [Whiteboards](./about-the-whiteboard.md), [Bildschirmfreigabe](./about-the-screen-sharing.md) und [Arbeitsräume](./about-the-breakouts.md). Die Teilnehmer nehmen während der gesamten Sitzung an diesen Aktivitäten teil. Der Kursleiter kann die Sitzung [aufzeichnen](./record-a-session.md), damit sie den Teilnehmern später zur Verfügung steht. |
 | **Nach der Sitzung** | Der Kursleiter überprüft Sitzungsaufzeichnungen, Anwesenheitsberichte und [Interaktionsanalysen](./view-the-session-dashboard.md), um die Teilnehmerbeteiligung zu bewerten und die Effektivität der Sitzung zu bewerten. Die Teilnehmer können die Sitzung über eine [themenbasierte Aufzeichnung](./view-recordings-as-a-learner.md) erneut aufrufen. Diese Ansicht teilt die Aufzeichnung in navigierbare Themen auf, die jeweils einen Titel, eine Übersicht und Anmerkungen enthalten, sodass sie zu einem beliebigen Thema springen oder es lesen können, anstatt es anzuschauen. |
 
