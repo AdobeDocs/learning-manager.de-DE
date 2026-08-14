@@ -3,9 +3,9 @@ description: Erfahren Sie mehr darüber, wie die Grundeinstellungen Ihnen dabei 
 jcr-language: en_us
 title: Grundlegende Einstellungen
 exl-id: b5cbe224-e3ee-4ac2-8d9b-95249044dfa6
-source-git-commit: 38f9b508ec91ee103d67f2e6e9716622b796b44b
+source-git-commit: 170d567c555ba831ea84c75fe3fad2f216eec932
 workflow-type: tm+mt
-source-wordcount: '6363'
+source-wordcount: '6386'
 ht-degree: 4%
 
 ---
@@ -431,6 +431,8 @@ Wenn diese Option aktiviert ist, können Teilnehmer Lernaktivitäten, die außer
 
 Aktiviert die Funktion &quot;Externes Lernen&quot; für alle Teilnehmer im Konto. Nach der Aktivierung ist ein Einreichungsformular im Teilnehmer-Dashboard verfügbar. Teilnehmer können Details wie den Namen der Schulung, die Dauer, das Datum, die Punktzahl und den Abschlussnachweis eingeben. Die Einreichung wird zur Überprüfung und Genehmigung an ihren Manager gesendet. Genehmigte Einreichungen werden im Teilnehmertranskript und in Administratorberichten angezeigt. Abgelehnte Einreichungen werden nicht im Transkript aufgezeichnet.
 
+![Wählen Sie Aktivieren aus, um externe Lernobjekte von einem Teilnehmer zu aktivieren](../assets/external-learning-enable.png)
+
 >[!NOTE]
 >
 >Wenn Sie diese Einstellung aktivieren, werden dem Teilnehmertranskript für externe Lernobjekte neue Spalten hinzugefügt. Wenn Ihr Unternehmen automatisierte Workflows oder Integrationen verwendet, die Teilnehmertranskriptdaten verarbeiten, überprüfen Sie diese, bevor Sie sie aktivieren, um die Kompatibilität mit der aktualisierten Transkriptstruktur sicherzustellen.
@@ -502,6 +504,8 @@ Administratoren können bis zu 10 benutzerdefinierte Felder hinzufügen, um zus�
 | Zahl | Numerische Eingabe. |
 | Kontrollkästchen | Ein Schalter für Ja/Nein. |
 | Dropdown | Einzelne Auswahl aus einer vom Administrator definierten Liste von Optionen. |
+
+![Auswählen von Kern- und benutzerdefinierten Feldern, die ein Teilnehmer zum Senden von externem Lernen verwendet](../assets/external-learning-fields.png)
 
 ### Anforderungen an die Abschlussnachweis-Datei
 
