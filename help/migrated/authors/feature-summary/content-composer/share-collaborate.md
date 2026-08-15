@@ -2,7 +2,7 @@
 description: Erfahren Sie, wie Sie einen Kurs zum Erstellen von Inhalten für Kollegen oder direkt für Teilnehmer zur Überprüfung freigeben. Lernen Sie den Unterschied zwischen den beiden Freigabe-Flows, den Zugriffskontrollen und den Auswirkungen auf die Nachverfolgung kennen.
 jcr-language: en_us
 title: Freigeben und Zusammenarbeiten an einem Kurs für Content Composer
-source-git-commit: c2e76c6c3e343b571c257c6287eaa1c6b6342e84
+source-git-commit: c9c3345c11cae687ec2c1192129bf941e24160f4
 workflow-type: tm+mt
 source-wordcount: '111'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 >[!AVAILABILITY]
 >
->Demnächst verfügbar:
+>IN KÜRZE!
 
 Vor der Veröffentlichung können Sie Ihren Kurs an Prüfer senden, um Feedback zu erhalten. Reviewer öffnen den freigegebenen Link in einem Browser, fügen Kommentare zu einer Kurskomponente hinzu und versuchen, das Quiz auf eine Vorschau des gesamten Teilnehmererlebnisses zu überprüfen. Autoren steuern den Zugriff, erfassen Feedback und aktualisieren den Kurs, ohne die Review-URL zu ändern. Sie können das Feedback ansprechen, den Kurs aktualisieren und bei Bedarf zusätzliche Überprüfungszyklen initiieren.
 
