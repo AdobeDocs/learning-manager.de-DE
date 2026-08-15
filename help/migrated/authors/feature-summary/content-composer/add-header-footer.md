@@ -17,7 +17,7 @@ Fügen Sie eine Kopf- und Fußzeile hinzu, um Elemente wie Ihr Logo einzuschlie�
 1. Wählen Sie **Designs** in der Symbolleiste aus, bewegen Sie den Mauszeiger über das angewendete Design und wählen Sie **Bearbeiten** aus.
 
 2. Aktivieren Sie die Umschalttaste **Kopfzeile hinzufügen**, um Ihrem Kurs eine Kopfzeile hinzuzufügen.
-   ![ Die Umschalter &quot;Kopfzeile hinzufügen&quot; und &quot;Fußzeile hinzufügen&quot; im Bereich &quot;Design bearbeiten&quot; ](../assets/39_edit_theme_header_footer_toggles_updated.png)
+   ![&#x200B; Die Umschalter &quot;Kopfzeile hinzufügen&quot; und &quot;Fußzeile hinzufügen&quot; im Bereich &quot;Design bearbeiten&quot; &#x200B;](../assets/39_edit_theme_header_footer_toggles_updated.png)
 
 3. Wählen Sie unter **Logo** die Option **Hinzufügen** aus, um ein Logo für den Header hochzuladen.
 
