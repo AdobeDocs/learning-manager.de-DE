@@ -2,7 +2,8 @@
 description: Erfahren Sie, wie Sie Kommentare im Bedienfeld "Inhaltskommentare" anzeigen und verwalten, einschließlich Antworten, Lösen, Erwähnen eines Überprüfers mithilfe von @, Filtern nach Überprüfern, Zeitraum oder Status und Markieren von Kommentaren als geklärt.
 jcr-language: en_us
 title: Verwalten von und Antworten auf Kommentare
-source-git-commit: eb764ba06a5807bead165cbfdbfec0367654ed08
+hide: true
+source-git-commit: cedd59c96bdd68681702242954dfba63b8591852
 workflow-type: tm+mt
 source-wordcount: '126'
 ht-degree: 0%

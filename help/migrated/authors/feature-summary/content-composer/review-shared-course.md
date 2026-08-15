@@ -1,8 +1,9 @@
 ---
 description: Erfahren Sie, wie Sie einen Kurs zur Inhaltserstellung öffnen und überprüfen, der für Feedback freigegeben wurde, einschließlich wie Sie im Kurs navigieren, Kommentare hinzufügen, auf andere Prüfer antworten und andere Prüfer mit Tags versehen.
 jcr-language: en_us
-title: Freigegebenen Kurs überprüfen
-source-git-commit: 92cefa03b21c2cf96a09f1f0f27df054cceaa80b
+title: Freigegebenes Projekt überprüfen
+hide: true
+source-git-commit: cedd59c96bdd68681702242954dfba63b8591852
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 0%
