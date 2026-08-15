@@ -1,10 +1,10 @@
 ---
-description: Sie benötigen Zugriff über Ihr Creative Cloud-Abonnement, um Content Composer auszuprobieren, eine allgemeine Vorstellung davon, was der Kurs abdecken sollte, und optional Quelldokumente, um den KI in den spezifischen Inhalten Ihres Unternehmens zu verankern.
+description: Erfahren Sie, was Sie benötigen, bevor Sie Content Composer starten - ein Creative Cloud-Konto, Google Chrome und optionale Quelldokumente, die die KI leiten.
 jcr-language: en_us
 title: Was Sie benötigen, bevor Sie beginnen
-source-git-commit: fefb7d9b28633bd5c25d0fc80281d934e61cfbdf
+source-git-commit: bd8c9be016595799695cee675a1e3eeef5722c07
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---

@@ -1,10 +1,10 @@
 ---
-description: Fügen Sie mithilfe der Komponentenauswahl interaktive und Medienblöcke zwischen vorhandenen Elementen Absatz, Bild, Video, Flipkarte, Akkordeon, Zeitleiste, Registerkarte, Karussell, MCQ und Wahr/Falsch ein.
+description: 'Erfahren Sie, wie Sie Inhaltsblöcke in Content Composer hinzufügen: Absatz, Bild, Video, Flip Card, Akkordeon, Zeitleiste, Registerkarte, Karussell, MCQ und Wahr-/Falsch.'
 jcr-language: en_us
 title: Inhaltskomponente hinzufügen
-source-git-commit: b7d67b494193163352947f255ef2c5be74e1bc30
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '186'
+source-wordcount: '182'
 ht-degree: 0%
 
 ---

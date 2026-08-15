@@ -1,10 +1,10 @@
 ---
-description: Wählen Sie ein beliebiges Textelement aus, um die Symbolleiste für die Inlineformatierung zu aktivieren. Bearbeite Text, Überschriften und Beschriftungen direkt auf der Arbeitsfläche. Benennen Sie Lektionen und Themen über den Assistenten um, nicht indem Sie Überschriften auswählen.
+description: Erfahren Sie, wie Sie Kurstext in Content Composer mithilfe der Symbolleiste für die Inlineformatierung bearbeiten und wie Sie Lektionen und Themen über den Assistenten umbenennen.
 jcr-language: en_us
 title: Kurstext bearbeiten
-source-git-commit: 9c9e683b3b99f64d33054d92e24e02385a6dc15f
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '109'
+source-wordcount: '102'
 ht-degree: 0%
 
 ---

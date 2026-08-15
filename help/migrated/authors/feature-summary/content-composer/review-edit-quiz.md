@@ -1,10 +1,10 @@
 ---
-description: Am Ende des Kurses wird ein abgestuftes Quiz angezeigt, bei dem jede Frage dem Thema zugewiesen ist, das getestet wird. Bearbeiten Sie den Fragentext, ändern Sie die richtige Antwort, weisen Sie Punktzahlen zu oder stellen Sie die AI, um Fragen neu zu generieren.
+description: Erfahren Sie, wie Sie Quizfragen in Content Composer bearbeiten - richtige Antworten ändern, Punktzahlen zuweisen, Fragen löschen oder AI bitten, sie zu regenerieren.
 jcr-language: en_us
 title: Quiz überprüfen und bearbeiten
-source-git-commit: 6c4ec330683920213b179b48957d0ae2ad46efef
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '130'
 ht-degree: 0%
 
 ---

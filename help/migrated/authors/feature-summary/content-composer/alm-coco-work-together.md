@@ -1,10 +1,10 @@
 ---
-description: Erfahren Sie, wie Content Composer und Adobe Learning Manager die Verantwortung für die Erstellung und Bereitstellung von Inhalten teilen, wie ein fertiger Kurs vom Content Composer in die ALM-Inhaltsbibliothek verschoben wird und wie die Verfolgung und Berichterstellung von Teilnehmern nach der Veröffentlichung funktioniert.
+description: Erfahren Sie, wie Content Composer die Inhaltserstellung übernimmt und Adobe Learning Manager die Bereitstellung, Nachverfolgung und Berichterstellung nach der Veröffentlichung übernimmt.
 jcr-language: en_us
 title: Wie Content Composer und Adobe Learning Manager zusammenarbeiten
-source-git-commit: 5a0f12b1ed0e5ae1bde7afbd539d70078d99f05d
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '533'
 ht-degree: 0%
 
 ---

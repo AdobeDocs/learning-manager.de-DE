@@ -1,10 +1,10 @@
 ---
-description: Informieren Sie sich über Best Practices für die Verbindung von Content Composer mit Adobe Learning Manager, z. B. wann Sie Abschlusskriterien konfigurieren müssen, wie Sie Module für die Auffindbarkeit benennen und wie Sie die Versionierung über Kursupdates hinweg verwalten können.
+description: Empfohlene Verfahren für das Generieren von Kursen in Content Composer - Schreiben von Lernzielen, Überprüfen von Umrissen, Einschränken der AI-Ausgabe und Verwenden von Komponenten.
 jcr-language: en_us
 title: Empfohlene Verfahren für die Veröffentlichung von Content Composer in ALM
-source-git-commit: ea6d296fa99686136ab08d756a20570a4681d704
+source-git-commit: bd8c9be016595799695cee675a1e3eeef5722c07
 workflow-type: tm+mt
-source-wordcount: '172'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---

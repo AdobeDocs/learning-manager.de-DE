@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Versionshinweise zu Adobe Learning Manager
 contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: ab7a0a07ebbb2607d67c7b8488e1a310878ab13a
+source-git-commit: a3b1824c68247b73038b3226188f2b4b3fd9f8e6
 workflow-type: tm+mt
 source-wordcount: '34007'
 ht-degree: 66%
@@ -37,7 +37,7 @@ Auf der AI-Front erhält der AI Assistant für Teilnehmer Kurszusammenfassungen,
 
 Das Content-Management wird durch einen komponentenbasierten E-Mail-Vorlagen-Generator auf WYSIWYG-Basis, eine hierarchische Struktur von Inhaltsordnern mit rollenbasiertem Zugriff, eine externe Lernfunktion zum Einreichen und Genehmigen von plattformunabhängigen Schulungen und eine neue Kanal-Funktion gestärkt, die Videoinhalte von Unternehmens-Web-Seiten und Confluence-Seiten aggregiert.
 
-Weitere Informationen finden Sie unter [Neue Funktionen und Änderungen in der Version August 2026 von Adobe Learning Manager](/help/migrated/whats-new.md).
+Erfahren Sie mehr über die [Neuerungen und Änderungen in der Version August 2026 von Adobe Learning Manager](/help/migrated/whats-new.md).
 
 ## Änderungen in der Version durchbrechen
 

@@ -1,10 +1,10 @@
 ---
-description: Laden Sie Ihre Richtlinien, Verfahren oder Decks hoch und beschränken Sie die KI auf diesen Inhalt. Dadurch wird sichergestellt, dass die generierten Kurse die exakte Sprache Ihres Unternehmens widerspiegeln, was für Compliance-, regulatorische und verfahrensbasierte Schulungen unerlässlich ist.
+description: Erfahren Sie, wie Sie Content Composer-Kurse in Ihren eigenen Dokumenten aufbauen können, indem Sie die AI-Ausgabe auf Ihre Richtlinien, Verfahren oder Decks beschränken.
 jcr-language: en_us
 title: Untermauern Sie Ihren Kurs in Ihren eigenen Dokumenten
-source-git-commit: 7fffe3c9d7b001c5a75a27ffc54fcb4490caad63
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '226'
+source-wordcount: '215'
 ht-degree: 0%
 
 ---

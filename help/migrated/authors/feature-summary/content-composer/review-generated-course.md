@@ -1,10 +1,10 @@
 ---
-description: Der Kurseditor wird nach der Generierung automatisch geöffnet. Überprüfen Sie den gesamten Inhalt, Text, Bilder, Wissensüberprüfungen und Quiz, bevor Sie sie freigeben oder veröffentlichen. Die AI-Ausgabe kann variieren und erfordert die Überprüfung durch den Autor.
+description: Erfahren Sie, wie Sie KI-generierte Kursinhalte im Kurs-Editor von Content Composer vor der Freigabe oder Veröffentlichung überprüfen, da die KI-Ausgabe variieren kann.
 jcr-language: en_us
 title: Generierten Kurs überprüfen
-source-git-commit: 98b2d1829e0f61ca7c878677451b571dc45130c3
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '115'
+source-wordcount: '109'
 ht-degree: 0%
 
 ---

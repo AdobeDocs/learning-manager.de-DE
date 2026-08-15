@@ -1,10 +1,10 @@
 ---
-description: Erfahren Sie, wie Sie die Schriften für Überschriften und Fließtext im Content Composer ändern, indem Sie ein Design bearbeiten. Wählen Sie aus den verfügbaren Schriftartenoptionen und speichern Sie sie als neues benutzerdefiniertes Design oder überschreiben Sie das vorhandene.
+description: Erfahren Sie, wie Sie die Überschriften- und Textschriftarten im Inhaltsgestaltung ändern, indem Sie ein Design bearbeiten, die Änderungen speichern oder ein neues benutzerdefiniertes Design erstellen.
 jcr-language: en_us
 title: Schriften ändern
-source-git-commit: 93f8c8fd1fd9c9f708ba0085a268be53906d26f9
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '168'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---

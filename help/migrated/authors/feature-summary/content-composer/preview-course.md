@@ -1,10 +1,10 @@
 ---
-description: In der Vorschau wird der Kurs genau so angezeigt, wie er den Teilnehmern angezeigt wird, mit dem angewendeten Design, den aktiven interaktiven Komponenten und dem Quiz im Antwortmodus. Verwenden Sie es, um Inhalte und Interaktionen vor der Veröffentlichung zu überprüfen.
+description: Erfahren Sie, wie Sie eine Vorschau eines Inhalts-Composer-Kurses genau so anzeigen, wie die Teilnehmer ihn sehen, wobei das angewendete Design, die Komponenten und das Quiz aktiv sind.
 jcr-language: en_us
 title: Kursvorschau
-source-git-commit: 6c4ec330683920213b179b48957d0ae2ad46efef
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '94'
+source-wordcount: '84'
 ht-degree: 0%
 
 ---

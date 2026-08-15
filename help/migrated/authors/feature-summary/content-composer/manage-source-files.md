@@ -1,10 +1,10 @@
 ---
-description: Laden Sie vorhandene Dokumente, Richtlinien oder Decks hoch, um die KI in den Inhalten Ihres Unternehmens zu erden. Entscheidet, ob die Generierung nur auf diese Dateien beschränkt werden soll, oder lässt die KI ihre allgemeinen Kenntnisse um zusätzliche Informationen ergänzen.
+description: Erfahren Sie, wie Sie Quelldateien in Content Composer hochladen, die AI-Ausgabe auf Ihren Inhalt beschränken und Quelldateien aktualisieren, wenn sich Material ändert.
 jcr-language: en_us
 title: Verwalten von Quelldateien
-source-git-commit: 9ef7ede817f226004430b4104ff78a2ebc45aec2
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '446'
 ht-degree: 0%
 
 ---

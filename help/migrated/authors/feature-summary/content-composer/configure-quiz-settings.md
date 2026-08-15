@@ -1,10 +1,10 @@
 ---
-description: Legen Sie Quizwiederholungen, Fristen, Fragenreihenfolge und Übergabewerte in Content Composer fest. Erfahren Sie, wie sich jede Quizeinstellung auf das Teilnehmererlebnis auswirkt und wie Punktzahlen an Ihr LMS gemeldet werden.
+description: Erfahren Sie, wie Sie Quizwiederholungen, Zeitlimits, Fragenreihenfolge, Mischen und SCORM-Bewertungseinstellungen in Content Composer konfigurieren.
 jcr-language: en_us
 title: Quizeinstellungen konfigurieren
-source-git-commit: 4adddf525ba27f9e0c3c3234cfde2c472102a9db
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '172'
 ht-degree: 0%
 
 ---

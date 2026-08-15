@@ -1,10 +1,10 @@
 ---
-description: In der Kurz-Phase werden drei Eingaben erfasst - Kurstitel, Teilnehmerprofil und Lernziel - durch geführte Konversation. Alle drei Felder müssen ausgefüllt werden, bevor die KI eine Gliederung generieren kann.
+description: Erfahren Sie, wie Sie die Phase "Content Composer Brief" abschließen - legen Sie Ihren Kurstitel fest, definieren Sie Teilnehmer und schreiben Sie ein Ziel, bevor Sie eine Gliederung erstellen.
 jcr-language: en_us
 title: Kursbeschreibung abschließen
-source-git-commit: 6c4ec330683920213b179b48957d0ae2ad46efef
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '242'
 ht-degree: 0%
 
 ---

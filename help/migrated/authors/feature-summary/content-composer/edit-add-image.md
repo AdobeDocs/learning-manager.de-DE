@@ -1,10 +1,10 @@
 ---
-description: Wählen Sie ein beliebiges Bild aus, um Größe, Helligkeit, Sättigung und Transparenz anzupassen. Ersetzen Sie es durch eine hochgeladene Datei, ein Adobe Stock-Element oder ein AI-generiertes Bild unter Verwendung einer einfachen Beschreibung.
+description: Lerne, wie du ein Bild in Content Composer bearbeiten und z. B. Größe, Helligkeit und Sättigung anpassen oder es durch einen Upload, Adobe Stock oder KI ersetzen kannst.
 jcr-language: en_us
 title: Bild bearbeiten oder hinzufügen
-source-git-commit: 6c4ec330683920213b179b48957d0ae2ad46efef
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '110'
 ht-degree: 0%
 
 ---
