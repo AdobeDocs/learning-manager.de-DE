@@ -2,10 +2,9 @@
 description: Erfahren Sie, wie Sie einen Teilnehmer-Link in Content Composer generieren, auf welche Teilnehmer über diesen Link zugreifen können und warum eine verfolgte Bereitstellung die Veröffentlichung in Adobe Learning Manager erfordert, anstatt einen direkten Link freizugeben.
 jcr-language: en_us
 title: Kurs für Teilnehmer freigeben
-hide: true
-source-git-commit: 90969a10aa9246a4c1cfd2e02641f79f5101f0cd
+source-git-commit: 92cefa03b21c2cf96a09f1f0f27df054cceaa80b
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '174'
 ht-degree: 0%
 
 ---
@@ -13,13 +12,21 @@ ht-degree: 0%
 
 # Kurs für Teilnehmer freigeben
 
-1. Wählen Sie **Für Teilnehmer**.
+Durch die Freigabe für Teilnehmer erhalten sie direkten Zugriff auf den Kurs, ohne dass eine LMS-Verbindung oder -Anmeldung erforderlich ist. Dies ist nützlich, wenn die Teilnehmer eine Vorschau eines Kurses anzeigen oder einen Kurs schnell abschließen sollen, z. B. während eines Pilotprojekts, einer informellen Schulungssitzung oder bevor der Kurs in Adobe Learning Manager zur formellen Anmeldung und Nachverfolgung veröffentlicht wird.
 
-2. Wählen Sie **Link generieren**, um einen Link zu generieren, damit der Teilnehmer auf das Projekt zugreifen kann.
+1. Wählen Sie **Freigeben** in der oberen Symbolleiste aus.
 
-3. Geben Sie den Link für Ihre Teilnehmer frei.
+2. Wählen Sie die Registerkarte **Für Teilnehmer** aus.
+
+3. Wählen Sie **Link generieren**, um einen Link für den Teilnehmerzugriff zu erstellen.
+
+   ![](../assets/59_share_for_learners_generate_link_generated_links.png)
+
+4. Geben Sie den Link für Ihre Teilnehmer frei.
 
 >[!IMPORTANT]
 >
->Jedes Mal, wenn Sie den Kurs aktualisieren, können die Teilnehmer den gleichen Link verwenden, um die Kursänderungen anzuzeigen.
+>Teilnehmer-Links sind versionsspezifisch. Jedes Mal, wenn Sie den Kurs aktualisieren, generieren und geben Sie einen neuen Link frei, damit die Teilnehmer auf die neueste Version zugreifen können. Der vorherige Link zeigt weiterhin die frühere Version an.
+>
+>Der Teilnehmerzugriff umfasst nicht das Kommentarfeld. Teilnehmer können keine Kommentare hinzufügen oder mit dem Arbeitsablauf für Reviews interagieren.
 

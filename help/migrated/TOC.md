@@ -2,10 +2,10 @@
 user-guide-title: Leitfaden für Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Dokumentation für Adobe Learning Manager
-source-git-commit: 055a04c6226146b1816241834a57ae4b1b8a1d2a
+source-git-commit: 98f84cf0fd338b0a7e4d51df43f2b03387ace19c
 workflow-type: tm+mt
-source-wordcount: '1652'
-ht-degree: 37%
+source-wordcount: '1660'
+ht-degree: 36%
 
 ---
 
@@ -233,12 +233,14 @@ ht-degree: 37%
       * [Bild bearbeiten oder hinzufügen](authors/feature-summary/content-composer/edit-add-image.md)
       * [Inhaltskomponente hinzufügen](authors/feature-summary/content-composer/add-content-component.md)
       * [Kursvorschau](authors/feature-summary/content-composer/preview-course.md)
+    * Erfolgreiche Eingabeaufforderungen schreiben {#write-effective-prompt}
+      * [Erstellen effektiver Eingabeaufforderungen in Content Composer](authors/feature-summary/content-composer/write-effective-prompts.md)
     * Freigabe und Zusammenarbeit {#share}
-      * [Freigeben und Zusammenarbeiten an einem Kurs für Content Composer](authors/feature-summary/content-composer/share-collaborate.md)
-      * {hide-from-toc}[Kurs zur Überprüfung freigeben](authors/feature-summary/content-composer/share-course-review.md)
-      * {hide-from-toc}[Kurs für Teilnehmer freigeben](authors/feature-summary/content-composer/share-course-learners.md)
-      * {hide-from-toc}[Freigegebenen Kurs überprüfen](authors/feature-summary/content-composer/review-shared-course.md)
-      * {hide-from-toc}[Anzeigen und Hinzufügen von Kommentaren zu einem Kurs](authors/feature-summary/content-composer/view-add-comments-course.md)
+      * [Freigeben und gemeinsame Bearbeitung eines Content Composer-Projekts](authors/feature-summary/content-composer/share-collaborate.md)
+      * [Projekt zur Überprüfung freigeben](authors/feature-summary/content-composer/share-course-review.md)
+      * [Projekt für Teilnehmer freigeben](authors/feature-summary/content-composer/share-course-learners.md)
+      * [Freigegebenes Projekt überprüfen](authors/feature-summary/content-composer/review-shared-course.md)
+      * [Verwalten von und Antworten auf Überprüfungskommentare](authors/feature-summary/content-composer/manage-and-respond-comments.md)
     * Kurseinstellungen konfigurieren {#settings}
       * [Allgemeine Kurseinstellungen](authors/feature-summary/content-composer/general-course-settings.md)
       * [Abschluss- und Erfolgskriterien festlegen](authors/feature-summary/content-composer/set-completion-success-criteria.md)

@@ -1,10 +1,10 @@
 ---
-description: Erfahren Sie, wie Sie Content Composer mit Adobe Learning Manager verbinden, Veröffentlichungsdetails konfigurieren und Ihren fertigen Kurs als Modul direkt in der ALM-Inhaltsbibliothek bereitstellen können, ohne einen manuellen SCORM-Export durchführen zu müssen.
+description: Erfahren Sie, wie Sie Content Composer mit Adobe Learning Manager verbinden, Veröffentlichungsdetails konfigurieren und Ihren Kurs in der ALM-Inhaltsbibliothek bereitstellen.
 jcr-language: en_us
 title: Herstellen einer Verbindung zu Adobe Learning Manager und Veröffentlichen
-source-git-commit: 6c4ec330683920213b179b48957d0ae2ad46efef
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '263'
 ht-degree: 0%
 
 ---

@@ -1,10 +1,10 @@
 ---
-description: Informieren Sie sich über die aktuellen Beta-Einschränkungen von Content Composer, einschließlich Einschränkungen bei der Bearbeitung von Konturen, Bewertungstypen, Anpassung des Designs und Zusammenarbeit, sowie über die verfügbaren Umgehungslösungen und den Roadmap-Status für jede dieser Komponenten.
+description: Überprüfen Sie die Beta-Einschränkungen von Content Composer - reine Dialogbearbeitung, MCQ-/True-False-Tests, feste Konturen - mit Umgehungslösungen für jede dieser Einschränkungen.
 jcr-language: en_us
 title: Beta-Einschränkungen für Content Composer
-source-git-commit: ea6d296fa99686136ab08d756a20570a4681d704
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---

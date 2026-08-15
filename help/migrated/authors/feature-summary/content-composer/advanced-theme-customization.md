@@ -1,10 +1,10 @@
 ---
-description: Erfahren Sie, wie Sie mithilfe erweiterter Designeigenschaften in Content Composer einzelne Textelemente, einschließlich Unterrichtsnamen, Themennamen, Blocküberschriften, Beschriftungen und Absätzen, mithilfe granularer Steuerungen für Schriftart und Stil anpassen können.
+description: Erfahren Sie, wie Sie erweiterte Designeigenschaften in Content Composer verwenden, um Schriftarten, Farben, Abstände und Layout für Überschriften und Textelemente anzupassen.
 jcr-language: en_us
 title: Erweiterte Designanpassung
-source-git-commit: 1fad4a773bfc5c32e47c034e6bf69d6c511b4920
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '341'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---

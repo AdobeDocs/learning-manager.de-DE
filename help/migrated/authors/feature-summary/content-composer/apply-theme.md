@@ -1,10 +1,10 @@
 ---
-description: Erfahren Sie, wie Sie ein Kursthema in Content Composer anwenden. Durchsuchen Sie Standard- und benutzerdefinierte Designs, verwenden Sie die Suchleiste, um ein Design anhand des Namens zu suchen, und wenden Sie es kursübergreifend mit einer einzigen Auswahl an.
+description: Erfahren Sie, wie Sie ein Kursthema in Content Composer anwenden. Durchsuchen Sie Standard- und benutzerdefinierte Designs, suchen Sie nach Namen und wenden Sie sich sofort kursübergreifend an.
 jcr-language: en_us
 title: Design anwenden.
-source-git-commit: 5a0f12b1ed0e5ae1bde7afbd539d70078d99f05d
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '129'
+source-wordcount: '118'
 ht-degree: 0%
 
 ---

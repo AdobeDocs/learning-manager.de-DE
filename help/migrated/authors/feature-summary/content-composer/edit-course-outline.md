@@ -1,10 +1,10 @@
 ---
-description: Überprüfen Sie die AI-generierte Lektions- und Themenstruktur, bevor Sie sich für die vollständige Kursgenerierung entscheiden. Fordern Sie Änderungen über das Chat-Fenster an. Umbenennen, Hinzufügen, Entfernen, Aufteilen oder Zusammenführen von Lektionen und Themen im Gespräch.
+description: Erfahren Sie, wie Sie eine Inhaltsausgabe-Kursübersicht bearbeiten - Lektionen und Themen über das Chat-Fenster umbenennen, hinzufügen, entfernen, aufteilen oder zusammenführen.
 jcr-language: en_us
 title: Bearbeiten der Kursübersicht
-source-git-commit: af3ab42eba15e609ad7a52a16939211f3ddca9bf
+source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: '237'
 ht-degree: 0%
 
 ---
