@@ -4,14 +4,13 @@ title: E-Mail-Links, die von geänderten Vorlagen ausgelöst werden, führen zu 
 description: E-Mail-Links, die von geänderten Vorlagen ausgelöst werden, lösen in Adobe Learning Manager einen Fehler aus
 contentowner: nluke
 preview: true
-source-git-commit: 6abc118c6ad7e66e3ded5bd26b9167c3a0b99e4b
+exl-id: a8fa64e1-aeab-4cb5-9bb0-7cfdad0aa389
+source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 73%
+source-wordcount: '220'
+ht-degree: 78%
 
 ---
-
-
 
 # E-Mail-Links, die von geänderten Vorlagen ausgelöst werden, führen zu einem Fehler in Learning Manager
 
@@ -48,6 +47,6 @@ Führen Sie die folgenden Schritte aus, um Fehler zu vermeiden, die durch besch�
    * Kopieren Sie die geänderte Vorlage in eine Notepad/Word-Datei, um eine Kopie der vorgenommenen Änderungen zu speichern.
    * Ersetzen Sie keinen dynamischen Text in der Vorlage, der blau hervorgehoben ist. Beispiel: &quot;**OrganizationName**&quot;, &quot;**Learner**&quot;, &quot;**Klicken Sie hier**&quot;, &quot;**CertificateName**&quot; usw.
 
-1. Klicken Sie auf **[!UICONTROL Speichern]**, um die auf die Vorlage angewendeten Änderungen zu bestätigen.
+1. Klicken Sie auf **[!UICONTROL Speichern]**, um die Änderungen an der Vorlage zu bestätigen.
 1. Lösen Sie die E-Mail aus, um zu überprüfen, ob die Links wie erwartet funktionieren.
 1. Setzen Sie die Einstellungen auf das Original zurück, indem Sie auf die Option **Auf Original zurücksetzen** für die geänderte Vorlage klicken.
