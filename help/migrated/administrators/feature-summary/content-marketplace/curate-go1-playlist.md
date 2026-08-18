@@ -2,13 +2,13 @@
 description: Erfahren Sie, wie Sie eine Go1-Playlist erstellen und einem Lernpfad in Adobe Learning Manager hinzufügen. Dieses Handbuch enthält Schritt-für-Schritt-Anleitungen und bewährte Verfahren für die Playlist-Integration.
 jcr-language: en_us
 title: Go1-Wiedergabeliste für Adobe Learning Manager-Lernpfad kuratieren
-source-git-commit: 6d7c4f615bc69ba2d9cb6b1dfbfe4fae09ecfb18
+exl-id: ab590c9b-80f3-4603-a8bb-430d3bb960a1
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
 source-wordcount: '1665'
 ht-degree: 0%
 
 ---
-
 
 # Kuratieren von Go1-Kursen zu einem Lernpfad
 
@@ -35,7 +35,7 @@ So erstellen Sie einen Lernpfad mit Go1-Kursen:
 5. Sie können einem Lernpfad auf folgende Weise Kurse hinzufügen:
 
    * **[!UICONTROL Kurse oder Lernpfade hinzufügen]**: Fügen Sie vorhandene Kurse oder Lernpfade hinzu, die in Adobe Learning Manager verfügbar sind.
-   * **[!UICONTROL Kuratieren Sie Inhalte von Go1]**: Fügen Sie Kurse von der Go1-Plattform hinzu.
+   * **[!UICONTROL Inhalte aus Go1]** kuratieren: Fügen Sie Kurse von der Go1-Plattform hinzu.
 6. Wählen Sie **[!UICONTROL Inhalt aus Go1]** kuratieren.
 
    ![Alternativtext](assets/select-go1-courses.png)
@@ -44,8 +44,8 @@ So erstellen Sie einen Lernpfad mit Go1-Kursen:
 
    * **[!UICONTROL Go1 AI Assistant]** wird verwendet. Weitere Informationen finden Sie unter [Go1 AI Assistant](/help/migrated/administrators/feature-summary/content-marketplace/curate-go1-playlist.md#go1-ai-assistant).
    * Wählen Sie in der **[!UICONTROL Bibliothek]** die Option **[!UICONTROL Wiedergabeliste erstellen]** aus und wählen Sie eine der folgenden Optionen aus:
-a. **[!UICONTROL mit KI]**: Erstellen Sie mithilfe von KI eine Playlist. Weitere Informationen finden Sie in diesem [Abschnitt](/help/migrated/administrators/feature-summary/content-marketplace/curate-go1-playlist.md#create-a-playlist-with-ai).
-b. **[!UICONTROL von mir]**: Erstellen Sie eine Playlist, indem Sie ihr manuell Kurse hinzufügen. Weitere Informationen finden Sie in diesem [Abschnitt](/help/migrated/administrators/feature-summary/content-marketplace//curate-go1-playlist.md#create-a-playlist-manually).
+     a. **[!UICONTROL mit KI]**: Erstellen einer Playlist mithilfe von KI. Weitere Informationen finden Sie in diesem [Abschnitt](/help/migrated/administrators/feature-summary/content-marketplace/curate-go1-playlist.md#create-a-playlist-with-ai).
+     b. **[!UICONTROL allein]**: Erstellen Sie eine Playlist, indem Sie ihr manuell Kurse hinzufügen. Weitere Informationen finden Sie in diesem [Abschnitt](/help/migrated/administrators/feature-summary/content-marketplace//curate-go1-playlist.md#create-a-playlist-manually).
 
 ### Go1 AI Assistant
 
@@ -120,7 +120,7 @@ Administratoren können die Beschreibung der Wiedergabeliste in die AI-Eingabeau
 8. Ändern Sie den Titel mithilfe der verfügbaren AI-Optionen:
 
    * **[!UICONTROL Das Schreiben verbessern]**: Verfeinern Sie den vorhandenen Titel, um ihn deutlicher zu machen.
-   * **[!UICONTROL Titel generieren]**: Erstellen Sie automatisch einen neuen Titel basierend auf dem Inhalt oder dem Kontext.
+   * **[!UICONTROL Titel generieren]**: Erstellen Sie automatisch einen neuen Titel, der auf dem Inhalt oder dem Kontext basiert.
 
    ![](assets/ai-options-for-title.png)
    _Bildschirm zur Erstellung der Wiedergabeliste &quot;Go1&quot; mit AI-Optionen zur Verbesserung des Titels der Wiedergabeliste_
@@ -128,7 +128,7 @@ Administratoren können die Beschreibung der Wiedergabeliste in die AI-Eingabeau
 9. Ändern Sie die Beschreibung mithilfe der verfügbaren AI-Optionen:
    * **[!UICONTROL Das Schreiben verbessern]**: Verfeinern Sie die vorhandene Beschreibung, um sie deutlicher zu machen.
    * **[!UICONTROL Beschreibung generieren]**: Erstellen Sie automatisch eine neue Beschreibung basierend auf dem Inhalt oder Kontext.
-   * **[!UICONTROL Verkürzen]**: Kürzen Sie den Text oder Titel, während Sie die Hauptidee beibehalten.
+   * **[!UICONTROL Verkürzung]**: Kürzen Sie den Text oder Titel, während Sie die Grundidee beibehalten.
 
    ![](assets/ai-option-descriptions.png)
    _Bildschirm zur Erstellung der Wiedergabeliste &quot;Go1&quot; mit AI-Optionen zur Verbesserung der Beschreibung der Wiedergabeliste_

@@ -6,14 +6,14 @@ contentowner: saghosh
 exl-id: 71b495c7-a6c8-4e6e-9f00-ec93d7b483ad
 source-git-commit: 92ddeb8ad58d78ac139e7106bf22e7f1ff45b5b0
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 39%
+source-wordcount: '1205'
+ht-degree: 53%
 
 ---
 
 # Teilnehmer-Startseite
 
-## Überblick {#overview}
+## Übersicht {#overview}
 
 Nachdem der Administrator das immersive Layout aktiviert hat, wird der Teilnehmer mit einer komplett überarbeiteten Benutzeroberfläche begrüßt, wenn er sich bei der App anmeldet.
 
@@ -169,11 +169,11 @@ Profilkenntnisse werden für Kursempfehlungen verwendet. Wenn der Administrator 
 ![](assets/profile-skills.png)
 *Profilkenntnisse anzeigen*
 
-Wenn sich ein Teilnehmer für einen Kurs registriert, werden nur die externen Kenntnisse, die auf einer Punktzahl basieren, den Profilkenntnissen hinzugefügt. Darüber hinaus kann ein Teilnehmer sein Profil durchsuchen, auswählen und ihm externe Kenntnisse hinzufügen. Wenn sich ein Teilnehmer zum ersten Mal bei der Teilnehmer-App angemeldet hat und die Kenntnisse des Teilnehmers bereits vorhanden sind, werden die Kenntnisse in &quot;Mein Profil&quot; angezeigt.
+Wenn sich ein Teilnehmer für einen Kurs registriert, werden nur die externen Kenntnisse, die auf einer Punktzahl basieren, den Profilkenntnissen hinzugefügt. Darüber hinaus kann ein Teilnehmer sein Profil durchsuchen, auswählen und ihm externe Kenntnisse hinzufügen.Wenn sich ein Teilnehmer zum ersten Mal bei der Teilnehmer-App angemeldet hat und die Kenntnisse des Teilnehmers bereits vorhanden sind, werden die Kenntnisse in „Mein Profil“ angezeigt.
 
 ## Empfehlung basierend auf Ihrem Interessensbereich {#recommendationbasedonyourareaofinterest}
 
-Zeigt Schulungen basierend auf Ihrem ausgewählten Interessensbereich an. Die Empfehlung basiert auf einem Machine Learning-Algorithmus.
+Zeigt Schulungen basierend auf Ihrem ausgewählten Interessensbereich an. Die Empfehlungen basieren auf einem Machine Learning-Algorithmus.
 
 ![](assets/learner-recommendation.png)
 
@@ -201,7 +201,7 @@ In der Kenntnisdiagramm-Visualisierung können Sie nach einer Qualifikation oder
 
 *Visualisierung der Kenntniszuordnung*
 
-Aktivieren Sie die Option **Kenntnisse anzeigen, für die Schulungen in meinem Konto vorhanden sind**, wenn Sie alle Kenntnisse anzeigen möchten, die in Ihrem Konto vorhanden sind.
+Aktivieren Sie die Option **Kenntnisse anzeigen, für die Schulungen im eigenen Konto vorhanden sind**, wenn Sie alle Kenntnisse anzeigen möchten, die in Ihrem Konto vorhanden sind.
 
 Nachdem Sie eine Qualifikation hinzugefügt haben, können Sie das ausgerichtete Diagramm mit der ausgewählten Qualifikation als primärem Scheitelpunkt und den zugehörigen Kenntnissen als kleinere Scheitelpunkte sehen.
 

@@ -2,13 +2,13 @@
 title: Richtlinien und Einschränkungen von Experience Builder in Adobe Learning Manager
 description: Richtlinien und Einschränkungen von Experience Builder bieten Teilnehmern, die KI-gestützte Algorithmen verwenden, personalisierte Kurs- und Inhaltsvorschläge.
 jcr-language: en-us
-source-git-commit: b3124c47d56a50437cb284fe809828bcd4c4008d
+exl-id: 2eaeb2af-cd72-4400-9f6e-410c05acda55
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '805'
 ht-degree: 0%
 
 ---
-
 
 # Richtlinien und Einschränkungen von Experience Builder
 
@@ -24,10 +24,10 @@ In Experience Builder können Sie bis zu 1000 Seiten erstellen. Dies ist die Obe
 
 ### Widgets pro Seite
 
-* **Hartes Limit**: Einer einzelnen Seite können maximal 25 Widgets hinzugefügt werden.
+* **Hartes Limit**: Einer Seite können maximal 25 Widgets hinzugefügt werden.
 * **Empfohlenes Limit**: Für eine bessere Leistung wird empfohlen, nicht mehr als 10 Widgets pro Seite zu verwenden.
-* **API-basierte Widgets**: Widgets, die von ALM-APIs abhängig sind (z. B. Kurse und Pfade, Kategorie, Eigenes Lernen, Soziales Lernen, Kalender, Konformität, Leaderboard), sollten auf 10 pro Seite beschränkt sein.
-* **Unabhängige Widgets**: Widgets wie HTML und Inhaltsfeld, die nicht auf ALM-APIs basieren, können bis zu der festen Grenze von 25 Widgets verwendet werden.
+* **API-basierte Widgets**: Widgets, die von ALM-APIs abhängig sind (z. B. Kurse und Pfade, Kategorie, Eigenes Lernen, Soziales Lernen, Kalender, Konformität, Leaderboard), sollten auf 10 pro Seite beschränkt werden.
+* **Unabhängige Widgets**: Widgets wie HTML und Content Box, die nicht auf ALM-APIs basieren, können bis zu einer Höchstgrenze von 25 Widgets verwendet werden.
 
 ### Widgets für einmalige Verwendung
 
@@ -44,7 +44,7 @@ Die Verwendung von Widgets innerhalb dieser empfohlenen Größenrichtlinien verb
 ### Standardpixelabstände
 
 **Vertikaler Abstand**: Der standardmäßige vertikale Abstand zwischen Widgets beträgt 80 Pixel.
-**Horizontaler Abstand**: Der standardmäßige horizontale Abstand zwischen Widgets beträgt 20 Pixel.
+**Horizontaler Abstand**: Der horizontale Standardabstand zwischen Widgets beträgt 20 Pixel.
 
 ### Benutzerdefiniertes CSS
 
@@ -92,8 +92,8 @@ Menüs können oben oder links auf der Seite positioniert werden. Weitere Anpass
 
 ### Sicherheitsüberlegungen
 
-* **HTML-Widgets**: Sie müssen sicherstellen, dass der Code Sicherheitsprobleme wie XSS-Angriffe (Cross-Site Scripting) behandelt, da diese außerhalb des Gültigkeitsbereichs des Steuerelements von Experience Builder liegen.
-* **Benutzerdefinierte Fußzeile**: Stellen Sie beim Anpassen der Fußzeile mithilfe von HTML oder CSS sicher, dass der Code den Best Practices für die Sicherheit entspricht.
+* **HTML-Widgets**: Sie müssen sicherstellen, dass der Code Sicherheitsprobleme wie XSS-Angriffe (Cross-Site Scripting) behandelt, da diese außerhalb des Anwendungsbereichs der Experience Builder-Kontrolle liegen.
+* **Benutzerdefinierte Fußzeile**: Stellen Sie beim Anpassen der Fußzeile mit HTML oder CSS sicher, dass der Code den Best Practices zur Sicherheit entspricht.
 
 ### Umbruch von Änderungen
 
@@ -112,16 +112,6 @@ Aktualisierungen von Experience Builder können wichtige Änderungen bei Anpassu
 
 Jedes Widget und jede Seite verfügen über eindeutige IDs, die für zielgerichtete CSS-Änderungen verwendet werden können. Dies ermöglicht Anpassungen auf verschiedenen Ebenen:
 
-* Globale Ebene: Wenden Sie CSS-Änderungen auf alle Seiten an.
-* Widget-Ebene: Wenden Sie CSS-Änderungen auf bestimmte Widgets an.
-* Seitenebene: Wenden Sie CSS-Änderungen auf alle Widgets innerhalb einer bestimmten Seite an.
-
-
-
-
-
-
-
-
-
-
+* Globale Ebene: CSS-Änderungen auf alle Seiten anwenden.
+* Widget-Ebene: CSS-Änderungen auf bestimmte Widgets anwenden.
+* Seitenebene: CSS-Änderungen auf alle Widgets innerhalb einer bestimmten Seite anwenden.
