@@ -5,8 +5,8 @@ description: Learning Manager-Integration in Slack
 contentowner: dvenkate
 source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 44%
+source-wordcount: '469'
+ht-degree: 52%
 
 ---
 
@@ -22,7 +22,7 @@ Die Learning Manager-App für Slack wird in einer Azure-Instanz von Learning Man
 
 ## Installieren der Adobe Learning Manager-App {#installingadobecaptivateprimeapp}
 
-Als Kursteilnehmer können Sie die CP Prime-App in Ihrem Slack-Konto installieren. Um die App zu installieren, öffnen Sie in Ihrem Slack-Konto das App-Verzeichnis und suchen Sie nach Learning Manager. Laden Sie die App herunter und installieren Sie sie. Wenn die App in Ihrem Konto nicht genehmigt wurde, wenden Sie sich zur Genehmigung an Ihren Integrationsadministrator. Wenn sie bereits genehmigt ist, können Sie sich anmelden.
+Als Kursteilnehmer können Sie die CP Prime-App in Ihrem Slack-Konto installieren. Um die App zu installieren, öffnen Sie in Ihrem Slack-Konto das App-Verzeichnis und suchen Sie nach Learning Manager. Laden Sie die App herunter und installieren Sie sie. Wenn die App in Ihrem Konto nicht genehmigt wurde, wenden Sie sich zur Genehmigung an Ihren Integrations-Admin. Wenn sie bereits genehmigt ist, können Sie sich anmelden.
 
 ## Integrations-Admin-Genehmigung der Anmeldung eines Kursteilnehmers {#approvinglearnersigninasanintegrationadmin}
 
@@ -36,7 +36,7 @@ Um als Integrationsadministrator einem Teilnehmer die Berechtigung zur Verwendun
 
    ![](assets/approval.png)
 
-1. Gehen Sie zurück zur Seite **[!UICONTROL Anwendungen]**. Nach der Genehmigung sollte Slack auf der Registerkarte **[!UICONTROL Externe Apps]** angezeigt werden.
+1. Gehen Sie zurück zur Seite **[!UICONTROL Apps]**. Nach der Genehmigung sollte Slack auf der Registerkarte **[!UICONTROL Externe Apps]** angezeigt werden.
 1. Kursteilnehmer können sich jetzt mit Slack bei ihrem Prime-Konto anmelden.
 
 ## Primebot-Funktionen {#primebotfunctionalities}

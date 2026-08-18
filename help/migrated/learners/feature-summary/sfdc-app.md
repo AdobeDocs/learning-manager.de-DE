@@ -6,14 +6,14 @@ contentowner: jayakarr
 exl-id: 4de04fbe-af45-427e-9a2f-11990e1c6fe7
 source-git-commit: 92ddeb8ad58d78ac139e7106bf22e7f1ff45b5b0
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 62%
+source-wordcount: '502'
+ht-degree: 65%
 
 ---
 
 # Learning Manager-App für Salesforce
 
-## Überblick {#overview}
+## Übersicht {#overview}
 
 Salesforce™ ist die beliebteste CRM-Lösung unter Vertriebs- und Marketing-Teams. Indem Sie die Adobe Learning Manager-App in Salesforce verwenden, ermöglichen Sie ihren Benutzern den Zugriff auf ihre gesamten Lerninhalte direkt über die Salesforce-Benutzeroberfläche. Teilnehmer können über Salesforce auf ihre zugewiesenen Lerninhalte (z. B. Kurse, Lernprogramme und Arbeitshilfen) zugreifen. Benutzer können außerdem Benachrichtigungen über ihre Registrierungen und Ankündigungen vom Administrator erhalten.
 
@@ -45,7 +45,7 @@ Ein repräsentativer Screenshot der Teilnehmeransicht der Adobe Learning Manager
 
 ## Trennen von der App {#disconnectfromtheapp}
 
-Sie können auf den Link „Verbindung trennen“ unten auf der Teilnehmerseite klicken, wie im obigen Screenshot markiert, um die Verbindung zur Adobe Learning Manager-App zu **Trennen**. Sobald Sie die Verbindung trennen, werden Sie auf die Startseite der Adobe Learning Manager-App weitergeleitet.
+Sie können auf den Link „Verbindung trennen“ unten auf der Teilnehmerseite klicken, wie im obigen Screenshot markiert, um die Verbindung zur Adobe Learning Manager-App zu **Trennen**. Nachdem Sie die Verbindung getrennt haben, werden Sie auf die Begrüßungsseite der Adobe Learning Manager-App weitergeleitet.
 
 Sie können die Verbindung zur App beliebig oft herstellen oder trennen.
 
