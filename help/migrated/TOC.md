@@ -2,7 +2,7 @@
 user-guide-title: Leitfaden für Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Dokumentation für Adobe Learning Manager
-source-git-commit: 3fa2129d55276bf566149b0616e48ae77939d1a7
+source-git-commit: f95e4336d9b403f5803af175359893ceaa2a5daf
 workflow-type: tm+mt
 source-wordcount: '1660'
 ht-degree: 36%
@@ -237,10 +237,10 @@ ht-degree: 36%
       * [Erstellen effektiver Eingabeaufforderungen in Content Composer](authors/feature-summary/content-composer/write-effective-prompts.md)
     * Freigabe und Zusammenarbeit {#share}
       * [Freigeben und gemeinsame Bearbeitung eines Content Composer-Projekts](authors/feature-summary/content-composer/share-collaborate.md)
-      * {hide-from-toc}[Projekt zur Überprüfung freigeben](authors/feature-summary/content-composer/share-course-review.md)
-      * {hide-from-toc}[Projekt für Teilnehmer freigeben](authors/feature-summary/content-composer/share-course-learners.md)
-      * {hide-from-toc}[Freigegebenes Projekt überprüfen](authors/feature-summary/content-composer/review-shared-course.md)
-      * {hide-from-toc}[Verwalten und Antworten auf Überprüfungskommentare](authors/feature-summary/content-composer/manage-and-respond-comments.md)
+      * [Projekt zur Überprüfung freigeben](authors/feature-summary/content-composer/share-course-review.md)
+      * [Projekt für Teilnehmer freigeben](authors/feature-summary/content-composer/share-course-learners.md)
+      * [Freigegebenes Projekt überprüfen](authors/feature-summary/content-composer/review-shared-course.md)
+      * [Verwalten von und Antworten auf Überprüfungskommentare](authors/feature-summary/content-composer/manage-and-respond-comments.md)
     * Kurseinstellungen konfigurieren {#settings}
       * [Allgemeine Kurseinstellungen](authors/feature-summary/content-composer/general-course-settings.md)
       * [Abschluss- und Erfolgskriterien festlegen](authors/feature-summary/content-composer/set-completion-success-criteria.md)

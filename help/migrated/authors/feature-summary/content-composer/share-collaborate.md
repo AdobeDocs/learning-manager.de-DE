@@ -2,9 +2,9 @@
 description: Erfahren Sie, wie Sie einen Kurs zum Erstellen von Inhalten für Kollegen oder direkt für Teilnehmer zur Überprüfung freigeben. Lernen Sie den Unterschied zwischen den beiden Freigabe-Flows, den Zugriffskontrollen und den Auswirkungen auf die Nachverfolgung kennen.
 jcr-language: en_us
 title: Freigeben und Zusammenarbeiten an einem Kurs für Content Composer
-source-git-commit: c9c3345c11cae687ec2c1192129bf941e24160f4
+source-git-commit: f95e4336d9b403f5803af175359893ceaa2a5daf
 workflow-type: tm+mt
-source-wordcount: '111'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
@@ -12,30 +12,24 @@ ht-degree: 0%
 
 # Freigeben und Zusammenarbeiten an einem Kurs für Content Composer
 
->[!AVAILABILITY]
->
->IN KÜRZE!
+Vor der Veröffentlichung können Sie Ihren Kurs an Prüfer senden, um Feedback zu erhalten. Reviewer öffnen den freigegebenen Link in einem Browser, fügen Kommentare zu einer Kurskomponente hinzu und versuchen, das Quiz auf eine Vorschau des gesamten Teilnehmererlebnisses zu überprüfen. Autoren steuern den Zugriff, erfassen Feedback und aktualisieren den Kurs, ohne die Review-URL zu ändern. Sie können das Feedback ansprechen, den Kurs aktualisieren und bei Bedarf zusätzliche Überprüfungszyklen initiieren.
+
+Mit Content Composer können Sie Ihren Kurs an Prüfer und Teilnehmer verteilen und während des gesamten Authoring-Prozesses mit Ihrem Team zusammenarbeiten, ohne das Programm zu verlassen.
 
 Vor der Veröffentlichung können Sie Ihren Kurs an Prüfer senden, um Feedback zu erhalten. Reviewer öffnen den freigegebenen Link in einem Browser, fügen Kommentare zu einer Kurskomponente hinzu und versuchen, das Quiz auf eine Vorschau des gesamten Teilnehmererlebnisses zu überprüfen. Autoren steuern den Zugriff, erfassen Feedback und aktualisieren den Kurs, ohne die Review-URL zu ändern. Sie können das Feedback ansprechen, den Kurs aktualisieren und bei Bedarf zusätzliche Überprüfungszyklen initiieren.
 
-<!--
-Content Composer lets you distribute your course to reviewers and learners, and collaborate with your team throughout the authoring process, all without leaving the app.  
+Sobald der Kurs fertig ist, können Sie ihn Teilnehmern direkt zur Verfügung stellen oder in Adobe Learning Manager veröffentlichen, um sich zu registrieren, nachzuverfolgen und Berichte zu erstellen.
 
-Before publishing, you can send your course to reviewers for feedback. Reviewers open the shared link in a browser, add comments on any course component, and attempt the quiz to preview the full learner experience. Authors control access, collect feedback, and update the course without changing the review URL. You can address the feedback, update the course, and initiate additional review cycles as needed.  
+Während des gesamten Prozesses tragen Kommentare und Erwähnungen dazu bei, dass alle in Einklang stehen. Mitwirkende können @mentions verwenden, um Team-Kollegen mit Tags zu versehen, Fragen zu stellen und bestimmte Teile des Kurses zu besprechen, um sicherzustellen, dass Feedback kontextbezogen, sichtbar und umsetzbar bleibt.
 
-Once the course is ready, you can make it available to learners directly or publish it to Adobe Learning Manager for enrollment, tracking, and reporting.  
+Adobe Learning Manager Content Composer verfügt über zwei Freigabemodi, auf die über die Schaltfläche **Freigeben** in der oberen Symbolleiste zugegriffen wird.
 
-Throughout the process, comments and mentions help keep everyone aligned. Collaborators can use @mentions to tag teammates, ask questions, and discuss specific parts of the course, ensuring that feedback remains contextual, visible, and actionable.
+Wählen Sie in Content Composer in der Symbolleiste **Freigeben**. Der Bereich &quot;**Projekt freigeben**&quot; wird mit zwei Registerkarten geöffnet:
 
-Adobe Learning Manager Content Composer has two sharing modes, accessed from the **Share** button in the top toolbar.
+* **Zur Überprüfung**: Senden Sie das Projekt per E-Mail-Einladung oder teilen Sie einen Link.
 
-In Content Composer, select **Share** in the toolbar. The **Share project** panel opens with two tabs:
+* **Für Teilnehmer**: Stellen Sie ihnen einen Link zum Projekt zur Verfügung - ohne LMS-Verbindung.
 
-* **For review**: Send the project by email invite or share a link.
-
-* **For learners**: Provide them with a link to the project -- no need of LMS connection.
-
-Both these options give you control and flexibility in sharing your courses.
+Mit diesen beiden Optionen haben Sie die Möglichkeit, Ihre Kurse flexibel freizugeben.
 
 ![](../assets/52_share_project_for_review_add_names_emails.png)
--->

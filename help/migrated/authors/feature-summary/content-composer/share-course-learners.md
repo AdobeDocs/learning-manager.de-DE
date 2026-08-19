@@ -2,8 +2,7 @@
 description: Erfahren Sie, wie Sie einen Teilnehmer-Link in Content Composer generieren, auf welche Teilnehmer über diesen Link zugreifen können und warum eine verfolgte Bereitstellung die Veröffentlichung in Adobe Learning Manager erfordert, anstatt einen direkten Link freizugeben.
 jcr-language: en_us
 title: Kurs für Teilnehmer freigeben
-hide: true
-source-git-commit: babcf60fe3c1a8dddcd9f0c5871e406727c5ddf7
+source-git-commit: f95e4336d9b403f5803af175359893ceaa2a5daf
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 0%
