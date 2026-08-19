@@ -1,9 +1,9 @@
 ---
 title: Kanäle erstellen (Beta)
 description: Erfahren Sie, wie Sie in Adobe Learning Manager Kanäle aktivieren, erstellen und bearbeiten, um videobasierte Lerninhalte von Webseiten und Confluence Cloud-Seiten an einem einzigen, durchsuchbaren Ort für Teilnehmer zu platzieren.
-source-git-commit: 2ca8cf23fa622ce522456c1e1a526e175ddfc8e7
+source-git-commit: 4d41ac369f35e2a1de961288a5ded9c0c6af2c82
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1135'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,9 @@ ht-degree: 0%
 
 Unternehmen speichern Wissensvermittlungssitzungen, Schulungsaufzeichnungen und andere Videoinhalte oft in informellen Lerninhalten, die im Web und auf Confluence Cloud-Seiten kuratiert werden. Durch Kanäle wird Adobe Learning Manager mit diesen Inhaltsquellen verbunden, was die Erkennung und Nutzung von Videos vereinfacht, ohne dass die Teilnehmer in mehreren Systemen navigieren müssen. Mit Kanälen können Sie videobasierte Lerninhalte von Unternehmens-Webseiten und Confluence Cloud-Seiten an einem einzigen, durchsuchbaren Ort organisieren und freigeben. Anstatt mehrere interne Sites zu durchsuchen, können Teilnehmer relevante Aufzeichnungen direkt aus Adobe Learning Manager entdecken und darauf zugreifen. Weitere Informationen finden Sie unter [Kanäle entdecken und mit ihnen interagieren](../../learners/feature-summary/discover-and-engage-with-channels.md).
 
-Als Administrator können Sie Kanäle erstellen und verwalten, Sichtbarkeitseinstellungen konfigurieren, Inhalte mit der Quelle synchronisieren und überprüfen, ob Videos verfügbar sind, bevor Sie den Kanal für Teilnehmer zugänglich machen. In diesem Artikel wird erläutert, wie diese Kanalverwaltungsaufgaben ausgeführt werden.
+Als Administrator können Sie Kanäle erstellen und verwalten, Sichtbarkeitseinstellungen konfigurieren, Inhalte mit der Quelle synchronisieren und überprüfen, ob Videos verfügbar sind, bevor Sie den Kanal für Teilnehmer zugänglich machen. Die unterstützten Videoformate sind **MP4** und **WebM**.
+
+In diesem Artikel wird erläutert, wie diese Kanalverwaltungsaufgaben ausgeführt werden.
 
 **Wichtigste Vorteile**
 
