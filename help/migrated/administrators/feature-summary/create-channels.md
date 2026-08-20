@@ -119,7 +119,7 @@ Verwenden Sie das Suchfeld, um einen Kanal schnell anhand seines Namens zu finde
 
    ![Suchkanäle](assets/search-channels.png)
 
-   *Geben Sie einen Kanalnamen in das Suchfeld ein, um die Liste **Kanäle**zu filtern.*
+   *Geben Sie einen Kanalnamen in das Suchfeld ein, um die Liste **Kanäle**&#x200B;zu filtern.*
 
 ## Sichtbarkeit von Kanälen verwalten
 
