@@ -1,15 +1,19 @@
 ---
 title: Kanäle entdecken und interagieren
 description: Erfahren Sie, wie Sie Videoinhalte, die über Kanäle in Adobe Learning Manager verfügbar sind, suchen, abonnieren, anschauen, mögen und an Diskussionen teilnehmen.
-source-git-commit: 2ca8cf23fa622ce522456c1e1a526e175ddfc8e7
+source-git-commit: fcd21641183346cf88062b79600b1f8385f61803
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 1%
+source-wordcount: '787'
+ht-degree: 0%
 
 ---
 
 
 # Kanäle entdecken und mit ihnen interagieren (Beta)
+
+>[!IMPORTANT]
+>
+>Beta-Funktionen können Mängel enthalten und werden &quot;wie besehen&quot; ohne jegliche Gewährleistung bereitgestellt. Adobe hat das alleinige Ermessen, ob Betafunktionen allgemein verfügbar gemacht werden sollen. Adobe ist nicht verpflichtet, die Beta-Funktionen zu verwalten, zu korrigieren, zu aktualisieren, zu ändern, zu ändern oder auf andere Weise (über Adobe Support Services oder auf andere Weise) zu unterstützen. Sollte eine Beta-Funktion allgemein verfügbar werden, kann sie zusätzlichen Nutzungsbedingungen einschließlich ggf. anfallender Gebühren unterliegen. Beta-Funktionen können sich ohne vorherige Ankündigung ändern, einschließlich der Kündigung. Kunden wird empfohlen, mit Vorsicht vorzugehen und sich in keiner Weise auf die ununterbrochene oder fehlerfreie Funktion oder Leistung der Betafunktionen zu verlassen. Dementsprechend erfolgt jede Nutzung der Beta-Funktionen auf eigenes Risiko des Kunden. Die Produktfunktionen und die zugehörige Dokumentation können sich mit der Weiterentwicklung der Funktion ändern. Diese Dokumentation spiegelt die aktuelle Beta-Erfahrung wider und sollte nicht als endgültige oder vollständige Produktdokumentation betrachtet werden.
 
 Kanäle helfen Teilnehmern dabei, videobasierte informelle Lerninhalte zu entdecken und darauf zuzugreifen, die in Web- und Cloud Confluence-Seiten innerhalb der Adobe Learning Manager kuratiert sind. Administratoren erstellen Kanäle, indem sie sie mit Unternehmens-Web-Seiten oder Cloud Confluence-Seiten verbinden, die aufgezeichnete Wissensaustausch- und Wissenstransfersitzungen hosten.
 
