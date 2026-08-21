@@ -3,9 +3,9 @@ description: Erfahren Sie mehr über die neuen Funktionen und Verbesserungen in 
 jcr-language: en_us
 title: Neue Funktionen in Adobe Learning Manager Version August 2026
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: f5a988186fdc44d64389ad850af57bde10b728e9
+source-git-commit: 5820baa285787af20e7257001b4fb35337d5972a
 workflow-type: tm+mt
-source-wordcount: '2647'
+source-wordcount: '2644'
 ht-degree: 0%
 
 ---
@@ -161,7 +161,7 @@ Weitere Informationen über [Learning Path Agent](/help/migrated/learners/featur
 
 Der Insights Agent unterstützt Administratoren bei der Analyse von Lerndaten durch Abfragen in natürlicher Sprache. Stellen Sie Fragen zu Anmelde-Trends, Abschlussraten, Interaktionen mit Teilnehmern und Qualifikationslücken. Der Agent generiert Berichte und Visualisierungen als Reaktion.
 
-Weitere Informationen zu [Insights Agent](/help/migrated/administrators/feature-summary/insights-agent.md).
+Weitere Informationen zum [Insights Agent](/help/migrated/administrators/feature-summary/insights-agent.md).
 
 <!--
 ### Gen AI credits
