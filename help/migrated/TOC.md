@@ -2,10 +2,10 @@
 user-guide-title: Leitfaden für Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Dokumentation für Adobe Learning Manager
-source-git-commit: f95e4336d9b403f5803af175359893ceaa2a5daf
+source-git-commit: 2fff90164df5d54a6dbe1bb62bab5fd3da59029c
 workflow-type: tm+mt
-source-wordcount: '1660'
-ht-degree: 36%
+source-wordcount: '1651'
+ht-degree: 37%
 
 ---
 
@@ -233,8 +233,6 @@ ht-degree: 36%
       * [Bild bearbeiten oder hinzufügen](authors/feature-summary/content-composer/edit-add-image.md)
       * [Inhaltskomponente hinzufügen](authors/feature-summary/content-composer/add-content-component.md)
       * [Kursvorschau](authors/feature-summary/content-composer/preview-course.md)
-    * Erfolgreiche Eingabeaufforderungen schreiben {#write-effective-prompt}
-      * [Erstellen effektiver Eingabeaufforderungen in Content Composer](authors/feature-summary/content-composer/write-effective-prompts.md)
     * Freigabe und Zusammenarbeit {#share}
       * [Freigeben und gemeinsame Bearbeitung eines Content Composer-Projekts](authors/feature-summary/content-composer/share-collaborate.md)
       * [Projekt zur Überprüfung freigeben](authors/feature-summary/content-composer/share-course-review.md)
