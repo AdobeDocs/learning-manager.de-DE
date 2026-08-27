@@ -32,7 +32,7 @@ Wenn der Teilnehmerassistent über iFrame eingebettet ist, bietet er Zugriff auf
 Voraussetzungen:
 
 * Ein ALM-Mandant mit aktiviertem Teilnehmerassistenten. Konfigurieren Sie die erforderlichen Kataloge auf der Seite &quot;Administratoreinstellungen&quot;.
-* Ein gültiges Zugriffstoken zum Authentifizieren der Teilnehmer- (oder Admin-) Sitzung. Befolgen Sie zum Generieren eines Zugriffstokens die Anweisungen auf der Seite [Authentifizierung mit OAuth 2.0](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20). Die Seite enthält die Schritte, die zur Authentifizierung und Generierung des Zugriffstokens erforderlich sind, um fortzufahren.
+* Ein gültiges Zugriffstoken zum Authentifizieren der Teilnehmer- (oder Admin-) Sitzung. Befolgen Sie zum Generieren eines Zugriffstokens die Anweisungen auf der Seite [Authentifizierung mit OAuth 2.0](https://experienceleague.adobe.com/de/docs/learning-manager/using/integration/developer-manual#authentication-using-oauth-20). Die Seite enthält die Schritte, die zur Authentifizierung und Generierung des Zugriffstokens erforderlich sind, um fortzufahren.
 * Die Möglichkeit, eine `<iframe>` in Ihre Anwendung einzubetten und mit ihr über die postMessage-API des Browsers zu kommunizieren.
 * Front-End-Code der übergeordneten Anwendung, da die Anwendung auf Meldungen vom eingebetteten iFrame achten und darauf reagieren muss.
 
