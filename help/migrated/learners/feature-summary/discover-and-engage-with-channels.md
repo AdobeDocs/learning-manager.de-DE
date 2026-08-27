@@ -1,9 +1,9 @@
 ---
 title: Kanäle entdecken und interagieren
 description: Erfahren Sie, wie Sie Videoinhalte, die über Kanäle in Adobe Learning Manager verfügbar sind, suchen, abonnieren, anschauen, mögen und an Diskussionen teilnehmen.
-source-git-commit: fcd21641183346cf88062b79600b1f8385f61803
+source-git-commit: cb49d8e4159c7dc8650ef4c981d24f3507bfff93
 workflow-type: tm+mt
-source-wordcount: '787'
+source-wordcount: '802'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,10 @@ Verwenden Sie die Seite **Kanäle**, um neue Inhalte zu entdecken, auf abonniert
 1. Melden Sie sich bei Adobe Learning Manager an.
 
 1. Wählen Sie in der oberen Navigationsleiste **Kanäle** aus.
+
+   >[!NOTE]
+   >
+   >Wenn Sie die Registerkarte **Kanäle** in der Navigationsleiste nicht anzeigen können, wenden Sie sich an Ihren Administrator.
 
    <br> Die Seite **Kanäle** wird geöffnet. Die Registerkarte **Alle** wird standardmäßig angezeigt.
 

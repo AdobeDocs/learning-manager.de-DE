@@ -1,9 +1,9 @@
 ---
 title: Kanäle erstellen (Beta)
 description: Erfahren Sie, wie Sie in Adobe Learning Manager Kanäle aktivieren, erstellen und bearbeiten, um videobasierte Lerninhalte von Webseiten und Confluence Cloud-Seiten an einem einzigen, durchsuchbaren Ort für Teilnehmer zu platzieren.
-source-git-commit: fcd21641183346cf88062b79600b1f8385f61803
+source-git-commit: 819dd240ab33369c6cb5050b1b354d632aabd62f
 workflow-type: tm+mt
-source-wordcount: '1283'
+source-wordcount: '1307'
 ht-degree: 0%
 
 ---
@@ -86,11 +86,15 @@ Erstellen Sie einen Kanal, um die Inhaltsquelle zu definieren, die Adobe Learnin
 
    1. **Sichtbar für Teilnehmer**: Aktivieren Sie diese Option, um den Kanal Teilnehmern zur Verfügung zu stellen. Deaktivieren Sie diese Option, um den Kanal auszublenden, während Sie mit der Konfiguration oder dem Testen fortfahren.
 
+      >[!NOTE]
+      >
+      >Die Registerkarte &quot;Kanäle&quot; ist für Teilnehmer nur sichtbar, wenn diese Einstellung aktiviert ist und mindestens ein Video enthält.
+
    1. **Automatisch synchronisieren**: Aktivieren Sie diese Option, um den Kanal automatisch zu aktualisieren, wenn der Quelle neue Videos hinzugefügt werden. Deaktivieren Sie sie, wenn Sie den Kanal manuell synchronisieren möchten.
 
 1. (Optional) Wählen Sie **Erweiterte Einstellungen anzeigen** aus, und konfigurieren Sie dann die folgenden Optionen nach Bedarf:
 
-   1. **Farbe des Kanalthemas**: Wählen Sie eine Farbe aus, um das Erscheinungsbild des Kanals anzupassen.
+   1. **Farbe des Kanalthemas**: Wählen Sie in der Dropdown-Liste eine Farbe aus, um das visuelle Erscheinungsbild des Kanals anzupassen.
 
    1. **Durchforstungs-Tiefe**: Geben Sie die Tiefe für die Suche nach verknüpften Seiten ein, um nach Videoinhalten zu suchen. Es unterstützt eine maximale Durchforstungs-Tiefe von **2**.
 
@@ -119,7 +123,7 @@ Verwenden Sie das Suchfeld, um einen Kanal schnell anhand seines Namens zu finde
 
    ![Suchkanäle](assets/search-channels.png)
 
-   *Geben Sie einen Kanalnamen in das Suchfeld ein, um die Liste **Kanäle**&#x200B;zu filtern.*
+   *Geben Sie einen Kanalnamen in das Suchfeld ein, um die Liste **Kanäle**zu filtern.*
 
 ## Sichtbarkeit von Kanälen verwalten
 

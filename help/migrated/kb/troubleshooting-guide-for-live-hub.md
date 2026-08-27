@@ -1,9 +1,9 @@
 ---
 title: Leitfaden zur Fehlerbehebung für Live Hub (Beta)
 description: Häufige Fehlermeldungen und Benachrichtigungen, die während einer Live Hub-Sitzung auftreten können, sowie deren Ursachen und Schritte zu ihrer Behebung.
-source-git-commit: 43d4a9fb47d94ef541984a1c1fb9c70ba4e3f61d
+source-git-commit: a454fbcdfc37a139245d925dd01bb931d6f83432
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1072'
 ht-degree: 2%
 
 ---
@@ -68,7 +68,7 @@ Die folgenden Meldungen können angezeigt werden, wenn ein Kursleiter versucht, 
 |---|---|---|
 | Die Trennung kann nicht gestartet werden - Verbindung wird unterbrochen. Versuchen Sie es erneut, wenn die Verbindung wiederhergestellt wird. | Ein Kursleiter versucht, Arbeitsräume zu starten, während seine Verbindung derzeit unterbrochen oder erneut hergestellt wird. | Warten Sie, bis sich die Verbindung stabilisiert hat (achten Sie auf eine Anzeige für eine erneute Verbindung), und starten Sie die Arbeitsräume erneut. |
 | Das Aufteilen konnte nicht gestartet werden. Versuchen Sie es noch einmal. | Ein Kursleiter startet Arbeitsräume, und die Anforderung zum Starten schlägt fehl. | Starten Sie die Arbeitsräume erneut. Wenn das Problem weiterhin besteht, schließen Sie das Bedienfeld &quot;Arbeitsgruppen&quot; und versuchen Sie es erneut. |
-| Die Zusammenfassung konnte nicht generiert werden. | Dies kann in folgenden Situationen auftreten: <ul><li>Während der Session hat kein User gesprochen, daher gibt es keinen Audio-Content, den du zusammenfassen kannst.</li><li>Die Diskussion dauert weniger als 60 Sekunden.</li></ul> | Stellen Sie sicher, dass die Teilnehmer während der Sitzung mindestens 60 Sekunden lang aktiv sprechen, bevor Sie die Zusammenfassung generieren. Wenn das Problem weiterhin besteht, warten Sie einen Moment und versuchen Sie es erneut. |
+| Die Zusammenfassung konnte nicht generiert werden. | Dieser Fehler kann an drei Stellen auftreten:  die Live-Übersicht **Raum** überprüfen, eine **raumspezifische Übersicht** im Arbeitsgruppenbericht und die **Gesamtübersicht** im Arbeitsgruppenbericht, je nach Ursache: <ul><li>Kein Teilnehmer sprach während der Diskussion im Raum.</li><li>Die Diskussion im Raum dauerte weniger als 60 Sekunden.</li><li>Nur ein Arbeitsraum hat eine Zusammenfassung generiert.</li></ul> | Korrigieren Sie die Ursache wie oben beschrieben: <ul><li>Sorgen Sie dafür, dass die Teilnehmer während der Diskussion im Raum aktiv sprechen.</li><li>Stellen Sie sicher, dass die Diskussion mindestens 60 Sekunden dauert, bevor Sie die Zusammenfassung überprüfen oder generieren.</li><li>Stellen Sie sicher, dass mindestens 2 Arbeitsräume einzelne Übersichten erstellt haben, bevor die Gesamtübersicht generiert werden kann.</li><li>Wenn das Problem weiterhin besteht, nachdem die relevante Ursache behoben wurde, warten Sie einen Moment und versuchen Sie es erneut.</li></ul> |
 
 ## Antworten auf Probleme mit der Generierung von Toasts
 
