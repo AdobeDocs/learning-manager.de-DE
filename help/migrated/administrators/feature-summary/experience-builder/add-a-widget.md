@@ -155,7 +155,7 @@ So konfigurieren Sie das Widget &quot;Kurse und Pfade&quot;:
 
 ![](assets/configure-course-paths.png)
 _Widget &quot;Kurse und Pfade&quot;, in dem Administratoren den Titel und die Beschreibung des Widgets festlegen und Kurse oder Lernpfade auswählen, die als interaktive Karten angezeigt werden sollen_
-11. Wählen Sie **[!UICONTROL Widget hinzufügen]**.
+&#x200B;11. Wählen Sie **[!UICONTROL Widget hinzufügen]**.
 
 Das Widget &quot;Kurse und Pfade&quot; wird der Seite hinzugefügt. Administratoren können andere Widgets hinzufügen und die Seite veröffentlichen.
 
