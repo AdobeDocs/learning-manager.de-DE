@@ -1,9 +1,9 @@
 ---
 title: Erstellen und Verwalten von Arbeitsgruppensitzungen im Live Hub
 description: Hier erfahren Sie, wie Kursleiter Arbeitsräume in einer Live-Hub-Sitzung erstellen, konfigurieren, starten, überwachen und verwalten, einschließlich KI-generierter Raumzusammenfassungen und Berichte.
-source-git-commit: f16239fb4a169f22e03a23d11c43f9accfbb72ec
+source-git-commit: 0da79f36c305889cb70831f7791fddbd1f470da0
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1387'
 ht-degree: 0%
 
 ---
@@ -146,7 +146,7 @@ Die Kursleiter können in jedem Arbeitsraum KI-generierte Zusammenfassungen der 
 
 >[!NOTE]
 >
->Ein Raum benötigt mindestens 60 Sekunden Diskussion, bevor eine Zusammenfassung generiert werden kann. Bei weniger aktiven Zimmern wird im Fenster &quot;Zimmer prüfen&quot; keine Zusammenfassung angezeigt.
+>Ein Arbeitsraum muss mindestens 60 Sekunden lang diskutiert werden, bevor eine Zusammenfassung generiert werden kann. Bei weniger aktiven Zimmern wird im Fenster &quot;Zimmer prüfen&quot; keine Zusammenfassung angezeigt.
 
 So zeigen Sie Zusammenfassungen an:
 
@@ -184,20 +184,24 @@ Sie können die Arbeitsgruppensitzung jederzeit beenden.
 
 ## Anzeigen eines Arbeitsgruppensitzungsberichts
 
-Nachdem die Arbeitsgruppensitzung beendet ist, können Sie auf den Bericht der Arbeitsgruppensitzung zugreifen, um die Sitzungsaktivität und die Teilnahme zu überprüfen. Der Bericht enthält Teilnehmerdetails, raumspezifische Zusammenfassungen von Arbeitsgruppendiskussionen, für die Teilnehmer freigegebene Anweisungen und einen Überblick über die Dauer und das Engagement der Sitzung.
+Nachdem die Arbeitsgruppensitzung beendet ist, können Sie auf den Bericht der Arbeitsgruppensitzung zugreifen, um die Sitzungsaktivität und die Teilnahme zu überprüfen. Der Bericht enthält die Teilnehmerdetails, eine allgemeine und raumspezifische Zusammenfassung der Arbeitsgruppendiskussionen, Anweisungen für die Teilnehmer sowie eine Übersicht über die Sitzungsdauer und das Engagement.
 
 >[!NOTE]
 >
->Für Räume mit weniger als 60 Sekunden Gesprächszeit ist keine Zusammenfassung im Bericht enthalten.
+>Für Arbeitsräume mit weniger als 60 Sekunden Gesprächszeit ist keine Zusammenfassung im Bericht enthalten.
 
 So zeigen Sie einen Arbeitsgruppensitzungsbericht an:
 
 1. Navigieren Sie zur geschlossenen Arbeitsgruppensitzung im Bereich **Arbeitsgruppen**.
 
-1. **Berichte anzeigen** auswählen. <br> Das Popup-Fenster &quot;Arbeitsgruppenbericht&quot; wird mit dem Bericht &quot;Räume&quot; geöffnet.
+1. **Berichte anzeigen** auswählen. <br> Das Popupfenster &quot;Arbeitsgruppenbericht&quot; wird mit der Sitzungszusammenfassung geöffnet.
 
    ![Bericht über Arbeitsgruppensitzungen](assets/breakout-session-report.png)
    *Popup-Fenster für Arbeitsgruppenberichte, in dem der Arbeitsgruppenraumbericht angezeigt wird.*
+
+1. Führen Sie einen der folgenden Schritte aus:
+   * Wählen Sie **Alle Räume** aus, um die **Gesamtübersicht** für die Arbeitsgruppensitzung anzuzeigen.
+   * Wählen Sie eine Raumregisterkarte aus, um die Zusammenfassung für diesen Raum anzuzeigen.
 
 Alle Erkenntnisse zu Arbeitsgruppensitzungen sind auch im **Sitzungs-Dashboard** verfügbar, in dem Sie Zusammenfassungen überprüfen, die Teilnahme analysieren und die Sitzungsergebnisse nach der Sitzung verfolgen können. Weitere Informationen finden Sie unter [Komponenten des Sitzungs-Dashboards](./components-of-the-session-dashboard.md).
 

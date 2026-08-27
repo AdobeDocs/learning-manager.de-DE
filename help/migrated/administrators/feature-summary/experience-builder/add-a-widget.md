@@ -2,13 +2,13 @@
 title: Widgets in Experience Builder hinzufügen und konfigurieren
 description: Erfahren Sie, wie Sie verschiedene Widgets in Experience Builder in Adobe Learning Manager hinzufügen, anpassen und konfigurieren. Dieses Handbuch behandelt häufig verwendete Widgets wie Kalender, Kategorien, Konformitätsstatus, Kurse und Pfade, Gamification, HTML-Inhalte, IFrames, soziales Lernen und mehr.
 jcr-language: en-us
-source-git-commit: 7fe4576e2a90b27f51d035f01a30ce3a818b95c2
+exl-id: 9f9fe71b-62ff-4873-a103-e80a7e88811a
+source-git-commit: 30372b696921be9e896f947e96683b72587f1323
 workflow-type: tm+mt
-source-wordcount: '2483'
+source-wordcount: '2495'
 ht-degree: 0%
 
 ---
-
 
 # Widgets hinzufügen und konfigurieren
 
@@ -60,7 +60,7 @@ Administratoren fügen das Widget &quot;Kategorien&quot; zu einer Seite hinzu, u
 
 Lesen Sie [Kataloge](/help/migrated/administrators/feature-summary/catalogs.md) und [Recommendations](/help/migrated/recommendations-adobe-learning-manager.md) Artikel, um mehr über das Konfigurieren von Katalogen und Empfehlungen zu erfahren.
 
-<b>Hinweis</b>: Wenn &quot;Katalog&quot; im Widget &quot;Kategorien&quot; ausgewählt ist, wird die Liste standardmäßig nach Erstellungsdatum sortiert. Zuletzt erstellte Kataloge werden zuerst angezeigt.
+<b>Hinweis</b>: Wenn im Widget &quot;Kategorien&quot; die Option &quot;Katalog&quot; ausgewählt ist, wird die Liste standardmäßig nach dem Erstellungsdatum sortiert. Zuletzt erstellte Kataloge werden zuerst angezeigt.
 
 ### Kategorie-Widget hinzufügen
 
@@ -134,7 +134,7 @@ Administratoren fügen das Widget &quot;Kurse und Pfade&quot; Seiten hinzu, um w
 
 ### Widget &quot;Kurse und Pfade&quot; hinzufügen
 
-Ein Finanzunternehmen möchte rollenspezifische Schulungsseiten für seine beiden Teams erstellen: Vertriebs- und Customer Success Manager (CSM). Das Widget &quot;Kurse und Pfade&quot; kann verwendet werden, um die relevantesten Lernprogramme für jedes Team anzuzeigen.
+Ein Finanzunternehmen möchte rollenspezifische Schulungsseiten für seine beiden Teams erstellen: Sales und Customer Success Manager (CSM). Das Widget &quot;Kurse und Pfade&quot; kann verwendet werden, um die relevantesten Lernprogramme für jedes Team anzuzeigen.
 
 So konfigurieren Sie das Widget &quot;Kurse und Pfade&quot;:
 
@@ -165,7 +165,7 @@ Mit dem Widget &quot;Inhaltsfeld&quot; können Administratoren angepassten Inhal
 
 ### Hinzufügen eines Inhaltsfeld-Widgets
 
-Ein Finanzunternehmen möchte rollenspezifische Schulungsseiten für seine beiden Teams erstellen: Vertriebs- und Customer Success Manager (CSM). Das Widget &quot;Inhaltsfeld&quot; kann verwendet werden, um benutzerdefinierte Abschnitte mit Titeln, Beschreibungen, Bildern und Call-to-Action-Schaltflächen hinzuzufügen, die zielgerichtete Ressourcen, Updates und Motivationsmeldungen freigeben.
+Ein Finanzunternehmen möchte rollenspezifische Schulungsseiten für seine beiden Teams erstellen: Sales und Customer Success Manager (CSM). Das Widget &quot;Inhaltsfeld&quot; kann verwendet werden, um benutzerdefinierte Abschnitte mit Titeln, Beschreibungen, Bildern und Call-to-Action-Schaltflächen hinzuzufügen, die zielgerichtete Ressourcen, Updates und Motivationsmeldungen freigeben.
 
 So konfigurieren Sie das Inhaltsfeld-Widget:
 
@@ -184,10 +184,10 @@ So konfigurieren Sie das Inhaltsfeld-Widget:
 9. Geben Sie den Text in die **[!UICONTROL Aktionsschaltflächenbezeichnung]** ein und geben Sie einen Link an.
 10. Wählen Sie eine der Optionen für die Hintergrundfüllung aus:
 
-    * **[!UICONTROL Farbe]**: Wählen Sie die Farbe im Farbwähler aus, oder geben Sie den Farbcode in das Textfeld ein.
+    * **[!UICONTROL Farbe]**: Wählen Sie die Farbe im Farbwähler aus oder geben Sie den Farbcode in das Textfeld ein.
     * **[!UICONTROL Image]**: Durchsuchen Sie ein Bild und laden Sie es hoch.
 
-11. Passen Sie die Höhe des Felds mithilfe der Option **[!UICONTROL Höhe des Inhaltsfelds]** an.
+11. Passen Sie das Box-Height mithilfe der Option **[!UICONTROL Inhaltsbox-Height]** an.
 12. Wählen Sie die Textformatierungsoptionen aus.
 
     ![](assets/configure-content-box.png)
@@ -203,7 +203,7 @@ Administratoren fügen das Gamification-Widget zu benutzerdefinierten Seiten hin
 
 ### Gamification-Widget hinzufügen
 
-Ein Finanzunternehmen möchte das Engagement und die Motivation der Teilnehmer in seinen beiden großen Teams fördern: Vertriebs- und Customer Success Manager (CSM). Das Gamification-Widget kann verwendet werden, um Teilnehmer mit Punkten, Abzeichen und Ranglisten für den Abschluss von Schulungen und die aktive Teilnahme zu belohnen.
+Ein Finanzunternehmen möchte das Engagement und die Motivation der Teilnehmer in seinen beiden wichtigsten Teams steigern: Sales und Customer Success Manager (CSM). Das Gamification-Widget kann verwendet werden, um Teilnehmer mit Punkten, Abzeichen und Ranglisten für den Abschluss von Schulungen und die aktive Teilnahme zu belohnen.
 
 Für das Vertriebsteam könnte sich Gamification auf die Belohnung von Erfolgen in Bezug auf Verkaufsfähigkeiten, Produktkenntnisse und Schulung zur Kundeninteraktion konzentrieren. Im CSM-Team kann der Schwerpunkt auf Kundendienstzertifizierungen, Compliance-Schulungen und Client-Management-Kenntnissen liegen.
 
@@ -231,7 +231,7 @@ Mit dem HTML-Widget können Administratoren benutzerdefinierten HTML-Code direkt
 
 ### Hinzufügen eines HTML-Widgets
 
-Ein Finanzunternehmen möchte maßgeschneiderte, interaktive Inhalte anbieten, die auf seine beiden Hauptteams - Sales und Customer Success Manager (CSM) - zugeschnitten sind. Das HTML-Widget kann verwendet werden, um benutzerdefinierte HTML-basierte Ressourcen wie Finanz-Dashboards, Datenvisualisierungen, interaktive Formulare oder Marktanalysetools direkt in ihre Schulungs- oder Teamseiten einzubetten.
+Ein Finanzunternehmen möchte maßgeschneiderte, interaktive Inhalte für seine beiden Hauptteams bereitstellen: Sales und Customer Success Manager (CSM). Das HTML-Widget kann verwendet werden, um benutzerdefinierte HTML-basierte Ressourcen wie Finanz-Dashboards, Datenvisualisierungen, interaktive Formulare oder Marktanalysetools direkt in ihre Schulungs- oder Teamseiten einzubetten.
 
 HTML-Widget konfigurieren:
 
@@ -273,10 +273,10 @@ So konfigurieren Sie das Iframe-Widget:
    _Bildschirm zur Widget-Auswahl, in dem das Iframe-Widget zum Einbetten von externen Anwendungen oder Webseiten in einen ausgewählten Abschnitt hervorgehoben wird_
 
 8. Geben Sie die URL in die Option **[!UICONTROL Seite, die mit der Aktionsschaltfläche]** verknüpft ist, ein.
-9. Passen Sie die Framehöhe mithilfe der Option **[!UICONTROL Framehöhe]** an.
+9. Passen Sie das Iframe-Height mithilfe der Option **[!UICONTROL Iframe-Height]** an.
 
    ![](assets/configure-iframe.png)
-   _Bildschirm zur Anpassung des IFrame-Widgets, auf dem Administratoren eine Seiten-URL eingeben und die IFrame-Höhe angeben können, um externe Inhalte einzubetten_
+   _Bildschirm zur Anpassung des iframe-Widgets, auf dem Administratoren eine Seiten-URL eingeben und das iframe-Height zum Einbetten von externem Inhalt angeben können_
 
 10. Wählen Sie **[!UICONTROL Widget hinzufügen]**.
 
@@ -287,7 +287,7 @@ Administratoren müssen das Zugriffstoken als Abfrageparameter in die iframe-URL
 * userId: Eindeutige ID des Teilnehmers
 * accountId: Die dem Teilnehmer zugeordnete Konto-ID
 * Token: Das für API-Aufrufe erforderliche Authentifizierungstoken
-* Gebietsschema: Die Sprach- oder Gebietsschema-Voreinstellung des Teilnehmers
+* Gebietsschema: Sprache oder Gebietsschema des Teilnehmers
 
 ## Eigenes Lern-Widget
 
@@ -295,7 +295,7 @@ Das Widget &quot;Eigenes Lernen&quot; bietet Teilnehmern eine personalisierte An
 
 ### Widget &quot;Eigenes Lernen&quot; hinzufügen
 
-Ein Finanzunternehmen möchte personalisierte Lernerlebnisse anbieten, die auf die beiden großen Teams - Sales und Customer Success Manager (CSM) - zugeschnitten sind. Das Widget &quot;Eigenes Lernen&quot; kann verwendet werden, um jedem Teammitglied eine konsolidierte Ansicht seiner zugewiesenen Kurse, laufenden Lernpfade und Zertifizierungen anzubieten.
+Ein Finanzunternehmen möchte personalisierte Lernerlebnisse anbieten, die auf die beiden großen Teams zugeschnitten sind: Sales und Customer Success Manager (CSM). Das Widget &quot;Eigenes Lernen&quot; kann verwendet werden, um jedem Teammitglied eine konsolidierte Ansicht seiner zugewiesenen Kurse, laufenden Lernpfade und Zertifizierungen anzubieten.
 
 So konfigurieren Sie das Widget &quot;Eigenes Lernen&quot;:
 
@@ -315,13 +315,65 @@ So konfigurieren Sie das Widget &quot;Eigenes Lernen&quot;:
 
 Mein Lern-Widget wird der Seite hinzugefügt. Administratoren können andere Widgets hinzufügen und die Seite veröffentlichen.
 
+<!--
+
+## Saved by me widget {#bookmark-widget}
+
+The **Saved by me** widget displays courses, Learning Paths, certifications, and job aids that a learner has bookmarked for later. It gives learners a single place to find content they have marked as saved without needing to search the catalog again. 
+
+As an administrator, you can add the **Saved by me** widget to a page to give learners quick access to their bookmarked content. Learners can use the widget to revisit courses they saved while browsing, without repeating their original search or navigation. 
+
+Adding this widget to a page can help: 
+
+* Streamline learner workflows by providing single-click access to frequently accessed content 
+
+* Reduce repetitive navigation and time spent searching for resources 
+
+* Create a more personalized learning experience that increases satisfaction and engagement 
+
+### Add a Saved by me widget 
+
+Consider a financial company rolling out a new curriculum of over 50 courses to its Sales and Customer Success Manager (CSM) teams.  As learners browse the catalog, they bookmark the five or six courses most relevant to their own role. 
+
+Those saved courses automatically appear in the Saved by me widget on the learner's personalized home page. Instead of navigating the catalog again, they can go straight to the widget to access or enroll in the content they set aside. 
+
+To configure the **Saved by me** widget: 
+
+1. Log in to Adobe Learning Manager as an administrator. 
+2. Select **Branding** in the left navigation pane. 
+3. Select **Custom Pages**. 
+4. Select the required page and then select **Page Design**. 
+5. Select the layout. 
+6. Select **Add Widget**. 
+7. Select **Saved by me** and then select **Proceed**. 
+
+   ![](/help/migrated/administrators/feature-summary/assets/saved-by-me-widget1.png)
+
+8. Type a **Widget title** and **Widget description**.
+
+   ![](/help/migrated/administrators/feature-summary/assets/saved-by-me-widget2.png)
+
+9. Select **Add widget**. 
+
+The **Saved by me** widget will be added to the page. Administrators can add other widgets and publish the page.
+
+![](/help/migrated/administrators/feature-summary/assets/saved-by-me-widget3.png)
+
+>[!NOTE]
+>
+>If a learner has not bookmarked any content, the Saved by me widget displays an empty state on their page. As the learner bookmarks courses, learning paths, certifications, or job aids, those items appear in the widget automatically.
+
+Widget title and description support localization the same way as other widgets in Experience Builder. If your account has multiple languages configured, provide a title and description for each language, so learners see the widget in their preferred locale.
+
+-->
+
 ## Social-Learning-Widget
 
 Das Social-Learning-Widget ermöglicht es Teilnehmern, innerhalb der Lernplattform zu interagieren, Ideen auszutauschen und zusammenzuarbeiten. Es unterstützt das Posten verschiedener Arten von Inhalten wie Text, Videos, Audio, Screenshots, Fragen und Umfragen. Die Teilnehmer können Beiträge kommentieren, beantworten, aufwerten oder abstimmen und so den Wissensaustausch und die Interaktion zwischen Peer-to-Peer fördern. Dieses Widget schafft einen informellen Lernraum, der die formelle Schulung ergänzt, indem soziale Interaktion und kontinuierliches Lernen gefördert werden.
 
 ### Hinzufügen eines Social-Learning-Widgets
 
-Ein Finanzunternehmen möchte die Zusammenarbeit und den Wissensaustausch zwischen seinen beiden großen Teams - Sales und Customer Success Manager (CSM) - fördern. Das Social-Learning-Widget kann verwendet werden, um interaktive Räume zu erstellen, in denen Teammitglieder Fragen posten, Best Practices austauschen, hilfreiche Inhalte hochladen und an Diskussionen teilnehmen können.
+Ein Finanzunternehmen möchte die Zusammenarbeit und den Wissensaustausch zwischen seinen beiden großen Teams: Sales und Customer Success Manager (CSM). Das Social-Learning-Widget kann verwendet werden, um interaktive Räume zu erstellen, in denen Teammitglieder Fragen posten, Best Practices austauschen, hilfreiche Inhalte hochladen und an Diskussionen teilnehmen können.
 
 So konfigurieren Sie das Social-Learning-Widget:
 
