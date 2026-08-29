@@ -6,8 +6,8 @@ contentowner: kuppan
 exl-id: 83f0b494-d129-4fdf-a204-b5efeaaa168a
 source-git-commit: 6862dc1958a34a369f0e0e7218f28151a47beb3b
 workflow-type: tm+mt
-source-wordcount: '3756'
-ht-degree: 62%
+source-wordcount: '3793'
+ht-degree: 75%
 
 ---
 
@@ -21,8 +21,8 @@ Mit Soziales Lernen können Teilnehmer von überall aus lernen und Inhalte mit i
 
 Führen Sie folgende Schritte aus, um die Funktion für Soziales Lernen zu aktivieren und zu konfigurieren:
 
-1. Klicken Sie auf **[!UICONTROL Soziales Lernen]** auf der linken Navigationsleiste. Sie werden zur Aktivitätsseite weitergeleitet.
-1. Aktivieren Sie die Funktion **[!UICONTROL Soziales Lernen]** mithilfe der Schaltfläche **[!UICONTROL Aktivieren]** auf der Aktivitätsseite, wenn Sie sie zum ersten Mal aktivieren. Andernfalls kann sie über die Seite **[!UICONTROL Einstellungen]** aktiviert werden.
+1. Klicken Sie auf **[!UICONTROL Soziales Lernen]** auf der linken Navigationsleiste. Sie werden auf die Aktivitätsseite weitergeleitet.
+1. Aktivieren Sie die Funktion **[!UICONTROL Soziales Lernen]** mithilfe der Schaltfläche **[!UICONTROL Aktivieren]** auf der Aktivitätsseite, wenn Sie sie zum ersten Mal aktivieren. Ansonsten kann sie auf der Seite **[!UICONTROL Einstellungen]** aktiviert werden.
 
    Ein Popup-Dialogfeld erscheint wie in der Abbildung unten.
 
@@ -40,9 +40,9 @@ Da Soziales Lernen ein informelles Lernen ist, ähnelt seine Funktionalität and
 
 **[!UICONTROL Nur manuelle Kuration]** und **[!UICONTROL Keine Kuration]** sind zwei Kurationsoptionen, die vom Administrator ausgewählt werden können.
 
-**[!UICONTROL Manuelle Kuratierung mit automatischer Unterstützung]:** Der Learning Manager verfügt über ein auf künstlicher Intelligenz basierendes Auto-Kuratierungsmodul, das intelligent den Inhalt jedes beliebigen Formats herausfinden kann, das später den gewünschten Teilnehmern bereitgestellt werden kann. Es kann auch Inhalte genehmigen oder ablehnen, die auf der Grundlage des angegebenen Confidence-Scores veröffentlicht werden.
+**[!UICONTROL Manuelle Kuratierung mit automatischer Unterstützung]:** Der Learning Manager verfügt über ein auf künstlicher Intelligenz basierendes Engine für automatische Kuratierung, das intelligent die Essenz des Inhalts eines beliebigen Formats herausfinden kann, das später für die gewünschten Teilnehmer bereitgestellt werden kann. Es kann auch Inhalte genehmigen oder ablehnen, die auf der Grundlage des angegebenen Confidence-Scores veröffentlicht werden.
 
-Beispielsweise ist Adarsh ein Lerner und er fand einen Blog interessant, also postet er ihn auf Adobe Learning Managers Social-Learning-Plattform. Der Beitrag wird dann an die KI-gestützte Content Curation Engine weitergeleitet, die die im Inhalt vorhandenen Kenntnisse vorhersagt und diese mit den entsprechenden Board-Kenntnissen vergleicht. Wenn eine der Qualifikationen übereinstimmt, wird der Inhalt veröffentlicht, andernfalls wird er zur manuellen Kuration gesendet.
+Beispielsweise ist Adarsh ein Lerner und er fand einen Blog interessant, also postet er ihn auf Adobe Learning Managers Social-Learning-Plattform. Der Beitrag wird dann an das KI-gestützte Content-Kuratierung-Engine weitergeleitet, das die vorhandenen Kenntnisse im Inhalt prognostiziert und diese mit den entsprechenden Board-Kenntnissen vergleicht. Wenn eine der Qualifikationen übereinstimmt, wird der Inhalt veröffentlicht, andernfalls wird er zur manuellen Kuration gesendet.
 
 Der Mindestwert für die Vertrauenswürdigkeit, der für die Buchung erforderlich ist, ist 50 %.
 
@@ -55,7 +55,7 @@ In den Bereichen der Bestenliste für soziale Netzwerke kann ein Benutzer alle B
 
 Wenn Sie spezielle Benutzerrechte erhalten haben, können Sie alle Benutzer im Konto in Ihrer Bestenliste anzeigen, unabhängig vom Bereich der Benutzer.
 
-Wenn spezielle Benutzer SME werden, indem sie genügend Punkte sammeln, werden sie in der Liste **[!UICONTROL Top Subject Matter Experts]** im sozialen Leaderboard angezeigt.
+Wenn spezielle Benutzer zu SME werden, indem sie genügend Punkte sammeln, erscheinen sie in der Liste **[!UICONTROL Beste Fachexperten]** der sozialen Rangliste.
 
 Warten Sie 60 Minuten, bis die Änderungen wirksam werden.
 
@@ -71,15 +71,15 @@ Es gibt separate Abschnitte, um interne und externe Benutzer zu aktivieren.
 
 **Für interne Teilnehmer aktivieren**
 
-In diesem Abschnitt können Sie die Benutzereigenschaft auswählen, um den Umfang des sozialen Lernens für interne Benutzer zu definieren. Benutzer mit den gleichen Merkmalen **Wert** teilen sich den gleichen Bereich für Soziales Lernen.
+In diesem Abschnitt können Sie das Benutzermerkmal auswählen, um den Umfang des Sozialen Lernens für interne Benutzer zu definieren. Benutzer mit den gleichen Merkmalen **Wert** teilen sich den gleichen Bereich für Soziales Lernen.
 
-Wählen Sie in der Dropdownliste **Benutzermerkmal** die gewünschte Option aus.
+Wählen Sie aus der Dropdown-Liste **Benutzereigenschaft** die gewünschte Option aus.
 
 ![](assets/choose-value-of-usercharacteristic.png)
 
 *Wählen Sie die Benutzereigenschaften zum Definieren des Bereichs aus.*
 
-Standardmäßig ist die Option **[!UICONTROL Alle internen Benutzer]** in der Dropdownlistenoption Benutzermerkmal immer ausgewählt.
+Standardmäßig ist die Option **[!UICONTROL Alle internen Benutzer]** in der Dropdown-Liste „Benutzereigenschaft“ immer ausgewählt.
 
 Sie können interne Benutzer basierend auf ihren aktiven Feldern erfassen.
 
@@ -133,7 +133,7 @@ Standardmäßig ist die Option **[!UICONTROL Alle Teilnehmer]** aktiviert.
 
 **[!UICONTROL Alle Teilnehmer]:** Wenn Sie diese Option auswählen, können alle internen und externen Benutzer Boards erstellen.
 
-**Eine Gruppe von Teilnehmer:** Wenn Sie diese Option auswählen, werden nur Benutzer mit der Berechtigung zum Erstellen eines Boards unter dem Link **[!UICONTROL Neues Board erstellen]** in Soziales Lernen angezeigt. Wählen Sie die Benutzergruppe aus, der die Berechtigung zum Erstellen eines Boards erteilt werden muss. Sie können auch automatisch generierte sowie benutzerdefinierte Benutzergruppen hinzufügen.
+**Eine Gruppe von Teilnehmer:** Wenn Sie diese Option auswählen, werden nur Benutzer mit der Berechtigung zum Erstellen eines Boards unter dem Link **[!UICONTROL Neues Board erstellen]** in Soziales Lernen angezeigt. Wählen Sie die Benutzergruppe aus, für die die Berechtigung zum Erstellen eines Boards erteilt werden muss. Sie können auch automatisch generierte sowie benutzerdefinierte Benutzergruppen hinzufügen.
 
 <!--![](assets/grant-permissiontoausergroup.png)-->
 
@@ -165,13 +165,13 @@ In den Bereichen der Bestenliste für soziale Netzwerke kann ein Benutzer alle B
 
 Wenn Sie spezielle Benutzerrechte erhalten haben, können Sie alle Benutzer im Konto in Ihrer Bestenliste anzeigen, unabhängig vom Bereich der Benutzer.
 
-Wenn spezielle Benutzer SME werden, indem sie genügend Punkte sammeln, werden sie in der Liste **[!UICONTROL Top Subject Matter Experts]** im sozialen Leaderboard angezeigt.
+Wenn spezielle Benutzer zu SME werden, indem sie genügend Punkte sammeln, erscheinen sie in der Liste **[!UICONTROL Beste Fachexperten]** der sozialen Rangliste.
 
 Warten Sie 60 Minuten, bis die Änderungen wirksam werden.
 
 ### Anpassen des sozialen Banners {#customize-social-banner}
 
-Der Administrator kann den Titel und den Untertitel anpassen, die auf der Sozialen Lernen-Startseite im Headerbild angezeigt werden. Alles was der Administrator als Titel und Untertitel eingibt, wird auf der Startseite des Teilnehmers angezeigt.
+Der Administrator kann den Titel und den Untertitel anpassen, die auf der Soziales Lernen-Startseite im Headerbild angezeigt werden. Alles was der Administrator als Titel und Untertitel eingibt, wird auf der Startseite des Teilnehmers angezeigt.
 
 1. Klicken Sie in der Admin-App auf **[!UICONTROL Soziales Lernen]** > **[!UICONTROL Einstellungen]**.
 1. Klicken Sie auf **[!UICONTROL Anpassen]**.
@@ -185,7 +185,7 @@ Der Administrator kann den Titel und den Untertitel anpassen, die auf der Sozial
 
 Es gibt noch einige weitere Optionen:
 
-* **[!UICONTROL Sprache]:** Wählen Sie aus der Dropdownliste die Sprache aus, in die Titel und Untertitel übersetzt werden sollen. Sie können auch benutzerdefinierten Text für verschiedene Sprachen hinzufügen.
+* **[!UICONTROL Sprache]:** Wählen Sie in der Dropdown-Liste die Sprache aus, der der Titel und Untertitel Kamera bewogen werden sollen. Sie können auch benutzerdefinierten Text für verschiedene Sprachen hinzufügen.
 * **[!UICONTROL Replizieren]:** Klicken Sie auf diese Schaltfläche, um Titel und Untertitel in allen Sprachen zu replizieren.
 * **[!UICONTROL Zurücksetzen]:** Klicken Sie auf diese Schaltfläche, um zum ursprünglichen Titel und Untertitel zurückzukehren.
 
@@ -225,7 +225,7 @@ Ein Administrator kann die Option aktivieren, Inhalte automatisch in der Adminis
 
 Wenn ein Benutzer einen Inhalt in ein Forum hochlädt, entfernt ein AI-basierter Algorithmus den Text aus dem Inhalt, und der Text wird dann an die Kurations-Engine übergeben. Die Kurations-Engine versucht, die im Inhalt vorhandenen Kenntnisse zu finden.
 
-Die vorhergesagten Kenntnisse aus dem hochgeladenen Inhalt stimmen mit denen mit dem Board überein, in dem der Inhalt hochgeladen wurde.  Wenn Kenntnisse mit einer Vertrauensbewertung von mehr als 50 % der Board-Kenntnisse übereinstimmen, wird der Inhalt im Board veröffentlicht. Wenn das Confidence-Ergebnis weniger als 50 % beträgt, wird der Inhalt zur manuellen Kuration gesendet.
+Die aus den hochgeladenen Inhalten ermittelten Kenntnisse werden mit denen des Boards abgeglichen, in dem die Inhalte hochgeladen wurden.  Wenn Kenntnisse mit einem Confidence-Ergebnis von mehr als 50 % der Board-Kenntnisse übereinstimmt, wird der Inhalt auf dem Board veröffentlicht. Wenn das Confidence-Ergebnis weniger als 50 % beträgt, wird der Inhalt zur manuellen Kuration gesendet.
 
 Immer wenn ein Inhalt automatisch kuratiert wird, erhält der Benutzer eine Benachrichtigung, dass der Inhalt in dem Forum verfügbar ist, in dem er zuvor hochgeladen wurde.
 
@@ -241,13 +241,13 @@ Es wird empfohlen, dass der Administrator SME für Kenntnisse hinzufügt, wenn d
 
 ## Häufig gestellte Fragen zur automatischen Kuration von Inhalten {#faq-auto-curation}
 
-+++Wie viel Zeit hat ein SME, um einen Beitrag zu kuratieren?
++++Wie viel Zeit erhält ein SME, um einen Beitrag zu kuratieren?
 
-Ein SME erhält mindestens 24 Stunden, um einen Beitrag zu kuratieren. Aufgrund von Zeitzonenunterschieden kann sie auf 47 Stunden erhöht werden.
+Ein SME erhält mindestens 24 Stunden, um einen Beitrag zu kuratieren. Aufgrund von Zeitzonenunterschieden ist eine Erhöhung auf 47 Stunden möglich.
 
 +++
 
-+++Wird der Kurs an die nächsten drei SME weitergeleitet, wenn alle drei zur Verfügung stehen? Werden immer drei SME einbezogen?
++++Wird der Beitrag an die nächsten drei SME weitergeleitet, wenn alle drei zur Verfügung stehen? Werden immer drei SME einbezogen?
 
 Der Kurationsantrag wird am ersten Tag an die Top-SME geleitet. Wenn diese nicht antworten, wird der Antrag am nächsten Tag an die drei nächsten SME weitergeleitet.
 
@@ -257,17 +257,17 @@ Wenn die Board-Moderatoren nicht antworten, wird der Antrag automatisch genehmig
 
 +++
 
-+++Wenn zwei SME kuratieren und einer nicht - geht der Antrag an den vierten SME oder wird der Durchschnitt der von der ersten SME-Runde für den Beitrag bewerteten Beiträge übernommen?
++++Wenn zwei SME kuratieren und einer nicht, erhält dann der vierte SME den Antrag oder wird automatisch die durchschnittliche Beitragsbewertung der ersten SME übernommen?
 
 Für die Genehmigung des Beitrags ist eine Zustimmung von 50 % erforderlich. Gleiches gilt für die Ablehnung eines Beitrags, für die ebenfalls 50 % erforderlich sind. Bei jeder Zustimmung durch einen SME wird bewertet, ob die erforderlichen 50 % erreicht wurden.
 
 Werden diese 50 % nach einem Tag nicht erreicht, wird der Antrag an die nächsten SME weitergeleitet, wodurch die vorherigen unbeantworteten Kurationsanträge verfallen.
 
-Am ersten Tag wird der Kurationsantrag beispielsweise an drei SME geleitet; einer von ihnen stimmt zu, die anderen beiden antworten nicht. Am nächsten Tag geht der Antrag an die nächsten drei SME. Auf dieser Ebene gibt es derzeit insgesamt vier aktive SME. Mindestens zwei SEM müssen ihn genehmigen, um die Kuration zu genehmigen.(Wenn er von zwei SEM genehmigt und von zwei abgelehnt wird, entscheidet die Seite, die zuerst 50 % erreicht.)
+Am ersten Tag wird der Kurationsantrag beispielsweise an drei SME geleitet; einer von ihnen stimmt zu, die anderen beiden antworten nicht. Am nächsten Tag geht der Antrag an die nächsten drei SME. Auf dieser Ebene gibt es derzeit insgesamt vier aktive SME. Mindestens zwei SEMs müssen es genehmigen, um die Kuration zu genehmigen. (Wenn 2 genehmigen und 2 ablehnen, wird alles, was die ersten 50 % erreicht, übernommen.)
 
 +++
 
-+++Soweit ich weiß, wird ein &quot;Moderator&quot; nur zugewiesen (und das ist nicht obligatorisch), wenn jemand ein neues Board erstellt. Was nützt es, wenn ein Teilnehmer einem Board einen &quot;Moderator&quot; zuweist, wenn SMEs den Kenntnissen zugewiesen werden, mit denen ein Board verbunden ist?
++++So wie ich das sehe wird ein „Moderator“ nur zugewiesen (und das nicht verpflichtend), wenn jemand ein neues Board erstellt. Was nützt es, wenn ein Teilnehmer einem Board einen „Moderator“ zuweist, wenn die SME ohnehin den Kenntnissen zugewiesen werden, mit denen ein Board verbunden ist?
 
 Im Folgenden sind die Zuständigkeiten eines Soziales Board-Moderators aufgeführt:
 
@@ -278,13 +278,13 @@ Im Folgenden sind die Zuständigkeiten eines Soziales Board-Moderators aufgefüh
 
 +++
 
-+++Unser Schulungsteam wird die Kenntnisse, die mit der Kenntnisstufe verbunden sind, sowie die KMU, die den Kenntnissen zugewiesen sind, erweitern bzw. überwachen.
++++Unser Schulungsteam wird die Kenntnisse, die mit der Kenntnisstufe verbunden sind, sowie die SME, die den Kenntnissen zugewiesen sind, erweitern bzw. überwachen.
 
 SME werden basierend auf Kenntnissen, nicht auf Kenntnisstufen hinzugefügt/zugewiesen. Dies ist so beabsichtigt.
 
 +++
 
-+++Was ist der Unterschied zwischen einem &quot;Moderator für Soziales Lernen&quot; und einem &quot;SME für Soziales Lernen&quot;?
++++Was ist der Unterschied zwischen einem „Moderator für Soziales Lernen“ und einem „SME für Soziales Lernen“?
 
 **Moderatoren:** Moderatoren sind zweite Besitzer des Boards. Sie werden während der Board-Erstellung von den Erstellern hinzugefügt, sodass sie das Board auch in Abwesenheit dieser kontrollieren können. Standardmäßig ist der Ersteller des Boards der Moderator.
 
@@ -292,7 +292,7 @@ SME werden basierend auf Kenntnissen, nicht auf Kenntnisstufen hinzugefügt/zuge
 
 +++
 
-+++Wenn zwei oder drei SME bestimmten Kenntnissen zugewiesen werden, hängt eine Genehmigung oder Ablehnung eines Social-Learning-Beitrags von der Kuration aller SME ab oder davon, wer zuerst kuratiert?
++++Wenn zwei oder drei SME bestimmten Kenntnissen zugewiesen werden, hängt eine Genehmigung oder Ablehnung eines Soziales Lernen-Beitrags von der Kuration aller SME ab oder davon, wer zuerst kuratiert?
 
 Für die Genehmigung des Beitrags ist eine Zustimmung von 50 % erforderlich. Gleiches gilt für die Ablehnung eines Beitrags, für die ebenfalls 50 % erforderlich sind. Bei jeder Zustimmung durch einen SME wird bewertet, ob die erforderlichen 50 % erreicht wurden.
 
@@ -314,13 +314,13 @@ Das erste Bild liefert dem Administrator die folgenden Informationen für den au
 
 1. **[!UICONTROL Neue Beiträge]**: Zeigt die Anzahl der neuen Beiträge an, die innerhalb der Datumsperiode erstellt wurden. Außerdem wird die Gesamtzahl der Beiträge für den gesamten Zeitraum angezeigt.
 1. **[!UICONTROL Prozentsatz aktiver Benutzer]**: Zeigt den Gesamtprozentsatz aktiver Benutzer beim sozialen Lernen im Vergleich zur Gesamtzahl der im Konto verfügbaren Benutzer an.
-1. **[!UICONTROL Neue Boards]**: Zeigt die Anzahl der neuen Boards an, die erstellt wurden. Außerdem wird die Gesamtzahl der Boards für den gesamten Zeitraum angezeigt.
+1. **[!UICONTROL New Boards]**: Zeigt die Anzahl der neu erstellten Boards an. Außerdem wird die Gesamtzahl der Boards für den gesamten Zeitraum angezeigt.
 
 Das zweite visuelle Element ist ein Liniendiagramm, das den Trend der Anzahl von Boards oder Beiträge zeigt, die basierend auf dem im Datumsfilter ausgewählten Zeitraum erstellt wurden. Klicken Sie auf den Filter, um die verschiedenen Zeitoptionen wie letzte sieben Tage, letzten Monat, letzte drei Monate und alle Zeit anzuzeigen.
 
 ![](assets/trends.png)
 
-*Neues Diagramm, das den Trend anzeigt*
+*Graf &quot;Line&quot; zeigt den Trend an*
 
 ## Kenntnisse {#skills}
 
@@ -433,7 +433,7 @@ Basierend auf den hauptsächlich von Lern-Manager-Endbenutzern verwendeten Kennt
 
 ## Voraussetzungen, um ein SME zu sein {#requirementstobeansme}
 
-Der Status von SMEs kann nur durch das Sammeln von SME-Punkten durch Aktivitäten im Bereich Soziales Lernen erreicht werden. Der Administrator kann einem SME basierend auf seinem Fachwissen Punkte zuweisen.
+Der Status von SMEs kann nur durch das Sammeln von SME-Punkten durch Aktivitäten im Bereich Soziales Lernen erreicht werden. Der Administrator kann einem SME basierend auf seiner Kompetenz auf dem Kenntnisniveau Punkte vergeben.
 
 ## Hinzufügen von SMEs zu Kenntnissen {#addingsmestoaskill}
 
@@ -463,7 +463,7 @@ Führen Sie die folgenden Schritte aus, um SMEs zu Kenntnissen hinzuzufügen:
 
 1. Durch Aktivieren des Kontrollkästchens **[!UICONTROL Minimale SME-Punkte aktivieren]** können Sie die Mindestanzahl von Punkten festlegen, die ein Benutzer benötigt, um als SME in der Liste der Top-SMEs angezeigt zu werden. Sobald der Schwellenwert festgelegt ist, werden SMEs mit Punkten, die kleiner oder gleich dem erforderlichen Mindestpunktwert sind, nicht in den SME-Listen aufgeführt.
 
-   Wenn das Kontrollkästchen **[!UICONTROL Minimale SME-Punkte aktivieren]** nicht aktiviert ist, werden die drei wichtigsten Benutzer mit den höchsten Punkten als SME für diese bestimmte Kenntnis betrachtet.
+   Wenn das Kontrollkästchen **[!UICONTROL Minimale SME-Punkte aktivieren]** nicht aktiviert ist, werden die drei obersten Benutzer mit den höchsten Punkten als die SMEs für diese bestimmten Kenntnisse betrachtet.
 
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Speichern]**, um die vorgenommenen Änderungen anzuzeigen.
 
@@ -484,7 +484,7 @@ Führen Sie die folgenden Schritte aus, um SMEs zu Kenntnissen hinzuzufügen:
 
 ## Soziale Aktivitäten für den monatlichen Abrechnungsplan für aktive Benutzer {#socialactivitiesformonthlyactiveusersbillingplan}
 
-Jedes Mal, wenn ein Benutzer ein neues soziales Board, einen sozialen Beitrag oder einen sozialen Kommentar erstellt, wird diese Aktivität als gültig gezählt, um auf den Plan **Benutzer der monatlichen Aktivierung** (MAU) angerechnet zu werden, wenn das Konto dem MAU-Abrechnungsmodell entspricht. Weitere Informationen finden Sie in der [Referenz zur Rechnungsverwaltung](billing-management.md).
+Jedes Mal , wenn ein Benutzer ein neues soziales Board, einen sozialen Beitrag oder sozialen Kommentar erstellt, wird es als gültige Aktivität gezählt für den **Monthly Activation User**(MAU)-Plan gezählt, wenn das Konto dem MAU-Abrechnungsmodell folgt. Weitere Informationen finden Sie in der [Referenz zur Rechnungsverwaltung](billing-management.md).
 
 ## Häufig gestellte Fragen {#frequentlyaskedquestions}
 
