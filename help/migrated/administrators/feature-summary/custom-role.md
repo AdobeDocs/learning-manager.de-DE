@@ -4,9 +4,9 @@ title: Benutzerdefinierte Rollen
 description: Mit der Lernpfadfunktion können Sie benutzerdefinierte Rollen definieren und einer Gruppe von Benutzern bestimmte Verantwortlichkeiten zuweisen. Mit dieser Funktion können Sie Verantwortlichkeiten zuweisen, die nicht in den Bereich der bestehenden Rolle der Person fallen.
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: f8473c0bfd1de5591d858e657dcc67c71c50ecd5
+source-git-commit: c5e687ff55fa9c174fd9b1587e25f88d7e23638d
 workflow-type: tm+mt
-source-wordcount: '5467'
+source-wordcount: '5571'
 ht-degree: 24%
 
 ---
@@ -83,6 +83,17 @@ _Benutzerdefinierte Rollen filtern_
    ![](assets/account-privileges.png)
 
    *Bereich festlegen*
+
+   ### Das Layout der E-Mail-Vorlage erfordert die Kontoberechtigung für E-Mail-Vorlagen .
+
+   Um eine E-Mail-Vorlage auf Kursebene anzuzeigen, deren Layout korrekt gerendert wurde, benötigt eine benutzerdefinierte Rolle **beide** der folgenden Elemente:
+
+   * Vollständiger Zugriff auf **Kurse** unter Funktionsberechtigungen - Lernobjekte
+   * Zugriff auf **E-Mail-Vorlagen** unter Kontoberechtigungen
+
+   Wenn eine benutzerdefinierte Rolle vollen Zugriff auf Kurse hat, aber unter Kontoberechtigungen keinen Zugriff auf E-Mail-Vorlagen hat, wird die E-Mail-Vorlage ohne ihr Layout geladen.
+
+   Diese Einschränkung wird entfernt, sobald das E-Mail-Layout auf Lernobjektebene verfügbar ist. An diesem Punkt wird das Layout korrekt geladen, unabhängig davon, ob der Zugriff auf E-Mail-Vorlagen auf Kontoebene gewährt wird.
 
 5. **Funktionsberechtigungen - Kernfunktionen**: Wird verwendet, um Zugriff auf bestimmte Funktionen zum Verwalten von Lernaktivitäten zu gewähren. Über diese Option können Berechtigungen für die folgenden Funktionen erteilt werden.
 
@@ -296,7 +307,7 @@ Es stehen zwei Zugriffsebenen zur Verfügung:
 * **Schreibgeschützt**: Der benutzerdefinierte Administrator kann Informationen anzeigen und Berichte herunterladen, aber keine Änderungen vornehmen.
 * **Vollständige Kontrolle**: Der benutzerdefinierte Administrator kann benutzerdefinierte Rollen erstellen, bearbeiten und löschen, Benutzer importieren und gelöschte Benutzer bereinigen.
 
-### Vererbung von Berechtigungen und Gültigkeitsbereichen
+### Vererbung von Berechtigungen und Umfang
 
 Wenn ein benutzerdefinierter Administrator eine neue benutzerdefinierte Rolle erstellt oder eine vorhandene Rolle ändert, sind die Berechtigungen und der Umfang, die er zuweisen kann, auf das beschränkt, was er selbst besitzt. Ein benutzerdefinierter Administrator kann einer Rolle keine Berechtigungen erteilen, die ihre eigenen überschreiten, und kann den Umfang einer Rolle nicht über ihren eigenen zugewiesenen Bereich hinaus erweitern.
 
