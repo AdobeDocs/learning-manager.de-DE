@@ -3,9 +3,9 @@ description: Erfahren Sie, wie Sie Inhalt zum Selbststudium erstellen können, d
 jcr-language: en_us
 title: Inhaltsbibliothek
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: a375032d49a8f566ba075205bcb2d8ae87d8f4b1
+source-git-commit: 105f5b4331abaae38c1dc3bba14592e78ae28d51
 workflow-type: tm+mt
-source-wordcount: '6094'
+source-wordcount: '6083'
 ht-degree: 33%
 
 ---
@@ -226,7 +226,7 @@ Die Inhaltsbibliothek verwaltet auch die Versionierung Ihrer hochgeladenen Inhal
 
    Die Untertitel werden dann im Fluidic Player angezeigt. Die Beschriftungen entsprechen auch den [WCAG2.0-Standards](https://www.w3.org/TR/WCAG20/).
 
-   Wenn Sie der Bibliothek einen Videoinhalt hinzufügen, können Sie auch die VTT-Datei hinzufügen, bei der **&#x200B;**&#x200B;eine gültige Datei sein muss.
+   Wenn Sie der Bibliothek einen Videoinhalt hinzufügen, können Sie auch die VTT-Datei hinzufügen, bei der **** eine gültige Datei sein muss.
 
    ![](assets/webvtt.png)
 
@@ -287,7 +287,7 @@ Die Unterstützung mehrsprachiger Videotextspuren (VTT) in Adobe Learning Manage
 #### Wichtigste Funktionen
 
 * Automatische VTT-Generierung: Laden Sie eine Video- oder Audiodatei hoch und generieren Sie automatisch VTT-Untertitel in der Originalsprache.
-* Mehrsprachige Übersetzung: Untertitel werden in eine der zehn unterstützten nicht englischsprachigen Sprachen Kamera bewogen.
+* Mehrsprachige Übersetzung: Untertitel werden in eine der 39 unterstützten nicht englischsprachigen Sprachen Kamera bewogen.
 * In-App-Überprüfung und -Bearbeitung: Überprüfen, bearbeiten und laden Sie VTT-Dateien vor der Veröffentlichung herunter.
 * Benachrichtigungen: Erhalten Sie In-App-Benachrichtigungen, wenn die VTT-Generierung und -Übersetzung abgeschlossen sind.
 * Reibungslose Veröffentlichung: Publish hat Untertitel für die Teilnehmer fertig gestellt, auf die sie in der von ihnen gewählten Sprache zugreifen können.
@@ -298,7 +298,7 @@ Die Unterstützung mehrsprachiger Videotextspuren (VTT) in Adobe Learning Manage
 2. Lade eine MP3- oder MP4-Datei hoch.
 3. Wählen Sie im Upload-Dialogfeld die Option zum **Generieren der Übersetzung**.
 4. Wählen Sie die ursprüngliche Inhaltssprache aus (die Standardsprache ist die Sprache der Datei).
-5. Wählen Sie weitere Zielsprachen für die Übersetzung aus (bis zu 10 werden unterstützt).
+5. Wählen Sie weitere Zielsprachen für die Übersetzung aus (bis zu 39 werden unterstützt).
 6. Wählen Sie [!UICONTROL Speichern]. Das System beginnt mit der Generierung und dem Kamera beweg von VTT-Dateien.
 
 #### Status überwachen
@@ -323,7 +323,7 @@ Die Unterstützung mehrsprachiger Videotextspuren (VTT) in Adobe Learning Manage
 
 #### Weitere Informationen
 
-* **Unterstützte Sprachen:** Zehn nicht englische Sprachen (Französisch, Deutsch, Spanisch, Italienisch, Portugiesisch, Niederländisch, Schwedisch, Indonesisch, Norwegisch Bokmal und Dänisch) werden von Adobe Learning Manager unterstützt.
+* **Unterstützte Sprachen:** Alle 39 nicht englischsprachigen Sprachen werden von Adobe Learning Manager unterstützt.
 * **Benachrichtigungen:** Autoren werden benachrichtigt, wenn die VTT-Generierung und -Übersetzung abgeschlossen sind.
 * Flexible Bearbeitung: Untertitel können in der App oder offline bearbeitet und erneut hochgeladen werden.
 * **Skalierbarkeit:** Konzipiert für Lokalisierungs- und Barrierefreiheitsanforderungen in Unternehmen.
@@ -681,7 +681,7 @@ Das Ablaufdatum kennzeichnet Inhalte, die veraltet oder nicht mehr benötigt wer
 
 Dadurch können Organisationen die Relevanz von Inhalten beibehalten, ohne versehentlich veröffentlichte Elemente zu entfernen.
 
-Die eindeutige Content-ID und das Ablaufdatum gelten für alle Sprachversionen einer Content-Gruppe und gewährleisten so ein konsistentes Erlebnis für alle Benutzer, unabhängig von der Sprache. Autoren können die eindeutige Inhalts-ID verwenden, um schnell nach bestimmten Inhalten zu suchen und diese zu finden, was die Verwaltung und Aktualisierung von Schulungsmaterialien vereinfacht.
+Die eindeutige Content-ID und das Ablaufdatum gelten für alle Sprachversionen einer Content-Gruppe und gewährleisten so ein konsistentes Erlebnis für alle Benutzer, unabhängig von der Sprache. Autoren können die eindeutige Inhalts-ID verwenden, um schnell nach bestimmten Inhalten zu suchen und diese zu finden, was die Verwaltung und Aktualisierung von Schulungs-Materials vereinfacht.
 
 Der **[!UICONTROL Schulungsbericht]** enthält jetzt zwei neue Spalten: **[!UICONTROL Ablaufdatum des Inhalts (UTC-Zeitzone)]** und **[!UICONTROL Eindeutige ID des Inhalts]**, um die eindeutige ID des Inhalts und das Ablaufdatum zu verfolgen. Diese Felder können über die Benutzeroberfläche oder die Migration hinzugefügt werden, und der Administrator kann sie zentral über Schulungsberichte nachverfolgen.
 
