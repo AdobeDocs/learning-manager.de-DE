@@ -3,9 +3,9 @@ description: Erfahren Sie, wie Sie Inhalt zum Selbststudium erstellen können, d
 jcr-language: en_us
 title: Inhaltsbibliothek
 exl-id: cc19eca6-6b47-44b2-ad23-2d7ad8975f65
-source-git-commit: ab7a0a07ebbb2607d67c7b8488e1a310878ab13a
+source-git-commit: a375032d49a8f566ba075205bcb2d8ae87d8f4b1
 workflow-type: tm+mt
-source-wordcount: '6082'
+source-wordcount: '6094'
 ht-degree: 33%
 
 ---
@@ -54,7 +54,7 @@ Die folgende Tabelle zeigt den Typ der interaktiven und statischen Dateitypen, d
    <p>Für anspruchsvolle oder beaufsichtigte Bewertungen (z. B. Compliance- oder Zertifizierungsprüfungen) empfiehlt Adobe:</p>
    <ul>
       <li>Beibehalten von SCORM-Inhalten mit vielen Bewertungen in Katalogen, die nicht als Teilnehmerassistentenquellen konfiguriert sind, oder</li>
-      <li>Bewertungen so zu gestalten, dass durch einfaches Umformulieren des Lernmaterials nicht trivial die richtigen Antworten angezeigt werden.</li>
+      <li>Durch das Entwerfen von Bewertungen, sodass durch einfaches Umformulieren des lernenden Materials nicht trivial die richtigen Antworten gelegt werden.</li>
    </ul>
    <p>Dieses Verhalten wird erwartet: Adobe Learning Manager hindert den Teilnehmer-Assistenten nicht daran, Inhalte zu erklären, die sich in Katalogen befinden, die Sie explizit als AI-Quellen auswählen.</p>
     </td>
@@ -226,7 +226,7 @@ Die Inhaltsbibliothek verwaltet auch die Versionierung Ihrer hochgeladenen Inhal
 
    Die Untertitel werden dann im Fluidic Player angezeigt. Die Beschriftungen entsprechen auch den [WCAG2.0-Standards](https://www.w3.org/TR/WCAG20/).
 
-   Wenn Sie der Bibliothek einen Videoinhalt hinzufügen, können Sie auch die VTT-Datei hinzufügen, bei der **&#x200B;**&#x200B;eine gültige Datei sein muss.
+   Wenn Sie der Bibliothek einen Videoinhalt hinzufügen, können Sie auch die VTT-Datei hinzufügen, bei der **** eine gültige Datei sein muss.
 
    ![](assets/webvtt.png)
 
@@ -271,7 +271,7 @@ Sobald Sie den Inhalt hochgeladen haben, können Sie eine Benachrichtigung anzei
 
 ### Unterstützung mehrsprachiger VTT-Anwendungen
 
-Die Unterstützung mehrsprachiger Videotextspuren (VTT) in Adobe Learning Manager ermöglicht es Autoren, Untertitel und Untertitel für Video- und Audioinhalte in mehreren Sprachen bereitzustellen. Diese Funktion vereinfacht die Lokalisierung, macht Schulungen für ein weltweites Publikum zugänglich und stellt die Einhaltung von Standards für Barrierefreiheit sicher. Autoren können VTT-Dateien automatisch direkt auf der Plattform generieren, übersetzen, überprüfen und bearbeiten.
+Die Unterstützung mehrsprachiger Videotextspuren (VTT) in Adobe Learning Manager ermöglicht es Autoren, Untertitel und Untertitel für Video- und Audioinhalte in mehreren Sprachen bereitzustellen. Diese Funktion vereinfacht die Lokalisierung, macht Schulungen für ein weltweites Publikum zugänglich und stellt die Einhaltung von Standards für Barrierefreiheit sicher. Autoren können VTT-Dateien automatisch direkt auf der Plattform generieren, Kamera bewogen, überprüfen und bearbeiten.
 
 >[!NOTE]
 >
@@ -281,13 +281,13 @@ Die Unterstützung mehrsprachiger Videotextspuren (VTT) in Adobe Learning Manage
 
 * Globale Schulungen: Stellen Sie Videoinhalte mit Untertiteln in mehreren Sprachen bereit, um internationale Teilnehmer zu erreichen.
 * Barrierefreiheitskonformität: Untertitel für hörgeschädigte Benutzer in ihrer bevorzugten Sprache bereitstellen
-* Schnellere Lokalisierung: Reduzieren Sie den manuellen Aufwand und beschleunigen Sie die Bereitstellung von Inhalten durch die automatische Generierung und Übersetzung von VTT-Dateien.
+* Schnellere Lokalisierung: Reduzieren Sie den manuellen Aufwand und beschleunigen Sie die Bereitstellung von Inhalten, indem Sie VTT-Dateien automatisch generieren und Kamera bewöge.
 * Konsistente Erfahrung: Stellen Sie sicher, dass alle Teilnehmer unabhängig von der Sprache die gleichen Informationen erhalten.
 
 #### Wichtigste Funktionen
 
 * Automatische VTT-Generierung: Laden Sie eine Video- oder Audiodatei hoch und generieren Sie automatisch VTT-Untertitel in der Originalsprache.
-* Mehrsprachige Übersetzung: Übersetzen Sie Untertitel in eine der 39 unterstützten nicht englischen Sprachen.
+* Mehrsprachige Übersetzung: Untertitel werden in eine der zehn unterstützten nicht englischsprachigen Sprachen Kamera bewogen.
 * In-App-Überprüfung und -Bearbeitung: Überprüfen, bearbeiten und laden Sie VTT-Dateien vor der Veröffentlichung herunter.
 * Benachrichtigungen: Erhalten Sie In-App-Benachrichtigungen, wenn die VTT-Generierung und -Übersetzung abgeschlossen sind.
 * Reibungslose Veröffentlichung: Publish hat Untertitel für die Teilnehmer fertig gestellt, auf die sie in der von ihnen gewählten Sprache zugreifen können.
@@ -298,8 +298,8 @@ Die Unterstützung mehrsprachiger Videotextspuren (VTT) in Adobe Learning Manage
 2. Lade eine MP3- oder MP4-Datei hoch.
 3. Wählen Sie im Upload-Dialogfeld die Option zum **Generieren der Übersetzung**.
 4. Wählen Sie die ursprüngliche Inhaltssprache aus (die Standardsprache ist die Sprache der Datei).
-5. Wählen Sie weitere Zielsprachen für die Übersetzung aus (bis zu 39 werden unterstützt).
-6. Wählen Sie [!UICONTROL Speichern]. Das System beginnt mit der Generierung und Übersetzung von VTT-Dateien.
+5. Wählen Sie weitere Zielsprachen für die Übersetzung aus (bis zu 10 werden unterstützt).
+6. Wählen Sie [!UICONTROL Speichern]. Das System beginnt mit der Generierung und dem Kamera beweg von VTT-Dateien.
 
 #### Status überwachen
 
@@ -323,11 +323,11 @@ Die Unterstützung mehrsprachiger Videotextspuren (VTT) in Adobe Learning Manage
 
 #### Weitere Informationen
 
-* Unterstützte Sprachen: Alle 39 nicht englischsprachigen Sprachen, die von Adobe Learning Manager unterstützt werden.
-* Benachrichtigungen: Autoren werden benachrichtigt, wenn die VTT-Erstellung und -Übersetzung abgeschlossen sind.
+* **Unterstützte Sprachen:** Zehn nicht englische Sprachen (Französisch, Deutsch, Spanisch, Italienisch, Portugiesisch, Niederländisch, Schwedisch, Indonesisch, Norwegisch Bokmal und Dänisch) werden von Adobe Learning Manager unterstützt.
+* **Benachrichtigungen:** Autoren werden benachrichtigt, wenn die VTT-Generierung und -Übersetzung abgeschlossen sind.
 * Flexible Bearbeitung: Untertitel können in der App oder offline bearbeitet und erneut hochgeladen werden.
-* Skalierbarkeit: Konzipiert für Lokalisierungs- und Barrierefreiheitsanforderungen in Unternehmen.
-* Kein manueller VTT-Upload erforderlich: Das System kann VTT-Dateien mithilfe der hochgeladenen Video-/Audiodateien von Grund auf neu generieren.
+* **Skalierbarkeit:** Konzipiert für Lokalisierungs- und Barrierefreiheitsanforderungen in Unternehmen.
+* **Manueller VTT-Upload nicht erforderlich:** Das System kann VTT-Dateien mithilfe des hochgeladenen Videos/Audios von Grund auf neu generieren.
 
 #### Best Practices
 
@@ -798,7 +798,7 @@ Dadurch erhalten die Teilnehmer die neueste Version des Inhalts.
 
 Weitere Informationen finden Sie in diesem [Blog](https://elearning.adobe.com/2024/06/how-to-update-the-content-in-the-course/).
 
-### Inhaltsversionskontrolle für Teilnehmer, die einen Kurs abgeschlossen haben
+### Versionskontrolle von Inhalten für Teilnehmer, die einen Kurs abgeschlossen haben
 
 Adobe Learning Manager bietet Autoren jetzt klarere Optionen zur Verwaltung von Inhaltsaktualisierungen. Autoren können den Inhalt aktualisieren, der bereits in einem Kurs verfügbar ist. Wenn eine neue Version hinzugefügt wird, wird die Versionsnummer neben dem Inhalt angezeigt.
 
