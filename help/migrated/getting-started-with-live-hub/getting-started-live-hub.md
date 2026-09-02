@@ -1,9 +1,9 @@
 ---
 title: Erste Schritte mit Live Hub (Beta)
 description: Erfahren Sie, wie Sie mit dem Live Hub in Adobe Learning Manager Live-Schulungen mit Kursleiter direkt auf der Plattform bereitstellen können.
-source-git-commit: f9fed45f8818ff34ff4a4c6750a3659b6d4dc49d
+source-git-commit: d163afe818f4fc574fa4a809fce1f9eed5fd7ac6
 workflow-type: tm+mt
-source-wordcount: '746'
+source-wordcount: '767'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,15 @@ Es bietet Kursleitern und Teilnehmern ein nahtloses, browserbasiertes Erlebnis, 
 
 Viele Unternehmen nutzen separate Tools für das Kursmanagement, die Bereitstellung von Sitzungen und die Zusammenarbeit. Dies kann Herausforderungen mit sich bringen wie:
 
-- Wechseln zwischen mehreren Plattformen für Schulungen
-- Zusätzliche Einrichtungs- und Konfigurationsanforderungen
-- Eingeschränkte Sichtbarkeit der Interaktion und Teilnahme der Teilnehmer
+- Wechsel zwischen mehreren Plattformen für Schulungen.
+- Zusätzliche Einrichtungs- und Konfigurationsanforderungen.
+- Eingeschränkte Sichtbarkeit der Interaktion und Teilnahme der Teilnehmer.
 
 Der Live Hub bewältigt diese Herausforderungen, indem er Kursbereitstellung, Zusammenarbeit, Interaktion und Nachverfolgung in einem einheitlichen Erlebnis in Adobe Learning Manager zusammenführt.
+
+Bevor wir mit dem Schritt-für-Schritt-Prozess beginnen, gibt es hier ein kurzes Video mit Schritt-für-Schritt-Anleitungen, um einen Überblick über den Live Hub zu erhalten.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3502433)
 
 ## Was ist der Live Hub?
 
