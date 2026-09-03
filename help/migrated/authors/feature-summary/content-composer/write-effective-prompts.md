@@ -3,9 +3,9 @@ description: Die Eingabeaufforderung ist die wichtigste Eingabe in Content Compo
 jcr-language: en_us
 title: Erstellen effektiver Eingabeaufforderungen in Content Composer
 hide: true
-source-git-commit: 2fff90164df5d54a6dbe1bb62bab5fd3da59029c
+source-git-commit: fad98839f06f2e9cea2e78621bbb7e2e52444e9e
 workflow-type: tm+mt
-source-wordcount: '2339'
+source-wordcount: '2279'
 ht-degree: 0%
 
 ---
@@ -21,21 +21,21 @@ Content Composer ist durchgehend konversativ. Die Qualität der Ergebnisse in je
 
 Die Eingabeaufforderung ist Ihr Ausgangspunkt. Es muss nicht perfekt sein. Content Composer liest Ihre Eingabeaufforderung und verwendet sie zum Öffnen einer Konversation. Selbst eine grobe Eingabeaufforderung bringt den Prozess in Bewegung. Die Assistenzkraft wird in der Brief-Phase Folgefragen stellen, um die fehlenden Informationen auszufüllen.
 
-Eine spezifischere Eingabeaufforderung bedeutet jedoch, dass die KI den Brief genauer vorab ausfüllt und das Hin- und Herschicken reduziert, bevor Sie den Umriss generieren. Wenn du eine klare Vorstellung von Publikum, Themen und Ziel hast, bringe sie in die Eingabeaufforderung ein.
-
-Eine vage Aufforderung führt zu einem vagen Brief. Eine vage Schrift erzeugt eine allgemeine Kontur. Eine generische Gliederung erstellt einen Kurs, der erheblich bearbeitet werden muss. Die Spezifität in der Eingabeaufforderungsphase wird in jedem nachfolgenden Schritt weitergegeben.
+Eine spezifischere Eingabeaufforderung bedeutet jedoch, dass die KI den Brief genauer vorab ausfüllt und das Hin- und Herschicken reduziert, bevor Sie den Umriss generieren. Wenn du eine klare Vorstellung von Publikum, Titel und Ziel hast, bringe sie in die Eingabeaufforderung ein.
 
 ### Was erwartet Content Composer?
 
-Content Composer erwartet Folgendes in einem oder zwei Sätzen:
+Content Composer erwartet Folgendes:
 
-- **Wer** sind die Teilnehmer? Benennen Sie ihre Rolle und Erfahrungsstufe.
-  - **Was** wird der Kurs abdecken? Beschreiben Sie 2-3 spezifische Fachbereiche anstelle einer breit gefächerten Domäne. &quot;Phishing-Erkennung, Kennworthygiene und MFA-Einrichtung&quot; ist beispielsweise nützlicher als &quot;IT-Sicherheit&quot;.
-- **Was ist das Lernziel?** Beschreiben Sie das Ergebnis oder die Verhaltensänderung, die die Teilnehmer nach Abschluss des Kurses durchführen sollen.
+- **Wovon** handelt der Kurs? Beschreiben Sie den Themenbereich in einem oder zwei Sätzen. Dies wird zum Kurstitel.
+- **Wer** sind die Teilnehmer? Benennen Sie ihre Rolle und Erfahrungsstufe. Dies wird zum Teilnehmerprofil.
+- **Was ist das Lernziel?** Beschreiben Sie das Ergebnis oder die Verhaltensänderung, die die Teilnehmer nach Abschluss des Kurses durchführen sollen. Dies wird zum Lernziel im Brief.
 
 ### Anatomie einer effektiven Eingabeaufforderung
 
-**[Zielgruppe + Erfahrungsstufe]** + **[2-3 spezifische Themen]** + **[Lernziel]**
+**[Teilnehmer + Erfahrungsstufe]** + **[ein bestimmter Titel]** + **[Lernziel]**
+
+Eine effektive Eingabeaufforderung führt drei Dinge aus: Es beschreibt, worum es in dem Kurs geht, wer er ist und was die Teilnehmer nach Abschluss tun können sollten.
 
 **Beispiel**:
 
@@ -43,29 +43,28 @@ Ich möchte einen Kurs für neue Vertriebsmitarbeiter erstellen, der unsere Ente
 
 Untergliederung:
 
-- **Zielgruppe:** neue Vertriebsmitarbeiter
-
-- **Themen:** Preisstufen für Unternehmen, Arbeitsablauf für die Genehmigung von Rabatten, drei häufige Einwände
-  - **Lernziel**: die drei häufigsten Einwände von Kunden zuverlässig behandeln - ein messbares Verhaltensergebnis, kein Thema, das behandelt werden sollte
+- **Titel:** Ein Kurs zu Unternehmenspreisen, Rabattgenehmigungen und der Behandlung von Kundeneinwänden für neue Vertriebsmitarbeiter
+- **Teilnehmer:** Neue Vertriebsmitarbeiter in den ersten 90 Tagen, die mit den Preisstrukturen im Unternehmen nicht vertraut sind
+- **Ziel:** Mit dem genehmigten Messaging-Framework können Sie die drei häufigsten Einwände von Kunden zuverlässig behandeln.
 
 Sobald Sie **Erste Schritte** auswählen, öffnet Content Composer die **Brief**-Phase. Überprüfen Sie die vorab ausgefüllten Felder, den Titel, das Teilnehmerprofil und das Ziel, die die AI aus Ihrer Eingabeaufforderung generiert hat, und verfeinern Sie alles, was nicht Ihrer Absicht entspricht, bevor Sie die Gliederung generieren.
 
 ### Empfehlungen für eine effektive Eingabeaufforderung
 
-| **Einschließen** | **Vermeiden** |
-|--------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------|
-| Eine bestimmte Zielgruppenrolle (&quot;neue Vertriebsmitarbeiter&quot;, &quot;Frontline-Manager&quot;) | Vage Zielgruppen (&quot;alle Mitarbeiter&quot;, &quot;alle&quot;, &quot;Benutzer&quot;) |
-| 2-3 konkrete Themenbereiche | Über 6 Themen in einer Eingabeaufforderung - diese erzeugen überladene Konturen; stattdessen in separate Kurse aufgeteilt |
-| Ein Bereichssignal - Dauer, Tiefe oder Teilnehmerergebnis | Generische Ziele (&quot;lehren sie alles über X&quot;, &quot;decken alle Aspekte von&quot;) |
-| Kontext, der den Ton oder die Tiefe bestimmt (&quot;für Compliance&quot;, &quot;für eine nicht technische Zielgruppe&quot;, &quot;szenarienbasiert&quot;) | Die KI in Frage stellen. Die Eingabeaufforderung ist eine kurze, keine Unterhaltung |
-| Was die Teilnehmer nach dem Kurs tun können | Inhalt des Kurses (Struktur der Gliederungsphase überlassen) |
+| Einschließen | vermeiden |
+|---|---|
+| Ein klarer Kurstitel oder Themenbereich | Vage Themen (&quot;etwas zur Sicherheit&quot;, &quot;eine allgemeine Schulung&quot;) |
+| Die Rolle des Teilnehmers oder die demografische Zusammensetzung (&quot;neue Vertriebsmitarbeiter&quot;, &quot;Personal an vorderster Front-Warehouse&quot;) | Große Zielgruppen (&quot;alle Mitarbeiter&quot;, &quot;alle&quot;, &quot;Benutzer&quot;) |
+| Das Erfahrungsniveau des Teilnehmers (&quot;frühe Karriere&quot;, &quot;vertraut mit X, aber nicht Y&quot;) | Vorausgesetzt, die KI kennt den Hintergrund eurer Zielgruppe |
+| Probleme von Teilnehmern oder Unwissenheit | Lückenlose Schulungen. Die KI nutzt sie, um Vokabular und Szenarien zu formen |
+| Ein klares Lernziel - was die Teilnehmer nach dem Kurs tun können | Generische Ziele (&quot;lehren sie alles über X&quot;, &quot;decken alle Aspekte von&quot;) |
 
 ### Starter-Eingabeaufforderungen nach Kurstyp
 
 | **Kurstyp** | **Starteraufforderung** |
 |--------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Compliance-Schulung** | &quot;Ich möchte einen Kurs für alle Mitarbeiter erstellen, der sich mit der Handhabung von DSGVO-Daten befasst. Er regelt, was als personenbezogene Daten zählt, wie sie richtig gespeichert und freigegeben werden und was bei einem Verstoß zu tun ist.&quot; |
-| **Onboarding** | &quot;Ich möchte ein Onboarding-Modul für neue \[Rolle\] erstellen, das \[Thema 1\], \[Thema 2\] und \[Thema 3\] abdeckt. |
+| **Onboarding** | &quot;Ich möchte ein Onboarding-Modul für neue Kundendienstmitarbeiter erstellen, das zeigt, wie man ein Ticket protokolliert, ein Problem eskaliert und einen Fall in unserem Helpdesk-System schließt.&quot; |
 | **Technische Fähigkeiten** | &quot;Ich möchte einen Kurs für junge Software-Ingenieure zu sicheren Programmierpraktiken wie SQL Injection Prevention, Eingabevalidierung und zum Lesen eines SAST-Berichts erstellen.&quot; |
 | **Soft Skills** | &quot;Ich möchte einen Kurs für Führungskräfte im Einzelhandel erstellen, in dem sie konstruktives Feedback geben, z. B. indem ich das SBI-Modell abdecke, wie sie sich auf ein Feedback-Gespräch vorbereiten und wie sie nachfragen können.&quot; |
 | **Richtlinie und Verfahren** | &quot;Ich möchte einen Kurs für Lagermitarbeiter erstellen, in dem es um manuelle Handhabungsverfahren geht, wie die richtige Hebetechnik, wann die Ausrüstung zu verwenden ist und wie man einen Beinahe-Fehlschlag meldet.&quot; |
@@ -83,11 +82,9 @@ Dies ist eine Gesprächsbühne. Die Qualität Ihrer Antworten auf die Fragen der
 
 ### Kurstitel
 
-Die KI schlägt zwei Titeloptionen vor. Wähle das passende Schriftzeichen aus, oder gib eigene ein. Wenn keiner der beiden richtig ist, beschreiben Sie die Lücke:
+Die KI füllt den Kurstitel basierend auf Ihrer Aufforderung vorab aus. Prüfen Sie die Datei und wählen Sie sie aus, geben Sie eigene ein oder beschreiben Sie, was Sie stattdessen möchten:
 
 &quot;Weder noch. Im Kurs geht es vor allem um den Genehmigungs-Workflow und nicht um die allgemeine Preisgestaltung.&quot;
-
-Ein guter Titel ist &quot;Learning&quot; (Schulungsbegriffe). Es beschreibt, was der Teilnehmer tun kann, nicht was der Kurs abdeckt.
 
 ### Teilnehmerprofil
 
@@ -115,28 +112,30 @@ Schreiben Sie das Ziel als ein Verhalten, das mit einem Aktionsverb beginnt:
 >
 >**Bevor Sie die Gliederung generieren:** Die Gliederung wird vollständig aus dem Brief erstellt, nicht aus Ihrer ursprünglichen Eingabeaufforderung. Bevor Sie **Gliederung generieren** auswählen, bestätigen Sie, dass der Titel auf die Teilnehmer zugeschnitten ist, das Teilnehmerprofil eine bestimmte Rolle und Erfahrungsstufe benennt und das Lernziel ein messbares Verhalten am Arbeitsplatz beschreibt. Ein gut definierter Brief erzeugt einen gut strukturierten Umriss. Falls sich ein Feld immer noch als generisch anfühlt, verfeinern Sie es jetzt.  Später werden erhebliche Änderungen eingespart.
 
+Du hast immer die Kontrolle. Der Content Composer wird weitere Fragen zur Verfeinerung des Brief-Designs stellen, aber du entscheidest, wie das jeweilige Feld aussieht. Ein gut definierter Brief erzeugt einen gut strukturierten Umriss. Je präziser Ihre Eingaben, desto weniger Bearbeitung benötigen Sie später.
+
 ### Signiert, dass der Brief mehr Arbeit erfordert
 
 - Im Teilnehmerprofil steht &quot;Mitarbeiter, die mehr über X erfahren möchten&quot;, anstatt eine bestimmte Rolle und eine bestimmte Erfahrungsstufe zu benennen
 - Das Lernziel beschreibt einen Themenbereich und nicht ein messbares Verhalten am Arbeitsplatz
-- Der Titel ist eine Themenbeschriftung (&quot;IT-Sicherheit&quot;) und kein Ergebnis für Teilnehmer (&quot;Phishing-Versuche erkennen und darauf reagieren&quot;).
+- Der Titel ist vage (&quot;IT-Sicherheit&quot;) und nicht auf Teilnehmer bezogen (&quot;Phishing-Versuche erkennen und darauf reagieren&quot;).
 
 ## Stufe 3: Gliederung - Bearbeitung durch Konversation
 
 Nachdem Sie den Brief bestätigt haben, generiert Content Composer eine Lektions- und Themenstruktur. Sie überprüfen den Kurs und fordern Änderungen über das Chat-Fenster an, bevor Sie den vollständigen Kurs generieren.
 
-Die Bearbeitung von Konturen ist in der aktuellen Version vollständig konventionell. Sie können auf der Arbeitsfläche keine Lektion oder kein Thema auswählen, um sie umzubenennen oder neu zu ordnen. Alle Änderungen werden durch Eingabe von Anfragen in einfacher Sprache vorgenommen.
+Die Bearbeitung von Konturen ist in der aktuellen Version vollständig konventionell. Sie können auf der Arbeitsfläche keine Lektion oder keinen Titel auswählen, um sie umzubenennen oder neu anzuordnen. Alle Änderungen werden durch Eingabe von Anfragen in einfacher Sprache vorgenommen.
 
-Dies ist auch die effizienteste Phase, um strukturelle Veränderungen vorzunehmen. Die Bearbeitung der Gliederung dauert Sekunden. Die Umstrukturierung eines generierten Kurses dauert erheblich länger.
+Dies ist auch die wirksamste Phase für strukturelle Veränderungen. Die Bearbeitung der Gliederung dauert Sekunden. Die Umstrukturierung eines generierten Kurses dauert erheblich länger.
 
 ### Bearbeiten von Phrasen in Phrasen
 
-Seien Sie direkt und spezifisch. Benennen Sie die Lektion oder das Thema nach seinem aktuellen Titel, beschreiben Sie die gewünschte Änderung und erläutern Sie optional, warum.
+Seien Sie direkt und spezifisch. Benennen Sie die Lektion mit ihrem aktuellen Titel, beschreiben Sie die gewünschte Änderung und erläutern Sie optional, warum.
 
 **Umbenennen:**
 
 - &quot;Benennen Sie Lektion 1 in &#39;Wie Phishing-Angriffe funktionieren&#39; um.&quot;
-- &quot;Benennen Sie Thema 2.3 in &quot;Eskalationspfade und Zeitleisten&quot; um.&quot;
+- &quot;Benennen Sie Titel 2.3 in &#39;Eskalationspfade und Zeitleisten&#39; um.&quot;
 
 **Hinzufügen:**
 
@@ -169,16 +168,17 @@ Seien Sie direkt und spezifisch. Benennen Sie die Lektion oder das Thema nach se
 ### Was die Gliederungsphase nicht leisten kann
 
 - Die Hierarchie wurde als Lektionen > Themen behoben. Sie können keine Unterthemen oder Strukturen auf drei Ebenen erstellen.
-- Einzelne Unterrichtsziele können zu diesem Zeitpunkt nicht festgelegt werden. Das allgemeine Lernziel aus dem Brief gilt für den gesamten Kurs.
 - Sie können in dieser Phase keine Komponenten oder Medien hinzufügen. Diese werden im Kurseditor hinzugefügt.
 
-### Wann sollte welche Anwendung neu generiert werden? Wann sollte welche Anwendung verwendet werden?
+<!--
+### When to regenerate versus when to edit
 
-| Verwenden Sie die Dialogbearbeitung, wenn... | Regenerieren, wenn... |
+| Use conversational editing when... | Regenerate when... |
 |---|---|
-| Die Gesamtstruktur ist richtig, aber einzelne Namen oder Themen müssen angepasst werden. | Die Gesamtstruktur entspricht überhaupt nicht Ihrer Absicht |
-| Sie möchten bestimmte Elemente hinzufügen oder entfernen | Der Brief wurde nach der Erstellung des ersten Entwurfs erheblich verfeinert. |
-| Eine Lektion erfordert das Aufteilen oder Zusammenführen | Die Gliederung wirkt allgemein und hat keinen spezifischen Kontext für Ihr Unternehmen |
+| The overall structure is right but individual names or topics need adjusting | The overall structure doesn't match your intent at all |
+| You want to add or remove specific items | The Brief was refined significantly after the first outline was generated |
+| One lesson needs splitting or merging | The outline feels generic and lacks your organisation's specific context |
+-->
 
 ## Stufe 4: Kurs: Verfeinern Sie den Inhalt über den Assistenten
 
