@@ -3,13 +3,15 @@ jcr-language: en_us
 title: Konfigurieren des Creative Cloud-Speichers für Adobe Learning Manager Content Composer
 description: Erfahren Sie, wie Sie den Creative Cloud-Speicher für Adobe Learning Manager Content Composer konfigurieren. In diesem Handbuch wird erläutert, warum Creative Cloud-Speicher erforderlich ist, wie Administratoren das kostenlose Mitgliedschaftsangebot in Adobe Admin Console zuweisen können und wie Sie Probleme mit dem speicherbezogenen Zugriff beheben können.
 contentowner: saghosh
-source-git-commit: 42512cc4cab0d0cdb1e9796610d6fc2f7b5c51d6
+source-git-commit: 15e1f5c383442fb93706acdf68eb889c16511859
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '728'
 ht-degree: 0%
 
 ---
 
+
+# Konfigurieren des Creative Cloud-Speichers für Adobe Learning Manager Content Composer
 
 >[!IMPORTANT]
 >
@@ -92,4 +94,4 @@ Ja. Content Composer ist davon abhängig, dass Creative Cloud-Speicher mit dem A
 
 Wenn der Adobe Admin Console-Administrator ein Problem beim Zuweisen von Creative Cloud-Speicher oder beim Debuggen von Zugriffsproblemen Fläche, erfordert das Problem möglicherweise Unterstützung auf Enterprise-Kontoebene. Wenden Sie sich in solchen Fällen über die in Admin Console verfügbaren Supportoptionen an den Adobe Enterprise Support.
 
-Weitere Informationen finden Sie unter [Adobe von Enterprise Support-Optionen](https://helpx.adobe.com/de/business/enterprise/get-help/support-options/support-for-enterprise.html).
+Weitere Informationen finden Sie unter [Adobe von Enterprise Support-Optionen](https://helpx.adobe.com/business/enterprise/get-help/support-options/support-for-enterprise.html).
