@@ -3,9 +3,9 @@ description: Mit dem KI-Assistenten in Adobe Learning Manager erhalten Sie schne
 jcr-language: en_us
 title: AI Assistant für Teilnehmer in Adobe Learning Manager
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 75857b4616180d6294d8374983bb3bf5453c0f46
+source-git-commit: cab2a30f621c22aec273c29c257f5e13405df327
 workflow-type: tm+mt
-source-wordcount: '3167'
+source-wordcount: '3236'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Der AI Assistant ist ein generativer KI-gestützter Chat-Begleiter in Adobe Lear
 
 - **Inhaltsquellen und Zitate**
   - Ruft Antworten aus verfügbaren Ressourcen in unterstützten Katalogen ab
-  - Bietet Zitaten direkte Verknüpfungen zu Quellmaterialien
+  - Bietet Zitate mit direkten Links zu Quell-Materialien
   - Unterstützt alle Learning Manager-Inhaltsformate (statisch und interaktiv): PDF, DOCX, PPTX, XLSX, Audio (MP3, WAV, M4A), Video (MP4, MOV, WMV), HTML, SCORM 2004 und SCORM 1.2
 
 - **Benutzererlebnis**
@@ -56,7 +56,7 @@ Der AI Assistant ist ein generativer KI-gestützter Chat-Begleiter in Adobe Lear
 
 ## Funktionen des AI Assistant.
 
-Der AI Assistant ist ein generativer KI-gestützter Chat-Begleiter, der Fragen mithilfe Ihrer zugewiesenen Lerninhalte beantwortet. Jede Antwort umfasst Zitate mit direkten Links zum Quellmaterial, sodass Sie Informationen überprüfen und das Lernen im Kontext fortsetzen können.
+Der AI Assistant ist ein generativer KI-gestützter Chat-Begleiter, der Fragen mithilfe Ihrer zugewiesenen Lerninhalte beantwortet. Jede Antwort umfasst Zitate mit Direktverknüpfungen zum Quell-Material, sodass Sie Informationen überprüfen und das Lernen im Kontext fortsetzen können.
 
 Zusätzlich zur Beantwortung von Fragen kann der AI Assistant:
 
@@ -81,7 +81,7 @@ Adobe verarbeitet Ihre Lerninhalte sicher mit vertrauenswürdigen Diensten.
 
 ### Einschränkungen bei Katalogen und Inhaltsquellen
 
-Der AI-Assistent verwendet nur Inhalte aus **internen** Katalogen, die explizit von Administratoren konfiguriert wurden.
+Der AI Assistant verwendet nur Inhalte aus internen Katalogen, externen Katalogen und Inhaltsbibliotheken von Drittanbietern. Antworten auf die Fragen von Teilnehmern werden nur von Katalogen abgeleitet, auf die sie Zugriff haben.
 
 Die folgenden Inhaltsquellen werden in der aktuellen Version nicht unterstützt:
 
@@ -117,7 +117,7 @@ Der KI-Assistent unterstützt Marcus bei folgenden Aufgaben:
 
 ### Onboarding neuer Mitarbeiter
 
-Jennifer ist gerade dem Unternehmen beigetreten und wird von der Menge an Schulungsmaterial überwältigt. Sie benötigt eine Möglichkeit, bestimmte Informationen zu finden, ohne den gesamten Kurs zu überprüfen.
+Jennifer ist gerade dem Unternehmen beigetreten und wird von dem Material an Schulungen überwältigt. Sie benötigt eine Möglichkeit, bestimmte Informationen zu finden, ohne den gesamten Kurs zu überprüfen.
 
 Die KI-Assistentin unterstützt Jennifer bei folgenden Aufgaben:
 
@@ -152,7 +152,7 @@ Jede Antwort des AI Assistant umfasst Zitate, die direkt mit dem ursprünglichen
 - Überprüfen Sie die Informationen und sehen Sie sich zusätzlichen Kontext aus der maßgeblichen Quelle an.
 
 > **WICHTIG**
-> Der AI-Assistent bietet Antworten auf der Grundlage von Inhalten, die vom Administrator aktiviert wurden. Wenn Sie keinen Zugriff auf ein referenziertes Element haben, wird beim Versuch, es zu öffnen, die Meldung &quot;Nicht unterstützt&quot; angezeigt.
+> Der AI-Assistent bietet Antworten auf Basis von durch den Administrator aktiviertem Inhalt. Wenn Sie keinen Zugriff auf ein referenziertes Element haben, wird beim Versuch, es zu öffnen, die Meldung &quot;Nicht unterstützt&quot; angezeigt.
 
 
 ## Integrierte Eingabeaufforderungen
@@ -357,7 +357,7 @@ Der Lernassistent von Adobe Learning Manager kann Teilnehmerfragen zu Lernobjekt
 
 >[!IMPORTANT]
 >
->Voraussetzung ist, dass ein Administrator die erforderlichen Kataloge dem Teilnehmer-Assistenten hinzufügt. Weitere Informationen finden Sie unter [Zugriff auf AI Assistant konfigurieren](https://experienceleague.adobe.com/de/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access).
+>Voraussetzung ist, dass ein Administrator die erforderlichen Kataloge dem Teilnehmer-Assistenten hinzufügt. Weitere Informationen finden Sie unter [Zugriff auf AI Assistant konfigurieren](https://experienceleague.adobe.com/en/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access).
 
 
 Wenn ein Administrator einen Go1- oder LinkedIn-Lernkatalog zu Adobe Learning Manager hinzufügt, durchläuft der Kataloginhalt einen geplanten Aufnahmeprozess. Nach Abschluss der Aufnahme sind die Lernobjekte aus diesem Katalog für die Abfrage durch den Lernassistenten verfügbar.
@@ -380,7 +380,7 @@ Der Lern-Assistent kann Lerninhalte zu Go1 oder LinkedIn abfragen:
 ## Beheben von Problemen mit dem AI-Assistenten
 
 > **HINWEIS**
-> Nachdem Sie einen neuen Katalog konfiguriert haben, warten Sie 4 bis 5 Stunden, bis der Inhalt indiziert und für Antworten des AI-Assistenten verfügbar ist.
+> Nachdem Sie einen neuen Katalog konfiguriert haben, warten Sie 4 bis 5 Stunden, bis der Inhalt indiziert und für die Antworten des AI-Assistenten verfügbar ist.
 
 ### Kein Zugriff auf Inhalte
 
