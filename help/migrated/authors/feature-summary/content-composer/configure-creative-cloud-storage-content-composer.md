@@ -92,4 +92,4 @@ Ja. Content Composer ist davon abhängig, dass Creative Cloud-Speicher mit dem A
 
 Wenn der Adobe Admin Console-Administrator ein Problem beim Zuweisen von Creative Cloud-Speicher oder beim Debuggen von Zugriffsproblemen Fläche, erfordert das Problem möglicherweise Unterstützung auf Enterprise-Kontoebene. Wenden Sie sich in solchen Fällen über die in Admin Console verfügbaren Supportoptionen an den Adobe Enterprise Support.
 
-Weitere Informationen finden Sie unter [Adobe von Enterprise Support-Optionen](https://helpx.adobe.com/business/enterprise/get-help/support-options/support-for-enterprise.html).
+Weitere Informationen finden Sie unter [Adobe von Enterprise Support-Optionen](https://helpx.adobe.com/de/business/enterprise/get-help/support-options/support-for-enterprise.html).
