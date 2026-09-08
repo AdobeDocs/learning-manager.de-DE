@@ -6,8 +6,8 @@ contentowner: jayakarr
 exl-id: b9f17644-f237-4701-86e9-8496db941920
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 43%
+source-wordcount: '858'
+ht-degree: 52%
 
 ---
 
@@ -29,13 +29,13 @@ Stellen Sie sicher, dass Ihre Konten in den FTP- und Box-Diensten erstellt wurde
 
 * Stellen Sie sicher, dass die Dateinamen von CSV-Dateien mit den CSV-Spezifikationsnamen übereinstimmen:
 
-   * course.csv
-   * course_instance.csv
-   * course_module.csv
-   * enrollment.csv
-   * module.csv
-   * module_version.csv
-   * user_course_grade.csv
+  * course.csv
+  * course_instance.csv
+  * course_module.csv
+  * enrollment.csv
+  * module.csv
+  * module_version.csv
+  * user_course_grade.csv
 
 ### Fehler werden für Aufträge mit Fehlerdatensätzen angezeigt {#failuresareshownforjobswitherrorrecords}
 
@@ -43,7 +43,7 @@ Stellen Sie sicher, dass Ihre Konten in den FTP- und Box-Diensten erstellt wurde
 1. Korrigieren Sie die ursprüngliche CSVs, basierend auf den gemeldeten Fehlern
 1. Führen Sie den Sprint mit den geänderten CSVs erneut aus.
 
-Es empfiehlt sich, geänderte CSVs in einem neuen Sprint auszuführen, wenn die Anzahl der Änderungen im Vergleich zur Gesamtzahl der Datensätze geringer ist.
+Das beste Verfahren ist, geändertes CSVs in einem neuen Sprint auszuführen, wenn die Anzahl von Änderungen kleiner ist, verglichen mit der Gesamtanzahl von Datensätzen.
 
 ### Anmeldung bei der Learning Manager-Anwendung auch nach dem Beenden der Sprint-Migration nicht möglich {#unabletologintocaptivateprimeapplicationevenafterstoppingthesprintmigration}
 
@@ -55,17 +55,17 @@ Es kann 10 bis 15 Minuten dauern, bis alle Aufträge beendet sind, sobald sie de
 
 ### Sprint konnte nicht erstellt werden da die Schaltfläche deaktiviert ist {#unabletocreateasprintasthebuttonisdisabled}
 
-Stellen Sie sicher, dass der aktuelle Sprint als abgeschlossen markiert ist, bevor Sie einen Sprint erstellen. Klicken Sie oben auf der Seite auf **[!UICONTROL Sprint als abgeschlossen markieren]**, um eine Sprint-Migration abzuschließen.
+Stellen Sie sicher, dass der aktuelle Sprint als abgeschlossen markiert ist, bevor Sie einen Sprint erstellen. Klicken Sie am oberen Rand der Seite auf **[!UICONTROL Sprint als abgeschlossen markieren]**, um eine Sprint-Migration abzuschließen.
 
 ### Migrationsprojekte können nicht als „abgeschlossen“ markiert werden, da die Schaltfläche deaktiviert ist {#unabletomarkamigrationprojectascompleteasthebuttonisdisabled}
 
-Stellen Sie sicher, dass der aktuelle Sprint als abgeschlossen markiert ist, bevor Sie den Abschluss des Migrationsprojekts markieren. Klicken Sie oben auf der Seite auf **[!UICONTROL Sprint als abgeschlossen markieren]**, um eine Sprint-Migration abzuschließen.
+Stellen Sie sicher, dass der aktuelle Sprint als abgeschlossen markiert ist, bevor Sie den Abschluss des Migrationsprojekts markieren. Klicken Sie am oberen Rand der Seite auf **[!UICONTROL Sprint als abgeschlossen markieren]**, um eine Sprint-Migration abzuschließen.
 
 ## CSV-Probleme {#csvissues}
 
 ### module_version.csv-Dateimigration schlägt fehl und Inhalt ist noch nicht migriert {#moduleversioncsvfilemigrationisfailingandcontentisnotmigratedyet}
 
-Stellen Sie sicher, dass der Inhalt im Inhaltsordner verfügbar ist (Box-Konto unter dem angegebenen Migrationsprojekt, Sprint-Pfad). Stellen Sie außerdem sicher, dass Sie die Option **Ja** für **Möchten Sie Inhalte für diesen Sprint migrieren?**-Frage auf der Seite zum Erstellen des Sprints.
+Stellen Sie sicher, dass der Inhalt im Inhaltsordner verfügbar ist (Box-Konto unter dem angegebenen Migrationsprojekt, Sprint-Pfad). Stellen Sie außerdem sicher, dass Sie die Option **Ja** für **Möchten Sie Inhalte für diesen Sprint migrieren?** Frage auf der Seite zum Erstellen des Sprints.
 
 Wenn Sie vergessen, **Ja** zu wählen und weiter diesen Sprint verwenden, müssen Sie warten, bis Sie diesen Sprint abgeschlossen haben. Erstellen Sie einen weiteren Sprint und klicken Sie auf **[!UICONTROL Ja]**.
 
@@ -77,7 +77,7 @@ Stellen Sie sicher, dass die E-Mail-ID, die im Rahmen der Felder „userId“ un
 
 ### Kurse werden leer oder falsche Module werden für einen migrierten Kurs abgespielt {#coursesappearblankorincorrectmodulesplayforamigratedcourse}
 
-Stellen Sie sicher, dass der Schlüsselwert **moduleOrderInCourse** für einen Kurs mit **0** beginnt und in fortlaufender Reihenfolge vorliegt. Die Reihenfolge in Bezug auf courseModuleType sollte PRETEST, TESTOUT, CONTENT lauten.
+Stellen Sie sicher, dass der Schlüsselwert **moduleOrderInCourse** für einen Kurs mit **0** beginnt und sich in kontinuierlicher Reihenfolge befindet. Die Reihenfolge in Bezug auf courseModuleType sollte PRETEST, TESTOUT, CONTENT lauten.
 
 Stellen Sie außerdem sicher, dass die beiden Versionen von Aktivität, Klassenzimmer und VC nicht mit dem vorhandenen Kurs verknüpft sind.
 
@@ -101,6 +101,6 @@ Stellen Sie sicher, dass die angegebenen Links mit &quot;http://&#39;&quot; oder
 
 Stellen Sie sicher, dass die referenzierte Datei im Inhaltsordner vorhanden ist und erfolgreich migriert wird.
 
-### moduleVersion-Migration schlägt mit einer Fehlermeldung fehl: &quot;Ein interner Fehler ist aufgetreten - für Modul : x und moduleVersion : y&quot; {#moduleversionmigrationfailswithanerrormessageasaninternalerrorhasoccurredformodulexandmoduleversiony}
+### moduleVersion-Migration schlägt fehl mit einer Fehlermeldung wie &quot;Ein interner Fehler ist aufgetreten - für Modul : x und moduleVersion : y&#39; {#moduleversionmigrationfailswithanerrormessageasaninternalerrorhasoccurredformodulexandmoduleversiony}
 
 Führen Sie den Sprint erneut aus, um das Problem zu beheben.
