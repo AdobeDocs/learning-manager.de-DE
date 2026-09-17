@@ -1,15 +1,13 @@
 ---
-description: Erfahren Sie, wie Sie den LinkedIn Learning-Connector mit Adobe Learning Manager integrieren
+description: Erfahren Sie, wie Sie die LinkedIn Learning-Verbindung mit Adobe Learning Manager integrieren
 jcr-language: en_us
 title: Einbetten von Deep Links in ein LTI-Tool von ALM
 contentowner: mmanuel
-source-git-commit: ce25b5982c86695352029e22e427b4e85274a1cb
+source-git-commit: ecd80d3000694ddffb53d3d2fa5bbcdae49a88f4
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '948'
 ht-degree: 0%
-
 ---
-
 
 # LTI Deep Linking in Adobe Learning Manager
 
@@ -27,21 +25,21 @@ In diesem Modell:
 
 * Kursleiter und Autoren in dem externen LMS starten ein dediziertes Deep-Link-Auswahlerlebnis, um ALM zu durchsuchen.
 * Das System gibt ein Deep-Link-Objekt von ALM an das externe LMS zurück, sodass das ausgewählte Element als Teil seines Kurs-Authoring-Workflows eingebettet werden kann.
-* Die Schüler nutzen tief verlinkte Inhalte in ihrem primären LMS, das das in ALM gehostete Material nahtlos einführt.
+* Die Schüler nutzen tief verlinkte Inhalte in ihrem primären LMS, das das in ALM gehostete Material nahtlos startet.
 
 ## Problemstellung
 
 ALM unterstützt derzeit die LTI 1.3-Integration, aber ohne einen vollständigen Deep-Linking-Workflow haben Kursleiter und Autoren keine strukturierte Möglichkeit, um:
 
 * Sorgt für eine dedizierte Deep-Link-Auswahl auf Basis eines Modals.
-* Durchsuchen Sie nur die Lernobjekte, die für eine bestimmte Plattform verfügbar gemacht werden sollen.
+* Durchsuchen Sie nur die Lernobjekte, die für eine bestimmte Plattform gelegt werden sollen.
 * Wählen Sie ein bestimmtes Lernobjekt aus der Plattform aus.
 * ALM gibt dieses Lernobjekt an die Plattform zurück, sodass es direkt in einen Kurs eingebettet werden kann.
 
 Ohne diese Funktion:
 
 * Die Inhaltsauswahl ist manuell oder fragmentiert.
-* Alle Kontoinhalte können unbeabsichtigt verfügbar gemacht werden, sofern sie nicht explizit gefiltert werden.
+* Alle Kontoinhalte können unbeabsichtigt gelegt werden, sofern sie nicht explizit gefiltert werden.
 * Integration von Tool-Anbietern ist schwieriger zu operationalisieren
 * Kursautoren können keine externen LTI-Inhalte mit einem konsistenten, geregelten Arbeitsablauf einbetten
 
@@ -52,13 +50,13 @@ Die Hauptziele dieser Funktion sind:
 1. Aktivieren der LTI-Deep-Linking bei einem LTI-Tool-Anbieter
    * Unterstützung von Deep-Link-Launches von ALM zu einem LTI-Tool-Anbieter.
 2. Einrichten eines gesteuerten Arbeitsablaufs für die Inhaltsauswahl
-   * Stellen Sie während der Deep-Link-Auswahl nur genehmigte und relevante Kataloge und Inhalte zur Verfügung.
+   * Während der Deep-Link-Auswahl werden nur genehmigte und relevante Kataloge und Inhalte gelegt.
 3. Ausbildern und Autoren die Auswahl von Lernobjekten ermöglichen
    * Stellen Sie eine durchsuchbare und filtrierbare Benutzeroberfläche für die Auswahl geeigneter Lernobjekte bereit.
 4. Rückgabe einer gültigen Deep-Link-Antwort an ALM
    * Leiten Sie den Benutzer mithilfe des Parameters deep_link_return_url mit der erforderlichen Deep-Link-Payload zurück zur Plattform.
 5. Unterstützung der plattformspezifischen Katalogbelichtung
-   * Ermöglichen Sie Administratoren zu steuern, welche Kataloge auf welcher LTI-Plattform verfügbar gemacht werden.
+   * Ermöglichen Sie Administratoren zu steuern, welche Kataloge welcher LTI-Plattform gelegt werden.
 
 ## Personen und ihre Rollen
 
@@ -83,24 +81,28 @@ Deep Linking tauscht die folgenden Parameter zwischen ALM und der LTI-Plattform 
 | `accept_multiple` | Gibt an, ob die Auswahl mehrerer Ressourcen zulässig ist. konfigurierbar pro Tool |
 | `auto_create` | Gibt an, dass die Plattform den verknüpften Ressourceneintrag automatisch erstellen kann. |
 
-*Diese Parameter steuern, welcher Inhalt verfügbar gemacht wird und wie Auswahlen an ALM zurückgegeben werden.*
+*Diese Parameter steuern, welcher Inhalt gelegt wird und wie Auswahlen an ALM zurückgegeben werden.*
 
 ## Deep-Link erstellen
+
+>[!IMPORTANT]
+>
+>Die im folgenden Abschnitt und im Abschnitt für Autoren genannten Schritte müssen auf der Plattform ausgeführt werden, die die Kurse nutzt, nicht auf der ALM-Seite.
 
 ### Voraussetzung
 
 1. Sie sollten als Integrationsadministrator angemeldet sein.
-2. Aktivieren Sie beim Einrichten der LTI-Integration das Kontrollkästchen Unterstützt Deep Linking.
+2. Aktivieren Sie beim Einrichten der LTI-Integration das Kontrollkästchen **Unterstützt Deep Linking**. Erfahren Sie, wie Sie die [LTI-Integration](/help/migrated/integration-admin/feature-summary/learning-tools-interoperability.md) einrichten.
 3. Geben Sie die URL im Feld ein, über die der Benutzer oder Autor zur Auswahl gelangt.
-4. Wählen Sie Änderungen speichern.
+4. Wählen Sie **Änderungen speichern**.
 
    Dieselbe Start-URL wird wiederverwendet, um Konfiguration und Verwendung zu vereinfachen.
 
-   Das Verhalten wird durch den LTI-Nachrichtentyp bestimmt. Wenn der Meldungstyp `content_consumption` ist, wird der Benutzer an den Kurs-Player weitergeleitet. Wenn der Meldungstyp `content_selection` ist, wird der Benutzer durch den Deep-Linking-Flow geleitet, wo der Autor den gewünschten Inhalt direkt auswählen kann, ohne die kursspezifischen Kennungen manuell zu kopieren.
+   Das Verhalten wird durch den LTI-Nachrichtentyp bestimmt. Wenn der Meldungstyp `content_consumption` ist, wird der Benutzer an den Kurs-Player weitergeleitet. Wenn der Meldungstyp `content_selection` ist, wird der Benutzer durch den Deep-Linking-Flow geleitet, wo der Autor den gewünschten Inhalt direkt auswählen kann, ohne die kursspezifischen Identifizierungen manuell zu kopieren.
 
    Wählen Sie nach dem Speichern Ihrer Änderungen die Registerkarte **Inhalt auswählen** aus. (Die Registerkarte **Inhalt auswählen** wird erst aktiviert, nachdem dieses Kontrollkästchen aktiviert wurde.)
 
-**Der folgende Abschnitt gilt für Autoren.**
+**Für die Autoren**
 
 Als Autor können Sie Inhalt aus dem Fenster **Inhalt auswählen** auswählen. Im Fenster **Inhalt auswählen** wird **Katalog**, **Kursanzahl** und **Exportdatum** angezeigt.
 
