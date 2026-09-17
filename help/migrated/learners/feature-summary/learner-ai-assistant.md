@@ -3,13 +3,11 @@ description: Mit dem KI-Assistenten in Adobe Learning Manager erhalten Sie schne
 jcr-language: en_us
 title: AI Assistant für Teilnehmer in Adobe Learning Manager
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: cab2a30f621c22aec273c29c257f5e13405df327
+source-git-commit: ecd80d3000694ddffb53d3d2fa5bbcdae49a88f4
 workflow-type: tm+mt
-source-wordcount: '3236'
+source-wordcount: '3245'
 ht-degree: 0%
-
 ---
-
 # KI-Assistent für Teilnehmende
 
 ## Einführung
@@ -81,15 +79,14 @@ Adobe verarbeitet Ihre Lerninhalte sicher mit vertrauenswürdigen Diensten.
 
 ### Einschränkungen bei Katalogen und Inhaltsquellen
 
-Der AI Assistant verwendet nur Inhalte aus internen Katalogen, externen Katalogen und Inhaltsbibliotheken von Drittanbietern. Antworten auf die Fragen von Teilnehmern werden nur von Katalogen abgeleitet, auf die sie Zugriff haben.
+Der AI Assistant verwendet nur Inhalte aus internen Katalogen und Inhaltsbibliotheken von Drittanbietern. Antworten auf die Fragen von Teilnehmern werden nur von Katalogen abgeleitet, auf die sie Zugriff haben.
 
 Die folgenden Inhaltsquellen werden in der aktuellen Version nicht unterstützt:
 
-- **Freigegebene** Kataloge
-- **Erworbene** Kataloge
-- **Externe** Kataloge
-- **Standard**-Kataloge
-- Inhaltsbibliotheken von Drittanbietern (z. B. LinkedIn Learning oder Go1)
+- Freigegebene externe Kataloge
+- Standardkataloge
+
+Erworbene Kataloge werden unterstützt, und Antworten aus Metadaten, die aus Inhaltsbibliotheken von Drittanbietern verfügbar sind (z. B. LinkedIn Learning oder Go1) werden ebenfalls unterstützt.
 
 Wenn Sie keinen Zugriff auf einen Kurs oder eine Arbeitshilfe haben, zeigt der AI-Assistent keine Informationen aus diesen Inhalten an, und Zitat-Links sind nicht zugänglich.
 
@@ -357,7 +354,7 @@ Der Lernassistent von Adobe Learning Manager kann Teilnehmerfragen zu Lernobjekt
 
 >[!IMPORTANT]
 >
->Voraussetzung ist, dass ein Administrator die erforderlichen Kataloge dem Teilnehmer-Assistenten hinzufügt. Weitere Informationen finden Sie unter [Zugriff auf AI Assistant konfigurieren](https://experienceleague.adobe.com/de/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access).
+>Voraussetzung ist, dass ein Administrator die erforderlichen Kataloge dem Teilnehmer-Assistenten hinzufügt. Weitere Informationen finden Sie unter [Zugriff auf AI Assistant konfigurieren](https://experienceleague.adobe.com/en/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access).
 
 
 Wenn ein Administrator einen Go1- oder LinkedIn-Lernkatalog zu Adobe Learning Manager hinzufügt, durchläuft der Kataloginhalt einen geplanten Aufnahmeprozess. Nach Abschluss der Aufnahme sind die Lernobjekte aus diesem Katalog für die Abfrage durch den Lernassistenten verfügbar.
