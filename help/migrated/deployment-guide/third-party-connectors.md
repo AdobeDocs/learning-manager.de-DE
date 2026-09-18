@@ -163,7 +163,7 @@ Sobald die Verbindung erfolgreich hergestellt wurde, können Sie die Spalten der
 1. Alle CSV-Dateien sollten die in der Zuordnung angegebenen Spalten enthalten.
 1. Alle erforderlichen CSV müssen sich in dem Ordner befinden, bevor der Vorgang beginnt.
 
-Beim Importieren von Benutzenden in Learning Manager muss der Administrator auch wissen, wie Benutzende in Learning Manager verwaltet werden. Weitere Informationen finden Sie in der [ User Management-Hilfe](../integration-admin/feature-summary/migration-manual.md#usermanagement).
+Beim Importieren von Benutzenden in Learning Manager muss der Administrator auch wissen, wie Benutzende in Learning Manager verwaltet werden. Weitere Informationen finden Sie in der [&#x200B; User Management-Hilfe](../integration-admin/feature-summary/migration-manual.md#usermanagement).
 
 +++
 
@@ -299,7 +299,7 @@ Der getAbstract-Connector kann von Unternehmen von getAbstract.com verwendet wer
    Für jede Art von Synchronisierung gilt: Damit sie funktioniert, muss der Benutzer-Feed für die in der Synchronisierung angegebenen Daten im FTP-Ordner für getAbstract FTP vorhanden sein.
 
    Das folgende Excel-Arbeitsblatt ist ein Beispiel für einen Benutzer-Feed aus getAbstract. Der Dateiname muss dem folgenden Format entsprechen:**report_export_yyyy_MM_dd_HHmmss.xlsx** oder **report_export_yyyy_MM_dd.xlsx**.
-   Excel-Beispiel für [getAbstract-Benutzer-Feed ](assets/report-export-20170401175342.xlsx)
+   Excel-Beispiel für [getAbstract-Benutzer-Feed &#x200B;](assets/report-export-20170401175342.xlsx)
 
 ## Harvard ManageMentor-Connector {#hmmconnector}
 
@@ -661,7 +661,7 @@ Sobald eine Verbindung erfolgreich hergestellt wurde, können Sie die Spalten de
 1. Alle CSV-Dateien sollten die in der Zuordnung angegebenen Spalten enthalten.
 1. Alle erforderlichen CSV müssen sich in dem Ordner befinden, bevor der Vorgang beginnt.
 
-Beim Importieren von Benutzenden in Learning Manager muss der Administrator auch wissen, wie Benutzende in Learning Manager verwaltet werden. Weitere Informationen finden Sie in der [ User Management-Hilfe](../integration-admin/feature-summary/migration-manual.md#usermanagement).
+Beim Importieren von Benutzenden in Learning Manager muss der Administrator auch wissen, wie Benutzende in Learning Manager verwaltet werden. Weitere Informationen finden Sie in der [&#x200B; User Management-Hilfe](../integration-admin/feature-summary/migration-manual.md#usermanagement).
 
 +++
 
