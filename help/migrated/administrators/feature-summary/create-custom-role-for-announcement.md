@@ -2,14 +2,12 @@
 title: Benutzerdefinierte Rolle mit Ankündigungsberechtigungen mit Umfang
 jcr-language: en_us
 description: Erfahren Sie, wie Sie eine benutzerdefinierte Rolle in Adobe Learning Manager erstellen, die Ankündigungen nur für ausgewählte Kataloge und Benutzergruppen zulässt.
-source-git-commit: 85eeebb33a67bf5528c88b26941345e00e98e0d3
+exl-id: e038033c-ce06-454a-922b-ba0b0c894ac0
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
 source-wordcount: '820'
 ht-degree: 0%
-
 ---
-
-
 # Benutzerdefinierte Rolle mit Ankündigungsberechtigungen mit Umfang
 
 Administratoren können benutzerdefinierte Rollen mit Ankündigungsberechtigungen erstellen, die auf bestimmte Kataloge und Benutzergruppen beschränkt sind. Dies stellt sicher, dass Ankündigungen zielgerichtet, relevant und nur für die gewünschten Teilnehmer sichtbar sind. Durch Ankündigungen mit Umfang wird sichergestellt, dass die richtigen Benutzer eine relevante Ankündigung erhalten, ohne Details an andere zu senden.

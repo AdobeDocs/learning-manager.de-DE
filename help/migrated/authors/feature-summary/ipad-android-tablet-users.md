@@ -4,28 +4,25 @@ title: Benutzer von iPad- und Android-Tablets
 description: iPad- und Android-Tablet-Benutzer
 contentowner: manochan
 preview: true
-source-git-commit: ccdb222228f76fdae63ebb0a808824ad6ac1db7f
+exl-id: d6300070-9de0-4971-ae1a-ae944731b3bb
+source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 74%
-
+source-wordcount: '256'
+ht-degree: 100%
 ---
-
-
-
 # Benutzer von iPad- und Android-Tablets
 
-In der Learning Manager-App auf iPad- oder Android-Tablet sehen Sie, nachdem Sie sich als Teilnehmer angemeldet haben, den folgenden Startbildschirm:
+Wenn Sie sich auf dem iPad oder Android-Tablet als Teilnehmer bei Learning Manager angemeldet haben, sehen Sie die folgende Startseite:
 
 ![](assets/screenshot-2015-08-07-12-24-40-e1439211134842.png)
 
-Um zu den Lern- und Katalogfunktionen zu navigieren, tippen Sie auf das Dropdown-Menü **Menü** und wählen Sie die entsprechende Option aus.
+Um zu den Lern- und Katalogfunktionen zu navigieren, tippen Sie auf die Dropdown-Liste **Menü** und wählen Sie die gewünschte Option aus.
 
 ![](assets/menu-ipad.png)
 
 Sie können auf iPad- und Android-Tablets auch offline auf die Learning Manager-App zugreifen. Laden Sie Kurse herunter und bearbeiten Sie sie im Offlinemodus. Wenn Sie wieder mit dem Netzwerk verbunden sind, synchronisieren Sie sie mit der Online-App.
 
-1. Tippen Sie oben auf das Dropdown-Menü und dann auf die Option Lernen . Eine Liste aller verfügbaren Kurse wird in Form von Kacheln angezeigt.
+1. Tippen Sie auf die Dropdown-Liste Menü und dann auf die Option Lernen. Eine Liste aller verfügbaren Kurse wird in Form von Kacheln angezeigt.
 1. Tippen Sie auf das Download-Symbol unten auf jeder Lernobjekt-Kachel, um die Lerninhalte herunterzuladen.
 
 ![](assets/download-ipad.png)
@@ -36,7 +33,7 @@ Sie können auf iPad- und Android-Tablets auch offline auf die Learning Manager-
 
 Sie können Ihren Gerätespeicher regelmäßig überprüfen.
 
-Tippen Sie auf das Profilsymbol in der rechten oberen Ecke der App und tippen Sie auf die Menüoption **Gerätespeicher**.
+Tippen Sie dazu auf das Profilsymbol in der rechten oberen Ecke der App und tippen Sie auf die Menüoption **Gerätespeicher**.
 
 ![](assets/app-device-storage.png)
 

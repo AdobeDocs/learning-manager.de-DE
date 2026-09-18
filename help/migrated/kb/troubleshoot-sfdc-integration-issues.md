@@ -3,14 +3,12 @@ jcr-language: en_us
 title: Fehlerbehebung für Probleme mit der Integration von Salesforce (SFDC) in Adobe Learning Manager
 description: Beheben Sie häufige Salesforce(SFDC)-Integrationsprobleme mit Adobe Learning Manager (ALM), einschließlich fehlgeschlagener Exporte, Feldberechtigungsprobleme in benutzerdefinierten SFDC-Objekten und wichtige SFDC-ALM-Kompatibilitätshinweise.
 contentowner: saghosh
-source-git-commit: cedb4acc89e7d972a4752e10c4fb6930c4633f6a
+exl-id: 65acb7f9-45c3-4dbb-a9db-053533890040
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '601'
 ht-degree: 0%
-
 ---
-
-
 # Fehlerbehebung für Probleme mit der Integration von Salesforce (SFDC) in Adobe Learning Manager
 
 ## Fehlerbehebung bei SFDC-Exportfehlern (kein Export für 2-3+ Stunden)
@@ -43,7 +41,7 @@ Verwenden Sie die **Funktion Eingabehilfen für Felder**, um Berechtigungsproble
    - Beispiel: `cp_LearnerTranscript_xxxx_xxxx` für den Teilnehmertranskriptbericht (LT).
 4. Wählen Sie auf der nächsten Seite **&quot;Nach Feldern anzeigen&quot;**.
 5. Wählen Sie in der Dropdown-Liste **Feld** das Feld aus, das im Exportfehler angezeigt wurde.
-   - Beispiel: `cp_Module_ID`.
+   - Beispiel: `cp_Module_ID`
 6. Klicken Sie in der Zugriffsmatrix auf den Eintrag **&quot;Hidden&quot;** für das Profil **Systemadministrator** (und andere relevante Profile, falls erforderlich).
 7. Auf der nächsten Seite:
    - Aktivieren Sie **&quot;Visible&quot;**, wo immer dies angemessen ist.
@@ -55,7 +53,7 @@ Verwenden Sie die **Funktion Eingabehilfen für Felder**, um Berechtigungsproble
 1. **Wiederholen** Sie die Schritte zur Barrierefreiheit der Felder in Abschnitt 2 für **jedes Feld**, für das in **Massendatenladeaufträgen** Berechtigungsprobleme gemeldet wurden.
 2. Sobald alle problematischen Felder über die entsprechende Sichtbarkeit und Bearbeitungsberechtigungen verfügen:
    - Wechseln Sie zurück zu **Adobe Learning Manager**.
-   - Versuchen Sie in der Konfiguration **SFDC-Connector** **den Export erneut**.
+   - Versuchen Sie in der **SFDC-Verbindung** **den Export** erneut.
 
 
 ## Wichtige Hinweise und Einschränkungen
@@ -64,17 +62,17 @@ Berücksichtigen Sie diese SFDC-ALM-Spezifikationen beim Entwurf oder bei der Fe
 
 ### Keine automatische Objekt-/Felderstellung in SFDC
 
-- Der **SFDC-Connector erstellt keine neuen Objekte oder Felder in Salesforce**.
+- Die **SFDC-Verbindung erstellt keine neuen Objekte oder Felder in Salesforce**.
 - Wenn ein **neues Feld in ALM** hinzugefügt wird und in SFDC angezeigt werden soll:
-   - Erstellen Sie manuell **das entsprechende benutzerdefinierte Feld** in SFDC.
-   - **Ordnen Sie das benutzerdefinierte SFDC-Feld dem** entsprechenden ALM-Feld **in der Connector-Konfiguration zu.**
-   - Stellen Sie sicher, dass das neue Feld über **Berechtigungen auf Feldebene** verfügt (verwenden Sie Abschnitt 2).
+  - Erstellen Sie manuell **das entsprechende benutzerdefinierte Feld** in SFDC.
+  - **Ordnen Sie das benutzerdefinierte SFDC-Feld dem** entsprechenden ALM-Feld **in der Verbindung zu.**
+  - Stellen Sie sicher, dass das neue Feld über **Berechtigungen auf Feldebene** verfügt (verwenden Sie Abschnitt 2).
 
 ### Rückruf-URL für ALM-Konten mit benutzerdefinierten Domänen
 
-- Wenn das ALM-Konto eine **benutzerdefinierte Domäne** verwendet, muss das Engineering-Team diese benutzerdefinierte Domäne **der zulässigen** Rückruf-URL **für die OAuth-Produktions-App des SFDC-Connectors hinzufügen.**
+- Wenn das ALM-Konto eine **benutzerdefinierte Domäne** verwendet, muss das Engineering-Team diese benutzerdefinierte Domäne **der** Rückruf-URL-Zulassungsliste **für die OAuth-Produktions-App der SFDC-Verbindung hinzufügen.**
 - Dies erfolgt über eine **Jira-Anforderung** an das Engineering.
-- Andernfalls kann der OAuth-Flow für den Connector fehlschlagen.
+- Andernfalls kann der OAuth-Flow für die Verbindung fehlschlagen.
 
 ### Zeitzonenbegrenzung (nur UTC)
 

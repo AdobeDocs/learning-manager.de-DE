@@ -2,17 +2,15 @@
 description: Erfahren Sie, wie Sie den Feedbackbericht in Adobe Learning Manager aufrufen, herunterladen und interpretieren. Lernen Sie Berichtsspalten, Fragetypen, Antworten von Managern und Teilnehmern kennen und erfahren Sie, wie Feedback-Erkenntnisse die Bewertung von Schulungen und die kontinuierliche Verbesserung unterstützen.
 jcr-language: en_us
 title: Feedbackbericht in Adobe Learning Manager
-source-git-commit: b1225d4c1c322a75d97c813b0d97eb3229ffd35c
+exl-id: 6a54b5eb-f79d-406f-8125-1f18fdc0cbd3
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '916'
 ht-degree: 7%
-
 ---
-
-
 # Feedbackbericht
 
-## Überblick
+## Übersicht
 
 Der Feedbackbericht in Adobe Learning Manager erfasst sowohl Stufe 1 (Teilnehmer-Feedback) als auch Stufe 3 (Manager-Feedback), nachdem die Teilnehmer die Lernobjekte abgeschlossen haben. Dieser Bericht enthält eine strukturierte Übersicht über subjektive und objektive Antworten von Teilnehmern und ihren Managern.
 
@@ -25,9 +23,9 @@ Der Bericht verfolgt Teilnehmerdetails wie Name, E-Mail-Adresse, Feedback-Formul
 
 ## Anwendungsszenarien
 
-* **Inhaltsprobleme schnell identifizieren**: Administratoren können niedrige Bewertungen oder wiederholte negative Kommentare erkennen und die Lernobjekte aktualisieren, ohne auf Support-Tickets oder Eskalationen warten zu müssen.
-* **Die Wirksamkeit der Schulung messen**: Teams können das Feedback der Teilnehmer über mehrere Kurse oder Versionen hinweg vergleichen, um herauszufinden, welche Lernobjekte gut funktionieren und welche möglicherweise überarbeitet werden müssen.
-* **Mit Feedbackformularen die Interaktion der Teilnehmer verfolgen**: Administratoren können sehen, wie viele Teilnehmer Fragen beantworten oder überspringen, und ihnen helfen, Feedbackformulare zu optimieren, um die Antwortqualität und die Abschlussraten zu verbessern.
+* **Content-Probleme schnell identifizieren**: Administratoren können niedrige Bewertungen oder wiederholte negative Kommentare erkennen und die Lernobjekte aktualisieren, ohne auf Support-Tickets oder Eskalationen warten zu müssen.
+* **Messung der Schulungseffektivität**: Teams können das Feedback der Teilnehmer über mehrere Kurse oder Versionen hinweg vergleichen, um herauszufinden, welche Lernobjekte gut funktionieren und welche möglicherweise überarbeitet werden müssen.
+* **Mit Feedback-Formularen die Interaktion mit Teilnehmern verfolgen**: Administratoren können sehen, wie viele Teilnehmer Fragen beantworten oder überspringen, und ihnen helfen, Feedback-Formulare zu verfeinern, um die Antwortqualität und die Abschlussrate zu verbessern.
 
 ## Feedbackbericht herunterladen
 
@@ -45,7 +43,7 @@ Der Bericht verfolgt Teilnehmerdetails wie Name, E-Mail-Adresse, Feedback-Formul
    ![](assets/feedback-report.png)
    _Konfigurieren Sie den Feedbackbericht, indem Sie den Schulungsbereich auswählen, den Datumsbereich festlegen und die Übersetzungsoption auswählen, bevor Sie_ herunterladen.
 
-6. Wählen Sie die Sprache aus, in die das L1-Feedback übersetzt werden soll. Objektive Fragen und ihre Antworten werden in die ausgewählte Sprache übersetzt, wenn diese Sprachversion explizit definiert ist. Im Bericht werden nur die subjektiven Fragen angezeigt, die explizit in der ausgewählten Sprache definiert sind.  Antworten auf subjektive Fragen werden in der ursprünglichen Antwortsprache gegeben.
+6. Wählen Sie die Sprache aus, der das L1-Feedback Kamera bewogen werden soll. Objektive Fragen und ihre Antworten werden in die ausgewählte Sprache Kamera bewogen, wenn diese Sprachversion explizit definiert ist. Im Bericht werden nur die subjektiven Fragen angezeigt, die explizit in der ausgewählten Sprache definiert sind.  Antworten auf subjektive Fragen werden in der ursprünglichen Antwortsprache gegeben.
 7. Wählen Sie **[!UICONTROL Herunterladen]**, um den Bericht herunterzuladen.
 
 ## Was enthält der Feedbackbericht?
@@ -57,7 +55,7 @@ Im Folgenden sind die Standardspalten im Bericht auf Kontoebene aufgeführt:
 | Typ des Feedbacks | Gibt an, ob das Feedback vom Teilnehmer (L1) oder vom Manager (L3) stammt. |
 | Benutzername | Name des Teilnehmers, der die Schulung abgeschlossen hat |
 | Benutzer-E-Mail | E-Mail-Adresse des Teilnehmers |
-| Schulungs-ID | Eine vom System generierte eindeutige Kennung, die jedem Lernobjekt (Kurs, Zertifizierung oder Lernpfad) zugewiesen ist |
+| Schulungs-ID | Eine vom System generierte eindeutige Identifizierung, die jedem Lernobjekt (Kurs, Zertifizierung oder Lernpfad) zugewiesen ist |
 | Schulungsname | Name des Lernobjekts, für das Feedback gesendet wird |
 | Schulungsinstanz | Instanzname der Schulung (für Mehrinstanzkurse) |
 | Schulungstyp | Art der Schulung (Kurs, Zertifizierung, Lernpfad) |
@@ -71,7 +69,7 @@ Im Folgenden sind die Standardspalten im Bericht auf Kontoebene aufgeführt:
 | L1 Feedback Originalsprache | Die Sprache, in der der Teilnehmer das L1-Feedback ursprünglich gesendet hat |
 | L3 Likert Skalierungsfrage 1 | Misst die Leistung des Teilnehmers nach der Schulung anhand einer Ratingskala |
 | L3 Likert Scale Response 1 | Antwort des Managers auf diese Likert-Frage |
-| L3 Free Text Question 1 | Dem L3-Feedback-Formular für Manager wurde eine Freitext-Frage hinzugefügt. Diese kann optional oder obligatorisch konfiguriert werden. |
+| L3 Free Text Question 1 | Dem L3-Feedback-Formular für Manager wurde eine Freitext-Frage hinzugefügt. kann optional oder obligatorisch konfiguriert werden. |
 | L3 Free Text Response 1 | Die Antwort des Managers auf diese Freitext-Frage |
 
 Die folgenden Spalten werden im Bericht auf Kontoebene basierend auf den vier Arten von Fragen angezeigt, die dem Feedbackformular hinzugefügt wurden:

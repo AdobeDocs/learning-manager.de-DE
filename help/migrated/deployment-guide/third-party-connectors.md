@@ -3,20 +3,17 @@ description: Anleitung zum Integrieren von Salesforce in Learning Manager über 
 jcr-language: en_us
 title: Learning Manager-Connectors
 preview: true
-source-git-commit: 2317aa899a82abe24d38c4e40a06df3646fde310
+exl-id: 4920e32c-16ed-4f49-8d28-67be4e0ea0d1
+source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
 workflow-type: tm+mt
-source-wordcount: '6293'
-ht-degree: 72%
-
+source-wordcount: '6186'
+ht-degree: 83%
 ---
-
-
-
 # Learning Manager-Connectors
 
 Anleitung zum Integrieren von Salesforce in Learning Manager über Connectors, Anleitung zum Integrieren von FTP in Learning Manager und automatischen Hochladen von CSV über den FTP-Connector.
 
-Unternehmen verfügen über andere Anwendungen und Systeme, die möglicherweise in Learning Manager integriert werden müssen. Connectors sind Dienstprogramme, die bei der Durchführung datenbasierter Integrationen helfen, z. B. Importieren von Daten in Learning Manager aus externen Systemen oder Exportieren von Daten in externe Systeme aus Learning Manager. In der Version vom Juli 2016 können die Connectors nur Massenimporte von Benutzern aus externen Systemen für Learning Manager durchführen.
+Unternehmen verfügen über andere Anwendungen und Systeme, die möglicherweise in Learning Manager integriert werden müssen. Verbindungen sind Dienstprogramme, die bei der Durchführung datenbasierter Integrationen helfen, z. B. Importieren von Daten aus externen Systemen in Learning Manager oder Exportieren von Daten aus Learning Manager in externe Systeme. In der Version vom Juli 2016 können die Connectors nur Massenimporte von Benutzern aus externen Systemen für Learning Manager durchführen.
 
 Learning Manager bietet Connectors für Salesforce und FTP. Über den Salesforce-Connector können für die Integration zuständige Administratoren eines Unternehmens ihre Salesforce-Anwendung in Learning Manager integrieren. Als Verantwortlicher für die Integration können Sie außerdem mithilfe des FTP-Connectors Gruppen von Benutzern automatisch in Ihre Unternehmensanwendung importieren.
 
@@ -40,7 +37,7 @@ Beim Importieren von Benutzenden hat der Learning Manager-Administrator die Mög
 
 ### Automatische Zeitplanung
 
-Die automatische Zeitplanung kann zusammen mit dem automatischen Benutzerimport sehr effizient sein. Der Learning Manager-Administrator kann Zeitpläne einrichten, wie sie für das Unternehmen benötigt werden. Benutzer in der Learning Manager-Anwendung können gemäß dem Zeitplan auf dem neuesten Stand gehalten werden. Die Synchronisierung kann täglich in Learning Manager ausgeführt werden.
+Die automatische Zeitplanung kann zusammen mit dem automatischen Benutzerimport sehr effizient sein. Der Learning Manager-Administrator kann Zeitpläne einrichten, wie sie für das Unternehmen benötigt werden. Die Benutzer in der Learning Manager-Anwendung können gemäß dem Zeitplan auf dem neuesten Stand gehalten werden. Die Synchronisierung kann täglich in Learning Manager ausgeführt werden.
 
 ### Filtern von Benutzern
 
@@ -62,7 +59,7 @@ Stellen Sie außerdem sicher, dass Sie über die richtigen Anmeldedaten für die
 
    ![](assets/mouserover-salesforce.png)
 
-1. Ein Dialogfeld wird angezeigt, in dem Sie zur Eingabe der Unternehmens-URL aufgefordert werden. Klicken Sie auf **[!UICONTROL Verbinden]**, nachdem Sie die URL angegeben haben.
+1. Ein Dialogfeld wird angezeigt, in dem Sie zur Eingabe der Unternehmens-URL aufgefordert werden. Geben Sie die URL ein und klicken Sie auf **[!UICONTROL Verbinden]**.
 1. Nach einer erfolgreichen Verbindung wird die Seite „Übersicht“ angezeigt.
 
 ## Attribute zuordnen {#mapattributes}
@@ -73,9 +70,9 @@ Sobald die Verbindung erfolgreich hergestellt wurde, können Sie Salesforce-Spal
 
    ![](assets/sfdc-map-columns.png)
 
-   Die Spaltendaten des Learning Managers, die auf der linken Seite angezeigt werden, werden von den aktiven Feldern abgerufen. Das Feld **Manager** muss unbedingt einem Feld mit der E-Mail-Adresse zugeordnet werden. Alle Spalten müssen zugeordnet werden, bevor der Connector verwendet werden kann.
+   Die Spaltendaten von Learning Manager, die auf der linken Seite angezeigt werden, werden von den aktiven Feldern abgerufen. Das Feld **Verwalter** muss dem Feld mit der E-Mail-Adresse zugeordnet werden. Alle Spalten müssen zugeordnet werden, bevor der Connector verwendet werden kann.
 
-1. Klicken Sie auf **[!UICONTROL Speichern]**, nachdem Sie die Zuordnung abgeschlossen haben.
+1. Klicken Sie auf **[!UICONTROL Speichern]**, nachdem die Zuordnung abgeschlossen wurde.
 1. Der Connector ist jetzt einsatzbereit. Das Konto, das jetzt konfiguriert wurde, wird als Datenquelle innerhalb der Administrator-App angezeigt, sodass der Administrator den Import planen oder die Synchronisierung nach Bedarf starten kann.
 
 ## Verwendung des Salesforce-Connector {#usingsalesforceconnector}
@@ -86,7 +83,7 @@ Der Salesforce-Connector stellt eine Verbindung zu Salesforce.com her, um die Be
 
 Mithilfe des FTP-Connectors können Sie Learning Manager in beliebige externe Systeme integrieren, um Datensynchronisierung zu automatisieren. Es wird erwartet, dass externe Systeme Daten in einem CSV-Format exportieren und in den entsprechenden Ordner des Learning Manager-FTP-Kontos platzieren können. Im FTP-Connector stehen die folgenden Funktionen zur Verfügung:
 
-Sie können den Box-Connector auch für die Datenmigration, den Benutzerimport und den Datenexport verwenden. Weitere Informationen finden Sie unter [Box-Connector.](third-party-connectors.md#main-pars_header_302653946)
+Sie können die Box-Verbindung auch für die Datenmigration, den Benutzerimport und den Datenexport verwenden. Weitere Informationen finden Sie unter [Box-Connector.](third-party-connectors.md#main-pars_header_302653946)
 
 ## Datenimport {#dataimport}
 
@@ -94,7 +91,7 @@ Beim Importieren von Benutzenden hat der Learning Manager-Administrator die Mög
 
 **Attribute zuordnen**
 
-Der für die Integration zuständige Administrator kann Spalten in CSV-Dateien wählen und den entsprechenden für Gruppen geeigneten Attributen in Learning Manager zuordnen. Diese Zuordnung ist eine einmalige Maßnahme. Nachdem diese Zuordnung vorgenommen wurde, wird dieselbe Zuordnung auch für spätere Benutzerimporte verwendet. Die Zuordnung kann neu konfiguriert werden, wenn der Administrator eine andere Zuordnung für den Import für Benutzer möchte.
+Der für die Integration zuständige Administrator kann Spalten in CSV-Dateien wählen und den entsprechenden für Gruppen geeigneten Attributen in Learning Manager zuordnen. Diese Zuordnung ist eine einmalige Maßnahme. Nachdem diese Zuordnung vorgenommen wurde, wird dieselbe Zuordnung auch für spätere Benutzerimporte verwendet.Falls der Administrator eine andere Zuordnung zum Importieren von Benutzern benötigt, kann diese neu konfiguriert werden.
 
 ## Daten exportieren {#exportdata}
 
@@ -114,12 +111,12 @@ In diesem Abschnitt wird die Integration von Learning Manager in den FTP-Connect
 
    ![](assets/mouseover-ftpconnector.png)
 
-1. Ein Dialogfeld wird angezeigt, in dem Sie zur Eingabe der Unternehmens-E-Mail-ID aufgefordert werden. Geben Sie die E-Mail-Adresse der Person an, die für das Verwalten des Learning Manager-FTP-Kontos für das Unternehmen verantwortlich ist. Klicken Sie auf **[!UICONTROL Verbinden]**, nachdem Sie die E-Mail-ID angegeben haben.
+1. Ein Dialogfeld wird angezeigt, in dem Sie zur Eingabe der Unternehmens-E-Mail-ID aufgefordert werden. Geben Sie die E-Mail-Adresse der Person an, die für das Verwalten des Learning Manager-FTP-Kontos für das Unternehmen verantwortlich ist. Klicken Sie nach Angabe der E-Mail-Adresse auf **[!UICONTROL Verbinden]**.
 1. Learning Manager sendet Ihnen eine E-Mail, in der Sie aufgefordert werden, das Kennwort zurückzusetzen, bevor Sie zum ersten Mal auf FTP zugreifen. Benutzende müssen das Kennwort zurücksetzen und es für den Zugriff auf das Learning Manager-FTP-Konto verwenden.
 
    Nur ein Learning Manager-FTP-Konto kann für ein bestimmtes Learning Manager-Konto erstellt werden.
 
-   Auf der Übersichtsseite können Sie den Verbindungsnamen für Ihre Integration angeben. Wählen Sie aus, welche Aktion Sie aus den folgenden Optionen erfassen möchten:
+   Auf der Übersichtsseite können Sie den Namen der Datenverbindung für Ihre Integration angeben. Wählen Sie aus, welche Aktion Sie aus den folgenden Optionen erfassen möchten:
 
    * Importinterne Benutzer
    * Benutzerkenntnisse exportieren - Konfigurieren Sie einen Zeitplan
@@ -129,7 +126,7 @@ In diesem Abschnitt wird die Integration von Learning Manager in den FTP-Connect
 
 ## Importieren
 
-+++Interner Benutzer
++++Interne Benutzer
 
 Mit der Option zum Importieren von internen Benutzern können Sie die Generierung des Benutzerimportberichts automatisch planen. Die generierten Berichte werden Ihnen als .CSV-Dateien gesendet.
 
@@ -144,7 +141,7 @@ Sobald die Verbindung erfolgreich hergestellt wurde, können Sie die Spalten der
 
    *Das Manager-Feld muss einem Feld mit einer E-Mail-Adresse zugeordnet werden. Alle Spalten müssen zugeordnet werden, bevor der Connector verwendet werden kann.*
 
-1. Klicken Sie auf **[!UICONTROL Speichern]**, nachdem Sie die Zuordnung abgeschlossen haben.
+1. Klicken Sie auf **[!UICONTROL Speichern]**, nachdem die Zuordnung abgeschlossen wurde.
 
    Der Connector ist jetzt einsatzbereit. Das gerade konfigurierte Konto wird jetzt als Datenquelle innerhalb des Administrator-App angezeigt, sodass der Administrator den Import planen oder die Synchronisierung nach Bedarf starten kann.
 
@@ -158,25 +155,25 @@ Sobald die Verbindung erfolgreich hergestellt wurde, können Sie die Spalten der
 
    `code $OPERATION$/$OBJECT_TYPE$/$SUB_OBJECT_TYPE$/data.csv`
 
-   **Hinweis:** In der Version vom Juli 2016 ist nur das Importieren von Benutzern zulässig. Um den FTP-Connector daher verwenden zu können, müssen Sie sicherstellen, dass die CSV-Dateien in den folgenden Ordner platziert werden:
+   **Hinweis:** In der Version vom Juli 2016 ist nur das Importieren von Benutzern zulässig. Um die FTP-Verbindung verwenden zu können, müssen Sie daher sicherstellen, dass die CSV-Dateien in den folgenden Ordner platziert werden:
 
    `code Home/import/user/internal/*.csv`
 
-1. Der FTP-Connector übernimmt alle Zeilen aus CSV-Dateien, daher ist es wichtig, dass die Zeile, die einem Benutzer in einer CSV entspricht, in keiner anderen CSV erscheint.
+1. Die FTP-Verbindung übernimmt alle Zeilen aus CSV-Dateien. Daher ist es wichtig, dass die Zeile, die einem Benutzer in einer CSV entspricht, in keiner anderen CSV erscheint.
 1. Alle CSV-Dateien sollten die in der Zuordnung angegebenen Spalten enthalten.
 1. Alle erforderlichen CSV müssen sich in dem Ordner befinden, bevor der Vorgang beginnt.
 
-Beim Importieren von Benutzenden in Learning Manager muss der Administrator auch wissen, wie Benutzende in Learning Manager verwaltet werden. Weitere Informationen finden Sie in der [Hilfe zur Benutzerverwaltung](../integration-admin/feature-summary/migration-manual.md#usermanagement).
+Beim Importieren von Benutzenden in Learning Manager muss der Administrator auch wissen, wie Benutzende in Learning Manager verwaltet werden. Weitere Informationen finden Sie in der [ User Management-Hilfe](../integration-admin/feature-summary/migration-manual.md#usermanagement).
 
 +++
 
 ## Exportieren
 
-+++Skills
++++Kenntnisse
 
 Es gibt zwei Möglichkeiten, Berichte zu Benutzerkenntnissen zu exportieren.
 
-**[!UICONTROL Benutzerkenntnisse - On Demand]**: Sie können das Startdatum angeben und den Bericht mit der Option exportieren. Der Bericht wird von dem eingegebenen Datum bis zum aktuellen Datum extrahiert.
+**[!UICONTROL Benutzerkenntnisse - On Demand]**: Sie können das Startdatum angeben und den Bericht mithilfe der Option exportieren. Der Bericht wird von dem eingegebenen Datum bis zum aktuellen Datum extrahiert.
 
 ![](assets/user-skills-on-demand.png)
 
@@ -186,7 +183,7 @@ Es gibt zwei Möglichkeiten, Berichte zu Benutzerkenntnissen zu exportieren.
 
 +++
 
-Um den Exportordner zu öffnen, in dem die exportierten Dateien in Ihrem FTP-Speicherort platziert werden, öffnen Sie den Link zum FTP-Ordner, der auf der Seite &quot;Benutzerkenntnisse&quot; bereitgestellt ist, wie unten gezeigt.
+Um den Exportordner zu öffnen, in dem die exportierten Dateien in Ihrem FTP-Speicherort platziert werden, öffnen Sie den Link zum FTP-Ordner, der auf der Seite „Benutzerkenntnisse“ bereitgestellt ist, wie unten gezeigt.
 
 ![](assets/ftp-folder.png)
 
@@ -223,7 +220,7 @@ Der Lynda-Connector kann von Unternehmenskunden von Lynda.com verwendet werden, 
    Die Migrationsfunktion muss für Ihr Konto aktiviert werden, bevor Sie diesen Connector konfigurieren.
 
 1. Klicken Sie auf die Verbindung, die Sie bearbeiten möchten.
-1. Klicken Sie im linken Teilfenster auf &quot;Konfigurieren&quot;. Führen Sie einen der folgenden Schritte aus:
+1. Klicken Sie im linken Teilfenster auf „Konfigurieren“. Führen Sie einen der folgenden Schritte aus:
 
    * Über dieses Fenster können Sie die Details Ihres Kontos sowie den Synchronisierungszeitplan anzeigen oder bearbeiten. Zum Aktivieren dieses Kontos müssen Sie das Kontrollkästchen „Verbindung aktivieren“ aktivieren.
    * Klicken Sie auf „Bearbeiten“ und bearbeiten Sie Ihre Anmeldedaten. Klicken Sie auf „Zurücksetzen“, um Ihre Änderungen an diesem Feld rückgängig zu machen.
@@ -278,7 +275,7 @@ Der getAbstract-Connector kann von Unternehmen von getAbstract.com verwendet wer
 
    ![](assets/getabstractschedulepage.png)
 
-1. Klicken Sie im linken Teilfenster auf &quot;Konfigurieren&quot;. Führen Sie einen der folgenden Schritte aus:
+1. Klicken Sie im linken Teilfenster auf „Konfigurieren“. Führen Sie einen der folgenden Schritte aus:
 
    * Über dieses Fenster können Sie die Details Ihres Kontos sowie den Synchronisierungszeitplan anzeigen oder bearbeiten. Zum Aktivieren dieses Kontos müssen Sie das Kontrollkästchen „Verbindung aktivieren“ aktivieren.
    * Klicken Sie auf „Bearbeiten“ und bearbeiten Sie Ihre Anmeldedaten. Klicken Sie auf „Zurücksetzen“, um Ihre Änderungen an diesem Feld rückgängig zu machen.
@@ -301,8 +298,8 @@ Der getAbstract-Connector kann von Unternehmen von getAbstract.com verwendet wer
 
    Für jede Art von Synchronisierung gilt: Damit sie funktioniert, muss der Benutzer-Feed für die in der Synchronisierung angegebenen Daten im FTP-Ordner für getAbstract FTP vorhanden sein.
 
-   Das folgende Excel-Arbeitsblatt ist ein Beispiel für einen Benutzer-Feed aus getAbstract. Der Dateiname muss dem folgenden Format entsprechen:**&#x200B; report_export_yyyy_MM_dd_HHmmss.xlsx** oder **report_export_yyyy_MM_dd.xlsx**.
-   Excel-Beispiel für [getAbstract-Benutzer-Feed &#x200B;](assets/report-export-20170401175342.xlsx)
+   Das folgende Excel-Arbeitsblatt ist ein Beispiel für einen Benutzer-Feed aus getAbstract. Der Dateiname muss dem folgenden Format entsprechen:**report_export_yyyy_MM_dd_HHmmss.xlsx** oder **report_export_yyyy_MM_dd.xlsx**.
+   Excel-Beispiel für [getAbstract-Benutzer-Feed ](assets/report-export-20170401175342.xlsx)
 
 ## Harvard ManageMentor-Connector {#hmmconnector}
 
@@ -327,7 +324,7 @@ Der Harvard ManageMentor-Connector kann von Unternehmen von Harvard ManageMentor
 
    ![](assets/hmm.png)
 
-1. Klicken Sie im linken Teilfenster auf &quot;Konfigurieren&quot;. Führen Sie einen der folgenden Schritte aus:
+1. Klicken Sie im linken Teilfenster auf „Konfigurieren“. Führen Sie einen der folgenden Schritte aus:
 
    * Über dieses Fenster können Sie die Details Ihres Kontos sowie den Synchronisierungszeitplan anzeigen oder bearbeiten. Zum Aktivieren dieses Kontos müssen Sie das Kontrollkästchen „Verbindung aktivieren“ aktivieren.
    * Klicken Sie „Plan aktivieren“, um die Synchronisierung zu planen. Sie können Startzeit und -datum eingeben und anschließend die Häufigkeit der Synchronisierung in Tagen festlegen, um beispielsweise eine Synchronisierung alle 3 Tage aktivieren.
@@ -352,7 +349,7 @@ Der Harvard ManageMentor-Connector kann von Unternehmen von Harvard ManageMentor
    client_hmm12_20150125.xlsx: Dies ist der Benutzer-Feed für den Harvard ManageMentor-Connector. Die zu befolgende Dateinamenskonvention lautet **client_hmm12_jjjjMMtt.xlsx.**
 
    Die beiden folgenden Beispieldateien zeigen einen Benutzer-Feed und einen Kurs-Feed für diesen Connector:
-   [Kurs-Metadatendatei für den Harvard ManageMentor-Connector](assets/hmm12-metadata.xlsx) [Benutzer-Feed für den Harvard ManageMentor-Connector](assets/client-hmm12-20170304.xlsx)
+   [Kursmetadatendatei für die Harvard ManageMentor-Verbindung](assets/hmm12-metadata.xlsx) [Benutzer-Feed für die Harvard ManageMentor-Verbindung](assets/client-hmm12-20170304.xlsx)
 
 ## Workday Connector {#workdayconnector}
 
@@ -384,10 +381,10 @@ Der Administrator kann Planungsaufgaben einrichten, wie sie für das Unternehmen
 
 ## Workday Connector konfigurieren {#configureworkdayconnector}
 
-**Voraussetzung:** Bitten Sie den Wordkday-Administrator Ihres Unternehmens, einen Integration System User (ISU) mit der Berechtigung zu erstellen, die im ISU_Permissions-Dokument definiert ist. Laden Sie eine Kopie über den unten stehenden Link herunter.
-[Laden Sie eine Kopie der Sicherheit des Integration System User (ISU) herunter.](assets/isu-permissions-v1.pdf) Erfahren Sie, wie Sie Learning Manager mit dem Workday-Connector integrieren.
+**Voraussetzung:** Bitten Sie den Wordkday-Administrator Ihres Unternehmens, einen Integration System User (ISU) mit der Berechtigung zu erstellen, die im ISU_Permissions-Dokument definiert ist. Laden Sie eine Kopie unter dem nachfolgenden Link herunter.
+[Laden Sie eine Kopie der Sicherheit des Integration System User (ISU) herunter.](assets/isu-permissions-v1.pdf) In diesem Abschnitt wird die Integration von Learning Manager in den Workday-Connector beschrieben.
 
-1. Bewegen Sie den Mauszeiger auf der Startseite des Learning Manager über die Kachel Workday. Ein Menü wird angezeigt. Wählen Sie im Menü den Eintrag **[!UICONTROL Verbinden]**.
+1. Bewegen Sie die Maus auf der Learning Manager-Startseite über die Workday-Kachel. Ein Menü wird angezeigt. Wählen Sie im Menü den Eintrag **[!UICONTROL Verbinden]**.
 
    ![](assets/workday-tile.png)
 
@@ -395,8 +392,8 @@ Der Administrator kann Planungsaufgaben einrichten, wie sie für das Unternehmen
 
    * Verbindungsname: Geben Sie einen Verbindungsnamen Ihrer Wahl an.
    * Host-URL: Integrationsadministrator kann die Host URL-Details vom entsprechenden Workday-Admin erhalten.
-   * Mandant: Der Mandant ist für Ihr Unternehmen intern. Ihr Workday-Admin stellt Ihnen die Tenant-Details bereit.
-   * Benutzername und Kennwort: Der Workday-Administrator erstellt einen integrierten Systembenutzer (ISU) mit den erforderlichen Sicherheitsberechtigungen und teilt diese dann mit dem Integrationsadministrator.
+   * Tenant: Der Tenant ist für Ihr Unternehmen. Ihr Workday-Admin stellt Ihnen die Tenant-Details bereit.
+   * Benutzername und Kennwort: Der Workday-Admin erstellt einen Integration System User (ISU) mit den erforderlichen Sicherheitsberechtigungen und teilt diese dann mit dem Integrationsadmin.
 
    Hinweis: Für Learning Manager wird Version 28.1 der Workday-API verwendet.
 
@@ -406,7 +403,7 @@ Der Administrator kann Planungsaufgaben einrichten, wie sie für das Unternehmen
 
    Sie können auch mehrere Workday-Verbindungen haben, die mit Ihrem Learning Manager-Konto synchronisiert sind.
 
-Auf der Übersichtsseite können Sie den Verbindungsnamen für Ihre Integration angeben. Wählen Sie aus, welche Aktion Sie aus den folgenden Optionen erfassen möchten:
+Auf der Übersichtsseite können Sie den Namen der Datenverbindung für Ihre Integration angeben. Wählen Sie aus, welche Aktion Sie aus den folgenden Optionen erfassen möchten:
 
 * Importinterne Benutzer
 * Benutzerkenntnisse exportieren - Konfigurieren Sie einen Zeitplan
@@ -428,7 +425,7 @@ Derzeit unterstützt Learning Manager den Import von 44 Benutzerattributen von W
 
 ![](assets/map-attributes.png)
 
-Workday verfügt über vier Hierarchiestufen, während der Lern-Manager über zwei Ebenen verfügt. Die vier Ebenen in Workday sind Kenntnisprofilkategorie, Kenntnisprofil, Kenntniselementkategorie und Kenntniselement. Ihr Kenntnisname und Ihre Stufe vom Lernmanager zusammen werden in Workday unter dem Kenntniselement zugeordnet.
+Workday verfügt über vier Hierarchiestufen, während der Lern-Manager über zwei Ebenen verfügt. Die vier Ebenen sind in Workday Kenntnisprofilkategorie, Kenntnisprofil, Kenntniselementkategorie und Kenntniselement. Ihr Kenntnisname und Ihre Stufe vom Lernmanager zusammen werden in Workday unter dem Kenntniselement zugeordnet.
 
 +++Liste der unterstützten Workday-Attribute
 
@@ -445,7 +442,7 @@ wd:Personal_Data.wd:Name_Data.wd:Legal_Name_Data.wd:Name_Detail_Data.wd:Last_Nam
 wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.@wd:Formatted_Address\
 wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Postal_Code\
 wd:Personal_Data.wd:Contact_Data.wd:Address_Data.0.wd:Country_Region_Descriptor\
-wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0.@wd:formatted_phone\
+wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0.@wd:Formatted_Phone\
 wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0.wd:Country_ISO_Code\
 wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0.wd:International_Phone_Code\
 wd:Personal_Data.wd:Contact_Data.wd:Phone_Data.0.wd:Phone_Number\
@@ -468,7 +465,7 @@ wd:Employment_Data.wd:Worker_Status_Data.wd:Hire_Date\
 wd:Employment_Data.wd:Worker_Status_Data.wd:Original_Hire_Date\
 wd:Employment_Data.wd:Worker_Status_Data.wd:Retired\
 wd:Employment_Data.wd:Worker_Status_Data.wd:Retirement_Date\
-wd:Employment_Data.wd:Worker_Status_Data.wd:Beendet\
+wd:Employment_Data.wd:Worker_Status_Data.wd:Terminated\
 wd:Employment_Data.wd:Worker_Status_Data.wd:Termination_Date\
 wd:Employment_Data.wd:Worker_Status_Data.wd:Termination_Last_Day_of_Work\
 wd:Organization_Data.wd:Worker_Organization_Data.0.wd:Organization_Data.wd:Organization_Code\
@@ -484,9 +481,9 @@ wd:Management_Chain_Data.wd:Worker_Supervisory_Management_Chain_Data.wd:Manageme
 
 ## Exportieren
 
-Sie können alle Kenntnisse exportieren, die von einem Learning Manager-Benutzer in Workday erreicht wurden. Beachten Sie, dass nur alle aktiven Benutzerkenntnisse exportiert werden. Learning Manager exportiert keine veralteten Kenntnisse. Sie können auch mehrere Learning Manager-Konten mit demselben Workday Connector verbinden. Wenn die Namen der Kenntnisse in zwei Learning Manager-Konten identisch sind, werden sie denselben Kenntnissen in Workday zugeordnet. Es ist ratsam, die Namen von Kenntnissen in allen Learning Manager-Konten zu aktualisieren, bevor Sie die Kenntnisse in Workday aktualisieren, falls zwei Learning Manager-Konten dasselbe Workday-Konto verwenden.
+Sie können alle Kenntnisse exportieren, die von einem Learning Manager-Benutzer in Workday erreicht wurden. Beachten Sie, dass nur alle aktiven Benutzerkenntnisse exportiert werden. Learning Manager exportiert keine veralteten Kenntnisse. Sie können mehrere Learning Manager-Konten mit demselben Workday-Connector verbinden. Falls die Namen der Kenntnisse in zwei Learning Manager-Konten identisch sind, werden sie denselben Kenntnissen in Workday zugewiesen. Es ist ratsam, die Namen von Kenntnissen in allen Learning Manager-Konten zu aktualisieren, bevor Sie die Kenntnisse in Workday aktualisieren, falls zwei Learning Manager-Konten dasselbe Workday-Konto verwenden.
 
-+++Benutzerkenntnisse - Konfigurieren
++++Konfigurieren von Benutzerkenntnissen
 
 Mit dieser Option können Sie die Extrahierung des Berichts planen. Stellen Sie sicher, dass „Export für die Benutzerkenntnisse aktivieren“ mit diesem Verbindungskontrollkästchen aktiviert ist. Wählen Sie das Kontrollkästchen „Zeitplan aktivieren“ und geben Sie das Startdatum und die Startzeit ein. Sie können das Intervall festlegen, in dem der Bericht generiert und gesendet werden soll. Wählen Sie die Option „Zeitplan aktivieren“ und geben Sie das Startdatum, die Uhrzeit und die Wiederholung nach n Tagen ein. Wenn Sie fertig sind, klicken Sie auf „Speichern“.
 
@@ -494,7 +491,7 @@ Mit dieser Option können Sie die Extrahierung des Berichts planen. Stellen Sie 
 
 +++
 
-+++Benutzerkenntnisse - On Demand
++++Benutzerkenntnisse nach Bedarf
 
 Sie können das Startdatum angeben und den Bericht mithilfe der Option exportieren. Der Bericht wird vom eingegebenen Datum bis zum aktuellen Tag extrahiert. Geben Sie das Datum ein, von dem Sie mit der Generierung des Berichts beginnen möchten, und klicken Sie auf „Ausführen“.
 
@@ -502,7 +499,7 @@ Sie können das Startdatum angeben und den Bericht mithilfe der Option exportier
 
 +++
 
-+++Benutzerkenntnisse - Ausführungsstatus
++++Benutzerkenntnisse - Durchführungsstatus
 
 Hier können Sie die Zusammenfassung aller Aufgaben anzeigen und ihren Statusbericht abrufen. Sie können Fehlermeldungen herunterladen, indem Sie auf den Link zu den Fehlermeldungen klicken.
 
@@ -528,7 +525,7 @@ Beim Importieren von Benutzern hat der Learning Manager-Administrator die Mögli
 
 Der Learning Manager-Administrator kann die Benutzer vor dem Import filtern. Learning Manager-Administratoren können beispielsweise alle Benutzer in der Hierarchie mit einem oder mehreren bestimmten Managern importieren.
 
-So richten Sie   miniOrange   Connector einzurichten, wenden Sie sich an das Learning Manager CSM-Team.
+Zum Einrichten der miniOrange-Verbindung wenden Sie sich an das Learning Manager CSM-Team.
 
 ## miniOrange Connector konfigurieren {#configureminiorangeconnector}
 
@@ -536,15 +533,15 @@ So richten Sie   miniOrange   Connector einzurichten, wenden Sie sich an das Lea
 
    ![](assets/miniorange-tile.png)
 
-1. Klicken Sie auf „Verbinden“, um eine neue Verbindung herzustellen. Die miniOrange Connector-Seite wird angezeigt. Geben Sie die Details Ihres Kontos ein, das Sie zuordnen möchten.
+1. Klicken Sie auf „Verbinden“, um eine neue Verbindung herzustellen. Die Verbindung &quot;miniOrange&quot; wird angezeigt. Geben Sie die Details Ihres Kontos ein, das Sie zuordnen möchten.
 
    ![](assets/establish-connection.png)
 
-1. Wenn Sie miniOrnage-Benutzer direkt als internen Learning Manager-Benutzer importieren möchten, verwenden Sie die Option **[!UICONTROL Interne Benutzer importieren]**.
+1. Wenn Sie miniOrange-Benutzer direkt als interne Learning Manager-Benutzer importieren möchten, verwenden Sie die Option **[!UICONTROL Interne Benutzer importieren]**.
 
    ![](assets/import-users.png)
 
-1. Auf der Zuordnungsseite links   auf der Seite können Sie die Spalten des Learning Managers sehen und rechts   Seite können Sie die miniOrnage Spalten sehen. Wählen Sie den entsprechenden Spaltennamen aus, der dem Spaltennamen des Lern-Managers zugeordnet ist.
+1. Auf der Zuordnungsseite werden links die Spalten des Learning Managers und rechts die Spalten miniOrnage angezeigt. Wählen Sie den entsprechenden Spaltennamen aus, der dem Spaltennamen des Lern-Managers zugeordnet ist.
 
    ![](assets/map-attributes.png)
 
@@ -562,7 +559,7 @@ Führen Sie die folgenden Schritte aus, um eine bestehende miniOrange-Verbindung
 
 ## BlueJeans Connector {#bluejeansconnector}
 
-Sie können jetzt Learning Manager mit dem BlueJeans-Connector integrieren und BlueJeans zum Veranstalten von Klassen verwenden. Mit BlueJeans können Sie Audio- und Videokonferenzanrufe, Videochats und Webinare starten.
+Sie können jetzt Learning Manager in den BlueJeans-Connector integrieren und BlueJeans zum Veranstalten von Klassen verwenden. Mit BlueJeans können Sie Audio- und Videokonferenzanrufe, Videochats und Webinare starten.
 
 Befolgen Sie diese Schritte, um den Connector einzurichten und zu verwenden.
 
@@ -570,7 +567,7 @@ Befolgen Sie diese Schritte, um den Connector einzurichten und zu verwenden.
 
    ![](assets/miniorange.png)
 
-1. Die BlueJeans-Connector-Seite wird geöffnet. Geben Sie die Details Ihres Kontos in die entsprechenden Felder ein, um Learning Manager und BlueJeans zur Synchronisierung des Benutzer-Feeds zu integrieren. Sie können die Details vom Administrator Ihres BlueJeans-Kontos erhalten.
+1. Die BlueJeans-Connector-Seite wird geöffnet. Geben Sie die Details Ihres Kontos in die entsprechenden Felder ein, um Learning Manager und BlueJeans für die Synchronisierung des Benutzer-Feeds zu integrieren. Sie können die Details vom Administrator Ihres BlueJeans-Kontos erhalten.
 
    ![](assets/bluejeans-connecotrpage.png)
 
@@ -587,9 +584,9 @@ Befolgen Sie diese Schritte, um den Connector einzurichten und zu verwenden.
 
 ## Box-Connector {#boxconnector}
 
-Mithilfe des Box-Connectors können Sie Learning Manager in beliebige externe Systeme integrieren, um Datensynchronisierung zu automatisieren. Es wird erwartet, dass externe Systeme Daten in einem CSV-Format exportieren können und sie in den entsprechenden Ordner des Learning Manager Box-Kontos zu platzieren. Der Box-Connector bietet folgende Funktionen:
+Mithilfe des Box-Connectors können Sie Learning Manager in beliebige externe Systeme integrieren, um Datensynchronisierung zu automatisieren. Es wird erwartet, dass externe Systeme Daten in einem CSV-Format exportieren und in den entsprechenden Ordner des Learning Manager-Box-Kontos platzieren können. Im Box-Connector stehen die folgenden Funktionen zur Verfügung:
 
-Sie können den FTP-Connector auch für die Datenmigration, den Benutzerimport und den Datenexport verwenden. Weitere Informationen: [FTP-Connector für Learning Manager](third-party-connectors.md#main-pars_header_1427405935).
+Sie können die FTP-Verbindung auch für die Datenmigration, den Benutzerimport und den Datenexport verwenden. Weitere Informationen: [FTP-Connector für Learning Manager](third-party-connectors.md#main-pars_header_1427405935).
 
 ## Datenimport {#DataImport-1}
 
@@ -597,7 +594,7 @@ Beim Importieren von Benutzenden hat der Learning Manager-Administrator die Mög
 
 **Attribute zuordnen**
 
-Der für die Integration zuständige Administrator kann Spalten in CSV-Dateien wählen und den entsprechenden für Gruppen geeigneten Attributen in Learning Manager zuordnen. Diese Zuordnung ist eine einmalige Maßnahme. Nachdem diese Zuordnung vorgenommen wurde, wird dieselbe Zuordnung auch für spätere Benutzerimporte verwendet. Die Zuordnung kann neu konfiguriert werden, wenn der Administrator eine andere Zuordnung für den Import für Benutzer möchte.
+Der für die Integration zuständige Administrator kann Spalten in CSV-Dateien wählen und den entsprechenden für Gruppen geeigneten Attributen in Learning Manager zuordnen. Diese Zuordnung ist eine einmalige Maßnahme. Nachdem diese Zuordnung vorgenommen wurde, wird dieselbe Zuordnung auch für spätere Benutzerimporte verwendet.Falls der Administrator eine andere Zuordnung zum Importieren von Benutzern benötigt, kann diese neu konfiguriert werden.
 
 ## Datenexport {#dataexport}
 
@@ -615,13 +612,13 @@ In diesem Abschnitt wird die Integration von Learning Manager in den Box-Connect
 
    ![](assets/screen-shot-2017-10-25at54426pm.png)
 
-1. Ein Dialogfeld wird angezeigt, in dem Sie zur Eingabe der Unternehmens-E-Mail-ID aufgefordert werden. Geben Sie die E-Mail-Adresse der Person an, die für das Verwalten des Learning Manager Box-Kontos für das Unternehmen verantwortlich ist. Geben Sie die E-Mail-ID ein und klicken Sie auf Verbinden .
+1. Ein Dialogfeld wird angezeigt, in dem Sie zur Eingabe der Unternehmens-E-Mail-ID aufgefordert werden. Geben Sie die E-Mail-Adresse der Person an, die für das Verwalten des Learning Manager-Box-Kontos für das Unternehmen verantwortlich ist. Klicken Sie nach Angabe der E-Mail-Adresse auf &#39;Verbinden&#39;.
 
 1. Learning Manager sendet Ihnen eine E-Mail, in der Sie aufgefordert werden, das Kennwort zurückzusetzen, bevor Sie zum ersten Mal auf Box zugreifen. Der Benutzer muss das Kennwort zurücksetzen und dieses für den Zugriff auf das Learning Manager-Box-Konto verwenden.
 
    Nur ein Learning Manager-Box-Konto kann für ein bestimmtes Learning Manager-Konto erstellt werden.
 
-   Auf der Übersichtsseite können Sie den Verbindungsnamen für Ihre Integration angeben. Wählen Sie aus, welche Aktion Sie aus den folgenden Optionen erfassen möchten:
+   Auf der Übersichtsseite können Sie den Namen der Datenverbindung für Ihre Integration angeben. Wählen Sie aus, welche Aktion Sie aus den folgenden Optionen erfassen möchten:
 
    * Importinterne Benutzer
    * Benutzerkenntnisse exportieren - Konfigurieren Sie einen Zeitplan
@@ -639,7 +636,7 @@ Mit der Option zum Importieren von internen Benutzern können Sie die Generierun
 
 Sobald eine Verbindung erfolgreich hergestellt wurde, können Sie die Spalten der CSV-Dateien zuordnen, die im Box-Ordner den entsprechenden Attributen des Lern-Managers platziert werden. Dieser Schritt ist obligatorisch.
 
-1. Auf der Seite &quot;Attribute zuordnen&quot; links   auf der Seite können Sie die erwarteten Spalten des Learning Managers sehen und rechts   können Sie die CSV-Spaltennamen sehen. Auf der rechten Seite wird eventuell zunächst ein leeres Auswahlfeld angezeigt. Importieren Sie eine beliebige Vorlagen-CSV, indem Sie auf Datei auswählen klicken.
+1. Auf der Seite &quot;Attributzuordnung&quot; werden links die erwarteten Spalten des Learning Manager und rechts die Namen der Spalten in der CSV-Datei angezeigt. Auf der rechten Seite wird eventuell zunächst ein leeres Auswahlfeld angezeigt. Importieren Sie eine beliebige Vorlagen-CSV, indem Sie auf Datei auswählen klicken.
 
 1. Durch den oben beschriebenen Schritt werden alle Spaltennamen aus der CSV-Datei in die Dropdown-Auswahlliste auf der rechten Seite übernommen. Wählen Sie den entsprechenden Spaltennamen aus, der dem Spaltennamen des Lern-Managers zugeordnet ist.
 
@@ -651,36 +648,36 @@ Sobald eine Verbindung erfolgreich hergestellt wurde, können Sie die Spalten de
 
 +++
 
-+++Verwenden des Lern-Manager-Box-Connectors
++++Verwenden der Learning Manager-Box-Verbindung
 
 1. Die CSV-Dateien aus externen Systemen sollten unter folgendem Pfad abgelegt werden:
 
    `code $OPERATION$/$OBJECT_TYPE$/$SUB_OBJECT_TYPE$/data.csv`
 
-   **Hinweis:** In der Version vom Juli 2016 ist nur das Importieren von Benutzern zulässig. Um den Box-Connector verwenden zu können, müssen Sie daher sicherstellen, dass die CSV-Dateien in den folgenden Ordner platziert werden:\
+   **Hinweis:** In der Version vom Juli 2016 ist nur das Importieren von Benutzern zulässig. Um die Box-Verbindung verwenden zu können, müssen Sie daher sicherstellen, dass die CSV-Dateien im folgenden Ordner abgelegt werden:\
    `code Home/import/user/internal/*.csv`
 
-1. Der Box-Connector übernimmt alle Zeilen aus CSV-Dateien, daher ist es wichtig, dass die Zeile, die einem Benutzer in einer CSV entspricht, in keiner anderen CSV erscheint.
+1. Die Box-Verbindung übernimmt alle Zeilen aus CSV-Dateien. Daher ist es wichtig, dass die Zeile, die einem Benutzer in einer CSV entspricht, in keiner anderen CSV erscheint.
 1. Alle CSV-Dateien sollten die in der Zuordnung angegebenen Spalten enthalten.
 1. Alle erforderlichen CSV müssen sich in dem Ordner befinden, bevor der Vorgang beginnt.
 
-Beim Importieren von Benutzenden in Learning Manager muss der Administrator auch wissen, wie Benutzende in Learning Manager verwaltet werden. Weitere Informationen finden Sie in der [Hilfe zur Benutzerverwaltung](../integration-admin/feature-summary/migration-manual.md#usermanagement).
+Beim Importieren von Benutzenden in Learning Manager muss der Administrator auch wissen, wie Benutzende in Learning Manager verwaltet werden. Weitere Informationen finden Sie in der [ User Management-Hilfe](../integration-admin/feature-summary/migration-manual.md#usermanagement).
 
 +++
 
 ## Exportieren
 
-+++Skills
++++Kenntnisse
 
 Es gibt zwei Möglichkeiten, Berichte zu Benutzerkenntnissen zu exportieren.
 
-Benutzerkenntnisse - On Demand: Sie können das Startdatum angeben und den Bericht mit der Option exportieren. Der Bericht wird von dem eingegebenen Datum bis zum aktuellen Datum extrahiert
+Benutzerkenntnisse - On Demand: Sie können das Startdatum angeben und den Bericht mit der Option exportieren.Der Bericht wird beginnend ab dem eingegebenen Datum bis zum aktuellen Tag extrahiert
 
 **[!UICONTROL Benutzerkenntnisse - Konfigurieren]**: Mit dieser Option können Sie die Extrahierung des Berichts planen. Wählen Sie das Kontrollkästchen „Zeitplan aktivieren“ und geben Sie das Startdatum und die Startzeit ein. Sie können das Intervall festlegen, in dem der Bericht generiert und gesendet werden soll.
 
 +++
 
-Um den Exportordner zu öffnen, in dem die exportierten Dateien in Ihrem Box-Speicherort platziert werden, öffnen Sie den Link zum Box-Ordner, der auf der Seite &quot;Benutzerkenntnisse&quot; bereitgestellt ist, wie unten gezeigt.
+Um den Exportordner zu öffnen, in dem die exportierten Dateien in Ihrem Box-Speicherort platziert werden, öffnen Sie den Link zum Box-Ordner, der auf der Seite „Benutzerkenntnisse“ bereitgestellt ist, wie unten gezeigt.
 
 Die automatisch exportierten Dateien befinden sich am Speicherort **Home/export/&#42;Box_location&#42;**
 
@@ -698,7 +695,7 @@ Der LinkedInLearning-Connector kann von Unternehmenskunden von LinkedIn.com verw
 
    Sie sehen die Kachel mit drei Optionen: Erste Schritte, Verbinden und Verbindungen verwalten.
 
-1. Wenn Sie den LinkedInLearning-Connector zum ersten Mal konfigurieren, klicken Sie auf &quot;Verbinden&quot;.
+1. Wenn Sie die LinkedInLearning-Verbindung zum ersten Mal konfigurieren, klicken Sie auf &quot;Verbinden&quot;.
 
    Sie müssen das ExaVault-FTP-Konto konfigurieren, bevor Sie diesen Connector konfigurieren.
 
@@ -715,7 +712,7 @@ Der LinkedInLearning-Connector kann von Unternehmenskunden von LinkedIn.com verw
    Die Migrationsfunktion muss für Ihr Konto aktiviert werden, bevor Sie diesen Connector konfigurieren.
 
 1. Klicken Sie auf die Verbindung, die Sie bearbeiten möchten.
-1. Klicken Sie im linken Teilfenster auf &quot;Konfigurieren&quot;. Führen Sie einen der folgenden Schritte aus:
+1. Klicken Sie im linken Teilfenster auf „Konfigurieren“. Führen Sie einen der folgenden Schritte aus:
 
    * Über dieses Fenster können Sie die Details Ihres Kontos sowie den Synchronisierungszeitplan anzeigen oder bearbeiten. Zum Aktivieren dieses Kontos müssen Sie das Kontrollkästchen „Verbindung aktivieren“ aktivieren.
    * Klicken Sie auf „Bearbeiten“ und bearbeiten Sie Ihre Anmeldedaten. Klicken Sie auf „Zurücksetzen“, um Ihre Änderungen an diesem Feld rückgängig zu machen.
@@ -733,4 +730,3 @@ Der LinkedInLearning-Connector kann von Unternehmenskunden von LinkedIn.com verw
    Wenn Sie eine Verbindung löschen und neu erstellen, werden die vorherigen Ausführungen für den Connector wieder angezeigt. Sie können alle vor dem Löschen der Verbindung erfolgten Ausführungen anzeigen.
 
    Eine Wiederholung ist nur für die letzte Synchronisierung möglich.
-

@@ -4,15 +4,12 @@ jcr-language: en_us
 title: Anzeigen der Antwort der Teilnehmer auf eine Einladung zum Outlook-Kalender in Learning Manager
 contentowner: kuppan
 preview: true
-source-git-commit: 0ec031398f93c8396c0c9d49d172d62b2711481b
+exl-id: 0df7284f-20c1-410d-b985-3d031744deaf
+source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 36%
-
+source-wordcount: '523'
+ht-degree: 43%
 ---
-
-
-
 # Antwort des Teilnehmers auf eine Outlook-Kalendereinladung am [!DNL Learning Manager] anzeigen
 
 Erfahren Sie, wie ein Administrator und ein Kursleiter die Antwort des Teilnehmers auf eine Kalendereinladung anzeigen können.
@@ -25,7 +22,7 @@ Wenn ein Teilnehmer auf dieselbe Einladung mehr als einmal antwortet, wird die l
 
 ## Aktivieren der Funktion zum Einladen der Antwortverfolgung {#enablingtheinvitereplytrackingfeature}
 
-* Wenden Sie sich an den Adobe Learning Manager-Support , um die Funktion zum Verfolgen der Einladungen und Antworten zu aktivieren.
+* Wenden Sie sich an den Adobe Learning Manager-Support, um die Funktion zum Verfolgen von Einladungen und Antworten zu aktivieren.
 * Sobald die Funktion für das Konto aktiviert ist, können alle von einem Autor erstellten zukünftigen Virtuellen Klassen-/Klassenraumsitzungen die Antwort des Teilnehmers auf die Kalendereinladung aufzeichnen.
 
 Wenn die Teilnehmer für eine Sitzung im virtuellen Klassen-/Klassenraum angemeldet sind, die vor der Aktivierung der Funktion zum Einladen und Beantworten der Antwort erstellt wurde, werden die Antworten der Teilnehmer auf die Kalendereinladung nicht aufgezeichnet.
@@ -34,10 +31,10 @@ Wenn die Teilnehmer für eine Sitzung im virtuellen Klassen-/Klassenraum angemel
 
 Wenn in einer Sitzung für virtuelle Klassen/Klassenräume die Funktion zum Einladen und Antworten-Verfolgen aktiviert ist, kann der Administrator die Antworten des Teilnehmers auf die Einladung zusammen mit anderen Berechtigungen wie folgt anzeigen:
 
-1. Klicken Sie im linken Navigationsbereich auf **[!UICONTROL Kurs]**, und zeigen Sie den Kurs an, der nach der Aktivierung der Funktion zum Verfolgen von Einladungen und Antworten erstellt wurde.
+1. Klicken Sie im linken Navigationsbereich auf **[!UICONTROL Kurs]** und zeigen Sie den Kurs an, der nach der Aktivierung der Funktion zum Einladen und Antworten-Verfolgen erstellt wurde.
 1. Klicken Sie im linken Navigationsbereich auf **[!UICONTROL Anwesenheit und Punktzahl]**.
 1. Um unten eine Tabelle mit den Namen der Teilnehmer und deren Antworten auf die Kalendereinladung anzuzeigen, wählen Sie auf der Seite Anwesenheit und Punktzahl die **Instanz** und das **[!UICONTROL Modul]** aus.
-1. Verwenden Sie den Filter **[!UICONTROL Einladen]**, um Teilnehmer anhand der folgenden Optionen anzuzeigen: alle Antworten, akzeptiert, abgelehnt, mit Vorbehalt und gesendet.
+1. Verwenden Sie den Filter **[!UICONTROL Einladen]**, um Teilnehmer anhand der folgenden Optionen anzuzeigen: alle Antworten, akzeptiert, abgelehnt, mit Vorbehalt geprüft und gesendet
 
    ![](assets/invite-filter.png)
 
@@ -53,7 +50,7 @@ Wenn die Funktion zum Verfolgen der Antwort auf Einladungen für das Konto aktiv
 
 1. Klicken Sie im linken Navigationsbereich auf **[!UICONTROL Bevorstehende Sitzungen]** und wählen Sie einen Kurs aus.
 1. Klicken Sie im linken Navigationsbereich auf **[!UICONTROL Teilnehmer]**, um eine detaillierte Ansicht der Teilnehmer zu erhalten, die auf die Kalendereinladung geantwortet haben.
-1. Verwenden Sie den Filter **[!UICONTROL Einladen]**, um die Namen der Teilnehmer nach den folgenden Optionen zu filtern: &quot;Akzeptiert&quot;, &quot;Abgelehnt&quot;, &quot;Vorübergehend&quot; und &quot;Gesendet&quot;
+1. Verwenden Sie den Filter **[!UICONTROL Einladen]**, um die Namen der Teilnehmer nach den folgenden Optionen zu filtern: Akzeptiert, Abgelehnt, Mit Vorbehalt versehen und Gesendet
 
    ![](assets/invite-filter.png)
 
@@ -64,4 +61,3 @@ Wenn die Funktion zum Verfolgen der Antwort auf Einladungen für das Konto aktiv
    Um E-Mails an alle Teilnehmer in der angezeigten Tabelle zu senden, klicken Sie auf **[!UICONTROL Aktionen]** > **[!UICONTROL E-Mail an alle]**.
 
    ![](assets/instructor-actions1.png)
-
