@@ -2,14 +2,12 @@
 description: Erfahre mehr darüber, wie die Integrationseinstellungen Adobe Learning Manager mit Drittanbieterlösungen verbinden.
 jcr-language: en_us
 title: Integrationseinstellungen in Adobe Learning Manager
-source-git-commit: 03123dcd8d9066cdfcb0fe97e61acb3df625a23e
+exl-id: 175028e0-5dd2-4fe4-aa98-03b233a9531b
+source-git-commit: cfc09c74da2cc236147ccf883185926ed495f1ed
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 4%
-
 ---
-
-
 # Integrationseinstellungen in Adobe Learning Manager
 
 ## Anmeldemethoden
@@ -47,7 +45,7 @@ Im Bereich &quot;Externe Benutzer&quot; in Adobe Learning Manager können Sie ex
 Externe Benutzer können sich wie folgt anmelden:
 
 * Adobe ID: Externe Benutzer können sich mit ihren Adobe ID-Anmeldeinformationen anmelden.
-* Single Sign-On (SSO): Externe Benutzer können sich über SSO anmelden, wenn dies vom Administrator konfiguriert wurde.
+* Single Sign-on (SSO): Externe Benutzer können sich über SSO anmelden, wenn dies vom Administrator konfiguriert wurde.
 * Adobe Learning Manager-ID: Externe Benutzer können einen Learning Manager-Benutzernamen und ein Kennwort erstellen, um auf die Plattform zuzugreifen.
 
 **Wichtigste Punkte:**
@@ -73,19 +71,14 @@ Datenquellen ermöglichen es Ihnen oder Integrationsadministratoren, externe Sys
 
 **Beispiele für Datenquellentypen**
 
-* **FTP-Connectors**: FTP-basierte Datenquellen ermöglichen es Organisationen, Benutzerdatendateien über sichere Dateiübertragungsprotokolle direkt in Adobe Learning Manager hochzuladen. Diese Verbindungen sind besonders für den Batch-Import von Benutzerinformationen, Kursregistrierungen und anderen Massendatenvorgängen nützlich.
-* **Integrationen von Drittanbietern**: Adobe Learning Manager unterstützt die Integration mit verschiedenen Unternehmenssystemen über vorkonfigurierte Connectoren. Diese Integrationen können HR-Management-Systeme, Plattformen für Customer Relationship Management und andere Lernmanagement-Systeme umfassen.
-*** Salesforce-Integration**: Der Salesforce-Connector ermöglicht die direkte Synchronisation von Benutzerdaten, Kursinformationen und Lerndatensätzen zwischen Salesforce und Adobe Learning Manager.
+* **FTP-Verbindungen**: FTP-basierte Datenquellen ermöglichen Unternehmen das direkte Hochladen von Benutzerdatendateien in Adobe Learning Manager über sichere Dateiübertragungsprotokolle. Diese Verbindungen sind besonders für den Batch-Import von Benutzerinformationen, Kursregistrierungen und anderen Massendatenvorgängen nützlich.
+* **Integrationen von Drittanbietern**: Adobe Learning Manager unterstützt die Integration mit verschiedenen Unternehmenssystemen über vorkonfigurierte Verbindungen. Diese Integrationen können HR-Management-Systeme, Plattformen für Customer Relationship Management und andere Lernmanagement-Systeme umfassen.
+*** Salesforce-Integration**: Die Salesforce-Verbindung ermöglicht die direkte Synchronisation von Benutzerdaten, Kursinformationen und Lerndatensätzen zwischen Salesforce und Adobe Learning Manager.
 
-Weitere Informationen finden Sie unter [Connectors in Adobe Learning Manager](/help/migrated/integration-admin/feature-summary/connectors.md).
+Weitere Informationen finden Sie unter [Verbindungen in Adobe Learning Manager](/help/migrated/integration-admin/feature-summary/connectors.md).
 
 ## Peer-Konten
 
 Über Peer-Konten in Adobe Learning Manager können Sie erworbene Lizenzen freigeben und Berichte über zugeordnete Konten hinweg anzeigen. Diese Funktion ist nützlich für Organisationen, die zusammenarbeiten oder Ressourcen zwischen verschiedenen Konten austauschen müssen.
 
 Weitere Informationen finden Sie unter [Peer-Konten](/help/migrated/administrators/feature-summary/peer-account.md) in Adobe Learning Manager.
-
-
-
-
-

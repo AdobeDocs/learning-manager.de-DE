@@ -4,15 +4,12 @@ jcr-language: en_us
 title: Integrierbarer Fluidic Player
 contentowner: dvenkate
 preview: true
-source-git-commit: decdeed5958f690a12094d3d6eb3cea51e2d3486
+exl-id: 8cb09053-189d-42dc-bc66-47cd5da45850
+source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
 workflow-type: tm+mt
-source-wordcount: '1675'
+source-wordcount: '1693'
 ht-degree: 48%
-
 ---
-
-
-
 # Integrierbarer Fluidic Player
 
 In diesem Artikel finden Sie Informationen zum Integrieren des Fluidic Players in eine benutzerdefinierte Anwendung.
@@ -75,9 +72,9 @@ client_id= <application_id>
 &email=<email_id>
 ```
 
-Hier ist **[!UICONTROL Client-ID]** die in Schritt 1 erhaltene Anwendungs-ID.
-2&#x200B;**[!UICONTROL redirect_url]** ist die in Schritt 1 festgelegte redirect_url.
-1&#x200B;**[!UICONTROL state]** sind alle Dummy-Daten, auf deren Grundlage wir die Umleitungs-URL filtern müssen, um OAuth-Code zu erhalten. &quot;Scope&quot; ist der in Schritt 1 festgelegte Teilnehmerbereich.
+Hier ist **[!UICONTROL client id]** die in Schritt 1 erstellte Anwendungs-ID.
+**[!UICONTROL redirect_url]** ist die in Schritt 1 festgelegte Umleitungs-URL.
+**[!UICONTROL state]** sind beliebige Dummy-Daten, auf deren Grundlage wir die Umleitungs-URL filtern müssen, um den OAuth-Code abzurufen. &quot;Scope&quot; ist der in Schritt 1 festgelegte Teilnehmerbereich.
 **[!UICONTROL response_type]**&#x200B;e ist immer &quot;CODE&quot;.\
 **[!UICONTROL account]** ist ein optionales Feld.\
 **[!UICONTROL email]** ist ein optionales Feld.\
@@ -157,7 +154,7 @@ code window.addEventListener("message", function closePlayer(){
 Das angehängte PDF-Dokument enthält ein Beispielanwendungs-Tutorial.
 [Beispieltutorial und Tutorialquelle zum Einbetten des Fluidic Players.](assets/sample-applicationtutorial.zip) Alternative Inhalte
 
-Als Administrator können Sie Ihr Kursmaterial so einrichten, dass Sie den Teilnehmern im Fluidic Player alternative Inhalte anbieten können. Wenn Sie beispielsweise Teilnehmer in verschiedenen Regionen haben, die mehrere Sprachen verwenden möchten, können Sie denselben Inhalt in mehreren Sprachen erstellen. Der Fluidic Player bietet dem Teilnehmer die Sprache, für die er möglicherweise eingerichtet ist, aber der Teilnehmer hat auch die Möglichkeit, direkt im Player zu einer anderen Sprache zu wechseln.
+Wenn Sie Administrator sind, können Sie Ihr Kursprogramm so einrichten, dass Sie den Teilnehmern im Fluidic Player Alternativinhalte anbieten können. Wenn Sie beispielsweise Teilnehmer in verschiedenen Regionen haben, die mehrere Sprachen verwenden möchten, können Sie denselben Inhalt in mehreren Sprachen erstellen. Der Fluidic Player bietet dem Teilnehmer die Sprache, für die er möglicherweise eingerichtet ist, aber der Teilnehmer hat auch die Möglichkeit, direkt im Player zu einer anderen Sprache zu wechseln.
 
 Videospezifische Steuerelemente
 
@@ -167,23 +164,23 @@ Diese Aufgabe muss von einem Mitarbeiter Ihres IT-Teams oder einem externen Bera
 
 1. Ändern Sie die URL des eingebetteten Players von Learning Manager mit Parametern, die auf das exakte Lernobjekt verweisen, das absolviert werden muss.
 
-   URL: [https://learningmanager.adobe.com/app/player](https://cpcontents.adobe.com/public/embedplayer/index22fa615ec2baa034a22090c8cd4289fa.html)
+   URL:  [https://learningmanager.adobe.com/app/player](https://cpcontents.adobe.com/public/embedplayer/index22fa615ec2baa034a22090c8cd4289fa.html)
 
 1. Verwenden Sie einen der folgenden Parameter, um einen Kurs zu starten:
 
-   * course_id : Die ID des zu startenden Kurses
-   * learning_program_id : Die ID des zu startenden Lernprogramms
-   * certification_id : Die ID der zu startenden Zertifizierung
-   * lo_id : Die ID des abzuspielenden Lernobjekts (Kurs/Lernprogramm/Zertifizierung/Arbeitshilfe)
+   * course_id:  Dies ist die ID des zu startenden Kurses.
+   * learning_program_id :  Dies ist die ID des zu startenden Lernprogramms
+   * certification_id :  Die ID der zu startenden Zertifizierung.
+   * lo_id : Die ID des zu spielenden Lernobjekts (Kurs/Lernprogramm/Zertifizierung/Arbeitshilfe)
 
 
 1. Verwenden Sie das Zugriffstoken als obligatorischen Parameter.
 
-   * access_token : Dies ist der Sicherheitsparameter, verwenden Sie die öffentliche API-Authentifizierung   Zugriffstoken
+   * access_token :  Dies ist der Sicherheitsparameter. Verwenden Sie das öffentliche API-OAuth-Zugriffstoken.
 
    Sie können Ihr Token abrufen, indem Sie Ihren integrierbaren Fluidic Player in Ihrer Integrationsadministration einrichten. Sie können Ihr Authentifizierungstoken abrufen und als Zugriffstoken verwenden.
 
-   Beispiel einer erstellten URL; `https://learningmanager.adobe.com/app/player?lo_id="+lo_id+"&access_token="+accToken`
+   Beispiel für erstellte URL `https://learningmanager.adobe.com/app/player?lo_id="+lo_id+"&access_token="+accToken`
 
    Hierbei ist lo_id die ID des Kurses, des Lernprogramms, der Zertifizierung und jobAid .
 
@@ -213,18 +210,18 @@ Diese Aufgabe muss von einem Mitarbeiter Ihres IT-Teams oder einem externen Bera
 
 Ändern Sie die URL des eingebetteten Players von Learning Manager mit Parametern, die auf das exakte Lernobjekt verweisen, das absolviert werden muss.
 
-URL: [https://learningmanager.adobe.com/app/player](https://learningmanager.adobe.com/app/player)
+URL:  [https://learningmanager.adobe.com/app/player](https://learningmanager.adobe.com/app/player)
 
 Jeder dieser Parameter kann zum Starten eines Kurses verwendet werden:
 
-* course_id : Die ID des zu startenden Kurses
-* learning_program_id : Die ID des zu startenden Lernprogramms
-* certification_id : Die ID der zu startenden Zertifizierung
-* lo_id : Die ID des abzuspielenden Lernobjekts (Kurs/Lernprogramm/Zertifizierung/Arbeitshilfe)
+* course_id:  Dies ist die ID des zu startenden Kurses.
+* learning_program_id :  Dies ist die ID des zu startenden Lernprogramms
+* certification_id :  Die ID der zu startenden Zertifizierung.
+* lo_id : Die ID des zu spielenden Lernobjekts (Kurs/Lernprogramm/Zertifizierung/Arbeitshilfe)
 
 Obligatorischer Parameter:
 
-* access_token : Dies ist der Sicherheitsparameter, verwenden Sie die öffentliche API-Authentifizierung   Zugriffstoken
+* access_token :  Dies ist der Sicherheitsparameter. Verwenden Sie das öffentliche API-OAuth-Zugriffstoken.
 
 Führen Sie Lern-Manager-API-Aufrufe durch, um die oben genannten Parameter abzurufen. Diese API-Aufrufe müssen von der Anwendung durchgeführt werden, die Ihr IT-Mitarbeiter bzw. -Berater erstellt und auf Ihrer Website hostet.
 
@@ -235,5 +232,3 @@ Learning Manager V1-API - [https://learningmanager.adobe.com/docs/primeapi/v1/](
 
 
 Learning Manager V2-API - [https://learningmanager.adobe.com/docs/primeapi/v2/](https://learningmanager.adobe.com/docs/primeapi/v2/)
-
-

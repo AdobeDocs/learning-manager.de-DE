@@ -2,14 +2,12 @@
 title: Menüs in Experience Builder erstellen und anpassen
 description: In diesem Handbuch wird erläutert, wie Administratoren Menüs in Experience Builder in Adobe Learning Manager erstellen können. Erfahren Sie, wie Sie Seiten in Menüs organisieren, Menülayouts anpassen und die Menüsichtbarkeit für verschiedene Benutzergruppen steuern.
 jcr-language: en-us
-source-git-commit: 85eeebb33a67bf5528c88b26941345e00e98e0d3
+exl-id: a9eaf86e-a4b8-4ae2-9873-ab76d8807168
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '667'
 ht-degree: 0%
-
 ---
-
-
 # Menü erstellen
 
 Als Administrator bei einem Finanzunternehmen mit zwei Hauptteams, Sales und Customer Success Manager (CSM), sollten Sie separate Menüs mit den jeweiligen Seiten erstellen. Auf diese Weise können Teilnehmer Kurse, die für ihre Rollen relevant sind, ganz einfach in ihrem eigenen Menü finden.
@@ -31,7 +29,7 @@ So erstellen Sie ein Menü:
    _Menübildschirm erstellen, auf dem Administratoren einen Menünamen für die interne Verwendung eingeben und Benutzergruppen angeben können, um die Menüsichtbarkeit zu steuern_
 
 5. Im Folgenden sind die im Menü verfügbaren Seiten aufgeführt:
-   * **[!UICONTROL Integrierte Seiten]**: Dies sind die Standardseiten, die in Adobe Learning Manager enthalten sind, z. B. Startseite, &quot;Eigenes Lernen&quot; und &quot;Katalog&quot;. Administratoren können die integrierten Seiten nicht aus dem Menü entfernen. Sie können die Seiten aus dem Menü ausblenden.
+   * **[!UICONTROL Integrierte Seiten]**: Dies sind die Standardseiten, die mit Adobe Learning Manager geliefert werden, z. B. &quot;Startseite&quot;, &quot;Eigenes Lernen&quot; und &quot;Katalog&quot;. Administratoren können die integrierten Seiten nicht aus dem Menü entfernen. Sie können die Seiten aus dem Menü ausblenden.
    * **[!UICONTROL Benutzerdefinierte Seiten]**: Dies sind vom Administrator erstellte Seiten, die Experience Builder verwenden. Mit benutzerdefinierten Seiten können Unternehmen markenspezifische, rollenspezifische oder ereignisbasierte Erlebnisse entwerfen, indem sie Widgets, Layouts und Menüs hinzufügen, die auf verschiedene Teilnehmergruppen zugeschnitten sind.
 6. Wählen Sie **[!UICONTROL Ändern]** neben **[!UICONTROL Landingpage]**, um die Landingpage des Teilnehmers zu aktualisieren.
 
@@ -87,4 +85,3 @@ _Menükonfigurationsbildschirm mit ausgeblendeten Seiten wie Katalog, Soziales L
 ## Nächste Schritte
 
 Nachdem Sie Seiten, Widgets und Menüs eingerichtet haben, verbessern Sie die Lernerfahrung der Teilnehmer insgesamt, indem Sie Anpassungen mit JavaScript und CSS hinzufügen.
-

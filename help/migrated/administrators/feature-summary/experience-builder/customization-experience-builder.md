@@ -2,14 +2,12 @@
 title: Experience Builder anpassen
 jcr-language: en_us
 description: Erfahrt, wie Experience Builder in Adobe Learning Manager eine umfassende Anpassung der Lernerlebnisse ermöglicht.
-source-git-commit: a6cd09ba81a41b389ed1ccbea22db6b1966a56e2
+exl-id: d8f36868-8e6d-4420-9fab-fadaf2fe31ef
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
-source-wordcount: '957'
+source-wordcount: '963'
 ht-degree: 1%
-
 ---
-
-
 # Experience Builder anpassen
 
 ## Footer anpassen
@@ -62,18 +60,18 @@ So passen Sie die Kurskacheln an:
 4. Wählen Sie die folgenden Optionen, um Details zu den Kursinformationen ein- oder auszublenden:
 
    a. **[!UICONTROL Format]**: Gemischt/Selbststudium/Klassenzimmer/Virtuelles Klassenzimmer: Typ des Lernobjekts.
-b. **[!UICONTROL Dauer]**: Dauer des Lernobjekts.
-c. **[!UICONTROL Kenntnisse/Produkt]**: Zeigen Sie die wichtigsten Kenntnisse oder das Produkt an, die bzw. das der Kurs abdeckt.
-d. **[!UICONTROL Bewertung]**: Zeigen Sie die Teilnehmerbewertung des Kurses an.
-e. **[!UICONTROL Autorenname]**: Zeigt den Namen des Kursverfassers an.
-f. **[!UICONTROL Beschreibung (erscheint beim Hovern)]**: Zeigt eine kurze Zusammenfassung des Kurses an, wenn Teilnehmer den Mauszeiger über die Karte bewegen.
-g. **[!UICONTROL Veröffentlichungsdatum/ Fälligkeitsdatum (wird beim Zeigen angezeigt)]**: Zeigt entweder an, wann der Kurs veröffentlicht wurde, oder den Termin für den Abschluss an.
+   b. **[!UICONTROL Dauer]**: Dauer des Lernobjekts.
+   c. **[!UICONTROL Kenntnisse/Produkt]**: Zeigen Sie die Schlüsselkompetenzen oder das Produkt an, die bzw. das der Kurs behandelt.
+   d. **[!UICONTROL Bewertung]**: Anzeigen der Teilnehmerbewertung des Kurses.
+   e. **[!UICONTROL Autorenname]**: Zeigt den Namen des Kursverfassers an.
+   f. **[!UICONTROL Beschreibung (wird beim Hovern angezeigt)]**: Zeigen Sie eine kurze Zusammenfassung des Kurses an, wenn Teilnehmer den Mauszeiger über die Karte bewegen.
+   g. **[!UICONTROL Veröffentlichungsdatum/ Fälligkeitsdatum (erscheint beim Hovern)]**: Zeigt an, wann der Kurs veröffentlicht wurde oder wann der Abschluss ansteht.
 
 5. Wählen Sie die folgenden Optionen aus, um Details zu Kursaktionen ein- oder auszublenden:
 
    a. **[!UICONTROL Schaltfläche &quot;Zur Lernliste hinzufügen&quot;]**: Ermöglichen Sie es Teilnehmern, den Kurs zur späteren Referenz in ihrer persönlichen Lernliste zu speichern.
-b. **[!UICONTROL Schaltfläche &quot;Speichern&quot;]**: Speichert alle Änderungen, die an den Kurseinstellungen oder -voreinstellungen vorgenommen wurden.
-c. **[!UICONTROL Schaltfläche &quot;Registrieren/Fortfahren&quot;]**: Ermöglicht es Teilnehmern, sich entweder für einen neuen Kurs zu registrieren oder einen bereits begonnenen Kurs fortzusetzen. Wenn Sie diese Option ausblenden, werden auch die daneben angezeigten Aktionen &quot;Nicht empfehlen&quot; und &quot;Herunterladen&quot; entfernt.
+   b. **[!UICONTROL Schaltfläche &quot;Speichern&quot;]**: Speichert alle Änderungen an den Kurseinstellungen oder -voreinstellungen.
+   c. **[!UICONTROL Schaltfläche &quot;Registrieren/Fortfahren&quot;]**: Ermöglicht es Teilnehmern, sich entweder für einen neuen Kurs zu registrieren oder einen Kurs fortzusetzen, den sie bereits begonnen haben. Wenn Sie diese Option ausblenden, werden auch die daneben angezeigten Aktionen &quot;Nicht empfehlen&quot; und &quot;Herunterladen&quot; entfernt.
 
    ![](assets/select-details-to-show.png)
    _Konfigurationsbildschirm für Kurskacheln in Adobe Learning Manager, auf dem Administratoren die Informationen und Aktionen auswählen, die für Teilnehmer angezeigt werden sollen_
@@ -332,7 +330,7 @@ _Sales Engineer-Teilnehmerseite vor der Anpassung_
 
 **Nach der Anpassung**
 
-Nachdem Sie die folgenden CSS-Klassen hinzugefügt haben, wird die Teilnehmerseite entsprechend den in diesen Klassen definierten Stilen aktualisiert. Basierend auf dem CSS wurde der Text im Inhaltsfeld-Widget linksbündig ausgerichtet und die Kurskacheln weisen jetzt einen vergrößerten Abstand zwischen ihnen auf.
+Nachdem Sie die folgenden CSS-Klassen hinzugefügt haben, wird die Teilnehmerseite entsprechend den in diesen Klassen definierten Stilen aktualisiert. Basierend auf dem CSS wurde der Text im Inhaltsfeld-Widget links ausgerichtet, und die Kurskacheln haben jetzt einen größeren Abstand zwischen ihnen.
 
 ```
 .alm-custom-content-box-center {
@@ -372,5 +370,3 @@ Im Folgenden finden Sie einige vordefinierte CSS-Klassen, die für Widgets verf�
 | Inhaltsbox | alm-custom-content-box-container |
 | Gamification | alm-leaderboard-container |
 | Soziales Lernen | alm-social-learning-container |
-
-

@@ -2,14 +2,12 @@
 title: Kernkomponenten von Experience Builder in Adobe Learning Manager
 description: Erfahren Sie mehr über die drei Kernkomponenten von Experience Builder, einschließlich Menüs, Seiten und Widgets.
 jcr-language: en-us
-source-git-commit: a6cd09ba81a41b389ed1ccbea22db6b1966a56e2
+exl-id: 9b1da75a-d47b-496d-9e6e-40ca27daee20
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 5%
-
 ---
-
-
 # Kernkomponenten von Experience Builder
 
 Experience Builder basiert auf drei Kernkomponenten: Seiten, Widgets und Menüs. Administratoren können benutzerdefinierte Seiten mit flexiblen Layouts erstellen, dynamische und statische Inhalte über eine Bibliothek von Widgets hinzufügen und Navigationsmenüs für bestimmte Zielgruppen erstellen.

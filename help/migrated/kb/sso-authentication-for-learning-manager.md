@@ -3,15 +3,12 @@ description: Dieses Dokument hilft Ihnen bei der Konfiguration der SSO-Authentif
 jcr-language: en_us
 title: Anmelden bei Learning Manager über die SSO-Authentifizierung
 contentowner: dvenkate
-source-git-commit: a186a600e632e9a564c4ff30d1897c2cdf0d5aac
+exl-id: ef5ab232-0a87-4f76-8dfd-b2497f360cbe
+source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 70%
-
+source-wordcount: '135'
+ht-degree: 68%
 ---
-
-
-
 # Anmelden bei Learning Manager über die SSO-Authentifizierung
 
 Dieses Dokument hilft Ihnen bei der Konfiguration der SSO-Authentifizierung für die Anmeldung bei Ihrem Learning Manager-Konto.
@@ -38,4 +35,3 @@ Führen Sie für die Konfiguration der SSO-Authentifizierung folgende Schritte d
    Die SSO, die Sie in Learning Manager konfigurieren, muss SAML 2.0 unterstützen.
 
    Jetzt können Sie sich über die SSO-Authentifizierung bei Learning Manager anmelden.
-

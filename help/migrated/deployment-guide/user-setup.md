@@ -4,15 +4,12 @@ jcr-language: en_us
 title: Einrichten von Benutzern in Learning Manager
 contentowner: shhivkum
 preview: true
-source-git-commit: ac4432a2fda4be4ffde5e58c0f44e623b55703b5
+exl-id: 9cf893a5-9282-40fa-a12a-1d7078f0b98a
+source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
 workflow-type: tm+mt
 source-wordcount: '1862'
 ht-degree: 71%
-
 ---
-
-
-
 # Einrichten von Benutzern in Learning Manager
 
 ## Interne und externe Benutzer {#internalandexternalusers}
@@ -106,7 +103,7 @@ Sie können diese Methode auswählen, um eine große Anzahl interner Benutzer hi
 
 ### Überlegungen zum Erstellen der CSV-Datei für den Upload: {#considerationswhencreatingthecsvfileforupload}
 
-Wenn Sie die CSV-Datei zum Hochladen interner Benutzer erstellen, sind die folgenden Pflichtfelder aufgeführt, für die Sie Daten eingeben müssen: Name des Mitarbeiters, E-Mail-Adresse des Mitarbeiters, Profil oder Bezeichnung des Mitarbeiters und Managerhierarchie.
+Wenn Sie die CSV-Datei zum Hochladen interner Benutzer erstellen, sind im Folgenden einige der Pflichtfelder aufgeführt, für die Sie Daten eingeben müssen: Name des Mitarbeiters, E-Mail-Adresse des Mitarbeiters, Profil oder Bezeichnung des Mitarbeiters und Managerhierarchie.
 
 Der Name und die E-Mail-Adresse der einzelnen Mitarbeiter können den Anwendungsdaten direkt zugeordnet werden. Beachten Sie, dass Sie eine E-Mail-Adresse angeben müssen, die in der CSV-Datei als Manager-E-Mail angegeben ist. Sie können entweder die Manager-ID beim Erstellen der CSV-Datei definieren oder beim Hochladen der CSV-Datei die E-Mail-ID angeben, die der Manager-ID entspricht.
 
@@ -203,4 +200,3 @@ Sie können auch benutzerdefinierte Gruppen anhand einer ausgewählten Benutzerl
 1. Fügen Sie der benutzerdefinierten Benutzergruppe Benutzer hinzu, indem Sie den Benutzernamen oder das Profil des Benutzers in das Feld **[!UICONTROL **&#x200B; Benutzer hinzufügen &#x200B;** eingeben.]**
 1. Um der benutzerdefinierten Gruppe weitere Benutzer hinzuzufügen, klicken Sie auf **[!UICONTROL **&#x200B; Weitere Benutzer hinzufügen &#x200B;**.]**.
 1. Nachdem Sie alle Benutzer hinzugefügt haben, klicken Sie auf **[!UICONTROL Speichern]**, um die benutzerdefinierte Benutzergruppe zu speichern.
-

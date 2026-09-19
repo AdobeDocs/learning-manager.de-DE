@@ -2,14 +2,12 @@
 title: Seite in Experience Builder erstellen.
 description: Erfahren Sie, wie Sie in Experience Builder neue Seiten in Adobe Learning Manager erstellen. In diesem Handbuch erfahren Sie, wie Sie Vorlagen auswählen, Seiten benennen, Seiteneigenschaften festlegen und Ihre benutzerdefinierten Seiten veröffentlichen.
 jcr-langauge: en-us
-source-git-commit: b3124c47d56a50437cb284fe809828bcd4c4008d
+exl-id: eebaca0b-c490-41c8-a8be-9b2a0bc5ad2b
+source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
 workflow-type: tm+mt
 source-wordcount: '1274'
 ht-degree: 0%
-
 ---
-
-
 # Benutzerdefinierte Seite in Experience Builder erstellen
 
 Als Administrator bei einem Finanzdienstleistungsunternehmen verwalten Sie zwei Teams: Vertrieb und Kundenerfolg. Jedes Team hat eigene Lernanforderungen, aber beide haben dasselbe Standard-Lernportal verwendet. Dies hat zu Verwirrung, Durcheinander und einem geringen Engagement der Lernenden geführt.
@@ -33,7 +31,7 @@ So erstellen Sie eine benutzerdefinierte Seite für das Sales Engineering-Team i
 
 7. Wählen Sie einen der folgenden Seitentypen aus:
 
-   * **[!UICONTROL Mithilfe von ALM-Widgets erstellen]**: Der Administrator kann eine Seite mithilfe der vorhandenen Adobe Learning Manager-Widgets erstellen. Geben Sie die benutzerdefinierte Zeichenfolge in das Feld Seiten-URL ein. Diese Zeichenfolge wird an die URL Ihrer benutzerdefinierten Seite angehängt.
+   * **[!UICONTROL Mit ALM-Widgets erstellen]**: Der Administrator kann eine Seite mithilfe der vorhandenen Adobe Learning Manager-Widgets erstellen. Geben Sie die benutzerdefinierte Zeichenfolge in das Feld Seiten-URL ein. Diese Zeichenfolge wird an die URL Ihrer benutzerdefinierten Seite angehängt.
    * **[!UICONTROL Externe Seite]**: Der Administrator kann eine URL für die externe Seite hinzufügen. Wenn Sie als Seitentyp &quot;external&quot; auswählen, geben Sie die URL der externen Seite in das Feld &quot;Seiten-URL&quot; ein.
 
 8. Wählen Sie das Symbol **[!UICONTROL Ändern]** aus, um das Symbol der Seite zu ändern.
@@ -48,11 +46,11 @@ Im nächsten Schritt fügen Sie der benutzerdefinierten Seite ein Layout hinzu, 
 
 Entwerfen Sie Ihre Seite, indem Sie das entsprechende Abschnittslayout aus dem Dropdownmenü auswählen. Die maximale Breite für jedes Layout beträgt 1212 Pixel. Wählen Sie aus den folgenden Abschnittsoptionen je nach Anzahl und gewünschter Größe der hinzuzufügenden Widgets:
 
-* **[!UICONTROL 1 Spalte - Vollständige Abschnittsbreite]**: Der Inhalt erstreckt sich über die gesamte Abschnittsbreite und bietet so maximalen Platz.
-* **[!UICONTROL 2 Spalten - 1/2 Abschnittsbreite je]**: Der Abschnitt ist gleichmäßig in zwei Spalten gleicher Breite aufgeteilt.
+* **[!UICONTROL 1 Spalte - Breite des gesamten Abschnitts]**: Der Inhalt erstreckt sich über die gesamte Breite des Abschnitts und bietet so maximalen Platz.
+* **[!UICONTROL 2 Spalten - 1/2 Abschnittsbreite je]**: Der Abschnitt wird gleichmäßig in zwei Spalten gleicher Breite aufgeteilt.
 * **[!UICONTROL 2 Spalten - 2/3 und 1/3 Abschnittsbreite]**: Der Hauptinhalt nimmt zwei Drittel der Breite ein, der Seiteninhalt ein Drittel.
-* **[!UICONTROL 2 Spalten - 1/3 und 2/3 Abschnittsbreite]**: Der Seiteninhalt benötigt ein Drittel, der Hauptinhalt zwei Drittel des Abschnitts.
-* **[!UICONTROL 3 Spalten - 1/3 Abschnittsbreite jeweils]**: Der Abschnitt teilt sich in drei Spalten gleicher Breite auf.
+* **[!UICONTROL 2 Spalten - 1/3 und 2/3 Abschnittsbreite]**: Ein Drittel des Inhalts für die Seite und zwei Drittel des Abschnitts für den Hauptinhalt.
+* **[!UICONTROL 3 Spalten - 1/3 Abschnittsbreite je]**: Der Abschnitt teilt sich in drei Spalten gleicher Breite auf.
 
 >[!NOTE]
 >
@@ -78,9 +76,9 @@ So wählen Sie das Layout für die Schulungsseite Vertrieb in Experience Builder
 
 Das hinzugefügte Layout verfügt über die folgenden Optionen:
 
-* **[!UICONTROL Zeile löschen]**: Entfernen Sie die Zeile aus dem Layout.
-* **[!UICONTROL Bildschirmbreite anpassen]**: Passen Sie das Layout so an, dass es automatisch an Ihren Bildschirm angepasst wird, um eine bessere Sichtbarkeit zu erzielen.
-* **[!UICONTROL Anordnung ändern]**: Ändern Sie die Reihenfolge der Layouts, indem Sie sie per Drag &amp; Drop an die gewünschte Position ziehen.
+* **[!UICONTROL Zeile]** löschen: Entfernen Sie die Zeile aus dem Layout.
+* **[!UICONTROL Bildschirmbreite anpassen]**: Passen Sie das Layout so an, dass es automatisch an Ihren Bildschirm angepasst wird, damit es besser sichtbar ist.
+* **[!UICONTROL Neuanordnung]**: Ändern Sie die Reihenfolge der Layouts, indem Sie sie per Drag &amp; Drop an die gewünschte Position ziehen.
 
 ![](assets/layout-options.png)
 _Seitenlayout mit den Layoutoptionen zum Neuordnen, Erweitern oder Löschen des Abschnitts_
@@ -136,7 +134,7 @@ Vorschau der Seiten:
    ![](assets/preview-the-page.png)
    _Seitenvorschau, die ein benutzerdefiniertes Seitenlayout mit einem Banner zeigt, Kursvorstellungen_
 
-6. Wählen Sie Inspect-Modus , um die Höhe und Breite des Widgets anzuzeigen.
+6. Wählen Sie &quot;Inspect-Modus&quot;, um Height und Breite des Widgets anzuzeigen.
 
    ![](assets/inspect-mode.png)
    _Seitenvorschaubildschirm in Experience Builder mit hervorgehobenem Umschalter für den Inspect-Modus, sodass Administratoren die Widgets überprüfen und überprüfen können_

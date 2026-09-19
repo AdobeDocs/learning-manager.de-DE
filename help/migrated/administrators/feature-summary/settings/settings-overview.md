@@ -2,14 +2,12 @@
 description: Erfahren Sie mehr über die Administratoreinstellungen, die Sie in Adobe Learning Manager konfigurieren können, um Benutzer zu verwalten, den Zugriff zu steuern, Ihre Lernumgebung mit Branding zu versehen und die Plattform auf die Anforderungen Ihres Unternehmens zuzuschneiden.
 jcr-language: en_us
 title: Einstellungsübersicht
-source-git-commit: 03123dcd8d9066cdfcb0fe97e61acb3df625a23e
+exl-id: b52f3f51-e119-42f5-a105-49f74092ffb6
+source-git-commit: cfc09c74da2cc236147ccf883185926ed495f1ed
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 1%
-
 ---
-
-
 # Einstellungen
 
 ## Übersicht
@@ -39,4 +37,3 @@ Weitere Informationen finden Sie unter Einstellungen in Adobe Learning Manager .
 * Konfigurieren Sie Compliance- und Gruppenerfolg-Dashboards.
 
 Weitere Informationen finden Sie unter Einstellungen in Adobe Learning Manager .
-
