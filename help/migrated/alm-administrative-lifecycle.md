@@ -201,7 +201,7 @@ Wenn ein Systemadministrator die Organisation verlässt oder die Rollen ändert,
 
 Weitere Informationen finden Sie unter:
 
-* [Erstellen, Aktualisieren oder Entfernen von Benutzerkonten auf der Admin Console](https://helpx.adobe.com/enterprise/using/manage-users-individually.html)
+* [Erstellen, Aktualisieren oder Entfernen von Benutzerkonten auf der Admin Console](https://helpx.adobe.com/de/enterprise/using/manage-users-individually.html)
 * [So verlassen Sie Ihr Unternehmenskonto](https://helpx.adobe.com/de/enterprise/using/leave-organization.html)
 
 ### Entfernen der ALM-Administratorrolle
