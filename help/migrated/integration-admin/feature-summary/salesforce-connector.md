@@ -1,23 +1,21 @@
 ---
-description: Hier erfahren Sie, wie Sie den Salesforce Connector mit Adobe Learning Manager integrieren.
+description: Hier erfahren Sie, wie Sie Salesforce Verbindung mit Adobe Learning Manager integrieren
 jcr-language: en_us
 title: Salesforce-Connector
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+source-git-commit: abd49abdde8ba8d957cd2c9dc34b9407d8e27d79
 workflow-type: tm+mt
 source-wordcount: '2251'
-ht-degree: 5%
-
+ht-degree: 4%
 ---
 
-
-# Salesforce-Connector für Adobe Learning Manager
+# Salesforce-Verbindung für Adobe Learning Manager
 
 ## Einführung
 
-Der Salesforce-Connector integriert Ihre Salesforce- und Adobe Learning Manager (ALM)-Konten und ermöglicht so den automatisierten Benutzerimport, die Datensynchronisierung und den Export von Lerndatensätzen. In diesem Handbuch wird erläutert, wie Sie den Connector konfigurieren, Benutzerdaten verwalten und Lerneinblicke in Salesforce integrieren.
+Die Salesforce-Verbindung integriert Ihre Salesforce- und Adobe Learning Manager (ALM)-Konten und ermöglicht so den automatisierten Benutzerimport, die Datensynchronisierung und den Export von Lerndatensätzen. In diesem Handbuch wird erläutert, wie Sie die Verbindung konfigurieren, Benutzerdaten verwalten und Lerneinblicke in Salesforce integrieren.
 
-Der Salesforce-Connector für Adobe Learning Manager ermöglicht eine reibungslose Integration, da Benutzer automatisch importiert werden, benutzerdefinierte Datenzuordnungen unterstützt werden und Lerndatensätze nach Salesforce exportiert werden.
+Die Salesforce-Verbindung für Adobe Learning Manager ermöglicht eine reibungslose Integration, da Benutzer automatisch importiert werden, benutzerdefinierte Datenzuordnungen unterstützt werden und Lerndatensätze nach Salesforce exportiert werden.
 
 In diesem Leitfaden erfahren Sie, wie Sie:
 
@@ -25,17 +23,17 @@ In diesem Leitfaden erfahren Sie, wie Sie:
 - Konfigurieren Sie automatisierte Benutzerimport-Prozesse aus Salesforce.
 - Ordnen Sie Salesforce-Felder effektiv Adobe Learning Manager-Attributen zu.
 - Exportieren Sie Lerndatensätze zurück in Salesforce, um umfassende Berichte zu erstellen.
-- Richten Sie Filter und Zeitpläne für die zielgerichtete Datensynchronisierung ein.
+- Richten Sie Filterungen und Zeitpläne für die zielgerichtete Datensynchronisierung ein.
 
-## Was ist der Salesforce Connector?
+## Was ist die Salesforce-Verbindung?
 
-Der Salesforce-Connector ist ein leistungsstarkes Integrationstool, das eine nahtlose Brücke zwischen Ihrem Salesforce CRM und Adobe Learning Manager schlägt. Dieser Connector vermeidet die manuelle Dateneingabe, indem Benutzerinformationen, Kontaktdaten und Lerndatensätze automatisch zwischen den beiden Plattformen synchronisiert werden.
+Die Salesforce-Verbindung ist ein leistungsstarkes Integrationstool, das eine nahtlose Brücke zwischen Ihrem Salesforce CRM und Adobe Learning Manager schlägt. Mit dieser Verbindung entfällt die manuelle Dateneingabe, da Benutzerinformationen, Kontaktdaten und Lerndatensätze automatisch zwischen den beiden Plattformen synchronisiert werden.
 
 ## Wichtigste Funktionen
 
 ### Attributzuordnung
 
-Dies erleichtert die Erstellung flexibler Verknüpfungen zwischen Salesforce-Feldern und Adobe Learning Manager-Benutzerattributen. Sie können Standardfelder wie Name, E-Mail und Manager entsprechenden Attributen in Learning Manager zuordnen. Der Connector unterstützt auch benutzerdefinierte Felder auf beiden Plattformen, umfasst die erforderliche Feldvalidierung, um die Datengenauigkeit zu gewährleisten, und ermöglicht es Ihnen, Zuordnungskonfigurationen zur Wiederverwendung in zukünftigen Importen zu speichern.
+Dies erleichtert die Erstellung flexibler Verknüpfungen zwischen Salesforce-Feldern und Adobe Learning Manager-Benutzerattributen. Sie können Standardfelder wie Name, E-Mail und Manager entsprechenden Attributen in Learning Manager zuordnen. Die Verbindung unterstützt auch benutzerdefinierte Felder auf beiden Plattformen, umfasst die erforderliche Feldvalidierung, um die Datengenauigkeit zu gewährleisten, und ermöglicht es Ihnen, Zuordnungskonfigurationen zur Wiederverwendung in zukünftigen Importen zu speichern.
 
 ### Automatischer Benutzerimport
 
@@ -54,14 +52,14 @@ Konfigurieren Sie automatisierte Synchronisationszeitpläne, die die Datenwähru
 
 ### Benutzerfilter
 
-- Filterkriterien zur Ausrichtung auf bestimmte Anwendergruppen anwenden und die Effizienz der Datensynchronisierung optimieren
-- Rollenbasierte Filterung für zielgerichtete Schulungsprogramme.
-- Geografische oder standortbasierte Filterung für regionale Implementierungen
-- Benutzerdefinierte Feldfilterung unter Verwendung von Salesforce-Kriterien und -Formeln.
+- Wendet Datenkriterien an, um bestimmte Anwendergruppen anzusprechen und die Effizienz der Datensynchronisierung zu optimieren.
+- Rollenbasierte Filterungen für zielgerichtete Schulungsprogramme.
+- Geografische oder standortbasierte Filterungen für regionale Implementierungen
+- Filterungen benutzerdefinierter Felder anhand von Salesforce-Kriterien und -Formeln.
 
 ## Voraussetzungen
 
-Stellen Sie vor der Konfiguration des Salesforce-Connectors sicher, dass Ihre Umgebung die folgenden Anforderungen erfüllt:
+Stellen Sie vor der Konfiguration der Salesforce-Verbindung sicher, dass Ihre Umgebung die folgenden Anforderungen erfüllt:
 
 - [Salesforce-Organisations-URL](https://myorg.salesforce.com)
 - Anmeldeinformationen für Administratoren für Salesforce und Adobe Learning Manager.
@@ -70,15 +68,15 @@ Stellen Sie vor der Konfiguration des Salesforce-Connectors sicher, dass Ihre Um
 
 ## Salesforce-Connector konfigurieren
 
-Mit dem Salesforce-Connector in Adobe Learning Manager können Integrationsadministratoren die Synchronisierung von Benutzerdaten und Lerndatensätzen zwischen Salesforce und Adobe Learning Manager automatisieren.
+Mit der Salesforce-Verbindung in Adobe Learning Manager können Integrationsadministratoren die Synchronisierung von Benutzerdaten und Lerndatensätzen zwischen Salesforce und Adobe Learning Manager automatisieren.
 
-Erstellen eines Salesforce-Connectors:
+Erstellen einer Salesforce-Verbindung:
 
 1. Melden Sie sich als Integrationsadministrator an.
 2. Wählen Sie **Salesforce** und anschließend **Connect** aus.
 
    ![](assets/salesforce-connector1.png)
-   Seite mit _Adobe Learning Manager-Connectors, auf der der Salesforce-Connector angezeigt wird, wobei die Schaltfläche &quot;Verbinden&quot; hervorgehoben ist_
+   _Seite mit Adobe Learning Manager-Verbindungen, auf der die Salesforce-Verbindung mit markierter Schaltfläche &quot;Verbinden&quot; angezeigt wird_
 
 3. Geben Sie Ihre Salesforce-Organisations-URL ein und wählen Sie **Verbindung**. Dadurch gelangen Sie zur Salesforce-Anmeldeseite.
 
@@ -87,10 +85,10 @@ Erstellen eines Salesforce-Connectors:
 
 4. Melden Sie sich mit Ihrem Benutzernamen und Ihrem Kennwort an. Führen Sie alle zusätzlichen Authentifizierungsschritte aus, z. B. die zweistufige Verifizierung oder die Beantwortung von Sicherheitsfragen.
 
-   Nach erfolgreicher Authentifizierung wird die Connector-Übersichtsseite angezeigt, auf der die hergestellte Verbindung zwischen Systemen bestätigt wird.
+   Nach erfolgreicher Authentifizierung wird die Verbindungsübersicht angezeigt, auf der die hergestellte Verbindung zwischen Systemen bestätigt wird.
 
    ![](assets/salesforce-connector3.png)
-   _Übersichtsseite des Salesforce-Connectors, auf der der Verbindungsstatus angezeigt wird_
+   _Übersichtsseite zur Salesforce-Verbindung, die den Verbindungsstatus anzeigt_
 
 ### Attribute zuordnen
 
@@ -103,7 +101,7 @@ Durch das Verständnis der Attributzuordnung wird die grundlegende Verbindung zw
 
 Zuordnen der Attribute:
 
-1. Navigieren Sie zur Übersichtsseite des Salesforce-Connectors.
+1. Navigieren Sie zur Übersichtsseite Salesforce-Verbindung .
 2. Wählen Sie **Interne Benutzer** und dann **Zuordnung konfigurieren**.
 3. Wählen Sie eine der folgenden Optionen aus:
 
@@ -119,24 +117,24 @@ Zuordnen der Attribute:
 
 ## Importieren von Benutzern und Kontakten
 
-Über den Salesforce-Connector kann Adobe Learning Manager eine Verbindung mit Ihrem Salesforce-Konto herstellen und Benutzer basierend auf Ihrer Konfiguration automatisch importieren.
+Mit der Salesforce-Verbindung kann Adobe Learning Manager eine Verbindung mit Ihrem Salesforce-Konto herstellen und automatisch Benutzer importieren, die auf Ihrer Konfiguration basieren.
 
 - **Interne Benutzer**: Mitarbeiter und Mitarbeiter mit Salesforce-Benutzerkonten.
 - **Externe Kontakte**: Kunden, Partner, Anbieter und andere externe Stakeholder.
 - **Gemischte Importe**: Kombination von Benutzern und Kontakten in einem einzigen Synchronisierungsprozess.
 - **Gefilterte Importe**: Gezielte Synchronisierung auf der Grundlage spezifischer Kriterien.
 
-Über den Salesforce-Connector kann Adobe Learning Manager eine Verbindung mit Ihrem Salesforce-Konto herstellen und Benutzer basierend auf Ihrer Konfiguration automatisch importieren.
+Mit der Salesforce-Verbindung kann Adobe Learning Manager eine Verbindung mit Ihrem Salesforce-Konto herstellen und automatisch Benutzer importieren, die auf Ihrer Konfiguration basieren.
 
-Der Connector unterstützt neben den standardmäßigen Salesforce-Benutzern auch den Import von Kontakten. Dadurch können Schulungsprogramme auf externe Stakeholder wie Kunden oder Partner ausgedehnt werden.
+Die Verbindung unterstützt neben den Salesforce-Standardbenutzern auch das Importieren von Kontakten. Dadurch können Schulungsprogramme auf externe Stakeholder wie Kunden oder Partner ausgedehnt werden.
 
 So importieren Sie Kontakte:
 
-1. Wählen Sie **Salesforce** auf der Seite **Connectors** aus.
+1. Wählen Sie **Salesforce** auf der Seite **Verbindungen** aus.
 2. Wählen Sie auf der Verbindungsseite **Interne Benutzer importieren** aus.
 
    ![](assets/salesforce-connector5.png)
-   _Salesforce-Connector-Seite mit markierter Option &quot;Interne Benutzer importieren&quot;_
+   _Salesforce-Verbindung mit markierter Option &quot;Interne Benutzer importieren&quot;_
 
 3. Wählen Sie **Kontakte** auf der Seite **Benutzer importieren** aus.
 4. Wählen Sie **Ja** für die Option **Kontakte vor Import filtern** aus. **
@@ -147,7 +145,7 @@ So importieren Sie Kontakte:
    - Zuordnen der Salesforce-Attribute zu den Adobe Learning Manager-Feldern
 
    ![](assets/salesforce-connector6.png)
-   _Kontaktimportkonfiguration mit Filteroptionen und Feldzuordnung_
+   _Kontaktimportkonfiguration mit Filterungen und Feldzuordnung_
 
 6. Wählen Sie **Speichern**.
 7. Wenn Sie **Nein. Alle Kontakte importieren** klicken, können Sie die Felder direkt zuordnen, ohne die Kontakte zu filtern.
@@ -164,9 +162,9 @@ Bevor Sie Lerndatensätze aus Adobe Learning Manager exportieren, erstellen Sie 
 
 Adobe bietet vorkonfigurierte Pakete, die die erforderlichen benutzerdefinierten Objekte erstellen:
 
-- [Paket 1](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WPJ): Zentrale Lernobjekte und -felder
-- [Paket 2](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WPT): Erweiterte Lern-Analytics-Objekte
-- [Paket 3](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t1k0000008WPi): Zusätzliche Berichts- und Integrationsobjekte
+- [Paket 1](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000HciS): Zentrale Lernobjekte und -felder
+- [Paket 2](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000HciX): Erweiterte Lern-Analytics-Objekte
+- [Paket 3](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tDb000000Hcic): Zusätzliche Berichts- und Integrationsobjekte
 
 >[!IMPORTANT]
 >
@@ -190,7 +188,7 @@ Installieren der Pakete:
 
 So exportieren Sie die Datensätze in Salesforce:
 
-1. Wählen Sie **Einheitliche Datensätze exportieren** auf der Seite **Salesforce**-Connectors aus.
+1. Wählen Sie **Einheitliche Datensätze exportieren** auf der Seite **Salesforce**-Verbindungen aus.
 2. Wählen Sie die Ereignisse aus den folgenden Optionen aus:
 
    - Neuer Benutzer - Hinzufügen
@@ -278,7 +276,7 @@ Sie werden zur Seite &quot;Installierte Pakete&quot; weitergeleitet, auf der Sie
 
 So konfigurieren Sie die Anwendung:
 
-1. Wählen Sie **App Launcher** (9-Punkte-Rastersymbol neben &quot;Setup&quot;).
+1. Wählen Sie **App Launcher** aus (Raster mit 9 Punkten neben dem Setup).
 2. Suchen Sie nach Adobe Learning Manager.
 3. Um die App zu konfigurieren, wählen Sie **Konfigurieren**.
 4. Wählen Sie **Neu** aus und fügen Sie die folgenden Details hinzu:
@@ -363,7 +361,7 @@ Sie können entweder vorhandene Profile verwenden oder benutzerdefinierte Profil
 
 **Benutzerdefinierte Profile erstellen**
 
-1. Navigieren Sie zu **Setup**&quot; und wählen Sie **&#x200B; Benutzer aus. &#x200B;**
+1. Navigieren Sie zu **Setup**&quot; und wählen Sie ** Benutzer aus. **
 2. Wählen Sie **Profile** aus.
 3. Klicken Sie auf **Neues Profil**.
 4. Erstellen Sie ein benutzerdefiniertes Profil, das auf einem vorhandenen basiert und auf Adobe Learning Manager-Benutzer zugeschnitten ist.
@@ -398,4 +396,4 @@ Wählen Sie die Benutzer aus und weisen Sie die erforderlichen Berechtigungen f�
 
 Teilnehmer mit den zugewiesenen Profilen können jetzt auf die Adobe Learning Manager-App in Salesforce zugreifen.
 
-Sie haben den Salesforce-Connector für Adobe Learning Manager erfolgreich konfiguriert. Benutzer können jetzt direkt in Salesforce auf ihre Lerninhalte zugreifen, was die Akzeptanz und Interaktion mit den Schulungsprogrammen Ihres Unternehmens verbessert.
+Sie haben die Salesforce-Verbindung für Adobe Learning Manager erfolgreich konfiguriert. Benutzer können jetzt direkt in Salesforce auf ihre Lerninhalte zugreifen, was die Akzeptanz und Interaktion mit den Schulungsprogrammen Ihres Unternehmens verbessert.
