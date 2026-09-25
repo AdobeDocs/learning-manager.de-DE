@@ -6,11 +6,9 @@ contentowner: manochan
 exl-id: 122b2fca-ad7c-4799-9a2e-ced820780d3f
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 66%
-
+source-wordcount: '167'
+ht-degree: 90%
 ---
-
 # Erste Schritte für Manager
 
 Die Seite „Erste Schritte“ hilft Ihnen, sich mit den wichtigsten Funktionen der Anwendung vertraut zu machen.
@@ -19,9 +17,9 @@ Nachdem Sie sich als Manager angemeldet haben, können Sie das Popupfenster mit 
 
 ## Videobeispiele anzeigen {#viewsamplevideos}
 
-Durchsuchen Sie die Beispiele in den Videolehrgängen, um die wichtigsten Funktionen für Ihre Managerrolle kennenzulernen. Wenn Sie dieses Popup-Fenster nicht während der Anmeldung anzeigen möchten, können Sie es deaktivieren, indem Sie in der rechten unteren Ecke des Popup-Fensters auf die Option Bei Anmeldung nicht anzeigen klicken.
+Durchsuchen Sie die Beispiele in den Videolehrgängen, um die wichtigsten Funktionen für Ihre Managerrolle kennenzulernen. Wenn Sie dieses Popupfenster bei der Anmeldung nicht mehr sehen möchten, deaktivieren Sie es, indem Sie in der rechten unteren Ecke des Popupfensters auf „Nicht bei Anmeldung anzeigen“ klicken.
 
-Klicken Sie auf **[!UICONTROL Fenster schließen]**, um das Popup zu schließen.
+Klicken Sie auf **[!UICONTROL Fenster schließen]**, um das Popup-Fenster zu schließen.
 
 <!--![](assets/welcome-videos.png) -->
 
