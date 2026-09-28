@@ -6,11 +6,9 @@ contentowner: manochan
 exl-id: 2c775635-1e86-4bef-9ca1-b56fbc353ea8
 source-git-commit: de57d96488851c31c380b34672767a803379842e
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 72%
-
+source-wordcount: '467'
+ht-degree: 80%
 ---
-
 # Benutzerbenachrichtigungen
 
 <!--User notifications for Learners in Learning Manager.-->
@@ -39,7 +37,7 @@ Teilnehmer erhalten Push-Benachrichtigungen, wenn sie einen Termin für einen Ku
 
 ## Alle Benachrichtigungen anzeigen {#showallnotifications}
 
-Klicken Sie auf den Link **[!UICONTROL Alle Benachrichtigungen anzeigen]** am unteren Rand des Benachrichtigungs-Popup-Fensters, um alle Benachrichtigungen auf einer separaten Seite anzuzeigen.
+Klicken Sie auf den Link **[!UICONTROL Alle Benachrichtigungen anzeigen]** unten im Benachrichtigungen-Popup-Fenster, um alle Benachrichtigungen auf einer separaten Seite aufzurufen.
 
 ![](assets/notifications-page.png)
 
@@ -61,7 +59,7 @@ Teilnehmer erhalten Benachrichtigungen, wenn die folgenden Ereignisse eintreten:
 1. Der Teilnehmer hat eine Nominierung abgelehnt.
 1. Für von Managern genehmigte Kurse: Der Manager hat einen Antrag auf Registrierung für einen Kurs genehmigt/abgelehnt.
 1. Die Teilnehmer-Warteliste wurde geleert.
-1. Der Teilnehmer wurde automatisch für einen Kurs, ein Lernprogramm oder eine Zertifizierung registriert
+1. Der Teilnehmer hat sich selbst/wurde automatisch für einen Kurs, ein Lernprogramm oder eine Zertifizierung registriert.
 1. Der Teilnehmer hat eine Zertifizierung abgeschlossen.
 1. Ein Manager genehmigt einen Zertifizierungsnachweis/lehnt einen Zertifizierungsnachweis ab, der von einem Teilnehmer hochgeladen wurde.
 1. Wenn die Frist für eine bestimmte Kursinstanz bald abläuft. (Der Administrator kann das Datum festsetzen, ab dem Erinnerungen für Teilnehmer erscheinen.)
