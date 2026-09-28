@@ -7,10 +7,8 @@ exl-id: e2869ee6-2c73-45c6-bb00-961e722367ff
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '438'
-ht-degree: 62%
-
+ht-degree: 74%
 ---
-
 # Zertifizierungen
 
 Erfahren Sie, wie Sie Zertifizierungen mithilfe der Learning Manager-Teilnehmer-App absolvieren.
@@ -35,14 +33,14 @@ Es erscheint eine Seite mit einer Liste aller Zertifizierungen, die für Sie von
 
 1. Zertifizierungen in verschiedenen Modi anzeigen:
 
-   1. Klicken Sie auf das Widget &quot;Ausstehend&quot;, um alle Zertifizierungen anzuzeigen, die Sie abschließen müssen.
+   1. Klicken Sie auf da Widget „Ausstehend“, damit alle Zertifizierungen angezeigt werden, die Sie abschließen müssen.
    1. Klicken Sie im linken Teilfenster auf &quot;Eigenes Lernen&quot; und wählen Sie &quot;Zertifizierungen&quot;, um alle Zertifizierungen anzuzeigen.
    1. Sortieren Sie die Liste der Zertifizierungen und zeigen Sie diese nach Relevanz und Veröffentlichungsdatum an.
 
-1. Klicken Sie im Widget &quot;Ausstehend&quot; auf der Startseite auf die interne Zertifizierung, die Sie absolvieren müssen.\
+1. Klicken Sie auf der Startseite im Widget „Ausstehend“ auf die interne Zertifizierung, die Sie absolvieren möchten.\
    Die ausstehenden Zertifizierungen werden unter dem Widget angezeigt.
 
-1. Klicken Sie auf Start , um die Zertifizierung anzunehmen.
+1. Klicken Sie auf „Start“, um mit der Zertifizierung zu beginnen.
 
 >[!NOTE]
 >
@@ -60,7 +58,7 @@ Sie müssen eine externe Zertifizierung außerhalb Ihres Unternehmens absolviere
 
    Es wird eine Zertifizierungsseite mit der Zertifizierungsübersicht, dem Gültigkeitsdatum der Zertifizierung, dem Aussteller, dem Abschlussdatum, dem Typ (wiederkehrend oder fortwährend) und dem Abzeichen angezeigt.
 
-1. Um den Abschlussnachweis für Ihre Zertifizierung einzureichen, klicken Sie auf Durchsuchen, wählen Sie die Datei aus Ihrem lokalen Pfad aus und klicken Sie auf **[!UICONTROL Hochladen]**.
+1. Um den Zertifizierungsnachweis für Ihre Zertifizierung einzureichen, wählen Sie die Datei aus Ihrem lokalen Verzeichnis und klicken Sie auf **[!UICONTROL Hochladen]**.
 
 ## Zertifizierungen abschließen {#completingcertifications}
 

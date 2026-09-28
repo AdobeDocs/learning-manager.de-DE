@@ -6,16 +6,14 @@ contentowner: manochan
 exl-id: 0ed6aea9-9dd4-465a-8723-56d600a35236
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 80%
-
+source-wordcount: '471'
+ht-degree: 83%
 ---
-
 # Benutzerbenachrichtigungen
 
 Benutzerbenachrichtigungen für Manager einrichten
 
-Die Benachrichtigungsfunktion gilt für alle Benutzer von Adobe Learning Manager 1.0. Jedoch erhält jeder Benutzer entsprechend seiner Rolle in verschiedenen Szenarien unterschiedliche Benachrichtigungen. Alle Warnungen und Benachrichtigungen an Benutzer werden über das Popup-Dialogfeld für Benachrichtigungen angezeigt.
+Die Benachrichtigungsfunktion gilt für alle Benutzer von Adobe Learning Manager 1.0. Jeder Benutzer erhält jedoch basierend auf seiner Rolle in verschiedenen Szenarien unterschiedliche Benachrichtigungen. Alle Warnungen und Benachrichtigungen an Benutzer werden über das Popup-Dialogfeld für Benachrichtigungen angezeigt.
 
 ## Zugriff auf Benachrichtigungen {#accessnotifications}
 
@@ -27,9 +25,9 @@ Abbildung eines Beispiels für Manager-Benachrichtigungen:
 
 *Alle Benachrichtigungen anzeigen*
 
-Dieses Popup-Fenster zeigt Markierungen aller Benachrichtigungen zusammen mit der Zeit, zu der sie eingetroffen sind, sowie eine Bildlaufleiste. Um weitere Informationen zu allen Benachrichtigungen anzuzeigen, klicken Sie unten im Popup-Fenster auf &quot;Alle Benachrichtigungen anzeigen&quot;. Die Benachrichtigungsseite wird angezeigt.
+Dieses Popup-Fenster zeigt Markierungen aller Benachrichtigungen zusammen mit der Zeit, zu der sie eingetroffen sind, sowie eine Bildlaufleiste. Um mehr Informationen über alle Benachrichtigungen anzuzeigen, klicken Sie auf „Alle Benachrichtigungen anzeigen“ unten im Popup-Fenster. Die Benachrichtigungsseite wird angezeigt.
 
-Ein Manager kann die ausstehenden Aufgaben und alle Benachrichtigungen auf der Benachrichtigungsseite auf Registerkarten sehen. Benachrichtigungen zu ausstehenden Aufgaben werden basierend auf Genehmigungen, Nominierungen usw. kategorisiert. Klicken Sie auf die Registerkarte **[!UICONTROL Alle Benachrichtigungen]**, um alle Benachrichtigungen anzuzeigen. Auf der Registerkarte „Alle Benachrichtigungen“ werden die Benachrichtigungen nach Datum und Uhrzeit geordnet aufgelistet.
+Ein Manager kann die ausstehenden Aufgaben und alle Benachrichtigungen auf der Benachrichtigungsseite auf Registerkarten sehen. Benachrichtigungen zu ausstehenden Aufgaben werden basierend auf Genehmigungen, Nominierungen usw. kategorisiert. Um alle Benachrichtigungen anzuzeigen, klicken Sie auf die Registerkarte **[!UICONTROL Alle Benachrichtigungen]**. Auf der Registerkarte „Alle Benachrichtigungen“ werden die Benachrichtigungen nach Datum und Uhrzeit geordnet aufgelistet.
 
 ![](assets/manager-notifications-page.png)
 
