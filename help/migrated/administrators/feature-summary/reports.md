@@ -4,13 +4,11 @@ jcr-language: en_us
 title: Berichte
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
+source-git-commit: 10d3de1a5a537bd6132f4d350ddd7a8612689bde
 workflow-type: tm+mt
 source-wordcount: '7677'
 ht-degree: 63%
-
 ---
-
 # Berichte {#reports}
 
 Informieren Sie sich über die Berichte, die mit der Administratorrolle in der Learning Manager-Anwendung verknüpft sind.
@@ -1018,7 +1016,7 @@ Das exportierte Blatt mit Dashboard-Berichten enthält detaillierte Informatione
    *Achsen für Berichte*
 
 1. Wählen Sie aus den Dropdown-Optionen die Kriterien für die sekundäre **[!UICONTROL Y-Achse]** bzw. den Bereich für Ihren Bericht aus. Wählen Sie zum Beispiel für eine Option betreffend die Registrierung für ein Lernprogramm einen oder mehrere Status aus dem Status-Dropdown-Menü neben der Option aus. Sekundäre Bereichsdaten werden im Bericht in Form von Liniendiagrammen dargestellt.
-1. Wählen Sie aus den Dropdown-Optionen die für Ihren Bericht geeigneten X&#x200B;**-Achsen**-Kriterien aus. Wenn Sie das Datum als Kriterium für die x-Achse ausgewählt haben, steht Ihnen eine Option zur Gruppierung des x-Achsen-Kriteriums nach Tag, Monat, Quartal und Jahr zur Verfügung.
+1. Wählen Sie die für Ihren Bericht geeigneten X**-Achse**-Kriterien aus den Dropdownoptionen aus. Wenn Sie das Datum als Kriterium für die x-Achse ausgewählt haben, steht Ihnen eine Option zur Gruppierung des x-Achsen-Kriteriums nach Tag, Monat, Quartal und Jahr zur Verfügung.
 1. Wählen Sie die gewünschte Option aus dem Dropdown-Menü für die Zeitspanne aus. Die verfügbaren Optionen sind:
 
    * Letzter Monat
@@ -1119,7 +1117,7 @@ Verfolgen Sie nach, wie Benutzergruppen wie gut Abteilungen, externe Partner und
 
 ### Benutzergruppen {#usergroups}
 
-Um Berichte basierend auf Benutzergruppen zu generieren, wählen Sie **[!UICONTROL Benutzergruppe]** auf der x-Achse aus der Liste der Dropdown-Optionen (siehe Screenshot unten).
+Um Berichte basierend auf Benutzergruppen zu generieren, wählen Sie **[!UICONTROL Benutzergruppe]** in der x-Achse aus der Liste der Dropdown-Optionen (siehe Screenshot unten).
 
 ![](assets/user-group-reports.png)
 *Benutzergruppenberichte*
@@ -1136,7 +1134,7 @@ Dieser Benutzergruppebericht ermöglicht Ihnen, die Leistung von einer Abteilung
 
 Sie können eigene Benutzergruppen mit der Funktion „Benutzer/Benutzergruppen hinzufügen“ in Learning Manager erstellen. Nachdem Sie die Benutzergruppen erstellt haben, können Sie die Berichte für die benutzerdefinierten Benutzergruppen mit einer Liste der Attribute wie Ort oder Zweigstelle generieren.
 
-Wählen Sie in der x-Achse die Benutzerattributoption und wählen Sie das Attribut aus der Dropdown-Liste **Auswählen** daneben aus. Um einen benutzerdefinierten Benutzergruppebericht zu erstellen, der auf diesen Attributen basiert, müssen Sie auch die entsprechende Benutzergruppe im Filter wählen.
+Wählen Sie in x-Achse die Benutzerattributoption und wählen Sie das Attribut aus der Dropdown-Liste **Auswählen** daneben aus. Um einen benutzerdefinierten Benutzergruppebericht zu erstellen, der auf diesen Attributen basiert, müssen Sie auch die entsprechende Benutzergruppe im Filter wählen.
 
 ## Anzeigen von Berichten {#viewingreports}
 
