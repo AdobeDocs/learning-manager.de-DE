@@ -6,11 +6,9 @@ contentowner: manochan
 exl-id: e2984b79-12a8-4748-bacc-58f8d967b6dd
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '776'
-ht-degree: 84%
-
+source-wordcount: '778'
+ht-degree: 93%
 ---
-
 # Lernprogramme
 
 Erfahren Sie, wie Sie Lernprogramme mit der Teilnehmer-App in Learning Manager anzeigen und nutzen.
@@ -43,7 +41,7 @@ Sie sehen den Prozentsatz der Kurseffektivität von Kursen auf der Katalogseite.
 
 Mit Adobe Learning Manager fällt es Ihnen leichter, Kurse Ihrer Wahl schnell zu finden. Sie können Ihre Lernprogramme auf die folgenden Arten suchen:
 
-1. Über das Suchfeld. Klicken Sie in der Suchleiste, die auf der Seite angezeigt wird. Geben Sie den Namen des Kurses/Lernprogramms oder zu Ihrem Kurs passende Schlüsselwörter ein, um Ihre Lernprogramme zu finden. Sie können auch mit vordefinierten Tags wie Captivate, C, Java, HTML usw. suchen. Nach Tags können Sie im Suchfeld suchen, was bedeutet, dass die Tags im Suchfeld angezeigt werden, während Sie tippen.
+1. Über das Suchfeld. Klicken Sie in der Suchleiste, die auf der Seite angezeigt wird. Geben Sie den Namen des Kurses/Lernprogramms oder zu Ihrem Kurs passende Schlüsselwörter ein, um Ihre Lernprogramme zu finden. Sie können auch mit vordefinierten Tags suchen, wie Captivate, C, Java, HTML usw. Nach Tags können Sie im Suchfeld suchen, was bedeutet, dass die Tags im Suchfeld angezeigt werden, während Sie tippen.
 1. Teilnehmer können nach Lernobjekten suchen, die auf dem Kursabschlussstatus basieren: Alle, noch nicht begonnen, abgeschlossen, noch nicht fertig.
 1. Der Teilnehmer kann mit Filtern, „Sortieren nach“, „Kompetenz“ und „Typ“ auf der Katalogseite suchen.
 
@@ -58,7 +56,7 @@ Die Registrierung von Teilnehmern für Lernprogramme ist auf folgende Arten mög
 
 Teilnehmer können sich nach ihren eigenen Wünschen für eine breite Palette an Lernprogrammen registrieren. Empfohlenes Lernwidget zeigt alle Ihre registrierten/zugewiesenen Kurse, Lernprogramme, Arbeitshilfen oder Zertifizierungen an. Sie können auf „Durchsuchen“ klicken und die Lernobjektseite eingeben, um sich selbst zu registrieren.
 
-Sie haben auch die Möglichkeit, alle Lernprogramme, die auf der Katalogseite aufgeführt sind, zu durchsuchen, indem Sie auf &quot;Durchsuchen&quot; klicken. Die Registrierungsseite wird angezeigt. Klicken Sie auf „Registrieren“ in der rechten oberen Ecke der Seite, damit der Kurs in die Liste der Kurse einbezogen wird.
+Sie haben jedoch die Möglichkeit, alle Lernprogramme, die auf der Katalogseite aufgeführt sind, zu durchsuchen, indem Sie auf „Durchsuchen“ klicken. Die Seite „Registrieren“ erscheint. Klicken Sie auf „Registrieren“ in der rechten oberen Ecke der Seite, damit der Kurs in die Liste der Kurse einbezogen wird.
 
 Es kann für einen Kurs/ein Lernprogramm mehrere Instanzen/Sitzungen geben. Klicken Sie im Katalog auf Namen der Kachel für den Kurs/das Lernprogramm, um ausführliche Informationen dazu abzurufen. Sie sehen die Registrierung für die Instanz des Kurses/Lernprogramms anhand des Datums, zu dem die Frist für die jeweilige Kurs-/Lernprogramminstanz abläuft.
 
