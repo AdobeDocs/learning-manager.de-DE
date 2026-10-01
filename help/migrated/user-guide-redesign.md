@@ -499,7 +499,7 @@ Lerne neue Features kennen, vertiefe dein Know-how.
 Erfahren Sie, wie Sie mit ALM ansprechende Lernerlebnisse erstellen, verwalten und bereitstellen können. Für eine personalisierte Demo registrieren.
 
 <div>
-    <a href="https://business.adobe.com/resources/demo/adobe-learning-manager-lms.html?sdid=P79NQBSV&mv=partner#make-personalized-learning-the-new-normal"
+    <a href="https://business.adobe.com/de/resources/demo/adobe-learning-manager-lms.html?sdid=P79NQBSV&mv=partner#make-personalized-learning-the-new-normal"
        target="_blank"
        rel="referrer"
        class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
