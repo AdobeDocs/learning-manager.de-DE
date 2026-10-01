@@ -2,15 +2,13 @@
 description: Der Insights Agent ist eine KI-gestützte Funktion in Adobe Learning Manager, mit der Administratoren Daten von Teilnehmern in natürlicher Sprache abfragen können.
 jcr-language: en_us
 title: Insights Agent (Beta) in Adobe Learning Manager
-source-git-commit: ed7e51ce51aa57144b8e519cb24a95ffbc436504
+source-git-commit: a599b117a000c83105fd258c307fedd6a99b6f96
 workflow-type: tm+mt
-source-wordcount: '2632'
+source-wordcount: '2929'
 ht-degree: 1%
-
 ---
 
-
-# Was ist Insights Agent?
+# Was ist der Insights Agent?
 
 Insights Agent ist eine KI-gestützte Funktion in Adobe Learning Manager, mit der Administratoren Lerndaten in natürlicher Sprache abfragen können. Anstatt Berichte herunterzuladen und Tabellenkalkulationen zu bearbeiten, geben Sie eine Frage ein, z. B. &quot;Wie viele Kurse wurden in den letzten 3 Monaten in einem Konto erstellt? Gebt mir einen Monatsbericht.&quot;, und der Insights Agent ruft die Daten ab und stellt sie direkt vor. Sie können die Ergebnisse als Text, Aufzählungszeichen oder Tabellen anzeigen oder als CSV-Datei herunterladen.
 
@@ -28,7 +26,7 @@ Jede Abfrage gibt eine formatierte Tabelle oder eine herunterladbare CSV-Datei z
 
 ## Was Data Insights Agent nicht unterstützt
 
-Die folgenden Datentypen fallen nicht unter diese Version:
+Die folgenden Datentypen sind derzeit außerhalb des Gültigkeitsbereichs des Insights Agent:
 
 - Feedback- und Umfragedaten
 - Gamification-Punkte und -Abzeichen
@@ -61,6 +59,7 @@ Der Insights Agent steht Administratoren im Bereich &quot;AI Assistant&quot; im 
 Wenn standardmäßig der Modus **Erkenntnisse abrufen** ausgewählt ist, können Sie sofort mit der Abfrage von Lerndaten beginnen, ohne den Modus jedes Mal anpassen zu müssen, wenn Sie auf den Assistenten zugreifen. Wenn Sie jedoch jemals zum Modus **Lernen** für Anleitungsfragen wechseln, müssen Sie **Erkenntnisse abrufen** erneut auswählen, bevor Sie eine Abfrage senden.
 
 1. Wählen Sie das AI-Assistentensymbol im Learning Manager aus, um das Assistentenfenster zu öffnen. Die Option **Erkenntnisse abrufen** ist standardmäßig bereits ausgewählt.
+
    ![](assets/ask-question.png)
 
 2. Geben Sie Ihre Frage in das Textfeld ein. Verwende reine Sprache. Beispiel: **Wie viele Kurse wurden in den letzten drei Monaten erstellt?**
@@ -71,13 +70,16 @@ Wenn standardmäßig der Modus **Erkenntnisse abrufen** ausgewählt ist, können
 
 Nachdem Sie Ihre Frage eingereicht haben, verarbeitet Insights Agent Ihre Anfrage und gibt eine Antwort mit bis zu vier Teilen zurück:
 
-1. **Verzicht (falls erforderlich):** Wenn Ihre Frage einen mehrdeutigen Begriff enthält, wie z. B. &quot;Lernaktivität&quot; oder &quot;Leistung&quot; oder &quot;Geben Sie mir Leistungsdaten aus den letzten 3 Monaten&quot;, zeigt der Assistent eine Liste von Optionen an und fordert Sie auf, eine Option auszuwählen, bevor der Vorgang fortgesetzt wird. Wählen Sie die Option, die am besten zu dem passt, was Sie suchen. Nach der ersten Frage können Sie keine weiteren Anweisungen mehr eingeben. Die Auswahl aus den angegebenen Optionen ist die einzige verfügbare Interaktion, bis Sie eine neue Abfrage über die Abfrageoberfläche starten. Sie können auf eine Zweideutigkeit nur reagieren, indem Sie aus den bereitgestellten Optionen auswählen. Freitext-Follow-up ist in dieser Version nicht verfügbar.
+1. **Verzicht (falls erforderlich):** Wenn Ihre Frage einen mehrdeutigen Begriff enthält, wie z. B. &quot;Lernaktivität&quot; oder &quot;Leistung&quot; oder &quot;Geben Sie mir Leistungsdaten aus den letzten drei Monaten&quot;, zeigt der Assistent eine Liste von Optionen an und fordert Sie auf, eine Option auszuwählen, bevor der Vorgang fortgesetzt wird. Wählen Sie die Option, die am besten zu dem passt, was Sie suchen. Nach der ersten Frage können Sie keine weiteren Anweisungen mehr eingeben. Die Auswahl aus den angegebenen Optionen ist die einzige verfügbare Interaktion, bis Sie eine neue Abfrage über die Abfrageoberfläche starten. Sie können auf eine Zweideutigkeit nur reagieren, indem Sie aus den bereitgestellten Optionen auswählen. Freitext-Follow-up ist in dieser Version nicht verfügbar.
+
    ![](assets/disambiguation.png)
 
 2. **Ansatz:** Im Abschnitt **Ansatz** werden die Schritte beschrieben, die der Agent zum Abrufen Ihrer Daten ausgeführt hat. Es wird als bildlauffähiges Bedienfeld unter der Frage angezeigt. Klicken Sie auf das Erweiterungssymbol, um den vollständigen Ansatz anzuzeigen. Wenn Sie diesen Abschnitt lesen, können Sie leichter überprüfen, ob die Logik mit Ihrer Absicht übereinstimmt, insbesondere bei komplexen Abfragen. Wenn Sie beispielsweise &quot;alle Teilnehmer im letzten Jahr registriert&quot; fragen, gibt der Agent möglicherweise die letzte Registrierung jedes Teilnehmers zurück und nicht jeden Registrierungsdatensatz. Im Abschnitt **Ansatz** werden die Entscheidungen erläutert, die der Agent beim Abrufen Ihrer Daten getroffen hat. Wenn die Logik nicht Ihrer Absicht entspricht, starten Sie eine neue Abfrage mit spezifischeren Begriffen.
+
    ![](assets/approach.png)
 
-3. **Ergebnisse:** Der Insights Agent generiert Ergebnisse als Text oder als Tabelle. Bei Datenpunkten, die am besten in Tabellenformat interpretiert werden, gibt der Insights Agent eine Tabelle zurück. Der Insights Agent generiert keine Diagramme oder Graphen. Um die Daten zu visualisieren, laden Sie die CSV-Datei herunter und öffnen Sie sie in Ihrem bevorzugten Tool. Die Ergebnisse enthalten eine Zusammenfassung in verständlicher Sprache. Wenn Ergebnisse 50 Zeilen oder weniger enthalten, enthält die Zusammenfassung analytische Erkenntnisse über die Daten. Wenn Ergebnisse mehr als 50 Zeilen enthalten, stellt die Zusammenfassung Statistiken auf Spaltenebene bereit. Beispiel: &quot;Für welche Kurse sind nicht weniger als 5 Registrierungen möglich, die im letzten 1 Jahr erstellt wurden, und wer sind die Autoren?&quot;
+3. **Ergebnisse:** Der Insights Agent generiert Ergebnisse als Text oder als Tabelle. Bei Datenpunkten, die am besten in Tabellenformat interpretiert werden, gibt der Insights Agent eine Tabelle zurück. Der Insights Agent generiert keine Diagramme oder Grafen. Um die Daten zu visualisieren, laden Sie die CSV-Datei herunter und öffnen Sie sie in Ihrem bevorzugten Tool. Die Ergebnisse enthalten eine Zusammenfassung in verständlicher Sprache. Wenn Ergebnisse 50 Zeilen oder weniger enthalten, enthält die Zusammenfassung analytische Erkenntnisse über die Daten. Wenn Ergebnisse mehr als 50 Zeilen enthalten, stellt die Zusammenfassung Statistiken auf Spaltenebene bereit. Beispiel: &quot;Für welche Kurse sind nicht weniger als 5 Registrierungen möglich, die im letzten 1 Jahr erstellt wurden, und wer sind die Autoren?&quot;
+
    ![](assets/results.png)
 
 Die Antwort enthält die folgende Zusammenfassung:
@@ -95,11 +97,9 @@ Die Antwort enthält die folgende Zusammenfassung:
 >
 >Das Format der Zusammenfassung variiert je nach Art der Daten. Im Folgenden finden Sie ein Beispiel für eine zusammenfassende Antwort. Die tatsächliche Zusammenfassung hängt von der Abfrage ab.
 
-
 >[!NOTE]
 >
 >Insights Agent ist wahrscheinlich. Wenn Sie dieselbe Abfrage zweimal ausführen, kann sich die Antwortsätze oder die Reihenfolge der Ergebnisse geringfügig unterscheiden.
-
 
 ### Bericht herunterladen
 
@@ -108,7 +108,8 @@ Wählen Sie **Bericht herunterladen**, um Ihre Ergebnisse als CSV-Datei zu expor
 ## Neue Abfrage starten
 
 Jede Sitzung des Insights Agent behandelt jeweils eine Frage. Nachdem Sie Ihre Ergebnisse überprüft haben, wählen Sie **Neue Frage** aus, um eine andere Frage zu stellen. Sie können **Neuer Chat** jederzeit auswählen, auch bevor Sie eine Antwort erhalten haben, wenn Sie die aktuelle Abfrage beenden und neu starten möchten. Sie können keine Anschlussfrage in derselben Sitzung eingeben oder den Agenten bitten, die zurückgegebenen Ergebnisse zu verfeinern oder zu erweitern.
-![](assets/new-question.png)
+
+![](/help/migrated/administrators/feature-summary/assets/new-question.png)
 
 >[!TIP]
 >
@@ -117,7 +118,8 @@ Jede Sitzung des Insights Agent behandelt jeweils eine Frage. Nachdem Sie Ihre E
 ## Feedback geben
 
 Wählen Sie nach jeder Antwort das Symbol für die Daumen hoch oder Daumen runter , um das Ergebnis zu bewerten. Sie können auch angeben, ob die Ausgabe ungenau war, schwer zu verstehen war oder zu lange gedauert hat, um zurückzukehren. Dieses Feedback trägt dazu bei, den Agenten im Laufe der Zeit zu verbessern.
-![](assets/feedback.png)
+
+![](/help/migrated/administrators/feature-summary/assets/feedback.png)
 
 ## Best Practices
 
@@ -125,9 +127,11 @@ Wählen Sie nach jeder Antwort das Symbol für die Daumen hoch oder Daumen runte
 - Verwenden Sie beim Benennen von Inhalten und Teilnehmergruppen exakte Adobe Learning Manager-Begriffe. In der Anleitung zum Schreiben von Abfragen sind die richtigen Begriffe aufgeführt.
 - Wenn der Agent eine klärende Frage stellt, behandeln Sie sie als Signal, um Ihre ursprüngliche Frage beim nächsten Mal zu verfeinern. Je konkreter Ihre Frage ist, desto weniger Klarstellungen sind erforderlich.
 - Überprüfen Sie den Abschnitt **Ansatz**, bevor Sie auf Ergebnisse reagieren, um zu bestätigen, dass die Logik des Agents mit Ihrer Absicht übereinstimmt.
-- **Geben Sie an, ob Teilnehmer auf der Warteliste ein- oder ausgeschlossen werden sollen**. Standardmäßig umfasst die Abfrage der Registrierungsanzahl Teilnehmer, die neben aktiven, bestätigten Registrierungen auf einer Warteliste stehen. Wenn Sie nur aktive Teilnehmer benötigen, schließen Sie Teilnehmer auf Warteliste in Ihrer Abfrage explizit aus. Beispiel: &quot;Wie viele Teilnehmer sind direkt für den Kurs &quot;Sicherheitsschulung&quot; registriert, ausgenommen Teilnehmer auf der Warteliste?&quot; Der Agent wird im Abschnitt Ansatz angeben, dass der Ausschluss angewendet wurde. Ohne diese Anleitung kann die Gesamtzahl der Registrierungen einen erheblichen Teil der Teilnehmer auf der Warteliste enthalten, die den Inhalt noch nicht gestartet haben.
+- **Geben Sie an, ob Teilnehmer auf Warteliste aufgenommen werden sollen.** Standardmäßig werden bei Abfragen der Registrierungsanzahl nur Teilnehmer mit einer aktiven, bestätigten Registrierung zurückgegeben. Teilnehmer auf der Warteliste sind ausgeschlossen, entsprechend der Liste der registrierten Teilnehmer, die auf der Seite &quot;Kurs&quot; oder &quot;Lernpfad&quot; verfügbar ist. Wenn die Teilnehmer auf der Warteliste in die Anzahl aufgenommen werden sollen, sagen Sie dies explizit in Ihrer Abfrage. Beispiel: &quot;Wie viele Teilnehmer sind direkt für den Kurs &quot;Sicherheitsschulung&quot; registriert, einschließlich Teilnehmer auf der Warteliste?&quot; Im Abschnitt Ansatz wird angegeben, ob auf die Warteliste gesetzte Teilnehmer in die Ergebnisse aufgenommen wurden.
+<!--
+- **Specify whether to include or exclude waitlisted learners**. By default, enrollment count queries include learners who are on a waitlist alongside active, confirmed enrollments. If you need only active participants, explicitly exclude waitlisted learners in your query. For example: "How many learners are directly enrolled in the Safety Training course, excluding waitlisted learners?" The agent will disclose in the Approach section that the exclusion was applied. Without this instruction, enrollment totals may include a significant proportion of waitlisted learners who have not yet started the content.
+-->
 - **Anzahl der direkten und indirekten Registrierungen**: Wenn Sie Registrierungs- oder Abschlussdaten für einen Kurs oder Lernpfad abfragen, unterscheidet der Insights Agent zwischen direkten Registrierungen (Teilnehmer, die speziell für diesen Kurs oder Lernpfad registriert sind) und indirekten Registrierungen (Teilnehmer, die denselben Inhalt als Teil eines Lernpfads oder einer Zertifizierung aufgerufen haben). Wenn Sie explizit nach direkten oder indirekten Registrierungen fragen, gibt der Agent für jeden Typ die richtige Anzahl zurück. Wenn in der Abfrage keine direkte oder indirekte Zahl angegeben wird, gibt der Agent möglicherweise eine kombinierte Zahl zurück. Um getrennte Zählungen zu erhalten, fügen Sie die Unterscheidung explizit in Ihre Abfrage ein. Beispiel: &quot;Wie viele Teilnehmer sind direkt oder indirekt beim Kurs &quot;Sicherheitsschulung&quot; angemeldet?&quot;
-
 
 ## Unterschiede zwischen Insights Agent und Report Builder
 
@@ -176,6 +180,36 @@ Der Insights Agent stimmt Ihre Anfrage mit dem Datenmodell von Adobe Learning Ma
 | **Katalogbeschriftung** | Kategorie/Tag-Gruppe |
 
 Bei Insights Agent wird nicht zwischen Groß- und Kleinschreibung unterschieden, aber die exakte Terminologieabstimmung verbessert die Genauigkeit.
+
+### Fragen Sie mithilfe der benutzerdefinierten Terminologie Ihres Unternehmens nach.
+
+Wenn Ihr Administrator Standardbegriffe mithilfe der Produktterminologie in **Einstellungen > Allgemein** umbenannt hat, erkennt der Insights Agent die benutzerdefinierten Begriffe Ihres Unternehmens anstelle der oben aufgeführten Standardbegriffe. Wenn Ihre Organisation beispielsweise **Kurs** in **Kapitel** umbenannt hat, können Sie fragen: &quot;Wie viele Kapitel wurden im letzten Monat abgeschlossen?&quot; und Insights Agent versteht die Frage und kennzeichnet die Ergebnisse mit **Kapiteln** in den Antwort- und Spaltenüberschriften.
+
+Benutzerdefinierte Terminologie wird überall im Insights Agent-Chatfenster verwendet, einschließlich der Interpretation Ihrer Anfrage, der Erläuterung des Ansatzes, der Zusammenfassung der Ergebnisse sowie der Tabellen- oder Spaltenüberschriften, die im Chat angezeigt werden. **Die heruntergeladene CSV-Datei enthält keine benutzerdefinierte Terminologie.** Die Spaltenüberschriften und der Inhalt in der exportierten Datei verwenden die Adobe Learning Manager-Standardbegriffe, unabhängig davon, wie Ihr Unternehmen sie angepasst hat.
+
+- Der Insights Agent erkennt sowohl die Singular- als auch die Pluralform eines benutzerdefinierten Begriffs, wie er in der CSV-Datei für die Produktterminologie konfiguriert ist.
+- Sie können den Adobe Learning Manager-Standardbegriff in Ihrer Abfrage weiterhin verwenden, selbst wenn Ihr Unternehmen ihn angepasst hat. Der Insights Agent erkennt den Standardbegriff und antwortet mit dem benutzerdefinierten Begriff Ihres Unternehmens. Wenn Ihre Organisation beispielsweise **Kurs** in **Kapitel** umbenannt hat, können Sie trotzdem fragen: &quot;Wie viele Kapitel wurden im letzten Monat abgeschlossen?&quot; mit dem Originalbegriff ein. Der Insights Agent versteht die Frage und antwortet mit dem benutzerdefinierten Begriff **Kapitel** Ihres Unternehmens in der Antwort.
+- Wenn Ihre Anfrage einen falsch geschriebenen oder nicht erkannten Begriff enthält, stellt der Insights Agent eine klärende Frage und schlägt Ihnen den bzw. die Begriffe vor, die Ihrem Konto am nächsten kommen.
+- Wenn Ihr Administrator die benutzerdefinierte Terminologie zurücksetzt, erkennt Insights Agent die zuvor benutzerdefinierten Begriffe nicht mehr und kehrt zu den Standardbegriffen zurück.
+
+>[!NOTE]
+>
+>Die Unterstützung benutzerdefinierter Terminologie erstreckt sich nicht auf Module und Registerkarten, die der Insights Agent derzeit nicht abfragt, wie Soziales Lernen, Arbeitshilfen, Diskussionsforum, Gamification und Ankündigungen.
+
+<!--
+### Query using your organization's custom terminology
+
+If your administrator has renamed standard terms using **Product Terminology** in **Settings** > **General**, Insights Agent recognizes your organization's custom terms in place of the defaults listed above. For example, if your organization renamed **Module** to **Training**, you can ask "How many Trainings were completed last month?" and Insights Agent understands the question and labels the results using **Training** in the response and column headers.
+
+- Insights Agent recognizes both the singular and plural forms of a custom term, as configured in the Product Terminology CSV file.
+- You can still use the default Adobe Learning Manager term in your query even after your organization customizes it. Insights Agent recognizes the default term and responds using your organization's custom term.
+- If your query includes a misspelled or unrecognized term, Insights Agent asks a clarifying question and suggests the closest matching term available in your account.
+- If your administrator resets the custom terminology, Insights Agent no longer recognizes the previously customized terms and reverts to the default terms.
+
+>[!NOTE]
+>
+>Custom terminology support does not extend to modules and tabs that Insights Agent does not currently query, such as Social Learning, Job Aids, Discussion Forum, Gamification, and Announcements.
+-->
 
 ### Inhalte verankern.
 
@@ -237,7 +271,7 @@ Nutze sie als Ausgangspunkt. Passen Sie sie an, indem Sie die für Ihr Konto gü
 
 **Programm- und Kursfortschritt**
 
-- &quot;Wie sieht die Aufschlüsselung des Abschlussstatus für den Lernpfad &quot;Leadership Development&quot; aus: Zählung der abgeschlossenen, laufenden und nicht begonnenen Lektionen.&quot;
+- &quot;Wie sieht die Aufschlüsselung des Abschlussstatus für den Lernpfad Leadership Development aus? Zähler für abgeschlossene, laufende und nicht gestartete Dateien anzeigen.&quot;
 - &quot;Wie viele Teilnehmer haben im letzten Monat den Kurs zum Datenschutz abgeschlossen?&quot;
 
 **Organisationsansichten**
@@ -260,4 +294,4 @@ Nutze sie als Ausgangspunkt. Passen Sie sie an, indem Sie die für Ihr Konto gü
 
 **In nicht-lateinischen Skripten eingereichte Abfragen werden nicht unterstützt**
 
-Der Insights Agent unterstützt Anfragen in englischer und lateinischer Sprache, z. B. Französisch und Spanisch. Abfragen, die mit nicht-lateinischen Skripten eingereicht wurden, einschließlich Japanisch, Chinesisch, Arabisch, Koreanisch, Hindi und Russisch, können nicht verarbeitet werden. Der Agent zeigt eine Meldung an, dass die Abfrage nicht abgeschlossen werden konnte. Wenn Sie eine Abfrage in einer dieser Sprachen senden, starten Sie eine neue Abfrage und setzen sie in Englisch um.
+Der Insights Agent unterstützt Anfragen in englischer und lateinischer Sprache, z. B. Französisch und Spanisch. Abfragen, die mit nicht-lateinischen Schriften (z. B. Japanisch, Chinesisch, Arabisch, Koreanisch, Hindi und Russisch) eingereicht werden, werden nicht verarbeitet. Der Agent zeigt eine Meldung an, dass die Abfrage nicht abgeschlossen werden konnte. Wenn Sie eine Abfrage in einer dieser Sprachen senden, starten Sie eine neue Abfrage und setzen sie in Englisch um.

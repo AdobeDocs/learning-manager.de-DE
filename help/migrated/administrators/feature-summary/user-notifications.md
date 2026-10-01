@@ -1,23 +1,21 @@
 ---
 jcr-language: en_us
 title: Benachrichtigungen
-description: Die Benachrichtigungsfunktion gilt für alle Benutzer von Adobe Learning Manager. Jeder Benutzer erhält jedoch basierend auf seiner Rolle in verschiedenen Szenarien unterschiedliche Arten von Benachrichtigungen.
+description: Die Benachrichtigungsfunktion gilt für alle Benutzer von Adobe Learning Manager. Jeder Benutzer erhält jedoch basierend auf seiner Rolle in verschiedenen Szenarien unterschiedliche Benachrichtigungen.
 contentowner: manochan
 exl-id: 27eb3830-ff4f-44e6-9f63-096d9444378e
 source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
 workflow-type: tm+mt
-source-wordcount: '733'
-ht-degree: 66%
-
+source-wordcount: '740'
+ht-degree: 78%
 ---
-
 # Benachrichtigungen
 
 Die Benachrichtigungsfunktion gilt für alle Benutzer von Adobe Learning Manager. Jeder Benutzer erhält jedoch basierend auf seiner Rolle in verschiedenen Szenarien unterschiedliche Benachrichtigungen. Alle Warnungen und Benachrichtigungen an Benutzer werden über das Popup-Dialogfeld für Benachrichtigungen angezeigt.
 
 ## Zugriff auf Benachrichtigungen {#accessnotifications}
 
-Die Benutzer können Benachrichtigungen anzeigen, indem sie in der rechten oberen Ecke des Fensters auf das Benachrichtigungssymbol klicken. Dieses Popup-Dialogfeld zeigt Hervorhebungen aller Benachrichtigungen zusammen mit dem Zeitpunkt des Auftretens mit einer Bildlaufleiste an. Um weitere Informationen über alle Benachrichtigungen anzuzeigen, klicken Sie am unteren Rand des Popupfensters auf „Alle Benachrichtigungen einblenden“. Die Benachrichtigungsseite wird angezeigt.
+Die Benutzer können Benachrichtigungen anzeigen, indem sie in der rechten oberen Ecke des Fensters auf das Benachrichtigungssymbol klicken. In diesem Popupfenster werden die wichtigsten Benachrichtigungen zusammen mit dem Eingangszeitpunkt und einer Bildlaufleiste angezeigt. Um weitere Informationen über alle Benachrichtigungen anzuzeigen, klicken Sie am unteren Rand des Popupfensters auf „Alle Benachrichtigungen einblenden“. Die Benachrichtigungsseite wird angezeigt.
 
 Die markierte Zahl über dem Benachrichtigungssymbol gibt die Anzahl der neuesten Benachrichtigungen an. Wenn beispielsweise seit Ihrer letzten Anmeldung fünf Benachrichtigungen neu eingegangen sind, wird über dem Benachrichtigungssymbol die Zahl 5 angezeigt. Wenn Sie die neuesten Benachrichtigungen gelesen haben, wird diese Zahl ausgeblendet.
 
@@ -39,12 +37,12 @@ Die folgende Abbildung zeigt das Beispiel eines Benachrichtigungsfensters für d
 
 *Administratorbenachrichtigungen anzeigen*
 
-In diesem Popupfenster werden Markierungen aller Benachrichtigungen zusammen mit dem Zeitpunkt des Auftretens und einer Bildlaufleiste angezeigt. Die Anzahl der neuen Benachrichtigungen wird durch die markierte Zahl oben am Benachrichtigungssymbol angezeigt. Wenn beispielsweise seit Ihrer letzten Anmeldung fünf Benachrichtigungen neu eingegangen sind, wird über dem Benachrichtigungssymbol die Zahl 5 angezeigt. Wenn Sie die neuesten Benachrichtigungen gelesen haben, wird diese Zahl ausgeblendet.
+In diesem Popupfenster werden Markierungen für Benachrichtigungen zusammen mit deren Eingangszeitpunkt und einer Bildlaufleiste angezeigt. Die Anzahl der neuen Benachrichtigungen wird durch die markierte Zahl oben am Benachrichtigungssymbol angezeigt. Wenn beispielsweise seit Ihrer letzten Anmeldung fünf Benachrichtigungen neu eingegangen sind, wird über dem Benachrichtigungssymbol die Zahl 5 angezeigt. Wenn Sie die neuesten Benachrichtigungen gelesen haben, wird diese Zahl ausgeblendet.
 
-Klicken Sie auf den Link **[!UICONTROL Alle Benachrichtigungen anzeigen]** am unteren Rand des Benachrichtigungs-Popup-Fensters, um alle Benachrichtigungen auf einer separaten Seite anzuzeigen. Auf der Benachrichtigungsseite sehen Sie Folgendes:
+Klicken Sie am unteren Rand des Benachrichtigungs-Popupfensters auf den Link **[!UICONTROL Alle Benachrichtigungen anzeigen]**, um alle Benachrichtigungen auf einer separaten Seite anzuzeigen. Auf der Benachrichtigungsseite sehen Sie Folgendes:
 
-* **Alle Benachrichtigungen**: Hier können Sie alle Benachrichtigungen anzeigen
-* **Ausstehend**: Ausstehende Benachrichtigungen hier anzeigen
+* **Alle Benachrichtigungen**: Alle Benachrichtigungen hier anzeigen
+* **Ausstehend**: Hier ausstehende Benachrichtigungen anzeigen
 * **Diskussion**: Suchen Sie nach Kursen, um die Diskussionen anzuzeigen.
 
 ## Richten Sie mehrstufige Eskalationsbenachrichtigungen ein {#setupmultilevelescalationnotifications}
@@ -92,5 +90,5 @@ Eskalations-E-Mails, wenn die Teilnehmer Fristen nicht einhalten, können an den
 
 +++Wie richte ich Erinnerungsbenachrichtigungen für die Instanz ein?
 
-Klicken Sie in einer Instanz auf Benachrichtigungswarnungen. Ein Kalender wird angezeigt, der die festgelegte Frist für den rot hervorgehobenen Kurs angibt. Klicken Sie auf das hervorgehobene Datum, um anzuzeigen, dass die Erinnerungen für den Teilnehmer eingestellt sind. Legen Sie die Erinnerungen wie in diesem [Abschnitt](user-notifications.md#Setupmultilevelescalationnotifications) fest.
+Klicken Sie in einer Instanz auf &quot;Benachrichtigungswarnungen&quot;. Ein Kalender wird angezeigt, der die festgelegte Frist für den rot hervorgehobenen Kurs angibt. Klicken Sie auf das hervorgehobene Datum, um anzuzeigen, dass die Erinnerungen für den Teilnehmer eingestellt sind. Legen Sie die Erinnerungen wie in diesem [Abschnitt](user-notifications.md#Setupmultilevelescalationnotifications) fest.
 +++

@@ -6,11 +6,9 @@ contentowner: kuppan
 exl-id: 5fb10b4a-b927-4466-9e0a-e33d5938416c
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 76%
-
+source-wordcount: '648'
+ht-degree: 81%
 ---
-
 # Teilen auf Soziales Lernen
 
 Erfahren Sie, wie Sie das Bookmarklet für „Sozial“ verwenden, um die Online-Lernergebnisse eines Benutzers sofort im Sozialen Web zu veröffentlichen.
@@ -82,7 +80,7 @@ Um der Lesezeichenleiste manuell Lesezeichen hinzuzufügen, klicken Sie mit der 
 ## Microsoft Edge in Windows {#microsoftedgeinwindows}
 
 1. Stellen Sie sicher, dass Ihre Favoritenleiste sichtbar ist. Klicken Sie mit der rechten Maustaste auf die Favoritenleiste > **Neuen Ordner erstellen**.
-1. Um die URL Ihrem gewünschten Ordner in der Favoritenleiste hinzuzufügen, klicken Sie auf das Symbol **Lesezeichen-Hub** > **Lesezeichen-Symbol**.
+1. Um die URL zu Ihrem Ordner „Favoritenleiste“ hinzuzufügen, klicken Sie auf das Symbol > **Lesezeichen-Hub** > **Lesezeichen-Symbol**
 1. Speichern Sie eine beliebige Online-Seite im Ordner und benennen Sie sie in „Teilen auf Sozial“ um.
 1. Wählen Sie das Symbol für den Lesezeichen-Hub > In Social Media freigeben > URL bearbeiten.
 1. Fügen Sie die Link-Adresse ein und klicken Sie auf „Enter“.

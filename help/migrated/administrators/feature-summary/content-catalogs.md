@@ -7,20 +7,18 @@ exl-id: 495f8b76-4496-422e-8b8d-9d3227a8a846
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '246'
-ht-degree: 32%
-
+ht-degree: 73%
 ---
-
 # Learning Manager-Inhaltskatalog
 
 <!--Learning Manager introduces Content Catalog-->
 
 Der Inhaltskatalog wird in einer Azure-Instanz von Learning Manager nicht unterstützt.
 
-* **Kurs** bedeutet eine einzelne Konsolidierung von Arbeits- und eLearning-Modulen zu einem bestimmten Thema, die erstellt und dem Kunden mit Adobe Learning Manager bereitgestellt wird.
-* **Inhaltsanbieter** ist der proprietäre Eigentümer von Kursen, der das Adobe autorisiert hat, solche Kurse in Adobe Learning Manager anzubieten und Unterlizenzen dafür zu vergeben.
+* **Kurs** ist eine einzelne Konsolidierung von Arbeits- und eLearning-Modulen zu einem bestimmten Thema, die mit Adobe Learning Manager erstellt und dem Kunden bereitgestellt wird.
+* **Inhaltsanbieter** ist der proprietäre Eigentümer von Kursen, der Adobe autorisiert hat, solche Kurse in Adobe Learning Manager anzubieten und Unterlizenzen dafür zu vergeben.
 
-Learning Manager führt den Inhaltskatalog ein, eine Reihe gebrauchsfertiger Inhaltsdatenbanken, die Sie erwerben können. In unserem Marktplatz für kuratierte Inhalte können Sie Standardkurse wie Business Skills, Compliance am Arbeitsplatz, Adobe Creative Cloud und Technologie erwerben.
+Learning Manager führt den Inhaltskatalog ein, eine Reihe gebrauchsfertiger Inhaltsdatenbanken, die Sie erwerben können. In unserem Marktplatz für kuratierte Inhalte können Sie Standardkurse etwa zu Geschäftskompetenzen, Compliance am Arbeitsplatz, Adobe Creative Cloud und Technologie kaufen.
 
 Klicken Sie im linken Bereich auf Content Marketplace und dann auf **[!UICONTROL Creative Cloud Training]**.
 
@@ -37,7 +35,7 @@ Um die Details des Kurses anzuzeigen, klicken Sie auf **[!UICONTROL Besuchen]**.
 
 <!--![](assets/course-details.png)-->
 
-Ihr E-Mail-Client wird standardmäßig in beiden Fällen geöffnet. Wenn Sie bestimmte Kurse über die Kontrollkästchen ausgewählt haben, werden deren URLs automatisch dem E-Mail-Text hinzugefügt.
+Ihr E-Mail-Client wird standardmäßig in beiden Fällen geöffnet. Wenn Sie bestimmte Kurse über die Kontrollkästchen ausgewählt haben, werden ihre URLs automatisch zum E-Mail-Text hinzugefügt.
 
 Wenn Ihr E-Mail-Client standardmäßig nicht geöffnet wird, können Sie Ihr Interesse per E-Mail an `learningmanagercontentcontentadmin@adobe.com` senden.
 

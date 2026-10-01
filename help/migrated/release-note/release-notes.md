@@ -4,13 +4,11 @@ jcr-language: en_us
 title: Versionshinweise zu Adobe Learning Manager
 contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: bad5de6025494320a863e58d1b0bd95ae6e10038
+source-git-commit: 090ee5ad1b93ece718c0217f5e4427a46b805f88
 workflow-type: tm+mt
-source-wordcount: '34464'
-ht-degree: 65%
-
+source-wordcount: '35308'
+ht-degree: 63%
 ---
-
 # Versionshinweise zu Adobe Learning Manager
 
 <!--
@@ -25,6 +23,123 @@ ht-degree: 65%
 </table>
 
 -->
+
++++Update 12: Adobe Learning Manager Version vom 30. September 2026
+
+## Funktionen in dieser Version
+
+**Virtueller Coach:** Der virtuelle Coach ist eine KI-gestützte Coaching-Lösung in Adobe Learning Manager, die die Teilnehmer dabei unterstützt, Fertigkeiten durch realistische Rollenspielszenarien, personalisiertes Feedback und On-Demand-Übungen zu entwickeln, bevor sie diese Fertigkeiten in realen Situationen anwenden. [Weitere Informationen](/help/migrated/authors/feature-summary/virtual-coach/what-virtual-coach-is.md).
+
+**Sitzfreigabe:** Die Sitzfreigabe ermöglicht es einem Konto, einen Teil seiner lizenzierten Lizenzen für ein anderes Konto freizugeben, sodass Teilnehmer im Empfängerkonto über die freigegebenen Lizenzen auf Adobe Learning Manager zugreifen können. Die Freigabe von Lizenzen ist nur für Ultimate -Konten verfügbar. Prime-Konten können weder Lizenzen teilen noch erhalten, und Konten mit Kreditkartenabrechnung sind standardmäßig im Prime-Abo enthalten. Testkonten sind eine Ausnahme und können gemeinsam genutzte Lizenzen von einem Ultimate -Konto erhalten. Während einer aktiven Beziehung zur gemeinsamen Nutzung von Lizenzen erhält das Testkonto Zugriff auf die Funktionen auf Ultimate-Ebene. [Weitere Informationen](/help/migrated/administrators/feature-summary/tiering-seat-sharing.md).
+
+**Administrator-Audit-Bericht:** Der Administrator-Audit-Bericht enthält einen historischen Datensatz mit Konfigurationsänderungen, anhand dessen Sie Folgendes ermitteln können:
+
+* Wer hat die Änderung vorgenommen?
+* Wann wurde die Änderung vorgenommen?
+* Wie war die Einstellung vor der Änderung?
+* Die Einstellung nach der Änderung
+
+Der Bericht behandelt Änderungen an:
+
+* Grundlagen
+* Erweitert
+* Integrationen
+
+Um die vollständige Liste der Einstellungen und deren Details unter jeder Kategorie anzuzeigen, können Sie den Link **Liste der Einstellungen herunterladen** aus dem Popup &quot;Administratorprüfpfad&quot; auswählen, das angezeigt wird, bevor Sie den Bericht generieren.
+
+Unter den folgenden Kategorien sind die Optionen verfügbar:
+
+Grundlagen
+
+* Basic Info
+* Kursmoderation
+* Diskussions-Dashboard
+* Mehrere Versuche
+* Sichtbarkeit von Kenntnissen, Tags, Produkten und Rollen
+* Eindeutige Lernobjekt-IDs → Aktivieren
+* Filterbereiche anzeigen
+* Standardansicht (Teilnehmerrolle) → Listenansicht
+* Kursleiterverwaltung
+* Modulvorschau
+* Preisgestaltung für Kurse/Lernpfade/Zertifizierungen aktivieren
+* Warenkorb für SKU mit mehreren Artikeln aktivieren
+* Playereinstellungen
+* Manager können den Abschluss markieren
+* Benutzer automatisch registrieren
+* Interne Benutzer automatisch löschen (wenn sie seit (konfigurierbare Anzahl) Tagen nicht auf das System zugreifen)
+* Katalogbeschriftungen anzeigen
+* Benutzerdefinierter Kompatibilitätstyp
+* Teilnehmer können ihre Punktzahl anzeigen
+* Auswahl-E-Mail
+* Symbole &quot;Kurs/Lernpfad/Zertifizierung/Arbeitshilfe-Karte aktivieren&quot;
+* Links für Fußzeile
+* Berichtszeitzone
+* Badgr-Integration
+* Bewertungen anzeigen
+* Popupmenü &quot;Sternebewertung&quot; im Player anzeigen
+* Produktterminologie
+* Modulversions-Update
+* Einstellen (Kurs, Lernpfad oder Zertifizierung)
+* Automatische Einstellung (Kurs, Lernpfad oder Zertifizierung)
+* Alle für den Kurs registrierten Kurse in Suchergebnissen anzeigen
+* Import von Kenntnissen
+* Schulungsbuch (Teilnehmersichtbarkeit)
+* Gelöschte Benutzer automatisch entfernen
+* Punktzahl
+* Alternative Kurse/Pfade
+* Externes Lernprogramm
+
+Integrationen
+
+* Anmeldungsmethoden (intern und extern)
+* Konfiguration von Single Sign-on (SSO)
+* Datenquellen - (Quellen + Synchronisationseinstellungen)
+* Partnerinformationen hinzufügen
+
+Erweitert
+
+* Katalogbezeichnungen → alle Katalogbezeichnungen
+* Katalogbeschriftungen → Einstellungen (Wertzugriff)
+* Inhaltsordner
+* Speicherorte für Klassenzimmer → Liste und Editor
+* Speicherorte in Klassenzimmern → Autorenberechtigungen (Einstellungen)
+* Speicherorte für Klassenzimmer → Massenimport
+* Speicherorte → Klassenzimmern Speicherortformatmigration
+* Ferienkalender
+* Berichte - Einstellungen (Kompatibilitäts- und Gruppen-Dashboards)
+
+Dieser Bericht kann auch von der Job-API generiert werden. Siehe [Administrator Audit Trail Report](/help/migrated/administrators/feature-summary/reports.md#adminaudittrailreport) und [Job API für Administrator Audit Trail Report](/help/migrated/api-changes-sep-2026.md#apiaudittrailreport)
+
+## Verbesserungen in dieser Version
+
+### Agent für Einblicke
+
+Der Insights Agent wurde um zwei Verbesserungen erweitert. Sie sind:
+
+* **Produktterminologie-Unterstützung:** Wenn Ihr Administrator Standardbegriffe mithilfe der Produktterminologie unter &quot;Einstellungen&quot; > &quot;Allgemein&quot; angepasst hat, erkennt und verwendet der Insights Agent diese Begriffe anstelle der Standardterminologie. Wenn Ihr Unternehmen beispielsweise Kurs in Kapitel umbenannt hat, können Sie fragen: &quot;Wie viele Kapitel wurden im letzten Monat abgeschlossen?&quot; Insights Agent interpretiert den benutzerdefinierten Begriff und verwendet &quot;chapter&quot; in den Antwort- und Spaltenüberschriften.
+
+* **Kursregistrierung, standardmäßig ohne Warteliste:** Bei direkten und indirekten Registrierungsanfragen ohne Filter umfasst die direkt registrierte Anzahl Teilnehmer mit dem Status &quot;Wartet&quot;, obwohl sie auf der Warteliste stehen und nicht aktiv teilnehmen. Standardmäßig zeigt das Bedienfeld &quot;Ansatz&quot; nicht an, dass Teilnehmer auf der Warteliste in die Anzahl aufgenommen werden. Teilnehmer auf der Warteliste werden nur ausgeschlossen, wenn der Administrator den Ausschluss explizit anfordert. In diesem Fall wird die angewendete Regel offen gelegt.
+
+[Weitere Informationen](/help/migrated/administrators/feature-summary/insights-agent.md).
+
+## API
+
+* **API für den Katalogzugriff für Lernobjekte:** Mit der Katalogzugriff-API für Lernobjekte können Sie bestimmen, ob ein oder mehrere Lernobjekte einem Teilnehmer direkt über einen zugewiesenen Katalog zugänglich sind. Verwenden Sie die Antwort, um UI-Elemente zu steuern, die sich auf die Registrierung beziehen. Zeigen Sie z. B. die Option &quot;Registrieren&quot; nur an, wenn der direkte Katalogzugriff bestätigt wurde, während Sie Teilnehmern die Anzeige der Kursseite unabhängig vom Katalogzugriff erlauben.
+Weitere Informationen
+
+* **Job-API für Administratorprüfprotokollbericht:** Diese API wird zum Arbeiten mit Prüfprotokollberichtsaufträgen verwendet. Es wird ein Auftrag erstellt, der einen Konfigurationsänderungsprüfprotokollbericht für einen bestimmten Datumsbereich und eine Reihe von Einstellungstypen generiert.
+
+[Weitere Informationen](/help/migrated/api-changes-sep-2026.md).
+
+## Fehlerbehebungen
+
+**Lernpfadinstanz:** Start- und Enddaten des Lernpfads (LP) wurden falsch angezeigt, wenn sich die Zeitzone der LP-Instanz von der System- oder Browserzeitzone des Administrators unterschied. Das Bearbeiten von Datumsangaben verursachte, dass das Startdatum den falschen Kalendertag anzeigte, und dasselbe Problem mit der Zeitzonenkonvertierung betraf Benachrichtigungswarnungen im Kalender.
+
+**Mobile App:** Die Größe des Players wurde in Safari und Edge nicht korrekt geändert, wenn Teilnehmer zwischen Querformat- und Hochformat-Ausrichtung wechselten. Dies führte zu Anzeigeproblemen wie einer weißen Linie im Abschnitt &quot;Übersicht&quot; und verhinderte den Zugriff auf das Inhaltsverzeichnis und die Notizen.
+
+**Gamification:** Teilnehmer haben keine Gamification-Punkte erhalten, wenn sie einen abgeschlossenen Kurs aus dem Abschnitt &quot;Lesezeichen&quot; erneut aufrufen.
+
++++
 
 +++Update 11: Adobe Learning Manager Version vom 31. August 2026
 
@@ -87,13 +202,13 @@ Erfahren Sie mehr über die [Berichterstellungsänderungen in der Version August
 
 ### Gewichtungsspalte im Teilnehmertranskript
 
-Dem LT-Bericht für Module in Gradebook-fähigen Kursen wird eine Spalte &quot;Stärke&quot; hinzugefügt. Dadurch wird die Modulstärke direkt in der Berichtsausgabe angezeigt.
+Dem LT-Bericht für Module in Gradebook-fähigen Kursen wird eine Spalte &quot;Stärke&quot; hinzugefügt. Dadurch wird die Modulstärke direkt in der Berichtsausgabe gelegt.
 
 Erfahren Sie mehr über die [Berichterstellungsänderungen in der Version August 2026 von Adobe Learning Manager](/help/migrated/reporting-changes-august-2026.md).
 
 ### Details zum freigegebenen Kursverfasser in der learningObjects-API
 
-Mit den Details wird die LO-Antwort der learningObjects-API für freigegebene Kurse aktualisiert, sodass für empfangende Konten der akzeptierende Administrator nicht mehr als Autor angezeigt wird. Nur die ursprünglichen externen Autorendetails werden in Peer-Konten angezeigt. Das Verhalten des übergeordneten Kontos bleibt unverändert.
+Mit den Details wird die LO-Antwort der learningObjects-API für freigegebene Kurse aktualisiert, sodass für empfangende Konten der akzeptierende Administrator nicht mehr als Autor angezeigt wird. Nur die ursprünglichen externen Autorendetails werden in Peer-Konten gelegt. Das Verhalten des übergeordneten Kontos bleibt unverändert.
 
 ### Absichtserkennung in AI Orchestrator Agent
 
@@ -133,7 +248,7 @@ Der AI Orchestrator-Agent verschiebt die Absichtserkennung für Anfragen mit nur
 
 **Teilnehmer:** In einer bestellten Zertifizierung können Teilnehmer einen fehlgeschlagenen ersten Kurs umgehen und auf einen gesperrten zweiten Kurs zugreifen, indem sie dessen Voraussetzung abschließen, sodass die Zertifizierung als abgeschlossen markiert werden kann, wenn die Anforderung auf einen beliebigen Kurs festgelegt wurde. Die Validierung wurde aktualisiert, um die Kursreihenfolge und Sperrregeln konsistent durchzusetzen. Teilnehmer können Zertifizierungsanforderungen jetzt nur in der definierten Reihenfolge abschließen, sodass gesperrte Kurse nicht zum Abschluss der Zertifizierung beitragen.
 
-**API:** Wenn eine Ressource zu einem Kurs ohne Beschreibung hinzugefügt wurde, hat die GET /learningObject/{id}-API keine neu hinzugefügte Beschreibung zurückgegeben, wenn die Ressource zu einem späteren Zeitpunkt aktualisiert wurde. Dies führte dazu, dass veraltete Ressourcen-Metadaten über die API verfügbar gemacht wurden. Das Synchronisierungsproblem wurde behoben, und die API gibt jetzt die neueste Ressourcenbeschreibung zurück, unabhängig davon, wann sie hinzugefügt wurde.
+**API:** Wenn eine Ressource zu einem Kurs ohne Beschreibung hinzugefügt wurde, hat die GET /learningObject/{id}-API keine neu hinzugefügte Beschreibung zurückgegeben, wenn die Ressource zu einem späteren Zeitpunkt aktualisiert wurde. Dies führte dazu, dass veraltete Ressourcen-Metadaten über die API gelegt wurden. Das Synchronisierungsproblem wurde behoben, und die API gibt jetzt die neueste Ressourcenbeschreibung zurück, unabhängig davon, wann sie hinzugefügt wurde.
 
 **API:** Wenn ein Modul mit einer Beschreibung migriert und die Beschreibung später aktualisiert wurde, wurde der aktualisierte Wert korrekt in der Modultabelle gespeichert, jedoch nicht in der Benutzeroberfläche widergespiegelt. Die ältere Beschreibung wurde weiterhin auf der Benutzeroberfläche angezeigt, da sie aus dem Datensatz content_group bezogen wurde, der während der Änderung nicht aktualisiert wurde. Dieses Synchronisierungsproblem wurde behoben und aktualisierte Modulbeschreibungen werden jetzt nach der Migration konsistent auf der Benutzeroberfläche widergespiegelt.
 
@@ -156,7 +271,7 @@ Dieses Verhalten wird in der aktuellen Version erwartet. Verbesserungen, die Kur
 Wenn sich Mikrofon und Lautsprecher auf unterschiedlichen Geräten befinden, kann es passieren, dass während einer virtuellen Klassenzimmersitzung in macOS zeitweise Audiosignale unterbrochen werden oder der Ton verstümmelt.
 
 Dieses Verhalten kann auftreten, wenn verschiedene Geräte für die Audioeingabe und -ausgabe verwendet werden, z. B. AirPods für das Mikrofon und der integrierte Lautsprecher für die Wiedergabe. Da jedes Gerät eine eigene Audioverzögerung einführt, kann echo
-Die Absage ist weniger effektiv, und die Unterdrückung von Hintergrundgeräuschen kann gelegentlich dazu führen, dass Teile der Sprache fälschlicherweise als Geräusch identifiziert werden. Dies kann zu kurzen Audiounterbrechungen führen. Das Problem tritt deutlicher auf, wenn die
+Die Absage ist weniger effektiv, und die Unterdrückung von Hintergrund-Rauschen kann gelegentlich Teile der Sprache als Rauschen falsch identifizieren. Dies kann zu kurzen Audiounterbrechungen führen. Das Problem tritt deutlicher auf, wenn die
 Die Stimme des Sprechers wird mit geringer Lautstärke aufgenommen, z. B. wenn das Mikrofon weiter entfernt positioniert ist.
 
 Dies ist eine bekannte Plattformbeschränkung und nicht spezifisch für Adobe Learning Manager. Ähnliches Verhalten wurde in anderen Konferenzanwendungen beobachtet. In dieser Version ist keine Korrektur enthalten und das Problem wird für eine zukünftige Version bewertet.
@@ -169,8 +284,8 @@ Wenn ein Kursleiter ein Chrome-Fenster freigibt, in dem ein Video wiedergegeben 
 
 Das Video wird weiterhin lokal für den Kursleiter abgespielt, aber Remote-Teilnehmer sehen möglicherweise nicht, dass der Inhalt aktualisiert wird, während das freigegebene Fenster nicht den Fokus hat. Das Verhalten ist je nach Betriebssystem unterschiedlich:
 
-&#x200B;- Unter Windows sehen die Teilnehmer einen schwarzen Bildschirm.
-&#x200B;- In macOS wird den Teilnehmern der zuletzt angezeigte Videoframe angezeigt.
+- Unter Windows sehen die Teilnehmer einen schwarzen Bildschirm.
+- In macOS wird den Teilnehmern der zuletzt angezeigte Rahmen angezeigt.
 
 Die Videowiedergabe für Teilnehmer wird in der Regel fortgesetzt, wenn der Fokus wieder auf das freigegebene Browserfenster verlagert wird.
 
@@ -205,7 +320,7 @@ Warten Sie fünf bis sieben Minuten nach dem Schließen der Sitzung, bevor Sie d
 
 Wenn das Gebietsschema der Benutzeroberfläche auf eine andere Sprache als Englisch festgelegt ist, zeigt die CSV-Datei, die von der Seite &quot;Speicherorte für Klassenzimmer&quot; exportiert wird, ihre Spaltennamen (die Kopfzeile) nicht in der ausgewählten Sprache, sondern auf Englisch an.
 
-Dieses Verhalten tritt beim Exportieren von Speicherorten für Klassenzimmer aus dem Administratorprofil > Einstellungen > Speicherorte für Klassenzimmer auf. Während die Positionsdaten in der Datei korrekt zurückgegeben werden, werden die Spaltenüberschriften nicht entsprechend dem vom Administrator ausgewählten Gebietsschema der Benutzeroberfläche übersetzt. Infolgedessen sieht ein Administrator, der in einem nicht englischen Gebietsschema arbeitet, englische Spaltennamen in einer ansonsten lokalisierten Umgebung.
+Dieses Verhalten tritt beim Exportieren von Speicherorten für Klassenzimmer aus dem Administratorprofil > Einstellungen > Speicherorte für Klassenzimmer auf. Während die Speicherortdaten in der Datei korrekt zurückgegeben werden, werden die Spaltenüberschriften nicht entsprechend dem vom Administrator ausgewählten Gebietsschema der Benutzeroberfläche Kamera bewogen. Infolgedessen sieht ein Administrator, der in einem nicht englischen Gebietsschema arbeitet, englische Spaltennamen in einer ansonsten lokalisierten Umgebung.
 
 Nur die Kopfzeile ist betroffen. Die zugrunde liegenden Speicherortdaten in der exportierten Datei sind davon nicht betroffen. In dieser Version ist keine Korrektur enthalten und das Problem wird für eine zukünftige Version bewertet.
 
@@ -291,7 +406,7 @@ Wiederkehrende Zertifizierungen beziehen jetzt Kurse aus der neuesten (übergeor
 
 **Daten und Berichte**
 
-Die Datensynchronisierung für die Registrierung wurde stabilisiert, indem ein Datenbankkonnektorfehler und übergroße Datensatz-Nutzlasten in der Datenpipeline behoben wurden. Anmeldungsdatensätze werden nun zuverlässig an nachgelagerte Meldesysteme übertragen.
+Die Datensynchronisierung für die Registrierung wurde durch das Beheben eines Fehlers bei der Verbindung der Datenbank und überdimensionierter Datensatz-Nutzlasten in der Datenpipeline stabilisiert. Anmeldungsdatensätze werden nun zuverlässig an nachgelagerte Meldesysteme übertragen.
 
 **Veröffentlichung und APIs**
 
@@ -384,7 +499,7 @@ Die Version April 2026 von Adobe Learning Manager bietet Verbesserungen für das
 
 **Administrator- und Autor-Updates**
 
-* Zoom Connector unterstützt jetzt mehrere gleichzeitige virtuelle Sitzungen und verbessert so die Planungseffizienz.
+* Die Zoom-Verbindung unterstützt jetzt mehrere gleichzeitige virtuelle Sitzungen, wodurch die Planungseffizienz verbessert wird.
 * Möglichkeit, die Startzeit des Moduls einzuschränken und den Ablauf von Lernobjekten über APIs besser sichtbar zu machen.
 * Checklistenmodule, die durch gewichtete Punktzahl, mehrsprachige Unterstützung und Optionen für Reviewer-Feedback erweitert wurden.
 * Benutzerdefinierte Zertifikate, die mit einem Drag-and-Drop-Editor, dynamischen Feldern und KI-generierten Hintergründen aktualisiert wurden.
@@ -424,7 +539,7 @@ Weitere Informationen finden Sie unter [Neue Funktionen und Änderungen in der V
 
 **Kursdauer:** Bei VILT-Kursen wurde die Dauer auf Kursebene immer von einer statischen LO_DURATION in der Standardinstanz übernommen. Diese wurde zu 0, wenn Sitzungen eingestellt wurden, und wurde nicht aus den eigentlichen Instanzmodulen neu berechnet. Die VILT-Kursdauer spiegelt jetzt die tatsächlichen Instanzmodule wider, anstatt sich nur auf einen veralteten oder null LO_DURATION-Wert von der Standardinstanz zu verlassen.
 
-**Connectors:** Da der Ember-Modul-Details-Controller über Module hinweg wiederverwendet wurde, wurde vcHostingSystem nicht konsistent aktualisiert. Dies führte zu gemischtem VC/F2F-Verhalten und zu einem falschen Löschen von InstructorIds, die nur auf vcHostingSystem basieren. Die Modulbehandlung hält vcHostingSystem jetzt konsistent und löscht nur instructorIds für echte VC-Sitzungen, sodass die Kursleiter für konvertierte F2F-Sitzungen korrekt aktualisiert werden.
+**Verbindungen:** Da der Ember-Moduldetailcontroller modulübergreifend wiederverwendet wurde, wurde vcHostingSystem nicht konsistent aktualisiert. Dies führte zu gemischtem VC/F2F-Verhalten und zu einem falschen Löschen von InstructorIds, die nur auf vcHostingSystem basieren. Die Modulbehandlung hält vcHostingSystem jetzt konsistent und löscht nur instructorIds für echte VC-Sitzungen, sodass die Kursleiter für konvertierte F2F-Sitzungen korrekt aktualisiert werden.
 
 **LMS-Migration:** Die CSV-Spalte &quot;LearningProgramCourse&quot; für die Kursreihenfolge wurde vom Backend nicht berücksichtigt, sodass die Kursreihenfolge in LP-Abschnitten ignoriert wurde, selbst wenn &quot;orderEnforce&quot; auf &quot;true&quot; gesetzt war. Die nicht verwendete CSV-Spalte für die Kursreihenfolge wurde entfernt, um das Backend-Verhalten abzugleichen und zu vermeiden, dass eine nicht unterstützte Bestellung über CSV erfolgt.
 
@@ -468,8 +583,8 @@ Ein KI-gestütztes Konversationstool der Generation, das es Ihren Teilnehmern er
 
 **Wichtigste Highlights**
 
-* Verwendet Retrieval-Augmented Generation (RAG) zur intelligenten Suche nach Kursinhalten, Arbeitshilfen und Lernmaterialien, um präzise und kontextbezogene Antworten zu liefern.
-* Versteht den Kontext, bewahrt frühere Interaktionen und stellt zitierungsbasierte Antworten als Basis für die Wahrheit bereit, die später bei Bedarf genutzt werden können.
+* Verwendet Retrieval-Augmented Generation (RAG) zur intelligenten Suche in Kursinhalten, Arbeitshilfen und Lernressourcen, um präzise und kontextbezogene Antworten Material.
+* Versteht den Kontext, bewahrt frühere Interaktionen und stellt zitierungsbasierte Antworten als Wahrheitsquelle für Boden bereit, die bei Bedarf später verbraucht werden können.
 * Ermöglicht es Teilnehmern, personalisierte Skripte, Diskussionspunkte und Zusammenfassungen anzufordern, die auf ihre individuellen Lernanforderungen zugeschnitten sind.
 * Sucht in allen unterstützten Inhaltsformaten, einschließlich PDF, DOCX, PPTX, Audio, Videos und SCORM 1.2 &amp; 2004.
 
@@ -567,7 +682,7 @@ Wenn die Absicht darin besteht, E-Mails an Teilnehmer, aber nicht an Manager zu 
 
 Weitere Informationen finden Sie in diesem [Artikel](/help/migrated/administrators/feature-summary/email-templates.md#enable-or-disable-email-at-a-role-level).
 
-## Verbesserte Inhaltsversionskontrolle für Teilnehmer, die einen Kurs abgeschlossen haben
+## Verbesserte Versionskontrolle der Inhalte für Teilnehmer, die einen Kurs abgeschlossen haben
 
 ### Übersicht
 
@@ -732,7 +847,7 @@ Adobe Learning Manager hat ein neues und überarbeitetes Empfehlungssystem für 
 
 In dieser Version von Adobe Learning Manager führen wir eine Mehrfachregistrierung für Teilnehmende ein, die Teilnehmenden ermöglicht, sich in mehr als einer Instanz eines Kurses in einem oder verschiedenen Zeiträumen zu registrieren.
 
-### Verfall des ExaVault-Connectors
+### Verfall der ExaVault-Verbindung
 
 Diese Version von Adobe Learning Manager enthält einen neuen Connector, der das SFTP-Protokoll der AWS Transfer-Familie verwendet.
 
@@ -804,7 +919,7 @@ Autoren können jetzt &quot;Manager&quot; und &quot;Store Manager&quot; als Beob
 
 **QR-Codes für Learning Manager mit einer beliebigen App/Smartphone-Kamera scannen**
 
-Teilnehmer können jetzt jede QR-Code-Scan-App oder ihre Smartphone-Kamera verwenden, um die vom Learning Manager generierten QR-Codes zur Kursanmeldung, zum Abschluss und mehr zu scannen.
+Teilnehmer können jetzt jede QR-Code-Scan-App oder ihre Smartphone-Kamera verwenden, um vom Learning Manager generierte QR-Codes auf Kursanmeldung, Abschluss und mehr zu scannen.
 
 **Berichterstellungsverbesserungen**
 
@@ -993,9 +1108,9 @@ Bei einigen E-Mail-Vorlagen können Sie der Vorlage jetzt eine Voraussetzung hin
 
 Die neue Spalte **unenrollmentAllowed** wird zu &quot;course.xlsx&quot; hinzugefügt. Laden Sie die Datei aus diesem Handbuch herunter.
 
-**LinkedIn Learning-Connector**
+**LinkedIn Learning-Verbindung**
 
-Für den LinkedIn Learning-Connector gibt es ein neues Kontrollkästchen auf der Seite „Filter“, über das Teilnehmende die Registrierung widerrufen können. Weitere Informationen finden Sie unter [LinkedIn Learning Connector](/help/migrated/integration-admin/feature-summary/connectors.md).
+Für den LinkedIn Learning-Connector gibt es ein neues Kontrollkästchen auf der Seite „Filter“, über das Teilnehmende die Registrierung widerrufen können. Weitere Informationen finden Sie unter [LinkedIn Learning Verbindung](/help/migrated/integration-admin/feature-summary/connectors.md).
 
 ### In diesem Update behobene Fehler
 
@@ -2875,7 +2990,7 @@ Mit dieser Verbesserung können Sie einen Zeitraum festlegen, nach dem Benutzer 
 
 Arbeitshilfen sind Schulungsmaterialien, auf die ein Teilnehmer zugreifen kann, ohne dass sie sich für spezifische Lernobjekte wie beispielsweise für einen Kurs oder ein Lernprogramm registrieren müssen. Dank dieser Verbesserung können Administratoren extrahieren und den Bericht zu Arbeitshilfen herunterladen. Als Administrator können Sie auch einen Bericht aller Ankündigungen generieren, der von Ihnen gesendet wurde. Administratoren und Manager können auch einen Bericht der Teilnehmer extrahieren, deren Registrierung aufgehoben wurde.
 
-**Learning Manager-Connectors**
+**Learning Manager-Verbindungen**
 
 Sie können die Kenntnisse der Benutzer in einen FTP-Speicherort exportieren, um mit einem beliebigen Drittparteisystem mithilfe der Option zum Exportieren der Daten, zu integrieren. Sie können den Verbindungsnamen für die Integration angeben und auswählen, ob Sie interne Benutzer importieren oder Benutzerkenntnisse exportieren möchten, indem Sie sie konfigurieren oder sie nach Bedarf aufrufen.
 
@@ -2979,9 +3094,9 @@ Learning Manager bietet Managern und Administratoren die Möglichkeit, Transkrip
 
 **Integration anderer Inhaltsanbieter**
 
-Der Lern-Manager hat in dieser Version drei neue Connectors eingeführt, sodass Teilnehmer auf Kurse der folgenden Inhaltsanbieter zugreifen und diese absolvieren können: Lynda.com, getAbstract und Harvard ManageMentor.
+Der Lern-Manager hat in dieser Version drei neue Verbindungen eingeführt, sodass Teilnehmer auf Kurse der folgenden Inhaltsanbieter zugreifen und diese absolvieren können: Lynda.com, getAbstract und Harvard ManageMentor.
 
-Informationen zum Konfigurieren und Verwenden dieser Connectors finden Sie unter [Connectors](../integration-admin/feature-summary/connectors.md#main-pars_header).
+Informationen zum Konfigurieren und Verwenden dieser Verbindungen finden Sie unter [Verbindungen](../integration-admin/feature-summary/connectors.md#main-pars_header).
 
 **Eindeutige ID für Lernobjekte**
 

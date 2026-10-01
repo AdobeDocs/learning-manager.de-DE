@@ -2,13 +2,11 @@
 description: Der Learning Path-Agent in Adobe Learning Manager ist ein KI-gestützter Assistent, der einen benutzerdefinierten, sequenziellen Lernplan basierend auf Ihren Zielen, Ihrem Hintergrund und der verfügbaren Zeit erstellt.
 jcr-language: en_us
 title: Learning Path Agent (Beta) in Adobe Learning Manager
-source-git-commit: d61e81b0df6a6043b938c65adaabecb5699c2ce9
+source-git-commit: 94b05fbec63577cd7441ff91d7d6015f4423f745
 workflow-type: tm+mt
-source-wordcount: '1956'
+source-wordcount: '2201'
 ht-degree: 0%
-
 ---
-
 
 # Was ist ein Learning Path Agent?
 
@@ -23,7 +21,7 @@ Personalisierte Lernpfade wurden für zwei Hauptanwendungsfälle entwickelt:
 
 ## Funktionsweise des konversationsbasierten Ansatzes
 
-Der Agent trifft Sie, wo Sie sind. Sie beginnen, indem Sie beschreiben, was Sie lernen möchten, in einfacher Sprache, so viel oder so wenig Details, wie Sie haben. Der Support-Mitarbeiter stellt dann Anschlussfragen, um Ihre Rolle, Ihre spezifischen Herausforderungen und den Zeitaufwand für das Lernen pro Woche zu verstehen.
+Der Agent generiert dann einen benannten Lernpfad, der jeden Kurs, seine Beschreibung, Dauer und Modulanzahl anzeigt. Vor dem Speichern können Sie den Agenten bitten, einzelne Kurse im Pfad mit natürlicher Sprache hinzuzufügen, zu entfernen oder zu ersetzen.&quot;
 
 Anhand Ihrer Antworten identifiziert der Support-Mitarbeiter 3 bis 5 Lernthemen mit vorgeschlagenen Kompetenzstufen. Sie können diese Themen überprüfen, Änderungen anfordern oder bestätigen, bevor der Agent nach entsprechenden Kursen sucht. Der Agent generiert dann einen benannten Lernpfad, der jeden Kurs, seine Beschreibung, Dauer und Modulanzahl anzeigt. Du kannst den Pfad weiter anpassen, bevor du ihn speicherst.
 
@@ -47,6 +45,7 @@ Nachdem Sie einen personalisierten Lernpfad gespeichert haben, können Sie ihn f
 - Gebt vorab eure Zeit an, damit der generierte Pfad zu eurem tatsächlichen Zeitplan passt. Der Agent versteht natürliche Sprache: &quot;zwei Abende pro Woche&quot; oder &quot;30 Minuten pro Tag&quot; sind beide gültig.
 - Überprüfen Sie die vorgeschlagenen Themen, bevor Sie den Agenten bitten, Kurse zu generieren. Das Bestätigen oder Anpassen von Themen in dieser Phase spart Zeit, verglichen mit dem anschließenden Überarbeiten der Kursliste.
 - Wenn ein Thema keine übereinstimmenden Inhalte enthält, notieren Sie es und wenden Sie sich an Ihren Administrator, um anzufordern, dass dem Katalog relevante Kurse hinzugefügt werden.
+- Verwenden Sie vor dem Speichern eine natürliche Sprache, um den Pfad zu optimieren. Bitten Sie zum Beispiel, einen bereits abgeschlossenen Kurs zu entfernen oder einen zu erweiterten Kurs zu ersetzen.
 
 ## Konfigurieren Sie den Agenten für den personalisierten Lernpfad
 
@@ -120,11 +119,11 @@ Setzen Sie die Unterhaltung fort, bis der Agent Ihre vorgeschlagenen Themen prä
 
 ### Überprüfen der vorgeschlagenen Themen
 
-Nachdem der Agent genügend Kontext gesammelt hat, präsentiert er eine Liste von 3 bis 5 Lernthemen mit jeweils einem Titel, einer kurzen Beschreibung und einem vorgeschlagenen Kenntnisstand.
+Anhand Ihrer Antworten identifiziert der Support-Mitarbeiter 3-5 Lernthemen. Sie können diese Themen überprüfen, Änderungen anfordern oder bestätigen, bevor der Agent nach entsprechenden Kursen sucht. Der Agent generiert dann einen benannten Lernpfad, der jeden Kurs, seine Beschreibung, Dauer und Modulanzahl anzeigt. Du kannst den Pfad weiter anpassen, bevor du ihn speicherst.
 
-1. Lesen Sie die Themenliste sorgfältig durch. Der Agent wählt die Kenntnisstufen basierend auf dem, was Sie freigegeben haben, aber Sie können Änderungen anfordern.
-2. Um ein Thema anzupassen, um beispielsweise die Kenntnisstufe zu ändern oder ein Thema zu tauschen, geben Sie Ihr Feedback im Chat ein. Zum Beispiel habe ich bereits Kenntnisse über das erste Thema. Können Sie das auf &quot;Mittel&quot; setzen?
-3. Wenn Sie mit den Themen wie vorgeschlagen zufrieden sind, bestätigen Sie sie, indem Sie im Chat antworten oder die vorgeschlagene Bestätigungsaufforderung auswählen, falls eines angezeigt wird.
+1. Überprüfen Sie die vorgeschlagenen Themen, um sicherzustellen, dass sie mit Ihrem Lernziel übereinstimmen.
+2. Um die Themen anzupassen, geben Sie Ihr Feedback im Chat ein. Sie können den Agenten bitten, ein Thema hinzuzufügen, zu entfernen oder zu ersetzen.
+3. Wenn Sie mit den vorgeschlagenen Themen zufrieden sind, bestätigen Sie sie, indem Sie im Chat antworten oder die vorgeschlagene Bestätigungsaufforderung auswählen, falls eine angezeigt wird.
 
 ### Lernpfad überprüfen
 
@@ -141,7 +140,27 @@ Der Support-Mitarbeiter informiert Sie darüber, dass er keine Kurse für diese 
 <!-- - Review the path. If you want to change something, for example, remove a course, adjust the scope, or explore different topics. Type your request in the chat\. For example, Can you remove the first course and replace it with something shorter? -->
 Wenn Sie mit dem Pfad zufrieden sind, bitten Sie den Agenten, ihn zu speichern, indem Sie den Lernpfad speichern eingeben.
 
+<!--
 ![](assets/create-lp.png)
+-->
+
+### Passen Sie Ihren Lernpfad vor dem Speichern an
+
+Bevor Sie Ihren Pfad speichern, können Sie den Agenten bitten, einen Kurs hinzuzufügen, zu entfernen oder zu ersetzen. Beschreiben Sie die Änderung in einfacher Sprache. Der Agent aktualisiert nur den von Ihnen angegebenen Kurs. Der Rest Ihres Pfades bleibt unverändert.
+
+Beispiel:
+
+- Ich habe den zweiten Kurs bereits abgeschlossen. Entfernen Sie sie.
+- Fügen Sie einen Kurs zu [topic] hinzu. Ich sehe keinen in der Liste.
+- Der vierte Kurs erscheint zu weit fortgeschritten. Kann man es durch etwas Grundlegenderes ersetzen?
+
+Der Agent wendet Ihre Änderung an und zeigt Ihnen den aktualisierten Pfad an. Setzen Sie die Anpassung fort, bis Sie mit dem Ergebnis zufrieden sind, und speichern Sie den Pfad.
+
+>[!NOTE]
+>
+>Ein Lernpfad kann maximal fünf Kurse enthalten. Wenn Sie bitten, einen Kurs hinzuzufügen, wenn der Pfad bereits voll ist, fragt der Agent, welchen vorhandenen Kurs Sie ersetzen möchten.
+
+Wenn Ihre Anfrage unklar ist, stellt der Support-Mitarbeiter eine klärende Frage, bevor er eine Änderung vornimmt. Wenn für einen Kurs, den Sie austauschen möchten, kein geeigneter Ersatz vorhanden ist, erklärt der Support-Mitarbeiter die Gründe dafür und schlägt stattdessen den am nächsten liegenden Kurs vor.
 
 ### Speichern und Zugriff auf Ihren Lernpfad
 
@@ -177,7 +196,7 @@ Alle Ihre gespeicherten Pfade werden in der Leiste _Personalisierte Lernpfade_ a
 
 _Wie viele personalisierte Lernpfade kann ich speichern?_
 
-Der Streifen _Personalisierte Lernpfade_ auf Ihrer Startseite zeigt maximal 10 Pfade an.
+Der Streifen _Personalisierte Lernpfade_ auf Ihrer Startseite zeigt maximal 20 Pfade an.
 
 _Welche Informationen muss ich angeben, um einen relevanten Lernpfad zu erhalten?_
 
@@ -201,10 +220,14 @@ Ja. Während der Unterhaltung können Sie den Agenten bitten, Themen hinzuzufüg
 
 _Kann ich die einzelnen Kurse in einem generierten Pfad ändern?_
 
-Anzahl Sobald der Agent einen Pfad generiert hat, wird die Kursauswahl behoben. Sie können einzelne Kurse nicht austauschen, entfernen oder ersetzen. Was der Agent empfiehlt, ist, was der Pfad enthält.
+Ja. Bevor Sie den Pfad speichern, können Sie den Agenten bitten, einen Kurs mit natürlicher Sprache hinzuzufügen, zu entfernen oder zu ersetzen. Beispiel: &quot;Entfernen des zweiten Kurses&quot; oder &quot;Ersetzen des vierten Kurses durch etwas Grundlegenderes.&quot; Der Agent aktualisiert nur den von Ihnen angegebenen Kurs und lässt den Rest des Pfads unverändert.
 
-Wenn sich die vorgeschlagenen Kurse nicht richtig anfühlen, empfiehlt es sich, zurückzugehen und Ihre Themen vor dem Generieren anzupassen. Der Support-Mitarbeiter wählt Kurse basierend auf den von Ihnen bestätigten Themen aus. Wenn Sie also den Themenbereich oder die Kompetenzstufe ändern, erhalten Sie einen anderen Kurssatz.
+Wenn Sie eine umfassendere Änderung über mehrere Themen hinweg wünschen, können Sie Ihre Themen schneller anpassen, bevor der Agent den Pfad generiert, da die Kursauswahl auf den von Ihnen bestätigten Themen basiert.
+
+_Was passiert, wenn ich versuche, einen Kurs hinzuzufügen, mein Pfad jedoch bereits voll ist?_
+
+Ein Lernpfad kann maximal fünf Kurse umfassen. Wenn Sie bitten, einen neuen Kurs hinzuzufügen, während der Pfad voll ist, fragt der Agent, welchen vorhandenen Kurs Sie durch den neuen ersetzen möchten.
 
 _Warum stellt der Agent weiterhin Anschlussfragen?_
 
-Der Support-Mitarbeiter benötigt ausreichende Klarheit über Ihr Lernziel, um relevante Themen zu identifizieren. Wenn deine ursprüngliche Botschaft umfassend war, z. B. &quot;Ich möchte Marketing lernen&quot;, werden Fragen gestellt, um den Umfang einzugrenzen. Wenn Sie spezifischere Details zu Ihrer Rolle, den Herausforderungen, mit denen Sie konfrontiert sind, und den Möglichkeiten, die Sie nach dem Lernen nutzen möchten, angeben, kann der Agent schneller zur Themengenerierung wechseln.
+Der Support-Mitarbeiter benötigt ausreichende Klarheit über Ihr Lernziel, um relevante Themen zu identifizieren. Wenn deine ursprüngliche Botschaft umfassend war, z. B. &quot;Ich möchte Marketing lernen&quot;, werden Fragen gestellt, um den Umfang einzugrenzen. Wenn Sie spezifischere Details zu Ihrer Rolle, den Herausforderungen, die Sie bei der Fläche haben, und den Aufgaben, die Sie nach dem Lernen tun möchten, angeben, kann der Agent schneller zur Themengenerierung wechseln.

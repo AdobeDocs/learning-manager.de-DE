@@ -3,9 +3,9 @@ description: Mit dem KI-Assistenten in Adobe Learning Manager erhalten Sie schne
 jcr-language: en_us
 title: AI Assistant für Teilnehmer in Adobe Learning Manager
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 81969b0557db985224f13c3e4ab41381316dad5d
+source-git-commit: bcd217fd6bb48aaf475eb29a5de1f67ae862826a
 workflow-type: tm+mt
-source-wordcount: '3241'
+source-wordcount: '3245'
 ht-degree: 0%
 ---
 # KI-Assistent für Teilnehmende
@@ -81,7 +81,7 @@ Adobe verarbeitet Ihre Lerninhalte sicher mit vertrauenswürdigen Diensten.
 
 Der AI Assistant verwendet nur Inhalte aus internen Katalogen und Inhaltsbibliotheken von Drittanbietern. Antworten auf die Fragen von Teilnehmern werden nur von Katalogen abgeleitet, auf die sie Zugriff haben.
 
-Die folgenden Inhaltsquellen werden nicht unterstützt:
+Die folgenden Inhaltsquellen werden in der aktuellen Version nicht unterstützt:
 
 - Freigegebene externe Kataloge
 - Standardkataloge

@@ -7,10 +7,8 @@ exl-id: b1a9ecb6-75a8-44f7-b169-f77d7a4f6c2c
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '328'
-ht-degree: 50%
-
+ht-degree: 70%
 ---
-
 # Registrierung als externer Benutzer nicht möglich
 
 ## Problem
