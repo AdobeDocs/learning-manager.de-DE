@@ -7,10 +7,8 @@ exl-id: b4a0af25-14ae-46f1-9afd-0bf2aace7fe2
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
 source-wordcount: '205'
-ht-degree: 50%
-
+ht-degree: 59%
 ---
-
 # Dateiübermittlungen können nicht in Adobe Learning Manager angezeigt werden
 
 ## Ein Problem
@@ -21,7 +19,7 @@ Ein Ausbilder kann die von einem Teilnehmer hochgeladenen Dateien nicht anzeigen
 
 Ausbilder können keine Dateien anzeigen, die Teilnehmer im **Einreichungsaktivitätsmodul** hochgeladen haben.
 
-Ein Teilnehmer hat sich beispielsweise für eine Instanz mit dem Namen **Testinstanz** eines Kurses registriert, wie unten dargestellt:
+Beispielsweise hatte sich ein Teilnehmer für eine Instanz mit dem Namen **Testinstanz** eines Kurses angemeldet, wie unten gezeigt:
 
 ![](assets/test-instance.png)
 
@@ -39,7 +37,7 @@ Wenn der Ausbilder versucht, die Übermittlung zu genehmigen, kann der Ausbilder
 
 Wenn es in der Kursinstanz keinen Kursleiter gibt, bei dem sich der Teilnehmer registriert hat, wird das Problem angezeigt.
 
-## Auflösung
+## Lösung
 
 Um zu überprüfen, ob der Kursinstanz ein Ausbilder hinzugefügt wurde, führen Sie die folgenden Schritte aus:
 

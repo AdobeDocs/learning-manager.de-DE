@@ -6,11 +6,9 @@ contentowner: dvenkate
 exl-id: 966d163d-7878-44f4-afdc-38eb95996229
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 85%
-
+source-wordcount: '333'
+ht-degree: 94%
 ---
-
 # Katalogbeschriftungen
 
 Mithilfe von Katalogbeschriftungen können Sie Lernobjekte mit bestimmten Feldern markieren und einen oder mehrere Werte anwenden. Wenn diese Option aktiviert ist, können Administratoren und Autoren Katalogbeschriftungen und Werte festlegen und sie mit Lernobjekten verknüpfen.
@@ -31,7 +29,7 @@ Gehen Sie folgendermaßen vor, um Katalogbeschriftungen hinzuzufügen:
    ![](assets/catalog-labels-page.png)
 
 1. Klicken Sie in der rechten oberen Ecke auf **[!UICONTROL Katalogbeschriftung hinzufügen]** oder auf **[!UICONTROL Hinzufügen]**. Das Dialogfeld **[!UICONTROL Katalogtitel hinzufügen]** wird angezeigt.
-1. Fügen Sie eine Katalogbeschriftung und ihre Werte in die Felder ein. Ein benutzerdefiniertes Feld kann mehrere Werte haben. Autoren können während der Erstellung des Kurses aus diesen Werten auswählen.
+1. Fügen Sie den Katalognamen und ihre Werte in die Felder ein. Ein benutzerdefiniertes Feld kann mehrere Werte enthalten. Autoren können während der Erstellung des Kurses aus diesen Werten auswählen.
 
    ![](assets/add-labels.png)
 
@@ -49,6 +47,6 @@ Nachdem Sie Katalogbeschriftungen erstellt haben, können Sie sie mithilfe der f
 1. Öffnen Sie im linken Bereich „Katalogbeschriftungen“.
 1. Klicken Sie in der rechten oberen Ecke auf **[!UICONTROL Bearbeiten]**. Die Seite zeigt die Liste der verfügbaren „Katalogbeschriftungen“.
 1. Um eine Beschriftung zum Katalog hinzuzufügen, klicken Sie auf **[!UICONTROL Zum Katalog hinzufügen]**.
-1. Um vorhandene Beschriftungen zu entfernen, die einem Katalog hinzugefügt wurden, klicken Sie auf **[!UICONTROL Entfernen]**.
+1. Um vorhandene Beschriftungen, die einem Katalog hinzugefügt wurden, zu entfernen, klicken Sie auf **[!UICONTROL Entfernen]**.
 
 Wenn das benutzerdefinierte Feld zum Katalog hinzugefügt wird, gilt es für alle Lernobjekte, die Teil des Katalogs sind.

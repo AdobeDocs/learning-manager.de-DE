@@ -6,11 +6,9 @@ contentowner: manochan
 exl-id: 406d1c33-aac3-47e1-9b32-83874976ce54
 source-git-commit: 69ef7d1e27fac3db49cbb4b9f9403f74e146efb5
 workflow-type: tm+mt
-source-wordcount: '1024'
-ht-degree: 68%
-
+source-wordcount: '1029'
+ht-degree: 83%
 ---
-
 # Zertifizierungen
 
 Erfahren Sie, wie Sie Zertifizierungen erstellen, Teilnehmer registrieren und veröffentlichte Zertifizierungen bearbeitet.
@@ -29,7 +27,7 @@ Als Administrator können Sie ein Zertifizierungsprogramm entweder intern gehost
    1. Klicken Sie auf die Registerkarte **[!UICONTROL Entwurf]**, um alle Zertifizierungen im Entwurfsstatus anzuzeigen. Sie müssen die Erstellung dieser Zertifizierungen abschließen.
    1. Klicken Sie auf **[!UICONTROL Veröffentlicht]**, um alle von Ihnen veröffentlichten Zertifizierungen anzuzeigen.
    1. Klicken Sie auf **[!UICONTROL Alle]**, um die Zertifizierungen in allen Status anzuzeigen.
-   1. Sortieren Sie die Liste der Zertifizierungen in aufsteigender oder absteigender Reihenfolge oder nach dem Datum ihrer Aktualisierung.
+   1. Sortieren Sie die Liste der Zertifizierungen in aufsteigender oder absteigender Reihenfolge oder nach dem Aktualisierungsdatum.
 
 1. Klicken Sie auf **[!UICONTROL Hinzufügen]**.
 
@@ -62,7 +60,7 @@ Als Administrator können Sie ein Zertifizierungsprogramm entweder intern gehost
   </tr>
   <tr>
    <td>Neuzuweisung</td>
-   <td>Wählen Sie aus, ob das Zertifikat basierend auf dem Abschlussdatum oder basierend auf dem Registrierungsdatum zugewiesen werden soll.<br></td>
+   <td>Sie können auswählen, ob das Zertifikat basierend auf dem Abschlussdatum oder basierend auf dem Registrierungsdatum zugewiesen werden soll.<br></td>
   </tr>
   <tr>
    <td>Gültigkeit (in Monaten) <br></td>
@@ -79,7 +77,7 @@ Als Administrator können Sie ein Zertifizierungsprogramm entweder intern gehost
   <tr>
    <td>Zertifizierungsaussteller<br></td>
    <td>
-    <p>Wählen Sie <b>Intern</b>, wenn es zu Ihrer Organisation gehört, oder <b>Extern</b> für Zertifizierungen externer Organisationen.</p>
+    <p>Wählen Sie <b>intern</b>, wenn die Zertifizierung zu Ihrem Unternehmen gehört oder <b>extern</b> für Zertifizierungen externer Unternehmen.</p>
     <p>Wenn Sie <b>Externe Zertifizierung</b>wählen, sehen Sie zwei weitere Optionen:</p>
     <ul>
      <li>Wie Datum der Genehmigung<br></li>
@@ -110,10 +108,10 @@ Wählen Sie die Produkt-, Rollen- und Rollenebene im Abschnitt **[!UICONTROL Fü
 
 Wählen Sie die Kurse, die der Zertifizierung hinzugefügt werden sollen, auf der Registerkarte **[!UICONTROL Kurse]** > **[!UICONTROL Katalog]** aus.
 
-Bewegen Sie die Maus über jede Kurskachel und klicken Sie auf &quot;+&quot;, um sie zur Zertifizierung hinzuzufügen. Klicken Sie auf **[!UICONTROL Vorschau]**, um den Kurs als Teilnehmer anzuzeigen, bevor Sie ihn hinzufügen.
+Bewegen Sie die Maus über jede Kurskachel und klicken Sie auf „+“, um den entsprechenden Kurs zur Zertifizierung hinzuzufügen. Klicken Sie auf **[!UICONTROL Vorschau]**, um eine Vorschau des Kurses als Teilnehmer abzurufen, bevor Sie ihn hinzufügen.
 
 1. Klicken Sie auf die Registerkarte **[!UICONTROL Kursplan]**, um die Liste der von Ihnen hinzugefügten Kurse anzuzeigen/zu überprüfen.
-1. Klicken Sie auf **[!UICONTROL Publish]**.
+1. Klicken Sie auf **[!UICONTROL Veröffentlichen]**.
 
 ## Kursinstanzzuordnung für Zertifizierungen {#courseinstancemappingforcertifications}
 
@@ -126,7 +124,7 @@ Zuordnung des Kurses und der Instanz für Zertifizierungen:
 1. Wählen Sie im Popup-Menü die Instanz des Kurses, der für die ausgewählte Zertifizierung bereitgestellt werden soll.
 1. Klicken Sie auf „Speichern“.
 
-Ein Administrator kann einem Lernprogramm Klassenzimmer und Kurse vom Typ &quot;Virtueller Klassenzimmer&quot; hinzufügen. Die vom Autor beim Erstellen des Kurses angegebene Sitzung wird als Standardinstanz festgelegt. Wenn der Administrator dem Lernprogramm Kurse hinzufügt, werden diese der Standardinstanz für alle Kurse zugeordnet, der Administrator kann die Instanzzuordnung jedoch ändern. Die Anzahl der einem Lernprogramm hinzugefügten Kurse wird darüber hinaus wie unten angegeben auf der Instanzenseite angezeigt.
+Ein Administrator kann einem Lernprogramm Präsenzkurse und Kurse im virtuellen Klassenzimmer hinzufügen. Die vom Autor beim Erstellen des Kurses angegebene Sitzung wird als Standardinstanz festgelegt. Wenn der Administrator dem Lernprogramm Kurse hinzufügt, werden diese der Standardinstanz für alle Kurse zugeordnet, der Administrator kann die Instanzzuordnung jedoch ändern. Die Anzahl der einem Lernprogramm hinzugefügten Kurse wird darüber hinaus wie unten angegeben auf der Instanzenseite angezeigt.
 
 ## Vollständige Katalogsteuerung aktivieren {#catalog}
 
@@ -150,7 +148,7 @@ Administratoren können mithilfe der für sie verfügbaren Option eine Zertifizi
 
 1. Öffnen Sie **[!UICONTROL Zertifizierung]** > **[!UICONTROL Teilnehmer]**.
 
-   Die Seite &quot;Teilnehmer&quot; wird mit der Liste der registrierten Teilnehmer geöffnet.
+   Die Seite „Teilnehmer“ wird geöffnet und zeigt eine Liste der registrierten Teilnehmer.
 
 1. Wählen Sie einen, mehrere oder alle Teilnehmer aus, um den Abschluss der Zertifizierung mithilfe des für jeden Teilnehmer verfügbaren Kontrollkästchens zu markieren.
 1. Klicken Sie auf **[!UICONTROL Aktion]** > **[!UICONTROL Als abgeschlossen markieren.]**
@@ -161,13 +159,13 @@ Administratoren können mithilfe der für sie verfügbaren Option eine Zertifizi
 
 In früheren Versionen von Learning Manager war das Absolvieren eines Kurses durch Teilnehmende in der externen Zertifizierung nicht zwingend erforderlich, um ein Zertifikat zu erlangen.
 
-Sie können jetzt Kurse verbindlich festlegen, indem Sie die Option **[!UICONTROL Erforderliche Kurse als obligatorisch für den Abschluss von Zertifikaten festlegen]** auf der Registerkarte &quot;Stundenplan&quot; aktivieren, während Sie die Zertifizierungen bearbeiten.
+Sie können jetzt Kurse verbindlich festlegen, indem Sie auf der Registerkarte „Stundenplan“ die Option **[!UICONTROL Erforderliche Kurse als obligatorisch für den Abschluss eines Zertifikats festlegen]** beim Bearbeiten der Zertifizierungen aktivieren.
 
 ## Bearbeiten einer veröffentlichten Zertifizierung {#editingapublishedcertification}
 
 Eine Zertifizierung kann von einem Administrator in einem veröffentlichten Status bearbeitet werden. In diesem Status kann der Administrator alle Abschnitte einer Zertifizierung bearbeiten und erneut veröffentlichen.
 
-Um eine veröffentlichte Zertifizierung zu bearbeiten, klicken Sie auf die Zertifizierungskarte und klicken Sie auf **[!UICONTROL Bearbeiten]** in der oberen rechten Ecke der Seite.
+Um eine veröffentlichte Zertifizierung zu bearbeiten, klicken Sie auf die Zertifizierungskarte und dann auf **[!UICONTROL Bearbeiten]** in der oberen rechten Ecke der Seite.
 
 Wenn die Seite beim Bearbeiten der Abschnitte einer Zertifizierung verlassen müssen, müssen Sie die Zertifizierung erneut veröffentlichen. Es wird ein Dialogfeld für die Bestätigung zur erneuten Veröffentlichung der Zertifizierung angezeigt.
 
