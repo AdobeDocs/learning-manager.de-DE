@@ -4,7 +4,7 @@ jcr-language: en_us
 title: Berichte
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: 6142d938c3bd8758cf4c592a0f343e920ae8b0d7
+source-git-commit: 66bdff310bbd040838c66f76d96e027998e0daa2
 workflow-type: tm+mt
 source-wordcount: '8793'
 ht-degree: 55%
@@ -1016,7 +1016,7 @@ Das exportierte Blatt mit Dashboard-Berichten enthält detaillierte Informatione
    *Achsen für Berichte*
 
 1. Wählen Sie aus den Dropdown-Optionen die Kriterien für die sekundäre **[!UICONTROL Y-Achse]** bzw. den Bereich für Ihren Bericht aus. Wählen Sie zum Beispiel für eine Option betreffend die Registrierung für ein Lernprogramm einen oder mehrere Status aus dem Status-Dropdown-Menü neben der Option aus. Sekundäre Bereichsdaten werden im Bericht in Form von Liniendiagrammen dargestellt.
-1. Wählen Sie die für Ihren Bericht geeigneten X&#x200B;**-Achse**-Kriterien aus den Dropdownoptionen aus. Wenn Sie das Datum als Kriterium für die x-Achse ausgewählt haben, steht Ihnen eine Option zur Gruppierung des x-Achsen-Kriteriums nach Tag, Monat, Quartal und Jahr zur Verfügung.
+1. Wählen Sie die für Ihren Bericht geeigneten X**-Achse**-Kriterien aus den Dropdownoptionen aus. Wenn Sie das Datum als Kriterium für die x-Achse ausgewählt haben, steht Ihnen eine Option zur Gruppierung des x-Achsen-Kriteriums nach Tag, Monat, Quartal und Jahr zur Verfügung.
 1. Wählen Sie die gewünschte Option aus dem Dropdown-Menü für die Zeitspanne aus. Die verfügbaren Optionen sind:
 
    * Letzter Monat
@@ -1232,7 +1232,7 @@ Geben Sie beim Erstellen eines Dashboards den Namen und die Beschreibung ein. Ge
 
 Erstellen Sie einen Bericht mit Konfigurationsänderungen, die an den Einstellungen für &quot;Grundlagen&quot;, &quot;Erweitert&quot; und &quot;Integration&quot; Ihres Kontos vorgenommen wurden. Dieser Bericht enthält auch Informationen dazu, wer jede Änderung wann und wann vorgenommen hat und welchen Wert Sie davor und danach festgelegt haben.
 
-## Was der Bericht erfasst
+### Was der Bericht erfasst
 
 Der Administrator Audit Trail-Bericht enthält einen historischen Datensatz mit Konfigurationsänderungen, sodass Sie Folgendes feststellen können:
 
@@ -1251,12 +1251,12 @@ Der Bericht enthält nur ergänzende Angaben: Neue Änderungsdatensätze werden 
 
 Der Bericht steht jedem Benutzer mit Berichtsberechtigung zur Verfügung - einschließlich vollständiger Administratoren und benutzerdefinierter Administratoren, denen der Berichtszugriff gewährt wurde, nicht nur den Kontoeigentümern.
 
-## Aufzeichnungen und Änderungen {#recordschanges}
+### Aufzeichnungen und Änderungen {#recordschanges}
 
 * Datensätze sind ab Update 12, September 2026 verfügbar. Änderungen, die vor dieser Aktualisierung vorgenommen wurden, sind nicht im Bericht enthalten. Siehe [Versionshinweise](/help/migrated/release-note/release-notes.md) Update 112.
 * Änderungen an einer der Einstellungen können bis zu einer Stunde dauern, bis sie im Bericht widergespiegelt werden.
 
-## Warum dieser Bericht für die Compliance wichtig ist
+### Warum dieser Bericht für die Compliance wichtig ist
 
 Unternehmen, die in regulierten Branchen tätig sind, müssen häufig nachweisen, dass Konfigurationsänderungen an Systemen, die elektronische Datensätze verarbeiten, nachverfolgt, zurechenbar und gespeichert werden. Der Administrator-Audit-Bericht unterstützt diese Anforderungen, indem er die Person, die Einstellung, die Zeit und die Vorher- und Nachher-Werte für jede Änderung identifiziert.
 
@@ -1264,7 +1264,7 @@ Unternehmen, die in regulierten Branchen tätig sind, müssen häufig nachweisen
 >
 >Dieser Bericht unterstützt die Compliance-Aktivitäten Ihrer Organisation. Sie bescheinigt allein nicht die Einhaltung spezifischer Vorschriften oder Normen.
 
-## Erstellen eines Administratorprüfprotokollberichts
+### Erstellen eines Administratorprüfprotokollberichts
 
 1. Melden Sie sich bei Adobe Learning Manager als Administrator an.
 2. Wählen Sie in der linken Navigation **Verwalten** > **Berichte** > **Benutzerdefinierte Berichte**.
@@ -1292,7 +1292,7 @@ Unternehmen, die in regulierten Branchen tätig sind, müssen häufig nachweisen
 
 Eine `.csv`-Datei mit den Änderungen wird in den Ordner Downloads Ihres Browsers heruntergeladen. Die Berichterstellung kann einen Moment dauern - Sie können Adobe Learning Manager weiterhin verwenden, während es verarbeitet wird. Wenn Sie das Browserfenster schließen, bevor der Bericht fertig ist, beginnt der Download bei der nächsten Anmeldung.
 
-## Häufige Verwendungszwecke für diesen Bericht
+### Häufige Verwendungszwecke für diesen Bericht
 
 - **Eine unerwartete Einstellungsänderung untersuchen** — Bestätigen Sie, was sich wann geändert hat und wer die Änderung vorgenommen hat, anstatt sich auf Annahmen zu verlassen.
 - **Prüfen Sie die von mehreren Administratoren vorgenommenen Änderungen** — generieren Sie eine konsolidierte Ansicht aller Konfigurationsaktivitäten in den Basics, Integrationen und erweiterten Einstellungen für einen bestimmten Zeitraum, anstatt jeden Administrator einzeln zu kontaktieren.
@@ -1302,7 +1302,7 @@ Eine `.csv`-Datei mit den Änderungen wird in den Ordner Downloads Ihres Browser
 - **Einstellungen nach einer Richtlinienänderung überprüfen** — Überprüfen Sie, ob die beabsichtigten Konfigurationsupdates konsistent angewendet wurden, und ermitteln Sie alle unerwarteten Änderungen.
 - **Verlaufsdatensatz verwalten** — Laden Sie Berichte gemäß den Methoden zur Datensatzverwaltung Ihres Unternehmens herunter, und bewahren Sie sie auf.
 
-## Berichtsspaltenreferenz
+### Berichtsspaltenreferenz
 
 Die heruntergeladene `.csv`-Datei enthält die folgenden Spalten.
 
@@ -1325,16 +1325,16 @@ Die heruntergeladene `.csv`-Datei enthält die folgenden Spalten.
 >
 >Um alle Einstellungen zu suchen, die während eines Zeitraums gelöscht wurden, filtern Sie die heruntergeladene Datei, wobei **Aktionstyp** `DELETE_SETTING` ist.
 
-## Programmgesteuerter Zugriff auf diesen Bericht
+### Programmgesteuerter Zugriff auf diesen Bericht
 
 Sie können den Administrator-Audit-Bericht programmgesteuert über die Jobs-API abrufen, anstatt ihn manuell über die Admin-App zu generieren. Dies ist nützlich, wenn Sie regelmäßige Exporte planen oder den Bericht in ein nachgelagertes Überwachungs- oder Warnsystem einspeisen möchten. Weitere Informationen über die [Job-API für den Bericht zum Administratorprüfpfad](/help/migrated/api-changes-sep-2026.md#job-api-for-admin-audit-trail-report).
 
-## Einschränkungen
+### Einschränkungen
 
 - **Lokalisierung**: Berichtsinhalt ist nicht lokalisiert. Der Bericht wird unabhängig von den konfigurierten Gebietsschemaeinstellungen Ihres Kontos in der Standardkontensprache generiert.
 - **Grund für die Änderung**: Im Bericht wird nicht erfasst, warum eine Änderung vorgenommen wurde. Bewahren Sie alle zugehörigen Änderungsanforderungen, Genehmigungen oder geschäftlichen Begründungen separat auf.
 
-## Best Practices
+### Best Practices
 
 - Wählen Sie einen Datumsbereich aus, der die vermutete oder geplante Änderung abdeckt.
 - Wählen Sie **Alle auswählen**, wenn der betroffene Einstellungsbereich nicht bekannt ist.
@@ -1342,7 +1342,7 @@ Sie können den Administrator-Audit-Bericht programmgesteuert über die Jobs-API
 - Verwenden Sie die Spalten **Administratorname** und **Zeitstempel**, um eine Änderung mit genehmigten Arbeits- oder internen Datensätzen zu korrelieren.
 - Lassen Sie die entsprechende Änderungsanforderung, Genehmigung oder geschäftliche Begründung separat aufbewahren, wenn Ihr Unternehmen eine dokumentierte Erklärung für eine Änderung benötigt.
 
-## Fehlerbehebung
+### Fehlerbehebung
 
 **Ich sehe keine Datensätze vor einem bestimmten Datum.**
 Datensätze sind nur ab Update 112 (September 2026) verfügbar. Änderungen, die vor dieser Aktualisierung vorgenommen wurden, sind nicht im Bericht enthalten. Siehe [Versionshinweise](/help/migrated/release-note/release-notes.md)
