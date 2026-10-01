@@ -2,17 +2,17 @@
 user-guide-title: Leitfaden für Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Dokumentation für Adobe Learning Manager
-source-git-commit: 186c661ef9ee9d61a2ebc790dc4c6d2804d796fd
+nudge: true
+source-git-commit: bad20aa965e151ee4c3cc5be5e5faad008e33198
 workflow-type: tm+mt
-source-wordcount: '1686'
-ht-degree: 36%
-
+source-wordcount: '1786'
+ht-degree: 34%
 ---
 
-
-# Learning Manager-Handbuch {#using}
+# Benutzerhandbuch für Adobe Learning Manager {#using}
 
 * [Benutzerhandbuch für Adobe Learning Manager](user-guide.md)
+* {hide-from-toc}[Adobe Learning Manager-Benutzerhandbuch](user-guide-redesign.md)
 * Einführung {#introduction}
   * [Überblick über die neuen Funktionen August 2026](whats-new.md)
   * [Überblick über die neuen Funktionen April 2026](whats-new-april-2026.md)
@@ -114,7 +114,11 @@ ht-degree: 36%
   * [Alternativen und Äquivalenz](/help/migrated/administrators/feature-summary/alternates-equivalence.md)
   * [Lernpläne](administrators/feature-summary/learning-plans.md)
   * [Verwalten von Learning Manager-Bestellungen und -Abrechnungen](administrators/feature-summary/billing-management.md)
+  * [Freigabe von Lizenzen und Kontoabonnements in Adobe Learning Manager](administrators/feature-summary/tiering-seat-sharing.md)
   * [Arbeitshilfen](administrators/feature-summary/job-aids.md)
+  * Vitual Coach {#virtualcoachadmin}
+    * [Nutzung und Abrechnung von Virtual Coach verwalten](administrators/feature-summary/virtual-coach/manage-virtual-coach-usage-billing.md)
+    * [Virtual Coach-Berichte](administrators/feature-summary/virtual-coach/virtual-coach-reports.md)
   * [Kanäle erstellen (Beta)](administrators/feature-summary/create-channels.md)
   * [Zertifizierungen](administrators/feature-summary/certifications.md)
   * [Zertifikat erstellen und anpassen](/help/migrated/administrators/feature-summary/create-customize-certificate.md)
@@ -164,12 +168,12 @@ ht-degree: 36%
   * [Integration des Teilnehmerassistenten mit iFrame](/help/migrated/integration-admin/feature-summary/learner-assistant-integration-embed-iframe.md)
   * [Migrationshandbuch](integration-admin/feature-summary/migration-manual.md)
   * Learning Manager-Connectors {#connectors}
-    * [Connectors - Übersicht](integration-admin/feature-summary/connectors.md)
-    * [ADFS-Connector](integration-admin/feature-summary/adfs-connector.md)
+    * [Übersicht über Verbindungen](integration-admin/feature-summary/connectors.md)
+    * [ADFS-Verbindung](integration-admin/feature-summary/adfs-connector.md)
     * [Adobe Commerce-Connector](integration-admin/feature-summary/adobe-commerce-connector.md)
-    * [Adobe Connect Connector](integration-admin/feature-summary/adobe-connect-connector.md)
+    * [Adobe Connect Verbindung](integration-admin/feature-summary/adobe-connect-connector.md)
     * [Box-Connector](integration-admin/feature-summary/box-connector.md)
-    * [Benutzerdefinierter FTP-Connector](integration-admin/feature-summary/custom-ftp-connector.md)
+    * [Benutzerdefinierte FTP-Verbindung](integration-admin/feature-summary/custom-ftp-connector.md)
     * [FTP-Connector](integration-admin/feature-summary/ftp-connector.md)
     * [getAbstract-Connector](integration-admin/feature-summary/getabstract-connector.md)
     * [Harvard ManageMentor-Connector](integration-admin/feature-summary/harvard-managementor-connector.md)
@@ -180,7 +184,7 @@ ht-degree: 36%
     * [Salesforce-Connector](integration-admin/feature-summary/salesforce-connector.md)
     * [Connector für Schulungsdatenzugriff](integration-admin/feature-summary/training-data-access-connector.md)
     * [Workday Connector](integration-admin/feature-summary/workday-connector.md)
-    * [Zoom-Connector](integration-admin/feature-summary/zoom-connector.md)
+    * [Zoom-Verbindung](integration-admin/feature-summary/zoom-connector.md)
   * [Nicht angemeldete APIs](integration-admin/feature-summary/non-logged-in-apis.md)
   * Webhooks {#webhooks}
     * [Webhooks](/help/migrated/integration-admin/feature-summary/webhooks.md)
@@ -207,6 +211,15 @@ ht-degree: 36%
   * [Kurse erstellen, ändern und veröffentlichen](authors/feature-summary/courses.md)
   * [Kataloge](authors/feature-summary/catalogs.md)
   * {hide-from-toc}[Adaptiver Kurs](authors/feature-summary/adaptive-course-author.md)
+  * Virtueller Coach {#virtual-coach}
+    * [Was Virtual Coach ist](authors/feature-summary/virtual-coach/what-virtual-coach-is.md)
+    * [Sammeln Sie Materialien für ein virtuelles Coach-Rollenspiel](authors/feature-summary/virtual-coach/gather-materials-for-virtual-coach-role-play.md)
+    * [Entwerfen eines virtuellen Coaches](authors/feature-summary/virtual-coach/role-play-design.md)
+    * Virtuellen Coach erstellen {#create-virtual-coach}
+      * [Rollenspiele mit Vorlagen für virtuelle Coaches erstellen](authors/feature-summary/virtual-coach/create-role-play-using-virtual-coach-template.md)
+      * [Erstellen und Veröffentlichen eines virtuellen Coach-Rollenspiels](authors/feature-summary/virtual-coach/create-publish-virtual-coach-role-play.md)
+    * [Hinzufügen eines virtuellen Coach-Rollenspiels zu einem Kurs](authors/feature-summary/virtual-coach/add-virtual-coach-role-play-to-course.md)
+    * [Häufige Fragen zum virtuellen Coach](authors/feature-summary/virtual-coach/virtual-coach-faq.md)
   * [Arbeitshilfen](authors/feature-summary/job-aids.md)
   * [Leistungsübersicht](authors/feature-summary/alm-author-gradebook.md)
   * [Benutzer von iPad- und Android-Tablets](authors/feature-summary/ipad-android-tablet-users.md)
@@ -224,7 +237,7 @@ ht-degree: 36%
       * [Wofür ist Content Composer?](authors/feature-summary/content-composer/who-content-composer-is-for.md)
       * [Konfigurieren des Creative Cloud-Speichers für Content Composer](authors/feature-summary/content-composer/configure-creative-cloud-storage-content-composer.md)
       * [Was Sie benötigen, bevor Sie beginnen](authors/feature-summary/content-composer/before-you-start.md)
-      * [Untermauern Sie Ihren Kurs in Ihren eigenen Dokumenten](authors/feature-summary/content-composer/ground-course-documents.md)
+      * [Boden in eigenen Dokumenten anlegen](authors/feature-summary/content-composer/ground-course-documents.md)
       * [Was Content Composer nicht ist](authors/feature-summary/content-composer/what-content-composer-is-not.md)
     * Erfolgreiche Eingabeaufforderungen schreiben {#write-effective-prompt}
       * [Erstellen effektiver Eingabeaufforderungen in Content Composer](authors/feature-summary/content-composer/write-effective-prompts.md)
@@ -276,6 +289,9 @@ ht-degree: 36%
   * [Anmelden](learners/feature-summary/user-login.md)
   * [Profileinstellungen](learners/feature-summary/settings.md)
   * [Kataloge](learners/feature-summary/catalogs.md)
+  * [Virtueller Coach] {#virtualcoach}
+    * [Mit Virtual Coach ein Rollenspiel üben](learners/feature-summary/virtual-coach/practice-role-play-with-virtual-coach.md)
+    * [Verstehen Ihres Virtual Coach-Leistungsberichts](learners/feature-summary/virtual-coach/understand-virtual-coach-performance-report.md)
   * [Registrierung mit einem Klick](learners/feature-summary/learner-one-click-enrollment.md)
   * [Von mir gespeicherte Widgets](learners/feature-summary/saved-by-me-widget.md)
   * [Eigenes Lernen](learners/feature-summary/courses.md)
@@ -389,6 +405,7 @@ ht-degree: 36%
   * [Erstellen eines Testkontos in Adobe Learning Manager](/help/migrated/create-trial-account.md)
 * API-Änderungen {#api-changes}
   * [Inkrementeller Benutzerbericht (Job-API)](/help/migrated/incremental-user-report.md)
+  * [API-Änderungen in der Version vom September 2026](/help/migrated/api-changes-sep-2026.md)
   * [API-Änderungen in der Version August 2026](/help/migrated/api-changes-august-2026.md)
   * [API-Änderungen in der Version April 2026](/help/migrated/api-changes-alm.md)
   * [API-Änderungen in der Version vom Mai 2026](/help/migrated/api-changes-alm-may.md)

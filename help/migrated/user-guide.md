@@ -3,13 +3,11 @@ title: Willkommen beim Benutzerhandbuch für Adobe Learning Manager
 description: Informieren Sie sich über das neueste Angebot in Adobe Learning Manager (früher Adobe Captivate Prime). Starten Sie am Anfang, sehen Sie sich jeden Abschnitt einzeln an oder interagieren Sie mit der Community, um sich durch ein Projekt zu arbeiten.
 contentowner: dhv
 exl-id: 482314a1-1cb1-4fb7-aa52-ee1969c5240a
-source-git-commit: 45a8a3fda16025d9a34d7614c899132a2b3d7922
+source-git-commit: 3d72e5ad28f5d57090d40914a983b5c665a2e7df
 workflow-type: tm+mt
 source-wordcount: '151'
 ht-degree: 29%
-
 ---
-
 # Willkommen beim Benutzerhandbuch für Adobe Learning Manager
 
 Lesen Sie weiter, um zu erfahren, welches das neueste Angebot in Adobe Learning Manager (früher Adobe Captivate Prime) ist. Beginnen Sie von Anfang an, erkunden Sie jeden Abschnitt in Ihrem eigenen Tempo oder verbinden Sie sich mit der Community, während Sie an Ihrem Projekt arbeiten.
@@ -44,7 +42,7 @@ Besuchen Sie die [Adobe Learning Manager-Benutzer-Community](https://community.a
     <img alt="Connector" src="assets/learning-manager-connectors.png" width="150">
     </a>
     <div style="margin-top:12px; line-height:1.4;">
-    <a href="integration-admin/feature-summary/connectors.md"><strong>Learning Manager-Connectors</strong></a>
+    <a href="integration-admin/feature-summary/connectors.md"><strong>Learning Manager-Verbindungen</strong></a>
     </div>
    </td>
    <td style="width:25%; text-align:left; vertical-align:top;">

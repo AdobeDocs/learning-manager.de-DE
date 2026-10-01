@@ -3,13 +3,11 @@ title: Richtlinien und Einschränkungen von Experience Builder in Adobe Learning
 description: Richtlinien und Einschränkungen von Experience Builder bieten Teilnehmern, die KI-gestützte Algorithmen verwenden, personalisierte Kurs- und Inhaltsvorschläge.
 jcr-language: en-us
 exl-id: 2eaeb2af-cd72-4400-9f6e-410c05acda55
-source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
+source-git-commit: 1830489f446d0071604b0d8102d54d7ed800bc27
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '815'
 ht-degree: 0%
-
 ---
-
 # Richtlinien und Einschränkungen von Experience Builder
 
 Experience Builder ist ein leistungsstarkes Tool, mit dem Benutzer mühelos dynamische und ansprechende Webseiten erstellen können. Um optimale Leistung, Benutzerfreundlichkeit und Sicherheit zu gewährleisten, ist es wichtig, bestimmte Richtlinien und Empfehlungen zu befolgen, wenn Sie Seiten konfigurieren, Widgets verwenden und Layouts anpassen. Dieses Dokument bietet einen detaillierten Überblick über wichtige Hinweise und Punkte, die Benutzer bei der Arbeit mit Experience Builder berücksichtigen sollten.
@@ -81,7 +79,7 @@ Menüs können oben oder links auf der Seite positioniert werden. Weitere Anpass
 
 ### Haftungsausschluss
 
-* Benutzerdefinierter Code funktioniert in zukünftigen Versionen möglicherweise nicht wie erwartet und erfordert Anpassungen. Sei darauf vorbereitet, ihren Code nach jeder Veröffentlichung zu aktualisieren.
+* Benutzerdefinierte HTML-, CSS- und JavaScript-Anpassungen werden unterstützt. Bei Plattformaktualisierungen können jedoch gelegentlich geringfügige Anpassungen an benutzerdefiniertem Code erforderlich sein. Wir empfehlen, Anpassungen nach Hauptversionen im Rahmen der regelmäßigen Wartung zu testen.
 
 ## Allgemeine Empfehlungen
 
