@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Berichte
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: 33227dd7d4a811c0c9b983bc20facb671a9afd8f
+source-git-commit: 45d5507b118925f977db1425ef633184abcb98e7
 workflow-type: tm+mt
-source-wordcount: '8793'
-ht-degree: 55%
+source-wordcount: '9042'
+ht-degree: 54%
 ---
 # Berichte {#reports}
 
@@ -1016,7 +1016,7 @@ Das exportierte Blatt mit Dashboard-Berichten enthält detaillierte Informatione
    *Achsen für Berichte*
 
 1. Wählen Sie aus den Dropdown-Optionen die Kriterien für die sekundäre **[!UICONTROL Y-Achse]** bzw. den Bereich für Ihren Bericht aus. Wählen Sie zum Beispiel für eine Option betreffend die Registrierung für ein Lernprogramm einen oder mehrere Status aus dem Status-Dropdown-Menü neben der Option aus. Sekundäre Bereichsdaten werden im Bericht in Form von Liniendiagrammen dargestellt.
-1. Wählen Sie die für Ihren Bericht geeigneten X&#x200B;**-Achse**-Kriterien aus den Dropdownoptionen aus. Wenn Sie das Datum als Kriterium für die x-Achse ausgewählt haben, steht Ihnen eine Option zur Gruppierung des x-Achsen-Kriteriums nach Tag, Monat, Quartal und Jahr zur Verfügung.
+1. Wählen Sie die für Ihren Bericht geeigneten X**-Achse**-Kriterien aus den Dropdownoptionen aus. Wenn Sie das Datum als Kriterium für die x-Achse ausgewählt haben, steht Ihnen eine Option zur Gruppierung des x-Achsen-Kriteriums nach Tag, Monat, Quartal und Jahr zur Verfügung.
 1. Wählen Sie die gewünschte Option aus dem Dropdown-Menü für die Zeitspanne aus. Die verfügbaren Optionen sind:
 
    * Letzter Monat
@@ -1246,6 +1246,69 @@ Der Bericht behandelt Änderungen an:
 - **Grundlegendes** Einstellungen
 - **Erweiterte** Einstellungen
 - **Integrationen** Einstellungen
+
+Um die vollständige Liste der Einstellungen und deren Details unter jeder Kategorie anzuzeigen, können Sie den Link **Liste der Einstellungen herunterladen** aus dem Popup &quot;Administratorprüfpfad&quot; auswählen, das angezeigt wird, bevor Sie den Bericht generieren.
+
+Unter den folgenden Kategorien sind die Optionen verfügbar:
+
+**Grundlagen**
+
+* Basic Info
+* Kursmoderation
+* Diskussions-Dashboard
+* Mehrere Versuche
+* Sichtbarkeit von Kenntnissen, Tags, Produkten und Rollen
+* Eindeutige Lernobjekt-IDs → Aktivieren
+* Filterbereiche anzeigen
+* Standardansicht (Teilnehmerrolle) → Listenansicht
+* Kursleiterverwaltung
+* Modulvorschau
+* Preisgestaltung für Kurse/Lernpfade/Zertifizierungen aktivieren
+* Warenkorb für SKU mit mehreren Artikeln aktivieren
+* Playereinstellungen
+* Manager können den Abschluss markieren
+* Benutzer automatisch registrieren
+* Interne Benutzer automatisch löschen (wenn sie seit (konfigurierbare Anzahl) Tagen nicht auf das System zugreifen)
+* Katalogbeschriftungen anzeigen
+* Benutzerdefinierter Kompatibilitätstyp
+* Teilnehmer können ihre Punktzahl anzeigen
+* Auswahl-E-Mail
+* Symbole &quot;Kurs/Lernpfad/Zertifizierung/Arbeitshilfe-Karte aktivieren&quot;
+* Links für Fußzeile
+* Berichtszeitzone
+* Badgr-Integration
+* Bewertungen anzeigen
+* Popupmenü &quot;Sternebewertung&quot; im Player anzeigen
+* Produktterminologie
+* Modulversions-Update
+* Einstellen (Kurs, Lernpfad oder Zertifizierung)
+* Automatische Einstellung (Kurs, Lernpfad oder Zertifizierung)
+* Alle für den Kurs registrierten Kurse in Suchergebnissen anzeigen
+* Import von Kenntnissen
+* Schulungsbuch (Teilnehmersichtbarkeit)
+* Gelöschte Benutzer automatisch entfernen
+* Punktzahl
+* Alternative Kurse/Pfade
+* Externes Lernprogramm
+
+**Integrationen**
+
+* Anmeldungsmethoden (intern und extern)
+* Konfiguration von Single Sign-on (SSO)
+* Datenquellen - (Quellen + Synchronisationseinstellungen)
+* Partnerinformationen hinzufügen
+
+**Erweitert**
+
+* Katalogbezeichnungen → alle Katalogbezeichnungen
+* Katalogbeschriftungen → Einstellungen (Wertzugriff)
+* Inhaltsordner
+* Speicherorte für Klassenzimmer → Liste und Editor
+* Speicherorte in Klassenzimmern → Autorenberechtigungen (Einstellungen)
+* Speicherorte für Klassenzimmer → Massenimport
+* Speicherorte → Klassenzimmern Speicherortformatmigration
+* Ferienkalender
+* Berichte - Einstellungen (Kompatibilitäts- und Gruppen-Dashboards)
 
 Der Bericht enthält nur ergänzende Angaben: Neue Änderungsdatensätze werden im Laufe der Zeit hinzugefügt und zuvor aufgezeichnete Einträge werden nie entfernt. Auf diese Weise können Sie den gesamten Verlauf einer Einstellung über mehrere Änderungen hinweg überprüfen, nicht nur den aktuellen Wert.
 
