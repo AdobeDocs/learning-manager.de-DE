@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Versionshinweise zu Adobe Learning Manager
 contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 090ee5ad1b93ece718c0217f5e4427a46b805f88
+source-git-commit: 45d5507b118925f977db1425ef633184abcb98e7
 workflow-type: tm+mt
-source-wordcount: '35308'
+source-wordcount: '35230'
 ht-degree: 63%
 ---
 # Versionshinweise zu Adobe Learning Manager
@@ -32,6 +32,15 @@ ht-degree: 63%
 
 **Sitzfreigabe:** Die Sitzfreigabe ermöglicht es einem Konto, einen Teil seiner lizenzierten Lizenzen für ein anderes Konto freizugeben, sodass Teilnehmer im Empfängerkonto über die freigegebenen Lizenzen auf Adobe Learning Manager zugreifen können. Die Freigabe von Lizenzen ist nur für Ultimate -Konten verfügbar. Prime-Konten können weder Lizenzen teilen noch erhalten, und Konten mit Kreditkartenabrechnung sind standardmäßig im Prime-Abo enthalten. Testkonten sind eine Ausnahme und können gemeinsam genutzte Lizenzen von einem Ultimate -Konto erhalten. Während einer aktiven Beziehung zur gemeinsamen Nutzung von Lizenzen erhält das Testkonto Zugriff auf die Funktionen auf Ultimate-Ebene. [Weitere Informationen](/help/migrated/administrators/feature-summary/tiering-seat-sharing.md).
 
+**Verbesserungen des Learning Path Agent:** Der Learning Path Agent bietet jetzt mehr Flexibilität beim Erstellen und Verfeinern personalisierter Lernpfade, bevor diese gespeichert werden.
+
+* **Weitere Lernpfade erstellen:** Teilnehmer können jetzt bis zu 20 Lernpfade erstellen, die gegenüber dem vorherigen Grenzwert von 10 erhöht wurden.
+* **Verfeinern Sie einen Pfad vor dem Speichern:** Teilnehmer können den Agenten in natürlicher Sprache bitten, Kurse hinzuzufügen, zu entfernen oder zu ersetzen, bevor ein Lernpfad gespeichert wird. Der Agent aktualisiert nur den angeforderten Kurs, während der Rest des Pfads unverändert bleibt, sodass die Teilnehmer den Pfad weiter verfeinern können, bis er ihren Bedürfnissen entspricht.
+* **Verbesserte Handhabung vollständiger Lernpfade:** Ein Lernpfad kann bis zu fünf Kurse enthalten. Wenn ein Teilnehmer bittet, einen weiteren Kurs zu einem vollständigen Pfad hinzuzufügen, fordert der Agent ihn auf, einen vorhandenen Kurs auszuwählen, der ersetzt werden soll.
+* **Intelligentere Anleitung für Kursänderungen:** Wenn die Anforderung eines Teilnehmers unklar ist, bittet der Agent um Klärung, bevor der Pfad geändert wird. Wenn kein geeigneter Ersatzkurs verfügbar ist, erläutert der Support-Mitarbeiter die Einschränkung und empfiehlt die am ehesten passende Alternative.
+
+[Weitere Informationen](/help/migrated/learners/feature-summary/learning-path-agent.md).
+
 **Administrator-Audit-Bericht:** Der Administrator-Audit-Bericht enthält einen historischen Datensatz mit Konfigurationsänderungen, anhand dessen Sie Folgendes ermitteln können:
 
 * Wer hat die Änderung vorgenommen?
@@ -44,69 +53,6 @@ Der Bericht behandelt Änderungen an:
 * Grundlagen
 * Erweitert
 * Integrationen
-
-Um die vollständige Liste der Einstellungen und deren Details unter jeder Kategorie anzuzeigen, können Sie den Link **Liste der Einstellungen herunterladen** aus dem Popup &quot;Administratorprüfpfad&quot; auswählen, das angezeigt wird, bevor Sie den Bericht generieren.
-
-Unter den folgenden Kategorien sind die Optionen verfügbar:
-
-Grundlagen
-
-* Basic Info
-* Kursmoderation
-* Diskussions-Dashboard
-* Mehrere Versuche
-* Sichtbarkeit von Kenntnissen, Tags, Produkten und Rollen
-* Eindeutige Lernobjekt-IDs → Aktivieren
-* Filterbereiche anzeigen
-* Standardansicht (Teilnehmerrolle) → Listenansicht
-* Kursleiterverwaltung
-* Modulvorschau
-* Preisgestaltung für Kurse/Lernpfade/Zertifizierungen aktivieren
-* Warenkorb für SKU mit mehreren Artikeln aktivieren
-* Playereinstellungen
-* Manager können den Abschluss markieren
-* Benutzer automatisch registrieren
-* Interne Benutzer automatisch löschen (wenn sie seit (konfigurierbare Anzahl) Tagen nicht auf das System zugreifen)
-* Katalogbeschriftungen anzeigen
-* Benutzerdefinierter Kompatibilitätstyp
-* Teilnehmer können ihre Punktzahl anzeigen
-* Auswahl-E-Mail
-* Symbole &quot;Kurs/Lernpfad/Zertifizierung/Arbeitshilfe-Karte aktivieren&quot;
-* Links für Fußzeile
-* Berichtszeitzone
-* Badgr-Integration
-* Bewertungen anzeigen
-* Popupmenü &quot;Sternebewertung&quot; im Player anzeigen
-* Produktterminologie
-* Modulversions-Update
-* Einstellen (Kurs, Lernpfad oder Zertifizierung)
-* Automatische Einstellung (Kurs, Lernpfad oder Zertifizierung)
-* Alle für den Kurs registrierten Kurse in Suchergebnissen anzeigen
-* Import von Kenntnissen
-* Schulungsbuch (Teilnehmersichtbarkeit)
-* Gelöschte Benutzer automatisch entfernen
-* Punktzahl
-* Alternative Kurse/Pfade
-* Externes Lernprogramm
-
-Integrationen
-
-* Anmeldungsmethoden (intern und extern)
-* Konfiguration von Single Sign-on (SSO)
-* Datenquellen - (Quellen + Synchronisationseinstellungen)
-* Partnerinformationen hinzufügen
-
-Erweitert
-
-* Katalogbezeichnungen → alle Katalogbezeichnungen
-* Katalogbeschriftungen → Einstellungen (Wertzugriff)
-* Inhaltsordner
-* Speicherorte für Klassenzimmer → Liste und Editor
-* Speicherorte in Klassenzimmern → Autorenberechtigungen (Einstellungen)
-* Speicherorte für Klassenzimmer → Massenimport
-* Speicherorte → Klassenzimmern Speicherortformatmigration
-* Ferienkalender
-* Berichte - Einstellungen (Kompatibilitäts- und Gruppen-Dashboards)
 
 Dieser Bericht kann auch von der Job-API generiert werden. Siehe [Administrator Audit Trail Report](/help/migrated/administrators/feature-summary/reports.md#adminaudittrailreport) und [Job API für Administrator Audit Trail Report](/help/migrated/api-changes-sep-2026.md#apiaudittrailreport)
 

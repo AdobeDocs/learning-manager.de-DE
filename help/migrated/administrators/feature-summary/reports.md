@@ -4,10 +4,10 @@ jcr-language: en_us
 title: Berichte
 contentowner: manochan
 exl-id: 31b176b7-4b8f-4851-a0c5-4eee58bceb41
-source-git-commit: 66bdff310bbd040838c66f76d96e027998e0daa2
+source-git-commit: 45d5507b118925f977db1425ef633184abcb98e7
 workflow-type: tm+mt
-source-wordcount: '8793'
-ht-degree: 55%
+source-wordcount: '9042'
+ht-degree: 54%
 ---
 # Berichte {#reports}
 
@@ -1247,9 +1247,72 @@ Der Bericht behandelt Änderungen an:
 - **Erweiterte** Einstellungen
 - **Integrationen** Einstellungen
 
+Um die vollständige Liste der Einstellungen und deren Details unter jeder Kategorie anzuzeigen, können Sie den Link **Liste der Einstellungen herunterladen** aus dem Popup &quot;Administratorprüfpfad&quot; auswählen, das angezeigt wird, bevor Sie den Bericht generieren.
+
+Unter den folgenden Kategorien sind die Optionen verfügbar:
+
+**Grundlagen**
+
+* Basic Info
+* Kursmoderation
+* Diskussions-Dashboard
+* Mehrere Versuche
+* Sichtbarkeit von Kenntnissen, Tags, Produkten und Rollen
+* Eindeutige Lernobjekt-IDs → Aktivieren
+* Filterbereiche anzeigen
+* Standardansicht (Teilnehmerrolle) → Listenansicht
+* Kursleiterverwaltung
+* Modulvorschau
+* Preisgestaltung für Kurse/Lernpfade/Zertifizierungen aktivieren
+* Warenkorb für SKU mit mehreren Artikeln aktivieren
+* Playereinstellungen
+* Manager können den Abschluss markieren
+* Benutzer automatisch registrieren
+* Interne Benutzer automatisch löschen (wenn sie seit (konfigurierbare Anzahl) Tagen nicht auf das System zugreifen)
+* Katalogbeschriftungen anzeigen
+* Benutzerdefinierter Kompatibilitätstyp
+* Teilnehmer können ihre Punktzahl anzeigen
+* Auswahl-E-Mail
+* Symbole &quot;Kurs/Lernpfad/Zertifizierung/Arbeitshilfe-Karte aktivieren&quot;
+* Links für Fußzeile
+* Berichtszeitzone
+* Badgr-Integration
+* Bewertungen anzeigen
+* Popupmenü &quot;Sternebewertung&quot; im Player anzeigen
+* Produktterminologie
+* Modulversions-Update
+* Einstellen (Kurs, Lernpfad oder Zertifizierung)
+* Automatische Einstellung (Kurs, Lernpfad oder Zertifizierung)
+* Alle für den Kurs registrierten Kurse in Suchergebnissen anzeigen
+* Import von Kenntnissen
+* Schulungsbuch (Teilnehmersichtbarkeit)
+* Gelöschte Benutzer automatisch entfernen
+* Punktzahl
+* Alternative Kurse/Pfade
+* Externes Lernprogramm
+
+**Integrationen**
+
+* Anmeldungsmethoden (intern und extern)
+* Konfiguration von Single Sign-on (SSO)
+* Datenquellen - (Quellen + Synchronisationseinstellungen)
+* Partnerinformationen hinzufügen
+
+**Erweitert**
+
+* Katalogbezeichnungen → alle Katalogbezeichnungen
+* Katalogbeschriftungen → Einstellungen (Wertzugriff)
+* Inhaltsordner
+* Speicherorte für Klassenzimmer → Liste und Editor
+* Speicherorte in Klassenzimmern → Autorenberechtigungen (Einstellungen)
+* Speicherorte für Klassenzimmer → Massenimport
+* Speicherorte → Klassenzimmern Speicherortformatmigration
+* Ferienkalender
+* Berichte - Einstellungen (Kompatibilitäts- und Gruppen-Dashboards)
+
 Der Bericht enthält nur ergänzende Angaben: Neue Änderungsdatensätze werden im Laufe der Zeit hinzugefügt und zuvor aufgezeichnete Einträge werden nie entfernt. Auf diese Weise können Sie den gesamten Verlauf einer Einstellung über mehrere Änderungen hinweg überprüfen, nicht nur den aktuellen Wert.
 
-Der Bericht steht jedem Benutzer mit Berichtsberechtigung zur Verfügung - einschließlich vollständiger Administratoren und benutzerdefinierter Administratoren, denen der Berichtszugriff gewährt wurde, nicht nur den Kontoeigentümern.
+Der Bericht steht jedem Benutzer mit Berichtsrechten zur Verfügung. Dies umfasst vollständige Administratoren und benutzerdefinierte Administratoren, denen Berichtszugriff gewährt wurde, nicht nur Kontoeigentümer.
 
 ### Aufzeichnungen und Änderungen {#recordschanges}
 
