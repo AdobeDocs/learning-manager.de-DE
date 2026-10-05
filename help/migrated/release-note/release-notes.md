@@ -4,9 +4,9 @@ jcr-language: en_us
 title: Versionshinweise zu Adobe Learning Manager
 contentowner: mmanuel
 exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
-source-git-commit: 090ee5ad1b93ece718c0217f5e4427a46b805f88
+source-git-commit: 33227dd7d4a811c0c9b983bc20facb671a9afd8f
 workflow-type: tm+mt
-source-wordcount: '35308'
+source-wordcount: '35479'
 ht-degree: 63%
 ---
 # Versionshinweise zu Adobe Learning Manager
@@ -17,7 +17,7 @@ ht-degree: 63%
   <tr>
    <td><img src="assets/cp-prime-appicon-88x84.png"></td>
    <td>
-    <p><a href="https://business.adobe.com/de/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
+    <p><a href="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
   </tr>
  </tbody>
 </table>
@@ -31,6 +31,15 @@ ht-degree: 63%
 **Virtueller Coach:** Der virtuelle Coach ist eine KI-gestützte Coaching-Lösung in Adobe Learning Manager, die die Teilnehmer dabei unterstützt, Fertigkeiten durch realistische Rollenspielszenarien, personalisiertes Feedback und On-Demand-Übungen zu entwickeln, bevor sie diese Fertigkeiten in realen Situationen anwenden. [Weitere Informationen](/help/migrated/authors/feature-summary/virtual-coach/what-virtual-coach-is.md).
 
 **Sitzfreigabe:** Die Sitzfreigabe ermöglicht es einem Konto, einen Teil seiner lizenzierten Lizenzen für ein anderes Konto freizugeben, sodass Teilnehmer im Empfängerkonto über die freigegebenen Lizenzen auf Adobe Learning Manager zugreifen können. Die Freigabe von Lizenzen ist nur für Ultimate -Konten verfügbar. Prime-Konten können weder Lizenzen teilen noch erhalten, und Konten mit Kreditkartenabrechnung sind standardmäßig im Prime-Abo enthalten. Testkonten sind eine Ausnahme und können gemeinsam genutzte Lizenzen von einem Ultimate -Konto erhalten. Während einer aktiven Beziehung zur gemeinsamen Nutzung von Lizenzen erhält das Testkonto Zugriff auf die Funktionen auf Ultimate-Ebene. [Weitere Informationen](/help/migrated/administrators/feature-summary/tiering-seat-sharing.md).
+
+**Verbesserungen des Learning Path Agent:** Der Learning Path Agent bietet jetzt mehr Flexibilität beim Erstellen und Verfeinern personalisierter Lernpfade, bevor diese gespeichert werden.
+
+* **Weitere Lernpfade erstellen:** Teilnehmer können jetzt bis zu 20 Lernpfade erstellen, die gegenüber dem vorherigen Grenzwert von 10 erhöht wurden.
+* **Verfeinern Sie einen Pfad vor dem Speichern:** Teilnehmer können den Agenten in natürlicher Sprache bitten, Kurse hinzuzufügen, zu entfernen oder zu ersetzen, bevor ein Lernpfad gespeichert wird. Der Agent aktualisiert nur den angeforderten Kurs, während der Rest des Pfads unverändert bleibt, sodass die Teilnehmer den Pfad weiter verfeinern können, bis er ihren Bedürfnissen entspricht.
+* **Verbesserte Handhabung vollständiger Lernpfade:** Ein Lernpfad kann bis zu fünf Kurse enthalten. Wenn ein Teilnehmer bittet, einen weiteren Kurs zu einem vollständigen Pfad hinzuzufügen, fordert der Agent ihn auf, einen vorhandenen Kurs auszuwählen, der ersetzt werden soll.
+* **Intelligentere Anleitung für Kursänderungen:** Wenn die Anforderung eines Teilnehmers unklar ist, bittet der Agent um Klärung, bevor der Pfad geändert wird. Wenn kein geeigneter Ersatzkurs verfügbar ist, erläutert der Support-Mitarbeiter die Einschränkung und empfiehlt die am ehesten passende Alternative.
+
+[Weitere Informationen](/help/migrated/learners/feature-summary/learning-path-agent.md).
 
 **Administrator-Audit-Bericht:** Der Administrator-Audit-Bericht enthält einen historischen Datensatz mit Konfigurationsänderungen, anhand dessen Sie Folgendes ermitteln können:
 
@@ -463,7 +472,7 @@ included[].attributes.startDate
 
 startDate stellt das geplante Startdatum und die geplante Startzeit einer Lernobjektinstanz dar.
 
-Weitere Informationen [finden Sie unter API-Änderungen in der Version vom Mai &#x200B;](/help/migrated/api-changes-alm-may.md).
+Weitere Informationen [finden Sie unter API-Änderungen in der Version vom Mai ](/help/migrated/api-changes-alm-may.md).
 
 
 +++
@@ -640,7 +649,7 @@ Feedbackformulare können in weitere Sprachen Kamera bewogen werden, wobei die g
 * Weisen Sie den verschiedenen Schulungsprogrammen maßgeschneiderte Feedback-Formulare zu. So können z. B. bei Vertriebskursen Fragen im NPS-Fokus beantwortet werden, während Compliance-Kurse Fragen in den Bereichen Kurseffektivität und Likert-Skala beantworten, um Klarheit und Richtlinienverständnis zu messen.
 * Verwenden Sie separate Feedbackformulare basierend auf Lernmodulen. Beispiel: drei verschiedene Formulare für angeglichene Module, Module zum Selbststudium und Klassenzimmermodule.
 
-Weitere Informationen finden Sie im [L1-Feedbackformular &#x200B;](/help/migrated/administrators/feature-summary/l1-feedback-form.md).
+Weitere Informationen finden Sie im [L1-Feedbackformular ](/help/migrated/administrators/feature-summary/l1-feedback-form.md).
 
 +++
 
@@ -754,7 +763,7 @@ Weitere Informationen zum Fluidic Player finden Sie in diesem [Artikel](/help/mi
 
 * Es wurde ein Problem behoben, durch das Teilnehmer, die einen Kurs abgeschlossen hatten, einen weißen Bildschirm sahen, wenn sie ihn erneut besuchten, nachdem das Inhaltsmodul auf eine neue Version aktualisiert wurde.
 
-Weitere Informationen zu bevorstehenden Änderungen an Adobe Learning Manager finden Sie in diesem [Artikel](https://experienceleague.adobe.com/de/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
+Weitere Informationen zu bevorstehenden Änderungen an Adobe Learning Manager finden Sie in diesem [Artikel](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
 
 +++
 
@@ -1800,7 +1809,7 @@ Weitere Informationen finden Sie unter „Neue Funktionen“ im [Update von Lear
 * Das Herunterladen von Ressourcen aus einem Kurs funktionierte nicht, wenn er aus einem anderen Kurs kopiert wurde und der Teilnehmer keinen Zugriff auf den ursprünglichen zum Erstellen des duplizierten Kurses verwendeten Kurs hat.
 * Bannerbilder wurden nicht gelöscht, wenn der Autor sie entfernt, während sich der Kurs im Entwurfsstatus befindet. Dieses Problem wurde behoben.
 
-**AEM &#x200B;**
+**AEM **
 
 * Nach dem Einfügen der Learning Manager-Komponente in AEM dauerte das Laden der Seite lange und der Zugriff auf die anderen Komponenten war nicht möglich. Dieses Problem wurde behoben.
 
@@ -2234,7 +2243,7 @@ In diesem Update kann ein Teilnehmer Assets als Abschlussnachweis für ein exter
 
 Ein Teilnehmer kann ein externes Zertifikat öffnen und Assets wie PDF-, Text- oder Bilddateien hochladen.
 
-Weitere Informationen finden Sie unter [***Hochladen von Assets in externes Zertifikat***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).**&#x200B;**
+Weitere Informationen finden Sie unter [***Hochladen von Assets in externes Zertifikat***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).****
 
 ### In diesem Update behobene Probleme {#issuesfixedinthisrelease}
 
@@ -2612,7 +2621,7 @@ Freigabedatum: 20. Juni 2019
 
 **Automatische Kuration des Inhalts**
 
-Mit Soziales Lernen können von Teilnehmern gepostete Inhalte auf zwei Arten kuratiert werden: **Keine Kuration** und **Manuelle Kuration**. In dieser Version hat Adobe Learning Manager das Soziale Lernen verbessert, indem AI-fähige Funktionen zur automatischen Kuration bereitgestellt wurden. Sobald der Inhalt veröffentlicht wurde, wird der Inhalt analysiert, um festzustellen, ob der Inhalt zu den Kenntnissen gehört, für die er veröffentlicht wurde. Basierend auf dem Confidence-Ergebnis wird der Inhalt entweder live veröffentlicht oder zur manuellen Kuration gesendet. Weitere Informationen finden Sie unter *[**&#x200B; Automatische Kuration &#x200B;**](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
+Mit Soziales Lernen können von Teilnehmern gepostete Inhalte auf zwei Arten kuratiert werden: **Keine Kuration** und **Manuelle Kuration**. In dieser Version hat Adobe Learning Manager das Soziale Lernen verbessert, indem AI-fähige Funktionen zur automatischen Kuration bereitgestellt wurden. Sobald der Inhalt veröffentlicht wurde, wird der Inhalt analysiert, um festzustellen, ob der Inhalt zu den Kenntnissen gehört, für die er veröffentlicht wurde. Basierend auf dem Confidence-Ergebnis wird der Inhalt entweder live veröffentlicht oder zur manuellen Kuration gesendet. Weitere Informationen finden Sie unter *[** Automatische Kuration **](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
 
 **Zuordnen von Kenntnissen zu Kenntnisdomänen**
 
@@ -3238,7 +3247,7 @@ Freigabedatum: 06. Dezember 2016.
 
 ### Verbesserungen {#enhancement}
 
-Als Teil dieses Updates stellt der Lern-Manager einen Endpunkt <!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) --> bereit, um Benutzer in einer Anwendung zu aktualisieren. Sie können auf diesen API-Endpunkt in der Administratorrolle zugreifen. Unter Verwendung **&#x200B;**&#x200B;Endpunkts können Sie die folgenden Informationen von Learning Manager-Benutzern aktualisieren:
+Als Teil dieses Updates stellt der Lern-Manager einen Endpunkt <!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) --> bereit, um Benutzer in einer Anwendung zu aktualisieren. Sie können auf diesen API-Endpunkt in der Administratorrolle zugreifen. Unter Verwendung **** Endpunkts können Sie die folgenden Informationen von Learning Manager-Benutzern aktualisieren:
 
 * Name
 * E-Mail
@@ -3748,7 +3757,7 @@ Das Exportieren von Registrierungsdaten schlug fehl, wenn einer der registrierte
 
 **E-Mail-Vorlagen**
 
-* Die Wort **partner,** die verwendet wurden, um externe Gruppen zu repräsentieren **&#x200B;**&#x200B;wurden **&#x200B;**&#x200B;aus dem Text und dem Titel der E-Mail-Vorlagen entfernt. Externe Gruppen werden nicht unbedingt Partner genannt.\
+* Die Wort **partner,** die verwendet wurden, um externe Gruppen zu repräsentieren **** wurden **** aus dem Text und dem Titel der E-Mail-Vorlagen entfernt. Externe Gruppen werden nicht unbedingt Partner genannt.\
   **Hinweis:** Diese aktualisierte Vorlage wird nicht angezeigt, wenn die Standardvorlage bereits geändert wurde. Um die aktualisierte Vorlage anzuzeigen, klicken Sie auf **Auf Original zurücksetzen** im Dialogfeld **Vorlagenvorschau**.
 
 * URL kann in der E-Mail, die von den Administratoren erhalten wird, nicht angeklickt werden, wenn E-Mail-Vorlagen **Profil erstellt (Selbstregistrierung)** und **Profil erstellt (Externe/Partner)** bearbeitet werden. Dieses Problem wurde nun behoben.
