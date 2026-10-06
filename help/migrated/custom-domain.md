@@ -6,16 +6,14 @@ contentowner: saghosh
 exl-id: 162ce268-48e3-4c7e-acb1-5181cebbb18d
 source-git-commit: a09c81a6dacbfc4bb55db39e64820ba87ce53d09
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 66%
-
+source-wordcount: '457'
+ht-degree: 78%
 ---
-
 # Unterstützung für benutzerdefinierte Domäne
 
 Benutzerdefinierte Domänen werden in einer Azure-Instanz von Learning Manager nicht unterstützt.
 
-## Überblick {#overview}
+## Übersicht {#overview}
 
 Die Unterstützung benutzerdefinierter Domänen ermöglicht den Kunden, die vollständige Kontrolle über den Domänennamen zu erhalten, den sie für ihr Konto in Learning Manager verwenden können. Ein Kunde muss die benutzerdefinierte Domäne separat erwerben und mit dem Adobe-Team zusammenarbeiten, um sie als Anmelde-URL für seine Lernplattform einzurichten.
 
@@ -25,7 +23,7 @@ Sie möchten beispielsweise Ihre Domäne so anpassen, dass die Benutzererfahrung
 
 >[!NOTE]
 >
->Als Voraussetzung müssen Sie die Domäne registrieren, und dann führt Adobe Sie durch das Anpassen der URL.
+>Als Voraussetzung müssen Sie die Domäne registrieren, und dann wird Adobe Sie durch die Anpassung der URL führen.
 
 
 Die Funktion für benutzerdefinierte Domänen ist gegen einen Aufpreis verfügbar. Wenden Sie sich an Ihren Customer Success Manager, um weitere Informationen zu erhalten.

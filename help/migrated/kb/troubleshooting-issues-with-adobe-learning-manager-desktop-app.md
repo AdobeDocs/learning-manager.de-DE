@@ -6,27 +6,25 @@ contentowner: kuppan
 exl-id: 68d40a52-e048-43af-a7aa-917b569b583d
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '1447'
-ht-degree: 54%
-
+source-wordcount: '1448'
+ht-degree: 61%
 ---
-
 # Fehlerbehebung für die Adobe Learning Manager-Desktop-App
 
 Dieses Dokument enthält grundlegende Tipps zur Fehlerbehebung, um einige häufige Probleme zu lösen, die bei der Installation und Verwendung der Adobe Learning Manager-Desktop-Anwendung auftreten.
 
 ## Ich habe folgendes Problem {#iamunabletodothefollowing}
 
-+++Ich kann den Adobe Learning Manager-Client nicht herunterladen
++++Ich kann die Adobe Learning Manager-Desktop-Anwendung nicht herunterladen
 
 1. Überprüfen Sie Ihre Internetverbindung und Firewalleinstellungen.
-1. Klicken Sie unter „Social Learning“ auf **[!UICONTROL Neuer Beitrag]**, um einen Beitrag zu erstellen. Wenn Sie kein Board haben, erstellen Sie zuerst ein Board.
+1. Klicken Sie unter „Social Learning“ auf **[!UICONTROL Neuer Beitrag]**, um einen Beitrag zu erstellen. Wenn Sie keine Pinnwand haben, erstellen Sie zunächst eine.
 1. Klicken Sie auf eine der folgenden angezeigten Posting-Schaltflächen, um Inhalte wie Screenshots, Audioaufnahmen, Videoaufnahmen oder eine Learning Manager-Galerie zu erstellen. Sie werden zur Seite der Adobe Learning Manager-Desktop-Anwendung weitergeleitet, auf der Sie die Anwendung für Ihren Desktop herunterladen können.
 1. Sie benötigen ein gültiges Adobe Learning Manager-Konto, für das Social Learning von Ihrem Administrator aktiviert wurde. Ihr Administrator hat möglicherweise auch Downloads über den Webbrowser deaktiviert. Wenden Sie sich an Ihren Adobe Learning Manager-Administrator, um weitere Informationen zum Herunterladen der Desktop-App zu erhalten.
 
 +++
 
-+++Ich kann den Adobe Learning Manager-Client nicht installieren
++++Ich kann die Adobe Learning Manager-Desktop-Anwendung nicht installieren
 
 1. Vergewissern Sie sich, dass das System die Mindestsystemanforderungen erfüllt. Siehe [Systemanforderungen für die Adobe Learning Manager-App für Desktop](../learners/adobe-learning-manager-app-for-desktop/adobe-learning-manager-desktop-app-system-requirements.md).
 1. Bereinigen Sie Reste früherer Installationen der Adobe Learning Manager-Desktop-Anwendung. Weitere Informationen finden Sie unter [Bereinigen früherer Installationen](#howtocleanuppreviousinstallationsofadobelearningmanagerdesktopapp).
@@ -34,7 +32,7 @@ Dieses Dokument enthält grundlegende Tipps zur Fehlerbehebung, um einige häufi
 
 +++
 
-+++Ich kann den Adobe Learning Manager-Client nicht starten
++++Ich kann die Adobe Learning Manager-Desktop-Anwendung nicht starten
 
 1. Stellen Sie sicher, dass die Adobe Learning Manager-Desktop-Anwendung heruntergeladen und installiert wurde.
 1. Klicken Sie in „Social Learning“ auf **[!UICONTROL Neuer Beitrag]** (wenn Sie keine Pinnwand haben, erstellen Sie zunächst eine). Klicken Sie auf eine der folgenden Optionen für die Schaltfläche &quot;Beitrag&quot;, die angezeigt werden: Screenshot erstellen, Audioaufnahme, Videoaufnahme, Adobe Learning Manager-Galerie. Sie werden zu einer Seite weitergeleitet, von der Sie die Adobe Learning Manager-Desktop-Anwendung starten können.
@@ -42,7 +40,7 @@ Dieses Dokument enthält grundlegende Tipps zur Fehlerbehebung, um einige häufi
 
 +++
 
-+++Ich kann mich nicht bei meinem Konto im Adobe Learning Manager-Client anmelden
++++Ich kann mich nicht bei meinem Konto in der Adobe Learning Manager-Desktop-Anwendung anmelden
 
 1. Stellen Sie sicher, dass eine Verbindung zum Internet besteht und Ihre Firewall-Einstellungen die Adobe Learning Manager-Desktop-Anwendung nicht blockieren.
 1. Stellen Sie sicher, dass Sie über ein gültiges Teilnehmerkonto für Adobe Learning Manager verfügen, für das Social Learning aktiviert ist.
@@ -51,7 +49,7 @@ Dieses Dokument enthält grundlegende Tipps zur Fehlerbehebung, um einige häufi
 
 +++
 
-+++Meine Webcam/mein Mikrofon wird in der Adobe Learning Manager Desktop-Anwendung nicht aufgeführt
++++Meine Webcam/mein Mikrofon wird in der Adobe Learning Manager-Desktop-Anwendung nicht aufgeführt
 
 1. Stellen Sie sicher, dass Ihre Webcam/Ihr Mikrofon ordnungsgemäß angeschlossen ist und funktioniert.
 1. Stellen Sie sicher, dass Sie die neuesten Treiber für Ihre Webcam/Ihr Mikrofon installiert haben. Einige Geräte funktionieren ohne dedizierte Treiber nicht ordnungsgemäß.
@@ -60,7 +58,7 @@ Dieses Dokument enthält grundlegende Tipps zur Fehlerbehebung, um einige häufi
 
 +++
 
-+++Ich kann meine Beiträge nicht über den Adobe Learning Manager-Client veröffentlichen
++++Ich kann keine Beiträge über die Adobe Learning Manager-Desktop-Anwendung veröffentlichen
 
 1. Stellen Sie sicher, dass Ihnen von Ihrem Adobe Learning Manager-Administrator ein gültiges Teilnehmerkonto für Adobe Learning Manager eingerichtet wurde, für das Social Learning aktiviert ist.
 1. Setzen Sie die Anwendungsvoreinstellungen zurück und starten Sie die Adobe Learning Manager-Desktop-Anwendung erneut, um es nochmals zu versuchen. Weitere Informationen finden Sie unter [Zurücksetzen der Anwendungsvoreinstellungen](#howtoresetapplicationpreferences).
@@ -68,7 +66,7 @@ Dieses Dokument enthält grundlegende Tipps zur Fehlerbehebung, um einige häufi
 
 +++
 
-+++Ältere Projekte können nicht angezeigt oder geöffnet werden
++++Ich kann meine älteren Projekte nicht sehen oder öffnen
 
 1. Sie können Projekte, die mit Ihrem Adobe Learning Manager-Konto erstellt wurden, nur auf dem Computer anzeigen, auf dem sie erstellt wurden.
 1. Setzen Sie die Anwendungsvoreinstellungen zurück und starten Sie die Adobe Learning Manager-Desktop-Anwendung erneut, um es nochmals zu versuchen. Hilfe finden Sie unter [Zurücksetzen der Anwendungsvoreinstellungen](#howtoresetapplicationpreferences).
@@ -112,7 +110,7 @@ Dieses Dokument enthält grundlegende Tipps zur Fehlerbehebung, um einige häufi
 ### Windows {#Windows-1}
 
 1. Drücken Sie **Windows-Taste + R**, um das Dialogfeld &quot;Ausführen&quot; zu öffnen.**&#x200B;**
-1. Geben Sie &quot;**%APPDATA%\\..\\Local\\Adobe\\Learning Manager 1.0**&quot; (ohne Anführungszeichen) und drücken Sie die Eingabetaste.**&#x200B;**
+1. Geben Sie &quot;**%APPDATA%\\..\\Local\\Adobe\\Learning Manager 1.0**&quot; (ohne Anführungszeichen) ein und drücken Sie die Eingabetaste.**&#x200B;**
 1. Erstellen Sie eine Sicherungskopie der Datei &quot;**preferences.json**&quot; und öffnen Sie sie in einem Texteditor.**&#x200B;**
 1. Suchen Sie nach dem Schlüssel **debugMode**, und ändern Sie die Werteigenschaft dieses Schlüssels in &quot;**true**&quot; (ohne Anführungszeichen).
 

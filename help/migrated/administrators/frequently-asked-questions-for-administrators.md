@@ -6,11 +6,9 @@ contentowner: manochan
 exl-id: 8b113a4e-73f4-4cd5-982a-cefdf5388e91
 source-git-commit: 0dade561e53e46f879e22b53835b42d20b089b31
 workflow-type: tm+mt
-source-wordcount: '2517'
-ht-degree: 52%
-
+source-wordcount: '2548'
+ht-degree: 77%
 ---
-
 # Häufig gestellte Fragen für Administratoren
 
 <table>
@@ -23,13 +21,13 @@ ht-degree: 52%
  </tbody>
 </table>
 
-+++Kann ich mehrere Benutzer gleichzeitig hinzufügen? Wenn ja, wie?
++++Kann ich mehrere Benutzer auf einmal hinzufügen? Wenn ja, wie?
 
 Ja, Sie können mit der CSV-Upload-Funktion mehrere Benutzer gleichzeitig hinzufügen. Weitere Informationen finden Sie in diesem [Artikel](/help/migrated/administrators/feature-summary/add-users-user-groups.md#bulk-upload-internal-users).
 
 +++
 
-+++Wie kann ich die E-Mail-ID korrigieren, die beim Erstellen der Anmeldung für meine Teilnehmer falsch eingegeben wurde?
++++Ich habe mich beim Erstellen der E-Mail-ID für die Anmeldung meiner Teilnehmer vertippt. Wie kann ich das korrigieren?
 
 Um die Benutzeranmeldung zu korrigieren, müssen Sie eine CSV-Datei in Learning Manager importieren. Als Orientierungshilfe ist am Ende dieser Seite eine CSV-Beispieldatei angehängt. Da die E-Mail-Adresse als eindeutiger Bezeichner für eine Person gilt, kann sie nicht bearbeitet werden. Führen Sie die folgenden Schritte aus:
 
@@ -39,13 +37,13 @@ Um die Benutzeranmeldung zu korrigieren, müssen Sie eine CSV-Datei in Learning 
 1. Ordnen Sie im Dialogfeld auf Anforderung die Felder den entsprechenden CSV-Spalten zu.
 1. Klicken Sie auf „Speichern“.
 
-Benutzer sollten auf der Teilnehmerseite hinzugefügt werden.
+Benutzer sollten auf der Seite „Teilnehmer“ hinzugefügt werden.
 
-[Beispiel für Learning Manager CSV.csv](https://helpx.adobe.com/content/dam/help/en/captivate_prime/learning-manager-sample-csv.zip)
+[CSV.csv-Beispiel für Learning Manager](https://helpx.adobe.com/content/dam/help/en/captivate_prime/learning-manager-sample-csv.zip)
 
 +++
 
-+++Wie richte ich Warnungen ein?
++++Wie richte ich Benachrichtigungen ein?
 
 In Adobe Learning Manager 1.0 können Sie Benachrichtigungen erstellen. Weitere Informationen finden Sie unter [Benachrichtigungsfrage](/help/migrated/administrators/feature-summary/user-notifications.md).
 
@@ -53,23 +51,23 @@ In Adobe Learning Manager 1.0 können Sie Benachrichtigungen erstellen. Weitere 
 
 +++Wie füge ich Zertifikate für Kurse hinzu?
 
-Adobe Learning Manager gibt keine Zertifikate für Kurse aus. Der Administrator kann jedoch Abzeichen für die einzelnen Kurse erstellen, indem er im linken Bereich auf die Registerkarte Abzeichen klickt. Wenn ein Administrator die Teilnehmer eines Kurses registriert, kann er dem Kurs zugleich ein Abzeichen zuordnen.
+Adobe Learning Manager gibt keine Zertifikate für Kurse aus. Administratoren können jedoch Abzeichen für die Kurse erstellen. Klicken Sie dazu im linken Teilfenster auf die Registerkarte „Abzeichen“. Wenn ein Administrator die Teilnehmer eines Kurses registriert, kann er dem Kurs zugleich ein Abzeichen zuordnen.
 
 +++
 
-+++Wie importiere ich Signaturen für die Zertifikate?
++++Wie importiere ich Unterschriften für die Zertifikate?
 
 Adobe Learning Manager umfasst keine Funktion zum Importieren von Unterschriften für Zertifizierungen oder Abzeichen.
 
 +++
 
-+++Kann ich einen Kalender für die Kurse einrichten? Wenn ja, wie?
++++Kann ich für die Kurse einen Kalender einrichten? Wenn ja, wie?
 
-In der Version Adobe Learning Manager 1.0 gibt es keine Möglichkeit, einen Kalender für die Kurse einzurichten.
+In Adobe Learning Manager 1.0 gibt es keine Möglichkeit, einen Kalender für die Kurse einzurichten.
 
 +++
 
-+++Wie registriere ich die Teilnehmer auf der Warteliste direkt?
++++Wie kann ich Teilnehmer, die auf der Warteliste stehen, direkt registrieren?
 
 Bei Präsenzkursen mit einer begrenzten Anzahl von Lizenzen werden die Teilnehmer in der Reihenfolge ihrer Registrierung auf eine Warteliste gesetzt. Administratoren können Teilnehmer von der Warteliste auswählen und ihnen Lizenzen zuweisen. Dabei wird die Obergrenze für den jeweiligen Kurs außer Kraft gesetzt. Die Teilnehmer werden für den Kurs registriert, sobald der Administrator ihnen Lizenzen zuweist.
 
@@ -82,7 +80,7 @@ Weitere Informationen finden Sie unter [Warteliste und Anwesenheit](/help/migrat
 
 +++
 
-+++Wie kann ich die Anwesenheit von Teilnehmern am Klassenzimmermodul aufzeichnen?
++++Wie zeichne ich die Teilnahme an Präsenzmodulen auf?
 
 Sie können die Anwesenheit mit den unten angeführten Schritten erfassen:
 
@@ -96,7 +94,7 @@ Weitere Informationen finden Sie unter [Warteliste und Anwesenheit](/help/migrat
 
 +++
 
-+++Wie schließe ich die L3-Feedbackoption ein?
++++Wie kann ich die L3-Feedback-Option einbinden?
 
 Beim Registrieren von Kursteilnehmern können Sie L3-Feedback hinzufügen. Um die Aufforderung nach L3-Feedback zu hinzuzufügen, führen Sie die untengenannten Schritte aus:
 
@@ -113,9 +111,9 @@ Beim Registrieren von Kursteilnehmern können Sie L3-Feedback hinzufügen. Um di
 Als Administrator können Sie die Nominierung des Managers für die Kurse beantragen, indem Sie die folgenden Schritte ausführen:
 
 1. Klicken Sie im linken Teilfenster auf „Kurse“.
-1. Bewegen Sie die Maus über einen vom Manager nominierten Kurs und klicken Sie auf **[!UICONTROL Managernominierung suchen]**.
+1. Zeigen Sie mit der Maus auf einen durch den Manager nominierten Kurs und klicken Sie auf **[!UICONTROL Managernominierung suchen]**.
 
-1. Klicken Sie in der Liste der Instanzen auf den Link **[!UICONTROL Von Managern nominiert]**, gefolgt vom Link **[!UICONTROL Manager hinzufügen]**.
+1. Klicken Sie in der Liste der Instanzen auf den Link **[!UICONTROL Nominierung durch Manager]** und dann auf den Link **[!UICONTROL Manager hinzufügen]**.
 
 1. Fügen Sie den Managernamen und die Anzahl der zugeteilten Lizenzen hinzu. Klicken Sie dann auf das Häkchen, um die Änderungen zu speichern.
 
@@ -129,7 +127,7 @@ Führen Sie die unten genannten Schritte aus, um Teilnehmer zu registrieren:
 
 1. Melden Sie sich dafür zuerst als Administrator an und klicken Sie dann im linken Teilfenster auf „Kurse“. Rechts auf der Seite wird eine Liste aller Kurse angezeigt.
 1. Wählen Sie den Kurs, dem Sie Teilnehmer hinzufügen möchten, und zeigen Sie mit der Maus darauf.
-1. Klicken Sie auf Teilnehmer registrieren und fügen Sie den Namen der Teilnehmer hinzu. **Hinweis:** Sie können einen oder mehrere Teilnehmer gleichzeitig hinzufügen.
+1. Klicken Sie auf „Teilnehmer registrieren“ und fügen Sie die Namen der Teilnehmer hinzu. **Hinweis:** Sie können jeweils einen oder mehrere Teilnehmer gleichzeitig hinzufügen.
 
 +++
 
@@ -137,10 +135,10 @@ Führen Sie die unten genannten Schritte aus, um Teilnehmer zu registrieren:
 
 Weisen Sie Teilnehmern mit den nachfolgenden Schritten Kompetenzen zu:
 
-1. Klicken Sie im linken Teilfenster auf **[!UICONTROL Kenntnisse]**, nachdem Sie sich als Administrator angemeldet haben.
+1. Melden Sie sich zuerst als Administrator an und klicken Sie dann im linken Teilfenster auf **[!UICONTROL Kenntnisse]**.
 1. Wählen Sie eine oder mehrere Qualifikationen aus, indem Sie auf die Kontrollkästchen neben jeder Qualifikation klicken, und klicken Sie auf das Dropdown-Menü **[!UICONTROL Aktionen]** in der oberen rechten Ecke der Seite.
 1. Klicken Sie auf „Benutzern zuweisen“.
-1. Beginnen Sie mit der Eingabe des Benutzernamens, wählen Sie ihn aus der Dropdown-Liste aus, und klicken Sie auf **[!UICONTROL Speichern]**.
+1. Beginnen Sie mit der Eingabe des Benutzernamens, wählen Sie ihn in der Dropdownliste aus und klicken Sie auf **[!UICONTROL Speichern]**.
 
    >[!NOTE]
    >
@@ -156,19 +154,19 @@ Um ein Lernprogramm zu erstellen, gehen Sie wie folgt vor:
 1. Klicken Sie in der rechten oberen Ecke der Seite auf „Hinzufügen“.\
    Geben Sie den Programmnamen, die Übersicht und die Beschreibung ein und klicken Sie auf &quot;Speichern&quot;.
 1. Klicken Sie im linken Teilfenster auf „Kurse“.
-1. Fügen Sie einen oder mehrere Kurse hinzu, indem Sie auf die Kachel eines Kurses klicken.
+1. Fügen Sie einen oder mehrere Kurse hinzu, indem Sie bei den entsprechenden Kurskacheln auf das Pluszeichen klicken.
 
    >[!NOTE]
    >
    >Sie müssen das Lernprogramm veröffentlichen, bevor Sie Teilnehmer oder eine Instanz registrieren.
 
-1. Klicken Sie im linken Bereich auf &quot;Instanzen&quot; und klicken Sie auf **[!UICONTROL Neue Instanzen hinzufügen]** in der rechten Ecke der Seite, um Details der Instanz einzuschließen.
+1. Klicken Sie im linken Teilfenster auf „Instanzen“ und klicken Sie in der rechten oberen Ecke der Seite auf **[!UICONTROL Neue Instanzen hinzufügen]**, um der Instanz Details hinzuzufügen.
 
 Weitere Informationen zu Lernprogrammen finden Sie unter [Lernprogrammfunktion.](/help/migrated/administrators/feature-summary/learning-programs.md)
 
 +++
 
-+++Wie kann ich Berichte für alle Rollen ändern oder anpassen?
++++Wie bearbeite ich Berichte bzw. wie passe ich sie für alle Rollen an?
 
 Um Berichte zu bearbeiten, klicken Sie in der rechten oberen Ecke der Berichte jeweils auf die Dropdownliste. Klicken Sie auf „Speichern“, nachdem Sie mit den Änderungen fertig sind, und zeigen Sie den geänderten Bericht an.
 
@@ -178,20 +176,20 @@ Um Berichte zu bearbeiten, klicken Sie in der rechten oberen Ecke der Berichte j
 
 Sie können Kurse und Lernprogramme auch bearbeiten, nachdem sie veröffentlicht wurden. Weitere Informationen finden Sie im Hilfeinhalt zu [Kursen](/help/migrated/administrators/feature-summary/courses.md) und [Lernprogrammen](/help/migrated/administrators/feature-summary/learning-programs.md).
 
-Um das Unternehmensprofil zu ändern, klicken Sie auf **[!UICONTROL Einstellungen]** im linken Bereich und dann auf **[!UICONTROL Ändern]** in der oberen rechten Ecke der Seite.
+Zum Ändern des Unternehmensprofils klicken Sie im linken Teilfenster auf **[!UICONTROL Einstellungen]** und dann in der rechten oberen Seitenecke auf **[!UICONTROL Ändern]**.
 
 +++
 
-+++Wie suche ich nach den Kursen?
++++Wie kann ich nach Kursen suchen?
 
 Melden Sie sich dafür zuerst als Administrator an und klicken Sie dann im linken Teilfenster auf „Kurse“. Es wird eine Liste aller verfügbaren Kurse angezeigt.
 
 Für die Suche nach Kursen haben Sie zwei Möglichkeiten:
 
 1. Klicken Sie auf das Suchsymbol in der rechten oberen Ecke. Ein Suchfeld erscheint. Geben Sie den Kursnamen oder beliebige zu Ihren Kursen passende Suchbegriffe ein, um nach diesen zu suchen.
-1. Durch Filtern der Kursliste mithilfe der Filter.
+1. Filtern der Liste mit Filtern.
 
-Sie können die Kurse nach Status filtern, z. B. &quot;Alle&quot;, &quot;Veröffentlicht&quot; und &quot;Eingestellt&quot;, indem Sie auf jede dieser Optionen klicken. Sie können auch nach Kompetenzen suchen, indem Sie auf &quot;Kompetenzen&quot; klicken und die einzelnen Kompetenzen auswählen.
+Sie können die Kurse nach Status filtern, z. B. nach „Alle“, „Veröffentlicht“ und „Eingestellt“, indem Sie auf die jeweilige Option klicken. Sie können auch nach Kompetenzen suchen, indem Sie auf „Kompetenzen“ klicken und diese einzeln auswählen.
 
 Anhand Ihrer Auswahl können Sie die gefilterte Kursliste anzeigen und die erforderlichen Kurse auswählen.
 
@@ -199,7 +197,7 @@ Anhand Ihrer Auswahl können Sie die gefilterte Kursliste anzeigen und die erfor
 
 +++Kann ich das Design der Anwendung ändern? Wenn ja, wie?
 
-Ja, Sie können die Designs und das Branding der Learning Manager-Anwendung gemäß den Anforderungen Ihres Unternehmens ändern. Ein Set mit fünf repräsentativen Bildern wird bereitgestellt, um Ihre Farbdesignänderungen in der Vorschau anzuzeigen, bevor Sie sie in Ihre Anwendung übernehmen. Navigieren Sie durch diese Bilder, indem Sie auf die Symbole &lt; und > links bzw. rechts neben den Bildern klicken, um sie in der Vorschau anzuzeigen.
+Ja, Sie können die Designs und das Erscheinungsbild von Learning Manager gemäß den Anforderungen Ihres Unternehmens ändern. Ein Set mit fünf repräsentativen Bildern wird bereitgestellt, um Ihre Farbdesignänderungen in der Vorschau anzuzeigen, bevor Sie sie in Ihre Anwendung übernehmen. Navigieren Sie durch diese Bilder, indem Sie auf die Symbole &lt; und > auf der rechten Seite der Bilder klicken, um sie in der Vorschau anzuzeigen.
 
 Klicken Sie auf **[!UICONTROL Branding]** im linken Bereich, um Ihren Unternehmensnamen zu aktualisieren, die Subdomäne, Protokollstile und Designs zu ändern. Klicken Sie auf **[!UICONTROL Bearbeiten]** neben jedem dieser Themen, um den Inhalt zu ändern.
 
@@ -209,14 +207,14 @@ Weitere Informationen finden Sie in der [Hilfe zu Farbdesigns und Branding](/hel
 
 +++Wie kann ich Abzeichen für die Kurse einrichten?
 
-1. Klicken Sie im linken Teilfenster auf &quot;Abzeichen&quot;, nachdem Sie sich als Administrator angemeldet haben.
+1. Melden Sie sich dafür zuerst als Administrator an und klicken Sie dann im linken Teilfenster auf „Abzeichen“.
 1. Klicken Sie in der rechten oberen Ecke der angezeigten Seite auf „Hinzufügen“.
 1. Fügen Sie den Abzeichennamen hinzu.
 1. Laden Sie das Abzeichen hoch, indem Sie auf „Abzeichen hochladen“ und auf „Speichern“ klicken.
 
 +++
 
-+++Wie richte ich Gamification-Punkte für die Kurse ein?
++++Wie richte ich für die Kurse Gamification-Punkte ein?
 
 Sie können Gamification-Punkte für Teilnehmer festsetzen, indem sie die folgenden Schritte ausführen:
 
@@ -232,17 +230,17 @@ Weitere Informationen finden Sie unter [Gamification-Funktion](/help/migrated/ad
 Sie können die Berichte mit den unten angeführten Schritten erstellen:
 
 1. Klicken Sie auf „Berichte“ im linken Bereich. Die Seite mit der Berichtzusammenfassung wird angezeigt.
-1. Klicken Sie auf der Seite &quot;Berichte&quot; in der oberen rechten Ecke auf **[!UICONTROL Hinzufügen]**.
+1. Klicken Sie auf der Seite „Berichte“ in der rechten oberen Ecke auf **[!UICONTROL Hinzufügen]**.
 
    Das Dialogfeld &quot;**[!UICONTROL Bericht hinzufügen]**&quot; wird angezeigt.
 
-1. Füllen Sie alle erforderlichen Felder aus und klicken Sie auf &quot;Speichern&quot;.
+1. Füllen Sie alle erforderlichen Felder aus und klicken Sie auf „Speichern“.
 
 Nur Administratoren und Manager können Berichte erstellen und anzeigen. Weitere Informationen finden Sie unter [Berichtsfunktion](/help/migrated/administrators/feature-summary/reports.md).
 
 +++
 
-+++Wie ändere ich die Rollen &quot;Teilnehmer&quot;, &quot;Manager&quot; und &quot;Autor&quot;?
++++Wie wechsele ich zwischen Teilnehmer-, Manager- und Autorenrolle?
 
 Sie können mit Ihrer Kontoanmeldung zu anderen Rollen wie Teilnehmer, Manager und Autor wechseln, ohne dass Sie sich aus Ihrem Konto abmelden müssen.
 
@@ -252,11 +250,11 @@ Sie können mit Ihrer Kontoanmeldung zu anderen Rollen wie Teilnehmer, Manager u
 
 +++
 
-+++Wie füge ich Benachrichtigungen für Benutzer ein?
++++Wie kann ich Benachrichtigungen für Benutzer einrichten?
 
 Manager, Autoren und Teilnehmer sehen die zu ihren Kursaktivitäten gehörigen Benachrichtigungen. Der Administrator kann die Benachrichtigungen für alle Benutzer mit den nachfolgenden Schritten aktivieren bzw. deaktivieren:
 
-1. Klicken Sie im linken Bereich auf E-Mail-Vorlagen und wählen Sie die Registerkarten Allgemein, Benutzerregistrierungen, Abschlüsse und Feedback aus.
+1. Klicken Sie im linken Teilfenster auf „E-Mail-Vorlagen“ und wählen Sie die Registerkarten „Allgemein“, „Benutzerregistrierungen“, „Abschlüsse“ und „Feedback“.
 1. Klicken Sie bei den unten aufgeführten Ereignissen auf die Ja-/Nein-Umschaltflächen neben jedem Ereignis und wählen Sie &quot;Ja&quot;, um die Benachrichtigung zu aktivieren. Klicken Sie auf „Nein“, um das Senden von Benachrichtigungen zu einem bestimmten Ereignis zu deaktivieren.
 
 +++
@@ -265,8 +263,8 @@ Manager, Autoren und Teilnehmer sehen die zu ihren Kursaktivitäten gehörigen B
 
 Adobe Learning Manager bietet die Möglichkeit, Mitarbeiter von außerhalb der Abteilung oder externe Mitarbeiter Ihres Unternehmens bei der Anwendung anzumelden.
 
-1. Klicken Sie im linken Fensterbereich auf **[!UICONTROL Benutzer]**.
-1. Klicken Sie im linken Fensterbereich auf **[!UICONTROL Extern]**.
+1. klicken Sie im linken Teilfenster auf **[!UICONTROL Benutzer]**.
+1. Klicken Sie auf **[!UICONTROL Benutzer]** im linken Bereich.
 1. Klicken Sie in der rechten oberen Ecke der Seite auf **[!UICONTROL Hinzufügen]**.
 
    Das Dialogfeld &quot;Benutzer hinzufügen&quot; wird angezeigt.
@@ -289,9 +287,9 @@ Sie können mehrere Fragebogen hinzufügen und diese jeweils nur bei Bedarf einb
 
 +++
 
-+++Wie richte ich die Kenntnisse und Stufen ein?
++++Wie richte ich Kenntnisse und Stufen ein?
 
-1. Klicken Sie auf Kompetenzen im linken Bereich des Fensters Administrator.
+1. Klicken Sie im linken Teilfenster des Fensters „Administrator“ auf „Kompetenzen“.
 1. Klicken Sie auf „Hinzufügen“, um neue Kompetenzen hinzuzufügen.
 1. Fügen Sie den Kompetenznamen, die Beschreibung und die Credits für die einzelnen Stufen hinzu.
 
@@ -316,19 +314,19 @@ Nach dem Speichern der Kompetenz können Sie keine Stufen mehr entfernen. Admini
 
 1. Geben Sie Ihre Kontaktdaten ein, wählen Sie den Kreditkartentyp, geben Sie die Details der Kreditkarte ein und klicken Sie auf „Bestellung abschließen“.
 
-Weitere Informationen finden Sie unter [Abrechnungsverwaltung](/help/migrated/administrators/feature-summary/billing-management.md).
+Weitere Informationen finden Sie unter [Rechnungsverwaltung](/help/migrated/administrators/feature-summary/billing-management.md).
 
 +++
 
 +++Kann ich das Zertifikatdesign anpassen? Wenn ja, wie?
 
-In Adobe Learning Manager können Sie Teilnehmer erkennen, indem Sie Abzeichen ausstellen. Weitere Informationen finden Sie unter Abzeichen.  Weitere Informationen finden Sie auch unter Zertifizierungsfunktion.
+In Adobe Learning Manager können Sie erfolgreichen Teilnehmenden ein Abzeichen verleihen. Weitere Informationen finden Sie in der Hilfe zu Abzeichen.  Sie können auch bei der Zertifizierungsfunktion nachlesen.
 
 +++
 
 +++Wie richte ich mein Unternehmensprofil ein?
 
-1. Nachdem Sie sich als Administrator angemeldet haben, klicken Sie im linken Teilfenster auf **[!UICONTROL Informationen zum Unternehmen]**.
+1. Melden Sie sich dafür zuerst als Administrator an und klicken Sie dann im linken Teilfenster auf **[!UICONTROL Informationen zum Unternehmen]**.
 1. Fügen Sie Unternehmensprofil, Unterdomäne und Logo hinzu, indem Sie auf der Seite auf jede dieser Optionen klicken.
 
 +++
@@ -354,7 +352,7 @@ Detaillierte Informationen zum Hinzufügen von Teilnehmern, Autoren und Administ
 
 +++
 
-+++Wie kann ich ein Hintergrundbild für einen Teilnehmer ändern?
++++Wie ändere ich ein Hintergrundbild für einen Teilnehmer?
 
 Wenden Sie sich an das Learning Manager-Supportteam.
 
@@ -379,7 +377,7 @@ Ja, Sie können einen **[!UICONTROL Schulungsbericht]** abrufen, der alle Kurse,
 
 +++
 
-+++Wo kann ich die Desktop-Version der Anwendung herunterladen?
++++Wo kann ich die Desktop-Version der Anwendung herunterladen? 
 
 Führen Sie die folgenden Schritte aus, um die Desktop-Version herunterzuladen:
 

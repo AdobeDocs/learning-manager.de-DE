@@ -6,11 +6,9 @@ contentowner: jayakarr
 exl-id: 13458f93-9ea7-4aab-8b33-3c4f4dd5886d
 source-git-commit: 857dddf46e3900fbe2db4e345da2d29050ef3c82
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 49%
-
+source-wordcount: '618'
+ht-degree: 57%
 ---
-
 # Adobe Connect-Integration
 
 Die Administratoren in einem Unternehmen können die Einstellungen des Learning Manager-Kontos dahingehend konfigurieren, dass die Adobe Connect-Integration aktiviert wird.
@@ -33,7 +31,7 @@ Die Administratoren in einem Unternehmen können die Einstellungen des Learning 
 
    *Domänennamen und Anmeldeinformationen hinzufügen*
 
-   Beispiel für eine Adobe Connect-URL: mycompany.adobeconnect.com\
+   Beispiel-Adobe Connect-URL: mycompany.adobeconnect.com\
    Sie müssen die E-Mail-ID des Administrators des Adobe Connect-Kontos angeben.
 
    Nur von Adobe gehostete Connect-Konten werden in Learning Manager unterstützt. Beispiel; &#39;.adobeconnect.com&#39;.
@@ -50,7 +48,7 @@ Die Administratoren in einem Unternehmen können die Einstellungen des Learning 
 
 Wenn der Autor eines Kurses im virtuellen Klassenzimmer keine Sitzungsinformationen angegeben hat, kann der Administrator die Sitzungsdetails einbeziehen.
 
-Melden Sie sich als Administrator an und klicken Sie auf den Namen des Kurses im virtuellen Klassenzimmer. Klicken Sie im linken Teilfenster auf **[!UICONTROL Instanzen]** und dann auf **[!UICONTROL Sitzungsdetails]**.  Klicken Sie in der rechten Ecke der Seite &quot;Sitzungsdetails&quot; auf das Symbol &quot;Bearbeiten&quot;, um die Sitzungsinformationen hinzuzufügen.
+Melden Sie sich als Administrator an und klicken Sie auf den Namen des Kurses im virtuellen Klassenzimmer. Klicken Sie im linken Teilfenster auf **[!UICONTROL Instanzen]** und dann auf **[!UICONTROL Sitzungsdetails]**.  Klicken Sie in der rechten Ecke der Seite „Sitzungsdetails“ auf das Symbol „Bearbeiten“, um die Sitzungsinformationen hinzuzufügen.
 
 ![](assets/session-creation-admin.png)
 
@@ -62,9 +60,9 @@ Sie müssen Adobe Connect unabhängig von Adobe Learning Manager separat erwerbe
 
 ## Teilnehmeranwesenheit {#learnersattendance}
 
-Wenn der Veranstalter des Kurses im virtuellen Klassenzimmer nicht an der Sitzung teilnimmt, wird die Anwesenheit der Teilnehmer, die an der Sitzung teilgenommen haben, nicht automatisch registriert. In solchen Fällen kann der Administrator die Anwesenheit manuell aufzeichnen.
+Wenn der Veranstalter des Kurses im virtuellen Klassenzimmer nicht an der Sitzung teilnimmt, wird die Anwesenheit der Teilnehmer, die an der Sitzung teilgenommen haben, nicht automatisch registriert. In solchen Szenarien kann der Administrator die Anwesenheit manuell aufzeichnen.
 
-Klicken Sie auf den Kurs im virtuellen Klassenzimmer, klicken Sie im linken Teilfenster der folgenden Seite auf &quot;Anwesenheit&quot; und erfassen Sie die Anwesenheit.
+Klicken Sie auf den Kurs im virtuellen Klassenzimmer und anschließend im linken Bereich der folgenden Seite auf „Anwesenheit“ und vermerken Sie die Anwesenheit.
 
 ## Unterstützung für Adobe Connect-Seminare mit großem Publikum
 
@@ -82,9 +80,9 @@ _Sitzungs-URL auswählen_
 Dieser Link öffnet das Dashboard für die Sitzungsanalyse in Connect, das detaillierte Einblicke in die Sitzungsinteraktion bietet.
 Diese Funktion ist nur für Sitzungen verfügbar, die über Adobe Connect durchgeführt werden. Die Sitzungsanalyse umfasst:
 
-* **[!UICONTROL Engagement]**: Übersicht über die Gesamtleistung der Live-Sitzung
-* **[!UICONTROL Interaktionen]**: Detaillierte Aufschlüsselung der Teilnehmeraktivität auf verschiedene Pods
-* **[!UICONTROL Teilnehmeraktivität]**: Zusammenfassung der Teilnehmerinteraktion
+* **[!UICONTROL Engagement]**: Überblick über die Gesamtleistung der Live-Sitzung
+* **[!UICONTROL Interaktionen]**: Detaillierte Aufschlüsselung der Teilnehmeraktivitäten auf die verschiedenen Pods
+* **[!UICONTROL Teilnehmeraktivität]**: Übersicht über das Engagement der Teilnehmer
 * **[!UICONTROL Berichte herunterladen]**: Option zum Herunterladen von Berichten für podspezifische Interaktionsdaten
 
 ![](assets/session-dashboard.png)

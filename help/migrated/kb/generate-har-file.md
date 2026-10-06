@@ -6,11 +6,9 @@ contentowner: dvenkate
 exl-id: 99fe78e8-b5e7-40a7-b9a5-efc2382de993
 source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 57%
-
+source-wordcount: '161'
+ht-degree: 65%
 ---
-
 # Generieren einer HAR-Datei
 
 Lesen Sie weiter, um zu erfahren, wie Sie HAR-Dateien in Google Chrome generieren.
@@ -19,7 +17,7 @@ Gehen Sie folgendermaßen vor um eine HAR-Datei zu generieren:
 
 1. Öffnen Sie ein Google Chrome-Fenster und öffnen Sie eine neue Registerkarte.
 1. Öffnen Sie die Entwicklerwerkzeuge für die Seite, klicken Sie mit der rechten Maustaste > „Inspizieren“.
-1. Öffnen Sie die Registerkarte **[!UICONTROL Netzwerk]**. Stellen Sie sicher, dass die Schaltfläche für den roten Datensatz aktiviert ist. Aktivieren Sie das Kontrollkästchen **[!UICONTROL Protokoll erhalten]**.
+1. Öffnen Sie die Registerkarte **[!UICONTROL Netzwerk]**. Stellen Sie sicher, dass die rote Aufnahmetaste aktiv ist. Aktivieren Sie das Kontrollkästchen **[!UICONTROL Protokoll beibehalten]**.
 
    ![](assets/preserve-log-checkbox.png)
 
