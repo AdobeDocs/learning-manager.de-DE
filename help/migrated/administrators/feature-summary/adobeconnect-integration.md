@@ -68,7 +68,7 @@ Klicken Sie auf den Kurs im virtuellen Klassenzimmer und anschließend im linken
 
 Adobe Learning Manager unterstützt die Auswahl von Seminarräumen aus Adobe Connect beim Einrichten einer virtuellen Klassenzimmersitzung in Connect. Zuvor konnte der Administrator nur den Meetingraumtyp auswählen. Diese Funktion ermöglicht es Administratoren mit einer gültigen Seminarlizenz, einmalige oder große Veranstaltungen (bis zu 1.500 Teilnehmer) in ALM zu planen und zu verwalten.
 
-Weitere Informationen zum Seminarraum finden Sie in diesem [Artikel](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html).
+Weitere Informationen zum Seminarraum finden Sie in diesem [Artikel](https://helpx.adobe.com/de/adobe-connect/using/creating-seminars.html).
 
 ### Unterstützung für den Zugriff auf Sitzungsanalysen
 
