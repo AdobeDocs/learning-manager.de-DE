@@ -5,11 +5,9 @@ title: Einstieg in Captivate Prime als Teilnehmer
 contentowner: manochan
 source-git-commit: fba5e5ddc1964b485be473bf356806f234688cf4
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 78%
-
+source-wordcount: '735'
+ht-degree: 94%
 ---
-
 
 
 # Einstieg in Captivate Prime als Teilnehmer
@@ -26,7 +24,7 @@ Nachdem Sie sich als Teilnehmer angemeldet haben, können Sie die folgenden Widg
 
 **Eigene Kenntnisse**:Sie können das Diagramm mit den Qualifikationen auch in der rechten oberen Ecke der Seite abrufen. Weitere Informationen finden Sie unter [Kenntniszuordnung](skills-levels.md)Funktion.
 
-**Lernobjekt-Widget**: Dies befindet sich rechts unterhalb von „Eigenes Lernen“ und es zeigt die Lernobjekte für den Benutzer an. Unter &quot;Eigenes Lernen&quot; können Sie alle [Kurse](courses.md), [Lernprogramme](learning-programs.md) und [Zertifizierungen](certifications.md) anzeigen, die von Ihnen registriert wurden oder Ihnen zugewiesen wurden. Sie können Lernobjekte direkt nutzen oder sie von diesem Widget aus verwenden.
+**Lernobjekt-Widget**: Dies befindet sich rechts unterhalb von „Eigenes Lernen“ und es zeigt die Lernobjekte für den Benutzer an. Auf der Registerkarte „Eigenes Lernen“ können Sie alle [Kurse](courses.md), [Lernprogramme](learning-programs.md) und [Zertifizierungen](certifications.md) abrufen, für die Sie registriert sind oder die Ihnen zugewiesen wurden. Sie können Lernobjekte direkt nutzen oder sie von diesem Widget aus verwenden.
 
 **Lernkalender**: Dieses Widget zeigt eine Liste der bevorstehenden und geplanten Lernprogramme in Ihrem Unternehmen für jedes Quartals an. Der Registrierungsstatus ist „Registriert“, wenn Sie sich für einen bestimmten Kurs registriert haben.
 
@@ -42,17 +40,17 @@ Wenn Sie mit einem iPad- oder Android-Tablet auf Learning Manager zugreifen, les
 
 Die Lernzeitleiste zeigt den Zeitplan des Teilnehmers mit den Kursen, die er zu absolvieren hat. In diesem Bereich sehen Sie Alarme für all Ihre Kurse, Zertifizierungen und Lernprogramme in ansteigender Reihenfolge der Fristen. Die Fristen für Ihre Lernaktivitäten werden im linken Bereich angezeigt.
 
-Klicken Sie bei den Lernobjekten auf die linke Kachel, um die entsprechenden Informationen als Kurskarte im rechten Bereich aufzurufen. Sie können auf die Kachel &quot;Kurs/Lernprogramm/Zertifizierung&quot; klicken, um die vollständigen Informationen zu jedem Lernobjekt anzuzeigen.
+Klicken Sie bei den Lernobjekten auf die linke Kachel, um die entsprechenden Informationen als Kurskarte im rechten Bereich aufzurufen. Sie können auf die Kachel Kurs/Lernprogramm/Zertifizierung klicken, um die vollständigen Informationen zu jedem Lernobjekt abzurufen.
 
 Bewegen Sie die Maus auf den Bereich der Zeitleiste, um die Bildlaufleiste auf der rechten Seite zu sehen. Verwenden Sie die Bildlaufleiste, um sich nach oben oder unten zu bewegen und mehr Alarme zu sehen.
 
 ## Benutzer der iPad- und Android-Anwendung {#ipadandandroidappusers}
 
-In der Learning Manager-App auf iPad- oder Android-Tablet können Sie, nachdem Sie sich als Teilnehmer angemeldet haben, die Informationen wie folgt auf der Registerkarte &quot;Startseite&quot; sehen:
+In der Learning Manager-App auf iPad- oder Android-Tablet sehen Sie die folgende Startseite, nachdem Sie sich als Teilnehmer angemeldet haben:
 
 ![](assets/screenshot-2015-08-07-12-24-40-e1439211134842.png)
 
-Um zu den Lern- und Katalogfunktionen zu navigieren, tippen Sie auf das Dropdown-Menü **Menü** und wählen Sie die entsprechende Option aus.
+Um zu den Lern- und Katalogfunktionen zu navigieren, tippen Sie auf die Dropdown-Liste **Menü** und wählen Sie die gewünschte Option aus.
 
 ![](assets/menu-ipad.png)
 
@@ -60,7 +58,7 @@ Um zu den Lern- und Katalogfunktionen zu navigieren, tippen Sie auf das Dropdown
 
 Sie können auf iPad- und Android-Tablets auch offline auf die Learning Manager-App zugreifen. Laden Sie Kurse herunter und bearbeiten Sie sie im Offlinemodus. Wenn Sie wieder mit dem Netzwerk verbunden sind, synchronisieren Sie sie mit der Online-App.
 
-1. Tippen Sie oben auf das Dropdown-Menü und dann auf die Option Lernen . Eine Liste aller verfügbaren Kurse wird in Form von Kacheln angezeigt.
+1. Tippen Sie auf die Dropdown-Liste Menü und dann auf die Option Lernen. Eine Liste aller verfügbaren Kurse wird in Form von Kacheln angezeigt.
 1. Tippen Sie auf das Download-Symbol unten auf jeder Lernobjekt-Kachel, um die Lerninhalte herunterzuladen.
 
    ![](assets/download-ipad.png)
@@ -70,7 +68,7 @@ Sie können auf iPad- und Android-Tablets auch offline auf die Learning Manager-
 **Gerätespeicher verfolgen**
 
 Sie können Ihren Gerätespeicher regelmäßig überprüfen.\
-Tippen Sie auf das Profilsymbol in der rechten oberen Ecke der App und tippen Sie auf die Menüoption **Gerätespeicher**.
+Tippen Sie dazu auf das Profilsymbol in der rechten oberen Ecke der App und tippen Sie auf die Menüoption **Gerätespeicher**.
 
 ![](assets/device-storage-option-ipad.png)
 

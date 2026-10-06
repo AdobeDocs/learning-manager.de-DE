@@ -6,20 +6,18 @@ contentowner: saghosh
 exl-id: 0306f255-283f-43b9-9494-11b3dc3765da
 source-git-commit: b5bbb184fc86965255b0247195a50cc65a03cd1a
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 56%
-
+source-wordcount: '518'
+ht-degree: 59%
 ---
-
 # Annehmen der Identität eines Teilnehmers und Managers {#impersonation-of-learner-and-manager}
 
-In großen Unternehmen benötigen Mitarbeiter des Kunden-Supports Identitätswechsel, um Probleme der Teilnehmer zu beheben.
+In großen Unternehmen benötigen Mitarbeiter des Kunden-Supports die Identitätswechselfunktion, um Probleme der Teilnehmer zu beheben.
 
 Mit dieser Möglichkeit, die Identität anderer Benutzer anzunehmen, können Administratoren alle Aktivitäten von Teilnehmern und Managern ihres Unternehmens identifizieren und ausführen.
 
 >[!NOTE]
 >
->Benutzerdefinierte Administratoren haben nicht die Möglichkeit, die Identität eines Benutzers anzunehmen. Nur Administratoren können die Identität eines Benutzers ändern.
+>Benutzerdefinierte Administratoren haben nicht die Möglichkeit, die Identität eines Benutzers anzunehmen. Nur Administratoren können den Identitätswechsel des Benutzers ausführen.
 
 ## Funktionsweise
 
@@ -50,7 +48,7 @@ Um die Identität eines Benutzers anzunehmen, gehen Sie wie folgt vor:
 
    Wählen Sie „Fortfahren“.
 
-   Eine Bestätigungsmeldung mit dem Titel &quot;Identitätswechsel-Modus: Sie sind als &quot;Benutzername (Benutzer-E-Mail-Adresse)&quot; angemeldet. &quot;Abmelden&quot; wird in der Kopfzeile der Seite angezeigt.
+   Eine Bestätigungsmeldung mit dem Titel &quot;Identitätswechselmodus: Sie sind als &quot;Benutzername (Benutzer-E-Mail-Adresse)&quot; angemeldet. &quot;Abmelden&quot; wird in der Kopfzeile der Seite angezeigt.
 
 **Eine imitierte Sitzung dauert 60 Minuten.**
 
@@ -83,12 +81,12 @@ Jede Anmeldung wird im Bericht separat gezählt.
 Ja, die Anmeldung eines Benutzers ist unabhängig vom Identitätswechsel.
 +++
 
-+++Werden Identitätswechsel in einzigartiger Weise erfasst?
++++Werden Identitätswechsel in einzigartiger Weise gezählt?
 
 Ja, jeder Anmeldezugriff/Besuch durch den Administrator während des Identitätswechsels wird separat gezählt.
 +++
 
-+++Was ist das Zeitlimit für Identitätswechsel?
++++Wie hoch ist das Zeitlimit für Identitätswechsel?  
 
 60 Minuten. Wenn ein Benutzer, der eine andere Identität annimmt, das Browser-Fenster schließt und dann innerhalb von 60 Minuten zu einer beliebigen Prime-URL navigiert, wird die Identitätswechselaktivität fortgesetzt und die Banner-Meldung muss angezeigt werden.
 +++
