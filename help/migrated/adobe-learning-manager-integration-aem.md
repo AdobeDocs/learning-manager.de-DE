@@ -4,13 +4,14 @@ title: Adobe Learning Manager-Referenzsite-Paket (ALM-Referenzsite) für AEM-Sit
 description: Adobe Learning Manager (ALM) ist in Adobe Experience Manager-Sites (AEM) integriert. So können Sie mit minimalem Programmieraufwand Ihre eigene Website und gut reagierende Mobilgeräteoberflächen für Adobe Learning Manager erstellen. Mit dieser Integration können Sie angepasste Lernbenutzeroberflächen für Ihre Benutzenden erstellen.
 contentowner: saghosh
 exl-id: 937dfbd1-74a1-4a86-a9b2-29a44be267c6
-source-git-commit: ec35261d69beccaa72143c8da1b1f8623654b7eb
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '2207'
-ht-degree: 65%
-
+source-wordcount: '2277'
+ht-degree: 67%
 ---
-
 # Adobe Learning Manager-Referenzsite-Paket (ALM-Referenzsite) für AEM-Sites
 
 Adobe Learning Manager (ALM) ist in Adobe Experience Manager-Sites (AEM) integriert. So können Sie mit minimalem Programmieraufwand Ihre eigene Website und gut reagierende Mobilgeräteoberflächen für Adobe Learning Manager erstellen. Mit dieser Integration können Sie angepasste Lernbenutzeroberflächen für Ihre Benutzenden erstellen.
@@ -90,7 +91,7 @@ Klicken Sie zum Genehmigen der Anwendung auf **[!UICONTROL Genehmigen]**.
 ## Konfigurieren des ALM-Kontos in AEM
 
 1. Starten Sie Ihre AEM-Instanz.
-1. Klicken Sie auf Einstellungen > Cloud Service.
+1. Klicken Sie auf Einstellungen > Cloud Services.
 1. Klicken Sie auf Adobe Learning Manager-Konfiguration.
 
    ![](assets/alm-configuration.png)
@@ -111,7 +112,7 @@ Klicken Sie zum Genehmigen der Anwendung auf **[!UICONTROL Genehmigen]**.
    1. Adobe Learning Manager-Modus: Wählen Sie aus, wie das Lernerlebnis für angemeldete und nicht angemeldete Teilnehmer gestaltet werden soll.
    1. Adobe Learning Manager-URL: Geben Sie die URL der ALM-Instanz ein, in der die Lerndienste gehostet werden.
    1. Konto-ID: Die ID des ALM-Kontos.
-   1. Client-ID, geheimer Clientschlüssel und Token für die Autorenaktualisierung: Geben Sie die Anmeldeinformationen ein, die Sie beim Erstellen der Anwendung in ALM erhalten haben.
+   1. Client-ID, Client-Geheimnis und Autor-Aktualisierungstoken: Geben Sie die Anmeldeinformationen ein, die Sie beim Erstellen der Anwendung in ALM erhalten haben.
    1. Anpassung des Widgets: Weitere Informationen finden Sie unter [Integrieren in AEM](/help/migrated/integrate-aem-learning-manager.md) `.`
 
 1. Speichern und schließen Sie die Konfiguration.
@@ -122,7 +123,7 @@ Mit Adobe Learning Manager können Sie jetzt Ihre Produkte und Schulungen Ihren 
 
 Mit diesem Arbeitsablauf können Teilnehmende eine Vorschau einer Schulung anzeigen, auf Schulungsinformationen zugreifen oder nach einer Schulung suchen, ohne sich bei Adobe Learning Manager anzumelden. Dieser Arbeitsablauf gilt nicht für die native Learning Manager-Benutzeroberfläche. (Er gilt NUR für AEM-Sites und andere Headless-Benutzeroberflächen.)
 
-**Konfigurieren und Aktivieren des Lernplattformkonnektors**
+**Konfigurieren und Aktivieren der Lernplattform-Verbindung**
 
 Dieser Abschnitt unterstreicht die Schritte, die zum Konfigurieren und Aktivieren des folgenden Connectors erforderlich sind:
 
@@ -227,11 +228,11 @@ Zusätzlich zur Verwendung der integrierten Vorlagen und dem von Grund auf neuen
 
 Der Code befindet sich im [GitHub-Repository der Referenzsite](https://github.com/adobe/adobe-learning-manager-reference-site).
 
-Die Hauptbestandteile der Vorlage sind:
+Die Hauptteile der Vorlage sind:
 
-* core: Java-Paket, das alle Kernfunktionen wie OSGi-Dienste, Listener oder Scheduler sowie komponentenbezogenen Java-Code wie Servlets oder Anforderungsfilter enthält.
-* ui.apps: enthält die /apps (und /etc)-Teile des Projekts, d. h. JS&amp;CSS-Client-Bibliotheken, Komponenten, Vorlagen.
-* ui.content: enthält Beispielinhalte, die die Komponenten aus &quot;ui.apps&quot; verwenden
+* Kern: Java-Paket, das alle Kernfunktionen wie OSGi-Dienste, Listener oder Scheduler sowie komponentenbezogenen Java-Code wie Servlets oder Anforderungsfilter enthält.
+* ui.apps: enthält die /apps (und /etc) Teile des Projekts, d.h. JS&amp;CSS clientlibs, Komponenten, Vorlagen.
+* ui.content: enthält Beispielinhalte, die die Komponenten aus der Datei ui.apps verwenden
 * ui.frontend: Enthält React-Komponenten.
 
 Der gesamte Code ist im Repository enthalten, damit Sie sofort loslegen können.
