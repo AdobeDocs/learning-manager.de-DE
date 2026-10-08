@@ -2,13 +2,14 @@
 description: Informieren Sie sich über den Unterschied zwischen Abschluss- und Erfolgskriterien in Content Composer, wie diese konfiguriert werden und warum dieser Unterschied ausschlaggebend für die exakte Verfolgung und Berichterstellung von Teilnehmern in Adobe Learning Manager ist.
 jcr-language: en_us
 title: Abschluss- und Erfolgskriterien festlegen
-source-git-commit: f8687710f5b73e8b7cf8d56057cac25483f38cdc
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 0%
-
 ---
-
 
 # Abschluss- und Erfolgskriterien festlegen
 

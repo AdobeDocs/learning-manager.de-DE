@@ -2,13 +2,14 @@
 description: 'Erfahren Sie, wie Sie Inhaltsblöcke in Content Composer hinzufügen: Absatz, Bild, Video, Flip Card, Akkordeon, Zeitleiste, Registerkarte, Karussell, MCQ und Wahr-/Falsch.'
 jcr-language: en_us
 title: Inhaltskomponente hinzufügen
-source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '182'
 ht-degree: 0%
-
 ---
-
 
 # Inhaltskomponente hinzufügen
 
@@ -24,7 +25,7 @@ Verfügbare Komponenten:
 | **Image** | Illustrationen, Screenshots, Diagramme |
 | **Video** | Eingebettetes MP4- oder verknüpftes Video |
 | **Karte wechseln** | Term- oder Definitionspaare, Anzeigen von Interaktionen |
-| **Bildraster** | Mehrere Bilder in einem Rasterlayout |
+| **Image-Raster** | Mehrere Bilder in einem Raster-Layout |
 | **Akkordeon** | Erweiterbare Abschnitte, schrittweise Verfahren |
 | **Zeitleiste** | Sequenzielle Ereignisse oder Prozessschritte |
 | **Registerkarte** | Parallele Inhalte - Vergleiche, regionale Varianten |

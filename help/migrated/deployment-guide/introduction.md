@@ -1,22 +1,23 @@
 ---
 jcr-language: en_us
 title: Bereitstellungsleitfaden für Learning Manager
-description: Learning Manager ist ein Learning Management System (LMS), mit dem Schulungsexperten ansprechende und verfolgbare Lernmaterialien bereitstellen können, die zu den Anforderungen und Zielen eines Unternehmens beitragen können. Mit Learning Manager können Ausbilder oder Manager Kurse und andere Lernobjekte in einer bestimmten Reihenfolge für Teilnehmer zuweisen.
+description: Learning Manager ist ein Learning Management System (LMS), mit dem Schulungsexperten ansprechende und verfolgbare Lernziele bereitstellen können, die zu den Anforderungen und Materialien eines Unternehmens beitragen. Mit Learning Manager können Ausbilder oder Manager Kurse und andere Lernobjekte in einer bestimmten Reihenfolge für Teilnehmer zuweisen.
 contentowner: shhivkum
 preview: true
 exl-id: 5d65fd64-446e-4398-957b-1fb2b19e646d
-source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3264'
 ht-degree: 76%
-
 ---
-
 # Bereitstellungsleitfaden für Learning Manager
 
 ## Einführung {#introduction}
 
-Learning Manager ist ein Learning Management System (LMS), mit dem Schulungsexperten ansprechende und verfolgbare Lernmaterialien bereitstellen können, die zu den Anforderungen und Zielen eines Unternehmens beitragen können. Mit Learning Manager können Ausbilder oder Manager Kurse und andere Lernobjekte in einer bestimmten Reihenfolge für Teilnehmer zuweisen. Dieses Tool bietet außerdem mehrere leistungsstarke Funktionen, darunter einen Fluidic Player in mehreren Formaten, Gamification, Abzeichen und benutzerfreundliches Teilnehmer-Dashboard. Um jedoch alle diese Funktionen nutzen zu können, muss Learning Manager zunächst konfiguriert und eingerichtet werden.
+Learning Manager ist ein Learning Management System (LMS), mit dem Schulungsexperten ansprechende und verfolgbare Lernziele bereitstellen können, die zu den Anforderungen und Materialien eines Unternehmens beitragen. Mit Learning Manager können Ausbilder oder Manager Kurse und andere Lernobjekte in einer bestimmten Reihenfolge für Teilnehmer zuweisen. Dieses Tool bietet außerdem mehrere leistungsstarke Funktionen, darunter einen Fluidic Player in mehreren Formaten, Gamification, Abzeichen und benutzerfreundliches Teilnehmer-Dashboard. Um jedoch alle diese Funktionen nutzen zu können, muss Learning Manager zunächst konfiguriert und eingerichtet werden.
 
 Dieser Leitfaden enthält schrittweise Anleitungen zum Einstieg in Learning Manager. In diesem Dokument finden Sie auch die Konfigurations- und Einrichtungsinformationen im Detail. Lesen Sie weiter, um zu erfahren, wie Ihnen der Einstieg in Learning Manager gelingt.
 

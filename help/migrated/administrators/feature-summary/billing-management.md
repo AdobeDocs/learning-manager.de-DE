@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Verwalten von Learning Manager-Bestellungen und -Abrechnungen
 contentowner: manochan
 exl-id: 91635ef7-dbb9-4bb1-98f9-129f6fd5b6b4
-source-git-commit: 2f1ca19ec3b94f975bd78ed92b48621eec6d5a22
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2471'
 ht-degree: 53%
-
 ---
-
 
 # Verwalten von Learning Manager-Bestellungen und -Abrechnungen
 
@@ -39,12 +40,12 @@ Die Seite &quot;Abrechnung&quot; enthält die folgenden Registerkarten:
 
 **Kontodetails**
 
-Die Karte **Kontodetails** oben auf der Registerkarte **Abonnement** zeigt vier schreibgeschützte Bezeichner für Ihr Konto an.
+Die Karte **Kontodetails** oben auf der Registerkarte **Abonnement** zeigt vier schreibgeschützte Identifizierungen für Ihr Konto an.
 
 | Feld | Beschreibung |
 |---|---|
 | **ECCID** | Adobe-Referenznummer für Ihr Konto. Wenden Sie sich an den Adobe-Support. |
-| **Konto-ID** | Deine eindeutige Adobe Learning Manager-Kontokennung. |
+| **Konto-ID** | Deine Identifizierung für das Adobe Learning Manager-Konto. |
 | **Kontoname** | Der Anzeigename Ihres Adobe Learning Manager-Kontos. |
 | **IMS-Organisations-ID** | Die mit diesem Konto verknüpfte Adobe Admin Console-Organisation. Leer, falls noch nicht verknüpft. |
 
@@ -97,7 +98,7 @@ Wenn Ihr Konto unabhängig eingerichtet wurde und das Feld **IMS-Organisations-I
 1. Wählen Sie **[!UICONTROL Abrechnung]** und dann die Registerkarte **[!UICONTROL Abonnement]** aus.
 2. Wählen Sie auf der Karte **Kontodetails** die Option **[!UICONTROL IMS-Organisation verknüpfen]** aus.
 3. Ein Anmeldefenster wird geöffnet. Geben Sie die Anmeldeinformationen für Ihr Adobe-Konto ein und wählen Sie Ihr Unternehmen aus der Liste aus. Adobe Learning Manager bestätigt, dass für das angemeldete Konto die Rolle &quot;Systemadministrator&quot; in der Adobe Admin Console-Organisation und für das gleiche Konto die Rolle &quot;Administrator&quot; in Adobe Learning Manager vorhanden ist.
-4. Wenn beide Prüfungen erfolgreich verlaufen, wird die Verknüpfung hergestellt. Das Feld **IMS-Organisations-ID** wird mit dem Bezeichner Ihrer Organisation aktualisiert, und das Guthaben wird im Abschnitt **Lizenzen** angezeigt.
+4. Wenn beide Prüfungen erfolgreich verlaufen, wird die Verknüpfung hergestellt. Das Feld **IMS-Organisations-ID** wird mit der Identifizierung Ihres Unternehmens aktualisiert. Das Guthaben wird im Abschnitt **Lizenzen** angezeigt.
 5. Wenn eine der beiden Prüfungen fehlschlägt, wird eine Fehlermeldung angezeigt. Bestätigen Sie die oben genannten Voraussetzungen und versuchen Sie es erneut.
 
 ### Verknüpfung Ihres Kontos aufheben

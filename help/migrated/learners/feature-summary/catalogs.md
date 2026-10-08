@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Kataloge
 contentowner: manochan
 exl-id: 5e62995c-6471-47e9-9e6c-06ac5c5586bc
-source-git-commit: e2799f1bba927108286d5e8036d761f35fd785e6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '461'
 ht-degree: 26%
-
 ---
-
 # Kataloge
 
 Erfahren Sie, wie Sie Kataloge in Learning Manager verwenden, um die entsprechenden Lernobjekte in Learning Manager anzuzeigen.
@@ -21,7 +22,7 @@ Teilnehmer können im **Standardkatalog** alle zugewiesenen und verfügbaren Ler
 
 Sie können die Lernobjekte anhand verschiedener Kategorien wie Produkte, Arbeitsrollen, Typen, Benötigte Zeit, Kenntnisse und Stichwörter sortieren. Sie können auch mithilfe der Optionen im linken Bereich filtern: nach Lernobjekten, nach Kenntnissen und nach Abschlussstatus.
 
-Oben auf der Seite können Sie im Suchbereich die Namen Ihrer bekannten Lernobjekte eingeben. Teilnehmer können zwischen dem Raster und der Listenansicht wechseln, indem sie dieses Symbol ![](assets/icon-list.png) auswählen.
+Oben auf der Seite können Sie im Suchbereich die Namen Ihrer bekannten Lernobjekte eingeben. Die Teilnehmer können zwischen dem Raster und der Listenansicht wechseln, indem sie dieses Symbol ![](assets/icon-list.png) auswählen.
 
 ![](assets/catalogs.png)
 *Kataloge anzeigen*

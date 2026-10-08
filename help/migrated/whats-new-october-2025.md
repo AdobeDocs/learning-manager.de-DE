@@ -3,13 +3,14 @@ description: Erfahren Sie mehr über die neuen Funktionen und Verbesserungen in 
 jcr-language: en_us
 title: Neue Funktionen in der Adobe Learning Manager-Version Oktober 2025
 exl-id: 8a2f5c82-2150-46c6-a50b-a3d8a4c8ae53
-source-git-commit: 0f7f42d18c81d18b6f6592a90f9322f0cd9dcce4
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '5580'
+source-wordcount: '5644'
 ht-degree: 0%
-
 ---
-
 
 # Neue Funktionen in der Adobe Learning Manager-Version Oktober 2025
 
@@ -282,11 +283,11 @@ GET /bulkimport/runStatus
 
 **Parameter**
 
-* **migrationProjectId**: (Erforderlich). Ein eindeutiger Bezeichner für ein Migrationsprojekt. Ein Migrationsprojekt wird verwendet, um Daten und Inhalte aus einem vorhandenen LMS (Learning Management System) in Adobe Learning Manager zu übertragen. Jedes Migrationsprojekt kann aus mehreren Sprints bestehen, die kleinere Einheiten von Migrationsaufgaben sind.
+* **migrationProjectId**: (Erforderlich). Eine eindeutige Identifizierung für ein Migrationsprojekt. Ein Migrationsprojekt wird verwendet, um Daten und Inhalte aus einem vorhandenen LMS (Learning Management System) in Adobe Learning Manager zu übertragen. Jedes Migrationsprojekt kann aus mehreren Sprints bestehen, die kleinere Einheiten von Migrationsaufgaben sind.
 
-* **sprintId**: (Erforderlich). Ein eindeutiger Bezeichner für einen Sprint innerhalb eines Migrationsprojekts. Ein Sprint ist eine Teilmenge von Migrationsaufgaben, die bestimmte Lernobjekte (z. B. Kurse, Module, Teilnehmerdatensätze) umfasst, die von einem bestehenden LMS zu Adobe Learning Manager migriert werden sollen. Jeder Sprint kann unabhängig ausgeführt werden, was eine phasengesteuerte Migration ermöglicht.
+* **sprintId**: (Erforderlich). Eine eindeutige Identifizierung für einen Sprint innerhalb eines Migrationsprojekts. Ein Sprint ist eine Teilmenge von Migrationsaufgaben, die bestimmte Lernobjekte (z. B. Kurse, Module, Teilnehmerdatensätze) umfasst, die von einem bestehenden LMS zu Adobe Learning Manager migriert werden sollen. Jeder Sprint kann unabhängig ausgeführt werden, was eine phasengesteuerte Migration ermöglicht.
 
-* **sprintRunId**: (Erforderlich). Eine eindeutige Kennung, die zum Verfolgen der Ausführung eines bestimmten Sprints innerhalb eines Migrationsprojekts verwendet wird. Es ist mit dem eigentlichen Migrationsvorgang für die in einem Sprint definierten Elemente verknüpft. Die sprintRunId hilft bei der Überwachung, Fehlerbehebung und Verwaltung des Migrationsauftrags.
+* **sprintRunId**: (Erforderlich). Eine eindeutige Identifizierung, die zum Verfolgen der Ausführung eines bestimmten Sprints innerhalb eines Migrationsprojekts verwendet wird. Es ist mit dem eigentlichen Migrationsvorgang für die in einem Sprint definierten Elemente verknüpft. Die sprintRunId hilft bei der Überwachung, Fehlerbehebung und Verwaltung des Migrationsauftrags.
 
 **Antwort**
 
@@ -668,7 +669,7 @@ Früher hat die öffentliche API die instanzbasierte Abschlussmarkierung in Szen
 
 ### Benutzer-ID-Voreinstellungen für SCORM-Berichte festlegen
 
-Einige Kunden benötigen die UUID des Teilnehmers (Universally Unique Identifier) anstelle der Standard-Benutzer-ID für die SCORM-Inhaltsvervollständigung. Die Verwendung der UUID bietet eine genauere Verfolgung über Lernprogramme hinweg und verhindert eine doppelte Lizenznutzung in MAU-Konten (monatlich aktiver Benutzer).
+Einige Kunden benötigen die UUID des Teilnehmers (Universally Unique Identifizierung) anstelle der Standard-Benutzer-ID für die SCORM-Inhaltsvervollständigung. Die Verwendung der UUID bietet eine genauere Verfolgung über Lernprogramme hinweg und verhindert eine doppelte Lizenznutzung in MAU-Konten (monatlich aktiver Benutzer).
 
 Um dies zu unterstützen, wurde eine neue Einstellung auf Kontoebene, `reporting_userid_preference`, hinzugefügt. Wenn diese Einstellung aktiviert ist, wird die UUID anstelle der Benutzer-ID gesendet, wenn Teilnehmer SCORM-Inhalte abschließen.
 
@@ -686,13 +687,13 @@ In der Lernobjekt-API wurde die Art und Weise, wie Autorinformationen zurückgeg
 
 * Hauptkontokurse: Autoreninformationen werden weiterhin unter dem vorhandenen `authors`-Attribut zurückgegeben, ohne dass sich das aktuelle Verhalten ändert.
 
-Diese Änderung stellt sicher, dass die Konsistenz bei der Bereitstellung von Autorendaten über die API sowohl für Haupt- als auch für gemeinsam genutzte Kurse gewährleistet ist, während gleichzeitig die Kompatibilität für vorhandene Integrationen beibehalten wird.
+Diese Änderung stellt sicher, dass die Konsistenz beim leg von Autorendaten über API sowohl für Haupt- als auch für gemeinsam genutzte Kurse gewährleistet ist, während gleichzeitig die Kompatibilität für bestehende Integrationen beibehalten wird.
 
 ## Änderungen an webhooks
 
-### Registrieren Sie LinkedIn Learning-Webhooks mithilfe des Connectors
+### Registrieren Sie LinkedIn Learning-Webhooks mithilfe der Verbindung
 
-Früher mussten Administratoren LinkedIn Learning-Webhooks über APIs manuell bei Adobe Learning Manager registrieren. Dank dieser Verbesserung unterstützt der LinkedIn Learning (LIL)-Connector jetzt die automatische Webhook-Registrierung während der neuen Verbindungseinrichtung in ALM. Die **OAuth-Server-URL** und die **Mandantenserver-URL** werden auf der LinkedIn Learning-Konfigurationsseite automatisch ausgefüllt.
+Früher mussten Administratoren LinkedIn Learning-Webhooks über APIs manuell bei Adobe Learning Manager registrieren. Mit dieser Verbesserung unterstützt die LinkedIn Learning (LIL)-Verbindung jetzt die automatische Webhook-Registrierung während der neuen Verbindungseinrichtung in ALM. Die **OAuth-Server-URL** und die **Mandantenserver-URL** werden auf der LinkedIn Learning-Konfigurationsseite automatisch ausgefüllt.
 
 Weitere Informationen zur Integration von LinkedIn Learning finden Sie unter [LinkedIn Learning](/help/migrated/integration-admin/feature-summary/connectors.md#linkedin-learning-connector).
 
@@ -730,7 +731,7 @@ Weitere Informationen zum Teilnehmertranskriptbericht finden Sie im [Teilnehmert
 
 Der Benutzerbericht enthält jetzt zusätzliche Felder zur Verbesserung der Benutzerverfolgung und Organisationszuordnung. Diese Updates vereinfachen die Identifizierung von Benutzern, unterstützen die Integration mit nachgelagerten Benutzerverwaltungs-Workflows, verbessern das Verständnis von Berichtsbeziehungen und wahren organisatorische Grenzen, um versehentliche Querverbindungen zu verhindern.
 
-* Spalte für interne Benutzer-ID: Bietet eindeutige interne Kennungen für eine reibungslose Benutzerverfolgung über verschiedene Systeme und API-Endpunkte hinweg.
+* Spalte für interne Benutzer-ID: Bietet eindeutige interne Identifizierungen für eine reibungslose Benutzerverfolgung über verschiedene Systeme und API-Endpunkte hinweg.
 * Spalte Manager-E-Mail: Umfasst direkte Manager-Kontaktinformationen für die Verfolgung der Organisationshierarchie.
 
 ![Benutzerbericht mit gelb markierten Spalten für die interne Benutzer-ID und Manager-E-Mail](/help/migrated/assets/user-report-columns.png)
@@ -742,13 +743,13 @@ _Benutzerberichte, die interne Benutzer-IDs und Manager-E-Mail-Adressen zur Opti
 
 **Übersicht**
 
-Der Benutzerbericht ist jetzt für Box-, FTP- und benutzerdefinierte FTP-Connectors zusätzlich zu den vorhandenen Job-APIs verfügbar. Diese Berichte enthalten detaillierte Informationen zur internen Benutzer-ID, Benutzer-E-Mail-Adresse, zum Namen, zur Manager-E-Mail-Adresse, zum Benutzertyp und zu anderen Themen.
+Der Benutzerbericht ist jetzt zusätzlich zu den bestehenden Job-APIs für Box-, FTP- und benutzerdefinierte FTP-Verbindungen verfügbar. Diese Berichte enthalten detaillierte Informationen zur internen Benutzer-ID, Benutzer-E-Mail-Adresse, zum Namen, zur Manager-E-Mail-Adresse, zum Benutzertyp und zu anderen Themen.
 
-Berichte können nach Bedarf oder geplant erstellt werden, wobei die Daten im jeweiligen Connector gespeichert werden, um einen einfachen Zugriff und eine einfache Analyse zu ermöglichen. Diese Verbesserung verbessert die Überwachung und das Auditing von Benutzeraktivitäten und unterstützt eine bessere Sicherheit und Compliance-Verfolgung.
+Berichte können nach Bedarf oder nach Zeitplan erstellt werden, wobei die Daten in der jeweiligen Verbindung gespeichert werden, um den Zugriff und die Analyse zu erleichtern. Diese Verbesserung verbessert die Überwachung und das Auditing von Benutzeraktivitäten und unterstützt eine bessere Sicherheit und Compliance-Verfolgung.
 
 Diese Berichte sind zusammen mit vorhandenen Berichten wie Benutzerregistrierung, Anmeldezugriff, Gamification und Schulung verfügbar, sodass Administratoren von einem einzigen Ort aus auf alle wichtigen Berichte zugreifen können, um die Datenverwaltung und -analyse zu optimieren.
 
-In [Connector](/help/migrated/integration-admin/feature-summary/connectors.md) finden Sie weitere Informationen zu FTP, benutzerdefiniertem FTP und Box-Connector.
+In [Verbindung](/help/migrated/integration-admin/feature-summary/connectors.md) finden Sie weitere Informationen zu FTP, benutzerdefiniertem FTP und Box-Verbindung.
 
 ### Ausgesetzte Benutzer in Teilnehmertranskripte einschließen
 
@@ -798,13 +799,13 @@ Weitere Informationen zum Bericht zu Arbeitshilfen finden Sie im [Bericht zu Arb
 * In der Spalte &quot;Datum des Feedbacks&quot; in Feedbackberichten wird jetzt das richtige Datum angezeigt. Früher wurden Sekunden fälschlicherweise an den Date-Konstruktor übergeben, der Millisekunden erwartet, sodass Datumsangaben als Januar 1970 angezeigt wurden. Dies wurde korrigiert, um eine genaue Datumsanzeige beim Generieren von Feedbackberichten zu gewährleisten.
 * Teilnehmer können jetzt die Registrierung für einen Flex-Lernpfad aktualisieren, selbst wenn eine der Kursinstanzen eingestellt ist. Zuvor verursachte die Auswahl einer neuen Instanz einen Konsolenfehler (Eigenschaften von nicht definierten Inhalten können nicht gelesen werden) und verhinderte die Aktualisierung.
 * Ressourcennamen in Lernpfaden werden jetzt korrekt angezeigt, ohne das mittlere Wort zu brechen.
-* LinkedIn Learning-Webhooks sind jetzt über den LIL-Connector aktiviert, wenn Verbindungen für neue Benutzer erstellt werden. Das System registriert das Konto auch über die private API und zeigt zusätzliche Konfigurationsinformationen (OAuth-URL und Mandanten-URL) auf der Konfigurationsseite von LinkedIn Learning an.
+* LinkedIn Learning-Webhooks sind jetzt über die LIL-Verbindung aktiviert, wenn Verbindungen für neue Benutzer erstellt werden. Das System registriert das Konto auch über die private API und zeigt zusätzliche Konfigurationsinformationen (OAuth-URL und Mandanten-URL) auf der Konfigurationsseite von LinkedIn Learning an.
 * Benutzerattributwerte, die über SAML-Workflows (`UpdateUserWorkerTask`) aktualisiert wurden, werden jetzt mit ihrer ursprünglichen Groß-/Kleinschreibung gespeichert, anstatt in Kleinbuchstaben konvertiert zu werden.
 * Bei der Neuanordnung von Modulen in einem Kurs wird die Anzahl der obligatorischen Module nicht mehr auf &quot;Alle&quot; zurückgesetzt. Die Anzahl bleibt jetzt wie konfiguriert.
 * Go1-Pipelines behandeln jetzt Sprachcodes konsistent, indem sie zweibuchstabige Codes vierbuchstabigen Codes zuordnen, ähnlich wie LinkedIn Learning-Pipelines.
 * Bei Konten im Ruhestand+ sahen Teilnehmer zuvor &quot;Dieser Kurs ist nicht vorhanden&quot;, wenn sie einen Lernpfad-Kurs nach der Abmeldung von einer Zertifizierung starteten. Registrierungsquellen werden jetzt korrekt aktualisiert, sodass Kurse in Lernpfaden fehlerfrei gestartet werden können.
 * Wenn die Datei &quot;module_version.csv&quot; contentType-Felder mit leeren oder null Werten enthält, funktioniert die Kurserstellung jetzt ohne Probleme.
-* Kurse werden jetzt korrekt angezeigt, wenn Sie nach Katalog oder Katalogbeschriftung filtern. Bisher wurden durch Anwenden dieser Filter auf der Kursseite keine Kurse angezeigt, auch wenn sie mit dem Katalog verknüpft waren.
+* Kurse werden jetzt korrekt angezeigt, wenn sie nach Katalog oder Katalogbeschriftung Filterung werden. Bisher wurden durch Anwenden dieser Filter auf der Kursseite keine Kurse angezeigt, auch wenn sie mit dem Katalog verknüpft waren.
 * In der Teilnehmer-App wurde das Drücken der TAB-TASTE im Fluidic Player auf der Schaltfläche &quot;Vollbild eingeben&quot; blockiert. Die Tastaturnavigation bewegt sich jetzt korrekt durch alle Bildschirmelemente.
 * Wenn Sie den Mauszeiger über lange Kursnamen im Kompatibilitäts-Dashboard der Manager-App bewegen, wird jetzt der vollständige Name für registrierte oder kompatible Kurse angezeigt.
 * Für die Spalte mit der Modulsichtbarkeit in module.csv werden nur freigegebene oder AUSGEBLENDETE Module akzeptiert. Jeder andere Wert löst während der Migration einen Fehler aus und verhindert Fehler im Backend.

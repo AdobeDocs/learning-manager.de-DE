@@ -4,13 +4,14 @@ title: Probleme beim Einstellen eines Lernprogramms
 description: Probleme beim Einstellen eines Lernprogramms in Adobe Learning Manager
 contentowner: nluke
 exl-id: 706cafe3-2650-4837-9dee-e381a4a711f9
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '231'
-ht-degree: 55%
-
+ht-degree: 61%
 ---
-
 # Probleme mit dem Einstellen eines Lernprogramms
 
 ## Problem
@@ -23,7 +24,7 @@ Es gibt Situationen, in denen ein Lernprogramm eingestellt wurde, ohne dass ein 
 
 Dieses Problem tritt auf, weil ein Lernprogramm eine Sammlung von Kursen ist. Die Schulungen mit höherer Reihenfolge werden eingestellt, wenn einer der darin enthaltenen Kurse eine eingestellte Instanz enthält oder die Kursinstanz eingestellt wird.
 
-## Auflösung
+## Lösung
 
 Um den Kurs zu überprüfen, der eine eingestellte Instanz enthält, führen Sie die folgenden Schritte aus:
 

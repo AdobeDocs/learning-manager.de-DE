@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Farbdesigns
 contentowner: jayakarr
 exl-id: 8616e38a-023f-4acb-ac68-df71a5153ad2
-source-git-commit: 7a096b4d28cf5b13f16291b0d3cb1dc5e8b04ba8
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '1295'
-ht-degree: 43%
-
+source-wordcount: '1327'
+ht-degree: 51%
 ---
-
 # Farbdesigns
 
 Farbdesigns und Branding in Learning Manager
@@ -33,21 +34,21 @@ Klicken Sie auf **[!UICONTROL Branding]** im linken Bereich, um Ihren Unternehme
 
 Klicken Sie auf **[!UICONTROL Bearbeiten]**, um das Erscheinungsbild Ihres Logos und Firmennamens in der Learning Manager-Anwendung festzulegen.
 
-Klicken Sie auf **[!UICONTROL Neues Logo hochladen]** und wählen Sie das Logo von Ihrem Computer. Sie können das Erscheinungsbild des Logos und den Unternehmensnamen nachstehend in der Vorschau anzeigen. Wählen Sie den Kopfzeilenstil Ihrer Wahl aus, und klicken Sie auf **[!UICONTROL Speichern]**.
+Klicken Sie auf **[!UICONTROL Neues Logo hochladen]** und wählen Sie das Logo von Ihrem Computer. Sie können das Erscheinungsbild des Logos und den Unternehmensnamen nachstehend in der Vorschau anzeigen. Wählen Sie den Kopfzeilenstil und klicken Sie auf **[!UICONTROL Speichern]**.
 
 ## Designs {#themes}
 
 Ein Set mit fünf repräsentativen Bildern wird bereitgestellt, um Ihre Farbdesignänderungen in der Vorschau anzuzeigen, bevor Sie sie in Ihre Anwendung übernehmen. Navigieren Sie durch diese Bilder, indem Sie auf die Symbole &lt; und > auf der rechten Seite der Bilder klicken, um sie in der Vorschau anzuzeigen. Alternativ dazu können Sie auch mit der rechten Maustaste auf die Navigationskreise am unteren Rand dieser Bilder klicken, um den Satz von Vorschaumomentaufnahmen zu durchsuchen.
 
-**Wählen Sie ein Design aus** 
+**Wählen Sie ein Design aus**
 
-Klicken Sie auf **[!UICONTROL Hinweise anzeigen]** unter diesem Abschnitt, um die Hinweise auf dem Bild wie unten gezeigt anzuzeigen.
+Klicken Sie auf **[!UICONTROL Hinweise anzeigen]** unter diesem Abschnitt, um die Hinweise auf dem Bild, wie unten gezeigt, anzuzeigen.
 
 ![](assets/themes-preview-images.png)
 
 *Hinweise zu einem Design anzeigen*
 
-Die Lern-Manager-Anwendung bietet fünf Farbdesignoptionen für ihre Benutzer:
+Die Learning Manager-Anwendung bietet fünf Farbdesignoptionen für die Benutzer:
 
 * Prime-Standard
 * Kieselseine
@@ -73,9 +74,9 @@ Für die Anpassung wählen Sie den Designtyp im linken Bereich aus und klicken S
 
 Klicken Sie auf **[!UICONTROL Design zurücksetzen]**, um die ursprünglichen Einstellungen des Designs wiederherzustellen. Klicken Sie auf **[!UICONTROL Speichern]**, nachdem Sie die Änderungen abgeschlossen haben.
 
-**Live-Vorschau** 
+**Live-Vorschau**
 
-Klicken Sie auf die **[!UICONTROL Live-Vorschau]** in der unteren linken Ecke des Designabschnitts. Ein Popupfenster wird wie folgt angezeigt:
+Klicken Sie auf die **[!UICONTROL Live-Vorschau]** in der unteren linken Ecke des Designabschnitts. Ein Popup-Fenster erscheint, wie unten gezeigt:
 
 ![](assets/live-theme-preview.png)
 
@@ -111,14 +112,14 @@ So implementieren Sie mehrere Branding-Elemente:
 
 >[!INFO]
 >
->Weitere Informationen finden Sie in diesem [Blog](https://elearning.adobe.com/2024/06/multiple-branding-how-to-add-customised-branding-for-internal-and-external-users/).
+>Weitere Informationen finden Sie in diesem [Blog](https://elearning.adobe.com/2024/06/multiple-branding-how-to-add-customized-branding-for-internal-and-external-users/).
 
 
 #### Wichtige Anmerkungen
 
 * Ein Administrator kann das Branding auf mehreren Ebenen für diesen aktiven Feldwert hinzufügen, und der externe Benutzer kann sich mit verschiedenen Mechanismen anmelden (SSO Single (Okta, Mini Orange), Social Login) und überprüfen, ob das Multi-Branding anwendbar ist.
-* Ein externer Benutzer hat ein aktives Feld und einen aktiven Feldwert, wie der interne Benutzer: Obwohl er freigegeben ist, muss er vom Administrator separat im Multi-Branding angegeben werden. Nach der Anwendung kann sich ein externer Benutzer mit verschiedenen Mechanismen anmelden (SSO Single (Okta, Mini Orange), Social Login) und überprüfen, ob das Multi-Branding anwendbar ist.
-* Ein externer Benutzer, der von einem Profil in ein anderes verschoben wurde: Das Verschieben des externen Benutzers von einem Profil in ein anderes Profil hat keine Auswirkungen auf den Wert des aktiven Felds für den Benutzer, es sei denn, der Wert des aktiven Felds wird vom Administrator oder vom externen Benutzer während der Anmeldung oder Registrierung bearbeitet/gelöscht.
+* Ein externer Benutzer hat ein aktives Feld und einen aktiven Feldwert wie der interne Benutzer: Obwohl es freigegeben ist, muss es im Multi-Branding vom Administrator separat angegeben werden. Nach der Anwendung kann sich ein externer Benutzer mit verschiedenen Mechanismen anmelden (SSO Single (Okta, Mini Orange), Social Login) und überprüfen, ob das Multi-Branding anwendbar ist.
+* Ein externer Benutzer wechselte von einem Profil zu einem anderen: Das Verschieben des externen Benutzers von einem Profil in ein anderes hat keine Auswirkungen auf den Wert des aktiven Felds für den Benutzer, es sei denn, der Wert des aktiven Felds wird vom Administrator oder vom externen Benutzer während der Anmeldung oder Registrierung bearbeitet/gelöscht.
 
 >[!NOTE]
 >
@@ -146,7 +147,7 @@ In der folgenden Liste werden die Komponenten angezeigt, die angepasst werden k�
     <p> </p>
     <ul>
      <li>Nur bis zu 12 benutzerdefinierte Farben. </li>
-     <li>Farben werden auf alle Lernobjekte angewendet. Die Farben werden nacheinander auf alle Lernobjekte (Schulungen) angewendet, und der hexadezimale Farbcode ist das erforderliche Format für alle Farben, z. B. #ffffff.</li>
+     <li>Farben werden auf alle Lernobjekte angewendet. Die Farben werden nacheinander auf alle Lernobjekte (Trainings) angewendet, und der hexadezimale Farbcode ist das erforderliche Format für alle Farben, z. B. #ffffff.</li>
      <li>Wenn nur eine Farbe angegeben ist, wird diese Farbe auf alle Lernobjekte angewendet.</li>
     </ul>
     <p> </p></td>
@@ -234,13 +235,13 @@ Auf der Seite **Allgemein** stehen Ihnen die folgenden Optionen zur Verfügung:
    <td>
     <p>Teilnehmern das Erkunden von Interessensbereichen ermöglichen</p></td>
    <td>
-    <p>Nur für klassisches Benutzeroberfläche. Wählen Sie <strong>Ja </strong> oder <strong>Nein</strong>.<br></p></td>
+    <p>Nur für klassisches Benutzeroberfläche. Wählen Sie <strong>Ja </strong>oder <strong>Nein</strong> aus.<br></p></td>
   </tr>
   <tr>
    <td>
-    <p>Benutzer zum Auswählen von Interessenbereichen (Kenntnissen) auffordern <br></p></td>
+    <p>Benutzer auffordern, Interessensbereiche (Kenntnisse) auszuwählen <br></p></td>
    <td>
-    <p>Nur für immersive Benutzeroberfläche. Wählen Sie <strong>Ja</strong> oder <strong>Nein</strong>. </p></td>
+    <p>Nur für immersive Benutzeroberfläche. Wählen Sie <strong>Ja</strong> oder <strong>Nein</strong> aus. </p></td>
   </tr>
  </tbody>
 </table>

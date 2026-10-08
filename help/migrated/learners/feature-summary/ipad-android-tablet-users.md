@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Teilnehmer-App für Smartphones und Tablets
 contentowner: manochan
 exl-id: 94c2b54c-a5e2-4262-bc3c-bd21d52e1f09
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2714'
 ht-degree: 77%
-
 ---
-
 # Teilnehmer-App für Smartphones und Tablets
 
 In diesem Artikel finden Sie Informationen zum Herunterladen der Learning Manager-App für Teilnehmende für Smartphones und Tablets. Erfahren Sie, wie Sie Kurse auf Ihrem Smartphone oder Tablet absolvieren können.
@@ -165,7 +166,7 @@ Tippen Sie auf einen Kurs, um dessen Details sowie (falls zutreffend) Ihr Abschl
 
 **Anzeigen von Katalogen**
 
-Tippen Sie unten auf dem Bildschirm auf das Symbol neben dem Buchsymbol. Sie können sofort den Katalog mit allen zugeordneten Lernobjekten anzeigen. Sie können sie entweder im Rasterlayout oder in der Detailansicht anzeigen. Wählen Sie Empfehlungen aus, um Kursempfehlungen basierend auf Ihrem Lernverlauf anzuzeigen.
+Tippen Sie unten auf dem Bildschirm auf das Symbol neben dem Buchsymbol. Sie können sofort den Katalog mit allen zugeordneten Lernobjekten anzeigen. Sie können sie im Raster-Layout oder in der Detailansicht anzeigen. Wählen Sie Empfehlungen aus, um Kursempfehlungen basierend auf Ihrem Lernverlauf anzuzeigen.
 
 ![](assets/4.png)
 
@@ -217,7 +218,7 @@ In diesem Update werden die folgenden Funktionen nicht unterstützt. Folgendes i
 
 * ein Board erstellen oder einem Board folgen
 * eine URL in einen Beitrag kopieren
-* einen Beitrag als Story hinzufügen oder als Beitrag als Favorit oder Pin oben hinzufügen
+* Fügen Sie einen Beitrag als Story hinzu oder fügen Sie ihn als Beitrag als Favorit oder Nadel nach oben hinzu.
 * Zeigen Sie ein soziales Leaderboard an.
 
 Soziales Lernen ist eine Plattform in der Learning Manager-App, auf der Benutzer Ideen und wichtige Erkenntnisse in einer informellen Umgebung austauschen können. Es ist eine Methodik, die die Idee des traditionellen Lernens ergänzt.
@@ -346,7 +347,7 @@ In der mobilen App können Sie kein Board erstellen. Um ein Board zu erstellen, 
 * Kommentare in einem Board bearbeiten oder löschen.
 * Bearbeiten oder löschen Sie einen Beitrag basierend auf Berechtigungen.
 * Melde Sie einen Missbrauch eines Beitrags, wenn er gegen die Privatsphäre verstößt oder sein Inhalt unangemessen ist. Sobald ein Beitrag gemeldet wurde, wird eine Benachrichtigung an den Board-Administrator und die Moderatoren für weitere Aktionen gesendet.
-* ![](assets/prime-like.png) mögen oder ![](assets/prime-dislike.png) nicht mögen   einen Beitrag.
+* &quot;Gefällt mir&quot; ![](assets/prime-like.png) oder &quot;Gefällt mir&quot; ![](assets/prime-dislike.png) als Beitrag.
 * Liken Sie ![](assets/prime-like.png) oder disliken Sie ![](assets/prime-dislike.png) einen Kommentar.
 
 ## Erstellen Sie einen Beitrag in anderen Boards {#createapostinotherboards}

@@ -3,18 +3,19 @@ jcr-language: en_us
 title: Learning Manager-Integration in Slack
 description: Learning Manager-Integration in Slack
 contentowner: dvenkate
-source-git-commit: 864b1796f1ca99ae7b5643e8c58d1756ff2461a1
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 52%
-
 ---
-
 
 
 # Learning Manager-Integration in Slack
 
-**wurde entfernt** **Slack** als Connector im Lernmanager. Sie haben keinen Zugriff mehr auf den Slack-Connector.
+**wurde entfernt** **Slack** als Verbindung im Lernmanager. Sie haben keinen Zugriff mehr auf die Slack-Verbindung.
 
 Als Slack-Benutzer können Sie die Adobe Learning Manager-App aus dem Slack-App-Verzeichnis für Ihre Slack-Teams installieren und Learning Manager-Inhalte direkt in Slack öffnen. Sie können mit Primebot interagieren, um nach neuen Kursen zu suchen, Empfehlungen anzuzeigen und über bevorstehende Fristen im Learning Manager benachrichtigt zu werden. Sie können sich auch direkt in Slack für einen Kurs registrieren und zu Ihren Lerninhalten springen.
 

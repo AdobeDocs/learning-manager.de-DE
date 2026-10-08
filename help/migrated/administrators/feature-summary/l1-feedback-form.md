@@ -3,13 +3,14 @@ description: Weitere Informationen zum Erstellen von L1-Feedbackformularen für 
 jcr-language: en_us
 title: L1-Feedbackformular
 exl-id: 4e8ed747-898e-43e1-91af-869aa93112bc
-source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1206'
 ht-degree: 0%
-
 ---
-
 # L1-Feedbackformular
 
 >[!IMPORTANT]
@@ -98,7 +99,7 @@ _Bildschirm &quot;Feedbackformulare&quot; mit der Option &quot;Vorschau&quot;, u
 
 ### Feedback-Formulare in anderen Sprachen hinzufügen
 
-Erstellen Sie Übersetzungen für die Fragen im Feedback-Formular in mehreren Sprachen. Sie können Fragen jedoch nur in der Standardsprache (z. B. Englisch) hinzufügen oder entfernen. Für andere Sprachen können Sie nur die Fragen übersetzen, die ursprünglich in der Standardsprache hinzugefügt wurden. Es ist nicht möglich, Fragen direkt in den übersetzten Versionen hinzuzufügen oder zu entfernen.
+Erstellen Sie Übersetzungen für die Fragen im Feedback-Formular in mehreren Sprachen. Sie können Fragen jedoch nur in der Standardsprache (z. B. Englisch) hinzufügen oder entfernen. Für andere Sprachen können nur Fragen Kamera bewogen werden, die ursprünglich in der Standardsprache hinzugefügt wurden. Es ist nicht möglich, Fragen direkt in den Kamera bewogen Versionen hinzuzufügen oder zu entfernen.
 
 1. Wählen Sie im Feedbackformular **[!UICONTROL Neue Sprache hinzufügen]** aus.
 
@@ -106,14 +107,14 @@ Erstellen Sie Übersetzungen für die Fragen im Feedback-Formular in mehreren Sp
    _Dem Feedbackformular eine neue Sprachversion hinzufügen_
 2. Wählen Sie die gewünschte Sprache aus und wählen Sie **[!UICONTROL Speichern]**.
 3. Navigieren Sie zur Registerkarte für die hinzugefügte Sprache.
-4. Wählen Sie **[!UICONTROL Übersetzen]** neben jeder Frage aus, um Ihre Übersetzung hinzuzufügen.
+4. Wählen Sie **[!UICONTROL Kamera beweg]** neben jeder Frage aus, um Ihre Übersetzung hinzuzufügen.
 
    ![](assets/translate.png)
-   _Feedback-Formularbildschirm mit der Option &quot;Übersetzen&quot; zum Übersetzen der Fragen in die jeweiligen Sprachen_
+   _Feedback-Formularbildschirm mit der Option &quot;Kamera bewogen&quot;, um die Fragen in die jeweiligen Sprachen Kamera bewegen_
 
    >[!NOTE]
    >
-   >Die Frage zum Punktwert für die Kurseffektivität wird automatisch übersetzt.
+   >Die Frage zum Punktwert für die Kurseffektivität wird automatisch Kamera bewogen.
 
 5. Wählen Sie nach dem Hinzufügen der Übersetzungen **[!UICONTROL Speichern]**.
 

@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Module
 contentowner: shhivkum
 exl-id: b81e7ee4-b25f-498d-a780-3ef897f38268
-source-git-commit: a2b71f6c4f3255a814e1dad30b87059cc8315764
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1098'
 ht-degree: 61%
-
 ---
-
 # Module
 
 In diesem Artikel erfahren Sie, wie Sie als Kursleiter Module in Learning Manager verwalten.
@@ -173,11 +174,11 @@ Führen Sie die folgenden Schritte aus, um Bewertungen und Kommentare für Aktiv
 
 Für Sitzungen, die mit dem Live Hub erstellt wurden, bietet der Abschnitt **Live Hub** auf der Seite **Sitzungsübersicht** schnellen Zugriff auf wichtige Sitzungsaktivitäten.
 
-&#x200B;- **Virtuelles Klassenzimmer betreten**: Wählen Sie **Klassenzimmer betreten**, um am virtuellen Klassenzimmer teilzunehmen, oder richten Sie es vor Beginn der Sitzung ein. Sie können auch **URL kopieren** auswählen, um den Sitzungslink zu kopieren und ihn für die Teilnehmer freizugeben.
+- **Virtuelles Klassenzimmer betreten**: Wählen Sie **Klassenzimmer betreten**, um am virtuellen Klassenzimmer teilzunehmen, oder richten Sie es vor Beginn der Sitzung ein. Sie können auch **URL kopieren** auswählen, um den Sitzungslink zu kopieren und ihn für die Teilnehmer freizugeben.
 
-&#x200B;- **Sitzungsanalyse anzeigen**: Wählen Sie die **Analyseseite anzeigen** aus, um das Dashboard für die Sitzungsanalyse nach dem Ende der Sitzung zu öffnen. Das Dashboard bietet Einblicke in die Anwesenheit der Teilnehmer, die Teilnahme, die Interaktion und andere Sitzungsmetriken.
+- **Sitzungsanalyse anzeigen**: Wählen Sie die **Analyseseite anzeigen** aus, um das Dashboard für die Sitzungsanalyse nach dem Ende der Sitzung zu öffnen. Das Dashboard bietet Einblicke in die Anwesenheit der Teilnehmer, die Teilnahme, die Interaktion und andere Sitzungsmetriken.
 
-&#x200B;- **Aufzeichnung anzeigen**: Wenn die Sitzung aufgezeichnet wurde, wählen Sie **Aufzeichnung anzeigen**, um direkt von der Seite **Sitzungsübersicht** auf die Aufzeichnung zuzugreifen. Wenn keine Aufzeichnung verfügbar ist, zeigt die Karte ihren Status an.
+- **Aufzeichnung anzeigen**: Wenn die Sitzung aufgezeichnet wurde, wählen Sie **Aufzeichnung anzeigen**, um direkt von der Seite **Sitzungsübersicht** auf die Aufzeichnung zuzugreifen. Wenn keine Aufzeichnung verfügbar ist, zeigt die Karte ihren Status an.
 
 ![Seite &quot;Sitzungsübersicht&quot;](../../getting-started-with-live-hub/assets/session-overview-page.png)
 *Seite &quot;Sitzungsübersicht&quot; mit dem Abschnitt &quot;Live Hub&quot; mit Zugriff auf Live Hub-Aktivitäten.*

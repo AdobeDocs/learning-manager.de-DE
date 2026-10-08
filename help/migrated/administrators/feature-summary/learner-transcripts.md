@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Teilnehmertranskripte
 contentowner: jayakarr
 exl-id: f88ad02c-6d36-41e7-9d83-0ebc70d98d63
-source-git-commit: de57d96488851c31c380b34672767a803379842e
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '1912'
-ht-degree: 66%
-
+source-wordcount: '1928'
+ht-degree: 81%
 ---
-
 # Teilnehmertranskripte
 
 Laden Sie Teilnehmertranskripte herunter und verwalten Sie Berichte mit Learning Manager.
@@ -60,14 +61,14 @@ Mit Adobe Learning Manager können die Administratoren eines Unternehmens die Tr
 
 1. Sie können auch Transkripte für Teilnehmer herunterladen, die aus einem Konto gelöscht wurden.
 
-   Um Teilnehmertranskripte gelöschter Benutzer herunterzuladen, klicken Sie auf den Pfeil **[!UICONTROL Erweiterte Optionen]** und aktivieren Sie das Kontrollkästchen **[!UICONTROL Daten gelöschter Teilnehmer einschließen]**.
+   Um Teilnehmertranskripte gelöschter Benutzer herunterzuladen, klicken Sie auf den Pfeil **[!UICONTROL Erweiterte Optionen]** und aktivieren Sie das Kontrollkästchen **[!UICONTROL Daten von gelöschten Teilnehmern einbeziehen]**.
 
    ![](assets/data-deleted-learners.png)
 
    *Teilnehmertranskripte gelöschter Teilnehmer herunterladen*
 
-1. Sie können Informationen zur Modulstufe im Teilnehmertranskript herunterladen, indem Sie das Kontrollkästchen &quot;**[!UICONTROL Informationen zur Modulstufe aktivieren]**&quot; aktivieren. In diesem Fall werden Modulnamen und die für jedes Modul aufgewendete Zeit als Teil des Transkripts abgerufen, wenn diese Option aktiviert ist.
-1. Sie können Fertigkeitsdaten und Zusammenfassungsblätter herunterladen, indem Sie das Kontrollkästchen &quot;**[!UICONTROL Fertigkeitsdaten und Zusammenfassungsblätter einschließen]**&quot; aktivieren.
+1. Sie können Informationen zur Modulstufe im Lernprotokoll herunterladen, indem Sie das Kontrollkästchen **[!UICONTROL Informationen zur Modulstufe aktivieren]** aktivieren. In diesem Fall werden Modulnamen und die für jedes Modul aufgewendete Zeit als Teil des Transkripts abgerufen, wenn diese Option aktiviert ist.
+1. Sie können Fertigkeitsdaten und Zusammenfassungsblätter herunterladen, indem Sie das Kontrollkästchen **[!UICONTROL Fertigkeitsdaten und Zusammenfassungsblätter einbeziehen]** aktivieren.
 
    Transkripte werden generiert und als ZIP-Dateien auf Ihren Computer heruntergeladen, wenn die Kenntnisdaten nicht enthalten sind. Wenn das Kontrollkästchen „Daten für Kenntnisse“ aktiviert ist, werden Transkripte generiert und XLS-Dateien heruntergeladen.
 
@@ -85,7 +86,7 @@ Das Abrufen von Teilnehmertranskripten ist ein langwieriger Vorgang, da er nur e
 
    *E-Mail-IDs kopieren und einfügen*
 
-1. Überprüfen Sie mit **[!UICONTROL E-Mail-IDs validieren]**, ob die eingegebene ID korrekt ist.
+1. Überprüfen Sie mit **[!UICONTROL E-Mail-IDs validieren]**, ob die eingegebene ID richtig ist.
 
    ![](assets/cp-learnertran-gdpr.png)
 
@@ -151,7 +152,7 @@ Sie können den Download jederzeit **abbrechen**. Wenn ein Auftrag abgebrochen w
 
 ## Daten gelöschter Teilnehmer {#dataofdeletedlearners}
 
-Sie können die Daten gelöschter Teilnehmer in die Teilnehmertranskriptliste aufnehmen. Aktivieren Sie im Dialogfeld &quot;Teilnehmertranskripte&quot; die Option **[!UICONTROL Daten gelöschter Teilnehmer einschließen]**.
+Sie können die Daten gelöschter Teilnehmer in die Teilnehmertranskriptliste aufnehmen. Aktivieren Sie im Dialogfeld „Teilnehmertranskripte“ die Option **[!UICONTROL Daten gelöschter Teilnehmer einschließen]**.
 
 Nachdem Sie die Option aktiviert und auf **[!UICONTROL Generieren]** geklickt haben, werden die Datenfunktionen der gelöschten Teilnehmer auf der Download-Seite des Teilnehmertranskripts wie folgt angezeigt:
 
@@ -173,11 +174,11 @@ Die Anpassung ist nur zulässig, wenn ein Benutzer das Teilnehmertranskript im C
 
 ## Inhalt der Teilnehmertranskriptdatei {#learnertranscriptfilecontent}
 
-Eine typische Teilnehmertranskriptdatei besteht aus sechs Excel-Arbeitsblättern in einer einzelnen Datei. Die Teilnehmertranskriptblätter bieten einen Gesamteinblick in die Daten, einschließlich der Anzahl der beteiligten Teilnehmer pro Kurs, ihrer Kenntnisse, des auf dem Kurs oder Teilnehmer basierenden Abschlusswerts und eines Compliance-Dashboards. Im Folgenden finden Sie die Dashboards, die in den Teilnehmertranskripten verfügbar sind:
+Eine typische Teilnehmertranskriptdatei besteht aus sechs Excel-Arbeitsblättern in einer einzelnen Datei. Diese Arbeitsblätter enthalten einen Gesamtüberblick über die Daten, einschließlich die Anzahl von Teilnehmern im Kurs, ihre Kenntnisse, den Wettbewerbsprozentwert basieren auf dem Kurs oder Teilnehmer und ein Kompatibilitäts-Dashboard. Im Folgenden finden Sie die Dashboards, die in den Teilnehmertranskripten verfügbar sind:
 
 **Teilnehmertranskript**
 
-Im Teilnehmertranskript-Arbeitsblatt werden zusammen mit Profildetails über den Teilnehmer, ein Lernobjekt mit Details zur Nutzung bereitgestellt, z. B. Registrierungsdatum, Startdatum, erreichte Stufe, erzielte Quizpunkzahl und so weiter. Wenn Kurse Teil eines Lernprogramms sind, werden sie getrennt von den Details zur individuellen Kursnutzung aufgelistet.
+Im Teilnehmertranskript-Arbeitsblatt werden zusammen mit Profildetails über den Teilnehmer, ein Lernobjekt mit Details zur Nutzung bereitgestellt, z. B. Registrierungsdatum, Startdatum, erreichte Stufe, erzielte Quizpunkzahl und so weiter. Wenn Kurse Teil eines Lernprogramms sind, werden sie separat aufgelistet, außer einzelne Kursnutzungsdetails.
 
 **1 - Dashboard für Lernaktivitäten**
 
@@ -246,5 +247,5 @@ Das Teilnehmertranskript zeigt auch die Spalten **[!UICONTROL Dauer des Moduls]*
 | Anzahl der Kenntnisse, die aktualisiert werden müssen | Anzahl der Teilnehmer, deren Kenntnisse aufgefrischt werden müssen |
 | Prozentsatz der Kompatibilität | Der Prozentsatz des Fortschritts bezüglich der zugewiesenen Kenntnisse |
 | Eingebetteter Pfad | In diesen Zeilen wird der Name des eingebetteten Lernprogramms angezeigt. |
-| ID für eingebetteten Pfad | In diesen Zeilen werden die IDs des eingebetteten Lernprogramms angezeigt |
+| ID für eingebetteten Pfad | In diesen Zeilen werden die IDs des eingebetteten Lernprogramms angezeigt. |
 | Sprache des eingebetteten Pfads | In diesen Zeilen wird die Sprache angezeigt, in der das Lernprogramm erstellt wurde. |

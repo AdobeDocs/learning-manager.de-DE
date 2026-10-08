@@ -1,13 +1,14 @@
 ---
 title: Untertitel in Live Hub-Sitzungen
 description: Erfahre, wie Untertitel gesprochene Inhalte in Echtzeit anzeigen, sodass Kursleiter und Teilnehmer die Schritte während der Live-Hub-Sitzungen nachvollziehen können.
-source-git-commit: e5c05e030c1254b41d8a3197a168b6cd1aafb18b
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '205'
 ht-degree: 0%
-
 ---
-
 
 Untertitel transkribieren gesprochene Inhalte in Echtzeit während einer Live Hub-Sitzung. Die Teilnehmer sehen den gesprochenen Text auf dem Bildschirm, während die Unterhaltung stattfindet. Untertitel sind nützlich, wenn der Ton unklar ist, z. B. in lauten Umgebungen oder wenn Teilnehmer lieber mitlesen. Untertitel sind besonders nützlich, wenn der Ton unklar ist, z. B. in lauten Umgebungen oder wenn die Teilnehmer es vorziehen, gemeinsam mit der Diskussion zu lesen.
 

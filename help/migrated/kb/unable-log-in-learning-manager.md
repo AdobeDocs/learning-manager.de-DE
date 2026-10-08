@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Ich kann mich nicht bei Learning Manager anmelden
 contentowner: saghosh
 exl-id: 2c347758-1982-40ce-9ac6-4ae889497add
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 72%
-
+source-wordcount: '306'
+ht-degree: 95%
 ---
-
 # Ich kann mich nicht bei Learning Manager anmelden
 
 ## Problem
@@ -25,7 +26,7 @@ Wenn Sie versuchen, sich bei Adobe Learning Manager anzumelden, wird folgender F
 
 Der Browsercache und Cookies können den Zugriff auf die Adobe Learning Manager-Plattform verhindern.
 
-## Auflösung
+## Lösung
 
 ## Bereinigen des Browserverlaufs/Caches
 
@@ -45,7 +46,7 @@ Verwenden Sie den Inkognito-Modus in Ihrem Browser und melden Sie sich dann bei 
 
 Wenn Sie sich weiterhin nicht anmelden können, wenden Sie sich an den Administrator des Kontos. Der Administrator kann überprüfen, ob Sie als Teilnehmer im Konto registriert sind.
 
-Wenn Sie Teil des Kontos sind und sich immer noch nicht anmelden können, muss der Administrator überprüfen, ob Ihre Adobe ID mit der identisch ist, mit der Sie sich anmelden möchten.
+Wenn Sie Teil des Kontos sind und sich weiterhin nicht anmelden können, muss der Administrator überprüfen, ob Ihre Adobe ID mit der identisch ist, mit der Sie sich anmelden möchten.
 
 Manchmal unterscheidet sich die Adobe ID von der Adobe Learning Manager-ID im Konto.
 

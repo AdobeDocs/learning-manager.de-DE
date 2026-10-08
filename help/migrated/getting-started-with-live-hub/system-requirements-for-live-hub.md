@@ -1,13 +1,14 @@
 ---
 title: Systemanforderungen für Live Hub
 description: Systemanforderungen für die Konfiguration und Ausführung von Live Hub-Sitzungen in Adobe Learning Manager, einschließlich unterstützter Browser, Betriebssysteme, Bildschirmauflösungen und Hardware.
-source-git-commit: 577448e876bc7ba56c6191705c7c894fc5991770
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 1%
-
 ---
-
 
 # Systemanforderungen
 

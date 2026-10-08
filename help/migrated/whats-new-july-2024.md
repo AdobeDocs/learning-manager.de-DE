@@ -3,13 +3,14 @@ description: Erfahren Sie mehr über die neuen Funktionen und Verbesserungen in 
 jcr-language: en_us
 title: Zusammenfassung der neuen Funktionen
 exl-id: e63c3d9a-4b91-4acb-950f-8b1cdb0caa1a
-source-git-commit: f3df7e2defc479c270c16f91918903fb27560b19
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '2336'
+source-wordcount: '2392'
 ht-degree: 2%
-
 ---
-
 # Überblick über die neuen Funktionen Juli 2024 {#new-features-summary-july-2024}
 
 Erfahren Sie mehr über die neuen Funktionen und Verbesserungen in der Version Juli 2024 von Adobe Learning Manager.
@@ -294,9 +295,9 @@ In dieser Version enthält der Bericht **[!UICONTROL Inhaltsprüfpfad]** jetzt d
 * Wenn ein Kurs in einem bestimmten Katalog enthalten ist, auf den ein Benutzer zugreifen kann (wenn der Standardkatalog deaktiviert ist), können Sie trotz der Einstellung, die nicht registrierte Teilnehmer daran hindert, den Kurs anzuzeigen, weiterhin die Metadaten des Kurses über das Lernobjekt/den ID-Endpunkt abrufen.
 * Der Qualifikationsfilter funktioniert nicht wie erwartet, wenn der Qualifikationsname in der GET/learningObject-API Kommas im Namen enthält.
 * Die Zeitstempel-Metadaten der Datei im Datenaufbewahrungs-Worker für SFTP sind inkonsistent.
-* Wenn ein Connector entfernt und neu konfiguriert wird, scheint der Projektmigrationsstatus geschlossen zu sein.
+* Wenn eine Verbindung entfernt und neu konfiguriert wird, scheint der Projektmigrationsstatus geschlossen zu sein.
 * Der Schulungsbericht enthält &quot;Tag(s)&quot; als Spaltenüberschrift anstelle von &quot;Tags&quot;.
-* Der Export des Commerce-Connectors schlägt fehl, wenn der Katalog deaktiviert ist und einer der exportierten Kurse nur Teil des deaktivierten Katalogs ist.
+* Der Export der Commerce-Verbindung schlägt fehl, wenn der Katalog deaktiviert ist und einer der exportierten Kurse nur Teil des deaktivierten Katalogs ist.
 
 **Zertifizierung**
 

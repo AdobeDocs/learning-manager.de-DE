@@ -1,21 +1,22 @@
 ---
-description: Benutzerdefinierter FTP-Connector in Adobe Learning Manager
+description: Benutzerdefinierte FTP-Verbindung in Adobe Learning Manager
 jcr-language: en_us
-title: Benutzerdefinierter FTP-Connector
+title: Benutzerdefinierte FTP-Verbindung
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 0%
-
 ---
 
-
-# Benutzerdefinierter FTP-Connector in Adobe Learning Manager
+# Benutzerdefinierte FTP-Verbindung in Adobe Learning Manager
 
 ## Einführung
 
-Der benutzerdefinierte FTP-Connector in Adobe Learning Manager ermöglicht den sicheren, automatisierten Datenaustausch zwischen Adobe Learning Manager und dem FTP (SFTP)-Server Ihres Unternehmens. Mit dieser Integration können Administratoren Benutzerdaten aus externen Systemen importieren und Teilnehmertranskripte oder Kenntnisdaten nach einem Zeitplan exportieren. Dieses Setup optimiert die Datensynchronisierung, reduziert den manuellen Aufwand und unterstützt die nahtlose Integration mit HR- oder Reporting-Systemen von Drittanbietern. Die Konfiguration erfordert die Abstimmung mit Ihrem IT-Team und die Unterstützung durch den Customer Success Manager (CSM) von Adobe.
+Die Adobe Learning Manager-Verbindung Benutzerdefiniertes FTP ermöglicht einen sicheren, automatisierten Datenaustausch zwischen Adobe Learning Manager und dem FTP-Server (SFTP) Ihres Unternehmens. Mit dieser Integration können Administratoren Benutzerdaten aus externen Systemen importieren und Teilnehmertranskripte oder Kenntnisdaten nach einem Zeitplan exportieren. Dieses Setup optimiert die Datensynchronisierung, reduziert den manuellen Aufwand und unterstützt die nahtlose Integration mit HR- oder Reporting-Systemen von Drittanbietern. Die Konfiguration erfordert die Abstimmung mit Ihrem IT-Team und die Unterstützung durch den Customer Success Manager (CSM) von Adobe.
 
 >[!NOTE]
 >
@@ -23,7 +24,7 @@ Der benutzerdefinierte FTP-Connector in Adobe Learning Manager ermöglicht den s
 
 ## Unterstützte Funktionen
 
-Der benutzerdefinierte FTP-Connector unterstützt die folgenden Aktionen:
+Die benutzerdefinierte FTP-Verbindung unterstützt die folgenden Aktionen:
 
 ### Datenimport
 
@@ -60,15 +61,15 @@ Integrationsadministratoren können Folgendes planen:
 
 Durch die Planung wird sichergestellt, dass Ihre Adobe Learning Manager-Umgebung mit den Quellsystemen auf dem neuesten Stand bleibt. Sie können tägliche Synchronisationen oder benutzerdefinierte Intervalle nach Bedarf konfigurieren.
 
-## Benutzerdefinierten FTP-Connector einrichten
+## Benutzerdefinierte FTP-Verbindung einrichten
 
-Konfigurieren des benutzerdefinierten FTP-Connectors:
+Konfigurieren der benutzerdefinierten FTP-Verbindung:
 
 1. Melden Sie sich bei Adobe Learning Manager als Integrationsadministrator an.
 2. Bewegen Sie den Mauszeiger über die Kachel **Benutzerdefiniertes FTP** und wählen Sie **Verbinden** aus.
 
    ![](assets/custom-ftp-connector1.png)
-   _Wählen Sie Verbinden aus, um den benutzerdefinierten FTP-Connector zu konfigurieren_
+   _Wählen Sie &quot;Verbinden&quot; aus, um die benutzerdefinierte FTP-Verbindung zu konfigurieren_
 
 ### Authentifizierungsmethode auswählen
 

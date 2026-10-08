@@ -5,13 +5,14 @@ title: Lernprogramme
 contentowner: manochan
 preview: true
 exl-id: 360dee1f-a19c-4aa2-9fc4-c318a5116337
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '1479'
-ht-degree: 75%
-
+source-wordcount: '1491'
+ht-degree: 90%
 ---
-
 # Lernprogramme
 
 >[!WARNING]
@@ -38,9 +39,9 @@ Administratoren können Lernprogramme erstellen. Um ein Lernprogramm zu erstelle
 
    **Hinweis**
 
-   Einem Lernprogramm können alle Kurstypen hinzugefügt werden. Dazu gehören Kurse im Schulungsraum und im virtuellen Schulungsraum, Aktivitäten, Kurse zum Selbststudium und gemischte Kurse. Vom Manager nominierte und vom Manager genehmigte Kurse werden bei der Kursauswahl in den Lernprogrammen nicht angezeigt.
+   Einem Lernprogramm können alle Kurstypen hinzugefügt werden. Dazu gehören Kurse im Klassenzimmer oder im virtuellen Klassenzimmer, Aktivitäten, Kurse zum Selbststudium sowie gemischte Kurse. Vom Manager nominierte und genehmigte Kurse werden bei der Kursauswahl für die Lernprogramme nicht angezeigt.
 
-1. Bevor Sie ein Lernprogramm veröffentlichen, müssen Sie ihm Kurse hinzufügen. Klicken Sie auf die Registerkarte **[!UICONTROL Katalog]**, um dem Lernprogramm Kurse zuzuordnen. Eine Liste aller verfügbaren Kursen wird angezeigt.
+1. Bevor Sie ein Lernprogramm veröffentlichen, müssen Sie ihm Kurse hinzufügen. Um mit dem Lernprogramm Kurse zu verknüpfen, klicken Sie auf **[!UICONTROL Katalog]**. Eine Liste aller verfügbaren Kursen wird angezeigt.
 
 1. Wählen Sie die Kurse aus, die Sie dem Lernprogramm hinzufügen möchten, indem Sie mit der Maus auf eine Kurskachel zeigen und darauf klicken. Wenn der Kurs dem Lernprogramm noch nicht hinzugefügt wurde, wird in der Mitte der betreffenden Kurskachel ein Pluszeichen angezeigt.
 
@@ -50,7 +51,7 @@ Administratoren können Lernprogramme erstellen. Um ein Lernprogramm zu erstelle
 
    Auf der Registerkarte **[!UICONTROL Stundenplan]** wird die Liste aller dem Lernprogramm hinzugefügten Kurse angezeigt. Im unteren Teil der dem Kurs bereits hinzugefügten Kurskacheln wird die Registerkarte **[!UICONTROL Katalog]** angezeigt.
 
-1. Klicken Sie oben im linken Bereich auf **[!UICONTROL Zurück zu Programmen]**, um eine Liste aller Lernprogramme anzuzeigen. Ihr neu hinzugefügtes Lernprogramm wird jetzt dort aufgeführt.
+1. Um eine Liste aller Lernprogramme anzuzeigen, klicken Sie oben im linken Bereich auf **[!UICONTROL Zurück zu Programmen]**. Ihr neu hinzugefügtes Lernprogramm wird jetzt dort aufgeführt.
 1. Sie können das Lernprogramm veröffentlichen, indem Sie im linken Teilfenster auf „Übersicht“ klicken und dann „Aktionen“ > „Veröffentlichen“ wählen. Sie können das Lernprogramm auch in der Ansicht „Kurse und Instanzen“ veröffentlichen, indem Sie in der rechten oberen Ecke der Seite auf „Veröffentlichen“ klicken.
 
 ## Teilnehmer zu Lernprogramm hinzufügen {#addlearnerstoalearningprogram}
@@ -86,7 +87,7 @@ Sie können mehrere Instanzen eines Kurses oder Lernprogramms erstellen.
 1. Eine neue Instanz des Lernprogramms wird angezeigt.
 1. Klicken Sie in der neuen Instanz auf die Bearbeitungssymbole (siehe roter Pfeil in der Abbildung), um die Werte des Lernprogramms bzw. Kurses zu ändern, beispielsweise Fristablauf, Instanznamen, Feedback und Abzeichen. Nachdem Sie die gewünschten Änderungen vorgenommen haben, klicken Sie auf das Häkchen neben dem geänderten Wert, um die Änderungen zu speichern. Klicken Sie auf „X“, um die Änderungen zu verwerfen.
 
-Ein Administrator kann einem Lernprogramm Klassenzimmer und Kurse vom Typ &quot;Virtueller Klassenzimmer&quot; hinzufügen. Die vom Autor beim Erstellen des Kurses angegebene Sitzung wird als Standardinstanz festgelegt. Wenn der Administrator dem Lernprogramm Kurse hinzufügt, werden diese der Standardinstanz für alle Kurse zugeordnet, der Administrator kann die Instanzzuordnung jedoch ändern. Die Anzahl der einem Lernprogramm hinzugefügten Kurse wird darüber hinaus wie unten angegeben auf der Instanzenseite angezeigt.
+Ein Administrator kann einem Lernprogramm Präsenzkurse und Kurse im virtuellen Klassenzimmer hinzufügen. Die vom Autor beim Erstellen des Kurses angegebene Sitzung wird als Standardinstanz festgelegt. Wenn der Administrator dem Lernprogramm Kurse hinzufügt, werden diese der Standardinstanz für alle Kurse zugeordnet, der Administrator kann die Instanzzuordnung jedoch ändern. Die Anzahl der einem Lernprogramm hinzugefügten Kurse wird darüber hinaus wie unten angegeben auf der Instanzenseite angezeigt.
 
 **Instanzzuordnung ändern**
 
@@ -96,7 +97,7 @@ Um die Instanzzuordnung zu ändern, klicken Sie auf der Instanzenseite auf die A
 
 ## Erstellen flexibler Lernprogramme {#flexible}
 
-Mit flexiblen Lernprogrammen können Teilnehmer Schulungen absolvieren, die nicht auf den Umfang der Standardinstanz beschränkt sind. Ein Administrator erstellt verschiedene Instanzen, um den Anforderungen der Teilnehmer gerecht zu werden. Diese Art von Lernprogramm ist in der Regel eine Klassenzimmer- oder VC-Sitzung. Um sicherzustellen, dass allen Teilnehmern die Möglichkeit zur Teilnahme geboten wird, kann ein Administrator mehrere Instanzen einer Kurssitzung erstellen, um verschiedene Zeitzonen einzubeziehen.
+Mit flexiblen Lernprogrammen können Teilnehmer Schulungen absolvieren, die nicht auf den Umfang der Standardinstanz beschränkt sind. Ein Administrator erstellt verschiedene Instanzen, um den Bedürfnissen der Teilnehmer Rechnung zu tragen. Diese Art von Lernprogramm ist in der Regel eine Klassenzimmer- oder VC-Sitzung. Damit alle Teilnehmer die Möglichkeit zur Teilnahme erahlten, kann ein Administrator mehrere Instanzen einer Kurssitzung erstellen und so verschiedene Zeitzonen berücksichtigen.
 
 Ein Administrator kann auch eine Instanz eines Lernprogramms einer Instanz eines Kurses zuordnen, den der Teilnehmer auswählt.
 
@@ -118,7 +119,7 @@ Administratoren können Berichte zu Quizpunktzahlen und Teilnehmerstatus abrufen
 1. Klicken Sie auf eine beliebige Lernprogrammkachel
 1. Klicken Sie im linken Fensterbereich auf „Punktzahl für Quiz“.
 
-Sie können die Quizpunktzahlen eines bestimmten Lernprogramms nach Benutzernamen oder Frage anzeigen. Wählen Sie dementsprechend die Registerkarten „Nach Benutzer“ oder „Nach Frage“.
+Sie können die Quizpunktzahlen eines bestimmten Lernprogramms nach Benutzernamen oder Frage anzeigen. Wählen Sie dafür die Registerkarten „Nach Benutzer“ oder „Nach Frage“.
 
 Die Quizpunktzahlen werden jeweils nur für einen Kurs angezeigt. Um die Quizpunktzahlen für andere Kurse anzuzeigen, ändern Sie den Kursnamen in der Dropdownliste. Sie können die Quizpunktzahlen der Kurse auch exportieren.
 
@@ -126,7 +127,7 @@ Wählen Sie hierfür in der Dropdownliste den Instanzentyp, um die Ergebnisse f�
 
 ## L1- und L3-Feedback anzeigen {#viewl1andl3feedback}
 
-Als Administrator können Sie L1- und L3-Feedback für ein Lernprogramm aktivieren. Das L1-Feedback des Teilnehmers wird auf der Registerkarte L1-Feedback angezeigt und das L3-Feedback des Managers wird auf der Registerkarte L3-Feedback angezeigt.
+Als Administrator können Sie L1- und L3-Feedback für Lernprogramme aktivieren. Das L1-Feedback des Teilnehmers wird auf der Registerkarte „L1-Feedback“, das L3-Feedback des Managers auf der Registerkarte „L3-Feedback“ angezeigt.
 
 ## Registrierung für Teilnehmer widerrufen {#unenrollmentforlearners}
 
@@ -164,6 +165,6 @@ Um die Reihenfolge der Kurse in einem Lernprogramm zu aktualisieren,
 
 Ein Lernprogramm kann von einem Administrator in einem veröffentlichten Status bearbeitet werden. In diesem Status kann der Administrator alle Abschnitte eines Lernprogramms bearbeiten und erneut veröffentlichen.
 
-Um ein veröffentlichtes Lernprogramm zu bearbeiten, klicken Sie auf die Lernprogrammkarte und klicken Sie in der oberen rechten Ecke der Seite auf **[!UICONTROL Bearbeiten]**.
+Um ein veröffentlichtes Lernprogramm zu bearbeiten, klicken Sie auf die Lernprogrammkarte und dann auf **[!UICONTROL Bearbeiten]** in der oberen rechten Ecke der Seite.
 
 Wenn die Seite beim Bearbeiten der Abschnitte eines Lernprogramms verlassen müssen, müssen Sie das Lernprogramm erneut veröffentlichen. Es wird ein Dialogfeld für die Bestätigung zur erneuten Veröffentlichung des Lernprogramms angezeigt.

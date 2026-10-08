@@ -3,13 +3,14 @@ jcr-language: en_us
 title: KI-gestützte Suche in Adobe Learning Manager
 description: KI-gestützte Suche in Adobe Learning Manager
 exl-id: 9982a8be-b2e6-42a4-836a-7f9337588ae8
-source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1221'
 ht-degree: 0%
-
 ---
-
 # Erweiterte AI-Suche in Adobe Learning Manager
 
 ## Einführung
@@ -43,12 +44,12 @@ Die Suchfunktion ist aus mehreren Gründen wichtig:
 
 ## Entwicklung des Suchverhaltens im Web
 
-Wenn Menschen online suchen, ändert sich die Art und Weise, wie sie suchen, und Suchmaschinen passen sich an, um mit ihnen Schritt zu halten. Im Folgenden finden Sie einige wichtige Möglichkeiten, wie Personen in letzter Zeit nach Informationen suchen:
+Wenn die Leute online suchen, ändert sich die Art und Weise, wie sie suchen, und die Engine der Suche passen sich an, um mit ihnen Schritt zu halten. Im Folgenden finden Sie einige wichtige Möglichkeiten, wie Personen in letzter Zeit nach Informationen suchen:
 
-* **Intent-Driven**: Anstatt exakte Stichwörter einzugeben, geben Benutzer jetzt ihre Bedürfnisse mit Ausdrücken wie &quot;Ich möchte&quot; oder &quot;Ich muss&quot; an. Moderne Suchmaschinen verstehen den Zweck hinter diesen Ausdrücken und liefern relevantere Ergebnisse.
+* **Intent-Driven**: Anstatt exakte Stichwörter einzugeben, geben Benutzer jetzt ihre Bedürfnisse mit Ausdrücken wie &quot;Ich möchte&quot; oder &quot;Ich muss&quot; an. Moderne Suchergebnisse geben Aufschluss über den Zweck dieser Engine und liefern relevantere Ergebnisse.
 * **Ranked-Ergebnisse**: Die Suchergebnisse werden auf Grundlage der von anderen Benutzern als hilfreich erachteten Informationen organisiert. Das bedeutet, dass der nützlichste Inhalt oben angezeigt wird, was das Auffinden von Qualitätsinformationen erleichtert.
-* **Mehrere Quellen**: Je mehr Quellen eine Suchmaschine abdeckt, desto besser die Ergebnisse. Durch das Abrufen von Informationen aus einer Vielzahl vertrauenswürdiger Quellen bieten Suchmaschinen vollständigere und genauere Antworten.
-* **Personalisiert**: Suchmaschinen passen die Ergebnisse basierend auf Faktoren wie Zeit, Ort und Benutzereinstellungen an. Dies erleichtert es den Benutzern, Informationen zu finden, die ihren spezifischen Bedürfnissen im Moment entsprechen.
+* **Mehrere Quellen**: Je mehr Quellen ein Search-Engine abdeckt, desto besser die Ergebnisse. Durch das Abrufen von Informationen aus einer Vielzahl von vertrauenswürdigen Quellen bieten Such-Engine vollständigere und präzisere Antworten.
+* **Personalisiert**: Die Suchergebnisse werden in den Engine basierend auf Faktoren wie Zeit, Ort und Benutzereinstellungen angepasst. Dies erleichtert es den Benutzern, Informationen zu finden, die ihren spezifischen Bedürfnissen im Moment entsprechen.
 
 ## Warum Adobe Learning Manager besser sucht
 

@@ -2,13 +2,14 @@
 description: Richten Sie die gewichtete Punktzahl für Teilnehmer im Schulungsbuch ein, damit der Kursabschluss an das Erreichen eines Mindestpunktzahlschwellenwerts gebunden werden kann.
 jcr-language: en_us
 title: Schulungsmaterial für Autoren
-source-git-commit: 37db436b0f108423af185ebba377d8f06c7b7398
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '782'
 ht-degree: 0%
-
 ---
-
 
 # Schulungsmaterial für Autoren
 
@@ -32,7 +33,7 @@ Das Schulungsbuch wird auf Kursebene konfiguriert, wenn ein neuer Kurs erstellt 
   ![](assets/image_0003.png)
 
 * Wählen Sie den Schalter **Gradebook**, um ihn zu aktivieren. Darunter werden zwei Optionen angezeigt. Beide sind standardmäßig aktiviert:
-  * **Kursbuch für Teilnehmer anzeigen:** Teilnehmer sehen eine **Kursbuch-Registerkarte** im Kursplayer, auf der ihre Modulpunktzahlen, die Gewichtungsaufschlüsselung und das Gesamtergebnis angezeigt werden. Deaktivieren Sie diese Option, um Bewertungen intern zu berechnen, ohne sie den Teilnehmern zur Verfügung zu stellen.
+  * **Kursbuch für Teilnehmer anzeigen:** Teilnehmer sehen eine **Kursbuch-Registerkarte** im Kursplayer, auf der ihre Modulpunktzahlen, die Gewichtungsaufschlüsselung und das Gesamtergebnis angezeigt werden. Deaktivieren Sie diese Option, um Bewertungen intern zu berechnen, ohne sie Teilnehmern legen.
   * **Einschließen von Modulen, die keinen Beitrag zur Endnote leisten:** Module, die nicht Teil der Anforderung zum Bestehen von Kriterien sind, werden ebenfalls im Schulungsbuch angezeigt. Wenn diese Einstellung nicht aktiviert ist, werden nur die Module angezeigt, die Teil der Kriterien zum Bestehen sind.
 
 ### Module hinzufügen und Gewichtung zuweisen

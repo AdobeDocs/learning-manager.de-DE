@@ -1,52 +1,53 @@
 ---
-description: Erfahren Sie, wie Sie den Schulungsdaten-Access-Connector mit Adobe Learning Manager integrieren
+description: Erfahren Sie, wie Sie die Verbindung für den Zugriff auf Schulungsdaten mit Adobe Learning Manager integrieren
 jcr-language: en_us
 title: Connector für Schulungsdatenzugriff
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '872'
 ht-degree: 2%
-
 ---
 
-
-# Connector für den Zugriff auf Schulungsdaten in Adobe Learning Manager
+# Verbindung des Datenzugriffs in Adobe Learning Manager
 
 ## Einführung
 
-Mit dem **Schulungsdatenzugriffsconnector** können Sie ein Headless-Lernerlebnis erstellen, das eigenständig oder in eine benutzerdefinierte Benutzeroberfläche integriert werden kann, die mit **Adobe Experience Manager (AEM) Sites** erstellt wurde. Mit diesem Connector können Sie aktuelle Schulungsinhalte für Teilnehmer mit Such- und Filterfunktionen abrufen und anzeigen.
+Mit der **Verbindung für den Zugriff auf Schulungsdaten** können Sie ein Headless-Lernerlebnis erstellen, das eigenständig oder in eine benutzerdefinierte Benutzeroberfläche integriert werden kann, die mit **Adobe Experience Manager (AEM) Sites** erstellt wurde. Mit dieser Verbindung können Sie aktuelle Schulungsinhalte für Teilnehmer mit Such- und Filterfunktionen abrufen und anzeigen.
 
 >[!IMPORTANT]
 >
 >- Diese Funktion ist nur verfügbar, wenn Adobe Learning Manager als **Add-on** an Adobe Experience Manager verkauft wird.
->- Über diesen Connector abgerufene Kursdaten werden alle 24 Stunden aktualisiert
->- Dieser Connector ist nicht eigenständig für die Erstellung einer Headless- oder AEM-basierten, nicht angemeldeten Experience. Wenden Sie sich an Adobe, um den richtigen Ansatz für Ihren Anwendungsfall zu planen.
+>- Die über diese Verbindung abgerufenen Kursdaten werden alle 24 Stunden aktualisiert
+>- Diese Verbindung ist nicht eigenständig für die Erstellung einer Headless- oder AEM-basierten, nicht angemeldeten Experience. Wenden Sie sich an Adobe, um den richtigen Ansatz für Ihren Anwendungsfall zu planen.
 
 ## Funktionsweise
 
-Sobald der Connector aktiviert ist, stellt Adobe Learning Manager eine Reihe öffentlicher APIs bereit, die Schulungsmetadaten wie Kurse, Lernpfade und Zertifikate bereitstellen. Sie können diese APIs verwenden, um ein benutzerdefiniertes Frontend mit Branding zu erstellen, das Schulungsinhalte anzeigt und Such- und Filterfunktionen unterstützt.
+Sobald die Verbindung aktiviert ist, legt Adobe Learning Manager eine Reihe öffentlicher APIs, die Schulungsmetadaten wie Kurse, Lernpfade und Zertifikate bereitstellen. Sie können diese APIs verwenden, um ein benutzerdefiniertes Frontend mit Branding zu erstellen, das Schulungsinhalte anzeigt und Such- und Filterfunktionen unterstützt.
 
-## Konfigurieren Sie den Connector für den Zugriff auf Schulungsdaten
+## Konfigurieren der Verbindung für den Zugriff auf Schulungsdaten
 
 Sie können Adobe Learning Manager mit Ihrem Datenspeicher- und Suchsystem integrieren, um Schulungsmetadaten auf AEM Sites oder andere Headless-Erlebnisse zu übertragen.
 
-Konfigurieren des Connectors:
+Konfigurieren der Verbindung:
 
 1. Melden Sie sich bei Adobe Learning Manager als Integrationsadministrator an.
 2. Bewegen Sie den Mauszeiger über die Kachel **Trainingsdatenzugriff** und wählen Sie **Verbinden** aus.
 
    ![](assets/training-data-access-connector1.png)
-   _Wählen Sie Verbinden aus, um den Schulungsdatenzugriffsconnector zu konfigurieren_
+   _Wählen Sie Verbinden aus, um die Verbindung für den Zugriff auf Schulungsdaten zu konfigurieren_
 
 3. Geben Sie einen **Verbindungsnamen** ein.
 4. Wählen Sie den **Schnittstellentyp** aus:
 
    - **Nativer Lern-Manager**: Standard-Anmeldeerlebnis, standardmäßig verfügbar.
-   - **Headless-Schnittstellen**: Premium-Option, die öffentliche APIs für ein nicht angemeldetes, Headless-Frontend verfügbar macht.
+   - **Headless-Schnittstellen**: Premium-Option, die öffentliche APIs für ein nicht angemeldetes, Headless-Frontend legt.
 
    ![](assets/training-data-access-connector2.png)
-   _Geben Sie die erforderlichen Details für die Konfiguration des Schulungsdatenzugriffskonnektors ein_
+   _Geben Sie die erforderlichen Informationen für die Konfiguration der Verbindung für den Schulungsdatenzugriff ein._
 
 5. Wählen Sie **Verbinden**. Adobe Learning Manager generiert die **Basis-URL** und die **CDN-URL** automatisch. Sie verwenden diese URLs auf Ihrer benutzerdefinierten Website oder App, um Schulungsdaten abzurufen.
 
@@ -58,7 +59,7 @@ Konfigurieren des Connectors:
 
 So exportieren Sie Schulungsmetadaten:
 
-1. Wählen Sie auf der Connector-Seite **Schulungsmetadaten exportieren** aus.
+1. Wählen Sie auf der Seite &quot;Verbindung&quot; **Schulungsmetadaten exportieren** aus.
 2. Wählen Sie **Export von Schulungsmetadaten über diese Verbindung aktivieren**, um die Übertragung Ihrer Schulungsdaten an das Such- und Abrufsystem zu starten.
 3. Wählen Sie **Zeitplan aktivieren** und legen Sie das Startdatum, die Startzeit und das Intervall fest.
 
@@ -97,7 +98,7 @@ Sobald die Website live ist:
 
 Das nicht angemeldete Erlebnis ermöglicht es Ihnen, ein Echtzeit-Erlebnis für nicht angemeldete Benutzer zu erstellen. Beispielsweise dient ein nicht angemeldetes Erlebnis als Landingpage für Marketing-Kampagnen, um Anmeldungen zu fördern.
 
-Das nicht angemeldete Erlebnis in Adobe Learning Manager kann mithilfe des Connectors **Training Data Access** konfiguriert werden. Der Connector bietet die folgenden Angebote:
+Das nicht angemeldete Erlebnis in Adobe Learning Manager kann mithilfe der Verbindung **Zugriff auf Schulungsdaten** konfiguriert werden. Die Verbindung bietet die folgenden Angebote:
 
 - Standardangebot
 - Premium-Angebot
@@ -108,7 +109,7 @@ Das Standardangebot besteht darin, die native Version von Adobe Learning Manager
 
 ### Premium-Angebot
 
-Mit dem Premium-Angebot können Benutzer eine Headless-Schnittstelle erstellen, die vom **Training Data Access**-Connector konfiguriert wird. Dadurch können Benutzer Echtzeitdaten zu Kursen und Lernpfaddetails wie Name, Beschreibung, Autor, Kenntnisse, Dauer usw. abrufen. In Szenarien mit gemischtem Lernen erhalten Sie außerdem Sitzplatzbeschränkungen in Echtzeit, besetzte Plätze, Wartelistenbeschränkungen und Wartelistenzahlen. Kunden können diese APIs verwenden, um Such- und Filterfunktionen und eine vollständige Kurszusammenfassung für nicht angemeldete Teilnehmer zu erstellen.
+Mit dem Premium-Angebot können Benutzer eine Headless-Schnittstelle erstellen, die von der **Training Data Access**-Verbindung konfiguriert wird. Dadurch können Benutzer Echtzeitdaten zu Kursen und Lernpfaddetails wie Name, Beschreibung, Autor, Kenntnisse, Dauer usw. abrufen. In Szenarien mit gemischtem Lernen erhalten Sie außerdem Sitzplatzbeschränkungen in Echtzeit, besetzte Plätze, Wartelistenbeschränkungen und Wartelistenzahlen. Kunden können diese APIs verwenden, um Such- und Filterfunktionen und eine vollständige Kurszusammenfassung für nicht angemeldete Teilnehmer zu erstellen.
 
 Kunden können ein Premium-Abo erwerben, um dieses hochgradig skalierbare, nicht angemeldete Erlebnis zu ermöglichen.
 
@@ -116,4 +117,4 @@ Kunden können ein Premium-Abo erwerben, um dieses hochgradig skalierbare, nicht
 >
 >Wenden Sie sich an das Support-Team oder den CSM, um das Premium-Abo zu erwerben.
 
-Nachdem ein Benutzer ein Abo gekauft hat, aktiviert das CSM-Team das Premium-Abo für ihn. Mit dem Connector für den Zugriff auf Schulungsdaten können Benutzer ein nicht angemeldetes Erlebnis mit den zuvor genannten Funktionen einrichten.
+Nachdem ein Benutzer ein Abo gekauft hat, aktiviert das CSM-Team das Premium-Abo für ihn. Mithilfe der Verbindung für den Zugriff auf Schulungsdaten können Benutzer ein nicht angemeldetes Erlebnis mit den zuvor genannten Funktionen einrichten.

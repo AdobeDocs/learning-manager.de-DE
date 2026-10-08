@@ -4,13 +4,14 @@ title: CSS-Vorlage für Rich-Text-Editor
 description: CSS-Vorlage für Rich-Text-Editor
 contentowner: saghosh
 preview: true
-source-git-commit: 9325abb9cda8c8a019c9d72c1944a8284f38f83e
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '210'
-ht-degree: 70%
-
+source-wordcount: '231'
+ht-degree: 72%
 ---
-
 
 
 # CSS-Vorlage für Rich-Text-Editor
@@ -32,6 +33,6 @@ Der Standardstil erfüllt möglicherweise nicht alle Anforderungen. Die Anpassun
 * **Ausrichtung**: ql-align-center, ql-align-justify, ql-align-right
 * **color**: ql-color-$color. $color = white, red, orange, yellow, green, blue, purple
 * **Hintergrund**: ql-bg-$color. $color = black, red, orange, yellow, green, blue, purple
-* **HTML-Tags**: p, ol, ul, pre, blockquote, h1, h2, h3, h4, h5, h6
+* **html-Tags**: p, ol, ul, pre, blockquote, h1, h2, h3, h4, h5, h6
 
 [CSS-Datei für die Anpassung.](assets/ql-headless.css)

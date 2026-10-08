@@ -5,18 +5,19 @@ title: Implementierungshandbuch für Learning Manager - Abschnitt 2
 contentowner: sanm
 preview: true
 exl-id: 46e59790-dbc9-4c13-ae63-7bbdba5157a1
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2257'
 ht-degree: 63%
-
 ---
-
 # Implementierungshandbuch für Learning Manager - Abschnitt 2
 
 ## Technische Einrichtung {#technicalsetup}
 
-Die technische Einrichtung für Ihr Learning Manager-Konto ist hauptsächlich für Unternehmensbenutzer erforderlich. In diesem Dokument geht es um die Konfiguration von Single Sign-on für Ihr Unternehmen und die Integration von Learning Manager mit Connectors von Drittanbietern.
+Die technische Einrichtung für Ihr Learning Manager-Konto ist hauptsächlich für Unternehmensbenutzer erforderlich. In diesem Dokument geht es um die Konfiguration von Single Sign-on für Ihr Unternehmen und die Integration von Learning Manager mit Verbindungen von Drittanbietern.
 
 ### Konfigurieren von Single Sign-On (SSO) {#configuresinglesignon}
 
@@ -74,7 +75,7 @@ Zum Ausführen des Migrationsarbeitsablaufs benötigen Sie die Integrations-Admi
 
 Bevor Sie den Migrationsprozess starten, müssen Sie die folgenden Voraussetzungen erfüllen:
 
-* Extrahieren von Daten und Inhalten aus dem vorhandenen LMS und Transformieren der Daten in die vom Lernmanager definierten Dateiformate.
+* Extrahieren von Daten und Inhalten aus dem vorhandenen LMS und transformieren der Daten in den vom Lernmanager definierten Dateiformaten.
 * Importieren von Benutzern über FTP- und BOX-Connectors Der Integrations-Admin muss sicherstellen, dass die Connectors vor dem Migrationsvorgang konfiguriert sind.
 
 
@@ -122,7 +123,7 @@ Stellen Sie sicher, dass jede CSV-Datei die Daten für jedes Feld im vorgeschrie
    <th width="7%" valign="top"><p><strong>Anzahl</strong></p></th> 
    <th width="29%" valign="top"><p><strong>Name des Excel-Arbeitsblatts</strong></p></th> 
    <th width="31%" valign="top"><p><strong>Beschreibung des Inhalts</strong></p></th> 
-   <th width="31%" valign="top"><p><strong>Anmerkungen</strong></p></th> 
+   <th width="31%" valign="top"><p><strong>Hinweise</strong></p></th> 
   </tr> 
   <tr> 
    <td><p>1</p></td> 
@@ -297,7 +298,7 @@ Klicken Sie auf **[!UICONTROL **&#x200B; Verbinden &#x200B;**.]**.
 
 Sie erhalten eine E-Mail von Box mit einem Link zum freigegebenen Ordner. Wenn Sie über kein Box-Konto verfügen, klicken Sie auf „Registrieren“ und erstellen Sie ein Konto. Anweisungen zur Anmeldung werden an die E-Mail-ID des Integrations-Admins gesendet.
 
-Nachdem Sie die Verbindung gespeichert haben, wird auf der Migrationsseite die Meldung angezeigt: &quot;Die Einrichtung des Box-Ordners ist abgeschlossen&quot;.
+Nachdem Sie die Verbindung gespeichert haben, wird auf der Migrationsseite die folgende Meldung angezeigt: &quot;Die Einrichtung des Box-Ordners ist abgeschlossen&quot;.
 
 ## Migrieren des Inhalts in den Learning Manager {#migratingthecontenttocaptivateprime}
 

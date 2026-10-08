@@ -1,13 +1,14 @@
 ---
 title: Einstellungen im Live-Hub verwalten
 description: Erfahren Sie, wie Kursleiter auf die Raumeinstellungen in Live Hub zugreifen und diese konfigurieren, einschließlich Teilnehmerberechtigungen, Aufzeichnung, KI-Assistenten und Datenschutz.
-source-git-commit: 8e0b7d983fc0736ae2890e6ec58e870bafc37fd0
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '533'
 ht-degree: 0%
-
 ---
-
 
 # Raumeinstellungen verwalten
 
@@ -26,7 +27,7 @@ In einer Live-Hub-Sitzung können Kursleiter die Teilnehmerberechtigungen und da
 
 1. Wählen Sie die entsprechende Registerkarte im linken Bereich aus:
 
-   1. **Teilnehmerberechtigungen**: Steuern Sie, was Teilnehmer während der Sitzung tun können, z. B. mit ihrem Mikrofon, ihrer Kamera, ihrer Bildschirmfreigabe, ihrem Whiteboard und ihrem privaten Chat.
+   1. **Teilnehmerberechtigungen**: Lege fest, was Teilnehmer während der Session tun können, z. B. über Mikrofon, Kamera, Bildschirmfreigabe, Whiteboard oder privaten Chat.
 
    1. **Aufzeichnen**: Wählen Sie aus, was in der Aufzeichnung erfasst wird, einschließlich Teilnehmer-Videofeeds, Umfragen und Chat-Transkript.
 
@@ -63,7 +64,7 @@ Mit den folgenden Einstellungen können Sie die Sitzung verwalten, indem Sie ste
 <td>Ermöglicht es den Teilnehmern, während der Sitzung zu sprechen.</td>
 </tr>
 <tr>
-<td>Verwenden der Kamera</td>
+<td>Kamera verwenden</td>
 <td>Ermöglicht es den Teilnehmern, ihr Video zu aktivieren.</td>
 </tr>
 <tr>

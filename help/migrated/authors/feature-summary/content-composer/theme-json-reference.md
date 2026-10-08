@@ -1,18 +1,19 @@
 ---
-description: Eine vollständige Referenz für jede Eigenschaft im Content Composer-Design-JSON-Schema, einschließlich Paletten-Tokens, Schriften-Stacks, Radius- und Abstands-Tokens, Textrollenwerten, Komponenteneigenschaften und Bewertungsstilen.
+description: Eine vollständige Referenz für jede Eigenschaft im Content Composer-Theme-JSON-Schema, einschließlich Paletten-Tokens, Schrift-Stapeln, Radius- und Abstand-Tokens, Textrollenwerten, Komponenteneigenschaften und Bewertungsstilen.
 jcr-language: en_us
 title: Adobe Learning Manager Content Composer-Designreferenz für JSON-Eigenschaften
-source-git-commit: ea6d296fa99686136ab08d756a20570a4681d704
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1899'
 ht-degree: 5%
-
 ---
-
 
 # Adobe Learning Manager Content Composer-Designreferenz für JSON-Eigenschaften
 
-Eine vollständige Referenz für jede Eigenschaft in einer Content Composer-Design-JSON-Datei mit Beschreibungen und Beispielwerten.
+Ein vollständiger Verweis auf jede Eigenschaft in einer Content Composer-Designbeschreibung mit JSON-Dateien und Beispielwerten.
 
 Felder der obersten Ebene, die das Design identifizieren und beschreiben.
 
@@ -20,7 +21,7 @@ Felder der obersten Ebene, die das Design identifizieren und beschreiben.
 
 | **Eigenschaft** | **Typ** | **Beschreibung** | **Versatzwert** |
 |--------------|----------|----------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
-| id | Zeichenfolge | Eindeutiger Designbezeichner. Kleinschreibung, nur Bindestriche, keine Leerzeichen oder Sonderzeichen. Wird intern verwendet, um auf das Design zu verweisen. | &quot;Schiefer&quot; |
+| id | Zeichenfolge | Eindeutige Design-Identifizierung. Kleinschreibung, nur Bindestriche, keine Leerzeichen oder Sonderzeichen. Wird intern verwendet, um auf das Design zu verweisen. | &quot;Schiefer&quot; |
 | name | Zeichenfolge | Der im Bedienfeld &quot;Kursthemen&quot; angezeigte Anzeigename. | &quot;Schiefer&quot; |
 | Version | Zeichenfolge | Semantische Versionsnummer. Verwenden Sie &quot;1.0.0&quot; für neue Designs. | &quot;1.0.0&quot; |
 | Beschreibung | Zeichenfolge | Kurze Beschreibung des visuellen Charakters des Themas. | &quot;Ein warmes, authentisches Thema mit cremefarbenem Hintergrund, roten Adobe-Akzenten und dem Roboto Slab + Roboto-Typensystem&quot; |
@@ -44,29 +45,29 @@ Die sieben Kernfarbtoken, die die Farbgrundlage des Themas bilden. Alle Elementw
 
 ## **foundation.fonts**
 
-Zwei Schriftstapel, die über alle Textrollen in dem Design angewendet werden. Verweisen Sie mit var(—font-heading) oder var(—font-body) auf Elementwerte.
+Zwei Schriftarten-Stapel, die über alle Textrollen in dem Design angewendet werden. Verweisen Sie mit var(—font-heading) oder var(—font-body) auf Elementwerte.
 
 | **Eigenschaft** | **Typ** | **Beschreibung** | **Versatzwert** |
 |--------------|-------------------|------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------|
-| Rubrik | Zeichenkette für Schriftarten | Schriftfamilie für Unterrichtstitel, Thementitel und Anzeigeüberschriften. Schließen Sie websichere Fallbacks ein. | &quot;Roboto Slab, Georgia, &#39;Times New Roman&#39;, Serif&quot; |
-| body | Zeichenkette für Schriftarten | Schriftfamilie für Absatztext, Beschriftungen, Quizfragen und UI-Beschriftungen. Schließen Sie websichere Fallbacks ein. | &quot;Roboto, -apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, sans-serif&quot; |
+| Rubrik | Zeichenkette für Stapel in Schriftarten | Schriftfamilie für Unterrichtstitel, Thementitel und Anzeigeüberschriften. Schließen Sie websichere Fallbacks ein. | &quot;Roboto Slab, Georgia, &#39;Times New Roman&#39;, Serif&quot; |
+| body | Zeichenkette für Stapel in Schriftarten | Schriftfamilie für Absatztext, Beschriftungen, Quizfragen und UI-Beschriftungen. Schließen Sie websichere Fallbacks ein. | &quot;Roboto, -apple-system, BlinkMacSystemFont, &#39;Segoe UI&#39;, sans-serif&quot; |
 
-## **foundation.spacing**
+## **foundation.Abstand**
 
-Als Grundlinie verwendete Token für horizontale und vertikale Abstände. Komponenten werden mithilfe der Multiplikatoren horizontalSpacingScale und vertikalSpacingScale skaliert.
+Als Grundlinie verwendete Token für horizontalen und vertikalen Abstand. Komponenten werden mithilfe der Multiplikatoren horizontalSpacingScale und vertikalSpacingScale skaliert.
 
 | **Pfad** | **Typ** | **Beschreibung** | **Versatzwert** |
 |---------------|----------|-------------------------------------|-----------------|
-| horizontal.xs | px-Wert | Kleinste horizontale Abstandseinheit | 4px |
-| horizontal.s | px-Wert | Kleine horizontale Abstandseinheit | 8px |
-| horizontal.m | px-Wert | Mittlere horizontale Abstandseinheit | 12px |
-| horizontal.l | px-Wert | Große horizontale Abstandseinheit | 16px |
-| horizontal.xl | px-Wert | Extra große horizontale Abstandseinheit | 24px |
-| vertical.xs | px-Wert | Kleinste vertikale Abstandseinheit | 4px |
-| vertical.s | px-Wert | Kleine vertikale Abstandseinheit | 8px |
-| vertical.m | px-Wert | Mittlere vertikale Abstandseinheit | 16px |
-| vertical.l | px-Wert | Große vertikale Abstandseinheit | 24px |
-| vertical.xl | px-Wert | Extra große vertikale Abstandseinheit | 32px |
+| horizontal.xs | px-Wert | Kleinster waagerechter Abstand | 4px |
+| horizontal.s | px-Wert | Kleiner horizontaler Abstand | 8px |
+| horizontal.m | px-Wert | Horizontaler Abstand (mittel) | 12px |
+| horizontal.l | px-Wert | Großer horizontaler Abstand | 16px |
+| horizontal.xl | px-Wert | Extra großer horizontaler Abstand | 24px |
+| vertical.xs | px-Wert | Kleinster vertikaler Abstand | 4px |
+| vertical.s | px-Wert | Kleiner vertikaler Abstand | 8px |
+| vertical.m | px-Wert | Mittlerer vertikaler Abstand | 16px |
+| vertical.l | px-Wert | Großer vertikaler Abstand | 24px |
+| vertical.xl | px-Wert | Extra großer vertikaler Abstand | 32px |
 
 ## **foundation.radius**
 
@@ -109,7 +110,7 @@ Die folgenden Eigenschaften gelten für jede oben aufgeführte Textrolle.
 
 | **Eigenschaft** | **Typ** | **Akzeptierte Werte** | **Beschreibung** |
 |--------------------|-----------------------|--------------------------------------------------------------------|---------------------------------------------------------|
-| fontFamily | CSS var oder font stack | var(—font-heading), var(—font-body) oder eine vollständige Zeichenfolge für den Schriftenstapel | Schriftfamilie für diese Textrolle. |
+| fontFamily | CSS-Stapel var oder font | var(—font-heading), var(—font-body) oder eine Zeichenfolge für den vollständigen Stapel von Schriftarten | Schriftfamilie für diese Textrolle. |
 | fontSize | px-Wert | Beliebiger Pixelwert | Schriftgröße: |
 | fontWeight | Zeichenfolge | Nur &quot;fett&quot; oder &quot;normal&quot;: Numerische Werte werden nicht unterstützt. | Schriftstärke. |
 | fontStyle | Zeichenfolge | &quot;normal&quot; oder &quot;kursiv&quot; | Schriftschnitt. |
@@ -166,8 +167,8 @@ Diese Eigenschaften werden für alle Inhaltsblockkomponenten angezeigt: paragrap
 | cardShadowOffset | Zeichenfolge | X- und Y-Versatz des Kartenschattens, zum Beispiel &quot;0px 2px 6px&quot;. |
 | cardShadowColor | CSS var oder color | Farbe des Kartenschattens. |
 | cardShadowOpacity | Prozentzeichenfolge | Deckkraft des Kartenschattens. Setzen Sie den Wert auf &quot;0 %&quot;, um den Schatten zu entfernen. |
-| horizontalSpacingScale | Ziffernfolge | Auf horizontale Abstandstoken angewendeter Multiplikator für diese Komponente. Bei &quot;1&quot; wird der Standardabstand verwendet. |
-| verticalSpacingScale | Ziffernfolge | Auf Token für vertikale Abstände angewendeter Multiplikator für diese Komponente. Bei &quot;1&quot; wird der Standardabstand verwendet. |
+| horizontalSpacingScale | Ziffernfolge | Multiplikator, der auf Token für horizontalen Abstand für diese Komponente angewendet wird. &quot;1&quot; verwendet den standardmäßigen Abstand. |
+| verticalSpacingScale | Ziffernfolge | Multiplikator, der auf Token für vertikalen Abstand für diese Komponente angewendet wird. &quot;1&quot; verwendet den standardmäßigen Abstand. |
 | radiusScale | Ziffernfolge | Der auf die Radius-Token für diese Komponente angewendete Multiplikator. Bei &quot;1&quot; wird der Standardradius verwendet. |
 | nestedAccentColor | CSS var oder color | Akzentfarbe für verschachtelte Elemente innerhalb der Komponente. Gilt nur für paragraphBlock. |
 
@@ -190,8 +191,8 @@ Eigenschaften, die für einzelne Komponententypen spezifisch sind.
 | **Komponente** | **Eigenschaft** | **Typ** | **Beschreibung** | **Versatzwert** |
 |----------------|--------------------------|----------|------------------------------------------------------------------|-------------------------|
 | paragraphBlock | nestedAccentColor | CSS-Variable | Akzentfarbe für verschachtelte Elemente innerhalb des Absatzblocks | var(—accent) |
-| flipCard | cardFrontBackgroundColor | CSS-Variable | Hintergrundfarbe der Vorderseite der Flipkarte | var(—backgroundSubtle) |
-| flipCard | cardBackBackgroundColor | CSS-Variable | Hintergrundfarbe der Rückseite der Flipkarte - die Einblendfarbe | var(—accent) |
+| flipCard | cardFrontBackgroundColor | CSS-Variable | Hintergrundfarbe der Fläche auf der Vorderseite der Flipkarte | var(—backgroundSubtle) |
+| flipCard | cardBackBackgroundColor | CSS-Variable | Hintergrundfarbe der Flipkarte Fläche auf der Rückseite - die Einblendfarbe | var(—accent) |
 | flipCard | arrowColor | CSS-Variable | Farbe des Pfeilsymbols für die Spiegelung | var(—textInverse) |
 | Tabulatoren | activeBg | CSS-Variable | Hintergrundfarbe der aktuell ausgewählten Registerkarte | var(—accent) |
 | Tabulatoren | inactiveBg | CSS-Variable | Hintergrundfarbe nicht ausgewählter Registerkarten | var(—backgroundSubtle) |
@@ -224,7 +225,7 @@ Eigenschaften für Quiz- und Wissensüberprüfungskomponenten.
 | optionBorderCorrectColor | Hexadezimalfarbe | Rahmenfarbe für die richtige Antwortoption, nachdem die Antwort angezeigt wurde | #079355 |
 | optionBorderIncorrectColor | Hexadezimalfarbe | Rahmenfarbe einer falsch ausgewählten Option, nachdem die Antwort angezeigt wurde | #D73220 |
 | horizontalSpacingScale | Ziffernfolge | Multiplikator für horizontalen Abstand innerhalb der Bewertungskomponente | &quot;1&quot; |
-| verticalSpacingScale | Ziffernfolge | Multiplikator für den vertikalen Abstand innerhalb der Bewertungskomponente | &quot;1&quot; |
+| verticalSpacingScale | Ziffernfolge | Multiplikator für vertikalen Abstand innerhalb der Bewertungskomponente | &quot;1&quot; |
 | radiusScale | Ziffernfolge | Multiplikator für den Rahmenradius innerhalb der Bewertungskomponente | &quot;1&quot; |
 
 ## **Palettentoken var() reference**

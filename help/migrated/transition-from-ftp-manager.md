@@ -2,13 +2,14 @@
 title: Übergang vom Adobe FTP Manager
 description: Adobe Learning Manager unterstützt einen neuen Connector mit dem SFTP-Protokoll der AWS Transfer-Familie. Sie können jeden Open-Source-FTP-Client durch Adobe FTP Manager ersetzen.
 exl-id: c5674e61-9e3d-45e5-9f3c-e0aa15ec2dac
-source-git-commit: 2dc01be9cd7200814a1bbd7a30610c162e7d93bf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1053'
 ht-degree: 69%
-
 ---
-
 # Übergang vom Adobe FTP Manager
 
 Adobe Learning Manager unterstützt einen neuen Connector mit dem SFTP-Protokoll der AWS Transfer-Familie.
@@ -22,11 +23,11 @@ Einige von AWS empfohlene FTP-Clients sind hier [aufgelistet](https://docs.aws.a
 * WinSCP (nur Microsoft Windows)
 * Cyberduck (Windows, macOS und Linux)
 
-## Konfigurieren des AWS-basierten FTP-Connectors
+## Konfigurieren der AWS-basierten FTP-Verbindung
 
-Sie müssen den neuen AWS-basierten FTP-Connector im Integrations-Admin konfigurieren.
+Sie müssen die neue AWS-basierte FTP-Verbindung im Integrations-Admin konfigurieren.
 
-![-Connectors, Bild](assets/alm-ftp.png)
+![&#x200B; Verbindungen-Image](assets/alm-ftp.png)
 *Wählen Sie die FTP-Option aus*
 
 Sobald Sie eine Verbindung hergestellt haben, wird die Seite Verbindungsdetails angezeigt.
@@ -84,7 +85,7 @@ Richten Sie die Verbindung auf einem FTP-Client ein (im Abschnitt weiter oben em
 1. Stellen Sie eine Verbindung mit dem neuen ALM-FTP-Connector her. Klicken Sie auf Verbinden.
 
    ![Verbindungsbild](assets/connect-client.png)
-   *Verbindung mit neuem ALM-FTP-Connector herstellen*
+   *Verbindung mit neuer ALM-FTP-Verbindung herstellen*
 
 1. Um eine Verbindung mithilfe einer Standardauthentifizierung über ein Kennwort herzustellen, geben Sie den Domänennamen und den FTP-Benutzernamen ein und richten Sie ein Kennwort ein, das den Kriterien für die Kennwortüberprüfung entspricht. Klicken Sie auf Verbinden. Die neue FTP-Verbindung wird erstellt und ist über jeden SFTP-Client zugänglich.
 

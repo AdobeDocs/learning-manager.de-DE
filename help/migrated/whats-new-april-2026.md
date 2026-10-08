@@ -3,13 +3,14 @@ description: Erfahren Sie mehr über die neuen Funktionen und Verbesserungen in 
 jcr-language: en_us
 title: Neue Funktionen in der Adobe Learning Manager-Version April 2026
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: 87edde0d142a151322869fd967a8b17d9871fdc2
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1802'
 ht-degree: 0%
-
 ---
-
 # Neue Funktionen in der Adobe Learning Manager-Version April 2026
 
 **Für Teilnehmer:** Der Fluidic Player zeigt jetzt den nächsten Modulnamen und eine Schaltfläche zum Beenden an.
@@ -22,7 +23,7 @@ Die Sprache des Players kann über LTI festgelegt werden, um ein einheitliches E
 
 Unterstützung mehrerer Sprachen für Arbeitshilfen, Checklistenfragen und Videotextspuren (VTT). Der AI-Assistent hilft Teilnehmern dabei, Antworten innerhalb des Lernerlebnisses zu erhalten.
 
-**Für Administratoren und Autoren:** Der Zoom-Connector unterstützt mehrere gleichzeitige VILT-Sitzungen. Freigegebene Kurse in Peer-Konten zeigen den tatsächlichen Autor anstelle von &quot;Externer Autor&quot; an. Administratoren können einschränken, wann Module gestartet werden können. Ablaufdaten für Lernobjekte werden in Teilnehmer-APIs angezeigt. Checklistenmodule unterstützen eine gewichtete Punktzahl, mehrsprachigen Fragentext und optionale Reviewerkommentare. Benutzerdefinierte Zertifikate bieten einen Drag-and-Drop-Editor mit dynamischen Feldern und KI-generierten Hintergründen. Mit dem nicht angemeldeten Experience Builder können Sie öffentliche Lernseiten erstellen, ohne sich anmelden zu müssen.
+**Für Administratoren und Autoren:** Die Zoom-Verbindung unterstützt mehrere gleichzeitige VILT-Sitzungen. Freigegebene Kurse in Peer-Konten zeigen den tatsächlichen Autor anstelle von &quot;Externer Autor&quot; an. Administratoren können einschränken, wann Module gestartet werden können. Ablaufdaten für Lernobjekte werden in Teilnehmer-APIs gelegt. Checklistenmodule unterstützen eine gewichtete Punktzahl, mehrsprachigen Fragentext und optionale Reviewerkommentare. Benutzerdefinierte Zertifikate bieten einen Drag-and-Drop-Editor mit dynamischen Feldern und KI-generierten Hintergründen. Mit dem nicht angemeldeten Experience Builder können Sie öffentliche Lernseiten erstellen, ohne sich anmelden zu müssen.
 
 **Für Kursleiter:** Generieren Sie QR-Codes für Instanzenregistrierung und Sitzungsteilnahme. Fügen Sie während der Checklistenauswertung Kommentare oder Feedback hinzu.
 
@@ -76,7 +77,7 @@ Weitere Informationen finden Sie unter [Checkliste mit Kommentaren konfigurieren
 
 ## Unterstützung mehrerer Sprachen für Checkliste
 
-Mit dieser Funktion können Sie Checklistenmodule in mehreren Sprachen erstellen und verwalten. Jede Frage, jede Anweisung und jedes Bewertungskriterium der Checkliste kann übersetzt werden, sodass Prüfer und Teilnehmer mit der Checkliste in ihrer bevorzugten Sprache interagieren. Das System zeigt die Checkliste in der vom Benutzer ausgewählten Inhaltssprache an, was die Zugänglichkeit und Compliance für globale Teams verbessert.
+Mit dieser Funktion können Sie Checklistenmodule in mehreren Sprachen erstellen und verwalten. Jede Frage, Anweisung und jedes Bewertungskriterium der Checkliste kann so Kamera bewogen werden, dass Prüfer und Teilnehmer in ihrer bevorzugten Sprache mit der Checkliste interagieren. Das System zeigt die Checkliste in der vom Benutzer ausgewählten Inhaltssprache an, was die Zugänglichkeit und Compliance für globale Teams verbessert.
 
 [Mehrsprachige Checkliste in Modulen erstellen](/help/migrated/authors/feature-summary/courses.md#create-a-multi-language-checklist) anzeigen
 
@@ -118,7 +119,7 @@ Weitere Informationen finden Sie unter [Mehrsprachige Arbeitshilfen hinzufügen]
 
 ## Unterstützung von mehrsprachigen Video-Text-Tracks (VTT) (für Autoren)
 
-Die Unterstützung mehrsprachiger Videotextspuren (VTT) in Adobe Learning Manager ermöglicht es Autoren, Untertitel und Untertitel für Video- und Audioinhalte in mehreren Sprachen bereitzustellen. Diese Funktion vereinfacht die Lokalisierung, macht Schulungen für ein weltweites Publikum zugänglich und stellt die Einhaltung von Standards für Barrierefreiheit sicher. Autoren können VTT-Dateien automatisch direkt auf der Plattform generieren, übersetzen, überprüfen und bearbeiten.
+Die Unterstützung mehrsprachiger Videotextspuren (VTT) in Adobe Learning Manager ermöglicht es Autoren, Untertitel und Untertitel für Video- und Audioinhalte in mehreren Sprachen bereitzustellen. Diese Funktion vereinfacht die Lokalisierung, macht Schulungen für ein weltweites Publikum zugänglich und stellt die Einhaltung von Standards für Barrierefreiheit sicher. Autoren können VTT-Dateien automatisch direkt auf der Plattform generieren, Kamera bewogen, überprüfen und bearbeiten.
 
 Weitere Informationen finden Sie unter [Unterstützung mehrsprachiger VTT-Anwendungen](/help/migrated/authors/feature-summary/content-library.md#multi-lingual-vtt-support).
 

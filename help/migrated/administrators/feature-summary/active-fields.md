@@ -1,15 +1,16 @@
 ---
-description: Erfahren Sie, wie Sie aktive Felder in Adobe Learning Manager verwenden, um benutzerdefinierte Benutzerinformationen zu erfassen, zu organisieren und zu verwalten. Verbessern Sie Reporting, Filterung und Benutzersegmentierung mit flexiblen Feldkonfigurationen.
+description: Erfahren Sie, wie Sie aktive Felder in Adobe Learning Manager verwenden, um benutzerdefinierte Benutzerinformationen zu erfassen, zu organisieren und zu verwalten. Verbessert Reporting, Filterung und Anwendersegmentierung mit flexiblen Feldkonfigurationen.
 jcr-language: en_us
 title: Aktive Felder in Adobe Learning Manager konfigurieren
 exl-id: e68300d6-9f19-4e42-b485-c4bbbbcf5518
-source-git-commit: 77fddea1c5458485124b8f14d387a69c5ecd11a7
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1080'
 ht-degree: 0%
-
 ---
-
 # Aktive Felder
 
 Aktive Felder in Adobe Learning Manager sind benutzerdefinierte Benutzerattribute, mit deren Hilfe Administratoren Benutzer effizient organisieren und verwalten können. Sie ermöglichen es Ihnen, zusätzliche Informationen über Benutzer zu erfassen, z. B. Abteilung, Standort oder Stellenbezeichnung. Administratoren können diese Daten verwenden, um Benutzergruppen zu erstellen, Lernergebnisse zu personalisieren und Berichte effektiver zu filtern.
@@ -126,6 +127,6 @@ In einigen Fällen ziehen Administratoren es den Teilnehmern vor, bestimmte akti
 
 Wenn eine CSV-Datei nicht alle aktiven Felder enthält, muss der Administrator die fehlenden Werte nach dem Import manuell eingeben.
 
-Standardmäßig muss jedes aktive Feld einem entsprechenden Feld in der Quell-CSV zugeordnet werden. Wenn Sie jedoch keiner Spalte in der CSV-Datei ein bestimmtes aktives Feld zuordnen möchten, können Sie den Wert **DontImportFromSource** sowohl während des Box- als auch des FTP-Importvorgangs aus der Dropdownliste auswählen. Diese Option ist beim Importieren von Benutzern über FTP- oder Box-Connectors verfügbar. Weitere Informationen zu den Konnektoren finden Sie in diesem [Artikel](/help/migrated/integration-admin/feature-summary/connectors.md).
+Standardmäßig muss jedes aktive Feld einem entsprechenden Feld in der Quell-CSV zugeordnet werden. Wenn Sie jedoch keiner Spalte in der CSV-Datei ein bestimmtes aktives Feld zuordnen möchten, können Sie den Wert **DontImportFromSource** sowohl während des Box- als auch des FTP-Importvorgangs aus der Dropdownliste auswählen. Diese Option ist beim Importieren von Benutzern über FTP- oder Box-Verbindungen verfügbar. Weitere Informationen zu den Verbindungen finden Sie in diesem [Artikel](/help/migrated/integration-admin/feature-summary/connectors.md).
 
 

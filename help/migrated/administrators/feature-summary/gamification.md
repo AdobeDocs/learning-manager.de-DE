@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Gamification
 contentowner: manochan
 exl-id: c7871a50-3f7c-46e0-8f9d-afc83b0032d6
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1655'
 ht-degree: 69%
-
 ---
-
 # Gamification
 
 Gamification bedeutet, spieltypische Ideen und Prozesse in einen spielfremden Kontext einzubetten. So werden die Teilnehmenden animiert, durch Lernen Punkte zu sammeln.
@@ -155,7 +156,7 @@ Wenn Teilnehmer einen Kurs innerhalb von 10 Tagen nach Kursbeginn abschließen, 
 
 **Umfassender Teilnehmer**
 
-Diese Aufgabe gilt für Teilnehmer, die optionales Lernmaterial wie Vorarbeit, Ressourcen und Arbeitshilfen pro Monat nutzen.
+Diese Aufgabe ist für Teilnehmer relevant, die optionales Lern-Material wie Vorarbeit, Ressourcen und Arbeitshilfen pro Monat nutzen.
 
 Mögliche Szenarien:
 

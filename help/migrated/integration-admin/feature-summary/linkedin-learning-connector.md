@@ -1,21 +1,22 @@
 ---
-description: Erfahren Sie, wie Sie den LinkedIn Learning-Connector mit Adobe Learning Manager integrieren
+description: Erfahren Sie, wie Sie die LinkedIn Learning-Verbindung mit Adobe Learning Manager integrieren
 jcr-language: en_us
 title: LinkedIn Learning-Connector
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '756'
 ht-degree: 1%
-
 ---
 
-
-# LinkedIn Learning-Connector in Adobe Learning Manager
+# LinkedIn Learning-Verbindung in Adobe Learning Manager
 
 ## Einführung
 
-Mit dem LinkedIn Learning-Connector können Sie LinkedIn-Lerninhalte nahtlos in Adobe Learning Manager integrieren. Mit diesem Connector können Unternehmen LinkedIn Learning-Kurse automatisch in Adobe Learning Manager integrieren, sodass Teilnehmer LinkedIn-Kurse direkt auf der Plattform suchen, sich dafür registrieren und abschließen können.
+Mit der LinkedIn Learning-Verbindung können Sie LinkedIn-Lerninhalte nahtlos in Adobe Learning Manager integrieren. Mit dieser Verbindung können Unternehmen LinkedIn Learning-Kurse automatisch in Adobe Learning Manager einbinden, sodass Teilnehmer LinkedIn-Kurse direkt auf der Plattform suchen, sich dafür registrieren und abschließen können.
 
 Bei der Einrichtung wird der Fortschritt der Teilnehmer an LinkedIn-Lerninhalten in Adobe Learning Manager verfolgt, sodass Administratoren Abschlüsse und verbrachte Zeit überwachen können. Sie können die automatische Synchronisierung von Inhalten planen, On-Demand-Importe ausführen und filtern, welche Kurse in Ihr System nach Sprache, Bibliothek oder benutzerdefinierten Tags importiert werden.
 
@@ -40,24 +41,24 @@ So konfigurieren Sie LinkedIn-Lernportaleinstellungen:
 7. Wählen Sie **AICC-Integration aktivieren**.
 
    ![](assets/linkedin-connector1.png)
-   _Wählen Sie AICC-Integration aktivieren aus, um den LinkedIn Learning-Connector zu konfigurieren_
+   _Wählen Sie AICC-Integration aktivieren aus, um die LinkedIn Learning-Verbindung zu konfigurieren_
 
 ## Connect LinkedIn Learning in Adobe Learning Manager
 
-So konfigurieren Sie den LinkedIn Learning-Connector:
+So konfigurieren Sie die LinkedIn Learning-Verbindung:
 
 1. Melden Sie sich bei Adobe Learning Manager als Integrationsadministrator an.
 2. Bewegen Sie den Mauszeiger über die Kachel **LinkedIn Learning** und wählen Sie **Connect** aus.
 
    ![](assets/linkedin-connector2.png)
-   _Wählen Sie &quot;Verbinden&quot; aus, um den LinkedIn Learning Connector zu konfigurieren_
+   _Wählen Sie &quot;Verbinden&quot; aus, um die LinkedIn Learning-Verbindung zu konfigurieren_
 
 3. Auf der Seite Verbindungseinrichtung :
    - Geben Sie einen **Verbindungsnamen** ein.
    - Geben Sie den **Anwendungsschlüssel** und den **geheimen Schlüssel** ein.
 
    ![](assets/linkedin-connector3.png)
-   _Geben Sie den Verbindungsnamen, den Anwendungsschlüssel und den geheimen Schlüssel ein, um den LinkedIn Learning-Connector zu konfigurieren_
+   _Geben Sie den Verbindungsnamen, den Anwendungsschlüssel und den geheimen Schlüssel zum Konfigurieren der LinkedIn Learning-Verbindung ein_
 
    >[!NOTE]
    >
@@ -69,19 +70,19 @@ Um eine bestehende Verbindung zu bearbeiten, wählen Sie **Verbindungen verwalte
 
 >[!IMPORTANT]
 >
->Die **Migration**-Funktion muss für Ihr Konto aktiviert sein, bevor Sie diesen Connector konfigurieren können.
+>Die **Migration**-Funktion muss für Ihr Konto aktiviert sein, bevor Sie diese Verbindung konfigurieren können.
 
 
 ## Verbindung und Synchronisation verwalten
 
-So verwalten Sie den LinkedIn Learning-Connector:
+So verwalten Sie die LinkedIn Learning-Verbindung:
 
 1. Wählen Sie **Verbindungen verwalten** und anschließend die Verbindung aus.
 2. Wählen Sie im linken Teilfenster **Konfigurieren**.
 3. Wählen Sie **Verbindung aktivieren**.
 
    ![](assets/linkedin-connector4.png)
-   _Wählen Sie auf der Seite &quot;LinkedIn Learning-Connector konfigurieren&quot; die Option &quot;Verbindung aktivieren&quot; aus._
+   _Wählen Sie auf der Seite &quot;LinkedIn Learning-Verbindung konfigurieren&quot; die Option &quot;Verbindung aktivieren&quot; aus._
 
 4. Wählen Sie **Bearbeiten** aus, um die Anmeldeinformationen zu aktualisieren. Verwenden Sie **Zurücksetzen**, um Änderungen rückgängig zu machen.
 5. Um die Synchronisierung zu automatisieren, wählen Sie **Zeitplan aktivieren**.
@@ -113,7 +114,7 @@ Wählen Sie im linken Fensterbereich **Ausführungsstatus** aus, um den Verlauf 
 
 ## Filtern von LinkedIn-Lerninhalten
 
-Wenn Sie Ihren Connector einrichten, können Sie filtern, welche LinkedIn-Lernkurse importiert werden sollen.
+Beim Einrichten Ihrer Verbindung können Sie filtern, welche LinkedIn Learning-Kurse importiert werden sollen.
 
 So richten Sie Ihren Filter ein:
 
@@ -122,7 +123,7 @@ So richten Sie Ihren Filter ein:
    - **Kein Filter** - Alle Kurse importieren.
    - **Sprache** - Kurse nach bestimmten Sprachen filtern.
    - **Bibliothek** - Kurse nach LinkedIn-Lernbibliotheken filtern.
-3. Wählen Sie beim Filtern nach **Sprache** die gewünschten Sprachen aus. Beispiel: **Englisch** und **Spanisch**.
+3. Wählen Sie die gewünschten Filterungen aus, wenn die Sprache von **Language** angegeben wurde. Beispiel: **Englisch** und **Spanisch**.
 4. Wählen Sie in **Schulungen importieren in** aus, wo die Kurse importiert werden sollen.
 5. Wählen Sie aus, wie die importierten Kurse organisiert werden sollen.
 6. Wählen Sie eine der folgenden Optionen für die Option **Schulungen auf der Grundlage von** trennen aus:
@@ -139,7 +140,7 @@ So richten Sie Ihren Filter ein:
 8. Geben Sie im Feld **Benutzerdefiniertes Tag** ein benutzerdefiniertes Tag ein, das Sie zuweisen möchten. Trennen Sie mehrere Tags durch Kommas.
 
    ![](assets/linkedin-connector6.png)
-   _Wählen Sie Filteroptionen aus, um die Daten aus dem LinkedIn Learning-Connector zu importieren_
+   _Wählen Sie Filteroptionen aus, um die Daten aus der LinkedIn Learning-Verbindung zu importieren_
 
 9. Wenn Sie möchten, dass Teilnehmer die Registrierung für diese Kurse widerrufen können, wählen Sie **Benutzer können die Registrierung widerrufen**.
 10. Wählen Sie **Speichern** aus, um den Filter anzuwenden und Einstellungen zu importieren.

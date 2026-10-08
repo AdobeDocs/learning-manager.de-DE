@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Verwalten der Teilnehmer für Ihre Sitzung
 contentowner: shhivkum
 exl-id: 2f4f8589-2350-4683-a141-809084d6309a
-source-git-commit: 24f54599749bce60916a57634144b0ca7f6a6d10
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1898'
 ht-degree: 47%
-
 ---
-
 # Verwalten der Teilnehmer für Ihre Sitzung
 
 Lesen Sie den folgenden Artikel, um zu erfahren, wie Sie die Teilnehmer verwalten, kursbezogene E-Mail senden und Erinnerungen für Sitzungen senden können.
@@ -123,8 +124,8 @@ Der QR-Code wird als PDF heruntergeladen und kann digital freigegeben oder währ
 * Teilnehmer scannen den QR-Code mit einem Mobilgerät.
 * Adobe Learning Manager validiert den Teilnehmer und die Sitzung.
 * Basierend auf dem QR-Codetyp:
-   * Teilnehmer sind für die Kursinstanz registriert oder
-   * Anwesenheit und Abschluss werden für die Sitzung aufgezeichnet.
+  * Teilnehmer sind für die Kursinstanz registriert oder
+  * Anwesenheit und Abschluss werden für die Sitzung aufgezeichnet.
 
 Alle Aktualisierungen werden automatisch in den Teilnehmerdatensätzen, Transkripten und Berichten widergespiegelt.
 
@@ -147,9 +148,9 @@ Alle Aktualisierungen werden automatisch in den Teilnehmerdatensätzen, Transkri
 * Wenn sich ein Teilnehmer oder ein Kursleiter in einem Klassenzimmer oder einer virtuellen Klassenzimmersitzung registriert hat, sendet der Lern-Manager eine Kalendereinladung (ICS-Datei).
 * Die Kalendereinladung umfasst:
 
-   * Datum und Uhrzeit der Sitzung
-   * Sitzungsdetails
-   * **Link zur direkten Sitzung** in der Kalenderbeschreibung
+  * Datum und Uhrzeit der Sitzung
+  * Sitzungsdetails
+  * **Link zur direkten Sitzung** in der Kalenderbeschreibung
 
   ![](assets/calendar-invite-session.png)
 

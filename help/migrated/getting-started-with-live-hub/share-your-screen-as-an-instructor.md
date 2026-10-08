@@ -1,13 +1,14 @@
 ---
 title: Freigeben Ihres Bildschirms als Kursleiter im Live Hub
 description: Erfahren Sie, wie Kursleiter ihren Bildschirm freigeben, die geteilte Ansicht verwenden, freigegebene Inhalte kommentieren und es Teilnehmern ermöglichen, ihren Bildschirm während einer Live Hub-Sitzung freizugeben.
-source-git-commit: 664d164cce2a045d1834b520a2bd43b651e02e7e
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '929'
 ht-degree: 0%
-
 ---
-
 
 # Bildschirm als Kursleiter freigeben
 

@@ -4,13 +4,14 @@ title: White Labels in der mobilen Adobe Learning Manager-App
 description: White Labels sind eine Praxis, bei der Sie eine App oder einen Service mit Ihrem eigenen Branding umbenennen und so anpassen, als wären Sie der ursprüngliche Ersteller. In Adobe Learning Manager kannst du die Mobile App mit einer weißen Beschriftung versehen, sodass du ein Rebranding der App vornehmen und die App deinen Benutzern unter deinem eigenen Branding zur Verfügung stellen kannst.
 contentowner: saghosh
 exl-id: f37c86e6-d4e3-4095-9e9d-7a5cd0d45e43
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2184'
 ht-degree: 0%
-
 ---
-
 # White Labels in der mobilen Adobe Learning Manager-App
 
 Die mobile Adobe Learning Manager-App unterstützt jetzt die weiße Beschriftung, d. h., Sie können die App jetzt unter Ihrem eigenen Branding veröffentlichen.
@@ -119,7 +120,7 @@ Folgende Elemente können angepasst werden:
 
    <td>
 
-    <p>Der Name, mit dem das Betriebssystem die App identifiziert. Üblicherweise wird das Format com.company-name.product-name verwendet.</p>
+    <p>Der Name, mit dem das Betriebssystem die App identifiziert. Üblicherweise wird folgendes Format verwendet: com.company-name.product-name.</p>
 
    </td>
 
@@ -151,7 +152,7 @@ Folgende Elemente können angepasst werden:
 
    <td>
 
-    <p>Das App-Symbol als png. Dieses Symbol wird in Ihrer App angezeigt. Das zu benennende Format ist account-id_appIcon.png. Die Abmessungen des App-Symbols sind 512 × 512 Pixel.<div>Bitte beachten Sie, dass Apple keinen Alpha-Kanal in App-Symbolen zulässt. Stellen Sie daher sicher, dass Sie den Alpha-Kanal aus dem Asset entfernen, bevor Sie es senden.</div></p>
+    <p>Das App-Symbol als png. Dieses Symbol wird in Ihrer App angezeigt. Das zu benennende Format ist account-id_appIcon.png. Die Abmessungen des App-Symbols sind 512 × 512 Pixel.<div>Beachten Sie, dass Apple den Alphakanal in App-Symbolen nicht zulässt. Stellen Sie daher sicher, dass Sie den Alphakanal aus dem Asset entfernen, bevor Sie es senden.</div></p>
 
    </td>
 
@@ -360,7 +361,7 @@ Führen Sie die folgenden Schritte aus, um die Datei services.json herunterzulad
 
 <!-- Set up a project in Firebase and share the server key with the CSAM.-->
 
-Wenden Sie sich an das CSM-Team und geben Sie die JSON-Datei frei, um den Eintrag den SNS-Diensten in AWS hinzuzufügen. Benutzer müssen den Eintrag für die Push-Benachrichtigung im SNS-Dienst registrieren lassen, sodass sie die oben generierten Zertifikate für die Validierung freigeben müssen.
+Wenden Sie sich an das CSM-Team und teilen Sie die JSON-Datei, um den Eintrag den SNS-Diensten in AWS hinzuzufügen. Benutzer müssen den Eintrag für die Push-Benachrichtigung im SNS-Dienst registrieren lassen, sodass sie die oben generierten Zertifikate für die Validierung freigeben müssen.
 
 ## Erstellen eines Projekts in Firebase {#create-project-in-firebase}
 

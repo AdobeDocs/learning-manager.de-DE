@@ -4,13 +4,14 @@ title: API-Veraltungen in Adobe Learning Manager
 description: Wenn sich die APIs in Adobe Learning Manager weiterentwickeln, werden APIs regelmäßig neu organisiert oder aktualisiert. Wenn sich APIs weiterentwickeln, wird die alte API verworfen und schließlich entfernt. Diese Seite enthält Informationen, die Sie benötigen, wenn Sie von veralteten API-Versionen zu neueren und stabileren API-Versionen migrieren.
 contentowner: saghosh
 exl-id: 0fe9a3cb-9114-42d6-81ae-1a4f28c984fa
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '579'
 ht-degree: 34%
-
 ---
-
 # API-Veraltungen und -Änderungen in Adobe Learning Manager
 
 ## API-Veraltungen in der Version März 2024 von Adobe Learning Manager
@@ -76,30 +77,30 @@ We want to enforce these restrictions on new accounts and maintain a whitelist o
 Die folgenden Pfade sind veraltet:
 
 * /learningObjects
-   * Veraltete Pfade:
-      * enrollment.loInstance.loResources.resources
-      * instances.loResources.resources
-   * Neue Pfade:
-      * enrollment.loInstance.loResources
-      * instances.loResources
+  * Veraltete Pfade:
+    * enrollment.loInstance.loResources.resources
+    * instances.loResources.resources
+  * Neue Pfade:
+    * enrollment.loInstance.loResources
+    * instances.loResources
 
 * /learningObjects/{id}
-   * Veralteter Pfad:
-      * enrollment.instances.subLoInstances.learningObject
-   * Neuer Pfad:
-      * enrollment.instances.subLoInstances
+  * Veralteter Pfad:
+    * enrollment.instances.subLoInstances.learningObject
+  * Neuer Pfad:
+    * enrollment.instances.subLoInstances
 
 * /enrollments
-   * Veralteter Pfad:
-      * loInstance.learningObject.enrollment
-   * Neuer Pfad:
-      * loInstance.learningObject
+  * Veralteter Pfad:
+    * loInstance.learningObject.enrollment
+  * Neuer Pfad:
+    * loInstance.learningObject
 
 * /learningObjects/{id}
-   * Veralteter Pfad:
-      * instance.subLoInstances.learningObject.enrollment.loResourceGrades
-   * Neuer Pfad:
-      * instance.subLoInstances
+  * Veralteter Pfad:
+    * instance.subLoInstances.learningObject.enrollment.loResourceGrades
+  * Neuer Pfad:
+    * instance.subLoInstances
 
 <!--
 ### Instance summary count changes 

@@ -2,13 +2,14 @@
 title: Funktionsverfügbarkeit in FedRAMP-autorisierten Umgebungen
 description: Dieses Dokument enthält Informationen dazu, welche Funktionen in einer FedRAMP-autorisierten Umgebung nicht unterstützt werden.
 jcr-language: en-us
-source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '177'
 ht-degree: 2%
-
 ---
-
 
 # Funktionsverfügbarkeit in FedRAMP-autorisierten Umgebungen
 
@@ -30,7 +31,7 @@ Im Rahmen der FedRAMP-Sicherheits- und Compliance-Anforderungen werden die folge
 | [LTI-Unterstützung](/help/migrated/whats-new.md) | Nicht unterstützt |
 | [Webhooks](/help/migrated/integration-admin/feature-summary/webhooks.md) | Nicht unterstützt |
 | [Badgr-Integration](/help/migrated/learners/feature-summary/badges.md#support-for-badgr-badges) | Nicht unterstützt |
-| [Connectors](/help/migrated/integration-admin/feature-summary/connectors.md) | Teilweise unterstützt (Zoom - unterstützt, MS Teams - nicht unterstützt) |
+| [Verbindungen](/help/migrated/integration-admin/feature-summary/connectors.md) | Teilweise unterstützt (Zoom - unterstützt, MS Teams - nicht unterstützt) |
 | [Gamification-Audit-Bericht](/help/migrated/administrators/feature-summary/reports.md#gamification-audit-trail-report) | Nicht unterstützt |
 | [GSD-Bericht](/help/migrated/administrators/feature-summary/group-success-dashboard.md) | Nicht unterstützt |
 | [L1-Bericht](/help/migrated/administrators/feature-summary/l1-feedback-form.md) | Nicht unterstützt |

@@ -4,13 +4,14 @@ title: Okta Active Directory-Integration in Adobe Learning Manager
 description: Okta Active Directory-Integration in Adobe Learning Manager
 contentowner: nluke
 exl-id: 6d7711a9-7a7f-49b7-8948-9a42407463b3
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '587'
 ht-degree: 60%
-
 ---
-
 # Okta Active Directory-Integration in Adobe Learning Manager {#okta-active-directory-integration-with-adobe-learning-manager}
 
 In diesem Dokument erfahren Sie, wie Sie Adobe Learning Manager in Okta Active Directory (AD) integrieren. Wenn Sie Adobe Learning Manager in Okta AD integrieren, können Sie:
@@ -59,8 +60,8 @@ Adobe Learning Manager unterstützt einmaliges Anmelden (SSO) über Identitäts
 
    **Für IdP-Setup:**
 
-   1. Geben Sie im Feld &quot;URL für einmalige Anmeldung&quot; die URL ein: [https://learningmanager.adobe.com/saml/SSO](https://learningmanager.adobe.com/saml/SSO)
-   1. Geben Sie im Feld Zielgruppen-URL die URL ein: [https://learningmanager.adobe.com](https://learningmanager.adobe.com/)
+   1. Geben Sie im Feld &quot;URL für einmalige Anmeldung&quot; diese URL ein: [https://learningmanager.adobe.com/saml/SSO](https://learningmanager.adobe.com/saml/SSO)
+   1. Geben Sie im Feld &quot;Zielgruppen-URL&quot; die URL ein: [https://learningmanager.adobe.com](https://learningmanager.adobe.com/)
    1. Wählen Sie im Dropdownfeld **Namens-ID-Format** **E-Mail-Adresse** aus.
    1. Wählen Sie im Dropdownmenü **Anwendungsbenutzername** „Okta-Benutzername“ aus.
    1. Wenn Sie zusätzliche Attribute übergeben möchten, können Sie die Attribute unter **Attributanweisung** (optional) hinzufügen.
@@ -71,8 +72,8 @@ Adobe Learning Manager unterstützt einmaliges Anmelden (SSO) über Identitäts
 
    **Für SP-Setup:**
 
-   1. Geben Sie im Feld &quot;URL für einmalige Anmeldung&quot; die URL ein: [https://learningmanager.adobe.com/saml/SSO](https://learningmanager.adobe.com/saml/SSO)
-   1. Geben Sie im Feld Zielgruppen-URL die URL ein: [https://learningmanager.adobe.com](https://learningmanager.adobe.com/)
+   1. Geben Sie im Feld &quot;URL für einmalige Anmeldung&quot; diese URL ein: [https://learningmanager.adobe.com/saml/SSO](https://learningmanager.adobe.com/saml/SSO)
+   1. Geben Sie im Feld &quot;Zielgruppen-URL&quot; die URL ein: [https://learningmanager.adobe.com](https://learningmanager.adobe.com/)
    1. Wählen Sie im Dropdownfeld „Namens-ID-Format“ **E-Mail-Adresse** aus.
    1. Wählen Sie im Dropdownmenü „Anwendungsbenutzername“ „Okta-Benutzername“ aus.
    1. Klicken Sie auf **Erweiterte Einstellungen anzeigen**.

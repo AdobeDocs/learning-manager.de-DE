@@ -2,13 +2,14 @@
 title: Neue Funktionen in dieser Version
 description: Erfahren Sie mehr über die neuen Funktionen und Verbesserungen in der Version November 2023 von Adobe Learning Manager.
 exl-id: d670dc47-d57f-464a-bee8-064cc16e59f9
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '2375'
+source-wordcount: '2372'
 ht-degree: 73%
-
 ---
-
 # Neue Funktionen in dieser Version
 
 ## Überarbeitete Benutzeroberfläche
@@ -143,7 +144,7 @@ In Adobe Learning Manager stehen benutzerdefinierten Administrator(inn)en nur da
 
 **Neue schreibgeschützte Steuerelemente**
 
-Auf der Seite &quot;Benutzerdefinierte Rollen&quot; haben wir die folgenden Schreibschutzoptionen hinzugefügt, damit Administratoren flexiblere Optionen für den benutzerdefinierten Administrator bereitstellen können: Der benutzerdefinierte Administrator verfügt jetzt über eine zusätzliche Schreibschutzberechtigung für Benutzer, E-Mail-Vorlagen und Lernpläne.
+Auf der Seite &quot;Benutzerdefinierte Rollen&quot; haben wir die folgenden Schreibschutzoptionen hinzugefügt, damit Administratoren flexiblere Optionen für den benutzerdefinierten Administrator bereitstellen können: Der benutzerdefinierte Administrator hat jetzt zusätzliche Schreibschutzberechtigungen für Benutzer, E-Mail-Vorlagen und Lernpläne.
 
 **Benutzer**:
 
@@ -245,7 +246,7 @@ Der Migrationsarbeitsablauf unterstützt jetzt Katalogbeschriftungen. Migrations
 
 ## API-Verbesserungen für die komplexe Kursfilterung
 
-Erweiterte Filterung von Kursen nach Tags und Katalogbeschriftungen (mit einer Kombination aus &quot;UND&quot;- und &quot;ODER&quot;-Bedingungen) ist jetzt über Lern-Manager-APIs möglich.
+Erweiterte Filterungen von Kursen nach Tags und Katalogbeschriftungen (mit einer Kombination aus &quot;AND&quot;- und &quot;OR&quot;-Bedingungen) sind jetzt über Lern-Manager-APIs möglich.
 
 ## API-Änderungen in dieser Version
 

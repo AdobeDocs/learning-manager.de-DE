@@ -4,20 +4,21 @@ jcr-language: en_us
 title: Kenntnisse und Stufen
 contentowner: manochan
 exl-id: 3172e988-3dc5-484c-8869-7a8d9950b79b
-source-git-commit: 4f2892f762440e87286e8895cedfd5bea51f726b
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 86%
-
+source-wordcount: '327'
+ht-degree: 94%
 ---
-
 # Kenntnisse und Stufen
 
 Lesen Sie den Artikel zum Erreichen von Kenntnissen in Learning Manager als Teilnehmer.
 
 In einem Kenntnisdiagramm werden die Fachkenntnisse, das Wissen und die Eigenschaften eines Unternehmensmitarbeiters zusammengefasst. Diese Kenntnisse helfen Firmen/Unternehmen dabei, die Leistungserwartungen für ihre Mitarbeiter festzusetzen oder zu erhöhen. Durch Kenntnisse können Mitarbeiter ihr Verhalten auf die Erwartungen des Unternehmens hin ausrichten.
 
-In Adobe Learning Manager können Sie mithilfe des Widgets &quot;Kenntnisse&quot; die Leistungen von Teilnehmern anhand ihrer Kenntnisse zuordnen. Wenn die Teilnehmer einige Kurse absolviert haben, können sie ihren Stand bezüglich der jeweiligen Kenntnisse feststellen, indem sie auf der Teilnehmer-Startseite auf Kenntnisse klicken.
+In Adobe Learning Manager können Sie mithilfe des Widgets &quot;Kenntnisse&quot; die Leistungen von Teilnehmern anhand ihrer Kenntnisse zuordnen. Wenn die Teilnehmer einen Kurs abgeschlossen haben, können sie ihren Kenntnisstand in Bezug auf die jeweiligen Kenntnisse anzeigen, indem sie auf „Kenntnisse“ auf der Startseite für Teilnehmer klicken.
 
 ## Kenntnisse anzeigen {#viewskills}
 

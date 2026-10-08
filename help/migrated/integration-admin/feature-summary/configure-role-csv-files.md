@@ -4,13 +4,14 @@ title: Verwalten benutzerdefinierter Rollen über CSV-Dateien
 description: Der Integrationsadministrator kann seinem Konto mehrere benutzerdefinierte Rollen gleichzeitig über CSV hinzufügen und diese verschiedenen Benutzern zuweisen. Dieser Ansatz automatisiert den Prozess der Erstellung von benutzerdefinierte Rollen.
 contentowner: saghosh
 exl-id: fce2f457-2834-491a-8331-64086f5a51b5
-source-git-commit: 47845b67e3ac66898d521fea4173b8a04b07f959
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1002'
 ht-degree: 78%
-
 ---
-
 # Verwalten benutzerdefinierter Rollen über CSV-Dateien
 
 Der Integrationsadministrator kann seinem Konto mehrere benutzerdefinierte Rollen gleichzeitig über CSV hinzufügen und diese verschiedenen Benutzern zuweisen. Dieser Ansatz automatisiert den Prozess der Erstellung von benutzerdefinierte Rollen.

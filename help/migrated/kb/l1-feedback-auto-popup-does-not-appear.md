@@ -4,13 +4,14 @@ title: Das automatische Popup mit L1-Feedback wird nicht angezeigt
 description: So beheben Sie den Fehler "Automatisches Popup mit L1-Feedback wird nicht angezeigt"
 contentowner: saghosh
 exl-id: 47edcd7f-e332-4a75-a025-fd07737d0b70
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 76%
-
+source-wordcount: '205'
+ht-degree: 77%
 ---
-
 # Das automatische Popup mit L1-Feedback wird nicht angezeigt
 
 ## Ein Problem
@@ -31,7 +32,7 @@ Dies kann aus folgenden Gründen passieren:
 1. Erinnerungen sind deaktiviert.
 1. Eine Erinnerung wird so geplant, dass sie nach einer bestimmten Zeit angezeigt wird.
 
-## Auflösung
+## Lösung
 
 1. Stellen Sie sicher, dass die Option &quot;Fragebogen sofort nach Kursabschluss anzeigen&quot; in **Kurs** > **Instanzen** > **L1-Feedback** aktiviert ist.
    <!--![](assets/l1-feedback.png)-->

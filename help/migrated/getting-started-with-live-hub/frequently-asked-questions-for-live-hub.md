@@ -1,13 +1,14 @@
 ---
 title: Häufig gestellte Fragen zum Live Hub (Beta)
 description: Häufig gestellte Fragen zum Live Hub in Adobe Learning Manager, geordnet nach Rollen für Administratoren, Autoren, Kursleiter und Teilnehmer.
-source-git-commit: 318e902efea08f9c728813ff5d43293f91b6d46d
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '4473'
 ht-degree: 0%
-
 ---
-
 
 # Häufig gestellte Fragen zum Live Hub (Beta)
 
@@ -103,7 +104,7 @@ Ja. Kursleiter können vor der geplanten Startzeit an der Sitzung teilnehmen, um
 
 +++Was kann ich vor Beginn einer Session einrichten?
 
-Vor Beginn der Sitzung können die Kursleiter den virtuellen Raum vorbereiten, indem sie die Berechtigungen der Teilnehmer konfigurieren, Umfragen und Tests erstellen, Arbeitsräume einrichten, Miro für die Zusammenarbeit verbinden und Referenzmaterialien zur Unterstützung KI-gestützter Fragen und Antworten während der Sitzung hochladen.
+Bevor die Sitzung beginnt, können die Kursleiter den virtuellen Raum vorbereiten, indem sie die Teilnehmerberechtigungen konfigurieren, Umfragen und Tests erstellen, Arbeitsräume einrichten, Miro für die Zusammenarbeit verbinden und Referenz-Materialien hochladen, um KI-gestützte Fragen und Antworten während der Sitzung zu unterstützen.
 
 +++
 
@@ -357,7 +358,7 @@ Ja. Kursleiter können eine aktive Arbeitsgruppensitzung verlängern, indem sie 
 
 +++Wie kann ich die Genauigkeit KI-generierter Antworten verbessern?
 
-Laden Sie vor Beginn der Session relevante Referenzmaterialien hoch, damit die KI präzisere und kontextabhängige Antworten generieren kann. Wählen Sie im Chat-Bedienfeld AI-Referenzen hochladen aus und laden Sie dann die Dateien hoch, die von der AI als Referenzinhalt verwendet werden sollen.
+Lade vor Beginn der Session die relevanten Referenz-Materials hoch, damit die KI passendere und kontextabhängige Antworten generieren kann. Wählen Sie im Chat-Bedienfeld AI-Referenzen hochladen aus und laden Sie dann die Dateien hoch, die von der AI als Referenzinhalt verwendet werden sollen.
 
 +++
 
@@ -379,9 +380,9 @@ Ja. KI-generierte Antworten sind editierbar. Sie können den Inhalt vor dem Send
 
 +++
 
-+++Warum sollte ich AI-Referenzmaterialien hochladen?
++++Warum sollte ich AI-Referenz-Materialien hochladen?
 
-Referenzmaterialien bieten zusätzlichen Kontext, in dem KI Antworten generieren kann, die für den Session-Content relevanter sind. Häufig gestellte Fragen müssen daher nicht mehr manuell beantwortet werden.
+Referenzthemen bieten zusätzlichen Kontext, in dem KI Antworten generieren kann, die für den Session-Content relevanter sind. Häufig gestellte Fragen müssen daher nicht mehr manuell beantwortet werden.
 
 +++
 
@@ -495,7 +496,7 @@ Im Teilnehmerfenster werden die registrierten Teilnehmer angezeigt. Es wird ange
 
 +++Kann ich alle Teilnehmer-Mikrofone gleichzeitig stummschalten?
 
-Ja. Im Teilnehmer-Bedienfeld können Sie Mikrofone für alle Teilnehmer stummschalten, um Hintergrundgeräusche zu reduzieren und den Fokus während der Sitzung beizubehalten.
+Ja. Im Teilnehmer-Bedienfeld können Sie Mikrofone für alle Teilnehmer stummschalten, um den Hintergrund-Rauschen zu reduzieren und den Fokus während der Sitzung beizubehalten.
 
 +++
 

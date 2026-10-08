@@ -4,13 +4,14 @@ title: Kalender kann nicht angezeigt werden
 description: Wenn ein Administrator versucht, das Ablaufdatum eines externen Registrierungsprofils zu bearbeiten, und auf den Kalender klickt, um das Ablaufdatum zu bearbeiten, wird der Kalender nicht angezeigt.
 contentowner: saghosh
 exl-id: 1b7e5594-714a-4a1d-9b8f-d481c1b48cb5
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 88%
-
+source-wordcount: '171'
+ht-degree: 95%
 ---
-
 # Kalender kann nicht angezeigt werden
 
 ## Problem
@@ -26,9 +27,9 @@ Wenn ein Administrator versucht, das Ablaufdatum eines externen Registrierungspr
 Das Problem tritt aus folgenden Gründen auf:
 
 * Der Zoomfaktor des Browsers beträgt mehr als 100 %.
-* Die Skalierung und das Layout in den Anzeigeeinstellungen beträgt mehr als 100 %.
+* Skalierung und Anordnung in den Anzeigeeinstellungen sind höher als 100 %.
 
-## Auflösung
+## Lösung
 
 ### Browser
 

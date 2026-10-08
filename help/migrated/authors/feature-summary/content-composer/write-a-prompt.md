@@ -2,13 +2,14 @@
 description: Wechseln Sie mithilfe des KI-gestützten Workflows von Content Composer von einer einfachen Eingabeaufforderung zu einem vollständig strukturierten, bearbeitbaren Kurs.
 jcr-language: en_us
 title: Schreiben Sie eine Eingabeaufforderung, um einen Kurs zu generieren
-source-git-commit: 6c4ec330683920213b179b48957d0ae2ad46efef
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 0%
-
 ---
-
 
 # Eingabeaufforderung schreiben
 

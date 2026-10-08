@@ -4,13 +4,14 @@ title: Anpassen der Teilnehmer-Startseite
 description: Ein Administrator kann die Startseite des Teilnehmers anpassen und sie moderner, inhaltsorientierter und für einen Teilnehmer personalisiert gestalten.
 contentowner: saghosh
 exl-id: 1551d240-fa07-4b7b-a06e-61b2bd3bff74
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1159'
 ht-degree: 63%
-
 ---
-
 # Anpassen der Teilnehmer-Startseite
 
 ## Übersicht {#overview}
@@ -157,7 +158,7 @@ Für vorhandene Konten ist die Option **Immersiv** **AUS**. Es wird für ein neu
    <td>
     <p>Empfohlen von der Organisation</p></td>
    <td>
-    <p>Wenn diese Option aktiviert ist, empfiehlt dieses Widget Schulungen für bestimmte Benutzergruppen. Jede Benutzergruppe kann auf eine oder mehrere Schulungen ausgerichtet werden, und der Zielplan würde auf einem Zeitrahmen basieren. <br></p>
+    <p>Wenn diese Option aktiviert ist, empfiehlt dieses Widget Schulungen für bestimmte Benutzergruppen. Jede Benutzergruppe kann auf eine oder mehrere Schulungen ausgerichtet werden, und der Zielplan würde auf einem zeitlichen Rahmen basieren. <br></p>
     <ul>
      <li>
       <p>Erstens erstellt der Administrator <a href="announcements.md#recommendation">eine Ankündigung</a> des Typs <b>Als Empfehlung</b>, wählt dann die erforderliche Schulung aus und verwendet Gruppen. Einem Teilnehmer, der zu einer Benutzergruppe gehört, wird die empfohlene Schulung angezeigt.</p></li>

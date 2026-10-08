@@ -4,13 +4,14 @@ title: Webhooks-Benutzerhandbuch
 description: Erfahren Sie mehr über Webhooks Nutzung, Best Practices und Einschränkungen
 contentowner: chandrum
 exl-id: e6a63ffb-7fdd-46e4-b5e6-20ce36861cef
-source-git-commit: 4c04757d78d599ca30e3cd26257a967d5b9e3fdc
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3421'
 ht-degree: 1%
-
 ---
-
 # Webhooks-Benutzerhandbuch
 
 Webhooks sind eine Möglichkeit für Web-Anwendungen, automatisch und in Echtzeit miteinander zu kommunizieren.
@@ -55,7 +56,7 @@ Dieses Ereignis wird nicht nur beim Erstellen, Aktualisieren oder Zurückziehen 
 
 Wenn eine Instanz gelöscht wird, wird das **LEARNING_OBJECT_INSTANCE_DELETION**-Ereignis generiert. Dieses Ereignis gilt nur für Kursinstanzen, die Module zum Selbststudium enthalten, da Administratoren in Adobe Learning Manager nur Kursinstanzen löschen können, bei denen der Modultyp zum Selbststudium dient. Adobe Learning Manager unterstützt keine expliziten Löschungen für andere Kursmodultypen, nicht für Lernpfadinstanzen oder Zertifizierungsinstanzen.
 
-Die Lernobjektinstanz verfügt auch über ein nicht-Echtzeit-Gegenstück, das als Teil des **LEARNING_OBJECT_INSTANCE_MODIFICATION_BATCH**-Ereignisses verfügbar gemacht wird. Dieses Ereignis wird während der Erstellung oder Änderung einer Lernobjektinstanz über den Migrationsarbeitsablauf ausgelöst. Da Entwurfs- oder Löschvorgänge für Lernobjektinstanzen bei der Migration nicht unterstützt werden, sind entsprechende Entwurfs- oder Löschvorgänge nicht verfügbar.
+Die Lernobjektinstanz verfügt auch über ein nicht in Echtzeit arbeitendes Gegenstück, das als Teil des **LEARNING_OBJECT_INSTANCE_MODIFICATION_BATCH**-Ereignisses gelegt wird. Dieses Ereignis wird während der Erstellung oder Änderung einer Lernobjektinstanz über den Migrationsarbeitsablauf ausgelöst. Da Entwurfs- oder Löschvorgänge für Lernobjektinstanzen bei der Migration nicht unterstützt werden, sind entsprechende Entwurfs- oder Löschvorgänge nicht verfügbar.
 
 ### Registrierung
 
@@ -188,11 +189,12 @@ Einer der Anwendungsfälle, von denen wir gehört haben, wo Webhooks nützlich s
 
 Die Frage lautet: Wie können Kunden eine Datenbank aufbauen, indem sie Ereignisse aus Webhooks verwenden?
 
-Da Adobe Learning Manager die Tabellendatensätze und das Schema nicht direkt verfügbar macht, können sich Kunden beim Erstellen einer externen Datenbank auf die Webhooks-Lösung verlassen, indem sie die Ereignisse zum Ausfüllen nutzen. In dieser Version stellen wir Ereignisse für Lernobjekte, Lernobjektinstanzen, Registrierung, Aufhebung der Registrierung, Abschluss, Fortschritt und Kursinstanzstatistiken bereit.
+Da Adobe Learning Manager die Tabellendatensätze und das Schema nicht direkt legt, können sich Kunden auf die Webhooks-Lösung verlassen, um eine externe Datenbank zu erstellen, indem sie die Ereignisse zum Ausfüllen nutzen. In dieser Version stellen wir Ereignisse für Lernobjekte, Lernobjektinstanzen, Registrierung, Aufhebung der Registrierung, Abschluss, Fortschritt und Kursinstanzstatistiken bereit.
 
 ### Erstellen einer Datenbank aus Lernobjektereignissen
 
-Die Lernobjektereignisse machen `loId` und `loType` verfügbar, um eine Entität zu identifizieren. Diese Attribute allein reichen jedoch nicht aus, um eine externe Lernobjektdatenbank zu erstellen. Kunden benötigen zusätzliche Felder, um das Lernobjekt weiter zu beschreiben.Es gibt zwei Ansätze, um die zusätzlichen Daten abzurufen:
+Die Lernobjektereignisse legte `loId` und `loType`, um eine Entität zu identifizieren. Diese Attribute allein reichen jedoch nicht aus, um eine externe Lernobjektdatenbank zu erstellen. Kunden benötigen zusätzliche Felder, um das Lernobjekt weiter zu beschreiben.
+Es gibt zwei Ansätze, um die zusätzlichen Daten abzurufen:
 
 #### Generieren Sie einen Bericht zu Schulungsdaten, um alle Daten abzurufen
 
@@ -222,9 +224,9 @@ Kunden können die oben erwähnte `GET /learningObjects`-API zusammen mit den en
 
 Die Registrierung, Aufhebung der Registrierung, der Abschluss und der Fortschritt von Teilnehmern werden in Adobe Learning Manager als separate Ereignisse ausgegeben. Der Teilnehmer wird durch das `userId`-Attribut identifiziert. Es kann jedoch bestimmte Szenarien geben, in denen zusätzliche Teilnehmerinformationen wie Name, E-Mail usw. für nachgelagerte Workflows auf der Kundenseite erforderlich sind. Um diese Daten abzurufen, können Kunden den unten beschriebenen Ansatz verwenden:
 
-#### Benutzerbericht von Administrator oder Connectors exportieren
+#### Benutzerbericht von Administrator oder Verbindungen exportieren
 
-Dieser Ansatz sollte immer dann verfolgt werden, wenn Massenarbeitsabläufe involviert sind, z. B. Massenregistrierung, Massenentregistrierung usw. Der Benutzerbericht aus Adobe Learning Manager enthält alle Informationen zu einem Benutzer. Durch Korrelieren der `userId`, die vom Webhook-Ereignis abgerufen wurde, können Kunden diesen Bericht nachschlagen (der auf Kundenseite als Datenbank, Cache oder API-Endpunkt verfügbar gemacht werden kann), um zusätzliche Details wie Name, E-Mail, UUID usw. abzurufen. Dieser Ansatz kann verwendet werden, um Benutzer wöchentlich oder täglich zu synchronisieren.
+Dieser Ansatz sollte immer dann verfolgt werden, wenn Massenarbeitsabläufe involviert sind, z. B. Massenregistrierung, Massenentregistrierung usw. Der Benutzerbericht aus Adobe Learning Manager enthält alle Informationen zu einem Benutzer. Durch Korrelieren der `userId`, die vom Webhook-Ereignis abgerufen wurde, können Kunden diesen Bericht nachschlagen (der auf Kundenseite als Datenbank-, Cache- oder API-Endpunkt gelegt werden kann), um zusätzliche Informationen wie Name, E-Mail, UUID usw. abzurufen. Dieser Ansatz kann verwendet werden, um Benutzer wöchentlich oder täglich zu synchronisieren.
 
 #### Abfragen von Informationen aus öffentlichen API-GET /users - Umfang des Administrators
 
@@ -238,7 +240,8 @@ Für ALM ist das Verbindungszeitlimit auf 10 Sekunden und das Socket-Zeitlimit a
 
 ### Datenaufbewahrung
 
-Die Veranstaltungen dauern 7 Tage. Wenn sie nicht innerhalb dieser Zeit verarbeitet werden, gehen sie dauerhaft verloren. Wenn die Wiederherstellung am letzten Tag erfolgt und mehr Zeit benötigt wird, verlängert das System die Aufbewahrungsfrist nicht.Wenn Ereignisse schneller erzeugt werden, als sie verbraucht werden, können einige Ereignisse verloren gehen. Obwohl dies ungewöhnlich ist, sollten die Abonnenten überwachen, um zu verhindern, dass es zu einem langfristigen Problem wird.
+Die Veranstaltungen dauern 7 Tage. Wenn sie nicht innerhalb dieser Zeit verarbeitet werden, gehen sie dauerhaft verloren. Wenn die Wiederherstellung am letzten Tag erfolgt und mehr Zeit benötigt wird, verlängert das System die Aufbewahrungsfrist nicht.
+Wenn Ereignisse schneller erzeugt werden, als sie verbraucht werden, können einige Ereignisse verloren gehen. Obwohl dies ungewöhnlich ist, sollten die Abonnenten überwachen, um zu verhindern, dass es zu einem langfristigen Problem wird.
 
 ### Webhooks deaktivieren
 
@@ -248,7 +251,7 @@ Der Wiederholungsprozess beginnt mit einem anfänglichen Intervall von 5 Sekunde
 
 ### Ereignisse duplizieren
 
-Wenn die Reaktionszeit eines Abonnenten nach der Verarbeitung eines Ereignisses mehr als 5 Sekunden beträgt, versucht das System möglicherweise erneut, dieses Ereignis zu verarbeiten. Es wird empfohlen, Ereignis-IDs zu verwenden, um den Überblick darüber zu behalten, welche Ereignisse bereits verarbeitet wurden. Wenn der Webhook nach dem Senden des Ereignisses abstürzt, aber bevor die Verarbeitung gespeichert wurde, kann dieselbe Gruppe von Ereignissen erneut versucht werden. Es wird empfohlen, Batch-IDs oder individuelle Ereignis-IDs zu verwenden, um Duplikate zu erkennen und zu ignorieren.
+Wenn die Reaktionszeit eines Abonnenten nach der Verarbeitung eines Ereignisses mehr als 5 Sekunden beträgt, versucht das System möglicherweise erneut, dieses Ereignis zu verarbeiten. Es wird empfohlen, Ereignis-IDs zu verwenden, um den Überblick darüber zu behalten, welche Ereignisse bereits verarbeitet wurden. Wenn der Webhook nach dem Senden des Ereignisses, aber vor dem Speichern, dass es verarbeitet wurde, Absturz, kann dieselbe Gruppe von Ereignissen erneut versucht werden. Es wird empfohlen, Batch-IDs oder individuelle Ereignis-IDs zu verwenden, um Duplikate zu erkennen und zu ignorieren.
 
 ### Empfehlung für Fehlertoleranz
 

@@ -3,13 +3,14 @@ description: Erfahren Sie mehr über die neuen Funktionen und Verbesserungen in 
 jcr-language: en_us
 title: Neue Funktionen in Adobe Learning Manager Version August 2026
 exl-id: da46f186-3ff3-422a-af49-31c7405fd584
-source-git-commit: 5820baa285787af20e7257001b4fb35337d5972a
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2644'
 ht-degree: 0%
-
 ---
-
 # Neue Funktionen in der Version August 2026 von Adobe Learning Manager
 
 ## Leistungsübersicht
@@ -90,7 +91,7 @@ Adobe Learning Manager enthält jetzt Content Composer, ein Werkzeug für die Er
 
 Wichtigste Merkmale:
 
-* Konversationale KI führt Autoren durch Schulungsziele, Quellmaterial und Lernziele und generiert so einen vollständigen Kursbrief und -umriss.
+* Konversationale KI führt Autoren durch Schulungsziele, Quell-Material und Lernziele und generiert so einen vollständigen Kursbrief und -umriss.
 * Die dokumentenbasierte Generierung beschränkt die AI-Ausgabe auf Ihre hochgeladenen Dateien, was für Compliance-, regulatorische und verfahrensbasierte Schulungen unerlässlich ist.
 * Vollständige Kursgenerierung in einem Durchgang, z. B. Lektionen, Themen, Text, Bilder, Wissensüberprüfungen und bewertete Tests.
 * Visuelles Design-System mit Hell- und Dunkelmodus, Schriftsteuerelementen, Unterstützung für Kopf- und Fußzeilen und JSON-Export für erweiterte Anpassung.
@@ -236,7 +237,7 @@ Erfahren Sie mehr über [API-Änderungen in der Version August 2026 von Adobe Le
 | **E-Mail-Generator: Unterstützung für Rich-Text-Editor** | E-Mail-Vorlagen in Adobe Learning Manager unterstützen jetzt Rich-Text-Formatierung, Anhänge und benutzerdefinierte Automatisierungen. Weitere Informationen zu [Email Builder](/help/migrated/administrators/feature-summary/email-builder.md). |
 | **E-Mail-Generator: Vorschaufunktion** | Sie können die E-Mail-Komposition überprüfen, um zu sehen, wie sie am Ende des Empfängers aussieht, indem Sie die Option Vorschau verwenden. Weitere Informationen zu [Email Builder](/help/migrated/administrators/feature-summary/email-builder.md). |
 | **Standardisierung des Webhook-Zeitstempels** | Für alle Datums- und Zeitfelder im `data`-Objekt der Webhook-Payloads sind jetzt Sekunden auf `00` festgelegt, sodass die Genauigkeit der Minutenebene mit den Teilnehmertranskriptberichten übereinstimmt. |
-| **Verbesserungen der Verbindung** | Connector-Updates für Azure Data Lake Storage (ADLS) Dauerhafte Raumnamenunterstützung für wiederkehrende virtuelle Klassenzimmersitzungen; Anwesenheitsverfolgung in der Aufnahmeansicht. |
+| **Verbesserungen der Verbindung** | Aktualisierungen der Azure Data Lake Storage (ADLS)-Verbindung Dauerhafte Raumnamenunterstützung für wiederkehrende virtuelle Klassenzimmersitzungen; Anwesenheitsverfolgung in der Aufnahmeansicht. |
 | **Verbesserungen der Player-Leistung** | Der Fluidic Course Player wurde für schnellere Ladezeiten und sanftere Übergänge zwischen den Modulen optimiert. |
 | **Auswirkungswarnung vor dem Aussetzen von Kursen/LPs** | Bevor ein Kurs oder Lernpfad eingestellt werden kann, wird dem Autor/Administrator eine Warnliste der abhängigen LOs angezeigt. Benachrichtigt den Autor, dass ein konstituierendes LO eingestellt wurde. Administratoren erhalten Informationen, wenn sie das LO erstellt haben, aber nicht über die Rolle &quot;Autor&quot; verfügen. |
 | **CR/VC-Modul: Erwartete Dauer** | Autoren können jetzt die erwartete Dauer für Klassenzimmer- und virtuelle Klassenzimmermodule separat von der geplanten Sitzungszeit festlegen. Dieser Wert wird in Berichten und Kursinformationen zu Teilnehmern angezeigt. |

@@ -3,13 +3,14 @@ jcr-language: en_us
 title: Wie Sie ein Support-Ticket in der Experience League einreichen
 description: Erfahren Sie, wie Sie eine Supportanfrage auf dem Experience League einreichen.
 exl-id: ff216f75-3441-4194-b254-0bf6c9fda518
-source-git-commit: aa9bf441507251c536cb6ee550fee0177e69cf6e
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '633'
 ht-degree: 0%
-
 ---
-
 # So senden Sie ein Support-Ticket auf dem Experience League
 
 Das Verfahren zum Einreichen von Adobe Learning Manager-Support-Tickets ist jetzt direkt in die Experience League-Support-Plattform integriert. Es handelt sich um ein Self-Service-Portal, das kürzlich umgestaltet wurde, um berechtigten Kunden mehr Personalisierung und Benutzerfreundlichkeit zu bieten. In diesem Leitfaden unten finden Sie weitere Informationen zum Zugriff auf das Experience League-Supportportal und zum Erstellen eines Tickets.

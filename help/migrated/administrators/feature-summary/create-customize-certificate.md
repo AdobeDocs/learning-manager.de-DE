@@ -3,13 +3,14 @@ title: Zertifikat erstellen und anpassen
 description: Mit benutzerdefinierten Zertifikaten in Adobe Learning Manager (ALM) können Administratoren und Autoren personalisierte Zertifikate für Teilnehmer entwerfen, verwalten und ausstellen.
 jcr-language: en-us
 exl-id: 99e20f00-9f8f-477f-9416-24636ed23b87
-source-git-commit: 126655e080fad8055e16c31a227c59747e2ddfcb
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2642'
 ht-degree: 0%
-
 ---
-
 # Benutzerdefinierte Zertifikate in Adobe Learning Manager
 
 ## Einführung
@@ -51,7 +52,7 @@ Ein Drag-and-Drop-Zertifikatdesigner bietet eine WYSIWYG-Arbeitsfläche, auf der
 - Hoch- oder Querformat (nach Erstellung fixiert).
 - Hintergründe in Volltonfarben oder Bilder mit anpassbarer Transparenz.
 - Bildergalerie mit vordefinierten Bildern und freigegebenen Hintergründen.
-- Zoomsteuerungen (50 %-150 %) und Raster- oder Ausrichtungsoptionen.
+- Zoomsteuerungen (50 %-150 %) und Raster- bzw. einrasten Ausrichtung.
 
 **Lokalisierung**
 
@@ -72,9 +73,9 @@ Auf der Listingseite **Zertifikatdesign** können Administratoren Zertifikatvorl
 - Kachelbasierter Katalog mit Registerkarten **Veröffentlicht** und **Entwurf**.
 - Suche nach Zertifikatstitel filtern nach **Ausrichtung**.
 - Aktionen für jedes Design:
-   - Duplizieren (für Varianten).
-   - Als Standard auf der Ebene **Konto**, **Kurs**, **Lernpfad** oder **Zertifizierung** festgelegt.
-   - Nicht mehr verwendete Vorlagen einstellen oder deaktivieren.
+  - Duplizieren (für Varianten).
+  - Als Standard auf der Ebene **Konto**, **Kurs**, **Lernpfad** oder **Zertifizierung** festgelegt.
+  - Nicht mehr verwendete Vorlagen einstellen oder deaktivieren.
 - Unterstützung für Drittanbieter-Vorlagen, die integriert und wiederverwendet werden können.
 
 ### Flexible Konfiguration und Vererbung
@@ -89,8 +90,8 @@ Administratoren können Zertifikate auf mehreren Ebenen konfigurieren:
 **Modifikationen auf Instanzebene**
 
 - Konfiguration auf Instanzebene für Kurse, Zertifizierungen und Lernpfade, einschließlich:
-   - Branding pro Kohorte (z. B. für unterschiedliche Regionen oder Partnerkonten).
-   - Verschiedene Zertifikatdesigns für wiederkehrende Zertifizierungszyklen.
+  - Branding pro Kohorte (z. B. für unterschiedliche Regionen oder Partnerkonten).
+  - Verschiedene Zertifikatdesigns für wiederkehrende Zertifizierungszyklen.
 
 **Zertifikatauflösung und Fallback**
 
@@ -109,11 +110,11 @@ Vorhandene HTML- oder ZIP-Zertifikatvorlagen bleiben erhalten, können jedoch im
 - Sie werden als nicht bearbeitbare Einträge angezeigt (keine WYSIWYG-Vorschau) und bleiben für die historische Verwendung gültig.
 - Wenn Abzeichen mit älteren Vorlagen verknüpft waren, werden bei der Migration Zertifikate weiterhin heruntergeladen. Wenn die Konfiguration nicht beibehalten werden kann, gelten die globalen Standardwerte.
 
-### PDF-Generierung und Vorbacken
+### PDF-Generierung und Pre-Baking
 
 So verbessern Sie die Laufzeitleistung und die Lernerfahrung der Teilnehmer:
 
-- Zertifikate werden zur Abschlusszeit (wenn das LO abgeschlossen ist) vorgebacken und dann zwischengespeichert, sodass die Teilnehmer sie schnell herunterladen können.
+- Zertifikate werden zur Abschlusszeit (wenn das LO abgeschlossen ist) vorab Baking geführt und dann zwischengespeichert, sodass die Teilnehmer sie schnell herunterladen können.
 - Vorhandene Teilnehmer-Flows für das Herunterladen von Zertifikaten über **Abzeichen** und **Erfolge** bleiben unverändert.
 
 ## Die Herausforderung
@@ -128,7 +129,8 @@ Heute hängt die Zertifikatverwaltung in Learning Manager von einem codeintensiv
 
 **Einschränkungen für Abzeichenverknüpfungen** Zertifikate sind eng mit **Abzeichen** verknüpft:
 
-- Ein Zertifikat muss mit einem Abzeichen verknüpft sein. es gibt keine reine Zertifikatausgabe.Diese Verknüpfung kann Design-Änderungen erschweren, wenn Administratoren Zertifikate ohne Gamification-Elemente benötigen.
+- Ein Zertifikat muss mit einem Abzeichen verknüpft sein. es gibt keine reine Zertifikatausgabe.
+Diese Verknüpfung kann Design-Änderungen erschweren, wenn Administratoren Zertifikate ohne Gamification-Elemente benötigen.
 
 **Nicht visuelles Authoring und Markeninkonsistenz**: HTML-basierte Zertifikate sind flexibel, erfordern jedoch Frontend-Kenntnisse, über die viele Administratoren nicht verfügen. Einige Kunden vertrauen auf generische Standardzertifikate, was die Markenkonsistenz schwächt.
 
@@ -168,7 +170,7 @@ Das Design behält den aktuellen Teilnehmerpfad bei: Zertifikate werden weiterhi
 
 ### Performance und Skalierbarkeit
 
-Vorkonfigurierte Zertifikate und JSON-gesteuerte Rendering-Zielleistung:
+Vorab Baking geführt Zertifikate und JSON-gesteuerte Rendering-Zielleistung:
 
 - Zertifikate werden nach der Fertigstellung generiert und gespeichert. Daher ist der Download praktisch ein statischer Abruf.
 - JSON-basierte Designs bleiben für den Editor und das Rendern zur Laufzeit in großem Umfang kompakt.
@@ -182,7 +184,7 @@ Vorkonfigurierte Zertifikate und JSON-gesteuerte Rendering-Zielleistung:
 - Verwenden Sie Standardvorlagen auf Kontoebene mit Hintergründen, die an jede Produktlinie angepasst sind.
 - Fügen Sie gebietsschemaspezifische Layouts für lokalisierte Zertifizierungstitel, Haftungsausschlüsse und Unterschriften hinzu.
 - Bei Premium-Partnern können Sie Basisvorlagen duplizieren und Partner-Co-Branding (Logo und rechtmäßiger Text) auf Instanzebene hinzufügen.
-- Mit vorkonfigurierten PDF können Partner Zertifikate direkt nach Abschluss der Partnerzertifizierungen herunterladen, ohne den Learning Manager zu belasten.
+- Mit vorab Baking geführt PDF können Partner Zertifikate direkt nach Abschluss der Partnerzertifizierungen herunterladen, ohne den Learning Manager zu belasten.
 
 Dieses Muster passt in Franchise- oder Multi-Brand-Ökosysteme, in denen Zertifikate den Wert der Marke und des Partners stärken (z. B. große Partnernetzwerke wie RealPage).
 
@@ -245,14 +247,17 @@ Unternehmen, die für mehrere Lernobjekte auf Zertifikate angewiesen sind, sollt
 ## Erstellen eines benutzerdefinierten Zertifikats
 
 1. Melden Sie sich bei Adobe Learning Manager als **Administrator** an.
-2. Wählen Sie im Abschnitt **Konfigurieren** die Option **Erfolge** aus. Die Seite **Abzeichen** wird geöffnet.   !&lbrack;Benutzerdefiniertes Zertifikat erstellen
+2. Wählen Sie im Abschnitt **Konfigurieren** die Option **Erfolge** aus. Die Seite **Abzeichen** wird geöffnet.
+   ![Benutzerdefiniertes Zertifikat erstellen](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate1.png)
    *Im linken Navigationsbereich zu &quot;Erfolge&quot; navigieren*
 
-3. Wählen Sie im linken Navigationsbereich **Zertifikate**. Die Seite **Zertifikate** wird geöffnet.   !&lbrack;Benutzerdefiniertes Zertifikat erstellen
+3. Wählen Sie im linken Navigationsbereich **Zertifikate**. Die Seite **Zertifikate** wird geöffnet.
+   ![Benutzerdefiniertes Zertifikat erstellen](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate2.png)
    *Die Zertifikatsseite*
 
 4. Wählen Sie im oberen rechten Bereich der Seite **Neues Zertifikat**. Das Dialogfeld **Neues Zertifikat erstellen** wird geöffnet.
-5. Wählen Sie je nachdem, wie das Zertifikat aussehen soll, die Option **Querformat** oder **Hochformat** aus. Nachdem Sie eine Ausrichtung ausgewählt haben, werden eine leere Vorlage und vorgefertigte Vorlagen für diese Ausrichtung angezeigt.   !&lbrack;Benutzerdefiniertes Zertifikat erstellen
+5. Wählen Sie je nachdem, wie das Zertifikat aussehen soll, die Option **Querformat** oder **Hochformat** aus. Nachdem Sie eine Ausrichtung ausgewählt haben, werden eine leere Vorlage und vorgefertigte Vorlagen für diese Ausrichtung angezeigt.
+   ![Benutzerdefiniertes Zertifikat erstellen](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate3.png)
    *Option &quot;Querformat&quot; oder &quot;Hochformat&quot;*
 
 6. Wählen Sie die leere Vorlage oder eine vorhandene Vorlage aus.
@@ -260,14 +265,15 @@ Unternehmen, die für mehrere Lernobjekte auf Zertifikate angewiesen sind, sollt
 8. Wählen Sie im Dropdownmenü eine Standardsprache aus.
 9. Wählen Sie **Erstellen** aus. Wenn Sie die leere Vorlage auswählen, wird eine leere Arbeitsfläche unter Ihrem Zertifikatnamen angezeigt.
 10. Elemente hinzufügen: **Text**, **Image**, **Dynamischer Wert** und **Zertifikathintergrund**.
-    !&lbrack;Benutzerdefiniertes Zertifikat erstellen
+    ![Benutzerdefiniertes Zertifikat erstellen](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate4.png)
     *Elemente zum Zertifikat hinzufügen*
 
 11. Fügen Sie für **Text** Inhalt unter **Vorformatierter Text** oder **Textvorlagen** hinzu, oder fügen Sie benutzerdefinierten Text hinzu. Der Text wird auf der Arbeitsfläche angezeigt. Wenn Text ausgewählt ist, werden Formatierungsoptionen über der Arbeitsfläche angezeigt. Um unerwünschte Inhalte zu entfernen, wählen Sie das Symbol **Löschen** in der oberen rechten Ecke der Arbeitsfläche aus.
 12. Um Bilder hinzuzufügen, wählen Sie **Bild** neben **Elemente hinzufügen**. Bilder von Ihrem Computer hochladen oder Bilder aus den Kategorielisten auswählen.
 13. Wählen Sie **Dynamischer Wert**, um grundlegende Details, Katalogbeschriftungen und aktive Felder hinzuzufügen.
 14. Wählen Sie **Zertifikatshintergrund** aus, um Farben oder Bilder anzuwenden.
-15. Wählen Sie **Vorschau**, um das Zertifikat vor der Veröffentlichung zu überprüfen. So können Sie das Aussehen des Zertifikats besser nachvollziehen.   !&lbrack;Benutzerdefiniertes Zertifikat erstellen
+15. Wählen Sie **Vorschau**, um das Zertifikat vor der Veröffentlichung zu überprüfen. So können Sie das Aussehen des Zertifikats besser nachvollziehen.
+    ![Benutzerdefiniertes Zertifikat erstellen](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/create-custom-certificate6.png)
     *Zertifikat in der Vorschau anzeigen*
 
 16. In der Vorschau können Sie Inhalte auf Google Drive speichern, herunterladen, drucken oder andere Optionen wie Anmerkungen oder Dokumenteigenschaften verwenden.
@@ -281,15 +287,15 @@ Nachdem Sie ein Zertifikat unter **Veröffentlicht** oder **Entwürfe** gespeich
 2. Wählen Sie im linken Navigationsbereich **Zertifikate**. Die Seite **Zertifikate** wird geöffnet.
 3. Wählen Sie die Registerkarte **Veröffentlicht** oder **Entwürfe** für das gewünschte Zertifikat aus.
 4. Öffnen Sie das Aktionsmenü (**...**) für das Zertifikat, und wählen Sie **Bearbeiten** aus.
-   !&lbrack;Zertifikat über das Aktionsmenü bearbeiten
+   ![Zertifikat über das Aktionsmenü bearbeiten](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/image_0001.png)
    *Option &quot;Bearbeiten&quot; im Dropdownmenü*
 
 5. Nimm deine Änderungen vor.
 6. Wählen Sie **Publish** oder **Als Entwurf speichern**.
 
-## Klonen eines benutzerdefinierten Zertifikats
+## Klon eines benutzerdefinierten Zertifikats
 
-Verwenden Sie **Clone**, wenn Sie eine Kopie eines Zertifikats für einen neuen Namen oder einen ähnlichen Anwendungsfall benötigen. Benennen Sie das Zertifikat nach dem Klonen so um, dass es einen eindeutigen Namen hat. ansonsten kann der Name mit der Quelle übereinstimmen, selbst wenn Sie das Design geändert haben.
+Verwenden Sie **Klon**, wenn Sie eine Zertifikatkopie für einen neuen Namen oder einen ähnlichen Anwendungsfall benötigen. Benennen Sie das Zertifikat nach dem Klonen so um, dass es einen eindeutigen Namen hat. ansonsten kann der Name mit der Quelle übereinstimmen, selbst wenn Sie das Design geändert haben.
 
 >[!NOTE]
 >
@@ -298,9 +304,9 @@ Verwenden Sie **Clone**, wenn Sie eine Kopie eines Zertifikats für einen neuen 
 1. Wählen Sie im Abschnitt **Konfigurieren** die Option **Erfolge** aus. Die Seite **Abzeichen** wird geöffnet.
 2. Wählen Sie im linken Navigationsbereich **Zertifikate**. Die Seite **Zertifikate** wird geöffnet.
 3. Wählen Sie die Registerkarte **Veröffentlicht** oder **Entwürfe** für das gewünschte Zertifikat aus.
-4. Öffnen Sie das Aktionsmenü (**...**) für das Zertifikat, und wählen Sie **Clone** aus.
-   !&lbrack;Zertifikat über das Aktionsmenü klonen
-   *Kopieroption im Dropdown-Menü*
+4. Öffnen Sie das Aktionsmenü (**...**) für das Zertifikat, und wählen Sie **Klon** aus.
+   ![Klon-Zertifikat über das Aktionsmenü](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/image_0002.png)
+   Option *Klon im Dropdownmenü*
 
 5. Nimm deine Änderungen vor.
 
@@ -317,11 +323,11 @@ Sie können ein Zertifikat umbenennen, ohne es zu klonen.
 3. Wählen Sie die Registerkarte **Veröffentlicht** oder **Entwürfe** für das gewünschte Zertifikat aus.
 
 4. Öffnen Sie das Aktionsmenü (**...**) für das Zertifikat, und wählen Sie **Umbenennen** aus.
-   !&lbrack;Zertifikat über das Aktionsmenü umbenennen
+   ![Zertifikat über das Aktionsmenü umbenennen](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/image_0003.png)
    Option *Umbenennen im Dropdown-Menü*
 
 5. Geben Sie im Dialogfeld &quot;**Zertifikat umbenennen**&quot; den neuen Namen ein.
-   !&lbrack;Dialogfeld &quot;Zertifikat umbenennen&quot;
+   ![Dialogfeld &quot;Zertifikat umbenennen&quot;](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/image_0004.png)
    *Geben Sie einen neuen Namen ein*
 
 6. Wählen Sie **Speichern**. Learning Manager zeigt eine Bestätigungsmeldung an.
@@ -337,9 +343,10 @@ Das Löschen eines Zertifikats kann nicht rückgängig gemacht werden. Fahren Si
 1. Wählen Sie im Abschnitt **Konfigurieren** die Option **Erfolge** aus. Die Seite **Abzeichen** wird geöffnet.
 2. Wählen Sie im linken Navigationsbereich **Zertifikate**. Die Seite **Zertifikate** wird geöffnet.
 3. Wählen Sie die Registerkarte **Veröffentlicht** oder **Entwürfe** für das gewünschte Zertifikat aus.
-4. Öffnen Sie das Aktionsmenü (**...**) für das Zertifikat, und wählen Sie **Löschen** aus. Adobe Learning Manager zeigt eine Bestätigungsmeldung an.   !&lbrack;Zertifikat aus dem Aktionsmenü löschen
-   Option *Löschen im Dropdown-Menü
-   !&lbrack;Zertifikatbestätigung löschen
+4. Öffnen Sie das Aktionsmenü (**...**) für das Zertifikat, und wählen Sie **Löschen** aus. Adobe Learning Manager zeigt eine Bestätigungsmeldung an.
+   ![Zertifikat aus dem Aktionsmenü löschen](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/image_0005.png)
+   Option *Löschen im Dropdown-Menü*
+   ![Zertifikatbestätigung löschen](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/image_0006.png)
    *Bestätigungsmeldung*
 
 5. Wählen Sie **Ja** aus. Wenn das Zertifikat nicht an ein Lernobjekt oder eine Instanz angehängt ist, schließt der Lern-Manager den Löschvorgang ab und zeigt möglicherweise eine weitere Bestätigung an.
@@ -360,5 +367,6 @@ Sie können ein Zertifikat als Standard für Folgendes festlegen:
 2. Wählen Sie im linken Navigationsbereich **Zertifikate**. Die Seite **Zertifikate** wird geöffnet.
 3. Wählen Sie die Registerkarte **Veröffentlicht** oder **Entwürfe** für das gewünschte Zertifikat aus.
 4. Öffnen Sie das Aktionsmenü (**...**) für das Zertifikat, wählen Sie **Als Standard festlegen** und wählen Sie dann eine der vier Optionen aus. Learning Manager zeigt eine Bestätigungsmeldung an.
-5. Wählen Sie **Ja** aus. Learning Manager zeigt eine weitere Bestätigung an. Das Zertifikat zeigt eine **Standard für**-Beschriftung mit der von Ihnen ausgewählten Kategorie an (z. B. **Standard für Schulungen**).   !&lbrack;Standard für Kategoriebezeichnung auf Zertifikat
+5. Wählen Sie **Ja** aus. Learning Manager zeigt eine weitere Bestätigung an. Das Zertifikat zeigt eine **Standard für**-Beschriftung mit der von Ihnen ausgewählten Kategorie an (z. B. **Standard für Schulungen**).
+   ![Standard für Kategoriebezeichnung auf Zertifikat](/help/migrated/administrators/feature-summary/assets/custom-cert-alm_images/image_0008.png)
    *Nachdem es zum Standardzertifikat wurde*

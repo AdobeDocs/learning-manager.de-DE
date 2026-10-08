@@ -3,13 +3,14 @@ description: Erfahren Sie mehr über die neuen Funktionen und Verbesserungen in 
 jcr-language: en_us
 title: Überblick über die neuen Funktionen November 2024
 exl-id: 4dfe0e31-d202-4a6e-8c4f-43851218699f
-source-git-commit: e9a12b732e5c23aaafc174e3a3887a619c4d1b07
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3307'
 ht-degree: 1%
-
 ---
-
 # Überblick über die neuen Funktionen November 2024 {#new-features-summary}
 
 Erfahren Sie mehr über die neuen Funktionen und Verbesserungen in der Version November 2024 von Adobe Learning Manager.
@@ -77,7 +78,7 @@ Credly ist eine digitale Anmeldeplattform, mit der Teilnehmer und Organisationen
 
 ### Credly Integration mit Adobe Learning Manager
 
-Fügen Sie zunächst den Credly Connector in Adobe Learning Manager (ALM) hinzu. Als Nächstes migrieren Sie die vorhandenen Abzeichen von Credly, um die Kontinuität der Lernerfolge zu gewährleisten. Erstellen Sie zum Schluss Kenntnisse in Adobe Learning Manager, um den entsprechenden Lernpfad zu verwenden und so die Entwicklung und den Wiedererkennungswert der Teilnehmer zu verbessern.
+Fügen Sie zunächst die Credly-Verbindung in Adobe Learning Manager (ALM) hinzu. Als Nächstes migrieren Sie die vorhandenen Abzeichen von Credly, um die Kontinuität der Lernerfolge zu gewährleisten. Erstellen Sie zum Schluss Kenntnisse in Adobe Learning Manager, um den entsprechenden Lernpfad zu verwenden und so die Entwicklung und den Wiedererkennungswert der Teilnehmer zu verbessern.
 
 Weitere Informationen finden Sie in diesem Artikel [Credly](/help/migrated/integration-admin/feature-summary/credly-integration.md)
 
@@ -268,7 +269,7 @@ Die folgenden Bedingungen gelten für die Spalte &quot;`completionCriteria`&quot
 
 * Der Datentyp sollte entweder eine Zeichenfolge oder eine Zahl sein, und es handelt sich um ein optionales Feld.
 * Die Werte müssen `ALL`, `X` und `SELECTEDMODULES` sein.
-* X ist ein ganzzahliger Wert, der größer als 0 und kleiner als die Gesamtzahl der Module sein sollte.
+* X ist eine Ganzzahl, die größer als 0 und kleiner als die Gesamtzahl der Module sein sollte.
 * Wenn Sie `completionCriteria` auf `SELECTEDMODULES` festlegen, müssen Sie die obligatorischen Module in der Datei [course_module.csv](assets/course_module.csv) markieren.
 * Geben Sie in der Spalte &quot;`optionalCriteria`&quot; &quot;`TRUE`&quot; oder &quot;`FALSE`&quot; ein. Wenn Sie den Wert &quot;`TRUE`&quot; festlegen, ist das Modul obligatorisch.
 
@@ -527,8 +528,8 @@ Administratoren können diese Berichtsänderungen im Abschnitt **Admin** > **Ber
 
 Der Bericht **[!UICONTROL Teilnehmertranskripte]** enthält zwei neue Spalten:
 
-* **[!UICONTROL Modul-ID]**: Zeigt die eindeutige Kennung für jedes Modul an. Diese neue Spalte wurde nach der vorhandenen Spalte **[!UICONTROL Module]** hinzugefügt.
-* **[!UICONTROL Kursinstanzkennung]**: Zeigt die eindeutige Kennung für jede Kursinstanz an.Diese neue Spalte wurde nach der vorhandenen **[!UICONTROL Instanz]**-Spalte hinzugefügt.
+* **[!UICONTROL Modul-ID]**: Zeigt die eindeutige Identifizierung für jedes Modul an. Diese neue Spalte wurde nach der vorhandenen Spalte **[!UICONTROL Module]** hinzugefügt.
+* **[!UICONTROL Kursinstanzkennung]**: Zeigt die eindeutige Identifizierung für jede Kursinstanz an.Diese neue Spalte wurde nach der vorhandenen **[!UICONTROL Instanz]**-Spalte hinzugefügt.
 * **[!UICONTROL Abschlusskommentar]**: In dieser Spalte werden die Kommentare erfasst, die der Administrator beim Markieren des Benutzerabschlusses eingegeben hat. Diese neue Spalte wurde am Ende des Berichts hinzugefügt.
 
 
@@ -551,9 +552,9 @@ Der Bericht **[!UICONTROL Sitzungsübersicht]** enthält drei neue Spalten:
 * Es wurde ein Problem behoben, durch das Organisatoren keine E-Mail-Benachrichtigungen erhielten, wenn eine Sitzung aus dem Kurs gelöscht wurde.
 * Es wurde ein Problem behoben, durch das Organisatoren keine E-Mails zum Abbruch der Sitzung erhielten, wenn ein Modul aus dem Kurs entfernt und erneut veröffentlicht wurde.
 * Es wurde Unterstützung für die Aufnahme von Sonderzeichen &quot;+&quot; und &quot;-&quot; in E-Mail-Adressen während der Erstellung durch externe Benutzer hinzugefügt.
-* Es wurde ein Problem behoben, durch das die Synchronisierung des einheitlichen Berichts des Marketo-Connectors fehlschlug, wenn der Bericht zu Benutzerkenntnissen doppelte Anführungszeichen im CSV-Datensatzwert enthielt.
+* Es wurde ein Problem behoben, durch das die Synchronisierung des vereinheitlichten Berichts der Marketo-Verbindung fehlschlug, wenn der Bericht zu Benutzerkenntnissen doppelte Anführungszeichen im CSV-Datensatzwert enthielt.
 * Es wurde ein Problem behoben, durch das der Endpunkt &quot;`/skills`&quot; den richtigen Status für die Admin-API zurückgab, die Teilnehmer-API jedoch durchgehend falsche oder zwischengespeicherte Daten anzeigt.
-* Es wurde ein Problem mit dem Go1-Onboarding für Freemium-Kurse behoben, das fehlschlug, wenn der Go1-Connector im Konto nicht eingerichtet war.
+* Es wurde ein Problem mit dem Go1-Onboarding für Freemium-Kurse behoben, das fehlschlug, wenn die Go1-Verbindung im Konto nicht eingerichtet war.
 * Es wurde ein Problem behoben, durch das Kurse im Lernpfad (LP) nicht über die Migration zugänglich waren, wenn der Teilnehmer das LP bereits abgeschlossen hatte.
 * Es wurde ein Problem behoben, durch das die inkrementelle Benutzer-CSV fehlschlug, wenn sowohl der Manager des Benutzers als auch der Manager auf Übersprungebene als SU (Super User) anstatt als Administrator festgelegt wurden und nicht in der CSV enthalten waren.
 * Die Bereichsprobleme für Store Manager in Dashboard-Berichten wurden behoben.

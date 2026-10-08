@@ -1,13 +1,14 @@
 ---
 title: Komponenten des Sitzungs-Dashboards im Live-Hub
 description: Erfahren Sie mehr über die Abschnitte zum Session-Dashboard in Live Hub, einschließlich Übersichten, Aufzeichnungen, Interaktionen, Breakouts, Teilnehmeraktivität und Berichten.
-source-git-commit: ca4b34807ed6ede51e3445c2345a4430dea1e3d7
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1158'
 ht-degree: 0%
-
 ---
-
 
 # Komponenten des Sitzungs-Dashboards
 
@@ -160,7 +161,7 @@ Sehen Sie sich die folgenden Attribute der Fragen-und-Antworten-Metriken an:
 
 Teilnehmerreaktionen während der Sitzung anzeigen, einschließlich Zustimmung, Meinungsverschiedenheiten, Applaus und Gelächter.
 
-Sehen Sie sich die folgenden Details im Diagramm an:
+Zeigen Sie die folgenden Details zum Graf an:
 
 * Reaktionen insgesamt.
 
@@ -195,7 +196,7 @@ In der Tabelle werden die folgenden Informationen für die Teilnehmeraktivität 
 
 * **Sprecherzeit**: Dauer, während der der Teilnehmer während der Sitzung gesprochen hat.
 
-* **Kamerazeit**: Dauer, für die die Kamera des Teilnehmers aktiv war.
+* **Kamera**: Dauer, für die die Kamera des Teilnehmers aktiv war.
 
 * **Fragen gestellt**: Anzahl der vom Teilnehmer gestellten Fragen.
 

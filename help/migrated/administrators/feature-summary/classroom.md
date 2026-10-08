@@ -1,19 +1,20 @@
 ---
 title: Standorte für Klassenzimmer hinzufügen
 description: Hier erfahren Sie, wie Administratoren Einstellungen konfigurieren und Standorte für Klassenzimmer in Adobe Learning Manager hinzufügen, migrieren, bearbeiten und löschen und wie Sie Standorte für Klassenzimmer hinzufügen.
-source-git-commit: 6f2b9abf305665fe0b66007411455bd2210ee248
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '1641'
-ht-degree: 3%
-
+source-wordcount: '1740'
+ht-degree: 5%
 ---
-
 
 # Standorte für Klassenzimmer hinzufügen
 
 Administratoren können eine Bibliothek mit Speicherorten für Klassenzimmer erstellen und verwalten, die beim Einrichten von Schulungsveranstaltungen mit Kursleiter im Modul &quot;Klassenzimmer&quot; und &quot;Virtuelle Klassenzimmer&quot; wiederverwendet werden kann. Für jeden Speicherort können Sie Details wie den Positionsnamen, die Sitzplatzbeschränkung und zusätzliche Informationen, einschließlich einer Standort-URL, definieren. Autoren können diese vordefinierten Speicherorte dann auswählen, wenn sie einen Kurs erstellen.
 
-Standardmäßig verwendet Adobe Learning Manager ein Speicherortformat für ein einzelnes Feld. Für Organisationen, die Standorte für Klassenzimmer in mehreren Ländern und Sprachen verwalten, unterstützt Learning Manager auch ein strukturiertes Vierfeldformat, das **Land**, **Land/Provinz/Region**, **Stadt** und **Standortname** enthält. Dieses Format bietet zusätzliche Funktionen wie standortbasierte Filterung und Sprachunterstützung für einzelne Standorte. Administratoren können durch eine einmalige Migration zum Format mit vier Feldern wechseln.
+Standardmäßig verwendet Adobe Learning Manager ein Speicherortformat für ein einzelnes Feld. Für Organisationen, die Standorte für Klassenzimmer in mehreren Ländern und Sprachen verwalten, unterstützt Learning Manager auch ein strukturiertes Vierfeldformat, das **Land**, **Land/Provinz/Region**, **Stadt** und **Standortname** enthält. Dieses Format bietet zusätzliche Funktionen wie standortbasierte Filterungen und Sprachunterstützung für einzelne Standorte. Administratoren können durch eine einmalige Migration zum Format mit vier Feldern wechseln.
 
 >[!NOTE]
 >
@@ -67,8 +68,8 @@ Sie können einen Speicherort für ein Klassenzimmer hinzufügen, indem Sie das 
    1. Geben Sie die Positionsbeschreibung in das Feld **Standortinformationen** ein. Dieses Feld ist optional.
    1. Geben Sie die **URL des Standorts** an. Die Teilnehmer können diese Informationen in den Details des Klassenzimmers sehen. Bei Bedarf kann die URL auch eine URL für den Kartenstandort sein. Dies ist ein optionales Feld.
    1. Geben Sie den Standort **Region** ein, und wählen Sie ihn aus. Dieses Feld ist optional.
-   1. Geben Sie die Anzahl der verfügbaren Lizenzen in das Feld **Sitzplatzbeschränkung** ein. Dies gibt die Sitzplatzkapazität des Klassenzimmers an. Dieser Wert kann beim Erstellen des tatsächlichen Schulungsereignisses mit Kursleiter geändert werden.
-      ![Hinzufügen eines Klassenzimmerspeicherorts mithilfe des Formats für ein einzelnes Feld](assets/add-classroom-location-single-field-format.jpeg)
+   1. Geben Sie die Anzahl der verfügbaren Lizenzen in das Feld **Sitzplatzlimit** ein. Dies gibt die Sitzplatzkapazität des Klassenzimmers an. Dieser Wert kann beim Erstellen des tatsächlichen Schulungsereignisses mit dem Kursleiter geändert werden.
+      ![Hinzufügen eines Klassenzimmerspeicherorts mithilfe des Einzelfeldformats](assets/add-classroom-location-single-field-format.jpeg)
       *Fügen Sie einen Speicherort für das Klassenzimmer mithilfe des Formats für ein einzelnes Feld hinzu.*
 
 ### Migrieren von Speicherorten für Klassenzimmer in das Vierfeldformat
@@ -84,8 +85,8 @@ So migrieren Sie vorhandene Speicherorte:
 
    Eine CSV-Datei mit Ihren vorhandenen Speicherorten in Klassenzimmern wird heruntergeladen. Die folgenden Spalten sind verfügbar:
 
-   1. **Raum-ID**: Eindeutiger Bezeichner für den Speicherort.
-   1. **Gebietsschema**: Gebietsschema für den übersetzten Standortnamen und die Standortinformationen.
+   1. **Raum-ID**: Eindeutige Identifizierung für den Speicherort.
+   1. **Gebietsschema**: Gebietsschema für den Kamera bewogen Standortnamen und die Standortinformationen.
    1. **Name**: Name des Klassenzimmers.
    1. **Land**: Land, in dem sich das Klassenzimmer befindet.
    1. **Status**: Bundesland, Bundesland oder Region, in dem bzw. in der sich das Klassenzimmer befindet
@@ -164,8 +165,8 @@ So importieren Sie mehrere Klassenzimmerspeicherorte gleichzeitig:
 
    Eine CSV-Datei mit Ihren vorhandenen Klassenzimmerspeicherorten wird heruntergeladen. Die folgenden Spalten sind verfügbar:
 
-   1. **Raum-ID**: Eindeutiger Bezeichner für den Speicherort.
-   1. **Gebietsschema**: Gebietsschema für den übersetzten Standortnamen und die Standortinformationen.
+   1. **Raum-ID**: Eindeutige Identifizierung für den Speicherort.
+   1. **Gebietsschema**: Gebietsschema für den Kamera bewogen Standortnamen und die Standortinformationen.
    1. **Name**: Name des Klassenzimmers.
    1. **Land**: Land, in dem sich das Klassenzimmer befindet.
    1. **Status**: Bundesland, Bundesland oder Region, in dem bzw. in der sich das Klassenzimmer befindet
@@ -213,7 +214,7 @@ So fügen Sie Übersetzungen für einen Speicherort für ein Klassenzimmer hinzu
 
 >[!NOTE]
 >
->Übersetzungen werden nur von den Feldern &quot;**Location Name**&quot; und &quot;**Location Information**&quot; unterstützt. Standortdetails wie **Land**, **Land/Provinz/Region** und **Stadt** werden nicht übersetzt.
+>Übersetzungen werden nur von den Feldern &quot;**Location Name**&quot; und &quot;**Location Information**&quot; unterstützt. Standortdetails wie **Land**, **Land/Provinz/Region** und **Stadt** werden nicht Kamera bewogen.
 
 ## Bearbeiten eines Klassenzimmerspeicherorts
 
@@ -250,18 +251,18 @@ Um einen Speicherort für ein Klassenzimmer zu löschen, führen Sie die folgend
 
 ## Häufige Fragen
 
-1. **Was passiert mit vorhandenen Standorten für Klassenzimmer nach Abschluss der Migration?**<br>
+1. **Was passiert mit vorhandenen Standorten für Klassenzimmer, nachdem die Migration abgeschlossen ist?**<br>
 Sie können das Format für Speicherorte mit vier Feldern nur aktivieren, nachdem alle vorhandenen Speicherorte manuell oder über einen CSV-Upload migriert wurden. Sobald das Format mit vier Feldern aktiviert ist, werden in allen vorhandenen Kursen, die Speicherorte für Klassenzimmer verwenden, Speicherorte im neuen Format angezeigt.
 
-1. **Muss ich die exportierte CSV-Datei manuell so umstrukturieren, dass sie dem vier Felder umfassenden Speicherortformat entspricht?**<br>
-Nein. Die exportierte CSV-Datei verwendet immer das Speicherortformat mit vier Feldern, unabhängig davon, ob es derzeit aktiviert ist. Sie müssen nur fehlende Werte aktualisieren, bevor Sie die Datei importieren.
+1. **Muss ich die exportierte CSV-Datei manuell neu strukturieren, damit sie dem Speicherortformat mit vier Feldern entspricht?**<br>
+Anzahl Die exportierte CSV-Datei verwendet immer das Speicherortformat mit vier Feldern, unabhängig davon, ob es derzeit aktiviert ist. Sie müssen nur fehlende Werte aktualisieren, bevor Sie die Datei importieren.
 
-1. **Wirkt sich die Migration auf Adobe Learning Manager-Berichte aus?**<br>
+1. **Hat die Migration Auswirkungen auf Adobe Learning Manager-Berichte?**<br>
 Ja. Nach der Migration werden in Berichten, die Informationen zum Speicherort des Klassenzimmers enthalten, Speicherorte im folgenden Format angezeigt:
 
    **Land > Bundesland/Provinz/Region > Stadt > Ortsname**
 
    Dieses Format ersetzt den vorherigen Positionswert für ein einzelnes Feld.
 
-1. **Was passiert, wenn ich das Speicherortformat für vier Felder nicht aktiviere?**<br>
+1. **Was passiert, wenn ich das Vier-Felder-Speicherortformat nicht aktiviere?**<br>
 Für Autoren oder Teilnehmer ändert sich nichts. Die Speicherorte für Klassenzimmer werden weiterhin wie gewohnt angezeigt und funktionieren unter Verwendung des vorhandenen Einzelfeldformats so lange, bis ein Administrator die Migration abschließt und das Vierfeldformat aktiviert.

@@ -3,13 +3,14 @@ jcr-language: en_us
 title: xAPI im Learning Manager
 description: Die Experience API (xAPI) ist eine E-Learning-Softwarespezifikation, die es ermöglicht, dass Lerninhalte und Lernsysteme so miteinander kommunizieren, dass alle Arten von Lernerfahrungen aufgezeichnet und verfolgt werden.
 exl-id: 8e36b538-a451-448e-a65d-08d286adcfdb
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '779'
 ht-degree: 78%
-
 ---
-
 # xAPI in Learning Manager
 
 ## Was ist xAPI? {#whatisxapi}
@@ -85,7 +86,7 @@ Als Autor können Sie nun ein xAPI-Modul auswählen, während Sie Kurse zur Übe
 
 **Zu beachtende Punkte:**
 
-* Learning Manager unterstützt derzeit nur „mbox“ als Bezeichner. Andere Bezeichner wie mboz_sha1, openid, account werden nicht unterstützt.
+* Learning Manager unterstützt derzeit nur „mbox“ als Bezeichner. Andere Identifizierungen wie mboz_sha1, openid, account werden nicht unterstützt.
 
 * stateId und profileId sind UUIDs, wenn sie mit Learning Manager verwendet werden.
 * Die PUT-Anforderung überschreibt das Dokument nicht für xAPIs-Agenten/Profile, Aktivitäten/Profile und Aktivitäten/Status.
@@ -100,7 +101,7 @@ xAPI-Berichte können als Excel-Berichte generiert werden. Öffnen Sie als Admin
 
 Der heruntergeladene Bericht ruft alle Informationen ab, die vom Teilnehmer und vom Administrator für eine Anweisung veröffentlicht wurden.
 
-Dieselben Berichte können über FTP- und Box-Connectors für jede Integration von Drittanbietern erstellt/geplant werden. Führen Sie die folgenden Schritte aus:
+Dieselben Berichte können über FTP- und Box-Verbindungen für jede Integration von Drittanbietern erstellt/geplant werden. Führen Sie die folgenden Schritte aus:
 
 Melden Sie sich als Integrationsadministrator an > Öffnen Sie den FTP/Box-Connector > Wählen Sie im linken Bereich den Bericht „xAPI-Aktivität“. > Wählen Sie, einen Bericht zu planen/zu generieren.
 

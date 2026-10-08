@@ -2,13 +2,14 @@
 description: Erfahren Sie, wie Sie ein benutzerdefiniertes Kursthema in Content Composer erstellen, entweder von Grund auf mit der Option "Erstellen" oder indem Sie ein vorhandenes Thema als JSON exportieren, seine Eigenschaften bearbeiten und es dann wieder importieren.
 jcr-language: en_us
 title: Design erstellen
-source-git-commit: f8687710f5b73e8b7cf8d56057cac25483f38cdc
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 0%
-
 ---
-
 
 # Design erstellen
 
@@ -16,7 +17,7 @@ Es gibt zwei Möglichkeiten, ein benutzerdefiniertes Design zu erstellen, wobei 
 
 - **Mit der Option** Erstellen **in der Symbolleiste von Grund auf neu erstellen** - Konfigurieren Sie die Farbpalette, die Schriften und andere Eigenschaften und **Speichern als neu**.
 
-- **Eine benutzerdefinierte JSON-Datei importieren** - Exportieren Sie ein vorhandenes Design als JSON, bearbeiten Sie es in einem Text- oder Code-Editor und importieren Sie es dann wieder in den Editor.
+- **Eine benutzerdefinierte JSON-Datei importieren**: Exportieren Sie ein bestehendes Design als JSON, bearbeiten Sie es in einem Text- oder Code-Editor, und importieren Sie es dann wieder.
 
 **Sie benötigen mehr Kontrolle?**
 
@@ -39,12 +40,12 @@ Informationen zur Typografie pro Element (Lektionsnamen, Themennamen, Blocküber
 
 2. Bewegen Sie den Mauszeiger über das Design, das Sie als Basis verwenden möchten, und wählen Sie **Exportieren** aus, um es als JSON-Datei herunterzuladen.
 
-3. Öffnen Sie die JSON-Datei in einem Text- oder Code-Editor und aktualisieren Sie ihre Eigenschaften, z. B. Radius, Abstand, Farbpalette oder Schriftarten.
+3. Öffnen Sie die JSON-Datei in einem Text- oder Code-Editor und aktualisieren Sie die Eigenschaften, z. B. Radius, Abstand, Farbpalette oder Schriftarten.
 
 4. Speichern Sie die JSON-Datei.
 
 5. Wählen Sie im Inhaltskomposer im Bereich **Kursthemen** die Option **Importieren**.
 
-6. Wählen Sie die aktualisierte JSON-Datei von Ihrem Computer aus.
+6. Wählen Sie die aktualisierte JSON-Datei auf Ihrem Computer aus.
 
 7. Wählen Sie **Als neu speichern** aus, um das Design zur Liste der **benutzerdefinierten** Designs hinzuzufügen.

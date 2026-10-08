@@ -2,13 +2,14 @@
 title: Oberfläche für nicht angemeldete Teilnehmer
 description: Das native Adobe Learning Manager-Portal unterstützt einen nicht protokollierten Zugriff auf die Schulungswebsite. Wenn dieser Modus aktiviert ist, können Teilnehmer die Schulungswebsite entdecken und darauf zugreifen und verschiedene verfügbare Kurse und Inhalte auschecken. Auf der Oberfläche ohne Anmeldung können Teilnehmer Kurse durchsuchen, ohne bei einem Portal angemeldet zu sein.
 exl-id: 12260cca-d2d2-4e7c-991d-9b09690d4c0a
-source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '650'
 ht-degree: 38%
-
 ---
-
 # Oberfläche für nicht angemeldete Teilnehmer
 
 Das native Adobe Learning Manager-Portal unterstützt einen nicht protokollierten Zugriff auf die Schulungswebsite. Wenn dieser Modus aktiviert ist, können Teilnehmer die Schulungswebsite entdecken und darauf zugreifen und verschiedene verfügbare Kurse und Inhalte auschecken.
@@ -17,7 +18,7 @@ Auf der Oberfläche ohne Anmeldung können Teilnehmer Kurse durchsuchen, ohne be
 
 Damit die Startseite ohne Anmeldung aktiviert wird, muss der Integrationsadministrator die Option [Schulungsdaten-Connector](/help/migrated/integration-admin/feature-summary/connectors.md#training-data-access) aktivieren und konfigurieren.
 
-Die Schulung kann dann aus dem Connector exportiert werden.
+Die Schulung kann dann aus der Verbindung exportiert werden.
 
 >[!NOTE]
 >

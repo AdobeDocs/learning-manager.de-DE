@@ -4,13 +4,14 @@ title: Webhooks
 description: Erfahren Sie mehr über Webhooks zum Senden von Echtzeitinformationen wie Kursanmeldungen, Kurserstellung und andere Informationen an eine bestimmte URL
 contentowner: chandrum
 exl-id: 472aaf2b-9c2f-4f43-a791-2b2d81e69471
-source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '1651'
+source-wordcount: '1648'
 ht-degree: 0%
-
 ---
-
 # Webhooks
 
 ## Einführung
@@ -287,7 +288,7 @@ Sie können die folgenden Webhook-Ereignisse verwenden, um:
 
 **Downstream-Workflows auslösen**, z. B. Neuzuweisungen, Benachrichtigungen oder Neuberechnung von Zertifizierungen und Abzeichen.
 
-**Audit-Protokolle verwalten** durch Protokollierung von eventId, timestamp und eventInfo zusammen mit den Kennungen für Teilnehmer und Lernpfad.
+**Audit-Protokolle verwalten** durch Protokollierung von eventId, timestamp und eventInfo zusammen mit den Identifizierungen für Teilnehmer und Lernpfad.
 
 Ihr Webhook-Handler sollte mindestens:
 
@@ -331,7 +332,7 @@ Zwei neue Webhook-Ereignistypen tragen den endgültigen Status:
 
 * `accountId` identifiziert das ALM-Konto.
 * `events` ist ein Array von Ereignisobjekten.
-* `eventId` stimmt mit der ursprünglichen asynchronen Anforderungskennung überein.
+* `eventId` entspricht der ursprünglichen Identifizierung der asynchronen Anforderung.
 * `eventName` zeigt einen Vorgang zum Hinzufügen oder Entfernen an.
 * `timestamp` zeigt die Abschlusszeit an.
 * `data.status` meldet derzeit &quot;SUCCESS&quot; für erfolgreiche Stapel.

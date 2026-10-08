@@ -1,17 +1,18 @@
 ---
-description: Hier erfahren Sie, wie Sie den Adobe Connect Connector mit Adobe Learning Manager integrieren.
+description: Adobe Connect Verbindung mit Adobe Learning Manager integrieren
 jcr-language: en_us
-title: Adobe Connect Connector
+title: Adobe Connect Verbindung
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 2%
-
 ---
 
-
-# Adobe Connect-Connector in Adobe Learning Manager
+# Adobe Connect-Verbindung in Adobe Learning Manager
 
 ## Einführung
 
@@ -25,7 +26,7 @@ So konfigurieren Sie Adobe Connect:
 2. Bewegen Sie den Mauszeiger über die Kachel **Adobe Connect** und wählen Sie **Verbinden** aus.
 
    ![](assets/adobe-connect-connector1.png)
-   _Wählen Sie &quot;Verbinden&quot; aus, um den Adobe Connect-Connector zu konfigurieren_
+   _Wählen Sie &quot;Verbinden&quot; aus, um die Adobe Connect-Verbindung zu konfigurieren_
 
 3. Geben Sie die folgenden Details ein:
 
@@ -110,12 +111,12 @@ Adobe Learning Manager kann Quizdaten aus Adobe Connect-Sitzungen importieren un
 
 - Wenn die Sitzung endet, synchronisiert Adobe Learning Manager die Quizdaten automatisch.
 - Der Quizimport-Arbeitsablauf beginnt nach Ablauf der geplanten Dauer.
-- Um den Fortschritt zu verfolgen, kann der Integrationsadministrator den **Ausführungsstatus** im Adobe Connect-Connector überprüfen.
+- Um den Fortschritt zu verfolgen, kann der Integrationsadministrator den **Ausführungsstatus** in der Adobe Connect-Verbindung überprüfen.
 - Sobald der Import abgeschlossen ist, wird der Status auf **Abgeschlossen** aktualisiert.
 
 Der Administrator kann dann die importierten Ergebnisse überprüfen:
 
 - **Anwesenheit und Punktzahl:** Zeigen Sie die endgültigen Quizergebnisse und die Anwesenheit an.
 - **L2 Quizpunktzahl:**
-   - **Nach Benutzer:** Zeigt einzelne Punktzahlen in Punkten und Prozentsätzen an.
-   - **Nach Frage:** Zeigt Quizergebnisse in einem Berichtsdiagramm an.
+  - **Nach Benutzer:** Zeigt einzelne Punktzahlen in Punkten und Prozentsätzen an.
+  - **Nach Frage:** Zeigt Quizergebnisse in einem Berichtsdiagramm an.

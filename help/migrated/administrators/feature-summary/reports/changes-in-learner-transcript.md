@@ -3,13 +3,14 @@ description: Weitere Informationen zu Teilnehmertranskripten
 jcr-language: en_us
 title: Änderungen an Teilnehmertranskripten
 exl-id: 295c4e1f-c3c7-4f97-83c3-1234f3d47546
-source-git-commit: 4a4c42968caf6c0c8265014d99a2211da4c1cbb9
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 0%
-
 ---
-
 # Änderungen an Teilnehmertranskripten in der April-Version
 
 ## Spalte &quot;Abschlussmethode&quot;
@@ -24,9 +25,9 @@ Die Spalte **Abschlussmethode** zeigt an, wie jeder Datensatz im Teilnehmertrans
 
 >[!NOTE]
 >
->Diese Spalte ist im LT des Teilnehmers nicht sichtbar; sie ist nur im LT des Administrators für Berichts- und Verfolgungszwecke verfügbar.
+>Diese Spalte ist im LT des Teilnehmers nicht sichtbar. es ist nur in der Admin LT für Berichts- und Verfolgungszwecke verfügbar.
 
-**Auswirkung**: Ermöglicht eindeutige Audit-Protokolle, Compliance-Verfolgung und Transparenz für Administratoren in Bezug auf den Abschluss eines Kurses.
+**Auswirkung**: Ermöglicht klare Audit-Verläufe, Compliance-Verfolgung und Transparenz für Administratoren in Bezug auf den Abschluss eines Kurses.
 
 ## Verfolgung des alternativen Abschlusses in Teilnehmertranskripten
 
@@ -35,8 +36,8 @@ Mit alternativen Abschlüssen können Teilnehmer einen Abschlusskredit für eine
 Im Teilnehmertranskript (LT) wirken sich alternative Abschlüsse auf drei vorhandene Spalten aus: **Status**, **Abschlussdatum** und **Abschlussquelle**.
 
 - **Status**: Der Status kann **Abgeschlossen** sein, auch wenn der Teilnehmer den Zielkurs oder -pfad aufgrund eines alternativen Abschlusses nicht direkt abgeschlossen hat. Andere Status (**Nicht gestartet**, **In Bearbeitung**, **Nicht registriert**) sind nicht betroffen.
-- **Abschlussdatum**: Für den alternativen Abschluss wird das Datum vom Quellkurs oder Pfad geerbt. Wenn der Teilnehmer das Ziel später direkt abschließt, wird das Datum aktualisiert, um den direkten Abschluss widerzuspiegeln.
-- **Abschlussquelle**: Erfasst die Schulungs-ID(s) des/der Quellkurse oder -pfade, der/die den alternativen Abschluss geliefert hat/haben. Mehrere aktive Quellen werden als durch Kommas getrennte IDs aufgelistet. Wenn Quellen widerrufen werden, verbleiben nur noch aktive. Wenn mehrere Quellen vorhanden sind, wird das früheste Abschlussdatum verwendet.
+- **Abschlussdatum**: Für den alternativen Abschluss wird das Datum vom Quellkurs oder -pfad geerbt. Wenn der Teilnehmer das Ziel später direkt abschließt, wird das Datum aktualisiert, um den direkten Abschluss widerzuspiegeln.
+- **Vervollständigungsquelle**: Erfasst die Schulungs-ID(s) des/der Quellkurse oder -pfade, der/die den alternativen Abschluss bereitgestellt hat/haben. Mehrere aktive Quellen werden als durch Kommas getrennte IDs aufgelistet. Wenn Quellen widerrufen werden, verbleiben nur noch aktive. Wenn mehrere Quellen vorhanden sind, wird das früheste Abschlussdatum verwendet.
 
 **Auswirkung**: Alternative Abschlüsse reduzieren die manuelle Abstimmung, automatisieren die Fortschrittsverfolgung bei Lernpfaden und Zertifizierungen und unterstützen Compliance-Anforderungen.
 
@@ -54,7 +55,7 @@ Die Spalte **Abschlussdatum** im Teilnehmertranskript wird sowohl für den direk
 - Wenn mehrere Quellen einen alternativen Abschluss bereitstellen, wird das früheste aktive Abschlussdatum verwendet.
 - Wenn eine Quelle widerrufen wird (bei aktivierter retroaktiver Unvollständigkeit), wird das Datum auf die nächstliegende aktive Quelle aktualisiert oder gelöscht, wenn keine aktiven Quellen mehr vorhanden sind.
 
-**Auswirkung**: Gewährleistet eine genaue historische Verfolgung und konsistente Berichterstattung, selbst wenn sich im Laufe der Zeit alternative Beziehungen ändern.
+**Auswirkung**: Stellt eine genaue historische Verfolgung und konsistentes Reporting sicher, selbst wenn sich im Laufe der Zeit alternative Beziehungen ändern.
 
 ## Widerrufene alternative Abschlüsse
 
@@ -69,8 +70,8 @@ Widerrufene alternative Abschlüsse treten auf, wenn alle Quellbeziehungen für 
 ### Auswirkungen auf das Teilnehmertranskript
 
 - **Status**: Wenn alle alternativen Abschlüsse widerrufen werden und kein direkter Abschluss vorhanden ist, wird der Status aktualisiert (z. B. von **Abgeschlossen** auf **Nicht gestartet** oder **In Bearbeitung**).
-- **Abschlussdatum**: Wird gelöscht, wenn keine aktiven Quellen mehr vorhanden sind und kein direkter Abschluss vorliegt.
-- **Vervollständigungsquelle**: Zum Entfernen widerrufener Quellen aktualisiert; gelöscht, wenn alle Quellen widerrufen wurden.
+- **Abschlussdatum**: Wird gelöscht, wenn keine aktiven Quellen vorhanden sind und kein direkter Abschluss erfolgt.
+- **Vervollständigungsquelle**: Aktualisiert, um widerrufene Quellen zu entfernen wird gelöscht, wenn alle Quellen widerrufen werden.
 
 Wenn der Teilnehmer einen direkten Abschluss hat, wirkt sich das Widerrufen alternativer Quellen nicht auf den Abschlussstatus oder das Abschlussdatum aus.
 
@@ -84,9 +85,9 @@ Reviewerkommentare aus Checklistenmodulen sind jetzt im Teilnehmertranskriptberi
 
 | Bereich | Alter Spaltenname | Neuer Spaltenname | Anmerkungen |
 |------|-----------------|-----------------|-------|
-| Teilnehmertranskripte (Administrator) | Einreichungskommentar | Anmerkungen des Reviewers | Gilt für alle Admin LT-Quellen: Benutzeroberfläche, Job API, Connectors. |
+| Teilnehmertranskripte (Administrator) | Einreichungskommentar | Anmerkungen des Reviewers | Gilt für alle Admin LT-Quellen: Benutzeroberfläche, Job-API, Verbindungen. |
 
-Diese Änderung gilt einheitlich für alle Admin LT-Quellen (UI-Exporte, Job API-Berichte und Connectors, sofern zutreffend). Bei einer vom Connector exportierten LT werden die Anmerkungen des Reviewers als spezielle Spalte am Ende angezeigt (bei Connectors, für die zuvor kein Übermittlungskommentar angezeigt wurde). So wird sichergestellt, dass bei nachgelagerten Integrationen das Feedback des Reviewers von anderen Kommentaren unterschieden werden kann.
+Diese Änderung gilt einheitlich für alle Admin LT-Quellen (UI-Exporte, Job API-Berichte und Verbindungen, sofern zutreffend). Bei einer von der Verbindung exportierten LT werden die Anmerkungen des Reviewers am Ende als separate Spalte angezeigt (bei Verbindungen, die den Übermittlungskommentar nicht gelegt haben). So wird sichergestellt, dass bei der Integration in den Downstream das Feedback des Reviewers von anderen Kommentaren unterschieden werden kann.
 
 **Auswirkung:** Teilnehmer und Administratoren können konsolidiertes Feedback anzeigen, wodurch die Transparenz verbessert und die Leistungsbewertung unterstützt wird.
 
@@ -98,4 +99,4 @@ Diese Änderung gilt einheitlich für alle Admin LT-Quellen (UI-Exporte, Job API
 
 Der Teilnehmertranskriptbericht verwendet jetzt eine verfeinerte Logik, um zwischen aktiver und inaktiver Lernzeit basierend auf Benutzeraktivität und Fokus auf Browserregisterkarten zu unterscheiden.
 
-**Auswirkungen**: Bietet eine präzisere Messung der Interaktion mit den Teilnehmern und unterstützt Compliance-Berichte und -Analysen.
+**Auswirkung**: Bietet präzisere Messungen der Interaktion mit Teilnehmern und unterstützt Compliance-Berichte und -Analysen.

@@ -1,14 +1,15 @@
 ---
 title: Empfehlungen in Adobe Learning Manager
-description: Der Kern der Empfehlungs-Engine basiert auf dem neuen Kurs-Ranking-Algorithmus von Learning Manager. Der Algorithmus verwendet 50 Millionen Datenpunkte und fünf Jahre aggregierter Lerndaten über Millionen von Benutzern, um Kurse basierend auf ihrer Wahrscheinlichkeit einer Registrierung zu bewerten. Diese Einstufung stellt sicher, dass die Kurse mit den meisten Registrierungen den Teilnehmenden als erste angezeigt werden.
+description: Der Kern des Empfehlungs-Engine basiert auf dem neuen Kursranking-Algorithmus des Learning Managers. Der Algorithmus verwendet 50 Millionen Datenpunkte und fünf Jahre aggregierter Lerndaten über Millionen von Benutzern, um Kurse basierend auf ihrer Wahrscheinlichkeit einer Registrierung zu bewerten. Diese Einstufung stellt sicher, dass die Kurse mit den meisten Registrierungen den Teilnehmenden als erste angezeigt werden.
 exl-id: 42083095-60a0-4e20-9097-3344d290da1a
-source-git-commit: bc0d68e3fe7ea3acf92ae81fdbe7413280771522
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1514'
 ht-degree: 56%
-
 ---
-
 # Empfehlungen in Adobe Learning Manager
 
 ## Einführung
@@ -25,17 +26,17 @@ Um mit dieser Funktion zu beginnen, müssen Sie die Funktion in der Admin-App ak
 
 ## Algorithmus für die Kursrangliste
 
-Der Kern der Empfehlungs-Engine basiert auf dem neuen **[!UICONTROL Kursranking-Algorithmus des Learning Managers]**. Der Algorithmus verwendet 50 Millionen Datenpunkte und fünf Jahre aggregierter Lerndaten über Millionen von Benutzern, um Kurse basierend auf ihrer Wahrscheinlichkeit einer Registrierung zu bewerten. Diese Einstufung stellt sicher, dass die Kurse mit den meisten Registrierungen den Teilnehmenden als erste angezeigt werden.
+Der Kern des Empfehlungs-Engine basiert auf dem neuen **[!UICONTROL Kursranking-Algorithmus des Learning Managers]**. Der Algorithmus verwendet 50 Millionen Datenpunkte und fünf Jahre aggregierter Lerndaten über Millionen von Benutzern, um Kurse basierend auf ihrer Wahrscheinlichkeit einer Registrierung zu bewerten. Diese Einstufung stellt sicher, dass die Kurse mit den meisten Registrierungen den Teilnehmenden als erste angezeigt werden.
 
 ## Schlüsselbegriffe
 
-Die neue AI-basierte Empfehlungs-Engine von Learning Manager bietet Lernenden ein konfigurierbares, parameterbasiertes Empfehlungssystem für die Erstellung eines personalisierten Erlebnisses für Teilnehmer.
+Das neue AI-basierte Empfehlungs-Engine von Learning Manager bietet Lernenden ein konfigurierbares, parameterbasiertes Empfehlungssystem für die Erstellung eines personalisierten Erlebnisses für Teilnehmer.
 
 Die Parameter sind: **Produkte/Themen**, **Rollen** und **Ebenen**. Darüber hinaus können diese Parameter Ihren Anforderungen entsprechend umbenannt werden. So können &quot;Produkte&quot; zu &quot;Themen&quot; oder &quot;Rollen&quot; zu &quot;Region&quot; werden.
 
 ## Einrichten des Empfehlungssystems
 
-Die neue Empfehlungs-Engine von Adobe Learning Manager vereinfacht den Admin-Arbeitsablauf beim Einrichten personalisierter Empfehlungen, da Daten zu Produkten und Rollen, die mit einem Kunden/Partner verknüpft sind, in der Regel für Administratoren verfügbar sind (z. B. aus Kaufdatensätzen).
+Das neue Empfehlungs-Engine von Adobe Learning Manager vereinfacht den Admin-Arbeitsablauf beim Einrichten personalisierter Empfehlungen, da Daten zu Produkten und Rollen, die mit einem Kunden/Partner verknüpft sind, in der Regel Administratoren zur Verfügung stehen (z. B. aus Kaufdatensätzen).
 
 Bei der Einrichtung der neuen Empfehlungs-Engine gibt es hauptsächlich drei Arbeitsabläufe:
 
@@ -45,7 +46,7 @@ Bei der Einrichtung der neuen Empfehlungs-Engine gibt es hauptsächlich drei Arb
 
 Die Parameterwerte für Produkte, Rollen und Stufen des Kontos werden durch die Administration konfiguriert. Ein IT-Lösungsanbieter mit Banken als Hauptkundenbasis kann beispielsweise den Parameter &quot;Product&quot; so konfigurieren, dass Werte wie Payment Gateway, Secure Cloud Storage, Fraud Detection System, Trading Platform usw. und den Parameter &quot;Role&quot; Werte wie Integration Specialist, Network Administrator, Risk Analyst, Compliance Officer usw. aufweisen.
 
-Administratoren erhalten in Learning Manager einen geführten Arbeitsablauf, mit dem sie die Empfehlungs-Engine optimal einrichten und die Engine basierend auf dem Anwendungsfall des Kontos anpassen können. Darüber hinaus hat die Administration auch die Möglichkeit, PRL-Empfehlungen über einen einmaligen CSV-Upload einzurichten.
+Administratoren erhalten einen assistierten Arbeitsablauf im Lern-Manager, um das Empfehlungs-Engine optimal einzurichten und das Engine basierend auf dem Anwendungsfall des Kontos anzupassen. Darüber hinaus hat die Administration auch die Möglichkeit, PRL-Empfehlungen über einen einmaligen CSV-Upload einzurichten.
 
 1. Wählen Sie in der Admin-App **[!UICONTROL Recommendations]** aus.
 

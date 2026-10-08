@@ -1,25 +1,26 @@
 ---
-description: Erfahren Sie, wie Sie den Marketo Engage-Connector mit Adobe Learning Manager integrieren
+description: Marketo Engage Verbindung mit Adobe Learning Manager integrieren
 jcr-language: en_us
 title: Marketo Engage-Connector
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '520'
-ht-degree: 3%
-
+ht-degree: 4%
 ---
 
-
-# Marketo Engage-Connector in Adobe Learning Manager
+# Marketo Engage-Verbindung in Adobe Learning Manager
 
 ## Einführung
 
-Mit dem Marketo Engage-Connector kann Adobe Learning Manager nahtlos in Marketo Engage, eine Marketing-Automatisierungsplattform, integriert werden. Diese Integration hilft Marketing-Experten dabei, die Verhaltensdaten von Teilnehmern aus Adobe Learning Manager zu verfolgen und darauf zu reagieren, indem sie sie mit der Marketo-Datenbank synchronisieren.
+Mit der Marketo Engage-Verbindung kann Adobe Learning Manager nahtlos in Marketo Engage, eine Marketing-Automatisierungsplattform, integriert werden. Diese Integration hilft Marketing-Experten dabei, die Verhaltensdaten von Teilnehmern aus Adobe Learning Manager zu verfolgen und darauf zu reagieren, indem sie sie mit der Marketo-Datenbank synchronisieren.
 
-Der Marketo Engage-Connector ermöglicht eine nahtlose Datensynchronisierung zwischen den beiden Systemen und ermöglicht Marketern die Verwendung von Lernaktivitätsdaten zur Erstellung zielgerichteter Marketingkampagnen.
+Die Marketo Engage-Verbindung ermöglicht eine nahtlose Datensynchronisierung zwischen den beiden Systemen und ermöglicht es Marketern, Lernaktivitätsdaten zu verwenden, um zielgerichtete Marketingkampagnen zu erstellen.
 
-Mit dem Marketo Engage-Connector können Sie:
+Mit der Marketo Engage-Verbindung können Sie:
 
 - Leads in der Marketo Engage-Datenbank automatisch hinzufügen oder aktualisieren, wenn Anwender zu Adobe Learning Manager hinzugefügt werden.
 - Synchronisieren Sie das Lernverhalten von Benutzern wie Kursregistrierungen, Abschlüsse, Qualifikationszuweisungen und Qualifikationsabschlüsse als benutzerdefinierte Objekte in Marketo.
@@ -33,9 +34,9 @@ Diese Integration hilft Marketing-Experten, Zielgruppen basierend auf ihrer Lern
 - Exportieren Sie Lernaktivitäten (Registrierungen, Abschlüsse, Erfolge von Kenntnissen) als benutzerdefinierte Objekte in Marketo.
 - Planen oder lösen Sie Exporte bei Bedarf aus.
 - Unterstützung für vereinheitlichte Berichte, einschließlich:
-   - Benutzerbericht
-   - Teilnehmertranskript
-   - Benutzerkenntnisbericht
+  - Benutzerbericht
+  - Teilnehmertranskript
+  - Benutzerkenntnisbericht
 
 ## Voraussetzungen
 
@@ -52,25 +53,25 @@ Sie benötigen die folgenden Details, um die Verbindung herzustellen:
 >
 >Sie können die Client-ID und den Client-Schlüssel aus der Marketo Engage-App unter **LaunchPoint** und die Domäne aus dem Abschnitt **Webdienste** abrufen.
 
-## Connector einrichten
+## Verbindung einrichten
 
-Einrichten des Marketo Engage-Connectors:
+Einrichten der Marketo Engage-Verbindung:
 
 1. Melden Sie sich bei Adobe Learning Manager als Integrationsadministrator an.
 2. Bewegen Sie den Mauszeiger über die Kachel **Marketo Engage** und wählen Sie **Verbinden** aus.
 
    ![](assets/marketo-engage-connector1.png)
-   _Wählen Sie &quot;Verbinden&quot; aus, um den Marketo Engage-Connector zu konfigurieren_
+   _Wählen Sie Verbinden aus, um die Marketo Engage-Verbindung zu konfigurieren_
 
 3. Geben Sie die erforderlichen Anmeldeinformationen ein
 
-   - Verbindungsname
+   - Name der Verbindung
    - Client-ID
    - Client-Geheimnis
    - Marketo Engage-Domäne
 
    ![](assets/marketo-engage-connector2.png)
-   _Geben Sie die erforderlichen Details für den Marketo Engage-Connector ein._
+   _Geben Sie die erforderlichen Details für den Marketo Engage der Verbindung ein_
 
 4. Wählen Sie **Verbindung** aus, um die Verbindung herzustellen.
 

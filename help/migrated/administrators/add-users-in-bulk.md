@@ -4,18 +4,19 @@ title: Gleichzeitiges Hinzufügen mehrerer Benutzer
 description: Erfahren Sie, wie Sie mehrere Benutzer gleichzeitig hinzufügen.
 contentowner: saghosh
 exl-id: c3309ce5-8764-452e-82d5-5637c23c661b
-source-git-commit: 96602899dd76eae14a6b7e1808d529756657e7b8
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 23%
-
+source-wordcount: '369'
+ht-degree: 37%
 ---
-
 # Gleichzeitiges Hinzufügen mehrerer Benutzer
 
 >[!INFO]
 >
->In dieser Schulung erfahren Sie, wie Sie mehrere Benutzer gleichzeitig über eine CSV-Datei hinzufügen.<br><br>[![Schaltfläche](feature-summary/assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555)</br></br>
+>In dieser Schulung erfahren Sie, wie Sie Benutzer gesammelt über eine CSV-Datei hinzufügen.<br><br>[![Schaltfläche](feature-summary/assets/launch-training-button.png)](https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/7555555)</br></br>
 
 Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.com>.
 
@@ -29,9 +30,9 @@ Sie können mehrere Benutzer gleichzeitig hinzufügen, indem Sie die folgenden S
 
 1. Nachdem Sie die Datei importiert haben, müssen Sie den Inhalt der CSV-Datei den Anwendungsbezeichnungen zuordnen, wenn Sie die CSV-Datei zum ersten Mal hochladen.
 
-   Bei allen nachfolgenden Uploads werden die vorherigen Einstellungen für die Beschriftungen beachtet. Klicken Sie auf **[!UICONTROL Speichern]**, nachdem Sie die Datenzuordnung abgeschlossen haben, und klicken Sie auf **[!UICONTROL Hinzufügen]**, um die zugeordnete CSV-Datei hochzuladen.
+   Bei allen nachfolgenden Uploads werden die vorherigen Einstellungen für die Beschriftungen beachtet. Nachdem Sie die Datenzuordnung abgeschlossen haben, klicken Sie auf **[!UICONTROL Speichern]** und auf **[!UICONTROL Hinzufügen]**, um die zugeordnete CSV-Datei hochzuladen.
 
-1. Klicken Sie auf **[!UICONTROL Speichern]**, nachdem Sie die Datenzuordnung abgeschlossen haben, und klicken Sie auf **[!UICONTROL Hinzufügen]**, um die zugeordnete CSV-Datei hochzuladen.
+1. Nachdem Sie die Datenzuordnung abgeschlossen haben, klicken Sie auf **[!UICONTROL Speichern]** und auf **[!UICONTROL Hinzufügen]**, um die zugeordnete CSV-Datei hochzuladen.
 
 ## CSV-Upload mit Pflichtfeldern {#csvuploadwithmandatoryfields}
 
@@ -45,7 +46,7 @@ In diesem Fall wird der Administrator Ihres Unternehmens standardmäßig als Man
 
 **Beispiel-CSV**
 
-Beispiel-CSV für Learning Manager ist unten mit Pflichtfeldern verfügbar.
+Learning Manager-Beispiel-CSV ist mit den Pflichtfeldern unten verfügbar.
 [Beispiel-CSV-Name-email.zip](assets/sample-csv-name-email.zip)
 
 ## CSV-Upload mit allen Feldern {#csvuploadwithallthefields}
@@ -60,7 +61,7 @@ Außerdem können Administratoren eines Unternehmens **sich selbst** als Mitarbe
 
 **Beispiel-CSV**
 
-Die Beispiel-CSV für den Learning Manager ist unten mit allen Feldern verfügbar.
+Learning Manager-Beispiel-CSV ist mit allen Feldern unten verfügbar.
 [learning-manager-sample-csv.zip](assets/learning-manager-sample-csv.zip).
 
 Weitere Informationen finden Sie unter [Verwenden des CSV-Uploads](/help/migrated/administrators/feature-summary/add-users-user-groups.md).

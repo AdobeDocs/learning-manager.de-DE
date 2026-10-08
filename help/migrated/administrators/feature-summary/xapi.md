@@ -4,13 +4,14 @@ title: xAPI im Learning Manager
 description: Die Experience API (xAPI) ist eine E-Learning-Softwarespezifikation, die es ermöglicht, dass Lerninhalte und Lernsysteme so miteinander kommunizieren, dass alle Arten von Lernerfahrungen aufgezeichnet und verfolgt werden. Lernerfahrungen werden in einem Learning Record Store (LRS) aufgezeichnet. LRS können in traditionellen Lernmanagementsystemen (LMS) oder eigenständig existieren.
 contentowner: dvenkate
 preview: true
-source-git-commit: 53c1a5283295b56424d697bc26c5db31c2edca0f
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '817'
 ht-degree: 68%
-
 ---
-
 
 
 # xAPI in Learning Manager
@@ -97,7 +98,7 @@ Als Autor können Sie nun ein xAPI-Modul auswählen, während Sie Kurse zur Übe
 
 **Zu beachtende Punkte:**
 
-* Der Lern-Manager unterstützt derzeit nur mbox als Bezeichner. Andere Bezeichner wie mboz_sha1, openid , account werden nicht unterstützt.
+* Der Lern-Manager unterstützt derzeit nur mbox als Identifizierung. Andere Identifizierungen wie mboz_sha1, openid , account werden nicht unterstützt.
 
 * stateId und profileId sind UUIDs, wenn sie mit Learning Manager verwendet werden.
 * Die PUT-Anforderung überschreibt das Dokument nicht für xAPIs-Agenten/Profile, Aktivitäten/Profile und Aktivitäten/Status.
@@ -112,9 +113,9 @@ xAPI-Berichte können als Excel-Berichte generiert werden. Als Administrator öf
 
 Der heruntergeladene Bericht ruft alle Informationen ab, die vom Teilnehmer und vom Administrator für eine Anweisung veröffentlicht wurden.
 
-Dieselben Berichte können über FTP- und Box-Connectors für jede Integration von Drittanbietern erstellt/geplant werden. Führen Sie die folgenden Schritte aus:
+Dieselben Berichte können über FTP- und Box-Verbindungen für jede Integration von Drittanbietern erstellt/geplant werden. Führen Sie die folgenden Schritte aus:
 
-Melden Sie sich als **Integrationsadministrator > FTP-/Box-Connector öffnen > Wählen Sie im linken Bereich den xAPI-Aktivitätsbericht** aus. Wählen Sie, ob Sie einen Bericht planen/generieren möchten.
+Melden Sie sich als **Integrationsadministrator > FTP-/Box-Verbindung öffnen > Wählen Sie im linken Bereich den xAPI-Aktivitätsbericht** aus. Wählen Sie, ob Sie einen Bericht planen/generieren möchten.
 
 ![](assets/xapischedule.png)
 

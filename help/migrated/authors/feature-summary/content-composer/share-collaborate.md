@@ -2,13 +2,14 @@
 description: Erfahren Sie, wie Sie einen Kurs zum Erstellen von Inhalten für Kollegen oder direkt für Teilnehmer zur Überprüfung freigeben. Lernen Sie den Unterschied zwischen den beiden Freigabe-Flows, den Zugriffskontrollen und den Auswirkungen auf die Nachverfolgung kennen.
 jcr-language: en_us
 title: Freigeben und Zusammenarbeiten an einem Kurs für Content Composer
-source-git-commit: f95e4336d9b403f5803af175359893ceaa2a5daf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 0%
-
 ---
-
 
 # Freigeben und Zusammenarbeiten an einem Kurs für Content Composer
 

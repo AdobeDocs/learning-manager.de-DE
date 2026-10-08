@@ -3,13 +3,14 @@ description: Erfahren Sie mehr über die nicht angemeldeten APIs, um die Headles
 jcr-language: en_us
 title: Nicht angemeldete APIs
 exl-id: 12419c9a-3864-404c-8b32-922429d68ffb
-source-git-commit: b4b3252ef797eb271468dbe0bf06a8b64d5403d3
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '574'
+source-wordcount: '582'
 ht-degree: 0%
-
 ---
-
 # Nicht angemeldete APIs
 
 Erfahren Sie mehr über die Adobe Learning Manager APIs, die Daten für das Headless- oder Nicht-angemeldete Erlebnis bereitstellen, in diesem Artikel.
@@ -23,7 +24,7 @@ Mit der API für die öffentliche Suche können Sie die Filterdaten abrufen, die
 
 **Beispiel-Curl**
 
-Verwenden Sie die GET-Methode, um die folgende Anforderung zu stellen. Ersetzen Sie &lt;Base_URL> durch Ihre Basis-URL im unten stehenden curl-Befehl. Sie finden &lt;Base_URL> auf der Seite mit dem Connector für den Zugriff auf Schulungsdaten.
+Verwenden Sie die GET-Methode, um die folgende Anforderung zu stellen. Ersetzen Sie &lt;Base_URL> durch Ihre Basis-URL im unten stehenden curl-Befehl. Sie finden &lt;Base_URL> auf der Seite mit der Verbindung für den Zugriff auf Schulungsdaten.
 
 ```
 curl --location '<Base_URL>/filterableData'
@@ -115,7 +116,7 @@ Mit der API für die öffentliche Suche können Sie grundlegende Suchdaten mithi
 
 **Beispiel-Curl**
 
-Verwenden Sie die POST-Methode, um die folgende Anforderung zu stellen. Ersetzen Sie &lt;Base_URL> durch Ihre Basis-URL im unten stehenden curl-Befehl. Sie finden &lt;Base_URL> auf der Seite mit dem Connector für den Zugriff auf Schulungsdaten.
+Verwenden Sie die POST-Methode, um die folgende Anforderung zu stellen. Ersetzen Sie &lt;Base_URL> durch Ihre Basis-URL im unten stehenden curl-Befehl. Sie finden &lt;Base_URL> auf der Seite mit der Verbindung für den Zugriff auf Schulungsdaten.
 
 ```
 curl --location '<Base_URL>/search?size=1000' \
@@ -283,7 +284,7 @@ Mit der öffentlichen ES-Lernobjekt-API können Sie die Liste der Typen und IDs 
 
 **Beispiel-Curl**
 
-Verwenden Sie die GET-Methode, um die folgende Anforderung zu stellen. Ersetzen Sie &lt;Base_URL> durch Ihre Basis-URL im unten stehenden curl-Befehl. Sie finden &lt;Base_URL> auf der Seite mit dem Connector für den Zugriff auf Schulungsdaten.
+Verwenden Sie die GET-Methode, um die folgende Anforderung zu stellen. Ersetzen Sie &lt;Base_URL> durch Ihre Basis-URL im unten stehenden curl-Befehl. Sie finden &lt;Base_URL> auf der Seite mit der Verbindung für den Zugriff auf Schulungsdaten.
 
 ```
 curl --location '<Base_URL>/learningObjectIds'
@@ -307,7 +308,7 @@ Mit der Kursübersicht-API können Sie detaillierte Informationen zu einem besti
 
 **Beispiel-Curl**
 
-Verwenden Sie die GET-Methode, um die folgende Anforderung zu stellen. Ersetzen Sie &lt;Base_URL> durch Ihre Basis-URL im unten stehenden curl-Befehl. Sie finden &lt;Base_URL> auf der Seite mit dem Connector für den Zugriff auf Schulungsdaten. Ersetzen Sie &lt;Course_ID> durch die entsprechende Kurs-ID.
+Verwenden Sie die GET-Methode, um die folgende Anforderung zu stellen. Ersetzen Sie &lt;Base_URL> durch Ihre Basis-URL im unten stehenden curl-Befehl. Sie finden &lt;Base_URL> auf der Seite mit der Verbindung für den Zugriff auf Schulungsdaten. Ersetzen Sie &lt;Course_ID> durch die entsprechende Kurs-ID.
 
 ```
 curl --location '<Base_URL>/loSummary?loId=course%3A<Course_ID>'
@@ -344,7 +345,7 @@ Mit der CDN JSON-API können Sie die vollständigen Kursinformationen zu einem b
 
 **Beispielcurl für Kurs**
 
-Verwenden Sie die GET-Methode, um die folgende Anforderung zu stellen. Ersetzen Sie &lt;CDN_path> durch Ihre Basis-URL im unten stehenden curl-Befehl. Den &lt;CDN_path> finden Sie auf der Seite mit dem Connector für den Zugriff auf Schulungsdaten. Ersetzen Sie &lt;Course_ID> durch die entsprechende Kurs-ID.
+Verwenden Sie die GET-Methode, um die folgende Anforderung zu stellen. Ersetzen Sie &lt;CDN_path> durch Ihre Basis-URL im unten stehenden curl-Befehl. Den &lt;CDN_path> finden Sie auf der Seite mit der Verbindung für den Zugriff auf Schulungsdaten. Ersetzen Sie &lt;Course_ID> durch die entsprechende Kurs-ID.
 
 ```
 curl --location '<CDN_path_URL>/course/<Course_ID>.json'

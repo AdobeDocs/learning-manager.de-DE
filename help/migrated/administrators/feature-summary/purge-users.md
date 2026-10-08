@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Benutzer bereinigen
 contentowner: dvenkate
 exl-id: 4449146c-6247-44fb-b695-a12023c31dc6
-source-git-commit: 96bd0f559c38f7eefe4077fd9f61571663d748cd
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '1441'
+source-wordcount: '1442'
 ht-degree: 45%
-
 ---
-
 # Benutzer bereinigen
 
 Erfahren Sie mehr über das Bereinigen von Benutzerdaten in Learning Manager.
@@ -25,7 +26,7 @@ Das Bereinigen eines Benutzers kann diese Folgen haben:
 * Wenn ein Autor gelöscht wird, wird sein Name durch den Namen des Administrators ersetzt, der diesen Benutzer gelöscht hat.
 * Wenn Kursleiter bereinigt werden, werden sie aus den Sitzungen entfernt. Der Administrator muss Kursleiter für solche Sitzungen ersetzen/hinzufügen.
 * Durch das Bereinigen eines Benutzers in Learning Manager wird der Benutzer nicht in externen Anwendungen (von Drittanbietern oder anderen von Ihnen geschriebenen Anwendungen) entfernt. Wenden Sie sich an die Eigentümer der externen Anwendung, um die Benutzer daraus zu entfernen.
-* Wenn ein bereinigter Benutzer in den Konfigurationseinstellungen eines Connectors referenziert wird, wird der Connector deaktiviert. Der Connector muss vom Administrator neu konfiguriert werden, um fortzufahren.
+* Wenn ein bereinigter Benutzer in den Konfigurationseinstellungen eines Connectors referenziert wird, wird der Connector deaktiviert. Die Verbindung muss vom Administrator neu konfiguriert werden, um fortzufahren.
 
 <!--
 ### Manage users

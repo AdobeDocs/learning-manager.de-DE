@@ -2,13 +2,14 @@
 description: 'Der Content Composer durchläuft vier Phasen: Eingabeaufforderung, Kurz, Kontur und Kurs. Jede Phase wird von einer KI-gestützten, gesprächsorientierten Technologie begleitet, die Inhalte generiert, die Sie vor der Veröffentlichung direkt in Adobe Learning Manager überprüfen und bearbeiten können.'
 jcr-language: en_us
 title: Funktionsweise von Content Composer
-source-git-commit: 90969a10aa9246a4c1cfd2e02641f79f5101f0cd
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 0%
-
 ---
-
 
 # Funktionsweise von Content Composer
 

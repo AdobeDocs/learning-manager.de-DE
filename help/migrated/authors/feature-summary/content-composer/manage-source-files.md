@@ -1,20 +1,21 @@
 ---
-description: Erfahren Sie, wie Sie Quelldateien in Content Composer hochladen, die AI-Ausgabe auf Ihren Inhalt beschränken und Quelldateien aktualisieren, wenn sich Material ändert.
+description: Erfahren Sie, wie Sie Quelldateien in Content Composer hochladen, die AI-Ausgabe auf Ihren Inhalt beschränken und Quelldateien aktualisieren, wenn sich das Material ändert.
 jcr-language: en_us
 title: Verwalten von Quelldateien
-source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '446'
 ht-degree: 0%
-
 ---
-
 
 # Verwalten von Quelldateien
 
 Mit **Quellen verwalten** können Sie steuern, welche Inhalte der Inhaltssetzer zum Generieren Ihres Kurses verwendet. Fügen Sie einem Kurs Ihre eigenen Dokumente hinzu und wählen Sie aus, ob Sie die KI auf nur diesen Inhalt beschränken möchten oder ob Sie Ihr Material durch KI ergänzen möchten. Wenn Sie keine Dokumente hinzufügen, generiert Content Composer den Kurs anhand der vorhandenen Kenntnisse des KI-Modells.
 
-## Generieren von Kursen mithilfe von Quellmaterial
+## Generieren eines Kurses mithilfe des Quell-Materials
 
 1. Wählen Sie **Quellen verwalten** oder **Dateien hinzufügen** im Chatfenster oder in der Symbolleiste aus.
    ![](../assets/5_brief_manage_sources_prompt_updated.png)
@@ -37,17 +38,17 @@ Unterstützte Formate:
 
 Wählen Sie **Weiter**, um die Kursgliederung zu generieren.
 
-### Generieren ohne Quellmaterial
+### Generieren ohne Quell-Material
 
 Führen Sie die folgenden Schritte aus, um die Kursgliederung zu generieren, wenn Sie keine Quelldatei als Referenzdokument haben.
 
 1. Wählen Sie **Quellen verwalten**. Das Dialogfeld &quot;**Quellen verwalten**&quot; wird geöffnet.
 
-2. Wählen Sie **Ich habe kein Quellmaterial. Generieren Sie den Kurs ohne Quelldateien**, damit die AI Inhalte aus ihren allgemeinen Kenntnissen generieren kann. Wenn diese Option nicht ausgewählt ist und Dateien hochgeladen werden, beschränkt AI generierte Inhalte auf die hochgeladenen Dokumente.![](../assets/8_manage_sources_no_source_material_option_updated.png)
+2. Wählen Sie **Ich habe kein Quell-Material. - Generieren Sie den Kurs ohne Quelldateien**, damit die AI Inhalte aus ihren allgemeinen Kenntnissen generieren kann. Wenn diese Option nicht ausgewählt ist und Dateien hochgeladen werden, beschränkt AI generierte Inhalte auf die hochgeladenen Dokumente.![](../assets/8_manage_sources_no_source_material_option_updated.png)
 
 3. Wählen Sie **Weiter**, um die Kursgliederung zu generieren.
 
-### Aktualisieren eines Kurses, wenn sich das Quellmaterial ändert
+### Kurs aktualisieren, wenn sich das Quell-Material ändert
 
 Quelldokumente können veraltet sein, nachdem ein Kurs bereits generiert wurde - eine Richtlinie wird überarbeitet, ein SOP erhält eine neue Version oder ein Pitch Deck wird aktualisiert. Verwenden Sie diesen Arbeitsablauf, um den Kurs wieder an das aktuelle Material anzupassen.
 
@@ -65,4 +66,4 @@ Quelldokumente können veraltet sein, nachdem ein Kurs bereits generiert wurde -
 
 ![](../assets/9_manage_sources_file_ingested_confirmation_updated.png)
 
-Sobald eine Datei angehängt wurde, zeigt das Dateisymbol auf der Symbolleiste eine Abzeichen-Anzahl an. Der Assistent bestätigt den Upload und bietet eine Verknüpfung **Gliederung generieren** an. Wählen Sie sie aus, oder wählen Sie **Gliederung generieren** in der oberen Symbolleiste aus.
+Sobald eine Datei angehängt wurde, zeigt das Dateisymbol auf der Symbolleiste eine Abzeichen-Anzahl an. Der Assistent bestätigt den Upload und bietet einen **Tastaturbefehl generieren** an. Wählen Sie sie aus, oder wählen Sie **Gliederung generieren** in der oberen Symbolleiste aus.

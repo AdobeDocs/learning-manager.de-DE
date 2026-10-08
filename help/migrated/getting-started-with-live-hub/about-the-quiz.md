@@ -1,13 +1,14 @@
 ---
 title: Informationen zur Quizfunktion im Live-Hub
 description: Erfahren Sie, wie Kursleiter Multifrage-Quizze erstellen und durchführen, um das Verständnis der Teilnehmer in Echtzeit während einer Live-Hub-Sitzung zu bewerten.
-source-git-commit: 203b9dd661ddf9223d3e181c5887e6976ba8213e
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 0%
-
 ---
-
 
 # Quiz
 

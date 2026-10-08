@@ -2,13 +2,14 @@
 description: API-Änderungen in ALM
 jcr-language: en_us
 title: API-Änderungen in der Version August 2026 von Adobe Learning Manager
-source-git-commit: bac89a2dc8e1f22e2d29b20696fc1c6b6dd071aa
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3357'
 ht-degree: 3%
-
 ---
-
 
 # API-Änderungen in der Version August 2026 von Adobe Learning Manager
 
@@ -481,7 +482,7 @@ Wenn eine wiederkehrende Zertifizierung verlängert wird, erstellt Adobe Learnin
 
 Wiederkehrende Zertifizierungen generieren bei jeder Verlängerung eine neue Zertifizierungs-ID. Im nativen Adobe Learning Manager-Lernerlebnis wird nur die Version angezeigt, die für jeden Teilnehmer relevant ist. Ältere Versionen werden automatisch ausgeblendet, wenn ein Teilnehmer zu einer neueren Version wechselt.
 
-Wenn Ihre Integration Zertifizierungsdaten unabhängig abruft, um z. B. Zertifizierungsinformationen in einem externen Portal anzuzeigen, wird diese Filterung möglicherweise nicht automatisch angewendet. Ohne diese Möglichkeit könnte ein Teilnehmer jede historische Version einer wiederkehrenden Zertifizierung sehen, einschließlich derjenigen, die für ihn nicht mehr relevant sind, ohne Angabe, auf welche er reagieren sollte.
+Wenn Ihre Integration Zertifizierungsdaten unabhängig abruft, um z. B. Zertifizierungsinformationen in einem externen Portal anzuzeigen, werden diese Filterungen möglicherweise nicht automatisch angewendet. Ohne diese Möglichkeit könnte ein Teilnehmer jede historische Version einer wiederkehrenden Zertifizierung sehen, einschließlich derjenigen, die für ihn nicht mehr relevant sind, ohne Angabe, auf welche er reagieren sollte.
 
 Diese Lücke wurde mit dieser API geschlossen. Aufgrund der Stammzertifizierungs-ID gibt es die spezifische Zertifizierungsversion zurück, die für einen bestimmten Teilnehmer gilt, wobei dessen Registrierungsverlauf und etwaige Wiederholungen berücksichtigt werden.
 
@@ -575,7 +576,7 @@ curl -X GET --header 'Accept: application/vnd.api+json' \
 
 Die Antwort verwendet dieselbe Struktur wie eine standardmäßige Lernobjektreaktion und gibt die aufgelöste Zertifizierung zurück.
 
-**Wichtig:** Das ID-Feld in der Antwort ist die ID der **aufgelösten**-Zertifizierung, die spezifische Version, die für diesen Teilnehmer gilt. Sie unterscheidet sich in der Regel von der Stammzertifizierungs-ID, die Sie als loId übergeben haben, da der gesamte Zweck dieser API darin besteht, eine Stammzertifizierungs-ID in die richtige aktuelle Version zu übersetzen.
+**Wichtig:** Das ID-Feld in der Antwort ist die ID der **aufgelösten**-Zertifizierung, die spezifische Version, die für diesen Teilnehmer gilt. Sie unterscheidet sich in der Regel von der Stammzertifizierungs-ID, die Sie als loId übergeben haben, da der gesamte Zweck dieser API darin besteht, eine Stammzertifizierung in die richtige aktuelle Version Kamera bewegen.
 
 ```
 {
