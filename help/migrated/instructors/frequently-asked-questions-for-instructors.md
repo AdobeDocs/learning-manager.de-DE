@@ -28,7 +28,7 @@ Wenn Sie bereits bei der Learning Manager-App mit einer anderen Rolle angemeldet
 
 Die Kursleiter von Modulen oder Sitzungen können das Datum, die Uhrzeit und den Ort der Sitzung verwalten. Kursleiter können außerdem das Lizenzlimit für Module sowie das Wartelistenlimit verwalten. Sie können die Warteliste löschen und die Teilnehmerliste für eine Sitzung bestätigen.Kursleiter können auch Einreichungen von Teilnehmern genehmigen und Erinnerungen für Kurse einrichten, in denen die Sitzungen des Kursleiters stattfinden.
 
-Nachdem die Sitzung vorüber ist, können Kursleiter auch die Teilnahme der Teilnehmer für die Sitzung vermerken und die Aufgaben und andere Ressourcendateien in Bezug auf die Sitzung genehmigen. Detaillierte Informationen zu den Funktionen des Kursleiters finden Sie unter[ Funktionsübersicht](feature-summary/modules.md).
+Nachdem die Sitzung vorüber ist, können Kursleiter auch die Teilnahme der Teilnehmer für die Sitzung vermerken und die Aufgaben und andere Ressourcendateien in Bezug auf die Sitzung genehmigen. Detaillierte Informationen zu den Funktionen des Kursleiters finden Sie unter[&#x200B; Funktionsübersicht](feature-summary/modules.md).
 
 +++
 

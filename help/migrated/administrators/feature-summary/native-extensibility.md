@@ -59,7 +59,7 @@ Adobe Learning Manager unterstützt 15 Aufrufpunkte in der Administrator(inn)en-
 1. Wählen Sie im linken Bereich **[!UICONTROL Instanzen]**.
 1. Wählen Sie im Abschnitt “Instanzen“ **[!UICONTROL Mehr]**. Die Erweiterung wird im Abschnitt “Instanzen“ angezeigt.
 
-   ![ Instanzenbild](assets/instances-extension.png)
+   ![&#x200B; Instanzenbild](assets/instances-extension.png)
    *Erweiterung auswählen*
 
    Wenn Sie die Erweiterung auswählen, wird sie im modalen Format angezeigt.
@@ -71,7 +71,7 @@ Adobe Learning Manager unterstützt 15 Aufrufpunkte in der Administrator(inn)en-
 1. Wählen Sie im linken Bereich **[!UICONTROL Instanzen]**.
 1. Wählen Sie im Abschnitt “Instanzen“ **[!UICONTROL Mehr]**. Die Erweiterung wird im Abschnitt “Instanzen“ angezeigt.
 
-   ![ Instanzenbild](assets/instances-extension.png)
+   ![&#x200B; Instanzenbild](assets/instances-extension.png)
    *Zugriff auf Erweiterung als Autor*
 
    Wenn Sie die Erweiterung auswählen, wird sie im modalen Format angezeigt.
@@ -111,7 +111,7 @@ Es gibt zwei Möglichkeiten, diesen Bericht herunterzuladen.
 
 1. Wählen Sie auf der Seite “Native Erweiterungen“ **[!UICONTROL Erweiterungskonfigurationsbericht]**.
 
-   ![ Berichtsbild](assets/extension-config-report.png)
+   ![&#x200B; Berichtsbild](assets/extension-config-report.png)
    *Erweiterungsbericht herunterladen*
 
    Der Bericht wird generiert.
