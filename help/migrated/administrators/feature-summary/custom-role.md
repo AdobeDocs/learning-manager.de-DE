@@ -85,7 +85,7 @@ _Benutzerdefinierte Rollen filtern_
 
    *Bereich festlegen*
 
-   &#x200B;### Das Layout der E-Mail-Vorlage erfordert die Kontoberechtigung für E-Mail-Vorlagen .
+   ### Das Layout der E-Mail-Vorlage erfordert die Kontoberechtigung für E-Mail-Vorlagen .
 
    Um eine E-Mail-Vorlage auf Kursebene anzuzeigen, deren Layout korrekt gerendert wurde, benötigt eine benutzerdefinierte Rolle **beide** der folgenden Elemente:
 

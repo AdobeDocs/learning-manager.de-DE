@@ -44,7 +44,7 @@ Darüber hinaus unterstützt die eindeutige Content-ID die Integration mit Conte
 * Die eindeutige Content-ID erleichtert die Verknüpfung von Inhalten zwischen externen Systemen und Adobe Learning Manager.
 * Das Ablaufdatum hilft Autoren dabei, den Überblick über veraltete Inhalte zu behalten, die möglicherweise überprüft oder aktualisiert werden müssen.
 
-In diesem [Artikel &#x200B;](/help/migrated/authors/feature-summary/content-library.md#add-content-unique-id-and-expiry-date) finden Sie weitere Informationen zur eindeutigen Inhalts-ID und zum Ablaufdatum.
+In diesem [Artikel ](/help/migrated/authors/feature-summary/content-library.md#add-content-unique-id-and-expiry-date) finden Sie weitere Informationen zur eindeutigen Inhalts-ID und zum Ablaufdatum.
 
 ## Admin AI Assistant (Beta)
 
@@ -110,7 +110,7 @@ Weitere Informationen finden Sie in diesem [Artikel](/help/migrated/administrato
 
 Adobe Learning Manager unterstützt jetzt auch die Auswahl von Seminarräumen aus Adobe Connect beim Einrichten einer VC-Sitzung in Connect. Zuvor konnte der Administrator nur den Meetingraumtyp auswählen. Diese Erweiterung ermöglicht es Administratoren mit einer gültigen Seminarlizenz, einmalige oder große Veranstaltungen (bis zu 1.500 Teilnehmer) in Adobe Learning Manager zu planen und zu verwalten.
 
-Weitere Informationen zum Seminarraum finden Sie in diesem [Artikel](https://helpx.adobe.com/de/adobe-connect/using/creating-seminars.html).
+Weitere Informationen zum Seminarraum finden Sie in diesem [Artikel](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html).
 
 ### Unterstützung für den Zugriff auf Sitzungsanalysen
 
@@ -156,7 +156,7 @@ Webhook ändert sich.
 
 ### Eindeutige ID und Ablaufdatum für Inhalte mit Migration hinzufügen
 
-Eindeutige ID des Inhalts und Ablaufdatum werden jetzt während der Migration unterstützt. Zwei zusätzliche Spalten: expiryDate und uniqueContentId wurden der Datei module_version.csv hinzugefügt, um diese Funktion zu aktivieren. Weitere Informationen finden Sie in der [CSV-Musterdatei &#x200B;](/help/migrated/integration-admin/feature-summary/assets/sample-csvs-may-2025.zip) und in der [CSV-Spezifikationsdatei &#x200B;](/help/migrated/integration-admin/feature-summary/assets/module-version.zip).
+Eindeutige ID des Inhalts und Ablaufdatum werden jetzt während der Migration unterstützt. Zwei zusätzliche Spalten: expiryDate und uniqueContentId wurden der Datei module_version.csv hinzugefügt, um diese Funktion zu aktivieren. Weitere Informationen finden Sie in der [CSV-Musterdatei ](/help/migrated/integration-admin/feature-summary/assets/sample-csvs-may-2025.zip) und in der [CSV-Spezifikationsdatei ](/help/migrated/integration-admin/feature-summary/assets/module-version.zip).
 
 Weitere Informationen zum Migrationsprozess finden Sie in diesem [Artikel](/help/migrated/integration-admin/feature-summary/migration-manual.md).
 

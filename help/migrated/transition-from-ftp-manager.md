@@ -27,7 +27,7 @@ Einige von AWS empfohlene FTP-Clients sind hier [aufgelistet](https://docs.aws.a
 
 Sie müssen die neue AWS-basierte FTP-Verbindung im Integrations-Admin konfigurieren.
 
-![&#x200B; Verbindungen-Image](assets/alm-ftp.png)
+![ Verbindungen-Image](assets/alm-ftp.png)
 *Wählen Sie die FTP-Option aus*
 
 Sobald Sie eine Verbindung hergestellt haben, wird die Seite Verbindungsdetails angezeigt.
@@ -111,7 +111,7 @@ Richten Sie die Verbindung auf einem FTP-Client ein (im Abschnitt weiter oben em
 
 1. Klicken Sie auf Verbinden.
 
-   ![&#x200B; Anmeldeinformationen](assets/connector-credentials.png)
+   ![ Anmeldeinformationen](assets/connector-credentials.png)
    *Anmeldeinformationen eingeben*
 
    >[!NOTE]
@@ -141,7 +141,7 @@ Richten Sie die Verbindung auf einem FTP-Client ein (im Abschnitt weiter oben em
    * Sie können Dateien per Drag &amp; Drop verschieben.
    * Doppelklicken Sie auf die Datei.
 
-   ![&#x200B; Verbindungsstatus](assets/connection-status-progress.png)
+   ![ Verbindungsstatus](assets/connection-status-progress.png)
    *Verbindungsstatus überprüfen*
 
 Sie können den Authentifizierungstyp jederzeit ändern und aktualisieren.
