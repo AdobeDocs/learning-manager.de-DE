@@ -1,13 +1,14 @@
 ---
 title: Live Hub (Beta) auf Mobilgeräten als Teilnehmer verwenden
 description: Erfahren Sie, welche Live Hub-Funktionen den Teilnehmern in der mobilen Adobe Learning Manager-App zur Verfügung stehen, von der Teilnahme an einer Sitzung bis hin zum Verlassen einer Sitzung.
-source-git-commit: 055a04c6226146b1816241834a57ae4b1b8a1d2a
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '754'
 ht-degree: 0%
-
 ---
-
 
 # Live Hub (Beta) auf Mobilgeräten als Teilnehmer verwenden
 
@@ -24,7 +25,7 @@ In der folgenden Tabelle sind die Live-Hub-Funktionen aufgeführt, die Teilnehme
 | **Feature** | **Mobiles Erlebnis** |
 |----|----|
 | Sessions teilnehmen | Nimm über die Adobe Learning Manager-App an Live-Hub-Sessions teil. |
-| Audio und Video | Schalten Sie Mikrofon und Kamera ein oder aus und wählen Sie die verfügbaren Audiogeräte aus. |
+| Audio und Video | Schalten Sie Ihr Mikrofon und Ihre Kamera ein oder aus und wählen Sie die verfügbaren Audiogeräte aus. |
 | Chat und Fragen | Nehmen Sie an Chatgesprächen teil und senden Sie Fragen während der Sitzung. |
 | Reaktionen und Hand-Raise | Senden Sie Reaktionen und heben Sie Ihre Hand, um mit dem Kursleiter zu interagieren. |
 | Umfragen | Antworten Sie auf Umfragen, die während der Sitzung veröffentlicht wurden. |
@@ -40,14 +41,14 @@ In der folgenden Tabelle sind die Live-Hub-Funktionen aufgeführt, die Teilnehme
 
 Nimm über die Adobe Learning Manager-App an deiner geplanten Live-Hub-Session teil.
 
-Bevor Sie teilnehmen, können Sie die Einstellungen Ihrer Kamera, Ihres Mikrofons und Ihres Audiogeräts überprüfen, um sicherzustellen, dass sie korrekt konfiguriert sind.
+Bevor Sie teilnehmen, können Sie die Einstellungen für Kamera, Mikrofon und Audiogerät überprüfen, um sicherzustellen, dass sie korrekt konfiguriert sind.
 
 ![Bildschirm für den Vorbeitritt für Mobilgeräte](assets/mobile-pre-join-screen.png)
-*Überprüfen Sie die Einstellungen für Ihre Kamera, Ihr Mikrofon und Ihr Audiogerät, bevor Sie an einer Live-Hub-Sitzung auf Mobilgeräten teilnehmen.*
+*Überprüfen Sie Ihre Kamera-, Mikrofon- und Audiogeräteeinstellungen, bevor Sie an einer Live-Hub-Sitzung auf Mobilgeräten teilnehmen.*
 
 >[!NOTE]
 >
-> Virtuelle Hintergründe und Unschärfeeffekte im Hintergrund werden in der mobilen App nicht unterstützt.
+> Virtuelle Hintergründe und Hintergrund-Unschärfe-Effekt werden in der mobilen App nicht unterstützt.
 
 ## Navigation in der Sitzungsoberfläche
 
@@ -57,7 +58,7 @@ Verwenden Sie die Sitzungssteuerelemente für Folgendes:
 
 * Schalten Sie Ihr Mikrofon ein oder aus.
 
-* Schalte die Kamera ein oder aus.
+* Schalten Sie Ihre Kamera ein oder aus.
 
 * Melde dich!
 

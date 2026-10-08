@@ -3,13 +3,14 @@ jcr-language: en_us
 title: Interoperabilität von Lernwerkzeugen (LTI)
 description: Weitere Informationen zur LTI-Integration ALM
 exl-id: 760c00fc-9f6e-450b-aad0-56f103424043
-source-git-commit: e4c3489db8207ead0416656161b918eba42f4582
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1993'
 ht-degree: 1%
-
 ---
-
 # LTI-Integration
 
 ## Was ist LTI?
@@ -24,7 +25,7 @@ Adobe Learning Manager unterstützt jetzt LTI Version 1.3, mit der es sowohl als
 
 **LTI als Tool-Consumer**: LTI als Tool Consumer ermöglicht es LMS, externe Tools über Learning Tools Interoperability (LTI) zu integrieren. In diesem Szenario ist LMS ein Verbraucher von Diensten, die von externen Tools bereitgestellt werden. Adobe Learning Manager fungiert als LTI Tool Consumer, sodass es LTI-Tools von Drittanbietern integrieren kann, mit denen Adobe Learning Manager-Teilnehmer die Lernobjekte der Drittanbieter-Tools in der Adobe Learning Manager nutzen können.
 
-## Einrichten des LTI-Connectors in ALM
+## Einrichten der LTI-Verbindung in ALM
 
 Führen Sie die folgenden Schritte aus, um die LTI-Integration in Adobe Learning Manager zu aktivieren:
 
@@ -74,9 +75,9 @@ Führen Sie die folgenden Schritte aus, um die LTI-Anmeldedaten für ein externe
 
 Anhand der vom Adobe Learning Manager-Administrator freigegebenen Anmeldeinformationen registriert der externe LMS-Administrator Adobe Learning Manager und generiert Anmeldeinformationen. Diese Anmeldeinformationen werden der Adobe Learning Manager als letzten Schritt hinzugefügt, um Adobe Learning Manager als Toolanbieter einzurichten. Im Folgenden sind die externen LMS-generierten Anmeldeinformationen aufgeführt:
 
-* **[!UICONTROL Aussteller- oder Plattform-ID]**: Eine eindeutige Kennung für das LMS oder die Plattform, die die LTI-Startanforderung an den Tool-Anbieter sendet.
-* **[!UICONTROL Client-ID]**: Eine eindeutige Kennung, die dem LTI-Tool vom LMS für Autorisierungszwecke zugewiesen wurde.
-* **[!UICONTROL Bereitstellungs-ID]**: Ein Bezeichner, der eine bestimmte LTI-Tool-Bereitstellung mit dem LMS zum Verwalten mehrerer Instanzen verknüpft.
+* **[!UICONTROL Aussteller- oder Plattform-ID]**: Eine eindeutige Identifizierung für das LMS oder die Plattform, die die LTI-Startanforderung an den Tool-Anbieter sendet.
+* **[!UICONTROL Client-ID]**: Eine eindeutige Identifizierung, die dem LTI-Tool vom LMS für Autorisierungszwecke zugewiesen wurde.
+* **[!UICONTROL Bereitstellungs-ID]**: Eine Identifizierung, die eine bestimmte LTI-Tool-Bereitstellung mit dem LMS zum Verwalten mehrerer Instanzen verknüpft.
 * **[!UICONTROL Token-URL]**: Der Endpunkt, an dem das LMS ein Zugriffstoken zur Authentifizierung und Autorisierung von Interaktionen mit dem LTI-Tool anfordert.
 * **[!UICONTROL Authentifizierungs-URL]**: Die URL, an die das LMS Benutzer zur Authentifizierung und Initiierung der LTI-Verbindung sendet.
 * **[!UICONTROL URL für öffentlichen Schlüssel]**: Die URL, die den öffentlichen Schlüssel bereitstellt, der vom LTI-Tool verwendet wird, um Sicherheitstoken zu überprüfen und eine sichere Kommunikation sicherzustellen.
@@ -120,7 +121,8 @@ Führen Sie die folgenden Schritte aus, um den Kurs aus Adobe Learning Manager z
 
 ## Adobe Learning Manager als LTI-Verbraucher - Admin-Arbeitsablauf
 
-Als LTI-Verbraucher können Sie mit Adobe Learning Manager Aktivitäten, Tools, Inhalte und Widgets von externen LTI-Anbietern verwenden.Um Adobe Learning Manager als LTI-Consumer hinzuzufügen, benötigen Sie die folgenden Anmeldeinformationen vom externen LTI-Anbieter:
+Als LTI-Verbraucher können Sie mit Adobe Learning Manager Aktivitäten, Tools, Inhalte und Widgets von externen LTI-Anbietern verwenden.
+Um Adobe Learning Manager als LTI-Consumer hinzuzufügen, benötigen Sie die folgenden Anmeldeinformationen vom externen LTI-Anbieter:
 
 * Anmelde-URL initiieren
 * Zielverknüpfungs-URL
@@ -164,7 +166,8 @@ Die LTI-Anbieter stellen Ihnen einen Startlink oder eine IMSCC-Datei zur Verfüg
 4. Geben Sie die **[!UICONTROL Launch Link]** und **[!UICONTROL Custom Parameters]** vom LTI-Anbieter ein.
 5. Wählen Sie den [!UICONTROL LTI-Anbieter] aus dem Dropdownmenü **[!UICONTROL Tool-Anbieter]** aus.
 6. Suchen Sie in der Option **[!UICONTROL Zu Ordner hinzufügen]** nach **[!UICONTROL Öffentlich]** und wählen Sie diese aus. Dadurch stehen die Kurse allen Autoren zur Verfügung.
-7. Wählen Sie **[!UICONTROL Speichern]**.Nachdem der Inhalt erstellt wurde, können Sie diesen Inhalt beim Erstellen des Kurses hinzufügen.
+7. Wählen Sie **[!UICONTROL Speichern]**.
+Nachdem der Inhalt erstellt wurde, können Sie diesen Inhalt beim Erstellen des Kurses hinzufügen.
 
 ### Kurs mit LTI-Inhalten erstellen - Arbeitsablauf für Autoren
 

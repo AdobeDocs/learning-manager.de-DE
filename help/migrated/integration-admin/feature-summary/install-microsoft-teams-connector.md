@@ -4,14 +4,15 @@ jcr-language: en_us
 title: Microsoft Teams-Connector
 contentowner: saghosh
 exl-id: 68092187-ac69-4727-a3dc-f3047a1e164d
-source-git-commit: 368017670470b818ce2a77c5498ee069036da3eb
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1206'
 ht-degree: 51%
-
 ---
-
-# Microsoft Teams-Connector in Adobe Learning Manager
+# Verbindung von Microsoft Teams in Adobe Learning Manager
 
 ## Einführung
 
@@ -58,7 +59,7 @@ Sie können auf Microsoft Teams-Connector zugreifen, wenn Sie Office 365 E3 oder
 >
 >Das Konto muss das Format &quot;`<username>@<company name>.onmicrosoft.com`&quot; verwenden.
 
-## Anwendungsconnector für Microsoft Teams erstellen
+## Verbindung &quot;Anwendung für Microsoft Teams erstellen&quot;
 
 1. Besuchen Sie das [Microsoft Azure®-Portal](https://portal.azure.com/).
 1. Melden Sie sich mit dem Microsoft E5-Konto an, das Sie im vorherigen Abschnitt erstellt haben.
@@ -92,7 +93,7 @@ Notieren Sie sich das Client-Geheimnis, das während der Integration weiter verw
 1. Klicken Sie auf die App, die Sie im vorherigen Abschnitt erstellt haben.
 1. Klicken Sie auf **[!UICONTROL API-Berechtigungen]**.
 1. Klicken Sie auf **[!UICONTROL Eine Berechtigung hinzufügen]**.
-1. Wählen Sie **[!UICONTROL Microsoft Graph]** > **[!UICONTROL Anwendungsberechtigungen]** aus und fügen Sie die folgenden Berechtigungen hinzu:
+1. Wählen Sie **[!UICONTROL Microsoft Graf]** > **[!UICONTROL Anwendungsberechtigungen]** aus und fügen Sie die folgenden Berechtigungen hinzu:
 
    1. Chat.Read.All
    1. Directory.Read.All
@@ -120,7 +121,7 @@ Notieren Sie sich das Client-Geheimnis, das während der Integration weiter verw
 
 ## Konfigurieren der Zugriffsrichtlinie mit PowerShell-Skripten
 
-Um die Anwendungszugriffsrichtlinie für den Microsoft Teams-Connector durch Ausführen von PowerShell-Skripts zu konfigurieren, führen Sie die in diesem [Dokument](https://docs.microsoft.com/en-us/graph/cloud-communication-online-meeting-application-access-policy) beschriebene Vorgehensweise aus.
+Um die Anwendungszugriffsrichtlinie für die Verbindung von Microsoft Teams durch Ausführen von PowerShell-Skripts zu konfigurieren, führen Sie die in diesem [Dokument](https://docs.microsoft.com/en-us/graph/cloud-communication-online-meeting-application-access-policy) beschriebene Vorgehensweise aus.
 
 Dadurch kann der Connector auf Microsoft Teams-Onlinemeetings zugreifen.
 
@@ -128,11 +129,11 @@ Dadurch kann der Connector auf Microsoft Teams-Onlinemeetings zugreifen.
 >
 >Führen Sie im obigen Dokument auch den optionalen Schritt 5 aus, um sicherzustellen, dass jedem aktiven Benutzer die Rolle des Organisators in der Learning Manager-Autor-App gewährt werden kann. Wenn dieser Schritt nicht ausgeführt wird, haben die Benutzenden nicht die erforderlichen Zugriffsrechte, um Organisatoren zu sein, und die Erstellung eines Meetings ist nicht erfolgreich (Microsoft-APIs betrachten den Organisator als den Ersteller eines Teams-Meetings).
 
-## Einrichten des Microsoft Teams-Connectors im Lernmanager
+## Einrichten der Verbindung &quot;Microsoft Teams&quot; im Lern-Manager
 
 1. Melden Sie sich bei Learning Manager als **Integrationsadministrator** an.
 
-1. Wählen Sie auf der Seite &quot;Connectors&quot; den Connector für Microsoft Teams aus und klicken Sie auf **[!UICONTROL Verbinden]**.
+1. Wählen Sie auf der Seite &quot;Verbindungen&quot; die Verbindung &quot;Microsoft Teams&quot; aus und klicken Sie auf **[!UICONTROL Verbinden]**.
 
 1. Geben Sie folgende Werte ein:
 

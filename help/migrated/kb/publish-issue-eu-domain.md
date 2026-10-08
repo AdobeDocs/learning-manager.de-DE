@@ -4,13 +4,14 @@ title: Veröffentlichen in der Learning Manager-EU-Domäne nicht möglich
 description: Veröffentlichung von Adobe Captivate in der Adobe Learning Manager EU-Domäne in Adobe Learning Manager nicht möglich.
 contentowner: nluke
 exl-id: fb8ae1af-9902-4901-8263-fb3ebff98fbc
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '246'
 ht-degree: 83%
-
 ---
-
 # Veröffentlichen in der Learning Manager-EU-Domäne nicht möglich {#unable-to-publish-to-learning-manager-eu-domain}
 
 ## Problem

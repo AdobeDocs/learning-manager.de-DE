@@ -3,13 +3,14 @@ title: Adobe Learning Manager - sicherer Administrationshandbuch
 description: Dieser Leitfaden beschreibt Sicherheitseinstellungen, -rollen und bewährte Verfahren für die Verwaltung der administrativen Sicherheit und der Zugriffskontrolle in Adobe Learning Manager, um Compliance und Sicherheit zu gewährleisten.
 jcr-language: en-us
 exl-id: 67dd9334-9718-4b2a-841e-5d8bd5c42714
-source-git-commit: 5682c45a4e5789a3eede53faf7cb257cd9685759
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2354'
 ht-degree: 0%
-
 ---
-
 # Administrative Sicherheitseinstellungen und Auswirkungen auf die Sicherheit
 
 ## Administratorrollen mit Auswirkungen auf die Sicherheit
@@ -20,7 +21,7 @@ Adobe Learning Manager verwendet ein rollenbasiertes Zugriffssteuerungsmodell (R
 |-------------|---------|------------------|
 | Administratorkonto der obersten Ebene | Administrator | Umfassende Kontrolle auf Kontoebene. Exklusiver Zugriff auf alle in diesem Dokument beschriebenen sicherheitsrelevanten Einstellungen. Dies ist die Rolle, auf die in diesem Leitfaden Bezug genommen wird, wenn der Begriff &quot;oberstes Verwaltungskonto&quot; verwendet wird. |
 | Berechtigtes Konto (Umfang) | Benutzerdefinierter Administrator | Delegierter administrativer Zugriff, der sich auf bestimmte Funktionen, Benutzergruppen oder Kataloge erstreckt. Zugriff auf Sicherheitseinstellungen auf Kontoebene nur möglich, wenn dies explizit gewährt wurde. |
-| Privilegiertes Konto (Integration) | Integrationsadministrator | Verwaltet Integrationen, API-Registrierungen und Connector-Konfigurationen. Erhöhte Rechte für die Integrationsverwaltung. Andere Sicherheitseinstellungen auf Kontoebene können nicht geändert werden. |
+| Privilegiertes Konto (Integration) | Integrationsadministrator | Verwaltet Integrationen, API-Registrierungen und Verbindung-Konfigurationen. Erhöhte Rechte für die Integrationsverwaltung. Andere Sicherheitseinstellungen auf Kontoebene können nicht geändert werden. |
 
 >[!NOTE]
 >
@@ -45,13 +46,13 @@ Der Administrator steuert die Authentifizierungsmethode, die für alle internen 
 |-------------|---------------------|----------------|
 | **Adobe ID** | Die Organisation hat keine Kontrolle über Kennwortrichtlinien, MFA oder die Kontowiederherstellung. Ein kompromittiertes persönliches Adobe-Konto gewährt Zugriff auf die ALM-Plattform. | **NICHT EMPFOHLEN** für administrative oder interne Benutzer. Verwenden Sie diese Option nur, wenn SSO nicht verfügbar ist. |
 | **SSO (SAML 2.0 / Federated ID)** | Die Authentifizierung wird vollständig vom IdP der Organisation gesteuert. MFA, Sitzungszeitüberschreitungen und Richtlinien für bedingten Zugriff werden auf IdP-Ebene erzwungen. Sofortiger Widerruf bei Benutzerabreise. | **EMPFOHLEN** für alle internen Benutzer und Administratoren. Bietet die höchste Stufe der Organisationssteuerung. |
-| **Learning Manager-ID** | Benutzer verwalten Kennwörter außerhalb der Identitätsinfrastruktur der Organisation selbst. MFA kann nicht über ALM erzwungen werden. Die Kennwortsicherheit hängt vom Benutzerverhalten ab. | Gilt nur für externe Benutzer. Nicht geeignet für Mitarbeiter oder Administratoren. |
+| **Learning Manager-ID** | Benutzer verwalten Kennwörter außerhalb der Identitätsinfrastruktur der Organisation selbst. MFA kann nicht über ALM erzwungen werden. Die Stärke des Kennworts hängt vom Benutzerverhalten ab. | Gilt nur für externe Benutzer. Nicht geeignet für Mitarbeiter oder Administratoren. |
 
 >[!CAUTION]
 >
 >Wenn die Anmeldemethode für interne Benutzer auf Adobe ID festgelegt ist, verliert das Unternehmen die Möglichkeit, eine Multi-Faktor-Authentifizierung durchzusetzen, die Komplexität des Kennworts zu steuern oder den Zugriff sofort zu widerrufen, wenn ein Benutzer das Programm verlässt. Dies erhöht das Risiko eines unberechtigten Zugriffs erheblich.
 
-Weitere Informationen finden Sie unter [Benutzerdefinierte Rollen](https://experienceleague.adobe.com/de/docs/learning-manager/using/admin/custom-role).
+Weitere Informationen finden Sie unter [Benutzerdefinierte Rollen](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/custom-role).
 
 ### Multi-Factor Authentication (MFA)
 
@@ -132,7 +133,7 @@ Einstellungen für die Benutzerbereitstellung steuern, wie Benutzer zur Plattfor
 
 >[!IMPORTANT]
 >
->Das Bereinigen ist dauerhaft und unumkehrbar. Alle Lerndatensätze, Registrierungsdaten und Benutzerinformationen werden gelöscht. Wenn ein bereinigter Benutzer in Connector-Konfigurationen referenziert wird, werden diese Connectors deaktiviert. Bestätigen Sie die Auswahl sorgfältig, bevor Sie eine Bereinigung durchführen.
+>Das Bereinigen ist dauerhaft und unumkehrbar. Alle Lerndatensätze, Registrierungsdaten und Benutzerinformationen werden gelöscht. Wenn ein bereinigter Benutzer in Benutzerkonfigurationen referenziert wird, werden diese Verbindungen deaktiviert. Bestätigen Sie die Auswahl sorgfältig, bevor Sie eine Bereinigung durchführen.
 
 ## Reporting- und Datenzugriffseinstellungen
 
@@ -141,21 +142,21 @@ Reporting- und Datenzugriffseinstellungen legen fest, welche Benutzer Plattformd
 | Einstellung | Standort | Sicherheitsauswirkungen | Empfohlene Standardeinstellung |
 |---|---|---|---|
 | **Berichtszugriff auf benutzerdefinierte Rollen wird gewährt** | ALM-Administrator > Benutzer > Benutzerdefinierte Rollen > Funktionsberechtigungen > Berichte | Berichte können personenbezogene Informationen (PII), Kursabschlussdaten, Bewertungsergebnisse und den Fortschritt der Teilnehmer enthalten. Der Zugriff auf Berichtsfunktionen sollte auf Benutzer mit nachgewiesenen Geschäftsanforderungen beschränkt sein. | Gewähren Sie dem Bericht nur Zugriff auf Rollen mit einem bestimmten, dokumentierten Bedarf. Schreibgeschützter Zugriff, wenn kein Schreibzugriff erforderlich ist. |
-| **Vollständige Kontrolle und schreibgeschützter Berichtsbereich** | ALM-Administrator > Benutzer > Benutzerdefinierte Rollen > Kontoübersichtsbericht | Vollständige Kontrolle über den Kontoübersichtsbericht gewährt dem benutzerdefinierten Administrator Transparenz über alle Benutzergruppen und Kataloge, unabhängig vom Rollenbereich. Dadurch können Daten verfügbar gemacht werden, die außerhalb des vorgesehenen Bereichs einer Administratorrolle mit Umfang liegen. | Vollständige Kontrolle über den Kontoübersichtsbericht gewähren: Dies gilt nur für Rollen, für die eine Transparenz der Berichterstattung in der gesamten Organisation erforderlich ist. |
+| **Vollständige Kontrolle und schreibgeschützter Berichtsbereich** | ALM-Administrator > Benutzer > Benutzerdefinierte Rollen > Kontoübersichtsbericht | Vollständige Kontrolle über den Kontoübersichtsbericht gewährt dem benutzerdefinierten Administrator Transparenz über alle Benutzergruppen und Kataloge, unabhängig vom Rollenbereich. Dadurch können Daten außerhalb des vorgesehenen Bereichs einer Administratorrolle mit Umfang gelegt werden. | Vollständige Kontrolle über den Kontoübersichtsbericht gewähren: Dies gilt nur für Rollen, für die eine Transparenz der Berichterstattung in der gesamten Organisation erforderlich ist. |
 | **xAPI- und E-Mail-Berichtszugriff** | ALM-Administrator > Benutzer > Benutzerdefinierte Rollen | xAPI-Berichte und E-Mail-Berichte sind nur für die vollständige Administratorrolle verfügbar. Diese Berichte können detaillierte Verhaltens- und Kommunikationsdaten enthalten. Der Zugriff ist durch den Entwurf eingeschränkt. | Versuchen Sie nicht, den Zugriff auf xAPI- oder E-Mail-Berichte über benutzerdefinierte Rollen zu delegieren. Diese sind nur als Administrator konzipiert. |
 | **Benutzerdaten exportiert** | ALM-Administrator > Benutzer > Intern > Benutzerdaten exportieren | Die Funktion Benutzerdaten exportieren generiert eine herunterladbare Datei, die alle internen Benutzerdatensätze enthält. Diese Daten müssen im Einklang mit den Sicherheits- und Datenschutzrichtlinien des Unternehmens behandelt werden. | Beschränkung der Exportkapazität auf autorisiertes Personal. Behandeln Sie exportierte Daten als vertraulich. Speichern oder übertragen Sie sie nicht außerhalb genehmigter Systeme. |
 
 ## Einstellungen für Integration und API-Zugriff
 
-Die Einstellungen für Integration und API-Zugriff steuern die Verbindung externer Systeme mit Adobe Learning Manager. Diese Einstellungen erweitern den Zugriff über die ALM-Benutzeroberfläche hinaus und können, wenn sie falsch konfiguriert sind, Plattformdaten und -funktionen für nicht autorisierte Systeme verfügbar machen.  Die Integrationseinstellungen werden von der Rolle &quot;Integrationsadministrator&quot; verwaltet. Die vollständige Administratorrolle behält die Möglichkeit, registrierte Anwendungen zu überprüfen, zu genehmigen und zu widerrufen.
+Die Einstellungen für Integration und API-Zugriff steuern die Verbindung externer Systeme mit Adobe Learning Manager. Diese Einstellungen erweitern den Zugriff über die ALM-Benutzeroberfläche hinaus und können, wenn sie falsch konfiguriert sind, Plattformdaten und -funktionen auf nicht autorisierte Systeme gelegt.  Die Integrationseinstellungen werden von der Rolle &quot;Integrationsadministrator&quot; verwaltet. Die vollständige Administratorrolle behält die Möglichkeit, registrierte Anwendungen zu überprüfen, zu genehmigen und zu widerrufen.
 
 | Einstellung | Standort | Sicherheitsauswirkungen | Empfohlene Standardeinstellung |
 |---|---|---|---|
 | **API-Anwendungsregistrierung** | Integrationsadministrator > Anwendungen > Registrieren | Durch die Registrierung einer Anwendung werden OAuth 2.0-Anmeldeinformationen (Client-ID und Geheimnis) erstellt, mit denen auf ALM-Daten und -Funktionen programmgesteuert zugegriffen werden kann. Übermäßig breite OAuth-Geltungsbereiche (z. B. Lese-/Schreibzugriff für die Admin-Rolle) gewähren vollständigen administrativen API-Zugriff. | Gewähren Sie die mindestens erforderlichen OAuth-Geltungsbereiche. Überprüfen und widerrufen Sie regelmäßig ungenutzte oder veraltete Anwendungsregistrierungen. Clientanmeldeinformationen als vertrauliche Geheimnisse behandeln. |
 | **OAuth-Anwendungsbereich** | Integrations-Admin > Anwendungen > Registrieren > Geltungsbereiche | Die verfügbaren OAuth-Geltungsbereiche reichen vom Lese-/Schreibzugriff für Teilnehmer bis hin zum Lese-/Schreibzugriff für Administratoren. Mit der Lese-/Schreibberechtigung für die Administratorrolle kann eine Anwendung alle Daten ändern, die ein Administrator ändern kann, einschließlich Benutzerrollen und Sicherheitseinstellungen. | Verwenden Sie den restriktivsten OAuth-Bereich, der die Anforderungen der Integration erfüllt. Gewähren Sie niemals Lese-/Schreibzugriff für die Administratorrolle, es sei denn, dies ist unbedingt erforderlich. |
-| **Connector-Konfiguration (FTP, Salesforce, HRIS usw.)** | Integrations-Admin > Connectors | Connectors ermöglichen den automatischen Import und Export von Benutzerdaten, Kenntnissen und Kursabschlüssen. Fehlkonfigurierte Connectors können falsche Benutzerdaten importieren, unbeabsichtigte Rollen zuweisen oder vertrauliche Daten an nicht autorisierte Ziele exportieren. | Überprüfen Sie alle aktiven Connector-Konfigurationen regelmäßig. Sicherstellen, dass Datenquellen und -ziele autorisiert sind Deaktivieren Sie Connectors, die nicht mehr verwendet werden. |
+| **Verbindung-Konfiguration (FTP, Salesforce, HRIS usw.)** | Integrationsadministrator > Verbindungen | Verbindungen ermöglichen den automatischen Import und Export von Benutzerdaten, Kenntnissen und Kursabschlüssen. Fehlkonfigurierte Verbindungen können fehlerhafte Benutzerdaten importieren, unbeabsichtigte Rollen zuweisen oder vertrauliche Daten an nicht autorisierte Ziele exportieren. | Überprüfen Sie regelmäßig alle Konfigurationen für die aktive Verbindung. Sicherstellen, dass Datenquellen und -ziele autorisiert sind Deaktivieren Sie Verbindungen, die nicht mehr verwendet werden. |
 | **Webhook-Konfiguration** | Integrationsadministrator > Webhooks | Webhooks senden Echtzeit-ALM-Ereignisdaten (Registrierungen, Abschlüsse, Benutzeränderungen) an eine angegebene externe URL. Ein falsch konfigurierter oder kompromittierter Webhook-Endpunkt kann zu Datenexfiltration oder Offenlegung sensibler Teilnehmerereignisse führen. | Registrieren Sie nur verifizierte, von der Organisation genehmigte Webhook-URLs. Überprüfen Sie regelmäßig die aktiven Webhook-Konfigurationen. Entfernen Sie inaktive oder nicht erkannte webhooks sofort. |
-| **LTI-Integrationskonfiguration** | Integrationsadministrator > LTI-Integrationen | Die LTI-Integration ermöglicht es ALM, als LTI-Anbieter oder -Verbraucher zu agieren, wodurch externe LMS-Plattformen auf ALM-Kurse zugreifen können. Nach der Aktivierung kann LTI nicht mehr deaktiviert werden. Verfügbare LTI-Anmeldedaten können einen nicht autorisierten Zugriff auf Kursinhalte ermöglichen. | Aktivieren Sie LTI nur, wenn eine bestätigte Integrationsanforderung vorhanden ist. LTI-Anmeldeinformationen als vertraulich behandeln. Geben Sie die Anmeldeinformationen nur für autorisierte LMS-Administratoren frei. |
+| **LTI-Integrationskonfiguration** | Integrationsadministrator > LTI-Integrationen | Die LTI-Integration ermöglicht es ALM, als LTI-Anbieter oder -Verbraucher zu agieren, wodurch externe LMS-Plattformen auf ALM-Kurse zugreifen können. Nach der Aktivierung kann LTI nicht mehr deaktiviert werden. Gelegt LTI-Anmeldedaten können einen nicht autorisierten Zugriff auf Kursinhalte ermöglichen. | Aktivieren Sie LTI nur, wenn eine bestätigte Integrationsanforderung vorhanden ist. LTI-Anmeldeinformationen als vertraulich behandeln. Geben Sie die Anmeldeinformationen nur für autorisierte LMS-Administratoren frei. |
 
 ## Administratorkonfigurationsaufgaben und gemeinsame Verantwortung
 
@@ -168,7 +169,7 @@ Die Verwaltungseinstellungen in Adobe Learning Manager können von Kunden konfig
 
 Weitere Informationen zu den Sicherheitspraktiken von Adobe Learning Manager finden Sie unter:
 
-**Referenz:** [Überblick über die Sicherheit von Adobe Learning Manager (PDF)](https://experienceleague.adobe.com/docs/learning-manager/assets/alm-security-whitepaper-2024.pdf?lang=de)
+**Referenz:** [Überblick über die Sicherheit von Adobe Learning Manager (PDF)](https://experienceleague.adobe.com/docs/learning-manager/assets/alm-security-whitepaper-2024.pdf)
 
 ## Dokumentenverwaltung
 

@@ -4,7 +4,10 @@ jcr-language: en_us
 title: Fehlerbehebung für die Adobe Learning Manager-Desktop-App
 contentowner: kuppan
 exl-id: 68d40a52-e048-43af-a7aa-917b569b583d
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1448'
 ht-degree: 61%
@@ -109,9 +112,9 @@ Dieses Dokument enthält grundlegende Tipps zur Fehlerbehebung, um einige häufi
 
 ### Windows {#Windows-1}
 
-1. Drücken Sie **Windows-Taste + R**, um das Dialogfeld &quot;Ausführen&quot; zu öffnen.**&#x200B;**
-1. Geben Sie &quot;**%APPDATA%\\..\\Local\\Adobe\\Learning Manager 1.0**&quot; (ohne Anführungszeichen) ein und drücken Sie die Eingabetaste.**&#x200B;**
-1. Erstellen Sie eine Sicherungskopie der Datei &quot;**preferences.json**&quot; und öffnen Sie sie in einem Texteditor.**&#x200B;**
+1. Drücken Sie **Windows-Taste + R**, um das Dialogfeld &quot;Ausführen&quot; zu öffnen.****
+1. Geben Sie &quot;**%APPDATA%\\..\\Local\\Adobe\\Learning Manager 1.0**&quot; (ohne Anführungszeichen) ein und drücken Sie die Eingabetaste.****
+1. Erstellen Sie eine Sicherungskopie der Datei &quot;**preferences.json**&quot; und öffnen Sie sie in einem Texteditor.****
 1. Suchen Sie nach dem Schlüssel **debugMode**, und ändern Sie die Werteigenschaft dieses Schlüssels in &quot;**true**&quot; (ohne Anführungszeichen).
 
 ### Mac OS X {#MacOSX-2}

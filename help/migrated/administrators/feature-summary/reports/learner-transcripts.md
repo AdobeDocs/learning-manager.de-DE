@@ -3,13 +3,14 @@ description: Mit den Teilnehmertranskripten in Adobe Learning Manager (ALM) kön
 jcr-language: en_us
 title: Teilnehmertranskripte in Adobe Learning Manager
 exl-id: f88ad02c-6d36-41e7-9d83-0ebc70d98d63
-source-git-commit: 2dc01be9cd7200814a1bbd7a30610c162e7d93bf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '4883'
+source-wordcount: '4899'
 ht-degree: 7%
-
 ---
-
 # Teilnehmertranskripte in Adobe Learning Manager
 
 ## Übersicht
@@ -63,7 +64,7 @@ In den Teilnehmertranskripten in Adobe Learning Manager werden Schulungen, Compl
 5. Wählen Sie **[!UICONTROL Neu generieren]**.
 6. Wählen Sie den Datumsbereich aus, für den das Transkript generiert werden soll. Sie können sowohl das Start- als auch das Enddatum ändern, indem Sie die Option **[!UICONTROL Datum wählen]** in der Dropdownliste für den Datumsbereich verwenden.
 7. Wählen Sie Folgendes aus:
-   1. Wählen Sie die Namen der Teilnehmer im Abschnitt **[!UICONTROL Teilnehmer auswählen]** aus. Sie können Benutzer oder Benutzergruppen auswählen oder die E-Mail-Adressen der Teilnehmer, für die Sie Transkripte generieren möchten, kopieren und einfügen. Weitere Informationen finden Sie im Abschnitt [Teilnehmertranskript &#x200B;](#generate-learner-transcript-using-copy-paste) mithilfe der Funktion zum Kopieren und Einfügen generieren. Wenn keine Auswahl vorgenommen wird, ist standardmäßig die Option Alle Werte ausgewählt.
+   1. Wählen Sie die Namen der Teilnehmer im Abschnitt **[!UICONTROL Teilnehmer auswählen]** aus. Sie können Benutzer oder Benutzergruppen auswählen oder die E-Mail-Adressen der Teilnehmer, für die Sie Transkripte generieren möchten, kopieren und einfügen. Weitere Informationen finden Sie im Abschnitt [Teilnehmertranskript ](#generate-learner-transcript-using-copy-paste) mithilfe der Funktion zum Kopieren und Einfügen generieren. Wenn keine Auswahl vorgenommen wird, ist standardmäßig die Option Alle Werte ausgewählt.
    1. Wählen Sie bestimmte Kataloge aus der Dropdown-Liste **[!UICONTROL Kataloge auswählen]** aus. Das Transkript wird nur für die angegebenen Kataloge heruntergeladen. Wenn keine Auswahl vorgenommen wird, ist standardmäßig die Option Alle Werte ausgewählt.
    1. Wählen Sie den **[!UICONTROL Registrierungsstatus]** aus. Dieses Dropdown-Menü enthält die folgenden Optionen:
 
@@ -139,8 +140,8 @@ In den folgenden Spalten werden Aktivität, Fortschritt und Versuche erfasst.
 | Highest_Quiz_score_max | Die höchstmögliche Quizpunktzahl für das Modul. Es kann leer sein, wenn der Teilnehmer kein Quiz absolviert hat oder der Inhalt keine Quizze enthält. Die höchstmögliche Punktzahl, die dem höchsten Quizpunktzahlversuch eines Teilnehmers bei mehreren Versuchen zugeordnet ist. Dies ist nicht die höchste Punktzahl, die der Teilnehmer erreicht hat. Stattdessen wird die maximale Punktzahl erfasst, die beim Versuch möglich war, bei dem der Teilnehmer die höchste Punktzahl erzielte. |
 | Unternommene Versuche | Die Gesamtanzahl der bisherigen Versuche des Teilnehmers für dieses Modul. |
 | Maximal zulässige Versuche | Die maximale Anzahl der Versuche, die der Teilnehmer hat, um das Modul zu nutzen. |
-| Kommentare zur Einreichung | Kommentare vom Manager eines Teilnehmers, nachdem dieser ein Lernobjekt abgeschlossen hat.<br>Die vom Kursleiter bereitgestellten Übermittlungskommentardaten sind im Dateiübermittlungsmodul enthalten. Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/de/docs/learning-manager/using/instructor/modules#filesubmissionforactivitymodules">Module-Adobe Learning Manager.</a></br> |
-| Abschlussquelle | Bezieht sich auf den Ursprung oder die Methode, durch die der Abschluss eines Kurses, eines Lernpfads oder einer Zertifizierung durch einen Teilnehmer aufgezeichnet wird. Administratoren können so leichter nachvollziehen, wie der Abschluss erreicht oder im System protokolliert wurde. Die Spalte gibt an, ob der Abschluss selbst gemeldet wurde oder durch eine bestimmte Rolle oder Konfiguration erleichtert wurde. Hinweis: Wenn bei VC Connector-Anwesenheitsarbeitsabläufen ein Teilnehmer automatisch als anwesend markiert wird, zeigt die Quelle &quot;SELF, &lt;Teilnehmer-E-Mail-Adresse>&quot; an. |
+| Kommentare zur Einreichung | Kommentare vom Manager eines Teilnehmers, nachdem dieser ein Lernobjekt abgeschlossen hat.<br>Die vom Kursleiter bereitgestellten Übermittlungskommentardaten sind im Dateiübermittlungsmodul enthalten. Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/en/docs/learning-manager/using/instructor/modules#filesubmissionforactivitymodules">Module-Adobe Learning Manager.</a></br> |
+| Abschlussquelle | Bezieht sich auf den Ursprung oder die Methode, durch die der Abschluss eines Kurses, eines Lernpfads oder einer Zertifizierung durch einen Teilnehmer aufgezeichnet wird. Administratoren können so leichter nachvollziehen, wie der Abschluss erreicht oder im System protokolliert wurde. Die Spalte gibt an, ob der Abschluss selbst gemeldet wurde oder durch eine bestimmte Rolle oder Konfiguration erleichtert wurde. Hinweis: Wenn ein Teilnehmer bei VC-Verbindung-Anwesenheitsarbeitsabläufen automatisch als anwesend markiert wird, zeigt die Quelle &quot;SELF, &lt;Teilnehmer-E-Mail-Adresse>&quot; an. |
 | Abschlusskommentar | Die Kommentare des Administrators, wenn er einen Teilnehmer als abgeschlossen markiert, nachdem er einen Kurs, eine Zertifizierung oder einen Lernpfad abgeschlossen hat. Der Administrator kann die Abschlusskommentare für einen oder mehrere Teilnehmer hinzufügen. |
 
 **Informationen zu Lernobjekten**
@@ -151,10 +152,10 @@ Diese beziehen sich auf Kurse, Module, Lernpfade, Zertifizierungen usw.
 |---|---|
 | Name des Lernplans | Titel des Lernplans. |
 | LP/Zertifizierung/Kurs | Der Titel des Lernobjekts. |
-| Typ | Der Typ des Lernobjekts, bei dem der Benutzer registriert wurde. Beispiel:<ul><li>Lernpfad</li><li>Zertifizierung</li><li>Kurs</li></ul> |
+| Typ | Der Typ des Lernobjekts, bei dem der Benutzer registriert wurde. Beispiel:<ul><li>Lernplan</li><li>Zertifizierung</li><li>Kurs</li></ul> |
 | Eingebetteter Pfad | Ein eingebetteter Pfad ist ein Lernpfadtyp, der als Teil eines anderen Kurses oder eines Lernpfads enthalten ist. Das Feld gibt an, dass ein Teilnehmer diesen Lernpfad als Teil eines anderen Lernpfads abschließt, anstatt als eigenständige Aufgabe. |
 | Kurs | Name des Kurses, für den der Benutzer registriert ist. Wenn sie leer ist, stellt die Zeile entweder einen Zertifizierungs- oder einen Lernpfad dar. <br><b>Hinweis:</b> Obwohl die Lernpfade und Lernpfade aus einzelnen Kursen oder verschachtelten Lernpfaden bestehen, behält jede Komponente ihren eigenen unabhängigen Datensatz bei. Dadurch wird sichergestellt, dass Fortschritts-, Abschluss- und Berichtsdaten sowohl für das übergeordnete als auch für das untergeordnete Element getrennt verfolgt werden.</br> |
-| LO Eindeutige ID | Dies ist eine optionale, vom Administrator zugewiesene ID für ein Lernobjekt (Kurs, Zertifizierung oder Lernpfad) in Adobe Learning Manager. Es wird hauptsächlich von Organisationen verwendet, die ihre eigenen externen System-IDs für Lerninhalte verwalten und diese IDs ALM-Lernobjekten für Integrations- oder Berichtszwecke zuordnen möchten. Die eindeutige LO-ID ist nur vorhanden, wenn das Konto diese Funktion aktiviert hat und der Autor während der LO-Erstellung eine ID zugewiesen hat. Hinweis: Die Schulungs-ID ist immer vorhanden und identifiziert jedes Lernobjekt in ALM eindeutig. Die eindeutige LO-ID wird für die systemübergreifende Zuordnung verwendet und ist für standardmäßige ALM-Vorgänge nicht erforderlich. |
+| LO Eindeutige ID | Dies ist eine optionale, vom Administrator zugewiesene Identifizierung für ein Lernobjekt (Kurs, Zertifizierung oder Lernpfad) in Adobe Learning Manager. Es wird hauptsächlich von Organisationen verwendet, die ihre eigenen externen System-IDs für Lerninhalte verwalten und diese IDs ALM-Lernobjekten für Integrations- oder Berichtszwecke zuordnen möchten. Die eindeutige LO-ID ist nur vorhanden, wenn das Konto diese Funktion aktiviert hat und der Autor während der LO-Erstellung eine ID zugewiesen hat. Hinweis: Die Schulungs-ID ist immer vorhanden und identifiziert jedes Lernobjekt in ALM eindeutig. Die eindeutige LO-ID wird für die systemübergreifende Zuordnung verwendet und ist für standardmäßige ALM-Vorgänge nicht erforderlich. |
 | Instanz | Der Name der Instanz des Lernobjekt-Benutzers, bei dem Sie registriert sind. |
 | Auswahlkriterien | Diese Spalte zeigt an, wie sich der Teilnehmer für das Lernobjekt registriert hat (Kurs, Zertifizierung oder Lernpfad). Der Wert wird wie folgt bestimmt:<ul><li>Admin-/Manager-Registrierung: Zeigt direkt an, wenn ein Teilnehmer direkt von einem Administrator oder Manager registriert wird. </li><li>Lernplanregistrierung: Zeigt die automatische Registrierung an, wenn ein Teilnehmer über einen Lernplan oder einen Trigger für die automatische Registrierung registriert wird.</li><li>Der Administrator registriert die Benutzergruppe: Zeigt den oder die Benutzergruppennamen an, wenn der Teilnehmer als Teil einer Benutzergruppe registriert war. </li><li>Verschachtelte Lernpfade: Wenn Lernpfad 1 Lernpfad 2 enthält, der Kurs A enthält:  Für LP2 und Kurs A ist der Wert übergeordnet. Bei LP1 ist der Wert direkt. </li><li>Selbstregistrierung: Zeigt sich selbst an, wenn sich der Teilnehmer selbst registriert. </li></ul>Der Wert in dieser Spalte spiegelt die tatsächliche Registrierungsmethode und die LO-Hierarchie wider, wie oben beschrieben.<ul><li>Lernplan, der Teilnehmer registriert: Wert: Automatische Registrierung Der Teilnehmer wird automatisch über einen Lernplan oder einen Trigger für die automatische Registrierung registriert. </li><li>Selbstregistrierung des Teilnehmers: Wert: Selbst Der Teilnehmer registriert sich selbst direkt für den Kurs, die Zertifizierung oder den Lernpfad. </li>Administrator, der Teilnehmer direkt registriert (mithilfe von Teilnehmer-E-Mail-Adresse/-Name): Wert: Direkt. Der Administrator oder Manager registriert den Teilnehmer manuell, indem er seine E-Mail-Adresse oder seinen Namen angibt. <li>Registrierung über eine Benutzergruppe: Wert: Benutzergruppenname Der Teilnehmer wird als Teil einer Benutzergruppe registriert. Wenn ein Teilnehmer zu mehreren Benutzergruppen gehört, zeigt der Bericht die relevante(n) Benutzergruppe(n) an, über die die Registrierung erfolgt ist.  </li><li>Lernobjekt, das aufgrund der Registrierung für einen Lernpfad registriert wurde: Wert: Pfad: Der Teilnehmer wird für einen Kurs oder ein Modul registriert, da er Teil eines größeren Lernpfads ist, dem er zugewiesen ist.</li></ul> |
 | Modul | Name des Moduls innerhalb der Kurse. Nur die Module mit dem Status Abgeschlossen oder In Bearbeitung werden im Bericht angezeigt. Wenn der Status Nicht gestartet oder Nicht registriert ist, bleibt die Spalte Modul leer.<br>Laden Sie Informationen auf Modulebene in das Teilnehmertranskript herunter, indem Sie das Kontrollkästchen <b>Informationen auf Modulebene aktivieren</b> aktivieren. In diesem Fall werden Modulnamen und die für jedes Modul aufgewendete Zeit als Teil des Transkripts abgerufen, wenn diese Option aktiviert ist.</br> |
@@ -181,7 +182,7 @@ Diese beziehen sich auf Kurse, Module, Lernpfade, Zertifizierungen usw.
 
 | Felder | Beschreibung |
 |---|---|
-| Schulungs-ID | Eine vom System generierte eindeutige Kennung, die jedem Lernobjekt (Kurs, Zertifizierung oder Lernpfad) zugewiesen ist. Die Schulungs-ID bleibt für alle Teilnehmer und alle Registrierungen für dieses Lernobjekt gleich. Es wird verwendet, um den Inhalt selbst zu identifizieren, nicht einzelne Teilnehmerregistrierungen. |
+| Schulungs-ID | Eine vom System generierte eindeutige Identifizierung, die jedem Lernobjekt (Kurs, Zertifizierung oder Lernpfad) zugewiesen ist. Die Schulungs-ID bleibt für alle Teilnehmer und alle Registrierungen für dieses Lernobjekt gleich. Es wird verwendet, um den Inhalt selbst zu identifizieren, nicht einzelne Teilnehmerregistrierungen. |
 | Dauer der Schulung oder des Moduls (Min.) | In dieser Spalte wird die erwartete Dauer (in Minuten) eines Kurses, eines Moduls oder einer Schulungsaktivität angezeigt, die beim Erstellen des Kurses definiert wurde. Es ist nicht die tatsächliche Zeit, die ein Teilnehmer verbringt, sondern die konfigurierte/zugewiesene Dauer, die angibt, wie lange die Schulung dauern soll.  Diese Spalte zeigt die Gesamtdauer (in Minuten) des zugewiesenen Lernelements, bei dem es sich entweder um einen Lernpfad oder um einen einzelnen Kurs handeln kann. <br><b>Dauer des Lernpfads:</b> Wenn das Schulungselement ein Lernpfad ist, wird seine Dauer als die Summe der Dauer aller Kurse innerhalb des Lernpfads berechnet.</br><br>Beispiel: Wenn Kurs 1 = 50 Minuten und Kurs 2 = 60 Minuten, dann ist die Dauer des Lernpfads = 110 Minuten.</br><br><b>Individuelle Kursdauer:</b>Wenn es sich bei dem Schulungselement um einen individuellen Kurs (nicht um einen Teil eines Lernpfads) handelt, spiegelt die Dauer die für diesen Kurs benötigte Zeit wider.</br> |
 | Embedded_Course_ID | Die Spalte wird ausgefüllt, wenn die Zeile einen Lernpfad oder eine Zertifizierung selbst darstellt. Hier werden die IDs der einzelnen Kurse angezeigt, die im Lernpfad oder in der Zertifizierung eingebettet sind. Er wird nicht ausgefüllt, wenn die Zeile selbst nur ein Kurs ist, da keine eingebetteten Elemente vorhanden sind. |
 | ID für eingebetteten Pfad | Die Spalte identifiziert die eindeutige ID eingebetteter Lernpfade. Es hilft beim Verfolgen von Kursen innerhalb von Lernpfaden und bietet Transparenz in der hierarchischen Struktur von Lernpfaden. |
@@ -250,7 +251,7 @@ Verfolgen Sie Teilnehmer mit bevorstehenden Fälligkeitsdaten für wichtige Kurs
 |---|---|
 | Name | Vollständiger Name des Teilnehmers, der mit dem Kenntnistranskript verknüpft ist. |
 | E-Mail | E-Mail-Adresse des Teilnehmers. |
-| Eindeutige ID des Benutzers | Durch die Organisation definierte eindeutige Kennung für den Teilnehmer. |
+| Eindeutige ID des Benutzers | Eindeutige Identifizierung des Teilnehmers, die von der Organisation definiert wurde. |
 | Kenntnisse | Der Name der Kenntnisse, die dem Teilnehmer zugewiesen sind (z. B. Java-Programmierung, Führung). |
 | Kenntnisstufen | Der Kenntnisstand innerhalb der Kenntnisse, die der Teilnehmer erreichen soll (z. B. Anfänger, Fortgeschrittene, Fortgeschrittene). |
 | Erforderliche Punktzahl | Anzahl der Lernressourcen, die zum Erreichen der zugewiesenen Kenntnisstufe benötigt werden. |
@@ -264,7 +265,7 @@ Verfolgen Sie Teilnehmer mit bevorstehenden Fälligkeitsdaten für wichtige Kurs
 
 | Spalte | Beschreibung |
 |---|---|
-| Nachher | Gibt die Anzahl der Teilnehmer an, die Kenntnisse vor einem definierten Zeitraum (in Tagen) erworben haben, nach dessen Ablauf die Kenntnisse als veraltet gelten oder aktualisiert werden müssen. Nützlich, um Teilnehmer mit anstehenden oder abgelaufenen Qualifikationsleistungen zu identifizieren.<br>Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/de/docs/learning-manager/using/admin/skills-levels"> Qualifikationsstufen</a>. |
+| Nachher | Gibt die Anzahl der Teilnehmer an, die Kenntnisse vor einem definierten Zeitraum (in Tagen) erworben haben, nach dessen Ablauf die Kenntnisse als veraltet gelten oder aktualisiert werden müssen. Nützlich, um Teilnehmer mit anstehenden oder abgelaufenen Qualifikationsleistungen zu identifizieren.<br>Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/skills-levels"> Qualifikationsstufen</a>. |
 | Name | Vollständiger Name des Teilnehmers, dem die Kenntnisse zugewiesen sind. |
 | Managername | Name des Berichts-Managers des Teilnehmers. |
 | Zeilenbeschriftungen | Der spezifische Kenntnisname, der Teilnehmern in dieser Zeile zugewiesen ist. Wird als Gruppierungskopfzeile verwendet, um die Kenntnisdaten von Teilnehmern unter jeder Kenntniskategorie zusammenzufassen. |
@@ -327,7 +328,7 @@ Benutzerdefinierte Administratoren mit einem definierten Umfang (z. B. beschrän
 
 Dies stellt sicher, dass benutzerdefinierte Administratoren mit Umfang nur die Daten und Lerninhalte des Teilnehmers anzeigen, für deren Verwaltung sie autorisiert sind.
 
-**Connector-Unterstützung**
+**Unterstützung für Verbindungen**
 
 Auf den Teilnehmertranskriptbericht kann über die Administrator-Benutzeroberfläche, [FTP, Box, Job-API oder Power BI](/help/migrated/integration-admin/feature-summary/connectors.md) zugegriffen werden. Er ist nicht in den einheitlichen Berichten von Salesforce, Power BI und Marketo Engage enthalten.
 

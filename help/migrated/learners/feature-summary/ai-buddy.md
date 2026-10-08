@@ -3,13 +3,14 @@ description: Der AI Assistant (Beta) für Teilnehmer ist eine Gen-AI-gestützte 
 jcr-language: en_us
 title: AI Assistant für Teilnehmer in Adobe Learning Manager
 exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
-source-git-commit: 922e6bed551baca8ef0e9f6b8124fb26fcce97e6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1995'
 ht-degree: 0%
-
 ---
-
 # KI-Assistent für Teilnehmende
 
 Mit dem AI Assistant (Beta) für Teilnehmer können sie schnell Antworten auf die zugewiesenen Lerninhalte finden, ohne sich durch ganze Kurse bewegen zu müssen. Sie können Fragen in verständlicher Sprache stellen und erhalten präzise, zielgerichtete Antworten mit Quell-Links zu den relevanten Kursinhalten.
@@ -33,7 +34,7 @@ Der AI Assistant ist ein Gen-KI-gestützter Chat-Begleiter in Adobe Learning Man
    * Unterstützt von Azure Open AI LLM-Funktionen zum Generieren von Antworten
 2. Inhaltsquellen und Zitate
    * Ruft Antworten aus verfügbaren Ressourcen ab, die in unterstützten Katalogen vorhanden sind.
-   * Bietet Zitaten direkte Verknüpfungen zu Quellmaterialien
+   * Bietet Zitate mit direkten Links zu Quell-Materialien
    * Unterstützt alle ALM-Inhaltsformate statisch und interaktiv: PDF, DOCX, PPTX, XLSX, Audio (mp3, wav, m4a), Video (mp4, mov, wmv), HTML, SCORM 2004, SCORM 1.2
 3. Benutzererfahrung
    * Seitenbedienfeld, über alle Teilnehmerseiten zugänglich
@@ -96,7 +97,7 @@ Der KI-Assistent unterstützt Marcus bei folgenden Aufgaben:
 
 ### Onboarding neuer Mitarbeiter
 
-Jennifer ist gerade dem Unternehmen beigetreten und wird von der Menge an Schulungsmaterial überwältigt. Sie benötigt eine Möglichkeit, bestimmte Informationen zu finden, ohne den gesamten Kurs zu überprüfen.
+Jennifer ist gerade dem Unternehmen beigetreten und wird von dem Material an Schulungen überwältigt. Sie benötigt eine Möglichkeit, bestimmte Informationen zu finden, ohne den gesamten Kurs zu überprüfen.
 
 Die KI-Assistentin unterstützt Jennifer bei folgenden Aufgaben:
 
@@ -254,7 +255,7 @@ Der AI-Assistent bietet Teilnehmern schnelle, kontextbezogene Antworten, unterst
 
 ### Szenario 1: Kein Zugriff auf Inhalte
 
-Problem: Der Teilnehmer hat Zugriff auf den Teilnehmerassistenten, erhält aber die Antworten &quot;Ich habe keine Antwort auf diese Frage&quot;.
+Problem: Der Teilnehmer hat Zugriff auf den Teilnehmer-Assistenten, erhält aber die Antworten &quot;Ich habe keine Antwort auf diese Frage&quot;.
 
 **Mögliche Ursachen**
 
@@ -269,9 +270,9 @@ Problem: Der Teilnehmer hat Zugriff auf den Teilnehmerassistenten, erhält aber 
 * Sicherstellen, dass relevante Inhalte in diesen Katalogen vorhanden sind
 * Einige Stunden nach dem Hinzufügen neuer Inhalte zur Indizierung warten
 
-### Szenario 2: Irrelevante oder qualitativ schlechte Antworten
+### Szenario 2: Unrelevante oder qualitativ schlechte Antworten
 
-**Problem**: Der AI-Assistent stellt Antworten bereit, die nicht mit der Frage übereinstimmen oder von geringer Qualität sind.
+**Problem**: Der KI-Assistent bietet Antworten, die nicht der Frage entsprechen oder von geringer Qualität sind.
 
 **Mögliche Ursachen**
 

@@ -1,13 +1,14 @@
 ---
 title: Reaktionen und Wortmeldungen in Live-Hub-Sitzungen verwenden
 description: Erfahren Sie, wie Teilnehmer Reaktionen und Wortmeldungen nutzen können, um an einer Live-Hub-Sitzung teilzunehmen, ohne den Kursleiter zu unterbrechen.
-source-git-commit: 6d62c8aaf23db075cdf2a97aeaf3053742145313
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 0%
-
 ---
-
 
 # Anwendungsreaktionen und erhöhte Hände
 

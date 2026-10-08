@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Adobe Learning Manager-Desktop-Anwendung
 contentowner: kuppan
 exl-id: 3012ab23-e326-4e7c-b450-e33c046fd656
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1694'
 ht-degree: 79%
-
 ---
-
 # Adobe Learning Manager-Desktop-Anwendung
 
 Erfahren Sie, wie Sie die Desktop-Anwendung von Adobe Learning Manager verwenden, um Inhalte zu erstellen und anzureichern, die für Soziales Lernen freigegeben werden können.
@@ -199,7 +200,7 @@ Um eine Datei aus der Galerie zu bearbeiten oder zu löschen, klicken Sie auf di
 
 Benachrichtigungen in Learning Manager werden im Benachrichtigungsfenster angezeigt, unabhängig davon, ob die Teilnehmenden bei der Learning Manager-Webanwendung angemeldet sind. Benachrichtigungen umfassen Beiträge oder Foren, die von Benutzern erstellt wurden oder denen sie folgen oder an denen sie teilgenommen haben. Durch Klicken auf die Benachrichtigung werden die Benutzenden zum Soziales Lernen-Web von Learning Manager weitergeleitet.
 
-Um Benachrichtigungen stummzuschalten, klicken Sie auf das **[!UICONTROL Profilmenü*]* > &#x200B;** [!UICONTROL Einstellungen] > **[!UICONTROL Benachrichtigungen stummschalten]**.
+Um Benachrichtigungen stummzuschalten, klicken Sie auf das **[!UICONTROL Profilmenü*]* > **[!UICONTROL Einstellungen] > **[!UICONTROL Benachrichtigungen stummschalten]**.
 
 ## Einstellungen in der Adobe Learning Manager-Desktop-Anwendung {#settingsinadobecaptivateprimedesktopapplication}
 

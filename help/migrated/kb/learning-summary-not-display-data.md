@@ -4,13 +4,14 @@ title: Übersicht zu Lernprogrammen zeigt keine aktuellen Daten an
 description: Übersicht zu Lernprogrammen zeigt keine aktuellen Daten in Adobe Learning Manager an
 contentowner: saghosh
 exl-id: 97a3435e-c447-41dd-b71f-46b58a7131ac
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '150'
-ht-degree: 48%
-
+ht-degree: 86%
 ---
-
 # Übersicht zu Lernprogrammen zeigt keine aktuellen Daten an
 
 ## Ein Problem
@@ -21,7 +22,7 @@ Es gibt Situationen, in denen ein Teilnehmer einen Kurs abschließt. Die Daten s
 
 ## Ursache
 
-Das Problem tritt auf, weil die Übersicht zu Lernprogrammen basierend auf den von Ihnen ausgewählten Kriterien zu unterschiedlichen Zeiten aktualisiert wird.
+Das Problem tritt auf, weil die Übersicht zu Lernprogrammen basierend auf den von Ihnen ausgewählten Kriterien zu unterschiedlichen Zeitpunkten aktualisiert wird.
 
 ## Aktualisierungsdauer
 

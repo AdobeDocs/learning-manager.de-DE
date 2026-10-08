@@ -1,13 +1,14 @@
 ---
 title: Rolle von Kursleitern in einer Live Hub-Sitzung
 description: Erfahren Sie mehr über die Workflows von Kursleitern in Live Hub, von der Vorbereitung einer Sitzung und der Verwaltung von Teilnehmerinteraktionen bis hin zur Überprüfung der Ergebnisse im Anschluss.
-source-git-commit: bed5e19d010b24f328c0368c251d39be3dc29af2
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '613'
 ht-degree: 0%
-
 ---
-
 
 # Rolle von Kursleitern in einer Live Hub-Sitzung
 
@@ -33,7 +34,7 @@ Vom Raum aus können Sie:
 
 * Entwerfen Sie Arbeitsräume, weisen Sie Teilnehmer zu und fügen Sie für jeden Raum Anweisungen hinzu. Weitere Informationen finden Sie unter [Arbeitsräume erstellen und verwalten](./create-and-manage-breakout-rooms.md#design-a-breakout-session).
 
-* Laden Sie Referenzmaterialien hoch, damit KI während der Sitzung präzise, kontextabhängige Antworten auf Teilnehmerfragen generieren kann. [Verwenden Sie den Chat-Bereich als Kursleiter](./use-the-chat-panel-as-an-instructor.md#upload-files-for-better-responses), um weitere Informationen zu erhalten.
+* Laden Sie Referenzthemen hoch, damit KI während der Material-Sitzung präzise, kontextbezogene Antworten auf Teilnehmerfragen generieren kann. [Verwenden Sie den Chat-Bereich als Kursleiter](./use-the-chat-panel-as-an-instructor.md#upload-files-for-better-responses), um weitere Informationen zu erhalten.
 
 ### Sitzung verwalten
 
@@ -69,7 +70,7 @@ Sorgen Sie für reibungslose Kommunikation und Zusammenarbeit während der gesam
 
 * Ermöglichen Sie Diskussionen und Gruppenaktivitäten, z. B. das Starten von Arbeitsräumen oder das Betreten eines Raums, wenn ein Teilnehmer um Hilfe bittet.
 
-* Behandeln Sie Unterbrechungen oder technische Probleme während der Sitzung. Weitere Informationen finden Sie im [Leitfaden zur Fehlerbehebung für den Live-Hub &#x200B;](../kb/troubleshooting-guide-for-live-hub.md#connection-issues).
+* Behandeln Sie Unterbrechungen oder technische Probleme während der Sitzung. Weitere Informationen finden Sie im [Leitfaden zur Fehlerbehebung für den Live-Hub ](../kb/troubleshooting-guide-for-live-hub.md#connection-issues).
 
 ### Die Sitzung wird beendet.
 

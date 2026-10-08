@@ -4,13 +4,14 @@ title: Benutzeranmeldung
 description: Benutzeranmeldung für Adobe Learning Manager
 contentowner: manochan
 exl-id: c293c8b1-2a25-4b55-8715-43797049e17e
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 66%
-
+source-wordcount: '205'
+ht-degree: 74%
 ---
-
 # Benutzeranmeldung
 
 Wenn Sie Adobe Learning Manager zum ersten Mal verwenden, müssen Sie ein Konto erstellen, indem Sie die unten angeführten Schritte befolgen:
@@ -24,13 +25,13 @@ Wenn Sie Adobe Learning Manager zum ersten Mal verwenden, müssen Sie ein Konto 
 *Bei Adobe Learning Manager anmelden*
 
 1. Geben Sie die Adobe-ID und das Kennwort ein und klicken Sie auf „Anmelden“.\
-   Wenn Sie das Kennwort vergessen haben, klicken Sie auf **[!UICONTROL Kennwort vergessen?]**-Link und geben Sie Ihre E-Mail-ID an, die Sie zum Erstellen von Adobe ID verwendet haben.
+   Wenn Sie das Kennwort vergessen haben, klicken Sie auf **[!UICONTROL Kennwort vergessen?]**. und geben Sie Ihre E-Mail-ID ein, die Sie zum Erstellen von Adobe ID verwendet haben.
 
-1. Alternativ können Sie die Enterprise ID verwenden, indem Sie auf **[!UICONTROL Mit einem Link zur Enterprise ID anmelden]** klicken.
+1. Sie können auch die Unternehmens-ID verwenden, indem Sie auf **[!UICONTROL Mit Unternehmens-ID-Link anmelden]** klicken.
 
 >[!NOTE]
 >
->Sobald Sie sich zum ersten Mal anmelden, wird Ihre Adobe ID mit Ihrem Unternehmenskonto verknüpft. Für alle folgenden Anmeldungen können Sie Ihre Konto-URL (zweite URL), die Sie in der Begrüßungs-E-Mail erhalten haben, als Lesezeichen setzen.
+>Sobald Sie sich zum ersten Mal anmelden, wird Ihre Adobe ID mit Ihrem Unternehmenskonto verknüpft. Bei allen folgenden Anmeldungen können Sie Ihre Konto-URL (zweite URL), die Sie in der Begrüßungs-E-Mail erhalten haben, als Lesezeichen setzen.
 
 ## Anmeldeverfahren für Benutzer {#userloginmethods}
 

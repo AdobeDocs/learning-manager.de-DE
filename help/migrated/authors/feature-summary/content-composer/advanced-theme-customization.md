@@ -1,14 +1,15 @@
 ---
-description: Erfahren Sie, wie Sie erweiterte Designeigenschaften in Content Composer verwenden, um Schriftarten, Farben, Abstände und Layout für Überschriften und Textelemente anzupassen.
+description: Erfahren Sie, wie Sie erweiterte Designeigenschaften in Content Composer verwenden, um Schriftarten, Farben, Abstand und Layout für Überschriften und Textelemente anzupassen.
 jcr-language: en_us
 title: Erweiterte Designanpassung
-source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '332'
 ht-degree: 0%
-
 ---
-
 
 # Erweiterte Anpassung des Designs im Inhalts-Composer
 
@@ -28,9 +29,9 @@ Verwenden Sie erweiterte Designeigenschaften, um die einzelnen Elemente genauer 
 
 3. Liste der Elemente festlegen: **Lektionsname**, **Themenname**, **Blocküberschrift**, **Unterüberschrift**, **Beschriftung** und **Absatz;** wählen das Element aus, das Sie anpassen möchten.
 
-4. Im Bereich [!UICONTROL Visuelle Eigenschaften] können Sie Layout und Abstand im Kurs anpassen.
+4. Im Bereich [!UICONTROL Visuelle Eigenschaften] können Sie Layout und Abstand im gesamten Kurs anpassen.
 
-   - Legen Sie den Abstand zwischen Elementen mithilfe der Optionen für die Inhaltsdichte fest.
+   - Legen Sie mithilfe der Optionen für die Inhaltsdichte den Abstand zwischen Elementen fest.
 
    - Um **Eckenradius von Karten/Bildern** festzulegen, ziehen Sie den Schieberegler oder geben Sie einen Wert ein, um die Rundheit von Karten und Bildern festzulegen. Geben Sie beispielsweise für den Radius 17 Px ein.
 

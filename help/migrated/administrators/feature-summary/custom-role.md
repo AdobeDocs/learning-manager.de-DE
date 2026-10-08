@@ -4,13 +4,14 @@ title: Benutzerdefinierte Rollen
 description: Mit der Lernpfadfunktion können Sie benutzerdefinierte Rollen definieren und einer Gruppe von Benutzern bestimmte Verantwortlichkeiten zuweisen. Mit dieser Funktion können Sie Verantwortlichkeiten zuweisen, die nicht in den Bereich der bestehenden Rolle der Person fallen.
 contentowner: dvenkate
 exl-id: dcc84f91-4e51-4ae2-b7cb-9eb29b398bc1
-source-git-commit: a45822a6aa320440243fd93855fff88766391372
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '5511'
 ht-degree: 24%
-
 ---
-
 # Benutzerdefinierte Rollen
 
 Mit dieser Funktion können Sie benutzerdefinierte Rollen definieren und bestimmten Benutzergruppen bestimmte Verantwortlichkeiten zuweisen. Mit dieser Funktion können Sie Verantwortlichkeiten zuweisen, die nicht in den Bereich der bestehenden Rolle der Person fallen.
@@ -84,7 +85,7 @@ _Benutzerdefinierte Rollen filtern_
 
    *Bereich festlegen*
 
-   &#x200B;### Das Layout der E-Mail-Vorlage erfordert die Kontoberechtigung für E-Mail-Vorlagen .
+   ### Das Layout der E-Mail-Vorlage erfordert die Kontoberechtigung für E-Mail-Vorlagen .
 
    Um eine E-Mail-Vorlage auf Kursebene anzuzeigen, deren Layout korrekt gerendert wurde, benötigt eine benutzerdefinierte Rolle **beide** der folgenden Elemente:
 
@@ -433,7 +434,7 @@ Ein großes Unternehmen verfügt über ein dediziertes Team, das für das Erstel
 
 ### HR-Abläufe und User Lifecycle Management
 
-Ein HR-Betriebsteam ist für die Bereinigung von Konten verantwortlich, wenn Mitarbeiter das Unternehmen verlassen. Sie müssen gelöschte Benutzer regelmäßig bereinigen, sollten aber keinen Zugriff auf Kursinhalte, Teilnehmerdaten oder Systemeinstellungen haben. Durch Gewähren eines erweiterten Vollzugriff, der nur auf die Benutzerverwaltung beschränkt ist, erhält das HR-Team den spezifischen Zugriff, den es für die Benutzerbereinigung und den Import benötigt, ohne dass andere administrative Funktionen verfügbar gemacht werden.
+Ein HR-Betriebsteam ist für die Bereinigung von Konten verantwortlich, wenn Mitarbeiter das Unternehmen verlassen. Sie müssen gelöschte Benutzer regelmäßig bereinigen, sollten aber keinen Zugriff auf Kursinhalte, Teilnehmerdaten oder Systemeinstellungen haben. Durch Gewähren eines erweiterten Vollzugriff, der nur auf die Benutzerverwaltung beschränkt ist, erhält das HR-Team den spezifischen Zugriff, den es für die Benutzerbereinigung und den Import benötigt, ohne andere Verwaltungsfunktionen legen.
 
 ### Compliance- und Auditteam
 

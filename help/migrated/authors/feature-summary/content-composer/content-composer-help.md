@@ -2,13 +2,14 @@
 title: Hilfe zu Adobe Learning Manager Content Composer (Beta)
 description: Adobe Learning Manager Content Composer macht aus einer einfachen Eingabeaufforderung einen veröffentlichungsfertigen Kurs mit Lektionen, Bewertungen und Medien, die auf KI basieren.
 contentowner: saghosh
-source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '752'
 ht-degree: 0%
-
 ---
-
 
 # Hilfe zu Adobe Learning Manager Content Composer (Beta)
 
@@ -20,12 +21,12 @@ ht-degree: 0%
 
 Adobe Learning Manager Content Composer ist ein KI-Tool zur Erstellung von Kursen, mit dem eine einfache Eingabeaufforderung in einen strukturierten, veröffentlichungsfähigen Kurs mit Lektionen, Bewertungen und Medien umgewandelt wird, ohne dass zuvor Erfahrung mit didaktischer Gestaltung erforderlich ist.
 
-Content Composer führt Autoren durch Schulungsziele, Quellmaterial und Lernziele mithilfe von Konversationen und generiert dann Kurse, die intelligent, markenkonform und bereit sind, direkt in Adobe Learning Manager zu veröffentlichen.
+Content Composer führt Autoren durch Schulungsziele, Quell-Material und Lernziele mithilfe von Konversationen und generiert dann Kurse, die intelligent, markenkonform und bereit sind, direkt in Adobe Learning Manager zu veröffentlichen.
 
 **Wichtigste Highlights**
 
 - **Erstellung von KI-gestützten Kursen**: Eine KI für die Kommunikation stellt zielgerichtete Fragen, um aus Schulungszielen klare, messbare Lernziele zu machen.
-- **Generierung mit Dokumentenerdung**: Autoren laden vorhandene Dokumente, Richtlinien oder Decks hoch. Die KI generiert aus diesem Material eine kurze Zusammenfassung. Autoren akzeptieren oder bearbeiten, bevor etwas erstellt wird.
+- **Generierung mit Dokumentenerdung**: Autoren laden vorhandene Dokumente, Richtlinien oder Decks hoch. Die KI generiert aus diesem Material eine Kurzübersicht und einen Überblick. Autoren akzeptieren oder bearbeiten, bevor etwas erstellt wird.
 - **Instruktive Soundausgabe**: Kurse, Bewertungen und Medien werden mithilfe strukturierter Lernprinzipien generiert, wodurch der Output pädagogisch effektiv bleibt und nicht nur schnell produziert werden kann.
 - **Direktes Veröffentlichen in Adobe Learning Manager**: Abgeschlossene Kurse werden direkt in Adobe Learning Manager veröffentlicht. Kein separates Authoring-Tool, kein manueller SCORM-Export.
 - **Arbeitsablauf für ein System**: Die Erstellung von Kursen, die Verwaltung von Teilnehmern und die Berichterstellung verbleiben auf einer Plattform, wodurch der Aufwand für die Verwaltung mehrerer Tools zur Erstellung und Bereitstellung von Inhalten entfällt.
@@ -34,7 +35,7 @@ Content Composer führt Autoren durch Schulungsziele, Quellmaterial und Lernziel
 
 >[!IMPORTANT]
 >
->Sie müssen sich mit einem gültigen Adobe Creative Cloud-Konto anmelden. Wenn Sie noch kein Konto haben, können Sie über Adobe Expreß ein kostenloses Konto erstellen. Weitere Informationen finden Sie unter [Erstellen eines kostenlosen Adobe Expreß-Kontos](https://helpx.adobe.com/de/express/web/adobe-express-subscription/free.html). Starten Sie nach dem Erstellen Ihrer Adobe-Anmeldeinformationen den Content Composer und melden Sie sich an, um mit dem Erstellen von Kursen zu beginnen. Wenn Ihr Unternehmen bereits über ein Creative Cloud-Abonnement verfügt, wenden Sie sich an Ihren Administrator, um ein Creative Cloud-Konto für Sie bereitzustellen, bevor Sie sich bei Content Composer anmelden.
+>Sie müssen sich mit einem gültigen Adobe Creative Cloud-Konto anmelden. Wenn Sie noch kein Konto haben, können Sie über Adobe Expreß ein kostenloses Konto erstellen. Weitere Informationen finden Sie unter [Erstellen eines kostenlosen Adobe Expreß-Kontos](https://helpx.adobe.com/express/web/adobe-express-subscription/free.html). Starten Sie nach dem Erstellen Ihrer Adobe-Anmeldeinformationen den Content Composer und melden Sie sich an, um mit dem Erstellen von Kursen zu beginnen. Wenn Ihr Unternehmen bereits über ein Creative Cloud-Abonnement verfügt, wenden Sie sich an Ihren Administrator, um ein Creative Cloud-Konto für Sie bereitzustellen, bevor Sie sich bei Content Composer anmelden.
 
 >[!NOTE]
 >

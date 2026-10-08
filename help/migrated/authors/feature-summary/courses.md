@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Kurse erstellen, ändern und veröffentlichen
 contentowner: manochan
 exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
-source-git-commit: 69b71c03b9efa8726d939b53a185d5efb8eb9cca
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '10239'
 ht-degree: 56%
-
 ---
-
 # Erstellen, Ändern und Veröffentlichen von Kursen
 
 In diesem Artikel erfahren Sie, wie Sie Kurse, Zertifizierungen und Lernprogramme in Learning Manager erstellen.
@@ -70,7 +71,7 @@ Um einen Kurs zu erstellen, führen Sie die unten genannten Schritte aus:
 
    >[!NOTE]
    >
-   >Diese Option ist nur aktiviert, wenn der Adobe Commerce-Connector konfiguriert ist.
+   >Diese Option ist nur aktiviert, wenn die Adobe Commerce-Verbindung konfiguriert ist.
 
 7. Wenn Sie die Möglichkeit geben, für die Teilnehmer, sich von Ihrem Kurs abzumelden, aktivieren Sie das Kontrollkästchen **Teilnehmer können sich selbst abmelden**.
 
@@ -131,7 +132,7 @@ Das Schulungsbuch wird auf Kursebene konfiguriert, wenn ein neuer Kurs erstellt 
   ![](assets/image_0003.png)
 
 * Wählen Sie den Schalter **Gradebook**, um ihn zu aktivieren. Darunter werden zwei Optionen angezeigt. Beide sind standardmäßig aktiviert:
-  * **Kursbuch für Teilnehmer anzeigen:** Teilnehmer sehen eine **Kursbuch-Registerkarte** im Kursplayer, auf der ihre Modulpunktzahlen, die Gewichtungsaufschlüsselung und das Gesamtergebnis angezeigt werden. Deaktivieren Sie diese Option, um Bewertungen intern zu berechnen, ohne sie den Teilnehmern zur Verfügung zu stellen.
+  * **Kursbuch für Teilnehmer anzeigen:** Teilnehmer sehen eine **Kursbuch-Registerkarte** im Kursplayer, auf der ihre Modulpunktzahlen, die Gewichtungsaufschlüsselung und das Gesamtergebnis angezeigt werden. Deaktivieren Sie diese Option, um Bewertungen intern zu berechnen, ohne sie Teilnehmern legen.
   * **Einschließen von Modulen, die nicht zur Endnote beitragen:** Nicht bewertbare Module (PDF, Video, Audio und Ähnliches) werden im Notenbuch angezeigt. Die nicht bewerteten Module tragen nicht zum Endergebnis des Teilnehmers bei.
 
 ### Module hinzufügen und Gewichtung zuweisen
@@ -455,7 +456,7 @@ Der Standardstil erfüllt möglicherweise nicht alle Anforderungen. Die Anpassun
 
 ### API-ÄNDERUNGEN ZUM AKTIVIEREN VON RICH-TEXT-ÜBERSICHTEN
 
-Wenn Kunden eine Headless-Benutzeroberfläche erstellen, müssen sie die Lernobjekte in der von ihnen entwickelten benutzerdefinierten Benutzeroberfläche anzeigen. Hierzu wird üblicherweise die API [GET /learningObjects](https://learningmanagereu.adobe.com/docs/primeapi/v2/#!/learning_object/get_learningObjects) verwendet, die bereitgestellt wird. Da Learning Manager jetzt die Erfassung von &quot;Rich-Text&quot; für das Übersichtsfeld unterstützt, macht das Datenmodell von Lernobjekten in den API-Antworten dasselbe ebenfalls verfügbar. Weitere Informationen finden Sie im Feld &quot;richTextOverview&quot; im Fragment des Modells in der API-Antwort unten. Beachten Sie außerdem, dass das zuvor angezeigte Feld (&quot;overview&quot;) aus Gründen der Abwärtskompatibilität unverändert bleibt.
+Wenn Kunden eine Headless-Benutzeroberfläche erstellen, müssen sie die Lernobjekte in der von ihnen entwickelten benutzerdefinierten Benutzeroberfläche anzeigen. Hierzu wird üblicherweise die API [GET /learningObjects](https://learningmanagereu.adobe.com/docs/primeapi/v2/#!/learning_object/get_learningObjects) verwendet, die bereitgestellt wird. Da Learning Manager jetzt die Erfassung von &quot;Rich Text&quot; für das Übersichtsfeld unterstützt, legt das Datenmodell von Lernobjekten in den API-Antworten ebenfalls dasselbe. Weitere Informationen finden Sie im Feld &quot;richTextOverview&quot; im Fragment des Modells in der API-Antwort unten. Beachten Sie außerdem, dass das zuvor gelegt Feld (&quot;overview&quot;) aus Gründen der Abwärtskompatibilität unverändert bleibt.
 
 ```
 { 
@@ -581,7 +582,7 @@ Führen Sie die folgenden Schritte aus, um ein Inhaltsmodul hinzuzufügen:
 
    *VC-Modul hinzufügen*
 
-   Wenn Sie einen Kurs mithilfe des Konfigurationsdialogfelds &quot;Virtuelles Klassenzimmer&quot; erstellen, stellen Sie das **Konferenzsystem** auf die von Ihnen erstellte Teams-Verbindung ein. Wählen Sie aus, ob Sie einen Meetingorganisator für die Veranstaltung wünschen.
+   Wenn Sie einen Kurs mithilfe des Konfigurationsdialogfelds &amp;quot;Virtuelles Klassenzimmer&amp;quot; erstellen, stellen Sie das **Konferenzsystem** auf die von Ihnen erstellte Teams-Verbindung ein. Wählen Sie aus, ob Sie einen Meetingorganisator für die Veranstaltung wünschen.
 
    Wenn Sie **Ja** für einen Meetingveranstalter auswählen, müssen Sie den Namen des Veranstalters eingeben. Geben Sie den Namen ein und wählen Sie den Organisator aus.
 
@@ -706,7 +707,7 @@ Nur ein Autor kann eine Checkliste erstellen. Eine Checkliste ist ein Aktivität
 
    >[!NOTE]
    >
-   >ALM übersetzt die Fragen nicht automatisch in diese zusätzlichen Sprachen. Sie müssen die Fragen in die jeweiligen Sprachen übersetzen.
+   >ALM Kamera bewegt die Fragen in diesen zusätzlichen Sprachen nicht automatisch für Sie. Die Fragen müssen in den jeweiligen Sprachen Kamera bewogen werden.
 
 5. Wählen Sie **Speichern**. Die Fragen werden in allen Sprachen gespeichert.
 6. Wählen Sie alle anderen relevanten Optionen aus und wählen Sie **Hinzufügen**. Die Checkliste wird in allen Sprachen erstellt, in denen der Kurs verfügbar ist.
@@ -795,7 +796,7 @@ Geben Sie auf dieser Seite die folgenden Details ein:
 Durch das Kommentieren von Checklisten können Autoren **kontextbezogenes Feedback** während checklistenbasierter Auswertungen aktivieren.\
 Wenn diese Option aktiviert ist, können Prüfer (Kursleiter oder Manager) Anmerkungen hinzufügen, in denen die Ergebnisse der Bewertung erläutert werden, die über die Punktzahl oder den Status &quot;Bestanden/Nicht bestanden&quot; hinausgehen.
 
-Diese Funktion wandelt Checklisten aus einem rein bewertenden Tool in einen **Feedback-gesteuerten Lernmechanismus** um, wodurch das Verständnis der Teilnehmer, die Transparenz und die Folgeaktionen verbessert werden.
+Diese Funktion transformieren Checklisten aus einem rein auswertenden Tool in einen **Feedback-gesteuerten Lernmechanismus**, wodurch das Verständnis der Teilnehmer, die Transparenz und die Folgeaktionen verbessert werden.
 
 Auf diese Weise können Autoren:
 
@@ -907,7 +908,7 @@ Vermeiden Sie das Erstellen und Verwalten mehrerer Checklistenmodule für versch
 2. Navigieren Sie zum Abschnitt **Fragen konfigurieren**.
 3. Verwenden Sie die **Sprachregisterkarten**, um zwischen verfügbaren Sprachen zu wechseln.
 4. Für jede Sprache:
-   * Fügen Sie die übersetzte Version jeder Checklistenfrage hinzu
+   * Hinzufügen der Kamera bewogen Version jeder Checklistenfrage
    * Beibehalten der gleichwertigen Bedeutung und der gleichwertigen Evaluierungsabsicht für alle Sprachen
 5. Definieren Sie nach Bedarf Checklistenkriterien (Ja/Nein, skalierungsbasiert oder ergebnisbasiert).
 
@@ -1240,7 +1241,7 @@ Sie können in Learning Manager mit den Menüoptionen „Veröffentlichen“ Kur
 1. Melden Sie sich mit Adobe-Anmeldeinformationen an. Wenn Sie noch keine Adobe ID haben, klicken Sie auf **[!UICONTROL Konto erstellen]**. Nach der Autorisierung werden Sie zur Seite für die Veröffentlichung von Modulen weitergeleitet.
 1. Geben Sie alle Basisinformationen über das Modul ein und klicken Sie auf „Veröffentlichen“.
 
-Sie sehen das veröffentlichte Modul auf der Modulseite von Learning Manager. Weitere Informationen finden Sie unter [Projekt in Adobe Learning Manager veröffentlichen](https://helpx.adobe.com/de/captivate/classic/publish-project-to-captivate-prime.html).
+Sie sehen das veröffentlichte Modul auf der Modulseite von Learning Manager. Weitere Informationen finden Sie unter [Projekt in Adobe Learning Manager veröffentlichen](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html).
 
 ## Kurseffektivität {#courseeffectiveness}
 

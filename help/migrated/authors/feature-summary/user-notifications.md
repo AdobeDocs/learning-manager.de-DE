@@ -4,13 +4,14 @@ title: Benutzerbenachrichtigungen
 description: Die Benachrichtigungsfunktion gilt für alle Benutzer von Adobe Learning Manager. Jeder Benutzer erhält jedoch basierend auf seiner Rolle in verschiedenen Szenarien unterschiedliche Benachrichtigungen. Alle Warnungen und Benachrichtigungen an Benutzer werden über das Popup-Dialogfeld für Benachrichtigungen angezeigt.
 contentowner: manochan
 exl-id: 241a2ceb-d6ba-4494-861b-828e3eb218a3
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 85%
-
+source-wordcount: '239'
+ht-degree: 100%
 ---
-
 # Benutzerbenachrichtigungen
 
 Die Benachrichtigungsfunktion gilt für alle Benutzer von Adobe Learning Manager. Jeder Benutzer erhält jedoch basierend auf seiner Rolle in verschiedenen Szenarien unterschiedliche Benachrichtigungen. Alle Warnungen und Benachrichtigungen an Benutzer werden über das Popup-Dialogfeld für Benachrichtigungen angezeigt.
@@ -27,7 +28,7 @@ In diesem Popupfenster werden Markierungen für Benachrichtigungen zusammen mit 
 
 Die Anzahl der neuen Benachrichtigungen wird durch die markierte Zahl oben auf dem Benachrichtigungssymbol angezeigt. Wenn es beispielsweise seit Ihrer letzten Anmeldung fünf neue Benachrichtigungen gibt, wird oben am Benachrichtigungssymbol die Zahl fünf angezeigt. Wenn Sie die neuesten Benachrichtigungen gelesen haben, wird diese Zahl ausgeblendet.
 
-Klicken Sie auf den Link **[!UICONTROL Alle Benachrichtigungen anzeigen]** am unteren Rand des Benachrichtigungs-Popup-Fensters, um alle Benachrichtigungen auf einer separaten Seite anzuzeigen.
+Klicken Sie am unteren Rand des Benachrichtigungs-Popupfensters auf den Link **[!UICONTROL Alle Benachrichtigungen anzeigen]**, um alle Benachrichtigungen auf einer separaten Seite anzuzeigen.
 
 ![](assets/author-notifications-page.png)
 
@@ -35,5 +36,5 @@ Klicken Sie auf den Link **[!UICONTROL Alle Benachrichtigungen anzeigen]** am un
 
 Autoren erhalten Benachrichtigungen, wenn die folgenden Ereignisse eintreten:
 
-* Wenn der Modul-Upload erfolgreich war
-* Wenn eine Modulversion geändert wird
+* Wenn das Hochladen eines Moduls erfolgreich war
+* Wenn eine Modulversion geändert wurde

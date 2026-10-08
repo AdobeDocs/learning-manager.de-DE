@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Manager-Dashboard
 contentowner: kuppan
 exl-id: 32d017bf-ee5a-4749-947d-0d62b32d6f38
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1507'
 ht-degree: 50%
-
 ---
-
 # Manager-Dashboard
 
 Erfahren Sie, wie Sie Lernergebnisse über das Manager-Dashboard anzeigen und verfolgen können.
@@ -61,7 +62,7 @@ Auf ähnliche Weise können Sie die Lernobjekte zusammen mit der Anzahl der Regi
 
 *Kurse und Lernzusammenfassung anzeigen*
 
-Wenn Sie weiter auf die Anzahl der Registrierungen, Fortschritte oder Abschlüsse für jedes Lernen klicken, können Sie die folgenden Details anzeigen: Personen, Anmelde-/Abschlussdatum, Fälligkeitsdatum und Fortschritt.
+Wenn Sie weiter auf die Anzahl der Registrierungen, Fortschritte oder Abschlüsse für jedes Lernen klicken, können Sie die folgenden Details anzeigen: Personen, Anmelde-/Abschlussdatum, Fälligkeitsdatum und erzielter Fortschritt.
 
 ![](assets/ls-team-view-on-furtherclickingthevaluesforalearning.png)
 
@@ -96,11 +97,11 @@ _Kompatibilitäts-Dashboard-Manager-App_
 
 Das Kompatibilitäts-Dashboard umfasst die folgenden Kompatibilitätsstatus:
 
-* **[!UICONTROL Nicht konforme Teilnehmer]**: Anzahl der Teilnehmer, die Fristen nicht eingehalten haben.
-* **[!UICONTROL Teilnehmer nähern sich Fristen]**: Zeigt die Anzahl der Teilnehmer mit Fristen in weniger als 30 Tagen an.
-* **[!UICONTROL Teilnehmer mit sicheren Fristen]**: Zeigt die Anzahl der Teilnehmer mit weiter entfernten Fristen (mehr als 30 Tage) an.
-* **[!UICONTROL Vollständig kompatible Teilnehmer]**: Zeigt die Anzahl der vollkompatiblen Teilnehmer an.
-* **[!UICONTROL Teilnehmer nirgendwo registriert]**: Zeigt die Anzahl der Teilnehmer an, die nicht für Kurse, Lernpfade oder Zertifizierungen registriert sind.
+* **[!UICONTROL Nicht-kompatible Teilnehmer]**: Zeigt die Anzahl der Teilnehmer an, die Fristen nicht eingehalten haben.
+* **[!UICONTROL Teilnehmer nähern sich Fristen]**: Zeigt die Anzahl der Teilnehmer mit Deadlines in weniger als 30 Tagen an.
+* **[!UICONTROL Teilnehmer mit sicheren Fristen]**: Zeigt die Anzahl der Teilnehmer an, deren Fristen weiter entfernt sind (mehr als 30 Tage).
+* **[!UICONTROL Vollständig kompatible Teilnehmer]**: Zeigt die Anzahl der vollständig konformen Teilnehmer an.
+* **[!UICONTROL Teilnehmer sind nirgendwo registriert]**: Zeigt die Anzahl der Teilnehmer an, die sich nicht für Kurse, Lernpfade oder Zertifizierungen registriert haben.
 
 ### E-Mail-Manager und Teilnehmer
 
@@ -113,8 +114,8 @@ _E-Mail-Manager_
 
 Der **[!UICONTROL E-Mail-Manager]** bietet Ihnen die folgenden Optionen:
 
-* **[!UICONTROL E-Mail-Manager von nicht konformen Teilnehmern]**: Benachrichtigen Sie Manager, deren Teammitglieder Fristen versäumt haben.
-* **[!UICONTROL E-Mail-Manager von Teilnehmern erreichen Fristen]**: Benachrichtigen Sie Manager, deren Teammitglieder bevorstehende Fristen haben.
+* **[!UICONTROL E-Mail-Manager von nicht kompatiblen Teilnehmern]**: Manager benachrichtigen, deren Teammitglieder Fristen versäumt haben
+* **[!UICONTROL E-Mail-Manager von Teilnehmern, die Termine erreichen]**: Benachrichtigen Sie Manager, deren Teammitglieder bevorstehende Termine haben.
 
 **Einzelnes Team verwalten**
 
@@ -125,8 +126,8 @@ _E-Mail an Teilnehmer_
 
 Die Option **[!UICONTROL E-Mail-Teilnehmer]** bietet Ihnen die folgenden Optionen:
 
-* **[!UICONTROL Nicht konforme Teilnehmer per E-Mail benachrichtigen]**: Benachrichtigen Sie Teilnehmer, die Fristen versäumt haben.
-* **[!UICONTROL E-Mail-Teilnehmer, die Fristen erreichen]**: Benachrichtigen Sie Teilnehmer, die bevorstehende Fristen haben.
+* **[!UICONTROL E-Mail-Adresse für nicht kompatible Teilnehmer]**: Benachrichtigen Sie Teilnehmer, die Fristen versäumt haben.
+* **[!UICONTROL E-Mail-Teilnehmer, die Termine erreichen]**: Benachrichtigen Sie Teilnehmer, die bevorstehende Fristen haben.
 
 ### Bericht herunterladen
 
@@ -234,7 +235,7 @@ Folgen Sie den nachstehenden Schritten, um den Teamabschluss in % für Kenntniss
 
    *Wählen Sie den Hyperlink &quot;Konfigurieren&quot; aus*
 
-1. Geben Sie im Popup-Dialogfeld &quot;Konfigurieren&quot; für die Kenntnisse, die Sie konfigurieren möchten, einen Prozentwert in das Feld **Zielabschluss %** und das Datum ein, bis zu dem Sie den Zielabschluss % im Feld **Zieldatum** erreichen möchten.**&#x200B;**
+1. Geben Sie im Popup-Dialogfeld &quot;Konfigurieren&quot; für die Kenntnisse, die Sie konfigurieren möchten, einen Prozentwert in das Feld **Zielabschluss %** und das Datum ein, bis zu dem Sie den Zielabschluss % im Feld **Zieldatum** erreichen möchten.****
 
    ![](assets/configure-tracker.png)
 

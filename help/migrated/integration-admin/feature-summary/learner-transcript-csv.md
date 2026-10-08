@@ -4,13 +4,14 @@ title: Teilnehmertranskript-CSV interpretieren
 description: Teilnehmertranskript-CSV interpretieren
 contentowner: saghosh
 preview: true
-source-git-commit: fcc50e80f94bdcbc8de2cddac92f1a12b55e1e18
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '2997'
-ht-degree: 88%
-
+source-wordcount: '2996'
+ht-degree: 93%
 ---
-
 
 
 # Teilnehmertranskript-CSV interpretieren
@@ -41,19 +42,19 @@ Das über die Benutzeroberfläche generierte Teilnehmertranskript ist eine Excel
 
 ## Teilnehmertranskript exportieren {#exportlearnertranscript}
 
-Wenn das Teilnehmertranskript an ein externes System übermittelt werden muss, kann es über die Learning Manager-Funktion „Daten exportieren“ exportiert werden; diese Funktion bietet verschiedene Datentypen an, u. a. eben das Teilnehmertranskript. Wie in der Präambel erläutert, ist dies für die Integration von Learning Manager in ein externes System erforderlich, das Lernverhaltensdaten verarbeiten muss, oder für die Befüllung eines Enterprise Data Warehouse mit Lernverhaltensdaten.
+Wenn das Teilnehmertranskript an ein externes System übermittelt werden muss, kann es über die Learning Manager-Funktion „Daten exportieren“ exportiert werden; diese Funktion bietet verschiedene Datentypen an, u. a. eben das Teilnehmertranskript. Wie bereits erwähnt, ist dies für die Integration von Learning Manager in ein externes System, in dem die Lernverhaltensdaten verarbeitet werden sollen, sowie für die Übernahme der Lernverhaltensdaten in einem Enterprise Data Warehouse erforderlich.
 
 Weitere Informationen zur Unterstützung des Teilnehmertranskript-Exports durch die Connectors finden Sie unter [Daten exportieren](/help/migrated/integration-admin/feature-summary/connectors.md) in den FTP-, Box- und PowerBI-Connectors.
 
-Über diese Anschlüsse werden die Daten regelmäßig (einmal alle n Tage) in eine nachgelagerte Anwendung exportiert. Bei jedem Durchlauf exportieren diese Connectors lediglich die inkrementellen Lernverhaltensdaten. Beachten Sie, dass diese Connectors das Abrufen von Datensätzen nicht zulassen, die sich auf eine bestimmte Untergruppe von Benutzern oder Lernobjekten beziehen - es handelt sich immer um Daten über alle Benutzer und alle Lernobjekte in diesem Konto.
+Über diese Anschlüsse werden die Daten regelmäßig (einmal alle n Tage) in eine nachgelagerte Anwendung exportiert. Bei jedem Durchlauf exportieren diese Connectors lediglich die inkrementellen Lernverhaltensdaten. Beachten Sie, dass es mit diesen Verbindungen nicht möglich ist, Datensätze abzurufen, die sich auf eine bestimmte Untergruppe von Benutzern oder Lernobjekten beziehen - es handelt sich immer um Daten über alle Benutzer und alle Lernobjekte in diesem Konto.
 
-Bei PowerBI sollte der Kunde einen Arbeitsbereich bereitstellen, in dem Learning Manager diese Daten inkrementell in ein dynamisch erstelltes Dataset exportieren kann. Dieser Connector exportiert lediglich die Daten, und die Kunden müssen bei Bedarf eigene Berichte/Dashboards auf der Grundlage dieses Datasets erstellen.
+Bei Power BI muss der Kunde einen Arbeitsbereich einrichten, in dem Learning Manager diese Daten laufend inkrementell in ein dynamisch erstelltes Dataset exportieren kann. Dieser Connector exportiert lediglich die Daten, und die Kunden müssen bei Bedarf eigene Berichte/Dashboards auf der Grundlage dieses Datasets erstellen.
 
 Im nächsten Abschnitt wird erläutert, wie ein nachgelagertes System die Datensätze im Teilnehmertranskript interpretieren soll.
 
 ## Teilnehmertranskript interpretieren {#interpretthelearnertranscript}
 
-Jede Zeile in einem Teilnehmertranskript kann als ein Lernverhalten betrachtet werden, das in einem bestimmten Zeitraum im Lernmanager erfasst wurde. In der Regel exportieren die Connectors &quot;inkrementelle Daten&quot;, sodass die Zeilen Lernaktivitäten darstellen, die zwischen der letzten und der aktuellen Ausführung des Connectors stattgefunden haben.
+Die einzelnen Zeilen in einem Teilnehmertranskript stellen quasi das Lernverhalten dar, das in Learning Manager in einem bestimmten Zeitraum erfasst wurde. In der Regel exportieren die Verbindungen &quot;inkrementelle Daten&quot;, sodass die Zeilen Lernaktivitäten darstellen, die zwischen der letzten und der aktuellen Verbindung stattgefunden haben.
 
 Das Teilnehmertranskript lässt sich über die Connectors natürlich auch je nach Bedarf abrufen. In diesem Fall kann der Benutzer ein Startdatum angeben, und als Enddatum wird der jetzige Zeitpunkt angenommen. In der Regel wird dieser Vorgang nur einmalig durchgeführt, und anschließend wird der Connector für den Export des inkrementellen Teilnehmertranskripts alle n Tage zu einer bestimmten Tageszeit eingerichtet (n ist standardmäßig 1).
 
@@ -61,7 +62,7 @@ Im Folgenden soll definiert werden, was ein inkrementelles Teilnehmertranskript 
 
 Jede Zeile im Teilnehmertranskript steht für eine bestimmte Aktivität mit einem bestimmten Teilnehmer und einem bestimmten Lernobjekt. Wir sind hauptsächlich an dem Status eines Teilnehmers in Bezug auf das Lernobjekt interessiert: **Registriert**, **Begonnen**, **In Bearbeitung** und **Abgeschlossen**. Im Teilnehmertranskript sind entsprechend vier Datumsangaben vermerkt.
 
-Es gibt nun drei Arten von Lernobjekten, bei denen der Lern-Manager den Fortschritt der Teilnehmer verfolgt. Die exportierten Daten enthalten Fortschrittsinformationen auf Modulebene, also zur detailliertesten Inhaltseinheit, die ein Teilnehmer im Lern-Manager erleben kann.
+Learning Manager verfolgt den Fortschritt der Teilnehmer bei drei Arten von Lernobjekten, und die exportierten Daten enthalten Fortschrittsinformationen auf Modulebene, also zur detailliertesten Inhaltseinheit für einen Teilnehmer in Learning Manager.
 
 * **Kurs** - eine Komposition aus mindestens einem Modul
 * **Lernprogramm** - Zusammenstellung mit mindestens einem Kurs
@@ -422,5 +423,5 @@ Die Spalten des Teilnehmertranskripts enthalten verschiedene Informationen zu de
 | Anzahl der Kenntnisse, die aktualisiert werden müssen | Nie leer | Anzahl der Teilnehmer, deren Kenntnisse aktualisiert werden müssen. |
 | Prozentsatz der Kompatibilität | Nie leer | Der Prozentsatz des Fortschritts bezüglich der zugewiesenen Kenntnisse. |
 
-* Manchmal können Administratoren ein Lernobjekt noch lange nach der Schulung manuell als abgeschlossen markieren (insbesondere bei Präsenzkursen). Wenn in einem solchen Szenario die Funktion „Daten exportieren“ für den täglichen LT-Export eingerichtet ist, liegt das tatsächliche Abschlussdatum möglicherweise in der Vergangenheit. Diese Abschlussdatensätze, die lange nach der Schulung als abgeschlossen markiert wurden, gehen daher nie in den Export ein. Wenn dies erkannt wird, sollten Sie das Transkript ab einem bestimmten Startdatum bis zu einem bestimmten Datum (nach Bedarf) in der Benutzeroberfläche exportieren und es dann zur &quot;späten Verarbeitung&quot; an die nachgelagerte Anwendung übermitteln. Dabei müssen Sie möglicherweise Datensätze ignorieren, die bereits verarbeitet wurden.
+* Manchmal können Administratoren ein Lernobjekt noch lange nach der Schulung manuell als abgeschlossen markieren (insbesondere bei Präsenzkursen). Wenn in einem solchen Szenario die Funktion „Daten exportieren“ für den täglichen LT-Export eingerichtet ist, liegt das tatsächliche Abschlussdatum möglicherweise in der Vergangenheit. Diese Abschlussdatensätze, die lange nach der Schulung als abgeschlossen markiert wurden, gehen daher nie in den Export ein. Wenn dies erkannt wird, können Sie das Transkript ab einem bestimmten Startdatum bis zu einem bestimmten Datum (nach Bedarf) in der Benutzeroberfläche exportieren. und dann zur nachgeschalteten Anwendung für die &quot;späte Verarbeitung&quot; weiterleiten. Dabei müssen Sie möglicherweise Datensätze ignorieren, die bereits verarbeitet wurden.
 * Die Angabe für „Mehrere Versuche“ für ein Modul ist davon abhängig, ob diese Option für das betreffende LO aktiviert ist. Wenn diese Option aktiviert ist, wird in einer CSV-Zeile für ein Modul jeweils ein bestimmter Versuch angezeigt. Unter Umständen werden nicht alle Versuche an einem Tag gemeldet, sodass die Gesamtzahl der Versuche um mehr als einen Versuch steigt. Außerdem kann ein Versuch nicht unbedingt zu einer besseren Punktzahl führen, und es wird jeweils nur die beste Punktzahl angezeigt.

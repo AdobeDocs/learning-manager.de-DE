@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Adobe Learning Manager-App für Microsoft Teams
 contentowner: saghosh
 exl-id: 70c687ac-0ca6-4bc1-8c86-76943aeaf3e5
-source-git-commit: b882c22da029cdc4c8bcc4ab1b6d861f06f83f0f
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 41%
-
+source-wordcount: '635'
+ht-degree: 42%
 ---
-
 # Adobe Learning Manager-App für Microsoft Teams
 
 ## Einrichten
@@ -29,9 +30,9 @@ Azure-Administrator(inn)en müssen die erforderlichen Berechtigungen für die AL
 
 MS Teams-Administrator(inn)en sollten in ihrem Admin Center die ALM-App für alle Benutzenden anheften und als globale Richtlinie zulassen. Wenn ALM nur von einer bestimmten Gruppe im Unternehmen verwendet wird, müssen MS Teams-Administrator(inn)en eine benutzerdefinierte Richtlinie auswählen und sie nur auf diese bestimmte Gruppe anwenden.
 
-## Integration Admin-Rolle genehmigt Teams-App
+## Integrations-Administrator(inn)en-Rolle genehmigt Teams-App
 
-Führen Sie die nachfolgenden Schritte aus:
+Führen Sie die unten genannten Schritte aus:
 
 1. Wählen Sie in der Integrationsadministrator-App **[!UICONTROL Anwendungen]** > **[!UICONTROL Empfohlene Apps]** und anschließend **[!UICONTROL ALM Teams-App]**.
 
@@ -57,7 +58,7 @@ Jetzt können Benutzer auf MS Teams auf die ALM-App zugreifen.
 
 ## Microsoft Azure-Administrator(in) genehmigt die Berechtigung für ALM-App im Azure Dashboard
 
-Führen Sie die nachfolgenden Schritte aus:
+Führen Sie die unten genannten Schritte aus:
 
 1. Navigieren Sie als Azure-Administrator zum Abschnitt Azure Active Directory verwalten im Azure-Dashboard.
 
@@ -102,7 +103,7 @@ Führen Sie die nachfolgenden Schritte aus:
 
 ## MS Teams-Administrator(in) erstellt eine Richtlinie für die Teams-App
 
-Führen Sie die nachfolgenden Schritte aus:
+Führen Sie die unten genannten Schritte aus:
 
 1. Als MS Teams-Administrator erstellen Sie im Admin Center eine Richtlinie zum Hinzufügen der Teams-App zur Teams-App Ihrer Teilnehmer.
 

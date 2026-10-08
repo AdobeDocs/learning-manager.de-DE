@@ -4,13 +4,14 @@ jcr-language: en_us
 title: CSV-Datei kann nicht hochgeladen werden
 contentowner: saghosh
 exl-id: 10458499-1038-4c62-971f-f950d383e970
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 71%
-
+source-wordcount: '545'
+ht-degree: 77%
 ---
-
 # CSV-Datei kann nicht hochgeladen werden
 
 ## Fehler: Daten werden abgeschnitten: Daten sind zu lang für die Spalte
@@ -25,7 +26,7 @@ Wenn Sie versuchen, eine CSV-Datei in Adobe Learning Manager hochzuladen, wird d
 
 Der Fehler tritt auf, wenn die in der angegebenen Spalte vorhandenen Daten die für die Spalte definierte Zeichenbeschränkung überschreiten.
 
-## Auflösung
+## Lösung
 
 * Öffnen Sie die CSV-Datei.
 * Überprüfen Sie die Daten in der Spalte, die im Fehler erwähnt wird.
@@ -43,17 +44,17 @@ Sie können keine CSV-Datei hochladen, da in der ersten Spalte beim Zuordnen der
 
 Das Problem tritt auf, wenn die CSV-Datei in Excel im UTF-8-Format gespeichert wird. Wenn Sie eine CSV-Datei in Excel als UTF-8 speichern, wird sie im UTF-BOM-Format gespeichert. Sie können dies entweder mit Notepad++ oder beim Hochladen einer CSV-Datei in Learning-Manager beim Zuordnen der Spalten überprüfen. In der ersten Spalte wird dann ein Sonderzeichen angezeigt.
 
-## Auflösung
+## Lösung
 
 * **A:** Speichern über Excel:
 
-   1. Öffnen Sie die CSV-Datei in Excel.
-   1. Speichern Sie die Datei als normale CSV-Datei.
+  1. Öffnen Sie die CSV-Datei in Excel.
+  1. Speichern Sie die Datei als normale CSV-Datei.
 
 * **B:** Speichern über Notepad oder Notepad++:
 
-   * Öffnen Sie die CSV-Datei in Notepad oder Notepad++.
-   * Speichern Sie die Datei in einem UTF-8-Format.
+  * Öffnen Sie die CSV-Datei in Notepad oder Notepad++.
+  * Speichern Sie die Datei in einem UTF-8-Format.
 
 ## Fehler: E-Mail-Adresse eines Benutzers, der bereits im System vorhanden ist
 
@@ -67,7 +68,7 @@ Sie können keine CSV-Datei hochladen, da bei der CSV-Verarbeitung ein Fehler au
 
 Dieses Problem tritt auf, wenn ein Benutzer im System bereits mit derselben E-Mail-Adresse oder UUID vorhanden ist.
 
-## Auflösung
+## Lösung
 
 ### Szenario 1
 
@@ -76,7 +77,7 @@ Dieses Problem tritt auf, wenn ein Benutzer im System bereits mit derselben E-Ma
 In diesem Szenario gibt es zwei Ursachen für diesen Fehler:
 
 1. Der Benutzer, den Sie hinzufügen möchten, ist ein Manager eines externen Profils. Um dieses Problem zu beheben, öffnen Sie das externe Profil, zu dem der Benutzer gehört, wählen Sie den Benutzer aus, klicken Sie auf **[!UICONTROL Aktionen]** > **[!UICONTROL Rolle zuweisen]** > **[!UICONTROL Manager]** und ändern Sie den Manager des Profils.
-1. Der Benutzer, den Sie hinzufügen möchten, wurde gelöscht. In diesem Szenario können Sie den Benutzer erst dann mit derselben E-Mail-Adresse hinzufügen, wenn der Bereinigungsvorgang abgeschlossen ist. Fügen Sie den Benutzer als **&#x200B; mit &#x200B;** sekundären E-Mail-Adresse hinzu, um Zugriff auf die Plattform zu gewähren. Sobald der Bereinigungsprozess abgeschlossen ist, bearbeiten Sie den Benutzer und ändern Sie die E-Mail-Adresse in die richtige E-Mail-Adresse.
+1. Der Benutzer, den Sie hinzufügen möchten, wurde gelöscht. In diesem Szenario können Sie den Benutzer erst dann mit derselben E-Mail-Adresse hinzufügen, wenn der Bereinigungsprozess abgeschlossen ist. Fügen Sie den Benutzer als ** mit ** sekundären E-Mail-Adresse hinzu, um Zugriff auf die Plattform zu gewähren. Sobald der Bereinigungsprozess abgeschlossen ist, bearbeiten Sie den Benutzer und ändern Sie die E-Mail-Adresse in die richtige E-Mail-Adresse.
 
 ### Szenario 2
 

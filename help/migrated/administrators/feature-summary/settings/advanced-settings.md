@@ -3,18 +3,19 @@ description: Weitere Informationen zur Konfiguration erweiterter Einstellungen i
 jcr-language: en_us
 title: Erweiterte Einstellungen in Adobe Learning Manager
 exl-id: 7047c89f-5f1c-4e0a-a908-20ef0eb9667d
-source-git-commit: 315eac47ba91a2a7abd5736bcc776a8672ad8044
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2307'
 ht-degree: 1%
-
 ---
-
 # Erweiterte Einstellungen in Adobe Learning Manager
 
 ## Katalogbeschriftungen
 
-Katalogbeschriftungen in Adobe Learning Manager werden verwendet, um Lernobjekte (Kurse, Zertifizierungen, Lernpfade usw.) mit Tags zu versehen mit bestimmten Feldern und Werten. Diese Beschriftungen helfen Ihnen und Autoren dabei, Inhalte effektiv zu kategorisieren und zu organisieren, sodass Sie Inhalte besser filtern, verfolgen und Berichte erstellen können.
+Katalogbeschriftungen in Adobe Learning Manager werden verwendet, um Lernobjekte (Kurse, Zertifizierungen, Lernpfade usw.) mit Tags zu versehen mit bestimmten Feldern und Werten. Diese Beschriftungen helfen Ihnen und Autoren dabei, Inhalte effektiv zu kategorisieren und zu organisieren, sodass Filterungen, Tracking und Reporting verbessert werden.
 
 Weitere Informationen finden Sie unter [Katalogbeschriftungen in Adobe Learning Manager](/help/migrated/administrators/feature-summary/catalog-labels.md).
 
@@ -244,7 +245,7 @@ Die folgenden Vorgehensweisen helfen Ihnen beim Erstellen einer Ordnerstruktur, 
 
    * Ebene 3: PDF von Elementen
 
-3. **Halten Sie Namen kurz, aussagekräftig und eindeutig in der übergeordneten Organisation.** Vermeiden Sie generische Namen wie &quot;Modul 1&quot; oder &quot;Inhalt&quot;. Verwenden Sie Bezeichner, die für die Autoren, die die Bibliothek durchsuchen, sinnvoll sind.
+3. **Halten Sie Namen kurz, aussagekräftig und eindeutig in der übergeordneten Organisation.** Vermeiden Sie generische Namen wie &quot;Modul 1&quot; oder &quot;Inhalt&quot;. Verwenden Sie Identifizierungen, die für die Autoren, die die Bibliothek durchsuchen, sinnvoll sind.
 
 4. **Nur auf Ebene 1 benutzerdefinierten Rollenzugriff zuweisen.** Da der Zugriff automatisch kaskadiert wird, ist die Zuweisung auf Stufe 1 ausreichend und erleichtert die Zugriffsverwaltung. Sie müssen den Zugriff nicht aktualisieren, wenn Sie Unterordner der Ebenen 2 oder 3 hinzufügen.
 
@@ -302,17 +303,17 @@ Hub-Sitzungen.
 
 Feiertage sind eine Reihe von arbeitsfreien Tagen, die auf Kontoebene mit den folgenden Eigenschaften verwaltet werden:
 
-&#x200B;- Nur der Administrator kann Feiertage hinzufügen, bearbeiten oder löschen.
+- Nur der Administrator kann Feiertage hinzufügen, bearbeiten oder löschen.
 
-&#x200B;- Feiertage gelten organisationsweit und werden im Kalender jedes Kursleiters als arbeitsfreie Tage angezeigt.
+- Feiertage gelten organisationsweit und werden im Kalender jedes Kursleiters als arbeitsfreie Tage angezeigt.
 
-&#x200B;- Da Kursleiter an Feiertagen nicht verfügbar sind, können Live-Hub-Sitzungen nicht an diesen Tagen geplant werden.
+- Da Kursleiter an Feiertagen nicht verfügbar sind, können Live-Hub-Sitzungen nicht an diesen Tagen geplant werden.
 
-&#x200B;- Jeder Urlaub erfordert ein Datum und einen Namen; Eine Beschreibung ist optional.
+- Jeder Urlaub erfordert ein Datum und einen Namen; Eine Beschreibung ist optional.
 
-&#x200B;- Sie können Feiertage einzeln hinzufügen oder mehrere Feiertage gleichzeitig importieren, indem Sie eine CSV-Datei verwenden.
+- Sie können Feiertage einzeln hinzufügen oder mehrere Feiertage gleichzeitig importieren, indem Sie eine CSV-Datei verwenden.
 
-&#x200B;- Nach dem Hinzufügen werden Feiertage auf der Seite **Feiertage** angezeigt, auf der Sie sie anzeigen, durchsuchen und verwalten können.
+- Nach dem Hinzufügen werden Feiertage auf der Seite **Feiertage** angezeigt, auf der Sie sie anzeigen, durchsuchen und verwalten können.
 
 Weitere Informationen finden Sie unter [Feiertage verwalten](../../../getting-started-with-live-hub/manage-holidays.md).
 

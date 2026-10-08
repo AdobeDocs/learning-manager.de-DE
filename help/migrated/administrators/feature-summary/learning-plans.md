@@ -4,18 +4,19 @@ jcr-language: en_us
 title: Lernpläne
 contentowner: manochan
 exl-id: 99e3d2f5-0bf0-4f4e-8874-8136af7c592a
-source-git-commit: a01ec6117ad49a1f9af0b31d48ad19ddc8443dde
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '1629'
-ht-degree: 62%
-
+source-wordcount: '1640'
+ht-degree: 82%
 ---
-
 # Lernpläne
 
 Erstellen von Lernplänen für Administratoren in Learning Manager.
 
-## Überblick {#overview}
+## Übersicht {#overview}
 
 Ein Lernplan ist eine Reihe von Regeln, die Teilnehmer zu bestimmten Schulungen auf der Grundlage bestimmter Kriterien registrieren.
 
@@ -63,7 +64,7 @@ Dieser Lernplan ist speziell für Benutzer von ***Benutzerdefinierte Gruppe*** k
 
 ![](assets/learner-completealearningobject.png)
 
-**5 - Der Teilnehmer schlägt ein Modul eines Kurses fehl:** Das Ereignis wird ausgelöst, wenn ein Teilnehmer ein Lernobjekt wie einen Kurs, ein Lernprogramm usw. ausfällt. Wählen Sie das Lernobjekt, für das dieses Ereignis gilt. Sie können auch die Benutzergruppe auswählen, zu der dieser Teilnehmer gehört.
+**5 - Der Teilnehmer schlägt ein Modul eines Kurses fehl:** Das Ereignis wird ausgelöst, wenn ein Teilnehmer ein Lernobjekt wie einen Kurs, ein Lernprogramm usw. ausfällt. Wählen Sie das Lernobjekt, für das dieses Ereignis gilt. Sie können außerdem die Benutzergruppe auswählen, zu der dieser Benutzer gehört.
 
 ![](assets/learner-fails-module.png)
 
@@ -102,7 +103,7 @@ In den folgenden Abschnitten werden die Auslöser aufgeführt, in denen die Opti
 ## Teilnehmer wird aus einer Gruppe entfernt {#learnergetsremovedfromagroup}
 
 1. Fügen Sie eine oder mehrere Benutzergruppen hinzu. Wenn mehrere Gruppen ausgewählt sind, wird der Plan ausgelöst, wenn ein Teilnehmer aus einer der genannten Gruppen entfernt wird.
-1. Wählen Sie die Aktion &quot;**[!UICONTROL Registrierung für Schulung widerrufen]**&quot;.
+1. Wählen Sie die Aktion **[!UICONTROL Registrierung für Schulung widerrufen]**.
 
    1. Der Administrator kann die Schulungen auswählen, für die die Registrierung des Benutzers widerrufen wird, wenn er aus der Benutzergruppe entfernt wird.
    1. Das Instanz- und Abschlussdatum gelten in diesem Szenario nicht.
@@ -112,7 +113,7 @@ In den folgenden Abschnitten werden die Auslöser aufgeführt, in denen die Opti
 ## Teilnehmer hat eine Schulung abgeschlossen {#learnercompletesatraining}
 
 1. Fügen Sie eine oder mehrere Benutzergruppen hinzu. Wenn mehrere Gruppen ausgewählt sind, wird der Plan ausgelöst, wenn ein Teilnehmer die angegebene Schulung abschließt.
-1. Wählen Sie die Aktion &quot;**[!UICONTROL Registrierung für Schulung widerrufen]**&quot;.
+1. Wählen Sie die Aktion **[!UICONTROL Registrierung für Schulung widerrufen]**.
 
    1. Der Administrator kann die Schulungen auswählen, für die die Registrierung des Benutzers widerrufen wird, wenn er der Benutzergruppe hinzugefügt wird.
    1. Das Instanz- und das Abschlussdatum gelten in diesem Fall nicht.
@@ -122,7 +123,7 @@ In den folgenden Abschnitten werden die Auslöser aufgeführt, in denen die Opti
 ## Lernende/r besteht ein Modul eines Kurses nicht
 
 1. Fügen Sie eine oder mehrere Benutzergruppen hinzu. Wenn mehrere Gruppen ausgewählt sind, wird der Plan ausgelöst, wenn ein Teilnehmer die angegebene Schulung nicht besteht.
-1. Wählen Sie die Aktion &quot;**[!UICONTROL Registrierung für Schulung widerrufen]**&quot;.
+1. Wählen Sie die Aktion **[!UICONTROL Registrierung für Schulung widerrufen]**.
 
    1. Der Administrator kann die Schulungen auswählen, für die die Registrierung des Benutzers widerrufen wird, wenn er der Benutzergruppe hinzugefügt wird.
    1. Das Instanz- und das Abschlussdatum gelten in diesem Fall nicht.
@@ -147,7 +148,7 @@ In den folgenden Abschnitten werden die Auslöser aufgeführt, in denen die Opti
 ## An einem bestimmten Datum {#onaspecificdate}
 
 1. Wählen Sie das Datum aus, an dem die Registrierung des Teilnehmers widerrufen werden soll.
-1. Fügen Sie eine oder mehrere Benutzergruppen hinzu. Wenn mehrere Gruppen ausgewählt sind, wird der Plan am Tag ausgelöst und die Registrierung der Benutzer widerrufen, die Teil der ausgewählten Gruppen sind.
+1. Fügen Sie eine oder mehrere Benutzergruppen hinzu. Wenn mehrere Gruppen ausgewählt sind, wird zu diesem Datum der Plan ausgelöst und die Registrierung der Benutzer widerrufen, die zu den ausgewählten Gruppen gehören.
 1. Wählen Sie die Aktion „Registrierung für Schulung widerrufen“.
 
    1. Der Administrator kann die Schulungen auswählen, für die die Registrierung des Benutzers am angegebenen Datum widerrufen wird.
@@ -201,12 +202,12 @@ Sie können Lernpläne nach der Art des Ereignisses filtern, das beim Erstellen 
 
 1. Wie richte ich den Learning Manager ein, um die automatische Registrierung für die Aufnahme neuer Mitarbeiter zu konfigurieren?
 
-   Wählen Sie in der Dropdownliste **[!UICONTROL Tritt auf, wenn]** die Option **[!UICONTROL Neuer Teilnehmer hinzugefügt]** aus. Ordnen Sie dann die Lernobjekte, die Instanz und das Abschlussdatum für den Teilnehmer zu. Sowohl Administratoren als auch Autoren können Ereignisse für die automatische Registrierung erstellen. Aktivieren Sie das Ereignis, nachdem Sie es erstellt haben.
+   Wählen Sie in der Dropdown-Liste **[!UICONTROL Tritt auf, wenn]** die Option **[!UICONTROL Neuer Teilnehmer hinzugefügt]** aus. Ordnen Sie dann die Lernobjekte, die Instanz und das Abschlussdatum für den Teilnehmer zu. Sowohl Administratoren als auch Autoren können Ereignisse für die automatische Registrierung erstellen. Aktivieren Sie das Ereignis, nachdem Sie es erstellt haben.
 
-1. Wie richte ich einen Lernplan/eine automatische Registrierung für den Unterricht und den virtuellen Unterrichtskurs ein?
+1. Wie lege ich einen Lernplan/eine automatische Registrierung für den Unterricht und den virtuellen Unterrichtskurs fest?
 
-   Es wird empfohlen, die Kursinstanz mit den erforderlichen Sitzungsdetails einzurichten. Richten Sie dann einen Lernplan ein und ordnen Sie ihn der bereits erstellten Kursinstanz zu.
+   Es wird empfohlen, die Kursinstanz mit den erforderlichen Sitzungsdetails einzurichten. Erstellen Sie anschließend einen Lernplan und ordnen Sie ihn der bereits erstellten Kursinstanz zu.
 
-1. Wie kann ich die Liste der Teilnehmer anzeigen, die bei einem bestimmten Lernplan registriert sind?
+1. Wie kann ich die Liste der Teilnehmer anzeigen, die in einem bestimmten Lernplan registriert sind?
 
    Wenn die Instanz &quot;Auto&quot; erstellt wird, klicken Sie auf **[!UICONTROL Kurs]** > **[!UICONTROL Teilnehmer]** und wählen Sie die gewünschte Instanz aus der Dropdown-Liste **[!UICONTROL Instanz]** aus.

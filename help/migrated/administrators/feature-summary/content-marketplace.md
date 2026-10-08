@@ -4,16 +4,17 @@ title: Inhalts-Marketplace
 description: Inhaltsbibliothek bietet jetzt den Inhalts-Marketplace an, auf dem Sie Schulungen durchsuchen und erwerben können. Lernen Sie mehr als 70.000 Kurse kennen, die eine Vielzahl von Themen abdecken und in mehreren Formaten verfügbar sind. Wählen Sie aus kuratierten Wiedergabelisten, die eine Vielzahl von Rollen abdecken sowie Ihre Lern- und Weiterbildungsanforderungen erfüllen.
 contentowner: saghosh
 exl-id: 023593d9-06c9-4b91-bbbd-e8ec595b6d60
-source-git-commit: 864c3a4e60cf1bf1c049838fb2ba46ebbcb28ddf
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 10%
-
 ---
-
 # Inhalts-Marketplace
 
-Schulungsadministratoren stehen oft vor Herausforderungen beim Beschaffen und Hochladen qualitativ hochwertiger Inhalte. Der Inhalts-Marketplace in Adobe Learning Manager vereinfacht dies, indem die Lizenzierung von Premium-Kursen von vertrauenswürdigen Anbietern ermöglicht wird, was eine schnellere, skalierbare Lernbereitstellung ermöglicht. Mithilfe des Inhalts-Marketplace kann der Administrator Kurse von Drittanbietern durchsuchen, in der Vorschau anzeigen und lizenzieren.
+Schulungsadministratoren stellen sich oft der Fläche, qualitativ hochwertige Inhalte zu beziehen und hochzuladen. Der Inhalts-Marketplace in Adobe Learning Manager vereinfacht dies, indem die Lizenzierung von Premium-Kursen von vertrauenswürdigen Anbietern ermöglicht wird, was eine schnellere, skalierbare Lernbereitstellung ermöglicht. Mithilfe des Inhalts-Marketplace kann der Administrator Kurse von Drittanbietern durchsuchen, in der Vorschau anzeigen und lizenzieren.
 
 Der Inhalts-Marketplace bietet die folgenden Abos für das Erwerben von Inhalten:
 
@@ -65,7 +66,7 @@ Führen Sie die folgenden Schritte aus, um Inhalte von Inhaltsanbietern zu suche
 
 2. Administratoren können eine Vorschau des Inhalts-Hub für **[!UICONTROL Premium Essentials]**- und **[!UICONTROL Premium Essentials Plus]**-Abos anzeigen und durchsuchen.
 
-Inhaltsanbieter verwalten die Entfernung veralteter Inhalte und stellen sicher, dass kein Lernmaterial ohne vorherige Ankündigung eingestellt wird.
+Inhaltsanbieter verwalten die Entfernung veralteter Inhalte und stellen sicher, dass kein Lern-Material ohne vorherige Ankündigung eingestellt wird.
 
 <!--
 Learning Manager now offers Content Marketplace for you to explore and purchase trainings. Explore 70,000+ courses that cover a wide range of topics, available in multiple formats. Choose from curated playlists that cater to a vast variety of roles and meet your learning and upskilling needs.

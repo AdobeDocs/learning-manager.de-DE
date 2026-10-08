@@ -3,13 +3,14 @@ description: Erfahren Sie mehr darüber, wie die Grundeinstellungen Ihnen dabei 
 jcr-language: en_us
 title: Grundlegende Einstellungen
 exl-id: b5cbe224-e3ee-4ac2-8d9b-95249044dfa6
-source-git-commit: 170d567c555ba831ea84c75fe3fad2f216eec932
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '6386'
+source-wordcount: '6326'
 ht-degree: 4%
-
 ---
-
 # Grundeinstellungen in Adobe Learning Manager
 
 ## Übersicht
@@ -204,7 +205,7 @@ Die Teilnehmer erkunden dann die für sie sichtbaren Kenntnisse und Tags und abo
 
 ### Eindeutige Lernobjekt-IDs
 
-Mit der Option können Sie jedem Lernobjekt (z. B. Kursen, Lernpfaden, Zertifizierungen oder Arbeitshilfen) eine eindeutige Kennung zuweisen. Dadurch wird sichergestellt, dass jedes Lernobjekt über eine eigene ID verfügt, die für die Nachverfolgung, das Reporting und die Integration mit externen Systemen nützlich sein kann.
+Mit der Option können Sie jedem Lernobjekt (z. B. Kursen, Lernpfaden, Zertifizierungen oder Arbeitshilfen) eine eindeutige Identifizierung zuweisen. Dadurch wird sichergestellt, dass jedes Lernobjekt über eine eigene ID verfügt, die für die Nachverfolgung, das Reporting und die Integration mit externen Systemen nützlich sein kann.
 
 Wenn diese Option aktiviert ist, wird Autoren ein Feld zum Hinzufügen der Lernobjekt-ID beim Erstellen eines Lernobjekts angezeigt. Sie können die IDs entsprechend hinzufügen. Eindeutige IDs sind für die Integration mit Systemen von Drittanbietern geeignet, einschließlich Learning Record Stores (LRS) und Learning Management Systemen (LMS). Die eindeutigen IDs erleichtern es Ihnen oder einem Autor auch, nach bestimmten Lernobjekten zu suchen und sie über Teilnehmertranskripte nachzuverfolgen.
 
@@ -252,7 +253,7 @@ Mit dieser Option können Administratoren den Inhalt eines Moduls aktualisieren,
 
 ### Benutzer automatisch registrieren
 
-Mit dieser Option können Sie Benutzer automatisch für bestimmte Kataloge oder Lerninhalte registrieren, wenn sie dem System hinzugefügt werden. Dadurch wird sichergestellt, dass Benutzer sofort auf relevante Lernmaterialien zugreifen können, ohne dass manuelle Eingriffe erforderlich sind.
+Mit dieser Option können Sie Benutzer automatisch für bestimmte Kataloge oder Lerninhalte registrieren, wenn sie dem System hinzugefügt werden. Dadurch wird sichergestellt, dass Benutzer sofort auf relevante Lern-Material zugreifen können, ohne dass ein manuelles Eingreifen erforderlich ist.
 
 * Neue Benutzer werden automatisch bei vordefinierten Katalogen oder Kursen registriert, wenn sie dem System hinzugefügt werden.
 * Administratoren können Regeln definieren, um basierend auf Benutzerattributen wie Rollen, Gruppen oder anderen Kriterien zu bestimmen, für welche Kataloge oder Kurse Benutzer automatisch registriert werden. Weitere Informationen finden Sie unter [Lernpläne in Adobe Learning Manager](/help/migrated/administrators/feature-summary/learning-plans.md) oder [Externe Benutzergruppen bei Registrierung automatisch in Kursen registrieren](https://elearning.adobe.com/2024/05/automatically-enroll-external-user-groups-in-courses-upon-registration/).
@@ -363,7 +364,7 @@ Wenn für vorhandene Konten zuvor die Option Kurseffektivität aktiviert war, wi
 
 ### Standardansicht (Teilnehmerrolle)
 
-Diese Option bezieht sich auf die Ansicht der Teilnehmer im Kurskatalog. Aktivieren Sie das Kontrollkästchen &quot;Listenansicht&quot;, um die Teilnehmeransicht von der Standardrasteransicht zur Listenansicht zu ändern.
+Diese Option bezieht sich auf die Ansicht der Teilnehmer im Kurskatalog. Aktivieren Sie das Kontrollkästchen &quot;Listenansicht&quot;, um die Teilnehmeransicht von der Standardansicht des Rasters zur Listenansicht zu ändern.
 
 ### Lernpläne
 
@@ -671,7 +672,7 @@ Mit dieser Option können Teilnehmer Kurse in Suchergebnissen anzeigen, selbst w
 
 ### Import von Kenntnissen
 
-Mit dieser Option können Sie Kenntnisse aus externen Quellen, z. B. LinkedIn Learning und Go1, mithilfe der entsprechenden Connectors importieren. Diese Funktion integriert externe Skills Clouds und Talent-Management-Systeme in Adobe Learning Manager und verbessert die Fähigkeit der Plattform, Kenntnisse effektiv zu verwalten und zu nutzen.
+Mit dieser Option können Sie Kenntnisse aus externen Quellen, z. B. LinkedIn Learning und Go1, mithilfe der entsprechenden Verbindungen importieren. Diese Funktion integriert externe Skills Clouds und Talent-Management-Systeme in Adobe Learning Manager und verbessert die Fähigkeit der Plattform, Kenntnisse effektiv zu verwalten und zu nutzen.
 
 Die Kenntnisse von externen Inhaltsanbietern werden dem vom Administrator definierten Kenntnisrepository in Adobe Learning Manager hinzugefügt. Diese Kenntnisse stehen Autoren während des Workflows zur Kurserstellung zur Verfügung.
 

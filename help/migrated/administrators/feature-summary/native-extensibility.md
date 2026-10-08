@@ -1,14 +1,15 @@
 ---
 title: Native Erweiterbarkeit
-description: Richten Sie benutzerdefinierte Erlebnisse in der nativen Version von Adobe Learning Manager ein, sodass Sie Headless-Erlebnisse nicht für weniger komplizierte Fälle verwenden können.
+description: Richten Sie benutzerdefinierte Erfahrungen in der nativen Version von Adobe Learning Manager ein, sodass Sie für weniger komplizierte Fälle nicht Headless nutzen müssen.
 exl-id: 510bd00f-4f52-4705-817e-4ee73380ca90
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 48%
-
+source-wordcount: '760'
+ht-degree: 51%
 ---
-
 # Native Erweiterbarkeit
 
 Sie können benutzerdefinierte Erfahrungen in der nativen Version von Adobe Learning Manager einrichten, sodass Sie für weniger komplizierte Fälle nicht Headless nutzen müssen. Sie können auch benutzerdefinierte Apps erstellen und sie an verschiedenen Punkten in der nativen Version der Workflows für Teilnehmende, Manager(innen), Administrator(inn)en, Autor(inn)en oder Kursleiter(inn)en platzieren.
@@ -25,7 +26,7 @@ Adobe Learning Manager unterstützt 15 Aufrufpunkte in der Administrator(inn)en-
 
    Wählen Sie für dieses Beispiel **[!UICONTROL Admin]**, **[!UICONTROL Autor: Kurs]**, **[!UICONTROL Lernpfad]** - **[!UICONTROL Instanzen]** - **[!UICONTROL Instanzzeile]**.
 
-   ![Erweiterungsbild](assets/list-native-extensions.png)
+   ![Erweiterungsabbild](assets/list-native-extensions.png)
    *Aufrufpunkt auswählen*
 
 1. Geben Sie die Erweiterungsbezeichnung ein, die auf der Benutzeroberfläche im Feld **[!UICONTROL Erweiterungsbezeichnung]** angezeigt wird.
@@ -58,7 +59,7 @@ Adobe Learning Manager unterstützt 15 Aufrufpunkte in der Administrator(inn)en-
 1. Wählen Sie im linken Bereich **[!UICONTROL Instanzen]**.
 1. Wählen Sie im Abschnitt “Instanzen“ **[!UICONTROL Mehr]**. Die Erweiterung wird im Abschnitt “Instanzen“ angezeigt.
 
-   ![Instanzenbild](assets/instances-extension.png)
+   ![ Instanzenbild](assets/instances-extension.png)
    *Erweiterung auswählen*
 
    Wenn Sie die Erweiterung auswählen, wird sie im modalen Format angezeigt.
@@ -70,7 +71,7 @@ Adobe Learning Manager unterstützt 15 Aufrufpunkte in der Administrator(inn)en-
 1. Wählen Sie im linken Bereich **[!UICONTROL Instanzen]**.
 1. Wählen Sie im Abschnitt “Instanzen“ **[!UICONTROL Mehr]**. Die Erweiterung wird im Abschnitt “Instanzen“ angezeigt.
 
-   ![Instanzenbild](assets/instances-extension.png)
+   ![ Instanzenbild](assets/instances-extension.png)
    *Zugriff auf Erweiterung als Autor*
 
    Wenn Sie die Erweiterung auswählen, wird sie im modalen Format angezeigt.
@@ -79,7 +80,7 @@ Adobe Learning Manager unterstützt 15 Aufrufpunkte in der Administrator(inn)en-
 
 Als Administrator können Sie alle Erweiterungen auf der Seite Native Erweiterungen anzeigen. Um die Liste anzuzeigen, wählen Sie „Native Erweiterungen“ im linken Bereich der App aus.
 
-![Ansichtserweiterungsabbild &#x200B;](assets/view-extensions.png)
+Bild für ![Ansichtserweiterungen](assets/view-extensions.png)
 *Alle Erweiterungen anzeigen*
 
 ## Aktivieren oder Deaktivieren von Erweiterungen
@@ -110,21 +111,21 @@ Es gibt zwei Möglichkeiten, diesen Bericht herunterzuladen.
 
 1. Wählen Sie auf der Seite “Native Erweiterungen“ **[!UICONTROL Erweiterungskonfigurationsbericht]**.
 
-   ![Berichtsbild](assets/extension-config-report.png)
+   ![ Berichtsbild](assets/extension-config-report.png)
    *Erweiterungsbericht herunterladen*
 
    Der Bericht wird generiert.
 
 1. Wählen Sie OK.
 
-   ![Berichtsbild wird generiert](assets/generating-report.png)
+   ![Berichtsbild wird generiert.](assets/generating-report.png)
    *Bericht wird generiert*
 
    Der Bericht enthält folgende Felder:
 
-   * Name der Erweiterung
-   * Aufrufungspunkt
-   * Name
+   * Erweiterungsname
+   * Aufrufpunkt
+   * Label
    * In URL öffnen
    * Umfang
    * Aktivieren
@@ -137,7 +138,7 @@ Es gibt zwei Möglichkeiten, diesen Bericht herunterzuladen.
 
 1. Wählen Sie in **[!UICONTROL Berichte]** > **[!UICONTROL Benutzerdefinierte Berichte]** die Option **[!UICONTROL Erweiterungskonfigurationsbericht]** aus.
 
-   ![meldet Seitenbild &#x200B;](assets/extension-report-page.png)
+   Seitenbild für ![-Berichte](assets/extension-report-page.png)
    *Bericht von Seite &quot;Berichte&quot; herunterladen*
 
 Der Status muss beim Konfigurieren des Registrierungsstatus im Bereich **0 - 4294967295** liegen.

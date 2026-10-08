@@ -1,13 +1,14 @@
 ---
 title: Informationen zu Umfragen im Live Hub
 description: Erfahren Sie, wie Kursleiter mit der Umfragefunktion Umfragen erstellen und starten können und die Teilnehmer während einer Live-Hub-Sitzung in Echtzeit antworten können.
-source-git-commit: d83ea719a3a7ecfa9fba64f12d249213850ba29a
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '262'
 ht-degree: 0%
-
 ---
-
 
 # Über die Umfragen
 

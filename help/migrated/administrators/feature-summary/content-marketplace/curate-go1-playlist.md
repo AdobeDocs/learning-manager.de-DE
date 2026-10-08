@@ -3,13 +3,14 @@ description: Erfahren Sie, wie Sie eine Go1-Playlist erstellen und einem Lernpfa
 jcr-language: en_us
 title: Go1-Wiedergabeliste für Adobe Learning Manager-Lernpfad kuratieren
 exl-id: ab590c9b-80f3-4603-a8bb-430d3bb960a1
-source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1665'
 ht-degree: 0%
-
 ---
-
 # Kuratieren von Go1-Kursen zu einem Lernpfad
 
 Administratoren müssen oft Kurse aus mehreren Repositorys oder Katalogen kuratieren, wodurch es schwierig ist, die besten Optionen zu identifizieren. Dies ist besonders schwierig bei Go1, wo Tausende von Kursen verfügbar sind. Um dies zu vereinfachen, stellen wir eine KI-gestützte Kurationsfunktion direkt im Erstellungsfluss für Lernpfade bereit. Dadurch können Administratoren die relevantesten Kurse schnell ermitteln und auswählen.

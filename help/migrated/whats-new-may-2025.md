@@ -3,13 +3,14 @@ description: Erfahren Sie mehr über die neuen Funktionen und Verbesserungen in 
 jcr-language: en_us
 title: Zusammenfassung der neuen Funktionen
 exl-id: 812d33c8-b2e4-43eb-adda-67dc356ca1ca
-source-git-commit: 51c59280cd44a025beda7d1183aafa6b7d6ebed4
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2544'
 ht-degree: 0%
-
 ---
-
 # Überblick über die neuen Funktionen Mai 2025
 
 Die neue Version von Adobe Learning Manager enthält eine Reihe neuer Funktionen und Verbesserungen, mit denen die Plattform optimiert und ihre Funktionen erweitert werden sollen.
@@ -43,7 +44,7 @@ Darüber hinaus unterstützt die eindeutige Content-ID die Integration mit Conte
 * Die eindeutige Content-ID erleichtert die Verknüpfung von Inhalten zwischen externen Systemen und Adobe Learning Manager.
 * Das Ablaufdatum hilft Autoren dabei, den Überblick über veraltete Inhalte zu behalten, die möglicherweise überprüft oder aktualisiert werden müssen.
 
-In diesem [Artikel &#x200B;](/help/migrated/authors/feature-summary/content-library.md#add-content-unique-id-and-expiry-date) finden Sie weitere Informationen zur eindeutigen Inhalts-ID und zum Ablaufdatum.
+In diesem [Artikel ](/help/migrated/authors/feature-summary/content-library.md#add-content-unique-id-and-expiry-date) finden Sie weitere Informationen zur eindeutigen Inhalts-ID und zum Ablaufdatum.
 
 ## Admin AI Assistant (Beta)
 
@@ -51,7 +52,7 @@ Bei komplexen Lernkonfigurationen können Administratoren aufgrund komplizierter
 
 Der Admin AI Assistant (Beta) in Adobe Learning Manager hilft Administratoren dabei, schnell Antworten auf häufige Fragen zu finden, Systemfunktionen zu erkunden und zu verstehen, wie sie wichtige Aufgaben erledigen können, indem sie sie einfach in verständlicher Sprache stellen. Unabhängig davon, ob Sie Adobe Learning Manager noch nicht kennen oder nach schnelleren Möglichkeiten zur Fehlerbehebung suchen: Der Admin AI Assistant (Beta) vereinfacht Ihren Workflow, indem er kontextbezogene Hilfe direkt auf der Plattform bereitstellt.
 
-Es nutzt die KI-Funktionen von Adobe, um Anfragen in natürlicher Sprache über Lerninhalte und System-Workflows hinweg zu ermöglichen.  Administratoren können Fragen stellen wie **Benutzer zu Adobe Learning Manager hinzufügen** oder **Lernpfade hinzufügen**. Der Adobe Learning Manager Admin AI Assistant (Beta) ist ausschließlich in öffentlich zugänglichen, Adobe-eigenen Dokumentationen geschult, wie z. B. Ressourcen, die auf **[!UICONTROL Experience League]** gehostet werden. Es lernt nicht aus Kundeninhalten, internem Schulungsmaterial oder benutzergenerierten Daten und greift nicht darauf zu.
+Es nutzt die KI-Funktionen von Adobe, um Anfragen in natürlicher Sprache über Lerninhalte und System-Workflows hinweg zu ermöglichen.  Administratoren können Fragen stellen wie **Benutzer zu Adobe Learning Manager hinzufügen** oder **Lernpfade hinzufügen**. Der Adobe Learning Manager Admin AI Assistant (Beta) ist ausschließlich in öffentlich zugänglichen, Adobe-eigenen Dokumentationen geschult, wie z. B. Ressourcen, die auf **[!UICONTROL Experience League]** gehostet werden. Es lernt nicht aus Kundeninhalten, internem Schulungs-Material oder von Anwendern generierten Daten und greift nicht auf diese zu.
 
 Weitere Informationen zum AI Assistant (Beta) finden Sie in diesem [Artikel](/help/migrated/administrators/feature-summary/alm-ai-assistant.md).
 
@@ -76,13 +77,13 @@ In diesem [Artikel](/help/migrated/administrators/feature-summary/content-market
 
 ## Bericht über den Anmeldezugriff auf FTP, benutzerdefiniertes FTP und Box {#log-in-access-report}
 
-Die Berichte zum Anmeldezugriff sind jetzt zusätzlich zu den vorhandenen Job-APIs auch für Box-, FTP- und benutzerdefinierte FTP-Connectors verfügbar. Dieser Bericht enthält detaillierte Informationen zu Benutzeranmeldeaktivitäten, einschließlich Ausführungsstatus, Komprimierungseinstellungen und Planungsoptionen. Der Bericht kann bei Bedarf oder nach Zeitplan erstellt werden, und die Daten werden im angegebenen Connector gespeichert, um den Zugriff und die Analyse zu vereinfachen. Diese Verbesserung verbessert die Möglichkeit, Benutzeranmeldeaktivitäten zu überwachen und zu überwachen, und stellt eine bessere Sicherheit und Compliance-Verfolgung sicher.
+Die Berichte zum Anmeldezugriff sind jetzt zusätzlich zu den bestehenden Job-APIs auch für Box-, FTP- und benutzerdefinierte FTP-Verbindungen verfügbar. Dieser Bericht enthält detaillierte Informationen zu Benutzeranmeldeaktivitäten, einschließlich Ausführungsstatus, Komprimierungseinstellungen und Planungsoptionen. Der Bericht kann bei Bedarf oder nach Zeitplan erstellt werden, und die Daten werden in der angegebenen Verbindung gespeichert, um den Zugriff und die Analyse zu erleichtern. Diese Verbesserung verbessert die Möglichkeit, Benutzeranmeldeaktivitäten zu überwachen und zu überwachen, und stellt eine bessere Sicherheit und Compliance-Verfolgung sicher.
 
 Der Bericht ist jetzt im benutzerdefinierten FTP, FTP und Box zusammen mit vorhandenen Berichten wie Teilnehmerfortschritt und Kursabschluss verfügbar. Diese Integration ermöglicht Administratoren den Zugriff auf alle erforderlichen Berichte aus einer einzigen Quelle und erleichtert so eine bessere Datenverwaltung und -analyse.
 
 Der Bericht hilft bei der Automatisierung, indem er den Export von Anmelde- und Zugriffsdaten auf das FTP ermöglicht, wo sie mit anderen Berichten verknüpft werden können, um umfassende Dashboards zu erstellen. Diese Funktion ist besonders für Organisationen nützlich, die automatisierte Prozesse für die Datenanalyse und das Reporting nutzen.
 
-In diesem [Artikel](/help/migrated/integration-admin/feature-summary/connectors.md) finden Sie weitere Informationen zu den FTP-, benutzerdefinierten FTP- und Box-Connectors.
+In diesem [Artikel](/help/migrated/integration-admin/feature-summary/connectors.md) finden Sie weitere Informationen zu den FTP-, benutzerdefinierten FTP- und Box-Verbindungen.
 
 ## Aktualisierung der Benutzersprachenvoreinstellung bei der Anmeldung über SAML
 
@@ -103,13 +104,13 @@ Das Bereinigen von Benutzern bedeutet, dass ihre Daten dauerhaft aus dem System 
 
 Weitere Informationen finden Sie in diesem [Artikel](/help/migrated/administrators/feature-summary/purge-users.md#filter-deleted-users-before-purging).
 
-## Verbesserungen am Adobe Connect-Connector
+## Verbesserungen an der Adobe Connect-Verbindung
 
 ### Unterstützung für Seminare mit großem Publikum
 
 Adobe Learning Manager unterstützt jetzt auch die Auswahl von Seminarräumen aus Adobe Connect beim Einrichten einer VC-Sitzung in Connect. Zuvor konnte der Administrator nur den Meetingraumtyp auswählen. Diese Erweiterung ermöglicht es Administratoren mit einer gültigen Seminarlizenz, einmalige oder große Veranstaltungen (bis zu 1.500 Teilnehmer) in Adobe Learning Manager zu planen und zu verwalten.
 
-Weitere Informationen zum Seminarraum finden Sie in diesem [Artikel](https://helpx.adobe.com/de/adobe-connect/using/creating-seminars.html).
+Weitere Informationen zum Seminarraum finden Sie in diesem [Artikel](https://helpx.adobe.com/adobe-connect/using/creating-seminars.html).
 
 ### Unterstützung für den Zugriff auf Sitzungsanalysen
 
@@ -130,7 +131,7 @@ Weitere Informationen zur Connect-Sitzungsanalyse finden Sie in diesem [Artikel]
 Der Migrationsprozess in Adobe Learning Manager zum Importieren von Modulen unterstützt jetzt die Möglichkeit, Parameter zum Definieren von Erfolgskriterien hinzuzufügen.
 Dies wird jetzt unterstützt, indem drei neue optionale Spalten in der Datei &quot;module_version.csv&quot; hinzugefügt werden. Drei neue optionale Spalten sind: `successCriteria`, `successQuizData` und `successViewPercent`.
 
-Diese Felder akzeptieren nur bestimmte Werte, und der Connector kann die Datei nicht verarbeiten, wenn ungültige Werte eingegeben werden.
+Diese Felder akzeptieren nur bestimmte Werte, und die Verbindung kann die Datei nicht verarbeiten, wenn ungültige Werte eingegeben werden.
 Ein Quizmodul kann drei Arten von Erfolgskriterien verwenden. Entweder kann es das Bestehen markieren, wenn der Teilnehmer den Inhalt startet, abhängig von einem erreichten Prozentwert (definiert durch `successViewPercent`: unten), oder sie kann auf dem Ergebnis des Quizmoduls basieren (definiert durch `successQuizData`: &quot;). Dieser Wert ist gemäß den nachstehenden Anweisungen auszufüllen. Der successCriteria-Parameter wird verwendet, um dies zu bestimmen.
 
 `successCriteria` Empfängt `LAUNCH_CONTENT`, `VIEW_PERCENT`, `QUIZ` oder `VIEWPERCENT_OR_QUIZ`.
@@ -148,14 +149,14 @@ Dieses Feld ist nur gültig, wenn `hasQuiz` &quot;true&quot; ist. Wenn nur `comp
 * `QUIZ_PASSED` bedeutet, dass der Teilnehmer als für das Quiz bestanden markiert wird, wenn der Teilnehmer das Quiz gemäß den im Quizinhalt definierten Kriterien besteht. Zum Beispiel definiert das Scorm-Modul die Kriterien und meldet sie an Adobe Learning Manager.
 * `QUIZPASSED_OR_LIMITREACHED` bedeutet, dass der Teilnehmer als für das Quiz bestanden markiert wird, wenn der Teilnehmer das Quiz bestanden hat oder die Anzahl der Einschränkungen erreicht hat.
 
-`successViewPercent` Akzeptiert Ganzzahlwerte von 0 bis 100.
+`successViewPercent` Akzeptiert Ganzzahlen von 0 bis 100.
 
 * Dieses Kriterium akzeptiert einen Prozentwert, den der Teilnehmer zum Bestehen des Quiz erzielen muss.
 Webhook ändert sich.
 
 ### Eindeutige ID und Ablaufdatum für Inhalte mit Migration hinzufügen
 
-Eindeutige ID des Inhalts und Ablaufdatum werden jetzt während der Migration unterstützt. Zwei zusätzliche Spalten: expiryDate und uniqueContentId wurden der Datei module_version.csv hinzugefügt, um diese Funktion zu aktivieren. Weitere Informationen finden Sie in der [CSV-Musterdatei &#x200B;](/help/migrated/integration-admin/feature-summary/assets/sample-csvs-may-2025.zip) und in der [CSV-Spezifikationsdatei &#x200B;](/help/migrated/integration-admin/feature-summary/assets/module-version.zip).
+Eindeutige ID des Inhalts und Ablaufdatum werden jetzt während der Migration unterstützt. Zwei zusätzliche Spalten: expiryDate und uniqueContentId wurden der Datei module_version.csv hinzugefügt, um diese Funktion zu aktivieren. Weitere Informationen finden Sie in der [CSV-Musterdatei ](/help/migrated/integration-admin/feature-summary/assets/sample-csvs-may-2025.zip) und in der [CSV-Spezifikationsdatei ](/help/migrated/integration-admin/feature-summary/assets/module-version.zip).
 
 Weitere Informationen zum Migrationsprozess finden Sie in diesem [Artikel](/help/migrated/integration-admin/feature-summary/migration-manual.md).
 

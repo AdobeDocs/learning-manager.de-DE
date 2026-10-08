@@ -1,45 +1,46 @@
 ---
-description: getAbstract-Connector in Adobe Learning Manager
+description: getAbstract-Verbindung in Adobe Learning Manager
 jcr-language: en_us
 title: getAbstract-Connector
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '807'
 ht-degree: 1%
-
 ---
 
-
-# getAbstract-Connector für Adobe Learning Manager
+# getAbstract-Verbindung für Adobe Learning Manager
 
 ## Einführung
 
-Der **getAbstract-Connector** ist für Unternehmenskunden von [getAbstract.com](https://www.getabstract.com/) vorgesehen. Dadurch können Teilnehmer getAbstract-Inhalte direkt über Adobe Learning Manager entdecken und nutzen. Der Connector ermöglicht es Administratoren auch, Daten zu Benutzerinteraktionen zu importieren und Teilnehmerabschlussdatensätze automatisch zu verfolgen.
+Die **getAbstract-Verbindung** wurde für Unternehmenskunden von [getAbstract.com](https://www.getabstract.com/) entwickelt. Dadurch können Teilnehmer getAbstract-Inhalte direkt über Adobe Learning Manager entdecken und nutzen. Mit der Verbindung können Administratoren auch Benutzereinbindungsdaten importieren und Teilnehmerabschlussdatensätze automatisch verfolgen.
 
-Adobe Learning Manager möchte Teilnehmern fortlaufende, selbstgesteuerte Lernmöglichkeiten bieten, die sich auf Führungskompetenz und Soft Skills konzentrieren. Anstatt alle Inhalte intern zu entwickeln, verbindet der Administrator das getAbstract-Konto des Unternehmens mit Adobe Learning Manager mithilfe des getAbstract-Connectors.
+Adobe Learning Manager möchte Teilnehmern fortlaufende, selbstgesteuerte Lernmöglichkeiten bieten, die sich auf Führungskompetenz und Soft Skills konzentrieren. Anstatt alle Inhalte intern zu entwickeln, verbindet der Administrator das getAbstract-Konto des Unternehmens mit Adobe Learning Manager mithilfe der getAbstract-Verbindung.
 
 - Importiert automatisch getAbstract-Inhalte in Adobe Learning Manager.
 - Verfolgt die Nutzung von Kursen und Lernpfaden durch die Teilnehmer.
 
-In diesem Artikel werden die Schritte zum Konfigurieren und Verwalten des getAbstract-Connectors in Adobe Learning Manager beschrieben.
+In diesem Artikel werden die Schritte zum Konfigurieren und Verwalten der getAbstract-Verbindung in Adobe Learning Manager beschrieben.
 
 ## Voraussetzungen
 
-- Stellen Sie sicher, dass die **Migration**-Funktion für Ihr Konto aktiviert ist, bevor Sie den Connector konfigurieren.
+- Stellen Sie sicher, dass die **Migration**-Funktion für Ihr Konto aktiviert ist, bevor Sie die Verbindung konfigurieren.
 - Beziehen Sie die **Client-ID** und **Client-Geheimnis** von Ihrem getAbstract-Kontobeauftragten. Diese Anmeldeinformationen sind erforderlich, um Kurs-Metadaten und Benutzernutzungsdaten abzurufen.
 
 ## getAbstract-Connector konfigurieren
 
-Der getAbstract-Connector ermöglicht Adobe Learning Manager-Administratoren, das Lernerlebnis durch die Integration hochwertiger, kuratierter Inhalte aus getAbstract zu verbessern.
+Mit der getAbstract-Verbindung können Adobe Learning Manager-Administratoren das Lernerlebnis durch die Integration hochwertiger, kuratierter Inhalte aus getAbstract verbessern.
 
-Konfigurieren des getAbstract-Connectors:
+Konfigurieren der getAbstract-Verbindung:
 
 1. Melden Sie sich als Integrationsadministrator an.
 2. Wählen Sie auf der Startseite **getAbstract** aus.
-3. Wählen Sie auf der Kachel **Connector** eine der folgenden Optionen aus:
+3. Wählen Sie in der Kachel **Verbindung** eine der folgenden Optionen aus:
 
-   - **Erste Schritte**: Übersicht über den Connector.
+   - **Erste Schritte**: Überblick über die Verbindung.
    - **Verbindung**: Erstellen Sie eine neue Verbindung.
    - **Verbindungen verwalten**: Vorhandene Verbindungen anzeigen oder ändern.
 
@@ -63,9 +64,9 @@ Erstellen einer neuen Verbindung:
 
 4. Wählen Sie **Speichern**, um die Verbindung zu erstellen.
 
-## getAbstract-Connector verwalten
+## getAbstract-Verbindung verwalten
 
-Bevor Sie Daten importieren, müssen Sie den Connector konfigurieren und einen Synchronisierungszeitplan einrichten. Nach der Konfiguration ruft der Connector automatisch Nutzungsdaten ab, sodass Sie den Fortschritt der Teilnehmer überwachen und getAbstract-Inhalte in Lernpläne und Berichte aufnehmen können.
+Bevor Sie Daten importieren, müssen Sie die Verbindung konfigurieren und einen Synchronisierungszeitplan einrichten. Nach der Konfiguration ruft die Verbindung automatisch Nutzungsdaten ab, sodass Sie den Fortschritt der Teilnehmer überwachen und getAbstract-Inhalte in Lernpläne und Berichte aufnehmen können.
 
 ### Verbindung aktivieren
 
@@ -113,7 +114,7 @@ So planen Sie die Synchronisierung:
 6. Geben Sie die Anzahl der Tage ein, nach denen die Synchronisierung wiederholt werden soll.
 7. Wählen Sie **Speichern**.
 
-Die Synchronisierungseinstellungen werden gespeichert. Der Connector wird nach dem Zeitplan ausgeführt und importiert Daten aus getAbstract in Adobe Learning Manager.
+Die Synchronisierungseinstellungen werden gespeichert. Die Verbindung wird nach dem Zeitplan ausgeführt und importiert Daten aus getAbstract in Adobe Learning Manager.
 
 ## On-Demand-Synchronisierung ausführen
 
@@ -162,7 +163,7 @@ So stellen Sie sicher, dass die Synchronisierung ordnungsgemäß funktioniert:
 
 - Eine gültige Benutzer-Feed-Datei muss sich im FTP-Ordner für getAbstract für die angegebenen Synchronisierungsdaten befinden.
 - Die Datei sollte dem folgenden Namensformat entsprechen:
-   - report_export_yyyy_MM_dd_HHmmss.xlsx oder
-   - report_export_yyyy_MM_dd.xlsx
+  - report_export_yyyy_MM_dd_HHmmss.xlsx oder
+  - report_export_yyyy_MM_dd.xlsx
 
-Laden Sie eine [Beispiel-getAbstract-Benutzer-Feed-Datei &#x200B;](https://experienceleague.adobe.com/docs/learning-manager/assets/report-export-20170401175342.xlsx?lang=de) herunter, um das Format zu verstehen.
+Laden Sie eine [Beispiel-getAbstract-Benutzer-Feed-Datei ](https://experienceleague.adobe.com/docs/learning-manager/assets/report-export-20170401175342.xlsx?lang=en) herunter, um das Format zu verstehen.

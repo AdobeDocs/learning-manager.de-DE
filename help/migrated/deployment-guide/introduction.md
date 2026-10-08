@@ -1,22 +1,23 @@
 ---
 jcr-language: en_us
 title: Bereitstellungsleitfaden für Learning Manager
-description: Learning Manager ist ein Learning Management System (LMS), mit dem Schulungsexperten ansprechende und verfolgbare Lernmaterialien bereitstellen können, die zu den Anforderungen und Zielen eines Unternehmens beitragen können. Mit Learning Manager können Ausbilder oder Manager Kurse und andere Lernobjekte in einer bestimmten Reihenfolge für Teilnehmer zuweisen.
+description: Learning Manager ist ein Learning Management System (LMS), mit dem Schulungsexperten ansprechende und verfolgbare Lernziele bereitstellen können, die zu den Anforderungen und Materialien eines Unternehmens beitragen. Mit Learning Manager können Ausbilder oder Manager Kurse und andere Lernobjekte in einer bestimmten Reihenfolge für Teilnehmer zuweisen.
 contentowner: shhivkum
 preview: true
 exl-id: 5d65fd64-446e-4398-957b-1fb2b19e646d
-source-git-commit: 1529039e35d4190864e96826bfbea25dcad17c73
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3264'
 ht-degree: 76%
-
 ---
-
 # Bereitstellungsleitfaden für Learning Manager
 
 ## Einführung {#introduction}
 
-Learning Manager ist ein Learning Management System (LMS), mit dem Schulungsexperten ansprechende und verfolgbare Lernmaterialien bereitstellen können, die zu den Anforderungen und Zielen eines Unternehmens beitragen können. Mit Learning Manager können Ausbilder oder Manager Kurse und andere Lernobjekte in einer bestimmten Reihenfolge für Teilnehmer zuweisen. Dieses Tool bietet außerdem mehrere leistungsstarke Funktionen, darunter einen Fluidic Player in mehreren Formaten, Gamification, Abzeichen und benutzerfreundliches Teilnehmer-Dashboard. Um jedoch alle diese Funktionen nutzen zu können, muss Learning Manager zunächst konfiguriert und eingerichtet werden.
+Learning Manager ist ein Learning Management System (LMS), mit dem Schulungsexperten ansprechende und verfolgbare Lernziele bereitstellen können, die zu den Anforderungen und Materialien eines Unternehmens beitragen. Mit Learning Manager können Ausbilder oder Manager Kurse und andere Lernobjekte in einer bestimmten Reihenfolge für Teilnehmer zuweisen. Dieses Tool bietet außerdem mehrere leistungsstarke Funktionen, darunter einen Fluidic Player in mehreren Formaten, Gamification, Abzeichen und benutzerfreundliches Teilnehmer-Dashboard. Um jedoch alle diese Funktionen nutzen zu können, muss Learning Manager zunächst konfiguriert und eingerichtet werden.
 
 Dieser Leitfaden enthält schrittweise Anleitungen zum Einstieg in Learning Manager. In diesem Dokument finden Sie auch die Konfigurations- und Einrichtungsinformationen im Detail. Lesen Sie weiter, um zu erfahren, wie Ihnen der Einstieg in Learning Manager gelingt.
 
@@ -99,7 +100,7 @@ Sie können eines der Farbschemata auswählen, um es an Ihr Unternehmensbranding
    ![](assets/setting-the-themesforyoursite-step6.png)
 
 1. Die ausgewählten Optionen werden vorübergehend auf Ihre Site angewendet. Wenn Sie die ausgewählten Themen- und Farbeinstellungen speichern möchten, klicken Sie auf **[!UICONTROL Anwenden]**.
-1. Nachdem Sie ein Design ausgewählt und angewendet haben, klicken Sie auf **&#x200B;**&#x200B;[!UICONTROL Speichern]&#x200B;**&#x200B;**, um Ihre Auswahl zu speichern.
+1. Nachdem Sie ein Design ausgewählt und angewendet haben, klicken Sie auf ****[!UICONTROL Speichern]****, um Ihre Auswahl zu speichern.
 
 ## Konfigurieren von E-Mail-Vorlagen {#configureemailtemplates}
 
@@ -111,9 +112,9 @@ Als Administrator können Sie als Nächstes E-Mail-Vorlagen für verschiedene Er
 
 Sie können diese E-Mail-Benachrichtigungen über das Administrator-Dashboard aktivieren und konfigurieren. Führen Sie die folgenden Schritte aus, um zu erfahren, wie Sie E-Mail-Vorlagen einrichten:
 
-1. Klicken Sie im linken Navigationsbereich auf **[!UICONTROL **&#x200B; E-Mail-Vorlagen &#x200B;**.]**.
-1. Klicken Sie auf eine der folgenden Registerkarten:**[!UICONTROL ** Allgemein **/** Lernaktivität **/** Erinnerungen und Updates **.]** Nehmen wir an, Sie klicken auf **[!UICONTROL **&#x200B; Lernaktivität &#x200B;**.]**
-1. Klicken Sie auf die Statusschaltfläche für die Aktivität, für die Sie eine E-Mail auslösen möchten. In diesem Beispiel nehmen wir an, Sie klicken auf **[!UICONTROL **&#x200B; Lernprogramm - Registriert von Administrator/Manager &#x200B;**.]**
+1. Klicken Sie im linken Navigationsbereich auf **[!UICONTROL ** E-Mail-Vorlagen **.]**.
+1. Klicken Sie auf eine der folgenden Registerkarten:**[!UICONTROL ** Allgemein **/** Lernaktivität **/** Erinnerungen und Updates **.]** Nehmen wir an, Sie klicken auf **[!UICONTROL ** Lernaktivität **.]**
+1. Klicken Sie auf die Statusschaltfläche für die Aktivität, für die Sie eine E-Mail auslösen möchten. In diesem Beispiel nehmen wir an, Sie klicken auf **[!UICONTROL ** Lernprogramm - Registriert von Administrator/Manager **.]**
 
    ![](assets/configure-email-templates-step3.png)
 
@@ -134,7 +135,7 @@ Sie können diese E-Mail-Benachrichtigungen über das Administrator-Dashboard ak
 
    Der Konto URL-Link wird in allen E-Mails unmittelbar vor der Signatur angezeigt. Geben Sie die URL ein und klicken Sie auf **[!UICONTROL Speichern]**. Diese URL ist nur für interne Benutzer sichtbar.
 
-   Für das E-Mail-Banner können Sie die Farbe des Banners ändern, indem Sie **[!UICONTROL **&#x200B; Bannerhintergrund &#x200B;**.] **&#x200B; auswählen. Sie können auch ein benutzerdefiniertes Bild als Banner verwenden, indem Sie die Option &#x200B;** [!UICONTROL Benutzerdefiniertes Bild] **&#x200B; auswählen. Klicken Sie auf &#x200B;** [!UICONTROL Speichern]**, nachdem Sie die Änderungen vorgenommen haben.
+   Für das E-Mail-Banner können Sie die Farbe des Banners ändern, indem Sie **[!UICONTROL ** Bannerhintergrund **.]** auswählen. Sie können auch ein benutzerdefiniertes Bild als Banner verwenden, indem Sie die Option **[!UICONTROL Benutzerdefiniertes Bild]** auswählen. Klicken Sie auf **[!UICONTROL Speichern]**, nachdem Sie die Änderungen vorgenommen haben.
 
    ***Hinweis: Die benutzerdefinierte Bildgröße für das E-Mail-Banner muss 1240 x 200 px betragen. Bilder, die größer als die empfohlene Größe sind, werden beschnitten.***
 
@@ -155,13 +156,13 @@ Diese Option ist auch für Autoren verfügbar, wenn Autoren ein Lernobjekt einri
 So konfigurieren Sie E-Mail-Vorlagen für ein Lernobjekt:
 
 1. Klicken Sie auf den Kurs, das Lernprogramm oder die Zertifizierung, für die Sie die E-Mail-Vorlage konfigurieren möchten.
-1. Klicken Sie im linken Teilfenster auf **[!UICONTROL **&#x200B; E-Mail-Vorlagen &#x200B;**.]&#x200B;**. Das System zeigt das Popup-Dialogfeld &#x200B;**&#x200B;**[!UICONTROL Vorlagenvorschau]**&#x200B;** an.
+1. Klicken Sie im linken Teilfenster auf **[!UICONTROL ** E-Mail-Vorlagen **.]**. Das System zeigt das Popup-Dialogfeld ****[!UICONTROL Vorlagenvorschau]**** an.
 1. Ändern Sie den Betreff oder den Text der E-Mail-Vorlage und klicken Sie auf **[!UICONTROL **Speichern**]**, um die Änderungen zu übernehmen.
-1. Klicken Sie auf **[!UICONTROL **&#x200B; Auf Original zurücksetzen &#x200B;**, um die Änderungen abzubrechen.]**
+1. Klicken Sie auf **[!UICONTROL ** Auf Original zurücksetzen **, um die Änderungen abzubrechen.]**
 
 ### Empfang von E-Mails für Benutzer beschränken {#restrictusersfromreceivingemails}
 
-Als Administrator können Sie auswählen, wer E-Mails von Learning Manager erhält und wer nicht. Sie können dies mit der Option **&#x200B;**&#x200B;[!UICONTROL Eingeschränkter Benutzer]&#x200B;**&#x200B;** auf der Registerkarte **&#x200B;**&#x200B;[!UICONTROL Einstellungen] **&#x200B; **. Benutzer können dieser Liste mit ihrem Namen, ihrer E-Mail-ID oder ihrer eindeutigen Benutzer-ID hinzugefügt werden. Die unter dieser Option aufgeführten Benutzer erhalten keine E-Mail-Mitteilungen von Learning Manager.
+Als Administrator können Sie auswählen, wer E-Mails von Learning Manager erhält und wer nicht. Sie können dies mit der Option ****[!UICONTROL Eingeschränkter Benutzer]**** auf der Registerkarte ****[!UICONTROL Einstellungen]** **. Benutzer können dieser Liste mit ihrem Namen, ihrer E-Mail-ID oder ihrer eindeutigen Benutzer-ID hinzugefügt werden. Die unter dieser Option aufgeführten Benutzer erhalten keine E-Mail-Mitteilungen von Learning Manager.
 
 ## Konfigurieren Ihrer Kontoeinstellungen {#configureyouraccountsettings}
 
@@ -169,8 +170,8 @@ Mit Learning Manager können Sie einige Kontoeinstellungen konfigurieren, z. B.
 
 ### Grundlegende Einstellungen konfigurieren {#configurebasicsettings}
 
-1. Klicken Sie auf der Learning Manager-Startseite auf **&#x200B;**&#x200B;[!UICONTROL Einstellungen]&#x200B;**&#x200B;**. Standardmäßig zeigt das System die Seite „Grundlegende Informationen“ mit den Feldern „Standardsprache“ und „Standort“ an.
-1. Klicken Sie auf **&#x200B;**&#x200B;[!UICONTROL Ändern]&#x200B;**&#x200B;** in der oberen rechten Ecke der Seite, um die grundlegenden Informationen zu bearbeiten.
+1. Klicken Sie auf der Learning Manager-Startseite auf ****[!UICONTROL Einstellungen]****. Standardmäßig zeigt das System die Seite „Grundlegende Informationen“ mit den Feldern „Standardsprache“ und „Standort“ an.
+1. Klicken Sie auf ****[!UICONTROL Ändern]**** in der oberen rechten Ecke der Seite, um die grundlegenden Informationen zu bearbeiten.
 1. Konfigurieren Sie die folgenden Optionen:
 
    * **Land**: Wählen Sie in diesem Dropdownfeld das Land aus.
@@ -200,7 +201,7 @@ Als Administrator können Sie die Feedbackeinstellungen global konfigurieren. Ge
 
    ![](assets/configure-feedbacksettings-step3.png)
 
-1. Um die anderen Fragen für Ihren Feedback-Fragebogen zu konfigurieren, klicken Sie auf die Fragen in **&#x200B;**&#x200B;[!UICONTROL Selbststudium im Klassenzimmer]&#x200B;**&#x200B;** oder **&#x200B;**&#x200B;[!UICONTROL Kurse im Klassenzimmer]&#x200B;**&#x200B;**. Wenn Sie auf eine Frage klicken, können Sie im System die Standardfragen bearbeiten.
+1. Um die anderen Fragen für Ihren Feedback-Fragebogen zu konfigurieren, klicken Sie auf die Fragen in ****[!UICONTROL Selbststudium im Klassenzimmer]**** oder ****[!UICONTROL Kurse im Klassenzimmer]****. Wenn Sie auf eine Frage klicken, können Sie im System die Standardfragen bearbeiten.
 
 
 
@@ -214,7 +215,7 @@ Als Administrator können Sie die Feedbackeinstellungen global konfigurieren. Ge
 1. Konfigurieren Sie die Erinnerungseinstellungen, indem Sie die folgenden Optionen einstellen:
 
    * **Sendezeitpunkt**: Geben Sie an, ob Sie die Feedback-Anforderung bei oder nach Kursabschluss senden möchten.
-   * **Tage nach Abschluss**: Geben Sie die Anzahl der Tage an, nach denen Sie die Feedback-Anforderung senden möchten. Dieses Feld ist nur sichtbar, wenn **&#x200B;**&#x200B;[!UICONTROL Nach Kursabschluss]&#x200B;**&#x200B;** ausgewählt wurde.
+   * **Tage nach Abschluss**: Geben Sie die Anzahl der Tage an, nach denen Sie die Feedback-Anforderung senden möchten. Dieses Feld ist nur sichtbar, wenn ****[!UICONTROL Nach Kursabschluss]**** ausgewählt wurde.
 
    * **Wiederholung**: Geben Sie an, ob Sie die Feedback-Erinnerung täglich, wöchentlich oder monatlich senden möchten. Sie können auch angeben, wie viele Wochen die Erinnerung gesendet werden soll.
 
@@ -223,13 +224,13 @@ Als Administrator können Sie die Feedbackeinstellungen global konfigurieren. Ge
 
 ## L3-Feedback konfigurieren: {#configurel3feedback}
 
-L3-Feedback enthält die Fragen, die an den Manager eines Teilnehmers gesendet werden, nachdem der Teilnehmer einen Kurs abgeschlossen hat. Mit L3-Feedback kann ein Administrator Änderungen am Verhalten oder den Fähigkeiten eines Teilnehmers im Zeitverlauf verfolgen. Um dieses Feedback zu konfigurieren, klicken Sie auf der Feedback-Seite auf die Registerkarte **&#x200B;**&#x200B;[!UICONTROL L3-Feedback]&#x200B;**&#x200B;**. Sie sehen eine Standardfrage. Der Manager muss diese Frage mit einer Bewertungsskala von fünf Punkten beantworten.
+L3-Feedback enthält die Fragen, die an den Manager eines Teilnehmers gesendet werden, nachdem der Teilnehmer einen Kurs abgeschlossen hat. Mit L3-Feedback kann ein Administrator Änderungen am Verhalten oder den Fähigkeiten eines Teilnehmers im Zeitverlauf verfolgen. Um dieses Feedback zu konfigurieren, klicken Sie auf der Feedback-Seite auf die Registerkarte ****[!UICONTROL L3-Feedback]****. Sie sehen eine Standardfrage. Der Manager muss diese Frage mit einer Bewertungsskala von fünf Punkten beantworten.
 
 ![](assets/configure-l3-feedback.png)
 
 Ähnlich wie beim L1-Feedback können Sie die Erinnerungen für das L3-Feedback konfigurieren. Sie können entweder die vorhandene Erinnerung ändern oder eine neue Feedbackerinnerung hinzufügen.
 
-Nachdem Sie die Feedbackfrage und die Erinnerungseinstellungen abgeschlossen haben, klicken Sie auf **&#x200B;**&#x200B;[!UICONTROL Speichern]&#x200B;**&#x200B;**, um Ihre Einstellungen anzuwenden.
+Nachdem Sie die Feedbackfrage und die Erinnerungseinstellungen abgeschlossen haben, klicken Sie auf ****[!UICONTROL Speichern]****, um Ihre Einstellungen anzuwenden.
 
 ## Feedback auf Instanzebene konfigurieren {#configurefeedbackataninstancelevel}
 
@@ -250,10 +251,10 @@ So konfigurieren Sie die Feedbackeinstellungen auf Instanzebene:
 
    ![](assets/configure-feedbackataninstancelevel-step7.png)
 
-1. Um das L3-Feedback zur Verhaltensänderung auf Instanzebene zu konfigurieren, **&#x200B;**&#x200B;[!UICONTROL aktivieren]&#x200B;**&#x200B;** Sie das L3-Feedback. Die Anwendung zeigt eine vordefinierte, obligatorische Frage und eine leere Frage an, in die Sie eine Frage Ihrer Wahl eingeben können.
+1. Um das L3-Feedback zur Verhaltensänderung auf Instanzebene zu konfigurieren, ****[!UICONTROL aktivieren]**** Sie das L3-Feedback. Die Anwendung zeigt eine vordefinierte, obligatorische Frage und eine leere Frage an, in die Sie eine Frage Ihrer Wahl eingeben können.
 1. Für die vordefinierte Frage zur Verbesserung des Teilnehmers nach der Teilnahme am Kurs liegt die Antwort im Likert-Skalierungsformat vor. Das heißt, Manager müssen eine Option auf einer Skala von „Stimme voll zu“ bis „Stimme überhaupt nicht zu“ wählen.
 1. Geben Sie die zweite Frage für den Manager an. Manager können eine aussagekräftige Antwort auf diese Frage geben.
-1. Aktivieren Sie das Kontrollkästchen **&#x200B;**&#x200B;[!UICONTROL Als obligatorisch definieren]&#x200B;**&#x200B;**, wenn Sie die zweite Frage als obligatorisch festlegen möchten.
+1. Aktivieren Sie das Kontrollkästchen ****[!UICONTROL Als obligatorisch definieren]****, wenn Sie die zweite Frage als obligatorisch festlegen möchten.
 
    ![](assets/configure-feedbackataninstancelevel-step11.png)
 
@@ -266,8 +267,8 @@ So konfigurieren Sie die Feedbackeinstellungen auf Instanzebene:
 
 Mit den allgemeinen Einstellungen in Learning Manager können Administratoren generische Einstellungen konfigurieren, die sich auf andere Funktionen in der Anwendung auswirken. Beispielsweise können Sie mit allgemeinen Einstellungen festlegen, ob die Kurseffektivität für Teilnehmer sichtbar gemacht werden kann. So konfigurieren Sie die allgemeinen Einstellungen:
 
-1. Klicken Sie auf der Learning Manager-Startseite auf **&#x200B;**&#x200B;[!UICONTROL Einstellungen]&#x200B;**&#x200B;**.
-1. Klicken Sie im linken Bereich auf **&#x200B;**&#x200B;[!UICONTROL Allgemein]&#x200B;**&#x200B;**.
+1. Klicken Sie auf der Learning Manager-Startseite auf ****[!UICONTROL Einstellungen]****.
+1. Klicken Sie im linken Bereich auf ****[!UICONTROL Allgemein]****.
 1. Auf der Einstellungsseite „Allgemein“ können Sie die folgenden Optionen konfigurieren:
 
    Für alle diese Optionen ist die Funktion, auf die sich jede Option auswirkt, unterschiedlich. Bei Bedarf können Sie Querverweise zu jeder der detaillierten Funktionen erstellen.
@@ -290,9 +291,9 @@ Mit den allgemeinen Einstellungen in Learning Manager können Administratoren ge
 Mit dem Teilnehmer-Dashboard in Learning Manager können Teilnehmer zusätzlich zu ihren Leistungen, Kenntnissen und Ankündigungen ihre obligatorischen und empfohlenen Kurse anzeigen. Administratoren können festlegen, wie dieses Teilnehmer-Dashboard angezeigt werden soll, indem sie die Einstellungen für das Teilnehmer-Dashboard konfigurieren. Mit diesen Einstellungen können Administratoren die Widgets auf der Teilnehmerseite festlegen. Diese Einstellungen geben auch an, wie und wo die Widgets im Teilnehmer-Dashboard platziert werden. Als Administrator können Sie eine Vorschau des Layouts des Teilnehmer-Dashboards anzeigen, bevor Sie die Einstellungen anwenden.
 
 1. Klicken Sie auf der Learning Manager-Startseite auf **[!UICONTROL Einstellungen]**.
-1. Klicken Sie im linken Navigationsbereich auf **[!UICONTROL **&#x200B; Teilnehmer-Dashboard &#x200B;**.]**.
+1. Klicken Sie im linken Navigationsbereich auf **[!UICONTROL ** Teilnehmer-Dashboard **.]**.
 1. Wählen Sie die Widgets aus, die Sie aktivieren möchten. Wenn Sie die Auswahl eines Widgets aufheben, wird das Widget sofort aus der Vorschau entfernt. Teilnehmer können dieses Widget nicht in ihrem Dashboard sehen.
-1. Klicken Sie auf **&#x200B;**&#x200B;[!UICONTROL Speichern]&#x200B;**&#x200B;**, um die Einstellungen anzuwenden.
+1. Klicken Sie auf ****[!UICONTROL Speichern]****, um die Einstellungen anzuwenden.
 
    ![](assets/configure-learnerdashboardsettings-step4.png)
 

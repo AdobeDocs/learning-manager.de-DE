@@ -3,13 +3,14 @@ description: Mit einer Anmeldung mit einem Klick können Teilnehmer auf einen be
 jcr-language: en_us
 title: Registrierung mit einem Klick in Adobe Learning Manager verwenden
 contentowner: mmanuel
-source-git-commit: 87971737d1d9838d8b29035b5b9bf718742da1eb
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '627'
 ht-degree: 1%
-
 ---
-
 
 # Registrierung mit einem Klick für Adobe Learning Manager
 

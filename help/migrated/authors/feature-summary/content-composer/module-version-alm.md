@@ -2,21 +2,22 @@
 description: Erfahren Sie, wie Content Composer Kursupdates in Adobe Learning Manager verarbeitet, wie durch die erneute Veröffentlichung eine neue Modulversion erstellt wird und wie ALM-Autoren vorhandene Kurse aktualisieren, um die neueste Version zu verwenden.
 jcr-language: en_us
 title: Modulversionsverwaltung in Adobe Learning Manager
-source-git-commit: ea6d296fa99686136ab08d756a20570a4681d704
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 0%
-
 ---
-
 
 # Modulversionsverwaltung in Adobe Learning Manager
 
-Quellmaterial ändert sich im Laufe der Zeit - eine Richtlinie wird überarbeitet, ein SOP erhält eine neue Version, ein Pitch Deck wird aktualisiert. Content Composer und ALM behandeln eine Aktualisierung als Versionsänderung, nicht als eine direkte Bearbeitung, sodass zuvor veröffentlichte Kurse weiterarbeiten, während Sie das zugrunde liegende Modul aktualisieren.
+Das Quell-Material ändert sich im Laufe der Zeit - eine Richtlinie wird überarbeitet, ein SOP erhält eine neue Version, ein Pitch Deck wird aktualisiert. Content Composer und ALM behandeln eine Aktualisierung als Versionsänderung, nicht als eine direkte Bearbeitung, sodass zuvor veröffentlichte Kurse weiterarbeiten, während Sie das zugrunde liegende Modul aktualisieren.
 
 Bei der erneuten Veröffentlichung lädt Adobe Learning Manager das vorhandene Modul als neue Version in die Inhaltsbibliothek hoch und erhöht die Versionsnummer des Moduls um eins.
 
-1. Aktualisieren Sie in Content Composer die Quelldateien, generieren Sie die betroffenen Lektionen neu (siehe Aktualisieren eines Kurses, wenn sich das Quellmaterial ändert) und veröffentlichen Sie die Inhalte erneut.
+1. Aktualisieren Sie in Content Composer die Quelldateien, generieren Sie die entsprechenden Lektionen neu (siehe Aktualisieren eines Kurses, wenn sich das Quell-Material ändert) und veröffentlichen Sie die Inhalte erneut.
 
 2. Beim Veröffentlichen des Updates wird das vorhandene Modul nicht überschrieben, sondern es wird in der ALM-Inhaltsbibliothek eine neue Version hinzugefügt.
 

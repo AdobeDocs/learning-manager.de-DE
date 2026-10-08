@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Erstellen von Kursinstanzen und Lernpfaden
 contentowner: manochan
 exl-id: aba7417b-26a0-4160-878c-5814f84e5155
-source-git-commit: 24f54599749bce60916a57634144b0ca7f6a6d10
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '6105'
+source-wordcount: '6113'
 ht-degree: 58%
-
 ---
-
 # Erstellen von Kursinstanzen und Lernpfaden
 
 Dieses Dokument enthält Hilfethemen, um Kursmodule, Instanzen und Kurse für Administratorrollen zu erstellen.
@@ -372,7 +373,7 @@ Wenn Sie das PDF herunterladen, sehen Sie die Zeitzone (in UTC), die beim Erstel
 
 >[!NOTE]
 >
->Wenn diese Feedbackoption in Ihrem Konto nicht sichtbar ist, wurde Ihr Konto bereits auf das neue L1-Feedbackformular aktualisiert. Weitere Informationen finden Sie im [L1-Feedbackformular &#x200B;](/help/migrated/administrators/feature-summary/l1-feedback-form.md).
+>Wenn diese Feedbackoption in Ihrem Konto nicht sichtbar ist, wurde Ihr Konto bereits auf das neue L1-Feedbackformular aktualisiert. Weitere Informationen finden Sie im [L1-Feedbackformular ](/help/migrated/administrators/feature-summary/l1-feedback-form.md).
 
 
 Während der Kurserstellung können Sie L1- und L3-Feedbackoptionen hinzufügen:

@@ -3,13 +3,14 @@ description: Dieses Dokument enthält Informationen zu Lernobjekten für Manager
 jcr-language: en_us
 title: Lernobjekte
 exl-id: b633751c-9e88-4ffe-8055-b3d6bc63c422
-source-git-commit: 6862dc1958a34a369f0e0e7218f28151a47beb3b
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1741'
 ht-degree: 76%
-
 ---
-
 # Lernobjekte
 
 Dieses Dokument enthält Informationen zu Lernobjekten für Manager.
@@ -111,7 +112,7 @@ Wie aus dem obigen Kreisdiagramm hervorgeht, wird das L3-Feedback des Managers a
 Adobe Learning Manager erleichtert Ihnen das schnelle Auffinden der Kurse/Lernpfade Ihrer Wahl. Für die Suche nach Kursen haben Sie zwei Möglichkeiten:
 
 1. Über das Suchfeld. Klicken Sie auf das Suchsymbol in der rechten oberen Ecke. Ein Suchfeld erscheint. Geben Sie den Kursnamen oder zu Ihren Kursen passende Schlüsselwörter ein, um Ihre Kurse/Lernpfade zu finden. Sie können auch mithilfe vordefinierter Tags wie Captivate, C, Java und HTML suchen. Nach Tags können Sie im Suchfeld suchen, was bedeutet, dass die Tags im Suchfeld angezeigt werden, während Sie tippen. Die Suche kann kann auch mit einer eindeutigen ID ausgeführt werden.
-1. Filtern Sie die Liste der Kurse/Lernpfade/Zertifizierungen mithilfe der Filter. Sie können die Kurse nach Status filtern, z. B. Alle, Veröffentlicht und Eingestellt.
+1. Nach Filterung der Kurse/Lernpfade/Zertifizierungen mithilfe der Filter. Sie können die Kurse nach Status filtern, z. B. Alle, Veröffentlicht und Eingestellt.
 
 Sie können nach Kompetenzen suchen, indem Sie **Kompetenzen** auswählen und auswählen. Als Manager können Sie die Kurse auf vier verschiedene Weisen sortieren, um den gesuchten Kurs leichter zu finden. Klicken Sie auf Sortieren nach und wählen Sie alphabetisch aufsteigende Reihenfolge, alphabetisch absteigende Reihenfolge, Datum der Kursaktualisierung, Erstellungsdatum des Kurses oder Kurseffektivität:
 

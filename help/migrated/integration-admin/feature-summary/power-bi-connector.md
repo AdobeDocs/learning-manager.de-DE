@@ -1,21 +1,22 @@
 ---
-description: Erfahren Sie, wie Sie den Power BI-Connector mit Adobe Learning Manager integrieren
+description: Erfahren Sie, wie Sie Power BI Verbindung mit Adobe Learning Manager integrieren
 jcr-language: en_us
 title: Power BI-Connector
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1074'
 ht-degree: 4%
-
 ---
 
-
-# Power BI-Anschluss in Adobe Learning Manager
+# Power BI Verbindung in Adobe Learning Manager
 
 ## Einführung
 
-Über den Power BI-Connector können Sie Adobe Learning Manager mit Microsoft Power BI (kommerzielle Lizenz) integrieren, sodass Sie Ihre Lerndaten analysieren, visualisieren und freigeben können.
+Mit der Power BI-Verbindung können Sie Adobe Learning Manager in Microsoft Power BI (kommerzielle Lizenz) integrieren, sodass Sie Ihre Lerndaten analysieren, visualisieren und freigeben können.
 
 Mit dieser Integration kann der Integrationsadministrator Live-Datensätze wie Teilnehmertranskripte, Benutzerkenntnisse und xAPI-Aktivitätsberichte automatisch direkt in einen bestimmten Power BI-Arbeitsbereich exportieren.
 
@@ -31,15 +32,15 @@ Sobald die Verbindung hergestellt ist, können Sie alle Funktionen von Power BI 
 - Stellen Sie sicher, dass Sie über die Berechtigung zum Erstellen von Power BI-Apps und -Arbeitsbereichen verfügen.
 - **Mandantenname**, **App-Client-ID**, **App-Client-Geheimnis** und **Arbeitsbereich-ID** (optional) abrufen.
 
-## Konfigurieren des Power BI-Anschlusses
+## Konfigurieren der Power BI-Verbindung
 
 Anschluss von ALM an Power BI:
 
 1. Melden Sie sich bei Adobe Learning Manager als Integrationsadministrator an.
-2. Bewegen Sie den Mauszeiger über die Kachel des **Power BI**-Connectors und wählen Sie **Verbinden** aus.
+2. Bewegen Sie den Mauszeiger über die Kachel **Power BI** Verbindung und wählen Sie **Verbinden** aus.
 
    ![](assets/power-bi-connector1.png)
-   _Wählen Sie &quot;Verbinden&quot; aus, um den Power BI-Connector zu konfigurieren_
+   _Wählen Sie Verbinden aus, um die Power BI-Verbindung zu konfigurieren_
 
 3. Geben Sie die folgenden Details ein:
 
@@ -212,18 +213,18 @@ Wie **Lernpfade** in Ihren Berichten angezeigt werden, hängt von Ihren Administ
 
 - **Vorhandene Verbindungen:**
 
-   - Wenn **Lernpfad** deaktiviert ist, sind keine verknüpften Zeilen oder Spalten enthalten.
-   - Wenn diese Option aktiviert ist, enthält der Bericht den Lernpfad (höhere Ebene) für registrierte Teilnehmer.
+  - Wenn **Lernpfad** deaktiviert ist, sind keine verknüpften Zeilen oder Spalten enthalten.
+  - Wenn diese Option aktiviert ist, enthält der Bericht den Lernpfad (höhere Ebene) für registrierte Teilnehmer.
 
 - **Neue Verbindungen:**
 
-   - Wenn &quot;Lernpfad&quot; deaktiviert ist, werden folgende Spalten angezeigt:
+  - Wenn &quot;Lernpfad&quot; deaktiviert ist, werden folgende Spalten angezeigt:
 
-      - **Eingebetteter Pfad:** Name des Lernprogramms.
-      - **ID des eingebetteten Pfads:** ID für das Lernprogramm.
-      - **Eingebettete Kurs-ID:** IDs von Kursen im Lernpfad.
-   - Wenn diese Option aktiviert ist, verwendet die Spalte &quot;**Typ**&quot; ggf. den Lernpfad (höhere Ebene).
-   - Bei neuen Verbindungen gelten die Änderungen nach 30 Tagen.
+    - **Eingebetteter Pfad:** Name des Lernprogramms.
+    - **ID des eingebetteten Pfads:** ID für das Lernprogramm.
+    - **Eingebettete Kurs-ID:** IDs von Kursen im Lernpfad.
+  - Wenn diese Option aktiviert ist, verwendet die Spalte &quot;**Typ**&quot; ggf. den Lernpfad (höhere Ebene).
+  - Bei neuen Verbindungen gelten die Änderungen nach 30 Tagen.
 
 ### Wo eure Daten zu sehen sind**
 

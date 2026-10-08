@@ -1,15 +1,16 @@
 ---
 title: Neue Funktionen in dieser Version (April 2023)
 description: Informationen über die neuen Funktionen und Verbesserungen in Adobe Learning Manager
-hidefromtoc: true
+hidefromtoc: 'yes'
 exl-id: 0f9d73e8-da7f-4895-b4fa-54f52668cd4e
-source-git-commit: 3188d7f5593aeee87978e1e46456f01e1f41d57b
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3234'
 ht-degree: 70%
-
 ---
-
 # Neue Funktionen in dieser Version (April 2023)
 
 ## Adobe Learning Manager-App für Microsoft Teams
@@ -418,7 +419,7 @@ Die Antwort enthält ein neues Attribut, „currencyCode“.
 
 ### Kompetenz- und Kompetenzstufenzuordnung für Ausbilder
 
-Wir haben eine neue Funktion eingeführt, die das Fachwissen der Kursleiter erfasst, d. h. für jeden Kursleiter wird ihr Fachwissen beibehalten, und dies kann für nachgelagerte Vorgänge wie Suchen und Filtern zur Verfügung gestellt werden.
+Wir haben eine neue Funktion eingeführt, die das Fachwissen der Kursleiter erfasst, d. h. für jeden Kursleiter wird ihr Fachwissen beibehalten, und dies kann für nachgelagerte Vorgänge wie Suche und Filterung zur Verfügung gestellt werden.
 
 Die folgenden Attribute werden hinzugefügt:
 
@@ -446,7 +447,7 @@ Wir haben diese Felder hinzugefügt:
 * loID
 * loInstanceID
 
-**Endpunkt**: `GET /primeapi/v2/learningObjects/{loId}/instances/loInstanceId/conflictingSessions?page[offset]=0&page[limit]=10`
+**Endpunkt**: 2`GET /primeapi/v2/learningObjects/{loId}/instances/loInstanceId/conflictingSessions?page[offset]=0&page[limit]=10`
 
 ### Klassenzimmer in VC
 
@@ -464,7 +465,7 @@ Ein neuer Abfrageparameter filter.loFormat=Virtuelles Klassenzimmer für die lea
 
 Ein neuer Abfrageparameter filter.allSessions=false für die Kalender-API. Der Standardwert des Parameters ist „false“. Wenn dieser Wert auf &quot;true&quot; gesetzt ist, gibt die API alle Kalendersitzungen von Teilnehmenden zurück.
 
-**Endpunkt**: `GET /primeapi/v2/users/<id>/calendar?filter.allSessions=false`
+**Endpunkt**: 2`GET /primeapi/v2/users/<id>/calendar?filter.allSessions=false`
 
 ### Verlauf der Teilnehmersuche
 
@@ -525,9 +526,9 @@ DELETE /userGroups/{id}/users
 ]   
 ```
 
-### Ankündigungsbenutzergruppenfilterung für Verluste in der Teilnehmer-App
+### Filterungen der Benutzergruppe für Ankündigungen für Verluste in der Teilnehmer-App
 
-* Die GET /users/{userId}/userGroups-API verfügt über einen neuen Parameter, filter.announcementGroupsOnly, der einen booleschen Wert (true/false) annimmt. Dadurch werden nur Benutzergruppen gefiltert, die der Administrator ankündigt. Der Standardwert des Parameters ist &quot;false&quot;.
+* Die GET /users/{userId}/userGroups-API verfügt über einen neuen Parameter, filter.announcementGroupsOnly, der einen Boolesche Wert-Wert (true/false) annimmt. Dadurch werden nur Benutzergruppen gefiltert, die der Administrator ankündigt. Der Standardwert des Parameters ist &quot;false&quot;.
 * Die GET/learningObjects-API verfügt über einen neuen Parameter, filter.announcementGroups, der Ankündigungsgruppen-IDs zum Filtern der Ergebnisse akzeptiert.
 * Die GET/search-API verfügt über einen neuen Parameter, filter.announcementGroups, der Ankündigungsgruppen-IDs zum Filtern der Ergebnisse akzeptiert.
 

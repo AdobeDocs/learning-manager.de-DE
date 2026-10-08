@@ -1,23 +1,24 @@
 ---
-description: Erfahren Sie, wie Sie den FTP-Connector mit Adobe Learning Manager integrieren
+description: Anleitung zur Integration der FTP-Verbindung mit Adobe Learning Manager
 jcr-language: en_us
 title: FTP-Connector
 contentowner: mmanuel
-source-git-commit: 8a5212062c6b172b0e9d4f3faa2e66d26c5c2b56
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2008'
 ht-degree: 0%
-
 ---
 
-
-# FTP-Connector in Adobe Learning Manager
+# FTP-Verbindung in Adobe Learning Manager
 
 ## Einführung
 
 FTP (File Transfer Protocol) ist ein Standard-Netzwerkprotokoll, das zum Übertragen von Dateien zwischen einem Client und einem Server über das Internet oder ein lokales Netzwerk verwendet wird. Benutzer können damit Dateien auf einem Remote-Server hochladen, herunterladen und verwalten. Für sichere Dateiübertragungen werden häufig Varianten wie SFTP (SSH File Transfer Protocol) und FTPS (FTP Secure) verwendet. FTP ist in Unternehmensumgebungen weit verbreitet, um den Datenaustausch zwischen Systemen zu automatisieren, z. B. indem Anwender- oder Schulungsdaten zwischen Adobe Learning Manager und externen Plattformen synchronisiert werden.
 
-Dieses Dokument bietet Integrationsadministratoren schrittweise Anleitungen zur Einrichtung und Verwendung des FTP-Connectors in Adobe Learning Manager. Der FTP-Connector ermöglicht den automatisierten Datenaustausch zwischen Learning Manager und externen Systemen mithilfe sicherer Dateiübertragungsprotokolle.
+Dieses Dokument bietet Integrationsadministratoren schrittweise Anleitungen zur Einrichtung und Verwendung der FTP-Verbindung in Adobe Learning Manager. Die FTP-Verbindung ermöglicht den automatischen Datenaustausch zwischen Learning Manager und externen Systemen mithilfe sicherer Dateiübertragungsprotokolle.
 
 Sie erfahren, wie Sie FTP-Verbindungen konfigurieren, Datenfelder zuordnen, automatisierte Benutzerimporte oder -exporte planen und die Synchronisierungsaktivität überwachen. Dieser Leitfaden unterstützt eine reibungslose und sichere Integration mit externen Lernplattformen oder HR-Systemen. Sie können interne Benutzer und xAPI-Anweisungen importieren und Benutzerkenntnisse, Teilnehmertranskripte und xAPI-Daten exportieren.
 
@@ -34,9 +35,9 @@ Führen Sie diese Vorgänge entweder nach Bedarf oder durch Einrichten eines Zei
 
 ## Voraussetzungen
 
-Stellen Sie vor der Konfiguration des FTP-Connectors sicher, dass Ihre Umgebung die folgenden Anforderungen erfüllt:
+Stellen Sie vor der Konfiguration der FTP-Verbindung sicher, dass Ihre Umgebung die folgenden Anforderungen erfüllt:
 
-- Rolle des Integrationsadministrators mit FTP-Connector-Berechtigungen.
+- Integrationsadministratorrolle mit Berechtigungen für FTP-Verbindung.
 - Stabile Internetverbindung mit ausreichender Bandbreite für Dateiübertragungen.
 - Firewall-Konfiguration, die FTP-Verkehr auf den erforderlichen Ports zulässt.
 - Erforderlicher Portzugriff, abhängig von Ihren Sicherheitsanforderungen
@@ -50,9 +51,9 @@ Stellen Sie sicher, dass Sie über Folgendes verfügen:
 
 ## Wichtigste Funktionen
 
-### Datenimport und -export mit dem FTP-Connector
+### Datenimport und -export mit der FTP-Verbindung
 
-Der FTP-Connector in Adobe Learning Manager vereinfacht den Datenaustausch zwischen externen Systemen und Ihrem Adobe Learning Manager-Konto. Es unterstützt geplante und On-Demand-Import- oder -Exportvorgänge, reduziert den manuellen Aufwand und gewährleistet genaue, aktuelle Informationen.
+Die FTP-Verbindung in Adobe Learning Manager vereinfacht den Datenaustausch zwischen externen Systemen und Ihrem Adobe Learning Manager-Konto. Es unterstützt geplante und On-Demand-Import- oder -Exportvorgänge, reduziert den manuellen Aufwand und gewährleistet genaue, aktuelle Informationen.
 
 Diese Methode unterstützt die Integration mit mehreren externen Systemen. Wenn verschiedene Systeme separate CSV-Dateien generieren, führt Adobe Learning Manager die Daten zusammen und importiert sie als einen einzigen Stapel.
 
@@ -68,7 +69,7 @@ Wenn Sie mehrere externe Systeme verwenden, kann jedes System eine eigene CSV-Da
 
 _xAPI-Import_
 
-Der Connector unterstützt auch xAPI (Experience API)-Anweisungen. Importieren Sie diese aus Drittanbieter-Lernsystemen, um Lernaktivitäten über mehrere Plattformen hinweg zu verfolgen und darüber zu berichten.
+Die Verbindung unterstützt auch xAPI (Experience API)-Anweisungen. Importieren Sie diese aus Drittanbieter-Lernsystemen, um Lernaktivitäten über mehrere Plattformen hinweg zu verfolgen und darüber zu berichten.
 
 ### Daten aus Adobe Learning Manager exportieren
 
@@ -88,22 +89,22 @@ Zuordnen von CSV-Dateispalten zu Adobe Learning Manager-Benutzerattributen. Sie 
 
 Planen Sie die Ausführung von Import- und Exportaufgaben in regelmäßigen Abständen, z. B. täglich, wöchentlich oder in benutzerdefinierten Intervallen. Dies gewährleistet konsistente Datenaktualisierungen ohne manuellen Aufwand.
 
-## FTP-Connector konfigurieren
+## Konfigurieren der FTP-Verbindung
 
-Konfigurieren Sie den FTP-Connector, um eine sichere Datensynchronisierung zwischen Adobe Learning Manager und externen Systemen einzurichten.
+Konfigurieren Sie die FTP-Verbindung, um eine sichere Datensynchronisierung zwischen Adobe Learning Manager und externen Systemen einzurichten.
 
-Konfigurieren des FTP-Connectors:
+Konfigurieren der FTP-Verbindung
 
 1. Melden Sie sich als Integrationsadministrator an.
 2. Wählen Sie **Adobe Learning Manager FTP** und anschließend **Erste Schritte**.
 
    ![](assets/ftp-connector1.png)
-   _Adobe Learning Manager FTP-Connector-Oberfläche mit der Schaltfläche &quot;Erste Schritte&quot;_
+   _Adobe Learning Manager FTP-Verbindung mit der Schaltfläche &quot;Erste Schritte&quot;_
 
-3. Wählen Sie **Weiter**, um mit dem Setup-Assistenten für den FTP-Connector fortzufahren.
+3. Wählen Sie **Weiter**, um mit dem Setup-Assistenten für FTP-Verbindungen fortzufahren.
 
    ![](assets/ftp-connector2.png)
-   Auf der _Konfigurationsseite wird die Schaltfläche &quot;Weiter&quot; angezeigt, um mit dem FTP-Connector-Setup fortzufahren._
+   Auf der _Konfigurationsseite wird die Schaltfläche &quot;Weiter&quot; angezeigt, um mit der Einrichtung der FTP-Verbindung fortzufahren._
 
 ### Konfigurieren der Authentifizierung
 
@@ -154,16 +155,16 @@ So verbinden Sie Ihr FTP mit FileZilla:
 3. Wählen Sie **Datei** und anschließend **Site-Manager** aus.
 4. Wählen Sie **Neue Site** aus.
 5. Geben Sie die folgenden Details ein:
-   - **FTP-Domäne:** Die Adresse des FTP-Servers, mit dem Sie eine Verbindung herstellen möchten, z. B. ftp.example.com. Sie finden Ihre Hostdomäne auf der Seite &quot;FTP-Connector&quot; in Adobe Learning Manager.
+   - **FTP-Domäne:** Die Adresse des FTP-Servers, mit dem Sie eine Verbindung herstellen möchten, z. B. ftp.example.com. Sie finden Ihre Hostdomäne auf der Seite FTP-Verbindung in Adobe Learning Manager.
    - **Port:** Der standardmäßige FTP-Port ist 21. Adobe Learning Manager verwendet jedoch Port 22 für sichere Verbindungen.
    - **FTP-Benutzername:** Der für den Zugriff auf den FTP-Server erforderliche Anmeldename.
    - **FTP-Kennwort:** Das mit Ihrem FTP-Benutzernamen verknüpfte Kennwort.
 6. Wählen Sie **Verbinden**.
 7. Sobald die Verbindung hergestellt ist, können Sie Dateien übertragen, indem Sie sie zwischen den lokalen (linken) und den Remote-Bedienfeldern (rechten) ziehen und ablegen.
 
-## Verwenden des FTP-Connectors in Adobe Learning Manager
+## Verwenden der FTP-Verbindung in Adobe Learning Manager
 
-### Interne Benutzer über den FTP-Connector importieren
+### Interne Benutzer über FTP-Verbindung importieren
 
 Die Benutzerimportfunktion ermöglicht die automatische Synchronisation von Mitarbeiterdaten aus HR-Systemen und anderen externen Quellen in Adobe Learning Manager.
 
@@ -173,12 +174,12 @@ Durch Attributzuordnung wird die Verbindung zwischen Ihren externen Daten und de
 
 Zuordnen von Attributen:
 
-1. Wählen Sie **Interne Benutzer** auf der Seite **FTP-Connector** aus.
+1. Wählen Sie **Interne Benutzer** auf der Seite **FTP-Verbindung** aus.
 2. Wählen Sie **Spaltenzuordnung** aus.
 3. Auf der Seite **Attribute zuordnen**:
    - Die **linke Seite** zeigt die erforderlichen Felder in Adobe Learning Manager an.
    - Auf der **rechten Seite** werden die CSV-Spaltennamen angezeigt. Zunächst enthält diese Seite leere Dropdown-Menüs.
-   - Wählen Sie **Wählen Sie CSV** aus, um eine CSV-Beispieldatei hochzuladen. Dadurch wird die Dropdown-Liste auf der rechten Seite mit den Spaltennamen aus Ihrer CSV-Datei gefüllt. Weitere Informationen finden Sie in [diesem Artikel](https://experienceleague.adobe.com/de/docs/learning-manager/using/integration/migration-manual#csv).
+   - Wählen Sie **Wählen Sie CSV** aus, um eine CSV-Beispieldatei hochzuladen. Dadurch wird die Dropdown-Liste auf der rechten Seite mit den Spaltennamen aus Ihrer CSV-Datei gefüllt. Weitere Informationen finden Sie in [diesem Artikel](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/migration-manual#csv).
    - Ordnen Sie jedes Adobe Learning Manager-Feld der entsprechenden CSV-Spalte zu.
 
    ![](assets/ftp-connector6.png)
@@ -205,7 +206,7 @@ So konfigurieren Sie eine Quelle:
    _Konfigurationsverwaltungsseite mit Schaltfläche &quot;Neue Konfiguration hinzufügen&quot; und vorhandener Konfigurationsliste_
 
 3. Geben Sie den **Namen** und den **Quelldateinamen** ein:
-   - **Name:** Beschreibender Bezeichner für diese xAPI-Quelle (z. B. LMS-Integration oder externes Schulungssystem).
+   - **Name:** Beschreibende Identifizierung für diese xAPI-Quelle (z. B. LMS-Integration oder externes Schulungssystem)
    - **Quelldateiname:** Exakter Dateiname, der in Ihren FTP-Ordner hochgeladen wird (muss genau übereinstimmen, einschließlich Dateierweiterung).
 
    ![](assets/ftp-connector8.png)
@@ -248,13 +249,13 @@ Zuordnen der Felder:
 
 3. Ordnen Sie standardmäßig die folgenden erforderlichen Felder zu:
    - **actor.mbox:** Dies ist die E-Mail-Adresse des Teilnehmers (der ausführende Akteur).
-Aktion). Es identifiziert eindeutig, wer die Aktivität durchgeführt hat.
-   - **verb.id:** Dies ist der Bezeichner für die vom Teilnehmer durchgeführte Aktion, z. B.
-abgeschlossen, versucht oder bestanden. Es legt die Aktion des Teilnehmers fest.
+     Aktion). Es identifiziert eindeutig, wer die Aktivität durchgeführt hat.
+   - **verb.id:** Dies ist die Identifizierung für die vom Teilnehmer durchgeführte Aktion, z. B.
+     abgeschlossen, versucht oder bestanden. Es legt die Aktion des Teilnehmers fest.
    - **object.id:** Dies gibt das Lernobjekt oder die Aktivität an, mit der der Teilnehmer interagiert hat.
-z. B. ein Kurs, ein Modul oder ein Lernpfad.
+     z. B. ein Kurs, ein Modul oder ein Lernpfad.
 4. Wählen Sie **Neue Zuordnung hinzufügen**, um weitere Felder zuzuordnen.
-5. Wählen Sie für jedes Feld den entsprechenden **Datentyp** (Zeichenfolge, Zahl, Boolescher Wert oder Datum).
+5. Wählen Sie für jedes Feld den entsprechenden **Datentyp** (Zeichenfolge, Nummer, Boolesche Wert oder Datum).
 6. Wählen Sie **Speichern**, um die Zuordnung abzuschließen.
 
 ## Import planen
@@ -308,9 +309,9 @@ Anzeigen des Ausführungsstatus
    - **Dauer:** Für die Verarbeitung erforderliche Gesamtzeit.
    - **Typ des Imports:** Ob der Import geplant war oder On-Demand.
    - **Aktueller Status:** Echtzeit-Statusinformationen.
-      - **Wird ausgeführt:** Import wird derzeit ausgeführt
-      - **Abgeschlossen:** Erfolgreicher Abschluss mit Datensatzzählern
-      - **Fehler:** Fehler mit Diagnoseinformationen
+     - **Wird ausgeführt:** Import wird derzeit ausgeführt
+     - **Abgeschlossen:** Erfolgreicher Abschluss mit Datensatzzählern
+     - **Fehler:** Fehler mit Diagnoseinformationen
 
 ## Fehlerbehebung bei Importfehlern
 

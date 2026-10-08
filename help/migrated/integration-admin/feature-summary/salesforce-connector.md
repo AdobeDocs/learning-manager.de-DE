@@ -3,7 +3,10 @@ description: Hier erfahren Sie, wie Sie Salesforce Verbindung mit Adobe Learning
 jcr-language: en_us
 title: Salesforce-Connector
 contentowner: mmanuel
-source-git-commit: abd49abdde8ba8d957cd2c9dc34b9407d8e27d79
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2251'
 ht-degree: 4%
@@ -361,7 +364,7 @@ Sie können entweder vorhandene Profile verwenden oder benutzerdefinierte Profil
 
 **Benutzerdefinierte Profile erstellen**
 
-1. Navigieren Sie zu **Setup**&quot; und wählen Sie **&#x200B; Benutzer aus. &#x200B;**
+1. Navigieren Sie zu **Setup**&quot; und wählen Sie ** Benutzer aus. **
 2. Wählen Sie **Profile** aus.
 3. Klicken Sie auf **Neues Profil**.
 4. Erstellen Sie ein benutzerdefiniertes Profil, das auf einem vorhandenen basiert und auf Adobe Learning Manager-Benutzer zugeschnitten ist.

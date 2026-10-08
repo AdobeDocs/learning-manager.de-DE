@@ -3,13 +3,14 @@ jcr-language: en_us
 title: Dashboard für den Gruppenerfolg
 description: Weitere Informationen zum Group Success Dashboard in Adobe Learning Manager
 exl-id: 2cfd0511-d77d-4e97-81e6-6caa8483cc64
-source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1100'
 ht-degree: 1%
-
 ---
-
 # Dashboard für den Gruppenerfolg
 
 ## Einführung
@@ -26,9 +27,9 @@ Das Gruppen-Erfolgs-Dashboard bietet Folgendes:
 
 * **Vereinfacht die Verfolgung des Teilnehmerfortschritts**: Das Gruppen-Erfolgs-Dashboard bietet eine benutzerfreundliche Echtzeitansicht der Teilnehmerdaten, sodass weniger Excel-basierte Transkripte erforderlich sind. Manager und Administratoren können die Registrierungen von Teilnehmern und den Kursfortschritt schnell anzeigen, um wichtige Szenarien zu unterstützen, wie z. B.:
 
-   * **Bereitschaft zur Leistungsüberprüfung**: Manager können den Kursfortschritt für Teammitglieder im Vorfeld von Bewertungszyklen bewerten.
-   * **Konformitätsüberwachung**: Ermitteln Sie Teilnehmer, die keine obligatorischen Schulungen abgeschlossen haben.
-   * **Nachverfolgung auf Teamebene**: Franchise-, Filial- oder Regionalmanager können sicherstellen, dass ihre Teams die erforderlichen Schulungen pünktlich abschließen.
+  * **Bereitschaft zur Leistungsüberprüfung**: Manager können den Kursfortschritt für Teammitglieder im Vorfeld von Bewertungszyklen bewerten.
+  * **Konformitätsüberwachung**: Ermitteln Sie Teilnehmer, die keine obligatorischen Schulungen abgeschlossen haben.
+  * **Nachverfolgung auf Teamebene**: Franchise-, Filial- oder Regionalmanager können sicherstellen, dass ihre Teams die erforderlichen Schulungen pünktlich abschließen.
 
 * **Erleichtert die Teamverwaltung**: Das Group Success Dashboard ist nützlich für Manager mit kleinen Teams (unter 50 Personen), wie Filialleiter, Franchise-Manager, Händler-Manager oder interne Teams. Sie bietet eine Teamansicht und ermöglicht es Managern, schnell zu überprüfen, ob ihr Team die erforderlichen Kurse absolviert hat, um die Geschäftsziele zu erreichen.
 

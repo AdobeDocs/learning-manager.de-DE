@@ -1,13 +1,14 @@
 ---
 title: Verwenden des Chat-Bedienfelds als Teilnehmer im Live-Hub
 description: Erfahren Sie, wie Teilnehmer während einer Live-Hub-Sitzung im Chat-Bedienfeld auf Nachrichten zugreifen, diese anpassen und verwalten, einschließlich des Sendens privater Nachrichten.
-source-git-commit: 907477a48c3d623ba4c79879d59afe44adf25fe3
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 0%
-
 ---
-
 
 # Verwenden des Chat-Bedienfelds als Teilnehmer
 

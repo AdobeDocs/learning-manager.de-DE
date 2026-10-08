@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Zusammenfassung der neuen Funktionen
 contentowner: jayakarr
 exl-id: 603f1f1c-bf8d-4807-b9f7-b10ded19a91e
-source-git-commit: c833d92533b7fbf5a87c980d8b5e088185d02ef5
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3960'
 ht-degree: 1%
-
 ---
-
 # Zusammenfassung der neuen Funktionen {#new-features-summary}
 
 Erfahren Sie mehr über die neuen Funktionen und Verbesserungen in der Version März 2024 von Adobe Learning Manager.
@@ -31,7 +32,7 @@ Entdecken Sie einige der neuesten Funktionen von Adobe Learning Manager, darunte
 
 ### Kenntnisse aus externen Quellen importieren
 
-Importieren Sie Kenntnisse von Inhaltsanbietern wie LinkedIn und Go1 mithilfe der entsprechenden Connectors. Diese Verbesserung ist Teil des Ziels, Learning Manager in die Lage zu versetzen, sich in externe Skills Clouds und Talent Management Systeme zu integrieren. Die importierten Kenntnisse werden den vom Administrator definierten Kenntnissen im Lern-Manager hinzugefügt und stehen den Autoren während des Workflows zur Kurserstellung zur Verfügung. Darüber hinaus wurden Verbesserungen an der Funktionalität zur Kenntnissuche in der gesamten Plattform vorgenommen, um eine bessere Sucherfahrung zu bieten, wenn das Konto über eine große Anzahl von Kenntnissen verfügt.
+Importieren Sie Kenntnisse von Inhaltsanbietern wie LinkedIn und Go1 mithilfe der entsprechenden Verbindungen. Diese Verbesserung ist Teil des Ziels, Learning Manager in die Lage zu versetzen, sich in externe Skills Clouds und Talent Management Systeme zu integrieren. Die importierten Kenntnisse werden den vom Administrator definierten Kenntnissen im Lern-Manager hinzugefügt und stehen den Autoren während des Workflows zur Kurserstellung zur Verfügung. Darüber hinaus wurden Verbesserungen an der Funktionalität zur Kenntnissuche in der gesamten Plattform vorgenommen, um eine bessere Sucherfahrung zu bieten, wenn das Konto über eine große Anzahl von Kenntnissen verfügt.
 
 Weitere Informationen finden Sie unter [Kenntnisse importieren](administrators/feature-summary/import-skills-external-sources.md).
 
@@ -266,8 +267,10 @@ Wenn Sie nach einem beliebigen Benutzer suchen, laden die Optionen **Teilnehmer 
 
 * Die Spalten &quot;Tag(s)&quot; und &quot;Kenntnisse(s)&quot; im Schulungsbericht wurden in &quot;Tag und Kenntnisse&quot; geändert.
 * Der Bericht &quot;[Gamification Audit Trail](administrators/feature-summary/reports.md#gamification-audit-trail)&quot; wurde hinzugefügt.
-* Wenn ein Konto mehr als 280000 Teilnehmer enthält, die Kenntnissen zugewiesen sind, wird der Bericht zu Kenntnissen und Teilnehmern als gezippte CSV-Datei heruntergeladen.Wenn das Konto weniger als 250000 Teilnehmer hat, wird derselbe Bericht als CSV heruntergeladen.Wählen Sie auf der Administratorseite **Admin** > **Kenntnisse** > **Kenntnisse** > **Teilnehmer**. Der Bericht wird als CSV heruntergeladen.
-* Der [Sitzungsübersichtsbericht &#x200B;](administrators/feature-summary/reports.md#session-summary-report) enthält zwei neue Spalten: &quot;Standortinformationen&quot; und &quot;Standortbereich&quot;.
+* Wenn ein Konto mehr als 280000 Teilnehmer enthält, die Kenntnissen zugewiesen sind, wird der Bericht zu Kenntnissen und Teilnehmern als gezippte CSV-Datei heruntergeladen.
+Wenn das Konto weniger als 250000 Teilnehmer hat, wird derselbe Bericht als CSV heruntergeladen.
+Wählen Sie auf der Administratorseite **Admin** > **Kenntnisse** > **Kenntnisse** > **Teilnehmer**. Der Bericht wird als CSV heruntergeladen.
+* Der [Sitzungsübersichtsbericht ](administrators/feature-summary/reports.md#session-summary-report) enthält zwei neue Spalten: &quot;Standortinformationen&quot; und &quot;Standortbereich&quot;.
 
 ## Änderungen an der Erstellung von Klassenzimmern
 
@@ -281,7 +284,8 @@ Als Administrator können Sie Einschränkungen für einen Autor erzwingen, einen
 
 ## Änderungen am flexiblen Lernpfad
 
-Alle Konten (alt und neu) in werden gestartet, einschließlich Registrierungsfrist, Registrierungsfrist für Aufhebung der Registrierung und Sitzplatzbeschränkung in der Teilnehmer-App für einen flexiblen Lernpfad.Teilnehmer können sich jetzt für einen flexiblen Lernpfad registrieren, ohne eine Instanz des Kurses auszuwählen.
+Alle Konten (alt und neu) in werden gestartet, einschließlich Registrierungsfrist, Registrierungsfrist für Aufhebung der Registrierung und Sitzplatzbeschränkung in der Teilnehmer-App für einen flexiblen Lernpfad.
+Teilnehmer können sich jetzt für einen flexiblen Lernpfad registrieren, ohne eine Instanz des Kurses auszuwählen.
 
 ## Neuer Trigger für Lernpläne
 
@@ -339,9 +343,9 @@ In früheren Versionen von Adobe Learning Manager hat ein Teilnehmer keine sitzu
 In der Adobe Learning Manager-Version vom März 2024 wurden folgende Änderungen vorgenommen:
 
 * Sitzungsdetails aktualisiert und Sitzungseinladung (für Teilnehmer und Kursleiter)
-   * Für zukünftige Sitzungen werden E-Mails für **Sitzungsdetails aktualisiert**, **Sitzungseinladung** für registrierte Teilnehmer und aktuelle Kursleiter veraltet sein. Bei früheren Sitzungen bleiben E-Mails für **Sitzungsdetails aktualisiert** und **Sitzungseinladung** für registrierte Teilnehmer und aktuelle Kursleiter unverändert.
+  * Für zukünftige Sitzungen werden E-Mails für **Sitzungsdetails aktualisiert**, **Sitzungseinladung** für registrierte Teilnehmer und aktuelle Kursleiter veraltet sein. Bei früheren Sitzungen bleiben E-Mails für **Sitzungsdetails aktualisiert** und **Sitzungseinladung** für registrierte Teilnehmer und aktuelle Kursleiter unverändert.
 * Erinnerungs-E-Mails (für Administrator und Teilnehmer)
-   * Für zukünftige Sitzungen werden nur **Sitzungserinnerung** E-Mails gesendet.
+  * Für zukünftige Sitzungen werden nur **Sitzungserinnerung** E-Mails gesendet.
 
 >[!NOTE]
 >
@@ -369,7 +373,8 @@ In dieser Version der mobilen App können Teilnehmer überfällige Kurserinnerun
 * In 3 Tagen wieder erinnern
 * Erinnere mich in einer Woche wieder.
 
-Unter Android: Wenn Sie auf die Push-Benachrichtigung klicken, werden Sie zur Seite **Kursübersicht** weitergeleitet.Auf iOS: Wenn Sie auf die Push-Benachrichtigung klicken, werden Sie zur Startseite der App weitergeleitet. Dies ist eine bekannte Einschränkung in iOS.
+Unter Android: Wenn Sie auf die Push-Benachrichtigung klicken, werden Sie zur Seite **Kursübersicht** weitergeleitet.
+Auf iOS: Wenn Sie auf die Push-Benachrichtigung klicken, werden Sie zur Startseite der App weitergeleitet. Dies ist eine bekannte Einschränkung in iOS.
 
 ### Änderungen an der Checkliste in der Teilnehmer-App in Salesforce
 
@@ -428,7 +433,7 @@ Ein Teilnehmer kann sein Feedback zur Adobe Learning Manager-App abgeben, um das
 
 Wir möchten Sie darüber informieren, dass Bluejeans am Februar 2024 sein Lebensende (EOL) erreicht hat. Nach Februar 2024 erhält Bluejeans keine Updates und keinen Support mehr. Unsere CSAM- und Support-Teams unterstützen Sie bei Fragen oder Bedenken, die Sie während dieser Übergangszeit haben.
 
-Weitere Informationen zum Konfigurieren von Connectors finden Sie unter [Connectors in Adobe Learning Manager](integration-admin/feature-summary/connectors.md).
+Weitere Informationen zum Konfigurieren von Verbindungen finden Sie unter [Verbindungen in Adobe Learning Manager](integration-admin/feature-summary/connectors.md).
 
 ### Änderungen am Anmeldezugriffsbericht
 
@@ -452,8 +457,8 @@ Ein neues Attribut ist &quot;ExpiredSubmission&quot; in &quot;learningObjectReso
 
 * GET /account API: Gibt das neue Attribut **expireSubmissionDuration** X zurück, wobei X der Anzahl der festgelegten Tage entspricht. Wenn nicht festgelegt, wird 0 zurückgegeben.
 * Die GET/LO-API mit der Ressource enthält das neue Attribut **isExpiredSubmission**&quot; True oder False.
-   * True, wenn die Übermittlung abgelaufen ist und &quot;submissionUrl&quot; nicht angezeigt wird.
-   * Wenn der Wert auf &quot;False&quot; gesetzt ist, ist die Übermittlung nicht abgelaufen und &quot;submissionUrl&quot; wird abgerufen.
+  * True, wenn die Übermittlung abgelaufen ist und &quot;submissionUrl&quot; nicht angezeigt wird.
+  * Wenn der Wert auf &quot;False&quot; gesetzt ist, ist die Übermittlung nicht abgelaufen und &quot;submissionUrl&quot; wird abgerufen.
 
 ### API-Änderungen in der Checkliste
 
@@ -477,7 +482,7 @@ Wenn das Konto für diese Funktion aktiviert ist und die Anzahl der Registrierun
 
 ### Veraltete Pfade
 
-Derzeit folgen Learning Manager-APIs einer Diagrammdatenstruktur, mit der Sie Daten abrufen können, indem Sie das API-Modell durch Includes durchlaufen. Auch wenn Sie eine API auf bis zu sieben Ebenen durchlaufen könnten, ist das Abrufen der Daten mit einem einzigen API-Aufruf rechnerisch kostspielig.
+Derzeit folgen Learning Manager-APIs einer Graf-Datenstruktur, mit der Sie Daten abrufen können, indem Sie das API-Modell durch Includes durchlaufen. Auch wenn Sie eine API auf bis zu sieben Ebenen durchlaufen könnten, ist das Abrufen der Daten mit einem einzigen API-Aufruf rechnerisch kostspielig.
 
 Wir empfehlen allen bestehenden und neuen Kunden, mehrmals anstatt eines einzigen großen Anrufs kleine Anrufe zu tätigen. Dadurch wird verhindert, dass unerwünschte Daten in den Aufruf geladen werden.
 
@@ -486,27 +491,27 @@ Wir empfehlen allen bestehenden und neuen Kunden, mehrmals anstatt eines einzige
 Die folgenden Pfade sind veraltet:
 
 * /learningObjects
-   * Veraltete Pfade:
-      * enrollment.loInstance.loResources.resources
-      * instances.loResources.resources
-   * Bestehende Pfade:
-      * enrollment.loInstance
-      * instances.loResources
+  * Veraltete Pfade:
+    * enrollment.loInstance.loResources.resources
+    * instances.loResources.resources
+  * Bestehende Pfade:
+    * enrollment.loInstance
+    * instances.loResources
 * /learningObjects/{id}
-   * Veralteter Pfad:
-      * enrollment.instances.subLoInstances.learningObject
-   * Vorhandener Pfad:
-      * enrollment.instances.subLoInstances
+  * Veralteter Pfad:
+    * enrollment.instances.subLoInstances.learningObject
+  * Vorhandener Pfad:
+    * enrollment.instances.subLoInstances
 * /enrollments
-   * Veralteter Pfad:
-      * loInstance.learningObject.enrollment
-   * Neuer Pfad:
-      * loInstance.learningObject
+  * Veralteter Pfad:
+    * loInstance.learningObject.enrollment
+  * Neuer Pfad:
+    * loInstance.learningObject
 * /learningObjects/{id}
-   * Veralteter Pfad:
-      * instance.subLoInstances.learningObject.enrollment.loResourceGrades
-   * Neuer Pfad:
-      * instance.subLoInstances
+  * Veralteter Pfad:
+    * instance.subLoInstances.learningObject.enrollment.loResourceGrades
+  * Neuer Pfad:
+    * instance.subLoInstances
 
 ### Änderungen an der Archivierung des Anmeldezugriffs und Benutzerprüfungsberichts für die Job-API
 
@@ -554,7 +559,7 @@ Zeigen Sie [API-Veraltungen in Adobe Learning Manager](api-deprecations-list.md)
 * Nachdem Sie eine Instanz gewechselt und einen Teilnehmer für die Instanz registriert haben, sind die alten Instanzen weiterhin im Outlook-Kalender vorhanden.
 * Wenn ein Teilnehmer aus einem Peer-Konto versucht, die Miniaturansicht eines Kurses auszuwählen, wird eine Fehlermeldung angezeigt.
 * Wenn Teilnehmer sich für einen Kurs registrieren, erhalten sie mehrere Benachrichtigungen zur Registrierung.
-* Wenn ein Benutzer den Namen der in einem Connector erstellten Kataloge manuell ändert, werden neue Kataloge erstellt und die Kurse in den falschen Katalogen veröffentlicht.
+* Wenn ein Anwender den Namen der in einer Verbindung erstellten Kataloge manuell ändert, werden neue Kataloge erstellt und die Kurse werden in den falschen Katalogen veröffentlicht.
 * Benutzer mit inaktiven Konten erhalten weiterhin Abonnement-E-Mails.
 
 ### API-bezogene Fehlerbehebungen

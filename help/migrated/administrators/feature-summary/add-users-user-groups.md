@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Hinzufügen von Benutzern in Adobe Learning Manager
 contentowner: manochan
 exl-id: 7df98f2b-c422-4733-8ce4-5489506d4fdf
-source-git-commit: 07d7b03fb098d01b9d1514a2f1f1550d8421bc3d
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '2511'
 ht-degree: 2%
-
 ---
-
 
 # Hinzufügen von Benutzern in Adobe Learning Manager
 
@@ -38,7 +39,7 @@ Administratoren können interne Benutzer mit den folgenden Methoden hinzufügen:
 
 ### Internen Benutzer manuell hinzufügen
 
-Administratoren können Benutzer manuell hinzufügen, indem sie ihren Namen, ihre E-Mail-Adresse, ihre eindeutige Kennung und den Namen des Managers angeben. Der eindeutige Bezeichner in der Adobe Learning Manager ist ein erforderlicher Bezeichner, den Administratoren beim Erstellen eines Benutzers zuweisen. Es muss für jeden Benutzer eindeutig sein und als einheitliche Referenz im gesamten System dienen.
+Administratoren können Benutzer manuell hinzufügen, indem sie ihren Namen, ihre E-Mail-Adresse, ihre eindeutige Identifizierung und den Namen des Managers angeben. Die eindeutige Identifizierung in Adobe Learning Manager ist eine erforderliche Identifizierung, die Administratoren beim Erstellen eines Benutzers zuweisen. Es muss für jeden Benutzer eindeutig sein und als einheitliche Referenz im gesamten System dienen.
 
 >[!INFO]
 >
@@ -55,9 +56,10 @@ So fügen Sie Adobe Learning Manager einen einzelnen Benutzer hinzu:
 4. Geben Sie an der Eingabeaufforderung **Benutzer hinzufügen** den **Namen**, **E-Mail** und **Profil** (Jobtitel) des Benutzers ein.
 
    ![](assets/add-a-user-prompt.png)
-   _Felder zum Eingeben des Namens, der E-Mail-Adresse, des eindeutigen Bezeichners und des Profils für einen neuen Benutzer_
+   _Felder zum Eingeben des Namens, der E-Mail-Adresse, der eindeutigen Identifizierung und des Profils für einen neuen Benutzer_
 5. Suchen Sie nach dem Manager des Benutzers und wählen Sie den Namen aus der Liste der Manager aus.
-6. Wählen Sie **Hinzufügen** aus.Der Benutzer erhält eine Begrüßungs-E-Mail mit einer Anmelde-URL für den Zugriff.
+6. Wählen Sie **Hinzufügen** aus.
+Der Benutzer erhält eine Begrüßungs-E-Mail mit einer Anmelde-URL für den Zugriff.
 
 
 ### Selbstregistrierung für interne Benutzer zulassen
@@ -269,7 +271,7 @@ Es gibt einige Unterschiede zwischen internen und externen Registrierungen:
 | Interne Benutzer | Externe Benutzer |
 |---|---|
 | Anmeldung mit Adobe ID- oder SSO-Anmeldeinformationen möglich. | Anmeldung mit einer beliebigen E-Mail-ID möglich. |
-| Gamification ist verfügbar. | Gamification ist verfügbar. Der Administrator muss Gamification für externe Teilnehmer in den [Gamification-Einstellungen](https://experienceleague.adobe.com/de/docs/learning-manager/using/admin/gamification) aktivieren. |
+| Gamification ist verfügbar. | Gamification ist verfügbar. Der Administrator muss Gamification für externe Teilnehmer in den [Gamification-Einstellungen](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/gamification) aktivieren. |
 
 ### Externes Registrierungsprofil anhalten
 
@@ -343,7 +345,7 @@ Administratoren können Benutzerdetails bearbeiten, Benutzer löschen, Rollen zu
 
 ### Benutzer bearbeiten
 
-Verwenden Sie die Option **Benutzer bearbeiten** in Adobe Learning Manager, um die Profilinformationen eines Benutzers zu aktualisieren, z. B. Name, E-Mail-Adresse, eindeutige Kennung, Profil und Managername. Administratoren können diese Änderungen vornehmen, um sicherzustellen, dass die Benutzerdaten korrekt und auf dem neuesten Stand sind.
+Verwenden Sie die Option **Benutzer bearbeiten** in Adobe Learning Manager, um die Profilinformationen eines Benutzers zu aktualisieren, z. B. Name, E-Mail-Adresse, eindeutige Identifizierung, Profil und Managername. Administratoren können diese Änderungen vornehmen, um sicherzustellen, dass die Benutzerdaten korrekt und auf dem neuesten Stand sind.
 
 So bearbeiten Sie einen Benutzer:
 

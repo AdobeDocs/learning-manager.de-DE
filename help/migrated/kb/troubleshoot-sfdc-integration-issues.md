@@ -4,7 +4,10 @@ title: Fehlerbehebung für Probleme mit der Integration von Salesforce (SFDC) in
 description: Beheben Sie häufige Salesforce(SFDC)-Integrationsprobleme mit Adobe Learning Manager (ALM), einschließlich fehlgeschlagener Exporte, Feldberechtigungsprobleme in benutzerdefinierten SFDC-Objekten und wichtige SFDC-ALM-Kompatibilitätshinweise.
 contentowner: saghosh
 exl-id: 65acb7f9-45c3-4dbb-a9db-053533890040
-source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 0%

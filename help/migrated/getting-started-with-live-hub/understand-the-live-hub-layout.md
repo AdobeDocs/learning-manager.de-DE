@@ -1,13 +1,14 @@
 ---
 title: Das Layout für den Live-Hub (Beta).
 description: Erfahren Sie mehr über die Fenster und Steuerelemente, aus denen der Live-Hub-Sitzungsraum besteht, einschließlich der Steuerungsleiste, des Teilnehmer-, Chat- und Arbeitsgruppenbereichs.
-source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '822'
 ht-degree: 1%
-
 ---
-
 
 # Das Layout für den Live-Hub (Beta).
 
@@ -16,7 +17,7 @@ Im Adobe Learning Manager Live Hub wurde der Sitzungsraum so konzipiert, dass Ku
 Dieser Artikel bietet einen Überblick über die Oberfläche und das Layout des Live-Hub. Es werden die verschiedenen Komponenten des Raums, wie das Steuerungsbedienfeld, das Teilnehmerbedienfeld und andere Schlüsselelemente, mit beschrifteten Referenzen erläutert, die Ihnen die Navigation in der Benutzeroberfläche erleichtern.
 
 Übersicht über das Live-Hub-Layout von ![](assets/live-hub-layout-overview.png)
-*A: Mikrofonsteuerungen, B: Kameraoptionen, C: Reaktionen, D: Zu Wort melden, E: Bildschirm freigeben, F: Weitere Aktionen, G: Sitzung verlassen, H: Chat-Panel, I: Teilnehmer-Bedienfeld, J: Bedienfeld für Umfragen und Tests, K: Arbeitsgruppen, L: Weitere Apps, M: Interaktion mit Teilnehmern.*
+*A: Mikrofonsteuerungen, B: Optionen für die Kamera, C: Reaktionen, D: Zu Wort melden, E: Bildschirm freigeben, F: Weitere Aktionen, G: Sitzung verlassen, H: Chat-Panel, I: Teilnehmer-Bedienfeld, J: Bedienfeld für Umfragen und Tests, K: Arbeitsgruppen, L: Weitere Apps, M: Interaktion mit Teilnehmern.*
 
 ## Wichtige Komponenten des Klassenzimmerlayouts
 
@@ -28,7 +29,7 @@ Die Steuerungsleiste bietet einen schnellen Zugriff auf die folgenden Steuerelem
 
 * **Mikrofonsteuerungen**: Schalten Sie Ihr Mikrofon während der Sitzung ein oder aus. Dies steht sowohl Kursleitern als auch Teilnehmern zur Verfügung. Weitere Informationen finden Sie auf der Seite [Einrichtung des Vorbeitrittbildschirms](./setup-pre-join-screen-in-live-hub.md).
 
-* **Videosteuerelemente**: Aktivieren oder Deaktivieren der Kamera.Dies steht sowohl Kursleitern als auch Teilnehmern zur Verfügung. Weitere Informationen finden Sie auf der Seite [Einrichtung des Vorbeitrittbildschirms](./setup-pre-join-screen-in-live-hub.md).
+* **Videosteuerelemente**: Aktivieren oder deaktivieren Sie Ihre Kamera.Dies steht sowohl Kursleitern als auch Teilnehmern zur Verfügung. Weitere Informationen finden Sie auf der Seite [Einrichtung des Vorbeitrittbildschirms](./setup-pre-join-screen-in-live-hub.md).
 
 * **Reaktionen**: Nutze Emojis und schnelle Reaktionen, um während der Session zu interagieren. Dies steht sowohl Kursleitern als auch Teilnehmern zur Verfügung. [Informationen zum Melden der Hand anzeigen und Reaktionen senden](./about-raise-hand-and-reactions.md), um weitere Informationen zu erhalten.
 

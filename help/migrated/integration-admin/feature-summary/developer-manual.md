@@ -4,13 +4,14 @@ title: Handbuch für Anwendungsentwickler
 description: Erfahren Sie, wie Sie Anwendungen mithilfe von RESTful-APIs integrieren und anpassen, wobei wichtige Themen wie OAuth 2.0-Authentifizierung, API-Nutzungsszenarien und Datenmodelle behandelt werden. Optimieren Sie Ihre Unternehmensanwendungen mit Funktionen wie Kurserstellung, Verfolgung des Teilnehmerfortschritts, Qualifikationszuordnung, Zertifizierung, Gamification und mehr. Dieses Handbuch enthält Schritt-für-Schritt-Anleitungen und Beispiele aus der Praxis, die Entwicklern dabei helfen, nahtlose und effiziente Workflows zu erstellen. Ideal für Entwickler, die die Funktionen von Adobe Learning Manager zur Erstellung von Applikationen nutzen möchten, die auf den Lernenden ausgerichtet sind.
 contentowner: jayakarr
 exl-id: fa9313ac-67de-4467-9253-7eeabcf14204
-source-git-commit: f3df7e2defc479c270c16f91918903fb27560b19
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '4415'
-ht-degree: 7%
-
+source-wordcount: '4577'
+ht-degree: 6%
 ---
-
 
 # Adobe Learning Manager Developer Manual
 
@@ -54,14 +55,14 @@ Integriere Adobe Learning Manager mit externen Programmen, um deine Vielseitigke
    * **[!UICONTROL Beschreibung]**: Kurze Beschreibung der Anwendung.
    * **[!UICONTROL Bereiche]**: Wählen Sie eine der sechs verfügbaren Optionen aus, um den Geltungsbereich Ihrer Anwendung zu definieren. Basierend auf Ihrer hier genannten Auswahl sind die Learning Manager-API-Endpunkte für Ihre Anwendung zugänglich. Wenn Sie beispielsweise Lesezugriff für die Teilnehmerrolle gewählt haben, ist der Zugriff auf alle Lern-Manager-API-Endpunkte für Teilnehmer für Ihre Anwendung schreibgeschützt.
 
-      * Lese-/Schreibzugriff auf Administratorrolle: Ermöglicht der Anwendung, auf Daten als Administrator zuzugreifen oder sie zu ändern.
-      * Lese-/Schreibzugriff auf Teilnehmerrolle: Ermöglicht der Anwendung den Zugriff auf oder die Änderung von Daten für Teilnehmer.
-      * xAPI-Lese-/Schreibzugriff: Ermöglicht es der Anwendung, auf Experience API (xAPI)-Anweisungen zuzugreifen und diese zu senden.
+     * Lese-/Schreibzugriff auf Administratorrolle: Ermöglicht der Anwendung, auf Daten als Administrator zuzugreifen oder sie zu ändern.
+     * Lese-/Schreibzugriff auf Teilnehmerrolle: Ermöglicht der Anwendung den Zugriff auf oder die Änderung von Daten für Teilnehmer.
+     * xAPI-Lese-/Schreibzugriff: Ermöglicht es der Anwendung, auf Experience API (xAPI)-Anweisungen zuzugreifen und diese zu senden.
 
    * **[!UICONTROL Nur für dieses Konto?]**
 
-      * **[!UICONTROL Ja]** - Wenn Sie &quot;Ja&quot; auswählen, ist die Anwendung für andere Kontoadministratoren nicht sichtbar.
-      * **[!UICONTROL Nein]** - Wenn Sie &quot;Nein&quot; auswählen, können auch andere Kontoadministratoren auf diese Anwendung zugreifen, sie müssen jedoch die Anwendungs-ID verwenden, um auf diese Anwendung zuzugreifen. Die Anwendungs-ID wird generiert und im Bearbeitungsmodus der Learning Manager-Anwendung angezeigt.
+     * **[!UICONTROL Ja]** - Wenn Sie &quot;Ja&quot; auswählen, ist die Anwendung für andere Kontoadministratoren nicht sichtbar.
+     * **[!UICONTROL Nein]** - Wenn Sie &quot;Nein&quot; auswählen, können auch andere Kontoadministratoren auf diese Anwendung zugreifen, sie müssen jedoch die Anwendungs-ID verwenden, um auf diese Anwendung zuzugreifen. Die Anwendungs-ID wird generiert und im Bearbeitungsmodus der Learning Manager-Anwendung angezeigt.
 
      ![Alternativtext](assets/register-an-app.png)
 

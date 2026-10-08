@@ -1,13 +1,14 @@
 ---
 title: Best Practices für eine Live Hub (Beta)-Sitzung
 description: Befolgen Sie diese Best Practices, um eine Live-Hub-Sitzung in Adobe Learning Manager für Autoren, Administratoren, Kursleiter und Teilnehmer vorzubereiten, auszuführen und nachzuverfolgen.
-source-git-commit: e48747e8c9c520396b608dfae9aee2425815bad5
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1885'
 ht-degree: 0%
-
 ---
-
 
 # Best Practices für eine Live Hub (Beta)-Sitzung
 
@@ -81,13 +82,13 @@ Wählen Sie die Teilnehmerzuweisungsmethode basierend auf Ihren Schulungsanforde
 
 * **Manuelle Zuweisung**: Ermöglicht es Kursleitern, Teilnehmer in bestimmten Räumen zu platzieren.
 
-### Hochladen von AI-Referenzmaterialien
+### Hochladen von AI-Referenz-Materialien
 
 Wenn in Ihrer Session KI-gestützte Frage-und-Antwort-Funktionen verwendet werden, laden Sie die unterstützenden Materialien hoch, bevor die Session beginnt.
 
-Fügen Sie Präsentationsfolien, Dokumente oder andere Quellmaterialien hinzu, auf die die Teilnehmer verweisen sollen. Die Bereitstellung relevanter Inhalte hilft KI dabei, genauere, sitzungsobjektorientierte Antworten zu generieren.
+Fügen Sie Präsentationsfolien, Dokumente oder andere Quell-Materialien hinzu, auf die die Teilnehmer verweisen sollen. Die Bereitstellung relevanter Inhalte hilft KI dabei, genauere, sitzungsobjektorientierte Antworten zu generieren.
 
-Halten Sie die hochgeladenen Materialien auf dem neuesten Stand und geben Sie nur Inhalte an, die für die Schulungssitzung relevant sind.
+Halten Sie die hochgeladenen Materialien auf dem neuesten Stand und fügen Sie nur die Inhalte hinzu, die für die Schulungssitzung relevant sind.
 
 ## Während der Sitzung
 
@@ -173,7 +174,7 @@ Ermutigen Sie Teilnehmer, Feedback einzureichen, bevor Sie die Sitzung verlassen
 
 Greifen Sie nach der Sitzung von der Seite **Sitzungen** > **Übersicht** auf die Aufzeichnung zu und überprüfen Sie sie, bevor Sie sie für die Teilnehmer freigeben.
 
-Verwenden Sie die Bearbeitungswerkzeuge, um Setup-Aktivitäten, Pausen oder andere nicht erforderliche Inhalte zu entfernen, damit sich die Teilnehmer auf das Unterrichtsmaterial konzentrieren können.
+Verwenden Sie die Bearbeitungswerkzeuge, um Setup-Aktivitäten, Pausen oder andere nicht erforderliche Inhalte zu entfernen, damit sich die Teilnehmer auf das lehrreiche Material konzentrieren können.
 
 Das während der Aufzeichnung generierte Transkript bietet eine zusätzliche Lernressource, indem es den Inhalt durchsuchbar und für Teilnehmer, die die Sitzung später überprüfen, zugänglicher macht.
 

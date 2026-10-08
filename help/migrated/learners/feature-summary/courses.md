@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Meine Lerninhalte
 contentowner: manochan
 exl-id: 2c62d36c-c500-40d6-b79f-d3cc8b3b756a
-source-git-commit: f022ecdc10a8d9d473cd598697422edbb302a78c
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3331'
 ht-degree: 74%
-
 ---
-
 # Meine Lerninhalte
 
 Lesen Sie die folgenden Artikel, um zu erfahren, wie Sie Kurse in Learning Manager anzeigen und nutzen. Nehmen Sie an den Diskussionen teil und geben Sie Feedback.

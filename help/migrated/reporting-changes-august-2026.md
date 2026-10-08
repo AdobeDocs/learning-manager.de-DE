@@ -2,13 +2,14 @@
 description: Dieses Dokument fasst die Berichterstellungsänderungen im August 2026 in Adobe Learning Manager zusammen. Es deckt neue und aktualisierte Spalten im Teilnehmertranskript, in der Schulung, der Registrierung, der Warteliste, der Anwesenheit, der Inhaltsüberwachung und in Benutzerberichten ab. Außerdem werden das adaptive Kursverhalten, die Bewertung in Schulungsunterlagen, externe Lerndatensätze, KI-Bonitätsberichte der Generationen, die Verfolgung von Stammzertifizierungen, die Zeitstempelstandardisierung und API-Autor-Updates erläutert.
 jcr-language: en_us
 title: Meldungsänderungen in der Version August 2026 von Adobe Learning Manager
-source-git-commit: 5c32d300f6e66e154a5c993a0d9701254ac8b4ce
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '976'
 ht-degree: 2%
-
 ---
-
 
 # Meldungsänderungen in der Version August 2026 von Adobe Learning Manager
 
@@ -109,7 +110,7 @@ Zwei neue Ereignisse erfassen Änderungen an der Konfiguration der Schulungsunte
 | **Ereignis** | **Wird ausgelöst, wenn** | **Erfasste Daten** |
 |-----------------------|-----------------------------------------------------------------|----------------------------------------------------------|
 | Notenbuch aktualisiert | Schulungsunterlagen werden auf Kursebene aktiviert, deaktiviert oder geändert | Änderung des Gradientenbuchstatus; Konfigurationsaktualisierungen für die Bewertung |
-| Modulgewichtung aktualisiert | Das einem Modul zugewiesene Gewicht wird geändert | Modulkennung; aktualisierter Gewichtungswert |
+| Modulgewichtung aktualisiert | Das einem Modul zugewiesene Gewicht wird geändert | Identifizierung des Moduls; aktualisierter Gewichtungswert |
 
 Das Teilnehmertranskript spiegelt die neueste Gewichtung wider. Der Inhaltsprüfungsbericht verfolgt historische Änderungen. Zusammen geben sie Ihnen ein vollständiges Bild der aktuellen Bewertungslogik und ihrer Entwicklung.
 
@@ -137,7 +138,7 @@ Im Admin-Teilnehmertranskript werden alle neuen Spalten, einschließlich Name de
 
 ### Spalte &quot;Typ&quot; im Teilnehmertranskript
 
-Externe Lerneinträge werden jetzt neben vorhandenen Lernobjekten (Kursen, Lernpfaden, Zertifizierungen) in Administrator LT angezeigt. Die Spalte **Type** enthält eine neue externe Lernklassifizierung für eine einfache Filterung.
+Externe Lerneinträge werden jetzt neben vorhandenen Lernobjekten (Kursen, Lernpfaden, Zertifizierungen) in Administrator LT angezeigt. Die Spalte &quot;**Type**&quot; enthält eine neue externe Lernklassifizierung für einfache Filterungen.
 
 Externe Lerndaten fließen sowohl in das Teilnehmertranskript als auch in die Admin LT. Kernfelder wie Abschlussdatum, Status und Punktzahl werden vorhandenen Spalten zugeordnet. Benutzerdefinierte Felder werden als zusätzliche Spalten angehängt.
 
@@ -172,13 +173,13 @@ Das Dashboard zeigt die folgenden Metriken auf Kontoebene an.
 | **Bericht** | **Beschreibung** |
 |----------------------|---------------------------------------------------------------------------------------------|
 | Bericht über die monatliche Nutzung | Fasst den Kreditverbrauch nach Monat, Funktion und genutzten Credits zusammen |
-| Audit-Bericht | Stellt Details auf Benutzerebene bereit: Benutzer-ID, Funktionsname, verbrauchte Credits und Zeitstempel |
+| Audit-Bericht | Stellt Details auf Benutzerebene bereit: Identifizierung, Funktionsname, belegte Credits und Zeitstempel |
 
 ## Sonstige Verhaltensänderungen
 
 ### Stammzertifizierung: Stammtrainings-ID
 
-Eine neue **Stammtrainings-ID**-Spalte wird am Ende des **Admin-Teilnehmertranskripts** und des **Teilnehmertranskripts** (Teilnehmer-Self-Service-Ansicht) hinzugefügt. Es erfasst den eindeutigen Bezeichner, der alle Wiederholungen einer Zertifizierung mit einer einzigen Stammentität verknüpft. Dies ermöglicht es, alle sich wiederholenden Instanzen einer Zertifizierung mit einer einzigen Stamm-ID für die Verfolgung und Filterung zu verknüpfen.
+Eine neue **Stammtrainings-ID**-Spalte wird am Ende des **Admin-Teilnehmertranskripts** und des **Teilnehmertranskripts** (Teilnehmer-Self-Service-Ansicht) hinzugefügt. Es erfasst die eindeutige Identifizierung, die alle Wiederholungen einer Zertifizierung mit einer einzigen Stammentität verknüpft. Dies ermöglicht es, alle wiederkehrenden Instanzen einer Zertifizierung mit einer einzigen Stamm-ID für die Verfolgung und Filterung zu verknüpfen.
 
 ### Standardisierung von Webhook- und Teilnehmertranskriptzeitstempeln
 

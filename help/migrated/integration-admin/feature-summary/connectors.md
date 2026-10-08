@@ -1,25 +1,26 @@
 ---
-description: Überblick über jeden ALM-unterstützten Connector
+description: Überblick über die einzelnen ALM-unterstützten Verbindungen
 jcr-language: en_us
-title: Übersicht über Connectors in Adobe Learning Manager
+title: Überblick über Verbindungen in Adobe Learning Manager
 contentowner: mmanuel
-source-git-commit: 3750b1f8784209d9efcbf5aaae890c37365d7030
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1426'
 ht-degree: 6%
-
 ---
 
-
-# Adobe Learning Manager-Connectors
+# Adobe Learning Manager Verbindungen
 
 ## Einführung
 
-Adobe Learning Manager (ALM) bietet eine umfassende Suite an Connectors, die eine nahtlose Integration mit Anwendungen von Drittanbietern und Unternehmenssystemen ermöglichen. Diese Connectors dienen als Brücken zwischen Ihrem Lernmanagementsystem und externen Plattformen und erleichtern die automatisierte Datensynchronisierung, Benutzerverwaltung, den Import von Inhalten und den Export von Lerndatensätzen.
+Adobe Learning Manager (ALM) bietet ein umfassendes Paket an Verbindungen, die eine nahtlose Integration mit Anwendungen von Drittanbietern und Unternehmenssystemen ermöglichen. Diese Verbindungen dienen als Brücken zwischen Ihrem Lernmanagementsystem und externen Plattformen und erleichtern die automatisierte Datensynchronisierung, Benutzerverwaltung, den Import von Inhalten und den Export von Lerndatensätzen.
 
-Dieses Dokument dient als vollständiger Leitfaden zum Verständnis und zur Auswahl der geeigneten Connectors für das Lernökosystem Ihres Unternehmens. Ganz gleich, ob ihr HR-Systeme, E-Commerce-Plattformen, virtuelle Meeting-Tools oder Business-Intelligence-Lösungen integrieren möchtet.
+Dieses Dokument dient als vollständiger Leitfaden zum Verständnis und zur Auswahl der geeigneten Verbindungen für das Lernökosystem Ihres Unternehmens. Ganz gleich, ob ihr HR-Systeme, E-Commerce-Plattformen, virtuelle Meeting-Tools oder Business-Intelligence-Lösungen integrieren möchtet.
 
-Eine vollständige Liste der von Adobe Learning Manager unterstützten Connectors finden Sie unter Artikel von Connectors, die direkt unter diesem Artikel im Inhaltsverzeichnis auf der linken Seite verschachtelt sind.
+Eine vollständige Liste der von Adobe Learning Manager unterstützten Verbindungen finden Sie unter Artikel von Verbindungen, die direkt unter diesem Artikel im Inhaltsverzeichnis auf der linken Seite verschachtelt sind.
 
 >[!NOTE]
 >
@@ -29,11 +30,11 @@ Eine vollständige Liste der von Adobe Learning Manager unterstützten Connector
 >
 >Mit der Adobe Learning Manager-Version vom November 2022 hat Zoom die [JWT-Authentifizierung bis Juni 2023 veraltet](https://developers.zoom.us/docs/internal-apps/s2s-oauth/). Dementsprechend funktioniert der Zoom-Connector mit JWT noch bis zum erwähnten Datum, aber wir empfehlen Benutzern die Erstellung einer Server-zu-Server-OAuth-App, um die Funktionalität in ihrem Konto zu ersetzen. Alle neuen Verbindungen haben standardmäßig eine Zoom-OAuth-Authentifizierung.
 
-## Connector-Kategorien
+## Verbindungen
 
-Adobe Learning Manager-Connectors können je nach Hauptzweck und Integrationsfunktionen in mehrere Funktionskategorien unterteilt werden:
+Adobe Learning Manager-Verbindungen können je nach Hauptzweck und Integrationsmöglichkeiten in mehrere Funktionskategorien unterteilt werden:
 
-| Kategorie | Zweck | Beispiel-Connectors |
+| Kategorie | Zweck | Beispiel-Verbindungen |
 |---------|--------|-------------------|
 | Datenübertragung | Dateibasierter Datenaustausch und Massenvorgänge | FTP, Benutzerdefiniertes FTP, Box |
 | Virtuelles Klassenzimmer | Integration von Live-Schulungen und Meetings | Microsoft Teams, Zoom, Adobe Connect |
@@ -43,13 +44,13 @@ Adobe Learning Manager-Connectors können je nach Hauptzweck und Integrationsfun
 | Authentifizierung | Identitäts-Management und Sicherheit. | ADFS (SSO-Funktionen) |
 | E-Commerce und Marketing. | Integration von Vertrieb und Marketing | Adobe Commerce, Marketo Engage |
 
-## Connectors für Datenübertragung und Dateiverwaltung
+## Verbindungen bei der Datenübertragung und Dateiverwaltung
 
-Diese Connectors ermöglichen den automatisierten Datenaustausch über Dateiübertragungsprotokolle und ermöglichen Massenvorgänge und die Kommunikation zwischen Systemen.
+Diese Verbindungen erleichtern den automatisierten Datenaustausch über Dateiübertragungsprotokolle und ermöglichen Massenvorgänge und die Kommunikation zwischen Systemen.
 
-### Adobe Learning Manager FTP-Connector
+### Adobe Learning Manager FTP-Verbindung
 
-Mit dem FTP-Connector können Unternehmen die Datensynchronisierung zwischen Adobe Learning Manager und externen Systemen mithilfe des weit verbreiteten File Transfer Protocol automatisieren. Dieser Connector unterstützt sichere Varianten, einschließlich SFTP (SSH File Transfer Protocol) und FTPS (FTP Secure) für verbesserte Sicherheit.
+Mit der FTP-Verbindung können Unternehmen die Datensynchronisierung zwischen Adobe Learning Manager und externen Systemen mithilfe des weit verbreiteten Dateiübertragungsprotokolls automatisieren. Diese Verbindung unterstützt sichere Varianten, einschließlich SFTP (SSH File Transfer Protocol) und FTPS (FTP Secure) für verbesserte Sicherheit.
 
 #### Wichtigste Funktionen:
 
@@ -58,11 +59,11 @@ Mit dem FTP-Connector können Unternehmen die Datensynchronisierung zwischen Ado
 - Unterstützung für sichere Dateiübertragungsprotokolle (SFTP, FTPS).
 - Stapelverarbeitung großer Datensätze.
 
-Weitere Informationen finden Sie unter [FTP-Connector](/help/migrated/integration-admin/feature-summary/ftp-connector.md).
+Weitere Informationen finden Sie unter [FTP-Verbindung](/help/migrated/integration-admin/feature-summary/ftp-connector.md).
 
-### Benutzerdefinierter FTP-Connector
+### Benutzerdefinierte FTP-Verbindung
 
-Der benutzerdefinierte FTP-Connector bietet anspruchsvollere Dateiübertragungsfunktionen und unterstützt strukturierte Datenformate und den Austausch von xAPI-Anweisungen. Dieser Connector wurde für Unternehmen entwickelt, die eine detailliertere Kontrolle über ihre Datenaustauschprozesse benötigen.
+Die Custom FTP-Verbindung bietet anspruchsvollere Dateiübertragungsfunktionen und unterstützt strukturierte Datenformate sowie den Austausch von xAPI-Anweisungen. Diese Verbindung wurde für Unternehmen entwickelt, die eine detailliertere Kontrolle über ihre Datenaustauschprozesse benötigen.
 
 #### Wichtigste Funktionen:
 
@@ -71,11 +72,11 @@ Der benutzerdefinierte FTP-Connector bietet anspruchsvollere Dateiübertragungsf
 - Automatisierte Dateiverarbeitung aus angegebenen FTP-Ordnern.
 - Verbesserte Sicherheitsfunktionen für die Übertragung vertraulicher Daten.
 
-Weitere Informationen finden Sie unter [Benutzerdefinierter FTP-Connector](/help/migrated/integration-admin/feature-summary/custom-ftp-connector.md).
+Weitere Informationen finden Sie unter [Benutzerdefinierte FTP-Verbindung](/help/migrated/integration-admin/feature-summary/custom-ftp-connector.md).
 
 ### Box-Connector
 
-Der Box-Connector nutzt die Cloud-Speicherplattform von Box, um eine nahtlose Datensynchronisierung zwischen externen Systemen und Adobe Learning Manager zu erleichtern. Dieser Connector ist besonders für Organisationen nützlich, die Box bereits für die Dateiverwaltung verwenden.
+Die Box-Verbindung nutzt die Cloud-Speicherplattform von Box, um eine nahtlose Datensynchronisierung zwischen externen Systemen und Adobe Learning Manager zu ermöglichen. Diese Verbindung ist besonders für Unternehmen hilfreich, die Box bereits für die Dateiverwaltung verwenden.
 
 #### Wichtigste Funktionen:
 
@@ -86,13 +87,13 @@ Der Box-Connector nutzt die Cloud-Speicherplattform von Box, um eine nahtlose Da
 
 Weitere Informationen finden Sie unter [Box-Connector](/help/migrated/integration-admin/feature-summary/box-connector.md).
 
-## Connectors für virtuelle Klassenzimmer und Meetings
+## Verbindungen für virtuelle Klassenzimmer und Meetings
 
-Diese Connectoren integrieren Adobe Learning Manager mit beliebten Videokonferenz- und virtuellen Meetingplattformen und ermöglichen die nahtlose Bereitstellung von Live-Schulungssitzungen.
+Diese Verbindungen integrieren Adobe Learning Manager mit beliebten Videokonferenzen und virtuellen Meetingplattformen und ermöglichen die nahtlose Bereitstellung von Live-Schulungssitzungen.
 
 ### Microsoft Teams-Connector
 
-Der Microsoft Teams-Connector verwandelt Adobe Learning Manager in eine umfassende Lösung für virtuelle Klassenzimmer, indem er direkt in die Meetingfunktionen von Teams integriert wird. Dieser Connector ist für Unternehmen, die das Microsoft 365-Ökosystem verwenden, unerlässlich.
+Die Microsoft Teams-Verbindung transformieren Adobe Learning Manager in eine umfassende Lösung für virtuelle Klassenzimmer, indem sie direkt in die Meetingfunktionen von Teams integriert wird. Diese Verbindung ist für Unternehmen, die das Microsoft 365-Ökosystem verwenden, unerlässlich.
 
 #### Wichtigste Funktionen:
 
@@ -100,11 +101,11 @@ Der Microsoft Teams-Connector verwandelt Adobe Learning Manager in eine umfassen
 - Automatisches Erstellen und Verwalten von Teams-Meetings.
 - Nahtloser Teilnehmerzugriff ohne separate Meetinglinks.
 
-Weitere Informationen finden Sie unter [MS Teams-Connector](/help/migrated/integration-admin/feature-summary/install-microsoft-teams-connector.md).
+Weitere Informationen finden Sie unter [MS Teams-Verbindung](/help/migrated/integration-admin/feature-summary/install-microsoft-teams-connector.md).
 
-### Zoom-Connector
+### Zoom-Verbindung
 
-Der Zoom-Connector ermöglicht es Unternehmen, die robusten Videokonferenzfunktionen von Zoom direkt in ihrer Adobe Learning Manager-Umgebung zu nutzen und so ein nahtloses Erlebnis sowohl für Kursleiter als auch für Teilnehmer bereitzustellen.
+Die Zoom-Verbindung ermöglicht es Unternehmen, die leistungsstarken Videokonferenzfunktionen von Zoom direkt in ihrer Adobe Learning Manager-Umgebung zu nutzen und so sowohl den Kursleitern als auch den Teilnehmern ein nahtloses Erlebnis zu bieten.
 
 #### Wichtigste Funktionen:
 
@@ -114,11 +115,11 @@ Der Zoom-Connector ermöglicht es Unternehmen, die robusten Videokonferenzfunkti
 - Integration von Aufnahmemanagement und Wiedergabe.
 - Unterstützung für Breakout-Räume für interaktive Sitzungen.
 
-Weitere Informationen finden Sie unter [Zoom-Connector](/help/migrated/integration-admin/feature-summary/zoom-connector.md).
+Weitere Informationen finden Sie unter [Zoom-Verbindung](/help/migrated/integration-admin/feature-summary/zoom-connector.md).
 
-### Adobe Connect Connector
+### Adobe Connect Verbindung
 
-Der Adobe Connect-Connector bietet eine enge Integration mit der eigenen virtuellen Klassenzimmerplattform der Adobe und erweiterte Funktionen für interaktive Online-Lernerlebnisse.
+Die Adobe Connect-Verbindung bietet eine enge Integration mit der eigenen virtuellen Klassenzimmerplattform von Adobe und bietet erweiterte Funktionen für interaktive Online-Lernerlebnisse.
 
 #### Wichtigste Funktionen:
 
@@ -127,15 +128,15 @@ Der Adobe Connect-Connector bietet eine enge Integration mit der eigenen virtuel
 - Umfassende Aufzeichnung und Wiedergabe von Sessions.
 - Für Mobilgeräte optimierte virtuelle Lernumgebungen.
 
-Weitere Informationen finden Sie unter [Adobe Connect-Connector](/help/migrated/integration-admin/feature-summary/adobe-connect-connector.md).
+Weitere Informationen finden Sie unter [Adobe Connect-Verbindung](/help/migrated/integration-admin/feature-summary/adobe-connect-connector.md).
 
-## Enterprise-Systemintegrations-Connectors
+## Verbindungen der Enterprise-Systemintegration
 
-Diese Connectoren ermöglichen die Integration von Adobe Learning Manager in wichtige Unternehmenssysteme und erleichtern die automatisierte Benutzerverwaltung und Datensynchronisierung in der Organisation.
+Mit diesen Verbindungen kann Adobe Learning Manager in die wichtigsten Unternehmenssysteme integriert werden, was die automatisierte Benutzerverwaltung und Datensynchronisierung in der Organisation erleichtert.
 
 ### Workday Connector
 
-Der Workday-Connector stellt eine nahtlose Brücke zwischen Ihrem HR-System und der Lernmanagementplattform dar und stellt sicher, dass Mitarbeiterdatensätze, Organisationsstrukturen und Rollenzuweisungen über beide Systeme hinweg synchronisiert bleiben.
+Mit der Workday-Verbindung wird eine nahtlose Verbindung zwischen Ihrem HR-System und der Lernmanagementplattform hergestellt, sodass sichergestellt ist, dass Mitarbeiterdatensätze, Organisationsstrukturen und Rollenzuweisungen über beide Systeme hinweg synchronisiert bleiben.
 
 #### Wichtigste Funktionen:
 
@@ -144,11 +145,11 @@ Der Workday-Connector stellt eine nahtlose Brücke zwischen Ihrem HR-System und 
 - Zuordnung der Organisationshierarchie.
 - Rollenbasierte Lernzuweisungsautomatisierung.
 
-Weitere Informationen finden Sie unter [Workday-Connector](/help/migrated/integration-admin/feature-summary/workday-connector.md).
+Weitere Informationen finden Sie unter [Workday-Verbindung](/help/migrated/integration-admin/feature-summary/workday-connector.md).
 
 ### Salesforce-Connector
 
-Der Salesforce-Connector ermöglicht es Unternehmen, ihr System für das Customer Relationship Management in Lerninitiativen zu integrieren und so Möglichkeiten für Vertriebsschulungen, Kundenschulungen und Leistungsüberwachung zu schaffen.
+Mit der Salesforce-Verbindung können Unternehmen ihr System für das Customer Relationship Management in Lerninitiativen integrieren und so Möglichkeiten für Vertriebsschulungen, Kundenschulungen und Leistungsüberwachung schaffen.
 
 #### Wichtigste Funktionen:
 
@@ -158,11 +159,11 @@ Der Salesforce-Connector ermöglicht es Unternehmen, ihr System für das Custome
 - Verkäufer-Performance-Korrelation mit Schulungsabschluss.
 - Schulungsprogramm-Management für Kunden.
 
-Weitere Informationen finden Sie unter [Salesforce-Connector](/help/migrated/integration-admin/feature-summary/salesforce-connector.md).
+Weitere Informationen finden Sie unter [Salesforce-Verbindung](/help/migrated/integration-admin/feature-summary/salesforce-connector.md).
 
-### ADFS-Connector (Active Directory-Verbunddienste)
+### ADFS-Verbindung (Active Directory-Verbunddienste)
 
-Mit dem ADFS-Connector können Organisationen Authentifizierung und Autorisierung auf Unternehmensniveau implementieren, sodass Benutzer mit ihren bestehenden Active Directory-Anmeldeinformationen auf Adobe Learning Manager zugreifen können.
+Mit der ADFS-Verbindung können Organisationen Authentifizierung und Autorisierung auf Unternehmensniveau implementieren, sodass Benutzer mit ihren bestehenden Active Directory-Anmeldeinformationen auf Adobe Learning Manager zugreifen können.
 
 #### Wichtigste Funktionen:
 
@@ -173,15 +174,15 @@ Mit dem ADFS-Connector können Organisationen Authentifizierung und Autorisierun
 - Möglichkeit zur Terminierung
 - Filtermöglichkeiten
 
-Weitere Informationen finden Sie unter [ADFS-Connector](/help/migrated/integration-admin/feature-summary/adfs-connector.md).
+Weitere Informationen finden Sie unter [ADFS-Verbindung](/help/migrated/integration-admin/feature-summary/adfs-connector.md).
 
-## Connectoren für Content- und Lernplattformen
+## Verbindungen der Inhalts- und Lernplattform
 
-Diese Connectors erweitern Ihren Lernkatalog durch die Integration externer Inhaltsbibliotheken und spezieller Lernplattformen.
+Diese Verbindungen erweitern Ihren Lernkatalog durch die Integration externer Inhaltsbibliotheken und spezieller Lernplattformen.
 
 ### LinkedIn Learning-Connector
 
-Der LinkedIn Learning-Connector bietet Zugriff auf die umfangreiche LinkedIn-Bibliothek an Kursen zur beruflichen Entwicklung, sodass Unternehmen ihre interne Schulung mit branchenführenden externen Inhalten ergänzen können.
+Die LinkedIn Learning-Verbindung bietet Zugriff auf die umfangreiche LinkedIn-Bibliothek mit Kursen zur beruflichen Entwicklung, die es Unternehmen ermöglicht, ihre interne Schulung mit branchenführenden externen Inhalten zu ergänzen.
 
 #### Wichtigste Funktionen:
 
@@ -189,11 +190,11 @@ Der LinkedIn Learning-Connector bietet Zugriff auf die umfangreiche LinkedIn-Bib
 - Automatisierte Kurserkennung und -import.
 - Fortschrittsverfolgung für Teilnehmer in Adobe Learning Manager.
 
-Weitere Informationen finden Sie unter [LinkedIn-Connector](/help/migrated/integration-admin/feature-summary/linkedin-learning-connector.md).
+Weitere Informationen finden Sie unter [LinkedIn-Verbindung](/help/migrated/integration-admin/feature-summary/linkedin-learning-connector.md).
 
 ### Harvard ManageMentor-Connector
 
-Der Harvard ManageMentor-Connector bietet erstklassige Inhalte für Führungs- und Managementschulungen direkt in Ihre Adobe Learning Manager-Umgebung und ermöglicht den Zugriff auf die renommierten Bildungsressourcen der Harvard Business School.
+Die Harvard ManageMentor-Verbindung bringt erstklassige Inhalte für Führungs- und Managementschulungen direkt in Ihre Adobe Learning Manager-Umgebung und bietet Zugriff auf die renommierten Schulungsressourcen der Harvard Business School.
 
 #### Wichtigste Funktionen:
 
@@ -201,11 +202,11 @@ Der Harvard ManageMentor-Connector bietet erstklassige Inhalte für Führungs- u
 - Module zur Entwicklung von Management und Führung.
 - Nahtloser Import und Organisation von Inhalten.
 
-Weitere Informationen finden Sie unter [Harvard ManageMentor-Connector](/help/migrated/integration-admin/feature-summary/harvard-managementor-connector.md).
+Weitere Informationen finden Sie unter [Harvard ManageMentor-Verbindung](/help/migrated/integration-admin/feature-summary/harvard-managementor-connector.md).
 
-### getAbstract-Connector
+### getAbstract-Verbindung
 
-Der getAbstract-Connector bietet Zugang zu prägnanten Geschäftsbuchzusammenfassungen und professionellen Einblicken, sodass Organisationen kontinuierliches Lernen durch verdauliche Inhaltsformate anbieten können.
+Die getAbstract-Verbindung bietet Zugang zu prägnanten Geschäftsbuchzusammenfassungen und professionellen Einblicken, sodass Unternehmen durch verdauliche Inhaltsformate kontinuierliches Lernen anbieten können.
 
 #### Wichtigste Funktionen:
 
@@ -213,15 +214,15 @@ Der getAbstract-Connector bietet Zugang zu prägnanten Geschäftsbuchzusammenfas
 - Verfolgung von Nutzungsdaten und Reporting.
 - Datensatz-Erstellung mit automatischem Abschluss.
 
-Weitere Informationen finden Sie unter [getAbstract-Connector](/help/migrated/integration-admin/feature-summary/getabstract-connector.md).
+Weitere Informationen finden Sie unter [getAbstract-Verbindung](/help/migrated/integration-admin/feature-summary/getabstract-connector.md).
 
-## Business-Intelligence- und Analyse-Connectors
+## Business-Intelligence- und Analyse-Verbindungen
 
-Diese Connectors ermöglichen erweiterte Reporting-, Datenvisualisierungs- und Business-Intelligence-Funktionen, indem Lerndaten mit externen Analyseplattformen integriert werden.
+Diese Verbindungen ermöglichen erweiterte Reporting-, Datenvisualisierungs- und Business-Intelligence-Funktionen, indem Lerndaten mit externen Analyseplattformen integriert werden.
 
 ### Power BI-Connector
 
-Der Power BI-Connector verwandelt Ihre Lerndaten in verwertbare Geschäftsinformationen, indem Lernmetriken automatisch mit der leistungsstarken Business-Intelligence-Plattform von Microsoft synchronisiert werden.
+Die Power BI-Verbindung transformieren Ihre Lerndaten in verwertbare Geschäftsinformationen, indem Lernmetriken automatisch mit der leistungsstarken Business-Intelligence-Plattform von Microsoft synchronisiert werden.
 
 #### Wichtigste Funktionen:
 
@@ -234,24 +235,24 @@ Weitere Informationen finden Sie unter [Power BI-Connector](/help/migrated/integ
 
 ### Connector für Schulungsdatenzugriff
 
-Der Connector für den Zugriff auf Schulungsdaten ermöglicht Unternehmen die Erstellung benutzerdefinierter Lernschnittstellen und Headless-Lernerlebnisse, indem er API-Zugriff auf Schulungsdaten und Kursinformationen bietet.
+Mit der Verbindung &quot;Zugriff auf Schulungsdaten&quot; können Unternehmen benutzerdefinierte Lernschnittstellen und Headless-Lernerlebnisse erstellen, indem sie API-Zugriff auf Schulungsdaten und Kursinformationen gewähren.
 
 **Wichtige Funktionen:**
 
 - Öffentlicher API-Zugriff auf Kurs- und Lernpfaddaten.
 - Unterstützung für die Entwicklung benutzerdefinierter Benutzeroberflächen.
 - Headless-Lernerlebniserstellung.
-- Erweiterte Such- und Filterfunktionen.
+- Erweiterte Suche und Filterung.
 
-Weitere Informationen finden Sie unter [Schulungsdatenzugriffsconnector](/help/migrated/integration-admin/feature-summary/training-data-access-connector.md).
+Weitere Informationen finden Sie unter [Verbindung für den Zugriff auf Schulungsdaten](/help/migrated/integration-admin/feature-summary/training-data-access-connector.md).
 
-## E-Commerce- und Marketing-Connectoren
+## E-Commerce- und Marketing-Verbindungen
 
-Diese Connectoren ermöglichen die Monetarisierung von Lerninhalten und die Integration mit Marketing-Automatisierungsplattformen.
+Diese Verbindungen ermöglichen die Monetarisierung von Lerninhalten und die Integration mit Marketing-Automatisierungsplattformen.
 
 ### Adobe Commerce-Connector
 
-Der Adobe Commerce-Connector verwandelt Adobe Learning Manager in eine umfassende E-Commerce-Plattform, mit der Organisationen Kurse, Zertifizierungen und Schulungsprogramme über ein vollständig integriertes E-Commerce-Erlebnis verkaufen können.
+Die Adobe Commerce-Verbindung transformieren Adobe Learning Manager in eine umfassende E-Commerce-Plattform, mit der Organisationen Kurse, Zertifizierungen und Schulungsprogramme über ein vollständig integriertes E-Commerce-Erlebnis verkaufen können.
 
 **Wichtige Funktionen:**
 
@@ -259,11 +260,11 @@ Der Adobe Commerce-Connector verwandelt Adobe Learning Manager in eine umfassend
 - Kurskatalog und Preismanagement.
 - Automatisierte Zahlungsverarbeitung und Registrierung.
 
-Weitere Informationen finden Sie unter [Adobe Commerce-Connector](/help/migrated/integration-admin/feature-summary/adobe-commerce-connector.md).
+Weitere Informationen finden Sie unter [Adobe Commerce-Verbindung](/help/migrated/integration-admin/feature-summary/adobe-commerce-connector.md).
 
 ### Marketo Engage-Connector
 
-Der Marketo Engage-Connector schafft leistungsstarke Synergien zwischen Lernaktivitäten und Marketingkampagnen, sodass Unternehmen Bildungsinteraktionen zur Lead-Nurturing und Kundenentwicklung nutzen können.
+Die Marketo Engage-Verbindung schafft leistungsstarke Synergien zwischen Lernaktivitäten und Marketing-Kampagnen und versetzt Unternehmen in die Lage, pädagogisches Engagement für Lead-Nurturing und Kundenentwicklung zu nutzen.
 
 #### Wichtigste Funktionen:
 
@@ -271,4 +272,4 @@ Der Marketo Engage-Connector schafft leistungsstarke Synergien zwischen Lernakti
 - Tracking der Lernaktivitäten für Marketing-Erkenntnisse.
 - Auslöser für Kursregistrierungs- und Abschlussereignisse.
 
-Weitere Informationen finden Sie unter [Marketo Engage-Connector](/help/migrated/integration-admin/feature-summary/marketo-engage-connector.md).
+Weitere Informationen finden Sie unter [Marketo Engage Verbindung](/help/migrated/integration-admin/feature-summary/marketo-engage-connector.md).

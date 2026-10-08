@@ -5,20 +5,21 @@ description: In diesem Dokument wird beschrieben, wie das Learning Manager-Learn
 contentowner: saghosh
 preview: true
 exl-id: 1c26c12f-e63e-4d28-b28a-b1e3597d7ce1
-source-git-commit: 6f7442f2cfa4bc8c564e1eccc3a6aabf00958d77
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '932'
-ht-degree: 71%
-
+source-wordcount: '959'
+ht-degree: 76%
 ---
-
 # Barrierefreiheit in Adobe Learning Manager
 
 In diesem Dokument wird beschrieben, wie das Learning Manager-Learning Management System die Barrierefreiheit für Teilnehmer mit Behinderungen unterstützt. Es enthält auch Informationen zu Navigationsoptionen und Barrierefreiheit-Funktionen der Plattform.
 
 Der Learning Manager entspricht den W3C-Standards WCAG 2.1 Level A und AA für Barrierefreiheit für die Plattform.
 
-Mit der Adobe Learning Manager-Teilnehmerrolle können Teilnehmer durch die Plattform navigieren und die folgenden Eingabehilfen nutzen:
+Mit der Adobe Learning Manager-Teilnehmerrolle können Teilnehmer in der Plattform navigieren und die folgenden zentralen Barrierefreiheit-Funktionen nutzen:
 
 * Sprachausgabe
 * Tastatur
@@ -150,8 +151,8 @@ Die Teilnehmerrolle von Learning Manager unterstützt mehrere zusätzliche Funkt
 
 Weitere Informationen finden Sie unter:
 
-* [Bericht zur Barrierefreiheitskonformität für einen Teilnehmer](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2022-learner-portal-acr.html)
-* [Bericht zur Barrierefreiheitskonformität für alle Rollen](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2022-acr.html)
+* [Barrierefreiheitskonformitätsbericht für einen Teilnehmer](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2022-learner-portal-acr.html)
+* [Barrierefreiheitskonformitätsbericht für alle Rollen](https://www.adobe.com/accessibility/compliance/adobe-captivate-prime-web-2022-acr.html)
 
 ## Workflows zum Besten Lernmanager (Rolle &quot;Teilnehmer&quot;) {#captivateprimetopworkflowslearnerrole}
 
@@ -169,7 +170,7 @@ Verwenden Sie die Taste `kbd Tab`, um durch die Elemente auf der Seite zu navigi
 
 ## Nehmen Sie an einer Schulung in Adobe Learning Manager teil {#consumeatraininginadobecaptivateprime}
 
-1. Sobald eine Schulung identifiziert wurde, navigieren Sie mit `kbd Tab` oder `kbd Shift + Tab` zur Schaltfläche &quot;Registrieren/Starten&quot;. Der Schaltflächenstatus hängt von Ihrem Registrierungsstatus für diese Schulung ab.
+1. Sobald eine Schulung identifiziert wurde, navigieren Sie mit `kbd Tab` oder `kbd Shift + Tab` zur Schaltfläche &quot;Registrieren/Starten&quot;. Der Schaltflächenstatus hängt von Ihrem Anmeldestatus für diese Schulung ab.
 
 1. Drücken Sie `kbd ENTER`, um die Schulung zu starten.
 1. Im Folgenden sind die Steuerelemente aufgeführt, die unabhängig vom Inhaltstyp angezeigt werden:

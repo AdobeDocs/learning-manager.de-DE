@@ -3,13 +3,14 @@ description: Referenzhandbuch für Integrationsadministratoren zum Migrieren ein
 jcr-language: en_us
 title: Migrationshandbuch
 exl-id: bfdd5cd8-dc5c-4de3-8970-6524fed042a8
-source-git-commit: 56ecd41e891d06f61ae7178280b85d6ffe918738
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '8322'
+source-wordcount: '8327'
 ht-degree: 39%
-
 ---
-
 # Migrationshandbuch
 
 Referenzhandbuch für Integrationsadministratoren zum Migrieren eines vorhandenen LMS in das Learning Manager-LMS
@@ -699,9 +700,9 @@ Erstellen Sie eine App oder ein Skript, die bzw. das Folgendes nach einem Zeitpl
 
 Parameter:
 
-* **lockaccount (Boolean):** Der Parameter bestimmt, ob das Konto zu Beginn der Ausführung gesperrt werden soll. Standardmäßig ist sie auf &quot;false&quot; festgelegt. Es wird empfohlen, dass Benutzer diesen Parameter nur verwenden, wenn ein gültiger Grund für das Sperren des Kontos vorliegt.
-* **catalogId (Integer):** Mit diesem Parameter können Sie den Zielkatalog während der Migration auswählen. Er wird in der Regel beim Erstellen des Migrationsprojekts festgelegt, kann jedoch für einzelne Ausführungen angepasst werden. Wenn der Katalog geändert wird, werden in zukünftigen Ausführungen hinzugefügte Lernobjekte im zuletzt ausgewählten Katalog platziert. Wenn Sie zum Katalog zurückkehren müssen, der während der Erstellung des Migrationsprojekts ausgewählt wurde, müssen Sie dies auch explizit angeben.
-* **migrationProjectId (Integer):** Der Parameter ist erforderlich, um ein bestimmtes Migrationsprojekt auszulösen, wenn mehrere API-fähige Ausführungen im Konto aktiviert sind.
+* **lockaccount (Boolesche Wert):** Der Parameter bestimmt, ob das Konto zu Beginn der Ausführung gesperrt werden soll. Standardmäßig ist sie auf &quot;false&quot; festgelegt. Es wird empfohlen, dass Benutzer diesen Parameter nur verwenden, wenn ein gültiger Grund für das Sperren des Kontos vorliegt.
+* **Katalog (Ganzzahl):** Mit diesem Parameter können Sie den Zielkatalog während der Migration auswählen. Er wird in der Regel beim Erstellen des Migrationsprojekts festgelegt, kann jedoch für einzelne Ausführungen angepasst werden. Wenn der Katalog geändert wird, werden in zukünftigen Ausführungen hinzugefügte Lernobjekte im zuletzt ausgewählten Katalog platziert. Wenn Sie zum Katalog zurückkehren müssen, der während der Erstellung des Migrationsprojekts ausgewählt wurde, müssen Sie dies auch explizit angeben.
+* **migrationProjectId (Ganzzahl):** Der Parameter ist erforderlich, um ein bestimmtes Migrationsprojekt auszulösen, wenn mehrere API-fähige Ausführungen im Konto aktiviert sind.
 
 #### Überprüfen Sie, ob die Synchronisierung beginnen kann
 
@@ -711,7 +712,7 @@ Stellen Sie sicher, dass Inhalte mit dem Sprint-Ordner synchronisiert werden kö
 
 Parameter:
 
-* **migrationProjectId (Integer)** Der Parameter ist erforderlich, um ein bestimmtes Migrationsprojekt auszulösen, wenn mehrere API-fähige Ausführungen im Konto aktiviert sind.
+* **migrationProjectId (Ganzzahl)** Der Parameter ist erforderlich, um ein bestimmtes Migrationsprojekt auszulösen, wenn mehrere API-fähige Ausführungen im Konto aktiviert sind.
 
 <b>Antworterfolg</b>
 
@@ -783,11 +784,11 @@ GET /bulkimport/runStatus
 
 **Parameter**
 
-* **migrationProjectId**: (Erforderlich). Ein eindeutiger Bezeichner für ein Migrationsprojekt. Ein Migrationsprojekt wird verwendet, um Daten und Inhalte aus einem vorhandenen LMS (Learning Management System) in Adobe Learning Manager zu übertragen. Jedes Migrationsprojekt kann aus mehreren Sprints bestehen, die kleinere Einheiten von Migrationsaufgaben sind.
+* **migrationProjectId**: (Erforderlich). Eine eindeutige Identifizierung für ein Migrationsprojekt. Ein Migrationsprojekt wird verwendet, um Daten und Inhalte aus einem vorhandenen LMS (Learning Management System) in Adobe Learning Manager zu übertragen. Jedes Migrationsprojekt kann aus mehreren Sprints bestehen, die kleinere Einheiten von Migrationsaufgaben sind.
 
-* **sprintId**: (Erforderlich). Ein eindeutiger Bezeichner für einen Sprint innerhalb eines Migrationsprojekts. Ein Sprint ist eine Teilmenge von Migrationsaufgaben, die bestimmte Lernobjekte (z. B. Kurse, Module, Teilnehmerdatensätze) umfasst, die von einem bestehenden LMS zu Adobe Learning Manager migriert werden sollen. Jeder Sprint kann unabhängig ausgeführt werden, was eine phasengesteuerte Migration ermöglicht.
+* **sprintId**: (Erforderlich). Eine eindeutige Identifizierung für einen Sprint innerhalb eines Migrationsprojekts. Ein Sprint ist eine Teilmenge von Migrationsaufgaben, die bestimmte Lernobjekte (z. B. Kurse, Module, Teilnehmerdatensätze) umfasst, die von einem bestehenden LMS zu Adobe Learning Manager migriert werden sollen. Jeder Sprint kann unabhängig ausgeführt werden, was eine phasengesteuerte Migration ermöglicht.
 
-* **sprintRunId**: (Erforderlich). Eine eindeutige Kennung, die zum Verfolgen der Ausführung eines bestimmten Sprints innerhalb eines Migrationsprojekts verwendet wird. Es ist mit dem eigentlichen Migrationsvorgang für die in einem Sprint definierten Elemente verknüpft. Die sprintRunId hilft bei der Überwachung, Fehlerbehebung und Verwaltung des Migrationsauftrags.
+* **sprintRunId**: (Erforderlich). Eine eindeutige Identifizierung, die zum Verfolgen der Ausführung eines bestimmten Sprints innerhalb eines Migrationsprojekts verwendet wird. Es ist mit dem eigentlichen Migrationsvorgang für die in einem Sprint definierten Elemente verknüpft. Die sprintRunId hilft bei der Überwachung, Fehlerbehebung und Verwaltung des Migrationsauftrags.
 
 **Antwort**
 
@@ -938,7 +939,7 @@ Vier CSV-Dateien sind an der Migration von VILT-Sitzungen beteiligt:
 
 Laden Sie die oben genannten Dateien [hier](assets/csv-and-xlsx-migration-files.zip) herunter.
 
-Alle vier CSV-Dateien akzeptieren `almCourseID` als Verweis auf Kurse und `almModuleID` als Verweis auf Module. Diese IDs sind die eindeutigen Kennungen, die von ALM beim Erstellen eines Kurses oder Moduls zugewiesen werden.
+Alle vier CSV-Dateien akzeptieren `almCourseID` als Verweis auf Kurse und `almModuleID` als Verweis auf Module. Diese IDs sind die eindeutigen Identifizierungen, die von ALM beim Erstellen eines Kurses oder Moduls zugewiesen werden.
 
 ### Festlegen des Startdatums für Instanzen von Kursen und Lernpfaden
 
@@ -1193,7 +1194,7 @@ Für Phase 2 ist keine separate CSV-Datei erforderlich. Sie fügen Ihrer vorhand
 
 #### Ordnerhierarchie planen
 
-Ordnen Sie vor dem Vorbereiten der CSV-Datei die Ordner- oder Kategoriestruktur Ihres Quellsystems der dreistufigen Hierarchie von Adobe Learning Manager zu. Adobe Learning Manager unterstützt maximal drei Ebenen (Ebene 1 → Ebene 2 → Ebene 3). Wenn Ihr Quellsystem tiefer verschachtelt ist, reduzieren Sie es vor der Migration auf drei Ebenen.
+Ordnen Sie vor dem Vorbereiten der CSV-Datei die Ordner- oder Kategoriestruktur Ihres Quellsystems der dreistufigen Hierarchie von Adobe Learning Manager zu. Adobe Learning Manager unterstützt eine Tiefe von maximal drei Ebenen (Stufe 1 → Stufe 2 → Stufe 3). Wenn Ihr Quellsystem tiefer verschachtelt ist, reduzieren Sie es vor der Migration auf drei Ebenen.
 
 >[!NOTE]
 >
@@ -1207,7 +1208,7 @@ Verwenden Sie `content_folder.csv`, um die Zielordnerhierarchie zu definieren. J
 
 | Spalte | Erforderlich | Beschreibung |
 | --- | --- | --- |
-| `id` | Ja | Eine eindeutige Kennung, die Sie diesem Ordner zuweisen. Dies ist Ihre eigene Referenz-ID, z. B. eine Kategorie-ID aus Ihrem Quellsystem. Wird verwendet, um über- und untergeordnete Ordner innerhalb der Datei zu verknüpfen und die Migration sicher erneut ausführen zu können. |
+| `id` | Ja | Eine eindeutige Identifizierung, die Sie diesem Ordner zuweisen. Dies ist Ihre eigene Referenz-ID, z. B. eine Kategorie-ID aus Ihrem Quellsystem. Wird verwendet, um über- und untergeordnete Ordner innerhalb der Datei zu verknüpfen und die Migration sicher erneut ausführen zu können. |
 | `name` | Ja | Der Anzeigename des Ordners Maximal 63 Zeichen. Ein Schrägstrich (`/`) kann nicht enthalten sein. Muss unter Ordnern mit demselben übergeordneten Element eindeutig sein. |
 | `description` | Nein | Eine optionale Beschreibung für den Ordner. Maximal 2.046 Zeichen. |
 | `parentExternalId` | Nein | Die `id` des übergeordneten Ordners. Lassen Sie dieses Feld für Ordner der Ebene 1 (Stamm) leer. Geben Sie für Ordner der Ebene 2 den Namen `id` der übergeordneten Ebene 1 ein. Geben Sie für Ordner der Ebene 3 die übergeordnete Ebene `id` der Ebene 2 ein. |
@@ -1234,7 +1235,7 @@ In diesem Beispiel:
 **Validierungsregeln:**
 
 * Ein Ordner kann nicht sein eigener Vorfahr sein - Zirkelverweise sind nicht zulässig.
-* Die maximale Ordnertiefe beträgt 3 Ebenen (Ebene 1 → Ebene 2 → Ebene 3).
+* Die maximale Tiefe der Ordner beträgt 3 Ebenen (Ebene 1 → Ebene 2 → Ebene 3).
 * Zwei Ordner mit dem gleichen übergeordneten Element können nicht denselben Namen haben
 * `parentExternalId` muss entweder auf eine andere Zeile in derselben CSV-Datei oder auf einen vorhandenen Ordner verweisen, der sich bereits in Ihrem Konto befindet.
 * Übergeordnete Ordner müssen vor ihren untergeordneten Ordnern in der Datei aufgelistet werden.
@@ -1302,7 +1303,7 @@ Adobe Learning Manager validiert jede Zeile in `content_folder.csv` vor der Vera
 | Ein Ordnername enthält einen Schrägstrich (`/`). | Zeile abgelehnt | Ersetzen Sie `/` durch `-` oder `_` im Ordnernamen. |
 | Zwei Ordner mit demselben übergeordneten Element haben denselben Namen | Zeile abgelehnt | Einen der doppelten Ordner umbenennen |
 | `parentExternalId` verweist auf eine ID, die in der Datei oder im Konto nicht gefunden wurde. | Zeile abgelehnt | Bestätigen Sie, dass die ID des übergeordneten Ordners korrekt ist und die übergeordnete Zeile erfolgreich verarbeitet wurde. |
-| Die Ordnertiefe überschreitet 3 Ebenen | Zeile abgelehnt | Reduzieren Sie Ihre Hierarchie vor der Migration auf maximal 3 Ebenen |
+| Die Tiefe des Ordners überschreitet 3 Ebenen | Zeile abgelehnt | Reduzieren Sie Ihre Hierarchie vor der Migration auf maximal 3 Ebenen |
 | Zirkulärer Verweis erkannt (Ordner A ist ein Vorgänger von Ordner B, und B ist übergeordnet von A) | Gesamte CSV abgelehnt | Überprüfen Sie die `parentExternalId`-Kette, und entfernen Sie den Zirkelverweis. |
 | `action` ist nicht `CREATE_FOLDER`, `UPDATE_FOLDER` oder `DELETE_FOLDER`. | Zeile abgelehnt | Korrigieren Sie den Wert `action` - nur diese drei Werte werden akzeptiert. |
 | `DELETE_FOLDER` für einen Ordner, der noch Inhaltsdateien enthält | Zeile abgelehnt | Inhaltsdateien vor dem Löschen in einen anderen Ordner verschieben oder die Löschzeile und das Handle manuell in der Administratoroberfläche entfernen |

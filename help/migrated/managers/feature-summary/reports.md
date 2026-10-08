@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Berichte
 contentowner: manochan
 exl-id: 5a59b56c-111b-46e4-95e5-60cc3af75c4d
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1883'
 ht-degree: 90%
-
 ---
-
 # Berichte
 
 Erstellen und Verwalten von Berichten für Manager.
@@ -63,13 +64,13 @@ Basierend auf Verlaufsdaten können Sie eine grafische Darstellung der Qualifika
 
 ![](assets/historical-data.png)
 
-*Qualifikationsabschlussprojektion anzeigen*
+*Projektion zum Abschluss von Kenntnissen anzeigen*
 
 ## Erstellen von Projekten {#creatingreports}
 
 1. Klicken Sie auf „Berichte“ im linken Bereich. Die Seite mit der Berichtzusammenfassung wird angezeigt.\
    **Hinweis**
-Standardmäßig werden mindestens drei Beispielberichte auf der Seite mit der Berichtszusammenfassung angezeigt. Sie können diese Beispielberichte nicht bearbeiten, sondern nur anzeigen, um zu sehen, wie Sie sie erstellen und anpassen können.
+   Standardmäßig werden mindestens drei Beispielberichte auf der Seite mit der Berichtszusammenfassung angezeigt. Sie können diese Beispielberichte nicht bearbeiten, sondern nur anzeigen, um zu sehen, wie Sie sie erstellen und anpassen können.
 
 1. Klicken Sie auf der Seite mit der Berichtszusammenfassung auf „Hinzufügen“. Das Dialogfeld „Berichterstellung“ wird angezeigt.
 1. Klicken Sie auf „Speichern“, um die Berichterstellung abzuschließen. Nachfolgend sehen Sie einen Beispielbericht.
@@ -117,7 +118,7 @@ Filter werden im Dialogfeld „Bericht hinzufügen“ am unteren Rand basierend 
 
 ![](assets/sample-report-admin.png)
 
-*Kursdiagramm anzeigen, in dem Kurse registriert und abgeschlossen sind*
+*Graf der registrierten und abgeschlossenen Kurse anzeigen*
 
 >[!NOTE]
 >
@@ -131,7 +132,7 @@ Verfolgen Sie nach, wie Benutzergruppen wie gut Abteilungen, externe Partner und
 
 ### Benutzergruppen {#usergroups}
 
-Um Berichte basierend auf Benutzergruppen zu generieren, wählen Sie **Benutzergruppe** auf der X-Achse aus der Liste der Dropdown-Optionen (siehe Screenshot unten).
+Um Berichte basierend auf Benutzergruppen zu generieren, wählen Sie **Benutzergruppe** in der X-Achse aus der Liste der Dropdown-Optionen (siehe Screenshot unten).
 
 ![](assets/x-axis-reporting.png)
 
@@ -147,7 +148,7 @@ Dieser Benutzergruppebericht ermöglicht Ihnen, die Leistung von einer Abteilung
 
 Sie können eigene Benutzergruppen mit der Funktion „Benutzer/Benutzergruppen hinzufügen“ in Learning Manager erstellen. Nachdem Sie die Benutzergruppen erstellt haben, können Sie die Berichte für die benutzerdefinierten Benutzergruppen mit einer Liste der Attribute wie Ort, Zweigstelle usw. generieren.
 
-Wählen Sie in der X-Achse die Benutzerattributoption und wählen Sie das Attribut aus dem Dropdownmenü &quot;**Auswählen**&quot; daneben. Um einen benutzerdefinierten Benutzergruppebericht zu erstellen, der auf diesen Attributen basiert, müssen Sie auch die entsprechende Benutzergruppe im Filter wählen.
+Wählen Sie in der X-Achse die Benutzerattributoption und das Attribut aus dem Dropdownmenü &quot;**Auswählen**&quot; daneben. Um einen benutzerdefinierten Benutzergruppebericht zu erstellen, der auf diesen Attributen basiert, müssen Sie auch die entsprechende Benutzergruppe im Filter wählen.
 
 Manager können Benutzergruppeberichte nur für ihre eigenen Teammitglieder als Teilnehmer erstellen.
 
@@ -212,7 +213,8 @@ Sie können den Datumsbereich/-wert für jeden Bericht ändern und diesen schnel
 
 **Schnellansicht mit verschiedenen Managern**
 
-Wenn Ihnen mehrere Manager unterstellt sind, können Sie die Berichte für jeden Manager schnell anzeigen. Wählen Sie in der Dropdownliste den Managernamen, um einen spezifischen Bericht für den entsprechenden Manager anzuzeigen.**Berichte bearbeiten/in Dashboard verschieben/Kopie erstellen/löschen/Größe ändern** Klicken Sie auf den Dropdown-Pfeil in der oberen rechten Ecke jedes Berichts, um die Dropdown-Optionen &quot;Bearbeiten&quot;/&quot;In Dashboard verschieben&quot;/&quot;Kopie erstellen&quot;/&quot;Löschen&quot;/&quot;Größe ändern&quot; anzuzeigen.
+Wenn Ihnen mehrere Manager unterstellt sind, können Sie die Berichte für jeden Manager schnell anzeigen. Wählen Sie in der Dropdownliste den Managernamen, um einen spezifischen Bericht für den entsprechenden Manager anzuzeigen.
+**Berichte bearbeiten/in Dashboard verschieben/Kopie erstellen/löschen/Größe ändern** Klicken Sie auf den Dropdown-Pfeil in der oberen rechten Ecke jedes Berichts, um die Dropdown-Optionen &quot;Bearbeiten&quot;/&quot;In Dashboard verschieben&quot;/&quot;Kopie erstellen&quot;/&quot;Löschen&quot;/&quot;Größe ändern&quot; anzuzeigen.
 
 <!--![](assets/edit-options-dashboard-300x126.png)-->
 

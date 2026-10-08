@@ -1,13 +1,14 @@
 ---
 title: Als Kursleiter an einer Live Hub (Beta)-Sitzung teilnehmen
 description: Erfahren Sie, wie Kursleiter vor der geplanten Startzeit an einer Live Hub-Sitzung teilnehmen, um den Raum vorzubereiten und Einstellungen zu konfigurieren, bevor die Teilnehmer eintreffen.
-source-git-commit: fcdedf246e9efa4509e9dd51f56856a79a0791ae
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 2%
-
 ---
-
 
 # Als Kursleiter an einer Live Hub (Beta)-Sitzung teilnehmen
 

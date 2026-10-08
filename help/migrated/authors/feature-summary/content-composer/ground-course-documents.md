@@ -1,16 +1,17 @@
 ---
-description: Erfahren Sie, wie Sie Content Composer-Kurse in Ihren eigenen Dokumenten aufbauen können, indem Sie die AI-Ausgabe auf Ihre Richtlinien, Verfahren oder Decks beschränken.
+description: Erfahren Sie, wie Sie Content Composer-Boden in Ihren eigenen Dokumenten erstellen können, indem Sie die AI-Ausgabe auf Ihre Richtlinien, Verfahren oder Decks beschränken.
 jcr-language: en_us
-title: Untermauern Sie Ihren Kurs in Ihren eigenen Dokumenten
-source-git-commit: 68d15fa96588b2569c9b1cdb480e2ba9f31a1cf6
+title: Boden in eigenen Dokumenten anlegen
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '215'
 ht-degree: 0%
-
 ---
 
-
-# Untermauern Sie Ihren Kurs in Ihren eigenen Dokumenten
+# Boden in eigenen Dokumenten anlegen
 
 Die meisten KI-Kurs-Tools generieren Inhalte aus allgemeinen Kenntnissen - ein Problem, wenn Ihre Schulung den aktuellen Richtlinien, Verfahren oder regulatorischen Formulierungen Ihres Unternehmens entsprechen muss, anstatt eine plausibel klingende Annäherung.
 
@@ -24,4 +25,4 @@ Dies ist besonders wichtig für:
 
 - **Produkt- oder Systemschulung**: wobei der Kurs Ihre spezifische Konfiguration widerspiegeln muss und keine generische Version des Tools.
 
-Wenn Sie es vorziehen, dass die KI Ihr Material mit ihrem eigenen allgemeinen Wissen - nützlich für breitere oder weniger sensible Themen - ergänzt, lassen Sie die Einschränkung unausgewählt. Wenn Sie überhaupt kein Quellmaterial haben, wählen Sie **Kurs ohne Quelldateien generieren**.
+Wenn die KI euer Material lieber mit eigenem Allgemeinwissen ergänzen soll - das sich für breitere oder weniger sensible Themen eignet -, bleibt die Einschränkung unausgewählt. Wenn Sie überhaupt kein Quell-Material haben, wählen Sie **Kurs ohne Quelldateien generieren**.

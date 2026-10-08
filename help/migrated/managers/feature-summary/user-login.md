@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Benutzeranmeldung
 contentowner: manochan
 exl-id: 6e0c00fd-7964-43d9-ba95-3617dbc14f0f
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 59%
-
+source-wordcount: '151'
+ht-degree: 69%
 ---
-
 # Benutzeranmeldung
 
 Benutzeranmelddung als Manager in Learning Manager.
@@ -31,8 +32,8 @@ Wenn Sie Adobe Learning Manager zum ersten Mal verwenden, müssen Sie ein Konto 
 
    Wenn Sie Ihr Kennwort vergessen haben, klicken Sie auf Kennwort vergessen? und geben Sie Ihre E-Mail-ID ein, die Sie zum Erstellen von Adobe ID verwendet haben.
 
-1. Alternativ können Sie die Enterprise ID verwenden, indem Sie auf Mit einem Link zur Enterprise ID anmelden klicken.
+1. Alternativ können Sie auch die Unternehmens-ID verwenden, indem Sie auf den Link „Mit Unternehmens-ID anmelden“ klicken.
 
 >[!NOTE]
 >
->Sobald Sie sich zum ersten Mal anmelden, wird Ihre Adobe ID mit Ihrem Unternehmenskonto verknüpft. Für alle folgenden Anmeldungen können Sie Ihre Konto-URL (zweite URL), die Sie in der Begrüßungs-E-Mail erhalten haben, als Lesezeichen setzen.
+>Sobald Sie sich zum ersten Mal anmelden, wird Ihre Adobe ID mit Ihrem Unternehmenskonto verknüpft. Bei allen folgenden Anmeldungen können Sie Ihre Konto-URL (zweite URL), die Sie in der Begrüßungs-E-Mail erhalten haben, als Lesezeichen setzen.

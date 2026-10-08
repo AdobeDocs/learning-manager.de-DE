@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Adaptive Kurse in Adobe Learning Manager
 contentowner: mmanuel
 hide: true
-source-git-commit: a6f201e762963a524a6a935e84dafc4752604e4d
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1964'
 ht-degree: 0%
-
 ---
-
 
 # Adaptive Kurse in Adobe Learning Manager
 
@@ -20,7 +21,7 @@ Anstatt separate Kurse für jede Rolle, Region oder jedes Compliance-Profil zu e
 
 ## Welche Probleme adaptive Kurse lösen
 
-Unternehmen, die große, vielfältige Arbeitskräfte ausbilden, stehen vor einer gemeinsamen Herausforderung: Datenschutz, Berufsethik und Sicherheit am Arbeitsplatz müssen die Teilnehmer mit unterschiedlichen Rollen, Standorten oder Compliance-Verpflichtungen erreichen.
+Unternehmen, die große, vielfältige Arbeitskräfte schulen, stellen eine gemeinsame Fläche: Datenschutz, Berufsethik und Sicherheit am Arbeitsplatz müssen die Teilnehmer mit unterschiedlichen Rollen, Standorten oder Compliance-Verpflichtungen erreichen.
 
 Dies führt zu Doppelarbeit: Autoren unterhalten mehrere, nahezu identische Kurse, Berichte sind fragmentiert, und wenn sich der Kerninhalt ändert, muss jede Kopie aktualisiert werden.
 

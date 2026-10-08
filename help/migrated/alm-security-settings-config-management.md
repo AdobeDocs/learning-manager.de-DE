@@ -3,13 +3,14 @@ title: Adobe Learning Manager - Sicherheitseinstellungen und Konfigurationsverwa
 description: In diesem Dokument werden die administrativen Kontotypen, sicherheitsbezogenen Einstellungen, empfohlenen sicheren Standardwerte, API-Funktionen, Exportfunktionen, Konfigurationsvergleichsmethoden, Veröffentlichungspraktiken und der Versionsverlauf von Adobe Learning Manager beschrieben. Er enthält ausführliche Anleitungen zur Funktionsweise privilegierter Konten, zu deren Auswirkungen auf die Sicherheit und zur Unterstützung der Konfigurationsverwaltung in der gesamten Plattform.
 jcr-language: en-us
 exl-id: a2e34104-c417-407f-af85-9f3f4b2a9fcb
-source-git-commit: 77fddea1c5458485124b8f14d387a69c5ecd11a7
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1945'
 ht-degree: 0%
-
 ---
-
 # Sicherheitseinstellungen und Konfigurationsverwaltung
 
 Dieser Leitfaden enthält detaillierte Antworten auf FedRAMP-Empfehlungen (FRR-RSC-03 bis FRR-RSC-08) für Adobe Learning Manager (ALM). Es werden Best Practices zur Sicherheit, empfohlene sichere Standardwerte und Tools für die Überwachung, den Export und die Verwaltung privilegierter Kontoeinstellungen beschrieben. Das Dokument wurde für Administratoren und Compliance-Teams entwickelt, um eine sichere Konfiguration und Verwaltung von ALM-Konten zu gewährleisten.
@@ -29,16 +30,16 @@ Die beiden privilegierten Kontotypen von Adobe Learning Manager: Benutzerdefinie
 **Integrationsadministrator — was er ausführen kann**:
 
 * Integrationsadministratoren verwalten OAuth 2.0-Anwendungsregistrierungen unter Integrationsadministrator > Anwendungen > Registrieren. Sie wählen einen von sechs OAuth-Geltungsbereichen aus, die vom Lese-/Schreibzugriff für Teilnehmer bis hin zum Lese-/Schreibzugriff für die Administratorrolle reichen. Der Lese-/Schreibbereich des Administrators gewährt der registrierten Anwendung dieselben Berechtigungen wie einem vollständigen Administrator über die API.
-* Der für die Integration zuständige Administrator konfiguriert FTP-, SFTP-, Salesforce-, Workday- und andere Connectors, die Benutzerdatensätze, Rollenzuweisungen und Kursabschlüsse importieren und Plattformdaten in externe Systeme exportieren.
+* Die für die Integration zuständigen Administratoren konfigurieren FTP, SFTP, Salesforce, Workday und andere Verbindungen, die Benutzerdatensätze, Rollenzuweisungen und Kursabschlüsse importieren und Plattformdaten in externe Systeme exportieren.
 * Integrationsadministratoren konfigurieren WebHooks, die ALM-Ereignisdaten in Echtzeit (Registrierungen, Abschlüsse, Rollenänderungen) an externe URLs übertragen. Ein beschädigter oder falsch konfigurierter Webhook-Endpunkt ist ein Datenexfiltrationsrisiko.
 * Integrationsadministratoren können LTI-Integrationen konfigurieren. Nach der Aktivierung kann LTI nicht mehr deaktiviert werden.
 
 **Verweise**:
 
-* [Benutzerdefinierte Rollen | ADOBE LEARNING MANAGER](https://experienceleague.adobe.com/de/docs/learning-manager/using/admin/custom-role)
-* [Verwalten benutzerdefinierter Rollen über CSV | ADOBE LEARNING MANAGER](https://experienceleague.adobe.com/de/docs/learning-manager/using/integration/configure-role-csv-files)
-* [Handbuch für Anwendungsentwickler \| Adobe Learning Manager](https://experienceleague.adobe.com/de/docs/learning-manager/using/integration/developer-manual)
-* [Adobe Learning Manager Connectors](/help/migrated/integration-admin/feature-summary/connectors.md)
+* [Benutzerdefinierte Rollen | ADOBE LEARNING MANAGER](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/custom-role)
+* [Verwalten benutzerdefinierter Rollen über CSV | ADOBE LEARNING MANAGER](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/configure-role-csv-files)
+* [Handbuch für Anwendungsentwickler \| Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual)
+* [Adobe Learning Manager Verbindungen](/help/migrated/integration-admin/feature-summary/connectors.md)
 
 +++
 
@@ -65,13 +66,13 @@ Für Adobe Learning Manager-Dokumente spezifische empfohlene sichere Standardein
 **Standardwerte für Integrationsadministrator**:
 
 * API-OAuth-Geltungsbereich: den restriktivsten Bereich auswählen, der die Anforderungen der Integration erfüllt. Gewähren Sie dem Administrator keine Lese-/Schreibrechte für Anwendungen, die nur Lesezugriff auf Teilnehmer benötigen.
-* Connector-Anmeldedaten, LTI-Anmeldedaten und Webhook-URLs: Vertrauliche Daten - niemals per E-Mail weitergeben oder an die Quellcodeverwaltung binden.
+* Verbindung-Anmeldedaten, LTI-Anmeldedaten und Webhook-URLs: Vertrauliche Daten - niemals per E-Mail weitergeben oder an die Quellcodeverwaltung binden.
 
 **Verweise**:
 
-* [Einstellungen | ADOBE LEARNING MANAGER](https://experienceleague.adobe.com/de/docs/learning-manager/using/admin/custom-role)
-* [Sichere Benutzerauthentifizierung und Kennwörter | ADOBE ADMIN CONSOLE](https://helpx.adobe.com/de/enterprise/using/authentication-settings.html)
-* [Benutzerdefinierte Rollen | ADOBE LEARNING MANAGER](https://experienceleague.adobe.com/de/docs/learning-manager/using/admin/custom-role)
+* [Einstellungen | ADOBE LEARNING MANAGER](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/custom-role)
+* [Sichere Benutzerauthentifizierung und Kennwörter | ADOBE ADMIN CONSOLE](https://helpx.adobe.com/enterprise/using/authentication-settings.html)
+* [Benutzerdefinierte Rollen | ADOBE LEARNING MANAGER](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/custom-role)
 
 +++
 
@@ -95,7 +96,7 @@ Adobe Learning Manager verfügt über kein eigenes Vergleichs-Dashboard, in dem 
 
 **Referenz**
 
-* [Handbuch für Anwendungsentwickler | ADOBE LEARNING MANAGER](https://experienceleague.adobe.com/de/docs/learning-manager/using/integration/developer-manual)
+* [Handbuch für Anwendungsentwickler | ADOBE LEARNING MANAGER](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual)
 
 +++
 
@@ -122,7 +123,7 @@ Adobe Learning Manager unterstützt den Export sicherheitsrelevanter Konfigurati
 
 **Referenz**
 
-* [Handbuch für Anwendungsentwickler | ADOBE LEARNING MANAGER](https://experienceleague.adobe.com/de/docs/learning-manager/using/integration/developer-manual)
+* [Handbuch für Anwendungsentwickler | ADOBE LEARNING MANAGER](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual)
 
 +++
 
@@ -156,7 +157,7 @@ Adobe Learning Manager veröffentlicht sein Secure Configuration Guide derzeit n
 
 Es gibt keine öffentlich verfügbare OSCAL-Komponentendefinition, YAML-Grundlinie oder JSON-Richtliniendatei, die die empfohlenen sicheren Standardwerte für Adobe Learning Manager codiert.
 
-Kunden, die einen automatisierten Vergleich der aktuellen Einstellungen mit empfohlenen Grundlinien benötigen, sollten die [ALM REST API](https://experienceleague.adobe.com/de/docs/learning-manager/using/integration/developer-manual) verwenden, um aktuelle Konfigurationsdaten im JSON-Format abzurufen.
+Kunden, die einen automatisierten Vergleich der aktuellen Einstellungen mit empfohlenen Grundlinien benötigen, sollten die [ALM REST API](https://experienceleague.adobe.com/en/docs/learning-manager/using/integration/developer-manual) verwenden, um aktuelle Konfigurationsdaten im JSON-Format abzurufen.
 
 +++
 
@@ -176,7 +177,7 @@ Adobe Learning Manager verwaltet einen öffentlich zugänglichen, detaillierten 
 
 **ALM-Versionshinweise: nummerierter, kumulativer Änderungsverlauf**:
 
-* Adobe veröffentlicht nummerierte Versionshinweise für jedes Adobe Learning Manager-Update (z. B. Update 100, Update 99). Diese werden auf dem Experience League veröffentlicht und dokumentieren alle neuen Funktionen, Änderungen an bestehenden Einstellungen, API-Ergänzungen und -Entfernungen, Connector-Änderungen und veraltete Funktionen.
+* Adobe veröffentlicht nummerierte Versionshinweise für jedes Adobe Learning Manager-Update (z. B. Update 100, Update 99). Diese werden auf dem Experience League veröffentlicht und dokumentieren alle neuen Funktionen, Änderungen an bestehenden Einstellungen, API-Ergänzungen und -Entfernungen, Änderungen an der Verbindung und veraltete Funktionen.
 * Jede Versionshinweise enthält einen speziellen Abschnitt für API-Änderungen, in dem neue Endpunkte, geänderte Antwortfelder und Veraltungen aufgelistet werden, die direkt für sicherheitsrelevante Konfigurationsfunktionen relevant sind.
 
 **Neue Seiten: Funktionsübersichten pro Version**:
@@ -189,8 +190,8 @@ Liste der **API-Veraltungen: Autorisierender Datensatz der entfernten API-Funkti
 
 **Verweise**:
 
-* [Versionshinweise zu Adobe Learning Manager](https://experienceleague.adobe.com/de/docs/learning-manager/using/introduction/release-notes)
-* [Neue Funktionen in Adobe Learning Manager](https://experienceleague.adobe.com/de/docs/learning-manager/using/introduction/whats-new-july-2024)
-* [API-Veraltungen in Adobe Learning Manager](https://experienceleague.adobe.com/de/docs/learning-manager/using/introduction/api-deprecations-list)
+* [Versionshinweise zu Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/release-notes)
+* [Neue Funktionen in Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/whats-new-july-2024)
+* [API-Veraltungen in Adobe Learning Manager](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/api-deprecations-list)
 
 +++

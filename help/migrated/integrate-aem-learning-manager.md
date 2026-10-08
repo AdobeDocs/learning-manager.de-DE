@@ -4,13 +4,14 @@ title: Adobe Learning Manager mit AEM integrieren
 description: Learning Manager ist ein Learning Management System mit einem integrierten Learning Content Management System. Benutzer verwalten ihre Lerninhalte, indem sie sie auf Learning Manager hochladen, sodass Learning Manager die Versionierung, die Zuweisung zu Kursen, die Definition der Sichtbarkeit für Teilnehmer, die Verfolgung der Nutzung und die Berichterstattung an Administratoren durchführt.
 contentowner: saghosh
 exl-id: 61fae7bd-1703-4ed1-9bd9-07387d67a91c
-source-git-commit: e4fbde07314dcb99ee2d16aa4977308b8ab5b990
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3817'
 ht-degree: 45%
-
 ---
-
 
 # Adobe Learning Manager mit AEM integrieren
 
@@ -52,7 +53,7 @@ Installieren Sie das Learning Manager-Inhaltspaket mit dem AEM Package Manager:
 
 >[!NOTE]
 >
->Informationen zum Installieren von Paketen finden Sie unter [***Arbeiten mit Paketen***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=de#how-to-work-with-packages).
+>Informationen zum Installieren von Paketen finden Sie unter [***Arbeiten mit Paketen***](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en#how-to-work-with-packages).
 
 1. Öffnen Sie als AEM-Autor den AEM Package Manager.
 1. Klicken Sie auf die Schaltfläche **[!UICONTROL Paket hochladen]**.
@@ -115,7 +116,7 @@ Klicken Sie zum Genehmigen der Anwendung auf **[!UICONTROL Genehmigen]**.
 ## Konfigurieren des ALM-Kontos in AEM
 
 1. Starten Sie Ihre AEM-Instanz.
-1. Klicken Sie auf **Einstellungen** > **Cloud Service**.
+1. Klicken Sie auf **Einstellungen** > **Cloud Services**.
 1. Klicken Sie auf **Adobe Learning Manager-Konfiguration**.
 
    ![](assets/alm-configuration.png)
@@ -147,7 +148,7 @@ Mit Adobe Learning Manager können Sie jetzt Ihre Produkte und Schulungen Ihren 
 
 Mit diesem Arbeitsablauf können Teilnehmende eine Vorschau einer Schulung anzeigen, auf Schulungsinformationen zugreifen oder nach einer Schulung suchen, ohne sich bei Adobe Learning Manager anzumelden. Dieser Arbeitsablauf gilt nicht für die native Learning Manager-Benutzeroberfläche. (Er gilt NUR für AEM-Sites und andere Headless-Benutzeroberflächen.)
 
-**Konfigurieren und Aktivieren des Lernplattformkonnektors**
+**Konfigurieren und Aktivieren der Lernplattform-Verbindung**
 
 Dieser Abschnitt unterstreicht die Schritte, die zum Konfigurieren und Aktivieren des folgenden Connectors erforderlich sind:
 
@@ -361,7 +362,7 @@ Für die Widgetkonfiguration benötigt der AEM nur das Aktualisierungstoken, das
 
 Sie können auch mehrere Kontokonfigurationen auf mehreren Seiten festlegen.
 
-1. Klicken Sie auf **[!UICONTROL Tools]** > **[!UICONTROL Cloud Service]** > **[!UICONTROL Konfiguration des Lern-Manager-Widgets]**.
+1. Klicken Sie auf **[!UICONTROL Tools]** > **[!UICONTROL Cloud Services]** > **[!UICONTROL Konfiguration des Lern-Manager-Widgets]**.
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.
 1. Geben Sie das Aktualisierungstoken hier ein. Richten Sie die anderen Einstellungen ein.
 1. Der Hostname sollte für EU-Regionen in **learningManagereu** geändert werden.
@@ -419,19 +420,19 @@ Die Katalogoptionen enthalten die folgenden Optionen:
 
 * **[!UICONTROL Katalog-IDs]:** Durch Kommas getrennte Katalog-IDs, für die die Schulung angezeigt werden muss.
 * **[!UICONTROL Sortieren]:** Sortierreihenfolge für die Schulung. Im Folgenden sind die Sortieroptionen aufgeführt:
-   * Name: Sortiert Lernobjekte alphabetisch von A bis Z.
-   * -name: Sortiert Lernobjekte alphabetisch von Z nach A.
-   * Datum: Sortiert nach Datum in aufsteigender Reihenfolge.
-   * -Datum: Sortiert nach Datum in absteigender Reihenfolge (zuletzt zuerst).
-   * dateCreated: Sortiert nach dem Erstellungsdatum des Lernobjekts (älteste zuerst).
-   * -dateCreated: Sortiert nach Erstellungsdatum (neueste zuerst).
-   * dateEnrolled: Sortiert nach dem Registrierungsdatum des Teilnehmers (zuerst frühestens).
-   * -dateEnrolled: Sortiert nach Registrierungsdatum (zuletzt zuerst).
-   * Bewertung: Sortiert nach Teilnehmerbewertungen (niedrigste bis höchste Bewertung).
-   * -Rating: Sortiert nach Bewertungen (von höchster bis niedrigster Qualität).
-   * dueDate: Sortiert nach dem Fälligkeitsdatum des Kurses (früheste Frist zuerst).
-   * Wirksamkeit: Sortiert basierend auf dem Feedback der Teilnehmer nach Effektivitätswerten.
-   * Fortschritt: Sortiert nach Teilnehmerfortschritt (geringster Fortschritt für die meisten).
+  * Name: Sortiert Lernobjekte alphabetisch von A bis Z.
+  * -name: Sortiert Lernobjekte alphabetisch von Z nach A.
+  * Datum: Sortiert nach Datum in aufsteigender Reihenfolge.
+  * -Datum: Sortiert nach Datum in absteigender Reihenfolge (zuletzt zuerst).
+  * dateCreated: Sortiert nach dem Erstellungsdatum des Lernobjekts (älteste zuerst).
+  * -dateCreated: Sortiert nach Erstellungsdatum (neueste zuerst).
+  * dateEnrolled: Sortiert nach dem Registrierungsdatum des Teilnehmers (zuerst frühestens).
+  * -dateEnrolled: Sortiert nach Registrierungsdatum (zuletzt zuerst).
+  * Bewertung: Sortiert nach Teilnehmerbewertungen (niedrigste bis höchste Bewertung).
+  * -Rating: Sortiert nach Bewertungen (von höchster bis niedrigster Qualität).
+  * dueDate: Sortiert nach dem Fälligkeitsdatum des Kurses (früheste Frist zuerst).
+  * Wirksamkeit: Sortiert basierend auf dem Feedback der Teilnehmer nach Effektivitätswerten.
+  * Fortschritt: Sortiert nach Teilnehmerfortschritt (geringster Fortschritt für die meisten).
 * **[!UICONTROL Teilnehmerstatus]:** Gibt alle Schulungen zurück, die die folgenden Filter verwenden: Registriert, Begonnen, Abgeschlossen und nicht Registriert. Die Suchergebnisse werden nicht angezeigt, wenn die Sortieroption dateEnrolled, dueDate oder dateEnrolled lautet.
 * **[!UICONTROL Qualifikationsname]:** Die für die exakte Filterung der Schulung verwendete Qualifikation.
 * **[!UICONTROL Tag-Name]:** Das zum Filtern exakter Ergebnisse verwendete Tag.

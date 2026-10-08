@@ -3,13 +3,14 @@ jcr-language: en_us
 title: Arbeitshilfen
 description: Die Arbeitshilfen sind ein Repository mit Schulungsinhalten, das den Teilnehmern ohne Registrierung oder Abschlusskriterien zur Verfügung steht. Die Teilnehmer können auf diese Arbeitshilfen zurückgreifen, wenn sie bei Aktivitäten oder Aufgaben im Unternehmen Unterstützung benötigen.
 exl-id: c8e925ee-2e40-4a71-9b8e-42a1b49d01bc
-source-git-commit: 2604dc206de5f6e883c1073880348b2ab97b01c6
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '1084'
 ht-degree: 42%
-
 ---
-
 # Arbeitshilfen
 
 **Arbeitshilfen** ist ein Repository mit Schulungsinhalten, auf das Teilnehmer ohne Registrierung oder Abschlusskriterien zugreifen können. Die Teilnehmer können auf diese Arbeitshilfen zurückgreifen, wenn sie bei Aktivitäten oder Aufgaben im Unternehmen Unterstützung benötigen.
@@ -72,16 +73,16 @@ Mithilfe mehrsprachiger Arbeitshilfen in Adobe Learning Manager (ALM) können Au
 **Anwendungsfälle**
 
 * Globale Mitarbeiterunterstützung: Stellen Sie Sicherheitshandbücher, Prozessleitfäden oder Referenzdokumente in mehreren Sprachen für verschiedene Mitarbeiter bereit.
-* Einhaltung behördlicher Auflagen: Stellen Sie sicher, dass alle Mitarbeiter die gleiche Dokumentation zur Einhaltung der Auflagen in ihrer Muttersprache erhalten.
+* Einhaltung behördlicher Auflagen: Stellen Sie sicher, dass alle Mitarbeiter die gleiche Compliance-Dokumentation in ihrer Muttersprache erhalten.
 * Konsistentes Onboarding: Stellen Sie für Neueinstellungen weltweit Checklisten für das Onboarding oder FAQs in lokalen Sprachen zur Verfügung.
 * Reduzierte Doppelarbeit: Verwalten Sie alle Sprachversionen einer Arbeitshilfe in einem einzigen Eintrag, wodurch Aktualisierungen und Berichte vereinfacht werden.
 
 ### Wichtigste Funktionen
 
-* Unterstützung mehrerer Sprachen: Fügen Sie innerhalb einer einzigen Arbeitshilfe eine eindeutige Datei oder URL für jede unterstützte Sprache hinzu.
+* Unterstützung mehrerer Sprachen: Fügen Sie eine eindeutige Datei oder URL für jede unterstützte Sprache einer einzelnen Arbeitshilfe hinzu.
 * Lokalisierter Name und Beschreibung: Geben Sie den Namen und die Beschreibung der Arbeitshilfe in jeder Sprache ein.
-* Einheitliche Verwaltung: Bearbeiten, aktualisieren und erstellen Sie Berichte zu allen Sprachversionen von einem zentralen Ort aus.
-* Abwärtskompatibilität: Bestehende Arbeitshilfen in einer Sprache werden automatisch in allen hinzugefügten Sprachen repliziert, bis neue Dateien hochgeladen werden.
+* Einheitliches Management: Du kannst alle Sprachversionen bearbeiten, aktualisieren und mit einem Bericht versehen - an einem zentralen Ort.
+* Abwärtskompatibilität: Bestehende einsprachige Arbeitshilfen werden automatisch in allen hinzugefügten Sprachen repliziert, bis neue Dateien hochgeladen werden.
 
 ### Erstellen einer mehrsprachigen Arbeitshilfe
 

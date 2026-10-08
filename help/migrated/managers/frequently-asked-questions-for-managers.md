@@ -4,16 +4,17 @@ title: Häufig gestellte Fragen für Manager
 description: Häufig gestellte Fragen für Adobe Learning Manager-Manager
 contentowner: admin
 exl-id: 4f684d4c-c700-4907-95cd-879df3167c1d
-source-git-commit: a0c01c0d691429bd66a3a2ce4cfc175ad0703157
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 57%
-
+source-wordcount: '802'
+ht-degree: 85%
 ---
-
 # Häufig gestellte Fragen für Manager
 
-+++Wie kann ein Manager auf Kurse zugreifen?
++++Wie können Manager auf Kurse zugreifen?
 
 Wenn Sie im Managermodus angemeldet sind, können Sie nicht auf Kurse zugreifen. Sie müssen Ihre Anmeldung auf Teilnehmermodus umschalten, um Kurse belegen zu können.
 
@@ -25,21 +26,21 @@ Administratoren können das L3-Feedback für Kurse je nach organisatorischen Anf
 
 1. Klicken Sie auf „Benachrichtigungen“ im linken Bereich.
 1. Klicken Sie auf die Registerkarte „Ausstehende Aufgaben“.
-1. Klicken Sie auf der Seite auf die Benachrichtigungen in der Kategorie &quot;Feedback geben&quot; und geben Sie L3-Feedback.
+1. Klicken Sie auf der Seite auf die Benachrichtigungen in der Kategorie „Feedback geben“ und geben Sie L3-Feedback.
 
 +++
 
-+++Werde ich benachrichtigt, wenn mein Team Kurse abschließt?
++++Werde ich benachrichtigt, wenn mein Team Kurse absolviert hat?
 
-Das Benachrichtigungssymbol ist mit der Anzahl der ausstehenden Nachrichten markiert. Wenn sich Ihr Teammitglied registriert oder einen Kurs abschließt, wird er Ihnen als Benachrichtigung angezeigt. Wenn Sie im Popupmenü auf Alle Benachrichtigungen anzeigen klicken, können Sie alle Benachrichtigungen und ausstehenden Aufgaben auf einer Seite anzeigen.
+Das Benachrichtigungssymbol ist dann mit der Anzahl der neuen Benachrichtigungen markiert. Sobald ein Teammitglied sich registriert oder einen Kurs abschließt, erhalten Sie eine Benachrichtigung. Wenn Sie im Popup-Menü auf „Alle Benachrichtigungen anzeigen“ klicken, sehen Sie alle Benachrichtigungen und ausstehenden Aufgaben auf einer Seite.
 
 +++
 
-+++Kann ich Kursen mehrere Teilnehmer zuweisen und Teilnehmer importieren?
++++Kann ich einem Kurs mehrere Teilnehmer zuweisen und Teilnehmer importieren?
 
 Sie können nur Mitglieder Ihres Teams für Kurse nominieren. Nur Administratoren können Kurse Gruppen von Teilnehmern zuweisen und Gruppen von Teilnehmern importieren.
 
-Klicken Sie im linken Bereich der Anwendung auf Benachrichtigungen.
+Klicken Sie im linken Bereich der Anwendung auf „Benachrichtigungen“.
 
 1. Es erscheint eine detaillierte Liste der Benachrichtigungen.
 1. Wählen Sie auf der Registerkarte „Ausstehende Aufgaben“ einen Kurs aus, dem Sie Ihre Teammitglieder zuweisen möchten, und klicken Sie auf „Nominieren“.\
@@ -50,7 +51,7 @@ Klicken Sie im linken Bereich der Anwendung auf Benachrichtigungen.
 
 +++
 
-+++Kann ich Benachrichtigungen für Teilnehmer konfigurieren? Wenn ja, wie?
++++Kann ich Benachrichtigungen an Teilnehmer einrichten? Wenn ja, wie?
 
 Wenn Sie Teilnehmern Kurse zuweisen, werden diese über die Learning Manager-Anwendung benachrichtigt.
 
@@ -68,13 +69,13 @@ Sie können auf das Dropdown-Symbol klicken, um den Datumsbereich zu ändern und
 
 +++Kann ich die aktuellen Kenntnisstufen meiner Team-Mitglieder sehen?
 
-Sie können Berichte für Ihre Team-Mitglieder erstellen, um die Liste der Kenntnisse anzuzeigen, die jedem von ihnen zugewiesen und von ihnen erreicht wurden. Klicken Sie auf Berichte im linken Bereich und dann auf die Registerkarte Beispielberichte , um einen Beispielbericht Kenntnisse vs. Manager anzuzeigen.
+Sie können Berichte für Ihre Teammitglieder erstellen,&amp;;um eine Liste der den einzelnen Teilnehmern zugeordneten und von ihnen erlangten Kenntnisse zu sehen. Klicken Sie auf „Berichte“ im linken Bereich und dann auf die Registerkarte „Musterberichte“, um einen Beispielbericht des Typs „Kenntnisse vs. Manager“ abzurufen.
 
 Weitere Informationen finden Sie in der Hilfe zu Learning Manager unter [Berichte](feature-summary/reports.md).
 
 +++
 
-+++Wie kann ich ausstehende Anfragen meiner Team-Mitglieder anzeigen?
++++Wie zeige ich ausstehende Anträge meiner Teammitglieder an?
 
 Wenn ein Teammitglied die Teilnahme an einem Kurs beantragt, ist das Benachrichtigungssymbol mit der Anzahl der ausstehenden Benachrichtigungen markiert.
 
@@ -82,13 +83,13 @@ Klicken Sie auf dieses Benachrichtigungssymbol, um die ausstehenden Anfrage abzu
 
 +++
 
-+++Wie füge ich Berichte hinzu oder ändere sie?
++++Wie kann ich Berichte hinzufügen oder ändern?
 
 Sie können neue Berichte hinzufügen, indem Sie „Berichte“ auswählen und dann in der rechten oberen Ecke der Seite auf „Hinzufügen“ klicken.
 
 Berichte ändern/Größe ändern
 
-Um einen Bericht zu ändern, klicken Sie auf den Dropdownpfeil in der oberen rechten Ecke eines Berichts und dann auf &quot;Bearbeiten&quot;. Nehmen Sie die Änderungen im Bericht vor und klicken Sie auf &quot;Speichern&quot;.
+Um einen Bericht zu ändern, klicken Sie auf den Dropdownpfeil in der oberen rechten Ecke eines Berichts und dann auf &quot;Bearbeiten&quot;. Nehmen Sie die entsprechenden Änderungen im Bericht vor und klicken Sie auf „Speichern“.
 
 Klicken Sie auf „Zurücksetzen“, um die Änderungen zu verwerfen.
 
@@ -98,7 +99,7 @@ Weitere Informationen finden Sie unter [Berichtsfunktion.](feature-summary/repor
 
 +++
 
-+++Welche Art von Berichten kann ich sehen?
++++Welche Arten von Berichten kann ich anzeigen?
 
 Sie können folgende Arten von Berichten anzeigen:
 
@@ -114,19 +115,19 @@ Sie können alle diese Berichte innerhalb eines Datumsbereichs anzeigen.
 
 +++
 
-+++Kann ich alle verfügbaren Kurse anzeigen? Wenn ja, wie?
++++Kann ich alle verfügbaren Kurse sehen? Wenn ja, wie?
 
 Sie können in die Teilnehmerrolle umschalten, um alle verfügbaren Kurse anzuzeigen. Weitere Informationen finden Sie unter [Kurse](../learners/feature-summary/courses.md)-Funktion.
 
 +++
 
-+++Wie erhalte ich Zugriff auf die Managerrolle?
++++Wie erhalte ich Zugriff als Manager?
 
 Der Administrator Ihres Unternehmens weist Ihnen entsprechend Ihren Qualifikationen und der Einstufung in Ihrem Unternehmen die Managerrolle zu. Sobald Sie sich anmelden, sehen Sie in Adobe Learning Manager die Startseite für die Managerrolle.
 
 +++
 
-+++Wie melde ich mich zum ersten Mal beim Learning Manager an?
++++Wie melde ich mich zum ersten Mal bei Learning Manager an?
 
 Wenn Sie Learning Manager zum ersten Mal verwenden, haben Sie drei Möglichkeiten:
 
@@ -135,7 +136,7 @@ Wenn Sie Learning Manager zum ersten Mal verwenden, haben Sie drei Möglichkeite
 
 +++
 
-+++Wie weise ich meinen Team-Mitgliedern Kurse zu?
++++Wie weise ich meinen Teammitgliedern Kurse zu?
 
 Manager können Teammitglieder für einen bestimmten Kurs direkt nominieren, wenn der Administrator für diesen Kurs eine Nominierung durch Manager vorgesehen hat.
 

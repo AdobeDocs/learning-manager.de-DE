@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Benutzeroberflächensprache über SAML einrichten
 contentowner: chandrum
 exl-id: 726cb45e-1c37-42b1-924a-565c84c82852
-source-git-commit: 7b84a4565ccf109ed4789f4963d6e250f5d0a852
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '782'
 ht-degree: 0%
-
 ---
-
 # Benutzeroberflächensprache über SAML einrichten
 
 Adobe Learning Manager (ALM) akzeptiert jetzt ein SAML-Attribut für die Sprache. Dieses Attribut wird dann der Benutzeroberfläche und den Spracheinstellungen des Inhalts zugeordnet, um eine reibungslose Interaktion mit dem LMS in der gewünschten Sprache zu gewährleisten. Die Konfiguration dieser Spracheinstellungen wird über die Plattform Identity and Access Management (IAM) verwaltet und verwendet SAML für Single-Sign-on (SSO). Dies unterstützt sowohl vom Service Provider (SP) initiierte als auch vom Identity Provider (IdP) initiierte Anmeldungen, sodass Benutzer die Oberfläche und den Inhalt in der gewünschten Sprache sehen können. Der Arbeitsablauf ist wie folgt:
@@ -30,13 +31,13 @@ Führen Sie die folgenden Schritte aus, um eine Anwendung in Okta zu erstellen:
 5. Konfigurieren Sie die folgenden Felder:
 
    * **[!UICONTROL URL für einmaliges Anmelden]**: Geben Sie die spezifische Domänen-URL ein, zu der Sie die Anwendung verknüpfen möchten (z. B. [https://learningmanagerstage.adobe.com/saml/SSO](https://learningmanagerstage.adobe.com/saml/SSO)). Ändern Sie gegebenenfalls die URL der Umgebung.
-   * **[!UICONTROL Zielgruppen-URI (SP-Entitäts-ID)]**: Verwenden Sie dieselbe Umgebungs-URL wie oben.
+   * **[!UICONTROL Zielgruppen-URI (SP-Entity ID)]**: Verwenden Sie dieselbe Umgebungs-URL wie oben.
    * **[!UICONTROL Name ID Format]**: Wählen Sie die E-Mail-Adresse aus.
    * **[!UICONTROL Anwendungsbenutzername]**: Wählen Sie Okta-Benutzername aus.
 
 6. Fügen Sie unter &quot;Attributanweisungen&quot; Folgendes (bzw. ggf. zusätzliche Felder) hinzu:
    * **Name**: Gebietsschema
-   * **Namensformat**: Nicht definiert
+   * **Namensformat**: Undefiniert
    * **Wert**: user.locale
 
 7. Wählen Sie Weiter und dann Fertig stellen aus.
@@ -75,9 +76,9 @@ Zum Konfigurieren von SSO in ALM führen Sie die folgenden Schritte aus:
    * Wählen Sie **[!UICONTROL IDP Initiated]** aus der Dropdown-Liste **[!UICONTROL Einstellungen für einmaliges Anmelden (SSO)]** aus.
    * Für **[!UICONTROL IDP-initiierte Authentifizierungs-URL]**:
 
-      * Öffnen Sie die Metadaten-XML-Datei, die Sie zuvor heruntergeladen haben.
-      * Suchen Sie nach dem Positionswert und kopieren Sie ihn.
-      * Fügen Sie diesen Wert in das Feld IdP-Initiated Authentication URL ein.
+     * Öffnen Sie die Metadaten-XML-Datei, die Sie zuvor heruntergeladen haben.
+     * Suchen Sie nach dem Positionswert und kopieren Sie ihn.
+     * Fügen Sie diesen Wert in das Feld IdP-Initiated Authentication URL ein.
 
    * Für **[!UICONTROL Metadaten-XML-Datei]**: Laden Sie die zuvor heruntergeladene XML-Datei hoch.
 

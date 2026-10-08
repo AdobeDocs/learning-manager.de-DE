@@ -4,13 +4,14 @@ jcr-language: en_us
 title: Tags
 contentowner: dvenkate
 exl-id: ea39d2a2-3d2b-43ae-8f8d-b97420b9d008
-source-git-commit: a28ac8f57710c118ca4ad02872fd100c6f24beac
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
-source-wordcount: '762'
-ht-degree: 63%
-
+source-wordcount: '775'
+ht-degree: 71%
 ---
-
 # Tags
 
 Administratoren können jetzt Tags in Learning Manager verwalten. Verwenden Sie besseres Tagging und eine verwaltbare Datenbank, damit Lernende bessere Suchvorgänge ausführen können und rasch die passenden Ergebnisse erhalten. Mit dieser Funktion können Sie redundante, falsch geschriebene und irrelevante Tags verwalten. Sie können auch Tags hinzufügen, bearbeiten, löschen, anhängen oder ersetzen.
@@ -81,6 +82,6 @@ Als Administrator können Sie dem Autor die Berechtigung zum Erstellen von Tags 
 
   Eine Fehlermeldung wird angezeigt, die darauf hinweist, dass das ausgewählte Tag nicht mehr gültig ist. Neue Tags werden durch Entfernen nicht unterstützter Zeichen erstellt. In diesem Fall sollte der Autor in der Lage sein, seine alten Tags vor dem Speichern in neue Tags umzuwandeln.
 
-* Wenn der Benutzer nicht über die Berechtigungen zum Erstellen neuer Tags verfügt, wird eine Fehlermeldung angezeigt, dass das ausgewählte Tag nicht mehr gültig ist. Autoren können die Administratoren kontaktieren, um ungültige Tags zu ändern.
+* Wenn ein Benutzer über keine Berechtigungen zum Erstellen neuer Tags verfügt, wird eine Fehlermeldung angezeigt, dass das ausgewählte Tag nicht mehr gültig ist. Autoren können die Administratoren kontaktieren, um ungültige Tags zu ändern.
 
   Autoren können keine ungültigen Tags erstellen oder speichern. Sie können ungültige Tags entfernen und ein anderes vorhandenes gültiges Tag hinzufügen und fortfahren.

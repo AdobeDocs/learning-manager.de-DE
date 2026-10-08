@@ -3,13 +3,14 @@ title: Entsprechungen und Stellvertreter in Adobe Learning Manager
 description: Bieten Sie ein reibungsloses Lernerlebnis und eliminieren Sie redundante Schulungen mit Entsprechungen und Alternativen in ALM. Mit dieser neuen Funktion können Administratoren unidirektionale (alternierende) oder bidirektionale (äquivalente) Regeln konfigurieren, bei denen durch das Absolvieren einer Schulung automatisch ein alternativer Abschluss für eine andere erteilt wird
 jcr-language: en-us
 exl-id: 6bdd6ba7-e5a6-462a-8385-66b955ef25fc
-source-git-commit: 1dd1c6751df7e4b3f1d0fb5df36705a6f8b46762
+product_v2:
+  - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
+    internal-label: Learning Manager
+source-git-commit: c061ccbefe8d40154220587796062d335e35de77
 workflow-type: tm+mt
 source-wordcount: '3474'
 ht-degree: 0%
-
 ---
-
 # Alternativen und Äquivalente
 
 ## Einführung
@@ -49,7 +50,7 @@ Wenn eine konfigurierte Quellschulung abgeschlossen ist, erstellt ALM automatisc
 
 ## Welche Probleme werden dadurch gelöst?
 
-Ohne Alternativen stehen Administratoren und Teilnehmer vor mehreren wiederkehrenden Problemen:
+Ohne Stellvertreter stellen Administratoren und Teilnehmer mehrere wiederkehrende Probleme in Fläche:
 
 * Teilnehmer werden häufig aufgefordert, Kurse zu wiederholen, in denen Inhalte behandelt werden, die sie bereits in einer anderen Version oder einem anderen Format abgeschlossen haben.
 * Die Aktualisierung von Compliance-Programmen ist einfacher, da Administratoren Schulungen ersetzen oder umstrukturieren können, ohne Teilnehmer, die ältere Versionen abgeschlossen haben, zwingen zu müssen, alternative oder ersetzte Inhalte erneut aufzunehmen.
@@ -107,7 +108,7 @@ Teilnehmer können die LO-Karte öffnen, um zusätzliche Details anzuzeigen, dar
 
 Dies gewährleistet Transparenz.
 
-#### Filtern und Ansichten
+#### Filterungen und Standpunkte
 
 ##### Vervollständigungsmethodenfilter
 
