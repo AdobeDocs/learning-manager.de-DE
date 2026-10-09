@@ -3,13 +3,11 @@ description: Erfahren Sie mehr über Experience Builder, ein Tool ohne oder mit 
 jcr-language: en_us
 title: Experience Builder in Adobe Learning Manager
 exl-id: 8d06c2cf-816e-4ad5-85f7-bc26e9d70d51
-source-git-commit: 5221f4bde68561d5253e7dfab789815e4cd55d49
+source-git-commit: a32d8ccf872aa77202bc1660b76e66c12466f8e6
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '943'
 ht-degree: 0%
-
 ---
-
 # Übersicht
 
 Experience Builder ist ein Programm ohne oder mit wenig Code in Adobe Learning Manager, mit dem Sie benutzerdefinierte Lernportale erstellen können. Sie ermöglicht es Ihnen, markenfreundliche, benutzerfreundliche Lernportale zu entwerfen, ohne technische Fähigkeiten oder umfassendes Programmierwissen zu benötigen.
@@ -18,16 +16,14 @@ Mit Experience Builder können Administratoren ganz einfach Seiten, Menüs und W
 
 Viele Unternehmen tun sich schwer, ihre Lernportale ohne technische Hilfe oder teure Systemintegratoren anzupassen. Sie wünschen sich Portale, die zu ihrer Marke passen, zielgerichtete Inhalte bereitstellen und sich an verschiedene Lerngruppen anpassen, während sie gleichzeitig schnell und einfach aufzubauen sind.
 
-Experience Builder ist ein Programm ohne oder mit wenig Code in Adobe Learning Manager, mit dem Sie benutzerdefinierte Lernportale erstellen können. Sie ermöglicht es Ihnen, markenfreundliche, benutzerfreundliche Lernportale zu entwerfen, ohne technische Fähigkeiten oder umfassendes Programmierwissen zu benötigen.Mit Experience Builder können Sie neue Seiten, Menüs und Widgets erstellen, um Ihrem Publikum schnell und einfach personalisierte Lernerlebnisse bereitzustellen. Mit Experience Builder könnt ihr schnell neue Seiten, Menüs und Widgets erstellen, um personalisierte Lernerlebnisse für eure Zielgruppe bereitzustellen.
-
 ## Das Problem, das Experience Builder löst
 
-Experience Builder ist die Antwort auf die Herausforderungen, denen sich Unternehmen häufig bei der Anpassung ihrer Lernportale stellen, ohne dass sie nennenswerte technische Hilfe oder teure Systemintegratoren benötigen. Es schließt die Lücke zwischen zwei primären Optionen:
+Experience Builder ist die Antwort auf die Fläche von Unternehmen, ihre Lernportale ohne nennenswerte technische Hilfe oder teure Systemintegratoren anzupassen. Es schließt die Lücke zwischen zwei primären Optionen:
 
 * Das standardmäßige, vorkonfigurierte Erlebnis, das nur begrenzte Anpassungen bietet und jedes Lernportal ähnlich aussehen lässt.
 * Eine Headless-Implementierung, die vollständig benutzerdefinierte, gamifizierte Portale ermöglicht, aber mit erheblichen Herausforderungen verbunden ist, einschließlich einer langen Time-to-Market (in der Regel 3-6 Monate), der Abhängigkeit von einem Entwicklungsteam und hohen Kosten.
 
-Experience Builder bildet die Basis für die Erstellung markenkonformer Portale und einzigartiger Lernerlebnisse - ohne die hohen Kosten und den Entwicklungsaufwand eines Headless-Ansatzes.
+Experience Builder bietet einen mittleren Boden und ermöglicht die Erstellung markenkonformer Portale sowie individueller Lernerlebnisse ohne die hohen Kosten und den Entwicklungsaufwand eines Headless-Ansatzes.
 
 ## Wichtigste Vorteile der Verwendung von Experience Builder
 

@@ -8,9 +8,9 @@ hide: true
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: a32d8ccf872aa77202bc1660b76e66c12466f8e6
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1340'
 ht-degree: 1%
 ---
 
@@ -36,7 +36,7 @@ Hier findest du die Workflows und Konzepte, die zu deinem Projekt passen.
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="/help/migrated/administrators/feature-summary/getting-started-admin.md" target="_blank" rel="referrer" title="Administrator">Administrator</a>
+                        <b><a href="/help/migrated/administrators/feature-summary/getting-started-admin.md" target="_blank" rel="referrer" title="Administrator">Administrator</a></b>
                     </p>
                     <p class="is-size-6">Konfigurieren Sie Konten, Benutzer, Zugriff und Lernpfade.</p>
                 </div>
@@ -59,7 +59,7 @@ Hier findest du die Workflows und Konzepte, die zu deinem Projekt passen.
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="/help/migrated/authors/feature-summary/getting-started-author.md" target="_blank" rel="referrer" title="Autor">Autor</a>
+                        <b><a href="/help/migrated/authors/feature-summary/getting-started-author.md" target="_blank" rel="referrer" title="Autor">Autor</a></b>
                     </p>
                     <p class="is-size-6">Erstellen Sie Kurse, Zertifizierungen, Inhalte und Lernpfade.</p>
                 </div>
@@ -82,7 +82,7 @@ Hier findest du die Workflows und Konzepte, die zu deinem Projekt passen.
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="/help/migrated/learners/feature-summary/getting-started-learner.md" target="_blank" rel="referrer" title="Teilnehmer">Teilnehmer</a>
+                        <b><a href="/help/migrated/learners/feature-summary/getting-started-learner.md" target="_blank" rel="referrer" title="Teilnehmer">Teilnehmer</a></b>
                     </p>
                     <p class="is-size-6">Zugewiesene Lerninhalte entdecken, absolvieren und verfolgen.</p>
                 </div>
@@ -105,7 +105,7 @@ Hier findest du die Workflows und Konzepte, die zu deinem Projekt passen.
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="/help/migrated/managers/feature-summary/getting-started-manager.md" target="_blank" rel="referrer" title="Manager">Manager</a>
+                        <b><a href="/help/migrated/managers/feature-summary/getting-started-manager.md" target="_blank" rel="referrer" title="Manager">Manager</a></b>
                     </p>
                     <p class="is-size-6">Weisen Sie Lerninhalte zu und überwachen Sie den Fortschritt des Teams.</p>
                 </div>
@@ -128,7 +128,7 @@ Hier findest du die Workflows und Konzepte, die zu deinem Projekt passen.
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="/help/migrated/integration-admin/feature-summary/connectors.md" target="_blank" rel="referrer" title="Integrationsadministrator">Integrationsadministrator</a>
+                        <b><a href="/help/migrated/integration-admin/feature-summary/connectors.md" target="_blank" rel="referrer" title="Integrationsadministrator">Integrationsadministrator</a></b>
                     </p>
                     <p class="is-size-6">Verknüpft Systeme, APIs, Daten und Workflows.</p>
                 </div>
@@ -150,20 +150,20 @@ Baue die Kenntnisse auf, die du benötigst, um Adobe Learning Manager zu konfigu
 <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=N7FDRBP4&mv=partner#/learningProgram/168917" title="Kurs- und Content-Management" target="_blank" rel="referrer">
+                    <b><a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=N7FDRBP4&amp;mv=partner#/learningProgram/168917" title="Kurs- und Content-Management" target="_blank" rel="referrer">
                         <img class="is-bordered-r-small" src="./help/assets/overview/lp-course-new.png" alt="Kurs- und Content-Management"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
+                    </a></b>
                 </figure>
             </div>
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=N7FDRBP4&mv=partner#/learningProgram/168917" target="_blank" rel="referrer" title="Kurs- und Content-Management">Kurs- und Inhaltsmanagement</a>
+                        <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=N7FDRBP4&amp;mv=partner#/learningProgram/168917" target="_blank" rel="referrer" title="Kurs- und Content-Management">Kurs- und Inhaltsmanagement</a>
                     </p>
                     <p class="is-size-6">Erfahren Sie, wie Sie Lerninhalte während dieser Lernerfahrung effektiv erstellen, organisieren und verwalten können.</p>
                 </div>
-                <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=N7FDRBP4&mv=partner#/learningProgram/168917" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=N7FDRBP4&amp;mv=partner#/learningProgram/168917" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Offener Lernpfad</span>
                 </a>
             </div>
@@ -171,7 +171,7 @@ Baue die Kenntnisse auf, die du benötigst, um Adobe Learning Manager zu konfigu
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NC5FR6Y3&mv=partner#/learningProgram/168919" title="Portal und Experience" target="_blank" rel="referrer">
+                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=NC5FR6Y3&amp;mv=partner#/learningProgram/168919" title="Portal und Experience" target="_blank" rel="referrer">
                         <img class="is-bordered-r-small" src="./help/assets/overview/lp-portal-new.png" alt="Portal und Experience"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -180,11 +180,11 @@ Baue die Kenntnisse auf, die du benötigst, um Adobe Learning Manager zu konfigu
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NC5FR6Y3&mv=partner#/learningProgram/168919" target="_blank" rel="referrer" title="Portal und Experience">Portal und Erfahrung</a>
+                        <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=NC5FR6Y3&amp;mv=partner#/learningProgram/168919" target="_blank" rel="referrer" title="Portal und Experience">Portal und Erfahrung</a>
                     </p>
                     <p class="is-size-6">Lernt, wie ihr mit Experience Builder eigene Portale für Branding-Elemente erstellen und ansprechende, an die Öffentlichkeit gerichtete Homepages erstellen könnt.</p>
                 </div>
-                <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NC5FR6Y3&mv=partner#/learningProgram/168919" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=NC5FR6Y3&amp;mv=partner#/learningProgram/168919" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Offener Lernpfad</span>
                 </a>
             </div>
@@ -192,7 +192,7 @@ Baue die Kenntnisse auf, die du benötigst, um Adobe Learning Manager zu konfigu
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NGWGR372&mv=partner#/learningProgram/168920" title="Administration und Zugriff" target="_blank" rel="referrer">
+                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=NGWGR372&amp;mv=partner#/learningProgram/168920" title="Administration und Zugriff" target="_blank" rel="referrer">
                         <img class="is-bordered-r-small" src="./help/assets/overview/lp-admin-new.png" alt="Administration und Zugriff"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -201,11 +201,11 @@ Baue die Kenntnisse auf, die du benötigst, um Adobe Learning Manager zu konfigu
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NGWGR372&mv=partner#/learningProgram/168920" target="_blank" rel="referrer" title="Administration und Zugriff">Administration und Zugriff</a>
+                        <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=NGWGR372&amp;mv=partner#/learningProgram/168920" target="_blank" rel="referrer" title="Administration und Zugriff">Administration und Zugriff</a>
                     </p>
                     <p class="is-size-6">Erfahrt, wie ihr Rollen strukturiert, Berechtigungen verwaltet und Governance-Frameworks entwickelt.</p>
                 </div>
-                <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NGWGR372&mv=partner#/learningProgram/168920" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=NGWGR372&amp;mv=partner#/learningProgram/168920" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Offener Lernpfad</span>
                 </a>
             </div>
@@ -213,7 +213,7 @@ Baue die Kenntnisse auf, die du benötigst, um Adobe Learning Manager zu konfigu
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NLMHQYH1&mv=partner#/learningProgram/168921" title="Anerkennung und Compliance" target="_blank" rel="referrer">
+                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=NLMHQYH1&amp;mv=partner#/learningProgram/168921" title="Anerkennung und Compliance" target="_blank" rel="referrer">
                         <img class="is-bordered-r-small" src="./help/assets/overview/lp-recognition-new.png" alt="Anerkennung und Compliance"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -222,11 +222,11 @@ Baue die Kenntnisse auf, die du benötigst, um Adobe Learning Manager zu konfigu
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NLMHQYH1&mv=partner#/learningProgram/168921" target="_blank" rel="referrer" title="Anerkennung und Compliance">Erkennung und Compliance</a>
+                        <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=NLMHQYH1&amp;mv=partner#/learningProgram/168921" target="_blank" rel="referrer" title="Anerkennung und Compliance">Erkennung und Compliance</a>
                     </p>
                     <p class="is-size-6">Erfahren Sie, wie Sie Compliance-Zertifizierungen einrichten, benutzerdefinierte Zertifikate entwerfen und Abzeichen hinzufügen, die die Leistungen der Lernenden würdigen.</p>
                 </div>
-                <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NLMHQYH1&mv=partner#/learningProgram/168921" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=NLMHQYH1&amp;mv=partner#/learningProgram/168921" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Offener Lernpfad</span>
                 </a>
             </div>
@@ -234,7 +234,7 @@ Baue die Kenntnisse auf, die du benötigst, um Adobe Learning Manager zu konfigu
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NQCJQTQZ&mv=partner#/learningProgram/168918" title="Lernerlebnisreisen" target="_blank" rel="referrer">
+                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=NQCJQTQZ&amp;mv=partner#/learningProgram/168918" title="Lernerlebnisreisen" target="_blank" rel="referrer">
                         <img class="is-bordered-r-small" src="./help/assets/overview/lp-journey-new.png" alt="Lernerlebnisreisen"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -243,11 +243,11 @@ Baue die Kenntnisse auf, die du benötigst, um Adobe Learning Manager zu konfigu
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NQCJQTQZ&mv=partner#/learningProgram/168918" target="_blank" rel="referrer" title="Lernerlebnisreisen">Customer Journeys beim Lernen</a>
+                        <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=NQCJQTQZ&amp;mv=partner#/learningProgram/168918" target="_blank" rel="referrer" title="Lernerlebnisreisen">Customer Journeys beim Lernen</a>
                     </p>
                     <p class="is-size-6">Erfahren Sie, wie Sie Kurse in strukturierten Pfaden anordnen und die Registrierung über Lernpläne automatisieren können.</p>
                 </div>
-                <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NQCJQTQZ&mv=partner#/learningProgram/168918" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=NQCJQTQZ&amp;mv=partner#/learningProgram/168918" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Offener Lernpfad</span>
                 </a>
             </div>
@@ -255,7 +255,7 @@ Baue die Kenntnisse auf, die du benötigst, um Adobe Learning Manager zu konfigu
         <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NV3KQPZY&mv=partner#/learningProgram/168922" title="Reporting und Analysen." target="_blank" rel="referrer">
+                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=NV3KQPZY&amp;mv=partner#/learningProgram/168922" title="Reporting und Analysen." target="_blank" rel="referrer">
                         <img class="is-bordered-r-small" src="./help/assets/overview/lp-reporting-new.png" alt="Reporting und Analysen."
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
                     </a>
@@ -264,11 +264,11 @@ Baue die Kenntnisse auf, die du benötigst, um Adobe Learning Manager zu konfigu
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NV3KQPZY&mv=partner#/learningProgram/168922" target="_blank" rel="referrer" title="Reporting und Analysen.">Berichte und Analysen</a>
+                        <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=NV3KQPZY&amp;mv=partner#/learningProgram/168922" target="_blank" rel="referrer" title="Reporting und Analysen.">Berichte und Analysen</a>
                     </p>
                     <p class="is-size-6">Erfahrt, wie ihr Dashboards und Reports in sinnvolle Entscheidungen für Führungskräfte transformieren.</p>
                 </div>
-                <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=NV3KQPZY&mv=partner#/learningProgram/168922" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
+                <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=NV3KQPZY&amp;mv=partner#/learningProgram/168922" target="_blank" rel="referrer" class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
                     <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">Offener Lernpfad</span>
                 </a>
             </div>
@@ -279,7 +279,7 @@ Baue die Kenntnisse auf, die du benötigst, um Adobe Learning Manager zu konfigu
 Wählen Sie zielgerichtete Kurse für wichtige Funktionen oder folgen Sie geführten Lernpfaden. Academy-Links werden in einer neuen Registerkarte geöffnet und erfordern möglicherweise eine Anmeldung.
 
 <div style="margin-top: 1rem;">
-    <a href="https://cdn.content.adobelearningmanageracademy.com/?sdid=PC1PQ72T&mv=partner"
+    <a href="https://cdn.content.adobelearningmanageracademy.com/?sdid=PC1PQ72T&amp;mv=partner"
        target="_blank"
        rel="referrer"
        class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
@@ -299,12 +299,12 @@ Lerne neue Features kennen, vertiefe dein Know-how.
 <tr style="border: 0;">
    <td><img src="./help/assets/overview/whats-new-updated-new.png" alt="Überblick über die neuen Funktionen" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover;">
 
-<p><strong>Neue Funktionen überprüfen</strong>
+<p><strong>Neue Funktionen in Adobe Learning Manager</strong>
     </p>
-    <p>Entdecken Sie die neuesten Funktionen<br> und Versionsupdates.</p>
+    <p>Entdecken Sie die neuesten Funktionen und Updates in der Version August 2026.</p>
                 <p>
                     <strong>
-                        <a href="/help/migrated/whats-new.md">Weitere Informationen</a>
+                        <a href="/help/migrated/whats-new.md">Zusammenfassung der neuen Funktionen</a>
                     </strong>
                 </p>
                 <p>
@@ -315,21 +315,20 @@ Lerne neue Features kennen, vertiefe dein Know-how.
 
 
 </td>
-   <td>&lt;img src="./help/assets/overview/explore-ai-new.png" alt="Neue Funktionen prüfen" style="width: 100 % Seitenverhältnis: 16/9 Objekt einpassen: Cover;"
+   <td><img src="./help/assets/overview/explore-ai-new.png" alt="Überblick über die neuen Funktionen" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover;">
+   <p><strong>KI-Funktionen</strong></p>
 
 <p>
-                    <strong>Insights Agent (Beta)</strong><br>
-                    <a href="/help/migrated/administrators/feature-summary/insights-agent.md">Weitere Informationen</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MQH8RTM8&mv=partner#/course/17286964">Kurs starten</a>
+                    <b>Insights Agent (Beta)</b><br>
+                    <a href="/help/migrated/administrators/feature-summary/insights-agent.md">Weitere Informationen</a> &amp;vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=MQH8RTM8&amp;mv=partner#/course/17286964">Kurs starten</a>
 </p>
 <p>
-                    <strong>Learning Path Agent (Beta)</strong><br>
-                    <a href="/help/migrated/learners/feature-summary/learning-path-agent.md">Weitere Informationen</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MLR7RYC9&mv=partner#/course/17286956">Kurs starten</a>
-
+                    Learning Path Agent (Beta)<br>
+                    <a href="/help/migrated/learners/feature-summary/learning-path-agent.md">Weitere Informationen</a> &amp;vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=MLR7RYC9&amp;mv=partner#/course/17286956">Kurs starten</a>
 </p>
-
 <p>
                     <strong>Live Hub (Beta)</strong><br>
-                    <a href="/help/migrated/getting-started-with-live-hub/getting-started-live-hub.md">Weitere Informationen</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MV79RPW7&mv=partner#/course/17286962">Kurs starten</a>
+                    <a href="/help/migrated/getting-started-with-live-hub/getting-started-live-hub.md">Weitere Informationen</a> &amp;vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=MV79RPW7&amp;mv=partner#/course/17286962">Kurs starten</a>
 
 </p>
 
@@ -337,18 +336,20 @@ Lerne neue Features kennen, vertiefe dein Know-how.
 
 
 </td>
-   <td>&lt;img src="./help/assets/overview/learning-experience-new.png" alt="Neue Funktionen prüfen" style="width: 100 % Seitenverhältnis: 16/9 Objekt einpassen: Cover;"
+   <td><img src="./help/assets/overview/learning-experience-new.png" alt="Überblick über die neuen Funktionen" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover;">
+   <p><strong>Admin Tools</strong>
+    </p>
    <p>
                     <strong>Experience Builder</strong><br>
-                    <a href="/help/migrated/administrators/feature-summary/experience-builder/overview.md">Weitere Informationen</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/17286967">Kurs starten</a>
+                    <a href="/help/migrated/administrators/feature-summary/experience-builder/overview.md">Weitere Informationen</a> &amp;vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/17286967">Kurs starten</a>
     </p>
     <p>
                     <strong>Report Builder</strong><br>
-                    <a href="/help/migrated/administrators/feature-summary/alm-report-builder.md">Weitere Informationen</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MYYBRL56&mv=partner#/course/17286960">Kurs starten</a>
+                    <a href="/help/migrated/administrators/feature-summary/alm-report-builder.md">Weitere Informationen</a> &amp;vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=MYYBRL56&amp;mv=partner#/course/17286960">Kurs starten</a>
     </p>
 <p>
                     <strong>Email Builder</strong><br>
-                    <a href="/help/migrated/administrators/feature-summary/email-builder.md">Weitere Informationen</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=N3PCRGF5&mv=partner#/course/17286967">Kurs starten</a>
+                    <a href="/help/migrated/administrators/feature-summary/email-builder.md">Weitere Informationen</a> &amp;vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&amp;sdid=N3PCRGF5&amp;mv=partner#/course/17286967">Kurs starten</a>
     </p>
     </td>
   </tr>
@@ -359,12 +360,12 @@ Lerne neue Features kennen, vertiefe dein Know-how.
 Erfahren Sie, wie Sie mit ALM ansprechende Lernerlebnisse erstellen, verwalten und bereitstellen können. Für eine personalisierte Demo registrieren.
 
 <div>
-    <a href="https://business.adobe.com/de/resources/demo/adobe-learning-manager-lms.html?sdid=P79NQBSV&mv=partner#make-personalized-learning-the-new-normal"
+    <a href="https://business.adobe.com/resources/demo/adobe-learning-manager-lms.html?sdid=P79NQBSV&amp;mv=partner#make-personalized-learning-the-new-normal"
        target="_blank"
        rel="referrer"
        class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
         <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">
-            Anmelden
+            <strong>Registrieren</strong>
         </span>
     </a>
 </div>
