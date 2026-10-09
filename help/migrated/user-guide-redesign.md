@@ -2,15 +2,15 @@
 description: Von der Content-Erstellung bis hin zu Live- und On-Demand-Erlebnissen bietet Adobe Learning Manager eine Kombination aus Markenakademien, adaptiven Customer Journeys und KI-Agenten, um personalisiertes Lernen zu bieten, das sich auszahlt.
 jcr-language: en_us
 title: Willkommen bei der Dokumentation zu Adobe Learning Manager
-exl-id: 482314a1-1cb1-4fb7-aa52-ee1969c5240a21112
+exl-id: 482314a1-1cb1-4fb7-aa52-ee1969c5240a211121
 contentowner: saghosh
 hide: true
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 1d3ece3eefea47e3f4da30579941f9069d2b4431
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1292'
 ht-degree: 1%
 ---
 
@@ -36,7 +36,7 @@ Hier findest du die Workflows und Konzepte, die zu deinem Projekt passen.
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="/help/migrated/administrators/feature-summary/getting-started-admin.md" target="_blank" rel="referrer" title="Administrator">Administrator</a>
+                        <b><a href="/help/migrated/administrators/feature-summary/getting-started-admin.md" target="_blank" rel="referrer" title="Administrator">Administrator</a></b>
                     </p>
                     <p class="is-size-6">Konfigurieren Sie Konten, Benutzer, Zugriff und Lernpfade.</p>
                 </div>
@@ -59,7 +59,7 @@ Hier findest du die Workflows und Konzepte, die zu deinem Projekt passen.
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="/help/migrated/authors/feature-summary/getting-started-author.md" target="_blank" rel="referrer" title="Autor">Autor</a>
+                        <b><a href="/help/migrated/authors/feature-summary/getting-started-author.md" target="_blank" rel="referrer" title="Autor">Autor</a></b>
                     </p>
                     <p class="is-size-6">Erstellen Sie Kurse, Zertifizierungen, Inhalte und Lernpfade.</p>
                 </div>
@@ -82,7 +82,7 @@ Hier findest du die Workflows und Konzepte, die zu deinem Projekt passen.
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="/help/migrated/learners/feature-summary/getting-started-learner.md" target="_blank" rel="referrer" title="Teilnehmer">Teilnehmer</a>
+                        <b><a href="/help/migrated/learners/feature-summary/getting-started-learner.md" target="_blank" rel="referrer" title="Teilnehmer">Teilnehmer</a></b>
                     </p>
                     <p class="is-size-6">Zugewiesene Lerninhalte entdecken, absolvieren und verfolgen.</p>
                 </div>
@@ -105,7 +105,7 @@ Hier findest du die Workflows und Konzepte, die zu deinem Projekt passen.
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="/help/migrated/managers/feature-summary/getting-started-manager.md" target="_blank" rel="referrer" title="Manager">Manager</a>
+                        <b><a href="/help/migrated/managers/feature-summary/getting-started-manager.md" target="_blank" rel="referrer" title="Manager">Manager</a></b>
                     </p>
                     <p class="is-size-6">Weisen Sie Lerninhalte zu und überwachen Sie den Fortschritt des Teams.</p>
                 </div>
@@ -128,7 +128,7 @@ Hier findest du die Workflows und Konzepte, die zu deinem Projekt passen.
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
                 <div class="top-card-content">
                     <p class="headline is-size-6 has-text-weight-bold">
-                        <a href="/help/migrated/integration-admin/feature-summary/connectors.md" target="_blank" rel="referrer" title="Integrationsadministrator">Integrationsadministrator</a>
+                        <b><a href="/help/migrated/integration-admin/feature-summary/connectors.md" target="_blank" rel="referrer" title="Integrationsadministrator">Integrationsadministrator</a></b>
                     </p>
                     <p class="is-size-6">Verknüpft Systeme, APIs, Daten und Workflows.</p>
                 </div>
@@ -150,10 +150,10 @@ Baue die Kenntnisse auf, die du benötigst, um Adobe Learning Manager zu konfigu
 <div class="card" style="height: 100%; display: flex; flex-direction: column; height: 100%;">
             <div class="card-image">
                 <figure class="image x-is-16by9">
-                    <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=N7FDRBP4&mv=partner#/learningProgram/168917" title="Kurs- und Content-Management" target="_blank" rel="referrer">
+                    <b><a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=N7FDRBP4&mv=partner#/learningProgram/168917" title="Kurs- und Content-Management" target="_blank" rel="referrer">
                         <img class="is-bordered-r-small" src="./help/assets/overview/lp-course-new.png" alt="Kurs- und Content-Management"
                              style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover; overflow: hidden; display: block; margin: auto;">
-                    </a>
+                    </a></b>
                 </figure>
             </div>
             <div class="card-content is-padded-small" style="display: flex; flex-direction: column; flex-grow: 1; justify-content: space-between;">
@@ -278,16 +278,20 @@ Baue die Kenntnisse auf, die du benötigst, um Adobe Learning Manager zu konfigu
 
 Wählen Sie zielgerichtete Kurse für wichtige Funktionen oder folgen Sie geführten Lernpfaden. Academy-Links werden in einer neuen Registerkarte geöffnet und erfordern möglicherweise eine Anmeldung.
 
+[**ALM Academy erkunden**](https://cdn.content.adobelearningmanageracademy.com/?sdid=PC1PQ72T&mv=partner)
+
+<!--
 <div style="margin-top: 1rem;">
     <a href="https://cdn.content.adobelearningmanageracademy.com/?sdid=PC1PQ72T&mv=partner"
        target="_blank"
        rel="referrer"
        class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
         <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">
-            ALM Academy entdecken
+            Explore ALM Academy
         </span>
     </a>
 </div>
+-->
 
 ## Adobe Learning Manager entdecken
 
@@ -299,36 +303,31 @@ Lerne neue Features kennen, vertiefe dein Know-how.
 <tr style="border: 0;">
    <td><img src="./help/assets/overview/whats-new-updated-new.png" alt="Überblick über die neuen Funktionen" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover;">
 
-<p><strong>Neue Funktionen überprüfen</strong>
+<p><strong>Neue Funktionen in Adobe Learning Manager</strong>
     </p>
-    <p>Entdecken Sie die neuesten Funktionen<br> und Versionsupdates.</p>
+    <p>Entdecken Sie die neuesten Funktionen und Updates in der Version August 2026.</p>
                 <p>
-                    <strong>
-                        <a href="/help/migrated/whats-new.md">Weitere Informationen</a>
-                    </strong>
+                    <a href="/help/migrated/whats-new.md">Zusammenfassung der neuen Funktionen</a>
                 </p>
                 <p>
-                    <strong>
-                        <a href="/help/migrated/authors/feature-summary/content-composer/content-composer-help.md">Content Composer (Beta)</a>
-                    </strong>
+                    <a href="/help/migrated/authors/feature-summary/content-composer/content-composer-help.md">Content Composer (Beta)</a>
     </p>
 
 
 </td>
-   <td>&lt;img src="./help/assets/overview/explore-ai-new.png" alt="Neue Funktionen prüfen" style="width: 100 % Seitenverhältnis: 16/9 Objekt einpassen: Cover;"
+   <td><img src="./help/assets/overview/explore-ai-new.png" alt="Überblick über die neuen Funktionen" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover;">
+   <p><strong>KI-Funktionen</strong></p>
 
 <p>
-                    <strong>Insights Agent (Beta)</strong><br>
+                    Insights Agent (Beta)<br>
                     <a href="/help/migrated/administrators/feature-summary/insights-agent.md">Weitere Informationen</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MQH8RTM8&mv=partner#/course/17286964">Kurs starten</a>
 </p>
 <p>
-                    <strong>Learning Path Agent (Beta)</strong><br>
+                    Learning Path Agent (Beta)<br>
                     <a href="/help/migrated/learners/feature-summary/learning-path-agent.md">Weitere Informationen</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MLR7RYC9&mv=partner#/course/17286956">Kurs starten</a>
-
 </p>
-
 <p>
-                    <strong>Live Hub (Beta)</strong><br>
+                    Live Hub (Beta)<br>
                     <a href="/help/migrated/getting-started-with-live-hub/getting-started-live-hub.md">Weitere Informationen</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MV79RPW7&mv=partner#/course/17286962">Kurs starten</a>
 
 </p>
@@ -337,17 +336,19 @@ Lerne neue Features kennen, vertiefe dein Know-how.
 
 
 </td>
-   <td>&lt;img src="./help/assets/overview/learning-experience-new.png" alt="Neue Funktionen prüfen" style="width: 100 % Seitenverhältnis: 16/9 Objekt einpassen: Cover;"
+   <td><img src="./help/assets/overview/learning-experience-new.png" alt="Überblick über die neuen Funktionen" style="width: 100%; aspect-ratio: 16 / 9; object-fit: cover;">
+   <p><strong>Admin-Tools</strong>
+    </p>
    <p>
-                    <strong>Experience Builder</strong><br>
+                    Experience Builder<br>
                     <a href="/help/migrated/administrators/feature-summary/experience-builder/overview.md">Weitere Informationen</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632#/course/17286967">Kurs starten</a>
     </p>
     <p>
-                    <strong>Report Builder</strong><br>
+                    Berichtsgenerator<br>
                     <a href="/help/migrated/administrators/feature-summary/alm-report-builder.md">Weitere Informationen</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=MYYBRL56&mv=partner#/course/17286960">Kurs starten</a>
     </p>
 <p>
-                    <strong>Email Builder</strong><br>
+                    Email Builder<br>
                     <a href="/help/migrated/administrators/feature-summary/email-builder.md">Weitere Informationen</a> &vert; <a href="https://content.adobelearningmanageracademy.com/app/learner?accountId=98632&sdid=N3PCRGF5&mv=partner#/course/17286967">Kurs starten</a>
     </p>
     </td>
@@ -358,16 +359,20 @@ Lerne neue Features kennen, vertiefe dein Know-how.
 
 Erfahren Sie, wie Sie mit ALM ansprechende Lernerlebnisse erstellen, verwalten und bereitstellen können. Für eine personalisierte Demo registrieren.
 
+[**Registrieren**](https://business.adobe.com/de/resources/demo/adobe-learning-manager-lms.html?sdid=P79NQBSV&mv=partner#make-personalized-learning-the-new-normal)
+
+<!--
 <div>
     <a href="https://business.adobe.com/de/resources/demo/adobe-learning-manager-lms.html?sdid=P79NQBSV&mv=partner#make-personalized-learning-the-new-normal"
        target="_blank"
        rel="referrer"
        class="spectrum-Button spectrum-Button--outline spectrum-Button--primary spectrum-Button--sizeM" style="align-self: flex-start; margin-top: 1rem;">
         <span class="spectrum-Button-label has-no-wrap has-text-weight-bold">
-            Anmelden
+            <strong>Sign up</strong>
         </span>
     </a>
 </div>
+-->
 
 ## Weitere Informationsquellen {#additional-resources}
 
