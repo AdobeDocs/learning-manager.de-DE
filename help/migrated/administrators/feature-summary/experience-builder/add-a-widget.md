@@ -7,9 +7,7 @@ source-git-commit: 45909026b58b7c094c22856e2213f44111b7ecb2
 workflow-type: tm+mt
 source-wordcount: '2864'
 ht-degree: 0%
-
 ---
-
 # Widgets hinzufügen und konfigurieren
 
 ## Kalender-Widget
@@ -253,7 +251,7 @@ Das HTML-Widget wird der Seite hinzugefügt. Administratoren können andere Widg
 
 ## IFrame-Widget
 
-Das IFrame-Widget zeigt den Inhalt einer externen URL direkt auf einer Seite der Lernplattform an. Es bettet eine externe Website, ein externes Tool oder eine externe Anwendung in einen Rahmen ein, sodass Teilnehmer diese Inhalte anzeigen und damit interagieren können, ohne das LMS zu verlassen.
+Das IFrame-Widget zeigt den Inhalt einer externen URL direkt auf einer Seite der Lernplattform an. Es bettet eine externe Website, ein Tool oder eine Anwendung in einen Rahmen ein, sodass Teilnehmer diese Inhalte anzeigen und damit interagieren können, ohne das LMS zu verlassen.
 
 ### Hinzufügen eines IFrame-Widgets
 
@@ -284,14 +282,14 @@ Das Iframe-Widget wird der Seite hinzugefügt. Administratoren können andere Wi
 
 Administratoren müssen das Zugriffstoken als Abfrageparameter in die iframe-URL aufnehmen, um die richtigen Details abzurufen. Wenn beispielsweise Informationen aus Adobe Learning Manager in einem iframe angezeigt werden sollen, sollte die URL folgende Parameter enthalten:
 
-* userId: Eindeutige ID des Teilnehmers
-* accountId: Die dem Teilnehmer zugeordnete Konto-ID
+* userId: Die besondere Identifizierung des Teilnehmers
+* accountId: Die dem Teilnehmer zugeordnete Identifizierung des Kontos
 * Token: Das für API-Aufrufe erforderliche Authentifizierungstoken
 * Gebietsschema: Sprache oder Gebietsschema des Teilnehmers
 
 ## Eigenes Lern-Widget
 
-Das Widget &quot;Eigenes Lernen&quot; bietet Teilnehmern eine personalisierte Ansicht aller Kurse, Lernprogramme und Zertifizierungen, die ihnen zugewiesen wurden oder für die sie registriert sind. Es organisiert Lerninhalte nach Typ und Termin, sodass Teilnehmer ihren Fortschritt einfach verfolgen und auf Lernmaterialien zugreifen können. Dieses Widget hilft Teilnehmern, sich auf die erforderliche Schulung zu konzentrieren und die bevorstehenden Fristen kurz zu sehen.
+Das Widget &quot;Eigenes Lernen&quot; bietet Teilnehmern eine personalisierte Ansicht aller Kurse, Lernprogramme und Zertifizierungen, die ihnen zugewiesen wurden oder für die sie registriert sind. Es organisiert Lerninhalte nach Typ und Termin, sodass Teilnehmer ihren Fortschritt einfach verfolgen und auf Lerninhalte zugreifen können. Dieses Widget hilft Teilnehmern, sich auf die erforderliche Schulung zu konzentrieren und die bevorstehenden Fristen kurz zu sehen.
 
 ### Widget &quot;Eigenes Lernen&quot; hinzufügen
 
