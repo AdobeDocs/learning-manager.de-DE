@@ -38,7 +38,7 @@ Wenn ein Projekt zum Review freigegeben wird, greifen Sie als Reviewer über den
 
 ## Offensiven Inhalt melden
 
-Wenn Sie bei der Überprüfung eines freigegebenen Inhalts-Composer-Kurses auf Inhalte stoßen, die die [Nutzungsbedingungen](https://www.adobe.com/legal/terms.html) der Adobe verletzen, können Sie diese melden.
+Wenn Sie bei der Überprüfung eines freigegebenen Inhalts-Composer-Kurses auf Inhalte stoßen, die die [Nutzungsbedingungen](https://www.adobe.com/de/legal/terms.html) der Adobe verletzen, können Sie diese melden.
 
 Wählen Sie rechts oben **Bericht** aus, und füllen Sie das Formular aus. Alternativ können Sie Missbrauch per E-Mail an [abuse@adobe.com](mailto:abuse@adobe.com) melden. 
 
