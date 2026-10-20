@@ -38,7 +38,7 @@ Die DSGVO ist eine EU-Verordnung, sie gilt jedoch weltweit für Unternehmen, die
 
 Gemäß DSGVO werden Sie als [Datenverantwortlicher](https://gdpr-info.eu/art-24-gdpr/) betrachtet, wenn Ihr Unternehmen ein Produkt oder eine Dienstleistung für EU-Bürger anbietet und bestimmt, wie und warum deren Daten erfasst, verfolgt und überwacht werden. Wenn Sie als Adobe Learning Manager-Kunde eine dieser Aktivitäten ausführen, gelten Sie als Datenverantwortlicher.
 
-Unternehmen, die Daten im Namen von Controllern verarbeiten, gelten als [Datenverarbeiter](https://gdpr-info.eu/art-28-gdpr/). Als Anbieter des in der Cloud gehosteten LMS Adobe Learning Manager spielt Adobe die Rolle eines Datenverarbeiters. Hier sind einige weitere Details zu [der DSGVO und Ihrem Unternehmen](https://www.adobe.com/privacy/general-data-protection-regulation.html).
+Unternehmen, die Daten im Namen von Controllern verarbeiten, gelten als [Datenverarbeiter](https://gdpr-info.eu/art-28-gdpr/). Als Anbieter des in der Cloud gehosteten LMS Adobe Learning Manager spielt Adobe die Rolle eines Datenverarbeiters. Hier sind einige weitere Details zu [der DSGVO und Ihrem Unternehmen](https://www.adobe.com/de/privacy/general-data-protection-regulation.html).
 
 +++
 
