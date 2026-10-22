@@ -1,15 +1,13 @@
 ---
-description: Erläutert, wie Experience Builder öffentlich zugängliche Lernseiten und Kataloge für anonyme Besucher veröffentlichen kann, einschließlich wichtiger Funktionen, unterstützter Widgets, Voraussetzungen (Training Data Access Connector), Einschränkungen und Anleitungen zur Konfiguration, Skalierbarkeit und Migration von der älteren, nicht angemeldeten Startseite.
+description: Erläutert, wie Experience Builder öffentlich zugängliche Lernseiten und Kataloge für anonyme Besucher veröffentlichen kann, einschließlich wichtiger Funktionen, unterstützter Widgets, Voraussetzungen (Verbindung für den Zugriff auf Schulungsdaten), Einschränkungen und Anleitungen zur Konfiguration, Skalierbarkeit und Migration von der älteren, nicht angemeldeten Startseite.
 jcr-language: en_us
 title: Konfiguration und Verwaltung nicht angemeldeter Seiten in Experience Builder
 exl-id: e4685cab-08ca-4b6b-93f4-a9eecf382dc4
-source-git-commit: 2f9e931523da6e3e1ed2cf60f1ad05f5caf3cc1b
+source-git-commit: 1098caed370839d7adad2abf564e8f6ed137d10b
 workflow-type: tm+mt
-source-wordcount: '6058'
+source-wordcount: '6051'
 ht-degree: 1%
-
 ---
-
 
 # Nicht angemeldetes Erlebnis in Experience Builder
 
@@ -23,7 +21,7 @@ Besucher können den Katalog durchsuchen, Details zu Kursen und Instanzen anzeig
 
 Administratoren können konfigurieren, welche Seiten und Widgets für nicht angemeldete Benutzer sichtbar sind. Dadurch wird sichergestellt, dass nur die entsprechenden Inhalte angezeigt werden. Seiten können so eingestellt werden, dass sie sowohl für angemeldete als auch für nicht angemeldete Benutzer oder ausschließlich für eine dieser Gruppen zugänglich sind. Experience Builder bietet einen Vorschaumodus, mit dem Sie genau sehen können, wie Ihre Seiten den Besuchern angezeigt werden, bevor sie veröffentlicht werden.
 
-Um diese Funktion zu aktivieren, muss Ihr ALM-Integrationsadministrator den Connector für den Zugriff auf Schulungsdaten aktivieren. Dieser Connector stellt sicher, dass die Kurs-Metadaten öffentlich zugänglich sind.
+Um diese Funktion zu aktivieren, muss Ihr ALM-Integrationsadministrator die Verbindung für den Zugriff auf Schulungsdaten aktivieren. Diese Verbindung stellt sicher, dass die Kurs-Metadaten öffentlich zugänglich sind.
 
 Branding und Lokalisierung werden vollständig unterstützt, sodass Sie Seitentitel, Favoriten und Spracheinstellungen anpassen können, um sie an die Identität Ihres Unternehmens und die Anforderungen Ihrer Zielgruppe anzupassen. Als Teil des Übergangs zu dieser verbesserten Erfahrung wird die alte Startseitenfunktion für nicht angemeldete Benutzer verworfen. Daher sollten alle neuen öffentlichen Inhalte mit Experience Builder erstellt werden.
 
@@ -33,41 +31,41 @@ Das nicht angemeldete Erlebnis in Experience Builder ermöglicht es Unternehmen,
 
 ## Nutzungsszenarien, bei denen kein Benutzer angemeldet ist
 
-- **Marketing und Kontaktaufnahme**: Organisationen können ihre Schulungsprogramme für externe Zielgruppen wie potenzielle Kunden, Partner oder Stellenbewerber veröffentlichen, indem sie Kurskataloge und Programmdetails öffentlich zugänglich machen.
-- **Vorabregistrierung**: Teilnehmer können verfügbare Kurse durchsuchen, Übersichten anzeigen und Kategorien erkunden, bevor sie sich registrieren oder anmelden, um ihnen dabei zu helfen, fundierte Entscheidungen zur Registrierung zu treffen.
-- **Schulungsportale für Unternehmen**: Unternehmen können ein öffentlich zugängliches Portal für Konformitäts- oder Onboarding-Informationen bereitstellen, sodass neue Mitarbeiter oder Auftragnehmer sehen können, welche Schulung verfügbar ist, bevor sie Anmeldeinformationen erhalten.
-- **Zielseiten für Veranstaltungen oder Kampagnen**: Organisationen, die Lernkampagnen oder Veranstaltungen durchführen, können spezielle öffentliche Seiten erstellen, um Kurse, Zeitpläne oder Ressourcen hervorzuheben und so die Sichtbarkeit und Interaktion zu erhöhen.
-- **SEO und Auffindbarkeit**: Durch die Veröffentlichung ausgewählter Seiten und Kataloge verbessern Organisationen ihre Sichtbarkeit in Suchmaschinen und erleichtern es den Personen, ihre Lernangebote online zu entdecken.
+- **Marketing und Kontaktaufnahme**: Organisationen können ihre Schulungsprogramme für externe Zielgruppen wie potenzielle Kunden, Partner oder Stellenbewerber fördern, indem sie Kurskataloge und Programmdetails öffentlich zugänglich machen.
+- **Erkundung vor der Registrierung**: Teilnehmer können verfügbare Kurse durchsuchen, Übersichten anzeigen und Kategorien erkunden, bevor sie sich registrieren oder anmelden, um ihnen zu helfen, fundierte Registrierungsentscheidungen zu treffen.
+- **Schulungsportale für Unternehmen**: Unternehmen können ein öffentlich zugängliches Portal für Compliance- oder Onboarding-Informationen bereitstellen, über das neue Mitarbeiter oder Auftragnehmer sehen können, welche Schulungen verfügbar sind, bevor sie ihre Anmeldeinformationen erhalten.
+- **Zielseiten für Events oder Kampagnen**: Organisationen, die Lernkampagnen oder Veranstaltungen durchführen, können spezielle öffentliche Seiten erstellen, um Kurse, Zeitpläne oder Ressourcen hervorzuheben und so die Sichtbarkeit und Interaktion zu verbessern.
+- **SEO und Auffindbarkeit**: Durch die Veröffentlichung ausgewählter Seiten und Kataloge verbessern Unternehmen die Sichtbarkeit ihrer Suchseiten und machen es den Menschen leichter, ihre Lernangebote online zu entdecken.
 
 ## Wichtige Konzepte für nicht angemeldete Benutzer
 
 Das nicht angemeldete Erlebnis von Experience Builder ermöglicht es Ihnen, Lerninhalte und Portalseiten öffentlich zu präsentieren, sodass Besucher ohne Anmeldung durchsuchen können.
 
-- **Öffentliche Seiten und Menüs erstellen**: Sie richten Seiten und ein einzelnes Menü ein, auf das jeder unabhängig vom Anmeldestatus zugreifen kann.
-- **Nur unterstützte Widgets hinzufügen**: Sie fügen Widgets hinzu, die keinen Benutzerkontext benötigen (Kategorien, Kurse und Lernpfade, Inhaltsfeld, HTML, iframe), während das System benutzerspezifische Widgets ausblendet.
-- **Adaptives Seitenverhalten konfigurieren**: Sie entscheiden, ob eine Seite sowohl für angemeldete als auch für nicht angemeldete Benutzer angezeigt wird, und das System passt sichtbare Widgets und Inhalte basierend auf dem Anmeldestatus an.
-- **Beide Erlebnisse in der Vorschau anzeigen**: Sie verwenden Vorschauoptionen, um zu sehen, wie Seiten nach angemeldeten und nicht angemeldeten Benutzern suchen, wobei Unterschiede in der Sichtbarkeit und dem Inhalt der Widgets bestehen.
-- **Globale Suche aktivieren**: Besucher suchen nach Kursen und Inhalten, erhalten jedoch nur einfache Suchfunktionen ohne erweiterte AI-Integration.
-- **Besucher können den Katalog und die Kursübersichten durchsuchen**: Besucher können Katalogseiten, Kursdetails und Instanzen durchsuchen, müssen sich jedoch anmelden, um sich zu registrieren oder auf personalisierte Funktionen zuzugreifen.
-- **Branding und Lokalisierung anpassen**: Sie legen die Favicons und Spracheinstellungen so fest, dass sie mit dem Branding und der Barrierefreiheit Ihrer Organisation übereinstimmen.
-- **Connector für den Zugriff auf Schulungsdaten aktivieren**: Sie aktivieren diesen Connector, um Kursmetadaten zur öffentlichen Anzeige zu exportieren und nicht angemeldete Seiten auf dem neuesten Stand zu halten.
-- **Umgang mit hohem Traffic mit gemeinsam genutzter Infrastruktur**: Das System verwaltet große Mengen anonymer Besucher mithilfe gemeinsam genutzter Ressourcen und Ratenbegrenzung.
-- **Optimieren für SEO**: Die Plattform bereitet öffentliche Seiten für die Suchmaschinenindizierung vor, sodass Ihre Lerninhalte leichter zu finden sind.
+- **Öffentliche Seiten und Menüs erstellen**: Ihr richtet Seiten und ein Menü ein, auf die jeder zugreifen kann, unabhängig vom Anmeldestatus.
+- **Nur unterstützte Widgets hinzufügen**: Sie können Widgets einschließen, die keinen Benutzerkontext benötigen (Kategorien, Kurse und Lernpfade, Inhaltsfeld, HTML, iframe), während das System benutzerspezifische Widgets ausblendet.
+- **Adaptives Seitenverhalten konfigurieren**: Sie entscheiden, ob eine Seite sowohl für angemeldete als auch für nicht angemeldete Benutzer angezeigt wird und das System die sichtbaren Widgets und Inhalte basierend auf dem Anmeldestatus anpasst.
+- **Vorschau beider Erlebnisse**: Sie können Vorschauoptionen verwenden, um zu sehen, wie Seiten nach angemeldeten und nicht angemeldeten Benutzern suchen, wobei Unterschiede in der Sichtbarkeit und dem Inhalt von Widgets bestehen.
+- **Globale Suche aktivieren**: Besucher suchen nach Kursen und Inhalten, erhalten aber nur grundlegende Suchfunktionen ohne erweiterte KI-Integration.
+- **Besucher den Katalog und die Kursübersichten durchsuchen lassen**: Besucher sehen sich Katalogseiten, Kursdetails und Instanzen an, müssen sich jedoch anmelden, um sich zu registrieren oder auf personalisierte Funktionen zuzugreifen.
+- **Branding und Lokalisierung anpassen**: Sie legen die Favicons und Spracheinstellungen fest, um sie an das Branding und die Barrierefreiheit Ihrer Organisation anzupassen.
+- **Verbindung für den Zugriff auf Schulungsdaten aktivieren**: Sie aktivieren diese Verbindung, um Kurs-Metadaten zur öffentlichen Anzeige zu exportieren und nicht angemeldete Seiten auf dem neuesten Stand zu halten.
+- **Verarbeitung von hohem Datenverkehr mit gemeinsam genutzter Infrastruktur**: Das System verwaltet große Mengen anonymer Besucher mithilfe gemeinsam genutzter Ressourcen und der Ratenbegrenzung.
+- **Für SEO optimieren**: Die Plattform bereitet öffentliche Engine für die Suchmaschinen-Indexierung vor, sodass Ihre Lerninhalte leichter zu finden sind.
 
 ## Voraussetzungen für nicht angemeldetes Erlebnis
 
-- Sie müssen den Connector für den Zugriff auf Schulungsdaten im Integrationsadministrator aktivieren, bevor Sie die nicht angemeldete Erfahrung verwenden können.
-- Der Connector exportiert Kurs-Metadaten in ein öffentliches Repository, wodurch nicht angemeldete Seiten aktualisiert werden.
+- Sie müssen die Verbindung für den Zugriff auf Schulungsdaten im Integrationsadministrator aktivieren, bevor Sie die nicht angemeldete Erfahrung verwenden können.
+- Die Verbindung exportiert Kurs-Metadaten in ein öffentliches Repository, wodurch nicht angemeldete Seiten aktualisiert werden.
 
-### TDA-Connector-Initialisierung
+### Initialisierung der TDA-Verbindung
 
-Der Connector für den Training Data Access (TDA) ist eine wichtige Voraussetzung für die Aktivierung der neuen Funktion &quot;Experience Builder&quot;, die nicht angemeldet ist, in ALM. Dieser Connector erleichtert den Export von Schulungsmetadaten, sodass Ihr Portal Kursinformationen für nicht angemeldete Benutzer anzeigen kann.
+Die Verbindung für den Zugriff auf Schulungsdaten (TDA) ist eine wichtige Voraussetzung für die Aktivierung der neuen nicht angemeldeten Experience Builder-Funktion in ALM. Diese Verbindung erleichtert den Export von Schulungsmetadaten, sodass Ihr Portal Kursinformationen für nicht angemeldete Benutzer anzeigen kann.
 
-- **Connector-Aktivierung**: Sie müssen den TDA-Connector über das Integrations-Admin-Fenster aktivieren. Durch diesen Schritt wird die nicht angemeldete Experience Builder-Funktion freigeschaltet und die relevanten UI-Optionen werden auf der Administratoroberfläche angezeigt.
-- **Metadatenexport**: Nach der Aktivierung exportiert der Connector wichtige Schulungsmetadaten (z. B. Kursname, Beschreibung, Übersicht, Bewertung, Dauer und Kenntnisse) aus ALM in ein öffentliches Repository. Diese Daten werden verwendet, um nicht angemeldete Seiten und Widgets aufzufüllen.
+- **Aktivierung der Verbindung**: Sie müssen die TDA-Verbindung im Integrationsadministrator-Bedienfeld aktivieren. Durch diesen Schritt wird die nicht angemeldete Experience Builder-Funktion freigeschaltet und die relevanten UI-Optionen werden auf der Administratoroberfläche angezeigt.
+- **Metadatenexport**: Nach der Aktivierung exportiert die Verbindung wichtige Schulungsmetadaten (z. B. Kursname, Beschreibung, Übersicht, Bewertung, Dauer und Kenntnisse) aus ALM in ein öffentliches Repository. Diese Daten werden verwendet, um nicht angemeldete Seiten und Widgets aufzufüllen.
 - **Planung und Synchronisierung**: Der Exportvorgang kann (z. B. täglich) geplant werden, um sicherzustellen, dass Ihr Portal die neuesten Kursupdates enthält. Änderungen, die in ALM vorgenommen wurden, werden abhängig von der Zwischenspeicherung und der Exportfrequenz nach dem nächsten Exportzyklus auf den nicht angemeldeten Seiten angezeigt.
-- **Verfügbarkeit von Funktionen**: Auf die nicht angemeldeten Funktionen von Experience Builder, einschließlich Menüerstellung, Widget-Unterstützung und Katalogsichtbarkeit, kann erst nach der Initialisierung des TDA-Connectors zugegriffen werden. Wenn der Connector nicht aktiviert ist, bleibt Ihr Experience Builder auf angemeldete Benutzerszenarien beschränkt.
-- **Migration und Support**: Bei Konten, die von älteren, nicht angemeldeten Homepage-Funktionen wechseln, ist die Initialisierung des TDA-Connectors der erste Schritt zur Migration. Sie stellt sicher, dass Sie die Flexibilität und die erweiterten Funktionen des neuen Experience Builder nutzen können.
+- **Verfügbarkeit der Funktionen**: Auf die nicht angemeldeten Experience Builder-Funktionen, einschließlich Menüerstellung, Widget-Unterstützung und Katalogsichtbarkeit, kann erst nach der Initialisierung der TDA-Verbindung zugegriffen werden. Wenn die Verbindung nicht aktiviert ist, bleibt Ihr Experience Builder auf angemeldete Benutzerszenarien beschränkt.
+- **Migration und Support**: Bei Konten, die von älteren nicht angemeldeten Homepage-Funktionen wechseln, ist die Initialisierung der TDA-Verbindung der erste Schritt auf dem Weg zur Migration. Sie stellt sicher, dass Sie die Flexibilität und die erweiterten Funktionen des neuen Experience Builder nutzen können.
 
 ## Was Besucher ohne Anmeldung tun können
 
@@ -101,7 +99,7 @@ Widgets, die Benutzerkontext benötigen, wie &quot;Eigenes Lernen&quot;, &quot;K
 ## Seiten und Menüs ohne angemeldeten Benutzer
 
 - Es wird nur ein nicht angemeldetes Menü unterstützt, das für alle Besucher ohne Authentifizierung sichtbar ist.
-- Seiten können sowohl angemeldeten als auch nicht angemeldeten Menüs hinzugefügt werden. Befindet sich eine Seite in beiden Menüs, werden Widgets und Inhalte entsprechend dem Anmeldestatus des Benutzers angepasst.
+- Seiten können sowohl angemeldeten als auch nicht angemeldeten Menüs hinzugefügt werden. Wenn sich eine Seite in beiden befindet, werden ihre Widgets und Inhalte basierend auf dem Anmeldestatus des Benutzers angepasst.
 - Nicht angemeldete Menüs bieten kein Zielgruppen-Targeting oder keine Personalisierung. Jeder sieht den gleichen Satz von Seiten.
 - Widgets, die im nicht angemeldeten Modus nicht unterstützt werden, werden automatisch ausgeblendet. Das Seitenlayout wird angepasst, um Lücken zu füllen.
 - Die Menü- und Seitenverwaltung (Hinzufügen, Vorschau, Löschen) ähnelt dem angemeldeten Modus, weist jedoch Anpassungen für nicht angemeldete Einschränkungen auf.
@@ -114,12 +112,12 @@ Wenn ein Benutzer versucht, sich zu registrieren, muss er sich zuerst anmelden. 
 
 ## Technische Umsetzung
 
-### Einrichtung des Schulungsdatenzugriffs-Connectors
+### Einrichtung der Verbindung für den Zugriff auf Schulungsdaten
 
-Sie müssen den Connector für den Zugriff auf die Schulungsdaten im Admin-Bereich der Integration aktivieren, bevor Sie die Funktion &quot;Experience Builder&quot; verwenden können, bei der Sie nicht angemeldet sind. Dieser Connector exportiert Schulungsmetadaten aus ALM in ein öffentliches Repository, sodass sie über APIs für Ihre nicht angemeldeten Seiten zugänglich sind. Das Connector-Setup ist eine Voraussetzung für die Aktivierung der Funktion und stellt sicher, dass Ihr Portal aktuelle Schulungsinformationen anzeigt.
+Sie müssen die Verbindung für den Zugriff auf die Schulungsdaten im Integrations-Admin-Bereich aktivieren, bevor Sie die nicht angemeldete Experience Builder-Funktion verwenden können. Diese Verbindung exportiert Schulungsmetadaten aus ALM in ein öffentliches Repository, sodass sie über APIs für Ihre nicht angemeldeten Seiten zugänglich sind. Die Einrichtung der Verbindung ist eine Voraussetzung für die Aktivierung der Funktion und stellt sicher, dass Ihr Portal aktuelle Schulungsinformationen anzeigt.
 
 Metadatenexport und -synchronisierung\
-Der Connector exportiert wichtige Metadatenfelder wie Kursname, Übersicht, Beschreibung, Bewertung, Dauer und Kenntnisse. Sie können Exporte (z. B. täglich) planen, damit Ihr Portal mit ALM synchronisiert ist. Nicht alle Metadatenfelder können einbezogen werden. Eine vollständige Liste erhalten Sie vom Engineering. Exportierte Daten werden zum Ausfüllen nicht angemeldeter Seiten verwendet, und Änderungen in ALM werden nach dem nächsten Exportzyklus angezeigt.
+Die Verbindung exportiert wichtige Metadatenfelder wie Kursname, Übersicht, Beschreibung, Bewertung, Dauer und Kenntnisse. Sie können Exporte (z. B. täglich) planen, damit Ihr Portal mit ALM synchronisiert ist. Es können nicht alle Metadatenfelder einbezogen werden. eine vollständige Liste finden Sie unter Engineering. Exportierte Daten werden zum Ausfüllen nicht angemeldeter Seiten verwendet, und Änderungen in ALM werden nach dem nächsten Exportzyklus angezeigt.
 
 Zwischenspeichern und Exporthäufigkeit\
 Das System verwendet die Exportfrequenz des Backends und das Frontend-Caching, um Datenaktualisierungen zu verwalten. Änderungen, die in ALM vorgenommen wurden, werden nach der geplanten Aktualisierung von Export und Cache auf Ihrem Portal widergespiegelt. Einige Updates werden aufgrund dieser Mechanismen möglicherweise nicht sofort angezeigt. Wenn Sie schnellere Updates benötigen, passen Sie den Exportplan an oder leeren Sie den Cache nach Bedarf.
@@ -128,20 +126,20 @@ Unterstützung für CSS/JS-Anpassung\
 Auf der Registerkarte &quot;Anpassung&quot; können Sie benutzerdefinierte CSS- und JavaScript-Einstellungen für angemeldete und nicht angemeldete Seiten vornehmen. Auf diese Weise könnt ihr ein konsistentes Branding gewährleisten, benutzerdefinierte UI-Elemente hinzufügen und die User Experience im gesamten Portal verbessern. Alle Anpassungen werden global angewendet, um ein einheitliches Erscheinungsbild zu gewährleisten.
 
 URL-Unterschiede und Branding (Favoritensymbol, Seitentitel)\
-Nicht angemeldete und angemeldete Seiten können unterschiedliche URLs haben, um Benutzerstatus zu unterscheiden. Du kannst Favoritensymbol und Seitentitel für dein Portal anpassen, um deine Markenidentität zu stärken. Diese Funktionen sind in Experience Builder verfügbar. Wenden Sie sich an das Engineering, um den neuesten Status bezüglich des nicht angemeldeten Supports zu erfahren.
+Nicht angemeldete und angemeldete Seiten können unterschiedliche URLs haben, um Benutzerstatus zu unterscheiden. Du kannst Favoritensymbol und Seitentitel für dein Portal anpassen, um deine Markenidentität zu stärken. Diese Funktionen sind in Experience Builder verfügbar. Informieren Sie sich beim Engineering über den neuesten Status des nicht angemeldeten Supports.
 
 ## Performance und Skalierbarkeit
 
-### Gemeinsam genutzter Stack im Vergleich zu Premium Stack
+### Gemeinsam genutzter Stapel im Vergleich zu Premium-Stapel
 
-Der gemeinsam genutzte Stack ermöglicht es mehreren Kunden, den nicht angemeldeten Experience Builder in einer gemeinsamen Infrastruktur zu verwenden und so Standard-Traffic-Level zu unterstützen. Der Premium-Stack ist eine kostenpflichtige Option, die dedizierte Ressourcen, Echtzeitfunktionen und höhere Lizenzbeschränkungen für Kunden mit erweiterten Anforderungen bietet. Wählen Sie den Stapel basierend auf dem erwarteten Traffic und den Geschäftsanforderungen aus.
+Der gemeinsam genutzte Stapel ermöglicht es mehreren Kunden, den nicht angemeldeten Experience Builder in einer gemeinsamen Infrastruktur zu verwenden und so Standard-Traffic-Level zu unterstützen. Der Premium-Stapel ist eine kostenpflichtige Option, die dedizierte Ressourcen, Echtzeitfunktionen und höhere Lizenzbeschränkungen für Kunden mit erweiterten Anforderungen bietet. Wählen Sie den Stapel basierend auf dem erwarteten Traffic und den Geschäftsanforderungen aus.
 
 ### Verkehrsbeschränkungen und Gebührenbegrenzung
 
-Der gemeinsam genutzte Stack erzwingt Verkehrsbeschränkungen, um eine faire Nutzung unter den Kunden zu gewährleisten. Das Engineering implementiert Ratenbegrenzungen, um zu verhindern, dass ein einzelner Kunde alle Ressourcen verbraucht. Wenn ihr Marketing-Kampagnen plant oder hohe Traffic-Zahlen erwartet, stimmt euch mit der technischen Abteilung ab, um eure Grenzen zu kennen und Unterbrechungen von Services zu vermeiden. Mithilfe der Ratenbegrenzung können Systemstabilität und -leistung für alle Benutzer gewährleistet werden.
+Der gemeinsam genutzte Stapel erzwingt Verkehrsbeschränkungen, um eine faire Nutzung unter den Kunden zu gewährleisten. Das Engineering implementiert Ratenbegrenzungen, um zu verhindern, dass ein einzelner Kunde alle Ressourcen verbraucht. Wenn ihr Marketing-Kampagnen plant oder hohe Traffic-Zahlen erwartet, stimmt euch mit der technischen Abteilung ab, um eure Grenzen zu kennen und Unterbrechungen von Services zu vermeiden. Mithilfe der Ratenbegrenzung können Systemstabilität und -leistung für alle Benutzer gewährleistet werden.
 
 Überlegungen zu Mehrmandantenfähigkeit und SEO\
-Die Plattform unterstützt mehrere Mandanten, sodass mehrere Kunden ihre Portale in einer gemeinsam genutzten Infrastruktur hosten können. Nicht angemeldete Seiten sind SEO-freundlich, zusammen mit sitemap.xml und robots.txt, um die Sichtbarkeit von Suchmaschinen zu optimieren. Dadurch wird sichergestellt, dass Ihr Portal von Suchmaschinen erkannt und entsprechend indiziert werden kann.
+Die Plattform unterstützt mehrere Mandanten, sodass mehrere Kunden ihre Portale in einer gemeinsam genutzten Infrastruktur hosten können. Nicht angemeldete Seiten sind SEO-freundlich, zusammen mit sitemap.xml und robots.txt, um die Sichtbarkeit von Suchergebnissen zu optimieren Engine. Dadurch wird sichergestellt, dass Ihr Portal erkannt und von Suchmaschinen-Enginen entsprechend indiziert werden kann.
 
 ## Migration und Abschaffung
 
@@ -164,7 +162,7 @@ Das nicht angemeldete Erlebnis unterstützt alle in ALM verfügbaren Anmeldetype
 
 ### Admin-Lernobjekt-API
 
-Nicht angemeldete Experience Builder-Seiten und Headless-Portale organisieren oder filtern Kurse oft nach Produkten und Rollen. Die Admin LO-API wurde verbessert, um sicherzustellen, dass diese Verknüpfungen für Backend- und Headless-Integrationen sowie für den TDA-Connector konsistent zugänglich sind.
+Nicht angemeldete Experience Builder-Seiten und Headless-Portale organisieren oder filtern Kurse oft nach Produkten und Rollen. Die Admin LO-API wurde verbessert, um sicherzustellen, dass diese Verknüpfungen für Backend- und Headless-Integrationen sowie für die TDA-Verbindung konsistent zugänglich sind.
 
 **Endpunkt und Verhalten**
 
@@ -175,16 +173,16 @@ GET /primeapi/v2/learningObjects/{loId}?enforcedFields[learningObject]=products,
 
 Dabei gilt:
 
-- loId ist die Lernobjekt-ID (z. B. Kurs:12345).
+- loId ist die Lernobjekt-ID (z. B. course:12345).
 - enforcedFields[learningObject] weist die API an, Produkte und Rollen für dieses LO explizit einzuschließen.
 
-Dies wird dadurch erreicht, dass sichergestellt wird, dass die Produkt- und Rollenzuordnungen des LO in der Antwort vorhanden sind, wenn sie über enforcedFields angefordert werden. Die Antwort enthält dann in Attributen die Produkt- und Rollenmetadaten, die zum Berechnen oder Verfügbarmachen der empfohlenen Produkte (rec_products) und Rollen (rec_roles) für Experience Builder und andere Benutzer erforderlich sind.
+Dies wird dadurch erreicht, dass sichergestellt wird, dass die Produkt- und Rollenzuordnungen des LO in der Antwort vorhanden sind, wenn sie über enforcedFields angefordert werden. Die Antwort enthält dann die Produkt- und Rollen-Metadaten, die erforderlich sind, um die empfohlenen Produkte (rec_products) und Rollen (rec_roles) für Experience Builder und andere Endanwender zu berechnen oder legen.
 
 Ein typischer Anruf von einem Administrator oder einer Integration sieht wie folgt aus:
 
 curl -X GET \
   &quot;https://{your-domain}/primeapi/v2/learningObjects/course:12345?enforcedFields[learningObject]=products,roles&quot; \
-  -H &quot;Autorisierung: Träger {admin_token}&quot; \
+  -H &quot;Zulassung: Träger {admin_token}&quot; \
   -H &quot;Akzeptieren: application/vnd.api+json&quot;
 
 Die zurückgegebene LO-JSON-Datei ist dieselbe Grundstruktur wie zuvor, aber jetzt können Sie sich darauf verlassen, dass Produkt-/Rollenfelder vorhanden sind, wenn Sie sie mit enforcedFields anfordern. Integrationen, die keine erzwungenen Felder verwenden, verhalten sich weiterhin wie zuvor.
@@ -193,7 +191,7 @@ Die zurückgegebene LO-JSON-Datei ist dieselbe Grundstruktur wie zuvor, aber jet
 
 **Zweck**
 
-Der TDA-Connector (Training Data Access) und Headless-Implementierungen müssen häufig eine inkrementelle Synchronisierung ausführen, basierend auf dem **Datum der effektiven Änderung** der Lernobjekte. Bis zu dieser Version wurden JobAids (LO-Typ jobAid) nicht korrekt behandelt, wenn sie mit den Filtern effectModifiedDate kombiniert wurden. Diese Version behebt dies, sodass JobAids inkrementell synchronisiert werden können, genau wie Kurse und Lernpfade.
+Die TDA-Verbindung (Training Data Access) und Headless-Implementierungen müssen häufig eine inkrementelle Synchronisierung durchführen, die auf dem **Gültigkeitsdatum der Änderung** der Lernobjekte basiert. Bis zu dieser Version wurden JobAids (LO-Typ jobAid) nicht korrekt behandelt, wenn sie mit den Filtern effectModifiedDate kombiniert wurden. Diese Version behebt dies, sodass JobAids inkrementell synchronisiert werden können, genau wie Kurse und Lernpfade.
 
 **Endpunkt und Verhalten**
 
@@ -259,7 +257,7 @@ Ab dieser Aktualisierung gibt der Aufruf nur noch JobAid-Lernobjekte zurück, de
 
 Dies bedeutet, dass Sie jetzt inkrementelle JobAid-Synchronisationen auf der Grundlage von effectModifiedDate sicher implementieren können, wie Sie es bereits bei anderen Typen tun.
 
-Wenn Sie filter.loTypes=jobAid weglassen, bleibt das Verhalten für andere LO-Typen unverändert. Die Änderung wirkt sich nur auf die Kombination von JobAid mit diesem Filter aus.
+Wenn Sie filter.loTypes=jobAid auslassen, bleibt das Verhalten für andere LO-Typen unverändert. Die Änderung wirkt sich nur auf die Kombination von JobAid mit diesem Filter aus.
 
 ### **Menü-API: Nicht angemeldeter Menüfilter**
 
@@ -285,7 +283,7 @@ In der Praxis kann ein Kunde jetzt Folgendes ausstellen:
 
 curl -X GET \
   &quot;https://{your-domain}/primeapi/v2/templates/menus?include=pages,subMenus.pages&amp;isNonLoggedIn=true&quot; \
-  -H &quot;Autorisierung: Träger {admin_token}&quot; \
+  -H &quot;Zulassung: Träger {admin_token}&quot; \
   -H &quot;Akzeptieren: application/vnd.api+json&quot;
 
 
@@ -307,17 +305,17 @@ Wenn Sie eine benutzerdefinierte Domäne einführen, funktioniert diese nahtlos,
 Bevor Sie eine benutzerdefinierte Domäne für nicht angemeldete Benutzer auf die Positivliste setzen:
 
 1. Die benutzerdefinierte Domäne wird für Ihr ALM-Konto konfiguriert (z. B. verweist DNS für academy.yourcompany.com auf Adobe/Akamai und es werden Zertifikate bereitgestellt).
-2. Der **TDA-Connector (Training Data Access)** ist für das Konto aktiviert.
+2. Die **TDA-Verbindung (Training Data Access)** ist für das Konto aktiviert.
 3. Die **nicht angemeldete Experience Builder**-Funktion ist aktiviert (Adobe-seitig).
 
 Mit diesen Schritten wird sichergestellt, dass
 
 - Ihr Konto verfügt über eine nicht angemeldete **Konto-JSON** (häufig als accountConfig / experienceBuilderConfig bezeichnet), die Felder wie cpDomain, almDomain, almCdnBaseUrl, esBaseUrl und zugelassenen Domänen enthält.
-- Der nicht angemeldete Stapel weiß, wo Daten bereitgestellt werden sollen und von welchen Domänen Anfragen angenommen werden sollen.
+- Der nicht angemeldete Stapel weiß, wo er Daten bereitstellen soll und von welchen Domänen er Anfragen annehmen soll.
 
 ### Funktionsweise der Zulassungsliste
 
-Die Zulassungsliste wird in der Konfiguration gespeichert, die TDA exportiert, und der nicht angemeldete Stack liest. Diese Konfiguration umfasst:
+Die Zulassungsliste wird in der Konfiguration gespeichert, die TDA exportiert und der nicht angemeldete Stapel liest. Diese Konfiguration umfasst:
 
 - Die ALM-Domänen (cpDomain, almDomain).
 - Die **CDN-Basis-URL** für nicht angemeldeten Inhalt (almCdnBaseUrl).
@@ -329,7 +327,7 @@ Damit Experience Builder, der nicht angemeldet ist, in einer benutzerdefinierten
 - Der Browser muss die nicht angemeldete HTML von dieser benutzerdefinierten Domäne (oder von der nicht angemeldeten ALM-CDN-Domäne, je nach Einrichtung) laden.
 - Aufrufe von dieser Domäne an die öffentlichen ES- und CDN-Endpunkte müssen akzeptiert werden. Dies geschieht nur, wenn die Domäne in der Zulassungsliste vorhanden ist.
 
-Diese Version fügt eine neue, nicht angemeldete CDN-Domäne cpcontents.adobe.com hinzu und gibt an, dass sie in die **zugelassenen Domänen** im TDA-Connector platziert werden muss. Für vorhandene nicht angemeldete native Benutzer ist hierfür ein Update erforderlich.
+Diese Version fügt eine neue, nicht angemeldete CDN-Domäne cpcontents.adobe.com hinzu und gibt an, dass sie in die **zugelassenen Domänen** in der TDA-Verbindung platziert werden muss. Für vorhandene nicht angemeldete native Benutzer ist hierfür ein Update erforderlich.
 
 ### Benutzerdefinierte Domäne zulassen
 
@@ -343,28 +341,29 @@ An diesem Punkt kann sowohl angemeldeter als auch nicht angemeldeter Datenverkeh
 
 Voraussetzungen:
 
-- Der **Schulungsdatenzugriffsconnector** ist aktiviert.
+- Die **Verbindung für den Zugriff auf Schulungsdaten** ist aktiviert.
 - Die **nicht angemeldete Experience Builder**-Funktion ist für das Konto aktiviert.
 
 Durch Aktivieren von TDA wird die JSON-Datei des nicht angemeldeten Kontos erstellt oder aktualisiert. Bei neuen Konten wird im Prozess standardmäßig auch die neue nicht angemeldete CDN-Domäne (cpcontent.adobe.com) auf die Zulassungsliste gesetzt, sodass der öffentliche ES-Endpunkt Aufrufe von dieser Domäne erwartet.
 
-Bei Konten, die bereits den älteren nicht angemeldeten Stapel verwendet haben, wird in der M45-Spezifikation darauf hingewiesen, dass vorhandene Connectors gelöscht und neu erstellt werden müssen, um die neue Domäne zu übernehmen.
+Bei Konten, die bereits den älteren nicht angemeldeten Stapel verwendet haben, wird in der M45-Spezifikation darauf hingewiesen, dass bestehende Verbindungen gelöscht und neu erstellt werden müssen, um die neue Domäne zu übernehmen.
 
 **Benutzerdefinierte Domäne zur Zulassungsliste hinzufügen**
 
-Entscheidend ist, dem nicht angemeldeten ES-Stack mitzuteilen, dass academy.yourcompany.com ein genehmigter Ursprung ist. Es gibt zwei gemeinsame Pfade.
+Entscheidend ist, dem nicht angemeldeten ES-Stapel mitzuteilen, dass es sich bei academy.yourcompany.com um einen zugelassenen Herkunftsort handelt. Es gibt zwei gemeinsame Pfade.
 
-1. **TDA-Connector wieder aktivieren (einfach, Self-Service-freundlich)**
+1. **TDA-Verbindung erneut aktivieren (einfach, Self-Service-freundlich)**
 
-Das Experience Builder M45-Wiki erklärt, dass bestehende native nicht angemeldete Benutzer die TDA-Verbindung löschen und wieder aktivieren müssen, damit die neue Domäne automatisch auf die Zulassungsliste gesetzt wird. Damit werden zwei Dinge erreicht:
-1. Die JSON-Datei für das nicht angemeldete Konto wird neu generiert.
-2. Die zugelassenen Domänen werden aktualisiert, um die neue, nicht angemeldete CDN-Domäne und Ihre benutzerdefinierte Domäne aufzunehmen.
+   Bestehende native nicht angemeldete Benutzer müssen die TDA-Verbindung löschen und erneut aktivieren, damit die neue Domäne automatisch auf die Zulassungsliste gesetzt wird. Damit werden zwei Dinge erreicht:
 
-Dies wird empfohlen, wenn Sie eine kleine Anzahl von Konten haben und es zulassen können, dass der Connector vorübergehend deaktiviert und wieder aktiviert wird.
+   * Die JSON-Datei für das nicht angemeldete Konto wird neu generiert.
+   * Die auf der Zulassungsliste aufgeführten Domänen werden aktualisiert, um die neue, nicht angemeldete CDN-Domäne und Ihre benutzerdefinierte Domäne einzubeziehen.
 
-1. **Überprüfen Sie, ob die Domäne tatsächlich auf die Zulassungsliste gesetzt ist**
+   Dies wird empfohlen, wenn Sie über eine kleine Anzahl von Konten verfügen und es zulassen können, dass die Verbindung vorübergehend deaktiviert und wieder aktiviert wird.
 
-Öffnen Sie nach der Zulassungsauflistung Ihre nicht angemeldete Site in der benutzerdefinierten Domäne und überprüfen Sie die Browsernetzwerkaufrufe.
+2. **Überprüfen Sie, ob die Domäne tatsächlich auf die Zulassungsliste gesetzt ist**
+
+   Öffnen Sie nach der Zulassungsauflistung Ihre nicht angemeldete Site in der benutzerdefinierten Domäne und überprüfen Sie die Browsernetzwerkaufrufe.
 
 Sie möchten Folgendes sehen:
 
@@ -373,27 +372,27 @@ Sie möchten Folgendes sehen:
 
 Wenn diese Aufrufe 4xx oder explizite Fehler zurückgeben, die &quot;nicht vertrauenswürdige Domäne&quot; oder &quot;Ursprung nicht zulässig&quot; nahe legen, ist die Zulassungsliste unvollständig oder falsch konfiguriert, und der Support muss sie anpassen.
 
-Die nicht angemeldete LLD stellt außerdem fest, dass die Kontokonfiguration einen erwarteten Domänenwert enthalten kann. Zur Laufzeit überprüft die Site, ob die Domäne in der URL mit dem in der Konfiguration festgelegten Wert übereinstimmt. Ist dies nicht der Fall, kann der Benutzer zu einer Fehlerseite umgeleitet werden. Dies schützt vor dem Zugriff auf die Konfiguration eines Kunden über die Domäne eines anderen Kunden.
+Die nicht angemeldete LLD stellt außerdem fest, dass die Kontokonfiguration einen erwarteten Domänenwert enthalten kann. Zur Laufzeit überprüft die Site, ob die Domäne in der URL mit dem übereinstimmt, was in der Konfiguration festgelegt wurde. Wenn dies nicht der Fall ist, kann der Benutzer zu einer Fehlerseite umgeleitet werden. Dies schützt vor dem Zugriff auf die Konfiguration eines Kunden über die Domäne eines anderen Kunden.
 
 ## Verwendung von Empfehlungen in Experience Builder ohne Anmeldung
 
 Mit dem nicht angemeldeten Experience Builder können Sie öffentliche Lernseiten erstellen, auf denen Besucher Ihren Katalog durchsuchen und markierte Inhalte anzeigen können, bevor sie sich anmelden. Auch wenn diese Besucher anonym sind, können Sie empfohlene Schulungen mithilfe von Metadaten und Widgets darstellen.
 
-In der angemeldeten Teilnehmer-App können Empfehlungen personalisiert werden: Sie können vom Profil, dem Verlauf, den Kenntnissen und dem Fortschritt des Teilnehmers abhängen. Im **nicht angemeldeten**-Erlebnis ist noch keine Teilnehmeridentität vorhanden, daher kann die Plattform nicht pro Benutzer personalisiert werden.
+In der angemeldeten Teilnehmer-App können Empfehlungen personalisiert werden: können sie vom Profil, dem Verlauf, den Kenntnissen und dem Fortschritt des Teilnehmers abhängen. Im **nicht angemeldeten**-Erlebnis ist noch keine Teilnehmeridentität vorhanden, daher kann die Plattform nicht pro Benutzer personalisiert werden.
 
 Recommendations im nicht angemeldeten Modus sind daher:
 
 - **Kuratiert oder regelbasiert**: basierend auf Katalog, Produkt, Rolle, Beschriftungen, Tags und anderen Metadaten.
-- **Segmentorientiert**: &quot;Für Entwickler empfohlen&quot;, &quot;Für Partner empfohlen&quot;, &quot;Für Anfänger empfohlen&quot;.
-- **Marketing-orientiert**: Ermöglicht es Besuchern, sich anzumelden, nachdem sie sich angemeldet haben.
+- **Segmentorientiert**: &quot;recommended for developers&quot;, &quot;recommended for partners&quot;, &quot;featured for beginners&quot;.
+- **Marketing-orientiert**: verwendet, um Besucher zu gewinnen und zu führen, sich anzumelden, sobald sie sich anmelden.
 
 ### Metadaten und APIs, die Empfehlungen unterstützen
 
-Hinter den Kulissen verwenden nicht angemeldete Seiten Folgendes:
+Hinter den Szenen verwenden nicht angemeldete Seiten Folgendes:
 
-- Der **TDA-Connector** zum Exportieren von Lernobjektmetadaten (Kurse, Pfade, Zertifizierungen, Arbeitshilfen) in einen öffentlichen Suchindex.
-- Der **öffentliche Suchstapel** zum Beantworten von Abfragen aus nicht angemeldeten Widgets (Katalog, Suche, Kurse und Pfade, Kategorien).
-- Die **API für Admin-Lernobjekte** zum Verfügbarmachen von Produkt- und Rollenmetadaten, die für Empfehlungsregeln verwendet werden können.
+- Die **TDA-Verbindung** zum Exportieren von Lernobjektmetadaten (Kurse, Pfade, Zertifizierungen, Arbeitshilfen) in einen öffentlichen Suchindex.
+- Der **Stapel für die öffentliche Suche** zum Beantworten von Abfragen aus nicht angemeldeten Widgets (Katalog, Suche, Kurse und Pfade, Kategorien).
+- Die **API für Admin-Lernobjekte**, um Produkt- und Rollenmetadaten legen, die für Empfehlungsregeln verwendet werden können.
 
 In dieser Version wurde die Admin LO-API erweitert, sodass Produkt- und Rollenzuordnungen zuverlässig verfügbar sind:
 
@@ -407,7 +406,7 @@ Sie erstellen Empfehlungsabschnitte auf nicht angemeldeten Seiten, indem Sie **E
 
 #### **Widget für Kurse und Pfade**
 
-Verwenden Sie das Widget **Kurse und Pfade**, wenn Sie eine Zeile oder ein Raster mit empfohlenen Elementen anzeigen möchten. In der Konfiguration können Sie wählen:
+Verwenden Sie das Widget **Kurse und Pfade**, wenn Sie eine Zeile oder einen Raster mit empfohlenen Elementen anzeigen möchten. In der Konfiguration können Sie wählen:
 
 - Aus welchen Katalogen abgerufen werden soll.
 - Welche Katalogbeschriftungen, Produkte, Rollen oder Tags als Filter verwendet werden sollen.
@@ -416,11 +415,11 @@ Verwenden Sie das Widget **Kurse und Pfade**, wenn Sie eine Zeile oder ein Raste
 
 Beispielsweise können Sie Folgendes erstellen:
 
-- &quot;Für Entwickler empfohlen&quot;: Filtert nach einem Produkt oder einer Rolle, die Sie für den Entwicklerinhalt verwenden.
-- &quot;Hier starten&quot;: Filtern Sie nach einer Beschriftung wie &quot;Starter&quot; oder &quot;Onboarding&quot;.
-- &quot;Empfohlen in diesem Quartal&quot;: Filtert nach einem zeitgebundenen Label wie featured-q3-2026.
+- &quot;Empfohlen für Entwickler&quot;: nach einem Produkt oder einer Rolle filtern, die Sie für den Entwicklerinhalt verwenden.
+- &quot;Hier starten&quot;: nach einer Bezeichnung wie &quot;Starter&quot; oder &quot;Onboarding&quot; filtern.
+- &quot;Vorgestellt in diesem Quartal&quot;: nach einem zeitgebundenen Label wie featured-q3-2026.
 
-Das Widget lernt nicht vom Verhalten, sondern zeigt an, welche Übereinstimmungen mit den von Ihnen definierten Metadatenregeln bestehen. Aus Sicht des Besuchers sieht es jedoch wie ein Empfehlungsstreifen aus.
+Das Widget lernt nicht vom Verhalten. wird angezeigt, was mit den von Ihnen definierten Metadatenregeln übereinstimmt. Aus Sicht des Besuchers sieht es jedoch wie ein Empfehlungsstreifen aus.
 
 #### **Kategorien-Widget**
 
@@ -482,17 +481,17 @@ Auf der **Benutzeroberfläche** nehmen Arbeitshilfen hauptsächlich über Widget
 Auf einer öffentlichen Landingpage können Sie beispielsweise einen Streifen mit dem Titel &quot;Hilfreiche Ressourcen&quot; konfigurieren, der nur Arbeitshilfen anzeigt, und einen anderen Streifen mit dem Titel &quot;Empfohlene Kurse&quot;, der Kurse und Pfade anzeigt.
 
 1. **Katalogseite und Suche**\
-   Die nicht angemeldeten Oberflächen **catalog** und **search** verwenden den öffentlichen Suchindex (gespeist vom Connector für den Zugriff auf Schulungsdaten). Dieser Index unterstützt Arbeitshilfen jetzt korrekt. Gehen Sie deshalb wie folgt vor:
+   Die nicht angemeldeten Flächen **catalog** und **search** verwenden den öffentlichen Suchindex (der von der Verbindung für den Zugriff auf Schulungsdaten gespeist wird). Dieser Index unterstützt Arbeitshilfen jetzt korrekt. Gehen Sie deshalb wie folgt vor:
    1. Nicht angemeldete Suchergebnisse können Arbeitshilfen enthalten.
    2. Nicht angemeldete Katalogfilter (nach Typ, Produkt, Tags usw.) können Arbeitshilfen beinhalten, solange Ihre Kontokonfiguration und Widgets so eingerichtet sind, dass sie angezeigt werden.
 2. **LO-Übersichtsseiten**\
    Wenn ein Besucher auf eine Arbeitshilfe aus einem beliebigen Widget oder aus dem Katalog klickt, wird eine **LO-Übersichtsseite** für diese Arbeitshilfe im nicht angemeldeten Modus aufgerufen. Dort können sie die Beschreibung und die Metadaten lesen. Für den tatsächlichen Download oder Verbrauch ist in der Regel noch eine Anmeldung erforderlich, aber das Vorhandensein und die Auffindbarkeit der Arbeitshilfe selbst wird durch das nicht angemeldete Erlebnis gehandhabt.
 
-### Anzeige von Arbeitshilfen über nicht angemeldete APIs
+### Leg von Arbeitshilfen durch nicht angemeldete APIs
 
 Auf der **API-Seite** werden Arbeitshilfen unterstützt von:
 
-1. Der **Schulungsdatenzugriffsconnector und die öffentliche Suche**\
+1. **Verbindung für den Zugriff auf Schulungsdaten und öffentliche Suche**\
    TDA exportiert Arbeitshilfemetadaten zusammen mit anderen LO-Typen in den öffentlichen Suchindex, der nicht angemeldete Such- und Katalogabfragen bereitstellt. Darauf verlassen sich Experience Builder und Headless-Frontends.
 2. Die Liste der **Lernobjekte mit effektivemÄnderungsdatum**\
    In dieser Version wurde der LO-Listing-Endpunkt korrigiert, sodass Arbeitshilfen mit dem Filter effectModifiedDate ordnungsgemäß funktionieren. Sie können jetzt folgende Telefonnummern anrufen:
@@ -508,10 +507,10 @@ Vor dieser Änderung wurden beim Kombinieren von &quot;effectModifiedDate&quot; 
 1. Ihre TDA- oder ETL-Aufträge können **die Arbeitshilfen** für nicht angemeldete Erlebnisse inkrementell synchronisieren, genau wie bei Kursen und Pfaden.
 2. Jede Headless-Implementierung, die ein öffentliches Verzeichnis für Arbeitshilfen erstellt, kann Änderungen basierend auf effectModifiedDate und loType=jobAid abfragen.
 
-Die Beispielantwort im M45-Dokument zeigt ein learningObject mit loType: &quot;jobAid&quot; und loFormat: &quot;Content&quot;, das zurückgegeben wird, wenn dieses Muster verwendet wird.
+Die Beispielantwort im M45-Dokument zeigt ein learningObject mit loType: &quot;jobAid&quot; und loFormat: Bei Verwendung dieses Musters wird &quot;Inhalt&quot; zurückgegeben.
 
 1. Die **Admin LO-API**\
-   M45 ist zwar nicht spezifisch für nicht angemeldete Benutzer, aktualisiert aber auch die Admin LO-API, um Produkt- und Rollen-Metadaten für alle LO-Typen über Folgendes konsistent anzuzeigen:
+   M45 ist zwar nicht spezifisch für nicht angemeldete Benutzer, aktualisiert aber auch die Admin LO-API, um Produkt- und Rollen-Metadaten für alle LO-Typen konsistent legen:
 
 GET /primeapi/v2/learningObjects/{loId}?enforcedFields[learningObject]=products,roles
 
@@ -522,17 +521,17 @@ Bei Arbeitshilfen bedeutet dies, dass Sie ihre Produkte, Rollen, Labels und Tags
 
 Im Status &quot;nicht angemeldet&quot;:
 
-- Arbeitshilfen sind hauptsächlich **auffindbar**: Besucher können sehen, dass sie vorhanden sind, Beschreibungen lesen und verstehen, wie sie Themen oder Kurse unterstützen.
+- Arbeitshilfen sind hauptsächlich **auffindbar**: können Besucher sehen, dass sie vorhanden sind, Beschreibungen lesen und verstehen, wie sie Themen oder Kurse unterstützen.
 - Die tatsächliche **Nutzung** (das Herunterladen oder Öffnen der Arbeitshilfeinhalte) erfordert in der Regel noch eine Anmeldung, insbesondere wenn Arbeitshilfen als Teil lizenzierter oder interner Inhalte betrachtet werden.
 
 ## Änderungen an &quot;Kurzbeschreibung&quot; in der LO-Suche (nicht angemeldet)
 
-Beim nicht angemeldeten Kurs werden die Suche nach und die Auflistung von Lernobjekten (LOs) durch den Connector für den Zugriff auf Schulungsdaten (TDA) und einen öffentlichen Elasticsearch-Index unterstützt. Früher verwendete dieser Stapel ein einzelnes Übersichts-/Beschreibungsfeld für jedes LO. Kunden, die Headless-Portale ohne angemeldete Benutzer erstellen, wollten auf LO-Kacheln dieselbe kurze Beschreibung anzeigen, die die Benutzeroberfläche des angemeldeten Teilnehmers zeigt, und nicht nur die lange Übersicht.
+Im nicht angemeldeten Stapel werden die Suche und die Auflistung von Lernobjekten (LOs) durch die Verbindung für den Zugriff auf Schulungsdaten (TDA) und einen öffentlichen Elasticsearch unterstützt. Früher verwendete dieser Stapel ein einzelnes Übersichts-/Beschreibungsfeld für jedes LO. Kunden, die Headless-Portale ohne angemeldete Benutzer erstellen, wollten auf LO-Kacheln dieselbe kurze Beschreibung anzeigen, die die Benutzeroberfläche des angemeldeten Teilnehmers zeigt, und nicht nur die lange Übersicht.
 
 Mit der Änderung wird Unterstützung für die LO **Kurzbeschreibung** in APIs für die Suche und die Auflistung ohne angemeldete Benutzer eingeführt:
 
 - Für **Kurse** lauten die vorhandenen Benutzeroberflächensemantiken:
-   - Logged-in-Karten zeigen &quot;Kurzbeschreibung&quot; (140 Zeichen Feld), falls vorhanden, sonst fallen sie auf die lange &quot;Detaillierte Übersicht&quot; zurück.
+  - Logged-in-Karten zeigen &quot;Kurze Beschreibung&quot; (140-Zeichen-Feld), falls vorhanden; ansonsten greifen sie auf den langen &quot;Detailüberblick&quot; zurück.
 - Für **Lernpfade** verwendet die angemeldete Benutzeroberfläche das Feld &quot;Vorteile&quot; als kurze Beschreibung (sofern definiert) und kehrt andernfalls zur Übersicht zurück.
 - Für **Zertifizierungen** wird eine kurze &quot;Beschreibung&quot; mit einer längeren &quot;Zertifizierungsübersicht&quot; als Fallback verwendet.
 - Für **Arbeitshilfen** wird das Hauptbeschreibungsfeld verwendet.
@@ -541,9 +540,9 @@ Mit der Änderung wird Unterstützung für die LO **Kurzbeschreibung** in APIs f
 
 ### Einschränkung, dass zwei Konten nicht dieselbe benutzerdefinierte Domäne gemeinsam nutzen können
 
-In den nicht angemeldeten und angemeldeten Architekturen von Adobe Learning Manager wird eine **benutzerdefinierte Domäne** (z. B. academy.example.com) als global eindeutiger Schlüssel behandelt, der genau einem ALM-Konto zugeordnet werden muss. Die Plattform erzwingt daher eine strenge Einschränkung, dass **keine zwei Konten dieselbe benutzerdefinierte Domäne** gemeinsam nutzen können. Dies ist für Sicherheit, Routing und SEO erforderlich: Die Routing-Ebene und der nicht angemeldete Stapel verwenden die Domäne, um die richtige Kontokonfiguration zu nachzuschlagen (einschließlich der nicht angemeldeten Konto-JSON, der Experience Builder-Menüs, des Brandings und der TDA-/Suchendpunkte).
+In den nicht angemeldeten und angemeldeten Architekturen von Adobe Learning Manager wird eine **benutzerdefinierte Domäne** (z. B. academy.example.com) als global eindeutiger Schlüssel behandelt, der genau einem ALM-Konto zugeordnet werden muss. Die Plattform erzwingt daher eine strenge Einschränkung, dass **keine zwei Konten dieselbe benutzerdefinierte Domäne** gemeinsam nutzen können. Dies ist für Sicherheit, Routing und SEO erforderlich: die Routing-Ebene und der nicht angemeldete Stapel verwenden die Domäne, um die richtige Kontokonfiguration zu nachzuschlagen (einschließlich der nicht angemeldeten Konto-JSON, Experience Builder-Menüs, des Brandings und der Endpunkte TDA/Suche).
 
-Wenn dieselbe benutzerdefinierte Domäne für zwei Konten zugelassen wird, ist es nicht möglich, die Rückgabe der Kontodaten zu garantieren. Außerdem kann dies zu mandantenübergreifenden Lecks führen und generierte Artefakte wie sitemap.xml und robots.txt beschädigen, die pro Konto erstellt, aber von Suchmaschinen pro Host entdeckt werden. Operativ bedeutet dies, dass Sie beim Zuweisen oder Verschieben einer benutzerdefinierten Domäne zuerst sicherstellen müssen, dass sie nicht an ein anderes Konto angehängt ist (oder dort die Registrierung aufheben), und das interne Tool von Adobe lehnt Versuche ab, dieselbe Domäne an mehrere Konten zu binden.
+Wenn dieselbe benutzerdefinierte Domäne für zwei Konten zugelassen wird, kann nicht garantiert werden, welche Kontodaten zurückgegeben werden. Außerdem kann dies zu mandantenübergreifenden Lecks führen und generierte Artefakte wie sitemap.xml und robots.txt beschädigen, die pro Konto erstellt, aber von Suchergebnissen pro Host entdeckt werden. Operativ bedeutet dies, dass Sie beim Zuweisen oder Verschieben einer benutzerdefinierten Domäne zuerst sicherstellen müssen, dass sie nicht an ein anderes Konto angehängt ist (oder dort die Registrierung aufheben), und das interne Tool von Adobe lehnt Versuche ab, dieselbe Domäne an mehrere Konten zu binden.
 
 ### Browserzwischenspeicherung von Ressourcen bei nicht angemeldetem Benutzer
 
