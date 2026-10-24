@@ -321,7 +321,7 @@ Gibt eine paginierte Liste der eigenen Übertragungen des authentifizierten Teil
 |---------------|-------------|-------------|-------------------------------------------------------------------------------------------------------|
 | page[offset] | 0 | 5000 | Nullbasierter Datensatzoffset. |
 | page[limit] | 10 | 100 | Datensätze pro Seite. Werte über 100 werden leise auf 100 geklemmt. |
-| ls_qp_status | — | — | Nach Status filtern. Für alle Ergebnisse auslassen. Gültige Werte: &quot;AUSSTEHEND&quot;, &quot;GENEHMIGT&quot;, &quot;ABGELEHNT&quot; (Groß- und Kleinschreibung werden nicht berücksichtigt). |
+| ls_qp_status | – | – | Nach Status filtern. Für alle Ergebnisse auslassen. Gültige Werte: &quot;AUSSTEHEND&quot;, &quot;GENEHMIGT&quot;, &quot;ABGELEHNT&quot; (Groß- und Kleinschreibung werden nicht berücksichtigt). |
 
 #### **Antwort 200 OK**
 
@@ -416,7 +416,7 @@ Das Feld &quot;Anlagen&quot; wird getrennt von den anderen Feldern behandelt. F�
 | ZAHL | Objekt mit erreichter_Punktzahl und maximaler_Punktzahl | { &quot;erzielte_Punktzahl&quot;: 8, &quot;max_score&quot;: 100 } |
 | ZEITSTEMPEL | Objekt mit start_date und end_date (ISO 8601 oder null) | { &quot;start_date&quot;: &quot;2026-05-01T00:00:00.000Z&quot;, &quot;end_date&quot;: null } |
 | DROPDOWN | option_id Zeichenfolge aus Kontoeinstellungen | &quot;Option_3&quot; |
-| FILE_UPLOAD | In den Feldern &quot;[]&quot; nicht zulässig — verwenden Sie &quot;submissionUrl&quot;. | — |
+| FILE_UPLOAD | In den Feldern &quot;[]&quot; nicht zulässig — verwenden Sie &quot;submissionUrl&quot;. | – |
 
 #### POST der Validierungsregeln
 
