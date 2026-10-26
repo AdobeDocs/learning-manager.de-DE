@@ -7,9 +7,9 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 73a8cf0f76178c9fa766d56e49fc9d02ce8d5387
 workflow-type: tm+mt
-source-wordcount: '35230'
+source-wordcount: '35301'
 ht-degree: 63%
 ---
 # Versionshinweise zu Adobe Learning Manager
@@ -70,6 +70,10 @@ Der Insights Agent wurde um zwei Verbesserungen erweitert. Sie sind:
 * **Kursregistrierung, standardmäßig ohne Warteliste:** Bei direkten und indirekten Registrierungsanfragen ohne Filter umfasst die direkt registrierte Anzahl Teilnehmer mit dem Status &quot;Wartet&quot;, obwohl sie auf der Warteliste stehen und nicht aktiv teilnehmen. Standardmäßig zeigt das Bedienfeld &quot;Ansatz&quot; nicht an, dass Teilnehmer auf der Warteliste in die Anzahl aufgenommen werden. Teilnehmer auf der Warteliste werden nur ausgeschlossen, wenn der Administrator den Ausschluss explizit anfordert. In diesem Fall wird die angewendete Regel offen gelegt.
 
 [Weitere Informationen](/help/migrated/administrators/feature-summary/insights-agent.md).
+
+### Benutzerdefiniertes Zertifikat - Designer
+
+Wenn einem Zertifikatdesign ein Abzeichen hinzugefügt wurde, unterstützte das Zertifikatgenerierungssystem nur das textbasierte Abzeichenfeld. Infolgedessen fehlte das Abzeichenbild des Teilnehmers oder wurde auf der generierten PDF falsch angezeigt. Mit dieser Korrektur erkennt das System jetzt den Platzhalter für das Abzeichenbild und ersetzt ihn durch das Abzeichenbild des Teilnehmers, wobei die im Zertifikat-Designer konfigurierte Position und Größe beibehalten wird.
 
 ## API
 
