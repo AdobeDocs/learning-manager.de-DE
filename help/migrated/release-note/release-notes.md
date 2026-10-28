@@ -7,9 +7,9 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 73a8cf0f76178c9fa766d56e49fc9d02ce8d5387
+source-git-commit: d3f02c23826e56305a160eab428a50406a837184
 workflow-type: tm+mt
-source-wordcount: '35301'
+source-wordcount: '35530'
 ht-degree: 63%
 ---
 # Versionshinweise zu Adobe Learning Manager
@@ -26,6 +26,22 @@ ht-degree: 63%
 </table>
 
 -->
+
++++Update 13: Adobe Learning Manager Version vom 27. Oktober 2026
+
+## Verbesserungen in dieser Version
+
+**Go1-Integration:** Die Go1-Integration in Adobe Learning Manager wurde verbessert, um die Verfolgung des Kursabschlusses zuverlässiger zu machen. Die Go1-Abschlüsse von Teilnehmern werden jetzt korrekt aufgezeichnet, auch wenn sie den Kurs-Player direkt nach Abschluss verlassen. Diese Korrektur trägt dazu bei, dass Teilnehmertranskripte und Administratorberichte vollständig und aktuell bleiben. Es ist keine Konfiguration erforderlich und bestehende Go1-Kurse funktionieren weiterhin wie bisher. [Weitere Informationen](/help/migrated/integration-admin/feature-summary/go1-webhooks.md).
+
+## Behobene Fehler
+
+**Mobilgerät:** Starten Sie auf iPhones mit iOS Safari einen Kurs im Hochformat aus dem Katalog, oder suchen Sie nach CTA, in dem die Eingabeaufforderung &quot;Bitte drehen Sie Ihr Gerät&quot; angezeigt wird. Die Eingabeaufforderung blieb auch nach dem Drehen in die Landschaft, sodass der Kurs nicht starten konnte. Dieses Problem wurde behoben, und der Player erholt sich jetzt beim Drehen und startet den Kurs wie erwartet.
+
+**Teilnehmer:** Teilnehmer konnten in Dateiübermittlungsmodulen keine Excel-, PowerPoint-, Video-, ZIP- und anderen Dateitypen übermitteln und haben einen generischen Fehler erhalten. Dieses Problem wurde behoben, und Teilnehmer können diese Dateitypen jetzt wie erwartet hochladen und übermitteln.
+
+**E-Mail-Vorlage:** In Kalendereinladungs-E-Mails wurde ein leerer Textkörper und eine leere ICS-Ereignisbeschreibung angezeigt, wenn die Verknüpfung von Sitzungsvorlagen mit dem globalen Layout aufgehoben wurde. Dieses Problem wurde behoben, und nicht verknüpfte Vorlagen zeigen nun die konfigurierten Sitzungsdetails und den Layoutinhalt in der E-Mail- und Kalenderereignisbeschreibung wie erwartet an.
+
++++
 
 +++Update 12: Adobe Learning Manager Version vom 30. September 2026
 
