@@ -4,7 +4,7 @@ description: Häufige Fehlermeldungen und Benachrichtigungen, die während einer
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: a39f411869dfc8dc88236a391a4681bed8cf8620
 workflow-type: tm+mt
 source-wordcount: '1072'
 ht-degree: 2%
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 Während einer Live-Hub-Sitzung erhalten Kursleiter möglicherweise Fehlermeldungen oder Benachrichtigungen, die verhindern, dass bestimmte Aktionen wie erwartet abgeschlossen werden. In diesem Artikel werden häufige Fehler beschrieben, die auf Kursleiter zutreffen, sowie deren mögliche Ursachen und die Schritte, die Sie unternehmen können, um diese Fehler zu beheben.
 
-## Verbindungsprobleme
+## Verbindungsprobleme {#connection-issues}
 
 | Fehlermeldung | Szenario | Vorschläge zur Fehlerbehebung |
 |---|---|---|
@@ -61,7 +61,7 @@ Die folgenden Meldungen werden als Popup-Benachrichtigungen angezeigt, wenn ein 
 | &quot;FileName.pdf&quot; überschreitet das Limit von 1 MB. | Ein Kursleiter lädt eine PDF-Datei hoch, die die 1-MB-Dateigrößenbeschränkung überschreitet. | Komprimieren oder reduzieren Sie die PDF-Dateigröße auf unter 1 MB und laden Sie sie dann erneut hoch. |
 | &quot;FileName.pptx&quot; überschreitet das Limit von 3 MB. | Ein Kursleiter lädt eine PPT-Datei hoch, die die Dateigrößenbeschränkung von 3 MB überschreitet. | Komprimieren oder reduzieren Sie die PPT-Dateigröße auf unter 3 MB und laden Sie sie dann erneut hoch. |
 
-## Probleme bei Arbeitsgruppensitzungen
+## Probleme bei Arbeitsgruppensitzungen {#breakout-issues}
 
 Die folgenden Meldungen können angezeigt werden, wenn ein Kursleiter versucht, eine Arbeitsgruppensitzung zu starten.
 
