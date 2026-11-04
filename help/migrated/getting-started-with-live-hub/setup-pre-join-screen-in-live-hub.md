@@ -4,7 +4,7 @@ description: Erfahren Sie, wie der Live-Hub-Pre-Join-Bildschirm funktioniert, wi
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 2e198c9edfedc804db6a52b79b50372fb4875203
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Wenn Sie von Ihrem Browser dazu aufgefordert werden, wählen Sie **Zulassen**, u
 ![Aufforderung für Browserberechtigungen zulassen](assets/allow-browser-permissions-prompt.png)
 *Wählen Sie Zulassen aus, wenn Ihr Browser Mikrofon- und Kamera-Zugriff anfordert.*
 
-### Konfigurieren von Audiosteuerelementen
+### Konfigurieren von Audiosteuerelementen {#audio-controls}
 
 Mikrofon und Lautsprecher werden automatisch ausgewählt. Verwenden Sie die Audiosteuerung auf dem Pre-Join-Bildschirm, um zu bestätigen, dass sie funktionieren, oder wechseln Sie zu einem anderen Gerät.
 
