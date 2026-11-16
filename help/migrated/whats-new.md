@@ -6,7 +6,7 @@ exl-id: da46f186-3ff3-422a-af49-31c7405fd584
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 054b295163bb0312f07aa82b2a21c7e55b5fbc1d
+source-git-commit: c01de295c4baa533ff15f4872df84ac197ffb3a7
 workflow-type: tm+mt
 source-wordcount: '4684'
 ht-degree: 0%
@@ -104,7 +104,7 @@ Virtual Coach unterstützt neun Sprachen und kann als eigenständige Arbeitshilf
 
 ## Zitate von Lernpfaden im Teilnehmerassistenten
 
-In den Antworten des Teilnehmer-Assistenten wird jetzt der Lernpfad zitiert, der einen Quellkurs enthält, zusammen mit dem Kurs selbst. Teilnehmer öffnen entweder die Kursübersicht oder die Lernpfadseite über das Zitat. Antworten auf eine Arbeitshilfe enthalten einen Download-Link. Dies hilft Teilnehmern, die Schulung zu finden, die ihre Frage beantwortet.
+In den Antworten des Teilnehmerassistenten wird jetzt der Lernpfad zitiert, der einen Quellkurs zusammen mit dem Kurs selbst enthält. Teilnehmer öffnen entweder die Kursübersicht oder die Seite &quot;Lernpfad&quot; auf der Zitatseite. Antworten auf eine Arbeitshilfe enthalten einen Download-Link. Dies hilft Teilnehmern, die Schulung zu finden, die ihre Frage beantwortet.
 
 ## AI Assistant-Konfigurationen
 
@@ -236,7 +236,7 @@ Um den vollständigen Namen anzuzeigen, bewegen Sie den Mauszeiger über den ver
 
 ## Abzeicheninformationen für Kurse und Lernpfade
 
-Wenn Autoren einen Kurs oder Lernpfad hinzufügen, werden in einem Fenster vorhandene Kurse und Lernpfade mit Abzeichen aufgelistet. Das Fenster zeigt den Namen, den Typ (Kurs oder Lernpfad), den Veröffentlichungsstatus und das Kursformat an, z. B. Selbststudium, Virtuell, Klassenzimmer oder Gemischt.
+Wenn Autoren einen Kurs oder einen Lernpfad hinzufügen, werden in einem Fenster vorhandene Kurse und Lernpfade mit Abzeichen aufgelistet. Das Fenster zeigt den Namen, den Typ (Kurs oder Lernpfad), den Veröffentlichungsstatus und das Kursformat an, z. B. Selbststudium, Virtuell, Klassenzimmer oder Gemischt.
 
 ## Verbesserungen, die nicht angemeldet sind
 
@@ -258,7 +258,6 @@ Besucher Ihrer öffentlichen Akademie können jetzt ausgewählte Inhalte direkt 
 
 Administratoren können jetzt die spezifischen Kataloge auswählen, die in der öffentlichen Akademie angezeigt werden. Nur diese Kataloge können von anonymen Besuchern durchsucht und von Suchmaschinen-Engine und KI-Assistenten indiziert werden. Testkurse oder interne Inhalte bleiben also privat.
  
-
 ### In Suchmaschinen-Engine und KI-Assistenten finden (Beta)
 
 Adobe Learning Manager kann jetzt Ihre öffentliche Akademie über Suchmaschinen-Engine wie Google und KI-Assistenten wie ChatGPT, Claude und Gemini auffindbar machen. Ihre Kurse können dann in Suchergebnissen und AI-generierten Antworten angezeigt werden, die Ihrer Akademie zugeordnet sind.
@@ -275,7 +274,7 @@ Adobe Learning Manager kann jetzt Ihre öffentliche Akademie über Suchmaschinen
 
 ## Kurs einstellen, ohne einen Lernpfad unzugänglich zu machen
 
-Ein eingestellter Kurs oder ein verschachtelter Lernpfad wird aus dem übergeordneten Lernobjekt entfernt, das für neue Registrierungen geöffnet bleibt. Durch das Einstellen eines Kurses wird der Lernpfad nicht mehr unzugänglich.
+Ein eingestellter Kurs oder ein verschachtelter Lernpfad wird aus dem übergeordneten Lernobjekt entfernt, das für neue Registrierungen geöffnet bleibt. Durch das Einstellen eines Kurses ist der Lernpfad nicht mehr unzugänglich.
 
 ## URL für nicht angemeldete Seite für Selbstregistrierungsprofile
 
