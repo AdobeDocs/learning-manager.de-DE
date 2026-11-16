@@ -6,7 +6,7 @@ exl-id: da46f186-3ff3-422a-af49-31c7405fd584
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 413b0a29bcacbf1d523990dd7d96fdbb9fad3907
+source-git-commit: 054b295163bb0312f07aa82b2a21c7e55b5fbc1d
 workflow-type: tm+mt
 source-wordcount: '4684'
 ht-degree: 0%
@@ -258,7 +258,6 @@ Besucher Ihrer öffentlichen Akademie können jetzt ausgewählte Inhalte direkt 
 
 Administratoren können jetzt die spezifischen Kataloge auswählen, die in der öffentlichen Akademie angezeigt werden. Nur diese Kataloge können von anonymen Besuchern durchsucht und von Suchmaschinen-Engine und KI-Assistenten indiziert werden. Testkurse oder interne Inhalte bleiben also privat.
  
-
 ### In Suchmaschinen-Engine und KI-Assistenten finden (Beta)
 
 Adobe Learning Manager kann jetzt Ihre öffentliche Akademie über Suchmaschinen-Engine wie Google und KI-Assistenten wie ChatGPT, Claude und Gemini auffindbar machen. Ihre Kurse können dann in Suchergebnissen und AI-generierten Antworten angezeigt werden, die Ihrer Akademie zugeordnet sind.
@@ -326,7 +325,7 @@ Auf diese Weise erhalten globale Teilnehmer ein einheitliches Erlebnis auf der g
 
 ## Live-Hub-Sitzungen mit bis zu 5000 Teilnehmern
 
-Der Live Hub unterstützt jetzt umfangreiche Sitzungen mit bis zu 5000 Teilnehmern, sodass Organisationen große Schulungssitzungen durchführen können. Autoren können eine Kapazität von 5.000 Teilnehmern auswählen, wenn sie einem Kurs ein Modul für virtuelle Klassenzimmer hinzufügen. Der Live Hub konfiguriert den Raum automatisch basierend auf der Zielgruppengröße und wendet bestimmte Interaktionsbeschränkungen an.
+Der Live Hub unterstützt jetzt umfangreiche Sitzungen mit bis zu 5000 Teilnehmern, sodass Organisationen große Schulungssitzungen durchführen können. Autoren können eine Kapazität von 5000 Teilnehmern auswählen, wenn sie einem Kurs ein Modul für virtuelle Klassenzimmer hinzufügen. Der Live Hub konfiguriert den Raum automatisch basierend auf der Zielgruppengröße und wendet bestimmte Interaktionsbeschränkungen an.
 
 In großen Sitzungen gelten die folgenden Funktionen und Verhaltensweisen:
 
@@ -402,9 +401,9 @@ Diese Version enthält neue APIs, die Benachrichtigungen von Diskussions-Dashboa
 
 Die API für Registrierungen unterstützt jetzt Instanzen mit mehreren Registrierungen in der Teilnehmer-App. Fügen Sie den optionalen `includeMultiInstanceEnrollments=true`-Parameter zu `GET /enrollments` hinzu, um sie einzuschließen. Der Standardwert ist `false`. Vorhandene Integrationen, einschließlich Headless-Implementierungen, funktionieren also unverändert.
 
-### Letztes Zugriffsdatum für die Lernpfadregistrierung
+### Letztes Zugriffsdatum für die Registrierung für Lernpfade
 
-Sie können jetzt benutzerdefinierte Metadaten, wie z. B. das Datum des letzten Zugriffs, in einer Lernpfadregistrierung speichern und sie über die API festlegen und lesen. Auf diese Weise können Sie den zeitgebundenen Zugriff auf die von Ihnen zugewiesenen Lernpfade verfolgen.
+Sie können jetzt benutzerdefinierte Metadaten, wie z. B. das Datum des letzten Zugriffs, in einer Lernpfad-Registrierung speichern und sie über die API festlegen und lesen. Auf diese Weise können Sie den zeitgebundenen Zugriff auf die von Ihnen zugewiesenen Lernpfade verfolgen.
 
 * Legen Sie die Metadaten für eine vorhandene Registrierung fest oder wenn Sie einen Teilnehmer mithilfe eines Admin-Tokens registrieren.
 * Lesen Sie es mit einem Administrator- oder Teilnehmer-Token.
