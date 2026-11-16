@@ -6,15 +6,15 @@ exl-id: da46f186-3ff3-422a-af49-31c7405fd584
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c54a70f69868320e43d99a1fb2e4def5009f1d5c
+source-git-commit: 413b0a29bcacbf1d523990dd7d96fdbb9fad3907
 workflow-type: tm+mt
-source-wordcount: '4685'
+source-wordcount: '4684'
 ht-degree: 0%
 ---
 
 # Neue Funktionen in der Adobe Learning Manager-Version Dezember 2026
 
-Die neue Version von Adobe Learning Manager enthält eine Reihe neuer Funktionen und Verbesserungen, mit denen die Plattform optimiert und ihre Funktionen erweitert werden sollen. Diese Updates vereinfachen alltägliche Workflows, verbessern die Organisation und Bereitstellung von Lerninhalten und machen das Gesamterlebnis konsistenter und intuitiver.
+Diese Version von Adobe Learning Manager enthält eine Reihe neuer Funktionen und Verbesserungen, mit denen die Plattform optimiert und ihre Funktionen erweitert werden sollen. Diese Updates vereinfachen alltägliche Workflows, verbessern die Organisation und Bereitstellung von Lerninhalten und machen das Gesamterlebnis konsistenter und intuitiver.
 
 ## Report Builder- und Dashboards
 
@@ -92,7 +92,7 @@ Administratoren können jede Tool-Beschreibung bearbeiten, um organisationsspezi
 
 Teilnehmer können vorgeschlagene Themen oder Kurse jetzt in einem einzigen Schritt entfernen, zusätzlich zu der vorhandenen Option, um Themen- und Kurslisten über Chat zu verfeinern.
 
-Administratoren können jetzt den personalisierten Lernpfadstreifen auf der Teilnehmer-Startseite über die Branding-Seite neu positionieren.
+Administratoren können jetzt den Streifen &quot;Personalisierte Lernpfade&quot; auf der Teilnehmer-Startseite über die Branding-Seite neu positionieren.
 
 ## Üben Sie Ihre Fähigkeiten mit Rollenspielen im virtuellen Coach
 
@@ -258,7 +258,6 @@ Besucher Ihrer öffentlichen Akademie können jetzt ausgewählte Inhalte direkt 
 
 Administratoren können jetzt die spezifischen Kataloge auswählen, die in der öffentlichen Akademie angezeigt werden. Nur diese Kataloge können von anonymen Besuchern durchsucht und von Suchmaschinen-Engine und KI-Assistenten indiziert werden. Testkurse oder interne Inhalte bleiben also privat.
  
-
 ### In Suchmaschinen-Engine und KI-Assistenten finden (Beta)
 
 Adobe Learning Manager kann jetzt Ihre öffentliche Akademie über Suchmaschinen-Engine wie Google und KI-Assistenten wie ChatGPT, Claude und Gemini auffindbar machen. Ihre Kurse können dann in Suchergebnissen und AI-generierten Antworten angezeigt werden, die Ihrer Akademie zugeordnet sind.
@@ -283,11 +282,11 @@ Mit Selbstregistrierungsprofilen können externe Benutzer, z. B. Partner oder Mi
 
 Wenn Benutzer **Registrieren** auf einer Seite auswählen, die über diese URL erreicht wird, werden sie dem Profil hinzugefügt, zu dem die URL gehört. Dadurch werden Benutzer aus verschiedenen Organisationen, z. B. separaten Agenturen oder Partnerunternehmen, in separaten Profilen gespeichert.
 
-## Datum des letzten Zugriffs für Registrierungen für Lernpfade speichern
+## Letzten Zugriffstermin für Lernpfadregistrierungen speichern
 
-Mit Adobe Learning Manager können Sie jetzt benutzerdefinierte Metadaten, wie z. B. das Datum des letzten Zugriffs, an eine Lernpfadregistrierung anhängen. Sie legen es fest und lesen es über die API, die Ihnen hilft, den zeitgebundenen Zugriff auf die Lernpfade, die Sie zuweisen, zu verfolgen.
+Mit Adobe Learning Manager können Sie jetzt benutzerdefinierte Metadaten, wie z. B. das Datum des letzten Zugriffs, an eine Lernpfad-Registrierung anhängen. Sie legen es fest und lesen es über die API, die Ihnen hilft, den zeitgebundenen Zugriff auf die Lernpfade, die Sie zuweisen, zu verfolgen.
 
-Für Kursregistrierungen wird bereits ein Datum des letzten Zugriffs über die API unterstützt, das steuert, wie lange ein Teilnehmer auf den Kurs zugreifen kann. Registrierungen für Lernpfade bieten jetzt ein generisches Metadatenfeld, sodass Sie ein Datum des letzten Zugriffs oder einen anderen Wert speichern können, den Sie nachverfolgen möchten.
+Für Kursregistrierungen wird bereits ein Datum des letzten Zugriffs über die API unterstützt, das steuert, wie lange ein Teilnehmer auf den Kurs zugreifen kann. Registrierungen für Lernpfade bieten jetzt ein generisches Metadatenfeld, sodass Sie das Datum des letzten Zugriffs oder einen anderen Wert, den Sie nachverfolgen möchten, speichern können.
 
 ## Report Builder-Berichte mit der Job-API exportieren
 
@@ -302,7 +301,7 @@ Vorhandene Auftragstypen, einschließlich `generateQuizReport`, bleiben unverän
 
 ## Änderungen an Spaltenüberschriften in heruntergeladenen Berichten
 
-Der Report Builder enthält jetzt den Datasetnamen in den Standardspaltenüberschriften der heruntergeladenen Berichte. Der Name aus dem Lernobjektdataset wird daher als **Lernobjekt - Name** anstelle von **Name** angezeigt. Bei aggregierten Spalten enthält die Überschrift auch die Funktion, z. B. &quot;**Anzahl der Lernobjekte - ID**&quot;. Wenn Sie einen benutzerdefinierten Namen in das Feld **Alias** einer Spalte eingeben, wird dieser Alias als Überschrift verwendet und bleibt unverändert.
+Der Report Builder enthält jetzt den Datasetnamen in den Standardspaltenüberschriften der heruntergeladenen Berichte. Der Name aus dem Lernobjektdataset wird daher als **Lernobjekt - Name** anstelle von **Name** angezeigt. Bei aggregierten Spalten enthält die Überschrift auch die Funktion, z. B. **Anzahl Lernobjekte - ID**. Wenn Sie einen benutzerdefinierten Namen in das Feld **Alias** einer Spalte eingeben, wird dieser Alias als Überschrift verwendet und bleibt unverändert.
 
 Nach dem Upgrade werden in vorhandenen Berichten ohne benutzerdefinierte Aliase die aktualisierten Überschriften angezeigt, während Berichtsdaten, Filter und Zeitpläne davon nicht betroffen sind. Wenn Ihre Skripte, Kalkulationstabellen, Business Intelligence-Dashboards oder Integrationen Spalten nach Überschrift referenzieren, aktualisieren Sie sie auf die neuen Namen oder legen Sie einen benutzerdefinierten Alias fest, um eine bestimmte Überschrift beizubehalten.
 
@@ -324,9 +323,9 @@ Die Live Hub-Oberfläche wird jetzt in der Sprache angezeigt, die für die Lern-
 
 Auf diese Weise erhalten globale Teilnehmer ein einheitliches Erlebnis auf der gesamten Plattform und in Sitzungsaufzeichnungen.
 
-## Live-Hub-Sitzungen mit bis zu 5.000 Teilnehmern
+## Live-Hub-Sitzungen mit bis zu 5000 Teilnehmern
 
-Der Live Hub unterstützt jetzt umfangreiche Sitzungen mit bis zu 5.000 Teilnehmern, sodass Organisationen große Schulungssitzungen durchführen können. Autoren können eine Kapazität von 5.000 Teilnehmern auswählen, wenn sie einem Kurs ein Modul für virtuelle Klassenzimmer hinzufügen. Der Live Hub konfiguriert den Raum automatisch basierend auf der Zielgruppengröße und wendet bestimmte Interaktionsbeschränkungen an.
+Der Live Hub unterstützt jetzt umfangreiche Sitzungen mit bis zu 5000 Teilnehmern, sodass Organisationen große Schulungssitzungen durchführen können. Autoren können eine Kapazität von 5.000 Teilnehmern auswählen, wenn sie einem Kurs ein Modul für virtuelle Klassenzimmer hinzufügen. Der Live Hub konfiguriert den Raum automatisch basierend auf der Zielgruppengröße und wendet bestimmte Interaktionsbeschränkungen an.
 
 In großen Sitzungen gelten die folgenden Funktionen und Verhaltensweisen:
 
