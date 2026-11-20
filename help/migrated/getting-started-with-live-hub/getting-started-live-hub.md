@@ -1,20 +1,20 @@
 ---
-title: Erste Schritte mit Live Hub (Beta)
+title: Erste Schritte mit Live Hub
 description: Erfahren Sie, wie Sie mit dem Live Hub in Adobe Learning Manager Live-Schulungen mit Kursleiter direkt auf der Plattform bereitstellen können.
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 323f8300024f1f30f37895cf822b737aea561bb1
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '773'
 ht-degree: 0%
 ---
 
-# Erste Schritte mit Live Hub (Beta)
+# Erste Schritte mit Live Hub
 
 >[!IMPORTANT]
 >
->Beta-Funktionen können Mängel enthalten und werden &quot;wie besehen&quot; ohne jegliche Gewährleistung bereitgestellt. Adobe hat das alleinige Ermessen, ob Betafunktionen allgemein verfügbar gemacht werden sollen. Adobe ist nicht verpflichtet, die Beta-Funktionen zu verwalten, zu korrigieren, zu aktualisieren, zu ändern, zu ändern oder auf andere Weise (über Adobe Support Services oder auf andere Weise) zu unterstützen. Sollte eine Beta-Funktion allgemein verfügbar werden, kann sie zusätzlichen Nutzungsbedingungen einschließlich ggf. anfallender Gebühren unterliegen. Beta-Funktionen können sich ohne vorherige Ankündigung ändern, einschließlich der Kündigung. Kunden wird empfohlen, mit Vorsicht vorzugehen und sich in keiner Weise auf die ununterbrochene oder fehlerfreie Funktion oder Leistung der Betafunktionen zu verlassen. Dementsprechend erfolgt jede Nutzung der Beta-Funktionen auf eigenes Risiko des Kunden. Die Produktfunktionen und die zugehörige Dokumentation können sich mit der Weiterentwicklung der Funktion ändern. Diese Dokumentation spiegelt die aktuelle Beta-Erfahrung wider und sollte nicht als endgültige oder vollständige Produktdokumentation betrachtet werden.
+>Für Prime-Kunden ist der Live Hub in der Betaversion. Beta-Funktionen können Mängel enthalten und werden &quot;wie besehen&quot; ohne jegliche Gewährleistung bereitgestellt. Adobe hat das alleinige Ermessen, ob Betafunktionen allgemein verfügbar gemacht werden sollen. Adobe ist nicht verpflichtet, die Beta-Funktionen zu verwalten, zu korrigieren, zu aktualisieren, zu ändern, zu ändern oder auf andere Weise (über Adobe Support Services oder auf andere Weise) zu unterstützen. Sollte eine Beta-Funktion allgemein verfügbar werden, kann sie zusätzlichen Nutzungsbedingungen einschließlich ggf. anfallender Gebühren unterliegen. Beta-Funktionen können sich ohne vorherige Ankündigung ändern, einschließlich der Kündigung. Kunden wird empfohlen, mit Vorsicht vorzugehen und sich in keiner Weise auf die ununterbrochene oder fehlerfreie Funktion oder Leistung der Betafunktionen zu verlassen. Dementsprechend erfolgt jede Nutzung der Beta-Funktionen auf eigenes Risiko des Kunden. Die Produktfunktionen und die zugehörige Dokumentation können sich mit der Weiterentwicklung der Funktion ändern. Diese Dokumentation spiegelt die aktuelle Beta-Erfahrung wider und sollte nicht als endgültige oder vollständige Produktdokumentation betrachtet werden.
 
 Mit dem Live Hub in Adobe Learning Manager können Unternehmen Live-Schulungen mit Kursleiter direkt auf der Plattform bereitstellen, sodass keine externen Tools für die Bereitstellung der Kernsitzungen erforderlich sind.
 
@@ -61,7 +61,7 @@ ein reibungsloses Lernerlebnis.
 
 | **Bühne** | **Wichtige Aktivitäten** |
 |---|---|
-| **Vorsitzung** | Der Administrator überprüft, ob die [Systemanforderungen](./system-requirements-for-live-hub.md) erfüllt sind, und [aktiviert den Live Hub](../administrators/feature-summary/enable-live-hub.md) für das Konto. Der Autor [&#x200B; erstellt den Live Hub-Kurs &#x200B;](create-a-live-hub-session.md), und die Teilnehmer können sich selbst für den Kurs registrieren, oder der Administrator kann sie registrieren. Der Kursleiter bereitet den Raum vor, indem er [Layouts](./understand-the-live-hub-layout.md), Inhalt und interaktive Aktivitäten für die bevorstehende Sitzung konfiguriert. |
+| **Vorsitzung** | Der Administrator überprüft, ob die [Systemanforderungen](./system-requirements-for-live-hub.md) erfüllt sind, und [aktiviert den Live Hub](../administrators/feature-summary/enable-live-hub.md) für das Konto. Der Autor [ erstellt den Live Hub-Kurs ](create-a-live-hub-session.md), und die Teilnehmer können sich selbst für den Kurs registrieren, oder der Administrator kann sie registrieren. Der Kursleiter bereitet den Raum vor, indem er [Layouts](./understand-the-live-hub-layout.md), Inhalt und interaktive Aktivitäten für die bevorstehende Sitzung konfiguriert. |
 | **Während der Sitzung** | Der Kursleiter stellt die Live-Sitzung bereit und interagiert mit den Teilnehmern mithilfe von Funktionen wie [Chat](about-the-chat-panel.md), [Umfragen](./about-the-polls.md), [Quiz](./about-the-quiz.md), [Whiteboards](./about-the-whiteboard.md), [Bildschirmfreigabe](./about-the-screen-sharing.md) und [Arbeitsräume](./about-the-breakouts.md). Die Teilnehmer nehmen während der gesamten Sitzung an diesen Aktivitäten teil. Der Kursleiter kann die Sitzung [aufzeichnen](./record-a-session.md), damit sie den Teilnehmern später zur Verfügung steht. |
 | **Nach der Sitzung** | Der Kursleiter überprüft Sitzungsaufzeichnungen, Anwesenheitsberichte und [Interaktionsanalysen](./view-the-session-dashboard.md), um die Teilnehmerbeteiligung zu bewerten und die Effektivität der Sitzung zu bewerten. Die Teilnehmer können die Sitzung über eine [themenbasierte Aufzeichnung](./view-recordings-as-a-learner.md) erneut aufrufen. Diese Ansicht teilt die Aufzeichnung in navigierbare Themen auf, die jeweils einen Titel, eine Übersicht und Anmerkungen enthalten, sodass sie zu einem beliebigen Thema springen oder es lesen können, anstatt es anzuschauen. |
 
