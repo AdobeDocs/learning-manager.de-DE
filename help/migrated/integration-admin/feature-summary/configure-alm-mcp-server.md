@@ -218,7 +218,7 @@ Claude und ChatGPT entdecken diese automatisch. Hier finden Sie eine Liste der C
 | Autorisierungs-URL | [https://\[alm-host\]/oauth/o/authorize](https://[alm-host]/oauth/o/authorize) |
 | Token-URL | [https://\[alm-host\]/oauth/token](https://[alm-host]/oauth/token) |
 | URL aktualisieren | [https://\[alm-host\]/oauth/token/refresh](https://[alm-host]/oauth/token/refresh) |
-| Autorisierungsserver-Basis | [https://\[alm-host](https://[alm-host)\] |
+| Autorisierungsserver-Basis | &lbrack;https://\[alm-host](https://[alm-host)\] |
 | Ressource | [https://\[alm-host\]/v1/mcp](https://[alm-host]/v1/mcp) |
 | Umfang | Teilnehmer:write |
 

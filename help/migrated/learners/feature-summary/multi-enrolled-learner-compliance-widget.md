@@ -42,4 +42,4 @@ In der folgenden Tabelle wird beschrieben, wie das Widget jede Registrierungssit
 | Eine Instanz mit einer Frist und eine ohne | Nur die Instanz mit einer Frist |                                       |
 | Nur eine registrierte Instanz | Ja | Das Widget zeigt diese Instanz an |
 
-API-Informationen finden Sie unter [API-Unterstützung für Instanzen, für die mehrere Teilnehmer registriert sind, in der Teilnehmer-App ](/help/migrated/api-changes-dec-2026.md#multi-enrolled-compliance-widget).
+API-Informationen finden Sie unter [API-Unterstützung für Instanzen, für die mehrere Teilnehmer registriert sind, in der Teilnehmer-App &#x200B;](/help/migrated/api-changes-dec-2026.md#multi-enrolled-compliance-widget).

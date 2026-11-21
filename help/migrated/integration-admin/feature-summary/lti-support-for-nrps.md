@@ -47,7 +47,7 @@ Mit der benutzerdefinierten NRPS-Feldsynchronisation führt der Lern-Manager bei
   * **Automatische Felderstellung:** Wenn kein entsprechendes aktives Feld vorhanden ist, erstellt der Lern-Manager ein Feld mit dem Typ **Text** und dem Status **Aktiv**.
   * **Plattform als Quelle der Wahrheit:** Der Learning Manager überschreibt vorhandene Profilwerte mit den neuesten Werten von der Plattform. Teilnehmer und Administratoren können diese Felder nicht bearbeiten.
   * **Nicht blockierendes Verhalten:** NRPS-Fehler hindern Teilnehmer nicht daran, Lerninhalte zu starten.
-  * **Mehrere Quellen für benutzerdefinierte Attribute:** Learning Manager können benutzerdefinierte Attribute vom NRPS-Endpunkt und von benutzerdefinierten Parametern im LTI-Starttoken lesen. Erfahren Sie mehr über [benutzerdefinierte Attribute im Starttoken ](#custom-attributes-in-the-launch-token).
+  * **Mehrere Quellen für benutzerdefinierte Attribute:** Learning Manager können benutzerdefinierte Attribute vom NRPS-Endpunkt und von benutzerdefinierten Parametern im LTI-Starttoken lesen. Erfahren Sie mehr über [benutzerdefinierte Attribute im Starttoken &#x200B;](#custom-attributes-in-the-launch-token).
 
 ## Unterstützte Konfigurationen
 

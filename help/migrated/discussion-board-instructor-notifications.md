@@ -22,7 +22,7 @@ Anstatt jedes Board einzeln zu öffnen, erhalten Kursleiter in Echtzeit In-App-W
 ## Wichtigste Funktionen
 
 * Sie können aktive Adobe Learning Manager-Benutzer für ausgewählte Diskussionsrunden abonnieren, indem Sie die Abonnenten-API ([`POST /boards/{id}/subscribers`](api-changes-dec-2026.md#api-subscribe-users), Bereich `admin:write`) verwenden. Ein Benutzer muss Zugriff auf das Board haben, wenn Benachrichtigungen gesendet werden.
-* Benutzer erhalten in Echtzeit In-App-Benachrichtigungen zu aktivierten Ereignistypen und eine E-Mail-Auswahl, die nach Board gruppiert ist. Die Ereignistypen werden durch Einstellungen auf Kontoebene (`notifyNewPost`, `notifyComment` und `notifyReply`) in der [`boardSubscriptionSettings`-API ](api-changes-dec-2026.md#api-sequence) gesteuert.
+* Benutzer erhalten in Echtzeit In-App-Benachrichtigungen zu aktivierten Ereignistypen und eine E-Mail-Auswahl, die nach Board gruppiert ist. Die Ereignistypen werden durch Einstellungen auf Kontoebene (`notifyNewPost`, `notifyComment` und `notifyReply`) in der [`boardSubscriptionSettings`-API &#x200B;](api-changes-dec-2026.md#api-sequence) gesteuert.
 * Das Digest-Fenster ist der Zeitraum, in dem die Aktivität in einer Digest-E-Mail erfasst wird. Sie legen es auf Kontoebene mit dem `digestFrequencyHours`-Attribut von 1 bis 168 Stunden fest (z. B. 24 Stunden für eine tägliche Auswertung). Es gilt für alle Benutzer im Konto.
 * Sie können Benutzer nach Benutzer-ID oder E-Mail-Adresse abonnieren und mehrere Benutzer in einer Anforderung hinzufügen ([Massenabonnements](api-changes-dec-2026.md#bulk-subscriptions)). Benutzer werden im Lern-Manager zuerst auf die übliche Weise erstellt.
 * In der Auswahl-E-Mail werden alle neuen Beiträge, Kommentare und Antworten zu den aktivierten Ereignistypen mit dem Boardnamen, dem Namen des Autors und der E-Mail-Adresse sowie einem direkten Link aufgelistet. Außerdem wird die Anzahl der Aktualisierungen seit dem Beginn der Übersichtsphase angezeigt.
@@ -59,11 +59,11 @@ Die folgenden Anwendungsfälle zeigen, wie Kursleiterbenachrichtigungen helfen:
 
 ### Enthaltene Ereignisse
 
-Der Digest enthält neue Beiträge, Kommentare und Antworten, wenn die entsprechende Einstellung `true` in der [`boardSubscriptionSettings`-API ](api-changes-dec-2026.md#api-create-settings) ist: `notifyNewPost`, `notifyComment` und `notifyReply` Sie legen diese mit `POST` oder `PATCH /boardSubscriptionSettings` fest. Alle Einstellungen sind standardmäßig `false`.
+Der Digest enthält neue Beiträge, Kommentare und Antworten, wenn die entsprechende Einstellung `true` in der [`boardSubscriptionSettings`-API &#x200B;](api-changes-dec-2026.md#api-create-settings) ist: `notifyNewPost`, `notifyComment` und `notifyReply` Sie legen diese mit `POST` oder `PATCH /boardSubscriptionSettings` fest. Alle Einstellungen sind standardmäßig `false`.
 
 ### Ausgeschlossene Ereignisse
 
-Der Digest schließt Ereignisse aus, deren Zuordnungseinstellung in der [`boardSubscriptionSettings`-API ](api-changes-dec-2026.md#api-create-settings) (z. B. `notifyComment`) `false` ist. Es wird kein Digest gesendet, wenn keine zulässige Aktivität vorhanden ist.
+Der Digest schließt Ereignisse aus, deren Zuordnungseinstellung in der [`boardSubscriptionSettings`-API &#x200B;](api-changes-dec-2026.md#api-create-settings) (z. B. `notifyComment`) `false` ist. Es wird kein Digest gesendet, wenn keine zulässige Aktivität vorhanden ist.
 
 ### Beispiel für Auswahl-E-Mail-Layout
 
@@ -79,7 +79,7 @@ Für jedes abonnierte Board, das berechtigt war, eine Auswahl-E-Mail zu senden. 
 
 ### Einstellungen mithilfe von APIs konfigurieren
 
-Sie verwalten Benachrichtigungen über zwei öffentliche APIs: die [`boardSubscriptionSettings`-API ](api-changes-dec-2026.md#api-sequence), die auf Kontoebene gilt, und die [-Abonnenten-API ](api-changes-dec-2026.md#api-get-subscribers), die pro Board gilt. Beide verwenden die OAuth-Geltungsbereiche `admin:read` und `admin:write`. Rufen Sie sie in dieser Sequenz auf:
+Sie verwalten Benachrichtigungen über zwei öffentliche APIs: die [`boardSubscriptionSettings`-API &#x200B;](api-changes-dec-2026.md#api-sequence), die auf Kontoebene gilt, und die [-Abonnenten-API &#x200B;](api-changes-dec-2026.md#api-get-subscribers), die pro Board gilt. Beide verwenden die OAuth-Geltungsbereiche `admin:read` und `admin:write`. Rufen Sie sie in dieser Sequenz auf:
 
 1. Legen Sie die Einstellungen auf Kontoebene mit [`POST /boardSubscriptionSettings`](api-changes-dec-2026.md#api-create-settings) fest.
 1. Ändern Sie die Einstellungen später bei Bedarf mit [`PATCH /boardSubscriptionSettings`](api-changes-dec-2026.md#api-update-settings).
