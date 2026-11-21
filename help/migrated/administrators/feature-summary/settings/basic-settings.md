@@ -6,9 +6,9 @@ exl-id: b5cbe224-e3ee-4ac2-8d9b-95249044dfa6
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 7d6fa2ad2d13520f97c81108ed545e6b7060ff3b
 workflow-type: tm+mt
-source-wordcount: '6326'
+source-wordcount: '7201'
 ht-degree: 4%
 ---
 # Grundeinstellungen in Adobe Learning Manager
@@ -243,6 +243,14 @@ Weitere Informationen finden Sie unter Produktterminologie in Adobe Learning Man
 
 Wenn diese Option aktiviert ist, können Autoren und Kursleiter die Anzahl der Kurskredite für jede Sitzung oder jedes Modul aufzeichnen. Credits stellen die lehrreiche Zeit dar, zu der einem Teilnehmer für den Abschluss der Aktivität eine Gutschrift gutgeschrieben wird. Kreditwerte werden in Teilnehmertranskripten, Lernberichten angezeigt und tragen zu den Berechnungen der Gesamtdauer für Lernpfade bei. Wenn Sie diese Einstellung deaktivieren, werden zuvor eingegebene Kreditwerte beibehalten und wiederhergestellt, wenn die Einstellung wieder aktiviert wird.
 
+### Gruppenregistrierung
+
+Aktivieren Sie diese Einstellung, damit Autoren Öffnungsdaten für die Registrierung festlegen und Lizenzen für bestimmte Benutzergruppen in einer Kursinstanz reservieren können, bevor die allgemeine Registrierung geöffnet wird. Wenn diese Einstellung deaktiviert ist, ist die Option &quot;Lizenzen pro Benutzergruppe zuweisen&quot; bei der Konfiguration einer Kursinstanz nicht verfügbar.
+
+### Integration des sicheren Prüfungsbrowsers
+
+Aktivieren Sie diese Einstellung, damit Autoren Quizze mit der Integration des sicheren Prüfungsbrowsers konfigurieren können. Um diese Integration zu aktivieren, müssen Administratoren die Konfigurationsdatei des abgesicherten Prüfungsbrowsers für ihren Cluster oder ihre Umgebung hochladen. Wenn diese Einstellung deaktiviert ist, ist die Option &quot;Abgesicherter Prüfungsbrowser&quot; für Autoren beim Konfigurieren von Quiz nicht verfügbar.
+
 ### Modulversions-Update
 
 Mit dieser Option können Administratoren den Inhalt eines Moduls aktualisieren, ohne den Fortschritt von Teilnehmern zu unterbrechen, die bereits für Kurse registriert sind, die dieses Modul enthalten. Dies stellt sicher, dass die Teilnehmer ihre Lernreise reibungslos fortsetzen können, während Autoren die Inhalte auf dem neuesten Stand halten können. Wenn die Option aktiviert ist, können Autoren eine neue Version eines Moduls (z. B. SCORM-, AICC- oder xAPI-Pakete) hochladen, um die vorhandene zu ersetzen.
@@ -311,7 +319,7 @@ Mit dieser Option können Sie den Fußzeilenbereich der Teilnehmer-App anpassen,
 
 So können Sie die Fußzeilenlinks anpassen:
 
-1. **[!UICONTROL Links hinzufügen]**: Wählen Sie **[!UICONTROL Mehr hinzufügen]** aus und geben Sie den Namen und die URL oder E-Mail-ID in die angegebenen Felder ein. Stellen Sie sicher, dass der URL http:// oder https:// vorangestellt ist.
+1. **[!UICONTROL Links hinzufügen]**: Wählen Sie **[!UICONTROL Mehr hinzufügen]** aus und geben Sie den Namen und die URL oder E-Mail-ID in die angegebenen Felder ein. Stellen Sie sicher, dass der URL `http://` oder `https://` vorangestellt ist.
 2. **[!UICONTROL Replikation über Gebietsschemas hinweg]**: Wählen Sie **[!UICONTROL Replizieren]** aus, um die Änderungen in alle Gebietsschemas zu übertragen, sodass alle Sprachen denselben Namen und dieselbe URL erhalten.
 3. Wählen Sie **[!UICONTROL Speichern]**, um die Änderungen anzuwenden.
 
@@ -394,6 +402,48 @@ Wenn Kurse kostenpflichtig sind, können Autoren den Kurs, den Lernpfad oder den
 >
 >Bestimmte Arten von Schulungen, wie wiederkehrende Zertifizierungen und von Managern genehmigte Kurse, können nicht erworben werden.
 
+## Aktivieren der automatischen Teambildung in Adobe Learning Manager
+
+Aktivieren Sie die automatische Teambildung in den Administratoreinstellungen, damit Adobe Learning Manager die eingeschriebenen Teilnehmer vor jeder Kursinstanz in Teams gruppiert.
+
+Diese Einstellung ist optional. Teameinreichungen funktionieren ohne sie, und Kursleiter können Teams manuell erstellen.
+
+Wenn Sie diese Kontoeinstellung aktivieren, gruppiert Adobe Learning Manager registrierte Teilnehmer automatisch eine bestimmte Anzahl von Tagen vor Beginn jeder Kursinstanz in Teams. Die Einstellung ist standardmäßig deaktiviert. Autoren können den Zeitplan für ihre Kurse anpassen, und Kursleiter können weiterhin Teams manuell erstellen.
+
+### Automatische Teambildung aktivieren
+
+1. Wählen Sie in der Administrator-App **Einstellungen** > **Allgemein**.
+
+1. Wählen Sie im Abschnitt **Automatische Teambildung für teambasierte Einreichungen** die Option **Bearbeiten**. Die Option bleibt standardmäßig deaktiviert.
+
+   ![Abschnitt zur automatischen Teambildung in den allgemeinen Einstellungen](assets/Group-Team-submission-and-rubric-based-assessments-image1.png "Abschnitt zur automatischen Teambildung")
+
+1. Aktivieren Sie das Kontrollkästchen **Aktivieren**.
+
+   ![Kontrollkästchen für automatische Teambildung aktivieren](assets/Group-Team-submission-and-rubric-based-assessments-image2.png "Kontrollkästchen aktivieren")
+
+1. Geben Sie unter **Zeitplan für Teambildung** die Anzahl der Tage in das Feld **Teams erstellen** ein. Der Wert muss 0 oder höher sein. Dieses Feld ist erforderlich.
+
+   ![Teamfeld im Teambildungszeitplan erstellen](assets/Group-Team-submission-and-rubric-based-assessments-image3.png "Teambildungszeitplan")
+
+1. Wählen Sie **Speichern**.
+
+Die Einstellung funktioniert nur für Kurse, die über ein teambasiertes Dateiübermittlungsmodul und ein Startdatum der Instanz verfügen.
+
+## Auswirkungen von Änderungen auf Kurse
+
+Wenn Sie diese Einstellung ändern, gilt die Änderung nur für Kurse, die Sie nach dem Speichern erstellen. Bereits vorhandene Kurse behalten die Konfiguration bei, mit der sie veröffentlicht wurden, unabhängig davon, ob die automatische Teambildung aktiviert oder deaktiviert wurde, und sie halten ihren Zeitplan ein. Wenn Sie die Einstellung beispielsweise im März aktivieren, wird sie für im Februar erstellte Kurse nicht angezeigt, für im März oder später erstellte Kurse schon.
+
+Adobe Learning Manager wendet die Änderung nicht auf bestehende Kurse an, da dies die Autoren, Kursleiter und Teilnehmer, die bereits mit diesen Kursen arbeiten, unterbrechen könnte. Autoren und Kursleiter können mit der Konfiguration fortfahren, mit der der Kurs veröffentlicht wurde. Wenn jemand eine andere Konfiguration benötigt, kann er einen neuen Kurs erstellen und die beteiligten Personen wissen lassen, was sich ändert.
+
+Sie können die Einstellung jederzeit ändern. Ihre Auswahl gilt für alle danach erstellten Kurse, bis Sie sie erneut ändern. Auf diese Weise können Sie die Richtlinie festlegen, die zu Ihrem Unternehmen passt.
+
+* Wenn Sie die Einstellung deaktivieren, funktionieren Kurse, die bereits die automatische Teambildung verwenden, weiterhin wie konfiguriert.
+* Bereits gebildete Teams bleiben an Ort und Stelle und können von den Kursleitern weiterhin bearbeitet werden.
+* Wenn Autoren einen neuen Kurs erstellen, können sie den Zeitplan für diesen Kurs anpassen. Hier erfahren Sie, wie Autoren Teamregeln festlegen.
+
+Nachdem Sie die Einstellung deaktiviert haben, bleiben bereits gebildete Teams an Ort und Stelle. Kursleiter können sie immer noch bearbeiten.
+
 ### Warenkorb für SKU mit mehreren Artikeln aktivieren
 
 Mit dieser Option können Teilnehmer einem Warenkorb mehrere Schulungselemente (Kurse, Lernpfade, Zertifizierungen) hinzufügen und sie zusammen erwerben. Diese Funktion ist Teil der in Adobe Commerce integrierten E-Commerce-Funktion.
@@ -403,7 +453,7 @@ Diese Funktion ist besonders für Unternehmen nützlich, die mehrere Schulungsar
 **Wichtigste Funktionen:**
 
 * Mehrere Käufe: Teilnehmer können mehrere Elemente zu ihrem Warenkorb hinzufügen und sie in einer Transaktion erwerben. Weitere Informationen finden Sie unter Warenkorb mit mehreren Elementen.
-*Optimierter Checkout: Dadurch müssen die Teilnehmer für jedes Schulungselement weniger separate Käufe tätigen.
+* Optimierter Checkout: Dadurch müssen die Teilnehmer für jedes Schulungselement weniger separate Käufe tätigen.
 * SKU-Verwaltung: Administratoren können SKUs für Kurse, Lernpfade und Zertifizierungen verwalten, um eine ordnungsgemäße Verfolgung und Berichterstellung zu gewährleisten.
 
 ### Alternative Kurse/Pfade
@@ -574,7 +624,9 @@ Nachdem Sie die Funktion aktiviert haben, konfigurieren Sie, welche Felder im Fo
 
 5. Wählen Sie **Speichern**.
 
-**Hinweis:** Das Feld **Titel** ist immer erforderlich und kann nicht ausgeblendet oder optional gemacht werden.
+>[!NOTE]
+>
+>Das Feld **Titel** ist immer erforderlich und kann nicht ausgeblendet oder optional gemacht werden.
 
 Das Formular für die Einreichung der Teilnehmer spiegelt sofort Ihre Änderungen wider. Bestehende Übermittlungen sind von Änderungen der Formularkonfiguration nicht betroffen.
 
@@ -634,10 +686,10 @@ a.    Wählen Sie die Registerkarte **[!UICONTROL Teilnehmer]** im linken Bereic
 b.    Wählen Sie den Teilnehmer aus, dessen Anwesenheit Sie markieren möchten.
 c.    Wählen Sie **[!UICONTROL Aktionen]** > **[!UICONTROL Abschluss markieren]**.
 
-**Zusätzliche Hinweise:**
-
-* Manager können die Teilnehmerliste auch zu Berichtszwecken exportieren.
-* Wenn ein Kurs mehrere Instanzen enthält, können Manager die Teilnehmer separat für jede Instanz anzeigen und verwalten.
+>[!NOTE]
+>
+> Manager können die Teilnehmerliste auch zu Berichtszwecken exportieren.
+> Wenn ein Kurs mehrere Instanzen enthält, können Manager die Teilnehmer separat für jede Instanz anzeigen und verwalten.
 
 ### Einstellen
 
@@ -656,6 +708,24 @@ i. Teilnehmer, die bereits für den Kurs oder den Lernpfad registriert waren, ve
 ii. Sie können keine Aktionen mehr für eingestellte Inhalte ausführen oder anzeigen.
 b. Noch nicht eingeschriebene Teilnehmer:
 i. Teilnehmer, die sich nicht für den Kurs oder den Lernpfad registriert haben, verlieren ebenfalls den Zugriff, da der Inhalt nicht mehr im Katalog angezeigt wird.
+
+### Auswirkungen der Einstellung auf übergeordnete Lernobjekte {#retiral-impact-ho-lo}
+
+Die Einstellung **Auswirkungen auf Lernobjekte höherer Ordnung** steuert, was mit einem Lernpfad oder einer Zertifizierung passiert, wenn einer seiner Kurse oder verschachtelten Lernpfade eingestellt wird. Sie gilt nur für Lernobjekte höherer Ordnung - Lernpfade und Zertifizierungen. Wählen Sie eine der folgenden Optionen aus:
+
+* **Neue Registrierungen für Lernobjekte höherer Ordnung blockieren, die das eingestellte Lernobjekt enthalten.**
+
+  Wenn ein Lernobjekt niedrigerer Ordnung eingestellt wird, ist jeder Lernpfad oder jede Zertifizierung, der bzw. die sie enthält, für neue Registrierungen nicht mehr verfügbar. Teilnehmer, die bereits registriert sind, behalten den Zugriff auf das eingestellte Lernobjekt innerhalb des übergeordneten Lernobjekts und können fortfahren und es abschließen.
+
+* **Entfernen Sie das eingestellte Lernobjekt aus den Lernpfaden und Zertifizierungen, in denen es enthalten ist, und halten Sie es für neue Registrierungen verfügbar.**
+
+  Wenn ein Lernobjekt niedrigerer Ordnung eingestellt wird, wird es aus den Lernpfaden und Zertifizierungen entfernt, in denen es enthalten ist, und zwar genau so, als ob es manuell entfernt worden wäre. Das Lernobjekt höherer Ordnung bleibt für neue Registrierungen verfügbar, und neue Teilnehmer sehen es so, als wäre das eingestellte Objekt nie Teil davon gewesen. Bereits registrierte Teilnehmer fahren ohne das eingestellte Objekt fort, wobei ihr vorhandener Fortschritt im Teilnehmertranskript beibehalten wird und der Abschlussprozentsatz entsprechend neu berechnet wird. Teilnehmer, die das Lernobjekt höherer Ordnung bereits abgeschlossen haben, behalten ihre Abschlussnote und die Endnote.
+
+  Wenn beim Einstellen eines Lernobjekts das übergeordnete Lernobjekt ohne den verbleibenden Inhalt bleibt (z. B. wenn alle Lernobjekte oder alle erforderlichen Lernobjekte entfernt werden), wird das Objekt nicht entfernt und das übergeordnete Lernobjekt wird für neue Registrierungen blockiert.
+
+>[!NOTE]
+>
+>Die Entfernung gilt nicht für wiederkehrende Zertifizierungen, die bei Ausscheiden aus dem Dienst unverändert bleiben.
 
 ### Automatisch außer Kraft setzen
 

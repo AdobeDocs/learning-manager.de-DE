@@ -1,16 +1,16 @@
 ---
-title: Interaktionen der Teilnehmer nachverfolgen
+title: Teilnehmer-Interaktionen nachverfolgen
 description: Erfahren Sie, wie Kursleiter die Echtzeit-Interaktionsanzeige für Teilnehmer im Live-Hub verwenden, um den Browserfokus, die Chat-Aktivität und die Teilnahme an Umfragen zu überwachen.
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 3f591f2feae164b7ac2ddb5c8b34d015c0f942d4
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '286'
 ht-degree: 2%
 ---
 
-# Interaktionen der Teilnehmer nachverfolgen
+# Teilnehmer-Interaktionen nachverfolgen
 
 Die Interaktion des Teilnehmers im Live-Hub gibt den Kursleitern eine Echtzeit-Ansicht der Interaktion der Teilnehmer während einer Live-Sitzung. Sie kombiniert den Browserfokus, die Chat-Aktivität und die Teilnahme an Umfragen in einer einzigen Interaktionsstufe, die als grüne, gelbe oder rote Anzeige angezeigt wird. Nutze die Funktion, um Flecken in der Aufmerksamkeit zu erkennen und deine Zustellung in Echtzeit anzupassen.
 

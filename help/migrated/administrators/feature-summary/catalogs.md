@@ -7,10 +7,10 @@ exl-id: 5c4c147f-d389-4d8a-9480-5f3254d1aadf
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 68acc921d6c2d027ef6df082cb31389b1760f0f5
 workflow-type: tm+mt
-source-wordcount: '3238'
-ht-degree: 63%
+source-wordcount: '3588'
+ht-degree: 57%
 ---
 # Kataloge
 
@@ -26,6 +26,49 @@ In dieser Schulung erfahren Sie, wie Sie Kataloge erstellen und verwalten.
 
 Wenn Sie die Schulung nicht starten können, schreiben Sie an <almacademy@adobe.com>.
 
+## Suchen nach Katalogen {#search-catalogs}
+
+Die Katalogsuche stuft die Ergebnisse nach Relevanz ein. Eine genaue Übereinstimmung für Ihren Suchbegriff wird oben in der Liste angezeigt, gefolgt von den nächstliegenden Übereinstimmungen. Auf diese Weise können Sie den gewünschten Katalog finden, ohne lange Listen mit ähnlichen Namen durchblättern zu müssen.
+
+### Informationen zur relevanzbasierten Katalogsuche
+
+Die Katalogsuche gibt Ergebnisse in absteigender Reihenfolge der Relevanz zurück. Es verwendet dieselbe Art von Suchrangfolge und Ausdrucksübereinstimmung, die bereits in anderen Adobe Learning Manager-Sucherlebnissen für Teilnehmer und Administratoren verfügbar sind.
+
+Vor Dezember 2026 von Adobe Learning Manager wurden die Suchergebnisse nicht nach Relevanz sortiert. Wenn Ihr Konto viele Kataloge mit ähnlichen Namen enthält, z. B. ein gemeinsam genutztes Präfix gefolgt von einem Datum, einem Monat oder einer ID, könnte der gewünschte Katalog weit unten in der Liste angezeigt werden.
+
+Mit relevanter Suche:
+
+* Es wird zuerst eine exakte Übereinstimmung für den Suchbegriff angezeigt.
+* Die nächstgelegene Übereinstimmung wird als zweite angezeigt.
+* Die verbleibenden Ergebnisse folgen in absteigender Reihenfolge ihrer Relevanz.
+
+### Suchen nach einem Katalog
+
+1. Melden Sie sich bei Adobe Learning Manager als Administrator an.
+
+1. Wählen Sie im linken Navigationsbereich **Kataloge** aus.
+
+1. Geben Sie im Suchfeld den Namen des Katalogs oder einen Teil davon ein.
+
+Prüfe die Ergebnisse. Die nächste Übereinstimmung wird oben in der Liste angezeigt. Wählen Sie den erforderlichen Katalog aus der Liste aus.
+
+### Beispielsuchergebnis
+
+Angenommen, Ihr Konto enthält Kataloge mit Namen, die sich nur um einige Zeichen unterscheiden. Die folgende Tabelle zeigt, wie die Ergebnisse sortiert werden, wenn Sie nach dem Begriff 5. März suchen.
+
+| Suchbegriff | Ergebnisposition | Typ abgleichen |
+|---|---|---|
+| &#x200B;5. März | Die ersten | Genaue Übereinstimmung |
+| &#x200B;5. März, gefolgt von zusätzlichen Zeichen, wie 52. März | Sekunde | Nächste nächste Übereinstimmung |
+| Andere Kataloge mit ähnlichem Text | Nach den engsten Spielen | Geringere Relevanz |
+
+Wenn Sie stattdessen nach &quot;52. März&quot; suchen, wird zuerst der Katalog mit dem Namen &quot;52. März&quot; angezeigt, gefolgt von den nächstliegenden Übereinstimmungen.
+
+Die Relevanzbasierte Suche ist am nützlichsten, wenn Ihr Unternehmen Hunderte oder Tausende von Katalogen verwaltet. Dies hilft Ihnen:
+
+* Suchen nach einem bestimmten Katalog ohne Bildlauf oder manuelle Suche.
+* Unterscheiden Sie Kataloge mit gängigen Benennungsmustern.
+* Erhalten Sie ein Suchverhalten, das mit anderen Adobe Learning Manager-Sucherlebnissen übereinstimmt.
 
 ## Katalog erstellen {#createacatalog}
 

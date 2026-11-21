@@ -7,10 +7,10 @@ exl-id: 31f1d66f-4da1-49d2-8ec1-995fd2ebeadb
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 463f53a7b0a6ca5a9ee8d2926ffe341acc29c91c
 workflow-type: tm+mt
-source-wordcount: '1461'
-ht-degree: 61%
+source-wordcount: '1483'
+ht-degree: 59%
 ---
 # Lernpläne
 
@@ -78,9 +78,9 @@ Wenn Sie „Geordnet“ auswählen, erscheinen die Kurse in der Reihenfolge, in 
 
 Um einen Kurs im Lernplan hinzuzufügen, klicken Sie auf **[!UICONTROL Kurse oder Lernpläne hinzufügen]**.
 
-Wählen Sie im angezeigten Dialogfeld die Schulung aus, die Sie dem Lernplan hinzufügen möchten.
+Wählen Sie im daraufhin angezeigten Fenster die Schulung aus, die Sie dem Lernpfad hinzufügen möchten. Jeder Eintrag zeigt den Namen, den Typ (Kurs oder Lernpfad), den Veröffentlichungsstatus und das Kursformat an, z. B. Selbststudium, Virtuell, Klassenzimmer oder Gemischt.
 
-![](assets/choose-training.png)
+![](assets/LP_4.png)
 
 *Schulung zum Lernpfad hinzufügen*
 

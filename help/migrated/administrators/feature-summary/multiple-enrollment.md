@@ -5,7 +5,7 @@ exl-id: c430545d-b48e-432d-a278-658c9281818f
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 370f9abfd6ba47ad1364452ac4314b1ee6392a65
 workflow-type: tm+mt
 source-wordcount: '624'
 ht-degree: 70%
@@ -90,3 +90,5 @@ Wenn der Teilnehmer bereits in einer Instanz registriert ist und Sie als Adminis
 ## Berichte
 
 Für Teilnehmende, die für zwei Instanzen desselben Kurses registriert sind, werden für jede Kursinstanz zwei Zeilen erstellt. Der Bericht zeigt auch den Fortschritt der Instanzen an.
+
+

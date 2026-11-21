@@ -6,10 +6,10 @@ contentowner: mmanuel
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 6c26277dfbd20374e57273f8371b360ee770a0df
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 2%
+source-wordcount: '747'
+ht-degree: 1%
 ---
 
 # Erstellen eines benutzerdefinierten Berichts im Report Builder
@@ -46,7 +46,24 @@ In diesem Beispiel identifizieren Sie die Teilnehmer unter jedem Manager, die f�
    ![](assets/report-builder-0014.png)
 
 7. Ordnen Sie Spalten neu an, indem Sie sie auf die Arbeitsfläche ziehen.
-8. Um eine Spalte umzubenennen, geben Sie einen Namen in das Aliasfeld der Spalte ein. Der Alias wird als Spaltenüberschrift in der heruntergeladenen Datei angezeigt.
+8. Um eine Spalte umzubenennen, geben Sie einen Namen in das Feld **Alias** der Spalte ein. Wenn Sie einen Alias angeben, wird der Alias als Spaltenüberschrift verwendet. Wenn Sie keinen Alias angeben, enthält die Standardspaltenüberschrift den Datasetnamen. Beispielsweise wird &quot;Name&quot; aus dem Lernobjektdataset als &quot;Lernobjekt - Name&quot; angezeigt.
+
+   **Spaltenüberschriften**
+
+   Report Builder fügt den Datasetnamen in die Standardspaltenüberschriften ein, um die Unterscheidung von Spalten mit ähnlichen Namen in den Datasets zu erleichtern. Wenn Sie beispielsweise den Namen aus dem Lernobjektdataset auswählen, wird die Spaltenüberschrift als Lernobjekt - Name angezeigt.
+
+   Wenn Sie einen benutzerdefinierten Alias für eine Spalte angeben, verwendet der Report Builder den Alias anstelle der Standardspaltenüberschrift.
+
+   **Auswirkungen auf vorhandene Berichte**
+
+   Nach dem Upgrade werden in vorhandenen Berichten, die standardmäßige Spaltennamen ohne benutzerdefinierte Aliase verwenden, die aktualisierten Spaltenüberschriften angezeigt. Beispielsweise ändert sich der Name aus dem Lernobjektdataset von Name in Lernobjekt - Name.
+
+   Berichtsdaten, Filter und Zeitpläne sind davon nicht betroffen.
+
+   Wenn Sie die Berichtsausgabe in Skripten, Kalkulationstabellen, BI-Dashboards oder Integrationen verwenden, die Spalten nach Überschriften referenzieren, überprüfen Sie Ihre Downstream-Systeme und aktualisieren Sie die Verweise auf die vorherigen Spaltenüberschriften nach Bedarf.
+
+   Um eine bestimmte Spaltenüberschrift beizubehalten, legen Sie einen benutzerdefinierten Alias für die Spalte fest.
+
 9. Wählen Sie **Bericht speichern**.
 
 ## Bericht herunterladen
@@ -106,6 +123,10 @@ Datensätze nach Manager gruppieren in:
 4. Wählen Sie **Count** als Aggregatfunktion für die Spalten aus.
 
    ![](assets/report-builder-0019.png)
+
+   **Spaltenüberschriften für aggregierte Spalten:**
+
+   Wenn Sie eine Aggregatfunktion anwenden, enthält die Standardspaltenüberschrift die Aggregatfunktion. Wenn Sie beispielsweise **Anzahl** auf **Lernobjekt - ID** anwenden, wird die Spaltenüberschrift als **Anzahl** von **Lernobjekt - ID** angezeigt. Wenn Sie einen benutzerdefinierten Alias angegeben haben, bleibt der Alias unverändert.
 
 5. Wiederholen Sie diesen Vorgang für Lernobjekt - Lernobjektname.
 

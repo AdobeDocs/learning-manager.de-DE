@@ -6,9 +6,9 @@ exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 2fc477a745fef442f52027e4e6a03a290655d1f5
 workflow-type: tm+mt
-source-wordcount: '3245'
+source-wordcount: '3457'
 ht-degree: 0%
 ---
 # KI-Assistent für Teilnehmende
@@ -26,48 +26,72 @@ Mit dem KI-Assistenten können Sie schnelle, genaue Antworten auf Ihre zugewiese
 >Diese Funktion ist in FedRAMP-autorisierten Umgebungen nicht verfügbar. Weitere Informationen finden Sie unter [Verfügbarkeit von Funktionen in FedRAMP-Umgebungen](/help/migrated/feature-availability-in-fedramp-authorized-environment.md).
 
 
-## Was ist der KI-Assistent für Teilnehmer?
+## Zitate von Lernpfaden und Agenten im Teilnehmerassistenten {#learning-path-citations}
 
-Der AI Assistant ist ein generativer KI-gestützter Chat-Begleiter in Adobe Learning Manager, der schnelle, präzise Antworten mithilfe Ihrer vertrauenswürdigen Lerninhalte bereitstellt. Sie enthält Zitate, damit Sie immer wissen, aus welcher Quelle die Informationen stammen.
+Der Teilnehmer-Assistent führt jetzt relevante Lernpfade neben Kursen auf, sodass Teilnehmer breiter strukturiertes Lernen zu ihrem Thema finden können. Administratoren können auch einzelne Teilnehmer-Assistant-Agenten ein- oder ausschalten, um zu steuern, welche KI-Funktionen Teilnehmer in Adobe Learning Manager verwenden können.
 
-### Funktionen
+### Zitate von Lernpfaden in Antworten des Teilnehmerassistenten
 
-- **Intelligente Frageantwort**
-  - Gespräche mit einer und mehreren Gängen
-  - Natürliches Sprachverständnis auf Englisch
-  - Antworten auf Kurse, Zertifizierungen, Lernpfade und Arbeitshilfen
-  - Intelligente Klärung von Fragen bei mehrdeutigen Abfragen
+Der Teilnehmer-Assistent führt jetzt relevante Lernpfade neben Kursen auf, sodass Teilnehmer breiter strukturiertes Lernen zu ihrem Thema finden können.
 
-- **Inhaltsquellen und Zitate**
-  - Ruft Antworten aus verfügbaren Ressourcen in unterstützten Katalogen ab
-  - Bietet Zitate mit direkten Links zu Quell-Materialien
-  - Unterstützt alle Learning Manager-Inhaltsformate (statisch und interaktiv): PDF, DOCX, PPTX, XLSX, Audio (MP3, WAV, M4A), Video (MP4, MOV, WMV), HTML, SCORM 2004 und SCORM 1.2
+### Wie funktionieren Zitationen von Lernpfaden im Teilnehmerassistenten
 
-- **Benutzererlebnis**
-  - Seitenbedienfeld, über alle Teilnehmerseiten zugänglich
-  - Responsives Design, das sich an den Inhaltsbereich anpasst
-  - Chat-Verlauf in der Browsersitzung beibehalten
-  - Löschen von Schiefer bei neuer Anmeldung oder Seitenaktualisierung
-  - Freundlicher, klarer und pädagogisch solider Ton
+Wenn der Teilnehmerassistent eine Frage beantwortet, listet er die Lerninhalte auf, die er als Zitate verwendet hat. In früheren Versionen wurden nur Kurse zitiert. Der Teilnehmer-Assistent führt jetzt auch Lernpfade und Zertifizierungen an, die für die Frage relevant sind. Teilnehmer können eine Lernaktivitäts-Zitation öffnen, um das strukturierte Lernen in Bezug auf ihr Thema anzuzeigen.
 
-- **Administratorsteuerung**
-  - Aktivieren oder Deaktivieren der Funktion auf Kontoebene
-  - Auswählen, welche Kataloge für AI-Antworten enthalten sind
-  - Akzeptieren der Nutzungsbedingungen gemäß den Adobe AI-Richtlinien
+### Was bestimmt, welche Zitate angezeigt werden
 
-## Funktionen des AI Assistant.
+* Der Teilnehmer-Assistent zeigt nur dann eine Zitation an, wenn der Lerninhalt für die Frage relevant und für den Teilnehmer im Katalog sichtbar ist.
+* Wenn ein Kurs oder ein Lernpfad für den Teilnehmer nicht sichtbar ist, zeigt der Teilnehmer-Assistent ihn nicht an.
+* Wenn sowohl ein Kurs als auch ein relevanter Lernpfad sichtbar sind, kann der Teilnehmer-Assistent beide in einer Hierarchieformat anzeigen.
+* Wenn Sie einen Lernpfad-Aufruf auswählen, wird dieser Lernpfad geöffnet.
 
-Der AI Assistant ist ein generativer KI-gestützter Chat-Begleiter, der Fragen mithilfe Ihrer zugewiesenen Lerninhalte beantwortet. Jede Antwort umfasst Zitate mit Direktverknüpfungen zum Quell-Material, sodass Sie Informationen überprüfen und das Lernen im Kontext fortsetzen können.
+### Suchen Sie einen Lernpfad über den Lernassistenten
 
-Zusätzlich zur Beantwortung von Fragen kann der AI Assistant:
+1. Öffnen Sie **Teilnehmerassistent** und stellen Sie eine Frage zu einem Thema.
 
-- **Lernobjekte zusammenfassen** - Erstellen Sie eine kurze Übersicht über alle Kurse, Arbeitshilfen, Lernpfade oder Zertifizierungen in Ihrem Katalog, ohne sie zu öffnen.
-- **Lernobjekte vergleichen** — Unterschiede zwischen zwei Kursen nebeneinander identifizieren, um zu entscheiden, welcher Kurs zu Ihren Lernzielen passt
-- **Beantwortung von Fragen zur Vorgehensweise** — Quellantworten von Adobe Experience League, der offiziellen Hilfedokumentation der Adobe, für Fragen zur Verwendung von Adobe Learning Manager als Teilnehmer
-- **Inhalte von Drittanbietern abfragen** — Fragen zu Go1- oder LinkedIn Learning-Kursen stellen, wenn Ihr Administrator diese Kataloge hinzugefügt hat
-- **Erstellen eines personalisierten Lernpfads** - Führen Sie eine geführte Unterhaltung mit dem AI-Assistenten, um einen benutzerdefinierten, sequenziellen Lernplan basierend auf Ihren Zielen, Ihrem Hintergrund und der verfügbaren Zeit zu erstellen.
+1. Lesen Sie die Antwort und die zugehörigen Zitate.
 
-Ihr Administrator steuert, welche Kataloge der AI-Assistent verwendet. Wenn Sie keinen Zugriff auf einen Kurs haben, zeigt der AI Assistant keine Informationen aus diesem Kurs an.
+1. Wählen Sie einen Kurs oder eine Lernpfad-Zitation aus, um ihn bzw. sie zu öffnen.
+
+### Fehlerbehebung bei der Zitation von Lernpfaden
+
+**Ein Lernpfad wird nicht als Zitat angezeigt**
+
+Bestätigen Sie, dass der Lernpfad für die Frage relevant und für den Teilnehmer im Katalog sichtbar ist. Der Teilnehmer-Assistent zeigt keine Inhalte an, die für den Teilnehmer ausgeblendet sind.
+
+## Konfigurieren von Teilnehmerassistenten
+
+Schalten Sie die einzelnen Teilnehmer-Assistenten-Agenten ein oder aus, um zu steuern, welche KI-Funktionen Ihre Teilnehmer in Adobe Learning Manager verwenden können.
+
+### Was sind Teilnehmer-Assistenten?
+
+Administratoren können den Teilnehmerassistenten für das gesamte Konto aktivieren oder deaktivieren. Ab dieser Version können Administratoren auch die einzelnen Agenten steuern, aus denen der Teilnehmer-Assistent besteht. Sie können eine beliebige Agentenkombination aktivieren.
+
+| Agent | Leistungsmerkmale. | AI-Credits |
+|---|---|---|
+| **Knowledge Agent** | Der Standard-Agent. Immer verfügbar, wenn der Teilnehmer-KI-Assistent aktiviert ist. | Keine Credits verbraucht |
+| **Antwort-Agent** | Beantwortet Fragen mit dem im Katalog verfügbaren Inhalt | Verwendet erworbene AI-Credits pro Abfrage |
+| **Learning Path Agent** | Erstellt personalisierte Lernpfade für Teilnehmer. | Verwendet erworbene AI-Credits pro Abfrage |
+
+>[!NOTE]
+>
+>Der Administrator-AI-Assistent verfügt über dieselben Steuerelemente auf Agentenebene mit dem **Knowledge Agent** und dem **Insights Agent**.
+
+### Teilnehmer-Assistenten aktivieren oder deaktivieren
+
+1. Melden Sie sich bei Adobe Learning Manager als Administrator an.
+
+1. Wählen Sie im linken Navigationsbereich **AI in Learning**.
+
+   ![AI in Learning-Option im linken Navigationsbereich](assets/Learning-paths-in-Learner-Assistant-citations-image1.png "AI in Learning")
+
+1. Wählen Sie im Abschnitt &quot;AI-Assistent für Teilnehmer&quot; die Option &quot;**Bearbeiten**&quot; aus und schalten Sie jeden Agenten nach Bedarf ein oder aus.
+
+   ![Abschnitt &quot;Teilnehmer-KI-Assistent&quot; mit Agent-Wechseln](assets/Learning-paths-in-Learner-Assistant-citations-image2.png "Teilnehmer-Assistent-Agenten")
+
+1. Speichern Sie Ihre Änderungen.
+
+Der Teilnehmerassistent enthält jetzt alle aktivierten Agents, die ein Teilnehmer verwenden kann.
 
 ## Unterstützte Inhaltstypen
 
@@ -357,7 +381,7 @@ Der Lernassistent von Adobe Learning Manager kann Teilnehmerfragen zu Lernobjekt
 
 >[!IMPORTANT]
 >
->Voraussetzung ist, dass ein Administrator die erforderlichen Kataloge dem Teilnehmer-Assistenten hinzufügt. Weitere Informationen finden Sie unter [Zugriff auf AI Assistant konfigurieren](https://experienceleague.adobe.com/de/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access).
+>Voraussetzung ist, dass ein Administrator die erforderlichen Kataloge dem Teilnehmer-Assistenten hinzufügt. Weitere Informationen finden Sie unter [Zugriff auf AI Assistant konfigurieren](https://experienceleague.adobe.com/en/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access).
 
 
 Wenn ein Administrator einen Go1- oder LinkedIn-Lernkatalog zu Adobe Learning Manager hinzufügt, durchläuft der Kataloginhalt einen geplanten Aufnahmeprozess. Nach Abschluss der Aufnahme sind die Lernobjekte aus diesem Katalog für die Abfrage durch den Lernassistenten verfügbar.
@@ -379,8 +403,9 @@ Der Lern-Assistent kann Lerninhalte zu Go1 oder LinkedIn abfragen:
 
 ## Beheben von Problemen mit dem AI-Assistenten
 
-> **HINWEIS**
-> Nachdem Sie einen neuen Katalog konfiguriert haben, warten Sie 4 bis 5 Stunden, bis der Inhalt indiziert und für die Antworten des AI-Assistenten verfügbar ist.
+>[!NOTE]
+>
+>Nachdem Sie einen neuen Katalog konfiguriert haben, warten Sie 4 bis 5 Stunden, bis der Inhalt indiziert und für die Antworten des AI-Assistenten verfügbar ist.
 
 ### Kein Zugriff auf Inhalte
 
@@ -429,10 +454,14 @@ Der Lern-Assistent kann Lerninhalte zu Go1 oder LinkedIn abfragen:
 
 Der AI Assistant ist darauf ausgelegt, Fragen nur auf der Grundlage zugewiesener Lerninhalte zu beantworten, und antwortet nicht auf Anfragen außerhalb des Zuständigkeitsbereichs.
 
-### Go1- oder LinkedIn-Lernkurse werden nicht in der Lernassistentensuche angezeigt
-
+**Go1- oder LinkedIn-Lernkurse werden nicht in der Lernassistentensuche angezeigt**
 Bestätigen Sie mit Ihrem Administrator, dass der Katalog &quot;Go1&quot; oder &quot;LinkedIn Learning&quot; zu Adobe Learning Manager hinzugefügt wurde und dass die Katalogaufnahme abgeschlossen ist. Die Aufnahme kann bis zu ein bis zwei Stunden nach dem Hinzufügen des Katalogs dauern.
 
-### Ein kürzlich hinzugefügter Kurs ist noch nicht verfügbar
-
+**Ein kürzlich hinzugefügter Kurs ist noch nicht verfügbar.**
 Warten Sie, bis die geplante Katalogsynchronisierung abgeschlossen ist. Wenn der Kurs nach zwei Stunden immer noch nicht angezeigt wird, wenden Sie sich an Ihren Administrator, um zu bestätigen, dass die Katalogverbindung aktiv ist.
+
+**Ein Lernpfad wird nicht als Zitat angezeigt**
+Bestätigen Sie, dass der Lernpfad für die Frage relevant und für den Teilnehmer im Katalog sichtbar ist. Der Teilnehmer-Assistent zeigt keine Inhalte an, die für den Teilnehmer ausgeblendet sind.
+
+**Was sehen Teilnehmer, wenn ein Agent deaktiviert ist?**
+Der Teilnehmer-Assistent führt keinen deaktivierten Agenten aus. Wenn Sie beispielsweise den **Antwort-Agent** deaktivieren und ein Teilnehmer eine Frage stellt, die diese benötigt, gibt der Teilnehmer-Assistent keine kursbasierte Zusammenfassung zurück. Es bietet Optionen von den Agenten, die noch aktiviert sind.

@@ -4,15 +4,19 @@ description: Erfahren Sie, wie Teilnehmer während einer Live-Hub-Sitzung Untert
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 38dba6765ff013e446ab1f6098e9f1df0c24d0f9
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '290'
 ht-degree: 0%
 ---
 
 # Verwalten von Untertiteln als Teilnehmer
 
 Untertitel zeigen gesprochene Inhalte als Bildschirmtext an, sodass eine Live-Hub-Sitzung einfacher zu befolgen ist, z. B. wenn Sie sich in einer lauten Umgebung befinden oder es vorziehen, zusammen mit dem Audio zu lesen. Sie können Ihre eigenen Untertitel über die Schaltfläche für Untertitel (CC) in der Steuerungsleiste steuern. In diesem Handbuch wird erläutert, wie Sie als Teilnehmer Untertitel anzeigen, anpassen und ausblenden.
+
+>[!NOTE]
+>
+>Untertitel werden in der Sprache angezeigt, die der Kursleiter für die Sitzung ausgewählt hat.
 
 ## Anzeigen von Bilduntertiteln
 

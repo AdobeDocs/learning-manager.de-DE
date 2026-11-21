@@ -1,16 +1,16 @@
 ---
-title: Erstellen einer Live Hub (Beta)-Sitzung
+title: Eine Live Hub-Sitzung erstellen
 description: Erfahren Sie, wie Sie einen Live Hub-Kurs erstellen, Kursinstanzen hinzufügen, Kursleiter mit dem Kursleiter-Finder zuweisen, Teilnehmer registrieren und das Branding des Raums anpassen.
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 9d05ad4a059bd1fec6e64f050070dae336ba2d1b
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1617'
 ht-degree: 0%
 ---
 
-# Erstellen einer Live Hub (Beta)-Sitzung
+# Eine Live Hub-Sitzung erstellen
 
 Verwenden Sie den Live Hub , um Live-Schulungen mit Kursleiter innerhalb eines Adobe Learning Manager-Kurses bereitzustellen. Sie können Live-Hub-Sitzungen mit Inhalten zum Selbststudium kombinieren, um ein gemischtes Lernerlebnis zu schaffen.
 
@@ -135,13 +135,53 @@ So fügen Sie Kursleiter mit dem Kursleiter-Finder hinzu:
 
 1. Navigieren Sie zu dem Kursleiter, den Sie zuweisen möchten, und wählen Sie dann **Hinzufügen** aus. <br> Der ausgewählte Kursleiter wird dem Feld **Kursleiter** als Tag hinzugefügt.
 
+## Kurs für große Sitzungen erstellen {#create-large-session}
+
+Der Live Hub unterstützt große Sessions mit bis zu 5.000 Teilnehmern. Wenn Sie einen Kurs mit dieser Kapazität erstellen, konfiguriert Live Hub automatisch den Raum für eine große Zielgruppe und wendet die entsprechenden Funktionsbeschränkungen an.
+
+So erstellen Sie eine große Sitzung:
+
+1. Melden Sie sich bei der ALM als **Autor** an.
+1. Wählen Sie **Hinzufügen** auf der Seite **Kurskatalog** aus.
+1. Geben Sie den Kursnamen und die Beschreibung ein.
+1. Wählen Sie im Abschnitt **Module** die Option **Inhalt** > **Module hinzufügen** aus. Das Popupfenster **Modultyp auswählen** wird angezeigt.
+1. Wählen Sie **Virtuelles Klassenzimmer** und geben Sie die Kursdetails ein, einschließlich Titel, Beschreibung, Zeitzone, Start- und Enddatum sowie Start- und Endzeit.
+1. Wählen Sie **Live Hub** in **Virtuelle Live-Schulungstools** aus.
+1. Wählen Sie **5000 Teilnehmerkapazität aktivieren**. Wenn Sie diese Option nicht aktivieren, unterstützt die Sitzung bis zu 1100 Teilnehmer.
+
+   ![Dialogfeld &quot;Virtuelles Klassenzimmer&quot; mit ausgewähltem Live-Hub und der Option &quot;5000 Teilnehmer aktivieren&quot;](assets/virtual-classroom-enable-5000-attendee-capacity.png "Dialogfeld &quot;Virtuelles Klassenzimmer&quot; mit ausgewähltem Live-Hub und der Option &quot;5000 Teilnehmer aktivieren&quot;")
+
+1. Wählen Sie **Speichern** > **Publish**.
+
+### Funktionen in großen Sessions
+
+Wenn ein Kursleiter die Sitzung öffnet, zeigen die Raumeinstellungen an, dass Einschränkungen für große Sitzungen gelten.
+
+| Funktion | Verhalten in einer großen Sitzung |
+|---|---|
+| **Teilnehmer** | Eine große Session unterstützt bis zu 5.000 Teilnehmer. Sobald die Sitzung dieses Limit erreicht hat, können keine weiteren Teilnehmer mehr teilnehmen. |
+| **Kameras** | Bis zu 10 Kursleiter können ihre Kameras gleichzeitig aktivieren. Teilnehmer können ihre Kameras nicht aktivieren. Wenn das Limit für die Kamera erreicht wurde, wird eine Meldung angezeigt, wenn ein anderer Kursleiter versucht, seine Kamera zu aktivieren.<p>Zugleich gestellte Kameras werden als Stapel verarbeitet. Daher kann die Anzahl der aktiven Kameras den konfigurierten Grenzwert überschreiten. In der QuickInfo der Schaltfläche &quot;Kamera&quot; wird jedoch weiterhin das konfigurierte Limit angezeigt. |
+| **Mikrofone** | Bis zu 20 Teilnehmer können die Stummschaltung ihrer Mikrofone gleichzeitig aufheben. Wenn das Mikrofonlimit erreicht ist, wird eine Meldung angezeigt, wenn ein anderer Teilnehmer versucht, die Stummschaltung aufzuheben.<p>Gleichzeitig gestellte Mikrofonanfragen werden als Stapel verarbeitet. Dies hat zur Folge, dass die Anzahl der Teilnehmer, die die Stummschaltung aufheben, vorübergehend die konfigurierte Grenze überschreiten kann. |
+| **Arbeitsräume** | Das Symbol für den Arbeitsraum bleibt sichtbar, aber Kursleiter können keine Arbeitsräume starten. Eine Meldung wird angezeigt, wenn versucht wird, eine zu starten. |
+| **Bildschirmfreigabe und Whiteboard** | Nur Kursleiter können ihre Bildschirme freigeben und das Whiteboard verwenden. Kursleiter können diese Berechtigungen nicht für Teilnehmer bereitstellen. |
+| **Privater Chat** | Teilnehmer können private Nachrichten an Kursleiter senden, aber keine privaten Nachrichten an andere Teilnehmer senden. |
+| **Eingabeindikator** | Die Tippanzeige wird in großen Sitzungen nicht angezeigt. |
+| **Chat, Reaktionen, Fragen und Wortmeldungen** | Das System verarbeitet diese Interaktionen stapelweise, sodass sie nach einer kurzen Verzögerung auftreten können. Der Live-Hub gruppiert auch Reaktionen und zeigt jeweils eine begrenzte Anzahl an. |
+| **Chatverlauf** | Das System entfernt automatisch ältere Chat-Nachrichten, wenn der Chat-Verlauf zu groß wird, um die Stabilität der Sitzung aufrechtzuerhalten. |
+| **Umfragen, Tests, Aufzeichnung und Anwesenheit** | Diese Funktionen funktionieren auf die gleiche Weise wie in regulären Sitzungen. |
+| **KI-Funktionen** | <ul><li>Das System erkennt Fragen im Chat und zeigt sie im Bereich **Fragen** an, obwohl sie möglicherweise nach einer kurzen Verzögerung angezeigt werden.</li><li>KI-Funktionen für Arbeitsräume sind nicht verfügbar, da große Sitzungen keine Arbeitsräume unterstützen.</li><li>Andere KI-Funktionen funktionieren genauso wie in regulären Sitzungen.</li></ul> |
+
+>[!NOTE]
+>
+>Ohne die Option **5000 Teilnehmerkapazität aktivieren** unterstützt eine reguläre Sitzung bis zu 1.100 Teilnehmer, 50 Kameras und 20 nicht stummgeschaltete Teilnehmer.
+
 ## Teilnehmer für den Kurs registrieren
 
 Die Registrierung von Teilnehmern für einen Live Hub-Kurs hat zwei Möglichkeiten:
 
-1. Ein **Administrator** registriert die Teilnehmer gemäß den Anforderungen des Unternehmens für den Kurs. Weitere Informationen finden Sie unter [Kursinstanzen und Lernpfade erstellen](https://experienceleague.adobe.com/de/docs/learning-manager/using/admin/courses).
+1. Ein **Administrator** registriert die Teilnehmer gemäß den Anforderungen des Unternehmens für den Kurs. Weitere Informationen finden Sie unter [Kursinstanzen und Lernpfade erstellen](https://experienceleague.adobe.com/en/docs/learning-manager/using/admin/courses).
 
-1. Teilnehmer können sich selbst direkt über die Seite **Katalog** für den Kurs registrieren. Wenn der Kurs für die Selbstregistrierung konfiguriert ist, werden die Teilnehmer sofort registriert und können über **Meine Lernergebnisse** auf den Kurs zugreifen. Weitere Informationen finden Sie unter [Meine Lernergebnisse](https://experienceleague.adobe.com/de/docs/learning-manager/using/learner/courses).
+1. Teilnehmer können sich selbst direkt über die Seite **Katalog** für den Kurs registrieren. Wenn der Kurs für die Selbstregistrierung konfiguriert ist, werden die Teilnehmer sofort registriert und können über **Meine Lernergebnisse** auf den Kurs zugreifen. Weitere Informationen finden Sie unter [Meine Lernergebnisse](https://experienceleague.adobe.com/en/docs/learning-manager/using/learner/courses).
 
 Nach der Registrierung werden die Teilnehmer dem Kurs hinzugefügt und erhalten eine Benachrichtigung in ihrem Adobe Learning Manager-Konto. Abhängig von den E-Mail-Benachrichtigungseinstellungen des Kontos erhalten die Teilnehmer möglicherweise auch eine Einladung zur Teilnahme am Kurs per E-Mail.
 

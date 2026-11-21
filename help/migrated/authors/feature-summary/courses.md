@@ -7,10 +7,10 @@ exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 971f5a08a1493d5ae02deaa161a965865c107b64
 workflow-type: tm+mt
-source-wordcount: '10239'
-ht-degree: 56%
+source-wordcount: '12332'
+ht-degree: 47%
 ---
 # Erstellen, Ändern und Veröffentlichen von Kursen
 
@@ -53,7 +53,7 @@ Um einen Kurs zu erstellen, führen Sie die unten genannten Schritte aus:
 1. Melden Sie sich als Autor bei Adobe Learning Manager an, da nur Autoren berechtigt sind, Kurse zu erstellen. Wählen Sie nun auf der Startseite **[!UICONTROL Kurse erstellen]**. Die Seite &quot;Kurskatalog&quot; wird geöffnet und eine Liste der Kurse wird angezeigt.
 2. Wählen Sie rechts oben **Hinzufügen** aus. Eine Seite wird geöffnet, auf der Sie einen neuen Kurs erstellen können.
 3. Geben Sie einen Namen für den Kurs und eine kurze Beschreibung ein. Diese Beschreibung wird auf der Kurskarte angezeigt. Diese Beschreibung darf nicht länger als 140 Zeichen sein. Geben Sie anschließend die Detailübersicht für den Kurs ein, die auf der Seite „Kursdetails“ angezeigt wird. Die Beschreibung darf nicht länger als 1500 Zeichen sein.
-4. Um den Kurs in anderen Sprachen zur Verfügung zu stellen, klicken Sie in der oberen linken Ecke der Seite auf „Neue Sprache hinzufügen“. Wählen Sie die Sprache/Sprachen, in denen der Kurs bereitgestellt werden soll. Klicken Sie auf **[!UICONTROL Speichern]**. Weitere Informationen finden Sie unter [Inhalt für verschiedene Sprachen hinzufügen](/help/migrated/authors/feature-summary/content-library.md).
+4. Um Ihren Kurs in anderen Sprachen verfügbar zu machen, wählen Sie oben links auf der Seite **Neue Sprache hinzufügen**. Wählen Sie die Sprache/Sprachen, in denen der Kurs bereitgestellt werden soll. **Auswählen** **[!UICONTROL Speichern]**. Weitere Informationen finden Sie unter [Inhalt für verschiedene Sprachen hinzufügen](/help/migrated/authors/feature-summary/content-library.md).
 5. **Kurseinstellungen ändern** -
 
    a. Wählen Sie auf der Seite „Kurseinstellungen“ Kenntnisse für den Kurs aus. Wählen Sie aus der Dropdown-Liste „Kenntnisse“ die gewünschtem Kenntnisse aus. Wählen Sie dann in der Dropdown-Liste „Stufe“ die gewünschte Stufe aus.
@@ -151,6 +151,124 @@ Nachdem Sie &quot;Gradebook&quot; aktiviert haben, fügen Sie Ihre Inhaltsmodule
 >
 >Die Bewertungsskala muss nicht zwischen den Bereitstellungstypen übereinstimmen. Eine von 100 bewertete Klassenzimmersitzung und ein von 10 bewertetes SCORM-Modul können im selben Schulungsbuch nebeneinander existieren. Die Formel normalisiert jeden Beitrag automatisch.
 
+### Hinzufügen eines teambasierten Einreichungsmoduls in Adobe Learning Manager
+
+Fügen Sie ein Team-basiertes Modul für die Dateiübermittlung hinzu, damit ein Team-Mitglied eine Datei für das gesamte Team hochladen und festlegen kann, wie sie geprüft und bewertet wird.
+
+Mit einem Team-basierten Modul zum Einreichen von Dateien kann ein Teilnehmer eine Datei im Namen eines Teams einreichen. Der Kursleiter bewertet es einmal, und das Ergebnis gilt für jedes Teammitglied. Sie müssen das Modul hinzufügen, bevor Sie den Kurs veröffentlichen.
+
+### Modul zu einem Kurs hinzufügen
+
+1. Melden Sie sich bei Adobe Learning Manager als Autor an.
+
+1. Erstellen Sie in der Autoren-App einen Kurs oder öffnen Sie einen nicht veröffentlichten Kurs.
+
+1. Ein neues Aktivitätsmodul hinzufügen.
+
+1. Wählen Sie den Aktivitätstyp für die Dateiübermittlung aus.
+
+1. Wählen Sie die teambasierte Option aus. Die Option &quot;Einzel&quot; ist das frühere Modul zum Einreichen von Dateien für einzelne Teilnehmer.
+
+   ![Teambasierte Option für das Dateiübermittlungsmodul](assets/Group-Team-submission-and-rubric-based-assessments-image4.png "Teambasierte Option")
+
+1. Wählen Sie den oder die Kursleiter aus.
+
+1. Legen Sie die Moduldauer fest.
+
+Ein Kurs kann teambasierte und individuelle Einreichungsmodule umfassen. Alle Team-basierten Module in einer Kursinstanz verwenden dieselben Teams.
+
+### Wählen Sie die Überprüfungs- und Bewertungsoptionen
+
+1. Öffnen Sie das Team-basierte Modul zum Einreichen von Dateien.
+
+1. Wählen Sie aus, ob **die Genehmigung des Reviewers erforderlich ist**.
+
+   * Wenn Sie sie aktivieren, muss ein Kursleiter jede Einreichung genehmigen oder ablehnen, bevor das Modul abgeschlossen wird.
+   * Wenn Sie die Option deaktivieren, wird das Modul für alle Team-Mitglieder abgeschlossen, sobald das Team es übermittelt.
+
+1. Bewertungsmethode auswählen:
+
+   * Wählen Sie eine manuelle Bewertung aus, damit der Kursleiter eine Gesamtpunktzahl eingeben kann.
+   * Wählen Sie eine auf Kriterien basierende Bewertung aus, um die Punktzahl aus den Punkten jeder Evaluierungsplanoption zu berechnen. Diese Methode erfordert einen Evaluierungsplan.
+
+     ![Überprüfungs- und Bewertungsoptionen für das teambasierte Dateiübermittlungsmodul](assets/Group-Team-submission-and-rubric-based-assessments-image5.png)
+
+>[!CAUTION]
+>
+>Nachdem Sie den Kurs veröffentlicht haben, können Sie das Modul nicht entfernen, seine Einstellungen ändern oder mehrere Bereitstellungstypen für ihn verwenden.
+
+### Hinzufügen eines Evaluierungsplans zu einem Dateiübermittlungsmodul
+
+Erstellen Sie einen Evaluierungsplan für Einzel- oder Team-Einreichungen, indem Sie einem Dateiübermittlungsmodul objektive und subjektive Fragen hinzufügen.
+
+Ein Evaluierungsplan umfasst Fragen, die von den Kursleitern zur Bewertung einer Einreichung verwendet werden. Jedes Modul hat einen Evaluierungsplan, den Sie nicht in einem anderen Modul wiederverwenden können. Sie können einen Evaluierungsplan einem Modul für die Einreichung einzelner Dateien oder einem Modul für die Einreichung teambasierter Dateien hinzufügen. Fügen Sie sie hinzu, bevor Sie den Kurs veröffentlichen.
+
+#### Aktivieren des Evaluierungsplans
+
+1. Aktivieren Sie den Evaluierungsplan.
+
+1. Geben Sie eine Beschreibung der Bewertung ein.
+
+1. Legen Sie fest, ob Teilnehmer den Evaluierungsplan anzeigen können, bevor sie ihn einreichen. Diese Option ist standardmäßig deaktiviert. Die Teilnehmer sehen die Bewertungsbeschreibung und die Beschreibung jedes Kriteriums. Sie sehen die Antwortoptionen, Punkte oder die Gewichtung nicht.
+
+   ![Einstellungen für den Evaluierungsplan für ein Dateiübermittlungsmodul](assets/Group-Team-submission-and-rubric-based-assessments-image6.png "Einstellungen für den Evaluierungsplan")
+
+#### Hinzufügen von Evaluierungsparametern zum Evaluierungsplan
+
+Sie können bis zu 100 Evaluierungsparameter hinzufügen. Jeder Parameter ist entweder objektiv oder subjektiv.
+
+1. Wählen Sie **Parameter definieren**. Geben Sie den Parametertext in das Feld Parameter/Frage ein.
+
+   ![Parameteroption mit dem Feld &quot;Parameter/Frage&quot; definieren](assets/Group-Team-submission-and-rubric-based-assessments-image7.png "Parameter definieren")
+
+1. Wählen Sie den Parametertyp:
+
+   * **Ziel:** Der Kursleiter wählt aus den Antwortoptionen aus. Fügen Sie die Optionen hinzu.
+
+     ![Zielparameter mit Antwortoptionen](assets/Group-Team-submission-and-rubric-based-assessments-image8.png "Zielparameter")
+
+   * **Subjektiv:** Der Kursleiter schreibt eine beschreibende Antwort.
+
+     ![Subjektiver Parameter mit einer beschreibenden Antwort](assets/Group-Team-submission-and-rubric-based-assessments-image9.png "Subjektiver Parameter")
+
+1. Geben Sie für einen objektiven Parameter mit kriterienbasierter Bewertung für jede Option Ganzzahlpunkte ein. Negative Zahlen sind zulässig. Für jede Option ist ein Punktwert erforderlich.
+
+1. Wählen Sie die Parametereinstellungen aus:
+
+   * **Erforderlich:** Der Kursleiter muss auf den Parameter antworten. Parameter, die nicht erforderlich sind, zeigen dem Kursleiter ein optionales Tag an.
+   * **Reviewerbemerkungen zulassen:** Der Kursleiter kann dem Parameter Anmerkungen hinzufügen. Diese Option wird nur für objektive Parameter angezeigt.
+
+1. Damit die Kursleiter einen Kommentar für den gesamten Evaluierungsplan hinzufügen können, aktivieren Sie die allgemeinen Anmerkungen.
+
+1. Wiederholen Sie diesen Vorgang für jede Frage.
+
+1. Wählen Sie **Speichern**.
+
+>[!NOTE]
+>
+>Subjektive Parameter haben keine Punkte.
+
+#### Berechnen der Gesamtpunktzahl
+
+Wenn Sie die kriterienbasierte Punktzahl auswählen, berechnet Adobe Learning Manager die Gesamtpunktzahl aus den Punkten der Optionen, die der Kursleiter auswählt. Es werden nur objektive Bewertungsparameter berücksichtigt. Subjektive Bewertungsparameter tragen nicht zum Ergebnis bei.
+
+* **Ohne Obergrenze:** Die Gesamtpunktzahl ist die Summe der Punkte für die ausgewählten Optionen.
+* **Mit einer Obergrenze:** Die Gesamtpunktzahl ist die Summe der Punkte, dividiert durch die maximal möglichen Punkte, multipliziert mit der Obergrenze und gerundet auf eine ganze Zahl. Die Obergrenze kann eine ganze Zahl von 1 bis 100 sein. Der Standardwert ist 100.
+
+Da eine Option negative Punkte haben kann, kann die Berechnung eine Zahl unter 0 ergeben. In diesem Fall setzt Adobe Learning Manager die Gesamtpunktzahl auf 0. Die Gesamtpunktzahl liegt nie unter 0.
+
+Nehmen wir beispielsweise an, die maximal möglichen Punkte sind 12 und die Obergrenze ist 10. Wenn sich aus den ausgewählten Optionen 6 ergibt, ist die Gesamtpunktzahl 5. Wenn sie sich auf 10 belaufen, ist die Gesamtpunktzahl 8, was einer Rundung von 8,33 entspricht. Wenn sie sich auf -3 belaufen, ergibt die Berechnung eine Zahl unter 0, sodass die Gesamtpunktzahl 0 beträgt.
+
+Um zwischen manueller und kriterienbasierter Bewertung zu wählen, führen Sie die Bewertungsschritte unter Hinzufügen eines teambasierten Einreichungsmoduls aus.
+
+#### Hinzufügen von Evaluierungsparametern für jedes Gebietsschema
+
+Die Gebietsschemas eines Moduls folgen den Gebietsschemas des Kurses. Fügen Sie die Evaluierungsparameter manuell für jedes Gebietsschema hinzu, das der Kurs verwendet. Kursleiter sehen die Bewertungsparameter in ihrem Inhaltsgebietsschema.
+
+#### Publish starten.
+
+Publish den Kurs ab, wenn der Plan abgeschlossen ist. Neue Instanzen des Kurses erhalten denselben Plan. Nach der Veröffentlichung können Sie nur den Text der Evaluierungsparameter und -optionen bearbeiten. Sie können die Konfiguration nicht ändern, keine Einstellungen hinzufügen oder das Abo nicht aktivieren oder deaktivieren.
+
 ### Mindestpunktzahl für das Bestehen der Prüfung festlegen
 
 * Suchen Sie im Kurseditor den Abschnitt **Kriterien für das Bestehen**.
@@ -194,6 +312,142 @@ Nachdem Sie alle Gradebook-Einstellungen konfiguriert haben, veröffentlichen Si
 * Verwenden Sie **Höchste** für die Einstellung für mehrere Versuche, wenn Module Bewertungen sind, die Teilnehmer wiederholen sollen. Verwenden Sie **Latest**, wenn Sie statt der besten Leistung die aktuelle Wissensstufe erfassen möchten.
 * Stellen Sie sicher, dass der Indikator **Gesamtgewicht** vor dem Speichern genau 100 % anzeigt.
 
+## Einrichten der automatischen Teamerstellung in Adobe Learning Manager
+
+Legen Sie die Regeln für die automatische Teamerstellung für einen Kurs fest, sodass Adobe Learning Manager eingeschriebene Teilnehmer in Teams unterteilt, bevor eine Instanz beginnt.
+
+Die automatische Teamerstellung dient als Ausweichlösung, wenn Kursleiter Teams nicht manuell erstellt haben. Sie können die automatische Teambildung für jeden Kurs aktivieren, der über ein teambasiertes Modul zum Einreichen von Dateien verfügt, selbst wenn die Kontoeinstellung deaktiviert ist. Wenn Ihr Administrator die Kontoeinstellung aktiviert hat, beginnen neue Kurse mit dem Zeitplan des Kontos, und Sie können sie während der Kurseinrichtung anpassen.
+
+Der Kurs muss ein Team-basiertes Einreichungsmodul enthalten. Jede Instanz benötigt ein Startdatum.
+
+## Teamregeln für einen Kurs festlegen
+
+1. Öffnen Sie in der Autoren-App einen Kurs, der über ein teambasiertes Einreichungsmodul verfügt.
+
+1. Öffnen Sie die Kurseinstellungen und suchen Sie dann die Einstellung **Automatische Teambildung für Teamübermittlungen**. Es wird nur angezeigt, wenn der Kurs über mindestens ein teambasiertes Dateiübermittlungsmodul verfügt.
+
+1. Wählen Sie **Aktivieren**.
+
+   ![Option für automatische Teambildung in den Kurseinstellungen aktivieren](assets/Group-Team-submission-and-rubric-based-assessments-image10.png "Automatische Teambildung aktivieren")
+
+1. Überprüfen Sie den **Zeitplan für die Teambildung**. Wenn Ihr Administrator die Kontoeinstellung aktiviert hat, wird die von ihm festgelegte Anzahl an Tagen angezeigt. Teams werden viele Tage vor dem Startdatum der Instanz erstellt.
+
+1. Optional: Um die Anzahl der Tage für diesen Kurs zu ändern, wählen Sie **Bearbeiten**, wählen Sie in der Warnung **Ja** aus und geben Sie dann eine neue Zahl ein.
+
+   ![Warnung beim Bearbeiten des Teambildungszeitplans angezeigt](assets/Group-Team-submission-and-rubric-based-assessments-image11.png "Warnung bearbeiten")
+
+1. Ändern Sie den Wert in einen anderen.
+
+   ![Feld für den Teambildungszeitplan](assets/Group-Team-submission-and-rubric-based-assessments-image12.png "Wert für den Teambildungszeitplan")
+
+1. Überprüfen Sie den **Zeitplan für die Teambildung**. Es beginnt mit dem Kontowert. Um eine andere Vorlaufzeit zu verwenden, geben Sie eine neue Anzahl von Tagen ein.
+
+1. Legen Sie fest, wie Teams gebildet werden. Geben Sie 1 oder höher ein. Ein Team kann bis zu 100 Mitglieder haben.
+
+   * Wählen Sie **Mitglieder pro Team** und geben Sie die Anzahl der Teilnehmer für jedes Team ein.
+
+     ![Option für Mitglieder pro Team](assets/Group-Team-submission-and-rubric-based-assessments-image13.png "Mitglieder pro Team")
+
+   * Wählen Sie **Anzahl der Teams** aus und geben Sie die Gesamtzahl der Teams ein.
+
+     ![Option &quot;Anzahl Teams&quot;](assets/Group-Team-submission-and-rubric-based-assessments-image14.png "Anzahl Teams")
+
+1. Speichern Sie Ihre Änderungen und veröffentlichen Sie dann den Kurs.
+
+>[!WARNING]
+>
+>Nach der Veröffentlichung können Sie die automatische Teambildung für den Kurs nicht aktivieren oder deaktivieren und die Vorlaufzeit nicht ändern. Sie können weiterhin die Regel zur Bildung der Teams und ihren Wert ändern.
+
+![Kurs mit automatischen Teambildungseinstellungen veröffentlicht](assets/Group-Team-submission-and-rubric-based-assessments-image15.png "Kurseinstellungen veröffentlicht")
+
+## Festlegen des Startdatums für die Instanz
+
+1. Öffnen Sie die Kursinstanz.
+
+1. Geben Sie ein Startdatum ein und wählen Sie **Speichern**.
+
+   ![Feld für das Startdatum der Instanz](assets/Group-Team-submission-and-rubric-based-assessments-image16.png "Startdatum der Instanz")
+
+Teams werden am Tag der Vorlaufzeit um 12:00 Uhr in der Zeitzone der Instanz erstellt. Beispielsweise werden Teams mit einer Vorlaufzeit von 3 Tagen drei Tage vor dem Startdatum um 12:00 Uhr erstellt. Das Startdatum legt nur diesen Zeitpunkt fest. Die Registrierung wird nicht blockiert.
+
+## Ändern der Teamregeln nach der Veröffentlichung
+
+Sie können die Regel **Mitglieder pro Team** oder **Anzahl der Teams** jederzeit ändern. Die Änderung gilt für alle Instanzen, wird jedoch nur wirksam, wenn noch keine Teams erstellt wurden. Bereits vorhandene Teams werden nie neu gruppiert.
+
+## Teambasierte Kurse in Lernpfaden verwenden
+
+Teams gehören zur Kursinstanz. Wenn Sie einem Lernpfad einen teambasierten Kurs hinzufügen, legen Sie die Vorlaufzeit und das Startdatum für die Kursinstanz fest, nicht für den Lernpfad. Informationen zur Aufteilung der Teilnehmer finden Sie unter Teameinstellungen und -beschränkungen.
+
+## Fehlerbehebung
+
+**Für eine Instanz wurden keine Teams erstellt.** Überprüfen Sie, ob die Instanz über ein Startdatum verfügt. Die automatische Erstellung wird nicht ohne ausgeführt. Überprüfen Sie auch, ob die automatische Teambildung für den Kurs aktiviert ist. Für eine Instanz, die in Kürze beginnt, wurden keine Teams erstellt.
+
+**Sie können die Einstellung auf Kursebene nicht finden.** Die Einstellung wird nur angezeigt, wenn der Kurs über mindestens ein Team-basiertes Modul verfügt. Fügen Sie vor der Veröffentlichung eine hinzu.
+
+**Sie haben die Regeln geändert, die Teams jedoch nicht.** Die Regeln gelten nur, wenn für die Instanz keine Teams erstellt wurden. Um vorhandene Teams zu ändern, bitten Sie den Kursleiter, sie zu bearbeiten.
+
+## Konfigurieren des Registrierungsfensters und der Sitzzuweisung für einen Klassenzimmerkurs
+
+Sie können festlegen, wann sich verschiedene Gruppen von Teilnehmern registrieren können, eine bestimmte Anzahl von Lizenzen ausgewählten Benutzergruppen zuweisen und berechtigte Teilnehmer automatisch aus der Warteliste heraufstufen, wenn Lizenzen verfügbar werden.
+
+Autoren können Benutzergruppen Lizenzen zuweisen, nachdem ein Administrator die Einstellung **Gruppenregistrierung** aktiviert hat. Weitere Informationen finden Sie im Artikel Allgemeine Einstellungen .
+
+So konfigurieren Sie die Sitzzuweisung für Benutzergruppen:
+
+1. Melden Sie sich bei Adobe Learning Manager als Autor an.
+1. Wählen Sie in der linken Navigation **Kurse** aus.
+1. Erstellen Sie einen **Classroom**-Kurs. Weitere Informationen finden Sie unter Kursmodule .
+1. Konfigurieren Sie die folgenden Einstellungen:
+
+   | Einstellung | Beschreibung |
+   |---|---|
+   | **Sitzplatzbeschränkung** | Zeigt die niedrigste Lizenzbeschränkung an, die in den Klassenzimmer- oder virtuellen Klassenzimmermodulen konfiguriert ist. Dieses Feld ist schreibgeschützt. Um Benutzergruppen Lizenzen zuzuweisen, legen Sie zunächst im Klassenzimmer- oder virtuellen Klassenzimmermodul eine Sitzungsbeschränkung fest. |
+   | **Registrierungsdatum öffnen** | Wählen Sie das Datum aus, an dem sich alle Personen, einschließlich der ausgewählten Benutzergruppen, registrieren können. |
+   | **Lizenzen pro Benutzergruppe zuordnen** | Aktivieren Sie diese Option, um Lizenzen für bestimmte Benutzergruppen zu reservieren.<p>**Hinweis:**<ul><li>Reservieren Sie 100 % der verfügbaren Lizenzen für bestimmte Benutzergruppen, um sicherzustellen, dass sich nur Teilnehmer aus diesen Gruppen für den Kurs registrieren können.</li><li>Sie können diese Option nicht mehr aktivieren oder deaktivieren, nachdem der Kurs veröffentlicht wurde.</li></ul> |
+   | **Nicht zugewiesene Lizenzen** | Zeigt die Anzahl der Lizenzen an, die für Teilnehmer außerhalb der ausgewählten Benutzergruppen verfügbar sind. |
+   | **Registrierungsdatum für Gruppen öffnen** | Wählen Sie das Datum aus, ab dem Mitglieder der ausgewählten Benutzergruppen mit der Registrierung beginnen können. |
+
+
+1. Wählen Sie **Gruppenzuordnung hinzufügen**, und konfigurieren Sie Folgendes:
+
+   1. **Benutzergruppe**: Wählen Sie die Benutzergruppe aus, für die Sie Lizenzen reservieren möchten.
+   1. **Zugewiesene Lizenzen**: Geben Sie die Anzahl der Lizenzen ein, die für die ausgewählte Benutzergruppe reserviert werden sollen.
+
+   ![Sitzzuweisung und automatische Wartelistenfreigabeeinstellungen in einem Klassenzimmerkurs](assets/seat-allocation-and-waitlist-clearance-settings.png "Sitzzuweisung und automatische Wartelistenfreigabeeinstellungen in einem Klassenzimmerkurs")
+
+1. Wählen Sie **Speichern**.
+
+### Verwalten von Benutzergruppenzuweisungen
+
+Nachdem Sie eine Benutzergruppe hinzugefügt haben, werden die Gruppe und die ihr zugewiesenen Lizenzen in der Zuteilungsliste angezeigt. Verwenden Sie die verfügbaren Aktionen, um die Zuordnung zu ändern.
+
+![Benutzergruppenzuordnungsliste mit den Aktionen Bearbeiten und Löschen](assets/user-group-allocation-list.png "Benutzergruppenzuordnungsliste mit den Aktionen Bearbeiten und Löschen")
+
+| **Aktion** | **Beschreibung** |
+|---|---|
+| **Bearbeiten** | Ändern Sie die Anzahl der Lizenzen, die der Benutzergruppe zugewiesen sind. |
+| **Löschen** | Entfernen Sie die Sitzzuweisung für die Benutzergruppe. |
+
+>[!NOTE]
+>
+>Die Gesamtzahl der Lizenzen, die Benutzergruppen zugewiesen wurden, darf die Höchstanzahl von Lizenzen nicht überschreiten.
+
+### Konfigurieren der automatischen Wartelistenfreigabe
+
+Wenn ein Administrator die Gruppenregistrierung aktiviert, fördert die automatische Freigabe der Warteliste den nächsten berechtigten Teilnehmer auf der Warteliste, wenn eine Lizenz geöffnet wird. Diese Option ist standardmäßig aktiviert.
+
+So konfigurieren Sie die automatische Freigabe der Warteliste:
+
+1. Aktivieren Sie **Automatisches Löschen der Warteliste zulassen** auf der Seite **Kursübersicht**.
+1. (Optional)Wählen Sie ein Datum aus der **Auswahl für automatische Heraufstufung**.
+1. Wählen Sie **Speichern**.
+Die automatische Beförderung endet nach der Unterbrechung.
+
+>[!NOTE]
+>
+>* Wenn Sie auch Lizenzen pro Benutzergruppe zuweisen, werden nur Mitglieder einer Gruppe zu den Lizenzen dieser Gruppe heraufgestuft.
+>* Das Datum **Cut-off für automatische Heraufstufung** gilt für Benutzergruppen und offene Wartelisten. Automatische Aktionen werden nach diesem Datum für beide Wartelisten angehalten.
+
 ## Hinzufügen von Compliance-Labels zum Kurs/Lernpfad/zur Zertifizierung {#add-custom-compliance-label}
 
 Um die Compliance-Beschriftungen zu Kursen hinzuzufügen, führen Sie die folgenden Schritte aus:
@@ -233,8 +487,10 @@ Gehen Sie wie folgt vor, um eine Instanz zu erstellen:
    * Geben Sie im Feld **[!UICONTROL Instanzname]** den Namen der Instanz ein, die Sie dem Kurs zuordnen möchten. Stellen Sie sicher, dass Sie einen eindeutigen Namen für die Instanz verwenden.
    * **Startdatum:** Dies ist das Startdatum des Kurses. Zwei Erinnerungs-E-Mails können an zwei verschiedenen ausgewählten Daten an den Teilnehmer vor diesem Startdatum gesendet werden. Das Startdatum muss ein Datum vor dem Abschlussdatum sein. Sobald Sie das Startdatum ausgewählt haben, wird dieses Datum im Kalender im Abschnitt **Benachrichtigungen** der Instanz blau hervorgehoben.
      ![](assets/start-date-instance.png)
-     ![](assets/start-date-highlighted-instance.png)
    * Geben Sie den Fertigstellungstermin für die Instanz an. Die Teilnehmer müssen bis zu diesem Datum den Abschlussstatus erreichen.
+     ![](assets/start-date-highlighted-instance.png)
+   * **Registrierungsdatum öffnen** (optional): Das Datum, ab dem sich Teilnehmer registrieren können. Wenn Lizenzen Benutzergruppen zugewiesen werden, gilt dieses Datum für Teilnehmer außerhalb dieser Gruppen.
+   * **Cut-off für automatische Heraufstufung** (optional): Nach diesem Datum wird die automatische Warteliste-Heraufstufung für die Instanz angehalten. Dieses Feld wird angezeigt, wenn die automatische Warteliste-Freigabe aktiviert ist.
    * Wählen Sie **[!UICONTROL Weitere Optionen anzeigen]**, um andere Fristoptionen anzuzeigen.
    * **[!UICONTROL Registrierungsfrist]:** Dies ist das Datum, bis zu dem ein Teilnehmer sich bei Selbstregistrierung für ein Lernobjekt anmelden soll.
    * **[!UICONTROL Abmeldefrist]:** Sie können die Abmeldefrist durch den Teilnehmer selbst einschränken, indem Sie eine Abmeldefrist haben.
@@ -582,7 +838,7 @@ Führen Sie die folgenden Schritte aus, um ein Inhaltsmodul hinzuzufügen:
 
    *VC-Modul hinzufügen*
 
-   Wenn Sie einen Kurs mithilfe des Konfigurationsdialogfelds &quot;Virtuelles Klassenzimmer&quot; erstellen, stellen Sie das **Konferenzsystem** auf die von Ihnen erstellte Teams-Verbindung ein. Wählen Sie aus, ob Sie einen Meetingorganisator für die Veranstaltung wünschen.
+   Wenn Sie einen Kurs mithilfe des Konfigurationsdialogfelds &amp;quot;Virtuelles Klassenzimmer&amp;quot; erstellen, stellen Sie das **Konferenzsystem** auf die von Ihnen erstellte Teams-Verbindung ein. Wählen Sie aus, ob Sie einen Meetingorganisator für die Veranstaltung wünschen.
 
    Wenn Sie **Ja** für einen Meetingveranstalter auswählen, müssen Sie den Namen des Veranstalters eingeben. Geben Sie den Namen ein und wählen Sie den Organisator aus.
 
@@ -1241,7 +1497,7 @@ Sie können in Learning Manager mit den Menüoptionen „Veröffentlichen“ Kur
 1. Melden Sie sich mit Adobe-Anmeldeinformationen an. Wenn Sie noch keine Adobe ID haben, klicken Sie auf **[!UICONTROL Konto erstellen]**. Nach der Autorisierung werden Sie zur Seite für die Veröffentlichung von Modulen weitergeleitet.
 1. Geben Sie alle Basisinformationen über das Modul ein und klicken Sie auf „Veröffentlichen“.
 
-Sie sehen das veröffentlichte Modul auf der Modulseite von Learning Manager. Weitere Informationen finden Sie unter [Projekt in Adobe Learning Manager veröffentlichen](https://helpx.adobe.com/de/captivate/classic/publish-project-to-captivate-prime.html).
+Sie sehen das veröffentlichte Modul auf der Modulseite von Learning Manager. Weitere Informationen finden Sie unter [Projekt in Adobe Learning Manager veröffentlichen](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html).
 
 ## Kurseffektivität {#courseeffectiveness}
 

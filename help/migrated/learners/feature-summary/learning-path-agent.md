@@ -5,9 +5,9 @@ title: Learning Path Agent (Beta) in Adobe Learning Manager
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: b01b116a2edd22350d0d20eb53984f1a66d494e3
 workflow-type: tm+mt
-source-wordcount: '2201'
+source-wordcount: '2336'
 ht-degree: 0%
 ---
 
@@ -147,23 +147,34 @@ Wenn Sie mit dem Pfad zufrieden sind, bitten Sie den Agenten, ihn zu speichern, 
 ![](assets/create-lp.png)
 -->
 
-### Passen Sie Ihren Lernpfad vor dem Speichern an
+### Anpassen eines Lernpfads vor dem Speichern {#adjust-lp-before-saving}
 
-Bevor Sie Ihren Pfad speichern, können Sie den Agenten bitten, einen Kurs hinzuzufügen, zu entfernen oder zu ersetzen. Beschreiben Sie die Änderung in einfacher Sprache. Der Agent aktualisiert nur den von Ihnen angegebenen Kurs. Der Rest Ihres Pfades bleibt unverändert.
+Entfernen, fügen Sie Themen und Kurse in einem generierten Lernpfad hinzu oder ersetzen Sie sie, indem Sie das Löschsymbol oder den Chat verwenden, bevor Sie ihn speichern.
 
-Beispiel:
+Wenn Sie den Lernpfad-Agenten in Adobe Learning Manager bitten, einen personalisierten Pfad zu erstellen, werden zunächst Themen vorgeschlagen und die Kurse dann mit ihnen abgeglichen. Bevor du den Pfad speicherst, kannst du beides verfeinern, damit der endgültige Pfad zu deinen Zielen passt.
 
-- Ich habe den zweiten Kurs bereits abgeschlossen. Entfernen Sie sie.
-- Fügen Sie einen Kurs zu [topic] hinzu. Ich sehe keinen in der Liste.
-- Der vierte Kurs erscheint zu weit fortgeschritten. Kann man es durch etwas Grundlegenderes ersetzen?
-
-Der Agent wendet Ihre Änderung an und zeigt Ihnen den aktualisierten Pfad an. Setzen Sie die Anpassung fort, bis Sie mit dem Ergebnis zufrieden sind, und speichern Sie den Pfad.
+Sie können den Pfad anpassen, indem Sie das Löschsymbol auf einer Karte auswählen oder eine Anforderung im Chat eingeben.
 
 >[!NOTE]
 >
->Ein Lernpfad kann maximal fünf Kurse enthalten. Wenn Sie bitten, einen Kurs hinzuzufügen, wenn der Pfad bereits voll ist, fragt der Agent, welchen vorhandenen Kurs Sie ersetzen möchten.
+>Der Learning Path Agent ist mit der Ultimate -Ebene oder als Add-on zur Prime -Ebene verfügbar. Für jede Anforderung werden KI-Credits verwendet. Wenn der Agent nicht angezeigt wird, wenden Sie sich an Ihren Administrator.
 
-Wenn Ihre Anfrage unklar ist, stellt der Support-Mitarbeiter eine klärende Frage, bevor er eine Änderung vornimmt. Wenn für einen Kurs, den Sie austauschen möchten, kein geeigneter Ersatz vorhanden ist, erklärt der Support-Mitarbeiter die Gründe dafür und schlägt stattdessen den am nächsten liegenden Kurs vor.
+1. Bitten Sie den Learning Path Agent im Teilnehmerassistenten, einen Lernpfad zu generieren. Beantworten Sie alle klärenden Fragen, die der Agent stellt. Geben Sie beispielsweise Hilfe ein, um einen Lernpfad für den Wechsel von einem Marketing-Koordinator zu einem Datenanalysten zu erstellen.
+2. Beantworten Sie die klärenden Fragen, die der Agent stellt. Der Agent generiert dann eine Liste von Themen.
+3. Überprüfen Sie die Themen und passen Sie sie nach Bedarf an:
+
+   * Um ein Thema zu entfernen, wählen Sie das Löschsymbol auf der Karte oder geben Sie eine Anforderung ein, z. B. &quot;Dieses Thema entfernen&quot;.
+   * Um ein Thema hinzuzufügen, geben Sie eine Anforderung ein, die das gewünschte Thema beschreibt.
+
+4. Bestätigen Sie die Themen. Der Agent gleicht die Kurse aus Ihrem Konto mit jedem Thema ab.
+5. Überprüfen Sie die vorgeschlagenen Kurse und passen Sie sie nach Bedarf an:
+
+   * Um einen Kurs zu entfernen, wählen Sie das Löschsymbol auf der entsprechenden Karte aus oder bitten Sie den Support-Mitarbeiter, den Kurs zu entfernen.
+   * Um einen Kurs hinzuzufügen, geben Sie eine Anforderung ein, die beschreibt, was Sie lernen möchten.
+   * Um einen Kurs auszutauschen, bitten Sie den Support-Mitarbeiter, ihn zu ersetzen. Der Support-Mitarbeiter schlägt Ihnen eine Alternative basierend auf Ihrer ursprünglichen Anforderung vor.
+
+6. Wiederholen Sie die Schritte 3 und 5, bis der Pfad Ihren Zielen entspricht.
+7. Speichern Sie den Lernpfad.
 
 ### Speichern und Zugriff auf Ihren Lernpfad
 

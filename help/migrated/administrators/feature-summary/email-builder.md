@@ -3,13 +3,11 @@ jcr-language: en_us
 title: Komponentenbasierter E-Mail-Generator.
 description: Erstellen Sie Ihre E-Mails anhand der verfügbaren Komponenten.
 contentowner: mmanuel
-source-git-commit: d61e81b0df6a6043b938c65adaabecb5699c2ce9
+source-git-commit: 05691364449234a4782e2de5d4752c7b277f5fd4
 workflow-type: tm+mt
-source-wordcount: '3287'
+source-wordcount: '3470'
 ht-degree: 2%
-
 ---
-
 
 ## Komponentenbasierter E-Mail-Generator.
 
@@ -33,7 +31,7 @@ Das **globale Layout** ist das Masterdesign, das gleichzeitig auf alle über 130
 
 ### Die E-Mail-Hierarchie
 
-Einstellungen und Design fließen durch Vererbung von einer höheren Ebene zu einer niedrigeren Ebene. Jede Ebene kann das, was sie erbt, überschreiben oder vollständig anpassen.
+Einstellungen und Design fließen von einer höheren Ebene zu einer niedrigeren Ebene durch die Vererbung. Jede Ebene kann das, was sie erbt, überschreiben oder vollständig anpassen.
 
 | Stufe | Wer konfiguriert es? | Standardstatus | Was kann bearbeitet werden? |
 | --- | --- | --- | --- |
@@ -43,7 +41,7 @@ Einstellungen und Design fließen durch Vererbung von einer höheren Ebene zu ei
 | **Autor - LO-E-Mail-Vorlage** | Autor | Mit LO-Layout verknüpft | Nur Haupttext (verknüpft); vollständiges Layout (ohne Verknüpfung) |
 | **E-Mail-Vorlage für Autoreninstanz** | Autor | Mit LO-Vorlage verknüpft | Nur Haupttext (verknüpft); vollständiges Layout (ohne Verknüpfung) |
 
-### Grundlegende Vererbungsregeln
+### Regeln der zentralen Vererbung
 
 * Jede Ebene beginnt mit der unmittelbar übergeordneten Ebene verknüpft, bis sie explizit geändert wird.
 * Durch Bearbeiten des **-Textkörpers** einer Vorlage wird die Verknüpfung nicht aufgehoben. Kopf- und Fußzeile spiegeln weiterhin das übergeordnete Element wider.
@@ -80,11 +78,11 @@ Der E-Mail-Container ist der äußerste Wrapper für jede E-Mail. Die Einstellun
 
    ![](assets/email_builder_0003.png)
 
-   * **Abstand:** Abstand um die Richtungen des E-Mail-Inhalts
+   * **Abstand:** Auffüllung um die Richtungen des E-Mail-Inhalts
 
    ![](assets/email_builder_0004.png)
 
-   * **Zeilenabstand:** der vertikale Abstand, der zwischen allen Zeilen im Layout angewendet wird
+   * **Zeilen-Abstand:** der vertikale Abstand, der zwischen allen Zeilen im Layout angewendet wird
 
    ![](assets/email_builder_0005.png)
 
@@ -230,7 +228,30 @@ Konfigurieren Sie Folgendes:
 
 3. Wählen Sie **Speichern**.
 
-## Einzelne Komponenten hinzufügen und konfigurieren
+## Formatierungsoptionen für Email Builder
+
+Informiere dich über die Schriften-, Farb-, Zeilen- und Schaltflächenoptionen in Adobe Learning Manager Email Builder und darüber, wie irreguläre Formatierungen angewendet werden.
+
+Verwenden Sie diese Optionen zum Formatieren einer gesamten E-Mail, einzelner Zeilen, dynamischer Inhalte und Schaltflächen.
+
+### E-Mail-Formatierungsoptionen
+
+| **Option** | **Betrifft** | **Was Sie festlegen können** |
+|----|----|----|
+| Eigenschaften auf E-Mail-Ebene | Die gesamte E-Mail | Schriftfamilie, Schriftgrad, Hintergrundfarbe und Containerstil |
+| Eigenschaften auf Zeilenebene | Jede Zeile wurde unabhängig voneinander formatiert. | Formatierung, die Ankündigungsbereiche hervorhebt, Call-to-Action-Bereiche unterscheidet oder wichtige Informationen hervorhebt |
+| Dynamischer Inhalt | Abschnitte zu dynamischem Inhalt | Formatierung, die vom übergeordneten Container erbt |
+| Schaltflächen | Aktionsschaltflächen | Schaltflächentext, -stil und -darstellung |
+
+### Vorrang der Formatierung
+
+Wenn Sie eine niedrigere Ebene festlegen, wird die Formatierung einer höheren Ebene außer Kraft gesetzt. Beispielsweise überschreibt eine Änderung an einer Kursvorlage die Standardeinstellung, die ein Administrator in der Kontovorlage festlegt.
+
+| **Ebene** | **Typischer Verwendungszweck** | **Überschrieben von** |
+|----|----|----|
+| Kontovorlage | Standardschriften und -farben für das gesamte Konto | Vorlagen für Kurse und Instanzen |
+| Kursvorlage | Kursspezifische Änderungen | Instanzvorlage |
+| Instanzvorlage | Kohortenspezifische, sitzungsspezifische oder regionale Veränderungen | Nichts, denn dies ist die höchste Stufe der Anpassung |
 
 ### Textkomponente
 
@@ -249,8 +270,8 @@ Die Textkomponente unterstützt die Rich-Text-Bearbeitung.
    * **Hochgestellt** und **Tiefgestellt**
    * **Textfarbe** und **Hintergrundfarbe** (Textmarkierung)
    * **Ausrichtung:** links, zentriert, rechts oder Blocksatz
-   * **Zeilenabstand:** Zeilenhöhenmultiplikator
-   * **Horizontaler und vertikaler Abstand:** interner Abstand innerhalb des Textblocks
+   * **Zeilen-Abstand:** Zeilen-Height-Multiplikator
+   * **Horizontale und vertikale Auffüllung:** interner Abstand innerhalb des Textblocks
 5. Hinzufügen eines Hyperlinks:
    * Wählen Sie den zu verknüpfenden Text aus
    * Wählen Sie das Symbol **Link** in der Symbolleiste aus.
@@ -274,11 +295,11 @@ Die Textkomponente unterstützt die Rich-Text-Bearbeitung.
    * **Randtyp:** Definiert den Stil des Bildrands. Zu den verfügbaren Optionen gehören &quot;Ohne&quot;, &quot;Durchgezogen&quot; und &quot;Gepunktet&quot;.
    * **Rahmenfarbe:** Legt die Farbe des Bildrands fest, wenn ein Rahmenstil angewendet wird.
    * **Eckenradius:** Steuert die Rundheit der Bildecken. Höhere Werte erzeugen abgerundetere Ecken.
-   * **Rahmenlinie:** Passt die Dicke (Breite) des Bildrahmens an.
+   * **Rahmenlinie:** Passt die Thickness (Breite) des Bildrahmens an.
    * **Oberer Abstand:** Fügt einen Abstand über dem Bild hinzu.
-   * **Unterer Abstand:** Fügt einen Abstand unter dem Bild hinzu.
-   * **Linker Abstand:** Fügt der linken Seite des Bildes einen Leerraum hinzu.
-   * **Rechter Abstand:** Fügt der rechten Seite des Bildes einen Leerraum hinzu.
+   * **Unterer Abstand:** Fügt Platz unter dem Bild hinzu.
+   * **Linker Abstand:** Fügt der linken Bildseite Platz hinzu.
+   * **Rechter Abstand:** Fügt der rechten Bildseite einen Leerraum hinzu.
    * **Horizontale Ausrichtung:** Bestimmt die Bildposition innerhalb des Containers. Zu den Optionen gehören in der Regel die linke, zentrierte und rechte Ausrichtung.
 
 ### Schaltflächenkomponente
@@ -293,21 +314,21 @@ Die Textkomponente unterstützt die Rich-Text-Bearbeitung.
    * **Schriftart:** Schriftfamilie und -größe für die Schaltflächenbeschriftung
    * **Textfarbe:** Beschriftungsfarbe
    * **Hintergrundfarbe:** Schaltflächenfüllfarbe
-   * **Größe:** Schaltflächenbreite und -höhe
+   * **Größe:** Schaltflächenbreite und Height
    * **Eckenformat:** Abgerundet, Quadrat oder Kreissegment
    * **Ausrichtung:** links, zentriert oder rechts in der Spalte
-   * **Auffüllung:** interner Abstand zwischen dem Beschriftungstext und den Schaltflächenrändern
+   * **Innenabstand:** Abstand zwischen dem Beschriftungstext und den Schaltflächenrändern
 
 ### Teile- und Abstandhalterkomponenten
 
 **Unterteilung:** fügt eine sichtbare horizontale Linie zwischen Inhaltsabschnitten hinzu.
 
 1. Ziehen Sie eine **Divider**-Komponente in eine Spalte.
-2. Legen Sie im Eigenschaftenfenster den Stil **Linie** (durchgehend, gestrichelt, gepunktet), **Farbe**, **Breite** und **Höhe** (vertikaler Abstand über und unter der Linie) fest.
+2. Legen Sie im Eigenschaftenfenster den Stil **Zeile** (durchgehend, gestrichelt, gepunktet), **Farbe**, **Breite** und **Height** (vertikaler Abstand über und unter der Zeile) fest.
 
    **Spacer:** fügt einen unsichtbaren vertikalen Abstand zwischen Elementen ohne sichtbare Linie hinzu.
 
-3. Ziehen Sie eine **Spacer**-Komponente und legen Sie ihre **Höhe** im Eigenschaftenfenster fest.
+3. Ziehen Sie eine **Spacer**-Komponente und legen Sie ihr **Height** im Eigenschaftenfenster fest.
 
 ## Einfügen und Verwalten von Variablen
 
@@ -526,7 +547,7 @@ Jede Sprachversion wird unabhängig gespeichert. Die Bearbeitung einer Sprache h
 
 1. Wählen Sie **Vorschau** in der Editor-Symbolleiste aus.
 2. Ein Vorschaumodal wird geöffnet, in dem die E-Mail so angezeigt wird, wie sie den Empfängern angezeigt wird.
-3. Review von Layout, Abständen, Bildern und variablen Platzhaltertoken.
+3. Überprüfen Sie Layout, Abstand, Bilder und variable Platzhaltertoken.
 4. Schließen Sie die Vorschau, um mit der Bearbeitung fortzufahren.
 
 ## Abwärtskompatibilität
@@ -549,7 +570,7 @@ Die Verknüpfung der Vorlage wurde aufgehoben. So bestätigen und korrigieren Si
 
 1. Öffnen Sie die Vorlage.
 2. Wenn die Kopf- und Fußzeile **bearbeitbar** (nicht ausgegraut) sind, wird die Verknüpfung der Vorlage aufgehoben.
-3. Um die globale Layoutvererbung wiederherzustellen, wählen Sie **Auf Original** zurücksetzen aus, und bestätigen Sie das.
+3. Um die Vererbung des globalen Layouts wiederherzustellen, wählen Sie **Auf Original zurücksetzen** und bestätigen Sie die Änderung.
 
 **Eine Vorlage sieht anders aus als das globale Layout**
 

@@ -4,9 +4,9 @@ description: Erfahren Sie, wie Kursleiter auf die Raumeinstellungen in Live Hub 
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 38dba6765ff013e446ab1f6098e9f1df0c24d0f9
 workflow-type: tm+mt
-source-wordcount: '533'
+source-wordcount: '584'
 ht-degree: 0%
 ---
 
@@ -31,9 +31,11 @@ In einer Live-Hub-Sitzung können Kursleiter die Teilnehmerberechtigungen und da
 
    1. **Aufzeichnen**: Wählen Sie aus, was in der Aufzeichnung erfasst wird, einschließlich Teilnehmer-Videofeeds, Umfragen und Chat-Transkript.
 
+   1. **Untertitel**: Wählen Sie die Sprache, in der Untertitel während der Sitzung generiert werden.
+
    1. **AI**: Schalten Sie die KI-Assistenten der Sitzung ein oder aus, einschließlich des Fragen-und-Antworten-Assistenten, des Umfrage-Assistenten, des Breakout-Monitoring-Agenten und der Generierung von Aufzeichnungsthemen.
 
-   1. **Datenschutz**: Registrierte Teilnehmer, die der Sitzung noch nicht beigetreten sind, ein- oder ausblenden.
+   1. **Datenschutz**: Registrierte Teilnehmer, die der Sitzung noch nicht beigetreten sind, ein- oder ausblenden.Wählen Sie die entsprechende Registerkarte im linken Bereich aus:
 
 1. Ändern Sie die erforderlichen Einstellungen.
 
@@ -94,6 +96,12 @@ Mit den folgenden Einstellungen können Sie die Sitzung verwalten, indem Sie ste
 <td>Fügt das Chat-Transkript zur Aufzeichnung hinzu.</td>
 </tr>
 <tr>
+<tr>
+<td><p><strong>Untertitel</strong></p>
+<p><strong>Standard</strong>: Englisch</p></td>
+<td>Anzeigesprache für Untertitel</td>
+<td>Legt die Sprache fest, in der Untertitel für alle Teilnehmer generiert werden. Untertitel werden nicht Kamera bewogen, daher sollte die ausgewählte Sprache mit der Sprache des Kursleiters übereinstimmen.</td>
+</tr>
 <td rowspan="4"><p><strong>KI</strong></p>
 <p><strong>Standard</strong>: Alle KI-Assistenten sind aktiviert, wenn sie von den Administratoren aktiviert wurden.</p></td>
 <td>Generierung von Fragen und Antworten aktivieren</td>
