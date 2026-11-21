@@ -7,10 +7,10 @@ exl-id: 91635ef7-dbb9-4bb1-98f9-129f6fd5b6b4
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: f7df2fe74d9f4d57c0ed0c127f09400cef543508
 workflow-type: tm+mt
-source-wordcount: '2471'
-ht-degree: 53%
+source-wordcount: '3562'
+ht-degree: 37%
 ---
 
 # Verwalten von Learning Manager-Bestellungen und -Abrechnungen
@@ -51,7 +51,11 @@ Die Karte **Kontodetails** oben auf der Registerkarte **Abonnement** zeigt vier 
 
 **Lizenzen**
 
-Im Abschnitt **Lizenzen** werden alle aktiven Lizenzen oder Berechtigungen für das Konto aufgelistet. Jeder Block enthält den Lizenznamen, ggf. eine Planbeschreibung und eine Statistikzeile mit den Verbrauchszahlen für die aktuelle Vertragslaufzeit.
+Im Abschnitt **Lizenzen** werden alle aktiven Lizenzen oder Berechtigungen im Konto aufgelistet, einschließlich der Schulungszeiten für den Live Hub für Ultimate-Pläne. Jeder Block enthält den Lizenznamen, ggf. eine Planbeschreibung und eine Statistikzeile mit den Verbrauchszahlen für die aktuelle Vertragslaufzeit.
+
+>[!IMPORTANT]
+>
+> Für Prime-Kunden ist der Live Hub in der Betaversion.
 
 Die Spalten in der Statuszeile variieren je nach Lizenztyp:
 
@@ -66,6 +70,7 @@ Wählen Sie **[!UICONTROL Nutzungsdetails anzeigen]** unterhalb der Statistikzei
 - Eine **Tabelle für die Gesamtnutzung** mit Spalten: Von diesem Konto erworben/verwendet/Von Peer-Konten verwendet/Verbleibend
 - Ein Link **Kontoaufschlüsselung anzeigen**, um die über einzelne Peer-Konten verteilte Nutzung anzuzeigen
 - Ein Link **Detaillierten Bericht herunterladen**, um Nutzungsdaten als Datei zu exportieren
+- Auf der Registerkarte &quot;Live-Hub&quot; wird Ihre Nutzung der Live-Hub-Schulungsstunde in Stunden angezeigt. Weitere Informationen finden Sie in den [Trainingsstunden für den Live-Hub](#live-hub-training-hours).
 
 **Agent Orchestrator-Lizenzblock**
 
@@ -274,6 +279,91 @@ Jeder Benutzer, der die folgenden Aktionen ausführt oder aufgrund von Aktionen,
    - **Allgemeine Nutzung:** Sie können die Gesamtzahl der aktiven Benutzer, der Benutzer, die Learning Manager in einem Monat nutzen, und der Benutzer, die sich noch nicht für einen Kurs angemeldet haben, überprüfen.
    - **Monatliche Nutzung:** Sie können eine Tabelle mit eindeutigen aktiven Benutzern pro Monat anzeigen.
 
+## Trainingsstunden für den Live-Hub {#live-hub-training-hours}
+
+Der Live Hub ist in den Ultimate-Abonnements enthalten und erfordert keine separate Basislizenz oder -aktivierung für den Live Hub. Die Nutzung des Live-Hub wird in den Schulungsstunden gemessen, die Administratoren auf der Seite **Abrechnung** nachverfolgen können.
+
+### Stunden für Abonnementplan-Schulungen {#subscription-plan-training-hours}
+
+Die Anzahl der verfügbaren Schulungsstunden für Live Hub hängt von Ihrem Abonnement ab.
+
+| Planen | Enthaltene Schulungsstunden |
+|---|---|
+| ultimativ | Unbegrenzt. Die Nutzung wird weiterhin aufgezeichnet und angezeigt. |
+| Kostenlose Testversion | 100 Stunden für die gesamte Testversion. Der Kontostand wird während der Testphase nicht zurückgesetzt. |
+
+### Live-Hub-Sitzungsbeschränkungen {#live-hub-session-limits}
+
+Ultimative Abos bieten dieselben Funktionen und Sitzungseinschränkungen für den Live-Hub:
+
+* Nur Administratoren, Autoren und Kursleiter können Live Hub-Sitzungen starten.
+* Teilnehmer müssen authentifizierte Adobe Learning Manager-Benutzer sein, entweder durch native Authentifizierung oder durch Single Sign-on (SSO).
+* Eine Sitzung kann bis zu acht Stunden dauern. Sie können die Sitzung zweimal in Schritten von 15 Minuten um bis zu 30 zusätzliche Minuten verlängern.
+
+### Berechnung der Schulungsstunden {#how-training-hours-are-calculated}
+
+Die Schulungsstunden werden auf der Grundlage der geplanten Dauer einer Live-Hub-Sitzung berechnet, nicht der tatsächlichen Dauer der Sitzung.
+
+Berücksichtigen Sie Folgendes, wenn Sie die Nutzung der Schulungsstunde berechnen:
+
+* Wenn eine Sitzung vorzeitig beendet wird, wird die gesamte geplante Dauer gezählt.
+* Eine Sitzung, die vor der geplanten Startzeit abgebrochen wurde, wird nicht gezählt. Wenn Sie die Sitzung nach ihrem Start abbrechen, wird die geplante Dauer gezählt, auch wenn keine Teilnehmer teilnehmen.
+* Jedes Auftreten einer wiederkehrenden Sitzung wird separat gezählt.
+* Eine duplizierte Sitzung wird als separate Sitzung gezählt.
+* Wenn Sie die Start- oder Endzeit einer bereitgestellten Sitzung ändern und diese wiederverwenden, wird die wiederverwendete Sitzung als separates Vorkommen gezählt.
+* Arbeitsräume und Sitzungserweiterungen tragen nicht zur Nutzung der Schulungsstunde bei.
+* Sessions, die über andere Verbindungen wie Zoom oder Microsoft Teams abgehalten werden, werden nicht in die Trainingsstunden für den Live-Hub angerechnet.
+* Wenn Sie eine geplante Sitzung in ein anderes Lizenzjahr verschieben, werden die Schulungsstunden auf das Lizenzjahr angerechnet, in dem sie jetzt geplant ist.
+* Die Schulungszeiten werden nicht gerundet. Eine 90-minütige Sitzung zählt beispielsweise 1,5 Schulungsstunden.
+
+#### Sessions mit mehreren Tagen {#sessions-spanning-multiple-days}
+
+Für Sitzungen, die sich über mehr als einen Tag erstrecken, zählt jeder vollständige Zeitraum von 24 Stunden **acht Schulungsstunden**. Die verbleibende Laufzeit wird auf die tatsächliche Dauer von bis zu acht Stunden angerechnet.
+
+Beispiel:
+
+* Eine 30-Stunden-Sitzung, die sich über zwei Tage erstreckt, zählt 14 Schulungsstunden, wobei acht Stunden für den ersten 24-Stunden-Zeitraum und sechs Stunden für die verbleibende Dauer gezählt werden.
+* Eine 10-stündige Sitzung, die sich über zwei Tage erstreckt, zählt acht Schulungsstunden.
+
+### Nutzung des Live Hub anzeigen {#view-live-hub-usage}
+
+1. Melden Sie sich bei Adobe Learning Manager als Administrator an.
+1. Wählen Sie **Abrechnung**.
+1. Navigieren Sie zu **Lizenzen** auf der Registerkarte **Abonnement**.
+1. Wählen Sie **Nutzungsdetails anzeigen**.
+
+   Der Abschnitt **Nutzungsdetails** wird angezeigt.
+
+   ![Abschnitt &quot;Nutzungsdetails&quot; auf der Abrechnungsseite](assets/billing-usage-details.png "Abschnitt &quot;Nutzungsdetails&quot; auf der Abrechnungsseite")
+
+1. Wählen Sie die Registerkarte **Live Hub**.
+
+   Im Abschnitt **Live Hub (in Std.)** wird Folgendes angezeigt:
+
+   | Feld | Beschreibung |
+   |---|---|
+   | **Gekauft** | Die für das Konto verfügbaren Schulungsstunden, die für Ultimate-Kunden unbegrenzt sind. |
+   | **Wird von diesem Konto verwendet** | Die Schulungsstunden wurden bisher im aktuellen Lizenzzeitraum gezählt. |
+   | **Verbleibend** | Noch Schulungsstunden. Unbegrenzt für Ultimate-Konten. |
+   | **Nächste Zurücksetzung** | Das Datum, an dem der Saldo für das nächste Lizenzjahr zurückgesetzt wird. |
+
+### Wenn alle Schulungsstunden genutzt werden {#when-all-training-hours-are-used}
+
+Wenn Sie das verfügbare Limit für die Schulungsstunde erreichen, können Sie den Live-Hub weiterhin verwenden. Kostenlose Testkonten können den Live Hub auch nach Ablauf der 100 Schulungsstunden weiterhin verwenden.
+
+* **Administratoren:** Auf der Seite **Abrechnung** wird zusammen mit anderen Lizenzierungswarnungen eine Warnung zu Übernutzung angezeigt.
+* **Autoren:** Beim Planen von Live Hub-Sitzungen wird keine Warnung zur Trainingsstunde angezeigt.
+* **Letzte Konten:** Es wird keine Warnung wegen Übernutzung angezeigt, da die Schulungszeiten unbegrenzt sind.
+* **Übergeordnete und untergeordnete MAU-Konten:** Auf der Ebene des übergeordneten Kontos wird eine einzelne Warnung angezeigt. Weitere Informationen finden Sie unter [Übergeordnete und untergeordnete MAU-Konten](#mau-parent-and-sub-accounts).
+
+Wenn Sie zusätzliche Schulungsstunden erwerben möchten, wenden Sie sich an learningmanagersales@adobe.com.
+
+### Übergeordnete und untergeordnete MAU-Konten {#mau-parent-and-sub-accounts}
+
+Bei Konten mit monatlich aktiven Benutzern (MAU) mit einer eingerichteten Beziehung zwischen über- und untergeordneten Konten ist die gesamte Berechtigung für die Schulungsstunde des übergeordneten Kontos im Live-Hub für die untergeordneten Konten verfügbar. Dieser gemeinsam genutzte Pool umfasst die Schulungszeiten der Eltern sowie alle erworbenen zusätzlichen Stunden. Untergeordnete Konten erhalten keine separate Zuweisung oder Begrenzung der Live-Hub-Stunden.
+
+Die vom übergeordneten und seinen untergeordneten MAU-Konten verwendeten Stunden des Live-Hub werden vom gleichen übergeordneten Pool abgezogen. Auf der Seite **Abrechnung** des übergeordneten Elements werden Berechtigungen, Verbrauch, verbleibende Stunden und Nutzung nach Unterkonto in Pools angezeigt. Weitere Informationen finden Sie unter [Peer-Konten](../feature-summary/peer-account.md).
+
 ## Nutzungsbericht herunterladen {#downloadusagereport}
 
 Sie können auch die Daten der Anzahl der aktiven Benutzer nach Monat und Jahr herunterladen. Klicken Sie zum Herunterladen auf **[!UICONTROL Detaillierten Bericht herunterladen]**.
@@ -422,6 +512,38 @@ Wenden Sie sich an [FastSpring](https://fastspring.com/), um eine Rechnung für 
 
 - Erstellen Sie eine Serviceanforderung mit FastSpring über den Link &quot;`https://questionacharge.com`&quot;.
 - Senden Sie eine E-Mail an FastSpring am `orders@fastspring.com`, um die Rechnung anzufordern.
+
+**Gilt die Live Hub-Lizenzierung für Prime-Kunden?**
+
+Anzahl Live Hub befindet sich derzeit in der Beta-Version für Prime-Konten, sodass die Lizenzierung und die Verfolgung der Nutzung während der Schulungsstunde während der Beta-Phase nicht für Prime-Kunden gelten. Diese Anforderungen gelten für Prime-Konten, sobald Live Hub die Beta-Version beendet. Für Ultimate-Konten gelten die Lizenzierung während der Schulungsstunde und die Verfolgung der Nutzung.
+
+**Muss ich Live Hub separat erwerben?**
+
+Anzahl Der Live Hub ist in den Ultimate-Abonnements enthalten und erfordert keine separate Aktivierung. Das Ultimate-Abo umfasst eine unbegrenzte Anzahl von Schulungsstunden.
+
+**Wird eine abgebrochene Live Hub-Sitzung auf meine Schulungsstunden angerechnet?**
+
+Dies hängt davon ab, wann Sie die Sitzung abbrechen. Eine Sitzung, die vor der geplanten Startzeit abgebrochen wurde, wird nicht gezählt. Wenn Sie eine Sitzung nach ihrem Start abbrechen, wird die gesamte geplante Dauer gezählt, auch wenn keine Teilnehmer teilnehmen.
+
+**Was passiert, wenn ich alle Trainingsstunden für den Live-Hub verwende?**
+
+Der Live Hub ist weiterhin verfügbar, nachdem Sie Ihre gesamten Schulungsstunden genutzt haben. Kostenlose Testkonten können weiterhin Live Hub-Sitzungen planen und durchführen. Administratoren sehen auf der Seite **Abrechnung** eine Warnung zu Überlastung. Wenn Sie zusätzliche Schulungsstunden erwerben möchten, wenden Sie sich an learningmanagersales@adobe.com.
+
+**Laufen nicht genutzte Schulungsstunden oder Add-On-Stunden weiter?**
+
+Anzahl Nicht genutzte, enthaltene Schulungsstunden werden nicht auf das nächste Lizenzjahr übertragen. Die zusätzlichen Schulungsstunden laufen auch am Ende des aktuellen Lizenzzeitraums für Ihren Basis-Plan ab.
+
+**Kann ich das Add-on für die Schulungsstunde mit einer Kreditkarte erwerben?**
+
+Anzahl Add-ons für die Schulungsstunde sind nur über den Adobe-Vertrieb erhältlich. Wenn Sie zusätzliche Schulungsstunden erwerben möchten, wenden Sie sich an learningmanagersales@adobe.com.
+
+**Wie viele zusätzliche Schulungsstunden bietet ein Live-Hub?**
+
+Sie können derzeit keine zusätzlichen Schulungsstunden erwerben.
+
+**Können MAU-Unterkonten die Schulungsstunden für den Live-Hub ihres übergeordneten Kontos verwenden?**
+
+Ja. MAU-Unterkonten teilen sich den Live Hub-Schulungsstundenpool des übergeordneten Kontos. Jedes Unterkonto kann ohne separate Zuweisung auf den gesamten verfügbaren Pool zugreifen. Schulungsstunden, die von Unterkonten verbraucht werden, werden vom gemeinsamen Saldo des übergeordneten Kontos abgezogen.
 
 
 <!--

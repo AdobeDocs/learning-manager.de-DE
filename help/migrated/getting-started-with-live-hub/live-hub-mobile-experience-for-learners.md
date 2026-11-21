@@ -1,16 +1,16 @@
 ---
-title: Live Hub (Beta) auf Mobilgeräten als Teilnehmer verwenden
+title: Live Hub auf Mobilgeräten als Teilnehmer verwenden
 description: Erfahren Sie, welche Live Hub-Funktionen den Teilnehmern in der mobilen Adobe Learning Manager-App zur Verfügung stehen, von der Teilnahme an einer Sitzung bis hin zum Verlassen einer Sitzung.
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 3f591f2feae164b7ac2ddb5c8b34d015c0f942d4
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '752'
 ht-degree: 0%
 ---
 
-# Live Hub (Beta) auf Mobilgeräten als Teilnehmer verwenden
+# Live Hub auf Mobilgeräten als Teilnehmer verwenden
 
 Verwenden Sie die mobile Adobe Learning Manager-App, um von Ihrem iOS oder Android-Gerät aus an Live-Hub-Sitzungen teilzunehmen. Während einer Sitzung können Sie mit Kursleitern und Teilnehmern interagieren, auf Umfragen und Tests reagieren, in Arbeitsräumen zusammenarbeiten und direkt von Ihrem Mobilgerät aus auf freigegebene Inhalte zugreifen.
 

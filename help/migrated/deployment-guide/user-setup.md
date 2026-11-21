@@ -8,10 +8,10 @@ exl-id: 9cf893a5-9282-40fa-a12a-1d7078f0b98a
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: 68acc921d6c2d027ef6df082cb31389b1760f0f5
 workflow-type: tm+mt
-source-wordcount: '1862'
-ht-degree: 71%
+source-wordcount: '2233'
+ht-degree: 59%
 ---
 # Einrichten von Benutzern in Learning Manager
 
@@ -169,8 +169,6 @@ Das Hinzufügen einzelner Benutzer ist die dritte Methode, mit der Sie Ihrem Kon
    * **[!UICONTROL **&#x200B; DOJ &#x200B;**:]** Geben Sie das Datum des Eintritts des Mitarbeiters an.
    * **[!UICONTROL **&#x200B; Standort**:]**&#x200B;Geben Sie den Standort des Mitarbeiters an. Wenn Ihre Organisation beispielsweise an mehreren geografischen Standorten tätig ist, geben Sie den Standort an, an dem sich der Mitarbeiter befindet.
 
-
-
    ![](assets/add-single-usersincaptivateprime-step3.png)
 
 1. Klicken Sie auf **[!UICONTROL Hinzufügen]**.
@@ -203,3 +201,61 @@ Sie können auch benutzerdefinierte Gruppen anhand einer ausgewählten Benutzerl
 1. Fügen Sie der benutzerdefinierten Benutzergruppe Benutzer hinzu, indem Sie den Benutzernamen oder das Profil des Benutzers in das Feld **[!UICONTROL **&#x200B; Benutzer hinzufügen &#x200B;** eingeben.]**
 1. Um der benutzerdefinierten Gruppe weitere Benutzer hinzuzufügen, klicken Sie auf **[!UICONTROL **&#x200B; Weitere Benutzer hinzufügen &#x200B;**.]**.
 1. Nachdem Sie alle Benutzer hinzugefügt haben, klicken Sie auf **[!UICONTROL Speichern]**, um die benutzerdefinierte Benutzergruppe zu speichern.
+
+## Zeichenbeschränkungen für Benutzernamen {#character-limit-username}
+
+Adobe Learning Manager unterstützt längere Benutzernamen, sodass Sie Benutzer mit langen Namen in Ihr Konto einbinden können, ohne sie zuschneiden zu müssen. Dies ist besonders hilfreich, wenn Sie Benutzer von einem externen System migrieren oder die Benutzererstellung automatisieren.
+
+Ab der Version vom Dezember 2026 akzeptiert das Feld Vorname bis zu 255 Zeichen. Frühere Versionen akzeptierten maximal 63 Zeichen.
+
+>[!NOTE]
+>
+>Das Limit gilt für alle Benutzer in Ihrem Konto, unabhängig von ihrer Rolle. Bestehende Benutzer und ihre Namen sind von dieser Änderung nicht betroffen.
+
+Sie können lange Namen eingeben, wenn Sie Benutzer wie folgt hinzufügen oder bearbeiten:
+
+* Hinzufügen eines einzelnen Benutzers in der Administratoroberfläche
+* Vorhandenen Benutzer bearbeiten
+* Benutzer mit einer CSV-Datei importieren
+* Benutzer durch Selbstregistrierung registrieren
+* Benutzer hinzufügen
+
+Lange Namen können breiter sein als der in einigen Teilen der Benutzeroberfläche verfügbare Platz. Damit das Layout lesbar bleibt, verkürzt Adobe Learning Manager lange Namen in kompakten Bereichen, z. B.:
+
+* Tabellenzellen
+* Dropdown-Listenelemente
+* Suchergebnisse
+
+Um den vollständigen Namen anzuzeigen, bewegen Sie den Mauszeiger über den verkürzten Namen.
+
+## Benutzer mit einem langen Namen hinzufügen
+
+Wenn der Name eines Benutzers länger als 63 Zeichen ist, können Sie den Benutzer jetzt Ihrem Konto hinzufügen, ohne den Namen zu kürzen. Das Feld für den Vornamen kann bis zu 255 Zeichen enthalten.
+
+### Einzelnen Benutzer hinzufügen
+
+1. Melden Sie sich bei Adobe Learning Manager als Administrator an.
+
+1. Wählen Sie im linken Navigationsbereich **Benutzer**.
+
+1. Wählen Sie **Hinzufügen** > **Einzelner Benutzer**.
+
+1. Geben Sie im Feld **Name** den vollständigen Namen ein. Das Feld akzeptiert bis zu 255 Zeichen.
+
+1. Geben Sie die verbleibenden erforderlichen Details ein, z. B. die eindeutige Identifizierung und die E-Mail-Adresse.
+
+1. Wählen Sie **Speichern**.
+
+Der Benutzer wird Ihrem Konto mit dem vollständigen Namen hinzugefügt. In kompakten Ansichten erscheint der Name gekürzt. Bewegen Sie den Mauszeiger über den Namen, um ihn vollständig anzuzeigen.
+
+## Importieren von Benutzern mit langen Namen
+
+Wenn Sie mehrere Benutzer gleichzeitig hinzufügen, können Sie lange Namen in Ihre CSV-Datei einfügen. Die Spalte mit dem Vornamen akzeptiert bis zu 255 Zeichen.
+
+1. Bereiten Sie die CSV-Datei des Benutzers vor. Stellen Sie sicher, dass jeder Vorname maximal 255 Zeichen umfasst.
+
+1. Melden Sie sich bei Adobe Learning Manager als Administrator an.
+
+1. Importieren Sie die CSV-Datei, indem Sie die Option **CSV** hochladen verwenden.
+
+1. Überprüfen Sie die Importergebnisse, um sicherzustellen, dass alle Benutzer hinzugefügt wurden.

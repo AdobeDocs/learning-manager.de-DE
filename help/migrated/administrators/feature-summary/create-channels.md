@@ -1,20 +1,16 @@
 ---
-title: Kanäle erstellen (Beta)
+title: Kanäle erstellen
 description: Erfahren Sie, wie Sie in Adobe Learning Manager Kanäle aktivieren, erstellen und bearbeiten, um videobasierte Lerninhalte von Webseiten und Confluence Cloud-Seiten an einem einzigen, durchsuchbaren Ort für Teilnehmer zu platzieren.
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: c02f1e407df6d2476ebd6e5b09d8d495e760f70c
 workflow-type: tm+mt
-source-wordcount: '1307'
+source-wordcount: '1157'
 ht-degree: 0%
 ---
 
-# Kanäle erstellen (Beta)
-
->[!IMPORTANT]
->
->Beta-Funktionen können Mängel enthalten und werden &quot;wie besehen&quot; ohne jegliche Gewährleistung bereitgestellt. Adobe hat das alleinige Ermessen, ob Betafunktionen allgemein verfügbar gemacht werden sollen. Adobe ist nicht verpflichtet, die Beta-Funktionen zu verwalten, zu korrigieren, zu aktualisieren, zu ändern, zu ändern oder auf andere Weise (über Adobe Support Services oder auf andere Weise) zu unterstützen. Sollte eine Beta-Funktion allgemein verfügbar werden, kann sie zusätzlichen Nutzungsbedingungen einschließlich ggf. anfallender Gebühren unterliegen. Beta-Funktionen können sich ohne vorherige Ankündigung ändern, einschließlich der Kündigung. Kunden wird empfohlen, mit Vorsicht vorzugehen und sich in keiner Weise auf die ununterbrochene oder fehlerfreie Funktion oder Leistung der Betafunktionen zu verlassen. Dementsprechend erfolgt jede Nutzung der Beta-Funktionen auf eigenes Risiko des Kunden. Die Produktfunktionen und die zugehörige Dokumentation können sich mit der Weiterentwicklung der Funktion ändern. Diese Dokumentation spiegelt die aktuelle Beta-Erfahrung wider und sollte nicht als endgültige oder vollständige Produktdokumentation betrachtet werden.
+# Kanäle erstellen
 
 Unternehmen speichern Wissensvermittlungssitzungen, Schulungsaufzeichnungen und andere Videoinhalte oft in informellen Lerninhalten, die im Web und auf Confluence Cloud-Seiten kuratiert werden. Durch Kanäle wird Adobe Learning Manager mit diesen Inhaltsquellen verbunden, was die Erkennung und Nutzung von Videos vereinfacht, ohne dass die Teilnehmer in mehreren Systemen navigieren müssen. Mit Kanälen können Sie videobasierte Lerninhalte von Unternehmens-Webseiten und Confluence Cloud-Seiten an einem einzigen, durchsuchbaren Ort organisieren und freigeben. Anstatt mehrere interne Sites zu durchsuchen, können Teilnehmer relevante Aufzeichnungen direkt aus Adobe Learning Manager entdecken und darauf zugreifen. Weitere Informationen finden Sie unter [Kanäle entdecken und mit ihnen interagieren](../../learners/feature-summary/discover-and-engage-with-channels.md).
 

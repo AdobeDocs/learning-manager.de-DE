@@ -6,19 +6,21 @@ exl-id: da46f186-3ff3-422a-af49-31c7405fd584
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 6fe06d8c4a60f611b3ceb243079daad28a48a710
+source-git-commit: 9f214ebfdf686375a53896b186deac31bbe1658c
 workflow-type: tm+mt
-source-wordcount: '4832'
-ht-degree: 0%
+source-wordcount: '4884'
+ht-degree: 1%
 ---
-
-# Neue Funktionen in der Adobe Learning Manager-Version Dezember 2026
 
 >[!IMPORTANT]
 >
+>**Haftungsausschluss**
+>
 >Beta-Funktionen können Mängel enthalten und werden &quot;wie besehen&quot; ohne jegliche Gewährleistung bereitgestellt. Adobe hat das alleinige Ermessen, ob Betafunktionen allgemein verfügbar gemacht werden sollen. Adobe ist nicht verpflichtet, die Beta-Funktionen zu verwalten, zu korrigieren, zu aktualisieren, zu ändern, zu ändern oder auf andere Weise (über Adobe Support Services oder auf andere Weise) zu unterstützen. Sollte eine Beta-Funktion allgemein verfügbar werden, kann sie zusätzlichen Nutzungsbedingungen einschließlich ggf. anfallender Gebühren unterliegen. Beta-Funktionen können sich ohne vorherige Ankündigung ändern, einschließlich der Kündigung. Kunden wird empfohlen, mit Vorsicht vorzugehen und sich in keiner Weise auf die ununterbrochene oder fehlerfreie Funktion oder Leistung der Betafunktionen zu verlassen. Dementsprechend erfolgt jede Nutzung der Beta-Funktionen auf eigenes Risiko des Kunden. Die Produktfunktionen und die zugehörige Dokumentation können sich mit der Weiterentwicklung der Funktion ändern. Diese Dokumentation spiegelt die aktuelle Beta-Erfahrung wider und sollte nicht als endgültige oder vollständige Produktdokumentation betrachtet werden.
 
-Diese Version von Adobe Learning Manager enthält eine Reihe neuer Funktionen und Verbesserungen, mit denen die Plattform optimiert und ihre Funktionen erweitert werden sollen. Diese Updates vereinfachen alltägliche Workflows, verbessern die Organisation und Bereitstellung von Lerninhalten und machen das Gesamterlebnis konsistenter und intuitiver.
+# Neue Funktionen in der Adobe Learning Manager-Version Dezember 2026
+
+Die neue Version von Adobe Learning Manager enthält eine Reihe neuer Funktionen und Verbesserungen, mit denen die Plattform optimiert und ihre Funktionen erweitert werden sollen. Diese Updates vereinfachen alltägliche Workflows, verbessern die Organisation und Bereitstellung von Lerninhalten und machen das Gesamterlebnis konsistenter und intuitiver.
 
 ## Report Builder- und Dashboards
 
@@ -34,11 +36,15 @@ Report Builder unterstützt die folgenden Diagrammtypen:
 
 Ein Berichts-Dashboard enthält Diagramme, die aus einem einzigen Bericht erstellt wurden. Ein benutzerdefiniertes Dashboard kombiniert Diagramme aus mehreren Berichten, z. B. Registrierungs- und Benutzerdaten, und unterstützt bis zu 20 Widgets. Diagramme, die zu einem Bericht gehören, werden freigegeben, wenn Sie den Bericht freigeben. Dadurch können Administratoren aktuelle Berichtsdaten in einer Ansicht verwalten, anstatt Berichte erneut auszuführen. In Diagrammen werden bis zu 10.000 Datenpunkte angezeigt, in Pivot-Tabellen bis zu 100 Zeilen und 100 Spalten. Wenn ein Diagramm einen Grenzwert überschreitet, wenden Sie Filter an, um die Ergebnisse einzugrenzen. Dashboards können noch nicht exportiert werden.
 
+[Weitere Informationen](/help/migrated/administrators/feature-summary/report-builder-visualization.md)
+
 ## Insights Agent-Berichte im Report Builder
 
 Administratoren können jetzt mit den Antworten auf den Insights Agent im Report Builder weiterarbeiten. Wenn der Insights Agent eine Frage beantwortet, ordnet der Report Builder die gleiche Abfrage in einem Parallelschritt seinen eigenen Feldern zu. Administratoren können den Bericht öffnen, überprüfen, bearbeiten und speichern. Dort können Sie die gleichen Report Builder-Funktionen wie für andere Berichte verwenden, z. B. Abonnements.
 
 Wenn ein Teil einer Frage nicht mit Report Buildern ausgedrückt werden kann, wird dieser Teil im Bericht als Lücke aufgelistet. Wenn das fehlende Teil von zentraler Bedeutung für die Frage ist, wird der Bericht nicht angeboten. Komplexe Abfragen können zu geringeren Ergebnissen führen. Überprüfen Sie daher jeden Bericht, bevor Sie sich darauf verlassen.
+
+[Weitere Informationen](/help/migrated/administrators/feature-summary/insights-agent.md#create-report-insights-agent)
 
 ## Integration mit Adobe Experience Manager Assets
 
@@ -52,6 +58,8 @@ Adobe Learning Manager ist jetzt mit Adobe Experience Manager Assets integriert,
 
 Das Ergebnis ist ein einzelner, gesteuerter Pfad vom Asset zum Teilnehmer, mit weniger manueller Arbeit und weniger Versionskonflikten.
 
+[Weitere Informationen](/help/migrated/integration-admin/feature-summary/aem-assets-integration.md)
+
 ## Verbesserungen bei der Dateiübermittlung
 
 Dateiübermittlungsmodule unterstützen jetzt Teamübermittlungen und strukturbasierte Evaluierung. Eine neue Einstellung steuert auch, ob die Genehmigung des Kursleiters für Einreichungen erforderlich ist.
@@ -62,9 +70,9 @@ Kursleiter können jetzt Teams für Dateiübermittlungen erstellen. Jedes Team s
 
 Die Kursleiter verwalten die Teams auf einer neuen Seite **Teamverwaltung** und überprüfen die Arbeit auf einer Seite für Teameinreichungen. Kursleiter können auch die Einreichung einer genehmigten Einreichung aufheben, um das Team zu entsperren, wenn Änderungen erforderlich sind, z. B. wenn ein Team-Mitglied das Team verlässt. Ein Team fasst bis zu 100 Mitglieder. Teilnehmer können ihr Team, ihre Mitglieder und das Bewertungsergebnis einsehen. Team-Module können nach Veröffentlichung eines Kurses nicht mehr hinzugefügt oder gelöscht werden.
 
-### Bewertungen auf der Grundlage von Rubriken
+### Rubrikbasierte Bewertungen (Evaluierungsplan)
 
-Autoren können jetzt eine als Evaluierungsplan bezeichnete Rubrik für Module zur Einreichung von Dateien definieren. Eine Rubrik unterstützt objektive Fragen mit bewerteten Optionen und subjektive Fragen mit schriftlicher Prüfung.
+Autoren können jetzt eine als Evaluierungsplan bezeichnete Rubrik für Dateiübermittlungsmodule definieren. Eine Rubrik unterstützt objektive Fragen mit bewerteten Optionen und subjektive Fragen mit schriftlicher Prüfung.
 
 Autoren können auch die folgenden Einstellungen konfigurieren:
 
@@ -92,11 +100,14 @@ Der Server bietet die folgenden Funktionen:
 
 Administratoren können jede Tool-Beschreibung bearbeiten, um organisationsspezifische Beispiele hinzuzufügen. Clients lesen die Autorisierungsdetails aus den Server-Metadaten, daher benötigt das Setup nur eine Client-ID und ein Client-Secret.
 
+[Weitere Informationen](/help/migrated/integration-admin/feature-summary/configure-alm-mcp-server.md)
+
 ## Personalisierte Bearbeitung von Lernpfaden und Branding-Streifen
 
-Teilnehmer können vorgeschlagene Themen oder Kurse jetzt in einem einzigen Schritt entfernen, zusätzlich zu der vorhandenen Option, um Themen- und Kurslisten über Chat zu verfeinern.
+* Teilnehmer können vorgeschlagene Themen oder Kurse jetzt in einem einzigen Schritt entfernen, zusätzlich zu der vorhandenen Option, um Themen- und Kurslisten über Chat zu verfeinern.
+* Administratoren können jetzt den personalisierten Lernpfadstreifen auf der Teilnehmer-Startseite über die Branding-Seite neu positionieren.
 
-Administratoren können jetzt den Streifen &quot;Personalisierte Lernpfade&quot; auf der Teilnehmer-Startseite über die Branding-Seite neu positionieren.
+[Weitere Informationen](/help/migrated/administrators/feature-summary/customize-learner-homepage.md#add-reorder-homepage-strips)
 
 ## Üben Sie Ihre Fähigkeiten mit Rollenspielen im virtuellen Coach
 
@@ -106,9 +117,11 @@ Autoren erstellen Szenarien aus ihren eigenen Referenzszenarien mithilfe von Vor
 
 Virtual Coach unterstützt neun Sprachen und kann als eigenständige Arbeitshilfe verwendet oder in einen Kurs eingebettet werden.
 
+[Weitere Informationen](../migrated/authors/feature-summary/virtual-coach/what-virtual-coach-is.md)
+
 ## Zitate von Lernpfaden im Teilnehmerassistenten
 
-In den Antworten des Teilnehmerassistenten wird jetzt der Lernpfad zitiert, der einen Quellkurs zusammen mit dem Kurs selbst enthält. Teilnehmer öffnen entweder die Kursübersicht oder die Seite &quot;Lernpfad&quot; auf der Zitatseite. Antworten auf eine Arbeitshilfe enthalten einen Download-Link. Dies hilft Teilnehmern, die Schulung zu finden, die ihre Frage beantwortet.
+In den Antworten des Teilnehmer-Assistenten wird jetzt der Lernpfad zitiert, der einen Quellkurs enthält, zusammen mit dem Kurs selbst. Teilnehmer öffnen entweder die Kursübersicht oder die Lernpfadseite über das Zitat. Antworten auf eine Arbeitshilfe enthalten einen Download-Link. Dies hilft Teilnehmern, die Schulung zu finden, die ihre Frage beantwortet.
 
 ## AI Assistant-Konfigurationen
 
@@ -132,7 +145,7 @@ Adobe Learning Manager markiert jetzt die Anwesenheit, wenn ein Teilnehmer die A
 
 ## Email Builder für Kurse und Instanzen
 
-Mit der E-Mail-Erstellung in Adobe Learning Manager können Administratoren und Autoren Vorlagen für die Kommunikation mit Teilnehmern mit Branding-Elementen erstellen. In der Version Dezember 2026 von Learning Manager ist das vollständige E-Mail-Builder-Erlebnis für E-Mails auf Kurs- und Instanzebene verfügbar. Autoren können diese E-Mails anpassen, während sie die Layouts und Formatierungen übernehmen, die Administratoren definieren.
+Mit Email Builder in Adobe Learning Manager können Administratoren und Autoren Vorlagen für die Kommunikation mit Teilnehmern im Branding erstellen. In der ALM-Version vom Dezember 2026 ist das vollständige E-Mail-Builder-Erlebnis für E-Mails auf Kurs- und Instanzebene verfügbar. Autoren können diese E-Mails anpassen, während sie die Layouts und Formatierungen übernehmen, die Administratoren definieren.
 
 Mit Email Builder könnt ihr:
 
@@ -146,12 +159,16 @@ Administratoren erstellen kontoweite E-Mail-Vorlagen und -Layouts. Autoren passe
 
 Die Einstellungen für Banner und Signatur wurden verschoben. Früher wurden diese Einstellungen auf einer separaten Registerkarte **Einstellungen** angezeigt. Diese Registerkarte wurde entfernt, und **Banner** und **Signatur** werden jetzt in **Globales Layout** angezeigt.
 
-### E-Mail-Builder-Hierarchie
+Mit Email Builder können Sie E-Mail-Titel mit der Variable &quot;Titel&quot; hinzufügen.
+
+[Weitere Informationen](/help/migrated/authors/feature-summary/customize-course-instance-emails.md)
+
+### Funktionsweise der Hierarchie von Email Builder
 
 Email Builder verwendet eine Hierarchie. Jede Ebene erbt von der übergeordneten Ebene und ermöglicht die lokale Anpassung.
 
 | **Ebene** | **Bereitgestellte Funktionen** | **Wer passt es an** |
-|-------------------|---------------------------------------------------------------------------------------------------------------------|-----------------------|
+|----|----|----|
 | Account-Layout | Branding, Schriften, Farben sowie Kopf- und Fußzeilenstruktur | Administratoren |
 | Kontovorlage | Globales Styling von E-Mails, gemeinsame Messaging-Komponenten und gemeinsames Branding | Administratoren |
 | Kursvorlage | Kursspezifische E-Mails wie Registrierungsmeldungen, Kurserinnerungen, Abschluss-E-Mails und Sitzungsbenachrichtigungen | Autoren |
@@ -165,23 +182,21 @@ Eine Vorlage wird mit dem nächstgelegenen verfügbaren Layout verknüpft. Eine 
 
 Wenn eine Vorlage mit einem Layout verknüpft ist:
 
-* Das Branding fließt automatisch in die Vorlage ein.
-* Autoren aktualisieren nur den Inhalt.
-* Das Layout reduziert Duplikate zwischen den Nachrichten.
+* Das Branding fließt automatisch in die Vorlage ein
+* Autoren aktualisieren nur den Inhalt
+* Die Duplizierung wird für alle Nachrichten verringert.
 
 Sie können die Verknüpfung einer Vorlage zum Layout aufheben. Nachdem Sie die Verknüpfung einer Vorlage aufgehoben haben:
 
-* Die Vorlage behält ihr bestehendes Design bei.
-* Zukünftige Layoutaktualisierungen wirken sich nicht auf die Vorlage aus.
+* Die Vorlage behält ihr bestehendes Design bei
+* Zukünftige Layoutaktualisierungen wirken sich nicht auf die Vorlage aus
 * Die Vorlage kann unabhängig voneinander bearbeitet werden.
 
-Die Vererbung des Layouts hängt von den verfügbaren übergeordneten Layouts ab. Wenn beide Ebenen vorhanden sind, überschreiben E-Mails auf Instanzebene die Vorlagen auf Kursebene.
+Die Vererbung des Layouts hängt von den verfügbaren übergeordneten Layouts ab. Wenn beide vorhanden sind, überschreiben E-Mails auf Instanzebene die Vorlagen auf Kursebene.
 
-### Arbeitsablauf für Administratoren und Autoren
+### So teilen Administratoren und Autoren die Arbeit
 
-Administratoren verwenden Vorlagen auf Kontoebene, um für konsistente Nachrichten im gesamten Konto zu sorgen. Sie verwalten diese Nachrichten, indem sie ein Layout und eine Vorlage erstellen und dann das Branding veröffentlichen.
-
-Autoren verwenden Vorlagen auf Instanzebene, wenn Kohorten unterschiedliche Nachrichten benötigen, die sie über Kursinstanzen verwalten.
+Administratoren erstellen ein Account-Layout, erstellen eine Account-Vorlage und veröffentlichen das Branding. Autoren übernehmen dann das Layout, passen die Kurs-E-Mail an, speichern die Vorlage und veröffentlichen den Kurs. Autoren verwenden Vorlagen auf Instanzebene, wenn Kohorten unterschiedliche Nachrichten benötigen, die sie über Kursinstanzen verwalten.
 
 ### Verfügbarkeit von Email Builder für Kurs- und Instanz-E-Mails
 
@@ -195,7 +210,7 @@ Adobe Learning Manager liest jetzt benutzerdefinierte Teilnehmerattribute über 
 
 Headless-Kunden können Kursleitern und Kohortenmanagern jetzt einen Überblick über die Diskussions-Dashboard-Aktivität senden. Mithilfe der API fügen Sie Abonnenten zu einem Board hinzu. Sie erhalten neue Beiträge, Kommentare und Antworten in einem von Ihnen festgelegten Intervall in einer einzigen E-Mail. Likes und Abneigungen sind nicht enthalten. Sie aktivieren die Funktion über die API.
 
-## Relevanzrangliste bei der Administrator-Katalogsuche
+## Relevanz-Ranking in der Admin-Katalogsuche
 
 Die Katalogsuche in der Admin-Ansicht bewertet die Ergebnisse jetzt nach Relevanz, wobei sie den gleichen Suchdienst wie Teilnehmer und die Admin-Suche an einer anderen Stelle verwendet. Eine exakte Übereinstimmung, z. B. ein Katalogname mit einem bestimmten Datum, wird zuerst angezeigt, gefolgt von Teilübereinstimmungen. Die Vorschlagsliste folgt während der Eingabe derselben Reihenfolge.
 
@@ -240,7 +255,7 @@ Um den vollständigen Namen anzuzeigen, bewegen Sie den Mauszeiger über den ver
 
 ## Abzeicheninformationen für Kurse und Lernpfade
 
-Wenn Autoren einen Kurs oder einen Lernpfad hinzufügen, werden in einem Fenster vorhandene Kurse und Lernpfade mit Abzeichen aufgelistet. Das Fenster zeigt den Namen, den Typ (Kurs oder Lernpfad), den Veröffentlichungsstatus und das Kursformat an, z. B. Selbststudium, Virtuell, Klassenzimmer oder Gemischt.
+Wenn Autoren einen Kurs oder Lernpfad hinzufügen, werden in einem Fenster vorhandene Kurse und Lernpfade mit Abzeichen aufgelistet. Das Fenster zeigt den Namen, den Typ (Kurs oder Lernpfad), den Veröffentlichungsstatus und das Kursformat an, z. B. Selbststudium, Virtuell, Klassenzimmer oder Gemischt.
 
 ## Verbesserungen, die nicht angemeldet sind
 
@@ -279,7 +294,7 @@ Adobe Learning Manager kann jetzt Ihre öffentliche Akademie über Suchmaschinen
 
 ## Kurs einstellen, ohne einen Lernpfad unzugänglich zu machen
 
-Ein eingestellter Kurs oder ein verschachtelter Lernpfad wird aus dem übergeordneten Lernobjekt entfernt, das für neue Registrierungen geöffnet bleibt. Durch das Einstellen eines Kurses ist der Lernpfad nicht mehr unzugänglich.
+Ein eingestellter Kurs oder ein verschachtelter Lernpfad wird aus dem übergeordneten Lernobjekt entfernt, das für neue Registrierungen geöffnet bleibt. Durch das Einstellen eines Kurses wird der Lernpfad nicht mehr unzugänglich.
 
 ## URL für nicht angemeldete Seite für Selbstregistrierungsprofile
 
@@ -287,11 +302,11 @@ Mit Selbstregistrierungsprofilen können externe Benutzer, z. B. Partner oder Mi
 
 Wenn Benutzer **Registrieren** auf einer Seite auswählen, die über diese URL erreicht wird, werden sie dem Profil hinzugefügt, zu dem die URL gehört. Dadurch werden Benutzer aus verschiedenen Organisationen, z. B. separaten Agenturen oder Partnerunternehmen, in separaten Profilen gespeichert.
 
-## Letzten Zugriffstermin für Lernpfadregistrierungen speichern
+## Datum des letzten Zugriffs für Registrierungen für Lernpfade speichern
 
-Mit Adobe Learning Manager können Sie jetzt benutzerdefinierte Metadaten, wie z. B. das Datum des letzten Zugriffs, an eine Lernpfad-Registrierung anhängen. Sie legen es fest und lesen es über die API, die Ihnen hilft, den zeitgebundenen Zugriff auf die Lernpfade, die Sie zuweisen, zu verfolgen.
+Mit Adobe Learning Manager können Sie jetzt benutzerdefinierte Metadaten, wie z. B. das Datum des letzten Zugriffs, an eine Lernpfadregistrierung anhängen. Sie legen es fest und lesen es über die API, die Ihnen hilft, den zeitgebundenen Zugriff auf die Lernpfade, die Sie zuweisen, zu verfolgen.
 
-Für Kursregistrierungen wird bereits ein Datum des letzten Zugriffs über die API unterstützt, das steuert, wie lange ein Teilnehmer auf den Kurs zugreifen kann. Registrierungen für Lernpfade bieten jetzt ein generisches Metadatenfeld, sodass Sie das Datum des letzten Zugriffs oder einen anderen Wert, den Sie nachverfolgen möchten, speichern können.
+Für Kursregistrierungen wird bereits ein Datum des letzten Zugriffs über die API unterstützt, das steuert, wie lange ein Teilnehmer auf den Kurs zugreifen kann. Registrierungen für Lernpfade bieten jetzt ein generisches Metadatenfeld, sodass Sie ein Datum des letzten Zugriffs oder einen anderen Wert speichern können, den Sie nachverfolgen möchten.
 
 ## Report Builder-Berichte mit der Job-API exportieren
 
@@ -306,13 +321,15 @@ Vorhandene Auftragstypen, einschließlich `generateQuizReport`, bleiben unverän
 
 ## Änderungen an Spaltenüberschriften in heruntergeladenen Berichten
 
-Der Report Builder enthält jetzt den Datasetnamen in den Standardspaltenüberschriften der heruntergeladenen Berichte. Der Name aus dem Lernobjektdataset wird daher als **Lernobjekt - Name** anstelle von **Name** angezeigt. Bei aggregierten Spalten enthält die Überschrift auch die Funktion, z. B. **Anzahl Lernobjekte - ID**. Wenn Sie einen benutzerdefinierten Namen in das Feld **Alias** einer Spalte eingeben, wird dieser Alias als Überschrift verwendet und bleibt unverändert.
+Der Report Builder enthält jetzt den Datasetnamen in den Standardspaltenüberschriften der heruntergeladenen Berichte. Der Name aus dem Lernobjektdataset wird daher als **Lernobjekt - Name** anstelle von **Name** angezeigt. Bei aggregierten Spalten enthält die Überschrift auch die Funktion, z. B. &quot;**Anzahl der Lernobjekte - ID**&quot;. Wenn Sie einen benutzerdefinierten Namen in das Feld **Alias** einer Spalte eingeben, wird dieser Alias als Überschrift verwendet und bleibt unverändert.
 
 Nach dem Upgrade werden in vorhandenen Berichten ohne benutzerdefinierte Aliase die aktualisierten Überschriften angezeigt, während Berichtsdaten, Filter und Zeitpläne davon nicht betroffen sind. Wenn Ihre Skripte, Kalkulationstabellen, Business Intelligence-Dashboards oder Integrationen Spalten nach Überschrift referenzieren, aktualisieren Sie sie auf die neuen Namen oder legen Sie einen benutzerdefinierten Alias fest, um eine bestimmte Überschrift beizubehalten.
 
 ## Live-Hub
 
 Live Hub ist jetzt allgemein für Ultimate -Kunden verfügbar und bleibt für Prime -Kunden in der Beta-Version.
+
+[Weitere Informationen](./administrators/feature-summary/billing-management.md#view-your-live-hub-usage)
 
 ## Mehrsprachige Unterstützung für Untertitel im Live Hub
 
@@ -321,6 +338,8 @@ Untertitel im Live-Hub wurden verbessert, um zusätzliche Sprachen zu unterstüt
 Untertitel werden automatisch in der ausgewählten Sprache generiert und in einem eigenen Fenster angezeigt, das ständig aktualisiert wird, wenn der Kursleiter spricht. Alle Teilnehmer zeigen Untertitel in der vom Kursleiter ausgewählten Sprache an.
 
 Diese Verbesserung verbessert die Barrierefreiheit für Teilnehmer in verschiedenen Sprachen und hilft ihnen, Live-Sitzungen effektiver zu verfolgen.
+
+[Weitere Informationen](./getting-started-with-live-hub/closed-captions-in-live-hub.md)
 
 ## Lokalisierte Live-Hub-Oberfläche und Aufzeichnungsgerät
 
@@ -341,13 +360,19 @@ In großen Sitzungen gelten die folgenden Funktionen und Verhaltensweisen:
 
 Auf diese Weise können Unternehmen große Schulungssitzungen auf derselben Plattform mit einem Raum durchführen, der an die erwartete Zielgruppengröße angepasst werden kann.
 
+[Weitere Informationen](./getting-started-with-live-hub/create-a-live-hub-session.md#create-a-course-for-large-session)
+
 ## Kanäle
 
 Kanäle sind jetzt in der Regel für alle Kunden verfügbar.
 
+[Weitere Informationen](./administrators/feature-summary/create-channels.md)
+
 ## Gruppenregistrierungsreservierung und Verwaltung von Wartelisten
 
 Gruppenregistrierungsreservierung und Verwaltung von Wartelisten geben Autoren eine genauere Kontrolle darüber, wer sich für Klassenzimmer- und virtuelle Klassenzimmerkurse anmelden kann. Autoren können bestimmten Benutzergruppen Lizenzen zuweisen und separate Daten für die Öffnung der Registrierung für diese Gruppen und für alle anderen Teilnehmer festlegen. Sie können auch die automatische Warteliste-Promotion mit einem Stichtag aktivieren, sodass ein verfügbarer Platz zum nächsten berechtigten Teilnehmer geht. Wenn alle Lizenzen reserviert werden, wird ein Kurs auf die ausgewählten Gruppen beschränkt.
+
+[Weitere Informationen](./authors/feature-summary/courses.md#configure-enrollment-window-and-seat-allocation-for-a-classroom-course)
 
 ## Unterstützung für mehrere Zoom-Verbindungen
 
@@ -362,6 +387,8 @@ Diese Verbesserung bietet mehr Flexibilität für Organisationen, die mehrere Zo
 * **Überwachter Zugriff**: Schränken Sie die Verfügbarkeit von Zoom-Verbindungen basierend auf Rollen oder Benutzergruppen ein, um sicherzustellen, dass Autoren nur die Verbindungen auswählen können, die ihnen zugewiesen sind.
 * **Vereinfachte Verbindungsverwaltung**: Ermöglichen Sie Integrationsadministratoren die zentrale Verwaltung mehrerer Zoom-Verbindungen, ohne bestehende Sitzungen zu beeinträchtigen.
 
+[Weitere Informationen](./integration-admin/feature-summary/zoom-connector.md)
+
 ## Integration des sicheren Prüfungsbrowsers für Tests
 
 Adobe Learning Manager ist jetzt mit dem sicheren Prüfungsbrowser für native Tests integriert und bietet eine sichere, kontrollierte Umgebung für die Durchführung von Tests. Administratoren können die Integration auf Kontoebene aktivieren und eine Konfigurationsdatei (.seb) für den sicheren Prüfungsbrowser hochladen, um die Bewertungseinschränkungen zu definieren. Die Autoren können dann auswählen, für welche einzelnen Tests ein sicherer Prüfungsbrowser erforderlich ist.
@@ -374,6 +401,8 @@ Wenn Teilnehmer ein Quiz absolvieren, für das ein sicherer Prüfungsbrowser erf
 * **Compliance-Schulung:** Support-gesteuerte Bewertungen für obligatorische Schulungen und behördliche Anforderungen.
 * **Bewertungen mit hohem Einsatz:** Verringern Sie die Möglichkeiten für den Zugriff auf nicht autorisierte Anwendungen oder Ressourcen während wichtiger Bewertungen.
 * **Flexible Bewertungsverwaltung:** Ermöglichen Sie Autoren, den sicheren Prüfungsbrowser nur für Tests zu benötigen, für die zusätzliche Einschränkungen erforderlich sind.
+
+[Weitere Informationen](/help/migrated/administrators/feature-summary/safe-exam-browser.md)
 
 ## Fehlerbehebungen für die Barrierefreiheit im Live Hub
 
@@ -406,9 +435,9 @@ Diese Version enthält neue APIs, die Benachrichtigungen von Diskussions-Dashboa
 
 Die API für Registrierungen unterstützt jetzt Instanzen mit mehreren Registrierungen in der Teilnehmer-App. Fügen Sie den optionalen `includeMultiInstanceEnrollments=true`-Parameter zu `GET /enrollments` hinzu, um sie einzuschließen. Der Standardwert ist `false`. Vorhandene Integrationen, einschließlich Headless-Implementierungen, funktionieren also unverändert.
 
-### Letztes Zugriffsdatum für die Registrierung für Lernpfade
+### Letztes Zugriffsdatum für die Lernpfadregistrierung
 
-Sie können jetzt benutzerdefinierte Metadaten, wie z. B. das Datum des letzten Zugriffs, in einer Lernpfad-Registrierung speichern und sie über die API festlegen und lesen. Auf diese Weise können Sie den zeitgebundenen Zugriff auf die von Ihnen zugewiesenen Lernpfade verfolgen.
+Sie können jetzt benutzerdefinierte Metadaten, wie z. B. das Datum des letzten Zugriffs, in einer Lernpfadregistrierung speichern und sie über die API festlegen und lesen. Auf diese Weise können Sie den zeitgebundenen Zugriff auf die von Ihnen zugewiesenen Lernpfade verfolgen.
 
 * Legen Sie die Metadaten für eine vorhandene Registrierung fest oder wenn Sie einen Teilnehmer mithilfe eines Admin-Tokens registrieren.
 * Lesen Sie es mit einem Administrator- oder Teilnehmer-Token.
@@ -438,3 +467,5 @@ Verwenden Sie die APIs in dieser Sequenz:
 **Authentifizierung und Berechtigungen**
 
 Diese APIs verwenden die sitzungsbasierte Authentifizierung und erfordern, dass sich der Benutzer als Integrations-Admin bei Adobe Learning Manager anmeldet.
+
+[Weitere Infos](./api-changes-dec-2026.md#apis-to-create-and-manage-the-zoom-connector)
