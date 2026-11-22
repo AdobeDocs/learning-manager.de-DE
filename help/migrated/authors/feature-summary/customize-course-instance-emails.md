@@ -1,21 +1,19 @@
 ---
-description: Erfahren Sie, wie Autoren E-Mails auf Kurs- und Instanzebene in Email Builder mit einem Administrator-Layout anpassen und häufige Probleme beheben
+description: Passen Sie E-Mails auf Kurs- und Instanzebene in Adobe Learning Manager mit Email Builder und einem Layout an, das Ihr Administrator bereitstellt.
 jcr-language: en_us
 title: Kurs- und Instanz-E-Mails in Email Builder anpassen
 exl-id: 06499e3f-0610-4983-83f2-3e8b578fc8bf
-source-git-commit: 05691364449234a4782e2de5d4752c7b277f5fd4
+source-git-commit: 172889a4ff67e54c8e7b9a39ef5f393af0a1d703
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '466'
 ht-degree: 0%
 ---
 
-## Kurs- und Instanz-E-Mails in Email Builder anpassen
-
-Passen Sie E-Mails auf Kurs- und Instanzebene in Adobe Learning Manager mit Email Builder und einem Layout an, das Ihr Administrator bereitstellt.
+# Kurs- und Instanz-E-Mails in Email Builder anpassen
 
 Als Autor können Sie E-Mails für einen Kurs oder für eine bestimmte Instanz eines Kurses anpassen. Beide Verfahren beginnen mit einem Layout, das Ihr Administrator bereitstellt.
 
-### Anpassen einer E-Mail auf Kursebene
+## Anpassen einer E-Mail auf Kursebene
 
 1. Öffnen Sie den Kurs.
 2. Wählen Sie **E-Mail-Vorlagen** aus.
@@ -24,7 +22,7 @@ Als Autor können Sie E-Mails für einen Kurs oder für eine bestimmte Instanz e
 5. Speichern Sie die Vorlage.
 6. Publish.
 
-### Anpassen einer E-Mail auf Instanzebene
+## Anpassen einer E-Mail auf Instanzebene
 
 Verwenden Sie eine E-Mail auf Instanzebene, wenn verschiedene Kohorten unterschiedliche Nachrichten benötigen. Sie verwalten diese Kohorten über Kursinstanzen.
 
@@ -38,7 +36,7 @@ Verwenden Sie eine E-Mail auf Instanzebene, wenn verschiedene Kohorten unterschi
 >
 >Wenn beide vorhanden sind, überschreiben E-Mails auf Instanzebene die Vorlagen auf Kursebene.
 
-### Verwenden der Variable &quot;Titel&quot; und eines Bildes für E-Mail-Header
+## Verwenden der Variable &quot;Titel&quot; und eines Bildes für E-Mail-Header
 
 Verwenden Sie die Variable &quot;Titel&quot; mit einer Image-Komponente, um anstelle der Banner-Komponente die E-Mail-Kopfzeile zu erstellen. Das Bild der Banner-Komponente wird in einigen E-Mail-Clients, z. B. Outlook, nicht angezeigt.
 
@@ -50,14 +48,14 @@ So fügen Sie eine Titelüberschrift hinzu:
 2. Fügen Sie eine Textkomponente hinzu und fügen Sie die Titelvariable aus dem Dropdown-Menü &quot;Variablen&quot; im Konfigurationsbereich der Komponente ein.
 3. Richten Sie die Textkomponente zentriert aus. Platzieren Sie es im globalen Layout in der oberen Kopfzeile.
 
-Einzelne E-Mails verwenden standardmäßig den Header aus dem globalen Layout. In einer einzelnen E-Mail können Sie die Textkomponente wie folgt bearbeiten:
+   Einzelne E-Mails verwenden standardmäßig den Header aus dem globalen Layout. In einer einzelnen E-Mail können Sie die Textkomponente wie folgt bearbeiten:
 
-1. Ersetzen der Variablen durch benutzerdefinierten Text
-2. Text vor oder nach der Variablen hinzufügen und `EmailTitle` beibehalten
+4. Ersetzen der Variablen durch benutzerdefinierten Text
+5. Text vor oder nach der Variablen hinzufügen und `EmailTitle` beibehalten
 
 Wenn Sie ein Bild zur Banner-Komponente hinzufügen, zeigt Email Builder eine Warnung an, dass das Bild in einigen E-Mail-Clients möglicherweise nicht korrekt angezeigt wird. In der Warnung wird empfohlen, stattdessen eine Image-Komponente und die Titelvariable zu verwenden.
 
-### Fehlerbehebung
+## Fehlerbehebung
 
 **Sie können kein Layout auswählen.**
 Die Vererbung des Layouts hängt von den verfügbaren übergeordneten Layouts ab. Bitten Sie Ihren Administrator, ein Konto-Layout zu erstellen.

@@ -3,9 +3,9 @@ user-guide-title: Leitfaden für Adobe Learning Manager
 breadcrumb-title: Learning Manager
 user-guide-description: Dokumentation für Adobe Learning Manager
 nudge: true
-source-git-commit: 62986d83f3630e676464f88f345960d9d0b49d08
+source-git-commit: b41600793d54a08999e5e4aacf29840dd4365b33
 workflow-type: tm+mt
-source-wordcount: '1953'
+source-wordcount: '1946'
 ht-degree: 32%
 ---
 
@@ -305,7 +305,6 @@ ht-degree: 32%
   * [Einstellungen](authors/feature-summary/settings.md)
 * Der Kursleiter {#instructor}
   * [Module](/help/migrated/instructors/feature-summary/modules.md)
-  * [Auswerten und Absenden einer Teameinsendung](/help/migrated/instructors/feature-summary/learners.md)
   * [Verwalten der Teilnehmer für Ihre Sitzung](instructors/feature-summary/learners.md)
   * [Sitzungseinladung erneut senden](instructors/feature-summary/resend-session-invite.md)
 * Teilnehmer {#learner}
@@ -443,7 +442,7 @@ ht-degree: 32%
 * Berichterstellung für Änderungen {#reporting-changes}
   * [Melden von Änderungen in der Version August 2026](/help/migrated/reporting-changes-august-2026.md)
 * Wissensdatenbank {#knowledge-base}
-  * [Leitfaden zur Fehlerbehebung für Live Hub (Beta)](./kb/troubleshooting-guide-for-live-hub.md)
+  * [Leitfaden zur Fehlerbehebung für Live Hub](./kb/troubleshooting-guide-for-live-hub.md)
   * [Ich kann mich nicht bei Learning Manager anmelden](kb/unable-log-in-learning-manager.md)
   * [Übersicht zu Lernprogrammen zeigt keine aktuellen Daten an](kb/learning-summary-not-display-data.md)
   * [Hochladen einer CSV-Datei ist nicht möglich](kb/unable-to-upload-csv.md)
