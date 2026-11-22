@@ -7,9 +7,9 @@ exl-id: c5257796-0afa-4021-bd17-d3f1e9a86948
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 971f5a08a1493d5ae02deaa161a965865c107b64
+source-git-commit: 4234f3cc3b9d77a7f9d197d2df2160ec62edd6d6
 workflow-type: tm+mt
-source-wordcount: '12332'
+source-wordcount: '12311'
 ht-degree: 47%
 ---
 # Erstellen, Ändern und Veröffentlichen von Kursen
@@ -169,7 +169,7 @@ Mit einem Team-basierten Modul zum Einreichen von Dateien kann ein Teilnehmer ei
 
 1. Wählen Sie die teambasierte Option aus. Die Option &quot;Einzel&quot; ist das frühere Modul zum Einreichen von Dateien für einzelne Teilnehmer.
 
-   ![Teambasierte Option für das Dateiübermittlungsmodul](assets/Group-Team-submission-and-rubric-based-assessments-image4.png "Teambasierte Option")
+   ![](assets/Group-Team-submission-and-rubric-based-assessments-image4.png)
 
 1. Wählen Sie den oder die Kursleiter aus.
 
@@ -191,7 +191,7 @@ Ein Kurs kann teambasierte und individuelle Einreichungsmodule umfassen. Alle Te
    * Wählen Sie eine manuelle Bewertung aus, damit der Kursleiter eine Gesamtpunktzahl eingeben kann.
    * Wählen Sie eine auf Kriterien basierende Bewertung aus, um die Punktzahl aus den Punkten jeder Evaluierungsplanoption zu berechnen. Diese Methode erfordert einen Evaluierungsplan.
 
-     ![Überprüfungs- und Bewertungsoptionen für das teambasierte Dateiübermittlungsmodul](assets/Group-Team-submission-and-rubric-based-assessments-image5.png)
+     ![](assets/Group-Team-submission-and-rubric-based-assessments-image5.png)
 
 >[!CAUTION]
 >
@@ -838,7 +838,7 @@ Führen Sie die folgenden Schritte aus, um ein Inhaltsmodul hinzuzufügen:
 
    *VC-Modul hinzufügen*
 
-   Wenn Sie einen Kurs mithilfe des Konfigurationsdialogfelds &quot;Virtuelles Klassenzimmer&quot; erstellen, stellen Sie das **Konferenzsystem** auf die von Ihnen erstellte Teams-Verbindung ein. Wählen Sie aus, ob Sie einen Meetingorganisator für die Veranstaltung wünschen.
+   Wenn Sie einen Kurs mithilfe des Konfigurationsdialogfelds &amp;quot;Virtuelles Klassenzimmer&amp;quot; erstellen, stellen Sie das **Konferenzsystem** auf die von Ihnen erstellte Teams-Verbindung ein. Wählen Sie aus, ob Sie einen Meetingorganisator für die Veranstaltung wünschen.
 
    Wenn Sie **Ja** für einen Meetingveranstalter auswählen, müssen Sie den Namen des Veranstalters eingeben. Geben Sie den Namen ein und wählen Sie den Organisator aus.
 
@@ -1497,7 +1497,7 @@ Sie können in Learning Manager mit den Menüoptionen „Veröffentlichen“ Kur
 1. Melden Sie sich mit Adobe-Anmeldeinformationen an. Wenn Sie noch keine Adobe ID haben, klicken Sie auf **[!UICONTROL Konto erstellen]**. Nach der Autorisierung werden Sie zur Seite für die Veröffentlichung von Modulen weitergeleitet.
 1. Geben Sie alle Basisinformationen über das Modul ein und klicken Sie auf „Veröffentlichen“.
 
-Sie sehen das veröffentlichte Modul auf der Modulseite von Learning Manager. Weitere Informationen finden Sie unter [Projekt in Adobe Learning Manager veröffentlichen](https://helpx.adobe.com/de/captivate/classic/publish-project-to-captivate-prime.html).
+Sie sehen das veröffentlichte Modul auf der Modulseite von Learning Manager. Weitere Informationen finden Sie unter [Projekt in Adobe Learning Manager veröffentlichen](https://helpx.adobe.com/captivate/classic/publish-project-to-captivate-prime.html).
 
 ## Kurseffektivität {#courseeffectiveness}
 

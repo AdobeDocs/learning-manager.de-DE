@@ -1,9 +1,9 @@
 ---
 title: Abgesicherter Prüfungsbrowser
 description: Aktivieren Sie die Integration des sicheren Prüfungsbrowsers auf Kontoebene in Adobe Learning Manager, damit Autoren eine sichere Browserumgebung für native Tests benötigen können.
-source-git-commit: 38dba6765ff013e446ab1f6098e9f1df0c24d0f9
+source-git-commit: 8f23f95cd81e5b64932281c990d27be0c390850b
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '321'
 ht-degree: 1%
 ---
 
@@ -17,7 +17,7 @@ In diesem Artikel wird erläutert, wie Sie die Integration des sicheren Prüfung
 
 ## Integration des sicheren Prüfungsbrowsers aktivieren
 
-Aktivieren Sie die Integration des sicheren Prüfungsbrowsers, um die Option Autoren bei der Konfiguration von Tests zur Verfügung zu stellen. Stellen Sie zunächst sicher, dass Sie über die Datei &quot;Safe Exam Browser&quot; für Ihr Konto verfügen.
+Konfigurieren Sie die Integration des sicheren Prüfungsbrowsers, um die Option Autoren bei der Konfiguration von Tests zur Verfügung zu stellen. Stellen Sie zunächst sicher, dass Sie über die Datei &quot;Safe Exam Browser&quot; für Ihr Konto verfügen.
 
 So aktivieren Sie die Integration des sicheren Prüfungsbrowsers:
 
@@ -36,6 +36,8 @@ So aktivieren Sie die Integration des sicheren Prüfungsbrowsers:
 1. Wählen Sie **Speichern**.
 
    Der Browser für sichere Prüfungen ist jetzt für Autoren verfügbar, die ihn beim Konfigurieren unterstützter Quiz aktivieren können.
+
+Weitere Informationen zum Konfigurieren des abgesicherten Prüfungsbrowsers als **Autor** finden Sie unter [Erstellen eines Kurses mit SEB](../../authors/feature-summary/create-a-course-with-safe-exam-browser.md).
 
 ### Konfigurieren der .seb-Datei für macOS {#configure-the-seb-file-for-macos}
 
