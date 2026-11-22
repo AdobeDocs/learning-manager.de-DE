@@ -6,7 +6,7 @@ exl-id: 8203488d-74a6-4463-9383-76d16cabccfa
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 2fc477a745fef442f52027e4e6a03a290655d1f5
+source-git-commit: ce2797523093c4c3b3c390386119c8ed679acdc0
 workflow-type: tm+mt
 source-wordcount: '3457'
 ht-degree: 0%
@@ -59,7 +59,7 @@ Wenn der Teilnehmerassistent eine Frage beantwortet, listet er die Lerninhalte a
 
 Bestätigen Sie, dass der Lernpfad für die Frage relevant und für den Teilnehmer im Katalog sichtbar ist. Der Teilnehmer-Assistent zeigt keine Inhalte an, die für den Teilnehmer ausgeblendet sind.
 
-## Konfigurieren von Teilnehmerassistenten
+## Konfigurieren von Teilnehmerassistenten {#configure-la-agents}
 
 Schalten Sie die einzelnen Teilnehmer-Assistenten-Agenten ein oder aus, um zu steuern, welche KI-Funktionen Ihre Teilnehmer in Adobe Learning Manager verwenden können.
 
@@ -381,7 +381,7 @@ Der Lernassistent von Adobe Learning Manager kann Teilnehmerfragen zu Lernobjekt
 
 >[!IMPORTANT]
 >
->Voraussetzung ist, dass ein Administrator die erforderlichen Kataloge dem Teilnehmer-Assistenten hinzufügt. Weitere Informationen finden Sie unter [Zugriff auf AI Assistant konfigurieren](https://experienceleague.adobe.com/de/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access).
+>Voraussetzung ist, dass ein Administrator die erforderlichen Kataloge dem Teilnehmer-Assistenten hinzufügt. Weitere Informationen finden Sie unter [Zugriff auf AI Assistant konfigurieren](https://experienceleague.adobe.com/en/docs/learning-manager/using/learner/learner-ai-assistant#configure-ai-assistant-access).
 
 
 Wenn ein Administrator einen Go1- oder LinkedIn-Lernkatalog zu Adobe Learning Manager hinzufügt, durchläuft der Kataloginhalt einen geplanten Aufnahmeprozess. Nach Abschluss der Aufnahme sind die Lernobjekte aus diesem Katalog für die Abfrage durch den Lernassistenten verfügbar.

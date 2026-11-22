@@ -5,9 +5,9 @@ title: Insights Agent (Beta) in Adobe Learning Manager
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 2377d632f2bc41f5c33e5880c1cbc2baa071d5da
+source-git-commit: ce2797523093c4c3b3c390386119c8ed679acdc0
 workflow-type: tm+mt
-source-wordcount: '4257'
+source-wordcount: '4259'
 ht-degree: 0%
 ---
 
@@ -55,7 +55,7 @@ Der Abschnitt **Ansatz** ist besonders für komplexe Abfragen nützlich. Hier wi
 
 Verwenden Sie den Insights Agent in Adobe Learning Manager, um Lerndaten mit Fragen in verständlicher Sprache abzufragen und Ergebnisse als Text, Tabellen oder herunterladbare CSV-Dateien zu erhalten.
 
-Der Insights Agent steht Administratoren im Bereich &quot;AI Assistant&quot; im Learning Manager zur Verfügung. Die Größe des Bedienfelds kann geändert werden. Sie können sie erweitern, um die Ergebnisse leichter lesbar zu machen. Standardmäßig ist der Modus **Erkenntnisse abrufen** beim Öffnen des Bereichs ausgewählt. Ein separater **Learn**-Modus ist auch für Fragen zur Verwendung des Produkts verfügbar. Im Modus **Training** werden Fragen zur Verwendung des Lern-Managers beantwortet. Beispiel: &quot;Wie erstelle ich einen Lernpfad?&quot; Es werden keine Teilnehmerdaten abgefragt.
+Der Insights Agent steht Administratoren im Bereich &quot;AI Assistant&quot; im Learning Manager zur Verfügung. Die Größe des Bedienfelds kann geändert werden. Sie können sie erweitern, um die Ergebnisse leichter lesbar zu machen. Standardmäßig ist der Modus **Erkenntnisse abrufen** beim Öffnen des Bereichs ausgewählt. Ein separater **Learn**-Modus ist auch für Fragen zur Verwendung des Produkts verfügbar. Im Modus **Training** werden Fragen zur Verwendung des Lern-Managers beantwortet. Beispiel: &quot;Wie erstelle ich einen Lernpfad?&quot; Es werden keine Teilnehmerdaten abgefragt. [Weitere Informationen](/help/migrated/administrators/feature-summary/insights-agent.md#create-report-insights-agent)
 
 ### Eine Frage stellen
 
@@ -299,7 +299,7 @@ Nutze sie als Ausgangspunkt. Passen Sie sie an, indem Sie die für Ihr Konto gü
 
 Der Insights Agent unterstützt Anfragen in englischer und lateinischer Sprache, z. B. Französisch und Spanisch. Abfragen, die mit nicht-lateinischen Schriften (z. B. Japanisch, Chinesisch, Arabisch, Koreanisch, Hindi und Russisch) eingereicht werden, werden nicht verarbeitet. Der Agent zeigt eine Meldung an, dass die Abfrage nicht abgeschlossen werden konnte. Wenn Sie eine Abfrage in einer dieser Sprachen senden, starten Sie eine neue Abfrage und setzen sie in Englisch um.
 
-## Erstellen eines Berichts aus einer Antwort des Insights-Agenten
+## Erstellen eines Berichts aus einer Antwort des Insights-Agenten {#create-report-insights-agent}
 
 In Adobe Learning Manager können Sie dem Insights Agent eine Frage in verständlicher Sprache stellen und die Antwort als Bericht im Report Builder öffnen. Sie können den Bericht bearbeiten und wiederverwenden, sodass Sie ihn nicht von Grund auf neu erstellen müssen.
 
