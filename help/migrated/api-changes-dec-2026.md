@@ -3,7 +3,7 @@ description: Erfahren Sie, wie Sie die Board-Abonnementeinstellungen und Abonnen
 jcr-language: en_us
 title: API-Änderungen im November 2026
 exl-id: 9b2d3856-810c-4352-bf18-667f698d4d70
-source-git-commit: d1399781294a58f6ede8461878c979bd8b5edb34
+source-git-commit: 4234f3cc3b9d77a7f9d197d2df2160ec62edd6d6
 workflow-type: tm+mt
 source-wordcount: '5724'
 ht-degree: 4%
@@ -11,7 +11,7 @@ ht-degree: 4%
 
 # API-Änderungen im Dezember 2026
 
-## APIs für Benachrichtigungen von Diskussionsrunde-Kursleitern
+## APIs für Benachrichtigungen von Diskussionsrunde-Kursleitern {#api-discussion-board-instructors}
 
 In diesem Artikel werden die neuen APIs beschrieben, die Benachrichtigungen von Diskussionsrunde-Kursleitern unterstützen. Verwenden Sie sie, um Kursleiter und Kohortenmanager für Diskussionsforen zu abonnieren und zu steuern, welche Aktivität in ihren Auswahl-E-Mails angezeigt wird.
 
@@ -585,7 +585,7 @@ Die Antwort hat keinen Körper.
 | 401 | Der Anforderung fehlen gültige Anmeldeinformationen oder der Zugriff wurde aufgrund ungültiger Anmeldeinformationen verweigert. |
 | 404 | Die angeforderte Ressource, z. B. das Board oder das Abonnement, wurde nicht gefunden. |
 
-## Reihenfolge von Lesezeichen-APIs und Behandlung eingestellter Inhalte
+## Reihenfolge von Lesezeichen-APIs und Behandlung eingestellter Inhalte {#bookmark-api-ordering-retired-content}
 
 ### Zweck der API
 
@@ -721,7 +721,7 @@ Ein häufiger Anwendungsfall ist eine Liste &quot;Gespeichert für später&quot;
 3. Entfernen Sie alle clientseitigen Sortierungen oder eingestellten Inhaltsdaten, die Sie als Problemumgehung hinzugefügt haben.
 4. Anzahl der Lesezeichen anhand der Anzahl der Elemente in der Antwort anzeigen. Lesezeichen für eingestellte Lernobjekte sind nicht mehr enthalten.
 
-### API-Unterstützung für mehrfach registrierte Instanzen im Teilnehmer-Compliance-Widget in der Teilnehmer-App
+### API-Unterstützung für mehrfach registrierte Instanzen im Teilnehmer-Compliance-Widget in der Teilnehmer-App {#api-multienrolled-instances-lc-widget}
 
 Die öffentliche API unterstützt dieses Verhalten über einen optionalen Abfrageparameter für den vorhandenen Registrierungsendpunkt. Wenn Sie den Parameter auslassen, gibt die API die gleichen Ergebnisse wie zuvor zurück, sodass vorhandene Integrationen, einschließlich Headless-Implementierungen, weiterhin unverändert funktionieren.
 
@@ -1553,7 +1553,7 @@ true. Der Standardwert ist false.
 
 &rbrace;
 
-## Letztes Zugriffsdatum für die Lernpfadregistrierung {#last-access-date-lp-enrollment}
+## Letztes Zugriffsdatum für die Lernpfadregistrierung {#api-last-access-date-lp-enrollment}
 
 Mit Adobe Learning Manager können Sie benutzerdefinierte Metadaten, wie z. B. das Datum des letzten Zugriffs, bei einer Lernpfadregistrierung speichern. Sie legen die Metadaten über die API fest und lesen sie. Auf diese Weise können Sie den zeitgebundenen Zugriff auf zugewiesene Lernpfade verfolgen.
 
@@ -1638,7 +1638,7 @@ Externe Portale und Integrationen verwenden die gleichen API-Aufrufe. Verwenden 
 * **Wert in Ihrem Portal anzeigen:** Senden Sie die GET-Anforderung für Ihren Tokentyp aus der Tabelle oben und lesen Sie das `metadata`-Objekt aus der Antwort.
 * **Aktualisieren Sie den Wert von einem externen System, z. B. einer Commerce-Plattform:** Senden Sie die PATCH-Anforderung mit einem Admin-Token.
 
-## Job-API: Exportieren von Report Builder-Berichten mit generateCustomReport
+## Job-API: Exportieren von Report Builder-Berichten mit generateCustomReport {#api-job-report-builder-exports}
 
 Die Adobe Learning Manager-Version vom Dezember 2026 fügt der Job-API den neuen Auftragstyp &quot;`generateCustomReport`&quot; hinzu. Verwenden Sie diese Option, um alle Berichte, die Sie in Report Builder erstellt haben, automatisch zu exportieren, indem Sie die Berichts-ID übergeben.
 

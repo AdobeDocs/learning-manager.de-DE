@@ -1,9 +1,9 @@
 ---
 title: Erstellen Sie einen Kurs mit "Abgesicherter Prüfungsbrowser"
 description: Erstellen Sie ein Quiz im Modus "Sichere Prüfung Browser" und fügen Sie es als Modul zum Selbststudium in Adobe Learning Manager zu einem Kurs hinzu, um eine eingeschränkte Lernumgebung bereitzustellen.
-source-git-commit: 6629e193116a8c2de12606277986811b20bbdf90
+source-git-commit: 8f23f95cd81e5b64932281c990d27be0c390850b
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '551'
 ht-degree: 0%
 ---
 
@@ -43,7 +43,7 @@ So erstellen Sie ein Quiz im abgesicherten Prüfungsbrowser:
 
    >[!NOTE]
    >
-   > Wenn der Administrator diese Option aktiviert, können Sie die Anforderung des sicheren Prüfungsbrowsers (SEB) für ein Kursquiz-Modul aktivieren oder deaktivieren. Wenn der Administrator diese Option deaktiviert, wird SEB für das Quiz obligatorisch, und Sie können diese Anforderung nicht ändern.
+   > Wenn der Administrator diese Option aktiviert, können Sie die Anforderung des sicheren Prüfungsbrowsers (SEB) für ein Kursquiz-Modul aktivieren oder deaktivieren. Wenn der Administrator diese Option deaktiviert, wird SEB für das Quiz obligatorisch, und Sie können diese Anforderung nicht ändern. Weitere Informationen finden Sie unter [Integration des abgesicherten Prüfungsbrowsers aktivieren](../../administrators/feature-summary/safe-exam-browser.md#enable-safe-exam-browser-integration).
 
 1. Wählen Sie **Publish** aus.
 
@@ -68,3 +68,5 @@ Hinzufügen des Quiz zu einem Kurs:
 1. Wählen Sie **Speichern** > **Publish**.
 
    Der Kurs enthält jetzt eine Bewertung, bei der die Teilnehmer den sicheren Prüfungsbrowser verwenden müssen.
+
+Zeigen Sie [Quiz im abgesicherten Prüfungsbrowser starten](../../learners/feature-summary/launch-safe-exam-browser.md) an, um zu erfahren, wie Teilnehmer mit dem abgesicherten Prüfungsbrowser auf Quiz zugreifen und sie absolvieren können.
