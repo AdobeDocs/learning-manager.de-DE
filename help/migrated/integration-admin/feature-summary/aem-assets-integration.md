@@ -428,5 +428,5 @@ Vergewissern Sie sich, dass der öffentliche Vorschaulink aktiviert ist, dass es
 **Verwandte Links:**
 
 * [Verwalten von Inhalten in der Inhaltsbibliothek](/help/migrated/authors/feature-summary/content-library.md)
-* [Adobe Admin Console - Dokumentation](https://experienceleague.adobe.com/en/docs/support-resources/adobe-support-tools-guide/adobe-admin-console/admin-console-overview)
-* [Adobe Experience Manager Assets - Dokumentation](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/overview)
+* [Adobe Admin Console - Dokumentation](https://experienceleague.adobe.com/de/docs/support-resources/adobe-support-tools-guide/adobe-admin-console/admin-console-overview)
+* [Adobe Experience Manager Assets - Dokumentation](https://experienceleague.adobe.com/de/docs/experience-manager-learn/assets/overview)
