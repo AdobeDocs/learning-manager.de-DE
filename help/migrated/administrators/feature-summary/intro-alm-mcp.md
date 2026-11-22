@@ -3,9 +3,9 @@ description: Ermöglichen Sie es Teilnehmern, Kurse zu entdecken, den Fortschrit
 jcr-language: en_us
 title: Adobe Learning Manager Model Context Protocol-Server
 exl-id: 8d0a25a6-1301-4f68-8db7-e3b1d3ff6537
-source-git-commit: 05691364449234a4782e2de5d4752c7b277f5fd4
+source-git-commit: f6dc1e97076edf812862b80a6ed5931989c660da
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '684'
 ht-degree: 0%
 ---
 
@@ -33,7 +33,7 @@ Die vollständige Liste finden Sie in der **Referenz zu den Teilnehmertools**.
 
 Kunden- und Partnerschulungen sind eine primäre Nutzung des MCP-Servers. Unternehmen, die eigene KI-Agenten für Unternehmen entwickeln, können diese Agenten mit den Adobe Learning Manager-Lernprogrammen verbinden. Ihre Kunden und Partner lernen dann innerhalb des Assistenten, den sie bereits verwenden, ohne zu einem separaten Lernassistenten zu wechseln.
 
-Acme Inc. z. B. entwickelt einen eigenen KI-Assistenten für Unternehmen. Ein Partner von Acme Inc. besucht die Umgebung von Lenovo, um mehr über die Lenovo-Produkte zu erfahren. Der Acme-Mitarbeiter stellt über den MCP-Server eine Verbindung zu seinem Adobe Learning Manager-Konto her und gibt lernbezogene Antworten zurück, sodass der Partner das Acme-Erlebnis nie verlässt.
+Acme Inc. z. B. entwickelt einen eigenen KI-Assistenten für Unternehmen. Ein Partner von Acme Inc. besucht die Umgebung von Tech Corp, um mehr über die Produkte von Tech Corp zu erfahren. Der Acme-Mitarbeiter stellt über den MCP-Server eine Verbindung zu seinem Adobe Learning Manager-Konto her und gibt lernbezogene Antworten zurück, sodass der Partner das Acme-Erlebnis nie verlässt.
 
 Mit diesem Ansatz können Organisationen:
 
