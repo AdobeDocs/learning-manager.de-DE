@@ -3,13 +3,11 @@ jcr-language: en_us
 title: Verfügbare Datensätze im Report Builder
 description: Ein Referenzhandbuch zu den in Adobe Learning Manager Report Builder verfügbaren Datensätzen, Feldern und abgeleiteten Feldern.
 contentowner: mmanuel
-source-git-commit: 8823a5481bc3b34266f7ec36a8f3c26cb923e1ce
+source-git-commit: e360008c41c1d72de660295f4789d729177d1fdb
 workflow-type: tm+mt
-source-wordcount: '1410'
-ht-degree: 27%
-
+source-wordcount: '1478'
+ht-degree: 29%
 ---
-
 
 # Verfügbare Datensätze im Report Builder
 
@@ -61,10 +59,31 @@ Die Angaben in der Tabelle sind nicht vollständig. Im Abschnitt **Liste der Spa
 * Benutzerabschluss in %
 * Einhaltung des Benutzerzeitplans in %
 
+### L2 Quiz nach benutzerdefiniertem Feld (Benutzer)
+
+* Versuchsnr.
+* Kurs-ID
+* Kursinstanz-ID
+* Kursname
+* Interaktionstyp
+* Modul-ID
+* Modulname
+* Modulversion
+* Frage – Richtige Antwort
+* Frage – ID
+* Frage – Maximal mögliche Punktzahl
+* Frage – Text
+* Antwort – Erreichte Punktzahl
+* Antwort – Antwort
+* Antwort – Ist korrekt
+* Antwort – Zeitstempel
+* Benutzer-ID
+
 ### Lernobjekt
 
 * Autorennamen
 * Datum der automatischen Deaktivierung
+* Zertifikatsgültigkeit (Monate)
 * Anzahl der Abschlüsse
 * Erstellungsdatum
 * Dauer (Minuten)
@@ -77,7 +96,7 @@ Die Angaben in der Tabelle sind nicht vollständig. Im Abschnitt **Liste der Spa
 * Datum der letzten Veröffentlichung
 * Mehrfacheinschreibung aktiviert
 * Name
-* Voraussetzungen durchgesetzt
+* Voraussetzungen erzwungen
 * Preis
 * Punkte für Kenntnisse
 * Kenntnisstufen
@@ -135,11 +154,13 @@ Die Angaben in der Tabelle sind nicht vollständig. Im Abschnitt **Liste der Spa
 * Registrierungsdatum
 * Registrierungsquelle
 * Registrierungsstatus
+* Primäre Registrierung
+* Metadaten
 * Lernobjekt-ID
 * Lernobjektname
 * Lernobjektinstanz-ID
 * Überfällig
-* Eltern-Lernobjekt-ID
+* Übergeordnete Lernobjekt-ID
 * Bestanden am
 * Fortschritt in Prozent
 * Stammzertifizierungs-ID
@@ -156,6 +177,7 @@ Die Angaben in der Tabelle sind nicht vollständig. Im Abschnitt **Liste der Spa
 * Kurs-ID
 * Modul-ID
 * Modulname
+* Modulerfolgsstatus
 * Bestanden am
 * Fortschritt in Prozent
 * Gesamtpunktzahl für Quizmodul
@@ -218,7 +240,10 @@ Die Angaben in der Tabelle sind nicht vollständig. Im Abschnitt **Liste der Spa
 
 ### Benutzergruppe (benutzerdefiniert)
 
+* Erstellt nach Benutzer-E-Mail-Adresse
+* Erstellt nach Benutzername
 * Erstellungsdatum
+* Beschreibung
 * ID
 * Mitgliederanzahl
 * Name
@@ -227,6 +252,7 @@ Die Angaben in der Tabelle sind nicht vollständig. Im Abschnitt **Liste der Spa
 ### Benutzergruppe (direktes Team)
 
 * Erstellungsdatum
+* Beschreibung
 * ID
 * Mitgliederanzahl
 * Name
@@ -239,6 +265,7 @@ Die Angaben in der Tabelle sind nicht vollständig. Im Abschnitt **Liste der Spa
 ### Benutzergruppe (integriert)
 
 * Erstellungsdatum
+* Beschreibung
 * ID
 * Mitgliederanzahl
 * Name
@@ -247,6 +274,7 @@ Die Angaben in der Tabelle sind nicht vollständig. Im Abschnitt **Liste der Spa
 ### Benutzergruppe (Team)
 
 * Erstellungsdatum
+* Beschreibung
 * ID
 * Mitgliederanzahl
 * Beschreibung
