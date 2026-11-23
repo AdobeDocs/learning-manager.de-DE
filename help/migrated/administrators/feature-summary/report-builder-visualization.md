@@ -1,9 +1,9 @@
 ---
 title: Visualisierungen im Report Builder
 description: Erstellt mithilfe gespeicherter Berichte in Adobe Learning Manager Report Builder Diagramme und Dashboards, um Gruppen zu vergleichen, Trends zu ermitteln und Ergebnisse zu teilen.
-source-git-commit: 8354c2285602189dd7c8211b8b44900385dc6c8b
+source-git-commit: 27a1b9f6669097ce85d1c4994537fb8cdf571abe
 workflow-type: tm+mt
-source-wordcount: '3892'
+source-wordcount: '3975'
 ht-degree: 0%
 ---
 
@@ -64,6 +64,7 @@ Bestätigen Sie Folgendes:
 * **Bericht speichern.** Die Option zum Hinzufügen eines Report Builders wird auf der Diagrammseite angezeigt, nachdem Sie den Bericht gespeichert haben.
 * **Verwenden Sie Ihren eigenen Bericht.** Duplizieren Sie einen freigegebenen Bericht, um eine eigene Kopie zu erstellen, und verwenden Sie ihn dann zum Erstellen von Diagrammen.
 * **Überprüfen Sie die Größe.** Ein Bericht mit mehr als 10 Millionen Zeilen kann nicht gezeichnet werden. Ein zusammenfassender Bericht mit mehr als 10.000 Datenpunkten ist nicht gezeichnet. Siehe Diagramm- und Dashboard-Einschränkungen.
+* **Optimieren Sie die Daten für die Visualisierung.** Wenden Sie geeignete Filter auf Bericht- oder Diagrammebene an, um die aufgezeichneten Daten zu begrenzen. Die zum Laden eines Diagramms erforderliche Zeit hängt von Faktoren wie dem Volumen der Berichtsdaten, dem ausgewählten Datumsbereich und der Kombination der im Bericht verwendeten Datensätze und Tabellen ab. Berichte, die große Datenmengen oder komplexe Dataset-Kombinationen verarbeiten, können länger geladen werden oder überlastet sein. Schränken Sie in diesem Fall die Filter oder den Datumsbereich ein und versuchen Sie es erneut.
 * **Kenne deine Spalten.** Die X-Achse (Dimension) und die Y-Achse (Maß) des Diagramms stammen aus den Berichtsspalten. Um den Bericht selbst zusammenzufassen, verwenden Sie **Gruppe nach** und aggregieren Sie. Weitere Informationen finden Sie unter Anwenden von Gruppen nach und Aggregationen.
 
 ### Diagramm konfigurieren {#configure-chart}
