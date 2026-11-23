@@ -3,9 +3,9 @@ title: Widgets in Experience Builder hinzufügen und konfigurieren
 description: Erfahren Sie, wie Sie verschiedene Widgets in Experience Builder in Adobe Learning Manager hinzufügen, anpassen und konfigurieren. Dieses Handbuch behandelt häufig verwendete Widgets wie Kalender, Kategorien, Konformitätsstatus, Kurse und Pfade, Gamification, HTML-Inhalte, IFrames, soziales Lernen und mehr.
 jcr-language: en-us
 exl-id: 9f9fe71b-62ff-4873-a103-e80a7e88811a
-source-git-commit: 45909026b58b7c094c22856e2213f44111b7ecb2
+source-git-commit: fefdedcb70c7006bd818646c505fb5d09f0c0035
 workflow-type: tm+mt
-source-wordcount: '2864'
+source-wordcount: '3102'
 ht-degree: 0%
 ---
 # Widgets hinzufügen und konfigurieren
@@ -312,6 +312,38 @@ So konfigurieren Sie das Widget &quot;Eigenes Lernen&quot;:
 9. Wählen Sie **[!UICONTROL Widget hinzufügen]**.
 
 Mein Lern-Widget wird der Seite hinzugefügt. Administratoren können andere Widgets hinzufügen und die Seite veröffentlichen.
+
+## Personalisiertes Lernpfad-Widget {#add-a-plp}
+
+Das Widget &quot;Personalisierter Lernpfad&quot; ist ein Inhaltsstreifen, den Sie den Teilnehmerseiten in Experience Builder hinzufügen können. Hier wird den Teilnehmern der Lernpfad angezeigt, der ihnen vom PLP-Mitarbeiter (Personalized Learning Path) im Lernassistenten generiert wurde, sodass sie ihre empfohlenen Kurse sehen und das Lernen fortsetzen können, ohne die Seite zu verlassen.
+
+Verwenden Sie das Widget &quot;Personalisierter Lernpfad&quot;, um Teilnehmern auf einer Seite in Experience Builder einen personalisierten Satz von Kursen anzuzeigen.
+
+## Vorbereitung
+
+* Stellen Sie sicher, dass der Agent für den personalisierten Lernpfad für Ihr Konto aktiviert ist. Es ist in der Ultimate -Ebene enthalten oder als Add-on zur Prime -Ebene verfügbar.
+* Stellen Sie sicher, dass der Teilnehmerassistent und der Personalized Learning Path Agent in den Einstellungen von **AI Assistant** aktiviert sind.
+* Stellen Sie sicher, dass Sie über die Administratorrolle verfügen.
+
+### Widget &quot;Personalisierter Lernpfad&quot; hinzufügen
+
+1. Melden Sie sich bei Adobe Learning Manager als **Administrator** an.
+
+2. Wählen Sie im linken Bereich **Branding**.
+
+3. Wählen Sie **Benutzerdefinierte Seiten** aus.
+
+4. Wählen Sie **Bearbeiten** und anschließend das Layout aus. Wählen Sie dann
+
+5. Wählen Sie **Widget hinzufügen** und dann **Personalisierter Lernpfad**.
+
+6. Geben Sie unter **Widget title** einen Titel für das Widget ein.
+
+7. (Optional) Geben Sie unter **Widgetbeschreibung** eine kurze Beschreibung ein. Sie können bis zu 180 Zeichen eingeben.
+
+8. Überprüfen Sie die Vorschau auf der rechten Seite des Bildschirms. Jede Karte zeigt das Kursformat, die Dauer, die Kenntnisse, die Bewertung, den Titel und den Autor sowie eine **Schaltfläche Weiter** an.
+
+9. Wählen Sie **Widget hinzufügen** aus, und klicken Sie dann auf **Publish**, um die Seite den Teilnehmern zur Verfügung zu stellen.
 
 ## Von mir gespeicherte Widgets {#bookmark-widget}
 
