@@ -1,17 +1,19 @@
 ---
-description: Erfahren Sie, was die Teilnehmer mit dem Adobe Learning Manager Model Context Protocol-Server tun können und welche MCP-Tools die einzelnen Funktionen unterstützen.
+description: Erfahren Sie, was die Teilnehmer mit dem Adobe Learning Manager Model Context Protocol-Server tun können und welche Tools die einzelnen Funktionen unterstützen.
 jcr-language: en_us
 title: Teilnehmer-Tools für den Model Context Protocol-Server
 exl-id: 4509b984-d0ba-4b7e-a0bb-803aa235fd1e
-source-git-commit: 05691364449234a4782e2de5d4752c7b277f5fd4
+source-git-commit: 89aa1b5ab02eed8a61507ab162fcbbd384e6c5fc
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 2%
+source-wordcount: '394'
+ht-degree: 0%
 ---
 
 # Teilnehmer-Tools für den Model Context Protocol-Server
 
-Jede Funktion wird als angemeldeter Teilnehmer ausgeführt, nachdem der Teilnehmer eine Verbindung hergestellt hat. Eine Anforderung gibt nur den Inhalt zurück, auf den dieser Teilnehmer in Adobe Learning Manager zugreifen kann. Weitere Informationen finden Sie unter [Verbinden Ihres AI-Clients](/help/migrated/learners/feature-summary/connect-ai-client-to-alm-learner.md).
+## Übersicht
+
+Jede Funktion wird als angemeldeter Teilnehmer ausgeführt, nachdem der Teilnehmer eine Verbindung hergestellt hat. Eine Anforderung gibt nur den Inhalt zurück, auf den dieser Teilnehmer in Adobe Learning Manager zugreifen kann. Weitere Informationen über [Verbinden Ihres AI-Clients](/help/migrated/learners/feature-summary/connect-ai-client-to-alm-learner.md).
 
 ## Teilnehmerfunktionen
 
@@ -25,19 +27,17 @@ Jede Funktion wird als angemeldeter Teilnehmer ausgeführt, nachdem der Teilnehm
 
 ## Unterstützte MCP-Werkzeuge
 
-Der Teilnehmer-Assistent-MCP-Server legt die folgenden Tools für Teilnehmer.
+Der Adobe Learning Manager MCP-Server legt die folgenden Teilnehmerwerkzeuge.
 
-| **MCP-Tool** | **Zweck** | **Unterstützt die Funktion** |
-|----|----|----|
-| Suchen | Verfügbare Lerninhalte suchen | Lerninhalte suchen |
-| Registrierung abrufen | Registrierungsinformationen für Teilnehmer abrufen | Registrierungen anzeigen |
-| Antwort-Agent | Beantworten von Fragen mithilfe von Lerninhalten | Lernfragen stellen |
-| Benutzer abrufen | Identifizieren des angemeldeten Teilnehmers für jede Anforderung | Alle Funktionen |
-| Lernobjekt abrufen | Abrufen von Details zu einem Lernobjekt, z. B. Beschreibung und Dauer | Lerninhalte suchen, Registrierungen anzeigen |
-| Lernpfad generieren | Erstellen empfohlener Lernpfade | Lernpfade generieren |
-| Lernpfad speichern | Generierte Lernpfade speichern | Speichern von Lernpfaden |
+| **Toolname** | **Beschreibung** |
+|----|----|
+| search_learning_items | Suchen Sie im Katalog nach Kursen, Lernpfaden, Zertifizierungen, Arbeitshilfen, Abzeichen, Kenntnissen, Katalogen und Tags. Filtern Sie nach Teilnehmerstatus, Kenntnissen, Tag, Katalog, Bereitstellungsformat, Preis und Sprache. Verwenden Sie für Themenfragen &quot;answer_learning_content_question&quot;. Beispiel: &quot;Python-Anfängerkurse.&quot; |
+| list_my_learning_enrollments | Listen Sie die registrierten, laufenden und abgeschlossenen Kurse, Lernpfade, Zertifizierungen und Arbeitshilfen des Teilnehmers mit Status, Fortschritt und Termin auf. Filtern Sie nach Lernobjekttyp oder Abschlussstatus. Die Ergebnisse zeigen zuerst die letzten Registrierungen an. Beispiel: &quot;Was ist bald fällig?&quot; |
+| get_learning_object | Erhalten Sie die vollständigen Details eines Kurses, eines Lernpfads, einer Zertifizierung oder einer Arbeitshilfe nach ID, optional mit Instanzen, Kenntnissen und Sub-Lernobjekten. Rufen Sie die ID aus search_learning_items oder list_my_learning_enrollments ab. |
+| get_my_learning_profile | Rufen Sie das Profil des Teilnehmers ab, einschließlich Konto- und Managerdetails. Verwenden Sie für Registrierungen und den Fortschritt list_my_learning_enrollments. |
+| answer_learning_content_question | Beantworten Sie Fragen zu Lerninhalten, die auf dem Lern-Material basieren und in den Quell-Lernobjekten zitiert werden. Fassen Sie ein Lernobjekt zusammen, oder vergleichen Sie zwei nebeneinander, um die Abdeckung, die Tiefe, die Voraussetzungen und die Zielgruppe zu ermitteln. Um Inhalte zu suchen oder aufzulisten, verwenden Sie search_learning_items oder list_my_learning_enrollments. Beispiel: &quot;Erläutern Sie TCP und UDP, wie in meinem Netzwerkkurs beschrieben.&quot; |
+| personalized_learning_path | Empfehlen Sie Kurse, die den Zielen, Themen und Bedürfnissen eines Teilnehmers entsprechen. Speichern Sie einen genehmigten Pfad im Konto des Teilnehmers. Listen Sie gespeicherte Pfade auf, oder rufen Sie Details und Kurse eines Pfades nach ID ab. |
 
 >[!IMPORTANT]
 >
 >Tool-Namen werden als Referenz angezeigt und können je nach Client-Implementierung variieren.
-
