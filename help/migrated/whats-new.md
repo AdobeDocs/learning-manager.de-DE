@@ -6,9 +6,9 @@ exl-id: da46f186-3ff3-422a-af49-31c7405fd584
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 4234f3cc3b9d77a7f9d197d2df2160ec62edd6d6
+source-git-commit: b05fc0d33acf0b594a64f3ad4aa9a5c8e570ab30
 workflow-type: tm+mt
-source-wordcount: '4846'
+source-wordcount: '4748'
 ht-degree: 2%
 ---
 
@@ -109,7 +109,7 @@ Administratoren können jede Tool-Beschreibung bearbeiten, um organisationsspezi
 ## Personalisierte Bearbeitung von Lernpfaden und Branding-Streifen
 
 * Teilnehmer können vorgeschlagene Themen oder Kurse jetzt in einem einzigen Schritt entfernen, zusätzlich zu der vorhandenen Option, um Themen- und Kurslisten über Chat zu verfeinern.
-* Administratoren können jetzt den personalisierten Lernpfadstreifen auf der Teilnehmer-Startseite über die Branding-Seite neu positionieren.
+* Administratoren können jetzt den Streifen &quot;Personalisierte Lernpfade&quot; auf der Teilnehmer-Startseite über die Branding-Seite neu positionieren.
 
 [Weitere Informationen](/help/migrated/administrators/feature-summary/customize-learner-homepage.md#add-reorder-homepage-strips)
 
@@ -121,7 +121,7 @@ Autoren erstellen Szenarien aus ihren eigenen Referenzszenarien mithilfe von Vor
 
 Virtual Coach unterstützt neun Sprachen und kann als eigenständige Arbeitshilfe verwendet oder in einen Kurs eingebettet werden.
 
-[Weitere Informationen](../migrated/authors/feature-summary/virtual-coach/what-virtual-coach-is.md)
+[Weitere Informationen](/help/migrated/authors/feature-summary/virtual-coach/what-virtual-coach-is.md)
 
 ## Zitate von Lernpfaden im Teilnehmerassistenten
 
@@ -338,14 +338,6 @@ Wenn Benutzer **Registrieren** auf einer Seite auswählen, die über diese URL e
 
 [Weitere Informationen](/help/migrated/administrators/feature-summary/experience-builder/non-logged-in-menu-url-self-registration.md)
 
-## Datum des letzten Zugriffs für Registrierungen für Lernpfade speichern
-
-Mit Adobe Learning Manager können Sie jetzt benutzerdefinierte Metadaten, wie z. B. das Datum des letzten Zugriffs, an eine Lernpfadregistrierung anhängen. Sie legen es fest und lesen es über die API, die Ihnen hilft, den zeitgebundenen Zugriff auf die Lernpfade, die Sie zuweisen, zu verfolgen.
-
-Für Kursregistrierungen wird bereits ein Datum des letzten Zugriffs über die API unterstützt, das steuert, wie lange ein Teilnehmer auf den Kurs zugreifen kann. Registrierungen für Lernpfade bieten jetzt ein generisches Metadatenfeld, sodass Sie ein Datum des letzten Zugriffs oder einen anderen Wert speichern können, den Sie nachverfolgen möchten.
-
-[Weitere Informationen](/help/migrated/api-changes-dec-2026.md#last-access-date-lp-enrollment)
-
 ## Änderungen an Spaltenüberschriften in heruntergeladenen Berichten
 
 Der Report Builder enthält jetzt den Datasetnamen in den Standardspaltenüberschriften der heruntergeladenen Berichte. Der Name aus dem Lernobjektdataset wird daher als **Lernobjekt - Name** anstelle von **Name** angezeigt. Bei aggregierten Spalten enthält die Überschrift auch die Funktion, z. B. &quot;**Anzahl der Lernobjekte - ID**&quot;. Wenn Sie einen benutzerdefinierten Namen in das Feld **Alias** einer Spalte eingeben, wird dieser Alias als Überschrift verwendet und bleibt unverändert.
@@ -356,7 +348,7 @@ Nach dem Upgrade werden in vorhandenen Berichten ohne benutzerdefinierte Aliase 
 
 Live Hub ist jetzt allgemein für Ultimate -Kunden verfügbar und bleibt für Prime -Kunden in der Beta-Version.
 
-[Weitere Informationen](./administrators/feature-summary/billing-management.md#view-usage-details-viewusagedetails)
+[Weitere Informationen](./administrators/feature-summary/billing-management.md#view-live-hub-usage)
 
 ## Mehrsprachige Unterstützung für Untertitel im Live Hub
 
@@ -387,7 +379,7 @@ In großen Sitzungen gelten die folgenden Funktionen und Verhaltensweisen:
 
 Auf diese Weise können Unternehmen große Schulungssitzungen auf derselben Plattform mit einem Raum durchführen, der an die erwartete Zielgruppengröße angepasst werden kann.
 
-[Weitere Informationen](./getting-started-with-live-hub/create-a-live-hub-session.md#create-a-course-for-large-session-create-large-session)
+[Weitere Informationen](./getting-started-with-live-hub/create-a-live-hub-session.md#create-large-session)
 
 ## Kanäle
 

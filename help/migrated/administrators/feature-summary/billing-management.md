@@ -7,7 +7,7 @@ exl-id: 91635ef7-dbb9-4bb1-98f9-129f6fd5b6b4
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: f7df2fe74d9f4d57c0ed0c127f09400cef543508
+source-git-commit: 53804a4311b741e87f06d497a866552995a521b2
 workflow-type: tm+mt
 source-wordcount: '3562'
 ht-degree: 37%
@@ -266,7 +266,7 @@ Jeder Benutzer, der die folgenden Aktionen ausführt oder aufgrund von Aktionen,
 - Teilnahme am sozialen Lernen durch Erstellen von Foren, Beiträgen oder Kommentaren.
 - Erzielen von Abschlüssen aufgrund von Genehmigungen zur Einreichung externer Zertifikate oder der Teilnahme an einem Klassenzimmer/einer virtuellen Klassenzimmersitzung.
 
-## Nutzungsdetails anzeigen {#viewusagedetails}
+## Nutzungsdetails anzeigen {#view-usage-details}
 
 1. Um die Anzahl der aktiven Benutzer pro Monat anzuzeigen, klicken Sie auf **[!UICONTROL Nutzungsdetails anzeigen]**.
 
