@@ -3,10 +3,10 @@ jcr-language: en_us
 title: Verfügbare Datensätze im Report Builder
 description: Ein Referenzhandbuch zu den in Adobe Learning Manager Report Builder verfügbaren Datensätzen, Feldern und abgeleiteten Feldern.
 contentowner: mmanuel
-source-git-commit: e360008c41c1d72de660295f4789d729177d1fdb
+source-git-commit: 3cb434b8a4eeebab140981b71da72fad380ded24
 workflow-type: tm+mt
-source-wordcount: '1478'
-ht-degree: 29%
+source-wordcount: '1493'
+ht-degree: 31%
 ---
 
 # Verfügbare Datensätze im Report Builder
@@ -59,7 +59,7 @@ Die Angaben in der Tabelle sind nicht vollständig. Im Abschnitt **Liste der Spa
 * Benutzerabschluss in %
 * Einhaltung des Benutzerzeitplans in %
 
-### L2 Quiz nach benutzerdefiniertem Feld (Benutzer)
+### L2-Quiz
 
 * Versuchsnr.
 * Kurs-ID
@@ -108,6 +108,7 @@ Die Angaben in der Tabelle sind nicht vollständig. Im Abschnitt **Liste der Spa
 * Tags
 * Typ
 * Eindeutige ID
+* Zertifikatsgültigkeit (Monate)
 
 ### Lernobjektinstanz
 
@@ -170,6 +171,8 @@ Die Angaben in der Tabelle sind nicht vollständig. Im Abschnitt **Liste der Spa
 * Höchste Punktzahl des Benutzers/der Benutzerin
 * Benutzer-ID
 * Aktuelle Punktzahl des Benutzers/der Benutzerin
+* Primäre Registrierung
+* Metadaten
 
 ### Transkript (Modul)
 
@@ -189,6 +192,7 @@ Die Angaben in der Tabelle sind nicht vollständig. Im Abschnitt **Liste der Spa
 * Benutzer-ID
 * Aktuelle Punktzahl des Benutzers/der Benutzerin
 * Benutzername
+* Modulerfolgsstatus
 
 ### Benutzer
 
@@ -229,6 +233,7 @@ Die Angaben in der Tabelle sind nicht vollständig. Im Abschnitt **Liste der Spa
 * Mitgliederanzahl
 * Name
 * Status
+* Mitgliederanzahl
 
 ### Benutzergruppe (aktives Feld)
 
@@ -237,6 +242,7 @@ Die Angaben in der Tabelle sind nicht vollständig. Im Abschnitt **Liste der Spa
 * Mitgliederanzahl
 * Name
 * Status
+* Mitgliederanzahl
 
 ### Benutzergruppe (benutzerdefiniert)
 
@@ -261,6 +267,7 @@ Die Angaben in der Tabelle sind nicht vollständig. Im Abschnitt **Liste der Spa
 * Name des Besitzers/der Besitzerin
 * Eindeutige Besitzer-ID
 * Status
+* Beschreibung
 
 ### Benutzergruppe (integriert)
 
@@ -270,6 +277,7 @@ Die Angaben in der Tabelle sind nicht vollständig. Im Abschnitt **Liste der Spa
 * Mitgliederanzahl
 * Name
 * Status
+* Beschreibung
 
 ### Benutzergruppe (Team)
 
@@ -285,6 +293,8 @@ Die Angaben in der Tabelle sind nicht vollständig. Im Abschnitt **Liste der Spa
 * Besitzerstatus
 * Eindeutige Besitzer-ID
 * Status
+* Beschreibung
+* Mitgliederanzahl
 
 ## Zusammenführung von Datensätzen
 
