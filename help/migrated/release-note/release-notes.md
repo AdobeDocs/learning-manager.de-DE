@@ -7,10 +7,10 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 4234f3cc3b9d77a7f9d197d2df2160ec62edd6d6
+source-git-commit: 3b08fa3d0954da4352dabd7ef855f446817fda84
 workflow-type: tm+mt
-source-wordcount: '39583'
-ht-degree: 56%
+source-wordcount: '40345'
+ht-degree: 55%
 ---
 # Versionshinweise zu Adobe Learning Manager
 
@@ -20,7 +20,7 @@ ht-degree: 56%
   <tr>
    <td><img src="assets/cp-prime-appicon-88x84.png"></td>
    <td>
-    <p><a href="https://business.adobe.com/de/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
+    <p><a href="https://business.adobe.com/products/learning-manager/adobe-learning-manager.html">Adobe Learning Manager</a> was launched in August 2015. As part of our continuous improvement efforts to enhance the product, we have been rolling out regular updates. Read on to know the features enhanced/issues fixed in update releases.<br></p></td>
   </tr>
  </tbody>
 </table>
@@ -316,6 +316,46 @@ Wenn das Gebietsschema der Benutzeroberfläche auf eine andere Sprache als Engli
 Dieses Verhalten tritt beim Exportieren von Speicherorten für Klassenzimmer aus dem Administratorprofil > Einstellungen > Speicherorte für Klassenzimmer auf. Während die Speicherortdaten in der Datei korrekt zurückgegeben werden, werden die Spaltenüberschriften nicht entsprechend dem vom Administrator ausgewählten Gebietsschema der Benutzeroberfläche Kamera bewogen. Infolgedessen sieht ein Administrator, der in einem nicht englischen Gebietsschema arbeitet, englische Spaltennamen in einer ansonsten lokalisierten Umgebung.
 
 Nur die Kopfzeile ist betroffen. Die zugrunde liegenden Speicherortdaten in der exportierten Datei sind davon nicht betroffen. In dieser Version ist keine Korrektur enthalten und das Problem wird für eine zukünftige Version bewertet.
+
+**Kursleiter kann nicht am virtuellen Klassenzimmer zwischen Modulen teilnehmen**
+Kursleiter können nicht am virtuellen Klassenzimmer teilnehmen, wenn sie versuchen, einen Raum außerhalb der geplanten Zeit des zugewiesenen Kursmoduls zu betreten.
+
+Adobe Learning Manager verwendet einen einzelnen virtuellen Klassenzimmerraum für alle Module innerhalb eines Kurses. Wenn ein Kursleiter den Raum startet, wird die Sitzung mit dem Modul verknüpft, das mit der Teilnehmer-URL dieses Kursleiters verknüpft ist. Jede nachfolgende Join-Anforderung muss mit dem aktiven Modul übereinstimmen, das dem Raum zugeordnet ist. Wenn ein anderer Kursleiter versucht, mit dem Join-Link eines anderen Moduls teilzunehmen, während ein anderes Modul aktiv ist, wird der Zugriff auf den Raum verweigert. Im freigegebenen Raum kann jeweils nur ein Modul aktiv sein.
+
+Dieses Verhalten wird in der aktuellen Version erwartet. Verbesserungen, die Kursleitern die Teilnahme am Raum unabhängig vom aktiven Modul ermöglichen, sind für eine zukünftige Version geplant.
+
+**Audio wird unterbrochen, wenn Mikrofon und Lautsprecher auf macOS unterschiedlich sind**
+Wenn sich Mikrofon und Lautsprecher auf unterschiedlichen Geräten befinden, kann es passieren, dass während einer virtuellen Klassenzimmersitzung in macOS zeitweise Audiosignale unterbrochen werden oder der Ton verstümmelt. Dieses Verhalten kann auftreten, wenn verschiedene Geräte für die Audioeingabe und -ausgabe verwendet werden, z. B. AirPods für das Mikrofon und der integrierte Lautsprecher für die Wiedergabe. Da jedes Gerät eine eigene Audioverzögerung einführt, ist die Echokompensation weniger effektiv, und die Unterdrückung von Hintergrund-Rauschen kann gelegentlich Teile der Sprache fälschlicherweise als Rauschen identifizieren. Dies kann zu kurzen Audiounterbrechungen führen. Das Problem tritt deutlicher auf, wenn die Stimme des Sprechers bei geringer Lautstärke aufgenommen wird, z. B. wenn das Mikrofon weiter entfernt positioniert ist.
+
+Dies ist eine bekannte Plattformbeschränkung und nicht spezifisch für Adobe Learning Manager. Ähnliches Verhalten wurde in anderen Konferenzanwendungen beobachtet. In dieser Version ist keine Korrektur enthalten und das Problem wird für eine zukünftige Version bewertet.
+
+Verwenden Sie dasselbe Gerät für das Mikrofon und die Lautsprecher, um dieses Verhalten zu vermeiden.
+
+**Freigegebenes Video friert in Chrome ein, nachdem der Fokus verloren wurde**
+Wenn ein Kursleiter ein Chrome-Fenster freigibt, in dem ein Video wiedergegeben wird, und dann den Fokus davon entfernt, können die Teilnehmer sehen, dass der freigegebene Inhalt einfriert, oder einen schwarzen Bildschirm anzeigen. Das Video wird weiterhin lokal für den Kursleiter abgespielt, aber Remote-Teilnehmer sehen möglicherweise nicht, dass der Inhalt aktualisiert wird, während das freigegebene Fenster nicht den Fokus hat. Das Verhalten ist je nach Betriebssystem unterschiedlich:
+
+* Unter Windows sehen die Teilnehmer einen schwarzen Bildschirm.
+* In macOS wird den Teilnehmern der zuletzt angezeigte Rahmen angezeigt.
+
+Die Videowiedergabe für Teilnehmer wird in der Regel fortgesetzt, wenn der Fokus wieder auf das freigegebene Browserfenster verlagert wird.
+
+Dies ist eine Browser- und Betriebssystembeschränkung und ist nicht spezifisch für Adobe Learning Manager. Für diese Version ist keine produktspezifische Korrektur verfügbar.
+
+Behalten Sie den Fokus des freigegebenen Browserfensters bei der Präsentation von Videoinhalten. Vermeiden Sie es, während der Wiedergabe zum Fenster &quot;Virtuelles Klassenzimmer&quot; zurückzukehren.
+
+**Teilnehmer können vor dem zulässigen 15-Minuten-Fenster mit einer direkten URL an einer Live Hub-Sitzung teilnehmen**
+In Adobe Learning Manager können Teilnehmer einer Live Hub -Sitzung über das Portal nur innerhalb von 15 Minuten nach der geplanten Startzeit beitreten. Teilnehmer mit einer direkten Sitzungs-URL, z. B. eine, die von einem Kursleiter freigegeben wurde, können jedoch früher an der Sitzung teilnehmen, sofern sie bei Adobe Learning Manager angemeldet sind. Dies ist eine bekannte Einschränkung und kann in einer zukünftigen Version behoben werden.
+
+**Kursleiter kann einem bereits verwendeten Modul nicht beitreten**
+Wenn Kursleiter versuchen, zwei Kursmodule zu starten, die dasselbe virtuelle Klassenzimmer gleichzeitig verwenden, kann nur der erste Kursleiter den Raum erfolgreich betreten.
+
+Adobe Learning Manager verwendet ein einzelnes freigegebenes virtuelles Klassenzimmer für eine Kursinstanz. Wenn der erste Kursleiter den Raum betritt, wird der Raum dem Modul dieses Kursleiters zugeordnet. Zusätzliche Join-Anforderungen werden mit dem aktiven Modul verglichen. Wenn ein anderer Kursleiter versucht, mit einem anderen Modullink teilzunehmen, wird der Zugriff verweigert. Daher können parallele Sitzungen mit Kursleiter nicht innerhalb derselben Kursinstanz mit separaten Modulen durchgeführt werden, die einen Raum gemeinsam nutzen.
+
+Dieses Verhalten wird in der aktuellen Version erwartet und stimmt mit der vorhandenen Raumarchitektur überein. Die Funktionalität wird derzeit auf zukünftige Verbesserungen basierend auf Kundenfeedback überprüft.
+
+**Der Vollbildmodus funktioniert nicht in Firefox unter iPad**
+Wenn Teilnehmer über den Firefox-Browser auf einem iPad auf eine Live-Hub-Sitzung zugreifen, wechselt die Auswahl der Schaltfläche &quot;Vollbild&quot; nicht in den Vollbildmodus. Die Sitzung bleibt in der Standard-Browseransicht, anstatt sie zu erweitern, um den Bildschirm zu füllen.
+Dies ist eine bekannte Browserbeschränkung, die spezifisch für Firefox unter iPad ist. Vollbildfunktionen sind in dieser Kombination aus Browser und Gerät nicht verfügbar. Dies ist eine bekannte Einschränkung und kann in einer zukünftigen Version behoben werden.
 
 **Qualitätseinschränkungen für Untertitel im Live-Hub**
 
@@ -738,7 +778,7 @@ included[].attributes.startDate
 
 startDate stellt das geplante Startdatum und die geplante Startzeit einer Lernobjektinstanz dar.
 
-Weitere Informationen [finden Sie unter API-Änderungen in der Version vom Mai &#x200B;](/help/migrated/api-changes-alm-may.md).
+Weitere Informationen [finden Sie unter API-Änderungen in der Version vom Mai ](/help/migrated/api-changes-alm-may.md).
 
 
 +++
@@ -915,7 +955,7 @@ Feedbackformulare können in weitere Sprachen Kamera bewogen werden, wobei die g
 * Weisen Sie den verschiedenen Schulungsprogrammen maßgeschneiderte Feedback-Formulare zu. So können z. B. bei Vertriebskursen Fragen im NPS-Fokus beantwortet werden, während Compliance-Kurse Fragen in den Bereichen Kurseffektivität und Likert-Skala beantworten, um Klarheit und Richtlinienverständnis zu messen.
 * Verwenden Sie separate Feedbackformulare basierend auf Lernmodulen. Beispiel: drei verschiedene Formulare für angeglichene Module, Module zum Selbststudium und Klassenzimmermodule.
 
-Weitere Informationen finden Sie im [L1-Feedbackformular &#x200B;](/help/migrated/administrators/feature-summary/l1-feedback-form.md).
+Weitere Informationen finden Sie im [L1-Feedbackformular ](/help/migrated/administrators/feature-summary/l1-feedback-form.md).
 
 +++
 
@@ -1029,7 +1069,7 @@ Weitere Informationen zum Fluidic Player finden Sie in diesem [Artikel](/help/mi
 
 * Es wurde ein Problem behoben, durch das Teilnehmer, die einen Kurs abgeschlossen hatten, einen weißen Bildschirm sahen, wenn sie ihn erneut besuchten, nachdem das Inhaltsmodul auf eine neue Version aktualisiert wurde.
 
-Weitere Informationen zu bevorstehenden Änderungen an Adobe Learning Manager finden Sie in diesem [Artikel](https://experienceleague.adobe.com/de/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
+Weitere Informationen zu bevorstehenden Änderungen an Adobe Learning Manager finden Sie in diesem [Artikel](https://experienceleague.adobe.com/en/docs/learning-manager/using/introduction/upcoming-changes-in-adobe-learning-manager).
 
 +++
 
@@ -2075,7 +2115,7 @@ Weitere Informationen finden Sie unter „Neue Funktionen“ im [Update von Lear
 * Das Herunterladen von Ressourcen aus einem Kurs funktionierte nicht, wenn er aus einem anderen Kurs kopiert wurde und der Teilnehmer keinen Zugriff auf den ursprünglichen zum Erstellen des duplizierten Kurses verwendeten Kurs hat.
 * Bannerbilder wurden nicht gelöscht, wenn der Autor sie entfernt, während sich der Kurs im Entwurfsstatus befindet. Dieses Problem wurde behoben.
 
-**AEM &#x200B;**
+**AEM **
 
 * Nach dem Einfügen der Learning Manager-Komponente in AEM dauerte das Laden der Seite lange und der Zugriff auf die anderen Komponenten war nicht möglich. Dieses Problem wurde behoben.
 
@@ -2509,7 +2549,7 @@ In diesem Update kann ein Teilnehmer Assets als Abschlussnachweis für ein exter
 
 Ein Teilnehmer kann ein externes Zertifikat öffnen und Assets wie PDF-, Text- oder Bilddateien hochladen.
 
-Weitere Informationen finden Sie unter [***Hochladen von Assets in externes Zertifikat***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).**&#x200B;**
+Weitere Informationen finden Sie unter [***Hochladen von Assets in externes Zertifikat***](../learners/feature-summary/ipad-android-tablet-users.md#externalcert).****
 
 ### In diesem Update behobene Probleme {#issuesfixedinthisrelease}
 
@@ -2887,7 +2927,7 @@ Freigabedatum: 20. Juni 2019
 
 **Automatische Kuration des Inhalts**
 
-Mit Soziales Lernen können von Teilnehmern gepostete Inhalte auf zwei Arten kuratiert werden: **Keine Kuration** und **Manuelle Kuration**. In dieser Version hat Adobe Learning Manager das Soziale Lernen verbessert, indem AI-fähige Funktionen zur automatischen Kuration bereitgestellt wurden. Sobald der Inhalt veröffentlicht wurde, wird der Inhalt analysiert, um festzustellen, ob der Inhalt zu den Kenntnissen gehört, für die er veröffentlicht wurde. Basierend auf dem Confidence-Ergebnis wird der Inhalt entweder live veröffentlicht oder zur manuellen Kuration gesendet. Weitere Informationen finden Sie unter *[**&#x200B; Automatische Kuration &#x200B;**](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
+Mit Soziales Lernen können von Teilnehmern gepostete Inhalte auf zwei Arten kuratiert werden: **Keine Kuration** und **Manuelle Kuration**. In dieser Version hat Adobe Learning Manager das Soziale Lernen verbessert, indem AI-fähige Funktionen zur automatischen Kuration bereitgestellt wurden. Sobald der Inhalt veröffentlicht wurde, wird der Inhalt analysiert, um festzustellen, ob der Inhalt zu den Kenntnissen gehört, für die er veröffentlicht wurde. Basierend auf dem Confidence-Ergebnis wird der Inhalt entweder live veröffentlicht oder zur manuellen Kuration gesendet. Weitere Informationen finden Sie unter *[** Automatische Kuration **](../administrators/feature-summary/social-learning-configurations-as-an-admin.md#autocuration)**.***
 
 **Zuordnen von Kenntnissen zu Kenntnisdomänen**
 
@@ -3513,7 +3553,7 @@ Freigabedatum: 06. Dezember 2016.
 
 ### Verbesserungen {#enhancement}
 
-Als Teil dieses Updates stellt der Lern-Manager einen Endpunkt <!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) --> bereit, um Benutzer in einer Anwendung zu aktualisieren. Sie können auf diesen API-Endpunkt in der Administratorrolle zugreifen. Unter Verwendung **&#x200B;**&#x200B;Endpunkts können Sie die folgenden Informationen von Learning Manager-Benutzern aktualisieren:
+Als Teil dieses Updates stellt der Lern-Manager einen Endpunkt <!-- [PATCH/users/{id}](<https://learningmanager.adobe.com/docs/Learning>Managerapi/v1/#!/user/patch_users_id) --> bereit, um Benutzer in einer Anwendung zu aktualisieren. Sie können auf diesen API-Endpunkt in der Administratorrolle zugreifen. Unter Verwendung **** Endpunkts können Sie die folgenden Informationen von Learning Manager-Benutzern aktualisieren:
 
 * Name
 * E-Mail
@@ -4023,7 +4063,7 @@ Das Exportieren von Registrierungsdaten schlug fehl, wenn einer der registrierte
 
 **E-Mail-Vorlagen**
 
-* Die Wort **partner,** die verwendet wurden, um externe Gruppen zu repräsentieren **&#x200B;**&#x200B;wurden **&#x200B;**&#x200B;aus dem Text und dem Titel der E-Mail-Vorlagen entfernt. Externe Gruppen werden nicht unbedingt Partner genannt.\
+* Die Wort **partner,** die verwendet wurden, um externe Gruppen zu repräsentieren **** wurden **** aus dem Text und dem Titel der E-Mail-Vorlagen entfernt. Externe Gruppen werden nicht unbedingt Partner genannt.\
   **Hinweis:** Diese aktualisierte Vorlage wird nicht angezeigt, wenn die Standardvorlage bereits geändert wurde. Um die aktualisierte Vorlage anzuzeigen, klicken Sie auf **Auf Original zurücksetzen** im Dialogfeld **Vorlagenvorschau**.
 
 * URL kann in der E-Mail, die von den Administratoren erhalten wird, nicht angeklickt werden, wenn E-Mail-Vorlagen **Profil erstellt (Selbstregistrierung)** und **Profil erstellt (Externe/Partner)** bearbeitet werden. Dieses Problem wurde nun behoben.
