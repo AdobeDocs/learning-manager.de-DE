@@ -6,9 +6,9 @@ exl-id: b5cbe224-e3ee-4ac2-8d9b-95249044dfa6
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 7d6fa2ad2d13520f97c81108ed545e6b7060ff3b
+source-git-commit: be7170bc8e384e0084eaa62b6f31ac0332bac6b5
 workflow-type: tm+mt
-source-wordcount: '7201'
+source-wordcount: '7194'
 ht-degree: 4%
 ---
 # Grundeinstellungen in Adobe Learning Manager
@@ -402,15 +402,13 @@ Wenn Kurse kostenpflichtig sind, können Autoren den Kurs, den Lernpfad oder den
 >
 >Bestimmte Arten von Schulungen, wie wiederkehrende Zertifizierungen und von Managern genehmigte Kurse, können nicht erworben werden.
 
-## Aktivieren der automatischen Teambildung in Adobe Learning Manager
+### Automatische Team-Bildung für Team-basierte Einreichungen {#enable-auto-team-formation}
 
 Aktivieren Sie die automatische Teambildung in den Administratoreinstellungen, damit Adobe Learning Manager die eingeschriebenen Teilnehmer vor jeder Kursinstanz in Teams gruppiert.
 
 Diese Einstellung ist optional. Teameinreichungen funktionieren ohne sie, und Kursleiter können Teams manuell erstellen.
 
 Wenn Sie diese Kontoeinstellung aktivieren, gruppiert Adobe Learning Manager registrierte Teilnehmer automatisch eine bestimmte Anzahl von Tagen vor Beginn jeder Kursinstanz in Teams. Die Einstellung ist standardmäßig deaktiviert. Autoren können den Zeitplan für ihre Kurse anpassen, und Kursleiter können weiterhin Teams manuell erstellen.
-
-### Automatische Teambildung aktivieren
 
 1. Wählen Sie in der Administrator-App **Einstellungen** > **Allgemein**.
 
@@ -430,7 +428,7 @@ Wenn Sie diese Kontoeinstellung aktivieren, gruppiert Adobe Learning Manager reg
 
 Die Einstellung funktioniert nur für Kurse, die über ein teambasiertes Dateiübermittlungsmodul und ein Startdatum der Instanz verfügen.
 
-## Auswirkungen von Änderungen auf Kurse
+#### Auswirkungen von Änderungen auf Kurse
 
 Wenn Sie diese Einstellung ändern, gilt die Änderung nur für Kurse, die Sie nach dem Speichern erstellen. Bereits vorhandene Kurse behalten die Konfiguration bei, mit der sie veröffentlicht wurden, unabhängig davon, ob die automatische Teambildung aktiviert oder deaktiviert wurde, und sie halten ihren Zeitplan ein. Wenn Sie die Einstellung beispielsweise im März aktivieren, wird sie für im Februar erstellte Kurse nicht angezeigt, für im März oder später erstellte Kurse schon.
 
