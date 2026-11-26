@@ -7,9 +7,9 @@ exl-id: ae9251b6-5326-42c2-881e-2ab3393d9e17
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: 3b08fa3d0954da4352dabd7ef855f446817fda84
+source-git-commit: ba51f210cd63e074c009aa167173cfee35a44fe1
 workflow-type: tm+mt
-source-wordcount: '40345'
+source-wordcount: '40347'
 ht-degree: 55%
 ---
 # Versionshinweise zu Adobe Learning Manager
@@ -355,6 +355,7 @@ Dieses Verhalten wird in der aktuellen Version erwartet und stimmt mit der vorha
 
 **Der Vollbildmodus funktioniert nicht in Firefox unter iPad**
 Wenn Teilnehmer über den Firefox-Browser auf einem iPad auf eine Live-Hub-Sitzung zugreifen, wechselt die Auswahl der Schaltfläche &quot;Vollbild&quot; nicht in den Vollbildmodus. Die Sitzung bleibt in der Standard-Browseransicht, anstatt sie zu erweitern, um den Bildschirm zu füllen.
+
 Dies ist eine bekannte Browserbeschränkung, die spezifisch für Firefox unter iPad ist. Vollbildfunktionen sind in dieser Kombination aus Browser und Gerät nicht verfügbar. Dies ist eine bekannte Einschränkung und kann in einer zukünftigen Version behoben werden.
 
 **Qualitätseinschränkungen für Untertitel im Live-Hub**
