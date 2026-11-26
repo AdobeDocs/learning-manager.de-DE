@@ -61,7 +61,7 @@ Registrieren Sie die Domäne für jeden KI-Assistenten, den Sie verbinden möcht
 
 Ein MCP-Server kann mehrere AI-Assistenten bereitstellen, wenn Sie alle Umleitungsdomänen auflisten. Um einem Assistenten den Zugriff zu entziehen, ohne die anderen zu beeinträchtigen, erstellen Sie für jeden Assistenten einen separaten MCP-Server. Alle Server verwenden dieselbe MCP-Server-URL.
 
-Sie benötigen nur die MCP-Server-URL. Claude und ChatGPT erkennen automatisch die Learning Manager OAuth-Endpunkte. Zeigen Sie für die manuelle Einrichtung [OAuth-Endpunkte für den Learning Manager-MCP-Server ](#oauth-endpoints-reference) an.
+Sie benötigen nur die MCP-Server-URL. Claude und ChatGPT erkennen automatisch die Learning Manager OAuth-Endpunkte. Zeigen Sie für die manuelle Einrichtung [OAuth-Endpunkte für den Learning Manager-MCP-Server &#x200B;](#oauth-endpoints-reference) an.
 
 ## MCP-Client anschließen
 
