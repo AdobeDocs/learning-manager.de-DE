@@ -4,7 +4,7 @@ description: Erfahren Sie, wie Administratoren organisationsweite Feiertage defi
 product_v2:
   - id: ed12e5b7-96e3-45e7-a17f-de222065ebcb
     internal-label: Learning Manager
-source-git-commit: c061ccbefe8d40154220587796062d335e35de77
+source-git-commit: d0b166a48876f5dcb7268c9c956d624cff55fae1
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 7%
@@ -58,7 +58,7 @@ So fügen Sie einen Feiertag manuell hinzu:
 
 1. Wählen Sie **Speichern**. Der Feiertag wird der Liste hinzugefügt.
 
-### Mehrere Feiertage hinzufügen
+### Mehrere Feiertage hinzufügen {#holidays-in-bulk}
 
 Fügen Sie mithilfe einer CSV-Datei mehrere Feiertage auf einmal hinzu.
 
